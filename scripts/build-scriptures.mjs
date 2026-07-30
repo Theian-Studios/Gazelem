@@ -29,7 +29,8 @@ const OUT_DIR = resolve(here, "..", "public/scriptures");
 
 const BOM_BOOKS = ["1 Nephi","2 Nephi","Jacob","Enos","Jarom","Omni","Words of Mormon",
   "Mosiah","Alma","Helaman","3 Nephi","4 Nephi","Mormon","Ether","Moroni"];
-const MISSING = "[not legible in the 1920 scan]";
+const PGP_BOOKS = ["Moses","Abraham","Joseph Smith\u2014Matthew","Joseph Smith\u2014History","Articles of Faith"];
+const MISSING = "[not legible in the page scan]";
 
 // ---------------------------------------------------------------- helpers
 const words = (s) => s.toLowerCase().replace(/[^a-z ]/g, " ").split(/\s+/).filter(Boolean);
@@ -52,9 +53,18 @@ function isFurniture(line) {
   if (!s) return true;
   if (/^[0-9]{1,4}$/.test(s)) return true;                          // page number
   if (/^[0-9A-Z][A-Z0-9 .'’]*,\s*[0-9]+\.?$/.test(s)) return true;  // running head
+  // The Pearl of Great Price sets its running heads as "4 PEARL OF GREAT
+  // PRICE." or "II.] WRITINGS OF JOSEPH SMITH. 9^".
+  if (/PEARL\s+OF\s+GREAT\s+PRICE/i.test(s)) return true;
+  if (/^[IVXY]{1,5}\.?\]/.test(s)) return true;
   if (/\d\s*:\s*\d/.test(s)) return true;                           // reference apparatus
   if (/^[0-9a-zA-Z]{1,3}[,.]\s+(see\b|[0-9]?\s*[A-Z][a-z]{1,4}\.)/.test(s)) return true;
   if (/^see\s+[0-9a-z]{1,3},/.test(s)) return true;
+  // The Pearl of Great Price keys its footnotes to verses rather than to other
+  // books: "w, compare verse 8. x, verse 3." — no chapter:verse pair to catch.
+  if (/^[0-9a-zA-Z]{1,3}[,.]\s+(compare\s+)?verses?\b/i.test(s)) return true;
+  if (/^(compare\s+)?verses?\s+\d/i.test(s)) return true;   // apparatus running on
+  if ((s.match(/\bverses?\s+\d/gi) || []).length >= 2 && /^[0-9a-zA-Z]{1,3}[,.]/.test(s)) return true;
   // Date banners, including badly scanned ones ("Bbtwibn B. 0. 000 ANO 6U2").
   const letters = s.replace(/[^A-Za-z]/g, "");
   const upper = s.replace(/[^A-Z]/g, "").length;
@@ -65,26 +75,40 @@ function isFurniture(line) {
 }
 
 const isHeading = (s) =>
-  /^CHAPT[A-Z0-9]{0,3}R?\s+[0-9]+\.?$/i.test(s) ||
+  // "CHAPTER 12." in the Book of Mormon; the Pearl of Great Price numbers its
+  // chapters in roman, which the scan mangles ("CHAPTER YII.", "CHAPTER y.").
+  /^CHAPT[A-Z0-9]{0,3}R?\s+([0-9]+|[IVXYL]{1,6})\.?[^a-z]*$/i.test(s) ||
   /^THE\s+(FIRST|SECOND|THIRD|FOURTH)?\s*BOOK\s+O[FP]/i.test(s) ||
   /^THE\s+WORDS\s+OF\s+MORMON/i.test(s) ||
-  /^(THIRD|FOURTH)\s+NEPHI/i.test(s);
+  /^(THIRD|FOURTH)\s+NEPHI/i.test(s) ||
+  /^WRITINGS\s+OF\s+JOSEPH\s+SMITH/i.test(s) ||
+  /^THE\s+ARTICLES\s+O[FP]\s+[EF]AITH/i.test(s);
+
+// Misreadings frequent enough to be worth correcting and unambiguous enough to
+// be safe: each is a word that does not otherwise occur in scripture. Anything
+// open to interpretation is left exactly as the scan has it.
+const MISREADINGS = new Map(Object.entries({
+  NephI: "Nephi", LamanItes: "Lamanites", Lamanltes: "Lamanites",
+  Jesns: "Jesus", Ood: "God", Gk: "God", Grod: "God",
+  tbe: "the", tlie: "the", tho: "the", aud: "and", aiid: "and",
+}));
 
 const tidy = (t) => t
   .replace(/[“”"'‘’*^|]+/g, "")   // superscript footnote letters became stray glyphs
-  // The scan reads a lowercase i as a capital I mid-sentence ("go forth Into
-  // the wilderness"). Only these five words are corrected, so proper nouns like
-  // Israel, Isaiah and Ishmael are never touched.
-  .replace(/([^.!?:;]\s+)(It|In|Is|If|Into)\b/g, (m, pre, w) => pre + w.toLowerCase())
+  // The scan reads a lowercase letter as a capital mid-sentence ("go forth
+  // Into the wilderness", "Thou Shalt construct"). Only these words are
+  // lowered, so proper nouns like Israel, Isaiah and Ishmael are untouched.
+  .replace(/([^.!?:;]\s+)(It|In|Is|If|Into|Shalt|Unto|Shall)\b/g, (m, pre, w) => pre + w.toLowerCase())
+  .replace(/[A-Za-z]+/g, (w) => MISREADINGS.get(w) ?? w)
   .replace(/\s+([,.;:!?])/g, "$1")
   .replace(/\s+/g, " ")
   .trim();
 
-function readScan(path) {
+function readScan(path, startRe, endRe) {
   const lines = readFileSync(path, "utf8").split("\n");
-  const from = lines.findIndex((l) => /^\s*CHAPTER\s+1\.\s*$/.test(l));
-  const to = lines.findIndex((l) => /^\s*PRONOUNCING\s+VOCABULARY/.test(l));
-  if (from === -1) throw new Error("could not find the start of 1 Nephi in the scan");
+  const from = lines.findIndex((l) => startRe.test(l));
+  const to = lines.findIndex((l, i) => i > from && endRe.test(l));
+  if (from === -1) throw new Error(`could not find the start of the text in ${path}`);
   const body = lines.slice(from, to === -1 ? lines.length : to);
 
   const out = [];
@@ -149,10 +173,65 @@ function writeVolume(file, books) {
   console.log(`  wrote ${file}: ${books.length} books, ${chapters} chapters, ${verses} verses`);
 }
 
+// Builds one volume from a page scan: pull the verse blocks out, then place
+// them into the canonical chapters by wording.
+async function buildFromScan({ label, path, startRe, endRe, books, guideFile, outFile }) {
+  console.log(`\n${label}`);
+  const blocks = readScan(path, startRe, endRe);
+  const expected = books.reduce((a, b) => a + VERSE_COUNTS[b].reduce((x, y) => x + y, 0), 0);
+  console.log(`  ${blocks.length} verse blocks recovered from the scan (canonical ${expected})`);
+
+  // The modern edition supplies the map of where verses belong; none of its
+  // wording is written out.
+  const modern = await (await fetch(`https://cdn.jsdelivr.net/gh/bcbooks/scriptures-json@master/${guideFile}`)).json();
+  const guide = {};
+  for (const b of modern.books) {
+    guide[b.book] = {};
+    for (const ch of b.chapters) guide[b.book][ch.chapter] = ch.verses.map((v) => v.text);
+  }
+
+  let cursor = 0, placed = 0;
+  const gaps = [];
+  const built = [];
+  for (const book of books) {
+    const counts = VERSE_COUNTS[book];
+    const chapters = [];
+    for (let c = 1; c <= counts.length; c++) {
+      const reference = guide[book][c];
+      const window = blocks.slice(cursor, cursor + counts[c - 1] + 6);
+      const { slots, consumed } = placeChapter(window, reference);
+      cursor += consumed;
+      slots.forEach((t, i) => { if (t) placed++; else gaps.push(`${book} ${c}:${i + 1}`); });
+      chapters.push(chapterOf(book, c, slots.map((t) => t || MISSING)));
+    }
+    built.push({ book, chapters });
+  }
+
+  // How close is the placed wording to the modern edition? Differences mix
+  // genuine older readings with leftover OCR damage, so this is a health
+  // signal rather than a pass/fail.
+  let n = 0, sum = 0, low = 0;
+  for (const b of built) for (const ch of b.chapters) ch.verses.forEach((v, i) => {
+    if (v.text === MISSING) return;
+    const ref = guide[b.book][ch.chapter][i];
+    if (!ref) return;
+    const s = similarity(v.text, ref); n++; sum += s;
+    if (s < 0.9) low++;
+  });
+  console.log(`  verses placed: ${placed}/${expected}, not legible: ${gaps.length}`);
+  console.log(`  mean wording agreement with the modern edition: ${(sum / n).toFixed(4)}`);
+  console.log(`  verses differing by more than 10%: ${low} (older readings and OCR damage mixed)`);
+  writeVolume(outFile, built);
+  return gaps;
+}
+
 // ---------------------------------------------------------------- main
-const scanPath = process.argv[2];
-if (!scanPath) {
-  console.error("usage: npm run build:scriptures -- <book-of-mormon-1920_djvu.txt>");
+const args = process.argv.slice(2);
+const flag = (name) => { const i = args.indexOf(name); return i === -1 ? null : args[i + 1]; };
+const bomPath = flag("--bom") ?? (args[0] && !args[0].startsWith("--") ? args[0] : null);
+const pgpPath = flag("--pgp");
+if (!bomPath) {
+  console.error("usage: npm run build:scriptures -- --bom <bom_djvu.txt> [--pgp <pgp_djvu.txt>]");
   process.exit(1);
 }
 
@@ -189,51 +268,28 @@ console.log(`  verse-count mismatches: ${bibleBad}`);
 writeVolume("old-testament.json", byVolume.ot);
 writeVolume("new-testament.json", byVolume.nt);
 
-console.log("\nBook of Mormon (1920 edition, page scan)");
-const blocks = readScan(scanPath);
-console.log(`  ${blocks.length} verse blocks recovered from the scan (canonical 6604)`);
+const gaps = [];
+gaps.push(...await buildFromScan({
+  label: "Book of Mormon (1920 edition, page scan)",
+  path: bomPath,
+  startRe: /^\s*CHAPTER\s+1\.\s*$/,
+  endRe: /^\s*PRONOUNCING\s+VOCABULARY/,
+  books: BOM_BOOKS,
+  guideFile: "book-of-mormon.json",
+  outFile: "book-of-mormon.json",
+}));
 
-// The modern edition supplies the map of where verses belong; none of its
-// wording is written out.
-const modern = await (await fetch("https://cdn.jsdelivr.net/gh/bcbooks/scriptures-json@master/book-of-mormon.json")).json();
-const guide = {};
-for (const b of modern.books) {
-  guide[b.book] = {};
-  for (const ch of b.chapters) guide[b.book][ch.chapter] = ch.verses.map((v) => v.text);
+if (pgpPath) {
+  gaps.push(...await buildFromScan({
+    label: "Pearl of Great Price (1902 versification, page scan)",
+    path: pgpPath,
+    startRe: /^\s*THE\s+BOOK\s+OF\s+MOSES\.\s*$/,
+    endRe: /^\s*(GAYLORD|PRINTED\s+IN\s+U\.?S\.?A)/i,
+    books: PGP_BOOKS,
+    guideFile: "pearl-of-great-price.json",
+    outFile: "pearl-of-great-price.json",
+  }));
 }
 
-let cursor = 0, placed = 0, gaps = [];
-const bomBooks = [];
-for (const book of BOM_BOOKS) {
-  const counts = VERSE_COUNTS[book];
-  const chapters = [];
-  for (let c = 1; c <= counts.length; c++) {
-    const reference = guide[book][c];
-    const window = blocks.slice(cursor, cursor + counts[c - 1] + 6);
-    const { slots, consumed } = placeChapter(window, reference);
-    cursor += consumed;
-    slots.forEach((t, i) => { if (t) placed++; else gaps.push(`${book} ${c}:${i + 1}`); });
-    chapters.push(chapterOf(book, c, slots.map((t) => t || MISSING)));
-  }
-  bomBooks.push({ book, chapters });
-}
-
-// How close is the placed wording to the modern edition? Differences are a mix
-// of genuine 1920 readings and leftover OCR damage, so this is a health signal
-// rather than a pass/fail.
-let n = 0, sum = 0, low = 0;
-for (const b of bomBooks) for (const ch of b.chapters) ch.verses.forEach((v, i) => {
-  if (v.text === MISSING) return;
-  const ref = guide[b.book][ch.chapter][i];
-  if (!ref) return;
-  const s = similarity(v.text, ref);
-  n++; sum += s;
-  if (s < 0.9) low++;
-});
-console.log(`  verses placed: ${placed}/6604, not legible: ${gaps.length}`);
-console.log(`  mean wording agreement with the modern edition: ${(sum / n).toFixed(4)}`);
-console.log(`  verses differing by more than 10%: ${low} (1920 readings and OCR damage mixed)`);
-writeVolume("book-of-mormon.json", bomBooks);
-
-writeFileSync(resolve(OUT_DIR, "gaps.json"), JSON.stringify({ note: "Verses the 1920 scan did not yield; each shows " + MISSING + " in the reader.", verses: gaps }, null, 1));
-console.log(`  wrote gaps.json listing ${gaps.length} verses still to be keyed in by hand`);
+writeFileSync(resolve(OUT_DIR, "gaps.json"), JSON.stringify({ note: "Verses the page scans did not yield; each shows " + MISSING + " in the reader.", verses: gaps }, null, 1));
+console.log(`\nwrote gaps.json listing ${gaps.length} verses still to be keyed in by hand`);

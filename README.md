@@ -54,20 +54,26 @@ back to the 1920 synopses, which is what the published site shows.
 | Volume | Source | State |
 |---|---|---|
 | Old & New Testament | King James Version (aruljohn/Bible-kjv) | 1,189 chapters, 31,102 verses; every chapter matches the canonical verse counts |
-| Book of Mormon | 1920 Salt Lake City edition, Internet Archive page scan | 6,548 of 6,604 verses; 56 listed in `gaps.json` |
+| Book of Mormon | 1920 Salt Lake City edition, Internet Archive page scan | 6,548 of 6,604 verses placed, agreement 0.986; 56 gaps |
+| Pearl of Great Price | Talmage's 1902 versification (1913 printing), page scan | 599 of 635 verses placed, agreement 0.958; 36 gaps |
 
-The Book of Mormon is OCR of a two-column setting, so the build separates
-scripture from page furniture and places each verse by comparing wording with
-the modern edition — used only as a map of where verses belong; every word
-written out comes from the 1920 scan. Mean agreement with the modern edition is
-0.985; the difference is a mix of genuine 1920 readings ("a white and
+The two scans are OCR of two-column settings, so the build separates scripture
+from page furniture — running heads, page numbers, date banners and the
+cross-reference apparatus at the foot of each page — and places each verse by
+comparing wording with the modern edition. That comparison is used **only** as
+a map of where a verse belongs; every word written out comes from the scan.
+The remaining difference is a mix of genuine older readings ("a white and
 delightsome people", "a descendant of Joseph") and leftover OCR damage. Verses
-the scan did not yield say so in the reader rather than appearing blank.
+the scans did not yield are listed in `gaps.json` and say so in the reader
+rather than appearing blank.
 
-**Still owed:** the Doctrine and Covenants and the Pearl of Great Price are
-still fetched from `bcbooks/scriptures-json`, which is *not* public domain — it
-is the current (1981/2013) edition, © Intellectual Reserve. Two checks settle
-it: 2 Nephi 30:6 there reads "pure and a delightsome", wording introduced in
-1981, and 1 Nephi 20:1 carries the "waters of baptism" clause restored in 1981.
-Publishing those two volumes needs pre-1929 scans of the 1921 editions, the
-same way the Book of Mormon was done.
+A short table of misreadings is corrected (`NephI`, `Jesns`, `Lamanltes`), and
+a few words the scan capitalises mid-sentence are lowered. Both lists are
+deliberately small: anything open to interpretation is left as the scan has it.
+
+**Still owed:** the Doctrine and Covenants is still fetched from
+`bcbooks/scriptures-json`, which is *not* public domain — it is the current
+(1981/2013) edition, © Intellectual Reserve. Two checks settle it: 2 Nephi 30:6
+there reads "pure and a delightsome", wording introduced in 1981, and 1 Nephi
+20:1 carries the "waters of baptism" clause restored in 1981. Publishing it
+needs a pre-1929 scan of the 1921 edition, handled the same way.

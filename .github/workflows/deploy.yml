@@ -1,0 +1,67 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  # Lets you re-run a deploy by hand from the Actions tab.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deploy at a time; a newer push supersedes one still in flight.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      # A project repo is served from /<repo>/, a user site from the root, so
+      # the base path is derived from the repo's own name rather than pinned.
+      - name: Work out the base path
+        run: |
+          repo="${{ github.event.repository.name }}"
+          if [[ "$repo" == *.github.io ]]; then
+            echo "SITE_BASE=/" >> "$GITHUB_ENV"
+          else
+            echo "SITE_BASE=/$repo/" >> "$GITHUB_ENV"
+          fi
+
+      - run: npm run build
+
+      # Belt and braces: the build already strips public/local, but never
+      # publish the copyrighted study helps even if that plugin regresses.
+      - name: Check no copyrighted study helps are in the build
+        run: |
+          if [ -e dist/local ]; then
+            echo "dist/local exists — refusing to publish copyrighted summaries."
+            exit 1
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

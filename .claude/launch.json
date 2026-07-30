@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "scripture-site-dev",
+      "runtimeExecutable": "/Users/iansorensen/.local/node/bin/node",
+      "runtimeArgs": ["node_modules/vite/bin/vite.js", "--port", "5173", "--strictPort"],
+      "port": 5173
+    },
+    {
+      "name": "scripture-site-dev-5174",
+      "runtimeExecutable": "/Users/iansorensen/.local/node/bin/node",
+      "runtimeArgs": ["node_modules/vite/bin/vite.js", "--port", "5174", "--strictPort"],
+      "port": 5174
+    }
+  ]
+}

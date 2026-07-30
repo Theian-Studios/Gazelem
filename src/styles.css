@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&display=swap');
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+
+.serif { font-family: 'Literata', 'Iowan Old Style', Georgia, serif; }
+
+/* ---- Layout -------------------------------------------------------------
+   Narrow: breadcrumbs + search ride along the top as a sticky bar.
+   Wide:   the same block docks to the left as a sidebar, and the reader stays
+           centred in the space that remains. Kept in CSS (not inline styles)
+           purely so the media query can reach it. */
+.chrome { position: sticky; top: 0; z-index: 20; padding: 14px 16px; }
+.chrome-inner { max-width: 652px; margin: 0 auto; position: relative; }
+/* 652 - 32px of padding leaves the reader card 620 wide. */
+.content { position: relative; z-index: 1; max-width: 652px; margin: 0 auto; padding: 8px 16px 140px; }
+.navdock { position: fixed; bottom: 22px; left: 0; right: 0; }
+
+/* Padding as a variable so the sticky chapter head can cancel it and span the
+   full card width. overflow: clip keeps the head's square corners inside the
+   card's rounded ones — and, unlike hidden, doesn't break sticky. */
+.reader-card { --pad: clamp(24px, 5vw, 52px); padding: var(--pad); overflow: clip; }
+
+/* The chapter title pins to the top of the viewport while its chapter scrolls.
+   It can't blur what passes beneath it (a nested backdrop-filter no-ops inside
+   the card — see theme.js), so a near-opaque wash fading to nothing stands in
+   for the frosted edge. */
+.chapter-head {
+  position: sticky;
+  top: 0;
+  z-index: 6;
+  text-align: center;
+  margin: calc(var(--pad) * -1) calc(var(--pad) * -1) 0;
+  /* --raise lifts the title toward the top of the card. The wash below cancels
+     it again so the gradient's bottom edge stays put as the title moves up. */
+  --raise: 9px;
+  padding: calc(var(--pad) * 0.6 - var(--raise)) var(--pad) 24px;
+}
+
+/* The wash is a pseudo-element rather than the header's own background so its
+   tail can hang below the header's box: extending the padding instead would
+   push the chapter summary down with it. Opaque through the title, then a long
+   soft fade — a short tail reads as a hard shadow edge. Corners stay square;
+   the card's overflow clip rounds them. z-index keeps it behind the title but
+   inside the header's stacking context, so it still covers passing verses. */
+.chapter-head::before {
+  content: "";
+  position: absolute;
+  /* Raising the title shortens this box from the bottom, so the tail grows by
+     the same amount to leave the fade where it was. */
+  left: 0; right: 0; top: 0; bottom: calc(-18px - var(--raise));
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(180deg,
+    #fdfdfe 0%,
+    #fdfdfe 46%,
+    rgba(253,253,254,0) 100%);
+}
+
+/* Below the sidebar breakpoint the top bar is sticky too, so the chapter head
+   pins just beneath it. Its height depends on how the breadcrumbs wrap, so
+   App.jsx measures it into --chrome-h. */
+@media (max-width: 1039.98px) {
+  /* Minus the bar's 14px bottom padding, so no unmasked strip of verse text
+     shows between the floating search card and the pinned title. */
+  .chapter-head { top: calc(var(--chrome-h, 14px) - 14px); }
+}
+
+.crumbs { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.crumb { display: inline-flex; align-items: center; gap: 8px; }
+
+/* Sidebar (360) + reader (620) + gutters. Below this the columns would crowd
+   the text, so the top bar is the better arrangement. */
+@media (min-width: 1040px) {
+  .chrome {
+    position: fixed;
+    top: 0; left: 0; bottom: 0;
+    width: 300px;
+    padding: 16px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    /* 18px = the reader's 8px of top padding plus the article's 10px margin, so
+       the panel's top edge lines up with the top of the card. */
+    padding-top: 18px;
+  }
+  .chrome-inner { max-width: none; margin: 0; width: 100%; }
+
+  /* One crumb per line, centred, with the chevrons dropped — the stack itself
+     reads as the hierarchy, so the separators are just noise in a narrow column. */
+  .crumbs { flex-direction: column; align-items: center; text-align: center; gap: 2px; }
+  .crumb-sep { display: none; }
+
+  /* Padding, not margin: box-sizing is border-box, so the reader keeps its
+     680px measure inside a block that stays centred on the page. */
+  .content { max-width: 952px; padding-left: 316px; }
+  .navdock { left: 300px; }
+}
+
+/* The lens controls live in the left column with the navigation; the notes get
+   a column of their own on the right. Both stay hidden while the chrome is a
+   sticky top bar — a full notes card inside the header would swamp it. */
+.side-extras { display: none; }
+.lens-box { margin-top: 12px; }
+/* Empty when the book has no captions — :empty keeps it from adding a gap. */
+.timeline-box { margin-top: 12px; }
+.timeline-box:empty { display: none; }
+.commentary-inline { margin-top: 12px; }
+.commentary-col { display: none; }
+
+@media (min-width: 1040px) {
+  .side-extras { display: block; }
+}
+
+/* Three columns: nav + lenses, the reader, and the notes. The reader is fluid
+   between the two fixed columns and capped at its 620px measure, so the notes
+   can sit on the right without waiting for a very wide window. */
+@media (min-width: 1120px) {
+  .commentary-inline { display: none; }
+  .commentary-col {
+    display: block;
+    position: fixed;
+    top: 0; right: 0; bottom: 0;
+    width: 320px;
+    /* Top spacing lives on the first card, not here: padding on the scroll
+       container sits above a pinned heading, and content ghosts through it. */
+    padding: 0 16px 18px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    z-index: 20;
+  }
+  .commentary-col > :first-child { margin-top: 18px; }
+  .content { max-width: none; padding-left: 316px; padding-right: 336px; }
+  .content > * { max-width: 620px; margin-left: auto; margin-right: auto; }
+  /* Tighter card padding: the middle column is the one being squeezed. */
+  .reader-card { --pad: clamp(22px, 3vw, 44px); padding: var(--pad); }
+  .navdock { left: 300px; right: 320px; }
+}
+
+/* Commentary card headings pin to the top of their scroll column (the right
+   panel, or the left sidebar when the notes fall back there). Sticky is scoped
+   to each card, so an arriving card's heading pushes the pinned one away. */
+.commentary-head {
+  /* Type lives here rather than inline, so every card heading matches. */
+  font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase;
+  color: #a4853d; font-weight: 700;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  margin: -14px -16px 8px;
+  padding: 13px 16px 16px;
+  background: linear-gradient(180deg,
+    #fdfdfe 0%,
+    #fdfdfe 65%,
+    rgba(253,253,254,0) 100%);
+}
+
+/* Chapter overview: speakers, audience, principles. Each list gets a small
+   caps label and gold dot bullets, so three lists read as three groups without
+   rules between them. */
+.meta-group { margin-bottom: 10px; }
+.meta-group:last-child { margin-bottom: 0; }
+.meta-label {
+  font-size: 9.5px; letter-spacing: 0.09em; text-transform: uppercase;
+  color: #1d1d1f; font-weight: 700; margin: 0 0 4px;
+}
+/* Audience is written as prose rather than a list. */
+.meta-text { color: #6e6e73; font-size: 12px; line-height: 1.45; margin: 0; }
+
+.meta-list, .meta-sublist { list-style: none; padding: 0; margin: 0; }
+.meta-list li, .meta-sublist li {
+  position: relative; padding-left: 11px;
+  color: #6e6e73; font-size: 12px; line-height: 1.45; margin: 0 0 3px;
+}
+.meta-list > li:last-child, .meta-sublist li:last-child { margin-bottom: 0; }
+.meta-list > li::before {
+  content: "";
+  position: absolute; left: 1px; top: 7px;
+  width: 3.5px; height: 3.5px; border-radius: 999px;
+  background: rgba(164,133,61,.7);
+}
+/* The voices quoted inside a speaker's discourse: indented, and marked with a
+   hollow dot so they read as subordinate to the speaker above. */
+.meta-sublist { margin: 2px 0 0; }
+.meta-sublist li { padding-left: 11px; margin-bottom: 2px; }
+.meta-sublist li::before {
+  content: "";
+  position: absolute; left: 1.5px; top: 7px;
+  width: 3px; height: 3px; border-radius: 999px;
+  border: 1px solid rgba(164,133,61,.55);
+}
+
+/* Short doctrinal keywords, set as tags so twelve of them stay scannable. */
+.meta-tags {
+  list-style: none; display: flex; flex-wrap: wrap; gap: 4px;
+  padding: 0; margin: 2px 0 0;
+}
+.meta-tags li {
+  font-size: 10.5px; line-height: 1.5; font-weight: 600;
+  color: rgba(138,111,46,.95);
+  background: rgba(164,133,61,.11);
+  border-radius: 999px; padding: 1.5px 7px;
+}
+
+/* The heading doubles as the collapse control: full width so the whole strip is
+   the hit area, and inheriting the heading's type so it reads as a heading. */
+.card-toggle {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  width: 100%; text-align: left;
+  border: 0; background: none; padding: 0; margin: 0;
+  font: inherit; color: inherit; letter-spacing: inherit; text-transform: inherit;
+  cursor: pointer;
+  transition: color .15s;
+}
+.card-toggle:hover { color: #6b551f; }
+.card-toggle:focus-visible { outline: 2px solid #3a5a8c; outline-offset: 3px; border-radius: 5px; }
+.card-chevron {
+  flex-shrink: 0; opacity: .75;
+  transition: transform .2s cubic-bezier(.2,.8,.2,1);
+}
+/* Points down when open, right when folded away. */
+.card-chevron[data-open="false"] { transform: rotate(-90deg); }
+/* Collapsed, the card is just its heading — cancel the body's bottom padding. */
+[data-collapsed="true"] .commentary-head { margin-bottom: -14px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .card-chevron, .card-toggle { transition: none !important; }
+}
+
+/* Hover deepens rather than fades: these are already grey, and lightening them
+   reads as disabled instead of active. */
+.lens-row, .lens-arc { transition: filter .18s, transform .18s cubic-bezier(.2,.8,.2,1); }
+.lens-row:hover, .lens-arc:hover { filter: brightness(.82); }
+.lens-row:hover { transform: translateY(-1px); }
+.lens-row:active { transform: translateY(0); }
+/* Never focusable, so it can't pick up the browser's default focus ring — that
+   ring traces the group's bbox, which includes the invisible wide hit-stroke. */
+.lens-arc { cursor: pointer; outline: none; }
+.lens-row:focus-visible { outline: 2px solid #3a5a8c; outline-offset: 3px; border-radius: 8px; }
+
+/* A phrase carrying a cross connection. Colour only — no underline or
+   background — because a run's whitespace sits outside it when overlapping
+   anchors change mid-phrase, and any drawn decoration would show the seams. */
+.conn-anchor {
+  color: #9c7c34;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: color .18s, background .18s;
+}
+.conn-anchor:hover { color: #6b551f; background: rgba(164,133,61,.14); }
+.conn-anchor:focus-visible { outline: 2px solid #3a5a8c; outline-offset: 2px; }
+/* The footnote letter leads the phrase, as in the printed editions. */
+.conn-anchor::before {
+  content: attr(data-marks);
+  font-size: .6em; vertical-align: super; line-height: 0;
+  margin-right: 1px; font-weight: 700; color: #b08d3e;
+}
+
+/* ---- Chapter band ------------------------------------------------------
+   A column of numbered stops with their captions beside them, threaded by a
+   rule that runs behind the circles. The circles are opaque, so the rule
+   reads as passing under them. */
+/* Six rows deep. The fades at the edges, plus the rule running past the end
+   stops, are what say the list carries on above and below. */
+.ct-scroll {
+  max-height: 252px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: none;
+}
+.ct-scroll::-webkit-scrollbar { display: none; }
+.ct-scroll[data-more="true"] {
+  -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 22px, #000 calc(100% - 22px), transparent 100%);
+  mask-image: linear-gradient(180deg, transparent 0, #000 22px, #000 calc(100% - 22px), transparent 100%);
+}
+
+.chapter-timeline { position: relative; display: flex; flex-direction: column; }
+/* Left edge sits on the circles' centre line: 15px in, less half its width.
+   Spans the whole list, so it runs past the first and last stop. */
+.ct-line { position: absolute; top: 0; bottom: 0; left: 14.25px; width: 1.5px; background: rgba(31,45,71,.15); }
+.ct-stop {
+  /* Fixed row height, so the rule's centre-to-centre inset is exact and the
+     stops stay evenly spaced whether a caption runs to one line or two. */
+  height: 42px;
+  display: flex; align-items: center; gap: 10px;
+  width: 100%; text-align: left;
+  border: 0; background: none; padding: 0; cursor: pointer;
+}
+.ct-stop[aria-current="page"] { cursor: default; }
+
+.ct-caption {
+  flex: 1; min-width: 0;
+  font-size: 10.5px; line-height: 1.35; font-style: italic;
+  color: rgba(110,110,115,.9);
+  /* Two lines at most, so a long caption can't push its row out of step. */
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  overflow: hidden;
+  transition: color .18s;
+}
+.ct-caption[data-on="true"] { font-style: normal; font-weight: 600; color: #1d1d1f; }
+.ct-stop:hover .ct-caption { color: #1d1d1f; }
+
+.ct-dot {
+  position: relative; z-index: 1; flex-shrink: 0;
+  width: 30px; height: 30px; border-radius: 999px;
+  display: grid; place-items: center;
+  font-size: 12px; font-weight: 500; color: #1d1d1f;
+  background: #fdfdfe; border: 1.5px solid rgba(31,45,71,.2);
+  transition: transform .18s cubic-bezier(.2,.8,.2,1), background .18s, border-color .18s, color .18s;
+}
+.ct-dot[data-on="true"] {
+  background: #46474d; border-color: #46474d; color: #fff; font-weight: 700;
+}
+.ct-stop:hover .ct-dot { transform: translateX(2px); border-color: rgba(31,45,71,.42); }
+.ct-stop[aria-current="page"]:hover .ct-dot { transform: none; }
+.ct-stop:focus-visible { outline: 2px solid #3a5a8c; outline-offset: 2px; border-radius: 10px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ct-dot, .ct-caption { transition: none !important; }
+  .ct-stop:hover .ct-dot { transform: none !important; }
+}
+
+.conn-pop { animation: dropdown .13s cubic-bezier(.16,1,.3,1) backwards; }
+/* Opens the referenced passage in the reader. */
+.conn-goto {
+  display: inline-flex; align-items: center; gap: 4px;
+  border: 0; background: none; padding: 0; margin: 0 0 4px;
+  font-size: 10px; letter-spacing: .08em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d; cursor: pointer;
+  transition: color .15s, transform .15s;
+}
+.conn-goto:hover { color: #6b551f; transform: translateX(1px); }
+
+/* Chevron between the bottom pill's steps. */
+.pill-sep {
+  flex-shrink: 0; color: rgba(110,110,115,.5);
+  font-size: 13px; line-height: 1; user-select: none;
+}
+
+/* A cross connection in the sidebar; clicking it scrolls the reader to its verse. */
+.conn-jump {
+  display: flex; gap: 8px; align-items: baseline;
+  width: 100%; text-align: left; border: 0; background: none;
+  padding: 3px 4px; margin: 0 0 0 -4px; border-radius: 6px;
+  font-size: 11.5px; line-height: 1.5; cursor: pointer;
+  transition: background .15s;
+}
+.conn-jump:hover { background: rgba(164,133,61,.12); }
+.conn-jump-id {
+  flex-shrink: 0; min-width: 24px;
+  font-size: 10px; font-weight: 700; color: #a4853d;
+}
+/* Marks the entry the reader is currently sitting on. */
+.conn-jump[data-current="true"] { background: rgba(164,133,61,.16); }
+
+@media (prefers-reduced-motion: reduce) {
+  .conn-anchor, .conn-pop { transition: none !important; animation: none !important; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lens-row, .lens-arc { transition: none !important; filter: none !important; }
+  .lens-row:hover { transform: none !important; }
+}
+
+.tap {
+  cursor: pointer;
+  transition: transform .18s cubic-bezier(.2,.8,.2,1), box-shadow .18s cubic-bezier(.2,.8,.2,1), background .18s;
+}
+/* !important: the glass theme sets box-shadow inline, which would otherwise win. */
+.tap:hover { transform: translateY(-2px); box-shadow: 0 14px 36px rgba(31,45,71,0.085), 0 2px 4px rgba(31,45,71,0.035) !important; }
+.tap:active { transform: translateY(0) scale(.985); }
+.tap:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid #3a5a8c; outline-offset: 3px; }
+
+/* The focus ring settles in rather than snapping on. Only a `from` frame, so
+   every element eases to its own outline-offset (3px here, 2px on anchors). */
+@keyframes focuspop {
+  from { outline-offset: 9px; outline-color: rgba(58,90,140,0); }
+}
+.tap:focus-visible, .lift:focus-visible, button:focus-visible, input:focus-visible,
+.conn-anchor:focus-visible, .lens-row:focus-visible {
+  animation: focuspop .25s cubic-bezier(.16,1,.3,1);
+}
+
+/* Smaller sibling of .tap for compact controls that sit inline. */
+.lift {
+  cursor: pointer;
+  transition: transform .13s cubic-bezier(.2,.8,.2,1), background .13s, color .13s;
+}
+.lift:hover { transform: translateY(-1px); }
+.lift:active { transform: translateY(0) scale(.97); }
+.lift:disabled, .tap:disabled { transform: none; }
+
+button { font: inherit; }
+input { font: inherit; }
+input::placeholder { color: rgba(110,110,115,.65); }
+
+/* The search field lifts like a button, and stays lifted while focused. */
+.searchbar { transition: transform .13s cubic-bezier(.2,.8,.2,1), box-shadow .13s, border-color .13s; }
+.searchbar:hover, .searchbar:focus-within { transform: translateY(-1px); }
+/* !important: the field sets an inset box-shadow inline, which would win.
+   Keeps the specular top edge so it still reads as glass while focused. */
+.searchbar:focus-within {
+  box-shadow: 0 6px 18px rgba(31,45,71,.10), inset 0 1px 2px rgba(31,45,71,.05),
+              inset 0 1px 0 rgba(255,255,255,.6) !important;
+}
+
+/* Every entrance below uses `backwards`, never `both`: a forwards-filled
+   animation keeps applying its final transform, which outranks normal
+   declarations and would silently cancel the :hover lift. */
+
+/* Panels that swap in after a button press: settle up with a soft overshoot. */
+.pop { animation: pop .29s cubic-bezier(.16,1,.3,1) backwards; }
+/* Transform + opacity only — these stay on the compositor, so a 176-verse
+   chapter animates as cheaply as a short one. */
+@keyframes pop {
+  from { opacity: 0; transform: translateY(16px) scale(.985); }
+  to { opacity: 1; transform: none; }
+}
+
+/* Tiles inside a panel, staggered by an inline animation-delay. */
+.popin { animation: popin .26s cubic-bezier(.16,1,.3,1) backwards; }
+@keyframes popin {
+  from { opacity: 0; transform: translateY(10px) scale(.97); }
+  to { opacity: 1; transform: none; }
+}
+
+/* Menus anchored under their trigger grow from the top edge. */
+.dropdown { animation: dropdown .13s cubic-bezier(.16,1,.3,1) backwards; transform-origin: top center; }
+@keyframes dropdown {
+  from { opacity: 0; transform: translateY(-6px) scale(.97); }
+  to { opacity: 1; transform: none; }
+}
+
+/* Paging with the ‹ › arrows: the chapter slides in from the side you're
+   heading toward, so the direction of travel is legible. */
+.flip-next { animation: flipNext .28s cubic-bezier(.16,1,.3,1) backwards; }
+@keyframes flipNext {
+  from { opacity: 0; transform: translateX(34px); }
+  to { opacity: 1; transform: none; }
+}
+
+.flip-prev { animation: flipPrev .28s cubic-bezier(.16,1,.3,1) backwards; }
+@keyframes flipPrev {
+  from { opacity: 0; transform: translateX(-34px); }
+  to { opacity: 1; transform: none; }
+}
+
+.shimmer { position: relative; overflow: hidden; background: rgba(255,255,255,.45); }
+.shimmer::after {
+  content: '';
+  position: absolute; inset: 0; transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.75), transparent);
+  animation: sh 1.4s infinite;
+}
+@keyframes sh { to { transform: translateX(100%); } }
+
+.vhl { animation: verseglow 3.2s ease-out both; border-radius: 12px; }
+@keyframes verseglow {
+  0% { background: rgba(164,133,61,0); }
+  12% { background: rgba(164,133,61,.16); }
+  70% { background: rgba(164,133,61,.16); }
+  100% { background: rgba(164,133,61,0); }
+}
+
+::selection { background: rgba(58,90,140,.18); }
+
+.selbar-btn { background: transparent; }
+.selbar-btn:hover { background: rgba(58,90,140,.12); }
+
+.selbar { animation: selpop .1s cubic-bezier(.2,.8,.2,1) both; }
+@keyframes selpop { from { opacity: 0; } to { opacity: 1; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .tap, .lift, .searchbar, .pop, .popin, .dropdown, .flip-next, .flip-prev, .vhl, .selbar {
+    transition: none !important; animation: none !important;
+  }
+  .tap:hover, .lift:hover, .searchbar:hover, .searchbar:focus-within { transform: none !important; }
+  .tap:focus-visible, .lift:focus-visible, button:focus-visible, input:focus-visible,
+  .conn-anchor:focus-visible, .lens-row:focus-visible { animation: none !important; }
+  .commentary-col, .chrome { scroll-behavior: auto; }
+}
+
+/* The notes column glides to the entry it's tracking; App.jsx assigns
+   scrollTop, and this turns that assignment into an animated scroll. */
+.commentary-col, .chrome { scroll-behavior: smooth; }

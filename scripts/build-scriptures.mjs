@@ -31,6 +31,7 @@ const BOM_BOOKS = ["1 Nephi","2 Nephi","Jacob","Enos","Jarom","Omni","Words of M
   "Mosiah","Alma","Helaman","3 Nephi","4 Nephi","Mormon","Ether","Moroni"];
 const PGP_BOOKS = ["Moses","Abraham","Joseph Smith\u2014Matthew","Joseph Smith\u2014History","Articles of Faith"];
 const MISSING = "[not legible in the page scan]";
+const NOT_IN_EDITION = "[not in this edition]";
 
 // ---------------------------------------------------------------- helpers
 const words = (s) => s.toLowerCase().replace(/[^a-z ]/g, " ").split(/\s+/).filter(Boolean);
@@ -45,33 +46,46 @@ function similarity(a, b) {
 }
 
 // ------------------------------------------------------- the 1920 scan
-function isFurniture(line) {
-  // A chapter heading also shouts in capitals, so it is exempted before the
-  // shouty-line test below can eat it.
-  if (/CHAPT/i.test(line)) return false;
+function classify(line) {
+  // Chapter and section headings also shout in capitals and carry a figure, so
+  // they are exempted before the shouty-line test below can eat them. Letting
+  // one through as furniture leaves the previous verse open, and the heading's
+  // descriptive note then runs on to the end of it.
+  if (/CHAPT/i.test(line) || /^\s*SECTION\b/i.test(line)) return null;
   const s = line.trim();
-  if (!s) return true;
-  if (/^[0-9]{1,4}$/.test(s)) return true;                          // page number
-  if (/^[0-9A-Z][A-Z0-9 .'’]*,\s*[0-9]+\.?$/.test(s)) return true;  // running head
+  if (!s) return "blank";
+  if (/^[0-9]{1,4}$/.test(s)) return "head";                        // page number
+  if (/^[0-9A-Z][A-Z0-9 .'’]*,\s*[0-9]+\.?$/.test(s)) return "head";  // running head
   // The Pearl of Great Price sets its running heads as "4 PEARL OF GREAT
-  // PRICE." or "II.] WRITINGS OF JOSEPH SMITH. 9^".
-  if (/PEARL\s+OF\s+GREAT\s+PRICE/i.test(s)) return true;
-  if (/^[IVXY]{1,5}\.?\]/.test(s)) return true;
-  if (/\d\s*:\s*\d/.test(s)) return true;                           // reference apparatus
-  if (/^[0-9a-zA-Z]{1,3}[,.]\s+(see\b|[0-9]?\s*[A-Z][a-z]{1,4}\.)/.test(s)) return true;
-  if (/^see\s+[0-9a-z]{1,3},/.test(s)) return true;
+  // PRICE." or "II.] WRITINGS OF JOSEPH SMITH. 9^"; the Doctrine and Covenants
+  // as "SEC. I.] COMMANDMENTS. 77" — a bracket, then a shout, then a page.
+  if (/PEARL\s+OF\s+GREAT\s+PRICE/i.test(s)) return "head";
+  if (/^[IVXY]{1,5}\.?\]/.test(s)) return "head";
+  // Either bracket: the head sits left or right depending on the page
+  // ("SEC. I.] COMMANDMENTS. 77" against "84 COVENANTS AND [SEC. V.").
+  if ((s.includes("]") || s.includes("[")) && s.length < 60) {
+    const caps = s.replace(/[^A-Za-z]/g, "");
+    if (caps.length && s.replace(/[^A-Z]/g, "").length / caps.length > 0.7) return "head";
+  }
+  if (/\d\s*:\s*\d/.test(s)) return "apparatus";                    // reference apparatus
+  // Footnote keys are one or two lowercase characters ("z." or "2a,"). Allowing
+  // three, or capitals, swallowed real scripture: "God, see that ye serve him".
+  if (/^[0-9a-z]{1,2}[,.]\s+(see\b|[0-9]?\s*[A-Z][a-z]{1,4}\.)/.test(s)) return "apparatus";
+  if (/^see\s+[0-9a-z]{1,2},/.test(s)) return "apparatus";
   // The Pearl of Great Price keys its footnotes to verses rather than to other
   // books: "w, compare verse 8. x, verse 3." — no chapter:verse pair to catch.
-  if (/^[0-9a-zA-Z]{1,3}[,.]\s+(compare\s+)?verses?\b/i.test(s)) return true;
-  if (/^(compare\s+)?verses?\s+\d/i.test(s)) return true;   // apparatus running on
-  if ((s.match(/\bverses?\s+\d/gi) || []).length >= 2 && /^[0-9a-zA-Z]{1,3}[,.]/.test(s)) return true;
+  if (/^[0-9a-z]{1,2}[,.]\s+(compare\s+)?verses?\b/i.test(s)) return "apparatus";
+  if (/^(compare\s+)?verses?\s+\d/i.test(s)) return "apparatus";   // apparatus running on
+  // A footnote label the scan read as punctuation: "/, Near the close of...".
+  if (/^[^A-Za-z0-9\s]{1,2},\s+\S/.test(s)) return "apparatus";
+  if ((s.match(/\bverses?\s+\d/gi) || []).length >= 2 && /^[0-9a-z]{1,2}[,.]/.test(s)) return "apparatus";
   // Date banners, including badly scanned ones ("Bbtwibn B. 0. 000 ANO 6U2").
   const letters = s.replace(/[^A-Za-z]/g, "");
   const upper = s.replace(/[^A-Z]/g, "").length;
-  if (letters.length && upper / letters.length > 0.55 && /\d/.test(s) && s.length < 70) return true;
-  if (/^(About|Between)\b/i.test(s) && /\d/.test(s) && s.length < 70) return true;
-  if (/\b[AB]\.\s*[DC]\./i.test(s) && s.length < 70) return true;
-  return false;
+  if (letters.length && upper / letters.length > 0.55 && /\d/.test(s) && s.length < 70) return "head";
+  if (/^(About|Between)\b/i.test(s) && /\d/.test(s) && s.length < 70) return "head";
+  if (/\b[AB]\.\s*[DC]\./i.test(s) && s.length < 70) return "head";
+  return null;
 }
 
 const isHeading = (s) =>
@@ -82,7 +96,10 @@ const isHeading = (s) =>
   /^THE\s+WORDS\s+OF\s+MORMON/i.test(s) ||
   /^(THIRD|FOURTH)\s+NEPHI/i.test(s) ||
   /^WRITINGS\s+OF\s+JOSEPH\s+SMITH/i.test(s) ||
-  /^THE\s+ARTICLES\s+O[FP]\s+[EF]AITH/i.test(s);
+  /^THE\s+ARTICLES\s+O[FP]\s+[EF]AITH/i.test(s) ||
+  // "SECTION 42." and "SECTION I." — the Doctrine and Covenants mixes arabic
+  // and roman in the same printing.
+  /^SECTION\s+([0-9]+|[IVXLC]+)\.?[^a-z]*$/i.test(s);
 
 // Misreadings frequent enough to be worth correcting and unambiguous enough to
 // be safe: each is a word that does not otherwise occur in scripture. Anything
@@ -99,6 +116,14 @@ const tidy = (t) => t
   // Into the wilderness", "Thou Shalt construct"). Only these words are
   // lowered, so proper nouns like Israel, Isaiah and Ishmael are untouched.
   .replace(/([^.!?:;]\s+)(It|In|Is|If|Into|Shalt|Unto|Shall)\b/g, (m, pre, w) => pre + w.toLowerCase())
+  // A bare zero is always a capital O misread ("Hearken, 0 ye people").
+  .replace(/\b0\b/g, "O")
+  // The Doctrine and Covenants prints its footnote keys as small letters and
+  // figures set tight against the following word, and the scan fuses them on:
+  // "unto 6all men". A digit never legitimately opens a word here, so those
+  // come off; single letters are left alone, since stripping them would be
+  // guesswork ("amy church" is indistinguishable from a real word).
+  .replace(/\b\d([a-z]{2,})\b/g, "$1")
   .replace(/[A-Za-z]+/g, (w) => MISREADINGS.get(w) ?? w)
   .replace(/\s+([,.;:!?])/g, "$1")
   .replace(/\s+/g, " ")
@@ -113,17 +138,27 @@ function readScan(path, startRe, endRe) {
 
   const out = [];
   let cur = null;
+  // A footnote can run to a second line of ordinary prose ("e, Indians, / among
+  // whom there is a mixture of the Nephites"), which is indistinguishable from
+  // verse text on its own. So once a footnote block starts, everything is
+  // skipped until the page turns — a running head or page number — or a verse
+  // or heading begins. Verse text that resumes after the page break is still
+  // collected, which is how a verse split across two pages stays whole.
+  let inApparatus = false;
   const close = () => { if (cur && cur.text.trim()) out.push(tidy(cur.text)); cur = null; };
   for (const line of body) {
-    if (isFurniture(line)) continue;
+    const kind = classify(line);
+    if (kind === "apparatus") { inApparatus = true; continue; }
+    if (kind === "head") { inApparatus = false; continue; }
+    if (kind === "blank") continue;
     const s = line.trim().replace(/\s+/g, " ");
     // A heading closes the open verse; the chapter précis that follows it is
     // then discarded, because no verse is open to collect it.
-    if (isHeading(s)) { close(); continue; }
+    if (isHeading(s)) { close(); inApparatus = false; continue; }
     // Verse numbers are usually "12." but the scan sometimes reads "12,".
     const m = s.match(/^([0-9]{1,3})\s*[.,;:]\s+(.*)$/);
-    if (m) { close(); cur = { text: m[2] }; continue; }
-    if (!cur) continue;
+    if (m) { close(); cur = { text: m[2] }; inApparatus = false; continue; }
+    if (inApparatus || !cur) continue;
     // A word split by the line break rejoins without a space.
     if (/-$/.test(cur.text)) cur.text = cur.text.replace(/-$/, "") + s;
     else cur.text += " " + s;
@@ -225,13 +260,72 @@ async function buildFromScan({ label, path, startRe, endRe, books, guideFile, ou
   return gaps;
 }
 
+// The Doctrine and Covenants is numbered by section rather than book and
+// chapter, and it ships in a different shape, so it gets its own pass. Sections
+// 137 and 138 were only added to the book in 1979 and are genuinely absent from
+// any pre-1929 printing; they are labelled as such rather than as damage.
+async function buildSections({ label, path, startRe, endRe, outFile }) {
+  console.log(`\n${label}`);
+  const blocks = readScan(path, startRe, endRe);
+  const counts = VERSE_COUNTS["Doctrine and Covenants"];
+  const expected = counts.reduce((a, b) => a + b, 0);
+  console.log(`  ${blocks.length} verse blocks recovered from the scan (canonical ${expected})`);
+
+  const modern = await (await fetch("https://cdn.jsdelivr.net/gh/bcbooks/scriptures-json@master/doctrine-and-covenants.json")).json();
+  const guide = {};
+  for (const s of modern.sections) guide[s.section] = s.verses.map((v) => v.text);
+
+  let cursor = 0, placed = 0;
+  const gaps = [], absent = [];
+  const sections = [];
+  for (let n = 1; n <= counts.length; n++) {
+    const reference = guide[n];
+    const window = blocks.slice(cursor, cursor + counts[n - 1] + 6);
+    const { slots, consumed } = placeChapter(window, reference);
+    cursor += consumed;
+    // A section the scan yielded nothing at all for is one this edition does
+    // not contain, not one the OCR failed on.
+    const empty = slots.every((t) => !t);
+    slots.forEach((t, i) => {
+      if (t) placed++;
+      else if (empty) absent.push(`D&C ${n}:${i + 1}`);
+      else gaps.push(`D&C ${n}:${i + 1}`);
+    });
+    sections.push({
+      section: n,
+      reference: `D&C ${n}`,
+      verses: slots.map((t, i) => ({ verse: i + 1, reference: `D&C ${n}:${i + 1}`, text: t || (empty ? NOT_IN_EDITION : MISSING) })),
+    });
+  }
+
+  let m = 0, sum = 0, low = 0;
+  for (const s of sections) s.verses.forEach((v, i) => {
+    if (v.text === MISSING || v.text === NOT_IN_EDITION) return;
+    const ref = guide[s.section][i];
+    if (!ref) return;
+    const sc = similarity(v.text, ref); m++; sum += sc;
+    if (sc < 0.9) low++;
+  });
+  const missingSections = [...new Set(absent.map((a) => a.split(":")[0]))];
+  console.log(`  verses placed: ${placed}/${expected}, not legible: ${gaps.length}`);
+  console.log(`  sections absent from this edition: ${missingSections.join(", ") || "none"} (${absent.length} verses)`);
+  console.log(`  mean wording agreement with the modern edition: ${(sum / m).toFixed(4)}`);
+  console.log(`  verses differing by more than 10%: ${low} (older readings and OCR damage mixed)`);
+
+  mkdirSync(OUT_DIR, { recursive: true });
+  writeFileSync(resolve(OUT_DIR, outFile), JSON.stringify({ title: modern.title, subtitle: modern.subtitle, sections }));
+  console.log(`  wrote ${outFile}: ${sections.length} sections, ${sections.reduce((a, s) => a + s.verses.length, 0)} verses`);
+  return gaps;
+}
+
 // ---------------------------------------------------------------- main
 const args = process.argv.slice(2);
 const flag = (name) => { const i = args.indexOf(name); return i === -1 ? null : args[i + 1]; };
 const bomPath = flag("--bom") ?? (args[0] && !args[0].startsWith("--") ? args[0] : null);
 const pgpPath = flag("--pgp");
+const dcPath = flag("--dc");
 if (!bomPath) {
-  console.error("usage: npm run build:scriptures -- --bom <bom_djvu.txt> [--pgp <pgp_djvu.txt>]");
+  console.error("usage: npm run build:scriptures -- --bom <bom_djvu.txt> [--pgp <pgp_djvu.txt>] [--dc <dc_djvu.txt>]");
   process.exit(1);
 }
 
@@ -288,6 +382,16 @@ if (pgpPath) {
     books: PGP_BOOKS,
     guideFile: "pearl-of-great-price.json",
     outFile: "pearl-of-great-price.json",
+  }));
+}
+
+if (dcPath) {
+  gaps.push(...await buildSections({
+    label: "Doctrine and Covenants (Orson Pratt versification, page scan)",
+    path: dcPath,
+    startRe: /^\s*SECTION\s+(I|1)\.\s*$/i,
+    endRe: /^\s*(INDEX|CONCORDANCE)\b/i,
+    outFile: "doctrine-and-covenants.json",
   }));
 }
 

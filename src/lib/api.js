@@ -1,12 +1,10 @@
 const CDN = "https://cdn.jsdelivr.net/gh/bcbooks/scriptures-json@master";
 
-// Volumes built from public-domain sources and served from this site: the King
-// James Version for the Bible, the 1920 edition for the Book of Mormon, and the
-// Talmage-versified edition for the Pearl of Great Price (see
-// scripts/build-scriptures.mjs). Only the Doctrine and Covenants still comes
-// from the CDN, whose text is the current edition and not public domain — see
-// the rights note in the README.
-const SELF_HOSTED = new Set(["ot", "nt", "bofm", "pgp"]);
+// Every volume is now built from a public-domain source and served from this
+// site — the King James Version for the Bible, and pre-1929 printings for the
+// rest. See scripts/build-scriptures.mjs and the rights note in the README.
+// The CDN is no longer used; the constant stays for reference.
+const SELF_HOSTED = new Set(["ot", "nt", "bofm", "pgp", "dc"]);
 
 const sourceUrl = (volume) =>
   SELF_HOSTED.has(volume.id)

@@ -54,8 +54,13 @@ back to the 1920 synopses, which is what the published site shows.
 | Volume | Source | State |
 |---|---|---|
 | Old & New Testament | King James Version (aruljohn/Bible-kjv) | 1,189 chapters, 31,102 verses; every chapter matches the canonical verse counts |
-| Book of Mormon | 1920 Salt Lake City edition, Internet Archive page scan | 6,548 of 6,604 verses placed, agreement 0.986; 56 gaps |
-| Pearl of Great Price | Talmage's 1902 versification (1913 printing), page scan | 599 of 635 verses placed, agreement 0.958; 36 gaps |
+| Book of Mormon | 1920 Salt Lake City edition, Internet Archive page scan | 6,548 of 6,604 verses placed, agreement 0.988; 56 gaps |
+| Pearl of Great Price | Talmage's 1902 versification (1913 printing), page scan | 599 of 635 verses placed, agreement 0.961; 36 gaps |
+| Doctrine and Covenants | Orson Pratt versification, Deseret News printing, page scan | 3,481 of 3,654 verses placed, agreement 0.944; 103 gaps |
+
+Sections 137 and 138 were only added to the Doctrine and Covenants in 1979, so
+no pre-1929 printing contains them. They read "[not in this edition]" rather
+than being reported as scan damage.
 
 The two scans are OCR of two-column settings, so the build separates scripture
 from page furniture — running heads, page numbers, date banners and the
@@ -71,9 +76,15 @@ A short table of misreadings is corrected (`NephI`, `Jesns`, `Lamanltes`), and
 a few words the scan capitalises mid-sentence are lowered. Both lists are
 deliberately small: anything open to interpretation is left as the scan has it.
 
-**Still owed:** the Doctrine and Covenants is still fetched from
-`bcbooks/scriptures-json`, which is *not* public domain — it is the current
-(1981/2013) edition, © Intellectual Reserve. Two checks settle it: 2 Nephi 30:6
-there reads "pure and a delightsome", wording introduced in 1981, and 1 Nephi
-20:1 carries the "waters of baptism" clause restored in 1981. Publishing it
-needs a pre-1929 scan of the 1921 edition, handled the same way.
+No text is fetched from `bcbooks/scriptures-json` at runtime any more. That
+dataset is the current (1981/2013) edition, © Intellectual Reserve — 2 Nephi
+30:6 there reads "pure and a delightsome", wording introduced in 1981 — and the
+build now uses it only as a map of where verses belong, never as a source of
+words.
+
+**Still owed:** proofreading. The Doctrine and Covenants is the weakest of the
+four (0.944), largely because its footnote keys are set tight against the
+following word and the scan fuses them on, so "my church" arrives as "amy
+church". Digits are stripped off the front of words, since a figure never opens
+one; single letters are left alone, because removing them would be guesswork.
+The 195 verses in `gaps.json` need keying in by hand.

@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "build:scriptures": "node scripts/build-scriptures.mjs",
     "check:summaries": "node scripts/check-summaries.mjs",
     "extract:summaries": "node scripts/extract-summaries.mjs"
   },

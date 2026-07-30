@@ -1,5 +1,17 @@
 const CDN = "https://cdn.jsdelivr.net/gh/bcbooks/scriptures-json@master";
 
+// Volumes built from public-domain sources and served from this site: the
+// King James Version for the Bible, and the 1920 edition for the Book of
+// Mormon (see scripts/build-scriptures.mjs). The Doctrine and Covenants and
+// the Pearl of Great Price still come from the CDN, whose text is the current
+// edition and not public domain — see the rights note in the README.
+const SELF_HOSTED = new Set(["ot", "nt", "bofm"]);
+
+const sourceUrl = (volume) =>
+  SELF_HOSTED.has(volume.id)
+    ? `${import.meta.env.BASE_URL}scriptures/${volume.file}.json`
+    : `${CDN}/${volume.file}.json`;
+
 const cache = new Map();
 
 function normalizeVolume(volId, data) {
@@ -26,7 +38,7 @@ export function getCached(volId) {
 
 export async function loadVolume(volume) {
   if (cache.has(volume.id)) return cache.get(volume.id);
-  const res = await fetch(`${CDN}/${volume.file}.json`);
+  const res = await fetch(sourceUrl(volume));
   if (!res.ok) throw new Error(`Request failed (${res.status})`);
   const data = await res.json();
   const normalized = normalizeVolume(volume.id, data);

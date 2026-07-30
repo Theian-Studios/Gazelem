@@ -5,7 +5,7 @@ export default function VolumeGrid({ onOpen }) {
   return (
     <div className="pop">
       <div style={{ textAlign: "center", margin: "40px 0 36px" }}>
-        <h1 className="serif" style={{ fontSize: "clamp(30px, 5vw, 42px)", fontWeight: 500, letterSpacing: "-0.02em", margin: 0 }}>The Scriptures</h1>
+        <h1 className="serif" style={{ fontSize: "clamp(30px, 5vw, 42px)", fontWeight: 500, letterSpacing: "-0.02em", margin: 0 }}>Gazelem</h1>
         <p style={{ color: inkSoft, fontSize: 15, marginTop: 10 }}>The standard works of The Church of Jesus Christ of Latter-day Saints</p>
       </div>
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: 16 }}>

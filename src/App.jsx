@@ -192,17 +192,18 @@ export default function App() {
     });
   }, []);
 
-  // Jump to a chapter of the book already open, by its number (from the
-  // chapter band). Pages in the direction of travel, like the nav arrows.
-  const openChapterN = useCallback((n) => {
-    if (!book) return;
-    const ci = book.chapters.findIndex((c) => c.n === n);
-    if (ci < 0 || ci === chapIdx) return;
+  // Jump to any chapter of the volume from the chapter band, including one in
+  // a neighbouring book. Pages in the direction of travel, like the nav arrows.
+  const openChapterAt = useCallback((bi, n) => {
+    if (!books?.[bi]) return;
+    const ci = books[bi].chapters.findIndex((c) => c.n === n);
+    if (ci < 0 || (bi === bookIdx && ci === chapIdx)) return;
     rememberScroll();
-    setFlipDir(ci > chapIdx ? 1 : -1);
+    setFlipDir(bi === bookIdx ? (ci > chapIdx ? 1 : -1) : (bi > bookIdx ? 1 : -1));
     setTargetVerse(null);
+    setBookIdx(bi);
     setChapIdx(ci);
-  }, [book, chapIdx, rememberScroll]);
+  }, [books, bookIdx, chapIdx, rememberScroll]);
 
   // Scroll the reader to a verse (from a sidebar entry).
   const jumpToVerse = useCallback((v) => {
@@ -346,8 +347,9 @@ export default function App() {
             {/* Keyed by book: a new book should place its band without gliding
                 there from the old book's position. */}
             <div className="timeline-box">
-              <ChapterTimeline key={book?.name} volId={volId} book={book} chapter={chapter}
-                onOpen={openChapterN} collapsed={collapsed} onToggle={toggleCard} />
+              <ChapterTimeline key={volId} volId={volId} volumeTitle={volume?.title}
+                books={books} book={book} chapter={chapter}
+                onOpen={openChapterAt} collapsed={collapsed} onToggle={toggleCard} />
             </div>
             {/* Falls back into this column when the window is too narrow for a
                 second one; hidden once .commentary-col has room. */}

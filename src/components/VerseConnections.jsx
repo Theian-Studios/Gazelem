@@ -3,6 +3,19 @@ import { createPortal } from "react-dom";
 import { glassOverlay, ink, inkSoft, gold, blue } from "../theme.js";
 import { parseCitations, loadPassage } from "../lib/refs.js";
 
+// What to mark in the passage a note points at: the run of this chapter's text
+// the connection hangs on, and any wording the gloss lifts from the target
+// itself. The anchor phrase is usually the wording the two places share — that
+// is what makes them a connection — so it is the thing worth finding.
+function marksFor(c) {
+  return [c.snippet, c.quote]
+    .filter(Boolean)
+    // An ellipsis means the quote is not contiguous, so each part stands alone.
+    .flatMap((s) => s.split(/\s*(?:\.{3}|…)\s*/))
+    .map((s) => s.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, "").trim())
+    .filter((s) => s.length > 3);
+}
+
 // Passages are fetched the first time an anchor is opened, so a chapter full of
 // highlights costs nothing until one is actually used.
 function usePassages(connections) {
@@ -16,7 +29,7 @@ function usePassages(connections) {
         for (const cite of parseCitations(c.source)) {
           const verses = await loadPassage(cite);
           if (!alive) return;
-          if (verses.length) out.push({ cite, label: cite.label, verses, snippet: c.snippet });
+          if (verses.length) out.push({ cite, label: cite.label, verses, marks: marksFor(c) });
         }
       }
       if (alive) setPassages(out);
@@ -27,20 +40,23 @@ function usePassages(connections) {
   return passages;
 }
 
-// Bolds the fragment the note quoted. Ellipses in the quote mean it is not
-// contiguous in the verse, so each part is matched on its own.
-function Snippet({ text, snippet }) {
-  if (!snippet) return text;
-  const parts = snippet.split(/\s*\.{3}\s*|\s*…\s*/).map((p) => p.trim()).filter((p) => p.length > 3);
-  if (!parts.length) return text;
+// Bolds the wording the connection turns on, wherever it appears in the
+// passage being shown.
+function Marked({ text, marks }) {
+  if (!marks?.length) return text;
 
-  const escaped = parts.map((p) => p.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
-  const re = new RegExp(`(${escaped.join("|")})`, "gi");
-  const pieces = text.split(re);
+  // Longest first, so a phrase wins over any shorter phrase inside it.
+  const escaped = [...marks]
+    .sort((a, b) => b.length - a.length)
+    .map((p) => p.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  const pieces = text.split(new RegExp(`(${escaped.join("|")})`, "gi"));
   if (pieces.length === 1) return text;
 
+  // split() with one capture group puts the matches at the odd indices, which
+  // is what marks them — testing the regex again would misfire, since a global
+  // one carries its lastIndex between calls.
   return pieces.map((p, i) =>
-    re.test(p) && i % 2 === 1
+    i % 2 === 1
       ? <strong key={i} style={{ fontWeight: 700, color: ink }}>{p}</strong>
       : <span key={i}>{p}</span>
   );
@@ -97,7 +113,7 @@ function Popup({ anchorEl, connections, hold, release, onOpenRef }) {
             {p.verses.map((v) => (
               <p key={v.verse} className="serif" style={{ margin: "0 0 4px", fontSize: 12.5, lineHeight: 1.6, color: inkSoft }}>
                 <span style={{ color: gold, fontSize: 10.5, marginRight: 5 }}>{v.verse}</span>
-                <Snippet text={v.text} snippet={p.snippet} />
+                <Marked text={v.text} marks={p.marks} />
               </p>
             ))}
           </div>

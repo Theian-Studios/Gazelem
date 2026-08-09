@@ -64,7 +64,7 @@ function Marked({ text, marks }) {
   );
 }
 
-function Popup({ anchorEl, connections, hold, release, onOpenRef }) {
+function Popup({ anchorEl, connections, hold, release, onOpenRef, popRef }) {
   const passages = usePassages(connections);
   const [box, setBox] = useState(() => place(anchorEl));
 
@@ -81,6 +81,7 @@ function Popup({ anchorEl, connections, hold, release, onOpenRef }) {
 
   return createPortal(
     <div
+      ref={popRef}
       className="conn-pop"
       onMouseEnter={hold}
       onMouseLeave={release}
@@ -140,6 +141,7 @@ function place(el) {
 export default function ConnectionAnchor({ connections, onOpenRef, children }) {
   const [open, setOpen] = useState(false);
   const ref = useRef(null);
+  const pop = useRef(null);
   const timer = useRef(null);
 
   const hold = useCallback(() => clearTimeout(timer.current), []);
@@ -150,11 +152,29 @@ export default function ConnectionAnchor({ connections, onOpenRef, children }) {
   useEffect(() => () => clearTimeout(timer.current), []);
 
   // Escape closes it; clicking inside must not, or the text can't be selected.
+  //
+  // A press anywhere else closes it too, which on a phone is the only way out:
+  // there is no key to press and no pointer to move away, so without this the
+  // card could only be dismissed by finding the same small marker again. The
+  // popup is portalled to the body, so it is outside the anchor's subtree and
+  // has to be asked separately. Listening on pointerdown rather than click
+  // means a press that begins outside dismisses on the way down, before it can
+  // land on whatever is under it.
   useEffect(() => {
     if (!open) return;
     const onKey = (e) => e.key === "Escape" && setOpen(false);
+    const onDown = (e) => {
+      const t = e.target;
+      if (ref.current?.contains(t) || pop.current?.contains(t)) return;
+      clearTimeout(timer.current);
+      setOpen(false);
+    };
     window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
+    document.addEventListener("pointerdown", onDown, true);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.removeEventListener("pointerdown", onDown, true);
+    };
   }, [open]);
 
   return (
@@ -183,7 +203,7 @@ export default function ConnectionAnchor({ connections, onOpenRef, children }) {
         {children}
       </span>
       {open && ref.current && (
-        <Popup anchorEl={ref.current} connections={connections} hold={hold} release={release} onOpenRef={onOpenRef} />
+        <Popup anchorEl={ref.current} connections={connections} hold={hold} release={release} onOpenRef={onOpenRef} popRef={pop} />
       )}
     </>
   );

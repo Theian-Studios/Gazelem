@@ -149,7 +149,25 @@ function parseSection(text) {
 
   // Verse, chapter and book notes open each entry with a bold lead —
   // "**(v. 32)**" or "**1. Architecture.**".
-  return trimmed
+  //
+  // Chapter and book notes are also written the other way round, as a markdown
+  // ordered list that bolds only the name and runs its items together:
+  //
+  //   1. **Structure:** three concentric circles of prayer — self (vv. 2–8),
+  //      brethren (vv. 9–10), enemies (vv. 11–18) — each opened by a desire
+  //   2. **The small plates' purest specimen.** Nephi set these plates apart…
+  //
+  // Numbered that way the notes are not separated by a blank line, so the
+  // splitter below found one entry where there were five and every note ran
+  // into a single paragraph. Both spellings mean one note per number, so the
+  // list form is folded into the bold form and one splitter serves them both.
+  // A no-op on files already written the first way.
+  const leaded = trimmed.replace(
+    /^(\d+)\.[ \t]+\*\*(.+?)\*\*/gm,
+    (_, n, title) => `\n\n**${n}. ${title.replace(/[:.]\s*$/, "")}.**`
+  );
+
+  return leaded
     .split(/\n\s*\n(?=\*\*)/)
     .map((chunk) => {
       const lines = chunk.split("\n");
@@ -192,7 +210,14 @@ function parseConnections(md) {
   const parts = idx.split(/^###\s+Scope:\s*\[(ALMA|BOM|SW)\]\s*$/m);
   for (let i = 1; i < parts.length; i += 2) {
     out[parts[i]] = bullets(parts[i + 1])
-      .map(({ text, targets }) => {
+      .map(({ text: raw, targets }) => {
+        // Every entry opens with a stable handle — "[al34-001]" — which is how
+        // a `mirror:` line in the target chapter's own index names it. It is an
+        // identifier, not prose, and belongs no more on screen than the scope
+        // tags do; without lifting it here it rides along on the source and is
+        // printed in front of the reference.
+        const tag = raw.match(/^\[([a-z]+\d*-\d+)\]\s*/i);
+        const text = tag ? raw.slice(tag[0].length) : raw;
         // Alma 1:13–14, 18 → 34:11 w28–29 "our law," — the capital statute…
         //                    ^ch ^v  ^word span  ^quote   ^gloss
         const [source, rest = ""] = text.split(/\s*→\s*/);
@@ -205,6 +230,9 @@ function parseConnections(md) {
           // so the popup can bold it in the passage it loads.
           const snippet = gloss.match(/[""]([^""]{4,})[""]|"([^"]{4,})"/);
           return {
+            // `id` is the footnote letter the reader sees (16a), assigned
+            // later in verse order; this is the one the notes gave it.
+            noteId: tag ? tag[1] : null,
             text, source: source.trim(),
             chapter: Number(m[1]), verse: Number(m[2]),
             words: [Number(m[3]), Number(m[4] ?? m[3])],
@@ -218,6 +246,7 @@ function parseConnections(md) {
         // Older shape, or an entry without a word anchor: keep it in the list.
         const gloss = rest.match(/\(([^)]*)\)\s*$/);
         return {
+          noteId: tag ? tag[1] : null,
           text,
           source: source.trim(),
           targets,

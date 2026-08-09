@@ -897,8 +897,6 @@ a[x-apple-data-detectors] {
   flex-shrink: 0; min-width: 24px;
   font-size: 10px; font-weight: 700; color: #a4853d;
 }
-/* Marks the entry the reader is currently sitting on. */
-.conn-jump[data-current="true"] { background: rgba(164,133,61,.16); }
 
 @media (prefers-reduced-motion: reduce) {
   .conn-anchor, .conn-pop { transition: none !important; animation: none !important; }

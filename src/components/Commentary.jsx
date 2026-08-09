@@ -207,7 +207,7 @@ export function CrossConnections({ book, chapter, lens, volId, onJump, collapsed
     >
       <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
         {connections.map((c) => (
-          <li key={c.id} id={`conn-${c.id}`} style={{ margin: "0 0 9px" }}>
+          <li key={c.id} style={{ margin: "0 0 9px" }}>
             <button className="conn-jump" onClick={() => onJump?.(c.verse)} title={`Go to verse ${c.verse}`}>
               <span className="conn-jump-id">{c.id}</span>
               <span>

@@ -644,15 +644,9 @@ export default function App() {
           if (el.getBoundingClientRect().bottom > 120) { top = el.id.slice(6); break; }
         }
         if (!top) return;
-        // The cross-connections list still marks the current verse, wherever
-        // the layout has put it…
-        for (const el of document.querySelectorAll("[id^='conn-']")) {
-          const v = parseInt(el.id.replace("conn-", ""), 10);
-          el.querySelector(".conn-jump")?.setAttribute("data-current", String(v === Number(top)));
-        }
-        // …and the column tracking the reader is whichever one this width
-        // scrolls on its own. Narrow, the panels ride in the page's own scroll,
-        // so there is nothing to nudge and the reader stays in charge of it.
+        // The column tracking the reader is whichever one this width scrolls on
+        // its own. Narrow, the panels ride in the page's own scroll, so there is
+        // nothing to nudge and the reader stays in charge of it.
         const col = [".commentary-col", ".side-extras"]
           .map((sel) => document.querySelector(sel))
           .find((el) => el && el.scrollHeight > el.clientHeight + 1);

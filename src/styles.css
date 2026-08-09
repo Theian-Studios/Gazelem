@@ -63,8 +63,12 @@ a[x-apple-data-detectors] {
 .bt-card { max-width: 820px; margin-inline: auto; }
 .navdock {
   position: fixed; bottom: 22px; left: 0; right: 0; z-index: 30;
-  display: flex; justify-content: center; pointer-events: none;
+  display: flex; justify-content: center; align-items: center; gap: 8px;
+  pointer-events: none;
 }
+/* The pill is as wide as what it holds and no wider, so the field beside it
+   gets the rest of the line rather than a share of it. */
+.navpill { flex: 0 0 auto; min-width: 0; }
 
 /* A phone has one column, so the search bar has to give the chapter as much of
    it as it can while still being there to type into. */
@@ -76,10 +80,13 @@ a[x-apple-data-detectors] {
 
 /* ---- The field, on a compact screen -------------------------------------
    One column has no room to keep a search bar standing at the top of it, so
-   the field folds down to a button in the corner and comes back as a bar at
-   the foot of the window — where the thumb is, and where the menu can open
-   upward over the reader rather than pushing it down. */
-.search-fab { display: none; }
+   the field folds down into the dock — on the pill's own line, where the thumb
+   already is — and the real one comes back at the foot of the window, where
+   its menu can open upward over the reader rather than pushing it down.
+
+   Sharing that line is what pays for it: the pill gives up its ‹ › arrows, and
+   the width of those two buttons is what the field stands in. */
+.dock-search { display: none; }
 
 @media (max-width: 959.98px) {
   .chrome { display: none; }
@@ -91,24 +98,48 @@ a[x-apple-data-detectors] {
     padding: 10px 12px calc(10px + env(safe-area-inset-bottom, 0px));
   }
 
-  .search-fab {
-    display: grid; place-items: center;
-    position: fixed;
-    right: 16px; bottom: calc(22px + env(safe-area-inset-bottom, 0px));
-    z-index: 30;
-    width: 52px; height: 52px; border-radius: 999px;
-    border: 1px solid rgba(255,255,255,.72);
-    background: rgba(255,255,255,.82);
-    backdrop-filter: blur(34px) saturate(185%);
-    -webkit-backdrop-filter: blur(34px) saturate(185%);
-    box-shadow: 0 10px 30px rgba(31,45,71,.12), 0 2px 5px rgba(31,45,71,.05),
+  .pill-step { display: none !important; }
+
+  /* The row spans the window rather than centring on its contents, so the
+     field can be given what the pill does not need instead of the two of them
+     sharing a middle. */
+  .navdock { padding: 0 12px; }
+
+  .dock-search {
+    display: flex; align-items: center; justify-content: center; gap: 7px;
+    /* Everything the pill leaves — which is the point of the pill giving up
+       its arrows. Capped so a tablet does not get a search bar the width of
+       the window for the sake of it. */
+    flex: 1 1 auto; min-width: 0; max-width: 280px;
+    pointer-events: auto;
+    height: 54px; padding: 0 18px; border-radius: 999px;
+    border: 1px solid rgba(255,255,255,.8);
+    background: rgba(255,255,255,.74);
+    backdrop-filter: blur(64px) saturate(200%);
+    -webkit-backdrop-filter: blur(64px) saturate(200%);
+    box-shadow: 0 14px 40px rgba(31,45,71,0.10), 0 2px 6px rgba(31,45,71,0.04),
                 inset 0 1px 0 rgba(255,255,255,.92);
     color: #3a5a8c; cursor: pointer;
+    font-size: 13.5px; font-weight: 600;
   }
-  /* The dock owns the bottom edge when there is one, so the button stands off
-     it rather than across it. */
-  .search-fab[data-raised] { bottom: calc(86px + env(safe-area-inset-bottom, 0px)); }
-  .chrome-open ~ .search-fab { display: none; }
+  /* The word is what makes it read as a field rather than another icon, but it
+     is the first thing to go: below this the pill's own trail is already using
+     every pixel, and the glass circle still says search on its own. */
+  .dock-search-label { white-space: nowrap; }
+  @media (max-width: 339.98px) {
+    .dock-search { padding: 0 16px; }
+    .dock-search-label { display: none; }
+  }
+
+  /* With the field open at the foot of the window the dock is behind it and
+     saying the same thing twice, so it stands down until the field is done.
+     Same for a sheet: it is the whole window, and the dock would be paging a
+     chapter that cannot be seen. Hidden rather than layered under it — the
+     dock is fixed at the document's level and the sheet is not, so no z-index
+     the sheet could carry would put it in front. */
+  .chrome.chrome-open ~ .navdock,
+  .sheet-open .navdock,
+  .sheet-open .findbar { display: none; }
 }
 
 /* Last word on the matter: with the field standing on the home screen, the bar
@@ -246,24 +277,128 @@ a[x-apple-data-detectors] {
 .lens-box:empty { display: none; }
 .commentary-col { display: none; }
 
-/* Read on a phone, the order is what the chapter needs next: what it is, then
-   the notes on it, then where they point, and last the wider setting and the
-   controls. Wide, the source order stands — see the sidebar rules below. */
+/* ---- The panels as a sheet, on a compact screen --------------------------
+   One column cannot hold the chapter and a stack of panels both, and a phone
+   asked to scroll past the last verse to reach them mostly never does. So the
+   same markup is a sheet instead: out of the flow entirely, one panel at a
+   time, opened from the markers in the top corners (see StudyDock) and filling
+   the window while it is up.
+
+   The panels stay mounted the whole time — this only decides what is on screen
+   — so a sheet opens on what a panel has already fetched rather than starting
+   it fetching, and a card the reader folded is still folded next time. */
+.sheet-bar, .contents-box { display: none; }
+
 @media (max-width: 959.98px) {
-  /* A screen's worth of room, so the stack can always come to rest under the
-     search bar rather than wherever the end of the document happens to fall —
-     with every panel folded it is shorter than the space it has to scroll
-     through. Only once there is a chapter to say anything about. */
-  .side-extras.has-panels { min-height: calc(100vh - var(--chrome-h, 96px) - 24px); }
-  @supports (height: 100svh) {
-    .side-extras.has-panels { min-height: calc(100svh - var(--chrome-h, 96px) - 24px); }
+  .side-extras {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 90;
+    margin: 0;
+    padding: 0 12px calc(24px + env(safe-area-inset-bottom, 0px));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    /* Near-opaque rather than clear: the chapter behind is text at reading
+       size, and text through glass under text is neither of them. */
+    background: linear-gradient(175deg, #f7f8fa 0%, #eef1f5 60%, #eceef3 100%);
   }
-  .overview-box { order: 1; }
-  .notes-inline { order: 2; }
-  .connections-box { order: 3; }
-  .timeline-box { order: 4; }
-  .related-box { order: 5; }
-  .lens-inline { order: 6; }
+  .side-extras[data-sheet] { display: block; }
+  /* One panel at a time — the marker that was pressed is the question being
+     asked, and the rest of the stack is not an answer to it. */
+  .side-extras[data-sheet] > [data-panel] { display: none; }
+  .side-extras[data-sheet="contents"] .contents-box,
+  .side-extras[data-sheet="overview"] .overview-box,
+  .side-extras[data-sheet="timeline"] .timeline-box,
+  .side-extras[data-sheet="related"] .related-box,
+  .side-extras[data-sheet="notes"] .notes-inline,
+  .side-extras[data-sheet="connections"] .connections-box,
+  .side-extras[data-sheet="lenses"] .lens-inline { display: block; }
+
+  /* Pinned, because the sheet is a whole window of scrolling and the way out
+     of it should not be somewhere up at the top of that. */
+  .side-extras[data-sheet] .sheet-bar {
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    position: sticky; top: 0; z-index: 2;
+    margin: 0 -12px 4px; padding: 14px 18px 12px;
+    background: linear-gradient(180deg, #f4f6f9 0%, #f4f6f9 62%, rgba(244,246,249,0) 100%);
+  }
+  .sheet-title { font-size: 17px; font-weight: 700; letter-spacing: -0.01em; }
+  .sheet-close {
+    flex: 0 0 auto;
+    display: grid; place-items: center;
+    width: 38px; height: 38px; border-radius: 999px;
+    border: 1px solid rgba(255,255,255,.72);
+    background: rgba(255,255,255,.72);
+    color: #6e6e73; cursor: pointer;
+    box-shadow: 0 4px 14px rgba(31,45,71,.07), inset 0 1px 0 rgba(255,255,255,.9);
+  }
+
+  /* A folded card in a sheet is a screen with nothing on it: the sheet is the
+     panel, so the heading has nothing left to collapse. */
+  .side-extras[data-sheet] .card-toggle { pointer-events: none; }
+  .side-extras[data-sheet] .card-chevron { display: none; }
+  /* The chapter grid brings its own heading, which the sheet's bar has just
+     said — and its own top spacing, meant for the top of a page. */
+  .contents-box .pop > h2, .contents-box .pop > p { display: none; }
+}
+
+/* The grid of chapters is the compact layout's way out of a chapter. Wide,
+   that is the contents card's job and the sidebar is for the study panels. */
+@media (min-width: 960px) {
+  .contents-box { display: none !important; }
+}
+
+/* ---- The markers ---------------------------------------------------------
+   Each panel folded down to a circle in a top corner. Only where there is no
+   column to put the panels in — above that width they are all in view at once,
+   and a marker for something already on screen is noise. */
+.study-dock { display: none; }
+
+@media (max-width: 959.98px) {
+  .study-dock {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    position: fixed;
+    top: calc(8px + env(safe-area-inset-top, 0px)); left: 8px; right: 8px;
+    z-index: 40;
+    pointer-events: none;
+    transition: opacity .22s ease, transform .22s ease;
+  }
+  /* Reading is downward, so that is when they get out of the way; the first
+     scroll back up is a reader looking for something, and brings them again. */
+  .study-dock[data-hidden] {
+    opacity: 0;
+    transform: translateY(-10px);
+    pointer-events: none;
+  }
+  .study-dot-group { display: flex; gap: 6px; }
+  /* Each side reads outward from its own corner, so the first marker on the
+     right is the one nearest the edge the thumb comes from. */
+  .study-dot-group[data-side="right"] { flex-direction: row-reverse; }
+
+  .study-dot {
+    pointer-events: auto;
+    display: grid; place-items: center;
+    width: 38px; height: 38px; border-radius: 999px;
+    border: 1px solid rgba(255,255,255,.78);
+    background: rgba(255,255,255,.72);
+    backdrop-filter: blur(30px) saturate(190%);
+    -webkit-backdrop-filter: blur(30px) saturate(190%);
+    box-shadow: 0 6px 20px rgba(31,45,71,.10), 0 1px 2px rgba(31,45,71,.04),
+                inset 0 1px 0 rgba(255,255,255,.92);
+    color: #46484c; cursor: pointer;
+  }
+}
+
+/* The markers sit over the first lines of the chapter, so the card starts
+   below them rather than under them. */
+@media (max-width: 959.98px) {
+  .content:has(~ .study-dock) { padding-top: 58px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .study-dock { transition: none; }
+  .study-dock[data-hidden] { transform: none; }
 }
 
 /* Lifted out of the reading flow into the column under the search. Fixed rather
@@ -964,6 +1099,9 @@ mark.find-hit[data-current] {
   border-radius: 10px; padding: 9px 0; text-align: center; cursor: pointer;
   font-size: 13.5px; font-weight: 500; font-variant-numeric: oldstyle-nums;
 }
+/* Where the reader already is, in the grid they are leaving it from — the same
+   gold wash the contents card marks the open book with. */
+.chapter-cell[data-on] { background: rgba(164,133,61,.13); font-weight: 700; }
 /* Below the shelf and set off from it: a rule, so the eye reads them as a
    different kind of door rather than as the last few books of the volume. */
 .book-grid + .volume-sections {
@@ -2614,13 +2752,6 @@ mark.find-hit[data-current] {
 /* The notes column glides to the entry it's tracking; App.jsx assigns
    scrollTop, and this turns that assignment into an animated scroll. */
 .commentary-col, .side-extras { scroll-behavior: smooth; }
-
-/* The dock's shortcut down to the study panels, for the widths where they are
-   below the chapter rather than beside it. */
-.pill-study { display: grid; }
-@media (min-width: 960px) {
-  .pill-study { display: none; }
-}
 
 /* ---- The translation essays ---------------------------------------------
    Prose, which nothing else on the site is. The charts tabulate and the

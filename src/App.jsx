@@ -16,6 +16,7 @@ import FindBar from "./components/FindBar.jsx";
 import { LensControls } from "./components/LensPanel.jsx";
 import VolumeTimeline, { hasTimeline } from "./components/VolumeTimeline.jsx";
 import ContentsCard from "./components/ContentsCard.jsx";
+import StudyDock, { PANELS, useFilledPanels, useSheetDismissal } from "./components/StudyDock.jsx";
 import SectionTile, { TimelineIcon, ProphetsIcon, MapIcon, ComingForthIcon, OverviewIcon, EvidencesIcon, ResourcesIcon, ChartsIcon } from "./components/SectionTile.jsx";
 import { mentionsOf, marginMentions } from "./lib/mentions.js";
 import { ChapterOverview, CommentaryNotes, CrossConnections } from "./components/Commentary.jsx";
@@ -694,25 +695,22 @@ export default function App() {
     if (dir > 0 ? !atEnd : !atStart) step(dir);
   }, !!chapter && !query);
 
-  // The study panels sit under the chapter on a phone, which is a long way past
-  // the last verse — so the dock carries a button that goes there and, once you
-  // are there, comes back to the verse you left.
-  const studyReturn = useRef(0);
-  const toStudy = useCallback(() => {
-    const el = document.querySelector(".side-extras");
-    if (!el) return;
-    const bar = document.querySelector(".chrome")?.offsetHeight ?? 0;
-    const top = el.getBoundingClientRect().top;
-    const down = top > bar + 24;
-    if (down) studyReturn.current = window.scrollY;
-    const to = down ? window.scrollY + top - bar - 8 : studyReturn.current;
-    // A glide is worth watching across a screen or two; a chapter's length of it
-    // is just a long wait, so anything further jumps.
-    window.scrollTo({
-      top: to,
-      behavior: Math.abs(to - window.scrollY) > window.innerHeight * 2 ? "auto" : "smooth",
-    });
-  }, []);
+  // Narrow, the study panels are markers in the top corners rather than a
+  // column, and pressing one opens it over the page. Which panel that is lives
+  // here; the corners and the sheet are styles.css's, so the same markup can be
+  // a column again as soon as there is room for one. See StudyDock.
+  const [sheet, setSheet] = useState(null);
+  const panelsRef = useRef(null);
+  const filled = useFilledPanels(panelsRef, [chapter, lens, volId, bookIdx, chapIdx]);
+  const closeSheet = useCallback(() => setSheet(null), []);
+  useSheetDismissal(sheet, closeSheet);
+
+  // A sheet is about the chapter under it, so it does not survive leaving that
+  // chapter — nor a panel emptying out from under it as the next one loads.
+  useEffect(() => {
+    if (sheet && !filled.has(sheet)) setSheet(null);
+  }, [sheet, filled]);
+  useEffect(() => { setSheet(null); }, [chapter, query]);
 
   // One level up the hierarchy, mirroring the breadcrumbs. Returns false at the
   // top so the caller can leave the key alone.
@@ -898,8 +896,26 @@ export default function App() {
 
   const inlineSearch = home ? <div className="inline-search">{searchField}</div> : null;
 
+  // Narrow, the field itself is too wide to stand anywhere while a chapter is
+  // being read, so it waits in the dock as a bar the width of the room left
+  // over beside the pill and opens the real one at the foot of the window.
+  // Standing in the dock rather than floating over it is what keeps it on the
+  // pill's line — see the .navdock rules.
+  const searchButton = (
+    <button className="tap dock-search" onClick={openSearch}
+      aria-label="Search" aria-expanded={searchOpen}>
+      <svg aria-hidden viewBox="0 0 24 24" width="19" height="19" fill="none"
+        stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
+        <circle cx="11" cy="11" r="6.5" />
+        <line x1="16" y1="16" x2="21" y2="21" />
+      </svg>
+      <span className="dock-search-label">Search</span>
+    </button>
+  );
+
   return (
-    <div style={{ minHeight: "100vh", position: "relative", color: ink, background: "linear-gradient(175deg,#f6f7f9 0%,#eef1f5 55%,#eceef3 100%)", fontFamily: "-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif" }}>
+    <div className={sheet ? "sheet-open" : undefined}
+      style={{ minHeight: "100vh", position: "relative", color: ink, background: "linear-gradient(175deg,#f6f7f9 0%,#eef1f5 55%,#eceef3 100%)", fontFamily: "-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif" }}>
       <AmbientGlow />
 
       {/* Layout lives in styles.css so a media query can turn this bar into a
@@ -911,21 +927,6 @@ export default function App() {
           </div>
         </div>
       </header>
-
-      {/* Narrow, the field folds down to this and gets out of the reader's way
-          — see styles.css, which is also what hides it once there is a column
-          to keep the field in. Not on the home screen, where the field is
-          already standing in the middle of it. */}
-      {!home && (
-        <button className="tap search-fab" data-raised={trail.length > 0 || undefined}
-          onClick={openSearch} aria-label="Search" aria-expanded={searchOpen}>
-          <svg aria-hidden viewBox="0 0 24 24" width="22" height="22" fill="none"
-            stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
-            <circle cx="11" cy="11" r="6.5" />
-            <line x1="16" y1="16" x2="21" y2="21" />
-          </svg>
-        </button>
-      )}
 
       {/* `content-solo` while nothing is standing in the side columns: with no
           sidebar to balance against, reserving its width would only push the
@@ -1060,35 +1061,59 @@ export default function App() {
             is wide enough to hold one, so a phone scrolls to the same panels a
             desktop keeps in view. The lens controls and the notes they drive
             move again at the three-column width, to the right. */}
-        <aside className={`side-extras${chapter && !query ? " has-panels" : ""}`} aria-label="Study panels" hidden={!!query}>
-          <div className="overview-box">
+        <aside ref={panelsRef} className="side-extras" aria-label="Study panels"
+          hidden={!!query} data-sheet={sheet || undefined}>
+          {/* Narrow, the sheet is the whole window and the chapter is behind it,
+              so it says which panel this is and how to get back. The column
+              never shows either — there the panels are simply in view. */}
+          <div className="sheet-bar">
+            <span className="sheet-title">{PANELS.find((p) => p.id === sheet)?.title}</span>
+            <button className="tap sheet-close" onClick={closeSheet} aria-label="Close panel">
+              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor"
+                strokeWidth="1.9" strokeLinecap="round" aria-hidden focusable="false">
+                <path d="M3.4 3.4 11.6 11.6M11.6 3.4 3.4 11.6" />
+              </svg>
+            </button>
+          </div>
+
+          {/* Only ever a marker: the chapter list is how you leave a chapter
+              now that the pill has no arrows, and it is wanted nowhere else.
+              The card in the margin is the wide screens' answer to the same
+              question and is shown instead of this, never beside it. */}
+          {chapter && book && (
+            <div className="contents-box" data-panel="contents">
+              <ChapterGrid volId={volId} book={book} current={chapIdx}
+                onOpen={(i) => { openChapterAt(bookIdx, book.chapters[i].n); closeSheet(); }} />
+            </div>
+          )}
+          <div className="overview-box" data-panel="overview">
             <ChapterOverview book={book} chapter={chapter} volId={volId}
               collapsed={collapsed} onToggle={toggleCard} />
           </div>
-          <div className="lens-inline">
+          <div className="lens-inline" data-panel="lenses">
             <LensControls lens={lens} setLens={setLens} chapter={chapter} collapsed={collapsed} onToggle={toggleCard} />
           </div>
           {/* Where this chapter sits in the book's arc. Renders itself away
               when the book has no captions written for it. Keyed by book: a
               new book should place its band without gliding there from the
               old book's position. */}
-          <div className="timeline-box">
+          <div className="timeline-box" data-panel="timeline">
             <ChapterTimeline key={volId} volId={volId} volumeTitle={volume?.title}
               books={books} book={book} chapter={chapter}
               onOpen={openChapterAt} collapsed={collapsed} onToggle={toggleCard} />
           </div>
           {/* Renders nothing unless this chapter is in the chart. */}
-          <div className="related-box">
+          <div className="related-box" data-panel="related">
             <RelatedChapters volId={volId} book={book} chapter={chapter}
               pages={studyList} onOpen={openRelated} onOpenPage={openStudyPage}
               collapsed={collapsed} onToggle={toggleCard} />
           </div>
-          <div className="notes-inline">
+          <div className="notes-inline" data-panel="notes">
             <CommentaryNotes book={book} chapter={chapter} lens={lens} volId={volId}
               collapsed={collapsed} onToggle={toggleCard} />
           </div>
           {/* Last in the column: the index of what the chapter points at. */}
-          <div className="connections-box">
+          <div className="connections-box" data-panel="connections">
             <CrossConnections book={book} chapter={chapter} lens={lens} volId={volId}
               onJump={jumpToVerse} collapsed={collapsed} onToggle={toggleCard} />
           </div>
@@ -1114,10 +1139,15 @@ export default function App() {
         <FindBar query={find} total={countIn(chapter.verses, find)} onClose={() => setFind(null)} />
       )}
 
+      {/* The markers belong to a chapter, so they go when there is none — and
+          while a sheet is up, the sheet is the panel and the corners under it
+          have nothing left to offer. */}
+      {chapter && !query && !sheet && <StudyDock filled={filled} onOpen={setSheet} />}
+
       {trail.length > 0 && (
         <NavPill trail={trail} chapter={query ? null : chapter} atStart={atStart} atEnd={atEnd}
           onPrev={() => step(-1)} onNext={() => step(1)}
-          onStudy={toStudy} onBack={history.length ? goBack : null} />
+          onBack={history.length ? goBack : null} search={!home && searchButton} />
       )}
     </div>
   );

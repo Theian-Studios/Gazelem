@@ -27,7 +27,7 @@ import { countIn } from "./lib/find.js";
 import { LoadingShimmer, ErrorCard } from "./components/Status.jsx";
 import ErrorBoundary from "./components/ErrorBoundary.jsx";
 import { hasCategories, hasComingForth, hasResources } from "./lib/sections.js";
-import { hasCharts, chartExists, hasEvidences, evidenceExists, essayExists, hasProphets, prophetNames, pageTitle } from "./lib/manifest.js";
+import { hasCharts, chartExists, hasEvidences, evidenceExists, essayExists, hasProphets, prophetNames, prophetNamed, placeNamed, pageTitle } from "./lib/manifest.js";
 
 // The volume's own pages, fetched when one is opened rather than with the site.
 //
@@ -89,6 +89,9 @@ export default function App() {
   // rather than off its own shelf. Held beside the section so leaving the
   // section clears it.
   const [focus, setFocus] = useState(null);
+  // Which place the map should open on, when it was opened from a chapter's
+  // overview rather than off the shelf. Cleared with the section, like focus.
+  const [place, setPlace] = useState(null);
   // Narrow layouts keep the field out of the way until it is asked for; this
   // is whether it is on screen, and the counter beside it hands it the caret
   // each time it is opened afresh.
@@ -707,7 +710,11 @@ export default function App() {
   useEffect(() => {
     if (sheet && !filled.has(sheet)) setSheet(null);
   }, [sheet, filled]);
-  useEffect(() => { setSheet(null); }, [chapter, query]);
+  // Anything that takes the reader off the chapter closes the sheet with it —
+  // a section or a prophet's page opened from inside one included, which is how
+  // the overview's links leave. The sheet holds the page's scroll while it is
+  // open, so one left standing behind a map would lock it.
+  useEffect(() => { setSheet(null); }, [chapter, query, section, prophet]);
 
   // A book of one chapter offers no Block level — see levelsFor. Reading one
   // with the lens already set there would otherwise leave the reader on a level
@@ -820,8 +827,41 @@ export default function App() {
     rememberScroll();
     setProphet(null);
     setFocus(null);
+    setPlace(null);
     setSection(what);
     window.scrollTo({ top: 0 });
+  };
+
+  // The overview names a speaker and a place. Where the volume has a page about
+  // that person, or a point on its map for that place, the name is the way
+  // there — asked of the manifest, so neither page is fetched to find out.
+  // A name the site has nothing to show for stays plain text.
+  const openFor = {
+    speakers: (name) => {
+      const found = prophetNamed(volume, name);
+      if (!found) return null;
+      return {
+        title: `Read about ${found}`,
+        onClick: () => {
+          rememberScroll();
+          setSection(null);
+          setFocus(null);
+          setPlace(null);
+          setProphet(found);
+          window.scrollTo({ top: 0 });
+        },
+      };
+    },
+    location: (name) => {
+      const found = placeNamed(volume, name);
+      if (!found) return null;
+      return {
+        title: `Find ${found.name} on the map`,
+        // The section is opened the ordinary way and told where to go; the map
+        // reads `place` once, on arrival, and is the reader's after that.
+        onClick: () => { open("map"); setPlace(found.id); },
+      };
+    },
   };
   // Described once, as data, because two things are built from it: the tiles
   // shelved beside the volume's books, and the rows in the contents card.
@@ -1020,7 +1060,7 @@ export default function App() {
           <VolumeOverview volume={volume} books={books}
             onOpen={(bi, ci) => { setSection(null); setBookIdx(bi); setChapIdx(ci); setTargetVerse(null); setFlipDir(0); }} />
         )}
-        {!query && section === "map" && <MapView onOpenRef={openReference} />}
+        {!query && section === "map" && <MapView onOpenRef={openReference} place={place} />}
         {/* The shelf, and one evidence off it. Held in the section name rather
             than in a state of its own, so climbing back out is the same move
             as leaving any other section. */}
@@ -1066,7 +1106,7 @@ export default function App() {
             desktop keeps in view. The lens controls and the notes they drive
             move again at the three-column width, to the right. */}
         <aside ref={panelsRef} className="side-extras" aria-label="Study panels"
-          hidden={!!query} data-sheet={sheet || undefined}>
+          hidden={!reading} data-sheet={sheet || undefined}>
           {/* Narrow, the sheet is the whole window and the chapter is behind it,
               so it says which panel this is and how to get back. The column
               never shows either — there the panels are simply in view. */}
@@ -1082,7 +1122,7 @@ export default function App() {
 
           <div className="overview-box" data-panel="overview">
             <ChapterOverview book={book} chapter={chapter} volId={volId}
-              collapsed={collapsed} onToggle={toggleCard} />
+              collapsed={collapsed} onToggle={toggleCard} openFor={openFor} />
           </div>
           <div className="lens-inline" data-panel="lenses">
             <LensControls lens={lens} setLens={setLens} book={book} chapter={chapter} collapsed={collapsed} onToggle={toggleCard} />
@@ -1120,7 +1160,7 @@ export default function App() {
           empty: it is a fixed column over the right of the page, and left
           standing it takes the clicks meant for whatever is under it — which
           on a shelf or a study page is real content, not margin. */}
-      <aside className="commentary-col" aria-label="Commentary column" hidden={!!query || !chapter}>
+      <aside className="commentary-col" aria-label="Commentary column" hidden={!reading || !chapter}>
         <div className="lens-box">
           <LensControls lens={lens} setLens={setLens} book={book} chapter={chapter} collapsed={collapsed} onToggle={toggleCard} />
         </div>
@@ -1136,7 +1176,7 @@ export default function App() {
       {/* The markers belong to a chapter, so they go when there is none — and
           while a sheet is up, the sheet is the panel and the corners under it
           have nothing left to offer. */}
-      {chapter && !query && !sheet && (
+      {chapter && reading && !sheet && (
         <StudyDock filled={filled} hidden={controlsHidden} onOpen={setSheet} />
       )}
 

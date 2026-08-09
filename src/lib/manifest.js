@@ -45,6 +45,56 @@ export const prophetNames = (volume) => (volume && MANIFEST.prophets[volume.file
 
 export const hasProphets = (volume) => prophetNames(volume).length > 0;
 
+// ---- Naming the same person or place twice ---------------------------------
+//
+// A chapter's metadata is prose written by whoever wrote the notes, and the
+// prophets file and the map were written by someone else again — so "Antionum"
+// has to find the map's Antionum, and "Amulek" the prophets page's Amulek,
+// without either side having been told about the other. Compared on letters and
+// numbers alone, which absorbs the punctuation and casing they disagree on
+// while still keeping "Nephi" and "Nephihah" apart.
+const fold = (s) => (s || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+
+// The prophet of this volume that a name names, or null. Returns the name as
+// the prophets page spells it, since that is what opens the page.
+export function prophetNamed(volume, name) {
+  const want = fold(name);
+  return want ? prophetNames(volume).find((p) => fold(p) === want) || null : null;
+}
+
+// The map's places for a volume — id and name only; the map itself carries
+// everything else, and is not downloaded to answer this.
+const placesOf = (volume) => (volume && MANIFEST.places?.[volume.file]) || [];
+
+export const hasPlaces = (volume) => placesOf(volume).length > 0;
+
+// A place is named with or without the word for what kind of place it is: the
+// map letters it "Nephi", a chapter says it happened in the land of Nephi, and
+// they mean the same point on the drawing. So the qualifier comes off and the
+// two are compared on the name proper.
+const QUALIFIER =
+  /^(?:the\s+)?(?:(?:land|city|waters|valley|wilderness|plains|place|borders|hill|mount)\s+of\s+|(?:hill|mount)\s+)/i;
+const core = (s) => fold((s || "").replace(QUALIFIER, ""));
+
+// The place a name names, by either of the names the record gives it, or null.
+//
+// Exactly first, and only then on the name proper — and then only if one place
+// answers to it. The map has both a Manti and a Hill Manti: each is found by
+// its own full name, and anything that reaches for the bare name lands on
+// neither rather than on the wrong one.
+export function placeNamed(volume, name) {
+  const want = fold(name);
+  if (!want) return null;
+  const places = placesOf(volume);
+  const exact = places.find((p) => fold(p.name) === want || fold(p.altName) === want);
+  if (exact) return exact;
+
+  const asked = core(name);
+  if (!asked) return null;
+  const loose = places.filter((p) => core(p.name) === asked || core(p.altName) === asked);
+  return loose.length === 1 ? loose[0] : null;
+}
+
 // ---- What the search field looks through -----------------------------------
 
 const VOL_BY_FILE = new Map(VOLUMES.map((v) => [v.file, v.id]));

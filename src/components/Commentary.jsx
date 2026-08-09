@@ -32,7 +32,36 @@ function facetCount(g) {
   return (g.text || "").split(/\s*[;·]\s*|\s+and\s+/i).filter(Boolean).length;
 }
 
-function Overview({ meta, collapsed, onToggle }) {
+// A facet's value read as the several names it may be, so each can be asked
+// about on its own: "Alma · Amulek" is two people, and one of them having a page
+// says nothing about the other. The separator is the one facetValue joins with,
+// plus the ones a writer uses inside a single field.
+const namesIn = (value) => value.split(/\s+·\s+|\s*;\s*/).map((s) => s.trim()).filter(Boolean);
+
+// Where a name is also somewhere the site can take the reader, it is offered as
+// a way there. Which names those are is the manifest's to answer — the prophets'
+// pages and the map are both fetched only when opened, and asking either of them
+// directly would bring it along with every chapter.
+function FacetValue({ value, open }) {
+  const parts = namesIn(value);
+  return parts.map((name, i) => {
+    const to = open?.(name);
+    return (
+      <span key={name + i}>
+        {i > 0 && <span className="meta-facet-sep"> · </span>}
+        {to ? (
+          <button type="button" className="meta-facet-link" onClick={to.onClick} title={to.title}>
+            {name}
+          </button>
+        ) : (
+          name
+        )}
+      </span>
+    );
+  });
+}
+
+function Overview({ meta, collapsed, onToggle, openFor }) {
   const facets = META_FACETS
     .map(([key, label, Icon]) => ({
       key,
@@ -58,7 +87,9 @@ function Overview({ meta, collapsed, onToggle }) {
           <li key={key} className="meta-facet">
             <span className="meta-ring"><Icon /></span>
             <span className="meta-facet-label">{label}</span>
-            <span className="serif meta-facet-value">{value}</span>
+            <span className="serif meta-facet-value">
+              <FacetValue value={value} open={openFor?.[key]} />
+            </span>
           </li>
         ))}
       </ul>
@@ -136,10 +167,10 @@ function notesFor(book, chapter, volId) {
 
 // Who is speaking, to whom, and where. Chapter-scoped, so it is the same
 // whichever lens is selected.
-export function ChapterOverview({ book, chapter, volId, collapsed, onToggle }) {
+export function ChapterOverview({ book, chapter, volId, collapsed, onToggle, openFor }) {
   const data = notesFor(book, chapter, volId);
   if (!data?.meta) return null;
-  return <Overview meta={data.meta} collapsed={collapsed} onToggle={onToggle} />;
+  return <Overview meta={data.meta} collapsed={collapsed} onToggle={onToggle} openFor={openFor} />;
 }
 
 // The finer levels are a card of many small notes, so the heading names them

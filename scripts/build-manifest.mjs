@@ -42,6 +42,10 @@ const mdIn = (dir) => {
   try { return readdirSync(join(DATA, dir)).filter((f) => f.endsWith(".md")).sort(); }
   catch { return []; }
 };
+const jsonIn = (dir) => {
+  try { return readdirSync(join(DATA, dir)).filter((f) => f.endsWith(".json")).sort(); }
+  catch { return []; }
+};
 
 // ---- The pages themselves --------------------------------------------------
 
@@ -63,6 +67,24 @@ const essays = mdIn("evidences/translation")
 const prophets = {};
 for (const f of mdIn("prophets")) {
   prophets[prophetFile(f)] = parseProphets(read("prophets", f)).map((p) => p.name);
+}
+
+// The map's places, by name alone. The map's own data carries coordinates, a
+// description and an events list for each of sixty-odd places, and none of that
+// is wanted to answer the one question asked away from the map: is the place
+// this chapter names somewhere the map can show? Asking it of the data itself
+// would put the whole file in the first chunk, which is the thing this manifest
+// exists to prevent — so the names come here and the map keeps the rest.
+const places = {};
+for (const f of jsonIn("map")) {
+  const m = f.match(/^places-(.+)\.json$/);
+  if (!m) continue;
+  places[m[1]] = JSON.parse(read("map", f)).places.map((p) => ({
+    id: p.id,
+    name: p.name,
+    // A place is as findable by the other name the record gives it.
+    ...(p.altName ? { altName: p.altName } : {}),
+  }));
 }
 
 // ---- Which passages each one treats ----------------------------------------
@@ -144,6 +166,7 @@ const manifest = {
   evidences: evidences.map((e) => ({ slug: e.slug, title: e.title, subtitle: e.subtitle })),
   essays: essays.map((e) => ({ slug: e.slug, title: e.title, subtitle: e.subtitle })),
   prophets,
+  places,
   study: { pages: pages.map(({ lines, ...rest }) => rest), at },
 };
 
@@ -155,5 +178,6 @@ console.log(`charts     ${charts.length}`);
 console.log(`evidences  ${evidences.length}`);
 console.log(`essays     ${essays.length}`);
 console.log(`prophets   ${Object.entries(prophets).map(([f, n]) => `${f} ${n.length}`).join(", ") || "none"}`);
+console.log(`places     ${Object.entries(places).map(([f, p]) => `${f} ${p.length}`).join(", ") || "none"}`);
 console.log(`indexed    ${pages.length} pages over ${Object.keys(at).length} chapters`);
 console.log(`manifest   ${kb(JSON.stringify(manifest).length)}`);

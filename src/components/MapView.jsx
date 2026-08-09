@@ -19,7 +19,7 @@ function Cite({ label, onOpenRef }) {
   return <span className="map-ref-group"> ({inner})</span>;
 }
 
-export default function MapView({ onOpenRef }) {
+export default function MapView({ onOpenRef, place }) {
   // The window onto the artwork: how far it is opened out, and which point of
   // it sits in the middle.
   const [view, setView] = useState({ z: 1, x: VIEW.w / 2, y: VIEW.h / 2 });
@@ -172,6 +172,23 @@ export default function MapView({ onOpenRef }) {
     setPicked(place);
     setFind("");
   };
+
+  // Opened from a chapter that names a place: the map arrives already there,
+  // with the place chosen and its card open, which is the whole promise of the
+  // name having been a link.
+  //
+  // Waits for the frame to have been measured — flyTo clamps against the zoom
+  // the frame can hold, and at zero width that clamp has nothing to work with.
+  // Once only, keyed by the place asked for: the reader may pan away, and a map
+  // that pulls itself back is not theirs.
+  const flown = useRef(null);
+  useEffect(() => {
+    if (!place || !box.w || flown.current === place) return;
+    const found = PLACES.find((p) => p.id === place);
+    if (!found) return;
+    flown.current = place;
+    flyTo(found);
+  });
 
   const matches = useMemo(() => {
     const q = find.trim().toLowerCase();

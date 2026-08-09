@@ -27,7 +27,7 @@ function place(el) {
   return { top, left, width };
 }
 
-function Popup({ anchorEl, pages, onOpen, hold, release }) {
+function Popup({ anchorEl, pages, onOpen, hold, release, popRef }) {
   const [box, setBox] = useState(() => place(anchorEl));
 
   useEffect(() => {
@@ -41,7 +41,7 @@ function Popup({ anchorEl, pages, onOpen, hold, release }) {
   }, [anchorEl]);
 
   return createPortal(
-    <div className="sm-pop" onMouseEnter={hold} onMouseLeave={release}
+    <div ref={popRef} className="sm-pop" onMouseEnter={hold} onMouseLeave={release}
       style={{ ...glassOverlay, position: "fixed", top: box.top, left: box.left, width: box.width }}>
       <p className="sm-pop-head">Written about here</p>
       <ul className="sm-pop-list">
@@ -70,6 +70,7 @@ let closeOpen = null;
 export default function StudyMarker({ pages, onOpen, wide }) {
   const [open, setOpen] = useState(false);
   const ref = useRef(null);
+  const pop = useRef(null);
   const timer = useRef(null);
 
   // This marker's own closer, so it only ever gives the slot up while the slot
@@ -99,11 +100,26 @@ export default function StudyMarker({ pages, onOpen, wide }) {
   }, [show]);
   useEffect(() => () => clearTimeout(timer.current), []);
 
+  // Escape closes it, and so does a press anywhere else — the card is opened by
+  // a tap on a phone, where there is no pointer to move away and no key to
+  // press, and finding the same small mark again is the only way out it had.
+  // The card is portalled to the body, outside the mark's subtree, so it has to
+  // be asked separately; checking the mark alone would close the card on every
+  // press inside it and put its own rows out of reach.
   useEffect(() => {
     if (!open) return;
     const onKey = (e) => e.key === "Escape" && show(false);
+    const onDown = (e) => {
+      if (ref.current?.contains(e.target) || pop.current?.contains(e.target)) return;
+      clearTimeout(timer.current);
+      show(false);
+    };
     window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
+    document.addEventListener("pointerdown", onDown, true);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.removeEventListener("pointerdown", onDown, true);
+    };
   }, [open, show]);
 
   if (!pages?.length) return null;
@@ -130,7 +146,7 @@ export default function StudyMarker({ pages, onOpen, wide }) {
         </svg>
       </button>
       {open && ref.current && (
-        <Popup anchorEl={ref.current} pages={pages} onOpen={onOpen} hold={hold} release={release} />
+        <Popup anchorEl={ref.current} pages={pages} onOpen={onOpen} hold={hold} release={release} popRef={pop} />
       )}
     </>
   );

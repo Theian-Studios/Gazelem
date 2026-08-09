@@ -37,12 +37,17 @@ const GUARD = ".conn-pop, .selbar, .ct-scroll, input, textarea, [contenteditable
 // whether there is a chapter that way. The element is written to directly
 // rather than through state: this runs on every touchmove, and a re-render per
 // frame is the difference between the page following the hand and lagging it.
-export function useHorizontalSwipe(onSwipe, enabled = true, { target, canGo } = {}) {
+// `onDrag(active)` fires once when a gesture proves to be a page turn and once
+// when it ends — not per frame. It is what lets the chapters either side be
+// rendered only while they can be seen: mounting two more chapters for every
+// scroll would cost more than the whole gesture is worth.
+export function useHorizontalSwipe(onSwipe, enabled = true, { target, canGo, onDrag } = {}) {
   // These close over fresh state every render; keeping them in refs lets the
   // listeners bind once instead of being torn down and rebound each time.
   const cb = useRef(onSwipe);
   const allow = useRef(canGo);
-  useEffect(() => { cb.current = onSwipe; allow.current = canGo; });
+  const dragging = useRef(onDrag);
+  useEffect(() => { cb.current = onSwipe; allow.current = canGo; dragging.current = onDrag; });
 
   useEffect(() => {
     if (!enabled) return;
@@ -99,7 +104,7 @@ export function useHorizontalSwipe(onSwipe, enabled = true, { target, canGo } = 
     const move = (e) => {
       // A second finger means a pinch, not a page turn.
       if (!live) return;
-      if (e.touches.length > 1) { live = false; if (claimed) release(false); claimed = false; return; }
+      if (e.touches.length > 1) { live = false; if (claimed) { release(false); dragging.current?.(false); } claimed = false; return; }
       const t = e.touches[0];
       dx = t.clientX - x0;
       const dy = t.clientY - y0;
@@ -112,6 +117,7 @@ export function useHorizontalSwipe(onSwipe, enabled = true, { target, canGo } = 
         // what tells them apart is that this one leaves text selected.
         if (!window.getSelection()?.isCollapsed) { live = false; return; }
         claimed = true;
+        dragging.current?.(true);
       }
       frame ||= requestAnimationFrame(draw);
     };
@@ -121,6 +127,7 @@ export function useHorizontalSwipe(onSwipe, enabled = true, { target, canGo } = 
       live = false;
       if (!claimed) return;
       claimed = false;
+      dragging.current?.(false);
 
       const t = e.changedTouches[0];
       const moved = t.clientX - x0;

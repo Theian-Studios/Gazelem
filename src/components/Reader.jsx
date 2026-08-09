@@ -19,15 +19,52 @@ function Found({ text, find }) {
   );
 }
 
-export default function Reader({ volId, book, chapter, targetVerse, flipDir = 0, connections, find, onOpenRef, study, onOpenStudy, pageRef }) {
+// The chapter waiting either side, seen only in the sliver a drag opens up.
+//
+// Its head and its first verses, and no more: what shows is a strip down one
+// edge, and what it has to say there is which chapter is coming. The gold runs,
+// the footnote letters and the margin marks are all left off — they cost the
+// most to draw and are the least visible at this width, and the real chapter
+// arrives a moment later carrying every one of them.
+const PEEK_VERSES = 12;
+
+function Peek({ volId, book, chapter, side }) {
+  return (
+    <aside className="page-peek" data-side={side} aria-hidden>
+      <div className="reader-card" style={{ ...glass, borderRadius: 26 }}>
+        <div className="chapter-head">
+          <h2 className="serif chapter-title" style={{ fontSize: "clamp(20px, 3vw, 25px)", fontWeight: 600, letterSpacing: "0.01em", margin: 0 }}>
+            {volId === "dc" ? `Section ${chapter.n}` : `${book.name} ${chapter.n}`}
+          </h2>
+        </div>
+        <div style={{ maxWidth: 620, margin: "0 auto" }}>
+          {chapter.verses.slice(0, PEEK_VERSES).map((v) => (
+            <p key={v.verse} className="serif"
+              style={{ display: "grid", gridTemplateColumns: "34px 1fr", gap: 6, margin: "0 0 14px", fontSize: 17.5, lineHeight: 1.8, fontWeight: 400 }}>
+              <span style={{ color: gold, fontSize: 13, lineHeight: "2.35", textAlign: "right", paddingRight: 4, fontVariantNumeric: "oldstyle-nums", fontWeight: 500 }}>
+                {v.verse}
+              </span>
+              <span>{v.text}</span>
+            </p>
+          ))}
+        </div>
+      </div>
+    </aside>
+  );
+}
+
+export default function Reader({ volId, book, chapter, targetVerse, flipDir = 0, connections, find, onOpenRef, study, onOpenStudy, pageRef, prev, next }) {
   const versesRef = useRef(null);
   const local = useLocalSummaries();
   const summary = resolveSummary(local, volId, book, chapter.n);
   const entrance = flipDir > 0 ? "flip-next" : flipDir < 0 ? "flip-prev" : "pop";
   return (
     // The element a sideways drag moves — see lib/swipe.js, which writes its
-    // transform directly. `page` carries the touch-action that lets it.
+    // transform directly. `page` carries the touch-action that lets it, and the
+    // chapters either side ride with it, standing off its edges.
     <article ref={pageRef} className={`page ${entrance}`}>
+      {prev && <Peek volId={volId} book={prev.book} chapter={prev.chapter} side="prev" />}
+      {next && <Peek volId={volId} book={next.book} chapter={next.chapter} side="next" />}
       {/* Padding is in CSS so the three-column layout can tighten it. */}
       <div className="reader-card" style={{ ...glass, borderRadius: 26 }}>
         {/* Pinned while the chapter scrolls — position and backdrop in CSS. */}

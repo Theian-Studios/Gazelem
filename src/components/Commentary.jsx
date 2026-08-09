@@ -84,15 +84,31 @@ function Overview({ meta, collapsed, onToggle, openFor }) {
       {/* Columns follow the number of facets, so a chapter without a location
           fills the row rather than leaving a gap where it would have been. */}
       <ul className="meta-facets" style={{ gridTemplateColumns: `repeat(${facets.length}, 1fr)` }}>
-        {facets.map(({ key, label, Icon, value }) => (
-          <li key={key} className="meta-facet">
-            <span className="meta-ring"><Icon /></span>
-            <span className="meta-facet-label">{label}</span>
-            <span className="serif meta-facet-value">
-              <FacetValue value={value} open={openFor?.[key]} />
-            </span>
-          </li>
-        ))}
+        {facets.map(({ key, label, Icon, value }) => {
+          // Where the facet names one thing and that thing has somewhere to go,
+          // the ring goes there too: the mark and the name are one object to a
+          // reader, and a ring that does nothing beside a name that does reads
+          // as the name being the only live part of it. Only for a single
+          // name — with two, the ring cannot say which it would open.
+          const names = namesIn(value);
+          const only = names.length === 1 ? openFor?.[key]?.(names[0]) : null;
+          return (
+            <li key={key} className="meta-facet">
+              {only ? (
+                <button type="button" className="meta-ring meta-ring-link"
+                  onClick={only.onClick} title={only.title} aria-label={only.title}>
+                  <Icon />
+                </button>
+              ) : (
+                <span className="meta-ring"><Icon /></span>
+              )}
+              <span className="meta-facet-label">{label}</span>
+              <span className="serif meta-facet-value">
+                <FacetValue value={value} open={openFor?.[key]} />
+              </span>
+            </li>
+          );
+        })}
       </ul>
     </Card>
   );

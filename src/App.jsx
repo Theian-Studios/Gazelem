@@ -466,21 +466,29 @@ export default function App() {
     window.scrollTo({ top });
   });
 
-  const step = (dir) => {
-    if (!books || bookIdx == null || chapIdx == null) return;
-    rememberScroll();
+  // Where a step in this direction lands, or null at the ends of the volume.
+  // Asked by step() to go there, and by the drag to show what is coming.
+  const neighbour = useCallback((dir) => {
+    if (!books || bookIdx == null || chapIdx == null) return null;
     let b = bookIdx, c = chapIdx + dir;
     if (c < 0) {
-      if (b === 0) return;
+      if (b === 0) return null;
       b -= 1; c = books[b].chapters.length - 1;
     } else if (c >= books[b].chapters.length) {
-      if (b === books.length - 1) return;
+      if (b === books.length - 1) return null;
       b += 1; c = 0;
     }
+    return { book: books[b], chapter: books[b].chapters[c], bookIdx: b, chapIdx: c };
+  }, [books, bookIdx, chapIdx]);
+
+  const step = (dir) => {
+    const to = neighbour(dir);
+    if (!to) return;
+    rememberScroll();
     setTargetVerse(null);
     setFlipDir(dir);
-    setBookIdx(b);
-    setChapIdx(c);
+    setBookIdx(to.bookIdx);
+    setChapIdx(to.chapIdx);
   };
 
   // Margin markers mirror the Cross Connections list, so like that list they
@@ -693,9 +701,12 @@ export default function App() {
   // there is a chapter that way to pull toward.
   const pageRef = useRef(null);
   const canGo = useCallback((dir) => (dir > 0 ? !atEnd : !atStart), [atEnd, atStart]);
+  // The chapters either side are only worth rendering while a drag can show
+  // them, so the gesture says when it starts and when it stops.
+  const [dragging, setDragging] = useState(false);
   useHorizontalSwipe((dir) => {
     if (canGo(dir)) step(dir);
-  }, !!chapter && !query, { target: pageRef, canGo });
+  }, !!chapter && !query, { target: pageRef, canGo, onDrag: setDragging });
 
   // Narrow, the study panels are markers in the top corners rather than a
   // column, and pressing one opens it over the page. Which panel that is lives
@@ -1101,7 +1112,8 @@ export default function App() {
           <Reader key={`${bookIdx}-${chapIdx}`} volId={volId} book={book}
             chapter={chapter} targetVerse={targetVerse} flipDir={flipDir}
             connections={verseConnections} find={find} onOpenRef={openReference}
-            study={study} onOpenStudy={openStudyPage} pageRef={pageRef} />
+            study={study} onOpenStudy={openStudyPage} pageRef={pageRef}
+            prev={dragging ? neighbour(-1) : null} next={dragging ? neighbour(1) : null} />
         )}
 
         {/* What frames the chapter: what it is, where it sits, what it

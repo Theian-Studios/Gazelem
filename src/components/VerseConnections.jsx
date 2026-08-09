@@ -111,7 +111,7 @@ function Popup({ anchorEl, connections, hold, release, onOpenRef, popRef }) {
               onClick={() => onOpenRef(p.cite)}
               title={`Open ${p.label}`}
             >
-              {p.label} <span aria-hidden>→</span>
+              {p.label}
             </button>
             {p.verses.map((v) => (
               <p key={v.verse} className="serif" style={{ margin: "0 0 5px", fontSize: 13.5, lineHeight: 1.62, color: inkSoft }}>

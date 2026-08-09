@@ -55,8 +55,7 @@ function Worlds({ value, onChange }) {
 // five words already says, and on a phone that column is the panel.
 function Levels({ value, levels, onChange }) {
   return (
-    <div className="lens-zoom">
-      <span className="lens-zoom-label" aria-hidden>Zoom</span>
+    <div className="lens-zoom" role="group" aria-label="Level of analysis">
       {levels.map((name) => (
         <button
           key={name}

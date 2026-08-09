@@ -688,9 +688,14 @@ export default function App() {
   // Swiping across the page turns the chapter, the way the ‹ › arrows do — and
   // the chapter slides in from the side the swipe came from, so the gesture and
   // the animation agree. Bound only while a chapter is open.
+  // The chapter travels with the finger, so the gesture needs the element as
+  // well as the outcome — and needs to know, while it is underway, whether
+  // there is a chapter that way to pull toward.
+  const pageRef = useRef(null);
+  const canGo = useCallback((dir) => (dir > 0 ? !atEnd : !atStart), [atEnd, atStart]);
   useHorizontalSwipe((dir) => {
-    if (dir > 0 ? !atEnd : !atStart) step(dir);
-  }, !!chapter && !query);
+    if (canGo(dir)) step(dir);
+  }, !!chapter && !query, { target: pageRef, canGo });
 
   // Narrow, the study panels are markers in the top corners rather than a
   // column, and pressing one opens it over the page. Which panel that is lives
@@ -1096,7 +1101,7 @@ export default function App() {
           <Reader key={`${bookIdx}-${chapIdx}`} volId={volId} book={book}
             chapter={chapter} targetVerse={targetVerse} flipDir={flipDir}
             connections={verseConnections} find={find} onOpenRef={openReference}
-            study={study} onOpenStudy={openStudyPage} />
+            study={study} onOpenStudy={openStudyPage} pageRef={pageRef} />
         )}
 
         {/* What frames the chapter: what it is, where it sits, what it
@@ -1149,7 +1154,7 @@ export default function App() {
           {/* Last in the column: the index of what the chapter points at. */}
           <div className="connections-box" data-panel="connections">
             <CrossConnections book={book} chapter={chapter} lens={lens} volId={volId}
-              onJump={jumpToVerse} collapsed={collapsed} onToggle={toggleCard} />
+              onJump={jumpToVerse} onOpenRef={openReference} collapsed={collapsed} onToggle={toggleCard} />
           </div>
         </aside>
         </ErrorBoundary>

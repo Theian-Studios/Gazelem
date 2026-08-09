@@ -19,13 +19,15 @@ function Found({ text, find }) {
   );
 }
 
-export default function Reader({ volId, book, chapter, targetVerse, flipDir = 0, connections, find, onOpenRef, study, onOpenStudy }) {
+export default function Reader({ volId, book, chapter, targetVerse, flipDir = 0, connections, find, onOpenRef, study, onOpenStudy, pageRef }) {
   const versesRef = useRef(null);
   const local = useLocalSummaries();
   const summary = resolveSummary(local, volId, book, chapter.n);
   const entrance = flipDir > 0 ? "flip-next" : flipDir < 0 ? "flip-prev" : "pop";
   return (
-    <article className={entrance}>
+    // The element a sideways drag moves — see lib/swipe.js, which writes its
+    // transform directly. `page` carries the touch-action that lets it.
+    <article ref={pageRef} className={`page ${entrance}`}>
       {/* Padding is in CSS so the three-column layout can tighten it. */}
       <div className="reader-card" style={{ ...glass, borderRadius: 26 }}>
         {/* Pinned while the chapter scrolls — position and backdrop in CSS. */}

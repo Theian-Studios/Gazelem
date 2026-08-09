@@ -1,5 +1,6 @@
 import { ink, inkSoft } from "../theme.js";
 import { getCommentary, orderedConnections, entryVerse } from "../lib/commentary.js";
+import { parseCitations } from "../lib/refs.js";
 import Card from "./Card.jsx";
 import { SpeakerIcon, AudienceIcon, LocationIcon } from "./MetaIcons.jsx";
 
@@ -224,7 +225,7 @@ export function CommentaryNotes({ book, chapter, lens, volId, collapsed, onToggl
 
 // The index of cross references, in verse order so it tracks the reader.
 // Cross references belong to the text itself, so the other two worlds show none.
-export function CrossConnections({ book, chapter, lens, volId, onJump, collapsed, onToggle }) {
+export function CrossConnections({ book, chapter, lens, volId, onJump, onOpenRef, collapsed, onToggle }) {
   if (!book || !chapter || lens.world !== "text") return null;
   const data = notesFor(book, chapter, volId);
   if (!data) return null;
@@ -237,17 +238,27 @@ export function CrossConnections({ book, chapter, lens, volId, onJump, collapsed
       collapsed={collapsed.has("connections")} onToggle={onToggle}
     >
       <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-        {connections.map((c) => (
-          <li key={c.id} style={{ margin: "0 0 9px" }}>
-            <button className="conn-jump" onClick={() => onJump?.(c.verse)} title={`Go to verse ${c.verse}`}>
-              <span className="conn-jump-id">{c.id}</span>
-              <span>
-                <span style={{ color: ink, fontWeight: 600 }}>{c.source}</span>
-                {c.gloss && <span style={{ color: inkSoft }}> — {c.gloss}</span>}
-              </span>
-            </button>
-          </li>
-        ))}
+        {connections.map((c) => {
+          // The entry names two places: the verse here that carries it, and the
+          // passage elsewhere that it points at. What the row says is the
+          // passage elsewhere, so that is where pressing it goes. The verse
+          // here is already on the page — its letter is in the margin — and
+          // the row's own words are the other end, which is not.
+          const cite = parseCitations(c.source)[0];
+          const go = cite && onOpenRef ? () => onOpenRef(cite) : () => onJump?.(c.verse);
+          return (
+            <li key={c.id} style={{ margin: "0 0 9px" }}>
+              <button className="conn-jump" onClick={go}
+                title={cite ? `Open ${c.source}` : `Go to verse ${c.verse}`}>
+                <span className="conn-jump-id">{c.id}</span>
+                <span>
+                  <span style={{ color: ink, fontWeight: 600 }}>{c.source}</span>
+                  {c.gloss && <span style={{ color: inkSoft }}> — {c.gloss}</span>}
+                </span>
+              </button>
+            </li>
+          );
+        })}
       </ul>
     </Card>
   );

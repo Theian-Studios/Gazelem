@@ -155,6 +155,11 @@ a[x-apple-data-detectors] {
 /* Padding as a variable so the sticky chapter head can cancel it and span the
    full card width. overflow: clip keeps the head's square corners inside the
    card's rounded ones — and, unlike hidden, doesn't break sticky. */
+/* Horizontal gestures belong to the page turn, vertical ones to the scroll —
+   declared rather than fought for, so lib/swipe.js can stay on passive
+   listeners and never preventDefault a scroll it has misread. */
+.page { touch-action: pan-y; }
+
 .reader-card { --pad: clamp(24px, 5vw, 52px); padding: var(--pad); overflow: clip; }
 
 /* The chapter title pins to the top of the viewport while its chapter scrolls.
@@ -328,7 +333,10 @@ a[x-apple-data-detectors] {
     margin: 0 -12px 4px; padding: 14px 18px 12px;
     background: linear-gradient(180deg, #f4f6f9 0%, #f4f6f9 62%, rgba(244,246,249,0) 100%);
   }
-  .sheet-title { font-size: 17px; font-weight: 700; letter-spacing: -0.01em; }
+  .sheet-title { font-size: 24px; font-weight: 700; letter-spacing: -0.015em; line-height: 1.1; }
+  /* The card names itself again in gold under a sheet that has just named it in
+     black. One of them is redundant, and it is the one that repeats. */
+  .side-extras[data-sheet] .commentary-head { display: none; }
   .sheet-close {
     flex: 0 0 auto;
     display: grid; place-items: center;
@@ -488,7 +496,7 @@ a[x-apple-data-detectors] {
 .lens-seg {
   display: grid; grid-template-columns: repeat(3, 1fr);
   gap: 2px; padding: 3px;
-  background: rgba(120,120,128,.13);
+  background: rgba(120,120,128,.07);
   border-radius: 999px;
 }
 .lens-seg-item {
@@ -518,21 +526,22 @@ a[x-apple-data-detectors] {
 }
 
 /* ---- How close to stand -------------------------------------------------
-   Coarse to fine, left to right, under the word that says what choosing does.
-   Wraps rather than scrolls: a row of five short words fits a phone at two
-   lines, and a reader should not have to swipe a control to see its options. */
+   Coarse to fine, left to right, and always on one line. Equal columns rather
+   than a row of pills sized to their words: the five have to hold together as
+   one scale, and a scale that wraps has a step below the others reading as a
+   different kind of thing. The columns are what keeps it to a line in the
+   sidebar, which is the narrowest place it stands. */
 .lens-zoom {
-  display: flex; flex-wrap: wrap; align-items: center; gap: 3px;
-}
-.lens-zoom-label {
-  margin-right: 5px;
-  font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
-  font-weight: 700; color: rgba(120,120,128,.75);
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  align-items: center;
+  gap: 1px;
 }
 .lens-zoom-item {
   border: 0; background: none; border-radius: 999px;
-  padding: 5px 11px;
-  font-size: 12.5px; font-weight: 600; line-height: 1.2;
+  padding: 5px 2px;
+  font-size: 11.5px; font-weight: 600; line-height: 1.2;
   color: rgba(90,90,98,.85); cursor: pointer; white-space: nowrap;
   transition: background .18s, color .18s;
 }
@@ -641,12 +650,12 @@ a[x-apple-data-detectors] {
    names — same face, same size, sitting on the same line. */
 .meta-facet-link {
   border: 0; background: none; padding: 0; margin: 0;
-  font: inherit; color: #a4853d; font-weight: 600;
+  font: inherit; color: inherit;
   cursor: pointer;
   text-underline-offset: 2px;
   transition: color .15s;
 }
-.meta-facet-link:hover { color: #8a6f2e; text-decoration: underline; }
+.meta-facet-link:hover { text-decoration: underline; }
 .meta-facet-link:focus-visible { outline: 2px solid #3a5a8c; outline-offset: 2px; border-radius: 3px; }
 .meta-facet-sep { color: rgba(110,110,115,.55); }
 
@@ -936,8 +945,8 @@ a[x-apple-data-detectors] {
 .rel-jump {
   border: 1px solid rgba(31,45,71,.14);
   background: rgba(255,255,255,.5);
-  border-radius: 999px; padding: 3.5px 10px;
-  font-size: 11px; line-height: 1.35; color: #1d1d1f;
+  border-radius: 999px; padding: 5px 13px;
+  font-size: 12.5px; line-height: 1.35; color: #1d1d1f;
   cursor: pointer; white-space: nowrap;
   transition: background .15s, border-color .15s, color .15s,
               transform .15s cubic-bezier(.2,.8,.2,1);

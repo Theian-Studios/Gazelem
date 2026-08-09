@@ -9,6 +9,14 @@ const LABEL_OFF = "rgba(120,120,128,0.42)";
 
 export const LEVELS = ["Block", "Chapter", "Verse", "Phrase", "Word"];
 
+// Block is the chapter read against the book around it. Where the book is one
+// chapter — Enos, Jarom, Omni, the Words of Mormon — there is no book around
+// it: the two levels name the same text, and the notes say so, writing them as
+// one "CHAPTER & BOOK LEVEL" section. Offering both is offering the reader the
+// same page twice.
+export const levelsFor = (book) =>
+  book?.chapters?.length === 1 ? LEVELS.filter((l) => l !== "Block") : LEVELS;
+
 // Behind = the world that produced the text; Text = the text itself; In Front =
 // the world it lands in. Only the middle one has a depth to vary.
 export const WORLDS = [
@@ -35,15 +43,19 @@ const labelStyle = (on) => ({
 
 // A funnel: each step down the stack narrows, so the shape itself reads as
 // "finer grain" before the labels are even read.
-function LevelFunnel({ value, onChange }) {
+function LevelFunnel({ value, levels, onChange }) {
+  // Indexed by the level's place in the full stack, not by its place in the
+  // rows being drawn, so dropping Block drops the widest bar and the rest keep
+  // the widths they have everywhere else — a shorter funnel, not a redrawn one.
   const widths = [104, 90, 74, 56, 34];
   return (
     // Shrunk to the widest row and centred as one block, so the funnel and the
     // words beside it sit together in the middle of the panel rather than the
     // funnel alone being centred and the labels running off to the right.
     <div style={{ width: "fit-content", margin: "0 auto" }}>
-      {LEVELS.map((name, i) => {
+      {levels.map((name) => {
         const on = value === name;
+        const i = LEVELS.indexOf(name);
         return (
           <button
             key={name}
@@ -87,8 +99,9 @@ function Worlds({ value, onChange }) {
 // they share one card, and fold away by its heading like every other card in
 // the column. With no chapter open there is nothing to read through a lens,
 // and the card takes itself away as its neighbours do.
-export function LensControls({ lens, setLens, chapter, collapsed, onToggle }) {
+export function LensControls({ lens, setLens, book, chapter, collapsed, onToggle }) {
   if (!chapter) return null;
+  const levels = levelsFor(book);
   return (
     <Card id="lenses" title="Analysis" label="Analysis lenses"
       collapsed={!!collapsed?.has("lenses")} onToggle={onToggle}>
@@ -105,7 +118,7 @@ export function LensControls({ lens, setLens, chapter, collapsed, onToggle }) {
         {lens.world === "text" && (
           <section>
             <h4 className="lens-head">Level</h4>
-            <LevelFunnel value={lens.level} onChange={(level) => setLens({ ...lens, level })} />
+            <LevelFunnel value={lens.level} levels={levels} onChange={(level) => setLens({ ...lens, level })} />
           </section>
         )}
       </div>

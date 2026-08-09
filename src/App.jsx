@@ -715,6 +715,15 @@ export default function App() {
   }, [sheet, filled]);
   useEffect(() => { setSheet(null); }, [chapter, query]);
 
+  // A book of one chapter offers no Block level — see levelsFor. Reading one
+  // with the lens already set there would otherwise leave the reader on a level
+  // the panel no longer lists, with no control to get off it.
+  useEffect(() => {
+    if (lens.level === "Block" && book?.chapters?.length === 1) {
+      setLens((l) => ({ ...l, level: "Chapter" }));
+    }
+  }, [book, lens.level]);
+
   // One level up the hierarchy, mirroring the breadcrumbs. Returns false at the
   // top so the caller can leave the key alone.
   const goUp = () => {
@@ -1082,7 +1091,7 @@ export default function App() {
               collapsed={collapsed} onToggle={toggleCard} />
           </div>
           <div className="lens-inline" data-panel="lenses">
-            <LensControls lens={lens} setLens={setLens} chapter={chapter} collapsed={collapsed} onToggle={toggleCard} />
+            <LensControls lens={lens} setLens={setLens} book={book} chapter={chapter} collapsed={collapsed} onToggle={toggleCard} />
           </div>
           {/* Where this chapter sits in the book's arc. Renders itself away
               when the book has no captions written for it. Keyed by book: a
@@ -1119,7 +1128,7 @@ export default function App() {
           on a shelf or a study page is real content, not margin. */}
       <aside className="commentary-col" aria-label="Commentary column" hidden={!!query || !chapter}>
         <div className="lens-box">
-          <LensControls lens={lens} setLens={setLens} chapter={chapter} collapsed={collapsed} onToggle={toggleCard} />
+          <LensControls lens={lens} setLens={setLens} book={book} chapter={chapter} collapsed={collapsed} onToggle={toggleCard} />
         </div>
         <CommentaryNotes book={book} chapter={chapter} lens={lens} volId={volId}
           collapsed={collapsed} onToggle={toggleCard} />

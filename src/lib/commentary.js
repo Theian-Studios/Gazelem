@@ -19,6 +19,44 @@ const FILES = import.meta.glob("../data/commentary/*.md", {
 export const slug = (s) =>
   s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
+// A file may open with a YAML block naming the chapter it belongs to. That is
+// surer than reading the name off the file: the names are written to sort in a
+// directory listing — a volume-order prefix, a padded chapter number — and
+// neither is part of the reference the reader arrives with.
+//
+// Only the two fields that answer "which chapter is this" are read. The rest of
+// the block is the file describing itself for whoever is writing it; what the
+// site shows comes from ## CHAPTER METADATA, which is prose and can say more
+// than a YAML scalar can.
+function frontMatter(md) {
+  const block = md.match(/^---\r?\n([\s\S]*?)\r?\n---\s*$/m);
+  if (!block) return null;
+  const out = {};
+  for (const line of block[1].split(/\r?\n/)) {
+    const kv = line.match(/^([A-Za-z_][\w-]*):\s*(.*)$/);
+    if (kv) out[kv[1]] = kv[2].trim().replace(/^["']|["']$/g, "");
+  }
+  return out;
+}
+
+// Built once, at module load: every file that states its own chapter, keyed the
+// way a reader asks for one.
+const DECLARED = new Map();
+for (const [path, md] of Object.entries(FILES)) {
+  const fm = frontMatter(md);
+  const n = Number(fm?.chapter);
+  if (!fm?.book_slug || !Number.isFinite(n)) continue;
+  const key = `${slug(fm.book_slug)}-${n}`;
+  // First wins, and the path is reported rather than silently preferred: two
+  // files claiming one chapter is a mistake in the notes, not a thing to pick
+  // between.
+  if (DECLARED.has(key)) {
+    console.warn(`Two commentary files claim ${key}; using the first.`, path);
+    continue;
+  }
+  DECLARED.set(key, md);
+}
+
 // The UI's topmost level is labelled "Block"; the notes call it BOOK.
 const DEPTH_TO_LEVEL = {
   WORD: "Word",
@@ -286,11 +324,21 @@ export function parseCommentary(md) {
   // INDEX at the end is a regrouping of refs already attached to entries.
   const parts = md.split(/^##\s+DEPTH:\s*(.+?)\s*$/m);
   for (let i = 1; i < parts.length; i += 2) {
-    const name = parts[i].replace(/\s*LEVEL\s*$/i, "").replace(/\s*\(.*\)\s*$/, "").trim().toUpperCase();
-    const level = DEPTH_TO_LEVEL[name];
-    if (!level) continue;
+    // A short chapter may have nothing to say at one level that it does not
+    // say at the next, and writes the two as one heading — "CHAPTER & BOOK
+    // LEVEL". Read as a single name that matches nothing, the section and both
+    // its levels would simply vanish from the panel, so the heading is split
+    // and the one body stands for each level it names.
+    const names = parts[i]
+      .replace(/\s*\(.*\)\s*$/, "")
+      .replace(/\s*LEVEL\s*$/i, "")
+      .split(/\s*(?:&|\band\b|\/|\+)\s*/i);
     const body = parts[i + 1].split(/^##\s+/m)[0];
-    levels[level] = parseSection(body);
+    let section = null;
+    for (const name of names) {
+      const level = DEPTH_TO_LEVEL[name.trim().toUpperCase()];
+      if (level) levels[level] = section ||= parseSection(body);
+    }
   }
   const section = (re) => {
     const m = md.split(re)[1];
@@ -326,13 +374,23 @@ const cache = new Map();
 // Notes for a chapter, or null when none have been written yet.
 export function getCommentary(bookName, chapterN) {
   if (!bookName || chapterN == null) return null;
-  const key = `${slug(bookName)}-${chapterN}`;
+  const book = slug(bookName);
+  const key = `${book}-${chapterN}`;
   if (cache.has(key)) return cache.get(key);
-  // `alma-34.md`, or with a trailing note like `alma-34-notes.md`. The optional
-  // suffix must start with a separator so "alma-3" can't claim "alma-34.md".
-  const re = new RegExp(`/${key}(?:[-_][^/]*)?\\.md$`);
-  const path = Object.keys(FILES).find((p) => re.test(p));
-  const parsed = path ? parseCommentary(FILES[path]) : null;
+  // What the file says it is, first; only then what it is called.
+  //
+  // By name: `alma-34.md`, or with a trailing note like `alma-34-notes.md`, and
+  // either may carry a volume-order prefix (`09-alma-34-notes.md`) and pad the
+  // chapter to a fixed width (`04-enos-01-notes.md`). The trailing suffix must
+  // start with a separator so "alma-3" can't claim "alma-34.md", and the
+  // padding is leading zeros only, so it can't either.
+  let md = DECLARED.get(key);
+  if (!md) {
+    const re = new RegExp(`/(?:\\d+[-_])?${book}-0*${chapterN}(?:[-_][^/]*)?\\.md$`);
+    const path = Object.keys(FILES).find((p) => re.test(p));
+    md = path ? FILES[path] : null;
+  }
+  const parsed = md ? parseCommentary(md) : null;
   cache.set(key, parsed);
   return parsed;
 }

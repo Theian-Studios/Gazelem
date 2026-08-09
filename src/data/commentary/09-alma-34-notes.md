@@ -1,11 +1,25 @@
+---
+book: Alma
+book_slug: alma
+chapter: 34
+volume_order: 09
+speakers: [Amulek]
+audience: The poor Zoramites
+location: Antionum
+date: "~74 BC (17th year of the reign of the judges)"
+unit: "Zoramite mission (Alma 31–35)"
+sections: 10
+connections: 66
+initial: false
+---
 # Alma 34 — Layered Study Notes
 
 ## Conventions
 
 - **Analysis depth** — the five `## DEPTH:` sections map to the site's depth
-  selector: word | phrase | verse | chapter | book (of Alma).
+  selector: word | phrase | verse | chapter | book.
 - **Connection scope** — every cross-reference carries one scope tag:
-  `[ALMA]` (within Alma), `[BOM]` (elsewhere in the Book of Mormon), `[SW]`
+  `[BOOK]` (within Alma), `[BOM]` (elsewhere in the Book of Mormon), `[SW]`
   (the wider standard works). All three are shown; the tag only records reach.
 - Each note is anchored with `(v. N)` / `(vv. N–M)`. Word/phrase headings quote
   the exact string as it appears in the chapter text. The connection index at
@@ -21,10 +35,15 @@
   TEXT` (historical, geographic, political, and cultural context) before them,
   and `## WORLD IN FRONT OF THE TEXT` (applications and reflection questions)
   after them. Reflection questions carry verse anchors like every other note.
-- `## CHAPTER METADATA` holds four quick-reference fields: Speakers (main
+- `## CHAPTER METADATA` holds five quick-reference fields: Speakers (main
   speaker(s) only — not the abridging narrator or voices quoted within a
   sermon), Audience (the primary audience, plainly stated), Location (1–3
-  words), and Principles (3–7 keywords).
+  words), Date (one line — reign-of-judges year, years-since-Lehi, or
+  century), and Principles (3–7 keywords).
+- Every connection index entry carries a stable ID `[al34-XXX]`; entries
+  whose targets are inside the Book of Mormon also carry a `mirror:` line
+  naming the counterpart entry in the target chapter's index (`pending`
+  until that chapter's file exists).
 
 Chapter context: Amulek's discourse to the poor among the Zoramites, immediately
 following Alma's seed sermon (Alma 32) and his Zenos/Zenock citations (Alma 33).
@@ -43,6 +62,9 @@ The poor Zoramites
 **Location:**
 Antionum
 
+**Date:**
+~74 BC (17th year of the reign of the judges)
+
 **Principles:**
 Atonement, Faith, Repentance, Prayer, Charity, Probation
 
@@ -51,46 +73,46 @@ Atonement, Faith, Repentance, Prayer, Charity, Probation
 ## WORLD BEHIND THE TEXT
 
 **1. Date and political moment.** About 74 BC — the seventeenth year of the
-reign of the judges (Alma 35:12 [ALMA] closes the year immediately after this
+reign of the judges (Alma 35:12 [BOOK] closes the year immediately after this
 sermon's aftermath). Mosiah's monarchy ended in 91 BC; the judgeship is less
 than a generation old, and the recurring threat to it is not foreign invasion
 but internal dissent: Amlici (Alma 2), the Amalekites and Amulonites (Alma
 21–24), and now the Zoramites. Alma has already resigned the chief judgeship
-(Alma 4:16–20 [ALMA]) precisely because he judged the word "more powerful" than
+(Alma 4:16–20 [BOOK]) precisely because he judged the word "more powerful" than
 the office — this mission is that wager in action.
 
-**2. The mission as statecraft.** Alma 31:4 [ALMA] states the Nephite fear
+**2. The mission as statecraft.** Alma 31:4 [BOOK] states the Nephite fear
 plainly: the Zoramites occupied a border land and might "enter into a
 correspondence with the Lamanites." The mission to Antionum is therefore
 simultaneously pastoral and geopolitical — reclaiming dissenters is border
 defense by other means (Alma 31:5's word-vs-sword calculus). The sermon in
 Alma 34 sits inside a national-security problem, and its failure among the
-ruling Zoramites produces exactly the feared alliance (Alma 35:10–11 [ALMA]).
+ruling Zoramites produces exactly the feared alliance (Alma 35:10–11 [BOOK]).
 
 **3. Place.** Antionum: east of the land of Zarahemla, nearly bordering the
 seashore, south of the land of Jershon, with "the wilderness south... full of
-the Lamanites" beyond it (Alma 31:3 [ALMA]). Jershon — one land north — matters
+the Lamanites" beyond it (Alma 31:3 [BOOK]). Jershon — one land north — matters
 twice: it is where the people of Ammon (Lamanite converts) already live, and it
-is where the converted Zoramite poor will flee (Alma 35:6 [ALMA]). The chapter's
+is where the converted Zoramite poor will flee (Alma 35:6 [BOOK]). The chapter's
 audience is standing a day or two's travel from their eventual refuge.
 
 **4. Who the Zoramites are.** Nephite dissenters "gathered... together" under a
-man named Zoram (Alma 31:1, 8 [ALMA]) — religiously innovative, not lapsed.
+man named Zoram (Alma 31:1, 8 [BOOK]) — religiously innovative, not lapsed.
 They kept synagogues and a weekly holy day but denied Christ, rejected the law
 of Moses' ongoing relevance, prayed one fixed prayer from one fixed stand
 (the Rameumptom), and fused election theology with wealth display ("costly
-apparel," Alma 31:28 [ALMA]). Socially they had produced a two-tier religion:
+apparel," Alma 31:28 [BOOK]). Socially they had produced a two-tier religion:
 the poor were "cast out of the synagogues" they had labored to build (Alma
-32:2–3, 5 [ALMA]) — expelled, in effect, for the sin of poverty. Amulek's
-audience is that lower tier, gathered on the hill Onidah (Alma 32:4 [ALMA]).
+32:2–3, 5 [BOOK]) — expelled, in effect, for the sin of poverty. Amulek's
+audience is that lower tier, gathered on the hill Onidah (Alma 32:4 [BOOK]).
 
 **5. Religious infrastructure of the audience's world.** Nephite worship at
 this period still operates the law of Moses — sacrifice and offering included
-(Mosiah 2:3 [BOM]; Alma 30:3 [ALMA]) — while teaching that the law points
+(Mosiah 2:3 [BOM]; Alma 30:3 [BOOK]) — while teaching that the law points
 forward to Christ. This is what makes vv. 10–14 land: Amulek is telling people
 who watch animals bleed on altars that the whole apparatus is one long gesture
 toward a final sacrifice. Synagogues "built after the manner of the Jews"
-(Alma 16:13 [ALMA]) are the standard venue for preaching, which is what makes
+(Alma 16:13 [BOOK]) are the standard venue for preaching, which is what makes
 expulsion from them so religiously disenfranchising — and what gives v. 38's
 "worship... in whatsoever place ye may be in" its force.
 
@@ -103,12 +125,12 @@ functioned as shared public scripture across Nephite factions.
 - [BOM] 1 Ne. 19:10; Hel. 8:19–20; 3 Ne. 10:16 — the wider Zenos/Zenock witness across Nephite records.
 
 **7. Amulek's biographical world.** Amulek is an Ammonihahite — a wealthy,
-well-connected man (Alma 10:4 [ALMA]) from a city whose legal class ran on
-litigation-for-hire (Alma 10:32 [ALMA]) and whose theology (the order of Nehor)
+well-connected man (Alma 10:4 [BOOK]) from a city whose legal class ran on
+litigation-for-hire (Alma 10:32 [BOOK]) and whose theology (the order of Nehor)
 denied that atonement was needed at all. Seven years before this sermon, his
 city refused the procrastination warning and was annihilated in a day (Alma
-16:9–11 [ALMA]); his converts were burned in front of him (Alma 14 [ALMA]); his
-family and friends rejected him (Alma 15:16 [ALMA]). The economy of the chapter
+16:9–11 [BOOK]); his converts were burned in front of him (Alma 14 [BOOK]); his
+family and friends rejected him (Alma 15:16 [BOOK]). The economy of the chapter
 — legal argument, urgency about closing windows, sympathy for the dispossessed —
 is his lived history speaking.
 
@@ -131,7 +153,7 @@ atonement is not one option among several but a structural necessity of the
 "great plan of the Eternal God." The repetition is the argument: each occurrence
 narrows the claim (an atonement must be made → it must be a sacrifice → the
 sacrifice must be infinite).
-- [ALMA] Alma 42:15 — "the plan of mercy could not be brought about except an atonement should be made": Alma later restates the same necessity-logic to Corianton.
+- [BOOK] Alma 42:15 — "the plan of mercy could not be brought about except an atonement should be made": Alma later restates the same necessity-logic to Corianton.
 - [BOM] 2 Ne. 9:7 — Jacob's parallel necessity argument ("it must needs be an infinite atonement").
 
 ### "infinite" (vv. 10, 12, 14)
@@ -152,7 +174,7 @@ asking but distressed calling-out (as in the Israelites "crying" in bondage).
 Amulek assigns it to fields, flocks, houses, households, enemies, the devil,
 crops — the entire economy of a dispossessed agrarian audience — then pivots to
 the silent version: hearts "drawn out in prayer... continually" (v. 27).
-- [ALMA] Alma 33:4–11 — Zenos's psalm, which Alma just quoted, prays in field, house, closet, congregation, and "when I was cast out"; Amulek's catalog re-enacts it point for point for listeners who were themselves cast out.
+- [BOOK] Alma 33:4–11 — Zenos's psalm, which Alma just quoted, prays in field, house, closet, congregation, and "when I was cast out"; Amulek's catalog re-enacts it point for point for listeners who were themselves cast out.
 - [SW] Ex. 2:23 — covenant "crying" out of bondage as the template for this register of prayer.
 
 ### "closets" (v. 26)
@@ -160,7 +182,7 @@ the silent version: hearts "drawn out in prayer... continually" (v. 27).
 Private inner rooms. The triad "closets... secret places... wilderness" moves
 prayer from public devotion (vv. 18–25) to concealment — worship no synagogue
 can gatekeep. Pointed for Zoramites barred from their own synagogues (Alma 32:2–3).
-- [ALMA] Alma 33:7 — Zenos: "when I did turn unto my closet."
+- [BOOK] Alma 33:7 — Zenos: "when I did turn unto my closet."
 - [SW] Matt. 6:6 — "enter into thy closet"; Amulek's usage matches the Sermon on the Mount's polemic against performative prayer, which is precisely the Rameumptom's genre.
 
 ### "dross" (v. 29)
@@ -169,7 +191,7 @@ Refiner's waste — the slag skimmed off molten metal and discarded. The sting:
 in Alma 32:3 the poor Zoramites "were esteemed by their brethren as dross."
 Amulek warns them not to *become* spiritually what others wrongly esteemed them
 socially — the uncharitable, whatever their poverty, are the true castoff.
-- [ALMA] Alma 32:3 — the source of the word in this narrative; Amulek is quoting the insult back with the valuation inverted.
+- [BOOK] Alma 32:3 — the source of the word in this narrative; Amulek is quoting the insult back with the valuation inverted.
 - [SW] Ps. 119:119; Ezek. 22:18–19 — the wicked as dross to be purged; the refiner image assumes God, not society, does the assaying.
 
 ### "improve" (v. 33)
@@ -196,7 +218,7 @@ procrastinated repentance is "sealed" the devil's — the dark mirror of being
 sealed the Lord's. Note the mechanism is withdrawal ("the Spirit of the Lord
 hath withdrawn"), not seizure; the devil's power fills a vacancy.
 - [BOM] Mosiah 5:15 — the counter-seal: "that Christ... may seal you his."
-- [ALMA] Alma 12:9–11 — the hardening/withdrawal mechanism ("less and less... until they know nothing").
+- [BOOK] Alma 12:9–11 — the hardening/withdrawal mechanism ("less and less... until they know nothing").
 
 ---
 
@@ -221,8 +243,8 @@ atonement "bringeth about means" (v. 15) — it creates the conditions under whi
 faith can operate — but mercy's claim is activated only in "him that has faith
 unto repentance" (v. 16). This is the chapter's answer to the Zoramite creed of
 unconditional election (Alma 31:16–17).
-- [ALMA] Alma 31:16–17 — the Rameumptom prayer's "elected... to be saved" theology this phrase refutes.
-- [ALMA] Alma 42:22–25 — "none but the truly penitent are saved": Alma's restatement of the same conditionality.
+- [BOOK] Alma 31:16–17 — the Rameumptom prayer's "elected... to be saved" theology this phrase refutes.
+- [BOOK] Alma 42:22–25 — "none but the truly penitent are saved": Alma's restatement of the same conditionality.
 - [BOM] Hel. 14:13 — Samuel: "if ye believe on his name ye will repent of all your sins" — belief cashing out as repentance.
 
 ### "bowels of mercy, which overpowereth justice" (v. 15)
@@ -233,7 +255,7 @@ immediately corrects the frame to "mercy can *satisfy* the demands of justice."
 Read as a two-step: experientially mercy overwhelms; structurally it satisfies —
 justice is paid, not defeated. Amulek gives in one breath what Alma 42 will take
 a chapter to unfold.
-- [ALMA] Alma 42:15, 24–25 — "mercy claimeth the penitent... justice exerciseth all his demands"; the full architecture behind v. 16's compression.
+- [BOOK] Alma 42:15, 24–25 — "mercy claimeth the penitent... justice exerciseth all his demands"; the full architecture behind v. 16's compression.
 - [BOM] Mosiah 15:9 — Abinadi: "having... satisfied the demands of justice" — the phrase's earlier Nephite attestation.
 - [SW] Ps. 85:10 — "mercy and truth are met together; righteousness and peace have kissed" — the reconciliation, not the defeat, of the attributes.
 
@@ -241,7 +263,7 @@ a chapter to unfold.
 - underline: 34:16 w11–17 "encircles them in the arms of safety,"
 The Book of Mormon runs a sustained *encirclement* polarity: one is encircled
 either by chains or by arms. Amulek's image is the redemptive pole.
-- [ALMA] Alma 12:6 — "encircle you about with his chains"; Alma 36:18 — "encircled about by the everlasting chains of death" (Alma's own conversion memory).
+- [BOOK] Alma 12:6 — "encircle you about with his chains"; Alma 36:18 — "encircled about by the everlasting chains of death" (Alma's own conversion memory).
 - [BOM] 2 Ne. 1:15 — Lehi: "encircled about eternally in the arms of his love" — the closest verbal twin.
 - [SW] Deut. 33:27 — "underneath are the everlasting arms."
 
@@ -252,7 +274,7 @@ in Amos a threat, in Amulek an invitation with a deadline. The relocation of the
 prophetic warning-formula into a doctrine of probation is the move that makes
 vv. 32–35 the Restoration's classic text on mortality-as-preparation.
 - [SW] Amos 4:12 — the source formula.
-- [ALMA] Alma 12:24 — "a probationary state; a time to prepare to meet God" — Alma taught Amulek's audience-city (Ammonihah) the same doctrine in the same words; Amulek was standing there.
+- [BOOK] Alma 12:24 — "a probationary state; a time to prepare to meet God" — Alma taught Amulek's audience-city (Ammonihah) the same doctrine in the same words; Amulek was standing there.
 
 ### "the night of darkness wherein there can be no labor" (v. 33)
 - underline: 34:33 w63–72 "night of darkness wherein there can be no labor performed."
@@ -287,7 +309,7 @@ Samaritan woman worship is not bound to a mountain or temple; Amulek tells
 synagogue-expelled Zoramites to worship "in whatsoever place ye may be in."
 Both texts detach worship from contested sacred architecture.
 - [SW] John 4:21–24 — the parallel argument, not just the parallel phrase.
-- [ALMA] Alma 32:5, 9–11 — the presenting question ("what shall we do? — we are cast out of our synagogues") this phrase finally answers.
+- [BOOK] Alma 32:5, 9–11 — the presenting question ("what shall we do? — we are cast out of our synagogues") this phrase finally answers.
 
 ### "garments... made white through the blood of the Lamb" (v. 36)
 - underline: 34:36 w48–58 "garments should be made white through the blood of the Lamb."
@@ -295,7 +317,7 @@ The paradox-image of Rev. 7:14 (washed white *in blood*). Amulek attaches it to
 the indwelling clause — God "dwelleth... in the hearts of the righteous" — so
 the whitened garment marks who can be a temple.
 - [SW] Rev. 7:14 — the verbal source.
-- [ALMA] Alma 5:21, 27 — Alma's earlier "garments... washed white... purified until... cleansed from all stain" as the standing Zarahemla idiom; Alma 13:11–12.
+- [BOOK] Alma 5:21, 27 — Alma's earlier "garments... washed white... purified until... cleansed from all stain" as the standing Zarahemla idiom; Alma 13:11–12.
 - [BOM] 1 Ne. 12:10–11; Ether 13:10 — the image's other BoM anchors.
 
 ### "mighty to save" (v. 18)
@@ -304,7 +326,7 @@ Isaiah 63:1 — the divine warrior "travelling in the greatness of his strength.
 mighty to save." A one-line credal warrant for the nine "cry" imperatives that
 follow: prayer is worth commanding because of who is listening.
 - [SW] Isa. 63:1 — source.
-- [BOM] 2 Ne. 31:19 — "the merits of him who is mighty to save"; Alma 7:14 [ALMA] — same title on Alma's lips.
+- [BOM] 2 Ne. 31:19 — "the merits of him who is mighty to save"; Alma 7:14 [BOOK] — same title on Alma's lips.
 
 ### "trodden under foot of men" (v. 29)
 - underline: 34:29 w27–31 "trodden under foot of men."
@@ -331,7 +353,7 @@ be no Christ" (v. 5) — is not honest ignorance but a live crisis Alma's sermon
 has forced. Note that Amulek reframes Alma 32's abstract "seed/word" as
 explicitly Christological: the experiment was always about Christ.
 - underline: 34:5 w6–8 "the great question" · 34:5 w24–30 "or whether there shall be no Christ."
-- [ALMA] Alma 31:16–17 — the Zoramite creed ("there shall be no Christ") quoted almost verbatim in v. 5.
+- [BOOK] Alma 31:16–17 — the Zoramite creed ("there shall be no Christ") quoted almost verbatim in v. 5.
 
 **(vv. 7–8)** The witness-stack: Zenos, Zenock, Moses (Alma's three citations in
 ch. 33), and now "I will testify unto you of myself." Amulek adds a fourth,
@@ -359,7 +381,7 @@ brother? I say unto you, Nay"). Human substitution being legally incoherent,
 only an infinite (non-merely-human) offering can suffice. Amulek argues from the
 courtroom he knows — he was a litigant against lawyers in Ammonihah.
 - underline: 34:11 w27–38 "will our law, which is just, take the life of his brother?" · 34:12 w2–11 "the law requireth the life of him who hath murdered;"
-- [ALMA] Alma 1:13–14, 18 — the Nephite capital statute Amulek cites; Alma 10–11 — Amulek's legal sparring with Zeezrom as the biographical background for arguing doctrine from law.
+- [BOOK] Alma 1:13–14, 18 — the Nephite capital statute Amulek cites; Alma 10–11 — Amulek's legal sparring with Zeezrom as the biographical background for arguing doctrine from law.
 
 **(vv. 13–14)** The hermeneutical claim: the law's fulfillment is also its
 *meaning* — "every whit pointing to that great and last sacrifice." The law of
@@ -423,7 +445,7 @@ mere conviction. "Now is the time and the day of your salvation" with
 "immediately shall the great plan of redemption be brought about unto you" —
 the plan's benefits are indexed to the present tense.
 - underline: 34:30 w28–31 "bring fruit unto repentance." · 34:31 w18–27 "now is the time and the day of your salvation;" · 34:31 w39–50 "immediately shall the great plan of redemption be brought about unto you."
-- [ALMA] Alma 32:37–43 — the fruit the experiment was growing toward.
+- [BOOK] Alma 32:37–43 — the fruit the experiment was growing toward.
 - [SW] 2 Cor. 6:2 — "now is the day of salvation"; Matt. 3:8 — "fruits meet for repentance."
 
 **(v. 32)** The probation thesis in a single sentence — likely the most-cited
@@ -435,7 +457,7 @@ Alma's own phrase from Ammonihah verbatim (Alma 13:27), a city whose window
 closed (Alma 16:2–3, 9–11). Amulek, the Ammonihahite survivor, has personal
 standing to issue this warning. See phrase note on "night of darkness."
 - underline: 34:33 w23–30 "do not procrastinate the day of your repentance" · 34:33 w62–72 "the night of darkness wherein there can be no labor performed."
-- [ALMA] Alma 13:27 — the verbatim source; Alma 16:9–11 — how procrastination ended for the last audience that heard it.
+- [BOOK] Alma 13:27 — the verbatim source; Alma 16:9–11 — how procrastination ended for the last audience that heard it.
 
 **(v. 34)** See phrase note "that same spirit." The "awful crisis" is death
 faced unprepared; the argument is anthropological, not merely legal — repentance
@@ -480,7 +502,7 @@ firm hope that ye shall one day rest." Amulek ends not with atonement theory but
 with pastoral counsel for the humiliated — patience as the poor's form of
 discipleship. The "rest" promised here is the word the chapter has earned.
 - underline: 34:40 w24–33 "do not revile against those who do cast you out" · 34:41 w11–24 "with a firm hope that ye shall one day rest from all your afflictions."
-- [ALMA] Alma 35:6–9 — what their patience cost and won: cast out of the land, received and nourished in Jershon.
+- [BOOK] Alma 35:6–9 — what their patience cost and won: cast out of the land, received and nourished in Jershon.
 - [SW] Matt. 5:44; Rom. 12:14 — non-retaliation toward persecutors; Heb. 4:9–11 — the promised rest.
 
 ---
@@ -503,7 +525,7 @@ argument, and application. The pairing itself dramatizes the law of witnesses
 
 **3. Rhetoric shaped to the audience.** Every major image is drawn from the
 hearers' world: fields, flocks, crops, households (vv. 20–25) for farmers;
-dross (v. 29) quoting the insult used against them (Alma 32:3 [ALMA]); law-court
+dross (v. 29) quoting the insult used against them (Alma 32:3 [BOOK]); law-court
 reasoning (vv. 11–12) from a man who fought lawyers; worship "in whatsoever
 place" (v. 38) for the synagogue-expelled. The chapter is a case study in
 doctrine translated into an audience's vocabulary without dilution.
@@ -515,7 +537,7 @@ argument comes from him is itself a claim about testimony: v. 8's "I will
 testify unto you of myself" carries the sermon's weight.
 
 **5. Anti-Zoramite point by point.** The chapter systematically negates the
-Rameumptom creed (Alma 31:15–18 [ALMA]): they denied Christ → vv. 5–8 testify of
+Rameumptom creed (Alma 31:15–18 [BOOK]): they denied Christ → vv. 5–8 testify of
 him; they held themselves elected regardless of conduct → "faith unto
 repentance" makes salvation conditional; they prayed once weekly, in one spot,
 in one posture → vv. 18–27 command prayer everywhere, always; they cast out the
@@ -529,7 +551,7 @@ there, because character (vv. 34–35) is formed in time.
 
 ---
 
-## DEPTH: BOOK (OF ALMA) LEVEL
+## DEPTH: BOOK LEVEL
 
 **1. Hinge of the book's structure.** Alma divides roughly into judgment-seat
 and mission narratives (1–16), the sons-of-Mosiah mission (17–27), the Zoramite
@@ -601,7 +623,7 @@ secret places, wilderness, "whatsoever place ye may be in" — speaks directly t
 anyone whose access to formal worship is broken: by distance, health, estrangement,
 or exclusion. Standing is not gatekept by architecture.
 
-**Refusing the labels of contempt (v. 29 with Alma 32:3 [ALMA]).** The poor were
+**Refusing the labels of contempt (v. 29 with Alma 32:3 [BOOK]).** The poor were
 called dross; Amulek warns them not to become it — by uncharity, the one failure
 that would make the insult true. The transferable principle: mistreatment does
 not license becoming what the mistreatment alleges, and v. 40 makes it explicit
@@ -620,7 +642,7 @@ toward affliction, not procrastination. Reversing those (patient about
 repentance, anxious under affliction) inverts the sermon.
 
 **Bearing what cannot yet be fixed (vv. 40–41).** Amulek does not tell the poor
-their expulsion will be reversed; it won't be (Alma 35:6 [ALMA]). He tells them
+their expulsion will be reversed; it won't be (Alma 35:6 [BOOK]). He tells them
 how to be wronged without being ruined by it. For circumstances that cannot be
 solved — only survived — the counsel is patience "with a firm hope," which the
 narrative then honors: they are received and nourished in Jershon.
@@ -671,164 +693,210 @@ attaches to its word). Single-word anchors use `wN`.
 
 Each entry also carries one or more `target:` lines quoting the related
 phrase at the other end of the connection. Targets inside the Book of Mormon
-include a verified `wN–M` word span (same counting rules, computed against the
-same source text). Bible and Pearl of Great Price targets are verse-pinned KJV
-quotations without word spans, since no Bible source text is loaded to verify
-counts against — the quoted phrase is the failsafe there.
+and the Bible include a verified `wN–M` word span (same counting rules,
+computed against the loaded source texts). Doctrine and Covenants and Pearl
+of Great Price targets are verse-pinned quotations without word spans, since
+no source file is loaded for those volumes — the quoted phrase is the
+failsafe there.
+
+Every entry is prefixed with a stable ID `[al34-XXX]` — sequential at
+initial generation, never renumbered afterward. Entries whose targets are
+inside the Book of Mormon carry a `mirror:` line naming the counterpart
+entry in the target chapter's own index; `pending` means that chapter's
+file has not been written yet.
 
 
-### Scope: [ALMA]
-- Alma 1:13–14, 18 → 34:11 w28–29 "our law," — the capital statute behind the no-substitution argument
+### Scope: [BOOK]
+- [al34-001] Alma 1:13–14, 18 → 34:11 w28–29 "our law," — the capital statute behind the no-substitution argument
   - target: Alma 1:18 w22–28 "he that murdered was punished unto death."
-- Alma 5:21, 27 → 34:36 w48–52 "garments should be made white" — the washed-garments idiom in Zarahemla preaching
+  - mirror: pending
+- [al34-002] Alma 5:21, 27 → 34:36 w48–52 "garments should be made white" — the washed-garments idiom in Zarahemla preaching
   - target: Alma 5:21 w23–28 "except his garments are washed white;"
-- Alma 7:14 → 34:18 w10–12 "mighty to save." — the same divine title on Alma's lips
+  - mirror: pending
+- [al34-003] Alma 7:14 → 34:18 w10–12 "mighty to save." — the same divine title on Alma's lips
   - target: Alma 7:14 w64–68 "who is mighty to save"
-- Alma 10–11; 15:16 → 34:8 w9–10 "of myself" — Amulek's biography (litigant, then disinherited) behind his personal witness
+  - mirror: pending
+- [al34-004] Alma 10–11; 15:16 → 34:8 w9–10 "of myself" — Amulek's biography (litigant, then disinherited) behind his personal witness
   - target: Alma 10:4 w6–11 "a man of no small reputation"
   - target: Alma 15:16 w36–43 "rejected by those who were once his friends"
-- Alma 12:6; 13:30 → 34:16 w11 "encircles" — encirclement-by-chains counter-image
+  - mirror: pending
+- [al34-005] Alma 12:6; 13:30 → 34:16 w11 "encircles" — encirclement-by-chains counter-image
   - target: Alma 12:6 w36–41 "encircle you about with his chains,"
   - target: Alma 13:30 w27–30 "the chains of hell,"
-- Alma 12:9–11 → 34:35 w38–41 "hath withdrawn from you," — the withdrawal/hardening mechanism
+  - mirror: pending
+- [al34-006] Alma 12:9–11 → 34:35 w38–41 "hath withdrawn from you," — the withdrawal/hardening mechanism
   - target: Alma 12:11 w18–24 "until they know nothing concerning his mysteries;"
-- Alma 12:24 → 34:32 w11–14 "prepare to meet God;" — probationary state taught earlier at Ammonihah
+  - mirror: pending
+- [al34-007] Alma 12:24 → 34:32 w11–14 "prepare to meet God;" — probationary state taught earlier at Ammonihah
   - target: Alma 12:24 w44–50 "a time to prepare to meet God;"
-- Alma 12:32–35; 42:15, 22–25 → 34:16 w3–9 "mercy can satisfy the demands of justice," — justice/mercy architecture, before and after
+  - mirror: pending
+- [al34-008] Alma 12:32–35; 42:15, 22–25 → 34:16 w3–9 "mercy can satisfy the demands of justice," — justice/mercy architecture, before and after
   - target: Alma 12:34 w12–19 "claim on mercy through mine Only Begotten Son,"
   - target: Alma 42:15 w35–40 "to appease the demands of justice,"
   - target: Alma 42:24 w3–16 "justice exerciseth all his demands, and also mercy claimeth all which is her own;"
-- Alma 13:27; 16:2–11 → 34:33 w25–30 "procrastinate the day of your repentance" — verbatim warning and Ammonihah's fate
+  - mirror: pending
+- [al34-009] Alma 13:27; 16:2–11 → 34:33 w25–30 "procrastinate the day of your repentance" — verbatim warning and Ammonihah's fate
   - target: Alma 13:27 w34–40 "not procrastinate the day of your repentance;"
   - target: Alma 16:9 w27–34 "every living soul of the Ammonihahites was destroyed,"
-- Alma 31:5 → 34:6 w16–20 "the word is in Christ" — the word-vs-sword wager the mission runs on
+  - mirror: pending
+- [al34-010] Alma 31:5 → 34:6 w16–20 "the word is in Christ" — the word-vs-sword wager the mission runs on
   - target: Alma 31:5 w26–37 "more powerful effect upon the minds of the people than the sword,"
-- Alma 31:16–17 → 34:5 w26–30 "there shall be no Christ." — the Rameumptom creed quoted back
+  - mirror: pending
+- [al34-011] Alma 31:16–17 → 34:5 w26–30 "there shall be no Christ." — the Rameumptom creed quoted back
   - target: Alma 31:17 w11–19 "thou hast elected us that we shall be saved,"
-- Alma 32:2–5, 9–11 → 34:38 w34–40 "in whatsoever place ye may be in," — the answer to expulsion from the synagogues
+  - mirror: pending
+- [al34-012] Alma 32:2–5, 9–11 → 34:38 w34–40 "in whatsoever place ye may be in," — the answer to expulsion from the synagogues
   - target: Alma 32:5 w44–51 "they have cast us out of our synagogues"
-- Alma 32:3 → 34:29 w13 "dross," — "esteemed as dross" inverted
+  - mirror: pending
+- [al34-013] Alma 32:3 → 34:29 w13 "dross," — "esteemed as dross" inverted
   - target: Alma 32:3 w23–30 "they were esteemed by their brethren as dross;"
-- Alma 32:37–43 → 34:30 w28–31 "bring fruit unto repentance." — seed to fruit
+  - mirror: pending
+- [al34-014] Alma 32:37–43 → 34:30 w28–31 "bring fruit unto repentance." — seed to fruit
   - target: Alma 32:41 w26–31 "looking forward to the fruit thereof,"
-- Alma 33:4–11 → 34:20 w1–9 "Cry unto him when ye are in your fields," — Zenos's prayer catalog re-enacted (anchor marks the catalog's opening; vv. 20–27 continue it)
+  - mirror: pending
+- [al34-015] Alma 33:4–11 → 34:20 w1–9 "Cry unto him when ye are in your fields," — Zenos's prayer catalog re-enacted (anchor marks the catalog's opening; vv. 20–27 continue it)
   - target: Alma 33:5 w10–18 "when I did cry unto thee in my field;"
-- Alma 35:6–9 → 34:41 w7–10 "bear with those afflictions," — the expulsion and reception the counsel anticipates
+  - mirror: pending
+- [al34-016] Alma 35:6–9 → 34:41 w7–10 "bear with those afflictions," — the expulsion and reception the counsel anticipates
   - target: Alma 35:9 w28–36 "they did receive all the poor of the Zoramites"
-- Alma 36:18 → 34:16 w11–17 "encircles them in the arms of safety," — chains of death vs. arms of safety
+  - mirror: pending
+- [al34-017] Alma 36:18 → 34:16 w11–17 "encircles them in the arms of safety," — chains of death vs. arms of safety
   - target: Alma 36:18 w34–41 "encircled about by the everlasting chains of death."
+  - mirror: pending
 
 ### Scope: [BOM]
-- 1 Ne. 12:10–11; Ether 13:10 → 34:36 w55–58 "blood of the Lamb." — the image's other BoM anchors
+- [al34-018] 1 Ne. 12:10–11; Ether 13:10 → 34:36 w55–58 "blood of the Lamb." — the image's other BoM anchors
   - target: 1 Ne. 12:11 w39–46 "made white in the blood of the Lamb,"
   - target: Ether 13:10 w18–27 "whose garments are white through the blood of the Lamb;"
-- 2 Ne. 1:15 → 34:16 w15–17 "arms of safety," — Lehi's closest verbal twin
+  - mirror: pending
+- [al34-019] 2 Ne. 1:15 → 34:16 w15–17 "arms of safety," — Lehi's closest verbal twin
   - target: 2 Ne. 1:15 w19–27 "encircled about eternally in the arms of his love."
-- 2 Ne. 2:5; Mosiah 3:16–19 → 34:9 w39–44 "all are fallen and are lost," — universal-fall premise
+  - mirror: pending
+- [al34-020] 2 Ne. 2:5; Mosiah 3:16–19 → 34:9 w39–44 "all are fallen and are lost," — universal-fall premise
   - target: 2 Ne. 2:5 w20–26 "by the law no flesh is justified;"
   - target: Mosiah 3:16 w27–34 "as in Adam, or by nature, they fall,"
-- 2 Ne. 9:7; 2 Ne. 25:16 → 34:12 w22–23 "infinite atonement" — the only other attestations of the phrase
+  - mirror: pending
+- [al34-021] 2 Ne. 9:7; 2 Ne. 25:16 → 34:12 w22–23 "infinite atonement" — the only other attestations of the phrase
   - target: 2 Ne. 9:7 w12–21 "an infinite atonement this corruption could not put on incorruption."
   - target: 2 Ne. 25:16 w44–48 "the atonement, which is infinite"
-- 2 Ne. 11:3; Ether 5:4 → 34:8 w4–6 "I will testify" — law of witnesses, enacted in the sermon's structure
+  - mirror: pending
+- [al34-022] 2 Ne. 11:3; Ether 5:4 → 34:8 w4–6 "I will testify" — law of witnesses, enacted in the sermon's structure
   - target: 2 Ne. 11:3 w34–46 "by the words of three, God hath said, I will establish my word."
   - target: Ether 5:4 w2–12 "in the mouth of three witnesses shall these things be established;"
-- 2 Ne. 25:24–27; Jacob 4:5; Mosiah 13:27–31; 2 Ne. 11:4 → 34:14 w11–19 "every whit pointing to that great and last sacrifice;" — law as type of Christ
+  - mirror: pending
+- [al34-023] 2 Ne. 25:24–27; Jacob 4:5; Mosiah 13:27–31; 2 Ne. 11:4 → 34:14 w11–19 "every whit pointing to that great and last sacrifice;" — law as type of Christ
   - target: 2 Ne. 25:27 w12–16 "the deadness of the law;"
   - target: Jacob 4:5 w32–37 "it pointing our souls to him;"
   - target: Mosiah 13:31 w8–16 "all these things were types of things to come."
   - target: 2 Ne. 11:4 w45–49 "are the typifying of him."
-- 2 Ne. 31:19 → 34:18 w10–12 "mighty to save." — the same title, tied to Christ's merits
+  - mirror: pending
+- [al34-024] 2 Ne. 31:19 → 34:18 w10–12 "mighty to save." — the same title, tied to Christ's merits
   - target: 2 Ne. 31:19 w49–60 "relying wholly upon the merits of him who is mighty to save."
-- Mosiah 2:37; Hel. 4:24 → 34:36 w14–15 "unholy temples," — the formula's other attestations
+  - mirror: pending
+- [al34-025] Mosiah 2:37; Hel. 4:24 → 34:36 w14–15 "unholy temples," — the formula's other attestations
   - target: Mosiah 2:37 w44–49 "he dwelleth not in unholy temples."
   - target: Hel. 4:24 w34–44 "the Spirit of the Lord doth not dwell in unholy temples—"
-- Mosiah 4:16–26 → 34:28 w30–34 "the needy, and the naked," — Benjamin's beggar discourse, incl. the "if ye have" clause
+  - mirror: pending
+- [al34-026] Mosiah 4:16–26 → 34:28 w30–34 "the needy, and the naked," — Benjamin's beggar discourse, incl. the "if ye have" clause
   - target: Mosiah 4:16 w17–26 "administer of your substance unto him that standeth in need;"
-- Mosiah 5:15 → 34:35 w29–31 "seal you his;" — the counter-seal
+  - mirror: pending
+- [al34-027] Mosiah 5:15 → 34:35 w29–31 "seal you his;" — the counter-seal
   - target: Mosiah 5:15 w22–25 "may seal you his,"
-- Mosiah 5:8–12; Moro. 4:3 → 34:38 w16–22 "take upon you the name of Christ;" — covenant name-taking language
+  - mirror: pending
+- [al34-028] Mosiah 5:8–12; Moro. 4:3 → 34:38 w16–22 "take upon you the name of Christ;" — covenant name-taking language
   - target: Mosiah 5:8 w36–42 "take upon you the name of Christ,"
   - target: Moro. 4:3 w57–66 "willing to take upon them the name of thy Son,"
-- Mosiah 15:9 → 34:15 w28–30 "bowels of mercy," — Abinadi's earlier attestation of both phrases
+  - mirror: pending
+- [al34-029] Mosiah 15:9 → 34:15 w28–30 "bowels of mercy," — Abinadi's earlier attestation of both phrases
   - target: Mosiah 15:9 w5–9 "having the bowels of mercy;"
-- Hel. 14:13 → 34:16 w23–25 "faith unto repentance" — belief cashing out as repentance
+  - mirror: pending
+- [al34-030] Hel. 14:13 → 34:16 w23–25 "faith unto repentance" — belief cashing out as repentance
   - target: Hel. 14:13 w2–14 "if ye believe on his name ye will repent of all your sins,"
-- 3 Ne. 9:19–20 → 34:13 w26–32 "a stop to the shedding of blood;" — the fulfillment: end of blood sacrifice
+  - mirror: pending
+- [al34-031] 3 Ne. 9:19–20 → 34:13 w26–32 "a stop to the shedding of blood;" — the fulfillment: end of blood sacrifice
   - target: 3 Ne. 9:19 w2–13 "ye shall offer up unto me no more the shedding of blood;"
   - target: 3 Ne. 9:20 w10–16 "a broken heart and a contrite spirit."
-- 3 Ne. 12:18 → 34:13 w47–50 "every jot and tittle," — the jot-and-tittle saying delivered in the New World
+  - mirror: pending
+- [al34-032] 3 Ne. 12:18 → 34:13 w47–50 "every jot and tittle," — the jot-and-tittle saying delivered in the New World
   - target: 3 Ne. 12:18 w7–18 "one jot nor one tittle hath not passed away from the law,"
-- 3 Ne. 12:13 → 34:29 w27–31 "trodden under foot of men." — the salt saying's fate, New World delivery
+  - mirror: pending
+- [al34-033] 3 Ne. 12:13 → 34:29 w27–31 "trodden under foot of men." — the salt saying's fate, New World delivery
   - target: 3 Ne. 12:13 w41–52 "to be cast out and to be trodden under foot of men."
-- 3 Ne. 18:15–19 → 34:39 w12–15 "watchful unto prayer continually," — the Savior's own version
+  - mirror: pending
+- [al34-034] 3 Ne. 18:15–19 → 34:39 w12–15 "watchful unto prayer continually," — the Savior's own version
   - target: 3 Ne. 18:15 w7–12 "ye must watch and pray always,"
-- Morm. 9:14; 2 Ne. 9:16 → 34:34 w29–31 "that same spirit" — "filthy still": continuity of character
+  - mirror: pending
+- [al34-035] Morm. 9:14; 2 Ne. 9:16 → 34:34 w29–31 "that same spirit" — "filthy still": continuity of character
   - target: Morm. 9:14 w18–25 "he that is filthy shall be filthy still;"
   - target: 2 Ne. 9:16 w34–41 "they who are filthy shall be filthy still;"
-- Morm. 9:27 → 34:37 w18–23 "work out your salvation with fear" — Moroni reuses the phrase
+  - mirror: pending
+- [al34-036] Morm. 9:27 → 34:37 w18–23 "work out your salvation with fear" — Moroni reuses the phrase
   - target: Morm. 9:27 w56–66 "work out your own salvation with fear and trembling before him."
+  - mirror: pending
 
+- [al34-066] Mosiah 14:10 → 34:14 w16–19 "great and last sacrifice;" — Isaiah's offering-for-sin behind the law's whole meaning
+  - target: Mosiah 14:10 w19–24 "his soul an offering for sin"
+  - mirror: mos14-008
 ### Scope: [SW]
-- Ex. 2:23 → 34:18 w2–6 "cry unto him for mercy;" — covenant "crying" out of bondage
-  - target: Ex. 2:23 "their cry came up unto God by reason of the bondage"
-- Deut. 19:15; 2 Cor. 13:1 → 34:8 w4–6 "I will testify" — two-or-three-witnesses principle
-  - target: Deut. 19:15 "at the mouth of three witnesses, shall the matter be established"
-  - target: 2 Cor. 13:1 "In the mouth of two or three witnesses shall every word be established"
-- Deut. 33:27 → 34:16 w15–17 "arms of safety," — the everlasting arms
-  - target: Deut. 33:27 "and underneath are the everlasting arms"
-- Ps. 85:10 → 34:16 w5 "satisfy" — mercy and justice reconciled, not opposed
-  - target: Ps. 85:10 "Mercy and truth are met together; righteousness and peace have kissed each other"
-- Ps. 119:119; Ezek. 22:18–19 → 34:29 w13 "dross," — the wicked as dross purged by the refiner
-  - target: Ps. 119:119 "Thou puttest away all the wicked of the earth like dross"
-  - target: Ezek. 22:18 "the house of Israel is to me become dross"
-- Eccl. 9:10 → 34:33 w70–72 "no labor performed." — no work in the grave
-  - target: Eccl. 9:10 "there is no work, nor device, nor knowledge, nor wisdom, in the grave"
-- Isa. 58:6–7 → 34:28 w33–34 "the naked," — the fast God chooses
-  - target: Isa. 58:7 "when thou seest the naked, that thou cover him"
-- Isa. 63:1 → 34:18 w10–12 "mighty to save." — the divine-warrior source of the title
-  - target: Isa. 63:1 "I that speak in righteousness, mighty to save"
-- Amos 4:12 → 34:32 w11–14 "prepare to meet God;" — the prophetic warning-formula relocated
-  - target: Amos 4:12 "prepare to meet thy God, O Israel"
-- Matt. 3:8 → 34:30 w28–31 "bring fruit unto repentance." — the Baptist's formula
-  - target: Matt. 3:8 "Bring forth therefore fruits meet for repentance"
-- Matt. 5:13 → 34:29 w27–31 "trodden under foot of men." — the salt saying's verbatim fate
-  - target: Matt. 5:13 "to be cast out, and to be trodden under foot of men"
-- Matt. 5:18 → 34:13 w47–50 "every jot and tittle," — the source of the idiom
-  - target: Matt. 5:18 "one jot or one tittle shall in no wise pass from the law, till all be fulfilled"
-- Matt. 5:44; Rom. 12:14 → 34:40 w24–26 "do not revile" — bless your persecutors
-  - target: Matt. 5:44 "bless them that curse you, do good to them that hate you"
-  - target: Rom. 12:14 "Bless them which persecute you: bless, and curse not"
-- Matt. 6:6 → 34:26 w14 "closets," — closet prayer vs. performative prayer
-  - target: Matt. 6:6 "when thou prayest, enter into thy closet"
-- Matt. 25:34–46 → 34:28 w36–41 "visit not the sick and afflicted," — the judgment's tests
-  - target: Matt. 25:36 "I was sick, and ye visited me"
-- John 4:21–24 → 34:38 w41–45 "in spirit and in truth;" — worship detached from contested sacred place
-  - target: John 4:24 "they that worship him must worship him in spirit and in truth"
-- John 9:4 → 34:33 w62–65 "the night of darkness" — the Johannine twin
-  - target: John 9:4 "the night cometh, when no man can work"
-- 1 Cor. 3:16–17 → 34:36 w14–15 "unholy temples," — the body as temple
-  - target: 1 Cor. 3:16 "Know ye not that ye are the temple of God"
-- 2 Cor. 6:2 → 34:31 w23–27 "the day of your salvation;" — the accepted time
-  - target: 2 Cor. 6:2 "behold, now is the accepted time; behold, now is the day of salvation"
-- Gal. 3:24 → 34:14 w5–10 "the whole meaning of the law," — law as schoolmaster unto Christ
-  - target: Gal. 3:24 "the law was our schoolmaster to bring us unto Christ"
-- Eph. 5:16 → 34:33 w53–55 "improve our time" — the same economic idiom for mortality
-  - target: Eph. 5:16 "Redeeming the time, because the days are evil"
-- Philip. 2:12–13 → 34:37 w18–23 "work out your salvation with fear" — the source, with grace-side balance in v. 13
-  - target: Philip. 2:12 "work out your own salvation with fear and trembling"
-- 1 Thes. 5:17 → 34:27 w19–22 "prayer unto him continually" — unceasing prayer
-  - target: 1 Thes. 5:17 "Pray without ceasing"
-- Heb. 4:9–11 → 34:41 w20–24 "rest from all your afflictions." — the promised rest
-  - target: Heb. 4:9 "There remaineth therefore a rest to the people of God"
-- Heb. 9:26–28; 10:1–14 → 34:10 w10–13 "great and last sacrifice;" — one sacrifice, once, forever
-  - target: Heb. 9:26 "now once in the end of the world hath he appeared to put away sin by the sacrifice of himself"
-  - target: Heb. 10:12 "after he had offered one sacrifice for sins for ever"
-- James 1:27 → 34:28 w36–41 "visit not the sick and afflicted," — pure religion as visiting the vulnerable
-  - target: James 1:27 "To visit the fatherless and widows in their affliction"
-- Rev. 7:14 → 34:36 w48–58 "garments should be made white through the blood of the Lamb." — washed white in blood
-  - target: Rev. 7:14 "made them white in the blood of the Lamb"
-- Rev. 22:11 → 34:34 w29–31 "that same spirit" — the "filthy still" source
-  - target: Rev. 22:11 "he which is filthy, let him be filthy still"
-- Moses 5:7 → 34:14 w16–19 "great and last sacrifice;" — sacrifice as similitude of the Only Begotten
+- [al34-037] Ex. 2:23 → 34:18 w2–6 "cry unto him for mercy;" — covenant "crying" out of bondage
+  - target: Ex. 2:23 w31–41 "their cry came up unto God by reason of the bondage."
+- [al34-038] Deut. 19:15; 2 Cor. 13:1 → 34:8 w4–6 "I will testify" — two-or-three-witnesses principle
+  - target: Deut. 19:15 w30–40 "at the mouth of three witnesses, shall the matter be established."
+  - target: 2 Cor. 13:1 w11–23 "In the mouth of two or three witnesses shall every word be established."
+- [al34-039] Deut. 33:27 → 34:16 w15–17 "arms of safety," — the everlasting arms
+  - target: Deut. 33:27 w7–12 "and underneath are the everlasting arms:"
+- [al34-040] Ps. 85:10 → 34:16 w5 "satisfy" — mercy and justice reconciled, not opposed
+  - target: Ps. 85:10 w1–13 "Mercy and truth are met together; righteousness and peace have kissed each other."
+- [al34-041] Ps. 119:119; Ezek. 22:18–19 → 34:29 w13 "dross," — the wicked as dross purged by the refiner
+  - target: Ps. 119:119 w1–11 "Thou puttest away all the wicked of the earth like dross:"
+  - target: Ezek. 22:18 w4–12 "the house of Israel is to me become dross:"
+- [al34-042] Eccl. 9:10 → 34:33 w70–72 "no labor performed." — no work in the grave
+  - target: Eccl. 9:10 w13–25 "there is no work, nor device, nor knowledge, nor wisdom, in the grave,"
+- [al34-043] Isa. 58:6–7 → 34:28 w33–34 "the naked," — the fast God chooses
+  - target: Isa. 58:7 w24–32 "when thou seest the naked, that thou cover him;"
+- [al34-044] Isa. 63:1 → 34:18 w10–12 "mighty to save." — the divine-warrior source of the title
+  - target: Isa. 63:1 w27–34 "I that speak in righteousness, mighty to save."
+- [al34-045] Amos 4:12 → 34:32 w11–14 "prepare to meet God;" — the prophetic warning-formula relocated
+  - target: Amos 4:12 w18–24 "prepare to meet thy God, O Israel."
+- [al34-046] Matt. 3:8 → 34:30 w28–31 "bring fruit unto repentance." — the Baptist's formula
+  - target: Matt. 3:8 w1–7 "Bring forth therefore fruits meet for repentance:"
+- [al34-047] Matt. 5:13 → 34:29 w27–31 "trodden under foot of men." — the salt saying's verbatim fate
+  - target: Matt. 5:13 w28–39 "to be cast out, and to be trodden under foot of men."
+- [al34-048] Matt. 5:18 → 34:13 w47–50 "every jot and tittle," — the source of the idiom
+  - target: Matt. 5:18 w12–28 "one jot or one tittle shall in no wise pass from the law, till all be fulfilled."
+- [al34-049] Matt. 5:44; Rom. 12:14 → 34:40 w24–26 "do not revile" — bless your persecutors
+  - target: Matt. 5:44 w9–20 "bless them that curse you, do good to them that hate you,"
+  - target: Rom. 12:14 w1–9 "Bless them which persecute you: bless, and curse not."
+- [al34-050] Matt. 6:6 → 34:26 w14 "closets," — closet prayer vs. performative prayer
+  - target: Matt. 6:6 w3–9 "when thou prayest, enter into thy closet,"
+- [al34-051] Matt. 25:34–46 → 34:28 w36–41 "visit not the sick and afflicted," — the judgment's tests
+  - target: Matt. 25:36 w6–12 "I was sick, and ye visited me:"
+- [al34-052] John 4:21–24 → 34:38 w41–45 "in spirit and in truth;" — worship detached from contested sacred place
+  - target: John 4:24 w6–17 "they that worship him must worship him in spirit and in truth."
+- [al34-053] John 9:4 → 34:33 w62–65 "the night of darkness" — the Johannine twin
+  - target: John 9:4 w15–22 "the night cometh, when no man can work."
+- [al34-054] 1 Cor. 3:16–17 → 34:36 w14–15 "unholy temples," — the body as temple
+  - target: 1 Cor. 3:16 w1–10 "Know ye not that ye are the temple of God,"
+- [al34-055] 2 Cor. 6:2 → 34:31 w23–27 "the day of your salvation;" — the accepted time
+  - target: 2 Cor. 6:2 w22–34 "behold, now is the accepted time; behold, now is the day of salvation.)"
+- [al34-056] Gal. 3:24 → 34:14 w5–10 "the whole meaning of the law," — law as schoolmaster unto Christ
+  - target: Gal. 3:24 w2–11 "the law was our schoolmaster to bring us unto Christ,"
+- [al34-057] Eph. 5:16 → 34:33 w53–55 "improve our time" — the same economic idiom for mortality
+  - target: Eph. 5:16 w1–8 "Redeeming the time, because the days are evil."
+- [al34-058] Philip. 2:12–13 → 34:37 w18–23 "work out your salvation with fear" — the source, with grace-side balance in v. 13
+  - target: Philip. 2:12 w22–30 "work out your own salvation with fear and trembling."
+- [al34-059] 1 Thes. 5:17 → 34:27 w19–22 "prayer unto him continually" — unceasing prayer
+  - target: 1 Thes. 5:17 w1–3 "Pray without ceasing."
+- [al34-060] Heb. 4:9–11 → 34:41 w20–24 "rest from all your afflictions." — the promised rest
+  - target: Heb. 4:9 w1–10 "There remaineth therefore a rest to the people of God."
+- [al34-061] Heb. 9:26–28; 10:1–14 → 34:10 w10–13 "great and last sacrifice;" — one sacrifice, once, forever
+  - target: Heb. 9:26 w15–34 "now once in the end of the world hath he appeared to put away sin by the sacrifice of himself."
+  - target: Heb. 10:12 w4–13 "after he had offered one sacrifice for sins for ever,"
+- [al34-062] James 1:27 → 34:28 w36–41 "visit not the sick and afflicted," — pure religion as visiting the vulnerable
+  - target: James 1:27 w12–20 "To visit the fatherless and widows in their affliction,"
+- [al34-063] Rev. 7:14 → 34:36 w48–58 "garments should be made white through the blood of the Lamb." — washed white in blood
+  - target: Rev. 7:14 w29–37 "made them white in the blood of the Lamb."
+- [al34-064] Rev. 22:11 → 34:34 w29–31 "that same spirit" — the "filthy still" source
+  - target: Rev. 22:11 w11–19 "he which is filthy, let him be filthy still:"
+- [al34-065] Moses 5:7 → 34:14 w16–19 "great and last sacrifice;" — sacrifice as similitude of the Only Begotten
   - target: Moses 5:7 "This thing is a similitude of the sacrifice of the Only Begotten of the Father"

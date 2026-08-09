@@ -140,7 +140,7 @@ export default function StudyMarker({ pages, onOpen, wide }) {
         {/* Ruled lines with one of them marked: a page of the site's own, as
             against the scripture beside it. Drawn small enough to be furniture
             until it is looked for. */}
-        <svg viewBox="0 0 12 12" width="15" height="15" aria-hidden fill="none"
+        <svg viewBox="0 0 12 12" aria-hidden fill="none"
           stroke="currentColor" strokeWidth="1.4" strokeLinecap="round">
           <path d="M2 2.6h8M2 6h8M2 9.4h5" />
         </svg>

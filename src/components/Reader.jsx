@@ -53,6 +53,21 @@ function Peek({ volId, book, chapter, side }) {
   );
 }
 
+// What the mark beside a verse should open.
+//
+// A page that names verses stands at the first one it names. A page that treats
+// the chapter as a whole names none, and used to be marked up beside the title
+// instead — a second place to look, in a header that pins and scrolls, for the
+// same kind of thing the verses carry in their margin. It stands at the first
+// verse now, with whatever else is there: one mark, one margin, and the card it
+// opens says which pages are about the chapter and which about the verse.
+function marksAt(study, verse, first) {
+  if (!study) return null;
+  const here = study.verses.get(verse) || [];
+  const pages = first ? [...study.whole, ...here] : here;
+  return pages.length ? pages : null;
+}
+
 export default function Reader({ volId, book, chapter, targetVerse, flipDir = 0, connections, find, onOpenRef, study, onOpenStudy, pageRef, prev, next }) {
   const versesRef = useRef(null);
   const local = useLocalSummaries();
@@ -72,14 +87,6 @@ export default function Reader({ volId, book, chapter, targetVerse, flipDir = 0,
           <h2 className="serif chapter-title" style={{ fontSize: "clamp(20px, 3vw, 25px)", fontWeight: 600, letterSpacing: "0.01em", margin: 0 }}>
             {volId === "dc" ? `Section ${chapter.n}` : `${book.name} ${chapter.n}`}
           </h2>
-          {/* Pages that treat the chapter as a whole and name no verse in it
-              have no verse to stand beside, so they are marked here — in the
-              margin beside the title, the same mark the verses carry. */}
-          {study?.whole.length > 0 && (
-            <span className="sm-head">
-              <StudyMarker pages={study.whole} onOpen={onOpenStudy} wide />
-            </span>
-          )}
         </div>
 
         {((chapter.n === 1 && book.heading && !book.isSections) || summary) && (
@@ -101,16 +108,16 @@ export default function Reader({ volId, book, chapter, targetVerse, flipDir = 0,
         )}
 
         <div ref={versesRef} style={{ maxWidth: 620, margin: "0 auto" }}>
-          {chapter.verses.map((v) => (
+          {chapter.verses.map((v, vi) => (
             <p key={v.verse} id={`verse-${v.verse}`} className={`serif${targetVerse === v.verse ? " vhl" : ""}`}
               style={{ position: "relative", display: "grid", gridTemplateColumns: "34px 1fr", gap: 6, margin: "0 0 14px", fontSize: 17.5, lineHeight: 1.8, fontWeight: 400 }}>
               {/* In the gutter, outside the verse-number column: the pages that
                   begin their treatment of this chapter here. A page stands at
                   the first verse it names and nowhere else, so one chart never
                   puts four marks down one chapter. */}
-              {study?.verses.get(v.verse) && (
+              {marksAt(study, v.verse, vi === 0) && (
                 <span className="sm-gutter">
-                  <StudyMarker pages={study.verses.get(v.verse)} onOpen={onOpenStudy} />
+                  <StudyMarker pages={marksAt(study, v.verse, vi === 0)} onOpen={onOpenStudy} />
                 </span>
               )}
               <span aria-hidden style={{ color: gold, fontSize: 13, lineHeight: "2.35", textAlign: "right", paddingRight: 4, fontVariantNumeric: "oldstyle-nums", fontWeight: 500, userSelect: "none" }}>

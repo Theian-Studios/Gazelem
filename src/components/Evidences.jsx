@@ -345,7 +345,7 @@ export function EvidencePage({ slug, onOpenRef, focus }) {
                 {/* No handler of its own: the press bubbles to the card, which
                     is what a press anywhere on the card does. Kept a button so
                     the card has one thing a keyboard can reach. */}
-                <button className="ev-more">See more</button>
+                <button className="ev-more">Show more</button>
               </section>
             );
           })}

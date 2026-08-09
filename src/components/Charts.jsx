@@ -198,7 +198,7 @@ export function ChartPage({ slug, volume, onOpenRef, focus }) {
 
               {!whole && part.rows.length > TASTE && (
                 <button className="cx-more" onClick={() => toggle(part.name || pi)} aria-expanded={all}>
-                  {all ? "Show fewer" : `See all ${part.rows.length} entries`}
+                  {all ? "Show fewer" : "Show more"}
                   <svg className="cx-more-arrow" viewBox="0 0 10 6" width="9" height="6" aria-hidden
                     fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M1 1.2 5 4.8 9 1.2" />

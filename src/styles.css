@@ -1056,7 +1056,14 @@ a[x-apple-data-detectors] {
 .lift:active { transform: translateY(0) scale(.97); }
 .lift:disabled, .tap:disabled { transform: none; }
 
-button { font: inherit; }
+/* A button takes the type and the colour of the text around it.
+   The colour is the one that matters: left alone, a button's colour is the UA's
+   `buttontext`, which a desktop browser draws black — near enough to the page's
+   ink that nothing looked wrong — and which iOS draws in the system accent. So
+   three hundred buttons of plain prose, the timeline's stops and the cross
+   connections among them, came out blue on a phone and black everywhere else.
+   Anything that wants its own colour still says so; this is only the default. */
+button { font: inherit; color: inherit; }
 input { font: inherit; }
 input::placeholder { color: rgba(110,110,115,.65); }
 
@@ -3057,23 +3064,23 @@ mark.find-hit[data-current] {
    line-height that generous it reads as belonging to the line beneath. */
 .sm-gutter {
   position: absolute; right: 100%; top: 0;
-  margin-right: 6px; height: 2.35em;
-  display: flex; align-items: flex-start; padding-top: 0.42em;
-}
-/* The chapter's own mark hangs off the sticky head that carries its title, so
-   it holds its place at the head of the chapter and stays in reach as the text
-   scrolls under it. */
-.sm-head {
-  position: absolute; left: calc(var(--pad) * 0.45); top: 0; bottom: 12px;
+  margin-right: 6px;
+  /* One line of the verse, exactly — the same 1.8 the verses are set to — and
+     the mark centred in it. Centring it on the whole line box instead had it
+     sitting between the first line and the second, and hanging it from the top
+     puts it low again as soon as the mark is taller than a line. */
+  height: 1.8em;
   display: flex; align-items: center;
 }
 .sm-mark {
   display: grid; place-items: center;
-  width: 28px; height: 28px; padding: 0;
+  width: 34px; height: 34px; padding: 0;
   border: 0; border-radius: 9px; background: none; cursor: pointer;
   color: rgba(164, 133, 61, .62);
   transition: color .15s ease, background .15s ease;
 }
+/* The glyph scales with the mark, so growing one grows both. */
+.sm-mark svg { width: 55%; height: 55%; }
 .sm-mark:hover, .sm-mark[aria-expanded="true"] { color: #a4853d; background: rgba(164,133,61,.13); }
 .sm-mark:focus-visible { outline: 2px solid #3a5a8c; outline-offset: 1px; }
 /* No page margin to stand in on a narrow window, so the mark tucks into the
@@ -3084,9 +3091,8 @@ mark.find-hit[data-current] {
    the next row, where it wraps inside 34px, one word to a line. Anything here
    that returns it to the flow breaks every marked verse on a phone. */
 @media (max-width: 719.98px) {
-  .sm-gutter { margin-right: 1px; }
-  .sm-head { left: 2px; }
-  .sm-mark { width: 20px; height: 20px; }
+  .sm-gutter { margin-right: 0; }
+  .sm-mark { width: 24px; height: 24px; }
 }
 
 .sm-pop {

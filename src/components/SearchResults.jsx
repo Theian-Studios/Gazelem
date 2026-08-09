@@ -177,7 +177,7 @@ export default function SearchResults({ query, filters, setFilters, field, onSea
           </ul>
           {shown < rows.length && (
             <button className="lift srch-more" onClick={() => setShown((n) => n + PAGE)}>
-              Show {Math.min(PAGE, rows.length - shown)} more
+              Show more
             </button>
           )}
         </>

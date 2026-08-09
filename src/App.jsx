@@ -16,7 +16,7 @@ import FindBar from "./components/FindBar.jsx";
 import { LensControls } from "./components/LensPanel.jsx";
 import VolumeTimeline, { hasTimeline } from "./components/VolumeTimeline.jsx";
 import ContentsCard from "./components/ContentsCard.jsx";
-import StudyDock, { PANELS, useFilledPanels, useSheetDismissal } from "./components/StudyDock.jsx";
+import StudyDock, { PANELS, useFilledPanels, useSheetDismissal, useHideOnScrollDown } from "./components/StudyDock.jsx";
 import SectionTile, { TimelineIcon, ProphetsIcon, MapIcon, ComingForthIcon, OverviewIcon, EvidencesIcon, ResourcesIcon, ChartsIcon } from "./components/SectionTile.jsx";
 import { mentionsOf, marginMentions } from "./lib/mentions.js";
 import { ChapterOverview, CommentaryNotes, CrossConnections } from "./components/Commentary.jsx";
@@ -700,6 +700,9 @@ export default function App() {
   // here; the corners and the sheet are styles.css's, so the same markup can be
   // a column again as soon as there is room for one. See StudyDock.
   const [sheet, setSheet] = useState(null);
+  // Both docks answer to this: the markers at the top and the pill at the foot
+  // are one set of controls, and they come and go together.
+  const controlsHidden = useHideOnScrollDown();
   const panelsRef = useRef(null);
   const filled = useFilledPanels(panelsRef, [chapter, lens, volId, bookIdx, chapIdx]);
   const closeSheet = useCallback(() => setSheet(null), []);
@@ -1130,12 +1133,17 @@ export default function App() {
       {/* The markers belong to a chapter, so they go when there is none — and
           while a sheet is up, the sheet is the panel and the corners under it
           have nothing left to offer. */}
-      {chapter && !query && !sheet && <StudyDock filled={filled} onOpen={setSheet} />}
+      {chapter && !query && !sheet && (
+        <StudyDock filled={filled} hidden={controlsHidden} onOpen={setSheet} />
+      )}
 
       {trail.length > 0 && (
         <NavPill trail={trail} chapter={query ? null : chapter} atStart={atStart} atEnd={atEnd}
           onPrev={() => step(-1)} onNext={() => step(1)}
-          onBack={history.length ? goBack : null} search={!home && searchButton} />
+          onBack={history.length ? goBack : null} search={!home && searchButton}
+          /* Only where the markers are also giving way. Wide, the dock is the
+             only way through the chapters and never stands over the text. */
+          hidden={controlsHidden && !!chapter && !query} />
       )}
     </div>
   );

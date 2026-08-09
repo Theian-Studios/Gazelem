@@ -117,14 +117,18 @@ export function useFilledPanels(ref, deps) {
   return filled;
 }
 
-// The markers stand over the chapter, so they give way while it is being read:
-// scrolling down fades them out, and the first scroll back up brings them
-// again. A small movement is not an answer either way — the page settling, or
-// a thumb resting on the glass — so nothing happens until the scroll is
-// deliberate.
+// The controls stand over the chapter, so they give way while it is being
+// read: scrolling down fades them out, and the first scroll back up brings
+// them again. A small movement is not an answer either way — the page
+// settling, or a thumb resting on the glass — so nothing happens until the
+// scroll is deliberate.
+//
+// Held by App rather than by either dock, because the markers at the top and
+// the pill at the foot are one set of controls as far as the reader is
+// concerned, and half of them fading is worse than none.
 const SHIFT = 24;
 
-function useHideOnScrollDown() {
+export function useHideOnScrollDown() {
   const [hidden, setHidden] = useState(false);
 
   useEffect(() => {
@@ -167,8 +171,7 @@ function Circle({ panel, onOpen }) {
 // side so each hugs its own corner, rather than one row spanning the window
 // with a gap in the middle that the chapter would have to be narrow enough to
 // clear.
-export default function StudyDock({ filled, onOpen }) {
-  const hidden = useHideOnScrollDown();
+export default function StudyDock({ filled, hidden, onOpen }) {
   const shown = PANELS.filter((p) => filled.has(p.id));
   if (!shown.length) return null;
 

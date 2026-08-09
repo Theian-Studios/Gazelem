@@ -65,10 +65,12 @@ a[x-apple-data-detectors] {
   position: fixed; bottom: 22px; left: 0; right: 0; z-index: 30;
   display: flex; justify-content: center; align-items: center; gap: 8px;
   pointer-events: none;
+  transition: opacity .22s ease, transform .22s ease;
 }
 /* The pill is as wide as what it holds and no wider, so the field beside it
-   gets the rest of the line rather than a share of it. */
-.navpill { flex: 0 0 auto; min-width: 0; }
+   gets the rest of the line rather than a share of it. The dock around it does
+   not take taps; the pill does. */
+.navpill { flex: 0 0 auto; min-width: 0; pointer-events: auto; }
 
 /* A phone has one column, so the search bar has to give the chapter as much of
    it as it can while still being there to type into. */
@@ -77,6 +79,7 @@ a[x-apple-data-detectors] {
   .searchcard { padding: 8px 12px; }
   .content { padding: 16px 12px 140px; }
 }
+
 
 /* ---- The field, on a compact screen -------------------------------------
    One column has no room to keep a search bar standing at the top of it, so
@@ -98,9 +101,25 @@ a[x-apple-data-detectors] {
     padding: 10px 12px calc(10px + env(safe-area-inset-bottom, 0px));
   }
 
-  .pill-step { display: none !important; }
-
   .navdock { padding: 0 12px; }
+
+  /* With the arrows back the pill is carrying seven controls on a line it
+     shares with the search button, which on the narrowest phones is more than
+     the line has. Rather than drop one, everything in it gives up a little:
+     the buttons narrow, the trail sets tighter, and a long book name takes an
+     ellipsis instead of pushing the arrows off the end. */
+  .navpill { max-width: calc(100% - 62px); }
+  .navpill > .tap { width: auto; min-width: 38px; }
+  .pill-crumb {
+    min-width: 0; padding: 0 7px !important; font-size: 12.5px !important;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  /* Narrower still, and the trail loses its middle rather than the end of its
+     last name. Where the reader is matters more than how they got there, and
+     the library icon beside it still climbs past what was dropped. */
+  @media (max-width: 359.98px) {
+    .pill-crumb[data-step="up"], .pill-sep[data-step="up"] { display: none; }
+  }
 
   .dock-search {
     display: grid; place-items: center;
@@ -342,11 +361,20 @@ a[x-apple-data-detectors] {
     transition: opacity .22s ease, transform .22s ease;
   }
   /* Reading is downward, so that is when they get out of the way; the first
-     scroll back up is a reader looking for something, and brings them again. */
+     scroll back up is a reader looking for something, and brings them again.
+     Each dock leaves by its own edge. The buttons have to be told separately:
+     they set pointer-events themselves to get out of the container's `none`,
+     which would otherwise leave a faded-out control still taking taps. */
   .study-dock[data-hidden] {
     opacity: 0;
     transform: translateY(-10px);
-    pointer-events: none;
+  }
+  .study-dock[data-hidden] .study-dot,
+  .navdock[data-hidden] .navpill,
+  .navdock[data-hidden] .dock-search { pointer-events: none; }
+  .navdock[data-hidden] {
+    opacity: 0;
+    transform: translateY(14px);
   }
   /* Down the edge rather than in from it: a column keeps the middle of the
      window — which is the chapter — clear of everything but its first marker,
@@ -356,7 +384,9 @@ a[x-apple-data-detectors] {
   .study-dot {
     pointer-events: auto;
     display: grid; place-items: center;
-    width: 48px; height: 48px; border-radius: 999px;
+    /* The same 54 the search button is, so every circle on a phone is one
+       size and the top of the window agrees with the foot of it. */
+    width: 54px; height: 54px; border-radius: 999px;
     border: 1px solid rgba(255,255,255,.78);
     /* Denser than the rest of the site's glass: these stand over running text
        rather than over the page's own background, and a marker you can read
@@ -375,12 +405,12 @@ a[x-apple-data-detectors] {
    hangs over the chapter by design — they are markers in the margin, and they
    fade the moment the reader scrolls into the text. */
 @media (max-width: 959.98px) {
-  .content:has(~ .study-dock) { padding-top: 66px; }
+  .content:has(~ .study-dock) { padding-top: 72px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .study-dock { transition: none; }
-  .study-dock[data-hidden] { transform: none; }
+  .study-dock, .navdock { transition: none; }
+  .study-dock[data-hidden], .navdock[data-hidden] { transform: none; }
 }
 
 /* Lifted out of the reading flow into the column under the search. Fixed rather
@@ -570,6 +600,19 @@ a[x-apple-data-detectors] {
   content: "·";
   margin: 0 6px;
   opacity: .55;
+}
+
+/* What names a card is the one line on it that has to be read before anything
+   else, and at arm's length on a phone 10.5px of tracked-out capitals is not
+   read so much as recognised. The heading and the headings one step in beneath
+   it move together, or a card would name itself smaller than its own parts.
+   Written here rather than with the rest of the compact layout so it comes
+   after the sizes it is raising — a media query carries no extra weight, and
+   the later rule is the one that wins. The small-print scale is left alone:
+   this is the label that has to carry a whole panel, not every label on the
+   site. */
+@media (max-width: 959.98px) {
+  .commentary-head, .lens-head { font-size: 12.5px; }
 }
 
 .card-chevron {

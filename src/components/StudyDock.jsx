@@ -55,29 +55,18 @@ const ICONS = {
       <path d="M5.9 5.7 11.1 10.3" />
     </svg>
   ),
-  // Sliders: the settings the notes are read through. Deliberately not a lens
-  // drawn as a magnifying glass, which on this dock would be the search button
-  // standing a few pixels away saying something else entirely.
-  lenses: (
-    <svg width="20" height="19" viewBox="0 0 17 16" fill="none" stroke="currentColor"
-      strokeWidth="1.6" strokeLinecap="round" aria-hidden focusable="false">
-      <path d="M2.4 4.6h12.2M2.4 11.4h12.2" />
-      <circle cx="6.2" cy="4.6" r="2" fill="#fff" />
-      <circle cx="11" cy="11.4" r="2" fill="#fff" />
-    </svg>
-  ),
 };
 
-// Three a side, each column reading downward from its own corner in the order
-// the chapter wants them: what it is, when it was, what it reads with — then
-// what has been said about it, what it points at, and how those are read.
+// Each column reads downward from its own corner in the order the chapter wants
+// them: what it is, when it was, what it reads with — then what has been said
+// about it and what it points at. The lenses have no marker of their own; they
+// stand at the head of the commentary they govern.
 export const PANELS = [
   { id: "overview", title: "Overview", side: "left" },
   { id: "timeline", title: "Timeline", side: "left" },
   { id: "related", title: "Related", side: "left" },
   { id: "notes", title: "Notes", side: "right" },
   { id: "connections", title: "Connections", side: "right" },
-  { id: "lenses", title: "Analysis", side: "right" },
 ];
 
 // Which panels have anything to show. Each one renders itself away when the

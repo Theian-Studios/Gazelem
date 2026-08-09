@@ -170,7 +170,16 @@ a[x-apple-data-detectors] {
   width: 100%;
   max-height: 100vh; overflow: hidden;
   pointer-events: none;
+  /* Clipped at a screen, so a long neighbour is not painted far below the fold
+     — but faded to it rather than cut, or the page beside the one being read
+     ends in a straight edge across the middle of nothing and reads as a card
+     that ran out rather than a page carrying on. */
+  -webkit-mask-image: linear-gradient(180deg, #000 62%, transparent 97%);
+  mask-image: linear-gradient(180deg, #000 62%, transparent 97%);
 }
+/* Tall enough that the fade is always the bottom of a page rather than the
+   bottom of its text. */
+.page-peek .reader-card { min-height: 100vh; }
 .page-peek[data-side="prev"] { right: calc(100% + 14px); }
 .page-peek[data-side="next"] { left: calc(100% + 14px); }
 /* The fold: a neighbour is a page being turned toward, not one being read, so
@@ -303,11 +312,8 @@ a[x-apple-data-detectors] {
    wide screen. `gap` rather than margins, so a panel with nothing to show can
    take its spacing with it when it collapses. */
 .side-extras { display: flex; flex-direction: column; gap: 12px; margin-top: 12px; }
-.overview-box:empty, .lens-inline:empty, .timeline-box:empty, .related-box:empty,
+.overview-box:empty, .timeline-box:empty, .related-box:empty,
 .notes-inline:empty, .connections-box:empty { display: none; }
-/* Same for the right column's wrapper, whose spacing rules would otherwise
-   leave a gap where the card used to be. */
-.lens-box:empty { display: none; }
 .commentary-col { display: none; }
 
 /* ---- The panels as a sheet, on a compact screen --------------------------
@@ -345,7 +351,6 @@ a[x-apple-data-detectors] {
   .side-extras[data-sheet="related"] .related-box,
   .side-extras[data-sheet="notes"] .notes-inline,
   .side-extras[data-sheet="connections"] .connections-box,
-  .side-extras[data-sheet="lenses"] .lens-inline { display: block; }
 
   /* Pinned, because the sheet is a whole window of scrolling and the way out
      of it should not be somewhere up at the top of that. */
@@ -459,12 +464,12 @@ a[x-apple-data-detectors] {
   }
 }
 
-/* Three columns: nav + lenses, the reader, and the notes. The reader is fluid
+/* Three columns: the nav, the reader, and the notes. The reader is fluid
    between the two fixed columns and capped at its 620px measure, so the notes
    can sit on the right without waiting for a very wide window. */
 @media (min-width: 1120px) {
   :root { --notes: clamp(300px, 25vw, 480px); }
-  .lens-inline, .notes-inline { display: none; }
+  .notes-inline { display: none; }
   .commentary-col {
     display: block;
     position: fixed;
@@ -509,7 +514,15 @@ a[x-apple-data-detectors] {
    first control clear of the heading's wash: that gradient hangs below the
    heading to mask whatever scrolls under it, and without the gap it would lie
    across the top of the segments instead of behind them. */
-.lens-groups { padding-top: 12px; display: grid; gap: 14px; }
+.lens-groups {
+  display: grid; gap: 14px;
+  /* Set off from the notes below by a rule rather than by space alone: they are
+     the controls for what follows, and space on its own would read as the first
+     of the notes having been indented. */
+  margin: 2px 0 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(31,45,71,.09);
+}
 
 /* ---- Where to stand -----------------------------------------------------
    A segmented track: three names of one kind of thing, one of them chosen. The
@@ -568,10 +581,13 @@ a[x-apple-data-detectors] {
   transition: background .18s, color .18s;
 }
 .lens-zoom-item:hover { background: rgba(164,133,61,.12); color: #6b551f; }
-/* Filled, the way a chosen filter chip is filled everywhere else on the site. */
+/* Gold, which is what this site colours a thing the reader has reached for.
+   Filled rather than tinted: the row is five words of one size, and a wash
+   behind one of them is not enough to find without looking for it. */
 .lens-zoom-item[aria-pressed="true"] {
-  background: rgba(64,64,70,.9); color: #fff; font-weight: 700;
+  background: #a4853d; color: #fff; font-weight: 700;
 }
+.lens-zoom-item[aria-pressed="true"]:hover { background: #96793a; color: #fff; }
 .lens-seg-item:focus-visible, .lens-zoom-item:focus-visible {
   outline: 2px solid #3a5a8c; outline-offset: 2px;
 }
@@ -3036,10 +3052,13 @@ mark.find-hit[data-current] {
    the same sentence is one too many to tell apart. Set well out into the
    margin, clear of the verse numbers, so the gutter reads as a column of its
    own rather than as something crowding the text. */
+/* Level with the first line of the verse, not centred on the line's box: the
+   mark answers to the verse's opening words, and hung from the middle of a
+   line-height that generous it reads as belonging to the line beneath. */
 .sm-gutter {
   position: absolute; right: 100%; top: 0;
   margin-right: 6px; height: 2.35em;
-  display: flex; align-items: center;
+  display: flex; align-items: flex-start; padding-top: 0.42em;
 }
 /* The chapter's own mark hangs off the sticky head that carries its title, so
    it holds its place at the head of the chapter and stays in reach as the text

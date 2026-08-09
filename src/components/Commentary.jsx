@@ -141,11 +141,12 @@ function Entry({ e, last }) {
 
 // The worlds behind and in front of the text: prose, sometimes under their own
 // subheadings, with no depth to filter by.
-function WorldView({ groups, title, chapter, collapsed, onToggle }) {
+function WorldView({ groups, title, chapter, collapsed, onToggle, controls }) {
   if (!groups.length) {
     return (
       <Card id="notes" title={title} label="Commentary"
         className="popin" collapsed={collapsed.has("notes")} onToggle={onToggle}>
+        {controls}
         <p style={{ ...PROSE, margin: 0 }}>No notes for this world yet.</p>
       </Card>
     );
@@ -164,6 +165,7 @@ function WorldView({ groups, title, chapter, collapsed, onToggle }) {
             style={{ ...(i === 0 ? null : { marginTop: 12 }), animationDelay: `${i * 60}ms` }}
             collapsed={collapsed.has(id)} onToggle={onToggle}
           >
+            {i === 0 && controls}
             {g.entries.map((e, j) => (
               <Entry key={j} e={e} last={j === g.entries.length - 1} />
             ))}
@@ -196,7 +198,7 @@ export function ChapterOverview({ book, chapter, volId, collapsed, onToggle, ope
 const LEVEL_LABEL = { Verse: "Verses", Phrase: "Phrases", Word: "Words" };
 
 // The commentary itself, read through the current lens.
-export function CommentaryNotes({ book, chapter, lens, volId, collapsed, onToggle }) {
+export function CommentaryNotes({ book, chapter, lens, volId, collapsed, onToggle, controls }) {
   if (!book || !chapter) return null;
   const data = notesFor(book, chapter, volId);
 
@@ -204,29 +206,33 @@ export function CommentaryNotes({ book, chapter, lens, volId, collapsed, onToggl
     return (
       <Card id="notes" title="Commentary" label="Commentary" className="popin"
         collapsed={collapsed.has("notes")} onToggle={onToggle}>
+        {controls}
         <p style={{ ...PROSE, margin: 0 }}>No notes yet for {chapter.reference}.</p>
       </Card>
     );
   }
   if (lens.world === "behind") {
-    return <WorldView groups={data.worlds.behind} title="Behind" chapter={chapter} collapsed={collapsed} onToggle={onToggle} />;
+    return <WorldView groups={data.worlds.behind} title="Behind" chapter={chapter} collapsed={collapsed} onToggle={onToggle} controls={controls} />;
   }
   if (lens.world === "front") {
-    return <WorldView groups={data.worlds.front} title="In Front" chapter={chapter} collapsed={collapsed} onToggle={onToggle} />;
+    return <WorldView groups={data.worlds.front} title="In Front" chapter={chapter} collapsed={collapsed} onToggle={onToggle} controls={controls} />;
   }
 
   const entries = data.levels[lens.level] || [];
   return (
     // The level rides in the heading: these notes are one reading of the
     // chapter out of five, and which one should be legible from the card
-    // rather than only from the lens controls that set it. Keyed so switching
-    // level or chapter presents the card afresh.
-    <Card key={`${lens.level}-${chapter.reference}`} id="notes"
+    // rather than only from the controls that set it. Keyed by the chapter
+    // alone — the controls sit inside this card now, and keying it by the level
+    // too would replay the card's entrance under the reader's finger every time
+    // they pressed one.
+    <Card key={chapter.reference} id="notes"
       title="Commentary" subtitle={LEVEL_LABEL[lens.level] ?? lens.level}
       label={`Commentary, ${lens.level} level`}
       className="popin"
       collapsed={collapsed.has("notes")} onToggle={onToggle}
     >
+      {controls}
       {entries.length === 0 && (
         <p style={{ ...PROSE, margin: 0 }}>
           No {lens.level.toLowerCase()}-level notes for this chapter.

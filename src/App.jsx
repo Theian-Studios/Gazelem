@@ -13,7 +13,7 @@ import ChapterTimeline from "./components/ChapterTimeline.jsx";
 import RelatedChapters from "./components/RelatedChapters.jsx";
 import NavPill from "./components/NavPill.jsx";
 import FindBar from "./components/FindBar.jsx";
-import { LensControls } from "./components/LensPanel.jsx";
+import { LensBody } from "./components/LensPanel.jsx";
 import VolumeTimeline, { hasTimeline } from "./components/VolumeTimeline.jsx";
 import ContentsCard from "./components/ContentsCard.jsx";
 import StudyDock, { PANELS, useFilledPanels, useSheetDismissal, useHideOnScrollDown } from "./components/StudyDock.jsx";
@@ -958,6 +958,10 @@ export default function App() {
 
   const inlineSearch = home ? <div className="inline-search">{searchField}</div> : null;
 
+  // The lens controls, which now stand at the head of the commentary they
+  // govern rather than in a card of their own — see LensBody.
+  const lensBody = <LensBody lens={lens} setLens={setLens} book={book} chapter={chapter} />;
+
   // Narrow, the field itself is too wide to stand anywhere while a chapter is
   // being read, so it waits in the dock as the glyph alone and opens the real
   // one at the foot of the window. Standing in the dock rather than floating
@@ -1141,9 +1145,6 @@ export default function App() {
             <ChapterOverview book={book} chapter={chapter} volId={volId}
               collapsed={collapsed} onToggle={toggleCard} openFor={openFor} />
           </div>
-          <div className="lens-inline" data-panel="lenses">
-            <LensControls lens={lens} setLens={setLens} book={book} chapter={chapter} collapsed={collapsed} onToggle={toggleCard} />
-          </div>
           {/* Where this chapter sits in the book's arc. Renders itself away
               when the book has no captions written for it. Keyed by book: a
               new book should place its band without gliding there from the
@@ -1161,7 +1162,7 @@ export default function App() {
           </div>
           <div className="notes-inline" data-panel="notes">
             <CommentaryNotes book={book} chapter={chapter} lens={lens} volId={volId}
-              collapsed={collapsed} onToggle={toggleCard} />
+              collapsed={collapsed} onToggle={toggleCard} controls={lensBody} />
           </div>
           {/* Last in the column: the index of what the chapter points at. */}
           <div className="connections-box" data-panel="connections">
@@ -1178,11 +1179,8 @@ export default function App() {
           standing it takes the clicks meant for whatever is under it — which
           on a shelf or a study page is real content, not margin. */}
       <aside className="commentary-col" aria-label="Commentary column" hidden={!reading || !chapter}>
-        <div className="lens-box">
-          <LensControls lens={lens} setLens={setLens} book={book} chapter={chapter} collapsed={collapsed} onToggle={toggleCard} />
-        </div>
         <CommentaryNotes book={book} chapter={chapter} lens={lens} volId={volId}
-          collapsed={collapsed} onToggle={toggleCard} />
+          collapsed={collapsed} onToggle={toggleCard} controls={lensBody} />
       </aside>
 
       {/* Only while a chapter is on screen to find anything in. */}

@@ -107,8 +107,19 @@ export default function SearchBox({ onNavigate, onSearch, onFind, onOpenArticle,
   }, []);
 
   // Revealed by a button rather than by typing — take the caret.
+  //
+  // On a change of the key, never on arriving with one. The field is written
+  // once and placed in one of two spots — the bar at the top while a chapter is
+  // open, the middle of the page everywhere else — so moving between them
+  // unmounts it and mounts it again. Firing on mount meant that once the reader
+  // had opened the search even once, every step out of a chapter took the caret
+  // and, on a phone, threw the keyboard up over the page they had just asked
+  // for.
+  const lastKey = useRef(focusKey);
   useEffect(() => {
-    if (focusKey) inputRef.current?.focus();
+    if (focusKey === lastKey.current) return;
+    lastKey.current = focusKey;
+    inputRef.current?.focus();
   }, [focusKey]);
 
   // Typing anywhere starts a search. The keystroke happens on <body>, so

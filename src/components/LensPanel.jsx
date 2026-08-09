@@ -75,34 +75,27 @@ function Levels({ value, levels, onChange }) {
 // they share one card, and fold away by its heading like every other card in
 // the column. With no chapter open there is nothing to read through a lens,
 // and the card takes itself away as its neighbours do.
-export function LensControls({ lens, setLens, book, chapter, collapsed, onToggle }) {
+// The controls alone, with no card of their own: they stand at the head of the
+// commentary they govern. Two cards side by side asked the reader to hold that
+// the one above decides what the one below says — a thing the layout can simply
+// state by putting them in the same box, and which on a phone it could not
+// state at all, the two being separate sheets behind separate marks.
+export function LensBody({ lens, setLens, book, chapter }) {
   if (!chapter) return null;
   const levels = levelsFor(book);
   return (
-    <Card id="lenses" title="Analysis" label="Analysis lenses"
-      collapsed={!!collapsed?.has("lenses")} onToggle={onToggle}>
-      {/* No headings over either control: the segments are three names of the
-          same kind of thing and read as a choice on sight, and the row below
-          them is labelled by the word that says what it does. A heading over
-          each would be two more lines of small capitals saying what the
-          controls already say. */}
-      <div className="lens-groups">
-        <Worlds value={lens.world} onChange={(world) => setLens({ ...lens, world })} />
+    // No headings over either control: the segments are three names of the same
+    // kind of thing and read as a choice on sight, and the row below them is a
+    // scale read by its order. A heading over each would be two more lines of
+    // small capitals saying what the controls already say.
+    <div className="lens-groups">
+      <Worlds value={lens.world} onChange={(world) => setLens({ ...lens, world })} />
 
-        {/* Depth describes how to read the text itself; it has no meaning for
-            the world behind it or the world in front of it. */}
-        {lens.world === "text" && (
-          <Levels value={lens.level} levels={levels} onChange={(level) => setLens({ ...lens, level })} />
-        )}
-      </div>
-    </Card>
-  );
-}
-
-export default function LensPanel(props) {
-  return (
-    <aside className="lenses" aria-label="Commentary lenses">
-      <LensControls {...props} />
-    </aside>
+      {/* Depth describes how to read the text itself; it has no meaning for
+          the world behind it or the world in front of it. */}
+      {lens.world === "text" && (
+        <Levels value={lens.level} levels={levels} onChange={(level) => setLens({ ...lens, level })} />
+      )}
+    </div>
   );
 }

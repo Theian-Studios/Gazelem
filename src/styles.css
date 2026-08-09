@@ -100,19 +100,15 @@ a[x-apple-data-detectors] {
 
   .pill-step { display: none !important; }
 
-  /* The row spans the window rather than centring on its contents, so the
-     field can be given what the pill does not need instead of the two of them
-     sharing a middle. */
   .navdock { padding: 0 12px; }
 
   .dock-search {
-    display: flex; align-items: center; justify-content: center; gap: 7px;
-    /* Everything the pill leaves — which is the point of the pill giving up
-       its arrows. Capped so a tablet does not get a search bar the width of
-       the window for the sake of it. */
-    flex: 1 1 auto; min-width: 0; max-width: 280px;
+    display: grid; place-items: center;
+    /* The glyph alone, at the pill's own height so the two read as one row of
+       controls rather than a button parked beside a bar. */
+    flex: 0 0 auto;
+    width: 54px; height: 54px; border-radius: 999px;
     pointer-events: auto;
-    height: 54px; padding: 0 18px; border-radius: 999px;
     border: 1px solid rgba(255,255,255,.8);
     background: rgba(255,255,255,.74);
     backdrop-filter: blur(64px) saturate(200%);
@@ -120,15 +116,6 @@ a[x-apple-data-detectors] {
     box-shadow: 0 14px 40px rgba(31,45,71,0.10), 0 2px 6px rgba(31,45,71,0.04),
                 inset 0 1px 0 rgba(255,255,255,.92);
     color: #3a5a8c; cursor: pointer;
-    font-size: 13.5px; font-weight: 600;
-  }
-  /* The word is what makes it read as a field rather than another icon, but it
-     is the first thing to go: below this the pill's own trail is already using
-     every pixel, and the glass circle still says search on its own. */
-  .dock-search-label { white-space: nowrap; }
-  @media (max-width: 339.98px) {
-    .dock-search { padding: 0 16px; }
-    .dock-search-label { display: none; }
   }
 
   /* With the field open at the foot of the window the dock is behind it and
@@ -287,7 +274,7 @@ a[x-apple-data-detectors] {
    The panels stay mounted the whole time — this only decides what is on screen
    — so a sheet opens on what a panel has already fetched rather than starting
    it fetching, and a card the reader folded is still folded next time. */
-.sheet-bar, .contents-box { display: none; }
+.sheet-bar { display: none; }
 
 @media (max-width: 959.98px) {
   .side-extras {
@@ -307,7 +294,6 @@ a[x-apple-data-detectors] {
   /* One panel at a time — the marker that was pressed is the question being
      asked, and the rest of the stack is not an answer to it. */
   .side-extras[data-sheet] > [data-panel] { display: none; }
-  .side-extras[data-sheet="contents"] .contents-box,
   .side-extras[data-sheet="overview"] .overview-box,
   .side-extras[data-sheet="timeline"] .timeline-box,
   .side-extras[data-sheet="related"] .related-box,
@@ -338,15 +324,6 @@ a[x-apple-data-detectors] {
      panel, so the heading has nothing left to collapse. */
   .side-extras[data-sheet] .card-toggle { pointer-events: none; }
   .side-extras[data-sheet] .card-chevron { display: none; }
-  /* The chapter grid brings its own heading, which the sheet's bar has just
-     said — and its own top spacing, meant for the top of a page. */
-  .contents-box .pop > h2, .contents-box .pop > p { display: none; }
-}
-
-/* The grid of chapters is the compact layout's way out of a chapter. Wide,
-   that is the contents card's job and the sidebar is for the study panels. */
-@media (min-width: 960px) {
-  .contents-box { display: none !important; }
 }
 
 /* ---- The markers ---------------------------------------------------------
@@ -371,17 +348,20 @@ a[x-apple-data-detectors] {
     transform: translateY(-10px);
     pointer-events: none;
   }
-  .study-dot-group { display: flex; gap: 6px; }
-  /* Each side reads outward from its own corner, so the first marker on the
-     right is the one nearest the edge the thumb comes from. */
-  .study-dot-group[data-side="right"] { flex-direction: row-reverse; }
+  /* Down the edge rather than in from it: a column keeps the middle of the
+     window — which is the chapter — clear of everything but its first marker,
+     where a row would lay markers across the width of the text. */
+  .study-dot-group { display: flex; flex-direction: column; gap: 8px; }
 
   .study-dot {
     pointer-events: auto;
     display: grid; place-items: center;
-    width: 38px; height: 38px; border-radius: 999px;
+    width: 48px; height: 48px; border-radius: 999px;
     border: 1px solid rgba(255,255,255,.78);
-    background: rgba(255,255,255,.72);
+    /* Denser than the rest of the site's glass: these stand over running text
+       rather than over the page's own background, and a marker you can read
+       the chapter through is neither a marker nor a chapter. */
+    background: rgba(255,255,255,.9);
     backdrop-filter: blur(30px) saturate(190%);
     -webkit-backdrop-filter: blur(30px) saturate(190%);
     box-shadow: 0 6px 20px rgba(31,45,71,.10), 0 1px 2px rgba(31,45,71,.04),
@@ -390,10 +370,12 @@ a[x-apple-data-detectors] {
   }
 }
 
-/* The markers sit over the first lines of the chapter, so the card starts
-   below them rather than under them. */
+/* The topmost marker in each column sits where the card's own head would be,
+   so the card starts below it rather than under it. The rest of the column
+   hangs over the chapter by design — they are markers in the margin, and they
+   fade the moment the reader scrolls into the text. */
 @media (max-width: 959.98px) {
-  .content:has(~ .study-dock) { padding-top: 58px; }
+  .content:has(~ .study-dock) { padding-top: 66px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -1099,9 +1081,6 @@ mark.find-hit[data-current] {
   border-radius: 10px; padding: 9px 0; text-align: center; cursor: pointer;
   font-size: 13.5px; font-weight: 500; font-variant-numeric: oldstyle-nums;
 }
-/* Where the reader already is, in the grid they are leaving it from — the same
-   gold wash the contents card marks the open book with. */
-.chapter-cell[data-on] { background: rgba(164,133,61,.13); font-weight: 700; }
 /* Below the shelf and set off from it: a rule, so the eye reads them as a
    different kind of door rather than as the last few books of the volume. */
 .book-grid + .volume-sections {

@@ -897,19 +897,17 @@ export default function App() {
   const inlineSearch = home ? <div className="inline-search">{searchField}</div> : null;
 
   // Narrow, the field itself is too wide to stand anywhere while a chapter is
-  // being read, so it waits in the dock as a bar the width of the room left
-  // over beside the pill and opens the real one at the foot of the window.
-  // Standing in the dock rather than floating over it is what keeps it on the
-  // pill's line — see the .navdock rules.
+  // being read, so it waits in the dock as the glyph alone and opens the real
+  // one at the foot of the window. Standing in the dock rather than floating
+  // over it is what keeps it on the pill's line — see the .navdock rules.
   const searchButton = (
     <button className="tap dock-search" onClick={openSearch}
       aria-label="Search" aria-expanded={searchOpen}>
-      <svg aria-hidden viewBox="0 0 24 24" width="19" height="19" fill="none"
+      <svg aria-hidden viewBox="0 0 24 24" width="21" height="21" fill="none"
         stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
         <circle cx="11" cy="11" r="6.5" />
         <line x1="16" y1="16" x2="21" y2="21" />
       </svg>
-      <span className="dock-search-label">Search</span>
     </button>
   );
 
@@ -1076,16 +1074,6 @@ export default function App() {
             </button>
           </div>
 
-          {/* Only ever a marker: the chapter list is how you leave a chapter
-              now that the pill has no arrows, and it is wanted nowhere else.
-              The card in the margin is the wide screens' answer to the same
-              question and is shown instead of this, never beside it. */}
-          {chapter && book && (
-            <div className="contents-box" data-panel="contents">
-              <ChapterGrid volId={volId} book={book} current={chapIdx}
-                onOpen={(i) => { openChapterAt(bookIdx, book.chapters[i].n); closeSheet(); }} />
-            </div>
-          )}
           <div className="overview-box" data-panel="overview">
             <ChapterOverview book={book} chapter={chapter} volId={volId}
               collapsed={collapsed} onToggle={toggleCard} />

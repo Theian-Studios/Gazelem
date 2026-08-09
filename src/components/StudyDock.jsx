@@ -14,17 +14,9 @@ import { ink } from "../theme.js";
 // The right is what has been said about it — the notes, what it points at, and
 // the lens those are read through.
 const ICONS = {
-  // A shelf of books, the same mark the pill carries for the library.
-  contents: (
-    <svg width="17" height="15" viewBox="0 0 20 16" fill="currentColor" aria-hidden focusable="false">
-      <rect x="0.6" y="0.5" width="3.6" height="15" rx="1.7" />
-      <rect x="5.5" y="2.4" width="3.6" height="13.1" rx="1.7" />
-      <rect x="11.9" y="0.6" width="3.6" height="14.9" rx="1.7" transform="rotate(-14 13.7 15.5)" />
-    </svg>
-  ),
   // An open book: what the chapter is, before it is read.
   overview: (
-    <svg width="18" height="16" viewBox="0 0 18 16" fill="none" stroke="currentColor"
+    <svg width="21" height="19" viewBox="0 0 18 16" fill="none" stroke="currentColor"
       strokeWidth="1.5" strokeLinejoin="round" aria-hidden focusable="false">
       <path d="M9 3.6C7.5 2.3 5.4 1.8 2.5 2.2v10.2c2.9-.4 5 .1 6.5 1.4 1.5-1.3 3.6-1.8 6.5-1.4V2.2c-2.9-.4-5 .1-6.5 1.4Z" />
       <path d="M9 3.6v10.2" />
@@ -32,7 +24,7 @@ const ICONS = {
   ),
   // A line of time with a mark on it.
   timeline: (
-    <svg width="18" height="14" viewBox="0 0 18 14" fill="none" stroke="currentColor"
+    <svg width="21" height="17" viewBox="0 0 18 14" fill="none" stroke="currentColor"
       strokeWidth="1.6" strokeLinecap="round" aria-hidden focusable="false">
       <path d="M1.6 7h14.8" />
       <path d="M5 4.2v5.6M12.4 4.2v5.6" />
@@ -41,7 +33,7 @@ const ICONS = {
   ),
   // Two pages side by side: this chapter and the one it reads with.
   related: (
-    <svg width="17" height="16" viewBox="0 0 17 16" fill="none" stroke="currentColor"
+    <svg width="20" height="19" viewBox="0 0 17 16" fill="none" stroke="currentColor"
       strokeWidth="1.5" strokeLinejoin="round" aria-hidden focusable="false">
       <rect x="1.2" y="2.2" width="6.4" height="11.6" rx="1.6" />
       <rect x="9.4" y="2.2" width="6.4" height="11.6" rx="1.6" />
@@ -49,14 +41,14 @@ const ICONS = {
   ),
   // Ruled lines with one running short — a page that has been written on.
   notes: (
-    <svg width="17" height="16" viewBox="0 0 17 16" fill="none" stroke="currentColor"
+    <svg width="20" height="19" viewBox="0 0 17 16" fill="none" stroke="currentColor"
       strokeWidth="1.6" strokeLinecap="round" aria-hidden focusable="false">
       <path d="M2.5 3.5h12M2.5 8h12M2.5 12.5h7" />
     </svg>
   ),
   // Two points with a line drawn between them.
   connections: (
-    <svg width="17" height="16" viewBox="0 0 17 16" fill="none" stroke="currentColor"
+    <svg width="20" height="19" viewBox="0 0 17 16" fill="none" stroke="currentColor"
       strokeWidth="1.6" strokeLinecap="round" aria-hidden focusable="false">
       <circle cx="4" cy="4" r="2.4" />
       <circle cx="13" cy="12" r="2.4" />
@@ -67,7 +59,7 @@ const ICONS = {
   // drawn as a magnifying glass, which on this dock would be the search button
   // standing a few pixels away saying something else entirely.
   lenses: (
-    <svg width="17" height="16" viewBox="0 0 17 16" fill="none" stroke="currentColor"
+    <svg width="20" height="19" viewBox="0 0 17 16" fill="none" stroke="currentColor"
       strokeWidth="1.6" strokeLinecap="round" aria-hidden focusable="false">
       <path d="M2.4 4.6h12.2M2.4 11.4h12.2" />
       <circle cx="6.2" cy="4.6" r="2" fill="#fff" />
@@ -76,10 +68,10 @@ const ICONS = {
   ),
 };
 
-// Order within a side is the order they are wanted in: the contents first,
-// because it is how you leave the chapter, then the chapter's own furniture.
+// Three a side, each column reading downward from its own corner in the order
+// the chapter wants them: what it is, when it was, what it reads with — then
+// what has been said about it, what it points at, and how those are read.
 export const PANELS = [
-  { id: "contents", title: "Contents", side: "left" },
   { id: "overview", title: "Overview", side: "left" },
   { id: "timeline", title: "Timeline", side: "left" },
   { id: "related", title: "Related", side: "left" },
@@ -171,9 +163,10 @@ function Circle({ panel, onOpen }) {
   );
 }
 
-// The two clusters of markers. Rendered as one element per side so each hugs
-// its own corner, rather than one row spanning the window with a gap in the
-// middle that the chapter would have to be narrow enough to clear.
+// The two columns of markers, one down each edge. Rendered as one element per
+// side so each hugs its own corner, rather than one row spanning the window
+// with a gap in the middle that the chapter would have to be narrow enough to
+// clear.
 export default function StudyDock({ filled, onOpen }) {
   const hidden = useHideOnScrollDown();
   const shown = PANELS.filter((p) => filled.has(p.id));

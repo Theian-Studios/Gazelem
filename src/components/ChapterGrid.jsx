@@ -1,10 +1,6 @@
 import { glass, ink, inkSoft } from "../theme.js";
 
-// `current` is only ever passed where the grid is standing in for a chapter
-// that is already open — the compact layout's contents sheet, which is how a
-// reader leaves one chapter for another. On a book's own page there is no
-// current chapter to mark.
-export default function ChapterGrid({ volId, book, sections = [], search, current, onOpen }) {
+export default function ChapterGrid({ volId, book, sections = [], search, onOpen }) {
   // The D&C is titled but not subtitled, so its heading carries the whole gap
   // itself rather than leaving the 6px that a following line would close up.
   const subtitle = volId !== "dc" && book.fullTitle;
@@ -28,7 +24,6 @@ export default function ChapterGrid({ volId, book, sections = [], search, curren
       <div className="chapter-grid">
         {book.chapters.map((c, i) => (
           <button key={c.n} className="tap popin chapter-cell" onClick={() => onOpen(i)}
-            data-on={i === current || undefined} aria-current={i === current ? "page" : undefined}
             style={{ ...glass, color: ink, animationDelay: `${Math.min(i * 5, 156)}ms` }}>
             {c.n}
           </button>

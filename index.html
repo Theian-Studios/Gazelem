@@ -12,6 +12,13 @@
     <meta name="description" content="Read the standard works from public-domain editions, with reference search and layered study notes." />
     <meta name="theme-color" content="#eef1f5" />
 
+    <!-- Scripture is dense with things iOS reads as data: "1:30", "A.D. 34",
+         long runs of verse numbers. Left alone Safari turns them into links and
+         paints them in the phone's tint, so a verse arrives half blue for no
+         reason the reader can see. Nothing here is meant to be dialled or put
+         in a calendar, so the detectors are off across the board. -->
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+
     <!-- The letter, drawn once as a vector and once as pixels. Browsers take the
          SVG where they can and the PNG where they cannot, which is what keeps
          the mark from falling back to a blank page glyph in Safari. -->

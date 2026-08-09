@@ -3,6 +3,17 @@
 * { box-sizing: border-box; }
 body { margin: 0; }
 
+/* The format-detection meta in index.html turns iOS's data detectors off, but a
+   page opened through an in-app browser can still arrive with them applied. Any
+   that get through are held to the surrounding text rather than the phone's
+   tint — gold means a link the reader can follow, and these are not that. */
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font: inherit !important;
+  pointer-events: none;
+}
+
 /* ---- The small-print scale ----------------------------------------------
    Four sizes for everything under the body text, so the same kind of thing is
    the same size wherever it stands:

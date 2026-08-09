@@ -108,10 +108,53 @@ const MISREADINGS = new Map(Object.entries({
   NephI: "Nephi", LamanItes: "Lamanites", Lamanltes: "Lamanites",
   Jesns: "Jesus", Ood: "God", Gk: "God", Grod: "God",
   tbe: "the", tlie: "the", tho: "the", aud: "and", aiid: "and",
+
+  // Letters the scan confuses in one word only. Each was found by listing every
+  // token in the finished text carrying an OCR signature — a capital inside a
+  // word, a figure fused to letters — and keeping those whose reading is not in
+  // question. Ordinals ("11th", "52nd") carry the same signature and are real,
+  // so nothing here is derived from the shape alone.
+  flUed: "filled", bodIes: "bodies", boW: "bow", doWn: "down", smaU: "small",
+  swaUowed: "swallowed", behoM: "behold", whicA: "which", whItJh: "which",
+  tJhe: "the", thJe: "the", cTannot: "cannot", inBomuch: "insomuch",
+  aflBictions: "afflictions", justlfletB: "justifieth", temptAtlon: "temptation",
+  sufCerIng: "suffering", coD8istlng: "consisting", engrayingB: "engravings",
+  dlBsensions: "dissensions", increasB: "increase", envyIngs: "envyings",
+  deBtruction: "destruction", decFared: "declared", difUcuIt: "difficult",
+  eplBtle: "epistle", provislonR: "provisions", unquencJhable: "unquenchable",
+  stuSied: "studied", thBft: "theft", IncluHlve: "inclusive",
+  judgmLcnts: "judgments", suflSce: "suffice", suflScient: "sufficient",
+  chain8: "chains", record8: "records", l3st: "last", U8: "us", An4: "And",
+  m7: "my", sa5dng: "saying", wTitten: "written", "2ofFend": "offend",
+  // Names, on the same terms.
+  MantI: "Manti", AbinadI: "Abinadi", AmuIon: "Amulon", CumenI: "Cumeni",
+  MoToni: "Moroni", AmalekItes: "Amalekites", AmulonItes: "Amulonites",
+  GospeP: "Gospel",
+  // Words the scan ran together. Split only where the join is between two
+  // whole words and the reading is not in question.
+  theLamanites: "the Lamanites", theNephites: "the Nephites",
+  NowAmmon: "Now Ammon", wereMulek: "were Mulek", NewYork: "New York",
+  OliverCowdery: "Oliver Cowdery", AndafterI: "And after I",
+  andalsoZarahemla: "and also Zarahemla", yehavedonegreater: "ye have done greater",
 }));
 
+// Book names as the running head prints them. A head that the column-splitter
+// let through lands in the middle of a sentence — "knew that God ENOS. could
+// not lie" — and is the one kind of stray capital run that can be taken out on
+// sight, since it is not a word of scripture in any edition.
+const RUNNING_HEADS = new RegExp(
+  String.raw`\s\b(?:` +
+  ["NEPHI","JACOB","ENOS","JAROM","OMNI","MORMON","MOSIAH","ALMA","HELAMAN",
+   "ETHER","MORONI","MOSES","ABRAHAM","GENESIS","MATTHEW","THE BOOK OF"].join("|") +
+  String.raw`)\.(?=\s)`, "g");
+
 const tidy = (t) => t
-  .replace(/[“”"'‘’*^|]+/g, "")   // superscript footnote letters became stray glyphs
+  .replace(/[“”"'‘’*^|■□•«»]+/g, "")   // superscript footnote letters became stray glyphs
+  // A running head the column-splitter let through, mid-sentence.
+  .replace(RUNNING_HEADS, "")
+  // A word broken across a line keeps its hyphen when the halves are rejoined
+  // the other way round, leaving it hanging off the front: "my -firstborn".
+  .replace(/(^|\s)-(?=[a-z])/g, "$1")
   // The scan reads a lowercase letter as a capital mid-sentence ("go forth
   // Into the wilderness", "Thou Shalt construct"). Only these words are
   // lowered, so proper nouns like Israel, Isaiah and Ishmael are untouched.
@@ -124,10 +167,121 @@ const tidy = (t) => t
   // come off; single letters are left alone, since stripping them would be
   // guesswork ("amy church" is indistinguishable from a real word).
   .replace(/\b\d([a-z]{2,})\b/g, "$1")
-  .replace(/[A-Za-z]+/g, (w) => MISREADINGS.get(w) ?? w)
-  .replace(/\s+([,.;:!?])/g, "$1")
+  // Tokens are matched with their figures, so a misreading that fused one on
+  // ("U8", "l3st") is looked up whole rather than as its letters alone.
+  .replace(/[A-Za-z0-9]+/g, (w) => MISREADINGS.get(w) ?? w)
+  // Only the marks that really do follow a word without a space. A ! or ? left
+  // standing alone is the scan's reading of a letter — "But •! will put" is
+  // "But I will put" — and tucking it up against the word before makes a
+  // sentence of it that the page does not have.
+  .replace(/\s+([,.;:])/g, "$1")
   .replace(/\s+/g, " ")
   .trim();
+
+// ---- Footnote keys fused to the word after them ---------------------------
+//
+// The printings key their footnotes with small letters and figures set tight
+// against the word they mark, and the scan fuses them on: "called him
+// 26Michael", "and to 2Aordain", "in dZion". By shape alone these cannot be
+// separated — "26Michael" is a key and a name, "2Mheavenly" is a key ending in
+// a capital and a plain word, and "11th" is neither. What tells them apart is
+// whether what would be left is a word at all.
+//
+// So the edition being used as the map of where verses belong is asked one
+// further question: is this a word scripture uses? Its answer decides whether a
+// prefix comes off. None of its wording is written out here either — a word is
+// only ever removed from the scan's own text, never replaced by the modern
+// one — and where the answer is no, the token stands exactly as scanned.
+let VOCAB = null;
+
+const learnVocabulary = (texts) => {
+  VOCAB = new Set();
+  for (const t of texts) for (const w of t.toLowerCase().match(/[a-z]+/g) || []) VOCAB.add(w);
+};
+
+const unfuse = (text) => {
+  if (!VOCAB) return text;
+  return text.replace(/\b[0-9A-Za-z]{3,}\b/g, (token) => {
+    // Only tokens that carry a key's signature: opening with a figure, or a
+    // lowercase letter standing in front of a capitalised word.
+    // An ordinal opens with a figure and is a word of the text — "the 19th day",
+    // "the 52nd section" — so it is never a key.
+    if (/^\d{1,4}(?:st|nd|rd|th)$/i.test(token)) return token;
+    const keyed = /^\d/.test(token) || /^[a-z][A-Z]/.test(token) || /^w[T7][a-z]/.test(token);
+    if (!keyed || VOCAB.has(token.toLowerCase())) return token;
+    // The scan doubles a capital W into "wT" — "Trifle not wTith sacred
+    // things". Taken here rather than by shape, so a "wTitten" that has also
+    // lost a letter is left visibly wrong instead of quietly made into a word
+    // the page does not have.
+    if (/^w[T7]/.test(token)) {
+      const w = "w" + token.slice(2);
+      return VOCAB.has(w.toLowerCase()) ? w : token;
+    }
+    // Shortest prefix that leaves a word behind, so "26Michael" gives up "26"
+    // rather than "26M", and "2Mheavenly" gives up the "2M" it has to.
+    for (let cut = 1; cut <= 3 && cut < token.length - 1; cut++) {
+      const rest = token.slice(cut);
+      if (/^[A-Za-z]{3,}$/.test(rest) && VOCAB.has(rest.toLowerCase())) return rest;
+    }
+    return token;
+  });
+};
+
+// ---- Apparatus that landed inside a sentence -------------------------------
+//
+// The cross references are printed at the foot of each page in a dense block of
+// abbreviations, and where a line of it shares a line with prose the splitter
+// carries it into the verse: "that ye may learn of me 2k, aei a, 1 Ne. 2. Chap.
+// 88: a. we, 2 No. 1 ... that there is no other way". The reader is left with a
+// paragraph of gibberish in the middle of a sentence.
+//
+// A run is only taken out when doing so can be shown to be right: the verse is
+// scored against the edition used as the map, with the run and without it, and
+// the run goes only if its absence brings the verse materially closer to the
+// text it is supposed to be. That is a measurement, not a judgement about what
+// the words ought to say — and it cannot quietly delete scripture, because
+// deleting scripture moves the score the other way.
+const FURNITURE = (t) => {
+  const s = t.replace(/^[^\w]+|[^\w]+$/g, "");
+  if (!s) return true;
+  if (/^\d+$/.test(s)) return true;                              // a bare figure
+  if (/^\d+[:.\-]\d*$/.test(s)) return true;                     // 10:6, 88:
+  if (/^[A-Za-z]{1,3}$/.test(s)) return true;                    // a, d, ft, see-variants
+  if (/^\d{0,2}[A-Za-z]{1,2}\d{0,2}$/.test(s)) return true;      // 2k, A1, 4n
+  if (/[^\x20-\x7E]/.test(t)) return true;                       // the scan's own marks
+  if (/^(?:vers?|chap|see|sec|sea|lee|ice|noe|tee|aee|nee|bee|soo|mo|wo|we|me)\.?$/i.test(s)) return true;
+  if (/^(?:\d\s*)?[A-Z][a-z]{0,4}$/.test(s) && /[.,]$/.test(t)) return true;  // Ne. Al. Morm.
+  return false;
+};
+
+function stripApparatus(text, reference) {
+  if (!reference) return text;
+  const w = text.split(/\s+/);
+  let best = text, bestScore = similarity(text, reference);
+  for (let i = 0; i < w.length; i++) {
+    if (!FURNITURE(w[i])) continue;
+    let j = i;
+    while (j < w.length && FURNITURE(w[j])) j++;
+    // Short words of the text look like apparatus by shape — "of", "me", "we" —
+    // and a run that begins or ends on one would carry it off with the noise
+    // ("ye may learn of me ⟦…⟧" losing its "of me"). Inside the run they are
+    // left be, since the apparatus is full of the same two letters; at its
+    // edges the run gives them back.
+    let a = i, b = j;
+    const real = (t) => VOCAB?.has(t.replace(/[^A-Za-z]/g, "").toLowerCase());
+    while (a < b && real(w[a])) a++;
+    while (b > a && real(w[b - 1])) b--;
+    // A run must end inside the verse — prose after it is what says the
+    // sentence was interrupted rather than that the verse ends in a reference.
+    if (b - a >= 4 && b < w.length) {
+      const without = [...w.slice(0, a), ...w.slice(b)].join(" ");
+      const score = similarity(without, reference);
+      if (score > bestScore + 0.02) { best = without; bestScore = score; }
+    }
+    i = j;
+  }
+  return best === text ? text : stripApparatus(best, reference);
+}
 
 function readScan(path, startRe, endRe) {
   const lines = readFileSync(path, "utf8").split("\n");
@@ -197,7 +351,7 @@ function placeChapter(window, reference, gapPenalty = -0.35) {
 const chapterOf = (book, n, verses) => ({
   chapter: n,
   reference: `${book} ${n}`,
-  verses: verses.map((text, i) => ({ verse: i + 1, reference: `${book} ${n}:${i + 1}`, text })),
+  verses: verses.map((text, i) => ({ verse: i + 1, reference: `${book} ${n}:${i + 1}`, text: unfuse(text) })),
 });
 
 function writeVolume(file, books) {
@@ -224,6 +378,7 @@ async function buildFromScan({ label, path, startRe, endRe, books, guideFile, ou
     guide[b.book] = {};
     for (const ch of b.chapters) guide[b.book][ch.chapter] = ch.verses.map((v) => v.text);
   }
+  learnVocabulary(Object.values(guide).flatMap((ch) => Object.values(ch).flat()));
 
   let cursor = 0, placed = 0;
   const gaps = [];
@@ -237,7 +392,8 @@ async function buildFromScan({ label, path, startRe, endRe, books, guideFile, ou
       const { slots, consumed } = placeChapter(window, reference);
       cursor += consumed;
       slots.forEach((t, i) => { if (t) placed++; else gaps.push(`${book} ${c}:${i + 1}`); });
-      chapters.push(chapterOf(book, c, slots.map((t) => t || MISSING)));
+      const cleaned = slots.map((t, i) => (t ? stripApparatus(t, reference[i]) : t));
+      chapters.push(chapterOf(book, c, cleaned.map((t) => t || MISSING)));
     }
     built.push({ book, chapters });
   }
@@ -274,6 +430,7 @@ async function buildSections({ label, path, startRe, endRe, outFile }) {
   const modern = await (await fetch("https://cdn.jsdelivr.net/gh/bcbooks/scriptures-json@master/doctrine-and-covenants.json")).json();
   const guide = {};
   for (const s of modern.sections) guide[s.section] = s.verses.map((v) => v.text);
+  learnVocabulary(Object.values(guide).flat());
 
   let cursor = 0, placed = 0;
   const gaps = [], absent = [];
@@ -294,7 +451,7 @@ async function buildSections({ label, path, startRe, endRe, outFile }) {
     sections.push({
       section: n,
       reference: `D&C ${n}`,
-      verses: slots.map((t, i) => ({ verse: i + 1, reference: `D&C ${n}:${i + 1}`, text: t || (empty ? NOT_IN_EDITION : MISSING) })),
+      verses: slots.map((t, i) => ({ verse: i + 1, reference: `D&C ${n}:${i + 1}`, text: t ? unfuse(stripApparatus(t, reference?.[i])) : (empty ? NOT_IN_EDITION : MISSING) })),
     });
   }
 

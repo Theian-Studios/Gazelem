@@ -1,8 +1,10 @@
 // Study notes live as markdown in src/data/commentary, one file per chapter
-// (`alma-34.md`). They are parsed into the two axes the lens panel controls:
+// (`alma-34.md`). Their headings become the axis the lens panel controls:
 //
 //   ## DEPTH: <NAME> LEVEL   →  Level of Analysis  (BOOK reads as "Block")
-//   - [ALMA] / [BOM] / [SW]  →  Breadth of Cross Connections, cumulative
+//
+// Cross references carry a scope tag ([ALMA] / [BOM] / [SW]) naming how far
+// afield they reach; every scope is shown.
 //
 // Vite inlines every match at build time, so no network fetch is involved.
 import { targetVerses } from "./refs.js";
@@ -27,16 +29,6 @@ const DEPTH_TO_LEVEL = {
 };
 
 const SCOPES = ["ALMA", "BOM", "SW"];
-
-// Breadth is cumulative outward: the book alone, then the whole volume, then
-// the wider standard works.
-const BREADTH_SCOPES = {
-  book: ["ALMA"],
-  volume: ["ALMA", "BOM"],
-  all: ["ALMA", "BOM", "SW"],
-};
-
-export const scopesFor = (breadth) => BREADTH_SCOPES[breadth] || BREADTH_SCOPES.all;
 
 // Strip the emphasis markers and inline scope tags; the tags are structure, not
 // prose, and the panel shows scope as a chip instead.
@@ -152,8 +144,8 @@ function parseWorldSection(text) {
     .filter((g) => g.entries.length);
 }
 
-// The trailing "## CONNECTION INDEX" regroups every reference by scope, which
-// is exactly the axis the breadth rings control — so it becomes its own section.
+// The trailing "## CONNECTION INDEX" regroups every reference by scope; the
+// whole index becomes its own section, every scope included.
 function parseConnections(md) {
   // The scope lists may sit under a "## CONNECTION INDEX" heading or stand on
   // their own; either way it is the "### Scope: [X]" headings that matter.
@@ -161,13 +153,8 @@ function parseConnections(md) {
   const out = {};
   const parts = idx.split(/^###\s+Scope:\s*\[(ALMA|BOM|SW)\]\s*$/m);
   for (let i = 1; i < parts.length; i += 2) {
-    out[parts[i]] = parts[i + 1]
-      .split("\n")
-      .map((l) => l.trim())
-      .filter((l) => /^-\s+/.test(l))
-      .map((l) => clean(l.replace(/^-\s+/, "")))
-      .filter(Boolean)
-      .map((text) => {
+    out[parts[i]] = bullets(parts[i + 1])
+      .map(({ text, targets }) => {
         // Alma 1:13–14, 18 → 34:11 w28–29 "our law," — the capital statute…
         //                    ^ch ^v  ^word span  ^quote   ^gloss
         const [source, rest = ""] = text.split(/\s*→\s*/);
@@ -186,6 +173,7 @@ function parseConnections(md) {
             quote: m[5],
             gloss,
             snippet: snippet ? (snippet[1] || snippet[2]) : null,
+            targets,
             target: `${m[1]}:${m[2]}`,
           };
         }
@@ -194,6 +182,7 @@ function parseConnections(md) {
         return {
           text,
           source: source.trim(),
+          targets,
           target: rest.replace(/\s*\([^)]*\)\s*$/, "").trim(),
           gloss: gloss ? gloss[1] : "",
         };
@@ -202,10 +191,41 @@ function parseConnections(md) {
   return out;
 }
 
+// A scope list read as bullets. An entry stands at the margin; the indented
+// "- target:" lines under it name the verse it points at and quote the wording
+// the two places share, and belong to the entry above rather than standing as
+// entries of their own — which is what they were read as while the line was
+// trimmed before its indentation could be seen, and each of them then dropped
+// for having no verse.
+function bullets(block) {
+  const out = [];
+  for (const line of block.split("\n")) {
+    const m = line.match(/^(\s*)-\s+(.+)$/);
+    if (!m) continue;
+    const text = clean(m[2]);
+    if (!text) continue;
+    const under = m[1] && text.match(/^target:\s*(.*)$/i);
+    if (!under) { out.push({ text, targets: [] }); continue; }
+    if (!out.length) continue;
+    // "Alma 1:18 w22–28 "he that murdered was punished unto death.""
+    const q = under[1].match(/^(.*?)\s*"([^"]*)"\s*$/);
+    out[out.length - 1].targets.push({
+      label: (q ? q[1] : under[1]).replace(/\s+w\d+(?:\s*[–—-]\s*\d+)?$/, "").trim(),
+      quote: q ? q[2] : "",
+    });
+  }
+  return out;
+}
+
 // "## CHAPTER METADATA" holds three labelled bullet lists — Speaker(s),
 // Audience, Principles — that describe the chapter rather than comment on it,
 // so they become their own overview panel instead of a depth level.
-const META_FIELDS = { "speaker(s)": "speakers", speakers: "speakers", speaker: "speakers", audience: "audience", principles: "principles" };
+const META_FIELDS = {
+  "speaker(s)": "speakers", speakers: "speakers", speaker: "speakers",
+  audience: "audience",
+  location: "location", place: "location", setting: "location",
+  principles: "principles", principle: "principles",
+};
 
 // Each field may be written either as prose or as a bullet list, and a list may
 // carry one level of nesting (the voices quoted inside a speaker's discourse),
@@ -330,14 +350,14 @@ export function entryVerse(title) {
 // Connections grouped by the verse of THIS chapter they point at, so the reader
 // can mark them in the margin. Entries whose target is a chapter- or book-level
 // note ("book note 6") have no verse and are left out.
-export function connectionsByVerse(data, chapterN, breadth) {
+export function connectionsByVerse(data, chapterN) {
   const map = new Map();
   if (!data) return map;
   const add = (v, c) => {
     if (!map.has(v)) map.set(v, []);
     map.get(v).push(c);
   };
-  for (const scope of scopesFor(breadth)) {
+  for (const scope of SCOPES) {
     for (const c of data.connections[scope] || []) {
       // A word-anchored entry names its verse outright; anything older falls
       // back to reading verse numbers out of the target string.
@@ -351,13 +371,11 @@ export function connectionsByVerse(data, chapterN, breadth) {
   return map;
 }
 
-// Every connection in the chosen breadth, in verse order — the order the
-// sidebar lists them and the order the reader scrolls past them.
-export function orderedConnections(data, breadth) {
+// Every connection, in verse order — the order the sidebar lists them and the
+// order the reader scrolls past them.
+export function orderedConnections(data) {
   if (!data) return [];
-  const scopes = new Set(scopesFor(breadth));
   return Object.entries(data.connections)
-    .filter(([scope]) => scopes.has(scope))
     .flatMap(([scope, list]) => list.map((c) => ({ ...c, scope })))
     .filter((c) => c.verse != null)
     .sort((a, b) => a.verse - b.verse || a.words[0] - b.words[0]);

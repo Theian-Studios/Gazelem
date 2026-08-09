@@ -4,10 +4,15 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "predev": "node scripts/build-manifest.mjs",
     "dev": "vite",
+    "prebuild": "node scripts/build-manifest.mjs && node scripts/build-search-index.mjs",
     "build": "vite build",
     "preview": "vite preview",
     "build:scriptures": "node scripts/build-scriptures.mjs",
+    "build:search": "node scripts/build-search-index.mjs",
+    "build:manifest": "node scripts/build-manifest.mjs",
+    "build:map": "node scripts/build-map.mjs",
     "check:summaries": "node scripts/check-summaries.mjs",
     "extract:summaries": "node scripts/extract-summaries.mjs"
   },

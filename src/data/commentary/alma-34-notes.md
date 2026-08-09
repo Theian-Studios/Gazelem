@@ -4,9 +4,9 @@
 
 - **Analysis depth** — the five `## DEPTH:` sections map to the site's depth
   selector: word | phrase | verse | chapter | book (of Alma).
-- **Connection breadth** — every cross-reference carries one scope tag:
+- **Connection scope** — every cross-reference carries one scope tag:
   `[ALMA]` (within Alma), `[BOM]` (elsewhere in the Book of Mormon), `[SW]`
-  (the wider standard works). Breadth is cumulative: alma → +bom → +standard works.
+  (the wider standard works). All three are shown; the tag only records reach.
 - Each note is anchored with `(v. N)` / `(vv. N–M)`. Word/phrase headings quote
   the exact string as it appears in the chapter text. The connection index at
   the end regroups every reference by scope.
@@ -21,9 +21,10 @@
   TEXT` (historical, geographic, political, and cultural context) before them,
   and `## WORLD IN FRONT OF THE TEXT` (applications and reflection questions)
   after them. Reflection questions carry verse anchors like every other note.
-- `## CHAPTER METADATA` holds quick-reference fields: Speakers (with verse
-  ranges, indentation marking a voice quoted within another speaker's words),
-  Audience, and Principles (keyword list).
+- `## CHAPTER METADATA` holds four quick-reference fields: Speakers (main
+  speaker(s) only — not the abridging narrator or voices quoted within a
+  sermon), Audience (the primary audience, plainly stated), Location (1–3
+  words), and Principles (3–7 keywords).
 
 Chapter context: Amulek's discourse to the poor among the Zoramites, immediately
 following Alma's seed sermon (Alma 32) and his Zenos/Zenock citations (Alma 33).
@@ -34,16 +35,16 @@ About 74 BC — the second half of a two-witness sermon pair.
 ## CHAPTER METADATA
 
 **Speakers:**
-- Mormon (v. 1)
-- Amulek (vv. 2–41)
-  - Zenos, Zenock, Moses (cited as witnesses, v. 7)
-  - Lord (quoted, v. 36)
+Amulek
 
 **Audience:**
-The poor Zoramites on Onidah (primary); Alma and the mission companions present (v. 1); the ruling Zoramites, who hear of it after (Alma 35:1–6)
+The poor Zoramites
+
+**Location:**
+Antionum
 
 **Principles:**
-Atonement, Faith, Repentance, Justice and Mercy, Prayer, Charity, Probation, Procrastination, Worship, Thanksgiving, Patience, Hope
+Atonement, Faith, Repentance, Prayer, Charity, Probation
 
 ---
 

@@ -13,11 +13,25 @@ function LibraryIcon() {
   );
 }
 
+// Stacked rules with a marked line: the study panels, as an annotated page.
+function NotesIcon() {
+  return (
+    <svg width="17" height="16" viewBox="0 0 17 16" aria-hidden focusable="false"
+      fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round">
+      <path d="M2.5 3.5h12M2.5 8h12M2.5 12.5h7" />
+    </svg>
+  );
+}
+
 // The floating dock: ‹ › page through chapters, and the trail between them
 // climbs the hierarchy — library · volume · book.
-export default function NavPill({ trail = [], chapter, atStart, atEnd, onPrev, onNext, onBack }) {
+//
+// Its layout lives in styles.css rather than here: an inline `display` would
+// outrank the rule that takes the dock away on the wide views where the
+// contents card says all of this and more.
+export default function NavPill({ trail = [], chapter, atStart, atEnd, onPrev, onNext, onStudy, onBack }) {
   return (
-    <nav className="navdock" style={{ zIndex: 30, display: "flex", justifyContent: "center", pointerEvents: "none" }}>
+    <nav className="navdock">
       <div style={{ ...glassPill, display: "flex", alignItems: "center", gap: 4, padding: 6, pointerEvents: "auto" }}>
         {/* Only present once a cross reference has been followed. */}
         {onBack && (
@@ -50,6 +64,14 @@ export default function NavPill({ trail = [], chapter, atStart, atEnd, onPrev, o
             )}
           </Fragment>
         ))}
+        {/* Only while the panels are in the page's own scroll: above that width
+            they are a column of their own, already in view. CSS hides it. */}
+        {chapter && onStudy && (
+          <button className="tap pill-study" onClick={onStudy} aria-label="Study panels" title="Study panels"
+            style={{ border: 0, background: "transparent", borderRadius: 999, width: 42, height: 42, color: ink, cursor: "pointer", placeItems: "center" }}>
+            <NotesIcon />
+          </button>
+        )}
         {chapter && (
           <button className="tap" onClick={onNext} disabled={atEnd} aria-label="Next chapter"
             style={{ border: 0, background: atEnd ? "transparent" : "rgba(255,255,255,.5)", borderRadius: 999, width: 42, height: 42, fontSize: 18, color: atEnd ? "rgba(110,110,115,.35)" : blue, cursor: atEnd ? "default" : "pointer", display: "grid", placeItems: "center" }}>

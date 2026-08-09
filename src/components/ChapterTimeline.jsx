@@ -1,5 +1,5 @@
-import { useEffect, useMemo, useRef } from "react";
-import { captionsFor } from "../lib/timeline.js";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { volumeStops } from "../lib/timeline.js";
 import Card from "./Card.jsx";
 
 // The chapter band: every chapter of the whole volume as a numbered stop with
@@ -14,28 +14,21 @@ export default function ChapterTimeline({ volId, volumeTitle, books, book, chapt
   // the band travelling to its new position.
   const settled = useRef(false);
 
-  // One flat list for the volume. The D&C has no book level — its single
-  // "book" is called Sections in the data, while its captions are filed under
-  // the volume's name.
-  const stops = useMemo(() => {
-    const list = [];
-    (books || []).forEach((b, bookIdx) => {
-      const captions = captionsFor(volId === "dc" ? "Doctrine and Covenants" : b.name);
-      if (!captions) return;
-      b.chapters.forEach((c, i) => {
-        list.push({
-          bookIdx,
-          bookName: b.name,
-          // Only the first chapter of a book carries its name, so the label
-          // appears once at the join rather than against every stop.
-          opensBook: i === 0,
-          n: c.n,
-          caption: captions.get(c.n) || "",
-        });
-      });
-    });
-    return list;
-  }, [books, volId]);
+  // One flat list for the volume — the same thread the volume's timeline page
+  // lays out in full, built in lib/timeline.js so the two cannot diverge.
+  const stops = useMemo(() => volumeStops(volId, books), [books, volId]);
+
+  // Which edges of the band still have chapters beyond them. The fade at an
+  // edge is what says the list carries on; at the first chapter of a volume
+  // there is nothing above, and fading there only greys out the book's name.
+  const [fade, setFade] = useState("none");
+  const syncFade = useCallback(() => {
+    const box = scroller.current;
+    if (!box) return;
+    const above = box.scrollTop > 4;
+    const below = box.scrollTop + box.clientHeight < box.scrollHeight - 4;
+    setFade(above && below ? "both" : above ? "top" : below ? "bottom" : "none");
+  }, []);
 
   const chapterN = chapter?.n;
   const bookName = book?.name;
@@ -61,6 +54,9 @@ export default function ChapterTimeline({ volId, volumeTitle, books, book, chapt
       const glide = settled.current && !wasFolded.current && !still && !far;
       box.scrollTo({ top, behavior: glide ? "smooth" : "auto" });
       settled.current = true;
+      // The glide arrives later; the listener below catches its end, this
+      // catches a jump.
+      syncFade();
       return true;
     };
 
@@ -71,7 +67,16 @@ export default function ChapterTimeline({ volId, volumeTitle, books, book, chapt
     const ro = new ResizeObserver(() => { if (place()) ro.disconnect(); });
     ro.observe(box);
     return () => ro.disconnect();
-  }, [chapterN, bookName, stops, folded]);
+  }, [chapterN, bookName, stops, folded, syncFade]);
+
+  // Follows the band wherever it comes to rest, including the end of a glide.
+  useEffect(() => {
+    const box = scroller.current;
+    if (!box) return;
+    syncFade();
+    box.addEventListener("scroll", syncFade, { passive: true });
+    return () => box.removeEventListener("scroll", syncFade);
+  }, [syncFade, stops, folded]);
 
   if (!stops.length || !chapter || !book) return null;
 
@@ -79,14 +84,17 @@ export default function ChapterTimeline({ volId, volumeTitle, books, book, chapt
   const title = volumeTitle || book.name;
 
   return (
-    <Card id="timeline" title={`Timeline · ${title}`} label={`${unit} timeline`}
+    <Card id="timeline" title="Timeline" label={`${unit} timeline`}
+      /* Nearly opaque, like the overview: the band is a drawn thread of rules
+         and dots, and the page's gradient reads through plainer glass. */
+      style={{ background: "rgba(255,255,255,0.93)" }}
       collapsed={folded} onToggle={onToggle}>
-      {/* data-more turns on the edge fades once there is something to scroll to. */}
-      <div className="ct-scroll" ref={scroller} data-more={stops.length > 7}>
+      {/* data-fade names the edges that have chapters past them, and only
+          those are faded — see .ct-scroll in styles.css. */}
+      <div className="ct-scroll" ref={scroller} data-fade={fade}>
         <nav className="chapter-timeline" aria-label={`${unit}s of ${title}`}>
-          {/* Runs the full height of the list, so it passes beyond the first and
-              last visible stop instead of stopping at them. */}
-          <span className="ct-line" aria-hidden />
+          {/* The rule is drawn by the rows themselves (see styles.css), so a
+              section title leaves a gap in it rather than covering it over. */}
           {stops.map((s) => {
             const on = s.bookName === book.name && s.n === chapter.n;
             return (
@@ -95,6 +103,12 @@ export default function ChapterTimeline({ volId, volumeTitle, books, book, chapt
                     beside the rule so the thread is unbroken across the join. */}
                 {s.opensBook && !book.isSections && (
                   <p className="ct-book" aria-hidden>{s.bookName}</p>
+                )}
+                {/* The narrative run this chapter opens. Sits below the book's
+                    name where both fall together, so the wider frame is read
+                    first. */}
+                {s.opensSection && (
+                  <p className="serif ct-section" aria-hidden>{s.opensSection}</p>
                 )}
                 <button
                   className="ct-stop"

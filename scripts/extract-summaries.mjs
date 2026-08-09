@@ -259,6 +259,23 @@ const CORRECTIONS = [
   // "t he" is never valid English, but the merge pass can't fix it: "he" is a
   // function word, and exempting those would let "h and" become "hand".
   [/\bt he\b/g, "the"],
+  // The closing date, which the page sets in small capitals with thin spaces
+  // around it — and both of those the scan loses. The capitals come back as
+  // ordinary ones (the letters are what the page says; only their size was
+  // typography), and the spacing is put back the way a date is written:
+  // "About 600– 592b.c." for what the page reads as "About 600–592 B.C."
+  //
+  // B.C. follows its year and A.D. precedes it, as they do on the page, so both
+  // orders have to be mended — and in each, the range before the single year,
+  // so the inner dash is settled before the era is.
+  [/\b(\d+)\s*[–—-]\s*(\d+)\s*(b\.c\.|a\.d\.)/gi,
+    (_, from, to, era) => `${from}–${to} ${era.toUpperCase()}`],
+  [/\b(\d+)\s*(b\.c\.|a\.d\.)/gi,
+    (_, year, era) => `${year} ${era.toUpperCase()}`],
+  [/\b(b\.c\.|a\.d\.)\s*(\d+)\s*[–—-]\s*(\d+)/gi,
+    (_, era, from, to) => `${era.toUpperCase()} ${from}–${to}`],
+  [/\b(b\.c\.|a\.d\.)\s*(\d+)/gi,
+    (_, era, year) => `${era.toUpperCase()} ${year}`],
 ];
 
 function repair(s) {

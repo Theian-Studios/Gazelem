@@ -27,4 +27,21 @@ export default defineConfig({
   // root is right for `vite dev` and `vite preview` locally.
   base: process.env.SITE_BASE || "/",
   plugins: [react(), excludeLocalStudyHelps()],
+  build: {
+    rollupOptions: {
+      output: {
+        // React and its runtime, which change only when the dependency does, so
+        // a release that touches the site alone leaves them in the reader's
+        // cache. Everything else is left to Rollup, which follows the imports:
+        // the written pages are reached through App's lazy imports, and gathering
+        // them here by where they sit on disk would put them back in the first
+        // download — one manual chunk holding both a chart nobody has opened and
+        // the commentary the reader is looking at is fetched for the second, and
+        // arrives carrying the first.
+        manualChunks(id) {
+          if (id.includes("/node_modules/")) return "vendor";
+        },
+      },
+    },
+  },
 });

@@ -4,9 +4,12 @@ import { glass } from "../theme.js";
 // collapse control. Collapsed state is held by the caller and keyed by `id`, so
 // a card the reader has folded away stays folded as chapters change.
 //
+// Padding is in the stylesheet, not here: a folded card has to cancel it, and a
+// rule can't reach past an inline style to do that.
+//
 // overflow: clip rounds off the sticky heading's square corners without
 // breaking its sticky positioning (hidden would).
-const CARD = { ...glass, borderRadius: 18, padding: "14px 16px", overflow: "clip" };
+const CARD = { ...glass, borderRadius: 18, overflow: "clip" };
 
 function Chevron({ open }) {
   return (
@@ -16,18 +19,26 @@ function Chevron({ open }) {
   );
 }
 
-export default function Card({ id, title, label, collapsed, onToggle, className = "", style, children }) {
+export default function Card({ id, title, subtitle, label, collapsed, onToggle, className = "", style, children }) {
   const open = !collapsed;
   return (
     <section
-      className={`${className}`.trim()}
+      className={`commentary-card ${className}`.trim()}
+      // Lets a stylesheet reach one particular card without threading another
+      // class through every caller.
+      data-card={id}
       data-collapsed={collapsed ? "true" : undefined}
       style={{ ...CARD, ...style }}
       aria-label={label}
     >
       <h3 className="commentary-head">
         <button className="card-toggle" onClick={() => onToggle(id)} aria-expanded={open}>
-          <span>{title}</span>
+          <span className="card-title">
+            {title}
+            {/* What the card is showing, as against what it is: the same
+                heading, qualified. */}
+            {subtitle && <span className="card-subtitle">{subtitle}</span>}
+          </span>
           <Chevron open={open} />
         </button>
       </h3>

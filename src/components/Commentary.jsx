@@ -1,64 +1,67 @@
 import { ink, inkSoft } from "../theme.js";
 import { getCommentary, orderedConnections, entryVerse } from "../lib/commentary.js";
 import Card from "./Card.jsx";
+import { SpeakerIcon, AudienceIcon, LocationIcon } from "./MetaIcons.jsx";
 
 const PROSE = { color: inkSoft, fontSize: 12, lineHeight: 1.62, margin: "0 0 7px" };
 
-// Who is speaking, to whom, and what the chapter teaches — from the source's
-// CHAPTER METADATA block. Chapter-scoped, so it sits above the lens views and
-// stays put whichever depth or world is selected.
-const META_GROUPS = [
-  ["speakers", "Speakers"],
-  ["audience", "Audience"],
-  ["principles", "Principles"],
+// Who is speaking, to whom, where, and what the chapter turns on — from the
+// source's CHAPTER METADATA block. Chapter-scoped, so it sits above the lens
+// views and stays put whichever depth or world is selected.
+const META_FACETS = [
+  ["speakers", "Speaker", SpeakerIcon],
+  ["audience", "Audience", AudienceIcon],
+  ["location", "Location", LocationIcon],
 ];
 
-// A speaker may carry the voices quoted inside their discourse, so the list
-// nests one level.
-function MetaList({ items }) {
-  return (
-    <ul className="meta-list">
-      {items.map((it, i) => (
-        <li key={i}>
-          {it.text}
-          {it.children.length > 0 && (
-            <ul className="meta-sublist">
-              {it.children.map((c, j) => <li key={j}>{c}</li>)}
-            </ul>
-          )}
-        </li>
-      ))}
-    </ul>
-  );
+// A field may be written as prose or as a list, and a speaker's list may nest
+// the voices quoted inside the discourse; all of it reads as one short value
+// under the icon.
+function facetValue(g) {
+  if (!g) return null;
+  const fromList = (g.items || []).flatMap((it) => [it.text, ...(it.children || [])]);
+  return [g.text, ...fromList].filter(Boolean).join(" · ") || null;
 }
 
-function Overview({ meta, chapter, collapsed, onToggle }) {
+// Only the speaker label is counted, since it is the one that reads wrong in
+// the plural. A bulleted field is counted by its bullets; prose is counted by
+// the separators someone would actually write between names.
+function facetCount(g) {
+  if (!g) return 0;
+  if (g.items?.length) return g.items.length;
+  return (g.text || "").split(/\s*[;·]\s*|\s+and\s+/i).filter(Boolean).length;
+}
+
+function Overview({ meta, collapsed, onToggle }) {
+  const facets = META_FACETS
+    .map(([key, label, Icon]) => ({
+      key,
+      label: key === "speakers" && facetCount(meta[key]) > 1 ? "Speakers" : label,
+      Icon,
+      value: facetValue(meta[key]),
+    }))
+    .filter((f) => f.value);
+  if (!facets.length) return null;
+
   return (
-    <Card id="overview" title={`Overview · ${chapter.reference}`} label="Chapter overview"
-      className="popin" style={{ marginBottom: 12 }}
+    <Card id="overview" title="Overview" label="Chapter overview"
+      /* Nearly opaque rather than the glass default: this card is drawn marks —
+         rings, glyphs, small caps — and the gradient behind the page tints
+         them through the glass. */
+      className="popin" style={{ background: "rgba(255,255,255,0.93)" }}
       collapsed={collapsed.has("overview")} onToggle={onToggle}
     >
-      {META_GROUPS.map(([key, label]) => {
-        const g = meta[key];
-        if (!g || (!g.text && !g.items.length)) return null;
-        return (
-          <div key={key} className="meta-group">
-            <h4 className="meta-label">{label}</h4>
-            {/* Principles arrive as a comma-separated keyword line, which scans
-                better as tags than as a run-on sentence. */}
-            {key === "principles" && g.text ? (
-              <ul className="meta-tags">
-                {g.text.split(/\s*,\s*/).filter(Boolean).map((t, i) => <li key={i}>{t}</li>)}
-              </ul>
-            ) : (
-              <>
-                {g.text && <p className="meta-text">{g.text}</p>}
-                {g.items.length > 0 && <MetaList items={g.items} />}
-              </>
-            )}
-          </div>
-        );
-      })}
+      {/* Columns follow the number of facets, so a chapter without a location
+          fills the row rather than leaving a gap where it would have been. */}
+      <ul className="meta-facets" style={{ gridTemplateColumns: `repeat(${facets.length}, 1fr)` }}>
+        {facets.map(({ key, label, Icon, value }) => (
+          <li key={key} className="meta-facet">
+            <span className="meta-ring"><Icon /></span>
+            <span className="meta-facet-label">{label}</span>
+            <span className="serif meta-facet-value">{value}</span>
+          </li>
+        ))}
+      </ul>
     </Card>
   );
 }
@@ -89,11 +92,11 @@ function Entry({ e, last }) {
 }
 
 // The worlds behind and in front of the text: prose, sometimes under their own
-// subheadings, with no depth or breadth to filter by.
+// subheadings, with no depth to filter by.
 function WorldView({ groups, title, chapter, collapsed, onToggle }) {
   if (!groups.length) {
     return (
-      <Card id="notes" title={`${title} · ${chapter.reference}`} label="Commentary"
+      <Card id="notes" title={title} label="Commentary"
         className="popin" collapsed={collapsed.has("notes")} onToggle={onToggle}>
         <p style={{ ...PROSE, margin: 0 }}>No notes for this world yet.</p>
       </Card>
@@ -108,7 +111,7 @@ function WorldView({ groups, title, chapter, collapsed, onToggle }) {
         const id = `world-${i}`;
         return (
           <Card key={`${title}-${chapter.reference}-${i}`} id={id} label="Commentary"
-            title={g.heading ? `${title} · ${g.heading}` : `${title} · ${chapter.reference}`}
+            title={g.heading ? `${title} · ${g.heading}` : title}
             className="popin"
             style={{ ...(i === 0 ? null : { marginTop: 12 }), animationDelay: `${i * 60}ms` }}
             collapsed={collapsed.has(id)} onToggle={onToggle}
@@ -123,11 +126,31 @@ function WorldView({ groups, title, chapter, collapsed, onToggle }) {
   );
 }
 
-export default function Commentary({ book, chapter, lens, volId, onJump, collapsed, onToggle }) {
+// The notes are placed in three different parts of the layout, so each is its
+// own export rather than one block. getCommentary caches, so asking for the
+// same chapter three times costs one parse.
+function notesFor(book, chapter, volId) {
   if (!book || !chapter) return null;
+  return getCommentary(volId === "dc" ? "Doctrine and Covenants" : book.name, chapter.n);
+}
 
-  const bookName = volId === "dc" ? "Doctrine and Covenants" : book.name;
-  const data = getCommentary(bookName, chapter.n);
+// Who is speaking, to whom, and where. Chapter-scoped, so it is the same
+// whichever lens is selected.
+export function ChapterOverview({ book, chapter, volId, collapsed, onToggle }) {
+  const data = notesFor(book, chapter, volId);
+  if (!data?.meta) return null;
+  return <Overview meta={data.meta} collapsed={collapsed} onToggle={onToggle} />;
+}
+
+// The finer levels are a card of many small notes, so the heading names them
+// as the several things they are. A chapter or a block is read as one, and
+// stays singular.
+const LEVEL_LABEL = { Verse: "Verses", Phrase: "Phrases", Word: "Words" };
+
+// The commentary itself, read through the current lens.
+export function CommentaryNotes({ book, chapter, lens, volId, collapsed, onToggle }) {
+  if (!book || !chapter) return null;
+  const data = notesFor(book, chapter, volId);
 
   if (!data) {
     return (
@@ -137,66 +160,64 @@ export default function Commentary({ book, chapter, lens, volId, onJump, collaps
       </Card>
     );
   }
-
-  // Present in every world and at every depth — it describes the chapter rather
-  // than reading it through a lens.
-  const overview = data.meta
-    ? <Overview meta={data.meta} chapter={chapter} collapsed={collapsed} onToggle={onToggle} />
-    : null;
-
   if (lens.world === "behind") {
-    return <>{overview}<WorldView groups={data.worlds.behind} title="Behind" chapter={chapter} collapsed={collapsed} onToggle={onToggle} /></>;
+    return <WorldView groups={data.worlds.behind} title="Behind" chapter={chapter} collapsed={collapsed} onToggle={onToggle} />;
   }
   if (lens.world === "front") {
-    return <>{overview}<WorldView groups={data.worlds.front} title="In Front" chapter={chapter} collapsed={collapsed} onToggle={onToggle} /></>;
+    return <WorldView groups={data.worlds.front} title="In Front" chapter={chapter} collapsed={collapsed} onToggle={onToggle} />;
   }
 
   const entries = data.levels[lens.level] || [];
-  // The index at the end of the notes, regrouped by the same scopes the
-  // breadth rings select.
-  // Verse order, so the list tracks the reader as it scrolls.
-  const connections = orderedConnections(data, lens.breadth);
+  return (
+    // The level rides in the heading: these notes are one reading of the
+    // chapter out of five, and which one should be legible from the card
+    // rather than only from the lens controls that set it. Keyed so switching
+    // level or chapter presents the card afresh.
+    <Card key={`${lens.level}-${chapter.reference}`} id="notes"
+      title="Commentary" subtitle={LEVEL_LABEL[lens.level] ?? lens.level}
+      label={`Commentary, ${lens.level} level`}
+      className="popin"
+      collapsed={collapsed.has("notes")} onToggle={onToggle}
+    >
+      {entries.length === 0 && (
+        <p style={{ ...PROSE, margin: 0 }}>
+          No {lens.level.toLowerCase()}-level notes for this chapter.
+        </p>
+      )}
+      {entries.map((e, i) => (
+        <Entry key={i} e={e} last={i === entries.length - 1} />
+      ))}
+    </Card>
+  );
+}
+
+// The index of cross references, in verse order so it tracks the reader.
+// Cross references belong to the text itself, so the other two worlds show none.
+export function CrossConnections({ book, chapter, lens, volId, onJump, collapsed, onToggle }) {
+  if (!book || !chapter || lens.world !== "text") return null;
+  const data = notesFor(book, chapter, volId);
+  if (!data) return null;
+  const connections = orderedConnections(data);
+  if (!connections.length) return null;
 
   return (
-    <>
-      {overview}
-      {/* Keyed so switching level or chapter presents the card afresh. */}
-      <Card key={`${lens.level}-${chapter.reference}`} id="notes"
-        title={`${lens.level} · ${chapter.reference}`} label="Commentary" className="popin"
-        collapsed={collapsed.has("notes")} onToggle={onToggle}
-      >
-        {entries.length === 0 && (
-          <p style={{ ...PROSE, margin: 0 }}>
-            No {lens.level.toLowerCase()}-level notes for this chapter.
-          </p>
-        )}
-
-        {entries.map((e, i) => (
-          <Entry key={i} e={e} last={i === entries.length - 1} />
+    <Card key={`conns-${chapter.reference}`} id="connections"
+      title="Cross Connections" label="Cross connections" className="popin"
+      collapsed={collapsed.has("connections")} onToggle={onToggle}
+    >
+      <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+        {connections.map((c) => (
+          <li key={c.id} id={`conn-${c.id}`} style={{ margin: "0 0 9px" }}>
+            <button className="conn-jump" onClick={() => onJump?.(c.verse)} title={`Go to verse ${c.verse}`}>
+              <span className="conn-jump-id">{c.id}</span>
+              <span>
+                <span style={{ color: ink, fontWeight: 600 }}>{c.source}</span>
+                {c.gloss && <span style={{ color: inkSoft }}> — {c.gloss}</span>}
+              </span>
+            </button>
+          </li>
         ))}
-      </Card>
-
-      {connections.length > 0 && (
-        <Card key={`conns-${lens.breadth}-${chapter.reference}`} id="connections"
-          title="Cross Connections" label="Cross connections" className="popin"
-          style={{ marginTop: 12, animationDelay: "60ms" }}
-          collapsed={collapsed.has("connections")} onToggle={onToggle}
-        >
-          <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-            {connections.map((c) => (
-              <li key={c.id} id={`conn-${c.id}`} style={{ margin: "0 0 9px" }}>
-                <button className="conn-jump" onClick={() => onJump?.(c.verse)} title={`Go to verse ${c.verse}`}>
-                  <span className="conn-jump-id">{c.id}</span>
-                  <span>
-                    <span style={{ color: ink, fontWeight: 600 }}>{c.source}</span>
-                    {c.gloss && <span style={{ color: inkSoft }}> — {c.gloss}</span>}
-                  </span>
-                </button>
-              </li>
-            ))}
-          </ul>
-        </Card>
-      )}
-    </>
+      </ul>
+    </Card>
   );
 }

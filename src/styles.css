@@ -3,18 +3,106 @@
 * { box-sizing: border-box; }
 body { margin: 0; }
 
+/* ---- The small-print scale ----------------------------------------------
+   Four sizes for everything under the body text, so the same kind of thing is
+   the same size wherever it stands:
+     label  the uppercase small caps — card subtitles, chart heads, shelf names
+     note   the asides — glosses, editions, bylines, what a phrase is instead of
+     meta   the supporting prose — introductions, descriptions, card sentences
+     body   the passages themselves, on cards and in charts
+   The reader's own verse type and the dense sidebar band keep their own sizes;
+   this scale is for the cards and articles around them. */
+:root {
+  --fs-label: 11px;
+  --fs-note: 12px;
+  --fs-meta: 13.5px;
+  --fs-body: 14.5px;
+}
+
 .serif { font-family: 'Literata', 'Iowan Old Style', Georgia, serif; }
 
 /* ---- Layout -------------------------------------------------------------
-   Narrow: breadcrumbs + search ride along the top as a sticky bar.
-   Wide:   the same block docks to the left as a sidebar, and the reader stays
-           centred in the space that remains. Kept in CSS (not inline styles)
-           purely so the media query can reach it. */
+   Narrow: the search rides along the top as a sticky bar, and the study panels
+           follow the chapter in the page's own scroll.
+   Wide:   the search docks to the left with the panels beneath it, and the
+           reader stays centred in the space that remains. Kept in CSS (not
+           inline styles) purely so the media query can reach it. */
 .chrome { position: sticky; top: 0; z-index: 20; padding: 14px 16px; }
 .chrome-inner { max-width: 652px; margin: 0 auto; position: relative; }
-/* 652 - 32px of padding leaves the reader card 620 wide. */
-.content { position: relative; z-index: 1; max-width: 652px; margin: 0 auto; padding: 8px 16px 140px; }
-.navdock { position: fixed; bottom: 22px; left: 0; right: 0; }
+.searchcard { padding: 12px 18px; }
+/* On the home screen the field stands under the title, at a width that reads
+   as one thing with the shelf of volumes below it rather than spanning the
+   whole page. */
+.home-search { max-width: 460px; margin: 22px auto 0; text-align: left; }
+/* The same field standing under a volume's or a book's title. Full width of
+   the column it is in, since that column is already a reading measure. */
+.inline-search { margin: 0 0 20px; }
+.inline-search .searchbar { border-radius: 14px; padding: 10px 14px; }
+/* 652 - 32px of padding leaves the reader card 620 wide. The head of the column
+   is set once, here, rather than by whatever view happens to be in it: at 18px
+   the first card starts on the same line as the contents card standing in the
+   margin, so the two tops agree wherever the reader has gone. */
+.content { position: relative; z-index: 1; max-width: 652px; margin: 0 auto; padding: 18px 16px 140px; }
+.content-solo { max-width: var(--solo); }
+/* Prose keeps a reading measure even where the column around it does not: a
+   paragraph set to 900px loses the start of the next line. Grids of tiles —
+   books, chapters, prophets — take the whole column, which is the point of
+   widening it. The map takes it too; a map is better larger. */
+.cf-card, .prophet-card, .srch { max-width: 760px; margin-inline: auto; }
+.bt-card { max-width: 820px; margin-inline: auto; }
+.navdock {
+  position: fixed; bottom: 22px; left: 0; right: 0; z-index: 30;
+  display: flex; justify-content: center; pointer-events: none;
+}
+
+/* A phone has one column, so the search bar has to give the chapter as much of
+   it as it can while still being there to type into. */
+@media (max-width: 599.98px) {
+  .chrome { padding: 10px 12px; }
+  .searchcard { padding: 8px 12px; }
+  .content { padding: 16px 12px 140px; }
+}
+
+/* ---- The field, on a compact screen -------------------------------------
+   One column has no room to keep a search bar standing at the top of it, so
+   the field folds down to a button in the corner and comes back as a bar at
+   the foot of the window — where the thumb is, and where the menu can open
+   upward over the reader rather than pushing it down. */
+.search-fab { display: none; }
+
+@media (max-width: 959.98px) {
+  .chrome { display: none; }
+  .chrome.chrome-open {
+    display: block;
+    position: fixed;
+    top: auto; bottom: 0; left: 0; right: 0;
+    z-index: 60;
+    padding: 10px 12px calc(10px + env(safe-area-inset-bottom, 0px));
+  }
+
+  .search-fab {
+    display: grid; place-items: center;
+    position: fixed;
+    right: 16px; bottom: calc(22px + env(safe-area-inset-bottom, 0px));
+    z-index: 30;
+    width: 52px; height: 52px; border-radius: 999px;
+    border: 1px solid rgba(255,255,255,.72);
+    background: rgba(255,255,255,.82);
+    backdrop-filter: blur(34px) saturate(185%);
+    -webkit-backdrop-filter: blur(34px) saturate(185%);
+    box-shadow: 0 10px 30px rgba(31,45,71,.12), 0 2px 5px rgba(31,45,71,.05),
+                inset 0 1px 0 rgba(255,255,255,.92);
+    color: #3a5a8c; cursor: pointer;
+  }
+  /* The dock owns the bottom edge when there is one, so the button stands off
+     it rather than across it. */
+  .search-fab[data-raised] { bottom: calc(86px + env(safe-area-inset-bottom, 0px)); }
+  .chrome-open ~ .search-fab { display: none; }
+}
+
+/* Last word on the matter: with the field standing on the home screen, the bar
+   it normally lives in has nothing to hold, at any width. */
+.chrome.chrome-away { display: none; }
 
 /* Padding as a variable so the sticky chapter head can cancel it and span the
    full card width. overflow: clip keeps the head's square corners inside the
@@ -34,7 +122,7 @@ body { margin: 0; }
   /* --raise lifts the title toward the top of the card. The wash below cancels
      it again so the gradient's bottom edge stays put as the title moves up. */
   --raise: 9px;
-  padding: calc(var(--pad) * 0.6 - var(--raise)) var(--pad) 24px;
+  padding: calc(var(--pad) * 0.6 - var(--raise)) var(--pad) 12px;
 }
 
 /* The wash is a pseudo-element rather than the header's own background so its
@@ -57,31 +145,58 @@ body { margin: 0; }
     rgba(253,253,254,0) 100%);
 }
 
-/* Below the sidebar breakpoint the top bar is sticky too, so the chapter head
-   pins just beneath it. Its height depends on how the breadcrumbs wrap, so
-   App.jsx measures it into --chrome-h. */
-@media (max-width: 1039.98px) {
-  /* Minus the bar's 14px bottom padding, so no unmasked strip of verse text
-     shows between the floating search card and the pinned title. */
-  .chapter-head { top: calc(var(--chrome-h, 14px) - 14px); }
+/* Below the sidebar breakpoint nothing stands along the top of the window —
+   the field has folded into the corner button — so the chapter title pins to
+   the window itself. (--chrome-h still measures the field for the sidebar
+   layout, where it really is at the top; see the columns section.) */
+@media (max-width: 959.98px) {
+  .chapter-head { top: 0; }
 }
 
 .crumbs { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .crumb { display: inline-flex; align-items: center; gap: 8px; }
 
-/* Sidebar (360) + reader (620) + gutters. Below this the columns would crowd
-   the text, so the top bar is the better arrangement. */
-@media (min-width: 1040px) {
+/* The two side columns scale with the window rather than sitting at a fixed
+   width, so the cards in them get wider as the screen does. Every measurement
+   that depends on a column — the reader's padding, the nav dock's edges — is
+   derived from these, so there is one number to change per column.
+   The floor is what the cards need to be legible; the ceiling stops a very
+   wide screen from turning them into empty expanses. */
+:root { --side: 280px; --notes: 300px; --gutter: 16px; }
+
+/* The contents card and the column it belongs to are one object, centred
+   together: the card is not something the left margin has to be wide enough to
+   hold, it is part of what is being centred. So it can appear as soon as the
+   pair fits — card, gutter, column and a margin either side — rather than
+   waiting for the left margin alone to reach the card's width while an equal
+   margin sits empty on the right. */
+:root {
+  --toc-w: 252px;
+  --toc-gap: 22px;
+  --toc-pair: calc(var(--toc-w) + var(--toc-gap));
+}
+
+/* How wide the column runs on the views that have no side columns — a shelf,
+   a timeline, the map. It holds the reading measure until there is room to
+   spare, then takes the spare rather than leaving it as margin, and stops at a
+   width past which a grid of tiles stops looking like a page. Subtracting the
+   pair and a 20px margin either side is what keeps the two from fighting over
+   the same pixels as the window grows. */
+:root { --solo: clamp(652px, 100vw - var(--toc-pair) - 40px, 920px); }
+
+/* Sidebar + reader + gutters. Below this the columns would crowd the text, so
+   the top bar is the better arrangement. */
+@media (min-width: 960px) {
+  :root { --side: clamp(280px, 23vw, 440px); }
+  /* The search keeps its place at the top of the column while the panels below
+     scroll under it, so it is always there to type a reference into.
+     18px of top padding = the reader's 8px plus the article's 10px margin, so
+     the panel's top edge lines up with the top of the card. */
   .chrome {
     position: fixed;
-    top: 0; left: 0; bottom: 0;
-    width: 300px;
-    padding: 16px;
-    overflow-y: auto;
-    overscroll-behavior: contain;
-    /* 18px = the reader's 8px of top padding plus the article's 10px margin, so
-       the panel's top edge lines up with the top of the card. */
-    padding-top: 18px;
+    top: 0; left: 0;
+    width: var(--side);
+    padding: 18px 16px 12px;
   }
   .chrome-inner { max-width: none; margin: 0; width: 100%; }
 
@@ -91,36 +206,82 @@ body { margin: 0; }
   .crumb-sep { display: none; }
 
   /* Padding, not margin: box-sizing is border-box, so the reader keeps its
-     680px measure inside a block that stays centred on the page. */
-  .content { max-width: 952px; padding-left: 316px; }
-  .navdock { left: 300px; }
+     680px measure inside a block that stays centred on the page.
+     Only while a chapter is open. Everywhere else — a volume's shelf, a
+     timeline, the map — the sidebar is empty and the columns it would balance
+     against do not exist, so reserving its width just pushes the page off
+     centre. Those views keep the plain centred column. */
+  .content:not(.content-solo) {
+    max-width: none;
+    padding-left: calc(var(--side) + var(--gutter));
+  }
+  /* A reading measure rather than the whole width left over. Without this the
+     column runs to the right edge between 960px and the three-column layout. */
+  .content:not(.content-solo) > :not(.side-extras) {
+    max-width: 660px; margin-left: auto; margin-right: auto;
+  }
+  /* The dock centres itself in whatever room the columns leave it. */
+  .content:not(.content-solo) ~ .navdock { left: var(--side); }
 }
 
-/* The lens controls live in the left column with the navigation; the notes get
-   a column of their own on the right. Both stay hidden while the chrome is a
-   sticky top bar — a full notes card inside the header would swamp it. */
-.side-extras { display: none; }
-.lens-box { margin-top: 12px; }
-/* Empty when the book has no captions — :empty keeps it from adding a gap. */
-.timeline-box { margin-top: 12px; }
-.timeline-box:empty { display: none; }
-.commentary-inline { margin-top: 12px; }
+/* The study panels: a stack under the chapter on a phone, the left column on a
+   wide screen. `gap` rather than margins, so a panel with nothing to show can
+   take its spacing with it when it collapses. */
+.side-extras { display: flex; flex-direction: column; gap: 12px; margin-top: 12px; }
+.overview-box:empty, .lens-inline:empty, .timeline-box:empty, .related-box:empty,
+.notes-inline:empty, .connections-box:empty { display: none; }
+/* Same for the right column's wrapper, whose spacing rules would otherwise
+   leave a gap where the card used to be. */
+.lens-box:empty { display: none; }
 .commentary-col { display: none; }
 
-@media (min-width: 1040px) {
-  .side-extras { display: block; }
+/* Read on a phone, the order is what the chapter needs next: what it is, then
+   the notes on it, then where they point, and last the wider setting and the
+   controls. Wide, the source order stands — see the sidebar rules below. */
+@media (max-width: 959.98px) {
+  /* A screen's worth of room, so the stack can always come to rest under the
+     search bar rather than wherever the end of the document happens to fall —
+     with every panel folded it is shorter than the space it has to scroll
+     through. Only once there is a chapter to say anything about. */
+  .side-extras.has-panels { min-height: calc(100vh - var(--chrome-h, 96px) - 24px); }
+  @supports (height: 100svh) {
+    .side-extras.has-panels { min-height: calc(100svh - var(--chrome-h, 96px) - 24px); }
+  }
+  .overview-box { order: 1; }
+  .notes-inline { order: 2; }
+  .connections-box { order: 3; }
+  .timeline-box { order: 4; }
+  .related-box { order: 5; }
+  .lens-inline { order: 6; }
+}
+
+/* Lifted out of the reading flow into the column under the search. Fixed rather
+   than in the sidebar's own flow so it scrolls independently of the chapter —
+   `position: fixed` is measured against the viewport, not the padded .content
+   it is written inside. */
+@media (min-width: 960px) {
+  .side-extras {
+    position: fixed;
+    top: var(--chrome-h, 96px); left: 0; bottom: 0;
+    width: var(--side);
+    margin: 0;
+    padding: 0 16px 16px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
 }
 
 /* Three columns: nav + lenses, the reader, and the notes. The reader is fluid
    between the two fixed columns and capped at its 620px measure, so the notes
    can sit on the right without waiting for a very wide window. */
 @media (min-width: 1120px) {
-  .commentary-inline { display: none; }
+  :root { --notes: clamp(300px, 25vw, 480px); }
+  .lens-inline, .notes-inline { display: none; }
   .commentary-col {
     display: block;
     position: fixed;
     top: 0; right: 0; bottom: 0;
-    width: 320px;
+    width: var(--notes);
     /* Top spacing lives on the first card, not here: padding on the scroll
        container sits above a pinned heading, and content ghosts through it. */
     padding: 0 16px 18px;
@@ -129,76 +290,136 @@ body { margin: 0; }
     z-index: 20;
   }
   .commentary-col > :first-child { margin-top: 18px; }
-  .content { max-width: none; padding-left: 316px; padding-right: 336px; }
-  .content > * { max-width: 620px; margin-left: auto; margin-right: auto; }
+  /* The lens controls and the notes they drive are separate cards, and need
+     the same gap between them as the boxes in the left column have. */
+  .commentary-col > * + * { margin-top: 12px; }
+  .content:not(.content-solo) {
+    max-width: none;
+    padding-left: calc(var(--side) + var(--gutter));
+    padding-right: calc(var(--notes) + var(--gutter));
+  }
+  /* The reader keeps a reading measure rather than filling the gap: past about
+     this width the eye loses the start of the next line. The study panels are
+     out of flow by now — they are the left column — so they are left alone. */
+  .content:not(.content-solo) > :not(.side-extras) {
+    max-width: 660px; margin-left: auto; margin-right: auto;
+  }
   /* Tighter card padding: the middle column is the one being squeezed. */
   .reader-card { --pad: clamp(22px, 3vw, 44px); padding: var(--pad); }
-  .navdock { left: 300px; right: 320px; }
+  .content:not(.content-solo) ~ .navdock { left: var(--side); right: var(--notes); }
 }
 
 /* Commentary card headings pin to the top of their scroll column (the right
    panel, or the left sidebar when the notes fall back there). Sticky is scoped
    to each card, so an arriving card's heading pushes the pinned one away. */
+/* Padding lives here rather than in the card's inline style, so a folded card
+   can cancel it and a card wanting a tighter edge can change one number
+   without throwing off the height it folds to. */
+.commentary-card { padding: 14px 16px; }
+
+/* The two lens controls, inside the one card. The padding is what keeps the
+   circles clear of the heading's wash: that gradient hangs below the heading
+   to mask whatever scrolls under it, and without the gap it would lie across
+   the top of the buttons instead of behind them. */
+.lens-groups { padding-top: 12px; display: grid; gap: 20px; }
+/* Named the same way the card headings are, one step in. */
+.lens-head {
+  margin: 0 0 10px;
+  font-size: var(--fs-label); line-height: 1.3; letter-spacing: 0.12em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+/* One wrapped row of pills needs less room beneath it than a card of prose. */
+[data-card="related"] { padding-bottom: 10px; }
+
+/* An explicit line-height rather than the inherited `normal`: it is what fixes
+   the height of a folded card, and it should not move with the font. */
 .commentary-head {
-  /* Type lives here rather than inline, so every card heading matches. */
-  font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase;
+  font-size: 10.5px; line-height: 1.3; letter-spacing: 0.12em; text-transform: uppercase;
   color: #a4853d; font-weight: 700;
+}
+
+.commentary-head {
   position: sticky;
   top: 0;
   z-index: 3;
-  margin: -14px -16px 8px;
-  padding: 13px 16px 16px;
+  /* Tight under the heading: the fade still needs room to run out, but the
+     content should not sit a whole line's worth below the title. */
+  margin: -14px -16px 4px;
+  padding: 13px 16px 11px;
+}
+
+/* The wash sits on a pseudo-element that hangs below the heading's box rather
+   than on the heading itself. Inside the box alone the fade had about ten
+   pixels to run out in, which reads as a hard edge between the opaque top and
+   the glass beneath it; hanging it lower gives the ramp twice the distance.
+   z-index keeps it behind the heading's own text but inside the heading's
+   stacking context, so it still covers content scrolling under it. */
+.commentary-head::before {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; top: 0; bottom: -16px;
+  z-index: -1;
+  pointer-events: none;
   background: linear-gradient(180deg,
     #fdfdfe 0%,
-    #fdfdfe 65%,
+    #fdfdfe 46%,
+    rgba(253,253,254,.82) 66%,
+    rgba(253,253,254,.4) 84%,
     rgba(253,253,254,0) 100%);
 }
 
 /* Chapter overview: speakers, audience, principles. Each list gets a small
    caps label and gold dot bullets, so three lists read as three groups without
    rules between them. */
-.meta-group { margin-bottom: 10px; }
-.meta-group:last-child { margin-bottom: 0; }
-.meta-label {
-  font-size: 9.5px; letter-spacing: 0.09em; text-transform: uppercase;
-  color: #1d1d1f; font-weight: 700; margin: 0 0 4px;
+/* The overview reads as four facets in a row — who, to whom, where, and what
+   it turns on — each an icon in a ring with its value beneath. Equal columns
+   rather than auto, so the rings line up however long the values run. */
+.meta-facets {
+  list-style: none; margin: 2px 0 0; padding: 0;
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px;
+  align-items: start;
 }
-/* Audience is written as prose rather than a list. */
-.meta-text { color: #6e6e73; font-size: 12px; line-height: 1.45; margin: 0; }
+/* Spacing is set per element rather than by one gap, so the value can sit up
+   close to its label while the ring keeps its own breathing room. */
+.meta-facet {
+  display: flex; flex-direction: column; align-items: center;
+  text-align: center; gap: 0; min-width: 0;
+}
+.meta-ring {
+  /* Scales with the column, which itself scales with the window. */
+  width: clamp(36px, 78%, 54px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  /* Opaque, like the chapter band's dots: a ring and its glyph are linework,
+     and the ambient gradient showing through them softens the line until it
+     reads as faded rather than drawn. */
+  background: #fdfdfe;
+  border: 1.5px solid rgba(31,45,71,.24);
+  display: grid; place-items: center;
+  color: rgba(110,110,115,.95);
+  transition: color .18s, border-color .18s, transform .18s cubic-bezier(.2,.8,.2,1);
+}
+.meta-ring svg { width: 54%; height: 54%; }
+.meta-facet:hover .meta-ring {
+  color: #a4853d;
+  border-color: rgba(164,133,61,.5);
+  transform: translateY(-1.5px);
+}
+.meta-facet-label {
+  margin-top: 6px;
+  font-size: 8.5px; letter-spacing: 0.09em; text-transform: uppercase;
+  font-weight: 700; color: #1d1d1f;
+}
+.meta-facet-value {
+  margin-top: 1px;
+  font-size: 10.5px; line-height: 1.35; color: #6e6e73;
+  /* Long values wrap rather than widening their column and skewing the row. */
+  overflow-wrap: anywhere;
+}
 
-.meta-list, .meta-sublist { list-style: none; padding: 0; margin: 0; }
-.meta-list li, .meta-sublist li {
-  position: relative; padding-left: 11px;
-  color: #6e6e73; font-size: 12px; line-height: 1.45; margin: 0 0 3px;
-}
-.meta-list > li:last-child, .meta-sublist li:last-child { margin-bottom: 0; }
-.meta-list > li::before {
-  content: "";
-  position: absolute; left: 1px; top: 7px;
-  width: 3.5px; height: 3.5px; border-radius: 999px;
-  background: rgba(164,133,61,.7);
-}
-/* The voices quoted inside a speaker's discourse: indented, and marked with a
-   hollow dot so they read as subordinate to the speaker above. */
-.meta-sublist { margin: 2px 0 0; }
-.meta-sublist li { padding-left: 11px; margin-bottom: 2px; }
-.meta-sublist li::before {
-  content: "";
-  position: absolute; left: 1.5px; top: 7px;
-  width: 3px; height: 3px; border-radius: 999px;
-  border: 1px solid rgba(164,133,61,.55);
-}
-
-/* Short doctrinal keywords, set as tags so twelve of them stay scannable. */
-.meta-tags {
-  list-style: none; display: flex; flex-wrap: wrap; gap: 4px;
-  padding: 0; margin: 2px 0 0;
-}
-.meta-tags li {
-  font-size: 10.5px; line-height: 1.5; font-weight: 600;
-  color: rgba(138,111,46,.95);
-  background: rgba(164,133,61,.11);
-  border-radius: 999px; padding: 1.5px 7px;
+@media (prefers-reduced-motion: reduce) {
+  .meta-ring { transition: none !important; }
+  .meta-facet:hover .meta-ring { transform: none !important; }
 }
 
 /* The heading doubles as the collapse control: full width so the whole strip is
@@ -213,14 +434,35 @@ body { margin: 0; }
 }
 .card-toggle:hover { color: #6b551f; }
 .card-toggle:focus-visible { outline: 2px solid #3a5a8c; outline-offset: 3px; border-radius: 5px; }
+/* The heading's own line, and a qualifier on it — the same gold, set apart by
+   a middle dot alone, so the two read as one heading rather than as a heading
+   with a note after it. */
+.card-title { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.card-subtitle::before {
+  content: "·";
+  margin: 0 6px;
+  opacity: .55;
+}
+
 .card-chevron {
   flex-shrink: 0; opacity: .75;
   transition: transform .2s cubic-bezier(.2,.8,.2,1);
 }
 /* Points down when open, right when folded away. */
 .card-chevron[data-open="false"] { transform: rotate(-90deg); }
-/* Collapsed, the card is just its heading — cancel the body's bottom padding. */
-[data-collapsed="true"] .commentary-head { margin-bottom: -14px; }
+/* Folded, a card is just its heading: the body's padding goes and the heading
+   keeps its own, so every folded card comes out the same height whatever
+   padding it carries when open. */
+.commentary-card[data-collapsed="true"] { padding-bottom: 0; }
+[data-collapsed="true"] .commentary-head { margin-bottom: 0; }
+
+/* The overview is four short facets that scroll past in one go — there is
+   nothing to lose track of, so its heading rides up with them rather than
+   pinning. Relative rather than static, to keep it above the card's body.
+   A heading that never pins has nothing to mask, and its wash would only
+   paint its fade across the tops of the rings below it — so there is none. */
+[data-card="overview"] .commentary-head { position: relative; top: auto; }
+[data-card="overview"] .commentary-head::before { display: none; }
 
 @media (prefers-reduced-motion: reduce) {
   .card-chevron, .card-toggle { transition: none !important; }
@@ -228,13 +470,9 @@ body { margin: 0; }
 
 /* Hover deepens rather than fades: these are already grey, and lightening them
    reads as disabled instead of active. */
-.lens-row, .lens-arc { transition: filter .18s, transform .18s cubic-bezier(.2,.8,.2,1); }
-.lens-row:hover, .lens-arc:hover { filter: brightness(.82); }
-.lens-row:hover { transform: translateY(-1px); }
+.lens-row { transition: filter .18s, transform .18s cubic-bezier(.2,.8,.2,1); }
+.lens-row:hover { filter: brightness(.82); transform: translateY(-1px); }
 .lens-row:active { transform: translateY(0); }
-/* Never focusable, so it can't pick up the browser's default focus ring — that
-   ring traces the group's bbox, which includes the invisible wide hit-stroke. */
-.lens-arc { cursor: pointer; outline: none; }
 .lens-row:focus-visible { outline: 2px solid #3a5a8c; outline-offset: 3px; border-radius: 8px; }
 
 /* A phrase carrying a cross connection. Colour only — no underline or
@@ -268,33 +506,111 @@ body { margin: 0; }
   scrollbar-width: none;
 }
 .ct-scroll::-webkit-scrollbar { display: none; }
-.ct-scroll[data-more="true"] {
+/* An edge fades only when the band really does carry on past it. Fading the
+   top while the band is already at its first chapter said the opposite, and
+   washed out the book's name where it was most wanted. */
+.ct-scroll[data-fade="top"], .ct-scroll[data-fade="both"] {
+  -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 22px);
+  mask-image: linear-gradient(180deg, transparent 0, #000 22px);
+}
+.ct-scroll[data-fade="bottom"] {
+  -webkit-mask-image: linear-gradient(180deg, #000 calc(100% - 22px), transparent 100%);
+  mask-image: linear-gradient(180deg, #000 calc(100% - 22px), transparent 100%);
+}
+.ct-scroll[data-fade="both"] {
   -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 22px, #000 calc(100% - 22px), transparent 100%);
   mask-image: linear-gradient(180deg, transparent 0, #000 22px, #000 calc(100% - 22px), transparent 100%);
 }
 
-.chapter-timeline { position: relative; display: flex; flex-direction: column; }
-/* Left edge sits on the circles' centre line: 15px in, less half its width.
-   Spans the whole list, so it runs past the first and last stop. */
-.ct-line { position: absolute; top: 0; bottom: 0; left: 14.25px; width: 1.5px; background: rgba(31,45,71,.15); }
+
+/* The padding keeps the first row clear of the heading's own wash, which hangs
+   below it to mask whatever scrolls under; without it the band's first line
+   starts inside that fade. */
+.chapter-timeline { position: relative; display: flex; flex-direction: column; padding-top: 12px; }
+
+/* The rule is drawn row by row rather than as one line down the whole card, so
+   a section title leaves a real gap where its row would have drawn one. The
+   card is glass over a gradient, so a title cannot mask the line by painting a
+   panel behind itself — there is no flat colour to match.
+   Each stop draws a segment through its own height; since stops sit flush
+   against each other the segments join into a continuous thread, and the 6px
+   above and below each dot is what carries it past the first and last stop.
+   A label row draws none, so it leaves a gap in the band and is free to start
+   at the far left without the rule running through the words. */
+.ct-stop, .ct-book, .ct-section { position: relative; }
+.ct-stop::before, .ct-book::before, .ct-section::before {
+  content: "";
+  position: absolute;
+  /* On the circles' centre line: 15px in, less half the rule's width. */
+  left: 14.25px; top: 0; bottom: 0;
+  width: 1.5px;
+  background: rgba(31,45,71,.15);
+}
+/* A label carries the rule down through its own top margin before letting go,
+   so the break opens just above the words rather than a line's height earlier.
+   The lead-in is measured from --ct-lead, which each label sets to its own
+   top margin: a lead-in shorter than the margin strands a floating stub of
+   rule above the words with a second gap above it, which is the one break the
+   band should never show. */
+.ct-book::before, .ct-section::before {
+  top: calc(-1 * var(--ct-lead)); bottom: auto; height: var(--ct-lead);
+}
+/* Nothing above the first row to carry down. */
+.chapter-timeline > div:first-child .ct-book::before,
+.chapter-timeline > div:first-child .ct-section::before { display: none; }
+/* Where a book opens, the thread begins at the first dot rather than above it.
+   The 6px a stop draws over its own circle is what ties it to the stop above;
+   at a book's first chapter there is nothing above to tie to, and the stub is
+   left hanging off the rule under the book's name. Started at the circle's
+   centre instead of at the row's top edge, so the circle covers where the rule
+   begins and nothing shows above it.
+   A section title inside a book gets none of this. The thread is already
+   running when the title names the next stretch of it, and the stub is what
+   carries it across the words — so Lehi's dream keeps the line above its
+   chapter 8 while 1 Nephi's own chapter 1 does not. */
+.ct-band-runs > .ct-run:first-child > .ct-stop:first-of-type::before,
+.ct-band-book > .ct-run:first-child > .ct-stop:first-of-type::before,
+.ct-book + .ct-stop::before,
+.ct-book + .ct-section + .ct-stop::before { top: 50%; }
 .ct-stop {
-  /* Fixed row height, so the rule's centre-to-centre inset is exact and the
-     stops stay evenly spaced whether a caption runs to one line or two. */
-  height: 42px;
+  /* A floor rather than a fixed height, so the stops stay evenly spaced at the
+     rule's exact centre-to-centre inset whether a caption runs to one line or
+     two — but a row carrying a long place name under its year can still take
+     the height it needs instead of spilling out of the band. */
+  min-height: 42px;
   display: flex; align-items: center; gap: 10px;
   width: 100%; text-align: left;
   border: 0; background: none; padding: 0; cursor: pointer;
 }
 .ct-stop[aria-current="page"] { cursor: default; }
 
-/* The book's name where the band crosses from one book into the next. Indented
-   clear of the rule, which carries straight on behind it. */
+/* The book's name where the band crosses from one book into the next. Sits at
+   the far left, in the gap its own row leaves in the rule — the same treatment
+   as a section title, so both kinds of label break the band rather than
+   sitting inside it. */
 .ct-book {
-  margin: 9px 0 3px; padding-left: 41px;
+  --ct-lead: 9px;
+  margin: var(--ct-lead) 0 3px;
   font-size: 9.5px; letter-spacing: 0.09em; text-transform: uppercase;
   font-weight: 700; color: rgba(164,133,61,.95);
 }
 .chapter-timeline > div:first-child .ct-book { margin-top: 0; }
+
+/* The named run of chapters a section covers. Set in the reading face against
+   the book label's caps, so the two never read as the same kind of thing, and
+   starting at the far left, in the gap its own row leaves in the rule. */
+.ct-section {
+  --ct-lead: 8px;
+  margin: var(--ct-lead) 0 5px;
+  font-size: 12.5px; line-height: 1.3;
+  color: #1d1d1f;
+}
+/* Where a section title falls directly under a book's name, the gap in the
+   band is already open — the book's row broke it. Drawing the section's own
+   lead-in as well leaves a stub of rule stranded between the two words. */
+.ct-book + .ct-section { --ct-lead: 2px; margin-top: var(--ct-lead); }
+.ct-book + .ct-section::before { display: none; }
+.chapter-timeline > div:first-child .ct-section { margin-top: 0; }
 
 .ct-caption {
   flex: 1; min-width: 0;
@@ -307,6 +623,29 @@ body { margin: 0; }
 }
 .ct-caption[data-on="true"] { font-style: normal; font-weight: 600; color: #1d1d1f; }
 .ct-stop:hover .ct-caption { color: #1d1d1f; }
+
+/* The date, written against the stop where it changes. Set as the book's name
+   is — the same small gold caps — so the two read as the band's own marginalia
+   rather than as part of the chapter list. */
+.ct-date {
+  flex-shrink: 0; margin-left: 12px; max-width: 44%;
+  text-align: right;
+  font-size: 9.5px; letter-spacing: 0.09em; text-transform: uppercase;
+  font-weight: 700; color: rgba(164,133,61,.95);
+  white-space: nowrap;
+}
+/* Where a revelation was given, under the year it was given in. Quieter than
+   the year and free to wrap, since a place can run to "Bank of the Missouri
+   River at Chariton, Missouri". */
+.ct-place {
+  display: block; margin-top: 1px;
+  letter-spacing: .04em; text-transform: none;
+  font-size: 9.5px; font-weight: 500; color: rgba(110,110,115,.85);
+  white-space: normal;
+}
+/* Quiet enough to read as a continuation rather than as an entry of its own —
+   it is there to say the column is not empty, and nothing more. */
+.ct-ditto { color: rgba(110,110,115,.32); font-weight: 400; letter-spacing: 0; }
 
 .ct-dot {
   position: relative; z-index: 1; flex-shrink: 0;
@@ -345,6 +684,35 @@ body { margin: 0; }
   font-size: 13px; line-height: 1; user-select: none;
 }
 
+/* Chapters that read alongside this one. Set as pills rather than a list: they
+   are short references, and a wrapped row fits more of them in a narrow
+   column than one per line would. */
+.rel-list {
+  list-style: none; display: flex; flex-wrap: wrap; gap: 5px;
+  padding: 0; margin: 0;
+}
+.rel-jump {
+  border: 1px solid rgba(31,45,71,.14);
+  background: rgba(255,255,255,.5);
+  border-radius: 999px; padding: 3.5px 10px;
+  font-size: 11px; line-height: 1.35; color: #1d1d1f;
+  cursor: pointer; white-space: nowrap;
+  transition: background .15s, border-color .15s, color .15s,
+              transform .15s cubic-bezier(.2,.8,.2,1);
+}
+.rel-jump:hover {
+  background: rgba(164,133,61,.13);
+  border-color: rgba(164,133,61,.45);
+  color: #6b551f;
+  transform: translateY(-1px);
+}
+.rel-jump:active { transform: translateY(0); }
+
+@media (prefers-reduced-motion: reduce) {
+  .rel-jump { transition: none !important; }
+  .rel-jump:hover { transform: none !important; }
+}
+
 /* A cross connection in the sidebar; clicking it scrolls the reader to its verse. */
 .conn-jump {
   display: flex; gap: 8px; align-items: baseline;
@@ -366,7 +734,7 @@ body { margin: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .lens-row, .lens-arc { transition: none !important; filter: none !important; }
+  .lens-row { transition: none !important; filter: none !important; }
   .lens-row:hover { transform: none !important; }
 }
 
@@ -432,10 +800,17 @@ input::placeholder { color: rgba(110,110,115,.65); }
   to { opacity: 1; transform: none; }
 }
 
-/* Menus anchored under their trigger grow from the top edge. */
+/* Menus anchored under their trigger grow from the top edge — and from the
+   bottom one when the field is at the foot of the window and they open up. */
 .dropdown { animation: dropdown .13s cubic-bezier(.16,1,.3,1) backwards; transform-origin: top center; }
 @keyframes dropdown {
   from { opacity: 0; transform: translateY(-6px) scale(.97); }
+  to { opacity: 1; transform: none; }
+}
+
+.dropup { animation: dropup .13s cubic-bezier(.16,1,.3,1) backwards; transform-origin: bottom center; }
+@keyframes dropup {
+  from { opacity: 0; transform: translateY(6px) scale(.97); }
   to { opacity: 1; transform: none; }
 }
 
@@ -479,15 +854,2011 @@ input::placeholder { color: rgba(110,110,115,.65); }
 @keyframes selpop { from { opacity: 0; } to { opacity: 1; } }
 
 @media (prefers-reduced-motion: reduce) {
-  .tap, .lift, .searchbar, .pop, .popin, .dropdown, .flip-next, .flip-prev, .vhl, .selbar {
+  .tap, .lift, .searchbar, .pop, .popin, .dropdown, .dropup, .flip-next, .flip-prev, .vhl, .selbar {
     transition: none !important; animation: none !important;
   }
   .tap:hover, .lift:hover, .searchbar:hover, .searchbar:focus-within { transform: none !important; }
   .tap:focus-visible, .lift:focus-visible, button:focus-visible, input:focus-visible,
   .conn-anchor:focus-visible, .lens-row:focus-visible { animation: none !important; }
-  .commentary-col, .chrome { scroll-behavior: auto; }
+  .commentary-col, .side-extras { scroll-behavior: auto; }
+}
+
+/* ---- Finding on the page ------------------------------------------------
+   Every match is washed; the one being stood on is filled, so stepping through
+   them reads as moving rather than as more of them lighting up. */
+mark.find-hit {
+  background: rgba(58,90,140,.17);
+  color: inherit;
+  border-radius: 3px;
+  padding: 0 1px;
+  transition: background .15s;
+}
+mark.find-hit[data-current] {
+  background: rgba(164,133,61,.42);
+  box-shadow: 0 0 0 1px rgba(164,133,61,.5);
+}
+
+/* Centred over the reader, directly above the dock — the two stack rather
+   than sharing the width, and both are centred on the same column. The offsets
+   below mirror .navdock's exactly, so they stay in line as the columns come
+   and go. */
+.findbar {
+  position: fixed;
+  left: 0; right: 0; bottom: 88px;
+  z-index: 31;
+  display: flex; justify-content: center;
+  pointer-events: none;
+}
+/* Compact, it clears the dock the way the search button does. Written after
+   the rule above rather than with the rest of the compact layout, so it is
+   this one that wins. */
+@media (max-width: 959.98px) {
+  .findbar { bottom: calc(86px + env(safe-area-inset-bottom, 0px)); }
+  /* Centred, so capping the pill's width keeps the same clearance on both
+     sides — enough on the right for the search button it shares the row with,
+     however long the thing being looked for is. */
+  .findbar > div { max-width: calc(100% - 168px); }
+}
+@media (min-width: 960px) {
+  .findbar { left: var(--side); }
+}
+@media (min-width: 1120px) {
+  .findbar { left: var(--side); right: var(--notes); }
+}
+.find-term {
+  /* min-width 0 so a long term gives way to its ellipsis rather than pushing
+     the buttons out of the pill. */
+  max-width: 130px; min-width: 0; margin-right: 6px;
+  font-size: 12.5px; font-weight: 600; color: #1d1d1f;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.find-count {
+  margin-right: 2px;
+  font-size: 11.5px; font-weight: 600; color: #6e6e73;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  mark.find-hit { transition: none !important; }
+}
+
+/* ---- A volume's other doors ---------------------------------------------
+   Its arc, its prophets, its map: shelved with the books but marked in gold,
+   so each reads as a different kind of way in. */
+.section-tile {
+  border-radius: 15px; padding: 15px 18px; text-align: left;
+  display: flex; align-items: center; gap: 10px; cursor: pointer;
+}
+.section-tile-icon { display: flex; color: #a4853d; flex-shrink: 0; }
+.section-tile-name { flex: 1; font-size: 16.5px; font-weight: 500; color: #6b551f; }
+.section-tile-count { font-size: 12px; font-weight: 700; }
+/* The D&C has no book shelf, so its sections carry these in a row of their own
+   above the numbers. */
+.volume-sections {
+  display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 16px;
+}
+.volume-sections .section-tile { flex: 0 1 220px; }
+
+.book-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px;
+}
+
+/* A chapter has nothing to say for itself but its number, so the cells are
+   sized to the number rather than to the shelf beside them — about half what
+   they were, which puts twice as many in reach without scrolling. */
+.chapter-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(32px, 1fr)); gap: 6px;
+}
+.chapter-cell {
+  border-radius: 10px; padding: 9px 0; text-align: center; cursor: pointer;
+  font-size: 13.5px; font-weight: 500; font-variant-numeric: oldstyle-nums;
+}
+/* Below the shelf and set off from it: a rule, so the eye reads them as a
+   different kind of door rather than as the last few books of the volume. */
+.book-grid + .volume-sections {
+  margin: 0; padding-top: 20px;
+  border-top: 1px solid rgba(31,45,71,.10);
+  margin-top: 22px;
+}
+
+.bt-card { --pad: clamp(24px, 5vw, 52px); padding: var(--pad); }
+.bt-head { text-align: center; margin-bottom: 24px; }
+.bt-title {
+  margin: 0; font-size: clamp(22px, 3.2vw, 29px); font-weight: 600; letter-spacing: .01em;
+}
+.bt-sub {
+  margin: 7px 0 0;
+  font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+/* On the page the band has room to breathe, and nothing above it to clear. */
+.bt-card .chapter-timeline { padding-top: 0; }
+.bt-card .ct-caption { font-size: 12.5px; }
+/* Roomier here than in the sidebar band, so the lead-in has to be told about
+   it — the two are read off the same custom property. */
+.bt-card .ct-section { --ct-lead: 14px; font-size: 13px; margin: var(--ct-lead) 0 7px; }
+
+/* ---- The arc set in columns ---------------------------------------------
+   A band to a book, and the book divided across its columns, so everything
+   standing at one height on the page belongs to one book and the step across a
+   column gap is the step from one chapter to the next.
+   The runs flow rather than being held whole: a run kept whole cannot be cut
+   in half, but it cannot fill a column either — a book of a few long runs
+   stands in two of the three columns it was given and leaves the third blank.
+   A run picked up at the head of the next column costs the reader nothing; a
+   column of white paper costs them the width of the page.
+   Three columns where there is room for them, fewer as the page narrows —
+   written as a column width and a ceiling rather than a flat count, so the
+   band steps down on its own instead of at a breakpoint guessed in advance.
+   Balanced, which is the default: `column-fill: auto` needs a height to fill,
+   and anything past that height opens further columns off the side of the page
+   rather than stopping at the count asked for. */
+.ct-band + .ct-band { margin-top: 15px; }
+.ct-band-name {
+  margin: 0 0 9px; padding-bottom: 5px;
+  border-bottom: 1px solid rgba(164, 133, 61, .34);
+  font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+.ct-band-runs { columns: 215px 3; column-gap: 28px; }
+
+/* A band that had to gather several short books is laid out rather than
+   poured. A flow balanced by height puts the break wherever the arithmetic
+   falls — two chapters of one book at the foot of a column and the third book
+   opening halfway down the next — which reads as one book cutting into
+   another. A track apiece keeps each book whole and standing at the head of
+   its own column, which is the promise the band's shape already makes. The
+   track floor matches the flowed columns' width, so a band of either kind
+   steps down to fewer columns at the same width of window. */
+.ct-band-books {
+  column-count: auto; column-width: auto;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+  column-gap: 28px;
+}
+
+.ct-band-runs .ct-run {
+  /* The gap a label's own top margin used to open. Set on the block instead,
+     so the first run in a column starts clear of the column's top rather than
+     hanging its margin off it. */
+  padding-bottom: 14px;
+}
+/* What a break may not fall between: a run's title left at the foot of a
+   column with its chapters over the fold, or a stop split down the middle. */
+.ct-band-runs .ct-section, .ct-band-runs .ct-book { break-after: avoid; }
+.ct-band-runs .ct-stop { break-inside: avoid; }
+/* Every run is its own thread here, so there is nothing above the first label
+   of a block for a lead-in to reach back to; drawn, it dangles. */
+.ct-band-runs .ct-book, .ct-band-runs .ct-section { margin-top: 0; }
+.ct-band-runs .ct-book::before, .ct-band-runs .ct-section::before { display: none; }
+.ct-band-runs .ct-book { margin-bottom: 1px; }
+.bt-card .ct-band-runs .ct-section { margin-bottom: 4px; }
+
+/* The years a book covers, set against its name at the head of its band: the
+   book dated once, where a reader looks to see what it is. */
+.ct-band-name { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.ct-band-span {
+  font-size: 9.5px; letter-spacing: .06em; font-weight: 700;
+  color: rgba(164,133,61,.9); white-space: nowrap;
+}
+
+/* The era a run opens in, where a band had to gather several short books and
+   so could not be dated over the whole of it. */
+.ct-run-date {
+  float: right; margin-left: 10px; padding-top: 3px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 9.5px; letter-spacing: .09em; text-transform: uppercase;
+  font-weight: 700; color: rgba(164,133,61,.95);
+  white-space: nowrap;
+}
+/* No date rides beside a caption here, so a caption has the column to itself
+   and can run to three lines before it is cut. The stops close up to suit: a
+   band of 239 of them is read by scanning, and the air between rows is what
+   makes that a long scroll rather than a glance. */
+.ct-band-runs .ct-caption { -webkit-line-clamp: 3; }
+.ct-band-runs .ct-stop { min-height: 38px; gap: 10px; }
+.ct-band-runs .ct-dot { width: 27px; height: 27px; font-size: 11.5px; }
+/* The thread is drawn on the circles' centre line, which has moved in with
+   them: 13.5px, less half the rule. */
+.ct-band-runs .ct-stop::before { left: 12.75px; }
+
+/* ---- The contents card --------------------------------------------------
+   The open volume, stood in the margin beside the page. It is only ever shown
+   where the margin is genuinely free: the reader's own views keep both their
+   columns, and a narrow window has no margin at all. Hidden by default, so
+   every width that has not asked for it is a width without it. */
+.toc-card { display: none; }
+
+/* The width at which the centred column's margin is wide enough to hold the
+   card and still leave a gutter either side of it. Below this the page keeps
+   the bottom pill, which needs no room of its own. */
+/* 980px is the pair at its narrowest — 252 + 22 + 652 — with 20px of margin
+   either side and a little slack. */
+@media (min-width: 980px) {
+  .content-toc ~ .navdock { display: none; }
+
+  .toc-card {
+    display: flex; flex-direction: column;
+    position: fixed;
+    top: 18px; bottom: 18px;
+    /* The pair is centred, so the card's edge is half the pair's width left of
+       the middle — not measured from the page's left edge, which would let it
+       drift away from the column it belongs to as the window grows. */
+    left: calc(50% - var(--solo) / 2 - var(--toc-pair) / 2);
+    width: var(--toc-w);
+    z-index: 15;
+    overflow: hidden;
+  }
+
+  /* The column takes the other half: pushed right by half the pair, so the two
+     together sit centred rather than the column alone. */
+  .content-toc {
+    margin-left: calc(50% - var(--solo) / 2 + var(--toc-pair) / 2);
+    margin-right: 0;
+  }
+}
+
+/* Back to the shelf of volumes. Sits above the scroll, so it stays put while
+   the volume's own contents move under it. */
+.toc-up {
+  flex-shrink: 0;
+  display: flex; align-items: center; gap: 6px;
+  padding: 13px 16px 11px;
+  border: 0; border-bottom: 1px solid rgba(31,45,71,.08);
+  background: none; cursor: pointer;
+  font-size: 11px; letter-spacing: .07em; text-transform: uppercase;
+  font-weight: 700; color: #8e8e93;
+  transition: color .16s;
+}
+.toc-up:hover { color: #1d1d1f; }
+.toc-up-chev { font-size: 15px; line-height: 1; margin-top: -1px; }
+
+.toc-scroll {
+  flex: 1; min-height: 0;
+  overflow-y: auto; overscroll-behavior: contain;
+  padding: 12px 10px 16px;
+}
+
+.toc-volume {
+  display: block; width: 100%;
+  margin: 0 0 8px; padding: 6px 8px;
+  border: 0; background: none; border-radius: 9px;
+  text-align: left; cursor: pointer;
+  font-size: 17px; font-weight: 600; letter-spacing: -.01em; color: #1d1d1f;
+  transition: background .16s;
+}
+.toc-volume:hover { background: rgba(31,45,71,.05); }
+.toc-volume[data-on] { background: rgba(164,133,61,.13); }
+
+.toc-list { list-style: none; margin: 0; padding: 0; }
+/* The ways in that are not the text, set off from the books below them. */
+.toc-sections {
+  padding-bottom: 9px; margin-bottom: 7px;
+  border-bottom: 1px solid rgba(31,45,71,.08);
+}
+
+.toc-row {
+  display: flex; align-items: center; gap: 9px;
+  width: 100%; padding: 8px;
+  border: 0; background: none; border-radius: 9px;
+  text-align: left; cursor: pointer;
+  transition: background .16s;
+}
+.toc-row:hover { background: rgba(31,45,71,.05); }
+.toc-row[data-on] { background: rgba(164,133,61,.13); }
+.toc-row-name { flex: 1; min-width: 0; font-size: 14px; color: #1d1d1f; }
+.toc-section .toc-row-name { font-weight: 500; color: #6b551f; }
+.toc-row-icon { display: flex; color: #a4853d; flex-shrink: 0; }
+.toc-book .toc-row-name { font-size: 14.5px; font-weight: 500; }
+
+/* The shelf, which only stands here while the page is showing something other
+   than the shelf — so it is set off from the sections above it by a rule and
+   its own heading rather than simply following them. */
+/* The heading is division enough between the ways in and the text itself; a
+   rule as well draws a line across a card that is only one column wide. */
+.toc-group { margin-top: 12px; }
+.toc-heading {
+  margin: 0 0 5px; padding: 0 8px;
+  font-size: var(--fs-label); letter-spacing: .07em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+
+.toc-up:focus-visible, .toc-volume:focus-visible, .toc-row:focus-visible {
+  outline: 2px solid #3a5a8c; outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .toc-row, .toc-volume, .toc-up { transition: none !important; }
+}
+
+/* ---- Evidences ----------------------------------------------------------
+   A shelf of studies, and each study a run of forms with the passages under
+   them. Every reference is a door into the text, so the whole page reads as
+   an argument the reader can check rather than one to be taken on trust. */
+.ev-shelf-title {
+  font-size: 26px; font-weight: 500; letter-spacing: -.015em; margin: 18px 4px 10px;
+}
+.ev-shelf-intro {
+  margin: 0 4px 16px; max-width: 56ch;
+  font-size: var(--fs-meta); line-height: 1.7; color: #6e6e73;
+}
+.ev-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+.ev-tile {
+  border-radius: 15px; padding: 15px 18px; text-align: left;
+  display: flex; flex-direction: column; gap: 4px; cursor: pointer;
+}
+.ev-tile-name { font-size: 16.5px; font-weight: 500; }
+.ev-tile-sub { font-size: var(--fs-note); line-height: 1.4; color: #6e6e73; }
+
+.ev-card { --pad: clamp(24px, 5vw, 52px); padding: var(--pad); }
+.ev-head { text-align: center; margin-bottom: 30px; }
+.ev-title { margin: 0; font-size: clamp(22px, 3.2vw, 29px); font-weight: 600; letter-spacing: .01em; }
+.ev-sub {
+  margin: 7px 0 0;
+  font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+/* Set left and flush to the card's own edge, unlike the title and subtitle
+   above it: the introduction runs to a paragraph, and it starts where the first
+   column of forms under it starts rather than floating between them. */
+.ev-intro {
+  margin: 16px 0 0; text-align: left;
+  font-size: var(--fs-meta); line-height: 1.72; color: #6e6e73;
+}
+
+/* What the passage is being shown for. The chart marks it rather than
+   describing it, so the mark has to carry the whole point: darker than the
+   words around it and set in the bold weight, which is what tells a reader
+   where to look without a caption saying so. */
+.ev-mark { font-weight: 700; color: #1d1d1f; }
+
+/* A card to a form. Set in columns rather than a grid: each card is only as
+   tall as what it holds, and the next one starts where it ends, so nothing is
+   padded out to match a taller card beside it. The only spacing is the gap
+   between the columns and the gap between the cards down one. */
+.ev-forms { columns: 268px 3; column-gap: 14px; }
+.ev-form {
+  break-inside: avoid; margin-bottom: 14px;
+  display: flex; flex-direction: column;
+  border: 1px solid rgba(31,45,71,.13); border-radius: 16px;
+  padding: 17px 18px 14px;
+  background: rgba(255,255,255,.42);
+  cursor: pointer;
+  transition: border-color .16s, background .16s;
+}
+.ev-form:hover { border-color: rgba(31,45,71,.24); background: rgba(255,255,255,.62); }
+/* ---- The form window ----------------------------------------------------
+   A form opened over the page rather than in the card it came from: a ladder
+   or a run of a hundred phrases wants the whole width and its own scroll, and
+   the card it came from stays where it was underneath. */
+.ev-veil {
+  position: fixed; inset: 0; z-index: 60;
+  display: grid; place-items: center;
+  padding: clamp(14px, 4vw, 44px);
+  background: rgba(22,26,34,.34);
+  backdrop-filter: blur(4px) saturate(120%);
+  -webkit-backdrop-filter: blur(4px) saturate(120%);
+  animation: ev-veil-in .16s ease-out;
+}
+@keyframes ev-veil-in { from { opacity: 0; } }
+.ev-window {
+  display: flex; flex-direction: column;
+  width: min(880px, 100%); max-height: 100%;
+  border-radius: 22px;
+  background: rgba(252,252,253,.97);
+  backdrop-filter: blur(26px) saturate(180%);
+  -webkit-backdrop-filter: blur(26px) saturate(180%);
+  box-shadow: 0 24px 70px rgba(22,30,48,.3), 0 2px 8px rgba(22,30,48,.16);
+  animation: ev-window-in .2s cubic-bezier(.2,.8,.2,1);
+  overflow: hidden;
+}
+@keyframes ev-window-in { from { opacity: 0; transform: translateY(10px) scale(.985); } }
+.ev-window-head {
+  flex-shrink: 0;
+  display: flex; align-items: flex-start; gap: 14px;
+  padding: 20px clamp(18px, 3.5vw, 30px) 14px;
+  border-bottom: 1px solid rgba(31,45,71,.12);
+}
+.ev-window-head > div { flex: 1; min-width: 0; }
+.ev-window-name { margin: 0; font-size: 20px; font-weight: 600; letter-spacing: -.01em; color: #1d1d1f; }
+.ev-window-close {
+  flex-shrink: 0;
+  border: 0; background: rgba(110,110,115,.13); border-radius: 999px;
+  width: 28px; height: 28px; font-size: 12px; line-height: 1;
+  color: #6e6e73; cursor: pointer; display: grid; place-items: center;
+}
+.ev-window-close:hover { background: rgba(110,110,115,.24); color: #1d1d1f; }
+/* Only the window scrolls; the page behind it is held still while it is up. */
+.ev-window-body {
+  overflow-y: auto; overscroll-behavior: contain;
+  padding: 18px clamp(18px, 3.5vw, 30px) clamp(20px, 3.5vw, 28px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ev-veil, .ev-window { animation: none; }
+}
+
+.ev-form-name { margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -.01em; color: #1d1d1f; }
+.ev-form-gloss { margin: 5px 0 0; font-size: var(--fs-meta); line-height: 1.5; color: #6e6e73; }
+
+/* The taste of the form the card carries — as much of an example as it takes
+   to show the thing, up to four lines. */
+.ev-sample {
+  margin: 11px 0 0;
+  font-size: 13.5px; line-height: 1.55; color: #3d3d42;
+}
+.ev-sample-line {
+  margin: 0;
+  display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.ev-sample-line + .ev-sample-line { margin-top: 4px; }
+.ev-sample-tag {
+  display: block; margin-bottom: 3px;
+  font-size: 10px; letter-spacing: .09em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+/* Which half of a pair this is — source or reversal, earliest or current. */
+.ev-sample-side {
+  margin-right: 6px;
+  font-size: 10.5px; letter-spacing: .07em; text-transform: uppercase;
+  font-weight: 700; color: #6e6e73;
+}
+.ev-sample .ev-mark { font-weight: 700; }
+
+/* Opened, the gloss carries the form's whole description, so it is given the
+   line height a paragraph wants. It runs the width of the head, which the
+   close button already keeps it out of. */
+.ev-window-head .ev-form-gloss { line-height: 1.6; }
+
+/* Pushed to the foot of the card by the auto margin, so a card ends with its
+   own control however tall the rest of it runs. */
+.ev-more {
+  align-self: flex-start; margin-top: auto; padding: 9px 0 0;
+  border: 0; background: none; cursor: pointer;
+  font-family: inherit; font-size: 12.5px; font-weight: 600; color: #a4853d;
+}
+.ev-more:hover { color: #6b551f; text-decoration: underline; text-underline-offset: 3px; }
+
+/* A reference, always a link where the text can be reached. Set as the
+   prophets' are — bracketed, with the same breathing room inside the brackets,
+   and a little under the size of the words it belongs to. */
+.ev-ref-group { white-space: nowrap; font-size: 11.25px; }
+.ev-ref {
+  padding: 0 1.5px;
+  font-size: 12px; letter-spacing: .02em;
+  font-weight: 700; color: #a4853d;
+}
+.ev-ref-link { border: 0; background: none; cursor: pointer; font-family: inherit; }
+.ev-ref-link:hover { color: #6b551f; text-decoration: underline; text-underline-offset: 3px; }
+
+/* Short phrases: two to a row where there is width for it, since each is only
+   a few words and a single column would leave the page mostly margin. */
+.ev-phrases { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 26px; }
+.ev-phrases li {
+  break-inside: avoid; margin: 0 0 9px;
+  font-size: var(--fs-body); line-height: 1.55;
+}
+.ev-phrase { color: #3d3d42; }
+.ev-gloss { margin-left: 7px; font-size: var(--fs-note); font-style: italic; color: #6e6e73; }
+@media (max-width: 599.98px) { .ev-phrases { columns: 1; } }
+
+/* The two readings of a comparison: the label that tells them apart, and the
+   quotation itself. */
+.ev-side-label {
+  display: block; margin-bottom: 3px;
+  font-size: var(--fs-label); letter-spacing: .09em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+.ev-side-text { margin: 0; font-size: var(--fs-body); line-height: 1.6; color: #3d3d42; }
+
+/* The same comparison turned on its side: a column to each reading, the labels
+   set once across the top and a rule down between them. The two rules are the
+   T — everything below hangs off them, and a row is read across rather than
+   down. */
+.ev-tchart { display: grid; grid-template-columns: repeat(var(--ev-cols, 2), 1fr); }
+.ev-tchart-head {
+  padding: 0 16px 8px 0;
+  border-bottom: 1px solid rgba(164, 133, 61, .42);
+  font-size: var(--fs-label); letter-spacing: .09em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+.ev-tchart-cell { padding: 13px 16px 13px 0; border-bottom: 1px solid rgba(31, 45, 71, .08); }
+/* Every column after the first carries the rule, so the vertical runs from
+   under the heads to the foot of the chart without a break. */
+.ev-tchart-div { padding-left: 17px; border-left: 1px solid rgba(31, 45, 71, .1); }
+.ev-tchart-end { padding-right: 0; }
+/* The foot of the chart is the last quotation, not a rule under it. */
+.ev-tchart-row:last-child .ev-tchart-cell { border-bottom: 0; }
+/* A note over a row spans the whole chart, since it is about the comparison
+   rather than about either side of it — which edition made the change, or that
+   no edition made one. */
+.ev-tchart-note {
+  grid-column: 1 / -1; margin: 16px 0 -3px;
+  font-size: var(--fs-note); letter-spacing: .04em; font-style: italic; color: #6e6e73;
+}
+/* A reading with nothing set against it: neither head is true of it, so it
+   takes the width of the chart and keeps its own label. */
+.ev-tchart-wide { grid-column: 1 / -1; padding-right: 0; }
+/* The labels belong to the heads out here; they come back when the chart
+   stacks, and a full-width row never gave its own up. */
+.ev-tchart-label { display: none; }
+.ev-tchart-wide .ev-tchart-label { display: block; }
+
+/* Two columns of quotation in a phone's width would be a column of one word,
+   so the chart stands back up: each half under the other, with its own label
+   again and the pair kept together by dropping the rule between them. */
+@media (max-width: 599.98px) {
+  .ev-tchart { grid-template-columns: 1fr; }
+  .ev-tchart-head { display: none; }
+  .ev-tchart-label { display: block; }
+  .ev-tchart-cell { padding: 0 0 13px; border-bottom: 0; }
+  .ev-tchart-cell:not(.ev-tchart-div) { padding-top: 14px; }
+  .ev-tchart-div { padding-left: 0; border-left: 0; }
+  .ev-tchart-end { padding-bottom: 15px; border-bottom: 1px solid rgba(31, 45, 71, .08); }
+}
+
+/* A passage set a line to a rung, so the repeated words stack up the page the
+   way the argument climbs. */
+.ev-ladders { display: flex; flex-direction: column; gap: 22px; }
+.ev-ladder-head { margin: 0 0 7px; }
+.ev-ladder-title { font-size: var(--fs-label); letter-spacing: .09em; text-transform: uppercase; font-weight: 700; color: #6e6e73; }
+.ev-rungs {
+  margin: 0;
+  font-size: var(--fs-body); line-height: 1.62; color: #3d3d42;
+}
+.ev-rung { display: block; }
+/* Each rung after the first is set in a little, so the ladder leans up the
+   page and the repeated word at each joint sits where the eye can catch it. */
+.ev-rung + .ev-rung { text-indent: 0; }
+
+.ev-quotes { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 14px; }
+.ev-quotes-tight { gap: 8px; margin-top: 8px; }
+.ev-quote-head {
+  margin: 0 0 5px;
+  font-size: var(--fs-label); letter-spacing: .09em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+.ev-quote { margin: 0; font-size: var(--fs-body); line-height: 1.62; color: #3d3d42; }
+
+.ev-words { display: flex; flex-direction: column; gap: 20px; }
+.ev-word-name { margin: 0; font-size: 16px; font-weight: 600; color: #1d1d1f; }
+.ev-word-root { margin: 3px 0 0; font-size: var(--fs-meta); line-height: 1.5; font-style: italic; color: #6e6e73; }
+
+/* ---- Chapter overview ---------------------------------------------------
+   The volume as a shape: a square to a chapter, coloured along one ramp from
+   the grey of its history to the gold of its teaching. */
+.co-card { --pad: clamp(24px, 5vw, 52px); padding: var(--pad); }
+.co-head { text-align: center; margin-bottom: 20px; }
+.co-title {
+  margin: 0; font-size: clamp(22px, 3.2vw, 29px); font-weight: 600; letter-spacing: .01em;
+}
+.co-sub {
+  margin: 7px 0 0;
+  font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+.co-intro {
+  margin: 12px auto 0; max-width: 58ch;
+  font-size: var(--fs-meta); line-height: 1.7; color: #6e6e73;
+}
+
+/* Two questions of the same shape, set as two rows so it is plain they are
+   separate — and that one of each can be asked at once. */
+.co-filters { margin-bottom: 22px; }
+.co-filter + .co-filter { margin-top: 12px; }
+.co-filter-head {
+  margin: 0 0 7px;
+  font-size: var(--fs-label); letter-spacing: .11em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+.co-clear {
+  display: block; margin: 12px 0 0;
+  border: 1px dashed rgba(31,45,71,.28); background: none;
+  border-radius: 999px; padding: 4px 14px; cursor: pointer;
+  font-size: 11px; color: #6e6e73;
+}
+.co-clear:hover { border-color: rgba(31,45,71,.5); color: #1d1d1f; }
+
+/* The scale, which doubles as the filter: the order it reads in is the order
+   the ramp runs in, so the key is itself the gradient. */
+.co-key {
+  list-style: none; margin: 0; padding: 0;
+  display: flex; flex-wrap: wrap; gap: 5px;
+}
+/* No swatch to carry, and two dozen of them, so they are set tighter. */
+.co-voices .co-key-item { padding: 5px 10px; }
+.co-key-item {
+  display: flex; align-items: center; gap: 6px;
+  border: 1px solid rgba(31,45,71,.12); background: rgba(255,255,255,.5);
+  border-radius: 999px; padding: 5px 10px 5px 6px; cursor: pointer;
+  font-size: 11.5px; color: #3d3d42;
+  transition: border-color .16s, background .16s;
+}
+.co-key-item:hover { border-color: rgba(31,45,71,.3); background: rgba(255,255,255,.85); }
+.co-key-item[data-on] {
+  border-color: #a4853d; background: rgba(164,133,61,.13); color: #1d1d1f; font-weight: 600;
+}
+.co-swatch { width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; }
+
+.co-books { display: flex; flex-direction: column; gap: 14px; }
+.co-book { display: grid; grid-template-columns: 96px 1fr; align-items: start; gap: 12px; }
+.co-book-name {
+  margin: 3px 0 0; font-size: 13px; font-weight: 500; color: #1d1d1f;
+  text-align: right; line-height: 1.25;
+}
+.co-cells { display: flex; flex-wrap: wrap; gap: 3px; }
+
+.co-cell {
+  width: 26px; height: 26px; flex-shrink: 0;
+  border: 0; border-radius: 5px; padding: 0; cursor: pointer;
+  display: grid; place-items: center;
+  transition: transform .14s cubic-bezier(.2,.8,.2,1), opacity .16s, box-shadow .14s;
+}
+.co-cell:hover { transform: scale(1.18); box-shadow: 0 2px 8px rgba(31,45,71,.28); z-index: 1; }
+.co-cell:disabled { cursor: default; }
+.co-cell:disabled:hover { transform: none; box-shadow: none; }
+/* Colour comes from the component, which picks it per square from how light
+   the square is — see numeralOn. */
+.co-cell-n { font-size: 9.5px; font-weight: 600; font-variant-numeric: tabular-nums; }
+/* Held back rather than hidden, so a filtered kind is read against the shape
+   of the whole volume instead of against a gap where the rest used to be. A
+   flat ghost rather than a fade: faded by opacity, the pale end of the ramp
+   disappears against the card while the gold end still shows, and the volume's
+   shape comes back crooked. The background is set per square from the ramp, so
+   overriding it here has to win against the element's own style. */
+.co-cell[data-dim] { background: rgba(31,45,71,.085) !important; }
+.co-cell[data-dim] .co-cell-n { color: transparent !important; text-shadow: none !important; }
+.co-cell[data-dim]:hover { background: rgba(31,45,71,.2) !important; transform: none; box-shadow: none; }
+
+/* A phone has no room for a label column beside the squares. */
+@media (max-width: 599.98px) {
+  .co-book { grid-template-columns: 1fr; gap: 5px; }
+  .co-book-name { text-align: left; }
+  .co-cell { width: 24px; height: 24px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .co-cell { transition: opacity .16s; }
+  .co-cell:hover { transform: none; }
+}
+
+/* ---- Coming forth -------------------------------------------------------
+   The volume's outward history: one figure to a stop, down the same thread the
+   chapter band uses, so the two timelines in this volume read as the same kind
+   of thing pointed at different questions. */
+.cf-card { --pad: clamp(24px, 5vw, 52px); padding: var(--pad); }
+.cf-head { text-align: center; margin-bottom: 20px; }
+.cf-title {
+  margin: 0; font-size: clamp(22px, 3.2vw, 29px); font-weight: 600; letter-spacing: .01em;
+}
+.cf-sub {
+  margin: 7px 0 0;
+  font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+/* Sits under the title as the map's one-line subtitle does, but runs to a
+   sentence, so it is set as prose and centred on a measure of its own rather
+   than stretched across the card. */
+.cf-intro {
+  margin: 12px auto 0; max-width: 52ch;
+  font-size: var(--fs-meta); line-height: 1.7; color: #6e6e73;
+}
+
+.cf-thread { list-style: none; margin: 0; padding: 0; position: relative; }
+
+/* Drawn stop by stop rather than as one line down the card, for the reason the
+   chapter band's is: the card is glass over a gradient, so a year cannot mask
+   the rule by painting a panel behind itself — there is no flat colour to
+   match. A year row draws no segment, so the thread breaks around the number. */
+.cf-stop { position: relative; padding: 20px 0 20px 76px; }
+.cf-stop::before {
+  content: "";
+  position: absolute;
+  /* On the portraits' centre line: 56px wide, so 28px in, less half the rule. */
+  left: 27.25px; top: 0; bottom: 0;
+  width: 1.5px;
+  background: rgba(31,45,71,.15);
+}
+/* Nothing above the first stop to carry down, and nothing below the last. */
+.cf-stop:first-child::before { top: 46px; }
+.cf-stop:last-child::before { bottom: auto; height: 64px; }
+
+.cf-year {
+  position: absolute; left: 0; top: 14px;
+  margin: 0; width: 56px;
+  text-align: center;
+  font-size: var(--fs-label); font-weight: 700; letter-spacing: .04em;
+  color: #a4853d;
+  /* The rule runs behind the number, so the number needs its own ground. The
+     card's own tint is the nearest thing to a flat colour here; at this size
+     a soft disc reads as a bead on the thread rather than as a patch. */
+  background: radial-gradient(closest-side, rgba(253,253,254,.96) 62%, rgba(253,253,254,0));
+  padding: 3px 0;
+}
+/* A stop that opens a year starts below its bead. */
+.cf-stop:has(.cf-year) { padding-top: 34px; }
+.cf-stop:has(.cf-year)::before { top: 0; }
+.cf-stop:first-child:has(.cf-year)::before { top: 40px; }
+
+/* On a wide screen the portrait is lifted out of the flow onto the thread, so
+   this row carries the name alone and the prose below it lines up under both. */
+.cf-figure { min-width: 0; }
+.cf-portrait {
+  flex-shrink: 0;
+  width: 56px; height: 70px;
+  object-fit: cover; object-position: center top;
+  border-radius: 8px;
+  /* Set back against the page the way a plate in a book is, rather than
+     floating: a hairline and a soft shadow, no ring of white. */
+  border: 1px solid rgba(31,45,71,.14);
+  box-shadow: 0 2px 8px rgba(31,45,71,.10);
+  background: rgba(31,45,71,.05);
+  /* Sits over the thread, which runs up its centre. */
+  position: absolute; left: 0; top: 34px;
+}
+.cf-stop:not(:has(.cf-year)) .cf-portrait { top: 20px; }
+
+.cf-body { min-width: 0; }
+.cf-name {
+  margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -.01em;
+  color: #1d1d1f;
+}
+.cf-years {
+  margin-left: 9px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: var(--fs-note); font-weight: 400; color: #6e6e73; letter-spacing: 0;
+}
+.cf-role {
+  margin: 3px 0 0;
+  font-size: var(--fs-label); letter-spacing: .09em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+.cf-text {
+  margin: 9px 0 0;
+  font-size: var(--fs-body); line-height: 1.68; color: #3d3d42;
+}
+.cf-text em { font-style: italic; }
+
+/* On a phone the portrait cannot sit on the thread and leave a reading measure
+   beside it, so the thread goes, the portrait stands with the name, and the
+   prose takes the full width underneath. */
+@media (max-width: 519.98px) {
+  .cf-stop, .cf-stop:has(.cf-year) { padding: 18px 0; }
+  .cf-stop::before { display: none; }
+  .cf-year {
+    position: static; width: auto; text-align: left;
+    background: none; padding: 0; margin-bottom: 12px;
+  }
+  .cf-portrait, .cf-stop:not(:has(.cf-year)) .cf-portrait {
+    position: static;
+    width: 52px; height: 65px;
+  }
+  .cf-figure { display: flex; gap: 13px; align-items: center; }
+  .cf-text { margin-top: 12px; }
+}
+
+/* ---- Resources ----------------------------------------------------------
+   What has been written about the volume, shelved the way the evidences are: a
+   card to a work, in columns, each only as tall as what it holds. */
+.rs-card { --pad: clamp(24px, 5vw, 52px); padding: var(--pad); }
+.rs-head { text-align: center; margin-bottom: 30px; }
+.rs-title {
+  margin: 0; font-size: clamp(22px, 3.2vw, 29px); font-weight: 600; letter-spacing: .01em;
+}
+.rs-sub {
+  margin: 7px 0 0;
+  font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+.rs-intro { margin: 14px auto 0; max-width: 58ch; font-size: var(--fs-meta); line-height: 1.7; color: #6e6e73; }
+
+/* One shelf to a kind of thing — the books, then the articles by subject, then
+   the archives. The heading is the volume's own small print, ruled off so a
+   shelf reads as a shelf rather than as more cards. */
+.rs-group + .rs-group { margin-top: 30px; }
+
+/* The shelves that carry no jackets are a column wide apiece, so two subjects
+   stand side by side. Columns rather than a grid: a subject with one article in
+   it should not hold a row open to the height of a subject with four. */
+.rs-columns { margin-top: 30px; columns: 330px 2; column-gap: 26px; }
+.rs-columns .rs-group { break-inside: avoid; margin-top: 0; }
+.rs-columns .rs-group + .rs-group { margin-top: 28px; }
+/* One to a column here, since the column is already one card wide. */
+.rs-columns .rs-shelf { columns: 1; }
+.rs-group-name {
+  margin: 0 0 14px; padding-bottom: 7px;
+  border-bottom: 1px solid rgba(164, 133, 61, .34);
+  font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+
+/* Columns rather than a grid, for the reason the forms are: an entry is as
+   tall as its own sentence, and the next one starts where it ends rather than
+   being padded out to match a taller card beside it. */
+.rs-shelf { list-style: none; margin: 0; padding: 0; columns: 300px 3; column-gap: 14px; }
+.rs-work {
+  break-inside: avoid; margin-bottom: 14px;
+  display: flex; gap: 15px; align-items: flex-start;
+  border: 1px solid rgba(31,45,71,.13); border-radius: 16px;
+  padding: 17px 18px 15px;
+  background: rgba(255,255,255,.42);
+}
+
+/* The jackets come at every shape, so each is fitted whole into a box of one
+   size — contained rather than cropped, since a cover cropped is a cover with
+   its title cut. Stood against the middle of the entry rather than the top of
+   it, so a long entry does not leave its jacket stranded at the ceiling. */
+.rs-cover {
+  flex-shrink: 0; align-self: center;
+  width: 74px; height: 100px;
+  object-fit: contain; object-position: center;
+  /* Set back against the page the way the coming-forth portraits are: a
+     hairline and a soft shadow. Drawn with drop-shadow rather than border and
+     box-shadow, because the jacket is fitted inside this box and a frame on
+     the box would float clear of the jacket's own edges. */
+  filter: drop-shadow(0 0 .5px rgba(31,45,71,.45)) drop-shadow(0 2px 5px rgba(31,45,71,.18));
+}
+/* Everything but the jacket, kept in one column so every line of the entry —
+   the title, the byline, the sentence — starts at the same margin. */
+.rs-body { min-width: 0; flex: 1; }
+.rs-name {
+  margin: 0;
+  font-size: 15px; font-weight: 600; line-height: 1.35; letter-spacing: -.01em; color: #1d1d1f;
+}
+/* One gap, written once and used at all three joints: title to author, author
+   to sentence, sentence to the links. An entry that steps down by a different
+   amount at every joint reads as four things rather than one. */
+.rs-work { --rs-gap: 8px; }
+.rs-byline {
+  margin: var(--rs-gap) 0 0;
+  font-size: var(--fs-note); letter-spacing: .02em; font-weight: 600; color: #a4853d;
+}
+/* The imprint, or how many volumes it runs to: beside the author, in the grey
+   the rest of the small print is set in. */
+.rs-detail { margin-left: 7px; font-weight: 400; font-style: italic; color: #6e6e73; }
+.rs-text {
+  margin: var(--rs-gap) 0 0;
+  font-size: var(--fs-meta); line-height: 1.6; color: #3d3d42;
+}
+.rs-text em { font-style: italic; }
+
+/* Underlined standing, not only under the cursor: these are the one kind of
+   thing on the site that leaves it, and a link out should look like a link
+   before it is pointed at. */
+.rs-links { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: var(--rs-gap) 0 0; }
+.rs-link {
+  font-size: 12.5px; font-weight: 600; color: #a4853d;
+  text-decoration: underline; text-underline-offset: 3px;
+  text-decoration-thickness: 1px; text-decoration-color: rgba(164, 133, 61, .5);
+}
+.rs-link:hover { color: #6b551f; text-decoration-color: currentColor; }
+
+/* A phone's column is narrow enough that a full-size jacket would leave the
+   sentence beside it about thirty characters wide, so the jacket gives some of
+   its width back. */
+@media (max-width: 519.98px) {
+  .rs-work { gap: 13px; }
+  .rs-cover { width: 58px; height: 79px; }
+}
+
+/* ---- The study charts ---------------------------------------------------
+   A part to a table, in the tchart's own dress: gold heads over a gold rule,
+   hairline rows, and a rule down between the columns. The first column is the
+   reading matter — the question, the command, the image — so it takes the
+   serif and twice the width; the columns after it are what qualifies it. */
+.cx-card { --pad: clamp(24px, 5vw, 52px); padding: var(--pad); }
+.cx-head { text-align: center; margin-bottom: 26px; }
+/* The mark the chart was opened by, stood over its title so the page and the
+   card on the shelf read as the same thing. */
+.cx-mark {
+  display: grid; place-items: center;
+  width: 38px; height: 38px; margin: 0 auto 10px;
+  border: 1px solid rgba(164, 133, 61, .34); border-radius: 999px;
+  background: rgba(164, 133, 61, .08);
+  color: #a4853d;
+}
+.cx-mark svg { width: 19px; height: 19px; }
+.cx-title { margin: 0; font-size: clamp(22px, 3.2vw, 29px); font-weight: 600; letter-spacing: .01em; }
+.cx-sub {
+  margin: 7px 0 0;
+  font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+/* Flush to the card's own edges, as the Hebraisms introduction is: it starts
+   where the tables under it start and ends where they end. */
+.cx-intro { margin: 14px 0 0; text-align: left; }
+.cx-intro p { margin: 0; font-size: var(--fs-meta); line-height: 1.7; color: #6e6e73; }
+.cx-intro p + p { margin-top: 9px; }
+
+.cx-part { margin-top: 28px; }
+.cx-part:first-of-type { margin-top: 0; }
+.cx-part-name { margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -.01em; color: #1d1d1f; }
+.cx-part-gloss { margin: 4px 0 10px; font-size: var(--fs-meta); line-height: 1.5; color: #6e6e73; }
+
+/* The columns are proportioned by the chart itself — a chart led by a
+   quotation wants its width up front, one led by a name wants it further
+   along — so the template comes in as a property the chart sets. A property
+   rather than the grid itself, since an inline template would outrank the
+   narrow-screen rule below and the chart would never stack. */
+/* The chart scrolls sideways inside its own box where its columns' floors come
+   to more than the card is wide, rather than bleeding over the card's edge.
+   See chartTemplate in lib/charts.js for what sets those floors. */
+.cx-chart-scroll { overflow-x: auto; overscroll-behavior-x: contain; }
+.cx-chart { display: grid; grid-template-columns: var(--cx-template); min-width: min-content; }
+/* A row is a run of cells in the chart's own grid, not a box of its own. */
+.cx-row { display: contents; }
+.cx-chart-head {
+  padding: 0 14px 7px 0;
+  border-bottom: 1px solid rgba(164, 133, 61, .42);
+  font-size: var(--fs-label); letter-spacing: .09em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+.cx-cell {
+  padding: 9px 14px 9px 0;
+  border-bottom: 1px solid rgba(31, 45, 71, .08);
+  font-size: var(--fs-meta); line-height: 1.55; color: #6e6e73;
+}
+/* Every column after the first carries the rule, so the vertical runs from
+   under the heads to the foot of the chart without a break. */
+.cx-div { padding-left: 14px; border-left: 1px solid rgba(31, 45, 71, .1); }
+.cx-row:last-child .cx-cell { border-bottom: 0; }
+
+/* What the chart is a chart of: set in the reading face, and darker than the
+   columns that qualify it. */
+.cx-lead {
+  font-family: 'Literata', 'Iowan Old Style', Georgia, serif;
+  font-size: var(--fs-body); line-height: 1.6; color: #3d3d42;
+}
+.cx-line { display: block; }
+/* The passage a cell's first line named, where the cell carries both. */
+.cx-body {
+  display: block; margin-top: 4px;
+  font-size: var(--fs-meta); line-height: 1.55; color: #3d3d42;
+}
+/* The last line of a cell — the reference under a quotation, the form a word
+   takes in its verse, the gloss on a passage. */
+.cx-note {
+  display: block; margin-top: 4px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: var(--fs-note); line-height: 1.5; font-style: italic; color: #6e6e73;
+}
+
+/* The chart's mark on its card, standing where the tally used to: what the
+   chart is a chart of, said in one glyph. */
+.cx-tile-icon { display: flex; margin-bottom: 7px; color: #a4853d; }
+
+/* What the chart is pointing at inside a passage, marked in the source and
+   kept marked here: the phrase catalogued, the word under discussion. */
+.cx-mark-b { font-weight: 700; color: #1d1d1f; }
+
+/* A citation and the bracket that introduces it, kept to one line. */
+.cx-cite-group { white-space: nowrap; }
+/* A citation, set as the evidences set theirs: gold, and a door to the verse. */
+.cx-cite {
+  border: 0; background: none; margin: 0; padding: 0;
+  font: inherit; font-weight: 700; letter-spacing: .02em;
+  color: #a4853d; cursor: pointer;
+}
+.cx-cite:hover { color: #6b551f; text-decoration: underline; text-underline-offset: 3px; }
+
+/* ---- A chart set as a chronology ----------------------------------------
+   The coming-forth thread, put to the same use: a stop to a year, the years
+   down a column of their own and the rule running between them. Drawn stop by
+   stop rather than as one line, for the reason that page gives — the card is
+   glass over a gradient, so nothing can mask a rule by painting behind it. */
+.cx-thread { list-style: none; margin: 0; padding: 0; }
+.cx-stop { position: relative; display: flex; gap: 16px; padding: 11px 0; }
+.cx-stop::before {
+  content: ""; position: absolute;
+  /* On the centre line of the year column: 96px wide, so 48 in, less the rule. */
+  left: 95.25px; top: 0; bottom: 0; width: 1.5px;
+  background: rgba(31,45,71,.15);
+}
+.cx-stop:first-child::before { top: 18px; }
+.cx-stop:last-child::before { bottom: auto; height: 18px; }
+.cx-when {
+  flex: 0 0 84px; margin: 0; padding-top: 1px; text-align: right;
+  font-size: var(--fs-note); font-weight: 700; letter-spacing: .02em;
+  color: #a4853d;
+}
+/* The bead the thread runs through, set on the year's own line. */
+.cx-stop-body { position: relative; min-width: 0; padding-left: 24px; }
+.cx-stop-body::before {
+  content: ""; position: absolute; left: -4.75px; top: 5px;
+  width: 9px; height: 9px; border-radius: 999px;
+  background: #fdfdfe; border: 1.5px solid rgba(31,45,71,.28);
+}
+.cx-stop-name { margin: 0; font-size: 14.5px; font-weight: 600; color: #1d1d1f; }
+.cx-stop-name .cx-mark-b { font-weight: 600; }
+.cx-stop-text { margin: 3px 0 0; font-size: var(--fs-meta); line-height: 1.6; color: #3d3d42; }
+.cx-stop-ref { margin: 3px 0 0; font-size: var(--fs-note); line-height: 1.5; color: #6e6e73; }
+
+/* A phone has no room for a column of years beside the account, so the year
+   stands over its own stop and the thread goes with the column it ran down. */
+@media (max-width: 599.98px) {
+  .cx-stop { display: block; padding: 9px 0; }
+  .cx-stop::before { display: none; }
+  .cx-when { text-align: left; margin-bottom: 2px; }
+  .cx-stop-body { padding-left: 0; }
+  .cx-stop-body::before { display: none; }
+}
+
+/* The closing commentary a chart carries under its table. */
+.cx-essay { max-width: 68ch; }
+.cx-essay p { margin: 10px 0 0; font-size: var(--fs-meta); line-height: 1.72; color: #6e6e73; }
+
+/* The rest of the part, on request — set as the evidences' own "See more",
+   with an arrow saying which way the part will move. */
+.cx-more {
+  display: inline-flex; align-items: center; gap: 5px;
+  margin-top: 8px; padding: 0;
+  border: 0; background: none; cursor: pointer;
+  font-family: inherit; font-size: 12.5px; font-weight: 600; color: #a4853d;
+}
+.cx-more:hover { color: #6b551f; text-decoration: underline; text-underline-offset: 3px; }
+.cx-more-arrow { transition: transform .18s ease; }
+.cx-more[aria-expanded="true"] .cx-more-arrow { transform: rotate(180deg); }
+
+/* A phone holds one column, so an entry stands as a stack: what the row is
+   about, then everything that qualifies it, each cell keeping its own voice.
+   The heads go — a head to a cell would double the length of the chart. */
+@media (max-width: 767.98px) {
+  .cx-chart { grid-template-columns: 1fr; }
+  .cx-chart-head { display: none; }
+  .cx-cell { padding: 0; border-bottom: 0; }
+  .cx-cell:empty { display: none; }
+  .cx-div { padding-left: 0; border-left: 0; }
+  .cx-row {
+    display: block; padding: 11px 0;
+    border-bottom: 1px solid rgba(31, 45, 71, .08);
+  }
+  .cx-row:last-child { border-bottom: 0; }
+  .cx-cell + .cx-cell { margin-top: 3px; }
+}
+
+/* ---- The map ------------------------------------------------------------
+   A vector trace of the study map, moved and scaled as one plate so panning
+   and zooming stay on the compositor however much of it is on screen. */
+.map-card { --pad: clamp(18px, 3.5vw, 34px); padding: var(--pad); container: mapcard / inline-size; }
+
+/* Stacked by default — a phone has one column. The wide arrangement is written
+   after .map-frame's own rule below, since a container query carries no extra
+   specificity and would otherwise lose to it on source order. */
+.map-body { display: grid; gap: 16px; }
+.map-head { text-align: center; margin-bottom: 16px; }
+.map-title { margin: 0; font-size: clamp(22px, 3.2vw, 29px); font-weight: 600; letter-spacing: .01em; }
+.map-sub {
+  margin: 7px 0 0;
+  font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+
+/* Somewhere to say where you want to be, since sixty places is more than a
+   map this size can be scanned for. */
+.map-search { position: relative; margin-bottom: 12px; }
+.map-search input {
+  width: 100%; border-radius: 12px; padding: 9px 13px;
+  border: 1px solid rgba(31,45,71,.14);
+  background: rgba(255,255,255,.6);
+  font-size: 14px; color: #1d1d1f; outline: none;
+}
+/* Room for the clear button, so a long place name does not run under it. */
+.map-search:has(.map-search-clear) input { padding-right: 36px; }
+.map-search input:focus { border-color: rgba(58,90,140,.45); background: rgba(255,255,255,.85); }
+/* Set as the field's own, matching the one on the site's search bar. */
+.map-search-clear {
+  position: absolute; right: 10px; top: 50%; transform: translateY(-50%);
+  border: 0; background: rgba(110,110,115,.14); border-radius: 999px;
+  width: 20px; height: 20px; font-size: 11px; line-height: 1;
+  color: #6e6e73; cursor: pointer; display: grid; place-items: center;
+}
+.map-search-clear:hover { background: rgba(110,110,115,.24); color: #1d1d1f; }
+.map-matches {
+  position: absolute; z-index: 5; left: 0; right: 0; top: calc(100% + 6px);
+  list-style: none; margin: 0; padding: 5px;
+  border-radius: 14px;
+  background: rgba(255,255,255,.94);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid rgba(255,255,255,.8);
+  box-shadow: 0 12px 32px rgba(31,45,71,.12);
+  max-height: 280px; overflow-y: auto;
+}
+.map-matches button {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 10px;
+  width: 100%; text-align: left; border: 0; background: none; cursor: pointer;
+  padding: 9px 11px; border-radius: 10px; font-size: 15px; color: #1d1d1f;
+}
+.map-matches button:hover { background: rgba(58,90,140,.10); }
+.map-match-type {
+  flex-shrink: 0;
+  font-size: 10px; letter-spacing: .06em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+
+/* touch-action: none so a drag pans the map rather than scrolling the page
+   out from under it. */
+/* A container, so the lettering can be sized against the frame it has to fit
+   in rather than against the page. */
+.map-frame {
+  position: relative;
+  container-type: inline-size;
+  aspect-ratio: 1894 / 1818;
+  border-radius: 18px; overflow: hidden;
+  border: 1px solid rgba(31,45,71,.12);
+  background: #9dc3d4;
+  touch-action: none;
+  user-select: none; -webkit-user-select: none;
+  cursor: grab;
+}
+.map-frame:active { cursor: grabbing; }
+
+/* Given the width, the reading goes beside the drawing instead of under it, so
+   choosing a place leaves the map where it was rather than pushing it up the
+   page. The frame is set taller than the drawing to use the height that buys:
+   the lands run north to south, so a tall window suits them better than a
+   square one. The drawing is opened out far enough to cover it — see minZoom
+   in MapView, which is measured from this shape rather than assumed. */
+@container mapcard (min-width: 700px) {
+  .map-body { grid-template-columns: minmax(0, 2.1fr) minmax(216px, 1fr); gap: 18px; align-items: start; }
+  /* Only as tall as the drawing can cover without losing anything worth
+     keeping. Covering a frame taller than the drawing means cropping its
+     sides, and the two seas are named close to them: past about this the
+     fitted view eats Sea West, which is the edge of the known world. */
+  .map-frame { aspect-ratio: 7 / 8; }
+  /* Stays with the map while a long entry is read past the frame's bottom. */
+  .map-aside { position: sticky; top: 14px; }
+  /* The rule was there to part the reading from the map it sat under. Beside
+     the map there is nothing above it to be parted from, so it goes, and the
+     reading starts level with the drawing's top edge. Qualified by the column
+     it stands in, since a container query carries no extra specificity and
+     these two are styled further down the sheet. */
+  .map-aside .map-place-card,
+  .map-aside .map-key { margin-top: 0; padding-top: 0; border-top: 0; }
+}
+.map-plate { position: absolute; left: 50%; top: 50%; will-change: transform; }
+.map-plate img { display: block; width: 100%; height: auto; pointer-events: none; }
+
+.map-controls { position: absolute; top: 10px; right: 10px; display: grid; gap: 6px; }
+.map-btn {
+  width: 34px; height: 34px; border-radius: 10px;
+  border: 1px solid rgba(255,255,255,.7);
+  background: rgba(255,255,255,.86);
+  backdrop-filter: blur(18px) saturate(160%);
+  -webkit-backdrop-filter: blur(18px) saturate(160%);
+  box-shadow: 0 3px 10px rgba(31,45,71,.12);
+  font-size: 16px; line-height: 1; color: #3a5a8c; cursor: pointer;
+  display: grid; place-items: center;
+}
+.map-reset { font-size: 13px; }
+
+/* Stacked in a phone-wide frame the controls reach a third of the way down the
+   map, straight through Bountiful's name. Laid along the top instead they sit
+   over open sea at the fitted view, and are smaller to match the frame. */
+@container (max-width: 420px) {
+  .map-controls { top: 6px; right: 6px; gap: 4px; grid-auto-flow: column; }
+  .map-btn { width: 28px; height: 28px; border-radius: 8px; font-size: 14px; }
+  .map-reset { font-size: 11px; }
+}
+
+.map-hint { margin: 10px 2px 0; font-size: 11.5px; color: #6e6e73; }
+
+/* ---- The lettering ------------------------------------------------------
+   The artwork carries no names of its own, so all of this is drawn here. It
+   sits inside the plate, which means it pans and zooms with the ground it
+   names — but its type is sized in screen pixels rather than map units, so a
+   name is the same size to read at one zoom as at seven. That is the whole
+   reason for setting it in HTML rather than in the artwork's own SVG space,
+   where everything scales together. */
+.map-letters { position: absolute; inset: 0; }
+
+/* Marks and names alike hang off a single point: the place itself. */
+.map-place {
+  position: absolute;
+  width: 0; height: 0;
+  padding: 0; border: 0; background: none;
+  color: #2c2a22;
+  cursor: pointer;
+}
+
+/* The mark the original draws — a red disc for a city, a larger one for a
+   chief city, a hollow ring for the cities named only in the last war, an
+   orange square for a Jaredite city. */
+.map-mark {
+  --mark: clamp(6.5px, 1.25cqw, 10px);
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  width: var(--mark); height: var(--mark);
+  border-radius: 999px;
+  background: #b5341c;
+  box-shadow: 0 0 0 1.5px rgba(255,255,255,.6);
+}
+/* A nine-pixel disc is a fair drawing of a city and a poor thing to hit with a
+   thumb, so the mark carries an invisible pad the size of a finger. */
+.map-mark::before {
+  content: ""; position: absolute; left: 50%; top: 50%;
+  width: 32px; height: 32px; transform: translate(-50%, -50%);
+}
+[data-mark="major"] .map-mark {
+  --mark: clamp(11px, 2.23cqw, 17px);
+  box-shadow: 0 0 0 2px rgba(255,255,255,.66);
+}
+[data-mark="ring"] .map-mark {
+  --mark: clamp(7.5px, 1.39cqw, 11px);
+  background: none; border: 2px solid #a14922;
+}
+[data-mark="square"] .map-mark {
+  --mark: clamp(8px, 1.53cqw, 12px);
+  background: #e8862c; border-radius: 2px;
+}
+
+/* The name. A white halo rather than a plate behind it, so it can be read
+   over sand, forest and sea without cutting a hole in any of them.
+   Sized against the frame, not the zoom: a name keeps the same size however
+   far in the reader goes, but a map in a phone-wide frame sets its names
+   smaller, the way a smaller printing of the same map would. */
+.map-name {
+  position: absolute;
+  display: block;
+  white-space: nowrap;
+  font-size: clamp(9.5px, 2cqw, 13px); font-weight: 600; line-height: 1.15;
+  letter-spacing: .005em;
+  text-shadow:
+    0 0 3px #fff, 0 0 3px #fff, 0 0 6px rgba(255,255,255,.9),
+    0 1px 0 rgba(255,255,255,.85), 0 -1px 0 rgba(255,255,255,.85);
+  transition: opacity .18s;
+}
+.map-name span { display: block; }
+[data-mark="major"] .map-name { font-size: clamp(11px, 2.32cqw, 15px); font-weight: 700; }
+
+/* The features the record names but the map draws no mark for read as the
+   land itself rather than as a settlement: italic, quieter, unbolded. */
+[data-kind="hill"] .map-name,
+[data-kind="wilderness"] .map-name,
+[data-kind="water"] .map-name,
+[data-kind="feature"] .map-name {
+  font-family: 'Literata', 'Iowan Old Style', Georgia, serif;
+  font-style: italic; font-weight: 400; font-size: clamp(9px, 1.92cqw, 12.5px);
+  color: #4a4534;
+}
+[data-kind="sea"] .map-name {
+  font-family: 'Literata', 'Iowan Old Style', Georgia, serif;
+  font-style: italic; font-weight: 400; font-size: clamp(12.5px, 2.72cqw, 17.5px);
+  color: #2f5468; letter-spacing: .02em;
+}
+[data-kind="land"] .map-name { font-weight: 700; }
+
+/* Which side of the place the name is set on — the side the original chose.
+   The gap is in em, so it holds its proportion as the type resizes. */
+[data-at="c"]  .map-name { left: 50%; top: 50%; transform: translate(-50%, -50%); text-align: center; }
+[data-at="e"]  .map-name { left: .88em;   top: 50%; transform: translateY(-50%); }
+[data-at="w"]  .map-name { right: .88em;  top: 50%; transform: translateY(-50%); text-align: right; }
+[data-at="n"]  .map-name { bottom: .88em; left: 50%; transform: translateX(-50%); text-align: center; }
+[data-at="s"]  .map-name { top: .88em;    left: 50%; transform: translateX(-50%); text-align: center; }
+[data-at="ne"] .map-name { left: .72em;  bottom: .56em; }
+[data-at="nw"] .map-name { right: .72em; bottom: .56em; text-align: right; }
+[data-at="se"] .map-name { left: .72em;  top: .56em; }
+[data-at="sw"] .map-name { right: .72em; top: .56em; text-align: right; }
+/* A place with no mark has nothing to stand clear of. */
+[data-mark="none"][data-at="c"] .map-name { text-align: center; }
+
+/* Sixty-three names at a readable size will not all stand in this frame at
+   once, so they come in as the reader opens the map out: the five the map
+   cannot be read without, then the shape of the world, then its cities, then
+   its hills and wildernesses.
+
+   A place the reader is pointing at, has tabbed to, or has chosen is named
+   whatever its tier. That exemption is written into the rule that hides rather
+   than added as a louder rule afterwards: the hiding selector is the heavier
+   of the two, so a plain `opacity: 1` following it would simply lose. */
+:is(
+  [data-depth="0"] .map-place[data-tier="1"],
+  [data-depth="0"] .map-place[data-tier="2"],
+  [data-depth="0"] .map-place[data-tier="3"],
+  [data-depth="1"] .map-place[data-tier="2"],
+  [data-depth="1"] .map-place[data-tier="3"],
+  [data-depth="2"] .map-place[data-tier="3"]
+):not(:hover, :focus-visible, [data-on]) .map-name { opacity: 0; pointer-events: none; }
+
+.map-place:hover { z-index: 3; }
+.map-place:focus-visible { z-index: 5; }
+.map-place[data-on] { z-index: 4; }
+
+/* The place itself is a point with no width, so a ring drawn on it would be a
+   speck beside the name rather than around it. The name and the mark wear the
+   focus instead. */
+.map-place:focus { outline: none; }
+.map-place:focus-visible .map-name {
+  outline: 2px solid #3a5a8c;
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+.map-place:focus-visible .map-mark {
+  box-shadow: 0 0 0 3px #3a5a8c, 0 0 0 4.5px rgba(255,255,255,.7);
+}
+.map-place:hover .map-name { color: #7a2e14; }
+.map-place[data-on] .map-name {
+  color: #7a2e14;
+  text-decoration: underline; text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+}
+.map-place[data-on] .map-mark { box-shadow: 0 0 0 3px #a4853d, 0 0 0 4.5px rgba(255,255,255,.7); }
+
+/* The one caption the drawing sets in the middle of nowhere: the line where
+   the land northward becomes the land southward. */
+.map-divide {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  font-size: clamp(9.5px, 2.08cqw, 13.5px); font-weight: 700;
+  letter-spacing: .13em; text-transform: uppercase;
+  color: #33312a;
+  text-shadow: 0 0 4px #fff, 0 0 8px rgba(255,255,255,.9);
+}
+.map-divide-rule {
+  position: absolute;
+  height: 2px;
+  background: linear-gradient(90deg, rgba(51,49,42,0), rgba(51,49,42,.8) 18%, rgba(51,49,42,.8) 82%, rgba(51,49,42,0));
+  filter: drop-shadow(0 0 3px #fff);
+}
+
+
+/* What is known about the place that has been tapped. */
+.map-place-card {
+  margin-top: 14px; padding-top: 14px;
+  border-top: 1px solid rgba(31,45,71,.10);
+}
+.map-place-head { display: flex; align-items: baseline; gap: 12px; }
+.map-place-name { flex: 1; margin: 0; font-size: 20px; font-weight: 600; }
+.map-place-alt {
+  margin-left: 9px; font-size: 13px; font-weight: 400; font-style: italic;
+  color: #6e6e73;
+}
+.map-place-close {
+  flex-shrink: 0; border: 0; background: rgba(110,110,115,.12);
+  border-radius: 999px; width: 26px; height: 26px;
+  font-size: 11px; color: #6e6e73; cursor: pointer;
+}
+.map-place-close:hover { background: rgba(110,110,115,.2); color: #1d1d1f; }
+.map-place-meta {
+  margin: 5px 0 0;
+  font-size: var(--fs-label); letter-spacing: .08em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+.map-place-text { margin: 10px 0 0; font-size: 14px; line-height: 1.65; color: #3d3d42; }
+
+/* What happened there, each with the place in the record it is read from. */
+.map-events { list-style: none; margin: 12px 0 0; padding: 0; }
+.map-events li {
+  position: relative; margin: 0 0 8px; padding-left: 15px;
+  font-size: 13.5px; line-height: 1.6; color: #6e6e73;
+}
+.map-events li::before {
+  content: ""; position: absolute; left: 0; top: 8px;
+  width: 5px; height: 5px; border-radius: 999px; background: rgba(164,133,61,.7);
+}
+/* Set as the prophets' and the evidences' are — bracketed, with the same
+   breathing room inside the brackets, and travelling as one word. */
+.map-ref-group { white-space: nowrap; font-size: 11.25px; }
+.map-cite {
+  border: 0; background: none; margin: 0; padding: 0 1.5px;
+  font: inherit; font-size: 12px; font-weight: 700; letter-spacing: .02em;
+  color: #a4853d; cursor: pointer;
+}
+.map-cite:hover { color: #6b551f; text-decoration: underline; text-underline-offset: 2px; }
+
+.map-key {
+  list-style: none; margin: 14px 0 0; padding: 0;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(168px, 1fr)); gap: 6px 14px;
+}
+.map-key li { display: flex; align-items: center; gap: 9px; font-size: 12px; color: #6e6e73; }
+/* The same marks the drawing uses, so the key reads against it. */
+.map-swatch { flex-shrink: 0; width: 13px; height: 13px; border-radius: 999px; }
+.map-swatch-major_city { background: #b5341c; }
+.map-swatch-city { background: #b5341c; width: 9px; height: 9px; margin: 0 2px; }
+.map-swatch-city_mormon_era { border: 2px solid #b5341c; width: 11px; height: 11px; margin: 0 1px; }
+.map-swatch-jaredite_city { background: #e8862c; border-radius: 2px; width: 11px; height: 11px; margin: 0 1px; }
+.map-swatch-land { background: #cbbf8a; }
+.map-swatch-hill { background: #8e8470; clip-path: polygon(50% 0, 100% 100%, 0 100%); border-radius: 0; }
+.map-swatch-wilderness { background: #7d9440; }
+.map-swatch-water { background: #6fb2cd; }
+.map-swatch-sea { background: #4f93b4; }
+.map-swatch-feature { background: #a99a76; border-radius: 2px; transform: rotate(45deg); width: 10px; height: 10px; margin: 0 1px; }
+
+/* ---- Prophets -----------------------------------------------------------
+   A section that stands beside the books of a volume rather than inside one:
+   the shelf of prophets, and a page for each. */
+
+/* The way in, shelved with the books. Gold and counted, so it reads as a
+   different kind of thing rather than a book out of order. */
+.prophets-tile {
+  padding: 15px 18px; text-align: left;
+  display: flex; align-items: baseline; justify-content: space-between; gap: 10px;
+  cursor: pointer; border-radius: 15px;
+}
+.prophets-tile-name { font-size: 16.5px; font-weight: 500; color: #6b551f; }
+.prophets-tile-count { font-size: 12px; font-weight: 700; }
+
+.prophet-intro {
+  margin: -6px 4px 18px;
+  font-size: 13.5px; line-height: 1.6; color: #6e6e73;
+  max-width: 52ch;
+}
+/* Names only, so the tiles are sized to a name: narrower, one line tall, and
+   several to a row rather than two. */
+.prophet-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px;
+}
+.prophet-tile {
+  border-radius: 13px; padding: 13px 15px; text-align: left;
+  display: flex; align-items: center; cursor: pointer;
+}
+.prophet-tile-name { font-size: 15.5px; font-weight: 500; }
+
+/* ---- The study-sheet layout ---------------------------------------------
+   Being tried on Lehi. Three fields across the top — what he was, what he
+   taught, where to read him — and his words the width of the sheet beneath,
+   each in a ruled panel with its title set into the top edge. */
+.prophet-fields {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+  margin-top: 26px;
+}
+/* A rule over each field rather than a box around it. The line alone carries
+   the title and marks where the field begins; the three sides that used to
+   close it were doing nothing the grid's own spacing was not already doing. */
+.prophet-panel {
+  position: relative;
+  border-top: 2px solid rgba(164,133,61,.7);
+  padding: 22px 2px 0;
+}
+.prophet-panel[data-wide] { grid-column: 1 / -1; }
+/* Set into the rule rather than above it: the line is broken by the words,
+   which is what makes it read as a field on a sheet rather than a heading with
+   an underline. The background has to match what the panel sits on, and the
+   card is glass over a gradient — so the gap is cut with a mask instead, which
+   takes whatever is behind it. */
+.prophet-panel-head {
+  position: absolute; top: 0; left: 50%; transform: translate(-50%, -52%);
+  margin: 0; padding: 0 10px;
+  font-size: var(--fs-label); letter-spacing: .12em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d; white-space: nowrap;
+  backdrop-filter: blur(14px) saturate(150%);
+  -webkit-backdrop-filter: blur(14px) saturate(150%);
+  background: linear-gradient(180deg, rgba(250,250,252,.92), rgba(250,250,252,.86));
+  border-radius: 6px;
+}
+.prophet-panel-body { font-size: 13.5px; }
+
+/* Plain list for the roles and the teachings: they are single words, and a
+   pill each would make three words look like a control panel. Set in the
+   reading face at the size his words are set at, since the fields across the
+   top are answering for the same man the quotations below them do. */
+.prophet-plain { list-style: none; margin: 0; padding: 0; }
+.prophet-plain li {
+  padding: 3px 0;
+  font-family: 'Literata', 'Iowan Old Style', Georgia, serif;
+  font-size: 16px; line-height: 1.62; color: #1d1d1f;
+}
+
+/* Inside a panel the quotes run in two columns, as they do on the sheet. */
+.prophet-panel[data-wide] .prophet-quotes { columns: 2; column-gap: 34px; }
+.prophet-panel[data-wide] .prophet-quotes li { break-inside: avoid; }
+
+/* The chapters keep the interface face the rest of the site's controls use:
+   they are buttons that go somewhere, not words about the man, so they read as
+   what they are rather than as another field of his. Only the size is lifted,
+   off the smaller one a jump pill takes elsewhere. */
+.prophet-panel .rel-jump { font-size: 14px; padding: 4px 11px; }
+
+/* A citation reads the same wherever it stands on this sheet: in a quote's
+   footing or inside a timeline sentence. */
+
+/* The last field stands off from the four above it. */
+.prophet-panel[data-tail] { margin-top: 22px; }
+
+@media (max-width: 719.98px) {
+  .prophet-fields { grid-template-columns: 1fr; }
+  .prophet-panel { min-height: 0; }
+  .prophet-panel[data-wide] .prophet-quotes { columns: 1; }
+}
+
+.prophet-page { margin-top: 10px; }
+.prophet-card { --pad: clamp(24px, 5vw, 52px); padding: var(--pad); }
+
+.prophet-head { text-align: center; margin-bottom: 26px; }
+.prophet-name {
+  margin: 0; font-size: clamp(24px, 3.4vw, 31px); font-weight: 600; letter-spacing: .01em;
+}
+/* Quotes are the reason to be here, so they are set as scripture is — the
+   reading face, at reading size, with the reference bracketed after. */
+.prophet-quotes { list-style: none; margin: 0; padding: 0; }
+.prophet-quotes li { margin-bottom: 16px; }
+.prophet-quotes li:last-child { margin-bottom: 0; }
+.prophet-quote {
+  margin: 0; font-size: 16px; line-height: 1.62; color: #1d1d1f;
+}
+/* Only ever carries the note saying whose words these are, where they are not
+   the prophet's own — the reference itself now runs on from the quotation. */
+.prophet-quote-ref { margin: 3px 0 0; }
+.prophet-said { font-size: 11.5px; color: rgba(110,110,115,.85); font-style: italic; }
+
+/* A bracket must not be left at the end of a line with its reference carried
+   to the next: "…to be called his people" ( / Mosiah 18:8. The brackets belong
+   to the reference, so the three travel as one word.
+   The size here is the brackets' own — they are bare text in the markup, so
+   they take the group's — while the reference inside sets its own and comes
+   out a little larger. Brackets at the reading size would shout louder than
+   what they enclose. */
+.prophet-ref-group { white-space: nowrap; font-size: 12.5px; }
+
+/* A reference, wherever it stands: after a quotation or inside a sentence. The
+   brackets are set by the markup either side of it, so the breathing room
+   inside them has to come from the reference's own padding. */
+.prophet-cite {
+  border: 0; background: none; margin: 0; padding: 0 2.25px;
+  font: inherit; font-size: 13.5px; font-weight: 700; letter-spacing: .02em;
+  color: #a4853d; cursor: pointer;
+  transition: color .15s;
+}
+.prophet-cite:hover { color: #6b551f; text-decoration: underline; text-underline-offset: 2px; }
+
+.prophet-pills { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; padding: 0; margin: 0; }
+
+/* The life as a thread, the way the chapter band reads a volume. */
+.prophet-timeline {
+  list-style: none; margin: 0; padding: 0 0 0 20px;
+  position: relative;
+}
+.prophet-timeline::before {
+  content: "";
+  position: absolute; left: 3.25px; top: 6px; bottom: 6px;
+  width: 1.5px; background: rgba(31,45,71,.15);
+}
+.prophet-timeline li { position: relative; margin-bottom: 15px; }
+.prophet-timeline li:last-child { margin-bottom: 0; }
+/* The stop on the thread. Opaque, so the rule reads as passing behind it. */
+.prophet-timeline li::before {
+  content: "";
+  position: absolute; left: -20px; top: 6px;
+  width: 8px; height: 8px; border-radius: 999px;
+  background: #fdfdfe; border: 1.5px solid rgba(31,45,71,.28);
+}
+.prophet-moment {
+  margin: 0; font-size: 11px; letter-spacing: .06em; text-transform: uppercase;
+  font-weight: 700; color: #1d1d1f;
+}
+.prophet-detail {
+  margin: 2px 0 0; font-size: 14px; line-height: 1.65; color: #6e6e73;
+}
+
+/* ---- Word search -------------------------------------------------------
+   The results take over the middle column: what was searched for, the filters
+   that narrow it, then a chapter per row with the verse it lands on. */
+.srch { margin-top: 10px; }
+/* `hidden` is only a weak `display: none`, and the layout rules below set
+   `display` outright — which would win and put the panels back. */
+.side-extras[hidden], .commentary-col[hidden] { display: none !important; }
+/* With the notes column away, the results have the width it was using. */
+.content:has(.srch) { padding-right: var(--gutter); }
+
+.srch-head { display: flex; align-items: baseline; gap: 12px; margin: 0 4px 12px; }
+.srch-title {
+  flex: 1; min-width: 0; margin: 0;
+  font-size: clamp(20px, 3vw, 25px); font-weight: 600; letter-spacing: .01em;
+  overflow-wrap: anywhere;
+}
+.srch-close {
+  flex-shrink: 0; border: 0; background: rgba(110,110,115,.12);
+  border-radius: 999px; width: 30px; height: 30px;
+  font-size: 12px; color: #6e6e73; cursor: pointer;
+  display: grid; place-items: center;
+}
+.srch-close:hover { background: rgba(110,110,115,.2); color: #1d1d1f; }
+
+.srch-controls {
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 10px;
+  padding: 10px 12px; margin-bottom: 6px;
+}
+.srch-chips { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+/* A hairline standing in for a paragraph break: the volumes narrow where to
+   look, and what follows it narrows what counts as a match. */
+.srch-divider {
+  width: 1px; height: 18px; margin: 0 3px;
+  background: rgba(31,45,71,.14);
+}
+/* On a phone the row wraps anyway, which separates the two groups better than
+   a rule that would be left stranded at the end of a line. */
+@media (max-width: 599.98px) {
+  .srch-divider { display: none; }
+}
+
+.srch-chip, .srch-clear, .srch-sort, .srch-more {
+  border: 1px solid rgba(31,45,71,.14);
+  background: rgba(255,255,255,.5);
+  border-radius: 999px; padding: 5px 12px;
+  font-size: 12.5px; font-weight: 600; line-height: 1.35;
+  color: #1d1d1f; cursor: pointer; white-space: nowrap;
+}
+.srch-chip:hover, .srch-clear:hover, .srch-sort:hover, .srch-more:hover {
+  background: rgba(164,133,61,.12); border-color: rgba(164,133,61,.4); color: #6b551f;
+}
+/* A chosen filter is filled rather than outlined, so which are on reads at a
+   glance across a wrapped row. */
+.srch-chip[data-on] {
+  background: rgba(64,64,70,.9); border-color: rgba(64,64,70,.9); color: #fff;
+}
+.srch-chip[data-on]:hover { background: rgba(64,64,70,1); color: #fff; }
+.srch-clear { border-style: dashed; }
+.srch-sort { border-color: transparent; background: none; color: #3a5a8c; }
+
+.srch-note, .srch-count {
+  margin: 14px 4px; font-size: 13px; color: #6e6e73;
+}
+.srch-meant { margin-top: -4px; }
+/* Set as a word in the sentence rather than as a button in a row: it reads as
+   the offer it is, and the underline says it can be taken. */
+.srch-meant-word {
+  border: 0; background: none; padding: 0; margin: 0;
+  font: inherit; font-weight: 700; color: #3a5a8c;
+  cursor: pointer;
+  text-decoration: underline; text-underline-offset: 2px;
+  text-decoration-color: rgba(58,90,140,.35);
+}
+.srch-meant-word:hover { color: #26406b; text-decoration-color: currentColor; }
+.srch-count {
+  margin: 14px 4px 6px;
+  font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase; font-weight: 700;
+  color: #a4853d;
+}
+
+.srch-list { list-style: none; margin: 0; padding: 0; }
+.srch-row {
+  display: block; width: 100%; text-align: left;
+  border: 0; background: none; cursor: pointer;
+  padding: 13px 12px; border-radius: 14px;
+  transition: background .15s;
+}
+.srch-list li + li .srch-row { border-top: 1px solid rgba(31,45,71,.08); border-radius: 14px; }
+.srch-row:hover { background: rgba(255,255,255,.55); }
+
+.srch-row-head { display: flex; align-items: baseline; gap: 10px; }
+.srch-ref { flex: 1; min-width: 0; font-size: 17px; font-weight: 600; color: #1d1d1f; }
+/* How many verses the chapter answers with — the reason one result outranks
+   another, so it sits where the eye ends up. */
+.srch-hits {
+  flex-shrink: 0; font-size: 11px; font-weight: 700; color: #a4853d;
+  background: rgba(164,133,61,.13); border-radius: 999px; padding: 2px 8px;
+}
+.srch-vol {
+  display: block; margin-top: 1px;
+  font-size: 11px; color: rgba(110,110,115,.9);
+}
+.srch-snippet {
+  margin: 6px 0 0; font-size: 13.5px; line-height: 1.6; color: #6e6e73;
+}
+.srch-snippet strong { font-weight: 700; color: #1d1d1f; }
+/* Standing in for a line that has not arrived: the reference alone, greyed. */
+.srch-waiting { font-size: 12px; color: rgba(110,110,115,.55); }
+
+.srch-more { display: block; margin: 16px auto 0; padding: 8px 18px; }
+
+/* The dropdown's rows: a reference to jump to, a word to search for, or
+   something searched before. */
+.srch-recent-head {
+  margin: 6px 10px 8px;
+  font-size: 12.5px; letter-spacing: .1em; text-transform: uppercase;
+  font-weight: 700; color: rgba(110,110,115,.75);
+}
+.srch-opt-wrap { display: flex; align-items: center; gap: 2px; }
+.srch-opt {
+  flex: 1; min-width: 0;
+  display: flex; align-items: center; gap: 10px;
+  text-align: left; border: 0; cursor: pointer;
+  padding: 11px 14px; border-radius: 11px; background: transparent;
+}
+.srch-opt[data-active] { background: rgba(58,90,140,.10); }
+.srch-opt-glyph { flex-shrink: 0; color: rgba(110,110,115,.8); }
+.srch-opt-label {
+  flex: 1; min-width: 0;
+  font-size: 15px; font-weight: 500;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.srch-opt-label strong { font-weight: 700; }
+/* An article's row carries the line under its title as well: several charts
+   answer to the same word, and the subtitle is what tells them apart. Set
+   under the title rather than after it — the rows are one line wide and a
+   subtitle sharing that line is cut to two or three words, which tells nobody
+   anything. Each line is cut on its own so a long name never pushes the volume
+   off the end of the row. */
+.srch-opt-stack {
+  display: flex; flex-direction: column; gap: 1px; white-space: normal;
+}
+.srch-opt-stack > span {
+  min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.srch-opt-sub {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 12px; font-weight: 400; color: rgba(110,110,115,.8);
+}
+.srch-opt-tag {
+  flex-shrink: 0; color: #6e6e73; font-size: 11.5px; font-weight: 600;
+  letter-spacing: .04em; background: rgba(110,110,115,.10);
+  border-radius: 999px; padding: 3px 9px;
+}
+.srch-forget {
+  flex-shrink: 0; border: 0; background: none; cursor: pointer;
+  width: 26px; height: 26px; border-radius: 999px;
+  font-size: 10px; color: rgba(110,110,115,.6);
+  display: grid; place-items: center;
+}
+.srch-forget:hover { background: rgba(110,110,115,.14); color: #1d1d1f; }
+
+@media (prefers-reduced-motion: reduce) {
+  .srch-row, .srch-close { transition: none !important; }
 }
 
 /* The notes column glides to the entry it's tracking; App.jsx assigns
    scrollTop, and this turns that assignment into an animated scroll. */
-.commentary-col, .chrome { scroll-behavior: smooth; }
+.commentary-col, .side-extras { scroll-behavior: smooth; }
+
+/* The dock's shortcut down to the study panels, for the widths where they are
+   below the chapter rather than beside it. */
+.pill-study { display: grid; }
+@media (min-width: 960px) {
+  .pill-study { display: none; }
+}
+
+/* ---- The translation essays ---------------------------------------------
+   Prose, which nothing else on the site is. The charts tabulate and the
+   evidences exhibit; these argue, and an argument is read in a column of
+   sentences at a comfortable measure. So the card is narrower than its width
+   allows, and everything in it is set to be read straight down. */
+.es-shelf { margin-top: 34px; }
+.es-shelf-title {
+  margin: 0 4px 12px; font-size: 21px; font-weight: 500; letter-spacing: -.01em;
+}
+/* The essays are numbered because they are a series with an order to them —
+   the instruments before the manuscript, the manuscript before the pace it
+   proves. The number is the one thing on the card that says so. */
+.es-tile-order {
+  font-size: var(--fs-label); letter-spacing: .09em;
+  font-weight: 700; color: #a4853d;
+}
+
+.es-card { --pad: clamp(24px, 5vw, 52px); padding: var(--pad); }
+.es-head { text-align: center; margin-bottom: 34px; }
+.es-kicker {
+  margin: 0 0 9px;
+  font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+.es-title { margin: 0; font-size: clamp(22px, 3.2vw, 29px); font-weight: 600; letter-spacing: .01em; }
+.es-sub {
+  margin: 10px auto 0; max-width: 46ch;
+  font-size: var(--fs-meta); line-height: 1.6; color: #6e6e73;
+}
+
+/* The plate an essay opens on, set into the text rather than stacked above it:
+   the picture stands at the head of the first part and the opening paragraphs
+   run down its right-hand side.
+   The figure takes its width from the picture rather than being given one, and
+   the picture is bounded on both sides at once — a ceiling on its height and a
+   share of the measure for its width. That is what lets five pictures of no
+   common shape sit in the same slot: a film still and a calendar come out wide
+   and short against the width, two paintings in portrait come out narrow and
+   tall against the height, and a 387-pixel photograph of a seer stone is never
+   asked to fill more than it has. No crop, and nothing scaled past what was
+   photographed. */
+.es-plate {
+  float: left;
+  margin: 5px clamp(20px, 2.6vw, 30px) 12px 0;
+  max-width: 46%;
+}
+.es-plate img {
+  display: block; width: auto; height: auto;
+  max-width: 100%; max-height: 340px;
+  border-radius: 12px;
+}
+/* Nothing but the opening is meant to wrap. A part after the first starts
+   below the picture however far it runs, and a pull quote squeezed into what
+   is left beside a float stops reading as a quotation. */
+.es-part + .es-part { clear: both; }
+.es-quote { clear: left; }
+/* Too narrow to set text beside a picture: below this the plate takes the
+   measure to itself and the prose starts underneath. */
+@media (max-width: 599.98px) {
+  .es-plate { float: none; margin: 0 0 22px; max-width: 100%; }
+  .es-plate img { max-height: 300px; margin: 0 auto; }
+}
+
+/* One measure for the whole essay, centred in whatever width the card has:
+   a line of body text that runs the width of a desktop card is a line the eye
+   loses its place on coming back. */
+.es-part { max-width: 68ch; margin: 0 auto; }
+.es-part + .es-part { margin-top: 30px; }
+.es-part-name {
+  margin: 0 0 12px; font-size: 19px; font-weight: 600; letter-spacing: -.005em;
+}
+.es-p {
+  margin: 0 0 15px;
+  font-size: var(--fs-body); line-height: 1.78; color: #3a3a3c;
+}
+/* The terms the argument turns on, marked in the source and kept marked. */
+.es-mark { font-weight: 700; color: #1d1d1f; }
+.es-link {
+  color: #3a5a8c; text-decoration: none;
+  border-bottom: 1px solid rgba(58,90,140,.3);
+}
+.es-link:hover { border-bottom-color: rgba(58,90,140,.8); }
+
+/* A statement set out of the prose: ruled down its left edge in gold, which is
+   the site's mark for the record's own words wherever they stand. */
+.es-quote {
+  margin: 0 0 20px; padding: 2px 0 2px 18px;
+  border-left: 2px solid rgba(164,133,61,.42);
+}
+.es-said { margin: 0; font-size: 15.5px; line-height: 1.68; color: #1d1d1f; }
+/* Closed, the quote is one sentence and can afford the larger setting that
+   makes it read as a pull quote rather than as more prose. */
+.es-said-lead { font-size: 16.5px; line-height: 1.6; }
+.es-said + .es-said, .es-quote-note + .es-said { margin-top: 12px; }
+/* Where a statement came from, under the words rather than inside them: a
+   citation set in the same face and size reads as part of the sentence. */
+.es-source {
+  display: block; margin-top: 6px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: var(--fs-note); font-style: normal; line-height: 1.5; color: #86868b;
+}
+/* A line of the essay's own, standing between two statements inside one quote:
+   set in the page's face, so it does not read as the witness still speaking. */
+.es-quote-note {
+  margin: 12px 0 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: var(--fs-meta); line-height: 1.7; color: #6e6e73;
+}
+.es-who {
+  margin-top: 9px;
+  font-size: var(--fs-label); letter-spacing: .07em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+.es-expand {
+  display: inline-flex; align-items: center; gap: 5px;
+  margin-top: 9px; padding: 0;
+  border: 0; background: none; cursor: pointer;
+  font-family: inherit; font-size: 12.5px; font-weight: 600; color: #a4853d;
+}
+.es-expand:hover { color: #6b551f; text-decoration: underline; text-underline-offset: 3px; }
+.es-expand-arrow { transition: transform .18s ease; }
+.es-expand[aria-expanded="true"] .es-expand-arrow { transform: rotate(180deg); }
+.es-expand:focus-visible, .es-link:focus-visible {
+  outline: 2px solid #3a5a8c; outline-offset: 3px; border-radius: 4px;
+}
+/* The statement arriving where the line stood. Only the growth is animated —
+   the words themselves are what the reader asked for and should simply be
+   there. */
+.es-quote-full { animation: es-open .22s ease both; }
+@keyframes es-open {
+  from { opacity: 0; transform: translateY(-3px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* What the essay was built from: reference matter, set small and set apart. */
+.es-sources { margin-top: 34px; padding-top: 22px; border-top: 1px solid rgba(31,45,71,.12); }
+.es-sources .es-part-name { font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase; font-weight: 700; color: #a4853d; }
+.es-sources .es-p { font-size: var(--fs-note); line-height: 1.75; color: #6e6e73; }
+
+@media (prefers-reduced-motion: reduce) {
+  .es-quote-full { animation: none; }
+  .es-expand-arrow { transition: none; }
+}
+
+
+/* ---- What the site has written about a passage ---------------------------
+   The relation the study pages already carry, read back the other way: there
+   every reference opens into the text, and here the text says which pages
+   treat it. In the margin because the cross connections already mark the text
+   itself, in gold with a footnote letter after it, and a second kind of gold in
+   the same sentence is one too many to tell apart. Set well out into the
+   margin, clear of the verse numbers, so the gutter reads as a column of its
+   own rather than as something crowding the text. */
+.sm-gutter {
+  position: absolute; right: 100%; top: 0;
+  margin-right: 12px; height: 2.35em;
+  display: flex; align-items: center;
+}
+/* The chapter's own mark hangs off the sticky head that carries its title, so
+   it holds its place at the head of the chapter and stays in reach as the text
+   scrolls under it. */
+.sm-head {
+  position: absolute; left: calc(var(--pad) * 0.45); top: 0; bottom: 12px;
+  display: flex; align-items: center;
+}
+.sm-mark {
+  display: grid; place-items: center;
+  width: 28px; height: 28px; padding: 0;
+  border: 0; border-radius: 9px; background: none; cursor: pointer;
+  color: rgba(164, 133, 61, .62);
+  transition: color .15s ease, background .15s ease;
+}
+.sm-mark:hover, .sm-mark[aria-expanded="true"] { color: #a4853d; background: rgba(164,133,61,.13); }
+.sm-mark:focus-visible { outline: 2px solid #3a5a8c; outline-offset: 1px; }
+/* No gutter to stand in on a narrow window: the mark tucks in beside the verse
+   number, where the number column has room enough for it. */
+@media (max-width: 719.98px) {
+  .sm-gutter { position: static; height: auto; margin: 0; }
+  .sm-head { left: 2px; }
+  .sm-mark { width: 24px; height: 24px; }
+}
+
+.sm-pop {
+  border-radius: 14px; padding: 10px 12px 8px; z-index: 70;
+  max-height: 56vh; overflow-y: auto;
+}
+.sm-pop-head {
+  margin: 0 0 6px;
+  font-size: var(--fs-label); letter-spacing: .09em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+.sm-pop-list { list-style: none; margin: 0; padding: 0; }
+.sm-pop-list li + li { margin-top: 2px; }
+.sm-pop-row {
+  width: 100%; display: flex; flex-direction: column; gap: 2px;
+  text-align: left; border: 0; background: none; cursor: pointer;
+  padding: 6px 8px; margin: 0 -8px; border-radius: 9px;
+}
+.sm-pop-row:hover { background: rgba(58, 90, 140, .08); }
+.sm-pop-row:focus-visible { outline: 2px solid #3a5a8c; outline-offset: 1px; }
+.sm-pop-name { font-size: 13.5px; line-height: 1.35; color: #1d1d1f; }
+.sm-pop-meta { display: flex; align-items: baseline; gap: 7px; }
+.sm-pop-kind {
+  font-size: var(--fs-label); letter-spacing: .09em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+.sm-pop-verses { font-size: var(--fs-note); color: #86868b; }
+
+/* ---- The part a study page was opened for --------------------------------
+   A page reached from a margin mark owes the reader the row they were promised,
+   so the row is lit as it arrives and the light fades off it. Long enough to be
+   seen after the scroll settles, and gone before it becomes a highlight the
+   reader has to dismiss. */
+[data-focused] { animation: sm-found 3.4s ease-out both; border-radius: 10px; }
+@keyframes sm-found {
+  0%, 55% { background: rgba(164, 133, 61, .16); box-shadow: 0 0 0 5px rgba(164, 133, 61, .16); }
+  100% { background: transparent; box-shadow: 0 0 0 5px transparent; }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-focused] { animation: none; }
+  .sm-mark { transition: none; }
+}
+
+/* ---- The study pages in the Related card ---------------------------------
+   Set under the similar chapters and ruled off from them: a row of pills and a
+   run of titles are two answers to the same question, and without the rule they
+   read as one list whose second half has lost its shape. */
+.rel-pages { list-style: none; margin: 0; padding: 0; }
+.rel-pages-under {
+  margin-top: 11px; padding-top: 10px;
+  border-top: 1px solid rgba(31, 45, 71, .10);
+}
+.rel-pages li + li { margin-top: 2px; }
+.rel-page {
+  width: 100%; display: flex; flex-direction: column; gap: 2px;
+  text-align: left; border: 0; background: none; cursor: pointer;
+  padding: 6px 8px; margin: 0 -8px; border-radius: 9px;
+  transition: background .15s ease;
+}
+.rel-page:hover { background: rgba(58, 90, 140, .07); }
+.rel-page:focus-visible { outline: 2px solid #3a5a8c; outline-offset: 1px; }
+.rel-page-name { font-size: 13.5px; line-height: 1.35; color: #1d1d1f; }
+.rel-page:hover .rel-page-name { color: #6b551f; }
+.rel-page-meta { display: flex; align-items: baseline; gap: 7px; }
+.rel-page-kind {
+  font-size: var(--fs-label); letter-spacing: .09em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d;
+}
+.rel-page-verses { font-size: var(--fs-note); color: #86868b; }
+
+@media (prefers-reduced-motion: reduce) { .rel-page { transition: none; } }

@@ -1,1127 +1,1219 @@
 # Old Testament Chapter Timeline
 
-Chapter-by-chapter captions (2–5 words each) for the timeline band. 929 chapters total.
+Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped into 90 named sections. 929 chapters total.
+
+## Sections
+- **The primeval history** (Genesis 1 – Genesis 11)
+- **Abraham & Isaac** (Genesis 12 – Genesis 25)
+- **Jacob & Esau** (Genesis 26 – Genesis 36)
+- **Joseph in Egypt** (Genesis 37 – Genesis 50)
+- **Bondage & the call** (Exodus 1 – Exodus 6)
+- **The plagues** (Exodus 7 – Exodus 12)
+- **The Exodus** (Exodus 13 – Exodus 18)
+- **Sinai & the covenant** (Exodus 19 – Exodus 24)
+- **The tabernacle & the calf** (Exodus 25 – Exodus 40)
+- **The offerings** (Leviticus 1 – Leviticus 7)
+- **Priests, clean & unclean** (Leviticus 8 – Leviticus 15)
+- **Atonement & holiness** (Leviticus 16 – Leviticus 27)
+- **The camp ordered** (Numbers 1 – Numbers 10)
+- **Rebellions in the desert** (Numbers 11 – Numbers 19)
+- **The serpent & Balaam** (Numbers 20 – Numbers 25)
+- **The new generation** (Numbers 26 – Numbers 36)
+- **The journey rehearsed** (Deuteronomy 1 – Deuteronomy 4)
+- **Hear, O Israel** (Deuteronomy 5 – Deuteronomy 11)
+- **The covenant law** (Deuteronomy 12 – Deuteronomy 26)
+- **Blessings & cursings** (Deuteronomy 27 – Deuteronomy 30)
+- **Moses' farewell** (Deuteronomy 31 – Deuteronomy 34)
+- **Into the promised land** (Joshua 1 – Joshua 5)
+- **The conquest** (Joshua 6 – Joshua 12)
+- **The inheritance divided** (Joshua 13 – Joshua 21)
+- **Joshua's farewell** (Joshua 22 – Joshua 24)
+- **Deborah & Gideon** (Judges 1 – Judges 8)
+- **Abimelech & Jephthah** (Judges 9 – Judges 12)
+- **Samson** (Judges 13 – Judges 16)
+- **No king in Israel** (Judges 17 – Judges 21)
+- **Ruth's redemption** (Ruth 1 – Ruth 4)
+- **Samuel raised up** (1 Samuel 1 – 1 Samuel 7)
+- **Saul's kingship** (1 Samuel 8 – 1 Samuel 15)
+- **David's rise** (1 Samuel 16 – 1 Samuel 20)
+- **David the fugitive** (1 Samuel 21 – 1 Samuel 31)
+- **David's kingdom** (2 Samuel 1 – 2 Samuel 10)
+- **Sin & Absalom** (2 Samuel 11 – 2 Samuel 20)
+- **David's last days** (2 Samuel 21 – 2 Samuel 24)
+- **Solomon enthroned** (1 Kings 1 – 1 Kings 4)
+- **The temple built** (1 Kings 5 – 1 Kings 8)
+- **Solomon's fall** (1 Kings 9 – 1 Kings 11)
+- **The kingdom divided** (1 Kings 12 – 1 Kings 16)
+- **Elijah & Ahab** (1 Kings 17 – 1 Kings 22)
+- **Elisha's ministry** (2 Kings 1 – 2 Kings 8)
+- **The fall of Israel** (2 Kings 9 – 2 Kings 17)
+- **Hezekiah** (2 Kings 18 – 2 Kings 20)
+- **The last kings of Judah** (2 Kings 21 – 2 Kings 25)
+- **The genealogies** (1 Chronicles 1 – 1 Chronicles 9)
+- **David retold** (1 Chronicles 10 – 1 Chronicles 29)
+- **Solomon retold** (2 Chronicles 1 – 2 Chronicles 9)
+- **Judah's early kings** (2 Chronicles 10 – 2 Chronicles 20)
+- **Decline to exile** (2 Chronicles 21 – 2 Chronicles 36)
+- **The return** (Ezra 1 – Ezra 10)
+- **Nehemiah's wall** (Nehemiah 1 – Nehemiah 13)
+- **Esther** (Esther 1 – Esther 10)
+- **Job afflicted** (Job 1 – Job 3)
+- **The friends' debate** (Job 4 – Job 31)
+- **Elihu & the whirlwind** (Job 32 – Job 42)
+- **Psalms: Book One** (Psalms 1 – Psalms 41)
+- **Psalms: Book Two** (Psalms 42 – Psalms 72)
+- **Psalms: Book Three** (Psalms 73 – Psalms 89)
+- **Psalms: Book Four** (Psalms 90 – Psalms 106)
+- **Psalms: Book Five** (Psalms 107 – Psalms 150)
+- **Wisdom's call** (Proverbs 1 – Proverbs 9)
+- **The proverbs collected** (Proverbs 10 – Proverbs 31)
+- **Vanity of vanities** (Ecclesiastes 1 – Ecclesiastes 12)
+- **The Song of songs** (Solomon's Song 1 – Solomon's Song 8)
+- **Judgment & Immanuel** (Isaiah 1 – Isaiah 12)
+- **Oracles & apocalypse** (Isaiah 13 – Isaiah 27)
+- **Woes & Hezekiah** (Isaiah 28 – Isaiah 39)
+- **Comfort ye** (Isaiah 40 – Isaiah 48)
+- **The suffering servant** (Isaiah 49 – Isaiah 57)
+- **Zion glorified** (Isaiah 58 – Isaiah 66)
+- **Jeremiah's warnings** (Jeremiah 1 – Jeremiah 20)
+- **Kings & false prophets** (Jeremiah 21 – Jeremiah 29)
+- **The new covenant** (Jeremiah 30 – Jeremiah 33)
+- **The fall narrated** (Jeremiah 34 – Jeremiah 45)
+- **The nations judged** (Jeremiah 46 – Jeremiah 52)
+- **Jerusalem lamented** (Lamentations 1 – Lamentations 5)
+- **Ezekiel's call** (Ezekiel 1 – Ezekiel 3)
+- **Jerusalem judged** (Ezekiel 4 – Ezekiel 24)
+- **Against the nations** (Ezekiel 25 – Ezekiel 32)
+- **Dry bones & restoration** (Ezekiel 33 – Ezekiel 39)
+- **The temple vision** (Ezekiel 40 – Ezekiel 48)
+- **Daniel in Babylon** (Daniel 1 – Daniel 6)
+- **Daniel's visions** (Daniel 7 – Daniel 12)
+- **Hosea's covenant plea** (Hosea 1 – Hosea 14)
+- **The day of the LORD** (Joel 1 – Obadiah 1)
+- **Jonah & Micah** (Jonah 1 – Micah 7)
+- **The last warnings** (Nahum 1 – Zephaniah 3)
+- **The postexilic prophets** (Haggai 1 – Malachi 4)
 
 ## Genesis
 
-| Ch | Caption |
-|----|---------|
-| 1 | The Creation |
-| 2 | Eden; the first man |
-| 3 | The Fall |
-| 4 | Cain slays Abel |
-| 5 | The generations of Adam |
-| 6 | Noah commanded to build |
-| 7 | The Flood |
-| 8 | The waters recede; the dove |
-| 9 | The rainbow covenant |
-| 10 | The table of nations |
-| 11 | Babel; Abram's lineage |
-| 12 | Abram called; goes to Egypt |
-| 13 | Abram and Lot separate |
-| 14 | Melchizedek blesses Abram |
-| 15 | The covenant of the pieces |
-| 16 | Hagar and Ishmael |
-| 17 | Circumcision; Abraham named |
-| 18 | Three visitors; pleading for Sodom |
-| 19 | Sodom destroyed; Lot delivered |
-| 20 | Abraham and Abimelech |
-| 21 | Isaac born; Hagar sent away |
-| 22 | Abraham offers Isaac |
-| 23 | Sarah dies; Machpelah purchased |
-| 24 | A bride for Isaac |
-| 25 | Abraham dies; the birthright sold |
-| 26 | Isaac's wells; the covenant renewed |
-| 27 | Jacob obtains the blessing |
-| 28 | Jacob's ladder at Bethel |
-| 29 | Leah and Rachel |
-| 30 | Jacob's children and flocks |
-| 31 | Jacob flees from Laban |
-| 32 | Wrestling at Peniel |
-| 33 | Jacob and Esau reconciled |
-| 34 | Dinah and the Shechemites |
-| 35 | Israel named; Rachel dies |
-| 36 | The generations of Esau |
-| 37 | Joseph sold into Egypt |
-| 38 | Judah and Tamar |
-| 39 | Potiphar's house; Joseph imprisoned |
-| 40 | The butler and the baker |
-| 41 | Pharaoh's dreams interpreted |
-| 42 | The brothers come for grain |
-| 43 | Benjamin brought to Egypt |
-| 44 | The silver cup |
-| 45 | Joseph makes himself known |
-| 46 | Israel goes down to Egypt |
-| 47 | Goshen; the famine years |
-| 48 | Ephraim and Manasseh blessed |
-| 49 | Jacob blesses his sons |
-| 50 | Jacob buried; Joseph dies |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | The Creation | The primeval history |
+| 2 | Eden; the first man | The primeval history |
+| 3 | The Fall | The primeval history |
+| 4 | Cain slays Abel | The primeval history |
+| 5 | The generations of Adam | The primeval history |
+| 6 | Noah commanded to build | The primeval history |
+| 7 | The Flood | The primeval history |
+| 8 | The waters recede; the dove | The primeval history |
+| 9 | The rainbow covenant | The primeval history |
+| 10 | The table of nations | The primeval history |
+| 11 | Babel; Abram's lineage | The primeval history |
+| 12 | Abram called; goes to Egypt | Abraham & Isaac |
+| 13 | Abram and Lot separate | Abraham & Isaac |
+| 14 | Melchizedek blesses Abram | Abraham & Isaac |
+| 15 | The covenant of the pieces | Abraham & Isaac |
+| 16 | Hagar and Ishmael | Abraham & Isaac |
+| 17 | Circumcision; Abraham named | Abraham & Isaac |
+| 18 | Three visitors; pleading for Sodom | Abraham & Isaac |
+| 19 | Sodom destroyed; Lot delivered | Abraham & Isaac |
+| 20 | Abraham and Abimelech | Abraham & Isaac |
+| 21 | Isaac born; Hagar sent away | Abraham & Isaac |
+| 22 | Abraham offers Isaac | Abraham & Isaac |
+| 23 | Sarah dies; Machpelah purchased | Abraham & Isaac |
+| 24 | A bride for Isaac | Abraham & Isaac |
+| 25 | Abraham dies; the birthright sold | Abraham & Isaac |
+| 26 | Isaac's wells; the covenant renewed | Jacob & Esau |
+| 27 | Jacob obtains the blessing | Jacob & Esau |
+| 28 | Jacob's ladder at Bethel | Jacob & Esau |
+| 29 | Leah and Rachel | Jacob & Esau |
+| 30 | Jacob's children and flocks | Jacob & Esau |
+| 31 | Jacob flees from Laban | Jacob & Esau |
+| 32 | Wrestling at Peniel | Jacob & Esau |
+| 33 | Jacob and Esau reconciled | Jacob & Esau |
+| 34 | Dinah and the Shechemites | Jacob & Esau |
+| 35 | Israel named; Rachel dies | Jacob & Esau |
+| 36 | The generations of Esau | Jacob & Esau |
+| 37 | Joseph sold into Egypt | Joseph in Egypt |
+| 38 | Judah and Tamar | Joseph in Egypt |
+| 39 | Potiphar's house; Joseph imprisoned | Joseph in Egypt |
+| 40 | The butler and the baker | Joseph in Egypt |
+| 41 | Pharaoh's dreams interpreted | Joseph in Egypt |
+| 42 | The brothers come for grain | Joseph in Egypt |
+| 43 | Benjamin brought to Egypt | Joseph in Egypt |
+| 44 | The silver cup | Joseph in Egypt |
+| 45 | Joseph makes himself known | Joseph in Egypt |
+| 46 | Israel goes down to Egypt | Joseph in Egypt |
+| 47 | Goshen; the famine years | Joseph in Egypt |
+| 48 | Ephraim and Manasseh blessed | Joseph in Egypt |
+| 49 | Jacob blesses his sons | Joseph in Egypt |
+| 50 | Jacob buried; Joseph dies | Joseph in Egypt |
 
 ## Exodus
 
-| Ch | Caption |
-|----|---------|
-| 1 | Israel afflicted in Egypt |
-| 2 | Moses born; flees to Midian |
-| 3 | The burning bush |
-| 4 | Signs given; Aaron sent |
-| 5 | Bricks without straw |
-| 6 | I am the LORD |
-| 7 | The rod and the bloody river |
-| 8 | Frogs, lice, and flies |
-| 9 | Murrain, boils, and hail |
-| 10 | Locusts and darkness |
-| 11 | The last plague announced |
-| 12 | The Passover; the Exodus |
-| 13 | Firstborn sanctified; pillar of cloud |
-| 14 | The Red Sea divided |
-| 15 | The song of Moses |
-| 16 | Manna and quails |
-| 17 | Water from the rock; Amalek |
-| 18 | Jethro's counsel |
-| 19 | Sinai; a kingdom of priests |
-| 20 | The Ten Commandments |
-| 21 | Judgments concerning servants |
-| 22 | Laws of restitution |
-| 23 | An angel to go before |
-| 24 | The elders see God |
-| 25 | The ark and the tabernacle |
-| 26 | The tabernacle curtains |
-| 27 | The altar and the court |
-| 28 | The priestly garments |
-| 29 | Consecration of the priests |
-| 30 | The altar of incense |
-| 31 | Bezaleel; the Sabbath a sign |
-| 32 | The golden calf |
-| 33 | Face to face; God's glory |
-| 34 | New tablets; the covenant renewed |
-| 35 | Freewill offerings gathered |
-| 36 | The tabernacle work begun |
-| 37 | The ark and furnishings made |
-| 38 | The altar and court made |
-| 39 | The garments finished |
-| 40 | The tabernacle reared; glory fills |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | Israel afflicted in Egypt | Bondage & the call |
+| 2 | Moses born; flees to Midian | Bondage & the call |
+| 3 | The burning bush | Bondage & the call |
+| 4 | Signs given; Aaron sent | Bondage & the call |
+| 5 | Bricks without straw | Bondage & the call |
+| 6 | I am the LORD | Bondage & the call |
+| 7 | The rod and the bloody river | The plagues |
+| 8 | Frogs, lice, and flies | The plagues |
+| 9 | Murrain, boils, and hail | The plagues |
+| 10 | Locusts and darkness | The plagues |
+| 11 | The last plague announced | The plagues |
+| 12 | The Passover; the Exodus | The plagues |
+| 13 | Firstborn sanctified; pillar of cloud | The Exodus |
+| 14 | The Red Sea divided | The Exodus |
+| 15 | The song of Moses | The Exodus |
+| 16 | Manna and quails | The Exodus |
+| 17 | Water from the rock; Amalek | The Exodus |
+| 18 | Jethro's counsel | The Exodus |
+| 19 | Sinai; a kingdom of priests | Sinai & the covenant |
+| 20 | The Ten Commandments | Sinai & the covenant |
+| 21 | Judgments concerning servants | Sinai & the covenant |
+| 22 | Laws of restitution | Sinai & the covenant |
+| 23 | An angel to go before | Sinai & the covenant |
+| 24 | The elders see God | Sinai & the covenant |
+| 25 | The ark and the tabernacle | The tabernacle & the calf |
+| 26 | The tabernacle curtains | The tabernacle & the calf |
+| 27 | The altar and the court | The tabernacle & the calf |
+| 28 | The priestly garments | The tabernacle & the calf |
+| 29 | Consecration of the priests | The tabernacle & the calf |
+| 30 | The altar of incense | The tabernacle & the calf |
+| 31 | Bezaleel; the Sabbath a sign | The tabernacle & the calf |
+| 32 | The golden calf | The tabernacle & the calf |
+| 33 | Face to face; God's glory | The tabernacle & the calf |
+| 34 | New tablets; the covenant renewed | The tabernacle & the calf |
+| 35 | Freewill offerings gathered | The tabernacle & the calf |
+| 36 | The tabernacle work begun | The tabernacle & the calf |
+| 37 | The ark and furnishings made | The tabernacle & the calf |
+| 38 | The altar and court made | The tabernacle & the calf |
+| 39 | The garments finished | The tabernacle & the calf |
+| 40 | The tabernacle reared; glory fills | The tabernacle & the calf |
 
 ## Leviticus
 
-| Ch | Caption |
-|----|---------|
-| 1 | The burnt offering |
-| 2 | The meat offering |
-| 3 | The peace offering |
-| 4 | The sin offering |
-| 5 | The trespass offering |
-| 6 | Laws of the offerings |
-| 7 | Further laws of the offerings |
-| 8 | Aaron and his sons consecrated |
-| 9 | Aaron's first offerings; fire falls |
-| 10 | Nadab and Abihu |
-| 11 | Clean and unclean animals |
-| 12 | Purification after childbirth |
-| 13 | The law of leprosy |
-| 14 | Cleansing the leper |
-| 15 | Laws of bodily issues |
-| 16 | The Day of Atonement |
-| 17 | The life is in the blood |
-| 18 | Forbidden relations |
-| 19 | Love thy neighbour as thyself |
-| 20 | Penalties for abominations |
-| 21 | Holiness required of priests |
-| 22 | Offerings without blemish |
-| 23 | The feasts of the Lord |
-| 24 | Blasphemy; eye for eye |
-| 25 | The sabbatical year and jubilee |
-| 26 | Blessings and cursings |
-| 27 | Vows and tithes |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | The burnt offering | The offerings |
+| 2 | The meat offering | The offerings |
+| 3 | The peace offering | The offerings |
+| 4 | The sin offering | The offerings |
+| 5 | The trespass offering | The offerings |
+| 6 | Laws of the offerings | The offerings |
+| 7 | Further laws of the offerings | The offerings |
+| 8 | Aaron and his sons consecrated | Priests, clean & unclean |
+| 9 | Aaron's first offerings; fire falls | Priests, clean & unclean |
+| 10 | Nadab and Abihu | Priests, clean & unclean |
+| 11 | Clean and unclean animals | Priests, clean & unclean |
+| 12 | Purification after childbirth | Priests, clean & unclean |
+| 13 | The law of leprosy | Priests, clean & unclean |
+| 14 | Cleansing the leper | Priests, clean & unclean |
+| 15 | Laws of bodily issues | Priests, clean & unclean |
+| 16 | The Day of Atonement | Atonement & holiness |
+| 17 | The life is in the blood | Atonement & holiness |
+| 18 | Forbidden relations | Atonement & holiness |
+| 19 | Love thy neighbour as thyself | Atonement & holiness |
+| 20 | Penalties for abominations | Atonement & holiness |
+| 21 | Holiness required of priests | Atonement & holiness |
+| 22 | Offerings without blemish | Atonement & holiness |
+| 23 | The feasts of the Lord | Atonement & holiness |
+| 24 | Blasphemy; eye for eye | Atonement & holiness |
+| 25 | The sabbatical year and jubilee | Atonement & holiness |
+| 26 | Blessings and cursings | Atonement & holiness |
+| 27 | Vows and tithes | Atonement & holiness |
 
 ## Numbers
 
-| Ch | Caption |
-|----|---------|
-| 1 | The first census |
-| 2 | The order of the camp |
-| 3 | The Levites numbered |
-| 4 | Duties of the Levite families |
-| 5 | The trial of jealousy |
-| 6 | The Nazarite vow; the blessing |
-| 7 | Offerings of the princes |
-| 8 | The lamps; the Levites cleansed |
-| 9 | The second Passover; the cloud |
-| 10 | The silver trumpets; departure |
-| 11 | Quails and the seventy elders |
-| 12 | Miriam and Aaron murmur |
-| 13 | The twelve spies |
-| 14 | Israel condemned to wander |
-| 15 | The Sabbath breaker; the fringes |
-| 16 | Korah's rebellion |
-| 17 | Aaron's rod that budded |
-| 18 | Priestly portions and tithes |
-| 19 | The red heifer |
-| 20 | Water from the rock; Aaron dies |
-| 21 | The brazen serpent |
-| 22 | Balaam and the donkey |
-| 23 | Balaam's first blessings |
-| 24 | A Star out of Jacob |
-| 25 | Baal-peor; the zeal of Phinehas |
-| 26 | The second census |
-| 27 | Zelophehad's daughters; Joshua chosen |
-| 28 | Daily and Sabbath offerings |
-| 29 | Offerings of the seventh month |
-| 30 | The law of vows |
-| 31 | War with Midian |
-| 32 | Reuben and Gad's inheritance |
-| 33 | The journeys reviewed |
-| 34 | The borders of Canaan |
-| 35 | The cities of refuge |
-| 36 | Inheritance within the tribe |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | The first census | The camp ordered |
+| 2 | The order of the camp | The camp ordered |
+| 3 | The Levites numbered | The camp ordered |
+| 4 | Duties of the Levite families | The camp ordered |
+| 5 | The trial of jealousy | The camp ordered |
+| 6 | The Nazarite vow; the blessing | The camp ordered |
+| 7 | Offerings of the princes | The camp ordered |
+| 8 | The lamps; the Levites cleansed | The camp ordered |
+| 9 | The second Passover; the cloud | The camp ordered |
+| 10 | The silver trumpets; departure | The camp ordered |
+| 11 | Quails and the 70 elders | Rebellions in the desert |
+| 12 | Miriam and Aaron murmur | Rebellions in the desert |
+| 13 | The 12 spies | Rebellions in the desert |
+| 14 | Israel condemned to wander | Rebellions in the desert |
+| 15 | The Sabbath breaker; the fringes | Rebellions in the desert |
+| 16 | Korah's rebellion | Rebellions in the desert |
+| 17 | Aaron's rod that budded | Rebellions in the desert |
+| 18 | Priestly portions and tithes | Rebellions in the desert |
+| 19 | The red heifer | Rebellions in the desert |
+| 20 | Water from the rock; Aaron dies | The serpent & Balaam |
+| 21 | The brazen serpent | The serpent & Balaam |
+| 22 | Balaam and the donkey | The serpent & Balaam |
+| 23 | Balaam's first blessings | The serpent & Balaam |
+| 24 | A Star out of Jacob | The serpent & Balaam |
+| 25 | Baal-peor; the zeal of Phinehas | The serpent & Balaam |
+| 26 | The second census | The new generation |
+| 27 | Zelophehad's daughters; Joshua chosen | The new generation |
+| 28 | Daily and Sabbath offerings | The new generation |
+| 29 | Offerings of the seventh month | The new generation |
+| 30 | The law of vows | The new generation |
+| 31 | War with Midian | The new generation |
+| 32 | Reuben and Gad's inheritance | The new generation |
+| 33 | The journeys reviewed | The new generation |
+| 34 | The borders of Canaan | The new generation |
+| 35 | The cities of refuge | The new generation |
+| 36 | Inheritance within the tribe | The new generation |
 
 ## Deuteronomy
 
-| Ch | Caption |
-|----|---------|
-| 1 | The wandering reviewed |
-| 2 | Passing Edom and Moab |
-| 3 | Og defeated; Moses forbidden |
-| 4 | Add not unto the word |
-| 5 | The Ten Commandments repeated |
-| 6 | Hear, O Israel; love God |
-| 7 | A chosen and peculiar people |
-| 8 | Not by bread alone |
-| 9 | Not for thy righteousness |
-| 10 | What doth the Lord require |
-| 11 | A blessing and a curse |
-| 12 | Worship in the chosen place |
-| 13 | False prophets and dreamers |
-| 14 | Clean food; the tithe |
-| 15 | The year of release |
-| 16 | The three annual feasts |
-| 17 | Judges and kings |
-| 18 | A Prophet like unto Moses |
-| 19 | Cities of refuge; two witnesses |
-| 20 | Laws of warfare |
-| 21 | The firstborn's right; rebellious son |
-| 22 | Sundry laws and duties |
-| 23 | Entering the congregation |
-| 24 | Divorce, pledges, and gleaning |
-| 25 | Levirate marriage; just weights |
-| 26 | Firstfruits and the tithe declaration |
-| 27 | Curses proclaimed from Ebal |
-| 28 | The blessings and the cursings |
-| 29 | The covenant in Moab |
-| 30 | The word is very nigh thee |
-| 31 | Joshua charged; the law read |
-| 32 | The song of Moses |
-| 33 | Moses blesses the tribes |
-| 34 | Moses's death and successor |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | The wandering reviewed | The journey rehearsed |
+| 2 | Passing Edom and Moab | The journey rehearsed |
+| 3 | Og defeated; Moses forbidden | The journey rehearsed |
+| 4 | Add not unto the word | The journey rehearsed |
+| 5 | The Ten Commandments repeated | Hear, O Israel |
+| 6 | Hear, O Israel; love God | Hear, O Israel |
+| 7 | A chosen and peculiar people | Hear, O Israel |
+| 8 | Not by bread alone | Hear, O Israel |
+| 9 | Not for thy righteousness | Hear, O Israel |
+| 10 | What doth the Lord require | Hear, O Israel |
+| 11 | A blessing and a curse | Hear, O Israel |
+| 12 | Worship in the chosen place | The covenant law |
+| 13 | False prophets and dreamers | The covenant law |
+| 14 | Clean food; the tithe | The covenant law |
+| 15 | The year of release | The covenant law |
+| 16 | The 3 annual feasts | The covenant law |
+| 17 | Judges and kings | The covenant law |
+| 18 | A Prophet like unto Moses | The covenant law |
+| 19 | Cities of refuge; 2 witnesses | The covenant law |
+| 20 | Laws of warfare | The covenant law |
+| 21 | The firstborn's right; rebellious son | The covenant law |
+| 22 | Sundry laws and duties | The covenant law |
+| 23 | Entering the congregation | The covenant law |
+| 24 | Divorce, pledges, and gleaning | The covenant law |
+| 25 | Levirate marriage; just weights | The covenant law |
+| 26 | Firstfruits and the tithe declaration | The covenant law |
+| 27 | Curses proclaimed from Ebal | Blessings & cursings |
+| 28 | The blessings and the cursings | Blessings & cursings |
+| 29 | The covenant in Moab | Blessings & cursings |
+| 30 | The word is very nigh thee | Blessings & cursings |
+| 31 | Joshua charged; the law read | Moses' farewell |
+| 32 | The song of Moses | Moses' farewell |
+| 33 | Moses blesses the tribes | Moses' farewell |
+| 34 | Moses's death and successor | Moses' farewell |
 
 ## Joshua
 
-| Ch | Caption |
-|----|---------|
-| 1 | Be strong and of good courage |
-| 2 | Rahab and the spies |
-| 3 | Crossing the Jordan |
-| 4 | The twelve memorial stones |
-| 5 | The captain of the Lord's host |
-| 6 | The walls of Jericho |
-| 7 | Achan's sin; defeat at Ai |
-| 8 | Ai taken; the law read |
-| 9 | The Gibeonite deception |
-| 10 | The sun stands still |
-| 11 | The northern kings defeated |
-| 12 | The conquered kings listed |
-| 13 | Land yet to be possessed |
-| 14 | Caleb claims his mountain |
-| 15 | Judah's inheritance |
-| 16 | Ephraim's inheritance |
-| 17 | Manasseh's inheritance |
-| 18 | The land surveyed; Benjamin's lot |
-| 19 | The remaining tribal inheritances |
-| 20 | The cities of refuge appointed |
-| 21 | Cities given to the Levites |
-| 22 | The altar of witness |
-| 23 | Joshua's farewell counsel |
-| 24 | Choose you this day |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | Be strong and of good courage | Into the promised land |
+| 2 | Rahab and the spies | Into the promised land |
+| 3 | Crossing the Jordan | Into the promised land |
+| 4 | The 12 memorial stones | Into the promised land |
+| 5 | The captain of the Lord's host | Into the promised land |
+| 6 | The walls of Jericho | The conquest |
+| 7 | Achan's sin; defeat at Ai | The conquest |
+| 8 | Ai taken; the law read | The conquest |
+| 9 | The Gibeonite deception | The conquest |
+| 10 | The sun stands still | The conquest |
+| 11 | The northern kings defeated | The conquest |
+| 12 | The conquered kings listed | The conquest |
+| 13 | Land yet to be possessed | The inheritance divided |
+| 14 | Caleb claims his mountain | The inheritance divided |
+| 15 | Judah's inheritance | The inheritance divided |
+| 16 | Ephraim's inheritance | The inheritance divided |
+| 17 | Manasseh's inheritance | The inheritance divided |
+| 18 | The land surveyed; Benjamin's lot | The inheritance divided |
+| 19 | The remaining tribal inheritances | The inheritance divided |
+| 20 | The cities of refuge appointed | The inheritance divided |
+| 21 | Cities given to the Levites | The inheritance divided |
+| 22 | The altar of witness | Joshua's farewell |
+| 23 | Joshua's farewell counsel | Joshua's farewell |
+| 24 | Choose you this day | Joshua's farewell |
 
 ## Judges
 
-| Ch | Caption |
-|----|---------|
-| 1 | The Canaanites not driven out |
-| 2 | A generation that knew not |
-| 3 | Othniel, Ehud, and Shamgar |
-| 4 | Deborah and Barak; Jael |
-| 5 | The song of Deborah |
-| 6 | Gideon and the fleece |
-| 7 | Three hundred men |
-| 8 | Midian subdued; Gideon's ephod |
-| 9 | Abimelech's usurpation |
-| 10 | Tola, Jair, and apostasy |
-| 11 | Jephthah's vow |
-| 12 | Shibboleth; three judges |
-| 13 | Samson's birth foretold |
-| 14 | Samson's riddle |
-| 15 | The foxes and the jawbone |
-| 16 | Delilah; the temple falls |
-| 17 | Micah's idols and hired priest |
-| 18 | The Danites take Micah's priest |
-| 19 | The Levite's concubine |
-| 20 | Israel wars against Benjamin |
-| 21 | Wives for the Benjamites |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | The Canaanites not driven out | Deborah & Gideon |
+| 2 | A generation that knew not | Deborah & Gideon |
+| 3 | Othniel, Ehud, and Shamgar | Deborah & Gideon |
+| 4 | Deborah and Barak; Jael | Deborah & Gideon |
+| 5 | The song of Deborah | Deborah & Gideon |
+| 6 | Gideon and the fleece | Deborah & Gideon |
+| 7 | 300 men | Deborah & Gideon |
+| 8 | Midian subdued; Gideon's ephod | Deborah & Gideon |
+| 9 | Abimelech's usurpation | Abimelech & Jephthah |
+| 10 | Tola, Jair, and apostasy | Abimelech & Jephthah |
+| 11 | Jephthah's vow | Abimelech & Jephthah |
+| 12 | Shibboleth; 3 judges | Abimelech & Jephthah |
+| 13 | Samson's birth foretold | Samson |
+| 14 | Samson's riddle | Samson |
+| 15 | The foxes and the jawbone | Samson |
+| 16 | Delilah; the temple falls | Samson |
+| 17 | Micah's idols and hired priest | No king in Israel |
+| 18 | The Danites take Micah's priest | No king in Israel |
+| 19 | The Levite's concubine | No king in Israel |
+| 20 | Israel wars against Benjamin | No king in Israel |
+| 21 | Wives for the Benjamites | No king in Israel |
 
 ## Ruth
 
-| Ch | Caption |
-|----|---------|
-| 1 | Whither thou goest |
-| 2 | Gleaning in Boaz's field |
-| 3 | At the threshingfloor |
-| 4 | Boaz redeems; Obed born |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | Whither thou goest | Ruth's redemption |
+| 2 | Gleaning in Boaz's field | Ruth's redemption |
+| 3 | At the threshingfloor | Ruth's redemption |
+| 4 | Boaz redeems; Obed born | Ruth's redemption |
 
 ## 1 Samuel
 
-| Ch | Caption |
-|----|---------|
-| 1 | Hannah's vow; Samuel born |
-| 2 | Hannah's song; Eli's sons |
-| 3 | Speak, for thy servant heareth |
-| 4 | The ark captured; Eli dies |
-| 5 | Dagon falls before the ark |
-| 6 | The ark returned |
-| 7 | Ebenezer; Israel delivered |
-| 8 | Israel demands a king |
-| 9 | Saul seeks the asses |
-| 10 | Saul anointed and chosen |
-| 11 | Saul delivers Jabesh-gilead |
-| 12 | Samuel's farewell address |
-| 13 | Saul's unlawful sacrifice |
-| 14 | Jonathan's victory; the rash oath |
-| 15 | To obey is better |
-| 16 | David anointed; the harp soothes |
-| 17 | David and Goliath |
-| 18 | Jonathan's covenant; Saul's envy |
-| 19 | Michal helps David escape |
-| 20 | The arrows; the covenant of friendship |
-| 21 | The shewbread; feigned madness |
-| 22 | The priests of Nob slain |
-| 23 | Keilah delivered; David pursued |
-| 24 | The skirt cut in the cave |
-| 25 | Nabal and Abigail |
-| 26 | The spear and the cruse |
-| 27 | David among the Philistines |
-| 28 | The woman at Endor |
-| 29 | The Philistines distrust David |
-| 30 | Ziklag burned; the spoil recovered |
-| 31 | Saul dies on Gilboa |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | Hannah's vow; Samuel born | Samuel raised up |
+| 2 | Hannah's song; Eli's sons | Samuel raised up |
+| 3 | Speak, for thy servant heareth | Samuel raised up |
+| 4 | The ark captured; Eli dies | Samuel raised up |
+| 5 | Dagon falls before the ark | Samuel raised up |
+| 6 | The ark returned | Samuel raised up |
+| 7 | Ebenezer; Israel delivered | Samuel raised up |
+| 8 | Israel demands a king | Saul's kingship |
+| 9 | Saul seeks the asses | Saul's kingship |
+| 10 | Saul anointed and chosen | Saul's kingship |
+| 11 | Saul delivers Jabesh-gilead | Saul's kingship |
+| 12 | Samuel's farewell address | Saul's kingship |
+| 13 | Saul's unlawful sacrifice | Saul's kingship |
+| 14 | Jonathan's victory; the rash oath | Saul's kingship |
+| 15 | To obey is better | Saul's kingship |
+| 16 | David anointed; the harp soothes | David's rise |
+| 17 | David and Goliath | David's rise |
+| 18 | Jonathan's covenant; Saul's envy | David's rise |
+| 19 | Michal helps David escape | David's rise |
+| 20 | The arrows; the covenant of friendship | David's rise |
+| 21 | The shewbread; feigned madness | David the fugitive |
+| 22 | The priests of Nob slain | David the fugitive |
+| 23 | Keilah delivered; David pursued | David the fugitive |
+| 24 | The skirt cut in the cave | David the fugitive |
+| 25 | Nabal and Abigail | David the fugitive |
+| 26 | The spear and the cruse | David the fugitive |
+| 27 | David among the Philistines | David the fugitive |
+| 28 | The woman at Endor | David the fugitive |
+| 29 | The Philistines distrust David | David the fugitive |
+| 30 | Ziklag burned; the spoil recovered | David the fugitive |
+| 31 | Saul dies on Gilboa | David the fugitive |
 
 ## 2 Samuel
 
-| Ch | Caption |
-|----|---------|
-| 1 | David laments Saul and Jonathan |
-| 2 | David king in Hebron |
-| 3 | Abner slain by Joab |
-| 4 | Ish-bosheth murdered |
-| 5 | Jerusalem taken; David king |
-| 6 | Uzzah; the ark brought up |
-| 7 | The promise of an everlasting house |
-| 8 | David's victories |
-| 9 | Kindness to Mephibosheth |
-| 10 | The Ammonites and Syrians defeated |
-| 11 | Bathsheba and Uriah |
-| 12 | Thou art the man |
-| 13 | Amnon and Tamar; Absalom's revenge |
-| 14 | Absalom recalled by Joab |
-| 15 | Absalom's conspiracy; David flees |
-| 16 | Ziba and Shimei |
-| 17 | Ahithophel's counsel defeated |
-| 18 | Absalom slain; David mourns |
-| 19 | David returns to Jerusalem |
-| 20 | Sheba's revolt |
-| 21 | The Gibeonites avenged; giants slain |
-| 22 | David's song of deliverance |
-| 23 | David's last words; the mighty men |
-| 24 | The census and the plague |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | David laments Saul and Jonathan | David's kingdom |
+| 2 | David king in Hebron | David's kingdom |
+| 3 | Abner slain by Joab | David's kingdom |
+| 4 | Ish-bosheth murdered | David's kingdom |
+| 5 | Jerusalem taken; David king | David's kingdom |
+| 6 | Uzzah; the ark brought up | David's kingdom |
+| 7 | The promise of an everlasting house | David's kingdom |
+| 8 | David's victories | David's kingdom |
+| 9 | Kindness to Mephibosheth | David's kingdom |
+| 10 | The Ammonites and Syrians defeated | David's kingdom |
+| 11 | Bathsheba and Uriah | Sin & Absalom |
+| 12 | Thou art the man | Sin & Absalom |
+| 13 | Amnon and Tamar; Absalom's revenge | Sin & Absalom |
+| 14 | Absalom recalled by Joab | Sin & Absalom |
+| 15 | Absalom's conspiracy; David flees | Sin & Absalom |
+| 16 | Ziba and Shimei | Sin & Absalom |
+| 17 | Ahithophel's counsel defeated | Sin & Absalom |
+| 18 | Absalom slain; David mourns | Sin & Absalom |
+| 19 | David returns to Jerusalem | Sin & Absalom |
+| 20 | Sheba's revolt | Sin & Absalom |
+| 21 | The Gibeonites avenged; giants slain | David's last days |
+| 22 | David's song of deliverance | David's last days |
+| 23 | David's last words; the mighty men | David's last days |
+| 24 | The census and the plague | David's last days |
 
 ## 1 Kings
 
-| Ch | Caption |
-|----|---------|
-| 1 | Adonijah usurps; Solomon anointed |
-| 2 | David's charge; Solomon's throne established |
-| 3 | Solomon's wisdom; the two mothers |
-| 4 | Solomon's officers and greatness |
-| 5 | Hiram supplies the timber |
-| 6 | The temple built |
-| 7 | Solomon's house; the temple furnishings |
-| 8 | The temple dedicated |
-| 9 | The Lord appears again |
-| 10 | The queen of Sheba |
-| 11 | Solomon's wives; the kingdom rent |
-| 12 | Rehoboam's folly; the kingdom divides |
-| 13 | The man of God from Judah |
-| 14 | Ahijah's prophecy; Shishak invades |
-| 15 | Kings of Judah and Israel |
-| 16 | Omri and Ahab |
-| 17 | Elijah and the widow's cruse |
-| 18 | The contest on Carmel |
-| 19 | The still small voice |
-| 20 | Ben-hadad defeated twice |
-| 21 | Naboth's vineyard |
-| 22 | Micaiah's prophecy; Ahab slain |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | Adonijah usurps; Solomon anointed | Solomon enthroned |
+| 2 | David's charge; Solomon's throne established | Solomon enthroned |
+| 3 | Solomon's wisdom; the 2 mothers | Solomon enthroned |
+| 4 | Solomon's officers and greatness | Solomon enthroned |
+| 5 | Hiram supplies the timber | The temple built |
+| 6 | The temple built | The temple built |
+| 7 | Solomon's house; the temple furnishings | The temple built |
+| 8 | The temple dedicated | The temple built |
+| 9 | The Lord appears again | Solomon's fall |
+| 10 | The queen of Sheba | Solomon's fall |
+| 11 | Solomon's wives; the kingdom rent | Solomon's fall |
+| 12 | Rehoboam's folly; the kingdom divides | The kingdom divided |
+| 13 | The man of God from Judah | The kingdom divided |
+| 14 | Ahijah's prophecy; Shishak invades | The kingdom divided |
+| 15 | Kings of Judah and Israel | The kingdom divided |
+| 16 | Omri and Ahab | The kingdom divided |
+| 17 | Elijah and the widow's cruse | Elijah & Ahab |
+| 18 | The contest on Carmel | Elijah & Ahab |
+| 19 | The still small voice | Elijah & Ahab |
+| 20 | Ben-hadad defeated twice | Elijah & Ahab |
+| 21 | Naboth's vineyard | Elijah & Ahab |
+| 22 | Micaiah's prophecy; Ahab slain | Elijah & Ahab |
 
 ## 2 Kings
 
-| Ch | Caption |
-|----|---------|
-| 1 | Fire from heaven; Ahaziah dies |
-| 2 | Elijah taken; Elisha's mantle |
-| 3 | Moab rebels; water provided |
-| 4 | The widow's oil; the Shunammite |
-| 5 | Naaman healed of leprosy |
-| 6 | The axe floats; chariots of fire |
-| 7 | The siege lifted; four lepers |
-| 8 | The Shunammite's land; Hazael's rise |
-| 9 | Jehu anointed; Jezebel slain |
-| 10 | Ahab's house destroyed; Baal purged |
-| 11 | Athaliah slain; Joash crowned |
-| 12 | Joash repairs the temple |
-| 13 | Jehoahaz and Jehoash; Elisha dies |
-| 14 | Amaziah and Jeroboam the second |
-| 15 | A succession of kings |
-| 16 | Ahaz and the Assyrian altar |
-| 17 | Israel carried into Assyria |
-| 18 | Hezekiah's reform; Rabshakeh's taunt |
-| 19 | Isaiah's counsel; Assyria smitten |
-| 20 | Hezekiah's illness; the sundial |
-| 21 | Manasseh's wickedness |
-| 22 | The book of the law found |
-| 23 | Josiah's reforms; the Passover kept |
-| 24 | Nebuchadnezzar; the first captivity |
-| 25 | Jerusalem falls; the temple burned |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | Fire from heaven; Ahaziah dies | Elisha's ministry |
+| 2 | Elijah taken; Elisha's mantle | Elisha's ministry |
+| 3 | Moab rebels; water provided | Elisha's ministry |
+| 4 | The widow's oil; the Shunammite | Elisha's ministry |
+| 5 | Naaman healed of leprosy | Elisha's ministry |
+| 6 | The axe floats; chariots of fire | Elisha's ministry |
+| 7 | The siege lifted; 4 lepers | Elisha's ministry |
+| 8 | The Shunammite's land; Hazael's rise | Elisha's ministry |
+| 9 | Jehu anointed; Jezebel slain | The fall of Israel |
+| 10 | Ahab's house destroyed; Baal purged | The fall of Israel |
+| 11 | Athaliah slain; Joash crowned | The fall of Israel |
+| 12 | Joash repairs the temple | The fall of Israel |
+| 13 | Jehoahaz and Jehoash; Elisha dies | The fall of Israel |
+| 14 | Amaziah and Jeroboam the second | The fall of Israel |
+| 15 | A succession of kings | The fall of Israel |
+| 16 | Ahaz and the Assyrian altar | The fall of Israel |
+| 17 | Israel carried into Assyria | The fall of Israel |
+| 18 | Hezekiah's reform; Rabshakeh's taunt | Hezekiah |
+| 19 | Isaiah's counsel; Assyria smitten | Hezekiah |
+| 20 | Hezekiah's illness; the sundial | Hezekiah |
+| 21 | Manasseh's wickedness | The last kings of Judah |
+| 22 | The book of the law found | The last kings of Judah |
+| 23 | Josiah's reforms; the Passover kept | The last kings of Judah |
+| 24 | Nebuchadnezzar; the first captivity | The last kings of Judah |
+| 25 | Jerusalem falls; the temple burned | The last kings of Judah |
 
 ## 1 Chronicles
 
-| Ch | Caption |
-|----|---------|
-| 1 | From Adam to Esau |
-| 2 | The sons of Israel; Judah's line |
-| 3 | The sons of David |
-| 4 | Judah and Simeon; Jabez's prayer |
-| 5 | Reuben, Gad, and half Manasseh |
-| 6 | The sons of Levi |
-| 7 | Issachar, Naphtali, Ephraim, Asher |
-| 8 | The genealogy of Benjamin |
-| 9 | Those who returned; Saul's line |
-| 10 | Saul's death and its cause |
-| 11 | David made king; the mighty men |
-| 12 | Those who came to David |
-| 13 | Uzza and the ark |
-| 14 | David's house; Philistines defeated |
-| 15 | The ark carried by the Levites |
-| 16 | The ark placed; David's psalm |
-| 17 | Nathan's promise to David |
-| 18 | David's conquests |
-| 19 | The envoys humiliated; Ammon defeated |
-| 20 | Rabbah taken; the giants slain |
-| 21 | The census and the threshingfloor |
-| 22 | Preparations for the temple |
-| 23 | The Levites numbered and assigned |
-| 24 | The priestly courses |
-| 25 | The singers appointed |
-| 26 | Porters, treasurers, and officers |
-| 27 | Captains and rulers |
-| 28 | David charges Solomon; the pattern |
-| 29 | The willing offering; David dies |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | From Adam to Esau | The genealogies |
+| 2 | The sons of Israel; Judah's line | The genealogies |
+| 3 | The sons of David | The genealogies |
+| 4 | Judah and Simeon; Jabez's prayer | The genealogies |
+| 5 | Reuben, Gad, and half Manasseh | The genealogies |
+| 6 | The sons of Levi | The genealogies |
+| 7 | Issachar, Naphtali, Ephraim, Asher | The genealogies |
+| 8 | The genealogy of Benjamin | The genealogies |
+| 9 | Those who returned; Saul's line | The genealogies |
+| 10 | Saul's death and its cause | David retold |
+| 11 | David made king; the mighty men | David retold |
+| 12 | Those who came to David | David retold |
+| 13 | Uzza and the ark | David retold |
+| 14 | David's house; Philistines defeated | David retold |
+| 15 | The ark carried by the Levites | David retold |
+| 16 | The ark placed; David's psalm | David retold |
+| 17 | Nathan's promise to David | David retold |
+| 18 | David's conquests | David retold |
+| 19 | The envoys humiliated; Ammon defeated | David retold |
+| 20 | Rabbah taken; the giants slain | David retold |
+| 21 | The census and the threshingfloor | David retold |
+| 22 | Preparations for the temple | David retold |
+| 23 | The Levites numbered and assigned | David retold |
+| 24 | The priestly courses | David retold |
+| 25 | The singers appointed | David retold |
+| 26 | Porters, treasurers, and officers | David retold |
+| 27 | Captains and rulers | David retold |
+| 28 | David charges Solomon; the pattern | David retold |
+| 29 | The willing offering; David dies | David retold |
 
 ## 2 Chronicles
 
-| Ch | Caption |
-|----|---------|
-| 1 | Solomon asks for wisdom |
-| 2 | Preparations with Huram |
-| 3 | The temple begun |
-| 4 | The temple furnishings |
-| 5 | The ark brought in; glory fills |
-| 6 | Solomon's dedicatory prayer |
-| 7 | Fire falls; the Lord's answer |
-| 8 | Solomon's cities and service |
-| 9 | The queen of Sheba; Solomon dies |
-| 10 | The kingdom divided |
-| 11 | Rehoboam's cities; the priests come |
-| 12 | Shishak invades Jerusalem |
-| 13 | Abijah's war with Jeroboam |
-| 14 | Asa's reform; Zerah defeated |
-| 15 | Azariah's counsel; the covenant |
-| 16 | Asa's league with Syria |
-| 17 | Jehoshaphat teaches the law |
-| 18 | Micaiah warns; Ahab slain |
-| 19 | Judges appointed throughout Judah |
-| 20 | The battle is God's |
-| 21 | Jehoram's wickedness |
-| 22 | Ahaziah; Athaliah's usurpation |
-| 23 | Jehoiada crowns Joash |
-| 24 | Joash repairs; Zechariah slain |
-| 25 | Amaziah's partial obedience |
-| 26 | Uzziah's pride and leprosy |
-| 27 | Jotham's steady reign |
-| 28 | Ahaz's idolatry |
-| 29 | Hezekiah cleanses the temple |
-| 30 | The great Passover kept |
-| 31 | Tithes and offerings restored |
-| 32 | Sennacherib defeated; Hezekiah's pride |
-| 33 | Manasseh's captivity and repentance |
-| 34 | Josiah's reform; the book found |
-| 35 | Josiah's Passover and death |
-| 36 | Judah carried to Babylon |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | Solomon asks for wisdom | Solomon retold |
+| 2 | Preparations with Huram | Solomon retold |
+| 3 | The temple begun | Solomon retold |
+| 4 | The temple furnishings | Solomon retold |
+| 5 | The ark brought in; glory fills | Solomon retold |
+| 6 | Solomon's dedicatory prayer | Solomon retold |
+| 7 | Fire falls; the Lord's answer | Solomon retold |
+| 8 | Solomon's cities and service | Solomon retold |
+| 9 | The queen of Sheba; Solomon dies | Solomon retold |
+| 10 | The kingdom divided | Judah's early kings |
+| 11 | Rehoboam's cities; the priests come | Judah's early kings |
+| 12 | Shishak invades Jerusalem | Judah's early kings |
+| 13 | Abijah's war with Jeroboam | Judah's early kings |
+| 14 | Asa's reform; Zerah defeated | Judah's early kings |
+| 15 | Azariah's counsel; the covenant | Judah's early kings |
+| 16 | Asa's league with Syria | Judah's early kings |
+| 17 | Jehoshaphat teaches the law | Judah's early kings |
+| 18 | Micaiah warns; Ahab slain | Judah's early kings |
+| 19 | Judges appointed throughout Judah | Judah's early kings |
+| 20 | The battle is God's | Judah's early kings |
+| 21 | Jehoram's wickedness | Decline to exile |
+| 22 | Ahaziah; Athaliah's usurpation | Decline to exile |
+| 23 | Jehoiada crowns Joash | Decline to exile |
+| 24 | Joash repairs; Zechariah slain | Decline to exile |
+| 25 | Amaziah's partial obedience | Decline to exile |
+| 26 | Uzziah's pride and leprosy | Decline to exile |
+| 27 | Jotham's steady reign | Decline to exile |
+| 28 | Ahaz's idolatry | Decline to exile |
+| 29 | Hezekiah cleanses the temple | Decline to exile |
+| 30 | The great Passover kept | Decline to exile |
+| 31 | Tithes and offerings restored | Decline to exile |
+| 32 | Sennacherib defeated; Hezekiah's pride | Decline to exile |
+| 33 | Manasseh's captivity and repentance | Decline to exile |
+| 34 | Josiah's reform; the book found | Decline to exile |
+| 35 | Josiah's Passover and death | Decline to exile |
+| 36 | Judah carried to Babylon | Decline to exile |
 
 ## Ezra
 
-| Ch | Caption |
-|----|---------|
-| 1 | The decree of Cyrus |
-| 2 | The list of returning exiles |
-| 3 | The altar and foundation laid |
-| 4 | Adversaries stop the work |
-| 5 | Haggai and Zechariah stir the work |
-| 6 | Darius's decree; the temple finished |
-| 7 | Ezra goes up to Jerusalem |
-| 8 | The companions and the journey |
-| 9 | Ezra's prayer over intermarriage |
-| 10 | The strange wives put away |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | The decree of Cyrus | The return |
+| 2 | The list of returning exiles | The return |
+| 3 | The altar and foundation laid | The return |
+| 4 | Adversaries stop the work | The return |
+| 5 | Haggai and Zechariah stir the work | The return |
+| 6 | Darius's decree; the temple finished | The return |
+| 7 | Ezra goes up to Jerusalem | The return |
+| 8 | The companions and the journey | The return |
+| 9 | Ezra's prayer over intermarriage | The return |
+| 10 | The strange wives put away | The return |
 
 ## Nehemiah
 
-| Ch | Caption |
-|----|---------|
-| 1 | Nehemiah hears and prays |
-| 2 | The king sends Nehemiah |
-| 3 | The builders of the wall |
-| 4 | A trowel and a sword |
-| 5 | Usury among the brethren rebuked |
-| 6 | The wall finished amid plots |
-| 7 | The register of the people |
-| 8 | Ezra reads the law |
-| 9 | The great confession |
-| 10 | The covenant sealed |
-| 11 | The dwellers in Jerusalem |
-| 12 | The dedication of the wall |
-| 13 | Nehemiah's final reforms |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | Nehemiah hears and prays | Nehemiah's wall |
+| 2 | The king sends Nehemiah | Nehemiah's wall |
+| 3 | The builders of the wall | Nehemiah's wall |
+| 4 | A trowel and a sword | Nehemiah's wall |
+| 5 | Usury among the brethren rebuked | Nehemiah's wall |
+| 6 | The wall finished amid plots | Nehemiah's wall |
+| 7 | The register of the people | Nehemiah's wall |
+| 8 | Ezra reads the law | Nehemiah's wall |
+| 9 | The great confession | Nehemiah's wall |
+| 10 | The covenant sealed | Nehemiah's wall |
+| 11 | The dwellers in Jerusalem | Nehemiah's wall |
+| 12 | The dedication of the wall | Nehemiah's wall |
+| 13 | Nehemiah's final reforms | Nehemiah's wall |
 
 ## Esther
 
-| Ch | Caption |
-|----|---------|
-| 1 | Vashti deposed |
-| 2 | Esther made queen; the plot exposed |
-| 3 | Haman's decree against the Jews |
-| 4 | For such a time |
-| 5 | Esther's banquet; Haman's gallows |
-| 6 | The king honors Mordecai |
-| 7 | Haman hanged |
-| 8 | The counter-decree |
-| 9 | The Jews delivered; Purim |
-| 10 | Mordecai's greatness |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | Vashti deposed | Esther |
+| 2 | Esther made queen; the plot exposed | Esther |
+| 3 | Haman's decree against the Jews | Esther |
+| 4 | For such a time | Esther |
+| 5 | Esther's banquet; Haman's gallows | Esther |
+| 6 | The king honors Mordecai | Esther |
+| 7 | Haman hanged | Esther |
+| 8 | The counter-decree | Esther |
+| 9 | The Jews delivered; Purim | Esther |
+| 10 | Mordecai's greatness | Esther |
 
 ## Job
 
-| Ch | Caption |
-|----|---------|
-| 1 | Job's integrity tested |
-| 2 | Job smitten; his friends come |
-| 3 | Job curses his day |
-| 4 | Eliphaz's first speech |
-| 5 | Eliphaz counsels submission |
-| 6 | Job answers Eliphaz |
-| 7 | Job's complaint of misery |
-| 8 | Bildad's first speech |
-| 9 | How should man be just |
-| 10 | Job pleads his case |
-| 11 | Zophar's first speech |
-| 12 | With God is wisdom |
-| 13 | Though he slay me |
-| 14 | Man born of woman |
-| 15 | Eliphaz's second speech |
-| 16 | Miserable comforters are ye all |
-| 17 | Job's hope in the grave |
-| 18 | Bildad's second speech |
-| 19 | My Redeemer liveth |
-| 20 | Zophar's second speech |
-| 21 | Why do the wicked prosper |
-| 22 | Eliphaz's third speech |
-| 23 | Tried, I shall come forth |
-| 24 | Times not hid from God |
-| 25 | Bildad's brief reply |
-| 26 | Job describes God's power |
-| 27 | Job maintains his integrity |
-| 28 | Where shall wisdom be found |
-| 29 | Job recalls former days |
-| 30 | Now they mock me |
-| 31 | Job's oath of innocence |
-| 32 | Elihu speaks |
-| 33 | Elihu on God's chastening |
-| 34 | Elihu defends God's justice |
-| 35 | What profit is righteousness |
-| 36 | Elihu exalts God's greatness |
-| 37 | The wondrous works of God |
-| 38 | Out of the whirlwind |
-| 39 | The wild creatures described |
-| 40 | Behemoth; Job humbled |
-| 41 | Leviathan described |
-| 42 | Job restored twofold |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | Job's integrity tested | Job afflicted |
+| 2 | Job smitten; his friends come | Job afflicted |
+| 3 | Job curses his day | Job afflicted |
+| 4 | Eliphaz's first speech | The friends' debate |
+| 5 | Eliphaz counsels submission | The friends' debate |
+| 6 | Job answers Eliphaz | The friends' debate |
+| 7 | Job's complaint of misery | The friends' debate |
+| 8 | Bildad's first speech | The friends' debate |
+| 9 | How should man be just | The friends' debate |
+| 10 | Job pleads his case | The friends' debate |
+| 11 | Zophar's first speech | The friends' debate |
+| 12 | With God is wisdom | The friends' debate |
+| 13 | Though he slay me | The friends' debate |
+| 14 | Man born of woman | The friends' debate |
+| 15 | Eliphaz's second speech | The friends' debate |
+| 16 | Miserable comforters are ye all | The friends' debate |
+| 17 | Job's hope in the grave | The friends' debate |
+| 18 | Bildad's second speech | The friends' debate |
+| 19 | My Redeemer liveth | The friends' debate |
+| 20 | Zophar's second speech | The friends' debate |
+| 21 | Why do the wicked prosper | The friends' debate |
+| 22 | Eliphaz's third speech | The friends' debate |
+| 23 | Tried, I shall come forth | The friends' debate |
+| 24 | Times not hid from God | The friends' debate |
+| 25 | Bildad's brief reply | The friends' debate |
+| 26 | Job describes God's power | The friends' debate |
+| 27 | Job maintains his integrity | The friends' debate |
+| 28 | Where shall wisdom be found | The friends' debate |
+| 29 | Job recalls former days | The friends' debate |
+| 30 | Now they mock me | The friends' debate |
+| 31 | Job's oath of innocence | The friends' debate |
+| 32 | Elihu speaks | Elihu & the whirlwind |
+| 33 | Elihu on God's chastening | Elihu & the whirlwind |
+| 34 | Elihu defends God's justice | Elihu & the whirlwind |
+| 35 | What profit is righteousness | Elihu & the whirlwind |
+| 36 | Elihu exalts God's greatness | Elihu & the whirlwind |
+| 37 | The wondrous works of God | Elihu & the whirlwind |
+| 38 | Out of the whirlwind | Elihu & the whirlwind |
+| 39 | The wild creatures described | Elihu & the whirlwind |
+| 40 | Behemoth; Job humbled | Elihu & the whirlwind |
+| 41 | Leviathan described | Elihu & the whirlwind |
+| 42 | Job restored twofold | Elihu & the whirlwind |
 
 ## Psalms
 
-| Ch | Caption |
-|----|---------|
-| 1 | The tree by the rivers |
-| 2 | Why do the heathen rage |
-| 3 | A shield about me |
-| 4 | I will lay me down |
-| 5 | Lead me in thy righteousness |
-| 6 | Chasten me not in anger |
-| 7 | The Lord shall judge |
-| 8 | What is man |
-| 9 | A refuge in trouble |
-| 10 | Why standest thou afar off |
-| 11 | The Lord's throne in heaven |
-| 12 | The words of the Lord pure |
-| 13 | How long, O Lord |
-| 14 | The fool hath said |
-| 15 | Who shall abide in thy tabernacle |
-| 16 | Thou wilt not leave my soul |
-| 17 | The apple of the eye |
-| 18 | The Lord my rock |
-| 19 | The heavens declare God's glory |
-| 20 | The name of our God |
-| 21 | The king rejoices in strength |
-| 22 | Why hast thou forsaken me |
-| 23 | The Lord is my shepherd |
-| 24 | Who shall ascend the hill |
-| 25 | Show me thy ways |
-| 26 | Examine me, O Lord |
-| 27 | The Lord my light |
-| 28 | My strength and my shield |
-| 29 | The voice of the Lord |
-| 30 | Joy cometh in the morning |
-| 31 | Into thine hand I commit |
-| 32 | Blessed is he forgiven |
-| 33 | Rejoice in the Lord |
-| 34 | Taste and see |
-| 35 | Plead my cause, O Lord |
-| 36 | The fountain of life |
-| 37 | Fret not thyself |
-| 38 | Rebuke me not in wrath |
-| 39 | My hope is in thee |
-| 40 | My feet upon a rock |
-| 41 | Blessed is he that considereth |
-| 42 | As the hart panteth |
-| 43 | Send out thy light |
-| 44 | We have heard with our ears |
-| 45 | A song of the king |
-| 46 | Be still and know |
-| 47 | Clap your hands, all people |
-| 48 | Beautiful for situation |
-| 49 | None can redeem his brother |
-| 50 | The mighty God hath spoken |
-| 51 | Create in me a clean heart |
-| 52 | A green olive tree |
-| 53 | None that doeth good |
-| 54 | Save me by thy name |
-| 55 | Cast thy burden on the Lord |
-| 56 | What can flesh do |
-| 57 | My heart is fixed |
-| 58 | The judges of earth rebuked |
-| 59 | My defence in the day |
-| 60 | Vain is the help of man |
-| 61 | The rock that is higher |
-| 62 | My soul waiteth upon God |
-| 63 | My soul thirsteth for thee |
-| 64 | The arrow of God |
-| 65 | Thou crownest the year |
-| 66 | Make a joyful noise |
-| 67 | God be merciful unto us |
-| 68 | Let God arise |
-| 69 | The waters come in |
-| 70 | Make haste to help me |
-| 71 | Forsake me not when old |
-| 72 | The king's righteous reign |
-| 73 | The prosperity of the wicked |
-| 74 | Why hast thou cast us off |
-| 75 | God is the judge |
-| 76 | In Judah is God known |
-| 77 | I will remember his wonders |
-| 78 | Israel's rebellions rehearsed |
-| 79 | The heathen defile the temple |
-| 80 | Turn us again, O God |
-| 81 | Sing aloud unto God |
-| 82 | Ye are gods |
-| 83 | Keep not thou silence |
-| 84 | A day in thy courts |
-| 85 | Mercy and truth met together |
-| 86 | Teach me thy way |
-| 87 | Zion's foundation |
-| 88 | My soul full of troubles |
-| 89 | The covenant with David |
-| 90 | Teach us to number our days |
-| 91 | The secret place |
-| 92 | It is good to give thanks |
-| 93 | The Lord reigneth |
-| 94 | The Lord will not cast off |
-| 95 | Harden not your hearts |
-| 96 | Sing a new song |
-| 97 | The Lord reigneth; earth rejoice |
-| 98 | The Lord hath done marvellous things |
-| 99 | The Lord our God is holy |
-| 100 | Serve the Lord with gladness |
-| 101 | I will behave wisely |
-| 102 | The prayer of the afflicted |
-| 103 | Bless the Lord, O my soul |
-| 104 | How manifold are thy works |
-| 105 | Remember his marvellous works |
-| 106 | We have sinned with our fathers |
-| 107 | They cried unto the Lord |
-| 108 | My heart is fixed, O God |
-| 109 | Let his days be few |
-| 110 | Sit thou at my right hand |
-| 111 | The fear of the Lord |
-| 112 | Blessed is the man that feareth |
-| 113 | From the rising of the sun |
-| 114 | Israel went out of Egypt |
-| 115 | Not unto us, O Lord |
-| 116 | What shall I render |
-| 117 | Praise the Lord, all nations |
-| 118 | The stone the builders refused |
-| 119 | Thy word a lamp |
-| 120 | Woe is me, I sojourn |
-| 121 | I will lift up mine eyes |
-| 122 | Pray for the peace of Jerusalem |
-| 123 | Unto thee lift I mine eyes |
-| 124 | If the Lord had not been |
-| 125 | As the mountains round Jerusalem |
-| 126 | They that sow in tears |
-| 127 | Except the Lord build |
-| 128 | Blessed is every one that feareth |
-| 129 | Afflicted from my youth |
-| 130 | Out of the depths |
-| 131 | As a weaned child |
-| 132 | The Lord's habitation in Zion |
-| 133 | How good for brethren to dwell |
-| 134 | Bless the Lord by night |
-| 135 | Praise ye the name |
-| 136 | His mercy endureth for ever |
-| 137 | By the rivers of Babylon |
-| 138 | Praise with my whole heart |
-| 139 | Whither shall I flee |
-| 140 | Deliver me from the evil man |
-| 141 | Set a watch before my mouth |
-| 142 | No man cared for my soul |
-| 143 | Cause me to hear thy lovingkindness |
-| 144 | Blessed be the Lord my strength |
-| 145 | The Lord is gracious |
-| 146 | Trust not in princes |
-| 147 | He healeth the broken |
-| 148 | Praise him, all creation |
-| 149 | A new song in the congregation |
-| 150 | Let everything praise the Lord |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | The tree by the rivers | Psalms: Book One |
+| 2 | Why do the heathen rage | Psalms: Book One |
+| 3 | A shield about me | Psalms: Book One |
+| 4 | I will lay me down | Psalms: Book One |
+| 5 | Lead me in thy righteousness | Psalms: Book One |
+| 6 | Chasten me not in anger | Psalms: Book One |
+| 7 | The Lord shall judge | Psalms: Book One |
+| 8 | What is man | Psalms: Book One |
+| 9 | A refuge in trouble | Psalms: Book One |
+| 10 | Why standest thou afar off | Psalms: Book One |
+| 11 | The Lord's throne in heaven | Psalms: Book One |
+| 12 | The words of the Lord pure | Psalms: Book One |
+| 13 | How long, O Lord | Psalms: Book One |
+| 14 | The fool hath said | Psalms: Book One |
+| 15 | Who shall abide in thy tabernacle | Psalms: Book One |
+| 16 | Thou wilt not leave my soul | Psalms: Book One |
+| 17 | The apple of the eye | Psalms: Book One |
+| 18 | The Lord my rock | Psalms: Book One |
+| 19 | The heavens declare God's glory | Psalms: Book One |
+| 20 | The name of our God | Psalms: Book One |
+| 21 | The king rejoices in strength | Psalms: Book One |
+| 22 | Why hast thou forsaken me | Psalms: Book One |
+| 23 | The Lord is my shepherd | Psalms: Book One |
+| 24 | Who shall ascend the hill | Psalms: Book One |
+| 25 | Show me thy ways | Psalms: Book One |
+| 26 | Examine me, O Lord | Psalms: Book One |
+| 27 | The Lord my light | Psalms: Book One |
+| 28 | My strength and my shield | Psalms: Book One |
+| 29 | The voice of the Lord | Psalms: Book One |
+| 30 | Joy cometh in the morning | Psalms: Book One |
+| 31 | Into thine hand I commit | Psalms: Book One |
+| 32 | Blessed is he forgiven | Psalms: Book One |
+| 33 | Rejoice in the Lord | Psalms: Book One |
+| 34 | Taste and see | Psalms: Book One |
+| 35 | Plead my cause, O Lord | Psalms: Book One |
+| 36 | The fountain of life | Psalms: Book One |
+| 37 | Fret not thyself | Psalms: Book One |
+| 38 | Rebuke me not in wrath | Psalms: Book One |
+| 39 | My hope is in thee | Psalms: Book One |
+| 40 | My feet upon a rock | Psalms: Book One |
+| 41 | Blessed is he that considereth | Psalms: Book One |
+| 42 | As the hart panteth | Psalms: Book Two |
+| 43 | Send out thy light | Psalms: Book Two |
+| 44 | We have heard with our ears | Psalms: Book Two |
+| 45 | A song of the king | Psalms: Book Two |
+| 46 | Be still and know | Psalms: Book Two |
+| 47 | Clap your hands, all people | Psalms: Book Two |
+| 48 | Beautiful for situation | Psalms: Book Two |
+| 49 | None can redeem his brother | Psalms: Book Two |
+| 50 | The mighty God hath spoken | Psalms: Book Two |
+| 51 | Create in me a clean heart | Psalms: Book Two |
+| 52 | A green olive tree | Psalms: Book Two |
+| 53 | None that doeth good | Psalms: Book Two |
+| 54 | Save me by thy name | Psalms: Book Two |
+| 55 | Cast thy burden on the Lord | Psalms: Book Two |
+| 56 | What can flesh do | Psalms: Book Two |
+| 57 | My heart is fixed | Psalms: Book Two |
+| 58 | The judges of earth rebuked | Psalms: Book Two |
+| 59 | My defence in the day | Psalms: Book Two |
+| 60 | Vain is the help of man | Psalms: Book Two |
+| 61 | The rock that is higher | Psalms: Book Two |
+| 62 | My soul waiteth upon God | Psalms: Book Two |
+| 63 | My soul thirsteth for thee | Psalms: Book Two |
+| 64 | The arrow of God | Psalms: Book Two |
+| 65 | Thou crownest the year | Psalms: Book Two |
+| 66 | Make a joyful noise | Psalms: Book Two |
+| 67 | God be merciful unto us | Psalms: Book Two |
+| 68 | Let God arise | Psalms: Book Two |
+| 69 | The waters come in | Psalms: Book Two |
+| 70 | Make haste to help me | Psalms: Book Two |
+| 71 | Forsake me not when old | Psalms: Book Two |
+| 72 | The king's righteous reign | Psalms: Book Two |
+| 73 | The prosperity of the wicked | Psalms: Book Three |
+| 74 | Why hast thou cast us off | Psalms: Book Three |
+| 75 | God is the judge | Psalms: Book Three |
+| 76 | In Judah is God known | Psalms: Book Three |
+| 77 | I will remember his wonders | Psalms: Book Three |
+| 78 | Israel's rebellions rehearsed | Psalms: Book Three |
+| 79 | The heathen defile the temple | Psalms: Book Three |
+| 80 | Turn us again, O God | Psalms: Book Three |
+| 81 | Sing aloud unto God | Psalms: Book Three |
+| 82 | Ye are gods | Psalms: Book Three |
+| 83 | Keep not thou silence | Psalms: Book Three |
+| 84 | A day in thy courts | Psalms: Book Three |
+| 85 | Mercy and truth met together | Psalms: Book Three |
+| 86 | Teach me thy way | Psalms: Book Three |
+| 87 | Zion's foundation | Psalms: Book Three |
+| 88 | My soul full of troubles | Psalms: Book Three |
+| 89 | The covenant with David | Psalms: Book Three |
+| 90 | Teach us to number our days | Psalms: Book Four |
+| 91 | The secret place | Psalms: Book Four |
+| 92 | It is good to give thanks | Psalms: Book Four |
+| 93 | The Lord reigneth | Psalms: Book Four |
+| 94 | The Lord will not cast off | Psalms: Book Four |
+| 95 | Harden not your hearts | Psalms: Book Four |
+| 96 | Sing a new song | Psalms: Book Four |
+| 97 | The Lord reigneth; earth rejoice | Psalms: Book Four |
+| 98 | The Lord hath done marvellous things | Psalms: Book Four |
+| 99 | The Lord our God is holy | Psalms: Book Four |
+| 100 | Serve the Lord with gladness | Psalms: Book Four |
+| 101 | I will behave wisely | Psalms: Book Four |
+| 102 | The prayer of the afflicted | Psalms: Book Four |
+| 103 | Bless the Lord, O my soul | Psalms: Book Four |
+| 104 | How manifold are thy works | Psalms: Book Four |
+| 105 | Remember his marvellous works | Psalms: Book Four |
+| 106 | We have sinned with our fathers | Psalms: Book Four |
+| 107 | They cried unto the Lord | Psalms: Book Five |
+| 108 | My heart is fixed, O God | Psalms: Book Five |
+| 109 | Let his days be few | Psalms: Book Five |
+| 110 | Sit thou at my right hand | Psalms: Book Five |
+| 111 | The fear of the Lord | Psalms: Book Five |
+| 112 | Blessed is the man that feareth | Psalms: Book Five |
+| 113 | From the rising of the sun | Psalms: Book Five |
+| 114 | Israel went out of Egypt | Psalms: Book Five |
+| 115 | Not unto us, O Lord | Psalms: Book Five |
+| 116 | What shall I render | Psalms: Book Five |
+| 117 | Praise the Lord, all nations | Psalms: Book Five |
+| 118 | The stone the builders refused | Psalms: Book Five |
+| 119 | Thy word a lamp | Psalms: Book Five |
+| 120 | Woe is me, I sojourn | Psalms: Book Five |
+| 121 | I will lift up mine eyes | Psalms: Book Five |
+| 122 | Pray for the peace of Jerusalem | Psalms: Book Five |
+| 123 | Unto thee lift I mine eyes | Psalms: Book Five |
+| 124 | If the Lord had not been | Psalms: Book Five |
+| 125 | As the mountains round Jerusalem | Psalms: Book Five |
+| 126 | They that sow in tears | Psalms: Book Five |
+| 127 | Except the Lord build | Psalms: Book Five |
+| 128 | Blessed is every one that feareth | Psalms: Book Five |
+| 129 | Afflicted from my youth | Psalms: Book Five |
+| 130 | Out of the depths | Psalms: Book Five |
+| 131 | As a weaned child | Psalms: Book Five |
+| 132 | The Lord's habitation in Zion | Psalms: Book Five |
+| 133 | How good for brethren to dwell | Psalms: Book Five |
+| 134 | Bless the Lord by night | Psalms: Book Five |
+| 135 | Praise ye the name | Psalms: Book Five |
+| 136 | His mercy endureth for ever | Psalms: Book Five |
+| 137 | By the rivers of Babylon | Psalms: Book Five |
+| 138 | Praise with my whole heart | Psalms: Book Five |
+| 139 | Whither shall I flee | Psalms: Book Five |
+| 140 | Deliver me from the evil man | Psalms: Book Five |
+| 141 | Set a watch before my mouth | Psalms: Book Five |
+| 142 | No man cared for my soul | Psalms: Book Five |
+| 143 | Cause me to hear thy lovingkindness | Psalms: Book Five |
+| 144 | Blessed be the Lord my strength | Psalms: Book Five |
+| 145 | The Lord is gracious | Psalms: Book Five |
+| 146 | Trust not in princes | Psalms: Book Five |
+| 147 | He healeth the broken | Psalms: Book Five |
+| 148 | Praise him, all creation | Psalms: Book Five |
+| 149 | A new song in the congregation | Psalms: Book Five |
+| 150 | Let everything praise the Lord | Psalms: Book Five |
 
 ## Proverbs
 
-| Ch | Caption |
-|----|---------|
-| 1 | Wisdom crieth in the streets |
-| 2 | Seek wisdom as silver |
-| 3 | Trust in the Lord |
-| 4 | Get wisdom; get understanding |
-| 5 | Avoid the strange woman |
-| 6 | The sluggard and the ant |
-| 7 | The simple one seduced |
-| 8 | Wisdom from the beginning |
-| 9 | Wisdom's feast; folly's call |
-| 10 | The proverbs of Solomon |
-| 11 | A false balance an abomination |
-| 12 | The righteous and the wicked |
-| 13 | A wise son heareth instruction |
-| 14 | Every wise woman buildeth |
-| 15 | A soft answer turneth wrath |
-| 16 | A man's heart deviseth |
-| 17 | Better a dry morsel |
-| 18 | A friend closer than a brother |
-| 19 | Better the poor with integrity |
-| 20 | Wine a mocker |
-| 21 | Better in the wilderness |
-| 22 | A good name rather chosen |
-| 23 | Look not upon the wine |
-| 24 | Faint in the day of adversity |
-| 25 | Coals of fire upon his head |
-| 26 | Answer a fool |
-| 27 | Iron sharpeneth iron |
-| 28 | The wicked flee when none pursue |
-| 29 | Without vision the people perish |
-| 30 | The words of Agur |
-| 31 | The virtuous woman |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | Wisdom crieth in the streets | Wisdom's call |
+| 2 | Seek wisdom as silver | Wisdom's call |
+| 3 | Trust in the Lord | Wisdom's call |
+| 4 | Get wisdom; get understanding | Wisdom's call |
+| 5 | Avoid the strange woman | Wisdom's call |
+| 6 | The sluggard and the ant | Wisdom's call |
+| 7 | The simple one seduced | Wisdom's call |
+| 8 | Wisdom from the beginning | Wisdom's call |
+| 9 | Wisdom's feast; folly's call | Wisdom's call |
+| 10 | The proverbs of Solomon | The proverbs collected |
+| 11 | A false balance an abomination | The proverbs collected |
+| 12 | The righteous and the wicked | The proverbs collected |
+| 13 | A wise son heareth instruction | The proverbs collected |
+| 14 | Every wise woman buildeth | The proverbs collected |
+| 15 | A soft answer turneth wrath | The proverbs collected |
+| 16 | A man's heart deviseth | The proverbs collected |
+| 17 | Better a dry morsel | The proverbs collected |
+| 18 | A friend closer than a brother | The proverbs collected |
+| 19 | Better the poor with integrity | The proverbs collected |
+| 20 | Wine a mocker | The proverbs collected |
+| 21 | Better in the wilderness | The proverbs collected |
+| 22 | A good name rather chosen | The proverbs collected |
+| 23 | Look not upon the wine | The proverbs collected |
+| 24 | Faint in the day of adversity | The proverbs collected |
+| 25 | Coals of fire upon his head | The proverbs collected |
+| 26 | Answer a fool | The proverbs collected |
+| 27 | Iron sharpeneth iron | The proverbs collected |
+| 28 | The wicked flee when none pursue | The proverbs collected |
+| 29 | Without vision the people perish | The proverbs collected |
+| 30 | The words of Agur | The proverbs collected |
+| 31 | The virtuous woman | The proverbs collected |
 
 ## Ecclesiastes
 
-| Ch | Caption |
-|----|---------|
-| 1 | Vanity of vanities |
-| 2 | The vanity of pleasure and labor |
-| 3 | A time to every purpose |
-| 4 | Two are better than one |
-| 5 | Keep thy foot; pay thy vow |
-| 6 | Riches without enjoyment |
-| 7 | Better the house of mourning |
-| 8 | Who is as the wise man |
-| 9 | One event unto all |
-| 10 | Dead flies in the ointment |
-| 11 | Cast thy bread upon the waters |
-| 12 | Remember now thy Creator |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | Vanity of vanities | Vanity of vanities |
+| 2 | The vanity of pleasure and labor | Vanity of vanities |
+| 3 | A time to every purpose | Vanity of vanities |
+| 4 | Two are better than one | Vanity of vanities |
+| 5 | Keep thy foot; pay thy vow | Vanity of vanities |
+| 6 | Riches without enjoyment | Vanity of vanities |
+| 7 | Better the house of mourning | Vanity of vanities |
+| 8 | Who is as the wise man | Vanity of vanities |
+| 9 | One event unto all | Vanity of vanities |
+| 10 | Dead flies in the ointment | Vanity of vanities |
+| 11 | Cast thy bread upon the waters | Vanity of vanities |
+| 12 | Remember now thy Creator | Vanity of vanities |
 
 ## Solomon's Song
 
-| Ch | Caption |
-|----|---------|
-| 1 | The beloved sought |
-| 2 | The rose of Sharon |
-| 3 | Seeking him by night |
-| 4 | Thou art all fair |
-| 5 | My beloved had withdrawn |
-| 6 | Fair as the moon |
-| 7 | The beloved described |
-| 8 | Love strong as death |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | The beloved sought | The Song of songs |
+| 2 | The rose of Sharon | The Song of songs |
+| 3 | Seeking him by night | The Song of songs |
+| 4 | Thou art all fair | The Song of songs |
+| 5 | My beloved had withdrawn | The Song of songs |
+| 6 | Fair as the moon | The Song of songs |
+| 7 | The beloved described | The Song of songs |
+| 8 | Love strong as death | The Song of songs |
 
 ## Isaiah
 
-| Ch | Caption |
-|----|---------|
-| 1 | Though your sins be scarlet |
-| 2 | The mountain of the Lord's house |
-| 3 | Judgment on Zion's rulers |
-| 4 | The branch and the covering |
-| 5 | The song of the vineyard |
-| 6 | Whom shall I send |
-| 7 | Immanuel foretold |
-| 8 | Bind up the testimony |
-| 9 | Unto us a child is born |
-| 10 | Assyria, the rod of anger |
-| 11 | The stem of Jesse |
-| 12 | The wells of salvation |
-| 13 | The burden of Babylon |
-| 14 | How art thou fallen, Lucifer |
-| 15 | The burden of Moab |
-| 16 | The pride of Moab |
-| 17 | The burden of Damascus |
-| 18 | The land shadowing with wings |
-| 19 | The burden of Egypt |
-| 20 | A sign against Egypt |
-| 21 | Babylon is fallen |
-| 22 | The valley of vision; Eliakim |
-| 23 | The burden of Tyre |
-| 24 | The earth turned upside down |
-| 25 | Death swallowed up in victory |
-| 26 | Perfect peace; the dead shall live |
-| 27 | Leviathan punished; Israel gathered |
-| 28 | Line upon line |
-| 29 | A marvellous work and a wonder |
-| 30 | Thine eyes shall see thy teachers |
-| 31 | Woe to them that trust Egypt |
-| 32 | A king shall reign in righteousness |
-| 33 | The Lord our judge and king |
-| 34 | The indignation upon the nations |
-| 35 | The desert shall blossom |
-| 36 | Rabshakeh threatens Jerusalem |
-| 37 | Assyria smitten by the angel |
-| 38 | Hezekiah's life lengthened |
-| 39 | The Babylonian envoys |
-| 40 | Comfort ye my people |
-| 41 | Fear not; I will help thee |
-| 42 | Behold my servant |
-| 43 | Ye are my witnesses |
-| 44 | Beside me there is no God |
-| 45 | Cyrus named; woe to the potsherd |
-| 46 | Bel boweth down |
-| 47 | Virgin daughter of Babylon |
-| 48 | The furnace of affliction |
-| 49 | Graven upon the palms |
-| 50 | The Lord God will help me |
-| 51 | Awake, awake, put on strength |
-| 52 | How beautiful upon the mountains |
-| 53 | Despised and rejected of men |
-| 54 | Enlarge the place of thy tent |
-| 55 | Come ye to the waters |
-| 56 | A house of prayer for all |
-| 57 | The righteous taken from evil |
-| 58 | The true fast; the Sabbath delight |
-| 59 | Your iniquities have separated |
-| 60 | Arise, shine; thy light is come |
-| 61 | The acceptable year of the Lord |
-| 62 | Zion a crown of glory |
-| 63 | Red in thine apparel |
-| 64 | We are the clay |
-| 65 | New heavens and a new earth |
-| 66 | Heaven is my throne |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | Though your sins be scarlet | Judgment & Immanuel |
+| 2 | The mountain of the Lord's house | Judgment & Immanuel |
+| 3 | Judgment on Zion's rulers | Judgment & Immanuel |
+| 4 | The branch and the covering | Judgment & Immanuel |
+| 5 | The song of the vineyard | Judgment & Immanuel |
+| 6 | Whom shall I send | Judgment & Immanuel |
+| 7 | Immanuel foretold | Judgment & Immanuel |
+| 8 | Bind up the testimony | Judgment & Immanuel |
+| 9 | Unto us a child is born | Judgment & Immanuel |
+| 10 | Assyria, the rod of anger | Judgment & Immanuel |
+| 11 | The stem of Jesse | Judgment & Immanuel |
+| 12 | The wells of salvation | Judgment & Immanuel |
+| 13 | The burden of Babylon | Oracles & apocalypse |
+| 14 | How art thou fallen, Lucifer | Oracles & apocalypse |
+| 15 | The burden of Moab | Oracles & apocalypse |
+| 16 | The pride of Moab | Oracles & apocalypse |
+| 17 | The burden of Damascus | Oracles & apocalypse |
+| 18 | The land shadowing with wings | Oracles & apocalypse |
+| 19 | The burden of Egypt | Oracles & apocalypse |
+| 20 | A sign against Egypt | Oracles & apocalypse |
+| 21 | Babylon is fallen | Oracles & apocalypse |
+| 22 | The valley of vision; Eliakim | Oracles & apocalypse |
+| 23 | The burden of Tyre | Oracles & apocalypse |
+| 24 | The earth turned upside down | Oracles & apocalypse |
+| 25 | Death swallowed up in victory | Oracles & apocalypse |
+| 26 | Perfect peace; the dead shall live | Oracles & apocalypse |
+| 27 | Leviathan punished; Israel gathered | Oracles & apocalypse |
+| 28 | Line upon line | Woes & Hezekiah |
+| 29 | A marvellous work and a wonder | Woes & Hezekiah |
+| 30 | Thine eyes shall see thy teachers | Woes & Hezekiah |
+| 31 | Woe to them that trust Egypt | Woes & Hezekiah |
+| 32 | A king shall reign in righteousness | Woes & Hezekiah |
+| 33 | The Lord our judge and king | Woes & Hezekiah |
+| 34 | The indignation upon the nations | Woes & Hezekiah |
+| 35 | The desert shall blossom | Woes & Hezekiah |
+| 36 | Rabshakeh threatens Jerusalem | Woes & Hezekiah |
+| 37 | Assyria smitten by the angel | Woes & Hezekiah |
+| 38 | Hezekiah's life lengthened | Woes & Hezekiah |
+| 39 | The Babylonian envoys | Woes & Hezekiah |
+| 40 | Comfort ye my people | Comfort ye |
+| 41 | Fear not; I will help thee | Comfort ye |
+| 42 | Behold my servant | Comfort ye |
+| 43 | Ye are my witnesses | Comfort ye |
+| 44 | Beside me there is no God | Comfort ye |
+| 45 | Cyrus named; woe to the potsherd | Comfort ye |
+| 46 | Bel boweth down | Comfort ye |
+| 47 | Virgin daughter of Babylon | Comfort ye |
+| 48 | The furnace of affliction | Comfort ye |
+| 49 | Graven upon the palms | The suffering servant |
+| 50 | The Lord God will help me | The suffering servant |
+| 51 | Awake, awake, put on strength | The suffering servant |
+| 52 | How beautiful upon the mountains | The suffering servant |
+| 53 | Despised and rejected of men | The suffering servant |
+| 54 | Enlarge the place of thy tent | The suffering servant |
+| 55 | Come ye to the waters | The suffering servant |
+| 56 | A house of prayer for all | The suffering servant |
+| 57 | The righteous taken from evil | The suffering servant |
+| 58 | The true fast; the Sabbath delight | Zion glorified |
+| 59 | Your iniquities have separated | Zion glorified |
+| 60 | Arise, shine; thy light is come | Zion glorified |
+| 61 | The acceptable year of the Lord | Zion glorified |
+| 62 | Zion a crown of glory | Zion glorified |
+| 63 | Red in thine apparel | Zion glorified |
+| 64 | We are the clay | Zion glorified |
+| 65 | New heavens and a new earth | Zion glorified |
+| 66 | Heaven is my throne | Zion glorified |
 
 ## Jeremiah
 
-| Ch | Caption |
-|----|---------|
-| 1 | Ordained a prophet before birth |
-| 2 | They have forsaken the fountain |
-| 3 | Backsliding Israel called to return |
-| 4 | Break up your fallow ground |
-| 5 | Run through the streets |
-| 6 | Ask for the old paths |
-| 7 | Trust not in the temple |
-| 8 | No balm in Gilead |
-| 9 | A fountain of tears |
-| 10 | The customs of the people vain |
-| 11 | The broken covenant |
-| 12 | Why doth the wicked prosper |
-| 13 | The marred girdle |
-| 14 | The drought and false prophets |
-| 15 | Though Moses and Samuel stood |
-| 16 | Fishers and hunters sent |
-| 17 | The heart is deceitful |
-| 18 | The potter's house |
-| 19 | The broken bottle |
-| 20 | A fire in my bones |
-| 21 | Zedekiah inquires of the Lord |
-| 22 | Judgment on Judah's kings |
-| 23 | A righteous Branch; false shepherds |
-| 24 | The good and bad figs |
-| 25 | The cup of fury; seventy years |
-| 26 | Jeremiah threatened with death |
-| 27 | The yokes and the bonds |
-| 28 | Hananiah's false prophecy |
-| 29 | The letter to the exiles |
-| 30 | The time of Jacob's trouble |
-| 31 | A new covenant written within |
-| 32 | The field bought at Anathoth |
-| 33 | Call unto me; I will answer |
-| 34 | The covenant with servants broken |
-| 35 | The obedient Rechabites |
-| 36 | The burned scroll rewritten |
-| 37 | Jeremiah imprisoned |
-| 38 | The dungeon of Malchiah |
-| 39 | Jerusalem taken; Zedekiah blinded |
-| 40 | Gedaliah made governor |
-| 41 | Ishmael slays Gedaliah |
-| 42 | The remnant seeks counsel |
-| 43 | The flight into Egypt |
-| 44 | The queen of heaven condemned |
-| 45 | A word to Baruch |
-| 46 | The word against Egypt |
-| 47 | The word against the Philistines |
-| 48 | The word against Moab |
-| 49 | Against Ammon, Edom, and Damascus |
-| 50 | Babylon's fall foretold |
-| 51 | The scroll cast into Euphrates |
-| 52 | Jerusalem's fall recounted |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | Ordained a prophet before birth | Jeremiah's warnings |
+| 2 | They have forsaken the fountain | Jeremiah's warnings |
+| 3 | Backsliding Israel called to return | Jeremiah's warnings |
+| 4 | Break up your fallow ground | Jeremiah's warnings |
+| 5 | Run through the streets | Jeremiah's warnings |
+| 6 | Ask for the old paths | Jeremiah's warnings |
+| 7 | Trust not in the temple | Jeremiah's warnings |
+| 8 | No balm in Gilead | Jeremiah's warnings |
+| 9 | A fountain of tears | Jeremiah's warnings |
+| 10 | The customs of the people vain | Jeremiah's warnings |
+| 11 | The broken covenant | Jeremiah's warnings |
+| 12 | Why doth the wicked prosper | Jeremiah's warnings |
+| 13 | The marred girdle | Jeremiah's warnings |
+| 14 | The drought and false prophets | Jeremiah's warnings |
+| 15 | Though Moses and Samuel stood | Jeremiah's warnings |
+| 16 | Fishers and hunters sent | Jeremiah's warnings |
+| 17 | The heart is deceitful | Jeremiah's warnings |
+| 18 | The potter's house | Jeremiah's warnings |
+| 19 | The broken bottle | Jeremiah's warnings |
+| 20 | A fire in my bones | Jeremiah's warnings |
+| 21 | Zedekiah inquires of the Lord | Kings & false prophets |
+| 22 | Judgment on Judah's kings | Kings & false prophets |
+| 23 | A righteous Branch; false shepherds | Kings & false prophets |
+| 24 | The good and bad figs | Kings & false prophets |
+| 25 | The cup of fury; 70 years | Kings & false prophets |
+| 26 | Jeremiah threatened with death | Kings & false prophets |
+| 27 | The yokes and the bonds | Kings & false prophets |
+| 28 | Hananiah's false prophecy | Kings & false prophets |
+| 29 | The letter to the exiles | Kings & false prophets |
+| 30 | The time of Jacob's trouble | The new covenant |
+| 31 | A new covenant written within | The new covenant |
+| 32 | The field bought at Anathoth | The new covenant |
+| 33 | Call unto me; I will answer | The new covenant |
+| 34 | The covenant with servants broken | The fall narrated |
+| 35 | The obedient Rechabites | The fall narrated |
+| 36 | The burned scroll rewritten | The fall narrated |
+| 37 | Jeremiah imprisoned | The fall narrated |
+| 38 | The dungeon of Malchiah | The fall narrated |
+| 39 | Jerusalem taken; Zedekiah blinded | The fall narrated |
+| 40 | Gedaliah made governor | The fall narrated |
+| 41 | Ishmael slays Gedaliah | The fall narrated |
+| 42 | The remnant seeks counsel | The fall narrated |
+| 43 | The flight into Egypt | The fall narrated |
+| 44 | The queen of heaven condemned | The fall narrated |
+| 45 | A word to Baruch | The fall narrated |
+| 46 | The word against Egypt | The nations judged |
+| 47 | The word against the Philistines | The nations judged |
+| 48 | The word against Moab | The nations judged |
+| 49 | Against Ammon, Edom, and Damascus | The nations judged |
+| 50 | Babylon's fall foretold | The nations judged |
+| 51 | The scroll cast into Euphrates | The nations judged |
+| 52 | Jerusalem's fall recounted | The nations judged |
 
 ## Lamentations
 
-| Ch | Caption |
-|----|---------|
-| 1 | How doth the city sit solitary |
-| 2 | The Lord covered Zion |
-| 3 | His mercies are new every morning |
-| 4 | How is the gold become dim |
-| 5 | Turn us unto thee, O Lord |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | How doth the city sit solitary | Jerusalem lamented |
+| 2 | The Lord covered Zion | Jerusalem lamented |
+| 3 | His mercies are new every morning | Jerusalem lamented |
+| 4 | How is the gold become dim | Jerusalem lamented |
+| 5 | Turn us unto thee, O Lord | Jerusalem lamented |
 
 ## Ezekiel
 
-| Ch | Caption |
-|----|---------|
-| 1 | The vision of the wheels |
-| 2 | Son of man, stand upright |
-| 3 | The roll eaten; a watchman set |
-| 4 | The siege portrayed on a tile |
-| 5 | The hair divided by the sword |
-| 6 | Against the mountains of Israel |
-| 7 | An end is come |
-| 8 | Abominations in the temple |
-| 9 | The mark upon the foreheads |
-| 10 | The glory departs the threshold |
-| 11 | A heart of flesh promised |
-| 12 | Baggage for removing |
-| 13 | Untempered mortar; false prophets |
-| 14 | Noah, Daniel, and Job |
-| 15 | The vine branch burned |
-| 16 | Jerusalem, the unfaithful wife |
-| 17 | The two eagles and the vine |
-| 18 | The soul that sinneth shall die |
-| 19 | A lamentation for the princes |
-| 20 | Israel's rebellions rehearsed |
-| 21 | The sword of the Lord |
-| 22 | The dross in the furnace |
-| 23 | Aholah and Aholibah |
-| 24 | The boiling pot; Ezekiel's wife |
-| 25 | Against Ammon, Moab, and Edom |
-| 26 | Against Tyre |
-| 27 | The lamentation over Tyre |
-| 28 | The prince of Tyre |
-| 29 | Against Egypt and Pharaoh |
-| 30 | The day of the Lord near |
-| 31 | The cedar in Lebanon |
-| 32 | The lamentation over Pharaoh |
-| 33 | The watchman's responsibility |
-| 34 | Shepherds who feed themselves |
-| 35 | Against mount Seir |
-| 36 | A new heart promised |
-| 37 | Dry bones; the two sticks |
-| 38 | Gog and Magog |
-| 39 | Gog's overthrow; Israel gathered |
-| 40 | The vision of the temple |
-| 41 | The temple measured |
-| 42 | The priests' chambers |
-| 43 | The glory returns; the altar |
-| 44 | The east gate; priestly duties |
-| 45 | The holy portion of the land |
-| 46 | The offerings of the prince |
-| 47 | Waters from the sanctuary |
-| 48 | The tribal portions; the city's gates |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | The vision of the wheels | Ezekiel's call |
+| 2 | Son of man, stand upright | Ezekiel's call |
+| 3 | The roll eaten; a watchman set | Ezekiel's call |
+| 4 | The siege portrayed on a tile | Jerusalem judged |
+| 5 | The hair divided by the sword | Jerusalem judged |
+| 6 | Against the mountains of Israel | Jerusalem judged |
+| 7 | An end is come | Jerusalem judged |
+| 8 | Abominations in the temple | Jerusalem judged |
+| 9 | The mark upon the foreheads | Jerusalem judged |
+| 10 | The glory departs the threshold | Jerusalem judged |
+| 11 | A heart of flesh promised | Jerusalem judged |
+| 12 | Baggage for removing | Jerusalem judged |
+| 13 | Untempered mortar; false prophets | Jerusalem judged |
+| 14 | Noah, Daniel, and Job | Jerusalem judged |
+| 15 | The vine branch burned | Jerusalem judged |
+| 16 | Jerusalem, the unfaithful wife | Jerusalem judged |
+| 17 | The 2 eagles and the vine | Jerusalem judged |
+| 18 | The soul that sinneth shall die | Jerusalem judged |
+| 19 | A lamentation for the princes | Jerusalem judged |
+| 20 | Israel's rebellions rehearsed | Jerusalem judged |
+| 21 | The sword of the Lord | Jerusalem judged |
+| 22 | The dross in the furnace | Jerusalem judged |
+| 23 | Aholah and Aholibah | Jerusalem judged |
+| 24 | The boiling pot; Ezekiel's wife | Jerusalem judged |
+| 25 | Against Ammon, Moab, and Edom | Against the nations |
+| 26 | Against Tyre | Against the nations |
+| 27 | The lamentation over Tyre | Against the nations |
+| 28 | The prince of Tyre | Against the nations |
+| 29 | Against Egypt and Pharaoh | Against the nations |
+| 30 | The day of the Lord near | Against the nations |
+| 31 | The cedar in Lebanon | Against the nations |
+| 32 | The lamentation over Pharaoh | Against the nations |
+| 33 | The watchman's responsibility | Dry bones & restoration |
+| 34 | Shepherds who feed themselves | Dry bones & restoration |
+| 35 | Against mount Seir | Dry bones & restoration |
+| 36 | A new heart promised | Dry bones & restoration |
+| 37 | Dry bones; the 2 sticks | Dry bones & restoration |
+| 38 | Gog and Magog | Dry bones & restoration |
+| 39 | Gog's overthrow; Israel gathered | Dry bones & restoration |
+| 40 | The vision of the temple | The temple vision |
+| 41 | The temple measured | The temple vision |
+| 42 | The priests' chambers | The temple vision |
+| 43 | The glory returns; the altar | The temple vision |
+| 44 | The east gate; priestly duties | The temple vision |
+| 45 | The holy portion of the land | The temple vision |
+| 46 | The offerings of the prince | The temple vision |
+| 47 | Waters from the sanctuary | The temple vision |
+| 48 | The tribal portions; the city's gates | The temple vision |
 
 ## Daniel
 
-| Ch | Caption |
-|----|---------|
-| 1 | Pulse and water; four youths |
-| 2 | The stone cut without hands |
-| 3 | The fiery furnace |
-| 4 | Nebuchadnezzar's tree and madness |
-| 5 | The handwriting on the wall |
-| 6 | Daniel in the lions' den |
-| 7 | Four beasts; the Ancient of Days |
-| 8 | The ram and the he goat |
-| 9 | The seventy weeks |
-| 10 | The vision by the Hiddekel |
-| 11 | Kings of the north and south |
-| 12 | Many shall run to and fro |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | Pulse and water; 4 youths | Daniel in Babylon |
+| 2 | The stone cut without hands | Daniel in Babylon |
+| 3 | The fiery furnace | Daniel in Babylon |
+| 4 | Nebuchadnezzar's tree and madness | Daniel in Babylon |
+| 5 | The handwriting on the wall | Daniel in Babylon |
+| 6 | Daniel in the lions' den | Daniel in Babylon |
+| 7 | Four beasts; the Ancient of Days | Daniel's visions |
+| 8 | The ram and the he goat | Daniel's visions |
+| 9 | The 70 weeks | Daniel's visions |
+| 10 | The vision by the Hiddekel | Daniel's visions |
+| 11 | Kings of the north and south | Daniel's visions |
+| 12 | Many shall run to and fro | Daniel's visions |
 
 ## Hosea
 
-| Ch | Caption |
-|----|---------|
-| 1 | Gomer and the children named |
-| 2 | Israel the unfaithful wife |
-| 3 | Bought for fifteen pieces |
-| 4 | No knowledge of God |
-| 5 | The pride of Israel testifies |
-| 6 | Mercy, and not sacrifice |
-| 7 | A cake not turned |
-| 8 | They sow the wind |
-| 9 | The days of visitation |
-| 10 | Break up your fallow ground |
-| 11 | Out of Egypt I called |
-| 12 | Jacob wrestled with the angel |
-| 13 | O death, thy plagues |
-| 14 | Return unto the Lord |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | Gomer and the children named | Hosea's covenant plea |
+| 2 | Israel the unfaithful wife | Hosea's covenant plea |
+| 3 | Bought for 15 pieces | Hosea's covenant plea |
+| 4 | No knowledge of God | Hosea's covenant plea |
+| 5 | The pride of Israel testifies | Hosea's covenant plea |
+| 6 | Mercy, and not sacrifice | Hosea's covenant plea |
+| 7 | A cake not turned | Hosea's covenant plea |
+| 8 | They sow the wind | Hosea's covenant plea |
+| 9 | The days of visitation | Hosea's covenant plea |
+| 10 | Break up your fallow ground | Hosea's covenant plea |
+| 11 | Out of Egypt I called | Hosea's covenant plea |
+| 12 | Jacob wrestled with the angel | Hosea's covenant plea |
+| 13 | O death, thy plagues | Hosea's covenant plea |
+| 14 | Return unto the Lord | Hosea's covenant plea |
 
 ## Joel
 
-| Ch | Caption |
-|----|---------|
-| 1 | The locusts devour the land |
-| 2 | The Spirit poured upon all flesh |
-| 3 | The valley of decision |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | The locusts devour the land | The day of the LORD |
+| 2 | The Spirit poured upon all flesh | The day of the LORD |
+| 3 | The valley of decision | The day of the LORD |
 
 ## Amos
 
-| Ch | Caption |
-|----|---------|
-| 1 | Judgments upon the nations |
-| 2 | Judgment upon Judah and Israel |
-| 3 | He revealeth to his prophets |
-| 4 | Prepare to meet thy God |
-| 5 | Seek the Lord and live |
-| 6 | Woe to them at ease |
-| 7 | The plumbline; Amaziah's opposition |
-| 8 | A famine of hearing the word |
-| 9 | The tabernacle of David raised |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | Judgments upon the nations | The day of the LORD |
+| 2 | Judgment upon Judah and Israel | The day of the LORD |
+| 3 | He revealeth to his prophets | The day of the LORD |
+| 4 | Prepare to meet thy God | The day of the LORD |
+| 5 | Seek the Lord and live | The day of the LORD |
+| 6 | Woe to them at ease | The day of the LORD |
+| 7 | The plumbline; Amaziah's opposition | The day of the LORD |
+| 8 | A famine of hearing the word | The day of the LORD |
+| 9 | The tabernacle of David raised | The day of the LORD |
 
 ## Obadiah
 
-| Ch | Caption |
-|----|---------|
-| 1 | Edom's pride and downfall |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | Edom's pride and downfall | The day of the LORD |
 
 ## Jonah
 
-| Ch | Caption |
-|----|---------|
-| 1 | Fleeing to Tarshish |
-| 2 | Prayer from the fish's belly |
-| 3 | Nineveh repents |
-| 4 | The gourd and God's mercy |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | Fleeing to Tarshish | Jonah & Micah |
+| 2 | Prayer from the fish's belly | Jonah & Micah |
+| 3 | Nineveh repents | Jonah & Micah |
+| 4 | The gourd and God's mercy | Jonah & Micah |
 
 ## Micah
 
-| Ch | Caption |
-|----|---------|
-| 1 | Judgment on Samaria and Jerusalem |
-| 2 | They covet fields and take them |
-| 3 | Zion plowed as a field |
-| 4 | Swords into plowshares |
-| 5 | Bethlehem Ephratah |
-| 6 | Do justly, love mercy |
-| 7 | Who is a God like thee |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | Judgment on Samaria and Jerusalem | Jonah & Micah |
+| 2 | They covet fields and take them | Jonah & Micah |
+| 3 | Zion plowed as a field | Jonah & Micah |
+| 4 | Swords into plowshares | Jonah & Micah |
+| 5 | Bethlehem Ephratah | Jonah & Micah |
+| 6 | Do justly, love mercy | Jonah & Micah |
+| 7 | Who is a God like thee | Jonah & Micah |
 
 ## Nahum
 
-| Ch | Caption |
-|----|---------|
-| 1 | The Lord slow to anger |
-| 2 | Nineveh besieged |
-| 3 | Woe to the bloody city |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | The Lord slow to anger | The last warnings |
+| 2 | Nineveh besieged | The last warnings |
+| 3 | Woe to the bloody city | The last warnings |
 
 ## Habakkuk
 
-| Ch | Caption |
-|----|---------|
-| 1 | O Lord, how long |
-| 2 | The just shall live by faith |
-| 3 | The prayer of Habakkuk |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | O Lord, how long | The last warnings |
+| 2 | The just shall live by faith | The last warnings |
+| 3 | The prayer of Habakkuk | The last warnings |
 
 ## Zephaniah
 
-| Ch | Caption |
-|----|---------|
-| 1 | The great day of the Lord |
-| 2 | Seek the Lord, ye meek |
-| 3 | A pure language restored |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | The great day of the Lord | The last warnings |
+| 2 | Seek the Lord, ye meek | The last warnings |
+| 3 | A pure language restored | The last warnings |
 
 ## Haggai
 
-| Ch | Caption |
-|----|---------|
-| 1 | Consider your ways; build the house |
-| 2 | The glory of the latter house |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | Consider your ways; build the house | The postexilic prophets |
+| 2 | The glory of the latter house | The postexilic prophets |
 
 ## Zechariah
 
-| Ch | Caption |
-|----|---------|
-| 1 | The horses among the myrtle trees |
-| 2 | The man with the measuring line |
-| 3 | Joshua the high priest cleansed |
-| 4 | Not by might, nor by power |
-| 5 | The flying roll and the ephah |
-| 6 | The four chariots; the Branch |
-| 7 | Fasting or true judgment |
-| 8 | Old men in Jerusalem's streets |
-| 9 | Thy King cometh unto thee |
-| 10 | Ask ye rain of the Lord |
-| 11 | Thirty pieces of silver |
-| 12 | They shall look upon me |
-| 13 | Wounded in the house of friends |
-| 14 | The mount of Olives cleft |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | The horses among the myrtle trees | The postexilic prophets |
+| 2 | The man with the measuring line | The postexilic prophets |
+| 3 | Joshua the high priest cleansed | The postexilic prophets |
+| 4 | Not by might, nor by power | The postexilic prophets |
+| 5 | The flying roll and the ephah | The postexilic prophets |
+| 6 | The 4 chariots; the Branch | The postexilic prophets |
+| 7 | Fasting or true judgment | The postexilic prophets |
+| 8 | Old men in Jerusalem's streets | The postexilic prophets |
+| 9 | Thy King cometh unto thee | The postexilic prophets |
+| 10 | Ask ye rain of the Lord | The postexilic prophets |
+| 11 | Thirty pieces of silver | The postexilic prophets |
+| 12 | They shall look upon me | The postexilic prophets |
+| 13 | Wounded in the house of friends | The postexilic prophets |
+| 14 | The mount of Olives cleft | The postexilic prophets |
 
 ## Malachi
 
-| Ch | Caption |
-|----|---------|
-| 1 | A polluted offering |
-| 2 | The covenant of Levi profaned |
-| 3 | Will a man rob God |
-| 4 | Elijah shall be sent |
+| Ch | Caption | Section |
+|----|---------|---------|
+| 1 | A polluted offering | The postexilic prophets |
+| 2 | The covenant of Levi profaned | The postexilic prophets |
+| 3 | Will a man rob God | The postexilic prophets |
+| 4 | Elijah shall be sent | The postexilic prophets |

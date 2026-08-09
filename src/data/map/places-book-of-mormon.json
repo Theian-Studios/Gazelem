@@ -1,0 +1,1320 @@
+{
+  "meta": {
+    "title": "Places of the Book of Mormon",
+    "note": "Internal (relative) geography only; coords are x/y percentages on the map artwork (top-left origin). Places drawn with a mark sit on the centre of that mark in the original; the rest are placed where the original sets their name.",
+    "types": [
+      "major_city",
+      "city",
+      "city_mormon_era",
+      "jaredite_city",
+      "hill",
+      "wilderness",
+      "water",
+      "land",
+      "sea",
+      "feature"
+    ],
+    "placeCount": 63
+  },
+  "places": [
+    {
+      "id": "land-of-desolation",
+      "name": "Land of Desolation",
+      "region": "Land Northward (Jaredite lands / Nephite retreat, Mormon 2–5)",
+      "type": "land",
+      "coords": {
+        "x": 72.08,
+        "y": 20.4
+      },
+      "description": "The Nephite name for the land northward nearest the narrow neck, so called because it was strewn with the bones and ruins of the destroyed Jaredite nation. Border land between the two great lands, and the front line of Mormon's final wars.",
+      "events": [
+        {
+          "text": "Defined as the land \"so far northward\" that it was covered with the bones of the destroyed people",
+          "ref": "Alma 22:30–31"
+        },
+        {
+          "text": "Limhi's 43-man expedition finds its ruins, bones, and the 24 gold plates of Ether",
+          "ref": "Mosiah 8:7–11; 21:25–27"
+        },
+        {
+          "text": "Treaty line: the Nephites receive the land southward, the Lamanites the land northward",
+          "ref": "Mormon 2:28–29"
+        },
+        {
+          "text": "The city Desolation, by the narrow pass, changes hands repeatedly in the final wars",
+          "ref": "Mormon 3:5–7; 4:1–3, 8, 13, 19"
+        }
+      ],
+      "mark": null,
+      "at": "c",
+      "tier": 1,
+      "lines": [
+        "Land of",
+        "Desolation"
+      ]
+    },
+    {
+      "id": "moron",
+      "name": "Moron",
+      "region": "Land Northward (Jaredite lands / Nephite retreat, Mormon 2–5)",
+      "type": "jaredite_city",
+      "coords": {
+        "x": 61.81,
+        "y": 13.3
+      },
+      "description": "The Jaredite royal land and capital, \"near the land which is called Desolation by the Nephites\" (Ether 7:6). Seat of nearly the whole Jaredite dynastic story of Ether — kingships, captivities, and secret combinations.",
+      "events": [
+        {
+          "text": "Home of the Jaredite kings from Orihah onward",
+          "ref": "Ether 7:5–6"
+        },
+        {
+          "text": "Repeated scenes of usurpation and kings held in captivity",
+          "ref": "Ether 7–11"
+        }
+      ],
+      "mark": "square",
+      "at": "n",
+      "tier": 2
+    },
+    {
+      "id": "hill-cumorah",
+      "name": "Hill Cumorah",
+      "altName": "Ramah",
+      "region": "Land Northward (Jaredite lands / Nephite retreat, Mormon 2–5)",
+      "type": "hill",
+      "coords": {
+        "x": 88.34,
+        "y": 4.94
+      },
+      "description": "The hill of two national destructions — the same hill the Jaredites called Ramah, where Coriantumr's people were annihilated, and where the Nephite nation later fell.",
+      "events": [
+        {
+          "text": "Mormon hides all the Nephite records in the hill, save the abridgment given to Moroni",
+          "ref": "Mormon 6:6"
+        },
+        {
+          "text": "The final battle: 230,000 Nephites fall; Mormon surveys the destruction from its summit",
+          "ref": "Mormon 6:7–15"
+        },
+        {
+          "text": "As Ramah, the site of the Jaredites' last gathering and destruction",
+          "ref": "Ether 15:11"
+        }
+      ],
+      "mark": null,
+      "at": "c",
+      "tier": 2
+    },
+    {
+      "id": "waters-of-ripliancum",
+      "name": "Waters of Ripliancum",
+      "region": "Land Northward (Jaredite lands / Nephite retreat, Mormon 2–5)",
+      "type": "water",
+      "coords": {
+        "x": 88.34,
+        "y": 1.84
+      },
+      "description": "\"Large, or to exceed all\" — the great waters where Coriantumr's armies camped before the last Jaredite battles drove them southward to Ogath and Ramah (Ether 15:8–10).",
+      "events": [],
+      "mark": null,
+      "at": "c",
+      "tier": 3,
+      "lines": [
+        "Waters of",
+        "Ripliancum"
+      ]
+    },
+    {
+      "id": "plains-of-agosh",
+      "name": "Plains of Agosh",
+      "region": "Land Northward (Jaredite lands / Nephite retreat, Mormon 2–5)",
+      "type": "feature",
+      "coords": {
+        "x": 76.15,
+        "y": 5.97
+      },
+      "description": "Jaredite battleground where Coriantumr fought Lib and slew him, the war sweeping onward from there (Ether 14:15–16).",
+      "events": [],
+      "mark": null,
+      "at": "c",
+      "tier": 3
+    },
+    {
+      "id": "wilderness-of-akish",
+      "name": "Wilderness of Akish",
+      "region": "Land Northward (Jaredite lands / Nephite retreat, Mormon 2–5)",
+      "type": "wilderness",
+      "coords": {
+        "x": 72.08,
+        "y": 10.09
+      },
+      "description": "Jaredite wilderness battlefield in the wars of Coriantumr against Shared and Gilead (Ether 14:3–7, 14).",
+      "events": [],
+      "mark": null,
+      "at": "c",
+      "tier": 3,
+      "lines": [
+        "Wilderness",
+        "of Akish"
+      ]
+    },
+    {
+      "id": "ablom",
+      "name": "Ablom",
+      "region": "Land Northward (Jaredite lands / Nephite retreat, Mormon 2–5)",
+      "type": "jaredite_city",
+      "coords": {
+        "x": 93.21,
+        "y": 6.28
+      },
+      "description": "Seashore refuge east of the hill Shim where the deposed king Omer fled with his household to escape Akish's secret combination (Ether 9:3).",
+      "events": [],
+      "mark": "square",
+      "at": "sw",
+      "tier": 2
+    },
+    {
+      "id": "hill-shim",
+      "name": "Hill Shim",
+      "region": "Land Northward (Jaredite lands / Nephite retreat, Mormon 2–5)",
+      "type": "hill",
+      "coords": {
+        "x": 85.3,
+        "y": 14.21
+      },
+      "description": "The record repository before Cumorah.",
+      "events": [
+        {
+          "text": "Ammaron deposits all the sacred records in the hill Shim (4 Ne 1:48–49) and gives ten-year-old Mormon his charge concerning them",
+          "ref": "Mormon 1:2–4"
+        },
+        {
+          "text": "Mormon takes up the plates of Nephi from the hill (Mormon 2:17–18), and later removes all the records as the Lamanites advance",
+          "ref": "Mormon 4:23"
+        },
+        {
+          "text": "Omer passes by the hill Shim in his flight to Ablom",
+          "ref": "Ether 9:3"
+        }
+      ],
+      "mark": null,
+      "at": "c",
+      "tier": 3
+    },
+    {
+      "id": "shem",
+      "name": "Shem",
+      "region": "Land Northward (Jaredite lands / Nephite retreat, Mormon 2–5)",
+      "type": "city_mormon_era",
+      "coords": {
+        "x": 81.67,
+        "y": 9.58
+      },
+      "description": "City and land where the retreating Nephites fortified themselves; Mormon rallied his 30,000 there and, \"notwithstanding the wickedness of my people,\" led them to a rare victory (Mormon 2:20–26).",
+      "events": [],
+      "mark": "ring",
+      "at": "w",
+      "tier": 3
+    },
+    {
+      "id": "jashon",
+      "name": "Jashon",
+      "region": "Land Northward (Jaredite lands / Nephite retreat, Mormon 2–5)",
+      "type": "city_mormon_era",
+      "coords": {
+        "x": 80.64,
+        "y": 14.08
+      },
+      "description": "Land and city near the hill Shim to which the Nephites were driven; the place where Mormon, commanded of the Lord, took up the plates of Nephi and began his own record (Mormon 2:16–18).",
+      "events": [],
+      "mark": "ring",
+      "at": "s",
+      "tier": 3
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan",
+      "region": "Land Northward (Jaredite lands / Nephite retreat, Mormon 2–5)",
+      "type": "city_mormon_era",
+      "coords": {
+        "x": 77.19,
+        "y": 13.47
+      },
+      "description": "Fortified Nephite city that held the line in the final retreat — one of the cities from which the Nephites \"did cut down\" the advancing Lamanites for a season (Mormon 5:3–4).",
+      "events": [],
+      "mark": "ring",
+      "at": "w",
+      "tier": 3
+    },
+    {
+      "id": "boaz",
+      "name": "Boaz",
+      "region": "Land Northward (Jaredite lands / Nephite retreat, Mormon 2–5)",
+      "type": "city_mormon_era",
+      "coords": {
+        "x": 75.94,
+        "y": 17.24
+      },
+      "description": "City where the Nephites twice withstood Lamanite assaults before being driven out with terrible slaughter, their women and children sacrificed to idols (Mormon 4:20–21).",
+      "events": [],
+      "mark": "ring",
+      "at": "e",
+      "tier": 3
+    },
+    {
+      "id": "teancum",
+      "name": "Teancum",
+      "region": "Land Northward (Jaredite lands / Nephite retreat, Mormon 2–5)",
+      "type": "city_mormon_era",
+      "coords": {
+        "x": 78.26,
+        "y": 22.23
+      },
+      "description": "City by the seashore near Desolation, named for the great captain of Moroni's wars. Site of back-and-forth battles late in the final wars (Mormon 4:3, 6–8, 14).",
+      "events": [],
+      "mark": "ring",
+      "at": "n",
+      "tier": 3
+    },
+    {
+      "id": "hill-ephraim",
+      "name": "Hill Ephraim",
+      "region": "Land Northward (Jaredite lands / Nephite retreat, Mormon 2–5)",
+      "type": "hill",
+      "coords": {
+        "x": 59.89,
+        "y": 14.73
+      },
+      "description": "Jaredite hill where Shule \"did molten out of the hill... swords out of steel\" to restore his father Kib's kingdom (Ether 7:9).",
+      "events": [],
+      "mark": null,
+      "at": "c",
+      "tier": 3
+    },
+    {
+      "id": "the-narrow-neck-of-land",
+      "name": "The Narrow Neck of Land",
+      "region": "The Narrow Neck of Land",
+      "type": "feature",
+      "coords": {
+        "x": 72.08,
+        "y": 26.07
+      },
+      "description": "The strategic isthmus joining the two great lands — \"the distance of a day and a half's journey for a Nephite\" from the east to the west sea on the line Bountiful–Desolation (Alma 22:32).",
+      "events": [
+        {
+          "text": "Fortified line by which the Nephites \"hemmed in\" the Lamanites to the south",
+          "ref": "Alma 22:33–34; 52:9"
+        },
+        {
+          "text": "Hagoth builds his \"exceedingly large\" ships by the narrow neck and launches them into the west sea toward the land northward",
+          "ref": "Alma 63:5–8"
+        },
+        {
+          "text": "The Jaredites build a great city by the narrow neck \"by the place where the sea divides the land\"",
+          "ref": "Ether 10:20"
+        },
+        {
+          "text": "Guarded pass in the treaty era and final wars",
+          "ref": "3 Ne 3:23; Mormon 3:5"
+        }
+      ],
+      "mark": null,
+      "at": "c",
+      "tier": 1,
+      "lines": [
+        "Narrow Neck",
+        "of Land"
+      ]
+    },
+    {
+      "id": "bountiful",
+      "name": "Bountiful",
+      "region": "Land of Bountiful and the North of Zarahemla",
+      "type": "major_city",
+      "coords": {
+        "x": 72.18,
+        "y": 30.71
+      },
+      "description": "The northern buffer land of the Nephites, bordering Desolation at the narrow neck — wilderness \"filled with all manner of wild animals\" (Alma 22:31) that became a military anchor and, above all, the place where the risen Christ appeared.",
+      "events": [
+        {
+          "text": "Strategic prize of the Amalickiahite wars; Teancum defends its line and slays Amalickiah in his tent nearby",
+          "ref": "Alma 51:29–34; 52:9, 15–27"
+        },
+        {
+          "text": "Captured Lamanites fortify it as a stronghold city",
+          "ref": "Alma 53:3–5"
+        },
+        {
+          "text": "The multitude gathers at the temple in the land Bountiful, and the resurrected Jesus Christ descends, ministers, and teaches",
+          "ref": "3 Ne 11:1–17; 3 Ne 11–28"
+        }
+      ],
+      "mark": "major",
+      "at": "e",
+      "tier": 0
+    },
+    {
+      "id": "joshua",
+      "name": "Joshua",
+      "region": "Land of Bountiful and the North of Zarahemla",
+      "type": "city_mormon_era",
+      "coords": {
+        "x": 60.38,
+        "y": 30.41
+      },
+      "description": "Land \"in the borders west by the seashore\" where Mormon's armies gathered the people early in the final wars (Mormon 2:6–7).",
+      "events": [],
+      "mark": "ring",
+      "at": "w",
+      "tier": 3
+    },
+    {
+      "id": "angola",
+      "name": "Angola",
+      "region": "Land of Bountiful and the North of Zarahemla",
+      "type": "city_mormon_era",
+      "coords": {
+        "x": 56.29,
+        "y": 34.62
+      },
+      "description": "City the Nephites seized and fortified in their first retreats, \"and notwithstanding our fortifications\" were driven from it (Mormon 2:4).",
+      "events": [],
+      "mark": "ring",
+      "at": "w",
+      "tier": 3
+    },
+    {
+      "id": "zarahemla",
+      "name": "Zarahemla",
+      "region": "Zarahemla and the Heart of the Land",
+      "type": "major_city",
+      "coords": {
+        "x": 57.17,
+        "y": 52.77
+      },
+      "description": "Capital of the Nephite nation from Mosiah I to the coming of Christ — first the city of the Mulekites under Zarahemla, then the seat of Nephite kings, judges, prophets, and the church.",
+      "events": [
+        {
+          "text": "Mosiah I discovers the people of Zarahemla, descendants of Mulek's colony, and is made king over the united people",
+          "ref": "Omni 1:12–19"
+        },
+        {
+          "text": "King Benjamin's tower discourse at the temple and the covenant of the people",
+          "ref": "Mosiah 1–6"
+        },
+        {
+          "text": "Seat of the reign of the judges from Alma the Younger onward",
+          "ref": "Mosiah 29:42–44"
+        },
+        {
+          "text": "Alma's sermon to the church: \"Have ye spiritually been born of God?\"",
+          "ref": "Alma 5"
+        },
+        {
+          "text": "Nephi prays on his garden tower by the highway and reveals the murder of the chief judge",
+          "ref": "Helaman 7–9"
+        },
+        {
+          "text": "Samuel the Lamanite prophesies from the city wall",
+          "ref": "Helaman 13–16"
+        },
+        {
+          "text": "Burns at the crucifixion (3 Ne 8:8, 24) and is rebuilt in the Zion era",
+          "ref": "4 Ne 1:8"
+        }
+      ],
+      "mark": "major",
+      "at": "w",
+      "tier": 0
+    },
+    {
+      "id": "gideon",
+      "name": "Gideon",
+      "region": "Zarahemla and the Heart of the Land",
+      "type": "city",
+      "coords": {
+        "x": 61.51,
+        "y": 56.08
+      },
+      "description": "Valley and city east of the river Sidon, named for the patriot Gideon slain by Nehor (Alma 1:8–9; 6:7).",
+      "events": [
+        {
+          "text": "The retreating Amlicites camp in the valley of Gideon before joining the Lamanites",
+          "ref": "Alma 2:20–26"
+        },
+        {
+          "text": "Alma's sermon on the Atonement — \"he will take upon him the pains and the sicknesses of his people\"",
+          "ref": "Alma 7"
+        }
+      ],
+      "mark": "dot",
+      "at": "w",
+      "tier": 2
+    },
+    {
+      "id": "river-sidon",
+      "name": "River Sidon",
+      "region": "Zarahemla and the Heart of the Land",
+      "type": "water",
+      "coords": {
+        "x": 59.89,
+        "y": 49.25
+      },
+      "description": "The great river of the land, running by Zarahemla with its head in the south wilderness near Manti (Alma 22:27, 29).",
+      "events": [
+        {
+          "text": "Battle of the Amlicite war at its crossing; Alma slays Amlici sword to sword",
+          "ref": "Alma 2:27–34"
+        },
+        {
+          "text": "Converts baptized in its waters",
+          "ref": "Alma 4:4"
+        },
+        {
+          "text": "Moroni's ambush of Zerahemnah's army at the crossing near Manti; the dead cast into the Sidon",
+          "ref": "Alma 43:35–54; 44:21–22"
+        }
+      ],
+      "mark": null,
+      "at": "c",
+      "tier": 1
+    },
+    {
+      "id": "hill-amnihu",
+      "name": "Hill Amnihu",
+      "region": "Zarahemla and the Heart of the Land",
+      "type": "hill",
+      "coords": {
+        "x": 65.99,
+        "y": 50.29
+      },
+      "description": "Hill east of the Sidon where the Amlicite rebellion first came to battle (Alma 2:15–17).",
+      "events": [],
+      "mark": null,
+      "at": "c",
+      "tier": 3
+    },
+    {
+      "id": "hill-manti",
+      "name": "Hill Manti",
+      "region": "Zarahemla and the Heart of the Land",
+      "type": "hill",
+      "coords": {
+        "x": 53.79,
+        "y": 50.29
+      },
+      "description": "Execution site of Nehor, who \"suffered an ignominious death\" upon its top after slaying Gideon (Alma 1:15).",
+      "events": [],
+      "mark": null,
+      "at": "c",
+      "tier": 3
+    },
+    {
+      "id": "minon",
+      "name": "Minon",
+      "region": "Zarahemla and the Heart of the Land",
+      "type": "city",
+      "coords": {
+        "x": 55.47,
+        "y": 57.84
+      },
+      "description": "Land above Zarahemla along the course of the Sidon where the combined Lamanite–Amlicite army fell upon the Nephites (Alma 2:24–25).",
+      "events": [],
+      "mark": "dot",
+      "at": "nw",
+      "tier": 2
+    },
+    {
+      "id": "wilderness-of-hermounts",
+      "name": "Wilderness of Hermounts",
+      "region": "Zarahemla and the Heart of the Land",
+      "type": "wilderness",
+      "coords": {
+        "x": 33.47,
+        "y": 44.1
+      },
+      "description": "Wilderness west and north, \"infested by wild and ravenous beasts,\" where the wounded remnants of the Amlicite army perished and were devoured (Alma 2:36–38).",
+      "events": [],
+      "mark": null,
+      "at": "c",
+      "tier": 2,
+      "lines": [
+        "Wilderness of",
+        "Hermounts"
+      ]
+    },
+    {
+      "id": "melek",
+      "name": "Melek",
+      "region": "Zarahemla and the Heart of the Land",
+      "type": "city",
+      "coords": {
+        "x": 53.93,
+        "y": 47.3
+      },
+      "description": "Land west of the Sidon by the borders of the wilderness.",
+      "events": [
+        {
+          "text": "Alma teaches and baptizes throughout the land after leaving the judgment-seat",
+          "ref": "Alma 8:3–5"
+        },
+        {
+          "text": "The people of Ammon relocate here from Jershon to make room for the armies",
+          "ref": "Alma 35:13"
+        }
+      ],
+      "mark": "dot",
+      "at": "e",
+      "tier": 2
+    },
+    {
+      "id": "ammonihah",
+      "name": "Ammonihah",
+      "region": "Zarahemla and the Heart of the Land",
+      "type": "city",
+      "coords": {
+        "x": 56.96,
+        "y": 40.24
+      },
+      "description": "The proud city of the order of Nehor that rejected Alma — and became a proverb of desolation.",
+      "events": [
+        {
+          "text": "Alma, cast out, is commanded by an angel to return; Amulek receives him",
+          "ref": "Alma 8"
+        },
+        {
+          "text": "Alma and Amulek preach, contend with Zeezrom, and are imprisoned; the believers are martyred by fire; the prison falls",
+          "ref": "Alma 9–14"
+        },
+        {
+          "text": "Destroyed by the Lamanites \"in one day,\" thereafter called the Desolation of Nehors",
+          "ref": "Alma 16:2–3, 9–11"
+        },
+        {
+          "text": "Rebuilt and fortified; Amalickiah's army, astonished at Moroni's earthwork defenses, dares not attack",
+          "ref": "Alma 49:1–12"
+        }
+      ],
+      "mark": "dot",
+      "at": "e",
+      "tier": 2
+    },
+    {
+      "id": "noah",
+      "name": "Noah",
+      "region": "Zarahemla and the Heart of the Land",
+      "type": "city",
+      "coords": {
+        "x": 57.97,
+        "y": 42.28
+      },
+      "description": "City whose \"weakest part\" the Lamanites chose to assault after balking at Ammonihah — and where Lehi's fortified defenders repelled them with great slaughter (Alma 49:12–25).",
+      "events": [],
+      "mark": "dot",
+      "at": "se",
+      "tier": 2
+    },
+    {
+      "id": "sidom",
+      "name": "Sidom",
+      "region": "Zarahemla and the Heart of the Land",
+      "type": "city",
+      "coords": {
+        "x": 60.88,
+        "y": 41.37
+      },
+      "description": "Refuge of the believers driven from Ammonihah; Alma heals the fevered Zeezrom, who is baptized and begins to preach (Alma 15:1–12).",
+      "events": [],
+      "mark": "dot",
+      "at": "se",
+      "tier": 2
+    },
+    {
+      "id": "aaron",
+      "name": "Aaron",
+      "region": "Zarahemla and the Heart of the Land",
+      "type": "city",
+      "coords": {
+        "x": 66.94,
+        "y": 48
+      },
+      "description": "City near Ammonihah toward which Alma was traveling when the angel turned him back (Alma 8:13); later noted adjoining Moroni and Nephihah (Alma 50:14).",
+      "events": [],
+      "mark": "dot",
+      "at": "nw",
+      "tier": 2
+    },
+    {
+      "id": "jershon",
+      "name": "Jershon",
+      "region": "The East Coast (Moroni's fortified line)",
+      "type": "land",
+      "coords": {
+        "x": 75.6,
+        "y": 50.73
+      },
+      "description": "Land by the east sea, south of Bountiful, given by covenant to the people of Ammon.",
+      "events": [
+        {
+          "text": "The Nephites give Jershon to the Anti-Nephi-Lehies \"for an inheritance,\" pledging their armies for its defense",
+          "ref": "Alma 27:22–26"
+        },
+        {
+          "text": "The expelled Zoramite converts are received and nourished there",
+          "ref": "Alma 35:1–9"
+        },
+        {
+          "text": "Staging ground of the Nephite armies in the Zoramite war",
+          "ref": "Alma 43:15, 22"
+        }
+      ],
+      "mark": "dot",
+      "at": "e",
+      "tier": 2
+    },
+    {
+      "id": "mulek",
+      "name": "Mulek",
+      "region": "The East Coast (Moroni's fortified line)",
+      "type": "city",
+      "coords": {
+        "x": 77.88,
+        "y": 38.36
+      },
+      "description": "East-coast city, likely named for the son of Zedekiah (Helaman 6:10).",
+      "events": [
+        {
+          "text": "Captured in Amalickiah's east-coast blitz",
+          "ref": "Alma 51:26"
+        },
+        {
+          "text": "Retaken by the combined stratagem of Teancum's decoy, Lehi's charge, and Moroni's occupation of the empty city",
+          "ref": "Alma 52:16–40"
+        }
+      ],
+      "mark": "dot",
+      "at": "e",
+      "tier": 2
+    },
+    {
+      "id": "gid",
+      "name": "Gid",
+      "region": "The East Coast (Moroni's fortified line)",
+      "type": "city",
+      "coords": {
+        "x": 76.66,
+        "y": 41.95
+      },
+      "description": "East-coast city taken by Amalickiah (Alma 51:26), retaken without a drop of blood when Laman's men gave the guards wine and Moroni armed the prisoners within (Alma 55:3–26).",
+      "events": [],
+      "mark": "dot",
+      "at": "e",
+      "tier": 2
+    },
+    {
+      "id": "omner",
+      "name": "Omner",
+      "region": "The East Coast (Moroni's fortified line)",
+      "type": "city",
+      "coords": {
+        "x": 82.44,
+        "y": 46.19
+      },
+      "description": "East-coast city captured in Amalickiah's campaign (Alma 51:26); its Lamanite garrison retreats to Mulek before Moroni's advance (Alma 52:22–28).",
+      "events": [],
+      "mark": "dot",
+      "at": "w",
+      "tier": 2
+    },
+    {
+      "id": "morianton",
+      "name": "Morianton",
+      "region": "The East Coast (Moroni's fortified line)",
+      "type": "city",
+      "coords": {
+        "x": 83.7,
+        "y": 52.96
+      },
+      "description": "City founded by the contentious Morianton (Alma 50:25).",
+      "events": [
+        {
+          "text": "Land dispute with the city of Lehi; Morianton's northward flight is stopped by Teancum, who slays him",
+          "ref": "Alma 50:25–36"
+        },
+        {
+          "text": "Captured by Amalickiah (Alma 51:26); later retaken in Moroni's east-coast campaign",
+          "ref": "Alma 55:33; 59:5"
+        }
+      ],
+      "mark": "dot",
+      "at": "e",
+      "tier": 2
+    },
+    {
+      "id": "lehi",
+      "name": "Lehi",
+      "region": "The East Coast (Moroni's fortified line)",
+      "type": "city",
+      "coords": {
+        "x": 84.42,
+        "y": 55.64
+      },
+      "description": "East-coast city by the north borders of the seashore (Alma 50:15); its people fled to Moroni's camp in the Morianton dispute and were reunited with their lands (Alma 50:25–36); captured and retaken in the Amalickiahite wars (Alma 51:24–26; 62:30).",
+      "events": [],
+      "mark": "dot",
+      "at": "e",
+      "tier": 2
+    },
+    {
+      "id": "nephihah",
+      "name": "Nephihah",
+      "region": "The East Coast (Moroni's fortified line)",
+      "type": "city",
+      "coords": {
+        "x": 76.18,
+        "y": 57.03
+      },
+      "description": "City built between Moroni and Aaron as part of the fortified line (Alma 50:14).",
+      "events": [
+        {
+          "text": "Receives the refugees of the fallen coastal cities",
+          "ref": "Alma 51:24–25"
+        },
+        {
+          "text": "Falls to the Lamanites while Moroni is detained westward, to his exceeding sorrow",
+          "ref": "Alma 59:5–11"
+        },
+        {
+          "text": "Retaken when Moroni scales the wall by night with cords and ladders and lets his army down into the city",
+          "ref": "Alma 62:18–26"
+        }
+      ],
+      "mark": "dot",
+      "at": "nw",
+      "tier": 2
+    },
+    {
+      "id": "moroni",
+      "name": "Moroni",
+      "region": "The East Coast (Moroni's fortified line)",
+      "type": "city",
+      "coords": {
+        "x": 81.55,
+        "y": 62.6
+      },
+      "description": "Fortified city by the east sea near the Lamanite border, built in the 20th year of the judges (Alma 50:13).",
+      "events": [
+        {
+          "text": "First city to fall in Amalickiah's invasion",
+          "ref": "Alma 51:22–24"
+        },
+        {
+          "text": "Refortified by the Lamanites as their last east-coast holdout",
+          "ref": "Alma 62:32–34"
+        },
+        {
+          "text": "At the crucifixion, \"the city of Moroni did sink into the depths of the sea\"",
+          "ref": "3 Ne 8:9; 9:4"
+        }
+      ],
+      "mark": "dot",
+      "at": "w",
+      "tier": 2
+    },
+    {
+      "id": "antionum",
+      "name": "Antionum",
+      "region": "The East Coast (Moroni's fortified line)",
+      "type": "land",
+      "coords": {
+        "x": 76.04,
+        "y": 67.06
+      },
+      "description": "Land of the Zoramite dissenters, east of the Sidon, bordering Jershon and the south wilderness (Alma 31:3).",
+      "events": [
+        {
+          "text": "The Rameumptom: Alma's mission finds the Zoramites' once-a-week prayer of pride",
+          "ref": "Alma 31"
+        },
+        {
+          "text": "The believing poor are cast out and join the Ammonites in Jershon",
+          "ref": "Alma 35"
+        },
+        {
+          "text": "The Zoramites become Lamanite allies; Zerahemnah's war follows",
+          "ref": "Alma 43:4–6"
+        }
+      ],
+      "mark": "dot",
+      "at": "w",
+      "tier": 2
+    },
+    {
+      "id": "hill-onidah",
+      "name": "Hill Onidah",
+      "region": "The East Coast (Moroni's fortified line)",
+      "type": "hill",
+      "coords": {
+        "x": 70.05,
+        "y": 66.78
+      },
+      "description": "The hill in Antionum where Alma taught the outcast poor the great discourse on the seed of faith (Alma 32:4–43).",
+      "events": [],
+      "mark": null,
+      "at": "c",
+      "tier": 3
+    },
+    {
+      "id": "siron",
+      "name": "Siron",
+      "region": "The East Coast (Moroni's fortified line)",
+      "type": "land",
+      "coords": {
+        "x": 76.54,
+        "y": 72.18
+      },
+      "description": "Land among the borders of the Lamanites beyond Antionum, where Corianton abandoned his ministry to pursue the harlot Isabel (Alma 39:3).",
+      "events": [],
+      "mark": "dot",
+      "at": "s",
+      "tier": 2
+    },
+    {
+      "id": "manti",
+      "name": "Manti",
+      "region": "The Southwest Frontier (Helaman's campaigns)",
+      "type": "city",
+      "coords": {
+        "x": 52.26,
+        "y": 70.68
+      },
+      "description": "Chief city of the south frontier, by the head of the river Sidon (Alma 22:27).",
+      "events": [
+        {
+          "text": "Nephite captives rescued nearby through Alma's seership",
+          "ref": "Alma 16:5–8"
+        },
+        {
+          "text": "Moroni's forces ambush Zerahemnah's army in the wilderness near Manti",
+          "ref": "Alma 43:22–54"
+        },
+        {
+          "text": "Captured by the Lamanites; retaken by Helaman's small army through a decoy march and night occupation of the empty city",
+          "ref": "Alma 56:13–14; 58:1–31"
+        }
+      ],
+      "mark": "dot",
+      "at": "nw",
+      "tier": 2
+    },
+    {
+      "id": "hill-riplah",
+      "name": "Hill Riplah",
+      "region": "The Southwest Frontier (Helaman's campaigns)",
+      "type": "hill",
+      "coords": {
+        "x": 58.88,
+        "y": 68.84
+      },
+      "description": "Hill east of the Sidon crossing where Lehi's men lay concealed for Moroni's ambush of Zerahemnah (Alma 43:31–35).",
+      "events": [],
+      "mark": null,
+      "at": "c",
+      "tier": 3
+    },
+    {
+      "id": "judea",
+      "name": "Judea",
+      "region": "The Southwest Frontier (Helaman's campaigns)",
+      "type": "city",
+      "coords": {
+        "x": 48.16,
+        "y": 62.36
+      },
+      "description": "Fortified city of Antipus where Helaman arrived with his two thousand stripling warriors — \"they were all young men... true at all times\" (Alma 56:9–17, 27).",
+      "events": [],
+      "mark": "dot",
+      "at": "e",
+      "tier": 2
+    },
+    {
+      "id": "antiparah",
+      "name": "Antiparah",
+      "region": "The Southwest Frontier (Helaman's campaigns)",
+      "type": "city",
+      "coords": {
+        "x": 39.2,
+        "y": 63.25
+      },
+      "description": "Lamanite-held city drawn empty by Helaman's decoy march; the pursuing army was crushed between Antipus and the striplings, \"and to our great astonishment... there had not one soul of them fallen\" (Alma 56:14, 30–56; 57:1–4).",
+      "events": [],
+      "mark": "dot",
+      "at": "e",
+      "tier": 2
+    },
+    {
+      "id": "cumeni",
+      "name": "Cumeni",
+      "region": "The Southwest Frontier (Helaman's campaigns)",
+      "type": "city",
+      "coords": {
+        "x": 43.92,
+        "y": 65.77
+      },
+      "description": "City starved into surrender by Helaman's seizure of its provisions, then held through a desperate battle in which all 2,060 sons of Helaman were wounded yet not one perished (Alma 57:7–27).",
+      "events": [],
+      "mark": "dot",
+      "at": "e",
+      "tier": 2
+    },
+    {
+      "id": "zeezrom",
+      "name": "Zeezrom",
+      "region": "The Southwest Frontier (Helaman's campaigns)",
+      "type": "city",
+      "coords": {
+        "x": 48.63,
+        "y": 68.06
+      },
+      "description": "Frontier city named among those the Lamanites held on the west borders by the seashore (Alma 56:13–14).",
+      "events": [],
+      "mark": "dot",
+      "at": "ne",
+      "tier": 2
+    },
+    {
+      "id": "south-wilderness",
+      "name": "South Wilderness",
+      "altName": "Narrow Strip of Wilderness",
+      "region": "The Southwest Frontier (Helaman's campaigns)",
+      "type": "wilderness",
+      "coords": {
+        "x": 69.32,
+        "y": 78.84
+      },
+      "description": "The \"narrow strip of wilderness, which ran from the sea east even to the sea west,\" dividing the land of Nephi from the land of Zarahemla — the great natural border of the two nations (Alma 22:27).",
+      "events": [],
+      "mark": null,
+      "at": "c",
+      "tier": 3,
+      "lines": [
+        "South Wilderness",
+        "(Narrow Strip)"
+      ]
+    },
+    {
+      "id": "nephi",
+      "name": "Nephi",
+      "altName": "Lehi-Nephi",
+      "region": "The Land of Nephi (Lamanite lands and the Zeniffite story)",
+      "type": "major_city",
+      "coords": {
+        "x": 46.26,
+        "y": 88.34
+      },
+      "description": "The first Nephite homeland, founded by Nephi in flight from his brethren — later the Lamanite royal seat and the stage of the Zeniff–Noah–Limhi saga.",
+      "events": [
+        {
+          "text": "Nephi's people settle, build a temple \"after the manner of the temple of Solomon,\" and prosper",
+          "ref": "2 Ne 5:5–17"
+        },
+        {
+          "text": "Abandoned to the Lamanites when Mosiah I is warned to flee to Zarahemla",
+          "ref": "Omni 1:12–13"
+        },
+        {
+          "text": "Zeniff's colony returns and covenants with King Laman",
+          "ref": "Mosiah 9"
+        },
+        {
+          "text": "King Noah's palaces, tower, and wine-drinking priests",
+          "ref": "Mosiah 11"
+        },
+        {
+          "text": "Abinadi's trial and martyrdom by fire",
+          "ref": "Mosiah 12–17"
+        },
+        {
+          "text": "Limhi's people in bondage; their escape by night to Zarahemla",
+          "ref": "Mosiah 19–22"
+        },
+        {
+          "text": "Seat of Lamoni's father, king over all the land; Aaron teaches him — \"I will give away all my sins to know thee\"",
+          "ref": "Alma 22:15–18"
+        }
+      ],
+      "mark": "major",
+      "at": "s",
+      "tier": 0,
+      "lines": [
+        "Nephi",
+        "(Lehi-Nephi)"
+      ]
+    },
+    {
+      "id": "shilom",
+      "name": "Shilom",
+      "region": "The Land of Nephi (Lamanite lands and the Zeniffite story)",
+      "type": "city",
+      "coords": {
+        "x": 43.55,
+        "y": 86.65
+      },
+      "description": "Land and city adjoining Nephi, part of Zeniff's grant (Mosiah 9:6–8); overlooked by Noah's great tower (Mosiah 11:12–13); scene of the Lamanite invasions of the bondage years (Mosiah 19–22).",
+      "events": [],
+      "mark": "dot",
+      "at": "nw",
+      "tier": 2
+    },
+    {
+      "id": "shemlon",
+      "name": "Shemlon",
+      "region": "The Land of Nephi (Lamanite lands and the Zeniffite story)",
+      "type": "land",
+      "coords": {
+        "x": 35.79,
+        "y": 90.29
+      },
+      "description": "Lamanite land bordering Nephi (Mosiah 9:14).",
+      "events": [
+        {
+          "text": "Visible from Noah's tower — the discovery point of the approaching Lamanite army",
+          "ref": "Mosiah 11:12; 19:6"
+        },
+        {
+          "text": "The daughters of the Lamanites gather in Shemlon to dance, and the priests of Noah carry twenty-four of them away",
+          "ref": "Mosiah 20:1–5"
+        }
+      ],
+      "mark": "dot",
+      "at": "w",
+      "tier": 2
+    },
+    {
+      "id": "waters-of-mormon",
+      "name": "Waters of Mormon",
+      "region": "The Land of Nephi (Lamanite lands and the Zeniffite story)",
+      "type": "water",
+      "coords": {
+        "x": 57.86,
+        "y": 91
+      },
+      "description": "The forest waters \"in the borders of the land\" where the church of Christ in this dispensation of the Nephites was born.",
+      "events": [
+        {
+          "text": "Alma hides from King Noah's searches and teaches privately",
+          "ref": "Mosiah 18:1–5"
+        },
+        {
+          "text": "The baptismal covenant taught and 204 souls baptized: \"here are the waters of Mormon... what have you against being baptized?\"",
+          "ref": "Mosiah 18:8–17"
+        },
+        {
+          "text": "\"How beautiful are they to the eyes of them who there came to the knowledge of their Redeemer\"",
+          "ref": "Mosiah 18:30"
+        }
+      ],
+      "mark": null,
+      "at": "c",
+      "tier": 2
+    },
+    {
+      "id": "helam",
+      "name": "Helam",
+      "region": "The Land of Nephi (Lamanite lands and the Zeniffite story)",
+      "type": "city",
+      "coords": {
+        "x": 55.88,
+        "y": 77.54
+      },
+      "description": "The land of Alma's covenant colony, eight days' journey into the wilderness.",
+      "events": [
+        {
+          "text": "Alma's people build the city of Helam and prosper",
+          "ref": "Mosiah 23:1–5, 19–20"
+        },
+        {
+          "text": "Surprised into bondage under Amulon; burdens eased and voices heard: \"I will also ease the burdens which are put upon your shoulders\"",
+          "ref": "Mosiah 23:25–39; 24:8–15"
+        },
+        {
+          "text": "Miraculous escape as a deep sleep falls upon the Lamanite guards",
+          "ref": "Mosiah 24:16–25"
+        }
+      ],
+      "mark": "dot",
+      "at": "se",
+      "tier": 2
+    },
+    {
+      "id": "amulon",
+      "name": "Amulon",
+      "region": "The Land of Nephi (Lamanite lands and the Zeniffite story)",
+      "type": "city",
+      "coords": {
+        "x": 63.79,
+        "y": 77.46
+      },
+      "description": "Land settled by the fled priests of Noah under Amulon, who joined the Lamanites, gained rule as teachers, and afflicted Alma's people (Mosiah 23:31–35; 24:1–7).",
+      "events": [],
+      "mark": "dot",
+      "at": "e",
+      "tier": 2
+    },
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "region": "The Land of Nephi (Lamanite lands and the Zeniffite story)",
+      "type": "city",
+      "coords": {
+        "x": 53.85,
+        "y": 87.81
+      },
+      "description": "City built by the Lamanites, Amulonites, and Amalekites \"away joining the borders of Mormon,\" named after the fathers' Jerusalem (Alma 21:1–2); Aaron's preaching is rejected there (Alma 21:3–10); at the crucifixion \"waters have I caused to come up in the stead thereof\" (3 Ne 9:7).",
+      "events": [],
+      "mark": "dot",
+      "at": "e",
+      "tier": 2
+    },
+    {
+      "id": "ani-anti",
+      "name": "Ani-Anti",
+      "region": "The Land of Nephi (Lamanite lands and the Zeniffite story)",
+      "type": "city",
+      "coords": {
+        "x": 51.9,
+        "y": 92.48
+      },
+      "description": "Village where Aaron, Muloki, and Ammah preached to unyielding crowds before moving on to Middoni (Alma 21:11–12).",
+      "events": [],
+      "mark": "dot",
+      "at": "e",
+      "tier": 2
+    },
+    {
+      "id": "middoni",
+      "name": "Middoni",
+      "region": "The Land of Nephi (Lamanite lands and the Zeniffite story)",
+      "type": "city",
+      "coords": {
+        "x": 38.84,
+        "y": 94.75
+      },
+      "description": "Lamanite land where Aaron and his brethren lay imprisoned until Ammon and the converted Lamoni, by friendship with its king Antiomno, obtained their release (Alma 20:2–7, 28–30; 21:12–17).",
+      "events": [],
+      "mark": "dot",
+      "at": "w",
+      "tier": 2
+    },
+    {
+      "id": "ishmael",
+      "name": "Ishmael",
+      "region": "The Land of Nephi (Lamanite lands and the Zeniffite story)",
+      "type": "land",
+      "coords": {
+        "x": 35.97,
+        "y": 77.36
+      },
+      "description": "The land of King Lamoni.",
+      "events": [
+        {
+          "text": "Ammon offers himself as Lamoni's servant and defends the flocks at the waters of Sebus",
+          "ref": "Alma 17:19–39"
+        },
+        {
+          "text": "Lamoni's conversion: king, queen, and household overcome by the Spirit; Abish gathers the people",
+          "ref": "Alma 18–19"
+        },
+        {
+          "text": "Becomes a center of the Anti-Nephi-Lehi conversion",
+          "ref": "Alma 23:9–13"
+        }
+      ],
+      "mark": "dot",
+      "at": "nw",
+      "tier": 2
+    },
+    {
+      "id": "midian",
+      "name": "Midian",
+      "region": "The Land of Nephi (Lamanite lands and the Zeniffite story)",
+      "type": "land",
+      "coords": {
+        "x": 39.77,
+        "y": 82.61
+      },
+      "description": "Land mentioned once, in the council of the converted king's proclamation era, connected with the martyr lands of the mission narrative (Alma 24:5).",
+      "events": [],
+      "mark": "dot",
+      "at": "e",
+      "tier": 2
+    },
+    {
+      "id": "mt-antipas",
+      "name": "Mt. Antipas",
+      "region": "The Land of Nephi (Lamanite lands and the Zeniffite story)",
+      "type": "hill",
+      "coords": {
+        "x": 27.38,
+        "y": 85.33
+      },
+      "description": "The mount where the dissenting Lamanite army gathered under Lehonti — and where Amalickiah, feigning surrender, climbed \"near unto\" the camp three times, made Lehonti his master, and had him poisoned \"by degrees\" (Alma 47:7–19).",
+      "events": [],
+      "mark": null,
+      "at": "c",
+      "tier": 3
+    },
+    {
+      "id": "land-of-first-inheritance",
+      "name": "Land of First Inheritance",
+      "region": "The Land of Nephi (Lamanite lands and the Zeniffite story)",
+      "type": "land",
+      "coords": {
+        "x": 13.15,
+        "y": 85.85
+      },
+      "description": "The coastal land of Lehi's landing, \"on the west in the land of Nephi... by the seashore\" (Alma 22:28) — where the family \"did pitch our tents... and did put all our seeds into the earth\" (1 Ne 18:23–24), and afterward the homeland of the idle portions of the Lamanites.",
+      "events": [],
+      "mark": null,
+      "at": "c",
+      "tier": 1,
+      "lines": [
+        "Land of First",
+        "Inheritance"
+      ]
+    },
+    {
+      "id": "sea-west",
+      "name": "Sea West",
+      "region": "The Seas",
+      "type": "sea",
+      "coords": {
+        "x": 11.12,
+        "y": 53.38
+      },
+      "description": "The western ocean bounding the whole land (Alma 22:27–28, 32); Hagoth's ships launch into it \"by the narrow neck which led into the land northward\" (Alma 63:5–8).",
+      "events": [],
+      "mark": null,
+      "at": "c",
+      "tier": 0
+    },
+    {
+      "id": "sea-east",
+      "name": "Sea East",
+      "region": "The Seas",
+      "type": "sea",
+      "coords": {
+        "x": 89.36,
+        "y": 65.74
+      },
+      "description": "The eastern ocean along Moroni's line of fortified cities from Moroni to Bountiful (Alma 22:27; 50:13–15); the city of Moroni sinks into it at the crucifixion (3 Ne 8:9).",
+      "events": [],
+      "mark": null,
+      "at": "c",
+      "tier": 0
+    }
+  ]
+}

@@ -3,12 +3,14 @@ import { createPortal } from "react-dom";
 import { glassOverlay, ink, inkSoft, gold, blue } from "../theme.js";
 import { parseCitations, loadPassage } from "../lib/refs.js";
 
-// What to mark in the passage a note points at: the run of this chapter's text
-// the connection hangs on, and any wording the gloss lifts from the target
-// itself. The anchor phrase is usually the wording the two places share — that
-// is what makes them a connection — so it is the thing worth finding.
+// What to mark in the passage a note points at. The note's own `target:` lines
+// quote the wording out of that passage, which is the surest thing to look for;
+// failing those, the run of this chapter's text the connection hangs on, and any
+// wording the gloss lifts from the target. The anchor phrase is usually the
+// wording the two places share — that is what makes them a connection — but only
+// where the two say it in the same words, which the targets do not assume.
 function marksFor(c) {
-  return [c.snippet, c.quote]
+  return [...(c.targets || []).map((t) => t.quote), c.snippet, c.quote]
     .filter(Boolean)
     // An ellipsis means the quote is not contiguous, so each part stands alone.
     .flatMap((s) => s.split(/\s*(?:\.{3}|…)\s*/))
@@ -91,16 +93,16 @@ function Popup({ anchorEl, connections, hold, release, onOpenRef }) {
       {connections.map((c, i) => (
         <div key={i} style={{ marginBottom: 10 }}>
           <div style={{ display: "flex", gap: 7, alignItems: "baseline", marginBottom: 3 }}>
-            <span style={{ flexShrink: 0, fontSize: 10, fontWeight: 700, color: gold, minWidth: 22 }}>{c.id}</span>
-            <span className="serif" style={{ fontSize: 13, fontWeight: 600, color: ink }}>{c.source}</span>
+            <span style={{ flexShrink: 0, fontSize: 10.5, fontWeight: 700, color: gold, minWidth: 22 }}>{c.id}</span>
+            <span className="serif" style={{ fontSize: 14, fontWeight: 600, color: ink }}>{c.source}</span>
           </div>
-          {c.gloss && <p style={{ margin: 0, fontSize: 11.5, lineHeight: 1.5, color: inkSoft }}>{c.gloss}</p>}
+          {c.gloss && <p style={{ margin: 0, fontSize: 12.5, lineHeight: 1.5, color: inkSoft }}>{c.gloss}</p>}
         </div>
       ))}
 
       <div style={{ borderTop: "1px solid rgba(31,45,71,.10)", paddingTop: 8 }}>
-        {passages === null && <p style={{ margin: 0, fontSize: 11.5, color: inkSoft }}>Loading passage…</p>}
-        {passages?.length === 0 && <p style={{ margin: 0, fontSize: 11.5, color: inkSoft }}>Passage text unavailable.</p>}
+        {passages === null && <p style={{ margin: 0, fontSize: 12.5, color: inkSoft }}>Loading passage…</p>}
+        {passages?.length === 0 && <p style={{ margin: 0, fontSize: 12.5, color: inkSoft }}>Passage text unavailable.</p>}
         {passages?.map((p, i) => (
           <div key={i} style={{ marginBottom: i === passages.length - 1 ? 0 : 12 }}>
             <button
@@ -111,8 +113,8 @@ function Popup({ anchorEl, connections, hold, release, onOpenRef }) {
               {p.label} <span aria-hidden>→</span>
             </button>
             {p.verses.map((v) => (
-              <p key={v.verse} className="serif" style={{ margin: "0 0 4px", fontSize: 12.5, lineHeight: 1.6, color: inkSoft }}>
-                <span style={{ color: gold, fontSize: 10.5, marginRight: 5 }}>{v.verse}</span>
+              <p key={v.verse} className="serif" style={{ margin: "0 0 5px", fontSize: 13.5, lineHeight: 1.62, color: inkSoft }}>
+                <span style={{ color: gold, fontSize: 11, marginRight: 5 }}>{v.verse}</span>
                 <Marked text={v.text} marks={p.marks} />
               </p>
             ))}
@@ -124,13 +126,14 @@ function Popup({ anchorEl, connections, hold, release, onOpenRef }) {
   );
 }
 
-const WIDTH = 330;
+// Its own width, or the whole screen less a margin on a phone too narrow for it.
 function place(el) {
+  const width = Math.min(330, window.innerWidth - 16);
   const r = el.getBoundingClientRect();
-  const left = Math.min(Math.max(r.left, 8), window.innerWidth - WIDTH - 8);
+  const left = Math.min(Math.max(r.left, 8), window.innerWidth - width - 8);
   const below = r.bottom + 8;
   const top = below + 260 > window.innerHeight ? Math.max(r.top - 268, 8) : below;
-  return { top, left, width: WIDTH };
+  return { top, left, width };
 }
 
 // A gold run of verse text that reveals its cross connections on hover.
@@ -166,9 +169,15 @@ export default function ConnectionAnchor({ connections, onOpenRef, children }) {
         role="button"
         tabIndex={0}
         aria-label={`${connections.length} cross connection${connections.length > 1 ? "s" : ""}`}
-        onMouseEnter={() => { hold(); setOpen(true); }}
-        onMouseLeave={release}
-        onFocus={() => setOpen(true)}
+        /* Hovering is a mouse's alone. A tap fires mouseenter and focus for
+           compatibility before it fires click, so bound to those the popup
+           opened and the tap that opened it closed it again — and the second
+           tap, with no fresh mouseenter behind it, was what appeared to open
+           it. The pointer says which kind of press this is; focus opens only
+           where the keyboard put it, which is what `:focus-visible` means. */
+        onPointerEnter={(e) => { if (e.pointerType === "mouse") { hold(); setOpen(true); } }}
+        onPointerLeave={(e) => { if (e.pointerType === "mouse") release(); }}
+        onFocus={(e) => { if (e.target.matches(":focus-visible")) setOpen(true); }}
         onClick={() => setOpen((v) => !v)}
       >
         {children}

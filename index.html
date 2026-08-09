@@ -3,8 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- The title the site opens on. Where the reader goes from here it is
+         rewritten to say where they are — see titleOf in src/App.jsx — so a tab,
+         a bookmark and a phone's share sheet all name the chapter rather than
+         the site. -->
     <title>Gazelem</title>
     <meta name="description" content="Read the standard works from public-domain editions, with reference search and layered study notes." />
+    <meta name="theme-color" content="#eef1f5" />
+
+    <!-- The letter, drawn once as a vector and once as pixels. Browsers take the
+         SVG where they can and the PNG where they cannot, which is what keeps
+         the mark from falling back to a blank page glyph in Safari. -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Gazelem" />
+
+    <!-- What a link to the site unfolds into when it is posted somewhere.
+         These are the site's own card, not the open page's: the pages are drawn
+         in the browser and the scrapers that read these tags do not run
+         scripts, so a link to a chapter shows the site rather than the chapter.
+         Giving each page its own card means rendering them ahead of time. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Gazelem" />
+    <meta property="og:title" content="Gazelem — the standard works" />
+    <meta property="og:description" content="Read the standard works from public-domain editions, with reference search and layered study notes." />
+    <meta property="og:url" content="https://theian-studios.github.io/Gazelem/" />
+    <meta property="og:image" content="https://theian-studios.github.io/Gazelem/og-image.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Gazelem — the standard works, from public-domain editions" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Gazelem — the standard works" />
+    <meta name="twitter:description" content="Read the standard works from public-domain editions, with reference search and layered study notes." />
+    <meta name="twitter:image" content="https://theian-studios.github.io/Gazelem/og-image.jpg" />
   </head>
   <body>
     <div id="root"></div>

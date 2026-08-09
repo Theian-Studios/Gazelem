@@ -515,7 +515,7 @@ a[x-apple-data-detectors] {
    heading to mask whatever scrolls under it, and without the gap it would lie
    across the top of the segments instead of behind them. */
 .lens-groups {
-  display: grid; gap: 14px;
+  display: grid; gap: 10px;
   /* Set off from the notes below by a rule rather than by space alone: they are
      the controls for what follows, and space on its own would read as the first
      of the notes having been indented. */
@@ -554,7 +554,10 @@ a[x-apple-data-detectors] {
 /* The sentence under the segments, saying what the chosen one means. Centred
    under the track and held to two lines' height so choosing moves nothing. */
 .lens-note {
-  margin: 9px 2px 0;
+  /* No margin of its own: the grid's gap is the whole of the space above it,
+     and a margin on top of that set the sentence adrift from the segments it
+     belongs to. */
+  margin: 0 2px;
   min-height: 2.6em;
   font-size: var(--fs-note); line-height: 1.3;
   color: #6e6e73; text-align: center;
@@ -3098,11 +3101,6 @@ mark.find-hit[data-current] {
 .sm-pop {
   border-radius: 14px; padding: 10px 12px 8px; z-index: 70;
   max-height: 56vh; overflow-y: auto;
-}
-.sm-pop-head {
-  margin: 0 0 6px;
-  font-size: var(--fs-label); letter-spacing: .09em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
 }
 .sm-pop-list { list-style: none; margin: 0; padding: 0; }
 .sm-pop-list li + li { margin-top: 2px; }

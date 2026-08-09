@@ -43,7 +43,6 @@ function Popup({ anchorEl, pages, onOpen, hold, release, popRef }) {
   return createPortal(
     <div ref={popRef} className="sm-pop" onMouseEnter={hold} onMouseLeave={release}
       style={{ ...glassOverlay, position: "fixed", top: box.top, left: box.left, width: box.width }}>
-      <p className="sm-pop-head">Written about here</p>
       <ul className="sm-pop-list">
         {pages.map((p) => (
           <li key={p.section}>

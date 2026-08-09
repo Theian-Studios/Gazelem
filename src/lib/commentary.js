@@ -70,7 +70,12 @@ const SCOPES = ["ALMA", "BOM", "SW"];
 
 // Strip the emphasis markers and inline scope tags; the tags are structure, not
 // prose, and the panel shows scope as a chip instead.
-const clean = (s) =>
+//
+// Word spans are structure too, but they cannot be taken out here: the
+// connection index is parsed out of this same text, and there the span is the
+// anchor itself. So this stops short of them and clean() finishes the job —
+// see below.
+const tidy = (s) =>
   s
     // "vv. 7–8" reads as a typo on screen; one v covers both.
     .replace(/\bvv\.\s*/g, "v. ")
@@ -80,6 +85,14 @@ const clean = (s) =>
     .replace(/\s*\[(ALMA|BOM|SW)\]/g, "")
     .replace(/\s+/g, " ")
     .trim();
+
+// "Jacob 7:26 w59–66 "like as it were unto us a dream,"" — the span pins the
+// quotation to an exact run of words in the verse, which is how a note is
+// checked against the text. Read as a sentence it is noise between a reference
+// and the words it names, so it comes out of everything shown and stays in
+// everything parsed.
+const SPAN = /\s+w\d+(?:\s*[–—-]\s*\d+)?\b/g;
+const clean = (s) => tidy(s).replace(SPAN, "");
 
 function parseEntryBody(lines) {
   const body = [];
@@ -225,7 +238,9 @@ function parseConnections(md) {
           /^(\d+)\s*:\s*(\d+)\s+w(\d+)(?:\s*[–—-]\s*(\d+))?\s*"([^"]*)"\s*[—–]\s*(.*)$/
         );
         if (m) {
-          const gloss = m[6].trim();
+          // The anchor above has been read off by now, so what is left of the
+          // entry is prose and any span still standing in it is not.
+          const gloss = m[6].trim().replace(SPAN, "");
           // A quoted run inside the gloss is lifted from the referenced verse,
           // so the popup can bold it in the passage it loads.
           const snippet = gloss.match(/[""]([^""]{4,})[""]|"([^"]{4,})"/);
@@ -250,8 +265,8 @@ function parseConnections(md) {
           text,
           source: source.trim(),
           targets,
-          target: rest.replace(/\s*\([^)]*\)\s*$/, "").trim(),
-          gloss: gloss ? gloss[1] : "",
+          target: rest.replace(/\s*\([^)]*\)\s*$/, "").replace(SPAN, "").trim(),
+          gloss: gloss ? gloss[1].replace(SPAN, "") : "",
         };
       });
   }
@@ -269,7 +284,9 @@ function bullets(block) {
   for (const line of block.split("\n")) {
     const m = line.match(/^(\s*)-\s+(.+)$/);
     if (!m) continue;
-    const text = clean(m[2]);
+    // tidy, not clean: the entry's own word span is what pins the connection
+    // to the verse, and it is read back out of this string just below.
+    const text = tidy(m[2]);
     if (!text) continue;
     const under = m[1] && text.match(/^target:\s*(.*)$/i);
     if (!under) { out.push({ text, targets: [] }); continue; }

@@ -2949,12 +2949,17 @@ mark.find-hit[data-current] {
 }
 .sm-mark:hover, .sm-mark[aria-expanded="true"] { color: #a4853d; background: rgba(164,133,61,.13); }
 .sm-mark:focus-visible { outline: 2px solid #3a5a8c; outline-offset: 1px; }
-/* No gutter to stand in on a narrow window: the mark tucks in beside the verse
-   number, where the number column has room enough for it. */
+/* No page margin to stand in on a narrow window, so the mark tucks into the
+   card's own padding instead — a smaller mark, held closer to the verse.
+   It stays out of the flow to do it. The verse is a two-column grid (number,
+   text) and the mark is written before both, so a mark that takes a cell takes
+   the number's: the number is pushed into the text's column and the text onto
+   the next row, where it wraps inside 34px, one word to a line. Anything here
+   that returns it to the flow breaks every marked verse on a phone. */
 @media (max-width: 719.98px) {
-  .sm-gutter { position: static; height: auto; margin: 0; }
+  .sm-gutter { margin-right: 4px; }
   .sm-head { left: 2px; }
-  .sm-mark { width: 24px; height: 24px; }
+  .sm-mark { width: 20px; height: 20px; }
 }
 
 .sm-pop {

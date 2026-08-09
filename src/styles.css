@@ -476,15 +476,77 @@ a[x-apple-data-detectors] {
 .commentary-card { padding: 14px 16px; }
 
 /* The two lens controls, inside the one card. The padding is what keeps the
-   circles clear of the heading's wash: that gradient hangs below the heading
-   to mask whatever scrolls under it, and without the gap it would lie across
-   the top of the buttons instead of behind them. */
-.lens-groups { padding-top: 12px; display: grid; gap: 20px; }
-/* Named the same way the card headings are, one step in. */
-.lens-head {
-  margin: 0 0 10px;
-  font-size: var(--fs-label); line-height: 1.3; letter-spacing: 0.12em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+   first control clear of the heading's wash: that gradient hangs below the
+   heading to mask whatever scrolls under it, and without the gap it would lie
+   across the top of the segments instead of behind them. */
+.lens-groups { padding-top: 12px; display: grid; gap: 14px; }
+
+/* ---- Where to stand -----------------------------------------------------
+   A segmented track: three names of one kind of thing, one of them chosen. The
+   track is the group, so the choice is read as "one of these" rather than as
+   three buttons that happen to sit together. */
+.lens-seg {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 2px; padding: 3px;
+  background: rgba(120,120,128,.13);
+  border-radius: 999px;
+}
+.lens-seg-item {
+  border: 0; background: none; border-radius: 999px;
+  padding: 7px 4px;
+  font-size: 12.5px; font-weight: 600; line-height: 1.2;
+  color: rgba(90,90,98,.85); cursor: pointer; white-space: nowrap;
+  transition: background .18s, color .18s, box-shadow .18s;
+}
+.lens-seg-item:hover { color: #1d1d1f; }
+/* The chosen segment is lifted out of the track rather than tinted in it — a
+   raised face reads as the one in front at a glance, which a shade of grey in a
+   row of greys does not. */
+.lens-seg-item[aria-pressed="true"] {
+  background: #fff;
+  color: #1d1d1f; font-weight: 700;
+  box-shadow: 0 1px 2px rgba(31,45,71,.10), 0 0 0 1px rgba(31,45,71,.04);
+}
+
+/* The sentence under the segments, saying what the chosen one means. Centred
+   under the track and held to two lines' height so choosing moves nothing. */
+.lens-note {
+  margin: 9px 2px 0;
+  min-height: 2.6em;
+  font-size: var(--fs-note); line-height: 1.3;
+  color: #6e6e73; text-align: center;
+}
+
+/* ---- How close to stand -------------------------------------------------
+   Coarse to fine, left to right, under the word that says what choosing does.
+   Wraps rather than scrolls: a row of five short words fits a phone at two
+   lines, and a reader should not have to swipe a control to see its options. */
+.lens-zoom {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 3px;
+}
+.lens-zoom-label {
+  margin-right: 5px;
+  font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
+  font-weight: 700; color: rgba(120,120,128,.75);
+}
+.lens-zoom-item {
+  border: 0; background: none; border-radius: 999px;
+  padding: 5px 11px;
+  font-size: 12.5px; font-weight: 600; line-height: 1.2;
+  color: rgba(90,90,98,.85); cursor: pointer; white-space: nowrap;
+  transition: background .18s, color .18s;
+}
+.lens-zoom-item:hover { background: rgba(164,133,61,.12); color: #6b551f; }
+/* Filled, the way a chosen filter chip is filled everywhere else on the site. */
+.lens-zoom-item[aria-pressed="true"] {
+  background: rgba(64,64,70,.9); color: #fff; font-weight: 700;
+}
+.lens-seg-item:focus-visible, .lens-zoom-item:focus-visible {
+  outline: 2px solid #3a5a8c; outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lens-seg-item, .lens-zoom-item { transition: none; }
 }
 /* One wrapped row of pills needs less room beneath it than a card of prose. */
 [data-card="related"] { padding-bottom: 10px; }
@@ -625,7 +687,7 @@ a[x-apple-data-detectors] {
    this is the label that has to carry a whole panel, not every label on the
    site. */
 @media (max-width: 959.98px) {
-  .commentary-head, .lens-head { font-size: 12.5px; }
+  .commentary-head { font-size: 12.5px; }
 }
 
 .card-chevron {
@@ -654,10 +716,6 @@ a[x-apple-data-detectors] {
 
 /* Hover deepens rather than fades: these are already grey, and lightening them
    reads as disabled instead of active. */
-.lens-row { transition: filter .18s, transform .18s cubic-bezier(.2,.8,.2,1); }
-.lens-row:hover { filter: brightness(.82); transform: translateY(-1px); }
-.lens-row:active { transform: translateY(0); }
-.lens-row:focus-visible { outline: 2px solid #3a5a8c; outline-offset: 3px; border-radius: 8px; }
 
 /* A phrase carrying a cross connection. Colour only — no underline or
    background — because a run's whitespace sits outside it when overlapping
@@ -916,8 +974,6 @@ a[x-apple-data-detectors] {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .lens-row { transition: none !important; filter: none !important; }
-  .lens-row:hover { transform: none !important; }
 }
 
 .tap {
@@ -935,7 +991,7 @@ a[x-apple-data-detectors] {
   from { outline-offset: 9px; outline-color: rgba(58,90,140,0); }
 }
 .tap:focus-visible, .lift:focus-visible, button:focus-visible, input:focus-visible,
-.conn-anchor:focus-visible, .lens-row:focus-visible {
+.conn-anchor:focus-visible {
   animation: focuspop .25s cubic-bezier(.16,1,.3,1);
 }
 
@@ -1041,7 +1097,7 @@ input::placeholder { color: rgba(110,110,115,.65); }
   }
   .tap:hover, .lift:hover, .searchbar:hover, .searchbar:focus-within { transform: none !important; }
   .tap:focus-visible, .lift:focus-visible, button:focus-visible, input:focus-visible,
-  .conn-anchor:focus-visible, .lens-row:focus-visible { animation: none !important; }
+  .conn-anchor:focus-visible { animation: none !important; }
   .commentary-col, .side-extras { scroll-behavior: auto; }
 }
 
@@ -2492,24 +2548,29 @@ mark.find-hit[data-current] {
    close it were doing nothing the grid's own spacing was not already doing. */
 .prophet-panel {
   position: relative;
-  border-top: 2px solid rgba(164,133,61,.7);
-  padding: 22px 2px 0;
+  padding: 0 2px;
 }
 .prophet-panel[data-wide] { grid-column: 1 / -1; }
 /* Set into the rule rather than above it: the line is broken by the words,
    which is what makes it read as a field on a sheet rather than a heading with
-   an underline. The background has to match what the panel sits on, and the
-   card is glass over a gradient — so the gap is cut with a mask instead, which
-   takes whatever is behind it. */
+   an underline.
+   The break is a real gap — the rule is drawn as the two lengths either side of
+   the words, and stops where they begin. Painting a patch of background over an
+   unbroken line instead means matching whatever the panel sits on, and what it
+   sits on is glass over a gradient: the patch reads as a box laid on the line,
+   which is the one thing the break is meant to avoid. */
 .prophet-panel-head {
-  position: absolute; top: 0; left: 50%; transform: translate(-50%, -52%);
-  margin: 0; padding: 0 10px;
+  display: flex; align-items: center; gap: 12px;
+  margin: 0 0 18px;
   font-size: var(--fs-label); letter-spacing: .12em; text-transform: uppercase;
   font-weight: 700; color: #a4853d; white-space: nowrap;
-  backdrop-filter: blur(14px) saturate(150%);
-  -webkit-backdrop-filter: blur(14px) saturate(150%);
-  background: linear-gradient(180deg, rgba(250,250,252,.92), rgba(250,250,252,.86));
-  border-radius: 6px;
+}
+.prophet-panel-head::before,
+.prophet-panel-head::after {
+  content: "";
+  flex: 1 1 auto;
+  height: 2px;
+  background: rgba(164,133,61,.7);
 }
 .prophet-panel-body { font-size: 13.5px; }
 

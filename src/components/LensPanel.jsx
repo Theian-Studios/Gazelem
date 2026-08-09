@@ -1,11 +1,4 @@
-import { ink } from "../theme.js";
 import Card from "./Card.jsx";
-
-// Shared greys: the chosen option reads dark, the rest recede.
-const ON = "rgba(64,64,70,0.88)";
-const OFF = "rgba(120,120,128,0.20)";
-const LABEL_ON = ink;
-const LABEL_OFF = "rgba(120,120,128,0.42)";
 
 export const LEVELS = ["Block", "Chapter", "Verse", "Phrase", "Word"];
 
@@ -19,78 +12,62 @@ export const levelsFor = (book) =>
 
 // Behind = the world that produced the text; Text = the text itself; In Front =
 // the world it lands in. Only the middle one has a depth to vary.
+//
+// Each carries the sentence that says what it means. Three one-word labels in a
+// row are quick to choose between and tell a reader nothing, so the chosen one
+// explains itself underneath — one line, and only for the option in hand.
 export const WORLDS = [
-  { id: "behind", label: "Behind" },
-  { id: "text", label: "Text" },
-  { id: "front", label: "In Front" },
+  { id: "behind", label: "Behind", note: "The world that produced it — history and setting" },
+  { id: "text", label: "Text", note: "The text itself — structure and commentary" },
+  { id: "front", label: "In Front", note: "The world it lands in — application and reflection" },
 ];
 
-// One row of the level stack.
-const ROW = 21;
-const SHAPE_COL = 110;
-
-const labelStyle = (on) => ({
-  fontSize: 13,
-  fontWeight: on ? 700 : 600,
-  lineHeight: `${ROW - 6}px`,
-  color: on ? LABEL_ON : LABEL_OFF,
-  whiteSpace: "nowrap",
-  overflow: "hidden",
-  textOverflow: "ellipsis",
-  textAlign: "left",
-  transition: "color .18s",
-});
-
-// A funnel: each step down the stack narrows, so the shape itself reads as
-// "finer grain" before the labels are even read.
-function LevelFunnel({ value, levels, onChange }) {
-  // Indexed by the level's place in the full stack, not by its place in the
-  // rows being drawn, so dropping Block drops the widest bar and the rest keep
-  // the widths they have everywhere else — a shorter funnel, not a redrawn one.
-  const widths = [104, 90, 74, 56, 34];
+// The three worlds as one control rather than three: they are a choice of where
+// to stand, and a segmented track says "one of these" in a way three separate
+// buttons do not. Layout is the stylesheet's — see .lens-seg.
+function Worlds({ value, onChange }) {
+  const chosen = WORLDS.find((w) => w.id === value);
   return (
-    // Shrunk to the widest row and centred as one block, so the funnel and the
-    // words beside it sit together in the middle of the panel rather than the
-    // funnel alone being centred and the labels running off to the right.
-    <div style={{ width: "fit-content", margin: "0 auto" }}>
-      {levels.map((name) => {
-        const on = value === name;
-        const i = LEVELS.indexOf(name);
-        return (
+    <>
+      <div className="lens-seg" role="group">
+        {WORLDS.map((w) => (
           <button
-            key={name}
-            className="lens-row"
-            onClick={() => onChange(name)}
-            aria-pressed={on}
-            style={{ display: "grid", gridTemplateColumns: `${SHAPE_COL}px max-content`, alignItems: "center", gap: 10, width: "100%", border: 0, background: "none", padding: "3px 0", cursor: "pointer" }}
+            key={w.id}
+            type="button"
+            className="lens-seg-item"
+            onClick={() => onChange(w.id)}
+            aria-pressed={w.id === value}
           >
-            <span aria-hidden style={{ display: "block", justifySelf: "center", width: widths[i], height: 15, borderRadius: 999, background: on ? ON : OFF, transition: "background .18s" }} />
-            <span style={labelStyle(on)}>{name}</span>
+            {w.label}
           </button>
-        );
-      })}
-    </div>
+        ))}
+      </div>
+      {/* Reserved whether or not it is filled, so choosing a world moves
+          nothing below it. */}
+      <p className="lens-note">{chosen?.note}</p>
+    </>
   );
 }
 
-function Worlds({ value, onChange }) {
+// The depths as a row, coarse to fine, named by what the choice does: zoom.
+// A row rather than the funnel that stood here before — the funnel drew the
+// narrowing well, but it cost a column of the panel to say what the order of
+// five words already says, and on a phone that column is the panel.
+function Levels({ value, levels, onChange }) {
   return (
-    <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 8 }}>
-      {WORLDS.map((w) => {
-        const on = value === w.id;
-        return (
-          <button
-            key={w.id}
-            className="lens-row"
-            onClick={() => onChange(w.id)}
-            aria-pressed={on}
-            style={{ border: 0, background: "none", padding: 0, cursor: "pointer", display: "flex", flexDirection: "column", alignItems: "center", gap: 7 }}
-          >
-            <span aria-hidden style={{ width: 50, height: 50, borderRadius: "50%", background: on ? ON : OFF, transition: "background .18s" }} />
-            <span style={{ ...labelStyle(on), fontSize: 12.5, textAlign: "center" }}>{w.label}</span>
-          </button>
-        );
-      })}
+    <div className="lens-zoom">
+      <span className="lens-zoom-label" aria-hidden>Zoom</span>
+      {levels.map((name) => (
+        <button
+          key={name}
+          type="button"
+          className="lens-zoom-item"
+          onClick={() => onChange(name)}
+          aria-pressed={value === name}
+        >
+          {name}
+        </button>
+      ))}
     </div>
   );
 }
@@ -105,21 +82,18 @@ export function LensControls({ lens, setLens, book, chapter, collapsed, onToggle
   return (
     <Card id="lenses" title="Analysis" label="Analysis lenses"
       collapsed={!!collapsed?.has("lenses")} onToggle={onToggle}>
+      {/* No headings over either control: the segments are three names of the
+          same kind of thing and read as a choice on sight, and the row below
+          them is labelled by the word that says what it does. A heading over
+          each would be two more lines of small capitals saying what the
+          controls already say. */}
       <div className="lens-groups">
-        {/* Named in one word each: the card they sit in already says what kind
-            of thing is being chosen. */}
-        <section>
-          <h4 className="lens-head">Type</h4>
-          <Worlds value={lens.world} onChange={(world) => setLens({ ...lens, world })} />
-        </section>
+        <Worlds value={lens.world} onChange={(world) => setLens({ ...lens, world })} />
 
         {/* Depth describes how to read the text itself; it has no meaning for
             the world behind it or the world in front of it. */}
         {lens.world === "text" && (
-          <section>
-            <h4 className="lens-head">Level</h4>
-            <LevelFunnel value={lens.level} levels={levels} onChange={(level) => setLens({ ...lens, level })} />
-          </section>
+          <Levels value={lens.level} levels={levels} onChange={(level) => setLens({ ...lens, level })} />
         )}
       </div>
     </Card>

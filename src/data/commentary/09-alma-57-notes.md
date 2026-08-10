@@ -23,7 +23,7 @@ initial: true
   in the Book of Mormon), `[SW]` (the wider standard works).
 - Each note is anchored with `(v. N)` / `(vv. N–M)`. Word/phrase headings quote
   the exact string as it appears in the chapter text.
-- Two hermeneutical sections frame the depth sections: `## WORLD BEHIND THE
+- Two framing sections surround the depth sections: `## WORLD BEHIND THE
   TEXT` (historical, geographic, political, and cultural context) before them,
   and `## WORLD IN FRONT OF THE TEXT` (applications and reflection questions)
   after them. Reflection questions carry verse anchors like every other note.
@@ -40,7 +40,7 @@ initial: true
 Chapter context: Alma 57 is the central battle panel of Helaman's epistle to
 Moroni (Alma 56–58): the fall of Antiparah, the siege of Cumeni, a prisoner
 crisis, the second miracle of the two thousand sixty, and Gid's embedded
-report. It is a quartermaster's ledger that keeps breaking into doxology.
+report. It is a quartermaster's ledger that keeps breaking into praise.
 
 ## CHAPTER METADATA
 
@@ -68,11 +68,14 @@ Faith, Obedience, Preservation, Deliverance, Leadership
    narrated in the same breath.
 2. **The correspondent-enemy.** The chapter opens on
    57:1 w10–13 "an epistle from Ammoron" — the war itself is conducted partly by
-   letter, and Ammoron (Amalickiah's brother and avenger) negotiates from
-   strength: he holds Nephite prisoners including women and children (56:12
-   background), while Helaman holds only soldiers.
+   letter, and Ammoron (Amalickiah's brother and avenger) opens with a
+   lopsided offer — a city for prisoners. On this front the Lamanites hold
+   only captured chief captains (56:12), which is why Helaman can insist
+   on man-for-man exchange; the women-and-children asymmetry that
+   constrains Moroni's negotiations (54:3) does not exist here.
 3. **Supply-line war.** The front runs on provisions: eight mentions in this
-   chapter alone. Cumeni falls not to assault but to interdiction —
+   chapter alone. Cumeni falls not to assault but to the cutting of its supply
+   line —
    57:8 w36–46 "a little before they were to receive a supply of provisions" —
    and the Nephite crisis of vv. 13–16 is provision arithmetic as much as
    ethics.
@@ -86,20 +89,6 @@ Faith, Obedience, Preservation, Deliverance, Leadership
 
 ## DEPTH: WORD LEVEL
 
-### "exactness" (v. 21)
-The only occurrence of the word in the Book of Mormon:
-57:21 w10–15 "every word of command with exactness". Precision as a spiritual
-category — the sentence binds it directly to outcome
-(57:21 w19–27 "according to their faith it was done unto them"), making
-obedience-quality, not battlefield skill, the reported variable behind the
-casualty figures of vv. 25–26.
-
-### "undaunted" (v. 20)
-Also unique in the volume — 57:20 w23–25 "firm and undaunted" — and spent on the
-moment the rest of the army buckles: 57:20 w9–12 "about to give way". The word
-does its work by contrast; courage here is defined as the property of the
-line that does not move when the adjacent line does.
-
 ### "succor" (v. 12)
 Military relief — the besieged 57:12 w16–22 "began to lose all hopes of succor".
 The same word carries the volume's most tender doctrinal load elsewhere
@@ -108,13 +97,6 @@ soon weaponize it in his accusation that the government withheld succor
 (60:5–8). One term, three registers: siege logistics, atonement, and
 political indictment.
 
-### "check" (v. 18)
-To halt an advance: the escort detachment
-57:18 w15–21 "did arrive in season to check them". An older military sense —
-stopping power, not inspection — worth glossing because the modern reader
-hears the weaker meaning and loses the verse's picture of a charge blunted
-at the last usable moment.
-
 ### "in season" (vv. 17–18)
 In time, at the usable moment — twice in two verses, the chapter's only
 uses and the phrase's only occurrences in this form in the volume:
@@ -122,7 +104,34 @@ uses and the phrase's only occurrences in this form in the volume:
 Helaman's providence-vocabulary is temporal: deliverance in this chapter
 is a matter of arrival times.
 
+### "check" (v. 18)
+To halt an advance: the escort detachment
+57:18 w15–21 "did arrive in season to check them". An older military sense —
+stopping power, not inspection — worth glossing because the modern reader
+hears the weaker meaning and loses the verse's picture of a charge blunted
+at the last usable moment.
+
+### "undaunted" (v. 20)
+Also unique in the volume — 57:20 w23–25 "firm and undaunted" — and spent on the
+moment the rest of the army buckles: 57:20 w9–12 "about to give way". The word
+does its work by contrast; courage here is defined as the property of the
+line that does not move when the adjacent line does.
+
+### "exactness" (v. 21)
+The only occurrence of the word in the Book of Mormon:
+57:21 w10–15 "every word of command with exactness". Precision as a spiritual
+category — the sentence binds it directly to outcome
+(57:21 w19–27 "according to their faith it was done unto them"), making
+obedience-quality, not battlefield skill, the reported variable behind the
+casualty figures of vv. 25–26.
+
 ## DEPTH: PHRASE LEVEL
+
+### "thus ended the twenty and eighth year" (v. 5)
+The war chapters' year-marker formula, closing the Antiparah episode with
+an accountant's stroke. Its placement is expressive: the year "ends" after
+a city falls without a battle — the formula lets Helaman file a bloodless
+victory as a complete fiscal period before opening the costly one.
 
 ### "sleep upon our swords" / "run upon our swords" (vv. 9, 33)
 The chapter's grimmest pairing, and both phrases are unique to it. The
@@ -133,14 +142,12 @@ die. The two idioms, thirty verses apart, quietly frame the whole
 chapter's moral physics: the sword is constant; what changes is how men
 approach it.
 
-### "not one soul of them who did perish" (v. 25)
-The second sounding of the epistle's miracle formula — the first is
-56:56's not one soul fallen. Here the formula is made harder: two hundred
-faint from blood loss, 57:25 w59–71 "neither was there one soul among them who had not received many wounds",
-and still none dies. The repetition across the two battles converts an
-event into a pattern, which is exactly the claim v. 26 then has to handle
-(see chapter level). In the final sequential build this entry backrefs the
-formula's first attestation.
+### "we, instead of being Lamanites, were Nephites" (v. 10)
+The driest sentence in the war chapters: the provision convoy walks into
+the wrong army, and Helaman reports the ambush as a fact of identity. The
+understatement is characteristic of the epistle's register — compare the
+one-line dispatch of Antiparah's fall (v. 4) — and worth marking as
+Helaman's narrative signature: irony without commentary.
 
 ### "every word of command with exactness... according to their faith it was done unto them" (v. 21)
 Military obedience narrated in the Gospels' healing grammar — done unto
@@ -149,18 +156,14 @@ vocabularies, then grounds both in catechism:
 57:21 w40–44 "their mothers had taught them". Command-following is presented as
 an act of faith with the same mechanics as being healed.
 
-### "thus ended the twenty and eighth year" (v. 5)
-The war chapters' year-marker formula, closing the Antiparah episode with
-an accountant's stroke. Its placement is expressive: the year "ends" after
-a city falls without a battle — the formula lets Helaman file a bloodless
-victory as a complete fiscal period before opening the costly one.
-
-### "we, instead of being Lamanites, were Nephites" (v. 10)
-The driest sentence in the war chapters: the provision convoy walks into
-the wrong army, and Helaman reports the ambush as a fact of identity. The
-understatement is characteristic of the epistle's register — compare the
-one-line dispatch of Antiparah's fall (v. 4) — and worth marking as
-Helaman's narrative signature: irony without commentary.
+### "not one soul of them who did perish" (v. 25)
+The second sounding of the epistle's miracle formula — the first is
+56:56's not one soul fallen. Here the formula is made harder: two hundred
+faint from blood loss, 57:25 w59–71 "neither was there one soul among them who had not received many wounds",
+and still none dies. The repetition across the two battles converts an
+event into a pattern, which is exactly the claim v. 26 then has to handle
+(see chapter level). In the final sequential build this entry backrefs the
+formula's first sounding.
 
 ## DEPTH: VERSE LEVEL
 
@@ -171,7 +174,7 @@ refused. The city then falls without a sword drawn: its people
 57:4 w11–15 "fled to their other cities". A whole campaign objective achieved by
 negotiation posture and pressure, closed by the year-marker.
 
-**(vv. 6–12)** Cumeni by interdiction. Reinforced —
+**(vv. 6–12)** Cumeni by supply-cutting. Reinforced —
 57:6 w44–46 "six thousand men" plus the sixty — Helaman besieges rather than
 storms: surround by night (v. 8), absorb the sallies
 (57:9 w53–56 "their blood was spilt"), intercept the supply convoy (v. 10), and
@@ -193,9 +196,11 @@ prisoners is immediately followed by the salvation of the whole force.
 **(vv. 19–23)** The sixty-plus-two-thousand hold. The counterattack breaks
 the main line but not 57:19 w3–10 "my little band of two thousand and sixty",
 who 57:19 w11–13 "fought most desperately" and
-57:19 w22–30 "did administer death unto all those who opposed them" — the
-volume's only use of "administer" for killing, an inversion of its
-ministering sense elsewhere. Verse 21 supplies the explanation Helaman
+57:19 w22–30 "did administer death unto all those who opposed them" — the only
+place in the volume where "administer" takes death itself as its object,
+an inversion of the word's ministering register; its nearest war-chapter
+kin are the poison administered by degrees to Lehonti (47:18) and the
+drugged wine of the prison stratagem (55:30–32). Verse 21 supplies the explanation Helaman
 believes (exactness, faith, mothers), v. 22 assigns the victory jointly to
 the sons and the returned escort, and v. 23 counts the cost:
 57:23 w16–20 "we had suffered great loss".
@@ -216,7 +221,7 @@ warning, the prisoners' rising
 (57:32 w20–27 "they did rise up in rebellion against us"), the fatal charge
 onto Nephite swords, the survivors' escape, and the escort's forced march
 back 57:34 w28–35 "in time that we might assist our brethren". Gid ends in
-doxology — 57:35 w15–21 "blessed is the name of our God" — and Helaman receives
+praise — 57:35 w15–21 "blessed is the name of our God" — and Helaman receives
 the report with 57:36 w20–21 "exceeding joy", extending the hope of rest even
 to the slain: 57:36 w51–57 "entered into the rest of their God".
 
@@ -228,11 +233,11 @@ to the slain: 57:36 w51–57 "entered into the rest of their God".
    structure in the war chapters. The seam markers are explicit
    (57:28 w34–38 "we did inquire of Gid"; 57:36 w7–15 "when I, Helaman, had heard these words of Gid"),
    and the innermost voice, not the letter-writer, delivers the chapter's
-   doxology.
-2. **Ledger and doxology.** The chapter's method is quartermaster's prose —
+   closing praise.
+2. **Ledger and praise.** The chapter's method is quartermaster's prose —
    provisions, numbers, arrival times — punctuated by ascriptions to God
    (vv. 25–26, 35–36). Helaman never treats the two registers as rivals:
-   the interdiction strategy and the miraculous preservation sit in the
+   the supply-cutting strategy and the miraculous preservation sit in the
    same paragraph, which is the epistle's implicit theology of agency and
    providence.
 3. **The prisoner problem as moral center.** Verses 13–16 show
@@ -285,8 +290,8 @@ enthusiasm, not talent. The transferable discipline is doing the assigned
 thing precisely, especially where approximation would go unnoticed, and
 treating that precision as an expression of trust rather than of fear.
 
-**The ledger and the doxology (vv. 6–12, 35–36).** Helaman plans supply
-interdictions and credits God for outcomes without embarrassment in
+**The ledger and the praise (vv. 6–12, 35–36).** Helaman plans supply
+cutoffs and credits God for outcomes without embarrassment in
 either direction. The application is refusing the false choice between
 competence and faith: do the logistics; give the credit.
 
@@ -322,16 +327,16 @@ entry in the target chapter's own index; `pending` means that chapter's
 file has not been written yet.
 
 ### Scope: [BOOK]
-- [al57-001] Alma 54:1–3, 20 → 57:2 w45–50 "deliver up our prisoners on exchange" — the prisoner-exchange negotiation
+- [al57-001] Alma 54:20 → 57:2 w45–50 "deliver up our prisoners on exchange" — the prisoner-exchange negotiation
   - target: Alma 54:20 w2–7 "I will grant to exchange prisoners"
   - mirror: pending
-- [al57-002] Alma 56:47–48 → 57:21 w40–44 "their mothers had taught them" — the mothers' teaching
+- [al57-002] Alma 56:48 → 57:21 w40–44 "their mothers had taught them" — the mothers' teaching
   - target: Alma 56:48 w12–19 "We do not doubt our mothers knew it"
   - mirror: pending
-- [al57-003] Alma 56:55–56 → 57:25 w49–56 "not one soul of them who did perish" — first sounding of the not-one-soul formula
+- [al57-003] Alma 56:56 → 57:25 w49–56 "not one soul of them who did perish" — first sounding of the not-one-soul formula
   - target: Alma 56:56 w7–17 "there had not one soul of them fallen to the earth"
   - mirror: pending
-- [al57-004] Alma 53:20–21 → 57:21 w10–15 "every word of command with exactness" — the character catalog behind exactness
+- [al57-004] Alma 53:21 → 57:21 w10–15 "every word of command with exactness" — the character catalog behind exactness
   - target: Alma 53:21 w10–19 "they had been taught to keep the commandments of God"
   - mirror: pending
 - [al57-005] Alma 36:3 → 57:27 w22–29 "they do put their trust in God continually" — trust in God, counsel to observation
@@ -341,7 +346,7 @@ file has not been written yet.
   - target: Alma 58:7 w7–13 "we did wait in these difficult circumstances"
   - target: Alma 58:11 w12–21 "did visit us with assurances that he would deliver us"
   - mirror: pending
-- [al57-007] Alma 60:5–8 → 57:12 w18–22 "lose all hopes of succor" — succor as accusation
+- [al57-007] Alma 60:8 → 57:12 w18–22 "lose all hopes of succor" — succor as accusation
   - target: Alma 60:8 w20–24 "ye might have succored them"
   - mirror: pending
 
@@ -354,10 +359,10 @@ file has not been written yet.
   - mirror: pending
 
 ### Scope: [SW]
-- [al57-010] Ps. 33:16–19 → 57:26 w3–6 "their preservation was astonishing" — preservation not by numbers
+- [al57-010] Ps. 33:16, 19 → 57:26 w3–6 "their preservation was astonishing" — preservation not by numbers
   - target: Ps. 33:16 w1–11 "There is no king saved by the multitude of an host"
   - target: Ps. 33:19 w1–6 "To deliver their soul from death"
 - [al57-011] Matt. 8:13 → 57:21 w19–27 "according to their faith it was done unto them" — the healing formula's grammar
   - target: Matt. 8:13 w11–20 "as thou hast believed, so be it done unto thee"
-- [al57-012] Neh. 4:17–18 → 57:9 w20–23 "sleep upon our swords" — armed vigilance while working
+- [al57-012] Neh. 4:18 → 57:9 w20–23 "sleep upon our swords" — armed vigilance while working
   - target: Neh. 4:18 w4–15 "every one had his sword girded by his side, and so builded"

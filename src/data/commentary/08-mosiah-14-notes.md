@@ -23,7 +23,7 @@ initial: true
   in the Book of Mormon), `[SW]` (the wider standard works).
 - Each note is anchored with `(v. N)` / `(vv. N–M)`. Word/phrase headings quote
   the exact string as it appears in the chapter text.
-- Two hermeneutical sections frame the depth sections: `## WORLD BEHIND THE
+- Two framing sections surround the depth sections: `## WORLD BEHIND THE
   TEXT` (historical, geographic, political, and cultural context) before them,
   and `## WORLD IN FRONT OF THE TEXT` (applications and reflection questions)
   after them. Reflection questions carry verse anchors like every other note.
@@ -38,9 +38,9 @@ initial: true
   until that chapter's file exists).
 
 Chapter context: Mosiah 14 is Abinadi's unbroken quotation of Isaiah 53,
-delivered mid-trial before King Noah's court. It is the only chapter in the
-Book of Mormon that receives an immediate verse-by-verse exposition in the
-chapter that follows.
+delivered mid-trial before King Noah's court. No other chapter in the
+Book of Mormon is expounded as immediately or as closely by the chapter
+that follows it.
 
 ## CHAPTER METADATA
 
@@ -126,6 +126,42 @@ bearing word of the whole sermon.
 
 ## DEPTH: PHRASE LEVEL
 
+### "Yea, even doth not Isaiah say:" (v. 1)
+Abinadi's splice — the only non-Isaiah words in the chapter. Framing the
+quotation as a question turns scripture into cross-examination: the priests
+asked what Isaiah 52 *meaneth*; Abinadi answers by asking whether they have
+read the next column. The formula also names the source outright, which is
+rare in Book of Mormon quotation practice and marks this as citation, not
+allusion.
+
+### Modernized verb forms: "has borne... opened... bore" (vv. 4, 7, 12)
+14:4 w1–6 "Surely he has borne our griefs" (KJV "hath"),
+14:7 w32–37 "so he opened not his mouth" at the verse's second instance (KJV
+"openeth"), and 14:12 w37–40 "he bore the sins" (KJV "bare") — three register
+updates toward modern forms. Yet the same chapter retains "hath" three
+times (14:2 w20–25 "he hath no form nor comeliness", v. 6, v. 10). The
+inconsistency is the observation: the text is not systematically modernized,
+which fits occasional translation smoothing better than a distinct source
+text.
+
+### "with his stripes we are healed" (v. 5)
+The line later scripture cannot leave alone: Peter quotes it of Christ's
+body on the tree, and Alma's Zarahemla sermon language of being "healed"
+belongs to its family. Within this chapter it completes the exchange
+structure of verse 5 — wounded / our transgressions, bruised / our
+iniquities, chastisement / our peace, stripes / our healing — four clauses,
+each trading his injury for our benefit.
+
+### The pluralizing pattern: "iniquities... transgressions... sins" (vv. 6, 8, 12)
+Three places where the King James singular becomes plural:
+14:6 w24–28 "the iniquities of us all" (KJV "iniquity"),
+14:8 w28–32 "the transgressions of my people" (KJV "transgression"), and
+14:12 w39–42 "the sins of many" (KJV "sin"). The consistent direction of the
+change matters more than any single instance: guilt is counted, not
+abstract — a ledger of acts laid on the servant rather than a general
+condition. The exposition's insistence that he bears *their* iniquities
+individually (15:9, 12) reads like a sermon on the plurals.
+
 ### "he had done no evil" (v. 9)
 The chapter's one substantive lexical variant from the King James text,
 which reads "he had done no violence." "Evil" widens the claim from a class
@@ -138,45 +174,9 @@ substitute.
 
 ### "he shall see the travail of his soul" (v. 11)
 Where the King James text reads "he shall see *of* the travail," this text
-drops the partitive "of." The smallest variant in the chapter carries a real
-shift: the servant does not taste a portion of what his suffering produced —
-he sees the whole of it. Satisfaction is total, not representative.
-
-### The pluralizing pattern: "iniquities... transgressions... sins" (vv. 6, 8, 12)
-Three places where the King James singular becomes plural:
-14:6 w24–28 "the iniquities of us all" (KJV "iniquity"),
-14:8 w28–32 "the transgressions of my people" (KJV "transgression"), and
-14:12 w39–42 "the sins of many" (KJV "sin"). The consistent direction of the
-change matters more than any single instance: guilt is counted, not
-abstract — a ledger of acts laid on the servant rather than a general
-condition. The exposition's insistence that he bears *their* iniquities
-individually (15:9, 12) reads like a sermon on the plurals.
-
-### Modernized verb forms: "has borne... opened... bore" (vv. 4, 7, 12)
-14:4 w1–6 "Surely he has borne our griefs" (KJV "hath"),
-14:7 w32–37 "so he opened not his mouth" at the verse's second instance (KJV
-"openeth"), and 14:12 w37–40 "he bore the sins" (KJV "bare") — three register
-updates toward modern forms. Yet the same chapter retains "hath" three
-times (14:2 w20–25 "he hath no form nor comeliness", v. 6, v. 10). The
-inconsistency is the observation: the text is not systematically modernized,
-which fits occasional translation smoothing better than a distinct source
-text.
-
-### "Yea, even doth not Isaiah say:" (v. 1)
-Abinadi's splice — the only non-Isaiah words in the chapter. Framing the
-quotation as a question turns scripture into cross-examination: the priests
-asked what Isaiah 52 *meaneth*; Abinadi answers by asking whether they have
-read the next column. The formula also names the source outright, which is
-rare in Book of Mormon quotation practice and marks this as citation, not
-allusion.
-
-### "with his stripes we are healed" (v. 5)
-The line later scripture cannot leave alone: Peter quotes it of Christ's
-body on the tree, and Alma's Zarahemla sermon language of being "healed"
-belongs to its family. Within this chapter it completes the exchange
-structure of verse 5 — wounded / our transgressions, bruised / our
-iniquities, chastisement / our peace, stripes / our healing — four clauses,
-each trading his injury for our benefit.
+drops the "of." The smallest variant in the chapter carries a real shift:
+with the "of," the servant tastes a portion of what his suffering
+produced; without it, he sees the whole of it. Satisfaction is total, not representative.
 
 ## DEPTH: VERSE LEVEL
 
@@ -236,7 +236,7 @@ paradoxical triumph: a portion 14:12 w8–10 "with the great" won by being
    beautiful feet of the peace-publisher (12:21); Abinadi answers with the
    un-beautiful publisher of peace — no form, no comeliness, no beauty —
    whose 14:5 w15–18 "chastisement of our peace" redefines the word the priests
-   quoted. The two passages sit four columns apart on the same scroll; the
+   quoted. Isaiah 53 continues directly from the passage they chose; the
    whole trial turns on who has read the scroll further.
 3. **Structure:** the poem's pronoun architecture does the theological work —
    a "we" that misjudges (vv. 2–6), a "he" who absorbs (vv. 4–9), and an
@@ -255,16 +255,16 @@ paradoxical triumph: a portion 14:12 w8–10 "with the great" won by being
    chapter is the pivot from confrontation to doctrine: everything after it
    is commentary on it, and the only chapter of the unit with no narrative
    motion at all.
-2. **The only chapter with an immediate commentary.** Mosiah 15 re-asks this
+2. **The chapter with the most immediate commentary.** Mosiah 15 re-asks this
    chapter's question — "who shall declare his generation?" becomes
    Mosiah 15:10 w39–43 "who shall be his seed" — and answers it with
-   the prophets and believers as the servant's posterity. No other Book of
-   Mormon chapter is exegeted verse-by-verse by the chapter that follows it.
+   the prophets and believers as the servant's posterity — an exposition
+   that tracks this chapter's own wording phrase by phrase.
 3. **Witness through-line.** Abinadi will enact the text he reads: put to
    death without cause, having Mosiah 17:20 w32–40 "sealed the truth of his words by his death".
    The first convert of that death, Alma, becomes the living answer to the
    generation question — seed produced by the witness's offering.
-4. **Benjamin's anticipation.** The suffering-Messiah physiology of this
+4. **Benjamin's anticipation.** The suffering Messiah's physical anguish in this
    poem was already preached in Zarahemla — blood from every pore, anguish
    for the wickedness of his people (Mosiah 3:7) — so within the book of
    Mosiah the Isaiah text lands as confirmation of an angel's words the
@@ -324,31 +324,31 @@ entry in the target chapter's own index; `pending` means that chapter's
 file has not been written yet.
 
 ### Scope: [BOOK]
-- [mos14-001] Mosiah 12:20–24 → 14:1 w3–6 "doth not Isaiah say" — the Isaiah 52 proof-text answered
+- [mos14-001] Mosiah 12:21 → 14:1 w3–6 "doth not Isaiah say" — the priests' Isaiah 52 citation
   - target: Mosiah 12:21 w1–5 "How beautiful upon the mountains"
   - mirror: pending
-- [mos14-002] Mosiah 13:33–35 → 14:2 w1–7 "For he shall grow up before him" — God himself coming down
+- [mos14-002] Mosiah 13:34 → 14:2 w1–7 "For he shall grow up before him" — God himself coming down
   - target: Mosiah 13:34 w6–15 "God himself should come down among the children of men"
   - mirror: pending
-- [mos14-003] Mosiah 15:10–13 → 14:8 w10–14 "who shall declare his generation" — the generation question answered
+- [mos14-003] Mosiah 15:10 → 14:8 w10–14 "who shall declare his generation" — the generation question answered
   - target: Mosiah 15:10 w39–43 "who shall be his seed"
   - target: Mosiah 15:10 w19–27 "his soul has been made an offering for sin"
   - mirror: pending
-- [mos14-004] Mosiah 15:8–9 → 14:12 w44–48 "made intercession for the transgressors" — intercession given to the Son
+- [mos14-004] Mosiah 15:8 → 14:12 w44–48 "made intercession for the transgressors" — intercession given to the Son
   - target: Mosiah 15:8 w18–26 "power to make intercession for the children of men"
   - mirror: pending
 - [mos14-005] Mosiah 17:20 → 14:8 w18–26 "cut off out of the land of the living" — the reader enacts the text
   - target: Mosiah 17:20 w32–40 "sealed the truth of his words by his death"
   - mirror: pending
-- [mos14-006] Mosiah 3:7 → 14:4 w1–6 "Surely he has borne our griefs" — the suffering physiology, preached earlier
+- [mos14-006] Mosiah 3:7 → 14:4 w1–6 "Surely he has borne our griefs" — the suffering body, preached earlier
   - target: Mosiah 3:7 w28–32 "blood cometh from every pore"
   - mirror: pending
 
 ### Scope: [BOM]
-- [mos14-007] Alma 7:11–13 → 14:4 w7–10 "and carried our sorrows" — borne griefs expanded
+- [mos14-007] Alma 7:11 → 14:4 w7–10 "and carried our sorrows" — borne griefs expanded
   - target: Alma 7:11 w6–14 "suffering pains and afflictions and temptations of every kind"
   - mirror: pending
-- [mos14-008] Alma 34:8–14 → 14:10 w19–24 "his soul an offering for sin" — offering for sin as the law's meaning
+- [mos14-008] Alma 34:14 → 14:10 w19–24 "his soul an offering for sin" — offering for sin as the law's meaning
   - target: Alma 34:14 w16–19 "great and last sacrifice"
   - mirror: al34-066
 - [mos14-009] 1 Ne. 19:9 → 14:3 w1–7 "He is despised and rejected of men" — despised and rejected, forecast
@@ -356,13 +356,13 @@ file has not been written yet.
   - mirror: pending
 
 ### Scope: [SW]
-- [mos14-010] Isa. 53:1–12 → 14:1 w7–11 "Who hath believed our report" — the source block and its variants
+- [mos14-010] Isa. 53:1, 9, 11 → 14:1 w7–11 "Who hath believed our report" — the source block and its variants
   - target: Isa. 53:1 w1–5 "Who hath believed our report"
   - target: Isa. 53:9 w17–21 "he had done no violence"
   - target: Isa. 53:11 w1–9 "He shall see of the travail of his soul"
 - [mos14-011] Matt. 8:17 → 14:4 w4–6 "borne our griefs" — borne griefs read as healing
   - target: Matt. 8:17 w14–21 "Himself took our infirmities, and bare our sicknesses"
-- [mos14-012] Acts 8:32–35 → 14:7 w17–22 "as a lamb to the slaughter" — the eunuch's passage
+- [mos14-012] Acts 8:32, 35 → 14:7 w17–22 "as a lamb to the slaughter" — the eunuch's passage
   - target: Acts 8:32 w11–19 "He was led as a sheep to the slaughter"
   - target: Acts 8:35 w7–16 "began at the same scripture, and preached unto him Jesus"
 - [mos14-013] Luke 22:37 → 14:12 w32–35 "numbered with the transgressors" — self-applied at the arrest

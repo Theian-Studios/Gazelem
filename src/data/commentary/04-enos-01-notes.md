@@ -26,7 +26,7 @@ initial: true
   and `[SW]` appear.
 - Each note is anchored with `(v. N)` / `(vv. N–M)`. Word/phrase headings quote
   the exact string as it appears in the chapter text.
-- Two hermeneutical sections frame the depth sections: `## WORLD BEHIND THE
+- Two framing sections surround the depth sections: `## WORLD BEHIND THE
   TEXT` (historical, geographic, political, and cultural context) before them,
   and `## WORLD IN FRONT OF THE TEXT` (applications and reflection questions)
   after them. Reflection questions carry verse anchors like every other note.
@@ -69,10 +69,10 @@ Prayer, Forgiveness, Faith, Intercession, Records, Covenant
    credits his father's teaching — 1:1 w18–23 "he taught me in his language" —
    the same literate inheritance Nephi credited to Lehi, now one generation
    further from Jerusalem.
-2. **A hardened frontier.** The Nephite–Lamanite split is now two centuries
-   old and militarized: Enos reports wars in his days (v. 24) and describes
+2. **A hardened frontier.** The Nephite–Lamanite split is now well over a
+   century old and militarized: Enos reports wars in his days (v. 24) and describes
    a Lamanite society organized around hunting and raiding (v. 20). His
-   ethnography is a hostile witness's portrait and reads as such — the
+   picture of Lamanite life is a hostile witness's portrait and reads as such — the
    note on vv. 19–24 treats its function, not just its content.
 3. **Prophets in plural.** 1:22 w4–8 "exceedingly many prophets among us"
    implies an institutional religious culture beyond the plate-keeping
@@ -105,6 +105,13 @@ sequence is appetite, then prayer — not duty, then feeling. That his body
 was in the forest to feed on game while his soul hungered for something
 else is the verse's quiet irony.
 
+### "swept away" (v. 6)
+1:6 w11–15 "my guilt was swept away" — not pardoned, not covered: removed like
+debris. The verb makes forgiveness an event with a before and after rather
+than a standing arrangement, which is why v. 7's question ("how is it
+done?") follows the experience instead of preceding it. The only other
+Book of Mormon use of the phrase is Helaman 11:10, in a different sense.
+
 ### "strugglings / struggling" (vv. 10, 11, 14)
 The word tracks the chapter's widening arc: 1:10 w6–9 "struggling in the spirit"
 for the Nephites, 1:11 w24–26 "many long strugglings" for the Lamanites, and
@@ -113,36 +120,15 @@ becomes missionary labor and fails. Outside this chapter the noun appears
 only once more in the volume (Mosiah 7:18). The progression from private
 wrestle to public struggle is the chapter's vocabulary doing its structure.
 
-### "swept away" (v. 6)
-1:6 w11–15 "my guilt was swept away" — not pardoned, not covered: removed like
-debris. The verb makes forgiveness an event with a before and after rather
-than a standing arrangement, which is why v. 7's question ("how is it
-done?") follows the experience instead of preceding it. The only other
-Book of Mormon use of the phrase is Helaman 11:10, in a different sense.
-
 ### "cimeter" (v. 20)
 First occurrence in the Book of Mormon of its standard weapon-triad term —
 1:20 w86–94 "the bow, and in the cimeter, and the ax". The word (a curved
 blade; the spelling is an older English form) recurs ten more times in
-the volume, always in Lamanite or battle contexts. This first attestation
-sits inside an ethnographic list, not a battle scene: the weapon defines a
+the volume, always in Lamanite or battle contexts. This first appearance
+sits inside a portrait of daily life, not a battle scene: the weapon defines a
 way of life before it defines any war.
 
 ## DEPTH: PHRASE LEVEL
-
-### "sunk deep into my heart" (v. 3)
-Unique in the volume. The subject is 1:3 w11–20 "the words which I had often heard my father speak" —
-often heard, meaning long inert. The phrase locates conversion at the
-moment stored words change depth, and the agent is grammatically the words
-themselves, not Enos: preparation his father made years earlier detonates
-on a hunting trip.
-
-### "the voice of the Lord came into my mind" (v. 10)
-Unique phrasing in the volume, and deliberately corrective: the first
-answer was 1:5 w2–7 "there came a voice unto me", the second comes
-1:10 w16–19 "came into my mind" — the channel has moved inward, and Enos marks
-the difference himself ("again"). Revelation is being re-described
-mid-chapter as something other than audible sound.
 
 ### "nurture and admonition of the Lord" (v. 1)
 Word-for-word the phrase of Ephesians 6:4, where it is Paul's charge to
@@ -151,6 +137,13 @@ Mormon text does not mark it as a quotation; it reads as the translation
 reaching for the English Bible's fixed phrase for godly child-rearing. A
 note for readers tracking translation register rather than source texts.
 
+### "sunk deep into my heart" (v. 3)
+Unique in the volume. The subject is 1:3 w11–20 "the words which I had often heard my father speak" —
+often heard, meaning long unfelt. The phrase locates conversion at the
+moment stored words change depth, and the agent is grammatically the words
+themselves, not Enos: preparation his father made years earlier detonates
+on a hunting trip.
+
 ### "thy faith hath made thee whole" (v. 8)
 The exact healing formula of the Gospels — spoken there to the woman with
 the issue of blood and others, spoken here about faith in a Christ
@@ -158,8 +151,15 @@ the issue of blood and others, spoken here about faith in a Christ
 born for centuries. The formula's tense is the point: made whole, already,
 on the strength of trust in someone known only by a father's words.
 
+### "the voice of the Lord came into my mind" (v. 10)
+Unique phrasing in the volume, and deliberately corrective: the first
+answer was 1:5 w2–7 "there came a voice unto me", the second comes
+1:10 w16–19 "came into my mind" — the channel has moved inward, and Enos marks
+the difference himself ("again"). Revelation is being re-described
+mid-chapter as something other than audible sound.
+
 ### "my mortal shall put on immortality" (v. 27)
-First Book of Mormon attestation of the put-on-immortality clothing image;
+First Book of Mormon occurrence of the put-on-immortality clothing image;
 Abinadi (Mosiah 16:10), Alma (Alma 40:2), and Mormon (Mormon 6:21) will
 reuse it. Its Bible home is Paul's resurrection chapter, and Enos's
 first-person singular — *my* mortal — is the volume's most intimate use of
@@ -209,7 +209,7 @@ reveals Enos is the latest signer of an existing request:
 1:18 w7–15 "Thy fathers have also required of me this thing".
 
 **(vv. 19–24)** Ministry and the two portraits. Enos's account of his
-public years is a sociology of failure: Nephite restoration efforts
+public years is a plain record of failure: Nephite restoration efforts
 1:20 w24–27 "our labors were vain", a Lamanite portrait built from hostility
 (1:20 w28–31 "their hatred was fixed", the hunting inventory, the weapon
 triad), and a Nephite portrait hardly kinder —
@@ -307,21 +307,21 @@ entry in the target chapter's own index; `pending` means that chapter's
 file has not been written yet.
 
 ### Scope: [BOM]
-- [eno01-001] Jacob 7:26–27 → 1:1 w9–17 "knowing my father that he was a just man—for" — the plates handoff, and the close inverted
+- [eno01-001] Jacob 7:26–27 → 1:1 w9–17 "knowing my father that he was a just man—for" — the plates handoff
   - target: Jacob 7:27 w21–23 "Take these plates"
   - target: Jacob 7:26 w59–66 "like as it were unto us a dream"
   - mirror: pending
 - [eno01-002] 1 Ne. 1:1 → 1:1 w18–23 "he taught me in his language" — the colophon pair
   - target: 1 Ne. 1:1 w12–20 "taught somewhat in all the learning of my father"
   - mirror: pending
-- [eno01-003] Omni 1:25 → 1:1 w15–17 "a just man—for" — the just-man bracket
+- [eno01-003] Omni 1:25 → 1:1 w15–17 "a just man—for" — the shared "just man" appraisal
   - target: Omni 1:25 w17–24 "knowing king Benjamin to be a just man"
   - mirror: pending
 - [eno01-004] 2 Ne. 4:24; Alma 8:10 → 1:4 w18–19 "mighty prayer" — prayer at full strength
   - target: 2 Ne. 4:24 w6–10 "waxed bold in mighty prayer"
   - target: Alma 8:10 w8–13 "wrestling with God in mighty prayer"
   - mirror: pending
-- [eno01-005] Mosiah 16:10 → 1:27 w32–37 "my mortal shall put on immortality" — first attestation of the clothing image
+- [eno01-005] Mosiah 16:10 → 1:27 w32–37 "my mortal shall put on immortality" — first occurrence of the clothing image
   - target: Mosiah 16:10 w2–7 "this mortal shall put on immortality"
   - mirror: pending
 - [eno01-006] Morm. 8:16 → 1:13 w59–64 "the power of his holy arm" — the covenant's fulfillment clause
@@ -331,21 +331,21 @@ file has not been written yet.
 ### Scope: [SW]
 - [eno01-007] Eph. 6:4 → 1:1 w28–33 "nurture and admonition of the Lord—and" — the fathers' charge, verbatim
   - target: Eph. 6:4 w15–21 "the nurture and admonition of the Lord"
-- [eno01-008] Gen. 32:24–30 → 1:2 w7–13 "the wrestle which I had before God" — the patriarch's night wrestle
+- [eno01-008] Gen. 32:24 → 1:2 w7–13 "the wrestle which I had before God" — the patriarch's night wrestle
   - target: Gen. 32:24 w7–18 "there wrestled a man with him until the breaking of the day"
 - [eno01-009] Luke 5:20 → 1:5 w10–14 "thy sins are forgiven thee" — forgiveness declared on faith
   - target: Luke 5:20 w11–16 "Man, thy sins are forgiven thee"
 - [eno01-010] Matt. 9:22 → 1:8 w36–41 "thy faith hath made thee whole" — the healing formula, applied to unseen faith
   - target: Matt. 9:22 w18–23 "thy faith hath made thee whole"
-- [eno01-011] John 16:23–24 → 1:15 w25–31 "Whatsoever thing ye shall ask in faith" — the ask-and-receive promise
+- [eno01-011] John 16:23 → 1:15 w25–31 "Whatsoever thing ye shall ask in faith" — the ask-and-receive promise
   - target: John 16:23 w16–29 "Whatsoever ye shall ask the Father in my name, he will give it you"
 - [eno01-012] Matt. 25:34 → 1:27 w57–61 "Come unto me, ye blessed" — the King's welcome
   - target: Matt. 25:34 w12–17 "Come, ye blessed of my Father"
 - [eno01-013] John 14:2 → 1:27 w70–74 "the mansions of my Father" — the Father's-house promise
   - target: John 14:2 w1–7 "In my Father's house are many mansions"
-- [eno01-014] 1 Cor. 15:53–54 → 1:27 w32–37 "my mortal shall put on immortality" — the resurrection exchange
+- [eno01-014] 1 Cor. 15:53 → 1:27 w32–37 "my mortal shall put on immortality" — the resurrection exchange
   - target: 1 Cor. 15:53 w9–14 "this mortal must put on immortality"
-- [eno01-015] D&C 8:2–3 → 1:10 w16–19 "came into my mind" — the mind-and-heart channel
+- [eno01-015] D&C 8:2 → 1:10 w16–19 "came into my mind" — the mind-and-heart channel
   - target: D&C 8:2 "I will tell you in your mind and in your heart, by the Holy Ghost"
-- [eno01-016] D&C 3:19–20 → 1:16 w25–30 "bring them forth unto the Lamanites" — the plates' preservation purpose
+- [eno01-016] D&C 3:20 → 1:16 w25–30 "bring them forth unto the Lamanites" — the plates' preservation purpose
   - target: D&C 3:20 "the Lamanites might come to the knowledge of their fathers"

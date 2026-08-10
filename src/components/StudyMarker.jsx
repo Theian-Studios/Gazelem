@@ -2,6 +2,7 @@ import { useState, useRef, useEffect, useCallback } from "react";
 import { createPortal } from "react-dom";
 import { glassOverlay } from "../theme.js";
 import { versesLabel } from "../lib/mentions.js";
+import { placeCard } from "../lib/place.js";
 
 // A mark in the margin of a chapter the site has written about, and the list of
 // what it has written. The relation already runs one way — on a chart every
@@ -16,16 +17,10 @@ import { versesLabel } from "../lib/mentions.js";
 // same chart — the card names the verses instead, which says the same thing
 // once.
 
-// Its own width, or the screen less a margin on a phone too narrow for it.
-// Opens downward unless there is no room, as the connections' card does.
-function place(el) {
-  const width = Math.min(300, window.innerWidth - 16);
-  const r = el.getBoundingClientRect();
-  const left = Math.min(Math.max(r.left - 8, 8), window.innerWidth - width - 8);
-  const below = r.bottom + 8;
-  const top = below + 200 > window.innerHeight ? Math.max(r.top - 208, 8) : below;
-  return { top, left, width };
-}
+// Its own width, or the screen less a margin on a phone too narrow for it, and
+// as tall as the side it lands on allows — the same placement the connections'
+// card uses, and for the same reason. See lib/place.js.
+const place = (el) => placeCard(el, { width: 300, cap: 0.56 });
 
 function Popup({ anchorEl, pages, onOpen, hold, release, popRef }) {
   const [box, setBox] = useState(() => place(anchorEl));
@@ -42,7 +37,7 @@ function Popup({ anchorEl, pages, onOpen, hold, release, popRef }) {
 
   return createPortal(
     <div ref={popRef} className="sm-pop" onMouseEnter={hold} onMouseLeave={release}
-      style={{ ...glassOverlay, position: "fixed", top: box.top, left: box.left, width: box.width }}>
+      style={{ ...glassOverlay, position: "fixed", top: box.top, bottom: box.bottom, left: box.left, width: box.width, maxHeight: box.maxHeight }}>
       <ul className="sm-pop-list">
         {pages.map((p) => (
           <li key={p.section}>

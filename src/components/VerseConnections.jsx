@@ -2,6 +2,7 @@ import { useState, useRef, useEffect, useCallback } from "react";
 import { createPortal } from "react-dom";
 import { glassOverlay, ink, inkSoft, gold, blue } from "../theme.js";
 import { parseCitations, loadPassage } from "../lib/refs.js";
+import { placeCard } from "../lib/place.js";
 
 // What to mark in the passage a note points at. The note's own `target:` lines
 // quote the wording out of that passage, which is the surest thing to look for;
@@ -86,9 +87,11 @@ function Popup({ anchorEl, connections, hold, release, onOpenRef, popRef }) {
       onMouseEnter={hold}
       onMouseLeave={release}
       style={{
-        ...glassOverlay, position: "fixed", top: box.top, left: box.left, width: box.width,
+        ...glassOverlay, position: "fixed", top: box.top, bottom: box.bottom, left: box.left, width: box.width,
         borderRadius: 14, padding: "12px 14px", zIndex: 70,
-        maxHeight: "58vh", overflowY: "auto", userSelect: "text", cursor: "auto",
+        // The height is the room the placement found, not a share of the
+        // window: see lib/place.js.
+        maxHeight: box.maxHeight, overflowY: "auto", userSelect: "text", cursor: "auto",
       }}
     >
       {connections.map((c, i) => (
@@ -127,15 +130,9 @@ function Popup({ anchorEl, connections, hold, release, onOpenRef, popRef }) {
   );
 }
 
-// Its own width, or the whole screen less a margin on a phone too narrow for it.
-function place(el) {
-  const width = Math.min(330, window.innerWidth - 16);
-  const r = el.getBoundingClientRect();
-  const left = Math.min(Math.max(r.left, 8), window.innerWidth - width - 8);
-  const below = r.bottom + 8;
-  const top = below + 260 > window.innerHeight ? Math.max(r.top - 268, 8) : below;
-  return { top, left, width };
-}
+// Its own width, or the whole screen less a margin on a phone too narrow for
+// it, and as tall as the side it lands on allows.
+const place = (el) => placeCard(el, { width: 330, cap: 0.58 });
 
 // A gold run of verse text that reveals its cross connections on hover.
 export default function ConnectionAnchor({ connections, onOpenRef, children }) {

@@ -65,7 +65,11 @@ export const PANELS = [
   { id: "overview", title: "Overview", side: "left" },
   { id: "timeline", title: "Timeline", side: "left" },
   { id: "related", title: "Related", side: "left" },
-  { id: "notes", title: "Notes", side: "right" },
+  // "Commentary", because that is what the card inside it is called and what
+  // the column it becomes on a wide screen is called. A marker named one thing
+  // that opens a card named another asks the reader to work out that they are
+  // the same panel.
+  { id: "notes", title: "Commentary", side: "right" },
   { id: "connections", title: "Connections", side: "right" },
 ];
 

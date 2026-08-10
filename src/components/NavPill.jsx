@@ -13,8 +13,30 @@ function LibraryIcon() {
   );
 }
 
-// The floating dock: ‹ › page through chapters, and the trail between them
-// climbs the hierarchy — library · volume · book.
+// An open book, for the button that returns the reader to the chapter they
+// were studying — as against the ↩ beside it, which retraces one step.
+function ReadingIcon() {
+  return (
+    <svg width="17" height="14" viewBox="0 0 17 14" aria-hidden focusable="false"
+      fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round">
+      <path d="M8.5 3.1C7.2 1.9 5.4 1.4 3 1.5c-.9 0-1.4.1-1.4.8v8.9c0 .6.4.8 1.1.8 2.4-.1 4.4.3 5.8 1.5 1.4-1.2 3.4-1.6 5.8-1.5.7 0 1.1-.2 1.1-.8V2.3c0-.7-.5-.8-1.4-.8-2.4-.1-4.2.4-5.5 1.6ZM8.5 3.1v9.4" />
+    </svg>
+  );
+}
+
+// The floating dock. One rule holds the whole of it: the trail says where you
+// are, and the two buttons before it say how you got here.
+//
+//   ↩ Alma 32        one step back, named by what it returns to
+//   ▤ 1 Nephi 16     the chapter being studied, however far off it you have gone
+//   ⌂ › BoM › Charts where this page stands
+//
+// Neither button says the bare word "back" — a control that will not name its
+// destination is one the reader has to gamble on — and neither appears where
+// the trail beside it already leads to the same place. See App's `back` and
+// `resume`, which decide that.
+//
+// ‹ › page through the chapters, and stand either side of the trail.
 //
 // Narrow the dock shares its line with the search button, and fades with the
 // markers at the top of the window while the chapter is being read — the two
@@ -23,18 +45,29 @@ function LibraryIcon() {
 // Its layout lives in styles.css rather than here: an inline `display` would
 // outrank the rule that takes the dock away on the wide views where the
 // contents card says all of this and more.
-export default function NavPill({ trail = [], chapter, atStart, atEnd, onPrev, onNext, onBack, search, hidden }) {
+export default function NavPill({ trail = [], chapter, atStart, atEnd, onPrev, onNext, back, resume, search, hidden }) {
   return (
     <nav className="navdock" data-hidden={hidden || undefined}>
       {/* pointer-events is the stylesheet's, not an inline style's: the dock
           fading out has to be able to stop it taking taps, and an inline rule
           would outrank the one that does. */}
-      <div className="navpill" style={{ ...glassPill, display: "flex", alignItems: "center", gap: 4, padding: 6 }}>
-        {/* Only present once a cross reference has been followed. */}
-        {onBack && (
-          <button className="tap" onClick={onBack} aria-label="Back to where you were"
-            style={{ border: 0, background: "rgba(164,133,61,.16)", borderRadius: 999, height: 42, padding: "0 14px", fontSize: 12.5, fontWeight: 600, color: "#8a6f2e", cursor: "pointer", display: "grid", placeItems: "center" }}>
-            ↩ Back
+      {/* How many ways back are in it, which is what a phone's line cannot hold
+          on top of a full trail: the stylesheet reads this and drops the middle
+          of the trail, and at the last width the names as well. */}
+      <div className="navpill" data-ways={(back ? 1 : 0) + (resume ? 1 : 0) || undefined}
+        style={{ ...glassPill, display: "flex", alignItems: "center", gap: 4, padding: 6 }}>
+        {back && (
+          <button className="tap pill-way pill-back" onClick={back.onClick}
+            aria-label={`Back to ${back.label}`} title={`Back to ${back.label}`}>
+            <span aria-hidden className="pill-way-mark">↩</span>
+            <span className="pill-way-name">{back.label}</span>
+          </button>
+        )}
+        {resume && (
+          <button className="tap pill-way pill-resume" onClick={resume.onClick}
+            aria-label={`Back to reading ${resume.label}`} title={`Back to reading ${resume.label}`}>
+            <span aria-hidden className="pill-way-mark"><ReadingIcon /></span>
+            <span className="pill-way-name">{resume.label}</span>
           </button>
         )}
         {chapter && (

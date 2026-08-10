@@ -7,9 +7,12 @@ export default function BookList({ volume, books, sections = [], search, onOpen 
       {search}
       <div className="book-grid">
         {books.map((b, i) => (
-          <button key={b.name} className="tap popin" onClick={() => onOpen(i)}
-            style={{ ...glass, borderRadius: 15, padding: "15px 18px", textAlign: "left", display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: 10, cursor: "pointer", animationDelay: `${Math.min(i * 9, 170)}ms` }}>
-            <span className="serif" style={{ fontSize: 16.5, fontWeight: 500 }}>{b.name}</span>
+          // Everything but the stagger is the stylesheet's: a phone sets these
+          // two to a row, and a rule cannot reach past an inline style to
+          // tighten the padding they are laid out with.
+          <button key={b.name} className="tap popin book-tile" onClick={() => onOpen(i)}
+            style={{ ...glass, animationDelay: `${Math.min(i * 9, 170)}ms` }}>
+            <span className="serif book-tile-name">{b.name}</span>
           </button>
         ))}
       </div>

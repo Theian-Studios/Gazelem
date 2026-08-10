@@ -29,6 +29,8 @@ export default function MapView({ onOpenRef, place }) {
   const frame = useRef(null);
   const main = useRef(null);
   const drag = useRef(null);
+  // The two-finger gesture underway, if any: see startPinch.
+  const pinch = useRef(null);
   // Whether the press underway has become a drag. A drag that happens to end
   // over a place must not also choose it.
   const dragged = useRef(false);
@@ -139,13 +141,67 @@ export default function MapView({ onOpenRef, place }) {
     return () => el.removeEventListener("wheel", onWheel);
   }, [zoomBy, atPointer]);
 
+  // Two fingers on the glass. The frame takes touch-action: none, so the
+  // browser does no zooming of its own here and every touch arrives as a
+  // pointer event for this to answer — and until now nothing answered for the
+  // second one: it simply overwrote the first finger's drag, and a pinch came
+  // out as the map lurching after whichever finger last moved.
+  //
+  // Every pointer down on the frame is kept, because the gesture is decided by
+  // how many there are rather than by which arrived.
+  const touches = useRef(new Map());
+
+  // Where two fingers are, as one point and one distance.
+  const pinchOf = () => {
+    const [a, b] = [...touches.current.values()];
+    return {
+      dist: Math.hypot(a.x - b.x, a.y - b.y) || 1,
+      x: (a.x + b.x) / 2,
+      y: (a.y + b.y) / 2,
+    };
+  };
+
+  const startPinch = () => {
+    const p = pinchOf();
+    // The point of the drawing under the midpoint, held there for the whole
+    // gesture: the ground between the fingers is what a pinch is about, and it
+    // should not slide out from under them as they spread.
+    pinch.current = { dist: p.dist, at: atPointer({ clientX: p.x, clientY: p.y }), from: view };
+    drag.current = null;
+    // A pinch is not a press, and must not choose the place it happened over.
+    dragged.current = true;
+  };
+
   const onPointerDown = (e) => {
+    touches.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (touches.current.size === 2) { startPinch(); return; }
+    if (touches.current.size > 2) return;
     drag.current = { id: e.pointerId, x: e.clientX, y: e.clientY, from: view };
     dragged.current = false;
   };
   const onPointerMove = (e) => {
+    if (touches.current.has(e.pointerId)) {
+      touches.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    }
+
+    const p = pinch.current;
+    if (p && touches.current.size >= 2) {
+      const now = pinchOf();
+      const rect = frame.current.getBoundingClientRect();
+      const z = Math.min(MAX_ZOOM, Math.max(minZoom, p.from.z * (now.dist / p.dist)));
+      const seen = span(z);
+      // The held point put back under the midpoint wherever the midpoint has
+      // got to, which is the spread and the two-finger pan in one move.
+      setView(clamp({
+        z,
+        x: p.at.x - ((now.x - (rect.left + rect.width / 2)) / rect.width) * seen.w,
+        y: p.at.y - ((now.y - (rect.top + rect.height / 2)) / rect.height) * seen.h,
+      }));
+      return;
+    }
+
     const d = drag.current;
-    if (!d) return;
+    if (!d || d.id !== e.pointerId) return;
     if (!dragged.current) {
       // Within a few pixels this is still a press, and the frame must not take
       // the pointer: holding it sends the click that follows to the frame
@@ -165,7 +221,21 @@ export default function MapView({ onOpenRef, place }) {
       y: d.from.y - ((e.clientY - d.y) / rect.height) * seen.h,
     }));
   };
-  const onPointerUp = () => { drag.current = null; };
+  // A finger lifted out of a pinch leaves the other one on the map, and the
+  // map should follow it rather than sit still until both are lifted and one
+  // comes back — so the drag is started afresh from where that finger now is,
+  // never from where it first landed.
+  const onPointerUp = (e) => {
+    touches.current.delete(e.pointerId);
+    if (pinch.current && touches.current.size < 2) {
+      pinch.current = null;
+      const [id] = touches.current.keys();
+      const rest = touches.current.get(id);
+      drag.current = rest ? { id, x: rest.x, y: rest.y, from: view } : null;
+      return;
+    }
+    if (drag.current?.id === e.pointerId) drag.current = null;
+  };
 
   const flyTo = (place) => {
     setView(clamp({ z: Math.max(FLY_ZOOM, minZoom), x: place.x, y: place.y }));

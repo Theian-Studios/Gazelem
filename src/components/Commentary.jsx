@@ -1,6 +1,8 @@
 import { ink, inkSoft } from "../theme.js";
 import { getCommentary, orderedConnections, entryVerse } from "../lib/commentary.js";
 import { parseCitations } from "../lib/refs.js";
+import { scanCites } from "../lib/cites.js";
+import { citeGroup } from "./Cited.jsx";
 import Card from "./Card.jsx";
 import { SpeakerIcon, AudienceIcon, LocationIcon } from "./MetaIcons.jsx";
 
@@ -114,9 +116,68 @@ function Overview({ meta, collapsed, onToggle, openFor }) {
   );
 }
 
-// The refs a note carries are not rendered here — the Cross Connections card
-// is the one place citations live, so the notes stay readable prose.
-function Entry({ e, last }) {
+// A reference with its book left off: the "57:12" and "60:5–8" that a note on
+// Alma 57 uses for its own chapter and its neighbours. The site's scanner wants
+// a book by name and rightly ignores these — a bare pair of numbers in open
+// prose is as likely to be a score or a ratio — but inside a note the book is
+// never in doubt, and this is most of what the notes cite: Alma 57's name a
+// passage forty times and spell the book out twice.
+//
+// Read only in what the scanner has left behind, so "Alma 7:12" is claimed
+// whole rather than half-read as chapter 7 of the book in hand. What keeps the
+// rest honest is the test the scanner uses for a book, asked of a chapter: it
+// has to exist. `book.chapters` is the volume already open in front of the
+// reader, so "1:22" resolves in Enos and the "119:105" of a psalm does not.
+const BARE = /(?<![\d:])(\d{1,3}):(\d{1,3})(?:\s*[–—-]\s*(\d{1,3}))?(?![\d:])/g;
+
+// Everything a note's prose points at, made a door. The book-less form goes to
+// the same two places a cross connection does: a verse of the chapter being
+// read is scrolled to, since it is already on the page beside the note, and
+// anywhere else is opened.
+function proseRun({ book, chapter, volId, onOpenRef, onJump }) {
+  const named = volId === "dc" ? "Doctrine and Covenants" : book?.name;
+  const chapters = book?.chapters;
+
+  const bare = (text, key) => {
+    if (!chapters || !named) return <span key={key}>{text}</span>;
+    const out = [];
+    let at = 0;
+    BARE.lastIndex = 0;
+    for (let m; (m = BARE.exec(text)); ) {
+      const n = Number(m[1]);
+      if (!chapters.some((c) => c.n === n)) continue;
+      // Built through the resolver rather than by hand, so a note's reference
+      // is the same kind of thing as a chart's and opens by the same door.
+      const cite = parseCitations(`${named} ${n}:${m[2]}${m[3] ? `–${m[3]}` : ""}`)[0];
+      if (!cite) continue;
+      if (m.index > at) out.push(<span key={`${key}-${at}`}>{text.slice(at, m.index)}</span>);
+      out.push(
+        <button key={`${key}-c${m.index}`} className="cx-cite"
+          title={n === chapter?.n ? `Go to verse ${m[2]}` : `Open ${cite.label}`}
+          onClick={() => (n === chapter?.n ? onJump?.(cite.verses[0]) : onOpenRef?.(cite))}>
+          {m[0]}
+        </button>,
+      );
+      at = m.index + m[0].length;
+    }
+    if (!out.length) return <span key={key}>{text}</span>;
+    if (at < text.length) out.push(<span key={`${key}-end`}>{text.slice(at)}</span>);
+    return out;
+  };
+
+  return (text, key) =>
+    scanCites(text).map((part, i) =>
+      part.kind === "text"
+        ? bare(part.text, `${key}-${i}`)
+        : citeGroup(part, onOpenRef, `${key}-${i}`));
+}
+
+// The refs a note carries on its own `refs:` line are still not drawn here —
+// the Cross Connections card is the one place those live, and the notes stay
+// readable prose. What is drawn is what the prose itself names, which the
+// reader could otherwise only reach by typing it into the search field with the
+// note open in front of them.
+function Entry({ e, last, prose }) {
   // Verse-anchored notes advertise their verse so the reader's scroll position
   // can pull the matching note into view (see the sync effect in App.jsx).
   const verse = entryVerse(e.title);
@@ -124,14 +185,14 @@ function Entry({ e, last }) {
     <article data-note-verse={verse ?? undefined} style={{ marginBottom: last ? 0 : 16 }}>
       {e.title && (
         <h4 className="serif" style={{ fontSize: 13.5, fontWeight: 600, color: ink, margin: "0 0 5px", lineHeight: 1.35 }}>
-          {e.title}
+          {prose(e.title, "t")}
         </h4>
       )}
-      {e.body.map((p, j) => <p key={j} style={PROSE}>{p}</p>)}
+      {e.body.map((p, j) => <p key={j} style={PROSE}>{prose(p, `b${j}`)}</p>)}
       {e.items?.length > 0 && (
         <ul style={{ margin: "6px 0 0", paddingLeft: 16 }}>
           {e.items.map((t, j) => (
-            <li key={j} style={{ ...PROSE, margin: "0 0 7px" }}>{t}</li>
+            <li key={j} style={{ ...PROSE, margin: "0 0 7px" }}>{prose(t, `i${j}`)}</li>
           ))}
         </ul>
       )}
@@ -141,38 +202,33 @@ function Entry({ e, last }) {
 
 // The worlds behind and in front of the text: prose, sometimes under their own
 // subheadings, with no depth to filter by.
-function WorldView({ groups, title, chapter, collapsed, onToggle, controls }) {
-  if (!groups.length) {
-    return (
-      <Card id="notes" title={title} label="Commentary"
-        className="popin" collapsed={collapsed.has("notes")} onToggle={onToggle}>
-        {controls}
-        <p style={{ ...PROSE, margin: 0 }}>No notes for this world yet.</p>
-      </Card>
-    );
-  }
+//
+// One card, whatever the world is divided into. The subheadings used to be
+// cards of their own, which said the world's name again at the head of each —
+// "In Front · Applications", then "In Front · Self-reflection questions",
+// wide enough to be cut short — and made two panels out of what a reader
+// reads as one: the questions are the applications asked back, not a separate
+// commentary. They are sections inside the card now, ruled off from one
+// another the way the study pages are ruled off in the Related card.
+function WorldView({ groups, title, chapter, collapsed, onToggle, controls, prose }) {
   return (
-    <>
-      {/* Keyed on world + chapter so a new set of cards replays its entrance;
-          the stagger presents them one after another. The collapse id is the
-          group's position, so folding one keeps it folded across chapters. */}
-      {groups.map((g, i) => {
-        const id = `world-${i}`;
-        return (
-          <Card key={`${title}-${chapter.reference}-${i}`} id={id} label="Commentary"
-            title={g.heading ? `${title} · ${g.heading}` : title}
-            className="popin"
-            style={{ ...(i === 0 ? null : { marginTop: 12 }), animationDelay: `${i * 60}ms` }}
-            collapsed={collapsed.has(id)} onToggle={onToggle}
-          >
-            {i === 0 && controls}
-            {g.entries.map((e, j) => (
-              <Entry key={j} e={e} last={j === g.entries.length - 1} />
-            ))}
-          </Card>
-        );
-      })}
-    </>
+    // Keyed by world and chapter so the card replays its entrance on arriving
+    // at either. Its collapse id is the same "notes" every other reading of
+    // the chapter uses: the reader folds the commentary away, not this world's
+    // copy of it, and it should stay folded when they change worlds.
+    <Card key={`${title}-${chapter.reference}`} id="notes" title={title} label="Commentary"
+      className="popin" collapsed={collapsed.has("notes")} onToggle={onToggle}>
+      {controls}
+      {!groups.length && <p style={{ ...PROSE, margin: 0 }}>No notes for this world yet.</p>}
+      {groups.map((g, i) => (
+        <section key={i} className={i ? "world-group world-group-under" : "world-group"}>
+          {g.heading && <h4 className="world-group-head">{g.heading}</h4>}
+          {g.entries.map((e, j) => (
+            <Entry key={j} e={e} last={j === g.entries.length - 1} prose={prose} />
+          ))}
+        </section>
+      ))}
+    </Card>
   );
 }
 
@@ -198,9 +254,10 @@ export function ChapterOverview({ book, chapter, volId, collapsed, onToggle, ope
 const LEVEL_LABEL = { Verse: "Verses", Phrase: "Phrases", Word: "Words" };
 
 // The commentary itself, read through the current lens.
-export function CommentaryNotes({ book, chapter, lens, volId, collapsed, onToggle, controls }) {
+export function CommentaryNotes({ book, chapter, lens, volId, collapsed, onToggle, controls, onOpenRef, onJump }) {
   if (!book || !chapter) return null;
   const data = notesFor(book, chapter, volId);
+  const prose = proseRun({ book, chapter, volId, onOpenRef, onJump });
 
   if (!data) {
     return (
@@ -212,10 +269,10 @@ export function CommentaryNotes({ book, chapter, lens, volId, collapsed, onToggl
     );
   }
   if (lens.world === "behind") {
-    return <WorldView groups={data.worlds.behind} title="Behind" chapter={chapter} collapsed={collapsed} onToggle={onToggle} controls={controls} />;
+    return <WorldView groups={data.worlds.behind} title="Behind" chapter={chapter} collapsed={collapsed} onToggle={onToggle} controls={controls} prose={prose} />;
   }
   if (lens.world === "front") {
-    return <WorldView groups={data.worlds.front} title="In Front" chapter={chapter} collapsed={collapsed} onToggle={onToggle} controls={controls} />;
+    return <WorldView groups={data.worlds.front} title="In Front" chapter={chapter} collapsed={collapsed} onToggle={onToggle} controls={controls} prose={prose} />;
   }
 
   const entries = data.levels[lens.level] || [];
@@ -239,16 +296,22 @@ export function CommentaryNotes({ book, chapter, lens, volId, collapsed, onToggl
         </p>
       )}
       {entries.map((e, i) => (
-        <Entry key={i} e={e} last={i === entries.length - 1} />
+        <Entry key={i} e={e} last={i === entries.length - 1} prose={prose} />
       ))}
     </Card>
   );
 }
 
 // The index of cross references, in verse order so it tracks the reader.
-// Cross references belong to the text itself, so the other two worlds show none.
-export function CrossConnections({ book, chapter, lens, volId, onJump, onOpenRef, collapsed, onToggle }) {
-  if (!book || !chapter || lens.world !== "text") return null;
+//
+// Shown whichever world the commentary is being read through. The lens says how
+// this chapter is being read; where else in scripture it is answered does not
+// change with that, and a reader who moved to Behind to see what produced the
+// chapter lost the index of what it points at — along with every gold run in
+// the text and every letter in the margin, which are the same connections said
+// in the other direction and go with it.
+export function CrossConnections({ book, chapter, volId, onJump, onOpenRef, collapsed, onToggle }) {
+  if (!book || !chapter) return null;
   const data = notesFor(book, chapter, volId);
   if (!data) return null;
   const connections = orderedConnections(data);

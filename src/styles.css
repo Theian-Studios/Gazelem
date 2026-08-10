@@ -114,11 +114,32 @@ a[x-apple-data-detectors] {
     min-width: 0; padding: 0 7px !important; font-size: 12.5px !important;
     overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
   }
+  /* The ways back hold their names and the trail does the giving: a crumb cut
+     to "Rom…" still sits under a chapter title that spells the book out, where
+     a Back button cut to its arrow has nothing else on the page saying where
+     it goes. Capped at 11ch so one long name cannot take the line either. */
+  .pill-way { padding: 0 11px 0 9px; font-size: 12px; }
+  .pill-way-name { max-width: 11ch; }
+  /* A way back and a full trail is more than one line of a phone holds. The
+     trail gives up its middle first: where the reader is and how they got
+     there are the two things this dock exists to say, and the levels in
+     between are the least of what it says. Only on a phone — a tablet's line
+     holds both whole, and dropping a level there would be tidying away
+     something nothing was competing for. */
+  @media (max-width: 599.98px) {
+    .navpill[data-ways] .pill-crumb[data-step="up"],
+    .navpill[data-ways] .pill-sep[data-step="up"] { display: none; }
+  }
+
   /* Narrower still, and the trail loses its middle rather than the end of its
      last name. Where the reader is matters more than how they got there, and
      the library icon beside it still climbs past what was dropped. */
   @media (max-width: 359.98px) {
     .pill-crumb[data-step="up"], .pill-sep[data-step="up"] { display: none; }
+    /* Last of all, and only with both ways up: the marks alone. ↩ and a book
+       are read without their names; a name cut to four letters is not. */
+    .navpill[data-ways="2"] .pill-way-name { display: none; }
+    .navpill[data-ways="2"] .pill-way { padding: 0 10px; }
   }
 
   .dock-search {
@@ -367,7 +388,9 @@ a[x-apple-data-detectors] {
   .sheet-close {
     flex: 0 0 auto;
     display: grid; place-items: center;
-    width: 38px; height: 38px; border-radius: 999px;
+    /* The one way out of a sheet that fills the window, so it is a finger
+       wide even though the glyph in it is small. */
+    width: 44px; height: 44px; border-radius: 999px;
     border: 1px solid rgba(255,255,255,.72);
     background: rgba(255,255,255,.72);
     color: #6e6e73; cursor: pointer;
@@ -578,7 +601,11 @@ a[x-apple-data-detectors] {
 }
 .lens-zoom-item {
   border: 0; background: none; border-radius: 999px;
-  padding: 5px 2px;
+  /* Even on all four sides, and enough of it that the filled pill below reads
+     as a pill rather than as a word with a rule drawn round it. 2px at the
+     sides had the chosen name all but touching its own edge, which the 5px
+     above and below made look like a mistake rather than a tight fit. */
+  padding: 6px;
   font-size: 11.5px; font-weight: 600; line-height: 1.2;
   color: rgba(90,90,98,.85); cursor: pointer; white-space: nowrap;
   transition: background .18s, color .18s;
@@ -593,6 +620,13 @@ a[x-apple-data-detectors] {
 .lens-zoom-item[aria-pressed="true"]:hover { background: #96793a; color: #fff; }
 .lens-seg-item:focus-visible, .lens-zoom-item:focus-visible {
   outline: 2px solid #3a5a8c; outline-offset: 2px;
+}
+
+/* Both rows are a line of touching buttons, and a 25px line of them is a row
+   of near-misses on a phone. The type and the pills stay as they are; what
+   grows is the room around them, which is the part a thumb is aiming at. */
+@media (pointer: coarse) {
+  .lens-seg-item, .lens-zoom-item { min-height: 42px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -981,6 +1015,31 @@ a[x-apple-data-detectors] {
   font-size: 13px; line-height: 1; user-select: none;
 }
 
+/* The two ways back, which stand before the trail: one step (↩) and the
+   chapter being studied (the book). Both are named by where they go, so both
+   are a mark and a name on one line, and both give the name up before they
+   give up the mark — a nameless ↩ is still the arrow everyone knows, where a
+   truncated "1 Nephi 1…" names nothing. */
+.pill-way {
+  /* Never the one that gives way: the trail's crumbs shrink and ellipse
+     instead. A crumb cut to "Rom…" still sits under a chapter title spelling
+     the book out, where a Back cut to its bare arrow has nothing anywhere on
+     the page saying where it goes — which is the control this dock was rebuilt
+     to be rid of. The name is capped instead, so one long title cannot take
+     the line either. */
+  flex: 0 0 auto;
+  display: flex; align-items: center; gap: 6px;
+  border: 0; border-radius: 999px; height: 42px; padding: 0 14px 0 11px;
+  font-size: 12.5px; font-weight: 600; cursor: pointer;
+}
+.pill-way-mark { display: grid; place-items: center; flex: 0 0 auto; font-size: 14px; line-height: 1; }
+.pill-way-name { max-width: 22ch; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+/* Gold for the step back, which is a move through the site's own history;
+   the reader's own chapter is set in the blue the ‹ › arrows are, that being
+   the colour of the text everywhere else. */
+.pill-back { background: rgba(164,133,61,.16); color: #8a6f2e; }
+.pill-resume { background: rgba(58,90,140,.13); color: #33507d; }
+
 /* Chapters that read alongside this one. Set as pills rather than a list: they
    are short references, and a wrapped row fits more of them in a narrow
    column than one per line would. */
@@ -1242,6 +1301,12 @@ mark.find-hit[data-current] {
 .book-grid {
   display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px;
 }
+.book-tile {
+  border-radius: 15px; padding: 15px 18px; text-align: left;
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 10px; cursor: pointer;
+}
+.book-tile-name { font-size: 16.5px; font-weight: 500; }
 
 /* A chapter has nothing to say for itself but its number, so the cells are
    sized to the number rather than to the shelf beside them — about half what
@@ -1374,7 +1439,14 @@ mark.find-hit[data-current] {
 /* 980px is the pair at its narrowest — 252 + 22 + 652 — with 20px of margin
    either side and a little slack. */
 @media (min-width: 980px) {
-  .content-toc ~ .navdock { display: none; }
+  /* The card says the trail, and says it better than a row of crumbs can — so
+     where the dock has nothing but a trail to offer, it stands down. It never
+     stands down while it has a way back in it: the card knows where the reader
+     is and nothing at all about how they got there, and a chart opened out of
+     1 Nephi 16 with the dock gone was a page with no way back to the chapter
+     on it anywhere. The trail half is dropped, the ways back are kept. */
+  .content-toc ~ .navdock:not(:has(.pill-way)) { display: none; }
+  .content-toc ~ .navdock .navpill > :not(.pill-way) { display: none; }
 
   .toc-card {
     display: flex; flex-direction: column;
@@ -1488,6 +1560,32 @@ mark.find-hit[data-current] {
 }
 .ev-tile-name { font-size: 16.5px; font-weight: 500; }
 .ev-tile-sub { font-size: var(--fs-note); line-height: 1.4; color: #6e6e73; }
+
+/* Two to a row on a phone. One column of tiles wide enough for "Words of
+   Mormon" and empty for "Enos" turned fifteen books into ten screens of
+   scrolling, with the ways in that are not books — the timeline, the charts —
+   below the lot of them. The names are short; the width was never the thing
+   they needed. */
+@media (max-width: 599.98px) {
+  .book-grid, .ev-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  .volume-sections { gap: 8px; }
+  .volume-sections .section-tile { flex: 1 1 calc(50% - 4px); min-width: 0; }
+  .book-tile, .ev-tile, .section-tile { padding: 13px 14px; }
+  /* A name that no longer has a line to itself sets a size down, and wraps
+     rather than pushing its tile out of the pair. */
+  .book-tile-name, .ev-tile-name, .section-tile-name { font-size: 15px; }
+  .book-tile { display: block; }
+  .section-tile { gap: 8px; }
+  /* A chart names itself in a sentence and explains itself in another, which
+     at half the width is eleven lines and a tile taller than the pair of them
+     saved. Both are held to a few lines — enough to know which chart it is,
+     and the page is what the shelf is for. */
+  .ev-tile-name, .ev-tile-sub {
+    display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .ev-tile-name { -webkit-line-clamp: 4; }
+  .ev-tile-sub { -webkit-line-clamp: 3; }
+}
 
 .ev-card { --pad: clamp(24px, 5vw, 52px); padding: var(--pad); }
 .ev-head { text-align: center; margin-bottom: 30px; }
@@ -3097,10 +3195,24 @@ mark.find-hit[data-current] {
   .sm-gutter { margin-right: 0; }
   .sm-mark { width: 24px; height: 24px; }
 }
+/* Twenty-four pixels is a fair drawing of a mark in a margin and a poor thing
+   to hit with a thumb, so the mark carries an invisible pad the size of a
+   finger — the same trick the map's pins use. Drawn rather than sized, because
+   the mark is wedged into the card's padding on a phone and any real width
+   here pushes the verse's own two columns apart. */
+@media (pointer: coarse) {
+  .sm-mark { position: relative; }
+  .sm-mark::after {
+    content: ""; position: absolute; left: 50%; top: 50%;
+    width: 44px; height: 44px; transform: translate(-50%, -50%);
+  }
+}
 
 .sm-pop {
+  /* The height comes from the placement, which knows how much room the side
+     it chose actually has — see lib/place.js. */
   border-radius: 14px; padding: 10px 12px 8px; z-index: 70;
-  max-height: 56vh; overflow-y: auto;
+  overflow-y: auto;
 }
 .sm-pop-list { list-style: none; margin: 0; padding: 0; }
 .sm-pop-list li + li { margin-top: 2px; }
@@ -3138,6 +3250,20 @@ mark.find-hit[data-current] {
    Set under the similar chapters and ruled off from them: a row of pills and a
    run of titles are two answers to the same question, and without the rule they
    read as one list whose second half has lost its shape. */
+/* A world's own divisions — Applications, Self-reflection questions — set
+   inside the one card rather than each in a card of its own. The rule and the
+   quiet label are what keep them apart; the card's gold heading above says
+   which world they all belong to, so they do not repeat it. */
+.world-group-under {
+  margin-top: 15px; padding-top: 13px;
+  border-top: 1px solid rgba(31, 45, 71, .10);
+}
+.world-group-head {
+  margin: 0 0 9px;
+  font-size: var(--fs-label); letter-spacing: .09em; text-transform: uppercase;
+  font-weight: 700; color: #6e6e73;
+}
+
 .rel-pages { list-style: none; margin: 0; padding: 0; }
 .rel-pages-under {
   margin-top: 11px; padding-top: 10px;

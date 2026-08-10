@@ -19,6 +19,12 @@ const FILES = import.meta.glob("../data/commentary/*.md", {
 export const slug = (s) =>
   s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
+// The same name with the separators taken out, for asking whether two spellings
+// of a book are the same book. A file may call 1 Nephi "1nephi" or "1-nephi" —
+// its own front matter writes one and the reader's reference makes the other,
+// and a chapter matched on the exact spelling was a chapter that never loaded.
+const bookKey = (s) => slug(s).replace(/-/g, "");
+
 // A file may open with a YAML block naming the chapter it belongs to. That is
 // surer than reading the name off the file: the names are written to sort in a
 // directory listing — a volume-order prefix, a padded chapter number — and
@@ -46,7 +52,7 @@ for (const [path, md] of Object.entries(FILES)) {
   const fm = frontMatter(md);
   const n = Number(fm?.chapter);
   if (!fm?.book_slug || !Number.isFinite(n)) continue;
-  const key = `${slug(fm.book_slug)}-${n}`;
+  const key = `${bookKey(fm.book_slug)}-${n}`;
   // First wins, and the path is reported rather than silently preferred: two
   // files claiming one chapter is a mistake in the notes, not a thing to pick
   // between.
@@ -421,7 +427,7 @@ const cache = new Map();
 export function getCommentary(bookName, chapterN) {
   if (!bookName || chapterN == null) return null;
   const book = slug(bookName);
-  const key = `${book}-${chapterN}`;
+  const key = `${bookKey(bookName)}-${chapterN}`;
   if (cache.has(key)) return cache.get(key);
   // What the file says it is, first; only then what it is called.
   //
@@ -432,7 +438,10 @@ export function getCommentary(bookName, chapterN) {
   // padding is leading zeros only, so it can't either.
   let md = DECLARED.get(key);
   if (!md) {
-    const re = new RegExp(`/(?:\\d+[-_])?${book}-0*${chapterN}(?:[-_][^/]*)?\\.md$`);
+    // The separators inside the book are optional here for the same reason:
+    // "01-1nephi-20-notes.md" and "01-1-nephi-20-notes.md" name one chapter.
+    const loose = book.replace(/-/g, "-?");
+    const re = new RegExp(`/(?:\\d+[-_])?${loose}-0*${chapterN}(?:[-_][^/]*)?\\.md$`);
     const path = Object.keys(FILES).find((p) => re.test(p));
     md = path ? FILES[path] : null;
   }

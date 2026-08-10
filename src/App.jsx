@@ -1,4 +1,4 @@
-import { useState, useEffect, useLayoutEffect, useCallback, useRef, lazy, Suspense } from "react";
+import { useState, useEffect, useCallback, useRef, lazy, Suspense } from "react";
 import { VOLUMES, VOL_SHORT } from "./data/volumes.js";
 import { loadVolume, getCached } from "./lib/api.js";
 import { glass, ink } from "./theme.js";
@@ -101,8 +101,17 @@ export default function App() {
     setSearchOpen(true);
     setFocusKey((n) => n + 1);
   }, []);
-  // Where to return to after following a cross reference.
-  const [history, setHistory] = useState([]);
+  // Where the reader came from, read off the entry they are standing on rather
+  // than kept in a stack of our own. Every push stamps the view it leaves into
+  // the entry it creates, so "how you got here" survives a refresh, agrees
+  // with the browser's own back button, and — the thing the stack never
+  // managed — is written by *every* way through the site rather than by the
+  // three that remembered to call it.
+  const [from, setFrom] = useState(null);
+  // The chapter the reader was last in, kept while they are away among the
+  // charts and the essays. Retracing six hops is not what a reader wants from
+  // there; the text they were studying is, and this is one press to it.
+  const [anchor, setAnchor] = useState(null);
   // Which panels the reader has folded away, by card id. Every card starts
   // open; this is held here rather than in the cards so a card the reader has
   // folded stays folded through the remounts that replay their entrance
@@ -138,12 +147,18 @@ export default function App() {
   // scroll event *before* effects run — which would overwrite the position we
   // just tried to save with the clamped one.
   const rememberScroll = useCallback(() => {
+    const y = window.scrollY;
+    // On the history entry as well as in the map below, because the map can
+    // only key a chapter: a step back into a results list, a chart or the map
+    // has no chapter to be restored through, and this is what puts it back
+    // where it was left.
+    window.history.replaceState({ ...window.history.state, scrollY: y }, "");
     // The page's scroll belongs to whatever is on it. While a results list is
     // up that is the list, not the chapter still standing underneath — which
     // put its own position away when the search opened, and would otherwise
     // have it overwritten with how far down the results the reader had read.
     if (queryRef.current) return;
-    if (chapterKeyRef.current) scrollPos.current.set(chapterKeyRef.current, window.scrollY);
+    if (chapterKeyRef.current) scrollPos.current.set(chapterKeyRef.current, y);
   }, []);
 
   // Narrow layout: the chapter title pins just below the sticky top bar, whose
@@ -277,6 +292,12 @@ export default function App() {
   // The one hash this state spells. Books are named, chapters numbered; the
   // D&C skips the book, its sections being its front door.
   const hashOf = () => {
+    // A search is a place, not a state of the chapter underneath it. Written
+    // into the hash it can be linked and refreshed, and — the point — stepped
+    // out of backwards, which is how every reader expects to leave one. The
+    // chapter it was run from is left standing in the state below, so nothing
+    // has to be re-fetched when the step back lands.
+    if (query) return `#search/${encodeURIComponent(query)}`;
     if (!volId) return "#/";
     const h = `#${volId}`;
     if (prophet != null) return prophet ? `${h}/prophets/${hashSlug(prophet)}` : `${h}/prophets`;
@@ -322,6 +343,21 @@ export default function App() {
 
   useEffect(() => { document.title = titleOf(); });
 
+  // What to call where the reader is standing, in the fewest words that still
+  // name it. Two things read it: the Back button, which is labelled with what
+  // it returns to rather than with the word "back", and the stamp every
+  // history entry carries of the view it was reached from.
+  const viewLabel = () => {
+    if (query) return `“${query}”`;
+    if (!volume) return "All scriptures";
+    if (prophet) return prophet;
+    if (prophet === "") return "Prophets";
+    if (section) return pageTitle(section) || SHELF_NAMES[section] || section;
+    if (chapter) return chapter.reference;
+    if (book && volId !== "dc") return book.name;
+    return VOL_SHORT[volId] || volume.title;
+  };
+
   // A hash, replayed into the state that spells it. Async for the same reason
   // goTo is: the books have to be there before a name can be found among them.
   // The flag holds the state→URL write below off for the whole replay: the
@@ -341,6 +377,10 @@ export default function App() {
     setFocus(null);
     const token = ++navToken.current;
     const parts = raw.replace(/^#\/?/, "").split("/").filter(Boolean).map(decodeURIComponent);
+    // A search stands over whatever the reader was reading, and stepping back
+    // into one leaves that untouched: the chapter is still there underneath,
+    // and is what the next step back returns to.
+    if (parts[0] === "search") { setQuery(parts[1] || ""); return; }
     setQuery(null);
     const vol = VOLUMES.find((v) => v.id === parts[0]);
     if (!vol) {
@@ -388,6 +428,31 @@ export default function App() {
     setTargetVerse(null);
   }, [ensure, openVolume]);
 
+  // Putting a page back where it was left. A results list re-queries its index
+  // and a chart fetches itself, so the page a step back lands on is usually
+  // still filling and too short to hold the offset — the browser clamps what it
+  // cannot reach, and one attempt lands at the top every time, which is the
+  // whole reason a step back used to feel like a fresh arrival. So it is asked
+  // again each frame until the document is tall enough, and given up on after
+  // half a second or the moment the reader takes the scroll into their own
+  // hands, whichever is first.
+  const restoreScroll = useCallback((top) => {
+    if (!top) return;
+    let tries = 0, stop = false;
+    const done = () => {
+      stop = true;
+      for (const ev of ["wheel", "touchstart", "keydown"]) window.removeEventListener(ev, done);
+    };
+    for (const ev of ["wheel", "touchstart", "keydown"]) window.addEventListener(ev, done, { once: true, passive: true });
+    const again = () => {
+      if (stop) return;
+      window.scrollTo({ top });
+      if (window.scrollY >= top - 1 || ++tries > 32) { done(); return; }
+      requestAnimationFrame(again);
+    };
+    requestAnimationFrame(again);
+  }, []);
+
   // URL → state, and it comes first. On the very first pass the state is still
   // empty, which spells "#/" — so the write below, running before anything had
   // read the bar, replaced the hash the reader arrived on with the library's
@@ -399,26 +464,58 @@ export default function App() {
   useEffect(() => {
     readHash.current = true;
     if (location.hash && location.hash !== "#/") applyHash(location.hash);
-    const onPop = () => applyHash(location.hash);
+    // The entry being landed on carries both of the things a step back needs:
+    // the view it was itself reached from, and how far down it the reader had
+    // read. Neither can be worked out from the hash, and both are gone if the
+    // entry is not asked.
+    const onPop = (e) => {
+      setFrom(e.state?.from ?? null);
+      applyHash(location.hash).then(() => restoreScroll(e.state?.scrollY));
+    };
+    // A hash the reader typed, or followed in from outside. Our own writes go
+    // through pushState and replaceState, neither of which fires this, so
+    // anything arriving here came from off the page — and had to be answered,
+    // because the effect below compares the bar against the state and would
+    // otherwise quietly put the old address back over the one just asked for.
+    const onHash = () => {
+      if (applyingHash.current) return;
+      setFrom(null);
+      applyHash(location.hash);
+    };
     window.addEventListener("popstate", onPop);
-    return () => window.removeEventListener("popstate", onPop);
-  }, [applyHash]);
+    window.addEventListener("hashchange", onHash);
+    return () => {
+      window.removeEventListener("popstate", onPop);
+      window.removeEventListener("hashchange", onHash);
+    };
+  }, [applyHash, restoreScroll]);
 
   // State → URL. Held while a volume loads: an async navigation passes through
   // states that spell the wrong hash, and pushing those would write junk into
   // the history. When the browser's own back or forward set this state, the
   // landing hash equals the bar's and nothing is pushed. The first write
   // replaces rather than pushes, so opening the site is one entry, not two.
+  //
+  // Each push stamps the entry it creates with the view being left behind.
+  // That stamp is the whole of the Back button: there is no second history to
+  // keep in step, and nothing can navigate without writing it.
   const firstHashSync = useRef(true);
+  // The view on screen, as the next push will name it.
+  const here = useRef(null);
   useEffect(() => {
     if (!readHash.current || applyingHash.current || loading) return;
     if (bookIdx != null && !books?.[bookIdx]) return;
     const h = hashOf();
-    if (location.hash === h) { firstHashSync.current = false; return; }
-    // window.history by its full name: the `history` in scope here is the
-    // Back pill's own stack above, which shadows the browser's.
-    if (firstHashSync.current) window.history.replaceState(null, "", h);
-    else window.history.pushState(null, "", h);
+    const label = viewLabel();
+    // Already standing on it. The name is refreshed rather than left as it was
+    // when the entry was pushed: a volume still fetching spells its hash before
+    // it can name the chapter in it, and the name is what the next push stamps.
+    if (location.hash === h) { here.current = { label, hash: h }; firstHashSync.current = false; return; }
+    const stamp = firstHashSync.current ? null : here.current;
+    if (firstHashSync.current) window.history.replaceState({ from: null }, "", h);
+    else window.history.pushState({ from: stamp }, "", h);
+    setFrom(stamp);
+    here.current = { label, hash: h };
     firstHashSync.current = false;
   }); // eslint-disable-line -- compares against location.hash, its own dep
 
@@ -452,20 +549,6 @@ export default function App() {
     window.scrollTo({ top: chapterKey ? scrollPos.current.get(chapterKey) ?? 0 : 0 });
   }, [volId, bookIdx, chapIdx]); // eslint-disable-line
 
-  // A step back into something that is not a chapter — a results list, an
-  // evidence, the map — has no chapter key to be restored through, so the
-  // offset the Back pill kept for it is applied once the page it belongs to is
-  // on screen. Content still on its way down will have grown past it by then
-  // and the browser clamps what it cannot reach, which lands at the top: the
-  // same place the step used to land every time.
-  const pendingScroll = useRef(null);
-  useLayoutEffect(() => {
-    if (pendingScroll.current == null) return;
-    const top = pendingScroll.current;
-    pendingScroll.current = null;
-    window.scrollTo({ top });
-  });
-
   // Where a step in this direction lands, or null at the ends of the volume.
   // Asked by step() to go there, and by the drag to show what is coming.
   const neighbour = useCallback((dir) => {
@@ -491,14 +574,16 @@ export default function App() {
     setChapIdx(to.chapIdx);
   };
 
-  // Margin markers mirror the Cross Connections list, so like that list they
-  // only appear in the Text world.
+  // The gold runs in the text and the letters in their margin mirror the Cross
+  // Connections list, so like that list they stand whichever world the
+  // commentary is being read through. They used to go with the Text world, and
+  // a reader who moved the lens to Behind — from a sheet, on a phone, with the
+  // control then hidden behind it — watched the chapter itself lose its marks
+  // for no reason they could see.
   const chapterNotes = chapter
     ? getCommentary(volId === "dc" ? "Doctrine and Covenants" : book?.name, chapter.n)
     : null;
-  const verseConnections = chapter && lens.world === "text"
-    ? connectionsByVerse(chapterNotes, chapter.n)
-    : null;
+  const verseConnections = chapter ? connectionsByVerse(chapterNotes, chapter.n) : null;
   // The notes' `underline:` anchors are still parsed (see underlinesByVerse in
   // lib/commentary.js) but nothing draws them for now.
 
@@ -510,47 +595,49 @@ export default function App() {
   // The same pages as a flat list, for the Related card beside the reader.
   const studyList = chapter ? mentionsOf(bookName, chapter.n) : [];
 
-  // Follow a cross reference, remembering where we stood so Back can undo it.
-  // A reference is as often opened out of one of the volume's own sections — an
-  // evidence, the timeline — as out of a chapter, so the section is part of
-  // where we stood.
+  // Follow a cross reference. Where we stood is remembered by the push itself
+  // — see the hash effect — so there is nothing to record here.
   const openReference = useCallback(async (cite) => {
     rememberScroll();
-    setHistory((h) => [...h, { volId, bookIdx, chapIdx, scrollY: window.scrollY, prophet, section }]);
     await goTo({
       v: cite.book.v,
       book: cite.book.n,
       ch: cite.chapter,
       verse: cite.verses[0] ?? null,
     });
-  }, [goTo, rememberScroll, volId, bookIdx, chapIdx, prophet, section]);
+  }, [goTo, rememberScroll]);
 
-  const goBack = useCallback(() => {
-    setHistory((h) => {
-      const prev = h[h.length - 1];
-      if (!prev) return h;
-      setVolId(prev.volId);
-      setBooks(getCached(prev.volId));
-      setBookIdx(prev.bookIdx);
-      setChapIdx(prev.chapIdx);
-      setTargetVerse(null);
-      setFlipDir(0);
-      // Back out of a chapter opened from a search, from a prophet's page or
-      // from one of the volume's sections, and the thing it was opened from is
-      // there again.
-      setQuery(prev.query ?? null);
-      setProphet(prev.prophet ?? null);
-      setSection(prev.section ?? null);
-      // The restore effect keys off the chapter change; give it the offset.
-      // Anything that is not a chapter has no such key, and is put back by the
-      // layout effect above instead.
-      if (prev.volId != null && prev.bookIdx != null && prev.chapIdx != null) {
-        scrollPos.current.set(`${prev.volId}:${prev.bookIdx}:${prev.chapIdx}`, prev.scrollY);
-      } else {
-        pendingScroll.current = prev.scrollY;
-      }
-      return h.slice(0, -1);
-    });
+  // One step back, through the browser's own history — the same thing the
+  // hardware button, the trackpad swipe and ⌘[ do. There is nothing else to
+  // undo: the entry being returned to carries its own scroll and its own
+  // stamp, and the popstate listener above applies both.
+  const goBack = useCallback(() => window.history.back(), []);
+
+  // The chapter last read, kept as the reader leaves it for a chart or an
+  // essay. Not a step in any history — a fixed place to come home to, however
+  // far the wandering went.
+  useEffect(() => {
+    if (chapter && chapterKey) setAnchor({ label: chapter.reference, volId, bookIdx, chapIdx });
+  }, [chapterKey]); // eslint-disable-line -- the chapter is the whole of the key
+
+  const goReading = useCallback(() => {
+    if (!anchor) return;
+    rememberScroll();
+    setQuery(null); setProphet(null); setSection(null); setFocus(null);
+    setVolId(anchor.volId);
+    setBooks(getCached(anchor.volId));
+    setBookIdx(anchor.bookIdx);
+    setChapIdx(anchor.chapIdx);
+    setTargetVerse(null);
+    setFlipDir(0);
+  }, [anchor, rememberScroll]);
+
+  // Leaving a results list is a step back, not a fresh navigation — the list
+  // is an entry of its own now, and setting the query to null would push the
+  // chapter underneath on top of it as a second copy.
+  const closeSearch = useCallback(() => {
+    if (window.history.state?.from) window.history.back();
+    else setQuery(null);
   }, []);
 
   // Jump to any chapter of the volume from the chapter band, including one in
@@ -566,13 +653,12 @@ export default function App() {
     setChapIdx(ci);
   }, [books, bookIdx, chapIdx, rememberScroll]);
 
-  // Open a search result at the verse the search landed on, remembering the
-  // search so Back returns to the list rather than to wherever the reader was
-  // standing when they ran it.
+  // Open a search result at the verse the search landed on. The list is a
+  // history entry of its own, so Back returns to it rather than to wherever
+  // the reader was standing when they ran it.
   const openHit = useCallback((row) => {
-    setHistory((h) => [...h, { volId, bookIdx, chapIdx, scrollY: window.scrollY, query, prophet, section }]);
     goTo({ v: row.volId, book: row.book, ch: row.n, verse: row.firstVerse });
-  }, [goTo, volId, bookIdx, chapIdx, query, prophet, section]);
+  }, [goTo]);
 
   // Follow an entry in the similar-chapters chart. It goes through the same
   // path as a cross reference, so the Back button can undo it.
@@ -581,13 +667,10 @@ export default function App() {
     if (cite) openReference(cite);
   }, [openReference]);
 
-  // A study page opened from the chapter it treats. It goes through the same
-  // remembering as a cross reference, so the Back pill returns to the verse the
-  // reader left rather than to wherever they were before that.
+  // A study page opened from the chapter it treats.
   const openStudyPage = useCallback((page) => {
     rememberScroll();
     const token = ++navToken.current;
-    setHistory((h) => [...h, { volId, bookIdx, chapIdx, scrollY: window.scrollY, prophet, section }]);
     setQuery(null);
     setFind(null);
     setProphet(null);
@@ -607,7 +690,7 @@ export default function App() {
     setSection(page.section);
     window.scrollTo({ top: 0 });
     ensure(vol, token).then((data) => data && setBooks(data));
-  }, [ensure, rememberScroll, volId, bookIdx, chapIdx, prophet, section, bookName, chapter]);
+  }, [ensure, rememberScroll, bookName, chapter]);
 
   // All the way out, to the shelf of volumes.
   const goLibrary = useCallback(() => {
@@ -800,7 +883,13 @@ export default function App() {
   // Any step in the trail is a place in the library, so taking one puts a
   // results list away.
   const trail = [];
-  if (volume) {
+  if (query) {
+    // A word search is asked of the standard works, not of the volume the
+    // reader happened to be standing in when they ran it, so the library is
+    // the whole of its trail. The chapter underneath is not above it in any
+    // hierarchy — it is behind it, which is Back's business, not the trail's.
+    trail.push({ icon: true, label: "All scriptures", onClick: goLibrary });
+  } else if (volume) {
     trail.push({ icon: true, label: "All scriptures", onClick: goLibrary });
     if (chapter || prophet != null || section != null || (book && volId !== "dc")) {
       trail.push({
@@ -812,6 +901,16 @@ export default function App() {
     if (prophet) {
       trail.push({ label: "Prophets", onClick: () => { rememberScroll(); setProphet(""); } });
     }
+    // A page off a shelf — one chart, one evidence — names the shelf it stands
+    // on, exactly as a chapter names its book. Without this a chart was the one
+    // page on the site whose trail skipped a level: ⌂ › BoM, and no Charts.
+    if (section?.includes("/")) {
+      const shelf = section.split("/")[0];
+      trail.push({
+        label: SHELF_NAMES[shelf] || shelf,
+        onClick: () => { rememberScroll(); setFocus(null); setSection(shelf); window.scrollTo({ top: 0 }); },
+      });
+    }
     // The book's own step: back to its chapters, from a chapter or from its arc.
     if (book && volId !== "dc" && chapter) {
       trail.push({
@@ -820,6 +919,24 @@ export default function App() {
       });
     }
   }
+
+  // ---- The two controls, and the one rule ---------------------------------
+  // The trail says where you are; Back says how you got here. Both stand in
+  // the bottom pill, on every kind of page.
+  //
+  // Back is labelled with what it returns to, never with the bare word "back":
+  // a control that will not say where it goes is one the reader has to gamble
+  // on. Where the name it would carry is already the last step of the trail —
+  // which is every plain walk down the hierarchy — the trail is that way back
+  // and Back would only be the same word twice, so it stands down.
+  const lastCrumb = trail.length ? trail[trail.length - 1].label : null;
+  const back = from && from.label !== lastCrumb ? { label: from.label, onClick: goBack } : null;
+  // And the way home. Off the text, with a chapter to return to that neither
+  // of the two above is already offering: one press, however many hops deep
+  // into the charts the reader has gone.
+  const resume = anchor && (!chapter || query) &&
+    anchor.label !== back?.label && anchor.label !== lastCrumb
+    ? { label: anchor.label, onClick: goReading } : null;
 
   // The field keeps to the side column only while a chapter is being read,
   // where the reader's own width is the thing worth protecting. Everywhere
@@ -1020,7 +1137,7 @@ export default function App() {
             search to the next, and back from a chapter opened out of it. */}
         {query && (
           <SearchResults query={query} filters={filters} setFilters={setFilters}
-            field={inlineSearch} onSearch={setQuery} onOpen={openHit} onClose={() => setQuery(null)} />
+            field={inlineSearch} onSearch={setQuery} onOpen={openHit} onClose={closeSearch} />
         )}
 
         {/* The volume's own pages carry the field at the head of the column,
@@ -1039,7 +1156,7 @@ export default function App() {
         {/* The prophets stand beside the books of their volume rather than
             inside one, so they take the column the same way a book list does. */}
         {!query && prophet === "" && (
-          <ProphetGrid volume={volume} onOpen={setProphet} />
+          <ProphetGrid volume={volume} onOpen={(n) => { rememberScroll(); setProphet(n); }} />
         )}
         {!query && prophet && (
           <ProphetPage key={prophet} volume={volume} name={prophet} onOpenRef={openReference} />
@@ -1061,24 +1178,24 @@ export default function App() {
         )}
         {reading && volume && books && bookIdx == null && volId !== "dc" && (
           <BookList volume={volume} books={books} sections={volumeSections} search={inlineSearch}
-            onOpen={(i) => { setBookIdx(i); setChapIdx(null); }} />
+            onOpen={(i) => { rememberScroll(); setBookIdx(i); setChapIdx(null); }} />
         )}
         {reading && book && chapIdx == null && (
           <ChapterGrid volId={volId} book={book}
             // Only the D&C, whose sections are its front door.
             sections={volId === "dc" ? volumeSections : []} search={inlineSearch}
-            onOpen={(i) => { setChapIdx(i); setTargetVerse(null); setFlipDir(0); }} />
+            onOpen={(i) => { rememberScroll(); setChapIdx(i); setTargetVerse(null); setFlipDir(0); }} />
         )}
 
         {/* The volume's whole arc. Choosing a stop is choosing a chapter, so it
             leaves by the same door a chapter grid does. */}
         {!query && section === "timeline" && books && (
           <VolumeTimeline volId={volId} volume={volume} books={books}
-            onOpen={(bi, ci) => { setSection(null); setBookIdx(bi); setChapIdx(ci); setTargetVerse(null); setFlipDir(0); }} />
+            onOpen={(bi, ci) => { rememberScroll(); setSection(null); setBookIdx(bi); setChapIdx(ci); setTargetVerse(null); setFlipDir(0); }} />
         )}
         {!query && section === "overview" && books && (
           <VolumeOverview volume={volume} books={books}
-            onOpen={(bi, ci) => { setSection(null); setBookIdx(bi); setChapIdx(ci); setTargetVerse(null); setFlipDir(0); }} />
+            onOpen={(bi, ci) => { rememberScroll(); setSection(null); setBookIdx(bi); setChapIdx(ci); setTargetVerse(null); setFlipDir(0); }} />
         )}
         {!query && section === "map" && <MapView onOpenRef={openReference} place={place} />}
         {/* The shelf, and one evidence off it. Held in the section name rather
@@ -1162,11 +1279,12 @@ export default function App() {
           </div>
           <div className="notes-inline" data-panel="notes">
             <CommentaryNotes book={book} chapter={chapter} lens={lens} volId={volId}
-              collapsed={collapsed} onToggle={toggleCard} controls={lensBody} />
+              collapsed={collapsed} onToggle={toggleCard} controls={lensBody}
+              onOpenRef={openReference} onJump={jumpToVerse} />
           </div>
           {/* Last in the column: the index of what the chapter points at. */}
           <div className="connections-box" data-panel="connections">
-            <CrossConnections book={book} chapter={chapter} lens={lens} volId={volId}
+            <CrossConnections book={book} chapter={chapter} volId={volId}
               onJump={jumpToVerse} onOpenRef={openReference} collapsed={collapsed} onToggle={toggleCard} />
           </div>
         </aside>
@@ -1180,7 +1298,8 @@ export default function App() {
           on a shelf or a study page is real content, not margin. */}
       <aside className="commentary-col" aria-label="Commentary column" hidden={!reading || !chapter}>
         <CommentaryNotes book={book} chapter={chapter} lens={lens} volId={volId}
-          collapsed={collapsed} onToggle={toggleCard} controls={lensBody} />
+          collapsed={collapsed} onToggle={toggleCard} controls={lensBody}
+          onOpenRef={openReference} onJump={jumpToVerse} />
       </aside>
 
       {/* Only while a chapter is on screen to find anything in. */}
@@ -1195,10 +1314,10 @@ export default function App() {
         <StudyDock filled={filled} hidden={controlsHidden} onOpen={setSheet} />
       )}
 
-      {trail.length > 0 && (
+      {(trail.length > 0 || back || resume) && (
         <NavPill trail={trail} chapter={query ? null : chapter} atStart={atStart} atEnd={atEnd}
           onPrev={() => step(-1)} onNext={() => step(1)}
-          onBack={history.length ? goBack : null} search={!home && searchButton}
+          back={back} resume={resume} search={!home && searchButton}
           /* Only where the markers are also giving way. Wide, the dock is the
              only way through the chapters and never stands over the text. */
           hidden={controlsHidden && !!chapter && !query} />

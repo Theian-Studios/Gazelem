@@ -62,7 +62,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 3 | Sent for the plates | Out of Jerusalem |
 | 4 | Laban slain; plates obtained | Out of Jerusalem |
 | 5 | Sariah comforted; plates searched | Out of Jerusalem |
-| 6 | Nephi's purpose | Out of Jerusalem |
+| 6 | The record's purpose | Out of Jerusalem |
 | 7 | Return for Ishmael's family | Out of Jerusalem |
 | 8 | The tree of life dream | Lehi's dream |
 | 9 | Two sets of plates | Lehi's dream |

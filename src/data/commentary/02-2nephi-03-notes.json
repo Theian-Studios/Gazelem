@@ -1,0 +1,1169 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "2 Nephi",
+  "book_slug": "2nephi",
+  "chapter": 3,
+  "volume_order": "02",
+  "speakers": [
+   "Lehi"
+  ],
+  "audience": "Joseph, Lehi's last-born",
+  "location": "The promised land",
+  "date": "~588 BC (Lehi's last teachings)",
+  "unit": "Lehi's last blessings (2 Nephi 1–4)",
+  "principles": [
+   "Covenant memory",
+   "The seer",
+   "Weakness made strong"
+  ],
+  "connections": 9,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The child of the worst years",
+   "text": "Joseph was born \"in the days of my greatest sorrow\" (v. 1): somewhere in the eight-year desert stretch that killed Ishmael, broke the bows, and nearly starved the camp. Lehi names the era \"the wilderness of mine afflictions\" (v. 1) and gives the boy born inside it the blessing with the longest reach.",
+   "cites": [
+    {
+     "quote": "in the days of my greatest sorrow",
+     "verse": 1,
+     "start": 16,
+     "end": 58,
+     "spans": [
+      {
+       "w1": 20,
+       "w2": 26,
+       "text": "in the days of my greatest sorrow"
+      }
+     ]
+    },
+    {
+     "quote": "the wilderness of mine afflictions",
+     "verse": 1,
+     "start": 188,
+     "end": 231,
+     "spans": [
+      {
+       "w1": 14,
+       "w2": 18,
+       "text": "the wilderness of mine afflictions"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Covenants our Genesis lost",
+   "text": "Lehi quotes Joseph of Egypt's prophecies at length; surviving Genesis keeps only a trace (\"God will surely visit you,\" Gen. 50:24). The brass plates evidently carried a fuller Joseph literature, and this chapter is the record's longest excerpt from it, another glimpse of the larger library behind the small plates.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Gen. 50:24",
+     "start": 119,
+     "end": 129,
+     "book": "Gen",
+     "chapter": 50,
+     "verse_start": 24,
+     "verse_end": 24
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Ezekiel, writing the same doctrine that decade",
+   "text": "While Lehi blessed Joseph in the new world, Ezekiel in Babylon was joining two sticks, Judah's and Joseph's, into one (Ezek. 37:16–17). Two exiled prophets, oceans apart, drawing the same picture of two literatures becoming one testimony.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ezek. 37:16–17",
+     "start": 119,
+     "end": 133,
+     "book": "Ezek",
+     "chapter": 37,
+     "verse_start": 16,
+     "verse_end": 17
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Seer was the older title",
+   "text": "\"a choice seer\" (v. 6) reaches for the office Israel named before it named prophets (1 Sam. 9:9). A seer sees; the word claims direct sight rather than inherited text, and the record will later define the office formally (Mosiah 8:15–17) exactly as this blessing uses it.",
+   "cites": [
+    {
+     "quote": "a choice seer",
+     "verse": 6,
+     "start": 0,
+     "end": 22,
+     "spans": [
+      {
+       "w1": 18,
+       "w2": 20,
+       "text": "a choice seer"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Sam. 9:9",
+     "start": 85,
+     "end": 95,
+     "book": "1 Sam",
+     "chapter": 9,
+     "verse_start": 9,
+     "verse_end": 9
+    },
+    {
+     "kind": "scripture",
+     "text": "Mosiah 8:15–17",
+     "start": 222,
+     "end": 236,
+     "book": "Mosiah",
+     "chapter": 8,
+     "verse_start": 15,
+     "verse_end": 17
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "The namesake chain",
+   "text": "\"his name shall be called after me; and it shall be after the name of his father\" (v. 15): four Josephs stand in this chapter, the patriarch, Lehi's son, the future seer, and the seer's father. Covenant families of the age planted names like boundary stones; the repetition is memory made hereditary.",
+   "cites": [
+    {
+     "quote": "his name shall be called after me; and it shall be after the name of his father",
+     "verse": 15,
+     "start": 0,
+     "end": 89,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 18,
+       "text": "his name shall be called after me; and it shall be after the name of his father"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Moses' mouth problem",
+   "text": "The blessing's Moses is the Exodus one precisely: power \"in a rod\" (v. 17), judgment \"in writing\" (v. 17), but with the caveat \"I will not make him mighty in speaking\" (v. 17), with \"a spokesman\" (v. 17) supplied (Ex. 4:10–16). The pattern matters because the future seer is cut to it: instruments in this tradition are deliberately incomplete.",
+   "cites": [
+    {
+     "quote": "in a rod",
+     "verse": 17,
+     "start": 56,
+     "end": 74,
+     "spans": [
+      {
+       "w1": 19,
+       "w2": 21,
+       "text": "in a rod"
+      }
+     ]
+    },
+    {
+     "quote": "in writing",
+     "verse": 17,
+     "start": 85,
+     "end": 105,
+     "spans": [
+      {
+       "w1": 29,
+       "w2": 30,
+       "text": "in writing"
+      }
+     ]
+    },
+    {
+     "quote": "I will not make him mighty in speaking",
+     "verse": 17,
+     "start": 127,
+     "end": 175,
+     "spans": [
+      {
+       "w1": 44,
+       "w2": 51,
+       "text": "I will not make him mighty in speaking"
+      }
+     ]
+    },
+    {
+     "quote": "a spokesman",
+     "verse": 17,
+     "start": 182,
+     "end": 203,
+     "spans": [
+      {
+       "w1": 71,
+       "w2": 72,
+       "text": "a spokesman"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ex. 4:10–16",
+     "start": 214,
+     "end": 225,
+     "book": "Ex",
+     "chapter": 4,
+     "verse_start": 10,
+     "verse_end": 16
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "term": "simpleness",
+   "verse_label": "v. 20",
+   "text": "The dust-cry travels \"according to the simpleness of their words\" (v. 20): the same noun the record used for the look-and-live remedy the fathers despised (1 Ne. 17:41). Plainness in this tradition is not a stylistic limit but a delivery mechanism; what the words lack in force, verse 21 supplies by faith.",
+   "cites": [
+    {
+     "quote": "according to the simpleness of their words",
+     "verse": 20,
+     "start": 21,
+     "end": 73,
+     "spans": [
+      {
+       "w1": 34,
+       "w2": 40,
+       "text": "according to the simpleness of their words"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 17:41",
+     "start": 156,
+     "end": 167,
+     "book": "1 Ne",
+     "chapter": 17,
+     "verse_start": 41,
+     "verse_end": 41
+    }
+   ]
+  },
+  {
+   "term": "little",
+   "verse_label": "v. 25",
+   "text": "\"Behold, thou art little\" (v. 25): the only physical detail the farewell cycle records of any son. The smallest hearer gets the longest prophecy, and his instruction is proportionate: hearken to Nephi, remember \"the words of thy dying father\" (v. 25). In this family the future runs through the small and the last.",
+   "cites": [
+    {
+     "quote": "Behold, thou art little",
+     "verse": 25,
+     "start": 0,
+     "end": 33,
+     "spans": [
+      {
+       "w1": 7,
+       "w2": 10,
+       "text": "Behold, thou art little"
+      }
+     ]
+    },
+    {
+     "quote": "the words of thy dying father",
+     "verse": 25,
+     "start": 211,
+     "end": 250,
+     "spans": [
+      {
+       "w1": 37,
+       "w2": 42,
+       "text": "the words of thy dying father"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "the wilderness of mine afflictions",
+   "verse_label": "v. 1",
+   "text": "Lehi's own name for the eight desert years, used twice in three verses. The land got named for abundance (Bountiful); the era gets named for what it cost. That the blessing born from those years reaches furthest is the chapter's quiet enactment of the consecration promise made to Jacob one chapter earlier."
+  },
+  {
+   "term": "the fruit of my loins",
+   "verse_label": "v. 4",
+   "text": "The blessing's drumbeat, sounded again and again until lineage itself becomes the argument: covenants ride in bodies, through generations, regardless of exile. The phrase's repetition does what a genealogy does, but in prophecy: it keeps the line visible across a gap of centuries."
+  },
+  {
+   "term": "a choice seer",
+   "verse_label": "v. 7",
+   "text": "Esteemed highly, commanded narrowly, doing \"a work for the fruit of thy loins\" (v. 7) \"of great worth unto them\" (v. 7). The record here prophesies its own bringer-forth: the book quoting Joseph is the work the verse promises, which makes this the strangest and boldest loop in the volume: a text foretelling its own arrival.",
+   "cites": [
+    {
+     "quote": "a work for the fruit of thy loins",
+     "verse": 7,
+     "start": 43,
+     "end": 85,
+     "spans": [
+      {
+       "w1": 48,
+       "w2": 55,
+       "text": "a work for the fruit of thy loins"
+      }
+     ]
+    },
+    {
+     "quote": "of great worth unto them",
+     "verse": 7,
+     "start": 86,
+     "end": 119,
+     "spans": [
+      {
+       "w1": 61,
+       "w2": 65,
+       "text": "of great worth unto them"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "shall grow together",
+   "verse_label": "v. 12",
+   "text": "Judah's writing and Joseph's writing, converging \"unto the confounding of false doctrines and laying down of contentions\" (v. 12). The verb is orchard language, not conquest language: neither literature absorbs the other; they grow into one canopy. The record's whole account of its relationship to the Bible sits in this verse.",
+   "cites": [
+    {
+     "quote": "unto the confounding of false doctrines and laying down of contentions",
+     "verse": 12,
+     "start": 49,
+     "end": 129,
+     "spans": [
+      {
+       "w1": 49,
+       "w2": 59,
+       "text": "unto the confounding of false doctrines and laying down of contentions"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "out of weakness he shall be made strong",
+   "verse_label": "v. 13",
+   "text": "The instrument-doctrine in one line, matching the epistle's formula for the faithful (\"out of weakness were made strong,\" Heb. 11:34). Strength arrives as a change worked on weakness, not a replacement of it; the seer, the words, and the whole dust-cry of this chapter run on that conversion.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Heb. 11:34",
+     "start": 122,
+     "end": 132,
+     "book": "Heb",
+     "chapter": 11,
+     "verse_start": 34,
+     "verse_end": 34
+    }
+   ]
+  },
+  {
+   "term": "cried unto them from the dust",
+   "verse_label": "v. 19",
+   "text": "The record describing its own voice: a fallen people audible only in what they wrote, \"even after many generations have gone by them\" (v. 20). Isaiah gave the figure its source (a voice whispering \"out of the dust,\" Isa. 29:4), and the record adopts it as self-portrait: this book is the cry, and the reader is the brethren it was aimed at.",
+   "cites": [
+    {
+     "quote": "even after many generations have gone by them",
+     "verse": 20,
+     "start": 86,
+     "end": 141,
+     "spans": [
+      {
+       "w1": 14,
+       "w2": 21,
+       "text": "even after many generations have gone by them"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 29:4",
+     "start": 216,
+     "end": 225,
+     "book": "Isa",
+     "chapter": 29,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–3",
+   "start": 1,
+   "end": 3,
+   "title": "The last-born's estate",
+   "text": "Born in the sorrow years, brought out of them, Joseph receives land (\"a most precious land\" (v. 2)) on the family's standing condition, and a floor under all of it: \"thy seed shall not utterly be destroyed\" (v. 3). The blessing begins by fencing the worst case; everything after is upside.",
+   "cites": [
+    {
+     "quote": "a most precious land",
+     "verse": 2,
+     "start": 69,
+     "end": 98,
+     "spans": [
+      {
+       "w1": 13,
+       "w2": 16,
+       "text": "a most precious land"
+      }
+     ]
+    },
+    {
+     "quote": "thy seed shall not utterly be destroyed",
+     "verse": 3,
+     "start": 165,
+     "end": 213,
+     "spans": [
+      {
+       "w1": 24,
+       "w2": 30,
+       "text": "thy seed shall not utterly be destroyed"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 4–5",
+   "start": 4,
+   "end": 5,
+   "title": "The Egypt link",
+   "text": "\"thou art the fruit of my loins; and I am a descendant of Joseph\" (v. 4): the discovery of the plates (1 Ne. 5:14) becomes the blessing's foundation. Joseph of Egypt \"truly saw our day\" (v. 5): a \"righteous branch\" (v. 5) broken off yet remembered, brought \"out of hidden darkness and out of captivity unto freedom\" (v. 5). The family's exile was on file a millennium before it happened.",
+   "cites": [
+    {
+     "quote": "thou art the fruit of my loins; and I am a descendant of Joseph",
+     "verse": 4,
+     "start": 0,
+     "end": 72,
+     "spans": [
+      {
+       "w1": 3,
+       "w2": 16,
+       "text": "thou art the fruit of my loins; and I am a descendant of Joseph"
+      }
+     ]
+    },
+    {
+     "quote": "truly saw our day",
+     "verse": 5,
+     "start": 166,
+     "end": 192,
+     "spans": [
+      {
+       "w1": 3,
+       "w2": 6,
+       "text": "truly saw our day"
+      }
+     ]
+    },
+    {
+     "quote": "righteous branch",
+     "verse": 5,
+     "start": 196,
+     "end": 221,
+     "spans": [
+      {
+       "w1": 30,
+       "w2": 31,
+       "text": "righteous branch"
+      }
+     ]
+    },
+    {
+     "quote": "out of hidden darkness and out of captivity unto freedom",
+     "verse": 5,
+     "start": 257,
+     "end": 322,
+     "spans": [
+      {
+       "w1": 87,
+       "w2": 96,
+       "text": "out of hidden darkness and out of captivity unto freedom"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 5:14",
+     "start": 103,
+     "end": 113,
+     "book": "1 Ne",
+     "chapter": 5,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
+  },
+  {
+   "label": "v. 6–8",
+   "start": 6,
+   "end": 8,
+   "title": "Promised, and leashed",
+   "text": "A seer to the branch's descendants, esteemed highly, doing a work \"which shall be of great worth unto them\" (v. 7): bringing them \"to the knowledge of the covenants\" (v. 7). His commission is deliberately narrow (\"none other work\" (v. 8)), and his greatness is assigned, not achieved: \"I will make him great in mine eyes; for he shall do my work\" (v. 8).",
+   "cites": [
+    {
+     "quote": "which shall be of great worth unto them",
+     "verse": 7,
+     "start": 66,
+     "end": 114,
+     "spans": [
+      {
+       "w1": 58,
+       "w2": 65,
+       "text": "which shall be of great worth unto them"
+      }
+     ]
+    },
+    {
+     "quote": "to the knowledge of the covenants",
+     "verse": 7,
+     "start": 130,
+     "end": 172,
+     "spans": [
+      {
+       "w1": 72,
+       "w2": 77,
+       "text": "to the knowledge of the covenants"
+      }
+     ]
+    },
+    {
+     "quote": "none other work",
+     "verse": 8,
+     "start": 213,
+     "end": 237,
+     "spans": [
+      {
+       "w1": 13,
+       "w2": 15,
+       "text": "none other work"
+      }
+     ]
+    },
+    {
+     "quote": "I will make him great in mine eyes; for he shall do my work",
+     "verse": 8,
+     "start": 285,
+     "end": 353,
+     "spans": [
+      {
+       "w1": 25,
+       "w2": 38,
+       "text": "I will make him great in mine eyes; for he shall do my work"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 9–13",
+   "start": 9,
+   "end": 13,
+   "title": "Like Moses, with a book",
+   "text": "Great \"like unto Moses\" (v. 9), but where Moses delivered a people from Egypt, this deliverer brings words: writing to convince of writing already gone forth, two literatures growing together, contentions laid down. And the working material is stated plainly: \"out of weakness he shall be made strong\" (v. 13).",
+   "cites": [
+    {
+     "quote": "like unto Moses",
+     "verse": 9,
+     "start": 6,
+     "end": 30,
+     "spans": [
+      {
+       "w1": 6,
+       "w2": 8,
+       "text": "like unto Moses"
+      }
+     ]
+    },
+    {
+     "quote": "out of weakness he shall be made strong",
+     "verse": 13,
+     "start": 260,
+     "end": 309,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 9,
+       "text": "out of weakness he shall be made strong"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 14–16",
+   "start": 14,
+   "end": 16,
+   "title": "The name and the surety",
+   "text": "Those who seek to destroy the seer \"shall be confounded\" (v. 14); his name doubles Joseph's own and his father's; and the old patriarch stakes the promise on the one comparison his hearers cannot doubt: \"even as I am sure of the promise of Moses\" (v. 16). Prophecy this specific invites verification, and the record never blinks.",
+   "cites": [
+    {
+     "quote": "shall be confounded",
+     "verse": 14,
+     "start": 35,
+     "end": 64,
+     "spans": [
+      {
+       "w1": 20,
+       "w2": 22,
+       "text": "shall be confounded"
+      }
+     ]
+    },
+    {
+     "quote": "even as I am sure of the promise of Moses",
+     "verse": 16,
+     "start": 203,
+     "end": 254,
+     "spans": [
+      {
+       "w1": 11,
+       "w2": 20,
+       "text": "even as I am sure of the promise of Moses"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 17–21",
+   "start": 17,
+   "end": 21,
+   "title": "The spokesman economy",
+   "text": "Moses got a rod, writing, and Aaron; the seer gets writing and a spokesman too. What the words lack, faith supplies: \"the weakness of their words will I make strong in their faith\" (v. 21), and the dead authors \"shall cry from the dust\" (v. 20), repentance across the generations, in words kept deliberately simple.",
+   "cites": [
+    {
+     "quote": "the weakness of their words will I make strong in their faith",
+     "verse": 21,
+     "start": 117,
+     "end": 188,
+     "spans": [
+      {
+       "w1": 25,
+       "w2": 36,
+       "text": "the weakness of their words will I make strong in their faith"
+      }
+     ]
+    },
+    {
+     "quote": "shall cry from the dust",
+     "verse": 20,
+     "start": 211,
+     "end": 244,
+     "spans": [
+      {
+       "w1": 3,
+       "w2": 7,
+       "text": "shall cry from the dust"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 22–25",
+   "start": 22,
+   "end": 25,
+   "title": "The seal",
+   "text": "\"after this manner did my father of old prophesy\" (v. 22): Lehi files his source, then draws the dividend: Joseph's seed preserved because \"they shall hearken unto the words of the book\" (v. 23); \"one mighty among them\" (v. 24) working restoration. The farewell ends at true scale: a little boy, a dying father, and instructions that fit both: hearken, and remember.",
+   "cites": [
+    {
+     "quote": "after this manner did my father of old prophesy",
+     "verse": 22,
+     "start": 0,
+     "end": 57,
+     "spans": [
+      {
+       "w1": 7,
+       "w2": 15,
+       "text": "after this manner did my father of old prophesy"
+      }
+     ]
+    },
+    {
+     "quote": "they shall hearken unto the words of the book",
+     "verse": 23,
+     "start": 139,
+     "end": 194,
+     "spans": [
+      {
+       "w1": 17,
+       "w2": 25,
+       "text": "they shall hearken unto the words of the book"
+      }
+     ]
+    },
+    {
+     "quote": "one mighty among them",
+     "verse": 24,
+     "start": 196,
+     "end": 227,
+     "spans": [
+      {
+       "w1": 6,
+       "w2": 9,
+       "text": "one mighty among them"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "Four Josephs, one memory",
+   "text": "Patriarch, last-born, seer, and the seer's father share a name across two and a half thousand years of this chapter's sightline. The blessing braids identity through repetition: a covenant family remembers by naming, and the name itself becomes the prophecy's carrying case."
+  },
+  {
+   "n": 2,
+   "title": "The book prophesies its bringer-forth",
+   "text": "The choice seer's commissioned work is the very record that preserves the prophecy about him. No bolder self-reference exists in the volume: the text stakes its credibility on a future person, named, described, and assigned to deliver it."
+  },
+  {
+   "n": 3,
+   "title": "Deliverance by literature",
+   "text": "The chapter sets two redeemers side by side: Moses, who brought a people out of Egypt, and a seer, who brings a people out of darkness by words. The second exodus in this blessing is a reading event; captivity's modern form is ignorance of covenants, and its Red Sea is a book."
+  },
+  {
+   "n": 4,
+   "title": "Convergence, not replacement",
+   "text": "Judah's scripture and Joseph's scripture grow together; neither is demoted. The record's theory of itself is companionship: false doctrine falls not when one book wins but when two independent witnesses agree, and this chapter is where that theory is chartered."
+  },
+  {
+   "n": 5,
+   "title": "The instrument is kept weak",
+   "text": "No eloquence for Moses, no loosed tongue for the seer, simpleness for the words, and spokesmen to cover the gaps. The design is consistent and stated: power visibly God's because the instrument visibly lacks it. Weakness in this doctrine is a credential."
+  },
+  {
+   "n": 6,
+   "title": "A voice from the dust",
+   "text": "The chapter knows its authors will be long dead before their words land, and makes the deadness part of the message: a cry surviving its criers, aimed at descendants \"after many generations\" (v. 20). Few books describe their own transmission; this one mourns and exults over it in the same verse.",
+   "cites": [
+    {
+     "quote": "after many generations",
+     "verse": 20,
+     "start": 166,
+     "end": 198,
+     "spans": [
+      {
+       "w1": 15,
+       "w2": 17,
+       "text": "after many generations"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "The farewell cycle's furthest sight",
+   "text": "To Jacob, Lehi gave doctrine; to Joseph, history's far end. The blessings scale not to the sons' age but to their need: the theologian got the atonement, and the little one got the guarantee that his line's story ends in restoration rather than ruin."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Name your wilderness",
+    "verse_label": "v. 1",
+    "text": "Lehi called the worst years what they were, the wilderness of mine afflictions, and then identified what was born there. Do both halves: name your hardest era honestly, then list what came out of it that nothing easier would have produced."
+   },
+   {
+    "title": "Bless past your sight",
+    "verse_label": "v. 5",
+    "text": "Joseph of Egypt spoke usefully about descendants twenty-five centuries out. When you pray for or record blessings on your children, include the generations you will never meet; covenant words are built to outlive their speakers."
+   },
+   {
+    "title": "Read the two witnesses together",
+    "verse_label": "v. 12",
+    "text": "Take one doctrine this month and trace it through both records, Judah's and Joseph's, side by side. The confounding of confusion promised here happens at the seam; readers of one book only never see the agreement."
+   },
+   {
+    "title": "Volunteer your weakness",
+    "verse_label": "v. 13",
+    "text": "Identify the assignment you have declined because you lack the eloquence, education, or nerve for it. This chapter's whole staffing policy runs on exactly that lack: offer the weakness and let the making-strong be God's problem."
+   },
+   {
+    "title": "Write for the dust",
+    "verse_label": "v. 19",
+    "text": "Add something to your own record this week written explicitly for a descendant who will read it after you are gone: counsel, testimony, repentance. The chapter's authors wrote for readers whose faith they trusted before meeting them; so can you."
+   },
+   {
+    "title": "Honor the little ones' blessings",
+    "verse_label": "v. 25",
+    "text": "The smallest member of a family can carry its longest promises. Find the Joseph in your household, the youngest, the overlooked, and put words of specific, far-reaching blessing on them out loud."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What was born in the days of my greatest sorrow that I have never yet credited to those days?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "Where has God given me a narrow assignment I keep trying to widen, and what would doing \"none other work\" look like?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "Do the two records actually grow together in my study, or does one of them sit shelved?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "Which of my weaknesses have I hidden so well that God's making-it-strong would go unnoticed?"
+   },
+   {
+    "verse_label": "v. 19",
+    "start": 19,
+    "end": 19,
+    "text": "If my descendants could hear only what I have written down, what would my cry from the dust actually say?"
+   },
+   {
+    "verse_label": "v. 25",
+    "start": 25,
+    "end": 25,
+    "text": "Whose dying words am I charged with remembering, and when did I last act on them?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "2ne03-008",
+   "scope": "BOOK",
+   "head": "2 Ne. 9:53",
+   "anchor": {
+    "verse": 5,
+    "w1": 29,
+    "w2": 36,
+    "quote": "a righteous branch unto the house of Israel"
+   },
+   "reason": "the branch promise preached to the colony",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 9,
+     "verse": 53,
+     "w1": 57,
+     "w2": 67,
+     "quote": "they shall become a righteous branch unto the house of Israel",
+     "span": true
+    }
+   ],
+   "mirror": "2ne09-001"
+  },
+  {
+   "id": "2ne03-001",
+   "scope": "BOOK",
+   "head": "2 Ne. 1:28",
+   "anchor": {
+    "verse": 25,
+    "w1": 12,
+    "w2": 19,
+    "quote": "hearken unto the words of thy brother, Nephi"
+   },
+   "reason": "each son's blessing hinged the same way",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 1,
+     "verse": 28,
+     "w1": 22,
+     "w2": 34,
+     "quote": "if ye will hearken unto the voice of Nephi ye shall not perish",
+     "span": true
+    }
+   ],
+   "mirror": "2ne01-009"
+  },
+  {
+   "id": "2ne03-002",
+   "scope": "BOOK",
+   "head": "2 Ne. 1:32",
+   "anchor": {
+    "verse": 2,
+    "w1": 29,
+    "w2": 32,
+    "quote": "for thy security forever"
+   },
+   "reason": "Zoram's clause repeated for Joseph",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 1,
+     "verse": 32,
+     "w1": 14,
+     "w2": 22,
+     "quote": "consecrated this land for the security of thy seed",
+     "span": true
+    }
+   ],
+   "mirror": "2ne01-010"
+  },
+  {
+   "id": "2ne03-009",
+   "scope": "BOM",
+   "head": "Jacob 2:25",
+   "anchor": {
+    "verse": 5,
+    "w1": 29,
+    "w2": 36,
+    "quote": "a righteous branch unto the house of Israel"
+   },
+   "reason": "the branch invoked as grounds for the marriage law",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 2,
+     "verse": 25,
+     "w1": 27,
+     "w2": 41,
+     "quote": "raise up unto me a righteous branch from the fruit of the loins of Joseph",
+     "span": true
+    }
+   ],
+   "mirror": "jac02-007"
+  },
+  {
+   "id": "2ne03-003",
+   "scope": "BOM",
+   "head": "1 Ne. 5:14",
+   "anchor": {
+    "verse": 4,
+    "w1": 11,
+    "w2": 22,
+    "quote": "I am a descendant of Joseph who was carried captive into Egypt"
+   },
+   "reason": "the plates-discovery built into a blessing",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 5,
+     "verse": 14,
+     "w1": 26,
+     "w2": 31,
+     "quote": "he was a descendant of Joseph",
+     "span": true
+    }
+   ],
+   "mirror": "1ne05-005"
+  },
+  {
+   "id": "2ne03-004",
+   "scope": "SW",
+   "head": "Ezek. 37:16; Ezek. 37:17",
+   "anchor": {
+    "verse": 12,
+    "w1": 46,
+    "w2": 48,
+    "quote": "shall grow together"
+   },
+   "reason": "Ezekiel's two sticks, joined the same decade",
+   "targets": [
+    {
+     "ref": "Ezek.",
+     "chapter": 37,
+     "verse": 16,
+     "w1": 32,
+     "w2": 37,
+     "quote": "For Joseph, the stick of Ephraim",
+     "span": true
+    },
+    {
+     "ref": "Ezek.",
+     "chapter": 37,
+     "verse": 17,
+     "w1": 11,
+     "w2": 17,
+     "quote": "they shall become one in thine hand",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne03-005",
+   "scope": "SW",
+   "head": "Heb. 11:34",
+   "anchor": {
+    "verse": 13,
+    "w1": 2,
+    "w2": 9,
+    "quote": "out of weakness he shall be made strong"
+   },
+   "reason": "the epistle's formula for the faithful",
+   "targets": [
+    {
+     "ref": "Heb.",
+     "chapter": 11,
+     "verse": 34,
+     "w1": 12,
+     "w2": 17,
+     "quote": "out of weakness were made strong",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne03-006",
+   "scope": "SW",
+   "head": "Ex. 4:10; Ex. 4:16",
+   "anchor": {
+    "verse": 17,
+    "w1": 44,
+    "w2": 51,
+    "quote": "I will not make him mighty in speaking"
+   },
+   "reason": "power staffed around a weak mouth",
+   "targets": [
+    {
+     "ref": "Ex.",
+     "chapter": 4,
+     "verse": 10,
+     "w1": 25,
+     "w2": 34,
+     "quote": "I am slow of speech, and of a slow tongue",
+     "span": true
+    },
+    {
+     "ref": "Ex.",
+     "chapter": 4,
+     "verse": 16,
+     "w1": 2,
+     "w2": 9,
+     "quote": "he shall be thy spokesman unto the people",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne03-007",
+   "scope": "SW",
+   "head": "Isa. 29:4",
+   "anchor": {
+    "verse": 20,
+    "w1": 2,
+    "w2": 7,
+    "quote": "they shall cry from the dust"
+   },
+   "reason": "Isaiah's whisper out of the dust",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 29,
+     "verse": 4,
+     "w1": 42,
+     "w2": 49,
+     "quote": "thy speech shall whisper out of the dust",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 29,
+   "w2": 32,
+   "quote": "for thy security forever",
+   "entries": [
+    "2ne03-002"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 11,
+   "w2": 22,
+   "quote": "I am a descendant of Joseph who was carried captive into Egypt",
+   "entries": [
+    "2ne03-003"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 29,
+   "w2": 36,
+   "quote": "a righteous branch unto the house of Israel",
+   "entries": [
+    "2ne03-008",
+    "2ne03-009"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 46,
+   "w2": 48,
+   "quote": "shall grow together",
+   "entries": [
+    "2ne03-004"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 2,
+   "w2": 9,
+   "quote": "out of weakness he shall be made strong",
+   "entries": [
+    "2ne03-005"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 44,
+   "w2": 51,
+   "quote": "I will not make him mighty in speaking",
+   "entries": [
+    "2ne03-006"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 2,
+   "w2": 7,
+   "quote": "they shall cry from the dust",
+   "entries": [
+    "2ne03-007"
+   ]
+  },
+  {
+   "verse": 25,
+   "w1": 12,
+   "w2": 19,
+   "quote": "hearken unto the words of thy brother, Nephi",
+   "entries": [
+    "2ne03-001"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "22d9131c13819575"
+ }
+}

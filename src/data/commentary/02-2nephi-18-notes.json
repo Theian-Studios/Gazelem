@@ -1,0 +1,651 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "2 Nephi",
+  "book_slug": "2nephi",
+  "chapter": 18,
+  "volume_order": "02",
+  "speakers": [
+   "Nephi (quoting Isaiah)"
+  ],
+  "audience": null,
+  "location": "The land of Nephi",
+  "date": "~559–545 BC (engraved); Isaiah's oracle ~734–732 BC",
+  "unit": "Isaiah block preface (2 Nephi 11–24)",
+  "principles": [
+   "Witnesses",
+   "Fear rightly placed",
+   "The tested word"
+  ],
+  "connections": 8,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "A prophecy notarized",
+   "text": "Isaiah writes a name on a large scroll, in ordinary script, and has two named men witness it before the child exists. One is a priest. The procedure looks like a legal deposit: the prediction is dated and attested in advance so that nobody can claim afterward that it was written to fit events."
+  },
+  {
+   "n": 2,
+   "title": "A child as a clock",
+   "text": "The boy's name is a sentence about spoil and prey, and verse 4 supplies its function rather than its translation: before he can say father or mother, Damascus and Samaria will be stripped. Isaiah's household is being used as a public calendar, which is a heavy thing to do to two sons."
+  },
+  {
+   "n": 3,
+   "title": "Shiloah and the River",
+   "text": "Shiloah was Jerusalem's own water channel, small and slow, fed from the Gihon spring. The River is the Euphrates, and behind it Assyria. The contrast is between a modest local supply and a flood, and the people are described as refusing the first, which makes the second their own choice."
+  },
+  {
+   "n": 4,
+   "title": "What \"a confederacy\" meant",
+   "text": "The word in verse 12 is the political vocabulary of the moment: Judah's court was full of talk about who was allied with whom. Isaiah is told not to use the word everyone else is using, which is an instruction about speech habits rather than about policy, and it comes with a matching instruction about fear."
+  },
+  {
+   "n": 5,
+   "title": "A gin and a snare",
+   "text": "Both are traps, one a spring device and one a noose or net. The chapter puts them in the same sentence as \"sanctuary\" (v. 14), so the same presence is shelter and hazard depending on approach. Later writers apply the stumbling stone to the rejection of Christ, and the record's own Jacob does so at length.",
+   "cites": [
+    {
+     "quote": "sanctuary",
+     "verse": 14,
+     "start": 106,
+     "end": 125,
+     "spans": [
+      {
+       "w1": 7,
+       "w2": 7,
+       "text": "sanctuary"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Peeping and muttering",
+   "text": "Verse 19 describes mediums by the noise they make: a thin chirp and a low murmur, the voice a spirit was supposed to have. Consulting them was forbidden in the law of Moses by name. Isaiah's counter-question is not squeamish about the practice so much as astonished at its logic."
+  }
+ ],
+ "words": [
+  {
+   "term": "Maher-shalal-hash-baz",
+   "verse_label": "v. 1",
+   "text": "A whole sentence used as a name, and the longest name in the Bible. The chapter never translates it, but verse 4 gives its content: spoil and prey, taken quickly, before a toddler can speak. Isaiah writes it twice, once on a scroll and once on a child, so the prophecy exists in two forms and one of them grows up."
+  },
+  {
+   "term": "prophetess",
+   "verse_label": "v. 3",
+   "text": "The title is given without explanation and belongs to Isaiah's wife. Whether it names an office she held or her role as the mother of a sign-child, the text does not say, and the record keeps the word. She appears in one clause and produces the chapter's central evidence."
+  },
+  {
+   "term": "gin",
+   "verse_label": "v. 14",
+   "text": "A trap that springs, older English for a snare with a mechanism. It sits beside \"snare\" (v. 14) and opposite \"sanctuary\" (v. 14), and the three nouns describe one person. What catches a foot is not different from what shelters a life; the difference is in how it is met.",
+   "cites": [
+    {
+     "quote": "snare",
+     "verse": 14,
+     "start": 80,
+     "end": 95,
+     "spans": [
+      {
+       "w1": 31,
+       "w2": 31,
+       "text": "snare"
+      }
+     ]
+    },
+    {
+     "quote": "sanctuary",
+     "verse": 14,
+     "start": 109,
+     "end": 128,
+     "spans": [
+      {
+       "w1": 7,
+       "w2": 7,
+       "text": "sanctuary"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "peep",
+   "verse_label": "v. 19",
+   "text": "Not a glance. The older sense is a thin, chirping sound, the noise a bird or a chick makes, and it is paired with muttering. Isaiah describes the séance by its audio rather than by its claims, and the description is devastating without arguing anything: the dead, in this picture, squeak."
+  },
+  {
+   "term": "bestead",
+   "verse_label": "v. 21",
+   "text": "Placed, situated, and here modified by \"hardly\" to mean badly off. The word describes people passing through the land in a condition rather than performing an action. It opens the chapter's last movement, in which the hungry curse upward and then look down, and find trouble in both directions."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "the word of the Lord said unto me",
+   "verse_label": "v. 1",
+   "text": "The King James has simply \"Moreover the LORD said unto me\" (Isa. 8:1). Two words are added here, and they change the speaker from the Lord to the word of the Lord. The record uses that construction elsewhere for a personal messenger, and whether or not that is meant here, the addition makes the chapter open on a phrase a reader of this book has been trained to notice.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 8:1",
+     "start": 60,
+     "end": 68,
+     "book": "Isa",
+     "chapter": 8,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
+  },
+  {
+   "term": "the child shall not have knowledge to cry",
+   "verse_label": "v. 4",
+   "text": "The King James builds a single long sentence: \"before the child shall have knowledge to cry, My father, and my mother\" (Isa. 8:4), the riches of Damascus will be taken. This reading breaks it and negates it, then supplies \"before\" later in the verse. The timetable is the same; the sentence now leads with the child's inability rather than with the deadline, which puts the human detail in front of the politics.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 8:4",
+     "start": 120,
+     "end": 128,
+     "book": "Isa",
+     "chapter": 8,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
+  },
+  {
+   "term": "the waters of Shiloah that go softly",
+   "verse_label": "v. 6",
+   "text": "The most quietly damning line in the chapter. What the people refused was not a hard command but a small stream that made no noise, and what they preferred was the excitement of foreign kings. Isaiah's diagnosis of apostasy here is not rebellion but taste: the modest thing was available and it was boring."
+  },
+  {
+   "term": "the breadth of thy land, O Immanuel",
+   "verse_label": "v. 8",
+   "text": "The name given as a sign in the previous chapter is used here as a form of address, and the land belongs to him. Assyria floods up to the neck, and the last two words of the verse name the owner of what is being drowned. Nephi copied the two chapters in sequence, so a reader meets the promise and its first invocation four verses apart."
+  },
+  {
+   "term": "for God is with us",
+   "verse_label": "v. 10",
+   "text": "The same name again, this time translated into a clause and used as the reason a conspiracy fails. Verses 9 and 10 pile up imperatives to enemies, associate, gird, take counsel, speak the word, and each is answered with breaking or nothing. The whole passage rests on four words that are also a boy's name."
+  },
+  {
+   "term": "a stone of stumbling, and for a rock of offense",
+   "verse_label": "v. 14",
+   "text": "Peter applies the phrase to Christ as \"a stone of stumbling, and a rock of offence\" (1 Pet. 2:8), and Jacob will spend part of a sermon on the Jews rejecting the stone they might have built on. Here it is governed by the word before it: he shall be for a sanctuary, but for a stone of stumbling. One person, two outcomes, decided by the approach rather than by the stone.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Pet. 2:8",
+     "start": 85,
+     "end": 95,
+     "book": "1 Pet",
+     "chapter": 2,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
+  },
+  {
+   "term": "for the living to hear from the dead",
+   "verse_label": "v. 19",
+   "text": "The King James leaves a famously compressed clause: \"should not a people seek unto their God? for the living to the dead?\" (Isa. 8:19). This reading joins the two into one sentence and adds the verb: should a people seek their God, or seek the dead on the living's behalf? What was an elliptical fragment becomes a plain question with an obvious answer, and the verse stops needing a commentary.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 8:19",
+     "start": 124,
+     "end": 133,
+     "book": "Isa",
+     "chapter": 8,
+     "verse_start": 19,
+     "verse_end": 19
+    }
+   ]
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–4",
+   "start": 1,
+   "end": 4,
+   "title": "The prophecy filed in advance",
+   "text": "A scroll, a pen, two named witnesses, and then a child conceived and named to match. The sequence is deliberate and it is about evidence: the prediction is made public and attested before it can be checked, and the check arrives within two years in the form of a toddler who cannot yet talk."
+  },
+  {
+   "label": "v. 5–8",
+   "start": 5,
+   "end": 8,
+   "title": "Small water refused, big water sent",
+   "text": "The judgment fits the choice exactly. A people who would not have the soft stream get the flood, and the flood is a specific empire arriving with all its glory. The image runs from ankle to neck across two verses, and stops just short of over the head, which is the mercy in it."
+  },
+  {
+   "label": "v. 9–10",
+   "start": 9,
+   "end": 10,
+   "title": "Break yourselves, then",
+   "text": "Three times the same verdict, \"ye shall be broken in pieces\" (v. 9), addressed to anyone assembling against Judah. The passage reads like a taunt and ends like a creed. Every threat is dismissed on one ground, which is not Judah's strength but God's presence.",
+   "cites": [
+    {
+     "quote": "ye shall be broken in pieces",
+     "verse": 9,
+     "start": 30,
+     "end": 67,
+     "spans": [
+      {
+       "w1": 7,
+       "w2": 12,
+       "text": "ye shall be broken in pieces"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 11–13",
+   "start": 11,
+   "end": 13,
+   "title": "A different fear, taught by a strong hand",
+   "text": "Isaiah is personally instructed not to talk like everyone else or to be afraid of what frightens everyone else. The alternative is not fearlessness but relocation: let the Lord of Hosts \"be your fear, and let him be your dread\" (v. 13). The emotion is kept and its object is changed.",
+   "cites": [
+    {
+     "quote": "be your fear, and let him be your dread",
+     "verse": 13,
+     "start": 186,
+     "end": 235,
+     "spans": [
+      {
+       "w1": 10,
+       "w2": 18,
+       "text": "be your fear, and let him be your dread"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 14–15",
+   "start": 14,
+   "end": 15,
+   "title": "Sanctuary and stone",
+   "text": "Two verses give the same person two functions and the second is described in more detail than the first. Stumbling, falling, breaking, snaring, taking: five verbs for what happens to those who meet him wrongly, against one noun for those who take shelter. The imbalance is honest about how the encounter usually goes."
+  },
+  {
+   "label": "v. 16–18",
+   "start": 16,
+   "end": 18,
+   "title": "Seal it, and wait",
+   "text": "With the message rejected, Isaiah is told to bind up the testimony among his disciples and then announces what he will personally do: wait for a God who is hiding his face, and look for him. Then he presents himself and his two oddly named sons as living signs. The prophet's response to public failure is a small circle and a long wait."
+  },
+  {
+   "label": "v. 19–22",
+   "start": 19,
+   "end": 22,
+   "title": "Two places to look",
+   "text": "The chapter ends by naming the alternatives precisely. Look to the dead through mediums who chirp, or look to the law and the testimony, with a test attached: no light in what fails to match. Those who refuse both curse upward and look down, and find only trouble, dimness, and driven darkness."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "A chapter built on witnesses",
+   "text": "Two men attest a scroll, a child attests a timetable, the prophet and his sons are signs, and the law and the testimony are the standard against which any voice is measured. Isaiah's answer to a nation that will not believe is not more argument. It is more evidence, deposited in advance."
+  },
+  {
+   "n": 2,
+   "title": "The rejected small thing",
+   "text": "Shiloah goes softly; Assyria roars. The chapter's central diagnosis is that people refuse what is quiet and available in favor of what is dramatic and foreign, and that the drama then arrives at full scale. This is the same pattern the block used on the vineyard, stated in water."
+  },
+  {
+   "n": 3,
+   "title": "The name is worked three ways",
+   "text": "Immanuel is a sign in chapter 17, an address in verse 8, and a translated clause in verse 10. Nephi copied both chapters, and the effect for his readers is that the name arrives, gets applied to the land, and then becomes the reason enemies fail. Nothing is explained; the usage does the work."
+  },
+  {
+   "n": 4,
+   "title": "Fear is not removed, it is reassigned",
+   "text": "Verses 12 and 13 are the chapter's practical center: do not say what they say, do not fear what they fear, and let God be the dread instead. Isaiah does not tell a frightened people to calm down. He tells them they are afraid of the wrong thing."
+  },
+  {
+   "n": 5,
+   "title": "A test for competing voices",
+   "text": "Verse 20 gives a standard that later writers rely on: measure any word against the law and the testimony. It arrives immediately after a description of mediums, so its first application is to spiritual claims rather than to doctrine in the abstract. The record will use the same test on itself."
+  },
+  {
+   "n": 6,
+   "title": "The prophet plans for failure",
+   "text": "Between the taunt at the conspiracy and the darkness at the end, Isaiah quietly seals his message among disciples and settles in to wait on a hidden God. That posture, rather than the vindication, is what the chapter models for a small group holding a message the public has declined."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Write it down before it happens",
+    "verse_label": "v. 1–2",
+    "text": "Isaiah deposited a prediction with witnesses so it could not be revised after the fact. When you receive direction, record it with the date and tell one person, so that later you are reading rather than remembering."
+   },
+   {
+    "title": "Take the soft water",
+    "verse_label": "v. 6",
+    "text": "Identify the quiet, unremarkable resource you have been neglecting: a habit of prayer, a plain scripture, an unexciting counsel. Use it deliberately this week instead of looking for something with more current."
+   },
+   {
+    "title": "Change the object, not the emotion",
+    "verse_label": "v. 12–13",
+    "text": "Rather than trying to stop being afraid, name what you fear and then deliberately place a larger reverence above it. Isaiah's instruction assumes the capacity for dread is fixed and only its direction is negotiable."
+   },
+   {
+    "title": "Stop saying the word everyone says",
+    "verse_label": "v. 12",
+    "text": "Notice a phrase that dominates your circle's anxious talk, and go a week without using it. The chapter treats speech as part of the contagion, not merely a symptom of it."
+   },
+   {
+    "title": "Run the verse 20 test once",
+    "verse_label": "v. 20",
+    "text": "Take a claim you have absorbed recently, from a person, a feed, or a feeling, and hold it against the law and the testimony rather than against your instinct. Report the result honestly to yourself."
+   },
+   {
+    "title": "Choose the long horizon",
+    "verse_label": "v. 17",
+    "text": "When something you have been promised is plainly not arriving, say out loud what Isaiah says: I will wait, and I will look for him. Then pick the interval you are willing to wait, and make it longer than feels reasonable."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Who are the faithful witnesses in my life, and have I given them anything to witness?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "What has gone softly in my life that I have refused because it was not exciting enough?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "If the land is Immanuel's, what does that change about the trouble currently covering mine?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "What do I actually dread, and what would it look like for that place to be occupied by God instead?"
+   },
+   {
+    "verse_label": "v. 14",
+    "start": 14,
+    "end": 14,
+    "text": "Has Christ been a sanctuary to me lately, or something I keep tripping over?"
+   },
+   {
+    "verse_label": "v. 19",
+    "start": 19,
+    "end": 19,
+    "text": "Where am I consulting sources that peep and mutter, and why do I find them more satisfying than the plain answer?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "2ne18-001",
+   "scope": "BOOK",
+   "head": "2 Ne. 17:14",
+   "anchor": {
+    "verse": 8,
+    "w1": 29,
+    "w2": 35,
+    "quote": "the breadth of thy land, O Immanuel"
+   },
+   "reason": "the promised name used as address",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 17,
+     "verse": 14,
+     "w1": 20,
+     "w2": 24,
+     "quote": "shall call his name Immanuel",
+     "span": true
+    }
+   ],
+   "mirror": "2ne17-001"
+  },
+  {
+   "id": "2ne18-002",
+   "scope": "BOOK",
+   "head": "2 Ne. 17:3",
+   "anchor": {
+    "verse": 18,
+    "w1": 2,
+    "w2": 17,
+    "quote": "I and the children whom the Lord hath given me are for signs and for wonders"
+   },
+   "reason": "both named sons standing as evidence",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 17,
+     "verse": 3,
+     "w1": 13,
+     "w2": 17,
+     "quote": "thou and Shearjashub thy son",
+     "span": true
+    }
+   ],
+   "mirror": "2ne17-010"
+  },
+  {
+   "id": "2ne18-003",
+   "scope": "BOM",
+   "head": "Jacob 4:15",
+   "anchor": {
+    "verse": 14,
+    "w1": 10,
+    "w2": 19,
+    "quote": "a stone of stumbling, and for a rock of offense"
+   },
+   "reason": "the stone Jacob says they reject",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 4,
+     "verse": 15,
+     "w1": 33,
+     "w2": 42,
+     "quote": "they will reject the stone upon which they might build",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "2ne18-004",
+   "scope": "SW",
+   "head": "Isa. 8:1",
+   "anchor": {
+    "verse": 1,
+    "w1": 2,
+    "w2": 9,
+    "quote": "the word of the Lord said unto me"
+   },
+   "reason": "the block and its source chapter",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 8,
+     "verse": 1,
+     "w1": 1,
+     "w2": 6,
+     "quote": "Moreover the LORD said unto me",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne18-005",
+   "scope": "SW",
+   "head": "Isa. 8:4",
+   "anchor": {
+    "verse": 4,
+    "w1": 3,
+    "w2": 15,
+    "quote": "the child shall not have knowledge to cry, My father, and my mother"
+   },
+   "reason": "the deadline sentence rebuilt",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 8,
+     "verse": 4,
+     "w1": 1,
+     "w2": 14,
+     "quote": "For before the child shall have knowledge to cry, My father, and my mother",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne18-006",
+   "scope": "SW",
+   "head": "1 Pet. 2:8",
+   "anchor": {
+    "verse": 14,
+    "w1": 10,
+    "w2": 19,
+    "quote": "a stone of stumbling, and for a rock of offense"
+   },
+   "reason": "Peter applies the pair to Christ",
+   "targets": [
+    {
+     "ref": "1 Pet.",
+     "chapter": 2,
+     "verse": 8,
+     "w1": 2,
+     "w2": 10,
+     "quote": "a stone of stumbling, and a rock of offence",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne18-007",
+   "scope": "SW",
+   "head": "Deut. 18:11",
+   "anchor": {
+    "verse": 19,
+    "w1": 21,
+    "w2": 36,
+    "quote": "should not a people seek unto their God for the living to hear from the dead"
+   },
+   "reason": "the law naming the forbidden practice",
+   "targets": [
+    {
+     "ref": "Deut.",
+     "chapter": 18,
+     "verse": 11,
+     "w1": 5,
+     "w2": 15,
+     "quote": "a consulter with familiar spirits, or a wizard, or a necromancer",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne18-008",
+   "scope": "SW",
+   "head": "Isa. 8:19",
+   "anchor": {
+    "verse": 19,
+    "w1": 21,
+    "w2": 36,
+    "quote": "should not a people seek unto their God for the living to hear from the dead"
+   },
+   "reason": "an elliptical clause made a question",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 8,
+     "verse": 19,
+     "w1": 23,
+     "w2": 36,
+     "quote": "should not a people seek unto their God? for the living to the dead",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 2,
+   "w2": 9,
+   "quote": "the word of the Lord said unto me",
+   "entries": [
+    "2ne18-004"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 3,
+   "w2": 15,
+   "quote": "the child shall not have knowledge to cry, My father, and my mother",
+   "entries": [
+    "2ne18-005"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 29,
+   "w2": 35,
+   "quote": "the breadth of thy land, O Immanuel",
+   "entries": [
+    "2ne18-001"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 10,
+   "w2": 19,
+   "quote": "a stone of stumbling, and for a rock of offense",
+   "entries": [
+    "2ne18-003",
+    "2ne18-006"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 2,
+   "w2": 17,
+   "quote": "I and the children whom the Lord hath given me are for signs and for wonders",
+   "entries": [
+    "2ne18-002"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 21,
+   "w2": 36,
+   "quote": "should not a people seek unto their God for the living to hear from the dead",
+   "entries": [
+    "2ne18-007",
+    "2ne18-008"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "fe0452e3f74fbb51"
+ }
+}

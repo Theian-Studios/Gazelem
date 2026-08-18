@@ -20,7 +20,7 @@ import StudyDock, { PANELS, useFilledPanels, useSheetDismissal, useHideOnScrollD
 import SectionTile, { TimelineIcon, ProphetsIcon, MapIcon, ComingForthIcon, OverviewIcon, EvidencesIcon, ResourcesIcon, ChartsIcon } from "./components/SectionTile.jsx";
 import { mentionsOf, marginMentions } from "./lib/mentions.js";
 import { ChapterOverview, CommentaryNotes, CrossConnections } from "./components/Commentary.jsx";
-import { getCommentary, connectionsByVerse } from "./lib/commentary.js";
+import { useCommentary, connectionsByVerse } from "./lib/commentary.js";
 import { parseCitations } from "./lib/refs.js";
 import { useHorizontalSwipe } from "./lib/swipe.js";
 import { countIn } from "./lib/find.js";
@@ -60,7 +60,12 @@ export default function App() {
   const [books, setBooks] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  // Which verses are marked, and scrolled to. A list rather than a number: a
+  // reference names a run as often as it names one verse — "vv. 4–6" — and
+  // marking only the first of them said the wrong thing about what was cited.
+  // Everything that sets a single verse sets a list of one; see markVerses.
   const [targetVerse, setTargetVerse] = useState(null);
+  const markVerses = (v) => setTargetVerse(v == null ? null : [].concat(v));
   // -1 / 1 while paging with the nav arrows, 0 for every other entry point.
   const [flipDir, setFlipDir] = useState(0);
   // Which lenses the commentary is read through. Nothing consumes these yet —
@@ -239,7 +244,9 @@ export default function App() {
       setBookIdx(bi < 0 ? null : bi);
       const ci = s.ch != null && bi >= 0 ? data[bi].chapters.findIndex((c) => c.n === s.ch) : -1;
       setChapIdx(ci < 0 ? null : ci);
-      setTargetVerse(ci < 0 ? null : s.verse || null);
+      // A reference that names a run marks the run; one that names a verse,
+      // or a search hit, marks the one it landed on.
+      markVerses(ci < 0 ? null : (s.verses?.length ? s.verses : s.verse || null));
     };
 
     const cached = getCached(vol.id);
@@ -533,8 +540,10 @@ export default function App() {
     // nothing left here but the mark and the clearing of it.
     const already = scrolledFor.current === targetVerse;
     scrolledFor.current = null;
+    // The first of them is what is brought into view: a run reads downward, and
+    // its opening verse is where the reader starts.
     const t = already ? null : setTimeout(() => {
-      document.getElementById(`verse-${targetVerse}`)?.scrollIntoView({ block: "center", behavior: "auto" });
+      document.getElementById(`verse-${targetVerse[0]}`)?.scrollIntoView({ block: "center", behavior: "auto" });
     }, 60);
     const clear = setTimeout(() => setTargetVerse(null), 3200);
     return () => { if (t) clearTimeout(t); clearTimeout(clear); };
@@ -580,9 +589,12 @@ export default function App() {
   // a reader who moved the lens to Behind — from a sheet, on a phone, with the
   // control then hidden behind it — watched the chapter itself lose its marks
   // for no reason they could see.
-  const chapterNotes = chapter
-    ? getCommentary(volId === "dc" ? "Doctrine and Covenants" : book?.name, chapter.n)
-    : null;
+  // Fetched when the chapter is opened, so the marks appear a moment after the
+  // text rather than the whole corpus arriving before either.
+  const { notes: chapterNotes } = useCommentary(
+    chapter ? (volId === "dc" ? "Doctrine and Covenants" : book?.name) : null,
+    chapter?.n ?? null,
+  );
   const verseConnections = chapter ? connectionsByVerse(chapterNotes, chapter.n) : null;
   // The notes' `underline:` anchors are still parsed (see underlinesByVerse in
   // lib/commentary.js) but nothing draws them for now.
@@ -603,7 +615,7 @@ export default function App() {
       v: cite.book.v,
       book: cite.book.n,
       ch: cite.chapter,
-      verse: cite.verses[0] ?? null,
+      verses: cite.verses,
     });
   }, [goTo, rememberScroll]);
 
@@ -717,9 +729,10 @@ export default function App() {
   // way to reach it than the eye travelling there. The mark, and the taking of
   // it off again, belong to the effect above like every other target's.
   const jumpToVerse = useCallback((v) => {
-    document.getElementById(`verse-${v}`)?.scrollIntoView({ block: "center", behavior: "smooth" });
-    scrolledFor.current = v;
-    setTargetVerse(v);
+    const marks = [].concat(v);
+    document.getElementById(`verse-${marks[0]}`)?.scrollIntoView({ block: "center", behavior: "smooth" });
+    scrolledFor.current = marks;
+    setTargetVerse(marks);
   }, []);
 
   // Keep the notes column beside whatever the reader is showing: find the verse
@@ -814,15 +827,6 @@ export default function App() {
   // the overview's links leave. The sheet holds the page's scroll while it is
   // open, so one left standing behind a map would lock it.
   useEffect(() => { setSheet(null); }, [chapter, query, section, prophet]);
-
-  // A book of one chapter offers no Block level — see levelsFor. Reading one
-  // with the lens already set there would otherwise leave the reader on a level
-  // the panel no longer lists, with no control to get off it.
-  useEffect(() => {
-    if (lens.level === "Block" && book?.chapters?.length === 1) {
-      setLens((l) => ({ ...l, level: "Chapter" }));
-    }
-  }, [book, lens.level]);
 
   // One level up the hierarchy, mirroring the breadcrumbs. Returns false at the
   // top so the caller can leave the key alone.
@@ -1077,7 +1081,7 @@ export default function App() {
 
   // The lens controls, which now stand at the head of the commentary they
   // govern rather than in a card of their own — see LensBody.
-  const lensBody = <LensBody lens={lens} setLens={setLens} book={book} chapter={chapter} />;
+  const lensBody = <LensBody lens={lens} setLens={setLens} chapter={chapter} />;
 
   // Narrow, the field itself is too wide to stand anywhere while a chapter is
   // being read, so it waits in the dock as the glyph alone and opens the real

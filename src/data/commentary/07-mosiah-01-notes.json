@@ -1,0 +1,539 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Mosiah",
+  "book_slug": "mosiah",
+  "chapter": 1,
+  "volume_order": "07",
+  "speakers": [
+   "Mormon",
+   "King Benjamin"
+  ],
+  "audience": "Benjamin's sons, then all the people of Zarahemla",
+  "location": "The land of Zarahemla",
+  "date": "~130–124 BC",
+  "unit": "Benjamin's address (Mosiah 1–6)",
+  "principles": [
+   "Why records matter",
+   "Succession",
+   "A name to be given"
+  ],
+  "connections": 7,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "A succession scene in the Israelite shape",
+   "text": "Benjamin says he must \"go the way of all the earth,\" which is the formula David uses to Solomon and Joshua uses at his farewell. What follows is what follows there: instruction to the heir, a charge concerning the kingdom, and an assembly. The record is running a known pattern."
+  },
+  {
+   "n": 2,
+   "title": "Royal regalia, itemized",
+   "text": "Verse 16 transfers four objects, and ancient kingship was conveyed by objects as much as by words. What is striking is the set: a library, a weapon, and a navigational instrument. Nothing resembling a crown, a throne, or an anointing oil appears anywhere in the transfer."
+  },
+  {
+   "n": 3,
+   "title": "The director, before it has a name",
+   "text": "The instrument that led Lehi through the wilderness is called \"the ball or director\" here. It receives the name Liahona only much later, in Alma. At this point in the record it is a functional description of a working object being handed to a king."
+  },
+  {
+   "n": 4,
+   "title": "Egyptian literacy, supplied as the mechanism",
+   "text": "Verse 4 explains why Lehi could read the brass plates: he had been taught in the language of the Egyptians. The reader was told at the very beginning that Nephi's learning included it. Four hundred and seventy years later a king uses that fact to make an argument about why his sons can read at all."
+  },
+  {
+   "n": 5,
+   "title": "A name conferred at a coronation",
+   "text": "Benjamin announces he will give the people a name to distinguish them, and that it can be lost only through transgression. Ancient enthronement ceremonies regularly involved naming, and the name itself is withheld until Mosiah 5, four chapters later."
+  },
+  {
+   "n": 6,
+   "title": "The argument from what would have been lost",
+   "text": "Verses 3 through 5 argue that without the plates they would have suffered in ignorance and their fathers would have dwindled in unbelief. Amaleki had made the same argument about the people of Zarahemla two pages earlier, from observation. Benjamin makes it from imagination, about himself."
+  }
+ ],
+ "words": [
+  {
+   "term": "mysteries",
+   "verse_label": "v. 3",
+   "text": "Things known only by disclosure, not by reasoning. Benjamin says the plates are why they are not ignorant of them, which locates the mysteries in a readable text rather than in an initiation. Whatever is hidden here is hidden in a book that a literate person can open."
+  },
+  {
+   "term": "confer",
+   "verse_label": "v. 9",
+   "text": "To bestow formally. Benjamin thought it expedient to confer the kingdom on one of his sons — the same verb Omni used of handing on the plates. Kingship and custody of the record are transferred with one word in this book, and in verse 16 they are transferred in one act."
+  },
+  {
+   "term": "proclamation",
+   "verse_label": "v. 10",
+   "text": "A public announcement with legal force. Mosiah is made to issue one before he is made king, so his first royal act precedes his kingship. The chapter's mechanism for gathering a nation is a document read aloud, which is what the whole book is about to depend on."
+  },
+  {
+   "term": "progress",
+   "verse_label": "v. 17",
+   "text": "Forward movement, used here of a journey that stalls. The unfaithful \"did not prosper nor progress,\" and the two verbs are paired. Prospering is the covenant word; progressing is the physical one. Benjamin puts them together and treats one as the visible form of the other."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "taught in all the language of his fathers, that thereby they might become men of understanding",
+   "verse_label": "v. 2",
+   "text": "Language first, understanding second, in that causal order. The princes' education is described as linguistic before it is moral or military, and the stated purpose is comprehension of prophecy. It is the clearest picture in the record of what a royal education was for."
+  },
+  {
+   "term": "were it not for these plates... we must have suffered in ignorance",
+   "verse_label": "v. 3",
+   "text": "An argument by absence. Benjamin is not praising the record; he is describing the state he would be in without it, and the state he names is ignorance rather than sin. The case for scripture here is made on the grounds of information."
+  },
+  {
+   "term": "he having been taught in the language of the Egyptians therefore he could read these engravings",
+   "verse_label": "v. 4",
+   "text": "A chain of causes reaching back four and a half centuries: Lehi's schooling made the plates readable, which made teaching possible, which made transmission possible, which is why Benjamin's sons know anything. The verse is an argument about literacy dressed as family history."
+  },
+  {
+   "term": "our fathers would have dwindled in unbelief",
+   "verse_label": "v. 5",
+   "text": "The verb that describes the Lamanites' condition from the first book onward, applied here to his own line as a possibility narrowly avoided. Benjamin's claim is not that his people are different in kind but that they had a book. The difference is circumstantial and he says so."
+  },
+  {
+   "term": "the traditions of their fathers, which are not correct",
+   "verse_label": "v. 5",
+   "text": "The record's flattest statement of what went wrong with the Lamanites, and it is about information rather than character. Inherited error, transmitted faithfully. It is the same diagnosis Jacob offered when he traced their hostility to their fathers, and it leaves room for the remedy Enos prayed for."
+  },
+  {
+   "term": "we can know of their surety because we have them before our eyes",
+   "verse_label": "v. 6",
+   "text": "An argument from possession. The plates are true and the proof offered is that they can be inspected. It is an unusually physical warrant for a claim about scripture, and it is offered to sons who are holding the objects."
+  },
+  {
+   "term": "search them diligently, that ye may profit thereby",
+   "verse_label": "v. 7",
+   "text": "Two imperatives, and the second is about return on effort. Benjamin does not tell his sons to revere the records or to preserve them; he tells them to search and to profit. Custody has already been dealt with in verse 16; this is about use."
+  },
+  {
+   "term": "a name that never shall be blotted out, except it be through transgression",
+   "verse_label": "v. 12",
+   "text": "A gift with one condition and no expiry. Blotting out is the language of erasure from a register, which suits a name given at an assembly and recorded. Benjamin announces the terms four chapters before he announces the name."
+  },
+  {
+   "term": "he will no more preserve them by his matchless and marvelous power",
+   "verse_label": "v. 13",
+   "text": "The preservation is presented as ongoing and as revocable. Benjamin's warning is not that God will strike but that he will stop doing what he has been doing, and the result named is weakness rather than punishment. The word \"hitherto\" in the same verse carries the argument."
+  },
+  {
+   "term": "the sword of Laban, and the ball or director, which led our fathers through the wilderness",
+   "verse_label": "v. 16",
+   "text": "Two objects from the founding generation, handed over together. One was taken in a street in Jerusalem and one appeared outside a tent door. Between them they represent the two ways the record says this people survived — force and guidance — and a king now holds both."
+  },
+  {
+   "term": "according to the heed and diligence which they gave unto him",
+   "verse_label": "v. 16",
+   "text": "The operating principle of the director, stated as a rule rather than as a story. Attention and effort are the inputs; direction is the output. Benjamin gives his son the instrument and the manual in the same sentence."
+  },
+  {
+   "term": "they were smitten with famine and sore afflictions, to stir them up in remembrance of their duty",
+   "verse_label": "v. 17",
+   "text": "Affliction assigned a purpose, and the purpose is memory. This is the same clause Lehi was given about the Lamanites as a scourge, turned now on the covenant people themselves and applied to a wilderness journey the audience knows the outcome of."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–2",
+   "start": 1,
+   "end": 2,
+   "title": "Peace, and an education",
+   "text": "No contention in all the land, continual peace for the rest of Benjamin's days, three sons named, and a curriculum: the language of the fathers, so they might become men of understanding and know the prophecies. Two verses of stability, which the record almost never reports without a warning attached."
+  },
+  {
+   "label": "v. 3–5",
+   "start": 3,
+   "end": 5,
+   "title": "The argument for the plates",
+   "text": "Without them, ignorance; Lehi could read them because of his Egyptian schooling; without them even the fathers would have dwindled and this people would resemble the Lamanites, who do not know these things or do not believe them because of incorrect traditions. Three verses, and the whole case rests on transmission."
+  },
+  {
+   "label": "v. 6–8",
+   "start": 6,
+   "end": 8,
+   "title": "True, searchable, and unfinished",
+   "text": "The records are true and can be checked because they are in hand; search them and profit; keep the commandments and prosper according to the promises. Then a one-line notice that Benjamin taught much more that is not written — the abridgment reminding the reader it is an abridgment."
+  },
+  {
+   "label": "v. 9–12",
+   "start": 9,
+   "end": 12,
+   "title": "The succession, and a promise of a name",
+   "text": "Benjamin ages, sees his death coming, confers the kingdom on Mosiah, and sends him to proclaim a gathering. Then the announcement about the name: it will distinguish them, it is given because they have been diligent, and it can be lost only by transgression."
+  },
+  {
+   "label": "v. 13–14",
+   "start": 13,
+   "end": 14,
+   "title": "The condition, stated plainly",
+   "text": "If this favored people falls into transgression they will be delivered up and become weak; God will stop preserving them as he has. And then the reverse case: but for his arm, the fathers would have fallen to the Lamanites. Favor is described as active maintenance rather than as status."
+  },
+  {
+   "label": "v. 15–17",
+   "start": 15,
+   "end": 17,
+   "title": "The charge, and the objects",
+   "text": "All the affairs of the kingdom first, then the four items of verse 16 — and with them an explanation of how the director worked and why it sometimes did not. The regalia comes with a lesson attached, and the lesson is about attention."
+  },
+  {
+   "label": "v. 18",
+   "start": 18,
+   "end": 18,
+   "title": "The proclamation goes out",
+   "text": "Mosiah does as commanded and the people gather to go up to the temple. One verse, and it is the setup for the longest sermon in the record."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The case for scripture is made on informational grounds",
+   "text": "Benjamin's argument is that without the plates they would not know things — the mysteries, the commandments, the prophecies. Not that they would be worse people first, but that they would be ignorant people, and worse follows from that. Verses 3 through 5 run the whole case that way."
+  },
+  {
+   "n": 2,
+   "title": "The Lamanite difference is located in traditions, not in nature",
+   "text": "Verse 5 says they know nothing of these things, or disbelieve them, because of traditions that are not correct. Benjamin's own people are one lost book away from the same position, and he says so about his own fathers. It is the least tribal explanation the record has offered."
+  },
+  {
+   "n": 3,
+   "title": "Kingship is transferred as custody",
+   "text": "The affairs of the kingdom and the records arrive in consecutive verses, and the same verb covers conferring a kingdom and handing on plates. In this book the throne and the archive are one office, which is why Mosiah's later dismantling of the monarchy is complicated."
+  },
+  {
+   "n": 4,
+   "title": "The regalia is a library, a weapon, and a compass",
+   "text": "No crown, no throne, no oil. What a Nephite king receives is the means of knowing, the means of defending, and the means of being led — and the third comes with a rule about why it stops working."
+  },
+  {
+   "n": 5,
+   "title": "The name is announced before it is given",
+   "text": "Four chapters separate the promise in verse 12 from the naming in Mosiah 5. The terms are published first: it distinguishes, it was earned by diligence, and only transgression can erase it. The delay makes the whole address a preparation for a single word."
+  },
+  {
+   "n": 6,
+   "title": "Favor is described as maintenance",
+   "text": "Verse 13 says God will \"no more preserve them\" if they transgress, and verse 14 says the fathers would have fallen without his arm. Preservation is continuous, active, and withdrawable. Nothing in the chapter treats being a chosen people as a state rather than a process."
+  },
+  {
+   "n": 7,
+   "title": "The chapter is an overture",
+   "text": "Peace, education, the value of records, a succession, a promised name, a warning, the regalia, and a gathering. Every one of these returns in the five chapters that follow, which is what an opening chapter is for and what this one is doing."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Teach the language first",
+    "verse_label": "v. 2",
+    "text": "Benjamin's sons were taught to read before they were taught anything else, so that they could reach the prophecies themselves. Whatever you want someone to understand, give them the access rather than the summary."
+   },
+   {
+    "title": "Ask what you would not know",
+    "verse_label": "v. 3",
+    "text": "Take a particular book, teacher, or record and work out what you would be ignorant of without it. Benjamin's whole argument for scripture is built on that question."
+   },
+   {
+    "title": "Check the traditions you inherited",
+    "verse_label": "v. 5",
+    "text": "The chapter's diagnosis of an entire people is inherited error, faithfully transmitted. Identify one thing you believe mainly because you were raised in it, and test it."
+   },
+   {
+    "title": "Search for profit, not for credit",
+    "verse_label": "v. 7",
+    "text": "The instruction is to search diligently in order to gain something. Read the next thing you read with a specific question you actually want answered."
+   },
+   {
+    "title": "Give heed and diligence",
+    "verse_label": "v. 16",
+    "text": "The director worked in proportion to attention and effort, and stopped when they lapsed. When guidance seems absent, the chapter's first diagnostic is not God's silence but your own heed."
+   },
+   {
+    "title": "Treat favor as maintenance",
+    "verse_label": "v. 13",
+    "text": "Nothing you have been given is a permanent status. Name one blessing you have been treating as settled, and ask what keeping it actually requires of you."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What would I not know if I had never had the books I have?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "Which of my beliefs are traditions I have never examined?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "Do I treat scripture as something I can check, or only as something I am told?"
+   },
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "When did I last search something diligently rather than read it dutifully?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "Where am I assuming God's help will continue regardless of what I do?"
+   },
+   {
+    "verse_label": "v. 16",
+    "start": 16,
+    "end": 16,
+    "text": "In what part of my life have I stopped giving heed, and what has stopped moving as a result?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "mos01-007",
+   "scope": "BOOK",
+   "head": "Mosiah 2:1",
+   "anchor": {
+    "verse": 18,
+    "w1": 38,
+    "w2": 52,
+    "quote": "to go up to the temple to hear the words which his father should speak"
+   },
+   "reason": "the gathering, carried out",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 2,
+     "verse": 1,
+     "w1": 37,
+     "w2": 52,
+     "quote": "they might go up to the temple to hear the words which king Benjamin should speak",
+     "span": true
+    }
+   ],
+   "mirror": "mos02-001"
+  },
+  {
+   "id": "mos01-006",
+   "scope": "BOM",
+   "head": "Mosiah 5:8",
+   "anchor": {
+    "verse": 12,
+    "w1": 2,
+    "w2": 13,
+    "quote": "I give unto them a name that never shall be blotted out"
+   },
+   "reason": "the name, given four chapters later",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 5,
+     "verse": 8,
+     "w1": 31,
+     "w2": 42,
+     "quote": "I would that ye should take upon you the name of Christ",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "mos01-004",
+   "scope": "BOM",
+   "head": "1 Ne. 16:28",
+   "anchor": {
+    "verse": 16,
+    "w1": 60,
+    "w2": 70,
+    "quote": "according to the heed and diligence which they gave unto him"
+   },
+   "reason": "the rule, first demonstrated in the wilderness",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 16,
+     "verse": 28,
+     "w1": 21,
+     "w2": 34,
+     "quote": "according to the faith and diligence and heed which we did give unto them",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "mos01-003",
+   "scope": "BOM",
+   "head": "Omni 1:17",
+   "anchor": {
+    "verse": 5,
+    "w1": 43,
+    "w2": 49,
+    "quote": "our fathers would have dwindled in unbelief"
+   },
+   "reason": "the same argument, made from observation",
+   "targets": [
+    {
+     "ref": "Omni",
+     "chapter": 1,
+     "verse": 17,
+     "w1": 40,
+     "w2": 54,
+     "quote": "they had brought no records with them; and they denied the being of their Creator",
+     "span": true
+    }
+   ],
+   "mirror": "omn01-007"
+  },
+  {
+   "id": "mos01-002",
+   "scope": "BOM",
+   "head": "1 Ne. 1:2",
+   "anchor": {
+    "verse": 4,
+    "w1": 34,
+    "w2": 42,
+    "quote": "having been taught in the language of the Egyptians"
+   },
+   "reason": "the learning the record opened with, put to use",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 1,
+     "verse": 2,
+     "w1": 21,
+     "w2": 25,
+     "quote": "the language of the Egyptians",
+     "span": true
+    }
+   ],
+   "mirror": "1ne01-006"
+  },
+  {
+   "id": "mos01-001",
+   "scope": "BOM",
+   "head": "W of M 1:18",
+   "anchor": {
+    "verse": 1,
+    "w1": 3,
+    "w2": 13,
+    "quote": "there was no more contention in all the land of Zarahemla"
+   },
+   "reason": "the peace Benjamin established, now holding",
+   "targets": [
+    {
+     "ref": "W of M",
+     "chapter": 1,
+     "verse": 18,
+     "w1": 29,
+     "w2": 36,
+     "quote": "did once more establish peace in the land",
+     "span": true
+    }
+   ],
+   "mirror": "wom01-007"
+  },
+  {
+   "id": "mos01-005",
+   "scope": "SW",
+   "head": "1 Kgs. 2:2",
+   "anchor": {
+    "verse": 9,
+    "w1": 26,
+    "w2": 36,
+    "quote": "he must very soon go the way of all the earth"
+   },
+   "reason": "David's formula to Solomon",
+   "targets": [
+    {
+     "ref": "1 Kgs.",
+     "chapter": 2,
+     "verse": 2,
+     "w1": 1,
+     "w2": 8,
+     "quote": "I go the way of all the earth",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 3,
+   "w2": 13,
+   "quote": "there was no more contention in all the land of Zarahemla",
+   "entries": [
+    "mos01-001"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 34,
+   "w2": 42,
+   "quote": "having been taught in the language of the Egyptians",
+   "entries": [
+    "mos01-002"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 43,
+   "w2": 49,
+   "quote": "our fathers would have dwindled in unbelief",
+   "entries": [
+    "mos01-003"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 26,
+   "w2": 36,
+   "quote": "he must very soon go the way of all the earth",
+   "entries": [
+    "mos01-005"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 2,
+   "w2": 13,
+   "quote": "I give unto them a name that never shall be blotted out",
+   "entries": [
+    "mos01-006"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 60,
+   "w2": 70,
+   "quote": "according to the heed and diligence which they gave unto him",
+   "entries": [
+    "mos01-004"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 38,
+   "w2": 52,
+   "quote": "to go up to the temple to hear the words which his father should speak",
+   "entries": [
+    "mos01-007"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "d50bcd722284ef43"
+ }
+}

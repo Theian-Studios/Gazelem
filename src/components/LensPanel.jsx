@@ -1,14 +1,11 @@
 import Card from "./Card.jsx";
 
-export const LEVELS = ["Block", "Chapter", "Verse", "Phrase", "Word"];
-
-// Block is the chapter read against the book around it. Where the book is one
-// chapter — Enos, Jarom, Omni, the Words of Mormon — there is no book around
-// it: the two levels name the same text, and the notes say so, writing them as
-// one "CHAPTER & BOOK LEVEL" section. Offering both is offering the reader the
-// same page twice.
-export const levelsFor = (book) =>
-  book?.chapters?.length === 1 ? LEVELS.filter((l) => l !== "Block") : LEVELS;
+// Four depths, coarse to fine. There was a fifth over them — Block, the chapter
+// read against the book around it — but the notes never wrote it as a section of
+// its own: what it would have said is written into the chapter notes, which
+// close by placing the chapter in its unit and handing it on to the ones
+// downstream. A level with nothing of its own to say is a page offered twice.
+export const LEVELS = ["Chapter", "Verse", "Phrase", "Word"];
 
 // Behind = the world that produced the text; Text = the text itself; In Front =
 // the world it lands in. Only the middle one has a depth to vary.
@@ -52,7 +49,7 @@ function Worlds({ value, onChange }) {
 // The depths as a row, coarse to fine, named by what the choice does: zoom.
 // A row rather than the funnel that stood here before — the funnel drew the
 // narrowing well, but it cost a column of the panel to say what the order of
-// five words already says, and on a phone that column is the panel.
+// the words already says, and on a phone that column is the panel.
 function Levels({ value, levels, onChange }) {
   return (
     <div className="lens-zoom" role="group" aria-label="Level of analysis">
@@ -80,9 +77,8 @@ function Levels({ value, levels, onChange }) {
 // the one above decides what the one below says — a thing the layout can simply
 // state by putting them in the same box, and which on a phone it could not
 // state at all, the two being separate sheets behind separate marks.
-export function LensBody({ lens, setLens, book, chapter }) {
+export function LensBody({ lens, setLens, chapter }) {
   if (!chapter) return null;
-  const levels = levelsFor(book);
   return (
     // No headings over either control: the segments are three names of the same
     // kind of thing and read as a choice on sight, and the row below them is a
@@ -94,7 +90,7 @@ export function LensBody({ lens, setLens, book, chapter }) {
       {/* Depth describes how to read the text itself; it has no meaning for
           the world behind it or the world in front of it. */}
       {lens.world === "text" && (
-        <Levels value={lens.level} levels={levels} onChange={(level) => setLens({ ...lens, level })} />
+        <Levels value={lens.level} levels={LEVELS} onChange={(level) => setLens({ ...lens, level })} />
       )}
     </div>
   );

@@ -1,0 +1,744 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "2 Nephi",
+  "book_slug": "2nephi",
+  "chapter": 20,
+  "volume_order": "02",
+  "speakers": [
+   "Nephi (quoting Isaiah)"
+  ],
+  "audience": null,
+  "location": "The land of Nephi",
+  "date": "~559–545 BC (engraved); Isaiah's oracle ~720–701 BC",
+  "unit": "Isaiah block preface (2 Nephi 11–24)",
+  "principles": [
+   "The instrument's pride",
+   "Remnant",
+   "Deliverance from the rod"
+  ],
+  "connections": 11,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Written injustice",
+   "text": "The chapter opens on decrees and things prescribed, which is to say on paperwork. The woe falls on legislators rather than on thieves. Israel's law protected widows and orphans by name, so turning them away required drafting, and Isaiah's first target is the drafting."
+  },
+  {
+   "n": 2,
+   "title": "Assyria as a tool",
+   "text": "Verses 5 through 7 make a claim that the rest of the chapter works out: the empire is God's rod, and the empire does not know it. Assyria's own inscriptions boasted of conquests in exactly the terms verse 13 puts in its mouth. What Isaiah adds is the observation that the boasting is a category error."
+  },
+  {
+   "n": 3,
+   "title": "A list of fallen cities",
+   "text": "Verse 9 names six places, and the argument is a taunt: each fell in turn, so why not Jerusalem? Calno, Carchemish, Hamath, Arpad, Samaria, Damascus were real conquests within living memory. The king is reciting a record of success, which is what makes the next verses' correction land."
+  },
+  {
+   "n": 4,
+   "title": "The bird's nest",
+   "text": "Verse 14 describes plundering the world as robbing an unguarded nest, with nothing that moved a wing or opened a mouth. Assyrian reliefs show tribute carried in from emptied cities. The image is chosen for its ease: the boast is not that the fighting was hard but that it was not."
+  },
+  {
+   "n": 5,
+   "title": "Fat ones and leanness",
+   "text": "Verse 16 uses a herdsman's contrast: well-fed stock, and a wasting sent among them. Assyria's wealth came from tribute, so the picture of an empire growing thin is aimed at the mechanism of its power rather than at its armies. Nothing in verses 16 through 19 describes a battle."
+  },
+  {
+   "n": 6,
+   "title": "A march route",
+   "text": "Verses 28 through 32 track an army through about a dozen villages north of Jerusalem, ending at Nob within sight of the city. The pacing is deliberately breathless, town after town, and then it stops. The invasion gets four verses of approach and no arrival."
+  }
+ ],
+ "words": [
+  {
+   "term": "grievousness",
+   "verse_label": "v. 1",
+   "text": "What causes grief, here written down and issued. The word is paired with decrees in the same breath, so the offense is a legal product: grief drafted, filed, and enforced. Isaiah does not accuse these men of cruelty in the moment. He accuses them of writing it into the system where it will keep working without them."
+  },
+  {
+   "term": "charge",
+   "verse_label": "v. 6",
+   "text": "A commission, orders given to a subordinate. God gives Assyria a charge the way a commander gives an officer one, and the terms are spoil, prey, and treading down. The word settles the chapter's whole question of agency: the empire is under orders it never received in writing and would not have accepted."
+  },
+  {
+   "term": "prudent",
+   "verse_label": "v. 13",
+   "text": "Shrewd, capable of managing affairs well. It is the king's own word for himself, at the center of his boast, and it is not false. He was prudent. The chapter's argument is not that the boast is inaccurate but that a saw does not get to be proud of the cut."
+  },
+  {
+   "term": "leanness",
+   "verse_label": "v. 16",
+   "text": "Thinness, wasting, the loss of the flesh that made something impressive. It is sent among \"his fat ones\" (v. 16), so the judgment works by subtraction from the inside rather than by attack from outside. The empire that stripped everyone else is described as being quietly emptied.",
+   "cites": [
+    {
+     "quote": "his fat ones",
+     "verse": 16,
+     "start": 90,
+     "end": 112,
+     "spans": [
+      {
+       "w1": 11,
+       "w2": 13,
+       "text": "his fat ones"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "bough",
+   "verse_label": "v. 33",
+   "text": "A main limb of a tree, and the verb applied to it is lopping. The chapter's last two verses turn the whole Assyrian army into a forest and God into a woodsman with iron. High ones of stature are cut down and Lebanon, famous for its cedars, falls. The empire ends as timber."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "the staff in their hand is their indignation",
+   "verse_label": "v. 5",
+   "text": "The King James makes the staff God's own feeling: \"the staff in their hand is mine indignation\" (Isa. 10:5). This reading assigns the anger to the Assyrians. The difference matters for the whole chapter, since what follows is a careful separation between what God intends by the invasion and what the invaders intend, and this variant makes that separation at the first mention.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 10:5",
+     "start": 97,
+     "end": 106,
+     "book": "Isa",
+     "chapter": 10,
+     "verse_start": 5,
+     "verse_end": 5
+    }
+   ]
+  },
+  {
+   "term": "Howbeit he meaneth not so",
+   "verse_label": "v. 7",
+   "text": "Six words that hold the chapter's argument. The instrument has its own purposes, and they are not the purposes it is serving. Isaiah does not resolve this into either fatalism or coincidence; he simply states that a nation bent on destroying many can be, at the same time, a rod in a hand. The record will lean on this logic whenever it explains a disaster."
+  },
+  {
+   "term": "By the strength of my hand and by my wisdom",
+   "verse_label": "v. 13",
+   "text": "The King James splits the boast, \"By the strength of my hand I have done it, and by my wisdom\" (Isa. 10:13), with the second half trailing. This reading joins them into one claim before the verb, so the king credits strength and wisdom together and then adds \"for I am prudent\" (v. 13) as a separate sentence. The boast reads more like a speech and less like an afterthought.",
+   "cites": [
+    {
+     "quote": "for I am prudent",
+     "verse": 13,
+     "start": 259,
+     "end": 285,
+     "spans": [
+      {
+       "w1": 19,
+       "w2": 22,
+       "text": "for I am prudent"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 10:13",
+     "start": 96,
+     "end": 106,
+     "book": "Isa",
+     "chapter": 10,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
+  },
+  {
+   "term": "Shall the ax boast itself against him",
+   "verse_label": "v. 15",
+   "text": "Four rhetorical questions in one verse, each with the same shape: tool against user. Axe, saw, rod, staff. The last one abandons the question form and ends in exclamation, as if the absurdity had outrun the grammar. It is the block's clearest statement that capability and authorship are different things."
+  },
+  {
+   "term": "shall no more again stay upon him that smote them",
+   "verse_label": "v. 20",
+   "text": "The promise about the remnant is stated first as a habit broken. Judah's policy under Ahaz had been to lean on the very empire that was hurting it, and the verse says that reflex ends. What replaces it is stated with a qualifier that is easy to skip: they will stay on the Lord \"in truth\" (v. 20), which allows that they had done it before some other way.",
+   "cites": [
+    {
+     "quote": "in truth",
+     "verse": 20,
+     "start": 278,
+     "end": 296,
+     "spans": [
+      {
+       "w1": 46,
+       "w2": 47,
+       "text": "in truth"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "The remnant shall return",
+   "verse_label": "v. 21",
+   "text": "Isaiah's older son had carried this sentence as a name since the Syrian crisis, when the boy was brought along to a meeting with a frightened king. Here the name is spoken as prophecy, with \"yea, even the remnant of Jacob\" (v. 21) added to it. What a father named a child becomes, eleven chapters later in the block, the promise the whole nation is left with.",
+   "cites": [
+    {
+     "quote": "yea, even the remnant of Jacob",
+     "verse": 21,
+     "start": 190,
+     "end": 230,
+     "spans": [
+      {
+       "w1": 5,
+       "w2": 10,
+       "text": "yea, even the remnant of Jacob"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "the yoke shall be destroyed because of the anointing",
+   "verse_label": "v. 27",
+   "text": "The verse describes relief in three stages, burden off the shoulder, yoke off the neck, yoke destroyed, and then gives an unexpected reason. Not because of an army or a treaty, but because of the anointing. The word points at a person who has been anointed, and the verse leaves it at that."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–4",
+   "start": 1,
+   "end": 4,
+   "title": "A woe with a court date",
+   "text": "The offense is legislative and the questions in verse 3 are procedural: what will you do in the day of visitation, where will you flee, where will you leave your glory? Nobody is accused of violence. They are accused of writing rules that made robbery lawful, and the sentence is that there will be nowhere to put the proceeds."
+  },
+  {
+   "label": "v. 5–7",
+   "start": 5,
+   "end": 7,
+   "title": "The tool with its own plans",
+   "text": "God claims Assyria as his rod and describes the assignment, and then verse 7 pulls the two apart: the empire means something else entirely. Both statements are allowed to stand. This is the chapter's hinge and the record's most useful sentence for anyone trying to think about why terrible things serve purposes."
+  },
+  {
+   "label": "v. 12–14",
+   "start": 12,
+   "end": 14,
+   "title": "The boast, itemized",
+   "text": "Strength, wisdom, prudence, moved borders, robbed treasures, and a world plundered like an unguarded nest. It is a complete self-portrait, and none of it is false. Verse 12 has already announced what will be punished, and it is not the conquests. It is \"the glory of his high looks\" (v. 12).",
+   "cites": [
+    {
+     "quote": "the glory of his high looks",
+     "verse": 12,
+     "start": 253,
+     "end": 290,
+     "spans": [
+      {
+       "w1": 37,
+       "w2": 42,
+       "text": "the glory of his high looks"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 15",
+   "start": 15,
+   "end": 15,
+   "title": "Four questions and no answer",
+   "text": "An axe, a saw, a rod, a staff, each imagined trying to take credit. The verse needs no commentary and receives none, and it ends with an exclamation instead of a question because the last case, a staff lifting itself as if it were not wood, has gone past absurdity into impossibility."
+  },
+  {
+   "label": "v. 20–23",
+   "start": 20,
+   "end": 23,
+   "title": "A remnant, in truth",
+   "text": "The promise is small and exact: a remnant returns, leaning on the Lord rather than on the empire that struck them. Then verse 22 tempers it, since only a remnant returns even if the people are as the sand of the sea. Paul cites the same lines to make the same point, that the number saved is smaller than the number counted."
+  },
+  {
+   "label": "v. 24–27",
+   "start": 24,
+   "end": 27,
+   "title": "Do not be afraid of the rod",
+   "text": "Having established that Assyria is a rod, Isaiah tells Zion not to fear it, and the argument is timing: a very little while, and the indignation ends. The comparisons are two old rescues, Midian at the rock of Oreb and the sea in the days of Egypt, and both were accomplished without Judah's help."
+  },
+  {
+   "label": "v. 28–32",
+   "start": 28,
+   "end": 32,
+   "title": "The march that stops",
+   "text": "Village after village falls in four verses, the pace accelerating, until the army is at Nob shaking a fist at the hill of Jerusalem. And then it simply remains there. The threat is described at maximum proximity and never delivered, which is the most effective silence in the chapter."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The chapter distinguishes instrument from author",
+   "text": "Everything here turns on verses 5 through 7 and 15: a nation can be used without knowing it, and a tool cannot claim the work. The distinction lets Isaiah say that the invasion is deserved, that the invaders are guilty, and that God is not implicated in their intentions, all without contradiction."
+  },
+  {
+   "n": 2,
+   "title": "Two prides, one chapter",
+   "text": "Judah's leaders are condemned for writing injustice into law; Assyria's king is condemned for crediting himself with his conquests. Neither is a sin of appetite. Both are failures of a competent person to know what he actually is, which is the same charge the block has been making since it brought down the cedars."
+  },
+  {
+   "n": 3,
+   "title": "The remnant material is the chapter's gift to the record",
+   "text": "Verses 20 through 22 supply language the Book of Mormon will use for centuries about a people scattered and partly returning. Nephi was copying for a colony that was itself a remnant, cut off from the rest, and the promise reaches them in exactly those terms."
+  },
+  {
+   "n": 4,
+   "title": "Deliverance arrives by subtraction, again",
+   "text": "Leanness among the fat ones, a forest so reduced a child could count it, a bough lopped. Assyria is not defeated in a battle in this chapter. It is thinned, cut, and felled, which is the same shape of judgment the block used on the vineyard and on Jerusalem's supports."
+  },
+  {
+   "n": 5,
+   "title": "The geography is the argument",
+   "text": "Naming a dozen villages in order does something no adjective could: it puts the reader in the path. Then the sequence halts at Nob. A hearer who knew the road would feel the army's distance shrinking verse by verse and then feel it stop, which is what the promise in verses 24 through 27 is asking them to trust in advance."
+  },
+  {
+   "n": 6,
+   "title": "A named child becomes a national promise",
+   "text": "Shearjashub was brought to a meeting in chapter 17 as a walking message, and the message is delivered here as prophecy. The block rewards a reader who holds details across eleven chapters, and Nephi kept the whole sequence rather than the highlights."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Read your own decrees",
+    "verse_label": "v. 1",
+    "text": "The woe here falls on what was written down and enforced, not on impulses. Look at a rule you have set, at work, at home, in your own head, and ask whether it quietly produces grief for someone with less power than you."
+   },
+   {
+    "title": "Ask what you are an instrument of",
+    "verse_label": "v. 7",
+    "text": "Assyria's problem was not that it was used but that it did not know it. Consider a role you occupy that serves purposes larger than your intentions, and ask whether you would be comfortable with what your effort is actually building."
+   },
+   {
+    "title": "Locate your own axe sentence",
+    "verse_label": "v. 15",
+    "text": "Name one recent success and say out loud what part of it you supplied and what part was handed to you: health, timing, teaching, a body that works. The verse is not asking for false modesty. It is asking for accurate accounting."
+   },
+   {
+    "title": "Stop leaning on what struck you",
+    "verse_label": "v. 20",
+    "text": "Identify the thing that hurt you and that you still depend on, a job, a habit, a person, a coping mechanism. The promise in this verse is that the reflex can end; the phrase \"in truth\" suggests it takes more than one attempt."
+   },
+   {
+    "title": "Count the little while",
+    "verse_label": "v. 25",
+    "text": "When something is grinding on, try Isaiah's arithmetic: name the actual duration you expect, against the actual span of your life. The chapter's comfort is not that the trouble is small but that the clock on it is shorter than the fear assumes."
+   },
+   {
+    "title": "Remember a threat that halted",
+    "verse_label": "v. 32",
+    "text": "Recall a threat that came very close and did not arrive. Write it down with the same specifics Isaiah uses, place and distance, and keep it somewhere you will find it the next time something is approaching."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Whose right have I taken away by a policy rather than by an act?"
+   },
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "What am I meaning, and what am I actually accomplishing, in the work I am most confident about?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "If I made my own boast out loud, in the king's grammar, which parts would embarrass me?"
+   },
+   {
+    "verse_label": "v. 15",
+    "start": 15,
+    "end": 15,
+    "text": "What have I been treating as mine that was only ever in someone's hand?"
+   },
+   {
+    "verse_label": "v. 21",
+    "start": 21,
+    "end": 21,
+    "text": "If only a remnant returns, what would it take for me to be in it, and does that question frighten or steady me?"
+   },
+   {
+    "verse_label": "v. 27",
+    "start": 27,
+    "end": 27,
+    "text": "What yoke am I still wearing that this verse says the anointing has already destroyed?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "2ne20-011",
+   "scope": "BOOK",
+   "head": "2 Ne. 24:25",
+   "anchor": {
+    "verse": 5,
+    "w1": 1,
+    "w2": 7,
+    "quote": "O Assyrian, the rod of mine anger"
+   },
+   "reason": "the rod brought, then trodden down",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 24,
+     "verse": 25,
+     "w1": 1,
+     "w2": 9,
+     "quote": "That I will bring the Assyrian in my land",
+     "span": true
+    }
+   ],
+   "mirror": "2ne24-002"
+  },
+  {
+   "id": "2ne20-010",
+   "scope": "BOOK",
+   "head": "2 Ne. 22:1",
+   "anchor": {
+    "verse": 4,
+    "w1": 17,
+    "w2": 32,
+    "quote": "For all this his anger is not turned away, but his hand is stretched out still"
+   },
+   "reason": "the refrain reversed two chapters later",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 22,
+     "verse": 1,
+     "w1": 14,
+     "w2": 24,
+     "quote": "though thou wast angry with me thine anger is turned away",
+     "span": true
+    }
+   ],
+   "mirror": "2ne22-001"
+  },
+  {
+   "id": "2ne20-001",
+   "scope": "BOOK",
+   "head": "2 Ne. 17:3",
+   "anchor": {
+    "verse": 21,
+    "w1": 1,
+    "w2": 10,
+    "quote": "The remnant shall return, yea, even the remnant of Jacob"
+   },
+   "reason": "a child's name spoken as prophecy",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 17,
+     "verse": 3,
+     "w1": 13,
+     "w2": 17,
+     "quote": "thou and Shearjashub thy son",
+     "span": true
+    }
+   ],
+   "mirror": "2ne17-002"
+  },
+  {
+   "id": "2ne20-002",
+   "scope": "BOOK",
+   "head": "2 Ne. 12:12",
+   "anchor": {
+    "verse": 33,
+    "w1": 15,
+    "w2": 29,
+    "quote": "the high ones of stature shall be hewn down; and the haughty shall be humbled"
+   },
+   "reason": "the day of the Lord on tall things",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 12,
+     "verse": 12,
+     "w1": 19,
+     "w2": 31,
+     "quote": "upon the proud and lofty, and upon every one who is lifted up",
+     "span": true
+    }
+   ],
+   "mirror": "2ne12-014"
+  },
+  {
+   "id": "2ne20-003",
+   "scope": "BOM",
+   "head": "Hel. 12:7",
+   "anchor": {
+    "verse": 15,
+    "w1": 1,
+    "w2": 10,
+    "quote": "Shall the ax boast itself against him that heweth therewith"
+   },
+   "reason": "the record's own line on human smallness",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 12,
+     "verse": 7,
+     "w1": 2,
+     "w2": 11,
+     "quote": "how great is the nothingness of the children of men",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "2ne20-004",
+   "scope": "SW",
+   "head": "Isa. 10:1",
+   "anchor": {
+    "verse": 1,
+    "w1": 1,
+    "w2": 7,
+    "quote": "Wo unto them that decree unrighteous decrees"
+   },
+   "reason": "the block and its source chapter",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 10,
+     "verse": 1,
+     "w1": 1,
+     "w2": 7,
+     "quote": "Woe unto them that decree unrighteous decrees",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne20-005",
+   "scope": "SW",
+   "head": "Isa. 10:5",
+   "anchor": {
+    "verse": 5,
+    "w1": 9,
+    "w2": 16,
+    "quote": "the staff in their hand is their indignation"
+   },
+   "reason": "the anger reassigned to the invader",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 10,
+     "verse": 5,
+     "w1": 9,
+     "w2": 16,
+     "quote": "the staff in their hand is mine indignation",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne20-006",
+   "scope": "SW",
+   "head": "Isa. 10:13",
+   "anchor": {
+    "verse": 13,
+    "w1": 4,
+    "w2": 18,
+    "quote": "By the strength of my hand and by my wisdom I have done these things"
+   },
+   "reason": "the boast joined into one claim",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 10,
+     "verse": 13,
+     "w1": 4,
+     "w2": 17,
+     "quote": "By the strength of my hand I have done it, and by my wisdom",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne20-007",
+   "scope": "SW",
+   "head": "Rom. 9:27",
+   "anchor": {
+    "verse": 22,
+    "w1": 13,
+    "w2": 19,
+    "quote": "yet a remnant of them shall return"
+   },
+   "reason": "Paul cites the same limit",
+   "targets": [
+    {
+     "ref": "Rom.",
+     "chapter": 9,
+     "verse": 27,
+     "w1": 21,
+     "w2": 25,
+     "quote": "a remnant shall be saved",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne20-008",
+   "scope": "SW",
+   "head": "Isa. 10:23",
+   "anchor": {
+    "verse": 23,
+    "w1": 2,
+    "w2": 16,
+    "quote": "the Lord God of Hosts shall make a consumption, even determined in all the land"
+   },
+   "reason": "a phrase trimmed from the sentence",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 10,
+     "verse": 23,
+     "w1": 13,
+     "w2": 19,
+     "quote": "in the midst of all the land",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne20-009",
+   "scope": "SW",
+   "head": "Judg. 7:25",
+   "anchor": {
+    "verse": 26,
+    "w1": 13,
+    "w2": 23,
+    "quote": "according to the slaughter of Midian at the rock of Oreb"
+   },
+   "reason": "the old rescue named as precedent",
+   "targets": [
+    {
+     "ref": "Judg.",
+     "chapter": 7,
+     "verse": 25,
+     "w1": 13,
+     "w2": 19,
+     "quote": "they slew Oreb upon the rock Oreb",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 1,
+   "w2": 7,
+   "quote": "Wo unto them that decree unrighteous decrees",
+   "entries": [
+    "2ne20-004"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 17,
+   "w2": 32,
+   "quote": "For all this his anger is not turned away, but his hand is stretched out still",
+   "entries": [
+    "2ne20-010"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 1,
+   "w2": 7,
+   "quote": "O Assyrian, the rod of mine anger",
+   "entries": [
+    "2ne20-011"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 9,
+   "w2": 16,
+   "quote": "the staff in their hand is their indignation",
+   "entries": [
+    "2ne20-005"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 4,
+   "w2": 18,
+   "quote": "By the strength of my hand and by my wisdom I have done these things",
+   "entries": [
+    "2ne20-006"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 1,
+   "w2": 10,
+   "quote": "Shall the ax boast itself against him that heweth therewith",
+   "entries": [
+    "2ne20-003"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 1,
+   "w2": 10,
+   "quote": "The remnant shall return, yea, even the remnant of Jacob",
+   "entries": [
+    "2ne20-001"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 13,
+   "w2": 19,
+   "quote": "yet a remnant of them shall return",
+   "entries": [
+    "2ne20-007"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 2,
+   "w2": 16,
+   "quote": "the Lord God of Hosts shall make a consumption, even determined in all the land",
+   "entries": [
+    "2ne20-008"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 13,
+   "w2": 23,
+   "quote": "according to the slaughter of Midian at the rock of Oreb",
+   "entries": [
+    "2ne20-009"
+   ]
+  },
+  {
+   "verse": 33,
+   "w1": 15,
+   "w2": 29,
+   "quote": "the high ones of stature shall be hewn down; and the haughty shall be humbled",
+   "entries": [
+    "2ne20-002"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "5681eb4bca70b1d6"
+ }
+}

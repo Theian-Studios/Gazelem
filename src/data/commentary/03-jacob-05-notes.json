@@ -1,0 +1,707 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Jacob",
+  "book_slug": "jacob",
+  "chapter": 5,
+  "volume_order": "03",
+  "speakers": [
+   "Jacob",
+   "Zenos",
+   "The Lord of the vineyard",
+   "The servant"
+  ],
+  "audience": "Jacob's brethren; Zenos originally addressed the house of Israel",
+  "location": "The land of Nephi",
+  "date": "~544–421 BC (Zenos: before 600 BC)",
+  "unit": "Jacob's record (Jacob 1–7)",
+  "principles": [
+   "Scattering and gathering",
+   "Divine labor",
+   "Grafting"
+  ],
+  "connections": 12,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "A prophet who is not in the Bible",
+   "text": "Zenos is quoted or named twelve times in this record and nowhere in the Old Testament. His words were on the brass plates, and Jacob assumes his hearers have read them — \"do ye not remember to have read.\" This chapter is the longest surviving piece of him, and it is longer than several biblical books."
+  },
+  {
+   "n": 2,
+   "title": "Olive husbandry, done correctly",
+   "text": "Everything the allegory does is real agronomy. Olives are propagated by grafting rather than by seed; a wild scion on a domesticated root produces poor fruit while a domesticated scion on a wild root does well; old trees are rejuvenated by pruning back hard; and root and canopy must be kept in balance or the tree exhausts itself. Verses 65 and 66 state the balance rule outright."
+  },
+  {
+   "n": 3,
+   "title": "Isaiah's vineyard song, running underneath",
+   "text": "Isaiah 5 asks \"what could have been done more to my vineyard, that I have not done in it?\" The Lord of this vineyard asks it three times, in verses 41, 47, and 49. Isaiah's song ends with the vineyard laid waste; this one does not, and the difference between the two endings is the whole point of quoting it."
+  },
+  {
+   "n": 4,
+   "title": "The barren fig tree, in advance",
+   "text": "Luke's parable has a vineyard, a fruitless tree, an order to cut it down, and a caretaker who asks for one more year while he digs about it and dungs it. Every element appears here: verses 47 and 64 dig and dung, and verse 50 is the request to spare it a little longer. The two passages are separated by six centuries in the record's own chronology."
+  },
+  {
+   "n": 5,
+   "title": "The servant argues, and is corrected once",
+   "text": "In verse 21 the servant questions the master's choice of ground and gets \"Counsel me not.\" In verse 48 he offers a diagnosis and it is accepted without comment; in verse 50 he asks for a delay and gets it. The relationship changes across the chapter, and nothing in the text remarks on the change."
+  },
+  {
+   "n": 6,
+   "title": "Grafting in both directions",
+   "text": "Paul's figure in Romans 11 runs one way: a wild branch grafted contrary to nature into a good tree. Zenos runs it both ways and several times — wild into tame, natural into wild, and natural back into the mother tree. The traffic is what makes this a history rather than an illustration."
+  }
+ ],
+ "words": [
+  {
+   "term": "cumber",
+   "verse_label": "v. 9, 30, 44, 49, 66",
+   "text": "To obstruct by taking up room. Luke uses it of the fig tree that occupies ground without producing, and here it is the standing reason for burning: the bad is removed because it is in the way, not because it is offensive. Five uses across the chapter, all of them about space rather than about anger."
+  },
+  {
+   "term": "nethermost",
+   "verse_label": "v. 13, 14, 19, 38, 39, 52",
+   "text": "The lowest or furthest part. The word's only other appearance in scripture is the bottom chamber of Solomon's temple, which makes it a term for a structure's remote interior rather than for wilderness. The branches hidden there are not thrown away; they are stored in the parts of the property nobody visits."
+  },
+  {
+   "term": "dunged",
+   "verse_label": "v. 47, 64, 76",
+   "text": "Manured. It is the least dignified verb in the chapter and it is applied to God's own labor, three times, alongside pruning and digging. The allegory refuses to let divine effort be clean work, and the caretaker in Luke's parable uses the same word for the same last-chance treatment."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "I will liken thee, O house of Israel, like unto a tame olive tree",
+   "verse_label": "v. 3",
+   "text": "The identification is made once, in the third verse, and never repeated. Everything after this is horticulture. The allegory trusts its reader to carry the equation through seventy-four verses without a reminder, which is why it can afford to be as detailed as it is."
+  },
+  {
+   "term": "it grieveth me that I should lose this tree",
+   "verse_label": "v. 7, 11, 13, 32, 46, 51, 66",
+   "text": "The refrain, seven times, and always the master's own voice. It is never \"it angers me\" and never \"they deserve it.\" The chapter's engine is a proprietor's reluctance to lose what he has invested in, and the repetition is doing what a chorus does in a poem."
+  },
+  {
+   "term": "I will graft them whithersoever I will; and it mattereth not",
+   "verse_label": "v. 8",
+   "text": "Twice in one verse the master says the destination does not matter, and in verse 13 he tells the servant it does not matter to him either. The scattering is presented as indifferent to geography and attentive to preservation. Where Israel goes is not the question; that Israel survives is."
+  },
+  {
+   "term": "How comest thou hither to plant this tree... it was the poorest spot in all the land",
+   "verse_label": "v. 21",
+   "text": "The servant's objection is agricultural common sense, and the answer is \"Counsel me not.\" What follows is three more plantings in ground described as poorer still, each of which bore much fruit. The sequence answers the objection by outcome rather than by argument."
+  },
+  {
+   "term": "the Lord of the vineyard wept, and said unto the servant: What could I have done more",
+   "verse_label": "v. 41",
+   "text": "God weeping over a failed crop, in a text six centuries older than the shortest verse in John. The question is Isaiah's, asked here by a master who has just seen every planting corrupt at once, and the tear comes before the question rather than after it."
+  },
+  {
+   "term": "Have I slackened mine hand... I have stretched forth mine hand almost all the day long",
+   "verse_label": "v. 47",
+   "text": "The defense is a labor record. Nourished, digged, pruned, dunged, and hand stretched out all day — four verbs and a posture. It is the fullest account in scripture of divine effort described as work, and it ends with a question the master cannot answer: who corrupted the vineyard?"
+  },
+  {
+   "term": "is it not the loftiness of thy vineyard—have not the branches thereof overcome the roots",
+   "verse_label": "v. 48",
+   "text": "The noun is Isaiah's word for what gets bowed down in the day of the Lord, and this is the only place in scripture it is applied to plants rather than to people. The servant supplies the diagnosis and it is accepted in silence: branches grew faster than the roots could support and took strength to themselves. Nothing external corrupted the vineyard; the growth did, by outrunning what fed it."
+  },
+  {
+   "term": "Spare it a little longer",
+   "verse_label": "v. 50",
+   "text": "Four words from a servant, and the entire last quarter of the chapter depends on them. The master had just said \"let us go to and hew down.\" The delay is not granted because the case improved but because someone asked, and the master's reason for agreeing is the same refrain he has used all along."
+  },
+  {
+   "term": "begin at the last that they may be first, and that the first may be last",
+   "verse_label": "v. 63",
+   "text": "The gospel formula, in a work order. Here it is not a saying about reward but an instruction about sequence: graft the far branches back first, then the near ones, and dig about the old and the young together. The reversal is a labor schedule before it is a proverb."
+  },
+  {
+   "term": "ye shall not clear away the bad thereof all at once, lest the roots thereof should be too strong for the graft",
+   "verse_label": "v. 65",
+   "text": "Real horticulture and the chapter's most practical sentence. Strip too much canopy and the root overwhelms the new graft and kills it. The instruction is that reform has to be paced to what the reformed can carry, and the reason given is mechanical rather than merciful."
+  },
+  {
+   "term": "that the root and the top may be equal in strength",
+   "verse_label": "v. 66",
+   "text": "The stated goal of the entire last labor. Not maximum fruit, not speed, but balance between what supports and what shows. Verse 73 reports it achieved. It is the closest thing the allegory has to a definition of health."
+  },
+  {
+   "term": "they became like unto one body; and the fruits were equal",
+   "verse_label": "v. 74",
+   "text": "The end state. The trees do not merely produce again; the distinctions collapse. After seventy verses of first and last, natural and wild, near and nethermost, the result is one body with equal fruit, and the chapter spends no time celebrating it before moving to the final burning."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–14",
+   "start": 1,
+   "end": 14,
+   "title": "Decay, and the first surgery",
+   "text": "Zenos is named, Israel is likened to a tame olive tree, and the tree begins to die from the top down. The master prunes, digs, nourishes, grafts wild branches into the trunk, and hides the natural branches in the nethermost parts. Everything the rest of the chapter deals with is set up in these fourteen verses, including the refrain about grief."
+  },
+  {
+   "label": "v. 15–28",
+   "start": 15,
+   "end": 28,
+   "title": "Success, everywhere",
+   "text": "The wild branches have produced tame fruit because the root was strong; the hidden branches in poor ground have produced much fruit; the servant questions the choice of ground and is told not to counsel; and the one tree with mixed fruit is given more time at the servant's request. The section is the allegory's only period of general success, and it is the shortest."
+  },
+  {
+   "label": "v. 29–40",
+   "start": 29,
+   "end": 40,
+   "title": "All of it gone bad",
+   "text": "All sorts of fruit cumber the grafted tree and none of it is good. The natural branches in the nethermost parts have gone corrupt too — first, second, and last. The diagnosis given in verse 37 is that the wild branches overran the roots. The symmetry with the previous section is exact and it is the reason the failure lands so hard."
+  },
+  {
+   "label": "v. 41–51",
+   "start": 41,
+   "end": 51,
+   "title": "The lament",
+   "text": "He weeps, asks what more could have been done, lists his labor, asks who corrupted the vineyard, receives the servant's answer, orders everything hewn down, and is talked into sparing it. Eleven verses in which the master of the vineyard does almost nothing but grieve and be argued with, placed at the exact center of the chapter's second half."
+  },
+  {
+   "label": "v. 52–66",
+   "start": 52,
+   "end": 66,
+   "title": "The last labor, in detail",
+   "text": "Regraft the nethermost branches into the mother tree and the mother's branches into them; pluck only the most bitter; begin at the last; dig, prune, dung once more; and clear the bad away gradually so the root does not overpower the graft. This is the most technically specific passage in the record, and every instruction has an agricultural reason attached."
+  },
+  {
+   "label": "v. 67–74",
+   "start": 67,
+   "end": 74,
+   "title": "The work, and the result",
+   "text": "The branches come back together, the servants are called and are few, the Lord labors alongside them, root and top are kept equal, the bad is cast away, and the trees become one body with equal fruit. The labor is collaborative in a way nothing earlier in the chapter was — the master worked with servants, not through one."
+  },
+  {
+   "label": "v. 75–77",
+   "start": 75,
+   "end": 77,
+   "title": "The servants blessed",
+   "text": "The master calls his servants, blesses them, promises them joy in the fruit, says he will lay it up for a long time, and then names the terms of the finish: when evil fruit comes again, good and bad are separated and the vineyard is burned. The allegory ends with fire, but the fire is after a long season of preserved fruit, not instead of it."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The longest chapter in the record is a work log",
+   "text": "Seventy-seven verses of pruning, digging, grafting, dunging, tasting, and hauling. The theology is carried entirely by the labor, and the only interpretive sentence is verse 3. A book that elsewhere explains itself constantly here refuses to, for seventy-four consecutive verses."
+  },
+  {
+   "n": 2,
+   "title": "The refrain is grief, not judgment",
+   "text": "\"It grieveth me that I should lose this tree\" appears seven times and belongs to the master every time. Fire is ordered repeatedly and each order is preceded or followed by that sentence. The chapter's picture of divine severity is inseparable from the picture of divine reluctance, and it never lets one stand without the other."
+  },
+  {
+   "n": 3,
+   "title": "The scattering is presented as preservation",
+   "text": "The natural branches are hidden in the nethermost parts \"that I may preserve unto myself the natural branches of the tree,\" and where they go \"mattereth not.\" Israel's dispersal, which the prophets normally present as punishment, is here a storage strategy by a proprietor protecting his stock."
+  },
+  {
+   "n": 4,
+   "title": "The single stated cause of failure is imbalance",
+   "text": "Verse 48 locates it in unsupported height; verse 66 makes the correction the equality of root and top. Nothing is blamed on an enemy, a rival vineyard, or bad weather. What ruins the trees is unsupported growth, and the remedy is proportion."
+  },
+  {
+   "n": 5,
+   "title": "The servant changes the outcome",
+   "text": "Twice a delay is granted at his request, once when the mixed tree is spared and once when the whole vineyard is. The second time the master had already given the order to hew down. A chapter about God's absolute ownership gives the decisive line to an employee, and gives it in four words."
+  },
+  {
+   "n": 6,
+   "title": "The last labor is done together and it is done gradually",
+   "text": "The Lord labors with the servants rather than sending them; the servants are few; the bad is cleared away in proportion as the good grows. After a chapter of decisive interventions that failed, the one that works is slow, shared, and paced."
+  },
+  {
+   "n": 7,
+   "title": "The ending is joy and then fire, in that order",
+   "text": "Verse 75 blesses the servants and promises them joy; verse 76 lays up fruit for a long time; verse 77 burns the vineyard after evil fruit returns. The allegory does not end at the good harvest and does not pretend the harvest is permanent, and it puts the burning last without softening it."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Read it as agriculture first",
+    "verse_label": "v. 3–14",
+    "text": "Before looking for what each element stands for, read the chapter as a man trying to save a dying orchard. The allegory works because the farming is real, and the meaning arrives faster through the farming than around it."
+   },
+   {
+    "title": "Ask what you have not done",
+    "verse_label": "v. 41, 47",
+    "text": "The master's question is one an honest person can ask about a relationship, a calling, or a child. Run the list the way he does: what have I actually done, and is there anything left?"
+   },
+   {
+    "title": "Check root against top",
+    "verse_label": "v. 66",
+    "text": "Look at something in your life that has grown fast — a responsibility, a project, a reputation — and ask whether what supports it grew too. The chapter says the failure mode is growth outrunning its supply."
+   },
+   {
+    "title": "Do not clear it all at once",
+    "verse_label": "v. 65",
+    "text": "When correcting something in yourself or helping someone else change, pace the removal to the growth. Stripping everything at once is named here as the way to kill the new graft."
+   },
+   {
+    "title": "Say \"spare it a little longer\"",
+    "verse_label": "v. 50",
+    "text": "Four words from a servant changed the whole outcome. If you are ready to write something or someone off, try asking for one more season first."
+   },
+   {
+    "title": "Notice where you were planted",
+    "verse_label": "v. 21–23",
+    "text": "The poorest spots produced much fruit, and the servant's objection was overruled by results. If your circumstances look like poor ground, the chapter's answer is not an argument but a timeline."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What in my life is old, still standing, and quietly decaying at the top?"
+   },
+   {
+    "verse_label": "v. 22",
+    "start": 22,
+    "end": 22,
+    "text": "Where am I counseling God about ground he chose on purpose?"
+   },
+   {
+    "verse_label": "v. 41",
+    "start": 41,
+    "end": 41,
+    "text": "If someone who had invested everything in me wept over the result, what would they be weeping about?"
+   },
+   {
+    "verse_label": "v. 48",
+    "start": 48,
+    "end": 48,
+    "text": "What part of my life has grown faster than the thing that is supposed to support it?"
+   },
+   {
+    "verse_label": "v. 50",
+    "start": 50,
+    "end": 50,
+    "text": "Who am I about to give up on, and what would one more season cost me?"
+   },
+   {
+    "verse_label": "v. 72",
+    "start": 72,
+    "end": 72,
+    "text": "Am I laboring with him, or waiting for him to finish something on my behalf?"
+   },
+   {
+    "verse_label": "v. 74",
+    "start": 74,
+    "end": 74,
+    "text": "What would it mean for the root and the top of my life to be equal in strength?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "jac05-012",
+   "scope": "BOOK",
+   "head": "Jacob 6:4",
+   "anchor": {
+    "verse": 47,
+    "w1": 44,
+    "w2": 54,
+    "quote": "I have stretched forth mine hand almost all the day long"
+   },
+   "reason": "the same line read as mercy in the application",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 6,
+     "verse": 4,
+     "w1": 21,
+     "w2": 31,
+     "quote": "he stretches forth his hands unto them all the day long",
+     "span": true
+    }
+   ],
+   "mirror": "jac06-002"
+  },
+  {
+   "id": "jac05-002",
+   "scope": "BOOK",
+   "head": "Jacob 6:1",
+   "anchor": {
+    "verse": 3,
+    "w1": 7,
+    "w2": 20,
+    "quote": "I will liken thee, O house of Israel, like unto a tame olive tree"
+   },
+   "reason": "the allegory Jacob turns to application",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 6,
+     "verse": 1,
+     "w1": 20,
+     "w2": 26,
+     "quote": "the things which this prophet Zenos spake",
+     "span": true
+    }
+   ],
+   "mirror": "jac06-001"
+  },
+  {
+   "id": "jac05-001",
+   "scope": "BOOK",
+   "head": "Jacob 4:18",
+   "anchor": {
+    "verse": 1,
+    "w1": 4,
+    "w2": 16,
+    "quote": "do ye not remember to have read the words of the prophet Zenos"
+   },
+   "reason": "the mystery Jacob promised to unfold",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 4,
+     "verse": 18,
+     "w1": 5,
+     "w2": 11,
+     "quote": "I will unfold this mystery unto you",
+     "span": true
+    }
+   ],
+   "mirror": "jac04-001"
+  },
+  {
+   "id": "jac05-005",
+   "scope": "BOM",
+   "head": "2 Ne. 15:4",
+   "anchor": {
+    "verse": 41,
+    "w1": 18,
+    "w2": 26,
+    "quote": "What could I have done more for my vineyard"
+   },
+   "reason": "Isaiah's question, as Nephi transcribed it",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 15,
+     "verse": 4,
+     "w1": 1,
+     "w2": 16,
+     "quote": "What could have been done more to my vineyard that I have not done in it",
+     "span": true
+    }
+   ],
+   "mirror": "2ne15-013"
+  },
+  {
+   "id": "jac05-004",
+   "scope": "BOM",
+   "head": "1 Ne. 15:16",
+   "anchor": {
+    "verse": 67,
+    "w1": 2,
+    "w2": 16,
+    "quote": "the branches of the natural tree will I graft in again into the natural tree"
+   },
+   "reason": "Nephi's answer built on this allegory",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 15,
+     "verse": 16,
+     "w1": 17,
+     "w2": 34,
+     "quote": "they shall be grafted in, being a natural branch of the olive tree, into the true olive tree",
+     "span": true
+    }
+   ],
+   "mirror": "1ne15-009"
+  },
+  {
+   "id": "jac05-003",
+   "scope": "BOM",
+   "head": "1 Ne. 10:14",
+   "anchor": {
+    "verse": 68,
+    "w1": 19,
+    "w2": 33,
+    "quote": "thus will I bring them together again, that they shall bring forth the natural fruit"
+   },
+   "reason": "Lehi's grafting prophecy, sourced",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 10,
+     "verse": 14,
+     "w1": 44,
+     "w2": 47,
+     "quote": "should be grafted in",
+     "span": true
+    }
+   ],
+   "mirror": "1ne10-017"
+  },
+  {
+   "id": "jac05-011",
+   "scope": "SW",
+   "head": "Matt. 20:16",
+   "anchor": {
+    "verse": 63,
+    "w1": 5,
+    "w2": 20,
+    "quote": "begin at the last that they may be first, and that the first may be last"
+   },
+   "reason": "the reversal, here as a work order",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 20,
+     "verse": 16,
+     "w1": 1,
+     "w2": 10,
+     "quote": "So the last shall be first, and the first last",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "jac05-010",
+   "scope": "SW",
+   "head": "1 Kgs. 6:6",
+   "anchor": {
+    "verse": 13,
+    "w1": 2,
+    "w2": 12,
+    "quote": "these will I place in the nethermost part of my vineyard"
+   },
+   "reason": "the term's only other use, of the temple",
+   "targets": [
+    {
+     "ref": "1 Kgs.",
+     "chapter": 6,
+     "verse": 6,
+     "w1": 1,
+     "w2": 7,
+     "quote": "The nethermost chamber was five cubits broad",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "jac05-009",
+   "scope": "SW",
+   "head": "Isa. 2:17",
+   "anchor": {
+    "verse": 48,
+    "w1": 13,
+    "w2": 20,
+    "quote": "Is it not the loftiness of thy vineyard"
+   },
+   "reason": "the word Isaiah uses of human height",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 2,
+     "verse": 17,
+     "w1": 1,
+     "w2": 9,
+     "quote": "And the loftiness of man shall be bowed down",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "jac05-008",
+   "scope": "SW",
+   "head": "Luke 13:8",
+   "anchor": {
+    "verse": 50,
+    "w1": 12,
+    "w2": 16,
+    "quote": "Spare it a little longer"
+   },
+   "reason": "the dresser asking for one more year",
+   "targets": [
+    {
+     "ref": "Luke",
+     "chapter": 13,
+     "verse": 8,
+     "w1": 7,
+     "w2": 22,
+     "quote": "Lord, let it alone this year also, till I shall dig about it, and dung it",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "jac05-007",
+   "scope": "SW",
+   "head": "Rom. 11:24",
+   "anchor": {
+    "verse": 10,
+    "w1": 27,
+    "w2": 35,
+    "quote": "grafted in the branches of the wild olive tree"
+   },
+   "reason": "Paul's graft, running one direction",
+   "targets": [
+    {
+     "ref": "Rom.",
+     "chapter": 11,
+     "verse": 24,
+     "w1": 17,
+     "w2": 26,
+     "quote": "wert grafted contrary to nature into a good olive tree",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "jac05-006",
+   "scope": "SW",
+   "head": "Isa. 5:4",
+   "anchor": {
+    "verse": 47,
+    "w1": 1,
+    "w2": 10,
+    "quote": "But what could I have done more in my vineyard"
+   },
+   "reason": "the vineyard song's question, asked again",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 5,
+     "verse": 4,
+     "w1": 1,
+     "w2": 16,
+     "quote": "What could have been done more to my vineyard, that I have not done in it",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 4,
+   "w2": 16,
+   "quote": "do ye not remember to have read the words of the prophet Zenos",
+   "entries": [
+    "jac05-001"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 7,
+   "w2": 20,
+   "quote": "I will liken thee, O house of Israel, like unto a tame olive tree",
+   "entries": [
+    "jac05-002"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 27,
+   "w2": 35,
+   "quote": "grafted in the branches of the wild olive tree",
+   "entries": [
+    "jac05-007"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 2,
+   "w2": 12,
+   "quote": "these will I place in the nethermost part of my vineyard",
+   "entries": [
+    "jac05-010"
+   ]
+  },
+  {
+   "verse": 41,
+   "w1": 18,
+   "w2": 26,
+   "quote": "What could I have done more for my vineyard",
+   "entries": [
+    "jac05-005"
+   ]
+  },
+  {
+   "verse": 47,
+   "w1": 1,
+   "w2": 10,
+   "quote": "But what could I have done more in my vineyard",
+   "entries": [
+    "jac05-006"
+   ]
+  },
+  {
+   "verse": 47,
+   "w1": 44,
+   "w2": 54,
+   "quote": "I have stretched forth mine hand almost all the day long",
+   "entries": [
+    "jac05-012"
+   ]
+  },
+  {
+   "verse": 48,
+   "w1": 13,
+   "w2": 20,
+   "quote": "Is it not the loftiness of thy vineyard",
+   "entries": [
+    "jac05-009"
+   ]
+  },
+  {
+   "verse": 50,
+   "w1": 12,
+   "w2": 16,
+   "quote": "Spare it a little longer",
+   "entries": [
+    "jac05-008"
+   ]
+  },
+  {
+   "verse": 63,
+   "w1": 5,
+   "w2": 20,
+   "quote": "begin at the last that they may be first, and that the first may be last",
+   "entries": [
+    "jac05-011"
+   ]
+  },
+  {
+   "verse": 67,
+   "w1": 2,
+   "w2": 16,
+   "quote": "the branches of the natural tree will I graft in again into the natural tree",
+   "entries": [
+    "jac05-004"
+   ]
+  },
+  {
+   "verse": 68,
+   "w1": 19,
+   "w2": 33,
+   "quote": "thus will I bring them together again, that they shall bring forth the natural fruit",
+   "entries": [
+    "jac05-003"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "a50d9667982bd24c"
+ }
+}

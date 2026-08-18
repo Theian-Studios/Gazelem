@@ -1,0 +1,772 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "2 Nephi",
+  "book_slug": "2nephi",
+  "chapter": 26,
+  "volume_order": "02",
+  "speakers": [
+   "Nephi"
+  ],
+  "audience": "His children and his brethren",
+  "location": "The land of Nephi",
+  "date": "~559–545 BC",
+  "unit": "Nephi's commentary (2 Nephi 25–30)",
+  "principles": [
+   "Foreseen destruction",
+   "A book from the dust",
+   "Free for all men"
+  ],
+  "connections": 12,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "A father watching his descendants die",
+   "text": "Nephi describes the destruction of his own people as something he has seen, and verse 7 breaks the prophecy open with an exclamation about the pain of it. This is not a warning to strangers. He is naming the end of his own line and saying he watched it."
+  },
+  {
+   "n": 2,
+   "title": "Four generations of peace",
+   "text": "Verse 9 gives a span rather than a date: three generations pass in righteousness after Christ appears, and many of the fourth. The record's own history will run exactly that arithmetic, which is one of the places the volume checks its own prophecy against its own narrative."
+  },
+  {
+   "n": 3,
+   "title": "Buried writers, speaking",
+   "text": "Verses 16 through 18 use Isaiah's figure of a destroyed people speaking low out of the ground with a voice like a familiar spirit. Nephi applies it to a written record recovered after his people are gone, and he will quote the Isaiah chapter itself in full in the next chapter."
+  },
+  {
+   "n": 4,
+   "title": "Churches, and getting gain",
+   "text": "Verses 20, 21, and 29 describe a religious economy: many churches, envyings and strifes, and men who preach to obtain money and reputation. Nephi is describing a future he has been shown, not a present he is living in, since his colony had one temple and no market for preaching."
+  },
+  {
+   "n": 5,
+   "title": "A string of questions with the same answer",
+   "text": "Verses 25 through 28 ask four times whether God has excluded anyone, and answer four times: nay. The form is a legal cross-examination that ends in acquittal for the accused, and the accused is everybody."
+  },
+  {
+   "n": 6,
+   "title": "The invitation's shape",
+   "text": "Verse 33 ends with an invitation before it ends with a conclusion: he inviteth them all to come unto him, and then all are alike unto God. Ancient covenant language usually runs the other way, defining the group and then addressing it. This verse addresses everyone and defines the group afterward."
+  }
+ ],
+ "words": [
+  {
+   "term": "stubble",
+   "verse_label": "v. 4",
+   "text": "The stalk left standing after a harvest, dry and worth nothing except as fuel. It appears twice in three verses for the proud and the wicked. The figure carries no cruelty in it: stubble burns because it is dry, and the chapter's judgment language keeps choosing images where the outcome follows from the condition."
+  },
+  {
+   "term": "naught",
+   "verse_label": "v. 10",
+   "text": "Nothing, no price at all. Nephi says his people sell themselves for naught, which is worse than selling cheaply. The word makes the transaction absurd rather than tragic, and it lands in the middle of the passage where he says the pains of his soul do not change what he has seen."
+  },
+  {
+   "term": "chaff",
+   "verse_label": "v. 18",
+   "text": "The husk separated from grain at threshing, so light that wind removes it. Applied here to \"their terrible ones\" (v. 18), the people most feared. The verse pairs the image with speed, at an instant, suddenly, and the two together say that what looked solid had no weight in it.",
+   "cites": [
+    {
+     "quote": "their terrible ones",
+     "verse": 18,
+     "start": 91,
+     "end": 120,
+     "spans": [
+      {
+       "w1": 16,
+       "w2": 18,
+       "text": "their terrible ones"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "envyings",
+   "verse_label": "v. 21",
+   "text": "The plural is doing work: not envy as a disposition but envyings as recurring events, things that happen between groups. It sits between strifes and malice in a list of what many churches cause. Nephi's complaint about religious multiplication is social rather than doctrinal at this point in the sentence."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "the words which he shall speak unto you shall be the law",
+   "verse_label": "v. 1",
+   "text": "The chapter opens by dissolving the question chapter 25 spent six verses on. When Christ appears, what he says becomes the law. The tension between keeping Moses and looking to Christ is not argued here; it is given an expiry date and a successor, and the successor is speech rather than a code."
+  },
+  {
+   "term": "the Son of Righteousness",
+   "verse_label": "v. 9",
+   "text": "Malachi's promise reads \"the Sun of righteousness arise with healing in his wings\" (Mal. 4:2), an image drawn from the sky, and Nephi had used the healing half of it one chapter earlier. Here the word is Son. Whether the difference is a translator's choice, a hearing, or a deliberate reading, the effect is to move the sentence from metaphor to person.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mal. 4:2",
+     "start": 84,
+     "end": 92,
+     "book": "Mal",
+     "chapter": 4,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
+  },
+  {
+   "term": "the Spirit of the Lord will not always strive with man",
+   "verse_label": "v. 11",
+   "text": "The sentence comes from the account of the world before the flood, where God says \"My spirit shall not always strive with man\" (Gen. 6:3). Nephi applies it to his own descendants and adds the consequence: when the striving ceases, speedy destruction. He also adds his reaction, that this grieves his soul, which is not something the Genesis verse does.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Gen. 6:3",
+     "start": 128,
+     "end": 136,
+     "book": "Gen",
+     "chapter": 6,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
+  },
+  {
+   "term": "speak unto them out of the ground",
+   "verse_label": "v. 16",
+   "text": "Isaiah's line about a fallen city whose \"speech shall be low out of the dust\" (Isa. 29:4) is turned into a description of a book. The dead speak, and what they say is written. It is the record's own account of what it is, given by a writer who knows his people will be the ones under the ground.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 29:4",
+     "start": 79,
+     "end": 88,
+     "book": "Isa",
+     "chapter": 29,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
+  },
+  {
+   "term": "sealed up in a book",
+   "verse_label": "v. 17",
+   "text": "Two verses give the whole shape of the record's coming forth: written, sealed, withheld from those who dwindled, and eventually brought out. Nephi states it as prophecy before quoting Isaiah 29 at length in the next chapter, so his readers meet the claim in his own plain words first and the poetry afterward."
+  },
+  {
+   "term": "the greatness of their stumbling block",
+   "verse_label": "v. 20",
+   "text": "The Gentiles are described as lifted up in the pride of their eyes and stumbling over something large. What they have built is many churches, and what they have put down is the power and miracles of God. The stumbling block in this sentence is their own construction, which is a harder charge than unbelief."
+  },
+  {
+   "term": "the Lord God worketh not in darkness",
+   "verse_label": "v. 23",
+   "text": "The hinge of the chapter. Everything before it has been destruction and secret combinations; everything after it is a series of denials that God excludes anyone. The sentence functions as a rule for reading the rest: whatever is done in secret is not his, and his dealings can be examined."
+  },
+  {
+   "term": "he loveth the world",
+   "verse_label": "v. 24",
+   "text": "Stated as the reason for everything he does, and the proof offered is that he lays down his own life to draw all men to him. The verse makes love the explanation rather than the result, and it puts the laying down in the same clause as the loving, so that the death is evidence rather than consequence."
+  },
+  {
+   "term": "buy milk and honey, without money and without price",
+   "verse_label": "v. 25",
+   "text": "Jacob had closed his sermon with the same invitation in Isaiah's words, \"come buy wine and milk without money and without price\" (2 Ne. 9:50). Nephi substitutes milk and honey, which is the phrase for the promised land, so the free purchase and the inheritance are folded into one line. The economy of both verses is the same: nothing is charged.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 9:50",
+     "start": 130,
+     "end": 140,
+     "book": "2 Ne",
+     "chapter": 9,
+     "verse_start": 50,
+     "verse_end": 50
+    }
+   ]
+  },
+  {
+   "term": "priestcrafts are that men preach and set themselves up",
+   "verse_label": "v. 29",
+   "text": "The definition Nephi's brother left unexplained fifteen chapters ago, when Jacob named priestcrafts as one of the two causes of the crucifixion. Here it is spelled out: preaching for gain and praise, and not seeking the welfare of Zion. The record supplies its own glossary, and this entry is one of the clearest cases of it."
+  },
+  {
+   "term": "which charity is love",
+   "verse_label": "v. 30",
+   "text": "A definition inside a commandment. God commands that all men have charity, and then tells them what the word means, which suggests the term was not obvious to Nephi's hearers either. This is the record's first gloss on it, and the gloss is what makes the commandment executable. Paul writes that without it \"I am nothing\" (1 Cor. 13:2); Moroni will devote most of a chapter to it and say the same.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Cor. 13:2",
+     "start": 323,
+     "end": 334,
+     "book": "1 Cor",
+     "chapter": 13,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
+  },
+  {
+   "term": "all are alike unto God",
+   "verse_label": "v. 33",
+   "text": "The chapter's last claim, and it arrives after a list of every division that mattered: black and white, bond and free, male and female, heathen, Jew, and Gentile. Peter reaches the same conclusion after a vision, saying \"God is no respecter of persons\" (Acts 10:34). Nephi reaches it as the end of an argument about who is invited.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Acts 10:34",
+     "start": 254,
+     "end": 264,
+     "book": "Acts",
+     "chapter": 10,
+     "verse_start": 34,
+     "verse_end": 34
+    }
+   ]
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1",
+   "start": 1,
+   "end": 1,
+   "title": "The law replaced by a voice",
+   "text": "One verse settles what the previous chapter held in tension. After the resurrection Christ will show himself, and what he says will be the law they do. Nothing is said about the old law ending; it is simply superseded by a person who can be listened to."
+  },
+  {
+   "label": "v. 3–8",
+   "start": 3,
+   "end": 8,
+   "title": "Signs, and who they sort",
+   "text": "Signs of birth, death, and resurrection; then destruction described in six ways, and the righteous identified by one behavior: they hearken to the prophets and do not destroy them. The criterion is treatment of messengers rather than belief in a doctrine, which is a specific and testable thing."
+  },
+  {
+   "label": "v. 7",
+   "start": 7,
+   "end": 7,
+   "title": "A prophet interrupts himself",
+   "text": "In the middle of an oracle about destruction, Nephi stops and cries out about the pain of his soul for the loss of his people, and then says he must still tell God that his ways are just. It is one of the few places in the record where a writer's grief and his theology are shown resisting each other in the same sentence."
+  },
+  {
+   "label": "v. 9–11",
+   "start": 9,
+   "end": 11,
+   "title": "Four generations, and then the Spirit stops",
+   "text": "A span of peace is promised and dated by generations, and then it ends. The mechanism given is not invasion but withdrawal: the Spirit ceases to strive, and speedy destruction follows. Nephi has watched this in vision and says twice that it grieves him."
+  },
+  {
+   "label": "v. 14–18",
+   "start": 14,
+   "end": 18,
+   "title": "The record describes its own recovery",
+   "text": "The chapter turns to the last days and describes a people destroyed, a record written and sealed, and a book brought out when its writers are gone. Nephi is describing the object his reader is holding, and he does it in Isaiah's vocabulary before quoting Isaiah in the next chapter."
+  },
+  {
+   "label": "v. 20–22",
+   "start": 20,
+   "end": 22,
+   "title": "What gets built instead",
+   "text": "Many churches, envyings, strifes, malice, and secret combinations founded by the devil. The list moves from religious institutions to criminal conspiracies in three verses without a break, which is a claim about how they are related rather than an accident of order."
+  },
+  {
+   "label": "v. 23–33",
+   "start": 23,
+   "end": 33,
+   "title": "The chapter's whole argument, stated as denials",
+   "text": "God does not work in darkness; he does not tell anyone to depart; he has not commanded anyone to stay out of the synagogues or away from his salvation or his goodness. Then the positive commands: no priestcrafts, charity for all, labor for Zion rather than for money. It ends with every human category named and dismissed as a criterion."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "Two halves joined by a rule",
+   "text": "The first twenty-two verses are destruction, secret combinations, and grief. The last ten are invitation. Verse 23 is the joint: the Lord God works not in darkness. Everything after it follows from that one sentence, and the chapter's structure is an argument rather than a sequence."
+  },
+  {
+   "n": 2,
+   "title": "The record describes itself",
+   "text": "Nephi's account of a sealed book speaking out of the dust is the volume's own origin story, told by a writer who knows he will be one of the buried. He gives it plainly here and quotes Isaiah's version of it next, which is the same order he used for the whole Isaiah block: his own words first, the poetry second."
+  },
+  {
+   "n": 3,
+   "title": "Grief is left in the text",
+   "text": "Verse 7 and verse 11 both record Nephi's distress at what he has seen, and neither is resolved. A writer working from a prophetic outline could have removed them. Their survival is part of what makes the chapter's later invitation credible."
+  },
+  {
+   "n": 4,
+   "title": "The invitations are stated as refusals",
+   "text": "Rather than saying God welcomes everyone, the chapter asks four times whether he has excluded anyone and answers nay. The rhetorical choice matters, because it addresses people who already suspect they are outside and answers the suspicion in its own terms."
+  },
+  {
+   "n": 5,
+   "title": "Priestcraft is defined by motive, not by office",
+   "text": "Nothing in verse 29's definition concerns authority, ordination, or doctrine. The test is what a preacher is trying to obtain, which is a test anyone can apply to himself and almost nobody can apply to someone else."
+  },
+  {
+   "n": 6,
+   "title": "The last verse answers the whole book so far",
+   "text": "Two Nephi has spent chapters on Jews and Gentiles, covenant lines, remnants, and who inherits what. Verse 33 collapses all of it: he invites all to come, and all are alike unto God. Nephi does not treat that as contradicting the covenant material. He treats it as its point."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Watch how you take correction",
+    "verse_label": "v. 8",
+    "text": "The righteous in this chapter are identified by hearkening to prophets and not destroying them. Ask how you handle correction that arrives through a person, especially one you did not choose."
+   },
+   {
+    "title": "Say the just thing while grieving",
+    "verse_label": "v. 7",
+    "text": "Nephi cries out about his pain and then tells God his ways are just, in the same breath. Practice holding both rather than waiting until the grief resolves to resume trusting."
+   },
+   {
+    "title": "Notice when the striving stops",
+    "verse_label": "v. 11",
+    "text": "The chapter's most frightening line is about withdrawal rather than punishment. Identify where you have felt the Spirit less lately, and ask honestly whether something in you has been declining the struggle."
+   },
+   {
+    "title": "Check what you are building",
+    "verse_label": "v. 20",
+    "text": "The Gentiles' stumbling block is their own construction. Look at what you have built in the name of faith, a reputation, a routine, an organization, and ask whether it lets God's power through or replaces it."
+   },
+   {
+    "title": "Ask what you get out of it",
+    "verse_label": "v. 29",
+    "text": "The definition is about motive: preaching for gain and praise while not seeking Zion's welfare. Take the most public thing you do for God and ask, honestly, what you get from it."
+   },
+   {
+    "title": "Take the four denials personally",
+    "verse_label": "v. 25–28",
+    "text": "Read the questions aloud with your own name in them: has he told me to depart, to stay out, to keep away from his salvation or his goodness? The answer each time is nay, and it is meant to be heard by someone who suspects otherwise."
+   },
+   {
+    "title": "Pick one division",
+    "verse_label": "v. 33",
+    "text": "Pick a division you actually notice in a room, and ask what would change in your behavior for one week if you fully believed the people on both sides of it were alike unto God."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "What do I know to be just that I am currently in too much pain to say?"
+   },
+   {
+    "verse_label": "v. 10",
+    "start": 10,
+    "end": 10,
+    "text": "What have I sold myself for, and would I call the price naught if I said it out loud?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "Where have I stopped striving, and is the quiet I feel peace or withdrawal?"
+   },
+   {
+    "verse_label": "v. 23",
+    "start": 23,
+    "end": 23,
+    "text": "Is there anything in my religious life that only works in the dark?"
+   },
+   {
+    "verse_label": "v. 29",
+    "start": 29,
+    "end": 29,
+    "text": "What do I get out of being seen to serve?"
+   },
+   {
+    "verse_label": "v. 30",
+    "start": 30,
+    "end": 30,
+    "text": "If charity is love, is what I call charity actually that?"
+   },
+   {
+    "verse_label": "v. 33",
+    "start": 33,
+    "end": 33,
+    "text": "Which of the categories in this verse do I still, in practice, treat as a criterion?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "2ne26-012",
+   "scope": "BOOK",
+   "head": "2 Ne. 33:13",
+   "anchor": {
+    "verse": 16,
+    "w1": 2,
+    "w2": 14,
+    "quote": "those who shall be destroyed shall speak unto them out of the ground"
+   },
+   "reason": "the figure turned on himself",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 33,
+     "verse": 13,
+     "w1": 22,
+     "w2": 34,
+     "quote": "I speak unto you as the voice of one crying from the dust",
+     "span": true
+    }
+   ],
+   "mirror": "2ne33-002"
+  },
+  {
+   "id": "2ne26-011",
+   "scope": "BOOK",
+   "head": "2 Ne. 29:7",
+   "anchor": {
+    "verse": 33,
+    "w1": 72,
+    "w2": 76,
+    "quote": "all are alike unto God"
+   },
+   "reason": "more nations than one, argued",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 29,
+     "verse": 7,
+     "w1": 1,
+     "w2": 10,
+     "quote": "Know ye not that there are more nations than one",
+     "span": true
+    }
+   ],
+   "mirror": "2ne29-003"
+  },
+  {
+   "id": "2ne26-010",
+   "scope": "BOOK",
+   "head": "2 Ne. 28:3",
+   "anchor": {
+    "verse": 21,
+    "w1": 2,
+    "w2": 14,
+    "quote": "there are many churches built up which cause envyings, and strifes, and malice"
+   },
+   "reason": "the churches given a line of dialogue",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 28,
+     "verse": 3,
+     "w1": 30,
+     "w2": 35,
+     "quote": "Behold, I, I am the Lord's",
+     "span": true
+    }
+   ],
+   "mirror": "2ne28-001"
+  },
+  {
+   "id": "2ne26-009",
+   "scope": "BOOK",
+   "head": "2 Ne. 27:7",
+   "anchor": {
+    "verse": 17,
+    "w1": 19,
+    "w2": 28,
+    "quote": "they shall be written and sealed up in a book"
+   },
+   "reason": "the sealing described in detail next",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 27,
+     "verse": 7,
+     "w1": 1,
+     "w2": 7,
+     "quote": "And behold the book shall be sealed",
+     "span": true
+    }
+   ],
+   "mirror": "2ne27-001"
+  },
+  {
+   "id": "2ne26-001",
+   "scope": "BOOK",
+   "head": "2 Ne. 9:50",
+   "anchor": {
+    "verse": 25,
+    "w1": 29,
+    "w2": 37,
+    "quote": "buy milk and honey, without money and without price"
+   },
+   "reason": "Jacob's free market, reissued",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 9,
+     "verse": 50,
+     "w1": 24,
+     "w2": 33,
+     "quote": "come buy wine and milk without money and without price",
+     "span": true
+    }
+   ],
+   "mirror": "2ne09-002"
+  },
+  {
+   "id": "2ne26-002",
+   "scope": "BOOK",
+   "head": "2 Ne. 10:5",
+   "anchor": {
+    "verse": 29,
+    "w1": 11,
+    "w2": 25,
+    "quote": "priestcrafts are that men preach and set themselves up for a light unto the world"
+   },
+   "reason": "the term defined at last",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 10,
+     "verse": 5,
+     "w1": 2,
+     "w2": 6,
+     "quote": "because of priestcrafts and iniquities",
+     "span": true
+    }
+   ],
+   "mirror": "2ne10-018"
+  },
+  {
+   "id": "2ne26-003",
+   "scope": "BOM",
+   "head": "Moro. 7:46",
+   "anchor": {
+    "verse": 30,
+    "w1": 17,
+    "w2": 25,
+    "quote": "all men should have charity, which charity is love"
+   },
+   "reason": "the record's last treatment of the word",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 7,
+     "verse": 46,
+     "w1": 5,
+     "w2": 12,
+     "quote": "if ye have not charity, ye are nothing",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "2ne26-004",
+   "scope": "SW",
+   "head": "Mal. 4:2",
+   "anchor": {
+    "verse": 9,
+    "w1": 1,
+    "w2": 9,
+    "quote": "But the Son of Righteousness shall appear unto them"
+   },
+   "reason": "sun become Son",
+   "targets": [
+    {
+     "ref": "Mal.",
+     "chapter": 4,
+     "verse": 2,
+     "w1": 9,
+     "w2": 18,
+     "quote": "the Sun of righteousness arise with healing in his wings",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne26-005",
+   "scope": "SW",
+   "head": "Gen. 6:3",
+   "anchor": {
+    "verse": 11,
+    "w1": 1,
+    "w2": 12,
+    "quote": "For the Spirit of the Lord will not always strive with man"
+   },
+   "reason": "the sentence spoken before the flood",
+   "targets": [
+    {
+     "ref": "Gen.",
+     "chapter": 6,
+     "verse": 3,
+     "w1": 5,
+     "w2": 12,
+     "quote": "My spirit shall not always strive with man",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne26-006",
+   "scope": "SW",
+   "head": "Isa. 29:4",
+   "anchor": {
+    "verse": 16,
+    "w1": 2,
+    "w2": 14,
+    "quote": "those who shall be destroyed shall speak unto them out of the ground"
+   },
+   "reason": "the figure quoted in full next chapter",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 29,
+     "verse": 4,
+     "w1": 15,
+     "w2": 23,
+     "quote": "thy speech shall be low out of the dust",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne26-007",
+   "scope": "SW",
+   "head": "1 Cor. 13:2",
+   "anchor": {
+    "verse": 30,
+    "w1": 17,
+    "w2": 25,
+    "quote": "all men should have charity, which charity is love"
+   },
+   "reason": "Paul's same measure",
+   "targets": [
+    {
+     "ref": "1 Cor.",
+     "chapter": 13,
+     "verse": 2,
+     "w1": 28,
+     "w2": 34,
+     "quote": "and have not charity, I am nothing",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne26-008",
+   "scope": "SW",
+   "head": "Acts 10:34",
+   "anchor": {
+    "verse": 33,
+    "w1": 72,
+    "w2": 76,
+    "quote": "all are alike unto God"
+   },
+   "reason": "Peter's conclusion after a vision",
+   "targets": [
+    {
+     "ref": "Acts",
+     "chapter": 10,
+     "verse": 34,
+     "w1": 14,
+     "w2": 19,
+     "quote": "God is no respecter of persons",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 9,
+   "w1": 1,
+   "w2": 9,
+   "quote": "But the Son of Righteousness shall appear unto them",
+   "entries": [
+    "2ne26-004"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 1,
+   "w2": 12,
+   "quote": "For the Spirit of the Lord will not always strive with man",
+   "entries": [
+    "2ne26-005"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 2,
+   "w2": 14,
+   "quote": "those who shall be destroyed shall speak unto them out of the ground",
+   "entries": [
+    "2ne26-012",
+    "2ne26-006"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 19,
+   "w2": 28,
+   "quote": "they shall be written and sealed up in a book",
+   "entries": [
+    "2ne26-009"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 2,
+   "w2": 14,
+   "quote": "there are many churches built up which cause envyings, and strifes, and malice",
+   "entries": [
+    "2ne26-010"
+   ]
+  },
+  {
+   "verse": 25,
+   "w1": 29,
+   "w2": 37,
+   "quote": "buy milk and honey, without money and without price",
+   "entries": [
+    "2ne26-001"
+   ]
+  },
+  {
+   "verse": 29,
+   "w1": 11,
+   "w2": 25,
+   "quote": "priestcrafts are that men preach and set themselves up for a light unto the world",
+   "entries": [
+    "2ne26-002"
+   ]
+  },
+  {
+   "verse": 30,
+   "w1": 17,
+   "w2": 25,
+   "quote": "all men should have charity, which charity is love",
+   "entries": [
+    "2ne26-003",
+    "2ne26-007"
+   ]
+  },
+  {
+   "verse": 33,
+   "w1": 72,
+   "w2": 76,
+   "quote": "all are alike unto God",
+   "entries": [
+    "2ne26-011",
+    "2ne26-008"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "446ab923b2d730f4"
+ }
+}

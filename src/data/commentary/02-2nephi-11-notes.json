@@ -1,0 +1,794 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "2 Nephi",
+  "book_slug": "2nephi",
+  "chapter": 11,
+  "volume_order": "02",
+  "speakers": [
+   "Nephi"
+  ],
+  "audience": null,
+  "location": "The land of Nephi",
+  "date": "~559–545 BC",
+  "unit": "Isaiah block preface (2 Nephi 11–24)",
+  "principles": [
+   "Witnesses",
+   "Types of Christ",
+   "Delight"
+  ],
+  "connections": 14,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "An editor takes the record back",
+   "text": "Jacob's sermon ran five chapters and then stopped, and verse 1 explains why: he \"spake many more things to my people at that time\" (v. 1) that Nephi chose not to engrave. This is the plainest look the small plates give at their own selection process, and it comes right before Nephi hands thirteen chapters of the record to another writer entirely.",
+   "cites": [
+    {
+     "quote": "spake many more things to my people at that time",
+     "verse": 1,
+     "start": 80,
+     "end": 137,
+     "spans": [
+      {
+       "w1": 4,
+       "w2": 13,
+       "text": "spake many more things to my people at that time"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Why so much Isaiah",
+   "text": "Nephi is about to copy Isaiah 2 through 14 onto plates he made by hand, in a colony with no scribes to spare. The chapter is his justification for the expense, offered before the copying rather than after, and it turns on one fact: Isaiah saw what Nephi saw."
+  },
+  {
+   "n": 3,
+   "title": "Three men who have seen him",
+   "text": "Nephi, Jacob, and Isaiah are presented as three separate sightings of the same person. The arrangement is legal in flavor. Israelite law required two or three witnesses to establish a matter in court, and Nephi builds his case out of exactly that number before adding that God is not limited to it."
+  },
+  {
+   "n": 4,
+   "title": "The law of Moses as evidence",
+   "text": "Verse 4 makes a claim about the whole sacrificial system the colony was still practicing at its new temple: it exists to point at Christ. A people offering animals by the law were being told what the offerings meant, which is a reading the Nephite record keeps and later preachers spell out at length."
+  },
+  {
+   "n": 5,
+   "title": "A refrain, and where it started",
+   "text": "\"My soul delighteth\" sounds five times in these eight verses. Nephi first used it in the psalm he wrote after his father's death, and the phrase follows him through the rest of his writing. It functions less as a stylistic habit than as his way of naming what he cannot stop returning to."
+  },
+  {
+   "n": 6,
+   "title": "The chapter faces two directions",
+   "text": "It closes Jacob's sermon and opens the long quotation, and it belongs fully to neither. Read as a hinge, it explains why a record this short spends so much of itself on another prophet's words: because the other prophet is a witness, and witnesses are what this book is built out of."
+  }
+ ],
+ "words": [
+  {
+   "term": "sufficeth",
+   "verse_label": "v. 1",
+   "text": "An editor's word: enough for the purpose. Nephi does not say Jacob's other sermons were unimportant, only that what he has written satisfies what he set out to do. The verb appears at the seam between his brother's preaching and his own copying, and it is the closest this record comes to a statement about how much gets left out of it."
+  },
+  {
+   "term": "witnesses",
+   "verse_label": "v. 3",
+   "text": "A courtroom word carried into a book. Nephi counts three who have seen the Redeemer, invokes the rule that three establish a matter, then immediately loosens it: \"God sendeth more witnesses\" (v. 3). The legal minimum is treated as a floor rather than a ceiling, and the record itself is being offered as one of the extras.",
+   "cites": [
+    {
+     "quote": "God sendeth more witnesses",
+     "verse": 3,
+     "start": 162,
+     "end": 197,
+     "spans": [
+      {
+       "w1": 48,
+       "w2": 51,
+       "text": "God sendeth more witnesses"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "typifying",
+   "verse_label": "v. 4",
+   "text": "The rarest word in the chapter and the widest claim in it. To typify is to prefigure, to be a thing that stands for a later thing. Nephi applies it not to a few ceremonies but to \"all things which have been given of God from the beginning of the world\" (v. 4). Under that rule, nothing God has given is only itself.",
+   "cites": [
+    {
+     "quote": "all things which have been given of God from the beginning of the world",
+     "verse": 4,
+     "start": 179,
+     "end": 259,
+     "spans": [
+      {
+       "w1": 29,
+       "w2": 42,
+       "text": "all things which have been given of God from the beginning of the world"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "my soul delighteth in his words",
+   "verse_label": "v. 2",
+   "text": "The reason given for thirteen chapters of copying, and it is a personal one rather than an argument. Nephi first said it of \"the things of the Lord\" (2 Ne. 4:16) in his psalm; here the object narrows to one prophet's writing, and later he will say it of plainness and of Isaiah again. The formula sounds five times in these eight verses and takes six objects: Isaiah's words, proving the truth of Christ's coming, the covenants, grace, justice and mercy, and proving that without Christ all men must perish. Two of the six are delight in the act of persuading somebody, which is a telling thing to enjoy.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 4:16",
+     "start": 150,
+     "end": 160,
+     "book": "2 Ne",
+     "chapter": 4,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
+  },
+  {
+   "term": "he verily saw my Redeemer, even as I have seen him",
+   "verse_label": "v. 2",
+   "text": "The credential that carries the whole chapter. Isaiah is not recommended as eloquent or ancient but as an eyewitness of the same person Nephi saw, and the two verbs are deliberately matched. Isaiah's own account has him seeing \"the Lord sitting upon a throne\" (Isa. 6:1). Nephi treats that as the same event class as his own vision and his brother's.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 6:1",
+     "start": 261,
+     "end": 269,
+     "book": "Isa",
+     "chapter": 6,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
+  },
+  {
+   "term": "by the words of three, God hath said, I will establish my word\"\n(v. 3)\nThe rule comes from Israel's courts, where a matter stands \"at the\nmouth of three witnesses\" (Deut. 19:15), and Paul will cite the same\nstandard to a quarreling branch. Nephi applies a rule about\nestablishing facts to the question of establishing scripture, and\nthen names his three: himself, his brother, and the prophet he is\nabout to quote at length.\n\n### \"for this end hath the law of Moses been given",
+   "verse_label": "v. 4",
+   "text": "A purpose statement about a whole legal system, made by a man whose people were keeping it. The law is not described as abolished or as sufficient; it is described as aimed. Abinadi will argue the same point before a hostile court, and Amulek will say the law is \"every whit pointing to that great and last sacrifice\" (Alma 34:14).",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 34:14",
+     "start": 319,
+     "end": 329,
+     "book": "Alma",
+     "chapter": 34,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
+  },
+  {
+   "term": "the great and eternal plan of deliverance from death",
+   "verse_label": "v. 5",
+   "text": "Nephi's name for what Jacob had just spent a chapter explaining. His father called it the merciful plan, Jacob called it the way of deliverance, and the record will accumulate more names for it. What this version adds is the pairing of \"great and eternal\" with a very specific object: not deliverance in general, deliverance from death."
+  },
+  {
+   "term": "if there be no Christ there be no God",
+   "verse_label": "v. 7",
+   "text": "The shortest argument in the record, and it runs backward from absence to absence: no Christ, no God, no us, no creation. Then it reverses in one clause, \"But there is a God, and he is Christ\" (v. 7). Nephi does not defend the chain, which suggests he expected his hearers to grant every link. What he wanted was the conclusion stated briefly enough to be carried away and repeated.",
+   "cites": [
+    {
+     "quote": "But there is a God, and he is Christ",
+     "verse": 7,
+     "start": 154,
+     "end": 199,
+     "spans": [
+      {
+       "w1": 27,
+       "w2": 35,
+       "text": "But there is a God, and he is Christ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "ye may liken them unto you and unto all men",
+   "verse_label": "v. 8",
+   "text": "The instruction Nephi attaches to the block before it begins. He had used the method himself on the shore, reading Isaiah to persuade his brothers, and describing it afterward as having \"liken[ed] all scriptures unto us\" (1 Ne. 19:23). Here it stops being his practice and becomes the reader's assignment, with the audience widened past his own family to all men.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 19:23",
+     "start": 222,
+     "end": 233,
+     "book": "1 Ne",
+     "chapter": 19,
+     "verse_start": 23,
+     "verse_end": 23
+    }
+   ]
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1",
+   "start": 1,
+   "end": 1,
+   "title": "What did not get engraved",
+   "text": "The verse admits an archive that no longer exists: many more things, spoken at that time, never written. Nephi offers no apology and no summary of what was cut. For a record so concerned with witnesses, the moment is a reminder that what survives is a selection made by one man with limited plates and a stated purpose."
+  },
+  {
+   "label": "v. 2",
+   "start": 2,
+   "end": 2,
+   "title": "The reason, and it is affection",
+   "text": "Asked why he is about to copy so much of another prophet, Nephi answers first with delight and only second with evidence. The order is worth noticing. A modern writer would lead with the argument from Isaiah's authority; Nephi leads with the fact that he loves the words, then supplies the eyewitness credential."
+  },
+  {
+   "label": "v. 3",
+   "start": 3,
+   "end": 3,
+   "title": "A case built to a legal standard",
+   "text": "Three seers, named, with the rule about three cited in the same breath. Then the clause that keeps the standard from becoming a limit: God sends more, and proves all his words. Nephi is building his book to a threshold his hearers would recognize from their own courts, and then pointing past it."
+  },
+  {
+   "label": "v. 4",
+   "start": 4,
+   "end": 4,
+   "title": "The claim that reorganizes everything",
+   "text": "If all things given of God from the beginning typify Christ, then the law being kept in the colony's temple, the brass plates in its archive, and the family's own deliverances are all evidence in the same case. This single verse is the interpretive key the rest of the record uses without restating."
+  },
+  {
+   "label": "v. 5–6",
+   "start": 5,
+   "end": 6,
+   "title": "The list of delights",
+   "text": "Covenants, grace, justice, power, mercy, and then the hardest item: proving that without Christ all men must perish. Nephi puts the warning inside a list of pleasures, which is a strange thing to do until you notice that the delight is in proving it. He enjoys the case, not the fate."
+  },
+  {
+   "label": "v. 7",
+   "start": 7,
+   "end": 7,
+   "title": "No general belief on offer",
+   "text": "The verse removes the option of holding a general belief in God while declining the specific one. It is the record's most compressed statement of that position, and it is stated as logic rather than as exhortation, which leaves the reader either agreeing or looking for the broken link."
+  },
+  {
+   "label": "v. 8",
+   "start": 8,
+   "end": 8,
+   "title": "The handoff",
+   "text": "Nephi tells his readers what the coming chapters are for before they arrive: lift up your hearts, rejoice for all men, and liken these words to yourselves. The instruction is short and the block that follows is enormous. Everything the record does with Isaiah afterward is a working out of this one sentence."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "A preface, and it knows it is one",
+   "text": "Eight verses do the work of an introduction: whose words are coming, why they were chosen, on what authority, and how to read them. Nephi does not usually explain his editorial decisions. That he does it here suggests he expected the length of the quotation to raise the question."
+  },
+  {
+   "n": 2,
+   "title": "The chapter argues from sight, not from status",
+   "text": "Isaiah's authority in this chapter rests on his having seen the Redeemer, and the same credential is claimed for Jacob and for Nephi himself. Scripture is treated as testimony from people who were there, which is the standard the record applies to itself from its first chapter to its last."
+  },
+  {
+   "n": 3,
+   "title": "Delight is offered as a reason",
+   "text": "Five sentences of pleasure sit inside an argument about evidence, and the record lets them stand as part of the case. A reader is being shown what a person looks like who has settled the question: he does not merely accept the doctrine, he enjoys rehearsing it."
+  },
+  {
+   "n": 4,
+   "title": "The typifying claim licenses everything that follows",
+   "text": "Once all things given of God are said to point at Christ, thirteen chapters of eighth-century prophecy about Assyria, vineyards, and a virgin's son become directly usable. Verse 4 is what makes the block relevant rather than antiquarian, and Nephi states it before quoting a line."
+  },
+  {
+   "n": 5,
+   "title": "Jacob is closed out generously",
+   "text": "The sermon ends not with Nephi's assessment of it but with the observation that there was more of it. Then Jacob is immediately enlisted as one of the three witnesses. The younger brother who opened as a preacher two chapters into 2 Nephi leaves this chapter as evidence."
+  },
+  {
+   "n": 6,
+   "title": "The instruction is given before the material",
+   "text": "Verse 8 tells readers what to do with what they are about to read. The order matters for the chapters ahead, which are difficult, ancient, and full of foreign politics. Nephi's method survives the difficulty because it was stated in advance and does not depend on understanding every line."
+  },
+  {
+   "n": 7,
+   "title": "A hinge in a book made of hinges",
+   "text": "The small plates keep changing hands and modes: father to son, narrative to sermon, sermon to quotation. This chapter performs the change explicitly and briefly, and it is the last time Nephi speaks in his own voice for thirteen chapters."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Name your three",
+    "verse_label": "v. 3",
+    "text": "Nephi built his case on three people who had seen for themselves. Write down the three witnesses your own conviction actually rests on, whether persons, experiences, or texts, and notice whether you have been counting the same one three times."
+   },
+   {
+    "title": "Say what you delight in",
+    "verse_label": "v. 4–6",
+    "text": "Try Nephi's sentence in your own words and finish it honestly six times. The exercise separates what you believe from what you enjoy, and the gap between the two lists is usually where the next month's study belongs."
+   },
+   {
+    "title": "Read one ordinary thing as a type",
+    "verse_label": "v. 4",
+    "text": "Take a commandment or practice you keep out of habit, sacrament, tithing, a Sabbath, and ask what it points at. Verse 4 claims everything God has given does this. The claim is only useful if you test it on something specific."
+   },
+   {
+    "title": "Liken deliberately, once",
+    "verse_label": "v. 8",
+    "text": "Pick a chapter you find remote, a genealogy, an old war, a prophecy about a vanished empire, and put yourself and your people into it on purpose. Nephi's instruction is not that scripture is about you; it is that you are to do the work of finding where you stand in it."
+   },
+   {
+    "title": "Decide what sufficeth",
+    "verse_label": "v. 1",
+    "text": "Nephi engraved what met his purpose and let the rest go. Look at a project, a journal, a record you are keeping, and ask what it is for. Then write only that much, and stop without apologizing for what you left out."
+   },
+   {
+    "title": "Test the chain in verse 7",
+    "verse_label": null,
+    "text": "Read it slowly and find the link you find hardest. Then spend a week reading around that link rather than around the parts you already accept. Nephi's argument is short enough that its weakest joint for you is easy to locate."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What am I keeping a record of, and what have I decided is not worth writing down?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Do I love any scripture the way Nephi loved Isaiah, or do I only respect it?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "Whose witness, other than my own, has actually changed what I believe?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "Which practice in my religious life have I never asked the meaning of?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "Can I say I delight in proving hard truths, or do I only delight in the comfortable ones?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "What passage have I given up on, and what would likening it to my own situation require of me?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "2ne11-014",
+   "scope": "BOOK",
+   "head": "2 Ne. 31:3",
+   "anchor": {
+    "verse": 4,
+    "w1": 2,
+    "w2": 16,
+    "quote": "my soul delighteth in proving unto my people the truth of the coming of Christ"
+   },
+   "reason": "the delight formula's third object",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 31,
+     "verse": 3,
+     "w1": 1,
+     "w2": 6,
+     "quote": "For my soul delighteth in plainness",
+     "span": true
+    }
+   ],
+   "mirror": "2ne31-001"
+  },
+  {
+   "id": "2ne11-013",
+   "scope": "BOOK",
+   "head": "2 Ne. 27:12",
+   "anchor": {
+    "verse": 3,
+    "w1": 34,
+    "w2": 46,
+    "quote": "by the words of three, God hath said, I will establish my word"
+   },
+   "reason": "the rule applied to a book",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 27,
+     "verse": 12,
+     "w1": 38,
+     "w2": 46,
+     "quote": "save it be that three witnesses shall behold it",
+     "span": true
+    }
+   ],
+   "mirror": "2ne27-002"
+  },
+  {
+   "id": "2ne11-012",
+   "scope": "BOOK",
+   "head": "2 Ne. 16:1",
+   "anchor": {
+    "verse": 2,
+    "w1": 39,
+    "w2": 49,
+    "quote": "he verily saw my Redeemer, even as I have seen him"
+   },
+   "reason": "the vision that backs the credential",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 16,
+     "verse": 1,
+     "w1": 8,
+     "w2": 20,
+     "quote": "I saw also the Lord sitting upon a throne, high and lifted up",
+     "span": true
+    }
+   ],
+   "mirror": "2ne16-001"
+  },
+  {
+   "id": "2ne11-011",
+   "scope": "BOOK",
+   "head": "2 Ne. 12:1",
+   "anchor": {
+    "verse": 2,
+    "w1": 29,
+    "w2": 37,
+    "quote": "I will send them forth unto all my children"
+   },
+   "reason": "the sending carried out next chapter",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 12,
+     "verse": 1,
+     "w1": 1,
+     "w2": 9,
+     "quote": "The word that Isaiah, the son of Amoz, saw",
+     "span": true
+    }
+   ],
+   "mirror": "2ne12-001"
+  },
+  {
+   "id": "2ne11-001",
+   "scope": "BOOK",
+   "head": "2 Ne. 4:16",
+   "anchor": {
+    "verse": 2,
+    "w1": 13,
+    "w2": 18,
+    "quote": "my soul delighteth in his words"
+   },
+   "reason": "the psalm's phrase, narrowed to Isaiah",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 4,
+     "verse": 16,
+     "w1": 2,
+     "w2": 10,
+     "quote": "my soul delighteth in the things of the Lord",
+     "span": true
+    }
+   ],
+   "mirror": "2ne04-010"
+  },
+  {
+   "id": "2ne11-002",
+   "scope": "BOOK",
+   "head": "2 Ne. 25:5",
+   "anchor": {
+    "verse": 2,
+    "w1": 13,
+    "w2": 18,
+    "quote": "my soul delighteth in his words"
+   },
+   "reason": "the same reason given after the block",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 25,
+     "verse": 5,
+     "w1": 3,
+     "w2": 10,
+     "quote": "my soul delighteth in the words of Isaiah",
+     "span": true
+    }
+   ],
+   "mirror": "2ne25-001"
+  },
+  {
+   "id": "2ne11-003",
+   "scope": "BOM",
+   "head": "1 Ne. 19:23",
+   "anchor": {
+    "verse": 8,
+    "w1": 36,
+    "w2": 45,
+    "quote": "ye may liken them unto you and unto all men"
+   },
+   "reason": "likening handed from practice to reader",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 19,
+     "verse": 23,
+     "w1": 46,
+     "w2": 52,
+     "quote": "I did liken all scriptures unto us",
+     "span": true
+    }
+   ],
+   "mirror": "1ne19-005"
+  },
+  {
+   "id": "2ne11-004",
+   "scope": "BOM",
+   "head": "Ether 5:4",
+   "anchor": {
+    "verse": 3,
+    "w1": 34,
+    "w2": 46,
+    "quote": "by the words of three, God hath said, I will establish my word"
+   },
+   "reason": "three witnesses required of a later record",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 5,
+     "verse": 4,
+     "w1": 2,
+     "w2": 12,
+     "quote": "in the mouth of three witnesses shall these things be established",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "2ne11-005",
+   "scope": "BOM",
+   "head": "Mosiah 13:31",
+   "anchor": {
+    "verse": 4,
+    "w1": 45,
+    "w2": 49,
+    "quote": "are the typifying of him"
+   },
+   "reason": "Abinadi argues the law's purpose",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 13,
+     "verse": 31,
+     "w1": 8,
+     "w2": 16,
+     "quote": "all these things were types of things to come",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "2ne11-006",
+   "scope": "BOM",
+   "head": "Alma 34:14",
+   "anchor": {
+    "verse": 4,
+    "w1": 18,
+    "w2": 27,
+    "quote": "for this end hath the law of Moses been given"
+   },
+   "reason": "the law aimed at one sacrifice",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 34,
+     "verse": 14,
+     "w1": 11,
+     "w2": 19,
+     "quote": "every whit pointing to that great and last sacrifice",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "2ne11-007",
+   "scope": "SW",
+   "head": "Isa. 6:1",
+   "anchor": {
+    "verse": 2,
+    "w1": 39,
+    "w2": 49,
+    "quote": "he verily saw my Redeemer, even as I have seen him"
+   },
+   "reason": "Isaiah's own account of seeing",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 6,
+     "verse": 1,
+     "w1": 8,
+     "w2": 16,
+     "quote": "I saw also the Lord sitting upon a throne",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne11-008",
+   "scope": "SW",
+   "head": "Deut. 19:15",
+   "anchor": {
+    "verse": 3,
+    "w1": 34,
+    "w2": 46,
+    "quote": "by the words of three, God hath said, I will establish my word"
+   },
+   "reason": "the courtroom rule behind the count",
+   "targets": [
+    {
+     "ref": "Deut.",
+     "chapter": 19,
+     "verse": 15,
+     "w1": 30,
+     "w2": 40,
+     "quote": "at the mouth of three witnesses, shall the matter be established",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne11-009",
+   "scope": "SW",
+   "head": "2 Cor. 13:1",
+   "anchor": {
+    "verse": 3,
+    "w1": 34,
+    "w2": 46,
+    "quote": "by the words of three, God hath said, I will establish my word"
+   },
+   "reason": "Paul cites the same standard",
+   "targets": [
+    {
+     "ref": "2 Cor.",
+     "chapter": 13,
+     "verse": 1,
+     "w1": 11,
+     "w2": 23,
+     "quote": "In the mouth of two or three witnesses shall every word be established",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne11-010",
+   "scope": "SW",
+   "head": "John 5:39",
+   "anchor": {
+    "verse": 4,
+    "w1": 45,
+    "w2": 49,
+    "quote": "are the typifying of him"
+   },
+   "reason": "scriptures said to testify of one person",
+   "targets": [
+    {
+     "ref": "John",
+     "chapter": 5,
+     "verse": 39,
+     "w1": 14,
+     "w2": 20,
+     "quote": "they are they which testify of me",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 13,
+   "w2": 18,
+   "quote": "my soul delighteth in his words",
+   "entries": [
+    "2ne11-001",
+    "2ne11-002"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 29,
+   "w2": 37,
+   "quote": "I will send them forth unto all my children",
+   "entries": [
+    "2ne11-011"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 39,
+   "w2": 49,
+   "quote": "he verily saw my Redeemer, even as I have seen him",
+   "entries": [
+    "2ne11-012",
+    "2ne11-007"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 34,
+   "w2": 46,
+   "quote": "by the words of three, God hath said, I will establish my word",
+   "entries": [
+    "2ne11-013",
+    "2ne11-004",
+    "2ne11-008",
+    "2ne11-009"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 2,
+   "w2": 16,
+   "quote": "my soul delighteth in proving unto my people the truth of the coming of Christ",
+   "entries": [
+    "2ne11-014"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 18,
+   "w2": 27,
+   "quote": "for this end hath the law of Moses been given",
+   "entries": [
+    "2ne11-006"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 45,
+   "w2": 49,
+   "quote": "are the typifying of him",
+   "entries": [
+    "2ne11-005",
+    "2ne11-010"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 36,
+   "w2": 45,
+   "quote": "ye may liken them unto you and unto all men",
+   "entries": [
+    "2ne11-003"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "22304b5870664c3b"
+ }
+}

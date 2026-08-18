@@ -35,7 +35,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 - **One in Christ** (Ephesians 1 – Ephesians 6)
 - **Christ preeminent** (Philippians 1 – Colossians 4)
 - **The Second Coming** (1 Thessalonians 1 – 2 Thessalonians 3)
-- **The pastoral letters** (1 Timothy 1 – Philemon 1)
+- **Timothy, Titus, Philemon** (1 Timothy 1 – Philemon 1)
 - **The great high priest** (Hebrews 1 – Hebrews 10)
 - **Faith & endurance** (Hebrews 11 – Hebrews 13)
 - **James & Peter** (James 1 – 2 Peter 3)
@@ -104,23 +104,23 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | Ch | Caption | Section |
 |----|---------|---------|
 | 1 | Gabriel announces John and Jesus | The Nativity |
-| 2 | The Nativity; the boy in temple | The Nativity |
+| 2 | The Nativity; the boy Jesus | The Nativity |
 | 3 | John's preaching; the genealogy | Ministry in Galilee |
 | 4 | Tempted; rejected at Nazareth | Ministry in Galilee |
 | 5 | Fishers of men; the leper | Ministry in Galilee |
-| 6 | The Twelve called; sermon on plain | Ministry in Galilee |
+| 6 | The Twelve; sermon on plain | Ministry in Galilee |
 | 7 | Centurion's servant; the widow's son | Ministry in Galilee |
 | 8 | The sower; Jairus's daughter | Ministry in Galilee |
 | 9 | The Twelve sent; the transfiguration | Ministry in Galilee |
 | 10 | The Seventy; the good Samaritan | The journey to Jerusalem |
 | 11 | The Lord's Prayer; woes pronounced | The journey to Jerusalem |
 | 12 | Beware covetousness; the rich fool | The journey to Jerusalem |
-| 13 | Repent or perish; the strait gate | The journey to Jerusalem |
-| 14 | Count the cost; the great supper | The journey to Jerusalem |
+| 13 | Repent or perish; strait gate | The journey to Jerusalem |
+| 14 | Count the cost; great supper | The journey to Jerusalem |
 | 15 | Lost sheep, coin, and son | The journey to Jerusalem |
 | 16 | The unjust steward; Lazarus | The journey to Jerusalem |
 | 17 | Ten lepers; the kingdom within | The journey to Jerusalem |
-| 18 | The importunate widow; the rich ruler | The journey to Jerusalem |
+| 18 | Importunate widow; rich ruler | The journey to Jerusalem |
 | 19 | Zacchaeus; the pounds; the entry | The journey to Jerusalem |
 | 20 | Wicked husbandmen; tribute to Caesar | Passion week & Emmaus |
 | 21 | The widow's mite; last-day signs | Passion week & Emmaus |
@@ -180,7 +180,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 20 | Eutychus; farewell to Ephesus | Journeys to the Gentiles |
 | 21 | Paul seized in the temple | Arrest to Rome |
 | 22 | Paul recounts his conversion | Arrest to Rome |
-| 23 | Before the council; sent to Felix | Arrest to Rome |
+| 23 | Before the council; to Felix | Arrest to Rome |
 | 24 | Before Felix | Arrest to Rome |
 | 25 | Before Festus; appeal to Caesar | Arrest to Rome |
 | 26 | Before Agrippa | Arrest to Rome |
@@ -205,7 +205,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 12 | A living sacrifice; overcome evil | Israel & living sacrifice |
 | 13 | Be subject to higher powers | Israel & living sacrifice |
 | 14 | Judge not thy brother | Israel & living sacrifice |
-| 15 | Bear the infirmities of the weak | Israel & living sacrifice |
+| 15 | Bear the weak's infirmities | Israel & living sacrifice |
 | 16 | Greetings and warnings | Israel & living sacrifice |
 
 ## 1 Corinthians
@@ -214,14 +214,14 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 |----|---------|---------|
 | 1 | The foolishness of preaching | Divisions & counsel |
 | 2 | Known by the Spirit | Divisions & counsel |
-| 3 | Ye are the temple of God | Divisions & counsel |
+| 3 | Ye are God's temple | Divisions & counsel |
 | 4 | Stewards of the mysteries | Divisions & counsel |
 | 5 | The immoral man disciplined | Divisions & counsel |
 | 6 | Your body is a temple | Divisions & counsel |
 | 7 | Counsel concerning marriage | Divisions & counsel |
 | 8 | Meat offered to idols | Divisions & counsel |
 | 9 | Paul's rights forgone | Divisions & counsel |
-| 10 | Israel's example; a way to escape | Gifts, charity, resurrection |
+| 10 | Israel's example; way to escape | Gifts, charity, resurrection |
 | 11 | Head coverings; the sacrament | Gifts, charity, resurrection |
 | 12 | The gifts of the Spirit | Gifts, charity, resurrection |
 | 13 | Charity never faileth | Gifts, charity, resurrection |
@@ -265,7 +265,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 1 | The dispensation of the fulness | One in Christ |
 | 2 | Apostles and prophets, the foundation | One in Christ |
 | 3 | The mystery made known | One in Christ |
-| 4 | One Lord, one faith, one baptism | One in Christ |
+| 4 | One Lord, one faith | One in Christ |
 | 5 | Husbands and wives; walk circumspectly | One in Christ |
 | 6 | The whole armour of God | One in Christ |
 
@@ -309,52 +309,52 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 
 | Ch | Caption | Section |
 |----|---------|---------|
-| 1 | The law for the lawless | The pastoral letters |
-| 2 | One mediator between God and men | The pastoral letters |
-| 3 | Qualifications of bishops and deacons | The pastoral letters |
-| 4 | The latter-day apostasy foretold | The pastoral letters |
-| 5 | Widows and elders | The pastoral letters |
-| 6 | The love of money | The pastoral letters |
+| 1 | The law for the lawless | Timothy, Titus, Philemon |
+| 2 | One mediator; prayers for all | Timothy, Titus, Philemon |
+| 3 | Qualifications of bishops and deacons | Timothy, Titus, Philemon |
+| 4 | The latter-day apostasy foretold | Timothy, Titus, Philemon |
+| 5 | Widows and elders | Timothy, Titus, Philemon |
+| 6 | The love of money | Timothy, Titus, Philemon |
 
 ## 2 Timothy
 
 | Ch | Caption | Section |
 |----|---------|---------|
-| 1 | Not the spirit of fear | The pastoral letters |
-| 2 | A workman rightly dividing | The pastoral letters |
-| 3 | Perilous times shall come | The pastoral letters |
-| 4 | I have finished my course | The pastoral letters |
+| 1 | Not the spirit of fear | Timothy, Titus, Philemon |
+| 2 | A workman rightly dividing | Timothy, Titus, Philemon |
+| 3 | Perilous times shall come | Timothy, Titus, Philemon |
+| 4 | I have finished my course | Timothy, Titus, Philemon |
 
 ## Titus
 
 | Ch | Caption | Section |
 |----|---------|---------|
-| 1 | Ordain elders in every city | The pastoral letters |
-| 2 | Sound doctrine for all | The pastoral letters |
-| 3 | Maintain good works; avoid contentions | The pastoral letters |
+| 1 | Ordain elders in every city | Timothy, Titus, Philemon |
+| 2 | Sound doctrine for all | Timothy, Titus, Philemon |
+| 3 | Maintain good works; avoid contentions | Timothy, Titus, Philemon |
 
 ## Philemon
 
 | Ch | Caption | Section |
 |----|---------|---------|
-| 1 | Onesimus received as a brother | The pastoral letters |
+| 1 | Onesimus received as a brother | Timothy, Titus, Philemon |
 
 ## Hebrews
 
 | Ch | Caption | Section |
 |----|---------|---------|
 | 1 | The Son above the angels | The great high priest |
-| 2 | He tasted death for every man | The great high priest |
+| 2 | Death tasted for every man | The great high priest |
 | 3 | Christ greater than Moses | The great high priest |
 | 4 | Entering into his rest | The great high priest |
-| 5 | Called of God, as was Aaron | The great high priest |
+| 5 | Called of God, as Aaron | The great high priest |
 | 6 | Leaving the principles; falling away | The great high priest |
 | 7 | The Melchizedek Priesthood | The great high priest |
 | 8 | A better covenant | The great high priest |
 | 9 | The greater tabernacle; Christ's blood | The great high priest |
 | 10 | One offering for ever | The great high priest |
 | 11 | Now faith is the substance | Faith & endurance |
-| 12 | Chastening; the church of the Firstborn | Faith & endurance |
+| 12 | Chastening; church of the Firstborn | Faith & endurance |
 | 13 | Entertaining angels unawares | Faith & endurance |
 
 ## James
@@ -374,7 +374,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 1 | Redeemed by precious blood | James & Peter |
 | 2 | A royal priesthood | James & Peter |
 | 3 | Christ preached to the spirits | James & Peter |
-| 4 | The gospel preached to the dead | James & Peter |
+| 4 | Gospel preached to the dead | James & Peter |
 | 5 | Feed the flock of God | James & Peter |
 
 ## 2 Peter
@@ -392,7 +392,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 1 | Walking in the light | John's letters & Jude |
 | 2 | Antichrists; love not the world | John's letters & Jude |
 | 3 | We shall be like him | John's letters & Jude |
-| 4 | God is love; try the spirits | John's letters & Jude |
+| 4 | Try the spirits; God's love | John's letters & Jude |
 | 5 | The record of the three | John's letters & Jude |
 
 ## 2 John
@@ -431,11 +431,11 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 12 | The woman and the dragon | The dragon & Babylon |
 | 13 | The beasts and the mark | The dragon & Babylon |
 | 14 | The everlasting gospel restored | The dragon & Babylon |
-| 15 | Seven angels; the sea of glass | The dragon & Babylon |
+| 15 | Seven angels; sea of glass | The dragon & Babylon |
 | 16 | The 7 vials poured out | The dragon & Babylon |
 | 17 | The great whore | The dragon & Babylon |
 | 18 | Babylon is fallen | The dragon & Babylon |
-| 19 | The marriage supper of the Lamb | All things new |
+| 19 | The Lamb's marriage supper | All things new |
 | 20 | Satan bound; the books opened | All things new |
 | 21 | A new heaven and earth | All things new |
 | 22 | The river of life; come | All things new |

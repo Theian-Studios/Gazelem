@@ -1,0 +1,816 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "2 Nephi",
+  "book_slug": "2nephi",
+  "chapter": 15,
+  "volume_order": "02",
+  "speakers": [
+   "Nephi (quoting Isaiah)"
+  ],
+  "audience": null,
+  "location": "The land of Nephi",
+  "date": "~559–545 BC (engraved); Isaiah's oracle ~740–700 BC",
+  "unit": "Isaiah block preface (2 Nephi 11–24)",
+  "principles": [
+   "Fruitlessness",
+   "Six woes",
+   "The summoned nation"
+  ],
+  "connections": 13,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "A song, sung to a crowd",
+   "text": "The chapter opens as entertainment. A singer offers a love song about a friend and his vineyard, and the audience has no reason to suspect it. Only at verse 7 does the vineyard get named, and by then the listeners have already agreed with the owner in verse 3 that the vineyard deserves what it gets."
+  },
+  {
+   "n": 2,
+   "title": "How a vineyard was actually made",
+   "text": "Clearing stones, fencing, planting choice vines, cutting a winepress out of rock, building a watchtower: verse 2 lists the real sequence of work on a Judean hillside, in order, over years. The complaint in verse 4 is therefore not sentimental. It is an accounting of labor against yield."
+  },
+  {
+   "n": 3,
+   "title": "Wild grapes",
+   "text": "The failure is not barrenness. The vines produced, and what they produced was sour and useless. That is a harder result than an empty field, since everything looked right until the harvest, and it is the exact charge the chapter then makes against a people who kept their forms of worship."
+  },
+  {
+   "n": 4,
+   "title": "Six woes on named behaviors",
+   "text": "Verses 8 through 23 pronounce six woes, and each names something ordinary: buying up property, drinking from morning to night, cynicism about prophecy, moral inversion, self-satisfaction, and taking bribes in court. None of them is idolatry. Isaiah's list is entirely made of things respectable people did."
+  },
+  {
+   "n": 5,
+   "title": "Measures a farmer would feel",
+   "text": "A bath was roughly a large jar of liquid; a homer of seed should have produced ten times an ephah, and produces one. Verse 10 is a yield report, and to anyone who had planted a field the numbers describe ruin without needing the word."
+  },
+  {
+   "n": 6,
+   "title": "The whistle for an army",
+   "text": "In verse 26 God raises a signal pole and whistles, and a distant nation comes. Assyria is not named, though Isaiah's hearers knew who was meant. The picture is of a keeper summoning something the way a beekeeper or a herdsman does, which makes the invading army an instrument rather than an accident."
+  }
+ ],
+ "words": [
+  {
+   "term": "bath",
+   "verse_label": "v. 10",
+   "text": "A liquid measure, roughly the contents of a large storage jar. Ten acres of vineyard yielding one bath is a catastrophic return, and the verse pairs it with a seed measure that returns a tenth of what went in. Isaiah puts the judgment in units rather than in adjectives, which is how it would have reached a farmer."
+  },
+  {
+   "term": "tabret",
+   "verse_label": "v. 12",
+   "text": "A small hand drum, the ordinary instrument of celebration. It appears in a list of five things at the feasts, and the list is not condemned for being musical. The charge lands in the next clause: they regard not the work of the Lord. Isaiah's complaint about the party is inattention, not the harp."
+  },
+  {
+   "term": "pomp",
+   "verse_label": "v. 14",
+   "text": "Display, ceremony, the visible show of importance. It comes third in a list of what descends into an open-mouthed hell, after glory and multitude, and the sequence runs from what a people are proud of to how many of them there are to how it all looked. Nothing in the list is a sin by itself, which is the point of listing it this way."
+  },
+  {
+   "term": "ensign",
+   "verse_label": "v. 26",
+   "text": "A standard raised on a pole so a scattered people can see where to gather. Here it summons a foreign army rather than Israel, which is the same signal used against them. Isaiah will raise the ensign again later in this block for the gathering itself, so the image carries both directions and depends entirely on who is being called."
+  },
+  {
+   "term": "latchet",
+   "verse_label": "v. 27",
+   "text": "The thong that fastens a sandal. The detail is a soldier's: nothing comes loose, no belt slips, no strap breaks, nobody sleeps. Isaiah describes the approaching army by the smallness of what does not go wrong with it, which is more frightening than a count of its numbers."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "And then will I sing",
+   "verse_label": "v. 1",
+   "text": "The KJV opens with \"Now will I sing\" (Isa. 5:1), a fresh start. This reading opens with \"and then,\" which ties the song to what came before it rather than beginning a new performance. In the record's arrangement the previous chapter ended with a covering over Zion, so the song about a failed vineyard arrives as the next movement of one long address rather than as a separate oracle.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 5:1",
+     "start": 38,
+     "end": 46,
+     "book": "Isa",
+     "chapter": 5,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
+  },
+  {
+   "term": "What could have been done more to my vineyard",
+   "verse_label": "v. 4",
+   "text": "The owner's question is the chapter's hinge, and the KJV keeps the whole verse interrogative, ending \"brought it forth wild grapes?\" (Isa. 5:4). This reading answers the second half as a statement: \"wherefore, when I looked that it should bring forth grapes it brought forth wild grapes\" (v. 4). The rhetorical question stays open and the fact underneath it is closed, which is the right division of labor between them.",
+   "cites": [
+    {
+     "quote": "wherefore, when I looked that it should bring forth grapes it brought forth wild grapes",
+     "verse": 4,
+     "start": 198,
+     "end": 294,
+     "spans": [
+      {
+       "w1": 17,
+       "w2": 31,
+       "text": "wherefore, when I looked that it should bring forth grapes it brought forth wild grapes"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 5:4",
+     "start": 134,
+     "end": 142,
+     "book": "Isa",
+     "chapter": 5,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
+  },
+  {
+   "term": "till there can be no place",
+   "verse_label": "v. 8",
+   "text": "Two changes in one line. The KJV's first woe condemns those who \"join house to house, that lay field to field\" (Isa. 5:8); the second clause is absent here, leaving houses alone. And \"till there be no place\" becomes \"till there can be no place,\" which shifts the complaint from a result to a design. The buyers are not merely crowding others out; they are arranging things so that no room remains.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 5:8",
+     "start": 112,
+     "end": 120,
+     "book": "Isa",
+     "chapter": 5,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
+  },
+  {
+   "term": "great and fair cities without inhabitant",
+   "verse_label": "v. 9",
+   "text": "The KJV leaves the noun out: \"houses shall be desolate, even great and fair, without inhabitant\" (Isa. 5:9). Supplying \"cities\" changes the scale of the sentence. A verse about empty mansions becomes a verse about empty cities, and it answers the first woe exactly, since the men who joined house to house end with more emptiness than they bought.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 5:9",
+     "start": 98,
+     "end": 106,
+     "book": "Isa",
+     "chapter": 5,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
+  },
+  {
+   "term": "Wo unto the wise in their own eyes",
+   "verse_label": "v. 21",
+   "text": "The KJV's construction is longer: \"Woe unto them that are wise in their own eyes\" (Isa. 5:21). This reading compresses it, and does the same in the following verse. Proverbs had already given the plain command, \"Be not wise in thine own eyes\" (Prov. 3:7). Shortened, the woe reads less like a description of a group and more like a label that could be attached to a person.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 5:21",
+     "start": 83,
+     "end": 92,
+     "book": "Isa",
+     "chapter": 5,
+     "verse_start": 21,
+     "verse_end": 21
+    },
+    {
+     "kind": "scripture",
+     "text": "Prov. 3:7",
+     "start": 244,
+     "end": 253,
+     "book": "Prov",
+     "chapter": 3,
+     "verse_start": 7,
+     "verse_end": 7
+    }
+   ]
+  },
+  {
+   "term": "none shall be weary nor stumble among them",
+   "verse_label": "v. 26",
+   "text": "The clause sits at the end of verse 27 in the KJV and at the end of verse 26 here, and a second clause about roaring like a lion moves from the opening of verse 29 to the close of verse 28. The words are the same; the sentence divisions are not. Whatever produced the difference, it is a reminder that verse numbers are later than the verses, and that Isaiah's lines can be grouped more than one way."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–2",
+   "start": 1,
+   "end": 2,
+   "title": "A love song with a trap in it",
+   "text": "The performance is addressed to a well-beloved and concerns his vineyard, and every detail of verse 2 is affectionate labor. The last four words undo it: \"it brought forth wild grapes\" (v. 2). Isaiah has spent a whole verse earning the audience's sympathy for the owner before the failure is mentioned, which is why the verdict they give in verse 3 is against themselves.",
+   "cites": [
+    {
+     "quote": "it brought forth wild grapes",
+     "verse": 2,
+     "start": 154,
+     "end": 191,
+     "spans": [
+      {
+       "w1": 43,
+       "w2": 47,
+       "text": "it brought forth wild grapes"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 3–4",
+   "start": 3,
+   "end": 4,
+   "title": "The audience is made the jury",
+   "text": "The owner asks the inhabitants of Jerusalem to judge between him and his vineyard, then asks what more he could have done. Both questions have obvious answers, and both are asked of people who do not yet know they are the defendant. Verse 7 will spring the trap, but the sentence has already been agreed to."
+  },
+  {
+   "label": "v. 5–6",
+   "start": 5,
+   "end": 6,
+   "title": "Judgment as withdrawal",
+   "text": "The owner does not burn the vineyard. He takes away the hedge, breaks the wall, stops pruning, stops digging, and finally tells the clouds to withhold rain. Every act is a cessation of care rather than an attack. The vineyard is destroyed by being left alone, which is the same shape of judgment the block used two chapters ago when it removed a city's supports."
+  },
+  {
+   "label": "v. 7",
+   "start": 7,
+   "end": 7,
+   "title": "The verdict, and the pun",
+   "text": "The vineyard is the house of Israel and the pleasant plant is Judah, and then the charge is stated in two near-misses: he looked for judgment and found oppression, for righteousness and found a cry. Readers of the Hebrew note that each pair differs by little more than a syllable, so the failure sounds almost like the thing it replaced. What survives translation is the shape: the right word and the wrong one, side by side."
+  },
+  {
+   "label": "v. 8–10",
+   "start": 8,
+   "end": 10,
+   "title": "The first woe, and its arithmetic",
+   "text": "Property accumulated until no one else has room, answered by desolation and a yield of one bath from ten acres. The punishment matches the crime in kind: men who wanted to be \"placed alone in the midst of the earth\" (v. 8) get exactly that, alone in cities without inhabitant, on land that will not produce.",
+   "cites": [
+    {
+     "quote": "placed alone in the midst of the earth",
+     "verse": 8,
+     "start": 175,
+     "end": 222,
+     "spans": [
+      {
+       "w1": 19,
+       "w2": 26,
+       "text": "placed alone in the midst of the earth"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 20",
+   "start": 20,
+   "end": 20,
+   "title": "The inversion woe",
+   "text": "Three pairs, each reversed: evil and good, darkness and light, bitter and sweet. It is the shortest of the six woes and the most quoted, and it names a specific failure rather than a general wickedness. The people described are not indifferent to the categories. They have relabeled them, which requires attention and effort."
+  },
+  {
+   "label": "v. 26–30",
+   "start": 26,
+   "end": 30,
+   "title": "The signal, and the sound",
+   "text": "God whistles and a nation arrives that cannot be tired, tripped, or unbuckled, with arrows sharp and hooves like flint. Then the chapter ends in sound and darkness: roaring like the sea, and a land where the light is darkened in the heavens. The last word of the song about a vineyard is a noise from the horizon."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The song is a legal device",
+   "text": "Verses 1 through 7 work by getting a verdict before revealing the defendant, the same method Nathan used on David with a story about a lamb. Isaiah's audience convicts itself in verse 3 and learns what it convicted in verse 7. The arrangement is why the chapter can be so severe and still seem fair to the people it convicts."
+  },
+  {
+   "n": 2,
+   "title": "The vineyard is a figure the record keeps",
+   "text": "Jacob will spend seventy-seven verses on a vineyard whose owner does everything possible for a decaying tree, and the questions there are Isaiah's questions extended. Whether or not Jacob had this chapter in view, the record's longest allegory runs on the same logic: labor applied, fruit expected, and an owner who asks what more could have been done."
+  },
+  {
+   "n": 3,
+   "title": "The woes indict a functioning society",
+   "text": "Nothing in verses 8 through 23 requires a collapsed state. It takes a working economy to join house to house, working courts to justify the wicked for reward, and enough surplus for feasts with five instruments. Isaiah's target is a prosperous Judah, which is the condition Nephi's colony was moving toward."
+  },
+  {
+   "n": 4,
+   "title": "Judgment is described as subtraction, then as summons",
+   "text": "The first half removes care from the vineyard; the second half calls a nation from the end of the earth. Both are God's action, and the chapter does not treat them as different in kind. What the hedge was keeping out arrives when the hedge comes down."
+  },
+  {
+   "n": 5,
+   "title": "The refrain that will not resolve",
+   "text": "Verse 25 ends with a line the block returns to again: his anger is not turned away, and his hand is stretched out still. It appears here once and will sound four more times in the chapters ahead. Nephi copied the whole sequence, so the repetition survives into the record intact."
+  },
+  {
+   "n": 6,
+   "title": "The chapter answers a charge made two chapters back",
+   "text": "In 2 Nephi 13 the elders were accused of having eaten up the vineyard. Here the vineyard is identified as the house of Israel, which means the earlier charge was cannibalism of a kind: the leaders consumed the people they were given to tend. Reading the two together is what makes the metaphor land."
+  },
+  {
+   "n": 7,
+   "title": "Sound closes it",
+   "text": "The chapter begins with singing and ends with roaring, and every stage in between is audible: a song, a courtroom question, a woe repeated six times, a whistle, and the sea. For a text delivered aloud to a colony that had no copies, this is a chapter built to be heard."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Ask the owner's question about yourself",
+    "verse_label": "v. 4",
+    "text": "What more could have been done for you than has been done? Write the honest list of what you have been given, then set your yield beside it. The verse is uncomfortable precisely because the answer is usually short."
+   },
+   {
+    "title": "Look for wild grapes, not bare ground",
+    "verse_label": "v. 2",
+    "text": "The failure in this chapter is production of the wrong thing. Examine an area of your life that looks active and ask what it is actually producing, since the vineyard's problem was invisible until harvest."
+   },
+   {
+    "title": "Name one relabeling",
+    "verse_label": "v. 20",
+    "text": "The inversion woe is about calling things by the wrong names. Find the place where you have quietly renamed something, an indulgence as self-care, a grudge as standards, avoidance as patience, and put the original word back for a week."
+   },
+   {
+    "title": "Check the fence you have been leaning on",
+    "verse_label": "v. 5",
+    "text": "Judgment here begins with protection withdrawn rather than harm inflicted. Identify the hedge around some part of your life, a habit, a person, a rule, and ask whether you have been treating it as permanent scenery rather than as care being given to you."
+   },
+   {
+    "title": "Count your own yield in units",
+    "verse_label": "v. 10",
+    "text": "Isaiah measures failure in baths and ephahs rather than in adjectives. Pick one commitment and measure it numerically this month, hours, conversations, dollars, and let the number rather than your impression report on it."
+   },
+   {
+    "title": "Refuse the seat on the jury",
+    "verse_label": "v. 3",
+    "text": "The chapter's audience was happy to judge until the vineyard turned out to be them. Next time you find yourself confidently sentencing someone else's failure, finish the sentence with your own name in it and see whether the verdict still fits."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What in my life was planted with real care and is currently producing something sour?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "If God asked me what more he could have done, what would I honestly have to answer?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "Where am I accumulating in a way that leaves someone else without room?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "What work of the Lord have I stopped noticing because the music was good?"
+   },
+   {
+    "verse_label": "v. 20",
+    "start": 20,
+    "end": 20,
+    "text": "Which of my labels would not survive being read aloud by someone who knows me?"
+   },
+   {
+    "verse_label": "v. 21",
+    "start": 21,
+    "end": 21,
+    "text": "Where am I wise in my own eyes, and who has stopped telling me otherwise?"
+   },
+   {
+    "verse_label": "v. 26",
+    "start": 26,
+    "end": 26,
+    "text": "If God is capable of whistling for consequences, what have I been treating as bad luck?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "2ne15-012",
+   "scope": "BOOK",
+   "head": "2 Ne. 19:12",
+   "anchor": {
+    "verse": 25,
+    "w1": 41,
+    "w2": 56,
+    "quote": "For all this his anger is not turned away, but his hand is stretched out still"
+   },
+   "reason": "the refrain's later strokes",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 19,
+     "verse": 12,
+     "w1": 16,
+     "w2": 31,
+     "quote": "For all this his anger is not turned away, but his hand is stretched out still",
+     "span": true
+    }
+   ],
+   "mirror": "2ne19-001"
+  },
+  {
+   "id": "2ne15-001",
+   "scope": "BOOK",
+   "head": "2 Ne. 13:14",
+   "anchor": {
+    "verse": 7,
+    "w1": 2,
+    "w2": 13,
+    "quote": "the vineyard of the Lord of Hosts is the house of Israel"
+   },
+   "reason": "the vineyard the elders ate",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 13,
+     "verse": 14,
+     "w1": 18,
+     "w2": 32,
+     "quote": "ye have eaten up the vineyard and the spoil of the poor in your houses",
+     "span": true
+    }
+   ],
+   "mirror": "2ne13-002"
+  },
+  {
+   "id": "2ne15-002",
+   "scope": "BOOK",
+   "head": "2 Ne. 12:11",
+   "anchor": {
+    "verse": 15,
+    "w1": 17,
+    "w2": 24,
+    "quote": "the eyes of the lofty shall be humbled"
+   },
+   "reason": "lofty looks brought down again",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 12,
+     "verse": 11,
+     "w1": 8,
+     "w2": 15,
+     "quote": "the lofty looks of man shall be humbled",
+     "span": true
+    }
+   ],
+   "mirror": "2ne12-013"
+  },
+  {
+   "id": "2ne15-003",
+   "scope": "BOOK",
+   "head": "2 Ne. 21:12",
+   "anchor": {
+    "verse": 26,
+    "w1": 2,
+    "w2": 12,
+    "quote": "he will lift up an ensign to the nations from far"
+   },
+   "reason": "the same signal raised to gather",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 21,
+     "verse": 12,
+     "w1": 2,
+     "w2": 10,
+     "quote": "he shall set up an ensign for the nations",
+     "span": true
+    }
+   ],
+   "mirror": "2ne21-002"
+  },
+  {
+   "id": "2ne15-013",
+   "scope": "BOM",
+   "head": "Jacob 5:41",
+   "anchor": {
+    "verse": 4,
+    "w1": 1,
+    "w2": 16,
+    "quote": "What could have been done more to my vineyard that I have not done in it"
+   },
+   "reason": "the question Zenos's master asks three times",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 5,
+     "verse": 41,
+     "w1": 18,
+     "w2": 26,
+     "quote": "What could I have done more for my vineyard",
+     "span": true
+    }
+   ],
+   "mirror": "jac05-005"
+  },
+  {
+   "id": "2ne15-004",
+   "scope": "BOM",
+   "head": "Jacob 5:3",
+   "anchor": {
+    "verse": 7,
+    "w1": 2,
+    "w2": 13,
+    "quote": "the vineyard of the Lord of Hosts is the house of Israel"
+   },
+   "reason": "the allegory Jacob builds on it",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 5,
+     "verse": 3,
+     "w1": 7,
+     "w2": 20,
+     "quote": "I will liken thee, O house of Israel, like unto a tame olive tree",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "2ne15-005",
+   "scope": "SW",
+   "head": "Isa. 5:1",
+   "anchor": {
+    "verse": 1,
+    "w1": 1,
+    "w2": 13,
+    "quote": "And then will I sing to my well-beloved a song of my beloved"
+   },
+   "reason": "the block and its source chapter",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 5,
+     "verse": 1,
+     "w1": 1,
+     "w2": 12,
+     "quote": "Now will I sing to my wellbeloved a song of my beloved",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne15-006",
+   "scope": "SW",
+   "head": "Matt. 21:33",
+   "anchor": {
+    "verse": 2,
+    "w1": 34,
+    "w2": 47,
+    "quote": "he looked that it should bring forth grapes, and it brought forth wild grapes"
+   },
+   "reason": "the Lord's parable of the same vineyard",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 21,
+     "verse": 33,
+     "w1": 10,
+     "w2": 27,
+     "quote": "planted a vineyard, and hedged it round about, and digged a winepress in it, and built a tower",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne15-007",
+   "scope": "SW",
+   "head": "Ps. 80:12",
+   "anchor": {
+    "verse": 5,
+    "w1": 15,
+    "w2": 21,
+    "quote": "I will take away the hedge thereof"
+   },
+   "reason": "the psalm's broken hedges",
+   "targets": [
+    {
+     "ref": "Ps.",
+     "chapter": 80,
+     "verse": 12,
+     "w1": 1,
+     "w2": 8,
+     "quote": "Why hast thou then broken down her hedges",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne15-008",
+   "scope": "SW",
+   "head": "Isa. 5:8",
+   "anchor": {
+    "verse": 8,
+    "w1": 1,
+    "w2": 14,
+    "quote": "Wo unto them that join house to house, till there can be no place"
+   },
+   "reason": "a clause dropped and a design named",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 5,
+     "verse": 8,
+     "w1": 1,
+     "w2": 13,
+     "quote": "Woe unto them that join house to house, that lay field to field",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne15-009",
+   "scope": "SW",
+   "head": "Isa. 5:21",
+   "anchor": {
+    "verse": 21,
+    "w1": 1,
+    "w2": 8,
+    "quote": "Wo unto the wise in their own eyes"
+   },
+   "reason": "the woe compressed to a label",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 5,
+     "verse": 21,
+     "w1": 1,
+     "w2": 10,
+     "quote": "Woe unto them that are wise in their own eyes",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne15-010",
+   "scope": "SW",
+   "head": "Prov. 3:7",
+   "anchor": {
+    "verse": 21,
+    "w1": 1,
+    "w2": 8,
+    "quote": "Wo unto the wise in their own eyes"
+   },
+   "reason": "the proverb behind the woe",
+   "targets": [
+    {
+     "ref": "Prov.",
+     "chapter": 3,
+     "verse": 7,
+     "w1": 1,
+     "w2": 7,
+     "quote": "Be not wise in thine own eyes",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne15-011",
+   "scope": "SW",
+   "head": "Isa. 5:27",
+   "anchor": {
+    "verse": 26,
+    "w1": 26,
+    "w2": 39,
+    "quote": "they shall come with speed swiftly; none shall be weary nor stumble among them"
+   },
+   "reason": "a clause moved across the verse break",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 5,
+     "verse": 27,
+     "w1": 1,
+     "w2": 8,
+     "quote": "None shall be weary nor stumble among them",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 1,
+   "w2": 13,
+   "quote": "And then will I sing to my well-beloved a song of my beloved",
+   "entries": [
+    "2ne15-005"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 34,
+   "w2": 47,
+   "quote": "he looked that it should bring forth grapes, and it brought forth wild grapes",
+   "entries": [
+    "2ne15-006"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 1,
+   "w2": 16,
+   "quote": "What could have been done more to my vineyard that I have not done in it",
+   "entries": [
+    "2ne15-013"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 15,
+   "w2": 21,
+   "quote": "I will take away the hedge thereof",
+   "entries": [
+    "2ne15-007"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 2,
+   "w2": 13,
+   "quote": "the vineyard of the Lord of Hosts is the house of Israel",
+   "entries": [
+    "2ne15-001",
+    "2ne15-004"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 1,
+   "w2": 14,
+   "quote": "Wo unto them that join house to house, till there can be no place",
+   "entries": [
+    "2ne15-008"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 17,
+   "w2": 24,
+   "quote": "the eyes of the lofty shall be humbled",
+   "entries": [
+    "2ne15-002"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 1,
+   "w2": 8,
+   "quote": "Wo unto the wise in their own eyes",
+   "entries": [
+    "2ne15-009",
+    "2ne15-010"
+   ]
+  },
+  {
+   "verse": 25,
+   "w1": 41,
+   "w2": 56,
+   "quote": "For all this his anger is not turned away, but his hand is stretched out still",
+   "entries": [
+    "2ne15-012"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 2,
+   "w2": 12,
+   "quote": "he will lift up an ensign to the nations from far",
+   "entries": [
+    "2ne15-003"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 26,
+   "w2": 39,
+   "quote": "they shall come with speed swiftly; none shall be weary nor stumble among them",
+   "entries": [
+    "2ne15-011"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "b47288b81903d95f"
+ }
+}

@@ -4,69 +4,83 @@ import { glassOverlay, ink, inkSoft, gold, blue } from "../theme.js";
 import { parseCitations, loadPassage } from "../lib/refs.js";
 import { placeCard } from "../lib/place.js";
 
-// What to mark in the passage a note points at. The note's own `target:` lines
-// quote the wording out of that passage, which is the surest thing to look for;
-// failing those, the run of this chapter's text the connection hangs on, and any
-// wording the gloss lifts from the target. The anchor phrase is usually the
-// wording the two places share — that is what makes them a connection — but only
-// where the two say it in the same words, which the targets do not assume.
-function marksFor(c) {
-  return [...(c.targets || []).map((t) => t.quote), c.snippet, c.quote]
-    .filter(Boolean)
-    // An ellipsis means the quote is not contiguous, so each part stands alone.
-    .flatMap((s) => s.split(/\s*(?:\.{3}|…)\s*/))
-    .map((s) => s.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, "").trim())
-    .filter((s) => s.length > 3);
+// How much of the passage to show on either side of the words that answer this
+// one: enough to read the run as a sentence, not so much that the card becomes
+// the chapter.
+const CONTEXT = 7;
+
+// The run of the target verse a connection actually points at, with a little of
+// the verse around it.
+//
+// Not the verse from its beginning. A long verse whose relevant clause sits at
+// the end — Mosiah 18:9's first-resurrection clause is words 56 to 62 of 68 —
+// would open on words that have nothing to do with why the connection exists,
+// and read as the wrong footnote. The notes give the run's word positions, so it
+// is found rather than searched for: positions count whitespace-separated tokens
+// after the verse number, which is how they were computed.
+function excerpt(text, words) {
+  const tokens = String(text).split(/\s+/).filter(Boolean);
+  if (!words) return null;
+  const [w1, w2] = words;
+  const from = Math.max(0, w1 - 1 - CONTEXT);
+  const to = Math.min(tokens.length, w2 + CONTEXT);
+  return {
+    before: (from > 0 ? "… " : "") + tokens.slice(from, w1 - 1).join(" "),
+    span: tokens.slice(w1 - 1, w2).join(" "),
+    after: tokens.slice(w2, to).join(" ") + (to < tokens.length ? " …" : ""),
+  };
+}
+
+// The verse as the card shows it: the answering run in bold, its surroundings
+// plain. A target without word positions is shown whole.
+function Excerpt({ text, words }) {
+  const w = excerpt(text, words);
+  if (!w) return text;
+  return (
+    <>
+      {w.before && `${w.before} `}
+      <strong style={{ fontWeight: 700, color: ink }}>{w.span}</strong>
+      {w.after && ` ${w.after}`}
+    </>
+  );
 }
 
 // Passages are fetched the first time an anchor is opened, so a chapter full of
 // highlights costs nothing until one is actually used.
-function usePassages(connections) {
-  const [passages, setPassages] = useState(null);
+//
+// One entry per target rather than per connection: a connection may answer in
+// two places at once — a formula sounded in two verses — and each is its own
+// passage with its own run to show.
+function useTargets(connections) {
+  const [shown, setShown] = useState(null);
 
   useEffect(() => {
     let alive = true;
     (async () => {
       const out = [];
       for (const c of connections) {
-        for (const cite of parseCitations(c.source)) {
-          const verses = await loadPassage(cite);
+        // A connection written without targets falls back to the passage its
+        // heading names, shown whole for want of anything finer.
+        const wanted = c.targets?.length
+          ? c.targets.map((t) => ({ label: t.label, words: t.words, cite: parseCitations(t.label)[0] }))
+          : parseCitations(c.source).map((cite) => ({ label: cite.label, words: null, cite }));
+        for (const t of wanted) {
+          if (!t.cite) continue;
+          const verses = await loadPassage(t.cite);
           if (!alive) return;
-          if (verses.length) out.push({ cite, label: cite.label, verses, marks: marksFor(c) });
+          if (verses.length) out.push({ ...t, verses });
         }
       }
-      if (alive) setPassages(out);
+      if (alive) setShown(out);
     })();
     return () => { alive = false; };
   }, [connections]);
 
-  return passages;
-}
-
-// Bolds the wording the connection turns on, wherever it appears in the
-// passage being shown.
-function Marked({ text, marks }) {
-  if (!marks?.length) return text;
-
-  // Longest first, so a phrase wins over any shorter phrase inside it.
-  const escaped = [...marks]
-    .sort((a, b) => b.length - a.length)
-    .map((p) => p.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
-  const pieces = text.split(new RegExp(`(${escaped.join("|")})`, "gi"));
-  if (pieces.length === 1) return text;
-
-  // split() with one capture group puts the matches at the odd indices, which
-  // is what marks them — testing the regex again would misfire, since a global
-  // one carries its lastIndex between calls.
-  return pieces.map((p, i) =>
-    i % 2 === 1
-      ? <strong key={i} style={{ fontWeight: 700, color: ink }}>{p}</strong>
-      : <span key={i}>{p}</span>
-  );
+  return shown;
 }
 
 function Popup({ anchorEl, connections, hold, release, onOpenRef, popRef }) {
-  const passages = usePassages(connections);
+  const passages = useTargets(connections);
   const [box, setBox] = useState(() => place(anchorEl));
 
   // Re-place on scroll so the card travels with the phrase it belongs to.
@@ -94,32 +108,63 @@ function Popup({ anchorEl, connections, hold, release, onOpenRef, popRef }) {
         maxHeight: box.maxHeight, overflowY: "auto", userSelect: "text", cursor: "auto",
       }}
     >
-      {connections.map((c, i) => (
-        <div key={i} style={{ marginBottom: 10 }}>
-          <div style={{ display: "flex", gap: 7, alignItems: "baseline", marginBottom: 3 }}>
-            <span style={{ flexShrink: 0, fontSize: 10.5, fontWeight: 700, color: gold, minWidth: 22 }}>{c.id}</span>
-            <span className="serif" style={{ fontSize: 14, fontWeight: 600, color: ink }}>{c.source}</span>
+      {connections.map((c, i) => {
+        // The heading is the door to the passage now. It used to be the small
+        // gold label further down, which with a single passage under it said the
+        // same reference twice — once as the heading and once as the way in.
+        const cite = parseCitations(c.source)[0];
+        return (
+          <div key={i} style={{ marginBottom: 6 }}>
+            {/* The letter and the passage it stands for. The letter is the one
+                in the margin the reader just pressed, so it is set at reading
+                size rather than as a footnote's whisper, and with no column of
+                its own — on a fixed width it stood off across a gap wide enough
+                to read as a separate thing. */}
+            <div style={{ display: "flex", gap: 5, alignItems: "baseline", marginBottom: 3 }}>
+              {/* Once, not once per row: every connection in this card hangs on
+                  the one run of words, so they all carry the letter the reader
+                  pressed and printing it again down the card says nothing. */}
+              {i === 0 && (
+                <span style={{ flexShrink: 0, fontSize: 13, fontWeight: 700, color: gold }}>{c.id}</span>
+              )}
+              {cite && onOpenRef ? (
+                <button type="button" className="serif conn-head"
+                  onClick={() => onOpenRef(cite)} title={`Open ${c.source}`}>
+                  {c.source}
+                </button>
+              ) : (
+                <span className="serif" style={{ fontSize: 14, fontWeight: 600, color: ink }}>{c.source}</span>
+              )}
+            </div>
+            {c.gloss && <p style={{ margin: 0, fontSize: 12.5, lineHeight: 1.5, color: inkSoft }}>{c.gloss}</p>}
           </div>
-          {c.gloss && <p style={{ margin: 0, fontSize: 12.5, lineHeight: 1.5, color: inkSoft }}>{c.gloss}</p>}
-        </div>
-      ))}
+        );
+      })}
 
-      <div style={{ borderTop: "1px solid rgba(31,45,71,.10)", paddingTop: 8 }}>
+      <div style={{ borderTop: "1px solid rgba(31,45,71,.10)", paddingTop: 6 }}>
         {passages === null && <p style={{ margin: 0, fontSize: 12.5, color: inkSoft }}>Loading passage…</p>}
         {passages?.length === 0 && <p style={{ margin: 0, fontSize: 12.5, color: inkSoft }}>Passage text unavailable.</p>}
         {passages?.map((p, i) => (
           <div key={i} style={{ marginBottom: i === passages.length - 1 ? 0 : 12 }}>
-            <button
-              className="conn-goto"
-              onClick={() => onOpenRef(p.cite)}
-              title={`Open ${p.label}`}
-            >
-              {p.label}
-            </button>
+            {/* Two connections on one run of words bring two passages, and then
+                each needs saying which it is. One passage is already named by
+                the heading above it. */}
+            {passages.length > 1 && (
+              <button
+                className="conn-goto"
+                onClick={() => onOpenRef(p.cite)}
+                title={`Open ${p.label}`}
+              >
+                {p.label}
+              </button>
+            )}
             {p.verses.map((v) => (
               <p key={v.verse} className="serif" style={{ margin: "0 0 5px", fontSize: 13.5, lineHeight: 1.62, color: inkSoft }}>
-                <span style={{ color: gold, fontSize: 11, marginRight: 5 }}>{v.verse}</span>
-                <Marked text={v.text} marks={p.marks} />
+                {/* The number tells one verse of the passage from the next; a
+                    passage of one verse has already been numbered by the
+                    reference at the top of the card. */}
+                {p.verses.length > 1 && <span style={{ color: gold, fontSize: 11, marginRight: 5 }}>{v.verse}</span>}
+                <Excerpt text={v.text} words={p.words} />
               </p>
             ))}
           </div>
@@ -182,7 +227,7 @@ export default function ConnectionAnchor({ connections, onOpenRef, children }) {
         /* Footnote letters are drawn by CSS from this attribute rather than as
            a child element: generated content is not part of the DOM text, so
            selecting a verse still copies the scripture without the markers. */
-        data-marks={connections.map((c) => c.id.replace(/^\d+/, "")).join("")}
+        data-marks={[...new Set(connections.map((c) => c.id.replace(/^\d+/, "")))].join("")}
         role="button"
         tabIndex={0}
         aria-label={`${connections.length} cross connection${connections.length > 1 ? "s" : ""}`}

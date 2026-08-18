@@ -1,0 +1,669 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "2 Nephi",
+  "book_slug": "2nephi",
+  "chapter": 14,
+  "volume_order": "02",
+  "speakers": [
+   "Nephi (quoting Isaiah)"
+  ],
+  "audience": null,
+  "location": "The land of Nephi",
+  "date": "~559–545 BC (engraved); Isaiah's oracle ~740–700 BC",
+  "unit": "Isaiah block preface (2 Nephi 11–24)",
+  "principles": [
+   "Cleansing",
+   "Shelter",
+   "The remnant"
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "A chapter that starts mid-sentence",
+   "text": "The previous chapter ended with men falling by the sword and a city sitting on the ground. This one opens with the consequence: seven women to one man. The chapter number falls in the middle of a single movement, and reading across the break restores a scene the division interrupts."
+  },
+  {
+   "n": 2,
+   "title": "Why seven women want a name",
+   "text": "Their offer is to feed and clothe themselves, asking only \"let us be called by thy name\" (v. 1). Marriage in that world carried legal standing, inheritance, and protection; an unmarried woman without sons had none of it. The war has not only killed men, it has stranded the survivors outside the structures that made life possible.",
+   "cites": [
+    {
+     "quote": "let us be called by thy name",
+     "verse": 1,
+     "start": 58,
+     "end": 95,
+     "spans": [
+      {
+       "w1": 26,
+       "w2": 32,
+       "text": "let us be called by thy name"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Three chapters, one oracle",
+   "text": "Isaiah 2 through 4 work as a single movement: a mountain promised, a society taken apart, and then a cleansed remnant under a covering. Nephi copied all three in order and put none of his own words between them, which suggests he read them as one piece rather than as three separate selections."
+  },
+  {
+   "n": 4,
+   "title": "Filth and blood as ritual terms",
+   "text": "Verse 4 uses the vocabulary of temple purification rather than of hygiene. What is washed away is the filth of the daughters of Zion, the same women itemized in the previous chapter, and what is purged is bloodguilt. The city is being cleaned the way a sanctuary is cleaned before it can be used."
+  },
+  {
+   "n": 5,
+   "title": "Assemblies, not just houses",
+   "text": "Verse 5 covers two things: the dwelling-places and \"her assemblies\" (v. 5). The word points at the appointed gatherings of Israel's calendar, the feasts and holy convocations, which were the occasions when a scattered population became visibly one people. Both the private address and the public occasion are put under the same covering.",
+   "cites": [
+    {
+     "quote": "her assemblies",
+     "verse": 5,
+     "start": 51,
+     "end": 74,
+     "spans": [
+      {
+       "w1": 14,
+       "w2": 15,
+       "text": "her assemblies"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Shade and shelter in a hot country",
+   "text": "The last verse names heat, storm, and rain, in that order, which is the order of a Judean year's real dangers. A tabernacle for shade and a covert from rain are ordinary structures. The promise is not that the weather stops but that the covering holds."
+  }
+ ],
+ "words": [
+  {
+   "term": "branch",
+   "verse_label": "v. 2",
+   "text": "A shoot growing out of a stump or root, and in the prophets a standard figure for a descendant who continues a line that looked finished. Jeremiah promises to raise \"a righteous Branch\" (Jer. 23:5) for David, and Isaiah will use the related rod-out-of-a-stem image later in this block. The record uses the same word in another sense for Joseph's posterity, so the two have to be kept apart: this branch is a person, that one is a people. Either way the word carries smallness and survival together, which is why it suits a chapter about a remnant.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jer. 23:5",
+     "start": 187,
+     "end": 196,
+     "book": "Jer",
+     "chapter": 23,
+     "verse_start": 5,
+     "verse_end": 5
+    }
+   ]
+  },
+  {
+   "term": "purged",
+   "verse_label": "v. 4",
+   "text": "A cleaning word with a legal edge: to remove guilt as well as residue. What is purged here is \"the blood of Jerusalem\" (v. 4), the accumulated liability of violence done in the city. The verb assumes the stain is real and removable, and it puts the removing in God's hands rather than the city's.",
+   "cites": [
+    {
+     "quote": "the blood of Jerusalem",
+     "verse": 4,
+     "start": 94,
+     "end": 125,
+     "spans": [
+      {
+       "w1": 19,
+       "w2": 22,
+       "text": "the blood of Jerusalem"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "they that are left in Zion",
+   "verse_label": "v. 3",
+   "text": "The KJV describes an individual twice: \"he that is left in Zion, and he that remaineth in Jerusalem\" (Isa. 4:3). This reading makes both plural. A promise about one surviving man becomes a promise about a surviving group, which is the difference between a token and a remnant, and the rest of the chapter is about a community rather than a person.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 4:3",
+     "start": 102,
+     "end": 110,
+     "book": "Isa",
+     "chapter": 4,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
+  },
+  {
+   "term": "written among the living in Jerusalem",
+   "verse_label": "v. 3",
+   "text": "A register of citizens, and a term the scriptures keep reaching for. The psalmist asks that his enemies be \"blotted out of the book of the living\" (Ps. 69:28); Alma will promise that the names of the righteous are written in the book of life. Whether Isaiah means a civic roll or a heavenly one, the survivors are described as listed somewhere, by name, which is a specific kind of comfort.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ps. 69:28",
+     "start": 148,
+     "end": 157,
+     "book": "Ps",
+     "chapter": 69,
+     "verse_start": 28,
+     "verse_end": 28
+    }
+   ]
+  },
+  {
+   "term": "by the spirit of judgment and by the spirit of burning",
+   "verse_label": "v. 4",
+   "text": "The two instruments of the cleaning, and neither is gentle. Judgment sorts and fire consumes, and both are called spirit, which keeps them from being read as merely political events. The verse gives the method for the promise: this is how the filth of the previous chapter gets washed away, and there is no version of it that avoids heat."
+  },
+  {
+   "term": "a cloud and smoke by day",
+   "verse_label": "v. 5",
+   "text": "The exodus signs, quoted in their familiar order. Israel followed \"a pillar of a cloud\" (Ex. 13:21) out of Egypt, and the promise here is that the same presence returns, this time stationary and multiplied over every house. Nephi's people had their own wilderness travel behind them and a compass instead of a pillar; the image would not have been an antique to them.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ex. 13:21",
+     "start": 89,
+     "end": 98,
+     "book": "Ex",
+     "chapter": 13,
+     "verse_start": 21,
+     "verse_end": 21
+    }
+   ]
+  },
+  {
+   "term": "upon all the glory of Zion shall be a defence",
+   "verse_label": "v. 5",
+   "text": "The KJV promises a defence \"upon all the glory\" (Isa. 4:5), leaving the glory unspecified. Two added words attach it to Zion. The line then says something more pointed: the city's glory is what needs guarding, and it is guarded by a covering rather than by walls or soldiers, neither of which the previous chapter left standing.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 4:5",
+     "start": 49,
+     "end": 57,
+     "book": "Isa",
+     "chapter": 4,
+     "verse_start": 5,
+     "verse_end": 5
+    }
+   ]
+  },
+  {
+   "term": "a covert from storm and from rain",
+   "verse_label": "v. 6",
+   "text": "The chapter's last promise is the smallest one in it. A covert is a thicket or an overhang, somewhere to get out of the weather, and it closes a run of increasingly ordinary shelters: tabernacle, shadow, place of refuge, covert. After the branch, the holy remnant, the purging fire, and the pillar of cloud, the closing image is a place to stand out of the rain, which is something a frightened person can picture without effort."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1",
+   "start": 1,
+   "end": 1,
+   "title": "What the war left",
+   "text": "Seven women to one man, offering to pay their own way, asking only for a name. The verse is often read as an image of scarcity, and it is, but the specific request is for standing rather than for support. Having lost the men, they are trying to hold onto a place in the community's records."
+  },
+  {
+   "label": "v. 2",
+   "start": 2,
+   "end": 2,
+   "title": "The turn, in a single line",
+   "text": "With no transition the chapter pivots from that scene to beauty and glory. The branch is beautiful, the fruit of the earth is excellent, and both are said to be for those who escaped. Isaiah does not explain the pivot. He simply puts the promise next to the ruin and lets the reader feel the distance."
+  },
+  {
+   "label": "v. 3",
+   "start": 3,
+   "end": 3,
+   "title": "Called holy, and written down",
+   "text": "Two things happen to the survivors: a title and a record. Holiness in this verse is not achieved by them; it is what they are called after the cleansing of verse 4, which the sentence has not reached yet. The order matters, since it makes holiness a consequence of God's action rather than the qualification for it."
+  },
+  {
+   "label": "v. 4",
+   "start": 4,
+   "end": 4,
+   "title": "The washing, and who does it",
+   "text": "Every verb belongs to the Lord: he washes, he purges. The filth named is the filth of the daughters of Zion, which points directly back at the ornament list of the previous chapter, and the blood named is the city's own. What looked like an ending there is treated here as material to be cleaned."
+  },
+  {
+   "label": "v. 5",
+   "start": 5,
+   "end": 5,
+   "title": "A pillar over every house",
+   "text": "The exodus imagery returns domesticated. Instead of one cloud over one tabernacle, there is cloud and fire over each dwelling and over the assemblies, and a defence over all the glory. The promise is not a temple for the nation but the presence distributed to the addresses where people actually live."
+  },
+  {
+   "label": "v. 6",
+   "start": 6,
+   "end": 6,
+   "title": "No enemies in the last verse",
+   "text": "Every other chapter in this opening movement ends on a threat or a ruin. This one ends with weather, and with three separate provisions against it. Nothing is said about armies, idols, or the proud, which after fifty verses of those subjects is itself the news: the danger the survivors are promised protection from is ordinary exposure."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "Six verses that answer twenty-six",
+   "text": "Nearly every promise here reverses a specific loss from the chapter before it. The women who were itemized are washed; the city that sat on the ground is covered; the men who fell leave seven women to a man. The two chapters are one argument, and the numbering hides it."
+  },
+  {
+   "n": 2,
+   "title": "The cleansing is not optional or painless",
+   "text": "The instruments are judgment and burning, and they are applied to the covenant city rather than to its enemies. A reader looking for a comfortable chapter after chapter 13 gets comfort, but only on the far side of a fire that is described before the shelter is."
+  },
+  {
+   "n": 3,
+   "title": "Glory and shelter, in that order",
+   "text": "The chapter's images descend from a beautiful branch to a covert from rain, and the descent is the point. Isaiah ends on the least impressive item because that is the one a person under threat can actually use, and the record keeps making the same move when it turns from doctrine to application."
+  },
+  {
+   "n": 4,
+   "title": "The remnant is plural here",
+   "text": "The variant at verse 3 turns two singular survivors into groups. In a block that Nephi selected for a scattered family on an island, the difference is not incidental: what is promised is a people left, not a lone survivor, and his own colony is a small group of exactly that kind."
+  },
+  {
+   "n": 5,
+   "title": "The exodus keeps returning",
+   "text": "Cloud, fire, tabernacle, and a people brought through by a covering presence. Isaiah reaches for the founding story to describe the future, and the record's own writers do the same with their own crossing. This chapter is where the block's exodus vocabulary first surfaces."
+  },
+  {
+   "n": 6,
+   "title": "A short chapter carrying the block's promise",
+   "text": "Chapters 12 and 13 are almost entirely judgment. This one holds nearly all of the consolation in the block's opening movement, and it is the shortest of the three. The proportion is worth noticing before the longer oracles that follow, since Isaiah's ratio of warning to promise rarely favors promise by length."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Read across the break",
+    "verse_label": "v. 1",
+    "text": "Take the chapter division you are most used to stopping at in your own study and read straight through it once, out loud. Chapter numbers were added long after these words were spoken, and the seam between 13 and 14 hides a promise attached to a disaster."
+   },
+   {
+    "title": "Let the cleansing be God's verb",
+    "verse_label": "v. 4",
+    "text": "Every action in the washing belongs to the Lord. Identify the thing about yourself you have been trying hardest to scrub, and spend a week asking for it to be washed rather than attempting it again on your own schedule."
+   },
+   {
+    "title": "Name your shelter honestly",
+    "verse_label": "v. 6",
+    "text": "The chapter's final promise is shade and a roof, not victory. Write down what you are actually asking God for right now, and see whether you are asking for the storm to stop or for somewhere to stand in it."
+   },
+   {
+    "title": "Put the pillar over the house",
+    "verse_label": "v. 5",
+    "text": "The exodus signs land on dwellings here, not on a sanctuary. Choose one practice that makes your home rather than your meetinghouse the place where God is expected, and start it this week."
+   },
+   {
+    "title": "Check what you want to be called",
+    "verse_label": "v. 1",
+    "text": "Seven women asked for a name rather than for bread. Ask what standing you are currently seeking, whose name you want attached to yours, and whether the answer would embarrass you if said plainly."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What am I willing to provide for myself, and what do I still need to be given by someone else?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Where have I seen something beautiful grow out of a stump I had written off?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "If a register of the living were kept by name, what would I want written next to mine?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What in me is being purged right now by judgment or by burning, and am I calling it something else?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "Does the presence of God in my life feel national and distant, or is it over my own dwelling?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "When the storm comes, where do I actually go first?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "2ne14-001",
+   "scope": "BOOK",
+   "head": "2 Ne. 13:24",
+   "anchor": {
+    "verse": 4,
+    "w1": 6,
+    "w2": 14,
+    "quote": "washed away the filth of the daughters of Zion"
+   },
+   "reason": "the ornament sentence undone",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 13,
+     "verse": 24,
+     "w1": 7,
+     "w2": 14,
+     "quote": "instead of sweet smell there shall be stink",
+     "span": true
+    }
+   ],
+   "mirror": "2ne13-013"
+  },
+  {
+   "id": "2ne14-002",
+   "scope": "BOOK",
+   "head": "2 Ne. 13:26",
+   "anchor": {
+    "verse": 6,
+    "w1": 5,
+    "w2": 15,
+    "quote": "a tabernacle for a shadow in the daytime from the heat"
+   },
+   "reason": "a covering for the city on the ground",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 13,
+     "verse": 26,
+     "w1": 9,
+     "w2": 18,
+     "quote": "she shall be desolate, and shall sit upon the ground",
+     "span": true
+    }
+   ],
+   "mirror": "2ne13-014"
+  },
+  {
+   "id": "2ne14-003",
+   "scope": "BOOK",
+   "head": "2 Ne. 21:1",
+   "anchor": {
+    "verse": 2,
+    "w1": 4,
+    "w2": 13,
+    "quote": "shall the branch of the Lord be beautiful and glorious"
+   },
+   "reason": "the same growth figure later in the block",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 21,
+     "verse": 1,
+     "w1": 2,
+     "w2": 13,
+     "quote": "there shall come forth a rod out of the stem of Jesse",
+     "span": true
+    }
+   ],
+   "mirror": "2ne21-001"
+  },
+  {
+   "id": "2ne14-004",
+   "scope": "BOM",
+   "head": "Alma 5:58",
+   "anchor": {
+    "verse": 3,
+    "w1": 21,
+    "w2": 30,
+    "quote": "every one that is written among the living in Jerusalem"
+   },
+   "reason": "the register named as the book of life",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 5,
+     "verse": 58,
+     "w1": 2,
+     "w2": 14,
+     "quote": "the names of the righteous shall be written in the book of life",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "2ne14-005",
+   "scope": "SW",
+   "head": "Isa. 4:1",
+   "anchor": {
+    "verse": 1,
+    "w1": 5,
+    "w2": 12,
+    "quote": "seven women shall take hold of one man"
+   },
+   "reason": "the block and its source chapter",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 4,
+     "verse": 1,
+     "w1": 5,
+     "w2": 12,
+     "quote": "seven women shall take hold of one man",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne14-006",
+   "scope": "SW",
+   "head": "Jer. 23:5",
+   "anchor": {
+    "verse": 2,
+    "w1": 4,
+    "w2": 13,
+    "quote": "shall the branch of the Lord be beautiful and glorious"
+   },
+   "reason": "a contemporary's promised Branch",
+   "targets": [
+    {
+     "ref": "Jer.",
+     "chapter": 23,
+     "verse": 5,
+     "w1": 9,
+     "w2": 16,
+     "quote": "I will raise unto David a righteous Branch",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne14-007",
+   "scope": "SW",
+   "head": "Isa. 4:3",
+   "anchor": {
+    "verse": 3,
+    "w1": 7,
+    "w2": 20,
+    "quote": "they that are left in Zion and remain in Jerusalem shall be called holy"
+   },
+   "reason": "survivors made plural",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 4,
+     "verse": 3,
+     "w1": 8,
+     "w2": 19,
+     "quote": "he that is left in Zion, and he that remaineth in Jerusalem",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne14-008",
+   "scope": "SW",
+   "head": "Ps. 69:28",
+   "anchor": {
+    "verse": 3,
+    "w1": 21,
+    "w2": 30,
+    "quote": "every one that is written among the living in Jerusalem"
+   },
+   "reason": "the psalmist's book of the living",
+   "targets": [
+    {
+     "ref": "Ps.",
+     "chapter": 69,
+     "verse": 28,
+     "w1": 1,
+     "w2": 11,
+     "quote": "Let them be blotted out of the book of the living",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne14-009",
+   "scope": "SW",
+   "head": "Ex. 13:21",
+   "anchor": {
+    "verse": 5,
+    "w1": 16,
+    "w2": 30,
+    "quote": "a cloud and smoke by day and the shining of a flaming fire by night"
+   },
+   "reason": "the exodus pillar, per household",
+   "targets": [
+    {
+     "ref": "Ex.",
+     "chapter": 13,
+     "verse": 21,
+     "w1": 9,
+     "w2": 19,
+     "quote": "in a pillar of a cloud, to lead them the way",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne14-010",
+   "scope": "SW",
+   "head": "Isa. 4:5",
+   "anchor": {
+    "verse": 5,
+    "w1": 32,
+    "w2": 41,
+    "quote": "upon all the glory of Zion shall be a defence"
+   },
+   "reason": "the glory given an owner",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 4,
+     "verse": 5,
+     "w1": 33,
+     "w2": 40,
+     "quote": "upon all the glory shall be a defence",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 5,
+   "w2": 12,
+   "quote": "seven women shall take hold of one man",
+   "entries": [
+    "2ne14-005"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 4,
+   "w2": 13,
+   "quote": "shall the branch of the Lord be beautiful and glorious",
+   "entries": [
+    "2ne14-003",
+    "2ne14-006"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 7,
+   "w2": 20,
+   "quote": "they that are left in Zion and remain in Jerusalem shall be called holy",
+   "entries": [
+    "2ne14-007"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 21,
+   "w2": 30,
+   "quote": "every one that is written among the living in Jerusalem",
+   "entries": [
+    "2ne14-004",
+    "2ne14-008"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 6,
+   "w2": 14,
+   "quote": "washed away the filth of the daughters of Zion",
+   "entries": [
+    "2ne14-001"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 16,
+   "w2": 30,
+   "quote": "a cloud and smoke by day and the shining of a flaming fire by night",
+   "entries": [
+    "2ne14-009"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 32,
+   "w2": 41,
+   "quote": "upon all the glory of Zion shall be a defence",
+   "entries": [
+    "2ne14-010"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 5,
+   "w2": 15,
+   "quote": "a tabernacle for a shadow in the daytime from the heat",
+   "entries": [
+    "2ne14-002"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "56768480dea224bc"
+ }
+}

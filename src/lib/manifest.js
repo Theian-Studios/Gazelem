@@ -57,10 +57,25 @@ const fold = (s) => (s || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
 
 // The prophet of this volume that a name names, or null. Returns the name as
 // the prophets page spells it, since that is what opens the page.
+//
+// A speaker is often named with what he is doing as well as who he is —
+// "Mormon (narrator)", "Nephi (quoting Isaiah)", "Jacob (quoting Zenos)" —
+// and the man is the same man either way. So the parenthesis is tried without
+// first and with second: the whole thing is what a page would be filed under
+// if anyone ever did file one that way, and the name proper is the answer
+// everywhere else.
 export function prophetNamed(volume, name) {
-  const want = fold(name);
-  return want ? prophetNames(volume).find((p) => fold(p) === want) || null : null;
+  const names = prophetNames(volume);
+  const one = (s) => {
+    const want = fold(s);
+    return want ? names.find((p) => fold(p) === want) || null : null;
+  };
+  return one(name) ?? one(speakerName(name));
 }
+
+// "Nephi (quoting Isaiah)" → "Nephi". The qualifier itself may name a second
+// prophet, and often does, but the speaker is who the chapter is by.
+export const speakerName = (s) => String(s || "").replace(/\s*\([^)]*\)\s*$/, "").trim();
 
 // The map's places for a volume — id and name only; the map itself carries
 // everything else, and is not downloaded to answer this.

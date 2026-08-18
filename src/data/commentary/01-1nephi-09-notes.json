@@ -1,0 +1,730 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "1 Nephi",
+  "book_slug": "1nephi",
+  "chapter": 9,
+  "volume_order": "01",
+  "speakers": [
+   "Nephi"
+  ],
+  "audience": null,
+  "location": "Land of Nephi",
+  "date": "Undatable (editorial aside; engraved ~570 BC)",
+  "unit": "Vision cycle (1 Nephi 8–15)",
+  "principles": [
+   "Wise purposes",
+   "Records",
+   "Trust"
+  ],
+  "connections": 7,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Two archives, double the labor",
+   "text": "The system this chapter describes means every era of the people is engraved twice, on separate plates, by hand, in metal. Nobody builds a redundant archive at that cost for convenience; the decision itself testifies that someone thought loss was likely and the content worth insuring."
+  },
+  {
+   "n": 2,
+   "title": "Records took their makers' names",
+   "text": "\"the plates of Nephi, after mine own name\" (v. 2) follows the age's habit: archives were known by their founder, and the name then stuck to the whole line of records kept in that tradition — which is why, centuries on, kings are still writing on \"the plates of Nephi\" (Alma 37:2).",
+   "cites": [
+    {
+     "quote": "the plates of Nephi, after mine own name",
+     "verse": 2,
+     "start": 0,
+     "end": 49,
+     "spans": [
+      {
+       "w1": 53,
+       "w2": 60,
+       "text": "the plates of Nephi, after mine own name"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 37:2",
+     "start": 269,
+     "end": 278,
+     "book": "Alma",
+     "chapter": 37,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Ministry and monarchy kept different books",
+   "text": "Ancient states ran parallel record streams: temple archives and palace archives, sacred acts and royal annals. Nephi's split — ministry on one set, \"the reign of the kings, and the wars and contentions\" (v. 4) on the other — puts his people's library in that recognizable shape.",
+   "cites": [
+    {
+     "quote": "the reign of the kings, and the wars and contentions",
+     "verse": 4,
+     "start": 148,
+     "end": 209,
+     "spans": [
+      {
+       "w1": 11,
+       "w2": 20,
+       "text": "the reign of the kings, and the wars and contentions"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "When the small plates were made",
+   "text": "This aside is written from about thirty years out (2 Ne. 5:28–31): the large plates existed first, and the command to make this second, ministry-focused set came late and unexplained. The chapter's calm about not knowing why (v. 5) is the calm of a man who had already obeyed anyway.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 5:28–31",
+     "start": 51,
+     "end": 64,
+     "book": "2 Ne",
+     "chapter": 5,
+     "verse_start": 28,
+     "verse_end": 31
+    },
+    {
+     "kind": "verse",
+     "text": "(v. 5)",
+     "start": 225,
+     "end": 231,
+     "verse_start": 5,
+     "verse_end": 5
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Amen was a seal",
+   "text": "Ending with \"And thus it is. Amen\" (v. 6) closes the note the way Israel closed oaths and blessings — a word that ratifies what precedes it as true and binding. The editorial aside is signed off like a prayer, which tells the reader something about what writing was to this author.",
+   "cites": [
+    {
+     "quote": "And thus it is. Amen",
+     "verse": 6,
+     "start": 12,
+     "end": 41,
+     "spans": [
+      {
+       "w1": 38,
+       "w2": 42,
+       "text": "And thus it is. Amen"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "term": "ministry",
+   "verse_label": "v. 3",
+   "text": "The word that names this record's beat: not the acts of kings but \"the ministry of my people\" (v. 3) — teaching, prophecy, covenant, the traffic between God and the family. The volume the reader holds descends from this word; the wars got their own shelf.",
+   "cites": [
+    {
+     "quote": "the ministry of my people",
+     "verse": 3,
+     "start": 66,
+     "end": 100,
+     "spans": [
+      {
+       "w1": 28,
+       "w2": 32,
+       "text": "the ministry of my people"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "special",
+   "verse_label": "v. 3",
+   "text": "\"for the special purpose\" (v. 3): set apart, particular, aimed. The plates are not a spare copy of the national story but a different instrument with its own assignment — and the word warns the reader against judging this record for what it deliberately is not.",
+   "cites": [
+    {
+     "quote": "for the special purpose",
+     "verse": 3,
+     "start": 0,
+     "end": 32,
+     "spans": [
+      {
+       "w1": 16,
+       "w2": 19,
+       "text": "for the special purpose"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "wise",
+   "verse_label": "v. 5",
+   "text": "The purpose is \"a wise purpose in him\" (v. 5) — wisdom located in God, not in the writer's understanding. The word does its work precisely because Nephi cannot define it: wise names the quality he trusts, not the plan he sees.",
+   "cites": [
+    {
+     "quote": "a wise purpose in him",
+     "verse": 5,
+     "start": 15,
+     "end": 45,
+     "spans": [
+      {
+       "w1": 12,
+       "w2": 16,
+       "text": "a wise purpose in him"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "these plates also are called the plates of Nephi",
+   "verse_label": "v. 2",
+   "text": "The sentence tangles on purpose: two records, one name. Nephi slows down to untangle it because the reader will need the distinction for a thousand pages — and the tangle itself preserves a fact about the family archive: everything in it flowed from one man's stylus and carried his name."
+  },
+  {
+   "term": "a full account",
+   "verse_label": "v. 2",
+   "text": "Third appearance of the running phrase (1 Ne. 1:16–17; 6:3), and the first time it comes with a system: the full account exists — it simply lives on the other plates. What read at first like a writer's apology turns out to be a filing method.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 1:16–17",
+     "start": 40,
+     "end": 53,
+     "book": "1 Ne",
+     "chapter": 1,
+     "verse_start": 16,
+     "verse_end": 17
+    }
+   ]
+  },
+  {
+   "term": "the reign of the kings, and the wars and contentions",
+   "verse_label": "v. 4",
+   "text": "The large plates' contents in one breath: politics, war, and quarrel. The phrase is this record's definition of secular history — real, worth keeping, and deliberately shelved apart from the ministry. The taxonomy is a theology: what a people does with God is a different book from what it does with power."
+  },
+  {
+   "term": "which purpose I know not",
+   "verse_label": "v. 5",
+   "text": "The chapter's hinge. A prophet who has seen visions obeys a records commandment blind, and says so in the record itself. The confession is load the sentence carries on purpose: obedience that waits for explanations is not yet the obedience this record teaches."
+  },
+  {
+   "term": "And thus it is. Amen.",
+   "verse_label": "v. 6",
+   "text": "The record's first sign-off, and a formula that will close editorial moments across the whole volume. The writer states doctrine — God knows all, prepares ways, has all power — and then seals the note shut with the old ratifying word. Nothing is argued; everything is attested, and even the technical passages end as worship."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1",
+   "start": 1,
+   "end": 1,
+   "title": "The unwritten remainder",
+   "text": "Lehi saw, heard, and spoke \"a great many more things, which cannot be written\" (v. 1). The record opens this aside by measuring its own gaps — a habit of honesty about incompleteness that every later editor of the volume will inherit and repeat.",
+   "cites": [
+    {
+     "quote": "a great many more things, which cannot be written",
+     "verse": 1,
+     "start": 27,
+     "end": 85,
+     "spans": [
+      {
+       "w1": 26,
+       "w2": 34,
+       "text": "a great many more things, which cannot be written"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 2",
+   "start": 2,
+   "end": 2,
+   "title": "One name, two records",
+   "text": "The verse works hard to confuse and then rescue the reader: a full-account record and this one, both \"called the plates of Nephi\" (v. 2). The lesson under the housekeeping is real: from here on, the reader should always know which kind of record he is standing in.",
+   "cites": [
+    {
+     "quote": "called the plates of Nephi",
+     "verse": 2,
+     "start": 101,
+     "end": 136,
+     "spans": [
+      {
+       "w1": 52,
+       "w2": 56,
+       "text": "called the plates of Nephi"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 3",
+   "start": 3,
+   "end": 3,
+   "title": "The ministry plates",
+   "text": "A commandment with a stated aim: an account \"of the ministry of my people\" (v. 3). This verse is the birth certificate of the book the reader is actually holding — the sacred track of a double archive, commissioned by God with its purpose half-told.",
+   "cites": [
+    {
+     "quote": "of the ministry of my people",
+     "verse": 3,
+     "start": 44,
+     "end": 81,
+     "spans": [
+      {
+       "w1": 27,
+       "w2": 32,
+       "text": "of the ministry of my people"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 4",
+   "start": 4,
+   "end": 4,
+   "title": "The history plates",
+   "text": "Kings, wars, contentions: the things that fill most nations' entire literature get one verse and a different shelf. The record's priorities are structural, not rhetorical — it demoted politics by design, before a single king existed to record."
+  },
+  {
+   "label": "v. 5",
+   "start": 5,
+   "end": 5,
+   "title": "Obedience without the reason",
+   "text": "\"which purpose I know not\" (v. 5) — the plainest confession in the record so far. Nephi's own creed (1 Ne. 3:7) is here applied to authorship: the way is prepared, the reason withheld, the work commanded anyway. Not knowing is part of the assignment, and he writes it down so his readers will know it was.",
+   "cites": [
+    {
+     "quote": "which purpose I know not",
+     "verse": 5,
+     "start": 0,
+     "end": 33,
+     "spans": [
+      {
+       "w1": 17,
+       "w2": 21,
+       "text": "which purpose I know not"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 3:7",
+     "start": 101,
+     "end": 110,
+     "book": "1 Ne",
+     "chapter": 3,
+     "verse_start": 7,
+     "verse_end": 7
+    }
+   ]
+  },
+  {
+   "label": "v. 6",
+   "start": 6,
+   "end": 6,
+   "title": "The warrant for trusting",
+   "text": "The aside ends in doctrine sized for the occasion: the Lord \"knoweth all things from the beginning\" (v. 6), prepares ways, \"hath all power unto the fulfilling of all his words\" (v. 6). Three claims, one conclusion: a command's missing explanation is stored safely in the character of the commander. Amen.",
+   "cites": [
+    {
+     "quote": "knoweth all things from the beginning",
+     "verse": 6,
+     "start": 60,
+     "end": 106,
+     "spans": [
+      {
+       "w1": 4,
+       "w2": 9,
+       "text": "knoweth all things from the beginning"
+      }
+     ]
+    },
+    {
+     "quote": "hath all power unto the fulfilling of all his words",
+     "verse": 6,
+     "start": 123,
+     "end": 183,
+     "spans": [
+      {
+       "w1": 28,
+       "w2": 37,
+       "text": "hath all power unto the fulfilling of all his words"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "A footnote that became a failsafe",
+   "text": "The unexplained second record justified itself a thousand years later, when Mormon — moved by reasons he likewise could not name — bound these plates into his abridgment \"for a wise purpose\" (W of M 1:7). Readers of the modern edition know a further chapter of that story (D&C 10). Few verses in scripture have had their trust so thoroughly repaid as verse 5.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "W of M 1:7",
+     "start": 192,
+     "end": 202,
+     "book": "W of M",
+     "chapter": 1,
+     "verse_start": 7,
+     "verse_end": 7
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "The filing system is a creed",
+   "text": "Splitting ministry from monarchy decided, in advance, what this people's essential history would be. When the two streams were finally merged by later editors, the ministry track set the tone — the volume the world received is the direct descendant of verse 3's priorities."
+  },
+  {
+   "n": 3,
+   "title": "The writer inside his own doctrine",
+   "text": "Chapter 3's creed promised prepared ways for commanded things; chapter 9 shows the promiser living it, stylus in hand, purpose unknown. The record practices what it preaches at the level of its own manufacture."
+  },
+  {
+   "n": 4,
+   "title": "Redundancy as providence",
+   "text": "The Lord's information plan, as this chapter reveals it, assumes failure: records lost, parts broken, plans spoiled — and builds the spare before the loss. The chapter teaches the doctrine of preparation not as comfort but as engineering."
+  },
+  {
+   "n": 5,
+   "title": "Sealed like a prayer",
+   "text": "The aside ends with Amen. Technical writing, in this record, is still sacred writing; there is no secular register even for cataloging plates. The sign-off quietly defines the writer's whole relationship to his work."
+  },
+  {
+   "n": 6,
+   "title": "The bridge in the vision cycle",
+   "text": "Placed between Lehi's dream (ch. 8) and its handoff to Nephi (ch. 10), the aside marks a seam: the father's visions close, the son's begin, and the editor pauses to tell the reader what vessel is carrying them. The unit resumes with the reader newly aware that everything arrives through these deliberately made plates.",
+   "refs": [
+    {
+     "kind": "chapter",
+     "text": "(ch. 8)",
+     "start": 28,
+     "end": 35,
+     "ch_start": 8,
+     "ch_end": 8
+    },
+    {
+     "kind": "chapter",
+     "text": "(ch. 10)",
+     "start": 61,
+     "end": 69,
+     "ch_start": 10,
+     "ch_end": 10
+    }
+   ]
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Keep a ministry track",
+    "verse_label": "v. 3–4",
+    "text": "Your life generates both kinds of record: logistics and ministry. Split them the way the plates split — one place for the schedule and the quarrels, another reserved for what God did — and watch what reserving a sacred track does to your noticing."
+   },
+   {
+    "title": "Do the unexplained assignment",
+    "verse_label": "v. 5",
+    "text": "Somewhere in your life is a commandment, calling, or prompting whose purpose you cannot see. Nephi's model: comply first, confess the not-knowing honestly, and let the reason arrive on its own schedule — even if it takes the scenic route."
+   },
+   {
+    "title": "Build the spare before the loss",
+    "verse_label": "v. 3–6",
+    "text": "Providence in this chapter looks like redundancy. Apply it plainly: the testimony written down before the crisis, the second copy of what matters, the practice kept alive in the family that seems unnecessary now. Wise purposes tend to be invisible exactly until they are urgent."
+   },
+   {
+    "title": "Seal your entries",
+    "verse_label": "v. 6",
+    "text": "End what you write — journal entries, family records, hard emails — deliberately, the way the record ends its asides. A closing line of attested truth (\"this I know\"; \"thus it is\") changes what the writing was: not venting, but witness."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What have I seen and heard that remains entirely unwritten, and who loses if it stays that way?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Which record of my life am I actually keeping — the reign and the wars, or the ministry?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "In an honest audit of my words this month, did the contentions get more ink than the covenants?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "What am I currently refusing to do until it is explained, and what would obeying blind actually cost me?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "Where in my past has a \"wise purpose I knew not\" already paid off, and have I ever said thank you for it?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "1ne09-006",
+   "scope": "BOOK",
+   "head": "Jacob 1:3",
+   "anchor": {
+    "verse": 4,
+    "w1": 1,
+    "w2": 15,
+    "quote": "Upon the other plates should be engraven an account of the reign of the kings"
+   },
+   "reason": "the division enforced when the record changes hands",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 1,
+     "verse": 3,
+     "w1": 5,
+     "w2": 16,
+     "quote": "the history of his people should be engraven upon his other plates",
+     "span": true
+    }
+   ],
+   "mirror": "jac01-003"
+  },
+  {
+   "id": "1ne09-001",
+   "scope": "BOOK",
+   "head": "1 Ne. 19:2",
+   "anchor": {
+    "verse": 2,
+    "w1": 14,
+    "w2": 28,
+    "quote": "the plates upon which I make a full account of the history of my people"
+   },
+   "reason": "the two-plates story told again",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 19,
+     "verse": 2,
+     "w1": 2,
+     "w2": 11,
+     "quote": "I knew not at the time when I made them",
+     "span": true
+    }
+   ],
+   "mirror": "1ne19-001"
+  },
+  {
+   "id": "1ne09-002",
+   "scope": "BOOK",
+   "head": "1 Ne. 3:7",
+   "anchor": {
+    "verse": 6,
+    "w1": 11,
+    "w2": 19,
+    "quote": "he prepareth a way to accomplish all his works"
+   },
+   "reason": "the creed widened from errands to works",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 3,
+     "verse": 7,
+     "w1": 40,
+     "w2": 46,
+     "quote": "he shall prepare a way for them",
+     "span": true
+    }
+   ],
+   "mirror": "1ne03-014"
+  },
+  {
+   "id": "1ne09-007",
+   "scope": "BOM",
+   "head": "W of M 1:7",
+   "anchor": {
+    "verse": 5,
+    "w1": 11,
+    "w2": 21,
+    "quote": "for a wise purpose in him, which purpose I know not"
+   },
+   "reason": "Mormon acting on the same unexplained instruction",
+   "targets": [
+    {
+     "ref": "W of M",
+     "chapter": 1,
+     "verse": 7,
+     "w1": 2,
+     "w2": 13,
+     "quote": "I do this for a wise purpose; for thus it whispereth me",
+     "span": true
+    }
+   ],
+   "mirror": "wom01-002"
+  },
+  {
+   "id": "1ne09-003",
+   "scope": "BOM",
+   "head": "W of M 1:7; Alma 37:12",
+   "anchor": {
+    "verse": 5,
+    "w1": 11,
+    "w2": 21,
+    "quote": "for a wise purpose in him, which purpose I know not"
+   },
+   "reason": "the purpose trusted, taught, and repaid",
+   "targets": [
+    {
+     "ref": "W of M",
+     "chapter": 1,
+     "verse": 7,
+     "w1": 2,
+     "w2": 8,
+     "quote": "I do this for a wise purpose",
+     "span": true
+    },
+    {
+     "ref": "Alma",
+     "chapter": 37,
+     "verse": 12,
+     "w1": 9,
+     "w2": 15,
+     "quote": "they are preserved for a wise purpose",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "1ne09-004",
+   "scope": "BOM",
+   "head": "2 Ne. 5:30",
+   "anchor": {
+    "verse": 3,
+    "w1": 2,
+    "w2": 15,
+    "quote": "I have received a commandment of the Lord that I should make these plates"
+   },
+   "reason": "the commandment scene itself",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 5,
+     "verse": 30,
+     "w1": 13,
+     "w2": 23,
+     "quote": "Make other plates; and thou shalt engraven many things upon them",
+     "span": true
+    }
+   ],
+   "mirror": "2ne05-009"
+  },
+  {
+   "id": "1ne09-005",
+   "scope": "SW",
+   "head": "Acts 15:18",
+   "anchor": {
+    "verse": 6,
+    "w1": 2,
+    "w2": 9,
+    "quote": "the Lord knoweth all things from the beginning"
+   },
+   "reason": "James's council citing the same ground",
+   "targets": [
+    {
+     "ref": "Acts",
+     "chapter": 15,
+     "verse": 18,
+     "w1": 1,
+     "w2": 13,
+     "quote": "Known unto God are all his works from the beginning of the world",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 14,
+   "w2": 28,
+   "quote": "the plates upon which I make a full account of the history of my people",
+   "entries": [
+    "1ne09-001"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 2,
+   "w2": 15,
+   "quote": "I have received a commandment of the Lord that I should make these plates",
+   "entries": [
+    "1ne09-004"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 1,
+   "w2": 15,
+   "quote": "Upon the other plates should be engraven an account of the reign of the kings",
+   "entries": [
+    "1ne09-006"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 11,
+   "w2": 21,
+   "quote": "for a wise purpose in him, which purpose I know not",
+   "entries": [
+    "1ne09-007",
+    "1ne09-003"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 2,
+   "w2": 9,
+   "quote": "the Lord knoweth all things from the beginning",
+   "entries": [
+    "1ne09-005"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 11,
+   "w2": 19,
+   "quote": "he prepareth a way to accomplish all his works",
+   "entries": [
+    "1ne09-002"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "636842b3dda1d771"
+ }
+}

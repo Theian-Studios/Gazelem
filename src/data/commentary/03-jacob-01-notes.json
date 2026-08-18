@@ -1,0 +1,763 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Jacob",
+  "book_slug": "jacob",
+  "chapter": 1,
+  "volume_order": "03",
+  "speakers": [
+   "Jacob"
+  ],
+  "audience": "Readers of the small plates",
+  "location": "The land of Nephi",
+  "date": "~544–421 BC (Jacob's stewardship begins ~544 BC)",
+  "unit": "Jacob's record (Jacob 1–7)",
+  "principles": [
+   "Stewardship of the record",
+   "Succession",
+   "Priestly accountability"
+  ],
+  "connections": 15,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "A handoff, not an opening",
+   "text": "The chapter begins mid-institution. Nephi is still alive in verse 1, dead by verse 12, and the record changes hands in between. Ancient records rarely narrate their own transfer; this one spends its first eight verses on the terms of the transfer before telling the reader that the previous keeper died."
+  },
+  {
+   "n": 2,
+   "title": "Two sets of plates, still running in parallel",
+   "text": "Verse 3 has Nephi assigning the history to \"his other plates\" and this record to Jacob. That division was announced back in 1 Nephi 9, and this is the first time the reader sees it enforced on a new keeper. The large plates continue under the kings; the small plates go to a priest."
+  },
+  {
+   "n": 3,
+   "title": "Throne names",
+   "text": "Verse 11 has successors called \"second Nephi, third Nephi,\" whatever their birth names. Egyptian and Mesopotamian kingship both used regnal names distinct from personal ones, and Israel's own kings sometimes took new names at accession. What the verse describes is a colony inventing dynastic nomenclature within one generation of arrival."
+  },
+  {
+   "n": 4,
+   "title": "A priesthood without Levites",
+   "text": "Verse 18 says Jacob and Joseph were consecrated priests and teachers \"by the hand of Nephi.\" Nobody in this colony is of Levi. The consecration language is Aaronic — the verb is the one used of Aaron's sons in Numbers 3 — but the hand doing the consecrating is a brother's, and the record does not pause to justify it."
+  },
+  {
+   "n": 5,
+   "title": "The watchman's rule",
+   "text": "Verse 19 works from Ezekiel: warn, or the blood of the unwarned is required at your hand. Ezekiel says \"hand\"; Jacob says \"garments.\" The shift from hand to garment moves the stain from the act to the person, and garments in this record are already the standing figure for a state one is found in at judgment."
+  },
+  {
+   "n": 6,
+   "title": "The seven names",
+   "text": "Verse 13's list — Nephites, Jacobites, Josephites, Zoramites, Lamanites, Lemuelites, Ishmaelites — is a lineage register, and the founders are the seven men who left Jerusalem or married into the party. The colony has become tribes in two generations."
+  },
+  {
+   "n": 7,
+   "title": "Wives, concubines, gold",
+   "text": "Verses 15 and 16 name the two offenses in the order Deuteronomy 17 forbids them to a king: multiplying wives, and multiplying silver and gold. The people are copying a monarchy, and the chapter reports it in the sentence right after it finishes describing how their monarchy was set up."
+  }
+ ],
+ "words": [
+  {
+   "term": "lightly",
+   "verse_label": "v. 2",
+   "text": "The instruction is to touch the history \"save it were lightly,\" and the adverb is doing editorial work. It does not forbid history; it rations it. Everything narrative in this book from here forward is there under a quota, which is worth remembering whenever the record seems to skip decades in a clause."
+  },
+  {
+   "term": "provocation",
+   "verse_label": "v. 7",
+   "text": "The one occurrence in the whole record. It comes from Psalm 95, where Israel provoked God at Meribah and was sworn out of his rest, and the psalm is the passage Hebrews later builds its rest argument on. Jacob imports the technical term intact, which means the wilderness generation is being offered to this colony as its own likeliest future."
+  },
+  {
+   "term": "errand",
+   "verse_label": "v. 17",
+   "text": "Also unique here in this record. In the King James Bible an errand is always a commission to carry a message — Abraham's servant will not eat until he has told his errand, and Ehud has a secret errand for the king. Jacob does not say he prepared a sermon; he says he obtained an errand, which makes the temple speech that follows a delivery rather than a composition."
+  },
+  {
+   "term": "magnify",
+   "verse_label": "v. 19",
+   "text": "To enlarge, and in the King James usage to make great by treating as great. Jacob and his brother magnify an office rather than a name. The word appears twice in this record and both times in Jacob's mouth, and both times what is enlarged is a duty rather than a reputation."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "a few of the things which I considered to be most precious",
+   "verse_label": "v. 2",
+   "text": "The selection rule for everything that follows, and it is personal. Not what happened, not what mattered to the nation, but what one man appraised as most precious. The record is candid that its contents passed through a single judgment, and the phrase invites the reader to notice whose."
+  },
+  {
+   "term": "engraven the heads of them upon these plates",
+   "verse_label": "v. 4",
+   "text": "A heading, not a transcript. Jacob is told to record the topic sentences of sacred preaching and touch on them as far as the metal allows. It is the closest the record comes to describing its own compression, and it explains why sermons here often read like summaries with one verse of full quotation inside them."
+  },
+  {
+   "term": "for Christ's sake, and for the sake of our people",
+   "verse_label": "v. 4",
+   "text": "Two beneficiaries, in that order, for a writing project. The phrase occurs in only one other place in this record. Everything Jacob selects has to pass a test with two names on it, and the second name is the reason the first is not left abstract."
+  },
+  {
+   "term": "lest by any means he should swear in his wrath they should not enter in",
+   "verse_label": "v. 7",
+   "text": "The oath is the point. God's refusal in Psalm 95 is not a mood but a sworn act, which is why the psalm and Hebrews both treat exclusion from rest as legally settled rather than emotionally provisional. The only other place this record swears that oath is Alma 12, where the same psalm is worked through at length."
+  },
+  {
+   "term": "having wielded the sword of Laban in their defence",
+   "verse_label": "v. 10",
+   "text": "The sword's fourth appearance and its plainest. Taken in a dark street, carried across an ocean, used as a pattern for an armory, and here simply wielded — by the man who took it, for the people it was taken for. The verse is a eulogy, and this is the line it chooses."
+  },
+  {
+   "term": "let them be of whatever name they would",
+   "verse_label": "v. 11",
+   "text": "The concession clause is the interesting part. The people are said to have imposed the throne name regardless of the man's own name, and the sentence shrugs at the man. A memorial practice invented out of love for one king becomes, in one clause, a thing done to his successors."
+  },
+  {
+   "term": "such as like unto David of old desiring many wives and concubines",
+   "verse_label": "v. 15",
+   "text": "The record's first criticism of David, and it arrives as a description of what the people were imitating rather than as an argument. Jacob will make the argument in the next chapter. Here the name functions as a diagnosis: the problem is not novelty but prestige, and the prestige is scriptural."
+  },
+  {
+   "term": "answering the sins of the people upon our own heads",
+   "verse_label": "v. 19",
+   "text": "Not sharing the guilt, but answering for it. The construction makes the teacher a defendant at the people's trial, liable for what he did not do rather than for what he did. It is the strongest statement of ministerial risk in the record, and it is made by a man describing why he is about to give a hard sermon."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–4",
+   "start": 1,
+   "end": 4,
+   "title": "The terms of the stewardship",
+   "text": "Four verses of instruction before any content: date the transfer, restrict the history, preserve and pass down the plates, and record the heads of what is sacred. The constraints are given before the freedom is, and every later complaint in this book about lack of room traces back to this paragraph."
+  },
+  {
+   "label": "v. 5–8",
+   "start": 5,
+   "end": 8,
+   "title": "Why they preached",
+   "text": "Faith and anxiety produced a showing of what would happen to this people; revelation produced knowledge of Christ; those two together produced labor. The chain runs from private conviction through vision to public work, and the paragraph ends by naming the alternative — provocation, wrath, exclusion — as the reason for urgency."
+  },
+  {
+   "label": "v. 9–12",
+   "start": 9,
+   "end": 12,
+   "title": "A king made, a king mourned",
+   "text": "Nephi anoints a successor, the people's love is stated with three participles, they invent the throne name, and then four words: \"And it came to pass that Nephi died.\" The record gives the founder's death less space than his nickname. The proportion is deliberate and it is the chapter's sharpest moment."
+  },
+  {
+   "label": "v. 13–14",
+   "start": 13,
+   "end": 14,
+   "title": "Seven names and two",
+   "text": "The lineage list is given in full, then set aside. Jacob announces he will use two categories based on hostility rather than descent. A historian's simplification, declared openly, and the record keeps that convention for a thousand years."
+  },
+  {
+   "label": "v. 15–16",
+   "start": 15,
+   "end": 16,
+   "title": "Two verses of decline",
+   "text": "Hard hearts, then wives and concubines, then gold and silver, then pride. Under the second king, not the tenth. The speed is the report: everything Nephi built took two books to describe and one sentence to begin losing."
+  },
+  {
+   "label": "v. 17–18",
+   "start": 17,
+   "end": 18,
+   "title": "Authority, stated twice",
+   "text": "Jacob taught in the temple having first obtained his errand from the Lord, and he and Joseph had been consecrated by Nephi. Divine commission and human ordination are both named, in that order, and the sermon in chapter 2 will lean on both."
+  },
+  {
+   "label": "v. 19",
+   "start": 19,
+   "end": 19,
+   "title": "The garment clause",
+   "text": "The chapter ends on the teacher's own exposure. Magnify the office, take the responsibility, answer for their sins, or their blood is on your clothes at the last day. The conditional is stated in both directions at once, which is unusual, and it reads like a man steadying himself."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "A book that begins with its own terms of service",
+   "text": "Before any sermon, prophecy, or allegory, the reader is told what this record is allowed to contain and who decided. Jacob 1 is a colophon turned into a chapter, and it makes the rest of the book legible: when Jacob says he lacks room, the reader already knows the constraint is inherited."
+  },
+  {
+   "n": 2,
+   "title": "The founder's death gets four words",
+   "text": "Nephi's dying is surrounded by his anointing of a king, the people's love for him, and the naming convention built in his honor — and the death itself is a single short sentence. The chapter grieves by arrangement rather than by statement, which is a very different instinct from the psalm in 2 Nephi 4."
+  },
+  {
+   "n": 3,
+   "title": "Decline arrives immediately",
+   "text": "There is no golden age between verse 12 and verse 15. The second king's reign is where wives, concubines, gold, and pride enter. The record's long pattern of prosperity turning to pride is usually introduced later; here it is running before the founder is cold."
+  },
+  {
+   "n": 4,
+   "title": "The naming problem is solved by hostility",
+   "text": "Verse 14 defines Nephite and Lamanite by disposition toward the people of Nephi rather than by descent from Nephi or Laman. Every later use of those two words in this record carries that definition, including the passages where the categories change hands entirely."
+  },
+  {
+   "n": 5,
+   "title": "Priesthood is asserted, not argued",
+   "text": "The chapter reports consecration by Nephi's hand without addressing lineage, and no part of the record ever returns to defend it. A book unusually careful about legal form — witnesses, oaths, records — is silent exactly where a Levitical objection would land."
+  },
+  {
+   "n": 6,
+   "title": "The teacher is placed at risk",
+   "text": "The final verse makes the accountability run upward from the people to the teacher rather than downward. Jacob is not describing a privilege of office; he is describing a liability, and he is describing it immediately before spending two chapters saying things his congregation will not enjoy."
+  },
+  {
+   "n": 7,
+   "title": "The chapter is the hinge between two kinds of book",
+   "text": "Behind it is Nephi's record, first-person and visionary. Ahead is Jacob's, which is mostly sermon and allegory. The transition is managed in nineteen verses, and the seam holds because Jacob explains the editorial rules before he starts writing under them."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Name your selection rule",
+    "verse_label": "v. 2",
+    "text": "Jacob wrote down what he judged most precious and said so. In whatever you record — a journal, a family history, notes from a meeting — try stating the rule you are selecting by. It makes the omissions honest."
+   },
+   {
+    "title": "Write heads, not transcripts",
+    "verse_label": "v. 4",
+    "text": "When you cannot capture everything, capture the headings. Jacob's constraint is a practical method for anyone with more experience than time to record it."
+   },
+   {
+    "title": "Watch the second reign",
+    "verse_label": "v. 15",
+    "text": "The chapter's warning is about how quickly an inheritance is spent. Look at something you received already built — a ward, a business, a family culture — and ask what has drifted in it during your own tenure rather than someone else's."
+   },
+   {
+    "title": "Check what you are imitating",
+    "verse_label": "v. 15",
+    "text": "The people were not inventing; they were copying a prestigious model. Identify one practice you have adopted mainly because respected people do it, and evaluate it on its own terms."
+   },
+   {
+    "title": "Obtain the errand first",
+    "verse_label": "v. 17",
+    "text": "Before giving counsel you expect to be unwelcome, do what verse 17 puts first in the sentence. The order in the verse is commission, then teaching."
+   },
+   {
+    "title": "Take the responsibility, not the title",
+    "verse_label": "v. 19",
+    "text": "Jacob magnified an office by enlarging its duty. In any assignment you hold, name the one duty you have been treating as optional, and treat it as the office itself."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What do I consider most precious, and would anyone reading what I actually record be able to tell?"
+   },
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "What is my version of the provocation — the pattern I keep repeating that would keep me out of rest?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "Whose name am I trying to keep in remembrance, and is honoring it the same as obeying it?"
+   },
+   {
+    "verse_label": "v. 14",
+    "start": 14,
+    "end": 14,
+    "text": "Do I sort people by what they are descended from or by how they behave toward what I love?"
+   },
+   {
+    "verse_label": "v. 17",
+    "start": 17,
+    "end": 17,
+    "text": "When did I last teach or counsel someone without first asking whether I had an errand to?"
+   },
+   {
+    "verse_label": "v. 19",
+    "start": 19,
+    "end": 19,
+    "text": "Whose blood, in Jacob's sense, might be on my garments — who have I not warned because it would be uncomfortable?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "jac01-015",
+   "scope": "BOOK",
+   "head": "W of M 1:13",
+   "anchor": {
+    "verse": 10,
+    "w1": 15,
+    "w2": 23,
+    "quote": "having wielded the sword of Laban in their defence"
+   },
+   "reason": "the blade still in a king's hand centuries later",
+   "targets": [
+    {
+     "ref": "W of M",
+     "chapter": 1,
+     "verse": 13,
+     "w1": 41,
+     "w2": 55,
+     "quote": "he did fight with the strength of his own arm, with the sword of Laban",
+     "span": true
+    }
+   ],
+   "mirror": "wom01-004"
+  },
+  {
+   "id": "jac01-014",
+   "scope": "BOOK",
+   "head": "Jacob 6:6",
+   "anchor": {
+    "verse": 7,
+    "w1": 46,
+    "w2": 54,
+    "quote": "as in the provocation in the days of temptation"
+   },
+   "reason": "the same psalm closing Jacob's record",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 6,
+     "verse": 6,
+     "w1": 1,
+     "w2": 12,
+     "quote": "Yea, today, if ye will hear his voice, harden not your hearts",
+     "span": true
+    }
+   ],
+   "mirror": "jac06-003"
+  },
+  {
+   "id": "jac01-013",
+   "scope": "BOOK",
+   "head": "Jacob 4:1",
+   "anchor": {
+    "verse": 2,
+    "w1": 15,
+    "w2": 26,
+    "quote": "a few of the things which I considered to be most precious"
+   },
+   "reason": "the constraint Jacob complains of later",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 4,
+     "verse": 1,
+     "w1": 30,
+     "w2": 37,
+     "quote": "the difficulty of engraving our words upon plates)",
+     "span": true
+    }
+   ],
+   "mirror": "jac04-002"
+  },
+  {
+   "id": "jac01-012",
+   "scope": "BOOK",
+   "head": "Jacob 3:10",
+   "anchor": {
+    "verse": 19,
+    "w1": 15,
+    "w2": 24,
+    "quote": "answering the sins of the people upon our own heads"
+   },
+   "reason": "the same liability laid on parents",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 3,
+     "verse": 10,
+     "w1": 40,
+     "w2": 50,
+     "quote": "their sins be heaped upon your heads at the last day",
+     "span": true
+    }
+   ],
+   "mirror": "jac03-003"
+  },
+  {
+   "id": "jac01-011",
+   "scope": "BOOK",
+   "head": "Jacob 2:2",
+   "anchor": {
+    "verse": 19,
+    "w1": 44,
+    "w2": 51,
+    "quote": "their blood might not come upon our garments"
+   },
+   "reason": "the same figure the sermon reopens",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 2,
+     "verse": 2,
+     "w1": 24,
+     "w2": 32,
+     "quote": "that I might rid my garments of your sins",
+     "span": true
+    }
+   ],
+   "mirror": "jac02-002"
+  },
+  {
+   "id": "jac01-002",
+   "scope": "BOOK",
+   "head": "Jacob 2:24",
+   "anchor": {
+    "verse": 15,
+    "w1": 33,
+    "w2": 44,
+    "quote": "such as like unto David of old desiring many wives and concubines"
+   },
+   "reason": "the diagnosis argued in the next chapter",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 2,
+     "verse": 24,
+     "w1": 2,
+     "w2": 10,
+     "quote": "David and Solomon truly had many wives and concubines",
+     "span": true
+    }
+   ],
+   "mirror": "jac02-003"
+  },
+  {
+   "id": "jac01-001",
+   "scope": "BOOK",
+   "head": "Jacob 2:2",
+   "anchor": {
+    "verse": 19,
+    "w1": 2,
+    "w2": 9,
+    "quote": "we did magnify our office unto the Lord"
+   },
+   "reason": "the office magnified, then invoked in the sermon",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 2,
+     "verse": 2,
+     "w1": 17,
+     "w2": 32,
+     "quote": "to magnify mine office with soberness, and that I might rid my garments of your sins",
+     "span": true
+    }
+   ],
+   "mirror": "jac02-001"
+  },
+  {
+   "id": "jac01-010",
+   "scope": "BOM",
+   "head": "4 Ne. 1:37",
+   "anchor": {
+    "verse": 13,
+    "w1": 14,
+    "w2": 21,
+    "quote": "Nephites, Jacobites, Josephites, Zoramites, Lamanites, Lemuelites, and Ishmaelites"
+   },
+   "reason": "the lineage names returning when the union breaks",
+   "targets": [
+    {
+     "ref": "4 Ne.",
+     "chapter": 1,
+     "verse": 37,
+     "w1": 24,
+     "w2": 32,
+     "quote": "were called Nephites, and Jacobites, and Josephites, and Zoramites",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "jac01-009",
+   "scope": "BOM",
+   "head": "Alma 12:35",
+   "anchor": {
+    "verse": 7,
+    "w1": 31,
+    "w2": 45,
+    "quote": "lest by any means he should swear in his wrath they should not enter in"
+   },
+   "reason": "the same oath worked through at length",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 12,
+     "verse": 35,
+     "w1": 12,
+     "w2": 24,
+     "quote": "I swear in my wrath that he shall not enter into my rest",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "jac01-006",
+   "scope": "BOM",
+   "head": "2 Ne. 5:14",
+   "anchor": {
+    "verse": 10,
+    "w1": 15,
+    "w2": 23,
+    "quote": "having wielded the sword of Laban in their defence"
+   },
+   "reason": "the sword kept for exactly this",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 5,
+     "verse": 14,
+     "w1": 4,
+     "w2": 19,
+     "quote": "did take the sword of Laban, and after the manner of it did make many swords",
+     "span": true
+    }
+   ],
+   "mirror": "2ne05-013"
+  },
+  {
+   "id": "jac01-005",
+   "scope": "BOM",
+   "head": "2 Ne. 5:26",
+   "anchor": {
+    "verse": 18,
+    "w1": 8,
+    "w2": 21,
+    "quote": "had been consecrated priests and teachers of this people, by the hand of Nephi"
+   },
+   "reason": "the consecration recorded from the other side",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 5,
+     "verse": 26,
+     "w1": 9,
+     "w2": 20,
+     "quote": "did consecrate Jacob and Joseph, that they should be priests and teachers",
+     "span": true
+    }
+   ],
+   "mirror": "2ne05-008"
+  },
+  {
+   "id": "jac01-004",
+   "scope": "BOM",
+   "head": "1 Ne. 6:6",
+   "anchor": {
+    "verse": 2,
+    "w1": 2,
+    "w2": 14,
+    "quote": "he gave me, Jacob, a commandment that I should write upon these plates"
+   },
+   "reason": "the charge Nephi promised to give his seed",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 6,
+     "verse": 6,
+     "w1": 2,
+     "w2": 8,
+     "quote": "I shall give commandment unto my seed",
+     "span": true
+    }
+   ],
+   "mirror": "1ne06-003"
+  },
+  {
+   "id": "jac01-003",
+   "scope": "BOM",
+   "head": "1 Ne. 9:4",
+   "anchor": {
+    "verse": 3,
+    "w1": 5,
+    "w2": 16,
+    "quote": "the history of his people should be engraven upon his other plates"
+   },
+   "reason": "the two-plate division enforced on a new keeper",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 9,
+     "verse": 4,
+     "w1": 1,
+     "w2": 15,
+     "quote": "Upon the other plates should be engraven an account of the reign of the kings",
+     "span": true
+    }
+   ],
+   "mirror": "1ne09-006"
+  },
+  {
+   "id": "jac01-008",
+   "scope": "SW",
+   "head": "Ps. 95:8",
+   "anchor": {
+    "verse": 7,
+    "w1": 46,
+    "w2": 54,
+    "quote": "as in the provocation in the days of temptation"
+   },
+   "reason": "the psalm the term is lifted from",
+   "targets": [
+    {
+     "ref": "Ps.",
+     "chapter": 95,
+     "verse": 8,
+     "w1": 5,
+     "w2": 18,
+     "quote": "as in the provocation, and as in the day of temptation in the wilderness",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "jac01-007",
+   "scope": "SW",
+   "head": "Ezek. 33:6",
+   "anchor": {
+    "verse": 19,
+    "w1": 44,
+    "w2": 51,
+    "quote": "their blood might not come upon our garments"
+   },
+   "reason": "the watchman rule, hand changed to garment",
+   "targets": [
+    {
+     "ref": "Ezek.",
+     "chapter": 33,
+     "verse": 6,
+     "w1": 39,
+     "w2": 47,
+     "quote": "his blood will I require at the watchman's hand",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 2,
+   "w2": 14,
+   "quote": "he gave me, Jacob, a commandment that I should write upon these plates",
+   "entries": [
+    "jac01-004"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 15,
+   "w2": 26,
+   "quote": "a few of the things which I considered to be most precious",
+   "entries": [
+    "jac01-013"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 5,
+   "w2": 16,
+   "quote": "the history of his people should be engraven upon his other plates",
+   "entries": [
+    "jac01-003"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 31,
+   "w2": 45,
+   "quote": "lest by any means he should swear in his wrath they should not enter in",
+   "entries": [
+    "jac01-009"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 46,
+   "w2": 54,
+   "quote": "as in the provocation in the days of temptation",
+   "entries": [
+    "jac01-014",
+    "jac01-008"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 15,
+   "w2": 23,
+   "quote": "having wielded the sword of Laban in their defence",
+   "entries": [
+    "jac01-015",
+    "jac01-006"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 14,
+   "w2": 21,
+   "quote": "Nephites, Jacobites, Josephites, Zoramites, Lamanites, Lemuelites, and Ishmaelites",
+   "entries": [
+    "jac01-010"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 33,
+   "w2": 44,
+   "quote": "such as like unto David of old desiring many wives and concubines",
+   "entries": [
+    "jac01-002"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 8,
+   "w2": 21,
+   "quote": "had been consecrated priests and teachers of this people, by the hand of Nephi",
+   "entries": [
+    "jac01-005"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 2,
+   "w2": 9,
+   "quote": "we did magnify our office unto the Lord",
+   "entries": [
+    "jac01-001"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 15,
+   "w2": 24,
+   "quote": "answering the sins of the people upon our own heads",
+   "entries": [
+    "jac01-012"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 44,
+   "w2": 51,
+   "quote": "their blood might not come upon our garments",
+   "entries": [
+    "jac01-011",
+    "jac01-007"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "00f2373d9dfb5ed3"
+ }
+}

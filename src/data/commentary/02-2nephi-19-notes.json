@@ -1,0 +1,676 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "2 Nephi",
+  "book_slug": "2nephi",
+  "chapter": 19,
+  "volume_order": "02",
+  "speakers": [
+   "Nephi (quoting Isaiah)"
+  ],
+  "audience": null,
+  "location": "The land of Nephi",
+  "date": "~559–545 BC (engraved); Isaiah's oracle ~732–722 BC",
+  "unit": "Isaiah block preface (2 Nephi 11–24)",
+  "principles": [
+   "Light in darkness",
+   "The promised king",
+   "Unturned anger"
+  ],
+  "connections": 9,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The worst districts get the promise first",
+   "text": "Zebulun and Naphtali were the northern territories Assyria took earliest, farm country far from Jerusalem and mixed with foreign populations. Isaiah puts the great light there rather than in the capital, which is the opposite of where a court prophet would locate a rescue."
+  },
+  {
+   "n": 2,
+   "title": "A birth announcement in the middle of a war",
+   "text": "Verses 6 and 7 read like a coronation proclamation: a son given, a government on his shoulder, a throne named. The surrounding verses are about invasion and civil collapse. The record's readers meet the most quoted lines in Isaiah wedged between two descriptions of ruin."
+  },
+  {
+   "n": 3,
+   "title": "The refrain that will not close",
+   "text": "Three times in this chapter, and once already in the vineyard chapter, a section ends with the same sentence about anger not turned away and a hand still stretched out. It functions like a bell between movements, and the record keeps every stroke."
+  },
+  {
+   "n": 4,
+   "title": "We will build better",
+   "text": "Verse 10 quotes the northern kingdom's response to disaster: bricks fell, so we will use dressed stone; sycamores were cut, so we will plant cedar. Both upgrades are real. The complaint is not about poor planning but about a people answering a warning with a renovation budget."
+  },
+  {
+   "n": 5,
+   "title": "Head and tail, branch and rush",
+   "text": "Verse 14 pairs a large thing with a small one twice, and verse 15 supplies the meaning: elders and lying prophets. The idiom covers a whole society by naming its extremes, which is how this block has been describing Judah since the men and the daughters of Zion were indicted in turn."
+  },
+  {
+   "n": 6,
+   "title": "Eating one's own arm",
+   "text": "The last movement describes hunger that turns inward: brother not sparing brother, Manasseh against Ephraim, both against Judah. These are tribal names, so the picture is a family eating itself. Nephi's colony had already split along family lines, and he copied this without comment."
+  }
+ ],
+ "words": [
+  {
+   "term": "vexation",
+   "verse_label": "v. 1",
+   "text": "Distress, trouble pressed on a person from outside. The word looks backward in the verse to a first, lighter affliction and sets up a comparison: the coming dimness will not be like that one. Isaiah opens a chapter about light by measuring two kinds of darkness against each other."
+  },
+  {
+   "term": "stoutness",
+   "verse_label": "v. 9",
+   "text": "Not size. The older sense is stubbornness, a hardness of resolve, and it is paired with pride in the same phrase. What follows is the building program of verse 10, so the word names the attitude that produces a construction plan instead of a repentance."
+  },
+  {
+   "term": "sycamores",
+   "verse_label": "v. 10",
+   "text": "A common fig tree of the lowlands, cheap timber, the wood of ordinary building. Cedar was imported and expensive. The verse's whole boast rides on the difference between two woods, which is a detail only a builder would feel, and Isaiah expects his hearers to feel it."
+  },
+  {
+   "term": "rush",
+   "verse_label": "v. 14",
+   "text": "A marsh reed, the smallest useful plant in the list, set against the palm branch. Head and tail, branch and rush: two pairs, each running from the top of a thing to its bottom. The reed is the last item in the sentence and the least, and it is cut off in the same day as the head."
+  },
+  {
+   "term": "hypocrite",
+   "verse_label": "v. 17",
+   "text": "In older usage a pretender, someone playing a part rather than a person with private failings. The charge in this verse is universal, every one, and it is joined to a mouth that speaks folly. What disqualifies the young men, widows, and orphans from mercy is not their weakness but the performance."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "the Red Sea beyond Jordan",
+   "verse_label": "v. 1",
+   "text": "The King James reads \"by the way of the sea, beyond Jordan\" (Isa. 9:1), leaving the sea unnamed, and most readers take it as the Mediterranean or the Sea of Galilee. This reading names it the Red Sea. The change moves the geography of the verse considerably, and the record simply carries the reading without argument, as it does elsewhere in the block.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 9:1",
+     "start": 61,
+     "end": 69,
+     "book": "Isa",
+     "chapter": 9,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
+  },
+  {
+   "term": "and increased the joy",
+   "verse_label": "v. 3",
+   "text": "One of the most consequential words in the whole block is the one missing here. The King James has \"Thou hast multiplied the nation, and not increased the joy\" (Isa. 9:3), a negative that contradicts the rejoicing in the rest of the verse and has puzzled readers for centuries. Dropped, the verse runs straight: the nation is multiplied, the joy is increased, and the harvest and spoil images that follow have something to be about.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 9:3",
+     "start": 161,
+     "end": 169,
+     "book": "Isa",
+     "chapter": 9,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
+  },
+  {
+   "term": "the rod of his oppressor",
+   "verse_label": "v. 4",
+   "text": "The King James finishes the verse with a historical comparison, \"as in the day of Midian\" (Isa. 9:4), pointing back to Gideon's three hundred men. This reading ends at the oppressor's rod. Without the reference, the deliverance is not tied to one old victory, and the next verse's burning of military gear stands as the only illustration offered.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 9:4",
+     "start": 91,
+     "end": 99,
+     "book": "Isa",
+     "chapter": 9,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
+  },
+  {
+   "term": "unto us a child is born, unto us a son is given",
+   "verse_label": "v. 6",
+   "text": "The most quoted sentence in Isaiah, and its grammar is worth noticing: both verbs are passive and both indirect objects are us. Nothing is achieved in the line. A child arrives and a son is handed over, and only then is a government placed on a shoulder. The five names that follow are titles for someone who has not yet done anything in the sentence."
+  },
+  {
+   "term": "The Everlasting Father",
+   "verse_label": "v. 6",
+   "text": "The third and fourth names sit oddly together for a reader who expects them kept apart, and the record does not separate them. Abinadi will spend a sermon on exactly this, arguing that the Son is called \"the very Eternal Father of heaven and of earth\" (Mosiah 15:4) by right of what he does. Nephi copied the line first; the record's fullest answer to it comes centuries later.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 15:4",
+     "start": 253,
+     "end": 264,
+     "book": "Mosiah",
+     "chapter": 15,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
+  },
+  {
+   "term": "Of the increase of government and peace there is no end",
+   "verse_label": "v. 7",
+   "text": "The King James has \"his government\" and \"there shall be no end\" (Isa. 9:7). This reading drops the possessive and puts the verb in the present, so the increase is stated as a fact rather than forecast. Gabriel will tell Mary that \"of his kingdom there shall be no end\" (Luke 1:33), which is the future form; here the endlessness is already the case.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 9:7",
+     "start": 65,
+     "end": 73,
+     "book": "Isa",
+     "chapter": 9,
+     "verse_start": 7,
+     "verse_end": 7
+    },
+    {
+     "kind": "scripture",
+     "text": "Luke 1:33",
+     "start": 270,
+     "end": 279,
+     "book": "Luke",
+     "chapter": 1,
+     "verse_start": 33,
+     "verse_end": 33
+    }
+   ]
+  },
+  {
+   "term": "The Lord sent his word unto Jacob",
+   "verse_label": "v. 8",
+   "text": "The King James sends \"a word into Jacob\" (Isa. 9:8), an announcement. This reading sends \"his word,\" which in this record is often a way of naming a person rather than a message. Nothing in the verse settles the question, and the difference is one letter, but it is the kind of reading that Nephi's own book keeps making available.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 9:8",
+     "start": 42,
+     "end": 50,
+     "book": "Isa",
+     "chapter": 9,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–2",
+   "start": 1,
+   "end": 2,
+   "title": "The light lands in the border country",
+   "text": "The chapter opens by naming the two territories that suffered first and worst, and puts the great light exactly there. The people are described twice, as walking in darkness and as dwelling in the land of the shadow of death, and the verb applied to the light is passive: it shined on them. Nothing is said about them looking for it."
+  },
+  {
+   "label": "v. 3–5",
+   "start": 3,
+   "end": 5,
+   "title": "Harvest, plunder, and a bonfire",
+   "text": "Three pictures of relief in rapid succession, and the third is the strangest: every soldier's boot and bloodied coat becomes fuel. The war does not end in a victory parade but in a fire made of equipment, which is the same instinct as swords beaten into plowshares two chapters into the block."
+  },
+  {
+   "label": "v. 6",
+   "start": 6,
+   "end": 6,
+   "title": "A child, and five names",
+   "text": "The verse gives the whole succession in one line: born, given, government on the shoulder, and then names that no ordinary king could carry. Wonderful, Counselor, Mighty God, Everlasting Father, Prince of Peace. Isaiah does not explain how a child holds these, and the record lets the tension stand for another four hundred pages."
+  },
+  {
+   "label": "v. 7",
+   "start": 7,
+   "end": 7,
+   "title": "A throne with no exit",
+   "text": "The government increases without end, the throne is David's, and the tools of the reign are judgment and justice. Then the verse names what guarantees it, and it is not the king's competence: \"the zeal of the Lord of Hosts will perform this\" (v. 7). The promise rests on God's eagerness rather than on anyone's performance.",
+   "cites": [
+    {
+     "quote": "the zeal of the Lord of Hosts will perform this",
+     "verse": 7,
+     "start": 192,
+     "end": 248,
+     "spans": [
+      {
+       "w1": 37,
+       "w2": 46,
+       "text": "the zeal of the Lord of Hosts will perform this"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 9–10",
+   "start": 9,
+   "end": 10,
+   "title": "The renovation answer",
+   "text": "Ephraim and Samaria hear the warning and respond with an upgrade. Better stone, better trees, and not one word about the God who sent the word in verse 8. It is the verse in the chapter that reads most like our own century, and the pride it names is not arrogance about status but confidence in rebuilding."
+  },
+  {
+   "label": "v. 13–17",
+   "start": 13,
+   "end": 17,
+   "title": "Cut off at both ends",
+   "text": "The people do not turn to the one striking them, so the correction escalates: head and tail removed in one day, elders and lying prophets together. Verse 16 states the mechanism plainly, leaders causing error and the led destroyed, and verse 17 withholds mercy even from the categories the law normally protects, on the ground that the pretense is universal."
+  },
+  {
+   "label": "v. 18–21",
+   "start": 18,
+   "end": 21,
+   "title": "The fire feeds itself",
+   "text": "Wickedness is described as a fire that starts in briers and climbs into forests, and then the people themselves become the fuel. The last picture is cannibalism inside the family, tribe against tribe, ending on the refrain again. The chapter that gave the world its most hopeful verse ends with Israel eating its own arm."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "Two chapters in one",
+   "text": "Verses 1 through 7 are among the most hopeful lines in scripture; verses 8 through 21 are among the bleakest. Isaiah does not reconcile them, and the refrain about the outstretched hand ties the second half together while the first half sits outside it. A reader who quotes only verse 6 has taken a third of the chapter."
+  },
+  {
+   "n": 2,
+   "title": "The variants clear away difficulties",
+   "text": "The missing \"not\" at verse 3, the dropped Midian clause at verse 4, the possessive gone at verse 7: each change removes something that complicates the sentence. The pattern has held since the block began, and it is most visible here because verse 3's negative is the hardest textual knot in the chapters Nephi copied."
+  },
+  {
+   "n": 3,
+   "title": "The refrain is the chapter's spine",
+   "text": "It closes verses 12, 17, and 21, dividing the second half into three panels, and it first appeared in the vineyard chapter. Repetition of this kind survives translation and engraving without loss, which may be part of why Nephi kept the whole block rather than summarizing it."
+  },
+  {
+   "n": 4,
+   "title": "The names are given before the reign",
+   "text": "Verse 6 hands out five titles to an infant. Whatever else the verse does, it establishes that identity precedes accomplishment in this text, and the record makes the same move constantly with the Messiah it keeps naming before he arrives."
+  },
+  {
+   "n": 5,
+   "title": "Pride is defined as competence here",
+   "text": "Verse 10 is not a boast about virtue or rank. It is a plan, and a sensible one. Isaiah treats the capacity to recover from disaster without reference to God as the pride that condemns a kingdom, which is a harder charge than the usual one and lands closer to a working people."
+  },
+  {
+   "n": 6,
+   "title": "A civil war for a colony that had one",
+   "text": "The chapter ends with Manasseh against Ephraim and both against Judah. Nephi had led half a family away from the other half within living memory. He copied the verse without applying it, and the application is not difficult."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Look for light in the border country",
+    "verse_label": "v. 1–2",
+    "text": "The first place named for relief was the region that had been damaged longest. When you are hoping for change, resist assuming it will start at the center of your life; check the part you had written off."
+   },
+   {
+    "title": "Burn the gear",
+    "verse_label": "v. 5",
+    "text": "After a conflict ends, something usually stays out on the table: the argument you rehearsed, the evidence you collected, the readiness to fight again. Name one such item and get rid of it rather than storing it."
+   },
+   {
+    "title": "Say the names slowly",
+    "verse_label": "v. 6",
+    "text": "Take the five titles one at a time over five days and ask what each would mean if it were the one you most needed this week. The verse is usually read at speed; it was built to be weighed."
+   },
+   {
+    "title": "Watch for the renovation answer",
+    "verse_label": "v. 10",
+    "text": "Notice where you have responded to a warning with an upgrade, a better system, a harder schedule, a smarter plan, and no change of direction. Competence is the version of pride this chapter names."
+   },
+   {
+    "title": "Turn toward the one who smites",
+    "verse_label": "v. 13",
+    "text": "The chapter's diagnosis is not that the people were struck but that they did not turn to the striker. When something painful is clearly correcting you, go toward the correction once this week instead of managing around it."
+   },
+   {
+    "title": "Check whether the mouth matches",
+    "verse_label": "v. 17",
+    "text": "The charge is pretending, not failing. Pick one area where your public account and your private practice have drifted apart, and close the gap on the private side rather than the public one."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What part of my life has been in shadow long enough that I have stopped expecting light there?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "Which of the five names do I actually rely on, and which do I only recite?"
+   },
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "If the zeal of the Lord performs this rather than my effort, what am I still carrying that was never mine to carry?"
+   },
+   {
+    "verse_label": "v. 10",
+    "start": 10,
+    "end": 10,
+    "text": "What is my version of building with hewn stones?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "What has been smiting me lately, and have I turned toward it or away?"
+   },
+   {
+    "verse_label": "v. 20",
+    "start": 20,
+    "end": 20,
+    "text": "Where am I consuming something that is actually part of me, my family, my ward, my own future?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "2ne19-001",
+   "scope": "BOOK",
+   "head": "2 Ne. 15:25",
+   "anchor": {
+    "verse": 12,
+    "w1": 16,
+    "w2": 31,
+    "quote": "For all this his anger is not turned away, but his hand is stretched out still"
+   },
+   "reason": "the refrain's first stroke",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 15,
+     "verse": 25,
+     "w1": 41,
+     "w2": 56,
+     "quote": "For all this his anger is not turned away, but his hand is stretched out still",
+     "span": true
+    }
+   ],
+   "mirror": "2ne15-012"
+  },
+  {
+   "id": "2ne19-002",
+   "scope": "BOM",
+   "head": "Mosiah 15:4",
+   "anchor": {
+    "verse": 6,
+    "w1": 28,
+    "w2": 39,
+    "quote": "Wonderful, Counselor, The Mighty God, The Everlasting Father, The Prince of Peace"
+   },
+   "reason": "Abinadi argues the fourth title",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 15,
+     "verse": 4,
+     "w1": 2,
+     "w2": 15,
+     "quote": "they are one God, yea, the very Eternal Father of heaven and of earth",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "2ne19-003",
+   "scope": "BOM",
+   "head": "Mosiah 3:8",
+   "anchor": {
+    "verse": 6,
+    "w1": 1,
+    "w2": 13,
+    "quote": "For unto us a child is born, unto us a son is given"
+   },
+   "reason": "an angel gives Benjamin the same titles",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 3,
+     "verse": 8,
+     "w1": 12,
+     "w2": 22,
+     "quote": "the Father of heaven and earth, the Creator of all things",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "2ne19-004",
+   "scope": "SW",
+   "head": "Isa. 9:1",
+   "anchor": {
+    "verse": 1,
+    "w1": 34,
+    "w2": 47,
+    "quote": "by the way of the Red Sea beyond Jordan in Galilee of the nations"
+   },
+   "reason": "the block, with the sea named",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 9,
+     "verse": 1,
+     "w1": 36,
+     "w2": 48,
+     "quote": "by the way of the sea, beyond Jordan, in Galilee of the nations",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne19-005",
+   "scope": "SW",
+   "head": "Matt. 4:16",
+   "anchor": {
+    "verse": 2,
+    "w1": 1,
+    "w2": 11,
+    "quote": "The people that walked in darkness have seen a great light"
+   },
+   "reason": "Matthew places the light in Galilee",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 4,
+     "verse": 16,
+     "w1": 1,
+     "w2": 9,
+     "quote": "The people which sat in darkness saw great light",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne19-006",
+   "scope": "SW",
+   "head": "Isa. 9:3",
+   "anchor": {
+    "verse": 3,
+    "w1": 1,
+    "w2": 9,
+    "quote": "Thou hast multiplied the nation, and increased the joy"
+   },
+   "reason": "a negative dropped from the verse",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 9,
+     "verse": 3,
+     "w1": 1,
+     "w2": 10,
+     "quote": "Thou hast multiplied the nation, and not increased the joy",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne19-007",
+   "scope": "SW",
+   "head": "Isa. 9:4",
+   "anchor": {
+    "verse": 4,
+    "w1": 2,
+    "w2": 9,
+    "quote": "thou hast broken the yoke of his burden"
+   },
+   "reason": "Gideon's day left out",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 9,
+     "verse": 4,
+     "w1": 16,
+     "w2": 26,
+     "quote": "the rod of his oppressor, as in the day of Midian",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne19-008",
+   "scope": "SW",
+   "head": "Luke 1:33",
+   "anchor": {
+    "verse": 7,
+    "w1": 1,
+    "w2": 11,
+    "quote": "Of the increase of government and peace there is no end"
+   },
+   "reason": "Gabriel promises the same endlessness",
+   "targets": [
+    {
+     "ref": "Luke",
+     "chapter": 1,
+     "verse": 33,
+     "w1": 13,
+     "w2": 20,
+     "quote": "of his kingdom there shall be no end",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne19-009",
+   "scope": "SW",
+   "head": "Isa. 9:15",
+   "anchor": {
+    "verse": 15,
+    "w1": 1,
+    "w2": 6,
+    "quote": "The ancient, he is the head"
+   },
+   "reason": "an honorific removed from the elder",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 9,
+     "verse": 15,
+     "w1": 1,
+     "w2": 8,
+     "quote": "The ancient and honourable, he is the head",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 34,
+   "w2": 47,
+   "quote": "by the way of the Red Sea beyond Jordan in Galilee of the nations",
+   "entries": [
+    "2ne19-004"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 1,
+   "w2": 11,
+   "quote": "The people that walked in darkness have seen a great light",
+   "entries": [
+    "2ne19-005"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 1,
+   "w2": 9,
+   "quote": "Thou hast multiplied the nation, and increased the joy",
+   "entries": [
+    "2ne19-006"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 2,
+   "w2": 9,
+   "quote": "thou hast broken the yoke of his burden",
+   "entries": [
+    "2ne19-007"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 1,
+   "w2": 13,
+   "quote": "For unto us a child is born, unto us a son is given",
+   "entries": [
+    "2ne19-003"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 28,
+   "w2": 39,
+   "quote": "Wonderful, Counselor, The Mighty God, The Everlasting Father, The Prince of Peace",
+   "entries": [
+    "2ne19-002"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 1,
+   "w2": 11,
+   "quote": "Of the increase of government and peace there is no end",
+   "entries": [
+    "2ne19-008"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 16,
+   "w2": 31,
+   "quote": "For all this his anger is not turned away, but his hand is stretched out still",
+   "entries": [
+    "2ne19-001"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 1,
+   "w2": 6,
+   "quote": "The ancient, he is the head",
+   "entries": [
+    "2ne19-009"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "ca5113b68f008c1d"
+ }
+}

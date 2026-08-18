@@ -1,0 +1,628 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Jacob",
+  "book_slug": "jacob",
+  "chapter": 3,
+  "volume_order": "03",
+  "speakers": [
+   "Jacob"
+  ],
+  "audience": "The pure in heart first, then those who are not; the people of Nephi at the temple",
+  "location": "The temple in the land of Nephi",
+  "date": "~544 BC",
+  "unit": "Jacob's temple sermon (Jacob 2–3)",
+  "principles": [
+   "Comfort before rebuke",
+   "The comparison reversed",
+   "Editorial closing"
+  ],
+  "connections": 10,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The innocent are addressed first",
+   "text": "The previous chapter said the wounded would be hurt by this sermon; this one opens by turning to them for two verses before anything else. That ordering is a pastoral decision made visible, and it is the direct payment of the debt Jacob acknowledged in Jacob 2:8–9.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 2:8–9",
+     "start": 253,
+     "end": 264,
+     "book": "Jacob",
+     "chapter": 2,
+     "verse_start": 8,
+     "verse_end": 9
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "\"More righteous than you\" has a pedigree",
+   "text": "The construction appears twice in the Hebrew Bible and both times in the mouth of the person with the standing: Judah says it of Tamar, Saul says it of David. It is a formula for conceding that the party you had power over behaved better than you did, and Jacob applies it to the group his people define themselves against."
+  },
+  {
+   "n": 3,
+   "title": "\"Whiter\" is a cleansing word in the King James Bible",
+   "text": "Its two other occurrences are the psalmist asking to be washed whiter than snow, and Lamentations describing Nazarites. Verse 8 puts the comparison at the throne of God and makes it about repented sin, which is the frame the sentence supplies for itself."
+  },
+  {
+   "n": 4,
+   "title": "The record correcting its own earlier language",
+   "text": "2 Nephi 5:21 reported a mark; Jacob 3:9 issues a commandment against reviling anyone for it and instructs the hearers to remember their own filthiness instead. One generation separates the two passages, and the second is preserved alongside the first without either being removed.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 3:9",
+     "start": 30,
+     "end": 39,
+     "book": "Jacob",
+     "chapter": 3,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "The second death, arriving early",
+   "text": "Verse 11 introduces the term into this record — Alma and Samuel will later build whole arguments on it, and Revelation is where it comes from — and Jacob spends no time defining it. He drops it at the end of a string of imperatives as the thing being escaped from, which means the phrase was already intelligible to a congregation sixty years out of Jerusalem."
+  }
+ ],
+ "words": [
+  {
+   "term": "console",
+   "verse_label": "v. 1",
+   "text": "Not to cheer but to stand alongside. The verb belongs with the legal language in the same verse — plead your cause, send down justice — so the consolation offered is the presence of an advocate rather than a change of feeling. The afflicted are promised representation."
+  },
+  {
+   "term": "revile",
+   "verse_label": "v. 9",
+   "text": "To speak abusively, and in this record it is normally what the wicked do to the prophets. Here it is what the covenant people are forbidden to do to their enemies, and it is issued as a commandment rather than as counsel — \"a commandment I give unto you, which is the word of God.\""
+  },
+  {
+   "term": "arouse",
+   "verse_label": "v. 11",
+   "text": "Unique here. The object is not the person but \"the faculties of your souls,\" which treats the inner life as a set of capacities that can be asleep while the body is awake. The verse then stacks three imperatives — arouse, shake, loose — each one a physical action applied to something that is not a body."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "he will plead your cause, and send down justice",
+   "verse_label": "v. 1",
+   "text": "Courtroom vocabulary, and the psalms are full of it. What is unusual is the recipient: the comfort offered to the injured is not that their pain will be soothed but that their case will be argued. Jacob tells the wounded party that God will act as counsel, which is a strange consolation and a durable one."
+  },
+  {
+   "term": "feast upon his love; for ye may, if your minds are firm, forever",
+   "verse_label": "v. 2",
+   "text": "The condition is placed inside the promise and the last word is left hanging past it. Firmness of mind is what makes the feasting permanent, which links back to \"look unto God with firmness of mind\" in the previous verse. The pure in heart are given a practice, not just a reassurance."
+  },
+  {
+   "term": "the Lamanites, which are not filthy like unto you",
+   "verse_label": "v. 3",
+   "text": "Stated to a congregation that had just been told it was the more favored people. The clause is put in the middle of a woe, and its function is to remove the ground the hearers are standing on before the woe finishes. Nothing in it is softened by the surrounding sentence."
+  },
+  {
+   "term": "they have not forgotten the commandment of the Lord, which was given unto our father",
+   "verse_label": "v. 5",
+   "text": "The reason for the reversal is specific and it is documentary. The Lamanites kept a commandment Lehi received; the Nephites, who have the plates and the temple and the priests, did not. Fidelity is measured against a shared inheritance, and the group with fewer advantages comes out ahead on the one point being tested."
+  },
+  {
+   "term": "their husbands love their wives, and their wives love their husbands",
+   "verse_label": "v. 7",
+   "text": "Four clauses of ordinary domestic affection, listed without qualification, about the people the audience hates. The sentence does no theology. It simply reports what those households are like, and then asks the comparative question that the report has already answered."
+  },
+  {
+   "term": "ye shall remember your own filthiness",
+   "verse_label": "v. 9",
+   "text": "The chapter uses this noun three times in three directions — theirs in verse 3, yours here, their fathers' in the same verse — and refuses to let it settle on one group. The commandment that results is an act of memory rather than of speech: silence toward the other is required, but the substance of the requirement is recollection about oneself. Jacob does not ask the people to think better of the Lamanites; he asks them to think accurately about themselves."
+  },
+  {
+   "term": "their sins be heaped upon your heads at the last day",
+   "verse_label": "v. 10",
+   "text": "The transfer of liability from the previous chapter, applied to parents. Jacob answered for his people's sins if he failed to teach; here fathers answer for their children's if the example fails. The same legal shape is used twice in two chapters, and both times the person with authority carries the risk."
+  },
+  {
+   "term": "shake yourselves that ye may awake from the slumber of death",
+   "verse_label": "v. 11",
+   "text": "Lehi told his sons to shake off the chains and awake from a deep sleep, and Jacob is quoting his father back at his father's other descendants. The image has traveled from a deathbed exhortation to a temple sermon, and Jacob uses the same verb in the same imperative mood."
+  },
+  {
+   "term": "a hundredth part of the proceedings of this people... cannot be written",
+   "verse_label": "v. 13",
+   "text": "The record's first use of a formula it will run five more times before it closes. Jacob invents the phrase as a practical complaint about metal and space, and it becomes the standard way this book tells its reader that it is a selection."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–2",
+   "start": 1,
+   "end": 2,
+   "title": "The innocent, addressed first",
+   "text": "Firmness of mind, prayer with exceeding faith, consolation, advocacy, justice on the persecutors; then lifted heads, the pleasing word, and feasting on love. Everything the previous chapter said they came for and did not get, delivered in two verses before the woe resumes."
+  },
+  {
+   "label": "v. 3–4",
+   "start": 3,
+   "end": 4,
+   "title": "The woe, and the instrument",
+   "text": "Filthy this day, land cursed, Lamanites as the scourge, the righteous led away. The threat is that the people they despise will be the means, and the promise of removal for the righteous keeps the two audiences of verse 1 and verse 3 distinct all the way through."
+  },
+  {
+   "label": "v. 5–7",
+   "start": 5,
+   "end": 7,
+   "title": "The comparison, argued",
+   "text": "Three verses of evidence: the Lamanites kept the marriage commandment given to Lehi, the Lord will therefore be merciful and they will one day be a blessed people, their households are affectionate, and their hostility traces to their fathers rather than to themselves. Then the question, which is not rhetorical so much as arithmetical."
+  },
+  {
+   "label": "v. 8–9",
+   "start": 8,
+   "end": 9,
+   "title": "The two commandments",
+   "text": "Fear that their skins will be whiter at the throne, and then the commandment: do not revile, on either ground, and remember your own filthiness and where theirs came from. The record's sharpest internal correction, and it is placed immediately after the comparison that motivates it."
+  },
+  {
+   "label": "v. 10",
+   "start": 10,
+   "end": 10,
+   "title": "Children, and inherited damage",
+   "text": "The chapter has just said Lamanite hostility comes from Lamanite fathers. This verse turns and says Nephite children are being damaged by Nephite fathers in the same way. The parallel is exact and it is the reason verse 9's argument about inheritance cannot be used as an excuse."
+  },
+  {
+   "label": "v. 11–12",
+   "start": 11,
+   "end": 12,
+   "title": "Wake up",
+   "text": "Three imperatives, a lake of fire, the second death, and then a one-verse summary of everything else Jacob said that is not recorded. The peroration is the most vertical language in the sermon and the shortest passage in it."
+  },
+  {
+   "label": "v. 13–14",
+   "start": 13,
+   "end": 14,
+   "title": "Bookkeeping",
+   "text": "The sermon stops and the scribe takes over: a hundredth part cannot be written, the histories and the wars and the reigns are on the larger set, and this metal has a name and a maker. Two verses of administration after a chapter of fire, and the switch in register is not remarked on."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The order of address is the argument",
+   "text": "Comfort first, woe second, correction third, colophon last. Jacob had spent ten verses in the previous chapter dreading what his rebuke would do to the innocent; the first thing he does the next day is pay that debt. Very few discourses in the record are structured around the preacher's own stated regret."
+  },
+  {
+   "n": 2,
+   "title": "The comparison is made on one axis and held there",
+   "text": "Jacob does not claim the Lamanites are better in general. He names the single commandment they kept and the households that resulted, and he builds the entire reversal on that. The restraint is what makes it land, and it is why the chapter never becomes sentimental about the people it is defending."
+  },
+  {
+   "n": 3,
+   "title": "The record corrects itself in public",
+   "text": "2 Nephi 5 reported a mark; Jacob 3 forbids reviling anyone over it and redirects the whole vocabulary of filthiness back onto the speaker's own people. Both passages are kept. A book that preserves its hardest sentences and its own rebuttal of them is doing something unusual with its history, and it is worth noticing that the rebuttal is a commandment rather than an opinion."
+  },
+  {
+   "n": 4,
+   "title": "Inheritance is used in both directions within two verses",
+   "text": "Lamanite hostility is traced to their fathers in verse 7 and their filthiness to their fathers in verse 9, which is offered as a reason for mercy. Then verse 10 traces Nephite children's damage to Nephite fathers, which is offered as a reason for alarm. The same causal claim yields leniency for one group and liability for the other, and the difference is which side the hearer is on."
+  },
+  {
+   "n": 5,
+   "title": "The three imperatives in verse 11 treat the soul as a body",
+   "text": "Arouse the faculties, shake yourself awake, loose yourself from pains. Jacob's father used the same physical verbs on his sons. The record's language for repentance is consistently muscular, and this verse is where the family idiom becomes public preaching."
+  },
+  {
+   "n": 6,
+   "title": "The colophon changes what the sermon is",
+   "text": "Two verses of bookkeeping at the end reframe everything above as an excerpt. Jacob says outright that he preached much more and that a hundredth part cannot be recorded. What survives is what he judged most precious, which is the rule he announced in his first chapter."
+  },
+  {
+   "n": 7,
+   "title": "The chapter names the plates after him",
+   "text": "\"These plates are called the plates of Jacob, and they were made by the hand of Nephi.\" Authorship and manufacture are credited separately, in one sentence, and the man who names the record after himself is the same one who spent two chapters saying how much he dreaded using it."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Pay the debt to the bystanders",
+    "verse_label": "v. 1–2",
+    "text": "If something you had to say landed on people who did not deserve it, go back to them first and specifically. Jacob's method is to name them, address them directly, and give them what they came for."
+   },
+   {
+    "title": "Test yourself on one axis",
+    "verse_label": "v. 5",
+    "text": "Pick a group you consider less faithful and identify one commandment they keep better than you do. The exercise is uncomfortable by design and the chapter treats it as the beginning of repentance."
+   },
+   {
+    "title": "Look at their households",
+    "verse_label": "v. 7",
+    "text": "Before making a judgment about a group, look at how they treat the people closest to them. Jacob's evidence is entirely domestic and he offers no other kind."
+   },
+   {
+    "title": "Stop reviling, then do the harder half",
+    "verse_label": "v. 9",
+    "text": "Silence is the first commandment in the verse and remembering your own filthiness is the second. Choose someone you speak dismissively about, stop, and then do the second part."
+   },
+   {
+    "title": "Trace what your children are inheriting",
+    "verse_label": "v. 10",
+    "text": "The chapter takes inherited damage seriously in both directions. Name one attitude or habit your children are learning from you that you would not want them to keep."
+   },
+   {
+    "title": "Say what you left out",
+    "verse_label": "v. 13",
+    "text": "Jacob told his readers his record was a fraction. When you summarize something for someone, say what you left out; it changes how they weigh what you kept."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "When I am wronged, would I rather be comforted or represented, and what does that tell me?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "Who do I hold in contempt, and what are they actually doing better than I am?"
+   },
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "If someone judged me by how the people in my house are treated, what would they conclude?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What do I say about others that I would have to stop saying if this verse were a commandment to me?"
+   },
+   {
+    "verse_label": "v. 10",
+    "start": 10,
+    "end": 10,
+    "text": "What am I passing down that I did not choose and have not examined?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "Which faculties of my soul are asleep right now, and what would waking them actually require?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "jac03-003",
+   "scope": "BOOK",
+   "head": "Jacob 1:19",
+   "anchor": {
+    "verse": 10,
+    "w1": 40,
+    "w2": 50,
+    "quote": "their sins be heaped upon your heads at the last day"
+   },
+   "reason": "the teacher's liability transferred to parents",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 1,
+     "verse": 19,
+     "w1": 15,
+     "w2": 24,
+     "quote": "answering the sins of the people upon our own heads",
+     "span": true
+    }
+   ],
+   "mirror": "jac01-012"
+  },
+  {
+   "id": "jac03-002",
+   "scope": "BOOK",
+   "head": "Jacob 2:8",
+   "anchor": {
+    "verse": 2,
+    "w1": 14,
+    "w2": 24,
+    "quote": "receive the pleasing word of God, and feast upon his love"
+   },
+   "reason": "the healing word finally delivered",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 2,
+     "verse": 8,
+     "w1": 19,
+     "w2": 25,
+     "quote": "the word which healeth the wounded soul",
+     "span": true
+    }
+   ],
+   "mirror": "jac02-012"
+  },
+  {
+   "id": "jac03-001",
+   "scope": "BOOK",
+   "head": "Jacob 2:10",
+   "anchor": {
+    "verse": 1,
+    "w1": 7,
+    "w2": 13,
+    "quote": "unto you that are pure in heart"
+   },
+   "reason": "the bystanders of yesterday's sermon addressed directly",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 2,
+     "verse": 10,
+     "w1": 26,
+     "w2": 33,
+     "quote": "in the presence of the pure in heart",
+     "span": true
+    }
+   ],
+   "mirror": "jac02-004"
+  },
+  {
+   "id": "jac03-010",
+   "scope": "BOM",
+   "head": "W of M 1:5",
+   "anchor": {
+    "verse": 13,
+    "w1": 2,
+    "w2": 10,
+    "quote": "a hundredth part of the proceedings of this people"
+   },
+   "reason": "the formula governing the whole abridgment",
+   "targets": [
+    {
+     "ref": "W of M",
+     "chapter": 1,
+     "verse": 5,
+     "w1": 26,
+     "w2": 37,
+     "quote": "I cannot write the hundredth part of the things of my people",
+     "span": true
+    }
+   ],
+   "mirror": "wom01-003"
+  },
+  {
+   "id": "jac03-006",
+   "scope": "BOM",
+   "head": "W of M 1:5",
+   "anchor": {
+    "verse": 13,
+    "w1": 2,
+    "w2": 10,
+    "quote": "a hundredth part of the proceedings of this people"
+   },
+   "reason": "the space formula this record keeps returning to",
+   "targets": [
+    {
+     "ref": "W of M",
+     "chapter": 1,
+     "verse": 5,
+     "w1": 26,
+     "w2": 37,
+     "quote": "I cannot write the hundredth part of the things of my people",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "jac03-005",
+   "scope": "BOM",
+   "head": "2 Ne. 1:13",
+   "anchor": {
+    "verse": 11,
+    "w1": 14,
+    "w2": 24,
+    "quote": "shake yourselves that ye may awake from the slumber of death"
+   },
+   "reason": "his father's deathbed verb, reused at the temple",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 1,
+     "verse": 13,
+     "w1": 6,
+     "w2": 10,
+     "quote": "awake from a deep sleep",
+     "span": true
+    }
+   ],
+   "mirror": "2ne01-016"
+  },
+  {
+   "id": "jac03-004",
+   "scope": "BOM",
+   "head": "2 Ne. 5:21",
+   "anchor": {
+    "verse": 9,
+    "w1": 16,
+    "w2": 27,
+    "quote": "revile no more against them because of the darkness of their skins"
+   },
+   "reason": "the record's own guard on the earlier report",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 5,
+     "verse": 21,
+     "w1": 61,
+     "w2": 68,
+     "quote": "a skin of blackness to come upon them",
+     "span": true
+    }
+   ],
+   "mirror": "2ne05-006"
+  },
+  {
+   "id": "jac03-009",
+   "scope": "SW",
+   "head": "Ps. 35:1",
+   "anchor": {
+    "verse": 1,
+    "w1": 37,
+    "w2": 45,
+    "quote": "he will plead your cause, and send down justice"
+   },
+   "reason": "the courtroom idiom the comfort is built from",
+   "targets": [
+    {
+     "ref": "Ps.",
+     "chapter": 35,
+     "verse": 1,
+     "w1": 1,
+     "w2": 11,
+     "quote": "Plead my cause, O LORD, with them that strive with me",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "jac03-008",
+   "scope": "SW",
+   "head": "Ps. 51:7",
+   "anchor": {
+    "verse": 8,
+    "w1": 15,
+    "w2": 21,
+    "quote": "their skins will be whiter than yours"
+   },
+   "reason": "the psalm's cleansing sense of the word",
+   "targets": [
+    {
+     "ref": "Ps.",
+     "chapter": 51,
+     "verse": 7,
+     "w1": 10,
+     "w2": 18,
+     "quote": "wash me, and I shall be whiter than snow",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "jac03-007",
+   "scope": "SW",
+   "head": "Gen. 38:26",
+   "anchor": {
+    "verse": 5,
+    "w1": 22,
+    "w2": 26,
+    "quote": "are more righteous than you"
+   },
+   "reason": "Judah conceding the same formula",
+   "targets": [
+    {
+     "ref": "Gen.",
+     "chapter": 38,
+     "verse": 26,
+     "w1": 7,
+     "w2": 13,
+     "quote": "She hath been more righteous than I",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 7,
+   "w2": 13,
+   "quote": "unto you that are pure in heart",
+   "entries": [
+    "jac03-001"
+   ]
+  },
+  {
+   "verse": 1,
+   "w1": 37,
+   "w2": 45,
+   "quote": "he will plead your cause, and send down justice",
+   "entries": [
+    "jac03-009"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 14,
+   "w2": 24,
+   "quote": "receive the pleasing word of God, and feast upon his love",
+   "entries": [
+    "jac03-002"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 22,
+   "w2": 26,
+   "quote": "are more righteous than you",
+   "entries": [
+    "jac03-007"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 15,
+   "w2": 21,
+   "quote": "their skins will be whiter than yours",
+   "entries": [
+    "jac03-008"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 16,
+   "w2": 27,
+   "quote": "revile no more against them because of the darkness of their skins",
+   "entries": [
+    "jac03-004"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 40,
+   "w2": 50,
+   "quote": "their sins be heaped upon your heads at the last day",
+   "entries": [
+    "jac03-003"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 14,
+   "w2": 24,
+   "quote": "shake yourselves that ye may awake from the slumber of death",
+   "entries": [
+    "jac03-005"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 2,
+   "w2": 10,
+   "quote": "a hundredth part of the proceedings of this people",
+   "entries": [
+    "jac03-010",
+    "jac03-006"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "6b871cfc76d81134"
+ }
+}

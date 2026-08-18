@@ -1,0 +1,951 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "1 Nephi",
+  "book_slug": "1nephi",
+  "chapter": 12,
+  "volume_order": "01",
+  "speakers": [
+   "Nephi"
+  ],
+  "audience": null,
+  "location": "A high mountain",
+  "date": "~600 BC (in vision, from the valley of Lemuel)",
+  "unit": "Vision cycle (1 Nephi 8–15)",
+  "principles": [
+   "Prophecy",
+   "Purity",
+   "Dwindling"
+  ],
+  "connections": 9,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The census formula of the covenant",
+   "text": "\"as many as the sand of the sea\" (v. 1) is Abraham's promise-language (Gen. 22:17), and its appearance over the promised land means the covenant took: the seed multiplied as sworn. The grief of the chapter is that the formula's first use here shows the multitudes \"gathered together to battle, one against the other\" (v. 2).",
+   "cites": [
+    {
+     "quote": "as many as the sand of the sea",
+     "verse": 1,
+     "start": 0,
+     "end": 39,
+     "spans": [
+      {
+       "w1": 46,
+       "w2": 53,
+       "text": "as many as the sand of the sea"
+      }
+     ]
+    },
+    {
+     "quote": "gathered together to battle, one against the other",
+     "verse": 2,
+     "start": 264,
+     "end": 323,
+     "spans": [
+      {
+       "w1": 10,
+       "w2": 17,
+       "text": "gathered together to battle, one against the other"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Gen. 22:17",
+     "start": 71,
+     "end": 81,
+     "book": "Gen",
+     "chapter": 22,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "A destruction that reads like fieldwork",
+   "text": "Sunk cities, burned cities, cities shaken to rubble; lightnings, tumbling mountains, broken plains. The catalog of verse 4 reads like seismic and volcanic devastation reported by a witness, and the fulfillment account (3 Ne. 8) will match it item for item."
+  },
+  {
+   "n": 3,
+   "title": "Twelve judging twelve",
+   "text": "Israel's court imagery ran on panels of judges, and the vision arranges its tribunals in ranks: the twelve apostles over the twelve tribes, the new world's twelve ministers under them (v. 9–10). The angel's structure is jurisdiction, not metaphor, and Mormon will still be teaching it at the record's end (Morm. 3:18–19).",
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 9–10)",
+     "start": 184,
+     "end": 193,
+     "verse_start": 9,
+     "verse_end": 10
+    },
+    {
+     "kind": "scripture",
+     "text": "Morm. 3:18–19",
+     "start": 306,
+     "end": 319,
+     "book": "Morm",
+     "chapter": 3,
+     "verse_start": 18,
+     "verse_end": 19
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "White garments were laundered, not new",
+   "text": "Making cloth white was fuller's work — washing, beating, bleaching. The vision's image of garments \"made white in his blood\" (v. 10) borrows that labor and assigns it to the Lamb: purity in this record is cleaning, done by someone, at cost.",
+   "cites": [
+    {
+     "quote": "made white in his blood",
+     "verse": 10,
+     "start": 99,
+     "end": 132,
+     "spans": [
+      {
+       "w1": 31,
+       "w2": 35,
+       "text": "made white in his blood"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Generations were how Israel measured mercy",
+   "text": "Blessing and consequence run \"unto the third and fourth generation\" in the law (Ex. 20:5–6), and the vision keeps that unit: three generations pass \"in righteousness\" (v. 11), and \"many of the fourth\" (v. 12); then the count runs out. The measure would have sounded familiar and finite to any hearer raised on the plates.",
+   "cites": [
+    {
+     "quote": "in righteousness",
+     "verse": 11,
+     "start": 148,
+     "end": 174,
+     "spans": [
+      {
+       "w1": 17,
+       "w2": 18,
+       "text": "in righteousness"
+      }
+     ]
+    },
+    {
+     "quote": "many of the fourth",
+     "verse": 12,
+     "start": 180,
+     "end": 208,
+     "spans": [
+      {
+       "w1": 6,
+       "w2": 9,
+       "text": "many of the fourth"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ex. 20:5–6",
+     "start": 80,
+     "end": 90,
+     "book": "Ex",
+     "chapter": 20,
+     "verse_start": 5,
+     "verse_end": 6
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Vision grief was a prophet's lot",
+   "text": "Seers before Nephi wept over what they were shown — Jeremiah over Jerusalem, Daniel sickened by his visions. This chapter puts Nephi in that company: the pattern of the promised land is shown to its first settler as a completed tragedy, and the record keeps his position — watching his own posterity lose — fully visible."
+  }
+ ],
+ "words": [
+  {
+   "term": "vapor",
+   "verse_label": "v. 5",
+   "text": "The dream's mist has a physical cousin: \"the vapor of darkness, that it passed from off the face of the earth\" (v. 5). Where the symbolic mist never lifts in chapter 8, the literal one passes, and what its passing reveals is a sorted people: \"multitudes who had not fallen\" (v. 5). Weather ends; what it exposed remains.",
+   "cites": [
+    {
+     "quote": "the vapor of darkness, that it passed from off the face of the earth",
+     "verse": 5,
+     "start": 40,
+     "end": 117,
+     "spans": [
+      {
+       "w1": 13,
+       "w2": 26,
+       "text": "the vapor of darkness, that it passed from off the face of the earth"
+      }
+     ]
+    },
+    {
+     "quote": "multitudes who had not fallen",
+     "verse": 5,
+     "start": 242,
+     "end": 280,
+     "spans": [
+      {
+       "w1": 31,
+       "w2": 35,
+       "text": "multitudes who had not fallen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "ordained",
+   "verse_label": "v. 7",
+   "text": "The Holy Ghost falls on the twelve ministers and they are \"ordained of God, and chosen\" (v. 7): office language inside a vision. Authority here is never self-assumed even in prophecy: the new world's ministry begins with a conferral, seen six centuries before it happens.",
+   "cites": [
+    {
+     "quote": "ordained of God, and chosen",
+     "verse": 7,
+     "start": 58,
+     "end": 94,
+     "spans": [
+      {
+       "w1": 19,
+       "w2": 23,
+       "text": "ordained of God, and chosen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "gulf",
+   "verse_label": "v. 18",
+   "text": "The divider between the building and the tree is named: \"a great and a terrible gulf\" (v. 18), and then defined, not as distance but as \"the word of the justice of the Eternal God\" (v. 18). The gap between pride and the tree is not geography; it is a standing judgment, and the record will reuse the image for the rest of its length.",
+   "cites": [
+    {
+     "quote": "a great and a terrible gulf",
+     "verse": 18,
+     "start": 56,
+     "end": 93,
+     "spans": [
+      {
+       "w1": 23,
+       "w2": 28,
+       "text": "a great and a terrible gulf"
+      }
+     ]
+    },
+    {
+     "quote": "the word of the justice of the Eternal God",
+     "verse": 18,
+     "start": 136,
+     "end": 188,
+     "spans": [
+      {
+       "w1": 33,
+       "w2": 41,
+       "text": "the word of the justice of the Eternal God"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "loathsome",
+   "verse_label": "v. 23",
+   "text": "The chapter's hardest word describes an endpoint, not a nature: it arrives only \"after they had dwindled in unbelief\" (v. 23), at the end of a mechanism the vision has just shown running (pride, temptations, war, forgetting). The same record insists that all are alike unto God (2 Ne. 26:33); this verse is where a people's chosen trajectory finally lands, and the record grieves it rather than gloats.",
+   "cites": [
+    {
+     "quote": "after they had dwindled in unbelief",
+     "verse": 23,
+     "start": 80,
+     "end": 125,
+     "spans": [
+      {
+       "w1": 9,
+       "w2": 14,
+       "text": "after they had dwindled in unbelief"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 26:33",
+     "start": 279,
+     "end": 290,
+     "book": "2 Ne",
+     "chapter": 26,
+     "verse_start": 33,
+     "verse_end": 33
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "as the sand of the sea",
+   "verse_label": "v. 1",
+   "text": "Abraham's covenant arithmetic, fulfilled and immediately armed: the promised multitude appears mid-battle. The phrase carries the chapter's double vision (God keeps the numbers promise even while the numbered destroy each other) and quietly separates covenant blessing from covenant behavior."
+  },
+  {
+   "term": "wars, and rumors of wars",
+   "verse_label": "v. 2",
+   "text": "The formula the Lord would later give for the last days (Matt. 24:6) appears here over the new world's whole timeline. Wars kill; rumors govern. The phrase names the dread between battles as part of the affliction, and the record's war chapters will bear it out.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Matt. 24:6",
+     "start": 57,
+     "end": 67,
+     "book": "Matt",
+     "chapter": 24,
+     "verse_start": 6,
+     "verse_end": 6
+    }
+   ]
+  },
+  {
+   "term": "he came down and showed himself unto them",
+   "verse_label": "v. 6",
+   "text": "The vision's summary of the volume's summit: after the darkness, the descent. The Lamb's new-world visit is foreseen here in one clause, and the record spends its central book (3 Ne. 11–28) unfolding what this sentence holds."
+  },
+  {
+   "term": "made white in the blood of the Lamb",
+   "verse_label": "v. 11",
+   "text": "The paradox formula — whitening by blood — shared exactly with John's Revelation (Rev. 7:14) and reused down the record (Alma 13:11). Purity in every canon that uses the image is a transaction: someone's garments, someone else's blood, and faith named as the point of exchange.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Rev. 7:14",
+     "start": 82,
+     "end": 91,
+     "book": "Rev",
+     "chapter": 7,
+     "verse_start": 14,
+     "verse_end": 14
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 13:11",
+     "start": 121,
+     "end": 131,
+     "book": "Alma",
+     "chapter": 13,
+     "verse_start": 11,
+     "verse_end": 11
+    }
+   ]
+  },
+  {
+   "term": "the depths thereof are the depths of hell",
+   "verse_label": "v. 16",
+   "text": "The river's key, withheld until now; and chapter 15 will add the unsettling note that Lehi never noticed the water's filthiness (1 Ne. 15:27). Some hazards are visible only from the mountain: the dream's happiest viewer stood beside depths he did not see.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 15:27",
+     "start": 129,
+     "end": 140,
+     "book": "1 Ne",
+     "chapter": 15,
+     "verse_start": 27,
+     "verse_end": 27
+    }
+   ]
+  },
+  {
+   "term": "dwindle in unbelief",
+   "verse_label": "v. 22",
+   "text": "The word from the Laban crisis (1 Ne. 4:13) returns as watched future: the angel shows the very dwindling that once justified a sword. From here the phrase becomes the record's standing diagnosis — nations in this book rarely fall; they fade, by increments of forgetting.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 4:13",
+     "start": 32,
+     "end": 42,
+     "book": "1 Ne",
+     "chapter": 4,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–3",
+   "start": 1,
+   "end": 3,
+   "title": "The promise, crowded and armed",
+   "text": "Nephi's first sight of his seed is covenant fulfillment, multitudes and cities past counting, already at war. The vision refuses to separate the blessing from the tragedy; both are shown in the same look, and the record's whole national history is delivered as a silhouette before it begins."
+  },
+  {
+   "label": "v. 4–5",
+   "start": 4,
+   "end": 5,
+   "title": "The land's dark hour",
+   "text": "A catalog of ruin (rent rocks, sunk cities, fire) under \"a mist of darkness on the face of the land of promise\" (v. 4). Then the vapor lifts, and the survivors stand in the light. The sequence plants the record's deepest rhythm: judgment, then visitation; darkness as the hour before the descent.",
+   "cites": [
+    {
+     "quote": "a mist of darkness on the face of the land of promise",
+     "verse": 4,
+     "start": 56,
+     "end": 118,
+     "spans": [
+      {
+       "w1": 9,
+       "w2": 20,
+       "text": "a mist of darkness on the face of the land of promise"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 6–10",
+   "start": 6,
+   "end": 10,
+   "title": "The descent and the new Twelve",
+   "text": "The Lamb \"came down and showed himself\" (v. 6); ministers are chosen and ordained; jurisdiction is set (the apostles judge the tribes, the ministers judge the seed); and the standard of the righteous is stated in laundry terms — garments \"made white in his blood\" (v. 10). The visit's whole order arrives in five verses, six hundred years early.",
+   "cites": [
+    {
+     "quote": "came down and showed himself",
+     "verse": 6,
+     "start": 9,
+     "end": 46,
+     "spans": [
+      {
+       "w1": 18,
+       "w2": 22,
+       "text": "came down and showed himself"
+      }
+     ]
+    },
+    {
+     "quote": "made white in his blood",
+     "verse": 10,
+     "start": 238,
+     "end": 271,
+     "spans": [
+      {
+       "w1": 31,
+       "w2": 35,
+       "text": "made white in his blood"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 11–12",
+   "start": 11,
+   "end": 12,
+   "title": "The count of the peace",
+   "text": "Three generations in righteousness, and many of a fourth. The vision measures the golden age before it happens and hands the record its saddest number: even the era bought by the Lamb's own visit runs out when the generations stop choosing it."
+  },
+  {
+   "label": "v. 13–15",
+   "start": 13,
+   "end": 15,
+   "title": "Seed against seed",
+   "text": "The angel repeats the formula of verse 1, behold thy seed and the seed of thy brethren, but now the multitudes face each other. The family quarrel of the valley has become the geography of two nations at war, exactly as the dream's split at the tree (1 Ne. 8:17–18) predicted in miniature.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 8:17–18",
+     "start": 251,
+     "end": 264,
+     "book": "1 Ne",
+     "chapter": 8,
+     "verse_start": 17,
+     "verse_end": 18
+    }
+   ]
+  },
+  {
+   "label": "v. 16–18",
+   "start": 16,
+   "end": 18,
+   "title": "The dream, keyed darker",
+   "text": "Filthy water whose depths are hell, mists that \"blindeth the eyes, and hardeneth the hearts\" (v. 17), a building of \"vain imaginations\" (v. 18), and a gulf made of justice. Chapter 11 keyed the dream's comforts; this chapter keys its hazards, and only with both sets is Lehi's map complete.",
+   "cites": [
+    {
+     "quote": "blindeth the eyes, and hardeneth the hearts",
+     "verse": 17,
+     "start": 47,
+     "end": 100,
+     "spans": [
+      {
+       "w1": 13,
+       "w2": 19,
+       "text": "blindeth the eyes, and hardeneth the hearts"
+      }
+     ]
+    },
+    {
+     "quote": "vain imaginations",
+     "verse": 18,
+     "start": 116,
+     "end": 143,
+     "spans": [
+      {
+       "w1": 12,
+       "w2": 13,
+       "text": "vain imaginations"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 19–23",
+   "start": 19,
+   "end": 23,
+   "title": "The mechanism of the fall",
+   "text": "The overpowering is given causes, \"the pride of my seed, and the temptations of the devil\" (v. 19), and the aftermath a verb: dwindle. The chapter ends dark, but not fatalistic: everything shown runs on choices the record has already taught its readers to name, which is precisely why it was shown.",
+   "cites": [
+    {
+     "quote": "the pride of my seed, and the temptations of the devil",
+     "verse": 19,
+     "start": 34,
+     "end": 98,
+     "spans": [
+      {
+       "w1": 33,
+       "w2": 43,
+       "text": "the pride of my seed, and the temptations of the devil"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "Prophecy as family grief",
+   "text": "The vision turns from the Messiah to Nephi's own posterity, and the seer watches his line lose. The record never pretends otherwise afterward: its first author knew the ending before the beginning, and every hopeful sermon he writes later is written against this remembered silhouette."
+  },
+  {
+   "n": 2,
+   "title": "Judgment before visitation",
+   "text": "The chapter fixes the order the record's central event will keep: destruction, darkness, the lifting, then the descent (3 Ne. 8–11 runs the same sequence). The vision teaches readers how to hold the record's darkest chapters — as the hour before the showing, not the verdict."
+  },
+  {
+   "n": 3,
+   "title": "The dream's map, completed",
+   "text": "Tree, rod, and building were keyed in chapter 11; water, mist, gulf, and building's contents arrive here. Split across two chapters, the interpretation makes a quiet point: the dream's comforts and its hazards are learned separately, and a reader who stops at the loveliness of the tree has half a map."
+  },
+  {
+   "n": 4,
+   "title": "Causes all the way down",
+   "text": "Pride and temptation, not fate, drive the fall; dwindling, not conquest, ends the peace. Even at its most deterministic-looking, the vision is a chain of named choices — which is what makes showing it an act of mercy rather than doom."
+  },
+  {
+   "n": 5,
+   "title": "Purity is laundered, not innate",
+   "text": "The chapter's standard for the righteous, garments made white in the Lamb's blood, because of faith, is the record's whole doctrine of sanctification in one image, and it arrives attached to real people in a real timeline: the whitened are a community with dates."
+  },
+  {
+   "n": 6,
+   "title": "The vision's hinge panel",
+   "text": "Between the Messiah chapter (11) and the Gentile chapters (13–14), this panel carries the record's local story: the seed, the visit, the peace, the fall. The unit's structure is widening circles — one Lamb, then one family's nations, then all nations — and this chapter is the middle ring."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Audit the three mist-verbs",
+    "verse_label": "v. 17",
+    "text": "The keyed temptations work in a sequence: blind the eyes, harden the heart, lead away. Run the audit on yourself in that order — what am I currently not seeing, where has repetition made me unfeeling, and where am I drifting on a broad road I never chose out loud?"
+   },
+   {
+    "title": "Treat purity as laundry, not performance",
+    "verse_label": "v. 10–11",
+    "text": "The garments are made white; nobody in the vision whitens their own. Take the image to the sacrament: bring the stained garment, name the faith, and let the exchange be his work, then live the week like someone wearing clean clothes he did not wash."
+   },
+   {
+    "title": "Count your generations",
+    "verse_label": "v. 11–12",
+    "text": "The vision's peace lasted as long as transmission did. Ask the two ledger questions: what of faith actually reached me from three generations back, and what am I doing, concretely, that could still be alive in my great-grandchildren?"
+   },
+   {
+    "title": "Name the gulf without flinching",
+    "verse_label": "v. 18",
+    "text": "The divider between pride and the tree is the word of justice — real, fixed, and not yours to preach away. Where you have softened a true standard to keep peace, restate it kindly and plainly once, and let the kindness be in the tone rather than the trimming."
+   },
+   {
+    "title": "Refuse the dwindle",
+    "verse_label": "v. 22–23",
+    "text": "Nations in this record fade by forgetting, not by ambush. Choose one remembering practice (written answers to prayer, a weekly recital of a family deliverance, scripture at a fixed hour) and hold it precisely because nothing feels wrong yet."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Which rumors of wars — news, feeds, forecasts — currently govern my peace more than my covenants do?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "When the vapor around my life lifts, as it periodically does, what has the last darkness exposed about where I stand?"
+   },
+   {
+    "verse_label": "v. 10",
+    "start": 10,
+    "end": 10,
+    "text": "Do I actually treat purity as the Lamb's laundry, or as a reputation I maintain?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "What reached me from the third and fourth generation back, and can I name what I am transmitting forward?"
+   },
+   {
+    "verse_label": "v. 17",
+    "start": 17,
+    "end": 17,
+    "text": "Of blinded eyes, hardened heart, and broad roads, which is my live danger this season?"
+   },
+   {
+    "verse_label": "v. 22",
+    "start": 22,
+    "end": 22,
+    "text": "Where in my discipleship am I dwindling, not deciding against anything, just remembering less?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "1ne12-001",
+   "scope": "BOOK",
+   "head": "1 Ne. 8:23",
+   "anchor": {
+    "verse": 17,
+    "w1": 2,
+    "w2": 11,
+    "quote": "the mists of darkness are the temptations of the devil"
+   },
+   "reason": "the dream's mist receives its key",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 8,
+     "verse": 23,
+     "w1": 15,
+     "w2": 20,
+     "quote": "an exceedingly great mist of darkness",
+     "span": true
+    }
+   ],
+   "mirror": "1ne08-004"
+  },
+  {
+   "id": "1ne12-002",
+   "scope": "BOOK",
+   "head": "1 Ne. 8:26",
+   "anchor": {
+    "verse": 18,
+    "w1": 2,
+    "w2": 10,
+    "quote": "the large and spacious building, which thy father saw"
+   },
+   "reason": "the building keyed a second time",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 8,
+     "verse": 26,
+     "w1": 20,
+     "w2": 24,
+     "quote": "a great and spacious building",
+     "span": true
+    }
+   ],
+   "mirror": "1ne08-013"
+  },
+  {
+   "id": "1ne12-003",
+   "scope": "BOOK",
+   "head": "1 Ne. 4:13",
+   "anchor": {
+    "verse": 22,
+    "w1": 8,
+    "w2": 12,
+    "quote": "these shall dwindle in unbelief"
+   },
+   "reason": "the Laban rationale watched happening",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 4,
+     "verse": 13,
+     "w1": 26,
+     "w2": 30,
+     "quote": "dwindle and perish in unbelief",
+     "span": true
+    }
+   ],
+   "mirror": "1ne04-012"
+  },
+  {
+   "id": "1ne12-004",
+   "scope": "BOM",
+   "head": "3 Ne. 11:8",
+   "anchor": {
+    "verse": 6,
+    "w1": 8,
+    "w2": 15,
+    "quote": "the Lamb of God descending out of heaven"
+   },
+   "reason": "the descent, seen and later lived",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 11,
+     "verse": 8,
+     "w1": 19,
+     "w2": 26,
+     "quote": "they saw a Man descending out of heaven",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "1ne12-005",
+   "scope": "BOM",
+   "head": "3 Ne. 8:14",
+   "anchor": {
+    "verse": 4,
+    "w1": 69,
+    "w2": 76,
+    "quote": "I saw many cities that they were sunk"
+   },
+   "reason": "the catalog fulfilled item for item",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 8,
+     "verse": 14,
+     "w1": 2,
+     "w2": 12,
+     "quote": "many great and notable cities were sunk, and many were burned",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "1ne12-006",
+   "scope": "SW",
+   "head": "Gen. 22:17",
+   "anchor": {
+    "verse": 1,
+    "w1": 46,
+    "w2": 53,
+    "quote": "as many as the sand of the sea"
+   },
+   "reason": "Abraham's count, kept in the new world",
+   "targets": [
+    {
+     "ref": "Gen.",
+     "chapter": 22,
+     "verse": 17,
+     "w1": 23,
+     "w2": 31,
+     "quote": "as the sand which is upon the sea shore",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "1ne12-007",
+   "scope": "SW",
+   "head": "Matt. 24:6",
+   "anchor": {
+    "verse": 2,
+    "w1": 19,
+    "w2": 25,
+    "quote": "I beheld wars, and rumors of wars"
+   },
+   "reason": "the last-days formula, hemisphere early",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 24,
+     "verse": 6,
+     "w1": 2,
+     "w2": 10,
+     "quote": "ye shall hear of wars and rumours of wars",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "1ne12-008",
+   "scope": "SW",
+   "head": "Matt. 19:28; Morm. 3:19",
+   "anchor": {
+    "verse": 9,
+    "w1": 15,
+    "w2": 25,
+    "quote": "they are they who shall judge the twelve tribes of Israel"
+   },
+   "reason": "the judging ranks, both canons agree",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 19,
+     "verse": 28,
+     "w1": 40,
+     "w2": 45,
+     "quote": "judging the twelve tribes of Israel",
+     "span": true
+    },
+    {
+     "ref": "Morm.",
+     "chapter": 3,
+     "verse": 19,
+     "w1": 26,
+     "w2": 41,
+     "quote": "they shall be judged by the other twelve whom Jesus chose in the land of Jerusalem",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "1ne12-009",
+   "scope": "SW",
+   "head": "Rev. 7:14; Alma 13:11",
+   "anchor": {
+    "verse": 10,
+    "w1": 28,
+    "w2": 35,
+    "quote": "their garments are made white in his blood"
+   },
+   "reason": "the whitening paradox, shared exactly",
+   "targets": [
+    {
+     "ref": "Rev.",
+     "chapter": 7,
+     "verse": 14,
+     "w1": 29,
+     "w2": 37,
+     "quote": "made them white in the blood of the Lamb",
+     "span": true
+    },
+    {
+     "ref": "Alma",
+     "chapter": 13,
+     "verse": 11,
+     "w1": 13,
+     "w2": 23,
+     "quote": "their garments were washed white through the blood of the Lamb",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 46,
+   "w2": 53,
+   "quote": "as many as the sand of the sea",
+   "entries": [
+    "1ne12-006"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 19,
+   "w2": 25,
+   "quote": "I beheld wars, and rumors of wars",
+   "entries": [
+    "1ne12-007"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 69,
+   "w2": 76,
+   "quote": "I saw many cities that they were sunk",
+   "entries": [
+    "1ne12-005"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 8,
+   "w2": 15,
+   "quote": "the Lamb of God descending out of heaven",
+   "entries": [
+    "1ne12-004"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 15,
+   "w2": 25,
+   "quote": "they are they who shall judge the twelve tribes of Israel",
+   "entries": [
+    "1ne12-008"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 28,
+   "w2": 35,
+   "quote": "their garments are made white in his blood",
+   "entries": [
+    "1ne12-009"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 2,
+   "w2": 11,
+   "quote": "the mists of darkness are the temptations of the devil",
+   "entries": [
+    "1ne12-001"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 2,
+   "w2": 10,
+   "quote": "the large and spacious building, which thy father saw",
+   "entries": [
+    "1ne12-002"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 8,
+   "w2": 12,
+   "quote": "these shall dwindle in unbelief",
+   "entries": [
+    "1ne12-003"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-17",
+  "source_sha256": "3ccd06391237a0d5"
+ }
+}

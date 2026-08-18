@@ -109,7 +109,9 @@ export default function Reader({ volId, book, chapter, targetVerse, flipDir = 0,
 
         <div ref={versesRef} style={{ maxWidth: 620, margin: "0 auto" }}>
           {chapter.verses.map((v, vi) => (
-            <p key={v.verse} id={`verse-${v.verse}`} className={`serif${targetVerse === v.verse ? " vhl" : ""}`}
+            /* A reference may name a run of verses — "vv. 4–6" — so what is
+               marked is a list, and a single verse is a list of one. */
+            <p key={v.verse} id={`verse-${v.verse}`} className={`serif${targetVerse?.includes(v.verse) ? " vhl" : ""}`}
               style={{ position: "relative", display: "grid", gridTemplateColumns: "34px 1fr", gap: 6, margin: "0 0 14px", fontSize: 17.5, lineHeight: 1.8, fontWeight: 400 }}>
               {/* In the gutter, outside the verse-number column: the pages that
                   begin their treatment of this chapter here. A page stands at

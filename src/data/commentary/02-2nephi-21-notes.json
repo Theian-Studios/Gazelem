@@ -1,0 +1,665 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "2 Nephi",
+  "book_slug": "2nephi",
+  "chapter": 21,
+  "volume_order": "02",
+  "speakers": [
+   "Nephi (quoting Isaiah)"
+  ],
+  "audience": null,
+  "location": "The land of Nephi",
+  "date": "~559–545 BC (engraved); Isaiah's oracle ~720–700 BC",
+  "unit": "Isaiah block preface (2 Nephi 11–24)",
+  "principles": [
+   "The righteous king",
+   "Gathering",
+   "Restored peace"
+  ],
+  "connections": 11,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "A stump, and what grows from it",
+   "text": "The previous chapter ended with a forest cut down and Lebanon falling. This one opens with a shoot coming out of a stem. Read in sequence, as Nephi copied them, the felling and the sprouting are one movement: what looks like the end of the timber is where the next king comes from."
+  },
+  {
+   "n": 2,
+   "title": "Jesse rather than David",
+   "text": "The line is traced to David's father, the farmer from Bethlehem, not to the throne. Naming Jesse skips the whole royal history and starts the family over at its agricultural beginning, which suits a promise about a shoot rather than a succession."
+  },
+  {
+   "n": 3,
+   "title": "The tongue of the sea, and seven streams",
+   "text": "Verse 15 reverses two famous obstacles at once: a sea dried and a river split into channels shallow enough to walk. The tongue is a bay or inlet, and the seven streams turn one uncrossable river into a series of fords. Both pictures are engineering rather than miracle in their detail, which is how the chapter keeps its last promise concrete."
+  },
+  {
+   "n": 4,
+   "title": "Predator and prey, with children present",
+   "text": "Verses 6 through 8 put a nursing infant at a snake hole and a toddler's hand at a viper's den, and nothing happens. The pictures are not sentimental about animals; they are about the removal of danger from the most defenseless people in the household."
+  },
+  {
+   "n": 5,
+   "title": "Ephraim and Judah",
+   "text": "The two names in verse 13 are the two kingdoms that split after Solomon and spent three centuries at each other's throats, the same pair the previous chapters had eating one another. By Isaiah's day the northern kingdom was being deported. The promise that the envy departs is addressed to a quarrel that had already outlived one of its parties."
+  },
+  {
+   "n": 6,
+   "title": "Almost no variants",
+   "text": "Of the chapters Nephi copied, this is the one that stands closest to the King James text: the differences run to spelling and word order and nothing more. Whatever produces variation elsewhere in the block is simply absent here, which is worth registering before reading anything into readings that do differ."
+  }
+ ],
+ "words": [
+  {
+   "term": "reins",
+   "verse_label": "v. 5",
+   "text": "The kidneys, and by extension the seat of a person's inward thought and feeling. Righteousness girds the loins and faithfulness girds the reins, so the two belts cover the visible strength and the hidden interior. The verse dresses a king in what he is rather than in what he owns."
+  },
+  {
+   "term": "fatling",
+   "verse_label": "v. 6",
+   "text": "A young animal being fattened for slaughter, the most helpless creature on a farm and the natural first casualty. It is placed in a list with a calf and a young lion, walking together. The word is chosen because it names something raised to be eaten, and here it is not eaten."
+  },
+  {
+   "term": "cockatrice",
+   "verse_label": "v. 8",
+   "text": "An old English name for a deadly serpent, sometimes rendered viper or adder. Its den is the last place a parent would let a weaned child put a hand. The archaic term is kept in the record, and the picture depends on the reader knowing only one thing about the animal, which is that it kills."
+  },
+  {
+   "term": "shod",
+   "verse_label": "v. 15",
+   "text": "Wearing shoes. Men go over dry shod, which is to say they cross without wetting their footwear. The detail is deliberately small after a verse about drying a sea and splitting a river seven ways, and it is the same detail the exodus account uses to make an enormous event ordinary underfoot."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "a rod out of the stem of Jesse",
+   "verse_label": "v. 1",
+   "text": "A stem is a stump, the part left in the ground after a tree is cut, so the promise is growth from what the axe left rather than from a healthy tree. Three growth words are then used of the same person, rod, branch, and root, and they do not sit in a natural order: a rod comes out of a stem, a branch out of roots, and by verse 10 the person is the root himself. The record leaves the sequence unexplained, and later scripture asks after these figures directly rather than assuming their meaning is settled."
+  },
+  {
+   "term": "the spirit of wisdom and understanding",
+   "verse_label": "v. 2",
+   "text": "The equipment list of the promised ruler, and every item is a gift rather than a trait. Wisdom, understanding, counsel, might, knowledge, fear of the Lord: six qualities under one Spirit, and the last of them is reverence rather than competence. A king so equipped is described before any act of his is described."
+  },
+  {
+   "term": "he shall not judge after the sight of his eyes",
+   "verse_label": "v. 3",
+   "text": "The negative comes before the positive, and it rules out the two faculties every human judge depends on. Not what he sees, not what he hears. What replaces them is righteousness and equity in the next verse, and the poor and the meek are named as the beneficiaries. The verse describes a court that cannot be manipulated by appearance or testimony."
+  },
+  {
+   "term": "smite the earth with the rod of his mouth",
+   "verse_label": "v. 4",
+   "text": "The same king who will not judge by hearing strikes with speech. John sees one from whose mouth \"goeth a sharp sword\" (Rev. 19:15), and the record has already had Jacob's servant promise to smite an adversary with the strength of his mouth. Whatever else this ruler carries, the weapon named is a spoken one.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Rev. 19:15",
+     "start": 119,
+     "end": 129,
+     "book": "Rev",
+     "chapter": 19,
+     "verse_start": 15,
+     "verse_end": 15
+    }
+   ]
+  },
+  {
+   "term": "and a little child shall lead them",
+   "verse_label": "v. 6",
+   "text": "The clause arrives after a list of animals that could kill a child. Leadership in the restored order is given to the smallest party present, which inverts every arrangement the block has described so far, where the great man refused to bow and the child behaved proudly against the elder."
+  },
+  {
+   "term": "the earth shall be full of the knowledge of the Lord",
+   "verse_label": "v. 9",
+   "text": "Habakkuk promises that \"the earth shall be filled with the knowledge of the glory of the LORD\" (Hab. 2:14) in nearly identical words, and both use the same comparison: as the waters cover the sea. The image is of saturation rather than distribution. There is no part of a sea that the water has not reached.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Hab. 2:14",
+     "start": 96,
+     "end": 105,
+     "book": "Hab",
+     "chapter": 2,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
+  },
+  {
+   "term": "set his hand again the second time",
+   "verse_label": "v. 11",
+   "text": "The phrase becomes one of the record's working terms. Jacob had already used it in his sermon, saying the Messiah \"will set himself again the second time to recover them\" (2 Ne. 6:14); Nephi will use it again in his own commentary, and Jacob once more in his book. A gathering that has a first time and a second is the frame the whole volume uses for its own appearance.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 6:14",
+     "start": 172,
+     "end": 182,
+     "book": "2 Ne",
+     "chapter": 6,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
+  },
+  {
+   "term": "an ensign for the nations",
+   "verse_label": "v. 12",
+   "text": "The signal pole that summoned an invading army six chapters ago is raised here to gather the scattered. Same object, opposite errand. The record's writers keep returning to this image for the coming forth of their own book, and the two uses in the block are what make the reversal visible."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–2",
+   "start": 1,
+   "end": 2,
+   "title": "Growth out of a cut trunk",
+   "text": "The chapter's first word follows a felled forest, and what comes up is small: a rod, a branch. Then the Spirit rests on him with six named gifts. Nothing here describes an army, an inheritance, or a coronation. The qualifications are entirely interior, and they are given rather than achieved."
+  },
+  {
+   "label": "v. 3–5",
+   "start": 3,
+   "end": 5,
+   "title": "Who the verdicts are for",
+   "text": "Two beneficiaries are named and both are people without leverage: the poor and the meek of the earth. Everything else in the passage serves that. The setting aside of sight and hearing, the striking by breath and speech, and the two belts of righteousness and faithfulness all describe a judge whose verdicts cannot be bought by the parties who usually buy them."
+  },
+  {
+   "label": "v. 6–8",
+   "start": 6,
+   "end": 8,
+   "title": "The animals, and the children",
+   "text": "Six pairs of natural enemies lie down together, and two human infants are placed at the two most lethal spots a parent could imagine. The passage works by accumulation rather than by argument. By the time the weaned child reaches into the den, the reader has stopped expecting anything to happen."
+  },
+  {
+   "label": "v. 9",
+   "start": 9,
+   "end": 9,
+   "title": "The reason, stated once",
+   "text": "All of it rests on a single clause: the earth will be full of the knowledge of the Lord. The peace of the previous verses is not enforced by a stronger predator. It follows from everything knowing something, and the comparison to water covering the sea allows no gaps."
+  },
+  {
+   "label": "v. 10–12",
+   "start": 10,
+   "end": 12,
+   "title": "The ensign, raised twice",
+   "text": "A root of Jesse stands as a signal, the Gentiles come to it, and then God's hand goes out a second time to gather from eight named places. The two verses put a person and a program side by side: the standard is someone, and the gathering is worldwide."
+  },
+  {
+   "label": "v. 13–14",
+   "start": 13,
+   "end": 14,
+   "title": "The old quarrel ends",
+   "text": "Ephraim stops envying Judah and Judah stops vexing Ephraim, which is the civil war that ended the previous chapters' world. Nothing is said about who was right. The restoration described here does not adjudicate the grievance; it removes the appetite for it."
+  },
+  {
+   "label": "v. 15–16",
+   "start": 15,
+   "end": 16,
+   "title": "A highway home",
+   "text": "The last two verses take the exodus and make it a road: a sea dried, a river split seven ways, men crossing without wetting their shoes, and a highway for the remnant. The pattern the block keeps reaching for, deliverance the way it happened before, ends the chapter as a piece of infrastructure."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The chapter that answers the felling",
+   "text": "Chapter 20 ended with iron in the thickets and Lebanon falling; chapter 21 begins with a shoot from a stump. Nephi copied them adjacent, and the join is the block's clearest argument that its judgment chapters are not the last word. What survives the axe is small and alive."
+  },
+  {
+   "n": 2,
+   "title": "Two orders described, and one cause",
+   "text": "Verses 1 through 5 give a ruler; verses 6 through 9 give a world; and the second is explained by knowledge rather than by the ruler's enforcement. The chapter is careful about this. Peace follows knowing, and the king is described as one who judges rightly rather than as one who suppresses."
+  },
+  {
+   "n": 3,
+   "title": "The gathering language the record will live on",
+   "text": "Ensign, root of Jesse, outcasts of Israel, the second time, the islands of the sea. Nephi's own commentary, Jacob's book, and the risen Lord's teaching in this volume all draw on this chapter. Of the thirteen chapters in the block, this is the one whose vocabulary the record uses most as its own."
+  },
+  {
+   "n": 4,
+   "title": "The islands arrive in the list",
+   "text": "Verse 11 gathers from eight places and ends with the islands of the sea. Jacob had told this colony two chapters into his sermon that they were on one. A reader in that congregation would hear their own address read out in a list of exile destinations, which is likelier than not why this chapter is here."
+  },
+  {
+   "n": 5,
+   "title": "It quotes almost exactly",
+   "text": "Nothing substantive separates this chapter from the King James text. That fact is worth stating plainly, because the block's variants elsewhere invite a reader to expect them everywhere, and the argument that the differences carry meaning depends on their not being uniform."
+  },
+  {
+   "n": 6,
+   "title": "A child leads, and children are safe",
+   "text": "The chapter uses three children: one leading the animals, one playing at the asp's hole, one reaching into the den. In a block whose judgment chapters put children in charge as a curse and left orphans without mercy, the reversal is exact and it is made with the same figures."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Look at your stump",
+    "verse_label": "v. 1",
+    "text": "Identify the thing in your life that was cut down and appears finished: a plan, a calling, a relationship, a version of yourself. The chapter's promise is not that the tree comes back but that something new grows from what is left. Watch that spot deliberately for a month."
+   },
+   {
+    "title": "Judge without eyes and ears once",
+    "verse_label": "v. 3",
+    "text": "Take a person you have assessed on appearance or hearsay and deliberately set both aside. Ask what righteousness and equity would conclude if the only evidence allowed were what you actually know."
+   },
+   {
+    "title": "Put the belt on",
+    "verse_label": "v. 5",
+    "text": "The king's clothing is righteousness and faithfulness, one visible and one inward. Choose the inward one this week: the commitment nobody would notice you keeping, and keep it as though it were a garment you put on each morning."
+   },
+   {
+    "title": "Let the child lead something",
+    "verse_label": "v. 6",
+    "text": "Find the situation where you are the most powerful party and hand the direction of it to the least powerful person present, for a decision that actually matters. The verse makes this the shape of a restored world, not a nicety."
+   },
+   {
+    "title": "Fill the gap with knowledge",
+    "verse_label": "v. 9",
+    "text": "Where you find yourself managing a conflict by force of will or by keeping people apart, ask what the parties do not know about each other or about God. The chapter locates peace downstream of knowing, and it allows no gaps."
+   },
+   {
+    "title": "Raise one ensign",
+    "verse_label": "v. 12",
+    "text": "An ensign is a visible standard others can find. Do one thing this week that makes your position findable to someone who is looking, and make it plain rather than clever."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What have I written off as cut down that God may be planning to grow something out of?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Which of the six gifts in this verse would I most like to claim, and which have I never once asked for?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "Where do my judgments run on sight and hearing, and what would change if both were inadmissible?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "Who is the fatling in my life, the one most likely to be consumed, and what am I doing about it?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What do I not know about God that is currently costing me peace?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "What old rivalry am I still feeding that this chapter says simply ends?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "2ne21-011",
+   "scope": "BOOK",
+   "head": "2 Ne. 30:12",
+   "anchor": {
+    "verse": 6,
+    "w1": 1,
+    "w2": 8,
+    "quote": "The wolf also shall dwell with the lamb"
+   },
+   "reason": "the peaceable kingdom re-quoted",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 30,
+     "verse": 12,
+     "w1": 2,
+     "w2": 9,
+     "quote": "then shall the wolf dwell with the lamb",
+     "span": true
+    }
+   ],
+   "mirror": "2ne30-003"
+  },
+  {
+   "id": "2ne21-010",
+   "scope": "BOOK",
+   "head": "2 Ne. 30:9",
+   "anchor": {
+    "verse": 4,
+    "w1": 1,
+    "w2": 8,
+    "quote": "But with righteousness shall he judge the poor"
+   },
+   "reason": "the same words applied to the restoration",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 30,
+     "verse": 9,
+     "w1": 2,
+     "w2": 10,
+     "quote": "with righteousness shall the Lord God judge the poor",
+     "span": true
+    }
+   ],
+   "mirror": "2ne30-002"
+  },
+  {
+   "id": "2ne21-001",
+   "scope": "BOOK",
+   "head": "2 Ne. 14:2",
+   "anchor": {
+    "verse": 1,
+    "w1": 15,
+    "w2": 22,
+    "quote": "a branch shall grow out of his roots"
+   },
+   "reason": "the growth figure used earlier",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 14,
+     "verse": 2,
+     "w1": 4,
+     "w2": 13,
+     "quote": "shall the branch of the Lord be beautiful and glorious",
+     "span": true
+    }
+   ],
+   "mirror": "2ne14-003"
+  },
+  {
+   "id": "2ne21-002",
+   "scope": "BOOK",
+   "head": "2 Ne. 15:26",
+   "anchor": {
+    "verse": 12,
+    "w1": 2,
+    "w2": 10,
+    "quote": "he shall set up an ensign for the nations"
+   },
+   "reason": "the same signal, opposite errand",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 15,
+     "verse": 26,
+     "w1": 2,
+     "w2": 12,
+     "quote": "he will lift up an ensign to the nations from far",
+     "span": true
+    }
+   ],
+   "mirror": "2ne15-003"
+  },
+  {
+   "id": "2ne21-003",
+   "scope": "BOOK",
+   "head": "2 Ne. 6:14",
+   "anchor": {
+    "verse": 11,
+    "w1": 11,
+    "w2": 27,
+    "quote": "the Lord shall set his hand again the second time to recover the remnant of his people"
+   },
+   "reason": "Jacob had already preached the phrase",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 6,
+     "verse": 14,
+     "w1": 10,
+     "w2": 21,
+     "quote": "the Messiah will set himself again the second time to recover them",
+     "span": true
+    }
+   ],
+   "mirror": "2ne06-010"
+  },
+  {
+   "id": "2ne21-004",
+   "scope": "BOOK",
+   "head": "2 Ne. 25:17",
+   "anchor": {
+    "verse": 11,
+    "w1": 11,
+    "w2": 27,
+    "quote": "the Lord shall set his hand again the second time to recover the remnant of his people"
+   },
+   "reason": "Nephi takes the phrase up again",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 25,
+     "verse": 17,
+     "w1": 2,
+     "w2": 15,
+     "quote": "the Lord will set his hand again the second time to restore his people",
+     "span": true
+    }
+   ],
+   "mirror": "2ne25-002"
+  },
+  {
+   "id": "2ne21-005",
+   "scope": "BOM",
+   "head": "Jacob 6:2",
+   "anchor": {
+    "verse": 11,
+    "w1": 11,
+    "w2": 27,
+    "quote": "the Lord shall set his hand again the second time to recover the remnant of his people"
+   },
+   "reason": "the phrase carried into Jacob's book",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 6,
+     "verse": 2,
+     "w1": 2,
+     "w2": 17,
+     "quote": "the day that he shall set his hand again the second time to recover his people",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "2ne21-006",
+   "scope": "SW",
+   "head": "Isa. 11:1",
+   "anchor": {
+    "verse": 1,
+    "w1": 2,
+    "w2": 13,
+    "quote": "there shall come forth a rod out of the stem of Jesse"
+   },
+   "reason": "the block and its source chapter",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 11,
+     "verse": 1,
+     "w1": 2,
+     "w2": 13,
+     "quote": "there shall come forth a rod out of the stem of Jesse",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne21-007",
+   "scope": "SW",
+   "head": "Rev. 19:15",
+   "anchor": {
+    "verse": 4,
+    "w1": 20,
+    "w2": 30,
+    "quote": "he shall smite the earth with the rod of his mouth"
+   },
+   "reason": "a sword from the mouth in vision",
+   "targets": [
+    {
+     "ref": "Rev.",
+     "chapter": 19,
+     "verse": 15,
+     "w1": 2,
+     "w2": 9,
+     "quote": "out of his mouth goeth a sharp sword",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne21-008",
+   "scope": "SW",
+   "head": "Hab. 2:14",
+   "anchor": {
+    "verse": 9,
+    "w1": 13,
+    "w2": 29,
+    "quote": "the earth shall be full of the knowledge of the Lord, as the waters cover the sea"
+   },
+   "reason": "a contemporary's nearly identical promise",
+   "targets": [
+    {
+     "ref": "Hab.",
+     "chapter": 2,
+     "verse": 14,
+     "w1": 2,
+     "w2": 15,
+     "quote": "the earth shall be filled with the knowledge of the glory of the LORD",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne21-009",
+   "scope": "SW",
+   "head": "Rom. 15:12",
+   "anchor": {
+    "verse": 10,
+    "w1": 5,
+    "w2": 20,
+    "quote": "there shall be a root of Jesse, which shall stand for an ensign of the people"
+   },
+   "reason": "Paul cites the root and the Gentiles",
+   "targets": [
+    {
+     "ref": "Rom.",
+     "chapter": 15,
+     "verse": 12,
+     "w1": 5,
+     "w2": 11,
+     "quote": "There shall be a root of Jesse",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 2,
+   "w2": 13,
+   "quote": "there shall come forth a rod out of the stem of Jesse",
+   "entries": [
+    "2ne21-006"
+   ]
+  },
+  {
+   "verse": 1,
+   "w1": 15,
+   "w2": 22,
+   "quote": "a branch shall grow out of his roots",
+   "entries": [
+    "2ne21-001"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 1,
+   "w2": 8,
+   "quote": "But with righteousness shall he judge the poor",
+   "entries": [
+    "2ne21-010"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 20,
+   "w2": 30,
+   "quote": "he shall smite the earth with the rod of his mouth",
+   "entries": [
+    "2ne21-007"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 1,
+   "w2": 8,
+   "quote": "The wolf also shall dwell with the lamb",
+   "entries": [
+    "2ne21-011"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 13,
+   "w2": 29,
+   "quote": "the earth shall be full of the knowledge of the Lord, as the waters cover the sea",
+   "entries": [
+    "2ne21-008"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 5,
+   "w2": 20,
+   "quote": "there shall be a root of Jesse, which shall stand for an ensign of the people",
+   "entries": [
+    "2ne21-009"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 11,
+   "w2": 27,
+   "quote": "the Lord shall set his hand again the second time to recover the remnant of his people",
+   "entries": [
+    "2ne21-003",
+    "2ne21-004",
+    "2ne21-005"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 2,
+   "w2": 10,
+   "quote": "he shall set up an ensign for the nations",
+   "entries": [
+    "2ne21-002"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "f5151e64aa057706"
+ }
+}

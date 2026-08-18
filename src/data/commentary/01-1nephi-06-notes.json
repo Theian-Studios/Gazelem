@@ -1,0 +1,805 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "1 Nephi",
+  "book_slug": "1nephi",
+  "chapter": 6,
+  "volume_order": "01",
+  "speakers": [
+   "Nephi"
+  ],
+  "audience": null,
+  "location": "Land of Nephi",
+  "date": "Undatable (editorial aside; engraved ~570 BC)",
+  "unit": "Jerusalem departures (1 Nephi 1–7)",
+  "principles": [
+   "Purpose",
+   "Persuasion",
+   "Records"
+  ],
+  "connections": 7,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The narrator steps out of the story",
+   "text": "Nothing happens in this chapter; the flight from Jerusalem pauses while the writer speaks from his desk, some thirty years after the events around it. The composition setting is the promised land, long after the wilderness: the seam where writing-time shows through narrative-time."
+  },
+  {
+   "n": 2,
+   "title": "Room was a real constraint",
+   "text": "Engraving metal is slow, skilled work, and plates are finite. When Nephi says the things of his father \"cannot be written upon these plates\" (v. 3), that is physics before it is policy. A page of engraving could cost a day's labor, and correcting metal is nearly impossible; the medium itself demanded that every line be chosen before the graver touched it.",
+   "cites": [
+    {
+     "quote": "cannot be written upon these plates",
+     "verse": 3,
+     "start": 103,
+     "end": 147,
+     "spans": [
+      {
+       "w1": 25,
+       "w2": 30,
+       "text": "cannot be written upon these plates"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "A family of records",
+   "text": "By this point the family's archive already has layers: the brass plates, Lehi's own record (v. 1), and Nephi's plates — with more coming (1 Ne. 19:1–5 will describe a second set). The chapter's refusals make sense as archival practice: scarce space is not spent duplicating what another shelf already holds.",
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 1)",
+     "start": 91,
+     "end": 97,
+     "verse_start": 1,
+     "verse_end": 1
+    },
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 19:1–5",
+     "start": 138,
+     "end": 150,
+     "book": "1 Ne",
+     "chapter": 19,
+     "verse_start": 1,
+     "verse_end": 5
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Genealogy, declined but not discarded",
+   "text": "In a world where descent was legal identity, skipping the genealogy was a real omission, and Nephi is careful to say it exists elsewhere, \"in the record which has been kept by my father\" (v. 1). He keeps the claim (\"we are descendants of Joseph\" (v. 2)) and delegates the documentation.",
+   "cites": [
+    {
+     "quote": "in the record which has been kept by my father",
+     "verse": 1,
+     "start": 138,
+     "end": 193,
+     "spans": [
+      {
+       "w1": 39,
+       "w2": 48,
+       "text": "in the record which has been kept by my father"
+      }
+     ]
+    },
+    {
+     "quote": "we are descendants of Joseph",
+     "verse": 2,
+     "start": 215,
+     "end": 252,
+     "spans": [
+      {
+       "w1": 8,
+       "w2": 12,
+       "text": "we are descendants of Joseph"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Naming God by the fathers",
+   "text": "For a family stripped of land and city, \"the God of Abraham, and the God of Isaac, and the God of Jacob\" (v. 4) is the portable identity: a title made of persons, not places. The displaced household anchors itself to a covenant that traveled with tents before, and the title carries the whole claim.",
+   "cites": [
+    {
+     "quote": "the God of Abraham, and the God of Isaac, and the God of Jacob",
+     "verse": 4,
+     "start": 40,
+     "end": 111,
+     "spans": [
+      {
+       "w1": 16,
+       "w2": 29,
+       "text": "the God of Abraham, and the God of Isaac, and the God of Jacob"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "term": "genealogy",
+   "verse_label": "v. 1",
+   "text": "The first word of the chapter's business is the thing it declines to include. Nephi opens his editorial statement with a refusal, and the refusal teaches more about the plates' purpose than an inclusion would have: this record does not exist to prove descent."
+  },
+  {
+   "term": "sufficeth",
+   "verse_label": "v. 2",
+   "text": "An enough-word: \"it sufficeth me to say that we are descendants of Joseph\" (v. 2). Where chapter 5 spent verses on the genealogy's discovery, the editor now spends a sentence, and the shrinking is deliberate: identity is kept, documentation is delegated, and the room saved goes to God.",
+   "cites": [
+    {
+     "quote": "it sufficeth me to say that we are descendants of Joseph",
+     "verse": 2,
+     "start": 16,
+     "end": 81,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 12,
+       "text": "it sufficeth me to say that we are descendants of Joseph"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "room",
+   "verse_label": "v. 3",
+   "text": "\"I desire the room that I may write of the things of God\" (v. 3) — a spatial word doing spiritual work. On metal, every sentence evicts another; the plates' scarcity forces the question paper never asks: what is this space actually for?",
+   "cites": [
+    {
+     "quote": "I desire the room that I may write of the things of God",
+     "verse": 3,
+     "start": 0,
+     "end": 64,
+     "spans": [
+      {
+       "w1": 32,
+       "w2": 44,
+       "text": "I desire the room that I may write of the things of God"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "fulness",
+   "verse_label": "v. 4",
+   "text": "\"the fulness of mine intent\" (v. 4): not part of his aim but the whole of it, gathered whole. The word signals that verse 4 is not one purpose among several; it is the entire charter, and everything else in the record is staff to it.",
+   "cites": [
+    {
+     "quote": "the fulness of mine intent",
+     "verse": 4,
+     "start": 0,
+     "end": 35,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 6,
+       "text": "the fulness of mine intent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "occupy",
+   "verse_label": "v. 6",
+   "text": "Plates as real estate: nothing may \"occupy these plates\" (v. 6) that lacks worth for readers. The verb treats sacred space like ground that can be squatted on, and it makes every future writer a steward of it, answerable for what he lets settle there.",
+   "cites": [
+    {
+     "quote": "occupy these plates",
+     "verse": 6,
+     "start": 35,
+     "end": 63,
+     "spans": [
+      {
+       "w1": 13,
+       "w2": 15,
+       "text": "occupy these plates"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "a full account",
+   "verse_label": "v. 3",
+   "text": "The phrase walks in from chapter 1, where it appeared three times in the abridgment plan (1 Ne. 1:16–17). Its return marks the editor keeping his old promise: fullness belongs to other records; this one buys depth with narrowness.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 1:16–17",
+     "start": 90,
+     "end": 103,
+     "book": "1 Ne",
+     "chapter": 1,
+     "verse_start": 16,
+     "verse_end": 17
+    }
+   ]
+  },
+  {
+   "term": "the things of God",
+   "verse_label": "v. 3",
+   "text": "The selection criterion, stated as simply as it can be stated. The phrase quietly defines everything that made the cut so far — visions, covenants, deliverances — and everything that didn't: politics, architecture, the daily life a modern historian would beg for. The record is not embarrassed by the trade."
+  },
+  {
+   "term": "persuade men to come unto",
+   "verse_label": "v. 4",
+   "text": "The record names its genre: not chronicle but persuasion. The formula becomes a family inheritance; Nephi's heirs still write \"to persuade our children... to believe in Christ\" (2 Ne. 25:23), and John ends his gospel with the same confessed intent (John 20:31). Scripture, in both hemispheres, is argument that admits it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 25:23",
+     "start": 178,
+     "end": 189,
+     "book": "2 Ne",
+     "chapter": 25,
+     "verse_start": 23,
+     "verse_end": 23
+    },
+    {
+     "kind": "scripture",
+     "text": "John 20:31",
+     "start": 249,
+     "end": 259,
+     "book": "John",
+     "chapter": 20,
+     "verse_start": 31,
+     "verse_end": 31
+    }
+   ]
+  },
+  {
+   "term": "pleasing unto the world",
+   "verse_label": "v. 5",
+   "text": "The filter stated negatively. Two audiences exist, and the writer chooses: \"the things which are pleasing unto the world I do not write\" (v. 5). Paul asks the same question in the same breath, persuade men or God (Gal. 1:10), and both writers accept the cost of the answer: a smaller audience, better served.",
+   "cites": [
+    {
+     "quote": "the things which are pleasing unto the world I do not write",
+     "verse": 5,
+     "start": 75,
+     "end": 143,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 13,
+       "text": "the things which are pleasing unto the world I do not write"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Gal. 1:10",
+     "start": 214,
+     "end": 223,
+     "book": "Gal",
+     "chapter": 1,
+     "verse_start": 10,
+     "verse_end": 10
+    }
+   ]
+  },
+  {
+   "term": "not of worth unto the children of men",
+   "verse_label": "v. 6",
+   "text": "Worth returns from the chapter before, where the plates were \"of great worth\" for the children (1 Ne. 5:21), and becomes the standing test for content: worth is measured at the reader's end, not the writer's. What the writer found interesting is not the standard; what the reader's soul can use is.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 5:21",
+     "start": 96,
+     "end": 106,
+     "book": "1 Ne",
+     "chapter": 5,
+     "verse_start": 21,
+     "verse_end": 21
+    }
+   ]
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1",
+   "start": 1,
+   "end": 1,
+   "title": "The declined inheritance",
+   "text": "Nephi opens by refusing to copy his father's genealogy, and says where it lives instead. The verse establishes a working principle for a family with several records: each plate has a job, and repeating another record's job wastes both."
+  },
+  {
+   "label": "v. 2",
+   "start": 2,
+   "end": 2,
+   "title": "Identity in six words",
+   "text": "\"we are descendants of Joseph\" (v. 2): everything chapter 5 discovered, compressed to six words. The compression is the message: for this record's purposes, the whole point of pedigree is covenant membership, and covenant membership needs no documentation here beyond the claim.",
+   "cites": [
+    {
+     "quote": "we are descendants of Joseph",
+     "verse": 2,
+     "start": 0,
+     "end": 37,
+     "spans": [
+      {
+       "w1": 8,
+       "w2": 12,
+       "text": "we are descendants of Joseph"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 3",
+   "start": 3,
+   "end": 3,
+   "title": "The economics of the sacred",
+   "text": "Nephi states the trade plainly: his father's things \"cannot be written\" (v. 3), because he wants \"the room\" (v. 3) for God's things. Every archive, every sermon, every life has this verse's problem, finite room and infinite candidates, and the record models the solution: decide what the space is for, then guard it.",
+   "cites": [
+    {
+     "quote": "cannot be written",
+     "verse": 3,
+     "start": 52,
+     "end": 78,
+     "spans": [
+      {
+       "w1": 25,
+       "w2": 27,
+       "text": "cannot be written"
+      }
+     ]
+    },
+    {
+     "quote": "the room",
+     "verse": 3,
+     "start": 97,
+     "end": 114,
+     "spans": [
+      {
+       "w1": 34,
+       "w2": 35,
+       "text": "the room"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 4",
+   "start": 4,
+   "end": 4,
+   "title": "The charter verse",
+   "text": "The small plates' entire purpose, stated once and for all: persuade all readers to \"come unto the God of Abraham, and the God of Isaac, and the God of Jacob, and be saved\" (v. 4). Every editorial choice in the volume (what Nephi keeps, what Mormon abridges, what Moroni adds) answers to this sentence, written before almost any of it existed.",
+   "cites": [
+    {
+     "quote": "come unto the God of Abraham, and the God of Isaac, and the God of Jacob, and be saved",
+     "verse": 4,
+     "start": 83,
+     "end": 178,
+     "spans": [
+      {
+       "w1": 14,
+       "w2": 32,
+       "text": "come unto the God of Abraham, and the God of Isaac, and the God of Jacob, and be saved"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 5",
+   "start": 5,
+   "end": 5,
+   "title": "The reader this book wants",
+   "text": "Nephi writes for \"those who are not of the world\" (v. 5), an audience defined not by nation or era but by appetite. The verse is the record's honest note about its own reception: it does not expect to please, and it was not built to.",
+   "cites": [
+    {
+     "quote": "those who are not of the world",
+     "verse": 5,
+     "start": 17,
+     "end": 56,
+     "spans": [
+      {
+       "w1": 24,
+       "w2": 30,
+       "text": "those who are not of the world"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 6",
+   "start": 6,
+   "end": 6,
+   "title": "Policy made covenant",
+   "text": "The chapter ends by binding writers not yet born: a \"commandment unto my seed\" (v. 6) about what may occupy the plates. Editorial standards become a family covenant, and the record's later editors will quote, obey, and agonize over exactly this charge for nine hundred years.",
+   "cites": [
+    {
+     "quote": "commandment unto my seed",
+     "verse": 6,
+     "start": 52,
+     "end": 85,
+     "spans": [
+      {
+       "w1": 5,
+       "w2": 8,
+       "text": "commandment unto my seed"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The record becomes self-aware",
+   "text": "After five chapters of story, the book stops to say what it is. Paired with the audit that closed chapter 5 (1 Ne. 5:20–22), this aside completes the record's self-introduction: first its worth, now its purpose. From here the reader knows the book knows what it is doing.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 5:20–22",
+     "start": 109,
+     "end": 122,
+     "book": "1 Ne",
+     "chapter": 5,
+     "verse_start": 20,
+     "verse_end": 22
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Placed exactly where it belongs",
+   "text": "The aside lands between obtaining the great library (chs. 3–5) and completing the colony (ch. 7). Having just read the brass plates' everything — law, history, genealogy, prophecy — Nephi defines his own record against them: they are the archive; this is the argument.",
+   "refs": [
+    {
+     "kind": "chapter",
+     "text": "(chs. 3–5)",
+     "start": 52,
+     "end": 62,
+     "ch_start": 3,
+     "ch_end": 5
+    },
+    {
+     "kind": "chapter",
+     "text": "(ch. 7)",
+     "start": 89,
+     "end": 96,
+     "ch_start": 7,
+     "ch_end": 7
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Confessed bias as credibility",
+   "text": "The record announces its agenda in its sixth chapter, which is precisely what makes it trustworthy about itself: a reader always knows which way the selection cuts. The volume's honesty habit — preserved complaints, preserved failures — starts from a writer honest about his intent."
+  },
+  {
+   "n": 4,
+   "title": "Two records, two jobs",
+   "text": "The father's record holds the fullness; these plates hold the things of God. The division anticipates the two-plates system the record will explain shortly (1 Ne. 9) and sets the volume's deepest structural habit: sacred history and civil history travel on separate shelves."
+  },
+  {
+   "n": 5,
+   "title": "Worth is the canon rule",
+   "text": "Verses 5–6 give the record's admission standard — pleasing to God, of worth to readers — and hand it to posterity as law. Nine centuries of editors will apply it, and the book the world eventually receives is the residue of this verse working through generations."
+  },
+  {
+   "n": 6,
+   "title": "A seam where the writer shows",
+   "text": "The chapter briefly collapses its two clocks: the man writing in the promised land interrupts the family still camped by the Red Sea. The volume will do this again — editors stepping into their own record — and this first instance teaches the reader how to read the later ones: the intrusions are where the record's purpose speaks loudest."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Write your charter sentence",
+    "verse_label": "v. 4",
+    "text": "Nephi runs a thousand-page record on one sentence of intent. Draft yours — for your journal, your calling, your family's story — one sentence naming who it is for and what it should do to them. Then let it start refusing things."
+   },
+   {
+    "title": "Guard the room",
+    "verse_label": "v. 3, 6",
+    "text": "List what currently occupies your scarcest space — the first hour of the day, the family dinner table, the pages of whatever you keep. Name one occupant that is not of worth by this chapter's test, and evict it this week in favor of a thing of God."
+   },
+   {
+    "title": "Delegate the archive, keep the identity",
+    "verse_label": "v. 1–2",
+    "text": "Not everything must live in your record: some things are already kept — by institutions, by relatives, by photographs. Practice Nephi's split: one sentence of owned identity in your own voice, and a pointer to where the fullness lives."
+   },
+   {
+    "title": "Choose the unworldly reader",
+    "verse_label": "v. 5",
+    "text": "Before posting or writing anything this week, ask the verse's question: which audience is this pleasing? Write one thing aimed deliberately at the reader who is not of the world — even if the audience count embarrasses you."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What am I dutifully recording that is already kept elsewhere — and what is kept nowhere that only I can write?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "If I had to state my identity in one sentence the way Nephi states his descent, what would suffice me?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What would I have to stop writing, saying, or scrolling to make room for the things of God?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "Would a stranger reading my words — messages, posts, journal — find in them any intent to persuade toward God at all?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "What standard for the family record, in writing or in habit, am I actually handing my children?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "1ne06-001",
+   "scope": "BOOK",
+   "head": "1 Ne. 19:3",
+   "anchor": {
+    "verse": 3,
+    "w1": 24,
+    "w2": 30,
+    "quote": "they cannot be written upon these plates"
+   },
+   "reason": "the plain-and-precious rule restated",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 19,
+     "verse": 3,
+     "w1": 23,
+     "w2": 36,
+     "quote": "the more plain and precious parts of them, should be written upon these plates",
+     "span": true
+    }
+   ],
+   "mirror": "1ne19-002"
+  },
+  {
+   "id": "1ne06-002",
+   "scope": "BOOK",
+   "head": "1 Ne. 5:14",
+   "anchor": {
+    "verse": 2,
+    "w1": 8,
+    "w2": 12,
+    "quote": "we are descendants of Joseph"
+   },
+   "reason": "the discovery compressed to a claim",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 5,
+     "verse": 14,
+     "w1": 26,
+     "w2": 31,
+     "quote": "he was a descendant of Joseph",
+     "span": true
+    }
+   ],
+   "mirror": "1ne05-011"
+  },
+  {
+   "id": "1ne06-003",
+   "scope": "BOM",
+   "head": "Jacob 1:2",
+   "anchor": {
+    "verse": 6,
+    "w1": 2,
+    "w2": 8,
+    "quote": "I shall give commandment unto my seed"
+   },
+   "reason": "Jacob records receiving this charge",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 1,
+     "verse": 2,
+     "w1": 2,
+     "w2": 14,
+     "quote": "he gave me, Jacob, a commandment that I should write upon these plates",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "1ne06-004",
+   "scope": "BOM",
+   "head": "W of M 1:5",
+   "anchor": {
+    "verse": 3,
+    "w1": 24,
+    "w2": 30,
+    "quote": "they cannot be written upon these plates"
+   },
+   "reason": "the last editor under the same limit",
+   "targets": [
+    {
+     "ref": "W of M",
+     "chapter": 1,
+     "verse": 5,
+     "w1": 26,
+     "w2": 37,
+     "quote": "I cannot write the hundredth part of the things of my people",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "1ne06-005",
+   "scope": "SW",
+   "head": "Ex. 3:6",
+   "anchor": {
+    "verse": 4,
+    "w1": 16,
+    "w2": 29,
+    "quote": "the God of Abraham, and the God of Isaac, and the God of Jacob"
+   },
+   "reason": "the burning-bush title, carried abroad",
+   "targets": [
+    {
+     "ref": "Ex.",
+     "chapter": 3,
+     "verse": 6,
+     "w1": 11,
+     "w2": 23,
+     "quote": "the God of Abraham, the God of Isaac, and the God of Jacob",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "1ne06-006",
+   "scope": "SW",
+   "head": "2 Ne. 25:23; John 20:31",
+   "anchor": {
+    "verse": 4,
+    "w1": 8,
+    "w2": 12,
+    "quote": "that I may persuade men"
+   },
+   "reason": "written to persuade, in both canons",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 25,
+     "verse": 23,
+     "w1": 2,
+     "w2": 10,
+     "quote": "we labor diligently to write, to persuade our children",
+     "span": true
+    },
+    {
+     "ref": "John",
+     "chapter": 20,
+     "verse": 31,
+     "w1": 2,
+     "w2": 8,
+     "quote": "these are written, that ye might believe",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "1ne06-007",
+   "scope": "SW",
+   "head": "Gal. 1:10",
+   "anchor": {
+    "verse": 5,
+    "w1": 2,
+    "w2": 13,
+    "quote": "the things which are pleasing unto the world I do not write"
+   },
+   "reason": "Paul's persuade-or-please question",
+   "targets": [
+    {
+     "ref": "Gal.",
+     "chapter": 1,
+     "verse": 10,
+     "w1": 10,
+     "w2": 15,
+     "quote": "do I seek to please men",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 8,
+   "w2": 12,
+   "quote": "we are descendants of Joseph",
+   "entries": [
+    "1ne06-002"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 24,
+   "w2": 30,
+   "quote": "they cannot be written upon these plates",
+   "entries": [
+    "1ne06-001",
+    "1ne06-004"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 8,
+   "w2": 12,
+   "quote": "that I may persuade men",
+   "entries": [
+    "1ne06-006"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 16,
+   "w2": 29,
+   "quote": "the God of Abraham, and the God of Isaac, and the God of Jacob",
+   "entries": [
+    "1ne06-005"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 2,
+   "w2": 13,
+   "quote": "the things which are pleasing unto the world I do not write",
+   "entries": [
+    "1ne06-007"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 2,
+   "w2": 8,
+   "quote": "I shall give commandment unto my seed",
+   "entries": [
+    "1ne06-003"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-17",
+  "source_sha256": "da6a8c54b4864c97"
+ }
+}

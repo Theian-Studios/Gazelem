@@ -1,0 +1,519 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "2 Nephi",
+  "book_slug": "2nephi",
+  "chapter": 32,
+  "volume_order": "02",
+  "speakers": [
+   "Nephi"
+  ],
+  "audience": "His beloved brethren",
+  "location": "The land of Nephi",
+  "date": "~559–545 BC",
+  "unit": "The doctrine of Christ (2 Nephi 31–33)",
+  "principles": [
+   "After the gate",
+   "Feasting",
+   "Prayer"
+  ],
+  "connections": 6,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Written near the end",
+   "text": "Nephi is old by this point, the small plates are nearly full of what he decided to keep, and two chapters remain. Everything here is chosen against that pressure, which is part of why the counsel is so compressed: two practices, stated once each, with no elaboration."
+  },
+  {
+   "n": 2,
+   "title": "The shortest chapter Nephi writes",
+   "text": "Nine verses, and two of them are about his own inability to continue. It sits between the procedural chapter before it and the farewell after, and its brevity is partly explained inside it: the Spirit stops his utterance."
+  },
+  {
+   "n": 3,
+   "title": "In the name of Christ",
+   "text": "Verse 9 specifies not only that they pray but how: unto the Father, in the name of Christ. The formula is stated as a requirement rather than a custom, and it arrives in a colony still keeping the law of Moses, where prayer had no such name attached to it."
+  },
+  {
+   "n": 4,
+   "title": "Welfare of the soul",
+   "text": "The stated benefit of the prayer in verse 9 is not that the work will succeed but that it will be consecrated \"for the welfare of thy soul\" (v. 9). The beneficiary named is the person doing the work, which is a different account of why prayer precedes labor than the obvious one.",
+   "cites": [
+    {
+     "quote": "for the welfare of thy soul",
+     "verse": 9,
+     "start": 110,
+     "end": 146,
+     "spans": [
+      {
+       "w1": 54,
+       "w2": 59,
+       "text": "for the welfare of thy soul"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Consecrating performance",
+   "text": "Verse 9 tells them to pray before doing anything for the Lord, so that the performance may be consecrated for the welfare of the soul. It is a practical rule about sequence, and it treats prayer as preparation rather than as accompaniment."
+  },
+  {
+   "n": 6,
+   "title": "No more doctrine until he comes",
+   "text": "Verse 6 closes the doctrinal question for the colony: what has been given is what there is, until Christ appears among them in the flesh. Third Nephi is the fulfilment, and the record's readers can check the promise against the event."
+  }
+ ],
+ "words": [
+  {
+   "term": "stiffneckedness",
+   "verse_label": "v. 7",
+   "text": "An ox that will not turn its head, applied to people. It appears last in Nephi's list of four grievances, after unbelief, wickedness, and ignorance, and it is the only one that describes a refusal rather than a lack. The word had been used of his own people since the family left Jerusalem."
+  },
+  {
+   "term": "consecrate",
+   "verse_label": "v. 9",
+   "text": "To set apart for a holy purpose. The object here is unusual: not land, oil, or a person, but a performance, and the stated benefit is the welfare of the soul of the one performing it. Prayer before action is described as the mechanism by which ordinary work becomes something else."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "ye ponder somewhat in your hearts",
+   "verse_label": "v. 1",
+   "text": "To ponder is to weigh, to turn something over, and Nephi uses it twice about his hearers as a state he considers unnecessary. The chapter's premise, and it is an act of perception rather than of prophecy. Nephi is reading a room. Whatever else this record is, in this verse it is a teacher noticing that his last lesson left people with a question, and answering it before they ask."
+  },
+  {
+   "term": "Angels speak by the power of the Holy Ghost",
+   "verse_label": "v. 3",
+   "text": "The definition, given in one line. Because angels speak by the Holy Ghost, and because what the Holy Ghost speaks is the words of Christ, a person who has received the Holy Ghost speaks the same way. The promise of the previous chapter turns out to be about content rather than about a manner of speaking."
+  },
+  {
+   "term": "feast upon the words of Christ",
+   "verse_label": "v. 3",
+   "text": "Repeated from the last chapter and then given a reason that is entirely practical: the words of Christ \"will tell you all things what ye should do\" (v. 3). Feasting is not devotional in this verse. It is how a person finds out what to do next, which is the exact question the chapter opened with.",
+   "cites": [
+    {
+     "quote": "will tell you all things what ye should do",
+     "verse": 3,
+     "start": 103,
+     "end": 154,
+     "spans": [
+      {
+       "w1": 34,
+       "w2": 42,
+       "text": "will tell you all things what ye should do"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "ye ask not, neither do ye knock",
+   "verse_label": "v. 4",
+   "text": "The diagnosis, and it is the same pair the Sermon on the Mount uses in its promise that if you \"knock, and it shall be opened unto you\" (Matt. 7:7). Nephi turns the promise into an accusation: the reason for not understanding is not difficulty but disuse, and the consequence he names is perishing in the dark.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Matt. 7:7",
+     "start": 137,
+     "end": 146,
+     "book": "Matt",
+     "chapter": 7,
+     "verse_start": 7,
+     "verse_end": 7
+    }
+   ]
+  },
+  {
+   "term": "no more doctrine given",
+   "verse_label": "v. 6",
+   "text": "An unusual thing for a prophet to say. Nephi closes the question rather than leaving it open, and he sets a specific terminus: the Lord's appearance in the flesh. For the record's readers the appearance happens six hundred years later in the same volume, which makes this verse checkable rather than merely confident."
+  },
+  {
+   "term": "the Spirit stoppeth mine utterance",
+   "verse_label": "v. 7",
+   "text": "The reason the chapter is short, given inside the chapter. Nephi is not finished; he is stopped. The verse then says what he is left with, which is mourning over people who will not search knowledge, and the combination of being silenced and being grieved is unusual enough to be worth sitting with."
+  },
+  {
+   "term": "ye must pray always, and not faint",
+   "verse_label": "v. 9",
+   "text": "To faint is to grow weary and give out, and the Lord's own parable makes the same pairing, that men \"ought always to pray, and not to faint\" (Luke 18:1). The chapter's final instruction, and it comes with a procedure: pray before performing anything to the Lord, so that the performance is consecrated. The verse solves the chapter's opening problem in practical terms. What should you do after entering in? Ask, before each thing.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Luke 18:1",
+     "start": 142,
+     "end": 151,
+     "book": "Luke",
+     "chapter": 18,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1",
+   "start": 1,
+   "end": 1,
+   "title": "Reading the room",
+   "text": "He supposes they are pondering what to do after entering the way, and then asks why they are pondering at all. The chapter's tone is set here: patient, mildly exasperated, and aimed at people who have received an answer and are still waiting for one."
+  },
+  {
+   "label": "v. 2–3",
+   "start": 2,
+   "end": 3,
+   "title": "One step back",
+   "text": "The tongue of angels is defined by tracing it back one step: angels speak by the Holy Ghost, and the Holy Ghost speaks the words of Christ. Then the practical instruction, feast, and the reason, the words will tell you what to do. Three verses convert a striking phrase into a study habit."
+  },
+  {
+   "label": "v. 4",
+   "start": 4,
+   "end": 4,
+   "title": "Why it does not work",
+   "text": "If they cannot understand, the fault is not in the teaching but in the asking. The verse is blunt about the consequence, perishing in the dark, and it makes light a thing one is brought into rather than a thing one figures out."
+  },
+  {
+   "label": "v. 5–6",
+   "start": 5,
+   "end": 6,
+   "title": "The Holy Ghost, and the end of new doctrine",
+   "text": "What the Spirit will do is show all things to do; what will not happen is more doctrine before Christ comes. The two verses together describe a settled situation: guidance continues, revelation of new doctrine pauses. Very few writers close a subject this explicitly."
+  },
+  {
+   "label": "v. 7",
+   "start": 7,
+   "end": 7,
+   "title": "The interruption",
+   "text": "Mid-instruction, the Spirit stops him, and he mourns. The list is specific, unbelief, wickedness, ignorance, stiffneckedness, and the grievance is that people will not search knowledge nor understand it when given plainly. It is the strongest statement of frustration in Nephi's writing."
+  },
+  {
+   "label": "v. 8",
+   "start": 8,
+   "end": 8,
+   "title": "He tries again",
+   "text": "He perceives they are still pondering, and says it grieves him to have to speak of this. Then the substance: the Spirit teaches a man to pray, and the evil spirit teaches him not to. The verse locates prayerlessness as something taught rather than merely neglected."
+  },
+  {
+   "label": "v. 9",
+   "start": 9,
+   "end": 9,
+   "title": "The rule",
+   "text": "Pray always, do not faint, and pray before doing anything for the Lord so the doing is consecrated. After a chapter about not knowing what to do, the last verse gives the smallest possible instruction, and it is one anybody can follow immediately."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "It answers the question chapter 31 raised",
+   "text": "Verse 19 of the previous chapter asked whether entering the gate finishes the matter and said no. This chapter is what to do instead, and it turns out to be two things: feast on the words of Christ, and pray before you act. The unit's practical content is nine verses long."
+  },
+  {
+   "n": 2,
+   "title": "The mystical is made ordinary",
+   "text": "Speaking with the tongue of angels sounds like ecstatic experience and is defined as saying what Christ would say. That is characteristic of this record, which repeatedly takes a striking phrase and resolves it into something a person could do on a Tuesday."
+  },
+  {
+   "n": 3,
+   "title": "Nephi's frustration is preserved",
+   "text": "Verse 7 could have been removed by any editor, including Nephi. Its survival tells a reader that the plainness he claimed did not produce the comprehension he hoped for, and that he knew it while writing."
+  },
+  {
+   "n": 4,
+   "title": "Guidance replaces instruction",
+   "text": "The chapter's answer to \"what should I do\" is never a list. It is a source: the words of Christ, the Holy Ghost, and prayer. Nephi declines to supply the content his hearers want, and says twice that the content will be supplied to them directly."
+  },
+  {
+   "n": 5,
+   "title": "Prayer is described as taught, not natural",
+   "text": "Verse 8 says the Spirit teaches a man to pray and that the evil spirit teaches him not to. Both are instruction. That framing makes prayerlessness a curriculum rather than an omission, which is a harder and more useful account of it."
+  },
+  {
+   "n": 6,
+   "title": "The shortest chapter carries the unit's hinge",
+   "text": "Between the doctrine and the farewell sits this small piece of practical counsel, and the record's readers quote it as often as either neighbor. Its brevity is not a defect; the Spirit stopped him, and what he had already said was enough."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Stop pondering and start asking",
+    "verse_label": "v. 1, 4",
+    "text": "Identify the question you have been turning over for weeks without putting it to God directly. Nephi's diagnosis for not understanding is not difficulty but disuse. Ask it, in words, this week."
+   },
+   {
+    "title": "Use the words as a manual",
+    "verse_label": "v. 3",
+    "text": "Read scripture once with a specific decision in mind, treating the text as something that will tell you what to do rather than as something to admire. The verse claims exactly that function for it."
+   },
+   {
+    "title": "Define your own mystical term",
+    "verse_label": "v. 2–3",
+    "text": "Take a phrase from your religious vocabulary you have never pinned down, and do what Nephi does here: trace it back one step until it says something a person could act on."
+   },
+   {
+    "title": "Put the prayer first",
+    "verse_label": "v. 9",
+    "text": "For one week, pray briefly before each thing you do for the Lord rather than only about it afterward. The verse makes the sequence the mechanism by which a performance is consecrated."
+   },
+   {
+    "title": "Notice who is teaching you not to pray",
+    "verse_label": "v. 8",
+    "text": "When prayer feels pointless or awkward, treat that as instruction you have received from somewhere rather than as a fact about yourself, and ask where it came from."
+   },
+   {
+    "title": "Let a grief stand",
+    "verse_label": "v. 7",
+    "text": "Nephi kept his frustration in the record. When you are discouraged about people you have taught or served, write it down honestly rather than editing it into acceptance."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What have I been pondering that I have never once asked about directly?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "Do I read scripture expecting to be told what to do, or only what to believe?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "Where am I in the dark because I stopped knocking?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "Do I keep waiting for new doctrine instead of living the doctrine I have?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "What has taught me not to pray, and when did I start believing it?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What did I do for God today that I never prayed about beforehand?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "2ne32-001",
+   "scope": "BOOK",
+   "head": "2 Ne. 31:13",
+   "anchor": {
+    "verse": 2,
+    "w1": 11,
+    "w2": 25,
+    "quote": "after ye had received the Holy Ghost ye could speak with the tongue of angels"
+   },
+   "reason": "the promise, now defined",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 31,
+     "verse": 13,
+     "w1": 89,
+     "w2": 97,
+     "quote": "then can ye speak with the tongue of angels",
+     "span": true
+    }
+   ],
+   "mirror": "2ne31-008"
+  },
+  {
+   "id": "2ne32-002",
+   "scope": "BOOK",
+   "head": "2 Ne. 31:20",
+   "anchor": {
+    "verse": 3,
+    "w1": 22,
+    "w2": 42,
+    "quote": "feast upon the words of Christ; for behold, the words of Christ will tell you all things what ye should do"
+   },
+   "reason": "feasting given its purpose",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 31,
+     "verse": 20,
+     "w1": 32,
+     "w2": 37,
+     "quote": "feasting upon the word of Christ",
+     "span": true
+    }
+   ],
+   "mirror": "2ne31-009"
+  },
+  {
+   "id": "2ne32-003",
+   "scope": "BOOK",
+   "head": "2 Ne. 31:21",
+   "anchor": {
+    "verse": 6,
+    "w1": 9,
+    "w2": 26,
+    "quote": "there will be no more doctrine given until after he shall manifest himself unto you in the flesh"
+   },
+   "reason": "the doctrine closed, with a terminus",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 31,
+     "verse": 21,
+     "w1": 35,
+     "w2": 40,
+     "quote": "this is the doctrine of Christ",
+     "span": true
+    }
+   ],
+   "mirror": "2ne31-010"
+  },
+  {
+   "id": "2ne32-006",
+   "scope": "BOM",
+   "head": "Jacob 6:12",
+   "anchor": {
+    "verse": 7,
+    "w1": 1,
+    "w2": 7,
+    "quote": "And now I, Nephi, cannot say more"
+   },
+   "reason": "Jacob ending an appeal the same way",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 6,
+     "verse": 12,
+     "w1": 1,
+     "w2": 8,
+     "quote": "O be wise; what can I say more",
+     "span": true
+    }
+   ],
+   "mirror": "jac06-007"
+  },
+  {
+   "id": "2ne32-004",
+   "scope": "SW",
+   "head": "Matt. 7:7",
+   "anchor": {
+    "verse": 4,
+    "w1": 14,
+    "w2": 24,
+    "quote": "it will be because ye ask not, neither do ye knock"
+   },
+   "reason": "the Sermon's promise turned into a diagnosis",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 7,
+     "verse": 7,
+     "w1": 13,
+     "w2": 20,
+     "quote": "knock, and it shall be opened unto you",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne32-005",
+   "scope": "SW",
+   "head": "Luke 18:1",
+   "anchor": {
+    "verse": 9,
+    "w1": 8,
+    "w2": 14,
+    "quote": "ye must pray always, and not faint"
+   },
+   "reason": "the parable's same pairing",
+   "targets": [
+    {
+     "ref": "Luke",
+     "chapter": 18,
+     "verse": 1,
+     "w1": 12,
+     "w2": 20,
+     "quote": "men ought always to pray, and not to faint",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 11,
+   "w2": 25,
+   "quote": "after ye had received the Holy Ghost ye could speak with the tongue of angels",
+   "entries": [
+    "2ne32-001"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 22,
+   "w2": 42,
+   "quote": "feast upon the words of Christ; for behold, the words of Christ will tell you all things what ye should do",
+   "entries": [
+    "2ne32-002"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 14,
+   "w2": 24,
+   "quote": "it will be because ye ask not, neither do ye knock",
+   "entries": [
+    "2ne32-004"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 9,
+   "w2": 26,
+   "quote": "there will be no more doctrine given until after he shall manifest himself unto you in the flesh",
+   "entries": [
+    "2ne32-003"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 1,
+   "w2": 7,
+   "quote": "And now I, Nephi, cannot say more",
+   "entries": [
+    "2ne32-006"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 8,
+   "w2": 14,
+   "quote": "ye must pray always, and not faint",
+   "entries": [
+    "2ne32-005"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "8af5b572a1aa1968"
+ }
+}

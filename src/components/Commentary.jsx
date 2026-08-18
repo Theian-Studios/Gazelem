@@ -1,10 +1,9 @@
 import { ink, inkSoft } from "../theme.js";
-import { getCommentary, orderedConnections, entryVerse } from "../lib/commentary.js";
+import { useCommentary, orderedConnections, entryVerse } from "../lib/commentary.js";
 import { parseCitations } from "../lib/refs.js";
-import { scanCites } from "../lib/cites.js";
-import { citeGroup } from "./Cited.jsx";
 import Card from "./Card.jsx";
 import { SpeakerIcon, AudienceIcon, LocationIcon } from "./MetaIcons.jsx";
+import { speakerName } from "../lib/manifest.js";
 
 const PROSE = { color: inkSoft, fontSize: 12, lineHeight: 1.62, margin: "0 0 7px" };
 
@@ -49,13 +48,20 @@ function FacetValue({ value, open }) {
   const parts = namesIn(value);
   return parts.map((name, i) => {
     const to = open?.(name);
+    // What a speaker is doing is not part of who he is: "Mormon (narrator)"
+    // opens Mormon, and the parenthesis stays plain text beside the link rather
+    // than inside it, so the door is the man's name and nothing else.
+    const lead = to ? speakerName(name) : name;
     return (
       <span key={name + i}>
         {i > 0 && <span className="meta-facet-sep"> · </span>}
         {to ? (
-          <button type="button" className="meta-facet-link" onClick={to.onClick} title={to.title}>
-            {name}
-          </button>
+          <>
+            <button type="button" className="meta-facet-link" onClick={to.onClick} title={to.title}>
+              {lead}
+            </button>
+            {name.slice(lead.length)}
+          </>
         ) : (
           name
         )}
@@ -116,60 +122,77 @@ function Overview({ meta, collapsed, onToggle, openFor }) {
   );
 }
 
-// A reference with its book left off: the "57:12" and "60:5–8" that a note on
-// Alma 57 uses for its own chapter and its neighbours. The site's scanner wants
-// a book by name and rightly ignores these — a bare pair of numbers in open
-// prose is as likely to be a score or a ratio — but inside a note the book is
-// never in doubt, and this is most of what the notes cite: Alma 57's name a
-// passage forty times and spell the book out twice.
+// Everything a note's prose points at, made a door.
 //
-// Read only in what the scanner has left behind, so "Alma 7:12" is claimed
-// whole rather than half-read as chapter 7 of the book in hand. What keeps the
-// rest honest is the test the scanner uses for a book, asked of a chapter: it
-// has to exist. `book.chapters` is the volume already open in front of the
-// reader, so "1:22" resolves in Enos and the "119:105" of a psalm does not.
-const BARE = /(?<![\d:])(\d{1,3}):(\d{1,3})(?:\s*[–—-]\s*(\d{1,3}))?(?![\d:])/g;
-
-// Everything a note's prose points at, made a door. The book-less form goes to
-// the same two places a cross connection does: a verse of the chapter being
-// read is scrolled to, since it is already on the page beside the note, and
-// anywhere else is opened.
-function proseRun({ book, chapter, volId, onOpenRef, onJump }) {
+// Nothing here reads the prose. The notes locate every reference they make by
+// character offset — a quotation of this chapter with the verse it comes from,
+// a bare "(v. 18)", a "(ch. 2)", a "Morm. 9:32–33" — so the marks are walked in
+// order, the stretches between them are emitted as they stand, and each marked
+// range becomes the door it names. A range whose target the volume in hand does
+// not have stays plain text rather than offering to open nothing.
+function noteRun({ book, chapter, volId, onOpenRef, onJump }) {
   const named = volId === "dc" ? "Doctrine and Covenants" : book?.name;
-  const chapters = book?.chapters;
+  const here = new Set((chapter?.verses || []).map((v) => v.verse));
+  const hasChapter = (n) => !!book?.chapters?.some((c) => c.n === n);
 
-  const bare = (text, key) => {
-    if (!chapters || !named) return <span key={key}>{text}</span>;
+  // What the button says it will do. A run is named by its ends and a list by
+  // its members: "vv. 1, 3" marks two verses and not the three between them.
+  const said = (l) => {
+    if (l.length === 1) return `verse ${l[0]}`;
+    const run = l[l.length - 1] - l[0] === l.length - 1;
+    return `verses ${run ? `${l[0]}–${l[l.length - 1]}` : l.join(", ")}`;
+  };
+
+  // A verse of the chapter being read is scrolled to, since it is already on
+  // the page beside the note; anywhere else is opened.
+  const doorFor = (m) => {
+    if (m.kind === "cite") return here.has(m.verse) ? { verses: [m.verse] } : null;
+    if (m.kind === "verse") {
+      const verses = [];
+      for (let v = m.verse_start; v <= (m.verse_end ?? m.verse_start); v++) {
+        if (here.has(v)) verses.push(v);
+      }
+      return verses.length ? { verses } : null;
+    }
+    // Built through the resolver rather than by hand, so a note's reference is
+    // the same kind of thing as a chart's and opens by the same door.
+    if (m.kind === "chapter") {
+      if (!named || !hasChapter(m.ch_start)) return null;
+      const cite = parseCitations(`${named} ${m.ch_start}`)[0];
+      return cite ? { cite } : null;
+    }
+    if (m.kind === "scripture") {
+      const cite = parseCitations(m.text)[0];
+      return cite ? { cite } : null;
+    }
+    return null;
+  };
+
+  return (block, key) => {
+    const { text, marks } = block;
+    if (!marks?.length) return <span key={key}>{text}</span>;
     const out = [];
     let at = 0;
-    BARE.lastIndex = 0;
-    for (let m; (m = BARE.exec(text)); ) {
-      const n = Number(m[1]);
-      if (!chapters.some((c) => c.n === n)) continue;
-      // Built through the resolver rather than by hand, so a note's reference
-      // is the same kind of thing as a chart's and opens by the same door.
-      const cite = parseCitations(`${named} ${n}:${m[2]}${m[3] ? `–${m[3]}` : ""}`)[0];
-      if (!cite) continue;
-      if (m.index > at) out.push(<span key={`${key}-${at}`}>{text.slice(at, m.index)}</span>);
+    for (const m of marks) {
+      if (m.start > at) out.push(<span key={`${key}-t${at}`}>{text.slice(at, m.start)}</span>);
+      const label = text.slice(m.start, m.end);
+      const door = doorFor(m);
       out.push(
-        <button key={`${key}-c${m.index}`} className="cx-cite"
-          title={n === chapter?.n ? `Go to verse ${m[2]}` : `Open ${cite.label}`}
-          onClick={() => (n === chapter?.n ? onJump?.(cite.verses[0]) : onOpenRef?.(cite))}>
-          {m[0]}
-        </button>,
+        door ? (
+          <button key={`${key}-c${m.start}`} className="cx-cite"
+            title={door.verses ? `Go to ${said(door.verses)}` : `Open ${door.cite.label}`}
+            onClick={() => (door.verses ? onJump?.(door.verses) : onOpenRef?.(door.cite))}>
+            {label}
+          </button>
+        ) : (
+          <span key={`${key}-p${m.start}`}>{label}</span>
+        ),
       );
-      at = m.index + m[0].length;
+      at = m.end;
     }
-    if (!out.length) return <span key={key}>{text}</span>;
     if (at < text.length) out.push(<span key={`${key}-end`}>{text.slice(at)}</span>);
     return out;
   };
-
-  return (text, key) =>
-    scanCites(text).map((part, i) =>
-      part.kind === "text"
-        ? bare(part.text, `${key}-${i}`)
-        : citeGroup(part, onOpenRef, `${key}-${i}`));
 }
 
 // The refs a note carries on its own `refs:` line are still not drawn here —
@@ -183,16 +206,23 @@ function Entry({ e, last, prose }) {
   const verse = entryVerse(e.title);
   return (
     <article data-note-verse={verse ?? undefined} style={{ marginBottom: last ? 0 : 16 }}>
+      {/* The heading stays plain. Its "(vv. 1, 3)" is not a reference the note
+          makes — it is the note saying which verses it is about, which is the
+          one thing the reader is already looking at. Drawn as a door it put
+          gold in every heading in the card and offered to take the reader to
+          the passage they were reading the note for. */}
       {e.title && (
         <h4 className="serif" style={{ fontSize: 13.5, fontWeight: 600, color: ink, margin: "0 0 5px", lineHeight: 1.35 }}>
-          {prose(e.title, "t")}
+          {e.title}
         </h4>
       )}
       {e.body.map((p, j) => <p key={j} style={PROSE}>{prose(p, `b${j}`)}</p>)}
       {e.items?.length > 0 && (
         <ul style={{ margin: "6px 0 0", paddingLeft: 16 }}>
           {e.items.map((t, j) => (
-            <li key={j} style={{ ...PROSE, margin: "0 0 7px" }}>{prose(t, `i${j}`)}</li>
+            /* The reflection questions are the one thing the notes write as a
+               plain list, with nothing marked inside them to make a door of. */
+            <li key={j} style={{ ...PROSE, margin: "0 0 7px" }}>{t}</li>
           ))}
         </ul>
       )}
@@ -233,19 +263,18 @@ function WorldView({ groups, title, chapter, collapsed, onToggle, controls, pros
 }
 
 // The notes are placed in three different parts of the layout, so each is its
-// own export rather than one block. getCommentary caches, so asking for the
-// same chapter three times costs one parse.
-function notesFor(book, chapter, volId) {
-  if (!book || !chapter) return null;
-  return getCommentary(volId === "dc" ? "Doctrine and Covenants" : book.name, chapter.n);
-}
+// own export rather than one block. The chapter is fetched once however many of
+// them ask for it, and read from the cache thereafter.
+const useNotesFor = (book, chapter, volId) =>
+  useCommentary(book && chapter ? (volId === "dc" ? "Doctrine and Covenants" : book.name) : null,
+    chapter?.n ?? null);
 
 // Who is speaking, to whom, and where. Chapter-scoped, so it is the same
 // whichever lens is selected.
 export function ChapterOverview({ book, chapter, volId, collapsed, onToggle, openFor }) {
-  const data = notesFor(book, chapter, volId);
-  if (!data?.meta) return null;
-  return <Overview meta={data.meta} collapsed={collapsed} onToggle={onToggle} openFor={openFor} />;
+  const { notes } = useNotesFor(book, chapter, volId);
+  if (!notes?.meta) return null;
+  return <Overview meta={notes.meta} collapsed={collapsed} onToggle={onToggle} openFor={openFor} />;
 }
 
 // The finer levels are a card of many small notes, so the heading names them
@@ -255,16 +284,22 @@ const LEVEL_LABEL = { Verse: "Verses", Phrase: "Phrases", Word: "Words" };
 
 // The commentary itself, read through the current lens.
 export function CommentaryNotes({ book, chapter, lens, volId, collapsed, onToggle, controls, onOpenRef, onJump }) {
+  const { notes: data, loading } = useNotesFor(book, chapter, volId);
   if (!book || !chapter) return null;
-  const data = notesFor(book, chapter, volId);
-  const prose = proseRun({ book, chapter, volId, onOpenRef, onJump });
+  const prose = noteRun({ book, chapter, volId, onOpenRef, onJump });
 
   if (!data) {
     return (
       <Card id="notes" title="Commentary" label="Commentary" className="popin"
         collapsed={collapsed.has("notes")} onToggle={onToggle}>
         {controls}
-        <p style={{ ...PROSE, margin: 0 }}>No notes yet for {chapter.reference}.</p>
+        {/* Nothing written and nothing downloaded yet are different answers,
+            and the card waits rather than telling the reader the wrong one. The
+            controls stand either way, so the card does not change height when
+            the notes land. */}
+        {!loading && (
+          <p style={{ ...PROSE, margin: 0 }}>No notes yet for {chapter.reference}.</p>
+        )}
       </Card>
     );
   }
@@ -311,9 +346,8 @@ export function CommentaryNotes({ book, chapter, lens, volId, collapsed, onToggl
 // the text and every letter in the margin, which are the same connections said
 // in the other direction and go with it.
 export function CrossConnections({ book, chapter, volId, onJump, onOpenRef, collapsed, onToggle }) {
-  if (!book || !chapter) return null;
-  const data = notesFor(book, chapter, volId);
-  if (!data) return null;
+  const { notes: data } = useNotesFor(book, chapter, volId);
+  if (!book || !chapter || !data) return null;
   const connections = orderedConnections(data);
   if (!connections.length) return null;
 
@@ -332,7 +366,7 @@ export function CrossConnections({ book, chapter, volId, onJump, onOpenRef, coll
           const cite = parseCitations(c.source)[0];
           const go = cite && onOpenRef ? () => onOpenRef(cite) : () => onJump?.(c.verse);
           return (
-            <li key={c.id} style={{ margin: "0 0 9px" }}>
+            <li key={c.noteId} style={{ margin: "0 0 9px" }}>
               <button className="conn-jump" onClick={go}
                 title={cite ? `Open ${c.source}` : `Go to verse ${c.verse}`}>
                 <span className="conn-jump-id">{c.id}</span>

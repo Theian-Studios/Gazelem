@@ -1,0 +1,1439 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "2 Nephi",
+  "book_slug": "2nephi",
+  "chapter": 1,
+  "volume_order": "02",
+  "speakers": [
+   "Lehi"
+  ],
+  "audience": null,
+  "location": "The promised land",
+  "date": "~588 BC (Lehi's last teachings)",
+  "unit": "Lehi's last blessings (2 Nephi 1–4)",
+  "principles": [
+   "Covenant",
+   "Liberty",
+   "Awakening"
+  ],
+  "connections": 19,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "A farewell in Moses' form",
+   "text": "Rehearsal of mercies, covenant terms, blessings and cursings, succession: Lehi's last sermon runs Deuteronomy's outline, down to Moses' own idiom (\"the statutes and the judgments\" (v. 16)). The record has cast Lehi as the new exodus's Moses since the wilderness; here he dies like him, preaching the covenant at the border of the inheritance.",
+   "cites": [
+    {
+     "quote": "the statutes and the judgments",
+     "verse": 16,
+     "start": 147,
+     "end": 187,
+     "spans": [
+      {
+       "w1": 10,
+       "w2": 14,
+       "text": "the statutes and the judgments"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Deathbed formulas of kings",
+   "text": "\"I go the way of all the earth\" (v. 14) is the sentence Joshua and David each spoke at the end (Josh. 23:14; 1 Kgs. 2:2), and David followed it, as Lehi does, with the charge to act like men. The old leaders' farewell genre is audible under the trembling parent's voice.",
+   "cites": [
+    {
+     "quote": "I go the way of all the earth",
+     "verse": 14,
+     "start": 0,
+     "end": 39,
+     "spans": [
+      {
+       "w1": 39,
+       "w2": 46,
+       "text": "I go the way of all the earth"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Josh. 23:14",
+     "start": 96,
+     "end": 107,
+     "book": "Josh",
+     "chapter": 23,
+     "verse_start": 14,
+     "verse_end": 14
+    },
+    {
+     "kind": "scripture",
+     "text": "1 Kgs. 2:2",
+     "start": 109,
+     "end": 119,
+     "book": "1 Kgs",
+     "chapter": 2,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "The isolation clause",
+   "text": "\"this land should be kept as yet from the knowledge of other nations\" (v. 8): the covenant includes geography as strategy. An unknown land cannot be overrun, and the record will treat the age of discovery (1 Ne. 13) as this clause expiring on schedule rather than failing.",
+   "cites": [
+    {
+     "quote": "this land should be kept as yet from the knowledge of other nations",
+     "verse": 8,
+     "start": 0,
+     "end": 76,
+     "spans": [
+      {
+       "w1": 7,
+       "w2": 19,
+       "text": "this land should be kept as yet from the knowledge of other nations"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Land grants ran on conditions",
+   "text": "Ancient covenant treaties deeded territory the way verse 7 does: tenure held of a sovereign, kept by loyalty, forfeited by breach. Lehi's hearers knew inheritance law that worked exactly so; what is new is the sovereign (\"consecrated unto him\") and the scale, a hemisphere held on the terms of a vassal's fidelity."
+  },
+  {
+   "n": 5,
+   "title": "The accusations had a history",
+   "text": "Every charge Lehi answers in verses 24–27 was filed years earlier: ruler-ambition at the Red Sea (1 Ne. 16:37–38), hard words on the ship (17:48 and 18:10). A dying father speaking to grown men rehearses the family's whole litigation, and the record preserves his brief because the case reopens the moment he is buried (2 Ne. 5:3).",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 16:37–38",
+     "start": 98,
+     "end": 112,
+     "book": "1 Ne",
+     "chapter": 16,
+     "verse_start": 37,
+     "verse_end": 38
+    },
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 5:3",
+     "start": 320,
+     "end": 329,
+     "book": "2 Ne",
+     "chapter": 5,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Zoram, the first grafted branch",
+   "text": "Laban's servant, bound once by an oath (1 Ne. 4:35), leaves the chapter a covenant heir: \"because thou hast been faithful thy seed shall be blessed with his seed\" (v. 31). The family's promises prove extendable beyond blood one chapter before Jacob's olive-tree doctrine says they must be.",
+   "cites": [
+    {
+     "quote": "because thou hast been faithful thy seed shall be blessed with his seed",
+     "verse": 31,
+     "start": 89,
+     "end": 170,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 14,
+       "text": "because thou hast been faithful thy seed shall be blessed with his seed"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 4:35",
+     "start": 40,
+     "end": 50,
+     "book": "1 Ne",
+     "chapter": 4,
+     "verse_start": 35,
+     "verse_end": 35
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "term": "rehearsed",
+   "verse_label": "v. 1",
+   "text": "Lehi \"rehearsed unto them, how great things the Lord had done for them\" (v. 1): re-hearing as the first act of the farewell. The mercies are not new information to the sons who lived them; they are told again because covenant memory decays without recital, and the sermon's warnings will lean on the history just re-laid.",
+   "cites": [
+    {
+     "quote": "rehearsed unto them, how great things the Lord had done for them",
+     "verse": 1,
+     "start": 5,
+     "end": 78,
+     "spans": [
+      {
+       "w1": 29,
+       "w2": 40,
+       "text": "rehearsed unto them, how great things the Lord had done for them"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "consecrated",
+   "verse_label": "v. 7",
+   "text": "The land is \"consecrated unto him whom he shall bring\" (v. 7): set apart, made sacred to a purpose. The word turns real estate into stewardship, and it brackets the sermon (v. 32 repeats it over Zoram's seed): what the Lord consecrates, conduct keeps or forfeits.",
+   "cites": [
+    {
+     "quote": "consecrated unto him whom he shall bring",
+     "verse": 7,
+     "start": 12,
+     "end": 61,
+     "spans": [
+      {
+       "w1": 5,
+       "w2": 11,
+       "text": "consecrated unto him whom he shall bring"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "anxiety",
+   "verse_label": "v. 16",
+   "text": "Its first appearance in the record: \"this hath been the anxiety of my soul from the beginning\" (v. 16). The word will become the standing term for what prophets and parents carry (Jacob and Alma inherit it for their own sermons): not fear of enemies but concern for souls, chronic, clarifying, and openly confessed.",
+   "cites": [
+    {
+     "quote": "this hath been the anxiety of my soul from the beginning",
+     "verse": 16,
+     "start": 36,
+     "end": 102,
+     "spans": [
+      {
+       "w1": 19,
+       "w2": 29,
+       "text": "this hath been the anxiety of my soul from the beginning"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "sharpness",
+   "verse_label": "v. 26",
+   "text": "The accusation quoted and reforged: \"his sharpness was the sharpness of the power of the word of God\" (v. 26). The same edge that felt like a brother's temper was, on the father's testimony, the instrument's edge. The record keeps the word for later hard sermons; whether sharpness wounds or heals depends on whose power it carries.",
+   "cites": [
+    {
+     "quote": "his sharpness was the sharpness of the power of the word of God",
+     "verse": 26,
+     "start": 36,
+     "end": 109,
+     "spans": [
+      {
+       "w1": 30,
+       "w2": 42,
+       "text": "his sharpness was the sharpness of the power of the word of God"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "a land of liberty",
+   "verse_label": "v. 7",
+   "text": "Coined here, over the new land, with its condition in the same breath: liberty for those who serve the God who consecrated it. The phrase becomes the record's political north star (2 Ne. 10:11; Mosiah 29:32; Alma 46:17), and every later loss of freedom is diagnosed on this verse's terms: captivity enters only \"because of iniquity\" (v. 7).",
+   "cites": [
+    {
+     "quote": "because of iniquity",
+     "verse": 7,
+     "start": 311,
+     "end": 339,
+     "spans": [
+      {
+       "w1": 53,
+       "w2": 55,
+       "text": "because of iniquity"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 10:11",
+     "start": 181,
+     "end": 192,
+     "book": "2 Ne",
+     "chapter": 10,
+     "verse_start": 11,
+     "verse_end": 11
+    },
+    {
+     "kind": "scripture",
+     "text": "Mosiah 29:32",
+     "start": 194,
+     "end": 206,
+     "book": "Mosiah",
+     "chapter": 29,
+     "verse_start": 32,
+     "verse_end": 32
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 46:17",
+     "start": 208,
+     "end": 218,
+     "book": "Alma",
+     "chapter": 46,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
+  },
+  {
+   "term": "awake from a deep sleep",
+   "verse_label": "v. 13",
+   "text": "Lehi's figure makes rebellion unconsciousness: \"awake from a deep sleep, yea, even from the sleep of hell\" (v. 13), with chains that bind sleepers who never felt them fastened. The diagnosis is merciful; sleepers are not enemies but the unconscious, and the remedy is not defeat but reveille, sounded four times across the sermon.",
+   "cites": [
+    {
+     "quote": "awake from a deep sleep, yea, even from the sleep of hell",
+     "verse": 13,
+     "start": 47,
+     "end": 114,
+     "spans": [
+      {
+       "w1": 6,
+       "w2": 17,
+       "text": "awake from a deep sleep, yea, even from the sleep of hell"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "encircled about eternally in the arms of his love",
+   "verse_label": "v. 15",
+   "text": "The sermon's testimony sentence, and its geometry: against the \"chains\" (v. 13) that bind downward stands another enclosure, arms, eternal, chosen. Lehi does not ask his sons for anything he is not already inside of; the redeemed father describes the embrace from within it.",
+   "cites": [
+    {
+     "quote": "chains",
+     "verse": 13,
+     "start": 63,
+     "end": 79,
+     "spans": [
+      {
+       "w1": 23,
+       "w2": 23,
+       "text": "chains"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Inasmuch as ye shall keep my commandments",
+   "verse_label": "v. 20",
+   "text": "The covenant formula of the valley (1 Ne. 2:20), quoted now as the sermon's legal center: \"ye shall prosper in the land\" (v. 20), with the counter-clause spoken aloud this time: \"cut off from my presence\" (v. 20). First given to Nephi alone, it is here published to the whole family; the record will requote it for a thousand years.",
+   "cites": [
+    {
+     "quote": "ye shall prosper in the land",
+     "verse": 20,
+     "start": 90,
+     "end": 128,
+     "spans": [
+      {
+       "w1": 13,
+       "w2": 18,
+       "text": "ye shall prosper in the land"
+      }
+     ]
+    },
+    {
+     "quote": "cut off from my presence",
+     "verse": 20,
+     "start": 178,
+     "end": 212,
+     "spans": [
+      {
+       "w1": 31,
+       "w2": 35,
+       "text": "cut off from my presence"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 2:20",
+     "start": 36,
+     "end": 46,
+     "book": "1 Ne",
+     "chapter": 2,
+     "verse_start": 20,
+     "verse_end": 20
+    }
+   ]
+  },
+  {
+   "term": "arise from the dust, my sons, and be men",
+   "verse_label": "v. 21",
+   "text": "David's deathbed charge to Solomon ran the same way: I go the way of all the earth; be thou strong, show thyself a man. Lehi's version adds the dust, defeat, death, and sleep in one noun, and aims the manhood at unity: \"determined in one mind and in one heart, united in all things\" (v. 21).",
+   "cites": [
+    {
+     "quote": "determined in one mind and in one heart, united in all things",
+     "verse": 21,
+     "start": 219,
+     "end": 290,
+     "spans": [
+      {
+       "w1": 49,
+       "w2": 60,
+       "text": "determined in one mind and in one heart, united in all things"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "it was not he, but it was the Spirit",
+   "verse_label": "v. 27",
+   "text": "The defense's closing argument: the compulsion his brothers resented (\"his commanding you that ye must obey\" (v. 27)) had a source outside the brother: \"which opened his mouth to utterance that he could not shut it\" (v. 27). The sentence gives the record its test for hard words: ask whose mouth, not how it felt.",
+   "cites": [
+    {
+     "quote": "his commanding you that ye must obey",
+     "verse": 27,
+     "start": 70,
+     "end": 116,
+     "spans": [
+      {
+       "w1": 17,
+       "w2": 23,
+       "text": "his commanding you that ye must obey"
+      }
+     ]
+    },
+    {
+     "quote": "which opened his mouth to utterance that he could not shut it",
+     "verse": 27,
+     "start": 152,
+     "end": 223,
+     "spans": [
+      {
+       "w1": 42,
+       "w2": 53,
+       "text": "which opened his mouth to utterance that he could not shut it"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–4",
+   "start": 1,
+   "end": 4,
+   "title": "The mercies, re-read into the record",
+   "text": "Rebellions on the waters, lives spared, Jerusalem fallen exactly as the vision said: \"had we remained in Jerusalem we should also have perished\" (v. 4). The farewell opens as an audit of deliverances, because every demand the sermon will make rests on the history it re-reads first.",
+   "cites": [
+    {
+     "quote": "had we remained in Jerusalem we should also have perished",
+     "verse": 4,
+     "start": 85,
+     "end": 151,
+     "spans": [
+      {
+       "w1": 19,
+       "w2": 28,
+       "text": "had we remained in Jerusalem we should also have perished"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 5–9",
+   "start": 5,
+   "end": 9,
+   "title": "The covenant of the land",
+   "text": "Obtained \"notwithstanding our afflictions\" (v. 5), the land is covenanted to Lehi's seed \"and also all those who should be led out of other countries\" (v. 5); none come but \"by the hand of the Lord\" (v. 6); kept secret for its heirs' sake; and safe on one condition, repeated like a drumbeat: keep the commandments, \"and they shall dwell safely forever\" (v. 9).",
+   "cites": [
+    {
+     "quote": "notwithstanding our afflictions",
+     "verse": 5,
+     "start": 9,
+     "end": 49,
+     "spans": [
+      {
+       "w1": 4,
+       "w2": 6,
+       "text": "notwithstanding our afflictions"
+      }
+     ]
+    },
+    {
+     "quote": "and also all those who should be led out of other countries",
+     "verse": 5,
+     "start": 89,
+     "end": 157,
+     "spans": [
+      {
+       "w1": 57,
+       "w2": 68,
+       "text": "and also all those who should be led out of other countries"
+      }
+     ]
+    },
+    {
+     "quote": "by the hand of the Lord",
+     "verse": 6,
+     "start": 173,
+     "end": 205,
+     "spans": [
+      {
+       "w1": 29,
+       "w2": 34,
+       "text": "by the hand of the Lord"
+      }
+     ]
+    },
+    {
+     "quote": "and they shall dwell safely forever",
+     "verse": 9,
+     "start": 316,
+     "end": 360,
+     "spans": [
+      {
+       "w1": 92,
+       "w2": 97,
+       "text": "and they shall dwell safely forever"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 10–12",
+   "start": 10,
+   "end": 12,
+   "title": "The forfeit clause",
+   "text": "Lehi prophesies with terrible specificity what dwindling after such light will cost: \"he will bring other nations unto them\" (v. 11), possessions taken, \"scattered and smitten\" (v. 11), generational \"bloodsheds\" (v. 12). The father's clear sight of his seed's whole future is the pressure behind every awake that follows.",
+   "cites": [
+    {
+     "quote": "he will bring other nations unto them",
+     "verse": 11,
+     "start": 85,
+     "end": 132,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 8,
+       "text": "he will bring other nations unto them"
+      }
+     ]
+    },
+    {
+     "quote": "scattered and smitten",
+     "verse": 11,
+     "start": 153,
+     "end": 184,
+     "spans": [
+      {
+       "w1": 35,
+       "w2": 37,
+       "text": "scattered and smitten"
+      }
+     ]
+    },
+    {
+     "quote": "bloodsheds",
+     "verse": 12,
+     "start": 199,
+     "end": 219,
+     "spans": [
+      {
+       "w1": 11,
+       "w2": 11,
+       "text": "bloodsheds"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 13–15",
+   "start": 13,
+   "end": 15,
+   "title": "Reveille, and the testimony",
+   "text": "Chains, dust, the \"trembling parent\" (v. 14), the grave with no returning traveler; then the sermon's sun breaks through: \"the Lord hath redeemed my soul from hell; I have beheld his glory\" (v. 15). Lehi wakes his sons not toward duty first but toward what he himself already has: the embrace of verse 15 is the sermon's destination, shown mid-journey.",
+   "cites": [
+    {
+     "quote": "trembling parent",
+     "verse": 14,
+     "start": 18,
+     "end": 44,
+     "spans": [
+      {
+       "w1": 13,
+       "w2": 14,
+       "text": "trembling parent"
+      }
+     ]
+    },
+    {
+     "quote": "the Lord hath redeemed my soul from hell; I have beheld his glory",
+     "verse": 15,
+     "start": 122,
+     "end": 197,
+     "spans": [
+      {
+       "w1": 3,
+       "w2": 15,
+       "text": "the Lord hath redeemed my soul from hell; I have beheld his glory"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 16–20",
+   "start": 16,
+   "end": 20,
+   "title": "A father's fears, and the formula",
+   "text": "The father's constant concern, Moses' statutes-and-judgments idiom, the fear of \"the fulness of his wrath\" (v. 17), and then the covenant sentence quoted from the valley of Lemuel with both edges showing: prosper, or be \"cut off from my presence\" (v. 20). The sermon's law and its love are the same sentence.",
+   "cites": [
+    {
+     "quote": "the fulness of his wrath",
+     "verse": 17,
+     "start": 80,
+     "end": 114,
+     "spans": [
+      {
+       "w1": 32,
+       "w2": 36,
+       "text": "the fulness of his wrath"
+      }
+     ]
+    },
+    {
+     "quote": "cut off from my presence",
+     "verse": 20,
+     "start": 220,
+     "end": 254,
+     "spans": [
+      {
+       "w1": 31,
+       "w2": 35,
+       "text": "cut off from my presence"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 21–27",
+   "start": 21,
+   "end": 27,
+   "title": "Be men, and the defense",
+   "text": "Unity, the \"armor of righteousness\" (v. 23), obscurity and dust shaken off; then Lehi turns advocate: Nephi \"hath not sought for power nor authority over you\" (v. 25), his sharpness was the word's, his anger was truth, his commands were the Spirit's. The record lets a father's last public act be expert testimony for the accused.",
+   "cites": [
+    {
+     "quote": "armor of righteousness",
+     "verse": 23,
+     "start": 11,
+     "end": 43,
+     "spans": [
+      {
+       "w1": 7,
+       "w2": 9,
+       "text": "armor of righteousness"
+      }
+     ]
+    },
+    {
+     "quote": "hath not sought for power nor authority over you",
+     "verse": 25,
+     "start": 108,
+     "end": 166,
+     "spans": [
+      {
+       "w1": 34,
+       "w2": 42,
+       "text": "hath not sought for power nor authority over you"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 28–32",
+   "start": 28,
+   "end": 32,
+   "title": "The blessings, conditioned",
+   "text": "The first blessing is made portable: it rests on Laman, Lemuel, Sam, and Ishmael's sons \"if ye will hearken unto the voice of Nephi\" (v. 28), and transfers to Nephi if they will not. Zoram is sealed in, his seed with Nephi's seed, \"for the security of thy seed\" (v. 32). Inheritance in this family has become a function of hearkening.",
+   "cites": [
+    {
+     "quote": "if ye will hearken unto the voice of Nephi",
+     "verse": 28,
+     "start": 88,
+     "end": 140,
+     "spans": [
+      {
+       "w1": 22,
+       "w2": 30,
+       "text": "if ye will hearken unto the voice of Nephi"
+      }
+     ]
+    },
+    {
+     "quote": "for the security of thy seed",
+     "verse": 32,
+     "start": 231,
+     "end": 269,
+     "spans": [
+      {
+       "w1": 17,
+       "w2": 22,
+       "text": "for the security of thy seed"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "Deuteronomy, performed once more",
+   "text": "The dying lawgiver rehearses the exodus, publishes the covenant's conditions, sets blessing against cursing, and hands succession to the faithful younger man. The record opens its second book by staging the Pentateuch's close, and it expects readers to hear the rhyme."
+  },
+  {
+   "n": 2,
+   "title": "The constitutional chapter",
+   "text": "Verse 7 legislates for the whole record: liberty conditioned on service, captivity entering only by iniquity, the land cursed or blessed by its people's conduct. Every pride cycle, war, and deliverance for the next thousand years is this covenant executing its terms."
+  },
+  {
+   "n": 3,
+   "title": "Two enclosures",
+   "text": "The sermon draws captivity and salvation with the same shape: chains that bind sleepers down, arms that encircle eternally. Nobody in Lehi's account of the soul stands outside every circle; the only question the sermon leaves its hearers is which enclosure they will wake inside."
+  },
+  {
+   "n": 4,
+   "title": "Sin as sleep",
+   "text": "The chapter's word for the brothers' state is not rebellion but slumber, four times summoned awake. The figure is strategic mercy: a sleeper can be roused without being conquered, and a father can shout reveille where a judge could only sentence."
+  },
+  {
+   "n": 5,
+   "title": "How prophets get dismissed",
+   "text": "The defense of Nephi catalogs the standing methods: call the calling ambition, call the word sharpness, call the truth anger. Lehi answers each by relocating the source: the offense his sons took came from the Spirit's pressure, not the brother's temperament."
+  },
+  {
+   "n": 6,
+   "title": "The floating birthright",
+   "text": "The first blessing attaches to hearkening, not to Laman's seniority; it can rest on the accusers or transfer to the accused. The doctrine quietly settles the succession crisis before Lehi dies, and 2 Nephi 5 will show the covenant executing exactly as spoken."
+  },
+  {
+   "n": 7,
+   "title": "The covenant's first adoption",
+   "text": "Zoram's sealing shows the promises are entered by faithfulness, not lineage, one chapter before this book argues it doctrinally. What the olive tree will teach in figure, the family has already done in fact."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Rehearse the deliverances",
+    "verse_label": "v. 1",
+    "text": "Before the next hard family conversation, do what Lehi did first: recite, out loud, the specific rescues your household has already received. Warnings land differently on ground prepared by remembered mercy."
+   },
+   {
+    "title": "Read your liberty as maintained",
+    "verse_label": "v. 7",
+    "text": "List the freedoms you treat as permanent fixtures, civic and personal, and ask what conduct actually maintains each one. The covenant's math says liberty is an upkept property, not a birthright."
+   },
+   {
+    "title": "Find the comfortable chain",
+    "verse_label": "v. 13",
+    "text": "The chains of the sermon bind sleepers who do not feel them. Name the one habit that would alarm you if you saw it on someone you love, and treat your own comfort with it as the anesthesia the sermon says it is."
+   },
+   {
+    "title": "Testify inside the warning",
+    "verse_label": "v. 15",
+    "text": "When anxiety for someone makes you speak, follow Lehi's order: put what God has done for you in the same breath as what you fear for them. A warning without the encircling arms is only a forecast."
+   },
+   {
+    "title": "Defend the plain speaker",
+    "verse_label": "v. 26",
+    "text": "When someone's accurate words are being repriced as anger or ambition, say in public what Lehi said: the sharpness is the truth's, not the speaker's. The accused prophet in the room is usually defended too late."
+   },
+   {
+    "title": "Bless beyond blood",
+    "verse_label": "v. 30",
+    "text": "Find your Zoram: the person faithful to your family who is not family, and formalize the bond. Say the blessing, include their people in your people's plans; covenants grow by adoption."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "Which of my family's deliverances have my children never heard me rehearse?"
+   },
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "What iniquity, mine or ours, is currently the likeliest door for captivity into the freedoms I most prize?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "What would waking up actually change in my week: which chain would come off first?"
+   },
+   {
+    "verse_label": "v. 15",
+    "start": 15,
+    "end": 15,
+    "text": "Can I describe being encircled in God's love from inside the experience, as Lehi does, or only report about it?"
+   },
+   {
+    "verse_label": "v. 26",
+    "start": 26,
+    "end": 26,
+    "text": "Whose sharpness have I been calling anger, and what would change if I asked whose power was in it?"
+   },
+   {
+    "verse_label": "v. 28",
+    "start": 28,
+    "end": 28,
+    "text": "Where does my inheritance currently rest on my hearkening, and how is my hearing?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "2ne01-015",
+   "scope": "BOOK",
+   "head": "2 Ne. 10:11",
+   "anchor": {
+    "verse": 7,
+    "w1": 30,
+    "w2": 38,
+    "quote": "it shall be a land of liberty unto them"
+   },
+   "reason": "liberty clause repeated for the Gentiles",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 10,
+     "verse": 11,
+     "w1": 2,
+     "w2": 12,
+     "quote": "this land shall be a land of liberty unto the Gentiles",
+     "span": true
+    }
+   ],
+   "mirror": "2ne10-004"
+  },
+  {
+   "id": "2ne01-014",
+   "scope": "BOOK",
+   "head": "2 Ne. 8:24",
+   "anchor": {
+    "verse": 23,
+    "w1": 4,
+    "w2": 9,
+    "quote": "put on the armor of righteousness"
+   },
+   "reason": "Isaiah's garments issued as armor",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 8,
+     "verse": 24,
+     "w1": 9,
+     "w2": 18,
+     "quote": "put on thy beautiful garments, O Jerusalem, the holy city",
+     "span": true
+    }
+   ],
+   "mirror": "2ne08-002"
+  },
+  {
+   "id": "2ne01-013",
+   "scope": "BOOK",
+   "head": "2 Ne. 6:3",
+   "anchor": {
+    "verse": 16,
+    "w1": 19,
+    "w2": 26,
+    "quote": "this hath been the anxiety of my soul"
+   },
+   "reason": "inherited by the son he blessed",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 6,
+     "verse": 3,
+     "w1": 18,
+     "w2": 23,
+     "quote": "mine anxiety is great for you",
+     "span": true
+    }
+   ],
+   "mirror": "2ne06-001"
+  },
+  {
+   "id": "2ne01-012",
+   "scope": "BOOK",
+   "head": "2 Ne. 5:11",
+   "anchor": {
+    "verse": 20,
+    "w1": 6,
+    "w2": 18,
+    "quote": "Inasmuch as ye shall keep my commandments ye shall prosper in the land"
+   },
+   "reason": "kept, and paid as written",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 5,
+     "verse": 11,
+     "w1": 8,
+     "w2": 11,
+     "quote": "we did prosper exceedingly",
+     "span": true
+    }
+   ],
+   "mirror": "2ne05-001"
+  },
+  {
+   "id": "2ne01-011",
+   "scope": "BOOK",
+   "head": "2 Ne. 4:28",
+   "anchor": {
+    "verse": 13,
+    "w1": 6,
+    "w2": 10,
+    "quote": "awake from a deep sleep"
+   },
+   "reason": "the reveille inherited by the psalmist",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 4,
+     "verse": 28,
+     "w1": 1,
+     "w2": 8,
+     "quote": "Awake, my soul! No longer droop in sin",
+     "span": true
+    }
+   ],
+   "mirror": "2ne04-001"
+  },
+  {
+   "id": "2ne01-010",
+   "scope": "BOOK",
+   "head": "2 Ne. 3:2",
+   "anchor": {
+    "verse": 32,
+    "w1": 14,
+    "w2": 22,
+    "quote": "consecrated this land for the security of thy seed"
+   },
+   "reason": "the security clause repeated for Joseph",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 3,
+     "verse": 2,
+     "w1": 29,
+     "w2": 32,
+     "quote": "for thy security forever",
+     "span": true
+    }
+   ],
+   "mirror": "2ne03-002"
+  },
+  {
+   "id": "2ne01-009",
+   "scope": "BOOK",
+   "head": "2 Ne. 3:25",
+   "anchor": {
+    "verse": 28,
+    "w1": 22,
+    "w2": 34,
+    "quote": "if ye will hearken unto the voice of Nephi ye shall not perish"
+   },
+   "reason": "the hinge repeated for the last-born",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 3,
+     "verse": 25,
+     "w1": 12,
+     "w2": 19,
+     "quote": "hearken unto the words of thy brother, Nephi",
+     "span": true
+    }
+   ],
+   "mirror": "2ne03-001"
+  },
+  {
+   "id": "2ne01-001",
+   "scope": "BOOK",
+   "head": "2 Ne. 4:33",
+   "anchor": {
+    "verse": 15,
+    "w1": 19,
+    "w2": 27,
+    "quote": "encircled about eternally in the arms of his love"
+   },
+   "reason": "the father's embrace, prayed for by the son",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 4,
+     "verse": 33,
+     "w1": 5,
+     "w2": 13,
+     "quote": "encircle me around in the robe of thy righteousness",
+     "span": true
+    }
+   ],
+   "mirror": "2ne04-002"
+  },
+  {
+   "id": "2ne01-019",
+   "scope": "BOM",
+   "head": "W of M 1:17",
+   "anchor": {
+    "verse": 26,
+    "w1": 30,
+    "w2": 42,
+    "quote": "his sharpness was the sharpness of the power of the word of God"
+   },
+   "reason": "the same defense, applied to many prophets at once",
+   "targets": [
+    {
+     "ref": "W of M",
+     "chapter": 1,
+     "verse": 17,
+     "w1": 41,
+     "w2": 52,
+     "quote": "they did use much sharpness because of the stiffneckedness of the people",
+     "span": true
+    }
+   ],
+   "mirror": "wom01-006"
+  },
+  {
+   "id": "2ne01-018",
+   "scope": "BOM",
+   "head": "Omni 1:6",
+   "anchor": {
+    "verse": 20,
+    "w1": 20,
+    "w2": 35,
+    "quote": "inasmuch as ye will not keep my commandments ye shall be cut off from my presence"
+   },
+   "reason": "the negative half reported verified",
+   "targets": [
+    {
+     "ref": "Omni",
+     "chapter": 1,
+     "verse": 6,
+     "w1": 51,
+     "w2": 65,
+     "quote": "Inasmuch as ye will not keep my commandments ye shall not prosper in the land",
+     "span": true
+    }
+   ],
+   "mirror": "omn01-002"
+  },
+  {
+   "id": "2ne01-017",
+   "scope": "BOM",
+   "head": "Jarom 1:9",
+   "anchor": {
+    "verse": 20,
+    "w1": 6,
+    "w2": 18,
+    "quote": "Inasmuch as ye shall keep my commandments ye shall prosper in the land"
+   },
+   "reason": "the promise reported verified two centuries on",
+   "targets": [
+    {
+     "ref": "Jarom",
+     "chapter": 1,
+     "verse": 9,
+     "w1": 31,
+     "w2": 43,
+     "quote": "Inasmuch as ye will keep my commandments ye shall prosper in the land",
+     "span": true
+    }
+   ],
+   "mirror": "jar01-003"
+  },
+  {
+   "id": "2ne01-016",
+   "scope": "BOM",
+   "head": "Jacob 3:11",
+   "anchor": {
+    "verse": 13,
+    "w1": 6,
+    "w2": 10,
+    "quote": "awake from a deep sleep"
+   },
+   "reason": "the deathbed verb reused in Jacob's temple sermon",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 3,
+     "verse": 11,
+     "w1": 14,
+     "w2": 24,
+     "quote": "shake yourselves that ye may awake from the slumber of death",
+     "span": true
+    }
+   ],
+   "mirror": "jac03-005"
+  },
+  {
+   "id": "2ne01-002",
+   "scope": "BOM",
+   "head": "1 Ne. 18:10",
+   "anchor": {
+    "verse": 2,
+    "w1": 22,
+    "w2": 29,
+    "quote": "they were not swallowed up in the sea"
+   },
+   "reason": "the storm remembered in the farewell",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 18,
+     "verse": 10,
+     "w1": 24,
+     "w2": 34,
+     "quote": "we should be swallowed up in the depths of the sea",
+     "span": true
+    }
+   ],
+   "mirror": "1ne18-008"
+  },
+  {
+   "id": "2ne01-003",
+   "scope": "BOM",
+   "head": "1 Ne. 2:20",
+   "anchor": {
+    "verse": 20,
+    "w1": 6,
+    "w2": 18,
+    "quote": "Inasmuch as ye shall keep my commandments ye shall prosper in the land"
+   },
+   "reason": "the valley formula, published to all",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 2,
+     "verse": 20,
+     "w1": 2,
+     "w2": 11,
+     "quote": "inasmuch as ye shall keep my commandments, ye shall prosper",
+     "span": true
+    }
+   ],
+   "mirror": "1ne02-004"
+  },
+  {
+   "id": "2ne01-004",
+   "scope": "BOM",
+   "head": "1 Ne. 2:1",
+   "anchor": {
+    "verse": 31,
+    "w1": 2,
+    "w2": 6,
+    "quote": "because thou hast been faithful"
+   },
+   "reason": "the Lord's commendation reused for Zoram",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 2,
+     "verse": 1,
+     "w1": 36,
+     "w2": 45,
+     "quote": "because thou hast been faithful and declared unto this people",
+     "span": true
+    }
+   ],
+   "mirror": "1ne02-017"
+  },
+  {
+   "id": "2ne01-005",
+   "scope": "SW",
+   "head": "Josh. 23:14; 1 Kgs. 2:2",
+   "anchor": {
+    "verse": 14,
+    "w1": 39,
+    "w2": 46,
+    "quote": "I go the way of all the earth"
+   },
+   "reason": "the deathbed formula of Joshua and David",
+   "targets": [
+    {
+     "ref": "Josh.",
+     "chapter": 23,
+     "verse": 14,
+     "w1": 3,
+     "w2": 13,
+     "quote": "this day I am going the way of all the earth",
+     "span": true
+    },
+    {
+     "ref": "1 Kgs.",
+     "chapter": 2,
+     "verse": 2,
+     "w1": 1,
+     "w2": 17,
+     "quote": "I go the way of all the earth: be thou strong therefore, and shew thyself a man",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne01-006",
+   "scope": "SW",
+   "head": "Deut. 6:1",
+   "anchor": {
+    "verse": 16,
+    "w1": 10,
+    "w2": 17,
+    "quote": "the statutes and the judgments of the Lord"
+   },
+   "reason": "the lawgiver's idiom on new soil",
+   "targets": [
+    {
+     "ref": "Deut.",
+     "chapter": 6,
+     "verse": 1,
+     "w1": 6,
+     "w2": 16,
+     "quote": "the statutes, and the judgments, which the LORD your God commanded",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne01-007",
+   "scope": "SW",
+   "head": "Isa. 52:2",
+   "anchor": {
+    "verse": 23,
+    "w1": 20,
+    "w2": 29,
+    "quote": "come forth out of obscurity, and arise from the dust"
+   },
+   "reason": "Isaiah's summons to captive Zion reused",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 52,
+     "verse": 2,
+     "w1": 1,
+     "w2": 11,
+     "quote": "Shake thyself from the dust; arise, and sit down, O Jerusalem",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne01-008",
+   "scope": "SW",
+   "head": "Rom. 13:12",
+   "anchor": {
+    "verse": 23,
+    "w1": 4,
+    "w2": 9,
+    "quote": "put on the armor of righteousness"
+   },
+   "reason": "Paul's wake-and-arm sequence shared",
+   "targets": [
+    {
+     "ref": "Rom.",
+     "chapter": 13,
+     "verse": 12,
+     "w1": 14,
+     "w2": 28,
+     "quote": "cast off the works of darkness, and let us put on the armour of light",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 22,
+   "w2": 29,
+   "quote": "they were not swallowed up in the sea",
+   "entries": [
+    "2ne01-002"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 30,
+   "w2": 38,
+   "quote": "it shall be a land of liberty unto them",
+   "entries": [
+    "2ne01-015"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 6,
+   "w2": 10,
+   "quote": "awake from a deep sleep",
+   "entries": [
+    "2ne01-011",
+    "2ne01-016"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 39,
+   "w2": 46,
+   "quote": "I go the way of all the earth",
+   "entries": [
+    "2ne01-005"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 19,
+   "w2": 27,
+   "quote": "encircled about eternally in the arms of his love",
+   "entries": [
+    "2ne01-001"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 10,
+   "w2": 17,
+   "quote": "the statutes and the judgments of the Lord",
+   "entries": [
+    "2ne01-006"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 19,
+   "w2": 26,
+   "quote": "this hath been the anxiety of my soul",
+   "entries": [
+    "2ne01-013"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 6,
+   "w2": 18,
+   "quote": "Inasmuch as ye shall keep my commandments ye shall prosper in the land",
+   "entries": [
+    "2ne01-012",
+    "2ne01-017",
+    "2ne01-003"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 20,
+   "w2": 35,
+   "quote": "inasmuch as ye will not keep my commandments ye shall be cut off from my presence",
+   "entries": [
+    "2ne01-018"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 4,
+   "w2": 9,
+   "quote": "put on the armor of righteousness",
+   "entries": [
+    "2ne01-014",
+    "2ne01-008"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 20,
+   "w2": 29,
+   "quote": "come forth out of obscurity, and arise from the dust",
+   "entries": [
+    "2ne01-007"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 30,
+   "w2": 42,
+   "quote": "his sharpness was the sharpness of the power of the word of God",
+   "entries": [
+    "2ne01-019"
+   ]
+  },
+  {
+   "verse": 28,
+   "w1": 22,
+   "w2": 34,
+   "quote": "if ye will hearken unto the voice of Nephi ye shall not perish",
+   "entries": [
+    "2ne01-009"
+   ]
+  },
+  {
+   "verse": 31,
+   "w1": 2,
+   "w2": 6,
+   "quote": "because thou hast been faithful",
+   "entries": [
+    "2ne01-004"
+   ]
+  },
+  {
+   "verse": 32,
+   "w1": 14,
+   "w2": 22,
+   "quote": "consecrated this land for the security of thy seed",
+   "entries": [
+    "2ne01-010"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "350ecd14b79a7aaf"
+ }
+}

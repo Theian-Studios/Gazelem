@@ -1,0 +1,1017 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "1 Nephi",
+  "book_slug": "1nephi",
+  "chapter": 20,
+  "volume_order": "01",
+  "speakers": [
+   "Nephi (quoting Isaiah)"
+  ],
+  "audience": null,
+  "location": "The promised land",
+  "date": "~588–570 BC (read to his brethren; engraved ~570 BC)",
+  "unit": "Likening Isaiah (1 Nephi 19–22)",
+  "principles": [
+   "Covenant",
+   "Refining",
+   "Deliverance"
+  ],
+  "connections": 5,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The assigned reading begins",
+   "text": "This chapter is Isaiah 48, the text Nephi announced at 19:23 that he read to persuade his brethren toward their Redeemer. Everything in it is Isaiah's voice as the brass plates carried it; Nephi's own commentary waits for chapter 22, and the reading deserves to be heard first the way his brothers heard it."
+  },
+  {
+   "n": 2,
+   "title": "A Babylon still future",
+   "text": "Isaiah addresses captives of an empire that had not yet taken Jerusalem when Lehi left. The family carries a prophecy of an exile they escaped and a rescue they will never watch: to use it at all, they must liken it, which is exactly the method Nephi declared one chapter earlier."
+  },
+  {
+   "n": 3,
+   "title": "Oaths in the name",
+   "text": "Swearing \"by the name of the Lord\" (v. 1) and making mention of Israel's God were the legal reflexes of the covenant people: contracts, courts, and worship all invoked the name. Isaiah's charge is not that the oaths stopped, but that they kept running \"not in truth nor in righteousness\" (v. 1): liturgy outliving loyalty.",
+   "cites": [
+    {
+     "quote": "by the name of the Lord",
+     "verse": 1,
+     "start": 9,
+     "end": 41,
+     "spans": [
+      {
+       "w1": 36,
+       "w2": 41,
+       "text": "by the name of the Lord"
+      }
+     ]
+    },
+    {
+     "quote": "not in truth nor in righteousness",
+     "verse": 1,
+     "start": 252,
+     "end": 294,
+     "spans": [
+      {
+       "w1": 53,
+       "w2": 58,
+       "text": "not in truth nor in righteousness"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Iron sinew, brow of brass",
+   "text": "The insult is drawn from the idol-maker's shop: a neck of iron, a forehead of cast metal. People who credit graven images with prophecy (v. 5) are told they have become what they worship, metal-stiff and unable to turn. The figure was chosen for foundry people, and Nephi's family had run a forge.",
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 5)",
+     "start": 136,
+     "end": 142,
+     "verse_start": 5,
+     "verse_end": 5
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Water wealth",
+   "text": "Peace \"as a river\" (v. 18), righteousness \"as the waves of the sea\" (v. 18), seed as the sand: to desert and sea people every image in the lament is abundance in motion. The blessings mourned in verses 18–19 are the very media of this family's last three chapters, rivers, waves, and shore.",
+   "cites": [
+    {
+     "quote": "as a river",
+     "verse": 18,
+     "start": 6,
+     "end": 26,
+     "spans": [
+      {
+       "w1": 13,
+       "w2": 15,
+       "text": "as a river"
+      }
+     ]
+    },
+    {
+     "quote": "as the waves of the sea",
+     "verse": 18,
+     "start": 42,
+     "end": 75,
+     "spans": [
+      {
+       "w1": 19,
+       "w2": 24,
+       "text": "as the waves of the sea"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "The exodus, again, on purpose",
+   "text": "The chapter closes with water from the rock in the deserts, the recital Nephi himself preached at Bountiful (1 Ne. 17:29). His chosen reading ends where his own sermon did, which is presumably one reason he chose it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 17:29",
+     "start": 109,
+     "end": 120,
+     "book": "1 Ne",
+     "chapter": 17,
+     "verse_start": 29,
+     "verse_end": 29
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "term": "hearken",
+   "verse_label": "v. 1",
+   "text": "The summons verb opens the block (\"Hearken and hear this, O house of Jacob\" (v. 1)), returns at the center (\"Hearken unto me, O Jacob\" (v. 12)), and tolls the lament (\"O that thou hadst hearkened to my commandments\" (v. 18)). Hearing that obeys is the chapter's one request, made, repeated, and finally mourned in the past conditional.",
+   "cites": [
+    {
+     "quote": "Hearken and hear this, O house of Jacob",
+     "verse": 1,
+     "start": 34,
+     "end": 82,
+     "spans": [
+      {
+       "w1": 1,
+       "w2": 8,
+       "text": "Hearken and hear this, O house of Jacob"
+      }
+     ]
+    },
+    {
+     "quote": "Hearken unto me, O Jacob",
+     "verse": 12,
+     "start": 108,
+     "end": 142,
+     "spans": [
+      {
+       "w1": 1,
+       "w2": 5,
+       "text": "Hearken unto me, O Jacob"
+      }
+     ]
+    },
+    {
+     "quote": "O that thou hadst hearkened to my commandments",
+     "verse": 18,
+     "start": 167,
+     "end": 223,
+     "spans": [
+      {
+       "w1": 1,
+       "w2": 8,
+       "text": "O that thou hadst hearkened to my commandments"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "obstinate",
+   "verse_label": "v. 4",
+   "text": "The diagnosis behind all the advance prophecy: \"I knew that thou art obstinate\" (v. 4), with the metalwork to match, \"thy neck is an iron sinew, and thy brow brass\" (v. 4). The word means set in one's way past bending; the remedy through the whole chapter is not force but foreknowledge: evidence laid down before the stubbornness could dismiss it.",
+   "cites": [
+    {
+     "quote": "I knew that thou art obstinate",
+     "verse": 4,
+     "start": 47,
+     "end": 86,
+     "spans": [
+      {
+       "w1": 6,
+       "w2": 11,
+       "text": "I knew that thou art obstinate"
+      }
+     ]
+    },
+    {
+     "quote": "thy neck is an iron sinew, and thy brow brass",
+     "verse": 4,
+     "start": 117,
+     "end": 171,
+     "spans": [
+      {
+       "w1": 13,
+       "w2": 22,
+       "text": "thy neck is an iron sinew, and thy brow brass"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "out of the waters of baptism",
+   "verse_label": "v. 1",
+   "text": "The block's first variant: where the KJV reads only \"come forth out of the waters of Judah\" (Isa. 48:1), the record adds \"or out of the waters of baptism\" (v. 1). The gloss reads lineage as covenant: coming out of Judah's waters is made an image of the believer's washing, and the whole address turns from a pedigree to a baptized people holding their oaths loosely.",
+   "cites": [
+    {
+     "quote": "or out of the waters of baptism",
+     "verse": 1,
+     "start": 121,
+     "end": 161,
+     "spans": [
+      {
+       "w1": 27,
+       "w2": 33,
+       "text": "or out of the waters of baptism"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 48:1",
+     "start": 93,
+     "end": 102,
+     "book": "Isa",
+     "chapter": 48,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
+  },
+  {
+   "term": "but they do not stay themselves",
+   "verse_label": "v. 2",
+   "text": "The KJV's Israelites \"stay themselves upon the God of Israel\" (Isa. 48:2); the record reverses it: \"but they do not stay themselves upon the God of Israel\" (v. 2). One negation resolves the verse's tension: the holy-city name-dropping was never accompanied by leaning. The variant states outright the failure the KJV leaves implied between the lines.",
+   "cites": [
+    {
+     "quote": "but they do not stay themselves upon the God of Israel",
+     "verse": 2,
+     "start": 99,
+     "end": 162,
+     "spans": [
+      {
+       "w1": 9,
+       "w2": 19,
+       "text": "but they do not stay themselves upon the God of Israel"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 48:2",
+     "start": 63,
+     "end": 72,
+     "book": "Isa",
+     "chapter": 48,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
+  },
+  {
+   "term": "I have refined thee",
+   "verse_label": "v. 10",
+   "text": "The KJV qualifies: \"I have refined thee, but not with silver\" (Isa. 48:10). The record's reading drops the qualifier: \"I have refined thee, I have chosen thee in the furnace of affliction\" (v. 10). Without the aside, the verse runs as a plain double claim, refined and chosen, and the furnace stands as the choosing-place with nothing softening the line.",
+   "cites": [
+    {
+     "quote": "I have refined thee, I have chosen thee in the furnace of affliction",
+     "verse": 10,
+     "start": 118,
+     "end": 196,
+     "spans": [
+      {
+       "w1": 3,
+       "w2": 15,
+       "text": "I have refined thee, I have chosen thee in the furnace of affliction"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 48:10",
+     "start": 63,
+     "end": 73,
+     "book": "Isa",
+     "chapter": 48,
+     "verse_start": 10,
+     "verse_end": 10
+    }
+   ]
+  },
+  {
+   "term": "the furnace of affliction",
+   "verse_label": "v. 10",
+   "text": "Isaiah's own coinage, and the chapter's center of gravity. Election language everywhere else in scripture runs toward privilege; here the choosing happens inside the smelter. For hearers eight years out of the desert and weeks off a storm-run sea, the phrase relocates their whole history inside the covenant rather than outside it."
+  },
+  {
+   "term": "I will not suffer my name to be polluted",
+   "verse_label": "v. 11",
+   "text": "Where the KJV asks \"for how should my name be polluted?\" (Isa. 48:11), the record declares: \"I will not suffer my name to be polluted\" (v. 11). A rhetorical question hardens into a refusal. Deliverance for undeserving Israel is not a puzzle God wonders at; it is a boundary he announces, for his own sake, twice in one verse.",
+   "cites": [
+    {
+     "quote": "I will not suffer my name to be polluted",
+     "verse": 11,
+     "start": 92,
+     "end": 142,
+     "spans": [
+      {
+       "w1": 15,
+       "w2": 23,
+       "text": "I will not suffer my name to be polluted"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 48:11",
+     "start": 58,
+     "end": 68,
+     "book": "Isa",
+     "chapter": 48,
+     "verse_start": 11,
+     "verse_end": 11
+    }
+   ]
+  },
+  {
+   "term": "notwithstanding he hath done all this",
+   "verse_label": "v. 22",
+   "text": "The record sets a clause in front of Isaiah's flat refrain: \"And notwithstanding he hath done all this, and greater also\" (v. 22), and only then \"there is no peace, saith the Lord, unto the wicked\" (v. 22) (KJV: \"There is no peace, saith the LORD, unto the wicked,\" Isa. 48:22). The variant makes the refrain a grief instead of a verdict: after all this doing, still no peace for the wicked.",
+   "cites": [
+    {
+     "quote": "And notwithstanding he hath done all this, and greater also",
+     "verse": 22,
+     "start": 60,
+     "end": 129,
+     "spans": [
+      {
+       "w1": 1,
+       "w2": 10,
+       "text": "And notwithstanding he hath done all this, and greater also"
+      }
+     ]
+    },
+    {
+     "quote": "there is no peace, saith the Lord, unto the wicked",
+     "verse": 22,
+     "start": 145,
+     "end": 205,
+     "spans": [
+      {
+       "w1": 11,
+       "w2": 20,
+       "text": "there is no peace, saith the Lord, unto the wicked"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 48:22",
+     "start": 266,
+     "end": 276,
+     "book": "Isa",
+     "chapter": 48,
+     "verse_start": 22,
+     "verse_end": 22
+    }
+   ]
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–2",
+   "start": 1,
+   "end": 2,
+   "title": "The audience, precisely described",
+   "text": "Covenant people, called by the name, swearing by the name, \"yet they swear not in truth nor in righteousness\" (v. 1), claiming \"the holy city\" (v. 2) without leaning on its God. Read aloud on the promised land's shore, the description needs no application sentence; the men who bound a prophet mid-ocean are its living illustration.",
+   "cites": [
+    {
+     "quote": "yet they swear not in truth nor in righteousness",
+     "verse": 1,
+     "start": 59,
+     "end": 116,
+     "spans": [
+      {
+       "w1": 50,
+       "w2": 58,
+       "text": "yet they swear not in truth nor in righteousness"
+      }
+     ]
+    },
+    {
+     "quote": "the holy city",
+     "verse": 2,
+     "start": 127,
+     "end": 149,
+     "spans": [
+      {
+       "w1": 6,
+       "w2": 8,
+       "text": "the holy city"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 3–5",
+   "start": 3,
+   "end": 5,
+   "title": "Prophecy as idol-proofing",
+   "text": "The former things were declared \"from the beginning\" (v. 3) and shown \"suddenly\" (v. 3), and the stated reason is preemption: \"for fear lest thou shouldst say—Mine idol hath done them\" (v. 5). Advance notice exists so that when fulfillment comes, no graven thing can claim the credit. Foreknowledge, in this chapter, is polemic.",
+   "cites": [
+    {
+     "quote": "from the beginning",
+     "verse": 3,
+     "start": 32,
+     "end": 59,
+     "spans": [
+      {
+       "w1": 8,
+       "w2": 10,
+       "text": "from the beginning"
+      }
+     ]
+    },
+    {
+     "quote": "suddenly",
+     "verse": 3,
+     "start": 70,
+     "end": 87,
+     "spans": [
+      {
+       "w1": 27,
+       "w2": 27,
+       "text": "suddenly"
+      }
+     ]
+    },
+    {
+     "quote": "for fear lest thou shouldst say—Mine idol hath done them",
+     "verse": 5,
+     "start": 126,
+     "end": 191,
+     "spans": [
+      {
+       "w1": 24,
+       "w2": 33,
+       "text": "for fear lest thou shouldst say—Mine idol hath done them"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 6–8",
+   "start": 6,
+   "end": 8,
+   "title": "The uncomfortable memory",
+   "text": "\"Thou hast seen and heard all this\" (v. 6), and new things are shown that were withheld precisely because \"thou wouldst deal very treacherously\" (v. 8), Israel \"called a transgressor from the womb\" (v. 8). The text refuses the flattering version of election: the chosen people's file is read out loud, in full, before the mercy clause.",
+   "cites": [
+    {
+     "quote": "Thou hast seen and heard all this",
+     "verse": 6,
+     "start": 0,
+     "end": 42,
+     "spans": [
+      {
+       "w1": 1,
+       "w2": 7,
+       "text": "Thou hast seen and heard all this"
+      }
+     ]
+    },
+    {
+     "quote": "thou wouldst deal very treacherously",
+     "verse": 8,
+     "start": 106,
+     "end": 151,
+     "spans": [
+      {
+       "w1": 23,
+       "w2": 27,
+       "text": "thou wouldst deal very treacherously"
+      }
+     ]
+    },
+    {
+     "quote": "called a transgressor from the womb",
+     "verse": 8,
+     "start": 160,
+     "end": 204,
+     "spans": [
+      {
+       "w1": 30,
+       "w2": 35,
+       "text": "called a transgressor from the womb"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 9–11",
+   "start": 9,
+   "end": 11,
+   "title": "Mercy for the name's sake",
+   "text": "The logic of deliverance lands on God's character, not Israel's: \"for my name's sake will I defer mine anger\" (v. 9), refined and chosen \"in the furnace of affliction\" (v. 10), \"For mine own sake, yea, for mine own sake\" (v. 11). Nothing in the covenant's survival depends on the covenant people deserving it; everything depends on who God is.",
+   "cites": [
+    {
+     "quote": "for my name's sake will I defer mine anger",
+     "verse": 9,
+     "start": 65,
+     "end": 116,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 10,
+       "text": "for my name's sake will I defer mine anger"
+      }
+     ]
+    },
+    {
+     "quote": "in the furnace of affliction",
+     "verse": 10,
+     "start": 137,
+     "end": 175,
+     "spans": [
+      {
+       "w1": 11,
+       "w2": 15,
+       "text": "in the furnace of affliction"
+      }
+     ]
+    },
+    {
+     "quote": "For mine own sake, yea, for mine own sake",
+     "verse": 11,
+     "start": 177,
+     "end": 228,
+     "spans": [
+      {
+       "w1": 1,
+       "w2": 9,
+       "text": "For mine own sake, yea, for mine own sake"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 12–16",
+   "start": 12,
+   "end": 16,
+   "title": "The Creator takes the stand",
+   "text": "Credentials: \"I am the first, and I am also the last\" (v. 12), the hand that \"laid the foundation of the earth\" (v. 13), and a record of open speech: \"I have not spoken in secret\" (v. 16). The summons to assemble and hear (v. 14) frames Babylon's fall as a courtroom exhibit: which of the idols predicted this?",
+   "cites": [
+    {
+     "quote": "I am the first, and I am also the last",
+     "verse": 12,
+     "start": 13,
+     "end": 61,
+     "spans": [
+      {
+       "w1": 14,
+       "w2": 23,
+       "text": "I am the first, and I am also the last"
+      }
+     ]
+    },
+    {
+     "quote": "laid the foundation of the earth",
+     "verse": 13,
+     "start": 77,
+     "end": 119,
+     "spans": [
+      {
+       "w1": 5,
+       "w2": 10,
+       "text": "laid the foundation of the earth"
+      }
+     ]
+    },
+    {
+     "quote": "I have not spoken in secret",
+     "verse": 16,
+     "start": 150,
+     "end": 187,
+     "spans": [
+      {
+       "w1": 6,
+       "w2": 11,
+       "text": "I have not spoken in secret"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 14)",
+     "start": 222,
+     "end": 229,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
+  },
+  {
+   "label": "v. 17–19",
+   "start": 17,
+   "end": 19,
+   "title": "The lament of the conditional",
+   "text": "The Redeemer who \"teacheth thee to profit\" (v. 17) mourns in the past subjunctive: \"O that thou hadst hearkened\" (v. 18), peace like a river, righteousness like waves, seed like sand, none of it revoked, all of it forfeited. The saddest grammar in scripture is the blessing that had been available.",
+   "cites": [
+    {
+     "quote": "teacheth thee to profit",
+     "verse": 17,
+     "start": 17,
+     "end": 50,
+     "spans": [
+      {
+       "w1": 22,
+       "w2": 25,
+       "text": "teacheth thee to profit"
+      }
+     ]
+    },
+    {
+     "quote": "O that thou hadst hearkened",
+     "verse": 18,
+     "start": 83,
+     "end": 120,
+     "spans": [
+      {
+       "w1": 1,
+       "w2": 5,
+       "text": "O that thou hadst hearkened"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 20–22",
+   "start": 20,
+   "end": 22,
+   "title": "Flee singing, and the refrain",
+   "text": "The command is exodus with joy: \"Go ye forth of Babylon\" (v. 20), \"with a voice of singing\" (v. 20), and the proof-text is the old desert: waters from the rock, thirst answered. Then the door closes on one class only: \"there is no peace, saith the Lord, unto the wicked\" (v. 22). The reading ends with each hearer sorted by his own state.",
+   "cites": [
+    {
+     "quote": "Go ye forth of Babylon",
+     "verse": 20,
+     "start": 32,
+     "end": 64,
+     "spans": [
+      {
+       "w1": 1,
+       "w2": 5,
+       "text": "Go ye forth of Babylon"
+      }
+     ]
+    },
+    {
+     "quote": "with a voice of singing",
+     "verse": 20,
+     "start": 66,
+     "end": 99,
+     "spans": [
+      {
+       "w1": 11,
+       "w2": 15,
+       "text": "with a voice of singing"
+      }
+     ]
+    },
+    {
+     "quote": "there is no peace, saith the Lord, unto the wicked",
+     "verse": 22,
+     "start": 218,
+     "end": 278,
+     "spans": [
+      {
+       "w1": 11,
+       "w2": 20,
+       "text": "there is no peace, saith the Lord, unto the wicked"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "A pastor's choice of text",
+   "text": "Of all the Isaiah on the brass plates, Nephi reads first the chapter about covenant people whose oaths outrun their hearts, who are chastened, and who are delivered anyway for the name's sake. The description fits the ship's mutineers exactly, and the mercy fits them too; the selection is the sermon."
+  },
+  {
+   "n": 2,
+   "title": "Likening was already done by Isaiah",
+   "text": "The chapter's proof from history is the exodus (deserts, rock, water), which is also Nephi's proof from history (ch. 17), which is also the family's own itinerary (ch. 18's storm and landing). Three layers of the same pattern make the likening method nearly automatic: the text about Israel's rescue reads like their travel log.",
+   "refs": [
+    {
+     "kind": "chapter",
+     "text": "(ch. 17)",
+     "start": 112,
+     "end": 120,
+     "ch_start": 17,
+     "ch_end": 17
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "The variants sharpen, consistently in one direction",
+   "text": "Each major divergence from the KJV (the baptism gloss, the negation at v. 2, the dropped qualifier at v. 10, the declaration at v. 11, the notwithstanding at v. 22) removes an ambiguity or states an implication outright. The brass-plates reading is the more explicit text, which is what this record values in a source."
+  },
+  {
+   "n": 4,
+   "title": "Foreknowledge is aimed at idols",
+   "text": "Verses 3–7 give the record's own theory of predictive prophecy: God declares early so that rival explanations die on arrival. For hearers holding a fulfilled six-hundred-year calendar and a compass that stopped on cue, the argument is not hypothetical."
+  },
+  {
+   "n": 5,
+   "title": "The furnace reframes the family history",
+   "text": "Eight wilderness years, a broken bow, cords on a deck: chapter by chapter these read as ordeals survived. Verse 10 renames them the choosing place. Affliction as the site of election is the most direct comfort the reading offers a family that has had little else."
+  },
+  {
+   "n": 6,
+   "title": "Mercy rests on God's name, not Israel's record",
+   "text": "The chapter dares to put the indictment (transgressor from the womb) and the deliverance (for mine own sake) in the same breath. No hearer, however compromised, is argued out of the covenant; and none, verse 22 adds, is argued out of the consequences of staying wicked inside it."
+  },
+  {
+   "n": 7,
+   "title": "The refrain hands the unit forward",
+   "text": "No peace to the wicked is the reading's last word and chapter 22's opening problem: Nephi's brothers will immediately ask what all this means. The quoted block does what assigned reading does, ends without application, and the discussion is scheduled."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Audit the oaths",
+    "verse_label": "v. 1",
+    "text": "List the covenant language that passes your lips on schedule: prayers, sustainings, sacrament promises. Then ask Isaiah's question of each: sworn in truth, or running on liturgical momentum? Renew one of them this week on purpose."
+   },
+   {
+    "title": "Find your lean",
+    "verse_label": "v. 2",
+    "text": "Claiming the holy city and staying yourself on God are different acts. Name the thing you actually lean on under pressure (savings, competence, a person) and practice transferring one real weight to the God you already invoke."
+   },
+   {
+    "title": "Read your afflictions as address",
+    "verse_label": "v. 10",
+    "text": "Take the hardest season you have survived and try the verse's grammar on it: chosen in the furnace. Write what changes if that season was the site of your election rather than evidence against it."
+   },
+   {
+    "title": "Retire a rival explanation",
+    "verse_label": "v. 5",
+    "text": "Foreknowledge exists so idols get no credit. When the next answered prayer or on-time help arrives, refuse the reflex that files it under luck, timing, or your own management; say out loud where it came from."
+   },
+   {
+    "title": "Mourn one conditional, then move",
+    "verse_label": "v. 18",
+    "text": "Allow yourself one honest hour over a peace-like-a-river that obedience would have kept. Then, because the God of verse 20 commands departures with singing, leave the mourning there and take the next commandment cheerfully."
+   },
+   {
+    "title": "Leave Babylon audibly",
+    "verse_label": "v. 20",
+    "text": "Whatever you are quitting (a habit, a grudge, a crowd), Isaiah's exit instruction is a voice of singing, not a slink. Tell someone the Lord has redeemed you; the declaration is part of the departure."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "Which of my regular religious utterances would survive the phrase \"in truth and in righteousness\" appended to it?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "Where has my neck gone iron: what correction have I heard so many times that I no longer feel it land?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "Can I bear God's honest file on me in one ear and his \"for mine own sake will I not cut thee off\" in the other, or do I insist on a flattering version of being chosen?"
+   },
+   {
+    "verse_label": "v. 10",
+    "start": 10,
+    "end": 10,
+    "text": "What has the furnace refined out of me so far, and what is still in the ore?"
+   },
+   {
+    "verse_label": "v. 18",
+    "start": 18,
+    "end": 18,
+    "text": "Which forfeited river am I still standing beside, and what commandment would restart the water?"
+   },
+   {
+    "verse_label": "v. 22",
+    "start": 22,
+    "end": 22,
+    "text": "When the reading sorts its hearers at the last verse, what, honestly, is my current state, and what would change it?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "1ne20-001",
+   "scope": "BOOK",
+   "head": "1 Ne. 17:29",
+   "anchor": {
+    "verse": 21,
+    "w1": 11,
+    "w2": 20,
+    "quote": "he caused the waters to flow out of the rock"
+   },
+   "reason": "the recital Nephi preached at Bountiful",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 17,
+     "verse": 29,
+     "w1": 21,
+     "w2": 28,
+     "quote": "smote the rock, and there came forth water",
+     "span": true
+    }
+   ],
+   "mirror": "1ne17-011"
+  },
+  {
+   "id": "1ne20-002",
+   "scope": "SW",
+   "head": "Isa. 48:1",
+   "anchor": {
+    "verse": 1,
+    "w1": 1,
+    "w2": 8,
+    "quote": "Hearken and hear this, O house of Jacob"
+   },
+   "reason": "the block and its source chapter",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 48,
+     "verse": 1,
+     "w1": 1,
+     "w2": 7,
+     "quote": "Hear ye this, O house of Jacob",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "1ne20-003",
+   "scope": "SW",
+   "head": "Isa. 45:19",
+   "anchor": {
+    "verse": 16,
+    "w1": 6,
+    "w2": 11,
+    "quote": "I have not spoken in secret"
+   },
+   "reason": "Isaiah repeating his own defense",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 45,
+     "verse": 19,
+     "w1": 1,
+     "w2": 13,
+     "quote": "I have not spoken in secret, in a dark place of the earth",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "1ne20-004",
+   "scope": "SW",
+   "head": "Ps. 105:41",
+   "anchor": {
+    "verse": 21,
+    "w1": 29,
+    "w2": 32,
+    "quote": "the waters gushed out"
+   },
+   "reason": "the psalm's exodus line, word for word",
+   "targets": [
+    {
+     "ref": "Ps.",
+     "chapter": 105,
+     "verse": 41,
+     "w1": 1,
+     "w2": 9,
+     "quote": "He opened the rock, and the waters gushed out",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "1ne20-005",
+   "scope": "SW",
+   "head": "Isa. 48:22; Isa. 57:21",
+   "anchor": {
+    "verse": 22,
+    "w1": 11,
+    "w2": 20,
+    "quote": "there is no peace, saith the Lord, unto the wicked"
+   },
+   "reason": "Isaiah's refrain, sounded twice",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 48,
+     "verse": 22,
+     "w1": 1,
+     "w2": 10,
+     "quote": "There is no peace, saith the LORD, unto the wicked",
+     "span": true
+    },
+    {
+     "ref": "Isa.",
+     "chapter": 57,
+     "verse": 21,
+     "w1": 1,
+     "w2": 10,
+     "quote": "There is no peace, saith my God, to the wicked",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 1,
+   "w2": 8,
+   "quote": "Hearken and hear this, O house of Jacob",
+   "entries": [
+    "1ne20-002"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 6,
+   "w2": 11,
+   "quote": "I have not spoken in secret",
+   "entries": [
+    "1ne20-003"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 11,
+   "w2": 20,
+   "quote": "he caused the waters to flow out of the rock",
+   "entries": [
+    "1ne20-001"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 29,
+   "w2": 32,
+   "quote": "the waters gushed out",
+   "entries": [
+    "1ne20-004"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 11,
+   "w2": 20,
+   "quote": "there is no peace, saith the Lord, unto the wicked",
+   "entries": [
+    "1ne20-005"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "bcc40c5b2bbe7327"
+ }
+}

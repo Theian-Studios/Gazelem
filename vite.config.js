@@ -26,6 +26,12 @@ export default defineConfig({
   // prefix. The deploy workflow works it out from the repo name; the default
   // root is right for `vite dev` and `vite preview` locally.
   base: process.env.SITE_BASE || "/",
+  // Nothing about the site is tied to a port — no callback URL, no webhook —
+  // so it takes whichever one it is handed and only falls back to Vite's own
+  // when it is handed none. Two copies running at once (a second window, a
+  // second session) is the ordinary case, and fixing the port made the second
+  // one fail to start rather than simply stand beside the first.
+  server: { port: Number(process.env.PORT) || 5173 },
   plugins: [react(), excludeLocalStudyHelps()],
   build: {
     rollupOptions: {

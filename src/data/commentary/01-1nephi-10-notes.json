@@ -1,0 +1,1293 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "1 Nephi",
+  "book_slug": "1nephi",
+  "chapter": 10,
+  "volume_order": "01",
+  "speakers": [
+   "Nephi"
+  ],
+  "audience": null,
+  "location": "Valley of Lemuel",
+  "date": "~600 BC (in the valley of Lemuel)",
+  "unit": "Vision cycle (1 Nephi 8–15)",
+  "principles": [
+   "Messiah",
+   "Scattering and gathering",
+   "Seeking"
+  ],
+  "connections": 17,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Return was live prophecy",
+   "text": "Lehi's sequence of destruction, captivity, and return to \"possess again the land of their inheritance\" (v. 3) matched what Jeremiah was writing to the first wave of exiles in those same years: seventy years, then a return (Jer. 29:10). The family's contemporaries in Babylon were holding the same promise from the other side of it.",
+   "cites": [
+    {
+     "quote": "possess again the land of their inheritance",
+     "verse": 3,
+     "start": 57,
+     "end": 109,
+     "spans": [
+      {
+       "w1": 53,
+       "w2": 59,
+       "text": "possess again the land of their inheritance"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jer. 29:10",
+     "start": 223,
+     "end": 233,
+     "book": "Jer",
+     "chapter": 29,
+     "verse_start": 10,
+     "verse_end": 10
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "A calendar starts here",
+   "text": "\"six hundred years from the time that my father left Jerusalem\" (v. 4) gives the record its clock: from now on the volume dates itself from the departure, and later writers will count down these six centuries to the year (1 Ne. 19:8; 2 Ne. 25:19; 3 Ne. 1). Few ancient books carry so checkable an internal calendar.",
+   "cites": [
+    {
+     "quote": "six hundred years from the time that my father left Jerusalem",
+     "verse": 4,
+     "start": 0,
+     "end": 70,
+     "spans": [
+      {
+       "w1": 3,
+       "w2": 13,
+       "text": "six hundred years from the time that my father left Jerusalem"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 19:8",
+     "start": 222,
+     "end": 232,
+     "book": "1 Ne",
+     "chapter": 19,
+     "verse_start": 8,
+     "verse_end": 8
+    },
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 25:19",
+     "start": 234,
+     "end": 245,
+     "book": "2 Ne",
+     "chapter": 25,
+     "verse_start": 19,
+     "verse_end": 19
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Geography from a tent",
+   "text": "Bethabara, beyond Jordan (v. 9): a specific ford-country place-name, prophesied from a desert camp hundreds of miles away and centuries early. The record's habit of documentary detail (names, places, measures) extends even into its predictions.",
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 9)",
+     "start": 25,
+     "end": 31,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Olive culture was common knowledge",
+   "text": "Grafting wild shoots into failing stock and tame branches into wild trees was standard orchard practice in the Mediterranean world. Lehi's hearers knew the technique from life, and the full allegory behind his summary sat on the brass plates in Zenos's words (quoted at length later, Jacob 5)."
+  },
+  {
+   "n": 5,
+   "title": "Washing before the Baptist",
+   "text": "Ritual washing for purity was already old in Israel. What Lehi foresees is not the invention of water rites but their concentration into one man's mission: a wilderness voice whose whole office is preparation, described down to his humility formula (v. 8).",
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 8)",
+     "start": 249,
+     "end": 255,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "The other book",
+   "text": "Verse 15's note that the fuller record lives \"in mine other book\" (v. 15) is the two-plates system of the previous chapter already at work. This chapter is itself an example of the ministry track: a long sermon compressed to its doctrinal skeleton, with the remainder filed elsewhere.",
+   "cites": [
+    {
+     "quote": "in mine other book",
+     "verse": 15,
+     "start": 45,
+     "end": 73,
+     "spans": [
+      {
+       "w1": 42,
+       "w2": 45,
+       "text": "in mine other book"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "term": "Messiah",
+   "verse_label": "v. 4",
+   "text": "The anointed one. Lehi glosses it as he goes: \"a Messiah, or, in other words, a Savior of the world\" (v. 4), then again \"this Messiah, of whom he had spoken, or this Redeemer of the world\" (v. 5). The double translation is a teacher's habit the record inherits from him: no title is left to do its work unexplained. Savior and Redeemer are not synonyms for effect; they are the office's two jobs, named.",
+   "cites": [
+    {
+     "quote": "a Messiah, or, in other words, a Savior of the world",
+     "verse": 4,
+     "start": 46,
+     "end": 107,
+     "spans": [
+      {
+       "w1": 25,
+       "w2": 35,
+       "text": "a Messiah, or, in other words, a Savior of the world"
+      }
+     ]
+    },
+    {
+     "quote": "this Messiah, of whom he had spoken, or this Redeemer of the world",
+     "verse": 5,
+     "start": 120,
+     "end": 195,
+     "spans": [
+      {
+       "w1": 18,
+       "w2": 30,
+       "text": "this Messiah, of whom he had spoken, or this Redeemer of the world"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "dwindling",
+   "verse_label": "v. 11",
+   "text": "The slow-fade verb returns (treated at its debut, 1 Ne. 4:13), now applied prophetically to the Jews \"in unbelief\" (v. 11). One word carries the whole mechanism of a nation's fall: not conquest but forgetting, at national scale.",
+   "cites": [
+    {
+     "quote": "in unbelief",
+     "verse": 11,
+     "start": 101,
+     "end": 122,
+     "spans": [
+      {
+       "w1": 36,
+       "w2": 37,
+       "text": "in unbelief"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 4:13",
+     "start": 50,
+     "end": 60,
+     "book": "1 Ne",
+     "chapter": 4,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
+  },
+  {
+   "term": "expedient",
+   "verse_label": "v. 15",
+   "text": "The editor's selection word: profitable, fitting, serving the purpose. Nephi writes what is \"expedient for me\" (v. 15) and files the rest. After the charter of chapter 6 and the system of chapter 9, the word shows the working editor making a live cut in front of the reader.",
+   "cites": [
+    {
+     "quote": "expedient for me",
+     "verse": 15,
+     "start": 92,
+     "end": 118,
+     "spans": [
+      {
+       "w1": 39,
+       "w2": 41,
+       "text": "expedient for me"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "manifest",
+   "verse_label": "v. 17",
+   "text": "To make visible what already is. The risen Messiah \"should make himself manifest, by the Holy Ghost, unto the Gentiles\" (v. 11) — and Nephi wants the same manifesting for himself (v. 17). The word carries the chapter's theology of revelation: God's self-showing is one act with many audiences, and the Holy Ghost is its medium in every era.",
+   "cites": [
+    {
+     "quote": "should make himself manifest, by the Holy Ghost, unto the Gentiles",
+     "verse": 11,
+     "start": 51,
+     "end": 127,
+     "spans": [
+      {
+       "w1": 61,
+       "w2": 71,
+       "text": "should make himself manifest, by the Holy Ghost, unto the Gentiles"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 17)",
+     "start": 179,
+     "end": 186,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
+  },
+  {
+   "term": "probation",
+   "verse_label": "v. 21",
+   "text": "Mortality named as a testing time: \"the days of your probation\" (v. 21). The word is judicial and academic at once, a term of trial and a term of proving, and the record will build its whole doctrine of this life on it. It enters the record here already fused to the warning that the test has an end.",
+   "cites": [
+    {
+     "quote": "the days of your probation",
+     "verse": 21,
+     "start": 35,
+     "end": 71,
+     "spans": [
+      {
+       "w1": 10,
+       "w2": 14,
+       "text": "the days of your probation"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "six hundred years",
+   "verse_label": "v. 4",
+   "text": "A prophecy with a number attached is a prophecy that can fail, and the record commits anyway, then keeps the countdown running through its whole first half until the sign arrives on schedule (3 Ne. 1). The phrase teaches the record's confidence: its Messiah is not a hope placed safely outside time."
+  },
+  {
+   "term": "prepare ye the way of the Lord",
+   "verse_label": "v. 8",
+   "text": "Isaiah's wilderness cry (Isa. 40:3), quoted by Lehi about the man who would one day cry it. The borrowed sentence runs three layers deep (Isaiah's words, in the Baptist's future mouth, in Lehi's present prophecy), and the record keeps all three audible.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 40:3",
+     "start": 25,
+     "end": 34,
+     "book": "Isa",
+     "chapter": 40,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
+  },
+  {
+   "term": "the Lamb of God",
+   "verse_label": "v. 10",
+   "text": "The title makes its first appearance in the record here, in the Baptist's future testimony, and the very next chapter will take it up as the refrain of Nephi's great vision, where it names the Messiah dozens of times. The chapter plants the vocabulary the vision will spend."
+  },
+  {
+   "term": "the natural branches of the olive tree",
+   "verse_label": "v. 14",
+   "text": "Israel as orchard stock: broken off, scattered, grafted back. The compressed allegory carries a precise hope: branches are broken off alive, and grafting is a gardener's act, not a judge's. The family will learn shortly that Zenos told the whole story this way (1 Ne. 15:12–16; Jacob 5).",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 15:12–16",
+     "start": 262,
+     "end": 276,
+     "book": "1 Ne",
+     "chapter": 15,
+     "verse_start": 12,
+     "verse_end": 16
+    }
+   ]
+  },
+  {
+   "term": "the same yesterday, today, and forever",
+   "verse_label": "v. 18",
+   "text": "The constancy formula, sounded here for the first time in the record and never afterward far from its arguments. Its work in this chapter is precise: if God is the same, then the gift Nephi wants, seeing what his father saw, cannot be reserved for fathers."
+  },
+  {
+   "term": "one eternal round",
+   "verse_label": "v. 19",
+   "text": "The course of the Lord as a circle: no beginning era, no privileged generation, no point on the rim closer to the center than any other. Geometry as doctrine, and as invitation, since a round has no back row."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1",
+   "start": 1,
+   "end": 1,
+   "title": "The son's account opens",
+   "text": "Nephi re-enters with his charter terms, \"my proceedings, and my reign and ministry\" (v. 1), and must first \"speak somewhat of the things of my father\" (v. 1). The sentence is the record's structure in miniature: the son's book begins by finishing the father's.",
+   "cites": [
+    {
+     "quote": "my proceedings, and my reign and ministry",
+     "verse": 1,
+     "start": 40,
+     "end": 90,
+     "spans": [
+      {
+       "w1": 14,
+       "w2": 20,
+       "text": "my proceedings, and my reign and ministry"
+      }
+     ]
+    },
+    {
+     "quote": "speak somewhat of the things of my father",
+     "verse": 1,
+     "start": 107,
+     "end": 157,
+     "spans": [
+      {
+       "w1": 29,
+       "w2": 36,
+       "text": "speak somewhat of the things of my father"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 2–6",
+   "start": 2,
+   "end": 6,
+   "title": "History taught forward",
+   "text": "Lehi narrates the future the way scribes narrate the past: destruction, captivity, return, and then a dated Messiah. Verse 6 grounds it all in the diagnosis that makes a Redeemer necessary, all mankind \"in a lost and in a fallen state\" (v. 6): the record's first statement of its deepest doctrine.",
+   "cites": [
+    {
+     "quote": "in a lost and in a fallen state",
+     "verse": 6,
+     "start": 202,
+     "end": 242,
+     "spans": [
+      {
+       "w1": 5,
+       "w2": 12,
+       "text": "in a lost and in a fallen state"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 7–10",
+   "start": 7,
+   "end": 10,
+   "title": "The forerunner, in documentary detail",
+   "text": "A prophet before the Messiah, his message, his humility formula, his river, his place-name, and his greatest act: baptizing \"the Lamb of God, who should take away the sins of the world\" (v. 10). Prophecy at this resolution asks to be checked, and the fourth Gospel reads like its checklist (John 1:27–29).",
+   "cites": [
+    {
+     "quote": "the Lamb of God, who should take away the sins of the world",
+     "verse": 10,
+     "start": 124,
+     "end": 193,
+     "spans": [
+      {
+       "w1": 20,
+       "w2": 32,
+       "text": "the Lamb of God, who should take away the sins of the world"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "John 1:27–29",
+     "start": 291,
+     "end": 303,
+     "book": "John",
+     "chapter": 1,
+     "verse_start": 27,
+     "verse_end": 29
+    }
+   ]
+  },
+  {
+   "label": "v. 11–14",
+   "start": 11,
+   "end": 14,
+   "title": "The olive tree and the family inside it",
+   "text": "Slain and risen, the Messiah turns to the Gentiles; Israel is scattered like broken branches, and verse 13 folds the tent-dwellers themselves into the pruning: \"it must needs be that we should be led\" (v. 13). The family's exile is not outside the allegory; it is one of its cuttings.",
+   "cites": [
+    {
+     "quote": "it must needs be that we should be led",
+     "verse": 13,
+     "start": 160,
+     "end": 208,
+     "spans": [
+      {
+       "w1": 4,
+       "w2": 12,
+       "text": "it must needs be that we should be led"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 15–16",
+   "start": 15,
+   "end": 16,
+   "title": "The summarizer's honesty",
+   "text": "\"after this manner of language did my father prophesy\" (v. 15): the reporting formula from chapter 5 returns, with the fuller text filed in the other book. The record shows its edits and names the valley (v. 16), keeping even its visions pinned to a place.",
+   "cites": [
+    {
+     "quote": "after this manner of language did my father prophesy",
+     "verse": 15,
+     "start": 0,
+     "end": 62,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 10,
+       "text": "after this manner of language did my father prophesy"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 16)",
+     "start": 204,
+     "end": 211,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
+  },
+  {
+   "label": "v. 17–19",
+   "start": 17,
+   "end": 19,
+   "title": "The desire, and the door it found open",
+   "text": "Nephi hears his father and wants sight of his own: \"desirous also that I might see, and hear, and know of these things\" (v. 17), and immediately universalizes the possibility: the Holy Ghost is \"the gift of God unto all those who diligently seek him\" (v. 17), the same in every age, on a course that is \"one eternal round\" (v. 19). The next chapter is this doctrine, tested.",
+   "cites": [
+    {
+     "quote": "desirous also that I might see, and hear, and know of these things",
+     "verse": 17,
+     "start": 51,
+     "end": 127,
+     "spans": [
+      {
+       "w1": 63,
+       "w2": 75,
+       "text": "desirous also that I might see, and hear, and know of these things"
+      }
+     ]
+    },
+    {
+     "quote": "the gift of God unto all those who diligently seek him",
+     "verse": 17,
+     "start": 194,
+     "end": 258,
+     "spans": [
+      {
+       "w1": 85,
+       "w2": 95,
+       "text": "the gift of God unto all those who diligently seek him"
+      }
+     ]
+    },
+    {
+     "quote": "one eternal round",
+     "verse": 19,
+     "start": 303,
+     "end": 330,
+     "spans": [
+      {
+       "w1": 54,
+       "w2": 56,
+       "text": "one eternal round"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 20–22",
+   "start": 20,
+   "end": 22,
+   "title": "The warning welded on",
+   "text": "The chapter's soaring offer ends in its sternest voice: remember, judgment, \"no unclean thing can dwell with God\" (v. 21). The record refuses to separate the open door from the standard at the door, and Nephi signs the whole aside with his credential: \"the Holy Ghost giveth authority that I should speak these things\" (v. 22).",
+   "cites": [
+    {
+     "quote": "no unclean thing can dwell with God",
+     "verse": 21,
+     "start": 76,
+     "end": 121,
+     "spans": [
+      {
+       "w1": 26,
+       "w2": 32,
+       "text": "no unclean thing can dwell with God"
+      }
+     ]
+    },
+    {
+     "quote": "the Holy Ghost giveth authority that I should speak these things",
+     "verse": 22,
+     "start": 252,
+     "end": 326,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 12,
+       "text": "the Holy Ghost giveth authority that I should speak these things"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The handoff chapter",
+   "text": "Lehi's recorded ministry effectively closes at verse 15, and Nephi's opens at verse 17 with a desire. Between a father's last summarized sermon and a son's first independent seeking, the record performs its generational thesis: revelation is not inherited; it is re-obtained."
+  },
+  {
+   "n": 2,
+   "title": "Two resolutions of prophecy",
+   "text": "The chapter runs national arcs (captivity, return, scattering, gathering) and documentary close-ups (a place-name, a sandal-strap sentence) in the same breath. The record claims both registers for prophecy — history's shape and history's details — and stakes its credibility on each."
+  },
+  {
+   "n": 3,
+   "title": "The clock is installed",
+   "text": "From verse 4 forward, the volume has a calendar anchored to the departure, and its first half becomes a six-century countdown. Every \"so many years had passed away\" formula to come is this verse's descendant."
+  },
+  {
+   "n": 4,
+   "title": "Scattering reread as sending",
+   "text": "Verse 13 makes the family's displacement a commanded planting inside the olive allegory — scattered not as debris but as cuttings. It is the record's standing answer to its own exile grief, and the gathering promise (v. 14) gives the book its long-range plot.",
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 14)",
+     "start": 216,
+     "end": 223,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "The experiment the unit will run",
+   "text": "Verses 17–19 state a testable doctrine: the vision gift is open to all diligent seekers, any era. Chapter 11 tests it positively in Nephi; chapter 15 tests it negatively in the brothers who dispute without asking. The unit becomes a controlled trial of verse 19."
+  },
+  {
+   "n": 6,
+   "title": "Offer and bar, kept together",
+   "text": "The same aside that throws revelation open to all (v. 17–19) closes with the unclean-thing bar (v. 21). The record's habit of welding invitation to warning starts early and never relaxes; readers are not permitted to keep half the doctrine.",
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 17–19)",
+     "start": 50,
+     "end": 60,
+     "verse_start": 17,
+     "verse_end": 19
+    },
+    {
+     "kind": "verse",
+     "text": "(v. 21)",
+     "start": 95,
+     "end": 102,
+     "verse_start": 21,
+     "verse_end": 21
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "Authority, claimed plainly",
+   "text": "The chapter ends with the record's first explicit credential: \"the Holy Ghost giveth authority\" (v. 22). Nephi does not argue for his right to teach; he names its source and moves on — a model the volume's later writers will copy almost exactly.",
+   "cites": [
+    {
+     "quote": "the Holy Ghost giveth authority",
+     "verse": 22,
+     "start": 62,
+     "end": 103,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 6,
+       "text": "the Holy Ghost giveth authority"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Gloss your words",
+    "verse_label": "v. 4–5",
+    "text": "Lehi never lets a title coast: Messiah, in other words Savior, or Redeemer. Adopt the habit for one week (every churchy word you use with your family gets an \"in other words\" in plain speech) and notice which words you cannot gloss yet."
+   },
+   {
+    "title": "Write prophecy-grade notes",
+    "verse_label": "v. 8–9",
+    "text": "Lehi's foresight carried place-names and particulars. Bring the same resolution to your own promptings and blessings: record them precisely enough that they could be checked later, and then check them. Vagueness protects nothing worth keeping."
+   },
+   {
+    "title": "Reread your scattering",
+    "verse_label": "v. 13",
+    "text": "Whatever has uprooted you (move, loss, calling, market) try the verse's frame: led, not flung; a cutting, not debris. Write the sentence \"it must needs be that I should be led...\" and finish it honestly for your case."
+   },
+   {
+    "title": "Let hearing become desiring",
+    "verse_label": "v. 17",
+    "text": "Nephi's response to another man's vision was wanting his own. After the next talk or testimony that moves you, name the specific thing it made you want, then treat that want as the beginning of seeking, not the end of listening."
+   },
+   {
+    "title": "Seek like the round is real",
+    "verse_label": "v. 18–19",
+    "text": "If God is the same and the course is a circle, old-era gifts are current inventory. Choose the blessing you have quietly filed under \"other people, other times,\" and seek it diligently for one season, with a plan rather than a wish."
+   },
+   {
+    "title": "Teach the door and the doorstep",
+    "verse_label": "v. 17–21",
+    "text": "When you teach the open offer, keep the standard attached, and the reverse. Audit your last few lessons or parenting talks: which half do you habitually drop?"
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "Which words do I use about Christ that I have never once translated into other words for myself?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "What preparation work is actually mine to do before the Lord's next arrival in my life?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "Which displacement in my story might read differently if I wrote \"led\" where I have been writing \"lost\"?"
+   },
+   {
+    "verse_label": "v. 17",
+    "start": 17,
+    "end": 17,
+    "text": "When did someone else's witness last make me want my own, and what did I do inside the following week?"
+   },
+   {
+    "verse_label": "v. 19",
+    "start": 19,
+    "end": 19,
+    "text": "What am I seeking diligently, and what am I merely wishing for — and can I tell the difference by my calendar?"
+   },
+   {
+    "verse_label": "v. 21",
+    "start": 21,
+    "end": 21,
+    "text": "Does the doctrine of judgment make me remember, or make me avoid — and what does that answer tell me?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "1ne10-015",
+   "scope": "BOOK",
+   "head": "2 Ne. 2:4",
+   "anchor": {
+    "verse": 18,
+    "w1": 4,
+    "w2": 9,
+    "quote": "the same yesterday, today, and forever"
+   },
+   "reason": "argued over Jacob's blessing",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 2,
+     "verse": 4,
+     "w1": 26,
+     "w2": 34,
+     "quote": "the Spirit is the same, yesterday, today, and forever",
+     "span": true
+    }
+   ],
+   "mirror": "2ne02-001"
+  },
+  {
+   "id": "1ne10-014",
+   "scope": "BOOK",
+   "head": "1 Ne. 19:8",
+   "anchor": {
+    "verse": 4,
+    "w1": 3,
+    "w2": 13,
+    "quote": "six hundred years from the time that my father left Jerusalem"
+   },
+   "reason": "restated on the angel's authority",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 19,
+     "verse": 8,
+     "w1": 12,
+     "w2": 22,
+     "quote": "in six hundred years from the time my father left Jerusalem",
+     "span": true
+    }
+   ],
+   "mirror": "1ne19-003"
+  },
+  {
+   "id": "1ne10-013",
+   "scope": "BOOK",
+   "head": "1 Ne. 15:12",
+   "anchor": {
+    "verse": 12,
+    "w1": 21,
+    "w2": 26,
+    "quote": "compared like unto an olive tree"
+   },
+   "reason": "the summary Nephi later opens",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 15,
+     "verse": 12,
+     "w1": 7,
+     "w2": 16,
+     "quote": "the house of Israel was compared unto an olive tree",
+     "span": true
+    }
+   ],
+   "mirror": "1ne15-003"
+  },
+  {
+   "id": "1ne10-012",
+   "scope": "BOOK",
+   "head": "1 Ne. 15:8",
+   "anchor": {
+    "verse": 19,
+    "w1": 2,
+    "w2": 7,
+    "quote": "he that diligently seeketh shall find"
+   },
+   "reason": "the law the brothers put to no test",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 15,
+     "verse": 8,
+     "w1": 6,
+     "w2": 11,
+     "quote": "Have ye inquired of the Lord",
+     "span": true
+    }
+   ],
+   "mirror": "1ne15-002"
+  },
+  {
+   "id": "1ne10-011",
+   "scope": "BOOK",
+   "head": "1 Ne. 11:27",
+   "anchor": {
+    "verse": 7,
+    "w1": 6,
+    "w2": 13,
+    "quote": "a prophet who should come before the Messiah"
+   },
+   "reason": "the forerunner seen in vision",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 11,
+     "verse": 27,
+     "w1": 21,
+     "w2": 29,
+     "quote": "the prophet who should prepare the way before him",
+     "span": true
+    }
+   ],
+   "mirror": "1ne11-006"
+  },
+  {
+   "id": "1ne10-001",
+   "scope": "BOOK",
+   "head": "1 Ne. 11:1",
+   "anchor": {
+    "verse": 17,
+    "w1": 63,
+    "w2": 75,
+    "quote": "desirous also that I might see, and hear, and know of these things"
+   },
+   "reason": "the desire granted in the next chapter",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 11,
+     "verse": 1,
+     "w1": 6,
+     "w2": 18,
+     "quote": "after I had desired to know the things that my father had seen",
+     "span": true
+    }
+   ],
+   "mirror": "1ne11-001"
+  },
+  {
+   "id": "1ne10-017",
+   "scope": "BOM",
+   "head": "Jacob 5:68",
+   "anchor": {
+    "verse": 14,
+    "w1": 44,
+    "w2": 47,
+    "quote": "should be grafted in"
+   },
+   "reason": "the allegory Lehi's figure comes from",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 5,
+     "verse": 68,
+     "w1": 19,
+     "w2": 33,
+     "quote": "thus will I bring them together again, that they shall bring forth the natural fruit",
+     "span": true
+    }
+   ],
+   "mirror": "jac05-003"
+  },
+  {
+   "id": "1ne10-016",
+   "scope": "BOM",
+   "head": "2 Ne. 9:27",
+   "anchor": {
+    "verse": 21,
+    "w1": 10,
+    "w2": 14,
+    "quote": "the days of your probation"
+   },
+   "reason": "the term Jacob later says can be wasted",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 9,
+     "verse": 27,
+     "w1": 26,
+     "w2": 32,
+     "quote": "that wasteth the days of his probation",
+     "span": true
+    }
+   ],
+   "mirror": "2ne09-005"
+  },
+  {
+   "id": "1ne10-002",
+   "scope": "BOM",
+   "head": "Mosiah 16:4",
+   "anchor": {
+    "verse": 6,
+    "w1": 5,
+    "w2": 12,
+    "quote": "in a lost and in a fallen state"
+   },
+   "reason": "Abinadi expounds the same axiom",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 16,
+     "verse": 4,
+     "w1": 18,
+     "w2": 27,
+     "quote": "God redeemed his people from their lost and fallen state",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "1ne10-003",
+   "scope": "BOM",
+   "head": "Jacob 5:3",
+   "anchor": {
+    "verse": 12,
+    "w1": 21,
+    "w2": 26,
+    "quote": "compared like unto an olive tree"
+   },
+   "reason": "Zenos's full allegory behind the summary",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 5,
+     "verse": 3,
+     "w1": 7,
+     "w2": 20,
+     "quote": "I will liken thee, O house of Israel, like unto a tame olive tree",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "1ne10-004",
+   "scope": "BOM",
+   "head": "Alma 11:37",
+   "anchor": {
+    "verse": 21,
+    "w1": 26,
+    "w2": 32,
+    "quote": "no unclean thing can dwell with God"
+   },
+   "reason": "the bar restated at a trial",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 11,
+     "verse": 37,
+     "w1": 26,
+     "w2": 34,
+     "quote": "no unclean thing can inherit the kingdom of heaven",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "1ne10-005",
+   "scope": "SW",
+   "head": "Jer. 29:10",
+   "anchor": {
+    "verse": 3,
+    "w1": 29,
+    "w2": 32,
+    "quote": "they should return again"
+   },
+   "reason": "the same return promised to the exiles",
+   "targets": [
+    {
+     "ref": "Jer.",
+     "chapter": 29,
+     "verse": 10,
+     "w1": 25,
+     "w2": 32,
+     "quote": "in causing you to return to this place",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "1ne10-006",
+   "scope": "SW",
+   "head": "Isa. 40:3; John 1:27",
+   "anchor": {
+    "verse": 8,
+    "w1": 12,
+    "w2": 23,
+    "quote": "Prepare ye the way of the Lord, and make his paths straight"
+   },
+   "reason": "Isaiah's cry and the Baptist's own words",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 40,
+     "verse": 3,
+     "w1": 10,
+     "w2": 16,
+     "quote": "Prepare ye the way of the LORD",
+     "span": true
+    },
+    {
+     "ref": "John",
+     "chapter": 1,
+     "verse": 27,
+     "w1": 12,
+     "w2": 20,
+     "quote": "whose shoe's latchet I am not worthy to unloose",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "1ne10-007",
+   "scope": "SW",
+   "head": "John 1:28–29",
+   "anchor": {
+    "verse": 9,
+    "w1": 5,
+    "w2": 11,
+    "quote": "he should baptize in Bethabara, beyond Jordan"
+   },
+   "reason": "the prophecy checked to the place-name",
+   "targets": [
+    {
+     "ref": "John",
+     "chapter": 1,
+     "verse": 28,
+     "w1": 1,
+     "w2": 8,
+     "quote": "These things were done in Bethabara beyond Jordan",
+     "span": true
+    },
+    {
+     "ref": "John",
+     "chapter": 1,
+     "verse": 29,
+     "w1": 12,
+     "w2": 24,
+     "quote": "Behold the Lamb of God, which taketh away the sin of the world",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "1ne10-008",
+   "scope": "SW",
+   "head": "Rom. 11:17",
+   "anchor": {
+    "verse": 14,
+    "w1": 44,
+    "w2": 47,
+    "quote": "should be grafted in"
+   },
+   "reason": "Paul's wild-olive grafting, same orchard",
+   "targets": [
+    {
+     "ref": "Rom.",
+     "chapter": 11,
+     "verse": 17,
+     "w1": 11,
+     "w2": 21,
+     "quote": "thou, being a wild olive tree, wert grafted in among them",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "1ne10-009",
+   "scope": "SW",
+   "head": "Heb. 13:8; Morm. 9:9",
+   "anchor": {
+    "verse": 18,
+    "w1": 4,
+    "w2": 9,
+    "quote": "the same yesterday, today, and forever"
+   },
+   "reason": "the constancy formula in both canons",
+   "targets": [
+    {
+     "ref": "Heb.",
+     "chapter": 13,
+     "verse": 8,
+     "w1": 1,
+     "w2": 11,
+     "quote": "Jesus Christ the same yesterday, and to day, and for ever",
+     "span": true
+    },
+    {
+     "ref": "Morm.",
+     "chapter": 9,
+     "verse": 9,
+     "w1": 7,
+     "w2": 14,
+     "quote": "God is the same yesterday, today, and forever",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "1ne10-010",
+   "scope": "SW",
+   "head": "Matt. 7:8",
+   "anchor": {
+    "verse": 19,
+    "w1": 2,
+    "w2": 7,
+    "quote": "he that diligently seeketh shall find"
+   },
+   "reason": "the Sermon's promise, already preached",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 7,
+     "verse": 8,
+     "w1": 8,
+     "w2": 11,
+     "quote": "he that seeketh findeth",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 3,
+   "w1": 29,
+   "w2": 32,
+   "quote": "they should return again",
+   "entries": [
+    "1ne10-005"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 3,
+   "w2": 13,
+   "quote": "six hundred years from the time that my father left Jerusalem",
+   "entries": [
+    "1ne10-014"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 5,
+   "w2": 12,
+   "quote": "in a lost and in a fallen state",
+   "entries": [
+    "1ne10-002"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 6,
+   "w2": 13,
+   "quote": "a prophet who should come before the Messiah",
+   "entries": [
+    "1ne10-011"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 12,
+   "w2": 23,
+   "quote": "Prepare ye the way of the Lord, and make his paths straight",
+   "entries": [
+    "1ne10-006"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 5,
+   "w2": 11,
+   "quote": "he should baptize in Bethabara, beyond Jordan",
+   "entries": [
+    "1ne10-007"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 21,
+   "w2": 26,
+   "quote": "compared like unto an olive tree",
+   "entries": [
+    "1ne10-013",
+    "1ne10-003"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 44,
+   "w2": 47,
+   "quote": "should be grafted in",
+   "entries": [
+    "1ne10-017",
+    "1ne10-008"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 63,
+   "w2": 75,
+   "quote": "desirous also that I might see, and hear, and know of these things",
+   "entries": [
+    "1ne10-001"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 4,
+   "w2": 9,
+   "quote": "the same yesterday, today, and forever",
+   "entries": [
+    "1ne10-015",
+    "1ne10-009"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 2,
+   "w2": 7,
+   "quote": "he that diligently seeketh shall find",
+   "entries": [
+    "1ne10-012",
+    "1ne10-010"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 10,
+   "w2": 14,
+   "quote": "the days of your probation",
+   "entries": [
+    "1ne10-016"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 26,
+   "w2": 32,
+   "quote": "no unclean thing can dwell with God",
+   "entries": [
+    "1ne10-004"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "fb1c9e4751a686c3"
+ }
+}

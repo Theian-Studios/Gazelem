@@ -1,0 +1,893 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "2 Nephi",
+  "book_slug": "2nephi",
+  "chapter": 8,
+  "volume_order": "02",
+  "speakers": [
+   "Jacob (quoting Isaiah)"
+  ],
+  "audience": null,
+  "location": "The land of Nephi",
+  "date": "~559–545 BC (Jacob's sermon)",
+  "unit": "Jacob's covenant sermon (2 Nephi 6–10)",
+  "principles": [
+   "Comfort",
+   "Awakening",
+   "Redemption"
+  ],
+  "connections": 9,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Two source chapters, read as one",
+   "text": "Verses 1 through 23 are Isaiah 51; verses 24 and 25 are Isaiah 52:1–2. Jacob reads across the break without pausing and then stops, one verse short of the messenger on the mountains. Where a reader begins and ends a reading is itself a decision, and this one keeps the sermon's subject on waking rather than on good tidings."
+  },
+  {
+   "n": 2,
+   "title": "A quarry and a pit",
+   "text": "The opening image is stonecutting. Israel is told to look at the rock it was cut from and the hole it was dug out of, which for a people who built with dressed stone was an ordinary sight. The point is ancestry, and the next verse names the quarry: Abraham and Sarah, one couple, childless a long time."
+  },
+  {
+   "n": 3,
+   "title": "Rahab and the dragon",
+   "text": "Verse 9 reaches back past Israel's history into older poetry, where the sea is a monster the Creator subdues. Israel's writers used the name for Egypt as well, so the line does double duty: the God who beat the chaos of the deep is the God who beat Pharaoh at the same water."
+  },
+  {
+   "n": 4,
+   "title": "The cup of staggering",
+   "text": "Verses 17 through 22 run on a picture of forced drinking. A city is handed a cup, drains it to the sediment, and lies in the street unable to stand. Wine imagery for judgment was common in the prophets, and the mercy in this passage is not that the cup was never poured but that it changes hands."
+  },
+  {
+   "n": 5,
+   "title": "Zion's clothes",
+   "text": "The last two verses dress a city: strength put on like a garment, beautiful garments over that, then the neck loosed from its bands. Captives were shown bound at the neck in the art of the empires that took them, so the final image undoes a picture the hearers would have recognized."
+  },
+  {
+   "n": 6,
+   "title": "\"The isles shall wait upon me.\"",
+   "text": "Verse 5 puts distant coasts among those who trust the Lord's arm. Nephi had already used Isaiah's islands to locate his own people, tracing scattered Israel to \"the isles of the sea\" (1 Ne. 19:16), and Jacob will say plainly in two chapters that this is where they live. A line that reads as poetic geography to most hearers was an address to this one.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 19:16",
+     "start": 184,
+     "end": 195,
+     "book": "1 Ne",
+     "chapter": 19,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "term": "hewn",
+   "verse_label": "v. 1",
+   "text": "A quarry word: stone cut free from bedrock with tools. It is not a gentle image. Being hewn means being separated by force from the mass you came out of, and shaped afterward. Set against \"digged\" (v. 1) in the same breath, the pair describes a people made by extraction, and it prepares the argument of verse 2: one old couple was the bedrock, and everything after them is quarried.",
+   "cites": [
+    {
+     "quote": "digged",
+     "verse": 1,
+     "start": 188,
+     "end": 203,
+     "spans": [
+      {
+       "w1": 29,
+       "w2": 29,
+       "text": "digged"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "comfort",
+   "verse_label": "v. 3",
+   "text": "The chapter's spine. God will \"comfort Zion\" and \"comfort all her waste places\" (v. 3); the speaker identifies himself as the one \"that comforteth you\" (v. 12); and at the low point the question turns back on itself, \"by whom shall I comfort thee?\" (v. 19). The older sense carries strength in it rather than only consolation, and the sequence runs from promise to person to problem and back.",
+   "cites": [
+    {
+     "quote": "comfort all her waste places",
+     "verse": 3,
+     "start": 49,
+     "end": 86,
+     "spans": [
+      {
+       "w1": 9,
+       "w2": 13,
+       "text": "comfort all her waste places"
+      }
+     ]
+    },
+    {
+     "quote": "that comforteth you",
+     "verse": 12,
+     "start": 130,
+     "end": 159,
+     "spans": [
+      {
+       "w1": 8,
+       "w2": 10,
+       "text": "that comforteth you"
+      }
+     ]
+    },
+    {
+     "quote": "by whom shall I comfort thee?",
+     "verse": 19,
+     "start": 217,
+     "end": 256,
+     "spans": [
+      {
+       "w1": 23,
+       "w2": 28,
+       "text": "by whom shall I comfort thee?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "awake",
+   "verse_label": "v. 9",
+   "text": "Three summons, and they do not all point the same way. First the people wake God's arm (v. 9); then Jerusalem is told to stand up (v. 17); then Zion is told to put on strength (v. 24). The verb starts as a prayer and ends as a command, which is the chapter's argument in miniature: the arm was never asleep, and the waking required is on the other side.",
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 9)",
+     "start": 87,
+     "end": 93,
+     "verse_start": 9,
+     "verse_end": 9
+    },
+    {
+     "kind": "verse",
+     "text": "(v. 17)",
+     "start": 130,
+     "end": 137,
+     "verse_start": 17,
+     "verse_end": 17
+    },
+    {
+     "kind": "verse",
+     "text": "(v. 24)",
+     "start": 176,
+     "end": 183,
+     "verse_start": 24,
+     "verse_end": 24
+    }
+   ]
+  },
+  {
+   "term": "dregs",
+   "verse_label": "v. 17",
+   "text": "What is left in the bottom of the cup after everything drinkable is gone: sediment, bitterness, the part no one drinks by choice. Jerusalem is described as having drunk that far down and then \"wrung out\" (v. 17) the last of it. The word measures how complete the judgment was, which is what makes the handoff in verse 22 something other than a light pardon.",
+   "cites": [
+    {
+     "quote": "wrung out",
+     "verse": 17,
+     "start": 192,
+     "end": 211,
+     "spans": [
+      {
+       "w1": 30,
+       "w2": 31,
+       "text": "wrung out"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "uncircumcised",
+   "verse_label": "v. 24",
+   "text": "The term marks outsiders by the covenant sign rather than by nation, and it is paired here with \"unclean\" (v. 24), a worship word. The promise is not that Jerusalem will never see foreigners again but that what enters her will match what she is. For a colony that had just built a temple in a new land, the standard was immediately practical.",
+   "cites": [
+    {
+     "quote": "unclean",
+     "verse": 24,
+     "start": 96,
+     "end": 113,
+     "spans": [
+      {
+       "w1": 32,
+       "w2": 32,
+       "text": "unclean"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "in whose heart I have written my law",
+   "verse_label": "v. 7",
+   "text": "The KJV says the law is there: \"the people in whose heart is my law\" (Isa. 51:7). This reading says who put it there. A statement of fact becomes an act with an author, and the sentence lands where Jeremiah, writing in Lehi's own city and decade, promised God would \"write it in their hearts\" (Jer. 31:33). The variant is small and the shift is large: heart-law is not the people's achievement.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 51:7",
+     "start": 70,
+     "end": 79,
+     "book": "Isa",
+     "chapter": 51,
+     "verse_start": 7,
+     "verse_end": 7
+    },
+    {
+     "kind": "scripture",
+     "text": "Jer. 31:33",
+     "start": 294,
+     "end": 304,
+     "book": "Jer",
+     "chapter": 31,
+     "verse_start": 33,
+     "verse_end": 33
+    }
+   ]
+  },
+  {
+   "term": "Art thou not he",
+   "verse_label": "v. 9",
+   "text": "Twice the KJV addresses the arm of the Lord as a thing: \"Art thou not it that hath cut Rahab\" (Isa. 51:9), and the same again in the next verse. Here it is \"he\" both times. An arm is a figure of speech; a \"he\" is somebody. Jacob is reading to a people who have already been told their God will come in the flesh, and the pronoun quietly does what the whole sermon is doing.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 51:9",
+     "start": 95,
+     "end": 104,
+     "book": "Isa",
+     "chapter": 51,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
+  },
+  {
+   "term": "everlasting joy and holiness",
+   "verse_label": "v. 11",
+   "text": "Isaiah's line elsewhere promises \"everlasting joy shall be upon their head\" (Isa. 35:10), and Isaiah 51:11 matches it. This reading adds a second thing to the crown: joy and holiness. The redeemed do not come home only happy. The addition also changes what the return is for, since holiness is the temple's word and Zion is the destination.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 35:10",
+     "start": 77,
+     "end": 87,
+     "book": "Isa",
+     "chapter": 35,
+     "verse_start": 10,
+     "verse_end": 10
+    }
+   ]
+  },
+  {
+   "term": "I am he; yea, I am he that comforteth you",
+   "verse_label": "v. 12",
+   "text": "The KJV's \"I, even I, am he that comforteth you\" (Isa. 51:12) becomes a doubled self-naming, the claim made once and then made again. The grammar matters more than it looks: a comforter who has to be identified twice is speaking to someone who has stopped expecting comfort from that quarter, and the verse goes straight on to ask why such a person is afraid of a man made of grass.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 51:12",
+     "start": 50,
+     "end": 60,
+     "book": "Isa",
+     "chapter": 51,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
+  },
+  {
+   "term": "the Lord of Hosts is my name",
+   "verse_label": "v. 15",
+   "text": "The KJV finishes this verse in the third person, \"The LORD of hosts is his name\" (Isa. 51:15), as though a narrator stepped in. Here the speaker keeps the sentence: my name. Nothing in the chapter is reported about God from outside; the whole comfort is delivered first-hand, and the change also drops the KJV's parenthetical about dividing the sea, leaving the roaring waves as the only exhibit.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 51:15",
+     "start": 82,
+     "end": 92,
+     "book": "Isa",
+     "chapter": 51,
+     "verse_start": 15,
+     "verse_end": 15
+    }
+   ]
+  },
+  {
+   "term": "These two sons are come unto thee",
+   "verse_label": "v. 19",
+   "text": "The KJV names \"These two things\" (Isa. 51:19), an abstract pair. This reading calls them sons, and the surrounding verses make the change work: verse 18 has no son to guide her, verse 20 has sons fainting in the streets. Desolation and famine arrive as children of the house. Verse 20 then adds a clause the KJV lacks, \"save these two\" (v. 20), so the two grim sons are the only ones still standing when the rest have fallen.",
+   "cites": [
+    {
+     "quote": "save these two",
+     "verse": 20,
+     "start": 319,
+     "end": 343,
+     "spans": [
+      {
+       "w1": 5,
+       "w2": 7,
+       "text": "save these two"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 51:19",
+     "start": 34,
+     "end": 44,
+     "book": "Isa",
+     "chapter": 51,
+     "verse_start": 19,
+     "verse_end": 19
+    }
+   ]
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–2",
+   "start": 1,
+   "end": 2,
+   "title": "Look down, then look back",
+   "text": "The command is to inspect your own origin, and the evidence offered is not a nation but a couple: \"for I called him alone, and blessed him\" (v. 2). A people that felt small was told to remember it started smaller. This is argument by arithmetic, and it is aimed at exiles who could count their own numbers on a single beach.",
+   "cites": [
+    {
+     "quote": "for I called him alone, and blessed him",
+     "verse": 2,
+     "start": 98,
+     "end": 146,
+     "spans": [
+      {
+       "w1": 13,
+       "w2": 20,
+       "text": "for I called him alone, and blessed him"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 3",
+   "start": 3,
+   "end": 3,
+   "title": "Waste places, and what they become",
+   "text": "Comfort here is not a feeling but a landscape change: wilderness to Eden, desert to the garden of the Lord, with sound added last, \"thanksgiving and the voice of melody\" (v. 3). The promise moves from ruin to the first garden in scripture, skipping over mere repair. Nothing is restored to what it was; it is made better than it was.",
+   "cites": [
+    {
+     "quote": "thanksgiving and the voice of melody",
+     "verse": 3,
+     "start": 131,
+     "end": 176,
+     "spans": [
+      {
+       "w1": 38,
+       "w2": 43,
+       "text": "thanksgiving and the voice of melody"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 6–8",
+   "start": 6,
+   "end": 8,
+   "title": "What wears out, and what does not",
+   "text": "Heavens vanish like smoke, earth ages like clothing, and the people who mock the righteous get eaten by moths and worms. Against all that decay two things are said twice to last: \"my salvation shall be forever\" (v. 6), \"my righteousness shall be forever\" (v. 8). The instruction in between is simply to stop being afraid of temporary people.",
+   "cites": [
+    {
+     "quote": "my salvation shall be forever",
+     "verse": 6,
+     "start": 179,
+     "end": 217,
+     "spans": [
+      {
+       "w1": 42,
+       "w2": 46,
+       "text": "my salvation shall be forever"
+      }
+     ]
+    },
+    {
+     "quote": "my righteousness shall be forever",
+     "verse": 8,
+     "start": 219,
+     "end": 261,
+     "spans": [
+      {
+       "w1": 20,
+       "w2": 24,
+       "text": "my righteousness shall be forever"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 9–11",
+   "start": 9,
+   "end": 11,
+   "title": "Waking the arm",
+   "text": "The prayer is bold to the edge of rudeness: put on strength, wake up, do again what you did to Rahab and the sea. Then the memory of the exodus turns into the future without a seam, and the ransomed walk home singing. It is worth noticing that the prayer asks for nothing new. The whole request is for a repeat performance."
+  },
+  {
+   "label": "v. 12–13",
+   "start": 12,
+   "end": 13,
+   "title": "Afraid of grass",
+   "text": "God's answer to the prayer is a question about fear. The oppressor is \"man, who shall die\" (v. 12), grass in the end, while the one forgotten is the maker of heaven and earth. The last line refuses to argue further: \"And where is the fury of the oppressor?\" (v. 13). Empires that terrify a generation are often unfindable within two.",
+   "cites": [
+    {
+     "quote": "man, who shall die",
+     "verse": 12,
+     "start": 70,
+     "end": 98,
+     "spans": [
+      {
+       "w1": 21,
+       "w2": 24,
+       "text": "man, who shall die"
+      }
+     ]
+    },
+    {
+     "quote": "And where is the fury of the oppressor?",
+     "verse": 13,
+     "start": 216,
+     "end": 265,
+     "spans": [
+      {
+       "w1": 40,
+       "w2": 47,
+       "text": "And where is the fury of the oppressor?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 17–20",
+   "start": 17,
+   "end": 20,
+   "title": "The city in the street",
+   "text": "The most brutal picture in the chapter shows Jerusalem drunk on judgment, with no child able to take her hand, her sons down \"as a wild bull in a net\" (v. 20). The text does not soften it and does not blame anyone else. It sits with the scene long enough that the reversal, when it comes, has something to reverse.",
+   "cites": [
+    {
+     "quote": "as a wild bull in a net",
+     "verse": 20,
+     "start": 125,
+     "end": 158,
+     "spans": [
+      {
+       "w1": 17,
+       "w2": 23,
+       "text": "as a wild bull in a net"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 22–25",
+   "start": 22,
+   "end": 25,
+   "title": "The cup changes hands",
+   "text": "God takes the cup out of Jerusalem's hand and gives it to those who told her to lie down so they could walk over her. Then come the three commands: wake, dress, loosen. A city that could not stand is told to stand, and the neck that wore the bands is the same neck. Deliverance in this chapter is never a change of person, only of posture."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The sermon's second half turns to the hearer",
+   "text": "The previous reading ended with people walking by their own sparks and lying down in sorrow. This one opens with a summons to look at the rock they were cut from and closes with a command to stand up and get dressed. Between the two chapters the burden shifts from what God has not done to what Israel has not yet done."
+  },
+  {
+   "n": 2,
+   "title": "The waking runs both directions",
+   "text": "Verse 9 wakes God; verses 17 and 24 wake the city. Placing the human summons after the divine one settles the order of the argument: the arm answers, and the answer takes the form of an instruction. A reader who prays verse 9 should expect to be handed verse 24."
+  },
+  {
+   "n": 3,
+   "title": "The variants make the arm personal",
+   "text": "Twice the arm of the Lord is addressed as \"he\" where the KJV says \"it,\" the law is written in the heart by a named writer, the name is claimed in the first person, and the two calamities become sons. The direction is consistent: figures of speech become people, and reports become speech from the person himself."
+  },
+  {
+   "n": 4,
+   "title": "Comfort is the chapter's measure, and it is tested",
+   "text": "The word arrives as a promise about ruined places, returns as a self-introduction, and then appears as a question with no obvious answer while the city lies in the street. A chapter that used the word only in the promise would be thinner. This one lets the promise be interrogated by the worst verse in it."
+  },
+  {
+   "n": 5,
+   "title": "Jacob stops the reading before the good tidings",
+   "text": "Isaiah 52 moves within a few verses to the feet on the mountains that publish peace, a passage this record quotes at length elsewhere. Ending at the loosened neck keeps his hearers on the summons rather than on the announcement, and leaves the announcement available for the preachers who come after him."
+  },
+  {
+   "n": 6,
+   "title": "The colony had been living on this vocabulary",
+   "text": "Lehi's last charge to his sons borrowed the awake-and-arise summons and turned the beautiful garments into armor. Hearing the source read aloud after the father's death puts the family's own history inside a text older than the family, which is exactly the use Jacob claimed for Isaiah when he began."
+  },
+  {
+   "n": 7,
+   "title": "The unit's pivot toward deliverance",
+   "text": "Two chapters of reading have set out the problem and the summons; the cup handed to the oppressor is the first act of rescue performed rather than promised. Jacob's own great chapter follows immediately, and its argument about the reach of the atonement starts from a hearer who has just been told to stand up."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Visit your quarry",
+    "verse_label": "v. 1–2",
+    "text": "Write down the smallest beginning in your own line: the ancestor who joined alone, the branch that started with one convert, the year your family had nothing. When a present shortfall looks disqualifying, the rock you were cut from is the first evidence to consult."
+   },
+   {
+    "title": "Name the moth",
+    "verse_label": "v. 7–8",
+    "text": "Identify one criticism or social pressure currently shaping your choices, then ask honestly how long it will outlive you. The chapter does not tell the fearful person to argue back. It tells them to check the expiration date on what frightens them."
+   },
+   {
+    "title": "Pray for a repeat, not a novelty",
+    "verse_label": "v. 9–10",
+    "text": "Ask God to do again, in your circumstance, something he has already done in the record or in your own history. Naming the earlier act is part of the prayer. This chapter's boldest petition is entirely made of memory."
+   },
+   {
+    "title": "Sit with the street scene before the rescue",
+    "verse_label": "v. 17–20",
+    "text": "When comforting someone, resist the urge to arrive at reversal in the first sentence. Isaiah lets the city lie there for four verses. Match the length of the acknowledgment to the size of the loss, then speak about the cup changing hands."
+   },
+   {
+    "title": "Hand back the cup you were handed",
+    "verse_label": "v. 22–23",
+    "text": "Notice where you are passing on the treatment you received. The verse gives the cup to the oppressors, not to the victim's next acquaintance. Choose one inherited pattern this week and refuse to serve it to someone downstream of you."
+   },
+   {
+    "title": "Get dressed on purpose",
+    "verse_label": "v. 24",
+    "text": "The summons is not to feel stronger but to put strength on, and then to put beautiful garments over it. Pick the concrete act you have been waiting to feel ready for, and do it in the order the verse gives: stand, dress, then go."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What is the \"called him alone\" moment in my own history, and when did I last count from it instead of from my current numbers?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "Which waste place in my life am I asking God to repair, when the promise on offer is a garden?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What has God already done for me that I would be bold enough to ask him to do again, in those words?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "Who is the man made of grass whose opinion currently sets my schedule?"
+   },
+   {
+    "verse_label": "v. 19",
+    "start": 19,
+    "end": 19,
+    "text": "When there was no one to guide me, who did come, and did I recognize them as sent?"
+   },
+   {
+    "verse_label": "v. 25",
+    "start": 25,
+    "end": 25,
+    "text": "What band is still around my neck that this chapter says I am the one to loose?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "2ne08-001",
+   "scope": "BOOK",
+   "head": "2 Ne. 7:9",
+   "anchor": {
+    "verse": 8,
+    "w1": 1,
+    "w2": 10,
+    "quote": "For the moth shall eat them up like a garment"
+   },
+   "reason": "moth and garment, one reading later",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 7,
+     "verse": 9,
+     "w1": 19,
+     "w2": 30,
+     "quote": "wax old as a garment, and the moth shall eat them up",
+     "span": true
+    }
+   ],
+   "mirror": "2ne07-003"
+  },
+  {
+   "id": "2ne08-002",
+   "scope": "BOOK",
+   "head": "2 Ne. 1:23",
+   "anchor": {
+    "verse": 24,
+    "w1": 9,
+    "w2": 18,
+    "quote": "put on thy beautiful garments, O Jerusalem, the holy city"
+   },
+   "reason": "Lehi dressed his sons in armor",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 1,
+     "verse": 23,
+     "w1": 4,
+     "w2": 9,
+     "quote": "put on the armor of righteousness",
+     "span": true
+    }
+   ],
+   "mirror": "2ne01-014"
+  },
+  {
+   "id": "2ne08-003",
+   "scope": "BOM",
+   "head": "3 Ne. 20:36",
+   "anchor": {
+    "verse": 24,
+    "w1": 1,
+    "w2": 8,
+    "quote": "Awake, awake, put on thy strength, O Zion"
+   },
+   "reason": "the risen Lord reads it back",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 20,
+     "verse": 36,
+     "w1": 22,
+     "w2": 31,
+     "quote": "put on thy beautiful garments, O Jerusalem, the holy city",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "2ne08-004",
+   "scope": "BOM",
+   "head": "Moro. 10:31",
+   "anchor": {
+    "verse": 25,
+    "w1": 1,
+    "w2": 5,
+    "quote": "Shake thyself from the dust"
+   },
+   "reason": "the record's last page borrows it",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 10,
+     "verse": 31,
+     "w1": 4,
+     "w2": 9,
+     "quote": "arise from the dust, O Jerusalem",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "2ne08-005",
+   "scope": "SW",
+   "head": "Isa. 51:1",
+   "anchor": {
+    "verse": 1,
+    "w1": 1,
+    "w2": 8,
+    "quote": "Hearken unto me, ye that follow after righteousness"
+   },
+   "reason": "the block and its source chapter",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 51,
+     "verse": 1,
+     "w1": 1,
+     "w2": 8,
+     "quote": "Hearken to me, ye that follow after righteousness",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne08-006",
+   "scope": "SW",
+   "head": "Jer. 31:33",
+   "anchor": {
+    "verse": 7,
+    "w1": 8,
+    "w2": 17,
+    "quote": "the people in whose heart I have written my law"
+   },
+   "reason": "a contemporary promised the same writing",
+   "targets": [
+    {
+     "ref": "Jer.",
+     "chapter": 31,
+     "verse": 33,
+     "w1": 32,
+     "w2": 36,
+     "quote": "write it in their hearts",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne08-007",
+   "scope": "SW",
+   "head": "Ps. 89:10",
+   "anchor": {
+    "verse": 9,
+    "w1": 17,
+    "w2": 28,
+    "quote": "Art thou not he that hath cut Rahab, and wounded the dragon"
+   },
+   "reason": "Rahab broken in the older poem",
+   "targets": [
+    {
+     "ref": "Ps.",
+     "chapter": 89,
+     "verse": 10,
+     "w1": 1,
+     "w2": 6,
+     "quote": "Thou hast broken Rahab in pieces",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne08-008",
+   "scope": "SW",
+   "head": "Isa. 35:10",
+   "anchor": {
+    "verse": 11,
+    "w1": 16,
+    "w2": 24,
+    "quote": "everlasting joy and holiness shall be upon their heads"
+   },
+   "reason": "Isaiah's homecoming line, sounded twice",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 35,
+     "verse": 10,
+     "w1": 28,
+     "w2": 33,
+     "quote": "sorrow and sighing shall flee away",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne08-009",
+   "scope": "SW",
+   "head": "Isa. 52:1",
+   "anchor": {
+    "verse": 24,
+    "w1": 1,
+    "w2": 8,
+    "quote": "Awake, awake, put on thy strength, O Zion"
+   },
+   "reason": "where the reading crosses into the next chapter",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 52,
+     "verse": 1,
+     "w1": 1,
+     "w2": 8,
+     "quote": "Awake, awake; put on thy strength, O Zion",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 1,
+   "w2": 8,
+   "quote": "Hearken unto me, ye that follow after righteousness",
+   "entries": [
+    "2ne08-005"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 8,
+   "w2": 17,
+   "quote": "the people in whose heart I have written my law",
+   "entries": [
+    "2ne08-006"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 1,
+   "w2": 10,
+   "quote": "For the moth shall eat them up like a garment",
+   "entries": [
+    "2ne08-001"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 17,
+   "w2": 28,
+   "quote": "Art thou not he that hath cut Rahab, and wounded the dragon",
+   "entries": [
+    "2ne08-007"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 16,
+   "w2": 24,
+   "quote": "everlasting joy and holiness shall be upon their heads",
+   "entries": [
+    "2ne08-008"
+   ]
+  },
+  {
+   "verse": 24,
+   "w1": 1,
+   "w2": 8,
+   "quote": "Awake, awake, put on thy strength, O Zion",
+   "entries": [
+    "2ne08-003",
+    "2ne08-009"
+   ]
+  },
+  {
+   "verse": 24,
+   "w1": 9,
+   "w2": 18,
+   "quote": "put on thy beautiful garments, O Jerusalem, the holy city",
+   "entries": [
+    "2ne08-002"
+   ]
+  },
+  {
+   "verse": 25,
+   "w1": 1,
+   "w2": 5,
+   "quote": "Shake thyself from the dust",
+   "entries": [
+    "2ne08-004"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "b75748ac1a3c2e16"
+ }
+}

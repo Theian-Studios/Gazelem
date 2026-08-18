@@ -1,0 +1,663 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Jacob",
+  "book_slug": "jacob",
+  "chapter": 6,
+  "volume_order": "03",
+  "speakers": [
+   "Jacob"
+  ],
+  "audience": "His brethren, the people of Nephi",
+  "location": "The land of Nephi",
+  "date": "~544–421 BC",
+  "unit": "Jacob's record (Jacob 1–7)",
+  "principles": [
+   "The allegory applied",
+   "Today",
+   "The bar of God"
+  ],
+  "connections": 11,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The prophecy is one sentence long",
+   "text": "Jacob 4:18 promised a prophecy; verse 1 delivers it, and it consists entirely of the claim that Zenos's allegory will come to pass. Seventy-seven verses of borrowed material and then a single line of original prediction. The proportion tells the reader what Jacob thought he was doing.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 4:18",
+     "start": 0,
+     "end": 10,
+     "book": "Jacob",
+     "chapter": 4,
+     "verse_start": 18,
+     "verse_end": 18
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Isaiah's second recovery, dated to the last pruning",
+   "text": "\"Set his hand again the second time\" is Isaiah 11:11, which Nephi had already quoted three times. Jacob attaches it to the final labor of the vineyard, which fixes the allegory's last section to a specific prophetic timetable rather than leaving it open."
+  },
+  {
+   "n": 3,
+   "title": "A phrase that matches Paul's rendering",
+   "text": "Verse 4 has God stretching forth his hands all the day long to \"a stiffnecked and a gainsaying people.\" Isaiah 65:2 says \"rebellious\"; Romans 10:21, quoting it, says \"gainsaying.\" Jacob's wording follows the second. The record does not comment on this, and it is one of the clearer instances of the phenomenon."
+  },
+  {
+   "n": 4,
+   "title": "Psalm 95, at both ends of Jacob's record",
+   "text": "His first chapter took \"the provocation\" from it; this one takes \"Today, if ye will hear his voice, harden not your hearts.\" The psalm frames everything between, and its subject in both places is a generation that heard and refused."
+  },
+  {
+   "n": 5,
+   "title": "The bar",
+   "text": "A bar is the rail in a courtroom that separates the bench from the room, and the English legal sense is medieval. Jacob uses it twice — once with shame and awful guilt, once as \"the pleasing bar of God\" — and the second phrase appears exactly once more in the record, in Moroni's farewell a thousand years later."
+  },
+  {
+   "n": 6,
+   "title": "A coda, not a chapter",
+   "text": "Thirteen verses after seventy-seven. Everything here is application: what the allegory means, what it demands, and what happens if it is refused. Ancient discourses often close this way, with the exposition long and the exhortation short and hot."
+  }
+ ],
+ "words": [
+  {
+   "term": "gainsaying",
+   "verse_label": "v. 4",
+   "text": "To speak against — literally to say against. The King James translators use it for contradiction rather than for disobedience, which makes the fault verbal. Paired with \"stiffnecked\" it gives two kinds of resistance, one of the body and one of the mouth, and the combination comes from Paul's version of Isaiah rather than Isaiah's."
+  },
+  {
+   "term": "unquenchable",
+   "verse_label": "v. 10",
+   "text": "The same root, negated, three verses later. What a person can quench in verse 8 and what cannot be quenched in verse 10 are set against each other by the word itself. The chapter does not point this out."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "this is my prophecy—that the things which this prophet Zenos spake... must surely come to pass",
+   "verse_label": "v. 1",
+   "text": "The whole of Jacob's own contribution to two chapters. He promised a prophecy and what he supplies is a guarantee on somebody else's. It is a modest claim made in the strongest available terms, and the strength is in \"must surely.\""
+  },
+  {
+   "term": "the servants of the Lord shall go forth in his power, to nourish and prune his vineyard",
+   "verse_label": "v. 2",
+   "text": "The allegory's last labor, identified. The few servants of Jacob 5:70, called for the final pruning, are attached to Isaiah's second recovery of Israel. Two texts are welded together here, and the join is the word \"vineyard.\"",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 5:70",
+     "start": 59,
+     "end": 69,
+     "book": "Jacob",
+     "chapter": 5,
+     "verse_start": 70,
+     "verse_end": 70
+    }
+   ]
+  },
+  {
+   "term": "he stretches forth his hands unto them all the day long",
+   "verse_label": "v. 4",
+   "text": "The Lord of the vineyard said the same thing in his own defense five verses from the end of the previous chapter. Here it is said of God toward Israel. The allegory's most exhausted line becomes the chapter's evidence of mercy, and nothing marks the transfer."
+  },
+  {
+   "term": "cleave unto God as he cleaveth unto you",
+   "verse_label": "v. 5",
+   "text": "To cleave is to stick fast, and Deuteronomy and Joshua both tell Israel to cleave unto the Lord; nowhere in the Bible is God said to cleave to Israel. Running the verb both directions is what makes this striking. The instruction is not to hold on because he is worth it or because he commanded it, but at the same grip he is already using on you, and it is stated as though that were obvious."
+  },
+  {
+   "term": "Yea, today, if ye will hear his voice, harden not your hearts; for why will ye die?",
+   "verse_label": "v. 6",
+   "text": "Two prophets in one breath. The first half is Psalm 95, the psalm Jacob's first chapter drew \"the provocation\" from; the second half is Ezekiel's question to a house that would not turn. Both originals are addressed to a people about to be lost, and the verse is the shortest in the chapter."
+  },
+  {
+   "term": "after ye have been nourished by the good word of God all the day long, will ye bring forth evil fruit",
+   "verse_label": "v. 7",
+   "text": "The allegory, turned into an accusation with the pronouns changed. The hearers are the tree. Everything about nourishing and evil fruit and being hewn down that was agricultural for seventy-seven verses becomes second-person here, abruptly, without transition."
+  },
+  {
+   "term": "and quench the Holy Spirit, and make a mock of the great plan of redemption",
+   "verse_label": "v. 8",
+   "text": "To quench is to put out a fire, and it is Paul's word for what a person can do to the Spirit — the only item on this list that takes ongoing effort, since rejecting and denying can each be done once. The list escalates: reject these words, reject the prophets, reject all words about Christ, deny the good word, deny the power, deny the gift, quench the Spirit, mock the plan. Verse 8 is one sentence and it is the longest in the chapter."
+  },
+  {
+   "term": "the power of the redemption and the resurrection, which is in Christ, will bring you to stand",
+   "verse_label": "v. 9",
+   "text": "The resurrection is presented as what makes judgment possible. Nothing in the sentence is comforting: the same power that raises is the power that produces the standing. The record makes this argument more than once, and it is nowhere more compressed than here."
+  },
+  {
+   "term": "enter in at the strait gate, and continue in the way which is narrow",
+   "verse_label": "v. 11",
+   "text": "Nephi's two-part formula from the doctrine of Christ, restated by his brother. Gate and then way, entry and then continuance. Jacob adds nothing to it and does not credit it, which suggests it was already common language in this family."
+  },
+  {
+   "term": "O be wise; what can I say more?",
+   "verse_label": "v. 12",
+   "text": "Four words and a question, standing as its own verse. Nephi had ended a chapter the same way. It is the sound of a man who has run out of argument and knows it, and its brevity after verse 8's eighty-word sentence is doing the work."
+  },
+  {
+   "term": "the pleasing bar of God, which bar striketh the wicked with awful dread",
+   "verse_label": "v. 13",
+   "text": "The adjective and the effect are in the same sentence and they do not agree. The bar is pleasing to Jacob and terrible to the wicked; the furniture does not change, the person approaching it does. Moroni will use the same two words to close the whole record."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–3",
+   "start": 1,
+   "end": 3,
+   "title": "The prophecy and its terms",
+   "text": "The allegory will come to pass; the last labor is Isaiah's second recovery; those who labor are blessed, those cast out are cursed, and the world burns. Three verses that convert seventy-seven verses of horticulture into a timetable with two outcomes."
+  },
+  {
+   "label": "v. 4",
+   "start": 4,
+   "end": 4,
+   "title": "Patience, and the escape clause",
+   "text": "God remembers both roots and branches, stretches out his hands all day, and the people are stiffnecked and gainsaying — and then the exception: as many as will not harden their hearts shall be saved. The verse holds the whole chapter's argument without a break and puts the escape clause last."
+  },
+  {
+   "label": "v. 5–6",
+   "start": 5,
+   "end": 6,
+   "title": "The appeal",
+   "text": "Repent, come with full purpose of heart, cleave as he cleaves, do not harden while the arm is still extended in daylight. Then Psalm 95 and Ezekiel together, and the question that ends the appeal is not a threat but a puzzled one: why will ye die?"
+  },
+  {
+   "label": "v. 7–8",
+   "start": 7,
+   "end": 8,
+   "title": "The two questions",
+   "text": "Will you bear evil fruit after being nourished, and will you reject everything at once? The first uses the allegory's vocabulary against the audience; the second lists eight ways to refuse and puts mocking the plan of redemption at the end. Both are questions, and neither is answered."
+  },
+  {
+   "label": "v. 9–10",
+   "start": 9,
+   "end": 10,
+   "title": "What justice does",
+   "text": "The redemption and resurrection bring the unrepentant to stand at the bar; justice cannot be denied; the lake is unquenchable and the torment endless. Two verses, no qualifications, and the terms are the harshest Jacob uses anywhere."
+  },
+  {
+   "label": "v. 11–12",
+   "start": 11,
+   "end": 12,
+   "title": "The way out, and the end of argument",
+   "text": "Enter the gate, continue in the narrow way, obtain eternal life — and then \"O be wise; what can I say more?\" The instruction is one verse and the surrender is four words."
+  },
+  {
+   "label": "v. 13",
+   "start": 13,
+   "end": 13,
+   "title": "Farewell",
+   "text": "He does not say goodbye to a place or a generation but arranges a meeting: at the bar, which is pleasing to him. The valediction assumes the audience and the speaker will both be there, which is the last thing the chapter does with the word \"you.\""
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "Jacob's own prophecy is a warranty",
+   "text": "Asked to prophesy, he certifies Zenos. The chapter's originality is not in its content but in its placement — he had spent two chapters saying he might be shaken, then quoted somebody else at enormous length, and his contribution is to stake his name on it."
+  },
+  {
+   "n": 2,
+   "title": "The allegory is turned second-person in one verse",
+   "text": "Verse 7 makes the hearers the tree. Everything the previous chapter said about nourishing, evil fruit, and burning is suddenly about the people in the room. That single pronoun shift is what the whole quotation was for."
+  },
+  {
+   "n": 3,
+   "title": "Two Old Testament voices carry the appeal",
+   "text": "Psalm 95 and Ezekiel 33 supply verse 6, and both originals address people who have already heard and refused. Jacob does not name either. He assumes the brass plates are in the room and lets the borrowed sentences do the arguing."
+  },
+  {
+   "n": 4,
+   "title": "Mercy and severity are argued from the same fact",
+   "text": "God stretches out his hands all day long — the Lord of the vineyard's own line of defense — and the chapter reads that as mercy in verse 4 and as grounds for accountability in verse 7. Sustained effort is what makes refusal culpable, and the chapter never separates the two."
+  },
+  {
+   "n": 5,
+   "title": "Verse 8 lists refusal as a sequence, not a state",
+   "text": "Eight verbs, escalating, ending in mockery. Nobody arrives at the last item first. The chapter's picture of unbelief is a road with stages, and the only one that requires continuous effort is quenching."
+  },
+  {
+   "n": 6,
+   "title": "\"O be wise\" is where the argument stops",
+   "text": "After a chapter of compounding rhetorical questions, Jacob quits mid-appeal and asks what more there is to say. Nephi did the same at the end of his record. This family's discourses end by admitting the limits of speech rather than by summarizing."
+  },
+  {
+   "n": 7,
+   "title": "The last word is a meeting, and it is pleasant to him",
+   "text": "The bar that strikes the wicked with dread is called pleasing in the same sentence. Jacob is not describing a mood but a position, and Moroni will close the entire record with the identical phrase, which makes this verse the first half of a bracket a thousand years wide."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Say what you actually vouch for",
+    "verse_label": "v. 1",
+    "text": "Jacob was asked to prophesy and what he offered was his guarantee on someone else's words. When you pass something on, be clear whether you are adding to it or standing behind it."
+   },
+   {
+    "title": "Change the pronouns",
+    "verse_label": "v. 7",
+    "text": "Take a scripture you read as being about other people — a parable, an allegory, a warning — and reread it with yourself as the subject. Verse 7 is what that operation looks like when a prophet does it."
+   },
+   {
+    "title": "Match the grip",
+    "verse_label": "v. 5",
+    "text": "The standard offered is not effort in general but the same hold God already has on you. Ask what that hold looks like in your life and whether yours resembles it."
+   },
+   {
+    "title": "Notice today",
+    "verse_label": "v. 6",
+    "text": "The psalm's word is \"today,\" and Jacob keeps it. Whatever you are planning to repent of eventually, the verse gives you a date."
+   },
+   {
+    "title": "Find your stage on the list",
+    "verse_label": "v. 8",
+    "text": "The eight refusals escalate. Locate honestly which one you are nearest to, and note that only quenching requires you to keep working at it."
+   },
+   {
+    "title": "Stop when you have said enough",
+    "verse_label": "v. 12",
+    "text": "Jacob ends with \"O be wise; what can I say more?\" In an argument that matters to you, try stopping there instead of adding one more reason."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What am I willing to put my name behind that I did not come up with myself?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "Have I read God's patience as permission rather than as effort on my behalf?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "Does my hold on God look anything like the hold he has kept on me?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "What am I postponing that the word \"today\" is aimed at?"
+   },
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "I have been nourished a long time — what fruit is that actually producing?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "Do I expect the bar of God to be pleasing, and what does my answer tell me?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "jac06-003",
+   "scope": "BOOK",
+   "head": "Jacob 1:7",
+   "anchor": {
+    "verse": 6,
+    "w1": 1,
+    "w2": 12,
+    "quote": "Yea, today, if ye will hear his voice, harden not your hearts"
+   },
+   "reason": "the same psalm at both ends of Jacob's record",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 1,
+     "verse": 7,
+     "w1": 46,
+     "w2": 54,
+     "quote": "as in the provocation in the days of temptation",
+     "span": true
+    }
+   ],
+   "mirror": "jac01-014"
+  },
+  {
+   "id": "jac06-002",
+   "scope": "BOOK",
+   "head": "Jacob 5:47",
+   "anchor": {
+    "verse": 4,
+    "w1": 21,
+    "w2": 31,
+    "quote": "he stretches forth his hands unto them all the day long"
+   },
+   "reason": "the vineyard master's defense, read as mercy",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 5,
+     "verse": 47,
+     "w1": 44,
+     "w2": 54,
+     "quote": "I have stretched forth mine hand almost all the day long",
+     "span": true
+    }
+   ],
+   "mirror": "jac05-012"
+  },
+  {
+   "id": "jac06-001",
+   "scope": "BOOK",
+   "head": "Jacob 5:3",
+   "anchor": {
+    "verse": 1,
+    "w1": 20,
+    "w2": 26,
+    "quote": "the things which this prophet Zenos spake"
+   },
+   "reason": "the allegory Jacob now guarantees",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 5,
+     "verse": 3,
+     "w1": 7,
+     "w2": 20,
+     "quote": "I will liken thee, O house of Israel, like unto a tame olive tree",
+     "span": true
+    }
+   ],
+   "mirror": "jac05-002"
+  },
+  {
+   "id": "jac06-007",
+   "scope": "BOM",
+   "head": "2 Ne. 32:7",
+   "anchor": {
+    "verse": 12,
+    "w1": 1,
+    "w2": 8,
+    "quote": "O be wise; what can I say more"
+   },
+   "reason": "Nephi stopping at the same place",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 32,
+     "verse": 7,
+     "w1": 1,
+     "w2": 7,
+     "quote": "And now I, Nephi, cannot say more",
+     "span": true
+    }
+   ],
+   "mirror": "2ne32-006"
+  },
+  {
+   "id": "jac06-006",
+   "scope": "BOM",
+   "head": "Moro. 10:34",
+   "anchor": {
+    "verse": 13,
+    "w1": 12,
+    "w2": 16,
+    "quote": "the pleasing bar of God"
+   },
+   "reason": "the record's other use of the phrase, at its close",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 10,
+     "verse": 34,
+     "w1": 35,
+     "w2": 45,
+     "quote": "to meet you before the pleasing bar of the great Jehovah",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "jac06-005",
+   "scope": "BOM",
+   "head": "2 Ne. 31:18",
+   "anchor": {
+    "verse": 11,
+    "w1": 9,
+    "w2": 22,
+    "quote": "enter in at the strait gate, and continue in the way which is narrow"
+   },
+   "reason": "Nephi's gate-then-way formula restated",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 31,
+     "verse": 18,
+     "w1": 1,
+     "w2": 15,
+     "quote": "And then are ye in this strait and narrow path which leads to eternal life",
+     "span": true
+    }
+   ],
+   "mirror": "2ne31-012"
+  },
+  {
+   "id": "jac06-004",
+   "scope": "BOM",
+   "head": "2 Ne. 25:17",
+   "anchor": {
+    "verse": 2,
+    "w1": 5,
+    "w2": 17,
+    "quote": "he shall set his hand again the second time to recover his people"
+   },
+   "reason": "Nephi's use of the same Isaiah formula",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 25,
+     "verse": 17,
+     "w1": 2,
+     "w2": 15,
+     "quote": "the Lord will set his hand again the second time to restore his people",
+     "span": true
+    }
+   ],
+   "mirror": "2ne25-015"
+  },
+  {
+   "id": "jac06-011",
+   "scope": "SW",
+   "head": "Ezek. 33:11",
+   "anchor": {
+    "verse": 6,
+    "w1": 13,
+    "w2": 17,
+    "quote": "for why will ye die"
+   },
+   "reason": "Ezekiel's question to a house that would not turn",
+   "targets": [
+    {
+     "ref": "Ezek.",
+     "chapter": 33,
+     "verse": 11,
+     "w1": 39,
+     "w2": 47,
+     "quote": "for why will ye die, O house of Israel",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "jac06-010",
+   "scope": "SW",
+   "head": "Ps. 95:7",
+   "anchor": {
+    "verse": 6,
+    "w1": 1,
+    "w2": 12,
+    "quote": "Yea, today, if ye will hear his voice, harden not your hearts"
+   },
+   "reason": "the psalm quoted directly",
+   "targets": [
+    {
+     "ref": "Ps.",
+     "chapter": 95,
+     "verse": 7,
+     "w1": 20,
+     "w2": 27,
+     "quote": "To day if ye will hear his voice",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "jac06-009",
+   "scope": "SW",
+   "head": "Rom. 10:21",
+   "anchor": {
+    "verse": 4,
+    "w1": 33,
+    "w2": 40,
+    "quote": "they are a stiffnecked and a gainsaying people"
+   },
+   "reason": "Paul's rendering, which this wording follows",
+   "targets": [
+    {
+     "ref": "Rom.",
+     "chapter": 10,
+     "verse": 21,
+     "w1": 6,
+     "w2": 20,
+     "quote": "All day long I have stretched forth my hands unto a disobedient and gainsaying people",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "jac06-008",
+   "scope": "SW",
+   "head": "Isa. 11:11",
+   "anchor": {
+    "verse": 2,
+    "w1": 5,
+    "w2": 17,
+    "quote": "he shall set his hand again the second time to recover his people"
+   },
+   "reason": "the Isaiah verse this phrase is lifted from",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 11,
+     "verse": 11,
+     "w1": 11,
+     "w2": 27,
+     "quote": "the Lord shall set his hand again the second time to recover the remnant of his people",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 20,
+   "w2": 26,
+   "quote": "the things which this prophet Zenos spake",
+   "entries": [
+    "jac06-001"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 5,
+   "w2": 17,
+   "quote": "he shall set his hand again the second time to recover his people",
+   "entries": [
+    "jac06-004",
+    "jac06-008"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 21,
+   "w2": 31,
+   "quote": "he stretches forth his hands unto them all the day long",
+   "entries": [
+    "jac06-002"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 33,
+   "w2": 40,
+   "quote": "they are a stiffnecked and a gainsaying people",
+   "entries": [
+    "jac06-009"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 1,
+   "w2": 12,
+   "quote": "Yea, today, if ye will hear his voice, harden not your hearts",
+   "entries": [
+    "jac06-003",
+    "jac06-010"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 13,
+   "w2": 17,
+   "quote": "for why will ye die",
+   "entries": [
+    "jac06-011"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 9,
+   "w2": 22,
+   "quote": "enter in at the strait gate, and continue in the way which is narrow",
+   "entries": [
+    "jac06-005"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 1,
+   "w2": 8,
+   "quote": "O be wise; what can I say more",
+   "entries": [
+    "jac06-007"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 12,
+   "w2": 16,
+   "quote": "the pleasing bar of God",
+   "entries": [
+    "jac06-006"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "fd837aaff7e6ac54"
+ }
+}

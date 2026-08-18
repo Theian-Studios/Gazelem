@@ -13,7 +13,7 @@ where it stands in the book.
 | 2 | Elijah shall reveal the priesthood | Prelude: Moroni, the Lost Pages, the Marvelous Work |
 | 3 | The lost manuscript pages | Prelude: Moroni, the Lost Pages, the Marvelous Work |
 | 4 | O ye that embark | Prelude: Moroni, the Lost Pages, the Marvelous Work |
-| 5 | Three witnesses promised | Prelude: Moroni, the Lost Pages, the Marvelous Work |
+| 5 | Three Witnesses promised | Prelude: Moroni, the Lost Pages, the Marvelous Work |
 | 6 | Oliver's gift; fear not | Revelations to the Translation Helpers |
 | 7 | John the Beloved tarries | Revelations to the Translation Helpers |
 | 8 | Revelation by the Spirit | Revelations to the Translation Helpers |
@@ -85,7 +85,7 @@ where it stands in the book.
 | 74 | Children holy; circumcision explained | Defense of the Faith and Mission Calls |
 | 75 | Missionary assignments; laborers worthy | Defense of the Faith and Mission Calls |
 | 76 | The vision of the glories | The Vision and Church Organization |
-| 77 | Revelation explained | The Vision and Church Organization |
+| 77 | The book of Revelation explained | The Vision and Church Organization |
 | 78 | The united order established | The Vision and Church Organization |
 | 79 | Jared Carter called | The Vision and Church Organization |
 | 80 | Stephen Burnett called | The Vision and Church Organization |
@@ -100,7 +100,7 @@ where it stands in the book.
 | 89 | The Word of Wisdom | The Olive Leaf and the School of the Prophets |
 | 90 | Keys of the First Presidency | The Olive Leaf and the School of the Prophets |
 | 91 | Concerning the Apocrypha | The Olive Leaf and the School of the Prophets |
-| 92 | Frederick Williams received | The Olive Leaf and the School of the Prophets |
+| 92 | Frederick Williams joins the order | The Olive Leaf and the School of the Prophets |
 | 93 | Light, truth, and intelligence | The Olive Leaf and the School of the Prophets |
 | 94 | Kirtland building plans | Building Kirtland; Zion Afflicted |
 | 95 | Chastened for delaying the house | Building Kirtland; Zion Afflicted |

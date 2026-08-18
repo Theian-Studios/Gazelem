@@ -159,7 +159,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 4 | Signs given; Aaron sent | Bondage & the call |
 | 5 | Bricks without straw | Bondage & the call |
 | 6 | I am the LORD | Bondage & the call |
-| 7 | The rod and the bloody river | The plagues |
+| 7 | The rod; the bloody river | The plagues |
 | 8 | Frogs, lice, and flies | The plagues |
 | 9 | Murrain, boils, and hail | The plagues |
 | 10 | Locusts and darkness | The plagues |
@@ -167,7 +167,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 12 | The Passover; the Exodus | The plagues |
 | 13 | Firstborn sanctified; pillar of cloud | The Exodus |
 | 14 | The Red Sea divided | The Exodus |
-| 15 | The song of Moses | The Exodus |
+| 15 | The song at the sea | The Exodus |
 | 16 | Manna and quails | The Exodus |
 | 17 | Water from the rock; Amalek | The Exodus |
 | 18 | Jethro's counsel | The Exodus |
@@ -214,7 +214,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 14 | Cleansing the leper | Priests, clean & unclean |
 | 15 | Laws of bodily issues | Priests, clean & unclean |
 | 16 | The Day of Atonement | Atonement & holiness |
-| 17 | The life is in the blood | Atonement & holiness |
+| 17 | Life is in the blood | Atonement & holiness |
 | 18 | Forbidden relations | Atonement & holiness |
 | 19 | Love thy neighbour as thyself | Atonement & holiness |
 | 20 | Penalties for abominations | Atonement & holiness |
@@ -249,7 +249,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 17 | Aaron's rod that budded | Rebellions in the desert |
 | 18 | Priestly portions and tithes | Rebellions in the desert |
 | 19 | The red heifer | Rebellions in the desert |
-| 20 | Water from the rock; Aaron dies | The serpent & Balaam |
+| 20 | The rock smitten; Aaron dies | The serpent & Balaam |
 | 21 | The brazen serpent | The serpent & Balaam |
 | 22 | Balaam and the donkey | The serpent & Balaam |
 | 23 | Balaam's first blessings | The serpent & Balaam |
@@ -300,7 +300,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 27 | Curses proclaimed from Ebal | Blessings & cursings |
 | 28 | The blessings and the cursings | Blessings & cursings |
 | 29 | The covenant in Moab | Blessings & cursings |
-| 30 | The word is very nigh thee | Blessings & cursings |
+| 30 | The word very nigh thee | Blessings & cursings |
 | 31 | Joshua charged; the law read | Moses' farewell |
 | 32 | The song of Moses | Moses' farewell |
 | 33 | Moses blesses the tribes | Moses' farewell |
@@ -310,11 +310,11 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 
 | Ch | Caption | Section |
 |----|---------|---------|
-| 1 | Be strong and of good courage | Into the promised land |
+| 1 | Be strong; of good courage | Into the promised land |
 | 2 | Rahab and the spies | Into the promised land |
 | 3 | Crossing the Jordan | Into the promised land |
 | 4 | The 12 memorial stones | Into the promised land |
-| 5 | The captain of the Lord's host | Into the promised land |
+| 5 | Captain of the Lord's host | Into the promised land |
 | 6 | The walls of Jericho | The conquest |
 | 7 | Achan's sin; defeat at Ai | The conquest |
 | 8 | Ai taken; the law read | The conquest |
@@ -393,11 +393,11 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 17 | David and Goliath | David's rise |
 | 18 | Jonathan's covenant; Saul's envy | David's rise |
 | 19 | Michal helps David escape | David's rise |
-| 20 | The arrows; the covenant of friendship | David's rise |
+| 20 | The arrows; Jonathan's covenant | David's rise |
 | 21 | The shewbread; feigned madness | David the fugitive |
 | 22 | The priests of Nob slain | David the fugitive |
 | 23 | Keilah delivered; David pursued | David the fugitive |
-| 24 | The skirt cut in the cave | David the fugitive |
+| 24 | The skirt cut; Saul spared | David the fugitive |
 | 25 | Nabal and Abigail | David the fugitive |
 | 26 | The spear and the cruse | David the fugitive |
 | 27 | David among the Philistines | David the fugitive |
@@ -416,7 +416,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 4 | Ish-bosheth murdered | David's kingdom |
 | 5 | Jerusalem taken; David king | David's kingdom |
 | 6 | Uzzah; the ark brought up | David's kingdom |
-| 7 | The promise of an everlasting house | David's kingdom |
+| 7 | An everlasting house promised | David's kingdom |
 | 8 | David's victories | David's kingdom |
 | 9 | Kindness to Mephibosheth | David's kingdom |
 | 10 | The Ammonites and Syrians defeated | David's kingdom |
@@ -432,7 +432,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 20 | Sheba's revolt | Sin & Absalom |
 | 21 | The Gibeonites avenged; giants slain | David's last days |
 | 22 | David's song of deliverance | David's last days |
-| 23 | David's last words; the mighty men | David's last days |
+| 23 | David's last words; mighty men | David's last days |
 | 24 | The census and the plague | David's last days |
 
 ## 1 Kings
@@ -451,7 +451,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 10 | The queen of Sheba | Solomon's fall |
 | 11 | Solomon's wives; the kingdom rent | Solomon's fall |
 | 12 | Rehoboam's folly; the kingdom divides | The kingdom divided |
-| 13 | The man of God from Judah | The kingdom divided |
+| 13 | The man of God disobeys | The kingdom divided |
 | 14 | Ahijah's prophecy; Shishak invades | The kingdom divided |
 | 15 | Kings of Judah and Israel | The kingdom divided |
 | 16 | Omri and Ahab | The kingdom divided |
@@ -471,7 +471,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 3 | Moab rebels; water provided | Elisha's ministry |
 | 4 | The widow's oil; the Shunammite | Elisha's ministry |
 | 5 | Naaman healed of leprosy | Elisha's ministry |
-| 6 | The axe floats; chariots of fire | Elisha's ministry |
+| 6 | The axe floats; fiery chariots | Elisha's ministry |
 | 7 | The siege lifted; 4 lepers | Elisha's ministry |
 | 8 | The Shunammite's land; Hazael's rise | Elisha's ministry |
 | 9 | Jehu anointed; Jezebel slain | The fall of Israel |
@@ -487,7 +487,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 19 | Isaiah's counsel; Assyria smitten | Hezekiah |
 | 20 | Hezekiah's illness; the sundial | Hezekiah |
 | 21 | Manasseh's wickedness | The last kings of Judah |
-| 22 | The book of the law found | The last kings of Judah |
+| 22 | Josiah; the lost book found | The last kings of Judah |
 | 23 | Josiah's reforms; the Passover kept | The last kings of Judah |
 | 24 | Nebuchadnezzar; the first captivity | The last kings of Judah |
 | 25 | Jerusalem falls; the temple burned | The last kings of Judah |
@@ -497,7 +497,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | Ch | Caption | Section |
 |----|---------|---------|
 | 1 | From Adam to Esau | The genealogies |
-| 2 | The sons of Israel; Judah's line | The genealogies |
+| 2 | Sons of Israel; Judah's line | The genealogies |
 | 3 | The sons of David | The genealogies |
 | 4 | Judah and Simeon; Jabez's prayer | The genealogies |
 | 5 | Reuben, Gad, and half Manasseh | The genealogies |
@@ -506,11 +506,11 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 8 | The genealogy of Benjamin | The genealogies |
 | 9 | Those who returned; Saul's line | The genealogies |
 | 10 | Saul's death and its cause | David retold |
-| 11 | David made king; the mighty men | David retold |
+| 11 | David made king; mighty men | David retold |
 | 12 | Those who came to David | David retold |
 | 13 | Uzza and the ark | David retold |
 | 14 | David's house; Philistines defeated | David retold |
-| 15 | The ark carried by the Levites | David retold |
+| 15 | The Levites carry the ark | David retold |
 | 16 | The ark placed; David's psalm | David retold |
 | 17 | Nathan's promise to David | David retold |
 | 18 | David's conquests | David retold |
@@ -534,11 +534,11 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 2 | Preparations with Huram | Solomon retold |
 | 3 | The temple begun | Solomon retold |
 | 4 | The temple furnishings | Solomon retold |
-| 5 | The ark brought in; glory fills | Solomon retold |
+| 5 | The ark enters; glory fills | Solomon retold |
 | 6 | Solomon's dedicatory prayer | Solomon retold |
 | 7 | Fire falls; the Lord's answer | Solomon retold |
 | 8 | Solomon's cities and service | Solomon retold |
-| 9 | The queen of Sheba; Solomon dies | Solomon retold |
+| 9 | Sheba's queen; Solomon dies | Solomon retold |
 | 10 | The kingdom divided | Judah's early kings |
 | 11 | Rehoboam's cities; the priests come | Judah's early kings |
 | 12 | Shishak invades Jerusalem | Judah's early kings |
@@ -575,7 +575,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 2 | The list of returning exiles | The return |
 | 3 | The altar and foundation laid | The return |
 | 4 | Adversaries stop the work | The return |
-| 5 | Haggai and Zechariah stir the work | The return |
+| 5 | The prophets stir the work | The return |
 | 6 | Darius's decree; the temple finished | The return |
 | 7 | Ezra goes up to Jerusalem | The return |
 | 8 | The companions and the journey | The return |
@@ -605,7 +605,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | Ch | Caption | Section |
 |----|---------|---------|
 | 1 | Vashti deposed | Esther |
-| 2 | Esther made queen; the plot exposed | Esther |
+| 2 | Esther made queen; plot exposed | Esther |
 | 3 | Haman's decree against the Jews | Esther |
 | 4 | For such a time | Esther |
 | 5 | Esther's banquet; Haman's gallows | Esther |
@@ -677,11 +677,11 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 9 | A refuge in trouble | Psalms: Book One |
 | 10 | Why standest thou afar off | Psalms: Book One |
 | 11 | The Lord's throne in heaven | Psalms: Book One |
-| 12 | The words of the Lord pure | Psalms: Book One |
+| 12 | The Lord's words are pure | Psalms: Book One |
 | 13 | How long, O Lord | Psalms: Book One |
 | 14 | The fool hath said | Psalms: Book One |
-| 15 | Who shall abide in thy tabernacle | Psalms: Book One |
-| 16 | Thou wilt not leave my soul | Psalms: Book One |
+| 15 | Abiding in thy tabernacle | Psalms: Book One |
+| 16 | Soul not left in hell | Psalms: Book One |
 | 17 | The apple of the eye | Psalms: Book One |
 | 18 | The Lord my rock | Psalms: Book One |
 | 19 | The heavens declare God's glory | Psalms: Book One |
@@ -709,23 +709,23 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 41 | Blessed is he that considereth | Psalms: Book One |
 | 42 | As the hart panteth | Psalms: Book Two |
 | 43 | Send out thy light | Psalms: Book Two |
-| 44 | We have heard with our ears | Psalms: Book Two |
+| 44 | We have heard of old | Psalms: Book Two |
 | 45 | A song of the king | Psalms: Book Two |
 | 46 | Be still and know | Psalms: Book Two |
 | 47 | Clap your hands, all people | Psalms: Book Two |
 | 48 | Beautiful for situation | Psalms: Book Two |
 | 49 | None can redeem his brother | Psalms: Book Two |
 | 50 | The mighty God hath spoken | Psalms: Book Two |
-| 51 | Create in me a clean heart | Psalms: Book Two |
+| 51 | A broken and contrite heart | Psalms: Book Two |
 | 52 | A green olive tree | Psalms: Book Two |
 | 53 | None that doeth good | Psalms: Book Two |
 | 54 | Save me by thy name | Psalms: Book Two |
-| 55 | Cast thy burden on the Lord | Psalms: Book Two |
+| 55 | Cast thy burden on Him | Psalms: Book Two |
 | 56 | What can flesh do | Psalms: Book Two |
 | 57 | My heart is fixed | Psalms: Book Two |
 | 58 | The judges of earth rebuked | Psalms: Book Two |
 | 59 | My defence in the day | Psalms: Book Two |
-| 60 | Vain is the help of man | Psalms: Book Two |
+| 60 | Vain the help of man | Psalms: Book Two |
 | 61 | The rock that is higher | Psalms: Book Two |
 | 62 | My soul waiteth upon God | Psalms: Book Two |
 | 63 | My soul thirsteth for thee | Psalms: Book Two |
@@ -739,11 +739,11 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 71 | Forsake me not when old | Psalms: Book Two |
 | 72 | The king's righteous reign | Psalms: Book Two |
 | 73 | The prosperity of the wicked | Psalms: Book Three |
-| 74 | Why hast thou cast us off | Psalms: Book Three |
+| 74 | Why cast us off forever | Psalms: Book Three |
 | 75 | God is the judge | Psalms: Book Three |
 | 76 | In Judah is God known | Psalms: Book Three |
 | 77 | I will remember his wonders | Psalms: Book Three |
-| 78 | Israel's rebellions rehearsed | Psalms: Book Three |
+| 78 | Dark sayings of old | Psalms: Book Three |
 | 79 | The heathen defile the temple | Psalms: Book Three |
 | 80 | Turn us again, O God | Psalms: Book Three |
 | 81 | Sing aloud unto God | Psalms: Book Three |
@@ -755,30 +755,30 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 87 | Zion's foundation | Psalms: Book Three |
 | 88 | My soul full of troubles | Psalms: Book Three |
 | 89 | The covenant with David | Psalms: Book Three |
-| 90 | Teach us to number our days | Psalms: Book Four |
+| 90 | To number our days | Psalms: Book Four |
 | 91 | The secret place | Psalms: Book Four |
-| 92 | It is good to give thanks | Psalms: Book Four |
+| 92 | Good to give thanks | Psalms: Book Four |
 | 93 | The Lord reigneth | Psalms: Book Four |
-| 94 | The Lord will not cast off | Psalms: Book Four |
+| 94 | The Lord casts not off | Psalms: Book Four |
 | 95 | Harden not your hearts | Psalms: Book Four |
 | 96 | Sing a new song | Psalms: Book Four |
 | 97 | The Lord reigneth; earth rejoice | Psalms: Book Four |
-| 98 | The Lord hath done marvellous things | Psalms: Book Four |
-| 99 | The Lord our God is holy | Psalms: Book Four |
+| 98 | He hath done marvellous things | Psalms: Book Four |
+| 99 | The Lord God is holy | Psalms: Book Four |
 | 100 | Serve the Lord with gladness | Psalms: Book Four |
 | 101 | I will behave wisely | Psalms: Book Four |
 | 102 | The prayer of the afflicted | Psalms: Book Four |
-| 103 | Bless the Lord, O my soul | Psalms: Book Four |
+| 103 | Bless the Lord, my soul | Psalms: Book Four |
 | 104 | How manifold are thy works | Psalms: Book Four |
 | 105 | Remember his marvellous works | Psalms: Book Four |
-| 106 | We have sinned with our fathers | Psalms: Book Four |
+| 106 | Sinned with our fathers | Psalms: Book Four |
 | 107 | They cried unto the Lord | Psalms: Book Five |
-| 108 | My heart is fixed, O God | Psalms: Book Five |
+| 108 | Awake, psaltery and harp | Psalms: Book Five |
 | 109 | Let his days be few | Psalms: Book Five |
-| 110 | Sit thou at my right hand | Psalms: Book Five |
+| 110 | Sit at my right hand | Psalms: Book Five |
 | 111 | The fear of the Lord | Psalms: Book Five |
-| 112 | Blessed is the man that feareth | Psalms: Book Five |
-| 113 | From the rising of the sun | Psalms: Book Five |
+| 112 | Blessed the man that feareth | Psalms: Book Five |
+| 113 | From the sun's rising | Psalms: Book Five |
 | 114 | Israel went out of Egypt | Psalms: Book Five |
 | 115 | Not unto us, O Lord | Psalms: Book Five |
 | 116 | What shall I render | Psalms: Book Five |
@@ -786,35 +786,35 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 118 | The stone the builders refused | Psalms: Book Five |
 | 119 | Thy word a lamp | Psalms: Book Five |
 | 120 | Woe is me, I sojourn | Psalms: Book Five |
-| 121 | I will lift up mine eyes | Psalms: Book Five |
-| 122 | Pray for the peace of Jerusalem | Psalms: Book Five |
-| 123 | Unto thee lift I mine eyes | Psalms: Book Five |
-| 124 | If the Lord had not been | Psalms: Book Five |
+| 121 | I lift up mine eyes | Psalms: Book Five |
+| 122 | Pray for Jerusalem's peace | Psalms: Book Five |
+| 123 | As eyes of servants | Psalms: Book Five |
+| 124 | Escaped as a bird | Psalms: Book Five |
 | 125 | As the mountains round Jerusalem | Psalms: Book Five |
 | 126 | They that sow in tears | Psalms: Book Five |
 | 127 | Except the Lord build | Psalms: Book Five |
-| 128 | Blessed is every one that feareth | Psalms: Book Five |
+| 128 | Thy wife a fruitful vine | Psalms: Book Five |
 | 129 | Afflicted from my youth | Psalms: Book Five |
 | 130 | Out of the depths | Psalms: Book Five |
 | 131 | As a weaned child | Psalms: Book Five |
 | 132 | The Lord's habitation in Zion | Psalms: Book Five |
-| 133 | How good for brethren to dwell | Psalms: Book Five |
+| 133 | Brethren dwelling in unity | Psalms: Book Five |
 | 134 | Bless the Lord by night | Psalms: Book Five |
 | 135 | Praise ye the name | Psalms: Book Five |
 | 136 | His mercy endureth for ever | Psalms: Book Five |
 | 137 | By the rivers of Babylon | Psalms: Book Five |
 | 138 | Praise with my whole heart | Psalms: Book Five |
 | 139 | Whither shall I flee | Psalms: Book Five |
-| 140 | Deliver me from the evil man | Psalms: Book Five |
-| 141 | Set a watch before my mouth | Psalms: Book Five |
-| 142 | No man cared for my soul | Psalms: Book Five |
-| 143 | Cause me to hear thy lovingkindness | Psalms: Book Five |
-| 144 | Blessed be the Lord my strength | Psalms: Book Five |
+| 140 | Deliver from the evil man | Psalms: Book Five |
+| 141 | A watch before my mouth | Psalms: Book Five |
+| 142 | None cared for my soul | Psalms: Book Five |
+| 143 | Thy lovingkindness in the morning | Psalms: Book Five |
+| 144 | The Lord my strength | Psalms: Book Five |
 | 145 | The Lord is gracious | Psalms: Book Five |
 | 146 | Trust not in princes | Psalms: Book Five |
 | 147 | He healeth the broken | Psalms: Book Five |
 | 148 | Praise him, all creation | Psalms: Book Five |
-| 149 | A new song in the congregation | Psalms: Book Five |
+| 149 | The high praises of God | Psalms: Book Five |
 | 150 | Let everything praise the Lord | Psalms: Book Five |
 
 ## Proverbs
@@ -838,17 +838,17 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 15 | A soft answer turneth wrath | The proverbs collected |
 | 16 | A man's heart deviseth | The proverbs collected |
 | 17 | Better a dry morsel | The proverbs collected |
-| 18 | A friend closer than a brother | The proverbs collected |
+| 18 | Closer than a brother | The proverbs collected |
 | 19 | Better the poor with integrity | The proverbs collected |
 | 20 | Wine a mocker | The proverbs collected |
 | 21 | Better in the wilderness | The proverbs collected |
 | 22 | A good name rather chosen | The proverbs collected |
 | 23 | Look not upon the wine | The proverbs collected |
-| 24 | Faint in the day of adversity | The proverbs collected |
-| 25 | Coals of fire upon his head | The proverbs collected |
+| 24 | Faint not in adversity | The proverbs collected |
+| 25 | Coals upon his head | The proverbs collected |
 | 26 | Answer a fool | The proverbs collected |
 | 27 | Iron sharpeneth iron | The proverbs collected |
-| 28 | The wicked flee when none pursue | The proverbs collected |
+| 28 | The wicked flee unpursued | The proverbs collected |
 | 29 | Without vision the people perish | The proverbs collected |
 | 30 | The words of Agur | The proverbs collected |
 | 31 | The virtuous woman | The proverbs collected |
@@ -858,16 +858,16 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | Ch | Caption | Section |
 |----|---------|---------|
 | 1 | Vanity of vanities | Vanity of vanities |
-| 2 | The vanity of pleasure and labor | Vanity of vanities |
+| 2 | Vanity of pleasure and labor | Vanity of vanities |
 | 3 | A time to every purpose | Vanity of vanities |
 | 4 | Two are better than one | Vanity of vanities |
-| 5 | Keep thy foot; pay thy vow | Vanity of vanities |
+| 5 | Keep thy foot; pay vows | Vanity of vanities |
 | 6 | Riches without enjoyment | Vanity of vanities |
 | 7 | Better the house of mourning | Vanity of vanities |
-| 8 | Who is as the wise man | Vanity of vanities |
+| 8 | Keep the king's commandment | Vanity of vanities |
 | 9 | One event unto all | Vanity of vanities |
 | 10 | Dead flies in the ointment | Vanity of vanities |
-| 11 | Cast thy bread upon the waters | Vanity of vanities |
+| 11 | Bread upon the waters | Vanity of vanities |
 | 12 | Remember now thy Creator | Vanity of vanities |
 
 ## Solomon's Song
@@ -888,14 +888,14 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | Ch | Caption | Section |
 |----|---------|---------|
 | 1 | Though your sins be scarlet | Judgment & Immanuel |
-| 2 | The mountain of the Lord's house | Judgment & Immanuel |
+| 2 | The mountain of the Lord | Judgment & Immanuel |
 | 3 | Judgment on Zion's rulers | Judgment & Immanuel |
 | 4 | The branch and the covering | Judgment & Immanuel |
 | 5 | The song of the vineyard | Judgment & Immanuel |
 | 6 | Whom shall I send | Judgment & Immanuel |
 | 7 | Immanuel foretold | Judgment & Immanuel |
 | 8 | Bind up the testimony | Judgment & Immanuel |
-| 9 | Unto us a child is born | Judgment & Immanuel |
+| 9 | A child is born | Judgment & Immanuel |
 | 10 | Assyria, the rod of anger | Judgment & Immanuel |
 | 11 | The stem of Jesse | Judgment & Immanuel |
 | 12 | The wells of salvation | Judgment & Immanuel |
@@ -912,14 +912,14 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 23 | The burden of Tyre | Oracles & apocalypse |
 | 24 | The earth turned upside down | Oracles & apocalypse |
 | 25 | Death swallowed up in victory | Oracles & apocalypse |
-| 26 | Perfect peace; the dead shall live | Oracles & apocalypse |
+| 26 | Perfect peace; dead shall live | Oracles & apocalypse |
 | 27 | Leviathan punished; Israel gathered | Oracles & apocalypse |
 | 28 | Line upon line | Woes & Hezekiah |
-| 29 | A marvellous work and a wonder | Woes & Hezekiah |
-| 30 | Thine eyes shall see thy teachers | Woes & Hezekiah |
-| 31 | Woe to them that trust Egypt | Woes & Hezekiah |
-| 32 | A king shall reign in righteousness | Woes & Hezekiah |
-| 33 | The Lord our judge and king | Woes & Hezekiah |
+| 29 | A marvellous work and wonder | Woes & Hezekiah |
+| 30 | Eyes shall see thy teachers | Woes & Hezekiah |
+| 31 | Woe to trust in Egypt | Woes & Hezekiah |
+| 32 | A king reigns in righteousness | Woes & Hezekiah |
+| 33 | The Lord judge and king | Woes & Hezekiah |
 | 34 | The indignation upon the nations | Woes & Hezekiah |
 | 35 | The desert shall blossom | Woes & Hezekiah |
 | 36 | Rabshakeh threatens Jerusalem | Woes & Hezekiah |
@@ -927,31 +927,31 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 38 | Hezekiah's life lengthened | Woes & Hezekiah |
 | 39 | The Babylonian envoys | Woes & Hezekiah |
 | 40 | Comfort ye my people | Comfort ye |
-| 41 | Fear not; I will help thee | Comfort ye |
+| 41 | Fear not; I will help | Comfort ye |
 | 42 | Behold my servant | Comfort ye |
 | 43 | Ye are my witnesses | Comfort ye |
-| 44 | Beside me there is no God | Comfort ye |
-| 45 | Cyrus named; woe to the potsherd | Comfort ye |
+| 44 | Beside me no God | Comfort ye |
+| 45 | Cyrus, the Lord's anointed | Comfort ye |
 | 46 | Bel boweth down | Comfort ye |
 | 47 | Virgin daughter of Babylon | Comfort ye |
 | 48 | The furnace of affliction | Comfort ye |
 | 49 | Graven upon the palms | The suffering servant |
-| 50 | The Lord God will help me | The suffering servant |
+| 50 | The Lord will help me | The suffering servant |
 | 51 | Awake, awake, put on strength | The suffering servant |
 | 52 | How beautiful upon the mountains | The suffering servant |
 | 53 | Despised and rejected of men | The suffering servant |
-| 54 | Enlarge the place of thy tent | The suffering servant |
+| 54 | Enlarge thy tent | The suffering servant |
 | 55 | Come ye to the waters | The suffering servant |
-| 56 | A house of prayer for all | The suffering servant |
+| 56 | A house of prayer | The suffering servant |
 | 57 | The righteous taken from evil | The suffering servant |
-| 58 | The true fast; the Sabbath delight | Zion glorified |
+| 58 | The true fast; Sabbath delight | Zion glorified |
 | 59 | Your iniquities have separated | Zion glorified |
-| 60 | Arise, shine; thy light is come | Zion glorified |
-| 61 | The acceptable year of the Lord | Zion glorified |
+| 60 | Arise, shine; light is come | Zion glorified |
+| 61 | The Lord's acceptable year | Zion glorified |
 | 62 | Zion a crown of glory | Zion glorified |
 | 63 | Red in thine apparel | Zion glorified |
 | 64 | We are the clay | Zion glorified |
-| 65 | New heavens and a new earth | Zion glorified |
+| 65 | New heavens, new earth | Zion glorified |
 | 66 | Heaven is my throne | Zion glorified |
 
 ## Jeremiah
@@ -961,13 +961,13 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 1 | Ordained a prophet before birth | Jeremiah's warnings |
 | 2 | They have forsaken the fountain | Jeremiah's warnings |
 | 3 | Backsliding Israel called to return | Jeremiah's warnings |
-| 4 | Break up your fallow ground | Jeremiah's warnings |
+| 4 | Wash thy heart, Jerusalem | Jeremiah's warnings |
 | 5 | Run through the streets | Jeremiah's warnings |
 | 6 | Ask for the old paths | Jeremiah's warnings |
 | 7 | Trust not in the temple | Jeremiah's warnings |
 | 8 | No balm in Gilead | Jeremiah's warnings |
 | 9 | A fountain of tears | Jeremiah's warnings |
-| 10 | The customs of the people vain | Jeremiah's warnings |
+| 10 | Vain idols; the true God | Jeremiah's warnings |
 | 11 | The broken covenant | Jeremiah's warnings |
 | 12 | Why doth the wicked prosper | Jeremiah's warnings |
 | 13 | The marred girdle | Jeremiah's warnings |
@@ -982,7 +982,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 22 | Judgment on Judah's kings | Kings & false prophets |
 | 23 | A righteous Branch; false shepherds | Kings & false prophets |
 | 24 | The good and bad figs | Kings & false prophets |
-| 25 | The cup of fury; 70 years | Kings & false prophets |
+| 25 | The fury cup; 70 years | Kings & false prophets |
 | 26 | Jeremiah threatened with death | Kings & false prophets |
 | 27 | The yokes and the bonds | Kings & false prophets |
 | 28 | Hananiah's false prophecy | Kings & false prophets |
@@ -990,7 +990,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 30 | The time of Jacob's trouble | The new covenant |
 | 31 | A new covenant written within | The new covenant |
 | 32 | The field bought at Anathoth | The new covenant |
-| 33 | Call unto me; I will answer | The new covenant |
+| 33 | Call and I will answer | The new covenant |
 | 34 | The covenant with servants broken | The fall narrated |
 | 35 | The obedient Rechabites | The fall narrated |
 | 36 | The burned scroll rewritten | The fall narrated |
@@ -1015,11 +1015,11 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 
 | Ch | Caption | Section |
 |----|---------|---------|
-| 1 | How doth the city sit solitary | Jerusalem lamented |
+| 1 | The city sits solitary | Jerusalem lamented |
 | 2 | The Lord covered Zion | Jerusalem lamented |
-| 3 | His mercies are new every morning | Jerusalem lamented |
-| 4 | How is the gold become dim | Jerusalem lamented |
-| 5 | Turn us unto thee, O Lord | Jerusalem lamented |
+| 3 | Mercies new every morning | Jerusalem lamented |
+| 4 | The gold become dim | Jerusalem lamented |
+| 5 | Turn us unto thee | Jerusalem lamented |
 
 ## Ezekiel
 
@@ -1027,9 +1027,9 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 |----|---------|---------|
 | 1 | The vision of the wheels | Ezekiel's call |
 | 2 | Son of man, stand upright | Ezekiel's call |
-| 3 | The roll eaten; a watchman set | Ezekiel's call |
-| 4 | The siege portrayed on a tile | Jerusalem judged |
-| 5 | The hair divided by the sword | Jerusalem judged |
+| 3 | The roll eaten; watchman set | Ezekiel's call |
+| 4 | The siege on a tile | Jerusalem judged |
+| 5 | Hair divided by the sword | Jerusalem judged |
 | 6 | Against the mountains of Israel | Jerusalem judged |
 | 7 | An end is come | Jerusalem judged |
 | 8 | Abominations in the temple | Jerusalem judged |
@@ -1041,8 +1041,8 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 14 | Noah, Daniel, and Job | Jerusalem judged |
 | 15 | The vine branch burned | Jerusalem judged |
 | 16 | Jerusalem, the unfaithful wife | Jerusalem judged |
-| 17 | The 2 eagles and the vine | Jerusalem judged |
-| 18 | The soul that sinneth shall die | Jerusalem judged |
+| 17 | The 2 eagles; the vine | Jerusalem judged |
+| 18 | The soul that sinneth dies | Jerusalem judged |
 | 19 | A lamentation for the princes | Jerusalem judged |
 | 20 | Israel's rebellions rehearsed | Jerusalem judged |
 | 21 | The sword of the Lord | Jerusalem judged |
@@ -1054,7 +1054,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 27 | The lamentation over Tyre | Against the nations |
 | 28 | The prince of Tyre | Against the nations |
 | 29 | Against Egypt and Pharaoh | Against the nations |
-| 30 | The day of the Lord near | Against the nations |
+| 30 | Egypt's day of the Lord | Against the nations |
 | 31 | The cedar in Lebanon | Against the nations |
 | 32 | The lamentation over Pharaoh | Against the nations |
 | 33 | The watchman's responsibility | Dry bones & restoration |
@@ -1069,10 +1069,10 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 42 | The priests' chambers | The temple vision |
 | 43 | The glory returns; the altar | The temple vision |
 | 44 | The east gate; priestly duties | The temple vision |
-| 45 | The holy portion of the land | The temple vision |
+| 45 | The land's holy portion | The temple vision |
 | 46 | The offerings of the prince | The temple vision |
 | 47 | Waters from the sanctuary | The temple vision |
-| 48 | The tribal portions; the city's gates | The temple vision |
+| 48 | Tribal portions; the city's gates | The temple vision |
 
 ## Daniel
 
@@ -1084,12 +1084,12 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 4 | Nebuchadnezzar's tree and madness | Daniel in Babylon |
 | 5 | The handwriting on the wall | Daniel in Babylon |
 | 6 | Daniel in the lions' den | Daniel in Babylon |
-| 7 | Four beasts; the Ancient of Days | Daniel's visions |
-| 8 | The ram and the he goat | Daniel's visions |
+| 7 | Four beasts; Ancient of Days | Daniel's visions |
+| 8 | The ram and he goat | Daniel's visions |
 | 9 | The 70 weeks | Daniel's visions |
 | 10 | The vision by the Hiddekel | Daniel's visions |
-| 11 | Kings of the north and south | Daniel's visions |
-| 12 | Many shall run to and fro | Daniel's visions |
+| 11 | Kings of north and south | Daniel's visions |
+| 12 | Michael stands; the wise shine | Daniel's visions |
 
 ## Hosea
 
@@ -1115,7 +1115,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | Ch | Caption | Section |
 |----|---------|---------|
 | 1 | The locusts devour the land | The day of the LORD |
-| 2 | The Spirit poured upon all flesh | The day of the LORD |
+| 2 | Spirit poured on all flesh | The day of the LORD |
 | 3 | The valley of decision | The day of the LORD |
 
 ## Amos
@@ -1129,7 +1129,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | 5 | Seek the Lord and live | The day of the LORD |
 | 6 | Woe to them at ease | The day of the LORD |
 | 7 | The plumbline; Amaziah's opposition | The day of the LORD |
-| 8 | A famine of hearing the word | The day of the LORD |
+| 8 | A famine of the word | The day of the LORD |
 | 9 | The tabernacle of David raised | The day of the LORD |
 
 ## Obadiah
@@ -1152,12 +1152,12 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | Ch | Caption | Section |
 |----|---------|---------|
 | 1 | Judgment on Samaria and Jerusalem | Jonah & Micah |
-| 2 | They covet fields and take them | Jonah & Micah |
+| 2 | They covet and seize fields | Jonah & Micah |
 | 3 | Zion plowed as a field | Jonah & Micah |
 | 4 | Swords into plowshares | Jonah & Micah |
 | 5 | Bethlehem Ephratah | Jonah & Micah |
 | 6 | Do justly, love mercy | Jonah & Micah |
-| 7 | Who is a God like thee | Jonah & Micah |
+| 7 | A God pardoning iniquity | Jonah & Micah |
 
 ## Nahum
 
@@ -1172,14 +1172,14 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 | Ch | Caption | Section |
 |----|---------|---------|
 | 1 | O Lord, how long | The last warnings |
-| 2 | The just shall live by faith | The last warnings |
+| 2 | The just live by faith | The last warnings |
 | 3 | The prayer of Habakkuk | The last warnings |
 
 ## Zephaniah
 
 | Ch | Caption | Section |
 |----|---------|---------|
-| 1 | The great day of the Lord | The last warnings |
+| 1 | The Lord's great day | The last warnings |
 | 2 | Seek the Lord, ye meek | The last warnings |
 | 3 | A pure language restored | The last warnings |
 
@@ -1187,26 +1187,26 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 
 | Ch | Caption | Section |
 |----|---------|---------|
-| 1 | Consider your ways; build the house | The postexilic prophets |
-| 2 | The glory of the latter house | The postexilic prophets |
+| 1 | Consider your ways | The postexilic prophets |
+| 2 | The latter house's glory | The postexilic prophets |
 
 ## Zechariah
 
 | Ch | Caption | Section |
 |----|---------|---------|
-| 1 | The horses among the myrtle trees | The postexilic prophets |
-| 2 | The man with the measuring line | The postexilic prophets |
+| 1 | Horses among the myrtles | The postexilic prophets |
+| 2 | The measuring line | The postexilic prophets |
 | 3 | Joshua the high priest cleansed | The postexilic prophets |
-| 4 | Not by might, nor by power | The postexilic prophets |
-| 5 | The flying roll and the ephah | The postexilic prophets |
+| 4 | Not by might nor power | The postexilic prophets |
+| 5 | The flying roll; the ephah | The postexilic prophets |
 | 6 | The 4 chariots; the Branch | The postexilic prophets |
 | 7 | Fasting or true judgment | The postexilic prophets |
 | 8 | Old men in Jerusalem's streets | The postexilic prophets |
 | 9 | Thy King cometh unto thee | The postexilic prophets |
-| 10 | Ask ye rain of the Lord | The postexilic prophets |
+| 10 | Ask rain of the Lord | The postexilic prophets |
 | 11 | Thirty pieces of silver | The postexilic prophets |
 | 12 | They shall look upon me | The postexilic prophets |
-| 13 | Wounded in the house of friends | The postexilic prophets |
+| 13 | Wounded among his friends | The postexilic prophets |
 | 14 | The mount of Olives cleft | The postexilic prophets |
 
 ## Malachi

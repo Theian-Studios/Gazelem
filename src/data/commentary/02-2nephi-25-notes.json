@@ -1,0 +1,894 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "2 Nephi",
+  "book_slug": "2nephi",
+  "chapter": 25,
+  "volume_order": "02",
+  "speakers": [
+   "Nephi"
+  ],
+  "audience": "His people, and those who will receive the record later",
+  "location": "The land of Nephi",
+  "date": "~559–545 BC",
+  "unit": "Nephi's commentary (2 Nephi 25–30)",
+  "principles": [
+   "Plainness",
+   "The name of Christ",
+   "Grace and the law"
+  ],
+  "connections": 15,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The commentary Nephi promised",
+   "text": "Thirteen chapters of Isaiah end at chapter 24, and this one opens with him speaking \"somewhat concerning the words which I have written\" (v. 1). He had told his readers what the block was for before it began; now he explains what made it difficult and what he expects it to do.",
+   "cites": [
+    {
+     "quote": "somewhat concerning the words which I have written",
+     "verse": 1,
+     "start": 84,
+     "end": 143,
+     "spans": [
+      {
+       "w1": 6,
+       "w2": 13,
+       "text": "somewhat concerning the words which I have written"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "A teaching decision, stated openly",
+   "text": "Verse 6 says he has not taught his children after the manner of the Jews, and verse 2 gives the reason in blunt terms. A father who grew up in Jerusalem is telling his colony why their education looks different from his own, and the explanation is moral rather than practical."
+  },
+  {
+   "n": 3,
+   "title": "Six hundred years",
+   "text": "Verse 19 dates the Messiah's coming by the family's own departure rather than by any dynasty or empire. It is the record's internal calendar, and its writers keep checking themselves against it. The date and the name arrive in the same verse."
+  },
+  {
+   "n": 4,
+   "title": "The brazen serpent",
+   "text": "Verse 20 refers to Moses lifting a bronze snake so that the bitten could look and live. It is the record's preferred illustration of a simple act of looking, and Alma will preach on it at length. Nephi introduces it here as evidence that God has done this kind of thing before."
+  },
+  {
+   "n": 5,
+   "title": "Still keeping the law",
+   "text": "Verses 24 through 30 describe a people who believe in Christ, keep the law of Moses, call the law dead, and keep it anyway. That is not a contradiction they are unaware of; Nephi states it four different ways. The colony is living in the overlap between two dispensations and knows it."
+  },
+  {
+   "n": 6,
+   "title": "A record aimed past its own audience",
+   "text": "Verse 3 addresses \"all those that shall receive hereafter these things which I write\" (v. 3), and verse 8 says the words will be of great worth in the last days. Nephi's commentary is written to two audiences at once, and he switches between them without warning.",
+   "cites": [
+    {
+     "quote": "all those that shall receive hereafter these things which I write",
+     "verse": 3,
+     "start": 18,
+     "end": 92,
+     "spans": [
+      {
+       "w1": 8,
+       "w2": 18,
+       "text": "all those that shall receive hereafter these things which I write"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "term": "manner",
+   "verse_label": "v. 1",
+   "text": "Custom, the settled way a people does something. It appears three times in the opening verses, twice about the Jews and once about his own teaching, and each time it names a style rather than a doctrine. What made Isaiah hard was not the content but the conventions, and Nephi's response is to change conventions rather than to change what he teaches."
+  },
+  {
+   "term": "plainness",
+   "verse_label": "v. 7",
+   "text": "Directness, speech without ornament. Nephi treats it as a method with a guarantee attached: proceeding in plainness, he says, is a way \"in the which I know that no man can err\" (v. 7). The word becomes his signature over the next chapters, and it is offered as the alternative to the manner of prophesying he has just described.",
+   "cites": [
+    {
+     "quote": "in the which I know that no man can err",
+     "verse": 7,
+     "start": 135,
+     "end": 183,
+     "spans": [
+      {
+       "w1": 13,
+       "w2": 22,
+       "text": "in the which I know that no man can err"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "scourged",
+   "verse_label": "v. 16",
+   "text": "Whipped, and in this verse the whipping is done by nations rather than by men. Nephi uses the word for a long historical process, many generations of it, and the stated end is persuasion rather than punishment: until they are persuaded to believe in Christ. The harshness of the verb sits oddly beside the gentleness of the goal, and he leaves it there."
+  },
+  {
+   "term": "stiffnecked",
+   "verse_label": "v. 28",
+   "text": "An ox that will not turn its head to the yoke. Nephi applies it to his own people in the same breath as his claim to have spoken plainly, so the plainness is a response to the stiffness. He is not describing strangers. These are the people he has been leading for decades."
+  },
+  {
+   "term": "performances",
+   "verse_label": "v. 30",
+   "text": "The observances of the law, its required actions. Paired with ordinances, the word covers the whole practical apparatus a Nephite household kept, and the instruction is to keep it \"inasmuch as it shall be expedient\" (v. 30) until the law is fulfilled. The chapter's last word on the law is about doing it rather than about understanding it.",
+   "cites": [
+    {
+     "quote": "inasmuch as it shall be expedient",
+     "verse": 30,
+     "start": 180,
+     "end": 223,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 7,
+       "text": "inasmuch as it shall be expedient"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "hard for many of my people to understand",
+   "verse_label": "v. 1",
+   "text": "Nephi says outright that the thirteen chapters he just copied are difficult, and he does not apologize for including them. What follows is a diagnosis rather than a defense: they know not concerning the manner of prophesying among the Jews. Difficulty is located in the reader's distance from a culture, which is a generous account of why a text fails to land."
+  },
+  {
+   "term": "filled with the spirit of prophecy",
+   "verse_label": "v. 4",
+   "text": "The condition under which Isaiah becomes plain. Nephi does not say study, background, or age, though he supplies background himself in the next verses. The qualification is the same spirit the prophet wrote with, which makes reading a matter of shared possession rather than of expertise."
+  },
+  {
+   "term": "my soul delighteth in the words of Isaiah",
+   "verse_label": "v. 5",
+   "text": "The formula from the preface returns, now with Isaiah named. In chapter 11 he said his soul delighted in his words and gave the eyewitness credential; here he adds a second reason, which is that he came out from Jerusalem and has seen the things of the Jews. The delight is the same and the argument behind it has grown."
+  },
+  {
+   "term": "with healing in his wings",
+   "verse_label": "v. 13",
+   "text": "Malachi's phrase, \"the Sun of righteousness arise with healing in his wings\" (Mal. 4:2), attached here to the resurrection. Nephi's version supplies the setting Malachi's does not: three days in a sepulchre, and then rising. Whether he had Malachi's words on the plates or shares a source with him, the image arrives already fixed to a morning.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mal. 4:2",
+     "start": 78,
+     "end": 86,
+     "book": "Mal",
+     "chapter": 4,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
+  },
+  {
+   "term": "a marvelous work and a wonder",
+   "verse_label": "v. 17",
+   "text": "Isaiah's phrase from a chapter Nephi will quote in full two chapters later, \"I will proceed to do a marvellous work among this people\" (Isa. 29:14). Here it names what happens when God sets his hand the second time. The record uses this line about its own coming forth more than any other in scripture, and this is where it enters.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 29:14",
+     "start": 136,
+     "end": 146,
+     "book": "Isa",
+     "chapter": 29,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
+  },
+  {
+   "term": "six hundred years",
+   "verse_label": "v. 19",
+   "text": "The record's most checkable prophecy, and it is dated to a family event rather than to a reign. What makes it remarkable is not the arithmetic but the willingness: Nephi fixes a number that his descendants can test, and the volume's later writers do test it. The same verse then gives the name."
+  },
+  {
+   "term": "his name shall be Jesus Christ, the Son of God",
+   "verse_label": "v. 19",
+   "text": "The full name arrives here for the first time, on the authority of the prophets and of \"the word of the angel of God\" (v. 19). Jacob had been given the second element by an angel in the night fifteen chapters ago. Nephi now supplies the whole of it, and the record has its central name complete.",
+   "cites": [
+    {
+     "quote": "the word of the angel of God",
+     "verse": 19,
+     "start": 87,
+     "end": 125,
+     "spans": [
+      {
+       "w1": 34,
+       "w2": 40,
+       "text": "the word of the angel of God"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "by grace that we are saved, after all we can do",
+   "verse_label": "v. 23",
+   "text": "The most argued-over sentence in the book, and its setting is practical: it explains why a people labor to write and to persuade. Jacob had already said that it is \"only in and through the grace of God that ye are saved\" (2 Ne. 10:24), with the same \"only\" doing the work. Read beside that verse, the clause about all we can do describes the labor, not the payment.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 10:24",
+     "start": 222,
+     "end": 233,
+     "book": "2 Ne",
+     "chapter": 10,
+     "verse_start": 24,
+     "verse_end": 24
+    }
+   ]
+  },
+  {
+   "term": "the law hath become dead unto us",
+   "verse_label": "v. 25",
+   "text": "A hard sentence from people still keeping the law, and Nephi gives both halves without softening either: dead unto us, and yet we keep it because of the commandments. He is describing a live practice whose meaning has changed while its requirements have not, which is a more uncomfortable position than either abandoning it or defending it."
+  },
+  {
+   "term": "we talk of Christ, we rejoice in Christ",
+   "verse_label": "v. 26",
+   "text": "Four verbs in a row with the same object, then a fifth about writing. The sentence is the most quoted in Nephi's own voice, and its purpose clause is easy to skip: all of it is so that their children may know \"to what source they may look for a remission of their sins\" (v. 26). The talking is aimed at a specific piece of information.",
+   "cites": [
+    {
+     "quote": "to what source they may look for a remission of their sins",
+     "verse": 26,
+     "start": 209,
+     "end": 277,
+     "spans": [
+      {
+       "w1": 30,
+       "w2": 41,
+       "text": "to what source they may look for a remission of their sins"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Christ is the Holy One of Israel",
+   "verse_label": "v. 29",
+   "text": "The identification the whole record has been building toward, stated in five words. Jacob's sermon used the title thirteen times without making the equation this explicitly. Nephi makes it, attaches worship to it, and treats it as the right way that his plain speaking exists to point at."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–6",
+   "start": 1,
+   "end": 6,
+   "title": "Why the block was hard, and what he will do instead",
+   "text": "Nephi names the problem, the reason, and his remedy in six verses. The Jews' manner of prophesying is unfamiliar; his people have not been taught it, and he explains why not; he himself knows it because he grew up there. Then the pivot: he will proceed in his own plainness. The whole passage is a writer explaining his editorial choices out loud."
+  },
+  {
+   "label": "v. 7–8",
+   "start": 7,
+   "end": 8,
+   "title": "Worth now, and worth later",
+   "text": "He concedes that some will think the Isaiah chapters are of no value, and answers by looking past them: the words will be of great worth in the last days. It is the chapter's first move toward the second audience, and it is made without argument. He simply says who the material is for."
+  },
+  {
+   "label": "v. 9–11",
+   "start": 9,
+   "end": 11,
+   "title": "Never destroyed without warning",
+   "text": "A short historical rule, stated twice: generations have been destroyed for iniquity, and none of them without prophets telling them first. Then the specific case, Jerusalem after his father left. The comfort in the rule is easy to miss, since it means the warning always precedes the consequence."
+  },
+  {
+   "label": "v. 12–14",
+   "start": 12,
+   "end": 14,
+   "title": "The whole sequence in three verses",
+   "text": "Rejection, crucifixion, three days, resurrection, salvation for believers, and then Jerusalem destroyed again. Nephi compresses centuries into a paragraph, and the pace is deliberate. He is not narrating; he is laying out the shape so his people can recognize the parts when the Isaiah chapters describe them."
+  },
+  {
+   "label": "v. 17–20",
+   "start": 17,
+   "end": 20,
+   "title": "A second time, a name, and a serpent",
+   "text": "God's hand set again, a marvelous work, words brought forth to convince, the six hundred years, the name, and then the brazen serpent as proof that looking has always been enough. Four of the record's most-used ideas sit within four verses, and Nephi introduces them as a set."
+  },
+  {
+   "label": "v. 23–26",
+   "start": 23,
+   "end": 26,
+   "title": "Why they write",
+   "text": "Labor, persuade, believe, be reconciled, and the sentence about grace. Then the law: kept, dead, kept anyway. Then the four verbs about Christ and the purpose behind them. This is the chapter's center of gravity and the passage the rest of the record quotes back to itself most often."
+  },
+  {
+   "label": "v. 28–30",
+   "start": 28,
+   "end": 30,
+   "title": "Plain speech as evidence",
+   "text": "He calls his people stiffnecked, says he has spoken so plainly they cannot misunderstand, and then says the words will stand as a testimony against them. Plain speaking, in this account, removes the excuse. The chapter ends not on comfort but on responsibility, with an instruction to keep the performances meanwhile."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "A writer explaining his method",
+   "text": "Very few passages in scripture describe why a text was assembled the way it was. This one names the difficulty of the material, the cultural reason for it, the author's own qualifications, and his alternative approach. Read beside chapter 11, it brackets the Isaiah block with an introduction and an afterword."
+  },
+  {
+   "n": 2,
+   "title": "Confidence, in a book full of anxious authors",
+   "text": "Nephi says his words cannot be mistaken and that no man can err in the way he is proceeding. Almost every other writer in this book worries about the opposite: Moroni frets over his weakness in writing, Mormon abridges apologetically, Jacob calls his own labor grievous. The contrast is worth noticing before taking any of their anxiety as the record's settled view of itself."
+  },
+  {
+   "n": 3,
+   "title": "The chapter completes the name",
+   "text": "Jacob received Christ from an angel at 2 Nephi 10:3; here the full name is given with the Son of God attached. The volume's central name is assembled across fifteen chapters by two brothers, both crediting angels, and neither makes an occasion of it."
+  },
+  {
+   "n": 4,
+   "title": "Two audiences, no seam",
+   "text": "Nephi addresses his own stiffnecked people and readers a long way off, sometimes in the same verse. The commentary's usefulness to a modern reader is not accidental; it is stated as an intention in verse 3 and verse 8, before any of the doctrine."
+  },
+  {
+   "n": 5,
+   "title": "The law is held in tension deliberately",
+   "text": "Dead, kept, fulfilled later, and meanwhile the performances continue. Nephi states all four positions without resolving them into a rule, which is how a people actually live through a change of dispensation. The record returns to this question in Jacob, Abinadi, and the risen Lord's own teaching."
+  },
+  {
+   "n": 6,
+   "title": "The grace sentence is placed, not featured",
+   "text": "It arrives inside a paragraph about why they write and persuade, immediately after \"reconciled to God\" and immediately before the law discussion. Whatever it means, its context is labor and reconciliation rather than a debate about mechanism, and Jacob's simpler statement of it in chapter 10 is the record's own gloss."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Learn the conventions first",
+    "verse_label": "v. 1",
+    "text": "When scripture does not land, Nephi's diagnosis is distance from a manner rather than defect in you or in the text. Pick one difficult passage and spend an hour on the customs behind it rather than on the meaning of it."
+   },
+   {
+    "title": "Ask for the spirit of prophecy, not more study",
+    "verse_label": "v. 4",
+    "text": "The condition Nephi names for Isaiah becoming plain is a possession, not an achievement. Before your next study session, ask specifically for that, and see whether it changes what you notice."
+   },
+   {
+    "title": "Date something you are trusting",
+    "verse_label": "v. 19",
+    "text": "Nephi fixed a number his descendants could check. Where you are counting on a promise, write down what you expect and when, so that later you are examining a record instead of a memory."
+   },
+   {
+    "title": "Do the simple thing",
+    "verse_label": "v. 20",
+    "text": "The serpent required no work and no worthiness, only a turned head, and the record says many would not do it. Identify the simple thing you have been declining because it seems too simple, and do it this week."
+   },
+   {
+    "title": "Read the grace verse with its neighbors",
+    "verse_label": "v. 23",
+    "text": "Read the verse with the sentence before it and the chapter's other statement about grace. Then ask whether your own effort is functioning as labor, as Nephi describes it, or as payment."
+   },
+   {
+    "title": "Use one of the four verbs",
+    "verse_label": "v. 26",
+    "text": "Take the four verbs and do one of them deliberately this week toward a specific person, with the purpose clause in mind: so that they know where to look for a remission of sins."
+   },
+   {
+    "title": "Speak plainly enough to be answerable",
+    "verse_label": "v. 28",
+    "text": "Plain speech removes excuses on both sides. Say the thing you have been hinting at, to the person who needs to hear it, in words that could later stand as a record of what you said."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "Am I willing to read hard scripture badly for a while, or do I only read what already opens easily?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "What do I delight in enough to spend thirteen chapters of my own limited record on?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "Does the resurrection function in my week as an event that happened, or as healing available now?"
+   },
+   {
+    "verse_label": "v. 20",
+    "start": 20,
+    "end": 20,
+    "text": "What has God made simple that I have been treating as complicated, and why do I prefer it complicated?"
+   },
+   {
+    "verse_label": "v. 23",
+    "start": 23,
+    "end": 23,
+    "text": "When I read \"after all we can do,\" do I hear an invoice or an invitation?"
+   },
+   {
+    "verse_label": "v. 25",
+    "start": 25,
+    "end": 25,
+    "text": "What in my practice is kept out of commandment rather than out of conviction, and is that acceptable?"
+   },
+   {
+    "verse_label": "v. 29",
+    "start": 29,
+    "end": 29,
+    "text": "If Christ is the Holy One of Israel, what would worshipping with might, mind, strength, and whole soul change tomorrow?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "2ne25-012",
+   "scope": "BOOK",
+   "head": "2 Ne. 33:6",
+   "anchor": {
+    "verse": 7,
+    "w1": 3,
+    "w2": 12,
+    "quote": "I proceed with mine own prophecy, according to my plainness"
+   },
+   "reason": "plainness claimed, then gloried in",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 33,
+     "verse": 6,
+     "w1": 1,
+     "w2": 13,
+     "quote": "I glory in plainness; I glory in truth; I glory in my Jesus",
+     "span": true
+    }
+   ],
+   "mirror": "2ne33-003"
+  },
+  {
+   "id": "2ne25-011",
+   "scope": "BOOK",
+   "head": "2 Ne. 31:2",
+   "anchor": {
+    "verse": 26,
+    "w1": 2,
+    "w2": 13,
+    "quote": "we talk of Christ, we rejoice in Christ, we preach of Christ"
+   },
+   "reason": "what all the talking was for",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 31,
+     "verse": 2,
+     "w1": 13,
+     "w2": 24,
+     "quote": "a few words which I must speak concerning the doctrine of Christ",
+     "span": true
+    }
+   ],
+   "mirror": "2ne31-003"
+  },
+  {
+   "id": "2ne25-010",
+   "scope": "BOOK",
+   "head": "2 Ne. 27:26",
+   "anchor": {
+    "verse": 17,
+    "w1": 23,
+    "w2": 33,
+    "quote": "he will proceed to do a marvelous work and a wonder"
+   },
+   "reason": "the phrase returned to its setting",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 27,
+     "verse": 26,
+     "w1": 2,
+     "w2": 12,
+     "quote": "I will proceed to do a marvelous work among this people",
+     "span": true
+    }
+   ],
+   "mirror": "2ne27-003"
+  },
+  {
+   "id": "2ne25-001",
+   "scope": "BOOK",
+   "head": "2 Ne. 11:2",
+   "anchor": {
+    "verse": 5,
+    "w1": 3,
+    "w2": 10,
+    "quote": "my soul delighteth in the words of Isaiah"
+   },
+   "reason": "the same reason given after the block",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 11,
+     "verse": 2,
+     "w1": 13,
+     "w2": 18,
+     "quote": "my soul delighteth in his words",
+     "span": true
+    }
+   ],
+   "mirror": "2ne11-002"
+  },
+  {
+   "id": "2ne25-002",
+   "scope": "BOOK",
+   "head": "2 Ne. 21:11",
+   "anchor": {
+    "verse": 17,
+    "w1": 2,
+    "w2": 15,
+    "quote": "the Lord will set his hand again the second time to restore his people"
+   },
+   "reason": "Isaiah's phrase taken as his own",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 21,
+     "verse": 11,
+     "w1": 11,
+     "w2": 27,
+     "quote": "the Lord shall set his hand again the second time to recover the remnant of his people",
+     "span": true
+    }
+   ],
+   "mirror": "2ne21-004"
+  },
+  {
+   "id": "2ne25-003",
+   "scope": "BOOK",
+   "head": "2 Ne. 10:3",
+   "anchor": {
+    "verse": 19,
+    "w1": 41,
+    "w2": 50,
+    "quote": "his name shall be Jesus Christ, the Son of God"
+   },
+   "reason": "the name completed by the other brother",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 10,
+     "verse": 3,
+     "w1": 13,
+     "w2": 28,
+     "quote": "for in the last night the angel spake unto me that this should be his name",
+     "span": true
+    }
+   ],
+   "mirror": "2ne10-016"
+  },
+  {
+   "id": "2ne25-004",
+   "scope": "BOOK",
+   "head": "2 Ne. 10:24",
+   "anchor": {
+    "verse": 23,
+    "w1": 29,
+    "w2": 41,
+    "quote": "it is by grace that we are saved, after all we can do"
+   },
+   "reason": "Jacob's simpler statement of it",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 10,
+     "verse": 24,
+     "w1": 32,
+     "w2": 45,
+     "quote": "it is only in and through the grace of God that ye are saved",
+     "span": true
+    }
+   ],
+   "mirror": "2ne10-017"
+  },
+  {
+   "id": "2ne25-015",
+   "scope": "BOM",
+   "head": "Jacob 6:2",
+   "anchor": {
+    "verse": 17,
+    "w1": 2,
+    "w2": 15,
+    "quote": "the Lord will set his hand again the second time to restore his people"
+   },
+   "reason": "Jacob attaching the formula to the last pruning",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 6,
+     "verse": 2,
+     "w1": 5,
+     "w2": 17,
+     "quote": "he shall set his hand again the second time to recover his people",
+     "span": true
+    }
+   ],
+   "mirror": "jac06-004"
+  },
+  {
+   "id": "2ne25-014",
+   "scope": "BOM",
+   "head": "Jacob 4:11",
+   "anchor": {
+    "verse": 23,
+    "w1": 20,
+    "w2": 24,
+    "quote": "to be reconciled to God"
+   },
+   "reason": "the same imperative in Jacob's mouth",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 4,
+     "verse": 11,
+     "w1": 4,
+     "w2": 12,
+     "quote": "be reconciled unto him through the atonement of Christ",
+     "span": true
+    }
+   ],
+   "mirror": "jac04-004"
+  },
+  {
+   "id": "2ne25-013",
+   "scope": "BOM",
+   "head": "Jacob 4:4",
+   "anchor": {
+    "verse": 26,
+    "w1": 2,
+    "w2": 13,
+    "quote": "we talk of Christ, we rejoice in Christ, we preach of Christ"
+   },
+   "reason": "Jacob's statement of the same writing purpose",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 4,
+     "verse": 4,
+     "w1": 15,
+     "w2": 32,
+     "quote": "we knew of Christ, and we had a hope of his glory many hundred years before his coming",
+     "span": true
+    }
+   ],
+   "mirror": "jac04-003"
+  },
+  {
+   "id": "2ne25-005",
+   "scope": "BOM",
+   "head": "Alma 33:19",
+   "anchor": {
+    "verse": 20,
+    "w1": 30,
+    "w2": 48,
+    "quote": "gave unto Moses power that he should heal the nations after they had been bitten by the poisonous serpents"
+   },
+   "reason": "the serpent preached as a type",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 33,
+     "verse": 19,
+     "w1": 11,
+     "w2": 26,
+     "quote": "a type was raised up in the wilderness, that whosoever would look upon it might live",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "2ne25-006",
+   "scope": "BOM",
+   "head": "Moro. 10:32",
+   "anchor": {
+    "verse": 23,
+    "w1": 29,
+    "w2": 41,
+    "quote": "it is by grace that we are saved, after all we can do"
+   },
+   "reason": "the record's last word on grace",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 10,
+     "verse": 32,
+     "w1": 35,
+     "w2": 41,
+     "quote": "then is his grace sufficient for you",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "2ne25-007",
+   "scope": "SW",
+   "head": "Mal. 4:2",
+   "anchor": {
+    "verse": 13,
+    "w1": 20,
+    "w2": 30,
+    "quote": "he shall rise from the dead, with healing in his wings"
+   },
+   "reason": "Malachi's sun of righteousness",
+   "targets": [
+    {
+     "ref": "Mal.",
+     "chapter": 4,
+     "verse": 2,
+     "w1": 9,
+     "w2": 18,
+     "quote": "the Sun of righteousness arise with healing in his wings",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne25-008",
+   "scope": "SW",
+   "head": "Isa. 29:14",
+   "anchor": {
+    "verse": 17,
+    "w1": 23,
+    "w2": 33,
+    "quote": "he will proceed to do a marvelous work and a wonder"
+   },
+   "reason": "the phrase Nephi will quote in full",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 29,
+     "verse": 14,
+     "w1": 3,
+     "w2": 13,
+     "quote": "I will proceed to do a marvellous work among this people",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "2ne25-009",
+   "scope": "SW",
+   "head": "Num. 21:9",
+   "anchor": {
+    "verse": 20,
+    "w1": 30,
+    "w2": 48,
+    "quote": "gave unto Moses power that he should heal the nations after they had been bitten by the poisonous serpents"
+   },
+   "reason": "the bronze serpent in the wilderness",
+   "targets": [
+    {
+     "ref": "Num.",
+     "chapter": 21,
+     "verse": 9,
+     "w1": 27,
+     "w2": 35,
+     "quote": "when he beheld the serpent of brass, he lived",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 5,
+   "w1": 3,
+   "w2": 10,
+   "quote": "my soul delighteth in the words of Isaiah",
+   "entries": [
+    "2ne25-001"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 3,
+   "w2": 12,
+   "quote": "I proceed with mine own prophecy, according to my plainness",
+   "entries": [
+    "2ne25-012"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 20,
+   "w2": 30,
+   "quote": "he shall rise from the dead, with healing in his wings",
+   "entries": [
+    "2ne25-007"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 2,
+   "w2": 15,
+   "quote": "the Lord will set his hand again the second time to restore his people",
+   "entries": [
+    "2ne25-002",
+    "2ne25-015"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 23,
+   "w2": 33,
+   "quote": "he will proceed to do a marvelous work and a wonder",
+   "entries": [
+    "2ne25-010",
+    "2ne25-008"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 41,
+   "w2": 50,
+   "quote": "his name shall be Jesus Christ, the Son of God",
+   "entries": [
+    "2ne25-003"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 30,
+   "w2": 48,
+   "quote": "gave unto Moses power that he should heal the nations after they had been bitten by the poisonous serpents",
+   "entries": [
+    "2ne25-005",
+    "2ne25-009"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 20,
+   "w2": 24,
+   "quote": "to be reconciled to God",
+   "entries": [
+    "2ne25-014"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 29,
+   "w2": 41,
+   "quote": "it is by grace that we are saved, after all we can do",
+   "entries": [
+    "2ne25-004",
+    "2ne25-006"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 2,
+   "w2": 13,
+   "quote": "we talk of Christ, we rejoice in Christ, we preach of Christ",
+   "entries": [
+    "2ne25-011",
+    "2ne25-013"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "2e95cd682ad9f848"
+ }
+}

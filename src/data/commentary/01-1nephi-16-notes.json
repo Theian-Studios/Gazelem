@@ -1,0 +1,993 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "1 Nephi",
+  "book_slug": "1nephi",
+  "chapter": 16,
+  "volume_order": "01",
+  "speakers": [
+   "Nephi"
+  ],
+  "audience": null,
+  "location": "The wilderness",
+  "date": "~599 BC (journeying south-southeast)",
+  "unit": "Voyage to the promised land (1 Nephi 16–18)",
+  "principles": [
+   "Guidance",
+   "Affliction",
+   "Faith"
+  ],
+  "connections": 9,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The route runs down the incense trail",
+   "text": "\"nearly a south-southeast direction\" (v. 13) from the Red Sea camp tracks the ancient caravan road along Arabia's western mountains: watered stations, hunting country, and established stopping places. The record's directional notes are the kind a traveler keeps, not a novelist.",
+   "cites": [
+    {
+     "quote": "nearly a south-southeast direction",
+     "verse": 13,
+     "start": 0,
+     "end": 44,
+     "spans": [
+      {
+       "w1": 15,
+       "w2": 18,
+       "text": "nearly a south-southeast direction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Nahom was somebody's place already",
+   "text": "Ishmael \"was buried in the place which was called Nahom\" (v. 34): called, not named by the family. The grammar is the claim — Shazer they \"did call\" (v. 13), Nahom \"was called\" — the travelers arrive at an existing name in somebody's country. An ancient tribal region with a name of just that shape is attested by inscription in south Arabia, on this very corridor, among the record's most checkable geographical claims. Readers have also long noted the fit of sound and scene: the name recalls Hebrew words for mourning and comfort, and the family stops there to grieve.",
+   "cites": [
+    {
+     "quote": "was buried in the place which was called Nahom",
+     "verse": 34,
+     "start": 8,
+     "end": 64,
+     "spans": [
+      {
+       "w1": 10,
+       "w2": 18,
+       "text": "was buried in the place which was called Nahom"
+      }
+     ]
+    },
+    {
+     "quote": "did call",
+     "verse": 13,
+     "start": 138,
+     "end": 156,
+     "spans": [
+      {
+       "w1": 28,
+       "w2": 29,
+       "text": "did call"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "A steel-fitted bow was elite equipment",
+   "text": "\"my bow, which was made of fine steel\" (v. 18) describes a prized composite weapon, the best hunting technology a wealthy Jerusalem house could carry. Its breaking, with the other bows' \"having lost their springs\" (v. 21) (resin and sinew fail in humid coastal air), disarmed the whole camp at once; the crisis was technological before it was spiritual.",
+   "cites": [
+    {
+     "quote": "my bow, which was made of fine steel",
+     "verse": 18,
+     "start": 0,
+     "end": 46,
+     "spans": [
+      {
+       "w1": 19,
+       "w2": 26,
+       "text": "my bow, which was made of fine steel"
+      }
+     ]
+    },
+    {
+     "quote": "having lost their springs",
+     "verse": 21,
+     "start": 186,
+     "end": 221,
+     "spans": [
+      {
+       "w1": 25,
+       "w2": 28,
+       "text": "having lost their springs"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Hunting fed the caravan",
+   "text": "Bows, arrows, slings, and stones (v. 15) are a desert hunter's full kit; game along the fertile fringes was the company's protein. A camp that cannot hunt starves in weeks, which is the arithmetic underneath the murmuring of verses 19–20.",
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 15)",
+     "start": 33,
+     "end": 40,
+     "verse_start": 15,
+     "verse_end": 15
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "The ball arrives unexplained",
+   "text": "\"a round ball of curious workmanship\" (v. 10) of fine brass, found at the tent door, never named in this book; the record calls it \"the ball\" for five hundred pages until Alma supplies \"Liahona\" (Alma 37:38). Israel had been led before, by cloud and fire (Ex. 13:21); this instrument is more intimate: handheld, legible, and tuned to the household's conduct.",
+   "cites": [
+    {
+     "quote": "a round ball of curious workmanship",
+     "verse": 10,
+     "start": 0,
+     "end": 45,
+     "spans": [
+      {
+       "w1": 30,
+       "w2": 35,
+       "text": "a round ball of curious workmanship"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 37:38",
+     "start": 196,
+     "end": 206,
+     "book": "Alma",
+     "chapter": 37,
+     "verse_start": 38,
+     "verse_end": 38
+    },
+    {
+     "kind": "scripture",
+     "text": "Ex. 13:21",
+     "start": 256,
+     "end": 265,
+     "book": "Ex",
+     "chapter": 13,
+     "verse_start": 21,
+     "verse_end": 21
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Burials bound families to places",
+   "text": "Interring Ishmael at a named site along the trail follows the age's practice: graves belonged to places, and places to memory. His daughters' mourning (v. 35) is also a grievance list, and the record preserves both: real grief, and the accusation it fed.",
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 35)",
+     "start": 151,
+     "end": 158,
+     "verse_start": 35,
+     "verse_end": 35
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "term": "curious",
+   "verse_label": "v. 10",
+   "text": "Old English for carefully made (full of care, wrought with skill), not odd. The ball is \"of curious workmanship\" (v. 10), and the word places it in the record's running line of appraised craft: Laban's sword, the ship to come, the temple after. Nephi notices work, and heaven's work most of all.",
+   "cites": [
+    {
+     "quote": "of curious workmanship",
+     "verse": 10,
+     "start": 88,
+     "end": 120,
+     "spans": [
+      {
+       "w1": 33,
+       "w2": 35,
+       "text": "of curious workmanship"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "springs",
+   "verse_label": "v. 21",
+   "text": "The bows \"having lost their springs\" (v. 21) is archer's language: a bow's spring is its stored power, and desert heat and coastal damp kill it. One word carries the whole camp's predicament: equipment mortality in a place where equipment is life.",
+   "cites": [
+    {
+     "quote": "having lost their springs",
+     "verse": 21,
+     "start": 9,
+     "end": 44,
+     "spans": [
+      {
+       "w1": 25,
+       "w2": 28,
+       "text": "having lost their springs"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "chastened",
+   "verse_label": "v. 25",
+   "text": "Correction from love, and no one is exempt: Lehi \"was truly chastened because of his murmuring\" (v. 25), and the company later \"were chastened by the voice of the Lord\" (v. 39). The record's discipline vocabulary makes its debut on the prophet himself, which is precisely what makes it bearable when it lands on everyone else.",
+   "cites": [
+    {
+     "quote": "was truly chastened because of his murmuring",
+     "verse": 25,
+     "start": 49,
+     "end": 103,
+     "spans": [
+      {
+       "w1": 18,
+       "w2": 24,
+       "text": "was truly chastened because of his murmuring"
+      }
+     ]
+    },
+    {
+     "quote": "were chastened by the voice of the Lord",
+     "verse": 39,
+     "start": 127,
+     "end": 176,
+     "spans": [
+      {
+       "w1": 35,
+       "w2": 42,
+       "text": "were chastened by the voice of the Lord"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "the guilty taketh the truth to be hard",
+   "verse_label": "v. 2",
+   "text": "The record's proverb about its own reception, minted in the tent: truth \"cutteth them to the very center\" (v. 2). Hardness, the proverb says, is a symptom to be read backward; the cut locates the wound. Jacob will preach its twin a generation on (2 Ne. 9:40), and every hard chapter of the record leans on it.",
+   "cites": [
+    {
+     "quote": "cutteth them to the very center",
+     "verse": 2,
+     "start": 72,
+     "end": 112,
+     "spans": [
+      {
+       "w1": 56,
+       "w2": 61,
+       "text": "cutteth them to the very center"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 9:40",
+     "start": 247,
+     "end": 257,
+     "book": "2 Ne",
+     "chapter": 9,
+     "verse_start": 40,
+     "verse_end": 40
+    }
+   ]
+  },
+  {
+   "term": "a round ball of curious workmanship",
+   "verse_label": "v. 10",
+   "text": "The instrument arrives without instructions, explanation, or name, found at the door, pointing the way. The record keeps it strange on purpose: guidance in this family is a given thing, working by rules the travelers must discover through use, and its name will wait five hundred pages for a teaching moment (Alma 37:38).",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 37:38",
+     "start": 309,
+     "end": 319,
+     "book": "Alma",
+     "chapter": 37,
+     "verse_start": 38,
+     "verse_end": 38
+    }
+   ]
+  },
+  {
+   "term": "the more fertile parts",
+   "verse_label": "v. 16",
+   "text": "The ball's routing policy in four words: not manna, not shortcuts: \"the more fertile parts of the wilderness\" (v. 16). Guidance optimizes within hardship rather than abolishing it; the wilderness stays wilderness, and the Lord's leading shows in which wilderness. It is the record's most realistic sentence about being led.",
+   "cites": [
+    {
+     "quote": "the more fertile parts of the wilderness",
+     "verse": 16,
+     "start": 67,
+     "end": 117,
+     "spans": [
+      {
+       "w1": 14,
+       "w2": 20,
+       "text": "the more fertile parts of the wilderness"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Whither shall I go?",
+   "verse_label": "v. 23",
+   "text": "The new bow is Nephi's; the question is his father's. Having just out-performed every adult in the camp, Nephi routes the decision through the humbled patriarch, \"Whither shall I go to obtain food\" (v. 23), and the question itself restores the order murmuring had broken. Deference, deployed at the right moment, is leadership.",
+   "cites": [
+    {
+     "quote": "Whither shall I go to obtain food",
+     "verse": 23,
+     "start": 162,
+     "end": 205,
+     "spans": [
+      {
+       "w1": 47,
+       "w2": 53,
+       "text": "Whither shall I go to obtain food"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "according to the faith and diligence and heed",
+   "verse_label": "v. 28",
+   "text": "The pointers' operating conditions, stated as law: three inputs, all interior. The instrument is a gauge of its holders (Alma will draw the moral for his son centuries later, Alma 37:40), and the phrase warns every reader that guidance systems fail at the user, not the factory.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 37:40",
+     "start": 175,
+     "end": 185,
+     "book": "Alma",
+     "chapter": 37,
+     "verse_start": 40,
+     "verse_end": 40
+    }
+   ]
+  },
+  {
+   "term": "a new writing, which was plain to be read",
+   "verse_label": "v. 29",
+   "text": "Revelation that updates: text \"written and changed from time to time\" (v. 29), always plain. The record's favorite quality (plainness) appears on heaven's own instrument panel, and the changing writing makes the Liahona the record's picture of living guidance: fixed in principle, current in instruction.",
+   "cites": [
+    {
+     "quote": "written and changed from time to time",
+     "verse": 29,
+     "start": 30,
+     "end": 77,
+     "spans": [
+      {
+       "w1": 31,
+       "w2": 37,
+       "text": "written and changed from time to time"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–5",
+   "start": 1,
+   "end": 5,
+   "title": "Hard words, soft landing",
+   "text": "The brothers protest \"hard things, more than we are able to bear\" (v. 1); Nephi answers with the proverb and an exhortation, and the scene ends in humbling and in his own durable optimism: \"I had joy and great hopes of them\" (v. 5). The record keeps Nephi's hope for his brothers alive long past the point a reader would have retired it.",
+   "cites": [
+    {
+     "quote": "hard things, more than we are able to bear",
+     "verse": 1,
+     "start": 21,
+     "end": 72,
+     "spans": [
+      {
+       "w1": 30,
+       "w2": 38,
+       "text": "hard things, more than we are able to bear"
+      }
+     ]
+    },
+    {
+     "quote": "I had joy and great hopes of them",
+     "verse": 5,
+     "start": 189,
+     "end": 231,
+     "spans": [
+      {
+       "w1": 16,
+       "w2": 23,
+       "text": "I had joy and great hopes of them"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 7–8",
+   "start": 7,
+   "end": 8,
+   "title": "Five weddings, one sentence of ink",
+   "text": "Nephi, his brothers, and Zoram marry the daughters of Ishmael, and the record spends no scene on it, only the note that the commandments were \"fulfilled\" (v. 8). The colony is complete: records, families, and now the marriages the errand of chapter 7 existed to make possible.",
+   "cites": [
+    {
+     "quote": "fulfilled",
+     "verse": 8,
+     "start": 142,
+     "end": 160,
+     "spans": [
+      {
+       "w1": 6,
+       "w2": 6,
+       "text": "fulfilled"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 9–12",
+   "start": 9,
+   "end": 12,
+   "title": "Command by night, compass by morning",
+   "text": "The Lord orders departure; dawn delivers the ball at the tent door. The sequence is the chapter's doctrine in miniature: obedience undertaken first, equipment supplied after — and the family crosses the river Laman back into hard country on the strength of it."
+  },
+  {
+   "label": "v. 18–22",
+   "start": 18,
+   "end": 22,
+   "title": "The broken bow breaks the camp",
+   "text": "One snapped weapon, and hunger does what Laban's sword could not: everyone murmurs, \"also my father began to murmur against the Lord his God\" (v. 20). The record's honesty reaches its high-water mark: even the visionary head of the family has a breaking point, and it is supper.",
+   "cites": [
+    {
+     "quote": "also my father began to murmur against the Lord his God",
+     "verse": 20,
+     "start": 84,
+     "end": 149,
+     "spans": [
+      {
+       "w1": 30,
+       "w2": 40,
+       "text": "also my father began to murmur against the Lord his God"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 23–27",
+   "start": 23,
+   "end": 27,
+   "title": "A bow, a question, a chastening",
+   "text": "Nephi makes a new bow and then asks his humbled father where to hunt. Lehi inquires, and the answer arrives with a rebuke: he is \"brought down into the depths of sorrow\" (v. 25), the family \"did fear and tremble exceedingly\" (v. 27) at the ball's writing. Restoration in this record runs through the chastened prophet, not around him.",
+   "cites": [
+    {
+     "quote": "brought down into the depths of sorrow",
+     "verse": 25,
+     "start": 129,
+     "end": 177,
+     "spans": [
+      {
+       "w1": 32,
+       "w2": 38,
+       "text": "brought down into the depths of sorrow"
+      }
+     ]
+    },
+    {
+     "quote": "did fear and tremble exceedingly",
+     "verse": 27,
+     "start": 190,
+     "end": 232,
+     "spans": [
+      {
+       "w1": 20,
+       "w2": 24,
+       "text": "did fear and tremble exceedingly"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 28–32",
+   "start": 28,
+   "end": 32,
+   "title": "The pointers' law, and supper",
+   "text": "The spindles work \"according to the faith and diligence and heed which we did give unto them\" (v. 28); the chapter states the mechanics, then shows them: Nephi climbs where the ball says, kills food, and comes home to joy and thanksgiving. Small means, the record notes here for the first time in practice, do great things.",
+   "cites": [
+    {
+     "quote": "according to the faith and diligence and heed which we did give unto them",
+     "verse": 28,
+     "start": 18,
+     "end": 101,
+     "spans": [
+      {
+       "w1": 21,
+       "w2": 34,
+       "text": "according to the faith and diligence and heed which we did give unto them"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 34–39",
+   "start": 34,
+   "end": 39,
+   "title": "Nahom, grief, and a plot",
+   "text": "Ishmael dies; his daughters mourn and accuse; the old grievance resurfaces armed, \"let us slay our father, and also our brother Nephi\" (v. 37), with the ruler-and-teacher promise of 1 Nephi 2:22 now recited as evidence of ambition. The voice of the Lord itself ends the scene, and chastened anger cools into repentance once more.",
+   "cites": [
+    {
+     "quote": "let us slay our father, and also our brother Nephi",
+     "verse": 37,
+     "start": 82,
+     "end": 142,
+     "spans": [
+      {
+       "w1": 14,
+       "w2": 23,
+       "text": "let us slay our father, and also our brother Nephi"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The wilderness cycle, run twice",
+   "text": "Blessing, crisis, murmur, humbling, guidance, deliverance: the chapter runs the loop at the broken bow and again at Nahom. This is the journey's working rhythm, and the record sets it early so the reader can count the revolutions all the way to the sea."
+  },
+  {
+   "n": 2,
+   "title": "Even the prophet murmurs",
+   "text": "Verse 20 is the record's costliest honesty: Lehi, keeper of visions, breaks at hunger like everyone else, and is restored by the same mechanics he taught: inquiry, chastening, trembling obedience. No one in this record stands above its doctrine, which is why the doctrine can be trusted."
+  },
+  {
+   "n": 3,
+   "title": "Guidance is a gauge",
+   "text": "The Liahona's law (v. 28–29) makes direction a function of the travelers' interior state: faith, diligence, heed in; bearings out. The record's picture of revelation is an instrument that reads its reader, and its stillness is information.",
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 28–29)",
+     "start": 18,
+     "end": 28,
+     "verse_start": 28,
+     "verse_end": 29
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Nephi leads by restoring his father",
+   "text": "The bow-maker asks \"whither shall I go?\" of the man who just murmured. The move is the chapter's finest: competence without deference would have finished what the famine started, and Nephi spends his moment of maximum advantage re-dignifying the humbled head of the family."
+  },
+  {
+   "n": 5,
+   "title": "The old grievance finds new fuel",
+   "text": "The murder plot recites 1 Nephi 2:22 back as accusation — ruler and teacher, reframed as a brother's ambition, and dismisses angels as \"his cunning arts\" (v. 38). Unbelief, as the record draws it, is never a lack of data; it is an interpretive machine that can digest any miracle into a trick.",
+   "cites": [
+    {
+     "quote": "his cunning arts",
+     "verse": 38,
+     "start": 135,
+     "end": 161,
+     "spans": [
+      {
+       "w1": 40,
+       "w2": 42,
+       "text": "his cunning arts"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "The waypoints are checkable geography",
+   "text": "Shazer, the south-southeast bearing, Nahom: the record commits to a mappable itinerary through real country. Its confidence about terrain is of a piece with its confidence about doctrine — both are offered for checking, not for atmosphere."
+  },
+  {
+   "n": 7,
+   "title": "The voyage unit opens",
+   "text": "Chapters 16–18 form the journey's arc, and this chapter supplies its terms: the instrument, the cycle, the family's fault lines. The escalations to come (the ship, the storm, the binding) will all run on machinery this chapter installed."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Read the cut before blaming the blade",
+    "verse_label": "v. 2",
+    "text": "The next time a sermon, verse, or plain word from someone stings, run the proverb: what did the cut find? Guilt reads truth as attack; the wound it locates is the item for tonight's prayer, not the speaker."
+   },
+   {
+    "title": "Check the three dials",
+    "verse_label": "v. 28",
+    "text": "When guidance goes quiet, audit the inputs the pointers ran on (faith, diligence, heed) one at a time, honestly. The instrument panel of your life is probably not broken; it is reading you."
+   },
+   {
+    "title": "Fix what you can, then ask whither",
+    "verse_label": "v. 23",
+    "text": "Nephi's crisis protocol: build the bow yourself, and route the direction through the order God established — parent, leader, covenant channels. Initiative and deference are not rivals; deployed together they rebuilt a family on the spot."
+   },
+   {
+    "title": "Expect fertile parts, not exemptions",
+    "verse_label": "v. 16",
+    "text": "Pray for and watch for the better path through your wilderness rather than the abolition of it. Being led, in this chapter, means the hard country gets navigable, and learning to call that guidance is half of gratitude."
+   },
+   {
+    "title": "Take your chastening like Lehi",
+    "verse_label": "v. 25–27",
+    "text": "When correction comes (from the Lord, from circumstances, from the writing on whatever ball you carry) inquire, feel it, and adjust in front of your family. The record's greatest man modeled being wrong well, once, so the rest of us would know how."
+   },
+   {
+    "title": "Give grief a place-name",
+    "verse_label": "v. 34–35",
+    "text": "Let mourning have its Nahom: a real place, a real pause, real tears. And watch the turn the record warns of: grief that is not allowed to be grief will hire itself out to accusation."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Which recent truth did I take to be hard, and what exactly did it cut?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "Do I mark covenant milestones — marriages, callings, commandments fulfilled — or do they pass in one unnoticed verse?"
+   },
+   {
+    "verse_label": "v. 20",
+    "start": 20,
+    "end": 20,
+    "text": "What is my broken-bow scenario, the loss that would find out my murmuring point, and has it already happened without my noticing?"
+   },
+   {
+    "verse_label": "v. 23",
+    "start": 23,
+    "end": 23,
+    "text": "Whom should I be asking \"whither shall I go,\" and whom have I been bypassing because I currently hold the working bow?"
+   },
+   {
+    "verse_label": "v. 29",
+    "start": 29,
+    "end": 29,
+    "text": "When did I last receive new writing — current, plain instruction for my situation, and what was I doing differently then?"
+   },
+   {
+    "verse_label": "v. 37",
+    "start": 37,
+    "end": 37,
+    "text": "Which of God's appointments in my life am I re-litigating as somebody's ambition?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "1ne16-009",
+   "scope": "BOOK",
+   "head": "1 Ne. 18:12",
+   "anchor": {
+    "verse": 28,
+    "w1": 21,
+    "w2": 28,
+    "quote": "according to the faith and diligence and heed"
+   },
+   "reason": "stopped at sea when faith was bound",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 18,
+     "verse": 12,
+     "w1": 18,
+     "w2": 30,
+     "quote": "the compass, which had been prepared of the Lord, did cease to work",
+     "span": true
+    }
+   ],
+   "mirror": "1ne18-003"
+  },
+  {
+   "id": "1ne16-008",
+   "scope": "BOOK",
+   "head": "1 Ne. 17:3",
+   "anchor": {
+    "verse": 29,
+    "w1": 50,
+    "w2": 63,
+    "quote": "thus we see that by small means the Lord can bring about great things"
+   },
+   "reason": "the moral formula in its first use",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 17,
+     "verse": 3,
+     "w1": 1,
+     "w2": 12,
+     "quote": "And thus we see that the commandments of God must be fulfilled",
+     "span": true
+    }
+   ],
+   "mirror": "1ne17-005"
+  },
+  {
+   "id": "1ne16-001",
+   "scope": "BOOK",
+   "head": "1 Ne. 2:22",
+   "anchor": {
+    "verse": 37,
+    "w1": 30,
+    "w2": 36,
+    "quote": "to be our ruler and our teacher"
+   },
+   "reason": "the promise recited as an accusation",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 2,
+     "verse": 22,
+     "w1": 13,
+     "w2": 20,
+     "quote": "a ruler and a teacher over thy brethren",
+     "span": true
+    }
+   ],
+   "mirror": "1ne02-015"
+  },
+  {
+   "id": "1ne16-002",
+   "scope": "BOM",
+   "head": "2 Ne. 9:40",
+   "anchor": {
+    "verse": 2,
+    "w1": 46,
+    "w2": 53,
+    "quote": "the guilty taketh the truth to be hard"
+   },
+   "reason": "Jacob preaches the proverb's twin",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 9,
+     "verse": 40,
+     "w1": 19,
+     "w2": 29,
+     "quote": "Do not say that I have spoken hard things against you",
+     "span": true
+    }
+   ],
+   "mirror": "2ne09-004"
+  },
+  {
+   "id": "1ne16-003",
+   "scope": "BOM",
+   "head": "Alma 37:38; Alma 37:40",
+   "anchor": {
+    "verse": 28,
+    "w1": 21,
+    "w2": 28,
+    "quote": "according to the faith and diligence and heed"
+   },
+   "reason": "the instrument named and moralized later",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 37,
+     "verse": 38,
+     "w1": 21,
+     "w2": 31,
+     "quote": "our fathers called it Liahona, which is, being interpreted, a compass",
+     "span": true
+    },
+    {
+     "ref": "Alma",
+     "chapter": 37,
+     "verse": 40,
+     "w1": 2,
+     "w2": 12,
+     "quote": "it did work for them according to their faith in God",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "1ne16-004",
+   "scope": "SW",
+   "head": "Heb. 4:12",
+   "anchor": {
+    "verse": 2,
+    "w1": 55,
+    "w2": 61,
+    "quote": "it cutteth them to the very center"
+   },
+   "reason": "the word as blade, both canons",
+   "targets": [
+    {
+     "ref": "Heb.",
+     "chapter": 4,
+     "verse": 12,
+     "w1": 11,
+     "w2": 16,
+     "quote": "sharper than any twoedged sword, piercing",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "1ne16-005",
+   "scope": "SW",
+   "head": "Ex. 13:21",
+   "anchor": {
+    "verse": 10,
+    "w1": 30,
+    "w2": 35,
+    "quote": "a round ball of curious workmanship"
+   },
+   "reason": "Israel's guide, reissued handheld",
+   "targets": [
+    {
+     "ref": "Ex.",
+     "chapter": 13,
+     "verse": 21,
+     "w1": 15,
+     "w2": 19,
+     "quote": "to lead them the way",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "1ne16-006",
+   "scope": "SW",
+   "head": "Ps. 18:34",
+   "anchor": {
+    "verse": 18,
+    "w1": 19,
+    "w2": 26,
+    "quote": "my bow, which was made of fine steel"
+   },
+   "reason": "the psalm knows a steel bow too",
+   "targets": [
+    {
+     "ref": "Ps.",
+     "chapter": 18,
+     "verse": 34,
+     "w1": 9,
+     "w2": 17,
+     "quote": "a bow of steel is broken by mine arms",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "1ne16-007",
+   "scope": "SW",
+   "head": "Heb. 12:6",
+   "anchor": {
+    "verse": 39,
+    "w1": 28,
+    "w2": 31,
+    "quote": "did chasten them exceedingly"
+   },
+   "reason": "chastening as love, the standing doctrine",
+   "targets": [
+    {
+     "ref": "Heb.",
+     "chapter": 12,
+     "verse": 6,
+     "w1": 2,
+     "w2": 7,
+     "quote": "whom the Lord loveth he chasteneth",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 46,
+   "w2": 53,
+   "quote": "the guilty taketh the truth to be hard",
+   "entries": [
+    "1ne16-002"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 55,
+   "w2": 61,
+   "quote": "it cutteth them to the very center",
+   "entries": [
+    "1ne16-004"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 30,
+   "w2": 35,
+   "quote": "a round ball of curious workmanship",
+   "entries": [
+    "1ne16-005"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 19,
+   "w2": 26,
+   "quote": "my bow, which was made of fine steel",
+   "entries": [
+    "1ne16-006"
+   ]
+  },
+  {
+   "verse": 28,
+   "w1": 21,
+   "w2": 28,
+   "quote": "according to the faith and diligence and heed",
+   "entries": [
+    "1ne16-009",
+    "1ne16-003"
+   ]
+  },
+  {
+   "verse": 29,
+   "w1": 50,
+   "w2": 63,
+   "quote": "thus we see that by small means the Lord can bring about great things",
+   "entries": [
+    "1ne16-008"
+   ]
+  },
+  {
+   "verse": 37,
+   "w1": 30,
+   "w2": 36,
+   "quote": "to be our ruler and our teacher",
+   "entries": [
+    "1ne16-001"
+   ]
+  },
+  {
+   "verse": 39,
+   "w1": 28,
+   "w2": 31,
+   "quote": "did chasten them exceedingly",
+   "entries": [
+    "1ne16-007"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-18",
+  "source_sha256": "1cdcb64f4b684b6b"
+ }
+}

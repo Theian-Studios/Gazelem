@@ -546,6 +546,10 @@ a[x-apple-data-detectors] {
   padding-bottom: 14px;
   border-bottom: 1px solid rgba(31,45,71,.09);
 }
+/* Where the depths end the group, the padding gets back the 2px the row took
+   out of the box when it moved up — see .lens-zoom. The sentence ends it in
+   the other two worlds and needs neither. */
+.lens-groups:has(.lens-zoom) { padding-bottom: 16px; }
 
 /* ---- Where to stand -----------------------------------------------------
    A segmented track: three names of one kind of thing, one of them chosen. The
@@ -581,7 +585,15 @@ a[x-apple-data-detectors] {
      and a margin on top of that set the sentence adrift from the segments it
      belongs to. */
   margin: 0 2px;
+  /* Two lines' worth is reserved whether the sentence needs it or not, so that
+     choosing a world moves nothing below it. One line then left the whole of
+     the spare height in a heap under the words, which is not where it belongs:
+     it put 27px between the sentence and the row of depths and 15px under
+     them, and the row read as adrift from the scale it heads. Centred in what
+     is reserved, the spare is shared above and below however many lines the
+     sentence runs to. */
   min-height: 2.6em;
+  display: grid; align-content: center;
   font-size: var(--fs-note); line-height: 1.3;
   color: #6e6e73; text-align: center;
 }
@@ -598,6 +610,12 @@ a[x-apple-data-detectors] {
   grid-auto-columns: 1fr;
   align-items: center;
   gap: 1px;
+  /* Up by the difference between its box and its words. The row's pills carry
+     6px of padding of their own, so the grid's even gap above and even padding
+     below put 25px of white over the names and 21 under them — equal boxes,
+     unequal space, and the row sat low in the gap it was meant to be centred
+     in. Measured to the letters, which is what the eye measures to. */
+  margin-top: -2px;
 }
 .lens-zoom-item {
   border: 0; background: none; border-radius: 999px;
@@ -1008,6 +1026,19 @@ a[x-apple-data-detectors] {
   transition: color .15s, transform .15s;
 }
 .conn-goto:hover { color: #6b551f; transform: translateX(1px); }
+
+/* The card's heading, which is also what opens the passage it heads. It keeps
+   the reference's own face and weight — it is the same words either way — and
+   says it can be pressed by going gold under the pointer, as the rows in the
+   Cross Connections list do. */
+.conn-head {
+  border: 0; background: none; padding: 0; margin: 0;
+  font-size: 14px; font-weight: 600; line-height: 1.3; text-align: left;
+  color: #1d1d1f; cursor: pointer;
+  transition: color .15s;
+}
+.conn-head:hover { color: #a4853d; }
+.conn-head:focus-visible { outline: 2px solid #3a5a8c; outline-offset: 2px; border-radius: 3px; }
 
 /* Chevron between the bottom pill's steps. */
 .pill-sep {

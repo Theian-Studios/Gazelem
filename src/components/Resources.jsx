@@ -20,7 +20,13 @@ function Prose({ text, onOpenRef }) {
 // does; an article has no jacket, and takes the width.
 function Work({ work, onOpenRef }) {
   return (
-    <li className="rs-work">
+    /* The card sits inside the item rather than being it, so the space under it
+       is the item's padding and not the card's margin. In a column layout a
+       bottom margin follows the break: the first card of the second column was
+       set down the height of the margin belonging to the last card of the
+       first, and the columns read as misaligned. Padding does not travel. */
+    <li className="rs-item">
+      <div className="rs-work">
       {work.cover && (
         /* Decorative: the title is alongside in text, so a screen reader gains
            nothing by being read the jacket as well. */
@@ -46,6 +52,7 @@ function Work({ work, onOpenRef }) {
             ))}
           </p>
         )}
+      </div>
       </div>
     </li>
   );

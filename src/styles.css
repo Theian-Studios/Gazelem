@@ -2090,8 +2090,12 @@ mark.find-hit[data-current] {
    stand side by side. Columns rather than a grid: a subject with one article in
    it should not hold a row open to the height of a subject with four. */
 .rs-columns { margin-top: 30px; columns: 330px 2; column-gap: 26px; }
-.rs-columns .rs-group { break-inside: avoid; margin-top: 0; }
-.rs-columns .rs-group + .rs-group { margin-top: 28px; }
+/* The space between subjects hangs under each one rather than over the next.
+   A top margin is kept when a subject lands at the top of a column, which set
+   the second column below the first for no reason the page could show; a
+   bottom padding at the foot of a column is simply the end of the column. */
+.rs-columns .rs-group { break-inside: avoid; margin: 0; padding-bottom: 28px; }
+.rs-columns .rs-group:last-child { padding-bottom: 0; }
 /* One to a column here, since the column is already one card wide. */
 .rs-columns .rs-shelf { columns: 1; }
 .rs-group-name {
@@ -2105,8 +2109,12 @@ mark.find-hit[data-current] {
    tall as its own sentence, and the next one starts where it ends rather than
    being padded out to match a taller card beside it. */
 .rs-shelf { list-style: none; margin: 0; padding: 0; columns: 300px 3; column-gap: 14px; }
+/* The item is the card's room on the shelf: it carries the gap under the card
+   as padding, and the card itself carries no margin. See Work in Resources.jsx
+   — a margin at the foot of a column is carried over to the head of the next
+   one, and set the columns out of line with each other. */
+.rs-item { break-inside: avoid; padding-bottom: 14px; }
 .rs-work {
-  break-inside: avoid; margin-bottom: 14px;
   display: flex; gap: 15px; align-items: flex-start;
   border: 1px solid rgba(31,45,71,.13); border-radius: 16px;
   padding: 17px 18px 15px;

@@ -7,6 +7,11 @@ import Card from "./Card.jsx";
 // downstream. A level with nothing of its own to say is a page offered twice.
 export const LEVELS = ["Chapter", "Verse", "Phrase", "Word"];
 
+// What the row calls each of them. The finer three are a card of many small
+// notes and are named as the several things they are; a chapter is read as one
+// and stays singular.
+export const LEVEL_LABEL = { Chapter: "Chapter", Verse: "Verses", Phrase: "Phrases", Word: "Words" };
+
 // Behind = the world that produced the text; Text = the text itself; In Front =
 // the world it lands in. Only the middle one has a depth to vary.
 //
@@ -61,7 +66,7 @@ function Levels({ value, levels, onChange }) {
           onClick={() => onChange(name)}
           aria-pressed={value === name}
         >
-          {name}
+          {LEVEL_LABEL[name] ?? name}
         </button>
       ))}
     </div>

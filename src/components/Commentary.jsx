@@ -1,6 +1,8 @@
 import { ink, inkSoft } from "../theme.js";
 import { useCommentary, orderedConnections, entryVerse } from "../lib/commentary.js";
-import { parseCitations } from "../lib/refs.js";
+import { parseCitations, expandVerses } from "../lib/refs.js";
+import { scanCites } from "../lib/cites.js";
+import { citeGroup } from "./Cited.jsx";
 import Card from "./Card.jsx";
 import { SpeakerIcon, AudienceIcon, LocationIcon } from "./MetaIcons.jsx";
 import { speakerName } from "../lib/manifest.js";
@@ -122,18 +124,81 @@ function Overview({ meta, collapsed, onToggle, openFor }) {
   );
 }
 
+// A door inside running prose.
+//
+// A span rather than a button: a button is a box the line cannot break inside,
+// whatever its display says, so a quoted clause set as one was pushed onto a
+// line of its own — centred in it, with the bracket that introduced it stranded
+// at the end of the line above. This is the same span-with-a-role the gold runs
+// in the verse text are, and it carries the keyboard with it.
+function CiteLink({ title, onClick, children }) {
+  return (
+    <span
+      className="cx-cite"
+      role="button"
+      tabIndex={0}
+      title={title}
+      onClick={onClick}
+      onKeyDown={(e) => {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onClick(); }
+      }}
+    >
+      {children}
+    </span>
+  );
+}
+
+// A reference the notes did not mark. Most are marked — the file locates them
+// by offset — but not all: "the inventory of vv. 11–13", a "Jer. 36" inside a
+// parenthesis, the ", 22" of a "1 Ne. 3:16, 22". Those are read out of what is
+// left over between the marks, never out of a marked range, so the file stays
+// the authority on everything it does say.
+//
+// Read only in what the site's own scanner has left behind, so "Alma 7:12" is
+// claimed whole rather than half-read as chapter 7 of the book in hand. What
+// keeps the rest honest is the test the scanner uses for a book, asked of a
+// chapter: it has to exist. The second alternative is the chapter in hand named
+// by verse alone — "(v. 3)", "vv. 11–13", "Verses 25–26". The word is required.
+// Bare numbers in brackets are not read as verses, because in these notes they
+// are chapters — "the war chapters (43–62)" — and guessing between the two
+// would turn a chapter range into six wrong verse marks.
+const LOOSE_REF = new RegExp(
+  "(?<![\\d:])(\\d{1,3}):(\\d{1,3})(?:\\s*[–—-]\\s*(\\d{1,3}))?(?![\\d:])" +
+  "|\\b(?:vv?\\.\\s*|[Vv]erses?\\s+)(\\d{1,3}(?:\\s*[–—-]\\s*\\d{1,3})?(?:\\s*,\\s*\\d{1,3}(?:\\s*[–—-]\\s*\\d{1,3})?)*)(?!\\s*\\d)",
+  "g",
+);
+
+// A quotation carries the verse's own punctuation, and now and then that means
+// a bracket whose opening half is outside the quoted run — "dwelt at Jerusalem
+// in all his days)". Closing nothing, it reads as a typo in the note. The pair
+// the note makes for itself is left alone; only an unmatched one goes.
+function balanced(s) {
+  let depth = 0;
+  let out = "";
+  for (const ch of s) {
+    if (ch === "(") depth++;
+    else if (ch === ")") {
+      if (depth === 0) continue;
+      depth--;
+    }
+    out += ch;
+  }
+  return out;
+}
+
 // Everything a note's prose points at, made a door.
 //
-// Nothing here reads the prose. The notes locate every reference they make by
-// character offset — a quotation of this chapter with the verse it comes from,
-// a bare "(v. 18)", a "(ch. 2)", a "Morm. 9:32–33" — so the marks are walked in
-// order, the stretches between them are emitted as they stand, and each marked
-// range becomes the door it names. A range whose target the volume in hand does
-// not have stays plain text rather than offering to open nothing.
+// The notes locate every reference they make by character offset — a quotation
+// of this chapter with the verse it comes from, a bare "(v. 18)", a "(ch. 2)",
+// a "Morm. 9:32–33" — so the marks are walked in order and each marked range
+// becomes the door it names. A range whose target the volume in hand does not
+// have stays plain text rather than offering to open nothing. What lies between
+// the marks is scanned, since a note may name a passage without marking it.
 function noteRun({ book, chapter, volId, onOpenRef, onJump }) {
   const named = volId === "dc" ? "Doctrine and Covenants" : book?.name;
   const here = new Set((chapter?.verses || []).map((v) => v.verse));
-  const hasChapter = (n) => !!book?.chapters?.some((c) => c.n === n);
+  const chapters = book?.chapters;
+  const hasChapter = (n) => !!chapters?.some((c) => c.n === n);
 
   // What the button says it will do. A run is named by its ends and a list by
   // its members: "vv. 1, 3" marks two verses and not the three between them.
@@ -168,29 +233,71 @@ function noteRun({ book, chapter, volId, onOpenRef, onJump }) {
     return null;
   };
 
+  // A stretch the notes left unmarked, read for anything that names a passage.
+  const loose = (text, key) => {
+    const out = [];
+    const bare = (part, k) => {
+      if (!chapters || !named) return [<span key={k}>{part}</span>];
+      const bits = [];
+      let at = 0;
+      LOOSE_REF.lastIndex = 0;
+      for (let m; (m = LOOSE_REF.exec(part)); ) {
+        let cite = null;
+        let verses = null;
+        if (m[1]) {
+          const n = Number(m[1]);
+          if (!chapters.some((c) => c.n === n)) continue;
+          cite = parseCitations(`${named} ${n}:${m[2]}${m[3] ? `–${m[3]}` : ""}`)[0];
+          if (!cite) continue;
+          if (n === chapter?.n) verses = cite.verses;
+        } else {
+          verses = expandVerses(m[4]).filter((v) => here.has(v));
+          if (!verses.length) continue;
+        }
+        if (m.index > at) bits.push(<span key={`${k}-t${at}`}>{part.slice(at, m.index)}</span>);
+        bits.push(
+          <CiteLink key={`${k}-r${m.index}`}
+            title={verses ? `Go to ${said(verses)}` : `Open ${cite.label}`}
+            onClick={() => (verses ? onJump?.(verses) : onOpenRef?.(cite))}>
+            {m[0]}
+          </CiteLink>,
+        );
+        at = m.index + m[0].length;
+      }
+      if (!bits.length) return [<span key={k}>{part}</span>];
+      if (at < part.length) bits.push(<span key={`${k}-end`}>{part.slice(at)}</span>);
+      return bits;
+    };
+    scanCites(text).forEach((part, i) => {
+      if (part.kind === "text") out.push(...bare(part.text, `${key}-${i}`));
+      else out.push(citeGroup(part, onOpenRef, `${key}-${i}`));
+    });
+    return out;
+  };
+
   return (block, key) => {
     const { text, marks } = block;
-    if (!marks?.length) return <span key={key}>{text}</span>;
+    if (!marks?.length) return loose(text, key);
     const out = [];
     let at = 0;
     for (const m of marks) {
-      if (m.start > at) out.push(<span key={`${key}-t${at}`}>{text.slice(at, m.start)}</span>);
-      const label = text.slice(m.start, m.end);
+      if (m.start > at) out.push(...loose(text.slice(at, m.start), `${key}-t${at}`));
+      const label = balanced(text.slice(m.start, m.end));
       const door = doorFor(m);
       out.push(
         door ? (
-          <button key={`${key}-c${m.start}`} className="cx-cite"
+          <CiteLink key={`${key}-c${m.start}`}
             title={door.verses ? `Go to ${said(door.verses)}` : `Open ${door.cite.label}`}
             onClick={() => (door.verses ? onJump?.(door.verses) : onOpenRef?.(door.cite))}>
             {label}
-          </button>
+          </CiteLink>
         ) : (
           <span key={`${key}-p${m.start}`}>{label}</span>
         ),
       );
       at = m.end;
     }
-    if (at < text.length) out.push(<span key={`${key}-end`}>{text.slice(at)}</span>);
+    if (at < text.length) out.push(...loose(text.slice(at), `${key}-end`));
     return out;
   };
 }
@@ -277,11 +384,6 @@ export function ChapterOverview({ book, chapter, volId, collapsed, onToggle, ope
   return <Overview meta={notes.meta} collapsed={collapsed} onToggle={onToggle} openFor={openFor} />;
 }
 
-// The finer levels are a card of many small notes, so the heading names them
-// as the several things they are. A chapter or a block is read as one, and
-// stays singular.
-const LEVEL_LABEL = { Verse: "Verses", Phrase: "Phrases", Word: "Words" };
-
 // The commentary itself, read through the current lens.
 export function CommentaryNotes({ book, chapter, lens, volId, collapsed, onToggle, controls, onOpenRef, onJump }) {
   const { notes: data, loading } = useNotesFor(book, chapter, volId);
@@ -319,8 +421,7 @@ export function CommentaryNotes({ book, chapter, lens, volId, collapsed, onToggl
     // too would replay the card's entrance under the reader's finger every time
     // they pressed one.
     <Card key={chapter.reference} id="notes"
-      title="Commentary" subtitle={LEVEL_LABEL[lens.level] ?? lens.level}
-      label={`Commentary, ${lens.level} level`}
+      title="Commentary" label={`Commentary, ${lens.level} level`}
       className="popin"
       collapsed={collapsed.has("notes")} onToggle={onToggle}
     >

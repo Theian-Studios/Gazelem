@@ -2262,13 +2262,22 @@ mark.find-hit[data-current] {
 
 /* A citation and the bracket that introduces it, kept to one line. */
 .cx-cite-group { white-space: nowrap; }
-/* A citation, set as the evidences set theirs: gold, and a door to the verse. */
+/* A citation, set as the evidences set theirs: gold, and a door to the verse.
+   Inline, so a citation the length of a clause wraps with the words around it
+   rather than standing as a box of its own — see CiteLink in Commentary.jsx for
+   why the notes draw theirs as a span. */
 .cx-cite {
+  display: inline;
   border: 0; background: none; margin: 0; padding: 0;
   font: inherit; font-weight: 700; letter-spacing: .02em;
   color: #a4853d; cursor: pointer;
+  text-align: inherit;
 }
 .cx-cite:hover { color: #6b551f; text-decoration: underline; text-underline-offset: 3px; }
+/* In the notes a citation is usually a whole quoted clause rather than a bare
+   reference, and set in the bold the evidences use it read as another face
+   altogether. Here it is the text's own face, and gold is what marks it. */
+[data-card="notes"] .cx-cite { font-weight: inherit; letter-spacing: inherit; }
 
 /* ---- A chart set as a chronology ----------------------------------------
    The coming-forth thread, put to the same use: a stop to a year, the years

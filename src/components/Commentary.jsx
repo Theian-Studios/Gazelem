@@ -325,13 +325,15 @@ function Entry({ e, last, prose }) {
       )}
       {e.body.map((p, j) => <p key={j} style={PROSE}>{prose(p, `b${j}`)}</p>)}
       {e.items?.length > 0 && (
-        <ul style={{ margin: "6px 0 0", paddingLeft: 16 }}>
+        /* Numbered, like every other note in the three worlds — these are the
+           one thing the notes write as a plain list, and the list can say which
+           question is which without a heading apiece. Nothing is marked inside
+           them, so there is no door to make. */
+        <ol style={{ margin: "6px 0 0", paddingLeft: 18 }}>
           {e.items.map((t, j) => (
-            /* The reflection questions are the one thing the notes write as a
-               plain list, with nothing marked inside them to make a door of. */
             <li key={j} style={{ ...PROSE, margin: "0 0 7px" }}>{t}</li>
           ))}
-        </ul>
+        </ol>
       )}
     </article>
   );
@@ -347,13 +349,17 @@ function Entry({ e, last, prose }) {
 // reads as one: the questions are the applications asked back, not a separate
 // commentary. They are sections inside the card now, ruled off from one
 // another the way the study pages are ruled off in the Related card.
-function WorldView({ groups, title, chapter, collapsed, onToggle, controls, prose }) {
+function WorldView({ groups, world, chapter, collapsed, onToggle, controls, prose }) {
   return (
     // Keyed by world and chapter so the card replays its entrance on arriving
     // at either. Its collapse id is the same "notes" every other reading of
     // the chapter uses: the reader folds the commentary away, not this world's
     // copy of it, and it should stay folded when they change worlds.
-    <Card key={`${title}-${chapter.reference}`} id="notes" title={title} label="Commentary"
+    //
+    // And it is called Commentary in every world, as it is at every depth. The
+    // segments inside it say which world is being read, and said again over
+    // them the name was the card announcing what the reader had just pressed.
+    <Card key={`${world}-${chapter.reference}`} id="notes" title="Commentary" label="Commentary"
       className="popin" collapsed={collapsed.has("notes")} onToggle={onToggle}>
       {controls}
       {!groups.length && <p style={{ ...PROSE, margin: 0 }}>No notes for this world yet.</p>}
@@ -406,10 +412,10 @@ export function CommentaryNotes({ book, chapter, lens, volId, collapsed, onToggl
     );
   }
   if (lens.world === "behind") {
-    return <WorldView groups={data.worlds.behind} title="Behind" chapter={chapter} collapsed={collapsed} onToggle={onToggle} controls={controls} prose={prose} />;
+    return <WorldView groups={data.worlds.behind} world="behind" chapter={chapter} collapsed={collapsed} onToggle={onToggle} controls={controls} prose={prose} />;
   }
   if (lens.world === "front") {
-    return <WorldView groups={data.worlds.front} title="In Front" chapter={chapter} collapsed={collapsed} onToggle={onToggle} controls={controls} prose={prose} />;
+    return <WorldView groups={data.worlds.front} world="front" chapter={chapter} collapsed={collapsed} onToggle={onToggle} controls={controls} prose={prose} />;
   }
 
   const entries = data.levels[lens.level] || [];

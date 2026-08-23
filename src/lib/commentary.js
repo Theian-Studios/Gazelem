@@ -68,27 +68,33 @@ const entryOf = (title, e, chapterN) => ({
   underlines: underlinesOf(e.cites, chapterN),
 });
 
+// Every note is numbered, in the order the file writes them, at every depth and
+// in all three worlds. The chapter notes and the world behind carry a number of
+// their own and keep it; the rest are counted here, so that a note can be
+// pointed at — "the third word note" — wherever the reader is standing.
+const nth = (n, title) => [n, title].filter(Boolean).join(". ");
+
 // A word or a phrase is headed by the string itself, quoted as the chapter
 // spells it, and then by the verses it stands in: "compelled" (v. 13–16, 25).
-const termEntry = (e, chapterN) =>
-  entryOf(`"${e.term}"${e.verse_label ? ` (${e.verse_label})` : ""}`, e, chapterN);
+const termEntry = (e, chapterN, n) =>
+  entryOf(nth(n, `"${e.term}"${e.verse_label ? ` (${e.verse_label})` : ""}`), e, chapterN);
 
 // A verse note is named, and then says which verses it reads — "The turn
 // (v. 6)". The name is what the note is about and the label is where to find it,
 // which is the order every other heading in the panel puts them in.
-const verseEntry = (e, chapterN) =>
-  entryOf([e.title, e.label && `(${e.label})`].filter(Boolean).join(" "), e, chapterN);
+const verseEntry = (e, chapterN, n) =>
+  entryOf(nth(n, [e.title, e.label && `(${e.label})`].filter(Boolean).join(" ")), e, chapterN);
 
-// Chapter notes are numbered, and the number is part of the heading: the notes
-// are written as a sequence and refer to one another by it.
-const numberedEntry = (e, chapterN) =>
-  entryOf([e.n, e.title].filter((p) => p != null).join(". "), e, chapterN);
+// Chapter notes and the notes behind the text are written as a sequence and
+// refer to one another by number, so theirs is the one the file gives.
+const numberedEntry = (e, chapterN, n) =>
+  entryOf(nth(e.n ?? n, e.title), e, chapterN);
 
 // ---- The two framing worlds ------------------------------------------------
 
 // Behind the text is one run of numbered notes under no heading of its own.
 const worldBehind = (doc, chapterN) => {
-  const entries = (doc.world_behind || []).map((e) => numberedEntry(e, chapterN));
+  const entries = (doc.world_behind || []).map((e, i) => numberedEntry(e, chapterN, i + 1));
   return entries.length ? [{ heading: null, entries }] : [];
 };
 
@@ -98,8 +104,8 @@ const worldBehind = (doc, chapterN) => {
 // bullets carried them.
 const worldFront = (doc, chapterN) => {
   const out = [];
-  const apps = (doc.world_in_front?.applications || []).map((a) =>
-    entryOf(`${a.title}${a.verse_label ? ` (${a.verse_label})` : ""}`, a, chapterN)
+  const apps = (doc.world_in_front?.applications || []).map((a, i) =>
+    entryOf(nth(i + 1, `${a.title}${a.verse_label ? ` (${a.verse_label})` : ""}`), a, chapterN)
   );
   if (apps.length) out.push({ heading: "Applications", entries: apps });
 
@@ -222,13 +228,13 @@ export function parseCommentary(doc) {
   const chapterN = doc.meta?.chapter ?? null;
 
   const levels = {
-    Word: (doc.words || []).map((e) => termEntry(e, chapterN)),
-    Phrase: (doc.phrases || []).map((e) => termEntry(e, chapterN)),
-    Verse: (doc.verses || []).map((e) => verseEntry(e, chapterN)),
+    Word: (doc.words || []).map((e, i) => termEntry(e, chapterN, i + 1)),
+    Phrase: (doc.phrases || []).map((e, i) => termEntry(e, chapterN, i + 1)),
+    Verse: (doc.verses || []).map((e, i) => verseEntry(e, chapterN, i + 1)),
     // The chapter section is the coarsest the file writes. Its closing notes do
     // what a block level would have — the chapter's place in its unit, and what
     // it hands the chapters downstream — which is why there is no level over it.
-    Chapter: (doc.chapter || []).map((e) => numberedEntry(e, chapterN)),
+    Chapter: (doc.chapter || []).map((e, i) => numberedEntry(e, chapterN, i + 1)),
   };
 
   return {

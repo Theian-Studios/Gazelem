@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { glass, gold, inkSoft } from "../theme.js";
 import { useLocalSummaries, resolveSummary } from "../lib/summaries.js";
 import SelectionMenu from "./SelectionMenu.jsx";
@@ -16,6 +16,31 @@ function Found({ text, find }) {
   if (parts.length === 1) return text;
   return parts.map((p, i) =>
     p.hit ? <mark key={i} className="find-hit">{p.text}</mark> : <span key={i}>{p.text}</span>
+  );
+}
+
+// The verse number, which is also the link to the verse.
+//
+// The one thing a site can do that an app cannot: every verse here has an
+// address, and the address is worth handing out. The number was already in the
+// margin doing nothing but counting, so it is the thing to press — the link
+// goes to the clipboard, and the number says so for a moment.
+function VerseNumber({ n, href }) {
+  const [copied, setCopied] = useState(false);
+  if (!href) {
+    return <span aria-hidden className="verse-n">{n}</span>;
+  }
+  return (
+    <button className="verse-n verse-n-link" data-copied={copied || undefined}
+      title={`Copy a link to verse ${n}`} aria-label={`Copy a link to verse ${n}`}
+      onClick={() => {
+        navigator.clipboard?.writeText(href).then(() => {
+          setCopied(true);
+          setTimeout(() => setCopied(false), 1100);
+        }).catch(() => {});
+      }}>
+      {n}
+    </button>
   );
 }
 
@@ -68,7 +93,7 @@ function marksAt(study, verse, first) {
   return pages.length ? pages : null;
 }
 
-export default function Reader({ volId, book, chapter, targetVerse, flipDir = 0, connections, find, onOpenRef, study, onOpenStudy, pageRef, prev, next }) {
+export default function Reader({ volId, book, chapter, targetVerse, flipDir = 0, connections, find, onOpenRef, study, onOpenStudy, pageRef, prev, next, verseLink }) {
   const versesRef = useRef(null);
   const local = useLocalSummaries();
   const summary = resolveSummary(local, volId, book, chapter.n);
@@ -122,9 +147,7 @@ export default function Reader({ volId, book, chapter, targetVerse, flipDir = 0,
                   <StudyMarker pages={marksAt(study, v.verse, vi === 0)} onOpen={onOpenStudy} />
                 </span>
               )}
-              <span aria-hidden style={{ color: gold, fontSize: 13, lineHeight: "2.35", textAlign: "right", paddingRight: 4, fontVariantNumeric: "oldstyle-nums", fontWeight: 500, userSelect: "none" }}>
-                {v.verse}
-              </span>
+              <VerseNumber n={v.verse} href={verseLink?.(v.verse)} />
               {/* Runs carrying a cross connection are set in gold; the rest is
                   plain text. Segments rebuild the verse exactly, so selecting
                   and copying still yields the original wording. */}

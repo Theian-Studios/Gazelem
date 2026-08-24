@@ -12,6 +12,7 @@ import Reader from "./components/Reader.jsx";
 import ChapterTimeline from "./components/ChapterTimeline.jsx";
 import RelatedChapters from "./components/RelatedChapters.jsx";
 import NavPill from "./components/NavPill.jsx";
+import TopBar from "./components/TopBar.jsx";
 import FindBar from "./components/FindBar.jsx";
 import { LensBody } from "./components/LensPanel.jsx";
 import VolumeTimeline, { hasTimeline } from "./components/VolumeTimeline.jsx";
@@ -179,6 +180,30 @@ export default function App() {
     return () => ro.disconnect();
   }, []);
 
+  // Whether the window is wide enough for the bar across the top.
+  //
+  // Asked in JS rather than left to a media query, because the search field is
+  // one component carrying a listener of its own — every keystroke on the page
+  // starts a search. Two copies of it, one merely hidden by CSS, would take
+  // every keystroke twice. So only one is ever mounted, and this decides where.
+  const [wide, setWide] = useState(
+    () => typeof window !== "undefined" && window.matchMedia("(min-width: 1120px)").matches,
+  );
+  useEffect(() => {
+    const mq = window.matchMedia("(min-width: 1120px)");
+    const sync = () => setWide(mq.matches);
+    mq.addEventListener("change", sync);
+    // And on plain resize as well. The query answers correctly when asked, but
+    // a window that changes size without the query firing — which is what
+    // happens under some embedded browsers — would otherwise leave the page in
+    // the arrangement it was built at.
+    window.addEventListener("resize", sync);
+    return () => {
+      mq.removeEventListener("change", sync);
+      window.removeEventListener("resize", sync);
+    };
+  }, []);
+
   // Every navigation takes a ticket. A volume is fetched, and the reader can
   // ask for another before the first arrives — so what a fetch does when it
   // lands is settled by whether it is still the thing being waited for. Without
@@ -261,6 +286,18 @@ export default function App() {
     place(data);
   }, [ensure, rememberScroll]);
 
+  // The library picker's ways in. All three are references, so they go through
+  // the same resolver a cross reference does: it can cross volumes, and it
+  // fetches whatever shelf it lands on.
+  const openBookNamed = useCallback((v, name) => {
+    goTo({ v, book: name });
+    window.scrollTo({ top: 0 });
+  }, [goTo]);
+  const openChapterNamed = useCallback((v, name, n) => {
+    goTo({ v, book: name, ch: n });
+    window.scrollTo({ top: 0 });
+  }, [goTo]);
+
   // A written page of the site's own — a chart, an evidence — opened straight
   // from the search field rather than off the shelf it belongs to. It stands
   // inside its volume the same way one opened off that shelf does, so the
@@ -316,6 +353,18 @@ export default function App() {
       if (ch) out += `/${ch.n}`;
     }
     return out;
+  };
+
+  // A verse's own address, for the reader to copy. The hash is never written
+  // with a verse in it — a reader scrolling to one is not navigating, and every
+  // jump would otherwise leave an entry behind — but it is read with one, so a
+  // link handed out this way lands on the verse it names. See replayHash.
+  const verseLink = (n) => {
+    if (!volume || !chapter) return null;
+    const parts = [volId];
+    if (volId !== "dc" && books?.[bookIdx]) parts.push(hashSlug(books[bookIdx].name));
+    parts.push(chapter.n, n);
+    return `${location.origin}${location.pathname}#${parts.join("/")}`;
   };
 
   // ---- The title ---------------------------------------------------------
@@ -432,7 +481,11 @@ export default function App() {
     const n = Number(chRaw);
     const ci = bi >= 0 && Number.isFinite(n) ? data[bi].chapters.findIndex((c) => c.n === n) : -1;
     setChapIdx(ci < 0 ? null : ci);
-    setTargetVerse(null);
+    // A link to a verse carries it as one more step — #bofm/alma/32/21 — and
+    // lands marked and scrolled to. Only ever read, never written: see
+    // verseLink.
+    const v = Number(vol.id === "dc" ? parts[2] : parts[3]);
+    markVerses(ci >= 0 && Number.isFinite(v) ? v : null);
   }, [ensure, openVolume]);
 
   // Putting a page back where it was left. A results list re-queries its index
@@ -519,7 +572,12 @@ export default function App() {
     // it can name the chapter in it, and the name is what the next push stamps.
     if (location.hash === h) { here.current = { label, hash: h }; firstHashSync.current = false; return; }
     const stamp = firstHashSync.current ? null : here.current;
-    if (firstHashSync.current) window.history.replaceState({ from: null }, "", h);
+    // A link to a verse — #bofm/alma/33/12 — is the same place as the chapter
+    // it names, so tidying the verse off the end replaces the entry rather than
+    // pushing one. Pushed, the first press of Back would land the reader on the
+    // address they arrived at, and the second would leave the site.
+    const tidyingVerse = new RegExp(`^${h.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}/\\d+$`).test(location.hash);
+    if (firstHashSync.current || tidyingVerse) window.history.replaceState({ from: stamp }, "", h);
     else window.history.pushState({ from: stamp }, "", h);
     setFrom(stamp);
     here.current = { label, hash: h };
@@ -860,6 +918,13 @@ export default function App() {
   // render keeps it current.
   useEffect(() => {
     const onKey = (e) => {
+      // ⌘K anywhere, including from inside another field: the one keystroke
+      // the whole web agrees means "let me type where I am going".
+      if ((e.metaKey || e.ctrlKey) && !e.altKey && e.key.toLowerCase() === "k") {
+        e.preventDefault();
+        openSearch();
+        return;
+      }
       if (e.metaKey || e.ctrlKey || e.altKey || e.shiftKey) return;
       const el = e.target;
       // Never steal a key from the search field or any other text entry.
@@ -870,6 +935,12 @@ export default function App() {
       if (query) return;
       if (e.key === "ArrowLeft" && chapter && !atStart) { e.preventDefault(); step(-1); }
       else if (e.key === "ArrowRight" && chapter && !atEnd) { e.preventDefault(); step(1); }
+      else if (e.key === "/") {
+        // The field is the site's command line — a reference, a word, a page —
+        // so it takes the key every search field on the web answers to.
+        e.preventDefault();
+        openSearch();
+      }
       else if (e.key === "ArrowUp") {
         // Scrolling comes first: ↑ only steps back out once the page is already
         // at the top, so the key still works its way up through a long chapter.
@@ -1077,7 +1148,11 @@ export default function App() {
     />
   );
 
-  const inlineSearch = home ? <div className="inline-search">{searchField}</div> : null;
+  // Where the one field stands. In the bar, wherever there is a bar — except
+  // the library's own front page, which is built around a field under its
+  // title, and would be a bare shelf without it. ⌘K reaches whichever it is.
+  const fieldInBar = wide && !!volume;
+  const inlineSearch = home && !fieldInBar ? <div className="inline-search">{searchField}</div> : null;
 
   // The lens controls, which now stand at the head of the commentary they
   // govern rather than in a card of their own — see LensBody.
@@ -1103,15 +1178,32 @@ export default function App() {
       style={{ minHeight: "100vh", position: "relative", color: ink, background: "linear-gradient(175deg,#f6f7f9 0%,#eef1f5 55%,#eceef3 100%)", fontFamily: "-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif" }}>
       <AmbientGlow />
 
-      {/* Layout lives in styles.css so a media query can turn this bar into a
-          left sidebar once the window is wide enough for one. */}
-      <header className={`chrome${searchOpen ? " chrome-open" : ""}${home ? " chrome-away" : ""}`}>
-        <div className="chrome-inner">
-          <div className="searchcard" style={{ ...glass, borderRadius: 18 }}>
-            {!home && searchField}
+      {/* Wide, the chrome is a bar across the top: the trail, the reference —
+          which opens the library whole — the chapter arrows, and the field.
+          Narrow it is the old sticky card, and the pill at the foot of the
+          window is still the way through the chapters. Only one of the two is
+          ever mounted, because the field inside them is one component. */}
+      {wide ? (
+        <TopBar
+          volume={volume} volId={volId} books={books} bookIdx={bookIdx}
+          book={book} chapter={query ? null : chapter} sections={sectionDefs}
+          trail={trail} atStart={atStart} atEnd={atEnd}
+          onPrev={() => step(-1)} onNext={() => step(1)}
+          onLibrary={goLibrary}
+          onVolume={openVolume}
+          onBook={openBookNamed}
+          onChapter={openChapterNamed}
+          search={fieldInBar ? searchField : null}
+        />
+      ) : (
+        <header className={`chrome${searchOpen ? " chrome-open" : ""}${home ? " chrome-away" : ""}`}>
+          <div className="chrome-inner">
+            <div className="searchcard" style={{ ...glass, borderRadius: 18 }}>
+              {!home && searchField}
+            </div>
           </div>
-        </div>
-      </header>
+        </header>
+      )}
 
       {/* `content-solo` while nothing is standing in the side columns: with no
           sidebar to balance against, reserving its width would only push the
@@ -1169,7 +1261,7 @@ export default function App() {
         {/* Handed down bare: the grid puts it in the card itself, and a wrapper
             carrying the same class would apply that class's outer spacing a
             second time, inside the card. */}
-        {!query && !volume && <VolumeGrid onOpen={openVolume} search={searchField} />}
+        {!query && !volume && <VolumeGrid onOpen={openVolume} search={fieldInBar ? null : searchField} />}
         {reading && volume && loading && <LoadingShimmer />}
         {reading && volume && error && !loading && <ErrorCard message={error} onRetry={retryLoad} />}
         {/* The volume's own pages wait on it too — the timeline and the chapter
@@ -1237,7 +1329,7 @@ export default function App() {
           <Reader key={`${bookIdx}-${chapIdx}`} volId={volId} book={book}
             chapter={chapter} targetVerse={targetVerse} flipDir={flipDir}
             connections={verseConnections} find={find} onOpenRef={openReference}
-            study={study} onOpenStudy={openStudyPage} pageRef={pageRef}
+            study={study} onOpenStudy={openStudyPage} pageRef={pageRef} verseLink={verseLink}
             prev={dragging ? neighbour(-1) : null} next={dragging ? neighbour(1) : null} />
         )}
 
@@ -1318,7 +1410,30 @@ export default function App() {
         <StudyDock filled={filled} hidden={controlsHidden} onOpen={setSheet} />
       )}
 
-      {(trail.length > 0 || back || resume) && (
+      {/* The gutters either side of the reader, made into the page turn. Wide,
+          nothing floats over the text any more — the arrows are out in the
+          margin the columns leave, where a pointer already is, and the keyboard
+          says the same thing. */}
+      {wide && chapter && reading && (
+        <>
+          <button className="turn turn-prev" onClick={() => step(-1)} disabled={atStart}
+            aria-label="Previous chapter" title="Previous chapter (←)">
+            <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden fill="none"
+              stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M15 5 8 12l7 7" />
+            </svg>
+          </button>
+          <button className="turn turn-next" onClick={() => step(1)} disabled={atEnd}
+            aria-label="Next chapter" title="Next chapter (→)">
+            <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden fill="none"
+              stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </>
+      )}
+
+      {!wide && (trail.length > 0 || back || resume) && (
         <NavPill trail={trail} chapter={query ? null : chapter} atStart={atStart} atEnd={atEnd}
           onPrev={() => step(-1)} onNext={() => step(1)}
           back={back} resume={resume} search={!home && searchButton}

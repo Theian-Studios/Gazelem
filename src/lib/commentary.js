@@ -248,6 +248,21 @@ export function parseCommentary(doc) {
   };
 }
 
+// Which chapters have notes at all, read off the file names alone — no file is
+// fetched to answer it. The picker marks them, so a reader choosing where to go
+// can see where the commentary is before spending a click on it.
+const WRITTEN = new Set(
+  Object.keys(FILES)
+    // `[^/]` and not `.`: a lazy dot would happily swallow the directory above
+    // the file, and every chapter would be filed under "commentary/1nephi".
+    .map((path) => path.match(/\/(?:\d+[-_])?([^/]+?)-0*(\d+)(?:[-_][^/]*)?\.json$/))
+    .filter(Boolean)
+    .map((m) => `${bookKey(m[1])}-${Number(m[2])}`)
+);
+
+export const hasNotes = (bookName, chapterN) =>
+  !!bookName && chapterN != null && WRITTEN.has(`${bookKey(bookName)}-${chapterN}`);
+
 // What has been fetched and parsed already, so a chapter is read once however
 // many parts of the page ask for it. `null` is an answer too — a chapter with no
 // notes written yet is not asked for again.

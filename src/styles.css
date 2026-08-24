@@ -487,6 +487,194 @@ a[x-apple-data-detectors] {
   }
 }
 
+/* ---- The bar across the top of a wide window ----------------------------
+   The pill at the foot of the page is a phone's answer: one line, one step of
+   the hierarchy at a time, floating over the text because there is nowhere
+   else to float. Wide, there is a whole line of chrome going spare and a
+   pointer that can hover, so the trail comes up here and stays put, and the
+   reference in the middle of it opens the library whole.
+
+   Never below the three-column width: at that point the pill is right again,
+   and only one of the two is ever mounted (see App). */
+.topbar { display: none; }
+:root { --bar-h: 0px; }
+
+@media (min-width: 1120px) {
+  :root { --bar-h: 54px; }
+
+  .topbar {
+    display: flex; align-items: center; gap: 14px;
+    position: fixed; top: 0; left: 0; right: 0; height: var(--bar-h);
+    padding: 0 16px;
+    z-index: 40;
+    background: rgba(252,252,253,.82);
+    backdrop-filter: saturate(160%) blur(18px);
+    -webkit-backdrop-filter: saturate(160%) blur(18px);
+    border-bottom: 1px solid rgba(31,45,71,.08);
+  }
+
+  /* The name is the way home, which is what a masthead is for. */
+  .bar-mark {
+    flex-shrink: 0;
+    border: 0; background: none; padding: 4px 6px; margin: 0;
+    font-size: 16px; font-weight: 600; letter-spacing: .01em;
+    color: #1d1d1f; cursor: pointer; border-radius: 8px;
+    transition: color .15s;
+  }
+  .bar-mark:hover { color: #a4853d; }
+
+  /* The trail and the reference, centred in the bar rather than left with the
+     name: it is the one thing on this line the reader is looking for. */
+  .bar-where {
+    flex: 1; display: flex; align-items: center; justify-content: center; gap: 6px;
+    min-width: 0;
+  }
+  .bar-crumb { display: inline-flex; align-items: center; gap: 6px; min-width: 0; }
+  .bar-crumb > button {
+    border: 0; background: none; padding: 2px 4px; margin: 0;
+    font-size: 13px; color: #6e6e73; cursor: pointer; border-radius: 6px;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 22ch;
+    transition: color .15s;
+  }
+  .bar-crumb > button:hover { color: #a4853d; }
+  .bar-sep { color: rgba(110,110,115,.45); font-size: 12px; }
+
+  /* The reference: a plain word until the pointer is on it, and then a door. */
+  .bar-ref {
+    display: inline-flex; align-items: center; gap: 6px;
+    border: 1px solid transparent; background: none;
+    padding: 5px 10px; margin: 0; border-radius: 999px;
+    font-size: 15px; font-weight: 600; color: #1d1d1f; cursor: pointer;
+    white-space: nowrap;
+    transition: background .15s, border-color .15s;
+  }
+  .bar-ref svg { color: rgba(110,110,115,.7); }
+  .bar-ref:hover, .bar-ref[aria-expanded="true"] {
+    background: rgba(255,255,255,.75);
+    border-color: rgba(31,45,71,.14);
+  }
+
+  .bar-step {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 30px; height: 30px; border: 0; background: none; border-radius: 999px;
+    color: #6e6e73; cursor: pointer;
+    transition: background .15s, color .15s;
+  }
+  .bar-step:hover:not(:disabled) { background: rgba(255,255,255,.8); color: #1d1d1f; }
+  .bar-step:disabled { opacity: .25; cursor: default; }
+
+  .bar-search { flex-shrink: 0; width: clamp(220px, 22vw, 320px); }
+  .bar-search .searchbar { padding: 6px 12px; }
+
+  /* ---- The library, opened whole ---------------------------------------- */
+  .picker {
+    /* Centred by the margins rather than by a transform: the entrance below
+       animates the transform, and a translate written here would be dropped
+       the moment the animation took it over. */
+    position: absolute; top: calc(var(--bar-h) - 4px); left: 0; right: 0;
+    width: min(860px, calc(100vw - 32px)); margin-inline: auto;
+    /* Opaque, not glass. Every other card on the site is glass over a gradient,
+       which is right for something that sits beside the page; this sits over
+       it, and a chapter reading through the shelf you are choosing from is the
+       one place the effect costs more than it gives. */
+    background: #fcfcfd;
+    border: 1px solid rgba(31,45,71,.12);
+    border-radius: 16px;
+    box-shadow: 0 18px 48px rgba(31,45,71,.14), 0 2px 8px rgba(31,45,71,.06);
+    overflow: hidden;
+    animation: dropdown .14s cubic-bezier(.16,1,.3,1) backwards;
+  }
+  .picker-panes { display: grid; grid-template-columns: 190px 190px minmax(0, 1fr); }
+  .picker-pane { padding: 10px 0 12px; min-height: 268px; max-height: 60vh; overflow-y: auto; }
+  .picker-vols, .picker-books { border-right: 1px solid rgba(31,45,71,.08); }
+  .picker-chapters { padding: 10px 14px 12px; }
+  .picker-head {
+    margin: 0 14px 7px;
+    font-size: 10px; letter-spacing: .1em; text-transform: uppercase;
+    font-weight: 700; color: rgba(110,110,115,.85);
+  }
+  .picker-chapters .picker-head { margin-left: 0; margin-right: 0; }
+  .picker-row {
+    display: block; width: 100%; text-align: left;
+    border: 0; background: none; padding: 6px 14px; margin: 0;
+    font-size: 13.5px; color: #3d3d42; cursor: pointer;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .picker-row:hover, .picker-row[data-on] { background: rgba(164,133,61,.10); color: #1d1d1f; }
+  .picker-row[data-on] { font-weight: 600; }
+  .picker-waiting { margin: 0 14px; font-size: 12.5px; color: #6e6e73; }
+
+  /* A grid, because a chapter is a number and numbers read as a grid — a list
+     of twenty-two of them is a scroll where this is a glance. */
+  .picker-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(38px, 1fr)); gap: 5px;
+  }
+  .picker-ch {
+    position: relative;
+    border: 1px solid rgba(31,45,71,.10); background: rgba(255,255,255,.5);
+    border-radius: 9px; padding: 7px 0; margin: 0;
+    font-size: 13px; color: #3d3d42; cursor: pointer;
+    transition: background .12s, border-color .12s, color .12s;
+  }
+  .picker-ch:hover { background: rgba(164,133,61,.12); border-color: rgba(164,133,61,.4); color: #1d1d1f; }
+  .picker-ch[data-on] { background: #1d1d1f; border-color: #1d1d1f; color: #fff; font-weight: 600; }
+  /* Where there is commentary. The site knows before it fetches anything, and
+     a reader choosing where to go should not have to spend the click to find
+     out. */
+  .picker-ch[data-notes]::after {
+    content: ""; position: absolute; left: 50%; bottom: 3px; translate: -50% 0;
+    width: 3px; height: 3px; border-radius: 50%; background: #a4853d;
+  }
+  .picker-ch[data-on][data-notes]::after { background: rgba(255,255,255,.75); }
+
+  /* What the chapter under the pointer is about, in one place under the grid
+     rather than as a tooltip on each — a shelf is read by running the eye
+     along it, and the eye should not have to follow the pointer. */
+  .picker-caption {
+    margin: 9px 0 0; min-height: 1.4em;
+    font-size: 12.5px; color: #6e6e73;
+  }
+  .picker-caption-n { color: #a4853d; font-weight: 700; margin-right: 7px; }
+
+  .picker-sections {
+    display: flex; flex-wrap: wrap; gap: 6px;
+    padding: 10px 14px 12px;
+    border-top: 1px solid rgba(31,45,71,.08);
+  }
+  .picker-section {
+    border: 1px solid rgba(31,45,71,.12); background: rgba(255,255,255,.6);
+    border-radius: 999px; padding: 5px 12px; margin: 0;
+    font-size: 12.5px; color: #3d3d42; cursor: pointer;
+    transition: background .12s, border-color .12s;
+  }
+  .picker-section:hover { background: rgba(164,133,61,.12); border-color: rgba(164,133,61,.4); }
+  .picker-section[data-on] { background: #1d1d1f; border-color: #1d1d1f; color: #fff; }
+
+  /* ---- The page turn, out in the margin ---------------------------------
+     Quiet until the pointer is near, because a chapter should be the only
+     thing on the page asking to be read. */
+  .turn {
+    position: fixed; top: var(--bar-h); bottom: 0; width: 56px;
+    display: flex; align-items: center; justify-content: center;
+    border: 0; background: none; padding: 0; margin: 0;
+    color: rgba(110,110,115,.5); cursor: pointer; z-index: 12;
+    opacity: 0; transition: opacity .18s, color .18s;
+  }
+  .turn:hover { opacity: 1; color: #a4853d; }
+  .turn:focus-visible { opacity: 1; outline: 2px solid #3a5a8c; outline-offset: -6px; }
+  .turn:disabled { display: none; }
+  .turn-prev { left: calc(var(--side) + var(--gutter)); }
+  .turn-next { right: calc(var(--notes) + var(--gutter)); }
+
+  /* Everything under the bar starts under the bar. */
+  .content { padding-top: calc(var(--bar-h) + 8px); }
+  .side-extras { top: calc(var(--bar-h) + 14px); }
+  .commentary-col { top: var(--bar-h); }
+  .toc-card { top: calc(var(--bar-h) + 14px); }
+  /* The pill's whole job is done up there now. */
+  .navdock { display: none; }
+}
+
 /* Three columns: the nav, the reader, and the notes. The reader is fluid
    between the two fixed columns and capped at its 620px measure, so the notes
    can sit on the right without waiting for a very wide window. */
@@ -2270,6 +2458,37 @@ mark.find-hit[data-current] {
 
 /* A citation and the bracket that introduces it, kept to one line. */
 .cx-cite-group { white-space: nowrap; }
+/* The verse number, which is also the verse's address. Set exactly as the
+   plain number was — the affordance is that it answers the pointer, not that
+   it announces itself in a column of seventeen others. */
+.verse-n {
+  /* Start, not stretch: the number sits on the verse's first line, and a
+     button left to fill its grid cell centres itself against the whole verse
+     instead — which on a long one puts the number four lines down. */
+  align-self: start;
+  display: block; width: 100%; position: relative;
+  color: #a4853d; font-size: 13px; line-height: 2.35; text-align: right;
+  padding: 0 4px 0 0; font-variant-numeric: oldstyle-nums; font-weight: 500;
+  user-select: none;
+}
+.verse-n-link {
+  border: 0; background: none; margin: 0; font: inherit;
+  font-size: 13px; font-variant-numeric: oldstyle-nums; font-weight: 500;
+  cursor: pointer; border-radius: 5px;
+  transition: color .15s, background .15s;
+}
+.verse-n-link:hover { color: #6b551f; background: rgba(164,133,61,.14); }
+.verse-n-link:focus-visible { outline: 2px solid #3a5a8c; outline-offset: 1px; }
+/* Said in the margin where the number was, so the confirmation is where the
+   press was and the line does not move. */
+.verse-n-link[data-copied] { color: #1d1d1f; background: rgba(164,133,61,.2); }
+.verse-n-link[data-copied]::after {
+  content: "Copied"; position: absolute; left: 0; translate: -100% 0;
+  margin-left: -6px;
+  font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase;
+  font-weight: 700; color: #a4853d; white-space: nowrap;
+}
+
 /* A citation, set as the evidences set theirs: gold, and a door to the verse.
    Inline, so a citation the length of a clause wraps with the words around it
    rather than standing as a box of its own — see CiteLink in Commentary.jsx for

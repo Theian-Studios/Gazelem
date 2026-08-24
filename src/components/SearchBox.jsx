@@ -129,6 +129,10 @@ export default function SearchBox({ onNavigate, onSearch, onFind, onOpenArticle,
     const onKey = (e) => {
       if (e.metaKey || e.ctrlKey || e.altKey) return;
       if (e.key.length !== 1 || e.key === " ") return;
+      // "/" opens the field rather than being typed into it — the one
+      // character on the keyboard that every search field on the web has
+      // already claimed. App answers it; here it is simply not a letter.
+      if (e.key === "/") return;
       const el = e.target;
       if (el && (el.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName))) return;
       if (!window.getSelection()?.isCollapsed) return;   // mid-selection, leave it alone

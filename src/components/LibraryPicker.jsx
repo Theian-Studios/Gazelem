@@ -2,7 +2,6 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { VOLUMES } from "../data/volumes.js";
 import { getCached, loadVolume } from "../lib/api.js";
 import { volumeStops } from "../lib/timeline.js";
-import { hasNotes } from "../lib/commentary.js";
 
 // The whole library, opened at once.
 //
@@ -129,7 +128,6 @@ export default function LibraryPicker({
               return (
                 <button key={c.n} className="picker-ch"
                   data-on={here || undefined}
-                  data-notes={hasNotes(book.name, c.n) || undefined}
                   title={captions.get(c.n) || undefined}
                   onMouseEnter={() => setCaption(captions.get(c.n) ? { n: c.n, label: captions.get(c.n) } : null)}
                   onMouseLeave={() => setCaption(null)}

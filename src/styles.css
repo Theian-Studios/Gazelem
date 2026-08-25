@@ -607,26 +607,16 @@ a[x-apple-data-detectors] {
   /* A grid, because a chapter is a number and numbers read as a grid — a list
      of twenty-two of them is a scroll where this is a glance. */
   .picker-grid {
-    display: grid; grid-template-columns: repeat(auto-fill, minmax(38px, 1fr)); gap: 5px;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(46px, 1fr)); gap: 6px;
   }
   .picker-ch {
-    position: relative;
     border: 1px solid rgba(31,45,71,.10); background: rgba(255,255,255,.5);
-    border-radius: 9px; padding: 7px 0; margin: 0;
-    font-size: 13px; color: #3d3d42; cursor: pointer;
+    border-radius: 11px; padding: 11px 0; margin: 0;
+    font-size: 14.5px; color: #3d3d42; cursor: pointer;
     transition: background .12s, border-color .12s, color .12s;
   }
   .picker-ch:hover { background: rgba(164,133,61,.12); border-color: rgba(164,133,61,.4); color: #1d1d1f; }
   .picker-ch[data-on] { background: #1d1d1f; border-color: #1d1d1f; color: #fff; font-weight: 600; }
-  /* Where there is commentary. The site knows before it fetches anything, and
-     a reader choosing where to go should not have to spend the click to find
-     out. */
-  .picker-ch[data-notes]::after {
-    content: ""; position: absolute; left: 50%; bottom: 3px; translate: -50% 0;
-    width: 3px; height: 3px; border-radius: 50%; background: #a4853d;
-  }
-  .picker-ch[data-on][data-notes]::after { background: rgba(255,255,255,.75); }
-
   /* What the chapter under the pointer is about, in one place under the grid
      rather than as a tooltip on each — a shelf is read by running the eye
      along it, and the eye should not have to follow the pointer. */
@@ -1531,11 +1521,14 @@ mark.find-hit[data-current] {
    sized to the number rather than to the shelf beside them — about half what
    they were, which puts twice as many in reach without scrolling. */
 .chapter-grid {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(32px, 1fr)); gap: 6px;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(52px, 1fr)); gap: 8px;
 }
+/* A door the size of a door. These were sized as a dense index of numbers, but
+   they are the way into every chapter of the book — the one thing this page is
+   for — and a 32px cell asks the reader to aim. */
 .chapter-cell {
-  border-radius: 10px; padding: 9px 0; text-align: center; cursor: pointer;
-  font-size: 13.5px; font-weight: 500; font-variant-numeric: oldstyle-nums;
+  border-radius: 12px; padding: 15px 0; text-align: center; cursor: pointer;
+  font-size: 16px; font-weight: 500; font-variant-numeric: oldstyle-nums;
 }
 /* Below the shelf and set off from it: a rule, so the eye reads them as a
    different kind of door rather than as the last few books of the volume. */

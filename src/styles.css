@@ -656,11 +656,6 @@ a[x-apple-data-detectors] {
   .turn-prev { left: calc(var(--side) + var(--gutter)); }
   .turn-next { right: calc(var(--notes) + var(--gutter)); }
 
-  /* Everything under the bar starts under the bar. */
-  .content { padding-top: calc(var(--bar-h) + 8px); }
-  .side-extras { top: calc(var(--bar-h) + 14px); }
-  .commentary-col { top: var(--bar-h); }
-  .toc-card { top: calc(var(--bar-h) + 14px); }
   /* The pill's whole job is done up there now. */
   .navdock { display: none; }
 }
@@ -3548,3 +3543,16 @@ mark.find-hit[data-current] {
 .rel-page-verses { font-size: var(--fs-note); color: #86868b; }
 
 @media (prefers-reduced-motion: reduce) { .rel-page { transition: none; } }
+
+/* ---- Making room for the bar --------------------------------------------
+   Last in the file on purpose. The three-column layout and the contents card
+   both pin themselves to the top of the window from their own media blocks
+   further up, and a rule of equal weight only wins by coming after: written
+   beside the bar itself, these were overruled and the notes column ran up
+   under it, taking its heading with it. */
+@media (min-width: 1120px) {
+  .content { padding-top: calc(var(--bar-h) + 8px); }
+  .side-extras { top: calc(var(--bar-h) + 14px); }
+  .commentary-col { top: var(--bar-h); }
+  .toc-card { top: calc(var(--bar-h) + 14px); }
+}

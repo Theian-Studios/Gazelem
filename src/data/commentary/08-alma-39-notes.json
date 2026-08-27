@@ -1,0 +1,645 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 39,
+  "volume_order": "08",
+  "speakers": [
+   "Alma"
+  ],
+  "audience": "Corianton, Alma's youngest son",
+  "location": "Zarahemla",
+  "date": "~74 BC",
+  "unit": "Alma's charges to his sons (Alma 36–42)",
+  "principles": [
+   "Naming a fault plainly and once",
+   "Damage done to other people's belief",
+   ""
+  ],
+  "connections": 9,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Corianton was on the Zoramite mission",
+   "text": "Alma 31:7 lists him with Shiblon among those Alma took to Antionum. What happened there is given only in this chapter.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 31:7",
+     "start": 0,
+     "end": 9,
+     "book": "Alma",
+     "chapter": 31,
+     "verse_start": 7,
+     "verse_end": 7
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "He left the ministry mid-mission",
+   "text": "Verse 3 says he forsook it and went to Siron after Isabel. Alma calls the abandonment grievous before he says anything about the woman."
+  },
+  {
+   "n": 3,
+   "title": "Isabel is named",
+   "text": "Verse 3 gives her name and calls her a harlot, and verse 4 says she stole away the hearts of many. She is one of a handful of women the record names at all."
+  },
+  {
+   "n": 4,
+   "title": "The comparison to Shiblon opens the charge",
+   "text": "Verse 1 asks whether Corianton has observed his brother's steadiness. Alma 38 had just praised that steadiness to Shiblon himself."
+  },
+  {
+   "n": 5,
+   "title": "The ranking of sins is stated carefully",
+   "text": "Verse 5 puts this abomination below shedding innocent blood and below denying the Holy Ghost. Verse 6 then defines the unpardonable sin as denial against knowledge."
+  },
+  {
+   "n": 6,
+   "title": "The public cost is named",
+   "text": "Verse 11 says the Zoramites would not believe Alma's words once they saw Corianton's conduct. The chapter treats a private sin as a public event."
+  },
+  {
+   "n": 7,
+   "title": "Corianton had a question",
+   "text": "Verse 17 says he marvels why these things should be known so long beforehand. The last three verses begin an answer that runs through Alma 42."
+  }
+ ],
+ "words": [
+  {
+   "term": "Siron",
+   "verse_label": "v. 3",
+   "text": "A land on the Lamanite borders. The name occurs once in scripture and is never described. Alma names it as the place his son went, which fixes the abandonment of the ministry to a specific journey."
+  },
+  {
+   "term": "Isabel",
+   "verse_label": "v. 3",
+   "text": "A woman named once in scripture. The record gives her name, her trade, and the fact that many hearts followed her. Alma names her to his son directly and then says she is no excuse."
+  },
+  {
+   "term": "Unpardonable",
+   "verse_label": "v. 6",
+   "text": "Beyond forgiveness. The word occurs twice in this record and never in the King James Bible; the other use is Sherem in Jacob 7, fearing he has committed it. Alma defines it as denying the Holy Ghost after it has had place in you and while knowing that you deny it."
+  },
+  {
+   "term": "Harrow",
+   "verse_label": "v. 7",
+   "text": "Treated at 2 Nephi 9:47, where Jacob asks whether he should harrow up his hearers' souls. Alma uses the same figure of tearing ground open, and says he would not do it to his son except for his good."
+  },
+  {
+   "term": "Cross",
+   "verse_label": "v. 9",
+   "text": "To go against, to thwart. The phrase \"cross yourself\" (v. 9) occurs twice in this record, both in this verse, and never in the King James Bible. Alma repeats it in the same breath, which makes it an instruction to act against your own wants.",
+   "cites": [
+    {
+     "quote": "cross yourself",
+     "verse": 9,
+     "start": 37,
+     "end": 60,
+     "spans": [
+      {
+       "w1": 25,
+       "w2": 26,
+       "text": "cross yourself"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Glad tidings",
+   "verse_label": "v. 15",
+   "text": "Good news announced. The record uses the phrase eleven times and the King James Bible four, including Paul on the feet of those who bring it. Alma uses it three times in five verses, and it is the ministry Corianton walked away from."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Have ye not observed the steadiness of thy brother",
+   "verse_label": "v. 1",
+   "text": "Alma opens by pointing at Shiblon. He had praised the same quality to Shiblon's face one chapter earlier, and he now uses it as the measure for the son who is being corrected."
+  },
+  {
+   "term": "Thou didst go on unto boasting in thy strength and thy wisdom",
+   "verse_label": "v. 2",
+   "text": "The first fault named, and it is pride rather than the sin everyone remembers. Alma 38 had warned Shiblon against exactly this, and here it is described as something that already happened."
+  },
+  {
+   "term": "Thou didst forsake the ministry",
+   "verse_label": "v. 3",
+   "text": "The charge stated before Isabel is mentioned. Alma puts the desertion first in the sentence, which orders the offense by the trust broken rather than by the act."
+  },
+  {
+   "term": "But this was no excuse for thee, my son",
+   "verse_label": "v. 4",
+   "text": "Alma grants that Isabel drew many and refuses it as mitigation in the same verse. The concession and the refusal sit side by side."
+  },
+  {
+   "term": "Most abominable above all sins save it be the shedding of innocent blood or denying the Holy Ghost",
+   "verse_label": "v. 5",
+   "text": "A ranking with two things above it. Alma is precise about the position rather than absolute about the severity, and verse 6 explains the two exceptions."
+  },
+  {
+   "term": "I would not dwell upon your crimes, to harrow up your soul, if it were not for your good",
+   "verse_label": "v. 7",
+   "text": "Alma states his reason for saying any of this. He names the pain he is causing and the purpose of causing it, and he does not repeat the charge after verse 11."
+  },
+  {
+   "term": "Cross yourself in all these things",
+   "verse_label": "v. 9",
+   "text": "The instruction, given twice in one verse. Alma asks for action against his son's own inclination, and pairs it with going no more after the lusts of the eyes."
+  },
+  {
+   "term": "Counsel with your elder brothers in your undertakings",
+   "verse_label": "v. 10",
+   "text": "A command, not a suggestion. Alma tells his youngest that he is in his youth and stands in need of being nourished by his brothers, and gives him Helaman and Shiblon as the ones to ask."
+  },
+  {
+   "term": "When they saw your conduct they would not believe in my words",
+   "verse_label": "v. 11",
+   "text": "The cost of the sin, stated as its effect on other people's belief. Alma had been preaching in Antionum; his son's conduct is named as a reason the preaching failed there."
+  },
+  {
+   "term": "Return unto them, and acknowledge your faults and that wrong which ye have done",
+   "verse_label": "v. 13",
+   "text": "Repentance is given a public step. Alma tells him to go back to the people he damaged and say what he did, which is more than turning to the Lord with all his mind and strength."
+  },
+  {
+   "term": "Is not a soul at this time as precious unto God as a soul will be at the time of his coming?",
+   "verse_label": "v. 17",
+   "text": "Alma answers his son's question with a question. Three verses ask whether present souls, present knowledge, and present angels are worth less than future ones, and the assumed answer carries the argument."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–2",
+   "start": 1,
+   "end": 2,
+   "title": "The comparison",
+   "text": "Alma has more to say to this son than to the other, and asks whether he has observed Shiblon's steadiness, faithfulness, and diligence. Corianton did not heed his father's words among the Zoramites, and went on to boast in his own strength and wisdom."
+  },
+  {
+   "label": "v. 3–5",
+   "start": 3,
+   "end": 5,
+   "title": "The desertion",
+   "text": "He forsook the ministry and went to Siron after the harlot Isabel. She drew many, and Alma says that is no excuse: he should have tended the ministry entrusted to him. These things are most abominable above all sins except two."
+  },
+  {
+   "label": "v. 6–8",
+   "start": 6,
+   "end": 8,
+   "title": "The two exceptions",
+   "text": "Denying the Holy Ghost after it has had place in you, knowingly, is unpardonable, and murder against light and knowledge is not easily forgiven. Alma wishes his son were not guilty, says he raises it only for his good, and warns that the crimes cannot be hidden from God."
+  },
+  {
+   "label": "v. 9–11",
+   "start": 9,
+   "end": 11,
+   "title": "What to do",
+   "text": "Repent, forsake the sins, go no more after the lusts of the eyes, cross yourself. Counsel with your elder brothers, since you are young and need to be nourished by them. Let nothing lead you back, and consider what your conduct cost the Zoramites."
+  },
+  {
+   "label": "v. 12–14",
+   "start": 12,
+   "end": 14,
+   "title": "The command",
+   "text": "The Spirit tells Alma to command his children to do good, so he commands Corianton to refrain from iniquity, to turn to the Lord with all his mind and might and strength, to lead nobody else astray, to go back and acknowledge his faults, and to stop seeking riches he cannot carry with him."
+  },
+  {
+   "label": "v. 15–19",
+   "start": 15,
+   "end": 19,
+   "title": "Why now",
+   "text": "Christ shall surely come to take away the sins of the world and declare glad tidings. That declaring was the ministry Corianton was called to. As for why it is known so far ahead: a soul now is as precious, the plan is as necessary, and it is as easy for God to send an angel now as later."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The chapter opens on pride and closes on doctrine",
+   "text": "The sexual sin occupies three verses in the middle. Alma names boasting first and spends the last five verses on the coming of Christ."
+  },
+  {
+   "n": 2,
+   "title": "The desertion is the charge",
+   "text": "Verse 3 says forsake the ministry before it says anything about Isabel. Alma orders the offense by what was entrusted rather than by what was done."
+  },
+  {
+   "n": 3,
+   "title": "He grants the mitigating fact and refuses it",
+   "text": "She stole away the hearts of many, and that was no excuse. Alma does not dispute the circumstance; he denies that it changes the responsibility."
+  },
+  {
+   "n": 4,
+   "title": "The ranking has two things above it",
+   "text": "Alma is careful enough to define both exceptions, and careful enough to say that murder against knowledge is hard to be forgiven without calling it impossible."
+  },
+  {
+   "n": 5,
+   "title": "He names the pain and the reason for it",
+   "text": "Verse 7 says he would not harrow up his son's soul except for his good, and he keeps to that: the accusation stops at verse 11 and never returns."
+  },
+  {
+   "n": 6,
+   "title": "The worst consequence is other people's unbelief",
+   "text": "Verse 11 makes the Zoramites who would not hear Alma the measure of the damage. A private failure is weighed by its public effect."
+  },
+  {
+   "n": 7,
+   "title": "Repentance includes going back",
+   "text": "Turning to the Lord is verse 13's first half; returning to the people and acknowledging the wrong is its second. Alma requires both."
+  },
+  {
+   "n": 8,
+   "title": "The correction ends by answering a question",
+   "text": "Corianton marvels at the timing of prophecy, and Alma takes it seriously enough to begin an answer that occupies three more chapters."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Name the fault once and stop",
+    "verse_label": "v. 7–11",
+    "text": "Alma said what he had to say, gave his reason for saying it, and did not return to it. When you have to correct someone, say it plainly, say why, and then leave it."
+   },
+   {
+    "title": "Refuse the excuse without disputing the fact",
+    "verse_label": "v. 4",
+    "text": "Isabel really did draw many. Alma granted the circumstance and denied that it changed anything. When someone explains a failure with a true circumstance, you can accept the fact and hold the responsibility."
+   },
+   {
+    "title": "Go back to the people you damaged",
+    "verse_label": "v. 13",
+    "text": "Turning to God was not the whole of what Alma asked. Identify who was affected by something you did, and acknowledge it to them directly."
+   },
+   {
+    "title": "Ask your siblings",
+    "verse_label": "v. 10",
+    "text": "Alma commanded his youngest to counsel with his elder brothers. Name the person a step ahead of you and take an actual question to them this week."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "Whose steadiness have I noticed and never learned from?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Where have I boasted in my own strength lately?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What have I been entrusted with that I have quietly stopped tending?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What true circumstance am I using as an excuse?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What would crossing myself look like this week?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "Who has stopped believing something because of how I acted?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "Who do I owe an acknowledgment to?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al39-001",
+   "scope": "BOOK",
+   "head": "Alma 38:2",
+   "anchor": {
+    "verse": 1,
+    "w1": 26,
+    "w2": 30,
+    "quote": "the steadiness of thy brother"
+   },
+   "reason": "the same steadiness, praised to Shiblon himself",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 38,
+     "verse": 2,
+     "w1": 15,
+     "w2": 21,
+     "quote": "because of your steadiness and your faithfulness",
+     "verse_text": "And now, my son, I trust that I shall have great joy in you, because of your steadiness and your faithfulness unto God; for as you have commenced in your youth to look to the Lord your God, even so I hope that you will continue in keeping his commandments; for blessed is he that endureth to the end.",
+     "markdown": "And now, my son, I trust that I shall have great joy in you, **because of your steadiness and your faithfulness** unto God; for as you have commenced in your youth to look to the Lord your God, even so I hope that you will continue in keeping his commandments; for blessed is he that endureth to the end.",
+     "span": true
+    }
+   ],
+   "mirror": "al38-002"
+  },
+  {
+   "id": "al39-002",
+   "scope": "BOOK",
+   "head": "Alma 31:7",
+   "anchor": {
+    "verse": 2,
+    "w1": 16,
+    "w2": 21,
+    "quote": "among the people of the Zoramites"
+   },
+   "reason": "the moment Corianton was chosen for this mission",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 31,
+     "verse": 7,
+     "w1": 28,
+     "w2": 30,
+     "quote": "Shiblon and Corianton;",
+     "verse_text": "Now the eldest of his sons he took not with him, and his name was Helaman; but the names of those whom he took with him were Shiblon and Corianton; and these are the names of those who went with him among the Zoramites, to preach unto them the word.",
+     "markdown": "Now the eldest of his sons he took not with him, and his name was Helaman; but the names of those whom he took with him were **Shiblon and Corianton**; and these are the names of those who went with him among the Zoramites, to preach unto them the word.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al39-003",
+   "scope": "BOOK",
+   "head": "Alma 42:1",
+   "anchor": {
+    "verse": 17,
+    "w1": 13,
+    "w2": 23,
+    "quote": "you marvel why these things should be known so long beforehand"
+   },
+   "reason": "the same worry taken up again and answered at length",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 42,
+     "verse": 1,
+     "w1": 7,
+     "w2": 15,
+     "quote": "there is somewhat more which doth worry your mind,",
+     "verse_text": "And now, my son, I perceive there is somewhat more which doth worry your mind, which ye cannot understand—which is concerning the justice of God in the punishment of the sinner; for ye do try to suppose that it is injustice that the sinner should be consigned to a state of misery.",
+     "markdown": "And now, my son, I perceive **there is somewhat more which doth worry your mind**, which ye cannot understand—which is concerning the justice of God in the punishment of the sinner; for ye do try to suppose that it is injustice that the sinner should be consigned to a state of misery.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al39-004",
+   "scope": "BOOK",
+   "head": "Alma 13:22",
+   "anchor": {
+    "verse": 15,
+    "w1": 40,
+    "w2": 48,
+    "quote": "to declare glad tidings of salvation unto his people"
+   },
+   "reason": "the phrase as Alma used it publicly at Ammonihah",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 13,
+     "verse": 22,
+     "w1": 27,
+     "w2": 31,
+     "quote": "glad tidings of great joy;",
+     "verse_text": "Yea, and the voice of the Lord, by the mouth of angels, doth declare it unto all nations; yea, doth declare it, that they may have glad tidings of great joy; yea, and he doth sound these glad tidings among all his people, yea, even to them that are scattered abroad upon the face of the earth; wherefore they have come unto us.",
+     "markdown": "Yea, and the voice of the Lord, by the mouth of angels, doth declare it unto all nations; yea, doth declare it, that they may have **glad tidings of great joy**; yea, and he doth sound these glad tidings among all his people, yea, even to them that are scattered abroad upon the face of the earth; wherefore they have come unto us.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al39-005",
+   "scope": "BOM",
+   "head": "Jacob 7:19",
+   "anchor": {
+    "verse": 6,
+    "w1": 25,
+    "w2": 31,
+    "quote": "this is a sin which is unpardonable"
+   },
+   "reason": "Sherem fearing he has committed it, in the record’s only other use",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 7,
+     "verse": 19,
+     "w1": 4,
+     "w2": 12,
+     "quote": "I fear lest I have committed the unpardonable sin,",
+     "verse_text": "And he said: I fear lest I have committed the unpardonable sin, for I have lied unto God; for I denied the Christ, and said that I believed the scriptures; and they truly testify of him. And because I have thus lied unto God I greatly fear lest my case shall be awful; but I confess unto God.",
+     "markdown": "And he said: **I fear lest I have committed the unpardonable sin**, for I have lied unto God; for I denied the Christ, and said that I believed the scriptures; and they truly testify of him. And because I have thus lied unto God I greatly fear lest my case shall be awful; but I confess unto God.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al39-006",
+   "scope": "BOM",
+   "head": "Mosiah 17:10",
+   "anchor": {
+    "verse": 5,
+    "w1": 27,
+    "w2": 31,
+    "quote": "the shedding of innocent blood"
+   },
+   "reason": "Abinadi naming the same crime as his killers commit it",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 17,
+     "verse": 10,
+     "w1": 30,
+     "w2": 34,
+     "quote": "ye will shed innocent blood,",
+     "verse_text": "Yea, and I will suffer even until death, and I will not recall my words, and they shall stand as a testimony against you. And if ye slay me ye will shed innocent blood, and this shall also stand as a testimony against you at the last day.",
+     "markdown": "Yea, and I will suffer even until death, and I will not recall my words, and they shall stand as a testimony against you. And if ye slay me **ye will shed innocent blood**, and this shall also stand as a testimony against you at the last day.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al39-007",
+   "scope": "SW",
+   "head": "Matt. 12:31",
+   "anchor": {
+    "verse": 6,
+    "w1": 3,
+    "w2": 16,
+    "quote": "if ye deny the Holy Ghost when it once has had place in you"
+   },
+   "reason": "the sin defined in the same terms by Christ",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 12,
+     "verse": 31,
+     "w1": 18,
+     "w2": 27,
+     "quote": "the blasphemy against the Holy Ghost shall not be forgiven",
+     "verse_text": "Wherefore I say unto you, All manner of sin and blasphemy shall be forgiven unto men: but the blasphemy against the Holy Ghost shall not be forgiven unto men.",
+     "markdown": "Wherefore I say unto you, All manner of sin and blasphemy shall be forgiven unto men: but **the blasphemy against the Holy Ghost shall not be forgiven** unto men.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al39-008",
+   "scope": "SW",
+   "head": "Rom. 10:15",
+   "anchor": {
+    "verse": 15,
+    "w1": 40,
+    "w2": 48,
+    "quote": "to declare glad tidings of salvation unto his people"
+   },
+   "reason": "Paul on the feet of those who bring it",
+   "targets": [
+    {
+     "ref": "Rom.",
+     "chapter": 10,
+     "verse": 15,
+     "w1": 28,
+     "w2": 33,
+     "quote": "bring glad tidings of good things!",
+     "verse_text": "And how shall they preach, except they be sent? as it is written, How beautiful are the feet of them that preach the gospel of peace, and bring glad tidings of good things!",
+     "markdown": "And how shall they preach, except they be sent? as it is written, How beautiful are the feet of them that preach the gospel of peace, and **bring glad tidings of good things**!",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al39-009",
+   "scope": "SW",
+   "head": "1 Cor. 6:15",
+   "anchor": {
+    "verse": 3,
+    "w1": 38,
+    "w2": 41,
+    "quote": "after the harlot Isabel"
+   },
+   "reason": "Paul on what the word costs a body that belongs to Christ",
+   "targets": [
+    {
+     "ref": "1 Cor.",
+     "chapter": 6,
+     "verse": 15,
+     "w1": 21,
+     "w2": 27,
+     "quote": "make them the members of an harlot?",
+     "verse_text": "Know ye not that your bodies are the members of Christ? shall I then take the members of Christ, and make them the members of an harlot? God forbid.",
+     "markdown": "Know ye not that your bodies are the members of Christ? shall I then take the members of Christ, and **make them the members of an harlot**? God forbid.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 26,
+   "w2": 30,
+   "quote": "the steadiness of thy brother",
+   "entries": [
+    "al39-001"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 16,
+   "w2": 21,
+   "quote": "among the people of the Zoramites",
+   "entries": [
+    "al39-002"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 38,
+   "w2": 41,
+   "quote": "after the harlot Isabel",
+   "entries": [
+    "al39-009"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 27,
+   "w2": 31,
+   "quote": "the shedding of innocent blood",
+   "entries": [
+    "al39-006"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 3,
+   "w2": 16,
+   "quote": "if ye deny the Holy Ghost when it once has had place in you",
+   "entries": [
+    "al39-007"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 25,
+   "w2": 31,
+   "quote": "this is a sin which is unpardonable",
+   "entries": [
+    "al39-005"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 40,
+   "w2": 48,
+   "quote": "to declare glad tidings of salvation unto his people",
+   "entries": [
+    "al39-004",
+    "al39-008"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 13,
+   "w2": 23,
+   "quote": "you marvel why these things should be known so long beforehand",
+   "entries": [
+    "al39-003"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "4e523d506e129871"
+ }
+}

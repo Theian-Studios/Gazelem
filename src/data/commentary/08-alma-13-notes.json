@@ -1,0 +1,763 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 13,
+  "volume_order": "08",
+  "speakers": [
+   "Alma"
+  ],
+  "audience": "The people of Ammonihah",
+  "location": "The city of Ammonihah",
+  "date": "~82 BC",
+  "unit": "Alma's preaching circuit (Alma 5–16)",
+  "principles": [
+   "Calling",
+   "Melchizedek",
+   "The urgency of now"
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The sermon has not changed subject",
+   "text": "Verse 1 says \"I would cite your minds forward\" and picks up the commandments of the last chapter. Rest, hardened hearts and the plan of redemption all carry over. What is new is that Alma now explains who was appointed to teach the thing he has been teaching, and on what basis."
+  },
+  {
+   "n": 2,
+   "title": "Melchizedek was thin in the record they had",
+   "text": "Genesis gives him three verses and no biography. Alma supplies a reign, a wicked people, a preaching of repentance, a general repentance and the establishing of peace, and says of him that \"none were greater\" (v. 19). The brass plates evidently carried more of him than the Genesis that survived.",
+   "cites": [
+    {
+     "quote": "none were greater",
+     "verse": 19,
+     "start": 189,
+     "end": 216,
+     "spans": [
+      {
+       "w1": 14,
+       "w2": 16,
+       "text": "none were greater"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Tithes are cited as the known fact",
+   "text": "Verse 15 offers Abraham's payment as the detail the hearers already have, and it is the one part of the Melchizedek story Genesis does keep. Alma builds the unfamiliar on the familiar."
+  },
+  {
+   "n": 4,
+   "title": "Salem was a city that repented",
+   "text": "This matters where it is being said. Alma is describing a wicked city whose people turned, standing in a wicked city that has about a year left. The parallel is offered without being pointed at."
+  },
+  {
+   "n": 5,
+   "title": "The chapter answers a question about fairness",
+   "text": "Verses 3 through 5 insist that those called were \"on the same standing with their brethren\" (v. 5) and were left in the first place to choose good or evil. Ordination is being explained to people who have just accused Alma of claiming authority he had no right to.",
+   "cites": [
+    {
+     "quote": "on the same standing with their brethren",
+     "verse": 5,
+     "start": 49,
+     "end": 98,
+     "spans": [
+      {
+       "w1": 10,
+       "w2": 16,
+       "text": "on the same standing with their brethren"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Angels are said to be at work right now",
+   "text": "Verse 24 claims angels are declaring the coming of Christ in their own land at that moment. Amulek had one. Alma had one. The claim is offered as ordinary current events."
+  },
+  {
+   "n": 7,
+   "title": "The record notes what it did not keep",
+   "text": "Verse 31 says Alma spoke many more words that are not written. Two chapters earlier the same note closed Amulek's testimony. The book is repeatedly telling the reader that it is a selection."
+  }
+ ],
+ "words": [
+  {
+   "term": "Foreknowledge",
+   "verse_label": "v. 3",
+   "text": "Knowing beforehand. The word appears twice in this record and both times in this chapter, tying the calling of priests to what God knew before the world was. The King James Bible has it twice as well, once of Christ delivered by the determinate counsel and foreknowledge of God, and once of the elect. Alma is using a term the New Testament would later use for the same difficulty, and using it while insisting in the same breath that the men involved chose."
+  },
+  {
+   "term": "Abhorrence",
+   "verse_label": "v. 12",
+   "text": "Loathing, a recoil at something disgusting. It occurs twice in this record and never in the King James Bible. The sanctified \"could not look upon sin save it were with abhorrence\" (v. 12). What it describes is a changed reflex. The claim is about what purity does to the sense of taste.",
+   "cites": [
+    {
+     "quote": "could not look upon sin save it were with abhorrence",
+     "verse": 12,
+     "start": 125,
+     "end": 187,
+     "spans": [
+      {
+       "w1": 21,
+       "w2": 30,
+       "text": "could not look upon sin save it were with abhorrence"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Tithes",
+   "verse_label": "v. 15",
+   "text": "A tenth part, paid. Alma gives the amount and the payer without explaining the practice, because Genesis already told his hearers that Abraham paid them to this same man. The verse works as a citation: the one fact about Melchizedek the reader can check."
+  },
+  {
+   "term": "Type",
+   "verse_label": "v. 16",
+   "text": "A pattern that points to something later. The ordinances were given so that people might look forward, \"it being a type of his order\" (v. 16), and Alma immediately corrects himself to say it is his order. The word lets him hold both at once: a resemblance and an identity.",
+   "cites": [
+    {
+     "quote": "it being a type of his order",
+     "verse": 16,
+     "start": 103,
+     "end": 141,
+     "spans": [
+      {
+       "w1": 21,
+       "w2": 27,
+       "text": "it being a type of his order"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Wrest",
+   "verse_label": "v. 20",
+   "text": "To twist, and in the King James Bible most often to twist a verdict. Exodus and Deuteronomy both forbid wresting judgment, and Peter uses it of the unlearned twisting scriptures to their own destruction. Alma says \"if ye will wrest them it shall be to your own destruction\" (v. 20), and he says it to a city run by men whose profession is bending judgments. The warning arrives in their own trade word.",
+   "cites": [
+    {
+     "quote": "if ye will wrest them it shall be to your own destruction",
+     "verse": 20,
+     "start": 214,
+     "end": 281,
+     "spans": [
+      {
+       "w1": 20,
+       "w2": 31,
+       "text": "if ye will wrest them it shall be to your own destruction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Procrastinate",
+   "verse_label": "v. 27",
+   "text": "To put off to tomorrow. Absent from the King James Bible, it enters this record here and returns once more, on Amulek's lips, twenty-one chapters later. Alma pairs it with the anxiety he says amounts to pain, so the word is doing emotional work as well as moral. The sin named is delay."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Called and prepared from the foundation of the world",
+   "verse_label": "v. 3",
+   "text": "The claim that sets up the whole chapter's difficulty. Preparation is placed before the world existed, and the next clause places a choice inside the same sentence. Alma does not resolve the tension. He states both halves and moves on."
+  },
+  {
+   "term": "In the first place being left to choose good or evil",
+   "verse_label": "v. 3",
+   "text": "The counterweight, supplied immediately. Whatever foreknowledge means here, it does not mean the men were spared the choosing. The phrase \"in the first place\" appears again two verses later, both times to insist that everyone started level."
+  },
+  {
+   "term": "They were on the same standing with their brethren",
+   "verse_label": "v. 5",
+   "text": "The fairness clause, and it is unusually direct. Nobody was given a head start. Those who were not called could have had \"as great privilege as their brethren\" (v. 4), and the verse names what intervened: hardness and blindness they chose.",
+   "cites": [
+    {
+     "quote": "as great privilege as their brethren",
+     "verse": 4,
+     "start": 121,
+     "end": 166,
+     "spans": [
+      {
+       "w1": 49,
+       "w2": 54,
+       "text": "as great privilege as their brethren"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Without beginning of days or end of years",
+   "verse_label": "v. 7",
+   "text": "The phrase Hebrews uses of Melchizedek, applied here to the order and not to the man. Alma will name Melchizedek eight verses later, so the borrowing is deliberate. What has no beginning in this account is an office."
+  },
+  {
+   "term": "Their garments were washed white through the blood of the Lamb",
+   "verse_label": "v. 11",
+   "text": "Washing white in blood is an image that ought not to work and does. It belongs to John's Revelation as well, and to Nephi before that. The sequence in the verse matters: called, then sanctified, then washed."
+  },
+  {
+   "term": "Could not look upon sin save it were with abhorrence",
+   "verse_label": "v. 12",
+   "text": "The chapter's description of holiness, phrased as an inability. These people are not resisting sin. They have lost the appetite. It is the most concrete thing said about sanctification anywhere in the sermon."
+  },
+  {
+   "term": "Bring forth fruit meet for repentance",
+   "verse_label": "v. 13",
+   "text": "John the Baptist's demand, which Alma already used in its other form four chapters ago. Here it arrives as an invitation, and it is attached to entering the rest that has been the sermon's goal since Alma 12."
+  },
+  {
+   "term": "Abraham paid tithes of one-tenth part of all he possessed",
+   "verse_label": "v. 15",
+   "text": "Alma explains his own citation, spelling out that tithes means a tenth. The care suggests hearers who knew the story and perhaps not the arithmetic, and it makes the verse the plainest statement of the principle in the record so far."
+  },
+  {
+   "term": "He was called the prince of peace",
+   "verse_label": "v. 18",
+   "text": "A title Isaiah gives to the Messiah, given here to a king who ended a war in his own city. Alma has spent the chapter saying the order points forward to the Son. The title does the same work in one phrase."
+  },
+  {
+   "term": "If ye will wrest them it shall be to your own destruction",
+   "verse_label": "v. 20",
+   "text": "The end of the doctrinal section, and the tone changes. Alma stops teaching and hands the scriptures over with a warning attached. The destruction is self-inflicted in the grammar as well as the doctrine."
+  },
+  {
+   "term": "Not procrastinate the day of your repentance",
+   "verse_label": "v. 27",
+   "text": "The turn from doctrine to appeal, and Alma prefaces it by naming what it costs him: anxiety unto pain, from the inmost part of his heart. The sermon's most urgent line is also its most personal."
+  },
+  {
+   "term": "Tempted above that which ye can bear",
+   "verse_label": "v. 28",
+   "text": "Paul's promise to the Corinthians in almost the same words, arriving here as an instruction about watching and praying. The Nephite version makes the limit conditional on the watching, which the letter does too and less obviously."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–5",
+   "start": 1,
+   "end": 5,
+   "title": "Ordination explained",
+   "text": "Priests ordained after the order of the Son, so that people would know how to look forward to him. Then the hard part: called and prepared from the foundation of the world, on account of faith and good works, having been left to choose, and having started level with everyone else."
+  },
+  {
+   "label": "v. 6–9",
+   "start": 6,
+   "end": 9,
+   "title": "The order itself",
+   "text": "Alma turns from the men to the office: high priesthood after the order of the Son, from the foundation of the world, without beginning or end, prepared from eternity to all eternity. The passage ends with a burst of praise and an Amen, in the middle of a sermon."
+  },
+  {
+   "label": "v. 10–13",
+   "start": 10,
+   "end": 13,
+   "title": "What it did to them",
+   "text": "Many were ordained, on account of faith and repentance and righteousness. They were sanctified, washed white, made pure, unable to look at sin without recoiling, and they entered into rest. Verse 13 turns the description into an invitation."
+  },
+  {
+   "label": "v. 14–19",
+   "start": 14,
+   "end": 19,
+   "title": "Melchizedek",
+   "text": "A high priest of the same order, to whom Abraham paid a tenth, king over a land whose people had all gone astray. He preached, they repented, he made peace, and they called him the prince of peace. None were greater, which is why he is the one remembered."
+  },
+  {
+   "label": "v. 20–22",
+   "start": 20,
+   "end": 22,
+   "title": "The handoff",
+   "text": "Alma stops rehearsing, points at the scriptures, warns against twisting them, then raises his voice and begins the appeal: now is the time, the day of salvation is near, and angels are declaring it to all nations."
+  },
+  {
+   "label": "v. 23–26",
+   "start": 23,
+   "end": 26,
+   "title": "Why we can be sure",
+   "text": "The message is given in plain terms so that hearers cannot err, and Alma explains the plainness by their condition as wanderers in a strange land. He wishes aloud that the coming might fall in his own lifetime and says he will rejoice either way."
+  },
+  {
+   "label": "v. 27–31",
+   "start": 27,
+   "end": 31,
+   "title": "The appeal, and what was left out",
+   "text": "Anxiety unto pain, cast off your sins, do not put it off, watch and pray, be humble and meek and patient, have faith and hope and love, be lifted up at the last day. Then Mormon notes that much more was said and is not here."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The doctrine of calling is offered to people who denied Alma's",
+   "text": "Ammonihah's first objection was authority. Rather than assert his own, Alma explains where any of it comes from, and the explanation insists that everyone started on the same footing."
+  },
+  {
+   "n": 2,
+   "title": "Foreknowledge and choice are held together without resolution",
+   "text": "Verse 3 puts preparation before the world and the choosing of good or evil in the same sentence. The chapter never explains how both are true. It refuses to drop either."
+  },
+  {
+   "n": 3,
+   "title": "The order matters more than the men",
+   "text": "Alma moves from the priests to the priesthood in verse 6 and stays there for four verses. What is eternal in this account is the office and its pattern."
+  },
+  {
+   "n": 4,
+   "title": "Sanctification is described as changed appetite",
+   "text": "Not stricter obedience and not a status conferred. The sanctified cannot look at sin without recoiling, which is a claim about desire."
+  },
+  {
+   "n": 5,
+   "title": "Melchizedek is expanded from three verses to six",
+   "text": "The record fills in a figure Genesis barely sketches, and what it fills in is a wicked city that repented under one man's preaching. Alma is standing in a wicked city preaching."
+  },
+  {
+   "n": 6,
+   "title": "The tone breaks at verse 20",
+   "text": "Everything before it is exposition. Everything after is voice raised, hand stretched out, and a man naming his own pain. The chapter is built to arrive at the appeal."
+  },
+  {
+   "n": 7,
+   "title": "The urgency has no date",
+   "text": "Alma says the time comes, we know not how soon, and hopes aloud it will be in his day. The pressure in the sermon comes from the hearers' own mortality."
+  },
+  {
+   "n": 8,
+   "title": "The chapter closes on a gap",
+   "text": "Many more words, not written. The record keeps admitting how much it is leaving out, and it does so at the end of its densest teaching on the priesthood."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Explain the office instead of defending yourself",
+    "verse_label": "v. 3–5",
+    "text": "Accused of overreach, Alma taught where authority comes from and insisted nobody was favored. When your standing is questioned, try describing the thing itself rather than your claim on it."
+   },
+   {
+    "title": "Measure holiness by what repels you",
+    "verse_label": "v. 12",
+    "text": "The chapter's test is appetite. Notice what you have stopped being able to enjoy over the last few years, and what you have started tolerating. Both directions tell you something."
+   },
+   {
+    "title": "Name the cost of saying the hard thing",
+    "verse_label": "v. 27",
+    "text": "Alma tells them the appeal comes with anxiety unto pain from the inmost part of his heart. When you have to say something difficult to someone, saying what it costs you is not weakness and it is usually heard."
+   },
+   {
+    "title": "Do the checkable part carefully",
+    "verse_label": "v. 15",
+    "text": "Alma explains that tithes means a tenth, to hearers who probably knew. Where you are making a large claim, make the small verifiable piece unmistakably clear. It is what buys the rest."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What have I been given that I did not earn, and does knowing that change how I hold it?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "Where have I told myself someone else had advantages I lacked, and what would the same story look like told level?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "What could I once look at without flinching that I cannot now, and what is the reverse?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "What would humbling myself actually consist of this week, in an action someone could observe?"
+   },
+   {
+    "verse_label": "v. 20",
+    "start": 20,
+    "end": 20,
+    "text": "Which passage have I bent to fit a conclusion I had already reached?"
+   },
+   {
+    "verse_label": "v. 27",
+    "start": 27,
+    "end": 27,
+    "text": "What am I putting off that I have already decided is right?"
+   },
+   {
+    "verse_label": "v. 28",
+    "start": 28,
+    "end": 28,
+    "text": "What am I watching and praying about continually, and what am I only remembering when it goes wrong?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al13-001",
+   "scope": "BOOK",
+   "head": "Alma 12:37",
+   "anchor": {
+    "verse": 13,
+    "w1": 21,
+    "w2": 28,
+    "quote": "that ye may also enter into that rest"
+   },
+   "reason": "the rest, still the goal",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 12,
+     "verse": 37,
+     "w1": 49,
+     "w2": 56,
+     "quote": "let us enter into the rest of God,",
+     "verse_text": "And now, my brethren, seeing we know these things, and they are true, let us repent, and harden not our hearts, that we provoke not the Lord our God to pull down his wrath upon us in these his second commandments which he has given unto us; but let us enter into the rest of God, which is prepared according to his word.",
+     "markdown": "And now, my brethren, seeing we know these things, and they are true, let us repent, and harden not our hearts, that we provoke not the Lord our God to pull down his wrath upon us in these his second commandments which he has given unto us; but **let us enter into the rest of God**, which is prepared according to his word.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al13-002",
+   "scope": "BOOK",
+   "head": "Alma 34:33",
+   "anchor": {
+    "verse": 27,
+    "w1": 34,
+    "w2": 40,
+    "quote": "not procrastinate the day of your repentance"
+   },
+   "reason": "the same warning, from Amulek",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 34,
+     "verse": 33,
+     "w1": 23,
+     "w2": 30,
+     "quote": "do not procrastinate the day of your repentance",
+     "verse_text": "And now, as I said unto you before, as ye have had so many witnesses, therefore, I beseech of you that ye do not procrastinate the day of your repentance until the end; for after this day of life, which is given us to prepare for eternity, behold, if we do not improve our time while in this life, then cometh the night of darkness wherein there can be no labor performed.",
+     "markdown": "And now, as I said unto you before, as ye have had so many witnesses, therefore, I beseech of you that ye **do not procrastinate the day of your repentance** until the end; for after this day of life, which is given us to prepare for eternity, behold, if we do not improve our time while in this life, then cometh the night of darkness wherein there can be no labor performed.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al13-003",
+   "scope": "BOOK",
+   "head": "Alma 27:28",
+   "anchor": {
+    "verse": 12,
+    "w1": 21,
+    "w2": 30,
+    "quote": "could not look upon sin save it were with abhorrence"
+   },
+   "reason": "the same recoil, in converts",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 27,
+     "verse": 28,
+     "w1": 2,
+     "w2": 15,
+     "quote": "they did look upon shedding the blood of their brethren with the greatest abhorrence;",
+     "verse_text": "And they did look upon shedding the blood of their brethren with the greatest abhorrence; and they never could be prevailed upon to take up arms against their brethren; and they never did look upon death with any degree of terror, for their hope and views of Christ and the resurrection; therefore, death was swallowed up to them by the victory of Christ over it.",
+     "markdown": "And **they did look upon shedding the blood of their brethren with the greatest abhorrence**; and they never could be prevailed upon to take up arms against their brethren; and they never did look upon death with any degree of terror, for their hope and views of Christ and the resurrection; therefore, death was swallowed up to them by the victory of Christ over it.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al13-004",
+   "scope": "SW",
+   "head": "Acts 2:23",
+   "anchor": {
+    "verse": 3,
+    "w1": 20,
+    "w2": 25,
+    "quote": "according to the foreknowledge of God"
+   },
+   "reason": "the word used of Christ delivered",
+   "targets": [
+    {
+     "ref": "Acts",
+     "chapter": 2,
+     "verse": 23,
+     "w1": 5,
+     "w2": 11,
+     "quote": "the determinate counsel and foreknowledge of God,",
+     "verse_text": "Him, being delivered by the determinate counsel and foreknowledge of God, ye have taken, and by wicked hands have crucified and slain:",
+     "markdown": "Him, being delivered by **the determinate counsel and foreknowledge of God**, ye have taken, and by wicked hands have crucified and slain:",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al13-005",
+   "scope": "SW",
+   "head": "Heb. 7:3",
+   "anchor": {
+    "verse": 7,
+    "w1": 25,
+    "w2": 32,
+    "quote": "without beginning of days or end of years"
+   },
+   "reason": "the same phrase, of Melchizedek",
+   "targets": [
+    {
+     "ref": "Heb.",
+     "chapter": 7,
+     "verse": 3,
+     "w1": 7,
+     "w2": 15,
+     "quote": "having neither beginning of days, nor end of life;",
+     "verse_text": "Without father, without mother, without descent, having neither beginning of days, nor end of life; but made like unto the Son of God; abideth a priest continually.",
+     "markdown": "Without father, without mother, without descent, **having neither beginning of days, nor end of life**; but made like unto the Son of God; abideth a priest continually.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al13-006",
+   "scope": "SW",
+   "head": "Rev. 7:14",
+   "anchor": {
+    "verse": 11,
+    "w1": 13,
+    "w2": 23,
+    "quote": "their garments were washed white through the blood of the Lamb"
+   },
+   "reason": "white in blood, the same image",
+   "targets": [
+    {
+     "ref": "Rev.",
+     "chapter": 7,
+     "verse": 14,
+     "w1": 29,
+     "w2": 37,
+     "quote": "made them white in the blood of the Lamb.",
+     "verse_text": "And I said unto him, Sir, thou knowest. And he said to me, These are they which came out of great tribulation, and have washed their robes, and made them white in the blood of the Lamb.",
+     "markdown": "And I said unto him, Sir, thou knowest. And he said to me, These are they which came out of great tribulation, and have washed their robes, and **made them white in the blood of the Lamb**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al13-007",
+   "scope": "SW",
+   "head": "Gen. 14:20",
+   "anchor": {
+    "verse": 15,
+    "w1": 16,
+    "w2": 25,
+    "quote": "Abraham paid tithes of one-tenth part of all he possessed"
+   },
+   "reason": "the one detail Genesis keeps",
+   "targets": [
+    {
+     "ref": "Gen.",
+     "chapter": 14,
+     "verse": 20,
+     "w1": 17,
+     "w2": 22,
+     "quote": "he gave him tithes of all.",
+     "verse_text": "And blessed be the most high God, which hath delivered thine enemies into thy hand. And he gave him tithes of all.",
+     "markdown": "And blessed be the most high God, which hath delivered thine enemies into thy hand. And **he gave him tithes of all**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al13-008",
+   "scope": "SW",
+   "head": "Isa. 9:6",
+   "anchor": {
+    "verse": 18,
+    "w1": 45,
+    "w2": 51,
+    "quote": "he was called the prince of peace"
+   },
+   "reason": "the Messiah’s title, given to a king",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 9,
+     "verse": 6,
+     "w1": 36,
+     "w2": 39,
+     "quote": "The Prince of Peace.",
+     "verse_text": "For unto us a child is born, unto us a son is given: and the government shall be upon his shoulder: and his name shall be called Wonderful, Counsellor, The mighty God, The everlasting Father, The Prince of Peace.",
+     "markdown": "For unto us a child is born, unto us a son is given: and the government shall be upon his shoulder: and his name shall be called Wonderful, Counsellor, The mighty God, The everlasting Father, **The Prince of Peace**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al13-009",
+   "scope": "SW",
+   "head": "2 Pet. 3:16",
+   "anchor": {
+    "verse": 20,
+    "w1": 20,
+    "w2": 31,
+    "quote": "if ye will wrest them it shall be to your own destruction"
+   },
+   "reason": "twisting scripture, same result",
+   "targets": [
+    {
+     "ref": "2 Pet.",
+     "chapter": 3,
+     "verse": 16,
+     "w1": 29,
+     "w2": 36,
+     "quote": "wrest, as they do also the other scriptures,",
+     "verse_text": "As also in all his epistles, speaking in them of these things; in which are some things hard to be understood, which they that are unlearned and unstable wrest, as they do also the other scriptures, unto their own destruction.",
+     "markdown": "As also in all his epistles, speaking in them of these things; in which are some things hard to be understood, which they that are unlearned and unstable **wrest, as they do also the other scriptures**, unto their own destruction.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al13-010",
+   "scope": "SW",
+   "head": "1 Cor. 10:13",
+   "anchor": {
+    "verse": 28,
+    "w1": 26,
+    "w2": 32,
+    "quote": "tempted above that which ye can bear"
+   },
+   "reason": "the same limit, promised",
+   "targets": [
+    {
+     "ref": "1 Cor.",
+     "chapter": 10,
+     "verse": 13,
+     "w1": 19,
+     "w2": 30,
+     "quote": "will not suffer you to be tempted above that ye are able;",
+     "verse_text": "There hath no temptation taken you but such as is common to man: but God is faithful, who will not suffer you to be tempted above that ye are able; but will with the temptation also make a way to escape, that ye may be able to bear it.",
+     "markdown": "There hath no temptation taken you but such as is common to man: but God is faithful, who **will not suffer you to be tempted above that ye are able**; but will with the temptation also make a way to escape, that ye may be able to bear it.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 3,
+   "w1": 20,
+   "w2": 25,
+   "quote": "according to the foreknowledge of God",
+   "entries": [
+    "al13-004"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 25,
+   "w2": 32,
+   "quote": "without beginning of days or end of years",
+   "entries": [
+    "al13-005"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 13,
+   "w2": 23,
+   "quote": "their garments were washed white through the blood of the Lamb",
+   "entries": [
+    "al13-006"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 21,
+   "w2": 30,
+   "quote": "could not look upon sin save it were with abhorrence",
+   "entries": [
+    "al13-003"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 21,
+   "w2": 28,
+   "quote": "that ye may also enter into that rest",
+   "entries": [
+    "al13-001"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 16,
+   "w2": 25,
+   "quote": "Abraham paid tithes of one-tenth part of all he possessed",
+   "entries": [
+    "al13-007"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 45,
+   "w2": 51,
+   "quote": "he was called the prince of peace",
+   "entries": [
+    "al13-008"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 20,
+   "w2": 31,
+   "quote": "if ye will wrest them it shall be to your own destruction",
+   "entries": [
+    "al13-009"
+   ]
+  },
+  {
+   "verse": 27,
+   "w1": 34,
+   "w2": 40,
+   "quote": "not procrastinate the day of your repentance",
+   "entries": [
+    "al13-002"
+   ]
+  },
+  {
+   "verse": 28,
+   "w1": 26,
+   "w2": 32,
+   "quote": "tempted above that which ye can bear",
+   "entries": [
+    "al13-010"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "c8fe6bc215dd4c26"
+ }
+}

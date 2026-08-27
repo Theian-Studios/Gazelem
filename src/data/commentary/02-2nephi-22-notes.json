@@ -34,7 +34,7 @@
   {
    "n": 3,
    "title": "Verbs for a public square",
-   "text": "Praise, call, declare, make mention, sing, cry out, shout. Nothing in the chapter is done quietly and nothing is done alone after verse 3. The instruction is not to feel grateful but to make noise where other people can hear it."
+   "text": "Praise, call, declare, make mention, sing, cry out, shout. Nothing in the chapter is done quietly and nothing is done alone after verse 3. The instruction is to make noise where other people can hear it."
   },
   {
    "n": 4,
@@ -44,36 +44,168 @@
   {
    "n": 5,
    "title": "Water you have to go get",
-   "text": "Wells in a dry country are not springs; someone walks to them with a jar and hauls. Verse 3 puts joy on the action rather than on the arrival, which for a colony that had crossed a desert and an ocean to reach a promised land would not have read as decoration."
+   "text": "Wells in a dry country are not springs; someone walks to them with a jar and hauls. Verse 3 puts joy on the action, which for a colony that had crossed a desert and an ocean to reach a promised land would not have read as decoration."
   },
   {
    "n": 6,
    "title": "Almost exact, again",
-   "text": "As with the chapter before it, the differences from the King James text amount to one word. Two chapters running, the record's Isaiah and the Bible's Isaiah are effectively the same text, which is a fact worth holding beside the chapters where they are not."
+   "text": "As with the chapter before it, the differences from the King James text amount to one word. Two chapters running, the record's Isaiah and the Bible's Isaiah are effectively the same text, a fact worth holding beside the chapters where they are not."
   }
  ],
  "words": [
   {
-   "term": "comfortedst",
+   "term": "Comfortedst",
    "verse_label": "v. 1",
    "text": "An old second-person past form: you comforted me. The awkwardness of the ending is worth keeping, because it puts the whole clause in the mouth of someone speaking directly to God rather than about him. The verse's three verbs are all addressed the same way, praise, wast angry, comfortedst, and the middle one is not softened."
   },
   {
-   "term": "excellent",
+   "term": "Salvation",
+   "verse_label": "v. 2",
+   "text": "The word lands three times in three verses and is a different kind of thing each time. First it is a title: \"God is my salvation\" (v. 2). Then it is something that has already happened, since he \"has become my salvation\" (v. 2). By the next verse it is a place with water in it. The song never argues for salvation. It keeps naming it until the word has been a person, a history, and a supply.",
+   "cites": [
+    {
+     "quote": "God is my salvation",
+     "verse": 2,
+     "start": 108,
+     "end": 136,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 5,
+       "text": "God is my salvation"
+      }
+     ]
+    },
+    {
+     "quote": "has become my salvation",
+     "verse": 2,
+     "start": 195,
+     "end": 227,
+     "spans": [
+      {
+       "w1": 25,
+       "w2": 28,
+       "text": "has become my salvation"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Exalted",
+   "verse_label": "v. 4",
+   "text": "\"Make mention that his name is exalted\" (v. 4): to be exalted is to be lifted high, and the block has spent thirteen chapters on who gets lifted. Its opening has a mountain exalted above the hills (2 Ne. 12:2); the lofty looks of men are brought down so that \"the Lord alone shall be exalted\" (2 Ne. 12:11); and the fallen star two chapters ahead is quoted saying \"I will exalt my throne above the stars of God\" (2 Ne. 24:13). Here the contest is over and the outcome is handed to the people as news to carry: the exalting is done, and their part is to mention it.",
+   "cites": [
+    {
+     "quote": "Make mention that his name is exalted",
+     "verse": 4,
+     "start": 0,
+     "end": 46,
+     "spans": [
+      {
+       "w1": 21,
+       "w2": 27,
+       "text": "Make mention that his name is exalted"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 12:2",
+     "start": 198,
+     "end": 208,
+     "book": "2 Ne",
+     "chapter": 12,
+     "verse_start": 2,
+     "verse_end": 2
+    },
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 12:11",
+     "start": 294,
+     "end": 305,
+     "book": "2 Ne",
+     "chapter": 12,
+     "verse_start": 11,
+     "verse_end": 11
+    },
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 24:13",
+     "start": 413,
+     "end": 424,
+     "book": "2 Ne",
+     "chapter": 24,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
+  },
+  {
+   "term": "Excellent",
    "verse_label": "v. 5",
    "text": "In older usage, surpassing, higher than the rest, closer to exalted than to very good. It describes what the Lord has done rather than how well he did it. The next clause says the result is known in all the earth, so the word is measuring reach as much as quality."
+  },
+  {
+   "term": "Cry",
+   "verse_label": "v. 6",
+   "text": "Crying has mostly been the sound of trouble in this block: the cry God found when he looked for righteousness in the vineyard (2 Ne. 15:7), beasts crying in emptied houses (2 Ne. 23:22), a city told to howl (2 Ne. 24:31). The exception is the throne room, where the seraphim cried holiness to one another (2 Ne. 16:3). Zion is told here to make that second kind of noise. The verb has not changed, only the occasion for it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 15:7",
+     "start": 127,
+     "end": 137,
+     "book": "2 Ne",
+     "chapter": 15,
+     "verse_start": 7,
+     "verse_end": 7
+    },
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 23:22",
+     "start": 173,
+     "end": 184,
+     "book": "2 Ne",
+     "chapter": 23,
+     "verse_start": 22,
+     "verse_end": 22
+    },
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 24:31",
+     "start": 208,
+     "end": 219,
+     "book": "2 Ne",
+     "chapter": 24,
+     "verse_start": 31,
+     "verse_end": 31
+    },
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 16:3",
+     "start": 306,
+     "end": 316,
+     "book": "2 Ne",
+     "chapter": 16,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
   }
  ],
  "phrases": [
   {
-   "term": "thine anger is turned away",
+   "term": "Thine anger is turned away",
    "verse_label": "v. 1",
    "text": "The block has ended four sections with the opposite sentence: his anger is not turned away, and his hand is stretched out still. It tolls in the vineyard chapter, three times in chapter 19, and once more in chapter 20. Here, in the first line of the praise chapter, the refrain is finally reversed. Nephi copied every stroke of the bell and then this, and the arrangement does the work without a word of commentary."
   },
   {
-   "term": "the Lord Jehovah is my strength and my song",
+   "term": "The Lord Jehovah is my strength and my song",
    "verse_label": "v. 2",
-   "text": "The line comes from Israel's oldest song, sung at the sea after the escape from Egypt: \"The LORD is my strength and song, and he is become my salvation\" (Ex. 15:2). Isaiah hands a rescued people the words their ancestors used, and the record's one substantive difference here is a tense, \"he also has become my salvation\" (v. 2), a thing completed rather than occurring. The divine name is also left standing rather than replaced by a title, and it appears only twice in the whole record, here and on Moroni's last page, so a reader meets it in this verse and then not again for a thousand years of narrative.",
+   "text": "The line comes from Israel's oldest song, sung at the sea after the escape from Egypt: \"The LORD is my strength and song, and he is become my salvation\" (Ex. 15:2). Isaiah hands a rescued people the words their ancestors used, and the record's one substantive difference here is a tense, \"he also has become my salvation\" (v. 2), a thing completed rather than occurring. The divine name is also left standing, and it appears only twice in the whole record, here and on Moroni's last page, so a reader meets it in this verse and then not again for a thousand years of narrative.",
    "cites": [
     {
      "quote": "he also has become my salvation",
@@ -103,12 +235,12 @@
    ]
   },
   {
-   "term": "draw water out of the wells of salvation",
+   "term": "Draw water out of the wells of salvation",
    "verse_label": "v. 3",
    "text": "The chapter's one image, and it is a chore. Drawing water was daily, female, and heavy work in that world, and a well is a dug shaft rather than a spring, requiring a rope, a jar, and a walk. The verse attaches joy to the drawing rather than to the drinking, and the plural is not accidental: salvation is pictured as a source people go back to, which is a different promise from a fountain that comes to you."
   },
   {
-   "term": "declare his doings among the people",
+   "term": "Declare his doings among the people",
    "verse_label": "v. 4",
    "text": "The psalm gives nearly the same instruction in nearly the same order, \"call upon his name: make known his deeds among the people\" (Ps. 105:1). Both put declaring to others immediately after calling on God, with nothing in between. Praise in this tradition is not finished until somebody outside the room has heard about it.",
    "refs": [
@@ -125,12 +257,12 @@
    ]
   },
   {
-   "term": "this is known in all the earth",
+   "term": "This is known in all the earth",
    "verse_label": "v. 5",
-   "text": "The scope claim, and it is stated as a fact rather than a hope. What began as one person's thanksgiving in verse 1 has become, four verses later, common knowledge on the whole planet. The chapter's movement is entirely outward: private, congregational, then universal, in six verses."
+   "text": "The scope claim, and it is stated as a fact. What began as one person's thanksgiving in verse 1 has become, four verses later, common knowledge on the whole planet. The chapter's movement is entirely outward: private, congregational, then universal, in six verses."
   },
   {
-   "term": "great is the Holy One of Israel in the midst of thee",
+   "term": "Great is the Holy One of Israel in the midst of thee",
    "verse_label": "v. 6",
    "text": "The title Jacob used thirteen times in one sermon closes the block's first movement, and the preposition is the point: in the midst. Zephaniah promises the same presence in almost the same words, \"the king of Israel, even the LORD, is in the midst of thee\" (Zeph. 3:15). After six chapters in which God has been a rod, a fire, and a hidden face, the last word about him is proximity.",
    "refs": [
@@ -215,7 +347,7 @@
   {
    "n": 2,
    "title": "Praise is the block's rarest register",
-   "text": "Of thirteen chapters Nephi copied, this is the only one with no judgment in it at all. Its brevity is part of its function: six verses of thanksgiving against six chapters of warning is roughly the ratio Isaiah works in, and the record preserves the proportion rather than rebalancing it."
+   "text": "Of thirteen chapters Nephi copied, this is the only one with no judgment in it at all. Its brevity is part of its function: six verses of thanksgiving against six chapters of warning is roughly the ratio Isaiah works in, and the record preserves the proportion."
   },
   {
    "n": 3,
@@ -225,7 +357,7 @@
   {
    "n": 4,
    "title": "Old words for a new rescue",
-   "text": "The song at the sea, the psalm's instruction, Zephaniah's promise: this chapter is largely made of sentences Israel already had. Isaiah's contribution is the occasion rather than the wording, which is itself a claim about how deliverance works. It repeats."
+   "text": "The song at the sea, the psalm's instruction, Zephaniah's promise: this chapter is largely made of sentences Israel already had. Isaiah's contribution is the occasion, and that is itself a claim about how deliverance works. It repeats."
   },
   {
    "n": 5,
@@ -248,12 +380,12 @@
    {
     "title": "Borrow somebody else’s words",
     "verse_label": "v. 2",
-    "text": "Find a line from scripture, a hymn, or your own family's history that fit somebody else's rescue, and use it about yours this week, in their words rather than new ones. Isaiah's speaker did exactly that."
+    "text": "Find a line from scripture, a hymn, or your own family's history that fit somebody else's rescue, and use it about yours this week, in their words. Isaiah's speaker did exactly that."
    },
    {
     "title": "Go get the water",
     "verse_label": "v. 3",
-    "text": "Salvation in this chapter is drawn, not delivered. Name the specific thing you have been waiting to receive passively, and do the walking part of it once, on a set day, with the jar."
+    "text": "Salvation in this chapter is something you go and draw. Name the specific thing you have been waiting to receive passively, and do the walking part of it once, on a set day, with the jar."
    },
    {
     "title": "Declare one doing",
@@ -263,7 +395,7 @@
    {
     "title": "Notice the middle",
     "verse_label": "v. 6",
-    "text": "The reason for shouting is proximity, not outcome. Before asking for a change in your circumstances, spend one prayer entirely on the fact that he is in the midst, and see whether the request changes shape."
+    "text": "The reason for shouting is proximity. Before asking for a change in your circumstances, spend one prayer entirely on the fact that he is in the midst, and see whether the request changes shape."
    }
   ],
   "questions": [
@@ -324,7 +456,9 @@
      "verse": 4,
      "w1": 17,
      "w2": 32,
-     "quote": "For all this his anger is not turned away, but his hand is stretched out still",
+     "quote": "For all this his anger is not turned away, but his hand is stretched out still.",
+     "verse_text": "Without me they shall bow down under the prisoners, and they shall fall under the slain. For all this his anger is not turned away, but his hand is stretched out still.",
+     "markdown": "Without me they shall bow down under the prisoners, and they shall fall under the slain. **For all this his anger is not turned away, but his hand is stretched out still**.",
      "span": true
     }
    ],
@@ -348,7 +482,9 @@
      "verse": 25,
      "w1": 27,
      "w2": 31,
-     "quote": "the fountain of living waters",
+     "quote": "the fountain of living waters,",
+     "verse_text": "And it came to pass that I beheld that the rod of iron, which my father had seen, was the word of God, which led to the fountain of living waters, or to the tree of life; which waters are a representation of the love of God; and I also beheld that the tree of life was a representation of the love of God.",
+     "markdown": "And it came to pass that I beheld that the rod of iron, which my father had seen, was the word of God, which led to **the fountain of living waters**, or to the tree of life; which waters are a representation of the love of God; and I also beheld that the tree of life was a representation of the love of God.",
      "span": true
     }
    ],
@@ -372,7 +508,9 @@
      "verse": 1,
      "w1": 8,
      "w2": 13,
-     "quote": "O LORD, I will praise thee",
+     "quote": "O LORD, I will praise thee:",
+     "verse_text": "And in that day thou shalt say, O LORD, I will praise thee: though thou wast angry with me, thine anger is turned away, and thou comfortedst me.",
+     "markdown": "And in that day thou shalt say, **O LORD, I will praise thee**: though thou wast angry with me, thine anger is turned away, and thou comfortedst me.",
      "span": true
     }
    ],
@@ -396,7 +534,9 @@
      "verse": 2,
      "w1": 1,
      "w2": 13,
-     "quote": "The LORD is my strength and song, and he is become my salvation",
+     "quote": "The LORD is my strength and song, and he is become my salvation:",
+     "verse_text": "The LORD is my strength and song, and he is become my salvation: he is my God, and I will prepare him an habitation; my father's God, and I will exalt him.",
+     "markdown": "**The LORD is my strength and song, and he is become my salvation**: he is my God, and I will prepare him an habitation; my father's God, and I will exalt him.",
      "span": true
     }
    ],
@@ -420,7 +560,9 @@
      "verse": 1,
      "w1": 7,
      "w2": 17,
-     "quote": "call upon his name: make known his deeds among the people",
+     "quote": "call upon his name: make known his deeds among the people.",
+     "verse_text": "O give thanks unto the Lord; call upon his name: make known his deeds among the people.",
+     "markdown": "O give thanks unto the Lord; **call upon his name: make known his deeds among the people**.",
      "span": true
     }
    ],
@@ -444,7 +586,9 @@
      "verse": 15,
      "w1": 14,
      "w2": 26,
-     "quote": "the king of Israel, even the LORD, is in the midst of thee",
+     "quote": "the king of Israel, even the LORD, is in the midst of thee:",
+     "verse_text": "The LORD hath taken away thy judgments, he hath cast out thine enemy: the king of Israel, even the LORD, is in the midst of thee: thou shalt not see evil any more.",
+     "markdown": "The LORD hath taken away thy judgments, he hath cast out thine enemy: **the king of Israel, even the LORD, is in the midst of thee**: thou shalt not see evil any more.",
      "span": true
     }
    ],
@@ -508,7 +652,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-18",
-  "source_sha256": "8ba89515d61cc758"
+  "at": "2026-08-25",
+  "source_sha256": "9b61ad84fcd92266"
  }
 }

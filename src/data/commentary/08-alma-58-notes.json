@@ -1,0 +1,629 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 58,
+  "volume_order": "08",
+  "speakers": [
+   "Helaman, by letter"
+  ],
+  "audience": "Moroni, reading Helaman's epistle",
+  "location": "Manti and the southern border",
+  "date": "~63–62 BC",
+  "unit": "The war chapters (Alma 43–63)",
+  "principles": [
+   "A trick that no longer works",
+   "Reinforcements asked for and never sent",
+   ""
+  ],
+  "connections": 9,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The decoy fails because the enemy remembers",
+   "text": "Verse 1 says they could not lead the Lamanites out of Manti, because the Lamanites remembered what had been done before."
+  },
+  {
+   "n": 2,
+   "title": "Helaman sends to the governor and waits",
+   "text": "Verse 4 has him send an embassy to acquaint the governor with their situation. The reinforcements do not come."
+  },
+  {
+   "n": 3,
+   "title": "The Lamanites are being reinforced instead",
+   "text": "Verse 5 says they received great strength and provisions day by day, while the Nephites waited."
+  },
+  {
+   "n": 4,
+   "title": "Hunger nearly ends the campaign",
+   "text": "Verses 7 through 9 have the army reduced to danger of starvation, and Helaman describes praying for assurance rather than for supplies."
+  },
+  {
+   "n": 5,
+   "title": "Manti is taken by a triple maneuver",
+   "text": "Verses 16 through 28 have a small force decoy the garrison out, two hidden armies take the city, and the returning Lamanites find it held."
+  },
+  {
+   "n": 6,
+   "title": "Helaman names two possible explanations",
+   "text": "Verses 35 and 36 offer either that Moroni's own front is failing, or that a faction in the government is withholding men."
+  },
+  {
+   "n": 7,
+   "title": "He refuses to murmur",
+   "text": "Verse 35 says if the forces were drawn away for good reason, they do not desire to murmur, and verse 37 says it does not matter."
+  }
+ ],
+ "words": [
+  {
+   "term": "Acquaint",
+   "verse_label": "v. 4",
+   "text": "To inform, to make known. The word occurs once in this record and once in the King James Bible, where Job is told to acquaint himself with God and be at peace. Helaman uses it of a formal report to the governor."
+  },
+  {
+   "term": "Sallying",
+   "verse_label": "v. 6",
+   "text": "Rushing out from a fortified position. The word occurs once in scripture. Helaman uses it of Lamanite raids made from strongholds he cannot assault, which is the shape of the whole stalemate."
+  },
+  {
+   "term": "Murmur",
+   "verse_label": "v. 35",
+   "text": "Treated at 1 Nephi 2:11, of Laman and Lemuel against their father. The record uses it twenty-five times. Helaman names the thing he is declining to do, in the middle of a letter about not being supported."
+  },
+  {
+   "term": "Faction",
+   "verse_label": "v. 36",
+   "text": "A self-interested party inside a government. The word occurs once in scripture. Helaman raises it as one of two possibilities and does not assert it, which is the most careful sentence in the letter."
+  },
+  {
+   "term": "Statutes",
+   "verse_label": "v. 40",
+   "text": "Treated at Alma 25:14. Helaman applies it to the two thousand and sixty, keeping the commandments continually, in the verse that also reports their wounds.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 25:14",
+     "start": 11,
+     "end": 21,
+     "book": "Alma",
+     "chapter": 25,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
+  },
+  {
+   "term": "Redeemed",
+   "verse_label": "v. 41",
+   "text": "Bought back, set free. Helaman closes the letter by naming God as the one who has redeemed and made them free, which is the same word he has used of political liberty three verses earlier."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "There was no way that we could lead them out of the city by our small bands",
+   "verse_label": "v. 1",
+   "text": "The tactic that took Mulek and Cumeni stops working. Helaman gives the reason in the next sentence: they remembered what had been done to them."
+  },
+  {
+   "term": "They remembered that which we had hitherto done",
+   "verse_label": "v. 1",
+   "text": "The enemy learns. Mormon has been showing both sides adapting since Alma 43, and here a Nephite commander reports being adapted to."
+  },
+  {
+   "term": "I thus did send an embassy to the governor of our land, to acquaint him",
+   "verse_label": "v. 4",
+   "text": "The request that shapes the rest of the letter and all of Alma 59 through 61. Helaman asks properly and through channels, and nothing comes."
+  },
+  {
+   "term": "This did profit us but little",
+   "verse_label": "v. 5",
+   "text": "The waiting produced nothing while the enemy grew stronger. Helaman reports the failure of his own plan in five words."
+  },
+  {
+   "term": "We did pour out our souls in prayer to God, that he would strengthen us",
+   "verse_label": "v. 10",
+   "text": "What they asked for under threat of starvation. Verse 11 says God spoke peace to their souls and gave them faith and hope of deliverance. The answer came as assurance."
+  },
+  {
+   "term": "They did stand fast before the Lamanites",
+   "verse_label": "v. 13",
+   "text": "Helaman's report of his men after the assurance. The phrase returns in verse 40 of the two thousand and sixty standing fast in liberty."
+  },
+  {
+   "term": "We do not know the cause that the government does not grant us more strength",
+   "verse_label": "v. 34",
+   "text": "The complaint stated as ignorance. Helaman does not accuse; he says he does not know, and says the men who came up do not know either."
+  },
+  {
+   "term": "If so, we do not desire to murmur",
+   "verse_label": "v. 35",
+   "text": "The first explanation offered, and the refusal attached to it. If Moroni's front took the men, Helaman will not complain."
+  },
+  {
+   "term": "We fear that there is some faction in the government",
+   "verse_label": "v. 36",
+   "text": "The second explanation, given as a fear rather than a charge. Alma 61 will reveal that Helaman's fear was accurate."
+  },
+  {
+   "term": "But, behold, it mattereth not",
+   "verse_label": "v. 37",
+   "text": "Helaman drops the whole question. He has raised two possibilities, declined to choose, and moved to what he trusts God will do regardless."
+  },
+  {
+   "term": "They stand fast in that liberty wherewith God has made them free",
+   "verse_label": "v. 40",
+   "text": "Paul's sentence to the Galatians, applied to the two thousand and sixty. Helaman pairs it with their many wounds and their strictness in remembering God."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–6",
+   "start": 1,
+   "end": 6,
+   "title": "The stalemate",
+   "text": "Manti cannot be decoyed, because the Lamanites remember. They are too numerous to attack in their strongholds. Helaman sends an embassy to the governor and waits for strength and provisions, and the waiting profits little while the enemy grows."
+  },
+  {
+   "label": "v. 7–12",
+   "start": 7,
+   "end": 12,
+   "title": "Hunger and prayer",
+   "text": "The army is reduced almost to starvation. They pour out their souls in prayer for strength and deliverance. God speaks peace to their souls, grants faith and hope, and they take courage to conquer or die."
+  },
+  {
+   "label": "v. 13–15",
+   "start": 13,
+   "end": 15,
+   "title": "Provisions and men",
+   "text": "Two thousand men arrive from Zarahemla with provisions. The Lamanites take courage from their own reinforcements and prepare to attack. Helaman resolves to draw them out rather than wait."
+  },
+  {
+   "label": "v. 16–28",
+   "start": 16,
+   "end": 28,
+   "title": "Manti taken",
+   "text": "Gid and Teomner are hidden with two forces. Helaman marches near the city as bait; the Lamanites pursue with their whole army; the hidden forces take the city and cut off those left. The Nephites march by night to Zarahemla's road, the Lamanites follow and lose them, and Manti is held without bloodshed."
+  },
+  {
+   "label": "v. 29–33",
+   "start": 29,
+   "end": 33,
+   "title": "The quarter cleared",
+   "text": "The Lamanites flee the whole region, taking many women and children. Every captured city is recovered and families return home. The armies are small for so many cities, and Helaman says they trust God who gave them the victory."
+  },
+  {
+   "label": "v. 34–38",
+   "start": 34,
+   "end": 38,
+   "title": "The complaint",
+   "text": "They do not know why the government sends no more strength. Either Moroni's front took the men, in which case they will not murmur, or there is a faction withholding them. Helaman says it does not matter and trusts God for deliverance."
+  },
+  {
+   "label": "v. 39–41",
+   "start": 39,
+   "end": 41,
+   "title": "The close",
+   "text": "The sons of the people of Ammon are with him at Manti, kept from falling by the sword, not one slain, though wounded many times. They stand fast in liberty, remember God daily, keep his commandments, and believe the prophecies. He blesses Moroni and signs his name."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The war becomes a supply problem",
+   "text": "Three chapters of maneuver give way to waiting, hunger, and a request that goes unanswered. Helaman's account of it is the setup for Alma 59 through 62."
+  },
+  {
+   "n": 2,
+   "title": "The enemy has learned the trick",
+   "text": "Verse 1 says the decoy fails because they remember. Mormon has tracked both sides adapting since the armor of Alma 43, and here the adaptation costs the Nephites."
+  },
+  {
+   "n": 3,
+   "title": "The prayer is answered with assurance rather than supply",
+   "text": "They ask for strength and deliverance; God speaks peace and gives hope. Provisions arrive later and from Zarahemla."
+  },
+  {
+   "n": 4,
+   "title": "Manti falls without a battle",
+   "text": "The most elaborate operation in the letter ends with a city taken and an enemy that never engages. Helaman reports it as a night march and a lost pursuit."
+  },
+  {
+   "n": 5,
+   "title": "The complaint is carefully made",
+   "text": "Helaman says he does not know the cause, offers two possibilities, declines to murmur at the first, fears the second, and then sets the question aside."
+  },
+  {
+   "n": 6,
+   "title": "His fear turns out to be right",
+   "text": "Alma 61 will show a rebellion in Zarahemla that had taken the government. Helaman guessed correctly and refused to build on the guess."
+  },
+  {
+   "n": 7,
+   "title": "The young men are counted a third time",
+   "text": "Not one slain, many wounds. The record has reported it in Alma 56, 57, and now 58, each time after a different engagement."
+  },
+  {
+   "n": 8,
+   "title": "The letter closes on their character",
+   "text": "Standing fast, strict in remembering, keeping statutes, faith strong in the prophecies. The military report ends by describing what the soldiers believe."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Expect the trick to stop working",
+    "verse_label": "v. 1",
+    "text": "The decoy failed because the enemy remembered. What worked twice will be anticipated the third time, so plan for the version where it does not."
+   },
+   {
+    "title": "Ask through the proper channel and say you did",
+    "verse_label": "v. 4",
+    "text": "Helaman sent an embassy to the governor. When you need support, make the request formally, so that what happens next is a matter of record."
+   },
+   {
+    "title": "Name the possibilities without choosing one",
+    "verse_label": "v. 35–36",
+    "text": "Helaman gave two explanations for the silence and asserted neither. When you do not know why someone has failed you, saying so honestly is stronger than guessing."
+   },
+   {
+    "title": "Refuse to murmur, and say why",
+    "verse_label": "v. 35",
+    "text": "He declined to complain if the reason was good. Decide in advance which explanations for a disappointment would settle the matter for you."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What approach of mine has stopped working because people know it?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What have I asked for properly and never received?"
+   },
+   {
+    "verse_label": "v. 10",
+    "start": 10,
+    "end": 10,
+    "text": "When I prayed for something practical, what did I actually receive?"
+   },
+   {
+    "verse_label": "v. 34",
+    "start": 34,
+    "end": 34,
+    "text": "What do I not know the cause of, and am I willing to say so?"
+   },
+   {
+    "verse_label": "v. 36",
+    "start": 36,
+    "end": 36,
+    "text": "What do I fear about people who have not helped me?"
+   },
+   {
+    "verse_label": "v. 37",
+    "start": 37,
+    "end": 37,
+    "text": "What have I decided does not matter, and was that honest?"
+   },
+   {
+    "verse_label": "v. 40",
+    "start": 40,
+    "end": 40,
+    "text": "What liberty am I standing fast in?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al58-001",
+   "scope": "BOOK",
+   "head": "Alma 52:21",
+   "anchor": {
+    "verse": 1,
+    "w1": 49,
+    "w2": 57,
+    "quote": "we could not decoy them away from their strongholds"
+   },
+   "reason": "the decoy at Mulek, the trick the Lamanites now remember",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 52,
+     "verse": 21,
+     "w1": 18,
+     "w2": 28,
+     "quote": "he resolved upon a plan that he might decoy the Lamanites",
+     "verse_text": "And it came to pass that Moroni, having no hopes of meeting them upon fair grounds, therefore, he resolved upon a plan that he might decoy the Lamanites out of their strongholds.",
+     "markdown": "And it came to pass that Moroni, having no hopes of meeting them upon fair grounds, therefore, **he resolved upon a plan that he might decoy the Lamanites** out of their strongholds.",
+     "span": true
+    }
+   ],
+   "mirror": "al52-004"
+  },
+  {
+   "id": "al58-002",
+   "scope": "BOOK",
+   "head": "Alma 61:4",
+   "anchor": {
+    "verse": 36,
+    "w1": 11,
+    "w2": 17,
+    "quote": "there is some faction in the government"
+   },
+   "reason": "Pahoran confirming the fear, in his reply",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 61,
+     "verse": 4,
+     "w1": 4,
+     "w2": 12,
+     "quote": "those who have sought to take away the judgment-seat",
+     "verse_text": "And it is those who have sought to take away the judgment-seat from me that have been the cause of this great iniquity; for they have used great flattery, and they have led away the hearts of many people, which will be the cause of sore affliction among us; they have withheld our provisions, and have daunted our freemen that they have not come unto you.",
+     "markdown": "And it is **those who have sought to take away the judgment-seat** from me that have been the cause of this great iniquity; for they have used great flattery, and they have led away the hearts of many people, which will be the cause of sore affliction among us; they have withheld our provisions, and have daunted our freemen that they have not come unto you.",
+     "span": true
+    }
+   ],
+   "mirror": "al61-002"
+  },
+  {
+   "id": "al58-003",
+   "scope": "BOOK",
+   "head": "Alma 60:6",
+   "anchor": {
+    "verse": 34,
+    "w1": 9,
+    "w2": 16,
+    "quote": "the government does not grant us more strength"
+   },
+   "reason": "Moroni making the same complaint far less gently",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 60,
+     "verse": 6,
+     "w1": 4,
+     "w2": 14,
+     "quote": "we desire to know the cause of this exceedingly great neglect;",
+     "verse_text": "And now behold, we desire to know the cause of this exceedingly great neglect; yea, we desire to know the cause of your thoughtless state.",
+     "markdown": "And now behold, **we desire to know the cause of this exceedingly great neglect**; yea, we desire to know the cause of your thoughtless state.",
+     "span": true
+    }
+   ],
+   "mirror": "al60-003"
+  },
+  {
+   "id": "al58-004",
+   "scope": "BOOK",
+   "head": "Alma 57:22",
+   "anchor": {
+    "verse": 1,
+    "w1": 9,
+    "w2": 18,
+    "quote": "our next object was to obtain the city of Manti"
+   },
+   "reason": "the city Helaman could not take when Cumeni fell",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 57,
+     "verse": 22,
+     "w1": 37,
+     "w2": 45,
+     "quote": "they were driven back to the city of Manti.",
+     "verse_text": "And now behold, it was these my sons, and those men who had been selected to convey the prisoners, to whom we owe this great victory; for it was they who did beat the Lamanites; therefore they were driven back to the city of Manti.",
+     "markdown": "And now behold, it was these my sons, and those men who had been selected to convey the prisoners, to whom we owe this great victory; for it was they who did beat the Lamanites; therefore **they were driven back to the city of Manti**.",
+     "span": true
+    }
+   ],
+   "mirror": "al57-004"
+  },
+  {
+   "id": "al58-005",
+   "scope": "BOM",
+   "head": "1 Ne. 2:11",
+   "anchor": {
+    "verse": 35,
+    "w1": 26,
+    "w2": 31,
+    "quote": "we do not desire to murmur"
+   },
+   "reason": "the word treated in full, of Laman and Lemuel against Lehi",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 2,
+     "verse": 11,
+     "w1": 15,
+     "w2": 17,
+     "quote": "they did murmur",
+     "verse_text": "Now this he spake because of the stiffneckedness of Laman and Lemuel; for behold they did murmur in many things against their father, because he was a visionary man, and had led them out of the land of Jerusalem, to leave the land of their inheritance, and their gold, and their silver, and their precious things, to perish in the wilderness. And this they said he had done because of the foolish imaginations of his heart.",
+     "markdown": "Now this he spake because of the stiffneckedness of Laman and Lemuel; for behold **they did murmur** in many things against their father, because he was a visionary man, and had led them out of the land of Jerusalem, to leave the land of their inheritance, and their gold, and their silver, and their precious things, to perish in the wilderness. And this they said he had done because of the foolish imaginations of his heart.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al58-006",
+   "scope": "BOM",
+   "head": "Alma 46:12",
+   "anchor": {
+    "verse": 40,
+    "w1": 9,
+    "w2": 20,
+    "quote": "they stand fast in that liberty wherewith God has made them free"
+   },
+   "reason": "the liberty named on the title of liberty",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 46,
+     "verse": 12,
+     "w1": 25,
+     "w2": 28,
+     "quote": "our religion, and freedom,",
+     "verse_text": "And it came to pass that he rent his coat; and he took a piece thereof, and wrote upon it—In memory of our God, our religion, and freedom, and our peace, our wives, and our children—and he fastened it upon the end of a pole.",
+     "markdown": "And it came to pass that he rent his coat; and he took a piece thereof, and wrote upon it—In memory of our God, **our religion, and freedom**, and our peace, our wives, and our children—and he fastened it upon the end of a pole.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al58-007",
+   "scope": "SW",
+   "head": "Job 22:21",
+   "anchor": {
+    "verse": 4,
+    "w1": 19,
+    "w2": 27,
+    "quote": "to acquaint him concerning the affairs of our people"
+   },
+   "reason": "the King James Bible’s one use of the verb",
+   "targets": [
+    {
+     "ref": "Job",
+     "chapter": 22,
+     "verse": 21,
+     "w1": 1,
+     "w2": 9,
+     "quote": "Acquaint now thyself with him, and be at peace:",
+     "verse_text": "Acquaint now thyself with him, and be at peace: thereby good shall come unto thee.",
+     "markdown": "**Acquaint now thyself with him, and be at peace**: thereby good shall come unto thee.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al58-008",
+   "scope": "SW",
+   "head": "Gal. 5:1",
+   "anchor": {
+    "verse": 40,
+    "w1": 9,
+    "w2": 20,
+    "quote": "they stand fast in that liberty wherewith God has made them free"
+   },
+   "reason": "Paul’s sentence, in nearly the same words",
+   "targets": [
+    {
+     "ref": "Gal.",
+     "chapter": 5,
+     "verse": 1,
+     "w1": 1,
+     "w2": 12,
+     "quote": "Stand fast therefore in the liberty wherewith Christ hath made us free,",
+     "verse_text": "Stand fast therefore in the liberty wherewith Christ hath made us free, and be not entangled again with the yoke of bondage.",
+     "markdown": "**Stand fast therefore in the liberty wherewith Christ hath made us free**, and be not entangled again with the yoke of bondage.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al58-009",
+   "scope": "SW",
+   "head": "Ex. 16:8",
+   "anchor": {
+    "verse": 35,
+    "w1": 26,
+    "w2": 31,
+    "quote": "we do not desire to murmur"
+   },
+   "reason": "murmuring named as aimed at God rather than at men",
+   "targets": [
+    {
+     "ref": "Ex.",
+     "chapter": 16,
+     "verse": 8,
+     "w1": 43,
+     "w2": 52,
+     "quote": "your murmurings are not against us, but against the LORD.",
+     "verse_text": "And Moses said, This shall be, when the LORD shall give you in the evening flesh to eat, and in the morning bread to the full; for that the LORD heareth your murmurings which ye murmur against him: and what are we? your murmurings are not against us, but against the LORD.",
+     "markdown": "And Moses said, This shall be, when the LORD shall give you in the evening flesh to eat, and in the morning bread to the full; for that the LORD heareth your murmurings which ye murmur against him: and what are we? **your murmurings are not against us, but against the LORD**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 9,
+   "w2": 18,
+   "quote": "our next object was to obtain the city of Manti",
+   "entries": [
+    "al58-004"
+   ]
+  },
+  {
+   "verse": 1,
+   "w1": 49,
+   "w2": 57,
+   "quote": "we could not decoy them away from their strongholds",
+   "entries": [
+    "al58-001"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 19,
+   "w2": 27,
+   "quote": "to acquaint him concerning the affairs of our people",
+   "entries": [
+    "al58-007"
+   ]
+  },
+  {
+   "verse": 34,
+   "w1": 9,
+   "w2": 16,
+   "quote": "the government does not grant us more strength",
+   "entries": [
+    "al58-003"
+   ]
+  },
+  {
+   "verse": 35,
+   "w1": 26,
+   "w2": 31,
+   "quote": "we do not desire to murmur",
+   "entries": [
+    "al58-005",
+    "al58-009"
+   ]
+  },
+  {
+   "verse": 36,
+   "w1": 11,
+   "w2": 17,
+   "quote": "there is some faction in the government",
+   "entries": [
+    "al58-002"
+   ]
+  },
+  {
+   "verse": 40,
+   "w1": 9,
+   "w2": 20,
+   "quote": "they stand fast in that liberty wherewith God has made them free",
+   "entries": [
+    "al58-006",
+    "al58-008"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "ae446a4b99acca5c"
+ }
+}

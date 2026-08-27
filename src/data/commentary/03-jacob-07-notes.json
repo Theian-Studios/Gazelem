@@ -18,24 +18,24 @@
    "Signs",
    "A record's last words"
   ],
-  "connections": 10,
+  "connections": 11,
   "initial": false
  },
  "world_behind": [
   {
    "n": 1,
    "title": "The first named opponent in the record",
-   "text": "Everyone who has opposed the prophets so far has been a brother, a brother-in-law, or an unnamed crowd. Sherem arrives from outside the narrative with a name, a program, and a rhetorical method, and the text does not say where he came from — only that \"there came a man among the people of Nephi.\""
+   "text": "Everyone who has opposed the prophets so far has been a brother, a brother-in-law, or an unnamed crowd. Sherem arrives from outside the narrative with a name, a program, and a rhetorical method, and the text does not say where he came from, only that \"there came a man among the people of Nephi.\""
   },
   {
    "n": 2,
-   "title": "His argument is conservative, not skeptical",
+   "title": "His argument is conservative",
    "text": "Sherem does not attack the law of Moses; he defends it. The charge is that Jacob has perverted the right way by converting the law into worship of a being who has not come. That is a real objection with a real shape, and it is the objection a strict Mosaic observer would make."
   },
   {
    "n": 3,
    "title": "Learning as rhetorical training",
-   "text": "Verse 4 says he was learned and had a perfect knowledge of the language, and immediately attaches flattery and power of speech to it. In the ancient world mastery of a language meant formal training in persuasion. The record's first professional debater is described in the vocabulary of a trained speaker."
+   "text": "Verse 4 says he was learned and had a perfect knowledge of the language, and immediately attaches flattery and power of speech to it. In the ancient world mastery of a language usually meant formal training in persuasion. The record's first professional debater is described in the vocabulary of a trained speaker."
   },
   {
    "n": 4,
@@ -55,56 +55,116 @@
  ],
  "words": [
   {
-   "term": "confound",
-   "verse_label": "v. 8",
-   "text": "To throw into confusion, and in the King James Bible it is what happens to speech at Babel and to enemies in the psalms. Jacob does not say he persuaded Sherem or answered him. He says he confounded him in all his words, which is a defeat of the man's speech rather than of his position."
+   "term": "Overthrow",
+   "verse_label": "v. 2",
+   "text": "The aim is announced in a word that belongs to cities and armies. Sherem preaches that there should be no Christ, and the record adds that \"this he did that he might overthrow the doctrine of Christ\" (v. 2). In the King James Bible the verb is what happens to Sodom, to altars, to armies in the field, and in one of Paul's letters it is what false teachers do to the faith of some. A teaching is being described as a structure that can be pulled down, not as a claim to be argued with.",
+   "cites": [
+    {
+     "quote": "this he did that he might overthrow the doctrine of Christ",
+     "verse": 2,
+     "start": 139,
+     "end": 206,
+     "spans": [
+      {
+       "w1": 37,
+       "w2": 47,
+       "text": "this he did that he might overthrow the doctrine of Christ"
+      }
+     ]
+    }
+   ]
   },
   {
-   "term": "nourished",
+   "term": "Wise",
+   "verse_label": "v. 6",
+   "text": "\"On this wise did he speak unto me\" (v. 6) introduces the one long speech Sherem is given. The word is a noun here, meaning manner or way, and has nothing to do with wisdom; Matthew opens his account of the nativity with the same idiom. A reader who has just been told this man was learned can take it for a compliment. It is only the record saying: here is how he put it.",
+   "cites": [
+    {
+     "quote": "On this wise did he speak unto me",
+     "verse": 6,
+     "start": 0,
+     "end": 42,
+     "spans": [
+      {
+       "w1": 12,
+       "w2": 19,
+       "text": "On this wise did he speak unto me"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Blasphemy",
+   "verse_label": "v. 7",
+   "text": "The charge has a legal edge. Blasphemy is speech that injures God, and Leviticus makes it punishable by stoning; the gospels report the same word brought against Jesus for speaking as God speaks. Sherem does not say Jacob is mistaken or confused. He says \"this is blasphemy\" (v. 7), naming a capital offense under the very law he has just accused Jacob of abandoning. No proceeding follows in the chapter.",
+   "cites": [
+    {
+     "quote": "this is blasphemy",
+     "verse": 7,
+     "start": 255,
+     "end": 281,
+     "spans": [
+      {
+       "w1": 60,
+       "w2": 62,
+       "text": "this is blasphemy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Confound",
+   "verse_label": "v. 8",
+   "text": "To throw into confusion, and in the King James Bible it is what happens to speech at Babel and to enemies in the psalms. Jacob does not say he persuaded Sherem or answered him. He says he confounded him in all his words, a defeat of the man's speech."
+  },
+  {
+   "term": "Nourished",
    "verse_label": "v. 15",
    "text": "The allegory's verb, and the last chapter used it forty times of God and his vineyard. Here it is what the people do for the man who was struck down: he lay for many days and was cared for. The word makes his final speech possible, and nothing in the text remarks on the irony."
   },
   {
-   "term": "adieu",
+   "term": "Adieu",
    "verse_label": "v. 27",
-   "text": "\"To God\" — a commendation rather than a goodbye. It is the only occurrence in the record and the last word of Jacob's book. He has just said he hopes many of his brethren may read his words, and the word he chooses to end on hands the reader over rather than dismissing them."
+   "text": "The word means \"to God\" and offers a commendation. It is the only occurrence in the record and the last word of Jacob's book. He has just said he hopes many of his brethren may read his words, and the word he chooses to end on hands the reader over."
   }
  ],
  "phrases": [
   {
-   "term": "he preached many things which were flattering unto the people",
+   "term": "He preached many things which were flattering unto the people",
    "verse_label": "v. 2",
-   "text": "To flatter is to praise falsely in order to gain, and the verb turns up twice in three verses — both times naming the method rather than the message. Method is stated before content: what Sherem taught gets half a clause, and what made it work gets the rest of the sentence. The record does not say he argued well; it says he pleased, and only the teaching is ever refuted."
+   "text": "To flatter is to praise falsely in order to gain, and the verb turns up twice in three verses, both times naming the method. Method is stated before content: what Sherem taught gets half a clause, and what made it work gets the rest of the sentence. The record does not say he argued well; it says he pleased, and only the teaching is ever refuted."
   },
   {
-   "term": "he was learned, that he had a perfect knowledge of the language of the people",
+   "term": "He was learned, that he had a perfect knowledge of the language of the people",
    "verse_label": "v. 4",
    "text": "Learning is granted without qualification and then put next to the power of the devil in the same sentence. Nothing here says education is bad; it says this man's was aimed. The record elsewhere warns about being learned and thinking oneself wise, and this verse is the narrative version of that warning."
   },
   {
-   "term": "he had hope to shake me from the faith... wherefore, I could not be shaken",
+   "term": "He had hope to shake me from the faith... wherefore, I could not be shaken",
    "verse_label": "v. 5",
-   "text": "Jacob's answer is not an argument but an inventory: many revelations, things seen, angels ministering, the voice of the Lord in very word. He had ended the previous chapter worrying about being shaken from his firmness. Here the word returns and the answer is settled."
+   "text": "Jacob's answer is an inventory: many revelations, things seen, angels ministering, the voice of the Lord in very word. He had ended the previous chapter worrying about being shaken from his firmness. Here the word returns and the answer is settled."
   },
   {
-   "term": "convert the law of Moses into the worship of a being which ye say shall come",
+   "term": "Convert the law of Moses into the worship of a being which ye say shall come",
    "verse_label": "v. 7",
    "text": "The most precise statement of the opposing case anywhere in the record. Sherem is not arguing that God does not exist or that the scriptures are false. He is arguing that a future person has been inserted into a present law, and that no one can speak of things to come."
   },
   {
    "term": "Believest thou the scriptures? And he said, Yea",
    "verse_label": "v. 10",
-   "text": "The whole exchange turns here. Jacob does not dispute the law or the learning; he establishes shared ground in one question and then says Sherem does not understand what he already accepts. The refutation is about reading, not about authority."
+   "text": "The whole exchange turns here. Jacob does not dispute the law or the learning; he establishes shared ground in one question and then says Sherem does not understand what he already accepts. The refutation is about reading."
   },
   {
-   "term": "none of the prophets have written, nor prophesied, save they have spoken concerning this Christ",
+   "term": "None of the prophets have written, nor prophesied, save they have spoken concerning this Christ",
    "verse_label": "v. 11",
    "text": "A universal claim about every prophet who ever wrote, made to a man who has just said he believes it. It is unprovable in the exchange and it is not defended. Jacob simply asserts the reading and moves to his own witness in the next verse."
   },
   {
    "term": "What am I that I should tempt God to show unto thee a sign",
    "verse_label": "v. 14",
-   "text": "The refusal quotes Deuteronomy's rule about not tempting the Lord, which is the verse used to end the wilderness temptation. Jacob declines to be the one who asks, and then hands the matter over without specifying an outcome."
+   "text": "The refusal quotes Deuteronomy's rule about not tempting the Lord, the verse used to end the wilderness temptation. Jacob declines to be the one who asks, and then hands the matter over without specifying an outcome."
   },
   {
    "term": "Nevertheless, not my will be done... And thy will, O Lord, be done, and not mine",
@@ -112,22 +172,22 @@
    "text": "The Gethsemane formula, stated twice in one verse, roughly five centuries before the garden. Jacob puts it around the one moment in his record where he might have wanted something to happen, and the doubling makes it the most careful sentence in the chapter."
   },
   {
-   "term": "he had been deceived by the power of the devil",
+   "term": "He had been deceived by the power of the devil",
    "verse_label": "v. 18",
    "text": "His own account, given publicly. Sherem does not describe himself as having reasoned badly or as having lied for gain. He describes himself as having been taken in, which is a stranger confession than the one the reader expects and harder to dismiss."
   },
   {
    "term": "I fear lest I have committed the unpardonable sin, for I have lied unto God",
    "verse_label": "v. 19",
-   "text": "The specific charge he brings against himself is the lie in verse 10, not the years of preaching. He said he believed the scriptures while denying what they testify. The record's picture of the worst sin is knowingly saying the opposite of what one knows, and the phrase occurs only once more."
+   "text": "The specific charge he brings against himself is the lie in verse 10. He said he believed the scriptures while denying what they testify. The record's picture of the worst sin is knowingly saying the opposite of what one knows, and the phrase occurs only once more."
   },
   {
-   "term": "our lives passed away like as it were unto us a dream",
+   "term": "Our lives passed away like as it were unto us a dream",
    "verse_label": "v. 26",
    "text": "The closing self-portrait, and it is bleak. Lonesome, solemn, wanderers, cast out, born in tribulation, hated, mourning out their days. Nothing in it is triumphant, and it is written by the man who had just recorded the vineyard's restoration and the enemy's conversion."
   },
   {
-   "term": "hoping that many of my brethren may read my words",
+   "term": "Hoping that many of my brethren may read my words",
    "verse_label": "v. 27",
    "text": "The plates go to his son, the writing is called small, and the last gesture is toward readers who do not exist yet. Jacob had spent his first chapter worrying that descendants would read with contempt. This is the same worry, resolved into a hope."
   }
@@ -145,7 +205,7 @@
    "start": 6,
    "end": 7,
    "title": "The objection, in his own voice",
-   "text": "He is courteous — \"Brother Jacob\" — and his argument is that Jacob perverts the right way, abandons the law of Moses, and converts it into worship of a future being; and that no man can tell of things to come. Two verses, and they are the best statement of the opposing position in the record."
+   "text": "He is courteous (\"Brother Jacob\") and his argument is that Jacob perverts the right way, abandons the law of Moses, and converts it into worship of a future being; and that no man can tell of things to come. Two verses, and they are the best statement of the opposing position in the record."
   },
   {
    "label": "v. 8–12",
@@ -173,14 +233,14 @@
    "start": 21,
    "end": 25,
    "title": "After",
-   "text": "The crowd falls; Jacob says the thing was pleasing to him because he had prayed for it; peace and the love of God return; the people search the scriptures. Then the Lamanite situation — every attempt to reclaim them fails, and the Nephites fortify and hold. Revival and stalemate in the same paragraph."
+   "text": "The crowd falls; Jacob says the thing was pleasing to him because he had prayed for it; peace and the love of God return; the people search the scriptures. Then the Lamanite situation: every attempt to reclaim them fails, and the Nephites fortify and hold. Revival and stalemate in the same paragraph."
   },
   {
    "label": "v. 26–27",
    "start": 26,
    "end": 27,
    "title": "The end of the record",
-   "text": "Old age, the other plates named as the place for history, the summary — lonesome, solemn, wanderers, mourning — the handoff to Enos, and the farewell. The book's last word commends the reader to God."
+   "text": "Old age, the other plates named as the place for history, the summary of lonesome and solemn wanderers mourning out their days, the handoff to Enos, and the farewell. The book's last word commends the reader to God."
   }
  ],
  "chapter": [
@@ -191,7 +251,7 @@
   },
   {
    "n": 2,
-   "title": "Jacob's defense is biographical, not logical",
+   "title": "Jacob's defense is biographical",
    "text": "Asked to hold the faith against a trained speaker, he lists what he has seen and heard. Verse 5 is an inventory, and verse 12 repeats it. Against an argument from the impossibility of future knowledge, he offers the fact of his own experience, which is not a refutation and is not offered as one."
   },
   {
@@ -206,7 +266,7 @@
   },
   {
    "n": 5,
-   "title": "The confession is that of a deceived man, not a cynical one",
+   "title": "The confession is that of a deceived man",
    "text": "Sherem says he was taken in by the power of the devil and that his sin was lying about what he believed. That is a more disturbing account than opportunism, because it does not require him to have been insincere while he was succeeding."
   },
   {
@@ -217,7 +277,7 @@
   {
    "n": 7,
    "title": "The book ends on grief and a hope",
-   "text": "The record of a man who preached a vineyard restored closes with lonesome, solemn, wanderers, cast out, mourning out our days — and then a hope that many will read, and \"adieu.\" Jacob does not resolve the two. He sets the summary of his life next to the wish for readers and stops."
+   "text": "The record of a man who preached a vineyard restored closes with lonesome, solemn, wanderers, cast out, mourning out our days. Then comes a hope that many will read, and \"adieu.\" Jacob does not resolve the two. He sets the summary of his life next to the wish for readers and stops."
   }
  ],
  "world_in_front": {
@@ -250,7 +310,7 @@
    {
     "title": "Say your summary honestly",
     "verse_label": "v. 26",
-    "text": "Jacob wrote down the truth about his life without dressing it up and without despairing. Practice describing a hard stretch of your own that way — accurately, and without a bow on it."
+    "text": "Jacob wrote down the truth about his life without dressing it up and without despairing. Practice describing a hard stretch of your own that way, accurately and without a bow on it."
    }
   ],
   "questions": [
@@ -311,7 +371,9 @@
      "verse": 4,
      "w1": 46,
      "w2": 53,
-     "quote": "all the holy prophets which were before us",
+     "quote": "all the holy prophets which were before us.",
+     "verse_text": "For, for this intent have we written these things, that they may know that we knew of Christ, and we had a hope of his glory many hundred years before his coming; and not only we ourselves had a hope of his glory, but also all the holy prophets which were before us.",
+     "markdown": "For, for this intent have we written these things, that they may know that we knew of Christ, and we had a hope of his glory many hundred years before his coming; and not only we ourselves had a hope of his glory, but also **all the holy prophets which were before us**.",
      "span": true
     }
    ],
@@ -335,11 +397,39 @@
      "verse": 18,
      "w1": 19,
      "w2": 26,
-     "quote": "get shaken from my firmness in the Spirit",
+     "quote": "get shaken from my firmness in the Spirit,",
+     "verse_text": "Behold, my beloved brethren, I will unfold this mystery unto you; if I do not, by any means, get shaken from my firmness in the Spirit, and stumble because of my over anxiety for you.",
+     "markdown": "Behold, my beloved brethren, I will unfold this mystery unto you; if I do not, by any means, **get shaken from my firmness in the Spirit**, and stumble because of my over anxiety for you.",
      "span": true
     }
    ],
    "mirror": "jac04-011"
+  },
+  {
+   "id": "jac07-011",
+   "scope": "BOM",
+   "head": "Mosiah 10:17",
+   "anchor": {
+    "verse": 24,
+    "w1": 36,
+    "w2": 44,
+    "quote": "they had an eternal hatred against us, their brethren"
+   },
+   "reason": "the same phrase, and here its mechanism",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 10,
+     "verse": 17,
+     "w1": 35,
+     "w2": 45,
+     "quote": "therefore they have an eternal hatred towards the children of Nephi.",
+     "verse_text": "And thus they have taught their children that they should hate them, and that they should murder them, and that they should rob and plunder them, and do all they could to destroy them; therefore they have an eternal hatred towards the children of Nephi.",
+     "markdown": "And thus they have taught their children that they should hate them, and that they should murder them, and that they should rob and plunder them, and do all they could to destroy them; **therefore they have an eternal hatred towards the children of Nephi**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos10-004"
   },
   {
    "id": "jac07-010",
@@ -359,7 +449,9 @@
      "verse": 11,
      "w1": 21,
      "w2": 33,
-     "quote": "teaching the law of Moses, and the intent for which it was given",
+     "quote": "teaching the law of Moses, and the intent for which it was given;",
+     "verse_text": "Wherefore, the prophets, and the priests, and the teachers, did labor diligently, exhorting with all long-suffering the people to diligence; teaching the law of Moses, and the intent for which it was given; persuading them to look forward unto the Messiah, and believe in him to come as though he already was. And after this manner did they teach them.",
+     "markdown": "Wherefore, the prophets, and the priests, and the teachers, did labor diligently, exhorting with all long-suffering the people to diligence; **teaching the law of Moses, and the intent for which it was given**; persuading them to look forward unto the Messiah, and believe in him to come as though he already was. And after this manner did they teach them.",
      "span": true
     }
    ],
@@ -383,7 +475,9 @@
      "verse": 1,
      "w1": 7,
      "w2": 17,
-     "quote": "I, Enos, knowing my father that he was a just man",
+     "quote": "I, Enos, knowing my father that he was a just man—for",
+     "verse_text": "Behold, it came to pass that I, Enos, knowing my father that he was a just man—for he taught me in his language, and also in the nurture and admonition of the Lord—and blessed be the name of my God for it—",
+     "markdown": "Behold, it came to pass that **I, Enos, knowing my father that he was a just man—for** he taught me in his language, and also in the nurture and admonition of the Lord—and blessed be the name of my God for it—",
      "span": true
     }
    ],
@@ -407,7 +501,9 @@
      "verse": 30,
      "w1": 29,
      "w2": 33,
-     "quote": "the rock of my salvation",
+     "quote": "the rock of my salvation.",
+     "verse_text": "Rejoice, O my heart, and cry unto the Lord, and say: O Lord, I will praise thee forever; yea, my soul will rejoice in thee, my God, and the rock of my salvation.",
+     "markdown": "Rejoice, O my heart, and cry unto the Lord, and say: O Lord, I will praise thee forever; yea, my soul will rejoice in thee, my God, and **the rock of my salvation**.",
      "span": true
     }
    ],
@@ -431,7 +527,9 @@
      "verse": 6,
      "w1": 5,
      "w2": 16,
-     "quote": "deny the Holy Ghost when it once has had place in you",
+     "quote": "deny the Holy Ghost when it once has had place in you,",
+     "verse_text": "For behold, if ye deny the Holy Ghost when it once has had place in you, and ye know that ye deny it, behold, this is a sin which is unpardonable; yea, and whosoever murdereth against the light and knowledge of God, it is not easy for him to obtain forgiveness; yea, I say unto you, my son, that it is not easy for him to obtain a forgiveness.",
+     "markdown": "For behold, if ye **deny the Holy Ghost when it once has had place in you**, and ye know that ye deny it, behold, this is a sin which is unpardonable; yea, and whosoever murdereth against the light and knowledge of God, it is not easy for him to obtain forgiveness; yea, I say unto you, my son, that it is not easy for him to obtain a forgiveness.",
      "span": true
     }
    ],
@@ -456,6 +554,8 @@
      "w1": 7,
      "w2": 18,
      "quote": "If thou wilt show me a sign, that I may be convinced",
+     "verse_text": "And now Korihor said unto Alma: If thou wilt show me a sign, that I may be convinced that there is a God, yea, show unto me that he hath power, and then will I be convinced of the truth of thy words.",
+     "markdown": "And now Korihor said unto Alma: **If thou wilt show me a sign, that I may be convinced** that there is a God, yea, show unto me that he hath power, and then will I be convinced of the truth of thy words.",
      "span": true
     }
    ],
@@ -479,7 +579,9 @@
      "verse": 17,
      "w1": 15,
      "w2": 24,
-     "quote": "then shew me a sign that thou talkest with me",
+     "quote": "then shew me a sign that thou talkest with me.",
+     "verse_text": "And he said unto him, If now I have found grace in thy sight, then shew me a sign that thou talkest with me.",
+     "markdown": "And he said unto him, If now I have found grace in thy sight, **then shew me a sign that thou talkest with me**.",
      "span": true
     }
    ],
@@ -503,7 +605,9 @@
      "verse": 16,
      "w1": 1,
      "w2": 8,
-     "quote": "Ye shall not tempt the LORD your God",
+     "quote": "Ye shall not tempt the LORD your God,",
+     "verse_text": "Ye shall not tempt the LORD your God, as ye tempted him in Massah.",
+     "markdown": "**Ye shall not tempt the LORD your God**, as ye tempted him in Massah.",
      "span": true
     }
    ],
@@ -527,7 +631,9 @@
      "verse": 42,
      "w1": 12,
      "w2": 19,
-     "quote": "nevertheless not my will, but thine, be done",
+     "quote": "nevertheless not my will, but thine, be done.",
+     "verse_text": "Saying, Father, if thou be willing, remove this cup from me: nevertheless not my will, but thine, be done.",
+     "markdown": "Saying, Father, if thou be willing, remove this cup from me: **nevertheless not my will, but thine, be done**.",
      "span": true
     }
    ],
@@ -600,6 +706,15 @@
    ]
   },
   {
+   "verse": 24,
+   "w1": 36,
+   "w2": 44,
+   "quote": "they had an eternal hatred against us, their brethren",
+   "entries": [
+    "jac07-011"
+   ]
+  },
+  {
    "verse": 25,
    "w1": 18,
    "w2": 26,
@@ -619,7 +734,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-18",
-  "source_sha256": "8c8c5c6537a68cbc"
+  "at": "2026-08-25",
+  "source_sha256": "d5d89a5104960b4d"
  }
 }

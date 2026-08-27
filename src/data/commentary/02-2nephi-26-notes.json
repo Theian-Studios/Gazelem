@@ -17,7 +17,7 @@
    "A book from the dust",
    "Free for all men"
   ],
-  "connections": 12,
+  "connections": 14,
   "initial": false
  },
  "world_behind": [
@@ -54,17 +54,44 @@
  ],
  "words": [
   {
-   "term": "stubble",
+   "term": "Stubble",
    "verse_label": "v. 4",
    "text": "The stalk left standing after a harvest, dry and worth nothing except as fuel. It appears twice in three verses for the proud and the wicked. The figure carries no cruelty in it: stubble burns because it is dry, and the chapter's judgment language keeps choosing images where the outcome follows from the condition."
   },
   {
-   "term": "naught",
+   "term": "Naught",
    "verse_label": "v. 10",
    "text": "Nothing, no price at all. Nephi says his people sell themselves for naught, which is worse than selling cheaply. The word makes the transaction absurd rather than tragic, and it lands in the middle of the passage where he says the pains of his soul do not change what he has seen."
   },
   {
-   "term": "chaff",
+   "term": "Familiar",
+   "verse_label": "v. 16",
+   "text": "A familiar spirit is not a friendly one. The term names the ghost a medium calls up, the voice that answers from underground, and Israel's law put the whole practice outside the covenant. Isaiah had thrown the phrase back at his people eight chapters ago, asking why anyone would \"seek unto them that have familiar spirits\" (2 Ne. 18:19) rather than to God. Nephi takes the outlawed sound and assigns it to a book: a voice out of the dust, whispering, with the Lord named as the power giving it speech. Jacob will use the same adjective in its ordinary sense a few pages later, telling the rich to be familiar with all (Jacob 2:17), a fair measure of how far the two senses sit apart.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 18:19",
+     "start": 325,
+     "end": 336,
+     "book": "2 Ne",
+     "chapter": 18,
+     "verse_start": 19,
+     "verse_end": 19
+    },
+    {
+     "kind": "scripture",
+     "text": "Jacob 2:17",
+     "start": 620,
+     "end": 630,
+     "book": "Jacob",
+     "chapter": 2,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
+  },
+  {
+   "term": "Chaff",
    "verse_label": "v. 18",
    "text": "The husk separated from grain at threshing, so light that wind removes it. Applied here to \"their terrible ones\" (v. 18), the people most feared. The verse pairs the image with speed, at an instant, suddenly, and the two together say that what looked solid had no weight in it.",
    "cites": [
@@ -84,19 +111,24 @@
    ]
   },
   {
-   "term": "envyings",
+   "term": "Envyings",
    "verse_label": "v. 21",
-   "text": "The plural is doing work: not envy as a disposition but envyings as recurring events, things that happen between groups. It sits between strifes and malice in a list of what many churches cause. Nephi's complaint about religious multiplication is social rather than doctrinal at this point in the sentence."
+   "text": "The plural is doing work: not envy as a disposition but envyings as recurring events, things that happen between groups. It sits between strifes and malice in a list of what many churches cause. Nephi's complaint about religious multiplication is a social one at this point in the sentence."
+  },
+  {
+   "term": "Heathen",
+   "verse_label": "v. 33",
+   "text": "The old word for the nations outside Israel, people with no covenant and, for most of their lives, no way to hear of one. In a sentence built of paired opposites it is the only item without a partner, and the verb it takes is its own: the pairs name people he does not deny when they come to him, while the heathen are the ones he remembers. Whether Nephi meant the difference or inherited the phrasing, the sentence has room in it for people the invitation never reached."
   }
  ],
  "phrases": [
   {
-   "term": "the words which he shall speak unto you shall be the law",
+   "term": "The words which he shall speak unto you shall be the law",
    "verse_label": "v. 1",
    "text": "The chapter opens by dissolving the question chapter 25 spent six verses on. When Christ appears, what he says becomes the law. The tension between keeping Moses and looking to Christ is not argued here; it is given an expiry date and a successor, and the successor is speech rather than a code."
   },
   {
-   "term": "the Son of Righteousness",
+   "term": "The Son of Righteousness",
    "verse_label": "v. 9",
    "text": "Malachi's promise reads \"the Sun of righteousness arise with healing in his wings\" (Mal. 4:2), an image drawn from the sky, and Nephi had used the healing half of it one chapter earlier. Here the word is Son. Whether the difference is a translator's choice, a hearing, or a deliberate reading, the effect is to move the sentence from metaphor to person.",
    "refs": [
@@ -113,9 +145,9 @@
    ]
   },
   {
-   "term": "the Spirit of the Lord will not always strive with man",
+   "term": "The Spirit of the Lord will not always strive with man",
    "verse_label": "v. 11",
-   "text": "The sentence comes from the account of the world before the flood, where God says \"My spirit shall not always strive with man\" (Gen. 6:3). Nephi applies it to his own descendants and adds the consequence: when the striving ceases, speedy destruction. He also adds his reaction, that this grieves his soul, which is not something the Genesis verse does.",
+   "text": "The sentence comes from the account of the world before the flood, where God says \"My spirit shall not always strive with man\" (Gen. 6:3). Nephi applies it to his own descendants and adds the consequence: when the striving ceases, speedy destruction. He also adds his reaction, that this grieves his soul. The Genesis verse says nothing of the kind.",
    "refs": [
     {
      "kind": "scripture",
@@ -130,7 +162,7 @@
    ]
   },
   {
-   "term": "speak unto them out of the ground",
+   "term": "Speak unto them out of the ground",
    "verse_label": "v. 16",
    "text": "Isaiah's line about a fallen city whose \"speech shall be low out of the dust\" (Isa. 29:4) is turned into a description of a book. The dead speak, and what they say is written. It is the record's own account of what it is, given by a writer who knows his people will be the ones under the ground.",
    "refs": [
@@ -147,29 +179,29 @@
    ]
   },
   {
-   "term": "sealed up in a book",
+   "term": "Sealed up in a book",
    "verse_label": "v. 17",
    "text": "Two verses give the whole shape of the record's coming forth: written, sealed, withheld from those who dwindled, and eventually brought out. Nephi states it as prophecy before quoting Isaiah 29 at length in the next chapter, so his readers meet the claim in his own plain words first and the poetry afterward."
   },
   {
-   "term": "the greatness of their stumbling block",
+   "term": "The greatness of their stumbling block",
    "verse_label": "v. 20",
-   "text": "The Gentiles are described as lifted up in the pride of their eyes and stumbling over something large. What they have built is many churches, and what they have put down is the power and miracles of God. The stumbling block in this sentence is their own construction, which is a harder charge than unbelief."
+   "text": "The Gentiles are described as lifted up in the pride of their eyes and stumbling over something large. What they have built is many churches, and what they have put down is the power and miracles of God. The stumbling block in this sentence is their own construction, a harder charge than unbelief."
   },
   {
-   "term": "the Lord God worketh not in darkness",
+   "term": "The Lord God worketh not in darkness",
    "verse_label": "v. 23",
    "text": "The hinge of the chapter. Everything before it has been destruction and secret combinations; everything after it is a series of denials that God excludes anyone. The sentence functions as a rule for reading the rest: whatever is done in secret is not his, and his dealings can be examined."
   },
   {
-   "term": "he loveth the world",
+   "term": "He loveth the world",
    "verse_label": "v. 24",
-   "text": "Stated as the reason for everything he does, and the proof offered is that he lays down his own life to draw all men to him. The verse makes love the explanation rather than the result, and it puts the laying down in the same clause as the loving, so that the death is evidence rather than consequence."
+   "text": "Stated as the reason for everything he does, and the proof offered is that he lays down his own life to draw all men to him. The verse makes love the explanation rather than the result, and it puts the laying down in the same clause as the loving, so that the death is offered as the evidence."
   },
   {
-   "term": "buy milk and honey, without money and without price",
+   "term": "Buy milk and honey, without money and without price",
    "verse_label": "v. 25",
-   "text": "Jacob had closed his sermon with the same invitation in Isaiah's words, \"come buy wine and milk without money and without price\" (2 Ne. 9:50). Nephi substitutes milk and honey, which is the phrase for the promised land, so the free purchase and the inheritance are folded into one line. The economy of both verses is the same: nothing is charged.",
+   "text": "Jacob had closed his sermon with the same invitation in Isaiah's words, \"come buy wine and milk without money and without price\" (2 Ne. 9:50). Nephi substitutes milk and honey, the phrase for the promised land, so the free purchase and the inheritance are folded into one line. The economy of both verses is the same: nothing is charged.",
    "refs": [
     {
      "kind": "scripture",
@@ -184,20 +216,20 @@
    ]
   },
   {
-   "term": "priestcrafts are that men preach and set themselves up",
+   "term": "Priestcrafts are that men preach and set themselves up",
    "verse_label": "v. 29",
    "text": "The definition Nephi's brother left unexplained fifteen chapters ago, when Jacob named priestcrafts as one of the two causes of the crucifixion. Here it is spelled out: preaching for gain and praise, and not seeking the welfare of Zion. The record supplies its own glossary, and this entry is one of the clearest cases of it."
   },
   {
-   "term": "which charity is love",
+   "term": "Which charity is love",
    "verse_label": "v. 30",
-   "text": "A definition inside a commandment. God commands that all men have charity, and then tells them what the word means, which suggests the term was not obvious to Nephi's hearers either. This is the record's first gloss on it, and the gloss is what makes the commandment executable. Paul writes that without it \"I am nothing\" (1 Cor. 13:2); Moroni will devote most of a chapter to it and say the same.",
+   "text": "A definition inside a commandment. God commands that all men have charity, and then tells them what the word means, which suggests the term was not obvious to Nephi's hearers either. Here the record glosses the word for the first time, and the gloss is what makes the commandment executable. Paul writes that without it \"I am nothing\" (1 Cor. 13:2); Moroni will devote most of a chapter to it and say the same.",
    "refs": [
     {
      "kind": "scripture",
      "text": "1 Cor. 13:2",
-     "start": 323,
-     "end": 334,
+     "start": 336,
+     "end": 347,
      "book": "1 Cor",
      "chapter": 13,
      "verse_start": 2,
@@ -206,7 +238,7 @@
    ]
   },
   {
-   "term": "all are alike unto God",
+   "term": "All are alike unto God",
    "verse_label": "v. 33",
    "text": "The chapter's last claim, and it arrives after a list of every division that mattered: black and white, bond and free, male and female, heathen, Jew, and Gentile. Peter reaches the same conclusion after a vision, saying \"God is no respecter of persons\" (Acts 10:34). Nephi reaches it as the end of an argument about who is invited.",
    "refs": [
@@ -236,7 +268,7 @@
    "start": 3,
    "end": 8,
    "title": "Signs, and who they sort",
-   "text": "Signs of birth, death, and resurrection; then destruction described in six ways, and the righteous identified by one behavior: they hearken to the prophets and do not destroy them. The criterion is treatment of messengers rather than belief in a doctrine, which is a specific and testable thing."
+   "text": "Signs of birth, death, and resurrection; then destruction described in six ways, and the righteous identified by one behavior: they hearken to the prophets and do not destroy them. The criterion is how they treat messengers, and that is specific enough to test."
   },
   {
    "label": "v. 7",
@@ -250,7 +282,7 @@
    "start": 9,
    "end": 11,
    "title": "Four generations, and then the Spirit stops",
-   "text": "A span of peace is promised and dated by generations, and then it ends. The mechanism given is not invasion but withdrawal: the Spirit ceases to strive, and speedy destruction follows. Nephi has watched this in vision and says twice that it grieves him."
+   "text": "A span of peace is promised and dated by generations, and then it ends. The mechanism given is withdrawal: the Spirit ceases to strive, and speedy destruction follows. Nephi has watched this in vision and says twice that it grieves him."
   },
   {
    "label": "v. 14–18",
@@ -264,21 +296,21 @@
    "start": 20,
    "end": 22,
    "title": "What gets built instead",
-   "text": "Many churches, envyings, strifes, malice, and secret combinations founded by the devil. The list moves from religious institutions to criminal conspiracies in three verses without a break, which is a claim about how they are related rather than an accident of order."
+   "text": "Many churches, envyings, strifes, malice, and secret combinations founded by the devil. The list moves from religious institutions to criminal conspiracies in three verses without a break, and the order is a claim about how they are related."
   },
   {
    "label": "v. 23–33",
    "start": 23,
    "end": 33,
    "title": "The chapter's whole argument, stated as denials",
-   "text": "God does not work in darkness; he does not tell anyone to depart; he has not commanded anyone to stay out of the synagogues or away from his salvation or his goodness. Then the positive commands: no priestcrafts, charity for all, labor for Zion rather than for money. It ends with every human category named and dismissed as a criterion."
+   "text": "God does not work in darkness; he does not tell anyone to depart; he has not commanded anyone to stay out of the synagogues or away from his salvation or his goodness. Then the positive commands: no priestcrafts, charity for all, labor for Zion. It ends with every human category named and dismissed as a criterion."
   }
  ],
  "chapter": [
   {
    "n": 1,
    "title": "Two halves joined by a rule",
-   "text": "The first twenty-two verses are destruction, secret combinations, and grief. The last ten are invitation. Verse 23 is the joint: the Lord God works not in darkness. Everything after it follows from that one sentence, and the chapter's structure is an argument rather than a sequence."
+   "text": "The first twenty-two verses are destruction, secret combinations, and grief. The last ten are invitation. Verse 23 is the joint: the Lord God works not in darkness. Everything after it follows from that one sentence, and the chapter is built as an argument."
   },
   {
    "n": 2,
@@ -297,7 +329,7 @@
   },
   {
    "n": 5,
-   "title": "Priestcraft is defined by motive, not by office",
+   "title": "Priestcraft is defined by motive",
    "text": "Nothing in verse 29's definition concerns authority, ordination, or doctrine. The test is what a preacher is trying to obtain, which is a test anyone can apply to himself and almost nobody can apply to someone else."
   },
   {
@@ -321,7 +353,7 @@
    {
     "title": "Notice when the striving stops",
     "verse_label": "v. 11",
-    "text": "The chapter's most frightening line is about withdrawal rather than punishment. Identify where you have felt the Spirit less lately, and ask honestly whether something in you has been declining the struggle."
+    "text": "The chapter's most frightening line is about withdrawal. Identify where you have felt the Spirit less lately, and ask honestly whether something in you has been declining the struggle."
    },
    {
     "title": "Check what you are building",
@@ -408,7 +440,9 @@
      "verse": 13,
      "w1": 22,
      "w2": 34,
-     "quote": "I speak unto you as the voice of one crying from the dust",
+     "quote": "I speak unto you as the voice of one crying from the dust:",
+     "verse_text": "And now, my beloved brethren, all those who are of the house of Israel, and all ye ends of the earth, I speak unto you as the voice of one crying from the dust: Farewell until that great day shall come.",
+     "markdown": "And now, my beloved brethren, all those who are of the house of Israel, and all ye ends of the earth, **I speak unto you as the voice of one crying from the dust**: Farewell until that great day shall come.",
      "span": true
     }
    ],
@@ -432,7 +466,9 @@
      "verse": 7,
      "w1": 1,
      "w2": 10,
-     "quote": "Know ye not that there are more nations than one",
+     "quote": "Know ye not that there are more nations than one?",
+     "verse_text": "Know ye not that there are more nations than one? Know ye not that I, the Lord your God, have created all men, and that I remember those who are upon the isles of the sea; and that I rule in the heavens above and in the earth beneath; and I bring forth my word unto the children of men, yea, even upon all the nations of the earth?",
+     "markdown": "**Know ye not that there are more nations than one**? Know ye not that I, the Lord your God, have created all men, and that I remember those who are upon the isles of the sea; and that I rule in the heavens above and in the earth beneath; and I bring forth my word unto the children of men, yea, even upon all the nations of the earth?",
      "span": true
     }
    ],
@@ -456,7 +492,9 @@
      "verse": 3,
      "w1": 30,
      "w2": 35,
-     "quote": "Behold, I, I am the Lord's",
+     "quote": "Behold, I, I am the Lord's;",
+     "verse_text": "For it shall come to pass in that day that the churches which are built up, and not unto the Lord, when the one shall say unto the other: Behold, I, I am the Lord's; and the others shall say: I, I am the Lord's; and thus shall every one say that hath built up churches, and not unto the Lord—",
+     "markdown": "For it shall come to pass in that day that the churches which are built up, and not unto the Lord, when the one shall say unto the other: **Behold, I, I am the Lord's**; and the others shall say: I, I am the Lord's; and thus shall every one say that hath built up churches, and not unto the Lord—",
      "span": true
     }
    ],
@@ -480,7 +518,9 @@
      "verse": 7,
      "w1": 1,
      "w2": 7,
-     "quote": "And behold the book shall be sealed",
+     "quote": "And behold the book shall be sealed;",
+     "verse_text": "And behold the book shall be sealed; and in the book shall be a revelation from God, from the beginning of the world to the ending thereof.",
+     "markdown": "**And behold the book shall be sealed**; and in the book shall be a revelation from God, from the beginning of the world to the ending thereof.",
      "span": true
     }
    ],
@@ -504,7 +544,9 @@
      "verse": 50,
      "w1": 24,
      "w2": 33,
-     "quote": "come buy wine and milk without money and without price",
+     "quote": "come buy wine and milk without money and without price.",
+     "verse_text": "Come, my brethren, every one that thirsteth, come ye to the waters; and he that hath no money, come buy and eat; yea, come buy wine and milk without money and without price.",
+     "markdown": "Come, my brethren, every one that thirsteth, come ye to the waters; and he that hath no money, come buy and eat; yea, **come buy wine and milk without money and without price**.",
      "span": true
     }
    ],
@@ -528,11 +570,65 @@
      "verse": 5,
      "w1": 2,
      "w2": 6,
-     "quote": "because of priestcrafts and iniquities",
+     "quote": "because of priestcrafts and iniquities,",
+     "verse_text": "But because of priestcrafts and iniquities, they at Jerusalem will stiffen their necks against him, that he be crucified.",
+     "markdown": "But **because of priestcrafts and iniquities**, they at Jerusalem will stiffen their necks against him, that he be crucified.",
      "span": true
     }
    ],
    "mirror": "2ne10-018"
+  },
+  {
+   "id": "2ne26-014",
+   "scope": "BOM",
+   "head": "Alma 1:12",
+   "anchor": {
+    "verse": 29,
+    "w1": 11,
+    "w2": 25,
+    "quote": "priestcrafts are that men preach and set themselves up for a light unto the world"
+   },
+   "reason": "the definition, later read out as a charge",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 1,
+     "verse": 12,
+     "w1": 13,
+     "w2": 19,
+     "quote": "priestcraft has been introduced among this people.",
+     "verse_text": "But Alma said unto him: Behold, this is the first time that priestcraft has been introduced among this people. And behold, thou art not only guilty of priestcraft, but hast endeavored to enforce it by the sword; and were priestcraft to be enforced among this people it would prove their entire destruction.",
+     "markdown": "But Alma said unto him: Behold, this is the first time that **priestcraft has been introduced among this people**. And behold, thou art not only guilty of priestcraft, but hast endeavored to enforce it by the sword; and were priestcraft to be enforced among this people it would prove their entire destruction.",
+     "span": true
+    }
+   ],
+   "mirror": "al01-013"
+  },
+  {
+   "id": "2ne26-013",
+   "scope": "BOM",
+   "head": "Alma 1:20",
+   "anchor": {
+    "verse": 25,
+    "w1": 29,
+    "w2": 37,
+    "quote": "buy milk and honey, without money and without price"
+   },
+   "reason": "the invitation, turned into a practice",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 1,
+     "verse": 20,
+     "w1": 41,
+     "w2": 45,
+     "quote": "without money and without price.",
+     "verse_text": "Yea, they did persecute them, and afflict them with all manner of words, and this because of their humility; because they were not proud in their own eyes, and because they did impart the word of God, one with another, without money and without price.",
+     "markdown": "Yea, they did persecute them, and afflict them with all manner of words, and this because of their humility; because they were not proud in their own eyes, and because they did impart the word of God, one with another, **without money and without price**.",
+     "span": true
+    }
+   ],
+   "mirror": "al01-014"
   },
   {
    "id": "2ne26-003",
@@ -552,7 +648,9 @@
      "verse": 46,
      "w1": 5,
      "w2": 12,
-     "quote": "if ye have not charity, ye are nothing",
+     "quote": "if ye have not charity, ye are nothing,",
+     "verse_text": "Wherefore, my beloved brethren, if ye have not charity, ye are nothing, for charity never faileth. Wherefore, cleave unto charity, which is the greatest of all, for all things must fail—",
+     "markdown": "Wherefore, my beloved brethren, **if ye have not charity, ye are nothing**, for charity never faileth. Wherefore, cleave unto charity, which is the greatest of all, for all things must fail—",
      "span": true
     }
    ],
@@ -576,7 +674,9 @@
      "verse": 2,
      "w1": 9,
      "w2": 18,
-     "quote": "the Sun of righteousness arise with healing in his wings",
+     "quote": "the Sun of righteousness arise with healing in his wings;",
+     "verse_text": "But unto you that fear my name shall the Sun of righteousness arise with healing in his wings; and ye shall go forth, and grow up as calves of the stall.",
+     "markdown": "But unto you that fear my name shall **the Sun of righteousness arise with healing in his wings**; and ye shall go forth, and grow up as calves of the stall.",
      "span": true
     }
    ],
@@ -600,7 +700,9 @@
      "verse": 3,
      "w1": 5,
      "w2": 12,
-     "quote": "My spirit shall not always strive with man",
+     "quote": "My spirit shall not always strive with man,",
+     "verse_text": "And the LORD said, My spirit shall not always strive with man, for that he also is flesh: yet his days shall be an hundred and twenty years.",
+     "markdown": "And the LORD said, **My spirit shall not always strive with man**, for that he also is flesh: yet his days shall be an hundred and twenty years.",
      "span": true
     }
    ],
@@ -624,7 +726,9 @@
      "verse": 4,
      "w1": 15,
      "w2": 23,
-     "quote": "thy speech shall be low out of the dust",
+     "quote": "thy speech shall be low out of the dust,",
+     "verse_text": "And thou shalt be brought down, and shalt speak out of the ground, and thy speech shall be low out of the dust, and thy voice shall be, as of one that hath a familiar spirit, out of the ground, and thy speech shall whisper out of the dust.",
+     "markdown": "And thou shalt be brought down, and shalt speak out of the ground, and **thy speech shall be low out of the dust**, and thy voice shall be, as of one that hath a familiar spirit, out of the ground, and thy speech shall whisper out of the dust.",
      "span": true
     }
    ],
@@ -648,7 +752,9 @@
      "verse": 2,
      "w1": 28,
      "w2": 34,
-     "quote": "and have not charity, I am nothing",
+     "quote": "and have not charity, I am nothing.",
+     "verse_text": "And though I have the gift of prophecy, and understand all mysteries, and all knowledge; and though I have all faith, so that I could remove mountains, and have not charity, I am nothing.",
+     "markdown": "And though I have the gift of prophecy, and understand all mysteries, and all knowledge; and though I have all faith, so that I could remove mountains, **and have not charity, I am nothing**.",
      "span": true
     }
    ],
@@ -672,7 +778,9 @@
      "verse": 34,
      "w1": 14,
      "w2": 19,
-     "quote": "God is no respecter of persons",
+     "quote": "God is no respecter of persons:",
+     "verse_text": "Then Peter opened his mouth, and said, Of a truth I perceive that God is no respecter of persons:",
+     "markdown": "Then Peter opened his mouth, and said, Of a truth I perceive that **God is no respecter of persons**:",
      "span": true
     }
    ],
@@ -732,7 +840,8 @@
    "w2": 37,
    "quote": "buy milk and honey, without money and without price",
    "entries": [
-    "2ne26-001"
+    "2ne26-001",
+    "2ne26-013"
    ]
   },
   {
@@ -741,7 +850,8 @@
    "w2": 25,
    "quote": "priestcrafts are that men preach and set themselves up for a light unto the world",
    "entries": [
-    "2ne26-002"
+    "2ne26-002",
+    "2ne26-014"
    ]
   },
   {
@@ -766,7 +876,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-18",
-  "source_sha256": "446ab923b2d730f4"
+  "at": "2026-08-25",
+  "source_sha256": "f44201c34a00d958"
  }
 }

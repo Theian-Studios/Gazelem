@@ -1,0 +1,758 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Mosiah",
+  "book_slug": "mosiah",
+  "chapter": 8,
+  "volume_order": "07",
+  "speakers": [
+   "Mormon",
+   "King Limhi",
+   "Ammon"
+  ],
+  "audience": "The people of Limhi, then Limhi and Ammon in private",
+  "location": "The land of Lehi-Nephi",
+  "date": "~121 BC",
+  "unit": "The record of Zeniff (Mosiah 7–24)",
+  "principles": [
+   "A ruined nation found",
+   "Seers and interpreters",
+   "Wisdom refused"
+  ],
+  "connections": 12,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "A second expedition, also lost",
+   "text": "Forty-three men sent to find Zarahemla wander many days, fail, and come home. The chapter before had sixteen men lost for forty days. Two search parties in two chapters, both diligent and both unsuccessful, and the second failure is what produces the discovery."
+  },
+  {
+   "n": 2,
+   "title": "Limhi's own plates, read aloud",
+   "text": "Verse 5 has the colony's record brought out for Ammon to read. It had been kept since they left Zarahemla two generations before. That document is where the next fourteen chapters come from. The reader is watching the compiler's source arrive in the narrative, handed across by a king who cannot read the other set of plates on his table."
+  },
+  {
+   "n": 3,
+   "title": "An older word for the same office",
+   "text": "First Samuel pauses its own narrative to explain that \"seer\" is what a prophet used to be called, a gloss for readers to whom the term had gone archaic. Both words are live in this colony, and neither Limhi nor Ammon treats either as obsolete."
+  },
+  {
+   "n": 4,
+   "title": "A restricted instrument",
+   "text": "Verse 13 says no man may look in the interpreters unless commanded, \"lest he should look for that he ought not and he should perish.\" The danger attaches to unauthorized use. Israelite law usually guards sacred objects that way."
+  },
+  {
+   "n": 5,
+   "title": "Wisdom, personified and refused",
+   "text": "Verse 20 says they will not seek wisdom, \"neither do they desire that she should rule over them.\" The pronoun is Proverbs': wisdom as a woman who calls in the street and is ignored. Limhi's lament is built on that figure."
+  },
+  {
+   "n": 6,
+   "title": "The scattered flock",
+   "text": "Verse 21's wild flock fleeing the shepherd, scattered, driven, devoured by beasts, is Ezekiel's picture of a people without a shepherd and the one the gospels use of a crowd. Limhi applies it to his own nation, in chains, at the end of a speech about refusing wisdom."
+  }
+ ],
+ "words": [
+  {
+   "term": "Rehearse",
+   "verse_label": "v. 2, 3",
+   "text": "To recount in order, not to practice. Ammon rehearses the history of both peoples and then rehearses Benjamin's last words and explains them. The word marks the transfer of two records by speech, before any plates change hands, and it is likely what a people cut off for two generations most needed."
+  },
+  {
+   "term": "Breastplates",
+   "verse_label": "v. 10",
+   "text": "Armor, though the King James Bible mostly uses the word for the high priest's ornamented vestment in Exodus. Limhi's are plain equipment, \"large, and they are of brass and of copper\" (v. 10), and they come off the field of bones the lost expedition stumbled into. Ether 15:15 will describe that nation gathering for its last battle armed with shields and breastplates, women and children included. The gear reaches the reader before the war it was worn in does.",
+   "cites": [
+    {
+     "quote": "large, and they are of brass and of copper",
+     "verse": 10,
+     "start": 138,
+     "end": 190,
+     "spans": [
+      {
+       "w1": 10,
+       "w2": 18,
+       "text": "large, and they are of brass and of copper"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 15:15",
+     "start": 264,
+     "end": 275,
+     "book": "Ether",
+     "chapter": 15,
+     "verse_start": 15,
+     "verse_end": 15
+    }
+   ]
+  },
+  {
+   "term": "Interpreters",
+   "verse_label": "v. 13",
+   "text": "Named as a thing rather than described: \"the things are called interpreters.\" Ammon supplies the term as though it will be unfamiliar, and the record will use it five more times. The noun is functional: they interpret, and the man commanded to use them is given a different title."
+  },
+  {
+   "term": "Revelator",
+   "verse_label": "v. 16",
+   "text": "The only occurrence in scripture. Ammon produces it in the middle of ranking the offices, and what the word does there is additive: the higher title absorbs the lower. Nothing is subtracted by being called the greater thing."
+  },
+  {
+   "term": "Mystery",
+   "verse_label": "v. 19",
+   "text": "Not a puzzle without an answer. In scripture a mystery is a thing hidden that is meant to be opened, which is why unfolding is the verb Limhi reaches for. He uses the singular for what is written on the twenty-four plates, then the plural a beat later for whatever else the interpreters were prepared to open. The plural is the record's usual form. The singular narrows the word to one object, and that object is a document nobody in the land can read."
+  },
+  {
+   "term": "Impenetrable",
+   "verse_label": "v. 20",
+   "text": "Not to be pierced or entered. Limhi applies it to understandings, paired with blind. The failure it names is structural. The word appears once in scripture and it is doing the work of explaining why a nation with a warning still ended in chains."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Only a few of them have I written in this book",
+   "verse_label": "v. 1",
+   "text": "Mormon interrupting his own narrative to say what he left out. The notice comes in the middle of a sentence about Limhi speaking, and it is the compiler reminding the reader once again that what survives is a selection made by one man."
+  },
+  {
+   "term": "Rehearsed unto them the last words which king Benjamin had taught them, and explained them",
+   "verse_label": "v. 3",
+   "text": "A sermon delivered secondhand to a people who were not there, with commentary. The address of Mosiah 2 through 5 crosses to a second nation by memory and explanation before it crosses on plates. It is the record's clearest picture of how teaching actually traveled."
+  },
+  {
+   "term": "Having discovered a land which was covered with bones of men, and of beasts",
+   "verse_label": "v. 8",
+   "text": "The report of the failed expedition, and the failure is what makes it valuable. They did not find Zarahemla; they found a graveyard the size of a nation. The sentence keeps piling clauses (many waters, bones, ruins, a people as numerous as the hosts of Israel) without pausing to react."
+  },
+  {
+   "term": "Twenty-four plates which are filled with engravings, and they are of pure gold",
+   "verse_label": "v. 9",
+   "text": "Brought back \"for a testimony that the things that they had said are true.\" The plates are produced as evidence for a travel report before anyone knows what is on them. Their contents will occupy an entire book of this record, and here they are an exhibit."
+  },
+  {
+   "term": "The hilts thereof have perished, and the blades thereof were cankered with rust",
+   "verse_label": "v. 11",
+   "text": "Organic material gone, metal corroded, and in the same inventory the breastplates are \"perfectly sound\" and the gold plates are legible. The differential decay is exactly right, and it is reported by a king with no interest in the metals at all, only in the fact that nobody can read the writing."
+  },
+  {
+   "term": "I am desirous to know the cause of their destruction",
+   "verse_label": "v. 12",
+   "text": "The question that motivates the whole request, and it is not antiquarian. Limhi is in bondage and wants to know why a civilization died. The book of Ether exists in the record because a king in chains asked a practical question about a ruin."
+  },
+  {
+   "term": "He has wherewith that he can look, and translate all records that are of ancient date",
+   "verse_label": "v. 13",
+   "text": "Deliberately vague about the mechanism and precise about the result. \"Wherewith that he can look\" names an instrument without describing it. Ammon has just told Limhi he cannot interpret languages himself, so what he is offering is access to one."
+  },
+  {
+   "term": "No man can look in them except he be commanded... lest he should look for that he ought not",
+   "verse_label": "v. 13",
+   "text": "The danger is defined as looking for the wrong thing. The restriction is on the seeker's intent, not on the object's power, and the penalty stated is perishing. It is the record's only rule about the use of a sacred instrument."
+  },
+  {
+   "term": "A seer is greater than a prophet",
+   "verse_label": "v. 15",
+   "text": "Limhi's conclusion, and Ammon does not simply confirm it. The reply in verse 16 makes the seer a revelator and a prophet also, which converts a comparison into an accumulation. The exchange is the record's only discussion of how the offices relate."
+  },
+  {
+   "term": "Hidden things shall come to light, and things which are not known shall be made known",
+   "verse_label": "v. 17",
+   "text": "Four clauses saying nearly the same thing, escalating: secret things manifest, hidden things to light, unknown things made known, and things that could not otherwise be known. The last clause is the only one that adds anything, and it is what the whole verse exists for."
+  },
+  {
+   "term": "He becometh a great benefit to his fellow beings",
+   "verse_label": "v. 18",
+   "text": "The point of the gift, stated flatly at the end of a passage about power. Not that the seer is exalted or vindicated but that he is useful. Benjamin's argument about service and Ammon's about seership land in the same place."
+  },
+  {
+   "term": "They will not seek wisdom, neither do they desire that she should rule over them",
+   "verse_label": "v. 20",
+   "text": "Wisdom as a person who might govern, and a people who decline. The verb is desire rather than obey. The refusal happens before any command is issued. Limhi has just watched his own nation demonstrate this, and the sentence reads as grief."
+  },
+  {
+   "term": "As a wild flock which fleeth from the shepherd, and scattereth",
+   "verse_label": "v. 21",
+   "text": "Four verbs and every one of them passive after the first: flee, scatter, be driven, be devoured. The only choice in the sequence is the first, and everything after it happens to them. It is the last sentence of Limhi's speech and it describes what has already occurred."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–4",
+   "start": 1,
+   "end": 4,
+   "title": "The assembly closes",
+   "text": "Limhi finishes, Mormon notes he has written only a few of the words, and Ammon is stood up to recount everything that happened to both peoples since Zeniff left, and then Benjamin's last words, explained. The multitude is dismissed to their own houses, exactly as Benjamin's was."
+  },
+  {
+   "label": "v. 5–7",
+   "start": 5,
+   "end": 7,
+   "title": "Records, and a question",
+   "text": "Limhi's own plates are brought for Ammon to read; the king asks whether he can interpret languages and is told no; and then the reason for asking: forty-three men sent into the wilderness to find Zarahemla and appeal for deliverance."
+  },
+  {
+   "label": "v. 8",
+   "start": 8,
+   "end": 8,
+   "title": "What they found instead",
+   "text": "Lost many days, diligent, failed, returned. Then, in one long clause: many waters, bones of men and beasts, ruins of buildings of every kind, a land once peopled as numerously as the hosts of Israel. The most consequential failure in the record."
+  },
+  {
+   "label": "v. 9–12",
+   "start": 9,
+   "end": 12,
+   "title": "The evidence, and the request",
+   "text": "Twenty-four gold plates covered with engravings; large breastplates of brass and copper, sound; swords with perished hilts and rusted blades; nobody who can read any of it. Then the question twice, canst thou translate and knowest thou anyone who can, and the reason: to learn why they were destroyed."
+  },
+  {
+   "label": "v. 13–14",
+   "start": 13,
+   "end": 14,
+   "title": "The answer",
+   "text": "A man who can look and translate ancient records by a gift from God; the instruments called interpreters; the rule that no one may look uncommanded, on pain of perishing; the title seer for whoever is; and the identification. The king in Zarahemla is that man."
+  },
+  {
+   "label": "v. 15–18",
+   "start": 15,
+   "end": 18,
+   "title": "Ranking the offices",
+   "text": "Limhi ranks the offices, Ammon reframes the ranking as accumulation, and then describes what a seer does: know past and future, make secret things manifest, bring hidden things to light. The passage ends on his usefulness."
+  },
+  {
+   "label": "v. 19–21",
+   "start": 19,
+   "end": 21,
+   "title": "The king's response",
+   "text": "He rejoices, thanks God, and concludes that the plates hold a great mystery and the interpreters were prepared to unfold it. Then the turn, on how long God suffers, how blind and impenetrable men are, and how they will not have wisdom rule them, ending with a scattered flock devoured in the forest."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "A failure produces the most valuable thing in the chapter",
+   "text": "Forty-three men set out to find Zarahemla and did not. What they brought back instead was a dead nation's record, and the book that comes out of it closes the whole volume. The record does not treat this as irony; it simply reports the sequence."
+  },
+  {
+   "n": 2,
+   "title": "The offices are ranked, against the Hebrew Bible's grain",
+   "text": "First Samuel explains that seer is the older word for prophet. Limhi says a seer is greater, and Ammon's answer keeps the ranking while removing the subtraction: a seer is a revelator and a prophet also. The passage is the record's own vocabulary being worked out in dialogue."
+  },
+  {
+   "n": 3,
+   "title": "The gift is defined by what it produces for other people",
+   "text": "Verse 18 ends the discussion on benefit to one's fellow beings. After four verses about extraordinary capacity, the summary is that the man is useful, the same move Benjamin made about kingship."
+  },
+  {
+   "n": 4,
+   "title": "A king in bondage asks a research question",
+   "text": "Limhi wants the plates translated to learn why that civilization was destroyed. He does not sound curious; he is a ruler whose own people are being crushed, looking for a case study. The book of Ether enters the record as an answer to a practical question."
+  },
+  {
+   "n": 5,
+   "title": "Benjamin's address travels by memory before it travels by plates",
+   "text": "Ammon rehearses it and explains it to a nation that was not there. The most important sermon in the record reaches its second audience through one man's recollection, and the chapter notes that he had to explain it as well as repeat it."
+  },
+  {
+   "n": 6,
+   "title": "The chapter ends on refusal rather than on discovery",
+   "text": "After plates, interpreters, and seers, Limhi's last words are about people who will not seek wisdom or let her govern them, and a flock devoured because it fled. The instruments exist; the obstacle named is that nobody wants what they offer."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Bring back what you found",
+    "verse_label": "v. 8",
+    "text": "The expedition failed and reported anyway. When something does not work out, take inventory of what you did encounter before writing the attempt off."
+   },
+   {
+    "title": "Ask the practical question about a ruin",
+    "verse_label": "v. 12",
+    "text": "Limhi wanted to know the cause of a destruction because he was living near one. Study a failure, whether a family's, an institution's, or your own, with the question \"why did this end\" rather than \"wasn't that sad.\""
+   },
+   {
+    "title": "Rehearse and explain",
+    "verse_label": "v. 3",
+    "text": "Ammon did both. When you pass on something you were taught, repeat it accurately and then say what it means, because the second audience was not in the room."
+   },
+   {
+    "title": "Measure a gift by its benefit",
+    "verse_label": "v. 18",
+    "text": "The chapter's summary of extraordinary spiritual capacity is that the man becomes useful. Take whatever you are good at and ask who is actually better off."
+   },
+   {
+    "title": "Notice what you decline before it is offered",
+    "verse_label": "v. 20",
+    "text": "The refusal in the verse happens at the level of desire. Ask what you have quietly decided you would rather not have govern you."
+   },
+   {
+    "title": "Watch the first verb",
+    "verse_label": "v. 21",
+    "text": "Flee, scatter, be driven, be devoured. Only the first was a choice. Identify a drift in your life and find the one voluntary step at the front of it."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "What did I find while failing at something else, and did I bother to report it?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "Whose collapse could teach me something if I looked at it honestly?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "Have I ever wanted access to something sacred for a reason I would not want examined?"
+   },
+   {
+    "verse_label": "v. 15",
+    "start": 15,
+    "end": 15,
+    "text": "Do I care more about the rank of a calling than about what it does?"
+   },
+   {
+    "verse_label": "v. 18",
+    "start": 18,
+    "end": 18,
+    "text": "Who is better off because of the thing I am best at?"
+   },
+   {
+    "verse_label": "v. 20",
+    "start": 20,
+    "end": 20,
+    "text": "What would it cost me to let wisdom actually rule, rather than advise?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "mos08-012",
+   "scope": "BOOK",
+   "head": "Mosiah 28:16",
+   "anchor": {
+    "verse": 16,
+    "w1": 5,
+    "w2": 13,
+    "quote": "a seer is a revelator and a prophet also"
+   },
+   "reason": "the shorter definition, given by custody",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 28,
+     "verse": 16,
+     "w1": 2,
+     "w2": 14,
+     "quote": "whosoever has these things is called seer, after the manner of old times.",
+     "verse_text": "And whosoever has these things is called seer, after the manner of old times.",
+     "markdown": "And **whosoever has these things is called seer, after the manner of old times**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos28-004"
+  },
+  {
+   "id": "mos08-011",
+   "scope": "BOOK",
+   "head": "Mosiah 21:27",
+   "anchor": {
+    "verse": 9,
+    "w1": 17,
+    "w2": 29,
+    "quote": "twenty-four plates which are filled with engravings, and they are of pure gold"
+   },
+   "reason": "the same find, told from Limhi's side",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 21,
+     "verse": 27,
+     "w1": 20,
+     "w2": 26,
+     "quote": "it was engraven on plates of ore.",
+     "verse_text": "And they brought a record with them, even a record of the people whose bones they had found; and it was engraven on plates of ore.",
+     "markdown": "And they brought a record with them, even a record of the people whose bones they had found; and **it was engraven on plates of ore**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos21-006"
+  },
+  {
+   "id": "mos08-006",
+   "scope": "BOOK",
+   "head": "Mosiah 28:12",
+   "anchor": {
+    "verse": 12,
+    "w1": 68,
+    "w2": 77,
+    "quote": "I am desirous to know the cause of their destruction"
+   },
+   "reason": "the same desire, named as the reason for translating",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 28,
+     "verse": 12,
+     "w1": 14,
+     "w2": 27,
+     "quote": "they were desirous beyond measure to know concerning those people who had been destroyed.",
+     "verse_text": "And this he did because of the great anxiety of his people; for they were desirous beyond measure to know concerning those people who had been destroyed.",
+     "markdown": "And this he did because of the great anxiety of his people; for **they were desirous beyond measure to know concerning those people who had been destroyed**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos28-002"
+  },
+  {
+   "id": "mos08-005",
+   "scope": "BOOK",
+   "head": "Mosiah 28:13",
+   "anchor": {
+    "verse": 13,
+    "w1": 22,
+    "w2": 37,
+    "quote": "he has wherewith that he can look, and translate all records that are of ancient date"
+   },
+   "reason": "the translation Ammon promised, carried out",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 28,
+     "verse": 13,
+     "w1": 3,
+     "w2": 22,
+     "quote": "he translated them by the means of those two stones which were fastened into the two rims of a bow.",
+     "verse_text": "And now he translated them by the means of those two stones which were fastened into the two rims of a bow.",
+     "markdown": "And now **he translated them by the means of those two stones which were fastened into the two rims of a bow**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos28-003"
+  },
+  {
+   "id": "mos08-002",
+   "scope": "BOOK",
+   "head": "Mosiah 2:9",
+   "anchor": {
+    "verse": 3,
+    "w1": 4,
+    "w2": 15,
+    "quote": "rehearsed unto them the last words which king Benjamin had taught them"
+   },
+   "reason": "the address carried to a second nation by memory",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 2,
+     "verse": 9,
+     "w1": 65,
+     "w2": 78,
+     "quote": "open your ears that ye may hear, and your hearts that ye may understand,",
+     "verse_text": "And these are the words which he spake and caused to be written, saying: My brethren, all ye that have assembled yourselves together, you that can hear my words which I shall speak unto you this day; for I have not commanded you to come up hither to trifle with the words which I shall speak, but that you should hearken unto me, and open your ears that ye may hear, and your hearts that ye may understand, and your minds that the mysteries of God may be unfolded to your view.",
+     "markdown": "And these are the words which he spake and caused to be written, saying: My brethren, all ye that have assembled yourselves together, you that can hear my words which I shall speak unto you this day; for I have not commanded you to come up hither to trifle with the words which I shall speak, but that you should hearken unto me, and **open your ears that ye may hear, and your hearts that ye may understand**, and your minds that the mysteries of God may be unfolded to your view.",
+     "span": true
+    }
+   ],
+   "mirror": "mos02-014"
+  },
+  {
+   "id": "mos08-001",
+   "scope": "BOOK",
+   "head": "Mosiah 6:3",
+   "anchor": {
+    "verse": 4,
+    "w1": 14,
+    "w2": 30,
+    "quote": "king Limhi dismissed the multitude, and caused that they should return every one unto his own house"
+   },
+   "reason": "the same closing gesture as Benjamin's assembly",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 6,
+     "verse": 3,
+     "w1": 79,
+     "w2": 95,
+     "quote": "he dismissed the multitude, and they returned, every one, according to their families, to their own houses.",
+     "verse_text": "And again, it came to pass that when king Benjamin had made an end of all these things, and had consecrated his son Mosiah to be a ruler and a king over his people, and had given him all the charges concerning the kingdom, and also had appointed priests to teach the people, that thereby they might hear and know the commandments of God, and to stir them up in remembrance of the oath which they had made, he dismissed the multitude, and they returned, every one, according to their families, to their own houses.",
+     "markdown": "And again, it came to pass that when king Benjamin had made an end of all these things, and had consecrated his son Mosiah to be a ruler and a king over his people, and had given him all the charges concerning the kingdom, and also had appointed priests to teach the people, that thereby they might hear and know the commandments of God, and to stir them up in remembrance of the oath which they had made, **he dismissed the multitude, and they returned, every one, according to their families, to their own houses**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos06-010"
+  },
+  {
+   "id": "mos08-004",
+   "scope": "BOM",
+   "head": "Alma 37:21",
+   "anchor": {
+    "verse": 9,
+    "w1": 17,
+    "w2": 29,
+    "quote": "twenty-four plates which are filled with engravings, and they are of pure gold"
+   },
+   "reason": "the same plates, charged to Helaman",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 37,
+     "verse": 21,
+     "w1": 72,
+     "w2": 74,
+     "quote": "preserve these interpreters.",
+     "verse_text": "And now, I will speak unto you concerning those twenty-four plates, that ye keep them, that the mysteries and the works of darkness, and their secret works, or the secret works of those people who have been destroyed, may be made manifest unto this people; yea, all their murders, and robbings, and their plunderings, and all their wickedness and abominations, may be made manifest unto this people; yea, and that ye preserve these interpreters.",
+     "markdown": "And now, I will speak unto you concerning those twenty-four plates, that ye keep them, that the mysteries and the works of darkness, and their secret works, or the secret works of those people who have been destroyed, may be made manifest unto this people; yea, all their murders, and robbings, and their plunderings, and all their wickedness and abominations, may be made manifest unto this people; yea, and that ye **preserve these interpreters**.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "mos08-003",
+   "scope": "BOM",
+   "head": "Ether 1:1",
+   "anchor": {
+    "verse": 8,
+    "w1": 38,
+    "w2": 51,
+    "quote": "having discovered a land which was covered with bones of men, and of beasts"
+   },
+   "reason": "the nation whose ruins these were",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 1,
+     "verse": 1,
+     "w1": 3,
+     "w2": 22,
+     "quote": "I, Moroni, proceed to give an account of those ancient inhabitants who were destroyed by the hand of the Lord",
+     "verse_text": "And now I, Moroni, proceed to give an account of those ancient inhabitants who were destroyed by the hand of the Lord upon the face of this north country.",
+     "markdown": "And now **I, Moroni, proceed to give an account of those ancient inhabitants who were destroyed by the hand of the Lord** upon the face of this north country.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "mos08-010",
+   "scope": "SW",
+   "head": "James 5:3",
+   "anchor": {
+    "verse": 11,
+    "w1": 13,
+    "w2": 19,
+    "quote": "the blades thereof were cankered with rust"
+   },
+   "reason": "the same verb, of metal eaten through",
+   "targets": [
+    {
+     "ref": "James",
+     "chapter": 5,
+     "verse": 3,
+     "w1": 1,
+     "w2": 6,
+     "quote": "Your gold and silver is cankered;",
+     "verse_text": "Your gold and silver is cankered; and the rust of them shall be a witness against you, and shall eat your flesh as it were fire. Ye have heaped treasure together for the last days.",
+     "markdown": "**Your gold and silver is cankered**; and the rust of them shall be a witness against you, and shall eat your flesh as it were fire. Ye have heaped treasure together for the last days.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "mos08-009",
+   "scope": "SW",
+   "head": "Ezek. 34:5",
+   "anchor": {
+    "verse": 21,
+    "w1": 4,
+    "w2": 14,
+    "quote": "as a wild flock which fleeth from the shepherd, and scattereth"
+   },
+   "reason": "a flock scattered for want of a shepherd",
+   "targets": [
+    {
+     "ref": "Ezek.",
+     "chapter": 34,
+     "verse": 5,
+     "w1": 2,
+     "w2": 9,
+     "quote": "they were scattered, because there is no shepherd:",
+     "verse_text": "And they were scattered, because there is no shepherd: and they became meat to all the beasts of the field, when they were scattered.",
+     "markdown": "And **they were scattered, because there is no shepherd**: and they became meat to all the beasts of the field, when they were scattered.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "mos08-008",
+   "scope": "SW",
+   "head": "Prov. 8:11",
+   "anchor": {
+    "verse": 20,
+    "w1": 39,
+    "w2": 48,
+    "quote": "neither do they desire that she should rule over them"
+   },
+   "reason": "wisdom personified, and what she is worth",
+   "targets": [
+    {
+     "ref": "Prov.",
+     "chapter": 8,
+     "verse": 11,
+     "w1": 1,
+     "w2": 6,
+     "quote": "For wisdom is better than rubies;",
+     "verse_text": "For wisdom is better than rubies; and all the things that may be desired are not to be compared to it.",
+     "markdown": "**For wisdom is better than rubies**; and all the things that may be desired are not to be compared to it.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "mos08-007",
+   "scope": "SW",
+   "head": "1 Sam. 9:9",
+   "anchor": {
+    "verse": 15,
+    "w1": 6,
+    "w2": 12,
+    "quote": "a seer is greater than a prophet"
+   },
+   "reason": "the Hebrew Bible calling the two terms the same office",
+   "targets": [
+    {
+     "ref": "1 Sam.",
+     "chapter": 9,
+     "verse": 9,
+     "w1": 24,
+     "w2": 35,
+     "quote": "he that is now called a Prophet was beforetime called a Seer.)",
+     "verse_text": "(Beforetime in Israel, when a man went to inquire of God, thus he spake, Come, and let us go to the seer: for he that is now called a Prophet was beforetime called a Seer.)",
+     "markdown": "(Beforetime in Israel, when a man went to inquire of God, thus he spake, Come, and let us go to the seer: for **he that is now called a Prophet was beforetime called a Seer.)**",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 3,
+   "w1": 4,
+   "w2": 15,
+   "quote": "rehearsed unto them the last words which king Benjamin had taught them",
+   "entries": [
+    "mos08-002"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 14,
+   "w2": 30,
+   "quote": "king Limhi dismissed the multitude, and caused that they should return every one unto his own house",
+   "entries": [
+    "mos08-001"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 38,
+   "w2": 51,
+   "quote": "having discovered a land which was covered with bones of men, and of beasts",
+   "entries": [
+    "mos08-003"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 17,
+   "w2": 29,
+   "quote": "twenty-four plates which are filled with engravings, and they are of pure gold",
+   "entries": [
+    "mos08-011",
+    "mos08-004"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 13,
+   "w2": 19,
+   "quote": "the blades thereof were cankered with rust",
+   "entries": [
+    "mos08-010"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 68,
+   "w2": 77,
+   "quote": "I am desirous to know the cause of their destruction",
+   "entries": [
+    "mos08-006"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 22,
+   "w2": 37,
+   "quote": "he has wherewith that he can look, and translate all records that are of ancient date",
+   "entries": [
+    "mos08-005"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 6,
+   "w2": 12,
+   "quote": "a seer is greater than a prophet",
+   "entries": [
+    "mos08-007"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 5,
+   "w2": 13,
+   "quote": "a seer is a revelator and a prophet also",
+   "entries": [
+    "mos08-012"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 39,
+   "w2": 48,
+   "quote": "neither do they desire that she should rule over them",
+   "entries": [
+    "mos08-008"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 4,
+   "w2": 14,
+   "quote": "as a wild flock which fleeth from the shepherd, and scattereth",
+   "entries": [
+    "mos08-009"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "99ac4019caa01e82"
+ }
+}

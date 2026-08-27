@@ -17,7 +17,7 @@
    "The comparison reversed",
    "Editorial closing"
   ],
-  "connections": 10,
+  "connections": 12,
   "initial": false
  },
  "world_behind": [
@@ -46,7 +46,7 @@
   {
    "n": 3,
    "title": "\"Whiter\" is a cleansing word in the King James Bible",
-   "text": "Its two other occurrences are the psalmist asking to be washed whiter than snow, and Lamentations describing Nazarites. Verse 8 puts the comparison at the throne of God and makes it about repented sin, which is the frame the sentence supplies for itself."
+   "text": "Its two other occurrences are the psalmist asking to be washed whiter than snow, and Lamentations describing Nazarites. Verse 8 puts the comparison at the throne of God and makes it about repented sin. The sentence supplies its own frame."
   },
   {
    "n": 4,
@@ -68,69 +68,148 @@
   {
    "n": 5,
    "title": "The second death, arriving early",
-   "text": "Verse 11 introduces the term into this record — Alma and Samuel will later build whole arguments on it, and Revelation is where it comes from — and Jacob spends no time defining it. He drops it at the end of a string of imperatives as the thing being escaped from, which means the phrase was already intelligible to a congregation sixty years out of Jerusalem."
+   "text": "Verse 11 introduces the term into this record. It comes from Revelation, and Alma and Samuel will later build whole arguments on it. Jacob spends no time defining it. He drops it at the end of a string of imperatives as the thing being escaped from, which suggests the phrase was already intelligible to a congregation sixty years out of Jerusalem."
   }
  ],
  "words": [
   {
-   "term": "console",
+   "term": "Console",
    "verse_label": "v. 1",
-   "text": "Not to cheer but to stand alongside. The verb belongs with the legal language in the same verse — plead your cause, send down justice — so the consolation offered is the presence of an advocate rather than a change of feeling. The afflicted are promised representation."
+   "text": "Not to cheer but to stand alongside. The verb belongs with the legal language in the same verse, which speaks of pleading your cause and sending down justice. The consolation offered is the presence of an advocate. The afflicted are promised representation."
   },
   {
-   "term": "revile",
+   "term": "Scourge",
+   "verse_label": "v. 3",
+   "text": "A scourge is a whip. The Lord had already told Nephi what the Lamanites would be, \"a scourge unto thy seed, to stir them up in remembrance of me\" (2 Ne. 5:25), and this verse repeats the sentence that followed it, \"shall scourge you even unto destruction\" (v. 3), with the pronoun turned around because Jacob is speaking to the people who will be struck. The same sentence says that the people holding the whip are not filthy like the people about to feel it.",
+   "cites": [
+    {
+     "quote": "shall scourge you even unto destruction",
+     "verse": 3,
+     "start": 214,
+     "end": 262,
+     "spans": [
+      {
+       "w1": 48,
+       "w2": 53,
+       "text": "shall scourge you even unto destruction"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 5:25",
+     "start": 147,
+     "end": 157,
+     "book": "2 Ne",
+     "chapter": 5,
+     "verse_start": 25,
+     "verse_end": 25
+    }
+   ]
+  },
+  {
+   "term": "Observance",
+   "verse_label": "v. 6",
+   "text": "Jacob starts with the verb, that the Lamanites \"observe to keep\" this commandment (v. 6), and then names the keeping itself, so that the mercy promised in the rest of the verse hangs on the observance. The weight falls on the practice rather than on any conviction behind it, which matters in this chapter, because the next verse traces their unbelief to their fathers. The noun is used once in the record and not at all in the King James Bible.",
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 6)",
+     "start": 82,
+     "end": 88,
+     "verse_start": 6,
+     "verse_end": 6
+    }
+   ]
+  },
+  {
+   "term": "Revile",
    "verse_label": "v. 9",
-   "text": "To speak abusively, and in this record it is normally what the wicked do to the prophets. Here it is what the covenant people are forbidden to do to their enemies, and it is issued as a commandment rather than as counsel — \"a commandment I give unto you, which is the word of God.\""
+   "text": "To speak abusively, and in this record it is normally what the wicked do to the prophets. Here it is what the covenant people are forbidden to do to their enemies, and it is issued as a commandment rather than as counsel: \"a commandment I give unto you, which is the word of God.\""
   },
   {
-   "term": "arouse",
+   "term": "Arouse",
    "verse_label": "v. 11",
-   "text": "Unique here. The object is not the person but \"the faculties of your souls,\" which treats the inner life as a set of capacities that can be asleep while the body is awake. The verse then stacks three imperatives — arouse, shake, loose — each one a physical action applied to something that is not a body."
+   "text": "Unique here. The object is \"the faculties of your souls,\" which treats the inner life as a set of capacities that can be asleep while the body is awake. The verse then stacks three imperatives (arouse, shake, loose), each one a physical action applied to something that is not a body."
+  },
+  {
+   "term": "Lasciviousness",
+   "verse_label": "v. 12",
+   "text": "Lasciviousness is appetite without restraint. It turns up in the summary of everything else Jacob preached, paired with fornication, and in the King James Bible those two words stand side by side in the list of the works of the flesh (Gal. 5:19). The sermon itself had used a different one, \"whoredoms\" (v. 5), the word the Hebrew prophets use for the same conduct. The vocabulary changes at the point where the record stops giving the sermon and starts summarizing it.",
+   "cites": [
+    {
+     "quote": "whoredoms",
+     "verse": 5,
+     "start": 291,
+     "end": 309,
+     "spans": [
+      {
+       "w1": 62,
+       "w2": 62,
+       "text": "whoredoms"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Gal. 5:19",
+     "start": 235,
+     "end": 244,
+     "book": "Gal",
+     "chapter": 5,
+     "verse_start": 19,
+     "verse_end": 19
+    }
+   ]
   }
  ],
  "phrases": [
   {
-   "term": "he will plead your cause, and send down justice",
+   "term": "He will plead your cause, and send down justice",
    "verse_label": "v. 1",
-   "text": "Courtroom vocabulary, and the psalms are full of it. What is unusual is the recipient: the comfort offered to the injured is not that their pain will be soothed but that their case will be argued. Jacob tells the wounded party that God will act as counsel, which is a strange consolation and a durable one."
+   "text": "Courtroom vocabulary, and the psalms are full of it. What is unusual is the recipient: the comfort offered to the injured is not that their pain will be soothed but that their case will be argued. Jacob tells the wounded party that God will act as counsel, a strange consolation and a durable one."
   },
   {
-   "term": "feast upon his love; for ye may, if your minds are firm, forever",
+   "term": "Feast upon his love; for ye may, if your minds are firm, forever",
    "verse_label": "v. 2",
-   "text": "The condition is placed inside the promise and the last word is left hanging past it. Firmness of mind is what makes the feasting permanent, which links back to \"look unto God with firmness of mind\" in the previous verse. The pure in heart are given a practice, not just a reassurance."
+   "text": "The condition is placed inside the promise and the last word is left hanging past it. Firmness of mind is what makes the feasting permanent, which links back to \"look unto God with firmness of mind\" in the previous verse. The pure in heart are given a practice to do."
   },
   {
-   "term": "the Lamanites, which are not filthy like unto you",
+   "term": "The Lamanites, which are not filthy like unto you",
    "verse_label": "v. 3",
    "text": "Stated to a congregation that had just been told it was the more favored people. The clause is put in the middle of a woe, and its function is to remove the ground the hearers are standing on before the woe finishes. Nothing in it is softened by the surrounding sentence."
   },
   {
-   "term": "they have not forgotten the commandment of the Lord, which was given unto our father",
+   "term": "They have not forgotten the commandment of the Lord, which was given unto our father",
    "verse_label": "v. 5",
    "text": "The reason for the reversal is specific and it is documentary. The Lamanites kept a commandment Lehi received; the Nephites, who have the plates and the temple and the priests, did not. Fidelity is measured against a shared inheritance, and the group with fewer advantages comes out ahead on the one point being tested."
   },
   {
-   "term": "their husbands love their wives, and their wives love their husbands",
+   "term": "Their husbands love their wives, and their wives love their husbands",
    "verse_label": "v. 7",
    "text": "Four clauses of ordinary domestic affection, listed without qualification, about the people the audience hates. The sentence does no theology. It simply reports what those households are like, and then asks the comparative question that the report has already answered."
   },
   {
-   "term": "ye shall remember your own filthiness",
+   "term": "Ye shall remember your own filthiness",
    "verse_label": "v. 9",
-   "text": "The chapter uses this noun three times in three directions — theirs in verse 3, yours here, their fathers' in the same verse — and refuses to let it settle on one group. The commandment that results is an act of memory rather than of speech: silence toward the other is required, but the substance of the requirement is recollection about oneself. Jacob does not ask the people to think better of the Lamanites; he asks them to think accurately about themselves."
+   "text": "The chapter uses this noun three times in three directions. It is theirs in verse 3, yours here, their fathers' in the same verse, and it never settles on one group. The commandment that results is an act of memory: silence toward the other is required, but the substance of the requirement is recollection about oneself. Jacob does not ask the people to think better of the Lamanites; he asks them to think accurately about themselves."
   },
   {
-   "term": "their sins be heaped upon your heads at the last day",
+   "term": "Their sins be heaped upon your heads at the last day",
    "verse_label": "v. 10",
    "text": "The transfer of liability from the previous chapter, applied to parents. Jacob answered for his people's sins if he failed to teach; here fathers answer for their children's if the example fails. The same legal shape is used twice in two chapters, and both times the person with authority carries the risk."
   },
   {
-   "term": "shake yourselves that ye may awake from the slumber of death",
+   "term": "Shake yourselves that ye may awake from the slumber of death",
    "verse_label": "v. 11",
    "text": "Lehi told his sons to shake off the chains and awake from a deep sleep, and Jacob is quoting his father back at his father's other descendants. The image has traveled from a deathbed exhortation to a temple sermon, and Jacob uses the same verb in the same imperative mood."
   },
   {
-   "term": "a hundredth part of the proceedings of this people... cannot be written",
+   "term": "A hundredth part of the proceedings of this people... cannot be written",
    "verse_label": "v. 13",
    "text": "The record's first use of a formula it will run five more times before it closes. Jacob invents the phrase as a practical complaint about metal and space, and it becomes the standard way this book tells its reader that it is a selection."
   }
@@ -155,7 +234,7 @@
    "start": 5,
    "end": 7,
    "title": "The comparison, argued",
-   "text": "Three verses of evidence: the Lamanites kept the marriage commandment given to Lehi, the Lord will therefore be merciful and they will one day be a blessed people, their households are affectionate, and their hostility traces to their fathers rather than to themselves. Then the question, which is not rhetorical so much as arithmetical."
+   "text": "Three verses of evidence: the Lamanites kept the marriage commandment given to Lehi, the Lord will therefore be merciful and they will one day be a blessed people, their households are affectionate, and their hostility traces to their fathers. Then the question, and it asks for a real answer."
   },
   {
    "label": "v. 8–9",
@@ -176,21 +255,21 @@
    "start": 11,
    "end": 12,
    "title": "Wake up",
-   "text": "Three imperatives, a lake of fire, the second death, and then a one-verse summary of everything else Jacob said that is not recorded. The peroration is the most vertical language in the sermon and the shortest passage in it."
+   "text": "Three imperatives, a lake of fire, the second death, and then a one-verse summary of everything else Jacob said that is not recorded. The close lifts higher than anything else in the sermon, and it is also the shortest passage in it."
   },
   {
    "label": "v. 13–14",
    "start": 13,
    "end": 14,
    "title": "Bookkeeping",
-   "text": "The sermon stops and the scribe takes over: a hundredth part cannot be written, the histories and the wars and the reigns are on the larger set, and this metal has a name and a maker. Two verses of administration after a chapter of fire, and the switch in register is not remarked on."
+   "text": "The sermon stops and the scribe takes over: a hundredth part cannot be written, the histories and the wars and the reigns are on the larger set, and this metal has a name and a maker. Two verses of administration after a chapter of fire, and the change of tone is not remarked on."
   }
  ],
  "chapter": [
   {
    "n": 1,
    "title": "The order of address is the argument",
-   "text": "Comfort first, woe second, correction third, colophon last. Jacob had spent ten verses in the previous chapter dreading what his rebuke would do to the innocent; the first thing he does the next day is pay that debt. Very few discourses in the record are structured around the preacher's own stated regret."
+   "text": "Comfort first, woe second, correction third, sign-off last. Jacob had spent ten verses in the previous chapter dreading what his rebuke would do to the innocent; the first thing he does the next day is pay that debt. Very few discourses in the record are structured around the preacher's own stated regret."
   },
   {
    "n": 2,
@@ -214,8 +293,8 @@
   },
   {
    "n": 6,
-   "title": "The colophon changes what the sermon is",
-   "text": "Two verses of bookkeeping at the end reframe everything above as an excerpt. Jacob says outright that he preached much more and that a hundredth part cannot be recorded. What survives is what he judged most precious, which is the rule he announced in his first chapter."
+   "title": "The sign-off changes what the sermon is",
+   "text": "Two verses of bookkeeping at the end reframe everything above as an excerpt. Jacob says outright that he preached much more and that a hundredth part cannot be recorded. What survives is what he judged most precious. That was the rule he announced in his first chapter."
   },
   {
    "n": 7,
@@ -315,6 +394,8 @@
      "w1": 15,
      "w2": 24,
      "quote": "answering the sins of the people upon our own heads",
+     "verse_text": "And we did magnify our office unto the Lord, taking upon us the responsibility, answering the sins of the people upon our own heads if we did not teach them the word of God with all diligence; wherefore, by laboring with our might their blood might not come upon our garments; otherwise their blood would come upon our garments, and we would not be found spotless at the last day.",
+     "markdown": "And we did magnify our office unto the Lord, taking upon us the responsibility, **answering the sins of the people upon our own heads** if we did not teach them the word of God with all diligence; wherefore, by laboring with our might their blood might not come upon our garments; otherwise their blood would come upon our garments, and we would not be found spotless at the last day.",
      "span": true
     }
    ],
@@ -338,7 +419,9 @@
      "verse": 8,
      "w1": 19,
      "w2": 25,
-     "quote": "the word which healeth the wounded soul",
+     "quote": "the word which healeth the wounded soul.",
+     "verse_text": "And it supposeth me that they have come up hither to hear the pleasing word of God, yea, the word which healeth the wounded soul.",
+     "markdown": "And it supposeth me that they have come up hither to hear the pleasing word of God, yea, **the word which healeth the wounded soul**.",
      "span": true
     }
    ],
@@ -362,11 +445,65 @@
      "verse": 10,
      "w1": 26,
      "w2": 33,
-     "quote": "in the presence of the pure in heart",
+     "quote": "in the presence of the pure in heart,",
+     "verse_text": "But, notwithstanding the greatness of the task, I must do according to the strict commands of God, and tell you concerning your wickedness and abominations, in the presence of the pure in heart, and the broken heart, and under the glance of the piercing eye of the Almighty God.",
+     "markdown": "But, notwithstanding the greatness of the task, I must do according to the strict commands of God, and tell you concerning your wickedness and abominations, **in the presence of the pure in heart**, and the broken heart, and under the glance of the piercing eye of the Almighty God.",
      "span": true
     }
    ],
    "mirror": "jac02-004"
+  },
+  {
+   "id": "jac03-012",
+   "scope": "BOM",
+   "head": "Alma 3:6",
+   "anchor": {
+    "verse": 9,
+    "w1": 16,
+    "w2": 27,
+    "quote": "revile no more against them because of the darkness of their skins"
+   },
+   "reason": "the prohibition standing over the later account",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 3,
+     "verse": 6,
+     "w1": 2,
+     "w2": 8,
+     "quote": "the skins of the Lamanites were dark,",
+     "verse_text": "And the skins of the Lamanites were dark, according to the mark which was set upon their fathers, which was a curse upon them because of their transgression and their rebellion against their brethren, who consisted of Nephi, Jacob, and Joseph, and Sam, who were just and holy men.",
+     "markdown": "And **the skins of the Lamanites were dark**, according to the mark which was set upon their fathers, which was a curse upon them because of their transgression and their rebellion against their brethren, who consisted of Nephi, Jacob, and Joseph, and Sam, who were just and holy men.",
+     "span": true
+    }
+   ],
+   "mirror": "al03-009"
+  },
+  {
+   "id": "jac03-011",
+   "scope": "BOM",
+   "head": "Mosiah 9:12",
+   "anchor": {
+    "verse": 5,
+    "w1": 22,
+    "w2": 26,
+    "quote": "are more righteous than you"
+   },
+   "reason": "a colonist at war describing the same people",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 9,
+     "verse": 12,
+     "w1": 1,
+     "w2": 9,
+     "quote": "Now they were a lazy and an idolatrous people;",
+     "verse_text": "Now they were a lazy and an idolatrous people; therefore they were desirous to bring us into bondage, that they might glut themselves with the labors of our hands; yea, that they might feast themselves upon the flocks of our fields.",
+     "markdown": "**Now they were a lazy and an idolatrous people**; therefore they were desirous to bring us into bondage, that they might glut themselves with the labors of our hands; yea, that they might feast themselves upon the flocks of our fields.",
+     "span": true
+    }
+   ],
+   "mirror": "mos09-003"
   },
   {
    "id": "jac03-010",
@@ -386,7 +523,9 @@
      "verse": 5,
      "w1": 26,
      "w2": 37,
-     "quote": "I cannot write the hundredth part of the things of my people",
+     "quote": "I cannot write the hundredth part of the things of my people.",
+     "verse_text": "Wherefore, I chose these things, to finish my record upon them, which remainder of my record I shall take from the plates of Nephi; and I cannot write the hundredth part of the things of my people.",
+     "markdown": "Wherefore, I chose these things, to finish my record upon them, which remainder of my record I shall take from the plates of Nephi; and **I cannot write the hundredth part of the things of my people**.",
      "span": true
     }
    ],
@@ -410,7 +549,9 @@
      "verse": 5,
      "w1": 26,
      "w2": 37,
-     "quote": "I cannot write the hundredth part of the things of my people",
+     "quote": "I cannot write the hundredth part of the things of my people.",
+     "verse_text": "Wherefore, I chose these things, to finish my record upon them, which remainder of my record I shall take from the plates of Nephi; and I cannot write the hundredth part of the things of my people.",
+     "markdown": "Wherefore, I chose these things, to finish my record upon them, which remainder of my record I shall take from the plates of Nephi; and **I cannot write the hundredth part of the things of my people**.",
      "span": true
     }
    ],
@@ -434,7 +575,9 @@
      "verse": 13,
      "w1": 6,
      "w2": 10,
-     "quote": "awake from a deep sleep",
+     "quote": "awake from a deep sleep,",
+     "verse_text": "O that ye would awake; awake from a deep sleep, yea, even from the sleep of hell, and shake off the awful chains by which ye are bound, which are the chains which bind the children of men, that they are carried away captive down to the eternal gulf of misery and woe.",
+     "markdown": "O that ye would awake; **awake from a deep sleep**, yea, even from the sleep of hell, and shake off the awful chains by which ye are bound, which are the chains which bind the children of men, that they are carried away captive down to the eternal gulf of misery and woe.",
      "span": true
     }
    ],
@@ -458,7 +601,9 @@
      "verse": 21,
      "w1": 61,
      "w2": 68,
-     "quote": "a skin of blackness to come upon them",
+     "quote": "a skin of blackness to come upon them.",
+     "verse_text": "And he had caused the cursing to come upon them, yea, even a sore cursing, because of their iniquity. For behold, they had hardened their hearts against him, that they had become like unto a flint; wherefore, as they were white, and exceedingly fair and delightsome, that they might not be enticing unto my people the Lord God did cause a skin of blackness to come upon them.",
+     "markdown": "And he had caused the cursing to come upon them, yea, even a sore cursing, because of their iniquity. For behold, they had hardened their hearts against him, that they had become like unto a flint; wherefore, as they were white, and exceedingly fair and delightsome, that they might not be enticing unto my people the Lord God did cause **a skin of blackness to come upon them**.",
      "span": true
     }
    ],
@@ -482,7 +627,9 @@
      "verse": 1,
      "w1": 1,
      "w2": 11,
-     "quote": "Plead my cause, O LORD, with them that strive with me",
+     "quote": "Plead my cause, O LORD, with them that strive with me:",
+     "verse_text": "Plead my cause, O LORD, with them that strive with me: fight against them that fight against me.",
+     "markdown": "**Plead my cause, O LORD, with them that strive with me**: fight against them that fight against me.",
      "span": true
     }
    ],
@@ -506,7 +653,9 @@
      "verse": 7,
      "w1": 10,
      "w2": 18,
-     "quote": "wash me, and I shall be whiter than snow",
+     "quote": "wash me, and I shall be whiter than snow.",
+     "verse_text": "Purge me with hyssop, and I shall be clean: wash me, and I shall be whiter than snow.",
+     "markdown": "Purge me with hyssop, and I shall be clean: **wash me, and I shall be whiter than snow**.",
      "span": true
     }
    ],
@@ -530,7 +679,9 @@
      "verse": 26,
      "w1": 7,
      "w2": 13,
-     "quote": "She hath been more righteous than I",
+     "quote": "She hath been more righteous than I;",
+     "verse_text": "And Judah acknowledged them, and said, She hath been more righteous than I; because that I gave her not to Shelah my son. And he knew her again no more.",
+     "markdown": "And Judah acknowledged them, and said, **She hath been more righteous than I**; because that I gave her not to Shelah my son. And he knew her again no more.",
      "span": true
     }
    ],
@@ -571,6 +722,7 @@
    "w2": 26,
    "quote": "are more righteous than you",
    "entries": [
+    "jac03-011",
     "jac03-007"
    ]
   },
@@ -589,6 +741,7 @@
    "w2": 27,
    "quote": "revile no more against them because of the darkness of their skins",
    "entries": [
+    "jac03-012",
     "jac03-004"
    ]
   },
@@ -622,7 +775,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-18",
-  "source_sha256": "6b871cfc76d81134"
+  "at": "2026-08-25",
+  "source_sha256": "054d24d17c4a6abb"
  }
 }

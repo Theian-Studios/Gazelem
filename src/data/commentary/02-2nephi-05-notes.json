@@ -17,7 +17,7 @@
    "Industry",
    "Worship"
   ],
-  "connections": 13,
+  "connections": 16,
   "initial": false
  },
  "world_behind": [
@@ -57,10 +57,10 @@
   {
    "n": 2,
    "title": "A people named for a man",
-   "text": "\"did take upon them to call themselves the people of Nephi\" (v. 9): identity in the new colony runs by covenant leader, not by tribe. The record will keep the convention for centuries, Nephites and Lamanites as chosen namings rather than mere bloodlines, which is why later chapters can move individuals between the names.",
+   "text": "\"Did take upon them to call themselves the people of Nephi\" (v. 9): identity in the new colony runs by covenant leader. The record will keep the convention for centuries: Nephites and Lamanites are names a person takes on, and later chapters can move individuals between them.",
    "cites": [
     {
-     "quote": "did take upon them to call themselves the people of Nephi",
+     "quote": "Did take upon them to call themselves the people of Nephi",
      "verse": 9,
      "start": 0,
      "end": 66,
@@ -68,7 +68,7 @@
       {
        "w1": 8,
        "w2": 18,
-       "text": "did take upon them to call themselves the people of Nephi"
+       "text": "Did take upon them to call themselves the people of Nephi"
       }
      ]
     }
@@ -205,15 +205,15 @@
  ],
  "words": [
   {
-   "term": "flee",
+   "term": "Flee",
    "verse_label": "v. 5",
-   "text": "The command is not to fight or to reform the brethren but to \"flee into the wilderness\" (v. 5). Flight in this record is an obedience word, not a coward's: Lehi fled, Nephi flees, and both departures preserve a covenant line that staying would have buried. Some situations are answered faithfully only by leaving.",
+   "text": "The command is to leave the brethren behind: \"flee into the wilderness\" (v. 5). Flight in this record is an obedience word, not a coward's: Lehi fled, Nephi flees, and both departures preserve a covenant line that staying would have buried. Some situations are answered faithfully only by leaving.",
    "cites": [
     {
      "quote": "flee into the wilderness",
      "verse": 5,
-     "start": 61,
-     "end": 94,
+     "start": 45,
+     "end": 78,
      "spans": [
       {
        "w1": 20,
@@ -225,12 +225,74 @@
    ]
   },
   {
-   "term": "industrious",
-   "verse_label": "v. 17",
-   "text": "\"did cause my people to be industrious, and to labor with their hands\" (v. 17): the colony's founding economics, stated as a commandment kept. The record treats industry as a spiritual datum, listed between temple-building and kingship; idleness will appear one verse later as a mark of the cursed condition (v. 24), and the contrast is deliberate.",
+   "term": "Steel",
+   "verse_label": "v. 15",
+   "text": "In King James English the word belongs to weapons: a bow of steel broken in the arms (2 Sam. 22:35), the northern iron and the steel (Jer. 15:12). This family's two encounters with it run the same way, Laban's blade (1 Ne. 4:9) and the bow that snapped in the wilderness (1 Ne. 16:18). Here it turns up in a shop list, \"wood, and of iron, and of copper, and of brass, and of steel\" (v. 15), taught to a whole colony next to carpentry. What had been the metal of the family's worst moments becomes a trade.",
    "cites": [
     {
-     "quote": "did cause my people to be industrious, and to labor with their hands",
+     "quote": "wood, and of iron, and of copper, and of brass, and of steel",
+     "verse": 15,
+     "start": 319,
+     "end": 389,
+     "spans": [
+      {
+       "w1": 17,
+       "w2": 29,
+       "text": "wood, and of iron, and of copper, and of brass, and of steel"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Sam. 22:35",
+     "start": 86,
+     "end": 98,
+     "book": "2 Sam",
+     "chapter": 22,
+     "verse_start": 35,
+     "verse_end": 35
+    },
+    {
+     "kind": "scripture",
+     "text": "Jer. 15:12",
+     "start": 134,
+     "end": 144,
+     "book": "Jer",
+     "chapter": 15,
+     "verse_start": 12,
+     "verse_end": 12
+    },
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 4:9",
+     "start": 217,
+     "end": 226,
+     "book": "1 Ne",
+     "chapter": 4,
+     "verse_start": 9,
+     "verse_end": 9
+    },
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 16:18",
+     "start": 272,
+     "end": 283,
+     "book": "1 Ne",
+     "chapter": 16,
+     "verse_start": 18,
+     "verse_end": 18
+    }
+   ]
+  },
+  {
+   "term": "Industrious",
+   "verse_label": "v. 17",
+   "text": "\"Did cause my people to be industrious, and to labor with their hands\" (v. 17): the colony's founding economics, stated as a commandment kept. The record treats industry as a spiritual datum, listed between temple-building and kingship; idleness will appear one verse later as a mark of the cursed condition (v. 24), and the contrast is deliberate.",
+   "cites": [
+    {
+     "quote": "Did cause my people to be industrious, and to labor with their hands",
      "verse": 17,
      "start": 0,
      "end": 78,
@@ -238,7 +300,7 @@
       {
        "w1": 9,
        "w2": 21,
-       "text": "did cause my people to be industrious, and to labor with their hands"
+       "text": "Did cause my people to be industrious, and to labor with their hands"
       }
      ]
     }
@@ -255,7 +317,7 @@
    ]
   },
   {
-   "term": "consecrate",
+   "term": "Consecrate",
    "verse_label": "v. 26",
    "text": "Third use in five chapters: land (2 Ne. 1:7), afflictions (2 Ne. 2:2), and now persons, Jacob and Joseph \"that they should be priests and teachers over the land of my people\" (v. 26). The verb's arc is the colony's: everything the covenant touches, territory, suffering, and finally ministry, gets set apart for sacred use.",
    "cites": [
@@ -295,11 +357,63 @@
      "verse_end": 2
     }
    ]
+  },
+  {
+   "term": "Sufficeth",
+   "verse_label": "v. 34",
+   "text": "An engraver's word for stopping. Forty years and a war close the book in a single line because the writer judges that enough: \"it sufficeth me to say that forty years had passed away, and we had already had wars and contentions with our brethren\" (v. 34). The formula runs in the family trade. Nephi used it to skip the genealogy (1 Ne. 6:2), Jarom uses it to explain why he writes so little (Jarom 1:2), and Moroni to hold back most of what the brother of Jared saw (Ether 3:17). It marks the spot where the keeper of the plates sets the limit, rather than the material setting it.",
+   "cites": [
+    {
+     "quote": "it sufficeth me to say that forty years had passed away, and we had already had wars and contentions with our brethren",
+     "verse": 34,
+     "start": 126,
+     "end": 254,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 23,
+       "text": "it sufficeth me to say that forty years had passed away, and we had already had wars and contentions with our brethren"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 6:2",
+     "start": 331,
+     "end": 340,
+     "book": "1 Ne",
+     "chapter": 6,
+     "verse_start": 2,
+     "verse_end": 2
+    },
+    {
+     "kind": "scripture",
+     "text": "Jarom 1:2",
+     "start": 393,
+     "end": 402,
+     "book": "Jarom",
+     "chapter": 1,
+     "verse_start": 2,
+     "verse_end": 2
+    },
+    {
+     "kind": "scripture",
+     "text": "Ether 3:17",
+     "start": 468,
+     "end": 478,
+     "book": "Ether",
+     "chapter": 3,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
   }
  ],
  "phrases": [
   {
-   "term": "all those who would go with me",
+   "term": "All those who would go with me",
    "verse_label": "v. 6",
    "text": "The migration's membership clause, stated twice and then defined: \"those who believed in the warnings and the revelations of God\" (v. 6). The split does not run along bloodlines, Zoram's house, Sam's, sisters, and unnamed others cross it, but along belief. The first Nephite community is a church before it is an ethnicity.",
    "cites": [
@@ -319,7 +433,7 @@
    ]
   },
   {
-   "term": "we did prosper exceedingly",
+   "term": "We did prosper exceedingly",
    "verse_label": "v. 11",
    "text": "The covenant formula's bright clause, executing on schedule and flagged again two verses later (\"began to prosper exceedingly\" (v. 13)). Sown seed, reaped abundance, flocks and herds: the record submits its evidence that the valley promise (1 Ne. 2:20; 2 Ne. 1:20) pays as written, before showing the dark clause executing too.",
    "cites": [
@@ -361,7 +475,7 @@
    ]
   },
   {
-   "term": "after the manner of the temple of Solomon",
+   "term": "After the manner of the temple of Solomon",
    "verse_label": "v. 16",
    "text": "The pattern named, the scale conceded: not \"built of so many precious things\" (v. 16), for \"they were not to be found upon the land\" (v. 16). The record's honesty about the downgrade is the point: covenant worship replicates the pattern, not the budget, and the appraiser's formula still applies to the result.",
    "cites": [
@@ -394,7 +508,7 @@
    ]
   },
   {
-   "term": "they would that I should be their king",
+   "term": "They would that I should be their king",
    "verse_label": "v. 18",
    "text": "The offer the whole quarrel predicted, made at last by the willing, and declined by the accused. The brothers murdered sleep over a kingship Nephi refuses when it is freely given; the record lets the irony stand without comment, and adds only what he did instead: \"I did for them according to that which was in my power\" (v. 18).",
    "cites": [
@@ -414,7 +528,7 @@
    ]
   },
   {
-   "term": "after the manner of happiness",
+   "term": "After the manner of happiness",
    "verse_label": "v. 27",
    "text": "The record's most quoted five words about community, placed with terrible care: after a murder plot, a family rupture, and a cursing. Happiness here is a manner, a practiced way, law kept, hands laboring, a temple standing, records kept, not a circumstance; the chapter is its recipe as much as its report."
   },
@@ -645,7 +759,7 @@
    "start": 21,
    "end": 25,
    "title": "The hard verses",
-   "text": "The cursing is defined by verse 20 (severed presence), marked in verse 21, bounded by repentance in verse 22, and given its assignment in verse 25: \"a scourge unto thy seed, to stir them up in remembrance of me\" (v. 25). The record reports it as covenant machinery, not tribal victory, and its own later voices (2 Ne. 26:33; Jacob 3:9) will guard the reading.",
+   "text": "The cursing is defined by verse 20 (severed presence), marked in verse 21, bounded by repentance in verse 22, and given its assignment in verse 25: \"a scourge unto thy seed, to stir them up in remembrance of me\" (v. 25). The record reports it as covenant machinery, and its own later voices (2 Ne. 26:33; Jacob 3:9) will guard the reading.",
    "cites": [
     {
      "quote": "a scourge unto thy seed, to stir them up in remembrance of me",
@@ -665,8 +779,8 @@
     {
      "kind": "scripture",
      "text": "2 Ne. 26:33",
-     "start": 312,
-     "end": 323,
+     "start": 292,
+     "end": 303,
      "book": "2 Ne",
      "chapter": 26,
      "verse_start": 33,
@@ -675,8 +789,8 @@
     {
      "kind": "scripture",
      "text": "Jacob 3:9",
-     "start": 325,
-     "end": 334,
+     "start": 305,
+     "end": 314,
      "book": "Jacob",
      "chapter": 3,
      "verse_start": 9,
@@ -754,7 +868,7 @@
   },
   {
    "n": 2,
-   "title": "The split is grieved, not celebrated",
+   "title": "The split is grieved",
    "text": "The chapter opens with Nephi crying to the Lord and closes with wars; between them the separation is executed as commanded but never gloated. The record's founding schism is a failure of the family's oldest hope, and the writer who lived it lets the sorrow show at both edges."
   },
   {
@@ -790,7 +904,7 @@
   {
    "n": 6,
    "title": "Happiness is a manner",
-   "text": "Verse 27's placement is the doctrine: after rupture, amid threat, before wars. The record locates happiness not in the absence of the Lamanite problem but in the practiced shape of covenant life, which means it was available the whole time, and remains so."
+   "text": "Verse 27's placement is the doctrine: after rupture, amid threat, before wars. The record locates happiness in the practiced shape of covenant life, which means it was available the whole time, and remains so."
   },
   {
    "n": 7,
@@ -803,17 +917,17 @@
    {
     "title": "Leave what seeks your life",
     "verse_label": "v. 5",
-    "text": "Some environments are not assignments to endure but dangers to depart: the warning to flee is as much revelation as the command to stay. If a situation is destroying you, pray Nephi's prayer and take seriously that the answer may be departure, with everyone who will come."
+    "text": "Some environments are dangers to depart: the warning to flee is as much revelation as the command to stay. If a situation is destroying you, pray Nephi's prayer and take seriously that the answer may be departure, with everyone who will come."
    },
    {
-    "title": "Take the believers, not just the relatives",
+    "title": "Take everyone who believes",
     "verse_label": "v. 6",
-    "text": "When you build your next community, a home, a ward effort, a venture, draw its line where Nephi drew his: belief and willingness, not bloodline or obligation. Zoram and the sisters crossed; so can the unexpected people in your life."
+    "text": "When you build your next community, a home, a ward effort, a venture, draw its line where Nephi drew his: belief and willingness. Zoram and the sisters crossed; so can the unexpected people in your life."
    },
    {
     "title": "Build the temple you can afford",
     "verse_label": "v. 16",
-    "text": "Do not postpone worship until resources match Solomon. Build now, after the pattern, at your scale: the family altar, the modest practice, the small consistent observance. The formula judges workmanship, not materials."
+    "text": "Do not postpone worship until resources match Solomon. Build now, after the pattern, at your scale: the family altar, the modest practice, the small consistent observance. The formula judges workmanship, whatever the materials."
    },
    {
     "title": "Serve without the crown",
@@ -889,7 +1003,9 @@
      "verse": 10,
      "w1": 15,
      "w2": 23,
-     "quote": "having wielded the sword of Laban in their defence",
+     "quote": "having wielded the sword of Laban in their defence,",
+     "verse_text": "The people having loved Nephi exceedingly, he having been a great protector for them, having wielded the sword of Laban in their defence, and having labored in all his days for their welfare—",
+     "markdown": "The people having loved Nephi exceedingly, he having been a great protector for them, **having wielded the sword of Laban in their defence**, and having labored in all his days for their welfare—",
      "span": true
     }
    ],
@@ -913,7 +1029,9 @@
      "verse": 11,
      "w1": 14,
      "w2": 21,
-     "quote": "there shall be no kings upon the land",
+     "quote": "there shall be no kings upon the land,",
+     "verse_text": "And this land shall be a land of liberty unto the Gentiles, and there shall be no kings upon the land, who shall raise up unto the Gentiles.",
+     "markdown": "And this land shall be a land of liberty unto the Gentiles, and **there shall be no kings upon the land**, who shall raise up unto the Gentiles.",
      "span": true
     }
    ],
@@ -937,7 +1055,9 @@
      "verse": 7,
      "w1": 14,
      "w2": 22,
-     "quote": "Therefore have I set my face like a flint",
+     "quote": "Therefore have I set my face like a flint,",
+     "verse_text": "For the Lord God will help me, therefore shall I not be confounded. Therefore have I set my face like a flint, and I know that I shall not be ashamed.",
+     "markdown": "For the Lord God will help me, therefore shall I not be confounded. **Therefore have I set my face like a flint**, and I know that I shall not be ashamed.",
      "span": true
     }
    ],
@@ -961,11 +1081,91 @@
      "verse": 20,
      "w1": 6,
      "w2": 18,
-     "quote": "Inasmuch as ye shall keep my commandments ye shall prosper in the land",
+     "quote": "Inasmuch as ye shall keep my commandments ye shall prosper in the land;",
+     "verse_text": "And he hath said that: Inasmuch as ye shall keep my commandments ye shall prosper in the land; but inasmuch as ye will not keep my commandments ye shall be cut off from my presence.",
+     "markdown": "And he hath said that: **Inasmuch as ye shall keep my commandments ye shall prosper in the land**; but inasmuch as ye will not keep my commandments ye shall be cut off from my presence.",
      "span": true
     }
    ],
    "mirror": "2ne01-012"
+  },
+  {
+   "id": "2ne05-016",
+   "scope": "BOM",
+   "head": "Alma 3:9",
+   "anchor": {
+    "verse": 23,
+    "w1": 1,
+    "w2": 13,
+    "quote": "And cursed shall be the seed of him that mixeth with their seed"
+   },
+   "reason": "the same clause, restated four centuries later",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 3,
+     "verse": 9,
+     "w1": 7,
+     "w2": 16,
+     "quote": "whosoever did mingle his seed with that of the Lamanites",
+     "verse_text": "And it came to pass that whosoever did mingle his seed with that of the Lamanites did bring the same curse upon his seed.",
+     "markdown": "And it came to pass that **whosoever did mingle his seed with that of the Lamanites** did bring the same curse upon his seed.",
+     "span": true
+    }
+   ],
+   "mirror": "al03-008"
+  },
+  {
+   "id": "2ne05-015",
+   "scope": "BOM",
+   "head": "Alma 3:6",
+   "anchor": {
+    "verse": 21,
+    "w1": 2,
+    "w2": 19,
+    "quote": "he had caused the cursing to come upon them, yea, even a sore cursing, because of their iniquity"
+   },
+   "reason": "the account Alma 3 reaches back to",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 3,
+     "verse": 6,
+     "w1": 9,
+     "w2": 18,
+     "quote": "according to the mark which was set upon their fathers,",
+     "verse_text": "And the skins of the Lamanites were dark, according to the mark which was set upon their fathers, which was a curse upon them because of their transgression and their rebellion against their brethren, who consisted of Nephi, Jacob, and Joseph, and Sam, who were just and holy men.",
+     "markdown": "And the skins of the Lamanites were dark, **according to the mark which was set upon their fathers**, which was a curse upon them because of their transgression and their rebellion against their brethren, who consisted of Nephi, Jacob, and Joseph, and Sam, who were just and holy men.",
+     "span": true
+    }
+   ],
+   "mirror": "al03-007"
+  },
+  {
+   "id": "2ne05-014",
+   "scope": "BOM",
+   "head": "Mosiah 6:3",
+   "anchor": {
+    "verse": 26,
+    "w1": 14,
+    "w2": 26,
+    "quote": "that they should be priests and teachers over the land of my people"
+   },
+   "reason": "priests appointed again, at Benjamin's assembly",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 6,
+     "verse": 3,
+     "w1": 47,
+     "w2": 53,
+     "quote": "had appointed priests to teach the people,",
+     "verse_text": "And again, it came to pass that when king Benjamin had made an end of all these things, and had consecrated his son Mosiah to be a ruler and a king over his people, and had given him all the charges concerning the kingdom, and also had appointed priests to teach the people, that thereby they might hear and know the commandments of God, and to stir them up in remembrance of the oath which they had made, he dismissed the multitude, and they returned, every one, according to their families, to their own houses.",
+     "markdown": "And again, it came to pass that when king Benjamin had made an end of all these things, and had consecrated his son Mosiah to be a ruler and a king over his people, and had given him all the charges concerning the kingdom, and also **had appointed priests to teach the people**, that thereby they might hear and know the commandments of God, and to stir them up in remembrance of the oath which they had made, he dismissed the multitude, and they returned, every one, according to their families, to their own houses.",
+     "span": true
+    }
+   ],
+   "mirror": "mos06-005"
   },
   {
    "id": "2ne05-002",
@@ -986,6 +1186,8 @@
      "w1": 2,
      "w2": 10,
      "quote": "I beheld his sword, and I drew it forth",
+     "verse_text": "And I beheld his sword, and I drew it forth from the sheath thereof; and the hilt thereof was of pure gold, and the workmanship thereof was exceedingly fine, and I saw that the blade thereof was of the most precious steel.",
+     "markdown": "And **I beheld his sword, and I drew it forth** from the sheath thereof; and the hilt thereof was of pure gold, and the workmanship thereof was exceedingly fine, and I saw that the blade thereof was of the most precious steel.",
      "span": true
     }
    ],
@@ -1009,7 +1211,9 @@
      "verse": 4,
      "w1": 29,
      "w2": 34,
-     "quote": "the workmanship thereof was exceedingly fine",
+     "quote": "the workmanship thereof was exceedingly fine;",
+     "verse_text": "And it came to pass that after I had finished the ship, according to the word of the Lord, my brethren beheld that it was good, and that the workmanship thereof was exceedingly fine; wherefore, they did humble themselves again before the Lord.",
+     "markdown": "And it came to pass that after I had finished the ship, according to the word of the Lord, my brethren beheld that it was good, and that **the workmanship thereof was exceedingly fine**; wherefore, they did humble themselves again before the Lord.",
      "span": true
     }
    ],
@@ -1033,7 +1237,9 @@
      "verse": 29,
      "w1": 44,
      "w2": 54,
-     "quote": "the Lord hath chosen him to be a ruler over you",
+     "quote": "the Lord hath chosen him to be a ruler over you,",
+     "verse_text": "And it came to pass as they smote us with a rod, behold, an angel of the Lord came and stood before them, and he spake unto them, saying: Why do ye smite your younger brother with a rod? Know ye not that the Lord hath chosen him to be a ruler over you, and this because of your iniquities? Behold ye shall go up to Jerusalem again, and the Lord will deliver Laban into your hands.",
+     "markdown": "And it came to pass as they smote us with a rod, behold, an angel of the Lord came and stood before them, and he spake unto them, saying: Why do ye smite your younger brother with a rod? Know ye not that **the Lord hath chosen him to be a ruler over you**, and this because of your iniquities? Behold ye shall go up to Jerusalem again, and the Lord will deliver Laban into your hands.",
      "span": true
     }
    ],
@@ -1057,7 +1263,9 @@
      "verse": 21,
      "w1": 13,
      "w2": 20,
-     "quote": "cut off from the presence of the Lord",
+     "quote": "cut off from the presence of the Lord.",
+     "verse_text": "And inasmuch as thy brethren shall rebel against thee, they shall be cut off from the presence of the Lord.",
+     "markdown": "And inasmuch as thy brethren shall rebel against thee, they shall be **cut off from the presence of the Lord**.",
      "span": true
     }
    ],
@@ -1081,7 +1289,9 @@
      "verse": 9,
      "w1": 16,
      "w2": 27,
-     "quote": "revile no more against them because of the darkness of their skins",
+     "quote": "revile no more against them because of the darkness of their skins;",
+     "verse_text": "Wherefore, a commandment I give unto you, which is the word of God, that ye revile no more against them because of the darkness of their skins; neither shall ye revile against them because of their filthiness; but ye shall remember your own filthiness, and remember that their filthiness came because of their fathers.",
+     "markdown": "Wherefore, a commandment I give unto you, which is the word of God, that ye **revile no more against them because of the darkness of their skins**; neither shall ye revile against them because of their filthiness; but ye shall remember your own filthiness, and remember that their filthiness came because of their fathers.",
      "span": true
     }
    ],
@@ -1105,7 +1315,9 @@
      "verse": 24,
      "w1": 14,
      "w2": 27,
-     "quote": "a scourge unto thy seed, to stir them up in the ways of remembrance",
+     "quote": "a scourge unto thy seed, to stir them up in the ways of remembrance.",
+     "verse_text": "And if it so be that they rebel against me, they shall be a scourge unto thy seed, to stir them up in the ways of remembrance.",
+     "markdown": "And if it so be that they rebel against me, they shall be **a scourge unto thy seed, to stir them up in the ways of remembrance**.",
      "span": true
     }
    ],
@@ -1129,7 +1341,9 @@
      "verse": 18,
      "w1": 8,
      "w2": 21,
-     "quote": "had been consecrated priests and teachers of this people, by the hand of Nephi",
+     "quote": "had been consecrated priests and teachers of this people, by the hand of Nephi.",
+     "verse_text": "For I, Jacob, and my brother Joseph had been consecrated priests and teachers of this people, by the hand of Nephi.",
+     "markdown": "For I, Jacob, and my brother Joseph **had been consecrated priests and teachers of this people, by the hand of Nephi**.",
      "span": true
     }
    ],
@@ -1153,7 +1367,9 @@
      "verse": 3,
      "w1": 2,
      "w2": 15,
-     "quote": "I have received a commandment of the Lord that I should make these plates",
+     "quote": "I have received a commandment of the Lord that I should make these plates,",
+     "verse_text": "Nevertheless, I have received a commandment of the Lord that I should make these plates, for the special purpose that there should be an account engraven of the ministry of my people.",
+     "markdown": "Nevertheless, **I have received a commandment of the Lord that I should make these plates**, for the special purpose that there should be an account engraven of the ministry of my people.",
      "span": true
     }
    ],
@@ -1177,7 +1393,9 @@
      "verse": 2,
      "w1": 2,
      "w2": 10,
-     "quote": "the house which king Solomon built for the LORD",
+     "quote": "the house which king Solomon built for the LORD,",
+     "verse_text": "And the house which king Solomon built for the LORD, the length thereof was threescore cubits, and the breadth thereof twenty cubits, and the height thereof thirty cubits.",
+     "markdown": "And **the house which king Solomon built for the LORD**, the length thereof was threescore cubits, and the breadth thereof twenty cubits, and the height thereof thirty cubits.",
      "span": true
     }
    ],
@@ -1251,6 +1469,15 @@
   },
   {
    "verse": 21,
+   "w1": 2,
+   "w2": 19,
+   "quote": "he had caused the cursing to come upon them, yea, even a sore cursing, because of their iniquity",
+   "entries": [
+    "2ne05-015"
+   ]
+  },
+  {
+   "verse": 21,
    "w1": 30,
    "w2": 36,
    "quote": "they had become like unto a flint",
@@ -1268,6 +1495,15 @@
    ]
   },
   {
+   "verse": 23,
+   "w1": 1,
+   "w2": 13,
+   "quote": "And cursed shall be the seed of him that mixeth with their seed",
+   "entries": [
+    "2ne05-016"
+   ]
+  },
+  {
    "verse": 25,
    "w1": 8,
    "w2": 23,
@@ -1282,6 +1518,7 @@
    "w2": 26,
    "quote": "that they should be priests and teachers over the land of my people",
    "entries": [
+    "2ne05-014",
     "2ne05-008"
    ]
   },
@@ -1296,7 +1533,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-18",
-  "source_sha256": "ad1c5fccb9e3af90"
+  "at": "2026-08-25",
+  "source_sha256": "14befd058a15e758"
  }
 }

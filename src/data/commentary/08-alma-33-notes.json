@@ -1,0 +1,619 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 33,
+  "volume_order": "08",
+  "speakers": [
+   "Alma",
+   "Zenos, quoted",
+   "Zenock, quoted"
+  ],
+  "audience": "The poor of the Zoramites",
+  "location": "The hill Onidah, in the land of Antionum",
+  "date": "~74 BC",
+  "unit": "The Zoramite mission (Alma 31–35)",
+  "principles": [
+   "Prayer that needs no building",
+   "Witnesses stacked before belief",
+   ""
+  ],
+  "connections": 9,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The people ask three questions",
+   "text": "Verse 1 has them wanting to know whether to believe in one God, how to plant the seed, and how to begin exercising faith. Alma 32 ended without telling them."
+  },
+  {
+   "n": 2,
+   "title": "Alma sends them to the scriptures they already have",
+   "text": "Verse 2 says they ought to search them, and that if they think the scriptures taught them they cannot worship, they have misread. The answer to a practical question is a reading assignment."
+  },
+  {
+   "n": 3,
+   "title": "Zenos is a prophet outside our Bible",
+   "text": "He is cited twelve times in this record and nowhere in the King James Bible. The Nephites had his writings on the brass plates, and Jacob 5 preserves his longest piece."
+  },
+  {
+   "n": 4,
+   "title": "The Zenos prayer is a list of places",
+   "text": "Wilderness, field, house, closet, congregations, and while cast out. Every location the poor might find themselves in is covered, and none of them is a synagogue."
+  },
+  {
+   "n": 5,
+   "title": "Zenock was stoned for saying it",
+   "text": "Verse 17 records the outcome in half a sentence. Alma is telling people who were thrown out of a building about a prophet who was killed, and he does not soften it."
+  },
+  {
+   "n": 6,
+   "title": "The brass serpent is introduced as a type",
+   "text": "Verse 19 has Moses raising something in the wilderness so that whoever looked might live. Alma uses it to name the cost of refusing an easy remedy."
+  },
+  {
+   "n": 7,
+   "title": "The chapter ends the discourse Alma 32 began",
+   "text": "Verse 23 returns to the seed, the swelling, the nourishing, and the tree, and closes with a promise about lightened burdens."
+  }
+ ],
+ "words": [
+  {
+   "term": "Zenos",
+   "verse_label": "v. 3",
+   "text": "A prophet of old whose writings the Nephites carried and the King James Bible does not contain. The record names him twelve times, and Jacob 5 gives his allegory of the olive tree in full. Alma treats him as scripture the Zoramites should already have read."
+  },
+  {
+   "term": "Closet",
+   "verse_label": "v. 7",
+   "text": "A small private room. The word occurs twice in this record and twice in the King James Bible, where Christ tells his hearers to enter the closet and shut the door. Zenos names it as one of six places where his prayer was heard."
+  },
+  {
+   "term": "Congregations",
+   "verse_label": "v. 9",
+   "text": "Assemblies of worshippers, in the plural. The word appears once in this record and three times in the King James Bible, all in the Psalms. Zenos puts public assembly on the same list as a field and a closet, which is the point Alma is building toward."
+  },
+  {
+   "term": "Sincerity",
+   "verse_label": "v. 11",
+   "text": "Freedom from pretense. The record uses it five times and the King James Bible seven. Zenos names his afflictions and his sincerity as the two things God heard, and then says the mercy itself came because of the Son."
+  },
+  {
+   "term": "Zenock",
+   "verse_label": "v. 15",
+   "text": "A second prophet of old, named five times in this record and never in the King James Bible. Alma quotes one sentence of his and then reports that his people stoned him. Nephi lists him with Isaiah and Jeremiah in Helaman 8."
+  },
+  {
+   "term": "Slothful",
+   "verse_label": "v. 21",
+   "text": "Lazy, unwilling to stir. The record uses it four times, three of them in Alma 37 about the Liahona, and the King James Bible fifteen. Alma applies it to people who will not turn their eyes toward a cure that costs nothing."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Ye ought to search the scriptures",
+   "verse_label": "v. 2",
+   "text": "Alma's answer to people asking how to begin. They have a text, and he tells them their reading of it is wrong. Everything that follows in the chapter is him doing the reading with them."
+  },
+  {
+   "term": "Thou hast heard my prayer, even when I was in the wilderness",
+   "verse_label": "v. 4",
+   "text": "The first item in Zenos's list. It begins in the least religious place available and works inward toward the house and the closet, then back out to the congregations."
+  },
+  {
+   "term": "When I did cry unto thee in my field",
+   "verse_label": "v. 5",
+   "text": "A working man praying at work. Alma is quoting this to people who have been told worship happens on a stand once a week, and the field is the strongest example in the list for them."
+  },
+  {
+   "term": "To be heard of thee and not of men",
+   "verse_label": "v. 8",
+   "text": "The line that answers Alma 31 directly. The Rameumptom put one man above every head where all could see; Zenos names being heard by God alone as the point of praying."
+  },
+  {
+   "term": "Thou hast turned thy judgments away from me, because of thy Son",
+   "verse_label": "v. 11",
+   "text": "Alma quotes it and then repeats it in verse 13 as the thing they must believe if they believe Zenos at all. A prophet centuries before Christ attributes God's mercy to the Son."
+  },
+  {
+   "term": "If ye have read the scriptures, how can ye disbelieve on the Son of God?",
+   "verse_label": "v. 14",
+   "text": "Alma puts the Zoramite creed against their own library. Alma 31 had them thanking God that there shall be no Christ; here Alma says the records they possess make that position unavailable."
+  },
+  {
+   "term": "Because the people would not understand his words they stoned him to death",
+   "verse_label": "v. 17",
+   "text": "Zenock's fate, given without comment. Alma is speaking to people who were driven out of a building, and he tells them what happened to a prophet who said what he is now saying."
+  },
+  {
+   "term": "A type was raised up in the wilderness, that whosoever would look upon it might live",
+   "verse_label": "v. 19",
+   "text": "Moses and the brass serpent, named as a type. Alma says many looked and lived. The remedy required one motion and no qualification."
+  },
+  {
+   "term": "The reason they would not look is because they did not believe that it would heal them",
+   "verse_label": "v. 20",
+   "text": "The whole diagnosis in one clause. The refusal was not defiance and not inability; the people did not think it would work. Alma has just told his hearers that the word will work."
+  },
+  {
+   "term": "Would ye rather harden your hearts in unbelief, and be slothful",
+   "verse_label": "v. 21",
+   "text": "Alma's question to the poor. He offers the easiest possible test and names the two things that could stop them: not believing it would help, and not bothering."
+  },
+  {
+   "term": "Even all this can ye do if ye will",
+   "verse_label": "v. 23",
+   "text": "The last sentence of the discourse. After the seed, the prophets, the serpent, and the promise of lightened burdens, Alma ends by saying the whole thing is within reach of the people in front of him."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–3",
+   "start": 1,
+   "end": 3,
+   "title": "The question, and the redirect",
+   "text": "They ask whether to believe in one God, how to plant the seed, and how to begin exercising faith. Alma says their idea that they cannot worship is an error, tells them to search the scriptures, and asks whether they remember Zenos on prayer."
+  },
+  {
+   "label": "v. 4–8",
+   "start": 4,
+   "end": 8,
+   "title": "Where prayer is heard",
+   "text": "The wilderness, the field, the house, the closet. Zenos thanks God for hearing in each, and states the principle: God is merciful to children who cry to be heard of him and not of men."
+  },
+  {
+   "label": "v. 9–11",
+   "start": 9,
+   "end": 11,
+   "title": "Cast out, and heard",
+   "text": "God heard him in the congregations, and heard him when he was cast out and despised. He heard because of affliction and sincerity, and the mercy came because of the Son, who is also the reason the judgments were turned away."
+  },
+  {
+   "label": "v. 12–17",
+   "start": 12,
+   "end": 17,
+   "title": "Two prophets",
+   "text": "Alma asks whether they believe the old writings, and says believing Zenos means believing what he said about the Son. He asks how anyone who has read can disbelieve, then produces Zenock saying the same thing, and reports that his people stoned him."
+  },
+  {
+   "label": "v. 18–20",
+   "start": 18,
+   "end": 20,
+   "title": "Moses and the type",
+   "text": "More than two spoke of the Son. Moses raised a type in the wilderness and many looked and lived. Few understood, and the hardened would not look, because they did not believe it would heal them."
+  },
+  {
+   "label": "v. 21–22",
+   "start": 21,
+   "end": 22,
+   "title": "Would you not look",
+   "text": "If healing came from merely casting your eyes about, would you look quickly or harden and be slothful and perish. Alma tells them to look and to begin believing in the Son who will come, suffer, die, atone, and rise."
+  },
+  {
+   "label": "v. 23",
+   "start": 23,
+   "end": 23,
+   "title": "Plant it",
+   "text": "Plant this word in your hearts, nourish it by faith as it swells, and it becomes a tree springing up to everlasting life. May your burdens be light through the joy of his Son, and all of this you can do if you will."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The answer to a practical question is a text",
+   "text": "They asked how to plant a seed and Alma handed them Zenos. The chapter treats reading as the first act of faith rather than a preliminary to it."
+  },
+  {
+   "n": 2,
+   "title": "Zenos answers the Rameumptom without mentioning it",
+   "text": "Six places where prayer was heard, and none of them a building. Alma never argues against the stand; he reads a prayer that makes it unnecessary."
+  },
+  {
+   "n": 3,
+   "title": "Being cast out is on the list",
+   "text": "Verse 10 has Zenos heard while despised by his enemies. Alma has found a scripture that describes his hearers' exact situation and reports that God answered in it."
+  },
+  {
+   "n": 4,
+   "title": "He stacks witnesses before he asks for belief",
+   "text": "Zenos, Zenock, Moses, and the plain statement that these are not the only ones. The argument is cumulative and it is built entirely out of what the Zoramites already own."
+  },
+  {
+   "n": 5,
+   "title": "He tells them the last man who said this was killed",
+   "text": "Verse 17 sits in the middle of the argument. Alma is asking people who have already paid a price to consider a claim that has cost others more."
+  },
+  {
+   "n": 6,
+   "title": "The serpent makes refusal look absurd",
+   "text": "One glance, no cost, and people died rather than look. Alma converts the doctrine of faith into a question about laziness and disbelief in the cure."
+  },
+  {
+   "n": 7,
+   "title": "Everything returns to the seed",
+   "text": "The chapter opens on the question Alma 32 left and closes on planting and nourishing. The prophets and the serpent are the middle of a single discourse."
+  },
+  {
+   "n": 8,
+   "title": "The last words are about capacity",
+   "text": "All this can ye do if ye will. After a chapter of citations, Alma ends on the hearers' own ability, addressed to people the whole society has told are worth nothing."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Check whether you have misread the rule",
+    "verse_label": "v. 2",
+    "text": "These people believed the scriptures shut them out. Where you think a text or a policy excludes you, go read it again before accepting the exclusion."
+   },
+   {
+    "title": "Pray in the place you are actually in",
+    "verse_label": "v. 4–7",
+    "text": "Zenos lists the wilderness, the field, the house, and the closet. Pick the least religious place in your week and pray there this week."
+   },
+   {
+    "title": "Stack what you already have before looking for more",
+    "verse_label": "v. 15–19",
+    "text": "Alma built his case from books the Zoramites owned. Before asking for new evidence, take an inventory of what you already accept and see what it commits you to."
+   },
+   {
+    "title": "Look at the thing that would heal you",
+    "verse_label": "v. 20",
+    "text": "They died because they did not believe a glance would work. Name the simple remedy you have been declining because it seems too small to matter, and do it."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What have I concluded about God from a passage I have not actually read carefully?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "Where do I work, and have I ever prayed there?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "Am I praying to be heard by God or by the people who might notice?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "What in my life has been turned away from me because of the Son?"
+   },
+   {
+    "verse_label": "v. 17",
+    "start": 17,
+    "end": 17,
+    "text": "What true thing am I unwilling to say because of what it might cost?"
+   },
+   {
+    "verse_label": "v. 20",
+    "start": 20,
+    "end": 20,
+    "text": "What remedy do I refuse because I do not believe it would work?"
+   },
+   {
+    "verse_label": "v. 23",
+    "start": 23,
+    "end": 23,
+    "text": "What is the one thing I could do if I would?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al33-001",
+   "scope": "BOOK",
+   "head": "Alma 32:41",
+   "anchor": {
+    "verse": 23,
+    "w1": 10,
+    "w2": 15,
+    "quote": "plant this word in your hearts"
+   },
+   "reason": "the same instruction, where the seed discourse begins",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 32,
+     "verse": 41,
+     "w1": 9,
+     "w2": 16,
+     "quote": "nourish the tree as it beginneth to grow,",
+     "verse_text": "But if ye will nourish the word, yea, nourish the tree as it beginneth to grow, by your faith with great diligence, and with patience, looking forward to the fruit thereof, it shall take root; and behold it shall be a tree springing up unto everlasting life.",
+     "markdown": "But if ye will nourish the word, yea, **nourish the tree as it beginneth to grow**, by your faith with great diligence, and with patience, looking forward to the fruit thereof, it shall take root; and behold it shall be a tree springing up unto everlasting life.",
+     "span": true
+    }
+   ],
+   "mirror": "al32-003"
+  },
+  {
+   "id": "al33-002",
+   "scope": "BOOK",
+   "head": "Alma 34:7",
+   "anchor": {
+    "verse": 15,
+    "w1": 14,
+    "w2": 19,
+    "quote": "Zenock also spake of these things"
+   },
+   "reason": "Amulek summarizing this exact chain of witnesses",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 34,
+     "verse": 7,
+     "w1": 6,
+     "w2": 9,
+     "quote": "the words of Zenos,",
+     "verse_text": "My brother has called upon the words of Zenos, that redemption cometh through the Son of God, and also upon the words of Zenock; and also he has appealed unto Moses, to prove that these things are true.",
+     "markdown": "My brother has called upon **the words of Zenos**, that redemption cometh through the Son of God, and also upon the words of Zenock; and also he has appealed unto Moses, to prove that these things are true.",
+     "span": true
+    }
+   ],
+   "mirror": "al34-001"
+  },
+  {
+   "id": "al33-003",
+   "scope": "BOOK",
+   "head": "Alma 37:41",
+   "anchor": {
+    "verse": 21,
+    "w1": 29,
+    "w2": 36,
+    "quote": "harden your hearts in unbelief, and be slothful"
+   },
+   "reason": "the same word used of people who would not steer by the Liahona",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 37,
+     "verse": 41,
+     "w1": 17,
+     "w2": 19,
+     "quote": "They were slothful,",
+     "verse_text": "Nevertheless, because those miracles were worked by small means it did show unto them marvelous works. They were slothful, and forgot to exercise their faith and diligence and then those marvelous works ceased, and they did not progress in their journey;",
+     "markdown": "Nevertheless, because those miracles were worked by small means it did show unto them marvelous works. **They were slothful**, and forgot to exercise their faith and diligence and then those marvelous works ceased, and they did not progress in their journey;",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al33-004",
+   "scope": "BOM",
+   "head": "1 Ne. 19:10",
+   "anchor": {
+    "verse": 15,
+    "w1": 14,
+    "w2": 19,
+    "quote": "Zenock also spake of these things"
+   },
+   "reason": "Nephi citing the same two prophets, with a third",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 19,
+     "verse": 10,
+     "w1": 26,
+     "w2": 37,
+     "quote": "the God of Abraham, and of Isaac, and the God of Jacob,",
+     "verse_text": "And the God of our fathers, who were led out of Egypt, out of bondage, and also were preserved in the wilderness by him, yea, the God of Abraham, and of Isaac, and the God of Jacob, yieldeth himself, according to the words of the angel, as a man, into the hands of wicked men, to be lifted up, according to the words of Zenock, and to be crucified, according to the words of Neum, and to be buried in a sepulchre, according to the words of Zenos, which he spake concerning the three days of darkness, which should be a sign given of his death unto those who should inhabit the isles of the sea, more especially given unto those who are of the house of Israel.",
+     "markdown": "And the God of our fathers, who were led out of Egypt, out of bondage, and also were preserved in the wilderness by him, yea, **the God of Abraham, and of Isaac, and the God of Jacob**, yieldeth himself, according to the words of the angel, as a man, into the hands of wicked men, to be lifted up, according to the words of Zenock, and to be crucified, according to the words of Neum, and to be buried in a sepulchre, according to the words of Zenos, which he spake concerning the three days of darkness, which should be a sign given of his death unto those who should inhabit the isles of the sea, more especially given unto those who are of the house of Israel.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al33-005",
+   "scope": "BOM",
+   "head": "Jacob 5:1",
+   "anchor": {
+    "verse": 3,
+    "w1": 7,
+    "w2": 14,
+    "quote": "what Zenos, the prophet of old, has said"
+   },
+   "reason": "the one long piece of Zenos the record preserves",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 5,
+     "verse": 1,
+     "w1": 11,
+     "w2": 16,
+     "quote": "the words of the prophet Zenos,",
+     "verse_text": "Behold, my brethren, do ye not remember to have read the words of the prophet Zenos, which he spake unto the house of Israel, saying:",
+     "markdown": "Behold, my brethren, do ye not remember to have read **the words of the prophet Zenos**, which he spake unto the house of Israel, saying:",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al33-006",
+   "scope": "BOM",
+   "head": "Hel. 8:20",
+   "anchor": {
+    "verse": 17,
+    "w1": 29,
+    "w2": 33,
+    "quote": "they stoned him to death"
+   },
+   "reason": "Nephi listing Zenock among the prophets Jerusalem killed",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 8,
+     "verse": 20,
+     "w1": 3,
+     "w2": 7,
+     "quote": "also Zenock, and also Ezias,",
+     "verse_text": "And behold, also Zenock, and also Ezias, and also Isaiah, and Jeremiah, (Jeremiah being that same prophet who testified of the destruction of Jerusalem) and now we know that Jerusalem was destroyed according to the words of Jeremiah. O then why not the Son of God come, according to his prophecy?",
+     "markdown": "And behold, **also Zenock, and also Ezias**, and also Isaiah, and Jeremiah, (Jeremiah being that same prophet who testified of the destruction of Jerusalem) and now we know that Jerusalem was destroyed according to the words of Jeremiah. O then why not the Son of God come, according to his prophecy?",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al33-007",
+   "scope": "SW",
+   "head": "Matt. 6:6",
+   "anchor": {
+    "verse": 7,
+    "w1": 2,
+    "w2": 8,
+    "quote": "when I did turn unto my closet"
+   },
+   "reason": "the same room, named in the Sermon on the Mount",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 6,
+     "verse": 6,
+     "w1": 6,
+     "w2": 9,
+     "quote": "enter into thy closet,",
+     "verse_text": "But thou, when thou prayest, enter into thy closet, and when thou hast shut thy door, pray to thy Father which is in secret; and thy Father which seeth in secret shall reward thee openly.",
+     "markdown": "But thou, when thou prayest, **enter into thy closet**, and when thou hast shut thy door, pray to thy Father which is in secret; and thy Father which seeth in secret shall reward thee openly.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al33-008",
+   "scope": "SW",
+   "head": "Num. 21:9",
+   "anchor": {
+    "verse": 19,
+    "w1": 11,
+    "w2": 18,
+    "quote": "a type was raised up in the wilderness"
+   },
+   "reason": "the brass serpent as it happened",
+   "targets": [
+    {
+     "ref": "Num.",
+     "chapter": 21,
+     "verse": 9,
+     "w1": 2,
+     "w2": 13,
+     "quote": "Moses made a serpent of brass, and put it upon a pole,",
+     "verse_text": "And Moses made a serpent of brass, and put it upon a pole, and it came to pass, that if a serpent had bitten any man, when he beheld the serpent of brass, he lived.",
+     "markdown": "And **Moses made a serpent of brass, and put it upon a pole**, and it came to pass, that if a serpent had bitten any man, when he beheld the serpent of brass, he lived.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al33-009",
+   "scope": "SW",
+   "head": "John 3:14",
+   "anchor": {
+    "verse": 19,
+    "w1": 11,
+    "w2": 18,
+    "quote": "a type was raised up in the wilderness"
+   },
+   "reason": "Christ naming himself as what the serpent stood for",
+   "targets": [
+    {
+     "ref": "John",
+     "chapter": 3,
+     "verse": 14,
+     "w1": 2,
+     "w2": 10,
+     "quote": "as Moses lifted up the serpent in the wilderness,",
+     "verse_text": "And as Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up:",
+     "markdown": "And **as Moses lifted up the serpent in the wilderness**, even so must the Son of man be lifted up:",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 3,
+   "w1": 7,
+   "w2": 14,
+   "quote": "what Zenos, the prophet of old, has said",
+   "entries": [
+    "al33-005"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 2,
+   "w2": 8,
+   "quote": "when I did turn unto my closet",
+   "entries": [
+    "al33-007"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 14,
+   "w2": 19,
+   "quote": "Zenock also spake of these things",
+   "entries": [
+    "al33-002",
+    "al33-004"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 29,
+   "w2": 33,
+   "quote": "they stoned him to death",
+   "entries": [
+    "al33-006"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 11,
+   "w2": 18,
+   "quote": "a type was raised up in the wilderness",
+   "entries": [
+    "al33-008",
+    "al33-009"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 29,
+   "w2": 36,
+   "quote": "harden your hearts in unbelief, and be slothful",
+   "entries": [
+    "al33-003"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 10,
+   "w2": 15,
+   "quote": "plant this word in your hearts",
+   "entries": [
+    "al33-001"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "efbeac4970170b65"
+ }
+}

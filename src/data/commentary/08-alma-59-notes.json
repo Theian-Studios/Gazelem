@@ -1,0 +1,754 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 59,
+  "volume_order": "08",
+  "speakers": [
+   "Mormon, as narrator"
+  ],
+  "audience": "The reader of the abridgment",
+  "location": "Moroni's camp, and the land of Nephihah",
+  "date": "~62 BC",
+  "unit": "The war chapters (Alma 43–63)",
+  "principles": [
+   "A request made politely and once",
+   "A city lost by assumption",
+   ""
+  ],
+  "connections": 9,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The chapter sits between two letters",
+   "text": "Alma 56 through 58 is Helaman's epistle. Alma 60 is Moroni's. Verses 1 through 4 are Mormon's account of what Moroni did after reading the first and before writing the second."
+  },
+  {
+   "n": 2,
+   "title": "Moroni's first letter to Pahoran is summarized, not quoted",
+   "text": "Verse 3 says he asked that men be gathered to strengthen Helaman. Alma 60:1 confirms it by saying he wrote again.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 60:1",
+     "start": 66,
+     "end": 75,
+     "book": "Alma",
+     "chapter": 60,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Nephihah was founded as a Nephite city",
+   "text": "Alma 50:14 has it built between the cities of Moroni and Aaron. Alma 51:24 has refugees from the city of Moroni fleeing to it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 50:14",
+     "start": 0,
+     "end": 10,
+     "book": "Alma",
+     "chapter": 50,
+     "verse_start": 14,
+     "verse_end": 14
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 51:24",
+     "start": 64,
+     "end": 74,
+     "book": "Alma",
+     "chapter": 51,
+     "verse_start": 24,
+     "verse_end": 24
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "The record's account of Nephihah is uneven",
+   "text": "Alma 51:25 says Amalickiah would not let the Lamanites attack it. Alma 51:26 lists it among the cities he took. Alma 59 has Nephites in it and then losing it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 51:25",
+     "start": 0,
+     "end": 10,
+     "book": "Alma",
+     "chapter": 51,
+     "verse_start": 25,
+     "verse_end": 25
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 51:26",
+     "start": 66,
+     "end": 76,
+     "book": "Alma",
+     "chapter": 51,
+     "verse_start": 26,
+     "verse_end": 26
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Nephite dissenters are inside the Lamanite army",
+   "text": "Verse 6 says those driven out of the land of Manti had come over and joined the Lamanites in this part of the land."
+  },
+  {
+   "n": 6,
+   "title": "Ammoron is still commanding",
+   "text": "Verse 7 attributes the attack to his order. He has been the Lamanite king since Alma 52:3.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 52:3",
+     "start": 80,
+     "end": 89,
+     "book": "Alma",
+     "chapter": 52,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "Moroni's anger arrives at the end",
+   "text": "Verse 13 gives the cause as the government's indifference concerning the freedom of the country. Alma 61 will show that the governor had been driven out of Zarahemla by then."
+  }
+ ],
+ "words": [
+  {
+   "term": "Welfare",
+   "verse_label": "v. 1",
+   "text": "Well-being, safety, good condition. The record uses it twenty-one times, first at 2 Nephi 1:25. Moroni's own character is described with it at Alma 48:12, and he will use it three times in his letter in Alma 60, where the tone has changed entirely.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 48:12",
+     "start": 143,
+     "end": 153,
+     "book": "Alma",
+     "chapter": 48,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
+  },
+  {
+   "term": "Epistle",
+   "verse_label": "v. 3",
+   "text": "Treated at Alma 54:4, where Ammoron and Moroni trade letters. The word carries a formal, written, and preserved communication. This chapter has Moroni sending one and Alma 60 has him sending a second.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 54:4",
+     "start": 11,
+     "end": 20,
+     "book": "Alma",
+     "chapter": 54,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
+  },
+  {
+   "term": "Compelled",
+   "verse_label": "v. 6",
+   "text": "Forced, driven by necessity or by someone else. The record uses it twenty times and applies it in this war block to both sides. Here it describes Nephites who were driven from Manti and then chose the other army."
+  },
+  {
+   "term": "Obliged",
+   "verse_label": "v. 8",
+   "text": "Under a necessity that leaves no choice. The word occurs seven times in the record and never in the King James Bible. Alma 57:13 used it of Lamanite prisoners; here it describes the survivors of Nephihah.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 57:13",
+     "start": 118,
+     "end": 128,
+     "book": "Alma",
+     "chapter": 57,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
+  },
+  {
+   "term": "Maintain",
+   "verse_label": "v. 9",
+   "text": "To hold, keep, and defend. The record uses it forty times, and four of them fall in this chapter alone, at verses 3, 9 twice, and 10. It is the war block's word for keeping ground already won."
+  },
+  {
+   "term": "Indifference",
+   "verse_label": "v. 13",
+   "text": "Lack of concern or interest. The word occurs once in all of scripture, here, as the reason for Moroni's anger. Mormon chose it in preference to a word for malice or treason."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "He was exceedingly rejoiced because of the welfare",
+   "verse_label": "v. 1",
+   "text": "Moroni's first response to the letter. Helaman had reported hunger, silence from the government, and cities retaken, and Moroni reads the last of those first."
+  },
+  {
+   "term": "That they might rejoice also",
+   "verse_label": "v. 2",
+   "text": "Moroni publishes the good news to all his people in that part of the land. He treats a report from another front as something the whole army is owed."
+  },
+  {
+   "term": "He immediately sent an epistle to Pahoran",
+   "verse_label": "v. 3",
+   "text": "The action Helaman's letter produces. Moroni asks for men on Helaman's behalf and does not ask for anything for himself."
+  },
+  {
+   "term": "That he might with ease maintain that part of the land",
+   "verse_label": "v. 3",
+   "text": "The stated purpose of the request. Moroni frames reinforcement as a way to hold what has already been won at cost."
+  },
+  {
+   "term": "He began again to lay a plan",
+   "verse_label": "v. 4",
+   "text": "Moroni returns to the offensive while waiting on an answer. The record gives no interval between sending the letter and resuming operations."
+  },
+  {
+   "term": "Had come over and joined the Lamanites in this part of the land",
+   "verse_label": "v. 6",
+   "text": "Nephite dissenters strengthen the army now attacking Nephihah. Mormon has been reporting this pattern since Alma 43:4, and here it shows up as manpower on the day a city falls.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 43:4",
+     "start": 108,
+     "end": 117,
+     "book": "Alma",
+     "chapter": 43,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
+  },
+  {
+   "term": "Receiving strength from day to day",
+   "verse_label": "v. 7",
+   "text": "The reinforcement Helaman asked for is arriving on the other side. Alma 58:5 said the same thing about the enemy at Manti.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 58:5",
+     "start": 67,
+     "end": 76,
+     "book": "Alma",
+     "chapter": 58,
+     "verse_start": 5,
+     "verse_end": 5
+    }
+   ]
+  },
+  {
+   "term": "It was easier to keep the city from falling into the hands of the Lamanites than to retake it",
+   "verse_label": "v. 9",
+   "text": "The military judgment Moroni holds and the government does not act on. Mormon puts the principle in the middle of the account of the city being lost."
+  },
+  {
+   "term": "He supposed that they would easily maintain that city",
+   "verse_label": "v. 9",
+   "text": "The assumption behind the loss. Moroni expected men to have been sent to Nephihah and planned his own dispositions around that expectation."
+  },
+  {
+   "term": "He was exceedingly sorrowful, and began to doubt",
+   "verse_label": "v. 11",
+   "text": "The strongest personal reaction the record gives Moroni. The doubt is about the people's survival, and verse 11 names its cause as their wickedness."
+  },
+  {
+   "term": "Moroni was angry with the government",
+   "verse_label": "v. 13",
+   "text": "The sentence Alma 60 grows out of. Mormon states the anger plainly and gives the reason in the same breath."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–2",
+   "start": 1,
+   "end": 2,
+   "title": "The letter read and published",
+   "text": "Moroni receives and reads Helaman's epistle in the thirtieth year and is exceedingly rejoiced at the success in regaining lost lands. He makes it known to all his people in that part of the land so they can rejoice too."
+  },
+  {
+   "label": "v. 3–4",
+   "start": 3,
+   "end": 4,
+   "title": "The request and the new plan",
+   "text": "He sends an epistle to Pahoran asking that men be gathered to strengthen Helaman, so that Helaman can hold the recovered country with ease. Then he lays a plan to obtain the remaining cities."
+  },
+  {
+   "label": "v. 5–8",
+   "start": 5,
+   "end": 8,
+   "title": "Nephihah falls",
+   "text": "While Moroni prepares, the people of Nephihah, gathered there from the cities of Moroni, Lehi, and Morianton, are attacked. Those driven from Manti have joined the Lamanites in that region. Growing stronger daily and ordered forward by Ammoron, they slaughter the people of Nephihah, and the survivors flee to Moroni's army."
+  },
+  {
+   "label": "v. 9–10",
+   "start": 9,
+   "end": 10,
+   "title": "The assumption",
+   "text": "Moroni had supposed men were sent to hold Nephihah, knowing that keeping a city is easier than retaking one, and so he kept his whole force on the places already recovered."
+  },
+  {
+   "label": "v. 11–12",
+   "start": 11,
+   "end": 12,
+   "title": "Doubt in the command",
+   "text": "Seeing the city lost, Moroni is exceedingly sorrowful and begins to doubt whether the people will fall into Lamanite hands, because of their wickedness. His chief captains doubt and marvel for the same reason, watching the Lamanites succeed."
+  },
+  {
+   "label": "v. 13",
+   "start": 13,
+   "end": 13,
+   "title": "The anger named",
+   "text": "Moroni is angry with the government because of their indifference concerning the freedom of their country."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "A short chapter carries a hinge",
+   "text": "Thirteen verses move the war from Helaman's front to Moroni's and set up the exchange of letters that occupies Alma 60 and 61."
+  },
+  {
+   "n": 2,
+   "title": "The first request is polite",
+   "text": "Verse 3 has Moroni asking for men on another commander's behalf, with a stated reason. The letter in Alma 60 will be built on the silence that follows it."
+  },
+  {
+   "n": 3,
+   "title": "A city is lost to an assumption, and the record says so",
+   "text": "Verses 9 and 10 explain that Moroni held his force back because he expected Nephihah to have been garrisoned. Mormon reports the reasoning before reporting the grief."
+  },
+  {
+   "n": 4,
+   "title": "Both commanders now know the maxim",
+   "text": "Keeping a city costs less than retaking it. Helaman learned it at Manti in Alma 58, and Moroni states it here while a city is being lost."
+  },
+  {
+   "n": 5,
+   "title": "Dissenters are counted as enemy strength",
+   "text": "Verse 6 lists the men driven from Manti among those attacking Nephihah. The record keeps treating internal division as a military quantity."
+  },
+  {
+   "n": 6,
+   "title": "Doubt spreads through the officers",
+   "text": "Verse 12 extends Moroni's reaction to all his chief captains. Mormon presents Nephite wickedness as the thing that unsettles them, with Lamanite success as the evidence."
+  },
+  {
+   "n": 7,
+   "title": "The anger is aimed at indifference",
+   "text": "Verse 13 names neither treason nor conspiracy. The word Mormon uses appears nowhere else in scripture."
+  },
+  {
+   "n": 8,
+   "title": "The anger is aimed at men under attack",
+   "text": "Alma 61 will report that Pahoran had been driven from Zarahemla by a rebellion. Mormon lets verse 13 stand for a chapter and a half before supplying that."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Lead with the good news you were sent",
+    "verse_label": "v. 2",
+    "text": "Moroni published Helaman's success to everyone in his part of the land. When another team wins, tell your own people about it."
+   },
+   {
+    "title": "Ask for help on someone else's behalf",
+    "verse_label": "v. 3",
+    "text": "Moroni's request to the governor was for Helaman's army. Advocating for a colleague who is short-handed costs you nothing and may reach further than his own letter did."
+   },
+   {
+    "title": "Check the assumption before you act on it",
+    "verse_label": "v. 9",
+    "text": "Moroni planned around a garrison he had never confirmed. When your plan depends on someone else having done something, verify that they did."
+   },
+   {
+    "title": "Name the failure before you decide what caused it",
+    "verse_label": "v. 13",
+    "text": "Mormon says indifference, and the next two chapters test whether that was the whole story. State what you observed and hold the explanation loosely."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "Whose success have I been glad to hear about lately?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What good news am I sitting on that others would want?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "Who needs me to ask on their behalf?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "What has division inside my own group already cost it?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What plan of mine rests on something I have not verified?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "What has made me doubt, and what was the actual cause?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "Whose indifference makes me angry, and what do I know about their situation?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al59-001",
+   "scope": "BOOK",
+   "head": "Alma 58:4",
+   "anchor": {
+    "verse": 1,
+    "w1": 21,
+    "w2": 29,
+    "quote": "after Moroni had received and had read Helaman's epistle"
+   },
+   "reason": "the letter this chapter answers, sent from Manti through channels",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 58,
+     "verse": 4,
+     "w1": 7,
+     "w2": 18,
+     "quote": "I thus did send an embassy to the governor of our land,",
+     "verse_text": "And it came to pass that I thus did send an embassy to the governor of our land, to acquaint him concerning the affairs of our people. And it came to pass that we did wait to receive provisions and strength from the land of Zarahemla.",
+     "markdown": "And it came to pass that **I thus did send an embassy to the governor of our land**, to acquaint him concerning the affairs of our people. And it came to pass that we did wait to receive provisions and strength from the land of Zarahemla.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al59-002",
+   "scope": "BOOK",
+   "head": "Alma 60:1",
+   "anchor": {
+    "verse": 3,
+    "w1": 7,
+    "w2": 13,
+    "quote": "he immediately sent an epistle to Pahoran"
+   },
+   "reason": "the second letter, which opens by saying he wrote again",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 60,
+     "verse": 1,
+     "w1": 7,
+     "w2": 18,
+     "quote": "he wrote again to the governor of the land, who was Pahoran,",
+     "verse_text": "And it came to pass that he wrote again to the governor of the land, who was Pahoran, and these are the words which he wrote, saying: Behold, I direct mine epistle to Pahoran, in the city of Zarahemla, who is the chief judge and the governor over the land, and also to all those who have been chosen by this people to govern and manage the affairs of this war.",
+     "markdown": "And it came to pass that **he wrote again to the governor of the land, who was Pahoran**, and these are the words which he wrote, saying: Behold, I direct mine epistle to Pahoran, in the city of Zarahemla, who is the chief judge and the governor over the land, and also to all those who have been chosen by this people to govern and manage the affairs of this war.",
+     "span": true
+    }
+   ],
+   "mirror": "al60-001"
+  },
+  {
+   "id": "al59-003",
+   "scope": "BOOK",
+   "head": "Alma 50:14",
+   "anchor": {
+    "verse": 5,
+    "w1": 21,
+    "w2": 24,
+    "quote": "the people of Nephihah"
+   },
+   "reason": "the founding of the city, built between Moroni and Aaron",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 50,
+     "verse": 14,
+     "w1": 28,
+     "w2": 38,
+     "quote": "they called the name of the city, or the land, Nephihah.",
+     "verse_text": "And they also began a foundation for a city between the city of Moroni and the city of Aaron, joining the borders of Aaron and Moroni; and they called the name of the city, or the land, Nephihah.",
+     "markdown": "And they also began a foundation for a city between the city of Moroni and the city of Aaron, joining the borders of Aaron and Moroni; and **they called the name of the city, or the land, Nephihah**.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al59-004",
+   "scope": "BOOK",
+   "head": "Alma 51:24",
+   "anchor": {
+    "verse": 5,
+    "w1": 29,
+    "w2": 43,
+    "quote": "from the city of Moroni and the city of Lehi and the city of Morianton"
+   },
+   "reason": "the flight that put these people in Nephihah in the first place",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 51,
+     "verse": 24,
+     "w1": 2,
+     "w2": 16,
+     "quote": "those who fled out of the city of Moroni came to the city of Nephihah;",
+     "verse_text": "And those who fled out of the city of Moroni came to the city of Nephihah; and also the people of the city of Lehi gathered themselves together, and made preparations and were ready to receive the Lamanites to battle.",
+     "markdown": "And **those who fled out of the city of Moroni came to the city of Nephihah**; and also the people of the city of Lehi gathered themselves together, and made preparations and were ready to receive the Lamanites to battle.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al59-005",
+   "scope": "BOOK",
+   "head": "Alma 58:5",
+   "anchor": {
+    "verse": 7,
+    "w1": 8,
+    "w2": 13,
+    "quote": "receiving strength from day to day"
+   },
+   "reason": "the same report from the other front, of the enemy at Manti",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 58,
+     "verse": 5,
+     "w1": 10,
+     "w2": 20,
+     "quote": "the Lamanites were also receiving great strength from day to day,",
+     "verse_text": "But behold, this did profit us but little; for the Lamanites were also receiving great strength from day to day, and also many provisions; and thus were our circumstances at this period of time.",
+     "markdown": "But behold, this did profit us but little; for **the Lamanites were also receiving great strength from day to day**, and also many provisions; and thus were our circumstances at this period of time.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al59-006",
+   "scope": "BOOK",
+   "head": "Alma 62:26",
+   "anchor": {
+    "verse": 11,
+    "w1": 7,
+    "w2": 12,
+    "quote": "the city of Nephihah was lost"
+   },
+   "reason": "the city retaken two chapters later without the loss of one soul",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 62,
+     "verse": 26,
+     "w1": 6,
+     "w2": 19,
+     "quote": "obtained the possession of the city of Nephihah without the loss of one soul;",
+     "verse_text": "Thus had Moroni and Pahoran obtained the possession of the city of Nephihah without the loss of one soul; and there were many of the Lamanites who were slain.",
+     "markdown": "Thus had Moroni and Pahoran **obtained the possession of the city of Nephihah without the loss of one soul**; and there were many of the Lamanites who were slain.",
+     "span": true
+    }
+   ],
+   "mirror": "al62-006"
+  },
+  {
+   "id": "al59-007",
+   "scope": "BOOK",
+   "head": "Alma 48:12",
+   "anchor": {
+    "verse": 13,
+    "w1": 13,
+    "w2": 22,
+    "quote": "because of their indifference concerning the freedom of their country"
+   },
+   "reason": "the man described as laboring exceedingly for the welfare of his people",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 48,
+     "verse": 12,
+     "w1": 25,
+     "w2": 38,
+     "quote": "a man who did labor exceedingly for the welfare and safety of his people.",
+     "verse_text": "Yea, a man whose heart did swell with thanksgiving to his God, for the many privileges and blessings which he bestowed upon his people; a man who did labor exceedingly for the welfare and safety of his people.",
+     "markdown": "Yea, a man whose heart did swell with thanksgiving to his God, for the many privileges and blessings which he bestowed upon his people; **a man who did labor exceedingly for the welfare and safety of his people**.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al59-008",
+   "scope": "BOM",
+   "head": "Mosiah 29:27",
+   "anchor": {
+    "verse": 11,
+    "w1": 21,
+    "w2": 27,
+    "quote": "because of the wickedness of the people"
+   },
+   "reason": "Mosiah naming the point at which a people’s choice brings judgment",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 29,
+     "verse": 27,
+     "w1": 2,
+     "w2": 14,
+     "quote": "if the time comes that the voice of the people doth choose iniquity,",
+     "verse_text": "And if the time comes that the voice of the people doth choose iniquity, then is the time that the judgments of God will come upon you; yea, then is the time he will visit you with great destruction even as he has hitherto visited this land.",
+     "markdown": "And **if the time comes that the voice of the people doth choose iniquity**, then is the time that the judgments of God will come upon you; yea, then is the time he will visit you with great destruction even as he has hitherto visited this land.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al59-009",
+   "scope": "SW",
+   "head": "Judg. 5:23",
+   "anchor": {
+    "verse": 13,
+    "w1": 7,
+    "w2": 12,
+    "quote": "Moroni was angry with the government"
+   },
+   "reason": "Deborah cursing a town for not coming to the help of the Lord",
+   "targets": [
+    {
+     "ref": "Judg.",
+     "chapter": 5,
+     "verse": 23,
+     "w1": 16,
+     "w2": 25,
+     "quote": "because they came not to the help of the LORD,",
+     "verse_text": "Curse ye Meroz, said the angel of the LORD, curse ye bitterly the inhabitants thereof; because they came not to the help of the LORD, to the help of the LORD against the mighty.",
+     "markdown": "Curse ye Meroz, said the angel of the LORD, curse ye bitterly the inhabitants thereof; **because they came not to the help of the LORD**, to the help of the LORD against the mighty.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 21,
+   "w2": 29,
+   "quote": "after Moroni had received and had read Helaman's epistle",
+   "entries": [
+    "al59-001"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 7,
+   "w2": 13,
+   "quote": "he immediately sent an epistle to Pahoran",
+   "entries": [
+    "al59-002"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 21,
+   "w2": 24,
+   "quote": "the people of Nephihah",
+   "entries": [
+    "al59-003"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 29,
+   "w2": 43,
+   "quote": "from the city of Moroni and the city of Lehi and the city of Morianton",
+   "entries": [
+    "al59-004"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 8,
+   "w2": 13,
+   "quote": "receiving strength from day to day",
+   "entries": [
+    "al59-005"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 7,
+   "w2": 12,
+   "quote": "the city of Nephihah was lost",
+   "entries": [
+    "al59-006"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 21,
+   "w2": 27,
+   "quote": "because of the wickedness of the people",
+   "entries": [
+    "al59-008"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 7,
+   "w2": 12,
+   "quote": "Moroni was angry with the government",
+   "entries": [
+    "al59-009"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 13,
+   "w2": 22,
+   "quote": "because of their indifference concerning the freedom of their country",
+   "entries": [
+    "al59-007"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "b2084499e83bb3fb"
+ }
+}

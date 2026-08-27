@@ -18,7 +18,7 @@
    "Eternal indebtedness",
    "The withdrawn Spirit"
   ],
-  "connections": 9,
+  "connections": 20,
   "initial": false
  },
  "world_behind": [
@@ -30,7 +30,7 @@
   {
    "n": 2,
    "title": "The door faces the sanctuary",
-   "text": "Verse 6 gives a practical reason — they could hear from inside their tents — but the arrangement also puts every household oriented toward one point. Whether the record means it as architecture or as posture, it describes both."
+   "text": "Verse 6 gives a practical reason (they could hear from inside their tents), but the arrangement also puts every household oriented toward one point. Whether the record means it as architecture or as posture, it describes both."
   },
   {
    "n": 3,
@@ -40,12 +40,12 @@
   {
    "n": 4,
    "title": "A king who worked and took no taxes",
-   "text": "Verse 14 has Benjamin laboring with his own hands so the people would not be laden. In the ancient world a king's revenue was the point of the office. The record presents the refusal as remarkable and expects the audience to agree."
+   "text": "Verse 14 has Benjamin laboring with his own hands so the people would not be laden. In the ancient world a king's revenue was normally the point of the office. The record presents the refusal as remarkable and expects the audience to agree."
   },
   {
    "n": 5,
    "title": "\"Unprofitable servants,\" from Luke's parable",
-   "text": "Verse 21 reaches the same conclusion as Luke 17:10 — a servant who has done all that was commanded is still unprofitable. Benjamin arrives at it by a different route, through the arithmetic of breath being lent moment by moment.",
+   "text": "Verse 21 reaches the same conclusion as Luke 17:10: a servant who has done all that was commanded is still unprofitable. Benjamin arrives at it by a different route, counting breath as lent moment by moment.",
    "refs": [
     {
      "kind": "scripture",
@@ -62,96 +62,136 @@
   {
    "n": 6,
    "title": "The Spirit withdrawn rather than sent away",
-   "text": "Verse 36 says a man who transgresses withdraws himself from the Spirit. The grammar puts the motion on the man. Verse 37 completes it: the Lord has no place in him, because he does not dwell in unholy temples — which is Stephen's line about temples made with hands, turned inward."
+   "text": "Verse 36 says a man who transgresses withdraws himself from the Spirit. The grammar puts the motion on the man. Verse 37 completes it: the Lord has no place in him, because he does not dwell in unholy temples. That is Stephen's line about temples made with hands, turned inward."
   }
  ],
  "words": [
   {
-   "term": "trifle",
+   "term": "Trifle",
    "verse_label": "v. 9",
    "text": "To treat as of little consequence, and in the King James Bible the sense is dismissive handling rather than joking. Benjamin says he did not summon them to trifle with his words. The warning is issued before the sermon begins and it is about attention, not about belief."
   },
   {
-   "term": "infirmities",
+   "term": "Infirmities",
    "verse_label": "v. 11",
    "text": "Weaknesses of body or mind. Benjamin claims them for himself in the same sentence in which he reports being chosen, consecrated, and preserved. The word does the work of the whole passage: the office is real and the man in it is ordinary."
   },
   {
-   "term": "list",
-   "verse_label": "v. 32, 33, 37",
-   "text": "An archaic verb meaning to choose or to desire — to list to obey is to be inclined to. Used three times of obedience to the evil spirit, it makes the relationship voluntary. Nothing in Benjamin's account of damnation happens to a man who did not want it."
+   "term": "Suffered",
+   "verse_label": "v. 13",
+   "text": "The verb means to permit. Benjamin says \"Neither have I suffered that ye should be confined in dungeons\" (v. 13), and the same word runs through the passage in both directions: the Lord suffered him to be a ruler, suffered him to spend his days in service, and at the last suffered him to speak. What he grants or withholds among his people he holds only because it was granted to him first. A modern reader hears pain in the word. None of these sentences is about pain.",
+   "cites": [
+    {
+     "quote": "Neither have I suffered that ye should be confined in dungeons",
+     "verse": 13,
+     "start": 40,
+     "end": 112,
+     "spans": [
+      {
+       "w1": 1,
+       "w2": 11,
+       "text": "Neither have I suffered that ye should be confined in dungeons"
+      }
+     ]
+    }
+   ]
   },
   {
-   "term": "doom",
+   "term": "List",
+   "verse_label": "v. 32, 33, 37",
+   "text": "An archaic verb meaning to choose or to desire. To list to obey is to be inclined to. Used three times of obedience to the evil spirit, it makes the relationship voluntary. Nothing in Benjamin's account of damnation happens to a man who did not want it."
+  },
+  {
+   "term": "Shrink",
+   "verse_label": "v. 38",
+   "text": "To draw back from something, bodily. The King James Bible never uses the verb this way; its one appearance there is a sinew that shrank at Peniel. Here it names what guilt does in God's presence: justice wakes the man to a sense of his own guilt, \"which doth cause him to shrink from the presence of the Lord\" (v. 38). Everything else in the verse is legal wording, demands and claims and a sentence. The one word for what actually happens to the man is a movement away.",
+   "cites": [
+    {
+     "quote": "which doth cause him to shrink from the presence of the Lord",
+     "verse": 38,
+     "start": 247,
+     "end": 317,
+     "spans": [
+      {
+       "w1": 33,
+       "w2": 44,
+       "text": "which doth cause him to shrink from the presence of the Lord"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Doom",
    "verse_label": "v. 39",
-   "text": "A judicial sentence, not a fate. The King James sense is the verdict handed down rather than the destiny assigned. Benjamin says mercy has no claim on such a man and his final doom is never-ending torment, and the legal register is deliberate — the previous verse has justice making demands."
+   "text": "A judicial sentence. The King James sense is the verdict handed down. The word does not name an assigned destiny. Benjamin says mercy has no claim on such a man and his final doom is never-ending torment. The legal wording is deliberate: the previous verse has justice making demands."
   }
  ],
  "phrases": [
   {
-   "term": "every man having his tent with the door thereof towards the temple",
+   "term": "Every man having his tent with the door thereof towards the temple",
    "verse_label": "v. 6",
-   "text": "A whole nation's households oriented toward one building. The stated reason is acoustic and the effect is architectural. Nothing in the verse explains why every door rather than most, and the detail is recorded with the precision of someone who was there."
+   "text": "A whole nation's households oriented toward one building. The stated reason is acoustic and the effect is architectural. Nothing in the verse explains why every door rather than most, and the detail is recorded with a precision that suggests an eyewitness."
   },
   {
-   "term": "open your ears that ye may hear, and your hearts that ye may understand",
+   "term": "Open your ears that ye may hear, and your hearts that ye may understand",
    "verse_label": "v. 9",
-   "text": "Three organs, three verbs, in ascending order — ears to hear, hearts to understand, minds for the mysteries to be unfolded. Benjamin assigns the audience work before he says anything, and the distribution of tasks across ears, heart, and mind is the sermon's theory of how listening happens."
+   "text": "Three organs, three verbs, in ascending order: ears to hear, hearts to understand, minds for the mysteries to be unfolded. Benjamin assigns the audience work before he says anything, and the distribution of tasks across ears, heart, and mind is the sermon's theory of how listening happens."
   },
   {
    "term": "I of myself am more than a mortal man",
    "verse_label": "v. 10",
-   "text": "The denial is placed before any teaching. Benjamin is dismantling his own authority as a first move, and the phrasing — of myself — leaves room for what he does claim later. Kings in the ancient Near East were routinely more than mortal by definition."
+   "text": "The denial is placed before any teaching. Benjamin is dismantling his own authority as a first move, and the phrasing \"of myself\" leaves room for what he does claim later. Kings in the ancient Near East were routinely more than mortal by definition."
   },
   {
    "term": "I might serve you, and that ye should not be laden with taxes",
    "verse_label": "v. 14",
-   "text": "The sentence names the two things a king normally does not do: manual labor and forgoing revenue. Benjamin offers the people as witnesses in the same breath, which makes it testable rather than rhetorical. The claim is that the office cost him rather than paid him."
+   "text": "The sentence names the two things a king normally does not do: manual labor and forgoing revenue. Benjamin offers the people as witnesses in the same breath, so the audience can check it. His claim is that the office cost him."
   },
   {
-   "term": "when ye are in the service of your fellow beings ye are only in the service of your God",
+   "term": "When ye are in the service of your fellow beings ye are only in the service of your God",
    "verse_label": "v. 17",
-   "text": "The chapter's most quoted sentence, and the word carrying it is \"only.\" Benjamin is not saying service of others resembles service of God or pleases him; he is saying there is no third category. The argument runs from his own case — a king serving, and therefore serving God — outward to everyone listening."
+   "text": "The chapter's most quoted sentence, and the word carrying it is \"only.\" Benjamin is not saying service of others resembles service of God or pleases him; he is saying there is no third category. The argument starts with his own case, a king serving and therefore serving God, and runs outward to everyone listening."
   },
   {
-   "term": "by lending you breath, that ye may live and move",
+   "term": "By lending you breath, that ye may live and move",
    "verse_label": "v. 21",
-   "text": "Breath as a loan, and the tense is continuous — preserving from day to day, supporting from one moment to another. Paul told the Athenians that in him we live and move and have our being; Benjamin turns the same thought into an account that can never be settled because the borrowing has not stopped."
+   "text": "Breath as a loan, and the tense is continuous. The preserving is from day to day, the supporting from one moment to another. Paul told the Athenians that in him we live and move and have our being; Benjamin turns the same thought into an account that can never be settled because the borrowing has not stopped."
   },
   {
-   "term": "yet ye would be unprofitable servants",
+   "term": "Yet ye would be unprofitable servants",
    "verse_label": "v. 21",
-   "text": "The conclusion of the arithmetic. Serve with your whole soul and the balance is still against you, because the service is performed with borrowed breath. Luke's parable reaches the same phrase from duty; Benjamin reaches it from economics, and the two meet exactly."
+   "text": "The conclusion of the arithmetic. Serve with your whole soul and the balance is still against you, because the service is performed with borrowed breath. Luke's parable reaches the same phrase from duty; Benjamin reaches it from debt, and the two meet exactly."
   },
   {
-   "term": "he doth immediately bless you; and therefore he hath paid you",
+   "term": "He doth immediately bless you; and therefore he hath paid you",
    "verse_label": "v. 24",
-   "text": "The most startling sentence in the address. Obedience is compensated on the spot, which means no credit ever accrues. Benjamin closes the loop deliberately — you are indebted, you obey, you are paid, you are indebted again — and then asks what there is to boast of."
+   "text": "The most startling sentence in the address. Obedience is compensated on the spot. No credit ever accrues. Benjamin closes the loop deliberately: you are indebted, you obey, you are paid, you are indebted again. Then he asks what there is to boast of."
   },
   {
    "term": "Ye cannot say that ye are even as much as the dust of the earth",
    "verse_label": "v. 25",
-   "text": "The dust obeys and belongs to its maker; the audience does neither reliably. It is not a statement about worthlessness — verse 26 has Benjamin including himself — but about ownership. Even the material they were made from is somebody else's."
+   "text": "The dust obeys and belongs to its maker; the audience does neither reliably. It is a statement about ownership. Even the material they were made from is somebody else's. Verse 26 has Benjamin including himself, so worthlessness is not the point."
   },
   {
-   "term": "that I might rid my garments of your blood",
+   "term": "That I might rid my garments of your blood",
    "verse_label": "v. 28",
    "text": "Jacob said sins; Benjamin says blood; Jacob's own first chapter said blood too. The figure is fixed across five hundred years and three speakers, and each one specifies the stain himself. Benjamin's reason is that he wants to go down to his grave in peace."
   },
   {
-   "term": "ye do withdraw yourselves from the Spirit of the Lord",
+   "term": "Ye do withdraw yourselves from the Spirit of the Lord",
    "verse_label": "v. 36",
-   "text": "The subject of the verb is the person. Nothing is taken away; someone steps back. Benjamin's account of losing the Spirit assigns the motion entirely to the one who loses it, and the next verse explains the result rather than the punishment."
+   "text": "The subject of the verb is the person. Nothing is taken away; someone steps back. Benjamin's account of losing the Spirit assigns the motion entirely to the one who loses it, and the next verse explains the result."
   },
   {
-   "term": "the Lord has no place in him, for he dwelleth not in unholy temples",
+   "term": "The Lord has no place in him, for he dwelleth not in unholy temples",
    "verse_label": "v. 37",
    "text": "The body as a building, and the reason given for the absence is a matter of what God does rather than of what he refuses. Stephen said the Most High does not dwell in temples made with hands; Benjamin applies the same principle to a person, and the record will use the phrase three more times."
   },
   {
-   "term": "the blessed and happy state of those that keep the commandments of God",
+   "term": "The blessed and happy state of those that keep the commandments of God",
    "verse_label": "v. 41",
-   "text": "The address ends on the alternative rather than on the warning. Two verses of torment are followed by one of happiness, temporal and spiritual, and a doubled imperative to remember. The proportion is deliberate and the last word is that the Lord has spoken it."
+   "text": "The address ends on the alternative. Two verses of torment are followed by one of happiness, temporal and spiritual, and a doubled imperative to remember. The proportion is deliberate and the last word is that the Lord has spoken it."
   }
  ],
  "verses": [
@@ -174,14 +214,14 @@
    "start": 12,
    "end": 19,
    "title": "The record of a reign, and the lesson drawn",
-   "text": "No gold taken, no dungeons, no slavery, no taxes, labor with his own hands, and the people as witnesses. Then the turn: this is not a boast and not an accusation but a demonstration — if a king serves, so should you; and all of it was only ever service of God."
+   "text": "No gold taken, no dungeons, no slavery, no taxes, labor with his own hands, and the people as witnesses. Then the turn: this is a demonstration. If a king serves, so should you, and all of it was only ever service of God."
   },
   {
    "label": "v. 20–26",
    "start": 20,
    "end": 26,
-   "title": "The arithmetic of indebtedness",
-   "text": "Render all the thanks your soul can hold and you are still an unprofitable servant, because breath is lent by the moment. He created you, which is the first debt; he blesses obedience immediately, which pays the second and opens a third. You cannot claim as much as the dust — and neither can the king, who is about to yield his frame to its mother earth."
+   "title": "The debt, counted up",
+   "text": "Render all the thanks your soul can hold and you are still an unprofitable servant, because breath is lent by the moment. He created you, which is the first debt; he blesses obedience immediately, which pays the second and opens a third. You cannot claim as much as the dust, and neither can the king, who is about to yield his frame to its mother earth."
   },
   {
    "label": "v. 27–31",
@@ -219,12 +259,12 @@
   {
    "n": 3,
    "title": "The debt can never be reduced, by design",
-   "text": "Creation puts you in debt; obedience is paid immediately; therefore nothing accumulates on your side. Benjamin builds a closed system, and the reason boasting is unavailable inside it is structural rather than moral."
+   "text": "Creation puts you in debt; obedience is paid immediately; therefore nothing accumulates on your side. Benjamin builds a closed system, and the reason boasting is unavailable inside it is structural."
   },
   {
    "n": 4,
    "title": "Losing the Spirit is described as an act of the person",
-   "text": "Verse 36 has the man withdrawing himself; verse 37 explains that God's absence follows from what God is rather than from a decision to leave. Nothing in the passage has the Spirit departing in anger, which is a notably mechanical account of a subject usually handled as an emotional one."
+   "text": "Verse 36 has the man withdrawing himself; verse 37 explains that God's absence follows from what God is. Nothing in the passage has the Spirit departing in anger. The account is mechanical about a subject usually handled as an emotional one."
   },
   {
    "n": 5,
@@ -252,7 +292,7 @@
    {
     "title": "Assign yourself the listening work",
     "verse_label": "v. 9",
-    "text": "Ears, heart, mind — Benjamin gives the audience three jobs before he starts. Before your next meeting, lesson, or difficult conversation, decide specifically what you are opening."
+    "text": "Ears, heart, mind: Benjamin gives the audience three jobs before he starts. Before your next meeting, lesson, or difficult conversation, decide specifically what you are opening."
    },
    {
     "title": "Serve where it costs you",
@@ -277,7 +317,7 @@
    {
     "title": "Weigh the two states",
     "verse_label": "v. 40–41",
-    "text": "He asks old men, young men, and children to consider both outcomes side by side. Do that literally — write the two columns — rather than only attending to the one that frightens you."
+    "text": "He asks old men, young men, and children to consider both outcomes side by side. Do that literally, writing the two columns, rather than only attending to the one that frightens you."
    }
   ],
   "questions": [
@@ -327,6 +367,188 @@
  },
  "entries": [
   {
+   "id": "mos02-016",
+   "scope": "BOOK",
+   "head": "Mosiah 29:40",
+   "anchor": {
+    "verse": 12,
+    "w1": 24,
+    "w2": 36,
+    "quote": "have not sought gold nor silver nor any manner of riches of you"
+   },
+   "reason": "his son remembered for the same restraint",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 29,
+     "verse": 40,
+     "w1": 37,
+     "w2": 43,
+     "quote": "that lucre which doth corrupt the soul;",
+     "verse_text": "And they did wax strong in love towards Mosiah; yea, they did esteem him more than any other man; for they did not look upon him as a tyrant who was seeking for gain, yea, for that lucre which doth corrupt the soul; for he had not exacted riches of them, neither had he delighted in the shedding of blood; but he had established peace in the land, and he had granted unto his people that they should be delivered from all manner of bondage; therefore they did esteem him, yea, exceedingly, beyond measure.",
+     "markdown": "And they did wax strong in love towards Mosiah; yea, they did esteem him more than any other man; for they did not look upon him as a tyrant who was seeking for gain, yea, for **that lucre which doth corrupt the soul**; for he had not exacted riches of them, neither had he delighted in the shedding of blood; but he had established peace in the land, and he had granted unto his people that they should be delivered from all manner of bondage; therefore they did esteem him, yea, exceedingly, beyond measure.",
+     "span": true
+    }
+   ],
+   "mirror": "mos29-008"
+  },
+  {
+   "id": "mos02-015",
+   "scope": "BOOK",
+   "head": "Mosiah 22:4",
+   "anchor": {
+    "verse": 21,
+    "w1": 63,
+    "w2": 68,
+    "quote": "yet ye would be unprofitable servants"
+   },
+   "reason": "Gideon borrowing the phrase to ask for a hearing",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 22,
+     "verse": 4,
+     "w1": 5,
+     "w2": 15,
+     "quote": "if thou hast not found me to be an unprofitable servant,",
+     "verse_text": "And now O king, if thou hast not found me to be an unprofitable servant, or if thou hast hitherto listened to my words in any degree, and they have been of service to thee, even so I desire that thou wouldst listen to my words at this time, and I will be thy servant and deliver this people out of bondage.",
+     "markdown": "And now O king, **if thou hast not found me to be an unprofitable servant**, or if thou hast hitherto listened to my words in any degree, and they have been of service to thee, even so I desire that thou wouldst listen to my words at this time, and I will be thy servant and deliver this people out of bondage.",
+     "span": true
+    }
+   ],
+   "mirror": "mos22-004"
+  },
+  {
+   "id": "mos02-014",
+   "scope": "BOOK",
+   "head": "Mosiah 8:3",
+   "anchor": {
+    "verse": 9,
+    "w1": 65,
+    "w2": 78,
+    "quote": "open your ears that ye may hear, and your hearts that ye may understand"
+   },
+   "reason": "the address rehearsed to a nation that was not there",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 8,
+     "verse": 3,
+     "w1": 4,
+     "w2": 15,
+     "quote": "rehearsed unto them the last words which king Benjamin had taught them,",
+     "verse_text": "And he also rehearsed unto them the last words which king Benjamin had taught them, and explained them to the people of king Limhi, so that they might understand all the words which he spake.",
+     "markdown": "And he also **rehearsed unto them the last words which king Benjamin had taught them**, and explained them to the people of king Limhi, so that they might understand all the words which he spake.",
+     "span": true
+    }
+   ],
+   "mirror": "mos08-002"
+  },
+  {
+   "id": "mos02-013",
+   "scope": "BOOK",
+   "head": "Mosiah 7:15",
+   "anchor": {
+    "verse": 14,
+    "w1": 12,
+    "w2": 24,
+    "quote": "I might serve you, and that ye should not be laden with taxes"
+   },
+   "reason": "Limhi's people paying half of everything",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 7,
+     "verse": 15,
+     "w1": 11,
+     "w2": 21,
+     "quote": "are taxed with a tax which is grievous to be borne.",
+     "verse_text": "For behold, we are in bondage to the Lamanites, and are taxed with a tax which is grievous to be borne. And now, behold, our brethren will deliver us out of our bondage, or out of the hands of the Lamanites, and we will be their slaves; for it is better that we be slaves to the Nephites than to pay tribute to the king of the Lamanites.",
+     "markdown": "For behold, we are in bondage to the Lamanites, and **are taxed with a tax which is grievous to be borne**. And now, behold, our brethren will deliver us out of our bondage, or out of the hands of the Lamanites, and we will be their slaves; for it is better that we be slaves to the Nephites than to pay tribute to the king of the Lamanites.",
+     "span": true
+    }
+   ],
+   "mirror": "mos07-003"
+  },
+  {
+   "id": "mos02-012",
+   "scope": "BOOK",
+   "head": "Mosiah 6:7",
+   "anchor": {
+    "verse": 14,
+    "w1": 12,
+    "w2": 24,
+    "quote": "I might serve you, and that ye should not be laden with taxes"
+   },
+   "reason": "the practice inherited by his son",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 6,
+     "verse": 7,
+     "w1": 24,
+     "w2": 31,
+     "quote": "he might not become burdensome to his people,",
+     "verse_text": "And king Mosiah did cause his people that they should till the earth. And he also, himself, did till the earth, that thereby he might not become burdensome to his people, that he might do according to that which his father had done in all things. And there was no contention among all his people for the space of three years.",
+     "markdown": "And king Mosiah did cause his people that they should till the earth. And he also, himself, did till the earth, that thereby **he might not become burdensome to his people**, that he might do according to that which his father had done in all things. And there was no contention among all his people for the space of three years.",
+     "span": true
+    }
+   ],
+   "mirror": "mos06-003"
+  },
+  {
+   "id": "mos02-011",
+   "scope": "BOOK",
+   "head": "Mosiah 4:2",
+   "anchor": {
+    "verse": 25,
+    "w1": 15,
+    "w2": 29,
+    "quote": "Ye cannot say that ye are even as much as the dust of the earth"
+   },
+   "reason": "the people take the estimate further",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 4,
+     "verse": 2,
+     "w1": 11,
+     "w2": 18,
+     "quote": "even less than the dust of the earth.",
+     "verse_text": "And they had viewed themselves in their own carnal state, even less than the dust of the earth. And they all cried aloud with one voice, saying: O have mercy, and apply the atoning blood of Christ that we may receive forgiveness of our sins, and our hearts may be purified; for we believe in Jesus Christ, the Son of God, who created heaven and earth, and all things; who shall come down among the children of men.",
+     "markdown": "And they had viewed themselves in their own carnal state, **even less than the dust of the earth**. And they all cried aloud with one voice, saying: O have mercy, and apply the atoning blood of Christ that we may receive forgiveness of our sins, and our hearts may be purified; for we believe in Jesus Christ, the Son of God, who created heaven and earth, and all things; who shall come down among the children of men.",
+     "span": true
+    }
+   ],
+   "mirror": "mos04-002"
+  },
+  {
+   "id": "mos02-010",
+   "scope": "BOOK",
+   "head": "Mosiah 3:1",
+   "anchor": {
+    "verse": 41,
+    "w1": 63,
+    "w2": 70,
+    "quote": "O remember, remember that these things are true"
+   },
+   "reason": "the address resumed with the angel's message",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 3,
+     "verse": 1,
+     "w1": 21,
+     "w2": 32,
+     "quote": "I have things to tell you concerning that which is to come.",
+     "verse_text": "And again my brethren, I would call your attention, for I have somewhat more to speak unto you; for behold, I have things to tell you concerning that which is to come.",
+     "markdown": "And again my brethren, I would call your attention, for I have somewhat more to speak unto you; for behold, **I have things to tell you concerning that which is to come**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos03-001"
+  },
+  {
    "id": "mos02-001",
    "scope": "BOOK",
    "head": "Mosiah 1:18",
@@ -345,10 +567,116 @@
      "w1": 38,
      "w2": 52,
      "quote": "to go up to the temple to hear the words which his father should speak",
+     "verse_text": "And now, it came to pass that Mosiah went and did as his father had commanded him, and proclaimed unto all the people who were in the land of Zarahemla that thereby they might gather themselves together, to go up to the temple to hear the words which his father should speak unto them.",
+     "markdown": "And now, it came to pass that Mosiah went and did as his father had commanded him, and proclaimed unto all the people who were in the land of Zarahemla that thereby they might gather themselves together, **to go up to the temple to hear the words which his father should speak** unto them.",
      "span": true
     }
    ],
    "mirror": "mos01-007"
+  },
+  {
+   "id": "mos02-020",
+   "scope": "BOM",
+   "head": "Alma 8:31",
+   "anchor": {
+    "verse": 13,
+    "w1": 1,
+    "w2": 11,
+    "quote": "Neither have I suffered that ye should be confined in dungeons"
+   },
+   "reason": "the word, next used of a cell that could not hold them",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 8,
+     "verse": 31,
+     "w1": 10,
+     "w2": 16,
+     "quote": "they could not be confined in dungeons;",
+     "verse_text": "And they had power given unto them, insomuch that they could not be confined in dungeons; neither was it possible that any man could slay them; nevertheless they did not exercise their power until they were bound in bands and cast into prison. Now, this was done that the Lord might show forth his power in them.",
+     "markdown": "And they had power given unto them, insomuch that **they could not be confined in dungeons**; neither was it possible that any man could slay them; nevertheless they did not exercise their power until they were bound in bands and cast into prison. Now, this was done that the Lord might show forth his power in them.",
+     "span": true
+    }
+   ],
+   "mirror": "al08-009"
+  },
+  {
+   "id": "mos02-019",
+   "scope": "BOM",
+   "head": "Alma 7:21",
+   "anchor": {
+    "verse": 37,
+    "w1": 44,
+    "w2": 49,
+    "quote": "he dwelleth not in unholy temples"
+   },
+   "reason": "the clause, quoted back a generation later",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 7,
+     "verse": 21,
+     "w1": 2,
+     "w2": 8,
+     "quote": "he doth not dwell in unholy temples;",
+     "verse_text": "And he doth not dwell in unholy temples; neither can filthiness or anything which is unclean be received into the kingdom of God; therefore I say unto you the time shall come, yea, and it shall be at the last day, that he who is filthy shall remain in his filthiness.",
+     "markdown": "And **he doth not dwell in unholy temples**; neither can filthiness or anything which is unclean be received into the kingdom of God; therefore I say unto you the time shall come, yea, and it shall be at the last day, that he who is filthy shall remain in his filthiness.",
+     "span": true
+    }
+   ],
+   "mirror": "al07-007"
+  },
+  {
+   "id": "mos02-018",
+   "scope": "BOM",
+   "head": "Alma 3:27",
+   "anchor": {
+    "verse": 33,
+    "w1": 38,
+    "w2": 46,
+    "quote": "for he receiveth for his wages an everlasting punishment"
+   },
+   "reason": "wages and listing, borrowed to close a chapter",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 3,
+     "verse": 27,
+     "w1": 2,
+     "w2": 12,
+     "quote": "every man receiveth wages of him whom he listeth to obey,",
+     "verse_text": "For every man receiveth wages of him whom he listeth to obey, and this according to the words of the spirit of prophecy; therefore let it be according to the truth. And thus endeth the fifth year of the reign of the judges.",
+     "markdown": "For **every man receiveth wages of him whom he listeth to obey**, and this according to the words of the spirit of prophecy; therefore let it be according to the truth. And thus endeth the fifth year of the reign of the judges.",
+     "span": true
+    }
+   ],
+   "mirror": "al03-012"
+  },
+  {
+   "id": "mos02-017",
+   "scope": "BOM",
+   "head": "Alma 3:18",
+   "anchor": {
+    "verse": 37,
+    "w1": 11,
+    "w2": 19,
+    "quote": "the same cometh out in open rebellion against God"
+   },
+   "reason": "the phrase, later applied to a faction",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 3,
+     "verse": 18,
+     "w1": 24,
+     "w2": 32,
+     "quote": "they had come out in open rebellion against God;",
+     "verse_text": "Now the Amlicites knew not that they were fulfilling the words of God when they began to mark themselves in their foreheads; nevertheless they had come out in open rebellion against God; therefore it was expedient that the curse should fall upon them.",
+     "markdown": "Now the Amlicites knew not that they were fulfilling the words of God when they began to mark themselves in their foreheads; nevertheless **they had come out in open rebellion against God**; therefore it was expedient that the curse should fall upon them.",
+     "span": true
+    }
+   ],
+   "mirror": "al03-011"
   },
   {
    "id": "mos02-004",
@@ -368,7 +696,9 @@
      "verse": 21,
      "w1": 2,
      "w2": 8,
-     "quote": "he doth not dwell in unholy temples",
+     "quote": "he doth not dwell in unholy temples;",
+     "verse_text": "And he doth not dwell in unholy temples; neither can filthiness or anything which is unclean be received into the kingdom of God; therefore I say unto you the time shall come, yea, and it shall be at the last day, that he who is filthy shall remain in his filthiness.",
+     "markdown": "And **he doth not dwell in unholy temples**; neither can filthiness or anything which is unclean be received into the kingdom of God; therefore I say unto you the time shall come, yea, and it shall be at the last day, that he who is filthy shall remain in his filthiness.",
      "span": true
     }
    ],
@@ -392,11 +722,13 @@
      "verse": 2,
      "w1": 51,
      "w2": 63,
-     "quote": "we have no more disposition to do evil, but to do good continually",
+     "quote": "we have no more disposition to do evil, but to do good continually.",
+     "verse_text": "And they all cried with one voice, saying: Yea, we believe all the words which thou hast spoken unto us; and also, we know of their surety and truth, because of the Spirit of the Lord Omnipotent, which has wrought a mighty change in us, or in our hearts, that we have no more disposition to do evil, but to do good continually.",
+     "markdown": "And they all cried with one voice, saying: Yea, we believe all the words which thou hast spoken unto us; and also, we know of their surety and truth, because of the Spirit of the Lord Omnipotent, which has wrought a mighty change in us, or in our hearts, that **we have no more disposition to do evil, but to do good continually**.",
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos05-002"
   },
   {
    "id": "mos02-002",
@@ -416,7 +748,9 @@
      "verse": 2,
      "w1": 24,
      "w2": 32,
-     "quote": "that I might rid my garments of your sins",
+     "quote": "that I might rid my garments of your sins,",
+     "verse_text": "Now, my beloved brethren, I, Jacob, according to the responsibility which I am under to God, to magnify mine office with soberness, and that I might rid my garments of your sins, I come up into the temple this day that I might declare unto you the word of God.",
+     "markdown": "Now, my beloved brethren, I, Jacob, according to the responsibility which I am under to God, to magnify mine office with soberness, and **that I might rid my garments of your sins**, I come up into the temple this day that I might declare unto you the word of God.",
      "span": true
     }
    ],
@@ -440,7 +774,9 @@
      "verse": 48,
      "w1": 2,
      "w2": 11,
-     "quote": "the most High dwelleth not in temples made with hands",
+     "quote": "the most High dwelleth not in temples made with hands;",
+     "verse_text": "Howbeit the most High dwelleth not in temples made with hands; as saith the prophet,",
+     "markdown": "Howbeit **the most High dwelleth not in temples made with hands**; as saith the prophet,",
      "span": true
     }
    ],
@@ -464,7 +800,9 @@
      "verse": 2,
      "w1": 21,
      "w2": 31,
-     "quote": "far off about the tabernacle of the congregation shall they pitch",
+     "quote": "far off about the tabernacle of the congregation shall they pitch.",
+     "verse_text": "Every man of the children of Israel shall pitch by his own standard, with the ensign of their father's house: far off about the tabernacle of the congregation shall they pitch.",
+     "markdown": "Every man of the children of Israel shall pitch by his own standard, with the ensign of their father's house: **far off about the tabernacle of the congregation shall they pitch**.",
      "span": true
     }
    ],
@@ -488,7 +826,9 @@
      "verse": 4,
      "w1": 2,
      "w2": 17,
-     "quote": "Ezra the scribe stood upon a pulpit of wood, which they had made for the purpose",
+     "quote": "Ezra the scribe stood upon a pulpit of wood, which they had made for the purpose;",
+     "verse_text": "And Ezra the scribe stood upon a pulpit of wood, which they had made for the purpose; and beside him stood Mattithiah, and Shema, and Anaiah, and Urijah, and Hilkiah, and Maaseiah, on his right hand; and on his left hand, Pedaiah, and Mishael, and Malchiah, and Hashum, and Hashbadana, Zechariah, and Meshullam.",
+     "markdown": "And **Ezra the scribe stood upon a pulpit of wood, which they had made for the purpose**; and beside him stood Mattithiah, and Shema, and Anaiah, and Urijah, and Hilkiah, and Maaseiah, on his right hand; and on his left hand, Pedaiah, and Mishael, and Malchiah, and Hashum, and Hashbadana, Zechariah, and Meshullam.",
      "span": true
     }
    ],
@@ -512,7 +852,9 @@
      "verse": 28,
      "w1": 1,
      "w2": 11,
-     "quote": "For in him we live, and move, and have our being",
+     "quote": "For in him we live, and move, and have our being;",
+     "verse_text": "For in him we live, and move, and have our being; as certain also of your own poets have said, For we are also his offspring.",
+     "markdown": "**For in him we live, and move, and have our being**; as certain also of your own poets have said, For we are also his offspring.",
      "span": true
     }
    ],
@@ -536,7 +878,9 @@
      "verse": 10,
      "w1": 17,
      "w2": 30,
-     "quote": "We are unprofitable servants: we have done that which was our duty to do",
+     "quote": "We are unprofitable servants: we have done that which was our duty to do.",
+     "verse_text": "So likewise ye, when ye shall have done all those things which are commanded you, say, We are unprofitable servants: we have done that which was our duty to do.",
+     "markdown": "So likewise ye, when ye shall have done all those things which are commanded you, say, **We are unprofitable servants: we have done that which was our duty to do**.",
      "span": true
     }
    ],
@@ -572,6 +916,43 @@
    ]
   },
   {
+   "verse": 9,
+   "w1": 65,
+   "w2": 78,
+   "quote": "open your ears that ye may hear, and your hearts that ye may understand",
+   "entries": [
+    "mos02-014"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 24,
+   "w2": 36,
+   "quote": "have not sought gold nor silver nor any manner of riches of you",
+   "entries": [
+    "mos02-016"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 1,
+   "w2": 11,
+   "quote": "Neither have I suffered that ye should be confined in dungeons",
+   "entries": [
+    "mos02-020"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 12,
+   "w2": 24,
+   "quote": "I might serve you, and that ye should not be laden with taxes",
+   "entries": [
+    "mos02-013",
+    "mos02-012"
+   ]
+  },
+  {
    "verse": 21,
    "w1": 26,
    "w2": 35,
@@ -586,7 +967,17 @@
    "w2": 68,
    "quote": "yet ye would be unprofitable servants",
    "entries": [
+    "mos02-015",
     "mos02-005"
+   ]
+  },
+  {
+   "verse": 25,
+   "w1": 15,
+   "w2": 29,
+   "quote": "Ye cannot say that ye are even as much as the dust of the earth",
+   "entries": [
+    "mos02-011"
    ]
   },
   {
@@ -599,11 +990,30 @@
    ]
   },
   {
+   "verse": 33,
+   "w1": 38,
+   "w2": 46,
+   "quote": "for he receiveth for his wages an everlasting punishment",
+   "entries": [
+    "mos02-018"
+   ]
+  },
+  {
+   "verse": 37,
+   "w1": 11,
+   "w2": 19,
+   "quote": "the same cometh out in open rebellion against God",
+   "entries": [
+    "mos02-017"
+   ]
+  },
+  {
    "verse": 37,
    "w1": 44,
    "w2": 49,
    "quote": "he dwelleth not in unholy temples",
    "entries": [
+    "mos02-019",
     "mos02-004",
     "mos02-009"
    ]
@@ -616,10 +1026,19 @@
    "entries": [
     "mos02-003"
    ]
+  },
+  {
+   "verse": 41,
+   "w1": 63,
+   "w2": 70,
+   "quote": "O remember, remember that these things are true",
+   "entries": [
+    "mos02-010"
+   ]
   }
  ],
  "generated": {
-  "at": "2026-08-18",
-  "source_sha256": "f50cec190512f458"
+  "at": "2026-08-25",
+  "source_sha256": "0d4699e0fa030505"
  }
 }

@@ -1,0 +1,643 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 44,
+  "volume_order": "08",
+  "speakers": [
+   "Moroni",
+   "Zerahemnah",
+   "A soldier of Moroni"
+  ],
+  "audience": "The surrounded Lamanite army",
+  "location": "The valley by the river Sidon",
+  "date": "~74 BC",
+  "unit": "The war chapters (Alma 43–63)",
+  "principles": [
+   "Terms offered from a position of advantage",
+   "An oath refused honestly",
+   ""
+  ],
+  "connections": 9,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Moroni stops the killing to talk",
+   "text": "Alma 43 ended with the order; verse 1 has both sides withdraw a pace. The whole chapter takes place inside a pause the winning side called."
+  },
+  {
+   "n": 2,
+   "title": "His terms are weapons and an oath",
+   "text": "Verse 6 asks for the weapons and a promise not to return. Verse 7 states the alternative plainly, and nothing is hidden about it."
+  },
+  {
+   "n": 3,
+   "title": "Zerahemnah refuses the oath on honest grounds",
+   "text": "Verse 8 says they know they would break it, and their children after them. He offers the weapons and declines the promise."
+  },
+  {
+   "n": 4,
+   "title": "He credits the armor and not God",
+   "text": "Verse 9 says it was cunning, breastplates, and shields that saved the Nephites. Alma 43 spent four verses on that equipment, so the reader can weigh the claim."
+  },
+  {
+   "n": 5,
+   "title": "The scalp is used as a sermon",
+   "text": "Verses 13 and 14 have a soldier raise it on a sword point and preach from it. Mormon gives the man no name and quotes him at length."
+  },
+  {
+   "n": 6,
+   "title": "Moroni returns the weapons before demanding the oath",
+   "text": "Verse 10 has him hand back the sword, and verse 11 says he cannot recall his own words. The handover is what lets Zerahemnah attack him."
+  },
+  {
+   "n": 7,
+   "title": "The chapter closes the book of Alma's record",
+   "text": "Verse 24 ends the eighteenth year and says the record of Alma written on the plates of Nephi is finished. Alma 45 begins a new source."
+  }
+ ],
+ "words": [
+  {
+   "term": "Yoke",
+   "verse_label": "v. 2",
+   "text": "The wooden bar across the necks of draft animals, and so a figure for servitude. The phrase yoke of bondage occurs five times in this record and once in the King James Bible, where Paul tells the Galatians not to be entangled with it again."
+  },
+  {
+   "term": "Scalp",
+   "verse_label": "v. 12",
+   "text": "The skin of the head with its hair. The word occurs six times in this record, four of them in this chapter, and once in the King James Bible, in a psalm about God wounding the hairy scalp of his enemies. Mormon uses it four times in four verses."
+  },
+  {
+   "term": "Hilt",
+   "verse_label": "v. 12",
+   "text": "The handle of a sword, where the blade is set. The word occurs three times in this record and never in the King James Bible; Nephi takes Laban's sword by it, and here a sword breaks at it. Both uses turn on a weapon changing hands."
+  },
+  {
+   "term": "Wroth",
+   "verse_label": "v. 16",
+   "text": "Treated at Mosiah 10:14, where it carries the Lamanite grievance handed down from Laman. Here it is Zerahemnah after losing his scalp, stirring the remainder of his soldiers to fight harder.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 10:14",
+     "start": 11,
+     "end": 23,
+     "book": "Mosiah",
+     "chapter": 10,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
+  },
+  {
+   "term": "Prophesied",
+   "verse_label": "v. 18",
+   "text": "Foretold. Mormon applies the word to what the unnamed soldier said over the scalp. The man made a conditional threat and Mormon reports its fulfilment as prophecy."
+  },
+  {
+   "term": "Numbered",
+   "verse_label": "v. 21",
+   "text": "Counted. Mormon says the dead were not numbered because of the greatness of the number, on both sides. Alma 28 and Alma 30 both use the same admission after large battles."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "We do not desire to be men of blood",
+   "verse_label": "v. 1",
+   "text": "Moroni's opening line to a surrounded enemy. The phrase occurs once in this record. He states what the Nephites are not before he states any condition."
+  },
+  {
+   "term": "Ye are angry with us because of our religion",
+   "verse_label": "v. 2",
+   "text": "Moroni identifies the cause of the war as religious. He repeats it in verses 3 and 5, and it is the ground of everything he claims about the outcome."
+  },
+  {
+   "term": "Never will the Lord suffer that we shall be destroyed except we should fall into transgression",
+   "verse_label": "v. 4",
+   "text": "The condition attached to Nephite preservation. Moroni states it to an enemy, which puts his own nation under a standard in front of the people he has just beaten."
+  },
+  {
+   "term": "I command you by all the desires which ye have for life",
+   "verse_label": "v. 6",
+   "text": "The oath formula runs through verse 5 and lands here. Moroni swears by faith, religion, worship, church, wives, children, liberty, lands, the word of God, and then by the enemy's own wish to survive."
+  },
+  {
+   "term": "We will not suffer ourselves to take an oath unto you, which we know that we shall break",
+   "verse_label": "v. 8",
+   "text": "Zerahemnah's refusal, and it is a piece of self-knowledge. He will hand over weapons and will not promise what he expects to break, and he says his children would break it too."
+  },
+  {
+   "term": "It is your breastplates and your shields that have preserved you",
+   "verse_label": "v. 9",
+   "text": "The natural explanation, offered by the man who lost. Alma 43 gave the armor in detail, so the record has supplied the evidence for Zerahemnah's reading before he states it."
+  },
+  {
+   "term": "Now I cannot recall the words which I have spoken",
+   "verse_label": "v. 11",
+   "text": "Moroni holds himself to terms he has already offered. He has just returned the weapons, and he treats his own statement as binding even though it now works against him."
+  },
+  {
+   "term": "Even as this scalp has fallen to the earth",
+   "verse_label": "v. 14",
+   "text": "The soldier's sermon over a sword point. It is a conditional, with deliverance of weapons and a covenant of peace as the escape, and verse 15 says many took it."
+  },
+  {
+   "term": "Their naked skins and their bare heads were exposed to the sharp swords",
+   "verse_label": "v. 18",
+   "text": "Mormon gives the mechanism of the slaughter. The armor Alma 43 described from the Nephite side is now described by its absence on the other, and the outcome follows from equipment."
+  },
+  {
+   "term": "Moroni caused that the work of death should cease again",
+   "verse_label": "v. 20",
+   "text": "The second halt in two chapters. Zerahemnah has cried out promising the covenant, and Mormon records the stop, the weapons taken, and the departure into the wilderness."
+  },
+  {
+   "term": "They did cast their dead into the waters of Sidon",
+   "verse_label": "v. 22",
+   "text": "The disposal of the bodies, given in one verse. Mormon says they are buried in the depths of the sea, and then sends the army home in the next line."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–7",
+   "start": 1,
+   "end": 7,
+   "title": "The terms",
+   "text": "Both sides withdraw a pace. Moroni says the Nephites are not men of blood and do not want bondage, that the anger against them is religious, and that God has delivered the Lamanites into their hands. He commands them by everything he holds sacred to give up their weapons and covenant not to return, and states what follows if they refuse."
+  },
+  {
+   "label": "v. 8–9",
+   "start": 8,
+   "end": 9,
+   "title": "The refusal",
+   "text": "Zerahemnah hands over sword, cimeter, and bow, and declines the oath because he knows he would break it. He denies that God did any of this and credits Nephite cunning, armor, and shields."
+  },
+  {
+   "label": "v. 10–12",
+   "start": 10,
+   "end": 12,
+   "title": "The weapons returned",
+   "text": "Moroni hands the weapons back and says the conflict is over, then holds to his own words: no departure without the oath. Zerahemnah keeps his sword, rushes at Moroni, has the blade broken at the hilt and his scalp taken, and withdraws into his men."
+  },
+  {
+   "label": "v. 13–15",
+   "start": 13,
+   "end": 15,
+   "title": "The soldier's sermon",
+   "text": "The soldier lifts the scalp on his sword point and tells the army they will fall the same way unless they give up their weapons and covenant peace. Many are struck with fear, throw down their weapons at Moroni's feet, and are let go into the wilderness."
+  },
+  {
+   "label": "v. 16–18",
+   "start": 16,
+   "end": 18,
+   "title": "The rest fight",
+   "text": "Zerahemnah stirs the remainder to fight harder. Moroni, angry at the stubbornness, orders the attack. Naked skins and bare heads against sharp swords, and they fall exceedingly fast, as the soldier had said."
+  },
+  {
+   "label": "v. 19–21",
+   "start": 19,
+   "end": 21,
+   "title": "The second surrender",
+   "text": "Zerahemnah sees them about to be destroyed and cries out, promising the covenant for himself and his people. Moroni stops the work of death again, takes the weapons, and lets them depart. The dead on both sides are past counting."
+  },
+  {
+   "label": "v. 22–24",
+   "start": 22,
+   "end": 24,
+   "title": "The close",
+   "text": "The dead are cast into Sidon and buried in the depths of the sea. The armies go home. The eighteenth year ends, and with it the record of Alma on the plates of Nephi."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The whole chapter happens inside a pause",
+   "text": "Moroni stopped the killing in Alma 43:54 and everything here takes place before it resumes. The record spends twenty verses on a negotiation and three on the fighting that follows.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 43:54",
+     "start": 30,
+     "end": 40,
+     "book": "Alma",
+     "chapter": 43,
+     "verse_start": 54,
+     "verse_end": 54
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Moroni argues theology to an enemy",
+   "text": "Religion is named as the cause in verses 2, 3, and 5, and the Nephite advantage is credited to faith. He is making a case, not just issuing terms."
+  },
+  {
+   "n": 3,
+   "title": "He puts his own side under the condition",
+   "text": "Verse 4 says the Lord will not suffer them to be destroyed except they fall into transgression. Moroni states the limit of his own claim while holding the advantage."
+  },
+  {
+   "n": 4,
+   "title": "Zerahemnah's refusal is honest",
+   "text": "He will not swear what he knows he would break. The record gives a defeated enemy a piece of integrity and does not soften it."
+  },
+  {
+   "n": 5,
+   "title": "Both explanations of the victory are on the page",
+   "text": "Moroni says God; Zerahemnah says armor. Alma 43 described the armor at length, so the reader has the evidence for the second reading and can hold both."
+  },
+  {
+   "n": 6,
+   "title": "An unnamed soldier gets the chapter's sermon",
+   "text": "He raises a scalp and preaches a conditional. Mormon reports the fulfilment in verse 18 with the word prophesied."
+  },
+  {
+   "n": 7,
+   "title": "Moroni binds himself to his own words",
+   "text": "Verse 11 says he cannot recall what he has spoken, after he has already handed the weapons back. His terms hold even when keeping them costs him the negotiation."
+  },
+  {
+   "n": 8,
+   "title": "The chapter ends a source",
+   "text": "Verse 24 closes the record of Alma. Mormon has been abridging one man's writing since Alma 1, and the next chapter begins from something else."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "State the terms and the alternative plainly",
+    "verse_label": "v. 6–7",
+    "text": "Moroni said exactly what he wanted and exactly what would follow otherwise. When you have leverage, say both halves out loud instead of implying the second."
+   },
+   {
+    "title": "Do not promise what you expect to break",
+    "verse_label": "v. 8",
+    "text": "Zerahemnah refused an oath on the grounds of self-knowledge. When you are asked to commit to something you do not think you will hold, say so instead of agreeing."
+   },
+   {
+    "title": "Hold yourself to what you already said",
+    "verse_label": "v. 11",
+    "text": "Moroni had given his terms and would not withdraw them when they became inconvenient. Before you make an offer, decide whether you will keep it if the situation changes."
+   },
+   {
+    "title": "Stop when they yield",
+    "verse_label": "v. 20",
+    "text": "Moroni ended the work of death twice in one chapter. When someone concedes, the useful move is to accept it instead of finishing the point."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "When I have had someone at a disadvantage, what did I say first?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What condition is attached to the help I expect?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "What have I promised that I already knew I would not keep?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What in my life do I credit to preparation that I might owe to something else?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "What have I said that I would rather take back, and should not?"
+   },
+   {
+    "verse_label": "v. 16",
+    "start": 16,
+    "end": 16,
+    "text": "What am I stubbornly continuing after it has been decided?"
+   },
+   {
+    "verse_label": "v. 21",
+    "start": 21,
+    "end": 21,
+    "text": "What losses have I stopped counting?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al44-001",
+   "scope": "BOOK",
+   "head": "Alma 43:19",
+   "anchor": {
+    "verse": 9,
+    "w1": 39,
+    "w2": 49,
+    "quote": "it is your breastplates and your shields that have preserved you"
+   },
+   "reason": "the armor Zerahemnah credits, described from the Nephite side",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 43,
+     "verse": 19,
+     "w1": 18,
+     "w2": 25,
+     "quote": "prepared his people with breastplates and with arm-shields,",
+     "verse_text": "And when the armies of the Lamanites saw that the people of Nephi, or that Moroni, had prepared his people with breastplates and with arm-shields, yea, and also shields to defend their heads, and also they were dressed with thick clothing—",
+     "markdown": "And when the armies of the Lamanites saw that the people of Nephi, or that Moroni, had **prepared his people with breastplates and with arm-shields**, yea, and also shields to defend their heads, and also they were dressed with thick clothing—",
+     "span": true
+    }
+   ],
+   "mirror": "al43-004"
+  },
+  {
+   "id": "al44-002",
+   "scope": "BOOK",
+   "head": "Alma 43:8",
+   "anchor": {
+    "verse": 2,
+    "w1": 33,
+    "w2": 44,
+    "quote": "this is the very cause for which ye have come against us"
+   },
+   "reason": "Zerahemnah’s designs, stated before the campaign began",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 43,
+     "verse": 8,
+     "w1": 19,
+     "w2": 26,
+     "quote": "that he might usurp great power over them,",
+     "verse_text": "For behold, his designs were to stir up the Lamanites to anger against the Nephites; this he did that he might usurp great power over them, and also that he might gain power over the Nephites by bringing them into bondage.",
+     "markdown": "For behold, his designs were to stir up the Lamanites to anger against the Nephites; this he did **that he might usurp great power over them**, and also that he might gain power over the Nephites by bringing them into bondage.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al44-003",
+   "scope": "BOOK",
+   "head": "Alma 46:12",
+   "anchor": {
+    "verse": 5,
+    "w1": 44,
+    "w2": 55,
+    "quote": "the sacred support which we owe to our wives and our children"
+   },
+   "reason": "the same list, written out on the title of liberty",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 46,
+     "verse": 12,
+     "w1": 32,
+     "w2": 36,
+     "quote": "our wives, and our children—and",
+     "verse_text": "And it came to pass that he rent his coat; and he took a piece thereof, and wrote upon it—In memory of our God, our religion, and freedom, and our peace, our wives, and our children—and he fastened it upon the end of a pole.",
+     "markdown": "And it came to pass that he rent his coat; and he took a piece thereof, and wrote upon it—In memory of our God, our religion, and freedom, and our peace, **our wives, and our children—and** he fastened it upon the end of a pole.",
+     "span": true
+    }
+   ],
+   "mirror": "al46-006"
+  },
+  {
+   "id": "al44-004",
+   "scope": "BOOK",
+   "head": "Alma 49:7",
+   "anchor": {
+    "verse": 2,
+    "w1": 28,
+    "w2": 31,
+    "quote": "the yoke of bondage"
+   },
+   "reason": "the phrase as Mormon uses it of the next Lamanite campaign",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 49,
+     "verse": 7,
+     "w1": 17,
+     "w2": 20,
+     "quote": "the yoke of bondage,",
+     "verse_text": "And being thus prepared they supposed that they should easily overpower and subject their brethren to the yoke of bondage, or slay and massacre them according to their pleasure.",
+     "markdown": "And being thus prepared they supposed that they should easily overpower and subject their brethren to **the yoke of bondage**, or slay and massacre them according to their pleasure.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al44-005",
+   "scope": "BOM",
+   "head": "1 Ne. 4:9",
+   "anchor": {
+    "verse": 12,
+    "w1": 46,
+    "w2": 50,
+    "quote": "it broke by the hilt"
+   },
+   "reason": "Nephi taking Laban’s sword by the same part",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 4,
+     "verse": 9,
+     "w1": 16,
+     "w2": 22,
+     "quote": "the hilt thereof was of pure gold,",
+     "verse_text": "And I beheld his sword, and I drew it forth from the sheath thereof; and the hilt thereof was of pure gold, and the workmanship thereof was exceedingly fine, and I saw that the blade thereof was of the most precious steel.",
+     "markdown": "And I beheld his sword, and I drew it forth from the sheath thereof; and **the hilt thereof was of pure gold**, and the workmanship thereof was exceedingly fine, and I saw that the blade thereof was of the most precious steel.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al44-006",
+   "scope": "BOM",
+   "head": "Mosiah 21:13",
+   "anchor": {
+    "verse": 2,
+    "w1": 28,
+    "w2": 31,
+    "quote": "the yoke of bondage"
+   },
+   "reason": "Limhi’s people under the yoke Moroni refuses to impose",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 21,
+     "verse": 13,
+     "w1": 13,
+     "w2": 16,
+     "quote": "the yoke of bondage,",
+     "verse_text": "And they did humble themselves even to the dust, subjecting themselves to the yoke of bondage, submitting themselves to be smitten, and to be driven to and fro, and burdened, according to the desires of their enemies.",
+     "markdown": "And they did humble themselves even to the dust, subjecting themselves to **the yoke of bondage**, submitting themselves to be smitten, and to be driven to and fro, and burdened, according to the desires of their enemies.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al44-007",
+   "scope": "SW",
+   "head": "Gal. 5:1",
+   "anchor": {
+    "verse": 2,
+    "w1": 28,
+    "w2": 31,
+    "quote": "the yoke of bondage"
+   },
+   "reason": "Paul’s warning against being entangled again",
+   "targets": [
+    {
+     "ref": "Gal.",
+     "chapter": 5,
+     "verse": 1,
+     "w1": 16,
+     "w2": 22,
+     "quote": "entangled again with the yoke of bondage.",
+     "verse_text": "Stand fast therefore in the liberty wherewith Christ hath made us free, and be not entangled again with the yoke of bondage.",
+     "markdown": "Stand fast therefore in the liberty wherewith Christ hath made us free, and be not **entangled again with the yoke of bondage**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al44-008",
+   "scope": "SW",
+   "head": "Ps. 68:21",
+   "anchor": {
+    "verse": 12,
+    "w1": 57,
+    "w2": 61,
+    "quote": "he took off his scalp"
+   },
+   "reason": "the King James Bible’s one use of the word",
+   "targets": [
+    {
+     "ref": "Ps.",
+     "chapter": 68,
+     "verse": 21,
+     "w1": 11,
+     "w2": 17,
+     "quote": "the hairy scalp of such an one",
+     "verse_text": "But God shall wound the head of his enemies, and the hairy scalp of such an one as goeth on still in his trespasses.",
+     "markdown": "But God shall wound the head of his enemies, and **the hairy scalp of such an one** as goeth on still in his trespasses.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al44-009",
+   "scope": "SW",
+   "head": "Ezek. 34:25",
+   "anchor": {
+    "verse": 14,
+    "w1": 34,
+    "w2": 39,
+    "quote": "depart with a covenant of peace"
+   },
+   "reason": "the same phrase, of a covenant God makes with his flock",
+   "targets": [
+    {
+     "ref": "Ezek.",
+     "chapter": 34,
+     "verse": 25,
+     "w1": 2,
+     "w2": 10,
+     "quote": "I will make with them a covenant of peace,",
+     "verse_text": "And I will make with them a covenant of peace, and will cause the evil beasts to cease out of the land: and they shall dwell safely in the wilderness, and sleep in the woods.",
+     "markdown": "And **I will make with them a covenant of peace**, and will cause the evil beasts to cease out of the land: and they shall dwell safely in the wilderness, and sleep in the woods.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 28,
+   "w2": 31,
+   "quote": "the yoke of bondage",
+   "entries": [
+    "al44-004",
+    "al44-006",
+    "al44-007"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 33,
+   "w2": 44,
+   "quote": "this is the very cause for which ye have come against us",
+   "entries": [
+    "al44-002"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 44,
+   "w2": 55,
+   "quote": "the sacred support which we owe to our wives and our children",
+   "entries": [
+    "al44-003"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 39,
+   "w2": 49,
+   "quote": "it is your breastplates and your shields that have preserved you",
+   "entries": [
+    "al44-001"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 46,
+   "w2": 50,
+   "quote": "it broke by the hilt",
+   "entries": [
+    "al44-005"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 57,
+   "w2": 61,
+   "quote": "he took off his scalp",
+   "entries": [
+    "al44-008"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 34,
+   "w2": 39,
+   "quote": "depart with a covenant of peace",
+   "entries": [
+    "al44-009"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "231d778c1c4320aa"
+ }
+}

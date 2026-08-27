@@ -1,0 +1,908 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 9,
+  "volume_order": "08",
+  "speakers": [
+   "Alma"
+  ],
+  "audience": "The people of Ammonihah",
+  "location": "The city of Ammonihah",
+  "date": "~82 BC",
+  "unit": "Alma's preaching circuit (Alma 5–16)",
+  "principles": [
+   "Light raises the standard",
+   "Recital as argument",
+   "Witnesses"
+  ],
+  "connections": 12,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The objection is a legal one",
+   "text": "The crowd asks whether they should \"believe the testimony of one man\" (v. 2). The law they inherited required two or three witnesses to establish a matter (Deut. 19:15), and a single accuser was not enough to convict. Their question uses the form of a legal challenge. Whether they meant it seriously the chapter does not say. Either way the sermon is answered in the same terms: a second man stands up in verse 34.",
+   "cites": [
+    {
+     "quote": "believe the testimony of one man",
+     "verse": 2,
+     "start": 35,
+     "end": 76,
+     "spans": [
+      {
+       "w1": 9,
+       "w2": 14,
+       "text": "believe the testimony of one man"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Deut. 19:15",
+     "start": 156,
+     "end": 167,
+     "book": "Deut",
+     "chapter": 19,
+     "verse_start": 15,
+     "verse_end": 15
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "They had checked his credentials once already",
+   "text": "The previous chapter has this city naming Alma's office, naming the church he founded, and naming the man he handed the judgment-seat to. The demand to know who he is arrives from people who have the answer."
+  },
+  {
+   "n": 3,
+   "title": "Recital was the Nephite way to argue",
+   "text": "Verses 9 through 11 do not reason from first principles. They ask what the hearers remember: Lehi brought out of Jerusalem, the fathers led through the wilderness, deliverance from enemies. Benjamin built a speech the same way, and so did Nephi. The form assumes a shared story and treats forgetting as the failure."
+  },
+  {
+   "n": 4,
+   "title": "Land tenure was covenant language",
+   "text": "The promise that the Lord will \"prolong their existence in the land\" (v. 16) uses the vocabulary Deuteronomy attaches to Israel's own hold on Canaan, where keeping the commandments prolongs days in the land and breaking them ends the tenancy. Alma is speaking the older legal idiom of possession.",
+   "cites": [
+    {
+     "quote": "prolong their existence in the land",
+     "verse": 16,
+     "start": 31,
+     "end": 76,
+     "spans": [
+      {
+       "w1": 41,
+       "w2": 46,
+       "text": "prolong their existence in the land"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "The comparison would have stung",
+   "text": "Nephite and Lamanite is the division the whole record runs on, and Alma tells a Nephite city that judgment will fall easier on the other side of it. The text gives his reason plainly: the Lamanites' traditions kept them \"in their state of ignorance\" (v. 16), and ignorance changes what can be charged.",
+   "cites": [
+    {
+     "quote": "in their state of ignorance",
+     "verse": 16,
+     "start": 220,
+     "end": 257,
+     "spans": [
+      {
+       "w1": 27,
+       "w2": 31,
+       "text": "in their state of ignorance"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "An angel's words, quoted inside a sermon",
+   "text": "Verses 25 through 28 are not Alma's own sentences. He hands the crowd a message he was given, then steps outside it in verse 29 to say whose voice it was. The record keeps the seam visible."
+  },
+  {
+   "n": 7,
+   "title": "Custody is what they reach for",
+   "text": "What the crowd wants at the end is confinement: they sought to lay hands on him \"that they might cast me into prison\" (v. 32). That is where the unit is heading, and the threat is stated two chapters before it lands.",
+   "cites": [
+    {
+     "quote": "that they might cast me into prison",
+     "verse": 32,
+     "start": 80,
+     "end": 125,
+     "spans": [
+      {
+       "w1": 30,
+       "w2": 36,
+       "text": "that they might cast me into prison"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "term": "Tradition",
+   "verse_label": "v. 8",
+   "text": "What one generation hands the next. The chapter uses the word for two opposite things and never flags the switch. Here the sin is forgetting tradition: \"how have ye forgotten the tradition of your fathers\" (v. 8). Eight verses later the Lamanites are excused by theirs, and later still they will be brought to see \"the incorrectness of the traditions of their fathers\" (v. 17). Every use of the word in the King James Bible is hostile, the tradition of the elders that Jesus sets against the commandment. Alma will use it either way, depending on what got handed down.",
+   "cites": [
+    {
+     "quote": "how have ye forgotten the tradition of your fathers",
+     "verse": 8,
+     "start": 152,
+     "end": 212,
+     "spans": [
+      {
+       "w1": 8,
+       "w2": 16,
+       "text": "how have ye forgotten the tradition of your fathers"
+      }
+     ]
+    },
+    {
+     "quote": "the incorrectness of the traditions of their fathers",
+     "verse": 17,
+     "start": 314,
+     "end": 376,
+     "spans": [
+      {
+       "w1": 20,
+       "w2": 27,
+       "text": "the incorrectness of the traditions of their fathers"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Consigned",
+   "verse_label": "v. 11",
+   "text": "To hand over formally, the way goods or a person are delivered into someone's keeping. Alma says that without mercy the fathers would have been \"consigned to a state of endless misery and woe\" (v. 11). The verb makes damnation a transfer rather than a mood, something done to a person by an authority. Neither this word nor \"unavoidably,\" standing four words earlier in the same sentence, appears anywhere in the King James Bible. The verse reaches twice for language the translators of the Bible never used.",
+   "cites": [
+    {
+     "quote": "consigned to a state of endless misery and woe",
+     "verse": 11,
+     "start": 144,
+     "end": 200,
+     "spans": [
+      {
+       "w1": 42,
+       "w2": 50,
+       "text": "consigned to a state of endless misery and woe"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Tolerable",
+   "verse_label": "v. 15",
+   "text": "Bearable, endurable. The comparative belongs to a specific idiom: in the gospels Jesus says repeatedly that it will be more tolerable for Sodom, for Tyre, for Sidon in the day of judgment than for the towns that saw his works and did nothing. Alma is doing the same arithmetic on the same axis, and doing it before the sayings were spoken. He applies it twice, once to the day of judgment and once to this life (v. 23).",
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 23)",
+     "start": 411,
+     "end": 418,
+     "verse_start": 23,
+     "verse_end": 23
+    }
+   ]
+  },
+  {
+   "term": "Prolong",
+   "verse_label": "v. 16",
+   "text": "To extend in time. Deuteronomy uses it again and again for Israel's tenancy: keep the commandments and thy days shall be prolonged in the land. Alma takes that formula and assigns it to the Lamanites, the people his hearers count as cut off. The covenant vocabulary of staying on the land is spoken over the wrong nation on purpose, and it is the sharpest thing in the sermon."
+  },
+  {
+   "term": "Equity",
+   "verse_label": "v. 26",
+   "text": "Fairness, and in older legal use the correction of a rule that would work injustice if applied flatly. It sits in a list of what the coming Son will be full of: \"full of grace, equity, and truth\" (v. 26). Grace and truth are the pair John would later use; equity is the addition, and it puts a courtroom virtue between them. Amulek reaches for the same word in the next chapter, and Alma again three chapters later.",
+   "cites": [
+    {
+     "quote": "full of grace, equity, and truth",
+     "verse": 26,
+     "start": 161,
+     "end": 203,
+     "spans": [
+      {
+       "w1": 29,
+       "w2": 34,
+       "text": "full of grace, equity, and truth"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Captivation",
+   "verse_label": "v. 28",
+   "text": "The state of being held captive. It occurs once in all of scripture, here, and it is built to balance a word in the same sentence. The righteous reap salvation \"according to the power and deliverance of Jesus Christ\" (v. 28), and the evil reap damnation \"according to the power and captivation of the devil\" (v. 28). Deliverance is a real noun with a long history; captivation was made to stand opposite it. The sentence needed a word and the speaker built one.",
+   "cites": [
+    {
+     "quote": "according to the power and deliverance of Jesus Christ",
+     "verse": 28,
+     "start": 160,
+     "end": 224,
+     "spans": [
+      {
+       "w1": 44,
+       "w2": 52,
+       "text": "according to the power and deliverance of Jesus Christ"
+      }
+     ]
+    },
+    {
+     "quote": "according to the power and captivation of the devil",
+     "verse": 28,
+     "start": 254,
+     "end": 315,
+     "spans": [
+      {
+       "w1": 67,
+       "w2": 75,
+       "text": "according to the power and captivation of the devil"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "The testimony of one man",
+   "verse_label": "v. 2",
+   "text": "The chapter's opening objection, and the one it answers without ever arguing back. Alma does not defend his sufficiency as a witness. He preaches, is rejected, and then verse 34 has Amulek stand up and begin to preach. The crowd asked for a second witness and the record gives them one, four verses after they stopped listening."
+  },
+  {
+   "term": "Who is God, that sendeth no more authority than one man",
+   "verse_label": "v. 6",
+   "text": "The complaint is about supply. They are not asking whether God exists; they are asking why he would send so little. The verse assumes that a message this large should arrive with more behind it, which is a reasonable expectation and a poor test. Every messenger this record takes seriously arrives understaffed."
+  },
+  {
+   "term": "Inasmuch as ye shall keep my commandments, ye shall prosper in the land",
+   "verse_label": "v. 13",
+   "text": "The covenant formula, treated at its first appearance in 1 Nephi 2. What is new here is the audit: Alma quotes both halves, then points at the Lamanites in verse 14 and says the negative half has already been verified in front of them. The promise is being used as evidence."
+  },
+  {
+   "term": "More tolerable for them in the day of judgment than for you",
+   "verse_label": "v. 15",
+   "text": "The sermon's hinge, and its most offensive sentence. The comparison runs the wrong way for the audience and Alma states it twice. What makes the ranking possible is not conduct but knowledge, which the next eight verses spell out in a list."
+  },
+  {
+   "term": "Favored above every other nation, kindred, tongue, or people",
+   "verse_label": "v. 20",
+   "text": "The four-fold formula for the whole world, first treated at 1 Nephi 5. Here it is turned into an indictment. The catalogue running from verse 20 to verse 22 is a list of gifts, and every item on it is being read into evidence against the people who received them. Blessings are recited the way a prosecutor recites a record."
+  },
+  {
+   "term": "Repent ye, for the kingdom of heaven is nigh at hand",
+   "verse_label": "v. 25",
+   "text": "Word for word the preaching of John the Baptist, and the words Matthew gives to Jesus at the start of his ministry. Here an angel says it, and Alma quotes the angel. The sentence is being passed forward through three sets of lips before the events it announces."
+  },
+  {
+   "term": "Works which are meet for repentance",
+   "verse_label": "v. 30",
+   "text": "Meet is the old word for fitting, what suits the case. John the Baptist demands fruits meet for repentance from a crowd standing on its ancestry, and Alma demands works meet for repentance from a crowd standing on its blessings. Both refuse to let descent do the work of change."
+  },
+  {
+   "term": "A lost and a fallen people",
+   "verse_label": "v. 30",
+   "text": "The phrase the crowd could not forgive. Verses 31 and 32 name exactly what made them angry, and it was neither the coming of Christ nor the threat of destruction. It was two descriptions of themselves: hard hearted and stiffnecked, then lost and fallen. The doctrine passed without objection and the diagnosis did not."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–7",
+   "start": 1,
+   "end": 7,
+   "title": "The interrogation",
+   "text": "Four challenges in six verses: who are you, why should one witness be believed, we will not believe the city can fall in a day, and who is God to send so little. Between the third and the fourth the narrator drops in two short verdicts of his own (v. 3, v. 5) telling the reader what the crowd did not know. Then hands reach for him and stop: \"they stood forth to lay their hands on me; but behold, they did not\" (v. 7). No reason is given.",
+   "cites": [
+    {
+     "quote": "they stood forth to lay their hands on me; but behold, they did not",
+     "verse": 7,
+     "start": 343,
+     "end": 419,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 15,
+       "text": "they stood forth to lay their hands on me; but behold, they did not"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 8–11",
+   "start": 8,
+   "end": 11,
+   "title": "The recital",
+   "text": "The answer to every challenge is a set of questions about memory. Lehi out of Jerusalem, the fathers through the wilderness, deliverance from enemies including their own brethren. Verse 11 closes the sequence by naming what did not happen, and it takes the whole verse to say it."
+  },
+  {
+   "label": "v. 12–14",
+   "start": 12,
+   "end": 14,
+   "title": "The covenant, quoted and checked",
+   "text": "Alma quotes the promise given to Lehi in both directions, then turns to the Lamanites as the worked example. Verse 14 says the word has been verified in this thing. The argument only functions if the hearers already grant that the Lamanites are cut off, which they do."
+  },
+  {
+   "label": "v. 15–17",
+   "start": 15,
+   "end": 17,
+   "title": "The comparison, and the mercy in it",
+   "text": "Having used the Lamanites as the case for the prosecution, Alma immediately turns and defends them. Their traditions left them ignorant, their existence in the land will be prolonged, many of them will be saved. Two chapters of missionary history later in this book will cash the promise."
+  },
+  {
+   "label": "v. 18–24",
+   "start": 18,
+   "end": 24,
+   "title": "The catalogue of light",
+   "text": "The longest sentence in the chapter runs through everything the Nephites have been given: the Spirit, angels, the voice of the Lord, prophecy, revelation, tongues, preaching, the Holy Ghost, translation, rescue from famine and sickness and bondage, strength in battle, wealth. Then verse 23 turns the whole list into the reason judgment would fall harder."
+  },
+  {
+   "label": "v. 25–29",
+   "start": 25,
+   "end": 29,
+   "title": "The angel's message",
+   "text": "Alma stops speaking for himself and quotes what a messenger was sent to say: repent, the kingdom is at hand, the Son comes shortly in glory, prepare the way, all men reap according to what they have been. Verse 29 steps outside the quotation to label it. It is the one moment in the chapter where Alma steps back and comments on his own delivery."
+  },
+  {
+   "label": "v. 30–34",
+   "start": 30,
+   "end": 34,
+   "title": "The offense, and the second witness",
+   "text": "He calls them beloved brethren and lost and fallen in the same sentence. They take the second description and not the first. The chapter ends with a hand reaching for him again, the Lord not permitting it, and Amulek standing up to preach, with Mormon noting that \"the words of Amulek are not all written\" (v. 34).",
+   "cites": [
+    {
+     "quote": "the words of Amulek are not all written",
+     "verse": 34,
+     "start": 264,
+     "end": 313,
+     "spans": [
+      {
+       "w1": 21,
+       "w2": 28,
+       "text": "the words of Amulek are not all written"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The chapter answers its opening objection by arithmetic",
+   "text": "They ask why they should believe one man. Alma never takes the question up. He preaches until they stop listening, and then a second man stands. The structure supplies what the sermon declined to."
+  },
+  {
+   "n": 2,
+   "title": "Light is the whole measure",
+   "text": "Verses 15 through 24 build a single claim: what a people has been given sets what can be asked of them. The Lamanites are treated gently for the same reason the Nephites are treated hard, and the reason is knowledge. It is the most uncomfortable idea in the chapter and Alma states it four separate times."
+  },
+  {
+   "n": 3,
+   "title": "Blessings are read as evidence",
+   "text": "The catalogue of verses 20 through 22 would be a hymn in another setting. Placed where it is, between a comparison and a verdict, every gift on it becomes an exhibit. The chapter treats a record of mercy as a record of accountability without changing a word of it."
+  },
+  {
+   "n": 4,
+   "title": "The record keeps its quotation marks",
+   "text": "An angel's message sits inside Alma's sermon, and Alma tells the reader so. The record could have let the words pass as his. Instead verse 29 marks the seam, which is the same instinct that made Nephi name his sources and Mormon name his."
+  },
+  {
+   "n": 5,
+   "title": "What offended them was the diagnosis",
+   "text": "Verses 31 and 32 are unusually specific about what provoked the crowd. They were told the Son of God was coming and did not object. They were told they were hard hearted and lost and moved to arrest him. The record notes which sentence people cannot hear."
+  },
+  {
+   "n": 6,
+   "title": "The prosecution defends the accused",
+   "text": "Alma uses the Lamanites to prove the covenant works, then spends three verses on their ignorance, their promises, and their eventual salvation. The argument would have been cleaner without it. He gives it anyway, and the record of Ammon and his brethren later in this book will turn those three verses into narrative."
+  },
+  {
+   "n": 7,
+   "title": "A sermon that fails, preserved in full",
+   "text": "Nothing in this chapter works. The crowd contends at the start, is angry in the middle, and reaches for him at the end. Alma kept it in his own record anyway, and Mormon kept Alma's. The book is willing to spend a chapter on an argument that changed nobody."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Say what you were given before you say what you owe",
+    "verse_label": "v. 20–22",
+    "text": "Alma's list of Nephite blessings is accurate and generous, and it is also the ground of the charge. Write out what you have actually received in your life, then read the list a second time asking what it obligates. Both readings are honest and most people only ever do the first."
+   },
+   {
+    "title": "Expect the diagnosis to be the offense",
+    "verse_label": "v. 31–32",
+    "text": "People rarely fight the doctrine. They fight being described. When something you said lands badly, check whether the objection is to the claim or to the portrait, because the two need different answers and only one of them is an argument."
+   },
+   {
+    "title": "Defend the people your argument just used",
+    "verse_label": "v. 15–17",
+    "text": "Alma made his case with the Lamanites and then immediately spoke for them. If you have made a point at someone's expense, the point is not finished until you have said the true thing on their side of it."
+   },
+   {
+    "title": "Ask what you have forgotten",
+    "verse_label": "v. 9–10",
+    "text": "The sermon treats forgetting as the failure and never raises the question of belief. Pick one deliverance in your own history that you could once have told in detail and can no longer, and go recover the details."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "When have I used a procedural objection to avoid a claim I did not want to weigh, and would I recognize myself doing it?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "Which part of my family's story was handed to me deliberately, and have I handed it to anyone?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "If the promise were audited against my own life the way Alma audits it against the Lamanites, what would the evidence show?"
+   },
+   {
+    "verse_label": "v. 16",
+    "start": 16,
+    "end": 16,
+    "text": "Who around me is acting on what they were taught rather than on what they chose, and does that change what I can fairly ask of them?"
+   },
+   {
+    "verse_label": "v. 20",
+    "start": 20,
+    "end": 20,
+    "text": "What have I been given that would count against me if it were read into evidence?"
+   },
+   {
+    "verse_label": "v. 26",
+    "start": 26,
+    "end": 26,
+    "text": "Which of grace, equity, and truth do I most want from God, and which do I least want applied to me?"
+   },
+   {
+    "verse_label": "v. 31",
+    "start": 31,
+    "end": 31,
+    "text": "What true description of myself have I been angry at recently, and who paid for that anger?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al09-001",
+   "scope": "BOOK",
+   "head": "Alma 10:12",
+   "anchor": {
+    "verse": 2,
+    "w1": 10,
+    "w2": 14,
+    "quote": "the testimony of one man"
+   },
+   "reason": "the second witness they asked for",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 10,
+     "verse": 12,
+     "w1": 18,
+     "w2": 21,
+     "quote": "more than one witness",
+     "verse_text": "And now, when Amulek had spoken these words the people began to be astonished, seeing there was more than one witness who testified of the things whereof they were accused, and also of the things which were to come, according to the spirit of prophecy which was in them.",
+     "markdown": "And now, when Amulek had spoken these words the people began to be astonished, seeing there was **more than one witness** who testified of the things whereof they were accused, and also of the things which were to come, according to the spirit of prophecy which was in them.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al09-002",
+   "scope": "BOOK",
+   "head": "Alma 16:9",
+   "anchor": {
+    "verse": 18,
+    "w1": 48,
+    "w2": 54,
+    "quote": "ye shall be visited with utter destruction"
+   },
+   "reason": "the warning, carried out",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 16,
+     "verse": 9,
+     "w1": 20,
+     "w2": 25,
+     "quote": "the people of Ammonihah were destroyed;",
+     "verse_text": "And thus ended the eleventh year of the judges, the Lamanites having been driven out of the land, and the people of Ammonihah were destroyed; yea, every living soul of the Ammonihahites was destroyed, and also their great city, which they said God could not destroy, because of its greatness.",
+     "markdown": "And thus ended the eleventh year of the judges, the Lamanites having been driven out of the land, and **the people of Ammonihah were destroyed**; yea, every living soul of the Ammonihahites was destroyed, and also their great city, which they said God could not destroy, because of its greatness.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al09-003",
+   "scope": "BOOK",
+   "head": "Alma 23:6",
+   "anchor": {
+    "verse": 17,
+    "w1": 29,
+    "w2": 34,
+    "quote": "many of them will be saved"
+   },
+   "reason": "the promise to the Lamanites, kept",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 23,
+     "verse": 6,
+     "w1": 71,
+     "w2": 79,
+     "quote": "were converted unto the Lord, never did fall away.",
+     "verse_text": "And as sure as the Lord liveth, so sure as many as believed, or as many as were brought to the knowledge of the truth, through the preaching of Ammon and his brethren, according to the spirit of revelation and of prophecy, and the power of God working miracles in them—yea, I say unto you, as the Lord liveth, as many of the Lamanites as believed in their preaching, and were converted unto the Lord, never did fall away.",
+     "markdown": "And as sure as the Lord liveth, so sure as many as believed, or as many as were brought to the knowledge of the truth, through the preaching of Ammon and his brethren, according to the spirit of revelation and of prophecy, and the power of God working miracles in them—yea, I say unto you, as the Lord liveth, as many of the Lamanites as believed in their preaching, and **were converted unto the Lord, never did fall away**.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al09-004",
+   "scope": "BOOK",
+   "head": "Alma 14:17",
+   "anchor": {
+    "verse": 32,
+    "w1": 33,
+    "w2": 36,
+    "quote": "cast me into prison"
+   },
+   "reason": "the threat they reached for, granted",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 14,
+     "verse": 17,
+     "w1": 24,
+     "w2": 28,
+     "quote": "to be cast into prison.",
+     "verse_text": "And it came to pass that Alma and Amulek answered him nothing; and he smote them again, and delivered them to the officers to be cast into prison.",
+     "markdown": "And it came to pass that Alma and Amulek answered him nothing; and he smote them again, and delivered them to the officers **to be cast into prison**.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al09-005",
+   "scope": "BOM",
+   "head": "1 Ne. 2:20",
+   "anchor": {
+    "verse": 13,
+    "w1": 15,
+    "w2": 27,
+    "quote": "Inasmuch as ye shall keep my commandments, ye shall prosper in the land"
+   },
+   "reason": "the covenant formula, quoted as evidence",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 2,
+     "verse": 20,
+     "w1": 2,
+     "w2": 11,
+     "quote": "inasmuch as ye shall keep my commandments, ye shall prosper,",
+     "verse_text": "And inasmuch as ye shall keep my commandments, ye shall prosper, and shall be led to a land of promise; yea, even a land which I have prepared for you; yea, a land which is choice above all other lands.",
+     "markdown": "And **inasmuch as ye shall keep my commandments, ye shall prosper**, and shall be led to a land of promise; yea, even a land which I have prepared for you; yea, a land which is choice above all other lands.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al09-006",
+   "scope": "SW",
+   "head": "Deut. 19:15",
+   "anchor": {
+    "verse": 2,
+    "w1": 10,
+    "w2": 14,
+    "quote": "the testimony of one man"
+   },
+   "reason": "the two-witness rule behind the objection",
+   "targets": [
+    {
+     "ref": "Deut.",
+     "chapter": 19,
+     "verse": 15,
+     "w1": 23,
+     "w2": 35,
+     "quote": "at the mouth of two witnesses, or at the mouth of three witnesses,",
+     "verse_text": "One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he sinneth: at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established.",
+     "markdown": "One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he sinneth: **at the mouth of two witnesses, or at the mouth of three witnesses**, shall the matter be established.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al09-007",
+   "scope": "SW",
+   "head": "Matt. 11:22",
+   "anchor": {
+    "verse": 15,
+    "w1": 10,
+    "w2": 18,
+    "quote": "more tolerable for them in the day of judgment"
+   },
+   "reason": "the same judgment-day comparison",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 11,
+     "verse": 22,
+     "w1": 9,
+     "w2": 14,
+     "quote": "more tolerable for Tyre and Sidon",
+     "verse_text": "But I say unto you, It shall be more tolerable for Tyre and Sidon at the day of judgment, than for you.",
+     "markdown": "But I say unto you, It shall be **more tolerable for Tyre and Sidon** at the day of judgment, than for you.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al09-008",
+   "scope": "SW",
+   "head": "Deut. 5:33",
+   "anchor": {
+    "verse": 16,
+    "w1": 41,
+    "w2": 46,
+    "quote": "prolong their existence in the land"
+   },
+   "reason": "land tenure, spoken over the Lamanites",
+   "targets": [
+    {
+     "ref": "Deut.",
+     "chapter": 5,
+     "verse": 33,
+     "w1": 29,
+     "w2": 37,
+     "quote": "that ye may prolong your days in the land",
+     "verse_text": "Ye shall walk in all the ways which the LORD your God hath commanded you, that ye may live, and that it may be well with you, and that ye may prolong your days in the land which ye shall possess.",
+     "markdown": "Ye shall walk in all the ways which the LORD your God hath commanded you, that ye may live, and that it may be well with you, and **that ye may prolong your days in the land** which ye shall possess.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al09-009",
+   "scope": "SW",
+   "head": "Matt. 3:2",
+   "anchor": {
+    "verse": 25,
+    "w1": 39,
+    "w2": 49,
+    "quote": "Repent ye, for the kingdom of heaven is nigh at hand"
+   },
+   "reason": "the Baptist’s sentence, word for word",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 3,
+     "verse": 2,
+     "w1": 3,
+     "w2": 12,
+     "quote": "Repent ye: for the kingdom of heaven is at hand.",
+     "verse_text": "And saying, Repent ye: for the kingdom of heaven is at hand.",
+     "markdown": "And saying, **Repent ye: for the kingdom of heaven is at hand**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al09-010",
+   "scope": "SW",
+   "head": "John 1:14",
+   "anchor": {
+    "verse": 26,
+    "w1": 29,
+    "w2": 34,
+    "quote": "full of grace, equity, and truth"
+   },
+   "reason": "the pair, with equity added",
+   "targets": [
+    {
+     "ref": "John",
+     "chapter": 1,
+     "verse": 14,
+     "w1": 26,
+     "w2": 30,
+     "quote": "full of grace and truth.",
+     "verse_text": "And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) full of grace and truth.",
+     "markdown": "And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) **full of grace and truth**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al09-011",
+   "scope": "SW",
+   "head": "Matt. 3:3",
+   "anchor": {
+    "verse": 28,
+    "w1": 2,
+    "w2": 8,
+    "quote": "prepare ye the way of the Lord"
+   },
+   "reason": "Isaiah’s herald, quoted by an angel",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 3,
+     "verse": 3,
+     "w1": 22,
+     "w2": 28,
+     "quote": "Prepare ye the way of the Lord,",
+     "verse_text": "For this is he that was spoken of by the prophet Esaias, saying, The voice of one crying in the wilderness, Prepare ye the way of the Lord, make his paths straight.",
+     "markdown": "For this is he that was spoken of by the prophet Esaias, saying, The voice of one crying in the wilderness, **Prepare ye the way of the Lord**, make his paths straight.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al09-012",
+   "scope": "SW",
+   "head": "Matt. 3:8",
+   "anchor": {
+    "verse": 30,
+    "w1": 23,
+    "w2": 28,
+    "quote": "works which are meet for repentance"
+   },
+   "reason": "fruits made works, same demand",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 3,
+     "verse": 8,
+     "w1": 4,
+     "w2": 7,
+     "quote": "fruits meet for repentance:",
+     "verse_text": "Bring forth therefore fruits meet for repentance:",
+     "markdown": "Bring forth therefore **fruits meet for repentance**:",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 10,
+   "w2": 14,
+   "quote": "the testimony of one man",
+   "entries": [
+    "al09-001",
+    "al09-006"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 15,
+   "w2": 27,
+   "quote": "Inasmuch as ye shall keep my commandments, ye shall prosper in the land",
+   "entries": [
+    "al09-005"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 10,
+   "w2": 18,
+   "quote": "more tolerable for them in the day of judgment",
+   "entries": [
+    "al09-007"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 41,
+   "w2": 46,
+   "quote": "prolong their existence in the land",
+   "entries": [
+    "al09-008"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 29,
+   "w2": 34,
+   "quote": "many of them will be saved",
+   "entries": [
+    "al09-003"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 48,
+   "w2": 54,
+   "quote": "ye shall be visited with utter destruction",
+   "entries": [
+    "al09-002"
+   ]
+  },
+  {
+   "verse": 25,
+   "w1": 39,
+   "w2": 49,
+   "quote": "Repent ye, for the kingdom of heaven is nigh at hand",
+   "entries": [
+    "al09-009"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 29,
+   "w2": 34,
+   "quote": "full of grace, equity, and truth",
+   "entries": [
+    "al09-010"
+   ]
+  },
+  {
+   "verse": 28,
+   "w1": 2,
+   "w2": 8,
+   "quote": "prepare ye the way of the Lord",
+   "entries": [
+    "al09-011"
+   ]
+  },
+  {
+   "verse": 30,
+   "w1": 23,
+   "w2": 28,
+   "quote": "works which are meet for repentance",
+   "entries": [
+    "al09-012"
+   ]
+  },
+  {
+   "verse": 32,
+   "w1": 33,
+   "w2": 36,
+   "quote": "cast me into prison",
+   "entries": [
+    "al09-004"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "53d09d422b50d095"
+ }
+}

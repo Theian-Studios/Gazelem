@@ -17,14 +17,14 @@
    "The Lamb of God",
    "Love of God"
   ],
-  "connections": 15,
+  "connections": 16,
   "initial": false
  },
  "world_behind": [
   {
    "n": 1,
    "title": "Mountains are where seers are taken",
-   "text": "Moses on Sinai, Ezekiel set upon a very high mountain for his temple vision, John carried to a great high mountain for his (Rev. 21:10): the setting is the old grammar of large revelation. Nephi notes that he had never seen this mountain and never set foot on it — the geography itself is given, not climbed.",
+   "text": "Moses on Sinai, Ezekiel set upon a very high mountain for his temple vision, John carried to a great high mountain for his (Rev. 21:10): the setting is the old pattern for large revelation. Nephi notes that he had never seen this mountain and never set foot on it. The mountain itself is part of the gift.",
    "refs": [
     {
      "kind": "scripture",
@@ -61,7 +61,7 @@
   {
    "n": 3,
    "title": "A virgin mother was already Israel's hope",
-   "text": "Isaiah's sign of the virgin with child (Isa. 7:14) sat on the brass plates the family carried. What the vision adds is portraiture: the city, the fairness, the child in her arms — the sign turned into a scene.",
+   "text": "Isaiah's sign of the virgin with child (Isa. 7:14) sat on the brass plates the family carried. What the vision adds is portraiture: the city, the fairness, the child in her arms. The sign has become a scene.",
    "refs": [
     {
      "kind": "scripture",
@@ -95,10 +95,10 @@
   {
    "n": 5,
    "title": "A strange way to die",
-   "text": "\"lifted up upon the cross\" (v. 33) describes an execution foreign to Israel's law, which stoned its condemned. The vision shows a Roman death centuries before Rome ruled anything east of Italy, and the record simply reports it, letting the oddity stand.",
+   "text": "\"Lifted up upon the cross\" (v. 33) describes an execution foreign to Israel's law, which stoned its condemned. The vision shows a Roman death centuries before Rome ruled anything east of Italy, and the record simply reports it, letting the oddity stand.",
    "cites": [
     {
-     "quote": "lifted up upon the cross",
+     "quote": "Lifted up upon the cross",
      "verse": 33,
      "start": 0,
      "end": 34,
@@ -106,7 +106,7 @@
       {
        "w1": 8,
        "w2": 12,
-       "text": "lifted up upon the cross"
+       "text": "Lifted up upon the cross"
       }
      ]
     }
@@ -150,7 +150,7 @@
  ],
  "words": [
   {
-   "term": "pondering",
+   "term": "Pondering",
    "verse_label": "v. 1",
    "text": "The launch posture: \"as I sat pondering in mine heart I was caught away\" (v. 1). Pondering is weighing: slow, seated, deliberate thought, and the record makes it the runway of the whole vision. Nephi is not fasting on the mountain or pleading in the dark; he is sitting with his father's words, turning them, when the Spirit takes him.",
    "cites": [
@@ -172,13 +172,13 @@
   {
    "term": "Hosanna",
    "verse_label": "v. 6",
-   "text": "The old shout of salvation, and its placement here is the surprise: the Spirit himself cries it — not over the vision about to be given but over the faith that preceded it, \"blessed art thou, Nephi, because thou believest\" (v. 6). Heaven celebrates belief before it rewards it.",
+   "text": "The old shout of salvation, and its placement here is the surprise: the Spirit himself cries it, not over the vision about to be given but over the faith that preceded it, \"blessed art thou, Nephi, because thou believest\" (v. 6). Heaven celebrates belief before it rewards it.",
    "cites": [
     {
      "quote": "blessed art thou, Nephi, because thou believest",
      "verse": 6,
-     "start": 173,
-     "end": 229,
+     "start": 172,
+     "end": 228,
      "spans": [
       {
        "w1": 37,
@@ -190,7 +190,7 @@
    ]
   },
   {
-   "term": "sign",
+   "term": "Sign",
    "verse_label": "v. 7",
    "text": "The tree's meaning is promised as an event: \"thou shalt also behold a man descending out of heaven\" (v. 7). The sign is not attached to the symbol; the sign is a person. The whole chapter's method sits inside this word: its interpretations are appearances, and to understand is to witness.",
    "cites": [
@@ -210,15 +210,57 @@
    ]
   },
   {
-   "term": "abide",
+   "term": "Fountain",
+   "verse_label": "v. 25",
+   "text": "A fountain is a source, not a basin: water that keeps coming up. The rod of iron leads to \"the fountain of living waters\" (v. 25), a phrase that already had a history when Nephi used it. Jeremiah, whose prophecies the family had just read off the brass plates (1 Ne. 5:13), charged Israel with forsaking the Lord, the fountain of living waters, for cisterns that would not hold (Jer. 2:13). In the vision the traffic runs the other way, and what leads a man back to the spring is the word of God.",
+   "cites": [
+    {
+     "quote": "the fountain of living waters",
+     "verse": 25,
+     "start": 90,
+     "end": 129,
+     "spans": [
+      {
+       "w1": 27,
+       "w2": 31,
+       "text": "the fountain of living waters"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 5:13",
+     "start": 261,
+     "end": 271,
+     "book": "1 Ne",
+     "chapter": 5,
+     "verse_start": 13,
+     "verse_end": 13
+    },
+    {
+     "kind": "scripture",
+     "text": "Jer. 2:13",
+     "start": 379,
+     "end": 388,
+     "book": "Jer",
+     "chapter": 2,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
+  },
+  {
+   "term": "Abide",
    "verse_label": "v. 27",
-   "text": "The Holy Ghost did not visit the baptized Lamb but came down and \"abide upon him in the form of a dove\" (v. 27): settled, stayed, made a dwelling. The verb quietly distinguishes the Messiah's endowment from every fleeting inspiration, and gives the reader a word for what to want.",
+   "text": "The Holy Ghost came down on the baptized Lamb and \"abide upon him in the form of a dove\" (v. 27): settled, stayed, made a dwelling. The verb quietly distinguishes the Messiah's endowment from every fleeting inspiration, and gives the reader a word for what to want.",
    "cites": [
     {
      "quote": "abide upon him in the form of a dove",
      "verse": 27,
-     "start": 65,
-     "end": 111,
+     "start": 50,
+     "end": 96,
      "spans": [
       {
        "w1": 62,
@@ -228,11 +270,44 @@
      ]
     }
    ]
+  },
+  {
+   "term": "Cast out",
+   "verse_label": "v. 28",
+   "text": "The same verb runs in both directions in this panel. The multitudes \"cast him out from among them\" (v. 28); a few verses on, the sick are brought to him and \"the devils and the unclean spirits were cast out\" (v. 31). One expulsion is the world's verdict on the Lamb, the other his verdict on what afflicts the world. The vision sets them a few lines apart and adds nothing.",
+   "cites": [
+    {
+     "quote": "cast him out from among them",
+     "verse": 28,
+     "start": 68,
+     "end": 106,
+     "spans": [
+      {
+       "w1": 31,
+       "w2": 36,
+       "text": "cast him out from among them"
+      }
+     ]
+    },
+    {
+     "quote": "the devils and the unclean spirits were cast out",
+     "verse": 31,
+     "start": 157,
+     "end": 215,
+     "spans": [
+      {
+       "w1": 74,
+       "w2": 82,
+       "text": "the devils and the unclean spirits were cast out"
+      }
+     ]
+    }
+   ]
   }
  ],
  "phrases": [
   {
-   "term": "what desirest thou?",
+   "term": "What desirest thou?",
    "verse_label": "v. 2",
    "text": "The vision opens with a question and repeats it (v. 10). Heaven's interview method assumes the seer must name his want before receiving it, twice. Desire, in this record's doctrine of revelation, is not a mood that happens to a man; it is a faculty he is asked to aim.",
    "refs": [
@@ -252,7 +327,7 @@
    "text": "The vision's working verb, issued again and again (v. 8, 12, 19, 24, 26, 30–32). Nephi's part is commanded attention; the content is supplied. The rhythm teaches what seership is in this record, obedient looking, and what it is not: imagination."
   },
   {
-   "term": "the condescension of God",
+   "term": "The condescension of God",
    "verse_label": "v. 16",
    "text": "To condescend is to descend-with, rank voluntarily coming down to stand with the low; the record's word for the incarnation is a word about direction. It is asked as a question (v. 16), then issued as a command: \"Look and behold the condescension of God\" (v. 26). The doubling splits the doctrine in two: the condescension of the Father giving a Son to flesh, and the condescension of the Son walking into rejection and death. The chapter is built between those two uses.",
    "cites": [
@@ -282,7 +357,7 @@
    ]
   },
   {
-   "term": "the Lamb of God",
+   "term": "The Lamb of God",
    "verse_label": "v. 21",
    "text": "Planted at 1 Ne. 10:10, the title becomes the vision's refrain here, the angel's name for Christ in nearly every frame. The choice is deliberate doctrine: ministry, healing, and judgment are all shown under a sacrificial title, so the reader never sees the Messiah without seeing where his story goes.",
    "refs": [
@@ -299,7 +374,7 @@
    ]
   },
   {
-   "term": "most desirable above all things",
+   "term": "Most desirable above all things",
    "verse_label": "v. 22",
    "text": "Nephi's superlative for the tree, and the angel immediately adds a second: \"the most joyous to the soul\" (v. 23). Desirable is the seeker's word; joyous is the taster's. Between the two, the record prices the love of God from both sides of receiving it.",
    "cites": [
@@ -421,7 +496,7 @@
    "start": 13,
    "end": 20,
    "title": "The answer is a mother",
-   "text": "Asked if he knows the condescension of God, Nephi gives the record's most quoted honest answer: \"I know that he loveth his children; nevertheless, I do not know the meaning of all things\" (v. 17). The angel's response is not a definition but a scene: Nazareth, a virgin, and then \"the virgin again, bearing a child in her arms\" (v. 20). The vision defines love by showing what love did.",
+   "text": "Asked if he knows the condescension of God, Nephi gives the record's most quoted honest answer: \"I know that he loveth his children; nevertheless, I do not know the meaning of all things\" (v. 17). The angel answers with a scene: Nazareth, a virgin, and then \"the virgin again, bearing a child in her arms\" (v. 20). The vision defines love by showing what love did.",
    "cites": [
     {
      "quote": "I know that he loveth his children; nevertheless, I do not know the meaning of all things",
@@ -439,8 +514,8 @@
     {
      "quote": "the virgin again, bearing a child in her arms",
      "verse": 20,
-     "start": 280,
-     "end": 335,
+     "start": 258,
+     "end": 313,
      "spans": [
       {
        "w1": 6,
@@ -566,7 +641,7 @@
   {
    "n": 2,
    "title": "Meaning is given by pointing",
-   "text": "Asked what the tree means, the vision shows a person; asked about condescension, it shows a baptism and a cross. The record's teaching method peaks here — the answer the record gives to every \"what does it mean?\" is finally \"look at him.\""
+   "text": "Asked what the tree means, the vision shows a person; asked about condescension, it shows a baptism and a cross. The record's teaching method peaks here. Its answer to every \"what does it mean?\" is finally \"look at him.\""
   },
   {
    "n": 3,
@@ -609,7 +684,7 @@
   {
    "n": 5,
    "title": "Witness is the vision's product",
-   "text": "Commissioned at verse 7, delivered at verses 32 and 36, the bear-record formula turns private sight into public testimony. The chapter exists because the commission was kept — the reader is holding the record it commanded."
+   "text": "Commissioned at verse 7, delivered at verses 32 and 36, the bear-record formula turns private sight into public testimony. The chapter exists because the commission was kept: the reader is holding the record it commanded."
   },
   {
    "n": 6,
@@ -618,7 +693,7 @@
   },
   {
    "n": 7,
-   "title": "The fall is a promise, not a threat",
+   "title": "The fall is a promise",
    "text": "The building's collapse ends the chapter as prophecy already witnessed: pride's destruction is shown as accomplished fact inside the vision. The record's polemic against the world's wisdom starts from its ending, which it has already seen."
   }
  ],
@@ -627,7 +702,7 @@
    {
     "title": "Build a pondering seat",
     "verse_label": "v. 1",
-    "text": "The vision found Nephi sitting still with his father's words. Give your seeking the same runway: a fixed place and unhurried time where the last thing read gets weighed, not just finished. Caught-away moments in this record favor the seated."
+    "text": "The vision found Nephi sitting still with his father's words. Give your seeking the same runway: a fixed place and unhurried time where the last thing read gets weighed. Caught-away moments in this record favor the seated."
    },
    {
     "title": "Answer the interview question",
@@ -637,7 +712,7 @@
    {
     "title": "Hold the two knowings",
     "verse_label": "v. 17",
-    "text": "Practice Nephi's balance out loud: one sentence of certainty (he loves his children) and one of honest limit (I don't know the meaning of this). Use the pair the next time a hard question comes at your faith — it is sturdier than pretended completeness in either direction."
+    "text": "Practice Nephi's balance out loud: one sentence of certainty (he loves his children) and one of honest limit (I don't know the meaning of this). Use the pair the next time a hard question comes at your faith. It is sturdier than pretended completeness in either direction."
    },
    {
     "title": "Look when told to look",
@@ -647,7 +722,7 @@
    {
     "title": "Name your Lamb-frames",
     "verse_label": "v. 21–33",
-    "text": "The vision would not show ministry without the cross in the title. When you tell the story of your blessings, keep the Redeemer's name on the frames, not \"things worked out\" but who worked them, and watch what the renaming does to gratitude."
+    "text": "The vision would not show ministry without the cross in the title. When you tell the story of your blessings, keep the Redeemer's name on the frames. Say who worked the thing out, and watch what the renaming does to gratitude."
    },
    {
     "title": "Bear the record soon",
@@ -660,7 +735,7 @@
     "verse_label": "v. 1",
     "start": 1,
     "end": 1,
-    "text": "Where and when do I ponder — and if nowhere, what fills the seat where a vision's runway would go?"
+    "text": "Where and when do I ponder? If nowhere, what has taken the place where pondering would go?"
    },
    {
     "verse_label": "v. 3",
@@ -672,7 +747,7 @@
     "verse_label": "v. 5",
     "start": 5,
     "end": 5,
-    "text": "Whose words do I believe the way Nephi believed Lehi's — and does my believing show in what I then do?"
+    "text": "Whose words do I believe the way Nephi believed Lehi's, and does my believing show in what I then do?"
    },
    {
     "verse_label": "v. 17",
@@ -719,7 +794,9 @@
      "verse": 17,
      "w1": 63,
      "w2": 75,
-     "quote": "desirous also that I might see, and hear, and know of these things",
+     "quote": "desirous also that I might see, and hear, and know of these things,",
+     "verse_text": "And it came to pass after I, Nephi, having heard all the words of my father, concerning the things which he saw in a vision, and also the things which he spake by the power of the Holy Ghost, which power he received by faith on the Son of God—and the Son of God was the Messiah who should come—I, Nephi, was desirous also that I might see, and hear, and know of these things, by the power of the Holy Ghost, which is the gift of God unto all those who diligently seek him, as well in times of old as in the time that he should manifest himself unto the children of men.",
+     "markdown": "And it came to pass after I, Nephi, having heard all the words of my father, concerning the things which he saw in a vision, and also the things which he spake by the power of the Holy Ghost, which power he received by faith on the Son of God—and the Son of God was the Messiah who should come—I, Nephi, was **desirous also that I might see, and hear, and know of these things**, by the power of the Holy Ghost, which is the gift of God unto all those who diligently seek him, as well in times of old as in the time that he should manifest himself unto the children of men.",
      "span": true
     }
    ],
@@ -743,7 +820,9 @@
      "verse": 10,
      "w1": 9,
      "w2": 18,
-     "quote": "a tree, whose fruit was desirable to make one happy",
+     "quote": "a tree, whose fruit was desirable to make one happy.",
+     "verse_text": "And it came to pass that I beheld a tree, whose fruit was desirable to make one happy.",
+     "markdown": "And it came to pass that I beheld **a tree, whose fruit was desirable to make one happy**.",
      "span": true
     }
    ],
@@ -767,7 +846,9 @@
      "verse": 19,
      "w1": 4,
      "w2": 7,
-     "quote": "a rod of iron",
+     "quote": "a rod of iron,",
+     "verse_text": "And I beheld a rod of iron, and it extended along the bank of the river, and led to the tree by which I stood.",
+     "markdown": "And I beheld **a rod of iron**, and it extended along the bank of the river, and led to the tree by which I stood.",
      "span": true
     }
    ],
@@ -791,7 +872,9 @@
      "verse": 26,
      "w1": 20,
      "w2": 24,
-     "quote": "a great and spacious building",
+     "quote": "a great and spacious building;",
+     "verse_text": "And I also cast my eyes round about, and beheld, on the other side of the river of water, a great and spacious building; and it stood as it were in the air, high above the earth.",
+     "markdown": "And I also cast my eyes round about, and beheld, on the other side of the river of water, **a great and spacious building**; and it stood as it were in the air, high above the earth.",
      "span": true
     }
    ],
@@ -815,7 +898,9 @@
      "verse": 10,
      "w1": 2,
      "w2": 8,
-     "quote": "he also saw twelve others following him",
+     "quote": "he also saw twelve others following him,",
+     "verse_text": "And he also saw twelve others following him, and their brightness did exceed that of the stars in the firmament.",
+     "markdown": "And **he also saw twelve others following him**, and their brightness did exceed that of the stars in the firmament.",
      "span": true
     }
    ],
@@ -839,11 +924,39 @@
      "verse": 7,
      "w1": 6,
      "w2": 13,
-     "quote": "a prophet who should come before the Messiah",
+     "quote": "a prophet who should come before the Messiah,",
+     "verse_text": "And he spake also concerning a prophet who should come before the Messiah, to prepare the way of the Lord—",
+     "markdown": "And he spake also concerning **a prophet who should come before the Messiah**, to prepare the way of the Lord—",
      "span": true
     }
    ],
    "mirror": "1ne10-011"
+  },
+  {
+   "id": "1ne11-016",
+   "scope": "BOM",
+   "head": "Alma 7:10",
+   "anchor": {
+    "verse": 18,
+    "w1": 7,
+    "w2": 19,
+    "quote": "the virgin whom thou seest is the mother of the Son of God"
+   },
+   "reason": "the office seen, before the name was given",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 7,
+     "verse": 10,
+     "w1": 3,
+     "w2": 17,
+     "quote": "he shall be born of Mary, at Jerusalem which is the land of our forefathers,",
+     "verse_text": "And behold, he shall be born of Mary, at Jerusalem which is the land of our forefathers, she being a virgin, a precious and chosen vessel, who shall be overshadowed and conceive by the power of the Holy Ghost, and bring forth a son, yea, even the Son of God.",
+     "markdown": "And behold, **he shall be born of Mary, at Jerusalem which is the land of our forefathers**, she being a virgin, a precious and chosen vessel, who shall be overshadowed and conceive by the power of the Holy Ghost, and bring forth a son, yea, even the Son of God.",
+     "span": true
+    }
+   ],
+   "mirror": "al07-008"
   },
   {
    "id": "1ne11-015",
@@ -863,7 +976,9 @@
      "verse": 7,
      "w1": 20,
      "w2": 27,
-     "quote": "his great condescensions unto the children of men",
+     "quote": "his great condescensions unto the children of men,",
+     "verse_text": "Nevertheless, the Lord God showeth us our weakness that we may know that it is by his grace, and his great condescensions unto the children of men, that we have power to do these things.",
+     "markdown": "Nevertheless, the Lord God showeth us our weakness that we may know that it is by his grace, and **his great condescensions unto the children of men**, that we have power to do these things.",
      "span": true
     }
    ],
@@ -887,7 +1002,9 @@
      "verse": 3,
      "w1": 2,
      "w2": 13,
-     "quote": "with joy shall ye draw water out of the wells of salvation",
+     "quote": "with joy shall ye draw water out of the wells of salvation.",
+     "verse_text": "Therefore, with joy shall ye draw water out of the wells of salvation.",
+     "markdown": "Therefore, **with joy shall ye draw water out of the wells of salvation**.",
      "span": true
     }
    ],
@@ -911,7 +1028,9 @@
      "verse": 14,
      "w1": 9,
      "w2": 18,
-     "quote": "Behold, a virgin shall conceive, and shall bear a son",
+     "quote": "sign—Behold, a virgin shall conceive, and shall bear a son,",
+     "verse_text": "Therefore, the Lord himself shall give you a sign—Behold, a virgin shall conceive, and shall bear a son, and shall call his name Immanuel.",
+     "markdown": "Therefore, the Lord himself shall give you a **sign—Behold, a virgin shall conceive, and shall bear a son**, and shall call his name Immanuel.",
      "span": true
     }
    ],
@@ -936,6 +1055,8 @@
      "w1": 11,
      "w2": 23,
      "quote": "the Lord in his condescension unto the children of men hath visited men",
+     "verse_text": "O then, if I have seen so great things, if the Lord in his condescension unto the children of men hath visited men in so much mercy, why should my heart weep and my soul linger in the valley of sorrow, and my flesh waste away, and my strength slacken, because of mine afflictions?",
+     "markdown": "O then, if I have seen so great things, if **the Lord in his condescension unto the children of men hath visited men** in so much mercy, why should my heart weep and my soul linger in the valley of sorrow, and my flesh waste away, and my strength slacken, because of mine afflictions?",
      "span": true
     }
    ],
@@ -959,7 +1080,9 @@
      "verse": 10,
      "w1": 2,
      "w2": 14,
-     "quote": "he carried me away in the spirit to a great and high mountain",
+     "quote": "he carried me away in the spirit to a great and high mountain,",
+     "verse_text": "And he carried me away in the spirit to a great and high mountain, and shewed me that great city, the holy Jerusalem, descending out of heaven from God,",
+     "markdown": "And **he carried me away in the spirit to a great and high mountain**, and shewed me that great city, the holy Jerusalem, descending out of heaven from God,",
      "span": true
     }
    ],
@@ -983,7 +1106,9 @@
      "verse": 9,
      "w1": 12,
      "w2": 17,
-     "quote": "Hosanna to the Son of David",
+     "quote": "Hosanna to the Son of David:",
+     "verse_text": "And the multitudes that went before, and that followed, cried, saying, Hosanna to the Son of David: Blessed is he that cometh in the name of the Lord; Hosanna in the highest.",
+     "markdown": "And the multitudes that went before, and that followed, cried, saying, **Hosanna to the Son of David**: Blessed is he that cometh in the name of the Lord; Hosanna in the highest.",
      "span": true
     }
    ],
@@ -1008,6 +1133,8 @@
      "w1": 7,
      "w2": 16,
      "quote": "the love of God is shed abroad in our hearts",
+     "verse_text": "And hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us.",
+     "markdown": "And hope maketh not ashamed; because **the love of God is shed abroad in our hearts** by the Holy Ghost which is given unto us.",
      "span": true
     }
    ],
@@ -1031,7 +1158,9 @@
      "verse": 16,
      "w1": 23,
      "w2": 32,
-     "quote": "he saw the Spirit of God descending like a dove",
+     "quote": "he saw the Spirit of God descending like a dove,",
+     "verse_text": "And Jesus, when he was baptized, went up straightway out of the water: and, lo, the heavens were opened unto him, and he saw the Spirit of God descending like a dove, and lighting upon him:",
+     "markdown": "And Jesus, when he was baptized, went up straightway out of the water: and, lo, the heavens were opened unto him, and **he saw the Spirit of God descending like a dove**, and lighting upon him:",
      "span": true
     }
    ],
@@ -1055,7 +1184,9 @@
      "verse": 14,
      "w1": 11,
      "w2": 20,
-     "quote": "even so must the Son of man be lifted up",
+     "quote": "even so must the Son of man be lifted up:",
+     "verse_text": "And as Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up:",
+     "markdown": "And as Moses lifted up the serpent in the wilderness, **even so must the Son of man be lifted up**:",
      "span": true
     }
    ],
@@ -1106,6 +1237,7 @@
    "w2": 19,
    "quote": "the virgin whom thou seest is the mother of the Son of God",
    "entries": [
+    "1ne11-016",
     "1ne11-013"
    ]
   },
@@ -1184,7 +1316,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-18",
-  "source_sha256": "8874fffed3f64bf7"
+  "at": "2026-08-25",
+  "source_sha256": "27bae4819c912a53"
  }
 }

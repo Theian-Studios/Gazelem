@@ -1,0 +1,637 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 40,
+  "volume_order": "08",
+  "speakers": [
+   "Alma"
+  ],
+  "audience": "Corianton, Alma's youngest son",
+  "location": "Zarahemla",
+  "date": "~74 BC",
+  "unit": "Alma's charges to his sons (Alma 36–42)",
+  "principles": [
+   "Marking the edge of what is known",
+   "The space between death and rising",
+   ""
+  ],
+  "connections": 9,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The chapter answers a worry, not a fault",
+   "text": "Verse 1 says Corianton's mind is worried about the resurrection. Alma 39 finished the correction; the next three chapters take questions."
+  },
+  {
+   "n": 2,
+   "title": "Alma asked for this answer",
+   "text": "Verses 3 and 9 both say he inquired diligently of God to know it. The knowledge is presented as something he sought and received rather than something he worked out."
+  },
+  {
+   "n": 3,
+   "title": "An angel supplied it",
+   "text": "Verse 11 attributes the account of the spirits to an angel. Alma names his source at the point where the doctrine becomes specific."
+  },
+  {
+   "n": 4,
+   "title": "He marks what he does not know four times",
+   "text": "It mattereth not, I do not say, I give it as my opinion, whether it be at his resurrection or after. The disclaimers are as deliberate as the claims."
+  },
+  {
+   "n": 5,
+   "title": "Others had read the phrase differently",
+   "text": "Verse 15 says some understood the state between death and rising to be a first resurrection. Alma engages the reading, allows it in one sense, and corrects it in another."
+  },
+  {
+   "n": 6,
+   "title": "Restoration is defined physically",
+   "text": "Verse 23 gives limb, joint, and hair. Alma 41 opens by picking up the same word and applying it to conduct."
+  },
+  {
+   "n": 7,
+   "title": "The chapter is the middle of a four-chapter answer",
+   "text": "Alma 39 raised the timing of prophecy, Alma 40 takes the resurrection, Alma 41 takes restoration, and Alma 42 takes justice and mercy."
+  }
+ ],
+ "words": [
+  {
+   "term": "Incorruption",
+   "verse_label": "v. 2",
+   "text": "Treated at Mosiah 16:10, where Abinadi gives the same pairing of corruption with incorruption. Alma uses it to date the resurrection: no mortal puts on immortality until after the coming of Christ.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 16:10",
+     "start": 11,
+     "end": 23,
+     "book": "Mosiah",
+     "chapter": 16,
+     "verse_start": 10,
+     "verse_end": 10
+    }
+   ]
+  },
+  {
+   "term": "Paradise",
+   "verse_label": "v. 12",
+   "text": "A garden, and in scripture a place of rest for the righteous dead. The record uses it five times and the King James Bible three, including Christ's promise to the man on the cross. Alma glosses it himself: a state of happiness, of rest, of peace."
+  },
+  {
+   "term": "Outer darkness",
+   "verse_label": "v. 13",
+   "text": "The dark outside a lit hall. The phrase occurs once in this record and three times in the King James Bible, all in Matthew, and all with weeping and gnashing of teeth attached. Alma keeps the whole formula intact."
+  },
+  {
+   "term": "Indignation",
+   "verse_label": "v. 14",
+   "text": "Anger at wrong. The record uses it four times, three of them inside Isaiah quotations, and the King James Bible forty-one. Alma pairs it with fiery and wrath to name what the wicked spend the interval expecting."
+  },
+  {
+   "term": "Consignation",
+   "verse_label": "v. 15",
+   "text": "Being handed over, assigned to a destination. The word occurs twice in scripture, both in this chapter. Alma uses it for the sorting that happens at death, which he is careful to distinguish from the resurrection itself."
+  },
+  {
+   "term": "Frame",
+   "verse_label": "v. 23",
+   "text": "The built structure of a body. The record uses it ten times and the King James Bible five. Alma says all things are restored to their proper and perfect frame, which makes the resurrection a matter of assembly rather than of replacement."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Thy mind is worried concerning the resurrection of the dead",
+   "verse_label": "v. 1",
+   "text": "Alma names his son's question before answering it. The chapter is structured as a reply, and the worry is treated as worth three chapters of attention."
+  },
+  {
+   "term": "There are many mysteries which are kept, that no one knoweth them save God himself",
+   "verse_label": "v. 3",
+   "text": "Alma states the limit before he unfolds anything. He is about to give one answer and he says first that most are withheld, which sets the scale of what follows."
+  },
+  {
+   "term": "I have inquired diligently of God that I might know",
+   "verse_label": "v. 3",
+   "text": "Twice in the chapter Alma says this, at verse 3 and verse 9. The doctrine comes with its method attached, and the method is asking repeatedly."
+  },
+  {
+   "term": "It mattereth not",
+   "verse_label": "v. 5",
+   "text": "Alma's phrase for a question he declines to settle. He uses it of whether there is one resurrection or three, and again in verse 8, and each time he replaces the unanswered question with what he does know."
+  },
+  {
+   "term": "There must needs be a space betwixt the time of death and the time of the resurrection",
+   "verse_label": "v. 6",
+   "text": "The chapter's foundation, stated as a necessity. Everything from verse 11 to verse 21 describes what happens inside that space."
+  },
+  {
+   "term": "All is as one day with God, and time only is measured unto men",
+   "verse_label": "v. 8",
+   "text": "Alma's reason for setting the timing question aside. The difficulty is in the measuring rather than in the event, and he says so without elaborating."
+  },
+  {
+   "term": "Are taken home to that God who gave them life",
+   "verse_label": "v. 11",
+   "text": "The angel's answer, and it covers everyone. Good or evil, all spirits go to God first. What follows in verses 12 and 13 is the sorting after that."
+  },
+  {
+   "term": "A state of rest, a state of peace",
+   "verse_label": "v. 12",
+   "text": "Alma defines paradise in his own words rather than leaving the term to carry itself. Rest from troubles, care, and sorrow is the whole content he gives it."
+  },
+  {
+   "term": "Behold, I give it as my opinion",
+   "verse_label": "v. 20",
+   "text": "Alma labels one sentence as opinion. He has just said he does not say when the reuniting happens, and he offers his own view marked as such and does not build on it."
+  },
+  {
+   "term": "Even a hair of the head shall not be lost",
+   "verse_label": "v. 23",
+   "text": "The restoration described at its smallest scale. Alma has already given limb and joint; the hair makes the claim exhaustive rather than general."
+  },
+  {
+   "term": "They drink the dregs of a bitter cup",
+   "verse_label": "v. 26",
+   "text": "The image at the end of the chapter, treated at 2 Nephi 8 where Isaiah gives the cup of trembling. Alma applies it to those consigned to the fruits of their own works."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–5",
+   "start": 1,
+   "end": 5,
+   "title": "The question, and the limits",
+   "text": "Corianton is worried about the resurrection. Nothing puts on immortality until after Christ comes. Alma unfolds one mystery and says many are kept. A time is appointed and no one knows it; whether there are one or three times does not matter."
+  },
+  {
+   "label": "v. 6–10",
+   "start": 6,
+   "end": 10,
+   "title": "The space",
+   "text": "There must be an interval between death and resurrection, and the question is what happens to souls inside it. All do not die at once and time is measured only to men. Alma says twice that he inquired diligently, and that this is the thing he knows."
+  },
+  {
+   "label": "v. 11–14",
+   "start": 11,
+   "end": 14,
+   "title": "Where the spirits go",
+   "text": "An angel told him: every spirit, good or evil, is taken home to God. The righteous are received into paradise, a state of rest and peace. The wicked are cast into outer darkness with weeping and gnashing of teeth, in fearful expectation of God's wrath. Both remain until the resurrection."
+  },
+  {
+   "label": "v. 15–19",
+   "start": 15,
+   "end": 19,
+   "title": "What first resurrection means",
+   "text": "Some read the interval itself as a first resurrection, and Alma allows that the word could be used that way. But the phrase as spoken means the reuniting of soul and body for everyone from Adam down to Christ's own rising, and theirs comes before those who die after."
+  },
+  {
+   "label": "v. 20–21",
+   "start": 20,
+   "end": 21,
+   "title": "Marked as opinion",
+   "text": "Alma will not say whether the reuniting happens at Christ's resurrection. He gives his own view that the righteous are reunited then, labels it opinion, and returns to what he will assert: a space, a state, an appointed time, and a judgment."
+  },
+  {
+   "label": "v. 22–24",
+   "start": 22,
+   "end": 24,
+   "title": "Restoration",
+   "text": "This brings about the restoration spoken of by the prophets. Soul to body and body to soul, every limb and joint, and not a hair lost, all restored to their proper and perfect frame."
+  },
+  {
+   "label": "v. 25–26",
+   "start": 25,
+   "end": 26,
+   "title": "The two ends",
+   "text": "The righteous shine forth in the kingdom of God. An awful death comes on the wicked, who are unclean and cannot inherit it, and who are consigned to the fruits of their own works and drink the dregs of a bitter cup."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "Alma answers a question he was asked",
+   "text": "The chapter exists because his son was worried. Nothing here is volunteered doctrine, and the shape follows the worry rather than a syllabus."
+  },
+  {
+   "n": 2,
+   "title": "He is more careful about what he does not know than about what he does",
+   "text": "Four separate disclaimers, one of them labeling a whole sentence as opinion. The doctrine is easier to trust because the edges are drawn."
+  },
+  {
+   "n": 3,
+   "title": "The knowledge came by asking twice",
+   "text": "Verses 3 and 9 both say he inquired diligently. Alma gives the method along with the result, in a chapter addressed to a young man who has questions."
+  },
+  {
+   "n": 4,
+   "title": "All the dead go to God first",
+   "text": "Verse 11 makes the return universal before the sorting in verses 12 and 13. The order matters: nobody is routed around God."
+  },
+  {
+   "n": 5,
+   "title": "Paradise is defined by what it lacks",
+   "text": "Rest from troubles, care, and sorrow. Alma describes the righteous state as the absence of the things his hearers actually carry."
+  },
+  {
+   "n": 6,
+   "title": "He engages a rival reading fairly",
+   "text": "Some had called the interval a first resurrection. Alma grants the sense in which that works, then says what the phrase means as spoken, without dismissing the people who read it otherwise."
+  },
+  {
+   "n": 7,
+   "title": "Restoration is described at three scales",
+   "text": "Soul and body, limb and joint, a single hair. The claim gets more exact as it goes, which is how Alma makes it concrete."
+  },
+  {
+   "n": 8,
+   "title": "The chapter hands off mid-argument",
+   "text": "Verse 22 names restoration and verse 24 says this is the restoration the prophets meant. Alma 41 opens on that word and turns it toward conduct."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Answer the question that was asked",
+    "verse_label": "v. 1",
+    "text": "Alma named his son's actual worry and addressed it. When someone brings you a question, work on that one instead of the one you would rather answer."
+   },
+   {
+    "title": "Say which part is your opinion",
+    "verse_label": "v. 20",
+    "text": "Alma labeled one sentence and left it unbuilt-upon. When you are explaining something, mark the place where evidence stops and your own view begins."
+   },
+   {
+    "title": "Set aside what does not matter",
+    "verse_label": "v. 5",
+    "text": "Alma twice declined a question and replaced it with what he knew. When a detail cannot be settled and nothing turns on it, say so and move to what does."
+   },
+   {
+    "title": "Inquire diligently and then say so",
+    "verse_label": "v. 3",
+    "text": "Alma told his son both the answer and how he got it. When you have worked something out through repeated asking, pass on the process along with the conclusion."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What am I actually worried about, said plainly?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What have I inquired diligently about, and when did I stop?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "What question am I stuck on that would not change anything?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "What do I expect the first moment after death to be?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "What would rest from all care and sorrow mean for me now?"
+   },
+   {
+    "verse_label": "v. 20",
+    "start": 20,
+    "end": 20,
+    "text": "Where am I presenting an opinion as though it were settled?"
+   },
+   {
+    "verse_label": "v. 23",
+    "start": 23,
+    "end": 23,
+    "text": "What in me most needs restoring to its proper frame?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al40-001",
+   "scope": "BOOK",
+   "head": "Alma 39:19",
+   "anchor": {
+    "verse": 1,
+    "w1": 17,
+    "w2": 26,
+    "quote": "thy mind is worried concerning the resurrection of the dead"
+   },
+   "reason": "the question Corianton raised at the close of the correction",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 39,
+     "verse": 19,
+     "w1": 28,
+     "w2": 34,
+     "quote": "as after the time of his coming?",
+     "verse_text": "Is it not as easy at this time for the Lord to send his angel to declare these glad tidings unto us as unto our children, or as after the time of his coming?",
+     "markdown": "Is it not as easy at this time for the Lord to send his angel to declare these glad tidings unto us as unto our children, or **as after the time of his coming**?",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al40-002",
+   "scope": "BOOK",
+   "head": "Alma 41:2",
+   "anchor": {
+    "verse": 22,
+    "w1": 5,
+    "w2": 9,
+    "quote": "the restoration of those things"
+   },
+   "reason": "the same word taken up and turned toward conduct",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 41,
+     "verse": 2,
+     "w1": 8,
+     "w2": 18,
+     "quote": "the plan of restoration is requisite with the justice of God;",
+     "verse_text": "I say unto thee, my son, that the plan of restoration is requisite with the justice of God; for it is requisite that all things should be restored to their proper order. Behold, it is requisite and just, according to the power and resurrection of Christ, that the soul of man should be restored to its body, and that every part of the body should be restored to itself.",
+     "markdown": "I say unto thee, my son, that **the plan of restoration is requisite with the justice of God**; for it is requisite that all things should be restored to their proper order. Behold, it is requisite and just, according to the power and resurrection of Christ, that the soul of man should be restored to its body, and that every part of the body should be restored to itself.",
+     "span": true
+    }
+   ],
+   "mirror": "al41-001"
+  },
+  {
+   "id": "al40-003",
+   "scope": "BOOK",
+   "head": "Alma 11:44",
+   "anchor": {
+    "verse": 23,
+    "w1": 43,
+    "w2": 49,
+    "quote": "restored to their proper and perfect frame"
+   },
+   "reason": "Amulek giving the same list of what returns to the body",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 11,
+     "verse": 44,
+     "w1": 46,
+     "w2": 50,
+     "quote": "restored to its perfect frame,",
+     "verse_text": "Now, this restoration shall come to all, both old and young, both bond and free, both male and female, both the wicked and the righteous; and even there shall not so much as a hair of their heads be lost; but every thing shall be restored to its perfect frame, as it is now, or in the body, and shall be brought and be arraigned before the bar of Christ the Son, and God the Father, and the Holy Spirit, which is one Eternal God, to be judged according to their works, whether they be good or whether they be evil.",
+     "markdown": "Now, this restoration shall come to all, both old and young, both bond and free, both male and female, both the wicked and the righteous; and even there shall not so much as a hair of their heads be lost; but every thing shall be **restored to its perfect frame**, as it is now, or in the body, and shall be brought and be arraigned before the bar of Christ the Son, and God the Father, and the Holy Spirit, which is one Eternal God, to be judged according to their works, whether they be good or whether they be evil.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al40-004",
+   "scope": "BOM",
+   "head": "2 Ne. 9:13",
+   "anchor": {
+    "verse": 12,
+    "w1": 23,
+    "w2": 26,
+    "quote": "which is called paradise"
+   },
+   "reason": "Jacob on the paradise of God delivering up the righteous spirits",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 9,
+     "verse": 13,
+     "w1": 14,
+     "w2": 25,
+     "quote": "the paradise of God must deliver up the spirits of the righteous,",
+     "verse_text": "O how great the plan of our God! For on the other hand, the paradise of God must deliver up the spirits of the righteous, and the grave deliver up the body of the righteous; and the spirit and the body is restored to itself again, and all men become incorruptible, and immortal, and they are living souls, having a perfect knowledge like unto us in the flesh, save it be that our knowledge shall be perfect.",
+     "markdown": "O how great the plan of our God! For on the other hand, **the paradise of God must deliver up the spirits of the righteous**, and the grave deliver up the body of the righteous; and the spirit and the body is restored to itself again, and all men become incorruptible, and immortal, and they are living souls, having a perfect knowledge like unto us in the flesh, save it be that our knowledge shall be perfect.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al40-005",
+   "scope": "BOM",
+   "head": "Moro. 10:34",
+   "anchor": {
+    "verse": 12,
+    "w1": 27,
+    "w2": 34,
+    "quote": "a state of rest, a state of peace"
+   },
+   "reason": "Moroni’s last sentence, going to rest in the same place",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 10,
+     "verse": 34,
+     "w1": 8,
+     "w2": 17,
+     "quote": "I soon go to rest in the paradise of God,",
+     "verse_text": "And now I bid unto all, farewell. I soon go to rest in the paradise of God, until my spirit and body shall again reunite, and I am brought forth triumphant through the air, to meet you before the pleasing bar of the great Jehovah, the Eternal Judge of both quick and dead. Amen.",
+     "markdown": "And now I bid unto all, farewell. **I soon go to rest in the paradise of God**, until my spirit and body shall again reunite, and I am brought forth triumphant through the air, to meet you before the pleasing bar of the great Jehovah, the Eternal Judge of both quick and dead. Amen.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al40-006",
+   "scope": "SW",
+   "head": "1 Cor. 15:53",
+   "anchor": {
+    "verse": 2,
+    "w1": 18,
+    "w2": 24,
+    "quote": "this mortal does not put on immortality"
+   },
+   "reason": "the sentence Alma is dating, in its original form",
+   "targets": [
+    {
+     "ref": "1 Cor.",
+     "chapter": 15,
+     "verse": 53,
+     "w1": 2,
+     "w2": 7,
+     "quote": "this corruptible must put on incorruption,",
+     "verse_text": "For this corruptible must put on incorruption, and this mortal must put on immortality.",
+     "markdown": "For **this corruptible must put on incorruption**, and this mortal must put on immortality.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al40-007",
+   "scope": "SW",
+   "head": "Luke 23:43",
+   "anchor": {
+    "verse": 12,
+    "w1": 23,
+    "w2": 26,
+    "quote": "which is called paradise"
+   },
+   "reason": "the promise made from the cross to the man beside it",
+   "targets": [
+    {
+     "ref": "Luke",
+     "chapter": 23,
+     "verse": 43,
+     "w1": 11,
+     "w2": 19,
+     "quote": "To day shalt thou be with me in paradise.",
+     "verse_text": "And Jesus said unto him, Verily I say unto thee, To day shalt thou be with me in paradise.",
+     "markdown": "And Jesus said unto him, Verily I say unto thee, **To day shalt thou be with me in paradise**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al40-008",
+   "scope": "SW",
+   "head": "Matt. 8:12",
+   "anchor": {
+    "verse": 13,
+    "w1": 59,
+    "w2": 63,
+    "quote": "cast out into outer darkness"
+   },
+   "reason": "the whole formula, weeping and gnashing included",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 8,
+     "verse": 12,
+     "w1": 9,
+     "w2": 13,
+     "quote": "cast out into outer darkness:",
+     "verse_text": "But the children of the kingdom shall be cast out into outer darkness: there shall be weeping and gnashing of teeth.",
+     "markdown": "But the children of the kingdom shall be **cast out into outer darkness**: there shall be weeping and gnashing of teeth.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al40-009",
+   "scope": "SW",
+   "head": "Ps. 75:8",
+   "anchor": {
+    "verse": 26,
+    "w1": 58,
+    "w2": 65,
+    "quote": "they drink the dregs of a bitter cup"
+   },
+   "reason": "the cup in the hand of the Lord, dregs and all",
+   "targets": [
+    {
+     "ref": "Ps.",
+     "chapter": 75,
+     "verse": 8,
+     "w1": 30,
+     "w2": 38,
+     "quote": "the dregs thereof, all the wicked of the earth",
+     "verse_text": "For in the hand of the LORD there is a cup, and the wine is red; it is full of mixture; and he poureth out of the same: but the dregs thereof, all the wicked of the earth shall wring them out, and drink them.",
+     "markdown": "For in the hand of the LORD there is a cup, and the wine is red; it is full of mixture; and he poureth out of the same: but **the dregs thereof, all the wicked of the earth** shall wring them out, and drink them.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 17,
+   "w2": 26,
+   "quote": "thy mind is worried concerning the resurrection of the dead",
+   "entries": [
+    "al40-001"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 18,
+   "w2": 24,
+   "quote": "this mortal does not put on immortality",
+   "entries": [
+    "al40-006"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 23,
+   "w2": 26,
+   "quote": "which is called paradise",
+   "entries": [
+    "al40-004",
+    "al40-007"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 27,
+   "w2": 34,
+   "quote": "a state of rest, a state of peace",
+   "entries": [
+    "al40-005"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 59,
+   "w2": 63,
+   "quote": "cast out into outer darkness",
+   "entries": [
+    "al40-008"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 5,
+   "w2": 9,
+   "quote": "the restoration of those things",
+   "entries": [
+    "al40-002"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 43,
+   "w2": 49,
+   "quote": "restored to their proper and perfect frame",
+   "entries": [
+    "al40-003"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 58,
+   "w2": 65,
+   "quote": "they drink the dregs of a bitter cup",
+   "entries": [
+    "al40-009"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "6f4356330eb039cd"
+ }
+}

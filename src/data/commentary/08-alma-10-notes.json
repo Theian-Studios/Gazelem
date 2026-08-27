@@ -1,0 +1,847 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 10,
+  "volume_order": "08",
+  "speakers": [
+   "Amulek"
+  ],
+  "audience": "The people of Ammonihah",
+  "location": "The city of Ammonihah",
+  "date": "~82 BC",
+  "unit": "Alma's preaching circuit (Alma 5–16)",
+  "principles": [
+   "Witnesses",
+   "Willful ignorance",
+   "The righteous as protection"
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "A witness states his standing before his evidence",
+   "text": "Amulek opens with his name, his father, his grandfather, his line back to Joseph, his reputation, his kin, and his money. In a setting where testimony is being weighed, that is not vanity; it is the qualification a hearer would want established first. Alma could supply none of it in this city, and the crowd had said so."
+  },
+  {
+   "n": 2,
+   "title": "A story the record never tells",
+   "text": "Verse 2 names Aminadi, who \"interpreted the writing which was upon the wall of the temple\" (v. 2), \"written by the finger of God\" (v. 2). Nothing else in the book explains the episode. It arrives as a family credential and leaves without elaboration, the way a real genealogy carries references its hearers already know.",
+   "cites": [
+    {
+     "quote": "interpreted the writing which was upon the wall of the temple",
+     "verse": 2,
+     "start": 27,
+     "end": 97,
+     "spans": [
+      {
+       "w1": 29,
+       "w2": 39,
+       "text": "interpreted the writing which was upon the wall of the temple"
+      }
+     ]
+    },
+    {
+     "quote": "written by the finger of God",
+     "verse": 2,
+     "start": 99,
+     "end": 136,
+     "spans": [
+      {
+       "w1": 42,
+       "w2": 47,
+       "text": "written by the finger of God"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "The lawyers get defined before they get attacked",
+   "text": "Verses 14 and 15 stop the narrative to explain the profession: men \"hired or appointed by the people to administer the law\" (v. 14) at trials, trained in the learning of the people so they might be \"skilful in their profession\" (v. 15). The record explains the office to readers who will not have one, and only then reports what these men did with it.",
+   "cites": [
+    {
+     "quote": "hired or appointed by the people to administer the law",
+     "verse": 14,
+     "start": 67,
+     "end": 131,
+     "spans": [
+      {
+       "w1": 16,
+       "w2": 25,
+       "text": "hired or appointed by the people to administer the law"
+      }
+     ]
+    },
+    {
+     "quote": "skilful in their profession",
+     "verse": 15,
+     "start": 198,
+     "end": 235,
+     "spans": [
+      {
+       "w1": 25,
+       "w2": 28,
+       "text": "skilful in their profession"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "The reform of Mosiah is being tested here",
+   "text": "Amulek quotes the last king's warning about government by the voice of the people, which the record gave in full four books earlier. Ammonihah is where that warning is first cashed. The people did choose, the choice was iniquity, and the machinery is now working exactly as Mosiah said it would."
+  },
+  {
+   "n": 5,
+   "title": "Money is the motive, and the record says so",
+   "text": "The last verse of the chapter states it without commentary: \"the object of these lawyers was to get gain\" (v. 32). The next chapter opens on their pay scale. A profession that earns by the volume of litigation has a reason to want more accusation, and the record lets the reader draw the line.",
+   "cites": [
+    {
+     "quote": "the object of these lawyers was to get gain",
+     "verse": 32,
+     "start": 60,
+     "end": 113,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 10,
+       "text": "the object of these lawyers was to get gain"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Prayer holds the city up",
+   "text": "Amulek tells them the city is standing on the prayers of people they are preparing to expel (v. 22–23). The idea that a righteous minority holds off judgment for a place is older than this sermon; Abraham argued it over Sodom. Amulek states it as a fact about their present address.",
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 22–23)",
+     "start": 92,
+     "end": 102,
+     "verse_start": 22,
+     "verse_end": 23
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "A dated conversion",
+   "text": "Verse 6 fixes Amulek's turning to the day: the fourth of the seventh month in the tenth year of the judges. The record rarely dates a private spiritual event this precisely, and it is Amulek himself who supplies the date."
+  }
+ ],
+ "words": [
+  {
+   "term": "Industry",
+   "verse_label": "v. 4",
+   "text": "Diligent labor, and what it earns. Amulek says he acquired much riches \"by the hand of my industry\" (v. 4). The word appears once more in this record, six chapters back, where the church at Zarahemla grows rich by its industry and immediately grows proud. Amulek uses the same word about himself while listing what never taught him anything about God. The King James Bible does not use the word at all.",
+   "cites": [
+    {
+     "quote": "by the hand of my industry",
+     "verse": 4,
+     "start": 71,
+     "end": 106,
+     "spans": [
+      {
+       "w1": 34,
+       "w2": 39,
+       "text": "by the hand of my industry"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Cunning",
+   "verse_label": "v. 13",
+   "text": "Skill. In the King James Bible it is almost always praise: cunning workmen for the tabernacle, cunning players on an instrument, a cunning craftsman. The lawyers here are \"learned in all the arts and cunning of the people\" (v. 15), and the same skill produces \"cunning devices\" (v. 13) for catching a man in his words. The record does not change the word's meaning. It shows craftsmanship pointed at a person.",
+   "cites": [
+    {
+     "quote": "learned in all the arts and cunning of the people",
+     "verse": 15,
+     "start": 171,
+     "end": 230,
+     "spans": [
+      {
+       "w1": 5,
+       "w2": 14,
+       "text": "learned in all the arts and cunning of the people"
+      }
+     ]
+    },
+    {
+     "quote": "cunning devices",
+     "verse": 13,
+     "start": 260,
+     "end": 285,
+     "spans": [
+      {
+       "w1": 15,
+       "w2": 16,
+       "text": "cunning devices"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ripe",
+   "verse_label": "v. 19",
+   "text": "Ready for harvest, and in the prophets ready for the reaper's judgment. Mosiah's warning is that a people who choose iniquity \"would be ripe for destruction\" (v. 19). The image assumes a growing season: nothing ripens suddenly, and the fruit is not punished for arriving. This record reaches for the word about ten times, always at the moment a society has finished becoming what it was turning into.",
+   "cites": [
+    {
+     "quote": "would be ripe for destruction",
+     "verse": 19,
+     "start": 126,
+     "end": 165,
+     "spans": [
+      {
+       "w1": 72,
+       "w2": 76,
+       "text": "would be ripe for destruction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Stay",
+   "verse_label": "v. 23",
+   "text": "To hold back, restrain. The prayers of the righteous are what keeps the hand up: cast them out \"then will not the Lord stay his hand\" (v. 23). The older sense makes judgment the thing already in motion and mercy the thing interrupting it. Amulek is not describing a decision God has yet to make. He is describing a hand held.",
+   "cites": [
+    {
+     "quote": "then will not the Lord stay his hand",
+     "verse": 23,
+     "start": 95,
+     "end": 141,
+     "spans": [
+      {
+       "w1": 26,
+       "w2": 33,
+       "text": "then will not the Lord stay his hand"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Expert",
+   "verse_label": "v. 31",
+   "text": "Practised, skilled by experience. Zeezrom is \"one of the most expert among them\" (v. 31), and the next chapter shows what the expertise consists of. The word is rare in this record and it keeps poor company: elsewhere it belongs to Kishkumen's band and to the plan that cost Jared his head. Skill is never the virtue when this book uses the word.",
+   "cites": [
+    {
+     "quote": "one of the most expert among them",
+     "verse": 31,
+     "start": 45,
+     "end": 88,
+     "spans": [
+      {
+       "w1": 23,
+       "w2": 29,
+       "text": "one of the most expert among them"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Employ",
+   "verse_label": "v. 32",
+   "text": "What a person is engaged to do, and by extension the pay for doing it. The lawyers \"got gain according to their employ\" (v. 32), which ties income to volume of work. The King James Bible uses the word once, of trees. Here it is doing quiet accounting, and the sums appear in the next chapter.",
+   "cites": [
+    {
+     "quote": "got gain according to their employ",
+     "verse": 32,
+     "start": 83,
+     "end": 127,
+     "spans": [
+      {
+       "w1": 13,
+       "w2": 18,
+       "text": "got gain according to their employ"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Who interpreted the writing which was upon the wall of the temple",
+   "verse_label": "v. 2",
+   "text": "A reference with no story attached. Daniel read a hand's writing on a palace wall for a doomed king, and the resemblance is close enough to notice. Amulek offers it as ordinary family information to a crowd that apparently needed no explanation, which tells the reader something about what these people once knew."
+  },
+  {
+   "term": "A man of no small reputation",
+   "verse_label": "v. 4",
+   "text": "Understatement used as introduction. The construction says a large thing by denying a small one, and it lets Amulek claim standing without boasting of it. Everything in verses 4 through 6 is arranged this way: the credentials go up, and then the confession takes them apart."
+  },
+  {
+   "term": "I knew concerning these things, yet I would not know",
+   "verse_label": "v. 6",
+   "text": "The chapter's hardest sentence, and Amulek says it about himself. The sin confessed is not ignorance. It is knowledge declined, repeatedly, over years, by a man who was called many times and would not hear. The grammar has to strain to hold it, and the strain is the point."
+  },
+  {
+   "term": "More than one witness",
+   "verse_label": "v. 12",
+   "text": "The exact thing the crowd demanded in the previous chapter, delivered one chapter later. The record reports the effect plainly: they were astonished. Nothing in the doctrine had changed between Alma's sermon and Amulek's. The count had."
+  },
+  {
+   "term": "Laying traps and snares to catch the holy ones of God",
+   "verse_label": "v. 17",
+   "text": "Hunting language, aimed at men who work in courtrooms. A snare is set for something that does not know it is being hunted, which is precisely the advantage the questioners were counting on. Amulek names the method in the same breath as he demonstrates that it will not work on him."
+  },
+  {
+   "term": "If it were not for the prayers of the righteous",
+   "verse_label": "v. 22",
+   "text": "A statement about what would be happening, offered as a fact about now. The city is not being spared because it is not yet bad enough; it is being spared by people inside it who are praying. Amulek then names what removing them would remove, and the next chapters put that theory to the test in the worst way."
+  },
+  {
+   "term": "I have spoken in favor of your law, to your condemnation",
+   "verse_label": "v. 26",
+   "text": "The whole legal argument in one clause. Amulek's claim is that the law is good and that the good law is what convicts them. The crowd cannot hold the two halves together and says so in verse 28, deciding he must be lying because he has said both."
+  },
+  {
+   "term": "The object of these lawyers was to get gain",
+   "verse_label": "v. 32",
+   "text": "A flat sentence at the end of a loud chapter. No adjective, no verdict, no appeal to the reader. The record states the motive and stops, and the restraint does more than an accusation would."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–3",
+   "start": 1,
+   "end": 3,
+   "title": "The pedigree",
+   "text": "Four generations, then a jump back through Nephi and Lehi to Manasseh and to Joseph in Egypt. Buried in it is Aminadi and the writing on the temple wall, mentioned once in the whole book. Amulek is establishing that he belongs to these people and to their story before he says anything they will dislike."
+  },
+  {
+   "label": "v. 4–6",
+   "start": 4,
+   "end": 6,
+   "title": "The confession",
+   "text": "Reputation, kindreds, friends, riches by his own hand. Then the turn: he never knew much of the ways of the Lord, corrects himself mid-sentence because he had in fact seen much, and lands on the admission that he knew and would not know. He dates the end of it to a specific day."
+  },
+  {
+   "label": "v. 7–11",
+   "start": 7,
+   "end": 11,
+   "title": "The angel, and the meal",
+   "text": "The errand is domestic. Return home, feed a hungry prophet, and receive a blessing on the house. Amulek's warrant for calling Alma a holy man is that an angel said so, and his evidence that the blessing came is his own household."
+  },
+  {
+   "label": "v. 12–16",
+   "start": 12,
+   "end": 16,
+   "title": "Two witnesses, and the men who count them",
+   "text": "The people are astonished at the arithmetic. Then some of them start planning, and the record pauses to explain who those men were and what their training was, before returning to the questioning."
+  },
+  {
+   "label": "v. 17–21",
+   "start": 17,
+   "end": 21,
+   "title": "The counter-attack",
+   "text": "Amulek perceives the design and answers it before it is sprung, naming them lawyers and hypocrites and describing the traps. Then he quotes Mosiah, and then he quotes the angels, twice, ending on the Lord coming down \"with equity and justice in my hands\" (v. 21).",
+   "cites": [
+    {
+     "quote": "with equity and justice in my hands",
+     "verse": 21,
+     "start": 217,
+     "end": 262,
+     "spans": [
+      {
+       "w1": 20,
+       "w2": 26,
+       "text": "with equity and justice in my hands"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 22–23",
+   "start": 22,
+   "end": 23,
+   "title": "What is holding the roof up",
+   "text": "Two verses on the prayers of the righteous, with a specification of the alternative: famine, pestilence and the sword instead of flood. The promise to Noah is being honored even in the threat."
+  },
+  {
+   "label": "v. 24–32",
+   "start": 24,
+   "end": 32,
+   "title": "The law argument, and a name",
+   "text": "They accuse him of reviling the law; he says he spoke in its favor to their condemnation; they conclude he is lying because he said both. The lawyers decide to remember it against him. The last two verses name Zeezrom and state what the profession was for."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The chapter is the answer to the question that opened the last one",
+   "text": "Ammonihah asked why they should believe one man. Alma never argued the point. Amulek simply appears, and verse 12 records the crowd reacting to the count itself."
+  },
+  {
+   "n": 2,
+   "title": "Standing is offered and then spent",
+   "text": "Amulek builds his credibility out of lineage, reputation and wealth, and the first thing he does with it is confess that none of it taught him anything. The credentials are real and they are being used to buy the right to say the next sentence."
+  },
+  {
+   "n": 3,
+   "title": "Willful ignorance is the diagnosis",
+   "text": "Verse 6 puts the fault in the will. This city is not being charged with never having heard. Alma 9 spent eight verses cataloguing what they had been given, and Amulek now supplies a first-person account of what a person does with that much light when he does not want it."
+  },
+  {
+   "n": 4,
+   "title": "A profession is described before it is condemned",
+   "text": "The record explains what lawyers were, how they were appointed, and what their training aimed at, and only then reports the traps. The account holds up under readers who have no such office, and the fairness of the description is what makes the charge land."
+  },
+  {
+   "n": 5,
+   "title": "Mosiah's warning arrives in its first test case",
+   "text": "The last king said a people who choose iniquity would be ripe for destruction. Amulek quotes it at the city where the voice of the people has done exactly that, which turns a constitutional worry into a place with a name."
+  },
+  {
+   "n": 6,
+   "title": "The righteous are described as infrastructure",
+   "text": "Verses 22 and 23 make prayer the thing holding off famine, pestilence and the sword. The argument has a terrible corollary, stated openly: expel them and nothing is holding it. The next four chapters take that corollary seriously."
+  },
+  {
+   "n": 7,
+   "title": "The chapter ends on money",
+   "text": "After angels, genealogy and judgment, the closing sentence is about fees. The record puts the plainest possible motive last, and the reader arrives at Zeezrom already knowing what he is being paid for."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Say the date",
+    "verse_label": "v. 6",
+    "text": "Amulek fixes his turning to a specific day in a specific month of a specific year. Find the equivalent in your own life and write it down with a date on it. A change you cannot locate in time tends to get retold as a temperament."
+   },
+   {
+    "title": "Name the thing you know and avoid",
+    "verse_label": "v. 6",
+    "text": "The confession is that he knew and would not know. Pick the one item you have been declining to look at directly, and say out loud what you already know about it. The sentence is short and it is the whole work."
+   },
+   {
+    "title": "Spend your credibility instead of protecting it",
+    "verse_label": "v. 4–6",
+    "text": "Amulek lists what makes him worth hearing and immediately uses it to say something against himself. Standing kept in reserve does nothing. Ask what yours is currently being saved for."
+   },
+   {
+    "title": "Find out who is praying for your city",
+    "verse_label": "v. 22",
+    "text": "Amulek's claim is that a place is held up by people in it whose work is invisible. Name two of them where you live, and consider what you have done lately to make their staying easier."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What is in my family's story that I repeat without ever having asked what actually happened?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "Which of my credentials do I bring out first, and what am I usually trying to establish with it?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "What do I know and refuse to know, and how many times have I been called about it?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "Whose testimony would change what a person near me is willing to hear, and could I be that second voice?"
+   },
+   {
+    "verse_label": "v. 15",
+    "start": 15,
+    "end": 15,
+    "text": "Where is my skill sharpest, and is anyone worse off for how good I am at it?"
+   },
+   {
+    "verse_label": "v. 22",
+    "start": 22,
+    "end": 22,
+    "text": "If the protection around my household is other people's faithfulness, what would it cost me to acknowledge that out loud?"
+   },
+   {
+    "verse_label": "v. 26",
+    "start": 26,
+    "end": 26,
+    "text": "When have I been accused of attacking something I was actually defending, and did I understand why the two looked alike?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al10-001",
+   "scope": "BOOK",
+   "head": "Alma 9:2",
+   "anchor": {
+    "verse": 12,
+    "w1": 18,
+    "w2": 21,
+    "quote": "more than one witness"
+   },
+   "reason": "the second witness, arriving",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 9,
+     "verse": 2,
+     "w1": 10,
+     "w2": 14,
+     "quote": "the testimony of one man,",
+     "verse_text": "Who art thou? Suppose ye that we shall believe the testimony of one man, although he should preach unto us that the earth should pass away?",
+     "markdown": "Who art thou? Suppose ye that we shall believe **the testimony of one man**, although he should preach unto us that the earth should pass away?",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al10-002",
+   "scope": "BOOK",
+   "head": "Alma 8:20",
+   "anchor": {
+    "verse": 7,
+    "w1": 29,
+    "w2": 36,
+    "quote": "thou shalt feed a prophet of the Lord"
+   },
+   "reason": "the same errand, from Alma’s side",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 8,
+     "verse": 20,
+     "w1": 23,
+     "w2": 33,
+     "quote": "thou art the man whom an angel said in a vision:",
+     "verse_text": "And the man said unto him: I am a Nephite, and I know that thou art a holy prophet of God, for thou art the man whom an angel said in a vision: Thou shalt receive. Therefore, go with me into my house and I will impart unto thee of my food; and I know that thou wilt be a blessing unto me and my house.",
+     "markdown": "And the man said unto him: I am a Nephite, and I know that thou art a holy prophet of God, for **thou art the man whom an angel said in a vision**: Thou shalt receive. Therefore, go with me into my house and I will impart unto thee of my food; and I know that thou wilt be a blessing unto me and my house.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al10-003",
+   "scope": "BOOK",
+   "head": "Alma 11:20",
+   "anchor": {
+    "verse": 32,
+    "w1": 12,
+    "w2": 18,
+    "quote": "they got gain according to their employ"
+   },
+   "reason": "the pay scale, itemized next chapter",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 11,
+     "verse": 20,
+     "w1": 12,
+     "w2": 19,
+     "quote": "they received their wages according to their employ,",
+     "verse_text": "Now, it was for the sole purpose to get gain, because they received their wages according to their employ, therefore, they did stir up the people to riotings, and all manner of disturbances and wickedness, that they might have more employ, that they might get money according to the suits which were brought before them; therefore they did stir up the people against Alma and Amulek.",
+     "markdown": "Now, it was for the sole purpose to get gain, because **they received their wages according to their employ**, therefore, they did stir up the people to riotings, and all manner of disturbances and wickedness, that they might have more employ, that they might get money according to the suits which were brought before them; therefore they did stir up the people against Alma and Amulek.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al10-004",
+   "scope": "BOOK",
+   "head": "Alma 11:21",
+   "anchor": {
+    "verse": 31,
+    "w1": 23,
+    "w2": 29,
+    "quote": "one of the most expert among them"
+   },
+   "reason": "the expertise, demonstrated",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 11,
+     "verse": 21,
+     "w1": 2,
+     "w2": 7,
+     "quote": "this Zeezrom began to question Amulek,",
+     "verse_text": "And this Zeezrom began to question Amulek, saying: Will ye answer me a few questions which I shall ask you? Now Zeezrom was a man who was expert in the devices of the devil, that he might destroy that which was good; therefore, he said unto Amulek: Will ye answer the questions which I shall put unto you?",
+     "markdown": "And **this Zeezrom began to question Amulek**, saying: Will ye answer me a few questions which I shall ask you? Now Zeezrom was a man who was expert in the devices of the devil, that he might destroy that which was good; therefore, he said unto Amulek: Will ye answer the questions which I shall put unto you?",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al10-005",
+   "scope": "BOOK",
+   "head": "Alma 14:8",
+   "anchor": {
+    "verse": 23,
+    "w1": 16,
+    "w2": 25,
+    "quote": "if ye will cast out the righteous from among you"
+   },
+   "reason": "the righteous cast out, as warned",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 14,
+     "verse": 8,
+     "w1": 2,
+     "w2": 8,
+     "quote": "they brought their wives and children together,",
+     "verse_text": "And they brought their wives and children together, and whosoever believed or had been taught to believe in the word of God they caused that they should be cast into the fire; and they also brought forth their records which contained the holy scriptures, and cast them into the fire also, that they might be burned and destroyed by fire.",
+     "markdown": "And **they brought their wives and children together**, and whosoever believed or had been taught to believe in the word of God they caused that they should be cast into the fire; and they also brought forth their records which contained the holy scriptures, and cast them into the fire also, that they might be burned and destroyed by fire.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al10-006",
+   "scope": "BOM",
+   "head": "Mosiah 29:27",
+   "anchor": {
+    "verse": 19,
+    "w1": 71,
+    "w2": 76,
+    "quote": "they would be ripe for destruction"
+   },
+   "reason": "the last king’s warning, cashed",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 29,
+     "verse": 27,
+     "w1": 7,
+     "w2": 14,
+     "quote": "the voice of the people doth choose iniquity,",
+     "verse_text": "And if the time comes that the voice of the people doth choose iniquity, then is the time that the judgments of God will come upon you; yea, then is the time he will visit you with great destruction even as he has hitherto visited this land.",
+     "markdown": "And if the time comes that **the voice of the people doth choose iniquity**, then is the time that the judgments of God will come upon you; yea, then is the time he will visit you with great destruction even as he has hitherto visited this land.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al10-007",
+   "scope": "SW",
+   "head": "Dan. 5:5",
+   "anchor": {
+    "verse": 2,
+    "w1": 28,
+    "w2": 39,
+    "quote": "who interpreted the writing which was upon the wall of the temple"
+   },
+   "reason": "writing on a wall, read by a captive",
+   "targets": [
+    {
+     "ref": "Dan.",
+     "chapter": 5,
+     "verse": 5,
+     "w1": 5,
+     "w2": 11,
+     "quote": "came forth fingers of a man's hand,",
+     "verse_text": "In the same hour came forth fingers of a man's hand, and wrote over against the candlestick upon the plaster of the wall of the king's palace: and the king saw the part of the hand that wrote.",
+     "markdown": "In the same hour **came forth fingers of a man's hand**, and wrote over against the candlestick upon the plaster of the wall of the king's palace: and the king saw the part of the hand that wrote.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al10-008",
+   "scope": "SW",
+   "head": "Gen. 18:32",
+   "anchor": {
+    "verse": 22,
+    "w1": 8,
+    "w2": 17,
+    "quote": "if it were not for the prayers of the righteous"
+   },
+   "reason": "the few who hold off the judgment",
+   "targets": [
+    {
+     "ref": "Gen.",
+     "chapter": 18,
+     "verse": 32,
+     "w1": 28,
+     "w2": 35,
+     "quote": "I will not destroy it for ten's sake.",
+     "verse_text": "And he said, Oh let not the LORD be angry, and I will speak yet but this once: Peradventure ten shall be found there. And he said, I will not destroy it for ten's sake.",
+     "markdown": "And he said, Oh let not the LORD be angry, and I will speak yet but this once: Peradventure ten shall be found there. And he said, **I will not destroy it for ten's sake**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al10-009",
+   "scope": "SW",
+   "head": "Gen. 9:11",
+   "anchor": {
+    "verse": 22,
+    "w1": 35,
+    "w2": 40,
+    "quote": "it would not be by flood"
+   },
+   "reason": "the promise kept inside the threat",
+   "targets": [
+    {
+     "ref": "Gen.",
+     "chapter": 9,
+     "verse": 11,
+     "w1": 24,
+     "w2": 31,
+     "quote": "neither shall there any more be a flood",
+     "verse_text": "And I will establish my covenant with you; neither shall all flesh be cut off any more by the waters of a flood; neither shall there any more be a flood to destroy the earth.",
+     "markdown": "And I will establish my covenant with you; neither shall all flesh be cut off any more by the waters of a flood; **neither shall there any more be a flood** to destroy the earth.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al10-010",
+   "scope": "SW",
+   "head": "Ex. 35:35",
+   "anchor": {
+    "verse": 15,
+    "w1": 5,
+    "w2": 14,
+    "quote": "learned in all the arts and cunning of the people"
+   },
+   "reason": "the tabernacle word, turned",
+   "targets": [
+    {
+     "ref": "Ex.",
+     "chapter": 35,
+     "verse": 35,
+     "w1": 54,
+     "w2": 55,
+     "quote": "cunning work.",
+     "verse_text": "Them hath he filled with wisdom of heart, to work all manner of work, of the engraver, and of the cunning workman, and of the embroiderer, in blue, and in purple, in scarlet, and in fine linen, and of the weaver, even of them that do any work, and of those that devise cunning work.",
+     "markdown": "Them hath he filled with wisdom of heart, to work all manner of work, of the engraver, and of the cunning workman, and of the embroiderer, in blue, and in purple, in scarlet, and in fine linen, and of the weaver, even of them that do any work, and of those that devise **cunning work**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 28,
+   "w2": 39,
+   "quote": "who interpreted the writing which was upon the wall of the temple",
+   "entries": [
+    "al10-007"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 29,
+   "w2": 36,
+   "quote": "thou shalt feed a prophet of the Lord",
+   "entries": [
+    "al10-002"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 18,
+   "w2": 21,
+   "quote": "more than one witness",
+   "entries": [
+    "al10-001"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 5,
+   "w2": 14,
+   "quote": "learned in all the arts and cunning of the people",
+   "entries": [
+    "al10-010"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 71,
+   "w2": 76,
+   "quote": "they would be ripe for destruction",
+   "entries": [
+    "al10-006"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 8,
+   "w2": 17,
+   "quote": "if it were not for the prayers of the righteous",
+   "entries": [
+    "al10-008"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 35,
+   "w2": 40,
+   "quote": "it would not be by flood",
+   "entries": [
+    "al10-009"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 16,
+   "w2": 25,
+   "quote": "if ye will cast out the righteous from among you",
+   "entries": [
+    "al10-005"
+   ]
+  },
+  {
+   "verse": 31,
+   "w1": 23,
+   "w2": 29,
+   "quote": "one of the most expert among them",
+   "entries": [
+    "al10-004"
+   ]
+  },
+  {
+   "verse": 32,
+   "w1": 12,
+   "w2": 18,
+   "quote": "they got gain according to their employ",
+   "entries": [
+    "al10-003"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "d7f30247e049da20"
+ }
+}

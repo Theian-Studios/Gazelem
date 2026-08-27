@@ -1,0 +1,642 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 42,
+  "volume_order": "08",
+  "speakers": [
+   "Alma"
+  ],
+  "audience": "Corianton, Alma's youngest son",
+  "location": "Zarahemla",
+  "date": "~74 BC",
+  "unit": "Alma's charges to his sons (Alma 36–42)",
+  "principles": [
+   "Justice and mercy held together",
+   "A probation opened by being shut out",
+   ""
+  ],
+  "connections": 9,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The worry is named as an objection",
+   "text": "Verse 1 says Corianton supposes it is injustice for a sinner to be consigned to misery. Alma states his son's position accurately before answering it."
+  },
+  {
+   "n": 2,
+   "title": "This is the last of three answers",
+   "text": "Alma 40 took the resurrection, Alma 41 took restoration, and Alma 42 takes justice. The charges to Corianton run four chapters, three of them replies to questions."
+  },
+  {
+   "n": 3,
+   "title": "Alma argues from Eden",
+   "text": "Verses 2 and 3 give the cherubim and the flaming sword, and verse 5 says what would have followed if Adam had reached the tree. The doctrine is built out of a narrative his son knows."
+  },
+  {
+   "n": 4,
+   "title": "The cost of no death is stated plainly",
+   "text": "Verse 5 says the word of God would have been void and the plan frustrated. Alma treats the expulsion as the thing that made repentance possible."
+  },
+  {
+   "n": 5,
+   "title": "God would cease to be God appears three times",
+   "text": "Verses 13, 22, and 25 all use it as the reductio. Alma is testing each proposal by whether it would unmake God."
+  },
+  {
+   "n": 6,
+   "title": "Mercy and justice are given claims",
+   "text": "Verse 24 has justice exercising all his demands and mercy claiming all her own. The language is legal, and neither is described as overriding the other."
+  },
+  {
+   "n": 7,
+   "title": "The charge ends without a farewell",
+   "text": "Alma 37 and Alma 38 both close with farewell; Alma 42 closes with a commission and a prayer. Alma 43 begins the war."
+  }
+ ],
+ "words": [
+  {
+   "term": "Cherubim",
+   "verse_label": "v. 2",
+   "text": "The guardians placed at the garden. The record uses this form three times; the King James Bible uses cherubims sixty-five times and this spelling never. Alma sets them with the flaming sword as the thing that made a probation possible."
+  },
+  {
+   "term": "Probationary",
+   "verse_label": "v. 4",
+   "text": "Treated at Alma 12:24, where Alma first gave this life as a probation. Here he uses it three times in ten verses and pairs it with preparatory, which makes the interval both a test and a getting ready.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 12:24",
+     "start": 11,
+     "end": 21,
+     "book": "Alma",
+     "chapter": 12,
+     "verse_start": 24,
+     "verse_end": 24
+    }
+   ]
+  },
+  {
+   "term": "Appease",
+   "verse_label": "v. 15",
+   "text": "To satisfy, to pacify a claim. The record uses it once and the King James Bible once, where Jacob sends gifts ahead to appease Esau. Alma uses it of the atonement satisfying the demands of justice."
+  },
+  {
+   "term": "Affixed",
+   "verse_label": "v. 16",
+   "text": "Treated at 2 Nephi 2:10, where Lehi says a punishment is affixed opposite the plan of happiness. Alma repeats the word three times and builds the argument of verses 17 through 22 on it."
+  },
+  {
+   "term": "Creature",
+   "verse_label": "v. 21",
+   "text": "A created being, as the object of a legal claim. The record uses it eight times and the King James Bible twenty-nine. Alma uses it twice in two verses, in the sense of the party a law has a claim upon."
+  },
+  {
+   "term": "Sway",
+   "verse_label": "v. 30",
+   "text": "Ruling influence, the power to govern. The word occurs once in scripture. Alma asks that justice, mercy, and long-suffering have full sway in his son's heart, which puts all three in charge at once."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Ye do try to suppose that it is injustice that the sinner should be consigned to a state of misery",
+   "verse_label": "v. 1",
+   "text": "Alma states the objection in his son's own terms. The verb try is pointed: Corianton is working at the supposition rather than holding it, and Alma answers it as a real argument."
+  },
+  {
+   "term": "There was a time granted unto man to repent, yea, a probationary time",
+   "verse_label": "v. 4",
+   "text": "The conclusion Alma draws from the flaming sword. Being shut out of the tree is what created an interval, and the interval is what makes repentance possible."
+  },
+  {
+   "term": "The word of God would have been void, and the great plan of salvation would have been frustrated",
+   "verse_label": "v. 5",
+   "text": "Alma names what was at stake in the expulsion. Eating from the tree would have made a promise false and a plan impossible, so the guard is described as protecting both."
+  },
+  {
+   "term": "They became subjects to follow after their own will",
+   "verse_label": "v. 7",
+   "text": "The result of being cut off temporally and spiritually. Alma gives the fall as a change in what a person is subject to, which sets up the carnal state of verse 10."
+  },
+  {
+   "term": "The work of justice could not be destroyed; if so, God would cease to be God",
+   "verse_label": "v. 13",
+   "text": "The chapter's test, used three times. Alma checks each proposal by asking whether it would unmake God, and this is the first of the three places he applies it."
+  },
+  {
+   "term": "God himself atoneth for the sins of the world, to bring about the plan of mercy",
+   "verse_label": "v. 15",
+   "text": "The center of the answer. Alma has said mercy cannot destroy justice, and here he names the way both are satisfied, with God himself as the one who does it."
+  },
+  {
+   "term": "How could a man repent except he should sin? How could he sin if there was no law?",
+   "verse_label": "v. 17",
+   "text": "Three questions running backward to a foundation. Alma reaches law, then punishment, then the possibility of fear, and builds the case forward again in verses 19 through 22."
+  },
+  {
+   "term": "Mercy claimeth the penitent, and mercy cometh because of the atonement",
+   "verse_label": "v. 23",
+   "text": "A chain of five links: mercy, atonement, resurrection, presence of God, judgment. Alma runs it in one sentence so the connection between them is visible."
+  },
+  {
+   "term": "Justice exerciseth all his demands, and also mercy claimeth all which is her own",
+   "verse_label": "v. 24",
+   "text": "Both are satisfied in full and neither is reduced. Alma's conclusion from it is narrow: none but the truly penitent are saved."
+  },
+  {
+   "term": "Do ye suppose that mercy can rob justice? I say unto you, Nay; not one whit",
+   "verse_label": "v. 25",
+   "text": "Alma answers the objection head on. The phrase not one whit refuses even a partial exchange, and the sentence ends with the same test about God ceasing to be God."
+  },
+  {
+   "term": "Let these things trouble you no more, and only let your sins trouble you",
+   "verse_label": "v. 29",
+   "text": "Alma redirects his son's distress. Four chapters of doctrine end by telling him which worry is worth keeping and what it should produce."
+  },
+  {
+   "term": "Do not endeavor to excuse yourself in the least point",
+   "verse_label": "v. 30",
+   "text": "Alma names what the objection was for. Denying the justice of God had been a way of making room, and this sentence closes it."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–7",
+   "start": 1,
+   "end": 7,
+   "title": "The garden",
+   "text": "Corianton thinks it unjust for a sinner to be consigned to misery. Alma goes back to Eden: the cherubim and the flaming sword kept the tree of life, so man could not eat and live forever. That gave a probationary time. Death was appointed, and the first parents were cut off temporally and spiritually."
+  },
+  {
+   "label": "v. 8–14",
+   "start": 8,
+   "end": 14,
+   "title": "Why a redemption was needed",
+   "text": "Reclaiming man from temporal death would destroy the plan of happiness; reclaiming him from spiritual death was expedient. Having become carnal, sensual, and devilish, men were in a preparatory state. Redemption could come only on conditions of repentance, since mercy cannot destroy justice without God ceasing to be God."
+  },
+  {
+   "label": "v. 15–18",
+   "start": 15,
+   "end": 18,
+   "title": "The atonement",
+   "text": "Mercy required an atonement, so God himself atones, appeasing the demands of justice so he can be both just and merciful. Repentance requires a punishment affixed opposite the plan of happiness, and a just law brought remorse of conscience to man."
+  },
+  {
+   "label": "v. 19–22",
+   "start": 19,
+   "end": 22,
+   "title": "The argument from law",
+   "text": "With no law and no punishment, nobody would fear to sin and neither justice nor mercy would have any claim. But a law is given, a punishment affixed, and a repentance granted; mercy claims the repentant, justice claims the rest."
+  },
+  {
+   "label": "v. 23–26",
+   "start": 23,
+   "end": 26,
+   "title": "Both satisfied",
+   "text": "Mercy comes because of the atonement, which brings the resurrection, which brings men back to be judged. Justice exercises every demand and mercy claims everything of hers, so only the truly penitent are saved. Mercy cannot rob justice, not one whit."
+  },
+  {
+   "label": "v. 27–28",
+   "start": 27,
+   "end": 28,
+   "title": "The open invitation",
+   "text": "Whoever will come may partake of the waters of life freely, and whoever will not is not compelled. In the last day it is restored according to deeds, and evil desired without repentance is restored as evil."
+  },
+  {
+   "label": "v. 29–31",
+   "start": 29,
+   "end": 31,
+   "title": "The redirection",
+   "text": "Let these things trouble you no more, and let your sins trouble you into repentance. Deny the justice of God no more, and make no excuse by it; let justice, mercy, and long-suffering have full sway. Then go, declare the word with truth and soberness, and bring souls to repentance."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The objection is stated fairly before it is answered",
+   "text": "Alma puts his son's position in one clause and spends thirty verses on it. He treats a young man's argument as worth a full reply."
+  },
+  {
+   "n": 2,
+   "title": "The doctrine is built from a story",
+   "text": "Cherubim, a flaming sword, a tree. Alma reasons from a narrative Corianton already knows rather than from abstractions, and every step is anchored in it."
+  },
+  {
+   "n": 3,
+   "title": "Exclusion is what made repentance possible",
+   "text": "Being kept from the tree created a span of time. Alma reads the hardest part of the story as the merciful part."
+  },
+  {
+   "n": 4,
+   "title": "One test is applied three times",
+   "text": "God would cease to be God. Alma uses it at verses 13, 22, and 25, each time against a different proposal, and the whole argument rests on it."
+  },
+  {
+   "n": 5,
+   "title": "Justice and mercy are both given full claims",
+   "text": "Neither is softened. Alma's answer is that the atonement satisfies both completely, and he refuses even a partial trade between them."
+  },
+  {
+   "n": 6,
+   "title": "The chain in verse 23 is the answer in miniature",
+   "text": "Mercy, atonement, resurrection, presence, judgment. Five links in one sentence, which is how Alma shows they are not separate mercies."
+  },
+  {
+   "n": 7,
+   "title": "The invitation is left genuinely open",
+   "text": "Whoever will come may; whoever will not is not compelled. Alma places the whole doctrine of justice beside an unforced offer."
+  },
+  {
+   "n": 8,
+   "title": "The charge ends with an assignment",
+   "text": "No farewell, unlike the other two. Alma tells his son he is called of God, sends him to preach with truth and soberness, and the war begins in the next chapter."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "State the objection before answering it",
+    "verse_label": "v. 1",
+    "text": "Alma repeated his son's argument accurately first. When you disagree with someone, say their position back in a form they would accept, then respond."
+   },
+   {
+    "title": "Look for the mercy in the hard part",
+    "verse_label": "v. 4",
+    "text": "The flaming sword is what made repentance possible. Take the thing in your life that looks purely like a loss and ask what it made room for."
+   },
+   {
+    "title": "Keep the right trouble",
+    "verse_label": "v. 29",
+    "text": "Alma told his son to stop worrying about the doctrine and start worrying about his sins. Work out which of your current worries would actually change something if you acted on it."
+   },
+   {
+    "title": "Stop using a belief as an excuse",
+    "verse_label": "v. 30",
+    "text": "Denying God's justice had been Corianton's way of making room. Name the idea that has been letting you off, and drop it rather than defending it."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What do I try to suppose because the alternative would cost me something?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What time have I been granted that I have been treating as ordinary?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "What would I have to believe about God for my current excuse to work?"
+   },
+   {
+    "verse_label": "v. 24",
+    "start": 24,
+    "end": 24,
+    "text": "Do I want mercy for myself and justice for other people?"
+   },
+   {
+    "verse_label": "v. 27",
+    "start": 27,
+    "end": 27,
+    "text": "What is keeping me from partaking freely?"
+   },
+   {
+    "verse_label": "v. 29",
+    "start": 29,
+    "end": 29,
+    "text": "Which of my troubles is worth keeping?"
+   },
+   {
+    "verse_label": "v. 30",
+    "start": 30,
+    "end": 30,
+    "text": "Where am I excusing myself in the least point?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al42-001",
+   "scope": "BOOK",
+   "head": "Alma 12:21",
+   "anchor": {
+    "verse": 2,
+    "w1": 54,
+    "w2": 58,
+    "quote": "cherubim, and a flaming sword"
+   },
+   "reason": "the same guard, raised as an objection by Antionah at Ammonihah",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 12,
+     "verse": 21,
+     "w1": 11,
+     "w2": 15,
+     "quote": "cherubim and a flaming sword",
+     "verse_text": "What does the scripture mean, which saith that God placed cherubim and a flaming sword on the east of the garden of Eden, lest our first parents should enter and partake of the fruit of the tree of life, and live forever? And thus we see that there was no possible chance that they should live forever.",
+     "markdown": "What does the scripture mean, which saith that God placed **cherubim and a flaming sword** on the east of the garden of Eden, lest our first parents should enter and partake of the fruit of the tree of life, and live forever? And thus we see that there was no possible chance that they should live forever.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al42-002",
+   "scope": "BOOK",
+   "head": "Alma 12:24",
+   "anchor": {
+    "verse": 4,
+    "w1": 16,
+    "w2": 25,
+    "quote": "a probationary time, a time to repent and serve God"
+   },
+   "reason": "the word treated in full, where Alma first gave this life as a probation",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 12,
+     "verse": 24,
+     "w1": 41,
+     "w2": 43,
+     "quote": "a probationary state;",
+     "verse_text": "And we see that death comes upon mankind, yea, the death which has been spoken of by Amulek, which is the temporal death; nevertheless there was a space granted unto man in which he might repent; therefore this life became a probationary state; a time to prepare to meet God; a time to prepare for that endless state which has been spoken of by us, which is after the resurrection of the dead.",
+     "markdown": "And we see that death comes upon mankind, yea, the death which has been spoken of by Amulek, which is the temporal death; nevertheless there was a space granted unto man in which he might repent; therefore this life became **a probationary state**; a time to prepare to meet God; a time to prepare for that endless state which has been spoken of by us, which is after the resurrection of the dead.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al42-003",
+   "scope": "BOOK",
+   "head": "Alma 39:17",
+   "anchor": {
+    "verse": 1,
+    "w1": 7,
+    "w2": 15,
+    "quote": "there is somewhat more which doth worry your mind"
+   },
+   "reason": "the worry Corianton first raised, at the end of the correction",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 39,
+     "verse": 17,
+     "w1": 13,
+     "w2": 23,
+     "quote": "you marvel why these things should be known so long beforehand.",
+     "verse_text": "And now I will ease your mind somewhat on this subject. Behold, you marvel why these things should be known so long beforehand. Behold, I say unto you, is not a soul at this time as precious unto God as a soul will be at the time of his coming?",
+     "markdown": "And now I will ease your mind somewhat on this subject. Behold, **you marvel why these things should be known so long beforehand**. Behold, I say unto you, is not a soul at this time as precious unto God as a soul will be at the time of his coming?",
+     "span": true
+    }
+   ],
+   "mirror": "al39-003"
+  },
+  {
+   "id": "al42-004",
+   "scope": "BOOK",
+   "head": "Alma 41:13",
+   "anchor": {
+    "verse": 10,
+    "w1": 6,
+    "w2": 9,
+    "quote": "carnal, sensual, and devilish"
+   },
+   "reason": "the same word in the restoration argument, returning like for like",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 41,
+     "verse": 13,
+     "w1": 28,
+     "w2": 31,
+     "quote": "or devilish for devilish—good",
+     "verse_text": "O, my son, this is not the case; but the meaning of the word restoration is to bring back again evil for evil, or carnal for carnal, or devilish for devilish—good for that which is good; righteous for that which is righteous; just for that which is just; merciful for that which is merciful.",
+     "markdown": "O, my son, this is not the case; but the meaning of the word restoration is to bring back again evil for evil, or carnal for carnal, **or devilish for devilish—good** for that which is good; righteous for that which is righteous; just for that which is just; merciful for that which is merciful.",
+     "span": true
+    }
+   ],
+   "mirror": "al41-004"
+  },
+  {
+   "id": "al42-005",
+   "scope": "BOM",
+   "head": "2 Ne. 2:10",
+   "anchor": {
+    "verse": 16,
+    "w1": 11,
+    "w2": 16,
+    "quote": "a punishment, which also was eternal"
+   },
+   "reason": "Lehi affixing punishment opposite the plan of happiness",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 2,
+     "verse": 10,
+     "w1": 52,
+     "w2": 56,
+     "quote": "the punishment which is affixed,",
+     "verse_text": "And because of the intercession for all, all men come unto God; wherefore, they stand in the presence of him, to be judged of him according to the truth and holiness which is in him. Wherefore, the ends of the law which the Holy One hath given, unto the inflicting of the punishment which is affixed, which punishment that is affixed is in opposition to that of the happiness which is affixed, to answer the ends of the atonement—",
+     "markdown": "And because of the intercession for all, all men come unto God; wherefore, they stand in the presence of him, to be judged of him according to the truth and holiness which is in him. Wherefore, the ends of the law which the Holy One hath given, unto the inflicting of **the punishment which is affixed**, which punishment that is affixed is in opposition to that of the happiness which is affixed, to answer the ends of the atonement—",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al42-006",
+   "scope": "BOM",
+   "head": "2 Ne. 9:25",
+   "anchor": {
+    "verse": 17,
+    "w1": 11,
+    "w2": 19,
+    "quote": "How could he sin if there was no law"
+   },
+   "reason": "Jacob on where there is no law given",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 9,
+     "verse": 25,
+     "w1": 8,
+     "w2": 13,
+     "quote": "where there is no law given",
+     "verse_text": "Wherefore, he has given a law; and where there is no law given there is no punishment; and where there is no punishment there is no condemnation; and where there is no condemnation the mercies of the Holy One of Israel have claim upon them, because of the atonement; for they are delivered by the power of him.",
+     "markdown": "Wherefore, he has given a law; and **where there is no law given** there is no punishment; and where there is no punishment there is no condemnation; and where there is no condemnation the mercies of the Holy One of Israel have claim upon them, because of the atonement; for they are delivered by the power of him.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al42-007",
+   "scope": "SW",
+   "head": "Gen. 3:24",
+   "anchor": {
+    "verse": 2,
+    "w1": 54,
+    "w2": 58,
+    "quote": "cherubim, and a flaming sword"
+   },
+   "reason": "the guard at the garden, as Genesis gives it",
+   "targets": [
+    {
+     "ref": "Gen.",
+     "chapter": 3,
+     "verse": 24,
+     "w1": 20,
+     "w2": 26,
+     "quote": "a flaming sword which turned every way,",
+     "verse_text": "So he drove out the man; and he placed at the east of the garden of Eden Cherubims, and a flaming sword which turned every way, to keep the way of the tree of life.",
+     "markdown": "So he drove out the man; and he placed at the east of the garden of Eden Cherubims, and **a flaming sword which turned every way**, to keep the way of the tree of life.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al42-008",
+   "scope": "SW",
+   "head": "Gen. 32:20",
+   "anchor": {
+    "verse": 15,
+    "w1": 35,
+    "w2": 40,
+    "quote": "to appease the demands of justice"
+   },
+   "reason": "the King James Bible’s one use of the verb, of Jacob and Esau",
+   "targets": [
+    {
+     "ref": "Gen.",
+     "chapter": 32,
+     "verse": 20,
+     "w1": 15,
+     "w2": 21,
+     "quote": "I will appease him with the present",
+     "verse_text": "And say ye moreover, Behold, thy servant Jacob is behind us. For he said, I will appease him with the present that goeth before me, and afterward I will see his face; peradventure he will accept of me.",
+     "markdown": "And say ye moreover, Behold, thy servant Jacob is behind us. For he said, **I will appease him with the present** that goeth before me, and afterward I will see his face; peradventure he will accept of me.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al42-009",
+   "scope": "SW",
+   "head": "Rev. 22:17",
+   "anchor": {
+    "verse": 27,
+    "w1": 11,
+    "w2": 17,
+    "quote": "partake of the waters of life freely"
+   },
+   "reason": "the same open invitation, in the same words",
+   "targets": [
+    {
+     "ref": "Rev.",
+     "chapter": 22,
+     "verse": 17,
+     "w1": 26,
+     "w2": 33,
+     "quote": "let him take the water of life freely.",
+     "verse_text": "And the Spirit and the bride say, Come. And let him that heareth say, Come. And let him that is athirst come. And whosoever will, let him take the water of life freely.",
+     "markdown": "And the Spirit and the bride say, Come. And let him that heareth say, Come. And let him that is athirst come. And whosoever will, **let him take the water of life freely**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 7,
+   "w2": 15,
+   "quote": "there is somewhat more which doth worry your mind",
+   "entries": [
+    "al42-003"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 54,
+   "w2": 58,
+   "quote": "cherubim, and a flaming sword",
+   "entries": [
+    "al42-001",
+    "al42-007"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 16,
+   "w2": 25,
+   "quote": "a probationary time, a time to repent and serve God",
+   "entries": [
+    "al42-002"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 6,
+   "w2": 9,
+   "quote": "carnal, sensual, and devilish",
+   "entries": [
+    "al42-004"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 35,
+   "w2": 40,
+   "quote": "to appease the demands of justice",
+   "entries": [
+    "al42-008"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 11,
+   "w2": 16,
+   "quote": "a punishment, which also was eternal",
+   "entries": [
+    "al42-005"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 11,
+   "w2": 19,
+   "quote": "How could he sin if there was no law",
+   "entries": [
+    "al42-006"
+   ]
+  },
+  {
+   "verse": 27,
+   "w1": 11,
+   "w2": 17,
+   "quote": "partake of the waters of life freely",
+   "entries": [
+    "al42-009"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "e69202fad12da3c1"
+ }
+}

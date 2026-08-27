@@ -18,7 +18,7 @@
    "Succession",
    "A name to be given"
   ],
-  "connections": 7,
+  "connections": 9,
   "initial": false
  },
  "world_behind": [
@@ -50,89 +50,129 @@
   {
    "n": 6,
    "title": "The argument from what would have been lost",
-   "text": "Verses 3 through 5 argue that without the plates they would have suffered in ignorance and their fathers would have dwindled in unbelief. Amaleki had made the same argument about the people of Zarahemla two pages earlier, from observation. Benjamin makes it from imagination, about himself."
+   "text": "Verses 3 through 5 argue that without the plates they would have suffered in ignorance and their fathers would have dwindled in unbelief. Amaleki had made the same argument about the people of Zarahemla two pages earlier, from observation. Benjamin makes it as a hypothetical, about himself."
   }
  ],
  "words": [
   {
-   "term": "mysteries",
+   "term": "Mysteries",
    "verse_label": "v. 3",
-   "text": "Things known only by disclosure, not by reasoning. Benjamin says the plates are why they are not ignorant of them, which locates the mysteries in a readable text rather than in an initiation. Whatever is hidden here is hidden in a book that a literate person can open."
+   "text": "Things known only by disclosure. Benjamin says the plates are why they are not ignorant of them, which locates the mysteries in a readable text. Whatever is hidden here is hidden in a book that a literate person can open."
   },
   {
-   "term": "confer",
+   "term": "Confer",
    "verse_label": "v. 9",
-   "text": "To bestow formally. Benjamin thought it expedient to confer the kingdom on one of his sons — the same verb Omni used of handing on the plates. Kingship and custody of the record are transferred with one word in this book, and in verse 16 they are transferred in one act."
+   "text": "To bestow formally. Benjamin thought it expedient to confer the kingdom on one of his sons. It is the same verb Omni used of handing on the plates. Kingship and custody of the record are transferred with one word in this book, and in verse 16 they are transferred in one act."
   },
   {
-   "term": "proclamation",
+   "term": "Proclamation",
    "verse_label": "v. 10",
    "text": "A public announcement with legal force. Mosiah is made to issue one before he is made king, so his first royal act precedes his kingship. The chapter's mechanism for gathering a nation is a document read aloud, which is what the whole book is about to depend on."
   },
   {
-   "term": "progress",
+   "term": "Adulterous",
+   "verse_label": "v. 13",
+   "text": "The prophets use adultery for covenant unfaithfulness, not only for the marriage offense: Israel is the wife who goes after other gods. Benjamin warns that this people could \"become a wicked and an adulterous people\" (v. 13), the pairing Matthew gives to Jesus about the generation that keeps asking for a sign. Five centuries lie between them, and in both the charge is that people already bound to God went looking elsewhere. The word is used once in this record.",
+   "cites": [
+    {
+     "quote": "become a wicked and an adulterous people",
+     "verse": 13,
+     "start": 174,
+     "end": 224,
+     "spans": [
+      {
+       "w1": 22,
+       "w2": 28,
+       "text": "become a wicked and an adulterous people"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Victims",
+   "verse_label": "v. 14",
+   "text": "In older English a victim was the creature brought to the altar. By the period of this translation the word had moved to mean a person destroyed by someone else's will, and that is the sense here: without God's arm the fathers would have \"become victims to their hatred\" (v. 14). Benjamin has just said that preservation can stop. This is what he says lies on the other side of its stopping, and he puts it as something people would do to them rather than as a judgment. The King James Bible never uses the word.",
+   "cites": [
+    {
+     "quote": "become victims to their hatred",
+     "verse": 14,
+     "start": 238,
+     "end": 278,
+     "spans": [
+      {
+       "w1": 31,
+       "w2": 35,
+       "text": "become victims to their hatred"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Progress",
    "verse_label": "v. 17",
    "text": "Forward movement, used here of a journey that stalls. The unfaithful \"did not prosper nor progress,\" and the two verbs are paired. Prospering is the covenant word; progressing is the physical one. Benjamin puts them together and treats one as the visible form of the other."
   }
  ],
  "phrases": [
   {
-   "term": "taught in all the language of his fathers, that thereby they might become men of understanding",
+   "term": "Taught in all the language of his fathers, that thereby they might become men of understanding",
    "verse_label": "v. 2",
    "text": "Language first, understanding second, in that causal order. The princes' education is described as linguistic before it is moral or military, and the stated purpose is comprehension of prophecy. It is the clearest picture in the record of what a royal education was for."
   },
   {
-   "term": "were it not for these plates... we must have suffered in ignorance",
+   "term": "Were it not for these plates... we must have suffered in ignorance",
    "verse_label": "v. 3",
-   "text": "An argument by absence. Benjamin is not praising the record; he is describing the state he would be in without it, and the state he names is ignorance rather than sin. The case for scripture here is made on the grounds of information."
+   "text": "An argument by absence. Benjamin is not praising the record; he is describing the state he would be in without it, and the state he names is ignorance. The case for scripture here is made on the grounds of information."
   },
   {
-   "term": "he having been taught in the language of the Egyptians therefore he could read these engravings",
+   "term": "He having been taught in the language of the Egyptians therefore he could read these engravings",
    "verse_label": "v. 4",
    "text": "A chain of causes reaching back four and a half centuries: Lehi's schooling made the plates readable, which made teaching possible, which made transmission possible, which is why Benjamin's sons know anything. The verse is an argument about literacy dressed as family history."
   },
   {
-   "term": "our fathers would have dwindled in unbelief",
+   "term": "Our fathers would have dwindled in unbelief",
    "verse_label": "v. 5",
-   "text": "The verb that describes the Lamanites' condition from the first book onward, applied here to his own line as a possibility narrowly avoided. Benjamin's claim is not that his people are different in kind but that they had a book. The difference is circumstantial and he says so."
+   "text": "The verb that describes the Lamanites' condition from the first book onward, applied here to his own line as a possibility narrowly avoided. Benjamin's claim is that his people had a book. The difference is circumstantial and he says so."
   },
   {
-   "term": "the traditions of their fathers, which are not correct",
+   "term": "The traditions of their fathers, which are not correct",
    "verse_label": "v. 5",
-   "text": "The record's flattest statement of what went wrong with the Lamanites, and it is about information rather than character. Inherited error, transmitted faithfully. It is the same diagnosis Jacob offered when he traced their hostility to their fathers, and it leaves room for the remedy Enos prayed for."
+   "text": "The record's flattest statement of what went wrong with the Lamanites, and it is about information. Inherited error, transmitted faithfully. It is the same diagnosis Jacob offered when he traced their hostility to their fathers, and it leaves room for the remedy Enos prayed for."
   },
   {
-   "term": "we can know of their surety because we have them before our eyes",
+   "term": "We can know of their surety because we have them before our eyes",
    "verse_label": "v. 6",
    "text": "An argument from possession. The plates are true and the proof offered is that they can be inspected. It is an unusually physical warrant for a claim about scripture, and it is offered to sons who are holding the objects."
   },
   {
-   "term": "search them diligently, that ye may profit thereby",
+   "term": "Search them diligently, that ye may profit thereby",
    "verse_label": "v. 7",
    "text": "Two imperatives, and the second is about return on effort. Benjamin does not tell his sons to revere the records or to preserve them; he tells them to search and to profit. Custody has already been dealt with in verse 16; this is about use."
   },
   {
-   "term": "a name that never shall be blotted out, except it be through transgression",
+   "term": "A name that never shall be blotted out, except it be through transgression",
    "verse_label": "v. 12",
    "text": "A gift with one condition and no expiry. Blotting out is the language of erasure from a register, which suits a name given at an assembly and recorded. Benjamin announces the terms four chapters before he announces the name."
   },
   {
-   "term": "he will no more preserve them by his matchless and marvelous power",
+   "term": "He will no more preserve them by his matchless and marvelous power",
    "verse_label": "v. 13",
-   "text": "The preservation is presented as ongoing and as revocable. Benjamin's warning is not that God will strike but that he will stop doing what he has been doing, and the result named is weakness rather than punishment. The word \"hitherto\" in the same verse carries the argument."
+   "text": "The preservation is presented as ongoing and as revocable. Benjamin's warning is that God will stop doing what he has been doing, and the result named is weakness. The word \"hitherto\" in the same verse carries the argument."
   },
   {
-   "term": "the sword of Laban, and the ball or director, which led our fathers through the wilderness",
+   "term": "The sword of Laban, and the ball or director, which led our fathers through the wilderness",
    "verse_label": "v. 16",
-   "text": "Two objects from the founding generation, handed over together. One was taken in a street in Jerusalem and one appeared outside a tent door. Between them they represent the two ways the record says this people survived — force and guidance — and a king now holds both."
+   "text": "Two objects from the founding generation, handed over together. One was taken in a street in Jerusalem and one appeared outside a tent door. Between them they represent the two ways the record says this people survived: force and guidance. A king now holds both."
   },
   {
-   "term": "according to the heed and diligence which they gave unto him",
+   "term": "According to the heed and diligence which they gave unto him",
    "verse_label": "v. 16",
    "text": "The operating principle of the director, stated as a rule rather than as a story. Attention and effort are the inputs; direction is the output. Benjamin gives his son the instrument and the manual in the same sentence."
   },
   {
-   "term": "they were smitten with famine and sore afflictions, to stir them up in remembrance of their duty",
+   "term": "They were smitten with famine and sore afflictions, to stir them up in remembrance of their duty",
    "verse_label": "v. 17",
    "text": "Affliction assigned a purpose, and the purpose is memory. This is the same clause Lehi was given about the Lamanites as a scourge, turned now on the covenant people themselves and applied to a wilderness journey the audience knows the outcome of."
   }
@@ -157,7 +197,7 @@
    "start": 6,
    "end": 8,
    "title": "True, searchable, and unfinished",
-   "text": "The records are true and can be checked because they are in hand; search them and profit; keep the commandments and prosper according to the promises. Then a one-line notice that Benjamin taught much more that is not written — the abridgment reminding the reader it is an abridgment."
+   "text": "The records are true and can be checked because they are in hand; search them and profit; keep the commandments and prosper according to the promises. Then a one-line notice that Benjamin taught much more that is not written. The abridgment reminds the reader it is an abridgment."
   },
   {
    "label": "v. 9–12",
@@ -178,7 +218,7 @@
    "start": 15,
    "end": 17,
    "title": "The charge, and the objects",
-   "text": "All the affairs of the kingdom first, then the four items of verse 16 — and with them an explanation of how the director worked and why it sometimes did not. The regalia comes with a lesson attached, and the lesson is about attention."
+   "text": "All the affairs of the kingdom first, then the four items of verse 16, and with them an explanation of how the director worked and why it sometimes did not. The regalia comes with a lesson attached, and the lesson is about attention."
   },
   {
    "label": "v. 18",
@@ -192,7 +232,7 @@
   {
    "n": 1,
    "title": "The case for scripture is made on informational grounds",
-   "text": "Benjamin's argument is that without the plates they would not know things — the mysteries, the commandments, the prophecies. Not that they would be worse people first, but that they would be ignorant people, and worse follows from that. Verses 3 through 5 run the whole case that way."
+   "text": "Benjamin's argument is that without the plates they would not know things: the mysteries, the commandments, the prophecies. Not that they would be worse people first, but that they would be ignorant people, and worse follows from that. Verses 3 through 5 run the whole case that way."
   },
   {
    "n": 2,
@@ -207,7 +247,7 @@
   {
    "n": 4,
    "title": "The regalia is a library, a weapon, and a compass",
-   "text": "No crown, no throne, no oil. What a Nephite king receives is the means of knowing, the means of defending, and the means of being led — and the third comes with a rule about why it stops working."
+   "text": "No crown, no throne, no oil. What a Nephite king receives is the means of knowing, the means of defending, and the means of being led. The third comes with a rule about why it stops working."
   },
   {
    "n": 5,
@@ -217,12 +257,12 @@
   {
    "n": 6,
    "title": "Favor is described as maintenance",
-   "text": "Verse 13 says God will \"no more preserve them\" if they transgress, and verse 14 says the fathers would have fallen without his arm. Preservation is continuous, active, and withdrawable. Nothing in the chapter treats being a chosen people as a state rather than a process."
+   "text": "Verse 13 says God will \"no more preserve them\" if they transgress, and verse 14 says the fathers would have fallen without his arm. Preservation is continuous, active, and withdrawable. The chapter treats being a chosen people as a process."
   },
   {
    "n": 7,
    "title": "The chapter is an overture",
-   "text": "Peace, education, the value of records, a succession, a promised name, a warning, the regalia, and a gathering. Every one of these returns in the five chapters that follow, which is what an opening chapter is for and what this one is doing."
+   "text": "Peace, education, the value of records, a succession, a promised name, a warning, the regalia, and a gathering. Every one of these returns in the five chapters that follow. An opening chapter is meant to do that, and this one does."
   }
  ],
  "world_in_front": {
@@ -230,7 +270,7 @@
    {
     "title": "Teach the language first",
     "verse_label": "v. 2",
-    "text": "Benjamin's sons were taught to read before they were taught anything else, so that they could reach the prophecies themselves. Whatever you want someone to understand, give them the access rather than the summary."
+    "text": "Benjamin's sons were taught the language of their fathers first, so that they could reach the prophecies themselves. Whatever you want someone to understand, give them the access rather than the summary."
    },
    {
     "title": "Ask what you would not know",
@@ -243,14 +283,14 @@
     "text": "The chapter's diagnosis of an entire people is inherited error, faithfully transmitted. Identify one thing you believe mainly because you were raised in it, and test it."
    },
    {
-    "title": "Search for profit, not for credit",
+    "title": "Search for profit",
     "verse_label": "v. 7",
     "text": "The instruction is to search diligently in order to gain something. Read the next thing you read with a specific question you actually want answered."
    },
    {
     "title": "Give heed and diligence",
     "verse_label": "v. 16",
-    "text": "The director worked in proportion to attention and effort, and stopped when they lapsed. When guidance seems absent, the chapter's first diagnostic is not God's silence but your own heed."
+    "text": "The director worked in proportion to attention and effort, and stopped when they lapsed. When guidance seems absent, the chapter's first diagnostic is your own heed."
    },
    {
     "title": "Treat favor as maintenance",
@@ -299,6 +339,32 @@
  },
  "entries": [
   {
+   "id": "mos01-008",
+   "scope": "BOOK",
+   "head": "Mosiah 6:3",
+   "anchor": {
+    "verse": 16,
+    "w1": 3,
+    "w2": 18,
+    "quote": "he also gave him charge concerning the records which were engraven on the plates of brass"
+   },
+   "reason": "the charge discharged at the assembly",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 6,
+     "verse": 3,
+     "w1": 20,
+     "w2": 31,
+     "quote": "had consecrated his son Mosiah to be a ruler and a king",
+     "verse_text": "And again, it came to pass that when king Benjamin had made an end of all these things, and had consecrated his son Mosiah to be a ruler and a king over his people, and had given him all the charges concerning the kingdom, and also had appointed priests to teach the people, that thereby they might hear and know the commandments of God, and to stir them up in remembrance of the oath which they had made, he dismissed the multitude, and they returned, every one, according to their families, to their own houses.",
+     "markdown": "And again, it came to pass that when king Benjamin had made an end of all these things, and **had consecrated his son Mosiah to be a ruler and a king** over his people, and had given him all the charges concerning the kingdom, and also had appointed priests to teach the people, that thereby they might hear and know the commandments of God, and to stir them up in remembrance of the oath which they had made, he dismissed the multitude, and they returned, every one, according to their families, to their own houses.",
+     "span": true
+    }
+   ],
+   "mirror": "mos06-004"
+  },
+  {
    "id": "mos01-007",
    "scope": "BOOK",
    "head": "Mosiah 2:1",
@@ -317,10 +383,38 @@
      "w1": 37,
      "w2": 52,
      "quote": "they might go up to the temple to hear the words which king Benjamin should speak",
+     "verse_text": "And it came to pass that after Mosiah had done as his father had commanded him, and had made a proclamation throughout all the land, that the people gathered themselves together throughout all the land, that they might go up to the temple to hear the words which king Benjamin should speak unto them.",
+     "markdown": "And it came to pass that after Mosiah had done as his father had commanded him, and had made a proclamation throughout all the land, that the people gathered themselves together throughout all the land, that **they might go up to the temple to hear the words which king Benjamin should speak** unto them.",
      "span": true
     }
    ],
    "mirror": "mos02-001"
+  },
+  {
+   "id": "mos01-009",
+   "scope": "BOM",
+   "head": "Alma 2:11",
+   "anchor": {
+    "verse": 11,
+    "w1": 3,
+    "w2": 15,
+    "quote": "I shall give this people a name, that thereby they may be distinguished"
+   },
+   "reason": "a name to unite, against a name to divide",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 2,
+     "verse": 11,
+     "w1": 7,
+     "w2": 12,
+     "quote": "distinguished by the name of Amlici,",
+     "verse_text": "Now the people of Amlici were distinguished by the name of Amlici, being called Amlicites; and the remainder were called Nephites, or the people of God.",
+     "markdown": "Now the people of Amlici were **distinguished by the name of Amlici**, being called Amlicites; and the remainder were called Nephites, or the people of God.",
+     "span": true
+    }
+   ],
+   "mirror": "al02-011"
   },
   {
    "id": "mos01-006",
@@ -340,11 +434,13 @@
      "verse": 8,
      "w1": 31,
      "w2": 42,
-     "quote": "I would that ye should take upon you the name of Christ",
+     "quote": "I would that ye should take upon you the name of Christ,",
+     "verse_text": "And under this head ye are made free, and there is no other head whereby ye can be made free. There is no other name given whereby salvation cometh; therefore, I would that ye should take upon you the name of Christ, all you that have entered into the covenant with God that ye should be obedient unto the end of your lives.",
+     "markdown": "And under this head ye are made free, and there is no other head whereby ye can be made free. There is no other name given whereby salvation cometh; therefore, **I would that ye should take upon you the name of Christ**, all you that have entered into the covenant with God that ye should be obedient unto the end of your lives.",
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos05-001"
   },
   {
    "id": "mos01-004",
@@ -364,7 +460,9 @@
      "verse": 28,
      "w1": 21,
      "w2": 34,
-     "quote": "according to the faith and diligence and heed which we did give unto them",
+     "quote": "according to the faith and diligence and heed which we did give unto them.",
+     "verse_text": "And it came to pass that I, Nephi, beheld the pointers which were in the ball, that they did work according to the faith and diligence and heed which we did give unto them.",
+     "markdown": "And it came to pass that I, Nephi, beheld the pointers which were in the ball, that they did work **according to the faith and diligence and heed which we did give unto them**.",
      "span": true
     }
    ],
@@ -388,7 +486,9 @@
      "verse": 17,
      "w1": 40,
      "w2": 54,
-     "quote": "they had brought no records with them; and they denied the being of their Creator",
+     "quote": "they had brought no records with them; and they denied the being of their Creator;",
+     "verse_text": "And at the time that Mosiah discovered them, they had become exceedingly numerous. Nevertheless, they had had many wars and serious contentions, and had fallen by the sword from time to time; and their language had become corrupted; and they had brought no records with them; and they denied the being of their Creator; and Mosiah, nor the people of Mosiah, could understand them.",
+     "markdown": "And at the time that Mosiah discovered them, they had become exceedingly numerous. Nevertheless, they had had many wars and serious contentions, and had fallen by the sword from time to time; and their language had become corrupted; and **they had brought no records with them; and they denied the being of their Creator**; and Mosiah, nor the people of Mosiah, could understand them.",
      "span": true
     }
    ],
@@ -412,7 +512,9 @@
      "verse": 2,
      "w1": 21,
      "w2": 25,
-     "quote": "the language of the Egyptians",
+     "quote": "the language of the Egyptians.",
+     "verse_text": "Yea, I make a record in the language of my father, which consists of the learning of the Jews and the language of the Egyptians.",
+     "markdown": "Yea, I make a record in the language of my father, which consists of the learning of the Jews and **the language of the Egyptians**.",
      "span": true
     }
    ],
@@ -436,7 +538,9 @@
      "verse": 18,
      "w1": 29,
      "w2": 36,
-     "quote": "did once more establish peace in the land",
+     "quote": "did once more establish peace in the land.",
+     "verse_text": "Wherefore, with the help of these, king Benjamin, by laboring with all the might of his body and the faculty of his whole soul, and also the prophets, did once more establish peace in the land.",
+     "markdown": "Wherefore, with the help of these, king Benjamin, by laboring with all the might of his body and the faculty of his whole soul, and also the prophets, **did once more establish peace in the land**.",
      "span": true
     }
    ],
@@ -460,7 +564,9 @@
      "verse": 2,
      "w1": 1,
      "w2": 8,
-     "quote": "I go the way of all the earth",
+     "quote": "I go the way of all the earth:",
+     "verse_text": "I go the way of all the earth: be thou strong therefore, and shew thyself a man;",
+     "markdown": "**I go the way of all the earth**: be thou strong therefore, and shew thyself a man;",
      "span": true
     }
    ],
@@ -505,12 +611,30 @@
    ]
   },
   {
+   "verse": 11,
+   "w1": 3,
+   "w2": 15,
+   "quote": "I shall give this people a name, that thereby they may be distinguished",
+   "entries": [
+    "mos01-009"
+   ]
+  },
+  {
    "verse": 12,
    "w1": 2,
    "w2": 13,
    "quote": "I give unto them a name that never shall be blotted out",
    "entries": [
     "mos01-006"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 3,
+   "w2": 18,
+   "quote": "he also gave him charge concerning the records which were engraven on the plates of brass",
+   "entries": [
+    "mos01-008"
    ]
   },
   {
@@ -533,7 +657,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-18",
-  "source_sha256": "d50bcd722284ef43"
+  "at": "2026-08-25",
+  "source_sha256": "84908485a35b58b2"
  }
 }

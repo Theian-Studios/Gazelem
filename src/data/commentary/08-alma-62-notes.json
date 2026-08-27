@@ -1,0 +1,740 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 62,
+  "volume_order": "08",
+  "speakers": [
+   "Mormon, as narrator"
+  ],
+  "audience": "The reader of the abridgment",
+  "location": "Gideon, Zarahemla, Nephihah, and the land of Moroni",
+  "date": "~62–57 BC",
+  "unit": "The war chapters (Alma 43–63)",
+  "principles": [
+   "A rebellion put down under law",
+   "A city taken by night without a death",
+   ""
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The chapter resolves both wars at once",
+   "text": "The civil war with Pachus ends by verse 11. The Lamanite war ends by verse 38."
+  },
+  {
+   "n": 2,
+   "title": "Pachus is named here for the first time",
+   "text": "Verse 6 identifies him as the king of the dissenters who drove the freemen out of Zarahemla. Alma 61:8 had reported the king without the name.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 61:8",
+     "start": 93,
+     "end": 102,
+     "book": "Alma",
+     "chapter": 61,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "The executions follow trials",
+   "text": "Verse 9 says the men of Pachus and the imprisoned king-men received their trial according to the law and were executed according to it."
+  },
+  {
+   "n": 4,
+   "title": "Nephihah is retaken with cords and ladders",
+   "text": "Verses 20 through 23 have Moroni scouting the wall by night and lowering his whole force into the empty western quarter."
+  },
+  {
+   "n": 5,
+   "title": "Four thousand prisoners become farmers",
+   "text": "Verses 16, 17, and 29 have Lamanite prisoners covenanting, joining the people of Ammon, and relieving the Nephites of the burden of guarding them."
+  },
+  {
+   "n": 6,
+   "title": "Teancum dies on a private errand",
+   "text": "Verse 35 says only Teancum resolved on a stratagem that night, and gives his anger at Ammoron and Amalickiah as the reason."
+  },
+  {
+   "n": 7,
+   "title": "The record closes the war by describing people",
+   "text": "Verses 41 through 51 report that the same length of war hardened some and humbled others, and that prosperity returned without pride."
+  }
+ ],
+ "words": [
+  {
+   "term": "Executed",
+   "verse_label": "v. 9",
+   "text": "Put to death by sentence of law. The record uses the word five times, twice in this chapter. Verses 9 and 10 attach it to trials, to the law, and to a specific offense."
+  },
+  {
+   "term": "Ladders",
+   "verse_label": "v. 21",
+   "text": "Scaling equipment. Both of the record's uses are in this chapter, at verses 21 and 23, paired each time with strong cords. The word appears nowhere in the King James Bible."
+  },
+  {
+   "term": "Affrighted",
+   "verse_label": "v. 24",
+   "text": "Struck with sudden fear. The record uses it twice, at Alma 52:2 of the Lamanites finding Amalickiah dead, and here of Lamanites waking to find an army already inside the walls.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 52:2",
+     "start": 54,
+     "end": 63,
+     "book": "Alma",
+     "chapter": 52,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
+  },
+  {
+   "term": "Stratagem",
+   "verse_label": "v. 35",
+   "text": "Treated at Alma 43:30, of Moroni dividing his army at Sidon. This is the war block's last use, and it belongs to one man acting alone at night.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 43:30",
+     "start": 11,
+     "end": 21,
+     "book": "Alma",
+     "chapter": 43,
+     "verse_start": 30,
+     "verse_end": 30
+    }
+   ]
+  },
+  {
+   "term": "Javelin",
+   "verse_label": "v. 36",
+   "text": "Treated at Alma 51:34, where Teancum killed Amalickiah with one. The record gives him the same weapon and the same target eleven years later, with the opposite result.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 51:34",
+     "start": 11,
+     "end": 21,
+     "book": "Alma",
+     "chapter": 51,
+     "verse_start": 34,
+     "verse_end": 34
+    }
+   ]
+  },
+  {
+   "term": "Softened",
+   "verse_label": "v. 41",
+   "text": "Made tender or yielding. The record uses the word twelve times, first at 1 Nephi 2:16 of Nephi's heart. Verse 41 sets it against hardening, with the same cause producing both."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "That he was not also a traitor to the freedom and cause of his country",
+   "verse_label": "v. 1",
+   "text": "Mormon reports the relief and repeats the accusation in the same clause. Alma 60:18 had made it, and the record retires it here.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 60:18",
+     "start": 73,
+     "end": 83,
+     "book": "Alma",
+     "chapter": 60,
+     "verse_start": 18,
+     "verse_end": 18
+    }
+   ]
+  },
+  {
+   "term": "He did raise the standard of liberty in whatsoever place he did enter",
+   "verse_label": "v. 4",
+   "text": "Moroni uses on his own countrymen what he first used against them in Alma 46. The march to Gideon doubles as a recruiting drive."
+  },
+  {
+   "term": "They were executed according to the law",
+   "verse_label": "v. 9",
+   "text": "Mormon states the procedure twice in one verse: trial according to the law, execution according to the law. The offense is named as refusing to defend the country and fighting against it."
+  },
+  {
+   "term": "Whosoever was found denying their freedom was speedily executed according to the law",
+   "verse_label": "v. 10",
+   "text": "The policy stated as a standing rule. Mormon calls it expedient for the safety of the country and gives no other justification."
+  },
+  {
+   "term": "They caused them to enter into a covenant that they would no more take up their weapons of war",
+   "verse_label": "v. 16",
+   "text": "Four thousand captured Lamanites swear the oath the Anti-Nephi-Lehies took in Alma 24. The record treats the covenant as sufficient security for release."
+  },
+  {
+   "term": "Strong cords and ladders, to be let down from the top of the wall",
+   "verse_label": "v. 21",
+   "text": "The equipment for taking Nephihah. Moroni had scouted the camp himself the night before and knew the western quarter was empty."
+  },
+  {
+   "term": "Without the loss of one soul",
+   "verse_label": "v. 26",
+   "text": "The city Moroni had grieved over in Alma 59:11 comes back at no Nephite cost. Mormon adds that many Lamanites were slain.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 59:11",
+     "start": 36,
+     "end": 46,
+     "book": "Alma",
+     "chapter": 59,
+     "verse_start": 11,
+     "verse_end": 11
+    }
+   ]
+  },
+  {
+   "term": "Desirous to join the people of Ammon and become a free people",
+   "verse_label": "v. 27",
+   "text": "Prisoners of war ask for the terms the Anti-Nephi-Lehies received. Verse 29 has them tilling ground and raising flocks, and relieving the Nephites of a burden."
+  },
+  {
+   "term": "Teancum in his anger did go forth into the camp of the Lamanites",
+   "verse_label": "v. 36",
+   "text": "The last stratagem of the war, and the only one Mormon attributes to anger. Verse 35 names the anger's cause before the raid begins."
+  },
+  {
+   "term": "Many had become hardened... and many were softened because of their afflictions",
+   "verse_label": "v. 41",
+   "text": "Mormon's summary of what the war did to the people. One length of war, one set of afflictions, and two results."
+  },
+  {
+   "term": "They were not lifted up in the pride of their eyes",
+   "verse_label": "v. 49",
+   "text": "The verse that measures the recovery. Riches, strength, and prosperity return, and Mormon says what did not come with them."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–11",
+   "start": 1,
+   "end": 11,
+   "title": "The rebellion put down",
+   "text": "Moroni takes courage at Pahoran's letter and mourns for the rebels. He marches to Gideon with a small force, raising the standard of liberty and gathering thousands. United with Pahoran, they take Zarahemla, kill Pachus, and restore the judgment-seat. The men of Pachus and the imprisoned king-men are tried and executed under the law, and the thirtieth year ends in peace at home."
+  },
+  {
+   "label": "v. 12–18",
+   "start": 12,
+   "end": 18,
+   "title": "Supply and the march to Nephihah",
+   "text": "Six thousand men and provisions go to Helaman, and six thousand more to Lehi and Teancum. Moroni and Pahoran march for Nephihah, capture a large Lamanite force on the way, take their covenant not to fight again, and send four thousand of them to the people of Ammon."
+  },
+  {
+   "label": "v. 19–26",
+   "start": 19,
+   "end": 26,
+   "title": "Nephihah taken by night",
+   "text": "The Lamanites refuse open battle on the plains. Moroni climbs the wall in the dark and finds them camped on the east. He prepares cords and ladders and lowers his whole army into the western quarter. At dawn the Lamanites find the city held and flee through the pass, and Nephihah is regained without the loss of one soul."
+  },
+  {
+   "label": "v. 27–33",
+   "start": 27,
+   "end": 33,
+   "title": "Prisoners and pursuit",
+   "text": "Lamanite prisoners ask to join the people of Ammon and are granted it, and they take up farming, which relieves the Nephites of guarding them. Moroni marches on the land of Lehi, drives the Lamanites from city to city into the arms of Lehi and Teancum, and the whole Lamanite force gathers in the land of Moroni with Ammoron."
+  },
+  {
+   "label": "v. 34–39",
+   "start": 34,
+   "end": 39,
+   "title": "Teancum's raid and the end of the war",
+   "text": "The armies encamp and, exhausted, plan nothing for the night except Teancum. Angry at Ammoron and Amalickiah for the whole war, he goes over the wall by cord, finds the king, and casts a javelin near his heart. Ammoron wakes his servants before dying and they kill Teancum. Lehi and Moroni mourn him. The next morning Moroni drives the Lamanites out of the land, and the thirty-first year ends."
+  },
+  {
+   "label": "v. 40–47",
+   "start": 40,
+   "end": 47,
+   "title": "The reckoning and the church",
+   "text": "Mormon lists the murders, contentions, and dissensions, and says the people were spared for the prayers of the righteous. The length of the war had hardened many and humbled many. Moroni fortifies the exposed borders, returns to Zarahemla, and gives command to his son Moronihah. Pahoran returns to the judgment-seat, Helaman preaches, the church is established again, and judges are chosen."
+  },
+  {
+   "label": "v. 48–52",
+   "start": 48,
+   "end": 52,
+   "title": "Prosperity without pride",
+   "text": "The people multiply, grow strong, and grow rich. They are not lifted up, nor slow to remember God. They recall the deliverances, pray continually, and prosper. Helaman dies in the thirty-fifth year."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "Two wars end in one chapter",
+   "text": "The civil war closes at verse 11 and the Lamanite war at verse 38. Mormon spends eleven verses on the first and twenty-seven on the second."
+  },
+  {
+   "n": 2,
+   "title": "The executions are placed inside the law",
+   "text": "Verses 9 and 10 name the trial, the statute, and the offense. Mormon reports the deaths as a legal outcome and calls the policy expedient for safety."
+  },
+  {
+   "n": 3,
+   "title": "The covenant is treated as security",
+   "text": "Four thousand armed enemies are released on an oath in verse 16. The record has been building that precedent since Alma 24 and Alma 44."
+  },
+  {
+   "n": 4,
+   "title": "Prisoners become a labor force by their own request",
+   "text": "Verses 27 through 29 have them asking for the terms and then farming. Mormon notes what this saved the Nephites."
+  },
+  {
+   "n": 5,
+   "title": "Nephihah is taken by reconnaissance",
+   "text": "Moroni scouts the wall himself in verse 20. The operation costs no Nephite life and turns on knowing where the enemy slept."
+  },
+  {
+   "n": 6,
+   "title": "Teancum's death is reported without praise for the method",
+   "text": "Verse 35 gives anger as the motive, verse 36 gives the failure, and verse 37 praises the man for valor and friendship to liberty."
+  },
+  {
+   "n": 7,
+   "title": "The same war produced two kinds of people",
+   "text": "Verse 41 puts hardening and humbling side by side with one cause. Mormon offers no ratio and no explanation."
+  },
+  {
+   "n": 8,
+   "title": "The recovery is described by what did not happen",
+   "text": "Verses 48 through 51 report riches and strength, then say the people were not lifted up and not slow to remember. Helaman 3 will report the other outcome a generation later."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Drop the accusation once it is answered",
+    "verse_label": "v. 1",
+    "text": "Moroni's response to the truth was joy, and the record never returns to the charge. When you were wrong about someone, close it fully."
+   },
+   {
+    "title": "Keep the procedure when the stakes are highest",
+    "verse_label": "v. 9",
+    "text": "The men who had nearly cost the country the war still received trials. Emergency is the moment process is most likely to be skipped and most needed."
+   },
+   {
+    "title": "Scout before you commit",
+    "verse_label": "v. 20–21",
+    "text": "Moroni went up the wall himself to see where the enemy slept, and the assault cost nothing. An hour of looking can replace a battle."
+   },
+   {
+    "title": "Give people a way back in",
+    "verse_label": "v. 27–29",
+    "text": "Four thousand prisoners asked to become a free people and were granted it, and the burden of guarding them disappeared. Terms that let an opponent join you can cost less than holding them."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What accusation of mine is still standing after the facts came in?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What am I raising in every place I go?"
+   },
+   {
+    "verse_label": "v. 10",
+    "start": 10,
+    "end": 10,
+    "text": "Where have I let urgency talk me out of due process?"
+   },
+   {
+    "verse_label": "v. 16",
+    "start": 16,
+    "end": 16,
+    "text": "Whose word have I decided I can accept?"
+   },
+   {
+    "verse_label": "v. 20",
+    "start": 20,
+    "end": 20,
+    "text": "What am I about to commit to without having looked?"
+   },
+   {
+    "verse_label": "v. 36",
+    "start": 36,
+    "end": 36,
+    "text": "What has my anger sent me out to do alone?"
+   },
+   {
+    "verse_label": "v. 41",
+    "start": 41,
+    "end": 41,
+    "text": "The same year hardened some and humbled others. Which has it done to me?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al62-001",
+   "scope": "BOOK",
+   "head": "Alma 60:18",
+   "anchor": {
+    "verse": 1,
+    "w1": 32,
+    "w2": 46,
+    "quote": "that he was not also a traitor to the freedom and cause of his country"
+   },
+   "reason": "the accusation this verse retires, made as an admission of ignorance",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 60,
+     "verse": 18,
+     "w1": 22,
+     "w2": 33,
+     "quote": "We know not but what ye are also traitors to your country.",
+     "verse_text": "But why should I say much concerning this matter? For we know not but what ye yourselves are seeking for authority. We know not but what ye are also traitors to your country.",
+     "markdown": "But why should I say much concerning this matter? For we know not but what ye yourselves are seeking for authority. **We know not but what ye are also traitors to your country**.",
+     "span": true
+    }
+   ],
+   "mirror": "al60-005"
+  },
+  {
+   "id": "al62-002",
+   "scope": "BOOK",
+   "head": "Alma 46:36",
+   "anchor": {
+    "verse": 4,
+    "w1": 2,
+    "w2": 14,
+    "quote": "he did raise the standard of liberty in whatsoever place he did enter"
+   },
+   "reason": "the standard first planted, on every tower in the land",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 46,
+     "verse": 36,
+     "w1": 33,
+     "w2": 42,
+     "quote": "thus Moroni planted the standard of liberty among the Nephites.",
+     "verse_text": "And it came to pass also, that he caused the title of liberty to be hoisted upon every tower which was in all the land, which was possessed by the Nephites; and thus Moroni planted the standard of liberty among the Nephites.",
+     "markdown": "And it came to pass also, that he caused the title of liberty to be hoisted upon every tower which was in all the land, which was possessed by the Nephites; and **thus Moroni planted the standard of liberty among the Nephites**.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al62-003",
+   "scope": "BOOK",
+   "head": "Alma 51:19",
+   "anchor": {
+    "verse": 9,
+    "w1": 15,
+    "w2": 24,
+    "quote": "those king-men who had been taken and cast into prison"
+   },
+   "reason": "the imprisonment, with the record noting there was no time for trials",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 51,
+     "verse": 19,
+     "w1": 22,
+     "w2": 37,
+     "quote": "those of their leaders who were not slain in battle were taken and cast into prison,",
+     "verse_text": "And it came to pass that there were four thousand of those dissenters who were hewn down by the sword; and those of their leaders who were not slain in battle were taken and cast into prison, for there was no time for their trials at this period.",
+     "markdown": "And it came to pass that there were four thousand of those dissenters who were hewn down by the sword; and **those of their leaders who were not slain in battle were taken and cast into prison**, for there was no time for their trials at this period.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al62-004",
+   "scope": "BOOK",
+   "head": "Alma 24:19",
+   "anchor": {
+    "verse": 16,
+    "w1": 17,
+    "w2": 32,
+    "quote": "a covenant that they would no more take up their weapons of war against the Nephites"
+   },
+   "reason": "the oath the Anti-Nephi-Lehies took when they buried their swords",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 24,
+     "verse": 19,
+     "w1": 36,
+     "w2": 50,
+     "quote": "they buried their weapons of peace, or they buried the weapons of war, for peace.",
+     "verse_text": "And thus we see that, when these Lamanites were brought to believe and to know the truth, they were firm, and would suffer even unto death rather than commit sin; and thus we see that they buried their weapons of peace, or they buried the weapons of war, for peace.",
+     "markdown": "And thus we see that, when these Lamanites were brought to believe and to know the truth, they were firm, and would suffer even unto death rather than commit sin; and thus we see that **they buried their weapons of peace, or they buried the weapons of war, for peace**.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al62-005",
+   "scope": "BOOK",
+   "head": "Alma 27:26",
+   "anchor": {
+    "verse": 17,
+    "w1": 9,
+    "w2": 18,
+    "quote": "they sent them to dwell with the people of Ammon"
+   },
+   "reason": "the people who received the name, settled in Jershon",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 27,
+     "verse": 26,
+     "w1": 32,
+     "w2": 41,
+     "quote": "they were called by the Nephites the people of Ammon;",
+     "verse_text": "And it came to pass that it did cause great joy among them. And they went down into the land of Jershon, and took possession of the land of Jershon; and they were called by the Nephites the people of Ammon; therefore they were distinguished by that name ever after.",
+     "markdown": "And it came to pass that it did cause great joy among them. And they went down into the land of Jershon, and took possession of the land of Jershon; and **they were called by the Nephites the people of Ammon**; therefore they were distinguished by that name ever after.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al62-006",
+   "scope": "BOOK",
+   "head": "Alma 59:11",
+   "anchor": {
+    "verse": 26,
+    "w1": 6,
+    "w2": 19,
+    "quote": "obtained the possession of the city of Nephihah without the loss of one soul"
+   },
+   "reason": "the loss of the city, and the grief and doubt it caused",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 59,
+     "verse": 11,
+     "w1": 3,
+     "w2": 16,
+     "quote": "when Moroni saw that the city of Nephihah was lost he was exceedingly sorrowful,",
+     "verse_text": "And now, when Moroni saw that the city of Nephihah was lost he was exceedingly sorrowful, and began to doubt, because of the wickedness of the people, whether they should not fall into the hands of their brethren.",
+     "markdown": "And now, **when Moroni saw that the city of Nephihah was lost he was exceedingly sorrowful**, and began to doubt, because of the wickedness of the people, whether they should not fall into the hands of their brethren.",
+     "span": true
+    }
+   ],
+   "mirror": "al59-006"
+  },
+  {
+   "id": "al62-007",
+   "scope": "BOOK",
+   "head": "Alma 46:9",
+   "anchor": {
+    "verse": 35,
+    "w1": 53,
+    "w2": 67,
+    "quote": "Ammoron, and Amalickiah his brother, had been the cause of this great and lasting war"
+   },
+   "reason": "the sentence Mormon wrote about Amalickiah sixteen chapters earlier",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 46,
+     "verse": 9,
+     "w1": 6,
+     "w2": 17,
+     "quote": "the great wickedness one very wicked man can cause to take place",
+     "verse_text": "Yea, and we also see the great wickedness one very wicked man can cause to take place among the children of men.",
+     "markdown": "Yea, and we also see **the great wickedness one very wicked man can cause to take place** among the children of men.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al62-008",
+   "scope": "BOOK",
+   "head": "Alma 51:34",
+   "anchor": {
+    "verse": 36,
+    "w1": 50,
+    "w2": 63,
+    "quote": "he did cast a javelin at him, which did pierce him near the heart"
+   },
+   "reason": "the same man, the same weapon, and the brother who died silently",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 51,
+     "verse": 34,
+     "w1": 7,
+     "w2": 22,
+     "quote": "Teancum stole privily into the tent of the king, and put a javelin to his heart;",
+     "verse_text": "And it came to pass that Teancum stole privily into the tent of the king, and put a javelin to his heart; and he did cause the death of the king immediately that he did not awake his servants.",
+     "markdown": "And it came to pass that **Teancum stole privily into the tent of the king, and put a javelin to his heart**; and he did cause the death of the king immediately that he did not awake his servants.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al62-009",
+   "scope": "BOM",
+   "head": "Hel. 3:33",
+   "anchor": {
+    "verse": 49,
+    "w1": 11,
+    "w2": 21,
+    "quote": "they were not lifted up in the pride of their eyes"
+   },
+   "reason": "the pride that returns a generation later, in a time of peace",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 3,
+     "verse": 33,
+     "w1": 21,
+     "w2": 29,
+     "quote": "the pride which began to enter into the church—not",
+     "verse_text": "And in the fifty and first year of the reign of the judges there was peace also, save it were the pride which began to enter into the church—not into the church of God, but into the hearts of the people who professed to belong to the church of God—",
+     "markdown": "And in the fifty and first year of the reign of the judges there was peace also, save it were **the pride which began to enter into the church—not** into the church of God, but into the hearts of the people who professed to belong to the church of God—",
+     "span": true
+    }
+   ],
+   "mirror": "hel03-007"
+  },
+  {
+   "id": "al62-010",
+   "scope": "SW",
+   "head": "Josh. 2:15",
+   "anchor": {
+    "verse": 21,
+    "w1": 35,
+    "w2": 48,
+    "quote": "strong cords and ladders, to be let down from the top of the wall"
+   },
+   "reason": "Rahab lowering the spies by a cord from a house on the town wall",
+   "targets": [
+    {
+     "ref": "Josh.",
+     "chapter": 2,
+     "verse": 15,
+     "w1": 2,
+     "w2": 11,
+     "quote": "she let them down by a cord through the window:",
+     "verse_text": "Then she let them down by a cord through the window: for her house was upon the town wall, and she dwelt upon the wall.",
+     "markdown": "Then **she let them down by a cord through the window**: for her house was upon the town wall, and she dwelt upon the wall.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 32,
+   "w2": 46,
+   "quote": "that he was not also a traitor to the freedom and cause of his country",
+   "entries": [
+    "al62-001"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 2,
+   "w2": 14,
+   "quote": "he did raise the standard of liberty in whatsoever place he did enter",
+   "entries": [
+    "al62-002"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 15,
+   "w2": 24,
+   "quote": "those king-men who had been taken and cast into prison",
+   "entries": [
+    "al62-003"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 17,
+   "w2": 32,
+   "quote": "a covenant that they would no more take up their weapons of war against the Nephites",
+   "entries": [
+    "al62-004"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 9,
+   "w2": 18,
+   "quote": "they sent them to dwell with the people of Ammon",
+   "entries": [
+    "al62-005"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 35,
+   "w2": 48,
+   "quote": "strong cords and ladders, to be let down from the top of the wall",
+   "entries": [
+    "al62-010"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 6,
+   "w2": 19,
+   "quote": "obtained the possession of the city of Nephihah without the loss of one soul",
+   "entries": [
+    "al62-006"
+   ]
+  },
+  {
+   "verse": 35,
+   "w1": 53,
+   "w2": 67,
+   "quote": "Ammoron, and Amalickiah his brother, had been the cause of this great and lasting war",
+   "entries": [
+    "al62-007"
+   ]
+  },
+  {
+   "verse": 36,
+   "w1": 50,
+   "w2": 63,
+   "quote": "he did cast a javelin at him, which did pierce him near the heart",
+   "entries": [
+    "al62-008"
+   ]
+  },
+  {
+   "verse": 49,
+   "w1": 11,
+   "w2": 21,
+   "quote": "they were not lifted up in the pride of their eyes",
+   "entries": [
+    "al62-009"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "fbf262ac001db333"
+ }
+}

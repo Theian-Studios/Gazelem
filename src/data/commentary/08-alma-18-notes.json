@@ -1,0 +1,576 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 18,
+  "volume_order": "08",
+  "speakers": [
+   "Ammon",
+   "King Lamoni"
+  ],
+  "audience": "King Lamoni and his servants",
+  "location": "The land of Ishmael",
+  "date": "~90 BC",
+  "unit": "The sons of Mosiah among the Lamanites (Alma 17–26)",
+  "principles": [
+   "Teaching from where the hearer stands",
+   "Service that testifies",
+   ""
+  ],
+  "connections": 5,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The servants testify first",
+   "text": "Verse 1 has the king calling them to stand forth and report what they saw. Ammon says nothing for twelve verses. The case is made by the people he defended. Refusing the marriage offer is what put him among them."
+  },
+  {
+   "n": 2,
+   "title": "The scattering was an industry",
+   "text": "Verse 7 explains the practice at Sebus: scatter the flocks, drive off what disperses, keep it. It was \"a practice of plunder among them\" (v. 7), and the king's habit of executing the servants who lost animals made it profitable and safe.",
+   "cites": [
+    {
+     "quote": "a practice of plunder among them",
+     "verse": 7,
+     "start": 102,
+     "end": 143,
+     "spans": [
+      {
+       "w1": 39,
+       "w2": 44,
+       "text": "a practice of plunder among them"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Lamoni already had a theology",
+   "text": "Verse 5 says the Great Spirit was his father's tradition, and that believing in one had not stopped the people supposing whatever they did was right. Ammon arrives to a man with a word for God and no content behind it."
+  },
+  {
+   "n": 4,
+   "title": "The king had been killing his own servants",
+   "text": "Verse 4 has him say so plainly: the Great Spirit came so that he might not slay these as he did their brethren. His first religious thought in the chapter is about the men he executed."
+  },
+  {
+   "n": 5,
+   "title": "Rabbanah is a Lamanite word the record translates",
+   "text": "Verse 13 supplies it with a gloss, powerful or great king. The book rarely stops to translate. It does so here for a title given to a servant by another servant, at the moment Ammon's standing changes."
+  },
+  {
+   "n": 6,
+   "title": "The hour of silence is measured",
+   "text": "Verse 14 says the king answered nothing \"for the space of an hour, according to their time\" (v. 14). The qualifier tells the reader the Lamanites kept hours and that the abridger knew his own were different.",
+   "cites": [
+    {
+     "quote": "for the space of an hour, according to their time",
+     "verse": 14,
+     "start": 40,
+     "end": 99,
+     "spans": [
+      {
+       "w1": 29,
+       "w2": 38,
+       "text": "for the space of an hour, according to their time"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "The teaching is a full course, compressed",
+   "text": "Verses 36 through 39 run from the creation and the fall through the records, the fathers' journeys, the rebellions of Laman and Lemuel, the plan of redemption and the coming of Christ. The record lists the syllabus and quotes none of it."
+  }
+ ],
+ "words": [
+  {
+   "term": "Rabbanah",
+   "verse_label": "v. 13",
+   "text": "A Lamanite title, given in their own language and then explained: \"Rabbanah, which is, being interpreted, powerful or great king\" (v. 13). It occurs nowhere else in scripture. A servant uses it of Ammon, who is also a servant, in front of the actual king. The record keeps the untranslated word and the gloss both. It does that when a term carries something the English will not.",
+   "cites": [
+    {
+     "quote": "Rabbanah, which is, being interpreted, powerful or great king",
+     "verse": 13,
+     "start": 66,
+     "end": 137,
+     "spans": [
+      {
+       "w1": 10,
+       "w2": 18,
+       "text": "Rabbanah, which is, being interpreted, powerful or great king"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Marvelings",
+   "verse_label": "v. 17",
+   "text": "Wonderings, taken as a plural noun. The form appears twice, both in this chapter, and never in the King James Bible. Ammon asks \"what is it, that thy marvelings are so great\" (v. 17), turning the king's astonishment into a countable thing he can ask about. The oddness of the plural is the point: there were several wonderings, and Ammon wants the list.",
+   "cites": [
+    {
+     "quote": "what is it, that thy marvelings are so great",
+     "verse": 17,
+     "start": 128,
+     "end": 182,
+     "spans": [
+      {
+       "w1": 5,
+       "w2": 13,
+       "text": "what is it, that thy marvelings are so great"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Harmless",
+   "verse_label": "v. 22",
+   "text": "Doing no injury. Ammon is called \"being wise, yet harmless\" (v. 22), very nearly the pairing Christ gives his own missionaries when he sends them as sheep among wolves, wise as serpents and harmless as doves. The word occurs once in this record. It arrives four verses after the man it describes cut off a row of arms.",
+   "cites": [
+    {
+     "quote": "being wise, yet harmless",
+     "verse": 22,
+     "start": 33,
+     "end": 67,
+     "spans": [
+      {
+       "w1": 3,
+       "w2": 6,
+       "text": "being wise, yet harmless"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Guile",
+   "verse_label": "v. 23",
+   "text": "Craft, cunning in getting what one wants. The verse says Lamoni \"was caught with guile\" (v. 23), and Paul uses the same construction of himself with the Corinthians. What Ammon actually did was ask a question and receive a promise, which the king gave freely. The record uses a word that sounds like trickery for a bargain struck in the open.",
+   "cites": [
+    {
+     "quote": "was caught with guile",
+     "verse": 23,
+     "start": 64,
+     "end": 95,
+     "spans": [
+      {
+       "w1": 18,
+       "w2": 21,
+       "text": "was caught with guile"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Travail",
+   "verse_label": "v. 37",
+   "text": "Hard labor, and in the King James Bible usually the labor of childbirth or of the soul. Here it belongs to the fathers in the wilderness, listed with hunger and thirst. Ammon is telling a Lamanite king the story of Lehi's journey, and he counts the suffering of the people this king's ancestors abandoned."
+  },
+  {
+   "term": "Expounded",
+   "verse_label": "v. 38",
+   "text": "To set out at length, to explain a text. Ammon \"expounded unto them all the records and scriptures\" (v. 38), and the verb governs the whole teaching section. It implies a text in hand and a listener being walked through it, a different activity from preaching.",
+   "cites": [
+    {
+     "quote": "expounded unto them all the records and scriptures",
+     "verse": 38,
+     "start": 47,
+     "end": 107,
+     "spans": [
+      {
+       "w1": 30,
+       "w2": 37,
+       "text": "expounded unto them all the records and scriptures"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Whether he be the Great Spirit or a man, we know not",
+   "verse_label": "v. 3",
+   "text": "The servants report the limit of their knowledge before reporting what they do know. It is careful testimony from frightened men, and the carefulness is what makes the rest credible to the king."
+  },
+  {
+   "term": "This was the tradition of Lamoni, which he had received from his father",
+   "verse_label": "v. 5",
+   "text": "The record explains the king's belief and its source in one line, then notes what the belief had failed to do. Tradition is the word this book uses for what the Lamanites inherited, and Alma 9 said the same thing about the same people from the other side of the border."
+  },
+  {
+   "term": "It being a practice of plunder among them",
+   "verse_label": "v. 7",
+   "text": "The record names the scam plainly. What looked like random violence at the water was a business with a method, and the king's own executions were part of what made it work."
+  },
+  {
+   "term": "Rabbanah, which is, being interpreted, powerful or great king",
+   "verse_label": "v. 13",
+   "text": "A servant addresses another servant with a royal title, in the king's hearing, and nobody corrects him. The gloss is supplied for the reader. What the moment establishes is that the household has already decided what Ammon is."
+  },
+  {
+   "term": "The king answered him not for the space of an hour",
+   "verse_label": "v. 14",
+   "text": "Ammon asks what he can do for the king, and gets an hour of nothing. The record measures it. Lamoni is not being rude; verse 14 says he did not know what to say. The chapter's pace stops dead while a man works out what he is facing."
+  },
+  {
+   "term": "Being wise, yet harmless",
+   "verse_label": "v. 22",
+   "text": "The narrator's assessment of Ammon at the moment he makes his one request. He asks Lamoni to hear him out before he explains anything, and the record labels the tactic as wisdom that does no harm."
+  },
+  {
+   "term": "I do not know what that meaneth",
+   "verse_label": "v. 25",
+   "text": "Lamoni's answer to whether he believes in God, and it is honest rather than hostile. He does not have the word. Ammon changes vocabulary instead of changing hearers, and asks about the Great Spirit instead."
+  },
+  {
+   "term": "This is God",
+   "verse_label": "v. 28",
+   "text": "Three words that carry the chapter. Ammon takes the term Lamoni already has and tells him it names the being Ammon is talking about. Everything after this is addition to a foundation the king brought with him."
+  },
+  {
+   "term": "He fell unto the earth, as if he were dead",
+   "verse_label": "v. 42",
+   "text": "The chapter ends mid-collapse. Lamoni has prayed for mercy on himself and his people, and then the record leaves him on the ground for two days. Nothing is explained until the next chapter."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–7",
+   "start": 1,
+   "end": 7,
+   "title": "The servants' report",
+   "text": "They testify to what they saw, and the king concludes the Great Spirit has come to stop him killing them. The record then explains the tradition behind his belief, the men he had already executed, and the plunder operation at the water."
+  },
+  {
+   "label": "v. 8–12",
+   "start": 8,
+   "end": 12,
+   "title": "Where is he",
+   "text": "The king asks after Ammon and is told he is feeding the horses, in obedience to an order given before any of this happened. The faithfulness astonishes Lamoni more than the fighting did. Ammon comes in, sees the king's face has changed, and turns to go."
+  },
+  {
+   "label": "v. 13–17",
+   "start": 13,
+   "end": 17,
+   "title": "Rabbanah",
+   "text": "A servant stops him with a royal title. Ammon asks what the king wants and gets an hour of silence, then asks again. Then he answers the unasked question by naming what the king is wondering about."
+  },
+  {
+   "label": "v. 18–23",
+   "start": 18,
+   "end": 23,
+   "title": "The bargain",
+   "text": "Lamoni asks who he is and gets a flat no. He offers wealth and an army. Ammon asks only that the king listen, and Lamoni promises to believe. The record calls this being caught with guile."
+  },
+  {
+   "label": "v. 24–32",
+   "start": 24,
+   "end": 32,
+   "title": "The catechism",
+   "text": "Believest thou there is a God: he does not know the word. Believest thou there is a Great Spirit: yes. This is God. Then creation, then the heavens, then a God who looks down and knows the thoughts of the heart."
+  },
+  {
+   "label": "v. 33–39",
+   "start": 33,
+   "end": 39,
+   "title": "The course",
+   "text": "Ammon says he is a man, made in God's image and called by the Spirit. Then the whole syllabus: creation, the fall, the records, the fathers' journeys and sufferings, the rebellions of Laman and Lemuel, the plan of redemption, the coming of Christ."
+  },
+  {
+   "label": "v. 40–43",
+   "start": 40,
+   "end": 43,
+   "title": "Belief, and collapse",
+   "text": "The king believes it all, prays for mercy for himself and his people on the pattern of mercy shown to the Nephites, and falls as if dead. His household carries him to a bed and mourns for two days."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "Ammon says nothing for twelve verses",
+   "text": "The chapter opens with other people testifying about him. His labor with the flocks and the horses argues first, and he begins speaking only when a servant fetches him. The order is the method."
+  },
+  {
+   "n": 2,
+   "title": "The horses matter more than the arms",
+   "text": "Verse 10 says the king marveled more at Ammon preparing the chariots than at the fighting, because the order predated the crisis. Routine obedience where nobody was watching is what actually moves him."
+  },
+  {
+   "n": 3,
+   "title": "The teaching starts inside the hearer's vocabulary",
+   "text": "Lamoni does not know what God means and does know what the Great Spirit means. Ammon does not correct the term or explain why it is inadequate. He says this is God, and builds from there."
+  },
+  {
+   "n": 4,
+   "title": "Belief is assembled in pieces",
+   "text": "Creation of the earth, yes; heavens, unknown. Ammon supplies the heavens, then who is in them, then what he sees and knows. Each answer becomes the ground for the next question, and no step is skipped."
+  },
+  {
+   "n": 5,
+   "title": "The record calls a fair bargain guile",
+   "text": "Ammon asked for a hearing and got a promise, in the open, with the king's consent. The word guile puts a reader on alert and the facts do not support suspicion. Paul described his own conduct the same way."
+  },
+  {
+   "n": 6,
+   "title": "The syllabus is listed and the sermon is withheld",
+   "text": "Four verses name everything Ammon taught and quote none of it. The record has given this material at length elsewhere and here spends its space on the man hearing it."
+  },
+  {
+   "n": 7,
+   "title": "The king's prayer is for his people before it is finished",
+   "text": "Lamoni asks mercy on himself and on his people in the same sentence, citing the mercy shown to Nephites as the precedent. His first act as a believer is intercession for a nation."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Do the thing you were told before the crisis",
+    "verse_label": "v. 9–10",
+    "text": "Ammon was feeding the horses because of an order given earlier, and that is what the king could not get past. Identify the standing instruction in your life that nobody is currently checking, and go do it today."
+   },
+   {
+    "title": "Change your vocabulary, not your audience",
+    "verse_label": "v. 25–28",
+    "text": "When Lamoni did not know the word, Ammon reached for one he had. Before deciding someone is not interested, check whether they are simply missing a term you could replace."
+   },
+   {
+    "title": "Ask for the hearing first",
+    "verse_label": "v. 22–23",
+    "text": "Ammon's one request was that the king listen to the end. Where you have something hard to say, ask for the whole hearing up front rather than trying to hold attention sentence by sentence."
+   },
+   {
+    "title": "Let the silence run",
+    "verse_label": "v. 14",
+    "text": "An hour passed and Ammon asked again rather than filling it. When someone has gone quiet because they are working something out, the useful move is usually to wait and then repeat the question."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "When I testify about something I saw, do I mark clearly where my knowledge stops?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "What do I believe that has never yet changed what I think is permissible?"
+   },
+   {
+    "verse_label": "v. 10",
+    "start": 10,
+    "end": 10,
+    "text": "What would someone find me doing if they came looking for me right now, and what would it tell them?"
+   },
+   {
+    "verse_label": "v. 14",
+    "start": 14,
+    "end": 14,
+    "text": "When did I last let a silence last as long as it needed to?"
+   },
+   {
+    "verse_label": "v. 25",
+    "start": 25,
+    "end": 25,
+    "text": "What have I dismissed as unbelief in someone that was actually just an unfamiliar word?"
+   },
+   {
+    "verse_label": "v. 34",
+    "start": 34,
+    "end": 34,
+    "text": "Ammon answers \"who are you\" with \"I am a man.\" What would I have said, and why?"
+   },
+   {
+    "verse_label": "v. 41",
+    "start": 41,
+    "end": 41,
+    "text": "When I finally ask for mercy, whom else do I ask it for?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al18-001",
+   "scope": "BOOK",
+   "head": "Alma 17:25",
+   "anchor": {
+    "verse": 9,
+    "w1": 7,
+    "w2": 11,
+    "quote": "he is feeding thy horses"
+   },
+   "reason": "the servant’s post, kept",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 17,
+     "verse": 25,
+     "w1": 8,
+     "w2": 12,
+     "quote": "I will be thy servant.",
+     "verse_text": "But Ammon said unto him: Nay, but I will be thy servant. Therefore Ammon became a servant to king Lamoni. And it came to pass that he was set among other servants to watch the flocks of Lamoni, according to the custom of the Lamanites.",
+     "markdown": "But Ammon said unto him: Nay, but **I will be thy servant**. Therefore Ammon became a servant to king Lamoni. And it came to pass that he was set among other servants to watch the flocks of Lamoni, according to the custom of the Lamanites.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al18-002",
+   "scope": "BOOK",
+   "head": "Alma 22:7",
+   "anchor": {
+    "verse": 24,
+    "w1": 14,
+    "w2": 20,
+    "quote": "Believest thou that there is a God"
+   },
+   "reason": "the same question, asked of the father",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 22,
+     "verse": 7,
+     "w1": 9,
+     "w2": 15,
+     "quote": "Believest thou that there is a God?",
+     "verse_text": "And Aaron answered him and said unto him: Believest thou that there is a God? And the king said: I know that the Amalekites say that there is a God, and I have granted unto them that they should build sanctuaries, that they may assemble themselves together to worship him. And if now thou sayest there is a God, behold I will believe.",
+     "markdown": "And Aaron answered him and said unto him: **Believest thou that there is a God**? And the king said: I know that the Amalekites say that there is a God, and I have granted unto them that they should build sanctuaries, that they may assemble themselves together to worship him. And if now thou sayest there is a God, behold I will believe.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al18-003",
+   "scope": "SW",
+   "head": "Matt. 10:16",
+   "anchor": {
+    "verse": 22,
+    "w1": 3,
+    "w2": 6,
+    "quote": "being wise, yet harmless"
+   },
+   "reason": "the pairing Christ sends men out with",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 10,
+     "verse": 16,
+     "w1": 16,
+     "w2": 22,
+     "quote": "wise as serpents, and harmless as doves.",
+     "verse_text": "Behold, I send you forth as sheep in the midst of wolves: be ye therefore wise as serpents, and harmless as doves.",
+     "markdown": "Behold, I send you forth as sheep in the midst of wolves: be ye therefore **wise as serpents, and harmless as doves**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al18-004",
+   "scope": "SW",
+   "head": "2 Cor. 12:16",
+   "anchor": {
+    "verse": 23,
+    "w1": 16,
+    "w2": 21,
+    "quote": "thus he was caught with guile"
+   },
+   "reason": "Paul’s own phrase for the same move",
+   "targets": [
+    {
+     "ref": "2 Cor.",
+     "chapter": 12,
+     "verse": 16,
+     "w1": 13,
+     "w2": 17,
+     "quote": "I caught you with guile.",
+     "verse_text": "But be it so, I did not burden you: nevertheless, being crafty, I caught you with guile.",
+     "markdown": "But be it so, I did not burden you: nevertheless, being crafty, **I caught you with guile**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al18-005",
+   "scope": "SW",
+   "head": "John 1:47",
+   "anchor": {
+    "verse": 23,
+    "w1": 16,
+    "w2": 21,
+    "quote": "thus he was caught with guile"
+   },
+   "reason": "the word at its plainest",
+   "targets": [
+    {
+     "ref": "John",
+     "chapter": 1,
+     "verse": 47,
+     "w1": 15,
+     "w2": 19,
+     "quote": "in whom is no guile!",
+     "verse_text": "Jesus saw Nathanael coming to him, and saith of him, Behold an Israelite indeed, in whom is no guile!",
+     "markdown": "Jesus saw Nathanael coming to him, and saith of him, Behold an Israelite indeed, **in whom is no guile**!",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 9,
+   "w1": 7,
+   "w2": 11,
+   "quote": "he is feeding thy horses",
+   "entries": [
+    "al18-001"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 3,
+   "w2": 6,
+   "quote": "being wise, yet harmless",
+   "entries": [
+    "al18-003"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 16,
+   "w2": 21,
+   "quote": "thus he was caught with guile",
+   "entries": [
+    "al18-004",
+    "al18-005"
+   ]
+  },
+  {
+   "verse": 24,
+   "w1": 14,
+   "w2": 20,
+   "quote": "Believest thou that there is a God",
+   "entries": [
+    "al18-002"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "d856f808a1432273"
+ }
+}

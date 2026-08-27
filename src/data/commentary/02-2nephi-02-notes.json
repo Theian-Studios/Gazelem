@@ -17,7 +17,7 @@
    "Opposition",
    "Agency"
   ],
-  "connections": 11,
+  "connections": 12,
   "initial": false
  },
  "world_behind": [
@@ -56,10 +56,10 @@
   {
    "n": 2,
    "title": "A second firstborn",
-   "text": "\"my firstborn in the days of my tribulation\" (v. 1) is careful legal language: Laman remains firstborn of the house, Jacob is firstborn of the exile. The family's structure now has two lines of precedence, one of birth and one of the covenant journey, and the record will follow the second.",
+   "text": "\"My firstborn in the days of my tribulation\" (v. 1) is careful legal language: Laman remains firstborn of the house, Jacob is firstborn of the exile. The family's structure now has two lines of precedence, one of birth and one of the covenant journey, and the record will follow the second.",
    "cites": [
     {
-     "quote": "my firstborn in the days of my tribulation",
+     "quote": "My firstborn in the days of my tribulation",
      "verse": 1,
      "start": 0,
      "end": 51,
@@ -67,7 +67,7 @@
       {
        "w1": 10,
        "w2": 17,
-       "text": "my firstborn in the days of my tribulation"
+       "text": "My firstborn in the days of my tribulation"
       }
      ]
     }
@@ -76,10 +76,10 @@
   {
    "n": 3,
    "title": "Grace and truth, before John",
-   "text": "\"full of grace and truth\" (v. 6) is the phrase John's prologue will fix to the Word made flesh; its ancestry runs to Sinai, where the Lord self-describes as abundant in goodness and truth (Ex. 34:6). Lehi's Messiah carries the covenant God's own attribute pair.",
+   "text": "\"Full of grace and truth\" (v. 6) is the phrase John's prologue will fix to the Word made flesh; its ancestry runs to Sinai, where the Lord self-describes as abundant in goodness and truth (Ex. 34:6). Lehi's Messiah carries the covenant God's own attribute pair.",
    "cites": [
     {
-     "quote": "full of grace and truth",
+     "quote": "Full of grace and truth",
      "verse": 6,
      "start": 0,
      "end": 32,
@@ -87,7 +87,7 @@
       {
        "w1": 13,
        "w2": 17,
-       "text": "full of grace and truth"
+       "text": "Full of grace and truth"
       }
      ]
     }
@@ -108,10 +108,10 @@
   {
    "n": 4,
    "title": "The preacher cites his sources",
-   "text": "\"according to the things which I have read\" (v. 17), \"according to that which is written\" (v. 17): Lehi's account of the fallen angel is presented as brass-plates exegesis, and Isaiah's taunt over the fallen day-star (Isa. 14:12) is the surviving text that best matches his reading.",
+   "text": "\"According to the things which I have read\" (v. 17), \"according to that which is written\" (v. 17): Lehi's account of the fallen angel is presented as brass-plates exegesis, and Isaiah's taunt over the fallen day-star (Isa. 14:12) is the surviving text that best matches his reading.",
    "cites": [
     {
-     "quote": "according to the things which I have read",
+     "quote": "According to the things which I have read",
      "verse": 17,
      "start": 0,
      "end": 51,
@@ -119,7 +119,7 @@
       {
        "w1": 4,
        "w2": 11,
-       "text": "according to the things which I have read"
+       "text": "According to the things which I have read"
       }
      ]
     },
@@ -205,12 +205,44 @@
  ],
  "words": [
   {
-   "term": "compound",
-   "verse_label": "v. 11",
-   "text": "\"all things must needs be a compound in one\" (v. 11): the argument's technical term for reality without contraries, a mixture so total nothing stands distinct from anything. Such a world, Lehi reasons, \"must needs remain as dead\" (v. 11): no difference, no motion, no purpose. The word gives the opposition doctrine its precise alternative, and it is oblivion.",
+   "term": "Affixed",
+   "verse_label": "v. 10",
+   "text": "A fastening word, and a legal one: a punishment is affixed to a law the way a seal is affixed to a document, so the two cannot travel separately. Lehi fastens happiness the same way in the same breath, \"which punishment that is affixed is in opposition to that of the happiness which is affixed\" (v. 10). Consequence here is attached in advance, at both ends. Alma will pick the word up for his own long argument about justice and mercy, where the punishment stands \"affixed opposite to the plan of happiness\" (Alma 42:16).",
    "cites": [
     {
-     "quote": "all things must needs be a compound in one",
+     "quote": "which punishment that is affixed is in opposition to that of the happiness which is affixed",
+     "verse": 10,
+     "start": 202,
+     "end": 303,
+     "spans": [
+      {
+       "w1": 57,
+       "w2": 72,
+       "text": "which punishment that is affixed is in opposition to that of the happiness which is affixed"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 42:16",
+     "start": 511,
+     "end": 521,
+     "book": "Alma",
+     "chapter": 42,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
+  },
+  {
+   "term": "Compound",
+   "verse_label": "v. 11",
+   "text": "\"All things must needs be a compound in one\" (v. 11): the argument's technical term for reality without contraries, a mixture so total nothing stands distinct from anything. Such a world, Lehi reasons, \"must needs remain as dead\" (v. 11): no difference, no motion, no purpose. The word gives the opposition doctrine its precise alternative, and it is oblivion.",
+   "cites": [
+    {
+     "quote": "All things must needs be a compound in one",
      "verse": 11,
      "start": 0,
      "end": 52,
@@ -218,7 +250,7 @@
       {
        "w1": 40,
        "w2": 48,
-       "text": "all things must needs be a compound in one"
+       "text": "All things must needs be a compound in one"
       }
      ]
     },
@@ -238,12 +270,12 @@
    ]
   },
   {
-   "term": "enticed",
+   "term": "Enticed",
    "verse_label": "v. 16",
-   "text": "\"man could not act for himself save it should be that he was enticed by the one or the other\" (v. 16): agency's strangest requirement. Freedom is not the absence of pulls but the presence of both; a soul drawn only one way is not choosing. The verse quietly dignifies temptation's existence as a condition of moral life, without excusing the tempter.",
+   "text": "\"Man could not act for himself save it should be that he was enticed by the one or the other\" (v. 16): agency's strangest requirement. Freedom is not the absence of pulls but the presence of both; a soul drawn only one way is not choosing. The verse quietly dignifies temptation's existence as a condition of moral life, without excusing the tempter.",
    "cites": [
     {
-     "quote": "man could not act for himself save it should be that he was enticed by the one or the other",
+     "quote": "Man could not act for himself save it should be that he was enticed by the one or the other",
      "verse": 16,
      "start": 0,
      "end": 101,
@@ -251,14 +283,14 @@
       {
        "w1": 15,
        "w2": 34,
-       "text": "man could not act for himself save it should be that he was enticed by the one or the other"
+       "text": "Man could not act for himself save it should be that he was enticed by the one or the other"
       }
      ]
     }
    ]
   },
   {
-   "term": "probation",
+   "term": "Probation",
    "verse_label": "v. 21",
    "text": "The testing-time word from the vision cycle (1 Ne. 10:21) returns with its mechanism: days \"prolonged\" (v. 21), time \"lengthened\" (v. 21), so \"that they might repent while in the flesh\" (v. 21). Lehi then dates himself by his own doctrine, speaking \"in the last days of my probation\" (v. 30): the teacher inside the test he is describing.",
    "cites": [
@@ -327,13 +359,45 @@
      "verse_end": 21
     }
    ]
+  },
+  {
+   "term": "Captivate",
+   "verse_label": "v. 29",
+   "text": "Nothing charming about it. To captivate is to take captive, and the verse means the older sense flatly: choosing by the will of the flesh gives the devil \"power to captivate, to bring you down to hell\" (v. 29). Two verses earlier the alternatives were liberty and captivity, so the closing warning is about ownership. Alma keeps the word in its hard sense when he sets \"the power and captivation of the devil\" (Alma 9:28) opposite the deliverance of Christ.",
+   "cites": [
+    {
+     "quote": "power to captivate, to bring you down to hell",
+     "verse": 29,
+     "start": 154,
+     "end": 209,
+     "spans": [
+      {
+       "w1": 26,
+       "w2": 34,
+       "text": "power to captivate, to bring you down to hell"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 9:28",
+     "start": 411,
+     "end": 420,
+     "book": "Alma",
+     "chapter": 9,
+     "verse_start": 28,
+     "verse_end": 28
+    }
+   ]
   }
  ],
  "phrases": [
   {
-   "term": "he shall consecrate thine afflictions for thy gain",
+   "term": "He shall consecrate thine afflictions for thy gain",
    "verse_label": "v. 2",
-   "text": "The blessing's thesis, delivered before any theology. Yesterday the verb was for land (2 Ne. 1:7, 32); today it is for wounds: to consecrate is to seize for sacred use, so what the brothers' rudeness cost Jacob will be employed, not merely repaid. The whole chapter then explains the machinery of such conversions: a Redeemer who turns a fall into the door of joy can turn a childhood's sorrow into gain.",
+   "text": "The blessing's thesis, delivered before any theology. Yesterday the verb was for land (2 Ne. 1:7, 32); today it is for wounds: to consecrate is to seize for sacred use, so what the brothers' rudeness cost Jacob will be employed for his gain. The whole chapter then explains the machinery of such conversions: a Redeemer who turns a fall into the door of joy can turn a childhood's sorrow into gain.",
    "refs": [
     {
      "kind": "scripture",
@@ -348,7 +412,7 @@
    ]
   },
   {
-   "term": "the ends of the law",
+   "term": "The ends of the law",
    "verse_label": "v. 7",
    "text": "Law in Lehi's argument has purposes, not just penalties, and only a sacrifice \"unto all those who have a broken heart and a contrite spirit\" (v. 7) can \"answer the ends of the law\" (v. 7). The atonement does not suspend the law; it satisfies what the law was for. Justice is answered, never overruled: the distinction powers every later atonement sermon in the record.",
    "cites": [
@@ -381,7 +445,7 @@
    ]
   },
   {
-   "term": "merits, and mercy, and grace",
+   "term": "Merits, and mercy, and grace",
    "verse_label": "v. 8",
    "text": "The record's formula for how anyone reaches God's presence: \"no flesh that can dwell in the presence of God, save it be through the merits, and mercy, and grace of the Holy Messiah\" (v. 8). Merits are his, not ours; the triple is deliberate and exclusive, and 2 Nephi 31 and Moroni will still be conjugating it at the record's far end.",
    "cites": [
@@ -401,9 +465,9 @@
    ]
   },
   {
-   "term": "opposition in all things",
+   "term": "Opposition in all things",
    "verse_label": "v. 11",
-   "text": "The chapter's coinage and the record's ground rule: \"it must needs be, that there is an opposition in all things\" (v. 11). Not a regrettable condition but a structural one; righteousness, happiness, even existence require a contrary to be actual. The doctrine reframes every hardship the family has logged since Jerusalem: the record's afflictions are load, not leak.",
+   "text": "The chapter's coinage and the record's ground rule: \"it must needs be, that there is an opposition in all things\" (v. 11). Not a regrettable condition but a structural one; righteousness, happiness, even existence require a contrary to be actual. The doctrine reframes every hardship the family has logged since Jerusalem: the record's afflictions belong to the structure.",
    "cites": [
     {
      "quote": "it must needs be, that there is an opposition in all things",
@@ -426,7 +490,7 @@
    "text": "Fourteen words that reverse a millennium of mourning over Eden. The fall is read as descent with a destination, and the destination is named: being, then joy. The record's whole account of God's purposes compresses into the verse's second clause, and no later writer improves on it."
   },
   {
-   "term": "free to choose liberty and eternal life",
+   "term": "Free to choose liberty and eternal life",
    "verse_label": "v. 27",
    "text": "Freedom's full statement, with its price tag visible: men are free \"according to the flesh\" (v. 27) because the Mediator redeemed them into it, and the choice is between packaged destinies, liberty-and-life \"through the great Mediator\" (v. 27) or captivity-and-death under one \"that all men might be miserable like unto himself\" (v. 27). The chapter refuses any smaller menu.",
    "cites": [
@@ -587,7 +651,7 @@
    "start": 9,
    "end": 10,
    "title": "Intercession, then judgment",
-   "text": "The Messiah is \"the firstfruits unto God\" (v. 9), making \"intercession for all the children of men\" (v. 9), and \"because of the intercession for all, all men come unto God\" (v. 10): back into the presence they were cut off from, to be judged \"according to the truth and holiness which is in him\" (v. 10). Universal resurrection and unavoidable judgment arrive in the same clause; the atonement guarantees the courtroom, not the verdict.",
+   "text": "The Messiah is \"the firstfruits unto God\" (v. 9), making \"intercession for all the children of men\" (v. 9), and \"because of the intercession for all, all men come unto God\" (v. 10): back into the presence they were cut off from, to be judged \"according to the truth and holiness which is in him\" (v. 10). Universal resurrection and unavoidable judgment arrive in the same clause; the atonement guarantees the courtroom.",
    "cites": [
     {
      "quote": "the firstfruits unto God",
@@ -879,27 +943,27 @@
   {
    "n": 1,
    "title": "A summit placed in a lap",
-   "text": "The record's deepest doctrinal chapter is not a treatise but a blessing, addressed to the son whose childhood absorbed the family's worst. Theology in this record answers wounds; the fall, the atonement, and opposition are explained to Jacob because Jacob needed them explained."
+   "text": "The record's deepest doctrinal chapter is a blessing, addressed to the son whose childhood absorbed the family's worst. Theology in this record answers wounds; the fall, the atonement, and opposition are explained to Jacob because Jacob needed them explained."
   },
   {
    "n": 2,
    "title": "Free salvation, real law",
-   "text": "The chapter holds both poles without blinking: no flesh justified by law, and the law's ends still answered, never waived. Grace in Lehi's teaching is not law's defeat but law's satisfaction, which is why the record can preach mercy for a thousand years without going soft on justice."
+   "text": "The chapter holds both poles without blinking: no flesh justified by law, and the law's ends still answered, never waived. Grace in Lehi's teaching is not law's defeat but law's satisfaction. That lets the record preach mercy for a thousand years without going soft on justice."
   },
   {
    "n": 3,
    "title": "Opposition is architecture",
-   "text": "Contraries are not the world's malfunction but its working design: no bitter, no sweet; no misery, no joy; no alternative, no act. The doctrine gives the record its standing answer to every why-affliction question it will ever raise, beginning with Jacob's own."
+   "text": "Contraries are the world's working design: no bitter, no sweet; no misery, no joy; no alternative, no act. The doctrine gives the record its standing answer to every why-affliction question it will ever raise, beginning with Jacob's own."
   },
   {
    "n": 4,
    "title": "Agency is engineered",
-   "text": "Three conditions, all supplied: sufficient instruction, a law in force, and enticement from both sides. Freedom in this chapter is not a default state men fall into but a built condition God maintains, at cost, including the cost of a permitted tempter."
+   "text": "Three conditions, all supplied: sufficient instruction, a law in force, and enticement from both sides. Freedom in this chapter is a built condition God maintains, at cost, including the cost of a permitted tempter."
   },
   {
    "n": 5,
    "title": "The cheerful fall",
-   "text": "Where exile readings mourn Eden, Lehi audits it: no fall, no family, no joy, no purpose. Verse 25 is the boldest revaluation in scripture, and the record earns it by the same logic that consecrates Jacob's afflictions: descent with a Redeemer attached is a route, not a ruin."
+   "text": "Where exile readings mourn Eden, Lehi audits it: no fall, no family, no joy, no purpose. Verse 25 is the boldest revaluation in scripture, and the record earns it by the same logic that consecrates Jacob's afflictions: descent with a Redeemer attached is a route."
   },
   {
    "n": 6,
@@ -915,7 +979,7 @@
  "world_in_front": {
   "applications": [
    {
-    "title": "Ask for the consecration, not just the relief",
+    "title": "Ask for the consecration",
     "verse_label": "v. 2",
     "text": "Take your oldest affliction and pray Lehi's grammar over it: not only \"take this away\" but \"employ this for my gain.\" Then watch for the employment; consecrated wounds tend to become credentials for someone else's rescue."
    },
@@ -927,7 +991,7 @@
    {
     "title": "Thank God for the other enticement",
     "verse_label": "v. 16",
-    "text": "When temptation is loud, remember the doctrine: a pull in one direction only would end your agency, not save it. Treat the contrary pull as evidence the system is working, then use the freedom it proves you have."
+    "text": "When temptation is loud, remember the doctrine: a pull in one direction only would end your agency. Treat the contrary pull as evidence the system is working, then use the freedom it proves you have."
    },
    {
     "title": "Run the vanishing test",
@@ -1003,7 +1067,9 @@
      "verse": 23,
      "w1": 9,
      "w2": 15,
-     "quote": "ye are free to act for yourselves",
+     "quote": "ye are free to act for yourselves—to",
+     "verse_text": "Therefore, cheer up your hearts, and remember that ye are free to act for yourselves—to choose the way of everlasting death or the way of eternal life.",
+     "markdown": "Therefore, cheer up your hearts, and remember that **ye are free to act for yourselves—to** choose the way of everlasting death or the way of eternal life.",
      "span": true
     }
    ],
@@ -1027,11 +1093,39 @@
      "verse": 32,
      "w1": 13,
      "w2": 21,
-     "quote": "my heart is broken and my spirit is contrite",
+     "quote": "my heart is broken and my spirit is contrite!",
+     "verse_text": "May the gates of hell be shut continually before me, because that my heart is broken and my spirit is contrite! O Lord, wilt thou not shut the gates of thy righteousness before me, that I may walk in the path of the low valley, that I may be strict in the plain road!",
+     "markdown": "May the gates of hell be shut continually before me, because that **my heart is broken and my spirit is contrite**! O Lord, wilt thou not shut the gates of thy righteousness before me, that I may walk in the path of the low valley, that I may be strict in the plain road!",
      "span": true
     }
    ],
    "mirror": "2ne04-003"
+  },
+  {
+   "id": "2ne02-012",
+   "scope": "BOM",
+   "head": "Mosiah 16:3",
+   "anchor": {
+    "verse": 18,
+    "w1": 27,
+    "w2": 41,
+    "quote": "even that old serpent, who is the devil, who is the father of all lies"
+   },
+   "reason": "Abinadi names the same serpent as the cause of the fall",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 16,
+     "verse": 3,
+     "w1": 16,
+     "w2": 24,
+     "quote": "that old serpent that did beguile our first parents,",
+     "verse_text": "For they are carnal and devilish, and the devil has power over them; yea, even that old serpent that did beguile our first parents, which was the cause of their fall; which was the cause of all mankind becoming carnal, sensual, devilish, knowing evil from good, subjecting themselves to the devil.",
+     "markdown": "For they are carnal and devilish, and the devil has power over them; yea, even **that old serpent that did beguile our first parents**, which was the cause of their fall; which was the cause of all mankind becoming carnal, sensual, devilish, knowing evil from good, subjecting themselves to the devil.",
+     "span": true
+    }
+   ],
+   "mirror": "mos16-008"
   },
   {
    "id": "2ne02-001",
@@ -1051,7 +1145,9 @@
      "verse": 18,
      "w1": 2,
      "w2": 9,
-     "quote": "he is the same yesterday, today, and forever",
+     "quote": "he is the same yesterday, today, and forever;",
+     "verse_text": "For he is the same yesterday, today, and forever; and the way is prepared for all men from the foundation of the world, if it so be that they repent and come unto him.",
+     "markdown": "For **he is the same yesterday, today, and forever**; and the way is prepared for all men from the foundation of the world, if it so be that they repent and come unto him.",
      "span": true
     }
    ],
@@ -1075,7 +1171,9 @@
      "verse": 9,
      "w1": 64,
      "w2": 70,
-     "quote": "they were lifted up unto exceeding rudeness",
+     "quote": "they were lifted up unto exceeding rudeness.",
+     "verse_text": "And after we had been driven forth before the wind for the space of many days, behold, my brethren and the sons of Ishmael and also their wives began to make themselves merry, insomuch that they began to dance, and to sing, and to speak with much rudeness, yea, even that they did forget by what power they had been brought thither; yea, they were lifted up unto exceeding rudeness.",
+     "markdown": "And after we had been driven forth before the wind for the space of many days, behold, my brethren and the sons of Ishmael and also their wives began to make themselves merry, insomuch that they began to dance, and to sing, and to speak with much rudeness, yea, even that they did forget by what power they had been brought thither; yea, **they were lifted up unto exceeding rudeness**.",
      "span": true
     }
    ],
@@ -1099,7 +1197,9 @@
      "verse": 30,
      "w1": 23,
      "w2": 32,
-     "quote": "ye are free; ye are permitted to act for yourselves",
+     "quote": "ye are free; ye are permitted to act for yourselves;",
+     "verse_text": "And now remember, remember, my brethren, that whosoever perisheth, perisheth unto himself; and whosoever doeth iniquity, doeth it unto himself; for behold, ye are free; ye are permitted to act for yourselves; for behold, God hath given unto you a knowledge and he hath made you free.",
+     "markdown": "And now remember, remember, my brethren, that whosoever perisheth, perisheth unto himself; and whosoever doeth iniquity, doeth it unto himself; for behold, **ye are free; ye are permitted to act for yourselves**; for behold, God hath given unto you a knowledge and he hath made you free.",
      "span": true
     }
    ],
@@ -1123,7 +1223,9 @@
      "verse": 14,
      "w1": 26,
      "w2": 30,
-     "quote": "full of grace and truth",
+     "quote": "full of grace and truth.",
+     "verse_text": "And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) full of grace and truth.",
+     "markdown": "And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) **full of grace and truth**.",
      "span": true
     }
    ],
@@ -1147,7 +1249,9 @@
      "verse": 17,
      "w1": 9,
      "w2": 20,
-     "quote": "a broken and a contrite heart, O God, thou wilt not despise",
+     "quote": "a broken and a contrite heart, O God, thou wilt not despise.",
+     "verse_text": "The sacrifices of God are a broken spirit: a broken and a contrite heart, O God, thou wilt not despise.",
+     "markdown": "The sacrifices of God are a broken spirit: **a broken and a contrite heart, O God, thou wilt not despise**.",
      "span": true
     },
     {
@@ -1156,7 +1260,9 @@
      "verse": 20,
      "w1": 2,
      "w2": 16,
-     "quote": "ye shall offer for a sacrifice unto me a broken heart and a contrite spirit",
+     "quote": "ye shall offer for a sacrifice unto me a broken heart and a contrite spirit.",
+     "verse_text": "And ye shall offer for a sacrifice unto me a broken heart and a contrite spirit. And whoso cometh unto me with a broken heart and a contrite spirit, him will I baptize with fire and with the Holy Ghost, even as the Lamanites, because of their faith in me at the time of their conversion, were baptized with fire and with the Holy Ghost, and they knew it not.",
+     "markdown": "And **ye shall offer for a sacrifice unto me a broken heart and a contrite spirit**. And whoso cometh unto me with a broken heart and a contrite spirit, him will I baptize with fire and with the Holy Ghost, even as the Lamanites, because of their faith in me at the time of their conversion, were baptized with fire and with the Holy Ghost, and they knew it not.",
      "span": true
     }
    ],
@@ -1180,7 +1286,9 @@
      "verse": 20,
      "w1": 10,
      "w2": 16,
-     "quote": "become the firstfruits of them that slept",
+     "quote": "become the firstfruits of them that slept.",
+     "verse_text": "But now is Christ risen from the dead, and become the firstfruits of them that slept.",
+     "markdown": "But now is Christ risen from the dead, and **become the firstfruits of them that slept**.",
      "span": true
     }
    ],
@@ -1204,7 +1312,9 @@
      "verse": 12,
      "w1": 1,
      "w2": 12,
-     "quote": "How art thou fallen from heaven, O Lucifer, son of the morning",
+     "quote": "How art thou fallen from heaven, O Lucifer, son of the morning!",
+     "verse_text": "How art thou fallen from heaven, O Lucifer, son of the morning! how art thou cut down to the ground, which didst weaken the nations!",
+     "markdown": "**How art thou fallen from heaven, O Lucifer, son of the morning**! how art thou cut down to the ground, which didst weaken the nations!",
      "span": true
     }
    ],
@@ -1228,7 +1338,9 @@
      "verse": 4,
      "w1": 8,
      "w2": 12,
-     "quote": "Ye shall not surely die",
+     "quote": "Ye shall not surely die:",
+     "verse_text": "And the serpent said unto the woman, Ye shall not surely die:",
+     "markdown": "And the serpent said unto the woman, **Ye shall not surely die**:",
      "span": true
     },
     {
@@ -1237,7 +1349,9 @@
      "verse": 5,
      "w1": 19,
      "w2": 27,
-     "quote": "ye shall be as gods, knowing good and evil",
+     "quote": "ye shall be as gods, knowing good and evil.",
+     "verse_text": "For God doth know that in the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil.",
+     "markdown": "For God doth know that in the day ye eat thereof, then your eyes shall be opened, and **ye shall be as gods, knowing good and evil**.",
      "span": true
     }
    ],
@@ -1261,7 +1375,9 @@
      "verse": 42,
      "w1": 7,
      "w2": 12,
-     "quote": "Mary hath chosen that good part",
+     "quote": "Mary hath chosen that good part,",
+     "verse_text": "But one thing is needful: and Mary hath chosen that good part, which shall not be taken away from her.",
+     "markdown": "But one thing is needful: and **Mary hath chosen that good part**, which shall not be taken away from her.",
      "span": true
     }
    ],
@@ -1326,6 +1442,15 @@
   },
   {
    "verse": 18,
+   "w1": 27,
+   "w2": 41,
+   "quote": "even that old serpent, who is the devil, who is the father of all lies",
+   "entries": [
+    "2ne02-012"
+   ]
+  },
+  {
+   "verse": 18,
    "w1": 51,
    "w2": 64,
    "quote": "ye shall not die, but ye shall be as God, knowing good and evil",
@@ -1362,7 +1487,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-18",
-  "source_sha256": "64c9f3badab9d71f"
+  "at": "2026-08-25",
+  "source_sha256": "ab28e9501b23742f"
  }
 }

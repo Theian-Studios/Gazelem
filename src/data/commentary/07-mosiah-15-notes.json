@@ -1,0 +1,1168 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Mosiah",
+  "book_slug": "mosiah",
+  "chapter": 15,
+  "volume_order": "07",
+  "speakers": [
+   "Abinadi"
+  ],
+  "audience": "King Noah and his priests",
+  "location": "The court of king Noah, in the land of Lehi-Nephi",
+  "date": "~148 BC (expounding Isaiah 52–53)",
+  "unit": "The record of Zeniff (Mosiah 7–24)",
+  "principles": [
+   "Condescension of God",
+   "Redemption",
+   "Belonging"
+  ],
+  "connections": 25,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The answer they asked for, three chapters late",
+   "text": "One of Noah's priests opened this whole exchange by quoting Isaiah 52:7–10 and asking what it meant. Abinadi replied with the law, then with Isaiah 53 entire, and only now gives the exposition. The delay is the structure: he refuses to explain the good news until the commandments and the suffering are on the table."
+  },
+  {
+   "n": 2,
+   "title": "A doctrine of the Son worked out in a colony",
+   "text": "These people had been cut off from Jerusalem for four centuries and from the rest of the Nephites for two generations. Abinadi speaks about the Father and the Son without citing a source. His terms are causal, and he gives them in a single sentence before moving on. He is unlikely to be repeating a formula anyone in the room had given him."
+  },
+  {
+   "n": 3,
+   "title": "What Isaiah's runner meant",
+   "text": "In Isaiah's setting a besieged city would learn its fate from a runner arriving over the hills, and the sight of him on the ridge was news before he spoke. Isaiah's line is about relief arriving. Abinadi keeps the image and multiplies the runners."
+  },
+  {
+   "n": 4,
+   "title": "Dying without descendants",
+   "text": "\"Who shall declare his generation\" asks about posterity, and posterity was largely how a name survived. The question in Isaiah 53:8 is a lament. Abinadi treats it as a genuine question and produces names."
+  },
+  {
+   "n": 5,
+   "title": "Justice as a courtroom",
+   "text": "The vocabulary at verses 8 and 9 is legal: standing betwixt, satisfying a demand, a claim that cannot be denied. The men listening ran a sacrificial system. The sermon describes redemption as a settlement."
+  },
+  {
+   "n": 6,
+   "title": "Little children, with no argument attached",
+   "text": "Verse 25 is a bare statement dropped into a passage about who is excluded. Nothing defends it and nothing follows from it here. Moroni will spend a whole letter arguing the same point four centuries later."
+  },
+  {
+   "n": 7,
+   "title": "Why we have any of this",
+   "text": "The court will condemn Abinadi within two chapters. One young priest named Alma believed him, was driven out, hid, and wrote down everything that had been said. The sermon survives because a man in the audience changed sides."
+  }
+ ],
+ "words": [
+  {
+   "term": "Subjected",
+   "verse_label": "v. 2",
+   "text": "Placed under, made to answer to. The word governs the whole passage: the flesh is subjected to the will of the Father at verse 2, the flesh becomes subject to the Spirit at verse 5, and subject even unto death at verse 7. Each step is voluntary, and the record uses a word that normally is not."
+  },
+  {
+   "term": "Conceived",
+   "verse_label": "v. 3",
+   "text": "Begotten, in the ordinary biological sense rather than the sense of forming an idea. It carries the entire weight of the definition: the title \"Father\" is grounded here on a cause. The next clause grounds \"Son\" on the flesh, in exactly the same form."
+  },
+  {
+   "term": "Intercession",
+   "verse_label": "v. 8",
+   "text": "Formal pleading on behalf of another, the act of a go-between with standing to speak. The Son is given power to make it after the resurrection and the ascension, not before. Whatever else the chapter claims, it puts the pleading on the far side of the death."
+  },
+  {
+   "term": "Seed",
+   "verse_label": "v. 10",
+   "text": "Offspring, descendants. Abinadi picks the word up from Isaiah, where it names the posterity the servant was said to have lost, and then asks four times who it refers to. The answer he gives is a list of people who were not born of him."
+  },
+  {
+   "term": "Founder",
+   "verse_label": "v. 18",
+   "text": "The one who establishes a thing, who gets it started. In this record the word almost always names the devil founding a church or founding murder. Here it names the Lord, and what he founds is peace."
+  },
+  {
+   "term": "Restoration",
+   "verse_label": "v. 24",
+   "text": "Putting a thing back, returning it to its owner or its condition. The verse applies it to people who died before Christ came \"in their ignorance, not having salvation declared unto them,\" which makes it a word about repair."
+  },
+  {
+   "term": "Wilfully",
+   "verse_label": "v. 26",
+   "text": "On purpose, with the will engaged. It is the hinge of the exclusion in verses 26 and 27, and it does a great deal of work: the people shut out are those who knew the commandments and would not keep them."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "God himself shall come down among the children of men",
+   "verse_label": "v. 1",
+   "text": "The sentence occurs once in scripture and it is where the whole sermon starts. Abinadi does not build to this claim; he opens with it and then spends four verses explaining how it can be said. \"I would that ye should understand\" is a request."
+  },
+  {
+   "term": "The very Eternal Father of heaven and of earth",
+   "verse_label": "v. 4",
+   "text": "Amulek will give Zeezrom this exact title, in nearly these words, when asked whether the Son of God is the very Eternal Father. Abinadi is answering a question nobody in the room asked, which suggests the question was in the air."
+  },
+  {
+   "term": "The will of the Son being swallowed up in the will of the Father",
+   "verse_label": "v. 7",
+   "text": "The phrase appears once in scripture. \"Swallowed up\" is total and it is also passive: the will is not surrendered or matched but absorbed. The verse puts it in the same breath as crucified and slain, so the absorption and the death arrive together."
+  },
+  {
+   "term": "Standing betwixt them and justice",
+   "verse_label": "v. 9",
+   "text": "A position rather than an action, and it is unique in scripture. The verse stacks participles (having ascended, having the bowels of mercy, being filled with compassion, standing, having broken, having redeemed), and only one of them describes where he is."
+  },
+  {
+   "term": "These are they whose sins he has borne",
+   "verse_label": "v. 12",
+   "text": "The clause Isaiah left open, closed with a definition. Isaiah 53:12 said he bore the sins of many without saying which many. Abinadi names them: those who heard the prophets and believed. The seed is defined by hearing rather than by descent."
+  },
+  {
+   "term": "How beautiful upon the mountains were their feet",
+   "verse_label": "v. 15",
+   "text": "Isaiah's present tense turned to past and applied to the prophets. The next two verses run the same line in the present and the future, so the image gets used three times in three tenses before it is finally used of one person."
+  },
+  {
+   "term": "Little children also have eternal life",
+   "verse_label": "v. 25",
+   "text": "Six words, no defence, no condition. It sits between a paragraph on who is restored and a paragraph on who is not, and it belongs to neither. The bare form is the point: nothing is required of the subject of this sentence."
+  },
+  {
+   "term": "He cannot deny himself",
+   "verse_label": "v. 27",
+   "text": "Paul writes the same clause to Timothy, and both use it of God's reliability. Abinadi's use is harder: the thing God cannot deny is justice with a claim on it. The sentence sets a limit."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–4",
+   "start": 1,
+   "end": 4,
+   "title": "Defined by cause",
+   "text": "Father because he was conceived by the power of God; Son because of the flesh; and the two are one God. Every clause explains a title by naming what produced it. Nothing here argues about substance or nature, and the passage is shorter than the question it answers."
+  },
+  {
+   "label": "v. 5–7",
+   "start": 5,
+   "end": 7,
+   "title": "Two wills, one of them absorbed",
+   "text": "The flesh yields to the Spirit, the Son to the Father, and the sequence ends with the will of the Son swallowed up. Between those two poles the verse lists what was endured: mocked, scourged, cast out, disowned. The disowning is by his own people and it is listed last."
+  },
+  {
+   "label": "v. 8–9",
+   "start": 8,
+   "end": 9,
+   "title": "Where he stands afterward",
+   "text": "Ascended, filled with compassion, and standing between people and a legal claim against them. The passage is a list of completed acts with one posture in the middle of it. He is described as occupying the space where the verdict would land."
+  },
+  {
+   "label": "v. 10–13",
+   "start": 10,
+   "end": 13,
+   "title": "Who the descendants are",
+   "text": "Abinadi asks the question four separate ways and then answers it: those who heard the prophets, believed the Lord would redeem, and looked forward for a remission. Then he adds the prophets themselves. A man about to die without children is given a family made of listeners."
+  },
+  {
+   "label": "v. 14–18",
+   "start": 14,
+   "end": 18,
+   "title": "Four sets of feet",
+   "text": "Those who published peace, those still publishing, those who will publish hereafter, and then the Lord himself. Isaiah's single runner becomes a relay across three tenses, and the last runner turns out to be the one who sent the others."
+  },
+  {
+   "label": "v. 24–27",
+   "start": 24,
+   "end": 27,
+   "title": "Ignorance and refusal",
+   "text": "Those who died without having salvation declared to them are restored. Those who knew and refused are not, and the reason given is constraint: justice has a claim and it cannot be denied. Between the two verses sits the sentence about little children."
+  },
+  {
+   "label": "v. 29–31",
+   "start": 29,
+   "end": 31,
+   "title": "Their own passage, handed back",
+   "text": "The sermon closes by reciting the three verses the priests had quoted at him. Almost nothing is changed. Having spent five chapters earning the right to say it, he says nothing new. He just says their words back, and now they mean something."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The exposition finally arrives",
+   "text": "A priest asked what Isaiah 52 meant. Between the question and this answer stand the ten commandments, a warning about salvation not coming by law alone, and the whole of Isaiah 53. Abinadi treats the question as premature rather than as illegitimate."
+  },
+  {
+   "n": 2,
+   "title": "It closes on the words it opened with",
+   "text": "Verses 29 through 31 are Isaiah 52:8–10, the exact three verses the priests quoted at Mosiah 12:22–24. Against the King James text the differences are punctuation and capitalization, plus two changes at verse 29. The sermon is a loop, and the closing move is to hand the text back.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 12:22–24",
+     "start": 86,
+     "end": 101,
+     "book": "Mosiah",
+     "chapter": 12,
+     "verse_start": 22,
+     "verse_end": 24
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Two changes in the recitation, and both are small",
+   "text": "\"Thy watchmen\" becomes \"Yea, Lord, thy watchmen,\" and \"the voice\" becomes \"their voice.\" The first converts Isaiah's description into an address. At the end of a sermon delivered to hostile judges, Abinadi turns and speaks to God instead."
+  },
+  {
+   "n": 4,
+   "title": "The rewrite at verse 18 is where the answer actually lands",
+   "text": "Isaiah's messenger \"that publisheth peace\" becomes \"the founder of peace, yea, even the Lord.\" The priests wanted to know who the beautiful feet belonged to. The answer, after three verses of prophets, is that they finally belong to the one the prophets were announcing."
+  },
+  {
+   "n": 5,
+   "title": "The seed question is asked four times",
+   "text": "Who shall declare his generation; he shall see his seed; who shall be his seed; are they not his seed. Repetition is doing the work of argument. Each pass adds a group: first hearers, then believers, then the prophets themselves."
+  },
+  {
+   "n": 6,
+   "title": "Two vocabularies, kept apart",
+   "text": "Verses 1 through 9 are legal: justice, demands, claim, intercession, standing between. Verses 14 through 18 are the language of a messenger arriving with news. The chapter moves from a courtroom to a hillside without pausing to connect them."
+  },
+  {
+   "n": 7,
+   "title": "Role in the unit",
+   "text": "The trial runs Mosiah 11 through 17: the charge, the law, Isaiah, this exposition, the consequences, the fire. Chapter 14 said what happened to the servant. This chapter says who he was and who he did it for, and it is this chapter that the king treats as the offence."
+  },
+  {
+   "n": 8,
+   "title": "The chapter does not stop at its own end",
+   "text": "Mosiah 16:1 begins \"after Abinadi had spoken these words he stretched forth his hand\" and keeps going with the same argument. The break here is a convenience; the sermon runs to the end of chapter 16.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 16:1",
+     "start": 0,
+     "end": 11,
+     "book": "Mosiah",
+     "chapter": 16,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Do not answer the good question first",
+    "verse_label": "v. 1",
+    "text": "Abinadi held the explanation back until the law and the suffering had been laid out. When someone asks you for the encouraging part, consider whether the answer will mean anything without what has to come before it."
+   },
+   {
+    "title": "Say what produced it",
+    "verse_label": "v. 3",
+    "text": "Father because of the conception, Son because of the flesh. When a term you use is contested, try saying what produced the thing rather than what the thing is."
+   },
+   {
+    "title": "Notice who counts as family",
+    "verse_label": "v. 11",
+    "text": "The list is people who heard, believed, and looked forward. Ask who would be on your list if belonging were defined by what someone hoped for rather than by where they came from."
+   },
+   {
+    "title": "Check who the severity is aimed at",
+    "verse_label": "v. 24",
+    "text": "Those who died without having it declared to them are restored. Whatever severity is in this chapter, it is aimed at knowing refusal. Check whether your own picture of who is in trouble matches that line."
+   },
+   {
+    "title": "Say the short thing without defending it",
+    "verse_label": "v. 25",
+    "text": "Little children also have eternal life. Some things are better stated than argued, and adding a defence can make a plain claim look uncertain."
+   },
+   {
+    "title": "Watch for the word \"wilfully\" (v. 26).",
+    "verse_label": null,
+    "text": "The exclusion turns on knowing the commandments and not keeping them. Audit whether you judge yourself by the first standard and others by the second."
+   },
+   {
+    "title": "Hand the words back",
+    "verse_label": "v. 29",
+    "text": "He ends by reciting their own quotation to them, unchanged. When you have earned a hearing, the most effective thing available may be to repeat what the other person already said, in a place where it now means something."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "What have I subjected to something else on purpose, and what did it cost?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "When have I stood between someone and a consequence they had coming?"
+   },
+   {
+    "verse_label": "v. 10",
+    "start": 10,
+    "end": 10,
+    "text": "If someone asked who my seed is, whose names would I say?"
+   },
+   {
+    "verse_label": "v. 16",
+    "start": 16,
+    "end": 16,
+    "text": "Am I among those still publishing, or only among those who once did?"
+   },
+   {
+    "verse_label": "v. 24",
+    "start": 24,
+    "end": 24,
+    "text": "Who am I quietly writing off for something they were never told?"
+   },
+   {
+    "verse_label": "v. 27",
+    "start": 27,
+    "end": 27,
+    "text": "What claim on me is just, and am I asking to have it denied?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "mos15-025",
+   "scope": "BOOK",
+   "head": "Mosiah 27:37",
+   "anchor": {
+    "verse": 17,
+    "w1": 9,
+    "w2": 17,
+    "quote": "the feet of those who shall hereafter publish peace"
+   },
+   "reason": "four former persecutors, given the description",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 27,
+     "verse": 37,
+     "w1": 7,
+     "w2": 17,
+     "quote": "they did publish peace; they did publish good tidings of good;",
+     "verse_text": "And how blessed are they! For they did publish peace; they did publish good tidings of good; and they did declare unto the people that the Lord reigneth.",
+     "markdown": "And how blessed are they! For **they did publish peace; they did publish good tidings of good**; and they did declare unto the people that the Lord reigneth.",
+     "span": true
+    }
+   ],
+   "mirror": "mos27-007"
+  },
+  {
+   "id": "mos15-024",
+   "scope": "BOOK",
+   "head": "Mosiah 18:30",
+   "anchor": {
+    "verse": 15,
+    "w1": 1,
+    "w2": 10,
+    "quote": "And O how beautiful upon the mountains were their feet"
+   },
+   "reason": "the phrase Alma later gives to a pool and a wood",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 18,
+     "verse": 30,
+     "w1": 43,
+     "w2": 60,
+     "quote": "how beautiful are they to the eyes of them who there came to the knowledge of their Redeemer;",
+     "verse_text": "And now it came to pass that all this was done in Mormon, yea, by the waters of Mormon, in the forest that was near the waters of Mormon; yea, the place of Mormon, the waters of Mormon, the forest of Mormon, how beautiful are they to the eyes of them who there came to the knowledge of their Redeemer; yea, and how blessed are they, for they shall sing to his praise forever.",
+     "markdown": "And now it came to pass that all this was done in Mormon, yea, by the waters of Mormon, in the forest that was near the waters of Mormon; yea, the place of Mormon, the waters of Mormon, the forest of Mormon, **how beautiful are they to the eyes of them who there came to the knowledge of their Redeemer**; yea, and how blessed are they, for they shall sing to his praise forever.",
+     "span": true
+    }
+   ],
+   "mirror": "mos18-005"
+  },
+  {
+   "id": "mos15-023",
+   "scope": "BOOK",
+   "head": "Mosiah 17:8",
+   "anchor": {
+    "verse": 1,
+    "w1": 14,
+    "w2": 23,
+    "quote": "God himself shall come down among the children of men"
+   },
+   "reason": "the sentence read back as the capital charge",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 17,
+     "verse": 8,
+     "w1": 2,
+     "w2": 15,
+     "quote": "thou hast said that God himself should come down among the children of men;",
+     "verse_text": "For thou hast said that God himself should come down among the children of men; and now, for this cause thou shalt be put to death unless thou wilt recall all the words which thou hast spoken evil concerning me and my people.",
+     "markdown": "For **thou hast said that God himself should come down among the children of men**; and now, for this cause thou shalt be put to death unless thou wilt recall all the words which thou hast spoken evil concerning me and my people.",
+     "span": true
+    }
+   ],
+   "mirror": "mos17-002"
+  },
+  {
+   "id": "mos15-014",
+   "scope": "BOOK",
+   "head": "Mosiah 18:9",
+   "anchor": {
+    "verse": 22,
+    "w1": 28,
+    "w2": 34,
+    "quote": "shall come forth in the first resurrection"
+   },
+   "reason": "the covenant Alma later offers at the waters of Mormon",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 18,
+     "verse": 9,
+     "w1": 55,
+     "w2": 62,
+     "quote": "be numbered with those of the first resurrection,",
+     "verse_text": "Yea, and are willing to mourn with those that mourn; yea, and comfort those that stand in need of comfort, and to stand as witnesses of God at all times and in all things, and in all places that ye may be in, even until death, that ye may be redeemed of God, and be numbered with those of the first resurrection, that ye may have eternal life—",
+     "markdown": "Yea, and are willing to mourn with those that mourn; yea, and comfort those that stand in need of comfort, and to stand as witnesses of God at all times and in all things, and in all places that ye may be in, even until death, that ye may be redeemed of God, and **be numbered with those of the first resurrection**, that ye may have eternal life—",
+     "span": true
+    }
+   ],
+   "mirror": "mos18-002"
+  },
+  {
+   "id": "mos15-008",
+   "scope": "BOOK",
+   "head": "Mosiah 16:15",
+   "anchor": {
+    "verse": 4,
+    "w1": 2,
+    "w2": 15,
+    "quote": "they are one God, yea, the very Eternal Father of heaven and of earth"
+   },
+   "reason": "the same title, at his closing sentence",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 16,
+     "verse": 15,
+     "w1": 7,
+     "w2": 15,
+     "quote": "Christ the Lord, who is the very Eternal Father.",
+     "verse_text": "Teach them that redemption cometh through Christ the Lord, who is the very Eternal Father. Amen.",
+     "markdown": "Teach them that redemption cometh through **Christ the Lord, who is the very Eternal Father**. Amen.",
+     "span": true
+    }
+   ],
+   "mirror": "mos16-002"
+  },
+  {
+   "id": "mos15-007",
+   "scope": "BOOK",
+   "head": "Mosiah 17:4",
+   "anchor": {
+    "verse": 1,
+    "w1": 14,
+    "w2": 23,
+    "quote": "God himself shall come down among the children of men"
+   },
+   "reason": "the young priest who wrote this sermon down",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 17,
+     "verse": 4,
+     "w1": 22,
+     "w2": 30,
+     "quote": "did write all the words which Abinadi had spoken.",
+     "verse_text": "But he fled from before them and hid himself that they found him not. And he being concealed for many days did write all the words which Abinadi had spoken.",
+     "markdown": "But he fled from before them and hid himself that they found him not. And he being concealed for many days **did write all the words which Abinadi had spoken**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos17-017"
+  },
+  {
+   "id": "mos15-006",
+   "scope": "BOOK",
+   "head": "Mosiah 16:1",
+   "anchor": {
+    "verse": 28,
+    "w1": 13,
+    "w2": 27,
+    "quote": "the salvation of the Lord shall be declared to every nation, kindred, tongue, and people"
+   },
+   "reason": "the sermon runs straight past the chapter break",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 16,
+     "verse": 1,
+     "w1": 35,
+     "w2": 45,
+     "quote": "every nation, kindred, tongue, and people shall see eye to eye",
+     "verse_text": "And now, it came to pass that after Abinadi had spoken these words he stretched forth his hand and said: The time shall come when all shall see the salvation of the Lord; when every nation, kindred, tongue, and people shall see eye to eye and shall confess before God that his judgments are just.",
+     "markdown": "And now, it came to pass that after Abinadi had spoken these words he stretched forth his hand and said: The time shall come when all shall see the salvation of the Lord; when **every nation, kindred, tongue, and people shall see eye to eye** and shall confess before God that his judgments are just.",
+     "span": true
+    }
+   ],
+   "mirror": "mos16-001"
+  },
+  {
+   "id": "mos15-005",
+   "scope": "BOOK",
+   "head": "Mosiah 12:21",
+   "anchor": {
+    "verse": 18,
+    "w1": 27,
+    "w2": 32,
+    "quote": "that is the founder of peace"
+   },
+   "reason": "the runner identified as the one who sent him",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 12,
+     "verse": 21,
+     "w1": 1,
+     "w2": 14,
+     "quote": "How beautiful upon the mountains are the feet of him that bringeth good tidings;",
+     "verse_text": "How beautiful upon the mountains are the feet of him that bringeth good tidings; that publisheth peace; that bringeth good tidings of good; that publisheth salvation; that saith unto Zion, Thy God reigneth;",
+     "markdown": "**How beautiful upon the mountains are the feet of him that bringeth good tidings**; that publisheth peace; that bringeth good tidings of good; that publisheth salvation; that saith unto Zion, Thy God reigneth;",
+     "span": true
+    }
+   ],
+   "mirror": "mos12-010"
+  },
+  {
+   "id": "mos15-004",
+   "scope": "BOOK",
+   "head": "Mosiah 14:12",
+   "anchor": {
+    "verse": 12,
+    "w1": 2,
+    "w2": 9,
+    "quote": "these are they whose sins he has borne"
+   },
+   "reason": "the many finally identified",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 14,
+     "verse": 12,
+     "w1": 37,
+     "w2": 42,
+     "quote": "he bore the sins of many,",
+     "verse_text": "Therefore will I divide him a portion with the great, and he shall divide the spoil with the strong; because he hath poured out his soul unto death; and he was numbered with the transgressors; and he bore the sins of many, and made intercession for the transgressors.",
+     "markdown": "Therefore will I divide him a portion with the great, and he shall divide the spoil with the strong; because he hath poured out his soul unto death; and he was numbered with the transgressors; and **he bore the sins of many**, and made intercession for the transgressors.",
+     "span": true
+    }
+   ],
+   "mirror": "mos14-005"
+  },
+  {
+   "id": "mos15-003",
+   "scope": "BOOK",
+   "head": "Mosiah 14:10",
+   "anchor": {
+    "verse": 10,
+    "w1": 18,
+    "w2": 32,
+    "quote": "when his soul has been made an offering for sin he shall see his seed"
+   },
+   "reason": "Isaiah's promise turned into a question about people",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 14,
+     "verse": 10,
+     "w1": 25,
+     "w2": 29,
+     "quote": "he shall see his seed,",
+     "verse_text": "Yet it pleased the Lord to bruise him; he hath put him to grief; when thou shalt make his soul an offering for sin he shall see his seed, he shall prolong his days, and the pleasure of the Lord shall prosper in his hand.",
+     "markdown": "Yet it pleased the Lord to bruise him; he hath put him to grief; when thou shalt make his soul an offering for sin **he shall see his seed**, he shall prolong his days, and the pleasure of the Lord shall prosper in his hand.",
+     "span": true
+    }
+   ],
+   "mirror": "mos14-004"
+  },
+  {
+   "id": "mos15-002",
+   "scope": "BOOK",
+   "head": "Mosiah 14:7",
+   "anchor": {
+    "verse": 6,
+    "w1": 24,
+    "w2": 37,
+    "quote": "as a sheep before the shearer is dumb, so he opened not his mouth"
+   },
+   "reason": "the one Isaiah line he quotes back verbatim",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 14,
+     "verse": 7,
+     "w1": 24,
+     "w2": 37,
+     "quote": "as a sheep before her shearers is dumb so he opened not his mouth.",
+     "verse_text": "He was oppressed, and he was afflicted, yet he opened not his mouth; he is brought as a lamb to the slaughter, and as a sheep before her shearers is dumb so he opened not his mouth.",
+     "markdown": "He was oppressed, and he was afflicted, yet he opened not his mouth; he is brought as a lamb to the slaughter, and **as a sheep before her shearers is dumb so he opened not his mouth**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos14-003"
+  },
+  {
+   "id": "mos15-001",
+   "scope": "BOOK",
+   "head": "Mosiah 12:24",
+   "anchor": {
+    "verse": 31,
+    "w1": 1,
+    "w2": 15,
+    "quote": "The Lord hath made bare his holy arm in the eyes of all the nations"
+   },
+   "reason": "the priests' own quotation, recited back",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 12,
+     "verse": 24,
+     "w1": 1,
+     "w2": 15,
+     "quote": "The Lord hath made bare his holy arm in the eyes of all the nations,",
+     "verse_text": "The Lord hath made bare his holy arm in the eyes of all the nations, and all the ends of the earth shall see the salvation of our God?",
+     "markdown": "**The Lord hath made bare his holy arm in the eyes of all the nations**, and all the ends of the earth shall see the salvation of our God?",
+     "span": true
+    }
+   ],
+   "mirror": "mos12-002"
+  },
+  {
+   "id": "mos15-013",
+   "scope": "BOM",
+   "head": "Alma 34:16",
+   "anchor": {
+    "verse": 9,
+    "w1": 19,
+    "w2": 23,
+    "quote": "standing betwixt them and justice"
+   },
+   "reason": "Amulek on the same demand and who answers it",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 34,
+     "verse": 16,
+     "w1": 6,
+     "w2": 9,
+     "quote": "the demands of justice,",
+     "verse_text": "And thus mercy can satisfy the demands of justice, and encircles them in the arms of safety, while he that exercises no faith unto repentance is exposed to the whole law of the demands of justice; therefore only unto him that has faith unto repentance is brought about the great and eternal plan of redemption.",
+     "markdown": "And thus mercy can satisfy **the demands of justice**, and encircles them in the arms of safety, while he that exercises no faith unto repentance is exposed to the whole law of the demands of justice; therefore only unto him that has faith unto repentance is brought about the great and eternal plan of redemption.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "mos15-012",
+   "scope": "BOM",
+   "head": "Moro. 8:12",
+   "anchor": {
+    "verse": 25,
+    "w1": 2,
+    "w2": 7,
+    "quote": "little children also have eternal life"
+   },
+   "reason": "the bare claim argued at length four centuries later",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 8,
+     "verse": 12,
+     "w1": 2,
+     "w2": 7,
+     "quote": "little children are alive in Christ,",
+     "verse_text": "But little children are alive in Christ, even from the foundation of the world; if not so, God is a partial God, and also a changeable God, and a respecter to persons; for how many little children have died without baptism!",
+     "markdown": "But **little children are alive in Christ**, even from the foundation of the world; if not so, God is a partial God, and also a changeable God, and a respecter to persons; for how many little children have died without baptism!",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "mos15-011",
+   "scope": "BOM",
+   "head": "Ether 3:14",
+   "anchor": {
+    "verse": 2,
+    "w1": 16,
+    "w2": 31,
+    "quote": "having subjected the flesh to the will of the Father, being the Father and the Son"
+   },
+   "reason": "the same pair of titles, spoken by Christ himself",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 3,
+     "verse": 14,
+     "w1": 23,
+     "w2": 29,
+     "quote": "I am the Father and the Son.",
+     "verse_text": "Behold, I am he who was prepared from the foundation of the world to redeem my people. Behold, I am Jesus Christ. I am the Father and the Son. In me shall all mankind have life, and that eternally, even they who shall believe on my name; and they shall become my sons and my daughters.",
+     "markdown": "Behold, I am he who was prepared from the foundation of the world to redeem my people. Behold, I am Jesus Christ. **I am the Father and the Son**. In me shall all mankind have life, and that eternally, even they who shall believe on my name; and they shall become my sons and my daughters.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "mos15-010",
+   "scope": "BOM",
+   "head": "2 Ne. 19:6",
+   "anchor": {
+    "verse": 4,
+    "w1": 2,
+    "w2": 15,
+    "quote": "they are one God, yea, the very Eternal Father of heaven and of earth"
+   },
+   "reason": "the Everlasting Father title argued out",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 19,
+     "verse": 6,
+     "w1": 28,
+     "w2": 39,
+     "quote": "Wonderful, Counselor, The Mighty God, The Everlasting Father, The Prince of Peace.",
+     "verse_text": "For unto us a child is born, unto us a son is given; and the government shall be upon his shoulder; and his name shall be called, Wonderful, Counselor, The Mighty God, The Everlasting Father, The Prince of Peace.",
+     "markdown": "For unto us a child is born, unto us a son is given; and the government shall be upon his shoulder; and his name shall be called, **Wonderful, Counselor, The Mighty God, The Everlasting Father, The Prince of Peace**.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne19-002"
+  },
+  {
+   "id": "mos15-009",
+   "scope": "BOM",
+   "head": "Alma 11:39",
+   "anchor": {
+    "verse": 4,
+    "w1": 2,
+    "w2": 15,
+    "quote": "they are one God, yea, the very Eternal Father of heaven and of earth"
+   },
+   "reason": "Amulek answers Zeezrom in nearly these words",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 11,
+     "verse": 39,
+     "w1": 7,
+     "w2": 17,
+     "quote": "he is the very Eternal Father of heaven and of earth,",
+     "verse_text": "And Amulek said unto him: Yea, he is the very Eternal Father of heaven and of earth, and all things which in them are; he is the beginning and the end, the first and the last;",
+     "markdown": "And Amulek said unto him: Yea, **he is the very Eternal Father of heaven and of earth**, and all things which in them are; he is the beginning and the end, the first and the last;",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "mos15-022",
+   "scope": "SW",
+   "head": "Heb. 7:25",
+   "anchor": {
+    "verse": 8,
+    "w1": 15,
+    "w2": 26,
+    "quote": "giving the Son power to make intercession for the children of men"
+   },
+   "reason": "intercession as the work of the risen one",
+   "targets": [
+    {
+     "ref": "Heb.",
+     "chapter": 7,
+     "verse": 25,
+     "w1": 19,
+     "w2": 26,
+     "quote": "he ever liveth to make intercession for them.",
+     "verse_text": "Wherefore he is able also to save them to the uttermost that come unto God by him, seeing he ever liveth to make intercession for them.",
+     "markdown": "Wherefore he is able also to save them to the uttermost that come unto God by him, seeing **he ever liveth to make intercession for them**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "mos15-021",
+   "scope": "SW",
+   "head": "Rev. 20:6",
+   "anchor": {
+    "verse": 21,
+    "w1": 4,
+    "w2": 9,
+    "quote": "a resurrection, even a first resurrection"
+   },
+   "reason": "the phrase in its other scriptural home",
+   "targets": [
+    {
+     "ref": "Rev.",
+     "chapter": 20,
+     "verse": 6,
+     "w1": 7,
+     "w2": 12,
+     "quote": "hath part in the first resurrection:",
+     "verse_text": "Blessed and holy is he that hath part in the first resurrection: on such the second death hath no power, but they shall be priests of God and of Christ, and shall reign with him a thousand years.",
+     "markdown": "Blessed and holy is he that **hath part in the first resurrection**: on such the second death hath no power, but they shall be priests of God and of Christ, and shall reign with him a thousand years.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "mos15-020",
+   "scope": "SW",
+   "head": "Heb. 2:13",
+   "anchor": {
+    "verse": 11,
+    "w1": 68,
+    "w2": 81,
+    "quote": "these are his seed, or they are the heirs of the kingdom of God"
+   },
+   "reason": "children given rather than begotten",
+   "targets": [
+    {
+     "ref": "Heb.",
+     "chapter": 2,
+     "verse": 13,
+     "w1": 12,
+     "w2": 21,
+     "quote": "Behold I and the children which God hath given me.",
+     "verse_text": "And again, I will put my trust in him. And again, Behold I and the children which God hath given me.",
+     "markdown": "And again, I will put my trust in him. And again, **Behold I and the children which God hath given me**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "mos15-019",
+   "scope": "SW",
+   "head": "2 Tim. 2:13",
+   "anchor": {
+    "verse": 27,
+    "w1": 28,
+    "w2": 31,
+    "quote": "he cannot deny himself"
+   },
+   "reason": "the same clause, used of reliability rather than limit",
+   "targets": [
+    {
+     "ref": "2 Tim.",
+     "chapter": 2,
+     "verse": 13,
+     "w1": 9,
+     "w2": 12,
+     "quote": "he cannot deny himself.",
+     "verse_text": "If we believe not, yet he abideth faithful: he cannot deny himself.",
+     "markdown": "If we believe not, yet he abideth faithful: **he cannot deny himself**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "mos15-018",
+   "scope": "SW",
+   "head": "Isa. 53:8",
+   "anchor": {
+    "verse": 10,
+    "w1": 18,
+    "w2": 32,
+    "quote": "when his soul has been made an offering for sin he shall see his seed"
+   },
+   "reason": "the lament taken as a question with an answer",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 53,
+     "verse": 8,
+     "w1": 10,
+     "w2": 14,
+     "quote": "who shall declare his generation?",
+     "verse_text": "He was taken from prison and from judgment: and who shall declare his generation? for he was cut off out of the land of the living: for the transgression of my people was he stricken.",
+     "markdown": "He was taken from prison and from judgment: and **who shall declare his generation**? for he was cut off out of the land of the living: for the transgression of my people was he stricken.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "mos15-017",
+   "scope": "SW",
+   "head": "Isa. 52:7",
+   "anchor": {
+    "verse": 18,
+    "w1": 27,
+    "w2": 32,
+    "quote": "that is the founder of peace"
+   },
+   "reason": "the messenger clause replaced with the sender",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 52,
+     "verse": 7,
+     "w1": 15,
+     "w2": 17,
+     "quote": "that publisheth peace;",
+     "verse_text": "How beautiful upon the mountains are the feet of him that bringeth good tidings, that publisheth peace; that bringeth good tidings of good, that publisheth salvation; that saith unto Zion, Thy God reigneth!",
+     "markdown": "How beautiful upon the mountains are the feet of him that bringeth good tidings, **that publisheth peace**; that bringeth good tidings of good, that publisheth salvation; that saith unto Zion, Thy God reigneth!",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "mos15-016",
+   "scope": "SW",
+   "head": "Isa. 52:10",
+   "anchor": {
+    "verse": 31,
+    "w1": 1,
+    "w2": 15,
+    "quote": "The Lord hath made bare his holy arm in the eyes of all the nations"
+   },
+   "reason": "the verse recited unchanged but for the divine name",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 52,
+     "verse": 10,
+     "w1": 1,
+     "w2": 15,
+     "quote": "The LORD hath made bare his holy arm in the eyes of all the nations;",
+     "verse_text": "The LORD hath made bare his holy arm in the eyes of all the nations; and all the ends of the earth shall see the salvation of our God.",
+     "markdown": "**The LORD hath made bare his holy arm in the eyes of all the nations**; and all the ends of the earth shall see the salvation of our God.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "mos15-015",
+   "scope": "SW",
+   "head": "Isa. 52:8",
+   "anchor": {
+    "verse": 29,
+    "w1": 1,
+    "w2": 9,
+    "quote": "Yea, Lord, thy watchmen shall lift up their voice"
+   },
+   "reason": "an address added to Isaiah's description",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 52,
+     "verse": 8,
+     "w1": 1,
+     "w2": 7,
+     "quote": "Thy watchmen shall lift up the voice;",
+     "verse_text": "Thy watchmen shall lift up the voice; with the voice together shall they sing: for they shall see eye to eye, when the LORD shall bring again Zion.",
+     "markdown": "**Thy watchmen shall lift up the voice**; with the voice together shall they sing: for they shall see eye to eye, when the LORD shall bring again Zion.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 14,
+   "w2": 23,
+   "quote": "God himself shall come down among the children of men",
+   "entries": [
+    "mos15-023",
+    "mos15-007"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 16,
+   "w2": 31,
+   "quote": "having subjected the flesh to the will of the Father, being the Father and the Son",
+   "entries": [
+    "mos15-011"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 2,
+   "w2": 15,
+   "quote": "they are one God, yea, the very Eternal Father of heaven and of earth",
+   "entries": [
+    "mos15-008",
+    "mos15-010",
+    "mos15-009"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 24,
+   "w2": 37,
+   "quote": "as a sheep before the shearer is dumb, so he opened not his mouth",
+   "entries": [
+    "mos15-002"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 15,
+   "w2": 26,
+   "quote": "giving the Son power to make intercession for the children of men",
+   "entries": [
+    "mos15-022"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 19,
+   "w2": 23,
+   "quote": "standing betwixt them and justice",
+   "entries": [
+    "mos15-013"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 18,
+   "w2": 32,
+   "quote": "when his soul has been made an offering for sin he shall see his seed",
+   "entries": [
+    "mos15-003",
+    "mos15-018"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 68,
+   "w2": 81,
+   "quote": "these are his seed, or they are the heirs of the kingdom of God",
+   "entries": [
+    "mos15-020"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 2,
+   "w2": 9,
+   "quote": "these are they whose sins he has borne",
+   "entries": [
+    "mos15-004"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 1,
+   "w2": 10,
+   "quote": "And O how beautiful upon the mountains were their feet",
+   "entries": [
+    "mos15-024"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 9,
+   "w2": 17,
+   "quote": "the feet of those who shall hereafter publish peace",
+   "entries": [
+    "mos15-025"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 27,
+   "w2": 32,
+   "quote": "that is the founder of peace",
+   "entries": [
+    "mos15-005",
+    "mos15-017"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 4,
+   "w2": 9,
+   "quote": "a resurrection, even a first resurrection",
+   "entries": [
+    "mos15-021"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 28,
+   "w2": 34,
+   "quote": "shall come forth in the first resurrection",
+   "entries": [
+    "mos15-014"
+   ]
+  },
+  {
+   "verse": 25,
+   "w1": 2,
+   "w2": 7,
+   "quote": "little children also have eternal life",
+   "entries": [
+    "mos15-012"
+   ]
+  },
+  {
+   "verse": 27,
+   "w1": 28,
+   "w2": 31,
+   "quote": "he cannot deny himself",
+   "entries": [
+    "mos15-019"
+   ]
+  },
+  {
+   "verse": 28,
+   "w1": 13,
+   "w2": 27,
+   "quote": "the salvation of the Lord shall be declared to every nation, kindred, tongue, and people",
+   "entries": [
+    "mos15-006"
+   ]
+  },
+  {
+   "verse": 29,
+   "w1": 1,
+   "w2": 9,
+   "quote": "Yea, Lord, thy watchmen shall lift up their voice",
+   "entries": [
+    "mos15-015"
+   ]
+  },
+  {
+   "verse": 31,
+   "w1": 1,
+   "w2": 15,
+   "quote": "The Lord hath made bare his holy arm in the eyes of all the nations",
+   "entries": [
+    "mos15-001",
+    "mos15-016"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "0c19aaa09bb00efa"
+ }
+}

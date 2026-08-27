@@ -1,0 +1,802 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Mosiah",
+  "book_slug": "mosiah",
+  "chapter": 3,
+  "volume_order": "07",
+  "speakers": [
+   "King Benjamin",
+   "An angel"
+  ],
+  "audience": "All the people of Zarahemla, assembled at the temple",
+  "location": "The temple in the land of Zarahemla",
+  "date": "~124 BC",
+  "unit": "Benjamin's address (Mosiah 1–6)",
+  "principles": [
+   "The angel's message",
+   "The natural man",
+   "Little children"
+  ],
+  "connections": 13,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "A quoted angel, and the king recedes",
+   "text": "Everything from verse 2 to verse 27 is a message Benjamin received and is relaying. He has spent a whole chapter reducing his own standing; here he steps out of the way entirely and lets a second voice carry the doctrine."
+  },
+  {
+   "n": 2,
+   "title": "The annunciation formula, a century early",
+   "text": "\"Glad tidings of great joy\" is the angel's phrase to the shepherds at Bethlehem. The same phrase, the same speaker type, and the same subject arrive here roughly a hundred and twenty years before the night in question."
+  },
+  {
+   "n": 3,
+   "title": "A name given in advance",
+   "text": "Verse 8 supplies \"Jesus Christ\" and names his mother Mary. This is the record's only pre-Christian naming of Mary, and it comes with a stack of titles attached to the same person in one sentence: Son of God, Father of heaven and earth, Creator."
+  },
+  {
+   "n": 4,
+   "title": "Blood from every pore",
+   "text": "Verse 7 describes the suffering as producing blood from the pores. Luke reports sweat \"as it were great drops of blood.\" Where the gospel gives a comparison, the record states it flatly as what happened, and states it before the event."
+  },
+  {
+   "n": 5,
+   "title": "\"The natural man\" without Paul's vocabulary",
+   "text": "Verse 19 makes the same argument Romans 8:7 makes, that the unregenerate mind is at enmity with God, but the remedy offered is childlikeness. Submissive, meek, humble, patient, full of love: five qualities, all of them describable in a child."
+  },
+  {
+   "n": 6,
+   "title": "Little children, twice exempted",
+   "text": "Verse 16 says even if they could sin they could not be saved on their own, and the blood of Christ atones for them; verse 21 says none are blameless except little children. The record is taking a position on infant death inside an angel's speech, and Mormon will return to it in Moroni 8."
+  }
+ ],
+ "words": [
+  {
+   "term": "Awake",
+   "verse_label": "v. 2",
+   "text": "The angel's first word, and he says it twice. \"Awake; and I awoke, and behold he stood before me\" (v. 2), and then again in the next verse, where nobody is asleep any longer and the word has come to mean listen. Benjamin had asked his own people to awake to a remembrance one chapter earlier. The word he used on them is the word that was used on him, and the record puts it in that order.",
+   "cites": [
+    {
+     "quote": "Awake; and I awoke, and behold he stood before me",
+     "verse": 2,
+     "start": 46,
+     "end": 104,
+     "spans": [
+      {
+       "w1": 24,
+       "w2": 33,
+       "text": "Awake; and I awoke, and behold he stood before me"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Omnipotent",
+   "verse_label": "v. 5, 17, 18, 21",
+   "text": "All-powerful. The King James Bible uses it once, in Revelation, of the Lord God reigning. The angel uses it four times in this chapter and Benjamin's people will use it twice more in Mosiah 5. It is this assembly's particular title for God: introduced by a messenger and adopted by a congregation."
+  },
+  {
+   "term": "Fatigue",
+   "verse_label": "v. 7",
+   "text": "Ordinary tiredness, and the word is not in the King James Bible anywhere. It sits in the middle of the angel's list of what Christ will endure: \"temptations, and pain of body, hunger, thirst, and fatigue\" (v. 7). Every other item there is an extremity, and the verse goes on to blood from the pores. Weariness is the plainest thing on the list, and putting it there keeps the suffering attached to a body that gets tired like anyone else's.",
+   "cites": [
+    {
+     "quote": "temptations, and pain of body, hunger, thirst, and fatigue",
+     "verse": 7,
+     "start": 144,
+     "end": 211,
+     "spans": [
+      {
+       "w1": 6,
+       "w2": 14,
+       "text": "temptations, and pain of body, hunger, thirst, and fatigue"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Types",
+   "verse_label": "v. 15",
+   "text": "A pattern that prefigures. It is the technical word for a person, object, or rite that stands for something later. Paired here with \"shadows,\" and the pair occurs once in the record. It names what the law of Moses was doing, and the next clause says the people did not see it."
+  },
+  {
+   "term": "Bright",
+   "verse_label": "v. 24",
+   "text": "A testimony that gives off light. The angel says his words \"shall stand as a bright testimony against this people\" (v. 24), and brightness is not a usual property of evidence. In the King James Bible the adjective belongs to polished brass and to spots on skin that a priest has to inspect; elsewhere in this record it is what happens to swords that have been cleaned. Alma will pair it with a guilty man's recollection at the judgment, the nearest thing to an explanation the record offers.",
+   "cites": [
+    {
+     "quote": "shall stand as a bright testimony against this people",
+     "verse": 24,
+     "start": 59,
+     "end": 122,
+     "spans": [
+      {
+       "w1": 7,
+       "w2": 15,
+       "text": "shall stand as a bright testimony against this people"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Consigned",
+   "verse_label": "v. 25",
+   "text": "Formally handed over, the way goods or a prisoner are delivered into someone's keeping. What the evil are consigned to is not a place but \"an awful view of their own guilt.\" The transfer is into a perception, and the misery follows from seeing rather than from being struck."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "I am come to declare unto you the glad tidings of great joy",
+   "verse_label": "v. 3",
+   "text": "The Bethlehem phrase, spoken by an angel to a king in the Americas more than a century before the night it belongs to. Nothing is made of the coincidence. The angel says it as though it were simply the right way for a messenger to open."
+  },
+  {
+   "term": "Shall dwell in a tabernacle of clay",
+   "verse_label": "v. 5",
+   "text": "A body described as a tent made of earth. Tabernacle carries the whole Israelite association of a portable dwelling for God's presence; clay carries Genesis. Put together they say the incarnation in four words, and the phrase appears once more in the record, in Moroni's last letter."
+  },
+  {
+   "term": "Blood cometh from every pore, so great shall be his anguish",
+   "verse_label": "v. 7",
+   "text": "The anguish is given a cause in the same clause, the wickedness and abominations of his people, making the bleeding a response to sin. The verse has already listed temptation, pain, hunger, thirst, and fatigue and said this exceeds all of it."
+  },
+  {
+   "term": "His mother shall be called Mary",
+   "verse_label": "v. 8",
+   "text": "A name supplied before the person exists, in a list otherwise made of titles. The surrounding clause calls him Son of God, Father of heaven and earth, and Creator of all things; then, without transition, a woman's given name. The specificity is what makes the verse strange."
+  },
+  {
+   "term": "They shall consider him a man, and say that he hath a devil",
+   "verse_label": "v. 9",
+   "text": "The rejection is forecast in the terms the gospels actually use. Considering him a man is not an insult in itself; it is the whole error, and the angel puts it first, before the scourging and the crucifixion."
+  },
+  {
+   "term": "His blood atoneth for the sins of those who have... ignorantly sinned",
+   "verse_label": "v. 11",
+   "text": "A category defined by what a person did not know. Those who fell by Adam's transgression, who died without knowing God's will, who sinned ignorantly. All of them are covered without condition. The next verse draws the line, and the line is knowledge."
+  },
+  {
+   "term": "The law of Moses availeth nothing except it were through the atonement of his blood",
+   "verse_label": "v. 15",
+   "text": "The strongest statement in the record about what the law was for, and it is negative. Not that the law was wrong or superseded but that it never worked on its own. Signs, wonders, types, and shadows were all pointing, and the failure described is a failure to look where they pointed."
+  },
+  {
+   "term": "The natural man is an enemy to God",
+   "verse_label": "v. 19",
+   "text": "The charge is active opposition. Paul says the carnal mind is enmity against God; the angel says the same of the natural man and dates it from the fall. What follows is a list of what replaces it, and every item on the list is a disposition rather than an act."
+  },
+  {
+   "term": "Unless he yields to the enticings of the Holy Spirit",
+   "verse_label": "v. 19",
+   "text": "An enticing is a persuasion, and the word almost always describes what leads someone astray; applying it to the Holy Spirit is a deliberate reversal. The Spirit does not compel; it entices. The verb belonging to the person is \"yields.\" Neither term is forceful, and the whole transformation from enemy to saint is described as consent to persuasion."
+  },
+  {
+   "term": "Willing to submit to all things which the Lord seeth fit to inflict upon him",
+   "verse_label": "v. 19",
+   "text": "The hardest clause in the address, and it is placed last in the list of childlike qualities. Not endurance of what happens but willingness toward what is sent. The comparison offered is a child with a father, which is the only thing softening it."
+  },
+  {
+   "term": "They have drunk out of the cup of the wrath of God",
+   "verse_label": "v. 26",
+   "text": "Revelation's cup, and the reasoning attached is a comparison: justice could no more deny them this than it could deny that Adam should fall. The argument is that consequence is built into the arrangement from the start."
+  },
+  {
+   "term": "Mercy could have claim on them no more forever",
+   "verse_label": "v. 26",
+   "text": "Mercy given standing to make a claim, and then losing it. The whole passage runs on legal terms: justice denying, mercy claiming, a bright testimony standing at judgment. Alma will build an entire argument out of exactly this vocabulary."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–4",
+   "start": 1,
+   "end": 4,
+   "title": "The angel, and the errand",
+   "text": "Benjamin has more to say and it concerns what is to come; an angel woke him and stood before him; the message is glad tidings of great joy; the Lord heard his prayers and judged his righteousness and sent this so that both king and people might rejoice. The doctrine is prefaced by its provenance."
+  },
+  {
+   "label": "v. 5–10",
+   "start": 5,
+   "end": 10,
+   "title": "A whole life, in order",
+   "text": "Come down, dwell in a body of clay, heal and raise and cure, cast out devils, suffer beyond what any man can, bleed from every pore, be named Jesus Christ (Son of God, Father of heaven and earth, Creator), with a mother named Mary, be called a man and a devil, be scourged and crucified, and rise the third day to judge. Six verses covering a life given in advance, in sequence."
+  },
+  {
+   "label": "v. 11–13",
+   "start": 11,
+   "end": 13,
+   "title": "Who is covered, and who is not",
+   "text": "The blood atones for those who died not knowing; woe to the one who knows he rebels; prophets are sent to every kindred, nation, and tongue so that believing before the fact works exactly as believing after it. The chapter's whole theory of accountability is in these three verses."
+  },
+  {
+   "label": "v. 14–15",
+   "start": 14,
+   "end": 15,
+   "title": "Why there was a law",
+   "text": "Because the people were stiffnecked, a law was appointed; signs, wonders, types, and shadows were shown; prophets spoke; and still they hardened their hearts and missed that the law never worked by itself. The law is explained as a concession and as a pointer at once."
+  },
+  {
+   "label": "v. 16–18",
+   "start": 16,
+   "end": 18,
+   "title": "Little children, and the only name",
+   "text": "Even if children could sin they could not save themselves, and the blood atones for them; there is no other name or way or means; the infant who dies does not perish; and adults drink damnation unless they humble themselves and become as children. The condition placed on the adults is the state the children are already in."
+  },
+  {
+   "label": "v. 19–21",
+   "start": 19,
+   "end": 21,
+   "title": "The natural man, and what replaces him",
+   "text": "Enemy to God since the fall, and permanently so unless he yields to enticing, puts off the natural man, becomes a saint through the atonement, and becomes as a child: submissive, meek, humble, patient, loving, willing. Then the knowledge spreading to every nation, and none blameless but children."
+  },
+  {
+   "label": "v. 22–27",
+   "start": 22,
+   "end": 27,
+   "title": "The closing terms",
+   "text": "Even after this teaching they are no more blameless except by these words; the words will stand as a bright testimony at judgment; every man judged by his works; the evil consigned to a view of their own guilt, shrinking, unable to return; the cup of wrath that justice could not withhold; mercy with no claim; and unquenchable fire. The angel ends where Benjamin ended the previous chapter."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The king hands the sermon to someone else",
+   "text": "Having spent a chapter insisting he is only a man, Benjamin delivers his doctrine as a quotation. The structure is the argument of Mosiah 2 continued by other means: the content does not depend on his office, and he arranges the text so nobody could think it did."
+  },
+  {
+   "n": 2,
+   "title": "A life of Christ is given in the future tense",
+   "text": "Birth, ministry, miracles, agony, name, mother, rejection, scourging, crucifixion, resurrection, judgment. In order, and before any of it. The record treats the prophecy as information, and the details that are most specific are the ones a later reader can check."
+  },
+  {
+   "n": 3,
+   "title": "Accountability is indexed to knowledge",
+   "text": "Those who died not knowing are covered; the one who knows he rebels is not; the law was given because a people were stiffnecked; the knowledge will spread to every nation, and then none but children are blameless. The chapter's whole moral architecture runs on what a person had the chance to know."
+  },
+  {
+   "n": 4,
+   "title": "The remedy for enmity is not effort",
+   "text": "Verse 19 does not tell the natural man to try harder. It tells him to yield to enticing and become a child, and then lists six dispositions, none of which is a task. The strongest verb belonging to the person in the whole sentence is \"yields.\""
+  },
+  {
+   "n": 5,
+   "title": "The hardest clause is left unsoftened",
+   "text": "Willing to submit to all things the Lord sees fit to inflict. The record does not explain, qualify, or promise that the inflicting will be light. The only relief offered is the analogy of a child with a father, and the reader is left to decide how much that carries."
+  },
+  {
+   "n": 6,
+   "title": "Little children are the fixed point",
+   "text": "They are blessed, they cannot sin to their own condemnation, the infant does not perish, and at the end only they are blameless. Every requirement laid on adults in this chapter is a description of returning to where children already are."
+  },
+  {
+   "n": 7,
+   "title": "The chapter is built out of legal terms and ends inside them",
+   "text": "Judged of righteousness, a righteous judgment, a bright testimony, judged according to works, justice denying, mercy's claim forfeited. Benjamin's own approaching trial framed Mosiah 2; the angel extends the same courtroom to everyone listening."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Say where it came from",
+    "verse_label": "v. 2",
+    "text": "Benjamin names his source before delivering his message. When you pass on something that matters, distinguish between what you were told and what you concluded."
+   },
+   {
+    "title": "Locate yourself on the knowledge line",
+    "verse_label": "v. 11–12",
+    "text": "The chapter sorts people by what they were in a position to learn. Ask honestly which side of that line you are on for the thing you are currently avoiding."
+   },
+   {
+    "title": "Look where the pointers point",
+    "verse_label": "v. 15",
+    "text": "Signs, types, and shadows were all doing their job; the failure was in the looking. Take a practice you keep faithfully and ask what it was meant to direct you toward."
+   },
+   {
+    "title": "Let yourself be persuaded",
+    "verse_label": "v. 19",
+    "text": "The verb for the person is \"yields\" and the verb for the Spirit is \"entices.\" When you are stuck spiritually, the chapter's first suggestion is to resist less."
+   },
+   {
+    "title": "Practice one childlike quality",
+    "verse_label": "v. 19",
+    "text": "Submissive, meek, humble, patient, full of love, willing. Pick the one you are worst at and work on that one specifically for a week."
+   },
+   {
+    "title": "Sit with the hard clause",
+    "verse_label": "v. 19",
+    "text": "\"Willing to submit to all things which the Lord seeth fit to inflict.\" Do not resolve it quickly. Ask what it would mean if you actually held it, and what you would need in order to."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "What do I think the anguish was for, and does my answer change how I treat my own sins?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "Is there something I know I am rebelling against rather than something I have not understood?"
+   },
+   {
+    "verse_label": "v. 15",
+    "start": 15,
+    "end": 15,
+    "text": "Which of my religious habits have I started treating as the thing itself?"
+   },
+   {
+    "verse_label": "v. 19",
+    "start": 19,
+    "end": 19,
+    "text": "Where am I an enemy to God without having noticed?"
+   },
+   {
+    "verse_label": "v. 19",
+    "start": 19,
+    "end": 19,
+    "text": "Which of the six qualities is furthest from me right now?"
+   },
+   {
+    "verse_label": "v. 21",
+    "start": 21,
+    "end": 21,
+    "text": "What would it look like for me to be blameless in the way a child is, rather than in the way I usually mean it?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "mos03-013",
+   "scope": "BOOK",
+   "head": "Mosiah 6:2",
+   "anchor": {
+    "verse": 16,
+    "w1": 2,
+    "w2": 16,
+    "quote": "even if it were possible that little children could sin they could not be saved"
+   },
+   "reason": "the doctrine the register was drawn on",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 6,
+     "verse": 2,
+     "w1": 7,
+     "w2": 16,
+     "quote": "there was not one soul, except it were little children,",
+     "verse_text": "And it came to pass that there was not one soul, except it were little children, but who had entered into the covenant and had taken upon them the name of Christ.",
+     "markdown": "And it came to pass that **there was not one soul, except it were little children**, but who had entered into the covenant and had taken upon them the name of Christ.",
+     "span": true
+    }
+   ],
+   "mirror": "mos06-002"
+  },
+  {
+   "id": "mos03-012",
+   "scope": "BOOK",
+   "head": "Mosiah 5:5",
+   "anchor": {
+    "verse": 26,
+    "w1": 2,
+    "w2": 13,
+    "quote": "they have drunk out of the cup of the wrath of God"
+   },
+   "reason": "the warning the people quote back as their reason",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 5,
+     "verse": 5,
+     "w1": 55,
+     "w2": 68,
+     "quote": "that we may not drink out of the cup of the wrath of God.",
+     "verse_text": "And we are willing to enter into a covenant with our God to do his will, and to be obedient to his commandments in all things that he shall command us, all the remainder of our days, that we may not bring upon ourselves a never-ending torment, as has been spoken by the angel, that we may not drink out of the cup of the wrath of God.",
+     "markdown": "And we are willing to enter into a covenant with our God to do his will, and to be obedient to his commandments in all things that he shall command us, all the remainder of our days, that we may not bring upon ourselves a never-ending torment, as has been spoken by the angel, **that we may not drink out of the cup of the wrath of God**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos05-005"
+  },
+  {
+   "id": "mos03-010",
+   "scope": "BOOK",
+   "head": "Mosiah 4:1",
+   "anchor": {
+    "verse": 27,
+    "w1": 24,
+    "w2": 29,
+    "quote": "Thus hath the Lord commanded me"
+   },
+   "reason": "the crowd falls at the end of the message",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 4,
+     "verse": 1,
+     "w1": 43,
+     "w2": 58,
+     "quote": "they had fallen to the earth, for the fear of the Lord had come upon them.",
+     "verse_text": "And now, it came to pass that when king Benjamin had made an end of speaking the words which had been delivered unto him by the angel of the Lord, that he cast his eyes round about on the multitude, and behold they had fallen to the earth, for the fear of the Lord had come upon them.",
+     "markdown": "And now, it came to pass that when king Benjamin had made an end of speaking the words which had been delivered unto him by the angel of the Lord, that he cast his eyes round about on the multitude, and behold **they had fallen to the earth, for the fear of the Lord had come upon them**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos04-001"
+  },
+  {
+   "id": "mos03-002",
+   "scope": "BOOK",
+   "head": "Mosiah 5:8",
+   "anchor": {
+    "verse": 17,
+    "w1": 8,
+    "w2": 20,
+    "quote": "there shall be no other name given nor any other way nor means"
+   },
+   "reason": "the name Benjamin gives two chapters later",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 5,
+     "verse": 8,
+     "w1": 21,
+     "w2": 29,
+     "quote": "There is no other name given whereby salvation cometh;",
+     "verse_text": "And under this head ye are made free, and there is no other head whereby ye can be made free. There is no other name given whereby salvation cometh; therefore, I would that ye should take upon you the name of Christ, all you that have entered into the covenant with God that ye should be obedient unto the end of your lives.",
+     "markdown": "And under this head ye are made free, and there is no other head whereby ye can be made free. **There is no other name given whereby salvation cometh**; therefore, I would that ye should take upon you the name of Christ, all you that have entered into the covenant with God that ye should be obedient unto the end of your lives.",
+     "span": true
+    }
+   ],
+   "mirror": "mos05-004"
+  },
+  {
+   "id": "mos03-001",
+   "scope": "BOOK",
+   "head": "Mosiah 2:41",
+   "anchor": {
+    "verse": 1,
+    "w1": 21,
+    "w2": 32,
+    "quote": "I have things to tell you concerning that which is to come"
+   },
+   "reason": "the address resumed, turning from past to future",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 2,
+     "verse": 41,
+     "w1": 63,
+     "w2": 70,
+     "quote": "O remember, remember that these things are true;",
+     "verse_text": "And moreover, I would desire that ye should consider on the blessed and happy state of those that keep the commandments of God. For behold, they are blessed in all things, both temporal and spiritual; and if they hold out faithful to the end they are received into heaven, that thereby they may dwell with God in a state of never-ending happiness. O remember, remember that these things are true; for the Lord God hath spoken it.",
+     "markdown": "And moreover, I would desire that ye should consider on the blessed and happy state of those that keep the commandments of God. For behold, they are blessed in all things, both temporal and spiritual; and if they hold out faithful to the end they are received into heaven, that thereby they may dwell with God in a state of never-ending happiness. **O remember, remember that these things are true**; for the Lord God hath spoken it.",
+     "span": true
+    }
+   ],
+   "mirror": "mos02-010"
+  },
+  {
+   "id": "mos03-014",
+   "scope": "BOM",
+   "head": "Alma 7:11",
+   "anchor": {
+    "verse": 7,
+    "w1": 3,
+    "w2": 14,
+    "quote": "he shall suffer temptations, and pain of body, hunger, thirst, and fatigue"
+   },
+   "reason": "the catalogue, recited again at Gideon",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 7,
+     "verse": 11,
+     "w1": 6,
+     "w2": 14,
+     "quote": "suffering pains and afflictions and temptations of every kind;",
+     "verse_text": "And he shall go forth, suffering pains and afflictions and temptations of every kind; and this that the word might be fulfilled which saith he will take upon him the pains and the sicknesses of his people.",
+     "markdown": "And he shall go forth, **suffering pains and afflictions and temptations of every kind**; and this that the word might be fulfilled which saith he will take upon him the pains and the sicknesses of his people.",
+     "span": true
+    }
+   ],
+   "mirror": "al07-006"
+  },
+  {
+   "id": "mos03-004",
+   "scope": "BOM",
+   "head": "2 Ne. 9:39",
+   "anchor": {
+    "verse": 19,
+    "w1": 24,
+    "w2": 33,
+    "quote": "unless he yields to the enticings of the Holy Spirit"
+   },
+   "reason": "the carnal and spiritual minds set against each other",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 9,
+     "verse": 39,
+     "w1": 28,
+     "w2": 39,
+     "quote": "to be carnally-minded is death, and to be spiritually-minded is life eternal.",
+     "verse_text": "O, my beloved brethren, remember the awfulness in transgressing against that Holy God, and also the awfulness of yielding to the enticings of that cunning one. Remember, to be carnally-minded is death, and to be spiritually-minded is life eternal.",
+     "markdown": "O, my beloved brethren, remember the awfulness in transgressing against that Holy God, and also the awfulness of yielding to the enticings of that cunning one. Remember, **to be carnally-minded is death, and to be spiritually-minded is life eternal**.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne09-021"
+  },
+  {
+   "id": "mos03-003",
+   "scope": "BOM",
+   "head": "Moro. 8:22",
+   "anchor": {
+    "verse": 16,
+    "w1": 2,
+    "w2": 16,
+    "quote": "even if it were possible that little children could sin they could not be saved"
+   },
+   "reason": "Mormon's letter on the same question",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 8,
+     "verse": 22,
+     "w1": 4,
+     "w2": 10,
+     "quote": "all little children are alive in Christ,",
+     "verse_text": "For behold that all little children are alive in Christ, and also all they that are without the law. For the power of redemption cometh on all them that have no law; wherefore, he that is not condemned, or he that is under no condemnation, cannot repent; and unto such baptism availeth nothing—",
+     "markdown": "For behold that **all little children are alive in Christ**, and also all they that are without the law. For the power of redemption cometh on all them that have no law; wherefore, he that is not condemned, or he that is under no condemnation, cannot repent; and unto such baptism availeth nothing—",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "mos03-009",
+   "scope": "SW",
+   "head": "Rev. 14:10",
+   "anchor": {
+    "verse": 26,
+    "w1": 2,
+    "w2": 13,
+    "quote": "they have drunk out of the cup of the wrath of God"
+   },
+   "reason": "the cup of indignation",
+   "targets": [
+    {
+     "ref": "Rev.",
+     "chapter": 14,
+     "verse": 10,
+     "w1": 1,
+     "w2": 12,
+     "quote": "The same shall drink of the wine of the wrath of God,",
+     "verse_text": "The same shall drink of the wine of the wrath of God, which is poured out without mixture into the cup of his indignation; and he shall be tormented with fire and brimstone in the presence of the holy angels, and in the presence of the Lamb:",
+     "markdown": "**The same shall drink of the wine of the wrath of God**, which is poured out without mixture into the cup of his indignation; and he shall be tormented with fire and brimstone in the presence of the holy angels, and in the presence of the Lamb:",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "mos03-008",
+   "scope": "SW",
+   "head": "Matt. 18:3",
+   "anchor": {
+    "verse": 18,
+    "w1": 30,
+    "w2": 36,
+    "quote": "humble themselves and become as little children"
+   },
+   "reason": "the same condition, in the gospels",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 18,
+     "verse": 3,
+     "w1": 8,
+     "w2": 16,
+     "quote": "Except ye be converted, and become as little children,",
+     "verse_text": "And said, Verily I say unto you, Except ye be converted, and become as little children, ye shall not enter into the kingdom of heaven.",
+     "markdown": "And said, Verily I say unto you, **Except ye be converted, and become as little children**, ye shall not enter into the kingdom of heaven.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "mos03-007",
+   "scope": "SW",
+   "head": "Rom. 8:7",
+   "anchor": {
+    "verse": 19,
+    "w1": 2,
+    "w2": 9,
+    "quote": "the natural man is an enemy to God"
+   },
+   "reason": "Paul's carnal mind at enmity",
+   "targets": [
+    {
+     "ref": "Rom.",
+     "chapter": 8,
+     "verse": 7,
+     "w1": 2,
+     "w2": 8,
+     "quote": "the carnal mind is enmity against God:",
+     "verse_text": "Because the carnal mind is enmity against God: for it is not subject to the law of God, neither indeed can be.",
+     "markdown": "Because **the carnal mind is enmity against God**: for it is not subject to the law of God, neither indeed can be.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "mos03-006",
+   "scope": "SW",
+   "head": "Luke 22:44",
+   "anchor": {
+    "verse": 7,
+    "w1": 28,
+    "w2": 32,
+    "quote": "blood cometh from every pore"
+   },
+   "reason": "the gospel's comparison, stated here as fact",
+   "targets": [
+    {
+     "ref": "Luke",
+     "chapter": 22,
+     "verse": 44,
+     "w1": 11,
+     "w2": 25,
+     "quote": "his sweat was as it were great drops of blood falling down to the ground.",
+     "verse_text": "And being in an agony he prayed more earnestly: and his sweat was as it were great drops of blood falling down to the ground.",
+     "markdown": "And being in an agony he prayed more earnestly: and **his sweat was as it were great drops of blood falling down to the ground**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "mos03-005",
+   "scope": "SW",
+   "head": "Luke 2:10",
+   "anchor": {
+    "verse": 3,
+    "w1": 25,
+    "w2": 30,
+    "quote": "the glad tidings of great joy"
+   },
+   "reason": "the same words to the shepherds",
+   "targets": [
+    {
+     "ref": "Luke",
+     "chapter": 2,
+     "verse": 10,
+     "w1": 11,
+     "w2": 18,
+     "quote": "I bring you good tidings of great joy,",
+     "verse_text": "And the angel said unto them, Fear not: for, behold, I bring you good tidings of great joy, which shall be to all people.",
+     "markdown": "And the angel said unto them, Fear not: for, behold, **I bring you good tidings of great joy**, which shall be to all people.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 21,
+   "w2": 32,
+   "quote": "I have things to tell you concerning that which is to come",
+   "entries": [
+    "mos03-001"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 25,
+   "w2": 30,
+   "quote": "the glad tidings of great joy",
+   "entries": [
+    "mos03-005"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 3,
+   "w2": 14,
+   "quote": "he shall suffer temptations, and pain of body, hunger, thirst, and fatigue",
+   "entries": [
+    "mos03-014"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 28,
+   "w2": 32,
+   "quote": "blood cometh from every pore",
+   "entries": [
+    "mos03-006"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 2,
+   "w2": 16,
+   "quote": "even if it were possible that little children could sin they could not be saved",
+   "entries": [
+    "mos03-013",
+    "mos03-003"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 8,
+   "w2": 20,
+   "quote": "there shall be no other name given nor any other way nor means",
+   "entries": [
+    "mos03-002"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 30,
+   "w2": 36,
+   "quote": "humble themselves and become as little children",
+   "entries": [
+    "mos03-008"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 2,
+   "w2": 9,
+   "quote": "the natural man is an enemy to God",
+   "entries": [
+    "mos03-007"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 24,
+   "w2": 33,
+   "quote": "unless he yields to the enticings of the Holy Spirit",
+   "entries": [
+    "mos03-004"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 2,
+   "w2": 13,
+   "quote": "they have drunk out of the cup of the wrath of God",
+   "entries": [
+    "mos03-012",
+    "mos03-009"
+   ]
+  },
+  {
+   "verse": 27,
+   "w1": 24,
+   "w2": 29,
+   "quote": "Thus hath the Lord commanded me",
+   "entries": [
+    "mos03-010"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "6940b5e833234c90"
+ }
+}

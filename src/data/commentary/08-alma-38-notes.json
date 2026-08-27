@@ -1,0 +1,628 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 38,
+  "volume_order": "08",
+  "speakers": [
+   "Alma"
+  ],
+  "audience": "Shiblon, Alma's second son",
+  "location": "Zarahemla",
+  "date": "~74 BC",
+  "unit": "Alma's charges to his sons (Alma 36–42)",
+  "principles": [
+   "A short charge to a son already doing well",
+   "Boldness without"
+  ],
+  "connections": 9,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Shiblon went to Antionum",
+   "text": "Alma 31:7 named him among those Alma took to the Zoramites. Verses 3 and 4 refer to what happened to him there, and the record gives that history only here.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 31:7",
+     "start": 0,
+     "end": 9,
+     "book": "Alma",
+     "chapter": 31,
+     "verse_start": 7,
+     "verse_end": 7
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "He was jailed and stoned",
+   "text": "Verse 4 says he was in bonds and stoned for the word's sake. Nothing in Alma 31 through 35 mentions it; Alma supplies the detail privately to the son it happened to."
+  },
+  {
+   "n": 3,
+   "title": "This is the shortest of the three charges",
+   "text": "Fifteen verses, against thirty for Helaman's first and forty-seven for his second. Alma has less to correct and says so."
+  },
+  {
+   "n": 4,
+   "title": "The conversion account is compressed",
+   "text": "Verses 7 and 8 give the angel, the three days, and the cry for mercy in two verses. Alma 36 spent twenty-four on the same material."
+  },
+  {
+   "n": 5,
+   "title": "The Zoramite prayer is still in view",
+   "text": "Verses 13 and 14 tell Shiblon how not to pray, using the Rameumptom as the example. He was standing there when it was offered."
+  },
+  {
+   "n": 6,
+   "title": "The instructions are mostly about restraint",
+   "text": "Not lifted up, not boasting, not overbearing, bridle the passions, refrain from idleness. The list is almost entirely about what to hold back."
+  },
+  {
+   "n": 7,
+   "title": "The farewell matches Helaman's",
+   "text": "Verse 15 ends with teaching the word, being sober, and farewell, the same three items that close Alma 37."
+  }
+ ],
+ "words": [
+  {
+   "term": "Steadiness",
+   "verse_label": "v. 2",
+   "text": "Constancy, holding a course. The word appears four times in this record and never in the King James Bible. Alma names it first among Shiblon's qualities, and Alma 39 opens by asking Corianton whether he has observed the steadiness of his brother."
+  },
+  {
+   "term": "Anguish",
+   "verse_label": "v. 8",
+   "text": "Acute distress of body or mind. The record uses it eleven times and the King James Bible seventeen. Alma pairs it with bitter pain to cover three days in one phrase, where Alma 36 needed six verses."
+  },
+  {
+   "term": "Temperate",
+   "verse_label": "v. 10",
+   "text": "Moderate, self-restrained. The record uses it twice and the King James Bible three times, always in lists of qualities expected of a teacher. Alma 7 has the same word in a longer list Alma gave publicly at Gideon."
+  },
+  {
+   "term": "Overbearance",
+   "verse_label": "v. 12",
+   "text": "Domineering force in speech or manner. The word occurs once in scripture. Alma pairs it against boldness in the same clause, which makes it the excess of a quality he is asking his son to keep."
+  },
+  {
+   "term": "Bridle",
+   "verse_label": "v. 12",
+   "text": "To fit with a bridle, to control as a horse is controlled. The record uses it once and the King James Bible nine times, including James on bridling the whole body. Alma applies it to the passions and attaches a purpose: that ye may be filled with love."
+  },
+  {
+   "term": "Unworthiness",
+   "verse_label": "v. 14",
+   "text": "The state of not deserving. The word appears three times in this record and never in the King James Bible. Alma makes acknowledging it the substance of the prayer he wants, in place of the thanksgiving the Zoramites offered."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Even as I said unto Helaman",
+   "verse_label": "v. 1",
+   "text": "Alma opens by telling one son what he told the other. The promise is identical to Alma 36:1 and 37:13, and he repeats it word for word so that Shiblon knows the family standard is the same.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 36:1",
+     "start": 82,
+     "end": 91,
+     "book": "Alma",
+     "chapter": 36,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
+  },
+  {
+   "term": "Blessed is he that endureth to the end",
+   "verse_label": "v. 2",
+   "text": "Alma's hope for a son who has already started well. He credits Shiblon with commencing in his youth and puts the blessing on continuing."
+  },
+  {
+   "term": "I also know that thou wast stoned for the word's sake",
+   "verse_label": "v. 4",
+   "text": "The one place the record mentions this. Alma names it, says his son bore it with patience, and credits the Lord with the deliverance, without describing anything further."
+  },
+  {
+   "term": "As much as ye shall put your trust in God even so much ye shall be delivered",
+   "verse_label": "v. 5",
+   "text": "A proportional promise. Alma states the relation as a measure, and applies it to trials, troubles, and afflictions in that order."
+  },
+  {
+   "term": "I did cry unto him and I did find peace to my soul",
+   "verse_label": "v. 8",
+   "text": "The conversion in ten words. Alma 36 gave the same event at length; here the cry and the peace sit in one clause, and verse 9 says why he is telling it."
+  },
+  {
+   "term": "There is no other way or means whereby man can be saved, only in and through Christ",
+   "verse_label": "v. 9",
+   "text": "The reason Alma gives for retelling his own story. Nephi says the same in 2 Nephi 31 and Peter says it before the Sanhedrin, and Alma offers it as the lesson the story exists to carry."
+  },
+  {
+   "term": "Use boldness, but not overbearance",
+   "verse_label": "v. 12",
+   "text": "Six words containing the chapter's method. Alma keeps the quality and names its excess, which is how the rest of the verse works too: passions bridled so that love can fill, idleness refused."
+  },
+  {
+   "term": "See that ye bridle all your passions, that ye may be filled with love",
+   "verse_label": "v. 12",
+   "text": "The restraint has a stated purpose. Alma does not ask for passions to be removed; the bridling is what makes room for something else."
+  },
+  {
+   "term": "Do not pray as the Zoramites do, for ye have seen that they pray to be heard of men",
+   "verse_label": "v. 13",
+   "text": "Alma appeals to something his son witnessed. Shiblon stood at Antionum and watched the Rameumptom, and the instruction is built on that memory."
+  },
+  {
+   "term": "O Lord, forgive my unworthiness, and remember my brethren in mercy",
+   "verse_label": "v. 14",
+   "text": "The prayer Alma supplies in place of the Zoramite one. It reverses both halves: unworthiness for chosenness, and mercy for the brethren in place of thanks that they are damned."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–2",
+   "start": 1,
+   "end": 2,
+   "title": "The same promise",
+   "text": "Keep the commandments and prosper; break them and be cut off, exactly as said to Helaman. Alma trusts he will have joy in Shiblon because of his steadiness, and hopes he will continue, since the blessing is on enduring to the end."
+  },
+  {
+   "label": "v. 3–5",
+   "start": 3,
+   "end": 5,
+   "title": "What he endured",
+   "text": "Alma has already had joy in him for his faithfulness, diligence, patience, and long-suffering among the Zoramites. He was in bonds and was stoned for the word's sake, and bore it because the Lord was with him. Trust in God and be delivered in proportion."
+  },
+  {
+   "label": "v. 6–8",
+   "start": 6,
+   "end": 8,
+   "title": "The conversion, short",
+   "text": "Alma disclaims knowing these things of himself. An angel was sent to stop his work of destruction, with a voice like thunder that shook the earth. Three days and nights of bitter pain and anguish, and no remission until he cried to Christ, and then peace."
+  },
+  {
+   "label": "v. 9–12",
+   "start": 9,
+   "end": 12,
+   "title": "What to do",
+   "text": "Learn that there is no other way to be saved except through Christ, who is the life and the light of the world. Continue teaching, be diligent and temperate, avoid pride and boasting, use boldness without overbearance, bridle the passions, refuse idleness."
+  },
+  {
+   "label": "v. 13–14",
+   "start": 13,
+   "end": 14,
+   "title": "How not to pray",
+   "text": "Do not pray as the Zoramites, who pray to be heard of men and praised for their wisdom. Do not thank God that you are better than your brethren. Ask forgiveness for your unworthiness and mercy for them, and acknowledge it at all times."
+  },
+  {
+   "label": "v. 15",
+   "start": 15,
+   "end": 15,
+   "title": "The blessing",
+   "text": "May the Lord bless your soul and receive you into his kingdom to sit down in peace. Go teach the word to this people. Be sober. Farewell."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The shortest charge goes to the son doing best",
+   "text": "Fifteen verses, and most of them are commendation and general instruction. Alma spends his length where it is needed, and Alma 39 shows where that is."
+  },
+  {
+   "n": 2,
+   "title": "A son's suffering is on the record only because his father named it",
+   "text": "Bonds and stoning at Antionum appear nowhere in the mission account. The private charge is where it is preserved."
+  },
+  {
+   "n": 3,
+   "title": "The conversion is retold as an argument",
+   "text": "Verse 9 says why: so Shiblon may learn there is no other way to be saved. The story is offered as evidence rather than as memoir."
+  },
+  {
+   "n": 4,
+   "title": "The virtues are named with their excesses",
+   "text": "Boldness against overbearance, passion against bridling, diligence against idleness. Alma teaches by marking the edge of each quality, so his son can tell when he has passed it."
+  },
+  {
+   "n": 5,
+   "title": "Bridling is for filling",
+   "text": "The purpose clause matters: passions are controlled so that love can fill the person. The restraint is presented as making room."
+  },
+  {
+   "n": 6,
+   "title": "The counter-prayer is exact",
+   "text": "The Rameumptom thanked God for election and for others being cast down. Alma's version asks forgiveness for the self and mercy for the brethren, reversing both clauses."
+  },
+  {
+   "n": 7,
+   "title": "He cites what his son saw",
+   "text": "Alma does not describe Zoramite worship. He says ye have seen, because Shiblon was there, and lets the memory carry the instruction."
+  },
+  {
+   "n": 8,
+   "title": "The three charges share a closing",
+   "text": "Teach the word, be sober, farewell. Alma 37 and Alma 38 end with the same three, which makes the difference in Alma 42's ending visible when it comes."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Tell someone what you have noticed about them",
+    "verse_label": "v. 3",
+    "text": "Alma listed four things his son had done well before instructing him at all. Pick someone steady in your life and name specifically what you have seen."
+   },
+   {
+    "title": "Keep the quality and name the excess",
+    "verse_label": "v. 12",
+    "text": "Alma asked for boldness without overbearance. Take a strength of yours and work out what its excess looks like, so you can tell when you have crossed into it."
+   },
+   {
+    "title": "Bridle rather than remove",
+    "verse_label": "v. 12",
+    "text": "The purpose of the control is to be filled with love. When you are trying to master something in yourself, decide what the restraint is making room for."
+   },
+   {
+    "title": "Write the opposite prayer",
+    "verse_label": "v. 14",
+    "text": "Alma gave his son the exact reversal of the prayer he had heard. Take a way of thinking you know is wrong and compose the sentence that inverts it."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What have I commenced in that I have not continued?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What have I borne patiently that nobody else knows about?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "Have I trusted God in proportion to the deliverance I expect?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "Could I say in one sentence why I believe what I believe?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "Where does my boldness turn into overbearance?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "Whose approval am I actually praying toward?"
+   },
+   {
+    "verse_label": "v. 14",
+    "start": 14,
+    "end": 14,
+    "text": "When did I last ask God to remember someone else in mercy?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al38-001",
+   "scope": "BOOK",
+   "head": "Alma 36:1",
+   "anchor": {
+    "verse": 1,
+    "w1": 13,
+    "w2": 18,
+    "quote": "even as I said unto Helaman"
+   },
+   "reason": "the identical opening, given to the eldest son",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 36,
+     "verse": 1,
+     "w1": 1,
+     "w2": 7,
+     "quote": "My son, give ear to my words;",
+     "verse_text": "My son, give ear to my words; for I swear unto you, that inasmuch as ye shall keep the commandments of God ye shall prosper in the land.",
+     "markdown": "**My son, give ear to my words**; for I swear unto you, that inasmuch as ye shall keep the commandments of God ye shall prosper in the land.",
+     "span": true
+    }
+   ],
+   "mirror": "al36-003"
+  },
+  {
+   "id": "al38-002",
+   "scope": "BOOK",
+   "head": "Alma 39:1",
+   "anchor": {
+    "verse": 2,
+    "w1": 15,
+    "w2": 21,
+    "quote": "because of your steadiness and your faithfulness"
+   },
+   "reason": "the same steadiness, held up to Corianton as a standard",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 39,
+     "verse": 1,
+     "w1": 26,
+     "w2": 30,
+     "quote": "the steadiness of thy brother,",
+     "verse_text": "And now, my son, I have somewhat more to say unto thee than what I said unto thy brother; for behold, have ye not observed the steadiness of thy brother, his faithfulness, and his diligence in keeping the commandments of God? Behold, has he not set a good example for thee?",
+     "markdown": "And now, my son, I have somewhat more to say unto thee than what I said unto thy brother; for behold, have ye not observed **the steadiness of thy brother**, his faithfulness, and his diligence in keeping the commandments of God? Behold, has he not set a good example for thee?",
+     "span": true
+    }
+   ],
+   "mirror": "al39-001"
+  },
+  {
+   "id": "al38-003",
+   "scope": "BOOK",
+   "head": "Alma 31:16",
+   "anchor": {
+    "verse": 14,
+    "w1": 4,
+    "w2": 15,
+    "quote": "O God, I thank thee that we are better than our brethren"
+   },
+   "reason": "the Rameumptom prayer Shiblon stood and listened to",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 31,
+     "verse": 16,
+     "w1": 40,
+     "w2": 48,
+     "quote": "thou hast elected us to be thy holy children;",
+     "verse_text": "Holy God, we believe that thou hast separated us from our brethren; and we do not believe in the tradition of our brethren, which was handed down to them by the childishness of their fathers; but we believe that thou hast elected us to be thy holy children; and also thou hast made it known unto us that there shall be no Christ.",
+     "markdown": "Holy God, we believe that thou hast separated us from our brethren; and we do not believe in the tradition of our brethren, which was handed down to them by the childishness of their fathers; but we believe that **thou hast elected us to be thy holy children**; and also thou hast made it known unto us that there shall be no Christ.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al38-004",
+   "scope": "BOOK",
+   "head": "Alma 7:23",
+   "anchor": {
+    "verse": 10,
+    "w1": 28,
+    "w2": 33,
+    "quote": "diligent and temperate in all things"
+   },
+   "reason": "the same instruction given publicly at Gideon",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 7,
+     "verse": 23,
+     "w1": 24,
+     "w2": 28,
+     "quote": "being temperate in all things;",
+     "verse_text": "And now I would that ye should be humble, and be submissive and gentle; easy to be entreated; full of patience and long-suffering; being temperate in all things; being diligent in keeping the commandments of God at all times; asking for whatsoever things ye stand in need, both spiritual and temporal; always returning thanks unto God for whatsoever things ye do receive.",
+     "markdown": "And now I would that ye should be humble, and be submissive and gentle; easy to be entreated; full of patience and long-suffering; **being temperate in all things**; being diligent in keeping the commandments of God at all times; asking for whatsoever things ye stand in need, both spiritual and temporal; always returning thanks unto God for whatsoever things ye do receive.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al38-005",
+   "scope": "BOM",
+   "head": "2 Ne. 31:21",
+   "anchor": {
+    "verse": 9,
+    "w1": 24,
+    "w2": 33,
+    "quote": "no other way or means whereby man can be saved"
+   },
+   "reason": "Nephi stating it in nearly the same words",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 31,
+     "verse": 21,
+     "w1": 12,
+     "w2": 21,
+     "quote": "there is none other way nor name given under heaven",
+     "verse_text": "And now, behold, my beloved brethren, this is the way; and there is none other way nor name given under heaven whereby man can be saved in the kingdom of God. And now, behold, this is the doctrine of Christ, and the only and true doctrine of the Father, and of the Son, and of the Holy Ghost, which is one God, without end. Amen.",
+     "markdown": "And now, behold, my beloved brethren, this is the way; and **there is none other way nor name given under heaven** whereby man can be saved in the kingdom of God. And now, behold, this is the doctrine of Christ, and the only and true doctrine of the Father, and of the Son, and of the Holy Ghost, which is one God, without end. Amen.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al38-006",
+   "scope": "BOM",
+   "head": "Mosiah 27:11",
+   "anchor": {
+    "verse": 7,
+    "w1": 9,
+    "w2": 15,
+    "quote": "sent his angel to declare unto me"
+   },
+   "reason": "the appearance as Mormon reported it, from outside",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 27,
+     "verse": 11,
+     "w1": 16,
+     "w2": 23,
+     "quote": "the angel of the Lord appeared unto them;",
+     "verse_text": "And as I said unto you, as they were going about rebelling against God, behold, the angel of the Lord appeared unto them; and he descended as it were in a cloud; and he spake as it were with a voice of thunder, which caused the earth to shake upon which they stood;",
+     "markdown": "And as I said unto you, as they were going about rebelling against God, behold, **the angel of the Lord appeared unto them**; and he descended as it were in a cloud; and he spake as it were with a voice of thunder, which caused the earth to shake upon which they stood;",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al38-007",
+   "scope": "SW",
+   "head": "James 3:2",
+   "anchor": {
+    "verse": 12,
+    "w1": 8,
+    "w2": 14,
+    "quote": "see that ye bridle all your passions"
+   },
+   "reason": "James on bridling, applied to the whole body",
+   "targets": [
+    {
+     "ref": "James",
+     "chapter": 3,
+     "verse": 2,
+     "w1": 22,
+     "w2": 28,
+     "quote": "able also to bridle the whole body.",
+     "verse_text": "For in many things we offend all. If any man offend not in word, the same is a perfect man, and able also to bridle the whole body.",
+     "markdown": "For in many things we offend all. If any man offend not in word, the same is a perfect man, and **able also to bridle the whole body**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al38-008",
+   "scope": "SW",
+   "head": "Luke 18:11",
+   "anchor": {
+    "verse": 14,
+    "w1": 4,
+    "w2": 15,
+    "quote": "O God, I thank thee that we are better than our brethren"
+   },
+   "reason": "the Pharisee praying the sentence Alma forbids",
+   "targets": [
+    {
+     "ref": "Luke",
+     "chapter": 18,
+     "verse": 11,
+     "w1": 9,
+     "w2": 20,
+     "quote": "God, I thank thee, that I am not as other men are,",
+     "verse_text": "The Pharisee stood and prayed thus with himself, God, I thank thee, that I am not as other men are, extortioners, unjust, adulterers, or even as this publican.",
+     "markdown": "The Pharisee stood and prayed thus with himself, **God, I thank thee, that I am not as other men are**, extortioners, unjust, adulterers, or even as this publican.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al38-009",
+   "scope": "SW",
+   "head": "Acts 4:12",
+   "anchor": {
+    "verse": 9,
+    "w1": 24,
+    "w2": 33,
+    "quote": "no other way or means whereby man can be saved"
+   },
+   "reason": "Peter saying it before the council at Jerusalem",
+   "targets": [
+    {
+     "ref": "Acts",
+     "chapter": 4,
+     "verse": 12,
+     "w1": 9,
+     "w2": 18,
+     "quote": "there is none other name under heaven given among men,",
+     "verse_text": "Neither is there salvation in any other: for there is none other name under heaven given among men, whereby we must be saved.",
+     "markdown": "Neither is there salvation in any other: for **there is none other name under heaven given among men**, whereby we must be saved.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 13,
+   "w2": 18,
+   "quote": "even as I said unto Helaman",
+   "entries": [
+    "al38-001"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 15,
+   "w2": 21,
+   "quote": "because of your steadiness and your faithfulness",
+   "entries": [
+    "al38-002"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 9,
+   "w2": 15,
+   "quote": "sent his angel to declare unto me",
+   "entries": [
+    "al38-006"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 24,
+   "w2": 33,
+   "quote": "no other way or means whereby man can be saved",
+   "entries": [
+    "al38-005",
+    "al38-009"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 28,
+   "w2": 33,
+   "quote": "diligent and temperate in all things",
+   "entries": [
+    "al38-004"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 8,
+   "w2": 14,
+   "quote": "see that ye bridle all your passions",
+   "entries": [
+    "al38-007"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 4,
+   "w2": 15,
+   "quote": "O God, I thank thee that we are better than our brethren",
+   "entries": [
+    "al38-003",
+    "al38-008"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "4c9d4b26a92802a6"
+ }
+}

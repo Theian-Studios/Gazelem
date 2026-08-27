@@ -1,0 +1,728 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Helaman",
+  "book_slug": "helaman",
+  "chapter": 1,
+  "volume_order": "09",
+  "speakers": [
+   "Mormon, as narrator"
+  ],
+  "audience": "The reader of the abridgment",
+  "location": "Zarahemla and the center of the land",
+  "date": "~52–51 BC",
+  "unit": "The rise of the Gadianton band (Helaman 1–6)",
+  "principles": [
+   "A succession contested by three brothers",
+   "A murder that founds a band",
+   ""
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The book opens on a succession crisis",
+   "text": "Verse 2 says Pahoran had died. Alma 62:44 had returned him to the judgment-seat at the end of the war.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 62:44",
+     "start": 31,
+     "end": 41,
+     "book": "Alma",
+     "chapter": 62,
+     "verse_start": 44,
+     "verse_end": 44
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Three sons contend, and the record names them",
+   "text": "Verse 3 lists Pahoran, Paanchi, and Pacumeni, and verse 4 says there were other sons who did not contend."
+  },
+  {
+   "n": 3,
+   "title": "The seat is filled by vote",
+   "text": "Verse 5 has Pahoran appointed by the voice of the people, the procedure Mosiah 29 established."
+  },
+  {
+   "n": 4,
+   "title": "Kishkumen is introduced here",
+   "text": "Verses 9 through 12 have him murdering the chief judge in disguise, escaping, and binding his band by oath. Helaman 2 will bring him back."
+  },
+  {
+   "n": 5,
+   "title": "The Lamanite king is Ammoron's son",
+   "text": "Verse 16 names Tubaloth, and Alma 52:3 had made Ammoron king after Amalickiah's death.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 52:3",
+     "start": 29,
+     "end": 38,
+     "book": "Alma",
+     "chapter": 52,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Coriantumr is a Nephite dissenter of Mulekite descent",
+   "text": "Verse 15 calls him a descendant of Zarahemla, and Omni 1:14 records that people's discovery.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Omni 1:14",
+     "start": 50,
+     "end": 59,
+     "book": "Omni",
+     "chapter": 1,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "The capital falls because of the succession fight",
+   "text": "Verse 18 says the contention in the government left insufficient guards, and both Moronihah and the government had assumed the interior was safe."
+  }
+ ],
+ "words": [
+  {
+   "term": "Speedy",
+   "verse_label": "v. 10",
+   "text": "Swift, quick in motion. The record uses the word seven times and the King James Bible once, at Zephaniah 1:18. Here it describes an assassin's escape from the servants of the man he killed."
+  },
+  {
+   "term": "Disguise",
+   "verse_label": "v. 12",
+   "text": "A changed appearance meant to conceal identity. The record uses the word three times: at Mosiah 12:1 of Abinadi, here of Kishkumen, and at Helaman 2:6 of the servant who penetrates the band by the same means.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 12:1",
+     "start": 89,
+     "end": 100,
+     "book": "Mosiah",
+     "chapter": 12,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
+  },
+  {
+   "term": "Innumerable",
+   "verse_label": "v. 14",
+   "text": "Beyond counting. The record uses the word twice, at Alma 58:8 of a Lamanite army and here of another. Both times it describes a force whose size decides what the Nephites can attempt.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 58:8",
+     "start": 52,
+     "end": 61,
+     "book": "Alma",
+     "chapter": 58,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
+  },
+  {
+   "term": "Tarry",
+   "verse_label": "v. 23",
+   "text": "To linger or remain. The record uses it eleven times, first at 1 Nephi 4:35. Verse 23 has Coriantumr declining to hold the captured city and pressing north instead."
+  },
+  {
+   "term": "Capital",
+   "verse_label": "v. 27",
+   "text": "Chief, principal. Both of the record's uses fall in this one verse, of the capital city and the most capital parts of the land. The word appears nowhere in the King James Bible."
+  },
+  {
+   "term": "Plunged",
+   "verse_label": "v. 32",
+   "text": "Thrust deeply in. The word occurs once in scripture, here, of what a commander did to his own army by marching it into the middle of enemy country."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "There began to be a serious contention concerning who should have the judgment-seat",
+   "verse_label": "v. 2",
+   "text": "The book's first event. Mosiah 29 had replaced kings with judges, and the first transfer after Pahoran's long tenure divides the people three ways."
+  },
+  {
+   "term": "These are not all the sons of Pahoran (for he had many)",
+   "verse_label": "v. 4",
+   "text": "Mormon marks the limit of his own list. Three sons contended; the others are noted and set aside."
+  },
+  {
+   "term": "Pacumeni, when he saw that he could not obtain the judgment-seat, he did unite with the voice of the people",
+   "verse_label": "v. 6",
+   "text": "One of the three losing candidates accepts the result. Verse 13 has him holding the seat lawfully within the year."
+  },
+  {
+   "term": "He was about to flatter away those people to rise up in rebellion",
+   "verse_label": "v. 7",
+   "text": "Paanchi's method, named before he can use it. Flattery had been Amalickiah's instrument in Alma 46 and 47, and the king-men's in Alma 51."
+  },
+  {
+   "term": "He was taken, and was tried according to the voice of the people, and condemned unto death",
+   "verse_label": "v. 8",
+   "text": "The procedure Moroni and Pahoran had used on the men of Pachus. The offense is stated as rebellion and seeking to destroy the liberty of the people."
+  },
+  {
+   "term": "Murdered Pahoran as he sat upon the judgment-seat",
+   "verse_label": "v. 9",
+   "text": "The response of Paanchi's supporters to a lawful execution. Mormon places the murder in the seat itself, during the sitting."
+  },
+  {
+   "term": "They all entered into a covenant, yea, swearing by their everlasting Maker",
+   "verse_label": "v. 11",
+   "text": "The first secret oath in the book. Helaman 6:26 will trace the form of these oaths back past Gadianton."
+  },
+  {
+   "term": "They had not kept sufficient guards in the land of Zarahemla",
+   "verse_label": "v. 18",
+   "text": "The cost of the succession fight, stated plainly. Mormon adds the assumption behind it: that the Lamanites would not dare come inland."
+  },
+  {
+   "term": "It was his determination to go forth and cut his way through with the sword",
+   "verse_label": "v. 23",
+   "text": "Coriantumr's plan after taking the capital. He aims at the north parts and refuses to consolidate what he holds."
+  },
+  {
+   "term": "This march of Coriantumr through the center of the land gave Moronihah great advantage",
+   "verse_label": "v. 25",
+   "text": "Mormon's judgment on the campaign, given while the Nephite dead are still being counted. The same move that took the capital exposed the army that took it."
+  },
+  {
+   "term": "Thus had Coriantumr plunged the Lamanites into the midst of the Nephites",
+   "verse_label": "v. 32",
+   "text": "The summary verdict. The word appears nowhere else in scripture, and Mormon uses it of an army placed past the point of retreat by its own commander."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–6",
+   "start": 1,
+   "end": 6,
+   "title": "Three brothers contend",
+   "text": "In the fortieth year Pahoran dies and a serious contention begins over the judgment-seat among his sons. Pahoran, Paanchi, and Pacumeni contend and divide the people three ways. Pahoran is appointed by the voice of the people, and Pacumeni accepts the result."
+  },
+  {
+   "label": "v. 7–8",
+   "start": 7,
+   "end": 8,
+   "title": "Paanchi condemned",
+   "text": "Paanchi and his supporters are wroth, and he is about to flatter them into rebellion. He is taken, tried by the voice of the people, and condemned to death for rebellion and for seeking to destroy the people's liberty."
+  },
+  {
+   "label": "v. 9–13",
+   "start": 9,
+   "end": 13,
+   "title": "The murder and the covenant",
+   "text": "His supporters send Kishkumen, who murders Pahoran on the judgment-seat and escapes too fast to be overtaken. The band swears by their everlasting Maker to tell no one. Kishkumen had been disguised, so he stays unknown, and the band mixes back into the people. Pacumeni is appointed by the voice of the people in his brother's place."
+  },
+  {
+   "label": "v. 14–17",
+   "start": 14,
+   "end": 17,
+   "title": "Tubaloth sends Coriantumr",
+   "text": "In the forty-first year the Lamanites raise an innumerable army with full equipment. Tubaloth, son of Ammoron, appoints Coriantumr, a large and mighty man, a Nephite dissenter descended from Zarahemla, and sends them against the land of Zarahemla."
+  },
+  {
+   "label": "v. 18–22",
+   "start": 18,
+   "end": 22,
+   "title": "Zarahemla taken",
+   "text": "The contention in the government had left too few guards, since no one expected an inland attack. Coriantumr marches so fast that no Nephite army can gather, cuts down the watch at the entrance, takes the whole city, and kills Pacumeni against the wall. Holding the strongest place in the land, he takes courage to go further."
+  },
+  {
+   "label": "v. 23–27",
+   "start": 23,
+   "end": 27,
+   "title": "The march through the center",
+   "text": "He presses toward Bountiful, meaning to cut through to the north, and destroys the Nephites in small bodies before they can assemble. Moronihah had stationed his armies on the borders, expecting attacks there, and the Lamanites came inland instead."
+  },
+  {
+   "label": "v. 28–34",
+   "start": 28,
+   "end": 34,
+   "title": "The trap closes",
+   "text": "Moronihah sends Lehi to head them before Bountiful, and they retreat toward Zarahemla. Moronihah meets them in retreat in a bloody battle where Coriantumr is killed. Ringed on every side, the Lamanites yield. Moronihah retakes Zarahemla and sends the prisoners out of the land in peace."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The book opens where Alma closed",
+   "text": "Alma 62 had restored Pahoran and made peace. Verse 2 kills him, and the peace lasts one verse into the new book."
+  },
+  {
+   "n": 2,
+   "title": "The vote works and is not enough",
+   "text": "Verses 5 and 13 both have the seat filled by the voice of the people. The losing party's answer the second time is an assassin."
+  },
+  {
+   "n": 3,
+   "title": "A band is founded on an oath",
+   "text": "Verse 11 has the covenant of silence before the group has a name. Helaman 2 will attach Gadianton's name to it and Helaman 6 will trace the oaths further back."
+  },
+  {
+   "n": 4,
+   "title": "Disguise runs both directions",
+   "text": "Kishkumen kills in disguise in verse 12, and Helaman 2:6 has a servant using disguise to learn the band's plans."
+  },
+  {
+   "n": 5,
+   "title": "Internal fighting opened the gate",
+   "text": "Verse 18 gives the succession crisis as the reason the capital was thinly held. The record connects the political fight to the military loss directly."
+  },
+  {
+   "n": 6,
+   "title": "Both sides were beaten by their assumptions",
+   "text": "Moronihah assumed the borders were the target. Coriantumr assumed a captured capital meant the country. Verses 25 and 26 put the two errors side by side."
+  },
+  {
+   "n": 7,
+   "title": "The record credits the enemy's mistake, not Nephite virtue",
+   "text": "Verse 25 says the march gave Moronihah the advantage. Mormon adds that many Nephites were slain anyway."
+  },
+  {
+   "n": 8,
+   "title": "The prisoners are released",
+   "text": "Verse 33 has Moronihah sending surviving Lamanites out of the land in peace, the practice Alma 62 had already established."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Losing well is a real contribution",
+    "verse_label": "v. 6",
+    "text": "Pacumeni united with the voice of the people when he could not win, and held the office lawfully within the year. How you lose determines what you are trusted with next."
+   },
+   {
+    "title": "Watch the interior while you argue",
+    "verse_label": "v. 18",
+    "text": "The guards were thin because the government was busy with itself. Internal conflict costs attention somewhere, and the cost lands where nobody is looking."
+   },
+   {
+    "title": "Name the assumption behind the deployment",
+    "verse_label": "v. 26",
+    "text": "Moronihah put his armies where he expected the attack. Write down what your plan assumes, so you notice when the assumption stops holding."
+   },
+   {
+    "title": "A gain you cannot hold is exposure",
+    "verse_label": "v. 23",
+    "text": "Coriantumr took the capital and immediately pushed past it. Ask what a win commits you to before you take it."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What in my life is set up to fall apart when one person leaves?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "When did I last accept a decision that went against me?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "What am I about to talk people into, and would it survive a hearing?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "What have I agreed to keep quiet about?"
+   },
+   {
+    "verse_label": "v. 18",
+    "start": 18,
+    "end": 18,
+    "text": "What have I left unguarded while dealing with a conflict?"
+   },
+   {
+    "verse_label": "v. 26",
+    "start": 26,
+    "end": 26,
+    "text": "What am I sure an opponent would never do?"
+   },
+   {
+    "verse_label": "v. 32",
+    "start": 32,
+    "end": 32,
+    "text": "What have I pushed so far into that retreat is no longer open?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "hel01-001",
+   "scope": "BOOK",
+   "head": "Hel. 2:6",
+   "anchor": {
+    "verse": 12,
+    "w1": 12,
+    "w2": 22,
+    "quote": "he was in disguise at the time that he murdered Pahoran"
+   },
+   "reason": "the same method used against the band, by a servant, a year later",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 2,
+     "verse": 6,
+     "w1": 29,
+     "w2": 37,
+     "quote": "having obtained, through disguise, a knowledge of those plans",
+     "verse_text": "And it came to pass as he went forth towards the judgment-seat to destroy Helaman, behold one of the servants of Helaman, having been out by night, and having obtained, through disguise, a knowledge of those plans which had been laid by this band to destroy Helaman—",
+     "markdown": "And it came to pass as he went forth towards the judgment-seat to destroy Helaman, behold one of the servants of Helaman, having been out by night, and **having obtained, through disguise, a knowledge of those plans** which had been laid by this band to destroy Helaman—",
+     "span": true
+    }
+   ],
+   "mirror": "hel02-003"
+  },
+  {
+   "id": "hel01-002",
+   "scope": "BOOK",
+   "head": "Hel. 6:26",
+   "anchor": {
+    "verse": 11,
+    "w1": 17,
+    "w2": 27,
+    "quote": "swearing by their everlasting Maker, that they would tell no man"
+   },
+   "reason": "the record tracing the form of these oaths past Gadianton",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 6,
+     "verse": 26,
+     "w1": 3,
+     "w2": 13,
+     "quote": "those secret oaths and covenants did not come forth unto Gadianton",
+     "verse_text": "Now behold, those secret oaths and covenants did not come forth unto Gadianton from the records which were delivered unto Helaman; but behold, they were put into the heart of Gadianton by that same being who did entice our first parents to partake of the forbidden fruit—",
+     "markdown": "Now behold, **those secret oaths and covenants did not come forth unto Gadianton** from the records which were delivered unto Helaman; but behold, they were put into the heart of Gadianton by that same being who did entice our first parents to partake of the forbidden fruit—",
+     "span": true
+    }
+   ],
+   "mirror": "hel06-002"
+  },
+  {
+   "id": "hel01-003",
+   "scope": "BOOK",
+   "head": "Hel. 2:2",
+   "anchor": {
+    "verse": 13,
+    "w1": 4,
+    "w2": 13,
+    "quote": "Pacumeni was appointed, according to the voice of the people"
+   },
+   "reason": "the next election, held after this judge is killed too",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 2,
+     "verse": 2,
+     "w1": 7,
+     "w2": 19,
+     "quote": "Helaman, who was the son of Helaman, was appointed to fill the judgment-seat,",
+     "verse_text": "And it came to pass that Helaman, who was the son of Helaman, was appointed to fill the judgment-seat, by the voice of the people.",
+     "markdown": "And it came to pass that **Helaman, who was the son of Helaman, was appointed to fill the judgment-seat**, by the voice of the people.",
+     "span": true
+    }
+   ],
+   "mirror": "hel02-002"
+  },
+  {
+   "id": "hel01-004",
+   "scope": "BOM",
+   "head": "Alma 62:44",
+   "anchor": {
+    "verse": 2,
+    "w1": 3,
+    "w2": 13,
+    "quote": "Pahoran had died, and gone the way of all the earth"
+   },
+   "reason": "the same man restored to his seat at the end of the war",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 62,
+     "verse": 44,
+     "w1": 2,
+     "w2": 7,
+     "quote": "Pahoran did return to his judgment-seat;",
+     "verse_text": "And Pahoran did return to his judgment-seat; and Helaman did take upon him again to preach unto the people the word of God; for because of so many wars and contentions it had become expedient that a regulation should be made again in the church.",
+     "markdown": "And **Pahoran did return to his judgment-seat**; and Helaman did take upon him again to preach unto the people the word of God; for because of so many wars and contentions it had become expedient that a regulation should be made again in the church.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel01-005",
+   "scope": "BOM",
+   "head": "Alma 51:5",
+   "anchor": {
+    "verse": 7,
+    "w1": 23,
+    "w2": 35,
+    "quote": "he was about to flatter away those people to rise up in rebellion"
+   },
+   "reason": "the king-men, who wanted the same seat by the same means",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 51,
+     "verse": 5,
+     "w1": 7,
+     "w2": 18,
+     "quote": "those who were desirous that Pahoran should be dethroned from the judgment-seat",
+     "verse_text": "And it came to pass that those who were desirous that Pahoran should be dethroned from the judgment-seat were called king-men, for they were desirous that the law should be altered in a manner to overthrow the free government and to establish a king over the land.",
+     "markdown": "And it came to pass that **those who were desirous that Pahoran should be dethroned from the judgment-seat** were called king-men, for they were desirous that the law should be altered in a manner to overthrow the free government and to establish a king over the land.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel01-006",
+   "scope": "BOM",
+   "head": "Alma 62:9",
+   "anchor": {
+    "verse": 8,
+    "w1": 14,
+    "w2": 30,
+    "quote": "he was taken, and was tried according to the voice of the people, and condemned unto death"
+   },
+   "reason": "the men of Pachus tried and executed under the same law",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 62,
+     "verse": 9,
+     "w1": 2,
+     "w2": 12,
+     "quote": "the men of Pachus received their trial, according to the law,",
+     "verse_text": "And the men of Pachus received their trial, according to the law, and also those king-men who had been taken and cast into prison; and they were executed according to the law; yea, those men of Pachus and those king-men, whosoever would not take up arms in the defence of their country, but would fight against it, were put to death.",
+     "markdown": "And **the men of Pachus received their trial, according to the law**, and also those king-men who had been taken and cast into prison; and they were executed according to the law; yea, those men of Pachus and those king-men, whosoever would not take up arms in the defence of their country, but would fight against it, were put to death.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel01-007",
+   "scope": "BOM",
+   "head": "Alma 62:38",
+   "anchor": {
+    "verse": 14,
+    "w1": 19,
+    "w2": 28,
+    "quote": "the Lamanites had gathered together an innumerable army of men"
+   },
+   "reason": "the driving out that ended the last war, twenty years earlier",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 62,
+     "verse": 38,
+     "w1": 38,
+     "w2": 52,
+     "quote": "they did flee, even that they did not return at that time against the Nephites.",
+     "verse_text": "Now it came to pass that Moroni marched forth on the morrow, and came upon the Lamanites, insomuch that they did slay them with a great slaughter; and they did drive them out of the land; and they did flee, even that they did not return at that time against the Nephites.",
+     "markdown": "Now it came to pass that Moroni marched forth on the morrow, and came upon the Lamanites, insomuch that they did slay them with a great slaughter; and they did drive them out of the land; and **they did flee, even that they did not return at that time against the Nephites**.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel01-008",
+   "scope": "BOM",
+   "head": "Omni 1:15",
+   "anchor": {
+    "verse": 15,
+    "w1": 26,
+    "w2": 31,
+    "quote": "he was a descendant of Zarahemla"
+   },
+   "reason": "where that people came from, and when",
+   "targets": [
+    {
+     "ref": "Omni",
+     "chapter": 1,
+     "verse": 15,
+     "w1": 10,
+     "w2": 17,
+     "quote": "the people of Zarahemla came out from Jerusalem",
+     "verse_text": "Behold, it came to pass that Mosiah discovered that the people of Zarahemla came out from Jerusalem at the time that Zedekiah, king of Judah, was carried away captive into Babylon.",
+     "markdown": "Behold, it came to pass that Mosiah discovered that **the people of Zarahemla came out from Jerusalem** at the time that Zedekiah, king of Judah, was carried away captive into Babylon.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel01-009",
+   "scope": "BOM",
+   "head": "Alma 52:3",
+   "anchor": {
+    "verse": 16,
+    "w1": 10,
+    "w2": 16,
+    "quote": "Tubaloth, who was the son of Ammoron"
+   },
+   "reason": "his father taking the Lamanite crown after Amalickiah died",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 52,
+     "verse": 3,
+     "w1": 22,
+     "w2": 36,
+     "quote": "thus king Ammoron, the brother of king Amalickiah, was appointed to reign in his stead.",
+     "verse_text": "And it came to pass that the brother of Amalickiah was appointed king over the people; and his name was Ammoron; thus king Ammoron, the brother of king Amalickiah, was appointed to reign in his stead.",
+     "markdown": "And it came to pass that the brother of Amalickiah was appointed king over the people; and his name was Ammoron; **thus king Ammoron, the brother of king Amalickiah, was appointed to reign in his stead**.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel01-010",
+   "scope": "SW",
+   "head": "Judg. 3:26",
+   "anchor": {
+    "verse": 10,
+    "w1": 12,
+    "w2": 24,
+    "quote": "so speedy was the flight of Kishkumen that no man could overtake him"
+   },
+   "reason": "Ehud getting clear while the dead king’s servants waited outside",
+   "targets": [
+    {
+     "ref": "Judg.",
+     "chapter": 3,
+     "verse": 26,
+     "w1": 1,
+     "w2": 6,
+     "quote": "And Ehud escaped while they tarried,",
+     "verse_text": "And Ehud escaped while they tarried, and passed beyond the quarries, and escaped unto Seirath.",
+     "markdown": "**And Ehud escaped while they tarried**, and passed beyond the quarries, and escaped unto Seirath.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 3,
+   "w2": 13,
+   "quote": "Pahoran had died, and gone the way of all the earth",
+   "entries": [
+    "hel01-004"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 23,
+   "w2": 35,
+   "quote": "he was about to flatter away those people to rise up in rebellion",
+   "entries": [
+    "hel01-005"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 14,
+   "w2": 30,
+   "quote": "he was taken, and was tried according to the voice of the people, and condemned unto death",
+   "entries": [
+    "hel01-006"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 12,
+   "w2": 24,
+   "quote": "so speedy was the flight of Kishkumen that no man could overtake him",
+   "entries": [
+    "hel01-010"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 17,
+   "w2": 27,
+   "quote": "swearing by their everlasting Maker, that they would tell no man",
+   "entries": [
+    "hel01-002"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 12,
+   "w2": 22,
+   "quote": "he was in disguise at the time that he murdered Pahoran",
+   "entries": [
+    "hel01-001"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 4,
+   "w2": 13,
+   "quote": "Pacumeni was appointed, according to the voice of the people",
+   "entries": [
+    "hel01-003"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 19,
+   "w2": 28,
+   "quote": "the Lamanites had gathered together an innumerable army of men",
+   "entries": [
+    "hel01-007"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 26,
+   "w2": 31,
+   "quote": "he was a descendant of Zarahemla",
+   "entries": [
+    "hel01-008"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 10,
+   "w2": 16,
+   "quote": "Tubaloth, who was the son of Ammoron",
+   "entries": [
+    "hel01-009"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "1513f23179692d80"
+ }
+}

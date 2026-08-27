@@ -1,0 +1,637 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 48,
+  "volume_order": "08",
+  "speakers": [
+   "Mormon, abridging"
+  ],
+  "audience": "Readers of the record",
+  "location": "The Lamanite lands and the Nephite borders",
+  "date": "~72 BC",
+  "unit": "The war chapters (Alma 43–63)",
+  "principles": [
+   "Two men preparing at the same time",
+   "A character described at length",
+   ""
+  ],
+  "connections": 9,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Amalickiah uses towers for propaganda",
+   "text": "Verse 1 says he appointed men to speak to the Lamanites from their towers against the Nephites. The campaign begins with a speaking programme."
+  },
+  {
+   "n": 2,
+   "title": "His captains are Zoramite dissenters",
+   "text": "Verse 5 says they knew the Nephite strength, the places of resort, and the weakest parts of the cities. He staffs the command with men who have the intelligence."
+  },
+  {
+   "n": 3,
+   "title": "Mormon runs the two preparations side by side",
+   "text": "Verse 7 sets Amalickiah obtaining power by fraud against Moroni preparing the minds of the people. The comparison is the chapter's structure."
+  },
+  {
+   "n": 4,
+   "title": "The fortifications are described concretely",
+   "text": "Verse 8 gives small forts, banks of earth thrown up, and walls of stone around cities and borders. Verse 9 says the weakest points got the most men."
+  },
+  {
+   "n": 5,
+   "title": "The Nephite rule of engagement is stated",
+   "text": "Verse 14 has them taught to defend themselves, never to give offense, and never to raise the sword except against an enemy or to preserve their lives."
+  },
+  {
+   "n": 6,
+   "title": "Mormon makes his strongest personal claim here",
+   "text": "Verse 17 says that if all men were like Moroni the powers of hell would be shaken forever. He says nothing comparable about anyone else."
+  },
+  {
+   "n": 7,
+   "title": "He immediately shares the credit",
+   "text": "Verses 18 and 19 put Moroni beside Ammon, the sons of Mosiah, Alma and his sons, and say Helaman and his brethren were no less serviceable."
+  }
+ ],
+ "words": [
+  {
+   "term": "Resort",
+   "verse_label": "v. 5",
+   "text": "Treated at Mosiah 11:12, of a tower Noah built. The phrase places of resort occurs three times in this record and never in the King James Bible, and here it names the fortified points a Zoramite captain would know how to find.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 11:12",
+     "start": 11,
+     "end": 23,
+     "book": "Mosiah",
+     "chapter": 11,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
+  },
+  {
+   "term": "Fortify",
+   "verse_label": "v. 9",
+   "text": "Treated at 2 Nephi 10:12. The related noun fortifications occurs ten times in this record and never in the King James Bible, mostly across these war chapters. Verse 9 gives Moroni's principle: the most men at the weakest points."
+  },
+  {
+   "term": "Understanding",
+   "verse_label": "v. 11",
+   "text": "Comprehension, judgment. Mormon calls Moroni a man of a perfect understanding, a phrase used once in this record and once in the King James Bible, where Luke claims it of his own research before writing his gospel."
+  },
+  {
+   "term": "Serviceable",
+   "verse_label": "v. 19",
+   "text": "Useful, of service. The word occurs once in scripture. Mormon uses it to say Helaman and his brethren were no less serviceable than Moroni, which is his way of ranking preaching level with defense."
+  },
+  {
+   "term": "Reluctance",
+   "verse_label": "v. 22",
+   "text": "Unwillingness. The word occurs once in scripture. Mormon uses it of a people whose wars did not cease for many years, and he uses the adverb in verse 21 as well."
+  },
+  {
+   "term": "Barbarous",
+   "verse_label": "v. 24",
+   "text": "Savage, uncivilized. The word occurs once in this record and once in the King James Bible, of the islanders who showed Paul kindness after the shipwreck. Mormon uses it of what dissenters would do to Nephite families."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "He did appoint men to speak unto the Lamanites from their towers",
+   "verse_label": "v. 1",
+   "text": "The war opens with speeches. Amalickiah's first act as king is to organize a campaign of address, and verse 3 gives the result: hardened hearts, blinded minds, a numerous host."
+  },
+  {
+   "term": "They being the most acquainted with the strength of the Nephites",
+   "verse_label": "v. 5",
+   "text": "The value of a dissenter, stated plainly. Zoramite captains bring knowledge of the resorts and the weak points, which is why they get the commands."
+  },
+  {
+   "term": "While Amalickiah had thus been obtaining power by fraud and deceit, Moroni, on the other hand, had been preparing the minds of the people",
+   "verse_label": "v. 7",
+   "text": "Mormon's hinge sentence. The same months produced two kinds of preparation, and the rest of the chapter unfolds the second."
+  },
+  {
+   "term": "In their weakest fortifications he did place the greater number of men",
+   "verse_label": "v. 9",
+   "text": "Moroni's method in one line. The principle is that strength goes where the danger is, and Alma 49 shows the Lamanites arriving at exactly those points."
+  },
+  {
+   "term": "That which was called by their enemies the cause of Christians",
+   "verse_label": "v. 10",
+   "text": "Mormon repeats the point of Alma 46: the name came from outside. Here it names what the fortifications were built to protect."
+  },
+  {
+   "term": "A man that did not delight in bloodshed",
+   "verse_label": "v. 11",
+   "text": "The first thing Mormon says about Moroni's character after his strength. The whole portrait in verses 11 through 13 is built out of what he loved and what he had sworn."
+  },
+  {
+   "term": "Never to give an offense, yea, and never to raise the sword except it were against an enemy",
+   "verse_label": "v. 14",
+   "text": "The Nephite rule of engagement. Alma 43 quoted the Lord on the first and second offense; here Mormon gives it as standing instruction rather than as a ruling."
+  },
+  {
+   "term": "If all men had been, and were, and ever would be, like unto Moroni",
+   "verse_label": "v. 17",
+   "text": "Mormon's own claim, and the strongest he makes about any person in the record. He says the powers of hell would have been shaken forever."
+  },
+  {
+   "term": "He was a man like unto Ammon, the son of Mosiah",
+   "verse_label": "v. 18",
+   "text": "Mormon widens the praise immediately. The list runs through the sons of Mosiah, Alma and his sons, and verse 19 adds Helaman and his brethren as no less serviceable."
+  },
+  {
+   "term": "They were sorry to be the means of sending so many of their brethren out of this world",
+   "verse_label": "v. 23",
+   "text": "The reason for the reluctance, and it is theological. The Nephites are grieved at sending men to meet God unprepared, which is a concern about the enemy's standing rather than their own."
+  },
+  {
+   "term": "They could not suffer to lay down their lives, that their wives and their children should be massacred",
+   "verse_label": "v. 24",
+   "text": "The limit on the reluctance. Mormon states the sorrow first and the refusal second, and the two verses together are his account of why they fought at all."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–6",
+   "start": 1,
+   "end": 6,
+   "title": "Amalickiah prepares",
+   "text": "As soon as he has the kingdom he sets men speaking from towers against the Nephites, hardening hearts and blinding minds until he has a numerous host. He wants to rule both peoples. He appoints Zoramite captains who know the Nephite strength and weak points, and marches for Zarahemla."
+  },
+  {
+   "label": "v. 7–10",
+   "start": 7,
+   "end": 10,
+   "title": "Moroni prepares",
+   "text": "While Amalickiah gained power by fraud, Moroni was preparing minds to be faithful. He strengthens the armies, builds small forts, throws up banks of earth, walls cities and borders with stone, and puts the most men at the weakest points, to support liberty, lands, wives, children, peace, and the cause of Christians."
+  },
+  {
+   "label": "v. 11–13",
+   "start": 11,
+   "end": 13,
+   "title": "The portrait",
+   "text": "Strong and mighty, of a perfect understanding, not delighting in bloodshed, joying in liberty and in his brethren's freedom, thankful for God's blessings, laboring for his people's welfare, firm in the faith of Christ, and sworn to defend his people even to the loss of his blood."
+  },
+  {
+   "label": "v. 14–16",
+   "start": 14,
+   "end": 16,
+   "title": "The doctrine of their defense",
+   "text": "Taught to defend themselves to the shedding of blood if necessary, never to give offense, never to raise the sword except against an enemy or to preserve life. Their faith was that God would prosper them, warn them, and show them where to go, and Moroni gloried in that rather than in blood."
+  },
+  {
+   "label": "v. 17–19",
+   "start": 17,
+   "end": 19,
+   "title": "Mormon's judgment",
+   "text": "If all men were like Moroni the powers of hell would be shaken forever and the devil would have no power over men's hearts. He was like Ammon and the sons of Mosiah, like Alma and his sons. Helaman and his brethren were no less serviceable, preaching and baptizing."
+  },
+  {
+   "label": "v. 20–22",
+   "start": 20,
+   "end": 22,
+   "title": "Four years of peace",
+   "text": "The people humbled themselves and were highly favored, free from wars and contentions among themselves for four years. Then, in the latter end of the nineteenth year, they were compelled reluctantly to contend, and the wars did not cease for many years."
+  },
+  {
+   "label": "v. 23–25",
+   "start": 23,
+   "end": 25,
+   "title": "Why they fought",
+   "text": "They were sorry to take up arms, not delighting in blood, and sorry to send men unprepared into an eternal world. But they could not let their wives and children be massacred by the barbarous cruelty of former brethren, nor let those men rejoice over Nephite blood while any kept the commandments."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "Two preparations, one sentence apart",
+   "text": "Verse 7 puts Amalickiah's fraud and Moroni's teaching in the same clause. Mormon organizes the whole chapter as a comparison of how two men spent the same months."
+  },
+  {
+   "n": 2,
+   "title": "The war opens with speeches on both sides",
+   "text": "Amalickiah appoints men to speak from towers; Moroni prepares minds to be faithful. Before any army moves, both leaders are working on what people believe."
+  },
+  {
+   "n": 3,
+   "title": "The fortification principle is stated once and used repeatedly",
+   "text": "Most men at the weakest points. Alma 49 through 52 are largely the working out of that sentence."
+  },
+  {
+   "n": 4,
+   "title": "The character sketch is unusually long",
+   "text": "Three verses of praise for a living man, in a record that rarely pauses for portraits. Mormon is establishing a standard he will measure others against."
+  },
+  {
+   "n": 5,
+   "title": "Mormon's strongest claim is about a soldier",
+   "text": "The powers of hell shaken forever. He then names five other men and a group of preachers in the next two verses, which keeps the claim from being about the office."
+  },
+  {
+   "n": 6,
+   "title": "The rule forbids giving offense",
+   "text": "Not merely starting wars. Verse 14 sets a standard on conduct that is stricter than the permission to fight."
+  },
+  {
+   "n": 7,
+   "title": "The reluctance is given two grounds and one limit",
+   "text": "They did not want blood, and they did not want men dying unprepared. What overrode both was what would happen to their families."
+  },
+  {
+   "n": 8,
+   "title": "Four years of peace fit in one verse",
+   "text": "Verse 20 covers them and verse 21 ends them. Mormon gives the whole war block its pace here: long stretches summarized, single days at length."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Put your strength where you are weakest",
+    "verse_label": "v. 9",
+    "text": "Moroni reinforced the poorest fortifications. Identify the part of your life or work that would fail first, and put resources there rather than into what is already strong."
+   },
+   {
+    "title": "Prepare minds before you prepare defenses",
+    "verse_label": "v. 7",
+    "text": "Mormon lists Moroni's teaching before his walls. When something difficult is coming, the first work is on what people understand and expect."
+   },
+   {
+    "title": "Say what you will not do",
+    "verse_label": "v. 14",
+    "text": "Never give offense, never raise the sword except against an enemy. Write down the things you will not do in a conflict, before you are in one."
+   },
+   {
+    "title": "Let the reluctance stay",
+    "verse_label": "v. 23",
+    "text": "The Nephites fought and remained sorry about it. When you have to do something hard and justified, you do not have to stop regretting that it was necessary."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "Who is speaking to me daily, and what are they for?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "What does someone who left know about my weak points?"
+   },
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "What have I been preparing while somebody else prepared something else?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "If someone described my character in three sentences, what would be first?"
+   },
+   {
+    "verse_label": "v. 14",
+    "start": 14,
+    "end": 14,
+    "text": "What offense have I given without thinking of it as one?"
+   },
+   {
+    "verse_label": "v. 17",
+    "start": 17,
+    "end": 17,
+    "text": "What would be true of the world if everyone were like me?"
+   },
+   {
+    "verse_label": "v. 23",
+    "start": 23,
+    "end": 23,
+    "text": "What have I done that was right and still grieved me?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al48-001",
+   "scope": "BOOK",
+   "head": "Alma 46:12",
+   "anchor": {
+    "verse": 10,
+    "w1": 8,
+    "w2": 16,
+    "quote": "their liberty, their lands, their wives, and their children"
+   },
+   "reason": "the same six things, written on the title of liberty",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 46,
+     "verse": 12,
+     "w1": 25,
+     "w2": 31,
+     "quote": "our religion, and freedom, and our peace,",
+     "verse_text": "And it came to pass that he rent his coat; and he took a piece thereof, and wrote upon it—In memory of our God, our religion, and freedom, and our peace, our wives, and our children—and he fastened it upon the end of a pole.",
+     "markdown": "And it came to pass that he rent his coat; and he took a piece thereof, and wrote upon it—In memory of our God, **our religion, and freedom, and our peace**, our wives, and our children—and he fastened it upon the end of a pole.",
+     "span": true
+    }
+   ],
+   "mirror": "al46-003"
+  },
+  {
+   "id": "al48-002",
+   "scope": "BOOK",
+   "head": "Alma 46:15",
+   "anchor": {
+    "verse": 10,
+    "w1": 42,
+    "w2": 45,
+    "quote": "the cause of Christians"
+   },
+   "reason": "where the name is explained, given from outside and taken gladly",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 46,
+     "verse": 15,
+     "w1": 20,
+     "w2": 27,
+     "quote": "took upon them, gladly, the name of Christ,",
+     "verse_text": "And those who did belong to the church were faithful; yea, all those who were true believers in Christ took upon them, gladly, the name of Christ, or Christians as they were called, because of their belief in Christ who should come.",
+     "markdown": "And those who did belong to the church were faithful; yea, all those who were true believers in Christ **took upon them, gladly, the name of Christ**, or Christians as they were called, because of their belief in Christ who should come.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al48-003",
+   "scope": "BOOK",
+   "head": "Alma 49:8",
+   "anchor": {
+    "verse": 9,
+    "w1": 2,
+    "w2": 13,
+    "quote": "in their weakest fortifications he did place the greater number of men"
+   },
+   "reason": "the Lamanites arriving at those very points, one chapter later",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 49,
+     "verse": 8,
+     "w1": 7,
+     "w2": 19,
+     "quote": "they were prepared for them, in a manner which never had been known",
+     "verse_text": "But behold, to their uttermost astonishment, they were prepared for them, in a manner which never had been known among the children of Lehi. Now they were prepared for the Lamanites, to battle after the manner of the instructions of Moroni.",
+     "markdown": "But behold, to their uttermost astonishment, **they were prepared for them, in a manner which never had been known** among the children of Lehi. Now they were prepared for the Lamanites, to battle after the manner of the instructions of Moroni.",
+     "span": true
+    }
+   ],
+   "mirror": "al49-001"
+  },
+  {
+   "id": "al48-004",
+   "scope": "BOOK",
+   "head": "Alma 43:46",
+   "anchor": {
+    "verse": 14,
+    "w1": 35,
+    "w2": 45,
+    "quote": "never to raise the sword except it were against an enemy"
+   },
+   "reason": "the Lord quoted on the same rule, at the first battle",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 43,
+     "verse": 46,
+     "w1": 31,
+     "w2": 31,
+     "quote": "Inasmuch",
+     "verse_text": "And they were doing that which they felt was the duty which they owed to their God; for the Lord had said unto them, and also unto their fathers, that: Inasmuch as ye are not guilty of the first offense, neither the second, ye shall not suffer yourselves to be slain by the hands of your enemies.",
+     "markdown": "And they were doing that which they felt was the duty which they owed to their God; for the Lord had said unto them, and also unto their fathers, that: **Inasmuch** as ye are not guilty of the first offense, neither the second, ye shall not suffer yourselves to be slain by the hands of your enemies.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al48-005",
+   "scope": "BOM",
+   "head": "Mosiah 11:12",
+   "anchor": {
+    "verse": 5,
+    "w1": 23,
+    "w2": 26,
+    "quote": "their places of resort"
+   },
+   "reason": "the word treated in full, of the tower Noah built",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 11,
+     "verse": 12,
+     "w1": 7,
+     "w2": 13,
+     "quote": "he built a tower near the temple;",
+     "verse_text": "And it came to pass that he built a tower near the temple; yea, a very high tower, even so high that he could stand upon the top thereof and overlook the land of Shilom, and also the land of Shemlon, which was possessed by the Lamanites; and he could even look over all the land round about.",
+     "markdown": "And it came to pass that **he built a tower near the temple**; yea, a very high tower, even so high that he could stand upon the top thereof and overlook the land of Shilom, and also the land of Shemlon, which was possessed by the Lamanites; and he could even look over all the land round about.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al48-006",
+   "scope": "BOM",
+   "head": "2 Ne. 10:12",
+   "anchor": {
+    "verse": 9,
+    "w1": 15,
+    "w2": 22,
+    "quote": "thus he did fortify and strengthen the land"
+   },
+   "reason": "the Lord promising to fortify the same land against all nations",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 10,
+     "verse": 12,
+     "w1": 2,
+     "w2": 10,
+     "quote": "I will fortify this land against all other nations.",
+     "verse_text": "And I will fortify this land against all other nations.",
+     "markdown": "And **I will fortify this land against all other nations**.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al48-007",
+   "scope": "SW",
+   "head": "Luke 1:3",
+   "anchor": {
+    "verse": 11,
+    "w1": 12,
+    "w2": 17,
+    "quote": "a man of a perfect understanding"
+   },
+   "reason": "the King James Bible’s one use of the phrase",
+   "targets": [
+    {
+     "ref": "Luke",
+     "chapter": 1,
+     "verse": 3,
+     "w1": 7,
+     "w2": 13,
+     "quote": "having had perfect understanding of all things",
+     "verse_text": "It seemed good to me also, having had perfect understanding of all things from the very first, to write unto thee in order, most excellent Theophilus,",
+     "markdown": "It seemed good to me also, **having had perfect understanding of all things** from the very first, to write unto thee in order, most excellent Theophilus,",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al48-008",
+   "scope": "SW",
+   "head": "Acts 28:2",
+   "anchor": {
+    "verse": 24,
+    "w1": 21,
+    "w2": 30,
+    "quote": "the barbarous cruelty of those who were once their brethren"
+   },
+   "reason": "the same word, of islanders who showed Paul kindness",
+   "targets": [
+    {
+     "ref": "Acts",
+     "chapter": 28,
+     "verse": 2,
+     "w1": 2,
+     "w2": 9,
+     "quote": "the barbarous people shewed us no little kindness:",
+     "verse_text": "And the barbarous people shewed us no little kindness: for they kindled a fire, and received us every one, because of the present rain, and because of the cold.",
+     "markdown": "And **the barbarous people shewed us no little kindness**: for they kindled a fire, and received us every one, because of the present rain, and because of the cold.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al48-009",
+   "scope": "SW",
+   "head": "Neh. 4:13",
+   "anchor": {
+    "verse": 9,
+    "w1": 2,
+    "w2": 13,
+    "quote": "in their weakest fortifications he did place the greater number of men"
+   },
+   "reason": "Nehemiah setting people at the lowest and most open places",
+   "targets": [
+    {
+     "ref": "Neh.",
+     "chapter": 4,
+     "verse": 13,
+     "w1": 2,
+     "w2": 10,
+     "quote": "set I in the lower places behind the wall,",
+     "verse_text": "Therefore set I in the lower places behind the wall, and on the higher places, I even set the people after their families with their swords, their spears, and their bows.",
+     "markdown": "Therefore **set I in the lower places behind the wall**, and on the higher places, I even set the people after their families with their swords, their spears, and their bows.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 5,
+   "w1": 23,
+   "w2": 26,
+   "quote": "their places of resort",
+   "entries": [
+    "al48-005"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 2,
+   "w2": 13,
+   "quote": "in their weakest fortifications he did place the greater number of men",
+   "entries": [
+    "al48-003",
+    "al48-009"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 15,
+   "w2": 22,
+   "quote": "thus he did fortify and strengthen the land",
+   "entries": [
+    "al48-006"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 8,
+   "w2": 16,
+   "quote": "their liberty, their lands, their wives, and their children",
+   "entries": [
+    "al48-001"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 42,
+   "w2": 45,
+   "quote": "the cause of Christians",
+   "entries": [
+    "al48-002"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 12,
+   "w2": 17,
+   "quote": "a man of a perfect understanding",
+   "entries": [
+    "al48-007"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 35,
+   "w2": 45,
+   "quote": "never to raise the sword except it were against an enemy",
+   "entries": [
+    "al48-004"
+   ]
+  },
+  {
+   "verse": 24,
+   "w1": 21,
+   "w2": 30,
+   "quote": "the barbarous cruelty of those who were once their brethren",
+   "entries": [
+    "al48-008"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "b7d9c8b415a335c0"
+ }
+}

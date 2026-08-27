@@ -1,0 +1,754 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 60,
+  "volume_order": "08",
+  "speakers": [
+   "Moroni, by letter"
+  ],
+  "audience": "Pahoran and the governors at Zarahemla",
+  "location": "Moroni's camp on the east, addressed to Zarahemla",
+  "date": "~62 BC",
+  "unit": "The war chapters (Alma 43–63)",
+  "principles": [
+   "A charge made on incomplete information",
+   "The inward vessel cleansed"
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "This is Moroni's second letter",
+   "text": "Verse 1 says he wrote again. Alma 59:3 summarized the first, which asked that men be gathered to strengthen Helaman.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 59:3",
+     "start": 29,
+     "end": 38,
+     "book": "Alma",
+     "chapter": 59,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "The letter follows the loss of Nephihah",
+   "text": "Alma 59:11 has Moroni sorrowful and doubting, and Alma 59:13 has him angry with the government. Verse 1 begins immediately after.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 59:11",
+     "start": 0,
+     "end": 10,
+     "book": "Alma",
+     "chapter": 59,
+     "verse_start": 11,
+     "verse_end": 11
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 59:13",
+     "start": 50,
+     "end": 60,
+     "book": "Alma",
+     "chapter": 59,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "It is addressed past Pahoran",
+   "text": "Verse 1 names the chief judge and then widens to all who have been chosen to govern and manage the affairs of the war."
+  },
+  {
+   "n": 4,
+   "title": "Moroni argues from what he cannot see",
+   "text": "Verses 18 and 19 say twice that he does not know, and then supplies possible reasons: ambition, treason, or the comfort of the interior."
+  },
+  {
+   "n": 5,
+   "title": "The king-men rebellion is his stated first cause",
+   "text": "Verses 15 through 17 trace the whole Lamanite advance back to the internal war of Alma 51."
+  },
+  {
+   "n": 6,
+   "title": "The threat is specific",
+   "text": "Verses 25 through 30 promise that he will leave part of his force, come to Zarahemla, and act against the government there."
+  },
+  {
+   "n": 7,
+   "title": "Alma 61 answers it",
+   "text": "Pahoran had been driven from Zarahemla by a rebellion and was writing from Gideon. He tells Moroni in Alma 61:9 that the censure does not matter.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 61:9",
+     "start": 102,
+     "end": 111,
+     "book": "Alma",
+     "chapter": 61,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "term": "Condemnation",
+   "verse_label": "v. 2",
+   "text": "A formal declaration that someone is at fault. The record uses it eighteen times. Moroni names the genre of his letter in its second verse, and uses the word again in verse 12 of the same men."
+  },
+  {
+   "term": "Neglect",
+   "verse_label": "v. 5",
+   "text": "Failure to do what one was appointed to do. The record uses the word seven times, and six of them are in this chapter, at verses 5, 6, 9, 10, 14, and 19. Moroni returns to it as the charge everything else hangs on."
+  },
+  {
+   "term": "Thrones",
+   "verse_label": "v. 7",
+   "text": "Seats of royal power. Moroni applies the word to Nephite judges three times, at verses 7, 11, and 21, in a government that had abolished kings a generation earlier under Mosiah."
+  },
+  {
+   "term": "Traitors",
+   "verse_label": "v. 18",
+   "text": "Those who betray their own country. The word occurs twice in the record, here and at Alma 62:1, where Mormon reports Moroni's joy that Pahoran was not one. The two uses frame the exchange of letters.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 62:1",
+     "start": 85,
+     "end": 94,
+     "book": "Alma",
+     "chapter": 62,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
+  },
+  {
+   "term": "Idleness",
+   "verse_label": "v. 22",
+   "text": "Inactivity, doing nothing. The record uses it six times, first at 1 Nephi 12:23. Moroni pairs it with numbers, thousands and tens of thousands sitting still while others bleed."
+  },
+  {
+   "term": "Bestir",
+   "verse_label": "v. 29",
+   "text": "To rouse oneself to action. The word occurs once in the record and once in the King James Bible, at 2 Samuel 5:24, where David is told to bestir himself when he hears the sound in the mulberry trees."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Also to all those who have been chosen by this people to govern and manage the affairs of this war",
+   "verse_label": "v. 1",
+   "text": "The letter is addressed to an office and a whole body of men. Moroni writes past the individual to everyone holding responsibility for supply."
+  },
+  {
+   "term": "Were this all we had suffered we would not murmur nor complain",
+   "verse_label": "v. 4",
+   "text": "Moroni separates hardship from grievance. Hunger, thirst, and fatigue are listed first and then set aside; the complaint begins at verse 5 with the thousands who fell."
+  },
+  {
+   "term": "We desire to know the cause of this exceedingly great neglect",
+   "verse_label": "v. 6",
+   "text": "Helaman asked the same question in Alma 58:34 and let it go. Moroni asks it and then spends thirty verses answering it himself.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 58:34",
+     "start": 35,
+     "end": 45,
+     "book": "Alma",
+     "chapter": 58,
+     "verse_start": 34,
+     "verse_end": 34
+    }
+   ]
+  },
+  {
+   "term": "Sit upon your thrones in a state of thoughtless stupor",
+   "verse_label": "v. 7",
+   "text": "The image the letter is remembered for. \"Stupor\" occurs nowhere else in scripture, and Moroni sets it against the work of death spreading outside."
+  },
+  {
+   "term": "The blood of thousands shall come upon your heads for vengeance",
+   "verse_label": "v. 10",
+   "text": "The charge stated at its heaviest. Verse 10 also calls the same men beloved brethren, in the same sentence."
+  },
+  {
+   "term": "The Lord suffereth the righteous to be slain that his justice and judgment may come upon the wicked",
+   "verse_label": "v. 13",
+   "text": "Moroni's answer to the idea that battlefield death proves the dead were wicked. He adds that the slain enter into the rest of the Lord."
+  },
+  {
+   "term": "The wickedness which first commenced at our head",
+   "verse_label": "v. 15",
+   "text": "Moroni's account of the whole war. Verses 16 and 17 name the king-men of Alma 51 as the cause, and count the Lamanite advance as its second effect."
+  },
+  {
+   "term": "We know not but what ye are also traitors to your country",
+   "verse_label": "v. 18",
+   "text": "The accusation, made as an admission of ignorance. Moroni says twice in two verses that he does not know, and Alma 61 will show that the answer was neither ambition nor treason."
+  },
+  {
+   "term": "The inward vessel shall be cleansed first",
+   "verse_label": "v. 23",
+   "text": "Moroni attributes the saying to God. Matthew 23:26 has Jesus telling the Pharisees to cleanse first what is within the cup. Verse 24 applies it to the head of the government."
+  },
+  {
+   "term": "I will stir up insurrections among you",
+   "verse_label": "v. 27",
+   "text": "The threat named plainly. Moroni proposes to raise those who still desire freedom in Zarahemla against those holding power there."
+  },
+  {
+   "term": "I seek not for power, but to pull it down",
+   "verse_label": "v. 36",
+   "text": "The closing line of the letter. Moroni signs as chief captain and states what he wants for his country, and Alma 61:9 has Pahoran answering with almost the same words about himself.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 61:9",
+     "start": 108,
+     "end": 117,
+     "book": "Alma",
+     "chapter": 61,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–6",
+   "start": 1,
+   "end": 6,
+   "title": "The address and the charge",
+   "text": "Moroni writes again, to Pahoran and to all who govern the war. He states his purpose as condemnation, lists the sufferings of his men and Helaman's, sets the hardship aside, and names the thousands who fell for want of reinforcement. He asks the cause of the neglect."
+  },
+  {
+   "label": "v. 7–14",
+   "start": 7,
+   "end": 14,
+   "title": "The thrones and the blood",
+   "text": "He asks how they can sit in thoughtless stupor while thousands are murdered, says they withheld provisions from men who bled for the welfare of the people, and warns that the blood of thousands will come upon their heads. He denies that God delivers those who do nothing, and denies that the slain died for their own wickedness. He fears that judgment will come upon the people because of the slothfulness of the government."
+  },
+  {
+   "label": "v. 15–19",
+   "start": 15,
+   "end": 19,
+   "title": "The first cause",
+   "text": "Moroni traces the losses to wickedness that began at the head. The war of the king-men divided the country's strength, and the Lamanite advance followed. He then says he does not know whether the governors are seeking authority, are traitors, or have simply been comfortable in the interior."
+  },
+  {
+   "label": "v. 20–24",
+   "start": 20,
+   "end": 24,
+   "title": "The questions and the vessel",
+   "text": "He asks whether they have forgotten the commandments, the captivity of the fathers, and the deliverances. He asks whether they expect God to save men who will not use the means provided. He calls for repentance and supply, and says the inward vessel must be cleansed first."
+  },
+  {
+   "label": "v. 25–31",
+   "start": 25,
+   "end": 31,
+   "title": "The threat",
+   "text": "If they will not grant the epistle and strengthen the armies, he will leave part of his freemen to hold the land, come to Zarahemla, stir up insurrections among any who still love freedom, and smite those who impede the cause. He says he fears God rather than their power."
+  },
+  {
+   "label": "v. 32–36",
+   "start": 32,
+   "end": 36,
+   "title": "The warrant and the signature",
+   "text": "He asks whether God will spare men whose iniquity comes from love of glory while the Lamanites act from inherited tradition. He reports a word from the Lord authorizing battle against unrepentant governors. He says he is constrained by covenant, asks for provisions and men, and closes by naming himself and what he seeks."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The letter is a legal instrument",
+   "text": "Verse 2 calls it condemnation, verse 1 addresses a whole body of officeholders, and verse 33 cites an authorization. Moroni writes it as a charge, with grounds and a penalty."
+  },
+  {
+   "n": 2,
+   "title": "The charge is made on admitted ignorance",
+   "text": "Verses 18 and 19 say he does not know. The accusation of treason arrives inside a sentence that disclaims knowledge, and the record lets both stand."
+  },
+  {
+   "n": 3,
+   "title": "The facts are wrong and the letter still works",
+   "text": "Alma 61 has Pahoran driven out by rebels who withheld the provisions. Alma 62 has Moroni and Pahoran fighting side by side within the year."
+  },
+  {
+   "n": 4,
+   "title": "Moroni corrects a theology of casualties",
+   "text": "Verses 12 and 13 deny that the dead were the wicked ones and place them in the rest of God. The comfort and the accusation are made in the same breath."
+  },
+  {
+   "n": 5,
+   "title": "Internal division is the stated cause of external defeat",
+   "text": "Verses 15 through 17 make the king-men responsible for Lamanite victories fought years later. Mormon has been building toward this since Alma 46."
+  },
+  {
+   "n": 6,
+   "title": "The inward vessel governs the whole argument",
+   "text": "Verse 23 supplies the principle and verse 24 applies it: the war stops until the head of the government is cleansed."
+  },
+  {
+   "n": 7,
+   "title": "The threat is aimed at office, not at the country",
+   "text": "Verses 27 and 30 promise insurrection and the sword against those who impede freedom. Verse 36 states the aim as pulling power down."
+  },
+  {
+   "n": 8,
+   "title": "Both men disclaim ambition in the same words",
+   "text": "Verse 36 has Moroni seeking no power. Alma 61:9 has Pahoran seeking none save to keep the judgment-seat for the people's liberty.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 61:9",
+     "start": 38,
+     "end": 47,
+     "book": "Alma",
+     "chapter": 61,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Separate the hardship from the grievance",
+    "verse_label": "v. 4",
+    "text": "Moroni listed what he would not complain about before naming what he would. Say plainly which part of a hard situation you accept, so the real objection is audible."
+   },
+   {
+    "title": "Say what you do not know, out loud",
+    "verse_label": "v. 18",
+    "text": "Moroni admitted twice that he was guessing at motives. Marking the guess as a guess is what lets a strong accusation be answered instead of resented."
+   },
+   {
+    "title": "Clean the inside first",
+    "verse_label": "v. 23–24",
+    "text": "Moroni was willing to stop the war until the government was fixed. When the outward effort keeps failing, look at what is generating the failure before spending more."
+   },
+   {
+    "title": "Do not read outcomes as verdicts",
+    "verse_label": "v. 12–13",
+    "text": "Moroni refused to treat the fallen as the guilty. Suffering distributed by circumstance tells you little about who deserved it."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What am I willing to endure without complaint, and have I said so?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "What have I asked the cause of and never received an answer to?"
+   },
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "Where have I been sitting still while something urgent went on?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "Whose suffering have I quietly treated as deserved?"
+   },
+   {
+    "verse_label": "v. 18",
+    "start": 18,
+    "end": 18,
+    "text": "What have I assumed about someone's motives without knowing?"
+   },
+   {
+    "verse_label": "v. 23",
+    "start": 23,
+    "end": 23,
+    "text": "What inward thing needs cleansing before the outward work will hold?"
+   },
+   {
+    "verse_label": "v. 36",
+    "start": 36,
+    "end": 36,
+    "text": "What am I actually seeking, if I say it in one sentence?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al60-001",
+   "scope": "BOOK",
+   "head": "Alma 59:3",
+   "anchor": {
+    "verse": 1,
+    "w1": 7,
+    "w2": 18,
+    "quote": "he wrote again to the governor of the land, who was Pahoran"
+   },
+   "reason": "the first letter, which Mormon summarized instead of quoting",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 59,
+     "verse": 3,
+     "w1": 7,
+     "w2": 13,
+     "quote": "he immediately sent an epistle to Pahoran,",
+     "verse_text": "And it came to pass that he immediately sent an epistle to Pahoran, desiring that he should cause men to be gathered together to strengthen Helaman, or the armies of Helaman, insomuch that he might with ease maintain that part of the land which he had been so miraculously prospered in regaining.",
+     "markdown": "And it came to pass that **he immediately sent an epistle to Pahoran**, desiring that he should cause men to be gathered together to strengthen Helaman, or the armies of Helaman, insomuch that he might with ease maintain that part of the land which he had been so miraculously prospered in regaining.",
+     "span": true
+    }
+   ],
+   "mirror": "al59-002"
+  },
+  {
+   "id": "al60-002",
+   "scope": "BOOK",
+   "head": "Alma 61:2",
+   "anchor": {
+    "verse": 1,
+    "w1": 53,
+    "w2": 71,
+    "quote": "to all those who have been chosen by this people to govern and manage the affairs of this war"
+   },
+   "reason": "the man who answers, writing back as chief governor",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 61,
+     "verse": 2,
+     "w1": 1,
+     "w2": 10,
+     "quote": "I, Pahoran, who am the chief governor of this land,",
+     "verse_text": "I, Pahoran, who am the chief governor of this land, do send these words unto Moroni, the chief captain over the army. Behold, I say unto you, Moroni, that I do not joy in your great afflictions, yea, it grieves my soul.",
+     "markdown": "**I, Pahoran, who am the chief governor of this land**, do send these words unto Moroni, the chief captain over the army. Behold, I say unto you, Moroni, that I do not joy in your great afflictions, yea, it grieves my soul.",
+     "span": true
+    }
+   ],
+   "mirror": "al61-001"
+  },
+  {
+   "id": "al60-003",
+   "scope": "BOOK",
+   "head": "Alma 58:34",
+   "anchor": {
+    "verse": 6,
+    "w1": 4,
+    "w2": 14,
+    "quote": "we desire to know the cause of this exceedingly great neglect"
+   },
+   "reason": "Helaman asking the same question and then setting it aside",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 58,
+     "verse": 34,
+     "w1": 2,
+     "w2": 16,
+     "quote": "we do not know the cause that the government does not grant us more strength;",
+     "verse_text": "Now we do not know the cause that the government does not grant us more strength; neither do those men who came up unto us know why we have not received greater strength.",
+     "markdown": "Now **we do not know the cause that the government does not grant us more strength**; neither do those men who came up unto us know why we have not received greater strength.",
+     "span": true
+    }
+   ],
+   "mirror": "al58-003"
+  },
+  {
+   "id": "al60-004",
+   "scope": "BOOK",
+   "head": "Alma 51:5",
+   "anchor": {
+    "verse": 16,
+    "w1": 19,
+    "w2": 27,
+    "quote": "these king-men, who caused so much bloodshed among ourselves"
+   },
+   "reason": "the movement named, and what its members wanted",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 51,
+     "verse": 5,
+     "w1": 7,
+     "w2": 21,
+     "quote": "those who were desirous that Pahoran should be dethroned from the judgment-seat were called king-men,",
+     "verse_text": "And it came to pass that those who were desirous that Pahoran should be dethroned from the judgment-seat were called king-men, for they were desirous that the law should be altered in a manner to overthrow the free government and to establish a king over the land.",
+     "markdown": "And it came to pass that **those who were desirous that Pahoran should be dethroned from the judgment-seat were called king-men**, for they were desirous that the law should be altered in a manner to overthrow the free government and to establish a king over the land.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al60-005",
+   "scope": "BOOK",
+   "head": "Alma 62:1",
+   "anchor": {
+    "verse": 18,
+    "w1": 22,
+    "w2": 33,
+    "quote": "We know not but what ye are also traitors to your country"
+   },
+   "reason": "the record's other use of the word, at the moment the charge is dropped",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 62,
+     "verse": 1,
+     "w1": 32,
+     "w2": 46,
+     "quote": "that he was not also a traitor to the freedom and cause of his country.",
+     "verse_text": "And now it came to pass that when Moroni had received this epistle his heart did take courage, and was filled with exceedingly great joy because of the faithfulness of Pahoran, that he was not also a traitor to the freedom and cause of his country.",
+     "markdown": "And now it came to pass that when Moroni had received this epistle his heart did take courage, and was filled with exceedingly great joy because of the faithfulness of Pahoran, **that he was not also a traitor to the freedom and cause of his country**.",
+     "span": true
+    }
+   ],
+   "mirror": "al62-001"
+  },
+  {
+   "id": "al60-006",
+   "scope": "BOOK",
+   "head": "Alma 61:9",
+   "anchor": {
+    "verse": 36,
+    "w1": 8,
+    "w2": 17,
+    "quote": "I seek not for power, but to pull it down"
+   },
+   "reason": "Pahoran disclaiming ambition in nearly the same words",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 61,
+     "verse": 9,
+     "w1": 27,
+     "w2": 39,
+     "quote": "I, Pahoran, do not seek for power, save only to retain my judgment-seat",
+     "verse_text": "And now, in your epistle you have censured me, but it mattereth not; I am not angry, but do rejoice in the greatness of your heart. I, Pahoran, do not seek for power, save only to retain my judgment-seat that I may preserve the rights and the liberty of my people. My soul standeth fast in that liberty in the which God hath made us free.",
+     "markdown": "And now, in your epistle you have censured me, but it mattereth not; I am not angry, but do rejoice in the greatness of your heart. **I, Pahoran, do not seek for power, save only to retain my judgment-seat** that I may preserve the rights and the liberty of my people. My soul standeth fast in that liberty in the which God hath made us free.",
+     "span": true
+    }
+   ],
+   "mirror": "al61-005"
+  },
+  {
+   "id": "al60-007",
+   "scope": "BOOK",
+   "head": "Alma 46:12",
+   "anchor": {
+    "verse": 36,
+    "w1": 34,
+    "w2": 40,
+    "quote": "the freedom and welfare of my country"
+   },
+   "reason": "the words written on the title of liberty by the same man",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 46,
+     "verse": 12,
+     "w1": 20,
+     "w2": 36,
+     "quote": "it—In memory of our God, our religion, and freedom, and our peace, our wives, and our children—and",
+     "verse_text": "And it came to pass that he rent his coat; and he took a piece thereof, and wrote upon it—In memory of our God, our religion, and freedom, and our peace, our wives, and our children—and he fastened it upon the end of a pole.",
+     "markdown": "And it came to pass that he rent his coat; and he took a piece thereof, and wrote upon **it—In memory of our God, our religion, and freedom, and our peace, our wives, and our children—and** he fastened it upon the end of a pole.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al60-008",
+   "scope": "BOM",
+   "head": "Hel. 4:11",
+   "anchor": {
+    "verse": 15,
+    "w1": 6,
+    "w2": 13,
+    "quote": "the wickedness which first commenced at our head"
+   },
+   "reason": "the same explanation given of a later Nephite collapse",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 4,
+     "verse": 11,
+     "w1": 16,
+     "w2": 26,
+     "quote": "would not have happened had it not been for their wickedness",
+     "verse_text": "Now this great loss of the Nephites, and the great slaughter which was among them, would not have happened had it not been for their wickedness and their abomination which was among them; yea, and it was among those also who professed to belong to the church of God.",
+     "markdown": "Now this great loss of the Nephites, and the great slaughter which was among them, **would not have happened had it not been for their wickedness** and their abomination which was among them; yea, and it was among those also who professed to belong to the church of God.",
+     "span": true
+    }
+   ],
+   "mirror": "hel04-003"
+  },
+  {
+   "id": "al60-009",
+   "scope": "SW",
+   "head": "Matt. 23:26",
+   "anchor": {
+    "verse": 23,
+    "w1": 38,
+    "w2": 44,
+    "quote": "the inward vessel shall be cleansed first"
+   },
+   "reason": "the saying in the gospel, of the cup and the platter",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 23,
+     "verse": 26,
+     "w1": 4,
+     "w2": 13,
+     "quote": "cleanse first that which is within the cup and platter,",
+     "verse_text": "Thou blind Pharisee, cleanse first that which is within the cup and platter, that the outside of them may be clean also.",
+     "markdown": "Thou blind Pharisee, **cleanse first that which is within the cup and platter**, that the outside of them may be clean also.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al60-010",
+   "scope": "SW",
+   "head": "2 Sam. 5:24",
+   "anchor": {
+    "verse": 29,
+    "w1": 13,
+    "w2": 23,
+    "quote": "except ye do bestir yourselves in the defence of your country"
+   },
+   "reason": "the King James Bible's one use of the verb, of David at the mulberry trees",
+   "targets": [
+    {
+     "ref": "2 Sam.",
+     "chapter": 5,
+     "verse": 24,
+     "w1": 21,
+     "w2": 25,
+     "quote": "then thou shalt bestir thyself:",
+     "verse_text": "And let it be, when thou hearest the sound of a going in the tops of the mulberry trees, that then thou shalt bestir thyself: for then shall the LORD go out before thee, to smite the host of the Philistines.",
+     "markdown": "And let it be, when thou hearest the sound of a going in the tops of the mulberry trees, that **then thou shalt bestir thyself**: for then shall the LORD go out before thee, to smite the host of the Philistines.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 7,
+   "w2": 18,
+   "quote": "he wrote again to the governor of the land, who was Pahoran",
+   "entries": [
+    "al60-001"
+   ]
+  },
+  {
+   "verse": 1,
+   "w1": 53,
+   "w2": 71,
+   "quote": "to all those who have been chosen by this people to govern and manage the affairs of this war",
+   "entries": [
+    "al60-002"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 4,
+   "w2": 14,
+   "quote": "we desire to know the cause of this exceedingly great neglect",
+   "entries": [
+    "al60-003"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 6,
+   "w2": 13,
+   "quote": "the wickedness which first commenced at our head",
+   "entries": [
+    "al60-008"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 19,
+   "w2": 27,
+   "quote": "these king-men, who caused so much bloodshed among ourselves",
+   "entries": [
+    "al60-004"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 22,
+   "w2": 33,
+   "quote": "We know not but what ye are also traitors to your country",
+   "entries": [
+    "al60-005"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 38,
+   "w2": 44,
+   "quote": "the inward vessel shall be cleansed first",
+   "entries": [
+    "al60-009"
+   ]
+  },
+  {
+   "verse": 29,
+   "w1": 13,
+   "w2": 23,
+   "quote": "except ye do bestir yourselves in the defence of your country",
+   "entries": [
+    "al60-010"
+   ]
+  },
+  {
+   "verse": 36,
+   "w1": 8,
+   "w2": 17,
+   "quote": "I seek not for power, but to pull it down",
+   "entries": [
+    "al60-006"
+   ]
+  },
+  {
+   "verse": 36,
+   "w1": 34,
+   "w2": 40,
+   "quote": "the freedom and welfare of my country",
+   "entries": [
+    "al60-007"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "47bab63dbc90400d"
+ }
+}

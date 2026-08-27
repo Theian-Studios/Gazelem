@@ -17,17 +17,17 @@
    "Affliction",
    "Faith"
   ],
-  "connections": 9,
+  "connections": 11,
   "initial": false
  },
  "world_behind": [
   {
    "n": 1,
    "title": "The route runs down the incense trail",
-   "text": "\"nearly a south-southeast direction\" (v. 13) from the Red Sea camp tracks the ancient caravan road along Arabia's western mountains: watered stations, hunting country, and established stopping places. The record's directional notes are the kind a traveler keeps, not a novelist.",
+   "text": "\"Nearly a south-southeast direction\" (v. 13) from the Red Sea camp tracks the ancient caravan road along Arabia's western mountains: watered stations, hunting country, and established stopping places. The record's directional notes are the kind a traveler keeps.",
    "cites": [
     {
-     "quote": "nearly a south-southeast direction",
+     "quote": "Nearly a south-southeast direction",
      "verse": 13,
      "start": 0,
      "end": 44,
@@ -35,7 +35,7 @@
       {
        "w1": 15,
        "w2": 18,
-       "text": "nearly a south-southeast direction"
+       "text": "Nearly a south-southeast direction"
       }
      ]
     }
@@ -44,7 +44,7 @@
   {
    "n": 2,
    "title": "Nahom was somebody's place already",
-   "text": "Ishmael \"was buried in the place which was called Nahom\" (v. 34): called, not named by the family. The grammar is the claim — Shazer they \"did call\" (v. 13), Nahom \"was called\" — the travelers arrive at an existing name in somebody's country. An ancient tribal region with a name of just that shape is attested by inscription in south Arabia, on this very corridor, among the record's most checkable geographical claims. Readers have also long noted the fit of sound and scene: the name recalls Hebrew words for mourning and comfort, and the family stops there to grieve.",
+   "text": "Ishmael \"was buried in the place which was called Nahom\" (v. 34): called, not named by the family. The wording is the claim. Shazer they \"did call\" (v. 13); Nahom \"was called\". The travelers arrive at an existing name in somebody's country. An ancient tribal region with a name of just that shape is attested by inscription in south Arabia, on this very corridor, among the record's most checkable geographical claims. Readers have also long noted the fit of sound and scene: the name recalls Hebrew words for mourning and comfort, and the family stops there to grieve.",
    "cites": [
     {
      "quote": "was buried in the place which was called Nahom",
@@ -62,8 +62,8 @@
     {
      "quote": "did call",
      "verse": 13,
-     "start": 138,
-     "end": 156,
+     "start": 137,
+     "end": 155,
      "spans": [
       {
        "w1": 28,
@@ -77,10 +77,10 @@
   {
    "n": 3,
    "title": "A steel-fitted bow was elite equipment",
-   "text": "\"my bow, which was made of fine steel\" (v. 18) describes a prized composite weapon, the best hunting technology a wealthy Jerusalem house could carry. Its breaking, with the other bows' \"having lost their springs\" (v. 21) (resin and sinew fail in humid coastal air), disarmed the whole camp at once; the crisis was technological before it was spiritual.",
+   "text": "\"My bow, which was made of fine steel\" (v. 18) describes a prized composite weapon, the best hunting technology a wealthy Jerusalem house could carry. Its breaking, with the other bows' \"having lost their springs\" (v. 21) (resin and sinew fail in humid coastal air), disarmed the whole camp at once; the crisis was technological before it was spiritual.",
    "cites": [
     {
-     "quote": "my bow, which was made of fine steel",
+     "quote": "My bow, which was made of fine steel",
      "verse": 18,
      "start": 0,
      "end": 46,
@@ -88,7 +88,7 @@
       {
        "w1": 19,
        "w2": 26,
-       "text": "my bow, which was made of fine steel"
+       "text": "My bow, which was made of fine steel"
       }
      ]
     },
@@ -110,7 +110,7 @@
   {
    "n": 4,
    "title": "Hunting fed the caravan",
-   "text": "Bows, arrows, slings, and stones (v. 15) are a desert hunter's full kit; game along the fertile fringes was the company's protein. A camp that cannot hunt starves in weeks, which is the arithmetic underneath the murmuring of verses 19–20.",
+   "text": "Bows, arrows, slings, and stones (v. 15) are a desert hunter's full kit; game along the fertile fringes was the company's protein. A camp that cannot hunt starves in weeks. That fact sits underneath the murmuring of verses 19–20.",
    "refs": [
     {
      "kind": "verse",
@@ -125,10 +125,10 @@
   {
    "n": 5,
    "title": "The ball arrives unexplained",
-   "text": "\"a round ball of curious workmanship\" (v. 10) of fine brass, found at the tent door, never named in this book; the record calls it \"the ball\" for five hundred pages until Alma supplies \"Liahona\" (Alma 37:38). Israel had been led before, by cloud and fire (Ex. 13:21); this instrument is more intimate: handheld, legible, and tuned to the household's conduct.",
+   "text": "\"A round ball of curious workmanship\" (v. 10) of fine brass, found at the tent door, never named in this book; the record calls it \"the ball\" for five hundred pages until Alma supplies \"Liahona\" (Alma 37:38). Israel had been led before, by cloud and fire (Ex. 13:21); this instrument is more intimate: handheld, legible, and tuned to the household's conduct.",
    "cites": [
     {
-     "quote": "a round ball of curious workmanship",
+     "quote": "A round ball of curious workmanship",
      "verse": 10,
      "start": 0,
      "end": 45,
@@ -136,7 +136,7 @@
       {
        "w1": 30,
        "w2": 35,
-       "text": "a round ball of curious workmanship"
+       "text": "A round ball of curious workmanship"
       }
      ]
     }
@@ -182,7 +182,39 @@
  ],
  "words": [
   {
-   "term": "curious",
+   "term": "Justified",
+   "verse_label": "v. 2",
+   "text": "A courtroom word, and Nephi uses it of his own preaching: \"the righteous have I justified\" (v. 2). To justify is to declare a person in the right, a verdict rather than a compliment. The same sermon that cuts one set of hearers clears another, and Nephi answers the charge of speaking hard things by pointing at both results. The record will use the word only once more, and then of the law that cannot do it (2 Ne. 2:5).",
+   "cites": [
+    {
+     "quote": "the righteous have I justified",
+     "verse": 2,
+     "start": 58,
+     "end": 97,
+     "spans": [
+      {
+       "w1": 28,
+       "w2": 32,
+       "text": "the righteous have I justified"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 2:5",
+     "start": 410,
+     "end": 419,
+     "book": "2 Ne",
+     "chapter": 2,
+     "verse_start": 5,
+     "verse_end": 5
+    }
+   ]
+  },
+  {
+   "term": "Curious",
    "verse_label": "v. 10",
    "text": "Old English for carefully made (full of care, wrought with skill), not odd. The ball is \"of curious workmanship\" (v. 10), and the word places it in the record's running line of appraised craft: Laban's sword, the ship to come, the temple after. Nephi notices work, and heaven's work most of all.",
    "cites": [
@@ -202,7 +234,7 @@
    ]
   },
   {
-   "term": "springs",
+   "term": "Springs",
    "verse_label": "v. 21",
    "text": "The bows \"having lost their springs\" (v. 21) is archer's language: a bow's spring is its stored power, and desert heat and coastal damp kill it. One word carries the whole camp's predicament: equipment mortality in a place where equipment is life.",
    "cites": [
@@ -222,9 +254,41 @@
    ]
   },
   {
-   "term": "chastened",
+   "term": "Energy",
+   "verse_label": "v. 24",
+   "text": "\"I did say many things unto them in the energy of my soul\" (v. 24). Energy is force put out, the whole of a man spent on his words, and it is a word the Bible never uses. Nephi had reached for its plural the chapter before, exhorting his brothers with all the energies of his soul (1 Ne. 15:25). Both times the word measures how much of himself went into the saying.",
+   "cites": [
+    {
+     "quote": "I did say many things unto them in the energy of my soul",
+     "verse": 24,
+     "start": 0,
+     "end": 66,
+     "spans": [
+      {
+       "w1": 23,
+       "w2": 35,
+       "text": "I did say many things unto them in the energy of my soul"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 15:25",
+     "start": 282,
+     "end": 293,
+     "book": "1 Ne",
+     "chapter": 15,
+     "verse_start": 25,
+     "verse_end": 25
+    }
+   ]
+  },
+  {
+   "term": "Chastened",
    "verse_label": "v. 25",
-   "text": "Correction from love, and no one is exempt: Lehi \"was truly chastened because of his murmuring\" (v. 25), and the company later \"were chastened by the voice of the Lord\" (v. 39). The record's discipline vocabulary makes its debut on the prophet himself, which is precisely what makes it bearable when it lands on everyone else.",
+   "text": "Correction from love, and no one is exempt: Lehi \"was truly chastened because of his murmuring\" (v. 25), and the company later \"were chastened by the voice of the Lord\" (v. 39). The record's discipline vocabulary makes its debut on the prophet himself. That is what makes it bearable when it lands on everyone else.",
    "cites": [
     {
      "quote": "was truly chastened because of his murmuring",
@@ -253,11 +317,43 @@
      ]
     }
    ]
+  },
+  {
+   "term": "Cunning",
+   "verse_label": "v. 38",
+   "text": "In older English cunning means skill: the tabernacle's fine work was done by cunning workmen (Ex. 31:4). Laman keeps the skill and adds the malice, telling the others that Nephi \"worketh many things by his cunning arts, that he may deceive our eyes\" (v. 38). The accusation grants his brother real ability and denies him any source for it but himself.",
+   "cites": [
+    {
+     "quote": "worketh many things by his cunning arts, that he may deceive our eyes",
+     "verse": 38,
+     "start": 178,
+     "end": 257,
+     "spans": [
+      {
+       "w1": 36,
+       "w2": 48,
+       "text": "worketh many things by his cunning arts, that he may deceive our eyes"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ex. 31:4",
+     "start": 94,
+     "end": 102,
+     "book": "Ex",
+     "chapter": 31,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
   }
  ],
  "phrases": [
   {
-   "term": "the guilty taketh the truth to be hard",
+   "term": "The guilty taketh the truth to be hard",
    "verse_label": "v. 2",
    "text": "The record's proverb about its own reception, minted in the tent: truth \"cutteth them to the very center\" (v. 2). Hardness, the proverb says, is a symptom to be read backward; the cut locates the wound. Jacob will preach its twin a generation on (2 Ne. 9:40), and every hard chapter of the record leans on it.",
    "cites": [
@@ -289,7 +385,7 @@
    ]
   },
   {
-   "term": "a round ball of curious workmanship",
+   "term": "A round ball of curious workmanship",
    "verse_label": "v. 10",
    "text": "The instrument arrives without instructions, explanation, or name, found at the door, pointing the way. The record keeps it strange on purpose: guidance in this family is a given thing, working by rules the travelers must discover through use, and its name will wait five hundred pages for a teaching moment (Alma 37:38).",
    "refs": [
@@ -306,9 +402,9 @@
    ]
   },
   {
-   "term": "the more fertile parts",
+   "term": "The more fertile parts",
    "verse_label": "v. 16",
-   "text": "The ball's routing policy in four words: not manna, not shortcuts: \"the more fertile parts of the wilderness\" (v. 16). Guidance optimizes within hardship rather than abolishing it; the wilderness stays wilderness, and the Lord's leading shows in which wilderness. It is the record's most realistic sentence about being led.",
+   "text": "The ball's routing policy in four words: not manna, not shortcuts: \"the more fertile parts of the wilderness\" (v. 16). Guidance optimizes within hardship; the wilderness stays wilderness, and the Lord's leading shows in which wilderness. It is the record's most realistic sentence about being led.",
    "cites": [
     {
      "quote": "the more fertile parts of the wilderness",
@@ -346,9 +442,9 @@
    ]
   },
   {
-   "term": "according to the faith and diligence and heed",
+   "term": "According to the faith and diligence and heed",
    "verse_label": "v. 28",
-   "text": "The pointers' operating conditions, stated as law: three inputs, all interior. The instrument is a gauge of its holders (Alma will draw the moral for his son centuries later, Alma 37:40), and the phrase warns every reader that guidance systems fail at the user, not the factory.",
+   "text": "The pointers' operating conditions, stated as law: three inputs, all interior. The instrument is a gauge of its holders (Alma will draw the moral for his son centuries later, Alma 37:40), and the phrase warns every reader that guidance systems fail at the user's end.",
    "refs": [
     {
      "kind": "scripture",
@@ -363,7 +459,7 @@
    ]
   },
   {
-   "term": "a new writing, which was plain to be read",
+   "term": "A new writing, which was plain to be read",
    "verse_label": "v. 29",
    "text": "Revelation that updates: text \"written and changed from time to time\" (v. 29), always plain. The record's favorite quality (plainness) appears on heaven's own instrument panel, and the changing writing makes the Liahona the record's picture of living guidance: fixed in principle, current in instruction.",
    "cites": [
@@ -389,7 +485,7 @@
    "start": 1,
    "end": 5,
    "title": "Hard words, soft landing",
-   "text": "The brothers protest \"hard things, more than we are able to bear\" (v. 1); Nephi answers with the proverb and an exhortation, and the scene ends in humbling and in his own durable optimism: \"I had joy and great hopes of them\" (v. 5). The record keeps Nephi's hope for his brothers alive long past the point a reader would have retired it.",
+   "text": "The brothers protest \"hard things, more than we are able to bear\" (v. 1); Nephi answers with the proverb and an exhortation, and the scene ends in humbling and in his own durable optimism: \"I had joy and great hopes of them\" (v. 5). The record keeps Nephi's hope for his brothers alive long past the point where a reader might have retired it.",
    "cites": [
     {
      "quote": "hard things, more than we are able to bear",
@@ -446,7 +542,7 @@
    "start": 9,
    "end": 12,
    "title": "Command by night, compass by morning",
-   "text": "The Lord orders departure; dawn delivers the ball at the tent door. The sequence is the chapter's doctrine in miniature: obedience undertaken first, equipment supplied after — and the family crosses the river Laman back into hard country on the strength of it."
+   "text": "The Lord orders departure; dawn delivers the ball at the tent door. The sequence is the chapter's doctrine in miniature: obedience undertaken first, equipment supplied after. The family crosses the river Laman back into hard country on the strength of it."
   },
   {
    "label": "v. 18–22",
@@ -475,7 +571,7 @@
    "start": 23,
    "end": 27,
    "title": "A bow, a question, a chastening",
-   "text": "Nephi makes a new bow and then asks his humbled father where to hunt. Lehi inquires, and the answer arrives with a rebuke: he is \"brought down into the depths of sorrow\" (v. 25), the family \"did fear and tremble exceedingly\" (v. 27) at the ball's writing. Restoration in this record runs through the chastened prophet, not around him.",
+   "text": "Nephi makes a new bow and then asks his humbled father where to hunt. Lehi inquires, and the answer arrives with a rebuke: he is \"brought down into the depths of sorrow\" (v. 25), the family \"did fear and tremble exceedingly\" (v. 27) at the ball's writing. Restoration in this record runs through the chastened prophet.",
    "cites": [
     {
      "quote": "brought down into the depths of sorrow",
@@ -579,18 +675,18 @@
   {
    "n": 4,
    "title": "Nephi leads by restoring his father",
-   "text": "The bow-maker asks \"whither shall I go?\" of the man who just murmured. The move is the chapter's finest: competence without deference would have finished what the famine started, and Nephi spends his moment of maximum advantage re-dignifying the humbled head of the family."
+   "text": "The bow-maker asks \"whither shall I go?\" of the man who just murmured. The move is the chapter's finest: competence without deference could have finished what the famine started, and Nephi spends his moment of maximum advantage re-dignifying the humbled head of the family."
   },
   {
    "n": 5,
    "title": "The old grievance finds new fuel",
-   "text": "The murder plot recites 1 Nephi 2:22 back as accusation — ruler and teacher, reframed as a brother's ambition, and dismisses angels as \"his cunning arts\" (v. 38). Unbelief, as the record draws it, is never a lack of data; it is an interpretive machine that can digest any miracle into a trick.",
+   "text": "The murder plot recites 1 Nephi 2:22 back as accusation, with ruler and teacher reframed as a brother's ambition, and dismisses angels as \"his cunning arts\" (v. 38). Unbelief, as the record draws it, is never a lack of data; it is an interpretive machine that can digest any miracle into a trick.",
    "cites": [
     {
      "quote": "his cunning arts",
      "verse": 38,
-     "start": 135,
-     "end": 161,
+     "start": 138,
+     "end": 164,
      "spans": [
       {
        "w1": 40,
@@ -604,7 +700,7 @@
   {
    "n": 6,
    "title": "The waypoints are checkable geography",
-   "text": "Shazer, the south-southeast bearing, Nahom: the record commits to a mappable itinerary through real country. Its confidence about terrain is of a piece with its confidence about doctrine — both are offered for checking, not for atmosphere."
+   "text": "Shazer, the south-southeast bearing, Nahom: the record commits to a mappable itinerary through real country. Its confidence about terrain is of a piece with its confidence about doctrine: both are offered for checking."
   },
   {
    "n": 7,
@@ -617,7 +713,7 @@
    {
     "title": "Read the cut before blaming the blade",
     "verse_label": "v. 2",
-    "text": "The next time a sermon, verse, or plain word from someone stings, run the proverb: what did the cut find? Guilt reads truth as attack; the wound it locates is the item for tonight's prayer, not the speaker."
+    "text": "The next time a sermon, verse, or plain word from someone stings, run the proverb: what did the cut find? Guilt reads truth as attack; the wound it locates is the item for tonight's prayer."
    },
    {
     "title": "Check the three dials",
@@ -627,12 +723,12 @@
    {
     "title": "Fix what you can, then ask whither",
     "verse_label": "v. 23",
-    "text": "Nephi's crisis protocol: build the bow yourself, and route the direction through the order God established — parent, leader, covenant channels. Initiative and deference are not rivals; deployed together they rebuilt a family on the spot."
+    "text": "Nephi's crisis protocol: build the bow yourself, and route the direction through the order God established: parent, leader, covenant channels. Initiative and deference are not rivals; deployed together they rebuilt a family on the spot."
    },
    {
-    "title": "Expect fertile parts, not exemptions",
+    "title": "Expect fertile parts",
     "verse_label": "v. 16",
-    "text": "Pray for and watch for the better path through your wilderness rather than the abolition of it. Being led, in this chapter, means the hard country gets navigable, and learning to call that guidance is half of gratitude."
+    "text": "Pray for and watch for the better path through your wilderness. Being led, in this chapter, means the hard country gets navigable, and learning to call that guidance is half of gratitude."
    },
    {
     "title": "Take your chastening like Lehi",
@@ -656,7 +752,7 @@
     "verse_label": "v. 8",
     "start": 8,
     "end": 8,
-    "text": "Do I mark covenant milestones — marriages, callings, commandments fulfilled — or do they pass in one unnoticed verse?"
+    "text": "Do I mark covenant milestones (marriages, callings, commandments fulfilled), or do they pass in one unnoticed verse?"
    },
    {
     "verse_label": "v. 20",
@@ -674,7 +770,7 @@
     "verse_label": "v. 29",
     "start": 29,
     "end": 29,
-    "text": "When did I last receive new writing — current, plain instruction for my situation, and what was I doing differently then?"
+    "text": "When did I last receive new writing, current and plain instruction for my situation, and what was I doing differently then?"
    },
    {
     "verse_label": "v. 37",
@@ -703,7 +799,9 @@
      "verse": 12,
      "w1": 18,
      "w2": 30,
-     "quote": "the compass, which had been prepared of the Lord, did cease to work",
+     "quote": "the compass, which had been prepared of the Lord, did cease to work.",
+     "verse_text": "And it came to pass that after they had bound me insomuch that I could not move, the compass, which had been prepared of the Lord, did cease to work.",
+     "markdown": "And it came to pass that after they had bound me insomuch that I could not move, **the compass, which had been prepared of the Lord, did cease to work**.",
      "span": true
     }
    ],
@@ -727,7 +825,9 @@
      "verse": 3,
      "w1": 1,
      "w2": 12,
-     "quote": "And thus we see that the commandments of God must be fulfilled",
+     "quote": "And thus we see that the commandments of God must be fulfilled.",
+     "verse_text": "And thus we see that the commandments of God must be fulfilled. And if it so be that the children of men keep the commandments of God he doth nourish them, and strengthen them, and provide means whereby they can accomplish the thing which he has commanded them; wherefore, he did provide means for us while we did sojourn in the wilderness.",
+     "markdown": "**And thus we see that the commandments of God must be fulfilled**. And if it so be that the children of men keep the commandments of God he doth nourish them, and strengthen them, and provide means whereby they can accomplish the thing which he has commanded them; wherefore, he did provide means for us while we did sojourn in the wilderness.",
      "span": true
     }
    ],
@@ -751,11 +851,65 @@
      "verse": 22,
      "w1": 13,
      "w2": 20,
-     "quote": "a ruler and a teacher over thy brethren",
+     "quote": "a ruler and a teacher over thy brethren.",
+     "verse_text": "And inasmuch as thou shalt keep my commandments, thou shalt be made a ruler and a teacher over thy brethren.",
+     "markdown": "And inasmuch as thou shalt keep my commandments, thou shalt be made **a ruler and a teacher over thy brethren**.",
      "span": true
     }
    ],
    "mirror": "1ne02-015"
+  },
+  {
+   "id": "1ne16-011",
+   "scope": "BOM",
+   "head": "Alma 5:43",
+   "anchor": {
+    "verse": 24,
+    "w1": 23,
+    "w2": 35,
+    "quote": "I did say many things unto them in the energy of my soul"
+   },
+   "reason": "the only other use of the phrase",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 5,
+     "verse": 43,
+     "w1": 13,
+     "w2": 20,
+     "quote": "I speak in the energy of my soul;",
+     "verse_text": "And now, my brethren, I would that ye should hear me, for I speak in the energy of my soul; for behold, I have spoken unto you plainly that ye cannot err, or have spoken according to the commandments of God.",
+     "markdown": "And now, my brethren, I would that ye should hear me, for **I speak in the energy of my soul**; for behold, I have spoken unto you plainly that ye cannot err, or have spoken according to the commandments of God.",
+     "span": true
+    }
+   ],
+   "mirror": "al05-011"
+  },
+  {
+   "id": "1ne16-010",
+   "scope": "BOM",
+   "head": "Mosiah 10:15",
+   "anchor": {
+    "verse": 37,
+    "w1": 30,
+    "w2": 36,
+    "quote": "to be our ruler and our teacher"
+   },
+   "reason": "the same charge, four centuries into the tradition",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 10,
+     "verse": 15,
+     "w1": 16,
+     "w2": 31,
+     "quote": "because they said that he had taken the ruling of the people out of their hands;",
+     "verse_text": "And again, they were wroth with him when they had arrived in the promised land, because they said that he had taken the ruling of the people out of their hands; and they sought to kill him.",
+     "markdown": "And again, they were wroth with him when they had arrived in the promised land, **because they said that he had taken the ruling of the people out of their hands**; and they sought to kill him.",
+     "span": true
+    }
+   ],
+   "mirror": "mos10-002"
   },
   {
    "id": "1ne16-002",
@@ -775,7 +929,9 @@
      "verse": 40,
      "w1": 19,
      "w2": 29,
-     "quote": "Do not say that I have spoken hard things against you",
+     "quote": "Do not say that I have spoken hard things against you;",
+     "verse_text": "O, my beloved brethren, give ear to my words. Remember the greatness of the Holy One of Israel. Do not say that I have spoken hard things against you; for if ye do, ye will revile against the truth; for I have spoken the words of your Maker. I know that the words of truth are hard against all uncleanness; but the righteous fear them not, for they love the truth and are not shaken.",
+     "markdown": "O, my beloved brethren, give ear to my words. Remember the greatness of the Holy One of Israel. **Do not say that I have spoken hard things against you**; for if ye do, ye will revile against the truth; for I have spoken the words of your Maker. I know that the words of truth are hard against all uncleanness; but the righteous fear them not, for they love the truth and are not shaken.",
      "span": true
     }
    ],
@@ -799,7 +955,9 @@
      "verse": 38,
      "w1": 21,
      "w2": 31,
-     "quote": "our fathers called it Liahona, which is, being interpreted, a compass",
+     "quote": "our fathers called it Liahona, which is, being interpreted, a compass;",
+     "verse_text": "And now, my son, I have somewhat to say concerning the thing which our fathers call a ball, or director—or our fathers called it Liahona, which is, being interpreted, a compass; and the Lord prepared it.",
+     "markdown": "And now, my son, I have somewhat to say concerning the thing which our fathers call a ball, or director—or **our fathers called it Liahona, which is, being interpreted, a compass**; and the Lord prepared it.",
      "span": true
     },
     {
@@ -808,7 +966,9 @@
      "verse": 40,
      "w1": 2,
      "w2": 12,
-     "quote": "it did work for them according to their faith in God",
+     "quote": "it did work for them according to their faith in God;",
+     "verse_text": "And it did work for them according to their faith in God; therefore, if they had faith to believe that God could cause that those spindles should point the way they should go, behold, it was done; therefore they had this miracle, and also many other miracles wrought by the power of God, day by day.",
+     "markdown": "And **it did work for them according to their faith in God**; therefore, if they had faith to believe that God could cause that those spindles should point the way they should go, behold, it was done; therefore they had this miracle, and also many other miracles wrought by the power of God, day by day.",
      "span": true
     }
    ],
@@ -833,6 +993,8 @@
      "w1": 11,
      "w2": 16,
      "quote": "sharper than any twoedged sword, piercing",
+     "verse_text": "For the word of God is quick, and powerful, and sharper than any twoedged sword, piercing even to the dividing asunder of soul and spirit, and of the joints and marrow, and is a discerner of the thoughts and intents of the heart.",
+     "markdown": "For the word of God is quick, and powerful, and **sharper than any twoedged sword, piercing** even to the dividing asunder of soul and spirit, and of the joints and marrow, and is a discerner of the thoughts and intents of the heart.",
      "span": true
     }
    ],
@@ -856,7 +1018,9 @@
      "verse": 21,
      "w1": 15,
      "w2": 19,
-     "quote": "to lead them the way",
+     "quote": "to lead them the way;",
+     "verse_text": "And the LORD went before them by day in a pillar of a cloud, to lead them the way; and by night in a pillar of fire, to give them light; to go by day and night:",
+     "markdown": "And the LORD went before them by day in a pillar of a cloud, **to lead them the way**; and by night in a pillar of fire, to give them light; to go by day and night:",
      "span": true
     }
    ],
@@ -880,7 +1044,9 @@
      "verse": 34,
      "w1": 9,
      "w2": 17,
-     "quote": "a bow of steel is broken by mine arms",
+     "quote": "a bow of steel is broken by mine arms.",
+     "verse_text": "He teacheth my hands to war, so that a bow of steel is broken by mine arms.",
+     "markdown": "He teacheth my hands to war, so that **a bow of steel is broken by mine arms**.",
      "span": true
     }
    ],
@@ -904,7 +1070,9 @@
      "verse": 6,
      "w1": 2,
      "w2": 7,
-     "quote": "whom the Lord loveth he chasteneth",
+     "quote": "whom the Lord loveth he chasteneth,",
+     "verse_text": "For whom the Lord loveth he chasteneth, and scourgeth every son whom he receiveth.",
+     "markdown": "For **whom the Lord loveth he chasteneth**, and scourgeth every son whom he receiveth.",
      "span": true
     }
    ],
@@ -949,6 +1117,15 @@
    ]
   },
   {
+   "verse": 24,
+   "w1": 23,
+   "w2": 35,
+   "quote": "I did say many things unto them in the energy of my soul",
+   "entries": [
+    "1ne16-011"
+   ]
+  },
+  {
    "verse": 28,
    "w1": 21,
    "w2": 28,
@@ -973,7 +1150,8 @@
    "w2": 36,
    "quote": "to be our ruler and our teacher",
    "entries": [
-    "1ne16-001"
+    "1ne16-001",
+    "1ne16-010"
    ]
   },
   {
@@ -987,7 +1165,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-18",
-  "source_sha256": "1cdcb64f4b684b6b"
+  "at": "2026-08-25",
+  "source_sha256": "bcb0b2bc6a9da41d"
  }
 }

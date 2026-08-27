@@ -24,7 +24,7 @@
   {
    "n": 1,
    "title": "Written near the end",
-   "text": "Nephi is old by this point, the small plates are nearly full of what he decided to keep, and two chapters remain. Everything here is chosen against that pressure, which is part of why the counsel is so compressed: two practices, stated once each, with no elaboration."
+   "text": "Nephi is old by this point, the small plates are nearly full of what he decided to keep, and two chapters remain. Everything here is chosen against that pressure. The counsel is compressed to match: two practices, stated once each, with no elaboration."
   },
   {
    "n": 2,
@@ -34,18 +34,18 @@
   {
    "n": 3,
    "title": "In the name of Christ",
-   "text": "Verse 9 specifies not only that they pray but how: unto the Father, in the name of Christ. The formula is stated as a requirement rather than a custom, and it arrives in a colony still keeping the law of Moses, where prayer had no such name attached to it."
+   "text": "Verse 9 specifies not only that they pray but how: unto the Father, in the name of Christ. The formula is stated as a requirement, and it arrives in a colony still keeping the law of Moses, where prayer had no such name attached to it."
   },
   {
    "n": 4,
    "title": "Welfare of the soul",
-   "text": "The stated benefit of the prayer in verse 9 is not that the work will succeed but that it will be consecrated \"for the welfare of thy soul\" (v. 9). The beneficiary named is the person doing the work, which is a different account of why prayer precedes labor than the obvious one.",
+   "text": "The stated benefit of the prayer in verse 9 is that the work will be consecrated \"for the welfare of thy soul\" (v. 9). The beneficiary named is the person doing the work, which is a different account of why prayer precedes labor than the obvious one.",
    "cites": [
     {
      "quote": "for the welfare of thy soul",
      "verse": 9,
-     "start": 110,
-     "end": 146,
+     "start": 81,
+     "end": 117,
      "spans": [
       {
        "w1": 54,
@@ -59,7 +59,7 @@
   {
    "n": 5,
    "title": "Consecrating performance",
-   "text": "Verse 9 tells them to pray before doing anything for the Lord, so that the performance may be consecrated for the welfare of the soul. It is a practical rule about sequence, and it treats prayer as preparation rather than as accompaniment."
+   "text": "Verse 9 tells them to pray before doing anything for the Lord, so that the performance may be consecrated for the welfare of the soul. It is a practical rule about sequence, and it treats prayer as preparation."
   },
   {
    "n": 6,
@@ -69,21 +69,113 @@
  ],
  "words": [
   {
-   "term": "stiffneckedness",
+   "term": "Way",
+   "verse_label": "v. 1",
+   "text": "A way is a road, and the chapter before this one gave it a gate, a strait path, and a direction. Here the word arrives with no description at all, \"after ye have entered in by the way\" (v. 1), as though it needed none. The same shorthand turns up among the first Christians in Acts, where Saul carries letters authorizing him to arrest \"any of this way\" (Acts 9:2). A word for a road ends up naming a way of living, and Nephi addresses his hearers as people already on it.",
+   "cites": [
+    {
+     "quote": "after ye have entered in by the way",
+     "verse": 1,
+     "start": 147,
+     "end": 191,
+     "spans": [
+      {
+       "w1": 22,
+       "w2": 29,
+       "text": "after ye have entered in by the way"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Acts 9:2",
+     "start": 355,
+     "end": 363,
+     "book": "Acts",
+     "chapter": 9,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
+  },
+  {
+   "term": "Manifest",
+   "verse_label": "v. 6",
+   "text": "To manifest is to make plain to the eye. Verse 6 uses the verb twice and both times attaches \"in the flesh\" (v. 6), so what is promised at the end of the wait is not a better explanation but a person who can be seen. Read with the complaint in the next verse, that this was already given \"even as plain as word can be\" (v. 7), the pair marks a limit: words have gone as far as words go.",
+   "cites": [
+    {
+     "quote": "in the flesh",
+     "verse": 6,
+     "start": 93,
+     "end": 114,
+     "spans": [
+      {
+       "w1": 24,
+       "w2": 26,
+       "text": "in the flesh"
+      }
+     ]
+    },
+    {
+     "quote": "even as plain as word can be",
+     "verse": 7,
+     "start": 288,
+     "end": 325,
+     "spans": [
+      {
+       "w1": 52,
+       "w2": 58,
+       "text": "even as plain as word can be"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Stiffneckedness",
    "verse_label": "v. 7",
    "text": "An ox that will not turn its head, applied to people. It appears last in Nephi's list of four grievances, after unbelief, wickedness, and ignorance, and it is the only one that describes a refusal rather than a lack. The word had been used of his own people since the family left Jerusalem."
   },
   {
-   "term": "consecrate",
+   "term": "Search",
+   "verse_label": "v. 7",
+   "text": "Search takes its object directly here. Not searching for knowledge but searching knowledge, the way a man searches a house or a country, turning it over until something is found. Jacob will shortly use the same verb of prospecting, of people who \"began to search much gold and silver\" (Jacob 1:16), and then of himself and his brethren: \"we search the prophets\" (Jacob 4:6). What Nephi mourns is that his people would not dig for what was set in front of them.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 1:16",
+     "start": 286,
+     "end": 296,
+     "book": "Jacob",
+     "chapter": 1,
+     "verse_start": 16,
+     "verse_end": 16
+    },
+    {
+     "kind": "scripture",
+     "text": "Jacob 4:6",
+     "start": 363,
+     "end": 372,
+     "book": "Jacob",
+     "chapter": 4,
+     "verse_start": 6,
+     "verse_end": 6
+    }
+   ]
+  },
+  {
+   "term": "Consecrate",
    "verse_label": "v. 9",
-   "text": "To set apart for a holy purpose. The object here is unusual: not land, oil, or a person, but a performance, and the stated benefit is the welfare of the soul of the one performing it. Prayer before action is described as the mechanism by which ordinary work becomes something else."
+   "text": "To set apart for a holy purpose. The usual objects are land, oil, or a person; here it is a performance, and the stated benefit is the welfare of the soul of the one performing it. Prayer before action is described as the mechanism by which ordinary work becomes something else."
   }
  ],
  "phrases": [
   {
-   "term": "ye ponder somewhat in your hearts",
+   "term": "Ye ponder somewhat in your hearts",
    "verse_label": "v. 1",
-   "text": "To ponder is to weigh, to turn something over, and Nephi uses it twice about his hearers as a state he considers unnecessary. The chapter's premise, and it is an act of perception rather than of prophecy. Nephi is reading a room. Whatever else this record is, in this verse it is a teacher noticing that his last lesson left people with a question, and answering it before they ask."
+   "text": "To ponder is to weigh, to turn something over, and Nephi uses it twice about his hearers as a state he considers unnecessary. The chapter's premise, and it is an act of perception. Nephi is reading a room. Whatever else this record is, in this verse it is a teacher noticing that his last lesson left people with a question, and answering it before they ask."
   },
   {
    "term": "Angels speak by the power of the Holy Ghost",
@@ -91,9 +183,9 @@
    "text": "The definition, given in one line. Because angels speak by the Holy Ghost, and because what the Holy Ghost speaks is the words of Christ, a person who has received the Holy Ghost speaks the same way. The promise of the previous chapter turns out to be about content rather than about a manner of speaking."
   },
   {
-   "term": "feast upon the words of Christ",
+   "term": "Feast upon the words of Christ",
    "verse_label": "v. 3",
-   "text": "Repeated from the last chapter and then given a reason that is entirely practical: the words of Christ \"will tell you all things what ye should do\" (v. 3). Feasting is not devotional in this verse. It is how a person finds out what to do next, which is the exact question the chapter opened with.",
+   "text": "Repeated from the last chapter and then given a reason that is entirely practical: the words of Christ \"will tell you all things what ye should do\" (v. 3). Feasting in this verse is how a person finds out what to do next, the exact question the chapter opened with.",
    "cites": [
     {
      "quote": "will tell you all things what ye should do",
@@ -111,9 +203,9 @@
    ]
   },
   {
-   "term": "ye ask not, neither do ye knock",
+   "term": "Ye ask not, neither do ye knock",
    "verse_label": "v. 4",
-   "text": "The diagnosis, and it is the same pair the Sermon on the Mount uses in its promise that if you \"knock, and it shall be opened unto you\" (Matt. 7:7). Nephi turns the promise into an accusation: the reason for not understanding is not difficulty but disuse, and the consequence he names is perishing in the dark.",
+   "text": "The diagnosis, and it is the same pair the Sermon on the Mount uses in its promise that if you \"knock, and it shall be opened unto you\" (Matt. 7:7). Nephi turns the promise into an accusation: the reason for not understanding is disuse, and the consequence he names is perishing in the dark.",
    "refs": [
     {
      "kind": "scripture",
@@ -128,17 +220,17 @@
    ]
   },
   {
-   "term": "no more doctrine given",
+   "term": "No more doctrine given",
    "verse_label": "v. 6",
-   "text": "An unusual thing for a prophet to say. Nephi closes the question rather than leaving it open, and he sets a specific terminus: the Lord's appearance in the flesh. For the record's readers the appearance happens six hundred years later in the same volume, which makes this verse checkable rather than merely confident."
+   "text": "An unusual thing for a prophet to say. Nephi closes the question, and he sets a specific terminus: the Lord's appearance in the flesh. For the record's readers the appearance happens six hundred years later in the same volume, so the verse can be checked."
   },
   {
-   "term": "the Spirit stoppeth mine utterance",
+   "term": "The Spirit stoppeth mine utterance",
    "verse_label": "v. 7",
    "text": "The reason the chapter is short, given inside the chapter. Nephi is not finished; he is stopped. The verse then says what he is left with, which is mourning over people who will not search knowledge, and the combination of being silenced and being grieved is unusual enough to be worth sitting with."
   },
   {
-   "term": "ye must pray always, and not faint",
+   "term": "Ye must pray always, and not faint",
    "verse_label": "v. 9",
    "text": "To faint is to grow weary and give out, and the Lord's own parable makes the same pairing, that men \"ought always to pray, and not to faint\" (Luke 18:1). The chapter's final instruction, and it comes with a procedure: pray before performing anything to the Lord, so that the performance is consecrated. The verse solves the chapter's opening problem in practical terms. What should you do after entering in? Ask, before each thing.",
    "refs": [
@@ -175,7 +267,7 @@
    "start": 4,
    "end": 4,
    "title": "Why it does not work",
-   "text": "If they cannot understand, the fault is not in the teaching but in the asking. The verse is blunt about the consequence, perishing in the dark, and it makes light a thing one is brought into rather than a thing one figures out."
+   "text": "If they cannot understand, the fault is in the asking. The verse is blunt about the consequence, perishing in the dark, and it makes light a thing one is brought into rather than a thing one figures out."
   },
   {
    "label": "v. 5–6",
@@ -196,7 +288,7 @@
    "start": 8,
    "end": 8,
    "title": "He tries again",
-   "text": "He perceives they are still pondering, and says it grieves him to have to speak of this. Then the substance: the Spirit teaches a man to pray, and the evil spirit teaches him not to. The verse locates prayerlessness as something taught rather than merely neglected."
+   "text": "He perceives they are still pondering, and says it grieves him to have to speak of this. Then the substance: the Spirit teaches a man to pray, and the evil spirit teaches him not to. The verse locates prayerlessness as something taught."
   },
   {
    "label": "v. 9",
@@ -230,7 +322,7 @@
   {
    "n": 5,
    "title": "Prayer is described as taught, not natural",
-   "text": "Verse 8 says the Spirit teaches a man to pray and that the evil spirit teaches him not to. Both are instruction. That framing makes prayerlessness a curriculum rather than an omission, which is a harder and more useful account of it."
+   "text": "Verse 8 says the Spirit teaches a man to pray and that the evil spirit teaches him not to. Both are instruction. That framing makes prayerlessness a curriculum, a harder and more useful account of it."
   },
   {
    "n": 6,
@@ -243,12 +335,12 @@
    {
     "title": "Stop pondering and start asking",
     "verse_label": "v. 1, 4",
-    "text": "Identify the question you have been turning over for weeks without putting it to God directly. Nephi's diagnosis for not understanding is not difficulty but disuse. Ask it, in words, this week."
+    "text": "Identify the question you have been turning over for weeks without putting it to God directly. Nephi's diagnosis for not understanding is disuse. Ask it, in words, this week."
    },
    {
     "title": "Use the words as a manual",
     "verse_label": "v. 3",
-    "text": "Read scripture once with a specific decision in mind, treating the text as something that will tell you what to do rather than as something to admire. The verse claims exactly that function for it."
+    "text": "Read scripture once with a specific decision in mind, treating the text as something that will tell you what to do. The verse claims exactly that function for it."
    },
    {
     "title": "Define your own mystical term",
@@ -329,7 +421,9 @@
      "verse": 13,
      "w1": 89,
      "w2": 97,
-     "quote": "then can ye speak with the tongue of angels",
+     "quote": "then can ye speak with the tongue of angels,",
+     "verse_text": "Wherefore, my beloved brethren, I know that if ye shall follow the Son, with full purpose of heart, acting no hypocrisy and no deception before God, but with real intent, repenting of your sins, witnessing unto the Father that ye are willing to take upon you the name of Christ, by baptism—yea, by following your Lord and your Savior down into the water, according to his word, behold, then shall ye receive the Holy Ghost; yea, then cometh the baptism of fire and of the Holy Ghost; and then can ye speak with the tongue of angels, and shout praises unto the Holy One of Israel.",
+     "markdown": "Wherefore, my beloved brethren, I know that if ye shall follow the Son, with full purpose of heart, acting no hypocrisy and no deception before God, but with real intent, repenting of your sins, witnessing unto the Father that ye are willing to take upon you the name of Christ, by baptism—yea, by following your Lord and your Savior down into the water, according to his word, behold, then shall ye receive the Holy Ghost; yea, then cometh the baptism of fire and of the Holy Ghost; and **then can ye speak with the tongue of angels**, and shout praises unto the Holy One of Israel.",
      "span": true
     }
    ],
@@ -353,7 +447,9 @@
      "verse": 20,
      "w1": 32,
      "w2": 37,
-     "quote": "feasting upon the word of Christ",
+     "quote": "feasting upon the word of Christ,",
+     "verse_text": "Wherefore, ye must press forward with a steadfastness in Christ, having a perfect brightness of hope, and a love of God and of all men. Wherefore, if ye shall press forward, feasting upon the word of Christ, and endure to the end, behold, thus saith the Father: Ye shall have eternal life.",
+     "markdown": "Wherefore, ye must press forward with a steadfastness in Christ, having a perfect brightness of hope, and a love of God and of all men. Wherefore, if ye shall press forward, **feasting upon the word of Christ**, and endure to the end, behold, thus saith the Father: Ye shall have eternal life.",
      "span": true
     }
    ],
@@ -377,7 +473,9 @@
      "verse": 21,
      "w1": 35,
      "w2": 40,
-     "quote": "this is the doctrine of Christ",
+     "quote": "this is the doctrine of Christ,",
+     "verse_text": "And now, behold, my beloved brethren, this is the way; and there is none other way nor name given under heaven whereby man can be saved in the kingdom of God. And now, behold, this is the doctrine of Christ, and the only and true doctrine of the Father, and of the Son, and of the Holy Ghost, which is one God, without end. Amen.",
+     "markdown": "And now, behold, my beloved brethren, this is the way; and there is none other way nor name given under heaven whereby man can be saved in the kingdom of God. And now, behold, **this is the doctrine of Christ**, and the only and true doctrine of the Father, and of the Son, and of the Holy Ghost, which is one God, without end. Amen.",
      "span": true
     }
    ],
@@ -401,7 +499,9 @@
      "verse": 12,
      "w1": 1,
      "w2": 8,
-     "quote": "O be wise; what can I say more",
+     "quote": "O be wise; what can I say more?",
+     "verse_text": "O be wise; what can I say more?",
+     "markdown": "**O be wise; what can I say more**?",
      "span": true
     }
    ],
@@ -425,7 +525,9 @@
      "verse": 7,
      "w1": 13,
      "w2": 20,
-     "quote": "knock, and it shall be opened unto you",
+     "quote": "knock, and it shall be opened unto you:",
+     "verse_text": "Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you:",
+     "markdown": "Ask, and it shall be given you; seek, and ye shall find; **knock, and it shall be opened unto you**:",
      "span": true
     }
    ],
@@ -449,7 +551,9 @@
      "verse": 1,
      "w1": 12,
      "w2": 20,
-     "quote": "men ought always to pray, and not to faint",
+     "quote": "men ought always to pray, and not to faint;",
+     "verse_text": "And he spake a parable unto them to this end, that men ought always to pray, and not to faint;",
+     "markdown": "And he spake a parable unto them to this end, that **men ought always to pray, and not to faint**;",
      "span": true
     }
    ],
@@ -513,7 +617,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-18",
-  "source_sha256": "8af5b572a1aa1968"
+  "at": "2026-08-25",
+  "source_sha256": "9a3e0300d8d2bb2a"
  }
 }

@@ -28,7 +28,7 @@
   {
    "n": 1,
    "title": "Five writers, one chapter, two centuries",
-   "text": "Omni, Amaron, Chemish, Abinadom, and Amaleki each take the plates and each write less than the reader expects. Nothing else in the record has this shape. The book is a chain of custody with the contents thinning toward the end of the metal."
+   "text": "Omni, Amaron, Chemish, Abinadom, and Amaleki each take the plates and each write less than the reader expects. Nothing else in the record has this shape. The book is a chain of custody, and the contents thin as the plates run out."
   },
   {
    "n": 2,
@@ -48,7 +48,7 @@
   {
    "n": 5,
    "title": "A stone, and the first Jaredite notice",
-   "text": "Verse 20 has Mosiah interpreting engravings by the gift and power of God, and the stone reports Coriantumr and a people who came from the tower. Everything the reader will later learn in Ether is anticipated here in three verses, on an object rather than a plate."
+   "text": "Verse 20 has Mosiah interpreting engravings by the gift and power of God, and the stone reports Coriantumr and a people who came from the tower. Everything the reader will later learn in Ether is anticipated here in three verses, and it comes off a stone."
   },
   {
    "n": 6,
@@ -58,12 +58,87 @@
  ],
  "words": [
   {
-   "term": "conferred",
-   "verse_label": "v. 3",
-   "text": "To bestow formally, the verb for handing over an office or a grant rather than passing an object. Omni uses it of the plates. In a book whose whole plot is the transfer of custody, the choice of a legal word for the handoff is the closest thing to ceremony the chapter contains."
+   "term": "Somewhat",
+   "verse_label": "v. 1",
+   "text": "Not a hedge but a quantity: some amount, a portion left unspecified. Omni is commanded to \"write somewhat upon these plates\" (v. 1), and Amaleki later uses the same word twice for what he will say about Mosiah and about the party that went back. Modern English has turned it into a softener meaning slightly or rather, so the command now reads as permission to do very little. What it names is an amount left open, in a book whose standing problem is how much room is left.",
+   "cites": [
+    {
+     "quote": "write somewhat upon these plates",
+     "verse": 1,
+     "start": 90,
+     "end": 131,
+     "spans": [
+      {
+       "w1": 18,
+       "w2": 22,
+       "text": "write somewhat upon these plates"
+      }
+     ]
+    }
+   ]
   },
   {
-   "term": "moons",
+   "term": "Preserve",
+   "verse_label": "v. 2",
+   "text": "Omni says he fought much with the sword \"to preserve my people, the Nephites, from falling into the hands of their enemies\" (v. 2). Four verses later Amaron says of God that he \"kept and preserved them from falling into the hands of their enemies.\" The same clause, with a different agent behind it, and neither writer marks the overlap. Verse 1 has already spent the verb on the genealogy, so within two verses it has covered a document and a nation.",
+   "cites": [
+    {
+     "quote": "to preserve my people, the Nephites, from falling into the hands of their enemies",
+     "verse": 2,
+     "start": 40,
+     "end": 130,
+     "spans": [
+      {
+       "w1": 18,
+       "w2": 31,
+       "text": "to preserve my people, the Nephites, from falling into the hands of their enemies"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Conferred",
+   "verse_label": "v. 3",
+   "text": "To bestow formally, the verb for handing over an office or a grant. Omni uses it of the plates. In a book whose whole plot is the transfer of custody, the choice of a legal word for the handoff is the closest thing to ceremony the chapter contains."
+  },
+  {
+   "term": "In fine",
+   "verse_label": "v. 3",
+   "text": "An idiom meaning in short, or to sum up, and it closes a list. Omni has given peace and war in alternation, and then: \"Yea, and in fine, two hundred and eighty and two years had passed away\" (v. 3). In the King James Bible those two words only ever run together in front of linen or flax; the idiom is not there at all. This record uses it freely. The translation's own English shows through here as plainly as anywhere in the book.",
+   "cites": [
+    {
+     "quote": "Yea, and in fine, two hundred and eighty and two years had passed away",
+     "verse": 3,
+     "start": 118,
+     "end": 197,
+     "spans": [
+      {
+       "w1": 34,
+       "w2": 47,
+       "text": "Yea, and in fine, two hundred and eighty and two years had passed away"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Discovered",
+   "verse_label": "v. 14",
+   "text": "The verb is doing something different almost every time it appears. A people are discovered (v. 14), then a fact about where they came from, then the land they were found in, then how many of them there were, and last a man, Coriantumr, discovered by them rather than by Mosiah. The sense slides from finding to finding out and back, all within eight verses. In the King James Bible the word almost always means to uncover or expose; the one use that matches this one is a ship sighting Cyprus.",
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 14)",
+     "start": 92,
+     "end": 99,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
+  },
+  {
+   "term": "Moons",
    "verse_label": "v. 21",
    "text": "A lunar month, reckoned by observation rather than by calendar. The usage appears once in scripture. It sits inside a summary of a translated stone, and the unit is the sort of thing that survives a translation when the surrounding prose does not."
   }
@@ -72,22 +147,22 @@
   {
    "term": "I of myself am a wicked man, and I have not kept the statutes and the commandments of the Lord as I ought",
    "verse_label": "v. 2",
-   "text": "A self-assessment with no repentance narrative attached and no resolution offered. Omni states it, reports his military service, and hands on the plates. The record preserves a keeper's confession without redeeming it, which is unusual, and nothing later returns to it."
+   "text": "A self-assessment with no repentance narrative attached and no resolution offered. Omni states it, reports his military service, and hands on the plates. The record preserves a keeper's confession without redeeming it, an unusual thing, and nothing later returns to it."
   },
   {
-   "term": "he would not suffer that the words should not be verified",
+   "term": "He would not suffer that the words should not be verified",
    "verse_label": "v. 6",
-   "text": "A double negative doing exact work. God would not permit the promise to go unconfirmed, which makes the destruction of the wicked an act of keeping his word rather than of losing patience. The prosperity clause is treated as something God is obliged to make true in both directions."
+   "text": "A double negative doing exact work. God would not permit the promise to go unconfirmed. The destruction of the wicked is an act of keeping his word. The prosperity clause is treated as something God is obliged to make true in both directions."
   },
   {
    "term": "I know of no revelation save that which has been written, neither prophecy; wherefore, that which is sufficient is written",
    "verse_label": "v. 11",
-   "text": "The barest verse in the small plates and one of the most honest. Abinadom does not claim a vision and does not apologize for lacking one. He reports the absence, judges the existing record adequate, and stops. Jarom had used the same word — enough, no more required — to justify writing little when he had material; here it covers a man who appears to have none."
+   "text": "The barest verse in the small plates and one of the most honest. Abinadom does not claim a vision and does not apologize for lacking one. He reports the absence, judges the existing record adequate, and stops. Jarom had used the same word to justify writing little when he had material: enough, no more required. Here it covers a man who appears to have none."
   },
   {
-   "term": "their language had become corrupted; and they had brought no records with them; and they denied the being of their Creator",
+   "term": "Their language had become corrupted; and they had brought no records with them; and they denied the being of their Creator",
    "verse_label": "v. 17",
-   "text": "To corrupt is to spoil or break down, and applying it to a language treats speech as something that rots without maintenance — not that these people spoke a different tongue, but that theirs had decayed past understanding. Three clauses in causal order, and the record is making an argument about itself: a people separated from writing lost first their speech and then their God. Everything the small plates have said about the cost of engraving is answered here."
+   "text": "To corrupt is to spoil or break down, and applying it to a language treats speech as something that rots without maintenance. The point is that their own speech had decayed past understanding. Three clauses in causal order, and the record is making an argument about itself: a people separated from writing lost first their speech and then their God. Everything the small plates have said about the cost of engraving is answered here."
   },
   {
    "term": "Zarahemla gave a genealogy of his fathers, according to his memory",
@@ -95,27 +170,27 @@
    "text": "Memory doing the work of a document, and the record notes the difference. It is written down but \"not in these plates,\" which quietly marks it as a lesser source. Two verses after the language is restored, the first thing reconstructed is a line of descent."
   },
   {
-   "term": "he did interpret the engravings by the gift and power of God",
+   "term": "He did interpret the engravings by the gift and power of God",
    "verse_label": "v. 20",
    "text": "The record's first translation by revelation, and the phrase used for it is the one the book uses of its own coming forth. A king reads a stone by a gift, and the reader is told nothing about how."
   },
   {
-   "term": "their first parents came out from the tower, at the time the Lord confounded the language",
+   "term": "Their first parents came out from the tower, at the time the Lord confounded the language",
    "verse_label": "v. 22",
    "text": "Babel, named once, on a rock, in a summary. It is the reader's first notice of the people whose whole history occupies the book of Ether, and it arrives as an aside inside a report about a dead king found wandering."
   },
   {
-   "term": "having no seed, and knowing king Benjamin to be a just man",
+   "term": "Having no seed, and knowing king Benjamin to be a just man",
    "verse_label": "v. 25",
-   "text": "The line of custody ends and is replaced by a judgment of character. Amaleki cannot inherit anyone, so he assesses one, and the single criterion he states is justness — not kinship, not office, and not loyalty to the record."
+   "text": "The line of custody ends and is replaced by a judgment of character. Amaleki cannot inherit anyone, so he assesses one, and the single criterion he states is justness, not kinship, not office, and not loyalty to the record."
   },
   {
-   "term": "there is nothing which is good save it comes from the Lord",
+   "term": "There is nothing which is good save it comes from the Lord",
    "verse_label": "v. 25",
    "text": "A total claim, stated flatly and without argument, in the middle of a list of spiritual gifts. Amaleki has just named prophecy, revelations, angels, tongues, and interpretation; the sentence puts all of them and everything else on one side of a line."
   },
   {
-   "term": "offer your whole souls as an offering unto him",
+   "term": "Offer your whole souls as an offering unto him",
    "verse_label": "v. 26",
    "text": "An offering with no animal in it, and the wording appears nowhere else in scripture. It is spoken by a man living under the law of Moses, alongside fasting, praying, and enduring to the end. The whole exhortation runs about sixty words and it is the last preaching in the small plates."
   },
@@ -145,7 +220,7 @@
    "start": 9,
    "end": 11,
    "title": "Chemish and Abinadom",
-   "text": "Chemish records that he watched his brother write the last line with his own hand on the day of the handoff — a procedural note about how the record is kept. Abinadom reports war, his own sword, no revelation, and that what is written is sufficient. Both make an end."
+   "text": "Chemish records that he watched his brother write the last line with his own hand on the day of the handoff, which is a procedural note about how the record is kept. Abinadom reports war, his own sword, no revelation, and that what is written is sufficient. Both make an end."
   },
   {
    "label": "v. 12–19",
@@ -166,7 +241,7 @@
    "start": 23,
    "end": 26,
    "title": "Amaleki's own days, and his exhortation",
-   "text": "Born under Mosiah, saw his death, saw Benjamin reign and drive the Lamanites out; no seed; the plates to Benjamin because he is just; and then the appeal — come unto Christ, offer your whole souls, fast, pray, endure to the end. The only sustained preaching in the book, and it is four verses long."
+   "text": "Born under Mosiah, saw his death, saw Benjamin reign and drive the Lamanites out; no seed; the plates to Benjamin because he is just; and then the appeal: come unto Christ, offer your whole souls, fast, pray, endure to the end. The only sustained preaching in the book, and it is four verses long."
   },
   {
    "label": "v. 27–30",
@@ -218,7 +293,7 @@
    {
     "title": "Write the honest sentence",
     "verse_label": "v. 2",
-    "text": "Omni recorded that he had not kept the commandments as he ought, and did not dress it up. When you account for yourself — in a journal, to a friend, in prayer — try one sentence with no defense attached."
+    "text": "Omni recorded that he had not kept the commandments as he ought, and did not dress it up. When you account for yourself in a journal, to a friend, or in prayer, try one sentence with no defense attached."
    },
    {
     "title": "Keep the records",
@@ -233,7 +308,7 @@
    {
     "title": "Judge by character when the line runs out",
     "verse_label": "v. 25",
-    "text": "Amaleki had no son and chose a just man. When there is no obvious successor for something you care about, the criterion the chapter uses is not proximity but justness."
+    "text": "Amaleki had no son and chose a just man. When there is no obvious successor for something you care about, the criterion the chapter uses is justness."
    },
    {
     "title": "Offer the whole thing",
@@ -304,7 +379,9 @@
      "verse": 5,
      "w1": 43,
      "w2": 49,
-     "quote": "our fathers would have dwindled in unbelief",
+     "quote": "our fathers would have dwindled in unbelief,",
+     "verse_text": "I say unto you, my sons, were it not for these things, which have been kept and preserved by the hand of God, that we might read and understand of his mysteries, and have his commandments always before our eyes, that even our fathers would have dwindled in unbelief, and we should have been like unto our brethren, the Lamanites, who know nothing concerning these things, or even do not believe them when they are taught them, because of the traditions of their fathers, which are not correct.",
+     "markdown": "I say unto you, my sons, were it not for these things, which have been kept and preserved by the hand of God, that we might read and understand of his mysteries, and have his commandments always before our eyes, that even **our fathers would have dwindled in unbelief**, and we should have been like unto our brethren, the Lamanites, who know nothing concerning these things, or even do not believe them when they are taught them, because of the traditions of their fathers, which are not correct.",
      "span": true
     }
    ],
@@ -328,7 +405,9 @@
      "verse": 10,
      "w1": 7,
      "w2": 19,
-     "quote": "after Amaleki had delivered up these plates into the hands of king Benjamin",
+     "quote": "after Amaleki had delivered up these plates into the hands of king Benjamin,",
+     "verse_text": "Wherefore, it came to pass that after Amaleki had delivered up these plates into the hands of king Benjamin, he took them and put them with the other plates, which contained records which had been handed down by the kings, from generation to generation until the days of king Benjamin.",
+     "markdown": "Wherefore, it came to pass that **after Amaleki had delivered up these plates into the hands of king Benjamin**, he took them and put them with the other plates, which contained records which had been handed down by the kings, from generation to generation until the days of king Benjamin.",
      "span": true
     }
    ],
@@ -352,7 +431,9 @@
      "verse": 20,
      "w1": 21,
      "w2": 26,
-     "quote": "Coriantumr that, if he would repent",
+     "quote": "Coriantumr that, if he would repent,",
+     "verse_text": "And in the second year the word of the Lord came to Ether, that he should go and prophesy unto Coriantumr that, if he would repent, and all his household, the Lord would give unto him his kingdom and spare the people—",
+     "markdown": "And in the second year the word of the Lord came to Ether, that he should go and prophesy unto **Coriantumr that, if he would repent**, and all his household, the Lord would give unto him his kingdom and spare the people—",
      "span": true
     }
    ],
@@ -376,7 +457,9 @@
      "verse": 4,
      "w1": 6,
      "w2": 20,
-     "quote": "in the commencement of the first year of the reign of Zedekiah, king of Judah",
+     "quote": "in the commencement of the first year of the reign of Zedekiah, king of Judah,",
+     "verse_text": "For it came to pass in the commencement of the first year of the reign of Zedekiah, king of Judah, (my father, Lehi, having dwelt at Jerusalem in all his days); and in that same year there came many prophets, prophesying unto the people that they must repent, or the great city Jerusalem must be destroyed.",
+     "markdown": "For it came to pass **in the commencement of the first year of the reign of Zedekiah, king of Judah**, (my father, Lehi, having dwelt at Jerusalem in all his days); and in that same year there came many prophets, prophesying unto the people that they must repent, or the great city Jerusalem must be destroyed.",
      "span": true
     }
    ],
@@ -400,7 +483,9 @@
      "verse": 20,
      "w1": 20,
      "w2": 35,
-     "quote": "inasmuch as ye will not keep my commandments ye shall be cut off from my presence",
+     "quote": "inasmuch as ye will not keep my commandments ye shall be cut off from my presence.",
+     "verse_text": "And he hath said that: Inasmuch as ye shall keep my commandments ye shall prosper in the land; but inasmuch as ye will not keep my commandments ye shall be cut off from my presence.",
+     "markdown": "And he hath said that: Inasmuch as ye shall keep my commandments ye shall prosper in the land; but **inasmuch as ye will not keep my commandments ye shall be cut off from my presence**.",
      "span": true
     }
    ],
@@ -424,7 +509,9 @@
      "verse": 15,
      "w1": 2,
      "w2": 12,
-     "quote": "I deliver these plates into the hands of my son Omni",
+     "quote": "I deliver these plates into the hands of my son Omni,",
+     "verse_text": "And I deliver these plates into the hands of my son Omni, that they may be kept according to the commandments of my fathers.",
+     "markdown": "And **I deliver these plates into the hands of my son Omni**, that they may be kept according to the commandments of my fathers.",
      "span": true
     }
    ],
@@ -448,7 +535,9 @@
      "verse": 9,
      "w1": 9,
      "w2": 20,
-     "quote": "because the LORD did there confound the language of all the earth",
+     "quote": "because the LORD did there confound the language of all the earth:",
+     "verse_text": "Therefore is the name of it called Babel; because the LORD did there confound the language of all the earth: and from thence did the LORD scatter them abroad upon the face of all the earth.",
+     "markdown": "Therefore is the name of it called Babel; **because the LORD did there confound the language of all the earth**: and from thence did the LORD scatter them abroad upon the face of all the earth.",
      "span": true
     }
    ],
@@ -521,7 +610,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-18",
-  "source_sha256": "1a25483665db9d0e"
+  "at": "2026-08-25",
+  "source_sha256": "d7bfe244e6bea51c"
  }
 }

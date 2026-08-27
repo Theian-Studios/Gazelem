@@ -1,0 +1,689 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Helaman",
+  "book_slug": "helaman",
+  "chapter": 2,
+  "volume_order": "09",
+  "speakers": [
+   "Mormon, as narrator"
+  ],
+  "audience": "The reader of the abridgment",
+  "location": "Zarahemla, and the wilderness beyond it",
+  "date": "~50 BC",
+  "unit": "The rise of the Gadianton band (Helaman 1–6)",
+  "principles": [
+   "A band that outlives its founder",
+   "An assassin stopped by a servant",
+   ""
+  ],
+  "connections": 10,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The seat is empty a second time in three years",
+   "text": "Verse 1 says there was no one to fill it after Pacumeni's death in Helaman 1:21."
+  },
+  {
+   "n": 2,
+   "title": "Helaman the third takes the office",
+   "text": "Verse 2 names him as the son of Helaman, so this is Alma's grandson, elected by the voice of the people."
+  },
+  {
+   "n": 3,
+   "title": "Gadianton enters the record here",
+   "text": "Verse 4 introduces him by two qualities, skill in speech and skill in his craft, and makes him leader of a band that already existed."
+  },
+  {
+   "n": 4,
+   "title": "The offer is patronage",
+   "text": "Verse 5 has Gadianton promising the band power and authority if they put him in the judgment-seat."
+  },
+  {
+   "n": 5,
+   "title": "The servant is unnamed",
+   "text": "Verses 6 through 9 have him learning the plan by disguise, receiving Kishkumen's sign, and killing him on the way to the murder. The record gives him no name."
+  },
+  {
+   "n": 6,
+   "title": "Mormon names his source",
+   "text": "Verse 14 says he has taken the account from the book of Nephi, and corrects the reader about which book he means."
+  },
+  {
+   "n": 7,
+   "title": "The chapter forecasts the end",
+   "text": "Verse 13 says Gadianton would prove almost the entire destruction of the people of Nephi, four hundred years before it happens."
+  }
+ ],
+ "words": [
+  {
+   "term": "Expert",
+   "verse_label": "v. 4",
+   "text": "Treated at Alma 10:31, of Zeezrom among the lawyers at Ammonihah. The record uses it five times, and twice of men whose skill is turned against the people they live among.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 10:31",
+     "start": 11,
+     "end": 21,
+     "book": "Alma",
+     "chapter": 10,
+     "verse_start": 31,
+     "verse_end": 31
+    }
+   ]
+  },
+  {
+   "term": "Sign",
+   "verse_label": "v. 7",
+   "text": "Treated at 1 Nephi 11:7. Here the word means a recognition token between conspirators, given so that Kishkumen would speak freely to a stranger in the dark."
+  },
+  {
+   "term": "Combination",
+   "verse_label": "v. 8",
+   "text": "A group bound together for a common end. The record uses the word twenty-eight times and the King James Bible never. Verse 8 pairs it with \"secret plan\" as the first naming of what this band is."
+  },
+  {
+   "term": "Groan",
+   "verse_label": "v. 9",
+   "text": "A low sound of pain. The record uses the word six times, mostly of mourning. Here it marks silence, since the killing had to make no noise in the street."
+  },
+  {
+   "term": "Robbers",
+   "verse_label": "v. 10",
+   "text": "Those who take by force. The record uses the word sixty-two times, and this is the first time it is applied to this band. From Helaman 6:18 onward it becomes their standing name."
+  },
+  {
+   "term": "Overthrow",
+   "verse_label": "v. 13",
+   "text": "To bring down completely. The record uses the word fifteen times. Verse 13 applies it to the Nephites and pairs it with almost their entire destruction."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "There was no one to fill the judgment-seat",
+   "verse_label": "v. 1",
+   "text": "The second vacancy in three years. Pahoran was murdered in Helaman 1:9 and Pacumeni killed against a wall in Helaman 1:21."
+  },
+  {
+   "term": "Helaman, who was the son of Helaman, was appointed to fill the judgment-seat, by the voice of the people",
+   "verse_label": "v. 2",
+   "text": "The office passes out of Pahoran's family to the record-keeper's. The same man had received the sacred things in Alma 63:11.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 63:11",
+     "start": 113,
+     "end": 123,
+     "book": "Alma",
+     "chapter": 63,
+     "verse_start": 11,
+     "verse_end": 11
+    }
+   ]
+  },
+  {
+   "term": "He was upheld by his band, who had entered into a covenant that no one should know his wickedness",
+   "verse_label": "v. 3",
+   "text": "The oath of Helaman 1:11 doing its work. The covenant of silence is what keeps a known murderer safe in a city that wants him."
+  },
+  {
+   "term": "There was one Gadianton, who was exceedingly expert in many words, and also in his craft",
+   "verse_label": "v. 4",
+   "text": "The introduction of the name the next four hundred years are filed under. Mormon gives two skills and no history."
+  },
+  {
+   "term": "That they should be placed in power and authority among the people",
+   "verse_label": "v. 5",
+   "text": "The terms of the deal. The band is offered office, and the price is one murder and the judgment-seat."
+  },
+  {
+   "term": "Having obtained, through disguise, a knowledge of those plans",
+   "verse_label": "v. 6",
+   "text": "Disguise turned around. Kishkumen had used it to kill in Helaman 1:12, and a servant uses it here to find out what is coming."
+  },
+  {
+   "term": "He gave unto him a sign",
+   "verse_label": "v. 7",
+   "text": "The moment the plan fails. The band's own recognition token is what lets an outsider hear the whole design."
+  },
+  {
+   "term": "This was their secret plan, and their combination",
+   "verse_label": "v. 8",
+   "text": "Mormon breaks into the sentence to name the thing. Murder, robbery, and the gaining of power are listed as the three objects."
+  },
+  {
+   "term": "Did stab Kishkumen even to the heart, that he fell dead without a groan",
+   "verse_label": "v. 9",
+   "text": "The killing is reported in the same terms Kishkumen used on Pahoran. The record notes that the servant then told Helaman everything he had seen, heard, and done."
+  },
+  {
+   "term": "They took their flight out of the land, by a secret way, into the wilderness",
+   "verse_label": "v. 11",
+   "text": "Gadianton reads the silence correctly and leaves before the arrest party arrives. The band survives by moving, and comes back in Helaman 6."
+  },
+  {
+   "term": "I do not mean the end of the book of Helaman, but I mean the end of the book of Nephi",
+   "verse_label": "v. 14",
+   "text": "Mormon correcting a sentence he has just written. The aside identifies his source and shows him abridging a record he can see the end of."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–2",
+   "start": 1,
+   "end": 2,
+   "title": "The seat filled again",
+   "text": "In the forty-second year, after Moronihah has restored peace, the judgment-seat is empty and contention begins again over who should fill it. Helaman, son of Helaman, is appointed by the voice of the people."
+  },
+  {
+   "label": "v. 3–5",
+   "start": 3,
+   "end": 5,
+   "title": "Gadianton takes the band",
+   "text": "Kishkumen lies in wait to kill Helaman too, upheld by the band sworn to hide his wickedness. Gadianton, expert in speech and in his craft of murder and robbery, becomes their leader. He flatters them with an offer: put him in the judgment-seat and they will hold power and authority."
+  },
+  {
+   "label": "v. 6–7",
+   "start": 6,
+   "end": 7,
+   "title": "The plan discovered",
+   "text": "A servant of Helaman, out by night, learns the band's plans through disguise. He meets Kishkumen, gives him a sign, and Kishkumen tells him what he intends and asks to be conducted to the judgment-seat."
+  },
+  {
+   "label": "v. 8–9",
+   "start": 8,
+   "end": 9,
+   "title": "Kishkumen killed",
+   "text": "Knowing the whole design, and that the band's objects are murder, robbery, and power, the servant agrees to lead him there. On the way he stabs Kishkumen to the heart, and Kishkumen dies without a sound. The servant reports everything to Helaman."
+  },
+  {
+   "label": "v. 10–12",
+   "start": 10,
+   "end": 12,
+   "title": "The band escapes",
+   "text": "Helaman sends to arrest them for execution under the law. Gadianton, warned by Kishkumen's failure to return, takes the band out of the land by a secret way into the wilderness, and the officers find no one."
+  },
+  {
+   "label": "v. 13–14",
+   "start": 13,
+   "end": 14,
+   "title": "The forecast",
+   "text": "Mormon says this Gadianton would prove almost the entire destruction of the Nephites, and clarifies that he means the end of the book of Nephi, his source, rather than the end of Helaman."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The band changes hands and grows a program",
+   "text": "Kishkumen killed for a faction in Helaman 1. Gadianton gives the same men an aim, an organization, and a route to office."
+  },
+  {
+   "n": 2,
+   "title": "Flattery is the recruiting tool again",
+   "text": "Verse 5 has Gadianton flattering his own band. Mormon has used the word of Amalickiah, the king-men, and Paanchi, and now of a man working on his own side."
+  },
+  {
+   "n": 3,
+   "title": "A servant does what the state could not",
+   "text": "No army, no trial, and no name. Verse 9 has one man stopping a murder that the covenant of silence had made otherwise unstoppable."
+  },
+  {
+   "n": 4,
+   "title": "Disguise cuts both ways",
+   "text": "The band's own method in Helaman 1:12 becomes the means of exposing it here, and the sign meant to protect them gives them away."
+  },
+  {
+   "n": 5,
+   "title": "The escape is what matters",
+   "text": "Verse 11 is the reason the next four hundred years look the way they do. Executing the band was the last moment the record offers."
+  },
+  {
+   "n": 6,
+   "title": "Mormon interrupts to tell the reader the ending",
+   "text": "Verse 13 gives away the outcome. He is abridging a finished record and can see where this leads."
+  },
+  {
+   "n": 7,
+   "title": "The correction in verse 14 shows the seam",
+   "text": "Mormon names the book of Nephi as his source and distinguishes it from his own book divisions. The aside is one of the clearest views of his method."
+  },
+  {
+   "n": 8,
+   "title": "The office and the record are now in one family",
+   "text": "Helaman holds both the judgment-seat and the sacred things from Alma 63:11, and the band's plan was aimed at that seat.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 63:11",
+     "start": 64,
+     "end": 74,
+     "book": "Alma",
+     "chapter": 63,
+     "verse_start": 11,
+     "verse_end": 11
+    }
+   ]
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Watch what a group is offered, not what it says",
+    "verse_label": "v. 5",
+    "text": "Gadianton bought the band with power and authority. When people change allegiance, look for what was on the table."
+   },
+   {
+    "title": "The quiet work is the decisive work",
+    "verse_label": "v. 6",
+    "text": "A servant out at night did what the government could not. Small, unglamorous attention is often what stops the thing everyone would have called unstoppable."
+   },
+   {
+    "title": "Move on it while it is still findable",
+    "verse_label": "v. 11",
+    "text": "Helaman sent for the band one step too late. When you have identified something you intend to deal with, the window is shorter than it looks."
+   },
+   {
+    "title": "Say plainly what a thing will cost",
+    "verse_label": "v. 13",
+    "text": "Mormon named the outcome four hundred years early. Naming a trajectory out loud is worth more than describing the current state accurately."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What has silence protected in my life?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What am I expert at, and what is it being used for?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "What would someone have to offer to move me?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "What have I found out by paying attention when nobody asked me to?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What did I do quietly that no one credited?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "What have I let get away by acting a day late?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "What in my life is small now and would be named as the cause later?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "hel02-001",
+   "scope": "BOOK",
+   "head": "Hel. 1:9",
+   "anchor": {
+    "verse": 3,
+    "w1": 3,
+    "w2": 7,
+    "quote": "Kishkumen, who had murdered Pahoran"
+   },
+   "reason": "the murder itself, done on the seat during the sitting",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 1,
+     "verse": 9,
+     "w1": 39,
+     "w2": 46,
+     "quote": "murdered Pahoran as he sat upon the judgment-seat.",
+     "verse_text": "Now when those people who were desirous that he should be their governor saw that he was condemned unto death, therefore they were angry, and behold, they sent forth one Kishkumen, even to the judgment-seat of Pahoran, and murdered Pahoran as he sat upon the judgment-seat.",
+     "markdown": "Now when those people who were desirous that he should be their governor saw that he was condemned unto death, therefore they were angry, and behold, they sent forth one Kishkumen, even to the judgment-seat of Pahoran, and **murdered Pahoran as he sat upon the judgment-seat**.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel02-002",
+   "scope": "BOOK",
+   "head": "Hel. 1:13",
+   "anchor": {
+    "verse": 2,
+    "w1": 7,
+    "w2": 25,
+    "quote": "Helaman, who was the son of Helaman, was appointed to fill the judgment-seat, by the voice of the people"
+   },
+   "reason": "the previous appointment by the same procedure, to a man now dead",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 1,
+     "verse": 13,
+     "w1": 4,
+     "w2": 13,
+     "quote": "Pacumeni was appointed, according to the voice of the people,",
+     "verse_text": "And now behold, Pacumeni was appointed, according to the voice of the people, to be a chief judge and a governor over the people, to reign in the stead of his brother Pahoran; and it was according to his right. And all this was done in the fortieth year of the reign of the judges; and it had an end.",
+     "markdown": "And now behold, **Pacumeni was appointed, according to the voice of the people**, to be a chief judge and a governor over the people, to reign in the stead of his brother Pahoran; and it was according to his right. And all this was done in the fortieth year of the reign of the judges; and it had an end.",
+     "span": true
+    }
+   ],
+   "mirror": "hel01-003"
+  },
+  {
+   "id": "hel02-003",
+   "scope": "BOOK",
+   "head": "Hel. 1:12",
+   "anchor": {
+    "verse": 6,
+    "w1": 29,
+    "w2": 37,
+    "quote": "having obtained, through disguise, a knowledge of those plans"
+   },
+   "reason": "the same method, used by the assassin to get close to Pahoran",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 1,
+     "verse": 12,
+     "w1": 12,
+     "w2": 22,
+     "quote": "he was in disguise at the time that he murdered Pahoran.",
+     "verse_text": "Therefore, Kishkumen was not known among the people of Nephi, for he was in disguise at the time that he murdered Pahoran. And Kishkumen and his band, who had covenanted with him, did mingle themselves among the people, in a manner that they all could not be found; but as many as were found were condemned unto death.",
+     "markdown": "Therefore, Kishkumen was not known among the people of Nephi, for **he was in disguise at the time that he murdered Pahoran**. And Kishkumen and his band, who had covenanted with him, did mingle themselves among the people, in a manner that they all could not be found; but as many as were found were condemned unto death.",
+     "span": true
+    }
+   ],
+   "mirror": "hel01-001"
+  },
+  {
+   "id": "hel02-004",
+   "scope": "BOOK",
+   "head": "Hel. 6:18",
+   "anchor": {
+    "verse": 10,
+    "w1": 13,
+    "w2": 19,
+    "quote": "this band of robbers and secret murderers"
+   },
+   "reason": "the band under both founders’ names, once it has spread",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 6,
+     "verse": 18,
+     "w1": 52,
+     "w2": 58,
+     "quote": "they were called Gadianton's robbers and murderers.",
+     "verse_text": "And now behold, those murderers and plunderers were a band who had been formed by Kishkumen and Gadianton. And now it had come to pass that there were many, even among the Nephites, of Gadianton's band. But behold, they were more numerous among the more wicked part of the Lamanites. And they were called Gadianton's robbers and murderers.",
+     "markdown": "And now behold, those murderers and plunderers were a band who had been formed by Kishkumen and Gadianton. And now it had come to pass that there were many, even among the Nephites, of Gadianton's band. But behold, they were more numerous among the more wicked part of the Lamanites. And **they were called Gadianton's robbers and murderers**.",
+     "span": true
+    }
+   ],
+   "mirror": "hel06-003"
+  },
+  {
+   "id": "hel02-005",
+   "scope": "BOM",
+   "head": "Alma 10:31",
+   "anchor": {
+    "verse": 4,
+    "w1": 8,
+    "w2": 12,
+    "quote": "exceedingly expert in many words"
+   },
+   "reason": "the other man the record calls expert, among the lawyers at Ammonihah",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 10,
+     "verse": 31,
+     "w1": 21,
+     "w2": 29,
+     "quote": "he being one of the most expert among them,",
+     "verse_text": "And there was one among them whose name was Zeezrom. Now he was the foremost to accuse Amulek and Alma, he being one of the most expert among them, having much business to do among the people.",
+     "markdown": "And there was one among them whose name was Zeezrom. Now he was the foremost to accuse Amulek and Alma, **he being one of the most expert among them**, having much business to do among the people.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel02-006",
+   "scope": "BOM",
+   "head": "Ether 8:18",
+   "anchor": {
+    "verse": 4,
+    "w1": 18,
+    "w2": 28,
+    "quote": "to carry on the secret work of murder and of robbery"
+   },
+   "reason": "the Jaredite combination, formed on a pattern the record calls old",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 8,
+     "verse": 18,
+     "w1": 7,
+     "w2": 16,
+     "quote": "they formed a secret combination, even as they of old;",
+     "verse_text": "And it came to pass that they formed a secret combination, even as they of old; which combination is most abominable and wicked above all, in the sight of God;",
+     "markdown": "And it came to pass that **they formed a secret combination, even as they of old**; which combination is most abominable and wicked above all, in the sight of God;",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel02-007",
+   "scope": "BOM",
+   "head": "Alma 37:31",
+   "anchor": {
+    "verse": 8,
+    "w1": 48,
+    "w2": 55,
+    "quote": "this was their secret plan, and their combination)"
+   },
+   "reason": "Alma cursing the land against workers of darkness, in the charge to Helaman",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 37,
+     "verse": 31,
+     "w1": 3,
+     "w2": 17,
+     "quote": "cursed be the land forever and ever unto those workers of darkness and secret combinations,",
+     "verse_text": "Yea, and cursed be the land forever and ever unto those workers of darkness and secret combinations, even unto destruction, except they repent before they are fully ripe.",
+     "markdown": "Yea, and **cursed be the land forever and ever unto those workers of darkness and secret combinations**, even unto destruction, except they repent before they are fully ripe.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel02-008",
+   "scope": "BOM",
+   "head": "Alma 63:11",
+   "anchor": {
+    "verse": 2,
+    "w1": 7,
+    "w2": 25,
+    "quote": "Helaman, who was the son of Helaman, was appointed to fill the judgment-seat, by the voice of the people"
+   },
+   "reason": "the same man receiving the sacred things from Shiblon",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 63,
+     "verse": 11,
+     "w1": 7,
+     "w2": 19,
+     "quote": "to confer those sacred things, before his death, upon the son of Helaman,",
+     "verse_text": "Therefore it became expedient for Shiblon to confer those sacred things, before his death, upon the son of Helaman, who was called Helaman, being called after the name of his father.",
+     "markdown": "Therefore it became expedient for Shiblon **to confer those sacred things, before his death, upon the son of Helaman**, who was called Helaman, being called after the name of his father.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel02-009",
+   "scope": "BOM",
+   "head": "Morm. 8:27",
+   "anchor": {
+    "verse": 13,
+    "w1": 13,
+    "w2": 28,
+    "quote": "this Gadianton did prove the overthrow, yea, almost the entire destruction of the people of Nephi"
+   },
+   "reason": "Moroni looking back on secret combinations from the end of the record",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 8,
+     "verse": 27,
+     "w1": 18,
+     "w2": 26,
+     "quote": "because of secret combinations and the works of darkness.",
+     "verse_text": "And it shall come in a day when the blood of saints shall cry unto the Lord, because of secret combinations and the works of darkness.",
+     "markdown": "And it shall come in a day when the blood of saints shall cry unto the Lord, **because of secret combinations and the works of darkness**.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel02-010",
+   "scope": "SW",
+   "head": "2 Sam. 20:10",
+   "anchor": {
+    "verse": 9,
+    "w1": 31,
+    "w2": 44,
+    "quote": "did stab Kishkumen even to the heart, that he fell dead without a groan"
+   },
+   "reason": "Joab killing Amasa mid-greeting, with one blow and no second",
+   "targets": [
+    {
+     "ref": "2 Sam.",
+     "chapter": 20,
+     "verse": 10,
+     "w1": 15,
+     "w2": 30,
+     "quote": "he smote him therewith in the fifth rib, and shed out his bowels to the ground,",
+     "verse_text": "But Amasa took no heed to the sword that was in Joab's hand: so he smote him therewith in the fifth rib, and shed out his bowels to the ground, and struck him not again; and he died. So Joab and Abishai his brother pursued after Sheba the son of Bichri.",
+     "markdown": "But Amasa took no heed to the sword that was in Joab's hand: so **he smote him therewith in the fifth rib, and shed out his bowels to the ground**, and struck him not again; and he died. So Joab and Abishai his brother pursued after Sheba the son of Bichri.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 7,
+   "w2": 25,
+   "quote": "Helaman, who was the son of Helaman, was appointed to fill the judgment-seat, by the voice of the people",
+   "entries": [
+    "hel02-002",
+    "hel02-008"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 3,
+   "w2": 7,
+   "quote": "Kishkumen, who had murdered Pahoran",
+   "entries": [
+    "hel02-001"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 8,
+   "w2": 12,
+   "quote": "exceedingly expert in many words",
+   "entries": [
+    "hel02-005"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 18,
+   "w2": 28,
+   "quote": "to carry on the secret work of murder and of robbery",
+   "entries": [
+    "hel02-006"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 29,
+   "w2": 37,
+   "quote": "having obtained, through disguise, a knowledge of those plans",
+   "entries": [
+    "hel02-003"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 48,
+   "w2": 55,
+   "quote": "this was their secret plan, and their combination)",
+   "entries": [
+    "hel02-007"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 31,
+   "w2": 44,
+   "quote": "did stab Kishkumen even to the heart, that he fell dead without a groan",
+   "entries": [
+    "hel02-010"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 13,
+   "w2": 19,
+   "quote": "this band of robbers and secret murderers",
+   "entries": [
+    "hel02-004"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 13,
+   "w2": 28,
+   "quote": "this Gadianton did prove the overthrow, yea, almost the entire destruction of the people of Nephi",
+   "entries": [
+    "hel02-009"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "97f1da33e3c03a7c"
+ }
+}

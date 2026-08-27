@@ -27,7 +27,7 @@
   {
    "n": 1,
    "title": "A prophet who is not in the Bible",
-   "text": "Zenos is quoted or named twelve times in this record and nowhere in the Old Testament. His words were on the brass plates, and Jacob assumes his hearers have read them — \"do ye not remember to have read.\" This chapter is the longest surviving piece of him, and it is longer than several biblical books."
+   "text": "Zenos is quoted or named twelve times in this record and nowhere in the Old Testament. His words were on the brass plates, and Jacob assumes his hearers have read them: \"do ye not remember to have read.\" This chapter is the longest surviving piece of him, and it is longer than several biblical books."
   },
   {
    "n": 2,
@@ -52,22 +52,128 @@
   {
    "n": 6,
    "title": "Grafting in both directions",
-   "text": "Paul's figure in Romans 11 runs one way: a wild branch grafted contrary to nature into a good tree. Zenos runs it both ways and several times — wild into tame, natural into wild, and natural back into the mother tree. The traffic is what makes this a history rather than an illustration."
+   "text": "Paul's figure in Romans 11 runs one way: a wild branch grafted contrary to nature into a good tree. Zenos runs it both ways and several times, grafting wild into tame, natural into wild, and natural back into the mother tree. The traffic is what makes this a history."
   }
  ],
  "words": [
   {
-   "term": "cumber",
+   "term": "Cumber",
    "verse_label": "v. 9, 30, 44, 49, 66",
-   "text": "To obstruct by taking up room. Luke uses it of the fig tree that occupies ground without producing, and here it is the standing reason for burning: the bad is removed because it is in the way, not because it is offensive. Five uses across the chapter, all of them about space rather than about anger."
+   "text": "To obstruct by taking up room. Luke uses it of the fig tree that occupies ground without producing, and here it is the standing reason for burning: the bad is removed because it is in the way. Five uses across the chapter, all of them about space rather than about anger."
   },
   {
-   "term": "nethermost",
+   "term": "Nethermost",
    "verse_label": "v. 13, 14, 19, 38, 39, 52",
-   "text": "The lowest or furthest part. The word's only other appearance in scripture is the bottom chamber of Solomon's temple, which makes it a term for a structure's remote interior rather than for wilderness. The branches hidden there are not thrown away; they are stored in the parts of the property nobody visits."
+   "text": "The lowest or furthest part. The word's only other appearance in scripture is the bottom chamber of Solomon's temple, so the word names a structure's remote interior. The branches hidden there are not thrown away; they are stored in the parts of the property nobody visits."
   },
   {
-   "term": "dunged",
+   "term": "Season",
+   "verse_label": "v. 13",
+   "text": "Fruit is laid up \"against the season\" (v. 13), which means in readiness for a time that is coming. The phrase runs through the chapter as ordinary storage talk, a proprietor putting away what he has gathered against a date he knows. Then the labor turns urgent because \"the season speedily cometh\" (v. 71), and the last sentence of the allegory sets \"the season and the end\" (v. 77) side by side. A word for harvest time ends up naming the day the whole story has been walking toward.",
+   "cites": [
+    {
+     "quote": "against the season",
+     "verse": 13,
+     "start": 17,
+     "end": 45,
+     "spans": [
+      {
+       "w1": 46,
+       "w2": 48,
+       "text": "against the season"
+      }
+     ]
+    },
+    {
+     "quote": "the season speedily cometh",
+     "verse": 71,
+     "start": 269,
+     "end": 305,
+     "spans": [
+      {
+       "w1": 41,
+       "w2": 44,
+       "text": "the season speedily cometh"
+      }
+     ]
+    },
+    {
+     "quote": "the season and the end",
+     "verse": 77,
+     "start": 350,
+     "end": 382,
+     "spans": [
+      {
+       "w1": 49,
+       "w2": 53,
+       "text": "the season and the end"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Tame",
+   "verse_label": "v. 18",
+   "text": "Tame means brought under a hand, the word used of animals broken to human use. A tame tree is one that is grafted, pruned, dug about, and fed rather than left to itself, and the allegory sorts its trees as tame and wild before it sorts their fruit as good and evil. The word then drops out after verse 25, and the same trees are called natural for the remaining fifty verses. Apart from this allegory and Jacob's reference back to it in the next chapter, the record does not use the word; the King James Bible has it only as a verb, for a tongue and a man nobody could tame."
+  },
+  {
+   "term": "Ripened",
+   "verse_label": "v. 37",
+   "text": "Ripeness is a reason to burn something here. A branch \"will soon become ripened, that it may be cast into the fire\" (v. 37), and later the workers pluck \"those branches which are ripened, that must perish\" (v. 58). Nothing in the chapter is gathered because it is ripe. Joel had already put the sickle to a harvest that was ripe because wickedness was great (Joel 3:13), and this record keeps that sense when it calls a people ripe in iniquity (1 Ne. 17:35). In this vineyard ripeness means a thing is finished, and finished is what goes into the fire.",
+   "cites": [
+    {
+     "quote": "will soon become ripened, that it may be cast into the fire",
+     "verse": 37,
+     "start": 54,
+     "end": 123,
+     "spans": [
+      {
+       "w1": 52,
+       "w2": 63,
+       "text": "will soon become ripened, that it may be cast into the fire"
+      }
+     ]
+    },
+    {
+     "quote": "those branches which are ripened, that must perish",
+     "verse": 58,
+     "start": 153,
+     "end": 213,
+     "spans": [
+      {
+       "w1": 26,
+       "w2": 33,
+       "text": "those branches which are ripened, that must perish"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Joel 3:13",
+     "start": 359,
+     "end": 368,
+     "book": "Joel",
+     "chapter": 3,
+     "verse_start": 13,
+     "verse_end": 13
+    },
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 17:35",
+     "start": 445,
+     "end": 456,
+     "book": "1 Ne",
+     "chapter": 17,
+     "verse_start": 35,
+     "verse_end": 35
+    }
+   ]
+  },
+  {
+   "term": "Dunged",
    "verse_label": "v. 47, 64, 76",
    "text": "Manured. It is the least dignified verb in the chapter and it is applied to God's own labor, three times, alongside pruning and digging. The allegory refuses to let divine effort be clean work, and the caretaker in Luke's parable uses the same word for the same last-chance treatment."
   }
@@ -79,7 +185,7 @@
    "text": "The identification is made once, in the third verse, and never repeated. Everything after this is horticulture. The allegory trusts its reader to carry the equation through seventy-four verses without a reminder, which is why it can afford to be as detailed as it is."
   },
   {
-   "term": "it grieveth me that I should lose this tree",
+   "term": "It grieveth me that I should lose this tree",
    "verse_label": "v. 7, 11, 13, 32, 46, 51, 66",
    "text": "The refrain, seven times, and always the master's own voice. It is never \"it angers me\" and never \"they deserve it.\" The chapter's engine is a proprietor's reluctance to lose what he has invested in, and the repetition is doing what a chorus does in a poem."
   },
@@ -91,45 +197,45 @@
   {
    "term": "How comest thou hither to plant this tree... it was the poorest spot in all the land",
    "verse_label": "v. 21",
-   "text": "The servant's objection is agricultural common sense, and the answer is \"Counsel me not.\" What follows is three more plantings in ground described as poorer still, each of which bore much fruit. The sequence answers the objection by outcome rather than by argument."
+   "text": "The servant's objection is agricultural common sense, and the answer is \"Counsel me not.\" What follows is three more plantings in ground described as poorer still, each of which bore much fruit. The sequence answers the objection by outcome."
   },
   {
-   "term": "the Lord of the vineyard wept, and said unto the servant: What could I have done more",
+   "term": "The Lord of the vineyard wept, and said unto the servant: What could I have done more",
    "verse_label": "v. 41",
    "text": "God weeping over a failed crop, in a text six centuries older than the shortest verse in John. The question is Isaiah's, asked here by a master who has just seen every planting corrupt at once, and the tear comes before the question rather than after it."
   },
   {
    "term": "Have I slackened mine hand... I have stretched forth mine hand almost all the day long",
    "verse_label": "v. 47",
-   "text": "The defense is a labor record. Nourished, digged, pruned, dunged, and hand stretched out all day — four verbs and a posture. It is the fullest account in scripture of divine effort described as work, and it ends with a question the master cannot answer: who corrupted the vineyard?"
+   "text": "The defense is a labor record. Nourished, digged, pruned, dunged, and hand stretched out all day. That is four verbs and a posture. It is the fullest account in scripture of divine effort described as work, and it ends with a question the master cannot answer: who corrupted the vineyard?"
   },
   {
-   "term": "is it not the loftiness of thy vineyard—have not the branches thereof overcome the roots",
+   "term": "Is it not the loftiness of thy vineyard—have not the branches thereof overcome the roots",
    "verse_label": "v. 48",
    "text": "The noun is Isaiah's word for what gets bowed down in the day of the Lord, and this is the only place in scripture it is applied to plants rather than to people. The servant supplies the diagnosis and it is accepted in silence: branches grew faster than the roots could support and took strength to themselves. Nothing external corrupted the vineyard; the growth did, by outrunning what fed it."
   },
   {
    "term": "Spare it a little longer",
    "verse_label": "v. 50",
-   "text": "Four words from a servant, and the entire last quarter of the chapter depends on them. The master had just said \"let us go to and hew down.\" The delay is not granted because the case improved but because someone asked, and the master's reason for agreeing is the same refrain he has used all along."
+   "text": "Four words from a servant, and the entire last quarter of the chapter depends on them. The master had just said \"let us go to and hew down.\" The delay is granted because someone asked, and the master's reason for agreeing is the same refrain he has used all along."
   },
   {
-   "term": "begin at the last that they may be first, and that the first may be last",
+   "term": "Begin at the last that they may be first, and that the first may be last",
    "verse_label": "v. 63",
-   "text": "The gospel formula, in a work order. Here it is not a saying about reward but an instruction about sequence: graft the far branches back first, then the near ones, and dig about the old and the young together. The reversal is a labor schedule before it is a proverb."
+   "text": "The gospel formula, in a work order. Here it is an instruction about sequence: graft the far branches back first, then the near ones, and dig about the old and the young together. The reversal is a labor schedule before it is a proverb."
   },
   {
-   "term": "ye shall not clear away the bad thereof all at once, lest the roots thereof should be too strong for the graft",
+   "term": "Ye shall not clear away the bad thereof all at once, lest the roots thereof should be too strong for the graft",
    "verse_label": "v. 65",
-   "text": "Real horticulture and the chapter's most practical sentence. Strip too much canopy and the root overwhelms the new graft and kills it. The instruction is that reform has to be paced to what the reformed can carry, and the reason given is mechanical rather than merciful."
+   "text": "Real horticulture and the chapter's most practical sentence. Strip too much canopy and the root overwhelms the new graft and kills it. The instruction is that reform has to be paced to what the reformed can carry, and the reason given is mechanical."
   },
   {
-   "term": "that the root and the top may be equal in strength",
+   "term": "That the root and the top may be equal in strength",
    "verse_label": "v. 66",
    "text": "The stated goal of the entire last labor. Not maximum fruit, not speed, but balance between what supports and what shows. Verse 73 reports it achieved. It is the closest thing the allegory has to a definition of health."
   },
   {
-   "term": "they became like unto one body; and the fruits were equal",
+   "term": "They became like unto one body; and the fruits were equal",
    "verse_label": "v. 74",
    "text": "The end state. The trees do not merely produce again; the distinctions collapse. After seventy verses of first and last, natural and wild, near and nethermost, the result is one body with equal fruit, and the chapter spends no time celebrating it before moving to the final burning."
   }
@@ -154,7 +260,7 @@
    "start": 29,
    "end": 40,
    "title": "All of it gone bad",
-   "text": "All sorts of fruit cumber the grafted tree and none of it is good. The natural branches in the nethermost parts have gone corrupt too — first, second, and last. The diagnosis given in verse 37 is that the wild branches overran the roots. The symmetry with the previous section is exact and it is the reason the failure lands so hard."
+   "text": "All sorts of fruit cumber the grafted tree and none of it is good. The natural branches in the nethermost parts have gone corrupt too: first, second, and last. The diagnosis given in verse 37 is that the wild branches overran the roots. The symmetry with the previous section is exact and it is the reason the failure lands so hard."
   },
   {
    "label": "v. 41–51",
@@ -175,14 +281,14 @@
    "start": 67,
    "end": 74,
    "title": "The work, and the result",
-   "text": "The branches come back together, the servants are called and are few, the Lord labors alongside them, root and top are kept equal, the bad is cast away, and the trees become one body with equal fruit. The labor is collaborative in a way nothing earlier in the chapter was — the master worked with servants, not through one."
+   "text": "The branches come back together, the servants are called and are few, the Lord labors alongside them, root and top are kept equal, the bad is cast away, and the trees become one body with equal fruit. The labor is collaborative in a way nothing earlier in the chapter was. The master works in the vineyard himself, beside a crew."
   },
   {
    "label": "v. 75–77",
    "start": 75,
    "end": 77,
    "title": "The servants blessed",
-   "text": "The master calls his servants, blesses them, promises them joy in the fruit, says he will lay it up for a long time, and then names the terms of the finish: when evil fruit comes again, good and bad are separated and the vineyard is burned. The allegory ends with fire, but the fire is after a long season of preserved fruit, not instead of it."
+   "text": "The master calls his servants, blesses them, promises them joy in the fruit, says he will lay it up for a long time, and then names the terms of the finish: when evil fruit comes again, good and bad are separated and the vineyard is burned. The allegory ends with fire, and the fire comes after a long season of preserved fruit."
   }
  ],
  "chapter": [
@@ -193,7 +299,7 @@
   },
   {
    "n": 2,
-   "title": "The refrain is grief, not judgment",
+   "title": "The refrain is grief",
    "text": "\"It grieveth me that I should lose this tree\" appears seven times and belongs to the master every time. Fire is ordered repeatedly and each order is preceded or followed by that sentence. The chapter's picture of divine severity is inseparable from the picture of divine reluctance, and it never lets one stand without the other."
   },
   {
@@ -214,7 +320,7 @@
   {
    "n": 6,
    "title": "The last labor is done together and it is done gradually",
-   "text": "The Lord labors with the servants rather than sending them; the servants are few; the bad is cleared away in proportion as the good grows. After a chapter of decisive interventions that failed, the one that works is slow, shared, and paced."
+   "text": "The Lord labors with the servants; the servants are few; the bad is cleared away in proportion as the good grows. After a chapter of decisive interventions that failed, the one that works is slow, shared, and paced."
   },
   {
    "n": 7,
@@ -237,7 +343,7 @@
    {
     "title": "Check root against top",
     "verse_label": "v. 66",
-    "text": "Look at something in your life that has grown fast — a responsibility, a project, a reputation — and ask whether what supports it grew too. The chapter says the failure mode is growth outrunning its supply."
+    "text": "Look at something in your life that has grown fast (a responsibility, a project, a reputation) and ask whether what supports it grew too. The chapter says the failure mode is growth outrunning its supply."
    },
    {
     "title": "Do not clear it all at once",
@@ -252,7 +358,7 @@
    {
     "title": "Notice where you were planted",
     "verse_label": "v. 21–23",
-    "text": "The poorest spots produced much fruit, and the servant's objection was overruled by results. If your circumstances look like poor ground, the chapter's answer is not an argument but a timeline."
+    "text": "The poorest spots produced much fruit, and the servant's objection was overruled by results. If your circumstances look like poor ground, the chapter's answer is a timeline."
    }
   ],
   "questions": [
@@ -319,7 +425,9 @@
      "verse": 4,
      "w1": 21,
      "w2": 31,
-     "quote": "he stretches forth his hands unto them all the day long",
+     "quote": "he stretches forth his hands unto them all the day long;",
+     "verse_text": "And how merciful is our God unto us, for he remembereth the house of Israel, both roots and branches; and he stretches forth his hands unto them all the day long; and they are a stiffnecked and a gainsaying people; but as many as will not harden their hearts shall be saved in the kingdom of God.",
+     "markdown": "And how merciful is our God unto us, for he remembereth the house of Israel, both roots and branches; and **he stretches forth his hands unto them all the day long**; and they are a stiffnecked and a gainsaying people; but as many as will not harden their hearts shall be saved in the kingdom of God.",
      "span": true
     }
    ],
@@ -343,7 +451,9 @@
      "verse": 1,
      "w1": 20,
      "w2": 26,
-     "quote": "the things which this prophet Zenos spake",
+     "quote": "the things which this prophet Zenos spake,",
+     "verse_text": "And now, behold, my brethren, as I said unto you that I would prophesy, behold, this is my prophecy—that the things which this prophet Zenos spake, concerning the house of Israel, in the which he likened them unto a tame olive tree, must surely come to pass.",
+     "markdown": "And now, behold, my brethren, as I said unto you that I would prophesy, behold, this is my prophecy—that **the things which this prophet Zenos spake**, concerning the house of Israel, in the which he likened them unto a tame olive tree, must surely come to pass.",
      "span": true
     }
    ],
@@ -367,7 +477,9 @@
      "verse": 18,
      "w1": 5,
      "w2": 11,
-     "quote": "I will unfold this mystery unto you",
+     "quote": "I will unfold this mystery unto you;",
+     "verse_text": "Behold, my beloved brethren, I will unfold this mystery unto you; if I do not, by any means, get shaken from my firmness in the Spirit, and stumble because of my over anxiety for you.",
+     "markdown": "Behold, my beloved brethren, **I will unfold this mystery unto you**; if I do not, by any means, get shaken from my firmness in the Spirit, and stumble because of my over anxiety for you.",
      "span": true
     }
    ],
@@ -391,7 +503,9 @@
      "verse": 4,
      "w1": 1,
      "w2": 16,
-     "quote": "What could have been done more to my vineyard that I have not done in it",
+     "quote": "What could have been done more to my vineyard that I have not done in it?",
+     "verse_text": "What could have been done more to my vineyard that I have not done in it? Wherefore, when I looked that it should bring forth grapes it brought forth wild grapes.",
+     "markdown": "**What could have been done more to my vineyard that I have not done in it**? Wherefore, when I looked that it should bring forth grapes it brought forth wild grapes.",
      "span": true
     }
    ],
@@ -415,7 +529,9 @@
      "verse": 16,
      "w1": 17,
      "w2": 34,
-     "quote": "they shall be grafted in, being a natural branch of the olive tree, into the true olive tree",
+     "quote": "they shall be grafted in, being a natural branch of the olive tree, into the true olive tree.",
+     "verse_text": "Behold, I say unto you, Yea; they shall be remembered again among the house of Israel; they shall be grafted in, being a natural branch of the olive tree, into the true olive tree.",
+     "markdown": "Behold, I say unto you, Yea; they shall be remembered again among the house of Israel; **they shall be grafted in, being a natural branch of the olive tree, into the true olive tree**.",
      "span": true
     }
    ],
@@ -439,7 +555,9 @@
      "verse": 14,
      "w1": 44,
      "w2": 47,
-     "quote": "should be grafted in",
+     "quote": "should be grafted in,",
+     "verse_text": "And after the house of Israel should be scattered they should be gathered together again; or, in fine, after the Gentiles had received the fulness of the Gospel, the natural branches of the olive tree, or the remnants of the house of Israel, should be grafted in, or come to the knowledge of the true Messiah, their Lord and their Redeemer.",
+     "markdown": "And after the house of Israel should be scattered they should be gathered together again; or, in fine, after the Gentiles had received the fulness of the Gospel, the natural branches of the olive tree, or the remnants of the house of Israel, **should be grafted in**, or come to the knowledge of the true Messiah, their Lord and their Redeemer.",
      "span": true
     }
    ],
@@ -463,7 +581,9 @@
      "verse": 16,
      "w1": 1,
      "w2": 10,
-     "quote": "So the last shall be first, and the first last",
+     "quote": "So the last shall be first, and the first last:",
+     "verse_text": "So the last shall be first, and the first last: for many be called, but few chosen.",
+     "markdown": "**So the last shall be first, and the first last**: for many be called, but few chosen.",
      "span": true
     }
    ],
@@ -487,7 +607,9 @@
      "verse": 6,
      "w1": 1,
      "w2": 7,
-     "quote": "The nethermost chamber was five cubits broad",
+     "quote": "The nethermost chamber was five cubits broad,",
+     "verse_text": "The nethermost chamber was five cubits broad, and the middle was six cubits broad, and the third was seven cubits broad: for without in the wall of the house he made narrowed rests round about, that the beams should not be fastened in the walls of the house.",
+     "markdown": "**The nethermost chamber was five cubits broad**, and the middle was six cubits broad, and the third was seven cubits broad: for without in the wall of the house he made narrowed rests round about, that the beams should not be fastened in the walls of the house.",
      "span": true
     }
    ],
@@ -511,7 +633,9 @@
      "verse": 17,
      "w1": 1,
      "w2": 9,
-     "quote": "And the loftiness of man shall be bowed down",
+     "quote": "And the loftiness of man shall be bowed down,",
+     "verse_text": "And the loftiness of man shall be bowed down, and the haughtiness of men shall be made low: and the LORD alone shall be exalted in that day.",
+     "markdown": "**And the loftiness of man shall be bowed down**, and the haughtiness of men shall be made low: and the LORD alone shall be exalted in that day.",
      "span": true
     }
    ],
@@ -535,7 +659,9 @@
      "verse": 8,
      "w1": 7,
      "w2": 22,
-     "quote": "Lord, let it alone this year also, till I shall dig about it, and dung it",
+     "quote": "Lord, let it alone this year also, till I shall dig about it, and dung it:",
+     "verse_text": "And he answering said unto him, Lord, let it alone this year also, till I shall dig about it, and dung it:",
+     "markdown": "And he answering said unto him, **Lord, let it alone this year also, till I shall dig about it, and dung it**:",
      "span": true
     }
    ],
@@ -559,7 +685,9 @@
      "verse": 24,
      "w1": 17,
      "w2": 26,
-     "quote": "wert grafted contrary to nature into a good olive tree",
+     "quote": "wert grafted contrary to nature into a good olive tree:",
+     "verse_text": "For if thou wert cut out of the olive tree which is wild by nature, and wert grafted contrary to nature into a good olive tree: how much more shall these, which be the natural branches, be grafted into their own olive tree?",
+     "markdown": "For if thou wert cut out of the olive tree which is wild by nature, and **wert grafted contrary to nature into a good olive tree**: how much more shall these, which be the natural branches, be grafted into their own olive tree?",
      "span": true
     }
    ],
@@ -583,7 +711,9 @@
      "verse": 4,
      "w1": 1,
      "w2": 16,
-     "quote": "What could have been done more to my vineyard, that I have not done in it",
+     "quote": "What could have been done more to my vineyard, that I have not done in it?",
+     "verse_text": "What could have been done more to my vineyard, that I have not done in it? wherefore, when I looked that it should bring forth grapes, brought it forth wild grapes?",
+     "markdown": "**What could have been done more to my vineyard, that I have not done in it**? wherefore, when I looked that it should bring forth grapes, brought it forth wild grapes?",
      "span": true
     }
    ],
@@ -701,7 +831,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-18",
-  "source_sha256": "a50d9667982bd24c"
+  "at": "2026-08-25",
+  "source_sha256": "7467f50af2006330"
  }
 }

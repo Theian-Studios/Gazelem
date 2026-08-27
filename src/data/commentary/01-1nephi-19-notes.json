@@ -17,7 +17,7 @@
    "The Redeemer",
    "Likening"
   ],
-  "connections": 15,
+  "connections": 17,
   "initial": false
  },
  "world_behind": [
@@ -186,7 +186,7 @@
  ],
  "words": [
   {
-   "term": "engraven",
+   "term": "Engraven",
    "verse_label": "v. 1",
    "text": "\"I might engraven upon them the record of my people\" (v. 1): writing as metalwork. An engraved word costs strokes of a graver in smelted ore, and the price per sentence explains this record's editorial economy: nothing goes onto the plates that the engraver has not already judged worth the metal.",
    "cites": [
@@ -206,7 +206,91 @@
    ]
   },
   {
-   "term": "naught",
+   "term": "Genealogy",
+   "verse_label": "v. 2",
+   "text": "Family lines get named in this record mostly so a reader can be told where they are not. Here the line of Lehi's fathers is listed among the contents of the first plates, \"the genealogy of his fathers, and the more part of all our proceedings\" (v. 2), and Nephi had already refused to copy it onto the plates he is writing on (1 Ne. 6:1). Centuries later Zarahemla will recite his own line from memory and it goes into a different book (Omni 1:18). The chapters of begats that fill Chronicles have a place in this library. It is simply not the ministry track.",
+   "cites": [
+    {
+     "quote": "the genealogy of his fathers, and the more part of all our proceedings",
+     "verse": 2,
+     "start": 171,
+     "end": 250,
+     "spans": [
+      {
+       "w1": 31,
+       "w2": 43,
+       "text": "the genealogy of his fathers, and the more part of all our proceedings"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 6:1",
+     "start": 327,
+     "end": 336,
+     "book": "1 Ne",
+     "chapter": 6,
+     "verse_start": 1,
+     "verse_end": 1
+    },
+    {
+     "kind": "scripture",
+     "text": "Omni 1:18",
+     "start": 437,
+     "end": 446,
+     "book": "Omni",
+     "chapter": 1,
+     "verse_start": 18,
+     "verse_end": 18
+    }
+   ]
+  },
+  {
+   "term": "Weakness",
+   "verse_label": "v. 6",
+   "text": "The engraver's excuse clause: work that may err, offered \"because of the weakness which is in me, according to the flesh\" (v. 6). Nephi is not asking to be graded gently. He names the limit of the man holding the graver and keeps engraving, and his own last page will pick the word back up and reverse it, trusting that words written in weakness are made strong to the people who read them (2 Ne. 33:4). Moroni inherits both halves, the fear of being mocked for poor writing and the answer that weak things can be made strong (Ether 12:27).",
+   "cites": [
+    {
+     "quote": "because of the weakness which is in me, according to the flesh",
+     "verse": 6,
+     "start": 57,
+     "end": 128,
+     "spans": [
+      {
+       "w1": 41,
+       "w2": 52,
+       "text": "because of the weakness which is in me, according to the flesh"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 33:4",
+     "start": 391,
+     "end": 401,
+     "book": "2 Ne",
+     "chapter": 33,
+     "verse_start": 4,
+     "verse_end": 4
+    },
+    {
+     "kind": "scripture",
+     "text": "Ether 12:27",
+     "start": 527,
+     "end": 538,
+     "book": "Ether",
+     "chapter": 12,
+     "verse_start": 27,
+     "verse_end": 27
+    }
+   ]
+  },
+  {
+   "term": "Naught",
    "verse_label": "v. 7",
    "text": "The appraisal word, twice: men \"set him at naught\" (v. 7), the world will \"judge him to be a thing of naught\" (v. 9). Verse 7 frames it as an exchange error, the very things \"some men esteem to be of great worth\" (v. 7) trampled underfoot. Naught is not ignorance of the price; it is a refusal of it.",
    "cites": [
@@ -252,7 +336,7 @@
    ]
   },
   {
-   "term": "suffereth",
+   "term": "Suffereth",
    "verse_label": "v. 9",
    "text": "Three blows, and after each the same clause: scourge, \"and he suffereth it\" (v. 9); smite, and he suffereth it; spit, and he suffereth it. The verb of permitted affliction, which the voyage just taught this family (\"the Lord did suffer it,\" 18:11), is here conjugated of God himself, and the stated reason is \"his loving kindness\" (v. 9).",
    "cites": [
@@ -287,14 +371,14 @@
  ],
  "phrases": [
   {
-   "term": "the more plain and precious parts",
+   "term": "The more plain and precious parts",
    "verse_label": "v. 3",
    "text": "The ministry track gets its lasting name. Chapter 6 set the rule (only what persuades men to come to God), chapter 9 split the records; this phrase will travel: chapter 13 used the same words for what the great and abominable church strips from the Bible. What Nephi's small plates preserve is exactly what the record says the world would lose."
   },
   {
-   "term": "according to the words of",
+   "term": "According to the words of",
    "verse_label": "v. 10",
-   "text": "Four citations in one verse: the angel, Zenock, Neum, Zenos. The most doctrinally loaded sentence yet engraved (God yielding himself \"as a man, into the hands of wicked men\" (v. 10)) is also the most footnoted, each clause pinned to its authority. The record teaches its boldest claims as received, not invented.",
+   "text": "Four citations in one verse: the angel, Zenock, Neum, Zenos. The most doctrinally loaded sentence yet engraved (God yielding himself \"as a man, into the hands of wicked men\" (v. 10)) is also the most footnoted, each clause pinned to its authority. The record teaches its boldest claims as received.",
    "cites": [
     {
      "quote": "as a man, into the hands of wicked men",
@@ -317,7 +401,7 @@
    "text": "The kings of the isles read the storm correctly: creation convulsing because its maker is dying. Zenos compresses the whole theology of the crucifixion's cosmic signs into four words, and the New World storm of 3 Nephi 8 will spend a chapter fulfilling them."
   },
   {
-   "term": "a hiss and a byword",
+   "term": "A hiss and a byword",
    "verse_label": "v. 14",
    "text": "Moses' covenant curse (Deut. 28:37) surfacing in Zenos's prophecy: Israel scattered into a proverb, a thing nations whistle at. The record quotes the curse in full knowledge of its other half; the same Deuteronomy that promised the byword promised the regathering.",
    "refs": [
@@ -334,7 +418,7 @@
    ]
   },
   {
-   "term": "then will he remember the covenants",
+   "term": "Then will he remember the covenants",
    "verse_label": "v. 15",
    "text": "The pivot of the whole scattering, and its grammar is conditional: when they \"no more turn aside their hearts against the Holy One of Israel\" (v. 15), then. Nothing in the sequence waits on geography or armies; the gathering runs on a change of heart, and the covenants were never forgotten, only unclaimed.",
    "cites": [
@@ -661,7 +745,7 @@
   {
    "n": 3,
    "title": "The suffering is the power",
-   "text": "Every verb aimed at the Messiah (scourge, smite, spit) is answered by suffereth, and the record just spent chapter 18 teaching that permitted suffering is demonstration, not defeat. What the voyage taught in cords, the prophecy now says of God: endurance chosen out of loving kindness is the display."
+   "text": "Every verb aimed at the Messiah (scourge, smite, spit) is answered by suffereth, and the record just spent chapter 18 teaching that permitted suffering is a demonstration. What the voyage taught in cords, the prophecy now says of God: endurance chosen out of loving kindness is the display."
   },
   {
    "n": 4,
@@ -671,7 +755,7 @@
   {
    "n": 5,
    "title": "Scattering is cardiology, not geography",
-   "text": "Hearts turned aside produce wandering; hearts that stop turning trigger remembering. Israel's location on the map is an output; the record keeps the causal arrow pointed at the heart, which is why its cure for exile is persuasion rather than politics."
+   "text": "Hearts turned aside produce wandering; hearts that stop turning trigger remembering. Israel's location on the map is an output; the record keeps the causal arrow pointed at the heart. Its cure for exile is persuasion."
   },
   {
    "n": 6,
@@ -707,7 +791,7 @@
     "text": "Scourge, smite, spit, each answered by \"and he suffereth it, because of his loving kindness.\" Read the verse aloud once this week at the pace of engraving, and let the repetition do what it was built to do."
    },
    {
-    "title": "Wait on turnings, not distances",
+    "title": "Wait on the turnings",
     "verse_label": "v. 15",
     "text": "In your own scattered relationships, stop measuring the miles and start watching the hearts, your own first. The prophecy's sequence is turn, then remember, then gather; it works at family scale."
    },
@@ -775,7 +859,9 @@
      "verse": 17,
      "w1": 14,
      "w2": 23,
-     "quote": "I make an abridgment of the record of my father",
+     "quote": "I make an abridgment of the record of my father,",
+     "verse_text": "But I shall make an account of my proceedings in my days. Behold, I make an abridgment of the record of my father, upon plates which I have made with mine own hands; wherefore, after I have abridged the record of my father then will I make an account of mine own life.",
+     "markdown": "But I shall make an account of my proceedings in my days. Behold, **I make an abridgment of the record of my father**, upon plates which I have made with mine own hands; wherefore, after I have abridged the record of my father then will I make an account of mine own life.",
      "span": true
     }
    ],
@@ -799,7 +885,9 @@
      "verse": 15,
      "w1": 12,
      "w2": 19,
-     "quote": "by fire, and by tempest, and by earthquakes",
+     "quote": "by fire, and by tempest, and by earthquakes,",
+     "verse_text": "And they that believe not in him shall be destroyed, both by fire, and by tempest, and by earthquakes, and by bloodsheds, and by pestilence, and by famine. And they shall know that the Lord is God, the Holy One of Israel.",
+     "markdown": "And they that believe not in him shall be destroyed, both **by fire, and by tempest, and by earthquakes**, and by bloodsheds, and by pestilence, and by famine. And they shall know that the Lord is God, the Holy One of Israel.",
      "span": true
     }
    ],
@@ -823,7 +911,9 @@
      "verse": 9,
      "w1": 43,
      "w2": 49,
-     "quote": "they should scourge him and crucify him",
+     "quote": "they should scourge him and crucify him,",
+     "verse_text": "Nevertheless, the Lord has shown unto me that they should return again. And he also has shown unto me that the Lord God, the Holy One of Israel, should manifest himself unto them in the flesh; and after he should manifest himself they should scourge him and crucify him, according to the words of the angel who spake it unto me.",
+     "markdown": "Nevertheless, the Lord has shown unto me that they should return again. And he also has shown unto me that the Lord God, the Holy One of Israel, should manifest himself unto them in the flesh; and after he should manifest himself **they should scourge him and crucify him**, according to the words of the angel who spake it unto me.",
      "span": true
     }
    ],
@@ -848,6 +938,8 @@
      "w1": 9,
      "w2": 14,
      "quote": "all ye that are broken off",
+     "verse_text": "And again: Hearken, O ye house of Israel, all ye that are broken off and are driven out because of the wickedness of the pastors of my people; yea, all ye that are broken off, that are scattered abroad, who are of my people, O house of Israel. Listen, O isles, unto me, and hearken ye people from far; the Lord hath called me from the womb; from the bowels of my mother hath he made mention of my name.",
+     "markdown": "And again: Hearken, O ye house of Israel, **all ye that are broken off** and are driven out because of the wickedness of the pastors of my people; yea, all ye that are broken off, that are scattered abroad, who are of my people, O house of Israel. Listen, O isles, unto me, and hearken ye people from far; the Lord hath called me from the womb; from the bowels of my mother hath he made mention of my name.",
      "span": true
     }
    ],
@@ -871,7 +963,9 @@
      "verse": 2,
      "w1": 14,
      "w2": 28,
-     "quote": "the plates upon which I make a full account of the history of my people",
+     "quote": "the plates upon which I make a full account of the history of my people;",
+     "verse_text": "And now, as I have spoken concerning these plates, behold they are not the plates upon which I make a full account of the history of my people; for the plates upon which I make a full account of my people I have given the name of Nephi; wherefore, they are called the plates of Nephi, after mine own name; and these plates also are called the plates of Nephi.",
+     "markdown": "And now, as I have spoken concerning these plates, behold they are not **the plates upon which I make a full account of the history of my people**; for the plates upon which I make a full account of my people I have given the name of Nephi; wherefore, they are called the plates of Nephi, after mine own name; and these plates also are called the plates of Nephi.",
      "span": true
     }
    ],
@@ -895,7 +989,9 @@
      "verse": 3,
      "w1": 24,
      "w2": 30,
-     "quote": "they cannot be written upon these plates",
+     "quote": "they cannot be written upon these plates,",
+     "verse_text": "And it mattereth not to me that I am particular to give a full account of all the things of my father, for they cannot be written upon these plates, for I desire the room that I may write of the things of God.",
+     "markdown": "And it mattereth not to me that I am particular to give a full account of all the things of my father, for **they cannot be written upon these plates**, for I desire the room that I may write of the things of God.",
      "span": true
     }
    ],
@@ -919,11 +1015,65 @@
      "verse": 4,
      "w1": 3,
      "w2": 13,
-     "quote": "six hundred years from the time that my father left Jerusalem",
+     "quote": "six hundred years from the time that my father left Jerusalem,",
+     "verse_text": "Yea, even six hundred years from the time that my father left Jerusalem, a prophet would the Lord God raise up among the Jews—even a Messiah, or, in other words, a Savior of the world.",
+     "markdown": "Yea, even **six hundred years from the time that my father left Jerusalem**, a prophet would the Lord God raise up among the Jews—even a Messiah, or, in other words, a Savior of the world.",
      "span": true
     }
    ],
    "mirror": "1ne10-014"
+  },
+  {
+   "id": "1ne19-017",
+   "scope": "BOM",
+   "head": "Mosiah 21:27",
+   "anchor": {
+    "verse": 1,
+    "w1": 12,
+    "w2": 28,
+    "quote": "I did make plates of ore that I might engraven upon them the record of my people"
+   },
+   "reason": "the only other plates this record calls ore",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 21,
+     "verse": 27,
+     "w1": 20,
+     "w2": 26,
+     "quote": "it was engraven on plates of ore.",
+     "verse_text": "And they brought a record with them, even a record of the people whose bones they had found; and it was engraven on plates of ore.",
+     "markdown": "And they brought a record with them, even a record of the people whose bones they had found; and **it was engraven on plates of ore**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos21-011"
+  },
+  {
+   "id": "1ne19-016",
+   "scope": "BOM",
+   "head": "Mosiah 14:7",
+   "anchor": {
+    "verse": 9,
+    "w1": 18,
+    "w2": 24,
+    "quote": "they scourge him, and he suffereth it"
+   },
+   "reason": "Isaiah's silent servant, quoted whole by Abinadi",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 14,
+     "verse": 7,
+     "w1": 1,
+     "w2": 13,
+     "quote": "He was oppressed, and he was afflicted, yet he opened not his mouth;",
+     "verse_text": "He was oppressed, and he was afflicted, yet he opened not his mouth; he is brought as a lamb to the slaughter, and as a sheep before her shearers is dumb so he opened not his mouth.",
+     "markdown": "**He was oppressed, and he was afflicted, yet he opened not his mouth**; he is brought as a lamb to the slaughter, and as a sheep before her shearers is dumb so he opened not his mouth.",
+     "span": true
+    }
+   ],
+   "mirror": "mos14-007"
   },
   {
    "id": "1ne19-015",
@@ -943,7 +1093,9 @@
      "verse": 10,
      "w1": 15,
      "w2": 23,
-     "quote": "the sun shall be darkened in his going forth",
+     "quote": "the sun shall be darkened in his going forth,",
+     "verse_text": "For the stars of heaven and the constellations thereof shall not give their light; the sun shall be darkened in his going forth, and the moon shall not cause her light to shine.",
+     "markdown": "For the stars of heaven and the constellations thereof shall not give their light; **the sun shall be darkened in his going forth**, and the moon shall not cause her light to shine.",
      "span": true
     }
    ],
@@ -967,7 +1119,9 @@
      "verse": 21,
      "w1": 2,
      "w2": 18,
-     "quote": "great are the promises of the Lord unto them who are upon the isles of the sea",
+     "quote": "great are the promises of the Lord unto them who are upon the isles of the sea;",
+     "verse_text": "But great are the promises of the Lord unto them who are upon the isles of the sea; wherefore as it says isles, there must needs be more than this, and they are inhabited also by our brethren.",
+     "markdown": "But **great are the promises of the Lord unto them who are upon the isles of the sea**; wherefore as it says isles, there must needs be more than this, and they are inhabited also by our brethren.",
      "span": true
     }
    ],
@@ -991,7 +1145,9 @@
      "verse": 27,
      "w1": 24,
      "w2": 38,
-     "quote": "darkness should cover the face of the whole earth for the space of three days",
+     "quote": "darkness should cover the face of the whole earth for the space of three days.",
+     "verse_text": "And he said unto me that while the thunder and the lightning lasted, and the tempest, that these things should be, and that darkness should cover the face of the whole earth for the space of three days.",
+     "markdown": "And he said unto me that while the thunder and the lightning lasted, and the tempest, that these things should be, and that **darkness should cover the face of the whole earth for the space of three days**.",
      "span": true
     }
    ],
@@ -1015,7 +1171,9 @@
      "verse": 8,
      "w1": 36,
      "w2": 45,
-     "quote": "ye may liken them unto you and unto all men",
+     "quote": "ye may liken them unto you and unto all men.",
+     "verse_text": "And now I write some of the words of Isaiah, that whoso of my people shall see these words may lift up their hearts and rejoice for all men. Now these are the words, and ye may liken them unto you and unto all men.",
+     "markdown": "And now I write some of the words of Isaiah, that whoso of my people shall see these words may lift up their hearts and rejoice for all men. Now these are the words, and **ye may liken them unto you and unto all men**.",
      "span": true
     }
    ],
@@ -1039,7 +1197,9 @@
      "verse": 6,
      "w1": 18,
      "w2": 26,
-     "quote": "I hid not my face from shame and spitting",
+     "quote": "I hid not my face from shame and spitting.",
+     "verse_text": "I gave my back to the smiters, and my cheeks to them that plucked off the hair: I hid not my face from shame and spitting.",
+     "markdown": "I gave my back to the smiters, and my cheeks to them that plucked off the hair: **I hid not my face from shame and spitting**.",
      "span": true
     }
    ],
@@ -1063,7 +1223,9 @@
      "verse": 18,
      "w1": 2,
      "w2": 10,
-     "quote": "all the people saw the thunderings, and the lightnings",
+     "quote": "all the people saw the thunderings, and the lightnings,",
+     "verse_text": "And all the people saw the thunderings, and the lightnings, and the noise of the trumpet, and the mountain smoking: and when the people saw it, they removed, and stood afar off.",
+     "markdown": "And **all the people saw the thunderings, and the lightnings**, and the noise of the trumpet, and the mountain smoking: and when the people saw it, they removed, and stood afar off.",
      "span": true
     },
     {
@@ -1072,7 +1234,9 @@
      "verse": 19,
      "w1": 8,
      "w2": 18,
-     "quote": "the thunderings, and the lightnings, and the storm, and the tempest",
+     "quote": "the thunderings, and the lightnings, and the storm, and the tempest,",
+     "verse_text": "And it came to pass that when the thunderings, and the lightnings, and the storm, and the tempest, and the quakings of the earth did cease—for behold, they did last for about the space of three hours; and it was said by some that the time was greater; nevertheless, all these great and terrible things were done in about the space of three hours—and then behold, there was darkness upon the face of the land.",
+     "markdown": "And it came to pass that when **the thunderings, and the lightnings, and the storm, and the tempest**, and the quakings of the earth did cease—for behold, they did last for about the space of three hours; and it was said by some that the time was greater; nevertheless, all these great and terrible things were done in about the space of three hours—and then behold, there was darkness upon the face of the land.",
      "span": true
     }
    ],
@@ -1097,6 +1261,8 @@
      "w1": 7,
      "w2": 14,
      "quote": "a proverb, and a byword, among all nations",
+     "verse_text": "And thou shalt become an astonishment, a proverb, and a byword, among all nations whither the LORD shall lead thee.",
+     "markdown": "And thou shalt become an astonishment, **a proverb, and a byword, among all nations** whither the LORD shall lead thee.",
      "span": true
     }
    ],
@@ -1120,7 +1286,9 @@
      "verse": 27,
      "w1": 9,
      "w2": 20,
-     "quote": "he expounded unto them in all the scriptures the things concerning himself",
+     "quote": "he expounded unto them in all the scriptures the things concerning himself.",
+     "verse_text": "And beginning at Moses and all the prophets, he expounded unto them in all the scriptures the things concerning himself.",
+     "markdown": "And beginning at Moses and all the prophets, **he expounded unto them in all the scriptures the things concerning himself**.",
      "span": true
     }
    ],
@@ -1128,6 +1296,15 @@
   }
  ],
  "markers": [
+  {
+   "verse": 1,
+   "w1": 12,
+   "w2": 28,
+   "quote": "I did make plates of ore that I might engraven upon them the record of my people",
+   "entries": [
+    "1ne19-017"
+   ]
+  },
   {
    "verse": 1,
    "w1": 36,
@@ -1170,7 +1347,8 @@
    "w2": 24,
    "quote": "they scourge him, and he suffereth it",
    "entries": [
-    "1ne19-011"
+    "1ne19-011",
+    "1ne19-016"
    ]
   },
   {
@@ -1257,7 +1435,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-18",
-  "source_sha256": "ad29b9eaedc12d6a"
+  "at": "2026-08-25",
+  "source_sha256": "b34ba8309a0400cd"
  }
 }

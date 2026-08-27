@@ -24,7 +24,7 @@
   {
    "n": 1,
    "title": "Jacob's words, mostly unwritten",
-   "text": "Verse 1 mentions that Nephi can write only a few of his brother's words, which is a passing remark with consequences: Jacob preached for years and what survives is one sermon and a short book. The small plates are selective by necessity, and Nephi says so at the moment he begins his own conclusion."
+   "text": "Verse 1 mentions that Nephi can write only a few of his brother's words, a passing remark with consequences: Jacob preached for years and what survives is one sermon and a short book. The small plates are selective by necessity, and Nephi says so at the moment he begins his own conclusion."
   },
   {
    "n": 2,
@@ -44,7 +44,7 @@
   {
    "n": 5,
    "title": "The tongue of angels",
-   "text": "Verse 13 promises that the baptized may speak with the tongue of angels, and the next chapter will explain what that means in practical terms. Nephi introduces the phrase here without definition and answers the obvious question one page later, which is a deliberate arrangement."
+   "text": "Verse 13 promises that the baptized may speak with the tongue of angels, and the next chapter will explain what that means in practical terms. Nephi introduces the phrase here without definition and answers the obvious question one page later. The arrangement is deliberate."
   },
   {
    "n": 6,
@@ -54,29 +54,139 @@
  ],
  "words": [
   {
-   "term": "witnesseth",
+   "term": "Witnesseth",
    "verse_label": "v. 7",
    "text": "A legal verb: to give formal testimony before someone. The Lamb's baptism is described as witnessing unto the Father that he would be obedient, so the ordinance is treated as a sworn statement rather than as a cleansing. Verse 13 asks the same of everybody else, in the same word."
   },
   {
-   "term": "dove",
+   "term": "Dove",
    "verse_label": "v. 8",
    "text": "The one physical image in a chapter of procedure. The Holy Ghost descends in the form of a dove, and the record gives no interpretation of the bird. Nephi reports it because he was shown it, and the detail sits between the baptism and the gate as the only thing in the sequence a person could have watched."
   },
   {
-   "term": "feasting",
+   "term": "Beloved",
+   "verse_label": "v. 11",
+   "text": "The word does two jobs in this chapter. It is Nephi's ordinary address to his hearers, \"my beloved brethren\" (v. 1), and he repeats it at nearly every turn until a reader stops hearing it. Then the Father speaks and uses it of one person, \"my Beloved Son\" (v. 11), and four verses later drops the noun: \"the words of my Beloved are true and faithful\" (v. 15). The chapter's most routine form of address turns out to be the Father's name for the Son.",
+   "cites": [
+    {
+     "quote": "my beloved brethren",
+     "verse": 1,
+     "start": 87,
+     "end": 115,
+     "spans": [
+      {
+       "w1": 13,
+       "w2": 15,
+       "text": "my beloved brethren"
+      }
+     ]
+    },
+    {
+     "quote": "my Beloved Son",
+     "verse": 11,
+     "start": 239,
+     "end": 263,
+     "spans": [
+      {
+       "w1": 16,
+       "w2": 18,
+       "text": "my Beloved Son"
+      }
+     ]
+    },
+    {
+     "quote": "the words of my Beloved are true and faithful",
+     "verse": 15,
+     "start": 303,
+     "end": 358,
+     "spans": [
+      {
+       "w1": 11,
+       "w2": 19,
+       "text": "the words of my Beloved are true and faithful"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Remission",
+   "verse_label": "v. 17",
+   "text": "A remission is a release, the cancelling of something owed. Verse 17 does not say the sins are undone or forgotten; it says \"a remission of your sins by fire and by the Holy Ghost\" (v. 17) follows the water. What is described is a debt discharged by someone with standing to discharge it. The gospels use the word for what the blood of Christ is shed for (Matt. 26:28), and this record makes it the standard term for forgiveness received.",
+   "cites": [
+    {
+     "quote": "a remission of your sins by fire and by the Holy Ghost",
+     "verse": 17,
+     "start": 124,
+     "end": 188,
+     "spans": [
+      {
+       "w1": 59,
+       "w2": 70,
+       "text": "a remission of your sins by fire and by the Holy Ghost"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Matt. 26:28",
+     "start": 356,
+     "end": 367,
+     "book": "Matt",
+     "chapter": 26,
+     "verse_start": 28,
+     "verse_end": 28
+    }
+   ]
+  },
+  {
+   "term": "Merits",
+   "verse_label": "v. 19",
+   "text": "A merit is something earned, a claim on reward. Nephi has just walked his hearers through everything the disciple does, repentance, baptism, following, and then says they came that far only with unshaken faith, \"relying wholly upon the merits of him who is mighty to save\" (v. 19). The earning sits on one side of that sentence and the reliance on the other. The noun belongs to Christ everywhere the record uses it, down to Moroni's closing instruction to rely \"alone upon the merits of Christ\" (Moro. 6:4); the word is not in the King James Bible at all.",
+   "cites": [
+    {
+     "quote": "relying wholly upon the merits of him who is mighty to save",
+     "verse": 19,
+     "start": 211,
+     "end": 280,
+     "spans": [
+      {
+       "w1": 49,
+       "w2": 60,
+       "text": "relying wholly upon the merits of him who is mighty to save"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Moro. 6:4",
+     "start": 497,
+     "end": 506,
+     "book": "Moro",
+     "chapter": 6,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
+  },
+  {
+   "term": "Feasting",
    "verse_label": "v. 20",
    "text": "Not reading, studying, or pondering. The verb is about eating at length and with pleasure, and its object is the word of Christ. Placed between pressing forward and enduring to the end, it is the chapter's only image of enjoyment, and the chapter's practical instruction for how the enduring is fueled."
   }
  ],
  "phrases": [
   {
-   "term": "the doctrine of Christ",
+   "term": "The doctrine of Christ",
    "verse_label": "v. 2",
    "text": "Named at the start and again in the last verse, which brackets the chapter. Everything between is the content: an example, a sequence, a gate, a path, and an end. The record uses the phrase afterward as a fixed term, and this chapter is what it points at."
   },
   {
-   "term": "my soul delighteth in plainness",
+   "term": "My soul delighteth in plainness",
    "verse_label": "v. 3",
    "text": "The delight formula, first used in the psalm and then of Isaiah's words, now attached to plainness itself. Nephi gives the reason in the same verse: God speaks to men \"according to their language, unto their understanding\" (v. 3). Plainness is not his preference; it is described as God's method.",
    "cites": [
@@ -96,17 +206,17 @@
    ]
   },
   {
-   "term": "how much more need have we, being unholy",
+   "term": "How much more need have we, being unholy",
    "verse_label": "v. 5",
    "text": "The argument from the greater to the lesser. If a holy man was baptized, an unholy one has more need, not less. Nephi builds the whole case for baptism on one asymmetry, and the rhetorical force depends on granting the first premise, which he assumes his hearers already do."
   },
   {
-   "term": "he humbleth himself before the Father",
+   "term": "He humbleth himself before the Father",
    "verse_label": "v. 7",
-   "text": "The answer to the question verse 6 asks. Righteousness is fulfilled not by a ritual requirement being met but by a person submitting, and the verse specifies what the submission witnesses: obedience in keeping the commandments. The example is made of a posture rather than of an act."
+   "text": "The answer to the question verse 6 asks. Righteousness is fulfilled by a person submitting, and the verse specifies what the submission witnesses: obedience in keeping the commandments. The example is made of a posture."
   },
   {
-   "term": "the straitness of the path",
+   "term": "The straitness of the path",
    "verse_label": "v. 9",
    "text": "Strait means narrow or tight, from the same root as the strait between two landmasses rather than from straight; paired with the narrowness of the gate, the two words say one thing twice. The Sermon on the Mount uses the same pair, that \"strait is the gate, and narrow is the way, which leadeth unto life\" (Matt. 7:14). Nephi has both, in reverse order, and attaches them to the baptism he has just described. The gate is not a metaphor for a decision here; it is an ordinance.",
    "refs": [
@@ -128,9 +238,9 @@
    "text": "Three words, quoted as the Lord's, and the chapter's hinge. Verse 10 turns immediately to the consequence: following cannot be separated from keeping the commandments of the Father. Nephi does not treat discipleship as a feeling toward a person; he treats it as imitation."
   },
   {
-   "term": "with real intent",
+   "term": "With real intent",
    "verse_label": "v. 13",
-   "text": "Last in a run of qualifiers, three of them negative and this one positive, and it is the phrase the record keeps. Together they describe someone whose outward act and inward aim are the same thing, which is a harder standard than sincerity of feeling."
+   "text": "Last in a run of qualifiers, three of them negative and this one positive, and it is the phrase the record keeps. Together they describe someone whose outward act and inward aim are the same thing. That is a harder standard than sincerity of feeling."
   },
   {
    "term": "He that endureth to the end, the same shall be saved",
@@ -150,17 +260,17 @@
    ]
   },
   {
-   "term": "if all is done? Behold, I say unto you, Nay",
+   "term": "If all is done? Behold, I say unto you, Nay",
    "verse_label": "v. 19",
    "text": "The chapter's structural surprise. Everything to this point has built a sequence that culminates in the gate; verse 19 asks whether that completes it and answers no. What follows is the record's most compact description of the life after conversion, and it is three verses long."
   },
   {
-   "term": "press forward with a steadfastness in Christ",
+   "term": "Press forward with a steadfastness in Christ",
    "verse_label": "v. 20",
-   "text": "Steadfastness is firmness that does not shift, and here it is not holding a position but maintaining a direction. The verse names four things to carry: steadfastness, a perfect brightness of hope, love of God, and love of all men. Then two actions: press forward and feast. The sentence is the record's most quoted instruction for ordinary discipleship, and its verbs are both about continuing rather than beginning."
+   "text": "Steadfastness is firmness that does not shift, and here what does not shift is a direction. The verse names four things to carry: steadfastness, a perfect brightness of hope, love of God, and love of all men. Then two actions: press forward and feast. The sentence is the record's most quoted instruction for ordinary discipleship, and both its verbs are about continuing."
   },
   {
-   "term": "none other way nor name given under heaven",
+   "term": "None other way nor name given under heaven",
    "verse_label": "v. 21",
    "text": "Peter tells a council that \"there is none other name under heaven given among men, whereby we must be saved\" (Acts 4:12). Nephi's version adds way to name, which matters in a chapter that has just described a path and a gate. The exclusivity claimed is about a route and a person together.",
    "refs": [
@@ -183,21 +293,21 @@
    "start": 1,
    "end": 3,
    "title": "Clearing his throat",
-   "text": "He announces the end of his prophesying, then says a few words remain about the doctrine of Christ, then explains why he will be plain. The three verses are a writer clearing his throat, and the reason given for plainness is about God's method rather than Nephi's style."
+   "text": "He announces the end of his prophesying, then says a few words remain about the doctrine of Christ, then explains why he will be plain. The three verses are a writer clearing his throat, and the reason given for plainness is God's method of speaking to men."
   },
   {
    "label": "v. 4–9",
    "start": 4,
    "end": 9,
    "title": "The argument from the Lamb's baptism",
-   "text": "A holy man was baptized to fulfil all righteousness; therefore the unholy need it more. Verse 6 asks how it was fulfilled and verse 7 answers: humbling, witnessing, obedience. Then the dove, then the gate. The passage reasons rather than asserts, which is unusual for a chapter this often quoted for its conclusions."
+   "text": "A holy man was baptized to fulfil all righteousness; therefore the unholy need it more. Verse 6 asks how it was fulfilled and verse 7 answers: humbling, witnessing, obedience. Then the dove, then the gate. The passage argues its case step by step, unusual for a chapter this often quoted for its conclusions."
   },
   {
    "label": "v. 10–12",
    "start": 10,
    "end": 12,
    "title": "Three voices, one instruction",
-   "text": "The Lord's own words are quoted twice and the Father's once, and all three say the same thing in different registers: follow, repent and be baptized, and the Holy Ghost will be given. Nephi is reporting revelation, and the passage gets its authority from that rather than from his argument."
+   "text": "The Lord's own words are quoted twice and the Father's once, and all three say the same thing in different registers: follow, repent and be baptized, and the Holy Ghost will be given. Nephi is reporting revelation, and the passage gets its authority from the revelation itself."
   },
   {
    "label": "v. 13",
@@ -268,14 +378,14 @@
     "text": "Take something you know Christ did that you have excused yourself from, and run Nephi's argument: if he needed it, how much more do I. The chapter's whole case for baptism is built on that one move."
    },
    {
-    "title": "Check the intent, not the act",
+    "title": "Check the intent behind the act",
     "verse_label": "v. 13",
     "text": "Pick one religious practice you keep faithfully and examine whether you bring real intent to it. The chapter's conditions are almost entirely about sincerity, and it lists three ways of faking before naming the real thing."
    },
    {
     "title": "Ask verse 19's question about yourself",
     "verse_label": null,
-    "text": "Whatever you have completed — baptism, a covenant, a calling, a repentance — ask whether you have been treating it as the finish. Nephi's answer is one word, and the three verses after it are what to do instead."
+    "text": "Whatever you have completed, whether a baptism, a covenant, a calling, or a repentance, ask whether you have been treating it as the finish. Nephi's answer is one word, and the three verses after it are what to do instead."
    },
    {
     "title": "Feast rather than read",
@@ -351,7 +461,9 @@
      "verse": 9,
      "w1": 25,
      "w2": 39,
-     "quote": "enter into the narrow gate, and walk in the strait path which leads to life",
+     "quote": "enter into the narrow gate, and walk in the strait path which leads to life,",
+     "verse_text": "I also have charity for the Gentiles. But behold, for none of these can I hope except they shall be reconciled unto Christ, and enter into the narrow gate, and walk in the strait path which leads to life, and continue in the path until the end of the day of probation.",
+     "markdown": "I also have charity for the Gentiles. But behold, for none of these can I hope except they shall be reconciled unto Christ, and **enter into the narrow gate, and walk in the strait path which leads to life**, and continue in the path until the end of the day of probation.",
      "span": true
     }
    ],
@@ -375,7 +487,9 @@
      "verse": 6,
      "w1": 9,
      "w2": 26,
-     "quote": "there will be no more doctrine given until after he shall manifest himself unto you in the flesh",
+     "quote": "there will be no more doctrine given until after he shall manifest himself unto you in the flesh.",
+     "verse_text": "Behold, this is the doctrine of Christ, and there will be no more doctrine given until after he shall manifest himself unto you in the flesh. And when he shall manifest himself unto you in the flesh, the things which he shall say unto you shall ye observe to do.",
+     "markdown": "Behold, this is the doctrine of Christ, and **there will be no more doctrine given until after he shall manifest himself unto you in the flesh**. And when he shall manifest himself unto you in the flesh, the things which he shall say unto you shall ye observe to do.",
      "span": true
     }
    ],
@@ -399,7 +513,9 @@
      "verse": 3,
      "w1": 22,
      "w2": 42,
-     "quote": "feast upon the words of Christ; for behold, the words of Christ will tell you all things what ye should do",
+     "quote": "feast upon the words of Christ; for behold, the words of Christ will tell you all things what ye should do.",
+     "verse_text": "Angels speak by the power of the Holy Ghost; wherefore, they speak the words of Christ. Wherefore, I said unto you, feast upon the words of Christ; for behold, the words of Christ will tell you all things what ye should do.",
+     "markdown": "Angels speak by the power of the Holy Ghost; wherefore, they speak the words of Christ. Wherefore, I said unto you, **feast upon the words of Christ; for behold, the words of Christ will tell you all things what ye should do**.",
      "span": true
     }
    ],
@@ -423,7 +539,9 @@
      "verse": 2,
      "w1": 11,
      "w2": 25,
-     "quote": "after ye had received the Holy Ghost ye could speak with the tongue of angels",
+     "quote": "after ye had received the Holy Ghost ye could speak with the tongue of angels?",
+     "verse_text": "Do ye not remember that I said unto you that after ye had received the Holy Ghost ye could speak with the tongue of angels? And now, how could ye speak with the tongue of angels save it were by the Holy Ghost?",
+     "markdown": "Do ye not remember that I said unto you that **after ye had received the Holy Ghost ye could speak with the tongue of angels**? And now, how could ye speak with the tongue of angels save it were by the Holy Ghost?",
      "span": true
     }
    ],
@@ -447,7 +565,9 @@
      "verse": 4,
      "w1": 2,
      "w2": 16,
-     "quote": "my soul delighteth in proving unto my people the truth of the coming of Christ",
+     "quote": "my soul delighteth in proving unto my people the truth of the coming of Christ;",
+     "verse_text": "Behold, my soul delighteth in proving unto my people the truth of the coming of Christ; for, for this end hath the law of Moses been given; and all things which have been given of God from the beginning of the world, unto man, are the typifying of him.",
+     "markdown": "Behold, **my soul delighteth in proving unto my people the truth of the coming of Christ**; for, for this end hath the law of Moses been given; and all things which have been given of God from the beginning of the world, unto man, are the typifying of him.",
      "span": true
     }
    ],
@@ -471,7 +591,9 @@
      "verse": 41,
      "w1": 36,
      "w2": 46,
-     "quote": "the keeper of the gate is the Holy One of Israel",
+     "quote": "the keeper of the gate is the Holy One of Israel;",
+     "verse_text": "O then, my beloved brethren, come unto the Lord, the Holy One. Remember that his paths are righteous. Behold, the way for man is narrow, but it lieth in a straight course before him, and the keeper of the gate is the Holy One of Israel; and he employeth no servant there; and there is none other way save it be by the gate; for he cannot be deceived, for the Lord God is his name.",
+     "markdown": "O then, my beloved brethren, come unto the Lord, the Holy One. Remember that his paths are righteous. Behold, the way for man is narrow, but it lieth in a straight course before him, and **the keeper of the gate is the Holy One of Israel**; and he employeth no servant there; and there is none other way save it be by the gate; for he cannot be deceived, for the Lord God is his name.",
      "span": true
     }
    ],
@@ -495,7 +617,9 @@
      "verse": 26,
      "w1": 2,
      "w2": 13,
-     "quote": "we talk of Christ, we rejoice in Christ, we preach of Christ",
+     "quote": "we talk of Christ, we rejoice in Christ, we preach of Christ,",
+     "verse_text": "And we talk of Christ, we rejoice in Christ, we preach of Christ, we prophesy of Christ, and we write according to our prophecies, that our children may know to what source they may look for a remission of their sins.",
+     "markdown": "And **we talk of Christ, we rejoice in Christ, we preach of Christ**, we prophesy of Christ, and we write according to our prophecies, that our children may know to what source they may look for a remission of their sins.",
      "span": true
     }
    ],
@@ -519,7 +643,9 @@
      "verse": 11,
      "w1": 9,
      "w2": 22,
-     "quote": "enter in at the strait gate, and continue in the way which is narrow",
+     "quote": "enter in at the strait gate, and continue in the way which is narrow,",
+     "verse_text": "O then, my beloved brethren, repent ye, and enter in at the strait gate, and continue in the way which is narrow, until ye shall obtain eternal life.",
+     "markdown": "O then, my beloved brethren, repent ye, and **enter in at the strait gate, and continue in the way which is narrow**, until ye shall obtain eternal life.",
      "span": true
     }
    ],
@@ -543,7 +669,9 @@
      "verse": 15,
      "w1": 13,
      "w2": 21,
-     "quote": "for thus it becometh us to fulfil all righteousness",
+     "quote": "for thus it becometh us to fulfil all righteousness.",
+     "verse_text": "And Jesus answering said unto him, Suffer it to be so now: for thus it becometh us to fulfil all righteousness. Then he suffered him.",
+     "markdown": "And Jesus answering said unto him, Suffer it to be so now: **for thus it becometh us to fulfil all righteousness**. Then he suffered him.",
      "span": true
     }
    ],
@@ -567,7 +695,9 @@
      "verse": 14,
      "w1": 2,
      "w2": 14,
-     "quote": "strait is the gate, and narrow is the way, which leadeth unto life",
+     "quote": "strait is the gate, and narrow is the way, which leadeth unto life,",
+     "verse_text": "Because strait is the gate, and narrow is the way, which leadeth unto life, and few there be that find it.",
+     "markdown": "Because **strait is the gate, and narrow is the way, which leadeth unto life**, and few there be that find it.",
      "span": true
     }
    ],
@@ -591,7 +721,9 @@
      "verse": 22,
      "w1": 14,
      "w2": 22,
-     "quote": "he that endureth to the end shall be saved",
+     "quote": "he that endureth to the end shall be saved.",
+     "verse_text": "And ye shall be hated of all men for my name's sake: but he that endureth to the end shall be saved.",
+     "markdown": "And ye shall be hated of all men for my name's sake: but **he that endureth to the end shall be saved**.",
      "span": true
     }
    ],
@@ -615,7 +747,9 @@
      "verse": 12,
      "w1": 9,
      "w2": 23,
-     "quote": "there is none other name under heaven given among men, whereby we must be saved",
+     "quote": "there is none other name under heaven given among men, whereby we must be saved.",
+     "verse_text": "Neither is there salvation in any other: for there is none other name under heaven given among men, whereby we must be saved.",
+     "markdown": "Neither is there salvation in any other: for **there is none other name under heaven given among men, whereby we must be saved**.",
      "span": true
     }
    ],
@@ -725,7 +859,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-18",
-  "source_sha256": "b4c31ae43b693400"
+  "at": "2026-08-25",
+  "source_sha256": "4ffc9e64adf6bc8c"
  }
 }

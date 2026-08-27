@@ -1,0 +1,624 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 51,
+  "volume_order": "08",
+  "speakers": [
+   "Mormon, abridging"
+  ],
+  "audience": "Readers of the record",
+  "location": "Zarahemla, the east seashore cities, and the land Bountiful",
+  "date": "~67–66 BC",
+  "unit": "The war chapters (Alma 43–63)",
+  "principles": [
+   "A vote that settles a dispute and does not end it",
+   "Refusal to fight as"
+  ],
+  "connections": 9,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The quarrel starts over particular points of law",
+   "text": "Verse 2 says a part of the people wanted a few points altered, and verse 3 says Pahoran refused. Mormon never says which points."
+  },
+  {
+   "n": 2,
+   "title": "Both sides get names",
+   "text": "Verse 5 names the king-men, verse 6 the freemen. Mormon defines each by what it wanted rather than by who led it."
+  },
+  {
+   "n": 3,
+   "title": "The vote settles it",
+   "text": "Verse 7 has the voice of the people decide for the freemen. Mosiah 29 had set up exactly this mechanism, and it works."
+  },
+  {
+   "n": 4,
+   "title": "The losers refuse to serve",
+   "text": "Verse 13 says the king-men were glad the Lamanites were coming and would not take up arms, because they were angry at the chief judge and the people of liberty."
+  },
+  {
+   "n": 5,
+   "title": "Moroni asks for authority before using force",
+   "text": "Verse 15 has him send a petition with the voice of the people, and verse 16 says it was granted. The killing in verse 18 follows a grant."
+  },
+  {
+   "n": 6,
+   "title": "Amalickiah's oath is flagged as rash",
+   "text": "Verse 9 has him swear to drink Moroni's blood, and verse 10 says the promise was rash before the chapter shows why."
+  },
+  {
+   "n": 7,
+   "title": "The Lamanites take six cities",
+   "text": "Verses 22 through 26 list Moroni, Nephihah, Lehi, Morianton, Omner, Gid, and Mulek. The internal dispute cost the coastline."
+  }
+ ],
+ "words": [
+  {
+   "term": "King-men",
+   "verse_label": "v. 5",
+   "text": "Those who wanted a king. The compound occurs eleven times in this record and never in the King James Bible, and Alma 60 and 62 return to it. Mormon defines them by their aim: to alter the law and overthrow the free government."
+  },
+  {
+   "term": "Freemen",
+   "verse_label": "v. 6",
+   "text": "Those who wanted the free government kept. The word occurs seven times in this record and never in the King James Bible. Mormon says they had sworn to maintain their rights and their religion by a free government."
+  },
+  {
+   "term": "Rash",
+   "verse_label": "v. 10",
+   "text": "Hasty, spoken without weighing it. The word occurs once in this record and twice in the King James Bible, where Ecclesiastes warns against being rash with the mouth before God. Mormon applies it to Amalickiah's oath and lets the chapter prove him right."
+  },
+  {
+   "term": "Nobility",
+   "verse_label": "v. 17",
+   "text": "High birth, and the claim that goes with it. The word occurs three times in this record and never in the King James Bible, all in this chapter. Verse 21 says those who professed the blood of nobility were brought down to humble themselves like their brethren."
+  },
+  {
+   "term": "Appellation",
+   "verse_label": "v. 21",
+   "text": "A name or designation. The word occurs once in scripture. Mormon uses it to say that afterward nobody was known by the name king-men, which makes the suppression a matter of the label as well as the faction."
+  },
+  {
+   "term": "Javelin",
+   "verse_label": "v. 34",
+   "text": "A light throwing spear. The record uses it three times and the King James Bible seven, five of them of Saul throwing one at David. Teancum uses it at close range on a sleeping man."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "A few particular points of the law should be altered",
+   "verse_label": "v. 2",
+   "text": "Mormon describes the demand and withholds its content. The reader never learns which points, only that Pahoran would not move and that the refusal produced a party."
+  },
+  {
+   "term": "Those who were desirous that Pahoran should be dethroned from the judgment-seat were called king-men",
+   "verse_label": "v. 5",
+   "text": "The name is given with the aim attached. Mormon names the faction in the same sentence that says they wanted a king established over the land."
+  },
+  {
+   "term": "This matter of their contention was settled by the voice of the people",
+   "verse_label": "v. 7",
+   "text": "The mechanism from Mosiah 29 doing its work. The vote goes to the freemen, Pahoran keeps the seat, and the king-men are put to silence."
+  },
+  {
+   "term": "This was a critical time for such contentions to be among the people of Nephi",
+   "verse_label": "v. 9",
+   "text": "Mormon states the timing problem directly. Amalickiah is arming while Zarahemla argues, and the next fifteen verses are the cost of the overlap."
+  },
+  {
+   "term": "He had sworn to drink the blood of Moroni",
+   "verse_label": "v. 9",
+   "text": "An oath recorded so its failure can be recorded. Verse 10 calls it rash, and verse 34 has Amalickiah killed in his sleep by a man he never met in battle."
+  },
+  {
+   "term": "They were glad in their hearts; and they refused to take up arms",
+   "verse_label": "v. 13",
+   "text": "The king-men welcome an invasion. Mormon gives the reason as anger at the chief judge and the people of liberty, which makes the refusal a continuation of the vote by other means."
+  },
+  {
+   "term": "Give him power to compel those dissenters to defend their country or to put them to death",
+   "verse_label": "v. 15",
+   "text": "Moroni asks for the authority in writing, with the voice of the people behind it. The record is careful to show the request before the action."
+  },
+  {
+   "term": "To pull down their pride and their nobility and level them with the earth",
+   "verse_label": "v. 17",
+   "text": "The order as given, with an alternative attached: or they should take up arms and support the cause of liberty. Verse 20 says most of them took the second option."
+  },
+  {
+   "term": "There were four thousand of those dissenters who were hewn down by the sword",
+   "verse_label": "v. 19",
+   "text": "The count. Mormon adds that the surviving leaders were imprisoned because there was no time for trials, which marks the irregularity without excusing it."
+  },
+  {
+   "term": "Were compelled to hoist the title of liberty upon their towers",
+   "verse_label": "v. 20",
+   "text": "The banner of Alma 46 raised under compulsion. Mormon records that the sign of a voluntary covenant was flown by men who had a sword at their backs."
+  },
+  {
+   "term": "Teancum stole privily into the tent of the king, and put a javelin to his heart",
+   "verse_label": "v. 34",
+   "text": "The campaign ends in one sentence. Mormon gives no speech, no confrontation, and no comment, and closes the chapter with the days of Amalickiah ended."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–8",
+   "start": 1,
+   "end": 8,
+   "title": "The two parties",
+   "text": "The twenty-fifth year begins in peace. Some want points of the law altered; Pahoran refuses; those who want him gone are called king-men and want a king, and those who back him are called freemen. The voice of the people decides for the freemen. Mormon notes the king-men were of high birth and sought power."
+  },
+  {
+   "label": "v. 9–12",
+   "start": 9,
+   "end": 12,
+   "title": "The timing",
+   "text": "Amalickiah has stirred the Lamanites again, armed them, and sworn to drink Moroni's blood, which Mormon calls rash. His army is smaller after the losses but still great, and he comes down himself, at the same time the Nephites are settling their dispute."
+  },
+  {
+   "label": "v. 13–16",
+   "start": 13,
+   "end": 16,
+   "title": "The refusal",
+   "text": "The king-men are glad the Lamanites are coming and will not take up arms. Moroni is filled with anger at their stubbornness and petitions the governor, with the voice of the people, for power to compel them or put them to death. It is granted."
+  },
+  {
+   "label": "v. 17–21",
+   "start": 17,
+   "end": 21,
+   "title": "The suppression",
+   "text": "His army marches on the king-men, kills four thousand who lift weapons, imprisons the surviving leaders without trial for lack of time, and compels the rest to hoist the title of liberty and take up arms. Nobody afterward is called a king-man."
+  },
+  {
+   "label": "v. 22–26",
+   "start": 22,
+   "end": 26,
+   "title": "The cost",
+   "text": "While Moroni is putting down the dissension, the Lamanites take the city of Moroni, then Nephihah, Lehi, Morianton, Omner, Gid, and Mulek, all on the east borders by the seashore."
+  },
+  {
+   "label": "v. 27–32",
+   "start": 27,
+   "end": 32,
+   "title": "Teancum meets them",
+   "text": "Amalickiah takes many prisoners and much plunder and marches toward Bountiful, where Teancum meets him with men who have been trained in war. The Lamanites are driven back with great loss, and both armies camp for the night."
+  },
+  {
+   "label": "v. 33–37",
+   "start": 33,
+   "end": 37,
+   "title": "The tent",
+   "text": "Teancum and his servant go out by night into a camp asleep from the labors and heat of the day. He puts a javelin through the king's heart without waking the servants, returns, wakes his men, and stands ready. The year ends, and so do the days of Amalickiah."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "A working vote does not end the quarrel",
+   "text": "The voice of the people settles the matter in verse 7, and the losing side sabotages the war effort in verse 13. Mormon shows the mechanism functioning and being outlasted."
+  },
+  {
+   "n": 2,
+   "title": "The content of the dispute is withheld",
+   "text": "A few particular points of the law, never specified. Mormon keeps the reader's attention on what the factions did rather than on who had the better case."
+  },
+  {
+   "n": 3,
+   "title": "Refusal to serve is treated as an act of war",
+   "text": "The king-men do nothing and the coastline falls. The chapter's structure puts the suppression and the loss of six cities side by side."
+  },
+  {
+   "n": 4,
+   "title": "Moroni gets authority before he uses force",
+   "text": "The petition, the voice of the people, the grant, and then the march. Mormon records the sequence carefully in a chapter where four thousand die."
+  },
+  {
+   "n": 5,
+   "title": "The record notes the irregularity",
+   "text": "Leaders imprisoned without trial because there was no time. Mormon states it plainly and does not defend it."
+  },
+  {
+   "n": 6,
+   "title": "A voluntary banner is raised by compulsion",
+   "text": "The title of liberty goes up on the towers of men who were given a choice between it and the sword. Alma 46 had them running to it freely."
+  },
+  {
+   "n": 7,
+   "title": "The rash oath frames the ending",
+   "text": "Amalickiah swears to drink Moroni's blood in verse 9 and dies in verse 34 without ever reaching him. Mormon flags the oath as rash twenty-five verses early."
+  },
+  {
+   "n": 8,
+   "title": "The chapter ends without commentary",
+   "text": "A javelin, a return, a guard set, and the year closed. Mormon gives the death of the book's most capable villain in four verses and adds nothing."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Accept the outcome of the vote you took part in",
+    "verse_label": "v. 13",
+    "text": "The king-men lost and then withheld their help. When a decision goes against you in a process you agreed to, the question is what you do next."
+   },
+   {
+    "title": "Get the authority before you use the power",
+    "verse_label": "v. 15",
+    "text": "Moroni petitioned in writing with the voice of the people behind him. When you are about to do something drastic and defensible, make sure the authorization exists first."
+   },
+   {
+    "title": "Notice when the timing is the real problem",
+    "verse_label": "v. 9",
+    "text": "The dispute would have been survivable at another moment. Ask whether your current argument is worth having now, given what else is happening."
+   },
+   {
+    "title": "Weigh an oath before you swear it",
+    "verse_label": "v. 10",
+    "text": "Amalickiah promised something spectacular and died without doing it. Say what you will actually do, and leave the dramatic version unsaid."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What have I refused to alter, and is it principle or stubbornness?"
+   },
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "When did a decision go against me, and how did I behave afterward?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "Have I ever been quietly glad about trouble that would hurt people I resent?"
+   },
+   {
+    "verse_label": "v. 15",
+    "start": 15,
+    "end": 15,
+    "text": "What am I about to do that I should get permission for?"
+   },
+   {
+    "verse_label": "v. 19",
+    "start": 19,
+    "end": 19,
+    "text": "Where have I skipped a proper process because there was no time?"
+   },
+   {
+    "verse_label": "v. 20",
+    "start": 20,
+    "end": 20,
+    "text": "What have I displayed publicly that I do not hold privately?"
+   },
+   {
+    "verse_label": "v. 21",
+    "start": 21,
+    "end": 21,
+    "text": "What claim about myself would I have to give up to be humbled like my brethren?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al51-001",
+   "scope": "BOOK",
+   "head": "Alma 46:21",
+   "anchor": {
+    "verse": 20,
+    "w1": 26,
+    "w2": 35,
+    "quote": "compelled to hoist the title of liberty upon their towers"
+   },
+   "reason": "the same banner, raised freely by people running to it",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 46,
+     "verse": 21,
+     "w1": 26,
+     "w2": 30,
+     "quote": "rending their garments in token,",
+     "verse_text": "And it came to pass that when Moroni had proclaimed these words, behold, the people came running together with their armor girded about their loins, rending their garments in token, or as a covenant, that they would not forsake the Lord their God; or, in other words, if they should transgress the commandments of God, or fall into transgression, and be ashamed to take upon them the name of Christ, the Lord should rend them even as they had rent their garments.",
+     "markdown": "And it came to pass that when Moroni had proclaimed these words, behold, the people came running together with their armor girded about their loins, **rending their garments in token**, or as a covenant, that they would not forsake the Lord their God; or, in other words, if they should transgress the commandments of God, or fall into transgression, and be ashamed to take upon them the name of Christ, the Lord should rend them even as they had rent their garments.",
+     "span": true
+    }
+   ],
+   "mirror": "al46-004"
+  },
+  {
+   "id": "al51-002",
+   "scope": "BOOK",
+   "head": "Alma 60:16",
+   "anchor": {
+    "verse": 13,
+    "w1": 33,
+    "w2": 38,
+    "quote": "they refused to take up arms"
+   },
+   "reason": "Moroni’s letter naming this refusal as the cause of the bloodshed",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 60,
+     "verse": 16,
+     "w1": 15,
+     "w2": 20,
+     "quote": "were it not for these king-men,",
+     "verse_text": "Yea, had it not been for the war which broke out among ourselves; yea, were it not for these king-men, who caused so much bloodshed among ourselves; yea, at the time we were contending among ourselves, if we had united our strength as we hitherto have done; yea, had it not been for the desire of power and authority which those king-men had over us; had they been true to the cause of our freedom, and united with us, and gone forth against our enemies, instead of taking up their swords against us, which was the cause of so much bloodshed among ourselves; yea, if we had gone forth against them in the strength of the Lord, we should have dispersed our enemies, for it would have been done, according to the fulfilling of his word.",
+     "markdown": "Yea, had it not been for the war which broke out among ourselves; yea, **were it not for these king-men**, who caused so much bloodshed among ourselves; yea, at the time we were contending among ourselves, if we had united our strength as we hitherto have done; yea, had it not been for the desire of power and authority which those king-men had over us; had they been true to the cause of our freedom, and united with us, and gone forth against our enemies, instead of taking up their swords against us, which was the cause of so much bloodshed among ourselves; yea, if we had gone forth against them in the strength of the Lord, we should have dispersed our enemies, for it would have been done, according to the fulfilling of his word.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al51-003",
+   "scope": "BOOK",
+   "head": "Alma 62:9",
+   "anchor": {
+    "verse": 19,
+    "w1": 32,
+    "w2": 45,
+    "quote": "were taken and cast into prison, for there was no time for their trials"
+   },
+   "reason": "the trials finally held, years later, under the law",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 62,
+     "verse": 9,
+     "w1": 6,
+     "w2": 12,
+     "quote": "received their trial, according to the law,",
+     "verse_text": "And the men of Pachus received their trial, according to the law, and also those king-men who had been taken and cast into prison; and they were executed according to the law; yea, those men of Pachus and those king-men, whosoever would not take up arms in the defence of their country, but would fight against it, were put to death.",
+     "markdown": "And the men of Pachus **received their trial, according to the law**, and also those king-men who had been taken and cast into prison; and they were executed according to the law; yea, those men of Pachus and those king-men, whosoever would not take up arms in the defence of their country, but would fight against it, were put to death.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al51-004",
+   "scope": "BOOK",
+   "head": "Alma 47:24",
+   "anchor": {
+    "verse": 34,
+    "w1": 17,
+    "w2": 22,
+    "quote": "put a javelin to his heart"
+   },
+   "reason": "Amalickiah taking a throne the same way he loses his life",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 47,
+     "verse": 24,
+     "w1": 17,
+     "w2": 23,
+     "quote": "he stabbed the king to the heart;",
+     "verse_text": "And it came to pass that when he had raised the first from the ground, behold he stabbed the king to the heart; and he fell to the earth.",
+     "markdown": "And it came to pass that when he had raised the first from the ground, behold **he stabbed the king to the heart**; and he fell to the earth.",
+     "span": true
+    }
+   ],
+   "mirror": "al47-003"
+  },
+  {
+   "id": "al51-005",
+   "scope": "BOM",
+   "head": "Mosiah 29:26",
+   "anchor": {
+    "verse": 7,
+    "w1": 13,
+    "w2": 19,
+    "quote": "settled by the voice of the people"
+   },
+   "reason": "the reform that made a vote the way such a thing is decided",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 29,
+     "verse": 26,
+     "w1": 7,
+     "w2": 11,
+     "quote": "the voice of the people",
+     "verse_text": "Now it is not common that the voice of the people desireth anything contrary to that which is right; but it is common for the lesser part of the people to desire that which is not right; therefore this shall ye observe and make it your law—to do your business by the voice of the people.",
+     "markdown": "Now it is not common that **the voice of the people** desireth anything contrary to that which is right; but it is common for the lesser part of the people to desire that which is not right; therefore this shall ye observe and make it your law—to do your business by the voice of the people.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al51-006",
+   "scope": "BOM",
+   "head": "Alma 2:2",
+   "anchor": {
+    "verse": 5,
+    "w1": 35,
+    "w2": 44,
+    "quote": "to overthrow the free government and to establish a king"
+   },
+   "reason": "Amlici seeking the same thing by the same means",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 2,
+     "verse": 2,
+     "w1": 30,
+     "w2": 38,
+     "quote": "establish Amlici to be a king over the people.",
+     "verse_text": "Now this Amlici had, by his cunning, drawn away much people after him; even so much that they began to be very powerful; and they began to endeavor to establish Amlici to be a king over the people.",
+     "markdown": "Now this Amlici had, by his cunning, drawn away much people after him; even so much that they began to be very powerful; and they began to endeavor to **establish Amlici to be a king over the people**.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al51-007",
+   "scope": "SW",
+   "head": "Eccl. 5:2",
+   "anchor": {
+    "verse": 10,
+    "w1": 7,
+    "w2": 13,
+    "quote": "his promise which he made was rash"
+   },
+   "reason": "the warning against being rash with the mouth",
+   "targets": [
+    {
+     "ref": "Eccl.",
+     "chapter": 5,
+     "verse": 2,
+     "w1": 1,
+     "w2": 6,
+     "quote": "Be not rash with thy mouth,",
+     "verse_text": "Be not rash with thy mouth, and let not thine heart be hasty to utter any thing before God: for God is in heaven, and thou upon earth: therefore let thy words be few.",
+     "markdown": "**Be not rash with thy mouth**, and let not thine heart be hasty to utter any thing before God: for God is in heaven, and thou upon earth: therefore let thy words be few.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al51-008",
+   "scope": "SW",
+   "head": "1 Sam. 19:10",
+   "anchor": {
+    "verse": 34,
+    "w1": 17,
+    "w2": 22,
+    "quote": "put a javelin to his heart"
+   },
+   "reason": "Saul throwing the same weapon at David, and missing",
+   "targets": [
+    {
+     "ref": "1 Sam.",
+     "chapter": 19,
+     "verse": 10,
+     "w1": 5,
+     "w2": 13,
+     "quote": "smite David even to the wall with the javelin;",
+     "verse_text": "And Saul sought to smite David even to the wall with the javelin; but he slipped away out of Saul's presence, and he smote the javelin into the wall: and David fled, and escaped that night.",
+     "markdown": "And Saul sought to **smite David even to the wall with the javelin**; but he slipped away out of Saul's presence, and he smote the javelin into the wall: and David fled, and escaped that night.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al51-009",
+   "scope": "SW",
+   "head": "Judg. 4:21",
+   "anchor": {
+    "verse": 33,
+    "w1": 12,
+    "w2": 22,
+    "quote": "Teancum and his servant stole forth and went out by night"
+   },
+   "reason": "Jael entering a sleeping commander’s tent",
+   "targets": [
+    {
+     "ref": "Judg.",
+     "chapter": 4,
+     "verse": 21,
+     "w1": 19,
+     "w2": 29,
+     "quote": "went softly unto him, and smote the nail into his temples,",
+     "verse_text": "Then Jael Heber's wife took a nail of the tent, and took an hammer in her hand, and went softly unto him, and smote the nail into his temples, and fastened it into the ground: for he was fast asleep and weary. So he died.",
+     "markdown": "Then Jael Heber's wife took a nail of the tent, and took an hammer in her hand, and **went softly unto him, and smote the nail into his temples**, and fastened it into the ground: for he was fast asleep and weary. So he died.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 5,
+   "w1": 35,
+   "w2": 44,
+   "quote": "to overthrow the free government and to establish a king",
+   "entries": [
+    "al51-006"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 13,
+   "w2": 19,
+   "quote": "settled by the voice of the people",
+   "entries": [
+    "al51-005"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 7,
+   "w2": 13,
+   "quote": "his promise which he made was rash",
+   "entries": [
+    "al51-007"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 33,
+   "w2": 38,
+   "quote": "they refused to take up arms",
+   "entries": [
+    "al51-002"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 32,
+   "w2": 45,
+   "quote": "were taken and cast into prison, for there was no time for their trials",
+   "entries": [
+    "al51-003"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 26,
+   "w2": 35,
+   "quote": "compelled to hoist the title of liberty upon their towers",
+   "entries": [
+    "al51-001"
+   ]
+  },
+  {
+   "verse": 33,
+   "w1": 12,
+   "w2": 22,
+   "quote": "Teancum and his servant stole forth and went out by night",
+   "entries": [
+    "al51-009"
+   ]
+  },
+  {
+   "verse": 34,
+   "w1": 17,
+   "w2": 22,
+   "quote": "put a javelin to his heart",
+   "entries": [
+    "al51-004",
+    "al51-008"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "d62bdbd4e61bd41f"
+ }
+}

@@ -1,0 +1,625 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 53,
+  "volume_order": "08",
+  "speakers": [
+   "Mormon, abridging"
+  ],
+  "audience": "Readers of the record",
+  "location": "Mulek, Bountiful, and the borders by the west sea",
+  "date": "~64 BC",
+  "unit": "The war chapters (Alma 43–63)",
+  "principles": [
+   "Prisoners set to build their own prison",
+   "An oath kept by watching",
+   ""
+  ],
+  "connections": 9,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The prisoners bury the dead first",
+   "text": "Verse 1 has them compelled to bury both armies' dead under guard. The chapter opens on the work of clearing a battlefield."
+  },
+  {
+   "n": 2,
+   "title": "Lehi is described as another Moroni",
+   "text": "Verse 2 says he had been with Moroni in most of his battles, was a man like him, and that they were beloved by each other."
+  },
+  {
+   "n": 3,
+   "title": "The Bountiful works are built by Lamanites",
+   "text": "Verses 3 through 5 have the prisoners dig a ditch, raise a breastwork of timbers, and pile the earth against it, then be held inside the wall they made."
+  },
+  {
+   "n": 4,
+   "title": "Mormon gives the reason as manpower",
+   "text": "Verse 5 says the labor made them easy to guard, and that Moroni wanted all his forces free for an attack."
+  },
+  {
+   "n": 5,
+   "title": "Losses in the west are blamed on Nephite dissension",
+   "text": "Verses 8 and 9 say intrigue among themselves cost a number of cities while Moroni was away."
+  },
+  {
+   "n": 6,
+   "title": "The people of Ammon nearly break their oath",
+   "text": "Verses 13 and 14 have them moved with compassion and about to take up arms, and Helaman's persuasion stops them."
+  },
+  {
+   "n": 7,
+   "title": "The sons never entered the covenant",
+   "text": "Verse 16 says they had not taken it, so they assemble, call themselves Nephites, and covenant to fight. Two thousand of them."
+  }
+ ],
+ "words": [
+  {
+   "term": "Breastwork",
+   "verse_label": "v. 4",
+   "text": "A low defensive wall raised for cover. The word occurs three times in this record and never in the King James Bible; Mosiah 11 has Noah building one for a tower. Here it is timbers on the inner bank of a ditch, with the excavated earth piled against it."
+  },
+  {
+   "term": "Intrigue",
+   "verse_label": "v. 8",
+   "text": "Underhand scheming. The word occurs twice in this record and never in the King James Bible, both in this chapter. Mormon names it as the reason Moroni was absent and cities were lost."
+  },
+  {
+   "term": "Compassion",
+   "verse_label": "v. 13",
+   "text": "Fellow-feeling that moves to act. The people of Ammon are moved with it when they see what the Nephites bear for them, and it nearly costs them the oath of Alma 24."
+  },
+  {
+   "term": "Valiant",
+   "verse_label": "v. 20",
+   "text": "Brave, stout in battle. The record uses it three times and the King James Bible thirty-two, usually of named warriors. Mormon applies it to two thousand unnamed young men and then adds three more qualities."
+  },
+  {
+   "term": "Activity",
+   "verse_label": "v. 20",
+   "text": "Physical vigor and readiness. The word occurs once in this record and once in the King James Bible, where Pharaoh asks Joseph whether any of his brethren are men of activity. Mormon lists it with courage and strength."
+  },
+  {
+   "term": "Stripling",
+   "verse_label": "v. 22",
+   "text": "A youth, not yet a grown man. The word occurs twice in this record and once in the King James Bible, where Saul asks whose son the stripling David is. Mormon uses it of the two thousand at the moment they march."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Did compel them to go forth and bury their dead",
+   "verse_label": "v. 1",
+   "text": "The first labor imposed on the prisoners. Mormon notes they buried Nephite dead as well, which makes the work a service and a punishment at once."
+  },
+  {
+   "term": "He was a man like unto Moroni, and they rejoiced in each other's safety",
+   "verse_label": "v. 2",
+   "text": "Mormon's portrait of Lehi in one line. The comparison to Moroni is the highest praise the record has been using, and he adds that they were beloved by each other."
+  },
+  {
+   "term": "Within a wall which they had caused them to build with their own hands",
+   "verse_label": "v. 5",
+   "text": "The prisoners are kept inside their own work. Mormon states the irony plainly and then gives the practical reason in the same verse."
+  },
+  {
+   "term": "Because it was easy to guard them while at their labor",
+   "verse_label": "v. 5",
+   "text": "The policy explained as arithmetic. Working prisoners need fewer guards, and Moroni wanted his forces available. Mormon supplies the reasoning rather than leaving it to be admired."
+  },
+  {
+   "term": "Because of iniquity amongst themselves, yea, because of dissensions and intrigue",
+   "verse_label": "v. 9",
+   "text": "Mormon assigns the western losses to internal politics. The sentence repeats the cause twice, and it is the same diagnosis Alma 51 gave for the eastern cities."
+  },
+  {
+   "term": "According to their oath they would have perished",
+   "verse_label": "v. 11",
+   "text": "Mormon states what keeping the covenant would actually have cost. The people of Ammon would have died rather than fight, and only the pity of Ammon and his brethren prevented it."
+  },
+  {
+   "term": "They were moved with compassion and were desirous to take up arms",
+   "verse_label": "v. 13",
+   "text": "The pressure on the oath comes from love rather than from fear. They watch what the Nephites suffer on their behalf and want to help, which is the hardest form of the temptation."
+  },
+  {
+   "term": "Helaman feared lest by so doing they should lose their souls",
+   "verse_label": "v. 15",
+   "text": "The reason given for stopping them. Helaman treats the covenant as binding regardless of the circumstances, and the cost is that the people of Ammon must watch."
+  },
+  {
+   "term": "They had many sons, who had not entered into a covenant",
+   "verse_label": "v. 16",
+   "text": "The solution turns on a technicality that Mormon states as a simple fact. The oath bound those who made it and nobody else."
+  },
+  {
+   "term": "They were true at all times in whatsoever thing they were entrusted",
+   "verse_label": "v. 20",
+   "text": "Mormon's summary of the two thousand, and he marks it as the important one. Courage, strength, and activity come first; this is what he says was not all."
+  },
+  {
+   "term": "Helaman did march at the head of his two thousand stripling soldiers",
+   "verse_label": "v. 22",
+   "text": "The march that opens Alma 56 through 58. Mormon gives it in one verse here and returns to it three chapters later in Helaman's own words."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–2",
+   "start": 1,
+   "end": 2,
+   "title": "After the battle",
+   "text": "Guards are set over the prisoners, who are made to bury the dead of both armies. Moroni gives Mulek to Lehi, a man who had been with him through most of his battles, like him, and beloved by him and by the people."
+  },
+  {
+   "label": "v. 3–5",
+   "start": 3,
+   "end": 5,
+   "title": "The wall at Bountiful",
+   "text": "The prisoners are marched to Bountiful and set to dig a ditch, build a breastwork of timbers on its inner bank, and cast the earth against it. The city becomes a stronghold, and they are held inside the wall they built, because laboring prisoners are easier to guard."
+  },
+  {
+   "label": "v. 6–7",
+   "start": 6,
+   "end": 7,
+   "title": "The account so far",
+   "text": "Moroni has beaten one of the greatest Lamanite armies, taken Mulek, and built a prison. He attempts no more battles that year, employing his men in fortifying, feeding the armies, and delivering women and children from famine."
+  },
+  {
+   "label": "v. 8–9",
+   "start": 8,
+   "end": 9,
+   "title": "The western losses",
+   "text": "In Moroni's absence, and because of intrigue and dissension among the Nephites, the Lamanites gain ground on the west sea and take a number of cities. Mormon says the internal quarrels put them in the most dangerous circumstances."
+  },
+  {
+   "label": "v. 10–15",
+   "start": 10,
+   "end": 15,
+   "title": "The oath tested",
+   "text": "The people of Ammon, converted Lamanites protected by the Nephites, are kept from arms by their oath and would have perished by it. Seeing what the Nephites bear for them, they are moved to fight. Helaman persuades them not to break the covenant, fearing for their souls, so they watch instead."
+  },
+  {
+   "label": "v. 16–19",
+   "start": 16,
+   "end": 19,
+   "title": "The sons",
+   "text": "Their sons had never entered the covenant. As many as could bear arms assemble, call themselves Nephites, and covenant to fight for Nephite liberty and never to give it up. Two thousand of them, and they want Helaman to lead them."
+  },
+  {
+   "label": "v. 20–23",
+   "start": 20,
+   "end": 23,
+   "title": "What they were",
+   "text": "Young, valiant for courage, strength, and activity, and true at all times in whatever they were trusted with. Men of truth and soberness, taught to keep the commandments and walk uprightly. Helaman marches at their head to the southern border by the west sea."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The prisoners build the fortress that holds them",
+   "text": "Mormon states it directly in verse 5 and then explains the logistics. The image and the reasoning are given together."
+  },
+  {
+   "n": 2,
+   "title": "Labor is used because guards are scarce",
+   "text": "The policy is presented as a manpower calculation rather than as cruelty or cleverness. Moroni wanted his whole force free."
+  },
+  {
+   "n": 3,
+   "title": "Internal politics cost more ground than battles",
+   "text": "Verses 8 and 9 attribute a string of lost cities to intrigue at home. Alma 51 said the same about the east; Mormon is building a pattern."
+  },
+  {
+   "n": 4,
+   "title": "The oath is treated as binding under any pressure",
+   "text": "Helaman does not weigh the emergency against the covenant. His stated fear is for their souls, and the people of Ammon are left to watch."
+  },
+  {
+   "n": 5,
+   "title": "The record admits what the covenant would have cost",
+   "text": "Verse 11 says they would have perished by it. Mormon does not soften the arithmetic of a promise kept."
+  },
+  {
+   "n": 6,
+   "title": "The sons are eligible because nobody bound them",
+   "text": "No argument is made about whether the oath should extend. Mormon states the fact and the two thousand assemble."
+  },
+  {
+   "n": 7,
+   "title": "They name themselves",
+   "text": "Verse 16 says they called themselves Nephites. A group of Lamanite descent takes the name of the people they are defending."
+  },
+  {
+   "n": 8,
+   "title": "Trustworthiness is ranked above courage",
+   "text": "Mormon lists valor, strength, and activity, then says this was not all, and gives being true at all times as the thing that mattered."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Give the work to the people you are watching",
+    "verse_label": "v. 5",
+    "text": "Moroni set prisoners to labor because it took fewer guards. Where you are spending effort supervising, consider whether the task itself could do the supervising."
+   },
+   {
+    "title": "Watch for the pressure that comes from love",
+    "verse_label": "v. 13",
+    "text": "The people of Ammon nearly broke their oath out of compassion. The hardest challenges to a commitment usually arrive as a good reason rather than a temptation."
+   },
+   {
+    "title": "Keep the promise when keeping it is costly",
+    "verse_label": "v. 11",
+    "text": "Mormon says plainly they would have perished by it. Before you make a commitment, consider what it would look like to keep it on the worst day."
+   },
+   {
+    "title": "Be the one who is true at all times",
+    "verse_label": "v. 20",
+    "text": "Mormon ranked reliability above courage in two thousand soldiers. Decide to be someone whose word holds in the small things nobody is checking."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Who is the person whose safety I rejoice in?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "What am I guarding that would guard itself if it had work to do?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What internal quarrel of mine is costing more than any outside pressure?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "What good reason is currently pressing me to break something I promised?"
+   },
+   {
+    "verse_label": "v. 15",
+    "start": 15,
+    "end": 15,
+    "text": "Have I ever had to watch while others bore what I could not help with?"
+   },
+   {
+    "verse_label": "v. 16",
+    "start": 16,
+    "end": 16,
+    "text": "What am I free to do that others around me are not?"
+   },
+   {
+    "verse_label": "v. 20",
+    "start": 20,
+    "end": 20,
+    "text": "Am I true in the things I have been entrusted with when nobody checks?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al53-001",
+   "scope": "BOOK",
+   "head": "Alma 24:18",
+   "anchor": {
+    "verse": 11,
+    "w1": 18,
+    "w2": 29,
+    "quote": "they had taken an oath that they never would shed blood more"
+   },
+   "reason": "the covenant itself, made over buried weapons",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 24,
+     "verse": 18,
+     "w1": 19,
+     "w2": 30,
+     "quote": "they never would use weapons again for the shedding of man's blood;",
+     "verse_text": "And this they did, it being in their view a testimony to God, and also to men, that they never would use weapons again for the shedding of man's blood; and this they did, vouching and covenanting with God, that rather than shed the blood of their brethren they would give up their own lives; and rather than take away from a brother they would give unto him; and rather than spend their days in idleness they would labor abundantly with their hands.",
+     "markdown": "And this they did, it being in their view a testimony to God, and also to men, that **they never would use weapons again for the shedding of man's blood**; and this they did, vouching and covenanting with God, that rather than shed the blood of their brethren they would give up their own lives; and rather than take away from a brother they would give unto him; and rather than spend their days in idleness they would labor abundantly with their hands.",
+     "span": true
+    }
+   ],
+   "mirror": "al24-004"
+  },
+  {
+   "id": "al53-002",
+   "scope": "BOOK",
+   "head": "Alma 49:18",
+   "anchor": {
+    "verse": 4,
+    "w1": 8,
+    "w2": 18,
+    "quote": "a breastwork of timbers upon the inner bank of the ditch"
+   },
+   "reason": "the same design at Ammonihah, described from the attacker’s side",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 49,
+     "verse": 18,
+     "w1": 23,
+     "w2": 32,
+     "quote": "the highness of the bank which had been thrown up,",
+     "verse_text": "Now behold, the Lamanites could not get into their forts of security by any other way save by the entrance, because of the highness of the bank which had been thrown up, and the depth of the ditch which had been dug round about, save it were by the entrance.",
+     "markdown": "Now behold, the Lamanites could not get into their forts of security by any other way save by the entrance, because of **the highness of the bank which had been thrown up**, and the depth of the ditch which had been dug round about, save it were by the entrance.",
+     "span": true
+    }
+   ],
+   "mirror": "al49-004"
+  },
+  {
+   "id": "al53-003",
+   "scope": "BOOK",
+   "head": "Alma 56:47",
+   "anchor": {
+    "verse": 20,
+    "w1": 30,
+    "w2": 39,
+    "quote": "true at all times in whatsoever thing they were entrusted"
+   },
+   "reason": "Helaman on the same young men, after their first battle",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 56,
+     "verse": 47,
+     "w1": 13,
+     "w2": 22,
+     "quote": "they did think more upon the liberty of their fathers",
+     "verse_text": "Now they never had fought, yet they did not fear death; and they did think more upon the liberty of their fathers than they did upon their lives; yea, they had been taught by their mothers, that if they did not doubt, God would deliver them.",
+     "markdown": "Now they never had fought, yet they did not fear death; and **they did think more upon the liberty of their fathers** than they did upon their lives; yea, they had been taught by their mothers, that if they did not doubt, God would deliver them.",
+     "span": true
+    }
+   ],
+   "mirror": "al56-001"
+  },
+  {
+   "id": "al53-004",
+   "scope": "BOOK",
+   "head": "Alma 27:23",
+   "anchor": {
+    "verse": 12,
+    "w1": 15,
+    "w2": 22,
+    "quote": "they ever had been protected by the Nephites"
+   },
+   "reason": "the arrangement that made the protection a standing promise",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 27,
+     "verse": 23,
+     "w1": 16,
+     "w2": 25,
+     "quote": "that we may protect our brethren in the land Jershon;",
+     "verse_text": "And behold, we will set our armies between the land Jershon and the land Nephi, that we may protect our brethren in the land Jershon; and this we do for our brethren, on account of their fear to take up arms against their brethren lest they should commit sin; and this their great fear came because of their sore repentance which they had, on account of their many murders and their awful wickedness.",
+     "markdown": "And behold, we will set our armies between the land Jershon and the land Nephi, **that we may protect our brethren in the land Jershon**; and this we do for our brethren, on account of their fear to take up arms against their brethren lest they should commit sin; and this their great fear came because of their sore repentance which they had, on account of their many murders and their awful wickedness.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al53-005",
+   "scope": "BOM",
+   "head": "Mosiah 11:11",
+   "anchor": {
+    "verse": 4,
+    "w1": 8,
+    "w2": 18,
+    "quote": "a breastwork of timbers upon the inner bank of the ditch"
+   },
+   "reason": "the record’s other breastwork, built for Noah’s seats",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 11,
+     "verse": 11,
+     "w1": 26,
+     "w2": 32,
+     "quote": "he caused a breastwork to be built",
+     "verse_text": "And the seats which were set apart for the high priests, which were above all the other seats, he did ornament with pure gold; and he caused a breastwork to be built before them, that they might rest their bodies and their arms upon while they should speak lying and vain words to his people.",
+     "markdown": "And the seats which were set apart for the high priests, which were above all the other seats, he did ornament with pure gold; and **he caused a breastwork to be built** before them, that they might rest their bodies and their arms upon while they should speak lying and vain words to his people.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al53-006",
+   "scope": "BOM",
+   "head": "1 Ne. 17:1",
+   "anchor": {
+    "verse": 15,
+    "w1": 24,
+    "w2": 31,
+    "quote": "to behold their brethren wade through their afflictions"
+   },
+   "reason": "the same figure used of Lehi’s family in the wilderness",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 17,
+     "verse": 1,
+     "w1": 27,
+     "w2": 34,
+     "quote": "we did travel and wade through much affliction",
+     "verse_text": "And it came to pass that we did again take our journey in the wilderness; and we did travel nearly eastward from that time forth. And we did travel and wade through much affliction in the wilderness; and our women did bear children in the wilderness.",
+     "markdown": "And it came to pass that we did again take our journey in the wilderness; and we did travel nearly eastward from that time forth. And **we did travel and wade through much affliction** in the wilderness; and our women did bear children in the wilderness.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al53-007",
+   "scope": "SW",
+   "head": "1 Sam. 17:56",
+   "anchor": {
+    "verse": 22,
+    "w1": 15,
+    "w2": 19,
+    "quote": "his two thousand stripling soldiers"
+   },
+   "reason": "the King James Bible’s one use of the word, of David before Goliath",
+   "targets": [
+    {
+     "ref": "1 Sam.",
+     "chapter": 17,
+     "verse": 56,
+     "w1": 5,
+     "w2": 11,
+     "quote": "Inquire thou whose son the stripling is.",
+     "verse_text": "And the king said, Inquire thou whose son the stripling is.",
+     "markdown": "And the king said, **Inquire thou whose son the stripling is**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al53-008",
+   "scope": "SW",
+   "head": "Gen. 47:6",
+   "anchor": {
+    "verse": 20,
+    "w1": 16,
+    "w2": 19,
+    "quote": "for strength and activity"
+   },
+   "reason": "Pharaoh asking Joseph for men of activity",
+   "targets": [
+    {
+     "ref": "Gen.",
+     "chapter": 47,
+     "verse": 6,
+     "w1": 30,
+     "w2": 38,
+     "quote": "if thou knowest any men of activity among them,",
+     "verse_text": "The land of Egypt is before thee; in the best of the land make thy father and brethren to dwell; in the land of Goshen let them dwell: and if thou knowest any men of activity among them, then make them rulers over my cattle.",
+     "markdown": "The land of Egypt is before thee; in the best of the land make thy father and brethren to dwell; in the land of Goshen let them dwell: and **if thou knowest any men of activity among them**, then make them rulers over my cattle.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al53-009",
+   "scope": "SW",
+   "head": "Neh. 4:17",
+   "anchor": {
+    "verse": 5,
+    "w1": 25,
+    "w2": 37,
+    "quote": "a wall which they had caused them to build with their own hands"
+   },
+   "reason": "builders working with one hand and holding a weapon in the other",
+   "targets": [
+    {
+     "ref": "Neh.",
+     "chapter": 4,
+     "verse": 17,
+     "w1": 16,
+     "w2": 26,
+     "quote": "every one with one of his hands wrought in the work,",
+     "verse_text": "They which builded on the wall, and they that bare burdens, with those that laded, every one with one of his hands wrought in the work, and with the other hand held a weapon.",
+     "markdown": "They which builded on the wall, and they that bare burdens, with those that laded, **every one with one of his hands wrought in the work**, and with the other hand held a weapon.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 4,
+   "w1": 8,
+   "w2": 18,
+   "quote": "a breastwork of timbers upon the inner bank of the ditch",
+   "entries": [
+    "al53-002",
+    "al53-005"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 25,
+   "w2": 37,
+   "quote": "a wall which they had caused them to build with their own hands",
+   "entries": [
+    "al53-009"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 18,
+   "w2": 29,
+   "quote": "they had taken an oath that they never would shed blood more",
+   "entries": [
+    "al53-001"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 15,
+   "w2": 22,
+   "quote": "they ever had been protected by the Nephites",
+   "entries": [
+    "al53-004"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 24,
+   "w2": 31,
+   "quote": "to behold their brethren wade through their afflictions",
+   "entries": [
+    "al53-006"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 16,
+   "w2": 19,
+   "quote": "for strength and activity",
+   "entries": [
+    "al53-008"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 30,
+   "w2": 39,
+   "quote": "true at all times in whatsoever thing they were entrusted",
+   "entries": [
+    "al53-003"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 15,
+   "w2": 19,
+   "quote": "his two thousand stripling soldiers",
+   "entries": [
+    "al53-007"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "109284f38eef515a"
+ }
+}

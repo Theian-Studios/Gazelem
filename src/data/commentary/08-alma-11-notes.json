@@ -1,0 +1,779 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 11,
+  "volume_order": "08",
+  "speakers": [
+   "Amulek",
+   "Zeezrom"
+  ],
+  "audience": "The people of Ammonihah",
+  "location": "The city of Ammonihah",
+  "date": "~82 BC",
+  "unit": "Alma's preaching circuit (Alma 5–16)",
+  "principles": [
+   "The price of a man",
+   "Cross-examination",
+   "Resurrection"
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The money table is the setup for the bribe",
+   "text": "Sixteen verses on weights and measures look like an interruption. They are the reason verse 22 lands: when Zeezrom offers \"six onties of silver\" (v. 22), the reader has just been taught that an onti \"was as great as them all\" (v. 13). Without the table the offer is a number. With it, the reader knows a judge earned one senum a day and can do the arithmetic on what six of the largest silver measure would buy.",
+   "cites": [
+    {
+     "quote": "six onties of silver",
+     "verse": 22,
+     "start": 122,
+     "end": 152,
+     "spans": [
+      {
+       "w1": 43,
+       "w2": 46,
+       "text": "six onties of silver"
+      }
+     ]
+    },
+    {
+     "quote": "was as great as them all",
+     "verse": 13,
+     "start": 199,
+     "end": 233,
+     "spans": [
+      {
+       "w1": 4,
+       "w2": 9,
+       "text": "was as great as them all"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Judges were paid by the day",
+   "text": "The law of Mosiah set the rate at \"a senine of gold for a day\" (v. 3) for time actually spent judging. Pay tied to caseload is a system with an appetite, and verse 20 says what these men did with it.",
+   "cites": [
+    {
+     "quote": "a senine of gold for a day",
+     "verse": 3,
+     "start": 34,
+     "end": 69,
+     "spans": [
+      {
+       "w1": 11,
+       "w2": 17,
+       "text": "a senine of gold for a day"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "The Nephites had left the Jewish system behind",
+   "text": "Verse 4 says outright that they \"altered their reckoning\" (v. 4) and did not measure after the manner of the Jews at Jerusalem. The record pauses to explain its own units because it knows a reader will not have them. The same instinct made it explain what a lawyer was one chapter earlier.",
+   "cites": [
+    {
+     "quote": "altered their reckoning",
+     "verse": 4,
+     "start": 32,
+     "end": 64,
+     "spans": [
+      {
+       "w1": 56,
+       "w2": 58,
+       "text": "altered their reckoning"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Grain is the anchor of the whole scale",
+   "text": "A senum of silver buys a measure of barley (v. 7), and a shiblon buys half a measure (v. 15). The system is pinned to food rather than to metal, so every figure in the chapter can be read as days of eating.",
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 7)",
+     "start": 43,
+     "end": 49,
+     "verse_start": 7,
+     "verse_end": 7
+    },
+    {
+     "kind": "verse",
+     "text": "(v. 15)",
+     "start": 85,
+     "end": 92,
+     "verse_start": 15,
+     "verse_end": 15
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "This is a courtroom scene in a city with no court in session",
+   "text": "The vocabulary is legal throughout: wages, evidences, officers, compelled to pay, questions put and answered, lying before God, and at the end a bar to be arraigned at. Zeezrom questions Amulek the way he would question a defendant, and Amulek answers in the same genre."
+  },
+  {
+   "n": 6,
+   "title": "The catechism has a shape",
+   "text": "Zeezrom's questions move from the existence of God, to the number of Gods, to how Amulek knows, to who is coming, to whether he will save people in their sins. It is a ladder, and verse 35 shows what it was built for: a summary he can read back to the crowd."
+  },
+  {
+   "n": 7,
+   "title": "Bribery of a judge was an old offense",
+   "text": "Samuel's sons turned aside after lucre and perverted judgment, and that ended the era of judges in Israel. Alma 11 is set inside a system of judges that began four books earlier, and the same word for corrupt money appears at its unravelling."
+  }
+ ],
+ "words": [
+  {
+   "term": "Reckoning",
+   "verse_label": "v. 4",
+   "text": "Counting, and the system used to count. Four of the five times this record uses the noun fall in this chapter, and the fifth is about keeping time. Here it means the whole conversion table: what a coin is worth against another coin, and both against barley. The record tells the reader that the Nephites built their own, a small declaration of independence buried in an accounting note."
+  },
+  {
+   "term": "Onti",
+   "verse_label": "v. 13",
+   "text": "The largest silver measure, \"as great as them all\" (v. 13). The word appears twice in the reckoning table and then, in its plural, in Zeezrom's hand. A reader who skipped verses 5 through 19 cannot feel verse 22. The chapter teaches the denomination and then spends it, and the offer is the top of the scale multiplied by six.",
+   "cites": [
+    {
+     "quote": "as great as them all",
+     "verse": 13,
+     "start": 28,
+     "end": 58,
+     "spans": [
+      {
+       "w1": 5,
+       "w2": 9,
+       "text": "as great as them all"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Lucre",
+   "verse_label": "v. 24",
+   "text": "Money, with the taint already in the word. The King James Bible keeps it for corrupt office holders: bishops who must not be greedy of filthy lucre, and Samuel's sons, who were judges and \"turned aside after lucre\" and perverted judgment. Amulek uses it on a man whose income depends on the volume of lawsuits, and the choice of word puts him in that lineage."
+  },
+  {
+   "term": "Bands",
+   "verse_label": "v. 41",
+   "text": "Bonds, what ties a prisoner. Death is not described as a place or a sleep in this passage; it is a restraint, and what Christ does to it is \"the loosing of the bands of death\" (v. 41). The image makes resurrection an act of release performed on everyone, which is exactly the claim of verse 44: it comes to the wicked as surely as the righteous.",
+   "cites": [
+    {
+     "quote": "the loosing of the bands of death",
+     "verse": 41,
+     "start": 140,
+     "end": 183,
+     "spans": [
+      {
+       "w1": 16,
+       "w2": 22,
+       "text": "the loosing of the bands of death"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Recollection",
+   "verse_label": "v. 43",
+   "text": "The act of calling something back to mind. The word occurs once in all of scripture, here, in the phrase \"a bright recollection of all our guilt\" (v. 43). Bright is doing the work. What the resurrection restores is not only limb and joint but clarity, and the passage treats undimmed memory as part of what makes standing there difficult.",
+   "cites": [
+    {
+     "quote": "a bright recollection of all our guilt",
+     "verse": 43,
+     "start": 105,
+     "end": 153,
+     "spans": [
+      {
+       "w1": 50,
+       "w2": 56,
+       "text": "a bright recollection of all our guilt"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Arraigned",
+   "verse_label": "v. 44",
+   "text": "To be brought before a court and formally charged. Another word used once in the whole of scripture, and it arrives at the end of the most legal chapter in the book, spoken to a lawyer who has spent the afternoon trying to catch a man in his words. The scene Zeezrom controls is being described to him with his own vocabulary, relocated."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "A senine of gold for a day",
+   "verse_label": "v. 3",
+   "text": "The wage that sets the scale. Everything else in the chapter's arithmetic can be measured against a day of a judge's time, itself a measure of barley. The record gives the number without comment and lets it do its work nineteen verses later."
+  },
+  {
+   "term": "They altered their reckoning",
+   "verse_label": "v. 4",
+   "text": "Six hundred years from Jerusalem, and the measures have drifted. The record says so plainly and then supplies the table, treating its own distance from the old world as an ordinary fact needing an ordinary footnote."
+  },
+  {
+   "term": "That they might have more employ",
+   "verse_label": "v. 20",
+   "text": "The mechanism of the corruption in five words. The lawyers did not take bribes to lose cases. They manufactured disorder so there would be more cases, since the pay followed the work. The record describes an incentive rather than a conspiracy."
+  },
+  {
+   "term": "Six onties of silver",
+   "verse_label": "v. 22",
+   "text": "The price offered for a denial of God, stated in the largest unit on the table. The offer is generous by the chapter's own arithmetic, and Amulek's answer treats the generosity as beside the point. Verse 25 then says the money was never going to be paid."
+  },
+  {
+   "term": "Thou lovest that lucre more than him",
+   "verse_label": "v. 24",
+   "text": "Amulek's diagnosis, and it does not accuse Zeezrom of unbelief. It accuses him of ranking. The sentence grants that the man knows there is a God and locates the problem in what he prefers, which is a harder charge and a more common one."
+  },
+  {
+   "term": "Thou hadst it in thy heart to retain them from me",
+   "verse_label": "v. 25",
+   "text": "The bribe was a trap and the money was never leaving his hand. Amulek names the intent, and the accusation names God as the one lied to. A lawyer setting a perjury trap is caught in one."
+  },
+  {
+   "term": "Shall he save his people in their sins",
+   "verse_label": "v. 34",
+   "text": "The question the whole exchange was built to reach. Answer yes and the Son is indulgent; answer no and it sounds like a limit on God. That is how Zeezrom immediately reports it to the crowd. Amulek takes the second horn and explains it by the nature of God's word."
+  },
+  {
+   "term": "It is impossible for him to deny his word",
+   "verse_label": "v. 34",
+   "text": "The reason underneath the answer. What constrains God here is not weakness or reluctance; it is consistency. The record will build a good deal on this later, and it enters at the point where a hostile lawyer asked a question sharp enough to require it."
+  },
+  {
+   "term": "No unclean thing can inherit the kingdom of heaven",
+   "verse_label": "v. 37",
+   "text": "The premise Amulek supplies to close the argument. Salvation in sins would mean an unclean thing inheriting, which the word of God has already ruled out. The logic is short and it converts a debating point into a definition."
+  },
+  {
+   "term": "The very Eternal Father of heaven and of earth",
+   "verse_label": "v. 39",
+   "text": "Zeezrom's question was probably meant to expose a contradiction, and the answer he gets is more, not less, than he asked for: beginning and end, first and last. Whatever trap was set, the reply refuses to narrow."
+  },
+  {
+   "term": "A bright recollection of all our guilt",
+   "verse_label": "v. 43",
+   "text": "The most uncomfortable clause in the resurrection passage. Bodies come back whole and so does memory, undimmed. Judgment in this account requires no evidence brought against a person, since the person will remember."
+  },
+  {
+   "term": "Not so much as a hair of their heads be lost",
+   "verse_label": "v. 44",
+   "text": "Physical specificity taken to its limit, and applied to everyone. The verse lists old and young, bond and free, male and female, wicked and righteous, and then refuses to let even a hair go missing from any of them. The completeness is the doctrine."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–3",
+   "start": 1,
+   "end": 3,
+   "title": "The law on wages",
+   "text": "Judges are paid by the day for time spent judging, with the rate fixed by the law of Mosiah. Two verses of civil procedure, including how a debtor is brought in and compelled to pay, and then the number."
+  },
+  {
+   "label": "v. 4–19",
+   "start": 4,
+   "end": 19,
+   "title": "The reckoning",
+   "text": "Gold in four denominations, silver in four, then the lesser numbers, all pinned to measures of barley. The record explains that the Nephites built their own system. Nothing in these verses is doctrine and none of it is wasted."
+  },
+  {
+   "label": "v. 20–21",
+   "start": 20,
+   "end": 21,
+   "title": "The motive, and the man",
+   "text": "One verse names what the lawyers were doing and why, and the next introduces Zeezrom asking politely whether Amulek will answer a few questions. The politeness is reported alongside the description of him as expert in the devices of the devil."
+  },
+  {
+   "label": "v. 22–25",
+   "start": 22,
+   "end": 25,
+   "title": "The offer, and the refusal",
+   "text": "Six onties for a denial. Amulek declines, then goes further and tells Zeezrom what was actually in his heart: the money was bait and would have stayed in his hand. The exchange takes four verses and ends the bribery attempt for good."
+  },
+  {
+   "label": "v. 26–37",
+   "start": 26,
+   "end": 37,
+   "title": "The examination",
+   "text": "Short questions, short answers, moving from one God to the coming Son to whether he saves people in their sins. Zeezrom turns to the crowd in verse 35 with his summary, and Amulek spends two verses taking it apart."
+  },
+  {
+   "label": "v. 38–41",
+   "start": 38,
+   "end": 41,
+   "title": "The answer that opens out",
+   "text": "Asked whether the Son is the Eternal Father, Amulek says yes and keeps going: heaven and earth, beginning and end, first and last, redemption for those who believe, and the loosing of death's bands for everyone."
+  },
+  {
+   "label": "v. 42–46",
+   "start": 42,
+   "end": 46,
+   "title": "The resurrection, and a man trembling",
+   "text": "Temporal death undone, spirit and body reunited in perfect form, limb and joint restored, memory bright, all classes of people included, everyone arraigned. Then the crowd is astonished again and Zeezrom begins to shake."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The accounting is the argument",
+   "text": "A modern reader skims verses 4 through 19 as a table. Placed where they are, they set the price of the offer that follows, and the chapter's structure says that a man with a scale in his head can recognize what he is being offered. The record teaches the reader to value the bribe before showing it."
+  },
+  {
+   "n": 2,
+   "title": "A lawyer is answered in law",
+   "text": "Zeezrom's method is cross-examination, and Amulek does not object to the form. He answers the questions, then charges Zeezrom with lying before God and gives the evidence of intent. The chapter ends with a courtroom image nobody in it controls."
+  },
+  {
+   "n": 3,
+   "title": "The corruption is structural",
+   "text": "Verse 20 puts the fault in the pay structure. Pay by the case and cases will multiply. The record diagnoses a system. That is why the chapter opens with the wage law."
+  },
+  {
+   "n": 4,
+   "title": "Doctrine arrives because someone hostile asked for it",
+   "text": "The fullest statement on resurrection so far in the record is produced under cross-examination by a man trying to destroy the witness. The book gets its clearest teaching out of its worst room."
+  },
+  {
+   "n": 5,
+   "title": "Salvation is bounded by consistency",
+   "text": "Amulek's ground for saying the Son cannot save people in their sins is that he cannot deny his word. That places the limit inside God's own character, and the record will return to it whenever mercy and justice are argued."
+  },
+  {
+   "n": 6,
+   "title": "The resurrection is described physically and universally",
+   "text": "Limb, joint, frame, hair. Old and young, bond and free, male and female, wicked and righteous. Nothing in the passage is offered as comfort and nothing is withheld from anyone."
+  },
+  {
+   "n": 7,
+   "title": "Memory is part of judgment",
+   "text": "Bright recollection of guilt does work that no external accusation could. It makes the judgment scene quiet, and it removes any question of the record being wrong."
+  },
+  {
+   "n": 8,
+   "title": "The chapter ends with a symptom",
+   "text": "Zeezrom trembles. He has not repented, argued back, or conceded anything, and the record notes only the shaking. What that turns into occupies the next three chapters."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Know the exchange rate before the offer comes",
+    "verse_label": "v. 13, 22",
+    "text": "The chapter arms its reader with the table first. Work out in advance what your integrity is priced at in the currencies you actually deal in: time, standing, a job, a relationship. The offer is easier to see when you already know the scale."
+   },
+   {
+    "title": "Look for the incentive first",
+    "verse_label": "v. 20",
+    "text": "The lawyers stirred up trouble because trouble paid. Before assuming bad character in a situation that keeps going wrong, ask what the arrangement rewards, and whether anyone would have to be wicked for it to produce this."
+   },
+   {
+    "title": "Answer the question and then name the move",
+    "verse_label": "v. 25",
+    "text": "Amulek did not refuse to engage, and he did not pretend the exchange was innocent. He did both: gave the answer, then said what was being attempted. Most people manage only one."
+   },
+   {
+    "title": "Assume the record of your own life is complete",
+    "verse_label": "v. 43",
+    "text": "The passage puts nothing in the hands of witnesses. Take one thing you have been hoping is filed somewhere out of reach, and deal with it as though you will one day remember it clearly."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What am I paid by, and what does that arrangement quietly encourage me to produce more of?"
+   },
+   {
+    "verse_label": "v. 20",
+    "start": 20,
+    "end": 20,
+    "text": "Where have I benefited from a problem I also helped keep alive?"
+   },
+   {
+    "verse_label": "v. 22",
+    "start": 22,
+    "end": 22,
+    "text": "What is the largest offer I have ever received to be quiet about something true, and what did I do?"
+   },
+   {
+    "verse_label": "v. 24",
+    "start": 24,
+    "end": 24,
+    "text": "Which do I actually prefer when they conflict, and would someone watching my week be able to tell?"
+   },
+   {
+    "verse_label": "v. 34",
+    "start": 34,
+    "end": 34,
+    "text": "Do I want to be saved from my sins or in them, and which am I praying for?"
+   },
+   {
+    "verse_label": "v. 43",
+    "start": 43,
+    "end": 43,
+    "text": "What would a bright recollection of my own guilt include that I have already talked myself out of?"
+   },
+   {
+    "verse_label": "v. 46",
+    "start": 46,
+    "end": 46,
+    "text": "When did I last tremble at something true, and what did I do with the next hour?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al11-001",
+   "scope": "BOOK",
+   "head": "Alma 10:32",
+   "anchor": {
+    "verse": 20,
+    "w1": 36,
+    "w2": 41,
+    "quote": "that they might have more employ"
+   },
+   "reason": "the motive, itemized",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 10,
+     "verse": 32,
+     "w1": 2,
+     "w2": 10,
+     "quote": "the object of these lawyers was to get gain;",
+     "verse_text": "Now the object of these lawyers was to get gain; and they got gain according to their employ.",
+     "markdown": "Now **the object of these lawyers was to get gain**; and they got gain according to their employ.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al11-002",
+   "scope": "BOOK",
+   "head": "Alma 12:1",
+   "anchor": {
+    "verse": 46,
+    "w1": 17,
+    "w2": 20,
+    "quote": "Zeezrom began to tremble"
+   },
+   "reason": "the trembling, taken up by Alma",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 12,
+     "verse": 1,
+     "w1": 31,
+     "w2": 34,
+     "quote": "he began to tremble",
+     "verse_text": "Now Alma, seeing that the words of Amulek had silenced Zeezrom, for he beheld that Amulek had caught him in his lying and deceiving to destroy him, and seeing that he began to tremble under a consciousness of his guilt, he opened his mouth and began to speak unto him, and to establish the words of Amulek, and to explain things beyond, or to unfold the scriptures beyond that which Amulek had done.",
+     "markdown": "Now Alma, seeing that the words of Amulek had silenced Zeezrom, for he beheld that Amulek had caught him in his lying and deceiving to destroy him, and seeing that **he began to tremble** under a consciousness of his guilt, he opened his mouth and began to speak unto him, and to establish the words of Amulek, and to explain things beyond, or to unfold the scriptures beyond that which Amulek had done.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al11-003",
+   "scope": "BOOK",
+   "head": "Alma 40:23",
+   "anchor": {
+    "verse": 44,
+    "w1": 30,
+    "w2": 40,
+    "quote": "not so much as a hair of their heads be lost"
+   },
+   "reason": "the restoration, stated again",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 40,
+     "verse": 23,
+     "w1": 28,
+     "w2": 37,
+     "quote": "even a hair of the head shall not be lost;",
+     "verse_text": "The soul shall be restored to the body, and the body to the soul; yea, and every limb and joint shall be restored to its body; yea, even a hair of the head shall not be lost; but all things shall be restored to their proper and perfect frame.",
+     "markdown": "The soul shall be restored to the body, and the body to the soul; yea, and every limb and joint shall be restored to its body; yea, **even a hair of the head shall not be lost**; but all things shall be restored to their proper and perfect frame.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al11-004",
+   "scope": "BOM",
+   "head": "Mosiah 29:40",
+   "anchor": {
+    "verse": 1,
+    "w1": 27,
+    "w2": 36,
+    "quote": "should receive wages according to the time which they labored"
+   },
+   "reason": "the law of Mosiah, at work",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 29,
+     "verse": 40,
+     "w1": 11,
+     "w2": 19,
+     "quote": "they did esteem him more than any other man;",
+     "verse_text": "And they did wax strong in love towards Mosiah; yea, they did esteem him more than any other man; for they did not look upon him as a tyrant who was seeking for gain, yea, for that lucre which doth corrupt the soul; for he had not exacted riches of them, neither had he delighted in the shedding of blood; but he had established peace in the land, and he had granted unto his people that they should be delivered from all manner of bondage; therefore they did esteem him, yea, exceedingly, beyond measure.",
+     "markdown": "And they did wax strong in love towards Mosiah; yea, **they did esteem him more than any other man**; for they did not look upon him as a tyrant who was seeking for gain, yea, for that lucre which doth corrupt the soul; for he had not exacted riches of them, neither had he delighted in the shedding of blood; but he had established peace in the land, and he had granted unto his people that they should be delivered from all manner of bondage; therefore they did esteem him, yea, exceedingly, beyond measure.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al11-005",
+   "scope": "BOM",
+   "head": "2 Ne. 9:13",
+   "anchor": {
+    "verse": 43,
+    "w1": 1,
+    "w2": 13,
+    "quote": "The spirit and the body shall be reunited again in its perfect form"
+   },
+   "reason": "the same reunion, promised earlier",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 9,
+     "verse": 13,
+     "w1": 37,
+     "w2": 46,
+     "quote": "the spirit and the body is restored to itself again,",
+     "verse_text": "O how great the plan of our God! For on the other hand, the paradise of God must deliver up the spirits of the righteous, and the grave deliver up the body of the righteous; and the spirit and the body is restored to itself again, and all men become incorruptible, and immortal, and they are living souls, having a perfect knowledge like unto us in the flesh, save it be that our knowledge shall be perfect.",
+     "markdown": "O how great the plan of our God! For on the other hand, the paradise of God must deliver up the spirits of the righteous, and the grave deliver up the body of the righteous; and **the spirit and the body is restored to itself again**, and all men become incorruptible, and immortal, and they are living souls, having a perfect knowledge like unto us in the flesh, save it be that our knowledge shall be perfect.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al11-006",
+   "scope": "SW",
+   "head": "1 Sam. 8:3",
+   "anchor": {
+    "verse": 24,
+    "w1": 21,
+    "w2": 27,
+    "quote": "thou lovest that lucre more than him"
+   },
+   "reason": "judges who turned aside for it",
+   "targets": [
+    {
+     "ref": "1 Sam.",
+     "chapter": 8,
+     "verse": 3,
+     "w1": 10,
+     "w2": 13,
+     "quote": "turned aside after lucre,",
+     "verse_text": "And his sons walked not in his ways, but turned aside after lucre, and took bribes, and perverted judgment.",
+     "markdown": "And his sons walked not in his ways, but **turned aside after lucre**, and took bribes, and perverted judgment.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al11-007",
+   "scope": "SW",
+   "head": "1 Tim. 3:3",
+   "anchor": {
+    "verse": 24,
+    "w1": 21,
+    "w2": 27,
+    "quote": "thou lovest that lucre more than him"
+   },
+   "reason": "the word kept for corrupt office",
+   "targets": [
+    {
+     "ref": "1 Tim.",
+     "chapter": 3,
+     "verse": 3,
+     "w1": 7,
+     "w2": 11,
+     "quote": "not greedy of filthy lucre;",
+     "verse_text": "Not given to wine, no striker, not greedy of filthy lucre; but patient, not a brawler, not covetous;",
+     "markdown": "Not given to wine, no striker, **not greedy of filthy lucre**; but patient, not a brawler, not covetous;",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al11-008",
+   "scope": "SW",
+   "head": "Rev. 22:13",
+   "anchor": {
+    "verse": 39,
+    "w1": 32,
+    "w2": 36,
+    "quote": "the first and the last"
+   },
+   "reason": "the same four titles, one voice",
+   "targets": [
+    {
+     "ref": "Rev.",
+     "chapter": 22,
+     "verse": 13,
+     "w1": 11,
+     "w2": 15,
+     "quote": "the first and the last.",
+     "verse_text": "I am Alpha and Omega, the beginning and the end, the first and the last.",
+     "markdown": "I am Alpha and Omega, the beginning and the end, **the first and the last**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al11-009",
+   "scope": "SW",
+   "head": "Luke 21:18",
+   "anchor": {
+    "verse": 44,
+    "w1": 30,
+    "w2": 40,
+    "quote": "not so much as a hair of their heads be lost"
+   },
+   "reason": "the hair, kept",
+   "targets": [
+    {
+     "ref": "Luke",
+     "chapter": 21,
+     "verse": 18,
+     "w1": 2,
+     "w2": 10,
+     "quote": "there shall not an hair of your head perish.",
+     "verse_text": "But there shall not an hair of your head perish.",
+     "markdown": "But **there shall not an hair of your head perish**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al11-010",
+   "scope": "SW",
+   "head": "1 Cor. 15:53",
+   "anchor": {
+    "verse": 45,
+    "w1": 29,
+    "w2": 37,
+    "quote": "this mortal body is raised to an immortal body"
+   },
+   "reason": "mortal putting on immortality",
+   "targets": [
+    {
+     "ref": "1 Cor.",
+     "chapter": 15,
+     "verse": 53,
+     "w1": 9,
+     "w2": 14,
+     "quote": "this mortal must put on immortality.",
+     "verse_text": "For this corruptible must put on incorruption, and this mortal must put on immortality.",
+     "markdown": "For this corruptible must put on incorruption, and **this mortal must put on immortality**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 27,
+   "w2": 36,
+   "quote": "should receive wages according to the time which they labored",
+   "entries": [
+    "al11-004"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 36,
+   "w2": 41,
+   "quote": "that they might have more employ",
+   "entries": [
+    "al11-001"
+   ]
+  },
+  {
+   "verse": 24,
+   "w1": 21,
+   "w2": 27,
+   "quote": "thou lovest that lucre more than him",
+   "entries": [
+    "al11-006",
+    "al11-007"
+   ]
+  },
+  {
+   "verse": 39,
+   "w1": 32,
+   "w2": 36,
+   "quote": "the first and the last",
+   "entries": [
+    "al11-008"
+   ]
+  },
+  {
+   "verse": 43,
+   "w1": 1,
+   "w2": 13,
+   "quote": "The spirit and the body shall be reunited again in its perfect form",
+   "entries": [
+    "al11-005"
+   ]
+  },
+  {
+   "verse": 44,
+   "w1": 30,
+   "w2": 40,
+   "quote": "not so much as a hair of their heads be lost",
+   "entries": [
+    "al11-003",
+    "al11-009"
+   ]
+  },
+  {
+   "verse": 45,
+   "w1": 29,
+   "w2": 37,
+   "quote": "this mortal body is raised to an immortal body",
+   "entries": [
+    "al11-010"
+   ]
+  },
+  {
+   "verse": 46,
+   "w1": 17,
+   "w2": 20,
+   "quote": "Zeezrom began to tremble",
+   "entries": [
+    "al11-002"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "d062041a079b2ab4"
+ }
+}

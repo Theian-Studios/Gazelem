@@ -17,14 +17,14 @@
    "Deliverance",
    "The Spirit"
   ],
-  "connections": 12,
+  "connections": 13,
   "initial": false
  },
  "world_behind": [
   {
    "n": 1,
    "title": "A city awake at night",
-   "text": "Laban has been \"out by night among them\" (v. 22) — the elders of the Jews, meeting after dark while Babylon's shadow lengthens. The record's Jerusalem is jittery, armed, and conferring late; a garrison commander drunk in the street after such a meeting fits the era's nerves exactly.",
+   "text": "Laban has been \"out by night among them\" (v. 22), the elders of the Jews, meeting after dark while Babylon's shadow lengthens. The record's Jerusalem is jittery, armed, and conferring late; a garrison commander drunk in the street after such a meeting fits the era's nerves exactly.",
    "cites": [
     {
      "quote": "out by night among them",
@@ -43,8 +43,8 @@
   },
   {
    "n": 2,
-   "title": "The sword of an officer",
-   "text": "A hilt of \"pure gold\" (v. 9) and a blade of \"the most precious steel\" (v. 9) describe a commander's ceremonial weapon, the kind worn as rank. The blade outlived its owner by a thousand years: Nephi carried it to the new world, copied it for his people's defense, and the kings kept it as a royal relic (2 Ne. 5:14; Mosiah 1:16).",
+   "title": "A sword described by its metal",
+   "text": "A hilt of \"pure gold\" (v. 9) and a blade of \"the most precious steel\" (v. 9) are the only details the record gives. Whether the weapon marked Laban's rank the text does not say. The blade outlived its owner by a thousand years: Nephi carried it to the new world, copied it for his people's defense, and the kings kept it as a royal relic (2 Ne. 5:14; Mosiah 1:16).",
    "cites": [
     {
      "quote": "pure gold",
@@ -77,8 +77,8 @@
     {
      "kind": "scripture",
      "text": "2 Ne. 5:14",
-     "start": 303,
-     "end": 313,
+     "start": 339,
+     "end": 349,
      "book": "2 Ne",
      "chapter": 5,
      "verse_start": 14,
@@ -87,8 +87,8 @@
     {
      "kind": "scripture",
      "text": "Mosiah 1:16",
-     "start": 315,
-     "end": 326,
+     "start": 351,
+     "end": 362,
      "book": "Mosiah",
      "chapter": 1,
      "verse_start": 16,
@@ -98,8 +98,8 @@
   },
   {
    "n": 3,
-   "title": "Treasuries held words, not just wealth",
-   "text": "The records sit in Laban's treasury, under a keeper who carries \"the keys of the treasury\" (v. 20). Archives and valuables shared a room in the ancient world, and Zoram reads less like a valet than a trusted records-officer — which explains both his access and his easy talk of the elders' business.",
+   "title": "Treasuries held words",
+   "text": "The records sit in Laban's treasury, under a keeper who carries \"the keys of the treasury\" (v. 20). Archives and valuables shared a room in the ancient world, and Zoram reads less like a valet than a trusted records-officer, which explains both his access and his easy talk of the elders' business.",
    "cites": [
     {
      "quote": "the keys of the treasury",
@@ -139,13 +139,13 @@
   {
    "n": 5,
    "title": "Bloodguilt was the law's default",
-   "text": "Nephi's protest — \"Never at any time have I shed the blood of man\" (v. 10) — is the voice of a law that made shed blood the gravest of debts (Gen. 9:6). The scene's agony is legal and religious at once: only a direct divine warrant could override the default, and the record makes the warrant carry that exact weight.",
+   "text": "Nephi's protest, \"Never at any time have I shed the blood of man\" (v. 10), is the voice of a law that made shed blood the gravest of debts (Gen. 9:6). The scene's agony is legal and religious at once: only a direct divine warrant could override the default, and the record makes the warrant carry that exact weight.",
    "cites": [
     {
      "quote": "Never at any time have I shed the blood of man",
      "verse": 10,
-     "start": 18,
-     "end": 74,
+     "start": 17,
+     "end": 73,
      "spans": [
       {
        "w1": 24,
@@ -159,8 +159,8 @@
     {
      "kind": "scripture",
      "text": "Gen. 9:6",
-     "start": 142,
-     "end": 150,
+     "start": 140,
+     "end": 148,
      "book": "Gen",
      "chapter": 9,
      "verse_start": 6,
@@ -171,20 +171,52 @@
   {
    "n": 6,
    "title": "David's night scene, remembered",
-   "text": "Israel's stories already held a sleeping enemy delivered into a young man's hand — and David twice refused the stroke his men urged (1 Sam. 24; 26). Lehi's family knew those stories. The chapter walks the same ground to a different ending, and the difference, a command given, is the whole matter."
+   "text": "Israel's stories already held a sleeping enemy delivered into a young man's hand, and David twice refused the stroke his men urged (1 Sam. 24; 26). Lehi's family knew those stories. The chapter walks the same ground to a different ending, and the difference, a command given, is the whole matter."
   }
  ],
  "words": [
   {
-   "term": "constrained",
+   "term": "Crept",
+   "verse_label": "v. 5",
+   "text": "\"I, Nephi, crept into the city\" (v. 5). The verb keeps low: quiet movement close to the ground, nothing like a march. Everything this chapter is remembered for begins with one man slipping past a wall in the dark. The record reaches for the word once more, and for a close cousin of this scene: sons entering a house by night to kill the man who was about to execute their father (Ether 7:18).",
+   "cites": [
+    {
+     "quote": "I, Nephi, crept into the city",
+     "verse": 5,
+     "start": 0,
+     "end": 38,
+     "spans": [
+      {
+       "w1": 23,
+       "w2": 28,
+       "text": "I, Nephi, crept into the city"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 7:18",
+     "start": 381,
+     "end": 391,
+     "book": "Ether",
+     "chapter": 7,
+     "verse_start": 18,
+     "verse_end": 18
+    }
+   ]
+  },
+  {
+   "term": "Constrained",
    "verse_label": "v. 10",
-   "text": "The Spirit's verb is pressure, not invitation: to constrain is to press against resistance. The record uses it precisely — Nephi is \"constrained by the Spirit\" (v. 10) in the same verse that records his recoil. Revelation here is not a warm impression confirming what he wanted; it is a force meeting an honest, resisting conscience.",
+   "text": "The Spirit's verb is pressure: to constrain is to press against resistance. The record uses it precisely. Nephi is \"constrained by the Spirit\" (v. 10) in the same verse that records his recoil. Revelation here is not a warm impression confirming what he wanted; it is a force meeting an honest, resisting conscience.",
    "cites": [
     {
      "quote": "constrained by the Spirit",
      "verse": 10,
-     "start": 132,
-     "end": 167,
+     "start": 115,
+     "end": 150,
      "spans": [
       {
        "w1": 9,
@@ -196,7 +228,7 @@
    ]
   },
   {
-   "term": "shrunk",
+   "term": "Shrunk",
    "verse_label": "v. 10",
    "text": "The body's vote: \"I shrunk and would that I might not slay him\" (v. 10). The record preserves Nephi's flinch on purpose. A narrator building a hero would have cut it; a witness keeping honest accounts kept it, and the flinch is what lets a reader trust everything else in the scene.",
    "cites": [
@@ -216,15 +248,15 @@
    ]
   },
   {
-   "term": "dwindle",
+   "term": "Dwindle",
    "verse_label": "v. 13",
-   "text": "The rationale's key verb, and a new one for the record: not destruction but slow fade: a nation dying by forgetting, generation by generation, \"in unbelief\" (v. 13). The word names the exact disease the plates exist to prevent, and the volume will keep the phrase as its standing diagnosis for peoples who lose the word.",
+   "text": "The rationale's key verb, and a new one for the record: a slow fade, a nation dying by forgetting, generation by generation, \"in unbelief\" (v. 13). The word names the exact disease the plates exist to prevent, and the volume will keep the phrase as its standing diagnosis for peoples who lose the word.",
    "cites": [
     {
      "quote": "in unbelief",
      "verse": 13,
-     "start": 143,
-     "end": 164,
+     "start": 125,
+     "end": 146,
      "spans": [
       {
        "w1": 29,
@@ -236,12 +268,12 @@
    ]
   },
   {
-   "term": "whit",
+   "term": "Whit",
    "verse_label": "v. 19",
-   "text": "\"yea, even every whit\" (v. 19). A whit is the smallest possible amount, an old idiom for totality. Nephi's disguise is complete down to the armor, and the little word carries the scene's strangeness: the shepherd of the record dressed entirely, exactly, as the man the Lord just judged.",
+   "text": "\"Yea, even every whit\" (v. 19). A whit is the smallest possible amount, an old idiom for totality. Nephi's disguise is complete down to the armor, and the little word carries the scene's strangeness: the shepherd of the record dressed entirely, exactly, as the man the Lord just judged.",
    "cites": [
     {
-     "quote": "yea, even every whit",
+     "quote": "Yea, even every whit",
      "verse": 19,
      "start": 0,
      "end": 30,
@@ -249,16 +281,48 @@
       {
        "w1": 26,
        "w2": 29,
-       "text": "yea, even every whit"
+       "text": "Yea, even every whit"
       }
      ]
+    }
+   ]
+  },
+  {
+   "term": "Stature",
+   "verse_label": "v. 31",
+   "text": "The record measures Nephi's body twice, and both times to explain an action rather than to draw a portrait: once for a boy whose years would otherwise have counted against him (1 Ne. 2:16), and here for a fugitive holding a bolting stranger in the dark. \"Being a man large in stature\" (v. 31) shares its sentence with the strength he says he received of the Lord, size and gift named together with no attempt to sort out which did the work. What keeps Zoram from running back to Jerusalem is a pair of arms.",
+   "cites": [
+    {
+     "quote": "Being a man large in stature",
+     "verse": 31,
+     "start": 254,
+     "end": 292,
+     "spans": [
+      {
+       "w1": 5,
+       "w2": 10,
+       "text": "Being a man large in stature"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 2:16",
+     "start": 177,
+     "end": 187,
+     "book": "1 Ne",
+     "chapter": 2,
+     "verse_start": 16,
+     "verse_end": 16
     }
    ]
   }
  ],
  "phrases": [
   {
-   "term": "strong like unto Moses",
+   "term": "Strong like unto Moses",
    "verse_label": "v. 2",
    "text": "Nephi's answer to fear is a recital: Moses spoke, \"the waters of the Red Sea\" (v. 2) divided, \"our fathers came through, out of captivity, on dry ground\" (v. 2). Borrowed history is his courage. The family is camped by that same sea's shore, which turns the old story from illustration into map.",
    "cites": [
@@ -291,20 +355,20 @@
    ]
   },
   {
-   "term": "led by the Spirit, not knowing beforehand",
+   "term": "Led by the Spirit, not knowing beforehand",
    "verse_label": "v. 6",
-   "text": "The chapter's method stated in one clause. Two planned attempts have failed; the successful one enters the city without a plan at all. The phrase becomes the record's standing description of how God moves his servants — walking first, seeing after — and Nephi writes it without embarrassment."
+   "text": "The chapter's method stated in one clause. Two planned attempts have failed; the successful one enters the city without a plan at all. The phrase becomes the record's standing description of how God moves his servants, walking first and seeing after, and Nephi writes it without embarrassment."
   },
   {
-   "term": "the workmanship thereof was exceedingly fine",
+   "term": "The workmanship thereof was exceedingly fine",
    "verse_label": "v. 9",
-   "text": "A craftsman's formula, sounded here over a sword at the worst moment of Nephi's life — and he will use the same words later for the ship (1 Ne. 18:4) and his people's temple (2 Ne. 5:16). The eye that appraises fine work in gold and steel is the same eye that will build a civilization's tools; the record keeps the phrase as his signature.",
+   "text": "A craftsman's formula, sounded here over a sword at the worst moment of Nephi's life. He will use the same words later for the ship (1 Ne. 18:4) and his people's temple (2 Ne. 5:16). The eye that appraises fine work in gold and steel is the same eye that will build a civilization's tools; the record keeps the phrase as his signature.",
    "refs": [
     {
      "kind": "scripture",
      "text": "1 Ne. 18:4",
-     "start": 138,
-     "end": 148,
+     "start": 133,
+     "end": 143,
      "book": "1 Ne",
      "chapter": 18,
      "verse_start": 4,
@@ -313,8 +377,8 @@
     {
      "kind": "scripture",
      "text": "2 Ne. 5:16",
-     "start": 175,
-     "end": 185,
+     "start": 170,
+     "end": 180,
      "book": "2 Ne",
      "chapter": 5,
      "verse_start": 16,
@@ -323,9 +387,9 @@
    ]
   },
   {
-   "term": "delivered him into thy hands",
+   "term": "Delivered him into thy hands",
    "verse_label": "v. 11",
-   "text": "The angel's promise (1 Ne. 3:29) returns as present fact, spoken three times in the scene (v. 11, 12, 17). Repetition is the point: the warrant is not Nephi's inference but a delivered word, insisted upon until he acts on it.",
+   "text": "The angel's promise (1 Ne. 3:29) returns as present fact, spoken three times in the scene (v. 11, 12, 17). Repetition is the point: the warrant is a delivered word, insisted upon until he acts on it.",
    "refs": [
     {
      "kind": "scripture",
@@ -342,7 +406,7 @@
   {
    "term": "It is better that one man should perish",
    "verse_label": "v. 13",
-   "text": "The hardest sentence in the chapter states a principle with a long shadow: one man weighed against a nation's faith. Caiaphas will reason in the same shape about Jesus (John 11:50); the words nearly rhyme, and the two scenes judge each other: the principle is only as good as the one who speaks it, which is why the record grounds it in the Lord's voice and not in Nephi's arithmetic.",
+   "text": "The hardest sentence in the chapter states a principle with a long shadow: one man weighed against a nation's faith. Caiaphas will reason in the same shape about Jesus (John 11:50); the words nearly rhyme, and the two scenes judge each other: the principle is only as good as the one who speaks it. The record grounds it in the Lord's voice and not in Nephi's arithmetic.",
    "refs": [
     {
      "kind": "scripture",
@@ -357,9 +421,9 @@
    ]
   },
   {
-   "term": "as the Lord liveth, and as I live",
+   "term": "As the Lord liveth, and as I live",
    "verse_label": "v. 32",
-   "text": "The oath of 1 Nephi 3:15 returns, now offered to a stranger. Nephi binds himself before asking Zoram to be bound, and the exchange of oaths, his for Zoram's, turns captor and captive into companions within the same scene. The unit's oath economy runs on two sentences, and both hold."
+   "text": "The oath of 1 Nephi 3:15 returns, now offered to a stranger. Nephi binds himself before asking Zoram to be bound, and the exchange of oaths, his for Zoram's, turns captor and captive into companions within the same scene. The unit turns on two sworn sentences, and both hold."
   }
  ],
  "verses": [
@@ -368,7 +432,7 @@
    "start": 1,
    "end": 3,
    "title": "The fifty, answered",
-   "text": "Nephi replies to his brothers' arithmetic in kind: Laban \"and his fifty\" (v. 1), or \"even than his tens of thousands\" (v. 1), set against \"mightier than all the earth\" (v. 1). Then the recital: ye know it is true, ye know an angel spoke, \"wherefore can ye doubt\" (v. 3) The speech works — they follow — but the record notes they went \"yet wroth\" (v. 4), murmuring while walking. Obedience and belief are already coming apart in this family.",
+   "text": "Nephi replies to his brothers' arithmetic in kind: Laban \"and his fifty\" (v. 1), or \"even than his tens of thousands\" (v. 1), set against \"mightier than all the earth\" (v. 1). Then the recital: ye know it is true, ye know an angel spoke, \"wherefore can ye doubt\" (v. 3) The speech works and they follow, but the record notes they went \"yet wroth\" (v. 4), murmuring while walking. Obedience and belief are already coming apart in this family.",
    "cites": [
     {
      "quote": "and his fifty",
@@ -425,8 +489,8 @@
     {
      "quote": "yet wroth",
      "verse": 4,
-     "start": 334,
-     "end": 352,
+     "start": 335,
+     "end": 353,
      "spans": [
       {
        "w1": 10,
@@ -464,7 +528,7 @@
    "start": 7,
    "end": 9,
    "title": "A drunk man and a beautiful sword",
-   "text": "Providence arrives without drama: no battle, just a commander \"fallen to the earth\" (v. 7) in a stupor. What the record dwells on is the sword — gold, steel, fine work — a craftsman's paragraph in the middle of dread, and the blade that will hang over the whole civilization's history enters the story admired before it is used.",
+   "text": "Providence arrives without drama: no battle, just a commander \"fallen to the earth\" (v. 7) in a stupor. What the record dwells on is the sword: gold, steel, fine work, a craftsman's paragraph in the middle of dread. The blade that will hang over the whole civilization's history enters the story admired before it is used.",
    "cites": [
     {
      "quote": "fallen to the earth",
@@ -486,7 +550,7 @@
    "start": 10,
    "end": 13,
    "title": "The constraint and the recoil",
-   "text": "The scene the record slows for. The Spirit speaks three times; between the first word and the stroke stand Nephi's protest, his flinch, and a stack of reasons — delivered into thy hands, he sought thy life, he would not hearken, he took your property — capped by the principle of v. 13. The record holds the reader in the hesitation because that is where its honesty lives; the killing is presented as the costliest obedience in the book."
+   "text": "The scene the record slows for. The Spirit speaks three times; between the first word and the stroke stand Nephi's protest, his flinch, and a stack of reasons: delivered into thy hands, he sought thy life, he would not hearken, he took your property. The principle of v. 13 caps them. The record holds the reader in the hesitation because that is where its honesty lives; the killing is presented as the costliest obedience in the book."
   },
   {
    "label": "v. 14–17",
@@ -525,20 +589,20 @@
    "start": 20,
    "end": 27,
    "title": "In the dead man's clothes",
-   "text": "The disguise scenes run on dramatic irony: Zoram chattering about the elders to the man who has just executed his master, the voice imitation, the brothers fleeing from what they take to be Laban. Nephi walks out through the machinery of the city's elite wearing its uniform — the office Laban forfeited leaves the city on other shoulders, carrying the records it existed to keep."
+   "text": "The disguise scenes run on dramatic irony: Zoram chattering about the elders to the man who has just executed his master, the voice imitation, the brothers fleeing from what they take to be Laban. Nephi walks out through the machinery of the city's elite wearing its uniform. The office Laban forfeited leaves the city on other shoulders, carrying the records it existed to keep."
   },
   {
    "label": "v. 31–38",
    "start": 31,
    "end": 38,
    "title": "Oaths make a household",
-   "text": "Fear ends the chapter, and oaths end the fear: Nephi's sworn promise of freedom — \"a free man like unto us\" (v. 33) — answered by Zoram's sworn promise to stay. The family's first convert joins on words alone, and the company that left camp as four brothers returns with the plates and a fifth man.",
+   "text": "Fear ends the chapter, and oaths end the fear: Nephi's sworn promise of freedom, \"a free man like unto us\" (v. 33), answered by Zoram's sworn promise to stay. The family's first convert joins on words alone, and the company that left camp as four brothers returns with the plates and a fifth man.",
    "cites": [
     {
      "quote": "a free man like unto us",
      "verse": 33,
-     "start": 82,
-     "end": 115,
+     "start": 81,
+     "end": 114,
      "spans": [
       {
        "w1": 19,
@@ -554,18 +618,18 @@
   {
    "n": 1,
    "title": "The chapter the record slows down for",
-   "text": "The beheading takes one verse; the deciding takes eight. That ratio is the record's ethics in miniature: what matters is not the stroke but the warrant, and the narrative spends its time exactly where the moral weight sits."
+   "text": "The beheading takes one verse; the deciding takes eight. That ratio is the record's ethics in miniature: what matters is the warrant, and the narrative spends its time exactly where the moral weight sits."
   },
   {
    "n": 2,
    "title": "Success by inversion",
-   "text": "The two failed attempts were plans — protocol by lot, purchase by fortune. The successful attempt has no plan: one man, at night, \"not knowing beforehand\" (v. 6). The chapter completes the argument chapter 3 began about means: human competence got its turns first, so that no reader could mistake whose errand this was.",
+   "text": "The two failed attempts were plans: protocol by lot, purchase by fortune. The successful attempt has no plan: one man, at night, \"not knowing beforehand\" (v. 6). The chapter completes the argument chapter 3 began about means: human competence got its turns first, so that no reader could mistake whose errand this was.",
    "cites": [
     {
      "quote": "not knowing beforehand",
      "verse": 6,
-     "start": 130,
-     "end": 161,
+     "start": 129,
+     "end": 160,
      "spans": [
       {
        "w1": 8,
@@ -579,7 +643,7 @@
   {
    "n": 3,
    "title": "How the text holds the killing",
-   "text": "It preserves the protest and the flinch; it stacks reasons rather than asserting one; it grounds the decisive principle in the Lord's voice, not Nephi's judgment; and it lets the final motive be covenant-memory about children not yet born. What it never does is enjoy the scene or apologize for it. The reader is given everything Nephi had, in the order he had it, and left where he was left — commanded."
+   "text": "It preserves the protest and the flinch; it stacks reasons and never rests on one; it grounds the decisive principle in the Lord's voice, not Nephi's judgment; and it lets the final motive be covenant-memory about children not yet born. What it never does is enjoy the scene or apologize for it. The reader is given everything Nephi had, in the order he had it, and left where he was left, which is commanded."
   },
   {
    "n": 4,
@@ -617,13 +681,13 @@
   {
    "n": 5,
    "title": "Nephi in Laban's shape",
-   "text": "Garments, armor, sword, voice — for one night the younger brother wears the establishment whole, \"even every whit\" (v. 19). The image cuts two ways: judgment on an office abandoned to appetite, and a quiet warning the record will develop for the rest of its length — the sword of Laban stays in Nephite hands, and so does the temptation it stands for.",
+   "text": "Garments, armor, sword, voice: for one night the younger brother wears the establishment whole, \"even every whit\" (v. 19). The image cuts two ways: judgment on an office abandoned to appetite, and a quiet warning the record will develop for the rest of its length. The sword of Laban stays in Nephite hands, and so does the temptation it stands for.",
    "cites": [
     {
      "quote": "even every whit",
      "verse": 19,
-     "start": 97,
-     "end": 122,
+     "start": 96,
+     "end": 121,
      "spans": [
       {
        "w1": 27,
@@ -637,12 +701,12 @@
   {
    "n": 6,
    "title": "The records half of the unit closes",
-   "text": "Verse 38 brings plates, servant, and brothers down to the tent: the departure unit's scripture errand is done. Chapter 5 will open the plates and read; chapter 7 will run the same road again for families. Records first, households second — the unit's order is its argument about what a colony cannot survive without."
+   "text": "Verse 38 brings plates, servant, and brothers down to the tent: the departure unit's scripture errand is done. Chapter 5 will open the plates and read; chapter 7 will run the same road again for families. Records first, households second. The unit's order is its argument about what a colony cannot survive without."
   },
   {
    "n": 7,
    "title": "Zoram, the first addition",
-   "text": "The book's first conversion is not a sermon's fruit but an oath's: a records-keeper offered freedom, \"did take courage\" (v. 35), and bound himself to a fugitive family in the dark. The record treats his oath as fully equal to the brothers' blood ties — a founding precedent for a people that will be defined by covenant rather than descent.",
+   "text": "The book's first conversion is not a sermon's fruit but an oath's: a records-keeper offered freedom, \"did take courage\" (v. 35), and bound himself to a fugitive family in the dark. The record treats his oath as fully equal to the brothers' blood ties, a founding precedent for a people that will be defined by covenant rather than descent.",
    "cites": [
     {
      "quote": "did take courage",
@@ -675,12 +739,12 @@
    {
     "title": "Let the recoil be part of obedience",
     "verse_label": "v. 10",
-    "text": "Nephi's shrinking was not weakness of faith; it was a working conscience meeting a hard command, and the record kept it. If this chapter itself troubles you, you are reading it the way its writer lived it. When duty collides with your recoil, keep both in the record — pray the hesitation honestly rather than performing an ease you do not feel."
+    "text": "Nephi's shrinking was not weakness of faith; it was a working conscience meeting a hard command, and the record kept it. If this chapter itself troubles you, you are reading it the way its writer lived it. When duty collides with your recoil, keep both in the record. Pray the hesitation honestly. Do not perform an ease you do not feel."
    },
    {
-    "title": "Decide from the covenant, not the moment",
+    "title": "Decide from the covenant",
     "verse_label": "v. 14–17",
-    "text": "What settled Nephi was remembered scripture aimed at his descendants. For your next hard decision, ask the question he asked: which choice serves the people downstream of me — and which promise of God bears on them?"
+    "text": "What settled Nephi was remembered scripture aimed at his descendants. For your next hard decision, ask the question he asked: which choice serves the people downstream of me, and which promise of God bears on them?"
    },
    {
     "title": "Notice whose clothes you are wearing",
@@ -757,7 +821,9 @@
      "verse": 22,
      "w1": 8,
      "w2": 12,
-     "quote": "these shall dwindle in unbelief",
+     "quote": "these shall dwindle in unbelief.",
+     "verse_text": "And the angel said unto me: Behold these shall dwindle in unbelief.",
+     "markdown": "And the angel said unto me: Behold **these shall dwindle in unbelief**.",
      "span": true
     }
    ],
@@ -781,7 +847,9 @@
      "verse": 16,
      "w1": 2,
      "w2": 12,
-     "quote": "let us be faithful in keeping the commandments of the Lord",
+     "quote": "let us be faithful in keeping the commandments of the Lord;",
+     "verse_text": "Wherefore, let us be faithful in keeping the commandments of the Lord; therefore let us go down to the land of our father's inheritance, for behold he left gold and silver, and all manner of riches. And all this he hath done because of the commandments of the Lord.",
+     "markdown": "Wherefore, **let us be faithful in keeping the commandments of the Lord**; therefore let us go down to the land of our father's inheritance, for behold he left gold and silver, and all manner of riches. And all this he hath done because of the commandments of the Lord.",
      "span": true
     }
    ],
@@ -805,7 +873,9 @@
      "verse": 31,
      "w1": 35,
      "w2": 44,
-     "quote": "he can command fifty, yea, even he can slay fifty",
+     "quote": "he can command fifty, yea, even he can slay fifty;",
+     "verse_text": "And after the angel had departed, Laman and Lemuel again began to murmur, saying: How is it possible that the Lord will deliver Laban into our hands? Behold, he is a mighty man, and he can command fifty, yea, even he can slay fifty; then why not us?",
+     "markdown": "And after the angel had departed, Laman and Lemuel again began to murmur, saying: How is it possible that the Lord will deliver Laban into our hands? Behold, he is a mighty man, and **he can command fifty, yea, even he can slay fifty**; then why not us?",
      "span": true
     }
    ],
@@ -829,7 +899,9 @@
      "verse": 29,
      "w1": 70,
      "w2": 77,
-     "quote": "the Lord will deliver Laban into your hands",
+     "quote": "the Lord will deliver Laban into your hands.",
+     "verse_text": "And it came to pass as they smote us with a rod, behold, an angel of the Lord came and stood before them, and he spake unto them, saying: Why do ye smite your younger brother with a rod? Know ye not that the Lord hath chosen him to be a ruler over you, and this because of your iniquities? Behold ye shall go up to Jerusalem again, and the Lord will deliver Laban into your hands.",
+     "markdown": "And it came to pass as they smote us with a rod, behold, an angel of the Lord came and stood before them, and he spake unto them, saying: Why do ye smite your younger brother with a rod? Know ye not that the Lord hath chosen him to be a ruler over you, and this because of your iniquities? Behold ye shall go up to Jerusalem again, and **the Lord will deliver Laban into your hands**.",
      "span": true
     }
    ],
@@ -853,7 +925,9 @@
      "verse": 20,
      "w1": 2,
      "w2": 11,
-     "quote": "inasmuch as ye shall keep my commandments, ye shall prosper",
+     "quote": "inasmuch as ye shall keep my commandments, ye shall prosper,",
+     "verse_text": "And inasmuch as ye shall keep my commandments, ye shall prosper, and shall be led to a land of promise; yea, even a land which I have prepared for you; yea, a land which is choice above all other lands.",
+     "markdown": "And **inasmuch as ye shall keep my commandments, ye shall prosper**, and shall be led to a land of promise; yea, even a land which I have prepared for you; yea, a land which is choice above all other lands.",
      "span": true
     }
    ],
@@ -877,11 +951,39 @@
      "verse": 4,
      "w1": 29,
      "w2": 34,
-     "quote": "the workmanship thereof was exceedingly fine",
+     "quote": "the workmanship thereof was exceedingly fine;",
+     "verse_text": "And it came to pass that after I had finished the ship, according to the word of the Lord, my brethren beheld that it was good, and that the workmanship thereof was exceedingly fine; wherefore, they did humble themselves again before the Lord.",
+     "markdown": "And it came to pass that after I had finished the ship, according to the word of the Lord, my brethren beheld that it was good, and that **the workmanship thereof was exceedingly fine**; wherefore, they did humble themselves again before the Lord.",
      "span": true
     }
    ],
    "mirror": "1ne18-001"
+  },
+  {
+   "id": "1ne04-013",
+   "scope": "BOM",
+   "head": "Mosiah 10:16",
+   "anchor": {
+    "verse": 38,
+    "w1": 7,
+    "w2": 22,
+    "quote": "we took the plates of brass and the servant of Laban, and departed into the wilderness"
+   },
+   "reason": "the taking, remembered by the other family as theft",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 10,
+     "verse": 16,
+     "w1": 21,
+     "w2": 38,
+     "quote": "took the records which were engraven on the plates of brass, for they said that he robbed them.",
+     "verse_text": "And again, they were wroth with him because he departed into the wilderness as the Lord had commanded him, and took the records which were engraven on the plates of brass, for they said that he robbed them.",
+     "markdown": "And again, they were wroth with him because he departed into the wilderness as the Lord had commanded him, and **took the records which were engraven on the plates of brass, for they said that he robbed them**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos10-003"
   },
   {
    "id": "1ne04-006",
@@ -901,7 +1003,9 @@
      "verse": 14,
      "w1": 4,
      "w2": 19,
-     "quote": "did take the sword of Laban, and after the manner of it did make many swords",
+     "quote": "did take the sword of Laban, and after the manner of it did make many swords,",
+     "verse_text": "And I, Nephi, did take the sword of Laban, and after the manner of it did make many swords, lest by any means the people who were now called Lamanites should come upon us and destroy us; for I knew their hatred towards me and my children and those who were called my people.",
+     "markdown": "And I, Nephi, **did take the sword of Laban, and after the manner of it did make many swords**, lest by any means the people who were now called Lamanites should come upon us and destroy us; for I knew their hatred towards me and my children and those who were called my people.",
      "span": true
     }
    ],
@@ -925,7 +1029,9 @@
      "verse": 47,
      "w1": 3,
      "w2": 25,
-     "quote": "it is better that thy soul should be lost than that thou shouldst be the means of bringing many souls down to destruction",
+     "quote": "it is better that thy soul should be lost than that thou shouldst be the means of bringing many souls down to destruction,",
+     "verse_text": "But behold, it is better that thy soul should be lost than that thou shouldst be the means of bringing many souls down to destruction, by thy lying and by thy flattering words; therefore if thou shalt deny again, behold God shall smite thee, that thou shalt become dumb, that thou shalt never open thy mouth any more, that thou shalt not deceive this people any more.",
+     "markdown": "But behold, **it is better that thy soul should be lost than that thou shouldst be the means of bringing many souls down to destruction**, by thy lying and by thy flattering words; therefore if thou shalt deny again, behold God shall smite thee, that thou shalt become dumb, that thou shalt never open thy mouth any more, that thou shalt not deceive this people any more.",
      "span": true
     }
    ],
@@ -949,7 +1055,9 @@
      "verse": 50,
      "w1": 9,
      "w2": 23,
-     "quote": "that one man should die for the people, and that the whole nation perish not",
+     "quote": "that one man should die for the people, and that the whole nation perish not.",
+     "verse_text": "Nor consider that it is expedient for us, that one man should die for the people, and that the whole nation perish not.",
+     "markdown": "Nor consider that it is expedient for us, **that one man should die for the people, and that the whole nation perish not**.",
      "span": true
     }
    ],
@@ -973,7 +1081,9 @@
      "verse": 8,
      "w1": 6,
      "w2": 15,
-     "quote": "God hath delivered thine enemy into thine hand this day",
+     "quote": "God hath delivered thine enemy into thine hand this day:",
+     "verse_text": "Then said Abishai to David, God hath delivered thine enemy into thine hand this day: now therefore let me smite him, I pray thee, with the spear even to the earth at once, and I will not smite him the second time.",
+     "markdown": "Then said Abishai to David, **God hath delivered thine enemy into thine hand this day**: now therefore let me smite him, I pray thee, with the spear even to the earth at once, and I will not smite him the second time.",
      "span": true
     }
    ],
@@ -997,7 +1107,9 @@
      "verse": 22,
      "w1": 6,
      "w2": 16,
-     "quote": "went into the midst of the sea upon the dry ground",
+     "quote": "went into the midst of the sea upon the dry ground:",
+     "verse_text": "And the children of Israel went into the midst of the sea upon the dry ground: and the waters were a wall unto them on their right hand, and on their left.",
+     "markdown": "And the children of Israel **went into the midst of the sea upon the dry ground**: and the waters were a wall unto them on their right hand, and on their left.",
      "span": true
     }
    ],
@@ -1021,7 +1133,9 @@
      "verse": 15,
      "w1": 19,
      "w2": 25,
-     "quote": "put them upon Jacob her younger son",
+     "quote": "put them upon Jacob her younger son:",
+     "verse_text": "And Rebekah took goodly raiment of her eldest son Esau, which were with her in the house, and put them upon Jacob her younger son:",
+     "markdown": "And Rebekah took goodly raiment of her eldest son Esau, which were with her in the house, and **put them upon Jacob her younger son**:",
      "span": true
     }
    ],
@@ -1128,10 +1242,19 @@
    "entries": [
     "1ne04-011"
    ]
+  },
+  {
+   "verse": 38,
+   "w1": 7,
+   "w2": 22,
+   "quote": "we took the plates of brass and the servant of Laban, and departed into the wilderness",
+   "entries": [
+    "1ne04-013"
+   ]
   }
  ],
  "generated": {
-  "at": "2026-08-17",
-  "source_sha256": "9126f2adf5180aaf"
+  "at": "2026-08-25",
+  "source_sha256": "b34afbf68b655070"
  }
 }

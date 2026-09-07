@@ -1,0 +1,774 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Ether",
+  "book_slug": "ether",
+  "chapter": 10,
+  "volume_order": "13",
+  "speakers": [
+   "Moroni"
+  ],
+  "audience": "The reader",
+  "location": "The land northward, the land southward, and the narrow neck",
+  "date": "From Shez after the dearth down to Com",
+  "unit": "The kings from Shez to Com (Ether 10)",
+  "principles": [
+   "A people rebuilt from one household",
+   "A prison run as a workshop",
+   "A justice that stops short of the man giving it"
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "One household survived the famine",
+   "text": "Verse 1 says Heth and all his house perished except Shez."
+  },
+  {
+   "n": 2,
+   "title": "Riplakish reigned forty and two years",
+   "text": "Verse 8 gives Riplakish forty and two years before the rebellion. The book dates only six reigns at all, at Ether 9:25, 10:8, 10:13, 10:15, 10:30 and 10:32; the other twenty-odd kings in the line are placed by succession alone, which is why this chapter reads as a list rather than a chronology.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 9:25",
+     "start": 108,
+     "end": 118,
+     "book": "Ether",
+     "chapter": 9,
+     "verse_start": 25,
+     "verse_end": 25
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Morianton took the throne with outcasts",
+   "text": "Verse 9 says he gathered an army of them."
+  },
+  {
+   "n": 4,
+   "title": "Levi served forty and two years in captivity",
+   "text": "Verse 15 gives the term before he took the kingdom."
+  },
+  {
+   "n": 5,
+   "title": "The serpents ended under Lib",
+   "text": "Verse 19 has the poisonous serpents destroyed in the days of Lib. Ether 9:31 to 33 had them hedge up the way southward during the famine two chapters earlier, so a barrier that stood for several reigns comes down in one clause.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 9:31",
+     "start": 66,
+     "end": 76,
+     "book": "Ether",
+     "chapter": 9,
+     "verse_start": 31,
+     "verse_end": 31
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "The land southward was kept as a game reserve",
+   "text": "Verse 21 says they preserved the land southward for a wilderness, to get game. Alma 22:31 describes the same country from the Nephite side as a wilderness filled with wild animals, part of which had come from the land northward for food. Two records describe one hunting ground.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 22:31",
+     "start": 79,
+     "end": 89,
+     "book": "Alma",
+     "chapter": 22,
+     "verse_start": 31,
+     "verse_end": 31
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "Four generations were born and died in captivity",
+   "text": "Verse 31 names Heth, Aaron, Amnigaddah, and Coriantum."
+  }
+ ],
+ "words": [
+  {
+   "term": "Taxes",
+   "verse_label": "v. 5",
+   "text": "Payments a ruler requires. The record uses the word six times, twice in this chapter, and the King James Bible once. Verse 5 attaches them to a building program."
+  },
+  {
+   "term": "Refined",
+   "verse_label": "v. 7",
+   "text": "Purified by heat. It appears twice in the record and five times in the King James Bible. Verse 7 has the work done inside a prison."
+  },
+  {
+   "term": "Outcasts",
+   "verse_label": "v. 9",
+   "text": "People put out of a community. It appears twice in the record, and the King James Bible seven times. Verse 9 makes them an army."
+  },
+  {
+   "term": "Traffic",
+   "verse_label": "v. 22",
+   "text": "Trade carried on between people. Treated at 4 Nephi 1:46. It appears three times in the record and never in the King James Bible."
+  },
+  {
+   "term": "Copper",
+   "verse_label": "v. 23",
+   "text": "A soft red metal. The record uses the word eight times and the King James Bible once. Verse 23 lists it with gold, silver, and iron."
+  },
+  {
+   "term": "Thrash",
+   "verse_label": "v. 25",
+   "text": "To beat grain loose from the stalk. The record uses the word once, here, and never the King James Bible in this spelling."
+  },
+  {
+   "term": "Curious",
+   "verse_label": "v. 27",
+   "text": "Made with unusual care and skill. Treated at 1 Nephi 16:10. The word turns up six times here, and the King James Bible ten, usually of woven work."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Shez began to build up again a broken people",
+   "verse_label": "v. 1",
+   "text": "The chapter's opening job. What he starts with is one surviving household."
+  },
+  {
+   "term": "He did remember the destruction of his fathers",
+   "verse_label": "v. 2",
+   "text": "Moroni's reason for the righteous kingdom. Memory is given as the cause."
+  },
+  {
+   "term": "Did lay that upon men's shoulders which was grievous to be borne",
+   "verse_label": "v. 5",
+   "text": "The description of the tax. Matthew 23:4 uses nearly the same words of a different burden."
+  },
+  {
+   "term": "His fine gold he did cause to be refined in prison",
+   "verse_label": "v. 7",
+   "text": "Where the king's finest work came from. Verse 6 has already said who was in there."
+  },
+  {
+   "term": "Gathered together an army of outcasts",
+   "verse_label": "v. 9",
+   "text": "The material Morianton built with. Verse 10 has him ease the burden once he holds the throne."
+  },
+  {
+   "term": "He did do justice unto the people, but not unto himself",
+   "verse_label": "v. 11",
+   "text": "Moroni's whole verdict on Morianton, in one clause. The verse names the cause in the next breath."
+  },
+  {
+   "term": "In the days of Lib the poisonous serpents were destroyed",
+   "verse_label": "v. 19",
+   "text": "The end of the blockade set up at Ether 9:33. The land southward opens in the same verse.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 9:33",
+     "start": 34,
+     "end": 44,
+     "book": "Ether",
+     "chapter": 9,
+     "verse_start": 33,
+     "verse_end": 33
+    }
+   ]
+  },
+  {
+   "term": "A great city by the narrow neck of land",
+   "verse_label": "v. 20",
+   "text": "The city placed at the crossing point. Alma 22:32 describes the same kind of neck from the Nephite side.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 22:32",
+     "start": 39,
+     "end": 49,
+     "book": "Alma",
+     "chapter": 22,
+     "verse_start": 32,
+     "verse_end": 32
+    }
+   ]
+  },
+  {
+   "term": "They did cast up mighty heaps of earth to get ore",
+   "verse_label": "v. 23",
+   "text": "Mining described by the spoil it leaves. Four metals are named in the same verse."
+  },
+  {
+   "term": "Never could be a people more blessed than were they",
+   "verse_label": "v. 28",
+   "text": "Moroni's summary of the whole prosperity list. Verse 28 credits it to the hand of the Lord."
+  },
+  {
+   "term": "They adopted the old plans, and administered oaths after the manner of the ancients",
+   "verse_label": "v. 33",
+   "text": "The same oaths returning under Com. Ether 8:15 gave their origin.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 8:15",
+     "start": 36,
+     "end": 46,
+     "book": "Ether",
+     "chapter": 8,
+     "verse_start": 15,
+     "verse_end": 15
+    }
+   ]
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 3",
+   "start": 3,
+   "end": 3,
+   "title": "A rebellion ended by an unrelated crime",
+   "text": "The record disposes of a civil war in half a sentence: the son rebels, and then \"Shez was smitten by the hand of a robber, because of his exceeding riches, which brought peace again unto his father.\" The rebel is not defeated in battle or reconciled; he is killed for his money by someone the narrative never mentions again. The record supplies a motive for the robber and none for the peace, and the whole episode takes one verse in a chapter that will spend six on manufacturing."
+  },
+  {
+   "label": "v. 5–7",
+   "start": 5,
+   "end": 7,
+   "title": "A tyranny described entirely through its finances",
+   "text": "The record does not call the king proud or cruel in the abstract. It lists policies: heavy taxes, spacious buildings paid for out of them, \"an exceedingly beautiful throne,\" prisons for those who refused to pay and for those who could not, compulsory labor for the prisoners' own support, and death for refusal to work. Verse 7 then closes the loop, \"his fine gold he did cause to be refined in prison.\" The phrase describing the burden, \"which was grievous to be borne,\" matches Matthew 23:4, where the same words describe burdens laid on men's shoulders."
+  },
+  {
+   "label": "v. 10–11",
+   "start": 10,
+   "end": 11,
+   "title": "A ruler given opposite verdicts at once",
+   "text": "The record splits the judgment along a line between office and person: \"he did do justice unto the people, but not unto himself because of his many whoredoms; wherefore he was cut off from the presence of the Lord.\" Verse 10 has already recorded the popular verdict, that easing the burden gained him favor and the people \"did anoint him to be their king.\" Public competence and private conduct are assessed separately and the second one settles his standing, which is the reverse of how the chapter treats Riplakish, condemned for what he did to the people."
+  },
+  {
+   "label": "v. 19–21",
+   "start": 19,
+   "end": 21,
+   "title": "A land management policy stated as such",
+   "text": "The record reports a deliberate arrangement rather than a drift of settlement: \"they did preserve the land southward for a wilderness, to get game,\" while \"the whole face of the land northward was covered with inhabitants.\" Verse 20 fixes a city to a landmark, \"by the narrow neck of land, by the place where the sea divides the land.\" Verse 19 supplies the occasion, the destruction of the poisonous serpents that had blocked the way south at Ether 9:31–33, so a plague reported two chapters earlier is what makes this policy possible.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 9:31–33",
+     "start": 444,
+     "end": 457,
+     "book": "Ether",
+     "chapter": 9,
+     "verse_start": 31,
+     "verse_end": 33
+    }
+   ]
+  },
+  {
+   "label": "v. 22–28",
+   "start": 22,
+   "end": 28,
+   "title": "Six verses of manufacture, then a superlative",
+   "text": "The record inventories production at length: metals worked and dug, \"mighty heaps of earth to get ore,\" silks and fine-twined linen, tools to plow, sow, reap, hoe, and thrash, tools for working beasts, weapons of war, and \"all manner of work of exceedingly curious workmanship.\" Trade is named too, \"they did buy and sell and traffic one with another, that they might get gain.\" Verse 28 then delivers the verdict on all of it, \"never could be a people more blessed than were they.\" The same catalogue of riches is an indictment at Alma 4:6 and a blessing here, with the difference located in the disposition rather than in the goods.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 4:6",
+     "start": 532,
+     "end": 540,
+     "book": "Alma",
+     "chapter": 4,
+     "verse_start": 6,
+     "verse_end": 6
+    }
+   ]
+  },
+  {
+   "label": "v. 30–31",
+   "start": 30,
+   "end": 31,
+   "title": "One formula repeated for five generations",
+   "text": "The record reports a dynasty that never leaves prison: Hearthom loses the kingdom and serves \"all the remainder of his days,\" then Heth \"lived in captivity all his days,\" Aaron \"dwelt in captivity all his days,\" Amnigaddah \"also dwelt in captivity all his days,\" and Coriantum \"dwelt in captivity all his days.\" Four uses of one clause inside verse 31. No war, no ruler, and no reason is named for any of it. Five generations of the royal line are disposed of by a phrase the record simply repeats."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The chapter is a king list with two long pauses",
+   "text": "Verses 5 through 8 stop for Riplakish and verses 22 through 28 stop for the workmanship."
+  },
+  {
+   "n": 2,
+   "title": "A tax is described by what it built",
+   "text": "Verse 5 runs the money straight into spacious buildings and a beautiful throne."
+  },
+  {
+   "n": 3,
+   "title": "The prisons were also workshops",
+   "text": "Verse 7 has the king's finest gold refined by the men verse 6 put inside."
+  },
+  {
+   "n": 4,
+   "title": "A rebel becomes a good administrator",
+   "text": "Verse 9 has Morianton take the land by force and verse 10 has him ease the burden."
+  },
+  {
+   "n": 5,
+   "title": "Justice stops at the man giving it",
+   "text": "Verse 11 grants Morianton the people's case and denies him his own."
+  },
+  {
+   "n": 6,
+   "title": "Four generations pass their whole lives in captivity",
+   "text": "Verse 31 names them one after another with the same clause each time."
+  },
+  {
+   "n": 7,
+   "title": "The prosperity list is mostly tools",
+   "text": "Verses 25 through 27 give plow, sow, reap, hoe, thrash, harness, and weapons."
+  },
+  {
+   "n": 8,
+   "title": "The oaths come back at the close",
+   "text": "Verse 33 has robbers pick up the old plans, and verse 34 says Com could not prevail."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Build again on what is left",
+    "verse_label": "v. 1",
+    "text": "Shez began with one surviving household and a broken people."
+   },
+   {
+    "title": "Remember what the generation before you went through",
+    "verse_label": "v. 2",
+    "text": "Moroni credits Shez's righteous kingdom to that memory."
+   },
+   {
+    "title": "Who made the beautiful thing",
+    "verse_label": "v. 7",
+    "text": "Riplakish's fine gold was refined in prison, and all his fine workmanship was wrought there. Beautiful output says nothing about the conditions that made it unless somebody records who did the making."
+   },
+   {
+    "title": "Easing the burden is what bought the crown",
+    "verse_label": "v. 10",
+    "text": "Morianton took the kingdom by force, then eased the people's burden, and they anointed him king. Power seized can be made legitimate by what is done with it, and the record keeps both halves without letting either excuse the other."
+   },
+   {
+    "title": "Check whether your justice reaches you",
+    "verse_label": "v. 11",
+    "text": "Morianton dealt fairly with the people and not with himself."
+   },
+   {
+    "title": "Leave some ground unbuilt",
+    "verse_label": "v. 21",
+    "text": "They preserved the land southward as a wilderness to get game while the north filled with inhabitants. A deliberate decision not to develop something is a form of provision, and it has to be made while there is still open ground."
+   },
+   {
+    "title": "Four generations lived their whole lives inside it",
+    "verse_label": "v. 30–31",
+    "text": "Hearthom, Heth, Aaron, Amnigaddah and Coriantum each dwelt in captivity all their days. The record spends five names on people who never got out, which is an honest picture of how long some situations run."
+   },
+   {
+    "title": "Keep at it while you are losing",
+    "verse_label": "v. 34",
+    "text": "Com fought the robbers without prevailing, and the record keeps the fighting."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What is left that I could build on?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What have my fathers been through that I ought to remember?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "What am I laying on other people's shoulders?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "Whom have I written off as an outcast?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "Where do I hold others to a standard I skip myself?"
+   },
+   {
+    "verse_label": "v. 28",
+    "start": 28,
+    "end": 28,
+    "text": "Have I taken account of how much I have been given?"
+   },
+   {
+    "verse_label": "v. 34",
+    "start": 34,
+    "end": 34,
+    "text": "What am I still fighting that I have not won?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "eth10-001",
+   "scope": "BOOK",
+   "head": "Ether 9:30",
+   "anchor": {
+    "verse": 1,
+    "w1": 13,
+    "w2": 19,
+    "quote": "for Heth had perished by the famine"
+   },
+   "reason": "the dearth of the last chapter, counted in one house",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 9,
+     "verse": 30,
+     "w1": 7,
+     "w2": 16,
+     "quote": "there began to be a great dearth upon the land,",
+     "verse_text": "And it came to pass that there began to be a great dearth upon the land, and the inhabitants began to be destroyed exceedingly fast because of the dearth, for there was no rain upon the face of the earth.",
+     "markdown": "And it came to pass that **there began to be a great dearth upon the land**, and the inhabitants began to be destroyed exceedingly fast because of the dearth, for there was no rain upon the face of the earth.",
+     "span": true
+    }
+   ],
+   "mirror": "eth09-011"
+  },
+  {
+   "id": "eth10-002",
+   "scope": "BOOK",
+   "head": "Ether 6:8",
+   "anchor": {
+    "verse": 2,
+    "w1": 24,
+    "w2": 39,
+    "quote": "he remembered what the Lord had done in bringing Jared and his brother across the deep"
+   },
+   "reason": "the crossing Shez kept in mind",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 6,
+     "verse": 8,
+     "w1": 7,
+     "w2": 17,
+     "quote": "the wind did never cease to blow towards the promised land",
+     "verse_text": "And it came to pass that the wind did never cease to blow towards the promised land while they were upon the waters; and thus they were driven forth before the wind.",
+     "markdown": "And it came to pass that **the wind did never cease to blow towards the promised land** while they were upon the waters; and thus they were driven forth before the wind.",
+     "span": true
+    }
+   ],
+   "mirror": "eth06-014"
+  },
+  {
+   "id": "eth10-003",
+   "scope": "BOOK",
+   "head": "Ether 9:31",
+   "anchor": {
+    "verse": 19,
+    "w1": 21,
+    "w2": 30,
+    "quote": "in the days of Lib the poisonous serpents were destroyed"
+   },
+   "reason": "the serpents that closed the way south",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 9,
+     "verse": 31,
+     "w1": 2,
+     "w2": 13,
+     "quote": "there came forth poisonous serpents also upon the face of the land,",
+     "verse_text": "And there came forth poisonous serpents also upon the face of the land, and did poison many people. And it came to pass that their flocks began to flee before the poisonous serpents, towards the land southward, which was called by the Nephites Zarahemla.",
+     "markdown": "And **there came forth poisonous serpents also upon the face of the land**, and did poison many people. And it came to pass that their flocks began to flee before the poisonous serpents, towards the land southward, which was called by the Nephites Zarahemla.",
+     "span": true
+    }
+   ],
+   "mirror": "eth09-012"
+  },
+  {
+   "id": "eth10-004",
+   "scope": "BOOK",
+   "head": "Ether 8:15",
+   "anchor": {
+    "verse": 33,
+    "w1": 16,
+    "w2": 29,
+    "quote": "they adopted the old plans, and administered oaths after the manner of the ancients"
+   },
+   "reason": "where those oaths came from",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 8,
+     "verse": 15,
+     "w1": 19,
+     "w2": 31,
+     "quote": "the oaths which were given by them of old who also sought power,",
+     "verse_text": "And it came to pass that thus they did agree with Akish. And Akish did administer unto them the oaths which were given by them of old who also sought power, which had been handed down even from Cain, who was a murderer from the beginning.",
+     "markdown": "And it came to pass that thus they did agree with Akish. And Akish did administer unto them **the oaths which were given by them of old who also sought power**, which had been handed down even from Cain, who was a murderer from the beginning.",
+     "span": true
+    }
+   ],
+   "mirror": "eth08-014"
+  },
+  {
+   "id": "eth10-005",
+   "scope": "BOM",
+   "head": "Mosiah 11:3",
+   "anchor": {
+    "verse": 5,
+    "w1": 43,
+    "w2": 49,
+    "quote": "he did tax them with heavy taxes"
+   },
+   "reason": "king Noah setting his rate at a fifth",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 11,
+     "verse": 3,
+     "w1": 1,
+     "w2": 13,
+     "quote": "And he laid a tax of one fifth part of all they possessed,",
+     "verse_text": "And he laid a tax of one fifth part of all they possessed, a fifth part of their gold and of their silver, and a fifth part of their ziff, and of their copper, and of their brass and their iron; and a fifth part of their fatlings; and also a fifth part of all their grain.",
+     "markdown": "**And he laid a tax of one fifth part of all they possessed**, a fifth part of their gold and of their silver, and a fifth part of their ziff, and of their copper, and of their brass and their iron; and a fifth part of their fatlings; and also a fifth part of all their grain.",
+     "span": true
+    }
+   ],
+   "mirror": "mos11-023"
+  },
+  {
+   "id": "eth10-006",
+   "scope": "BOM",
+   "head": "Mosiah 2:14",
+   "anchor": {
+    "verse": 5,
+    "w1": 30,
+    "w2": 41,
+    "quote": "did lay that upon men's shoulders which was grievous to be borne"
+   },
+   "reason": "Benjamin naming the thing he refused to do",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 2,
+     "verse": 14,
+     "w1": 17,
+     "w2": 24,
+     "quote": "that ye should not be laden with taxes,",
+     "verse_text": "And even I, myself, have labored with mine own hands that I might serve you, and that ye should not be laden with taxes, and that there should nothing come upon you which was grievous to be borne—and of all these things which I have spoken, ye yourselves are witnesses this day.",
+     "markdown": "And even I, myself, have labored with mine own hands that I might serve you, and **that ye should not be laden with taxes**, and that there should nothing come upon you which was grievous to be borne—and of all these things which I have spoken, ye yourselves are witnesses this day.",
+     "span": true
+    }
+   ],
+   "mirror": "mos02-023"
+  },
+  {
+   "id": "eth10-007",
+   "scope": "BOM",
+   "head": "Alma 22:32",
+   "anchor": {
+    "verse": 20,
+    "w1": 4,
+    "w2": 12,
+    "quote": "a great city by the narrow neck of land"
+   },
+   "reason": "the same neck, measured from the Nephite side",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 22,
+     "verse": 32,
+     "w1": 49,
+     "w2": 63,
+     "quote": "there being a small neck of land between the land northward and the land southward.",
+     "verse_text": "And now, it was only the distance of a day and a half's journey for a Nephite, on the line Bountiful and the land Desolation, from the east to the west sea; and thus the land of Nephi and the land of Zarahemla were nearly surrounded by water, there being a small neck of land between the land northward and the land southward.",
+     "markdown": "And now, it was only the distance of a day and a half's journey for a Nephite, on the line Bountiful and the land Desolation, from the east to the west sea; and thus the land of Nephi and the land of Zarahemla were nearly surrounded by water, **there being a small neck of land between the land northward and the land southward**.",
+     "span": true
+    }
+   ],
+   "mirror": "al22-015"
+  },
+  {
+   "id": "eth10-008",
+   "scope": "BOM",
+   "head": "4 Ne. 1:42",
+   "anchor": {
+    "verse": 33,
+    "w1": 7,
+    "w2": 14,
+    "quote": "there began to be robbers in the land"
+   },
+   "reason": "the Nephites rebuilding the same oaths",
+   "targets": [
+    {
+     "ref": "4 Ne.",
+     "chapter": 1,
+     "verse": 42,
+     "w1": 13,
+     "w2": 24,
+     "quote": "began again to build up the secret oaths and combinations of Gadianton.",
+     "verse_text": "And it came to pass that the wicked part of the people began again to build up the secret oaths and combinations of Gadianton.",
+     "markdown": "And it came to pass that the wicked part of the people **began again to build up the secret oaths and combinations of Gadianton**.",
+     "span": true
+    }
+   ],
+   "mirror": "4ne01-012"
+  },
+  {
+   "id": "eth10-009",
+   "scope": "SW",
+   "head": "Matt. 23:4",
+   "anchor": {
+    "verse": 5,
+    "w1": 30,
+    "w2": 41,
+    "quote": "did lay that upon men's shoulders which was grievous to be borne"
+   },
+   "reason": "nearly the same words, said of a different burden",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 23,
+     "verse": 4,
+     "w1": 2,
+     "w2": 16,
+     "quote": "they bind heavy burdens and grievous to be borne, and lay them on men's shoulders;",
+     "verse_text": "For they bind heavy burdens and grievous to be borne, and lay them on men's shoulders; but they themselves will not move them with one of their fingers.",
+     "markdown": "For **they bind heavy burdens and grievous to be borne, and lay them on men's shoulders**; but they themselves will not move them with one of their fingers.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "eth10-010",
+   "scope": "SW",
+   "head": "Isa. 48:10",
+   "anchor": {
+    "verse": 7,
+    "w1": 11,
+    "w2": 21,
+    "quote": "his fine gold he did cause to be refined in prison"
+   },
+   "reason": "refining used of people instead of metal",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 48,
+     "verse": 10,
+     "w1": 2,
+     "w2": 9,
+     "quote": "I have refined thee, but not with silver;",
+     "verse_text": "Behold, I have refined thee, but not with silver; I have chosen thee in the furnace of affliction.",
+     "markdown": "Behold, **I have refined thee, but not with silver**; I have chosen thee in the furnace of affliction.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 13,
+   "w2": 19,
+   "quote": "for Heth had perished by the famine",
+   "entries": [
+    "eth10-001"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 24,
+   "w2": 39,
+   "quote": "he remembered what the Lord had done in bringing Jared and his brother across the deep",
+   "entries": [
+    "eth10-002"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 30,
+   "w2": 41,
+   "quote": "did lay that upon men's shoulders which was grievous to be borne",
+   "entries": [
+    "eth10-006",
+    "eth10-009"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 43,
+   "w2": 49,
+   "quote": "he did tax them with heavy taxes",
+   "entries": [
+    "eth10-005"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 11,
+   "w2": 21,
+   "quote": "his fine gold he did cause to be refined in prison",
+   "entries": [
+    "eth10-010"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 21,
+   "w2": 30,
+   "quote": "in the days of Lib the poisonous serpents were destroyed",
+   "entries": [
+    "eth10-003"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 4,
+   "w2": 12,
+   "quote": "a great city by the narrow neck of land",
+   "entries": [
+    "eth10-007"
+   ]
+  },
+  {
+   "verse": 33,
+   "w1": 7,
+   "w2": 14,
+   "quote": "there began to be robbers in the land",
+   "entries": [
+    "eth10-008"
+   ]
+  },
+  {
+   "verse": 33,
+   "w1": 16,
+   "w2": 29,
+   "quote": "they adopted the old plans, and administered oaths after the manner of the ancients",
+   "entries": [
+    "eth10-004"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "f059647bd048ae62"
+ }
+}

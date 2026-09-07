@@ -17,7 +17,7 @@
    "Charity",
    "Farewell"
   ],
-  "connections": 5,
+  "connections": 6,
   "initial": true
  },
  "world_behind": [
@@ -93,18 +93,30 @@
   {
    "term": "Reconciled",
    "verse_label": "v. 9",
-   "text": "To be brought back into agreement after a breach, and the verb assumes the breach is real. Nephi makes it the first of four conditions on which his hope for anyone rests, ahead of the gate, the path, and enduring. Jacob had used the same word for the same act three chapters into his sermon, and it is the record's standard term for the human side of the atonement."
+   "text": "To be brought back into agreement after a breach, and the verb assumes the breach is real. Nephi makes it the first of four conditions on which his hope for anyone rests, ahead of the gate, the path, and enduring. Jacob had used the same word for the same act three chapters into his sermon (2 Ne. 10:24), and it is the record's standard term for the human side of the atonement.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 10:24",
+     "start": 292,
+     "end": 303,
+     "book": "2 Ne",
+     "chapter": 10,
+     "verse_start": 24,
+     "verse_end": 24
+    }
+   ]
   },
   {
    "term": "Probation",
    "verse_label": "v. 9",
-   "text": "A probation is a period of testing, time given to prove something before it is accepted or refused. The record uses it of mortal life, and Nephi's conditions end with continuing in the path \"until the end of the day of probation\" (v. 9). The offer he makes has a closing time on it, stated without a date. The word is not in the King James Bible.",
+   "text": "A probation is a period of testing, time given to prove something before it is accepted or refused. Treated at 1 Nephi 10:21. The record uses it of mortal life, and Nephi's conditions end with continuing in the path \"until the end of the day of probation\" (v. 9). The offer he makes has a closing time on it, stated without a date. The word is not in the King James Bible.",
    "cites": [
     {
      "quote": "until the end of the day of probation",
      "verse": 9,
-     "start": 190,
-     "end": 236,
+     "start": 216,
+     "end": 262,
      "spans": [
       {
        "w1": 45,
@@ -163,7 +175,7 @@
   {
    "term": "Partake",
    "verse_label": "v. 14",
-   "text": "To take a share of something offered. The everlasting farewell is addressed to those who will not partake of the goodness of God, which locates the refusal at a table. Nothing in the verse says they disbelieved; it says they declined a portion."
+   "text": "To take a share of something offered. Treated at 1 Nephi 8:11. The everlasting farewell is addressed to whoever refuses a share in God's goodness, which locates the refusal at a table. Nothing in the verse says they disbelieved; it says they declined a portion."
   }
  ],
  "phrases": [
@@ -246,7 +258,19 @@
    "start": 1,
    "end": 2,
    "title": "A writer's honest assessment",
-   "text": "He cannot write everything, he is not mighty in writing, and the reason is that spoken words carried by the Spirit reach hearts in a way engraving does not. Then the other half: some people harden their hearts and discard what is written. Both the medium and the audience are named as obstacles."
+   "text": "The record names two obstacles and puts one of them on the writer. Verse 1 concedes a personal limit, \"neither am I mighty in writing, like unto speaking,\" and gives the reason as a property of speech, that spoken words are carried \"unto the hearts of the children of men.\" Verse 2 supplies the second obstacle and it belongs to the reader, \"they cast many things away which are written and esteem them as things of naught.\" The same complaint about writing appears at Ether 12:23–25, where the weakness in writing is called a thing the Gentiles will mock, so two writers eight hundred years apart set down the same anxiety about their medium.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 12:23–25",
+     "start": 469,
+     "end": 483,
+     "book": "Ether",
+     "chapter": 12,
+     "verse_start": 23,
+     "verse_end": 25
+    }
+   ]
   },
   {
    "label": "v. 3–4",
@@ -310,7 +334,7 @@
   {
    "n": 4,
    "title": "The reader is addressed as a future party",
-   "text": "Face to face at his bar, sealed words brought against them, a farewell divided by response. Nephi writes as though the person holding the plates is in the room, and the last verse makes that literal."
+   "text": "The last six verses address a reader directly and set a meeting. Verse 11: \"you and I shall stand face to face before his bar.\" Verse 13 gives the farewell from the writer's position, \"I speak unto you as the voice of one crying from the dust.\" Verse 14 splits the audience and gives the second group a different goodbye, \"I bid you an everlasting farewell.\" Verse 15 makes the document itself the instrument, \"what I seal on earth, shall be brought against you at the judgment bar.\" Moroni 10:27 and 10:34 close the volume with the same courtroom and the same face-to-face meeting."
   },
   {
    "n": 5,
@@ -498,7 +522,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "eth12-006"
+  },
+  {
+   "id": "2ne33-006",
+   "scope": "BOM",
+   "head": "Ether 5:6",
+   "anchor": {
+    "verse": 11,
+    "w1": 1,
+    "w2": 11,
+    "quote": "And if they are not the words of Christ, judge ye"
+   },
+   "reason": "Moroni leaving the same question to the reader",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 5,
+     "verse": 6,
+     "w1": 3,
+     "w2": 12,
+     "quote": "if I have no authority for these things, judge ye;",
+     "verse_text": "And now, if I have no authority for these things, judge ye; for ye shall know that I have authority when ye shall see me, and we shall stand before God at the last day. Amen.",
+     "markdown": "And now, **if I have no authority for these things, judge ye**; for ye shall know that I have authority when ye shall see me, and we shall stand before God at the last day. Amen.",
+     "span": true
+    }
+   ],
+   "mirror": "eth05-008"
   },
   {
    "id": "2ne33-005",
@@ -510,7 +560,7 @@
     "w2": 34,
     "quote": "I speak unto you as the voice of one crying from the dust"
    },
-   "reason": "Isaiah's dust, spoken by a living man",
+   "reason": "the same voice out of the ground, in Isaiah",
    "targets": [
     {
      "ref": "Isa.",
@@ -556,6 +606,15 @@
    ]
   },
   {
+   "verse": 11,
+   "w1": 1,
+   "w2": 11,
+   "quote": "And if they are not the words of Christ, judge ye",
+   "entries": [
+    "2ne33-006"
+   ]
+  },
+  {
    "verse": 13,
    "w1": 22,
    "w2": 34,
@@ -567,7 +626,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "b9b2cba9b7fb69c3"
+  "at": "2026-09-07",
+  "source_sha256": "50e6378093250654"
  }
 }

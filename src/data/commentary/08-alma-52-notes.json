@@ -16,9 +16,9 @@
   "principles": [
    "A commander who knows what he cannot do",
    "Prisoners held as a ransom",
-   ""
+   "Winning by being chased"
   ],
-  "connections": 9,
+  "connections": 11,
   "initial": true
  },
  "world_behind": [
@@ -40,7 +40,7 @@
   {
    "n": 4,
    "title": "Moroni's orders arrive by letter",
-   "text": "Verses 8 through 11 give five instructions: hold prisoners, fortify Bountiful, secure the narrow pass, harass the enemy, and retake cities by stratagem if possible."
+   "text": "Verses 8 through 11 give five instructions, covering prisoners, the fortifying of Bountiful, the narrow pass, harassment, and stratagem where a city can be retaken."
   },
   {
    "n": 5,
@@ -50,7 +50,7 @@
   {
    "n": 6,
    "title": "The Lamanites are fighting on two fronts by design",
-   "text": "Verses 12 and 13 have Ammoron attack by the west sea to draw Nephite forces away while the east-sea garrisons harass."
+   "text": "Verses 12 and 13 have Ammoron open a western attack as a pull, leaving the eastern garrisons to wear down what stays behind."
   },
   {
    "n": 7,
@@ -67,12 +67,12 @@
   {
    "term": "Ransom",
    "verse_label": "v. 8",
-   "text": "A price paid to free a captive. The word occurs once in this record and thirteen times in the King James Bible, where it usually names what redeems a life. Moroni uses it of prisoners held for exchange."
+   "text": "A price paid to free a captive. It appears once in the record, and thirteen times in the King James Bible, where it usually names what redeems a life. Moroni uses it of prisoners held for exchange."
   },
   {
    "term": "Harass",
    "verse_label": "v. 9",
-   "text": "To wear down by repeated attack. The word occurs four times in this record and never in the King James Bible, three of them in these two chapters. Both sides use the method, and Mormon uses the word of both."
+   "text": "To wear down by repeated attack. Four uses here, none in the King James Bible, three of them inside these two chapters. Both sides use the method, and Mormon uses the word of both."
   },
   {
    "term": "Council",
@@ -82,12 +82,12 @@
   {
    "term": "Decoy",
    "verse_label": "v. 21",
-   "text": "Something used to lure an enemy out of position. The word occurs twice in this record and never in the King James Bible. Mormon uses it here and again in Alma 58, both times of Nephite commanders drawing Lamanites out of forts."
+   "text": "Something used to lure an enemy out of position. The word turns up twice here, and never in the King James Bible. Mormon uses it here and again in Alma 58, both times of Nephite commanders drawing Lamanites out of forts."
   },
   {
    "term": "Vigor",
    "verse_label": "v. 24",
-   "text": "Force, energy. The word occurs three times in this record and never in the King James Bible. Mormon uses it of the Lamanite pursuit, which is the moment the plan is working."
+   "text": "Force, energy. Its count is three here and none in the King James Bible. Mormon applies it to the Lamanite pursuit, the moment the plan is working."
   }
  ],
  "phrases": [
@@ -149,53 +149,132 @@
  ],
  "verses": [
   {
-   "label": "v. 1–4",
+   "label": "v. 1",
    "start": 1,
+   "end": 1,
+   "title": "A date fixed to a discovery",
+   "text": "The chapter opens on a calendar detail that nothing in the plot requires: \"when the Lamanites awoke on the first morning of the first month, behold, they found Amalickiah was dead in his own tent.\" The previous chapter ended with the killing; this one starts with the finding, and the record chooses to date the finding rather than the deed. The same verse adds that Teancum \"was ready to give them battle on that day,\" so the army wakes to a corpse and a line of soldiers in the same sentence."
+  },
+  {
+   "label": "v. 3",
+   "start": 3,
+   "end": 3,
+   "title": "The same fact stated twice in one verse",
+   "text": "The succession is reported, then reported again with the terms reversed: \"the brother of Amalickiah was appointed king over the people; and his name was Ammoron; thus king Ammoron, the brother of king Amalickiah, was appointed to reign.\" Relation, then name, then name and relation together. The record used the same order for Amalickiah himself at Alma 47:3, where the man was described before he was named. Here the doubling has a function the first one did not, since the reader needs to carry the new name forward for ten chapters.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 47:3",
+     "start": 349,
+     "end": 358,
+     "book": "Alma",
+     "chapter": 47,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
+  },
+  {
+   "label": "v. 4",
+   "start": 4,
    "end": 4,
-   "title": "A new king",
-   "text": "The Lamanites find Amalickiah dead and Teancum ready, abandon the northward march, and retreat into Mulek. Ammoron, his brother, is made king and orders the captured cities held, because they cost so much blood."
+   "title": "The record concedes the enemy's cost",
+   "text": "Ammoron's order to hold the captured cities comes with a clause the narrative does not need: \"which they had taken by the shedding of blood; for they had not taken any cities save they had lost much blood.\" This is a war record written by the losing side of that campaign, and it stops to say the winners paid heavily. Nothing follows from the concession. No Nephite advantage is drawn from it, and the next verse returns to Teancum's preparations."
   },
   {
-   "label": "v. 5–11",
-   "start": 5,
-   "end": 11,
-   "title": "Orders from Moroni",
-   "text": "Teancum judges an attack on the forts inexpedient and builds defenses instead until reinforcements arrive. Moroni sends orders: hold all prisoners as ransom, fortify Bountiful, secure the narrow pass, harass the enemy, retake cities by stratagem if possible, and fortify the cities still held. He cannot come; the west sea has him."
+   "label": "v. 19–21",
+   "start": 19,
+   "end": 21,
+   "title": "The invitation before the trick",
+   "text": "The council of war does not open with a plan. Verse 20 has them send embassies asking the enemy commander \"that he would come out with his armies to meet them upon the plains between the two cities,\" and reports the refusal in the same verse. Only then does verse 21 give the reason for what follows: \"Moroni, having no hopes of meeting them upon fair grounds, therefore, he resolved upon a plan that he might decoy the Lamanites out of their strongholds.\" The record supplies the failed honest attempt as the justification for the deception, and puts them in that order."
   },
   {
-   "label": "v. 12–16",
-   "start": 12,
-   "end": 16,
-   "title": "Two fronts",
-   "text": "Ammoron goes to the west sea to draw Nephite forces away, having ordered the eastern garrisons to harass and take what they can. Moroni's men are strengthened. Teancum receives orders to attack Mulek and retake it if possible."
+   "label": "v. 25–39",
+   "start": 25,
+   "end": 39,
+   "title": "A chapter that ends up being about handing things over",
+   "text": "Weapons of war stands in six verses here, and five of the six are in the last nine verses. The phrase governs how the fighting stops each time: the city's defenders are killed only insofar as they \"would not yield up their weapons of war\" (v. 25), Moroni's order is to fall upon them \"until they had given up their weapons\" (v. 32), the rear ranks \"delivered up their weapons of war\" (v. 36), the chief captains \"threw down their weapons of war at the feet of Moroni\" (v. 38), and those who refused had them \"taken from them\" (v. 39). The battle is narrated as a sequence of surrenders rather than of casualties.",
+   "cites": [
+    {
+     "quote": "would not yield up their weapons of war",
+     "verse": 25,
+     "start": 197,
+     "end": 246,
+     "spans": [
+      {
+       "w1": 21,
+       "w2": 28,
+       "text": "would not yield up their weapons of war"
+      }
+     ]
+    },
+    {
+     "quote": "until they had given up their weapons",
+     "verse": 32,
+     "start": 284,
+     "end": 331,
+     "spans": [
+      {
+       "w1": 12,
+       "w2": 18,
+       "text": "until they had given up their weapons"
+      }
+     ]
+    },
+    {
+     "quote": "delivered up their weapons of war",
+     "verse": 36,
+     "start": 348,
+     "end": 391,
+     "spans": [
+      {
+       "w1": 20,
+       "w2": 25,
+       "text": "delivered up their weapons of war"
+      }
+     ]
+    },
+    {
+     "quote": "threw down their weapons of war at the feet of Moroni",
+     "verse": 38,
+     "start": 412,
+     "end": 475,
+     "spans": [
+      {
+       "w1": 26,
+       "w2": 36,
+       "text": "threw down their weapons of war at the feet of Moroni"
+      }
+     ]
+    },
+    {
+     "quote": "taken from them",
+     "verse": 39,
+     "start": 508,
+     "end": 533,
+     "spans": [
+      {
+       "w1": 28,
+       "w2": 30,
+       "text": "taken from them"
+      }
+     ]
+    }
+   ]
   },
   {
-   "label": "v. 17–20",
-   "start": 17,
-   "end": 20,
-   "title": "The refusal, and the council",
-   "text": "Teancum sees the fortifications and abandons the attempt, returning to Bountiful to wait for Moroni. Moroni arrives late in the twenty-seventh year. A council of war meets to find a way to draw the Lamanites out. Embassies invite Jacob to the plains, and he refuses."
-  },
-  {
-   "label": "v. 21–26",
-   "start": 21,
-   "end": 26,
-   "title": "The decoy",
-   "text": "Moroni resolves on a plan. Teancum takes a small force down the seashore while Moroni marches by night west of Mulek. The guards see Teancum; the Lamanites march out; Teancum retreats northward and is pursued. Moroni takes the city, killing those who will not yield their weapons."
-  },
-  {
-   "label": "v. 27–33",
-   "start": 27,
+   "label": "v. 33",
+   "start": 33,
    "end": 33,
-   "title": "The turn",
-   "text": "The pursuit reaches Bountiful and meets Lehi with fresh men. The Lamanites flee in confusion toward Mulek, weary, and find Moroni waiting. Caught between the two forces, and with Jacob determined to cut through, the fighting becomes desperate."
+   "title": "Three appositives, and the middle one explains him",
+   "text": "The enemy commander is introduced with three clauses stacked together: \"Jacob, being their leader, being also a Zoramite, and having an unconquerable spirit.\" The first is his office and the third is his character, and the second is the fact that makes the chapter's shape intelligible. The army defending a Lamanite city against Nephites is commanded by a Nephite dissenter, which is also why verse 20 could ask him for a fair field in the first place and expect to be understood."
   },
   {
-   "label": "v. 34–40",
-   "start": 34,
+   "label": "v. 40",
+   "start": 40,
    "end": 40,
-   "title": "The surrender",
-   "text": "Moroni is wounded and Jacob is killed. Lehi comes on their rear and the Lamanites, hemmed in, throw down their weapons and plead for mercy. Moroni takes their weapons and their prisoners, and the remainder are delivered up rather than killed."
+   "title": "The chapter counts the living",
+   "text": "The last verse gives the only arithmetic in the chapter, and it is not a body count: \"the number of prisoners who were taken exceeded more than the number of those who had been slain, yea, more than those who had been slain on both sides.\" Taken is used ten times in this chapter, which is more than in any other chapter of scripture, and the word does double duty throughout for cities seized and men captured. The closing sentence chooses the second meaning and makes the battle's result a population of prisoners."
   }
  ],
  "chapter": [
@@ -222,12 +301,12 @@
   {
    "n": 5,
    "title": "The plan is made in committee",
-   "text": "A council of war with many chief captains, then a resolution. The record credits the decoy to a meeting before it credits it to Moroni."
+   "text": "Verse 19 records a \"council of war\" with \"Moroni and Teancum and many of the chief captains,\" and names its question, \"what they should do to cause the Lamanites to come out against them to battle.\" Verse 20 reports the first attempt, an embassy inviting the enemy onto open ground, which fails. Only at verse 21, after both the meeting and the failed invitation, does the record say \"he resolved upon a plan that he might decoy the Lamanites out of their strongholds.\" Two steps stand between the problem and the stratagem, and the first of them is a committee."
   },
   {
    "n": 6,
    "title": "The enemy's courage is the mechanism",
-   "text": "The Lamanites take heart at a retreating force and pursue with vigor, and that is what empties the city. Their best moment is the plan working."
+   "text": "Verse 23 supplies the enemy's reasoning, \"supposing by their numbers to overpower Teancum because of the smallness of his numbers,\" and their pursuit is what empties the city Moroni takes at verse 26. Verse 28 then records the moment they understand, \"they fled in much confusion, lest perhaps they should not obtain the city Mulek before Lehi should overtake them.\" The decision that looked best to them at verse 23 is the one that loses them the city three verses later."
   },
   {
    "n": 7,
@@ -245,7 +324,7 @@
    {
     "title": "Decline the attack you cannot win",
     "verse_label": "v. 5",
-    "text": "Teancum looked at the forts and stopped. When the direct approach is clearly beyond your means, saying so is a decision rather than a failure."
+    "text": "Teancum looked at the forts and stopped. When the direct approach is beyond your means, saying so is a decision rather than a failure."
    },
    {
     "title": "Hold what you will need to trade",
@@ -258,9 +337,29 @@
     "text": "The narrow pass mattered more than its size. Identify the one place in your situation where losing control would cost you everything else, and hold it."
    },
    {
+    "title": "Say plainly that you cannot come",
+    "verse_label": "v. 11",
+    "text": "Moroni wrote that he would come to Teancum and then gave the reason he could not. When you are unable to help, the useful message names the willingness and the constraint together, so the other person can plan around your real answer."
+   },
+   {
     "title": "Decide it in council",
     "verse_label": "v. 19",
     "text": "The plan came out of a meeting of captains. When you are stuck, put the problem in front of the people who know the ground, rather than working it out alone."
+   },
+   {
+    "title": "Hold back so the other half can arrive",
+    "verse_label": "v. 30",
+    "text": "Lehi was not desirous to overtake the fleeing Lamanites until they had met Moroni first. Restraint in the middle of a plan looks like inaction to everyone watching, so tell your people what the waiting is for."
+   },
+   {
+    "title": "Offer terms the moment it turns",
+    "verse_label": "v. 37",
+    "text": "Moroni saw the confusion and immediately offered to forbear shedding blood. When a conflict has visibly turned your way, that is the cheapest instant at which to end it, and making the offer costs you nothing."
+   },
+   {
+    "title": "Count the ones who lived",
+    "verse_label": "v. 40",
+    "text": "The chapter's closing tally is that the prisoners taken outnumbered all the dead on both sides. When you write up a hard episode, record what was saved with the same care you give to what was lost."
    }
   ],
   "questions": [
@@ -333,7 +432,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al51-018"
   },
   {
    "id": "al52-002",
@@ -345,7 +444,7 @@
     "w2": 25,
     "quote": "secure the narrow pass which led into the land northward"
    },
-   "reason": "the same pass, where Teancum headed Morianton’s flight",
+   "reason": "the same pass, where Teancum headed Morianton's flight",
    "targets": [
     {
      "ref": "Alma",
@@ -397,7 +496,7 @@
     "w2": 32,
     "quote": "he might decoy the Lamanites out of their strongholds"
    },
-   "reason": "the record’s other decoy, at the city of Manti",
+   "reason": "the record's other decoy, at the city of Manti",
    "targets": [
     {
      "ref": "Alma",
@@ -412,6 +511,32 @@
     }
    ],
    "mirror": "al58-001"
+  },
+  {
+   "id": "al52-010",
+   "scope": "BOOK",
+   "head": "Alma 55:16",
+   "anchor": {
+    "verse": 21,
+    "w1": 24,
+    "w2": 32,
+    "quote": "he might decoy the Lamanites out of their strongholds."
+   },
+   "reason": "the other stratagem of the same kind",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 55,
+     "verse": 16,
+     "w1": 3,
+     "w2": 10,
+     "quote": "this was according to the design of Moroni.",
+     "verse_text": "And now this was according to the design of Moroni. And Moroni had prepared his men with weapons of war; and he went to the city Gid, while the Lamanites were in a deep sleep and drunken, and cast in weapons of war unto the prisoners, insomuch that they were all armed;",
+     "markdown": "And now **this was according to the design of Moroni**. And Moroni had prepared his men with weapons of war; and he went to the city Gid, while the Lamanites were in a deep sleep and drunken, and cast in weapons of war unto the prisoners, insomuch that they were all armed;",
+     "span": true
+    }
+   ],
+   "mirror": "al55-004"
   },
   {
    "id": "al52-005",
@@ -437,7 +562,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al43-021"
   },
   {
    "id": "al52-006",
@@ -463,7 +588,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al46-011"
+  },
+  {
+   "id": "al52-011",
+   "scope": "BOM",
+   "head": "Hel. 1:16",
+   "anchor": {
+    "verse": 3,
+    "w1": 22,
+    "w2": 36,
+    "quote": "thus king Ammoron, the brother of king Amalickiah, was appointed to reign in his stead."
+   },
+   "reason": "his son on the Lamanite throne afterward",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 1,
+     "verse": 16,
+     "w1": 10,
+     "w2": 16,
+     "quote": "Tubaloth, who was the son of Ammoron,",
+     "verse_text": "Therefore, the king of the Lamanites, whose name was Tubaloth, who was the son of Ammoron, supposing that Coriantumr, being a mighty man, could stand against the Nephites, with his strength and also with his great wisdom, insomuch that by sending him forth he should gain power over the Nephites—",
+     "markdown": "Therefore, the king of the Lamanites, whose name was **Tubaloth, who was the son of Ammoron**, supposing that Coriantumr, being a mighty man, could stand against the Nephites, with his strength and also with his great wisdom, insomuch that by sending him forth he should gain power over the Nephites—",
+     "span": true
+    }
+   ],
+   "mirror": "hel01-009"
   },
   {
    "id": "al52-007",
@@ -475,7 +626,7 @@
     "w2": 47,
     "quote": "as a ransom for those whom the Lamanites had taken"
    },
-   "reason": "the word at its weightiest, of a life given for many",
+   "reason": "the word at its weightiest, a life given for many",
    "targets": [
     {
      "ref": "Matt.",
@@ -501,7 +652,7 @@
     "w2": 51,
     "quote": "he began to retreat down by the seashore"
    },
-   "reason": "Joshua drawing Ai out of its gates by a feigned flight",
+   "reason": "Joshua drawing Ai out by a feigned flight",
    "targets": [
     {
      "ref": "Josh.",
@@ -527,7 +678,7 @@
     "w2": 23,
     "quote": "they took courage and pursued them with vigor"
    },
-   "reason": "Benjamin pursuing a retreat that was drawing them from the city",
+   "reason": "Benjamin pursuing a retreat that drew them from the city",
    "targets": [
     {
      "ref": "Judg.",
@@ -552,6 +703,15 @@
    "quote": "they found Amalickiah was dead in his own tent",
    "entries": [
     "al52-001"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 22,
+   "w2": 36,
+   "quote": "thus king Ammoron, the brother of king Amalickiah, was appointed to reign in his stead.",
+   "entries": [
+    "al52-011"
    ]
   },
   {
@@ -588,7 +748,8 @@
    "w2": 32,
    "quote": "he might decoy the Lamanites out of their strongholds",
    "entries": [
-    "al52-004"
+    "al52-004",
+    "al52-010"
    ]
   },
   {
@@ -620,7 +781,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "0910bd67ca884541"
+  "at": "2026-09-07",
+  "source_sha256": "a48b900954c64346"
  }
 }

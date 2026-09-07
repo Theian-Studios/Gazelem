@@ -1,0 +1,892 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 12,
+  "volume_order": "08",
+  "speakers": [
+   "Alma",
+   "Antionah"
+  ],
+  "audience": "Zeezrom, and the people of Ammonihah",
+  "location": "The city of Ammonihah",
+  "date": "~82 BC",
+  "unit": "Alma's preaching circuit (Alma 5–16)",
+  "principles": [
+   "The portion of the word",
+   "Probation",
+   "Rest"
+  ],
+  "connections": 12,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Alma speaks to one man in front of a crowd",
+   "text": "Verse 1 has him addressing Zeezrom, and verse 2 notes that the multitude was great and heard all of it. Verse 5 makes the arrangement explicit: what he says to Zeezrom he says to all. The chapter is a private conversation staged in public, and both audiences are being worked."
+  },
+  {
+   "n": 2,
+   "title": "The questioner has changed sides",
+   "text": "Zeezrom opened the last chapter buying a denial and closes this one asking for more. Verse 8 says he \"began to inquire of them diligently\" (v. 8). Diligence is the same word the chapter will use for how revelation is measured out. The man who set the trap is now the model of the doctrine being taught.",
+   "cites": [
+    {
+     "quote": "began to inquire of them diligently",
+     "verse": 8,
+     "start": 101,
+     "end": 145,
+     "spans": [
+      {
+       "w1": 3,
+       "w2": 8,
+       "text": "began to inquire of them diligently"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Antionah asks in good faith",
+   "text": "A chief ruler raises the cherubim and the flaming sword of Eden as a scriptural objection to endless life, and it is a real argument from a text he knows. Alma does not dismiss it. He says it is the thing he was about to explain, and spends fourteen verses on it."
+  },
+  {
+   "n": 4,
+   "title": "Eden is being read as a matter of law",
+   "text": "The argument in verses 23 and 26 turns on whether God's word would have held. Had Adam reached the tree of life after the sentence of death, the word would have been void. The chapter treats the garden as a case in which a promise had to be kept."
+  },
+  {
+   "n": 5,
+   "title": "Psalm 95 is under this whole sermon",
+   "text": "The provocation and the rest, the swearing in wrath, the hardening of hearts: all of it is the language of the psalm the Israelites sang about the wilderness generation, and the letter to the Hebrews would later build on the same passage. Alma preaches it to a city about to be destroyed."
+  },
+  {
+   "n": 6,
+   "title": "Chains run through the chapter",
+   "text": "The adversary encircles with chains (v. 6), ignorance becomes \"the chains of hell\" (v. 11), and the unrepentant are chained down to destruction (v. 17). One image carries the argument from a courtroom trick to a doctrine of damnation.",
+   "cites": [
+    {
+     "quote": "the chains of hell",
+     "verse": 11,
+     "start": 62,
+     "end": 90,
+     "spans": [
+      {
+       "w1": 49,
+       "w2": 52,
+       "text": "the chains of hell"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 6)",
+     "start": 36,
+     "end": 42,
+     "verse_start": 6,
+     "verse_end": 6
+    },
+    {
+     "kind": "verse",
+     "text": "(v. 17)",
+     "start": 144,
+     "end": 151,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "The record's fullest account of the Fall so far",
+   "text": "Lehi taught it to Jacob two hundred years earlier in different terms. Here it arrives as an answer to a hostile question in a doomed city, and it is the version the rest of the book will build on."
+  }
+ ],
+ "words": [
+  {
+   "term": "Subtlety",
+   "verse_label": "v. 4",
+   "text": "Craft, the skill of the indirect. Alma calls Zeezrom's plan subtle \"as to the subtlety of the devil\" (v. 4), and the King James Bible attaches the older spelling of the adjective to exactly one famous creature: the serpent, more subtil than any beast of the field. The word choice identifies whose method was being used before the chapter identifies whose plan it was.",
+   "cites": [
+    {
+     "quote": "as to the subtlety of the devil",
+     "verse": 4,
+     "start": 67,
+     "end": 107,
+     "spans": [
+      {
+       "w1": 15,
+       "w2": 21,
+       "text": "as to the subtlety of the devil"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Portion",
+   "verse_label": "v. 10",
+   "text": "A measured share, the amount allotted to one person. The doctrine in verses 9 through 11 makes revelation a quantity that moves: harden the heart and \"the same receiveth the lesser portion of the word\" (v. 10), soften it and the portion grows until the mysteries are known in full. Nothing here is described as withheld arbitrarily. The supply tracks the appetite.",
+   "cites": [
+    {
+     "quote": "the same receiveth the lesser portion of the word",
+     "verse": 10,
+     "start": 150,
+     "end": 209,
+     "spans": [
+      {
+       "w1": 9,
+       "w2": 17,
+       "text": "the same receiveth the lesser portion of the word"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Fain",
+   "verse_label": "v. 14",
+   "text": "Gladly, willingly, and in older use with a note of desperation. It occurs once in this record and twice in the King James Bible, where a starving prodigal would fain have filled his belly with husks. Alma uses it for what the condemned would gladly do: \"we would fain be glad\" (v. 14) to have the mountains fall on them. The word carries the wish of someone with no better option.",
+   "cites": [
+    {
+     "quote": "we would fain be glad",
+     "verse": 14,
+     "start": 253,
+     "end": 284,
+     "spans": [
+      {
+       "w1": 43,
+       "w2": 47,
+       "text": "we would fain be glad"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Probationary",
+   "verse_label": "v. 24",
+   "text": "On trial, under test, with the outcome not yet fixed. The word is absent from the King James Bible and enters this record here, in the claim that \"this life became a probationary state\" (v. 24). Alma will reach for it three more times when he explains justice to his son thirty chapters later. A probation implies a term with an end and a judge already appointed.",
+   "cites": [
+    {
+     "quote": "this life became a probationary state",
+     "verse": 24,
+     "start": 146,
+     "end": 193,
+     "spans": [
+      {
+       "w1": 38,
+       "w2": 43,
+       "text": "this life became a probationary state"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Preparatory",
+   "verse_label": "v. 26",
+   "text": "Serving to get ready for something else. Its companion word, and the pair does the chapter's work: probation is the test, preparation is the point. Alma says our first parents partaking of the tree of life would have left them \"having no preparatory state\" (v. 26), and that makes the flaming sword an act of mercy.",
+   "cites": [
+    {
+     "quote": "having no preparatory state",
+     "verse": 26,
+     "start": 227,
+     "end": 264,
+     "spans": [
+      {
+       "w1": 29,
+       "w2": 32,
+       "text": "having no preparatory state"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Provocation",
+   "verse_label": "v. 36",
+   "text": "An act that rouses anger, and in the psalms a proper noun for one particular rebellion in the wilderness. Alma warns against wrath coming down \"as in the first provocation\" (v. 36) and pairs it with entering into rest, the exact pairing of Psalm 95. He is reading a city its own history in borrowed words.",
+   "cites": [
+    {
+     "quote": "as in the first provocation",
+     "verse": 36,
+     "start": 143,
+     "end": 180,
+     "spans": [
+      {
+       "w1": 40,
+       "w2": 44,
+       "text": "as in the first provocation"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Thou hast lied unto God",
+   "verse_label": "v. 3",
+   "text": "Alma opens by upgrading the charge Amulek made. The lie was told to a man and the offense is against God, because the thoughts behind it were already known. What the charge establishes is that Zeezrom was never hidden."
+  },
+  {
+   "term": "Encircle you about with his chains",
+   "verse_label": "v. 6",
+   "text": "The first of the chapter's three chain images. Encircling is patient work, done from the outside, and the verb suggests something closing gradually. Alma applies it to a plan Zeezrom thought was his own."
+  },
+  {
+   "term": "It is given unto many to know the mysteries of God",
+   "verse_label": "v. 9",
+   "text": "The sentence that opens the chapter's central doctrine, and it begins with generosity. Many are given to know. The restriction that follows falls on imparting, and it is calibrated to the hearer."
+  },
+  {
+   "term": "The lesser portion of the word",
+   "verse_label": "v. 10",
+   "text": "Revelation described as a quantity that rises and falls. This is the chapter's most practical claim: a person's access to God's word is responsive to what that person does with the last portion. The mechanism runs in both directions and the verse states both."
+  },
+  {
+   "term": "This is what is meant by the chains of hell",
+   "verse_label": "v. 11",
+   "text": "Alma stops to define a phrase, which he rarely does. The chains turn out to be knowing nothing of the mysteries, arrived at by hardening until there is nothing left to harden. Hell's restraint, in this account, is ignorance a person chose."
+  },
+  {
+   "term": "We would fain be glad if we could command the rocks and the mountains to fall upon us",
+   "verse_label": "v. 14",
+   "text": "The wish to be hidden, phrased as a wish for weight. John's Revelation would put the same words in the mouths of kings at the last day, and Hosea before him. Alma gives the line to everyone whose thoughts have condemned them, which by verse 14 includes his hearers."
+  },
+  {
+   "term": "Acknowledge to our everlasting shame that all his judgments are just",
+   "verse_label": "v. 15",
+   "text": "The hardest sentence in the judgment passage. Nobody argues at the bar. The condemned agree, out loud, and the agreement is itself the shame. Nothing in the scene requires a prosecution."
+  },
+  {
+   "term": "A second death, which is a spiritual death",
+   "verse_label": "v. 16",
+   "text": "The definition arrives in the middle of a sentence and the chapter builds the rest of its argument on it. Temporal death is what Amulek already covered. This one is dying \"as to things pertaining unto righteousness\" (v. 16), a death a living person can be inside.",
+   "cites": [
+    {
+     "quote": "as to things pertaining unto righteousness",
+     "verse": 16,
+     "start": 171,
+     "end": 223,
+     "spans": [
+      {
+       "w1": 46,
+       "w2": 51,
+       "text": "as to things pertaining unto righteousness"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Making God a liar",
+   "verse_label": "v. 23",
+   "text": "The stakes of the Eden argument, stated bluntly. If Adam had reached the tree of life after being told he would surely die, the sentence would have failed. Alma's defense of the flaming sword is that God's word had to hold, and the whole plan of redemption depends on its holding."
+  },
+  {
+   "term": "This life became a probationary state",
+   "verse_label": "v. 24",
+   "text": "The turn from problem to purpose. The Fall produced death, and the space between the Fall and death is reframed as a term of trial. Everything the record says later about repentance rests on there being time."
+  },
+  {
+   "term": "These shall enter into my rest",
+   "verse_label": "v. 34",
+   "text": "The promise, quoted as God's own speech. Rest here is a place a person arrives at by not hardening, and the next verse gives its opposite in an oath. Psalm 95 makes the same promise and the same threat in the same order."
+  },
+  {
+   "term": "As in the first provocation",
+   "verse_label": "v. 36",
+   "text": "The warning that dates itself. Alma assumes his hearers know which provocation was first and what it cost, and he tells them a second one is under way. The city had about a year left."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–7",
+   "start": 1,
+   "end": 7,
+   "title": "The trembling man, addressed",
+   "text": "Alma takes up where Amulek stopped, names the lie, names whose plan it was, and widens the address to everyone. By verse 7 Zeezrom is trembling more, and the reason given is that he now believes they can read him."
+  },
+  {
+   "label": "v. 8–11",
+   "start": 8,
+   "end": 11,
+   "title": "The portion of the word",
+   "text": "Zeezrom asks a real question and gets the chapter's engine: mysteries given to many, imparted according to heed and diligence, growing or shrinking with the hardness of the hearer, and ending either in full knowledge or in the chains of hell."
+  },
+  {
+   "label": "v. 12–18",
+   "start": 12,
+   "end": 18,
+   "title": "The judgment, drawn out",
+   "text": "Words, works and thoughts all condemn; the condemned wish for falling mountains and cannot have them; they stand, they acknowledge the justice, and then the second death is defined and described as fire, brimstone and chains."
+  },
+  {
+   "label": "v. 19–21",
+   "start": 19,
+   "end": 21,
+   "title": "The objection",
+   "text": "A chief ruler stands up with a scriptural problem: if the way to the tree of life was barred, how can anyone live forever? It is the only question in the chapter asked from inside the text."
+  },
+  {
+   "label": "v. 22–27",
+   "start": 22,
+   "end": 27,
+   "title": "The Fall, and the space it made",
+   "text": "Adam fell and the race became lost; the tree of life had to stay barred or the word would have failed; death arrived and with it a granted space, and that space is named a probation and a preparation."
+  },
+  {
+   "label": "v. 28–32",
+   "start": 28,
+   "end": 32,
+   "title": "Why anyone knows any of this",
+   "text": "God appointed death and judgment, then decided men should be told. Angels were sent, conversation began, the plan was made known, and commandments followed the knowledge instead of preceding it."
+  },
+  {
+   "label": "v. 33–37",
+   "start": 33,
+   "end": 37,
+   "title": "Rest, and the provocation",
+   "text": "The invitation is quoted as divine speech with mercy on one side and an oath on the other. Alma closes by putting his hearers in the story: a second provocation is happening, and the alternative is to enter into the rest of God."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The doctrine is produced by a hostile room",
+   "text": "Zeezrom asked to destroy a witness and ended up commissioning the record's fullest account of the Fall, probation and rest. The book keeps putting its best teaching in its worst places."
+  },
+  {
+   "n": 2,
+   "title": "Revelation is described as responsive",
+   "text": "Verses 9 through 11 make the amount a person receives depend on what they did with the last amount. It explains why two people can sit through the same sermon and leave with different quantities, and it puts the variable in the hearer."
+  },
+  {
+   "n": 3,
+   "title": "The chapter defines its own terms",
+   "text": "Chains of hell, second death, probationary state, preparatory state. Alma is teaching people who have been arguing about words all afternoon, and he answers by fixing meanings."
+  },
+  {
+   "n": 4,
+   "title": "A good question gets a long answer",
+   "text": "Antionah's objection is treated as worth fourteen verses. The record could have made him ridiculous. Instead it lets a chief ruler of Ammonihah ask the best question in the chapter and receive the best answer."
+  },
+  {
+   "n": 5,
+   "title": "The flaming sword is read as mercy",
+   "text": "The barrier that looks like exclusion turns out to be what created the time in which anyone can repent. The reading turns Eden's harshest image into the reason there is a plan at all."
+  },
+  {
+   "n": 6,
+   "title": "Commandments come after knowledge",
+   "text": "Verses 28 through 32 put the order plainly: God appointed, then told, then commanded. The sequence matters to a book that keeps insisting people are judged according to the light they had."
+  },
+  {
+   "n": 7,
+   "title": "The sermon ends inside Psalm 95",
+   "text": "Provocation, hardening, wrath, rest, an oath sworn. Alma hands a Nephite city the psalm Israel sang about the generation that died in the wilderness, and the city is about a year from its own destruction."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Notice which way your portion is moving",
+    "verse_label": "v. 10",
+    "text": "The doctrine says the amount you receive tracks what you did with the last amount. Compare what you understand now against a year ago. The direction is more diagnostic than the level."
+   },
+   {
+    "title": "Answer the good question at length",
+    "verse_label": "v. 21–22",
+    "text": "Antionah objected from scripture and Alma gave him fourteen verses. When someone raises a real difficulty, the respectful response is proportion. Short answers to serious questions communicate that the question was not serious."
+   },
+   {
+    "title": "Define the word before you argue about it",
+    "verse_label": "v. 11",
+    "text": "Alma stops to say what the chains of hell actually means. In your next disagreement that keeps circling, try naming what one contested word means to you and asking what it means to them before going further."
+   },
+   {
+    "title": "Treat the interval as a term",
+    "verse_label": "v. 24",
+    "text": "The space between now and death is described as a probation with a purpose. Pick one thing you have been treating as something to get through, and ask what it would look like if it were the test itself."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What have I told myself was a private calculation that was never actually private?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "When did I last inquire diligently about something I had previously been arguing against, and what changed first?"
+   },
+   {
+    "verse_label": "v. 10",
+    "start": 10,
+    "end": 10,
+    "text": "What did I do with the last clear thing I was given, and does that explain how much has come since?"
+   },
+   {
+    "verse_label": "v. 14",
+    "start": 14,
+    "end": 14,
+    "text": "If my words, works and thoughts each testified separately, which of the three would I least want called?"
+   },
+   {
+    "verse_label": "v. 15",
+    "start": 15,
+    "end": 15,
+    "text": "What true judgment about myself would I agree with out loud and still be ashamed of?"
+   },
+   {
+    "verse_label": "v. 24",
+    "start": 24,
+    "end": 24,
+    "text": "If this stretch of my life is the test rather than the wait, what am I actually being tested on?"
+   },
+   {
+    "verse_label": "v. 36",
+    "start": 36,
+    "end": 36,
+    "text": "What is the provocation I have already been through once, and am I walking into it again?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al12-001",
+   "scope": "BOOK",
+   "head": "Alma 11:46",
+   "anchor": {
+    "verse": 1,
+    "w1": 31,
+    "w2": 34,
+    "quote": "he began to tremble"
+   },
+   "reason": "the trembling, taken up",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 11,
+     "verse": 46,
+     "w1": 17,
+     "w2": 20,
+     "quote": "Zeezrom began to tremble.",
+     "verse_text": "Now, when Amulek had finished these words the people began again to be astonished, and also Zeezrom began to tremble. And thus ended the words of Amulek, or this is all that I have written.",
+     "markdown": "Now, when Amulek had finished these words the people began again to be astonished, and also **Zeezrom began to tremble**. And thus ended the words of Amulek, or this is all that I have written.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al12-002",
+   "scope": "BOOK",
+   "head": "Alma 14:6",
+   "anchor": {
+    "verse": 8,
+    "w1": 3,
+    "w2": 8,
+    "quote": "began to inquire of them diligently"
+   },
+   "reason": "the inquiry, carried to its end",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 14,
+     "verse": 6,
+     "w1": 7,
+     "w2": 9,
+     "quote": "Zeezrom was astonished",
+     "verse_text": "And it came to pass that Zeezrom was astonished at the words which had been spoken; and he also knew concerning the blindness of the minds, which he had caused among the people by his lying words; and his soul began to be harrowed up under a consciousness of his own guilt; yea, he began to be encircled about by the pains of hell.",
+     "markdown": "And it came to pass that **Zeezrom was astonished** at the words which had been spoken; and he also knew concerning the blindness of the minds, which he had caused among the people by his lying words; and his soul began to be harrowed up under a consciousness of his own guilt; yea, he began to be encircled about by the pains of hell.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al12-003",
+   "scope": "BOOK",
+   "head": "Alma 42:4",
+   "anchor": {
+    "verse": 24,
+    "w1": 38,
+    "w2": 43,
+    "quote": "this life became a probationary state"
+   },
+   "reason": "the same term, explained to a son",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 42,
+     "verse": 4,
+     "w1": 16,
+     "w2": 18,
+     "quote": "a probationary time,",
+     "verse_text": "And thus we see, that there was a time granted unto man to repent, yea, a probationary time, a time to repent and serve God.",
+     "markdown": "And thus we see, that there was a time granted unto man to repent, yea, **a probationary time**, a time to repent and serve God.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al12-004",
+   "scope": "BOOK",
+   "head": "Alma 13:3",
+   "anchor": {
+    "verse": 26,
+    "w1": 29,
+    "w2": 32,
+    "quote": "having no preparatory state"
+   },
+   "reason": "preparation, applied to a calling",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 13,
+     "verse": 3,
+     "w1": 74,
+     "w2": 76,
+     "quote": "a preparatory redemption",
+     "verse_text": "And this is the manner after which they were ordained—being called and prepared from the foundation of the world according to the foreknowledge of God, on account of their exceeding faith and good works; in the first place being left to choose good or evil; therefore they having chosen good, and exercising exceedingly great faith, are called with a holy calling, yea, with that holy calling which was prepared with, and according to, a preparatory redemption for such.",
+     "markdown": "And this is the manner after which they were ordained—being called and prepared from the foundation of the world according to the foreknowledge of God, on account of their exceeding faith and good works; in the first place being left to choose good or evil; therefore they having chosen good, and exercising exceedingly great faith, are called with a holy calling, yea, with that holy calling which was prepared with, and according to, **a preparatory redemption** for such.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al12-005",
+   "scope": "BOM",
+   "head": "2 Ne. 2:25",
+   "anchor": {
+    "verse": 22,
+    "w1": 44,
+    "w2": 51,
+    "quote": "all mankind became a lost and fallen people"
+   },
+   "reason": "the fall, read the other way",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 2,
+     "verse": 25,
+     "w1": 1,
+     "w2": 6,
+     "quote": "Adam fell that men might be;",
+     "verse_text": "Adam fell that men might be; and men are, that they might have joy.",
+     "markdown": "**Adam fell that men might be**; and men are, that they might have joy.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al12-006",
+   "scope": "BOM",
+   "head": "2 Ne. 9:16",
+   "anchor": {
+    "verse": 17,
+    "w1": 11,
+    "w2": 16,
+    "quote": "a lake of fire and brimstone"
+   },
+   "reason": "the same flame, ascending",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 9,
+     "verse": 16,
+     "w1": 75,
+     "w2": 81,
+     "quote": "whose flame ascendeth up forever and ever",
+     "verse_text": "And assuredly, as the Lord liveth, for the Lord God hath spoken it, and it is his eternal word, which cannot pass away, that they who are righteous shall be righteous still, and they who are filthy shall be filthy still; wherefore, they who are filthy are the devil and his angels; and they shall go away into everlasting fire, prepared for them; and their torment is as a lake of fire and brimstone, whose flame ascendeth up forever and ever and has no end.",
+     "markdown": "And assuredly, as the Lord liveth, for the Lord God hath spoken it, and it is his eternal word, which cannot pass away, that they who are righteous shall be righteous still, and they who are filthy shall be filthy still; wherefore, they who are filthy are the devil and his angels; and they shall go away into everlasting fire, prepared for them; and their torment is as a lake of fire and brimstone, **whose flame ascendeth up forever and ever** and has no end.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al12-007",
+   "scope": "SW",
+   "head": "Gen. 3:1",
+   "anchor": {
+    "verse": 4,
+    "w1": 15,
+    "w2": 21,
+    "quote": "as to the subtlety of the devil"
+   },
+   "reason": "the serpent named by his method",
+   "targets": [
+    {
+     "ref": "Gen.",
+     "chapter": 3,
+     "verse": 1,
+     "w1": 5,
+     "w2": 12,
+     "quote": "more subtil than any beast of the field",
+     "verse_text": "Now the serpent was more subtil than any beast of the field which the LORD God had made. And he said unto the woman, Yea, hath God said, Ye shall not eat of every tree of the garden?",
+     "markdown": "Now the serpent was **more subtil than any beast of the field** which the LORD God had made. And he said unto the woman, Yea, hath God said, Ye shall not eat of every tree of the garden?",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al12-008",
+   "scope": "SW",
+   "head": "Luke 15:16",
+   "anchor": {
+    "verse": 14,
+    "w1": 43,
+    "w2": 47,
+    "quote": "we would fain be glad"
+   },
+   "reason": "a starving man’s word for wanting",
+   "targets": [
+    {
+     "ref": "Luke",
+     "chapter": 15,
+     "verse": 16,
+     "w1": 2,
+     "w2": 8,
+     "quote": "he would fain have filled his belly",
+     "verse_text": "And he would fain have filled his belly with the husks that the swine did eat: and no man gave unto him.",
+     "markdown": "And **he would fain have filled his belly** with the husks that the swine did eat: and no man gave unto him.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al12-009",
+   "scope": "SW",
+   "head": "Rev. 6:16",
+   "anchor": {
+    "verse": 14,
+    "w1": 51,
+    "w2": 60,
+    "quote": "command the rocks and the mountains to fall upon us"
+   },
+   "reason": "kings asking the same of hills",
+   "targets": [
+    {
+     "ref": "Rev.",
+     "chapter": 6,
+     "verse": 16,
+     "w1": 8,
+     "w2": 13,
+     "quote": "Fall on us, and hide us",
+     "verse_text": "And said to the mountains and rocks, Fall on us, and hide us from the face of him that sitteth on the throne, and from the wrath of the Lamb:",
+     "markdown": "And said to the mountains and rocks, **Fall on us, and hide us** from the face of him that sitteth on the throne, and from the wrath of the Lamb:",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al12-010",
+   "scope": "SW",
+   "head": "Gen. 3:24",
+   "anchor": {
+    "verse": 21,
+    "w1": 11,
+    "w2": 15,
+    "quote": "cherubim and a flaming sword"
+   },
+   "reason": "the barrier Antionah cites",
+   "targets": [
+    {
+     "ref": "Gen.",
+     "chapter": 3,
+     "verse": 24,
+     "w1": 18,
+     "w2": 22,
+     "quote": "Cherubims, and a flaming sword",
+     "verse_text": "So he drove out the man; and he placed at the east of the garden of Eden Cherubims, and a flaming sword which turned every way, to keep the way of the tree of life.",
+     "markdown": "So he drove out the man; and he placed at the east of the garden of Eden **Cherubims, and a flaming sword** which turned every way, to keep the way of the tree of life.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al12-011",
+   "scope": "SW",
+   "head": "Heb. 3:11",
+   "anchor": {
+    "verse": 35,
+    "w1": 12,
+    "w2": 24,
+    "quote": "I swear in my wrath that he shall not enter into my rest"
+   },
+   "reason": "the oath, quoted to Hebrews too",
+   "targets": [
+    {
+     "ref": "Heb.",
+     "chapter": 3,
+     "verse": 11,
+     "w1": 7,
+     "w2": 13,
+     "quote": "They shall not enter into my rest.)",
+     "verse_text": "So I sware in my wrath, They shall not enter into my rest.)",
+     "markdown": "So I sware in my wrath, **They shall not enter into my rest.)**",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al12-012",
+   "scope": "SW",
+   "head": "Ps. 95:8",
+   "anchor": {
+    "verse": 36,
+    "w1": 40,
+    "w2": 44,
+    "quote": "as in the first provocation"
+   },
+   "reason": "the psalm this sermon is built on",
+   "targets": [
+    {
+     "ref": "Ps.",
+     "chapter": 95,
+     "verse": 8,
+     "w1": 5,
+     "w2": 8,
+     "quote": "as in the provocation,",
+     "verse_text": "Harden not your heart, as in the provocation, and as in the day of temptation in the wilderness:",
+     "markdown": "Harden not your heart, **as in the provocation**, and as in the day of temptation in the wilderness:",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 31,
+   "w2": 34,
+   "quote": "he began to tremble",
+   "entries": [
+    "al12-001"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 15,
+   "w2": 21,
+   "quote": "as to the subtlety of the devil",
+   "entries": [
+    "al12-007"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 3,
+   "w2": 8,
+   "quote": "began to inquire of them diligently",
+   "entries": [
+    "al12-002"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 43,
+   "w2": 47,
+   "quote": "we would fain be glad",
+   "entries": [
+    "al12-008"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 51,
+   "w2": 60,
+   "quote": "command the rocks and the mountains to fall upon us",
+   "entries": [
+    "al12-009"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 11,
+   "w2": 16,
+   "quote": "a lake of fire and brimstone",
+   "entries": [
+    "al12-006"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 11,
+   "w2": 15,
+   "quote": "cherubim and a flaming sword",
+   "entries": [
+    "al12-010"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 44,
+   "w2": 51,
+   "quote": "all mankind became a lost and fallen people",
+   "entries": [
+    "al12-005"
+   ]
+  },
+  {
+   "verse": 24,
+   "w1": 38,
+   "w2": 43,
+   "quote": "this life became a probationary state",
+   "entries": [
+    "al12-003"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 29,
+   "w2": 32,
+   "quote": "having no preparatory state",
+   "entries": [
+    "al12-004"
+   ]
+  },
+  {
+   "verse": 35,
+   "w1": 12,
+   "w2": 24,
+   "quote": "I swear in my wrath that he shall not enter into my rest",
+   "entries": [
+    "al12-011"
+   ]
+  },
+  {
+   "verse": 36,
+   "w1": 40,
+   "w2": 44,
+   "quote": "as in the first provocation",
+   "entries": [
+    "al12-012"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "97867fa14579d8ca"
+ }
+}

@@ -1,0 +1,593 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 16,
+  "volume_order": "08",
+  "speakers": [
+   "Mormon"
+  ],
+  "audience": "Readers of the record",
+  "location": "Ammonihah; the south wilderness; the land of Zarahemla",
+  "date": "~81-77 BC",
+  "unit": "Alma's preaching circuit (Alma 5–16)",
+  "principles": [
+   "The word kept",
+   "Rescue",
+   "Preaching without partiality"
+  ],
+  "connections": 6,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The chapter opens on peace and breaks it in one verse",
+   "text": "Verse 1 establishes years without war. Verse 2 has Lamanite armies already inside the borders and inside Ammonihah. The record gives the calm its own sentence so the reader feels the interruption."
+  },
+  {
+   "n": 2,
+   "title": "Ammonihah's boast is quoted back",
+   "text": "Verse 9 says the city was destroyed, \"which they said God could not destroy, because of its greatness\" (v. 9). In Alma 9 they had refused to believe the city could fall in one day. Verse 10 says it was left desolate in one day. The record answers the objection in the objectors' own terms.",
+   "cites": [
+    {
+     "quote": "which they said God could not destroy, because of its greatness",
+     "verse": 9,
+     "start": 37,
+     "end": 109,
+     "spans": [
+      {
+       "w1": 40,
+       "w2": 50,
+       "text": "which they said God could not destroy, because of its greatness"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "A general asks a prophet for intelligence",
+   "text": "Zoram and his sons go to Alma because he is high priest and has the spirit of prophecy. Alma inquires and returns with a river crossing, a direction and a place. The record treats revelation as usable operational information and does not remark on it."
+  },
+  {
+   "n": 4,
+   "title": "Not one captive is lost",
+   "text": "Verse 8 makes the point precisely. The rescue is total, and the record states the count rather than the emotion. It sits three verses before a city where nobody survived."
+  },
+  {
+   "n": 5,
+   "title": "The dead are left unburied for a long time",
+   "text": "Carcasses mangled, then heaped and covered shallowly, and the smell keeps people out of the land for years. The book rarely lingers on a battlefield. Here it stays long enough to explain why the land stood empty."
+  },
+  {
+   "n": 6,
+   "title": "The place gets a name from the teaching that ruined it",
+   "text": "It was called Desolation of Nehors, after the profession of the men who sat as judges there. The record names the ground for an idea."
+  },
+  {
+   "n": 7,
+   "title": "The synagogues were built after the manner of the Jews",
+   "text": "Verse 13 supplies the architectural note in passing. Six hundred years from Jerusalem, the buildings still follow a pattern the record expects its reader to recognize."
+  }
+ ],
+ "words": [
+  {
+   "term": "Mangled",
+   "verse_label": "v. 10",
+   "text": "Torn, hacked about. The word occurs once in all of scripture, here, where \"the carcasses were mangled by dogs and wild beasts\" (v. 10). The record uses a word it never uses again for the one city it says was wholly destroyed. What the verse describes is what happens when nobody is left to bury anyone.",
+   "cites": [
+    {
+     "quote": "the carcasses were mangled by dogs and wild beasts",
+     "verse": 10,
+     "start": 74,
+     "end": 134,
+     "spans": [
+      {
+       "w1": 11,
+       "w2": 19,
+       "text": "the carcasses were mangled by dogs and wild beasts"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Covering",
+   "verse_label": "v. 11",
+   "text": "What is laid over a thing. The dead were eventually heaped and \"covered with a shallow covering\" (v. 11), and the adjective is doing the work. A burial is owed to the dead and this is the least that could be called one. The smell that follows is the verse's comment on it.",
+   "cites": [
+    {
+     "quote": "covered with a shallow covering",
+     "verse": 11,
+     "start": 63,
+     "end": 104,
+     "spans": [
+      {
+       "w1": 20,
+       "w2": 24,
+       "text": "covered with a shallow covering"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Synagogues",
+   "verse_label": "v. 13",
+   "text": "Assembly houses. Alma and Amulek preach in temples, sanctuaries and synagogues, and only the last gets an explanation: they \"were built after the manner of the Jews\" (v. 13). The record supplies the note because it knows how far these people are from Jerusalem, and it lists three kinds of building where one would have done.",
+   "cites": [
+    {
+     "quote": "were built after the manner of the Jews",
+     "verse": 13,
+     "start": 124,
+     "end": 173,
+     "spans": [
+      {
+       "w1": 25,
+       "w2": 32,
+       "text": "were built after the manner of the Jews"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Impart",
+   "verse_label": "v. 14",
+   "text": "To give a share of something. What was imparted was the word, to as many as would hear, \"without any respect of persons\" (v. 14). The verb treats teaching as distribution, and the phrase attached to it rules out the sorting that a distributor might otherwise do.",
+   "cites": [
+    {
+     "quote": "without any respect of persons",
+     "verse": 14,
+     "start": 88,
+     "end": 128,
+     "spans": [
+      {
+       "w1": 18,
+       "w2": 22,
+       "text": "without any respect of persons"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Inequality",
+   "verse_label": "v. 16",
+   "text": "Unevenness between people. The word is absent from the King James Bible and this record uses it six times, twice in Alma 4 for what went wrong at Zarahemla. Here it appears as an absence: \"there was no inequality among them\" (v. 16). The same book that diagnosed the disease twelve chapters ago reports the remission in five words.",
+   "cites": [
+    {
+     "quote": "there was no inequality among them",
+     "verse": 16,
+     "start": 188,
+     "end": 232,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 7,
+       "text": "there was no inequality among them"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "The Lamanites will cross the river Sidon in the south wilderness",
+   "verse_label": "v. 6",
+   "text": "Prophecy given as a map reference. There is no vision reported, no sign, and no explanation of how Alma knows. He inquires, returns, and names a river and a direction, and the army moves on it."
+  },
+  {
+   "term": "There was not one soul of them had been lost",
+   "verse_label": "v. 8",
+   "text": "The rescue counted exactly. Every captive recovered, stated as a number rather than as a mercy. Placed where it is, one verse before the destruction of Ammonihah, the count reads as a deliberate contrast the record leaves the reader to make."
+  },
+  {
+   "term": "Which they said God could not destroy, because of its greatness",
+   "verse_label": "v. 9",
+   "text": "The city's own words, kept for the sentence that reports its destruction. The record could have said Ammonihah fell. It quotes the boast instead, and the quotation does the work that a verdict would."
+  },
+  {
+   "term": "In one day it was left desolate",
+   "verse_label": "v. 10",
+   "text": "The specific thing they refused to believe, in the specific timeframe they refused. Alma 9 has them saying they will not believe the city could be destroyed in one day. The record does not point at the correspondence. It just uses the phrase."
+  },
+  {
+   "term": "Called Desolation of Nehors",
+   "verse_label": "v. 11",
+   "text": "A place name made out of a doctrine. Nehor died in Alma 1 and his teaching seated the judge who ordered the burnings. The land keeps the name of what was taught there, and the record uses the plural, as though there were many of him."
+  },
+  {
+   "term": "Without any respect of persons",
+   "verse_label": "v. 14",
+   "text": "The old phrase for refusing to judge by rank or face. Peter uses it at the moment the gospel opens to the Gentiles. Here it describes how the word was handed out in a society that had just watched wealth and office run a city into the ground."
+  },
+  {
+   "term": "As a branch be grafted into the true vine",
+   "verse_label": "v. 17",
+   "text": "Two images joined. Grafting belongs to Jacob's allegory of the olive tree, and the true vine is the language of John's gospel. The verse uses both to describe what the outpoured Spirit was preparing people for, and the preparation is dated to before the coming rather than after."
+  },
+  {
+   "term": "The word of God being preached in its purity in all the land",
+   "verse_label": "v. 21",
+   "text": "The summary the unit has been building toward since Alma 5. Purity is the claim, and it is made in the same sentence as the victory over the devil and the outpouring of blessings. It is the calmest verse in twelve chapters."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–3",
+   "start": 1,
+   "end": 3,
+   "title": "Peace, and then not",
+   "text": "Years without war, a date to the day, and then armies already inside the borders. Ammonihah is destroyed before an army can be raised, with people around Noah killed and others taken captive."
+  },
+  {
+   "label": "v. 4–6",
+   "start": 4,
+   "end": 6,
+   "title": "A general goes to a prophet",
+   "text": "The Nephites want the captives back. Zoram and his sons come to Alma because he is high priest and has the spirit of prophecy. He inquires and returns with a route."
+  },
+  {
+   "label": "v. 7–8",
+   "start": 7,
+   "end": 8,
+   "title": "The rescue",
+   "text": "They cross the Sidon, march beyond Manti, scatter the Lamanites, and recover every captive. The verse counts them and reports none missing."
+  },
+  {
+   "label": "v. 9–11",
+   "start": 9,
+   "end": 11,
+   "title": "Ammonihah",
+   "text": "Every living soul destroyed, the city with it, in one day, and the boast quoted alongside. The bodies are mangled, then heaped and shallowly covered, and the land stays empty for years under the name Desolation of Nehors."
+  },
+  {
+   "label": "v. 12–13",
+   "start": 12,
+   "end": 13,
+   "title": "Three years, and three kinds of building",
+   "text": "No Lamanite war until the fourteenth year. Alma and Amulek preach in temples, sanctuaries and synagogues, and the record notes which pattern the synagogues followed."
+  },
+  {
+   "label": "v. 14–17",
+   "start": 14,
+   "end": 17,
+   "title": "The word, distributed",
+   "text": "To all who would hear, without respect of persons, continually. The church becomes general, there is no inequality, and the Spirit is poured out to prepare people to receive the word at the time of his coming."
+  },
+  {
+   "label": "v. 18–21",
+   "start": 18,
+   "end": 21,
+   "title": "What they preached, and the close",
+   "text": "Against lying, envying, stealing, murder and the rest; for the coming of the Son, his suffering, death and resurrection. People ask where he will appear and are told, and hear it with joy. The fourteenth year ends in peace."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The chapter is the answer to Alma 9",
+   "text": "Every threat spoken at Ammonihah lands here: destruction by the Lamanites, in one day, upon a city that said it could not happen. The record does not gloat and does not explain. It reports."
+  },
+  {
+   "n": 2,
+   "title": "Two counts sit next to each other",
+   "text": "Not one captive lost, and not one Ammonihahite left. The record puts a total rescue and a total destruction three verses apart and offers no bridge between them."
+  },
+  {
+   "n": 3,
+   "title": "Revelation is used as logistics",
+   "text": "A chief captain asks a high priest where the enemy will be, and gets a river and a direction. The book treats this as an ordinary use of the gift, which says something about how it understands prophecy."
+  },
+  {
+   "n": 4,
+   "title": "The record stays with the bodies",
+   "text": "Mangled, heaped, shallowly covered, and a smell that empties the land for years. The book usually moves on quickly from a battlefield. This one it will not leave, and the lingering is the closest thing to comment it offers."
+  },
+  {
+   "n": 5,
+   "title": "A doctrine is memorialized in a place name",
+   "text": "Desolation of Nehors. What is remembered on the map is not the army that came or the people who died. It is the teaching that made the city what it was."
+  },
+  {
+   "n": 6,
+   "title": "The unit closes on its opposite",
+   "text": "Alma 5 opened with a church in trouble at Zarahemla. Alma 16 ends with the church general throughout the land, no inequality among them, and the word preached in purity. Twelve chapters have taken the reader from a diagnosis to a report of health."
+  },
+  {
+   "n": 7,
+   "title": "The peace is dated and therefore temporary",
+   "text": "The chapter ends the fourteenth year and has already told the reader the Lamanites returned in it. The record hands its calmest verse to a reader who has been given the expiry."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Quote yourself accurately later",
+    "verse_label": "v. 9",
+    "text": "The record kept Ammonihah's boast and set it beside the outcome. Write down the confident thing you are saying this year about how something will turn out, and read it back when you know."
+   },
+   {
+    "title": "Count what was saved",
+    "verse_label": "v. 8",
+    "text": "The rescue is reported as a number: not one soul lost. When something goes right, get specific about how much and who. Vagueness about good outcomes is a habit worth breaking."
+   },
+   {
+    "title": "Ask the person who might actually know",
+    "verse_label": "v. 5",
+    "text": "A general with an army went to a preacher for a location, because that was where the information was. Notice when your pride about categories is keeping you from the one person likely to have the answer."
+   },
+   {
+    "title": "Give it out without sorting",
+    "verse_label": "v. 14",
+    "text": "They imparted to as many as would hear, without respect of persons. Look at who you actually explain things to, and check whether the pattern is about who will listen or about who seems worth the time."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "Whom would I be embarrassed to ask for help, and is the embarrassment costing me the answer?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "What has been recovered in my life that I have never once counted or named?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What am I currently certain cannot happen, and what would it cost me to be wrong?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "What in my life carries the name of what went wrong there, and have I gone back?"
+   },
+   {
+    "verse_label": "v. 14",
+    "start": 14,
+    "end": 14,
+    "text": "Who do I quietly skip when I am handing out attention, time or explanation?"
+   },
+   {
+    "verse_label": "v. 16",
+    "start": 16,
+    "end": 16,
+    "text": "Where is there inequality among the people I am responsible for, and what would removing it require of me?"
+   },
+   {
+    "verse_label": "v. 21",
+    "start": 21,
+    "end": 21,
+    "text": "When things are genuinely going well, do I notice at the time, or only in hindsight?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al16-001",
+   "scope": "BOOK",
+   "head": "Alma 9:4",
+   "anchor": {
+    "verse": 10,
+    "w1": 3,
+    "w2": 9,
+    "quote": "in one day it was left desolate"
+   },
+   "reason": "the thing they refused to believe",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 9,
+     "verse": 4,
+     "w1": 16,
+     "w2": 24,
+     "quote": "this great city should be destroyed in one day.",
+     "verse_text": "And they said also: We will not believe thy words if thou shouldst prophesy that this great city should be destroyed in one day.",
+     "markdown": "And they said also: We will not believe thy words if thou shouldst prophesy that **this great city should be destroyed in one day**.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al16-002",
+   "scope": "BOOK",
+   "head": "Alma 8:16",
+   "anchor": {
+    "verse": 9,
+    "w1": 40,
+    "w2": 50,
+    "quote": "which they said God could not destroy, because of its greatness"
+   },
+   "reason": "the warning, and the boast",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 8,
+     "verse": 16,
+     "w1": 34,
+     "w2": 42,
+     "quote": "except they repent the Lord God will destroy them.",
+     "verse_text": "And behold, I am sent to command thee that thou return to the city of Ammonihah, and preach again unto the people of the city; yea, preach unto them. Yea, say unto them, except they repent the Lord God will destroy them.",
+     "markdown": "And behold, I am sent to command thee that thou return to the city of Ammonihah, and preach again unto the people of the city; yea, preach unto them. Yea, say unto them, **except they repent the Lord God will destroy them**.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al16-003",
+   "scope": "BOOK",
+   "head": "Alma 1:15",
+   "anchor": {
+    "verse": 11,
+    "w1": 52,
+    "w2": 55,
+    "quote": "called Desolation of Nehors"
+   },
+   "reason": "the teacher, and the ground named for him",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 1,
+     "verse": 15,
+     "w1": 58,
+     "w2": 62,
+     "quote": "he suffered an ignominious death.",
+     "verse_text": "And it came to pass that they took him; and his name was Nehor; and they carried him upon the top of the hill Manti, and there he was caused, or rather did acknowledge, between the heavens and the earth, that what he had taught to the people was contrary to the word of God; and there he suffered an ignominious death.",
+     "markdown": "And it came to pass that they took him; and his name was Nehor; and they carried him upon the top of the hill Manti, and there he was caused, or rather did acknowledge, between the heavens and the earth, that what he had taught to the people was contrary to the word of God; and there **he suffered an ignominious death**.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al16-004",
+   "scope": "BOOK",
+   "head": "Alma 4:12",
+   "anchor": {
+    "verse": 16,
+    "w1": 2,
+    "w2": 7,
+    "quote": "there was no inequality among them"
+   },
+   "reason": "the disease, in remission",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 4,
+     "verse": 12,
+     "w1": 2,
+     "w2": 8,
+     "quote": "he saw great inequality among the people,",
+     "verse_text": "Yea, he saw great inequality among the people, some lifting themselves up with their pride, despising others, turning their backs upon the needy and the naked and those who were hungry, and those who were athirst, and those who were sick and afflicted.",
+     "markdown": "Yea, **he saw great inequality among the people**, some lifting themselves up with their pride, despising others, turning their backs upon the needy and the naked and those who were hungry, and those who were athirst, and those who were sick and afflicted.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al16-005",
+   "scope": "SW",
+   "head": "Acts 10:34",
+   "anchor": {
+    "verse": 14,
+    "w1": 18,
+    "w2": 22,
+    "quote": "without any respect of persons"
+   },
+   "reason": "the phrase at the gospel’s widening",
+   "targets": [
+    {
+     "ref": "Acts",
+     "chapter": 10,
+     "verse": 34,
+     "w1": 14,
+     "w2": 19,
+     "quote": "God is no respecter of persons:",
+     "verse_text": "Then Peter opened his mouth, and said, Of a truth I perceive that God is no respecter of persons:",
+     "markdown": "Then Peter opened his mouth, and said, Of a truth I perceive that **God is no respecter of persons**:",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al16-006",
+   "scope": "SW",
+   "head": "John 15:1",
+   "anchor": {
+    "verse": 17,
+    "w1": 31,
+    "w2": 39,
+    "quote": "as a branch be grafted into the true vine"
+   },
+   "reason": "the vine named",
+   "targets": [
+    {
+     "ref": "John",
+     "chapter": 15,
+     "verse": 1,
+     "w1": 1,
+     "w2": 5,
+     "quote": "I am the true vine,",
+     "verse_text": "I am the true vine, and my Father is the husbandman.",
+     "markdown": "**I am the true vine**, and my Father is the husbandman.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 9,
+   "w1": 40,
+   "w2": 50,
+   "quote": "which they said God could not destroy, because of its greatness",
+   "entries": [
+    "al16-002"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 3,
+   "w2": 9,
+   "quote": "in one day it was left desolate",
+   "entries": [
+    "al16-001"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 52,
+   "w2": 55,
+   "quote": "called Desolation of Nehors",
+   "entries": [
+    "al16-003"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 18,
+   "w2": 22,
+   "quote": "without any respect of persons",
+   "entries": [
+    "al16-005"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 2,
+   "w2": 7,
+   "quote": "there was no inequality among them",
+   "entries": [
+    "al16-004"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 31,
+   "w2": 39,
+   "quote": "as a branch be grafted into the true vine",
+   "entries": [
+    "al16-006"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "d41c06ea51e7023a"
+ }
+}

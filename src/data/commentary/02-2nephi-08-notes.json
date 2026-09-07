@@ -88,13 +88,13 @@
   {
    "term": "Comfort",
    "verse_label": "v. 3",
-   "text": "The chapter's spine. God will \"comfort Zion\" and \"comfort all her waste places\" (v. 3); the speaker identifies himself as the one \"that comforteth you\" (v. 12); and at the low point the question turns back on itself, \"by whom shall I comfort thee?\" (v. 19). The older sense carries strength in it, and the sequence runs from promise to person to problem and back.",
+   "text": "The chapter's spine. Treated at 1 Nephi 5:6. God will \"comfort Zion\" and \"comfort all her waste places\" (v. 3); the speaker identifies himself as the one \"that comforteth you\" (v. 12); and at the low point the question turns back on itself, \"by whom shall I comfort thee?\" (v. 19). The older sense carries strength in it, and the sequence runs from promise to person to problem and back.",
    "cites": [
     {
      "quote": "comfort all her waste places",
      "verse": 3,
-     "start": 49,
-     "end": 86,
+     "start": 73,
+     "end": 110,
      "spans": [
       {
        "w1": 9,
@@ -106,8 +106,8 @@
     {
      "quote": "that comforteth you",
      "verse": 12,
-     "start": 130,
-     "end": 159,
+     "start": 154,
+     "end": 183,
      "spans": [
       {
        "w1": 8,
@@ -119,8 +119,8 @@
     {
      "quote": "by whom shall I comfort thee?",
      "verse": 19,
-     "start": 217,
-     "end": 256,
+     "start": 241,
+     "end": 280,
      "spans": [
       {
        "w1": 23,
@@ -161,6 +161,11 @@
      "verse_end": 24
     }
    ]
+  },
+  {
+   "term": "Exile",
+   "verse_label": "v. 14",
+   "text": "A person banished from home, and here a captive one in a hurry. The word appears once in this record and twice in the King James Bible, one of those being this same verse of Isaiah. Verse 14 has him hastening to be loosed, with two things at his back: dying in the pit, and his bread failing. The picture is of someone already moving, and the release comes out to meet him."
   },
   {
    "term": "Dregs",
@@ -337,151 +342,62 @@
    "label": "v. 1–2",
    "start": 1,
    "end": 2,
-   "title": "Look down, then look back",
-   "text": "The command is to inspect your own origin, and the evidence offered is a couple: \"for I called him alone, and blessed him\" (v. 2). A people that felt small was told to remember it started smaller. This is argument by arithmetic, and it is aimed at exiles who could count their own numbers on a single beach.",
-   "cites": [
+   "title": "Two audiences, then one",
+   "text": "The King James verse addresses two groups, \"ye that follow after righteousness\" and \"ye that seek the Lord,\" and this version keeps the first and drops the second, so the chapter is aimed at people already walking rather than at people still looking. Verse 2 makes a matching cut: Isaiah 51:2 reads \"I called him alone, and blessed him, and increased him,\" and the third verb is gone here. Abraham is called and blessed; the increase is left for the next twenty verses to demonstrate."
+  },
+  {
+   "label": "v. 7",
+   "start": 7,
+   "end": 7,
+   "title": "Written, not merely present",
+   "text": "Isaiah 51:7 locates the law in the heart and stops there, \"in whose heart is my law.\" This version supplies an agent, \"in whose heart I have written my law,\" and those three added words are the only place in the chapter where God claims an action performed inside a person rather than on a landscape, a sea, or an empire. The phrasing lands on Jer. 31:33, the one other passage in scripture that puts a written law in a heart.",
+   "refs": [
     {
-     "quote": "for I called him alone, and blessed him",
-     "verse": 2,
-     "start": 81,
-     "end": 129,
-     "spans": [
-      {
-       "w1": 13,
-       "w2": 20,
-       "text": "for I called him alone, and blessed him"
-      }
-     ]
+     "kind": "scripture",
+     "text": "Jer. 31:33",
+     "start": 344,
+     "end": 354,
+     "book": "Jer",
+     "chapter": 31,
+     "verse_start": 33,
+     "verse_end": 33
     }
    ]
   },
   {
-   "label": "v. 3",
-   "start": 3,
-   "end": 3,
-   "title": "Waste places, and what they become",
-   "text": "Comfort here is a landscape change: wilderness to Eden, desert to the garden of the Lord, with sound added last, \"thanksgiving and the voice of melody\" (v. 3). The promise moves from ruin to the first garden in scripture, skipping over mere repair. Nothing is restored to what it was; it is made better than it was.",
-   "cites": [
-    {
-     "quote": "thanksgiving and the voice of melody",
-     "verse": 3,
-     "start": 113,
-     "end": 158,
-     "spans": [
-      {
-       "w1": 38,
-       "w2": 43,
-       "text": "thanksgiving and the voice of melody"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 6–8",
-   "start": 6,
-   "end": 8,
-   "title": "What wears out, and what does not",
-   "text": "Heavens vanish like smoke, earth ages like clothing, and the people who mock the righteous get eaten by moths and worms. Against all that decay two things are said twice to last: \"my salvation shall be forever\" (v. 6), \"my righteousness shall be forever\" (v. 8). The instruction in between is simply to stop being afraid of temporary people.",
-   "cites": [
-    {
-     "quote": "my salvation shall be forever",
-     "verse": 6,
-     "start": 179,
-     "end": 217,
-     "spans": [
-      {
-       "w1": 42,
-       "w2": 46,
-       "text": "my salvation shall be forever"
-      }
-     ]
-    },
-    {
-     "quote": "my righteousness shall be forever",
-     "verse": 8,
-     "start": 219,
-     "end": 261,
-     "spans": [
-      {
-       "w1": 20,
-       "w2": 24,
-       "text": "my righteousness shall be forever"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 9–11",
+   "label": "v. 9–10",
    "start": 9,
+   "end": 10,
+   "title": "The arm becomes a person",
+   "text": "The prayer to the arm of the Lord asks its questions of an it in the King James text: \"Art thou not it that hath cut Rahab,\" \"Art thou not it which hath dried the sea.\" Both become he and he who here, and nothing else in the two verses moves. The change is one letter twice, small enough to read past, and it turns an address to a divine attribute into an address to someone."
+  },
+  {
+   "label": "v. 11",
+   "start": 11,
    "end": 11,
-   "title": "Waking the arm",
-   "text": "The prayer is bold to the edge of rudeness: put on strength, wake up, do again what you did to Rahab and the sea. Then the memory of the exodus turns into the future without a seam, and the ransomed walk home singing. It is worth noticing that the prayer asks for nothing new. The whole request is for a repeat performance."
+   "title": "Two words added to the homecoming",
+   "text": "The ransomed wear \"everlasting joy\" in Isaiah 51:11; here they wear \"everlasting joy and holiness,\" and the singular head becomes heads. Twenty-two of this chapter's twenty-five verses carry a real change against the King James text, but only nine of those changes add material rather than swapping or cutting it, which makes the additions a short enough list to read as a set."
   },
   {
-   "label": "v. 12–13",
-   "start": 12,
-   "end": 13,
-   "title": "Afraid of grass",
-   "text": "God's answer to the prayer is a question about fear. The oppressor is \"man, who shall die\" (v. 12), grass in the end, while the one forgotten is the maker of heaven and earth. The last line refuses to argue further: \"And where is the fury of the oppressor?\" (v. 13). Empires that terrify a generation are often unfindable within two.",
-   "cites": [
-    {
-     "quote": "man, who shall die",
-     "verse": 12,
-     "start": 70,
-     "end": 98,
-     "spans": [
-      {
-       "w1": 21,
-       "w2": 24,
-       "text": "man, who shall die"
-      }
-     ]
-    },
-    {
-     "quote": "And where is the fury of the oppressor?",
-     "verse": 13,
-     "start": 216,
-     "end": 265,
-     "spans": [
-      {
-       "w1": 40,
-       "w2": 47,
-       "text": "And where is the fury of the oppressor?"
-      }
-     ]
-    }
-   ]
+   "label": "v. 15",
+   "start": 15,
+   "end": 15,
+   "title": "Whose name",
+   "text": "The King James verse ends \"The Lord of hosts is his name\"; this one ends \"my name,\" and the clause \"that divided the sea\" drops out just before it. In a single verse the speaker stops being described and starts speaking, and the credential removed is the exodus, which is the exact act verse 10 had just asked him to perform again."
   },
   {
-   "label": "v. 17–20",
-   "start": 17,
+   "label": "v. 19–20",
+   "start": 19,
    "end": 20,
-   "title": "The city in the street",
-   "text": "The most brutal picture in the chapter shows Jerusalem drunk on judgment, with no child able to take her hand, her sons down \"as a wild bull in a net\" (v. 20). The text does not soften it and does not blame anyone else. It sits with the scene long enough that the reversal, when it comes, has something to reverse.",
-   "cites": [
-    {
-     "quote": "as a wild bull in a net",
-     "verse": 20,
-     "start": 125,
-     "end": 158,
-     "spans": [
-      {
-       "w1": 17,
-       "w2": 23,
-       "text": "as a wild bull in a net"
-      }
-     ]
-    }
-   ]
+   "title": "Things, or sons",
+   "text": "Isaiah 51:19 says \"these two things are come unto thee\"; here it is \"these two sons,\" and verse 20 adds \"save these two sons\" where the King James has nothing. One substitution and one insertion turn an abstract pair, desolation and destruction, into children, which is what the surrounding lines are already about: a mother with no one left to take her by the hand."
   },
   {
-   "label": "v. 22–25",
-   "start": 22,
+   "label": "v. 24–25",
+   "start": 24,
    "end": 25,
-   "title": "The cup changes hands",
-   "text": "God takes the cup out of Jerusalem's hand and gives it to those who told her to lie down so they could walk over her. Then come the three commands: wake, dress, loosen. A city that could not stand is told to stand, and the neck that wore the bands is the same neck. Deliverance in this chapter is never a change of person, only of posture."
+   "title": "Where the chapter stops",
+   "text": "Isaiah 51 runs twenty-three verses; this chapter runs twenty-five, and the extra two are Isaiah 52:1–2 carried across whole. The chapter break is drawn two verses later than the King James one, which puts the three commands, awake and arise and loose thyself, in the same chapter as the cup they answer. Only three verses here are left untouched: 3, 13, and 14."
   }
  ],
  "chapter": [
@@ -503,7 +419,7 @@
   {
    "n": 4,
    "title": "Comfort is the chapter's measure, and it is tested",
-   "text": "The word arrives as a promise about ruined places, returns as a self-introduction, and then appears as a question with no obvious answer while the city lies in the street. A chapter that used the word only in the promise would be thinner. This one lets the promise be interrogated by the worst verse in it."
+   "text": "The word arrives as a promise about ruined places, returns as a self-introduction, and then appears as a question with no obvious answer while the city lies in the street. A chapter that used the word only in the promise would be thinner. This one lets the worst verse in the chapter put the promise to the question."
   },
   {
    "n": 5,
@@ -513,12 +429,12 @@
   {
    "n": 6,
    "title": "The colony had been living on this vocabulary",
-   "text": "Lehi's last charge to his sons borrowed the awake-and-arise summons and turned the beautiful garments into armor. Hearing the source read aloud after the father's death puts the family's own history inside a text older than the family, which is exactly the use Jacob claimed for Isaiah when he began."
+   "text": "The summons stands three times in this chapter, at verses 9, 17, and 24, and it is the same wording the father used at 2 Nephi 1:23, \"Awake, my sons; put on the armor of righteousness. Shake off the chains with which ye are bound.\" Verse 25 supplies the source of that second image, \"loose thyself from the bands of thy neck.\" Beautiful garments in the source become armor in the borrowing, and the chains are kept. This language was already in daily use among them before the chapter was ever read aloud."
   },
   {
    "n": 7,
    "title": "The unit's pivot toward deliverance",
-   "text": "Two chapters of reading have set out the problem and the summons; the cup handed to the oppressor is the first act of rescue performed rather than promised. Jacob's own great chapter follows immediately, and its argument about the reach of the atonement starts from a hearer who has just been told to stand up."
+   "text": "The cup appears twice with opposite recipients. Verse 17 has Jerusalem \"drunk at the hand of the Lord the cup of his fury\"; verse 22 takes it away, \"I have taken out of thine hand the cup of trembling\"; verse 23 hands it on, \"I will put it into the hand of them that afflict thee.\" Three verses, one object, three holders. It is the first thing in the reading that is done rather than promised, and 2 Nephi 9 begins from a congregation that has just heard it. stand up."
   }
  ],
  "world_in_front": {
@@ -670,7 +586,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "3ne20-005"
   },
   {
    "id": "2ne08-004",
@@ -696,7 +612,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "moro10-006"
   },
   {
    "id": "2ne08-005",
@@ -905,7 +821,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "1c32dbb2252a55cf"
+  "at": "2026-09-07",
+  "source_sha256": "45e3da267be77036"
  }
 }

@@ -16,9 +16,9 @@
   "principles": [
    "A test proposed by unbelievers",
    "An accusation that fits the accuser",
-   ""
+   "A prediction given as a script"
   ],
-  "connections": 10,
+  "connections": 11,
   "initial": false
  },
  "world_behind": [
@@ -30,7 +30,7 @@
   {
    "n": 2,
    "title": "They are arrested for the murder",
-   "text": "Verses 7 through 9 have a crowd that knows nothing of the garden find five men prostrate by the body and conclude that God struck them."
+   "text": "Verses 7 through 9 have a crowd that knows nothing of the garden find five men prostrate by the body and conclude that God struck them. Helaman 7:10 puts Nephi's tower in his garden by the highway to the chief market, so the two crowds of these chapters formed a few hundred yards apart and never met."
   },
   {
    "n": 3,
@@ -45,17 +45,39 @@
   {
    "n": 5,
    "title": "They offer money and his life",
-   "text": "Verse 20 has a bribe and a pardon in the same sentence, on condition of naming a partner."
+   "text": "Verse 20 offers a bribe and a pardon in one sentence on condition of naming a partner. Helaman 7:5 had charged the judges with letting the guilty go unpunished because of their money; this verse shows the same currency being offered rather than taken."
   },
   {
    "n": 6,
    "title": "Nephi answers with a second sign written as dialogue",
-   "text": "Verses 26 through 36 give the questions to ask Seantum, his replies, the blood on the cloak, and his confession, in order."
+   "text": "Verses 26 through 36 script the whole interview in advance: the questions to ask Seantum, his replies, the blood on the skirts of his cloak, and his confession, in order. Nothing else in the volume gives a prophecy as a transcript of a conversation that has not happened yet."
   },
   {
    "n": 7,
    "title": "The people divide three ways",
-   "text": "Verses 39 through 41 have some believing Nephi, some believing the five, some calling him a prophet, and some calling him a god."
+   "text": "Verses 39 through 41 split the crowd four ways, ending with some who call him a god. Alma 18:2 to 5 has king Lamoni's servants reach the same conclusion about Ammon, and Alma 19:25 has the crowd argue it out. The record reports this misreading twice and corrects it both times.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 18:2",
+     "start": 85,
+     "end": 94,
+     "book": "Alma",
+     "chapter": 18,
+     "verse_start": 2,
+     "verse_end": 2
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 19:25",
+     "start": 170,
+     "end": 180,
+     "book": "Alma",
+     "chapter": 19,
+     "verse_start": 25,
+     "verse_end": 25
+    }
+   ]
   }
  ],
  "words": [
@@ -67,7 +89,7 @@
   {
    "term": "Detect",
    "verse_label": "v. 17",
-   "text": "To expose or catch out. The word occurs once in all of scripture, here, where the judges announce their plan to make Nephi confess and name the real killer."
+   "text": "To expose or catch out. This is its one appearance in all of scripture, here, where the judges announce their plan to make Nephi confess and name the real killer."
   },
   {
    "term": "Confederate",
@@ -82,7 +104,7 @@
   {
    "term": "Skirts",
    "verse_label": "v. 31",
-   "text": "The lower edges of a garment. The word occurs once in the record and seven times in the King James Bible, including Jeremiah 2:34, where blood is found in the skirts of a nation."
+   "text": "The lower edges of a garment. It appears once in the record, and seven times in the King James Bible, including Jeremiah 2:34, where blood is found in the skirts of a nation."
   },
   {
    "term": "Paleness",
@@ -173,53 +195,39 @@
  ],
  "verses": [
   {
-   "label": "v. 1–5",
-   "start": 1,
+   "label": "v. 2",
+   "start": 2,
+   "end": 2,
+   "title": "The sceptics design the test, and it is a fair one",
+   "text": "The record puts the experiment in the mouths of the people who doubt: \"now we will know of a surety whether this man be a prophet and God hath commanded him to prophesy such marvelous things unto us.\" What they propose is to run to the judgment-seat and look. The claim being tested is specific, checkable within minutes, and the check is not the prophet's idea. A record wanting an easy vindication would not have the opposition set the terms."
+  },
+  {
+   "label": "v. 4–5",
+   "start": 4,
    "end": 5,
-   "title": "The five run",
-   "text": "Five men go to the judgment-seat, saying on the way that they do not believe Nephi is a prophet, and that the chief judge's death would change that. They run in their might, find the judge dead in his blood, and fall to the earth astonished, and then fear takes them that the other judgments will come too."
+   "title": "Belief reported in two stages, with the interval named",
+   "text": "The record separates the shock from the conclusion: \"when they saw this they were astonished exceedingly, insomuch that they fell to the earth; for they had not believed the words which Nephi had spoken concerning the chief judge.\" Verse 5 gives the change and its consequence: \"when they saw they believed, and fear came upon them lest all the judgments which Nephi had spoken should come upon the people.\" What frightens them is not the corpse but the rest of the prophecy, which the corpse has just made credible."
   },
   {
-   "label": "v. 6–9",
-   "start": 6,
-   "end": 9,
-   "title": "The wrong arrest",
-   "text": "The judge had been stabbed by his brother under a garb of secrecy, and the killer fled while servants raised the cry. The people gather at the judgment-seat and find five men on the ground. Knowing nothing of the garden, they conclude these are the murderers whom God has struck, bind them, imprison them, and send out a proclamation."
-  },
-  {
-   "label": "v. 10–15",
-   "start": 10,
+   "label": "v. 14–15",
+   "start": 14,
    "end": 15,
-   "title": "The burial and the inquiry",
-   "text": "The next day the people assemble to mourn and fast at the burial, and the judges who had heard Nephi are there. They ask for the five they had sent and are told only that five murderers are in prison. The prisoners are brought, prove to be the messengers, and describe running, finding everything as Nephi said, falling down, and being jailed. They say they do not know who killed the man."
+   "title": "Witnesses who mark the edge of what they know",
+   "text": "The record has the five give their account and then stop precisely: \"as for the murder of this man, we know not who has done it; and only this much we know, we ran and came according as ye desired, and behold he was dead, according to the words of Nephi.\" The phrase only this much we know separates what they saw from what they cannot say. The record keeps the disclaimer, which is what makes the testimony worth anything."
   },
   {
-   "label": "v. 16–20",
+   "label": "v. 16–17",
    "start": 16,
-   "end": 20,
-   "title": "Nephi accused",
-   "text": "The judges explain the matter to the people and charge that Nephi arranged the murder to make himself a great man and a prophet, and say they will detect him and make him name the killer. The five are freed at the burial and rebuke the judges, contending with them one by one until they confound them. Nephi is bound and brought before the multitude and questioned in ways meant to trap him, and offered money and his life for a confession."
-  },
-  {
-   "label": "v. 21–25",
-   "start": 21,
-   "end": 25,
-   "title": "His answer",
-   "text": "He calls them fools, uncircumcised of heart, blind, and stiffnecked, asks how long God will suffer them, and tells them to howl and mourn for the destruction awaiting them. He says the charge exists only because he testified so they would know, as a witness that he knew of their wickedness, and offers another sign."
-  },
-  {
-   "label": "v. 26–36",
-   "start": 26,
-   "end": 36,
-   "title": "The script",
-   "text": "Go to Seantum, Seezoram's brother, and ask whether Nephi conspired with him. He will say no. Ask whether he killed his brother. He will stand in fear, not know what to say, deny it, act astonished, and claim innocence. Examine him and find blood on the skirts of his cloak. Ask where it came from, and he will tremble and go pale. Tell him the fear and paleness prove his guilt, and greater fear will bring a confession, and he will say Nephi knew nothing except by the power of God."
+   "end": 17,
+   "title": "A counter-theory built from the prophet's own accuracy",
+   "text": "The record has the judges turn the successful prediction into evidence of a plot: \"we know that this Nephi must have agreed with some one to slay the judge, and then he might declare it unto us, that he might convert us unto his faith.\" Verse 17 states the plan that follows from it, \"we will detect this man, and he shall confess his fault and make known unto us the true murderer.\" Foreknowledge is read as complicity, which is the only alternative to prophecy the argument allows."
   },
   {
    "label": "v. 37–41",
    "start": 37,
    "end": 41,
-   "title": "It happens",
-   "text": "They go and do exactly as told, and the words prove true in the denial and in the confession. Seantum is shown to be the murderer, the five are freed, and so is Nephi. Some Nephites believe Nephi's words and some the testimony of the five, who had been converted in prison. Some say he is a prophet, and others say he is a god, since only a god could know the thoughts of their hearts."
+   "title": "One confirmed prediction, four different conclusions",
+   "text": "The record reports the test passing, \"they went and did, even according as Nephi had said unto them. And behold, the words which he had said were true,\" and then declines to report a single response. Some believed on his words; some \"believed because of the testimony of the five\"; some \"said that Nephi was a prophet\"; and others \"said: Behold, he is a god, for except he was a god he could not know of all things.\" A verified prophecy produces a split audience, and the record lists the positions instead of resolving them."
   }
  ],
  "chapter": [
@@ -236,7 +244,7 @@
   {
    "n": 3,
    "title": "The accusation describes the accusers",
-   "text": "Judges who belong to a band of secret murderers explain the murder as a conspiracy."
+   "text": "Verse 1 counts the men who ran, \"there were five who went,\" and verse 2 quotes their reasoning before they arrive, \"we do not believe that he is a prophet.\" Helaman 8:1 and 8:4 have already identified some of the judges present as belonging to Gadianton's band, and Helaman 9:38 records the murderer confessing. The charge those judges bring against Nephi at verse 16 is that he agreed with a confederate; the record has already told the reader which party in the room actually works that way."
   },
   {
    "n": 4,
@@ -251,7 +259,7 @@
   {
    "n": 6,
    "title": "The evidence is physical and checkable",
-   "text": "Blood on the skirts of a cloak, a tremble, a pale face. Nothing in the script requires trusting Nephi about anything unseen."
+   "text": "Verses 26 through 36 give a script of eleven steps, each stating in advance what the suspect will do. Three of them are physical and checkable on the spot: \"ye shall find blood upon the skirts of his cloak\" at verse 31, \"then shall he tremble, and shall look pale\" at verse 33, and the confession at verse 35. Verse 37 reports the test run and confirms it in the record's own words, \"the words which he had said were true; for according to the words he did deny; and also according to the words he did confess.\" Nothing in the procedure requires taking the prophet's word for anything unseen."
   },
   {
    "n": 7,
@@ -277,14 +285,34 @@
     "text": "A crowd found five men by a body and got it exactly wrong. Ask what you would be missing if the obvious reading were false."
    },
    {
+    "title": "Report only what you actually know",
+    "verse_label": "v. 15",
+    "text": "The five said plainly that they did not know who had done the murder, and then stated the small thing they did know. Under suspicion the pull is to supply a theory, and the credible witness marks the edge of his knowledge instead."
+   },
+   {
     "title": "Notice when an accusation matches the accuser",
     "verse_label": "v. 16",
     "text": "People often explain events with the mechanism they know best. What someone imagines you did can describe them."
    },
    {
+    "title": "Watch what gets offered alongside the accusation",
+    "verse_label": "v. 20",
+    "text": "The judges demanded a confession and in the same breath offered Nephi money and his life. Pressure that arrives bundled with a payment tells you the people applying it are not confident of the case."
+   },
+   {
     "title": "Make the check something anyone can run",
     "verse_label": "v. 31",
     "text": "Nephi pointed at blood on a cloak. When you want to be believed, offer the thing that can be examined rather than the thing that must be trusted."
+   },
+   {
+    "title": "Something can still happen in the worst room",
+    "verse_label": "v. 39",
+    "text": "The five were converted while they sat in prison on a charge they had not earned. A stretch you would never have chosen is still a stretch in which something can change."
+   },
+   {
+    "title": "Correct the flattery as quickly as the slander",
+    "verse_label": "v. 41",
+    "text": "Some concluded that Nephi must be a god, since nobody else could have known. Being overestimated is a misreading too, and it is harder to refuse because it arrives as praise."
    }
   ],
   "questions": [
@@ -369,7 +397,7 @@
     "w2": 46,
     "quote": "that I am an honest man, and that I am sent unto you from God"
    },
-   "reason": "the Lord’s own verdict on the same man, given on the road home",
+   "reason": "the Lord's verdict on the same man, given homeward",
    "targets": [
     {
      "ref": "Hel.",
@@ -395,7 +423,7 @@
     "w2": 39,
     "quote": "we know that this Nephi must have agreed with some one to slay the judge"
    },
-   "reason": "the same judges’ first attempt, an hour earlier",
+   "reason": "the same judges' first attempt, an hour earlier",
    "targets": [
     {
      "ref": "Hel.",
@@ -409,7 +437,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel08-012"
+  },
+  {
+   "id": "hel09-011",
+   "scope": "BOOK",
+   "head": "Hel. 10:6",
+   "anchor": {
+    "verse": 41,
+    "w1": 8,
+    "w2": 24,
+    "quote": "he is a god, for except he was a god he could not know of all things."
+   },
+   "reason": "the answer given to the question they asked",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 10,
+     "verse": 6,
+     "w1": 1,
+     "w2": 8,
+     "quote": "Behold, thou art Nephi, and I am God.",
+     "verse_text": "Behold, thou art Nephi, and I am God. Behold, I declare it unto thee in the presence of mine angels, that ye shall have power over this people, and shall smite the earth with famine, and with pestilence, and destruction, according to the wickedness of this people.",
+     "markdown": "**Behold, thou art Nephi, and I am God**. Behold, I declare it unto thee in the presence of mine angels, that ye shall have power over this people, and shall smite the earth with famine, and with pestilence, and destruction, according to the wickedness of this people.",
+     "span": true
+    }
+   ],
+   "mirror": "hel10-004"
   },
   {
    "id": "hel09-004",
@@ -435,7 +489,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al11-015"
   },
   {
    "id": "hel09-005",
@@ -461,7 +515,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al30-015"
   },
   {
    "id": "hel09-006",
@@ -487,7 +541,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al30-016"
   },
   {
    "id": "hel09-007",
@@ -513,7 +567,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al18-006"
   },
   {
    "id": "hel09-008",
@@ -525,7 +579,7 @@
     "w2": 35,
     "quote": "he has told us the thoughts of our hearts"
    },
-   "reason": "Alma telling Zeezrom his thoughts were made known by the Spirit",
+   "reason": "Alma telling Zeezrom the Spirit made his thoughts known",
    "targets": [
     {
      "ref": "Alma",
@@ -539,7 +593,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al12-013"
   },
   {
    "id": "hel09-009",
@@ -577,7 +631,7 @@
     "w2": 17,
     "quote": "ye shall find blood upon the skirts of his cloak"
    },
-   "reason": "the same blood in the same place, said of a whole nation",
+   "reason": "the same blood in the same place, of a nation",
    "targets": [
     {
      "ref": "Jer.",
@@ -671,8 +725,9 @@
    "verse": 41,
    "w1": 8,
    "w2": 24,
-   "quote": "he is a god, for except he was a god he could not know of all things",
+   "quote": "he is a god, for except he was a god he could not know of all things.",
    "entries": [
+    "hel09-011",
     "hel09-007"
    ]
   },
@@ -687,7 +742,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-26",
-  "source_sha256": "8f03dc1bed55a2a0"
+  "at": "2026-09-07",
+  "source_sha256": "5ff2d252e23f11ef"
  }
 }

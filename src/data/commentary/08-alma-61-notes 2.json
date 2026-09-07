@@ -1,0 +1,737 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 61,
+  "volume_order": "08",
+  "speakers": [
+   "Pahoran, by letter"
+  ],
+  "audience": "Moroni, chief captain",
+  "location": "The land of Gideon, written to Moroni's camp",
+  "date": "~62 BC",
+  "unit": "The war chapters (Alma 43–63)",
+  "principles": [
+   "A censure received without offense",
+   "A capital lost to rebellion",
+   ""
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "This is the answer to Alma 60",
+   "text": "Verse 1 says the reply came soon after Moroni sent his letter. The accusation of treason stood for one chapter of the record."
+  },
+  {
+   "n": 2,
+   "title": "Pahoran is writing from exile",
+   "text": "Verse 5 says he was driven out and fled to the land of Gideon with as many men as he could get. Moroni had addressed the letter to him \"in the city of Zarahemla.\""
+  },
+  {
+   "n": 3,
+   "title": "Zarahemla is held by a king",
+   "text": "Verse 8 says the rebels took the city, appointed a king, and made an alliance with the king of the Lamanites to hold it."
+  },
+  {
+   "n": 4,
+   "title": "The withheld provisions are accounted for",
+   "text": "Verse 4 says the rebels withheld them and frightened the freemen out of marching. Helaman had reported the shortage in Alma 58:34.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 58:34",
+     "start": 119,
+     "end": 129,
+     "book": "Alma",
+     "chapter": 58,
+     "verse_start": 34,
+     "verse_end": 34
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Pahoran had raised a force before the letter arrived",
+   "text": "Verse 6 says he sent a proclamation and men were flocking to him daily."
+  },
+  {
+   "n": 6,
+   "title": "He was already weighing the same question",
+   "text": "Verse 19 says he was worried about whether attacking his own countrymen would be just, and verse 20 takes Moroni's report of a commandment as the answer."
+  },
+  {
+   "n": 7,
+   "title": "Lehi and Teancum are named as the eastern command",
+   "text": "Verse 15 has Pahoran directing that they be given power to conduct the war while Moroni marches inland."
+  }
+ ],
+ "words": [
+  {
+   "term": "Daunted",
+   "verse_label": "v. 4",
+   "text": "Intimidated into inaction. The word occurs once in the record and never in the King James Bible. Pahoran uses it of freemen who were willing to march and were frightened out of it."
+  },
+  {
+   "term": "Defiance",
+   "verse_label": "v. 7",
+   "text": "An open refusal to yield, or the state of being held at bay. The record uses it three times, at Alma 5:18, 3 Nephi 6:30, and here. Pahoran applies it to the rebels, who now decline to come out and fight.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 5:18",
+     "start": 96,
+     "end": 105,
+     "book": "Alma",
+     "chapter": 5,
+     "verse_start": 18,
+     "verse_end": 18
+    }
+   ]
+  },
+  {
+   "term": "Alliance",
+   "verse_label": "v. 8",
+   "text": "A formal league between powers. Both of the record's uses fall in this one verse, of the compact between the king in Zarahemla and the king of the Lamanites."
+  },
+  {
+   "term": "Censured",
+   "verse_label": "v. 9",
+   "text": "Formally blamed or rebuked. The word occurs once in scripture, here, where Pahoran names what Moroni's letter did to him and sets it aside in the same sentence."
+  },
+  {
+   "term": "Requisite",
+   "verse_label": "v. 12",
+   "text": "Treated at Alma 41:2, of what justice demands. Pahoran uses it for the one condition under which he would accept bondage, and verse 13 says God has given no such command.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 41:2",
+     "start": 11,
+     "end": 20,
+     "book": "Alma",
+     "chapter": 41,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
+  },
+  {
+   "term": "Dissensions",
+   "verse_label": "v. 14",
+   "text": "Treated at Alma 46:16, where Moroni prays against them. Pahoran groups them with rebellions as the evil that words cannot resist.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 46:16",
+     "start": 11,
+     "end": 21,
+     "book": "Alma",
+     "chapter": 46,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "I do not joy in your great afflictions, yea, it grieves my soul",
+   "verse_label": "v. 2",
+   "text": "Pahoran's first sentence after identifying himself. He answers the charge of indifference by naming his own grief before giving any facts."
+  },
+  {
+   "term": "There are those who do joy in your afflictions",
+   "verse_label": "v. 3",
+   "text": "The correction, made without contradicting Moroni directly. Pahoran grants that someone was glad of the suffering and identifies who."
+  },
+  {
+   "term": "They have used great flattery, and they have led away the hearts of many people",
+   "verse_label": "v. 4",
+   "text": "The method of the rebellion. Mormon reported the same method of Amalickiah in Alma 46 and 47, and of the king-men in Alma 51."
+  },
+  {
+   "term": "They have withheld our provisions",
+   "verse_label": "v. 4",
+   "text": "The answer to the question Helaman and Moroni both asked. Neither commander had a way to learn it from where they stood."
+  },
+  {
+   "term": "I have fled to the land of Gideon",
+   "verse_label": "v. 5",
+   "text": "The governor of the land is a refugee. Moroni had addressed his letter to Zarahemla, where Pahoran no longer was."
+  },
+  {
+   "term": "They have appointed a king over them",
+   "verse_label": "v. 8",
+   "text": "The king-men program of Alma 51 carried out. Mosiah 29:21 warned what removing such a king would cost.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 29:21",
+     "start": 45,
+     "end": 57,
+     "book": "Mosiah",
+     "chapter": 29,
+     "verse_start": 21,
+     "verse_end": 21
+    }
+   ]
+  },
+  {
+   "term": "In your epistle you have censured me, but it mattereth not",
+   "verse_label": "v. 9",
+   "text": "The most quoted line of the chapter. Pahoran takes the accusation of treason, sets it down, and moves to the plan."
+  },
+  {
+   "term": "I am not angry, but do rejoice in the greatness of your heart",
+   "verse_label": "v. 9",
+   "text": "His reading of the letter that accused him. He treats the ferocity as evidence of what Moroni cares about."
+  },
+  {
+   "term": "We would subject ourselves to the yoke of bondage if it were requisite with the justice of God",
+   "verse_label": "v. 12",
+   "text": "The condition Pahoran places above his own liberty. Verse 13 says God has commanded trust in him instead."
+  },
+  {
+   "term": "Whatsoever evil we cannot resist with our words... let us resist them with our swords",
+   "verse_label": "v. 14",
+   "text": "The rule Pahoran states for civil war. Words first, and the sword only where words have no purchase, against rebellion and dissension."
+  },
+  {
+   "term": "I was somewhat worried concerning what we should do",
+   "verse_label": "v. 19",
+   "text": "Pahoran had been stalled by a scruple about attacking his own people. Verse 20 says Moroni's report of a commandment resolved it."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–4",
+   "start": 1,
+   "end": 4,
+   "title": "The reply and the rebellion",
+   "text": "Moroni receives an epistle soon after sending his. Pahoran identifies himself, says the afflictions grieve him, and names those who rejoice in them: men who sought his seat, used flattery, led away the hearts of the people, withheld the provisions, and daunted the freemen."
+  },
+  {
+   "label": "v. 5–8",
+   "start": 5,
+   "end": 8,
+   "title": "Exile and alliance",
+   "text": "He has been driven out and has fled to Gideon with what men he could gather. A proclamation has brought volunteers daily, and the rebels now hold back from battle. They have Zarahemla, have appointed a king, and have allied with the king of the Lamanites, who is promised the land and will leave their king in place."
+  },
+  {
+   "label": "v. 9",
+   "start": 9,
+   "end": 9,
+   "title": "The censure answered",
+   "text": "Pahoran says the censure does not matter, that he is not angry, and that he rejoices in the greatness of Moroni's heart. He seeks the judgment-seat only to preserve the rights and liberty of the people, and says his soul stands fast in that liberty."
+  },
+  {
+   "label": "v. 10–14",
+   "start": 10,
+   "end": 14,
+   "title": "When blood may be shed",
+   "text": "They will resist wickedness even to bloodshed. They would not shed Lamanite blood if the Lamanites stayed home, nor their brethren's if the rebels laid down the sword. They would accept bondage if God required it, and God has commanded trust instead. Evil that words cannot resist is to be resisted with swords."
+  },
+  {
+   "label": "v. 15–18",
+   "start": 15,
+   "end": 18,
+   "title": "The plan",
+   "text": "Moroni is to come quickly with a few men, leaving Lehi and Teancum in command on the east with authority to conduct the war. Pahoran has sent them some provisions. Moroni is to gather force on the march, and together they will retake Zarahemla and send food forward."
+  },
+  {
+   "label": "v. 19–21",
+   "start": 19,
+   "end": 21,
+   "title": "Relief and close",
+   "text": "Pahoran says the epistle brought him joy, since he had been worried whether going against his brethren could be just, and Moroni has reported a commandment. He asks that Lehi and Teancum be strengthened and told to fear not, and closes to his beloved brother."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The accusation is answered with information",
+   "text": "Pahoran corrects the facts of Alma 60 in four verses and never disputes the tone."
+  },
+  {
+   "n": 2,
+   "title": "The silence had a cause nobody at the front could see",
+   "text": "The provisions were withheld by rebels, and the freemen were frightened into staying home. Helaman guessed at a faction in Alma 58:36 and was right.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 58:36",
+     "start": 123,
+     "end": 133,
+     "book": "Alma",
+     "chapter": 58,
+     "verse_start": 36,
+     "verse_end": 36
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "The king-men finally got their king",
+   "text": "Verse 8 completes what Alma 51:5 described as their aim, and the price is an alliance with the Lamanite king that would end in conquest.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 51:5",
+     "start": 23,
+     "end": 32,
+     "book": "Alma",
+     "chapter": 51,
+     "verse_start": 5,
+     "verse_end": 5
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Pahoran's reply becomes the standard for taking correction",
+   "text": "Verse 9 sets the censure aside, refuses anger, and reads the letter as evidence of Moroni's heart."
+  },
+  {
+   "n": 5,
+   "title": "He states limits on his own cause",
+   "text": "Verses 10 through 12 name what would stop him: Lamanites who stayed home, brethren who put down the sword, or a command from God to accept bondage."
+  },
+  {
+   "n": 6,
+   "title": "Words come before swords",
+   "text": "Verse 14 puts the sword where speech has failed, and names rebellion and dissension as the cases."
+  },
+  {
+   "n": 7,
+   "title": "Each man needed the other",
+   "text": "Moroni needed the facts; Pahoran needed a warrant to move against his own people. Verses 19 and 20 say the letter supplied it."
+  },
+  {
+   "n": 8,
+   "title": "The letter ends where Moroni's began",
+   "text": "Verse 21 has Pahoran telling Lehi and Teancum to fear not, and blessing all who stand fast in the liberty wherewith God made them free."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Answer the facts and skip the tone",
+    "verse_label": "v. 4–5",
+    "text": "Pahoran corrected what Moroni had wrong and never mentioned how it was said. When an accusation is loud and mistaken, the correction is the useful part."
+   },
+   {
+    "title": "Read anger for what it is about",
+    "verse_label": "v. 9",
+    "text": "Pahoran took Moroni's ferocity as evidence that he cared about the country. Ask what someone is defending before deciding what they are attacking."
+   },
+   {
+    "title": "Name what would change your mind",
+    "verse_label": "v. 10–12",
+    "text": "Pahoran stated the conditions under which he would stop fighting or accept bondage. Knowing your own limits keeps a cause from becoming an appetite."
+   },
+   {
+    "title": "Say when you were stuck",
+    "verse_label": "v. 19",
+    "text": "Pahoran admitted he had been worried and unable to act. Telling someone their message unstuck you is worth more than agreement."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "Who benefits from a difficulty I have blamed on someone else?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What did I not know that would have changed my judgment?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "When was I last censured unfairly, and what did I do with it?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "Whose harshness could I read as evidence of what they care about?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "What would I give up if God required it?"
+   },
+   {
+    "verse_label": "v. 14",
+    "start": 14,
+    "end": 14,
+    "text": "What am I trying to resist with words that words cannot reach?"
+   },
+   {
+    "verse_label": "v. 19",
+    "start": 19,
+    "end": 19,
+    "text": "What decision am I stalled on for want of a warrant?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al61-001",
+   "scope": "BOOK",
+   "head": "Alma 60:1",
+   "anchor": {
+    "verse": 2,
+    "w1": 1,
+    "w2": 10,
+    "quote": "I, Pahoran, who am the chief governor of this land"
+   },
+   "reason": "the letter this one answers, addressed to him at Zarahemla",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 60,
+     "verse": 1,
+     "w1": 29,
+     "w2": 39,
+     "quote": "I direct mine epistle to Pahoran, in the city of Zarahemla,",
+     "verse_text": "And it came to pass that he wrote again to the governor of the land, who was Pahoran, and these are the words which he wrote, saying: Behold, I direct mine epistle to Pahoran, in the city of Zarahemla, who is the chief judge and the governor over the land, and also to all those who have been chosen by this people to govern and manage the affairs of this war.",
+     "markdown": "And it came to pass that he wrote again to the governor of the land, who was Pahoran, and these are the words which he wrote, saying: Behold, **I direct mine epistle to Pahoran, in the city of Zarahemla**, who is the chief judge and the governor over the land, and also to all those who have been chosen by this people to govern and manage the affairs of this war.",
+     "span": true
+    }
+   ],
+   "mirror": "al60-002"
+  },
+  {
+   "id": "al61-002",
+   "scope": "BOOK",
+   "head": "Alma 58:36",
+   "anchor": {
+    "verse": 4,
+    "w1": 4,
+    "w2": 14,
+    "quote": "those who have sought to take away the judgment-seat from me"
+   },
+   "reason": "Helaman fearing a faction in the government and naming it as a fear",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 58,
+     "verse": 36,
+     "w1": 8,
+     "w2": 17,
+     "quote": "we fear that there is some faction in the government,",
+     "verse_text": "And if it is not so, behold, we fear that there is some faction in the government, that they do not send more men to our assistance; for we know that they are more numerous than that which they have sent.",
+     "markdown": "And if it is not so, behold, **we fear that there is some faction in the government**, that they do not send more men to our assistance; for we know that they are more numerous than that which they have sent.",
+     "span": true
+    }
+   ],
+   "mirror": "al58-002"
+  },
+  {
+   "id": "al61-003",
+   "scope": "BOOK",
+   "head": "Alma 58:34",
+   "anchor": {
+    "verse": 4,
+    "w1": 50,
+    "w2": 54,
+    "quote": "they have withheld our provisions"
+   },
+   "reason": "the question Helaman asked and could not answer from the field",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 58,
+     "verse": 34,
+     "w1": 2,
+     "w2": 16,
+     "quote": "we do not know the cause that the government does not grant us more strength;",
+     "verse_text": "Now we do not know the cause that the government does not grant us more strength; neither do those men who came up unto us know why we have not received greater strength.",
+     "markdown": "Now **we do not know the cause that the government does not grant us more strength**; neither do those men who came up unto us know why we have not received greater strength.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al61-004",
+   "scope": "BOOK",
+   "head": "Alma 51:5",
+   "anchor": {
+    "verse": 8,
+    "w1": 13,
+    "w2": 19,
+    "quote": "they have appointed a king over them"
+   },
+   "reason": "the king-men aim stated, years before it succeeded",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 51,
+     "verse": 5,
+     "w1": 35,
+     "w2": 47,
+     "quote": "to overthrow the free government and to establish a king over the land.",
+     "verse_text": "And it came to pass that those who were desirous that Pahoran should be dethroned from the judgment-seat were called king-men, for they were desirous that the law should be altered in a manner to overthrow the free government and to establish a king over the land.",
+     "markdown": "And it came to pass that those who were desirous that Pahoran should be dethroned from the judgment-seat were called king-men, for they were desirous that the law should be altered in a manner **to overthrow the free government and to establish a king over the land**.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al61-005",
+   "scope": "BOOK",
+   "head": "Alma 60:36",
+   "anchor": {
+    "verse": 9,
+    "w1": 27,
+    "w2": 39,
+    "quote": "I, Pahoran, do not seek for power, save only to retain my judgment-seat"
+   },
+   "reason": "Moroni disclaiming ambition in nearly the same words",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 60,
+     "verse": 36,
+     "w1": 8,
+     "w2": 17,
+     "quote": "I seek not for power, but to pull it down.",
+     "verse_text": "Behold, I am Moroni, your chief captain. I seek not for power, but to pull it down. I seek not for honor of the world, but for the glory of my God, and the freedom and welfare of my country. And thus I close mine epistle.",
+     "markdown": "Behold, I am Moroni, your chief captain. **I seek not for power, but to pull it down**. I seek not for honor of the world, but for the glory of my God, and the freedom and welfare of my country. And thus I close mine epistle.",
+     "span": true
+    }
+   ],
+   "mirror": "al60-006"
+  },
+  {
+   "id": "al61-006",
+   "scope": "BOOK",
+   "head": "Alma 60:18",
+   "anchor": {
+    "verse": 9,
+    "w1": 3,
+    "w2": 13,
+    "quote": "in your epistle you have censured me, but it mattereth not"
+   },
+   "reason": "the sentence that censured him, made as an admission of ignorance",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 60,
+     "verse": 18,
+     "w1": 22,
+     "w2": 33,
+     "quote": "We know not but what ye are also traitors to your country.",
+     "verse_text": "But why should I say much concerning this matter? For we know not but what ye yourselves are seeking for authority. We know not but what ye are also traitors to your country.",
+     "markdown": "But why should I say much concerning this matter? For we know not but what ye yourselves are seeking for authority. **We know not but what ye are also traitors to your country**.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al61-007",
+   "scope": "BOOK",
+   "head": "Alma 43:47",
+   "anchor": {
+    "verse": 10,
+    "w1": 4,
+    "w2": 10,
+    "quote": "we will resist wickedness even unto bloodshed"
+   },
+   "reason": "the rule the fathers were given about defending to the point of blood",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 43,
+     "verse": 47,
+     "w1": 8,
+     "w2": 15,
+     "quote": "Ye shall defend your families even unto bloodshed.",
+     "verse_text": "And again, the Lord has said that: Ye shall defend your families even unto bloodshed. Therefore for this cause were the Nephites contending with the Lamanites, to defend themselves, and their families, and their lands, their country, and their rights, and their religion.",
+     "markdown": "And again, the Lord has said that: **Ye shall defend your families even unto bloodshed**. Therefore for this cause were the Nephites contending with the Lamanites, to defend themselves, and their families, and their lands, their country, and their rights, and their religion.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al61-008",
+   "scope": "BOM",
+   "head": "Mosiah 29:21",
+   "anchor": {
+    "verse": 8,
+    "w1": 13,
+    "w2": 19,
+    "quote": "they have appointed a king over them"
+   },
+   "reason": "Mosiah naming the cost of removing a king once one is in place",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 29,
+     "verse": 21,
+     "w1": 8,
+     "w2": 19,
+     "quote": "ye cannot dethrone an iniquitous king save it be through much contention,",
+     "verse_text": "And behold, now I say unto you, ye cannot dethrone an iniquitous king save it be through much contention, and the shedding of much blood.",
+     "markdown": "And behold, now I say unto you, **ye cannot dethrone an iniquitous king save it be through much contention**, and the shedding of much blood.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al61-009",
+   "scope": "BOM",
+   "head": "Mosiah 29:32",
+   "anchor": {
+    "verse": 9,
+    "w1": 40,
+    "w2": 51,
+    "quote": "that I may preserve the rights and the liberty of my people"
+   },
+   "reason": "the purpose Mosiah gave for the reign of judges",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 29,
+     "verse": 32,
+     "w1": 32,
+     "w2": 40,
+     "quote": "every man may enjoy his rights and privileges alike,",
+     "verse_text": "And now I desire that this inequality should be no more in this land, especially among this my people; but I desire that this land be a land of liberty, and every man may enjoy his rights and privileges alike, so long as the Lord sees fit that we may live and inherit the land, yea, even as long as any of our posterity remains upon the face of the land.",
+     "markdown": "And now I desire that this inequality should be no more in this land, especially among this my people; but I desire that this land be a land of liberty, and **every man may enjoy his rights and privileges alike**, so long as the Lord sees fit that we may live and inherit the land, yea, even as long as any of our posterity remains upon the face of the land.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al61-010",
+   "scope": "SW",
+   "head": "2 Sam. 15:14",
+   "anchor": {
+    "verse": 5,
+    "w1": 11,
+    "w2": 18,
+    "quote": "I have fled to the land of Gideon"
+   },
+   "reason": "David leaving his capital ahead of a rebellion led from within his house",
+   "targets": [
+    {
+     "ref": "2 Sam.",
+     "chapter": 15,
+     "verse": 14,
+     "w1": 14,
+     "w2": 26,
+     "quote": "Arise, and let us flee; for we shall not else escape from Absalom:",
+     "verse_text": "And David said unto all his servants that were with him at Jerusalem, Arise, and let us flee; for we shall not else escape from Absalom: make speed to depart, lest he overtake us suddenly, and bring evil upon us, and smite the city with the edge of the sword.",
+     "markdown": "And David said unto all his servants that were with him at Jerusalem, **Arise, and let us flee; for we shall not else escape from Absalom**: make speed to depart, lest he overtake us suddenly, and bring evil upon us, and smite the city with the edge of the sword.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 1,
+   "w2": 10,
+   "quote": "I, Pahoran, who am the chief governor of this land",
+   "entries": [
+    "al61-001"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 4,
+   "w2": 14,
+   "quote": "those who have sought to take away the judgment-seat from me",
+   "entries": [
+    "al61-002"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 50,
+   "w2": 54,
+   "quote": "they have withheld our provisions",
+   "entries": [
+    "al61-003"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 11,
+   "w2": 18,
+   "quote": "I have fled to the land of Gideon",
+   "entries": [
+    "al61-010"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 13,
+   "w2": 19,
+   "quote": "they have appointed a king over them",
+   "entries": [
+    "al61-004",
+    "al61-008"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 3,
+   "w2": 13,
+   "quote": "in your epistle you have censured me, but it mattereth not",
+   "entries": [
+    "al61-006"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 27,
+   "w2": 39,
+   "quote": "I, Pahoran, do not seek for power, save only to retain my judgment-seat",
+   "entries": [
+    "al61-005"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 40,
+   "w2": 51,
+   "quote": "that I may preserve the rights and the liberty of my people",
+   "entries": [
+    "al61-009"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 4,
+   "w2": 10,
+   "quote": "we will resist wickedness even unto bloodshed",
+   "entries": [
+    "al61-007"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "1a7cc2947747a57b"
+ }
+}

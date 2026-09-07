@@ -17,7 +17,7 @@
    "The Lamb of God",
    "Love of God"
   ],
-  "connections": 16,
+  "connections": 18,
   "initial": false
  },
  "world_behind": [
@@ -452,44 +452,14 @@
    "start": 2,
    "end": 7,
    "title": "The interview",
-   "text": "Before anything is shown, Nephi is asked what he wants and whether he believes. His answer earns a Hosanna and a commission: he will see the tree, then see \"a man descending out of heaven\" (v. 7), and must bear record. The vision's terms are set as a covenant before its first image.",
-   "cites": [
-    {
-     "quote": "a man descending out of heaven",
-     "verse": 7,
-     "start": 156,
-     "end": 195,
-     "spans": [
-      {
-       "w1": 32,
-       "w2": 37,
-       "text": "a man descending out of heaven"
-      }
-     ]
-    }
-   ]
+   "text": "The record puts two questions before the first image and both are addressed to the viewer rather than about the vision: \"Behold, what desirest thou?\" and \"Believest thou that thy father saw the tree of which he hath spoken?\" The same question is asked a third time at verse 10, after the tree has been shown. Verse 7 then states the terms as a sign with a fixed order, tree first and then \"a man descending out of heaven,\" with an obligation attached, \"ye shall bear record that it is the Son of God.\" A vision is licensed by an interview and its sequence is announced in advance."
   },
   {
    "label": "v. 8–12",
    "start": 8,
    "end": 12,
    "title": "The tree, and the guide's exit",
-   "text": "The tree exceeds even his father's telling, whiteness beyond \"the whiteness of the driven snow\" (v. 8). But at the question of meaning, the Spirit vanishes mid-conversation, and an angel takes the tour. Even the machinery of the vision teaches: interpretation is a different errand from sight, with its own escort.",
-   "cites": [
-    {
-     "quote": "the whiteness of the driven snow",
-     "verse": 8,
-     "start": 61,
-     "end": 102,
-     "spans": [
-      {
-       "w1": 50,
-       "w2": 55,
-       "text": "the whiteness of the driven snow"
-      }
-     ]
-    }
-   ]
+   "text": "The record describes the tree by comparison to two things, his father's tree and a physical standard: \"the whiteness thereof did exceed the whiteness of the driven snow.\" At 1 Nephi 8:11 Lehi could measure only against his own experience, \"to exceed all the whiteness that I had ever seen.\" Verse 11 then supplies an aside about the guide, \"I beheld that he was in the form of a man,\" and verse 12 records his disappearance in the middle of the exchange, \"I looked as if to look upon him, and I saw him not.\" The record marks the change of escort at exactly the point the request shifts from sight to interpretation."
   },
   {
    "label": "v. 13–20",
@@ -694,7 +664,7 @@
   {
    "n": 7,
    "title": "The fall is a promise",
-   "text": "The building's collapse ends the chapter as prophecy already witnessed: pride's destruction is shown as accomplished fact inside the vision. The record's polemic against the world's wisdom starts from its ending, which it has already seen."
+   "text": "The last verse reports the fall as something seen rather than promised, \"the great and spacious building was the pride of the world; and it fell, and the fall thereof was exceedingly great.\" The angel supplies the meaning in the same sentence as the collapse. 1 Nephi 8:26–27 had described the building standing \"as it were in the air, high above the earth\" and full of mockers, and 2 Nephi 28:18 uses the same verb for the same object, \"must tumble to the earth, and great must be the fall thereof.\" The image appears three times in the record and only here as already accomplished."
   }
  ],
  "world_in_front": {
@@ -1063,6 +1033,58 @@
    "mirror": "2ne04-004"
   },
   {
+   "id": "1ne11-017",
+   "scope": "BOM",
+   "head": "Hel. 10:2",
+   "anchor": {
+    "verse": 1,
+    "w1": 32,
+    "w2": 38,
+    "quote": "as I sat pondering in mine heart"
+   },
+   "reason": "a later Nephi pondering in the same way",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 10,
+     "verse": 2,
+     "w1": 15,
+     "w2": 25,
+     "quote": "pondering upon the things which the Lord had shown unto him.",
+     "verse_text": "And it came to pass that Nephi went his way towards his own house, pondering upon the things which the Lord had shown unto him.",
+     "markdown": "And it came to pass that Nephi went his way towards his own house, **pondering upon the things which the Lord had shown unto him**.",
+     "span": true
+    }
+   ],
+   "mirror": "hel10-005"
+  },
+  {
+   "id": "1ne11-018",
+   "scope": "BOM",
+   "head": "3 Ne. 19:25",
+   "anchor": {
+    "verse": 8,
+    "w1": 45,
+    "w2": 55,
+    "quote": "the whiteness thereof did exceed the whiteness of the driven snow."
+   },
+   "reason": "the same comparison, reaching past all earthly things",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 19,
+     "verse": 25,
+     "w1": 60,
+     "w2": 71,
+     "quote": "there could be nothing upon earth so white as the whiteness thereof.",
+     "verse_text": "And it came to pass that Jesus blessed them as they did pray unto him; and his countenance did smile upon them, and the light of his countenance did shine upon them, and behold they were as white as the countenance and also the garments of Jesus; and behold the whiteness thereof did exceed all the whiteness, yea, even there could be nothing upon earth so white as the whiteness thereof.",
+     "markdown": "And it came to pass that Jesus blessed them as they did pray unto him; and his countenance did smile upon them, and the light of his countenance did shine upon them, and behold they were as white as the countenance and also the garments of Jesus; and behold the whiteness thereof did exceed all the whiteness, yea, even **there could be nothing upon earth so white as the whiteness thereof**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne19-006"
+  },
+  {
    "id": "1ne11-008",
    "scope": "SW",
    "head": "Rev. 21:10",
@@ -1196,6 +1218,15 @@
  "markers": [
   {
    "verse": 1,
+   "w1": 32,
+   "w2": 38,
+   "quote": "as I sat pondering in mine heart",
+   "entries": [
+    "1ne11-017"
+   ]
+  },
+  {
+   "verse": 1,
    "w1": 39,
    "w2": 48,
    "quote": "I was caught away in the Spirit of the Lord",
@@ -1219,6 +1250,15 @@
    "quote": "Hosanna to the Lord, the most high God",
    "entries": [
     "1ne11-009"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 45,
+   "w2": 55,
+   "quote": "the whiteness thereof did exceed the whiteness of the driven snow.",
+   "entries": [
+    "1ne11-018"
    ]
   },
   {
@@ -1316,7 +1356,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "27bae4819c912a53"
+  "at": "2026-09-07",
+  "source_sha256": "72caa08b94bc0986"
  }
 }

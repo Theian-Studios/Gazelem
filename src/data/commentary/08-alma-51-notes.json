@@ -14,9 +14,10 @@
   "unit": "The war chapters (Alma 43–63)",
   "principles": [
    "A vote that settles a dispute and does not end it",
-   "Refusal to fight as"
+   "Refusal to fight as a political act",
+   "A campaign ended by one man in a tent"
   ],
-  "connections": 9,
+  "connections": 18,
   "initial": true
  },
  "world_behind": [
@@ -38,22 +39,78 @@
   {
    "n": 4,
    "title": "The losers refuse to serve",
-   "text": "Verse 13 says the king-men were glad the Lamanites were coming and would not take up arms, because they were angry at the chief judge and the people of liberty."
+   "text": "Verse 13 has the king-men welcome the invasion and keep their weapons down, out of anger at the chief judge and at those who had voted with him."
   },
   {
    "n": 5,
    "title": "Moroni asks for authority before using force",
-   "text": "Verse 15 has him send a petition with the voice of the people, and verse 16 says it was granted. The killing in verse 18 follows a grant."
+   "text": "Verse 15 has him send a petition with the voice of the people, and verse 16 says it was granted according to that voice. Mosiah 29:26 is the constitutional rule he is invoking, that the voice of the people decides. The killing in verse 18 follows a grant made under it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 29:26",
+     "start": 121,
+     "end": 133,
+     "book": "Mosiah",
+     "chapter": 29,
+     "verse_start": 26,
+     "verse_end": 26
+    }
+   ]
   },
   {
    "n": 6,
    "title": "Amalickiah's oath is flagged as rash",
-   "text": "Verse 9 has him swear to drink Moroni's blood, and verse 10 says the promise was rash before the chapter shows why."
+   "text": "Verse 9 recalls the oath to drink Moroni's blood and verse 10 calls the promise rash before the chapter shows why. Alma 49:27 records the swearing itself two chapters earlier, and Alma 51:34 has Teancum put a javelin through him in his sleep.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 49:27",
+     "start": 115,
+     "end": 125,
+     "book": "Alma",
+     "chapter": 49,
+     "verse_start": 27,
+     "verse_end": 27
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 51:34",
+     "start": 180,
+     "end": 190,
+     "book": "Alma",
+     "chapter": 51,
+     "verse_start": 34,
+     "verse_end": 34
+    }
+   ]
   },
   {
    "n": 7,
    "title": "The Lamanites take six cities",
-   "text": "Verses 22 through 26 list Moroni, Nephihah, Lehi, Morianton, Omner, Gid, and Mulek. The internal dispute cost the coastline."
+   "text": "Verses 22 through 26 list Moroni, Nephihah, Lehi, Morianton, Omner, Gid, and Mulek. Alma 50:13 to 15 records three of those cities being founded a decade earlier, and Alma 62:14 to 26 records the last of them being taken back. The internal dispute cost the coastline for eleven chapters.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 50:13",
+     "start": 84,
+     "end": 94,
+     "book": "Alma",
+     "chapter": 50,
+     "verse_start": 13,
+     "verse_end": 13
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 62:14",
+     "start": 167,
+     "end": 177,
+     "book": "Alma",
+     "chapter": 62,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
   }
  ],
  "words": [
@@ -65,17 +122,17 @@
   {
    "term": "Freemen",
    "verse_label": "v. 6",
-   "text": "Those who wanted the free government kept. The word occurs seven times in this record and never in the King James Bible. Mormon says they had sworn to maintain their rights and their religion by a free government."
+   "text": "Those who wanted the free government kept. Seven uses here, none in the King James Bible. Mormon says they had sworn to maintain their rights and their religion by a free government."
   },
   {
    "term": "Rash",
    "verse_label": "v. 10",
-   "text": "Hasty, spoken without weighing it. The word occurs once in this record and twice in the King James Bible, where Ecclesiastes warns against being rash with the mouth before God. Mormon applies it to Amalickiah's oath and lets the chapter prove him right."
+   "text": "Hasty, spoken without weighing it. It appears once in the record, and twice in the King James Bible, where Ecclesiastes warns against being rash with the mouth before God. Mormon applies it to Amalickiah's oath and lets the chapter prove him right."
   },
   {
    "term": "Nobility",
    "verse_label": "v. 17",
-   "text": "High birth, and the claim that goes with it. The word occurs three times in this record and never in the King James Bible, all in this chapter. Verse 21 says those who professed the blood of nobility were brought down to humble themselves like their brethren."
+   "text": "High birth, and the claim that goes with it. Its count is three here, none in the King James Bible, all inside this chapter. Verse 21 says those who professed the blood of nobility were brought down to humble themselves like their brethren."
   },
   {
    "term": "Appellation",
@@ -85,7 +142,7 @@
   {
    "term": "Javelin",
    "verse_label": "v. 34",
-   "text": "A light throwing spear. The record uses it three times and the King James Bible seven, five of them of Saul throwing one at David. Teancum uses it at close range on a sleeping man."
+   "text": "A light throwing spear. The word turns up three times here, and the King James Bible seven, five of them of Saul throwing one at David. Teancum uses it at close range on a sleeping man."
   }
  ],
  "phrases": [
@@ -147,53 +204,53 @@
  ],
  "verses": [
   {
-   "label": "v. 1–8",
-   "start": 1,
+   "label": "v. 2–6",
+   "start": 2,
+   "end": 6,
+   "title": "Two names built out of one relative clause",
+   "text": "The record makes the parties by repeating a phrase and then attaching a label to it. Those who were desirous that opens verses 4, 5 and 6, and appears in no other three verses of the volume. The law should be altered does the same work, standing in verses 2, 4 and 5 and nowhere else. Out of that repetition come the two names: the first group \"were called king-men,\" the second \"took upon them the name of freemen.\" One side is named by others and the other names itself, and the difference is in the verbs."
+  },
+  {
+   "label": "v. 7",
+   "start": 7,
+   "end": 7,
+   "title": "A constitutional crisis handled in two clauses",
+   "text": "\"This matter of their contention was settled by the voice of the people. And it came to pass that the voice of the people came in favor of the freemen.\" No count is given, no procedure described, no speech quoted, and no date supplied beyond the year already named in verse 1. Five verses go to a single assassination later on; the vote gets two clauses. What the record does supply is the outcome's fragility, since the losing side is still there in verse 13."
+  },
+  {
+   "label": "v. 8",
+   "start": 8,
    "end": 8,
-   "title": "The two parties",
-   "text": "The twenty-fifth year begins in peace. Some want points of the law altered; Pahoran refuses; those who want him gone are called king-men and want a king, and those who back him are called freemen. The voice of the people decides for the freemen. Mormon notes the king-men were of high birth and sought power."
+   "title": "One clause of social analysis",
+   "text": "Between the vote and the invasion the record stops to say who the king-men were: \"those who were in favor of kings were those of high birth, and they sought to be kings; and they were supported by those who sought power and authority over the people.\" Two groups are distinguished inside one party, those who wanted thrones and those who wanted patrons. It is the only sentence in the chapter that explains a motive instead of reporting an act, and nothing later in the chapter depends on it."
   },
   {
-   "label": "v. 9–12",
-   "start": 9,
-   "end": 12,
-   "title": "The timing",
-   "text": "Amalickiah has stirred the Lamanites again, armed them, and sworn to drink Moroni's blood, which Mormon calls rash. His army is smaller after the losses but still great, and he comes down himself, at the same time the Nephites are settling their dispute."
-  },
-  {
-   "label": "v. 13–16",
+   "label": "v. 13",
    "start": 13,
-   "end": 16,
-   "title": "The refusal",
-   "text": "The king-men are glad the Lamanites are coming and will not take up arms. Moroni is filled with anger at their stubbornness and petitions the governor, with the voice of the people, for power to compel them or put them to death. It is granted."
+   "end": 13,
+   "title": "What they felt, not only what they did",
+   "text": "The king-men refuse to defend the country, and the record does not leave it at refusal: hearing that the Lamanites were coming, \"they were glad in their hearts; and they refused to take up arms.\" Gladness is not needed to explain anything that follows. The military fact would be complete without it. Its presence turns a constitutional faction into people with an attitude toward invasion, and it is the last thing said about them before Moroni asks for power to compel them."
   },
   {
-   "label": "v. 17–21",
-   "start": 17,
+   "label": "v. 15–21",
+   "start": 15,
    "end": 21,
-   "title": "The suppression",
-   "text": "His army marches on the king-men, kills four thousand who lift weapons, imprisons the surviving leaders without trial for lack of time, and compels the rest to hoist the title of liberty and take up arms. Nobody afterward is called a king-man."
+   "title": "The one number in the chapter",
+   "text": "Moroni does not begin with force. Verse 15 has him send a petition \"with the voice of the people, unto the governor of the land,\" asking to be given authority. Only then does verse 17 order the attack, and verse 19 gives the result: \"there were four thousand of those dissenters who were hewn down by the sword.\" That is the only figure the chapter reports, and it counts his own countrymen killed by his own army. Verse 21 states the objective in terms of vocabulary: \"there were not any known by the appellation of king-men.\" The campaign ends when a word stops being used."
   },
   {
-   "label": "v. 22–26",
-   "start": 22,
-   "end": 26,
-   "title": "The cost",
-   "text": "While Moroni is putting down the dissension, the Lamanites take the city of Moroni, then Nephihah, Lehi, Morianton, Omner, Gid, and Mulek, all on the east borders by the seashore."
-  },
-  {
-   "label": "v. 27–32",
-   "start": 27,
-   "end": 32,
-   "title": "Teancum meets them",
-   "text": "Amalickiah takes many prisoners and much plunder and marches toward Bountiful, where Teancum meets him with men who have been trained in war. The Lamanites are driven back with great loss, and both armies camp for the night."
+   "label": "v. 26–27",
+   "start": 26,
+   "end": 27,
+   "title": "Six cities in a row, and who built the walls",
+   "text": "City is used thirteen times here and all thirteen fall between verses 23 and 26. Verse 26 lists the captures without a pause between them: Nephihah, Lehi, Morianton, Omner, Gid, Mulek. Verse 27 then adds the detail that makes the list bitter, that these were \"all of which were strongly fortified after the manner of the fortifications of Moroni.\" The defences that made the cities worth taking are the ones the man losing them designed."
   },
   {
    "label": "v. 33–37",
    "start": 33,
    "end": 37,
-   "title": "The tent",
-   "text": "Teancum and his servant go out by night into a camp asleep from the labors and heat of the day. He puts a javelin through the king's heart without waking the servants, returns, wakes his men, and stands ready. The year ends, and so do the days of Amalickiah."
+   "title": "A year and a man ended together",
+   "text": "The killing takes four verses and no dialogue: Teancum and one servant go out, sleep \"had overpowered\" the camp, a javelin, a return, and men woken up and told. Then the chapter closes on a doubled formula, \"thus endeth the twenty and fifth year of the reign of the judges over the people of Nephi; and thus endeth the days of Amalickiah.\" The twenty and fifth year stands in three verses of the whole volume, and all three are in this chapter, at verses 1, 12 and 37. The year is named when it opens, again when the invasion begins, and a third time to close both it and the man."
   }
  ],
  "chapter": [
@@ -241,14 +298,14 @@
  "world_in_front": {
   "applications": [
    {
-    "title": "Accept the outcome of the vote you took part in",
-    "verse_label": "v. 13",
-    "text": "The king-men lost and then withheld their help. When a decision goes against you in a process you agreed to, the question is what you do next."
+    "title": "Hold the rule when the pressure is procedural",
+    "verse_label": "v. 3",
+    "text": "Pahoran would not alter the law and would not hearken to the petitions asking him to alter it. Some requests should be received and refused, since a process that can be petitioned into rewriting its own rules is not much of a process."
    },
    {
-    "title": "Get the authority before you use the power",
-    "verse_label": "v. 15",
-    "text": "Moroni petitioned in writing with the voice of the people behind him. When you are about to do something drastic and defensible, make sure the authorization exists first."
+    "title": "Take your name from what you defend",
+    "verse_label": "v. 6",
+    "text": "The freemen were called by what they had covenanted to maintain, not by the party they were arguing with. A group defined only by its opponent runs out of purpose on the day the opponent does."
    },
    {
     "title": "Notice when the timing is the real problem",
@@ -259,6 +316,26 @@
     "title": "Weigh an oath before you swear it",
     "verse_label": "v. 10",
     "text": "Amalickiah promised something spectacular and died without doing it. Say what you will actually do, and leave the dramatic version unsaid."
+   },
+   {
+    "title": "Accept the outcome of the vote you took part in",
+    "verse_label": "v. 13",
+    "text": "The king-men lost and then withheld their help. When a decision goes against you in a process you agreed to, the question is what you do next."
+   },
+   {
+    "title": "Get the authority before you use the power",
+    "verse_label": "v. 15",
+    "text": "Moroni put his request on paper and had the people stand behind it. When you are about to do something drastic and defensible, make sure the authorization exists first."
+   },
+   {
+    "title": "Write down what the emergency suspended",
+    "verse_label": "v. 19",
+    "text": "The leaders who survived went to prison because there was no time for their trials at that period. Crises push ordinary procedure aside; keep a list of what got set down, so that someone remembers to pick it back up."
+   },
+   {
+    "title": "Expect good work to be used against you",
+    "verse_label": "v. 27",
+    "text": "The cities Amalickiah took were strongly fortified after the manner of Moroni, and those fortifications then sheltered the Lamanites. Anything built well enough is worth capturing, so plan for the day what you made is in somebody else's hands."
    }
   ],
   "questions": [
@@ -343,7 +420,7 @@
     "w2": 38,
     "quote": "they refused to take up arms"
    },
-   "reason": "Moroni’s letter naming this refusal as the cause of the bloodshed",
+   "reason": "Moroni's letter blaming this refusal for the bloodshed",
    "targets": [
     {
      "ref": "Alma",
@@ -357,7 +434,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al60-011"
   },
   {
    "id": "al51-003",
@@ -383,7 +460,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al62-003"
   },
   {
    "id": "al51-004",
@@ -395,7 +472,7 @@
     "w2": 22,
     "quote": "put a javelin to his heart"
    },
-   "reason": "Amalickiah taking a throne the same way he loses his life",
+   "reason": "Amalickiah taking a throne as he later loses it",
    "targets": [
     {
      "ref": "Alma",
@@ -412,6 +489,188 @@
    "mirror": "al47-003"
   },
   {
+   "id": "al51-010",
+   "scope": "BOOK",
+   "head": "Alma 60:16",
+   "anchor": {
+    "verse": 5,
+    "w1": 7,
+    "w2": 21,
+    "quote": "those who were desirous that Pahoran should be dethroned from the judgment-seat were called king-men,"
+   },
+   "reason": "Moroni blaming them for the bloodshed",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 60,
+     "verse": 16,
+     "w1": 19,
+     "w2": 27,
+     "quote": "these king-men, who caused so much bloodshed among ourselves;",
+     "verse_text": "Yea, had it not been for the war which broke out among ourselves; yea, were it not for these king-men, who caused so much bloodshed among ourselves; yea, at the time we were contending among ourselves, if we had united our strength as we hitherto have done; yea, had it not been for the desire of power and authority which those king-men had over us; had they been true to the cause of our freedom, and united with us, and gone forth against our enemies, instead of taking up their swords against us, which was the cause of so much bloodshed among ourselves; yea, if we had gone forth against them in the strength of the Lord, we should have dispersed our enemies, for it would have been done, according to the fulfilling of his word.",
+     "markdown": "Yea, had it not been for the war which broke out among ourselves; yea, were it not for **these king-men, who caused so much bloodshed among ourselves**; yea, at the time we were contending among ourselves, if we had united our strength as we hitherto have done; yea, had it not been for the desire of power and authority which those king-men had over us; had they been true to the cause of our freedom, and united with us, and gone forth against our enemies, instead of taking up their swords against us, which was the cause of so much bloodshed among ourselves; yea, if we had gone forth against them in the strength of the Lord, we should have dispersed our enemies, for it would have been done, according to the fulfilling of his word.",
+     "span": true
+    }
+   ],
+   "mirror": "al60-004"
+  },
+  {
+   "id": "al51-012",
+   "scope": "BOOK",
+   "head": "Alma 2:9",
+   "anchor": {
+    "verse": 5,
+    "w1": 35,
+    "w2": 44,
+    "quote": "to overthrow the free government and to establish a king"
+   },
+   "reason": "Amlici consecrated king by his own people",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 2,
+     "verse": 9,
+     "w1": 12,
+     "w2": 18,
+     "quote": "did consecrate Amlici to be their king.",
+     "verse_text": "And it came to pass that they gathered themselves together, and did consecrate Amlici to be their king.",
+     "markdown": "And it came to pass that they gathered themselves together, and **did consecrate Amlici to be their king**.",
+     "span": true
+    }
+   ],
+   "mirror": "al02-007"
+  },
+  {
+   "id": "al51-013",
+   "scope": "BOOK",
+   "head": "Alma 61:8",
+   "anchor": {
+    "verse": 5,
+    "w1": 35,
+    "w2": 44,
+    "quote": "to overthrow the free government and to establish a king"
+   },
+   "reason": "the aim achieved, a king appointed at last",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 61,
+     "verse": 8,
+     "w1": 13,
+     "w2": 19,
+     "quote": "they have appointed a king over them,",
+     "verse_text": "They have got possession of the land, or the city, of Zarahemla; they have appointed a king over them, and he hath written unto the king of the Lamanites, in the which he hath joined an alliance with him; in the which alliance he hath agreed to maintain the city of Zarahemla, which maintenance he supposeth will enable the Lamanites to conquer the remainder of the land, and he shall be placed king over this people when they shall be conquered under the Lamanites.",
+     "markdown": "They have got possession of the land, or the city, of Zarahemla; **they have appointed a king over them**, and he hath written unto the king of the Lamanites, in the which he hath joined an alliance with him; in the which alliance he hath agreed to maintain the city of Zarahemla, which maintenance he supposeth will enable the Lamanites to conquer the remainder of the land, and he shall be placed king over this people when they shall be conquered under the Lamanites.",
+     "span": true
+    }
+   ],
+   "mirror": "al61-004"
+  },
+  {
+   "id": "al51-014",
+   "scope": "BOOK",
+   "head": "Alma 59:5",
+   "anchor": {
+    "verse": 24,
+    "w1": 2,
+    "w2": 16,
+    "quote": "those who fled out of the city of Moroni came to the city of Nephihah;"
+   },
+   "reason": "the cities these refugees had fled from",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 59,
+     "verse": 5,
+     "w1": 29,
+     "w2": 43,
+     "quote": "from the city of Moroni and the city of Lehi and the city of Morianton,",
+     "verse_text": "And it came to pass that while Moroni was thus making preparations to go against the Lamanites to battle, behold, the people of Nephihah, who were gathered together from the city of Moroni and the city of Lehi and the city of Morianton, were attacked by the Lamanites.",
+     "markdown": "And it came to pass that while Moroni was thus making preparations to go against the Lamanites to battle, behold, the people of Nephihah, who were gathered together **from the city of Moroni and the city of Lehi and the city of Morianton**, were attacked by the Lamanites.",
+     "span": true
+    }
+   ],
+   "mirror": "al59-004"
+  },
+  {
+   "id": "al51-015",
+   "scope": "BOOK",
+   "head": "Alma 50:13",
+   "anchor": {
+    "verse": 26,
+    "w1": 11,
+    "w2": 19,
+    "quote": "the city of Nephihah, and the city of Lehi,"
+   },
+   "reason": "the founding of the city lost here",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 50,
+     "verse": 13,
+     "w1": 16,
+     "w2": 23,
+     "quote": "they called the name of the city Moroni;",
+     "verse_text": "And it came to pass that the Nephites began the foundation of a city, and they called the name of the city Moroni; and it was by the east sea; and it was on the south by the line of the possessions of the Lamanites.",
+     "markdown": "And it came to pass that the Nephites began the foundation of a city, and **they called the name of the city Moroni**; and it was by the east sea; and it was on the south by the line of the possessions of the Lamanites.",
+     "span": true
+    }
+   ],
+   "mirror": "al50-002"
+  },
+  {
+   "id": "al51-017",
+   "scope": "BOOK",
+   "head": "Alma 62:36",
+   "anchor": {
+    "verse": 34,
+    "w1": 17,
+    "w2": 22,
+    "quote": "put a javelin to his heart;"
+   },
+   "reason": "Teancum killing Ammoron the same way",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 62,
+     "verse": 36,
+     "w1": 50,
+     "w2": 63,
+     "quote": "he did cast a javelin at him, which did pierce him near the heart.",
+     "verse_text": "And it came to pass that Teancum in his anger did go forth into the camp of the Lamanites, and did let himself down over the walls of the city. And he went forth with a cord, from place to place, insomuch that he did find the king; and he did cast a javelin at him, which did pierce him near the heart. But behold, the king did awaken his servants before he died, insomuch that they did pursue Teancum, and slew him.",
+     "markdown": "And it came to pass that Teancum in his anger did go forth into the camp of the Lamanites, and did let himself down over the walls of the city. And he went forth with a cord, from place to place, insomuch that he did find the king; and **he did cast a javelin at him, which did pierce him near the heart**. But behold, the king did awaken his servants before he died, insomuch that they did pursue Teancum, and slew him.",
+     "span": true
+    }
+   ],
+   "mirror": "al62-008"
+  },
+  {
+   "id": "al51-018",
+   "scope": "BOOK",
+   "head": "Alma 52:1",
+   "anchor": {
+    "verse": 34,
+    "w1": 17,
+    "w2": 22,
+    "quote": "put a javelin to his heart;"
+   },
+   "reason": "the morning that found Amalickiah dead",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 52,
+     "verse": 1,
+     "w1": 38,
+     "w2": 46,
+     "quote": "they found Amalickiah was dead in his own tent;",
+     "verse_text": "And now, it came to pass in the twenty and sixth year of the reign of the judges over the people of Nephi, behold, when the Lamanites awoke on the first morning of the first month, behold, they found Amalickiah was dead in his own tent; and they also saw that Teancum was ready to give them battle on that day.",
+     "markdown": "And now, it came to pass in the twenty and sixth year of the reign of the judges over the people of Nephi, behold, when the Lamanites awoke on the first morning of the first month, behold, **they found Amalickiah was dead in his own tent**; and they also saw that Teancum was ready to give them battle on that day.",
+     "span": true
+    }
+   ],
+   "mirror": "al52-001"
+  },
+  {
    "id": "al51-005",
    "scope": "BOM",
    "head": "Mosiah 29:26",
@@ -421,7 +680,7 @@
     "w2": 19,
     "quote": "settled by the voice of the people"
    },
-   "reason": "the reform that made a vote the way such a thing is decided",
+   "reason": "the reform that made a vote the deciding instrument",
    "targets": [
     {
      "ref": "Mosiah",
@@ -435,7 +694,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos29-025"
   },
   {
    "id": "al51-006",
@@ -461,7 +720,59 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al02-019"
+  },
+  {
+   "id": "al51-011",
+   "scope": "BOM",
+   "head": "Hel. 1:7",
+   "anchor": {
+    "verse": 5,
+    "w1": 7,
+    "w2": 21,
+    "quote": "those who were desirous that Pahoran should be dethroned from the judgment-seat were called king-men,"
+   },
+   "reason": "Paanchi flattering people toward the same seat",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 1,
+     "verse": 7,
+     "w1": 23,
+     "w2": 35,
+     "quote": "he was about to flatter away those people to rise up in rebellion",
+     "verse_text": "But behold, Paanchi, and that part of the people that were desirous that he should be their governor, was exceedingly wroth; therefore, he was about to flatter away those people to rise up in rebellion against their brethren.",
+     "markdown": "But behold, Paanchi, and that part of the people that were desirous that he should be their governor, was exceedingly wroth; therefore, **he was about to flatter away those people to rise up in rebellion** against their brethren.",
+     "span": true
+    }
+   ],
+   "mirror": "hel01-005"
+  },
+  {
+   "id": "al51-016",
+   "scope": "BOM",
+   "head": "Morm. 4:8",
+   "anchor": {
+    "verse": 31,
+    "w1": 9,
+    "w2": 15,
+    "quote": "being repulsed by Teancum and his men,"
+   },
+   "reason": "the only other use of the word",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 4,
+     "verse": 8,
+     "w1": 1,
+     "w2": 15,
+     "quote": "And it came to pass that they were repulsed and driven back by the Nephites.",
+     "verse_text": "And it came to pass that they were repulsed and driven back by the Nephites. And when the Nephites saw that they had driven the Lamanites they did again boast of their own strength; and they went forth in their own might, and took possession again of the city Desolation.",
+     "markdown": "**And it came to pass that they were repulsed and driven back by the Nephites**. And when the Nephites saw that they had driven the Lamanites they did again boast of their own strength; and they went forth in their own might, and took possession again of the city Desolation.",
+     "span": true
+    }
+   ],
+   "mirror": "morm04-004"
   },
   {
    "id": "al51-007",
@@ -525,7 +836,7 @@
     "w2": 22,
     "quote": "Teancum and his servant stole forth and went out by night"
    },
-   "reason": "Jael entering a sleeping commander’s tent",
+   "reason": "Jael entering a sleeping commander's tent",
    "targets": [
     {
      "ref": "Judg.",
@@ -545,10 +856,22 @@
  "markers": [
   {
    "verse": 5,
+   "w1": 7,
+   "w2": 21,
+   "quote": "those who were desirous that Pahoran should be dethroned from the judgment-seat were called king-men,",
+   "entries": [
+    "al51-010",
+    "al51-011"
+   ]
+  },
+  {
+   "verse": 5,
    "w1": 35,
    "w2": 44,
    "quote": "to overthrow the free government and to establish a king",
    "entries": [
+    "al51-012",
+    "al51-013",
     "al51-006"
    ]
   },
@@ -598,6 +921,33 @@
    ]
   },
   {
+   "verse": 24,
+   "w1": 2,
+   "w2": 16,
+   "quote": "those who fled out of the city of Moroni came to the city of Nephihah;",
+   "entries": [
+    "al51-014"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 11,
+   "w2": 19,
+   "quote": "the city of Nephihah, and the city of Lehi,",
+   "entries": [
+    "al51-015"
+   ]
+  },
+  {
+   "verse": 31,
+   "w1": 9,
+   "w2": 15,
+   "quote": "being repulsed by Teancum and his men,",
+   "entries": [
+    "al51-016"
+   ]
+  },
+  {
    "verse": 33,
    "w1": 12,
    "w2": 22,
@@ -613,12 +963,14 @@
    "quote": "put a javelin to his heart",
    "entries": [
     "al51-004",
+    "al51-017",
+    "al51-018",
     "al51-008"
    ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "d62bdbd4e61bd41f"
+  "at": "2026-09-07",
+  "source_sha256": "3182511b81c05c74"
  }
 }

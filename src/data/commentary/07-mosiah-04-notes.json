@@ -19,14 +19,36 @@
    "Retaining a remission",
    "Are we not all beggars"
   ],
-  "connections": 9,
+  "connections": 12,
   "initial": false
  },
  "world_behind": [
   {
    "n": 1,
    "title": "The congregation answers, in unison",
-   "text": "Verse 2 has the whole multitude crying aloud with one voice, and the record gives their words. Assemblies in the Hebrew Bible answer their leaders, as at Sinai and under Ezra, and this is the record's fullest example. What they say is a request."
+   "text": "Verse 2 has the whole multitude crying aloud with one voice, and the record gives their words. Assemblies in the Hebrew Bible answer their leaders, as at Sinai and under Ezra (Ex. 24:3; Neh. 8:6), and this is the record's fullest example. What they say is a request.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ex. 24:3",
+     "start": 176,
+     "end": 184,
+     "book": "Ex",
+     "chapter": 24,
+     "verse_start": 3,
+     "verse_end": 3
+    },
+    {
+     "kind": "scripture",
+     "text": "Neh. 8:6",
+     "start": 186,
+     "end": 194,
+     "book": "Neh",
+     "chapter": 8,
+     "verse_start": 6,
+     "verse_end": 6
+    }
+   ]
   },
   {
    "n": 2,
@@ -41,7 +63,19 @@
   {
    "n": 4,
    "title": "The athletic figure",
-   "text": "Verse 27 puts running a race and winning a prize next to a warning against running faster than one has strength. Paul used the race for exertion; Benjamin uses it for pacing, and the sentence has become the record's standard caution against overreach."
+   "text": "Verse 27 puts running a race and winning a prize next to a warning against running faster than one has strength. Paul used the race for exertion (1 Cor. 9:24); Benjamin uses it for pacing, and the sentence has become the record's standard caution against overreach.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Cor. 9:24",
+     "start": 146,
+     "end": 157,
+     "book": "1 Cor",
+     "chapter": 9,
+     "verse_start": 24,
+     "verse_end": 24
+    }
+   ]
   },
   {
    "n": 5,
@@ -53,13 +87,13 @@
   {
    "term": "Soberness",
    "verse_label": "v. 15",
-   "text": "Not abstinence from drink but seriousness: a steady, unexcited way of going about things. Benjamin tells parents to teach their children \"to walk in the ways of truth and soberness\" (v. 15). Paul reaches for the same pairing when he answers Festus with the words of truth and soberness. The King James Bible has the noun nowhere else. Set beside truth, it is about conduct rather than doctrine, and the same verse puts loving and serving one another next to it.",
+   "text": "Not abstinence from drink but seriousness: a steady, unexcited way of going about things. Treated at Jacob 2:2. Benjamin tells parents to teach their children \"to walk in the ways of truth and soberness\" (v. 15). Paul reaches for the same pairing when he answers Festus with the words of truth and soberness. The King James Bible has the noun nowhere else. Set beside truth, it is about conduct instead of doctrine, and the same verse puts loving and serving one another next to it.",
    "cites": [
     {
      "quote": "to walk in the ways of truth and soberness",
      "verse": 15,
-     "start": 137,
-     "end": 189,
+     "start": 159,
+     "end": 211,
      "spans": [
       {
        "w1": 6,
@@ -68,12 +102,36 @@
       }
      ]
     }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 2:2",
+     "start": 101,
+     "end": 110,
+     "book": "Jacob",
+     "chapter": 2,
+     "verse_start": 2,
+     "verse_end": 2
+    }
    ]
   },
   {
    "term": "Succor",
    "verse_label": "v. 16",
-   "text": "To run to the aid of. The verb carries urgency in a way that \"help\" does not, and Alma will use it of Christ going to the aid of his people. Here it is what neighbors do for one another, described in the same breath as administering of one's substance."
+   "text": "To run to the aid of. The verb carries urgency in a way that \"help\" does not, and Alma will use it of Christ going to the aid of his people (Alma 7:12). Here it is what neighbors do for one another, described in the same breath as administering of one's substance.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 7:12",
+     "start": 141,
+     "end": 150,
+     "book": "Alma",
+     "chapter": 7,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
   },
   {
    "term": "Utterance",
@@ -130,7 +188,19 @@
   {
    "term": "They had viewed themselves in their own carnal state, even less than the dust of the earth",
    "verse_label": "v. 2",
-   "text": "Benjamin had said in the previous chapter that they could not claim as much as the dust; the people go further and say less. The congregation's self-assessment outruns the king's, which is what makes the next clause a plea rather than a formality."
+   "text": "Benjamin had said in the previous chapter that they could not claim as much as the dust (Mosiah 2:25); the people go further and say less. The congregation's self-assessment outruns the king's, which is what makes the next clause a plea rather than a formality.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 2:25",
+     "start": 89,
+     "end": 100,
+     "book": "Mosiah",
+     "chapter": 2,
+     "verse_start": 25,
+     "verse_end": 25
+    }
+   ]
   },
   {
    "term": "Apply the atoning blood of Christ that we may receive forgiveness",
@@ -150,7 +220,19 @@
   {
    "term": "The atonement which has been prepared from the foundation of the world",
    "verse_label": "v. 6",
-   "text": "Prepared, and prepared before anything happened. Revelation calls the Lamb slain from the foundation of the world; Benjamin makes the same priority a matter of planning. The record uses the phrase eleven times and this is where it enters."
+   "text": "Prepared, and prepared before anything happened. Revelation calls the Lamb slain from the foundation of the world (Rev. 13:8); Benjamin makes the same priority a matter of planning. The record uses the phrase eleven times and this is where it enters.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Rev. 13:8",
+     "start": 115,
+     "end": 124,
+     "book": "Rev",
+     "chapter": 13,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
   },
   {
    "term": "Believe in God; believe that he is",
@@ -165,12 +247,22 @@
   {
    "term": "Ye will not suffer that the beggar putteth up his petition to you in vain",
    "verse_label": "v. 16",
-   "text": "\"Petition\" is a legal word, a formal request made to authority, and it puts the beggar in the position of a claimant rather than a supplicant. Verse 22 will turn the same word around and ask what petition the withholder has put up."
-  },
-  {
-   "term": "The man has brought upon himself his misery; therefore I will stay my hand",
-   "verse_label": "v. 17",
-   "text": "The objection stated in full, in the objector's own voice, and it is the strongest version of it. Benjamin does not caricature the reluctant giver; he lets him finish the sentence, including the claim that the punishment is just. Then he answers."
+   "text": "\"Petition\" is a legal word, a formal request made to authority, and it puts the beggar in the position of a claimant rather than a supplicant. Verse 22 will turn the same word around and ask what petition the withholder has put up. The next verse states the objection in full and in the objector's own voice: \"the man has brought upon himself his misery; therefore I will stay my hand\" (v. 17). Benjamin does not caricature the reluctant giver; he lets him finish the sentence, including the claim that the punishment is just. Then he answers.",
+   "cites": [
+    {
+     "quote": "the man has brought upon himself his misery; therefore I will stay my hand",
+     "verse": 17,
+     "start": 309,
+     "end": 393,
+     "spans": [
+      {
+       "w1": 5,
+       "w2": 18,
+       "text": "the man has brought upon himself his misery; therefore I will stay my hand"
+      }
+     ]
+    }
+   ]
   },
   {
    "term": "Are we not all beggars?",
@@ -180,17 +272,27 @@
   {
    "term": "Your substance, which doth not belong to you but to God",
    "verse_label": "v. 22",
-   "text": "Ownership relocated in a subordinate clause. The withholder is not being asked to be generous with his own property; he is being told the property is not his, and the same sentence adds that his life is not either."
-  },
-  {
-   "term": "I give not because I have not, but if I had I would give",
-   "verse_label": "v. 24",
-   "text": "The poor man's script, supplied verbatim. Benjamin gives the words to say in the heart, and verse 25 says saying them keeps a person guiltless. It is the only place in the address where intention alone is made sufficient, and the reason is that nothing else is available."
+   "text": "Ownership relocated in a subordinate clause. The withholder is not being asked to be generous with his own property; he is being told the property is not his, and the same sentence adds that his life is not either. Two verses on, the poor man gets a script supplied verbatim: \"I give not because I have not, but if I had I would give\" (v. 24). Benjamin gives the words to say in the heart, and verse 25 says saying them keeps a person guiltless. It is the only place in the address where intention alone is made sufficient, and the reason is that nothing else is available.",
+   "cites": [
+    {
+     "quote": "I give not because I have not, but if I had I would give",
+     "verse": 24,
+     "start": 276,
+     "end": 342,
+     "spans": [
+      {
+       "w1": 44,
+       "w2": 57,
+       "text": "I give not because I have not, but if I had I would give"
+      }
+     ]
+    }
+   ]
   },
   {
    "term": "It is not requisite that a man should run faster than he has strength",
    "verse_label": "v. 27",
-   "text": "The negative construction carries it. Saying the running is not required makes the pacing a permission rather than an indulgence, and lifts a demand nobody had actually imposed. It is placed immediately after an instruction to feed, clothe, and visit according to their wants. The pacing clause is a limit on the preceding paragraph, and it arrives before anyone has had time to object. Diligence is required in the same verse; the two are held together by \"order.\""
+   "text": "The negative construction carries it. Saying the running is not required makes the pacing a permission instead of an indulgence, and lifts a demand nobody had actually imposed. It is placed immediately after an instruction to feed, clothe, and visit according to their wants. The pacing clause is a limit on the preceding paragraph, and it arrives before anyone has had time to object. Diligence is required in the same verse; the two are held together by \"order.\""
   },
   {
    "term": "If ye do not watch yourselves, and your thoughts, and your words, and your deeds",
@@ -200,53 +302,32 @@
  ],
  "verses": [
   {
-   "label": "v. 1–3",
-   "start": 1,
-   "end": 3,
-   "title": "The people answer",
-   "text": "The multitude has fallen to the earth; they see themselves as less than dust; they cry with one voice for the atoning blood to be applied; and the Spirit comes, joy follows, and they receive a remission with peace of conscience. Three verses, and they contain the only congregational speech in the address."
-  },
-  {
-   "label": "v. 4–8",
-   "start": 4,
-   "end": 8,
-   "title": "The terms of salvation, restated",
-   "text": "Attention called again; if the goodness of God has awakened them to their nothingness; if they have come to know his goodness, power, wisdom, patience, and the atonement prepared before the world, then this is the man who is saved, and there are no other conditions. Benjamin closes the list explicitly."
-  },
-  {
-   "label": "v. 9–12",
+   "label": "v. 9–10",
    "start": 9,
-   "end": 12,
-   "title": "The list, and the instruction to act on it",
-   "text": "Four propositions about God, the last of which limits the first three; then repent, forsake, humble yourself, ask sincerely; and if you believe all this, do it. The reward named is retention. Always rejoice, always retain, and grow."
-  },
-  {
-   "label": "v. 13–16",
-   "start": 13,
-   "end": 16,
-   "title": "What retention looks like",
-   "text": "No mind to injure, peaceable living, rendering each his due; children not hungry or naked and not left to quarrel or serve the devil; children taught truth, soberness, love, and service; and neighbors succored, substance administered, the beggar not turned away. The doctrine becomes a household code."
+   "end": 10,
+   "title": "Belief given as a list of imperatives",
+   "text": "The record turns a state into a set of instructions, six of them in two verses: \"Believe in God; believe that he is, and that he created all things, both in heaven and in earth; believe that he has all wisdom, and all power, both in heaven and in earth; believe that man doth not comprehend all things which the Lord can comprehend.\" Verse 10 adds two more, \"believe that ye must repent of your sins and forsake them,\" and \"if you believe all these things see that ye do them.\" The last clause closes the loop by making the doing part of the believing."
   },
   {
    "label": "v. 17–19",
    "start": 17,
    "end": 19,
-   "title": "The objection, and the answer",
-   "text": "He brought it on himself, so I will stay my hand. The reply is that whoever says this has great cause to repent, and then comes the question that removes the ground: are we not all beggars? Three verses, and the middle one is the harshest sentence in the chapter."
+   "title": "An objection quoted, and answered with a question",
+   "text": "The record supplies the argument on the other side in its own voice: \"Perhaps thou shalt say: The man has brought upon himself his misery; therefore I will stay my hand, and will not give unto him of my food, nor impart unto him of my substance.\" The reply does not dispute the diagnosis. It changes the category: \"are we not all beggars? Do we not all depend upon the same Being, even God, for all the substance which we have?\" Verse 20 then points at the crowd's own conduct minutes earlier, \"even at this time, ye have been calling on his name, and begging for a remission of your sins.\""
   },
   {
-   "label": "v. 20–26",
-   "start": 20,
-   "end": 26,
-   "title": "Begging, both directions",
-   "text": "They have just been begging for a remission and were not refused; God grants what is rightly asked; therefore impart. If you judge the petitioner, your own condemnation is greater, and the substance was never yours. Woe to the rich who withhold; and to the poor who cannot give, a sentence to say in the heart. Then the summary: feed, clothe, visit, relieve, both spiritually and temporally."
+   "label": "v. 24–25",
+   "start": 24,
+   "end": 25,
+   "title": "The poor are addressed and not exempted",
+   "text": "The record turns to the group with nothing to give and gives them a rule anyway: \"I say unto the poor, ye who have not and yet have sufficient, that ye remain from day to day; I mean all you who deny the beggar, because ye have not.\" What is required of them is a sentence said internally, \"I give not because I have not, but if I had I would give.\" Verse 25 makes the standard explicit: \"if ye say this in your hearts ye remain guiltless, otherwise ye are condemned.\" The obligation is transferred from the hands to the intention."
   },
   {
-   "label": "v. 27–30",
+   "label": "v. 27",
    "start": 27,
-   "end": 30,
-   "title": "Order, and the last word",
-   "text": "Wisdom and order, no running faster than strength, diligence to win the prize; return what you borrow or you sin and may cause another to; the ways to sin are past numbering; and finally, watch yourself and continue to the end. \"Remember, and perish not.\""
+   "end": 27,
+   "title": "A limit placed on the whole programme",
+   "text": "After eighteen verses of instruction the record supplies a brake: \"see that all these things are done in wisdom and order; for it is not requisite that a man should run faster than he has strength.\" The second clause is a caution against the first part of the chapter rather than an addition to it, and the verse ends by naming the alternative to speed, \"it is expedient that he should be diligent, that thereby he might win the prize.\""
   }
  ],
  "chapter": [
@@ -263,7 +344,7 @@
   {
    "n": 3,
    "title": "Remission is treated as something maintained",
-   "text": "Retain a remission, retain it from day to day, walk guiltless. The grammar throughout is continuous. Almsgiving is offered as the means, which ties the interior state to a repeated external act."
+   "text": "The verb is \"retain\" and it appears twice with a duration attached: \"always retain a remission of your sins\" at verse 12 and \"retaining a remission of your sins from day to day, that ye may walk guiltless before God\" at verse 26. What verse 26 names as the means is an action rather than a state, \"I would that ye should impart of your substance to the poor, every man according to that which he hath.\" Verse 27 then bounds the action, \"see that all these things are done in wisdom and order.\" An interior condition is made to depend on a repeated external one."
   },
   {
    "n": 4,
@@ -406,7 +487,7 @@
     "w2": 14,
     "quote": "ye yourselves will succor those that stand in need of your succor"
    },
-   "reason": "the same verb, withheld by God in a day of transgression",
+   "reason": "the same verb, withheld in a day of transgression",
    "targets": [
     {
      "ref": "Mosiah",
@@ -524,7 +605,85 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al07-023"
+  },
+  {
+   "id": "mos04-010",
+   "scope": "BOM",
+   "head": "Alma 41:2",
+   "anchor": {
+    "verse": 27,
+    "w1": 14,
+    "w2": 23,
+    "quote": "it is not requisite that a man should run faster"
+   },
+   "reason": "the same word used of the restoration",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 41,
+     "verse": 2,
+     "w1": 20,
+     "w2": 28,
+     "quote": "it is requisite that all things should be restored",
+     "verse_text": "I say unto thee, my son, that the plan of restoration is requisite with the justice of God; for it is requisite that all things should be restored to their proper order. Behold, it is requisite and just, according to the power and resurrection of Christ, that the soul of man should be restored to its body, and that every part of the body should be restored to itself.",
+     "markdown": "I say unto thee, my son, that the plan of restoration is requisite with the justice of God; for **it is requisite that all things should be restored** to their proper order. Behold, it is requisite and just, according to the power and resurrection of Christ, that the soul of man should be restored to its body, and that every part of the body should be restored to itself.",
+     "span": true
+    }
+   ],
+   "mirror": "al41-006"
+  },
+  {
+   "id": "mos04-011",
+   "scope": "BOM",
+   "head": "Hel. 12:7",
+   "anchor": {
+    "verse": 11,
+    "w1": 69,
+    "w2": 76,
+    "quote": "the greatness of God, and your own nothingness,"
+   },
+   "reason": "Mormon's own outburst on the same theme",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 12,
+     "verse": 7,
+     "w1": 1,
+     "w2": 11,
+     "quote": "O how great is the nothingness of the children of men;",
+     "verse_text": "O how great is the nothingness of the children of men; yea, even they are less than the dust of the earth.",
+     "markdown": "**O how great is the nothingness of the children of men**; yea, even they are less than the dust of the earth.",
+     "span": true
+    }
+   ],
+   "mirror": "hel12-005"
+  },
+  {
+   "id": "mos04-012",
+   "scope": "BOM",
+   "head": "3 Ne. 13:1",
+   "anchor": {
+    "verse": 26,
+    "w1": 41,
+    "w2": 55,
+    "quote": "impart of your substance to the poor, every man according to that which he hath,"
+   },
+   "reason": "Christ giving the same command, same construction",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 13,
+     "verse": 1,
+     "w1": 6,
+     "w2": 15,
+     "quote": "I would that ye should do alms unto the poor;",
+     "verse_text": "Verily, verily, I say that I would that ye should do alms unto the poor; but take heed that ye do not your alms before men to be seen of them; otherwise ye have no reward of your Father who is in heaven.",
+     "markdown": "Verily, verily, I say that **I would that ye should do alms unto the poor**; but take heed that ye do not your alms before men to be seen of them; otherwise ye have no reward of your Father who is in heaven.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne13-004"
   },
   {
    "id": "mos04-007",
@@ -643,6 +802,15 @@
    ]
   },
   {
+   "verse": 11,
+   "w1": 69,
+   "w2": 76,
+   "quote": "the greatness of God, and your own nothingness,",
+   "entries": [
+    "mos04-011"
+   ]
+  },
+  {
    "verse": 16,
    "w1": 3,
    "w2": 14,
@@ -658,7 +826,8 @@
    "w2": 55,
    "quote": "impart of your substance to the poor, every man according to that which he hath",
    "entries": [
-    "mos04-009"
+    "mos04-009",
+    "mos04-012"
    ]
   },
   {
@@ -672,6 +841,15 @@
   },
   {
    "verse": 27,
+   "w1": 14,
+   "w2": 23,
+   "quote": "it is not requisite that a man should run faster",
+   "entries": [
+    "mos04-010"
+   ]
+  },
+  {
+   "verse": 27,
    "w1": 34,
    "w2": 44,
    "quote": "he should be diligent, that thereby he might win the prize",
@@ -681,7 +859,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "ca5dc0a9f4f7ff5b"
+  "at": "2026-09-07",
+  "source_sha256": "2cbcd0a0afdd1f01"
  }
 }

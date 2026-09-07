@@ -1,0 +1,754 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Ether",
+  "book_slug": "ether",
+  "chapter": 5,
+  "volume_order": "13",
+  "speakers": [
+   "Moroni"
+  ],
+  "audience": "The translator, and the reader",
+  "location": "Not stated",
+  "date": "Moroni writing after AD 400",
+  "unit": "Moroni's instructions to the translator (Ether 5)",
+  "principles": [
+   "Instructions written to a stranger",
+   "A limit set inside the assignment",
+   "A claim submitted for judgment"
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Moroni is writing to someone he has never met",
+   "text": "Verse 1 addresses the person who will translate."
+  },
+  {
+   "n": 2,
+   "title": "He names memory as his source",
+   "text": "Verse 1 says he wrote the words commanded him according to his memory. Ether 1:2 has him abridging from the twenty-four plates found by the people of Limhi, so this chapter is the one place he says he is working without the document in front of him.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 1:2",
+     "start": 71,
+     "end": 80,
+     "book": "Ether",
+     "chapter": 1,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Part of the record is off limits",
+   "text": "Verse 1 forbids touching the sealed portion for translation."
+  },
+  {
+   "n": 4,
+   "title": "The ban has an end",
+   "text": "Verse 1 leaves the door open for a later time when it is wisdom in God."
+  },
+  {
+   "n": 5,
+   "title": "Others will help",
+   "text": "Verse 2 speaks of those who will assist in bringing the work forth. 2 Nephi 27:12 and 13 describes three witnesses and a few besides who shall view the plates, and 3 Nephi 21:9 says a man shall declare it. Three writers in three books describe the same small group."
+  },
+  {
+   "n": 6,
+   "title": "The number of witnesses is fixed",
+   "text": "Verses 3 and 4 both name three witnesses, and verse 4 grounds the number in the rule that in the mouth of three witnesses shall these things be established. Deuteronomy 19:15 is that rule, and 2 Nephi 27:12 had already applied it to this book."
+  },
+  {
+   "n": 7,
+   "title": "The chapter looks past Moroni's death",
+   "text": "Verse 6 says the reader will know his authority when they see him at the last day. Moroni 10:27 and 34 and Mormon 8:35 make the same appointment, so the writer proposes to meet his reader four separate times across three books."
+  }
+ ],
+ "words": [
+  {
+   "term": "Translate",
+   "verse_label": "v. 1",
+   "text": "To carry a text from one language into another. The record uses the word five times, four of them here and at Mosiah 8. The King James Bible uses it once, at 2 Samuel 3:10, in the sense of moving a kingdom."
+  },
+  {
+   "term": "Privileged",
+   "verse_label": "v. 2",
+   "text": "Granted a right that others are not given. The record uses the word three times and never the King James Bible."
+  },
+  {
+   "term": "Assist",
+   "verse_label": "v. 2",
+   "text": "To help in a work someone else is carrying. The record uses the word nine times, mostly of armies, and the King James Bible once."
+  },
+  {
+   "term": "Surety",
+   "verse_label": "v. 3",
+   "text": "Certainty, or a thing known past doubt. Treated at Mosiah 5:2. The record uses the word eighteen times and the King James Bible fourteen, where it usually means a person who guarantees a debt.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 5:2",
+     "start": 51,
+     "end": 61,
+     "book": "Mosiah",
+     "chapter": 5,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
+  },
+  {
+   "term": "Witnesses",
+   "verse_label": "v. 4",
+   "text": "Those who see a thing and can say so. Treated at 2 Nephi 11:3. The record uses the word twenty times and the King James Bible forty-nine."
+  },
+  {
+   "term": "Established",
+   "verse_label": "v. 4",
+   "text": "Set firm, or settled past dispute. The record uses the word forty-four times and the King James Bible seventy-four. Verse 4 uses it of a matter settled by testimony."
+  },
+  {
+   "term": "Authority",
+   "verse_label": "v. 6",
+   "text": "The right to act or to speak for another. The record uses the word forty-seven times and the King James Bible thirty-seven. Verse 6 puts Moroni's own up for judgment."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "According to my memory",
+   "verse_label": "v. 1",
+   "text": "Moroni naming how he worked. The words were commanded him and he wrote them from recall."
+  },
+  {
+   "term": "Touch them not in order that ye may translate",
+   "verse_label": "v. 1",
+   "text": "The one restriction laid on the translator. It applies to a portion, and the rest is open."
+  },
+  {
+   "term": "Except by and by it shall be wisdom in God",
+   "verse_label": "v. 1",
+   "text": "The restriction given an expiry. Ether 4:7 gave the condition that would lift it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 4:7",
+     "start": 33,
+     "end": 42,
+     "book": "Ether",
+     "chapter": 4,
+     "verse_start": 7,
+     "verse_end": 7
+    }
+   ]
+  },
+  {
+   "term": "Those who shall assist to bring forth this work",
+   "verse_label": "v. 2",
+   "text": "People described only by their part in the work. Moroni knows there will be help without knowing who."
+  },
+  {
+   "term": "Unto three shall they be shown by the power of God",
+   "verse_label": "v. 3",
+   "text": "The showing is credited to God and not to the man holding the plates. The number is given before the men are."
+  },
+  {
+   "term": "They shall know of a surety that these things are true",
+   "verse_label": "v. 3",
+   "text": "The purpose of the showing. Knowledge is what the plates are shown for."
+  },
+  {
+   "term": "In the mouth of three witnesses shall these things be established",
+   "verse_label": "v. 4",
+   "text": "The wording of the law of witnesses, carried over. Deuteronomy 19:15 sets the rule this verse applies."
+  },
+  {
+   "term": "A testimony against the world at the last day",
+   "verse_label": "v. 4",
+   "text": "What the witnesses' work becomes if it is refused. Verse 5 gives the other outcome."
+  },
+  {
+   "term": "If I have no authority for these things, judge ye",
+   "verse_label": "v. 6",
+   "text": "Moroni handing his own claim to the reader. He then names the day the question closes."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1",
+   "start": 1,
+   "end": 1,
+   "title": "The writer qualifies his own transcription",
+   "text": "The chapter opens with a limit placed on what follows: \"I, Moroni, have written the words which were commanded me, according to my memory.\" According to my memory occurs once in the volume, in this verse. The clause concedes that the wording is reconstructed rather than copied, and it does so at the head of a chapter that will go on to make claims about witnesses and authority. A writer who has just described a sealed record states, before anything else, that his own text is a recollection."
+  },
+  {
+   "label": "v. 1",
+   "start": 1,
+   "end": 1,
+   "title": "An instruction addressed to someone not yet born",
+   "text": "The second half of the verse turns to a reader in the future and gives him a prohibition: \"I have told you the things which I have sealed up; therefore touch them not in order that ye may translate; for that thing is forbidden you, except by and by it shall be wisdom in God.\" Sealed up stands in seven verses of the volume, at 1 Ne. 14:26, four places in 2 Nephi, Ether 4:5 and here. The instruction is second person, imperative, and conditional on a future permission, and its addressee is whoever eventually holds the plates.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 14:26",
+     "start": 328,
+     "end": 339,
+     "book": "1 Ne",
+     "chapter": 14,
+     "verse_start": 26,
+     "verse_end": 26
+    },
+    {
+     "kind": "scripture",
+     "text": "Ether 4:5",
+     "start": 365,
+     "end": 374,
+     "book": "Ether",
+     "chapter": 4,
+     "verse_start": 5,
+     "verse_end": 5
+    }
+   ]
+  },
+  {
+   "label": "v. 2–3",
+   "start": 2,
+   "end": 3,
+   "title": "Permission, and a number",
+   "text": "Two things are allowed that were not allowed a verse earlier. The plates may be shown \"unto those who shall assist to bring forth this work,\" and then a narrower grant with a count attached: \"unto three shall they be shown by the power of God; wherefore they shall know of a surety that these things are true.\" The number is given before any name, and no name is ever supplied. The record specifies how many people will see the object and leaves who they are entirely open."
+  },
+  {
+   "label": "v. 4",
+   "start": 4,
+   "end": 4,
+   "title": "A legal formula, used for a document",
+   "text": "The witness clause is borrowed intact from law: \"in the mouth of three witnesses shall these things be established.\" Deut. 19:15 sets the rule, \"at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established,\" and 2 Cor. 13:1 repeats it. The phrase mouth of three witnesses occurs once in the volume, here, and three witnesses in three verses altogether. What is being established by it is not a crime or a debt but the authenticity of a book.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Deut. 19:15",
+     "start": 117,
+     "end": 128,
+     "book": "Deut",
+     "chapter": 19,
+     "verse_start": 15,
+     "verse_end": 15
+    },
+    {
+     "kind": "scripture",
+     "text": "2 Cor. 13:1",
+     "start": 250,
+     "end": 261,
+     "book": "2 Cor",
+     "chapter": 13,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
+  },
+  {
+   "label": "v. 4",
+   "start": 4,
+   "end": 4,
+   "title": "Two triads in one sentence",
+   "text": "The same verse that names three human witnesses names three divine ones: \"of which the Father, and the Son, and the Holy Ghost bear record.\" Three below and three above, joined by a dash, and then a single consequence for both: \"all this shall stand as a testimony against the world at the last day.\" The construction sets a legal procedure and a theological claim in the same grammatical slot, so that the three men and the three persons are doing the same job in the sentence."
+  },
+  {
+   "label": "v. 6",
+   "start": 6,
+   "end": 6,
+   "title": "The writer refuses to assert his own standing",
+   "text": "The book's closing move is to hand the question to the reader: \"if I have no authority for these things, judge ye.\" The volume uses judge ye in four verses, at 2 Ne. 33:11, Ether 4:10, Moro. 7:18 and here, and each time a writer declines to settle a point himself. What follows is not an argument but a deferral: \"ye shall know that I have authority when ye shall see me, and we shall stand before God at the last day.\" The claim is left unproved on purpose, with the date of the proof named.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 33:11",
+     "start": 160,
+     "end": 171,
+     "book": "2 Ne",
+     "chapter": 33,
+     "verse_start": 11,
+     "verse_end": 11
+    },
+    {
+     "kind": "scripture",
+     "text": "Ether 4:10",
+     "start": 173,
+     "end": 183,
+     "book": "Ether",
+     "chapter": 4,
+     "verse_start": 10,
+     "verse_end": 10
+    },
+    {
+     "kind": "scripture",
+     "text": "Moro. 7:18",
+     "start": 185,
+     "end": 195,
+     "book": "Moro",
+     "chapter": 7,
+     "verse_start": 18,
+     "verse_end": 18
+    }
+   ]
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "He writes to a person he will never meet",
+   "text": "Verse 1 gives working instructions across the whole gap of time."
+  },
+  {
+   "n": 2,
+   "title": "Memory is named as the method",
+   "text": "Verse 1 says according to my memory, of words that had been commanded him."
+  },
+  {
+   "n": 3,
+   "title": "A limit sits inside the assignment",
+   "text": "Verse 1 forbids one portion while the work goes forward on the rest."
+  },
+  {
+   "n": 4,
+   "title": "The limit is dated",
+   "text": "Verse 1 says it will be wisdom in God by and by, which leaves the sealed part waiting rather than lost."
+  },
+  {
+   "n": 5,
+   "title": "Witnesses are promised before they exist",
+   "text": "Verse 3 fixes the number at three long before anyone could be named."
+  },
+  {
+   "n": 6,
+   "title": "The number comes from the law",
+   "text": "Deuteronomy 19:15 settles a matter in the mouth of two or three witnesses, and verse 4 uses that wording."
+  },
+  {
+   "n": 7,
+   "title": "The testimony cuts two ways",
+   "text": "Verse 4 makes it stand against the world and verse 5 gives the terms for standing on the other side of it."
+  },
+  {
+   "n": 8,
+   "title": "He closes by putting himself on trial",
+   "text": "Verse 6 invites judgment on his authority and names the day the verdict comes in."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Say where your account came from",
+    "verse_label": "v. 1",
+    "text": "Moroni names memory. Stating the source is part of giving the record."
+   },
+   {
+    "title": "Keep the limit that came with the work",
+    "verse_label": "v. 1",
+    "text": "He was told which part to leave alone. Some boundaries arrive with the assignment."
+   },
+   {
+    "title": "Expect help you cannot yet see",
+    "verse_label": "v. 2",
+    "text": "He writes of hands that would join the work later. It was never his alone to finish."
+   },
+   {
+    "title": "Three is the number given",
+    "verse_label": "v. 3–4",
+    "text": "The plates are to be shown to three, and in the mouth of three witnesses the thing is established. A claim resting on a small fixed number of named people is modest and checkable in a way that a claim resting on a crowd is not."
+   },
+   {
+    "title": "Witnesses still have to repent",
+    "verse_label": "v. 5",
+    "text": "Immediately after describing what the three will see, the text says that if they repent and come to the Father in the name of Jesus they shall be received. Having seen something excuses nobody from doing anything."
+   },
+   {
+    "title": "Let the claim be tested",
+    "verse_label": "v. 6",
+    "text": "He invites judgment on his own authority and sets a date for it."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What have I been told to leave alone?"
+   },
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "Do I say plainly where my information comes from?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Who is assisting in work I think of as mine?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What would it take for me to know a thing of a surety?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "Whose testimony has settled a question for me?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "What would repenting and coming to the Father look like this week?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "Am I willing to be judged on the claims I make?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "eth05-001",
+   "scope": "BOOK",
+   "head": "Ether 4:5",
+   "anchor": {
+    "verse": 1,
+    "w1": 18,
+    "w2": 28,
+    "quote": "I have told you the things which I have sealed up"
+   },
+   "reason": "the sealing he reported one chapter earlier",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 4,
+     "verse": 5,
+     "w1": 16,
+     "w2": 24,
+     "quote": "he commanded me that I should seal them up;",
+     "verse_text": "Wherefore the Lord hath commanded me to write them; and I have written them. And he commanded me that I should seal them up; and he also hath commanded that I should seal up the interpretation thereof; wherefore I have sealed up the interpreters, according to the commandment of the Lord.",
+     "markdown": "Wherefore the Lord hath commanded me to write them; and I have written them. And **he commanded me that I should seal them up**; and he also hath commanded that I should seal up the interpretation thereof; wherefore I have sealed up the interpreters, according to the commandment of the Lord.",
+     "span": true
+    }
+   ],
+   "mirror": "eth04-003"
+  },
+  {
+   "id": "eth05-002",
+   "scope": "BOOK",
+   "head": "Ether 3:22",
+   "anchor": {
+    "verse": 1,
+    "w1": 30,
+    "w2": 38,
+    "quote": "touch them not in order that ye may translate"
+   },
+   "reason": "the command that made the sealed part unreadable",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 3,
+     "verse": 22,
+     "w1": 25,
+     "w2": 36,
+     "quote": "ye shall write them in a language that they cannot be read.",
+     "verse_text": "And behold, when ye shall come unto me, ye shall write them and shall seal them up, that no one can interpret them; for ye shall write them in a language that they cannot be read.",
+     "markdown": "And behold, when ye shall come unto me, ye shall write them and shall seal them up, that no one can interpret them; for **ye shall write them in a language that they cannot be read**.",
+     "span": true
+    }
+   ],
+   "mirror": "eth03-012"
+  },
+  {
+   "id": "eth05-003",
+   "scope": "BOOK",
+   "head": "Ether 4:11",
+   "anchor": {
+    "verse": 3,
+    "w1": 14,
+    "w2": 24,
+    "quote": "they shall know of a surety that these things are true"
+   },
+   "reason": "the same knowledge promised to anyone who believes",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 4,
+     "verse": 11,
+     "w1": 33,
+     "w2": 40,
+     "quote": "he shall know that these things are true;",
+     "verse_text": "But he that believeth these things which I have spoken, him will I visit with the manifestations of my Spirit, and he shall know and bear record. For because of my Spirit he shall know that these things are true; for it persuadeth men to do good.",
+     "markdown": "But he that believeth these things which I have spoken, him will I visit with the manifestations of my Spirit, and he shall know and bear record. For because of my Spirit **he shall know that these things are true**; for it persuadeth men to do good.",
+     "span": true
+    }
+   ],
+   "mirror": "eth04-011"
+  },
+  {
+   "id": "eth05-004",
+   "scope": "BOM",
+   "head": "2 Ne. 27:12",
+   "anchor": {
+    "verse": 3,
+    "w1": 2,
+    "w2": 12,
+    "quote": "unto three shall they be shown by the power of God"
+   },
+   "reason": "Nephi naming the same three, long before",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 27,
+     "verse": 12,
+     "w1": 38,
+     "w2": 46,
+     "quote": "save it be that three witnesses shall behold it,",
+     "verse_text": "Wherefore, at that day when the book shall be delivered unto the man of whom I have spoken, the book shall be hid from the eyes of the world, that the eyes of none shall behold it save it be that three witnesses shall behold it, by the power of God, besides him to whom the book shall be delivered; and they shall testify to the truth of the book and the things therein.",
+     "markdown": "Wherefore, at that day when the book shall be delivered unto the man of whom I have spoken, the book shall be hid from the eyes of the world, that the eyes of none shall behold it **save it be that three witnesses shall behold it**, by the power of God, besides him to whom the book shall be delivered; and they shall testify to the truth of the book and the things therein.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne27-004"
+  },
+  {
+   "id": "eth05-005",
+   "scope": "BOM",
+   "head": "2 Ne. 11:3",
+   "anchor": {
+    "verse": 4,
+    "w1": 2,
+    "w2": 12,
+    "quote": "in the mouth of three witnesses shall these things be established"
+   },
+   "reason": "Nephi on why he sends three records forward",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 11,
+     "verse": 3,
+     "w1": 34,
+     "w2": 46,
+     "quote": "by the words of three, God hath said, I will establish my word.",
+     "verse_text": "And my brother, Jacob, also has seen him as I have seen him; wherefore, I will send their words forth unto my children to prove unto them that my words are true. Wherefore, by the words of three, God hath said, I will establish my word. Nevertheless, God sendeth more witnesses, and he proveth all his words.",
+     "markdown": "And my brother, Jacob, also has seen him as I have seen him; wherefore, I will send their words forth unto my children to prove unto them that my words are true. Wherefore, **by the words of three, God hath said, I will establish my word**. Nevertheless, God sendeth more witnesses, and he proveth all his words.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne11-004"
+  },
+  {
+   "id": "eth05-006",
+   "scope": "BOM",
+   "head": "Mosiah 8:13",
+   "anchor": {
+    "verse": 1,
+    "w1": 30,
+    "w2": 38,
+    "quote": "touch them not in order that ye may translate"
+   },
+   "reason": "Ammon on the man who can translate ancient records",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 8,
+     "verse": 13,
+     "w1": 13,
+     "w2": 20,
+     "quote": "of a man that can translate the records;",
+     "verse_text": "Now Ammon said unto him: I can assuredly tell thee, O king, of a man that can translate the records; for he has wherewith that he can look, and translate all records that are of ancient date; and it is a gift from God. And the things are called interpreters, and no man can look in them except he be commanded, lest he should look for that he ought not and he should perish. And whosoever is commanded to look in them, the same is called seer.",
+     "markdown": "Now Ammon said unto him: I can assuredly tell thee, O king, **of a man that can translate the records**; for he has wherewith that he can look, and translate all records that are of ancient date; and it is a gift from God. And the things are called interpreters, and no man can look in them except he be commanded, lest he should look for that he ought not and he should perish. And whosoever is commanded to look in them, the same is called seer.",
+     "span": true
+    }
+   ],
+   "mirror": "mos08-016"
+  },
+  {
+   "id": "eth05-007",
+   "scope": "BOM",
+   "head": "2 Ne. 27:22",
+   "anchor": {
+    "verse": 1,
+    "w1": 45,
+    "w2": 54,
+    "quote": "except by and by it shall be wisdom in God"
+   },
+   "reason": "the sealed words held back for a later showing",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 27,
+     "verse": 22,
+     "w1": 48,
+     "w2": 60,
+     "quote": "until I shall see fit in mine own wisdom to reveal all things",
+     "verse_text": "Wherefore, when thou hast read the words which I have commanded thee, and obtained the witnesses which I have promised unto thee, then shalt thou seal up the book again, and hide it up unto me, that I may preserve the words which thou hast not read, until I shall see fit in mine own wisdom to reveal all things unto the children of men.",
+     "markdown": "Wherefore, when thou hast read the words which I have commanded thee, and obtained the witnesses which I have promised unto thee, then shalt thou seal up the book again, and hide it up unto me, that I may preserve the words which thou hast not read, **until I shall see fit in mine own wisdom to reveal all things** unto the children of men.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne27-014"
+  },
+  {
+   "id": "eth05-008",
+   "scope": "BOM",
+   "head": "2 Ne. 33:11",
+   "anchor": {
+    "verse": 6,
+    "w1": 3,
+    "w2": 12,
+    "quote": "if I have no authority for these things, judge ye"
+   },
+   "reason": "Nephi closing his record with the same invitation",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 33,
+     "verse": 11,
+     "w1": 1,
+     "w2": 11,
+     "quote": "And if they are not the words of Christ, judge ye—for",
+     "verse_text": "And if they are not the words of Christ, judge ye—for Christ will show unto you, with power and great glory, that they are his words, at the last day; and you and I shall stand face to face before his bar; and ye shall know that I have been commanded of him to write these things, notwithstanding my weakness.",
+     "markdown": "**And if they are not the words of Christ, judge ye—for** Christ will show unto you, with power and great glory, that they are his words, at the last day; and you and I shall stand face to face before his bar; and ye shall know that I have been commanded of him to write these things, notwithstanding my weakness.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne33-006"
+  },
+  {
+   "id": "eth05-009",
+   "scope": "SW",
+   "head": "Deut. 19:15",
+   "anchor": {
+    "verse": 4,
+    "w1": 2,
+    "w2": 12,
+    "quote": "in the mouth of three witnesses shall these things be established"
+   },
+   "reason": "the law of witnesses this verse applies",
+   "targets": [
+    {
+     "ref": "Deut.",
+     "chapter": 19,
+     "verse": 15,
+     "w1": 23,
+     "w2": 40,
+     "quote": "at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established.",
+     "verse_text": "One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he sinneth: at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established.",
+     "markdown": "One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he sinneth: **at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "eth05-010",
+   "scope": "SW",
+   "head": "2 Cor. 13:1",
+   "anchor": {
+    "verse": 4,
+    "w1": 2,
+    "w2": 12,
+    "quote": "in the mouth of three witnesses shall these things be established"
+   },
+   "reason": "Paul applying the same rule to his own coming",
+   "targets": [
+    {
+     "ref": "2 Cor.",
+     "chapter": 13,
+     "verse": 1,
+     "w1": 11,
+     "w2": 23,
+     "quote": "In the mouth of two or three witnesses shall every word be established.",
+     "verse_text": "This is the third time I am coming to you. In the mouth of two or three witnesses shall every word be established.",
+     "markdown": "This is the third time I am coming to you. **In the mouth of two or three witnesses shall every word be established**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 18,
+   "w2": 28,
+   "quote": "I have told you the things which I have sealed up",
+   "entries": [
+    "eth05-001"
+   ]
+  },
+  {
+   "verse": 1,
+   "w1": 30,
+   "w2": 38,
+   "quote": "touch them not in order that ye may translate",
+   "entries": [
+    "eth05-002",
+    "eth05-006"
+   ]
+  },
+  {
+   "verse": 1,
+   "w1": 45,
+   "w2": 54,
+   "quote": "except by and by it shall be wisdom in God",
+   "entries": [
+    "eth05-007"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 2,
+   "w2": 12,
+   "quote": "unto three shall they be shown by the power of God",
+   "entries": [
+    "eth05-004"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 14,
+   "w2": 24,
+   "quote": "they shall know of a surety that these things are true",
+   "entries": [
+    "eth05-003"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 2,
+   "w2": 12,
+   "quote": "in the mouth of three witnesses shall these things be established",
+   "entries": [
+    "eth05-005",
+    "eth05-009",
+    "eth05-010"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 3,
+   "w2": 12,
+   "quote": "if I have no authority for these things, judge ye",
+   "entries": [
+    "eth05-008"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "e249f3835ac64f89"
+ }
+}

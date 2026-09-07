@@ -16,9 +16,9 @@
   "principles": [
    "A name given as a reminder",
    "A foundation that cannot fall",
-   "A voice"
+   "A voice that is not loud"
   ],
-  "connections": 10,
+  "connections": 16,
   "initial": false
  },
  "world_behind": [
@@ -30,7 +30,19 @@
   {
    "n": 2,
    "title": "The reason is the electorate",
-   "text": "Verse 2 says the laws and government rested on the voice of the people, and that those who chose evil had become the majority."
+   "text": "Verse 2 says the laws and government rested on the voice of the people, and that those who chose evil had become the majority. Mosiah 29:27 had named that exact failure mode when the system was founded, seventy years earlier: if the voice of the people choose iniquity, the judgments of God will come.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 29:27",
+     "start": 127,
+     "end": 139,
+     "book": "Mosiah",
+     "chapter": 29,
+     "verse_start": 27,
+     "verse_end": 27
+    }
+   ]
   },
   {
    "n": 3,
@@ -121,7 +133,19 @@
   {
    "term": "Unspeakable",
    "verse_label": "v. 44",
-   "text": "Beyond words. The record uses it three times and the King James Bible three, including Peter's \"joy unspeakable and full of glory,\" which verse 44 repeats almost exactly."
+   "text": "Beyond words. The record uses it three times and the King James Bible three, including Peter's \"joy unspeakable and full of glory\" (1 Pet. 1:8), which verse 44 repeats almost exactly.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Pet. 1:8",
+     "start": 132,
+     "end": 142,
+     "book": "1 Pet",
+     "chapter": 1,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
   }
  ],
  "phrases": [
@@ -183,53 +207,121 @@
  ],
  "verses": [
   {
-   "label": "v. 1–4",
-   "start": 1,
-   "end": 4,
-   "title": "The seat given up",
-   "text": "Nephi delivers the judgment-seat to Cezoram. The laws rest on the voice of the people, those who chose evil outnumber those who chose good, the laws are corrupt, and the people are stiffnecked past governing. Weary of their iniquity, Nephi resigns and takes up preaching with Lehi for the rest of their lives."
-  },
-  {
-   "label": "v. 5–8",
+   "label": "v. 5–14",
    "start": 5,
-   "end": 8,
-   "title": "The charge remembered",
-   "text": "They act because they remember their father's words. Helaman had asked them to keep the commandments and to declare his words, and had explained their names: remember the names, and you remember the men, and their works, and that the record calls them good. He asks that their own good be done for a treasure in heaven."
+   "end": 14,
+   "title": "A speech made of citations",
+   "text": "Helaman's charge is preserved as a document, introduced with \"these are the words which he spake,\" and the word it is built from is remember. Fourteen uses stand in this chapter and every one falls between verses 6 and 14. No chapter of scripture uses the word more often; 2 Nephi 9 is next with eight. What the sons are told to remember is in each case a text: the words of king Benjamin (v. 9), the words Amulek spake unto Zeezrom in Ammonihah (v. 10), the works of the first Nephi and Lehi (v. 6). A father instructing two sons hands them a reading list.",
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 9)",
+     "start": 389,
+     "end": 395,
+     "verse_start": 9,
+     "verse_end": 9
+    },
+    {
+     "kind": "verse",
+     "text": "(v. 10)",
+     "start": 446,
+     "end": 453,
+     "verse_start": 10,
+     "verse_end": 10
+    },
+    {
+     "kind": "verse",
+     "text": "(v. 6)",
+     "start": 493,
+     "end": 499,
+     "verse_start": 6,
+     "verse_end": 6
+    }
+   ]
   },
   {
-   "label": "v. 9–12",
-   "start": 9,
-   "end": 12,
-   "title": "Remember",
-   "text": "He points them to Benjamin's teaching that salvation comes only through the atoning blood of Christ, and to Amulek's answer that Christ redeems people from their sins rather than in them, on condition of repentance. Then he gives the rock: build on the Redeemer, and the devil's winds, shafts, hail, and storm cannot drag you down."
+   "label": "v. 6",
+   "start": 6,
+   "end": 6,
+   "title": "A chain of four rememberings",
+   "text": "The reason for the names is given as a sequence, each link picking up the previous word: \"when you remember your names ye may remember them; and when ye remember them ye may remember their works; and when ye remember their works ye may know how that it is said, and also written, that they were good.\" Name, then person, then deed, then record. The chain ends on the written account, which is where a reader of this chapter is standing, and the naming of the two sons is presented as a device for keeping a text in circulation."
   },
   {
-   "label": "v. 13–20",
+   "label": "v. 13",
    "start": 13,
-   "end": 20,
-   "title": "The mission",
-   "text": "They remember and go, beginning at Bountiful, then Gid, then Mulek, through every city of the land southward, and into Zarahemla among the Lamanites. They confound many Nephite dissenters, who confess, are baptized, and return to repair the wrongs they had done. Preaching with power and authority, and given what to say, they baptize eight thousand Lamanites."
+   "end": 13,
+   "title": "The record says the quotation is partial",
+   "text": "Immediately after the speech, the abridger marks what he has left out: \"he did teach them many things which are not written, and also many things which are written.\" The phrase which are not written is used in three verses of the volume, at Mosiah 1:8, Alma 13:31, and here. Each time it appears at the seam of a quotation, and each time it concedes that the reader is holding a selection. Nothing indicates the basis on which the selection was made.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 1:8",
+     "start": 241,
+     "end": 251,
+     "book": "Mosiah",
+     "chapter": 1,
+     "verse_start": 8,
+     "verse_end": 8
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 13:31",
+     "start": 253,
+     "end": 263,
+     "book": "Alma",
+     "chapter": 13,
+     "verse_start": 31,
+     "verse_end": 31
+    }
+   ]
   },
   {
-   "label": "v. 21–27",
+   "label": "v. 21",
    "start": 21,
-   "end": 27,
-   "title": "The prison and the fire",
-   "text": "Going on to the land of Nephi, they are taken and imprisoned in the cell where Ammon had been held. After many days without food their captors come to kill them and find them encircled as if by fire, unburned. The Lamanites stand struck dumb. Nephi and Lehi tell them not to fear, and the earth shakes and the prison walls shake without falling."
+   "end": 21,
+   "title": "The same cell, named",
+   "text": "The imprisonment could have been reported without a detail that no part of the story needs: it was \"even in that same prison in which Ammon and his brethren were cast by the servants of Limhi.\" That episode is roughly fifty years and eight chapters earlier in the volume. The record supplies the cross-reference itself, in the middle of the sentence that puts the brothers in chains, and then never mentions it again."
   },
   {
-   "label": "v. 28–41",
+   "label": "v. 28–43",
    "start": 28,
-   "end": 41,
-   "title": "The cloud and the voice",
-   "text": "A cloud of darkness overshadows them with an awful solemn fear. A voice calls twice for repentance and once speaks words that cannot be uttered, and each time the earth shakes. They cannot flee or move. Aminadab, a Nephite dissenter, turns and sees the faces of Nephi and Lehi shining like angels' and lifted toward heaven. He calls the multitude to look, and tells them the two are conversing with angels and that they must repent and cry to the voice until they have faith in Christ."
+   "end": 43,
+   "title": "A phrase that lives in sixteen verses",
+   "text": "Cloud of darkness stands in ten verses of the whole volume. Nine of them are here, in the stretch from verse 28 to verse 43, and it is used once before the chapter and never after. The tenth is Alma 19:6, where it appears in the same shape it takes at the end of this chapter, as a thing dispelled: there \"the cloud of darkness having been dispelled,\" here \"the cloud of darkness was dispersed\" (v. 42). The volume gives the image one location and one outcome, and this chapter is where it lives.",
+   "cites": [
+    {
+     "quote": "the cloud of darkness was dispersed",
+     "verse": 42,
+     "start": 357,
+     "end": 402,
+     "spans": [
+      {
+       "w1": 29,
+       "w2": 34,
+       "text": "the cloud of darkness was dispersed"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 19:6",
+     "start": 194,
+     "end": 203,
+     "book": "Alma",
+     "chapter": 19,
+     "verse_start": 6,
+     "verse_end": 6
+    }
+   ]
   },
   {
-   "label": "v. 42–52",
-   "start": 42,
-   "end": 52,
-   "title": "The answer",
-   "text": "They cry until the cloud disperses, and find every soul encircled by a pillar of fire that does no harm. The Holy Spirit enters their hearts, and a pleasant voice like a whisper speaks peace because of their faith in the Well Beloved. The heavens open and angels minister to about three hundred souls, who go out and declare what they saw. Most of the Lamanites are convinced, lay down their weapons, their hatred, and their traditions, and give the Nephites back their lands."
+   "label": "v. 49",
+   "start": 49,
+   "end": 49,
+   "title": "One number, and it is hedged",
+   "text": "After a chapter of shaking walls, three voices, faces that shine, and open heavens, the record gives exactly one quantity: \"there were about three hundred souls who saw and heard these things.\" The qualifier is doing real work, since the whole account depends on there having been witnesses and the writer declines to say precisely how many. The same verse adds what they were told, \"to go forth and marvel not, neither should they doubt,\" and the next verse has them out preaching. A count that could have been rounded up is left approximate."
   }
  ],
  "chapter": [
@@ -279,22 +371,42 @@
    {
     "title": "Leave the seat you cannot use",
     "verse_label": "v. 4",
-    "text": "Nephi judged that preaching would do what the office no longer could. Changing what you are doing is sometimes the honest response to a job that has stopped working."
+    "text": "Nephi judged that preaching would do what the office no longer could, and the record says why: he was \"wearied because of their iniquity.\" Changing what you are doing is sometimes the honest response to a job that has stopped working."
    },
    {
     "title": "Attach a reminder to something you carry",
     "verse_label": "v. 6",
-    "text": "Helaman used his sons' names. Tie the thing you want remembered to something already in daily use."
+    "text": "Helaman used his sons' names and said so outright, \"I have given unto you the names of our first parents... that when you remember your names ye may remember them.\" Tie the thing you want remembered to something already in daily use."
+   },
+   {
+    "title": "Name the good you want them to copy, and not the outcome",
+    "verse_label": "v. 6–8",
+    "text": "The charge is to do good \"that it may be said of you, and also written,\" and then verse 8 warns against doing it for that reason. Both stand. Decide what you would want said of you, then do it for a reason that would survive nobody saying it."
    },
    {
     "title": "Grant the storm and keep the foundation",
     "verse_label": "v. 12",
-    "text": "The promise does not include better weather. Assume the winds and ask what you are standing on."
+    "text": "The promise does not include better weather; it names \"his mighty storm,\" \"his hail,\" and \"his shafts in the whirlwind,\" and then says you shall not fall. Assume the winds and ask what you are standing on."
+   },
+   {
+    "title": "Expect the second attempt to be the one",
+    "verse_label": "v. 29–33",
+    "text": "The voice comes three times, and the record reports each hearing separately. What changed was not the message but the attention. When something did not land, the chapter's assumption is that it will be said again."
+   },
+   {
+    "title": "Rule out what it was not",
+    "verse_label": "v. 30",
+    "text": "The record describes the voice by elimination: not thunder, not a great tumultuous noise, but \"a still voice of perfect mildness, as if it had been a whisper.\" When you are trying to identify something, listing what it was not is often more useful than reaching for what it was."
    },
    {
     "title": "Say what you already know when someone asks",
     "verse_label": "v. 39",
     "text": "Aminadab was a lapsed member in a dark room, and his answer turned three hundred people. What you know is useful even when you feel disqualified."
+   },
+   {
+    "title": "Cry until the cloud is gone rather than until you feel better",
+    "verse_label": "v.\n41",
+    "text": "The instruction Aminadab gives is specific about the endpoint, cry \"even until ye shall have faith in Christ... and when ye shall do this, the cloud of darkness shall be removed.\" Set the finish line at the thing you asked for, not at the moment the asking gets tiring."
    }
   ],
   "questions": [
@@ -379,7 +491,7 @@
     "w2": 40,
     "quote": "the laws had become corrupted"
    },
-   "reason": "the altering of the laws of Mosiah, seen by the people who did it",
+   "reason": "the altering of Mosiah's laws, seen by the doers",
    "targets": [
     {
      "ref": "Hel.",
@@ -445,7 +557,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos03-018"
   },
   {
    "id": "hel05-005",
@@ -471,7 +583,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al11-019"
   },
   {
    "id": "hel05-006",
@@ -483,7 +595,7 @@
     "w2": 38,
     "quote": "that same prison in which Ammon and his brethren were cast by the servants of Limhi"
    },
-   "reason": "the earlier arrest, in the same city and the same building",
+   "reason": "the earlier arrest, same city and same building",
    "targets": [
     {
      "ref": "Mosiah",
@@ -497,7 +609,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos07-014"
   },
   {
    "id": "hel05-007",
@@ -509,7 +621,7 @@
     "w2": 13,
     "quote": "did lay down their weapons of war"
    },
-   "reason": "the burial of the swords, a generation earlier and by choice",
+   "reason": "the burial of the swords, a generation earlier",
    "targets": [
     {
      "ref": "Alma",
@@ -523,7 +635,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al24-013"
   },
   {
    "id": "hel05-008",
@@ -549,7 +661,163 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al36-012"
+  },
+  {
+   "id": "hel05-011",
+   "scope": "BOM",
+   "head": "Alma 4:20",
+   "anchor": {
+    "verse": 4,
+    "w1": 16,
+    "w2": 31,
+    "quote": "he yielded up the judgment-seat, and took it upon him to preach the word of God"
+   },
+   "reason": "Alma's resignation of the judgment-seat to preach",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 4,
+     "verse": 20,
+     "w1": 21,
+     "w2": 27,
+     "quote": "Alma delivered up the judgment-seat to Nephihah,",
+     "verse_text": "And thus in the commencement of the ninth year of the reign of the judges over the people of Nephi, Alma delivered up the judgment-seat to Nephihah, and confined himself wholly to the high priesthood of the holy order of God, to the testimony of the word, according to the spirit of revelation and prophecy.",
+     "markdown": "And thus in the commencement of the ninth year of the reign of the judges over the people of Nephi, **Alma delivered up the judgment-seat to Nephihah**, and confined himself wholly to the high priesthood of the holy order of God, to the testimony of the word, according to the spirit of revelation and prophecy.",
+     "span": true
+    }
+   ],
+   "mirror": "al04-011"
+  },
+  {
+   "id": "hel05-012",
+   "scope": "BOM",
+   "head": "3 Ne. 11:39",
+   "anchor": {
+    "verse": 12,
+    "w1": 8,
+    "w2": 28,
+    "quote": "it is upon the rock of our Redeemer, who is Christ, the Son of God, that ye must build your foundation;"
+   },
+   "reason": "Christ naming his doctrine the rock men build on",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 11,
+     "verse": 39,
+     "w1": 13,
+     "w2": 20,
+     "quote": "whoso buildeth upon this buildeth upon my rock,",
+     "verse_text": "Verily, verily, I say unto you, that this is my doctrine, and whoso buildeth upon this buildeth upon my rock, and the gates of hell shall not prevail against them.",
+     "markdown": "Verily, verily, I say unto you, that this is my doctrine, and **whoso buildeth upon this buildeth upon my rock**, and the gates of hell shall not prevail against them.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne11-006"
+  },
+  {
+   "id": "hel05-013",
+   "scope": "BOM",
+   "head": "Jacob 4:16",
+   "anchor": {
+    "verse": 12,
+    "w1": 91,
+    "w2": 99,
+    "quote": "a foundation whereon if men build they cannot fall."
+   },
+   "reason": "Jacob's rejected stone becoming the only sure foundation",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 4,
+     "verse": 16,
+     "w1": 7,
+     "w2": 20,
+     "quote": "this stone shall become the great, and the last, and the only sure foundation,",
+     "verse_text": "But behold, according to the scriptures, this stone shall become the great, and the last, and the only sure foundation, upon which the Jews can build.",
+     "markdown": "But behold, according to the scriptures, **this stone shall become the great, and the last, and the only sure foundation**, upon which the Jews can build.",
+     "span": true
+    }
+   ],
+   "mirror": "jac04-006"
+  },
+  {
+   "id": "hel05-014",
+   "scope": "BOM",
+   "head": "3 Ne. 11:3",
+   "anchor": {
+    "verse": 30,
+    "w1": 33,
+    "w2": 40,
+    "quote": "it was a still voice of perfect mildness,"
+   },
+   "reason": "the voice from heaven described by what it lacked",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 11,
+     "verse": 3,
+     "w1": 43,
+     "w2": 54,
+     "quote": "it was not a harsh voice, neither was it a loud voice;",
+     "verse_text": "And it came to pass that while they were thus conversing one with another, they heard a voice as if it came out of heaven; and they cast their eyes round about, for they understood not the voice which they heard; and it was not a harsh voice, neither was it a loud voice; nevertheless, and notwithstanding it being a small voice it did pierce them that did hear to the center, insomuch that there was no part of their frame that it did not cause to quake; yea, it did pierce them to the very soul, and did cause their hearts to burn.",
+     "markdown": "And it came to pass that while they were thus conversing one with another, they heard a voice as if it came out of heaven; and they cast their eyes round about, for they understood not the voice which they heard; and **it was not a harsh voice, neither was it a loud voice**; nevertheless, and notwithstanding it being a small voice it did pierce them that did hear to the center, insomuch that there was no part of their frame that it did not cause to quake; yea, it did pierce them to the very soul, and did cause their hearts to burn.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne11-005"
+  },
+  {
+   "id": "hel05-015",
+   "scope": "BOM",
+   "head": "3 Ne. 17:17",
+   "anchor": {
+    "verse": 44,
+    "w1": 46,
+    "w2": 58,
+    "quote": "they were filled with that joy which is unspeakable and full of glory."
+   },
+   "reason": "joy at Christ's prayer past anyone's power to tell",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 17,
+     "verse": 17,
+     "w1": 35,
+     "w2": 45,
+     "quote": "no one can conceive of the joy which filled our souls",
+     "verse_text": "And no tongue can speak, neither can there be written by any man, neither can the hearts of men conceive so great and marvelous things as we both saw and heard Jesus speak; and no one can conceive of the joy which filled our souls at the time we heard him pray for us unto the Father.",
+     "markdown": "And no tongue can speak, neither can there be written by any man, neither can the hearts of men conceive so great and marvelous things as we both saw and heard Jesus speak; and **no one can conceive of the joy which filled our souls** at the time we heard him pray for us unto the Father.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne17-007"
+  },
+  {
+   "id": "hel05-016",
+   "scope": "BOM",
+   "head": "3 Ne. 9:20",
+   "anchor": {
+    "verse": 45,
+    "w1": 20,
+    "w2": 33,
+    "quote": "they were filled as if with fire, and they could speak forth marvelous words."
+   },
+   "reason": "Christ naming a fire baptism the Lamanites missed",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 9,
+     "verse": 20,
+     "w1": 57,
+     "w2": 70,
+     "quote": "were baptized with fire and with the Holy Ghost, and they knew it not.",
+     "verse_text": "And ye shall offer for a sacrifice unto me a broken heart and a contrite spirit. And whoso cometh unto me with a broken heart and a contrite spirit, him will I baptize with fire and with the Holy Ghost, even as the Lamanites, because of their faith in me at the time of their conversion, were baptized with fire and with the Holy Ghost, and they knew it not.",
+     "markdown": "And ye shall offer for a sacrifice unto me a broken heart and a contrite spirit. And whoso cometh unto me with a broken heart and a contrite spirit, him will I baptize with fire and with the Holy Ghost, even as the Lamanites, because of their faith in me at the time of their conversion, **were baptized with fire and with the Holy Ghost, and they knew it not**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne09-005"
   },
   {
    "id": "hel05-009",
@@ -561,7 +829,7 @@
     "w2": 99,
     "quote": "a foundation whereon if men build they cannot fall"
    },
-   "reason": "the house that the rain and floods and winds could not bring down",
+   "reason": "the house the rain and floods could not bring down",
    "targets": [
     {
      "ref": "Matt.",
@@ -587,7 +855,7 @@
     "w2": 40,
     "quote": "it was a still voice of perfect mildness"
    },
-   "reason": "Elijah at Horeb, after the wind and the earthquake and the fire",
+   "reason": "Elijah at Horeb, after wind, earthquake and fire",
    "targets": [
     {
      "ref": "1 Kgs.",
@@ -612,6 +880,15 @@
    "quote": "the laws had become corrupted",
    "entries": [
     "hel05-002"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 16,
+   "w2": 31,
+   "quote": "he yielded up the judgment-seat, and took it upon him to preach the word of God",
+   "entries": [
+    "hel05-011"
    ]
   },
   {
@@ -643,10 +920,20 @@
   },
   {
    "verse": 12,
+   "w1": 8,
+   "w2": 28,
+   "quote": "it is upon the rock of our Redeemer, who is Christ, the Son of God, that ye must build your foundation;",
+   "entries": [
+    "hel05-012"
+   ]
+  },
+  {
+   "verse": 12,
    "w1": 91,
    "w2": 99,
-   "quote": "a foundation whereon if men build they cannot fall",
+   "quote": "a foundation whereon if men build they cannot fall.",
    "entries": [
+    "hel05-013",
     "hel05-009"
    ]
   },
@@ -663,8 +950,9 @@
    "verse": 30,
    "w1": 33,
    "w2": 40,
-   "quote": "it was a still voice of perfect mildness",
+   "quote": "it was a still voice of perfect mildness,",
    "entries": [
+    "hel05-014",
     "hel05-010"
    ]
   },
@@ -675,6 +963,24 @@
    "quote": "they were in the attitude as if talking or lifting their voices to some being whom they beheld",
    "entries": [
     "hel05-008"
+   ]
+  },
+  {
+   "verse": 44,
+   "w1": 46,
+   "w2": 58,
+   "quote": "they were filled with that joy which is unspeakable and full of glory.",
+   "entries": [
+    "hel05-015"
+   ]
+  },
+  {
+   "verse": 45,
+   "w1": 20,
+   "w2": 33,
+   "quote": "they were filled as if with fire, and they could speak forth marvelous words.",
+   "entries": [
+    "hel05-016"
    ]
   },
   {
@@ -697,7 +1003,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "9df81450599d6ac3"
+  "at": "2026-09-07",
+  "source_sha256": "a9dbc1b40b59ac89"
  }
 }

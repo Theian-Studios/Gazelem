@@ -14,9 +14,10 @@
   "unit": "The war chapters (Alma 43–63)",
   "principles": [
    "A charge made on incomplete information",
-   "The inward vessel cleansed"
+   "The inward vessel cleansed first",
+   "A threat backed by a covenant"
   ],
-  "connections": 10,
+  "connections": 13,
   "initial": true
  },
  "world_behind": [
@@ -229,46 +230,39 @@
  ],
  "verses": [
   {
-   "label": "v. 1–6",
-   "start": 1,
-   "end": 6,
-   "title": "The address and the charge",
-   "text": "Moroni writes again, to Pahoran and to all who govern the war. He states his purpose as condemnation, lists the sufferings of his men and Helaman's, sets the hardship aside, and names the thousands who fell for want of reinforcement. He asks the cause of the neglect."
+   "label": "v. 12–13",
+   "start": 12,
+   "end": 13,
+   "title": "An accusation interrupted to correct a doctrine",
+   "text": "In the middle of the attack the record has the letter stop to fix a theological error it expects on the other side: \"Do ye suppose that, because so many of your brethren have been killed it is because of their wickedness? I say unto you, if ye have supposed this ye have supposed in vain.\" Verse 13 gives the replacement: \"the Lord suffereth the righteous to be slain that his justice and judgment may come upon the wicked.\" A letter demanding food and troops takes two verses to deny that the dead deserved it."
   },
   {
-   "label": "v. 7–14",
-   "start": 7,
-   "end": 14,
-   "title": "The thrones and the blood",
-   "text": "He asks how they can sit in thoughtless stupor while thousands are murdered, says they withheld provisions from men who bled for the welfare of the people, and warns that the blood of thousands will come upon their heads. He denies that God delivers those who do nothing, and denies that the slain died for their own wickedness. He fears that judgment will come upon the people because of the slothfulness of the government."
+   "label": "v. 18",
+   "start": 18,
+   "end": 18,
+   "title": "The charge stated as something the writer does not know",
+   "text": "The strongest accusation in the letter is framed twice as ignorance: \"we know not but what ye yourselves are seeking for authority. We know not but what ye are also traitors to your country.\" The construction concedes that the writer has no evidence and makes the charge anyway. Alma 61 will show the guess was wrong, and the record prints both documents, so a reader sees the accusation and the correction in consecutive chapters."
   },
   {
-   "label": "v. 15–19",
-   "start": 15,
-   "end": 19,
-   "title": "The first cause",
-   "text": "Moroni traces the losses to wickedness that began at the head. The war of the king-men divided the country's strength, and the Lamanite advance followed. He then says he does not know whether the governors are seeking authority, are traitors, or have simply been comfortable in the interior."
+   "label": "v. 24–25",
+   "start": 24,
+   "end": 25,
+   "title": "An ultimatum with terms and a deadline",
+   "text": "The record makes the demand specific about what would satisfy it: \"except ye do repent of that which ye have done, and begin to be up and doing, and send forth food and men unto us, and also unto Helaman.\" Verse 25 adds a second condition, \"except ye grant mine epistle, and come out and show unto me a true spirit of freedom, and strive to strengthen and fortify our armies.\" Food, men, and a demonstration. The consequence follows in verse 27 and again in verse 35."
   },
   {
-   "label": "v. 20–24",
-   "start": 20,
-   "end": 24,
-   "title": "The questions and the vessel",
-   "text": "He asks whether they have forgotten the commandments, the captivity of the fathers, and the deliverances. He asks whether they expect God to save men who will not use the means provided. He calls for repentance and supply, and says the inward vessel must be cleansed first."
+   "label": "v. 33–34",
+   "start": 33,
+   "end": 34,
+   "title": "The letter claims its charge was dictated",
+   "text": "The writer moves from his own accusation to a quoted one: \"Ye know that ye do transgress the laws of God, and ye do know that ye do trample them under your feet. Behold, the Lord saith unto me: If those whom ye have appointed your governors do not repent of their sins and iniquities, ye shall go up to battle against them.\" Verse 34 then binds the writer himself, \"I, Moroni, am constrained, according to the covenant which I have made to keep the commandments of my God.\" The threat of civil war is presented as an obligation rather than a choice."
   },
   {
-   "label": "v. 25–31",
-   "start": 25,
-   "end": 31,
-   "title": "The threat",
-   "text": "If they will not grant the epistle and strengthen the armies, he will leave part of his freemen to hold the land, come to Zarahemla, stir up insurrections among any who still love freedom, and smite those who impede the cause. He says he fears God rather than their power."
-  },
-  {
-   "label": "v. 32–36",
-   "start": 32,
+   "label": "v. 36",
+   "start": 36,
    "end": 36,
-   "title": "The warrant and the signature",
-   "text": "He asks whether God will spare men whose iniquity comes from love of glory while the Lamanites act from inherited tradition. He reports a word from the Lord authorizing battle against unrepentant governors. He says he is constrained by covenant, asks for provisions and men, and closes by naming himself and what he seeks."
+   "title": "A signature written in negatives",
+   "text": "The letter closes on a self-description built from two denials and two positives: \"I am Moroni, your chief captain. I seek not for power, but to pull it down. I seek not for honor of the world, but for the glory of my God, and the freedom and welfare of my country.\" The office is stated first, then twice what the writer is not after, and only then what he is. The last clause of the chapter is administrative, \"And thus I close mine epistle.\""
   }
  ],
  "chapter": [
@@ -333,9 +327,29 @@
     "text": "Moroni listed what he would not complain about before naming what he would. Say plainly which part of a hard situation you accept, so the real objection is audible."
    },
    {
+    "title": "Put the charge as a question they have to answer",
+    "verse_label": "v. 7",
+    "text": "Moroni asked whether they could sit upon their thrones in a state of thoughtless stupor while the killing went on. A question makes the other person produce the answer; a statement lets them file it away."
+   },
+   {
+    "title": "Do not read outcomes as verdicts",
+    "verse_label": "v. 12–13",
+    "text": "Moroni refused to treat the fallen as the guilty. Suffering distributed by circumstance tells you little about who deserved it."
+   },
+   {
+    "title": "Trace the loss back to the quarrel at home",
+    "verse_label": "v. 16",
+    "text": "Moroni's account places the war among the king-men ahead of the ground lost to the Lamanites. Before concluding that an outside force beat you, add up what your own side spent fighting itself."
+   },
+   {
     "title": "Say what you do not know, out loud",
     "verse_label": "v. 18",
     "text": "Moroni admitted twice that he was guessing at motives. Marking the guess as a guess is what lets a strong accusation be answered instead of resented."
+   },
+   {
+    "title": "Ask what has been forgotten",
+    "verse_label": "v. 20",
+    "text": "Three of Moroni's questions in a row open with \"Have ye forgotten\". When a group is failing at something it used to do well, the trouble is usually memory rather than capacity."
    },
    {
     "title": "Clean the inside first",
@@ -343,9 +357,9 @@
     "text": "Moroni was willing to stop the war until the government was fixed. When the outward effort keeps failing, look at what is generating the failure before spending more."
    },
    {
-    "title": "Do not read outcomes as verdicts",
-    "verse_label": "v. 12–13",
-    "text": "Moroni refused to treat the fallen as the guilty. Suffering distributed by circumstance tells you little about who deserved it."
+    "title": "Close by naming your own aim",
+    "verse_label": "v. 36",
+    "text": "Moroni ends the letter saying he seeks to pull power down rather than to hold any. Stating what you are after at the end of a hard message gives the reader a standard to hold you to afterward."
    }
   ],
   "questions": [
@@ -496,7 +510,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al51-010"
   },
   {
    "id": "al60-005",
@@ -508,7 +522,7 @@
     "w2": 33,
     "quote": "We know not but what ye are also traitors to your country"
    },
-   "reason": "the record's other use of the word, at the moment the charge is dropped",
+   "reason": "the word's only other use, as the charge is dropped",
    "targets": [
     {
      "ref": "Alma",
@@ -534,7 +548,7 @@
     "w2": 17,
     "quote": "I seek not for power, but to pull it down"
    },
-   "reason": "Pahoran disclaiming ambition in nearly the same words",
+   "reason": "Pahoran denying he sought the seat, nearly verbatim",
    "targets": [
     {
      "ref": "Alma",
@@ -560,7 +574,7 @@
     "w2": 40,
     "quote": "the freedom and welfare of my country"
    },
-   "reason": "the words written on the title of liberty by the same man",
+   "reason": "the words this man wrote on the title of liberty",
    "targets": [
     {
      "ref": "Alma",
@@ -574,7 +588,59 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al46-014"
+  },
+  {
+   "id": "al60-011",
+   "scope": "BOOK",
+   "head": "Alma 51:13",
+   "anchor": {
+    "verse": 16,
+    "w1": 86,
+    "w2": 93,
+    "quote": "instead of taking up their swords against us,"
+   },
+   "reason": "the refusal itself, when it happened",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 51,
+     "verse": 13,
+     "w1": 33,
+     "w2": 38,
+     "quote": "they refused to take up arms,",
+     "verse_text": "And it came to pass that when the men who were called king-men had heard that the Lamanites were coming down to battle against them, they were glad in their hearts; and they refused to take up arms, for they were so wroth with the chief judge, and also with the people of liberty, that they would not take up arms to defend their country.",
+     "markdown": "And it came to pass that when the men who were called king-men had heard that the Lamanites were coming down to battle against them, they were glad in their hearts; and **they refused to take up arms**, for they were so wroth with the chief judge, and also with the people of liberty, that they would not take up arms to defend their country.",
+     "span": true
+    }
+   ],
+   "mirror": "al51-002"
+  },
+  {
+   "id": "al60-012",
+   "scope": "BOOK",
+   "head": "Alma 61:9",
+   "anchor": {
+    "verse": 18,
+    "w1": 22,
+    "w2": 33,
+    "quote": "We know not but what ye are also traitors to your country."
+   },
+   "reason": "Pahoran's answer to the censure",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 61,
+     "verse": 9,
+     "w1": 3,
+     "w2": 13,
+     "quote": "in your epistle you have censured me, but it mattereth not;",
+     "verse_text": "And now, in your epistle you have censured me, but it mattereth not; I am not angry, but do rejoice in the greatness of your heart. I, Pahoran, do not seek for power, save only to retain my judgment-seat that I may preserve the rights and the liberty of my people. My soul standeth fast in that liberty in the which God hath made us free.",
+     "markdown": "And now, **in your epistle you have censured me, but it mattereth not**; I am not angry, but do rejoice in the greatness of your heart. I, Pahoran, do not seek for power, save only to retain my judgment-seat that I may preserve the rights and the liberty of my people. My soul standeth fast in that liberty in the which God hath made us free.",
+     "span": true
+    }
+   ],
+   "mirror": "al61-006"
   },
   {
    "id": "al60-008",
@@ -603,6 +669,32 @@
    "mirror": "hel04-003"
   },
   {
+   "id": "al60-013",
+   "scope": "BOM",
+   "head": "Morm. 4:5",
+   "anchor": {
+    "verse": 5,
+    "w1": 3,
+    "w2": 10,
+    "quote": "great has been the slaughter among our people;"
+   },
+   "reason": "Mormon's summary of how the judgment works",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 4,
+     "verse": 5,
+     "w1": 11,
+     "w2": 21,
+     "quote": "and it is by the wicked that the wicked are punished;",
+     "verse_text": "But, behold, the judgments of God will overtake the wicked; and it is by the wicked that the wicked are punished; for it is the wicked that stir up the hearts of the children of men unto bloodshed.",
+     "markdown": "But, behold, the judgments of God will overtake the wicked; **and it is by the wicked that the wicked are punished**; for it is the wicked that stir up the hearts of the children of men unto bloodshed.",
+     "span": true
+    }
+   ],
+   "mirror": "morm04-007"
+  },
+  {
    "id": "al60-009",
    "scope": "SW",
    "head": "Matt. 23:26",
@@ -612,7 +704,7 @@
     "w2": 44,
     "quote": "the inward vessel shall be cleansed first"
    },
-   "reason": "the saying in the gospel, of the cup and the platter",
+   "reason": "the gospel saying, of the cup and the platter",
    "targets": [
     {
      "ref": "Matt.",
@@ -638,7 +730,7 @@
     "w2": 23,
     "quote": "except ye do bestir yourselves in the defence of your country"
    },
-   "reason": "the King James Bible's one use of the verb, of David at the mulberry trees",
+   "reason": "the King James verb, once, of David at the mulberries",
    "targets": [
     {
      "ref": "2 Sam.",
@@ -675,6 +767,15 @@
    ]
   },
   {
+   "verse": 5,
+   "w1": 3,
+   "w2": 10,
+   "quote": "great has been the slaughter among our people;",
+   "entries": [
+    "al60-013"
+   ]
+  },
+  {
    "verse": 6,
    "w1": 4,
    "w2": 14,
@@ -702,12 +803,22 @@
    ]
   },
   {
+   "verse": 16,
+   "w1": 86,
+   "w2": 93,
+   "quote": "instead of taking up their swords against us,",
+   "entries": [
+    "al60-011"
+   ]
+  },
+  {
    "verse": 18,
    "w1": 22,
    "w2": 33,
    "quote": "We know not but what ye are also traitors to your country",
    "entries": [
-    "al60-005"
+    "al60-005",
+    "al60-012"
    ]
   },
   {
@@ -748,7 +859,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "47bab63dbc90400d"
+  "at": "2026-09-07",
+  "source_sha256": "2f8f2fe153257ffa"
  }
 }

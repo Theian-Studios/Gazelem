@@ -1,0 +1,659 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 45,
+  "volume_order": "08",
+  "speakers": [
+   "Alma",
+   "Helaman",
+   "The Lord, quoted"
+  ],
+  "audience": "Helaman, and then the church",
+  "location": "Zarahemla, and the road toward Melek",
+  "date": "~73 BC",
+  "unit": "The war chapters (Alma 43–63)",
+  "principles": [
+   "A prophecy sealed until it comes true",
+   "A departure with no burial",
+   ""
+  ],
+  "connections": 9,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Mormon is working from a new source",
+   "text": "Alma 44 closed the record of Alma on the plates of Nephi. This chapter opens the material that carries the war block, and Helaman becomes the keeper."
+  },
+  {
+   "n": 2,
+   "title": "Alma examines his son before blessing him",
+   "text": "Verses 2 through 7 are three questions with three answers: the records, Christ, and obedience. The blessing in verse 8 follows the answers."
+  },
+  {
+   "n": 3,
+   "title": "The prophecy is placed under seal",
+   "text": "Verse 9 tells Helaman to write it and not make it known until it is fulfilled. Mormon is publishing it centuries later, from the far side of the fulfilment."
+  },
+  {
+   "n": 4,
+   "title": "The timetable is four hundred years",
+   "text": "Verse 10 dates the dwindling from Christ's appearance. 4 Nephi and Mormon are the chapters where the record reports it happening."
+  },
+  {
+   "n": 5,
+   "title": "Alma blesses the land conditionally",
+   "text": "Verse 16 quotes the Lord cursing the land unto destruction for any nation that does wickedly when fully ripe. The same clause blesses and curses."
+  },
+  {
+   "n": 6,
+   "title": "His death is not recorded",
+   "text": "Verses 18 and 19 say he departed toward Melek and was never heard of again, and that the church supposed he was taken up as Moses was. Mormon marks it as a supposition."
+  },
+  {
+   "n": 7,
+   "title": "The peace lasts four verses",
+   "text": "Helaman rebuilds the church across the land, and verses 23 and 24 have dissension arise from riches. Alma 46 opens on Amalickiah."
+  }
+ ],
+ "words": [
+  {
+   "term": "Dwindle",
+   "verse_label": "v. 10",
+   "text": "Treated at 1 Nephi 4:13, where the Spirit tells Nephi a nation may dwindle in unbelief. The record uses the word fifteen times and the King James Bible never. Alma applies it to his own people on a four-hundred-year clock."
+  },
+  {
+   "term": "Pestilences",
+   "verse_label": "v. 11",
+   "text": "Epidemic diseases. The record uses the plural three times and the King James Bible twice, both in Christ's account of the last days. Alma lists it between wars and famines as part of what follows the dwindling."
+  },
+  {
+   "term": "Lasciviousness",
+   "verse_label": "v. 12",
+   "text": "Treated at Jacob 3:12, where it heads a list of sins Jacob warns against. Alma names it with the works of darkness as what the Nephites will fall into after they sin against light and knowledge.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 3:12",
+     "start": 11,
+     "end": 21,
+     "book": "Jacob",
+     "chapter": 3,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
+  },
+  {
+   "term": "Allowance",
+   "verse_label": "v. 16",
+   "text": "Permission, latitude granted. The record uses it once. The King James Bible uses the word twice, both of a daily food ration for a released king, so Alma's sense of tolerating a thing is his own."
+  },
+  {
+   "term": "Regulation",
+   "verse_label": "v. 21",
+   "text": "Treated at Alma 6:1, where Alma sets the church in order after preaching. Here Helaman does the same work across the whole land after the war, appointing priests and teachers in every city.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 6:1",
+     "start": 11,
+     "end": 19,
+     "book": "Alma",
+     "chapter": 6,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
+  },
+  {
+   "term": "Uprightly",
+   "verse_label": "v. 24",
+   "text": "Honestly, in a straight line. The record uses it six times and the King James Bible twelve, mostly in Proverbs and the Psalms. Mormon uses it of what the proud would not do, which is the last word of the chapter."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Believest thou the words which I spake unto thee concerning those records",
+   "verse_label": "v. 2",
+   "text": "Alma's first question, and it is about the plates rather than about doctrine. Alma 37 handed them over; here he checks that his son believes what he was told about them."
+  },
+  {
+   "term": "Yea, I will keep thy commandments with all my heart",
+   "verse_label": "v. 7",
+   "text": "Helaman's third answer, and the fullest. The three exchanges move from belief in the records to belief in Christ to a promise of obedience, and the blessing follows immediately."
+  },
+  {
+   "term": "What I prophesy unto thee ye shall not make known, even until the prophecy is fulfilled",
+   "verse_label": "v. 9",
+   "text": "A prophecy written and sealed. Alma gives a reason to record it and a prohibition on publishing it, which makes Mormon's inclusion here an editorial act performed after the fact."
+  },
+  {
+   "term": "In four hundred years from the time that Jesus Christ shall manifest himself unto them, shall dwindle in unbelief",
+   "verse_label": "v. 10",
+   "text": "The clock, started at an event still a century away. Alma names the span, and the record's last books report what happened when it ran out."
+  },
+  {
+   "term": "Because they shall sin against so great light and knowledge",
+   "verse_label": "v. 12",
+   "text": "The cause Alma assigns. Alma 24 had said the same of the Amalekites, that knowing and then falling leaves a people worse. Here it is applied to the Nephites themselves."
+  },
+  {
+   "term": "Shall no more be numbered among the people of Nephi",
+   "verse_label": "v. 13",
+   "text": "The nation ends as a category rather than only as a population. Verse 14 says the survivors will be numbered among the Lamanites and become like them."
+  },
+  {
+   "term": "The Lord cannot look upon sin with the least degree of allowance",
+   "verse_label": "v. 16",
+   "text": "The sentence inside the blessing of the land. Alma quotes it as the reason the same clause can both bless and curse, depending on what a people does with the land."
+  },
+  {
+   "term": "He departed out of the land of Zarahemla, as if to go into the land of Melek",
+   "verse_label": "v. 18",
+   "text": "The last movement recorded of Alma. The phrase as if to go leaves the destination open, and the next clause says he was never heard of again."
+  },
+  {
+   "term": "As to his death or burial we know not of",
+   "verse_label": "v. 18",
+   "text": "Mormon states the gap plainly. He has just finished abridging Alma's own record for forty-four chapters and cannot say how the man died."
+  },
+  {
+   "term": "We suppose that he has also received Alma in the spirit",
+   "verse_label": "v. 19",
+   "text": "Mormon marks the conclusion as a supposition. He gives the church's saying, checks it against what the scriptures say about Moses, and draws an inference he labels as one."
+  },
+  {
+   "term": "They grew rich in their own eyes, and would not give heed to their words",
+   "verse_label": "v. 24",
+   "text": "The turn at the end of the chapter. Peace produced riches, riches produced pride, and pride produced a dissension that the next chapter gives a leader."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1",
+   "start": 1,
+   "end": 1,
+   "title": "After the war",
+   "text": "The people rejoice at deliverance, give thanks, fast much, pray much, and worship with great joy."
+  },
+  {
+   "label": "v. 2–8",
+   "start": 2,
+   "end": 8,
+   "title": "The examination",
+   "text": "Alma asks Helaman three questions: do you believe what I said about the records, do you believe in Christ who shall come, will you keep my commandments. Helaman answers each, and Alma blesses him and promises he will prosper in the land."
+  },
+  {
+   "label": "v. 9–14",
+   "start": 9,
+   "end": 14,
+   "title": "The sealed prophecy",
+   "text": "Alma tells him to write it and keep it unpublished until fulfilled. In four hundred years from Christ's appearance the Nephites will dwindle in unbelief, see wars, pestilences, famines and bloodshed, and become extinct. The survivors will be numbered among the Lamanites, save a few disciples who will also be hunted."
+  },
+  {
+   "label": "v. 15–17",
+   "start": 15,
+   "end": 17,
+   "title": "The blessings",
+   "text": "Alma blesses Helaman, his other sons, and the earth for the righteous' sake. He quotes the Lord on the land: cursed unto destruction for any nation that does wickedly when fully ripe, because the Lord cannot look on sin with the least allowance. Then he blesses the church."
+  },
+  {
+   "label": "v. 18–19",
+   "start": 18,
+   "end": 19,
+   "title": "The departure",
+   "text": "He leaves Zarahemla as if toward Melek and is never heard of again. The church says he was taken up or buried by the Lord as Moses was. Mormon checks the scriptures on Moses and records the conclusion as a supposition."
+  },
+  {
+   "label": "v. 20–22",
+   "start": 20,
+   "end": 22,
+   "title": "Rebuilding",
+   "text": "Helaman goes out to declare the word. After the wars and the many small dissensions, a regulation is needed, so he and his brethren establish the church again in every city and appoint priests and teachers over all the churches."
+  },
+  {
+   "label": "v. 23–24",
+   "start": 23,
+   "end": 24,
+   "title": "The dissension",
+   "text": "Once the officers are in place a dissension arises. They grow proud because of their great riches, grow rich in their own eyes, and refuse to walk uprightly before God."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "Alma tests before he blesses",
+   "text": "Three questions, three answers, then the blessing. The order makes the promise in verse 8 conditional on something Helaman actually said."
+  },
+  {
+   "n": 2,
+   "title": "A prophecy is written to be withheld",
+   "text": "Alma seals it until fulfilment, so its first readers are people for whom it has already come true. Mormon, publishing it, is one of them."
+  },
+  {
+   "n": 3,
+   "title": "The four hundred years are counted from an event still future",
+   "text": "Alma dates the end of his nation from a coming Christ. The reader of Mormon 6 can check the arithmetic."
+  },
+  {
+   "n": 4,
+   "title": "The cause given is knowledge misused",
+   "text": "Sinning against great light and knowledge, the same charge Alma 24 laid on the dissenters. Alma turns his own earlier doctrine on his own people."
+  },
+  {
+   "n": 5,
+   "title": "The land is blessed and cursed by one clause",
+   "text": "Verse 16 makes the outcome depend on what a nation does when fully ripe. Mormon has been applying this rule since 1 Nephi."
+  },
+  {
+   "n": 6,
+   "title": "Mormon admits what he does not know",
+   "text": "No death, no burial, and a supposition labeled as one. The abridger of Alma's record cannot close his subject's story and says so twice."
+  },
+  {
+   "n": 7,
+   "title": "Reconstruction is institutional",
+   "text": "Helaman's answer to war and dissension is a regulation and appointments in every city. The work is organizational before it is anything else."
+  },
+  {
+   "n": 8,
+   "title": "Riches undo it in two verses",
+   "text": "The church is rebuilt across the whole land and immediately fractures over wealth. The chapter ends with the condition Alma 46 will exploit."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Ask the questions before giving the blessing",
+    "verse_label": "v. 2–8",
+    "text": "Alma checked what his son actually believed. When you are about to entrust someone with something, ask directly rather than assuming the answer."
+   },
+   {
+    "title": "Write it down and wait",
+    "verse_label": "v. 9",
+    "text": "Alma had Helaman record a prophecy he was not to publish. When you see something coming that nobody will credit yet, write it with the date and leave it alone."
+   },
+   {
+    "title": "Say what you do not know",
+    "verse_label": "v. 18–19",
+    "text": "Mormon reported a gap and labeled a supposition as one. When you tell a story with a hole in it, name the hole instead of smoothing it."
+   },
+   {
+    "title": "Rebuild the structure, then watch for pride",
+    "verse_label": "v. 22–24",
+    "text": "Helaman appointed officers everywhere and dissension followed the prosperity. After a recovery, the thing to watch is not the old danger but what success does to people."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "If someone examined what I actually believe, what would the first question be?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What do I know that is not mine to publish yet?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "Where am I sinning against light I already have?"
+   },
+   {
+    "verse_label": "v. 16",
+    "start": 16,
+    "end": 16,
+    "text": "What am I looking on with a degree of allowance?"
+   },
+   {
+    "verse_label": "v. 18",
+    "start": 18,
+    "end": 18,
+    "text": "Whose ending do I not know, and can I sit with that?"
+   },
+   {
+    "verse_label": "v. 21",
+    "start": 21,
+    "end": 21,
+    "text": "What in my life needs a regulation rather than more effort?"
+   },
+   {
+    "verse_label": "v. 24",
+    "start": 24,
+    "end": 24,
+    "text": "What have I grown rich in, in my own eyes?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al45-001",
+   "scope": "BOOK",
+   "head": "Alma 37:1",
+   "anchor": {
+    "verse": 2,
+    "w1": 42,
+    "w2": 47,
+    "quote": "those records which have been kept"
+   },
+   "reason": "the handover Alma is checking his son still believes in",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 37,
+     "verse": 1,
+     "w1": 10,
+     "w2": 19,
+     "quote": "ye take the records which have been entrusted with me;",
+     "verse_text": "And now, my son Helaman, I command you that ye take the records which have been entrusted with me;",
+     "markdown": "And now, my son Helaman, I command you that **ye take the records which have been entrusted with me**;",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al45-002",
+   "scope": "BOOK",
+   "head": "Alma 24:30",
+   "anchor": {
+    "verse": 12,
+    "w1": 31,
+    "w2": 39,
+    "quote": "they shall sin against so great light and knowledge"
+   },
+   "reason": "the same doctrine, first applied to the dissenters",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 24,
+     "verse": 30,
+     "w1": 8,
+     "w2": 19,
+     "quote": "after a people have been once enlightened by the Spirit of God,",
+     "verse_text": "And thus we can plainly discern, that after a people have been once enlightened by the Spirit of God, and have had great knowledge of things pertaining to righteousness, and then have fallen away into sin and transgression, they become more hardened, and thus their state becomes worse than though they had never known these things.",
+     "markdown": "And thus we can plainly discern, that **after a people have been once enlightened by the Spirit of God**, and have had great knowledge of things pertaining to righteousness, and then have fallen away into sin and transgression, they become more hardened, and thus their state becomes worse than though they had never known these things.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al45-003",
+   "scope": "BOOK",
+   "head": "Alma 6:1",
+   "anchor": {
+    "verse": 21,
+    "w1": 38,
+    "w2": 46,
+    "quote": "that a regulation should be made throughout the church"
+   },
+   "reason": "Alma doing the same work in Zarahemla, a generation earlier",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 6,
+     "verse": 1,
+     "w1": 30,
+     "w2": 34,
+     "quote": "he ordained priests and elders,",
+     "verse_text": "And now it came to pass that after Alma had made an end of speaking unto the people of the church, which was established in the city of Zarahemla, he ordained priests and elders, by laying on his hands according to the order of God, to preside and watch over the church.",
+     "markdown": "And now it came to pass that after Alma had made an end of speaking unto the people of the church, which was established in the city of Zarahemla, **he ordained priests and elders**, by laying on his hands according to the order of God, to preside and watch over the church.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al45-004",
+   "scope": "BOM",
+   "head": "1 Ne. 4:13",
+   "anchor": {
+    "verse": 10,
+    "w1": 40,
+    "w2": 43,
+    "quote": "shall dwindle in unbelief"
+   },
+   "reason": "the word at its first use in the record, of a nation perishing",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 4,
+     "verse": 13,
+     "w1": 23,
+     "w2": 30,
+     "quote": "a nation should dwindle and perish in unbelief.",
+     "verse_text": "Behold the Lord slayeth the wicked to bring forth his righteous purposes. It is better that one man should perish than that a nation should dwindle and perish in unbelief.",
+     "markdown": "Behold the Lord slayeth the wicked to bring forth his righteous purposes. It is better that one man should perish than that **a nation should dwindle and perish in unbelief**.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al45-005",
+   "scope": "BOM",
+   "head": "Morm. 6:17",
+   "anchor": {
+    "verse": 13,
+    "w1": 32,
+    "w2": 41,
+    "quote": "shall no more be numbered among the people of Nephi"
+   },
+   "reason": "Mormon standing on the field where this prophecy ran out",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 6,
+     "verse": 17,
+     "w1": 5,
+     "w2": 15,
+     "quote": "how could ye have departed from the ways of the Lord!",
+     "verse_text": "O ye fair ones, how could ye have departed from the ways of the Lord! O ye fair ones, how could ye have rejected that Jesus, who stood with open arms to receive you!",
+     "markdown": "O ye fair ones, **how could ye have departed from the ways of the Lord**! O ye fair ones, how could ye have rejected that Jesus, who stood with open arms to receive you!",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al45-006",
+   "scope": "BOM",
+   "head": "Ether 2:15",
+   "anchor": {
+    "verse": 16,
+    "w1": 28,
+    "w2": 32,
+    "quote": "when they are fully ripe"
+   },
+   "reason": "the same condition set on the same land, for the Jaredites",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 2,
+     "verse": 15,
+     "w1": 2,
+     "w2": 13,
+     "quote": "the brother of Jared repented of the evil which he had done,",
+     "verse_text": "And the brother of Jared repented of the evil which he had done, and did call upon the name of the Lord for his brethren who were with him. And the Lord said unto him: I will forgive thee and thy brethren of their sins; but thou shalt not sin any more, for ye shall remember that my Spirit will not always strive with man; wherefore, if ye will sin until ye are fully ripe ye shall be cut off from the presence of the Lord. And these are my thoughts upon the land which I shall give you for your inheritance; for it shall be a land choice above all other lands.",
+     "markdown": "And **the brother of Jared repented of the evil which he had done**, and did call upon the name of the Lord for his brethren who were with him. And the Lord said unto him: I will forgive thee and thy brethren of their sins; but thou shalt not sin any more, for ye shall remember that my Spirit will not always strive with man; wherefore, if ye will sin until ye are fully ripe ye shall be cut off from the presence of the Lord. And these are my thoughts upon the land which I shall give you for your inheritance; for it shall be a land choice above all other lands.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al45-007",
+   "scope": "SW",
+   "head": "Matt. 24:7",
+   "anchor": {
+    "verse": 11,
+    "w1": 7,
+    "w2": 13,
+    "quote": "wars and pestilences, yea, famines and bloodshed"
+   },
+   "reason": "the same list, in Christ’s account of the last days",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 24,
+     "verse": 7,
+     "w1": 12,
+     "w2": 17,
+     "quote": "there shall be famines, and pestilences,",
+     "verse_text": "For nation shall rise against nation, and kingdom against kingdom: and there shall be famines, and pestilences, and earthquakes, in divers places.",
+     "markdown": "For nation shall rise against nation, and kingdom against kingdom: and **there shall be famines, and pestilences**, and earthquakes, in divers places.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al45-008",
+   "scope": "SW",
+   "head": "Deut. 34:6",
+   "anchor": {
+    "verse": 19,
+    "w1": 28,
+    "w2": 37,
+    "quote": "buried by the hand of the Lord, even as Moses"
+   },
+   "reason": "the burial nobody could point to",
+   "targets": [
+    {
+     "ref": "Deut.",
+     "chapter": 34,
+     "verse": 6,
+     "w1": 17,
+     "w2": 25,
+     "quote": "no man knoweth of his sepulchre unto this day.",
+     "verse_text": "And he buried him in a valley in the land of Moab, over against Beth-peor: but no man knoweth of his sepulchre unto this day.",
+     "markdown": "And he buried him in a valley in the land of Moab, over against Beth-peor: but **no man knoweth of his sepulchre unto this day**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al45-009",
+   "scope": "SW",
+   "head": "Prov. 10:9",
+   "anchor": {
+    "verse": 24,
+    "w1": 33,
+    "w2": 37,
+    "quote": "to walk uprightly before God"
+   },
+   "reason": "the word in the book that uses it most",
+   "targets": [
+    {
+     "ref": "Prov.",
+     "chapter": 10,
+     "verse": 9,
+     "w1": 1,
+     "w2": 6,
+     "quote": "He that walketh uprightly walketh surely:",
+     "verse_text": "He that walketh uprightly walketh surely: but he that perverteth his ways shall be known.",
+     "markdown": "**He that walketh uprightly walketh surely**: but he that perverteth his ways shall be known.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 42,
+   "w2": 47,
+   "quote": "those records which have been kept",
+   "entries": [
+    "al45-001"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 40,
+   "w2": 43,
+   "quote": "shall dwindle in unbelief",
+   "entries": [
+    "al45-004"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 7,
+   "w2": 13,
+   "quote": "wars and pestilences, yea, famines and bloodshed",
+   "entries": [
+    "al45-007"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 31,
+   "w2": 39,
+   "quote": "they shall sin against so great light and knowledge",
+   "entries": [
+    "al45-002"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 32,
+   "w2": 41,
+   "quote": "shall no more be numbered among the people of Nephi",
+   "entries": [
+    "al45-005"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 28,
+   "w2": 32,
+   "quote": "when they are fully ripe",
+   "entries": [
+    "al45-006"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 28,
+   "w2": 37,
+   "quote": "buried by the hand of the Lord, even as Moses",
+   "entries": [
+    "al45-008"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 38,
+   "w2": 46,
+   "quote": "that a regulation should be made throughout the church",
+   "entries": [
+    "al45-003"
+   ]
+  },
+  {
+   "verse": 24,
+   "w1": 33,
+   "w2": 37,
+   "quote": "to walk uprightly before God",
+   "entries": [
+    "al45-009"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "8a4c9d422b8a99d9"
+ }
+}

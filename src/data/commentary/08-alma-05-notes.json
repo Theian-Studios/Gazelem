@@ -17,7 +17,7 @@
    "Preparation",
    "Two shepherds"
   ],
-  "connections": 23,
+  "connections": 36,
   "initial": false
  },
  "world_behind": [
@@ -61,12 +61,36 @@
   {
    "term": "Illuminated",
    "verse_label": "v. 7",
-   "text": "Lit up from outside. The fathers were in the midst of darkness and their souls were illuminated by the light of the everlasting word. The word appears once in this record and once in the New Testament, where Paul uses it of converts who afterward endured a great fight of afflictions. Both times it names a past event with consequences still running."
+   "text": "Lit up from outside. The fathers were in the midst of darkness and their souls were illuminated by the light of the everlasting word. The word appears once in this record and once in the New Testament, where Paul uses it of converts who afterward endured a great fight of afflictions (Heb. 10:32). Both times it names a past event with consequences still running.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Heb. 10:32",
+     "start": 285,
+     "end": 295,
+     "book": "Heb",
+     "chapter": 10,
+     "verse_start": 32,
+     "verse_end": 32
+    }
+   ]
   },
   {
    "term": "Incorruption",
    "verse_label": "v. 15",
-   "text": "The state of not decaying. Alma asks whether they look forward with an eye of faith and see this corruption raised in incorruption. The pairing is Paul's, from the resurrection chapter, and the record uses the noun six times. Here it is put as a question about eyesight rather than as a proposition about bodies."
+   "text": "The state of not decaying. Treated at Mosiah 16:10. Alma asks whether they look forward with an eye of faith and see this corruption raised in incorruption. The pairing is Paul's, from the resurrection chapter, and the record uses the noun six times. Here it is put as a question about eyesight rather than as a proposition about bodies.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 16:10",
+     "start": 38,
+     "end": 50,
+     "book": "Mosiah",
+     "chapter": 16,
+     "verse_start": 10,
+     "verse_end": 10
+    }
+   ]
   },
   {
    "term": "Tribunal",
@@ -86,12 +110,36 @@
   {
    "term": "Surety",
    "verse_label": "v. 45",
-   "text": "Certainty, sure knowledge. It is the noun the record reaches for when somebody is asked how they know. Alma asks the congregation how they suppose he knows of the surety of these things, and then spends three verses answering his own question. The people at Benjamin's tower used the same word of themselves."
+   "text": "Certainty, sure knowledge. Treated at Mosiah 5:2. It is the noun the record reaches for when somebody is asked how they know. Alma asks the congregation how they suppose he knows of the surety of these things, and then spends three verses answering his own question. The people at Benjamin's tower used the same word of themselves.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 5:2",
+     "start": 38,
+     "end": 48,
+     "book": "Mosiah",
+     "chapter": 5,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
   },
   {
    "term": "Unquenchable",
    "verse_label": "v. 52",
-   "text": "Not able to be put out. The fire in the parable is described twice over. It cannot be consumed, and it cannot be quenched, which makes it permanent from two directions at once. The adjective appears five times in this record and twice in the Gospels, always attached to the same image of the tree and the ax."
+   "text": "Not able to be put out. Treated at Jacob 6:10. The fire in the parable is described twice over. It cannot be consumed, and it cannot be quenched, which makes it permanent from two directions at once. The adjective appears five times in this record and twice in the Gospels, always attached to the same image of the tree and the ax.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 6:10",
+     "start": 35,
+     "end": 45,
+     "book": "Jacob",
+     "chapter": 6,
+     "verse_start": 10,
+     "verse_end": 10
+    }
+   ]
   }
  ],
  "phrases": [
@@ -138,53 +186,39 @@
  ],
  "verses": [
   {
-   "label": "v. 1–5",
-   "start": 1,
-   "end": 5,
-   "title": "The ground he stands on",
-   "text": "Mormon introduces the document, and then Alma takes over in his own voice. He names his authority, the hand of his father, and then walks the congregation back: a church begun in the land of Mormon, baptisms in the waters, deliverance from Noah's people, captivity under the Lamanites, deliverance again by the power of God's word, and arrival here. Five verses of debt."
+   "label": "v. 2",
+   "start": 2,
+   "end": 2,
+   "title": "The abridger names the document he is copying from",
+   "text": "Before the sermon begins the record identifies its source: \"these are the words which he spake to the people in the church which was established in the city of Zarahemla, according to his own record.\" The last four words matter. What follows is not reconstructed from memory or tradition but taken from a text the speaker wrote himself, and the abridger says so in the sentence that introduces it."
   },
   {
-   "label": "v. 6–13",
+   "label": "v. 6–30",
    "start": 6,
-   "end": 13,
-   "title": "The fathers, and what happened to them",
-   "text": "Have you sufficiently retained in remembrance the captivity, the mercy, the long-suffering, the delivering of their souls from hell? Then the sequence: hearts changed, sleepers awakened, darkness, illumination, bands and chains loosed, souls expanded, singing. Were they destroyed? No. Are they saved? Yes. On what conditions? Faith in the words Abinadi spoke, and a mighty change."
+   "end": 30,
+   "title": "A sermon made of questions, and the count is not close",
+   "text": "The record carries forty-two question marks in this chapter, spread across twenty-six of its sixty-two verses. No other chapter in the book of Alma comes near it; Alma 30, a formal disputation with a named opponent, has twenty-two. The heaviest stretch runs from verse 14 to verse 30, where question follows question with only the answer formula between them. A chapter with nobody to answer back asks more questions than the one where somebody does."
   },
   {
-   "label": "v. 14–25",
+   "label": "v. 14–15",
    "start": 14,
-   "end": 25,
-   "title": "The same questions, put to the living",
-   "text": "Born of God? Image in your countenances? Have you had this mighty change? Do you look forward with an eye of faith? Can you imagine hearing \"come unto me ye blessed\"? Or imagine lying to the Lord and being saved anyway? Or standing at the tribunal with a perfect remembrance of your own wickedness? Can you look up with clean hands? No answers are supplied."
+   "end": 15,
+   "title": "Three questions in a single verse, then five more",
+   "text": "The record sets the examination out as a rapid series: \"have ye spiritually been born of God? Have ye received his image in your countenances? Have ye experienced this mighty change in your hearts?\" Verse 15 continues without pause, \"Do ye exercise faith in the redemption of him who created you? Do you look forward with an eye of faith, and view this mortal body raised in immortality?\" None is answered. The form requires each hearer to supply an answer that the record never records."
   },
   {
-   "label": "v. 26–36",
-   "start": 26,
-   "end": 36,
-   "title": "Now, and quickly",
-   "text": "Can ye feel so now. Are ye stripped of pride, of envy. Is there one among you who mocks his brother. Each question is followed by the same verdict, that such a one is not prepared, and the same instruction: prepare quickly, the hour is close. Then the turn: the arms of mercy are extended, come and partake, bring forth works of righteousness."
+   "label": "v. 27–30",
+   "start": 27,
+   "end": 30,
+   "title": "Each question comes with its verdict attached",
+   "text": "Unlike the earlier run, these questions are followed immediately by the consequence of a wrong answer. \"Are ye stripped of pride? I say unto you, if ye are not ye are not prepared to meet God.\" Then again: \"is there one among you who is not stripped of envy? I say unto you that such an one is not prepared.\" Verse 29 adds a third case and verse 30 a fourth, about mocking a brother. The record turns the diagnostic into a checklist by supplying, in each case, what a failed answer means."
   },
   {
-   "label": "v. 37–42",
-   "start": 37,
-   "end": 42,
-   "title": "Two voices, and whose sheep you are",
-   "text": "Sheep with no shepherd, though a shepherd is still calling. The good shepherd calls in his own name, which is the name of Christ, and hearing it is what makes you his sheep. If not his, whose? The devil is your shepherd and you are of his fold. Good works follow one voice, evil works the other, and wages are paid by the master you followed."
-  },
-  {
-   "label": "v. 43–52",
-   "start": 43,
-   "end": 52,
-   "title": "How he knows",
-   "text": "He is speaking in the energy of his soul, plainly, under commandment, according to the holy order. Then the question he asks about himself: how do you suppose I know? Fasting, prayer, many days, the Holy Spirit, the spirit of revelation and of prophecy. He names what he knows: that Christ will come. Then he turns the sermon over to the Spirit's own words: repent, the ax is at the root."
-  },
-  {
-   "label": "v. 53–62",
-   "start": 53,
+   "label": "v. 62",
+   "start": 62,
    "end": 62,
-   "title": "Will you persist",
-   "text": "Costly apparel, hearts set on riches, supposing yourselves better than others, persecuting the humble, turning your backs on the poor and withholding your substance. Then the separation: come out from the wicked, names blotted from one list and written in another, a shepherd who drives off wolves. And the last verse, which splits the room: command to the church, invitation to everyone else."
+   "title": "Two audiences, two registers, named together",
+   "text": "The chapter ends by stating its own mode of address and dividing it: \"I speak by way of command unto you that belong to the church; and unto those who do not belong to the church I speak by way of invitation.\" Membership determines whether the preceding sixty-one verses have been orders or offers. The record makes the distinction explicit only at the end, after the sermon has been delivered to both groups at once."
   }
  ],
  "chapter": [
@@ -435,7 +469,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al34-018"
   },
   {
    "id": "al05-003",
@@ -461,7 +495,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al26-010"
   },
   {
    "id": "al05-002",
@@ -487,7 +521,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al12-018"
   },
   {
    "id": "al05-001",
@@ -514,6 +548,84 @@
     }
    ],
    "mirror": "al04-005"
+  },
+  {
+   "id": "al05-028",
+   "scope": "BOOK",
+   "head": "Alma 24:12",
+   "anchor": {
+    "verse": 21,
+    "w1": 23,
+    "w2": 28,
+    "quote": "except his garments are washed white;"
+   },
+   "reason": "swords buried so they would stain nothing further",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 24,
+     "verse": 12,
+     "w1": 20,
+     "w2": 26,
+     "quote": "let us stain our swords no more",
+     "verse_text": "Now, my best beloved brethren, since God hath taken away our stains, and our swords have become bright, then let us stain our swords no more with the blood of our brethren.",
+     "markdown": "Now, my best beloved brethren, since God hath taken away our stains, and our swords have become bright, then **let us stain our swords no more** with the blood of our brethren.",
+     "span": true
+    }
+   ],
+   "mirror": "al24-002"
+  },
+  {
+   "id": "al05-029",
+   "scope": "BOOK",
+   "head": "Alma 26:13",
+   "anchor": {
+    "verse": 26,
+    "w1": 33,
+    "w2": 37,
+    "quote": "can ye feel so now?"
+   },
+   "reason": "Ammon reporting thousands actually singing it",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 26,
+     "verse": 13,
+     "w1": 17,
+     "w2": 23,
+     "quote": "they are brought to sing redeeming love,",
+     "verse_text": "Behold, how many thousands of our brethren has he loosed from the pains of hell; and they are brought to sing redeeming love, and this because of the power of his word which is in us, therefore have we not great reason to rejoice?",
+     "markdown": "Behold, how many thousands of our brethren has he loosed from the pains of hell; and **they are brought to sing redeeming love**, and this because of the power of his word which is in us, therefore have we not great reason to rejoice?",
+     "span": true
+    }
+   ],
+   "mirror": "al26-004"
+  },
+  {
+   "id": "al05-033",
+   "scope": "BOOK",
+   "head": "Alma 25:12",
+   "anchor": {
+    "verse": 37,
+    "w1": 33,
+    "w2": 37,
+    "quote": "as sheep having no shepherd,"
+   },
+   "reason": "the figure used of the seed of Noah",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 25,
+     "verse": 12,
+     "w1": 36,
+     "w2": 42,
+     "quote": "even as a sheep having no shepherd",
+     "verse_text": "And he said unto the priests of Noah that their seed should cause many to be put to death, in the like manner as he was, and that they should be scattered abroad and slain, even as a sheep having no shepherd is driven and slain by wild beasts; and now behold, these words were verified, for they were driven by the Lamanites, and they were hunted, and they were smitten.",
+     "markdown": "And he said unto the priests of Noah that their seed should cause many to be put to death, in the like manner as he was, and that they should be scattered abroad and slain, **even as a sheep having no shepherd** is driven and slain by wild beasts; and now behold, these words were verified, for they were driven by the Lamanites, and they were hunted, and they were smitten.",
+     "span": true
+    }
+   ],
+   "mirror": "al25-004"
   },
   {
    "id": "al05-012",
@@ -696,6 +808,266 @@
     }
    ],
    "mirror": "mos05-012"
+  },
+  {
+   "id": "al05-024",
+   "scope": "BOM",
+   "head": "Mosiah 23:16",
+   "anchor": {
+    "verse": 3,
+    "w1": 5,
+    "w2": 19,
+    "quote": "consecrated by my father, Alma, to be a high priest over the church of God,"
+   },
+   "reason": "the father named as founder and high priest",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 23,
+     "verse": 16,
+     "w1": 3,
+     "w2": 14,
+     "quote": "Alma was their high priest, he being the founder of their church.",
+     "verse_text": "And now, Alma was their high priest, he being the founder of their church.",
+     "markdown": "And now, **Alma was their high priest, he being the founder of their church**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos23-010"
+  },
+  {
+   "id": "al05-025",
+   "scope": "BOM",
+   "head": "Mosiah 18:17",
+   "anchor": {
+    "verse": 3,
+    "w1": 37,
+    "w2": 52,
+    "quote": "he began to establish a church in the land which was in the borders of Nephi;"
+   },
+   "reason": "the day that church got its name",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 18,
+     "verse": 17,
+     "w1": 2,
+     "w2": 13,
+     "quote": "they were called the church of God, or the church of Christ,",
+     "verse_text": "And they were called the church of God, or the church of Christ, from that time forward. And it came to pass that whosoever was baptized by the power and authority of God was added to his church.",
+     "markdown": "And **they were called the church of God, or the church of Christ**, from that time forward. And it came to pass that whosoever was baptized by the power and authority of God was added to his church.",
+     "span": true
+    }
+   ],
+   "mirror": "mos18-010"
+  },
+  {
+   "id": "al05-026",
+   "scope": "BOM",
+   "head": "Ether 3:15",
+   "anchor": {
+    "verse": 14,
+    "w1": 20,
+    "w2": 27,
+    "quote": "Have ye received his image in your countenances?"
+   },
+   "reason": "the Lord telling one man whose image he bore",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 3,
+     "verse": 15,
+     "w1": 23,
+     "w2": 32,
+     "quote": "Seest thou that ye are created after mine own image?",
+     "verse_text": "And never have I showed myself unto man whom I have created, for never has man believed in me as thou hast. Seest thou that ye are created after mine own image? Yea, even all men were created in the beginning after mine own image.",
+     "markdown": "And never have I showed myself unto man whom I have created, for never has man believed in me as thou hast. **Seest thou that ye are created after mine own image**? Yea, even all men were created in the beginning after mine own image.",
+     "span": true
+    }
+   ],
+   "mirror": "eth03-007"
+  },
+  {
+   "id": "al05-027",
+   "scope": "BOM",
+   "head": "Mosiah 5:2",
+   "anchor": {
+    "verse": 14,
+    "w1": 28,
+    "w2": 36,
+    "quote": "Have ye experienced this mighty change in your hearts?"
+   },
+   "reason": "Benjamin's people reporting the change already done",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 5,
+     "verse": 2,
+     "w1": 38,
+     "w2": 49,
+     "quote": "which has wrought a mighty change in us, or in our hearts,",
+     "verse_text": "And they all cried with one voice, saying: Yea, we believe all the words which thou hast spoken unto us; and also, we know of their surety and truth, because of the Spirit of the Lord Omnipotent, which has wrought a mighty change in us, or in our hearts, that we have no more disposition to do evil, but to do good continually.",
+     "markdown": "And they all cried with one voice, saying: Yea, we believe all the words which thou hast spoken unto us; and also, we know of their surety and truth, because of the Spirit of the Lord Omnipotent, **which has wrought a mighty change in us, or in our hearts**, that we have no more disposition to do evil, but to do good continually.",
+     "span": true
+    }
+   ],
+   "mirror": "mos05-006"
+  },
+  {
+   "id": "al05-030",
+   "scope": "BOM",
+   "head": "Mosiah 16:12",
+   "anchor": {
+    "verse": 33,
+    "w1": 10,
+    "w2": 17,
+    "quote": "the arms of mercy are extended towards them,"
+   },
+   "reason": "Abinadi on the same arms, and they would not",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 16,
+     "verse": 12,
+     "w1": 27,
+     "w2": 38,
+     "quote": "the arms of mercy were extended towards them, and they would not;",
+     "verse_text": "Having gone according to their own carnal wills and desires; having never called upon the Lord while the arms of mercy were extended towards them; for the arms of mercy were extended towards them, and they would not; they being warned of their iniquities and yet they would not depart from them; and they were commanded to repent and yet they would not repent.",
+     "markdown": "Having gone according to their own carnal wills and desires; having never called upon the Lord while the arms of mercy were extended towards them; for **the arms of mercy were extended towards them, and they would not**; they being warned of their iniquities and yet they would not depart from them; and they were commanded to repent and yet they would not repent.",
+     "span": true
+    }
+   ],
+   "mirror": "mos16-010"
+  },
+  {
+   "id": "al05-031",
+   "scope": "BOM",
+   "head": "3 Ne. 9:14",
+   "anchor": {
+    "verse": 33,
+    "w1": 10,
+    "w2": 17,
+    "quote": "the arms of mercy are extended towards them,"
+   },
+   "reason": "the Lord speaking the image in his own voice",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 9,
+     "verse": 14,
+     "w1": 18,
+     "w2": 26,
+     "quote": "Behold, mine arm of mercy is extended towards you,",
+     "verse_text": "Yea, verily I say unto you, if ye will come unto me ye shall have eternal life. Behold, mine arm of mercy is extended towards you, and whosoever will come, him will I receive; and blessed are those who come unto me.",
+     "markdown": "Yea, verily I say unto you, if ye will come unto me ye shall have eternal life. **Behold, mine arm of mercy is extended towards you**, and whosoever will come, him will I receive; and blessed are those who come unto me.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne09-006"
+  },
+  {
+   "id": "al05-032",
+   "scope": "BOM",
+   "head": "1 Ne. 8:15",
+   "anchor": {
+    "verse": 34,
+    "w1": 4,
+    "w2": 18,
+    "quote": "Come unto me and ye shall partake of the fruit of the tree of life;"
+   },
+   "reason": "Lehi calling his family to the same fruit",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 8,
+     "verse": 15,
+     "w1": 25,
+     "w2": 32,
+     "quote": "come unto me, and partake of the fruit,",
+     "verse_text": "And it came to pass that I beckoned unto them; and I also did say unto them with a loud voice that they should come unto me, and partake of the fruit, which was desirable above all other fruit.",
+     "markdown": "And it came to pass that I beckoned unto them; and I also did say unto them with a loud voice that they should **come unto me, and partake of the fruit**, which was desirable above all other fruit.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne08-008"
+  },
+  {
+   "id": "al05-034",
+   "scope": "BOM",
+   "head": "Hel. 7:18",
+   "anchor": {
+    "verse": 38,
+    "w1": 30,
+    "w2": 41,
+    "quote": "if ye will not hearken unto the voice of the good shepherd,"
+   },
+   "reason": "Nephi on the tower putting it again",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 7,
+     "verse": 18,
+     "w1": 10,
+     "w2": 20,
+     "quote": "ye will not hearken unto the voice of the good shepherd;",
+     "verse_text": "It is because you have hardened your hearts; yea, ye will not hearken unto the voice of the good shepherd; yea, ye have provoked him to anger against you.",
+     "markdown": "It is because you have hardened your hearts; yea, **ye will not hearken unto the voice of the good shepherd**; yea, ye have provoked him to anger against you.",
+     "span": true
+    }
+   ],
+   "mirror": "hel07-006"
+  },
+  {
+   "id": "al05-035",
+   "scope": "BOM",
+   "head": "3 Ne. 14:19",
+   "anchor": {
+    "verse": 52,
+    "w1": 22,
+    "w2": 38,
+    "quote": "every tree that bringeth not forth good fruit shall be hewn down and cast into the fire,"
+   },
+   "reason": "the Lord giving the sentence at Bountiful",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 14,
+     "verse": 19,
+     "w1": 1,
+     "w2": 16,
+     "quote": "Every tree that bringeth not forth good fruit is hewn down, and cast into the fire.",
+     "verse_text": "Every tree that bringeth not forth good fruit is hewn down, and cast into the fire.",
+     "markdown": "**Every tree that bringeth not forth good fruit is hewn down, and cast into the fire**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne14-005"
+  },
+  {
+   "id": "al05-036",
+   "scope": "BOM",
+   "head": "2 Ne. 14:3",
+   "anchor": {
+    "verse": 58,
+    "w1": 2,
+    "w2": 14,
+    "quote": "the names of the righteous shall be written in the book of life,"
+   },
+   "reason": "Isaiah's register of the living in Jerusalem",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 14,
+     "verse": 3,
+     "w1": 21,
+     "w2": 30,
+     "quote": "every one that is written among the living in Jerusalem—",
+     "verse_text": "And it shall come to pass, they that are left in Zion and remain in Jerusalem shall be called holy, every one that is written among the living in Jerusalem—",
+     "markdown": "And it shall come to pass, they that are left in Zion and remain in Jerusalem shall be called holy, **every one that is written among the living in Jerusalem—**",
+     "span": true
+    }
+   ],
+   "mirror": "2ne14-004"
   },
   {
    "id": "al05-020",
@@ -918,6 +1290,24 @@
   },
   {
    "verse": 3,
+   "w1": 5,
+   "w2": 19,
+   "quote": "consecrated by my father, Alma, to be a high priest over the church of God,",
+   "entries": [
+    "al05-024"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 37,
+   "w2": 52,
+   "quote": "he began to establish a church in the land which was in the borders of Nephi;",
+   "entries": [
+    "al05-025"
+   ]
+  },
+  {
+   "verse": 3,
    "w1": 65,
    "w2": 74,
    "quote": "he did baptize his brethren in the waters of Mormon",
@@ -964,6 +1354,24 @@
    ]
   },
   {
+   "verse": 14,
+   "w1": 20,
+   "w2": 27,
+   "quote": "Have ye received his image in your countenances?",
+   "entries": [
+    "al05-026"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 28,
+   "w2": 36,
+   "quote": "Have ye experienced this mighty change in your hearts?",
+   "entries": [
+    "al05-027"
+   ]
+  },
+  {
    "verse": 15,
    "w1": 31,
    "w2": 35,
@@ -991,6 +1399,24 @@
    ]
   },
   {
+   "verse": 21,
+   "w1": 23,
+   "w2": 28,
+   "quote": "except his garments are washed white;",
+   "entries": [
+    "al05-028"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 33,
+   "w2": 37,
+   "quote": "can ye feel so now?",
+   "entries": [
+    "al05-029"
+   ]
+  },
+  {
    "verse": 28,
    "w1": 1,
    "w2": 6,
@@ -1009,11 +1435,31 @@
    ]
   },
   {
+   "verse": 33,
+   "w1": 10,
+   "w2": 17,
+   "quote": "the arms of mercy are extended towards them,",
+   "entries": [
+    "al05-030",
+    "al05-031"
+   ]
+  },
+  {
+   "verse": 34,
+   "w1": 4,
+   "w2": 18,
+   "quote": "Come unto me and ye shall partake of the fruit of the tree of life;",
+   "entries": [
+    "al05-032"
+   ]
+  },
+  {
    "verse": 37,
    "w1": 33,
    "w2": 37,
-   "quote": "as sheep having no shepherd",
+   "quote": "as sheep having no shepherd,",
    "entries": [
+    "al05-033",
     "al05-016"
    ]
   },
@@ -1024,6 +1470,15 @@
    "quote": "the good shepherd doth call you",
    "entries": [
     "al05-017"
+   ]
+  },
+  {
+   "verse": 38,
+   "w1": 30,
+   "w2": 41,
+   "quote": "if ye will not hearken unto the voice of the good shepherd,",
+   "entries": [
+    "al05-034"
    ]
   },
   {
@@ -1054,6 +1509,15 @@
    ]
   },
   {
+   "verse": 52,
+   "w1": 22,
+   "w2": 38,
+   "quote": "every tree that bringeth not forth good fruit shall be hewn down and cast into the fire,",
+   "entries": [
+    "al05-035"
+   ]
+  },
+  {
    "verse": 57,
    "w1": 20,
    "w2": 29,
@@ -1075,8 +1539,9 @@
    "verse": 58,
    "w1": 2,
    "w2": 14,
-   "quote": "the names of the righteous shall be written in the book of life",
+   "quote": "the names of the righteous shall be written in the book of life,",
    "entries": [
+    "al05-036",
     "al05-020"
    ]
   },
@@ -1092,7 +1557,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "68ab7d71714a1ff9"
+  "at": "2026-09-07",
+  "source_sha256": "6043ac2e92e92e53"
  }
 }

@@ -17,7 +17,7 @@
    "Remembrance",
    "Gathering"
   ],
-  "connections": 6,
+  "connections": 7,
   "initial": true
  },
  "world_behind": [
@@ -289,6 +289,26 @@
      "chapter": 6,
      "verse_start": 2,
      "verse_end": 2
+    }
+   ]
+  },
+  {
+   "term": "Heritages",
+   "verse_label": "v. 8",
+   "text": "Inherited holdings, land that came to a family by descent. The plural appears once in this record and once in the King James Bible, and both are this same verse of Isaiah. The servant is given \"to cause to inherit the desolate heritages\" (v. 8), which names a specific job: restoring land somebody already owned and lost.",
+   "cites": [
+    {
+     "quote": "to cause to inherit the desolate heritages",
+     "verse": 8,
+     "start": 193,
+     "end": 244,
+     "spans": [
+      {
+       "w1": 48,
+       "w2": 54,
+       "text": "to cause to inherit the desolate heritages"
+      }
+     ]
     }
    ]
   },
@@ -607,314 +627,53 @@
  ],
  "verses": [
   {
-   "label": "v. 1–3",
+   "label": "v. 1",
    "start": 1,
-   "end": 3,
-   "title": "Called, hidden, named",
-   "text": "The expanded address gathers the broken-off, then the Servant speaks: called \"from the womb\" (v. 1), mouth a sword, body an arrow, hidden in hand and quiver, and told \"Thou art my servant, O Israel, in whom I will be glorified\" (v. 3). Election in this poem is armament and concealment both; being unseen is part of the commission.",
-   "cites": [
-    {
-     "quote": "from the womb",
-     "verse": 1,
-     "start": 77,
-     "end": 99,
-     "spans": [
-      {
-       "w1": 65,
-       "w2": 67,
-       "text": "from the womb"
-      }
-     ]
-    },
-    {
-     "quote": "Thou art my servant, O Israel, in whom I will be glorified",
-     "verse": 3,
-     "start": 167,
-     "end": 234,
-     "spans": [
-      {
-       "w1": 5,
-       "w2": 16,
-       "text": "Thou art my servant, O Israel, in whom I will be glorified"
-      }
-     ]
-    }
-   ]
+   "end": 1,
+   "title": "The chapter opens with a sentence Isaiah 49 does not have",
+   "text": "Set against the King James text, eighteen of these twenty-six verses differ in wording, and the largest difference is here at the start: some forty words of address prefixed before the servant speaks, naming the hearers and their condition and calling them the house of Israel twice over. Isaiah 49 begins with the isles. The record begins by telling a scattered people that it is the one being spoken to."
   },
   {
-   "label": "v. 4–6",
-   "start": 4,
-   "end": 6,
-   "title": "The Servant's discouragement, and the raise",
-   "text": "The astonishing admission: \"I have labored in vain, I have spent my strength for naught\" (v. 4). The answer is enlargement: \"It is a light thing\" (v. 6) to restore Jacob only; the Servant gets the Gentiles and \"the ends of the earth\" (v. 6) added to his brief. Heaven's cure for a called man's despair is more calling.",
-   "cites": [
-    {
-     "quote": "I have labored in vain, I have spent my strength for naught",
-     "verse": 4,
-     "start": 27,
-     "end": 95,
-     "spans": [
-      {
-       "w1": 4,
-       "w2": 15,
-       "text": "I have labored in vain, I have spent my strength for naught"
-      }
-     ]
-    },
-    {
-     "quote": "It is a light thing",
-     "verse": 6,
-     "start": 124,
-     "end": 152,
-     "spans": [
-      {
-       "w1": 4,
-       "w2": 8,
-       "text": "It is a light thing"
-      }
-     ]
-    },
-    {
-     "quote": "the ends of the earth",
-     "verse": 6,
-     "start": 210,
-     "end": 240,
-     "spans": [
-      {
-       "w1": 47,
-       "w2": 51,
-       "text": "the ends of the earth"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 7–9",
+   "label": "v. 7",
    "start": 7,
+   "end": 7,
+   "title": "The one substantive cut in the chapter",
+   "text": "Almost every variant in these verses adds something. Verse 7 removes: the King James clause naming the Holy One of Israel choosing the servant is not here, and nation becomes nations. The record does not trim this text anywhere else, which is what makes the one place it does worth marking."
+  },
+  {
+   "label": "v. 8–9",
+   "start": 8,
    "end": 9,
-   "title": "Despised, then attended by kings",
-   "text": "To \"him whom man despiseth\" (v. 7): kings shall arise, princes worship, \"because of the Lord that is faithful\" (v. 7). The Servant is made \"a covenant of the people\" (v. 8) in person, and his first commands are jailbreak: \"to the prisoners: Go forth\" (v. 9); to the darkened, show yourselves. The reversal runs on God's faithfulness, not the Servant's reception.",
-   "cites": [
-    {
-     "quote": "him whom man despiseth",
-     "verse": 7,
-     "start": 3,
-     "end": 34,
-     "spans": [
-      {
-       "w1": 13,
-       "w2": 16,
-       "text": "him whom man despiseth"
-      }
-     ]
-    },
-    {
-     "quote": "because of the Lord that is faithful",
-     "verse": 7,
-     "start": 72,
-     "end": 117,
-     "spans": [
-      {
-       "w1": 36,
-       "w2": 42,
-       "text": "because of the Lord that is faithful"
-      }
-     ]
-    },
-    {
-     "quote": "a covenant of the people",
-     "verse": 8,
-     "start": 139,
-     "end": 172,
-     "spans": [
-      {
-       "w1": 39,
-       "w2": 43,
-       "text": "a covenant of the people"
-      }
-     ]
-    },
-    {
-     "quote": "to the prisoners: Go forth",
-     "verse": 9,
-     "start": 222,
-     "end": 257,
-     "spans": [
-      {
-       "w1": 5,
-       "w2": 9,
-       "text": "to the prisoners: Go forth"
-      }
-     ]
-    }
-   ]
+   "title": "An address added, and a state turned into a posture",
+   "text": "Verse 8 gains a vocative and a title that the King James verse does not carry. Verse 9 makes a smaller change with more in it: those who are in darkness become those who sit in darkness. A condition becomes a position, which is something a person can be told to get up from."
   },
   {
-   "label": "v. 10–13",
-   "start": 10,
+   "label": "v. 12–13",
+   "start": 12,
    "end": 13,
-   "title": "The shepherded return",
-   "text": "No hunger, no smiting heat, springs of water, mountains made \"a way\" (v. 11): the exodus mercies reissued for a worldwide return from north, west, and Sinim. The added clauses of verse 13 plant feet and end the smiting, and heaven and earth are ordered to sing over it.",
-   "cites": [
-    {
-     "quote": "a way",
-     "verse": 11,
-     "start": 61,
-     "end": 76,
-     "spans": [
-      {
-       "w1": 8,
-       "w2": 9,
-       "text": "a way"
-      }
-     ]
-    }
-   ]
+   "title": "The additions promise that the striking stops",
+   "text": "Verse 12 gains a direct address to the house of Israel. Verse 13 gains two whole clauses the King James text lacks, one establishing the feet of those in the east and one promising they shall be smitten no more. Isaiah's verse ends in comfort and mercy; the record ends this one on a guarantee about the future."
   },
   {
-   "label": "v. 14–16",
+   "label": "v. 14–15",
    "start": 14,
-   "end": 16,
-   "title": "The complaint and the engraving",
-   "text": "Zion speaks for every exile: forsaken, forgotten. The reply stacks three permanences: a nursing mother's body ( \"can a woman forget her sucking child\" (v. 15)), the concession that even she might ( \"Yea, they may forget\" (v. 15)), and then the palms, graven, where forgetting has no mechanism. The record's God does not promise to remember; he shows the inscription.",
-   "cites": [
-    {
-     "quote": "can a woman forget her sucking child",
-     "verse": 15,
-     "start": 112,
-     "end": 158,
-     "spans": [
-      {
-       "w1": 2,
-       "w2": 8,
-       "text": "can a woman forget her sucking child"
-      }
-     ]
-    },
-    {
-     "quote": "Yea, they may forget",
-     "verse": 15,
-     "start": 198,
-     "end": 228,
-     "spans": [
-      {
-       "w1": 21,
-       "w2": 24,
-       "text": "Yea, they may forget"
-      }
-     ]
-    }
-   ]
+   "end": 15,
+   "title": "The complaint is answered inside its own verse",
+   "text": "In Isaiah, Zion's charge that the Lord has forsaken and forgotten her stands alone, and the reply arrives in the verse after. Here a clause is appended to the charge itself, so the accusation and its denial share one sentence. Verse 15 then adds another address to the house of Israel, the third such insertion in the chapter."
   },
   {
-   "label": "v. 17–21",
-   "start": 17,
-   "end": 21,
-   "title": "The crowded desolation",
-   "text": "Children hurry back, the waste places grow \"too narrow\" (v. 19), and the bereaved mother hears children she cannot account for: \"Who hath begotten me these\" (v. 21) and \"Behold, I was left alone\" (v. 21). The gathering outruns Zion's own arithmetic; she is dressed in her returned children \"as a bride\" (v. 18) while still asking where they came from.",
-   "cites": [
-    {
-     "quote": "too narrow",
-     "verse": 19,
-     "start": 43,
-     "end": 63,
-     "spans": [
-      {
-       "w1": 18,
-       "w2": 19,
-       "text": "too narrow"
-      }
-     ]
-    },
-    {
-     "quote": "Who hath begotten me these",
-     "verse": 21,
-     "start": 128,
-     "end": 164,
-     "spans": [
-      {
-       "w1": 8,
-       "w2": 12,
-       "text": "Who hath begotten me these"
-      }
-     ]
-    },
-    {
-     "quote": "Behold, I was left alone",
-     "verse": 21,
-     "start": 169,
-     "end": 203,
-     "spans": [
-      {
-       "w1": 35,
-       "w2": 39,
-       "text": "Behold, I was left alone"
-      }
-     ]
-    },
-    {
-     "quote": "as a bride",
-     "verse": 18,
-     "start": 290,
-     "end": 310,
-     "spans": [
-      {
-       "w1": 44,
-       "w2": 46,
-       "text": "as a bride"
-      }
-     ]
-    }
-   ]
+   "label": "v. 20",
+   "start": 20,
+   "end": 20,
+   "title": "One word changes the arithmetic of the promise",
+   "text": "The King James verse has the children thou shalt have \"after thou hast lost the other.\" This version reads the first. The children are no longer a different set from some other set; they are the ones who come after a first loss, which makes the verse a sequence rather than a substitution."
   },
   {
-   "label": "v. 22–26",
-   "start": 22,
+   "label": "v. 24–26",
+   "start": 24,
    "end": 26,
-   "title": "The hand, the kings, the rescue",
-   "text": "The standard goes up, Gentile arms carry the children, kings turn nurse, and the lawyer's question (\"shall the prey be taken from the mighty\" (v. 24)) gets its answer: \"even the captives of the mighty shall be taken away\" (v. 25), for \"I will contend with him that contendeth with thee\" (v. 25). The reading ends with all flesh knowing the Redeemer, and Nephi's brothers, on cue, will ask what it means.",
-   "cites": [
-    {
-     "quote": "shall the prey be taken from the mighty",
-     "verse": 24,
-     "start": 100,
-     "end": 149,
-     "spans": [
-      {
-       "w1": 2,
-       "w2": 9,
-       "text": "shall the prey be taken from the mighty"
-      }
-     ]
-    },
-    {
-     "quote": "even the captives of the mighty shall be taken away",
-     "verse": 25,
-     "start": 168,
-     "end": 229,
-     "spans": [
-      {
-       "w1": 6,
-       "w2": 15,
-       "text": "even the captives of the mighty shall be taken away"
-      }
-     ]
-    },
-    {
-     "quote": "I will contend with him that contendeth with thee",
-     "verse": 25,
-     "start": 235,
-     "end": 294,
-     "spans": [
-      {
-       "w1": 26,
-       "w2": 34,
-       "text": "I will contend with him that contendeth with thee"
-      }
-     ]
-    }
-   ]
+   "title": "The alterations thin out before the end",
+   "text": "Across the last three verses the differences from the King James text are down to spelling and a stray conjunction: captive for captives, savior for saviour, one dropped and. A chapter that opened with forty added words closes in near-agreement with the text it is quoting."
   }
  ],
  "chapter": [
@@ -951,7 +710,7 @@
   {
    "n": 4,
    "title": "Forgottenness is met with anatomy",
-   "text": "The chapter's argument against divine forgetting is physical: womb, breast, engraved palms, a body that cannot lose Zion. For hearers whose deepest fear is being a forgotten branch, the reading relocates their names from God's memory to God's flesh."
+   "text": "The complaint at verse 14 is quoted before it is answered, \"The Lord hath forsaken me, and my Lord hath forgotten me,\" and the reply is anatomical rather than argumentative. Verse 15 offers a nursing mother and grants that even she may fail, \"they may forget, yet will I not forget thee.\" Verse 16 moves the evidence onto a body, \"I have graven thee upon the palms of my hands.\" Two verses, two body parts, and no appeal to memory at all."
   },
   {
    "n": 5,
@@ -961,7 +720,7 @@
   {
    "n": 6,
    "title": "Reversal is the poem's grammar",
-   "text": "Despised to worshiped, prisoner to fed flock, bereaved to overcrowded, prey to rescued, oppressor to self-devoured: every station of exile is run backward. The record reads history the same way, which is why its editors keep this chapter close for the rest of the volume."
+   "text": "Five reversals are stated in the chapter and each names both states. Verse 7 has \"him whom man despiseth\" become one before whom \"kings shall see and arise.\" Verse 9 has prisoners told \"Go forth\" and given pastures. Verses 20 and 21 have the bereaved say \"The place is too strait for me.\" Verse 25 has \"the prey of the terrible\" delivered. Verse 26 has the oppressors \"drunken with their own blood.\" Every station of the exile is run backward, and the last of the five turns the oppressor into his own victim."
   },
   {
    "n": 7,
@@ -1052,7 +811,7 @@
     "verse_label": "v. 24",
     "start": 24,
     "end": 24,
-    "text": "Which \"mighty\" currently holds something of mine, and do I believe the contend-with-the-contender clause applies to it?"
+    "text": "Which \"mighty\" currently holds something of mine, and do I believe the promise in verse 25 applies to it?"
    }
   ]
  },
@@ -1162,6 +921,32 @@
    "mirror": "2ne06-005"
   },
   {
+   "id": "1ne21-007",
+   "scope": "BOM",
+   "head": "3 Ne. 22:7",
+   "anchor": {
+    "verse": 15,
+    "w1": 22,
+    "w2": 34,
+    "quote": "they may forget, yet will I not forget thee, O house of Israel."
+   },
+   "reason": "the same comfort in the chapter Christ quoted",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 22,
+     "verse": 7,
+     "w1": 1,
+     "w2": 16,
+     "quote": "For a small moment have I forsaken thee, but with great mercies will I gather thee.",
+     "verse_text": "For a small moment have I forsaken thee, but with great mercies will I gather thee.",
+     "markdown": "**For a small moment have I forsaken thee, but with great mercies will I gather thee**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne22-005"
+  },
+  {
    "id": "1ne21-005",
    "scope": "SW",
    "head": "Isa. 49:1",
@@ -1243,6 +1028,15 @@
    ]
   },
   {
+   "verse": 15,
+   "w1": 22,
+   "w2": 34,
+   "quote": "they may forget, yet will I not forget thee, O house of Israel.",
+   "entries": [
+    "1ne21-007"
+   ]
+  },
+  {
    "verse": 22,
    "w1": 7,
    "w2": 15,
@@ -1271,7 +1065,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "6836717f2db11305"
+  "at": "2026-09-07",
+  "source_sha256": "1a8125e0110d0d45"
  }
 }

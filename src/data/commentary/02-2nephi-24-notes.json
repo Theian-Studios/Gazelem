@@ -49,7 +49,19 @@
   {
    "n": 6,
    "title": "Dated to a death, again",
-   "text": "Verse 28 fixes the burden to the year king Ahaz died, the same dating device the block used for Isaiah's call. The block opens and closes with a king's death as its calendar, and both times the point is that the throne in view is not the one in Jerusalem."
+   "text": "Verse 28 fixes the burden to the year king Ahaz died, the same dating device the block used for Isaiah's call (2 Ne. 16:1). The block opens and closes with a king's death as its calendar, and both times the point is that the throne in view is not the one in Jerusalem.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 16:1",
+     "start": 111,
+     "end": 121,
+     "book": "2 Ne",
+     "chapter": 16,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
   }
  ],
  "words": [
@@ -77,6 +89,11 @@
    "term": "Besom",
    "verse_label": "v. 23",
    "text": "A broom made of twigs. God sweeps Babylon with the besom of destruction, and the domestic scale of the tool against the size of the object does the work. An empire is cleaned up the way a floor is."
+  },
+  {
+   "term": "Disannul",
+   "verse_label": "v. 27",
+   "text": "To cancel something already settled. The word appears once in this record and three times in the King James Bible. Verse 27 uses it of a purpose the Lord of Hosts has formed and asks who can undo it: the hand is stretched out, and nobody turns it back. The word is legal, and it treats the decree as an instrument already executed."
   }
  ],
  "phrases": [
@@ -157,53 +174,65 @@
  ],
  "verses": [
   {
-   "label": "v. 1–3",
-   "start": 1,
-   "end": 3,
-   "title": "Mercy before taunt",
-   "text": "Before a word is said about Babylon's king, three verses promise mercy on Jacob, a return to their own land, strangers joined to the house of Jacob, and rest from sorrow, fear, and hard bondage. The order matters. The song against the oppressor is sung by people who have already been told they are going home."
+   "label": "v. 2",
+   "start": 2,
+   "end": 2,
+   "title": "Lands, plural",
+   "text": "The King James verse moves the returning people to one place and stops. This version inserts a route and a destination: \"yea, from far unto the ends of the earth; and they shall return to their lands of promise.\" The plural lands of promise occurs exactly twice in the whole volume, here and in Jacob's sermon at 2 Ne. 9:2, \"established in all their lands of promise.\" Everywhere else, in twenty-three verses, the phrase is singular. The insertion carries this volume's own vocabulary into Isaiah.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 9:2",
+     "start": 313,
+     "end": 322,
+     "book": "2 Ne",
+     "chapter": 9,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
   },
   {
-   "label": "v. 4–8",
+   "label": "v. 4",
    "start": 4,
-   "end": 8,
-   "title": "The lament, and the trees",
-   "text": "The taunt opens with two things ceasing and then works outward: the staff of the wicked broken, the persecutor persecuted, the whole earth quiet and breaking into song. The last voice is the strangest and the best, cedars glad that no woodcutter is coming. Relief is registered by everything the tyrant used."
+   "end": 4,
+   "title": "The taunt gets a date",
+   "text": "Isaiah 14:4 begins \"That thou shalt take up this proverb against the king of Babylon.\" Nine words are set in front of it here: \"And it shall come to pass in that day.\" That is the standard formula for locating an event in prophetic time. The proverb itself is unchanged; what changes is that the reader is now told when it will be spoken, and the answer is the day just described in verses 1 through 3."
   },
   {
-   "label": "v. 9–11",
-   "start": 9,
+   "label": "v. 11",
+   "start": 11,
    "end": 11,
-   "title": "The reception below",
-   "text": "Hell stirs itself to meet him, kings rise from their thrones to look, and their entire greeting is two questions about whether he has become weak like them. Then the furnishings: no music, worms for a bed. The passage is a state welcome performed by the dead, and it is entirely deflationary."
+   "title": "Finishing an unfinished line",
+   "text": "The King James verse leaves a fragment hanging on the previous verb: \"Thy pomp is brought down to the grave, and the noise of thy viols.\" Three words are added here, \"the noise of thy viols is not heard,\" and the fragment becomes a sentence. Supplying a predicate is the smallest kind of editorial act, and it is worth noticing because it resolves an ambiguity instead of introducing one."
   },
   {
-   "label": "v. 12–15",
+   "label": "v. 12",
    "start": 12,
-   "end": 15,
-   "title": "Five I wills and one Yet",
-   "text": "The boast climbs by repetition, each clause reaching higher than the last, and the reply takes half a verse. Down to hell, to the sides of the pit. The chapter's whole argument about pride is contained in the ratio: five lines up, one line down, and the down is further than the up."
+   "end": 12,
+   "title": "One exclamation instead of two",
+   "text": "Isaiah 14:12 exclaims twice: \"How art thou fallen from heaven\" and then \"how art thou cut down to the ground.\" The second how is gone here, leaving a question where the King James has a cry: \"Art thou cut down to the ground, which did weaken the nations!\" The most quoted verse in the chapter keeps its famous first half untouched and loses one word from its second."
   },
   {
-   "label": "v. 16–20",
-   "start": 16,
-   "end": 20,
-   "title": "Looked at closely",
-   "text": "Those who see him narrowly look and consider, and the questions they ask are about scale: is this the man that made the earth tremble? Then the indignity, cast out of his own grave, unburied among the slain. Other kings lie in glory in their own houses. He is the exception, and the reason given is what he did to his own land and people."
+   "label": "v. 19",
+   "start": 19,
+   "end": 19,
+   "title": "A garment, or what is left over",
+   "text": "The two nouns differ by two letters and by everything else. The King James lays the king out \"as the raiment of those that are slain,\" a garment among corpses; here he is \"the remnant of those that are slain,\" what is left of them. Remnant is one of this volume's working words, standing in a hundred and three verses across every book, almost always for a surviving portion of a people. Dropped into Isaiah's grave scene it makes the king the leftover of a slaughter rather than its discarded clothing."
   },
   {
-   "label": "v. 24–27",
-   "start": 24,
-   "end": 27,
-   "title": "The purpose, and the hand",
-   "text": "Four verses turn from Babylon to method. What God has thought will come to pass, what he has purposed will stand, and the hand stretched out over all nations cannot be turned back. The block has ended four movements with that outstretched hand as a threat. Here it is named as a purpose, which is the last thing said about it."
+   "label": "v. 25",
+   "start": 25,
+   "end": 25,
+   "title": "Break, or bring",
+   "text": "God's oath against Assyria reads \"That I will break the Assyrian in my land\" in the King James text and \"That I will bring the Assyrian in my land\" here. The change is one consonant cluster and it reverses the direction of the verb. Breaking is what happens to Assyria in the land; bringing is what happens to Assyria to get it there. The rest of the verse, treading him underfoot and lifting the yoke, is untouched, so the sentence now performs both halves of the action."
   },
   {
-   "label": "v. 28–32",
-   "start": 28,
+   "label": "v. 32",
+   "start": 32,
    "end": 32,
-   "title": "One more burden, and one more answer",
-   "text": "A short oracle against Palestina is appended, warning them not to celebrate a broken rod too early. Then the messengers arrive with a question, and the chapter, the block, and Isaiah's part in this record end on the reply: the Lord founded Zion, and the poor trust in it."
+   "title": "The question with no one to answer it",
+   "text": "The King James asks \"What shall one then answer the messengers of the nation?\" Here the subject is deleted and the object pluralised: \"What shall then answer the messengers of the nations?\" Nobody is left standing in the sentence to give the reply, and the reply given, that the Lord hath founded Zion, arrives without a speaker. Seventeen of this chapter's thirty-two verses carry a real change against the King James text, and this is the last of them."
   }
  ],
  "chapter": [
@@ -602,7 +631,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "e9ca047b830fa6d9"
+  "at": "2026-09-07",
+  "source_sha256": "f5d5ebd520f7ef9d"
  }
 }

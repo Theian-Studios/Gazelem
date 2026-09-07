@@ -15,16 +15,28 @@
   "principles": [
    "Two peoples trading places",
    "Prosperity without war as a test",
-   "A thing"
+   "A thing handed down from generation to generation"
   ],
-  "connections": 10,
+  "connections": 18,
   "initial": false
  },
  "world_behind": [
   {
    "n": 1,
    "title": "The Lamanites are now the more righteous people",
-   "text": "Verse 1 gives the reason as firmness and steadiness in the faith, and verse 2 names Nephites who had become hardened and impenitent."
+   "text": "Verse 1 gives the reason as firmness and steadiness in the faith, and verse 2 names Nephites who had become hardened and impenitent. Jacob 3:5 had made a narrower version of the same comparison four hundred years earlier, and Helaman 15:4 to 8 will make it again through Samuel.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 3:5",
+     "start": 133,
+     "end": 142,
+     "book": "Jacob",
+     "chapter": 3,
+     "verse_start": 5,
+     "verse_end": 5
+    }
+   ]
   },
   {
    "n": 2,
@@ -34,22 +46,68 @@
   {
    "n": 3,
    "title": "The borders are open",
-   "text": "Verses 7 and 8 have both peoples traveling and trading freely anywhere in the land."
+   "text": "Verses 7 and 8 have both peoples traveling and trading freely anywhere in the land. Alma 22:33 describes the older arrangement, Nephite guards and armies hemming the Lamanites in on the south; this is the first stretch in the record where that line is simply open.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 22:33",
+     "start": 84,
+     "end": 94,
+     "book": "Alma",
+     "chapter": 22,
+     "verse_start": 33,
+     "verse_end": 33
+    }
+   ]
   },
   {
    "n": 4,
    "title": "The record names the two great land divisions",
-   "text": "Verse 10 says the south was called Lehi and the north Mulek, after the son of Zedekiah whom the Lord brought there."
+   "text": "Verse 10 says the south was called Lehi and the north Mulek, after the son of Zedekiah whom the Lord brought there. Omni 1:15 has the people of Zarahemla coming out of Jerusalem when Zedekiah was carried to Babylon, and Helaman 8:21 asks whether the seed of Zedekiah is not with them. This verse is where the two landings get names on a map.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Omni 1:15",
+     "start": 116,
+     "end": 125,
+     "book": "Omni",
+     "chapter": 1,
+     "verse_start": 15,
+     "verse_end": 15
+    }
+   ]
   },
   {
    "n": 5,
    "title": "Two chief judges are murdered in one year",
-   "text": "Verse 15 has Cezoram killed by an unknown hand on the seat, and his son killed after being appointed in his place."
+   "text": "Verse 15 has Cezoram killed by an unknown hand on the seat, and his son killed after being appointed in his place. Helaman 1:9 records Pahoran murdered on the same seat by Kishkumen twenty-five years before, so the office has now taken three assassinations in a generation."
   },
   {
    "n": 6,
    "title": "The band operates by signs and a private law",
-   "text": "Verses 22 through 24 describe secret signs and words, mutual protection, and trials held under the laws of their own wickedness."
+   "text": "Verses 22 through 24 describe secret signs and words, mutual protection, and trials held under the laws of their own wickedness. Alma 37:27 and 29 had commanded Helaman to keep the oaths themselves from the people while making their wickedness known, and Ether 8:20 has Moroni refusing to write them for the same reason.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 37:27",
+     "start": 129,
+     "end": 139,
+     "book": "Alma",
+     "chapter": 37,
+     "verse_start": 27,
+     "verse_end": 27
+    },
+    {
+     "kind": "scripture",
+     "text": "Ether 8:20",
+     "start": 255,
+     "end": 265,
+     "book": "Ether",
+     "chapter": 8,
+     "verse_start": 20,
+     "verse_end": 20
+    }
+   ]
   },
   {
    "n": 7,
@@ -184,53 +242,71 @@
  ],
  "verses": [
   {
-   "label": "v. 1–6",
-   "start": 1,
-   "end": 6,
-   "title": "The reversal",
-   "text": "By the end of the sixty-second year most Lamanites are a righteous people whose righteousness exceeds the Nephites', while many Nephites are hardened, impenitent, and rejecting the word. The church rejoices in the conversion and fellowships with them. Lamanites come to Zarahemla to tell how they were converted and to preach with power, and many go north, as do Nephi and Lehi."
-  },
-  {
-   "label": "v. 7–14",
+   "label": "v. 7–12",
    "start": 7,
-   "end": 14,
-   "title": "Open country and wealth",
-   "text": "There is peace everywhere, and both peoples travel and trade freely. Both grow exceedingly rich in gold, silver, and ore, in the land Lehi to the south and the land Mulek to the north. Skilled workmen refine the ore, grain and flocks abound, women spin and weave, and two years pass in peace with much preaching."
+   "end": 12,
+   "title": "An open border, described by a pair",
+   "text": "The passage on free travel is built from three words used in a tight block. North, south and both each stand five times, and all fifteen uses fall between verses 9 and 12. Nothing else in the chapter uses them. The construction is deliberate: gold and silver \"in both these lands,\" grain raised \"both in the north and in the south,\" flourishing \"both in the north and in the south.\" A period of peace is reported not by describing it but by refusing, for four verses, to say anything about one side without saying the same about the other."
   },
   {
-   "label": "v. 15–19",
+   "label": "v. 10",
+   "start": 10,
+   "end": 10,
+   "title": "A place name that contradicts three biblical verses",
+   "text": "The record explains the land north's name in passing: it \"was called Mulek, which was after the son of Zedekiah; for the Lord did bring Mulek into the land north.\" The Bible says three times that Zedekiah's sons were killed in front of him, at 2 Kings 25:7, Jer. 39:6 and Jer. 52:10. The volume knows this is a problem and raises it itself two chapters later, at Hel. 8:21. Here the claim is dropped into a sentence about geography, as an aside explaining why a region is called what it is called.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jer. 39:6",
+     "start": 258,
+     "end": 267,
+     "book": "Jer",
+     "chapter": 39,
+     "verse_start": 6,
+     "verse_end": 6
+    },
+    {
+     "kind": "scripture",
+     "text": "Jer. 52:10",
+     "start": 272,
+     "end": 282,
+     "book": "Jer",
+     "chapter": 52,
+     "verse_start": 10,
+     "verse_end": 10
+    },
+    {
+     "kind": "scripture",
+     "text": "Hel. 8:21",
+     "start": 363,
+     "end": 372,
+     "book": "Hel",
+     "chapter": 8,
+     "verse_start": 21,
+     "verse_end": 21
+    }
+   ]
+  },
+  {
+   "label": "v. 15",
    "start": 15,
-   "end": 19,
-   "title": "The judges murdered",
-   "text": "In the sixty-sixth year Cezoram is killed on the judgment-seat by an unknown hand, and his son, appointed in his place, is killed the same year. The people grow wicked again in the sixty-seventh: long blessing without war turned them to riches, to getting gain, and to secret murder and robbery. The murderers are the band formed by Kishkumen and Gadianton, now numerous among Nephites and more numerous among the wicked Lamanites, and they are not found."
+   "end": 15,
+   "title": "A murder with no one attached to it",
+   "text": "The chief judge dies in a clause that supplies everything but the murderer: \"Cezoram was murdered by an unknown hand as he sat upon the judgment-seat.\" Unknown hand occurs once in the volume, here. His son, appointed in his place, is killed as well. In a chapter that will spend six verses tracing the origin of secret oaths back to Cain, the one killing it reports leaves the agent blank, and the record does not fill it in later."
   },
   {
-   "label": "v. 20–24",
-   "start": 20,
+   "label": "v. 22–24",
+   "start": 22,
    "end": 24,
-   "title": "The two responses",
-   "text": "The Lamanites, sorrowful to find robbers among them, use every means to destroy them. Satan stirs the Nephites to join instead, taking oaths of mutual protection with secret signs and words, so that a member's wickedness is never punished by his own. Any member who tells the world is tried under the band's own laws, given by Gadianton and Kishkumen."
+   "title": "The machinery of the band, given in detail",
+   "text": "The record supplies the working parts of the society rather than describing it in general terms: \"they did have their signs, yea, their secret signs, and their secret words,\" and the purpose is that a member \"might distinguish a brother who had entered into the covenant.\" Then verse 24 states the penalty and, more to the point, the jurisdiction: an informer \"should be tried, not according to the laws of their country.\" What makes the band dangerous, in the record's account, is not violence but a parallel court."
   },
   {
    "label": "v. 25–30",
    "start": 25,
    "end": 30,
-   "title": "The source traced",
-   "text": "These are the oaths Alma commanded Helaman to keep from the world. They reached Gadianton by another route: from the being who enticed the first parents, who plotted with Cain over Abel, who put the tower in men's hearts and led that people into this land to their destruction, and who is the author of all sin, handing the plots down from generation to generation."
-  },
-  {
-   "label": "v. 31–36",
-   "start": 31,
-   "end": 36,
-   "title": "Two directions",
-   "text": "He has great hold on the Nephites, who trample the commandments and build idols of gold and silver, and the iniquity spreads in the space of not many years. The Nephites dwindle in unbelief while the Lamanites grow in the knowledge of God and walk uprightly. The Spirit withdraws from the one for hardness and is poured out on the other for easiness in believing."
-  },
-  {
-   "label": "v. 37–41",
-   "start": 37,
-   "end": 41,
-   "title": "The band takes the government",
-   "text": "The Lamanites hunt the robbers and preach among the worst of them until the band is destroyed among them entirely. The Nephites build them up and support them until they cover the land, seduce the more part of the righteous into sharing the spoils, and obtain the sole management of the government, trampling the poor and the meek. They are ripening for destruction."
+   "title": "The record clears its own archive",
+   "text": "Verse 25 identifies the oaths as the ones \"which Alma commanded his son should not go forth unto the world,\" a reference to an instruction the volume gave at Alma 37. Verse 26 then rules out the obvious inference: \"those secret oaths and covenants did not come forth unto Gadianton from the records which were delivered unto Helaman.\" Having denied the archive as a source, the record supplies another one across four verses, naming Cain and the tower and repeating \"that same being\" four times. A writer who is himself the custodian of those records stops the narrative to say the leak did not come from them."
   }
  ],
  "chapter": [
@@ -283,9 +359,29 @@
     "text": "The Lamanites are called more righteous for firmness and steadiness. Consistency over time is the measure the record uses."
    },
    {
+    "title": "Let the people you taught come teach you",
+    "verse_label": "v. 4",
+    "text": "Lamanite converts came down into Zarahemla and declared to the Nephites the manner of their own conversion. Someone you once helped is often the only person who can say the thing you have stopped being able to hear from your own side."
+   },
+   {
+    "title": "An opening has to run both ways",
+    "verse_label": "v. 7–8",
+    "text": "The record has Nephites going wherever they would among the Lamanites and Lamanites doing the same among the Nephites, and the peace and the trade rest on both halves. Traffic permitted in one direction is not an opening and will not produce what an opening produces."
+   },
+   {
     "title": "Watch yourself in the good years",
     "verse_label": "v. 17",
     "text": "Nothing was attacking them, and that is when they turned. Long stretches without pressure ask a different kind of attention than hard ones."
+   },
+   {
+    "title": "Be wary of a group that judges its own",
+    "verse_label": "v. 24",
+    "text": "A member who exposed the band was to be tried under the laws of their wickedness rather than the laws of the country. Any group that builds a private court for its own people has decided which rules it means to be out from under."
+   },
+   {
+    "title": "Value being easy to convince",
+    "verse_label": "v. 36",
+    "text": "Mormon credits the outpouring of the Spirit on the Lamanites to their easiness and willingness to believe. Resisting persuasion can feel like rigor, and this verse treats readiness as the thing that let the change land."
    },
    {
     "title": "Deal with it early or you will host it",
@@ -354,7 +450,7 @@
     "w2": 16,
     "quote": "the Lamanites did hunt the band of robbers of Gadianton"
    },
-   "reason": "the conversion that produced this response, in the prison and after",
+   "reason": "the conversion that produced this response, in the prison",
    "targets": [
     {
      "ref": "Hel.",
@@ -380,7 +476,7 @@
     "w2": 16,
     "quote": "those secret oaths and covenants did not come forth unto Gadianton from the records"
    },
-   "reason": "the first oath in the book, sworn by the men who sent Kishkumen",
+   "reason": "the first oath in the book, sworn by Kishkumen's senders",
    "targets": [
     {
      "ref": "Hel.",
@@ -432,7 +528,7 @@
     "w2": 11,
     "quote": "they did obtain the sole management of the government"
    },
-   "reason": "the same combinations when they were still unknown to the government",
+   "reason": "the same combinations, still unknown to the government",
    "targets": [
     {
      "ref": "Hel.",
@@ -447,6 +543,162 @@
     }
    ],
    "mirror": "hel03-001"
+  },
+  {
+   "id": "hel06-011",
+   "scope": "BOOK",
+   "head": "Hel. 7:24",
+   "anchor": {
+    "verse": 1,
+    "w1": 41,
+    "w2": 48,
+    "quote": "their righteousness did exceed that of the Nephites,"
+   },
+   "reason": "Nephi saying it from the tower",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 7,
+     "verse": 24,
+     "w1": 3,
+     "w2": 8,
+     "quote": "they are more righteous than you,",
+     "verse_text": "For behold, they are more righteous than you, for they have not sinned against that great knowledge which ye have received; therefore the Lord will be merciful unto them; yea, he will lengthen out their days and increase their seed, even when thou shalt be utterly destroyed except thou shalt repent.",
+     "markdown": "For behold, **they are more righteous than you**, for they have not sinned against that great knowledge which ye have received; therefore the Lord will be merciful unto them; yea, he will lengthen out their days and increase their seed, even when thou shalt be utterly destroyed except thou shalt repent.",
+     "span": true
+    }
+   ],
+   "mirror": "hel07-003"
+  },
+  {
+   "id": "hel06-012",
+   "scope": "BOOK",
+   "head": "Hel. 13:1",
+   "anchor": {
+    "verse": 1,
+    "w1": 41,
+    "w2": 48,
+    "quote": "their righteousness did exceed that of the Nephites,"
+   },
+   "reason": "the Lamanites keeping the commandments strictly",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 13,
+     "verse": 1,
+     "w1": 25,
+     "w2": 35,
+     "quote": "the Lamanites did observe strictly to keep the commandments of God,",
+     "verse_text": "And now it came to pass in the eighty and sixth year, the Nephites did still remain in wickedness, yea, in great wickedness, while the Lamanites did observe strictly to keep the commandments of God, according to the law of Moses.",
+     "markdown": "And now it came to pass in the eighty and sixth year, the Nephites did still remain in wickedness, yea, in great wickedness, while **the Lamanites did observe strictly to keep the commandments of God**, according to the law of Moses.",
+     "span": true
+    }
+   ],
+   "mirror": "hel13-002"
+  },
+  {
+   "id": "hel06-013",
+   "scope": "BOOK",
+   "head": "Hel. 15:5",
+   "anchor": {
+    "verse": 1,
+    "w1": 41,
+    "w2": 48,
+    "quote": "their righteousness did exceed that of the Nephites,"
+   },
+   "reason": "Samuel on the more part walking in duty",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 15,
+     "verse": 5,
+     "w1": 9,
+     "w2": 20,
+     "quote": "the more part of them are in the path of their duty,",
+     "verse_text": "And I would that ye should behold that the more part of them are in the path of their duty, and they do walk circumspectly before God, and they do observe to keep his commandments and his statutes and his judgments according to the law of Moses.",
+     "markdown": "And I would that ye should behold that **the more part of them are in the path of their duty**, and they do walk circumspectly before God, and they do observe to keep his commandments and his statutes and his judgments according to the law of Moses.",
+     "span": true
+    }
+   ],
+   "mirror": "hel15-002"
+  },
+  {
+   "id": "hel06-015",
+   "scope": "BOOK",
+   "head": "Hel. 8:28",
+   "anchor": {
+    "verse": 26,
+    "w1": 24,
+    "w2": 31,
+    "quote": "they were put into the heart of Gadianton"
+   },
+   "reason": "Nephi naming Gadianton and the evil one",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 8,
+     "verse": 28,
+     "w1": 10,
+     "w2": 25,
+     "quote": "whose author is Gadianton and the evil one who seeketh to destroy the souls of men.",
+     "verse_text": "And behold, they both belong to your secret band, whose author is Gadianton and the evil one who seeketh to destroy the souls of men.",
+     "markdown": "And behold, they both belong to your secret band, **whose author is Gadianton and the evil one who seeketh to destroy the souls of men**.",
+     "span": true
+    }
+   ],
+   "mirror": "hel08-003"
+  },
+  {
+   "id": "hel06-016",
+   "scope": "BOOK",
+   "head": "Hel. 11:26",
+   "anchor": {
+    "verse": 26,
+    "w1": 24,
+    "w2": 31,
+    "quote": "they were put into the heart of Gadianton"
+   },
+   "reason": "the plans searched out and taken up again",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 11,
+     "verse": 26,
+     "w1": 23,
+     "w2": 32,
+     "quote": "they did search out all the secret plans of Gadianton;",
+     "verse_text": "And thus in time, yea, even in the space of not many years, they became an exceedingly great band of robbers; and they did search out all the secret plans of Gadianton; and thus they became robbers of Gadianton.",
+     "markdown": "And thus in time, yea, even in the space of not many years, they became an exceedingly great band of robbers; and **they did search out all the secret plans of Gadianton**; and thus they became robbers of Gadianton.",
+     "span": true
+    }
+   ],
+   "mirror": "hel11-002"
+  },
+  {
+   "id": "hel06-018",
+   "scope": "BOOK",
+   "head": "Hel. 7:4",
+   "anchor": {
+    "verse": 39,
+    "w1": 3,
+    "w2": 11,
+    "quote": "they did obtain the sole management of the government,"
+   },
+   "reason": "the robbers seen filling the judgment-seats",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 7,
+     "verse": 4,
+     "w1": 13,
+     "w2": 18,
+     "quote": "those Gadianton robbers filling the judgment-seats—having",
+     "verse_text": "And seeing the people in a state of such awful wickedness, and those Gadianton robbers filling the judgment-seats—having usurped the power and authority of the land; laying aside the commandments of God, and not in the least aright before him; doing no justice unto the children of men;",
+     "markdown": "And seeing the people in a state of such awful wickedness, and **those Gadianton robbers filling the judgment-seats—having** usurped the power and authority of the land; laying aside the commandments of God, and not in the least aright before him; doing no justice unto the children of men;",
+     "span": true
+    }
+   ],
+   "mirror": "hel07-001"
   },
   {
    "id": "hel06-005",
@@ -472,7 +724,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al37-015"
   },
   {
    "id": "hel06-006",
@@ -484,7 +736,7 @@
     "w2": 19,
     "quote": "their secret signs, and their secret words"
    },
-   "reason": "the Jaredite oaths, traced by the record to the same origin",
+   "reason": "the Jaredite oaths, traced to the same origin",
    "targets": [
     {
      "ref": "Ether",
@@ -498,7 +750,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "eth08-004"
   },
   {
    "id": "hel06-007",
@@ -524,7 +776,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos25-013"
   },
   {
    "id": "hel06-008",
@@ -550,7 +802,59 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "2ne02-016"
+  },
+  {
+   "id": "hel06-014",
+   "scope": "BOM",
+   "head": "Alma 47:36",
+   "anchor": {
+    "verse": 2,
+    "w1": 11,
+    "w2": 14,
+    "quote": "become hardened and impenitent"
+   },
+   "reason": "the same pair used of Nephite dissenters",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 47,
+     "verse": 36,
+     "w1": 37,
+     "w2": 42,
+     "quote": "they became more hardened and impenitent,",
+     "verse_text": "Now these dissenters, having the same instruction and the same information of the Nephites, yea, having been instructed in the same knowledge of the Lord, nevertheless, it is strange to relate, not long after their dissensions they became more hardened and impenitent, and more wild, wicked and ferocious than the Lamanites—drinking in with the traditions of the Lamanites; giving way to indolence, and all manner of lasciviousness; yea, entirely forgetting the Lord their God.",
+     "markdown": "Now these dissenters, having the same instruction and the same information of the Nephites, yea, having been instructed in the same knowledge of the Lord, nevertheless, it is strange to relate, not long after their dissensions **they became more hardened and impenitent**, and more wild, wicked and ferocious than the Lamanites—drinking in with the traditions of the Lamanites; giving way to indolence, and all manner of lasciviousness; yea, entirely forgetting the Lord their God.",
+     "span": true
+    }
+   ],
+   "mirror": "al47-006"
+  },
+  {
+   "id": "hel06-017",
+   "scope": "BOM",
+   "head": "3 Ne. 3:9",
+   "anchor": {
+    "verse": 26,
+    "w1": 24,
+    "w2": 31,
+    "quote": "they were put into the heart of Gadianton"
+   },
+   "reason": "a robber chief calling them of ancient date",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 3,
+     "verse": 9,
+     "w1": 30,
+     "w2": 42,
+     "quote": "they are of ancient date and they have been handed down unto us.",
+     "verse_text": "And behold, I am Giddianhi; and I am the governor of this the secret society of Gadianton; which society and the works thereof I know to be good; and they are of ancient date and they have been handed down unto us.",
+     "markdown": "And behold, I am Giddianhi; and I am the governor of this the secret society of Gadianton; which society and the works thereof I know to be good; and **they are of ancient date and they have been handed down unto us**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne03-004"
   },
   {
    "id": "hel06-009",
@@ -607,6 +911,26 @@
  ],
  "markers": [
   {
+   "verse": 1,
+   "w1": 41,
+   "w2": 48,
+   "quote": "their righteousness did exceed that of the Nephites,",
+   "entries": [
+    "hel06-011",
+    "hel06-012",
+    "hel06-013"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 11,
+   "w2": 14,
+   "quote": "become hardened and impenitent",
+   "entries": [
+    "hel06-014"
+   ]
+  },
+  {
    "verse": 10,
    "w1": 9,
    "w2": 21,
@@ -653,6 +977,17 @@
   },
   {
    "verse": 26,
+   "w1": 24,
+   "w2": 31,
+   "quote": "they were put into the heart of Gadianton",
+   "entries": [
+    "hel06-015",
+    "hel06-016",
+    "hel06-017"
+   ]
+  },
+  {
+   "verse": 26,
    "w1": 33,
    "w2": 47,
    "quote": "that same being who did entice our first parents to partake of the forbidden fruit",
@@ -693,12 +1028,13 @@
    "w2": 11,
    "quote": "they did obtain the sole management of the government",
    "entries": [
-    "hel06-004"
+    "hel06-004",
+    "hel06-018"
    ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "bb14b0fcb27ede69"
+  "at": "2026-09-07",
+  "source_sha256": "1e236a5c1ed6a491"
  }
 }

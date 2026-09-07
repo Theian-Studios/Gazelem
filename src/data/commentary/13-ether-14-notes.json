@@ -1,0 +1,781 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Ether",
+  "book_slug": "ether",
+  "chapter": 14,
+  "volume_order": "13",
+  "speakers": [
+   "Moroni"
+  ],
+  "audience": "The reader",
+  "location": "The wilderness of Akish, the plains of Agosh, the valleys of Corihor and Shurr",
+  "date": "The years of the final war, after Shared's death",
+  "unit": "The curse on the land and the rise of Shiz (Ether 14)",
+  "principles": [
+   "A curse felt first on a household shelf",
+   "Commanders killed by the men nearest them",
+   "A land whose dead outrun the living"
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The slippery treasures are the same curse the Nephites get",
+   "text": "Verse 1 has a tool laid on a shelf gone by morning. Helaman 13:31 to 36 has Samuel the Lamanite promise exactly that to the Nephites, and Mormon 1:18 reports it arriving. Two nations a thousand years apart lose the same ordinary thing."
+  },
+  {
+   "n": 2,
+   "title": "Lending stopped",
+   "text": "Verse 2 says no man would borrow and no man would lend, and every man kept the hilt of his sword in his right hand. The economic detail is doing the work the body counts elsewhere in the chapter cannot."
+  },
+  {
+   "n": 3,
+   "title": "The one survivor of this war is already on the record",
+   "text": "Coriantumr is pursued through this chapter and Ether 15. Omni 1:21 has him discovered by the people of Zarahemla, dwelling with them nine moons, generations before Mosiah's day. The reader knows the outcome before the chase starts.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Omni 1:21",
+     "start": 57,
+     "end": 66,
+     "book": "Omni",
+     "chapter": 1,
+     "verse_start": 21,
+     "verse_end": 21
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "The pursuit is running against a prophecy",
+   "text": "Verse 24 sets a personal oath of revenge beside a word given to Ether about how Coriantumr would end. Ether 13:21 supplies that word in full: he would live to see another people receive this land for their inheritance, and receive a burial by them.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 13:21",
+     "start": 102,
+     "end": 113,
+     "book": "Ether",
+     "chapter": 13,
+     "verse_start": 21,
+     "verse_end": 21
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Lib is described by height",
+   "text": "Verse 10 says more than any other man among all the people. The book gives that measurement of only two men, the other being the brother of Jared at Ether 1:34.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 1:34",
+     "start": 149,
+     "end": 159,
+     "book": "Ether",
+     "chapter": 1,
+     "verse_start": 34,
+     "verse_end": 34
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "The dead went unburied, and the record says why",
+   "text": "Verses 22 and 23 give the speed of the war as the reason and then the smell as the consequence. Mormon 6:15 reports the same failure at Cumorah, where the flesh and bones were left to molder on the ground."
+  }
+ ],
+ "words": [
+  {
+   "term": "Hilt",
+   "verse_label": "v. 2",
+   "text": "The handle of a sword. Treated at Alma 44:12. It appears three times in the record and never in the King James Bible.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 44:12",
+     "start": 34,
+     "end": 44,
+     "book": "Alma",
+     "chapter": 44,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
+  },
+  {
+   "term": "Siege",
+   "verse_label": "v. 5",
+   "text": "A blockade meant to force a surrender. Treated at 3 Nephi 4:16. It appears six times in the record and seventeen in the King James Bible."
+  },
+  {
+   "term": "Stature",
+   "verse_label": "v. 10",
+   "text": "Height and build. Treated at 1 Nephi 4:31. The record uses the word six times and the King James Bible seventeen."
+  },
+  {
+   "term": "Carnage",
+   "verse_label": "v. 21",
+   "text": "Slaughter on a large scale. Treated at 3 Nephi 2:11. It appears five times in the record and not once in the King James Bible."
+  },
+  {
+   "term": "Strewed",
+   "verse_label": "v. 22",
+   "text": "Scattered loosely over a surface. The word appears once in the record, here, and not at all in the King James Bible."
+  },
+  {
+   "term": "Scent",
+   "verse_label": "v. 23",
+   "text": "A smell carried on the air. Treated at Alma 16:11. Three uses in this record against three in the King James Bible, where it usually means a pleasant one.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 16:11",
+     "start": 39,
+     "end": 49,
+     "book": "Alma",
+     "chapter": 16,
+     "verse_start": 11,
+     "verse_end": 11
+    }
+   ]
+  },
+  {
+   "term": "Trumpet",
+   "verse_label": "v. 28",
+   "text": "A horn used for signals. The record uses the word twice and the King James Bible sixty-one times. Verse 28 uses it as an invitation to battle."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "He could not find it, so great was the curse upon the land",
+   "verse_label": "v. 1",
+   "text": "How the curse showed itself. Helaman 13:35 reports the same effect among the Nephites."
+  },
+  {
+   "term": "Every man kept the hilt of his sword in his right hand",
+   "verse_label": "v. 2",
+   "text": "The posture the curse produced. The verse names what he was guarding."
+  },
+  {
+   "term": "Slew a part of the army of Coriantumr, as they were drunken",
+   "verse_label": "v. 5",
+   "text": "How the siege was broken. The detail is given without comment."
+  },
+  {
+   "term": "His high priest murdered him as he sat upon his throne",
+   "verse_label": "v. 9",
+   "text": "The end of Gilead, told without comment. Verse 10 has the murderer killed in turn."
+  },
+  {
+   "term": "Lib was a man of great stature",
+   "verse_label": "v. 10",
+   "text": "The one description given of him. Verse 12 has him wound Coriantumr in the arm."
+  },
+  {
+   "term": "Who can stand before the army of Shiz?",
+   "verse_label": "v. 18",
+   "text": "The cry that went through the land. The verse gives it as a question already answered."
+  },
+  {
+   "term": "There was none left to bury the dead",
+   "verse_label": "v. 22",
+   "text": "The reason given for the bodies on the ground. The verse blames the speed of the fighting."
+  },
+  {
+   "term": "The scent thereof went forth upon the face of the land",
+   "verse_label": "v. 23",
+   "text": "The consequence nobody could get away from. Verse 23 says it troubled them by day and by night."
+  },
+  {
+   "term": "Their wickedness and abominations had prepared a way for their everlasting destruction",
+   "verse_label": "v. 25",
+   "text": "Moroni's one line of explanation in the chapter. He gives it and returns to the fighting."
+  },
+  {
+   "term": "Did sound a trumpet unto the armies of Shiz to invite them forth to battle",
+   "verse_label": "v. 28",
+   "text": "The formal opening of the battle at Comnor. Verse 29 counts three attempts."
+  },
+  {
+   "term": "Having lost his blood, fainted, and was carried away as though he were dead",
+   "verse_label": "v. 30",
+   "text": "What ends the chapter for Coriantumr. Verse 31 has Shiz call off the pursuit."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–2",
+   "start": 1,
+   "end": 2,
+   "title": "A curse stated as physics, then as behaviour",
+   "text": "Verse 1 makes a claim about objects: \"if a man should lay his tool or his sword upon his shelf, or upon the place whither he would keep it, behold, upon the morrow, he could not find it.\" Verse 2 reports the consequence without any supernatural language at all: \"every man did cleave unto that which was his own, with his hands, and would not borrow neither would he lend; and every man kept the hilt of his sword in his right hand.\" The second verse is what a society does when nothing put down stays put. The same curse is described in the same terms much later in the volume, at Hel. 13:35, by a prophet speaking to a different people on the other side of the record.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Hel. 13:35",
+     "start": 582,
+     "end": 592,
+     "book": "Hel",
+     "chapter": 13,
+     "verse_start": 35,
+     "verse_end": 35
+    }
+   ]
+  },
+  {
+   "label": "v. 9–10",
+   "start": 9,
+   "end": 10,
+   "title": "Two assassinations in two sentences",
+   "text": "The chapter changes rulers twice in consecutive verses and gives each a single clause. \"His high priest murdered him as he sat upon his throne\" (v. 9), then \"one of the secret combinations murdered him in a secret pass, and obtained unto himself the kingdom; and his name was Lib\" (v. 10). No motive is given for either. The second verse also supplies the new king's name at the end of the sentence that reports his crime, which is the same naming order the chapter used for Gilead and will use for Shiz.",
+   "cites": [
+    {
+     "quote": "His high priest murdered him as he sat upon his throne",
+     "verse": 9,
+     "start": 87,
+     "end": 150,
+     "spans": [
+      {
+       "w1": 7,
+       "w2": 17,
+       "text": "His high priest murdered him as he sat upon his throne"
+      }
+     ]
+    },
+    {
+     "quote": "one of the secret combinations murdered him in a secret pass, and obtained unto himself the kingdom; and his name was Lib",
+     "verse": 10,
+     "start": 157,
+     "end": 288,
+     "spans": [
+      {
+       "w1": 7,
+       "w2": 28,
+       "text": "one of the secret combinations murdered him in a secret pass, and obtained unto himself the kingdom; and his name was Lib"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 18",
+   "start": 18,
+   "end": 18,
+   "title": "A sentence the crowd said",
+   "text": "The record preserves popular speech without attributing it to anyone: \"a cry went forth throughout the land, Who can stand before the army of Shiz? Behold, he sweepeth the earth before him!\" It is a question and an exclamation, and neither is answered or verified. The chapter is otherwise entirely third-person military reporting, and this is its only line of direct discourse."
+  },
+  {
+   "label": "v. 19–20",
+   "start": 19,
+   "end": 20,
+   "title": "A whole population absorbed into two armies",
+   "text": "The record gives the result of the fear in two short verses with no third option in them: \"the people began to flock together in armies, throughout all the face of the land. And they were divided; and a part of them fled to the army of Shiz, and a part of them fled to the army of Coriantumr.\" The verb is fled in both halves, so joining either side is described as escape. Nobody in the account stays out, and the record does not say that anyone tried."
+  },
+  {
+   "label": "v. 21–23",
+   "start": 21,
+   "end": 23,
+   "title": "Three verses of aftermath, ending on a smell",
+   "text": "The record reports the consequences in an order that gets progressively harder to look away from. First the scale, \"the whole face of the land was covered with the bodies of the dead.\" Then the reason nothing was done about it, \"so swift and speedy was the war that there was none left to bury the dead, but they did march forth from the shedding of blood to the shedding of blood.\" Then the detail no summary would include: \"the scent thereof went forth upon the face of the land... wherefore the people became troubled by day and by night, because of the scent thereof.\""
+  },
+  {
+   "label": "v. 25",
+   "start": 25,
+   "end": 25,
+   "title": "One editorial sentence in thirty-one verses",
+   "text": "The abridger's formula appears exactly once here: \"And thus we see that the Lord did visit them in the fulness of his wrath, and their wickedness and abominations had prepared a way for their everlasting destruction.\" Helaman 6 uses the same phrase four times in seven verses. This chapter, which contains more killing than that one, spends a single sentence on interpretation and returns immediately to the pursuit in verse 26."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The curse arrives in the house before the field",
+   "text": "Verses 1 and 2 are about shelves and hands, several verses ahead of any battle."
+  },
+  {
+   "n": 2,
+   "title": "Trust fails first",
+   "text": "Verse 2 ends borrowing and lending in one clause and puts a hand on a sword."
+  },
+  {
+   "n": 3,
+   "title": "Commanders are killed by the men nearest them",
+   "text": "Verse 9 names a high priest and verse 10 a member of the combination."
+  },
+  {
+   "n": 4,
+   "title": "The chapter follows the crown from man to man",
+   "text": "Four men are named in fifteen verses and three of them are introduced by relation before they are given a name. Verse 3 has \"the brother of Shared\"; verse 8 supplies the name, Gilead; verse 9 has him murdered by his own high priest. Verse 10 names Lib, \"a man of great stature, more than any other man among all the people,\" killed at verse 16. Verse 17 then names \"the brother of Lib,\" Shiz, who burns cities and slays \"both women and children.\" The record introduces each successor as somebody's brother and supplies the name afterward."
+  },
+  {
+   "n": 5,
+   "title": "The population sorts itself into two",
+   "text": "Verses 19 and 20 have people flock together and then divide between the armies."
+  },
+  {
+   "n": 6,
+   "title": "The dead are reported by smell",
+   "text": "Verse 23 says the scent troubled the living day and night."
+  },
+  {
+   "n": 7,
+   "title": "Moroni explains once",
+   "text": "Verse 25 gives the cause in a single sentence and the narrative resumes."
+  },
+  {
+   "n": 8,
+   "title": "An oath and a promise are set side by side",
+   "text": "Verse 24 places Shiz's vow of vengeance next to the word that Coriantumr would not fall by the sword."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "When nothing stays where you put it",
+    "verse_label": "v. 1",
+    "text": "The curse is described as a tool or sword laid on a shelf and gone by morning. Part of what a society is amounts to being able to set something down and find it there tomorrow, and this verse is about losing exactly that."
+   },
+   {
+    "title": "Notice when you stop lending",
+    "verse_label": "v. 2",
+    "text": "The verse counts the end of borrowing as part of the curse."
+   },
+   {
+    "title": "Look at who stands closest to you",
+    "verse_label": "v. 9",
+    "text": "Gilead was killed by his own high priest."
+   },
+   {
+    "title": "A reputation can do the fighting",
+    "verse_label": "v. 18",
+    "text": "The cry about Shiz ran ahead of his army through the whole land."
+   },
+   {
+    "title": "Everybody had to pick a side",
+    "verse_label": "v. 20",
+    "text": "The people flocked together into armies and divided, part fleeing to Shiz and part to Coriantumr. Past a certain size a conflict stops leaving anywhere to stand outside it, and that cost is worth counting while it is still small."
+   },
+   {
+    "title": "Nobody was left to bury them",
+    "verse_label": "v. 22",
+    "text": "The war moved so fast that the dead lay where they fell, men, women and children strewed on the ground. A society is also its capacity to bury people properly, and this verse marks where that capacity ran out."
+   },
+   {
+    "title": "An oath and a prophecy pulling the same way",
+    "verse_label": "v. 24",
+    "text": "Shiz pursued because he had sworn to avenge his brother's blood, and the verse sets that beside the word of the Lord that Coriantumr should not fall by the sword. Two very different kinds of cause sit side by side there, and neither is used to explain the other away."
+   },
+   {
+    "title": "Name the cause plainly",
+    "verse_label": "v. 25",
+    "text": "Moroni gives it in one sentence without dressing it up."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What have I lost track of that I ought to be able to find?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Whom have I stopped lending to?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "Whom do I trust without ever having thought about it?"
+   },
+   {
+    "verse_label": "v. 18",
+    "start": 18,
+    "end": 18,
+    "text": "What fear am I repeating without checking it?"
+   },
+   {
+    "verse_label": "v. 22",
+    "start": 22,
+    "end": 22,
+    "text": "What have I left unburied because I moved too fast?"
+   },
+   {
+    "verse_label": "v. 24",
+    "start": 24,
+    "end": 24,
+    "text": "What have I sworn that I should let go of?"
+   },
+   {
+    "verse_label": "v. 30",
+    "start": 30,
+    "end": 30,
+    "text": "What has been draining me without my noticing?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "eth14-001",
+   "scope": "BOOK",
+   "head": "Ether 13:31",
+   "anchor": {
+    "verse": 3,
+    "w1": 3,
+    "w2": 14,
+    "quote": "after the space of two years, and after the death of Shared"
+   },
+   "reason": "the wound that bought those two years",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 13,
+     "verse": 31,
+     "w1": 9,
+     "w2": 21,
+     "quote": "he did not go to battle again for the space of two years,",
+     "verse_text": "And Shared wounded Coriantumr in his thigh, that he did not go to battle again for the space of two years, in which time all the people upon the face of the land were shedding blood, and there was none to restrain them.",
+     "markdown": "And Shared wounded Coriantumr in his thigh, that **he did not go to battle again for the space of two years**, in which time all the people upon the face of the land were shedding blood, and there was none to restrain them.",
+     "span": true
+    }
+   ],
+   "mirror": "eth13-011"
+  },
+  {
+   "id": "eth14-002",
+   "scope": "BOOK",
+   "head": "Ether 13:21",
+   "anchor": {
+    "verse": 24,
+    "w1": 29,
+    "w2": 45,
+    "quote": "the word of the Lord which came to Ether that Coriantumr should not fall by the sword"
+   },
+   "reason": "the sentence passed on him, and the one exception",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 13,
+     "verse": 21,
+     "w1": 48,
+     "w2": 56,
+     "quote": "every soul should be destroyed save it were Coriantumr.",
+     "verse_text": "Otherwise they should be destroyed, and all his household save it were himself. And he should only live to see the fulfilling of the prophecies which had been spoken concerning another people receiving the land for their inheritance; and Coriantumr should receive a burial by them; and every soul should be destroyed save it were Coriantumr.",
+     "markdown": "Otherwise they should be destroyed, and all his household save it were himself. And he should only live to see the fulfilling of the prophecies which had been spoken concerning another people receiving the land for their inheritance; and Coriantumr should receive a burial by them; and **every soul should be destroyed save it were Coriantumr**.",
+     "span": true
+    }
+   ],
+   "mirror": "eth13-012"
+  },
+  {
+   "id": "eth14-003",
+   "scope": "BOOK",
+   "head": "Ether 2:9",
+   "anchor": {
+    "verse": 25,
+    "w1": 6,
+    "w2": 16,
+    "quote": "the Lord did visit them in the fulness of his wrath"
+   },
+   "reason": "the decree that set that measure",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 2,
+     "verse": 9,
+     "w1": 46,
+     "w2": 59,
+     "quote": "the fulness of his wrath cometh upon them when they are ripened in iniquity.",
+     "verse_text": "And now, we can behold the decrees of God concerning this land, that it is a land of promise; and whatsoever nation shall possess it shall serve God, or they shall be swept off when the fulness of his wrath shall come upon them. And the fulness of his wrath cometh upon them when they are ripened in iniquity.",
+     "markdown": "And now, we can behold the decrees of God concerning this land, that it is a land of promise; and whatsoever nation shall possess it shall serve God, or they shall be swept off when the fulness of his wrath shall come upon them. And **the fulness of his wrath cometh upon them when they are ripened in iniquity**.",
+     "span": true
+    }
+   ],
+   "mirror": "eth02-012"
+  },
+  {
+   "id": "eth14-004",
+   "scope": "BOOK",
+   "head": "Ether 8:22",
+   "anchor": {
+    "verse": 24,
+    "w1": 10,
+    "w2": 23,
+    "quote": "he had sworn to avenge himself upon Coriantumr of the blood of his brother"
+   },
+   "reason": "Moroni on whose vengeance this actually is",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 8,
+     "verse": 22,
+     "w1": 44,
+     "w2": 61,
+     "quote": "shall always cry unto him from the ground for vengeance upon them and yet he avenge them not.",
+     "verse_text": "And whatsoever nation shall uphold such secret combinations, to get power and gain, until they shall spread over the nation, behold, they shall be destroyed; for the Lord will not suffer that the blood of his saints, which shall be shed by them, shall always cry unto him from the ground for vengeance upon them and yet he avenge them not.",
+     "markdown": "And whatsoever nation shall uphold such secret combinations, to get power and gain, until they shall spread over the nation, behold, they shall be destroyed; for the Lord will not suffer that the blood of his saints, which shall be shed by them, **shall always cry unto him from the ground for vengeance upon them and yet he avenge them not**.",
+     "span": true
+    }
+   ],
+   "mirror": "eth08-016"
+  },
+  {
+   "id": "eth14-005",
+   "scope": "BOM",
+   "head": "Hel. 13:35",
+   "anchor": {
+    "verse": 1,
+    "w1": 49,
+    "w2": 61,
+    "quote": "he could not find it, so great was the curse upon the land"
+   },
+   "reason": "Samuel reporting the same effect among the Nephites",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 13,
+     "verse": 35,
+     "w1": 2,
+     "w2": 14,
+     "quote": "we have hid up our treasures and they have slipped away from us,",
+     "verse_text": "Yea, we have hid up our treasures and they have slipped away from us, because of the curse of the land.",
+     "markdown": "Yea, **we have hid up our treasures and they have slipped away from us**, because of the curse of the land.",
+     "span": true
+    }
+   ],
+   "mirror": "hel13-018"
+  },
+  {
+   "id": "eth14-006",
+   "scope": "BOM",
+   "head": "Morm. 4:11",
+   "anchor": {
+    "verse": 21,
+    "w1": 11,
+    "w2": 20,
+    "quote": "so long had been the scene of bloodshed and carnage"
+   },
+   "reason": "Mormon saying the same scene could not be written",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 4,
+     "verse": 11,
+     "w1": 19,
+     "w2": 31,
+     "quote": "the horrible scene of the blood and carnage which was among the people,",
+     "verse_text": "And it is impossible for the tongue to describe, or for man to write a perfect description of the horrible scene of the blood and carnage which was among the people, both of the Nephites and of the Lamanites; and every heart was hardened, so that they delighted in the shedding of blood continually.",
+     "markdown": "And it is impossible for the tongue to describe, or for man to write a perfect description of **the horrible scene of the blood and carnage which was among the people**, both of the Nephites and of the Lamanites; and every heart was hardened, so that they delighted in the shedding of blood continually.",
+     "span": true
+    }
+   ],
+   "mirror": "morm04-012"
+  },
+  {
+   "id": "eth14-007",
+   "scope": "BOM",
+   "head": "Mosiah 8:8",
+   "anchor": {
+    "verse": 22,
+    "w1": 33,
+    "w2": 48,
+    "quote": "leaving the bodies of both men, women, and children strewed upon the face of the land"
+   },
+   "reason": "what the search party found generations later",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 8,
+     "verse": 8,
+     "w1": 38,
+     "w2": 48,
+     "quote": "having discovered a land which was covered with bones of men,",
+     "verse_text": "And they were lost in the wilderness for the space of many days, yet they were diligent, and found not the land of Zarahemla but returned to this land, having traveled in a land among many waters, having discovered a land which was covered with bones of men, and of beasts, and was also covered with ruins of buildings of every kind, having discovered a land which had been peopled with a people who were as numerous as the hosts of Israel.",
+     "markdown": "And they were lost in the wilderness for the space of many days, yet they were diligent, and found not the land of Zarahemla but returned to this land, having traveled in a land among many waters, **having discovered a land which was covered with bones of men**, and of beasts, and was also covered with ruins of buildings of every kind, having discovered a land which had been peopled with a people who were as numerous as the hosts of Israel.",
+     "span": true
+    }
+   ],
+   "mirror": "mos08-013"
+  },
+  {
+   "id": "eth14-008",
+   "scope": "SW",
+   "head": "Hag. 1:6",
+   "anchor": {
+    "verse": 1,
+    "w1": 23,
+    "w2": 35,
+    "quote": "if a man should lay his tool or his sword upon his shelf"
+   },
+   "reason": "wages put into a bag with holes",
+   "targets": [
+    {
+     "ref": "Hag.",
+     "chapter": 1,
+     "verse": 6,
+     "w1": 34,
+     "w2": 47,
+     "quote": "he that earneth wages earneth wages to put it into a bag with holes.",
+     "verse_text": "Ye have sown much, and bring in little; ye eat, but ye have not enough; ye drink, but ye are not filled with drink; ye clothe you, but there is none warm; and he that earneth wages earneth wages to put it into a bag with holes.",
+     "markdown": "Ye have sown much, and bring in little; ye eat, but ye have not enough; ye drink, but ye are not filled with drink; ye clothe you, but there is none warm; and **he that earneth wages earneth wages to put it into a bag with holes**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "eth14-009",
+   "scope": "SW",
+   "head": "Jer. 16:4",
+   "anchor": {
+    "verse": 22,
+    "w1": 10,
+    "w2": 17,
+    "quote": "there was none left to bury the dead"
+   },
+   "reason": "a people promised the same lack of burial",
+   "targets": [
+    {
+     "ref": "Jer.",
+     "chapter": 16,
+     "verse": 4,
+     "w1": 7,
+     "w2": 16,
+     "quote": "they shall not be lamented; neither shall they be buried;",
+     "verse_text": "They shall die of grievous deaths; they shall not be lamented; neither shall they be buried; but they shall be as dung upon the face of the earth: and they shall be consumed by the sword, and by famine; and their carcases shall be meat for the fowls of heaven, and for the beasts of the earth.",
+     "markdown": "They shall die of grievous deaths; **they shall not be lamented; neither shall they be buried**; but they shall be as dung upon the face of the earth: and they shall be consumed by the sword, and by famine; and their carcases shall be meat for the fowls of heaven, and for the beasts of the earth.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "eth14-010",
+   "scope": "SW",
+   "head": "1 Sam. 17:4",
+   "anchor": {
+    "verse": 10,
+    "w1": 30,
+    "w2": 45,
+    "quote": "Lib was a man of great stature, more than any other man among all the people"
+   },
+   "reason": "the other champion measured by height",
+   "targets": [
+    {
+     "ref": "1 Sam.",
+     "chapter": 17,
+     "verse": 4,
+     "w1": 18,
+     "w2": 25,
+     "quote": "whose height was six cubits and a span.",
+     "verse_text": "And there went out a champion out of the camp of the Philistines, named Goliath, of Gath, whose height was six cubits and a span.",
+     "markdown": "And there went out a champion out of the camp of the Philistines, named Goliath, of Gath, **whose height was six cubits and a span**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 23,
+   "w2": 35,
+   "quote": "if a man should lay his tool or his sword upon his shelf",
+   "entries": [
+    "eth14-008"
+   ]
+  },
+  {
+   "verse": 1,
+   "w1": 49,
+   "w2": 61,
+   "quote": "he could not find it, so great was the curse upon the land",
+   "entries": [
+    "eth14-005"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 3,
+   "w2": 14,
+   "quote": "after the space of two years, and after the death of Shared",
+   "entries": [
+    "eth14-001"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 30,
+   "w2": 45,
+   "quote": "Lib was a man of great stature, more than any other man among all the people",
+   "entries": [
+    "eth14-010"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 11,
+   "w2": 20,
+   "quote": "so long had been the scene of bloodshed and carnage",
+   "entries": [
+    "eth14-006"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 10,
+   "w2": 17,
+   "quote": "there was none left to bury the dead",
+   "entries": [
+    "eth14-009"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 33,
+   "w2": 48,
+   "quote": "leaving the bodies of both men, women, and children strewed upon the face of the land",
+   "entries": [
+    "eth14-007"
+   ]
+  },
+  {
+   "verse": 24,
+   "w1": 10,
+   "w2": 23,
+   "quote": "he had sworn to avenge himself upon Coriantumr of the blood of his brother",
+   "entries": [
+    "eth14-004"
+   ]
+  },
+  {
+   "verse": 24,
+   "w1": 29,
+   "w2": 45,
+   "quote": "the word of the Lord which came to Ether that Coriantumr should not fall by the sword",
+   "entries": [
+    "eth14-002"
+   ]
+  },
+  {
+   "verse": 25,
+   "w1": 6,
+   "w2": 16,
+   "quote": "the Lord did visit them in the fulness of his wrath",
+   "entries": [
+    "eth14-003"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "87eabc69612063d3"
+ }
+}

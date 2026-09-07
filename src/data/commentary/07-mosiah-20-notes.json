@@ -20,7 +20,7 @@
    "Restraint",
    "Reconciliation"
   ],
-  "connections": 10,
+  "connections": 12,
   "initial": false
  },
  "world_behind": [
@@ -59,17 +59,17 @@
   {
    "term": "Merry",
    "verse_label": "v. 1",
-   "text": "Cheerful, festive, without any hint of impropriety in the older sense. It describes what the daughters had gathered to be. The only other place this record uses the phrase, a group on a ship makes themselves merry just before a storm, but nothing here casts the gathering as a fault. The verse is scene-setting, and the fault arrives in verse 5."
+   "text": "Cheerful, festive, without any hint of impropriety in the older sense. Treated at 1 Nephi 18:9. It describes what the daughters had gathered to be. The only other place this record uses the phrase, a group on a ship makes themselves merry just before a storm, but nothing here casts the gathering as a fault. The verse is scene-setting, and the fault arrives in verse 5."
   },
   {
    "term": "Durst",
    "verse_label": "v. 3",
-   "text": "Dared. It is used of what the priests would not risk rather than what they could not do: they durst not return to their wives and their children. The verb places the barrier inside them, and the verse supplies both halves of it, shame and fear."
+   "text": "Dared. Treated at 1 Nephi 22:29. It is used of what the priests would not risk rather than what they could not do: they durst not return to their wives and their children. The verb places the barrier inside them, and the verse supplies both halves of it, shame and fear."
   },
   {
    "term": "Sore",
    "verse_label": "v. 10",
-   "text": "Severe, painful, hard-pressed. The battle became exceedingly sore, a formula this record reserves for the worst fighting it describes. It is the only word in the chapter that reports what the fighting was like from the inside."
+   "text": "Severe, painful, hard-pressed. Treated at 1 Nephi 18:14. The battle became exceedingly sore, a formula this record reserves for the worst fighting it describes. It is the only word in the chapter that reports what the fighting was like from the inside."
   },
   {
    "term": "Captain",
@@ -131,53 +131,44 @@
  ],
  "verses": [
   {
-   "label": "v. 1–5",
-   "start": 1,
-   "end": 5,
-   "title": "A deliberate sequence",
-   "text": "A gathering place, a small group on one particular day, men lying in wait, and twenty-four women carried into the wilderness. The verses are short and the sequence is deliberate at every step. Nothing is offered in mitigation."
-  },
-  {
    "label": "v. 6–8",
    "start": 6,
    "end": 8,
-   "title": "The wrong people blamed",
-   "text": "The Lamanites miss their daughters, conclude it was Limhi's people, and march. Limhi sees the preparations from the tower and lays his people in wait. Two entirely reasonable decisions, made on opposite sides of a fact nobody has."
+   "title": "A war begun on a correct inference from wrong evidence",
+   "text": "The Lamanites conclude that the people of Limhi took their daughters, and the record states the reasoning without correcting it yet: \"they were angry with the people of Limhi, for they thought it was the people of Limhi.\" The whole campaign proceeds on that basis for fifteen verses. Verse 8 has Limhi discovering the army \"from the tower,\" the same structure king Noah climbed at Mosiah 19:5, and this time it is used for reconnaissance rather than escape.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 19:5",
+     "start": 381,
+     "end": 392,
+     "book": "Mosiah",
+     "chapter": 19,
+     "verse_start": 5,
+     "verse_end": 5
+    }
+   ]
   },
   {
-   "label": "v. 9–11",
-   "start": 9,
+   "label": "v. 10–11",
+   "start": 10,
    "end": 11,
-   "title": "An ambush, and two similes",
-   "text": "They fall on the Lamanites from waiting places, the battle goes hard, and they drive an enemy twice their size. The record explains it with lions, dragons, and one plain clause about fighting for their wives and children."
+   "title": "One comparison, and one number",
+   "text": "The battle gets a single figure of speech, \"they fought like lions for their prey,\" which occurs once in the volume. It gets one quantity as well, and the quantity is a ratio rather than a count: the people of Limhi \"were not half so numerous as the Lamanites.\" No dead are counted on either side in this chapter. A battle that decides the fate of a nation is reported with a simile and a fraction."
   },
   {
-   "label": "v. 12–15",
-   "start": 12,
-   "end": 15,
-   "title": "A wounded king, and a question about oaths",
-   "text": "He is found alive among the dead, bound up, and carried in. The soldiers want him killed and Limhi will not allow it. Then the two kings argue, and between them they establish the actual cause of the war."
-  },
-  {
-   "label": "v. 16–18",
-   "start": 16,
-   "end": 18,
-   "title": "Gideon stops a search",
-   "text": "Limhi's instinct is to investigate and execute. His captain asks him to forbear, reminds him who fled into the wilderness, and names the priests. The correction takes three verses and no one is punished for it."
-  },
-  {
-   "label": "v. 21–22",
-   "start": 21,
-   "end": 22,
-   "title": "The prophecy named out loud",
-   "text": "Abinadi's words are fulfilled, and the reason given is that they would not hearken. Then the practical conclusion: better bondage than death, and let us stop the shedding of blood. The theology and the policy arrive in the same speech."
+   "label": "v. 15–16",
+   "start": 15,
+   "end": 16,
+   "title": "Two men who each know half of it",
+   "text": "The record has the Lamanite king state a grievance that is accurate as far as it goes: \"I have broken the oath because thy people did carry away the daughters of my people; therefore, in my anger I did cause my people to come up to war.\" Limhi's reply reports his own ignorance: \"Limhi had heard nothing concerning this matter; therefore he said: I will search among my people and whosoever has done this thing shall perish.\" Both men are telling the truth, and neither has the piece the other needs."
   },
   {
    "label": "v. 24–26",
    "start": 24,
    "end": 26,
-   "title": "Walking out with nothing",
-   "text": "The Lamanite king proposes that both sides come unarmed, and swears his people will not kill. Then he bows himself down and pleads for the people who had just ambushed him. The Lamanites see the empty hands and are pacified."
+   "title": "An army disarmed as an argument",
+   "text": "The Lamanite king proposes a demonstration rather than a message: \"Let us go forth to meet my people, without arms before them.\" The phrase without arms stands in three verses of the volume and all three are here, in verses 24, 25 and 26. It is used first as the king's proposal, then as the report of what they did, then as the thing the Lamanites saw. The chapter that opened with men hiding in a wood ends with men walking into an army carrying nothing."
   }
  ],
  "chapter": [
@@ -209,7 +200,19 @@
   {
    "n": 6,
    "title": "Going unarmed works, and the chapter says why",
-   "text": "The Lamanites see empty hands and are pacified. Much later another people will bury their weapons as a covenant rather than as a tactic, and the same sight will have a comparable effect on the same nation."
+   "text": "Verse 24 has the king propose it as a tactic, \"Let us go forth to meet my people, without arms,\" and verse 26 reports the effect, \"when the Lamanites saw the people of Limhi, that they were without arms, they had compassion on them and were pacified.\" Alma 24:21–22 has a different people do the same thing as a covenant and reports a comparable result on the same nation, that the attackers \"began to be pierced for the murders which they had committed\" and a thousand and five were spared. One is a stratagem and one is an oath, and the record gives both the same outcome.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 24:21–22",
+     "start": 252,
+     "end": 265,
+     "book": "Alma",
+     "chapter": 24,
+     "verse_start": 21,
+     "verse_end": 22
+    }
+   ]
   },
   {
    "n": 7,
@@ -532,7 +535,59 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al24-015"
+  },
+  {
+   "id": "mos20-011",
+   "scope": "BOM",
+   "head": "Alma 23:12",
+   "anchor": {
+    "verse": 1,
+    "w1": 4,
+    "w2": 7,
+    "quote": "a place in Shemlon"
+   },
+   "reason": "the same land, held by converts later",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 23,
+     "verse": 12,
+     "w1": 17,
+     "w2": 23,
+     "quote": "who were in the land of Shemlon,",
+     "verse_text": "And also of the people of the Lamanites who were in the land of Shilom, and who were in the land of Shemlon, and in the city of Lemuel, and in the city of Shimnilom.",
+     "markdown": "And also of the people of the Lamanites who were in the land of Shilom, and **who were in the land of Shemlon**, and in the city of Lemuel, and in the city of Shimnilom.",
+     "span": true
+    }
+   ],
+   "mirror": "al23-005"
+  },
+  {
+   "id": "mos20-012",
+   "scope": "BOM",
+   "head": "Alma 43:45",
+   "anchor": {
+    "verse": 11,
+    "w1": 29,
+    "w2": 33,
+    "quote": "they fought for their lives,"
+   },
+   "reason": "the same cause named in Moroni's wars",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 43,
+     "verse": 45,
+     "w1": 24,
+     "w2": 33,
+     "quote": "their homes and their liberties, their wives and their children,",
+     "verse_text": "Nevertheless, the Nephites were inspired by a better cause, for they were not fighting for monarchy nor power but they were fighting for their homes and their liberties, their wives and their children, and their all, yea, for their rites of worship and their church.",
+     "markdown": "Nevertheless, the Nephites were inspired by a better cause, for they were not fighting for monarchy nor power but they were fighting for **their homes and their liberties, their wives and their children**, and their all, yea, for their rites of worship and their church.",
+     "span": true
+    }
+   ],
+   "mirror": "al43-006"
   },
   {
    "id": "mos20-009",
@@ -562,6 +617,15 @@
   }
  ],
  "markers": [
+  {
+   "verse": 1,
+   "w1": 4,
+   "w2": 7,
+   "quote": "a place in Shemlon",
+   "entries": [
+    "mos20-011"
+   ]
+  },
   {
    "verse": 1,
    "w1": 9,
@@ -605,6 +669,15 @@
    "quote": "Limhi had discovered them from the tower",
    "entries": [
     "mos20-002"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 29,
+   "w2": 33,
+   "quote": "they fought for their lives,",
+   "entries": [
+    "mos20-012"
    ]
   },
   {
@@ -654,7 +727,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "f54bc79954b60c9a"
+  "at": "2026-09-07",
+  "source_sha256": "a76e40e39a63a27a"
  }
 }

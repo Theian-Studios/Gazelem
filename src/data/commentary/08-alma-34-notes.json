@@ -15,21 +15,45 @@
   "principles": [
    "An atonement that must be infinite",
    "Prayer that has to reach the poor",
-   ""
+   "This life as the time to prepare"
   ],
-  "connections": 9,
+  "connections": 19,
   "initial": true
  },
  "world_behind": [
   {
    "n": 1,
    "title": "Amulek picks up mid-sermon",
-   "text": "Verse 1 has Alma sit down on the ground and Amulek stand. The two chapters are one discourse handed from one preacher to the other in the middle."
+   "text": "Verse 1 has Alma sit down on the ground and Amulek stand. Alma 32 and 33 are Alma's half of one sermon, and Alma 8:29 to 32 had paired the two men for this mission at Ammonihah eight chapters earlier. The partnership is older than this hillside.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 8:29",
+     "start": 108,
+     "end": 117,
+     "book": "Alma",
+     "chapter": 8,
+     "verse_start": 29,
+     "verse_end": 29
+    }
+   ]
   },
   {
    "n": 2,
    "title": "He knows these people were taught",
-   "text": "Verse 2 says these things were taught bountifully before their dissension. Amulek is arguing with people who once held what he holds."
+   "text": "Verse 2 says these things were taught bountifully among them before their dissension. Alma 31:8 and 9 records that dissension: the Zoramites had the word preached to them and fell into great errors. Amulek is arguing with people who once held what he holds.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 31:8",
+     "start": 86,
+     "end": 95,
+     "book": "Alma",
+     "chapter": 31,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
   },
   {
    "n": 3,
@@ -54,7 +78,29 @@
   {
    "n": 7,
    "title": "Charity is made the test of the prayer",
-   "text": "Verse 28 says a prayer is vain if the needy are turned away. Amulek is speaking to poor people and still tells them to impart of their substance if they have it."
+   "text": "Verse 28 voids the prayer of anyone who turns the needy away. Mosiah 4:16 to 26 had made the same demand of a whole nation at a coronation; Amulek makes it of people Alma 32:2 says were cast out for the coarseness of their apparel.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 4:16",
+     "start": 62,
+     "end": 73,
+     "book": "Mosiah",
+     "chapter": 4,
+     "verse_start": 16,
+     "verse_end": 16
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 32:2",
+     "start": 166,
+     "end": 175,
+     "book": "Alma",
+     "chapter": 32,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
   }
  ],
  "words": [
@@ -81,7 +127,7 @@
   {
    "term": "Tittle",
    "verse_label": "v. 13",
-   "text": "The smallest stroke of a letter. The pairing with jot occurs once in this record and comes from the Sermon on the Mount, where nothing passes from the law until all is fulfilled. Amulek uses it to say the law is completed, not thrown away."
+   "text": "The smallest stroke of a letter. The pairing with jot occurs once in this record and comes from the Sermon on the Mount, where nothing passes from the law until all is fulfilled. Amulek uses it to say the law is completed and not thrown away."
   },
   {
    "term": "Encircles",
@@ -91,7 +137,19 @@
   {
    "term": "Refiners",
    "verse_label": "v. 29",
-   "text": "Those who purify metal. The word occurs once in scripture. Amulek says the uncharitable are as dross that refiners cast out, which picks up the word Mormon used in Alma 32 of these same people and turns it around on anyone who will not give."
+   "text": "Those who purify metal. The word appears once in all of scripture. Amulek says the uncharitable are as dross that refiners cast out, which picks up the word Mormon used in Alma 32:2 of these same people and turns it around on anyone who will not give.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 32:2",
+     "start": 172,
+     "end": 181,
+     "book": "Alma",
+     "chapter": 32,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
   },
   {
    "term": "Procrastinate",
@@ -130,7 +188,7 @@
   {
    "term": "It must be an infinite and eternal sacrifice",
    "verse_label": "v. 10",
-   "text": "The center of the chapter. Amulek rules out man, beast, and fowl, and says nothing finite will answer. Verse 12 gives his reason: the law requires the life of the one who owes it."
+   "text": "The center of the chapter. Amulek rules out man, beast, and fowl, and says nothing finite will answer. Verse 12 gives his reason: only the debtor's own life settles the debt."
   },
   {
    "term": "This is the whole meaning of the law, every whit pointing to that great and last sacrifice",
@@ -175,53 +233,54 @@
  ],
  "verses": [
   {
-   "label": "v. 1–7",
-   "start": 1,
-   "end": 7,
-   "title": "Amulek stands",
-   "text": "Alma sits down and Amulek begins. He says they cannot be ignorant of what they were taught before they dissented, names the great question as whether there shall be a Christ, and summarizes Alma's witnesses: Zenos, Zenock, and Moses."
+   "label": "v. 3",
+   "start": 3,
+   "end": 3,
+   "title": "The request the sermon is answering",
+   "text": "Amulek begins by naming the occasion, and it is not his own: \"ye have desired of my beloved brother that he should make known unto you what ye should do, because of your afflictions.\" Then he says what the previous speaker did and did not do. Alma \"hath spoken somewhat unto you to prepare your minds,\" which leaves the practical answer still owing. The chapter is therefore constructed as the second half of someone else's sermon, and it says so before it says anything else."
   },
   {
-   "label": "v. 8–14",
-   "start": 8,
-   "end": 14,
-   "title": "The infinite sacrifice",
-   "text": "He testifies of himself that Christ will come and atone. An atonement is required or all mankind perishes. It cannot be man or beast or fowl, and no man's blood atones for another's, so it must be infinite and eternal. Then the law is fulfilled, every jot and tittle, every whit of it pointing here."
+   "label": "v. 10–15",
+   "start": 10,
+   "end": 15,
+   "title": "Where the sacrifice vocabulary lives",
+   "text": "Sacrifice is used nine times in this chapter and every use falls between verses 10 and 15. The other thirty-five verses do not contain the word. Among the hundred and twenty-five chapters of scripture that use it, only Leviticus 7 and Numbers 7 use it more often, and both of those are instructions for performing sacrifices. This one is an argument for ending them, and it borrows the density of the ritual texts to say so."
   },
   {
-   "label": "v. 15–18",
+   "label": "v. 15–17",
    "start": 15,
-   "end": 18,
-   "title": "Mercy and justice",
-   "text": "The intent of the last sacrifice is to bring about the bowels of mercy, which overpower justice and give men means to have faith unto repentance. Mercy satisfies justice and encircles the repentant; the unrepentant face the whole law. Cry for mercy, for he is mighty to save."
+   "end": 17,
+   "title": "Three verses, one phrase, three positions",
+   "text": "Faith unto repentance appears in three verses of the volume and they are consecutive, here. In verse 15 it is what salvation is brought to those who exercise. In verse 16 it is what the man who lacks it is exposed by: \"he that exercises no faith unto repentance is exposed to the whole law.\" In verse 17 it becomes a prayer that the hearers might begin to exercise it. Stated, negated, and then asked for, in that order, and then dropped from the chapter entirely."
   },
   {
-   "label": "v. 19–27",
-   "start": 19,
-   "end": 27,
-   "title": "Where to cry",
-   "text": "Humble yourselves and continue in prayer. Fields, flocks, houses, household, morning and midday and evening, against enemies, against the devil, over crops, over increase. Then closets, secret places, wilderness, and hearts drawn out continually for your own welfare and everyone else's."
+   "label": "v. 18–26",
+   "start": 18,
+   "end": 26,
+   "title": "The list of places to pray",
+   "text": "The record sets six verses in a row opening on the same two words. \"Cry unto him for mercy\" (v. 18), then in your fields, in your houses, against your enemies, against the devil, over your crops, over your flocks, and finally \"in your closets, and your secret places, and in your wilderness.\" That last item is worth holding against the previous chapter. Alma had just read this crowd the prayer of Zenos, which is itself a list of places God heard him: the wilderness, the field, the house, the closet, the congregation. Amulek's list covers the same ground in the same order and ends in the same place, delivered to the same audience within the hour.",
+   "cites": [
+    {
+     "quote": "Cry unto him for mercy",
+     "verse": 18,
+     "start": 67,
+     "end": 99,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 6,
+       "text": "Cry unto him for mercy"
+      }
+     ]
+    }
+   ]
   },
   {
-   "label": "v. 28–29",
-   "start": 28,
-   "end": 29,
-   "title": "The condition",
-   "text": "All of that is vain if the needy and naked are turned away and the sick are unvisited. Those who do not remember to be charitable are as dross the refiners cast out and men tread underfoot."
-  },
-  {
-   "label": "v. 30–36",
-   "start": 30,
-   "end": 36,
-   "title": "Now is the time",
-   "text": "Bring fruit unto repentance and harden not your hearts, for now is the day of salvation. This life is the time to prepare and to labor, and the night comes when no labor is possible. The spirit that possesses you at death possesses you after, and the Lord dwells in the hearts of the righteous."
-  },
-  {
-   "label": "v. 37–41",
-   "start": 37,
-   "end": 41,
-   "title": "The closing charge",
-   "text": "Work out your salvation, deny the coming of Christ no more, contend not against the Holy Ghost, take his name, worship in whatever place you are, live in daily thanksgiving, be watchful unto prayer, and bear afflictions without reviling those who cast you out."
+   "label": "v. 33–35",
+   "start": 33,
+   "end": 35,
+   "title": "Do not put off the day",
+   "text": "The chapter's last argument is built on a single noun. The day of stands four times in five verses: the day of this life, the day of your repentance, the day of this life again, and \"this day of life.\" Verse 33 makes the demand, \"do not procrastinate the day of your repentance until the end.\" Verse 34 refuses a defence in advance: \"Ye cannot say, when ye are brought to that awful crisis, that I will repent.\" Verse 35 gives the reason, that the same spirit possessing the body will possess it after. The chapter that opened by naming a request closes by removing an excuse."
   }
  ],
  "chapter": [
@@ -269,9 +328,24 @@
  "world_in_front": {
   "applications": [
    {
+    "title": "Reason it out before you assert it",
+    "verse_label": "v. 10–12",
+    "text": "Amulek argues that the sacrifice must be infinite by ruling out the alternatives one at a time: not a man, not a beast, not any manner of fowl. When you have a conclusion you believe, try laying out the options you rejected and why, instead of stating the conclusion louder."
+   },
+   {
     "title": "Pray over the work in front of you",
     "verse_label": "v. 20–25",
     "text": "Amulek names crops, flocks, and household by name. Take the specific thing you are responsible for this week and pray about it by name rather than in general."
+   },
+   {
+    "title": "Pray where you are rather than where prayer belongs",
+    "verse_label": "v. 26",
+    "text": "Closets, secret places, wilderness. The list is deliberately unofficial and it comes right after the verses about fields and flocks. If prayer only happens in the place set aside for it, most of your week is out of range."
+   },
+   {
+    "title": "Keep it running when you are not saying anything",
+    "verse_label": "v. 27",
+    "text": "\"When you do not cry unto the Lord, let your hearts be full, drawn out in prayer unto him continually.\" Verse 27 reaches past the times set aside for prayer and asks for a disposition that runs through the rest of the day, aimed at other people as much as yourself."
    },
    {
     "title": "Check your prayer against your giving",
@@ -284,6 +358,11 @@
     "text": "He told poor people to impart of their substance if they have it. Rather than waiting until you can give properly, give the amount that is actually available."
    },
    {
+    "title": "Take the deadline seriously",
+    "verse_label": "v. 32–33",
+    "text": "\"This life is the time for men to prepare to meet God,\" and then the specific instruction, \"do not procrastinate the day of your repentance until the end.\" Name the one thing you have been postponing on the assumption there will be a better moment, and do the first part of it today."
+   },
+   {
     "title": "Do not become like the people who shut you out",
     "verse_label": "v. 40",
     "text": "Amulek tells them reviling would make them sinners like their excluders. When you have been treated badly, decide in advance what you will not do in return."
@@ -294,7 +373,7 @@
     "verse_label": "v. 2",
     "start": 2,
     "end": 2,
-    "text": "What did I once know clearly that I have quietly stopped holding?"
+    "text": "What did I once believe without question that I have quietly stopped holding?"
    },
    {
     "verse_label": "v. 5",
@@ -411,7 +490,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al13-002"
   },
   {
    "id": "al34-004",
@@ -423,7 +502,7 @@
     "w2": 13,
     "quote": "ye are as dross"
    },
-   "reason": "the same word used of these very hearers, by their own priests",
+   "reason": "the same word, used of these hearers by their priests",
    "targets": [
     {
      "ref": "Alma",
@@ -437,7 +516,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al32-011"
+  },
+  {
+   "id": "al34-018",
+   "scope": "BOOK",
+   "head": "Alma 5:28",
+   "anchor": {
+    "verse": 33,
+    "w1": 21,
+    "w2": 30,
+    "quote": "that ye do not procrastinate the day of your repentance"
+   },
+   "reason": "Alma putting the same urgency in three words",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 5,
+     "verse": 28,
+     "w1": 22,
+     "w2": 26,
+     "quote": "Behold ye must prepare quickly;",
+     "verse_text": "Behold, are ye stripped of pride? I say unto you, if ye are not ye are not prepared to meet God. Behold ye must prepare quickly; for the kingdom of heaven is soon at hand, and such an one hath not eternal life.",
+     "markdown": "Behold, are ye stripped of pride? I say unto you, if ye are not ye are not prepared to meet God. **Behold ye must prepare quickly**; for the kingdom of heaven is soon at hand, and such an one hath not eternal life.",
+     "span": true
+    }
+   ],
+   "mirror": "al05-004"
   },
   {
    "id": "al34-005",
@@ -463,7 +568,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "2ne09-022"
   },
   {
    "id": "al34-006",
@@ -475,7 +580,7 @@
     "w2": 15,
     "quote": "that ye be watchful unto prayer continually"
    },
-   "reason": "the record’s other use, of a church watching over its own",
+   "reason": "the other use, of a church watching its own",
    "targets": [
     {
      "ref": "Moro.",
@@ -489,7 +594,241 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "moro06-007"
+  },
+  {
+   "id": "al34-010",
+   "scope": "BOM",
+   "head": "2 Ne. 9:7",
+   "anchor": {
+    "verse": 12,
+    "w1": 21,
+    "w2": 32,
+    "quote": "an infinite atonement which will suffice for the sins of the world."
+   },
+   "reason": "Jacob using the phrase a century earlier",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 9,
+     "verse": 7,
+     "w1": 2,
+     "w2": 8,
+     "quote": "it must needs be an infinite atonement—save",
+     "verse_text": "Wherefore, it must needs be an infinite atonement—save it should be an infinite atonement this corruption could not put on incorruption. Wherefore, the first judgment which came upon man must needs have remained to an endless duration. And if so, this flesh must have laid down to rot and to crumble to its mother earth, to rise no more.",
+     "markdown": "Wherefore, **it must needs be an infinite atonement—save** it should be an infinite atonement this corruption could not put on incorruption. Wherefore, the first judgment which came upon man must needs have remained to an endless duration. And if so, this flesh must have laid down to rot and to crumble to its mother earth, to rise no more.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne09-006"
+  },
+  {
+   "id": "al34-011",
+   "scope": "BOM",
+   "head": "3 Ne. 9:19",
+   "anchor": {
+    "verse": 13,
+    "w1": 15,
+    "w2": 32,
+    "quote": "then shall there be, or it is expedient there should be, a stop to the shedding of blood;"
+   },
+   "reason": "the Lord ending the sacrifices himself",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 9,
+     "verse": 19,
+     "w1": 15,
+     "w2": 24,
+     "quote": "your sacrifices and your burnt offerings shall be done away,",
+     "verse_text": "And ye shall offer up unto me no more the shedding of blood; yea, your sacrifices and your burnt offerings shall be done away, for I will accept none of your sacrifices and your burnt offerings.",
+     "markdown": "And ye shall offer up unto me no more the shedding of blood; yea, **your sacrifices and your burnt offerings shall be done away**, for I will accept none of your sacrifices and your burnt offerings.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne09-007"
+  },
+  {
+   "id": "al34-012",
+   "scope": "BOM",
+   "head": "2 Ne. 11:4",
+   "anchor": {
+    "verse": 14,
+    "w1": 11,
+    "w2": 19,
+    "quote": "every whit pointing to that great and last sacrifice;"
+   },
+   "reason": "Nephi giving the law the same end",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 11,
+     "verse": 4,
+     "w1": 18,
+     "w2": 27,
+     "quote": "for this end hath the law of Moses been given;",
+     "verse_text": "Behold, my soul delighteth in proving unto my people the truth of the coming of Christ; for, for this end hath the law of Moses been given; and all things which have been given of God from the beginning of the world, unto man, are the typifying of him.",
+     "markdown": "Behold, my soul delighteth in proving unto my people the truth of the coming of Christ; for, **for this end hath the law of Moses been given**; and all things which have been given of God from the beginning of the world, unto man, are the typifying of him.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne11-006"
+  },
+  {
+   "id": "al34-013",
+   "scope": "BOM",
+   "head": "Mosiah 15:9",
+   "anchor": {
+    "verse": 16,
+    "w1": 6,
+    "w2": 9,
+    "quote": "the demands of justice,"
+   },
+   "reason": "Abinadi on who stands between men and justice",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 15,
+     "verse": 9,
+     "w1": 19,
+     "w2": 23,
+     "quote": "standing betwixt them and justice;",
+     "verse_text": "Having ascended into heaven, having the bowels of mercy; being filled with compassion towards the children of men; standing betwixt them and justice; having broken the bands of death, taken upon himself their iniquity and their transgressions, having redeemed them, and satisfied the demands of justice.",
+     "markdown": "Having ascended into heaven, having the bowels of mercy; being filled with compassion towards the children of men; **standing betwixt them and justice**; having broken the bands of death, taken upon himself their iniquity and their transgressions, having redeemed them, and satisfied the demands of justice.",
+     "span": true
+    }
+   ],
+   "mirror": "mos15-013"
+  },
+  {
+   "id": "al34-014",
+   "scope": "BOM",
+   "head": "Hel. 4:12",
+   "anchor": {
+    "verse": 28,
+    "w1": 26,
+    "w2": 41,
+    "quote": "if ye turn away the needy, and the naked, and visit not the sick and afflicted,"
+   },
+   "reason": "the same neglect listed among Nephite sins",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 4,
+     "verse": 12,
+     "w1": 26,
+     "w2": 37,
+     "quote": "withholding their food from the hungry, withholding their clothing from the naked,",
+     "verse_text": "And it was because of the pride of their hearts, because of their exceeding riches, yea, it was because of their oppression to the poor, withholding their food from the hungry, withholding their clothing from the naked, and smiting their humble brethren upon the cheek, making a mock of that which was sacred, denying the spirit of prophecy and of revelation, murdering, plundering, lying, stealing, committing adultery, rising up in great contentions, and deserting away into the land of Nephi, among the Lamanites—",
+     "markdown": "And it was because of the pride of their hearts, because of their exceeding riches, yea, it was because of their oppression to the poor, **withholding their food from the hungry, withholding their clothing from the naked**, and smiting their humble brethren upon the cheek, making a mock of that which was sacred, denying the spirit of prophecy and of revelation, murdering, plundering, lying, stealing, committing adultery, rising up in great contentions, and deserting away into the land of Nephi, among the Lamanites—",
+     "span": true
+    }
+   ],
+   "mirror": "hel04-006"
+  },
+  {
+   "id": "al34-015",
+   "scope": "BOM",
+   "head": "3 Ne. 24:5",
+   "anchor": {
+    "verse": 28,
+    "w1": 26,
+    "w2": 41,
+    "quote": "if ye turn away the needy, and the naked, and visit not the sick and afflicted,"
+   },
+   "reason": "Malachi naming the oppressed the Lord answers for",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 24,
+     "verse": 5,
+     "w1": 30,
+     "w2": 42,
+     "quote": "those that oppress the hireling in his wages, the widow and the fatherless,",
+     "verse_text": "And I will come near to you to judgment; and I will be a swift witness against the sorcerers, and against the adulterers, and against false swearers, and against those that oppress the hireling in his wages, the widow and the fatherless, and that turn aside the stranger, and fear not me, saith the Lord of Hosts.",
+     "markdown": "And I will come near to you to judgment; and I will be a swift witness against the sorcerers, and against the adulterers, and against false swearers, and against **those that oppress the hireling in his wages, the widow and the fatherless**, and that turn aside the stranger, and fear not me, saith the Lord of Hosts.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne24-006"
+  },
+  {
+   "id": "al34-016",
+   "scope": "BOM",
+   "head": "Hel. 12:22",
+   "anchor": {
+    "verse": 32,
+    "w1": 3,
+    "w2": 14,
+    "quote": "this life is the time for men to prepare to meet God;"
+   },
+   "reason": "Mormon on why repentance was declared at all",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 12,
+     "verse": 22,
+     "w1": 30,
+     "w2": 38,
+     "quote": "that men might be saved, hath repentance been declared.",
+     "verse_text": "And wo unto him to whom he shall say this, for it shall be unto him that will do iniquity, and he cannot be saved; therefore, for this cause, that men might be saved, hath repentance been declared.",
+     "markdown": "And wo unto him to whom he shall say this, for it shall be unto him that will do iniquity, and he cannot be saved; therefore, for this cause, **that men might be saved, hath repentance been declared**.",
+     "span": true
+    }
+   ],
+   "mirror": "hel12-007"
+  },
+  {
+   "id": "al34-017",
+   "scope": "BOM",
+   "head": "Hel. 13:38",
+   "anchor": {
+    "verse": 33,
+    "w1": 21,
+    "w2": 30,
+    "quote": "that ye do not procrastinate the day of your repentance"
+   },
+   "reason": "Samuel telling a people they already had",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 13,
+     "verse": 38,
+     "w1": 9,
+     "w2": 16,
+     "quote": "ye have procrastinated the day of your salvation",
+     "verse_text": "But behold, your days of probation are past; ye have procrastinated the day of your salvation until it is everlastingly too late, and your destruction is made sure; yea, for ye have sought all the days of your lives for that which ye could not obtain; and ye have sought for happiness in doing iniquity, which thing is contrary to the nature of that righteousness which is in our great and Eternal Head.",
+     "markdown": "But behold, your days of probation are past; **ye have procrastinated the day of your salvation** until it is everlastingly too late, and your destruction is made sure; yea, for ye have sought all the days of your lives for that which ye could not obtain; and ye have sought for happiness in doing iniquity, which thing is contrary to the nature of that righteousness which is in our great and Eternal Head.",
+     "span": true
+    }
+   ],
+   "mirror": "hel13-006"
+  },
+  {
+   "id": "al34-019",
+   "scope": "BOM",
+   "head": "Morm. 2:15",
+   "anchor": {
+    "verse": 35,
+    "w1": 3,
+    "w2": 14,
+    "quote": "if ye have procrastinated the day of your repentance even until death,"
+   },
+   "reason": "Mormon watching the day of grace pass",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 2,
+     "verse": 15,
+     "w1": 15,
+     "w2": 25,
+     "quote": "I saw that the day of grace was passed with them,",
+     "verse_text": "And it came to pass that my sorrow did return unto me again, and I saw that the day of grace was passed with them, both temporally and spiritually; for I saw thousands of them hewn down in open rebellion against their God, and heaped up as dung upon the face of the land. And thus three hundred and forty and four years had passed away.",
+     "markdown": "And it came to pass that my sorrow did return unto me again, and **I saw that the day of grace was passed with them**, both temporally and spiritually; for I saw thousands of them hewn down in open rebellion against their God, and heaped up as dung upon the face of the land. And thus three hundred and forty and four years had passed away.",
+     "span": true
+    }
+   ],
+   "mirror": "morm02-006"
   },
   {
    "id": "al34-007",
@@ -527,7 +866,7 @@
     "w2": 12,
     "quote": "he is mighty to save"
    },
-   "reason": "the phrase in Isaiah, spoken by the one coming from Edom",
+   "reason": "the phrase in Isaiah, spoken by one from Edom",
    "targets": [
     {
      "ref": "Isa.",
@@ -553,7 +892,7 @@
     "w2": 75,
     "quote": "your prayer is vain, and availeth you nothing"
    },
-   "reason": "James putting the same test to the same kind of words",
+   "reason": "James putting the same test to the same words",
    "targets": [
     {
      "ref": "James",
@@ -599,6 +938,24 @@
    ]
   },
   {
+   "verse": 12,
+   "w1": 21,
+   "w2": 32,
+   "quote": "an infinite atonement which will suffice for the sins of the world.",
+   "entries": [
+    "al34-010"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 15,
+   "w2": 32,
+   "quote": "then shall there be, or it is expedient there should be, a stop to the shedding of blood;",
+   "entries": [
+    "al34-011"
+   ]
+  },
+  {
    "verse": 13,
    "w1": 47,
    "w2": 50,
@@ -608,12 +965,40 @@
    ]
   },
   {
+   "verse": 14,
+   "w1": 11,
+   "w2": 19,
+   "quote": "every whit pointing to that great and last sacrifice;",
+   "entries": [
+    "al34-012"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 6,
+   "w2": 9,
+   "quote": "the demands of justice,",
+   "entries": [
+    "al34-013"
+   ]
+  },
+  {
    "verse": 18,
    "w1": 8,
    "w2": 12,
    "quote": "he is mighty to save",
    "entries": [
     "al34-008"
+   ]
+  },
+  {
+   "verse": 28,
+   "w1": 26,
+   "w2": 41,
+   "quote": "if ye turn away the needy, and the naked, and visit not the sick and afflicted,",
+   "entries": [
+    "al34-014",
+    "al34-015"
    ]
   },
   {
@@ -635,12 +1020,32 @@
    ]
   },
   {
+   "verse": 32,
+   "w1": 3,
+   "w2": 14,
+   "quote": "this life is the time for men to prepare to meet God;",
+   "entries": [
+    "al34-016"
+   ]
+  },
+  {
    "verse": 33,
    "w1": 21,
    "w2": 30,
    "quote": "that ye do not procrastinate the day of your repentance",
    "entries": [
-    "al34-003"
+    "al34-003",
+    "al34-018",
+    "al34-017"
+   ]
+  },
+  {
+   "verse": 35,
+   "w1": 3,
+   "w2": 14,
+   "quote": "if ye have procrastinated the day of your repentance even until death,",
+   "entries": [
+    "al34-019"
    ]
   },
   {
@@ -654,7 +1059,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "96973d122be8643f"
+  "at": "2026-09-07",
+  "source_sha256": "36aca23d04b61b29"
  }
 }

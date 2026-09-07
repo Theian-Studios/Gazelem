@@ -17,7 +17,7 @@
    "Inequality",
    "The word against the law"
   ],
-  "connections": 18,
+  "connections": 19,
   "initial": false
  },
  "world_behind": [
@@ -73,12 +73,12 @@
   {
    "term": "Consecrated",
    "verse_label": "v. 4",
-   "text": "Set apart to an office by a formal act. The chapter uses it twice and both are about handing authority along: Alma made high priest by the hand of his father, and teachers, priests and elders made by Alma. Two verses later the people so ordained are the ones grieving over what their congregation has become."
+   "text": "Set apart to an office by a formal act. Treated at 2 Nephi 1:7. The chapter uses it twice and both are about handing authority along: Alma made high priest by the hand of his father, and teachers, priests and elders made by Alma. Two verses later the people so ordained are the ones grieving over what their congregation has become."
   },
   {
    "term": "Wax",
    "verse_label": "v. 6",
-   "text": "To grow, to become. It is an intransitive verb about change over time. \"Wax proud\" appears once in scripture. The verb matters because it is gradual: nobody in verse 6 decides to be proud, and the eighth year arrives with the same people in it who were baptized in the seventh."
+   "text": "To grow, to become. Treated at 2 Nephi 7:9. It is an intransitive verb about change over time. \"Wax proud\" appears once in scripture. The verb matters because it is gradual: nobody in verse 6 decides to be proud, and the eighth year arrives with the same people in it who were baptized in the seventh."
   },
   {
    "term": "Scornful",
@@ -103,7 +103,19 @@
   {
    "term": "Craftiness",
    "verse_label": "v. 19",
-   "text": "Skill bent to deception. Alma sets out to pull down, by the word of God, all the pride and craftiness and all the contentions among his people. The record uses the noun five times; the Bible uses it five more, mostly of arguments made in bad faith. It is the vice of the capable."
+   "text": "Skill bent to deception. Treated at Mosiah 7:21. Alma sets out to pull down, by the word of God, all the pride and craftiness and all the contentions among his people. The record uses the noun five times; the Bible uses it five more, mostly of arguments made in bad faith. It is the vice of the capable.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 7:21",
+     "start": 36,
+     "end": 47,
+     "book": "Mosiah",
+     "chapter": 7,
+     "verse_start": 21,
+     "verse_end": 21
+    }
+   ]
   }
  ],
  "phrases": [
@@ -150,53 +162,44 @@
  ],
  "verses": [
   {
-   "label": "v. 1–3",
-   "start": 1,
-   "end": 3,
-   "title": "Peace, and grief",
-   "text": "No contentions and no wars in the sixth year, and the people greatly afflicted anyway: for brethren, for flocks and herds, for fields trodden under foot. Every soul had cause to mourn. They read the losses as the judgments of God on their own wickedness, and were awakened to a remembrance of their duty."
-  },
-  {
-   "label": "v. 4–5",
-   "start": 4,
+   "label": "v. 5",
+   "start": 5,
    "end": 5,
-   "title": "A revival, counted",
-   "text": "They establish the church more fully; many are baptized in the waters of Sidon by Alma, who holds the high priesthood from his father. The seventh year adds about three thousand five hundred souls, and the verse ends by reporting continual peace across the whole stretch. It is the only untroubled sentence in the chapter."
+   "title": "A conversion figure given to the nearest round number",
+   "text": "The record supplies a count: \"about three thousand five hundred souls that united themselves to the church of God and were baptized.\" Numbers of this kind are rare in these books, which usually report growth as multitudes or as the whole land. The hedge \"about\" is kept, and the figure is fixed to a single year, the seventh of the judges. It can be set against the census-style claims elsewhere, such as the twenty-three units of ten thousand at Mormon 6:10–15, as an example of the record counting when it chooses to."
   },
   {
-   "label": "v. 6–9",
-   "start": 6,
-   "end": 9,
-   "title": "The eighth year",
-   "text": "The people of the church begin to wax proud. Riches, silks, fine-twined linen, flocks, gold, silver, precious things, all obtained by their industry, and then very costly apparel. Alma and the priests he had consecrated are sorely grieved. Hearts set on riches and on the vain things of the world; scorn; persecution of those who believed differently; envyings, strife, malice, and pride exceeding the world's."
-  },
-  {
-   "label": "v. 10–12",
-   "start": 10,
-   "end": 12,
-   "title": "What the church cost the people outside it",
-   "text": "The eighth year closes with the congregation itself named as the obstacle, and with its growth halted. In the ninth year Alma sees his own people's example carrying unbelievers along from one piece of iniquity to another, and sees inequality he calls great: some lifted up, despising others, and a long list of the neglected."
-  },
-  {
-   "label": "v. 13–15",
-   "start": 13,
-   "end": 15,
-   "title": "The other half of the congregation",
-   "text": "Against the proud, the abasing: those succoring people in need, imparting substance to the poor, feeding the hungry, suffering afflictions for Christ's sake, looking forward to the day and thereby retaining a remission of their sins. Alma sees both halves. He becomes very sorrowful, and the Spirit does not fail him."
+   "label": "v. 9–10",
+   "start": 9,
+   "end": 10,
+   "title": "A comparison stated as a measurement",
+   "text": "The record does not say the church members were proud. It says their pride ran higher than the outsiders', \"even to exceed the pride of those who did not belong to the church of God.\" Verse 10 draws the practical consequence in the same comparative terms, that their wickedness \"was a great stumbling-block to those who did not belong to the church.\" Two verses in a row rank the inside against the outside and both times the inside comes off worse, which is an unusual direction for a record kept by the church's own high priest."
   },
   {
    "label": "v. 16–18",
    "start": 16,
    "end": 18,
-   "title": "Nephihah",
-   "text": "He selects a wise man from among the elders, and gives him power by the voice of the people to enact laws under the existing law and to enforce them. The man is named, appointed, and seated. Then the line that matters: Alma did not grant him the high priesthood. He kept that and handed over the bench."
+   "title": "An office split in two, with the mechanism named",
+   "text": "The record separates powers explicitly and reports how the appointment was made: a wise man was given power \"according to the voice of the people,\" which is the procedure established at Mosiah 29:26. Verse 17 supplies the name, Nephihah, and verse 18 states the division without ambiguity: \"Alma did not grant unto him the office of being high priest over the church, but he retained the office of high priest unto himself; but he delivered the judgment-seat unto Nephihah.\" Two offices, held together for eight years, are separated in a single verse.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 29:26",
+     "start": 186,
+     "end": 198,
+     "book": "Mosiah",
+     "chapter": 29,
+     "verse_start": 26,
+     "verse_end": 26
+    }
+   ]
   },
   {
    "label": "v. 19–20",
    "start": 19,
    "end": 20,
-   "title": "Why he did it",
-   "text": "So that he might go out among the people himself, preach, stir them up in remembrance of their duty, and pull down pride and craftiness and contention by the word of God, seeing no other way to reclaim them. He confines himself wholly to the high priesthood, to the testimony of the word, according to the spirit of revelation and prophecy."
+   "title": "A resignation with its reason stated as a last resort",
+   "text": "The record supplies the motive rather than leaving it to be inferred: he stepped down so that he might \"pull down, by the word of God, all the pride and craftiness and all the contentions,\" and the clause that follows makes it a judgment about available means, \"seeing no way that he might reclaim them save it were in bearing down in pure testimony against them.\" A man who has just given away the power to enact and enforce laws says in the same passage that laws will not fix the problem."
   }
  ],
  "chapter": [
@@ -233,7 +236,19 @@
   {
    "n": 7,
    "title": "The handover is orderly, voluntary, and partial",
-   "text": "He picks the man, the voice of the people confirms him, the powers are specified, and Alma keeps the priesthood. Two chapters earlier a losing faction answered a vote by crowning its own king. This transfer is the same machinery, working."
+   "text": "Four steps are recorded in three verses: selection, \"he selected a wise man who was among the elders of the church\"; confirmation, \"according to the voice of the people\"; the powers granted, \"to enact laws according to the laws which had been given, and to put them in force\"; and the reservation, \"Alma did not grant unto him the office of being high priest.\" Alma 2:1–9 has the same voice of the people rejecting Amlici, whose faction then \"did consecrate Amlici to be their king.\" The machinery that failed two chapters earlier is here reported working.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 2:1–9",
+     "start": 361,
+     "end": 371,
+     "book": "Alma",
+     "chapter": 2,
+     "verse_start": 1,
+     "verse_end": 9
+    }
+   ]
   },
   {
    "n": 8,
@@ -421,7 +436,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al31-010"
   },
   {
    "id": "al04-005",
@@ -473,7 +488,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al16-004"
   },
   {
    "id": "al04-003",
@@ -554,6 +569,32 @@
    "mirror": "al01-006"
   },
   {
+   "id": "al04-019",
+   "scope": "BOOK",
+   "head": "Alma 28:13",
+   "anchor": {
+    "verse": 12,
+    "w1": 2,
+    "w2": 8,
+    "quote": "he saw great inequality among the people,"
+   },
+   "reason": "the same phrase at the war's end",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 28,
+     "verse": 13,
+     "w1": 5,
+     "w2": 11,
+     "quote": "how great the inequality of man is",
+     "verse_text": "And thus we see how great the inequality of man is because of sin and transgression, and the power of the devil, which comes by the cunning plans which he hath devised to ensnare the hearts of men.",
+     "markdown": "And thus we see **how great the inequality of man is** because of sin and transgression, and the power of the devil, which comes by the cunning plans which he hath devised to ensnare the hearts of men.",
+     "span": true
+    }
+   ],
+   "mirror": "al28-002"
+  },
+  {
    "id": "al04-012",
    "scope": "BOM",
    "head": "4 Ne. 1:3",
@@ -577,7 +618,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "4ne01-002"
   },
   {
    "id": "al04-011",
@@ -603,7 +644,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel05-011"
   },
   {
    "id": "al04-010",
@@ -841,6 +882,7 @@
    "quote": "he saw great inequality among the people",
    "entries": [
     "al04-004",
+    "al04-019",
     "al04-012",
     "al04-007"
    ]
@@ -921,7 +963,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "f884b2e1f4f87b65"
+  "at": "2026-09-07",
+  "source_sha256": "35255b3856adb512"
  }
 }

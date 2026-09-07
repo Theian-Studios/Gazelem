@@ -14,16 +14,39 @@
   "unit": "The war chapters (Alma 43–63)",
   "principles": [
    "The record handed on twice in four years",
-   "A migration the record"
+   "A migration the record cannot follow",
+   "An account closed by naming three men"
   ],
-  "connections": 10,
+  "connections": 11,
   "initial": true
  },
  "world_behind": [
   {
    "n": 1,
    "title": "The record changes hands twice",
-   "text": "Verse 1 has Shiblon receiving the sacred things from Helaman's estate, and verse 11 has him passing them to Helaman's son before his own death."
+   "text": "Verse 1 has Shiblon receive the sacred things and verse 11 has him pass them to Helaman's son before his own death. Alma 37:1 and 2 is where Alma handed them to Helaman, and Alma 50:38 has Nephihah decline them; the custodianship changes hands three times in twenty-five chapters and never by default.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 37:1",
+     "start": 116,
+     "end": 125,
+     "book": "Alma",
+     "chapter": 37,
+     "verse_start": 1,
+     "verse_end": 1
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 50:38",
+     "start": 174,
+     "end": 184,
+     "book": "Alma",
+     "chapter": 50,
+     "verse_start": 38,
+     "verse_end": 38
+    }
+   ]
   },
   {
    "n": 2,
@@ -72,13 +95,23 @@
   {
    "term": "Uprightly",
    "verse_label": "v. 2",
-   "text": "To walk straight, without deviation. The record uses the word six times, including of Alma the elder at Mosiah 18:29 and of Helaman's armies at Alma 53:21. It is the whole description Shiblon receives.",
+   "text": "To walk straight, without deviation. Treated at Alma 45:24. The record uses the word six times, including of Alma the elder at Mosiah 18:29 and of Helaman's armies at Alma 53:21. It is the whole description Shiblon receives.",
    "refs": [
     {
      "kind": "scripture",
+     "text": "Alma 45:24",
+     "start": 48,
+     "end": 58,
+     "book": "Alma",
+     "chapter": 45,
+     "verse_start": 24,
+     "verse_end": 24
+    },
+    {
+     "kind": "scripture",
      "text": "Mosiah 18:29",
-     "start": 104,
-     "end": 116,
+     "start": 127,
+     "end": 139,
      "book": "Mosiah",
      "chapter": 18,
      "verse_start": 29,
@@ -87,8 +120,8 @@
     {
      "kind": "scripture",
      "text": "Alma 53:21",
-     "start": 144,
-     "end": 154,
+     "start": 167,
+     "end": 177,
      "book": "Alma",
      "chapter": 53,
      "verse_start": 21,
@@ -150,7 +183,7 @@
   {
    "term": "Shiblon took possession of those sacred things which had been delivered unto Helaman by Alma",
    "verse_label": "v. 1",
-   "text": "The line of custody stated in one sentence: Alma to Helaman, Helaman to Shiblon. Alma 37 records the charge that started it."
+   "text": "The line of custody stated in a single line: Alma to Helaman, Helaman to Shiblon. Alma 37 records the charge that started it."
   },
   {
    "term": "He was a just man, and he did walk uprightly before God",
@@ -229,46 +262,117 @@
  ],
  "verses": [
   {
-   "label": "v. 1–3",
-   "start": 1,
-   "end": 3,
-   "title": "The record passes, and Moroni dies",
-   "text": "Shiblon takes the sacred things in the thirty-sixth year. He is a just man who walks uprightly and does good continually, and his brother likewise. Moroni dies, and the year ends."
-  },
-  {
-   "label": "v. 4–6",
+   "label": "v. 4–7",
    "start": 4,
-   "end": 6,
-   "title": "The migration and the first ship",
-   "text": "In the thirty-seventh year five thousand four hundred men with families leave Zarahemla for the land northward. Hagoth, an exceedingly curious man, builds a large ship on the borders of Bountiful by Desolation and launches it into the west sea by the narrow neck. Many Nephites sail north with provisions."
+   "end": 7,
+   "title": "A shipbuilder, and the numbers around him",
+   "text": "The emigration is counted before the ships are described: \"a large company of men, even to the amount of five thousand and four hundred men, with their wives and their children.\" Then Hagoth, who is named once in the whole volume, in verse 5, and described with a word the volume uses of six things: \"an exceedingly curious man.\" The other five uses are of objects, the Liahona at 1 Ne. 16:10 and workmanship at Hel. 6:11 among them. A man is described here with an adjective the record otherwise reserves for craftsmanship.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 16:10",
+     "start": 381,
+     "end": 392,
+     "book": "1 Ne",
+     "chapter": 16,
+     "verse_start": 10,
+     "verse_end": 10
+    },
+    {
+     "kind": "scripture",
+     "text": "Hel. 6:11",
+     "start": 412,
+     "end": 421,
+     "book": "Hel",
+     "chapter": 6,
+     "verse_start": 11,
+     "verse_end": 11
+    }
+   ]
   },
   {
-   "label": "v. 7–9",
-   "start": 7,
-   "end": 9,
-   "title": "More ships, and the record's limit",
-   "text": "In the thirty-eighth year Hagoth builds more ships. The first returns, takes on more people and provisions, and sails again. Those are never heard of again, and Mormon supposes they drowned. Another ship's destination is unknown. Many others go north by land."
+   "label": "v. 8",
+   "start": 8,
+   "end": 8,
+   "title": "Ignorance stated, and the guess labelled as a guess",
+   "text": "The fate of the second voyage is given in two sentences that do different jobs: \"they were never heard of more. And we suppose that they were drowned in the depths of the sea.\" The first reports a limit on what is known. The second offers an inference and marks it with we suppose. The volume uses never heard of more of three parties, at Alma 45:18 for Alma himself, here, and at Hel. 16:8. Each time it is the record admitting a person or group left its field of view.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 45:18",
+     "start": 339,
+     "end": 349,
+     "book": "Alma",
+     "chapter": 45,
+     "verse_start": 18,
+     "verse_end": 18
+    },
+    {
+     "kind": "scripture",
+     "text": "Hel. 16:8",
+     "start": 381,
+     "end": 390,
+     "book": "Hel",
+     "chapter": 16,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
   },
   {
-   "label": "v. 10–13",
-   "start": 10,
-   "end": 13,
-   "title": "Shiblon dies and the record passes again",
-   "text": "In the thirty-ninth year Shiblon dies, with Corianton away in the north carrying provisions. Shiblon confers the sacred things on Helaman's son, also named Helaman. The engravings had been sent out among the people, apart from the reserved parts, and the sacred things are to be handed down."
+   "label": "v. 11",
+   "start": 11,
+   "end": 11,
+   "title": "A name explained because it repeats",
+   "text": "The transfer goes to \"the son of Helaman, who was called Helaman, being called after the name of his father.\" The relative clause exists only to prevent a confusion the record has created for itself, since two men in successive generations now carry one name. It is the same device used at 3 Ne. 5:12 for Mormon and at Hel. 5:6 for Nephi and Lehi: a name is explained by pointing at the person it came from.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "3 Ne. 5:12",
+     "start": 290,
+     "end": 300,
+     "book": "3 Ne",
+     "chapter": 5,
+     "verse_start": 12,
+     "verse_end": 12
+    },
+    {
+     "kind": "scripture",
+     "text": "Hel. 5:6",
+     "start": 319,
+     "end": 327,
+     "book": "Hel",
+     "chapter": 5,
+     "verse_start": 6,
+     "verse_end": 6
+    }
+   ]
   },
   {
-   "label": "v. 14–16",
-   "start": 14,
-   "end": 16,
-   "title": "A last attack",
-   "text": "Dissenters who had gone over to the Lamanites stir them to anger. A numerous army comes against Moronihah and is beaten and driven back with great loss, and the thirty-ninth year ends."
+   "label": "v. 12",
+   "start": 12,
+   "end": 12,
+   "title": "Publication, with the redaction named",
+   "text": "The record states its own distribution policy and its own exception: \"all those engravings which were in the possession of Helaman were written and sent forth among the children of men throughout all the land, save it were those parts which had been commanded by Alma should not go forth.\" The excepted material is identified at Alma 37:27, where Alma tells his son to retain the secret oaths and signs and keep them from the people. Everything else is published. A record that has just described its own custody now describes what it withheld and points to the order that withheld it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 37:27",
+     "start": 329,
+     "end": 339,
+     "book": "Alma",
+     "chapter": 37,
+     "verse_start": 27,
+     "verse_end": 27
+    }
+   ]
   },
   {
    "label": "v. 17",
    "start": 17,
    "end": 17,
-   "title": "The account closes",
-   "text": "Mormon ends the account of Alma, Helaman his son, and Shiblon his son."
+   "title": "A closing line naming three generations",
+   "text": "The book ends on a sentence with no event in it: \"And thus ended the account of Alma, and Helaman his son, and also Shiblon, who was his son.\" Three men are named in order of descent, and the account is attributed to all three jointly. The book carries the first one's name, though the preceding thirty chapters have been largely about other people, and the closing line quietly says why: the record was kept by that family across three holders."
   }
  ],
  "chapter": [
@@ -362,19 +466,39 @@
  "world_in_front": {
   "applications": [
    {
-    "title": "Hand it on before you have to",
-    "verse_label": "v. 11",
-    "text": "Shiblon conferred the record before his death rather than leaving it to be found. Decide now who takes what you are carrying."
+    "title": "Let a good record be short",
+    "verse_label": "v. 2",
+    "text": "Shiblon's whole life fits in one verse about how he walked. Being described accurately matters more than being described at length."
+   },
+   {
+    "title": "Notice when people leave in numbers",
+    "verse_label": "v. 4",
+    "text": "The record counts five thousand and four hundred men, with their wives and children, departing Zarahemla for the land northward. A steady exit is information about the place people are leaving, not only about the place they are headed."
+   },
+   {
+    "title": "Let curiosity build something",
+    "verse_label": "v. 5",
+    "text": "Hagoth is introduced as an exceedingly curious man, and the same sentence has him building an exceedingly large ship. The record passes no judgment on the impulse and simply reports what it produced."
+   },
+   {
+    "title": "One success is not a sample",
+    "verse_label": "v. 7",
+    "text": "The first ship returned safely, so more people boarded it and set out again, and they were never heard of more. Before you scale up on the strength of a single result, count how many people the second attempt puts at risk."
    },
    {
     "title": "Say \"we suppose\" when you are supposing",
     "verse_label": "v. 8",
-    "text": "Mormon reported the disappearance as fact and the drowning as a guess. Keeping the two apart in one sentence is a skill worth practicing."
+    "text": "Mormon reported the disappearance as fact and the drowning as a guess. Keeping the two apart in one breath is a skill worth practicing."
    },
    {
-    "title": "Let a good record be short",
-    "verse_label": "v. 2",
-    "text": "Shiblon's whole life fits in one verse about how he walked. Being described accurately matters more than being described at length."
+    "title": "Keep the supply line to the people who left",
+    "verse_label": "v. 10",
+    "text": "Corianton went north by ship carrying provisions to those who had gone into that land. When people move away from the community, someone has to keep the connection stocked and open, and that is a job worth naming out loud."
+   },
+   {
+    "title": "Hand it on before you have to",
+    "verse_label": "v. 11",
+    "text": "Shiblon conferred the record before his death rather than leaving it to be found. Decide now who takes what you are carrying."
    },
    {
     "title": "Keep the restriction you were given",
@@ -393,7 +517,7 @@
     "verse_label": "v. 2",
     "start": 2,
     "end": 2,
-    "text": "If my life were summarized in one sentence about conduct, what would it say?"
+    "text": "If my life were summarized in a single line about conduct, what would it say?"
    },
    {
     "verse_label": "v. 3",
@@ -452,7 +576,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al37-013"
   },
   {
    "id": "al63-002",
@@ -478,7 +602,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al48-013"
   },
   {
    "id": "al63-003",
@@ -490,7 +614,7 @@
     "w2": 35,
     "quote": "on the borders of the land Bountiful, by the land Desolation"
    },
-   "reason": "the two lands named and placed, north and south of each other",
+   "reason": "the two lands named and placed, north and south",
    "targets": [
     {
      "ref": "Alma",
@@ -504,7 +628,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al22-014"
   },
   {
    "id": "al63-004",
@@ -530,7 +654,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al50-011"
   },
   {
    "id": "al63-005",
@@ -542,7 +666,7 @@
     "w2": 32,
     "quote": "Corianton had gone forth to the land northward in a ship"
    },
-   "reason": "the charge Alma gave this son at the end of the sermon on mercy",
+   "reason": "the charge Alma gave this son, closing the mercy sermon",
    "targets": [
     {
      "ref": "Alma",
@@ -556,7 +680,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al42-011"
   },
   {
    "id": "al63-006",
@@ -582,7 +706,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al62-015"
   },
   {
    "id": "al63-007",
@@ -594,7 +718,7 @@
     "w2": 41,
     "quote": "save it were those parts which had been commanded by Alma should not go forth"
    },
-   "reason": "the command that placed the records in Helaman's hands with conditions",
+   "reason": "the command that placed the records in Helaman's hands",
    "targets": [
     {
      "ref": "Alma",
@@ -608,7 +732,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al37-010"
+  },
+  {
+   "id": "al63-011",
+   "scope": "BOOK",
+   "head": "Alma 37:1",
+   "anchor": {
+    "verse": 1,
+    "w1": 31,
+    "w2": 41,
+    "quote": "those sacred things which had been delivered unto Helaman by Alma."
+   },
+   "reason": "the charge Alma gave when he handed them over",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 37,
+     "verse": 1,
+     "w1": 10,
+     "w2": 19,
+     "quote": "ye take the records which have been entrusted with me;",
+     "verse_text": "And now, my son Helaman, I command you that ye take the records which have been entrusted with me;",
+     "markdown": "And now, my son Helaman, I command you that **ye take the records which have been entrusted with me**;",
+     "span": true
+    }
+   ],
+   "mirror": "al37-002"
   },
   {
    "id": "al63-008",
@@ -646,7 +796,7 @@
     "w2": 31,
     "quote": "the son of Helaman, who was called Helaman, being called after the name of his father"
    },
-   "reason": "the same man taking the judgment-seat by the voice of the people",
+   "reason": "the same man taking the seat by the people's voice",
    "targets": [
     {
      "ref": "Hel.",
@@ -660,7 +810,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel02-008"
   },
   {
    "id": "al63-010",
@@ -672,7 +822,7 @@
     "w2": 46,
     "quote": "whither she did go we know not"
    },
-   "reason": "the line drawn between what is disclosed and what is not",
+   "reason": "the line drawn between what is disclosed and withheld",
    "targets": [
     {
      "ref": "Deut.",
@@ -696,7 +846,8 @@
    "w2": 41,
    "quote": "those sacred things which had been delivered unto Helaman by Alma",
    "entries": [
-    "al63-001"
+    "al63-001",
+    "al63-011"
    ]
   },
   {
@@ -774,7 +925,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "56c2a7e911771e22"
+  "at": "2026-09-07",
+  "source_sha256": "143633179d3a8b4a"
  }
 }

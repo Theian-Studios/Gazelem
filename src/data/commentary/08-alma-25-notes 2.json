@@ -1,0 +1,640 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 25,
+  "volume_order": "08",
+  "speakers": [
+   "Mormon, abridging",
+   "Abinadi, quoted"
+  ],
+  "audience": "Readers of the record",
+  "location": "Ammonihah, the east wilderness, Ishmael and Nephi",
+  "date": "~90–77 BC",
+  "unit": "The sons of Mosiah among the Lamanites (Alma 17–26)",
+  "principles": [
+   "A prophecy verified over two generations",
+   "Conversion under"
+  ],
+  "connections": 9,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The vengeance changes targets",
+   "text": "Verse 1 says the Lamanites grew angrier over their own killing at Alma 24 and swore vengeance on the Nephites instead. The converts stop being the enemy because the attackers cannot bear what they did."
+  },
+  {
+   "n": 2,
+   "title": "Ammonihah falls here",
+   "text": "Verse 2 has the army destroy the people in the land of Ammonihah. Alma 16 gave the same destruction from the Nephite side, in the eleventh year of the judges, and Alma 9 had warned them it would come."
+  },
+  {
+   "n": 3,
+   "title": "The priests of Noah end in this chapter",
+   "text": "Verse 4 says almost all the seed of Amulon died in the Nephite wars. The line that began in Mosiah 11 closes seventy years later, at the hands of the people they fled from."
+  },
+  {
+   "n": 4,
+   "title": "The survivors seized power over the Lamanites",
+   "text": "Verse 5 has the remnant usurp authority in the east wilderness and burn believers. Their last recorded act is the crime their fathers committed against Abinadi."
+  },
+  {
+   "n": 5,
+   "title": "Aaron's preaching keeps working after he is gone",
+   "text": "Verse 6 has Lamanites remembering his words under the pressure of loss, and converting in the wilderness with no missionary present."
+  },
+  {
+   "n": 6,
+   "title": "Mormon writes \"at this day.\"",
+   "text": "Verse 9 says the seed of the priests are hunted at this day by the Lamanites. He is writing roughly four centuries later and reporting the hunt as current."
+  },
+  {
+   "n": 7,
+   "title": "The converts keep the law of Moses",
+   "text": "Verses 15 and 16 explain why: the law was unfulfilled, it was a type of the coming, and it strengthened faith in Christ. Mormon supplies the doctrine because his own readers live after the fulfillment."
+  }
+ ],
+ "words": [
+  {
+   "term": "Usurped",
+   "verse_label": "v. 5",
+   "text": "To seize authority that belongs to someone else. The word appears twice in this record and never in the King James Bible; the other use is Helaman 7, of judges who took the judgment seats. Here the last of Noah's priests take the government of a nation that had sheltered them."
+  },
+  {
+   "term": "Martyrdom",
+   "verse_label": "v. 8",
+   "text": "Death suffered for belief. The record uses the word twice: in Alma 14, of the place where the believers of Ammonihah were burned, and here, of the Lamanites burned in the wilderness. Both fires were lit by men of the same order."
+  },
+  {
+   "term": "Type",
+   "verse_label": "v. 10",
+   "text": "A thing that stands for another thing still to come. It appears seven times in this record and never in this sense in the King James Bible. Abinadi used it of his own death; Mormon uses it four verses later of the law of Moses. The same word carries a man's execution and a whole legal system."
+  },
+  {
+   "term": "Verified",
+   "verse_label": "v. 12",
+   "text": "Proved true by event. The record uses it seven times, twice in this chapter. Verse 12 verifies Abinadi's prophecy against the priests, and verse 17 verifies God's word to the sons of Mosiah. Mormon closes both threads with the same verb."
+  },
+  {
+   "term": "Statutes",
+   "verse_label": "v. 14",
+   "text": "Fixed ordinances, the standing law. The word occurs thirteen times in this record and a hundred and thirty-two in the King James Bible, where it is the routine vocabulary of the covenant with Israel. Mormon applies it to new Lamanite converts keeping the law of Moses."
+  },
+  {
+   "term": "Performances",
+   "verse_label": "v. 15",
+   "text": "Acts required and carried out. The phrase \"outward performances\" (v. 15) appears once in scripture. It names the part of the law that was visible and temporary, kept until the thing it pointed at should be revealed.",
+   "cites": [
+    {
+     "quote": "outward performances",
+     "verse": 15,
+     "start": 42,
+     "end": 72,
+     "spans": [
+      {
+       "w1": 64,
+       "w2": 65,
+       "text": "outward performances"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Those Lamanites were more angry because they had slain their brethren",
+   "verse_label": "v. 1",
+   "text": "Guilt turned outward. The killing at Alma 24 made them angrier at somebody else, and they went to war with the Nephites over what they had done to their own people. Mormon states the mechanism without explaining it."
+  },
+  {
+   "term": "Fell upon the people who were in the land of Ammonihah and destroyed them",
+   "verse_label": "v. 2",
+   "text": "The end of the city Alma and Amulek were driven out of. Alma 9 had promised it and Alma 16 recorded it. Here the same event arrives as a line in a Lamanite war log."
+  },
+  {
+   "term": "Almost all the seed of Amulon and his brethren, who were the priests of Noah",
+   "verse_label": "v. 4",
+   "text": "Mormon identifies the casualties by their grandfathers. He wants the reader to connect a battlefield count in Alma with a court in Mosiah 11, and he supplies the link inside the sentence."
+  },
+  {
+   "term": "Stirred up in remembrance of the words which Aaron and his brethren had preached",
+   "verse_label": "v. 6",
+   "text": "Loss brought back a sermon. These are Lamanites who heard Aaron in their own land, did nothing, and then remembered under affliction. The preaching worked on a delay nobody could have measured."
+  },
+  {
+   "term": "Behold they are hunted at this day by the Lamanites",
+   "verse_label": "v. 9",
+   "text": "Mormon drops into the present tense. He is writing centuries after the events and telling the reader the consequence is still running while he writes."
+  },
+  {
+   "term": "What ye shall do unto me shall be a type of things to come",
+   "verse_label": "v. 10",
+   "text": "Abinadi's line, quoted back at the moment it comes true. He told the priests their treatment of him would be a pattern. Mormon prints the prophecy and the fulfillment on the same page."
+  },
+  {
+   "term": "Even as a sheep having no shepherd is driven and slain by wild beasts",
+   "verse_label": "v. 12",
+   "text": "Abinadi's image for the priests' descendants, and Christ's image for the multitudes he pitied. The same picture carries compassion in Matthew and judgment in Mosiah, depending on who is looking at the flock."
+  },
+  {
+   "term": "They did also bury their weapons of war, according as their brethren had",
+   "verse_label": "v. 14",
+   "text": "A second burial, by a second group, on the pattern of the first. The covenant of Alma 24 becomes something new arrivals adopt when they join, and the record notes it as a matter of course."
+  },
+  {
+   "term": "It was expedient that they should keep the law of Moses as yet, for it was not all fulfilled",
+   "verse_label": "v. 15",
+   "text": "Mormon explains a practice his readers no longer follow. The law had a term, and these converts were inside it. He is careful to date the obligation instead of treating it as permanent."
+  },
+  {
+   "term": "The law of Moses did serve to strengthen their faith in Christ",
+   "verse_label": "v. 16",
+   "text": "The purpose of the observance, stated plainly. Paul called the law a schoolmaster leading to Christ; Mormon says it strengthened a faith that was already pointed forward. The performances were training for something named."
+  },
+  {
+   "term": "He had also verified his word unto them in every particular",
+   "verse_label": "v. 17",
+   "text": "The chapter closes on the promise made to Mosiah about his sons. Every clause held: they were preserved, many believed, and they came home. Mormon audits the promise item by item."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–3",
+   "start": 1,
+   "end": 3,
+   "title": "Vengeance redirected",
+   "text": "The Lamanites grow angrier over their own slaughter of the converts, swear vengeance on the Nephites, and leave the people of Anti-Nephi-Lehi alone. They destroy Ammonihah, then lose battle after battle."
+  },
+  {
+   "label": "v. 4–5",
+   "start": 4,
+   "end": 5,
+   "title": "The priests' line ends",
+   "text": "Almost all the seed of Amulon die at Nephite hands. The survivors flee into the east wilderness, seize authority over the Lamanites there, and burn believers alive."
+  },
+  {
+   "label": "v. 6–8",
+   "start": 6,
+   "end": 8,
+   "title": "Converts in the wilderness",
+   "text": "Affliction brings Aaron's preaching back to mind, and many believe without a missionary present. The rulers put the believers to death. The martyrdom enrages other Lamanites, who begin hunting the sons of Amulon."
+  },
+  {
+   "label": "v. 9–12",
+   "start": 9,
+   "end": 12,
+   "title": "Abinadi verified",
+   "text": "Mormon says the hunt continues in his own day, then quotes Abinadi twice: the type of things to come, and the prophecy that the priests' seed would burn others and be scattered like sheep with no shepherd. Both came true."
+  },
+  {
+   "label": "v. 13–14",
+   "start": 13,
+   "end": 14,
+   "title": "The Lamanites join",
+   "text": "Unable to overpower the Nephites, they go home, and many settle in Ishmael and Nephi with the people of Anti-Nephi-Lehi. They bury their weapons on the same pattern and keep the commandments and statutes."
+  },
+  {
+   "label": "v. 15–16",
+   "start": 15,
+   "end": 16,
+   "title": "The law and the hope",
+   "text": "They kept the law of Moses because it was unfulfilled, treating it as a type of the coming and its performances as temporary. Mormon adds that they never supposed salvation came from the law itself."
+  },
+  {
+   "label": "v. 17",
+   "start": 17,
+   "end": 17,
+   "title": "The sons of Mosiah rejoice",
+   "text": "Ammon, Aaron, Omner, and Himni see their prayers answered and God's word verified in every particular. The verse sets up the psalm of Alma 26."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "Guilt becomes a war",
+   "text": "The men who killed a thousand and five praying people got angrier and marched on somebody else. Mormon records the sequence and lets the reader see what unaddressed guilt did with itself."
+  },
+  {
+   "n": 2,
+   "title": "Ammonihah's fall arrives as a footnote",
+   "text": "Nine chapters of warning, refusal, and burning end in half a verse inside a Lamanite campaign summary. The record has already given that city its full treatment and declines to repeat it."
+  },
+  {
+   "n": 3,
+   "title": "Abinadi is the chapter's real subject",
+   "text": "Two prophecies, both quoted, both verified, seventy years after the fire. Mormon interrupts a war narrative to close a thread from Mosiah."
+  },
+  {
+   "n": 4,
+   "title": "The priests' descendants repeat the crime exactly",
+   "text": "Their fathers burned a prophet for his belief; they burn Lamanite converts for theirs. Alma 24 said knowledge abandoned leaves a man worse, and this is the case in front of the reader."
+  },
+  {
+   "n": 5,
+   "title": "Preaching pays out late",
+   "text": "Aaron's words did nothing when he said them and converted a wilderness after loss softened the hearers. The record credits the sermon that seemed to fail."
+  },
+  {
+   "n": 6,
+   "title": "The covenant spreads by adoption",
+   "text": "New arrivals bury their weapons because the people they joined had done it. What began as one nation's decision becomes the entry rite of a growing community."
+  },
+  {
+   "n": 7,
+   "title": "Mormon dates the law",
+   "text": "He tells his own readers why people in this account kept observances his readers do not, and he supplies the reason in the text rather than leaving it to be assumed."
+  },
+  {
+   "n": 8,
+   "title": "The chapter audits a promise",
+   "text": "God told Mosiah his sons would be delivered and many would believe. Verse 17 checks the promise against the outcome and finds it verified in every particular."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Watch where your guilt aims",
+    "verse_label": "v. 1",
+    "text": "These men got angrier at strangers because of what they had done to their own. When you find your irritation rising at someone uninvolved, check what you have recently done that you have not dealt with."
+   },
+   {
+    "title": "Keep preaching to people who are not listening",
+    "verse_label": "v. 6",
+    "text": "Aaron got nothing from these Lamanites at the time, and they converted years later remembering him. Say the true thing to the person who seems unmoved, and let the delay be someone else's business."
+   },
+   {
+    "title": "Name why you keep the practice",
+    "verse_label": "v. 15",
+    "text": "These converts knew the law was a type and the performances were temporary. For a habit you keep on principle, be able to say what it is for; if you cannot, that is worth finding out."
+   },
+   {
+    "title": "Check the promise against the outcome",
+    "verse_label": "v. 17",
+    "text": "Mormon says God's word was verified in every particular. Take a promise you were given, write down what it actually said, and go through it line by line against what happened."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What am I angry about that is really about me?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What am I building that my grandchildren will be identified by?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "What did someone tell me years ago that I have only recently started to believe?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What consequence of an old choice is still running in my life today?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "When have I been the flock and when have I been the beast?"
+   },
+   {
+    "verse_label": "v. 14",
+    "start": 14,
+    "end": 14,
+    "text": "What did I adopt because the people I joined were already doing it, and was that good?"
+   },
+   {
+    "verse_label": "v. 16",
+    "start": 16,
+    "end": 16,
+    "text": "What in my practice is training for something, and do I still remember what?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al25-001",
+   "scope": "BOOK",
+   "head": "Alma 16:9",
+   "anchor": {
+    "verse": 2,
+    "w1": 20,
+    "w2": 28,
+    "quote": "the people who were in the land of Ammonihah"
+   },
+   "reason": "the same destruction, dated and counted from the Nephite side",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 16,
+     "verse": 9,
+     "w1": 20,
+     "w2": 25,
+     "quote": "the people of Ammonihah were destroyed;",
+     "verse_text": "And thus ended the eleventh year of the judges, the Lamanites having been driven out of the land, and the people of Ammonihah were destroyed; yea, every living soul of the Ammonihahites was destroyed, and also their great city, which they said God could not destroy, because of its greatness.",
+     "markdown": "And thus ended the eleventh year of the judges, the Lamanites having been driven out of the land, and **the people of Ammonihah were destroyed**; yea, every living soul of the Ammonihahites was destroyed, and also their great city, which they said God could not destroy, because of its greatness.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al25-002",
+   "scope": "BOOK",
+   "head": "Alma 14:9",
+   "anchor": {
+    "verse": 8,
+    "w1": 1,
+    "w2": 3,
+    "quote": "Now this martyrdom"
+   },
+   "reason": "the record’s only other use of the word, at the Ammonihah fire",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 14,
+     "verse": 9,
+     "w1": 13,
+     "w2": 20,
+     "quote": "carried them forth to the place of martyrdom,",
+     "verse_text": "And it came to pass that they took Alma and Amulek, and carried them forth to the place of martyrdom, that they might witness the destruction of those who were consumed by fire.",
+     "markdown": "And it came to pass that they took Alma and Amulek, and **carried them forth to the place of martyrdom**, that they might witness the destruction of those who were consumed by fire.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al25-003",
+   "scope": "BOOK",
+   "head": "Alma 24:17",
+   "anchor": {
+    "verse": 14,
+    "w1": 2,
+    "w2": 9,
+    "quote": "they did also bury their weapons of war"
+   },
+   "reason": "the burial these converts are copying",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 24,
+     "verse": 17,
+     "w1": 43,
+     "w2": 51,
+     "quote": "they did bury them up deep in the earth.",
+     "verse_text": "And now it came to pass that when the king had made an end of these sayings, and all the people were assembled together, they took their swords, and all the weapons which were used for the shedding of man's blood, and they did bury them up deep in the earth.",
+     "markdown": "And now it came to pass that when the king had made an end of these sayings, and all the people were assembled together, they took their swords, and all the weapons which were used for the shedding of man's blood, and **they did bury them up deep in the earth**.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al25-004",
+   "scope": "BOOK",
+   "head": "Alma 5:37",
+   "anchor": {
+    "verse": 12,
+    "w1": 36,
+    "w2": 42,
+    "quote": "even as a sheep having no shepherd"
+   },
+   "reason": "Alma using the same figure of his own people in Zarahemla",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 5,
+     "verse": 37,
+     "w1": 33,
+     "w2": 37,
+     "quote": "as sheep having no shepherd,",
+     "verse_text": "O ye workers of iniquity; ye that are puffed up in the vain things of the world, ye that have professed to have known the ways of righteousness nevertheless have gone astray, as sheep having no shepherd, notwithstanding a shepherd hath called after you and is still calling after you, but ye will not hearken unto his voice!",
+     "markdown": "O ye workers of iniquity; ye that are puffed up in the vain things of the world, ye that have professed to have known the ways of righteousness nevertheless have gone astray, **as sheep having no shepherd**, notwithstanding a shepherd hath called after you and is still calling after you, but ye will not hearken unto his voice!",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al25-005",
+   "scope": "BOM",
+   "head": "Mosiah 13:10",
+   "anchor": {
+    "verse": 10,
+    "w1": 12,
+    "w2": 19,
+    "quote": "shall be a type of things to come"
+   },
+   "reason": "Abinadi saying it to the priests, in the fuller wording",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 13,
+     "verse": 10,
+     "w1": 17,
+     "w2": 27,
+     "quote": "a type and a shadow of things which are to come.",
+     "verse_text": "But this much I tell you, what you do with me, after this, shall be as a type and a shadow of things which are to come.",
+     "markdown": "But this much I tell you, what you do with me, after this, shall be as **a type and a shadow of things which are to come**.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al25-006",
+   "scope": "BOM",
+   "head": "Mosiah 17:15",
+   "anchor": {
+    "verse": 11,
+    "w1": 25,
+    "w2": 30,
+    "quote": "many should suffer death by fire"
+   },
+   "reason": "the sentence Abinadi pronounced on the priests’ descendants",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 17,
+     "verse": 15,
+     "w1": 16,
+     "w2": 23,
+     "quote": "thy seed shall cause that many shall suffer",
+     "verse_text": "Behold, even as ye have done unto me, so shall it come to pass that thy seed shall cause that many shall suffer the pains that I do suffer, even the pains of death by fire; and this because they believe in the salvation of the Lord their God.",
+     "markdown": "Behold, even as ye have done unto me, so shall it come to pass that **thy seed shall cause that many shall suffer** the pains that I do suffer, even the pains of death by fire; and this because they believe in the salvation of the Lord their God.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al25-007",
+   "scope": "SW",
+   "head": "Matt. 9:36",
+   "anchor": {
+    "verse": 12,
+    "w1": 36,
+    "w2": 42,
+    "quote": "even as a sheep having no shepherd"
+   },
+   "reason": "Christ’s use of the figure, with compassion instead of judgment",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 9,
+     "verse": 36,
+     "w1": 21,
+     "w2": 25,
+     "quote": "as sheep having no shepherd.",
+     "verse_text": "But when he saw the multitudes, he was moved with compassion on them, because they fainted, and were scattered abroad, as sheep having no shepherd.",
+     "markdown": "But when he saw the multitudes, he was moved with compassion on them, because they fainted, and were scattered abroad, **as sheep having no shepherd**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al25-008",
+   "scope": "SW",
+   "head": "Heb. 10:1",
+   "anchor": {
+    "verse": 15,
+    "w1": 47,
+    "w2": 56,
+    "quote": "the law of Moses was a type of his coming"
+   },
+   "reason": "the same relation between the law and what it pointed at",
+   "targets": [
+    {
+     "ref": "Heb.",
+     "chapter": 10,
+     "verse": 1,
+     "w1": 2,
+     "w2": 11,
+     "quote": "the law having a shadow of good things to come,",
+     "verse_text": "For the law having a shadow of good things to come, and not the very image of the things, can never with those sacrifices which they offered year by year continually make the comers thereunto perfect.",
+     "markdown": "For **the law having a shadow of good things to come**, and not the very image of the things, can never with those sacrifices which they offered year by year continually make the comers thereunto perfect.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al25-009",
+   "scope": "SW",
+   "head": "Gal. 3:24",
+   "anchor": {
+    "verse": 16,
+    "w1": 15,
+    "w2": 26,
+    "quote": "the law of Moses did serve to strengthen their faith in Christ"
+   },
+   "reason": "Paul’s account of what the law was for",
+   "targets": [
+    {
+     "ref": "Gal.",
+     "chapter": 3,
+     "verse": 24,
+     "w1": 2,
+     "w2": 11,
+     "quote": "the law was our schoolmaster to bring us unto Christ,",
+     "verse_text": "Wherefore the law was our schoolmaster to bring us unto Christ, that we might be justified by faith.",
+     "markdown": "Wherefore **the law was our schoolmaster to bring us unto Christ**, that we might be justified by faith.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 20,
+   "w2": 28,
+   "quote": "the people who were in the land of Ammonihah",
+   "entries": [
+    "al25-001"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 1,
+   "w2": 3,
+   "quote": "Now this martyrdom",
+   "entries": [
+    "al25-002"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 12,
+   "w2": 19,
+   "quote": "shall be a type of things to come",
+   "entries": [
+    "al25-005"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 25,
+   "w2": 30,
+   "quote": "many should suffer death by fire",
+   "entries": [
+    "al25-006"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 36,
+   "w2": 42,
+   "quote": "even as a sheep having no shepherd",
+   "entries": [
+    "al25-004",
+    "al25-007"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 2,
+   "w2": 9,
+   "quote": "they did also bury their weapons of war",
+   "entries": [
+    "al25-003"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 47,
+   "w2": 56,
+   "quote": "the law of Moses was a type of his coming",
+   "entries": [
+    "al25-008"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 15,
+   "w2": 26,
+   "quote": "the law of Moses did serve to strengthen their faith in Christ",
+   "entries": [
+    "al25-009"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "c0f7ca0a3ae91858"
+ }
+}

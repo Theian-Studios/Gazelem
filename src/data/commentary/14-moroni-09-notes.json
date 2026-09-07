@@ -1,0 +1,704 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Moroni",
+  "book_slug": "moroni",
+  "chapter": 9,
+  "volume_order": "14",
+  "speakers": [
+   "Mormon"
+  ],
+  "audience": "Moroni",
+  "location": "The field, with the Lamanite armies between him and Sherrizah",
+  "date": "Late in the Nephite wars, after a lost battle",
+  "unit": "Mormon's second epistle, on a people past feeling (Moroni 9)",
+  "principles": [
+   "Labor required whatever the result",
+   "An honest count of one's own side",
+   "A letter that ends somewhere other than where it began"
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "This is the second of two letters kept whole",
+   "text": "Moroni 8:1 says the first came soon after Moroni's calling to the ministry; verse 1 here opens with proof that his father is still alive. Both are preserved in his son's book rather than in Mormon's own, which is why they survive at all."
+  },
+  {
+   "n": 2,
+   "title": "Five names in this letter appear nowhere else",
+   "text": "Archeantus, Luram and Emron among the fallen at verse 2, Amoron as the source at verse 7, and Zenephi commanding at verse 16. Sherrizah and Moriantum are likewise single-occurrence places. A private letter carries a whole roster the abridged history had no room for."
+  },
+  {
+   "n": 3,
+   "title": "The information is secondhand and marked as such",
+   "text": "Verse 7 credits Amoron for what he knows about the prisoners taken from the tower of Sherrizah. Mormon is reporting an atrocity he did not witness and says whose account it is."
+  },
+  {
+   "n": 4,
+   "title": "The change was recent enough to date",
+   "text": "Verse 12 puts only a few years between this and a civil and delightsome people. Mormon 2:8 has the land already full of robbers by the three hundred and twenty-seventh year, so the window he means is the span of his own command."
+  },
+  {
+   "n": 5,
+   "title": "The Jaredite comparison is not loose",
+   "text": "Verse 23 measures his own people against the Jaredites and names the same cause in both: wilful hearts that sought blood and revenge. Moroni had abridged Ether 14 and 15 before writing this book down, so the reader has the comparison in hand."
+  },
+  {
+   "n": 6,
+   "title": "He has records to hand over",
+   "text": "Verse 24 says he holds sacred records he would deliver to his son. Mormon 6:6 has him doing it at Cumorah, giving Moroni a few plates and burying the rest in the hill."
+  }
+ ],
+ "words": [
+  {
+   "term": "Sharpness",
+   "verse_label": "v. 4",
+   "text": "Severity in speech. Treated at 2 Nephi 1:26. The record uses the word six times and the King James Bible once, at 2 Corinthians 13:10."
+  },
+  {
+   "term": "Tabernacle",
+   "verse_label": "v. 6",
+   "text": "A tent, and so a figure for the body. Treated at 2 Nephi 14:6. It appears four times in the record, and the King James Bible three hundred and twenty-eight, nearly all of the structure in the wilderness."
+  },
+  {
+   "term": "Chastity",
+   "verse_label": "v. 9",
+   "text": "Sexual purity. It appears twice in the record, here and at Jacob 2:28, and never in the King James Bible.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 2:28",
+     "start": 59,
+     "end": 69,
+     "book": "Jacob",
+     "chapter": 2,
+     "verse_start": 28,
+     "verse_end": 28
+    }
+   ]
+  },
+  {
+   "term": "Civilization",
+   "verse_label": "v. 11",
+   "text": "The settled order of a people. Two uses in the record, this one and Alma 51:22, and none in the King James Bible.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 51:22",
+     "start": 68,
+     "end": 78,
+     "book": "Alma",
+     "chapter": 51,
+     "verse_start": 22,
+     "verse_end": 22
+    }
+   ]
+  },
+  {
+   "term": "Brutality",
+   "verse_label": "v. 17",
+   "text": "Savagery in conduct. One use in the record, here, and none in the King James Bible."
+  },
+  {
+   "term": "Depravity",
+   "verse_label": "v. 18",
+   "text": "Moral corruption gone deep. A single use here, with nothing to match it in the King James Bible."
+  },
+  {
+   "term": "Wilfulness",
+   "verse_label": "v. 23",
+   "text": "Insisting on one's own way. It appears once here, and not at all in the King James Bible. Verse 23 gives it as the cause of the Jaredite end."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "That ye may know that I am yet alive",
+   "verse_label": "v. 1",
+   "text": "Why the letter exists at all. Moroni 8:27 had made the next letter conditional."
+  },
+  {
+   "term": "When I speak the word of God with sharpness they tremble and anger against me",
+   "verse_label": "v. 4",
+   "text": "The first half of the problem. The second half is in the same verse."
+  },
+  {
+   "term": "They have lost their love, one towards another",
+   "verse_label": "v. 5",
+   "text": "Mormon's account of what went first. Everything in the chapter follows from it."
+  },
+  {
+   "term": "If we should cease to labor, we should be brought under condemnation",
+   "verse_label": "v. 6",
+   "text": "The instruction, given as the reason to keep going. Failing is not what is under judgment here."
+  },
+  {
+   "term": "Whilst in this tabernacle of clay",
+   "verse_label": "v. 6",
+   "text": "The window he says the labor fits inside. 2 Corinthians 5:1 uses the same figure for the body."
+  },
+  {
+   "term": "It doth not exceed that of our people in Moriantum",
+   "verse_label": "v. 9",
+   "text": "Mormon refusing to score the comparison in his own favor. He has just described the other side."
+  },
+  {
+   "term": "And only a few years have passed away, and they were a civil and a delightsome people",
+   "verse_label": "v. 12",
+   "text": "The line he puts in a parenthesis. It measures how fast the change came."
+  },
+  {
+   "term": "How can we expect that God will stay his hand in judgment against us?",
+   "verse_label": "v. 14",
+   "text": "The question the middle of the letter builds to. He asks it about his own people."
+  },
+  {
+   "term": "I am but a man, and I have but the strength of a man",
+   "verse_label": "v. 18",
+   "text": "Where Mormon puts the limit. Verse 18 follows it with what he can no longer do."
+  },
+  {
+   "term": "I cannot recommend them unto God lest he should smite me",
+   "verse_label": "v. 21",
+   "text": "The sentence he will not say for his people. Verse 22 says what he will say for his son."
+  },
+  {
+   "term": "May not the things which I have written grieve thee, to weigh thee down unto death",
+   "verse_label": "v. 25",
+   "text": "What he asks of his reader after all of it. The rest of the verse says what to carry instead."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–6",
+   "start": 1,
+   "end": 6,
+   "title": "Still alive, and still working",
+   "text": "Mormon writes again so his son will know he is alive, though what he writes is grievous. He has had a sore battle with the Lamanites in which they did not conquer, and Archeantus, Luram, and Emron have fallen, along with a great number of their choice men. He fears the Lamanites will destroy this people, since they do not repent and Satan stirs them continually to anger with one another. He labors with them continually, and when he speaks the word of God with sharpness they tremble and are angry at him, and when he uses no sharpness they harden their hearts, so he fears the Spirit of the Lord has ceased striving with them. They anger so exceedingly that they seem to have no fear of death, they have lost their love toward one another, and they thirst after blood and revenge. Despite that hardness he tells his son they must labor diligently, since ceasing would bring them under condemnation, for they have a labor to perform while in this tabernacle of clay, so they may conquer the enemy of all righteousness and rest their souls in the kingdom of God."
+  },
+  {
+   "label": "v. 7–10",
+   "start": 7,
+   "end": 10,
+   "title": "What both sides have done",
+   "text": "He writes of the sufferings of the people. From Amoron he has learned the Lamanites hold many prisoners taken from the tower of Sherrizah, men, women, and children. They have slain the husbands and fathers, feed the women and children on that flesh, and give them almost no water. Mormon then says this does not exceed what his own people did at Moriantum, where they took many daughters of the Lamanites prisoner, deprived them of chastity and virtue, murdered them cruelly, and treated the bodies as a token of bravery."
+  },
+  {
+   "label": "v. 11–15",
+   "start": 11,
+   "end": 15,
+   "title": "The cry",
+   "text": "The record breaks a sentence off mid-thought, twice, and both times with a dash: \"how can a people like this, that are without civilization—\" and then, after an interruption, \"how can a people like this, whose delight is in so much abomination—\" Neither question is completed; verse 14 supplies a third question instead. The interruption itself is a parenthesis with a date in it, \"(And only a few years have passed away, and they were a civil and a delightsome people),\" which puts a measurable interval on the collapse. Verse 15 then reverses the usual direction of intercession, asking not for mercy but for judgment, \"Come out in judgment, O God, and hide their sins.\""
+  },
+  {
+   "label": "v. 16–19",
+   "start": 16,
+   "end": 19,
+   "title": "Sherrizah",
+   "text": "Many widows and their daughters remain there, and the provisions the Lamanites did not carry away the army of Zenephi has taken, leaving them to wander wherever they can for food, and many old women faint by the way and die. The army with Mormon is weak and the Lamanite armies lie between him and Sherrizah, and those who fled to the army of Aaron have fallen victim to brutality. He calls out the depravity of his people, who are without order and without mercy, and says he is but a man with the strength of a man and can no longer enforce his commands. They have grown strong in their perversion, are alike brutal and spare none, delight in everything but what is good, and the suffering of the women and children on all the face of the land exceeds what tongue can tell or pen can write."
+  },
+  {
+   "label": "v. 20–22",
+   "start": 20,
+   "end": 22,
+   "title": "Two recommendations",
+   "text": "He will dwell no longer on the scene, since his son knows the wickedness of this people, who are without principle and past feeling, and whose wickedness exceeds that of the Lamanites. He cannot recommend them to God lest he be smitten. He does recommend his son to God, and trusts in Christ that he will be saved, and prays that his life be spared to witness either the return of this people to God or their utter destruction, since he knows they must perish unless they repent and return."
+  },
+  {
+   "label": "v. 23–24",
+   "start": 23,
+   "end": 24,
+   "title": "The comparison, and the records",
+   "text": "If they perish it will be like the Jaredites, because of the wilfulness of their hearts, seeking blood and revenge. Many of their brethren have deserted to the Lamanites and more will, so he asks his son to write a few things if he is spared and Mormon should perish without seeing him, though he trusts he will see him soon, since he has sacred records to deliver up to him."
+  },
+  {
+   "label": "v. 25–26",
+   "start": 25,
+   "end": 26,
+   "title": "The blessing",
+   "text": "The record has the writer name the effect his own letter may have and ask that it not occur: \"may not the things which I have written grieve thee, to weigh thee down unto death.\" Everything in the preceding twenty-four verses is atrocity, so the request is an editorial one about his own document. What he offers against it is a list of five items to hold in mind, the sufferings, the death, the showing of the body to the fathers, the mercy and long-suffering, and the hope of glory. Verse 26 closes with two positions rather than two titles, a throne \"high in the heavens\" and a seat \"on the right hand of his power,\" the second from Psalm 110:1. A letter that ends in despair at verse 25 is signed off with a benediction naming where both persons are seated."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The letter's first job is to say he is alive",
+   "text": "Verse 1 answers the question Moroni 8:27 had left open."
+  },
+  {
+   "n": 2,
+   "title": "Neither approach reaches them",
+   "text": "Verse 4 has sharpness anger them and gentleness harden them, in the same sentence."
+  },
+  {
+   "n": 3,
+   "title": "Ceasing is what would bring condemnation",
+   "text": "Verse 6 makes the duty about continuing rather than about succeeding."
+  },
+  {
+   "n": 4,
+   "title": "He refuses to score the comparison",
+   "text": "Verse 9 puts his own people's abominations above the enemy's."
+  },
+  {
+   "n": 5,
+   "title": "A parenthesis measures the fall",
+   "text": "Verse 12 says only a few years separate this from a civil and delightsome people."
+  },
+  {
+   "n": 6,
+   "title": "He states his own limit",
+   "text": "Verse 18 puts his strength at that of one man and stops there."
+  },
+  {
+   "n": 7,
+   "title": "He separates the two recommendations",
+   "text": "Verse 21 will not recommend the people, and verse 22 recommends his son."
+  },
+  {
+   "n": 8,
+   "title": "The last word is not the horror",
+   "text": "Verses 25 and 26 end on Christ lifting him up and the grace of God abiding forever."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Send word that you are alive",
+    "verse_label": "v. 1",
+    "text": "Mormon's first line says he writes so his son may know he is still living, and only then that what follows is grievous. When you know the other person's first question, answer that one first."
+   },
+   {
+    "title": "When neither approach works, keep working",
+    "verse_label": "v. 4",
+    "text": "Sharpness made them tremble and rage; no sharpness let them harden. He reports both failures and abandons neither, because some situations have no technique that works and saying so beats cycling through methods."
+   },
+   {
+    "title": "Keep working when the work is not working",
+    "verse_label": "v. 6",
+    "text": "Ceasing is what brings condemnation, and Mormon says so while losing."
+   },
+   {
+    "title": "Count your own side honestly",
+    "verse_label": "v. 9",
+    "text": "He names his people's abominations as worse than the enemy's."
+   },
+   {
+    "title": "Remember how recently it was different",
+    "verse_label": "v. 12",
+    "text": "He puts it in a parenthesis: only a few years have passed away, and they were a civil and a delightsome people. Holding the recent past in view is what stops a collapse from looking like the natural state of things."
+   },
+   {
+    "title": "Know the limit of your strength",
+    "verse_label": "v. 18",
+    "text": "He says plainly that he cannot enforce his commands any longer."
+   },
+   {
+    "title": "Arrange the handoff while you still can",
+    "verse_label": "v. 24",
+    "text": "He asks his son to take up the writing should he himself not survive, and mentions the sacred records still waiting to be handed over. The practical succession gets settled in the middle of the worst letter in the book."
+   },
+   {
+    "title": "Do not let the news carry you off",
+    "verse_label": "v. 25",
+    "text": "He writes the whole horror and then tells his son what to rest his mind on instead."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "Where have I tried both sharpness and gentleness and gotten nowhere?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "Have I lost love toward someone I used to have it for?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "What labor am I tempted to set down?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What do I excuse in my own side that I condemn elsewhere?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "What was true of me a few years ago that is not true now?"
+   },
+   {
+    "verse_label": "v. 18",
+    "start": 18,
+    "end": 18,
+    "text": "What am I trying to enforce that is past my strength?"
+   },
+   {
+    "verse_label": "v. 25",
+    "start": 25,
+    "end": 25,
+    "text": "What am I letting weigh me down that I could hand to Christ?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "moro09-001",
+   "scope": "BOOK",
+   "head": "Moro. 1:3",
+   "anchor": {
+    "verse": 16,
+    "w1": 38,
+    "w2": 46,
+    "quote": "left them to wander whithersoever they can for food"
+   },
+   "reason": "the same wording used of Moroni himself",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 1,
+     "verse": 3,
+     "w1": 10,
+     "w2": 21,
+     "quote": "I wander whithersoever I can for the safety of mine own life.",
+     "verse_text": "And I, Moroni, will not deny the Christ; wherefore, I wander whithersoever I can for the safety of mine own life.",
+     "markdown": "And I, Moroni, will not deny the Christ; wherefore, **I wander whithersoever I can for the safety of mine own life**.",
+     "span": true
+    }
+   ],
+   "mirror": "moro01-002"
+  },
+  {
+   "id": "moro09-002",
+   "scope": "BOOK",
+   "head": "Moro. 8:27",
+   "anchor": {
+    "verse": 1,
+    "w1": 9,
+    "w2": 17,
+    "quote": "that ye may know that I am yet alive"
+   },
+   "reason": "the condition he had set on writing again",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 8,
+     "verse": 27,
+     "w1": 4,
+     "w2": 18,
+     "quote": "I will write unto you again if I go not out soon against the Lamanites.",
+     "verse_text": "Behold, my son, I will write unto you again if I go not out soon against the Lamanites. Behold, the pride of this nation, or the people of the Nephites, hath proven their destruction except they should repent.",
+     "markdown": "Behold, my son, **I will write unto you again if I go not out soon against the Lamanites**. Behold, the pride of this nation, or the people of the Nephites, hath proven their destruction except they should repent.",
+     "span": true
+    }
+   ],
+   "mirror": "moro08-011"
+  },
+  {
+   "id": "moro09-003",
+   "scope": "BOOK",
+   "head": "Moro. 8:28",
+   "anchor": {
+    "verse": 4,
+    "w1": 37,
+    "w2": 49,
+    "quote": "I fear lest the Spirit of the Lord hath ceased striving with them"
+   },
+   "reason": "the same fear, in the earlier letter",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 8,
+     "verse": 28,
+     "w1": 14,
+     "w2": 23,
+     "quote": "I fear lest the Spirit hath ceased striving with them;",
+     "verse_text": "Pray for them, my son, that repentance may come unto them. But behold, I fear lest the Spirit hath ceased striving with them; and in this part of the land they are also seeking to put down all power and authority which cometh from God; and they are denying the Holy Ghost.",
+     "markdown": "Pray for them, my son, that repentance may come unto them. But behold, **I fear lest the Spirit hath ceased striving with them**; and in this part of the land they are also seeking to put down all power and authority which cometh from God; and they are denying the Holy Ghost.",
+     "span": true
+    }
+   ],
+   "mirror": "moro08-012"
+  },
+  {
+   "id": "moro09-004",
+   "scope": "BOM",
+   "head": "Ether 15:19",
+   "anchor": {
+    "verse": 4,
+    "w1": 37,
+    "w2": 49,
+    "quote": "I fear lest the Spirit of the Lord hath ceased striving with them"
+   },
+   "reason": "the same sentence, reported as already true",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 15,
+     "verse": 19,
+     "w1": 3,
+     "w2": 12,
+     "quote": "the Spirit of the Lord had ceased striving with them,",
+     "verse_text": "But behold, the Spirit of the Lord had ceased striving with them, and Satan had full power over the hearts of the people; for they were given up unto the hardness of their hearts, and the blindness of their minds that they might be destroyed; wherefore they went again to battle.",
+     "markdown": "But behold, **the Spirit of the Lord had ceased striving with them**, and Satan had full power over the hearts of the people; for they were given up unto the hardness of their hearts, and the blindness of their minds that they might be destroyed; wherefore they went again to battle.",
+     "span": true
+    }
+   ],
+   "mirror": "eth15-012"
+  },
+  {
+   "id": "moro09-005",
+   "scope": "BOM",
+   "head": "Ether 15:2",
+   "anchor": {
+    "verse": 23,
+    "w1": 5,
+    "w2": 18,
+    "quote": "it will be like unto the Jaredites, because of the wilfulness of their hearts"
+   },
+   "reason": "the count Coriantumr made when he finally looked",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 15,
+     "verse": 2,
+     "w1": 4,
+     "w2": 17,
+     "quote": "there had been slain by the sword already nearly two millions of his people,",
+     "verse_text": "He saw that there had been slain by the sword already nearly two millions of his people, and he began to sorrow in his heart; yea, there had been slain two millions of mighty men, and also their wives and their children.",
+     "markdown": "He saw that **there had been slain by the sword already nearly two millions of his people**, and he began to sorrow in his heart; yea, there had been slain two millions of mighty men, and also their wives and their children.",
+     "span": true
+    }
+   ],
+   "mirror": "eth15-013"
+  },
+  {
+   "id": "moro09-006",
+   "scope": "BOM",
+   "head": "Morm. 6:15",
+   "anchor": {
+    "verse": 24,
+    "w1": 12,
+    "w2": 21,
+    "quote": "many of our brethren have deserted over unto the Lamanites"
+   },
+   "reason": "the deserters counted among the fallen",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 6,
+     "verse": 15,
+     "w1": 50,
+     "w2": 58,
+     "quote": "a few who had deserted over unto the Lamanites,",
+     "verse_text": "And it came to pass that there were ten more who did fall by the sword, with their ten thousand each; yea, even all my people, save it were those twenty and four who were with me, and also a few who had escaped into the south countries, and a few who had deserted over unto the Lamanites, had fallen; and their flesh, and bones, and blood lay upon the face of the earth, being left by the hands of those who slew them to molder upon the land, and to crumble and to return to their mother earth.",
+     "markdown": "And it came to pass that there were ten more who did fall by the sword, with their ten thousand each; yea, even all my people, save it were those twenty and four who were with me, and also a few who had escaped into the south countries, and **a few who had deserted over unto the Lamanites**, had fallen; and their flesh, and bones, and blood lay upon the face of the earth, being left by the hands of those who slew them to molder upon the land, and to crumble and to return to their mother earth.",
+     "span": true
+    }
+   ],
+   "mirror": "morm06-012"
+  },
+  {
+   "id": "moro09-007",
+   "scope": "BOM",
+   "head": "Jacob 2:28",
+   "anchor": {
+    "verse": 9,
+    "w1": 47,
+    "w2": 51,
+    "quote": "which is chastity and virtue"
+   },
+   "reason": "the Lord naming what he delights in",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 2,
+     "verse": 28,
+     "w1": 2,
+     "w2": 11,
+     "quote": "I, the Lord God, delight in the chastity of women.",
+     "verse_text": "For I, the Lord God, delight in the chastity of women. And whoredoms are an abomination before me; thus saith the Lord of Hosts.",
+     "markdown": "For **I, the Lord God, delight in the chastity of women**. And whoredoms are an abomination before me; thus saith the Lord of Hosts.",
+     "span": true
+    }
+   ],
+   "mirror": "jac02-015"
+  },
+  {
+   "id": "moro09-008",
+   "scope": "SW",
+   "head": "2 Cor. 13:10",
+   "anchor": {
+    "verse": 4,
+    "w1": 9,
+    "w2": 23,
+    "quote": "when I speak the word of God with sharpness they tremble and anger against me"
+   },
+   "reason": "Paul writing ahead so as not to use it",
+   "targets": [
+    {
+     "ref": "2 Cor.",
+     "chapter": 13,
+     "verse": 10,
+     "w1": 8,
+     "w2": 14,
+     "quote": "lest being present I should use sharpness,",
+     "verse_text": "Therefore I write these things being absent, lest being present I should use sharpness, according to the power which the Lord hath given me to edification, and not to destruction.",
+     "markdown": "Therefore I write these things being absent, **lest being present I should use sharpness**, according to the power which the Lord hath given me to edification, and not to destruction.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "moro09-009",
+   "scope": "SW",
+   "head": "2 Cor. 5:1",
+   "anchor": {
+    "verse": 6,
+    "w1": 33,
+    "w2": 38,
+    "quote": "whilst in this tabernacle of clay"
+   },
+   "reason": "the same figure, with what replaces it",
+   "targets": [
+    {
+     "ref": "2 Cor.",
+     "chapter": 5,
+     "verse": 1,
+     "w1": 5,
+     "w2": 13,
+     "quote": "if our earthly house of this tabernacle were dissolved,",
+     "verse_text": "For we know that if our earthly house of this tabernacle were dissolved, we have a building of God, an house not made with hands, eternal in the heavens.",
+     "markdown": "For we know that **if our earthly house of this tabernacle were dissolved**, we have a building of God, an house not made with hands, eternal in the heavens.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "moro09-010",
+   "scope": "SW",
+   "head": "Rom. 1:31",
+   "anchor": {
+    "verse": 5,
+    "w1": 19,
+    "w2": 26,
+    "quote": "they have lost their love, one towards another"
+   },
+   "reason": "the same condition in a list of symptoms",
+   "targets": [
+    {
+     "ref": "Rom.",
+     "chapter": 1,
+     "verse": 31,
+     "w1": 4,
+     "w2": 6,
+     "quote": "without natural affection,",
+     "verse_text": "Without understanding, covenantbreakers, without natural affection, implacable, unmerciful:",
+     "markdown": "Without understanding, covenantbreakers, **without natural affection**, implacable, unmerciful:",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 9,
+   "w2": 17,
+   "quote": "that ye may know that I am yet alive",
+   "entries": [
+    "moro09-002"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 9,
+   "w2": 23,
+   "quote": "when I speak the word of God with sharpness they tremble and anger against me",
+   "entries": [
+    "moro09-008"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 37,
+   "w2": 49,
+   "quote": "I fear lest the Spirit of the Lord hath ceased striving with them",
+   "entries": [
+    "moro09-003",
+    "moro09-004"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 19,
+   "w2": 26,
+   "quote": "they have lost their love, one towards another",
+   "entries": [
+    "moro09-010"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 33,
+   "w2": 38,
+   "quote": "whilst in this tabernacle of clay",
+   "entries": [
+    "moro09-009"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 47,
+   "w2": 51,
+   "quote": "which is chastity and virtue",
+   "entries": [
+    "moro09-007"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 38,
+   "w2": 46,
+   "quote": "left them to wander whithersoever they can for food",
+   "entries": [
+    "moro09-001"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 5,
+   "w2": 18,
+   "quote": "it will be like unto the Jaredites, because of the wilfulness of their hearts",
+   "entries": [
+    "moro09-005"
+   ]
+  },
+  {
+   "verse": 24,
+   "w1": 12,
+   "w2": 21,
+   "quote": "many of our brethren have deserted over unto the Lamanites",
+   "entries": [
+    "moro09-006"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "1a4bc14f6047f3dc"
+ }
+}

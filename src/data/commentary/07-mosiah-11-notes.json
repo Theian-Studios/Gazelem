@@ -19,7 +19,7 @@
    "Taxation and its uses",
    "The first warning"
   ],
-  "connections": 22,
+  "connections": 28,
   "initial": false
  },
  "world_behind": [
@@ -68,7 +68,7 @@
   {
    "term": "Fatlings",
    "verse_label": "v. 3",
-   "text": "Animals fattened for slaughter, the best of a herd. Their appearance in a tax list means the levy took the choicest stock rather than a share of the ordinary. It is a small word doing precise work about what a fifth part actually cost a farmer."
+   "text": "Animals fattened for slaughter, the best of a herd. Treated at 2 Nephi 21:6. Their appearance in a tax list means the levy took the choicest stock rather than a share of the ordinary. It is a small word doing precise work about what a fifth part actually cost a farmer."
   },
   {
    "term": "Ornamented",
@@ -95,7 +95,19 @@
   {
    "term": "He did not walk in the ways of his father",
    "verse_label": "v. 1",
-   "text": "The whole reign summarized before a single act of it is described. The record used the same construction of Mosiah in the affirmative five chapters earlier. Nothing after this sentence is a surprise, and nothing in it is presented as one."
+   "text": "The whole reign summarized before a single act of it is described. The record used the same construction of Mosiah in the affirmative five chapters earlier (Mosiah 6:6). Nothing after this sentence is a surprise, and nothing in it is presented as one.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 6:6",
+     "start": 157,
+     "end": 167,
+     "book": "Mosiah",
+     "chapter": 6,
+     "verse_start": 6,
+     "verse_end": 6
+    }
+   ]
   },
   {
    "term": "A fifth part of their ziff, and of their copper, and of their brass",
@@ -125,7 +137,19 @@
   {
    "term": "He placed his heart upon his riches",
    "verse_label": "v. 14",
-   "text": "The verb is deliberate: placed, not drifted. Verse 14 pairs it with riotous living, the same phrase Luke gives the prodigal in a far country. Noah is not described as losing his way; he is described as choosing where to put something."
+   "text": "The verb is deliberate: placed, not drifted. Verse 14 pairs it with riotous living, the same phrase Luke gives the prodigal in a far country (Luke 15:13). Noah is not described as losing his way; he is described as choosing where to put something.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Luke 15:13",
+     "start": 142,
+     "end": 152,
+     "book": "Luke",
+     "chapter": 15,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
   },
   {
    "term": "Saying that their fifty could stand against thousands of the Lamanites",
@@ -140,12 +164,22 @@
   {
    "term": "When they shall cry unto me I will be slow to hear their cries",
    "verse_label": "v. 24",
-   "text": "A promise about silence. What is promised is a slow hearing, harder to endure than a refusal. Mosiah 21 will report this fulfilled in exactly these terms, and the reader who remembers this sentence will recognize it there."
-  },
-  {
-   "term": "Except they repent in sackcloth and ashes",
-   "verse_label": "v. 25",
-   "text": "The exit is named and it has a precedent. A king in sackcloth on ashes saved Nineveh in a single chapter of Jonah. Abinadi offers the same terms to a king with a spacious palace and a gold-ornamented throne. In that setting the offer feels impossible."
+   "text": "A promise about silence. What is promised is a slow hearing, harder to endure than a refusal. Mosiah 21 will report this fulfilled in exactly these terms, and the reader who remembers this sentence will recognize it there. The next verse names the exit, and it has a precedent: \"except they repent in sackcloth and ashes\" (v. 25). A king in sackcloth on ashes saved Nineveh in a single chapter of Jonah. Abinadi offers the same terms to a king with a spacious palace and a gold-ornamented throne, where the offer feels impossible.",
+   "cites": [
+    {
+     "quote": "except they repent in sackcloth and ashes",
+     "verse": 25,
+     "start": 278,
+     "end": 329,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 8,
+       "text": "except they repent in sackcloth and ashes"
+      }
+     ]
+    }
+   ]
   },
   {
    "term": "Who is Abinadi, that I and my people should be judged of him, or who is the Lord",
@@ -160,53 +194,51 @@
  ],
  "verses": [
   {
-   "label": "v. 1–7",
+   "label": "v. 1",
    "start": 1,
-   "end": 7,
-   "title": "A new reign, and what it cost",
-   "text": "The kingdom conferred, the verdict delivered in the first sentence, many wives and concubines, a fifth part of everything taxed, the old priests deposed and proud ones installed, and a people laboring to support the whole arrangement, persuaded into it by flattery."
+   "end": 1,
+   "title": "The verdict comes before the evidence",
+   "text": "\"He did not walk in the ways of his father\" is the chapter's conclusion, and it is in the first verse. Twenty-eight verses of tax rates, buildings, towers and wine follow a judgment the record has already handed down. Nothing here is offered to persuade the reader; it is offered to show what the first sentence meant."
   },
   {
-   "label": "v. 8–13",
-   "start": 8,
+   "label": "v. 3–4",
+   "start": 3,
+   "end": 4,
+   "title": "Pharaoh's rate, itemized, with the budget attached",
+   "text": "\"A fifth part\" is repeated five times in verse 3, across every commodity the kingdom holds. The phrase appears nowhere else in the volume, and where it does appear in scripture it is Joseph's levy on Egypt (Gen. 41:34; 47:24, 26) and the restitution rules of Leviticus. Verse 4 then does what a tax notice rarely does and prints the expenditure: himself, his wives, his concubines, his priests, and their wives and concubines.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Gen. 41:34",
+     "start": 207,
+     "end": 217,
+     "book": "Gen",
+     "chapter": 41,
+     "verse_start": 34,
+     "verse_end": 34
+    }
+   ]
+  },
+  {
+   "label": "v. 12–13",
+   "start": 12,
    "end": 13,
-   "title": "What the money built",
-   "text": "Elegant and spacious buildings ornamented in gold and silver and ziff; a spacious palace with a throne; fine work inside the temple walls; gilded seats for the high priests with a breastwork to lean on while they lied; a very high tower by the temple for looking out over two lands; and a great tower on the hill where refugees once hid."
+   "title": "Two towers, and whose hill the second stands on",
+   "text": "The first lets Noah \"overlook the land of Shilom, and also the land of Shemlon, which was possessed by the Lamanites.\" The second goes up on the hill north of Shilom, \"which had been a resort for the children of Nephi at the time they fled out of the land.\" The record supplies that history in a relative clause and does not comment: the refugees' hiding place becomes the king's viewing platform."
   },
   {
-   "label": "v. 14–15",
-   "start": 14,
-   "end": 15,
-   "title": "How he spent his time",
-   "text": "His heart placed on his riches, riotous living with wives and concubines, priests with harlots, vineyards planted, wine-presses built, wine in abundance, and a king who became a wine-bibber and took his people with him."
-  },
-  {
-   "label": "v. 16–19",
-   "start": 16,
+   "label": "v. 19",
+   "start": 19,
    "end": 19,
-   "title": "Raids, a victory, and a boast",
-   "text": "Lamanites picking off farmers and shepherds; guards sent but too few; armies sent and the enemy driven back for a time; spoil taken; and then pride, a boast about fifty against thousands, and a delight in the shedding of their brethren's blood, traced by the record to the king and priests."
+   "title": "The boast is a ratio",
+   "text": "After one recovered raid the army claims \"their fifty could stand against thousands of the Lamanites,\" a figure found nowhere else in scripture. The record gives the arithmetic of the boast rather than its mood, and then assigns the cause upward, \"this because of the wickedness of their king and priests,\" rather than to the soldiers who said it."
   },
   {
    "label": "v. 20–25",
    "start": 20,
    "end": 25,
-   "title": "Abinadi",
-   "text": "A man among them, named at last, going forth with a message that is all conditions: except they repent, anger, bondage, affliction; they shall know I am the Lord and a jealous God; none shall deliver them but the Lord; their cries will be slow to be heard; and only sackcloth and ashes and mighty crying will change it."
-  },
-  {
-   "label": "v. 26–27",
-   "start": 26,
-   "end": 27,
-   "title": "Two angers",
-   "text": "The people are wroth and try to kill him, and the Lord delivers him. The king hears and is also wroth, and asks who Abinadi is that he should judge, and who the Lord is that he should afflict."
-  },
-  {
-   "label": "v. 28–29",
-   "start": 28,
-   "end": 29,
-   "title": "The order, and the hardening",
-   "text": "Bring him here that I may slay him, on the charge of stirring the people to contention. Then the closing sentence: the people's eyes blinded, their hearts hardened, a manhunt begun, and a king who would not repent."
+   "title": "Every threat carries its own escape clause",
+   "text": "Four times in six verses the sentence turns on except: except they repent at verses 20 and 21, except this people repent at verse 23, except they repent in sackcloth and ashes at verse 25. Bondage, unanswered prayer and a God slow to hear are all stated as consequences of a condition, never as a verdict. Abinadi's first recorded prophecy has no unconditional line in it."
   }
  ],
  "chapter": [
@@ -228,12 +260,12 @@
   {
    "n": 4,
    "title": "The most damning detail is a piece of furniture",
-   "text": "A ledge built so that men could lean on it while speaking lies. The record supplies the measurement of the corruption, and the effect is worse than any adjective would be."
+   "text": "Verse 11 describes a fitting rather than a sin: seats \"above all the other seats,\" ornamented \"with pure gold,\" and \"a breastwork to be built before them, that they might rest their bodies and their arms upon while they should speak lying and vain words.\" The record gives the height, the material, and the ergonomics, and attaches the falsehood to the last clause. Verses 8 through 13 supply the same treatment for a palace, a temple, a tower, and a second tower, so the whole indictment of the reign is delivered as a building inventory."
   },
   {
    "n": 5,
    "title": "Noah reaches Pharaoh's question immediately",
-   "text": "He asks who Abinadi is, and then who the Lord is. The first is a question about standing; the second is the one Egypt asked Moses. Nothing in the chapter marks the escalation, and the reader is left to hear it."
+   "text": "Verse 27 puts two questions in one breath, \"Who is Abinadi, that I and my people should be judged of him, or who is the Lord, that shall bring upon my people such great affliction?\" The second matches Exodus 5:2, \"Who is the LORD, that I should obey his voice to let Israel go?\" Nothing in the chapter marks the borrowing or comments on it. Verse 28 then supplies the order that follows and states the motive twice, \"that I may slay him\" and \"therefore I will slay him.\""
   },
   {
    "n": 6,
@@ -577,7 +609,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos21-021"
   },
   {
    "id": "mos11-004",
@@ -684,6 +716,58 @@
    "mirror": "mos10-007"
   },
   {
+   "id": "mos11-024",
+   "scope": "BOOK",
+   "head": "Mosiah 19:15",
+   "anchor": {
+    "verse": 3,
+    "w1": 1,
+    "w2": 13,
+    "quote": "And he laid a tax of one fifth part of all they possessed,"
+   },
+   "reason": "half of all they possessed, paid to the Lamanites",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 19,
+     "verse": 15,
+     "w1": 35,
+     "w2": 46,
+     "quote": "they would deliver up king Noah into the hands of the Lamanites,",
+     "verse_text": "Therefore the Lamanites did spare their lives, and took them captives and carried them back to the land of Nephi, and granted unto them that they might possess the land, under the conditions that they would deliver up king Noah into the hands of the Lamanites, and deliver up their property, even one half of all they possessed, one half of their gold, and their silver, and all their precious things, and thus they should pay tribute to the king of the Lamanites from year to year.",
+     "markdown": "Therefore the Lamanites did spare their lives, and took them captives and carried them back to the land of Nephi, and granted unto them that they might possess the land, under the conditions that **they would deliver up king Noah into the hands of the Lamanites**, and deliver up their property, even one half of all they possessed, one half of their gold, and their silver, and all their precious things, and thus they should pay tribute to the king of the Lamanites from year to year.",
+     "span": true
+    }
+   ],
+   "mirror": "mos19-008"
+  },
+  {
+   "id": "mos11-028",
+   "scope": "BOOK",
+   "head": "Mosiah 19:15",
+   "anchor": {
+    "verse": 21,
+    "w1": 13,
+    "w2": 30,
+    "quote": "I will deliver them into the hands of their enemies; yea, and they shall be brought into bondage;"
+   },
+   "reason": "they gave up their king and half their goods",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 19,
+     "verse": 15,
+     "w1": 35,
+     "w2": 46,
+     "quote": "they would deliver up king Noah into the hands of the Lamanites,",
+     "verse_text": "Therefore the Lamanites did spare their lives, and took them captives and carried them back to the land of Nephi, and granted unto them that they might possess the land, under the conditions that they would deliver up king Noah into the hands of the Lamanites, and deliver up their property, even one half of all they possessed, one half of their gold, and their silver, and all their precious things, and thus they should pay tribute to the king of the Lamanites from year to year.",
+     "markdown": "Therefore the Lamanites did spare their lives, and took them captives and carried them back to the land of Nephi, and granted unto them that they might possess the land, under the conditions that **they would deliver up king Noah into the hands of the Lamanites**, and deliver up their property, even one half of all they possessed, one half of their gold, and their silver, and all their precious things, and thus they should pay tribute to the king of the Lamanites from year to year.",
+     "span": true
+    }
+   ],
+   "mirror": "mos19-004"
+  },
+  {
    "id": "mos11-022",
    "scope": "BOM",
    "head": "Alma 4:6",
@@ -734,6 +818,110 @@
     }
    ],
    "mirror": "al01-011"
+  },
+  {
+   "id": "mos11-023",
+   "scope": "BOM",
+   "head": "Ether 10:5",
+   "anchor": {
+    "verse": 3,
+    "w1": 1,
+    "w2": 13,
+    "quote": "And he laid a tax of one fifth part of all they possessed,"
+   },
+   "reason": "Riplakish taxing his people to build his throne",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 10,
+     "verse": 5,
+     "w1": 43,
+     "w2": 49,
+     "quote": "he did tax them with heavy taxes;",
+     "verse_text": "And it came to pass that Riplakish did not do that which was right in the sight of the Lord, for he did have many wives and concubines, and did lay that upon men's shoulders which was grievous to be borne; yea, he did tax them with heavy taxes; and with the taxes he did build many spacious buildings.",
+     "markdown": "And it came to pass that Riplakish did not do that which was right in the sight of the Lord, for he did have many wives and concubines, and did lay that upon men's shoulders which was grievous to be borne; yea, **he did tax them with heavy taxes**; and with the taxes he did build many spacious buildings.",
+     "span": true
+    }
+   ],
+   "mirror": "eth10-005"
+  },
+  {
+   "id": "mos11-025",
+   "scope": "BOM",
+   "head": "Ether 7:23",
+   "anchor": {
+    "verse": 6,
+    "w1": 3,
+    "w2": 20,
+    "quote": "thus they were supported in their laziness, and in their idolatry, and in their whoredoms, by the taxes"
+   },
+   "reason": "the prophets naming wickedness and idolatry under Shule",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 7,
+     "verse": 23,
+     "w1": 22,
+     "w2": 28,
+     "quote": "the wickedness and idolatry of the people",
+     "verse_text": "And also in the reign of Shule there came prophets among the people, who were sent from the Lord, prophesying that the wickedness and idolatry of the people was bringing a curse upon the land, and they should be destroyed if they did not repent.",
+     "markdown": "And also in the reign of Shule there came prophets among the people, who were sent from the Lord, prophesying that **the wickedness and idolatry of the people** was bringing a curse upon the land, and they should be destroyed if they did not repent.",
+     "span": true
+    }
+   ],
+   "mirror": "eth07-007"
+  },
+  {
+   "id": "mos11-026",
+   "scope": "BOM",
+   "head": "Alma 53:4",
+   "anchor": {
+    "verse": 11,
+    "w1": 26,
+    "w2": 32,
+    "quote": "he caused a breastwork to be built"
+   },
+   "reason": "the record's other breastwork, thrown up at Bountiful",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 53,
+     "verse": 4,
+     "w1": 8,
+     "w2": 18,
+     "quote": "a breastwork of timbers upon the inner bank of the ditch;",
+     "verse_text": "And he caused that they should build a breastwork of timbers upon the inner bank of the ditch; and they cast up dirt out of the ditch against the breastwork of timbers; and thus they did cause the Lamanites to labor until they had encircled the city of Bountiful round about with a strong wall of timbers and earth, to an exceeding height.",
+     "markdown": "And he caused that they should build **a breastwork of timbers upon the inner bank of the ditch**; and they cast up dirt out of the ditch against the breastwork of timbers; and thus they did cause the Lamanites to labor until they had encircled the city of Bountiful round about with a strong wall of timbers and earth, to an exceeding height.",
+     "span": true
+    }
+   ],
+   "mirror": "al53-005"
+  },
+  {
+   "id": "mos11-027",
+   "scope": "BOM",
+   "head": "Alma 48:5",
+   "anchor": {
+    "verse": 12,
+    "w1": 7,
+    "w2": 18,
+    "quote": "he built a tower near the temple; yea, a very high tower,"
+   },
+   "reason": "Amalickiah's men gathered in their places of resort",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 48,
+     "verse": 5,
+     "w1": 23,
+     "w2": 26,
+     "quote": "their places of resort,",
+     "verse_text": "And thus he did appoint chief captains of the Zoramites, they being the most acquainted with the strength of the Nephites, and their places of resort, and the weakest parts of their cities; therefore he appointed them to be chief captains over his armies.",
+     "markdown": "And thus he did appoint chief captains of the Zoramites, they being the most acquainted with the strength of the Nephites, and **their places of resort**, and the weakest parts of their cities; therefore he appointed them to be chief captains over his armies.",
+     "span": true
+    }
+   ],
+   "mirror": "al48-005"
   },
   {
    "id": "mos11-012",
@@ -918,6 +1106,8 @@
    "quote": "And he laid a tax of one fifth part of all they possessed",
    "entries": [
     "mos11-004",
+    "mos11-024",
+    "mos11-023",
     "mos11-010"
    ]
   },
@@ -938,7 +1128,8 @@
    "entries": [
     "mos11-020",
     "mos11-015",
-    "mos11-021"
+    "mos11-021",
+    "mos11-025"
    ]
   },
   {
@@ -960,12 +1151,22 @@
    ]
   },
   {
+   "verse": 11,
+   "w1": 26,
+   "w2": 32,
+   "quote": "he caused a breastwork to be built",
+   "entries": [
+    "mos11-026"
+   ]
+  },
+  {
    "verse": 12,
    "w1": 7,
    "w2": 18,
    "quote": "he built a tower near the temple; yea, a very high tower",
    "entries": [
-    "mos11-016"
+    "mos11-016",
+    "mos11-027"
    ]
   },
   {
@@ -1001,7 +1202,8 @@
    "w2": 30,
    "quote": "I will deliver them into the hands of their enemies; yea, and they shall be brought into bondage",
    "entries": [
-    "mos11-017"
+    "mos11-017",
+    "mos11-028"
    ]
   },
   {
@@ -1061,7 +1263,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "ef69de154dcf8690"
+  "at": "2026-09-07",
+  "source_sha256": "a71bcd830b652cc5"
  }
 }

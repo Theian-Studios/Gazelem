@@ -14,21 +14,22 @@
   "unit": "Samuel the Lamanite (Helaman 13–16)",
   "principles": [
    "Chastening as a form of love",
-   "A converted people described by its"
+   "A converted people described by its fear of sin",
+   "Two sentences that use the same words in opposite directions"
   ],
-  "connections": 10,
+  "connections": 12,
   "initial": false
  },
  "world_behind": [
   {
    "n": 1,
    "title": "The sermon turns to the Lamanites",
-   "text": "After two chapters about Nephite sin and the signs, verses 4 through 16 are about Samuel's own people."
+   "text": "After two chapters about Nephite sin and the signs, verses 4 through 16 are about Samuel's own people. Helaman 6:1 had made the same comparison in Mormon's narrative voice; this is a Lamanite making it to a Nephite crowd from the top of their own wall."
   },
   {
    "n": 2,
    "title": "Chastening is explained as love",
-   "text": "Verse 3 says the Nephites were chosen and loved, and chastened in their iniquities because he loves them."
+   "text": "Verse 3 has the Nephites chosen and loved, and chastened in their iniquity because he loved them. Hebrews 12:6 carries the same principle in one line, that whom the Lord loveth he chasteneth, so the argument is not local to this sermon."
   },
   {
    "n": 3,
@@ -38,22 +39,46 @@
   {
    "n": 4,
    "title": "They are described by their fear of sinning",
-   "text": "Verse 9 says they will be trodden down and slain rather than take up the buried weapons."
+   "text": "Verse 9 has them accept death before they touch the buried weapons. Alma 24:17 and 18 records the burial itself, sixty years earlier, as a testimony to God and to men that they would never use them again. Samuel is citing an event his Nephite hearers watched their own fathers report.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 24:17",
+     "start": 68,
+     "end": 78,
+     "book": "Alma",
+     "chapter": 24,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
   },
   {
    "n": 5,
    "title": "A restoration is promised",
-   "text": "Verses 11 through 13 cite Zenos and other prophets on the Lamanites returning to the knowledge of their Redeemer."
+   "text": "Verses 11 through 13 cite Zenos and other prophets on the Lamanites returning to the knowledge of their Redeemer. Zenos survives only through this record: Jacob 5 carries his allegory whole, 1 Nephi 19:10 quotes him on the crucifixion, and Alma 33:3 on prayer. He is on the brass plates and nowhere in the Bible.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 33:3",
+     "start": 240,
+     "end": 249,
+     "book": "Alma",
+     "chapter": 33,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
   },
   {
    "n": 6,
    "title": "The comparison is about opportunity",
-   "text": "Verse 15 says that if the mighty works shown to the Nephites had been shown to them, they would never have dwindled again."
+   "text": "Verse 15 gives the Lamanites the Nephite miracles and says they would never have dwindled again."
   },
   {
    "n": 7,
    "title": "The chapter ends with two divine sentences",
-   "text": "Verse 16 promises not to destroy the Lamanites utterly, and verse 17 promises to destroy the Nephites utterly if they will not repent."
+   "text": "Verse 16 promises not to destroy the Lamanites utterly, and verse 17 promises to destroy the Nephites utterly if they will not repent. 1 Nephi 13:30 and 31 had given the same pair of outcomes six hundred years earlier, and Mormon 6 reports the second half arriving."
   }
  ],
  "words": [
@@ -195,46 +220,49 @@
  ],
  "verses": [
   {
-   "label": "v. 1–3",
-   "start": 1,
-   "end": 3,
-   "title": "Desolate houses",
-   "text": "Without repentance their houses will be left desolate, their nursing women will have cause to mourn, and those with child will be too heavy to flee and will be trodden down. Wo to the people of Nephi if they do not repent when they see the signs, for they have been a chosen people whom the Lord loved and chastened in their iniquities because he loves them."
-  },
-  {
-   "label": "v. 4–6",
-   "start": 4,
-   "end": 6,
-   "title": "The Lamanites now",
-   "text": "He says the Lord hated their deeds because of the tradition of their fathers, and that salvation came to them through Nephite preaching, which is why their days were prolonged. The more part of them walk circumspectly and keep the law of Moses, and they strive with unwearied diligence to bring the rest to the truth, so their numbers grow daily."
-  },
-  {
-   "label": "v. 7–9",
-   "start": 7,
+   "label": "v. 9",
+   "start": 9,
    "end": 9,
-   "title": "What conversion did",
-   "text": "The Nephites have witnessed it: those brought to the truth, taught the wickedness of their fathers' traditions, and led to believe the scriptures come to faith and repentance and a change of heart. They are firm and steadfast. They have buried their weapons and fear to take them up lest they sin, choosing to be trodden down and slain rather than lift a sword, because of their faith in Christ."
-  },
-  {
-   "label": "v. 10–13",
-   "start": 10,
-   "end": 13,
-   "title": "Prolonged and restored",
-   "text": "Because of that steadfastness and firmness once enlightened, the Lord will bless them and prolong their days even in iniquity, and even if they dwindle in unbelief, until the restoration spoken of by Zenos and other prophets. In the latter times the promises are extended to them, and through afflictions, driving, hunting, smiting, and scattering, the Lord will be merciful, and they will be brought to the knowledge of their Redeemer and true shepherd and numbered among his sheep."
+   "title": "A buried weapon, and the reason given for leaving it there",
+   "text": "The record states not only the act but the motive behind its continuation: \"they have buried their weapons of war, and they fear to take them up lest by any means they should sin.\" The burial itself was reported at Alma 24:17, roughly seventy years earlier in the book's chronology. What this verse adds is that the reluctance is still active, and that its cause is fear of sin rather than fear of war.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 24:17",
+     "start": 215,
+     "end": 225,
+     "book": "Alma",
+     "chapter": 24,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
   },
   {
    "label": "v. 14–15",
    "start": 14,
    "end": 15,
-   "title": "Better for them",
-   "text": "It will be better for them than for the Nephites without repentance, because if the mighty works shown to the Nephites had been shown to the Lamanites, they would never have dwindled in unbelief again."
+   "title": "A comparison built on what did not happen",
+   "text": "The record puts the argument as a claim about an alternative history: \"had the mighty works been shown unto them which have been shown unto you, yea, unto them who have dwindled in unbelief because of the traditions of their fathers, ye can see of yourselves that they never would again have dwindled in unbelief.\" Matt. 11:21 makes the same move about Tyre and Sidon. Verse 14 states the conclusion first and plainly: \"it shall be better for them than for you except ye repent.\"",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Matt. 11:21",
+     "start": 315,
+     "end": 326,
+     "book": "Matt",
+     "chapter": 11,
+     "verse_start": 21,
+     "verse_end": 21
+    }
+   ]
   },
   {
    "label": "v. 16–17",
    "start": 16,
    "end": 17,
-   "title": "The two sentences",
-   "text": "The Lord says he will not utterly destroy the Lamanites, and that in the day of his wisdom they will return. Concerning the Nephites, if they will not repent and do his will he will utterly destroy them for their unbelief despite the mighty works done among them, and as surely as the Lord lives it shall be."
+   "title": "Two futures in matched sentences, one verb apart",
+   "text": "The chapter ends on a pair of quoted decisions with the same construction. Of the Lamanites: \"I will not utterly destroy them, but I will cause that in the day of my wisdom they shall return again unto me.\" Of the Nephites: \"If they will not repent, and observe to do my will, I will utterly destroy them, saith the Lord.\" The same phrase, utterly destroy, is negated in the first and asserted in the second, and the difference between the two outcomes is placed in a conditional clause that only the second one carries."
   }
  ],
  "chapter": [
@@ -246,7 +274,7 @@
   {
    "n": 2,
    "title": "Chastening is defined as evidence of love",
-   "text": "Verse 3 makes the Nephite afflictions a mark of being chosen. The whole cycle of Helaman 11 is reread in one clause."
+   "text": "Verse 3 makes the Nephite afflictions a mark of being chosen. The whole cycle of Helaman 11 is reread in a lone clause."
   },
   {
    "n": 3,
@@ -287,19 +315,39 @@
     "text": "Samuel says the chastening was because they were loved. Being left alone entirely is the worse outcome."
    },
    {
+    "title": "Credit the good your audience did",
+    "verse_label": "v. 4",
+    "text": "In the middle of the rebuke, Samuel tells the Nephites that salvation came to the Lamanites through Nephite preaching. A correction lands better from someone who is visibly keeping the whole account, not just the damaging half of it."
+   },
+   {
     "title": "Praise the people your audience looks down on",
     "verse_label": "v. 5",
     "text": "He spent most of his sermon describing Lamanite faithfulness to Nephites. Naming someone else's virtue is a way of telling the truth about your own audience."
    },
    {
+    "title": "Work at bringing in the rest",
+    "verse_label": "v. 6",
+    "text": "The converted Lamanites are described as striving with unwearied diligence to bring the remainder of their brethren to the truth, with numbers added daily. A change that stops at the person it happened to is a smaller thing than what this verse describes."
+   },
+   {
     "title": "Judge a conversion by what it will not do",
     "verse_label": "v. 9",
-    "text": "They feared to pick up a weapon. Look for the thing a change of heart makes unthinkable rather than the thing it makes enthusiastic."
+    "text": "They feared to pick up a weapon. Look for the thing a change of heart makes unthinkable, not the thing it makes enthusiastic."
+   },
+   {
+    "title": "A promise can outlast the failure",
+    "verse_label": "v. 11",
+    "text": "Samuel says their days will be prolonged even if they dwindle in unbelief, until the restoration the prophets spoke of arrives. Some commitments made to you are not suspended every time you fall behind on your end."
    },
    {
     "title": "Account for what you were given",
     "verse_label": "v. 15",
     "text": "The comparison turned on what each people had been shown. Measure yourself against your own opportunity."
+   },
+   {
+    "title": "Read the conditional both ways",
+    "verse_label": "v. 17",
+    "text": "The sentence that threatens the Nephites with destruction hangs on the same \"if\" that carried the promise to the Lamanites a verse earlier. A condition that sounds like a threat and one that sounds like a promise are frequently the same sentence turned around."
    }
   ],
   "questions": [
@@ -358,7 +406,7 @@
     "w2": 23,
     "quote": "except ye shall repent your houses shall be left unto you desolate"
    },
-   "reason": "the wo on the city, and the righteous who were keeping it standing",
+   "reason": "the wo on the city, and who keeps it standing",
    "targets": [
     {
      "ref": "Hel.",
@@ -372,7 +420,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel13-013"
   },
   {
    "id": "hel15-002",
@@ -398,7 +446,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel06-013"
   },
   {
    "id": "hel15-003",
@@ -410,7 +458,7 @@
     "w2": 21,
     "quote": "striving with unwearied diligence"
    },
-   "reason": "the same idea in the record’s only other form of the word, of Nephi",
+   "reason": "the same idea in the word's only other form",
    "targets": [
     {
      "ref": "Hel.",
@@ -424,7 +472,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel10-012"
+  },
+  {
+   "id": "hel15-011",
+   "scope": "BOOK",
+   "head": "Hel. 16:10",
+   "anchor": {
+    "verse": 5,
+    "w1": 22,
+    "w2": 27,
+    "quote": "they do walk circumspectly before God,"
+   },
+   "reason": "the same word, of the shrinking Nephite remnant",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 16,
+     "verse": 10,
+     "w1": 29,
+     "w2": 36,
+     "quote": "the lesser part walking more circumspectly before God.",
+     "verse_text": "And thus ended also the eighty and seventh year of the reign of the judges, the more part of the people remaining in their pride and wickedness, and the lesser part walking more circumspectly before God.",
+     "markdown": "And thus ended also the eighty and seventh year of the reign of the judges, the more part of the people remaining in their pride and wickedness, and **the lesser part walking more circumspectly before God**.",
+     "span": true
+    }
+   ],
+   "mirror": "hel16-003"
   },
   {
    "id": "hel15-004",
@@ -450,7 +524,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al24-005"
   },
   {
    "id": "hel15-005",
@@ -476,7 +550,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al27-018"
   },
   {
    "id": "hel15-006",
@@ -488,7 +562,7 @@
     "w2": 78,
     "quote": "which faith and repentance bringeth a change of heart unto them"
    },
-   "reason": "Benjamin’s people describing that change from the inside",
+   "reason": "Benjamin's people describing that change from the inside",
    "targets": [
     {
      "ref": "Mosiah",
@@ -502,7 +576,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos05-014"
   },
   {
    "id": "hel15-007",
@@ -528,7 +602,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "jac05-013"
   },
   {
    "id": "hel15-008",
@@ -554,7 +628,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "2ne30-007"
+  },
+  {
+   "id": "hel15-012",
+   "scope": "BOM",
+   "head": "3 Ne. 10:16",
+   "anchor": {
+    "verse": 11,
+    "w1": 23,
+    "w2": 33,
+    "quote": "spoken of by our fathers, and also by the prophet Zenos,"
+   },
+   "reason": "Mormon naming the prophets who said it",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 10,
+     "verse": 16,
+     "w1": 2,
+     "w2": 12,
+     "quote": "the prophet Zenos did testify of these things, and also Zenock",
+     "verse_text": "Yea, the prophet Zenos did testify of these things, and also Zenock spake concerning these things, because they testified particularly concerning us, who are the remnant of their seed.",
+     "markdown": "Yea, **the prophet Zenos did testify of these things, and also Zenock** spake concerning these things, because they testified particularly concerning us, who are the remnant of their seed.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne10-004"
   },
   {
    "id": "hel15-009",
@@ -592,7 +692,7 @@
     "w2": 51,
     "quote": "wo unto them which are with child, for they shall be heavy and cannot flee"
    },
-   "reason": "the same wo, paired the same way with those who give suck",
+   "reason": "the same wo, paired with those who give suck",
    "targets": [
     {
      "ref": "Matt.",
@@ -639,6 +739,15 @@
    ]
   },
   {
+   "verse": 5,
+   "w1": 22,
+   "w2": 27,
+   "quote": "they do walk circumspectly before God,",
+   "entries": [
+    "hel15-011"
+   ]
+  },
+  {
    "verse": 6,
    "w1": 18,
    "w2": 21,
@@ -680,7 +789,8 @@
    "w2": 33,
    "quote": "spoken of by our fathers, and also by the prophet Zenos",
    "entries": [
-    "hel15-007"
+    "hel15-007",
+    "hel15-012"
    ]
   },
   {
@@ -694,7 +804,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-26",
-  "source_sha256": "d0a4d2a853bacad2"
+  "at": "2026-09-07",
+  "source_sha256": "576d00796b8f8c5a"
  }
 }

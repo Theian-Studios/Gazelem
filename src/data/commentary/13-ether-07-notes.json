@@ -1,0 +1,852 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Ether",
+  "book_slug": "ether",
+  "chapter": 7,
+  "volume_order": "13",
+  "speakers": [
+   "Moroni"
+  ],
+  "audience": "The reader",
+  "location": "The land of Moron, Nehor, and the hill Ephraim",
+  "date": "The generations from Orihah to Shule",
+  "unit": "Kib, Corihor, Shule, and the first prophets (Ether 7)",
+  "principles": [
+   "A warning marked fulfilled inside the story",
+   "A crown taken back and handed over",
+   "A law that protected the people nobody wanted to hear"
+  ],
+  "connections": 12,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "A Nephite name fixes the Jaredite map",
+   "text": "Verse 6 places the land of Moron, where the king dwelt, near the land the Nephites called Desolation. Alma 22:30 and 31 put Desolation at the far north of Nephite territory, in the country peopled and destroyed whose bones Mosiah 8:8 describes, so this verse quietly overlays two national geographies on one map.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 22:30",
+     "start": 102,
+     "end": 112,
+     "book": "Alma",
+     "chapter": 22,
+     "verse_start": 30,
+     "verse_end": 30
+    },
+    {
+     "kind": "scripture",
+     "text": "Mosiah 8:8",
+     "start": 223,
+     "end": 233,
+     "book": "Mosiah",
+     "chapter": 8,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "The warning lands in the same chapter that recorded it",
+   "text": "Ether 6:23 has the brother of Jared warn them: \"Surely this thing leadeth into captivity.\" Verse 5 has Kib taken captive by his own son and cites that saying as brought to pass, one chapter later.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 6:23",
+     "start": 0,
+     "end": 10,
+     "book": "Ether",
+     "chapter": 6,
+     "verse_start": 23,
+     "verse_end": 23
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Steel comes out of a named hill",
+   "text": "Verse 9 has Shule molten swords out of the hill Ephraim. The hill is named nowhere else in the record, and 1 Nephi 16:18 and 2 Nephi 5:15 are the only other places the Nephite side reports working steel."
+  },
+  {
+   "n": 4,
+   "title": "The kingdom splits and is reunited inside one reign",
+   "text": "Verses 20 to 22 have the country divided between Shule and Cohor, then Cohor slain and Nimrod handing the kingdom back. Ether 10:32 and Ether 14:20 record the same shape twice more, so a divided kingdom is a recurring form in this book rather than an event.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 10:32",
+     "start": 120,
+     "end": 131,
+     "book": "Ether",
+     "chapter": 10,
+     "verse_start": 32,
+     "verse_end": 32
+    },
+    {
+     "kind": "scripture",
+     "text": "Ether 14:20",
+     "start": 136,
+     "end": 147,
+     "book": "Ether",
+     "chapter": 14,
+     "verse_start": 20,
+     "verse_end": 20
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "The law protecting the prophets is unusual in the record",
+   "text": "Verse 25 gives them power to go whithersoever they would. Alma 30:7 to 11 says the Nephite law could not touch a man for his belief; this is the other side of that principle, a positive grant of access rather than a limit on prosecution.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 30:7",
+     "start": 58,
+     "end": 67,
+     "book": "Alma",
+     "chapter": 30,
+     "verse_start": 7,
+     "verse_end": 7
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "The reign ends with the account of a crossing",
+   "text": "Verse 27 has Shule remembering the great things the Lord did for his fathers in bringing them across the great deep. Ether 6:12 is the crossing he means, three chapters and several generations back.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 6:12",
+     "start": 117,
+     "end": 127,
+     "book": "Ether",
+     "chapter": 6,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "term": "Stead",
+   "verse_label": "v. 3",
+   "text": "In the place of another. Treated at 3 Nephi 9:7. The record uses the word forty-six times and the King James Bible ninety-four. Nineteen of the record's uses fall in Ether, where reigns pass in a line."
+  },
+  {
+   "term": "Rebelled",
+   "verse_label": "v. 4",
+   "text": "Rose up against a standing authority. It appears nine times, four of them in Ether, in the record, and the King James Bible thirty-four."
+  },
+  {
+   "term": "Steel",
+   "verse_label": "v. 9",
+   "text": "Hardened iron. Treated at 2 Nephi 5:15. Five uses here against four in the King James Bible. Verse 9 has swords made of it from a hill."
+  },
+  {
+   "term": "Bestow",
+   "verse_label": "v. 22",
+   "text": "To give as a grant from a superior. The word turns up three times here, and the King James Bible nine. Verse 22 uses it of favors granted to a former enemy's grandson."
+  },
+  {
+   "term": "Idolatry",
+   "verse_label": "v. 23",
+   "text": "The worship of images or of made things. Treated at Mormon 5:15. The record uses the word six times and the King James Bible five."
+  },
+  {
+   "term": "Revile",
+   "verse_label": "v. 24",
+   "text": "To abuse with words. Treated at Jacob 3:9. Its count is eighteen times in this book, while the King James Bible twice.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 3:9",
+     "start": 32,
+     "end": 41,
+     "book": "Jacob",
+     "chapter": 3,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
+  },
+  {
+   "term": "Whithersoever",
+   "verse_label": "v. 25",
+   "text": "To whatever place. The record uses the word twelve times and the King James Bible twenty-nine. Verse 25 makes it the substance of a law."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Which brought to pass the saying of the brother of Jared",
+   "verse_label": "v. 5",
+   "text": "Moroni stopping the narrative to mark a prediction landing. Ether 6:23 is the sentence he means.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 6:23",
+     "start": 60,
+     "end": 70,
+     "book": "Ether",
+     "chapter": 6,
+     "verse_start": 23,
+     "verse_end": 23
+    }
+   ]
+  },
+  {
+   "term": "Near the land which is called Desolation by the Nephites",
+   "verse_label": "v. 6",
+   "text": "A location fixed by a name from the later record. Moroni is orienting his own readers."
+  },
+  {
+   "term": "Kib begat Shule in his old age, while he was yet in captivity",
+   "verse_label": "v. 7",
+   "text": "The next king born inside the captivity. The verse gives no rescue, only a birth."
+  },
+  {
+   "term": "He did molten out of the hill, and made swords out of steel",
+   "verse_label": "v. 9",
+   "text": "The means of the recovery, described as metalwork. The hill is named Ephraim."
+  },
+  {
+   "term": "He obtained the kingdom and restored it unto his father Kib",
+   "verse_label": "v. 9",
+   "text": "What he did with the victory. Verse 10 has Kib hand it back to him."
+  },
+  {
+   "term": "Corihor repented of the many evils which he had done",
+   "verse_label": "v. 13",
+   "text": "The rebel's turn, reported in one line. Shule then gives him power."
+  },
+  {
+   "term": "The sons of Shule crept into the house of Noah by night and slew him",
+   "verse_label": "v. 18",
+   "text": "The rescue, told without comment. Verse 18 has them break the prison door in the same sentence."
+  },
+  {
+   "term": "And the country was divided",
+   "verse_label": "v. 20",
+   "text": "Four words for a permanent split. Two kingdoms follow in the same verse."
+  },
+  {
+   "term": "There came prophets among the people, who were sent from the Lord",
+   "verse_label": "v. 23",
+   "text": "The first prophets named in this record after the landing. Their message is a curse on the land."
+  },
+  {
+   "term": "The people did revile against the prophets, and did mock them",
+   "verse_label": "v. 24",
+   "text": "The reception. King Shule's response occupies the rest of the verse."
+  },
+  {
+   "term": "Gave power unto the prophets that they should go whithersoever they would",
+   "verse_label": "v. 25",
+   "text": "The law itself, stated as freedom of movement. Verse 25 credits it with bringing the people to repentance."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 2",
+   "start": 2,
+   "end": 2,
+   "title": "A family counted twice in one sentence",
+   "text": "The record gives a total and then a breakdown of it: \"he begat thirty and one, among whom were twenty and three sons.\" Nothing in the chapter turns on either figure, and neither number is used again. The book of Ether elsewhere reports reigns without any count of children at all, so the arithmetic here is supplied for its own sake, and the smaller number is stated as a subset rather than as a separate fact."
+  },
+  {
+   "label": "v. 4",
+   "start": 4,
+   "end": 4,
+   "title": "A rebellion dated to the rebel's age",
+   "text": "The coup is fixed in time by a number that belongs to the man rather than to the calendar: \"when Corihor was thirty and two years old he rebelled against his father, and went over and dwelt in the land of Nehor.\" The book has no year count of its own, only reigns and lifetimes, so an age is the closest thing available to a date. The record uses one here and does not use one for the counter-rebellion eight verses later."
+  },
+  {
+   "label": "v. 9",
+   "start": 9,
+   "end": 9,
+   "title": "A hill, a furnace, and a material",
+   "text": "The armament is described in three specifics: \"he came to the hill Ephraim, and he did molten out of the hill, and made swords out of steel for those whom he had drawn away with him.\" The hill is named, the process is smelting rather than trade or capture, and the metal is stated. A record that reports whole reigns in a clause spends a full verse on where one man got his weapons."
+  },
+  {
+   "label": "v. 18",
+   "start": 18,
+   "end": 18,
+   "title": "A prison break reported without comment",
+   "text": "The record gives the rescue as a sequence of physical acts and nothing else: \"as he was about to put him to death, the sons of Shule crept into the house of Noah by night and slew him, and broke down the door of the prison and brought out their father.\" A killing and a jailbreak occupy one verse, no motive is discussed, and the next verse moves straight to the succession. The record neither condemns the sons nor praises them."
+  },
+  {
+   "label": "v. 24–25",
+   "start": 24,
+   "end": 25,
+   "title": "A statute protecting preachers, and what it grants",
+   "text": "The record reports two legal acts and states what the second one does: the king \"did execute judgment against all those who did revile against the prophets,\" and then \"he did execute a law throughout all the land, which gave power unto the prophets that they should go whithersoever they would.\" The right granted is movement rather than belief or office. Verse 26 gives the result as repentance and prosperity, and verse 27 closes on the king's own memory, \"he remembered the great things that the Lord had done for his fathers in bringing them across the great deep.\""
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "A prediction is marked fulfilled inside the narrative",
+   "text": "Verse 5 names the saying and the moment it landed. Moroni rarely stops to do this."
+  },
+  {
+   "n": 2,
+   "title": "A king is born in a prison",
+   "text": "Verse 7 has Kib beget Shule while still held by his own son."
+  },
+  {
+   "n": 3,
+   "title": "Metalwork decides the throne",
+   "text": "Verse 9 gives the hill, the ore, and the swords before it gives the battle."
+  },
+  {
+   "n": 4,
+   "title": "The crown is handed back before it is taken",
+   "text": "Verse 9 has Shule restore the kingdom to his father, and verse 10 has his father bestow it on him."
+  },
+  {
+   "n": 5,
+   "title": "A rebel is given office after repenting",
+   "text": "Verse 13 has Shule put Corihor in power in the kingdom Corihor had seized."
+  },
+  {
+   "n": 6,
+   "title": "The next rebel comes from that same house",
+   "text": "Verses 14 and 15 make Noah the son of the man who was pardoned."
+  },
+  {
+   "n": 7,
+   "title": "The fix was a law about speech",
+   "text": "Verse 25 gave the prophets the run of the land, and the repentance follows in the same sentence."
+  },
+  {
+   "n": 8,
+   "title": "The chapter closes as chapter 6 did",
+   "text": "Verse 27 has Shule remembering the crossing, the way Orihah did at Ether 6:30.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 6:30",
+     "start": 67,
+     "end": 77,
+     "book": "Ether",
+     "chapter": 6,
+     "verse_start": 30,
+     "verse_end": 30
+    }
+   ]
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "The warning came true on schedule",
+    "verse_label": "v. 5",
+    "text": "Corihor took the king captive, and the record notes that this brought to pass the saying of the brother of Jared about captivity. A prediction nobody acted on is still a prediction, and this book keeps the receipt."
+   },
+   {
+    "title": "Hand it back before you hold it",
+    "verse_label": "v. 9",
+    "text": "Shule restored the kingdom to his father and received it from him afterward."
+   },
+   {
+    "title": "Give a repentant man real work",
+    "verse_label": "v. 13",
+    "text": "Corihor was put in power in the kingdom he had taken by force."
+   },
+   {
+    "title": "Rescue is often just breaking a door",
+    "verse_label": "v. 18",
+    "text": "Shule's sons crept into the house by night, killed Noah, broke down the prison door and set their father back on his throne. When someone is trapped, the useful contribution tends to be physical and unglamorous."
+   },
+   {
+    "title": "Giving it up can be the move",
+    "verse_label": "v. 22",
+    "text": "Nimrod handed the kingdom of Cohor over to Shule, found favor with him, and afterward did as he pleased within Shule's kingdom. Surrendering a claim you cannot hold well sometimes buys more room than defending it."
+   },
+   {
+    "title": "The protection was the policy that worked",
+    "verse_label": "v. 24–25",
+    "text": "Shule judged those who reviled the prophets and passed a law letting the prophets go wherever they would, and the record says this is what brought the people to repentance. Defending an unpopular voice is presented here as the practical measure, not the noble gesture."
+   },
+   {
+    "title": "Protect the people you do not want to hear",
+    "verse_label": "v. 25",
+    "text": "The law gave the prophets free movement, and the mocking stopped."
+   },
+   {
+    "title": "Keep the last generation in view",
+    "verse_label": "v. 27",
+    "text": "Shule governed while remembering the crossing his fathers made."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "What warning have I heard that later came true?"
+   },
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "What has been born in me during a hard stretch?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What have I had to build in order to take something back?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "Whom have I refused a second assignment?"
+   },
+   {
+    "verse_label": "v. 18",
+    "start": 18,
+    "end": 18,
+    "text": "Who has gotten me out at a cost to themselves?"
+   },
+   {
+    "verse_label": "v. 24",
+    "start": 24,
+    "end": 24,
+    "text": "When have I mocked someone who turned out to be right?"
+   },
+   {
+    "verse_label": "v. 27",
+    "start": 27,
+    "end": 27,
+    "text": "What did the Lord do for my fathers that I still remember?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "eth07-001",
+   "scope": "BOOK",
+   "head": "Ether 6:23",
+   "anchor": {
+    "verse": 5,
+    "w1": 25,
+    "w2": 42,
+    "quote": "which brought to pass the saying of the brother of Jared that they would be brought into captivity"
+   },
+   "reason": "the sentence Moroni is marking as fulfilled",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 6,
+     "verse": 23,
+     "w1": 17,
+     "w2": 22,
+     "quote": "Surely this thing leadeth into captivity.",
+     "verse_text": "And now behold, this was grievous unto them. And the brother of Jared said unto them: Surely this thing leadeth into captivity.",
+     "markdown": "And now behold, this was grievous unto them. And the brother of Jared said unto them: **Surely this thing leadeth into captivity**.",
+     "span": true
+    }
+   ],
+   "mirror": "eth06-011"
+  },
+  {
+   "id": "eth07-002",
+   "scope": "BOOK",
+   "head": "Ether 6:30",
+   "anchor": {
+    "verse": 27,
+    "w1": 13,
+    "w2": 25,
+    "quote": "he remembered the great things that the Lord had done for his fathers"
+   },
+   "reason": "the first king doing the same thing",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 6,
+     "verse": 30,
+     "w1": 15,
+     "w2": 26,
+     "quote": "did remember how great things the Lord had done for his father,",
+     "verse_text": "And it came to pass that Orihah did walk humbly before the Lord, and did remember how great things the Lord had done for his father, and also taught his people how great things the Lord had done for their fathers.",
+     "markdown": "And it came to pass that Orihah did walk humbly before the Lord, and **did remember how great things the Lord had done for his father**, and also taught his people how great things the Lord had done for their fathers.",
+     "span": true
+    }
+   ],
+   "mirror": "eth06-012"
+  },
+  {
+   "id": "eth07-003",
+   "scope": "BOOK",
+   "head": "Ether 2:12",
+   "anchor": {
+    "verse": 23,
+    "w1": 29,
+    "w2": 35,
+    "quote": "was bringing a curse upon the land"
+   },
+   "reason": "the terms set on the land at the start",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 2,
+     "verse": 12,
+     "w1": 8,
+     "w2": 17,
+     "quote": "whatsoever nation shall possess it shall be free from bondage,",
+     "verse_text": "Behold, this is a choice land, and whatsoever nation shall possess it shall be free from bondage, and from captivity, and from all other nations under heaven, if they will but serve the God of the land, who is Jesus Christ, who hath been manifested by the things which we have written.",
+     "markdown": "Behold, this is a choice land, and **whatsoever nation shall possess it shall be free from bondage**, and from captivity, and from all other nations under heaven, if they will but serve the God of the land, who is Jesus Christ, who hath been manifested by the things which we have written.",
+     "span": true
+    }
+   ],
+   "mirror": "eth02-016"
+  },
+  {
+   "id": "eth07-004",
+   "scope": "BOOK",
+   "head": "Ether 6:27",
+   "anchor": {
+    "verse": 1,
+    "w1": 7,
+    "w2": 18,
+    "quote": "Orihah did execute judgment upon the land in righteousness all his days"
+   },
+   "reason": "the reluctant choice, and how the reign went",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 6,
+     "verse": 27,
+     "w1": 20,
+     "w2": 28,
+     "quote": "Orihah was anointed to be king over the people.",
+     "verse_text": "And it came to pass that neither would the sons of Jared, even all save it were one; and Orihah was anointed to be king over the people.",
+     "markdown": "And it came to pass that neither would the sons of Jared, even all save it were one; and **Orihah was anointed to be king over the people**.",
+     "span": true
+    }
+   ],
+   "mirror": "eth06-013"
+  },
+  {
+   "id": "eth07-011",
+   "scope": "BOOK",
+   "head": "Ether 8:2",
+   "anchor": {
+    "verse": 4,
+    "w1": 10,
+    "w2": 24,
+    "quote": "he rebelled against his father, and went over and dwelt in the land of Nehor;"
+   },
+   "reason": "the same move, one generation on",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 8,
+     "verse": 2,
+     "w1": 1,
+     "w2": 6,
+     "quote": "And Jared rebelled against his father,",
+     "verse_text": "And Jared rebelled against his father, and came and dwelt in the land of Heth. And it came to pass that he did flatter many people, because of his cunning words, until he had gained the half of the kingdom.",
+     "markdown": "**And Jared rebelled against his father**, and came and dwelt in the land of Heth. And it came to pass that he did flatter many people, because of his cunning words, until he had gained the half of the kingdom.",
+     "span": true
+    }
+   ],
+   "mirror": "eth08-001"
+  },
+  {
+   "id": "eth07-012",
+   "scope": "BOOK",
+   "head": "Ether 9:28",
+   "anchor": {
+    "verse": 23,
+    "w1": 8,
+    "w2": 19,
+    "quote": "there came prophets among the people, who were sent from the Lord,"
+   },
+   "reason": "prophets coming again, and how that king answered",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 9,
+     "verse": 28,
+     "w1": 2,
+     "w2": 12,
+     "quote": "there came prophets in the land again, crying repentance unto them—that",
+     "verse_text": "And there came prophets in the land again, crying repentance unto them—that they must prepare the way of the Lord or there should come a curse upon the face of the land; yea, even there should be a great famine, in which they should be destroyed if they did not repent.",
+     "markdown": "And **there came prophets in the land again, crying repentance unto them—that** they must prepare the way of the Lord or there should come a curse upon the face of the land; yea, even there should be a great famine, in which they should be destroyed if they did not repent.",
+     "span": true
+    }
+   ],
+   "mirror": "eth09-003"
+  },
+  {
+   "id": "eth07-005",
+   "scope": "BOM",
+   "head": "3 Ne. 30:2",
+   "anchor": {
+    "verse": 26,
+    "w1": 2,
+    "w2": 11,
+    "quote": "because the people did repent of their iniquities and idolatries"
+   },
+   "reason": "the same word in the Lord's list to the Gentiles",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 30,
+     "verse": 2,
+     "w1": 29,
+     "w2": 31,
+     "quote": "and your idolatries,",
+     "verse_text": "Turn, all ye Gentiles, from your wicked ways; and repent of your evil doings, of your lyings and deceivings, and of your whoredoms, and of your secret abominations, and your idolatries, and of your murders, and your priestcrafts, and your envyings, and your strifes, and from all your wickedness and abominations, and come unto me, and be baptized in my name, that ye may receive a remission of your sins, and be filled with the Holy Ghost, that ye may be numbered with my people who are of the house of Israel.",
+     "markdown": "Turn, all ye Gentiles, from your wicked ways; and repent of your evil doings, of your lyings and deceivings, and of your whoredoms, and of your secret abominations, **and your idolatries**, and of your murders, and your priestcrafts, and your envyings, and your strifes, and from all your wickedness and abominations, and come unto me, and be baptized in my name, that ye may receive a remission of your sins, and be filled with the Holy Ghost, that ye may be numbered with my people who are of the house of Israel.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne30-006"
+  },
+  {
+   "id": "eth07-006",
+   "scope": "BOM",
+   "head": "Mosiah 29:21",
+   "anchor": {
+    "verse": 5,
+    "w1": 9,
+    "w2": 24,
+    "quote": "he came up unto the land of Moron where the king dwelt, and took him captive"
+   },
+   "reason": "Mosiah on the cost of removing a bad king",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 29,
+     "verse": 21,
+     "w1": 8,
+     "w2": 19,
+     "quote": "ye cannot dethrone an iniquitous king save it be through much contention,",
+     "verse_text": "And behold, now I say unto you, ye cannot dethrone an iniquitous king save it be through much contention, and the shedding of much blood.",
+     "markdown": "And behold, now I say unto you, **ye cannot dethrone an iniquitous king save it be through much contention**, and the shedding of much blood.",
+     "span": true
+    }
+   ],
+   "mirror": "mos29-021"
+  },
+  {
+   "id": "eth07-007",
+   "scope": "BOM",
+   "head": "Mosiah 11:6",
+   "anchor": {
+    "verse": 23,
+    "w1": 22,
+    "w2": 28,
+    "quote": "the wickedness and idolatry of the people"
+   },
+   "reason": "the same pairing under another king",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 11,
+     "verse": 6,
+     "w1": 3,
+     "w2": 13,
+     "quote": "thus they were supported in their laziness, and in their idolatry,",
+     "verse_text": "Yea, and thus they were supported in their laziness, and in their idolatry, and in their whoredoms, by the taxes which king Noah had put upon his people; thus did the people labor exceedingly to support iniquity.",
+     "markdown": "Yea, and **thus they were supported in their laziness, and in their idolatry**, and in their whoredoms, by the taxes which king Noah had put upon his people; thus did the people labor exceedingly to support iniquity.",
+     "span": true
+    }
+   ],
+   "mirror": "mos11-025"
+  },
+  {
+   "id": "eth07-008",
+   "scope": "BOM",
+   "head": "3 Ne. 6:23",
+   "anchor": {
+    "verse": 24,
+    "w1": 7,
+    "w2": 17,
+    "quote": "the people did revile against the prophets, and did mock them"
+   },
+   "reason": "judges killing the prophets Shule protected",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 6,
+     "verse": 23,
+     "w1": 18,
+     "w2": 28,
+     "quote": "who were taken and put to death secretly by the judges,",
+     "verse_text": "Now there were many of those who testified of the things pertaining to Christ who testified boldly, who were taken and put to death secretly by the judges, that the knowledge of their death came not unto the governor of the land until after their death.",
+     "markdown": "Now there were many of those who testified of the things pertaining to Christ who testified boldly, **who were taken and put to death secretly by the judges**, that the knowledge of their death came not unto the governor of the land until after their death.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne06-012"
+  },
+  {
+   "id": "eth07-009",
+   "scope": "SW",
+   "head": "Gen. 10:8",
+   "anchor": {
+    "verse": 22,
+    "w1": 3,
+    "w2": 10,
+    "quote": "Cohor had a son who was called Nimrod"
+   },
+   "reason": "the name, and the man who first carried it",
+   "targets": [
+    {
+     "ref": "Gen.",
+     "chapter": 10,
+     "verse": 8,
+     "w1": 5,
+     "w2": 14,
+     "quote": "he began to be a mighty one in the earth.",
+     "verse_text": "And Cush begat Nimrod: he began to be a mighty one in the earth.",
+     "markdown": "And Cush begat Nimrod: **he began to be a mighty one in the earth**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "eth07-010",
+   "scope": "SW",
+   "head": "2 Chr. 36:16",
+   "anchor": {
+    "verse": 24,
+    "w1": 7,
+    "w2": 17,
+    "quote": "the people did revile against the prophets, and did mock them"
+   },
+   "reason": "Judah treating its messengers the same way",
+   "targets": [
+    {
+     "ref": "2 Chr.",
+     "chapter": 36,
+     "verse": 16,
+     "w1": 2,
+     "w2": 11,
+     "quote": "they mocked the messengers of God, and despised his words,",
+     "verse_text": "But they mocked the messengers of God, and despised his words, and misused his prophets, until the wrath of the LORD arose against his people, till there was no remedy.",
+     "markdown": "But **they mocked the messengers of God, and despised his words**, and misused his prophets, until the wrath of the LORD arose against his people, till there was no remedy.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 7,
+   "w2": 18,
+   "quote": "Orihah did execute judgment upon the land in righteousness all his days",
+   "entries": [
+    "eth07-004"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 10,
+   "w2": 24,
+   "quote": "he rebelled against his father, and went over and dwelt in the land of Nehor;",
+   "entries": [
+    "eth07-011"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 9,
+   "w2": 24,
+   "quote": "he came up unto the land of Moron where the king dwelt, and took him captive",
+   "entries": [
+    "eth07-006"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 25,
+   "w2": 42,
+   "quote": "which brought to pass the saying of the brother of Jared that they would be brought into captivity",
+   "entries": [
+    "eth07-001"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 3,
+   "w2": 10,
+   "quote": "Cohor had a son who was called Nimrod",
+   "entries": [
+    "eth07-009"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 8,
+   "w2": 19,
+   "quote": "there came prophets among the people, who were sent from the Lord,",
+   "entries": [
+    "eth07-012"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 22,
+   "w2": 28,
+   "quote": "the wickedness and idolatry of the people",
+   "entries": [
+    "eth07-007"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 29,
+   "w2": 35,
+   "quote": "was bringing a curse upon the land",
+   "entries": [
+    "eth07-003"
+   ]
+  },
+  {
+   "verse": 24,
+   "w1": 7,
+   "w2": 17,
+   "quote": "the people did revile against the prophets, and did mock them",
+   "entries": [
+    "eth07-008",
+    "eth07-010"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 2,
+   "w2": 11,
+   "quote": "because the people did repent of their iniquities and idolatries",
+   "entries": [
+    "eth07-005"
+   ]
+  },
+  {
+   "verse": 27,
+   "w1": 13,
+   "w2": 25,
+   "quote": "he remembered the great things that the Lord had done for his fathers",
+   "entries": [
+    "eth07-002"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "32cc0032e9418424"
+ }
+}

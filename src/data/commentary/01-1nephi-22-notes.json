@@ -17,7 +17,7 @@
    "Gathering",
    "Obedience"
   ],
-  "connections": 12,
+  "connections": 15,
   "initial": false
  },
  "world_behind": [
@@ -182,7 +182,7 @@
   {
    "term": "Confounded",
    "verse_label": "v. 5",
-   "text": "Scattered \"and be confounded\" (v. 5): mixed past recognition, identity dissolved among the nations. The word is the scattering's real damage, the loss of the name itself. The promise runs the other way in the same vocabulary: the righteous \"are those who shall not be confounded\" (v. 22).",
+   "text": "Scattered \"and be confounded\" (v. 5): mixed past recognition, identity dissolved among the nations. Treated at 1 Nephi 14:2. The word is the scattering's real damage, the loss of the name itself. The promise runs the other way in the same vocabulary: the righteous \"are those who shall not be confounded\" (v. 22).",
    "cites": [
     {
      "quote": "and be confounded",
@@ -200,8 +200,8 @@
     {
      "quote": "are those who shall not be confounded",
      "verse": 22,
-     "start": 240,
-     "end": 287,
+     "start": 265,
+     "end": 312,
      "spans": [
       {
        "w1": 9,
@@ -249,6 +249,38 @@
        "text": "out of obscurity and out of darkness"
       }
      ]
+    }
+   ]
+  },
+  {
+   "term": "Tumble",
+   "verse_label": "v. 14",
+   "text": "To fall over, and in this record always of something built or standing coming down. It appears seven times here and never in the King James Bible. Its first use is the destruction at the crucifixion, where mountains tumble into pieces and cities tumble to the earth (1 Ne. 12:4). Here it takes the great and abominable church, which \"shall tumble to the dust and great shall be the fall of it\" (v. 14). The verb makes the collapse ordinary, the way a stacked thing gives way.",
+   "cites": [
+    {
+     "quote": "shall tumble to the dust and great shall be the fall of it",
+     "verse": 14,
+     "start": 333,
+     "end": 401,
+     "spans": [
+      {
+       "w1": 64,
+       "w2": 76,
+       "text": "shall tumble to the dust and great shall be the fall of it"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 12:4",
+     "start": 267,
+     "end": 277,
+     "book": "1 Ne",
+     "chapter": 12,
+     "verse_start": 4,
+     "verse_end": 4
     }
    ]
   },
@@ -487,391 +519,53 @@
  ],
  "verses": [
   {
-   "label": "v. 1–3",
+   "label": "v. 1",
    "start": 1,
-   "end": 3,
-   "title": "The question, and the both-and",
-   "text": "The brothers propose \"spiritual, not flesh\"; Nephi answers with the record's standing rule: made known \"by the voice of the Spirit\" (v. 2), fulfilled \"according to the flesh\" (v. 2). Prophecy that stays spiritual asks for no repentance and predicts no history; Nephi's Isaiah does both.",
-   "cites": [
-    {
-     "quote": "by the voice of the Spirit",
-     "verse": 2,
-     "start": 103,
-     "end": 138,
-     "spans": [
-      {
-       "w1": 14,
-       "w2": 19,
-       "text": "by the voice of the Spirit"
-      }
-     ]
-    },
-    {
-     "quote": "according to the flesh",
-     "verse": 2,
-     "start": 150,
-     "end": 181,
-     "spans": [
-      {
-       "w1": 40,
-       "w2": 43,
-       "text": "according to the flesh"
-      }
-     ]
-    }
-   ]
+   "end": 1,
+   "title": "The chapter opens on a question about method",
+   "text": "What the brothers ask is not what happens next but how the text is to be taken: \"are they to be understood according to things which are spiritual, which shall come to pass according to the spirit and not the flesh?\" The record gives them a technical question and a defensible one, which is not how it usually presents them; at 1 Nephi 15:8–9 the same brothers are shown declining to inquire at all. Everything after verse 2 is answer, so the chapter is structured as commentary and its occasion is stated in its first sentence."
   },
   {
-   "label": "v. 4–6",
-   "start": 4,
-   "end": 6,
-   "title": "It meaneth us",
-   "text": "The tribes are already scattered to \"the isles of the sea\" (v. 4), the family among them, and the nursing prophecy is declared \"temporal\" (v. 6): \"it meaneth us in the days to come\" (v. 6). Likening stops being method and becomes address; the reading was never about someone else.",
-   "cites": [
-    {
-     "quote": "the isles of the sea",
-     "verse": 4,
-     "start": 36,
-     "end": 65,
-     "spans": [
-      {
-       "w1": 39,
-       "w2": 43,
-       "text": "the isles of the sea"
-      }
-     ]
-    },
-    {
-     "quote": "temporal",
-     "verse": 6,
-     "start": 127,
-     "end": 144,
-     "spans": [
-      {
-       "w1": 54,
-       "w2": 54,
-       "text": "temporal"
-      }
-     ]
-    },
-    {
-     "quote": "it meaneth us in the days to come",
-     "verse": 6,
-     "start": 146,
-     "end": 188,
-     "spans": [
-      {
-       "w1": 67,
-       "w2": 74,
-       "text": "it meaneth us in the days to come"
-      }
-     ]
-    }
-   ]
+   "label": "v. 6–8",
+   "start": 6,
+   "end": 8,
+   "title": "One borrowed clause used three times in two chapters",
+   "text": "The record draws the image of children carried in arms and on shoulders straight from the block just quoted, at 1 Nephi 21:22, \"they shall bring thy sons in their arms, and thy daughters shall be carried upon their shoulders.\" Verse 6 restates it as accomplished, \"their children have been carried in their arms, and their daughters have been carried upon their shoulders,\" and verse 8 compresses it to \"being carried in their arms and upon their shoulders.\" Three appearances, three different tenses and lengths. The middle one carries the interpretive verdict attached to it: \"behold these things of which are spoken are temporal.\""
   },
   {
-   "label": "v. 7–12",
-   "start": 7,
-   "end": 12,
-   "title": "The program of the gathering",
-   "text": "A mighty Gentile nation scatters, then nurses; a \"marvelous work\" (v. 8) goes out; Abraham's formula ( \"In thy seed shall all the kindreds of the earth be blessed\" (v. 9)) is activated as the Lord makes \"bare his arm in the eyes of the nations\" (v. 10), and Israel comes \"out of obscurity and out of darkness\" (v. 12) knowing its Redeemer. Isaiah's poem is now an itinerary.",
-   "cites": [
-    {
-     "quote": "marvelous work",
-     "verse": 8,
-     "start": 49,
-     "end": 72,
-     "spans": [
-      {
-       "w1": 15,
-       "w2": 16,
-       "text": "marvelous work"
-      }
-     ]
-    },
-    {
-     "quote": "In thy seed shall all the kindreds of the earth be blessed",
-     "verse": 9,
-     "start": 103,
-     "end": 170,
-     "spans": [
-      {
-       "w1": 39,
-       "w2": 50,
-       "text": "In thy seed shall all the kindreds of the earth be blessed"
-      }
-     ]
-    },
-    {
-     "quote": "bare his arm in the eyes of the nations",
-     "verse": 10,
-     "start": 203,
-     "end": 252,
-     "spans": [
-      {
-       "w1": 24,
-       "w2": 32,
-       "text": "bare his arm in the eyes of the nations"
-      }
-     ]
-    },
-    {
-     "quote": "out of obscurity and out of darkness",
-     "verse": 12,
-     "start": 271,
-     "end": 317,
-     "spans": [
-      {
-       "w1": 27,
-       "w2": 33,
-       "text": "out of obscurity and out of darkness"
-      }
-     ]
-    }
-   ]
+   "label": "v. 9",
+   "start": 9,
+   "end": 9,
+   "title": "The covenant supplied in its oldest wording",
+   "text": "The exposition reaches past Isaiah to quote Abraham's promise directly: \"In thy seed shall all the kindreds of the earth be blessed.\" The wording tracks Genesis 22:18 and 26:4 with \"kindreds\" where the King James text has \"nations,\" a substitution the record makes consistently, as at 1 Nephi 15:18 and 3 Nephi 20:25. The chapter thus rests a reading of Isaiah on a text older than Isaiah, and names the source as the Father's covenant with Abraham rather than as a book."
   },
   {
-   "label": "v. 13–14",
-   "start": 13,
-   "end": 14,
-   "title": "The pit receives its diggers",
-   "text": "The great and abominable church drinks \"drunken with their own blood\" (v. 13), warring nations \"shall fall into the pit which they digged to ensnare the people of the Lord\" (v. 14): the vision's pit (14:3) filled exactly as promised. Evil in this record is not defeated so much as allowed to complete its own circle.",
-   "cites": [
-    {
-     "quote": "drunken with their own blood",
-     "verse": 13,
-     "start": 39,
-     "end": 77,
-     "spans": [
-      {
-       "w1": 47,
-       "w2": 51,
-       "text": "drunken with their own blood"
-      }
-     ]
-    },
-    {
-     "quote": "shall fall into the pit which they digged to ensnare the people of the Lord",
-     "verse": 14,
-     "start": 95,
-     "end": 180,
-     "spans": [
-      {
-       "w1": 21,
-       "w2": 35,
-       "text": "shall fall into the pit which they digged to ensnare the people of the Lord"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 15–19",
+   "label": "v. 15–17",
    "start": 15,
-   "end": 19,
-   "title": "Fire, sorted",
-   "text": "The proud burn \"as stubble\" (v. 15); the righteous are \"saved, even if it so be as by fire\" (v. 17), and twice the refrain: \"the righteous need not fear\" (v. 17). The same day is furnace or refining depending on what the fire finds; verse 18's blood and smoke fall on hearts hardened \"against the Holy One of Israel\" (v. 18), not on bystanders.",
-   "cites": [
-    {
-     "quote": "as stubble",
-     "verse": 15,
-     "start": 15,
-     "end": 35,
-     "spans": [
-      {
-       "w1": 41,
-       "w2": 42,
-       "text": "as stubble"
-      }
-     ]
-    },
-    {
-     "quote": "saved, even if it so be as by fire",
-     "verse": 17,
-     "start": 55,
-     "end": 99,
-     "spans": [
-      {
-       "w1": 51,
-       "w2": 59,
-       "text": "saved, even if it so be as by fire"
-      }
-     ]
-    },
-    {
-     "quote": "the righteous need not fear",
-     "verse": 17,
-     "start": 124,
-     "end": 161,
-     "spans": [
-      {
-       "w1": 38,
-       "w2": 42,
-       "text": "the righteous need not fear"
-      }
-     ]
-    },
-    {
-     "quote": "against the Holy One of Israel",
-     "verse": 18,
-     "start": 284,
-     "end": 324,
-     "spans": [
-      {
-       "w1": 55,
-       "w2": 60,
-       "text": "against the Holy One of Israel"
-      }
-     ]
-    }
-   ]
+   "end": 17,
+   "title": "A prophet quoted three times and never named",
+   "text": "The record attributes twice by title alone, \"saith the prophet\" at verse 15 and \"thus saith the prophet\" at verse 17, then a third time at verse 23, \"according to the words of the prophet.\" The imagery in all three is Malachi's: the proud and the wicked as stubble, the burning day, and at verse 24 \"calves of the stall,\" which is Malachi 4:1–2. The record has this material available and quotes it at length under Malachi's name in 3 Nephi 24 and 25, so the anonymity here is a feature of this chapter and not of the whole record."
   },
   {
-   "label": "v. 20–23",
+   "label": "v. 20",
    "start": 20,
-   "end": 23,
-   "title": "The Prophet named, the kingdom taxed",
-   "text": "Moses' promised prophet (Deut. 18:15) is identified: \"the Holy One of Israel\" (v. 21), judge in righteousness. Against him stands the devil's kingdom, catalogued by business model: built up \"to get gain\" (v. 23), for \"power over the flesh\" (v. 23), for popularity, for lust. The list is the chapter's most quotable audit, and it measures institutions by their motives.",
-   "cites": [
-    {
-     "quote": "the Holy One of Israel",
-     "verse": 21,
-     "start": 53,
-     "end": 85,
-     "spans": [
-      {
-       "w1": 16,
-       "w2": 20,
-       "text": "the Holy One of Israel"
-      }
-     ]
-    },
-    {
-     "quote": "to get gain",
-     "verse": 23,
-     "start": 190,
-     "end": 211,
-     "spans": [
-      {
-       "w1": 14,
-       "w2": 16,
-       "text": "to get gain"
-      }
-     ]
-    },
-    {
-     "quote": "power over the flesh",
-     "verse": 23,
-     "start": 217,
-     "end": 247,
-     "spans": [
-      {
-       "w1": 26,
-       "w2": 29,
-       "text": "power over the flesh"
-      }
-     ]
-    }
-   ],
-   "refs": [
-    {
-     "kind": "scripture",
-     "text": "Deut. 18:15",
-     "start": 25,
-     "end": 36,
-     "book": "Deut",
-     "chapter": 18,
-     "verse_start": 15,
-     "verse_end": 15
-    }
-   ]
+   "end": 20,
+   "title": "The one source the chapter does name",
+   "text": "Moses is named and quoted: \"A prophet shall the Lord your God raise up unto you, like unto me; him shall ye hear in all things whatsoever he shall say unto you.\" The wording follows Deuteronomy 18:15 and 18:18–19, with the two verses of that passage joined into one sentence and the warning of verse 19 folded in after it. In a chapter that leaves Isaiah and Malachi unnamed, the single attribution by name goes to the lawgiver, and verse 21 immediately supplies an identification the source does not make."
   },
   {
-   "label": "v. 24–31",
-   "start": 24,
-   "end": 31,
-   "title": "The reign, and the close",
-   "text": "Calves of the stall, the Holy One reigning \"in dominion, and might, and power, and great glory\" (v. 24), one fold and one shepherd, Satan powerless \"because of the righteousness of his people\" (v. 26), and the book's widest door: all nations dwelling safely \"if it so be that they will repent\" (v. 28). Then Nephi stops at the boundary of permission and rests the whole book on one claim: the brass plates \"are true\" (v. 30), and their testimony is \"that a man must be obedient to the commandments of God\" (v. 30). Obedience, endurance, salvation: \"And thus it is. Amen\" (v. 31)",
-   "cites": [
-    {
-     "quote": "in dominion, and might, and power, and great glory",
-     "verse": 24,
-     "start": 43,
-     "end": 103,
-     "spans": [
-      {
-       "w1": 26,
-       "w2": 34,
-       "text": "in dominion, and might, and power, and great glory"
-      }
-     ]
-    },
-    {
-     "quote": "because of the righteousness of his people",
-     "verse": 26,
-     "start": 148,
-     "end": 200,
-     "spans": [
-      {
-       "w1": 2,
-       "w2": 8,
-       "text": "because of the righteousness of his people"
-      }
-     ]
-    },
-    {
-     "quote": "if it so be that they will repent",
-     "verse": 28,
-     "start": 258,
-     "end": 301,
-     "spans": [
-      {
-       "w1": 18,
-       "w2": 25,
-       "text": "if it so be that they will repent"
-      }
-     ]
-    },
-    {
-     "quote": "are true",
-     "verse": 30,
-     "start": 406,
-     "end": 424,
-     "spans": [
-      {
-       "w1": 22,
-       "w2": 23,
-       "text": "are true"
-      }
-     ]
-    },
-    {
-     "quote": "that a man must be obedient to the commandments of God",
-     "verse": 30,
-     "start": 449,
-     "end": 513,
-     "spans": [
-      {
-       "w1": 27,
-       "w2": 37,
-       "text": "that a man must be obedient to the commandments of God"
-      }
-     ]
-    },
-    {
-     "quote": "And thus it is. Amen",
-     "verse": 31,
-     "start": 548,
-     "end": 578,
-     "spans": [
-      {
-       "w1": 44,
-       "w2": 48,
-       "text": "And thus it is. Amen"
-      }
-     ]
-    }
-   ]
+   "label": "v. 22–23",
+   "start": 22,
+   "end": 23,
+   "title": "The same verb assigned to both groups",
+   "text": "Verse 22 says the righteous \"need not fear\"; verse 23 says the members of the devil's kingdom \"are they who need fear, and tremble, and quake.\" The record sets the two clauses a verse apart and lets the repetition do the sorting. Verse 23 then defines the second group by four purposes rather than by doctrine: built up to get gain, to get power over the flesh, to become popular in the eyes of the world, and to seek the lusts of the flesh. Three of the four concern standing among people, and none of them concerns belief."
+  },
+  {
+   "label": "v. 29",
+   "start": 29,
+   "end": 29,
+   "title": "A stated limit on the record",
+   "text": "The chapter stops on a refusal, not a conclusion: \"I durst not speak further as yet concerning these things.\" The record marks the boundary rather than passing over it silently, which is a habit that recurs at 1 Nephi 14:28 and 3 Nephi 26:11. Two verses of practical instruction follow, on the plates of brass being true and on obedience, so what is withheld is the visionary material and what is kept is the part the brothers can act on."
   }
  ],
  "chapter": [
@@ -883,7 +577,7 @@
   {
    "n": 2,
    "title": "Temporal and spiritual, permanently",
-   "text": "Nephi's both-and is the record's standing defense against two failure modes: prophecy spiritualized into harmlessness, and prophecy literalized into mere politics. Every later editor inherits the rule; covenant history is doctrine walking in the flesh."
+   "text": "The question at verse 1 offers one option, \"are they to be understood according to things which are spiritual,\" and the answer at verse 3 refuses to take it, \"things pertaining to things both temporal and spiritual.\" Verse 6 then labels a specific passage, \"behold these things of which are spoken are temporal,\" and verse 27 closes with \"all these things must come according to the flesh.\" The rule is stated three times in one chapter, and 2 Nephi 25:1–5 gives the same distinction as the reason Isaiah is hard for these hearers."
   },
   {
    "n": 3,
@@ -1125,6 +819,84 @@
     }
    ],
    "mirror": "2ne10-007"
+  },
+  {
+   "id": "1ne22-013",
+   "scope": "BOM",
+   "head": "3 Ne. 15:17",
+   "anchor": {
+    "verse": 25,
+    "w1": 23,
+    "w2": 30,
+    "quote": "there shall be one fold and one shepherd;"
+   },
+   "reason": "Christ quoting the line to the Nephites",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 15,
+     "verse": 17,
+     "w1": 23,
+     "w2": 31,
+     "quote": "and there shall be one fold, and one shepherd.",
+     "verse_text": "That other sheep I have which are not of this fold; them also I must bring, and they shall hear my voice; and there shall be one fold, and one shepherd.",
+     "markdown": "That other sheep I have which are not of this fold; them also I must bring, and they shall hear my voice; **and there shall be one fold, and one shepherd**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne15-005"
+  },
+  {
+   "id": "1ne22-014",
+   "scope": "BOM",
+   "head": "3 Ne. 25:1",
+   "anchor": {
+    "verse": 15,
+    "w1": 31,
+    "w2": 42,
+    "quote": "all the proud and they who do wickedly shall be as stubble;"
+   },
+   "reason": "the same Malachi verse as Christ gave it",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 25,
+     "verse": 1,
+     "w1": 18,
+     "w2": 24,
+     "quote": "all that do wickedly, shall be stubble;",
+     "verse_text": "For behold, the day cometh that shall burn as an oven; and all the proud, yea, and all that do wickedly, shall be stubble; and the day that cometh shall burn them up, saith the Lord of Hosts, that it shall leave them neither root nor branch.",
+     "markdown": "For behold, the day cometh that shall burn as an oven; and all the proud, yea, and **all that do wickedly, shall be stubble**; and the day that cometh shall burn them up, saith the Lord of Hosts, that it shall leave them neither root nor branch.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne25-004"
+  },
+  {
+   "id": "1ne22-015",
+   "scope": "BOM",
+   "head": "3 Ne. 25:2",
+   "anchor": {
+    "verse": 24,
+    "w1": 7,
+    "w2": 17,
+    "quote": "the righteous must be led up as calves of the stall,"
+   },
+   "reason": "the later wording, with the newer preposition",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 25,
+     "verse": 2,
+     "w1": 24,
+     "w2": 31,
+     "quote": "and grow up as calves in the stall.",
+     "verse_text": "But unto you that fear my name, shall the Son of Righteousness arise with healing in his wings; and ye shall go forth and grow up as calves in the stall.",
+     "markdown": "But unto you that fear my name, shall the Son of Righteousness arise with healing in his wings; and ye shall go forth **and grow up as calves in the stall**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne25-005"
   },
   {
    "id": "1ne22-005",
@@ -1390,8 +1162,9 @@
    "verse": 15,
    "w1": 31,
    "w2": 42,
-   "quote": "all the proud and they who do wickedly shall be as stubble",
+   "quote": "all the proud and they who do wickedly shall be as stubble;",
    "entries": [
+    "1ne22-014",
     "1ne22-007"
    ]
   },
@@ -1408,8 +1181,9 @@
    "verse": 24,
    "w1": 7,
    "w2": 17,
-   "quote": "the righteous must be led up as calves of the stall",
+   "quote": "the righteous must be led up as calves of the stall,",
    "entries": [
+    "1ne22-015",
     "1ne22-009"
    ]
   },
@@ -1417,8 +1191,9 @@
    "verse": 25,
    "w1": 23,
    "w2": 30,
-   "quote": "there shall be one fold and one shepherd",
+   "quote": "there shall be one fold and one shepherd;",
    "entries": [
+    "1ne22-013",
     "1ne22-010"
    ]
   },
@@ -1442,7 +1217,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "989b8f4eaf229fa9"
+  "at": "2026-09-07",
+  "source_sha256": "c7d00b54bd2e1362"
  }
 }

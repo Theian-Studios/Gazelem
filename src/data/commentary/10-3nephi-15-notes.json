@@ -1,0 +1,908 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "3 Nephi",
+  "book_slug": "3nephi",
+  "chapter": 15,
+  "volume_order": "10",
+  "speakers": [
+   "Jesus Christ"
+  ],
+  "audience": "The multitude, then the twelve",
+  "location": "The temple in the land Bountiful",
+  "date": "AD 34",
+  "unit": "The law fulfilled and the other sheep (3 Nephi 15–16)",
+  "principles": [
+   "A law ended and prophecies kept",
+   "A saying explained because he saw they had missed it",
+   "Hearers identified as the subject of an old sentence"
+  ],
+  "connections": 15,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "He answers what nobody asked",
+   "text": "Verse 2 has him read the wonder on their faces about the law of Moses, and no question is recorded. The chapter is a reply to an unspoken one."
+  },
+  {
+   "n": 2,
+   "title": "The question had already split this people",
+   "text": "3 Nephi 1:24 reports men preaching that it was no more expedient to observe the law of Moses, and 1:25 has them convinced of their error in that same year. The faces in verse 2 belong to a people who argued this out thirty-three years earlier and were told the law was not yet fulfilled."
+  },
+  {
+   "n": 3,
+   "title": "The end of the law is dated by a later book",
+   "text": "4 Nephi 1:12 says they walked no more after the performances and ordinances of the law of Moses, but after the commandments received from their Lord. The instruction in verses 4 through 8 is the moment that change begins."
+  },
+  {
+   "n": 4,
+   "title": "This is where the quoted sermon stops",
+   "text": "3 Nephi 12 through 14 track Matthew 5 through 7 closely enough to be diffed against them. This chapter has no Matthew counterpart, so from here the record carries material a reader cannot check against another book."
+  },
+  {
+   "n": 5,
+   "title": "He states what he was not commanded to say",
+   "text": "Verses 16 through 18 name the limit put on what he told those at Jerusalem, and verse 19 gives the reason: the separation was because of their iniquity."
+  },
+  {
+   "n": 6,
+   "title": "The other sheep sentence is identified",
+   "text": "Verse 21 tells them they are the people John 10:16 was about, quoting the verse back to them almost word for word.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "John 10:16",
+     "start": 40,
+     "end": 50,
+     "book": "John",
+     "chapter": 10,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "Jerusalem guessed wrong",
+   "text": "Verses 22 and 23 say they supposed he meant the Gentiles, and verse 20 has already added a third group, the other tribes, that neither side knew about."
+  }
+ ],
+ "words": [
+  {
+   "term": "Ascended",
+   "verse_label": "v. 1",
+   "text": "Went up. The record uses the word nine times, five of them in this book, and the King James Bible nineteen. Verse 1 dates the sermon they just heard to before his ascension."
+  },
+  {
+   "term": "Endureth",
+   "verse_label": "v. 9",
+   "text": "Continues, holds out. It appears eleven times in the record, and the King James Bible fifty-nine. Verse 9 attaches eternal life to it."
+  },
+  {
+   "term": "Inheritance",
+   "verse_label": "v. 13",
+   "text": "Land or property held by right of descent. The record uses the word fifty-nine times and the King James Bible two hundred and thirty-nine. Verse 13 applies it to the land they are standing on."
+  },
+  {
+   "term": "Fold",
+   "verse_label": "v. 17",
+   "text": "An enclosure for sheep, and the flock in it. Treated at Alma 5:39, of the fold of God. The word turns up fourteen times here, and the King James Bible nine, including John 10:16.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 5:39",
+     "start": 56,
+     "end": 65,
+     "book": "Alma",
+     "chapter": 5,
+     "verse_start": 39,
+     "verse_end": 39
+    },
+    {
+     "kind": "scripture",
+     "text": "John 10:16",
+     "start": 167,
+     "end": 177,
+     "book": "John",
+     "chapter": 10,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
+  },
+  {
+   "term": "Stiffneckedness",
+   "verse_label": "v. 18",
+   "text": "Stubbornness. Treated at 1 Nephi 2:11. Verse 18 gives it as the reason he was commanded to say no more at Jerusalem."
+  },
+  {
+   "term": "Separated",
+   "verse_label": "v. 19",
+   "text": "Set apart, divided off. The record uses the word eleven times, twice in this chapter, and the King James Bible thirty-three. Verses 19 and 20 use it of this people and of the other tribes."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Ye have heard the things which I taught before I ascended to my Father",
+   "verse_label": "v. 1",
+   "text": "The sermon placed in time. What they have just heard is what he taught in Judea before the resurrection."
+  },
+  {
+   "term": "They understood not the saying that old things had passed away",
+   "verse_label": "v. 2",
+   "text": "Mormon reports the confusion and Christ answers it. The question about the law of Moses is never spoken aloud."
+  },
+  {
+   "term": "I am he that gave the law, and I am he who covenanted with my people Israel",
+   "verse_label": "v. 5",
+   "text": "The claim behind the ending of the law. The one ending it is the one who gave it."
+  },
+  {
+   "term": "As many as have not been fulfilled in me... shall all be fulfilled",
+   "verse_label": "v. 6",
+   "text": "The prophets are kept. Verse 7 repeats it: an end to the old leaves untouched what is still to come."
+  },
+  {
+   "term": "The covenant which I have made with my people is not all fulfilled",
+   "verse_label": "v. 8",
+   "text": "The distinction the chapter turns on. The law has an end; the covenant does not."
+  },
+  {
+   "term": "Behold, I am the law, and the light",
+   "verse_label": "v. 9",
+   "text": "Four words that replace an institution with a person. Romans 10:4 makes the same move in different terms."
+  },
+  {
+   "term": "Ye are a light unto this people, who are a remnant of the house of Joseph",
+   "verse_label": "v. 12",
+   "text": "The twelve told what they are and whose remnant. 3 Nephi 12:14 had given the whole multitude the same word."
+  },
+  {
+   "term": "Not at any time hath the Father given me commandment that I should tell it unto your brethren at Jerusalem",
+   "verse_label": "v. 14",
+   "text": "A negative statement about revelation. He reports what he was not authorized to disclose, and to whom."
+  },
+  {
+   "term": "Other sheep I have which are not of this fold",
+   "verse_label": "v. 17",
+   "text": "The sentence quoted from John 10:16 word for word, and then explained to the people it was about.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "John 10:16",
+     "start": 25,
+     "end": 35,
+     "book": "John",
+     "chapter": 10,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
+  },
+  {
+   "term": "They supposed it had been the Gentiles",
+   "verse_label": "v. 22",
+   "text": "Jerusalem's reading of the saying. Verse 23 gives two reasons it was wrong."
+  },
+  {
+   "term": "Ye have both heard my voice, and seen me",
+   "verse_label": "v. 24",
+   "text": "The distinguishing fact. Verse 23 had said the Gentiles would hear him only by the Holy Ghost."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 2",
+   "start": 2,
+   "end": 2,
+   "title": "A correction prompted by a look at the crowd",
+   "text": "The record explains why the next nine verses exist, and the reason is an observation: \"he perceived that there were some among them who marveled, and wondered what he would concerning the law of Moses; for they understood not the saying that old things had passed away.\" Nobody asks a question. The teaching that follows is offered because a difficulty was noticed, and the record names both the difficulty and the phrase that caused it."
+  },
+  {
+   "label": "v. 4–8",
+   "start": 4,
+   "end": 8,
+   "title": "Three categories, three different statuses",
+   "text": "The record separates things that are usually run together. The law: \"the law is fulfilled that was given unto Moses,\" and again \"the law which was given unto Moses hath an end in me.\" The prophets: \"I do not destroy the prophets, for as many as have not been fulfilled in me, verily I say unto you, shall all be fulfilled.\" The covenant: \"the covenant which I have made with my people is not all fulfilled.\" One thing is finished, one is partly outstanding, and one is explicitly not destroyed. The distinctions are made in five verses and each is stated in its own clause."
+  },
+  {
+   "label": "v. 9",
+   "start": 9,
+   "end": 9,
+   "title": "Five words that close the argument",
+   "text": "After the categories are sorted the record gives the identification in the shortest sentence of the chapter: \"Behold, I am the law, and the light.\" What follows is an instruction rather than an elaboration, \"Look unto me, and endure to the end, and ye shall live.\" Verse 10 then folds the whole of the previous section into the same claim: \"this is the law and the prophets, for they truly testified of me.\""
+  },
+  {
+   "label": "v. 14–16",
+   "start": 14,
+   "end": 16,
+   "title": "Two things not commanded, then one thing commanded",
+   "text": "The record states the limits before the content, and it states them as absolutes: \"not at any time hath the Father given me commandment that I should tell it unto your brethren at Jerusalem\"; \"Neither at any time hath the Father given me commandment that I should tell unto them concerning the other tribes of the house of Israel.\" Only then does verse 16 give the positive, \"This much did the Father command me, that I should tell unto them.\" A reader learns what a speaker was forbidden to say before learning what he said."
+  },
+  {
+   "label": "v. 24",
+   "start": 24,
+   "end": 24,
+   "title": "The distinguishing evidence is two senses",
+   "text": "The chapter closes on what separates this audience from the one in Jerusalem, and it is stated physically: \"ye have both heard my voice, and seen me; and ye are my sheep, and ye are numbered among those whom the Father hath given me.\" Hearing and sight, in that order, and the record has already reported both, the voice at 3 Ne. 11:3–6 and the sight at 3 Ne. 11:8. The claim rests on two events the book has already narrated.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "3 Ne. 11:3–6",
+     "start": 324,
+     "end": 336,
+     "book": "3 Ne",
+     "chapter": 11,
+     "verse_start": 3,
+     "verse_end": 6
+    },
+    {
+     "kind": "scripture",
+     "text": "3 Ne. 11:8",
+     "start": 354,
+     "end": 364,
+     "book": "3 Ne",
+     "chapter": 11,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "He answers a question that was only thought",
+   "text": "Verse 2 has him perceiving the puzzlement. The chapter exists because he noticed something in their faces."
+  },
+  {
+   "n": 2,
+   "title": "Ending the law is not ending prophecy",
+   "text": "Verses 6 and 7 make the point twice. The record is careful that \"all things have become new\" is not heard as a cancellation of the future."
+  },
+  {
+   "n": 3,
+   "title": "The covenant outlives the law",
+   "text": "Verse 8 keeps them apart in one sentence. That distinction runs through the rest of 3 Nephi."
+  },
+  {
+   "n": 4,
+   "title": "The institution is replaced by a person",
+   "text": "Verse 9 says he is the law and the light. Everything the law did is now located in him."
+  },
+  {
+   "n": 5,
+   "title": "He describes the limits of his own commission",
+   "text": "Verses 14 and 15 report what he was not commanded to say. The record is willing to show a boundary on disclosure."
+  },
+  {
+   "n": 6,
+   "title": "A famous sentence gets its referent",
+   "text": "Verse 21 identifies these people as the other sheep of John 10:16, and 3 Nephi 16:1 will name yet another group.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "John 10:16",
+     "start": 55,
+     "end": 65,
+     "book": "John",
+     "chapter": 10,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "Misunderstanding is explained, not blamed only",
+   "text": "Verse 22 gives what Jerusalem supposed and verse 23 gives what they did not know. The error is described in detail."
+  },
+  {
+   "n": 8,
+   "title": "The chapter ends on evidence",
+   "text": "Verse 24 says these have heard his voice and seen him. The distinction from the Gentiles is stated as a matter of fact rather than of rank."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Answer the question people did not ask",
+    "verse_label": "v. 2",
+    "text": "He saw them marvel and wonder about the law of Moses, and addressed that instead of continuing. Watch faces as well as questions, and answer the thing that is actually stopping people."
+   },
+   {
+    "title": "Say what has ended and what has not, separately",
+    "verse_label": "v. 8",
+    "text": "The law is ended and the covenant is not, and the sentence keeps both: \"the covenant which I have made with my people is not all fulfilled.\" When something in your life is over, be exact about which part; a general sense that a season has closed usually takes too much with it."
+   },
+   {
+    "title": "Put something in the place of what you removed",
+    "verse_label": "v. 9",
+    "text": "Having ended the law he supplies the replacement in the same breath, \"Behold, I am the law, and the light. Look unto me, and endure to the end.\" A correction that takes away a practice and leaves nothing standing where it was will not hold."
+   },
+   {
+    "title": "Say what you were not authorized to say",
+    "verse_label": "v. 16–18",
+    "text": "He reports the commandment he received, delivers it, and then reports the further thing he was told to withhold, \"I was commanded to say no more.\" Being able to name the edge of your instructions is part of carrying them honestly."
+   },
+   {
+    "title": "Notice when misunderstanding closed a door",
+    "verse_label": "v. 18",
+    "text": "The reason the fuller explanation stopped was that the first hearers \"understood not my word.\" What people fail to take in changes what they are given next. If you keep not understanding something, treat that as urgent rather than as background."
+   },
+   {
+    "title": "Give people their own name in the story",
+    "verse_label": "v. 21",
+    "text": "He told them they were the other sheep, and repeated the claim at verse 24, \"ye are my sheep, and ye are numbered among those whom the Father hath given me.\" People act differently once they know which part of the account is about them."
+   },
+   {
+    "title": "Sort what you have met from what you have been told",
+    "verse_label": "v. 23–24",
+    "text": "The contrast is exact: one group did not hear the voice, and this group \"have both heard my voice, and seen me.\" Weigh your own knowledge the same way, and do not let the second kind borrow the confidence of the first."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What have I marveled at without asking about it?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "What promise am I treating as cancelled that was only deferred?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What am I looking to instead of him?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "What land or place am I treating as an inheritance?"
+   },
+   {
+    "verse_label": "v. 18",
+    "start": 18,
+    "end": 18,
+    "text": "Where has my stubbornness stopped an explanation?"
+   },
+   {
+    "verse_label": "v. 22",
+    "start": 22,
+    "end": 22,
+    "text": "What have I supposed a message meant, and been wrong?"
+   },
+   {
+    "verse_label": "v. 24",
+    "start": 24,
+    "end": 24,
+    "text": "What have I heard and seen for myself?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "3ne15-001",
+   "scope": "BOOK",
+   "head": "3 Ne. 12:47",
+   "anchor": {
+    "verse": 2,
+    "w1": 34,
+    "w2": 51,
+    "quote": "they understood not the saying that old things had passed away, and that all things had become new"
+   },
+   "reason": "the sentence in the sermon that puzzled them",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 12,
+     "verse": 47,
+     "w1": 1,
+     "w2": 11,
+     "quote": "Old things are done away, and all things have become new.",
+     "verse_text": "Old things are done away, and all things have become new.",
+     "markdown": "**Old things are done away, and all things have become new**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne12-012"
+  },
+  {
+   "id": "3ne15-002",
+   "scope": "BOOK",
+   "head": "3 Ne. 12:46",
+   "anchor": {
+    "verse": 5,
+    "w1": 20,
+    "w2": 33,
+    "quote": "the law in me is fulfilled, for I have come to fulfil the law"
+   },
+   "reason": "the same claim made at the close of the sermon",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 12,
+     "verse": 46,
+     "w1": 2,
+     "w2": 18,
+     "quote": "those things which were of old time, which were under the law, in me are all fulfilled.",
+     "verse_text": "Therefore those things which were of old time, which were under the law, in me are all fulfilled.",
+     "markdown": "Therefore **those things which were of old time, which were under the law, in me are all fulfilled**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne12-003"
+  },
+  {
+   "id": "3ne15-003",
+   "scope": "BOOK",
+   "head": "3 Ne. 1:25",
+   "anchor": {
+    "verse": 4,
+    "w1": 7,
+    "w2": 15,
+    "quote": "the law is fulfilled that was given unto Moses"
+   },
+   "reason": "the dispute settled thirty years earlier, the law unfulfilled",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 1,
+     "verse": 25,
+     "w1": 29,
+     "w2": 43,
+     "quote": "the law was not yet fulfilled, and that it must be fulfilled in every whit;",
+     "verse_text": "But it came to pass that they soon became converted, and were convinced of the error which they were in, for it was made known unto them that the law was not yet fulfilled, and that it must be fulfilled in every whit; yea, the word came unto them that it must be fulfilled; yea, that one jot or tittle should not pass away till it should all be fulfilled; therefore in this same year were they brought to a knowledge of their error and did confess their faults.",
+     "markdown": "But it came to pass that they soon became converted, and were convinced of the error which they were in, for it was made known unto them that **the law was not yet fulfilled, and that it must be fulfilled in every whit**; yea, the word came unto them that it must be fulfilled; yea, that one jot or tittle should not pass away till it should all be fulfilled; therefore in this same year were they brought to a knowledge of their error and did confess their faults.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne01-003"
+  },
+  {
+   "id": "3ne15-004",
+   "scope": "BOOK",
+   "head": "3 Ne. 16:1",
+   "anchor": {
+    "verse": 21,
+    "w1": 8,
+    "w2": 24,
+    "quote": "ye are they of whom I said: Other sheep I have which are not of this fold"
+   },
+   "reason": "a further group of other sheep, named next chapter",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 16,
+     "verse": 1,
+     "w1": 9,
+     "w2": 24,
+     "quote": "I have other sheep, which are not of this land, neither of the land of Jerusalem,",
+     "verse_text": "And verily, verily, I say unto you that I have other sheep, which are not of this land, neither of the land of Jerusalem, neither in any parts of that land round about whither I have been to minister.",
+     "markdown": "And verily, verily, I say unto you that **I have other sheep, which are not of this land, neither of the land of Jerusalem**, neither in any parts of that land round about whither I have been to minister.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne16-001"
+  },
+  {
+   "id": "3ne15-011",
+   "scope": "BOOK",
+   "head": "3 Ne. 25:4",
+   "anchor": {
+    "verse": 5,
+    "w1": 20,
+    "w2": 33,
+    "quote": "the law in me is fulfilled, for I have come to fulfil the law;"
+   },
+   "reason": "Malachi's closing charge to remember the law",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 25,
+     "verse": 4,
+     "w1": 1,
+     "w2": 8,
+     "quote": "Remember ye the law of Moses, my servant,",
+     "verse_text": "Remember ye the law of Moses, my servant, which I commanded unto him in Horeb for all Israel, with the statutes and judgments.",
+     "markdown": "**Remember ye the law of Moses, my servant**, which I commanded unto him in Horeb for all Israel, with the statutes and judgments.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne25-002"
+  },
+  {
+   "id": "3ne15-012",
+   "scope": "BOOK",
+   "head": "3 Ne. 16:16",
+   "anchor": {
+    "verse": 13,
+    "w1": 3,
+    "w2": 17,
+    "quote": "this is the land of your inheritance; and the Father hath given it unto you."
+   },
+   "reason": "the grant restated when the Gentiles are warned",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 16,
+     "verse": 16,
+     "w1": 13,
+     "w2": 23,
+     "quote": "I should give unto this people this land for their inheritance.",
+     "verse_text": "Verily, verily, I say unto you, thus hath the Father commanded me—that I should give unto this people this land for their inheritance.",
+     "markdown": "Verily, verily, I say unto you, thus hath the Father commanded me—that **I should give unto this people this land for their inheritance**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne16-004"
+  },
+  {
+   "id": "3ne15-013",
+   "scope": "BOOK",
+   "head": "3 Ne. 20:14",
+   "anchor": {
+    "verse": 13,
+    "w1": 3,
+    "w2": 17,
+    "quote": "this is the land of your inheritance; and the Father hath given it unto you."
+   },
+   "reason": "the grant given again on the second day",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 20,
+     "verse": 14,
+     "w1": 2,
+     "w2": 17,
+     "quote": "the Father hath commanded me that I should give unto you this land, for your inheritance.",
+     "verse_text": "And the Father hath commanded me that I should give unto you this land, for your inheritance.",
+     "markdown": "And **the Father hath commanded me that I should give unto you this land, for your inheritance**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne20-003"
+  },
+  {
+   "id": "3ne15-014",
+   "scope": "BOOK",
+   "head": "3 Ne. 16:6",
+   "anchor": {
+    "verse": 23,
+    "w1": 30,
+    "w2": 43,
+    "quote": "I should not manifest myself unto them save it were by the Holy Ghost."
+   },
+   "reason": "the Gentiles believing on the word of witnesses",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 16,
+     "verse": 6,
+     "w1": 12,
+     "w2": 27,
+     "quote": "in and of the Holy Ghost, which witnesses unto them of me and of the Father.",
+     "verse_text": "And blessed are the Gentiles, because of their belief in me, in and of the Holy Ghost, which witnesses unto them of me and of the Father.",
+     "markdown": "And blessed are the Gentiles, because of their belief in me, **in and of the Holy Ghost, which witnesses unto them of me and of the Father**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne16-002"
+  },
+  {
+   "id": "3ne15-015",
+   "scope": "BOOK",
+   "head": "3 Ne. 24:17",
+   "anchor": {
+    "verse": 24,
+    "w1": 13,
+    "w2": 28,
+    "quote": "ye are my sheep, and ye are numbered among those whom the Father hath given me."
+   },
+   "reason": "Malachi's jewels, gathered on the day of reckoning",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 24,
+     "verse": 17,
+     "w1": 1,
+     "w2": 19,
+     "quote": "And they shall be mine, saith the Lord of Hosts, in that day when I make up my jewels;",
+     "verse_text": "And they shall be mine, saith the Lord of Hosts, in that day when I make up my jewels; and I will spare them as a man spareth his own son that serveth him.",
+     "markdown": "**And they shall be mine, saith the Lord of Hosts, in that day when I make up my jewels**; and I will spare them as a man spareth his own son that serveth him.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne24-003"
+  },
+  {
+   "id": "3ne15-005",
+   "scope": "BOM",
+   "head": "1 Ne. 22:25",
+   "anchor": {
+    "verse": 17,
+    "w1": 23,
+    "w2": 31,
+    "quote": "and there shall be one fold, and one shepherd"
+   },
+   "reason": "the first Nephi using the same phrase of the gathering",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 22,
+     "verse": 25,
+     "w1": 23,
+     "w2": 30,
+     "quote": "there shall be one fold and one shepherd;",
+     "verse_text": "And he gathereth his children from the four quarters of the earth; and he numbereth his sheep, and they know him; and there shall be one fold and one shepherd; and he shall feed his sheep, and in him they shall find pasture.",
+     "markdown": "And he gathereth his children from the four quarters of the earth; and he numbereth his sheep, and they know him; and **there shall be one fold and one shepherd**; and he shall feed his sheep, and in him they shall find pasture.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne22-013"
+  },
+  {
+   "id": "3ne15-006",
+   "scope": "BOM",
+   "head": "2 Ne. 3:5",
+   "anchor": {
+    "verse": 12,
+    "w1": 6,
+    "w2": 21,
+    "quote": "ye are a light unto this people, who are a remnant of the house of Joseph"
+   },
+   "reason": "the branch broken off from Joseph, as Joseph foresaw it",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 3,
+     "verse": 5,
+     "w1": 41,
+     "w2": 48,
+     "quote": "a branch which was to be broken off,",
+     "verse_text": "Wherefore, Joseph truly saw our day. And he obtained a promise of the Lord, that out of the fruit of his loins the Lord God would raise up a righteous branch unto the house of Israel; not the Messiah, but a branch which was to be broken off, nevertheless, to be remembered in the covenants of the Lord that the Messiah should be made manifest unto them in the latter days, in the spirit of power, unto the bringing of them out of darkness unto light—yea, out of hidden darkness and out of captivity unto freedom.",
+     "markdown": "Wherefore, Joseph truly saw our day. And he obtained a promise of the Lord, that out of the fruit of his loins the Lord God would raise up a righteous branch unto the house of Israel; not the Messiah, but **a branch which was to be broken off**, nevertheless, to be remembered in the covenants of the Lord that the Messiah should be made manifest unto them in the latter days, in the spirit of power, unto the bringing of them out of darkness unto light—yea, out of hidden darkness and out of captivity unto freedom.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne03-011"
+  },
+  {
+   "id": "3ne15-007",
+   "scope": "BOM",
+   "head": "2 Ne. 31:20",
+   "anchor": {
+    "verse": 9,
+    "w1": 9,
+    "w2": 20,
+    "quote": "Look unto me, and endure to the end, and ye shall live"
+   },
+   "reason": "Nephi describing what enduring to the end consists of",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 31,
+     "verse": 20,
+     "w1": 27,
+     "w2": 42,
+     "quote": "if ye shall press forward, feasting upon the word of Christ, and endure to the end,",
+     "verse_text": "Wherefore, ye must press forward with a steadfastness in Christ, having a perfect brightness of hope, and a love of God and of all men. Wherefore, if ye shall press forward, feasting upon the word of Christ, and endure to the end, behold, thus saith the Father: Ye shall have eternal life.",
+     "markdown": "Wherefore, ye must press forward with a steadfastness in Christ, having a perfect brightness of hope, and a love of God and of all men. Wherefore, **if ye shall press forward, feasting upon the word of Christ, and endure to the end**, behold, thus saith the Father: Ye shall have eternal life.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne31-018"
+  },
+  {
+   "id": "3ne15-008",
+   "scope": "SW",
+   "head": "John 10:16",
+   "anchor": {
+    "verse": 17,
+    "w1": 1,
+    "w2": 11,
+    "quote": "That other sheep I have which are not of this fold"
+   },
+   "reason": "the sentence as the gospel has it, word for word",
+   "targets": [
+    {
+     "ref": "John",
+     "chapter": 10,
+     "verse": 16,
+     "w1": 2,
+     "w2": 11,
+     "quote": "other sheep I have, which are not of this fold:",
+     "verse_text": "And other sheep I have, which are not of this fold: them also I must bring, and they shall hear my voice; and there shall be one fold, and one shepherd.",
+     "markdown": "And **other sheep I have, which are not of this fold**: them also I must bring, and they shall hear my voice; and there shall be one fold, and one shepherd.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne15-009",
+   "scope": "SW",
+   "head": "Matt. 5:17",
+   "anchor": {
+    "verse": 6,
+    "w1": 1,
+    "w2": 7,
+    "quote": "Behold, I do not destroy the prophets"
+   },
+   "reason": "the same disclaimer at the start of the Judean sermon",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 5,
+     "verse": 17,
+     "w1": 1,
+     "w2": 13,
+     "quote": "Think not that I am come to destroy the law, or the prophets:",
+     "verse_text": "Think not that I am come to destroy the law, or the prophets: I am not come to destroy, but to fulfil.",
+     "markdown": "**Think not that I am come to destroy the law, or the prophets**: I am not come to destroy, but to fulfil.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne15-010",
+   "scope": "SW",
+   "head": "Rom. 10:4",
+   "anchor": {
+    "verse": 8,
+    "w1": 17,
+    "w2": 28,
+    "quote": "the law which was given unto Moses hath an end in me"
+   },
+   "reason": "Paul putting the same claim in five words",
+   "targets": [
+    {
+     "ref": "Rom.",
+     "chapter": 10,
+     "verse": 4,
+     "w1": 2,
+     "w2": 10,
+     "quote": "Christ is the end of the law for righteousness",
+     "verse_text": "For Christ is the end of the law for righteousness to every one that believeth.",
+     "markdown": "For **Christ is the end of the law for righteousness** to every one that believeth.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 34,
+   "w2": 51,
+   "quote": "they understood not the saying that old things had passed away, and that all things had become new",
+   "entries": [
+    "3ne15-001"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 7,
+   "w2": 15,
+   "quote": "the law is fulfilled that was given unto Moses",
+   "entries": [
+    "3ne15-003"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 20,
+   "w2": 33,
+   "quote": "the law in me is fulfilled, for I have come to fulfil the law",
+   "entries": [
+    "3ne15-002",
+    "3ne15-011"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 1,
+   "w2": 7,
+   "quote": "Behold, I do not destroy the prophets",
+   "entries": [
+    "3ne15-009"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 17,
+   "w2": 28,
+   "quote": "the law which was given unto Moses hath an end in me",
+   "entries": [
+    "3ne15-010"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 9,
+   "w2": 20,
+   "quote": "Look unto me, and endure to the end, and ye shall live",
+   "entries": [
+    "3ne15-007"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 6,
+   "w2": 21,
+   "quote": "ye are a light unto this people, who are a remnant of the house of Joseph",
+   "entries": [
+    "3ne15-006"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 3,
+   "w2": 17,
+   "quote": "this is the land of your inheritance; and the Father hath given it unto you.",
+   "entries": [
+    "3ne15-012",
+    "3ne15-013"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 1,
+   "w2": 11,
+   "quote": "That other sheep I have which are not of this fold",
+   "entries": [
+    "3ne15-008"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 23,
+   "w2": 31,
+   "quote": "and there shall be one fold, and one shepherd",
+   "entries": [
+    "3ne15-005"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 8,
+   "w2": 24,
+   "quote": "ye are they of whom I said: Other sheep I have which are not of this fold",
+   "entries": [
+    "3ne15-004"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 30,
+   "w2": 43,
+   "quote": "I should not manifest myself unto them save it were by the Holy Ghost.",
+   "entries": [
+    "3ne15-014"
+   ]
+  },
+  {
+   "verse": 24,
+   "w1": 13,
+   "w2": 28,
+   "quote": "ye are my sheep, and ye are numbered among those whom the Father hath given me.",
+   "entries": [
+    "3ne15-015"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "5fec0ad9667a54de"
+ }
+}

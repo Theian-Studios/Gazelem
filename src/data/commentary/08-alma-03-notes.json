@@ -39,7 +39,29 @@
   {
    "n": 4,
    "title": "Red, and where they put it",
-   "text": "The Amlicites chose a color and chose the most legible place on a body. Forehead marks run through scripture in both directions. Ezekiel's men who sigh and cry are marked there so they will be spared, and Revelation's are marked there to show whose they are. A mark on the forehead is not for the wearer to see."
+   "text": "The Amlicites chose a color and chose the most legible place on a body. Forehead marks run through scripture in both directions. Ezekiel's men who sigh and cry (Ezek. 9:4) are marked there so they will be spared, and Revelation's (Rev. 13:16) are marked there to show whose they are. A mark on the forehead is not for the wearer to see.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ezek. 9:4",
+     "start": 161,
+     "end": 170,
+     "book": "Ezek",
+     "chapter": 9,
+     "verse_start": 4,
+     "verse_end": 4
+    },
+    {
+     "kind": "scripture",
+     "text": "Rev. 13:16",
+     "start": 231,
+     "end": 241,
+     "book": "Rev",
+     "chapter": 13,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
   },
   {
    "n": 5,
@@ -163,7 +185,19 @@
    "start": 10,
    "end": 12,
    "title": "Who counts as which",
-   "text": "Two definitions, back to back. Whoever let himself be led away was filed under that head and marked. Whoever believed the records out of Jerusalem, and the traditions that were correct, and kept the commandments, was called a Nephite from that time on. Verse 12 adds what the Nephites are for: they kept the records, of their own people and of the other."
+   "text": "The record replaces descent with a two-part test and states both halves in the same construction. One side is defined by a single act, \"whosoever suffered himself to be led away by the Lamanites was called under that head.\" The other takes four conditions: not believing the Lamanite tradition, believing \"those records which were brought out of the land of Jerusalem,\" believing the correct tradition of the fathers, and keeping the commandments. Verse 12 then names the function that follows, \"it is they who have kept the records which are true of their people, and also of the people of the Lamanites.\" Jacob 1:14 drew the same line by a different criterion, friendliness to Nephi, four hundred years earlier in the record.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 1:14",
+     "start": 607,
+     "end": 617,
+     "book": "Jacob",
+     "chapter": 1,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
   },
   {
    "label": "v. 13–19",
@@ -184,7 +218,7 @@
    "start": 25,
    "end": 27,
    "title": "One year, and the wages",
-   "text": "All of it started and finished inside the fifth year. Thousands and tens of thousands went to the eternal world to reap according to their works, in the direction their chosen spirit pointed. The chapter ends on a sentence about wages and then, flatly, on the date."
+   "text": "The record dates the whole sequence to a single year, \"commenced and ended in the fifth year of the reign of the judges,\" and then gives the casualties as an order of magnitude rather than a figure, \"thousands and tens of thousands of souls.\" Verse 27 supplies a general principle in the middle of a battle summary, \"every man receiveth wages of him whom he listeth to obey,\" and attributes it, \"according to the words of the spirit of prophecy.\" The chapter then closes on the same date it opened the paragraph with, so a statement about eternal wages is bracketed on both sides by the fifth year of the judges."
   }
  ],
  "chapter": [
@@ -201,7 +235,7 @@
   {
    "n": 3,
    "title": "The Amlicites do to themselves what the chapter says was done to the Lamanites",
-   "text": "That parallel is the argument. A group with impeccable Nephite descent put the mark on their own faces. The category is something a person can walk into."
+   "text": "Verse 13 states who applied it: \"they set the mark upon themselves, yea, even a mark of red upon their foreheads.\" Verse 14 quotes the older sentence being fulfilled, \"I will set a mark on them that they and their seed may be separated.\" Verse 18 records that the men doing it did not know, \"the Amlicites knew not that they were fulfilling the words of God.\" Verse 19 draws the general rule in the record's own voice, \"they brought upon themselves the curse; and even so doth every man that is cursed bring upon himself his own condemnation.\" A category the chapter elsewhere treats as inherited is entered here by an act of paint."
   },
   {
    "n": 4,
@@ -331,7 +365,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al43-010"
   },
   {
    "id": "al03-005",
@@ -357,7 +391,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al43-017"
   },
   {
    "id": "al03-004",
@@ -383,7 +417,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al23-010"
   },
   {
    "id": "al03-003",
@@ -409,7 +443,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al44-013"
   },
   {
    "id": "al03-002",
@@ -847,7 +881,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "19162665641d4ef9"
+  "at": "2026-09-07",
+  "source_sha256": "576ef5c9142ed15b"
  }
 }

@@ -18,7 +18,7 @@
    "Answering for one's own sins",
    "The voice of the people"
   ],
-  "connections": 17,
+  "connections": 32,
   "initial": false
  },
  "world_behind": [
@@ -132,50 +132,79 @@
    "label": "v. 1–4",
    "start": 1,
    "end": 4,
-   "title": "A poll, and a written answer",
-   "text": "He asks the country who should be king. The voice names Aaron, who is gone and unwilling, as are his brothers. So the king sends a second message, and this one is written down."
+   "title": "The first vote fails, and the second is in writing",
+   "text": "Mosiah sends out \"desiring to know their will,\" and the voice of the people comes back naming Aaron, who is in the land of Nephi and will not have it. So the king \"sent again among the people; yea, even a written word sent he among the people\" (v. 4). The chapter that founds government by voice opens with a spoken vote that collapses and a document that carries.",
+   "cites": [
+    {
+     "quote": "sent again among the people; yea, even a written word sent he among the people",
+     "verse": 4,
+     "start": 163,
+     "end": 250,
+     "spans": [
+      {
+       "w1": 4,
+       "w2": 18,
+       "text": "sent again among the people; yea, even a written word sent he among the people"
+      }
+     ]
+    }
+   ]
   },
   {
-   "label": "v. 5–10",
-   "start": 5,
-   "end": 10,
-   "title": "The case against appointing anyone",
-   "text": "If someone else is installed, the rightful heir might come back angry, draw away a part of the people, and cause wars. Nobody has the right to destroy either man to prevent it. The argument is entirely about what could go wrong later."
-  },
-  {
-   "label": "v. 11–16",
-   "start": 11,
-   "end": 16,
-   "title": "Judges instead, and the reason",
-   "text": "He will finish his own reign and then judges will be appointed to judge by the existing law. Verse 13 concedes that consistently just kings would be fine, naming his father as the example. Verse 16 supplies the objection: not all men are just."
-  },
-  {
-   "label": "v. 17–24",
+   "label": "v. 17–21",
    "start": 17,
-   "end": 24,
-   "title": "How a bad king holds on",
-   "text": "Noah is named. Then the mechanism: friends, guards, the laws of righteous predecessors torn up, new ones enacted after his own wickedness, dissenters destroyed, armies sent. And a note that removing such a man costs blood."
+   "end": 21,
+   "title": "The exhibit is a king everyone in the room remembers",
+   "text": "Rather than reason about monarchy, Mosiah points: \"remember king Noah\" (v. 18), whose story the reader has just finished in Mosiah 11 through 19. The conclusion he draws is not that kings are wicked but that they are expensive to remove: \"ye cannot dethrone an iniquitous king save it be through much contention, and the shedding of much blood\" (v. 21), a sentence found nowhere else in scripture.",
+   "cites": [
+    {
+     "quote": "remember king Noah",
+     "verse": 18,
+     "start": 50,
+     "end": 78,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 4,
+       "text": "remember king Noah"
+      }
+     ]
+    },
+    {
+     "quote": "ye cannot dethrone an iniquitous king save it be through much contention, and the shedding of much blood",
+     "verse": 21,
+     "start": 238,
+     "end": 352,
+     "spans": [
+      {
+       "w1": 8,
+       "w2": 25,
+       "text": "ye cannot dethrone an iniquitous king save it be through much contention, and the shedding of much blood"
+      }
+     ]
+    }
+   ]
   },
   {
-   "label": "v. 25–31",
-   "start": 25,
-   "end": 31,
-   "title": "The rule, and the appeal",
-   "text": "Choose judges by the voice of the people; do your business that way; and if judges fail, there is review in both directions. Then the reason it matters: sins answered upon their own heads instead of upon a king's."
+   "label": "v. 28–29",
+   "start": 28,
+   "end": 29,
+   "title": "The remedy runs upward from below",
+   "text": "Judges who misjudge are answerable to a higher judge; higher judges who misjudge are tried by \"a small number of your lower judges\" gathered to \"judge your higher judges,\" a clause that appears once in scripture. The appeal does not end at a supreme office. It turns around and comes back down."
   },
   {
-   "label": "v. 32–38",
-   "start": 32,
-   "end": 38,
-   "title": "Liberty, and the transfer of guilt",
-   "text": "A land of liberty, every man enjoying his rights and privileges alike, the burden of government shared out. He explains the trials of a righteous king and the disadvantages of an unrighteous one, and the people give up wanting a king and accept answering for themselves."
+   "label": "v. 38–39",
+   "start": 38,
+   "end": 39,
+   "title": "What the people ask for is not what they were offered",
+   "text": "Mosiah argued the cost of bad kings. What the people want when they relinquish the king is \"that every man should have an equal chance throughout all the land,\" and that \"every man expressed a willingness to answer for his own sins.\" Both phrases are unique in scripture, and neither of them is in Mosiah's letter. The record sets his reason and theirs side by side and does not remark on the difference."
   },
   {
-   "label": "v. 40–47",
-   "start": 40,
-   "end": 47,
-   "title": "Two obituaries, and a new clock",
-   "text": "They loved him because he had not exacted riches or delighted in blood. Judges are appointed; Alma is the first, and also the high priest. Then the dates: sixty- three years, thirty-three of them reigning, five hundred and nine since Jerusalem."
+   "label": "v. 42",
+   "start": 42,
+   "end": 42,
+   "title": "Both offices land on one man, and nobody remarks on it",
+   "text": "Alma is \"appointed to be the first chief judge, he being also the high priest, his father having conferred the office upon him.\" A system argued into existence on the danger of concentrated power seats its first judgeship and its priesthood in the same person before the verse is out, and the record offers no comment on the combination."
   }
  ],
  "chapter": [
@@ -202,7 +231,19 @@
   {
    "n": 5,
    "title": "The waters of Mormon covenant, scaled to a nation",
-   "text": "Alma's congregation had promised to bear one another's burdens. Here the burden is the government itself, and every man is to bear his part. The same figure runs from a spring in the wilderness to a constitution."
+   "text": "Verse 34 uses the same noun the baptismal covenant used, \"the burden should come upon all the people, that every man might bear his part.\" Mosiah 18:8 had put it to a congregation at a spring, \"willing to bear one another's burdens, that they may be light.\" One is a promise between believers and the other a principle of government, and the record uses one word for both. Verse 26 supplies the mechanism that follows from it, \"it is not common that the voice of the people desireth anything contrary to that which is right.\"",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 18:8",
+     "start": 139,
+     "end": 150,
+     "book": "Mosiah",
+     "chapter": 18,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
   },
   {
    "n": 6,
@@ -634,7 +675,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "2ne10-020"
   },
   {
    "id": "mos29-010",
@@ -660,7 +701,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al46-013"
   },
   {
    "id": "mos29-009",
@@ -687,6 +728,396 @@
     }
    ],
    "mirror": "al01-008"
+  },
+  {
+   "id": "mos29-018",
+   "scope": "BOM",
+   "head": "Alma 17:6",
+   "anchor": {
+    "verse": 3,
+    "w1": 21,
+    "w2": 28,
+    "quote": "neither would Aaron take upon him the kingdom;"
+   },
+   "reason": "the sons of Mosiah, gone preaching instead",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 17,
+     "verse": 6,
+     "w1": 20,
+     "w2": 32,
+     "quote": "having refused the kingdom which their father was desirous to confer upon them,",
+     "verse_text": "Now these were their journeyings: Having taken leave of their father, Mosiah, in the first year of the judges; having refused the kingdom which their father was desirous to confer upon them, and also this was the minds of the people;",
+     "markdown": "Now these were their journeyings: Having taken leave of their father, Mosiah, in the first year of the judges; **having refused the kingdom which their father was desirous to confer upon them**, and also this was the minds of the people;",
+     "span": true
+    }
+   ],
+   "mirror": "al17-005"
+  },
+  {
+   "id": "mos29-019",
+   "scope": "BOM",
+   "head": "Alma 47:4",
+   "anchor": {
+    "verse": 21,
+    "w1": 8,
+    "w2": 19,
+    "quote": "ye cannot dethrone an iniquitous king save it be through much contention,"
+   },
+   "reason": "Amalickiah setting out to do exactly this",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 47,
+     "verse": 4,
+     "w1": 27,
+     "w2": 33,
+     "quote": "to dethrone the king of the Lamanites.",
+     "verse_text": "Now behold, this was the desire of Amalickiah; for he being a very subtle man to do evil therefore he laid the plan in his heart to dethrone the king of the Lamanites.",
+     "markdown": "Now behold, this was the desire of Amalickiah; for he being a very subtle man to do evil therefore he laid the plan in his heart **to dethrone the king of the Lamanites**.",
+     "span": true
+    }
+   ],
+   "mirror": "al47-005"
+  },
+  {
+   "id": "mos29-020",
+   "scope": "BOM",
+   "head": "Alma 61:8",
+   "anchor": {
+    "verse": 21,
+    "w1": 8,
+    "w2": 19,
+    "quote": "ye cannot dethrone an iniquitous king save it be through much contention,"
+   },
+   "reason": "the king-men crowning a king in Zarahemla",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 61,
+     "verse": 8,
+     "w1": 13,
+     "w2": 19,
+     "quote": "they have appointed a king over them,",
+     "verse_text": "They have got possession of the land, or the city, of Zarahemla; they have appointed a king over them, and he hath written unto the king of the Lamanites, in the which he hath joined an alliance with him; in the which alliance he hath agreed to maintain the city of Zarahemla, which maintenance he supposeth will enable the Lamanites to conquer the remainder of the land, and he shall be placed king over this people when they shall be conquered under the Lamanites.",
+     "markdown": "They have got possession of the land, or the city, of Zarahemla; **they have appointed a king over them**, and he hath written unto the king of the Lamanites, in the which he hath joined an alliance with him; in the which alliance he hath agreed to maintain the city of Zarahemla, which maintenance he supposeth will enable the Lamanites to conquer the remainder of the land, and he shall be placed king over this people when they shall be conquered under the Lamanites.",
+     "span": true
+    }
+   ],
+   "mirror": "al61-008"
+  },
+  {
+   "id": "mos29-021",
+   "scope": "BOM",
+   "head": "Ether 7:5",
+   "anchor": {
+    "verse": 21,
+    "w1": 8,
+    "w2": 19,
+    "quote": "ye cannot dethrone an iniquitous king save it be through much contention,"
+   },
+   "reason": "a Jaredite king taken captive by his son",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 7,
+     "verse": 5,
+     "w1": 9,
+     "w2": 24,
+     "quote": "he came up unto the land of Moron where the king dwelt, and took him captive,",
+     "verse_text": "And when he had gathered together an army he came up unto the land of Moron where the king dwelt, and took him captive, which brought to pass the saying of the brother of Jared that they would be brought into captivity.",
+     "markdown": "And when he had gathered together an army **he came up unto the land of Moron where the king dwelt, and took him captive**, which brought to pass the saying of the brother of Jared that they would be brought into captivity.",
+     "span": true
+    }
+   ],
+   "mirror": "eth07-006"
+  },
+  {
+   "id": "mos29-022",
+   "scope": "BOM",
+   "head": "Ether 9:27",
+   "anchor": {
+    "verse": 21,
+    "w1": 8,
+    "w2": 19,
+    "quote": "ye cannot dethrone an iniquitous king save it be through much contention,"
+   },
+   "reason": "Heth killing his father for the throne",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 9,
+     "verse": 27,
+     "w1": 7,
+     "w2": 19,
+     "quote": "he did dethrone his father, for he slew him with his own sword;",
+     "verse_text": "And it came to pass that he did dethrone his father, for he slew him with his own sword; and he did reign in his stead.",
+     "markdown": "And it came to pass that **he did dethrone his father, for he slew him with his own sword**; and he did reign in his stead.",
+     "span": true
+    }
+   ],
+   "mirror": "eth09-005"
+  },
+  {
+   "id": "mos29-023",
+   "scope": "BOM",
+   "head": "Hel. 4:22",
+   "anchor": {
+    "verse": 25,
+    "w1": 15,
+    "w2": 27,
+    "quote": "judged according to the laws which have been given you by our fathers,"
+   },
+   "reason": "those laws altered and trampled under foot",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 4,
+     "verse": 22,
+     "w1": 16,
+     "w2": 26,
+     "quote": "that which the Lord commanded him to give unto the people;",
+     "verse_text": "And that they had altered and trampled under their feet the laws of Mosiah, or that which the Lord commanded him to give unto the people; and they saw that their laws had become corrupted, and that they had become a wicked people, insomuch that they were wicked even like unto the Lamanites.",
+     "markdown": "And that they had altered and trampled under their feet the laws of Mosiah, or **that which the Lord commanded him to give unto the people**; and they saw that their laws had become corrupted, and that they had become a wicked people, insomuch that they were wicked even like unto the Lamanites.",
+     "span": true
+    }
+   ],
+   "mirror": "hel04-005"
+  },
+  {
+   "id": "mos29-024",
+   "scope": "BOM",
+   "head": "Alma 27:21",
+   "anchor": {
+    "verse": 26,
+    "w1": 7,
+    "w2": 11,
+    "quote": "the voice of the people"
+   },
+   "reason": "the vote that admitted the people of Ammon",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 27,
+     "verse": 21,
+     "w1": 18,
+     "w2": 22,
+     "quote": "the voice of the people",
+     "verse_text": "And it came to pass that the chief judge sent a proclamation throughout all the land, desiring the voice of the people concerning the admitting their brethren, who were the people of Anti-Nephi-Lehi.",
+     "markdown": "And it came to pass that the chief judge sent a proclamation throughout all the land, desiring **the voice of the people** concerning the admitting their brethren, who were the people of Anti-Nephi-Lehi.",
+     "span": true
+    }
+   ],
+   "mirror": "al27-006"
+  },
+  {
+   "id": "mos29-025",
+   "scope": "BOM",
+   "head": "Alma 51:7",
+   "anchor": {
+    "verse": 26,
+    "w1": 7,
+    "w2": 11,
+    "quote": "the voice of the people"
+   },
+   "reason": "the king-men put down by that vote",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 51,
+     "verse": 7,
+     "w1": 13,
+     "w2": 19,
+     "quote": "settled by the voice of the people.",
+     "verse_text": "And it came to pass that this matter of their contention was settled by the voice of the people. And it came to pass that the voice of the people came in favor of the freemen, and Pahoran retained the judgment-seat, which caused much rejoicing among the brethren of Pahoran and also many of the people of liberty, who also put the king-men to silence, that they durst not oppose but were obliged to maintain the cause of freedom.",
+     "markdown": "And it came to pass that this matter of their contention was **settled by the voice of the people**. And it came to pass that the voice of the people came in favor of the freemen, and Pahoran retained the judgment-seat, which caused much rejoicing among the brethren of Pahoran and also many of the people of liberty, who also put the king-men to silence, that they durst not oppose but were obliged to maintain the cause of freedom.",
+     "span": true
+    }
+   ],
+   "mirror": "al51-005"
+  },
+  {
+   "id": "mos29-026",
+   "scope": "BOM",
+   "head": "3 Ne. 7:2",
+   "anchor": {
+    "verse": 26,
+    "w1": 47,
+    "w2": 56,
+    "quote": "to do your business by the voice of the people."
+   },
+   "reason": "the government built on this rule, destroyed",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 7,
+     "verse": 2,
+     "w1": 29,
+     "w2": 38,
+     "quote": "and thus they did destroy the government of the land.",
+     "verse_text": "And the people were divided one against another; and they did separate one from another into tribes, every man according to his family and his kindred and friends; and thus they did destroy the government of the land.",
+     "markdown": "And the people were divided one against another; and they did separate one from another into tribes, every man according to his family and his kindred and friends; **and thus they did destroy the government of the land**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne07-005"
+  },
+  {
+   "id": "mos29-027",
+   "scope": "BOM",
+   "head": "Alma 59:11",
+   "anchor": {
+    "verse": 27,
+    "w1": 2,
+    "w2": 14,
+    "quote": "if the time comes that the voice of the people doth choose iniquity,"
+   },
+   "reason": "Moroni reading a defeat as their wickedness",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 59,
+     "verse": 11,
+     "w1": 21,
+     "w2": 27,
+     "quote": "because of the wickedness of the people,",
+     "verse_text": "And now, when Moroni saw that the city of Nephihah was lost he was exceedingly sorrowful, and began to doubt, because of the wickedness of the people, whether they should not fall into the hands of their brethren.",
+     "markdown": "And now, when Moroni saw that the city of Nephihah was lost he was exceedingly sorrowful, and began to doubt, **because of the wickedness of the people**, whether they should not fall into the hands of their brethren.",
+     "span": true
+    }
+   ],
+   "mirror": "al59-008"
+  },
+  {
+   "id": "mos29-028",
+   "scope": "BOM",
+   "head": "Alma 10:19",
+   "anchor": {
+    "verse": 27,
+    "w1": 2,
+    "w2": 14,
+    "quote": "if the time comes that the voice of the people doth choose iniquity,"
+   },
+   "reason": "Amulek quoting the warning back at Ammonihah",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 10,
+     "verse": 19,
+     "w1": 71,
+     "w2": 76,
+     "quote": "they would be ripe for destruction.",
+     "verse_text": "Yea, well did Mosiah say, who was our last king, when he was about to deliver up the kingdom, having no one to confer it upon, causing that this people should be governed by their own voices—yea, well did he say that if the time should come that the voice of this people should choose iniquity, that is, if the time should come that this people should fall into transgression, they would be ripe for destruction.",
+     "markdown": "Yea, well did Mosiah say, who was our last king, when he was about to deliver up the kingdom, having no one to confer it upon, causing that this people should be governed by their own voices—yea, well did he say that if the time should come that the voice of this people should choose iniquity, that is, if the time should come that this people should fall into transgression, **they would be ripe for destruction**.",
+     "span": true
+    }
+   ],
+   "mirror": "al10-006"
+  },
+  {
+   "id": "mos29-029",
+   "scope": "BOM",
+   "head": "Alma 28:13",
+   "anchor": {
+    "verse": 32,
+    "w1": 1,
+    "w2": 14,
+    "quote": "And now I desire that this inequality should be no more in this land,"
+   },
+   "reason": "the inequality still standing sixteen years later",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 28,
+     "verse": 13,
+     "w1": 5,
+     "w2": 11,
+     "quote": "how great the inequality of man is",
+     "verse_text": "And thus we see how great the inequality of man is because of sin and transgression, and the power of the devil, which comes by the cunning plans which he hath devised to ensnare the hearts of men.",
+     "markdown": "And thus we see **how great the inequality of man is** because of sin and transgression, and the power of the devil, which comes by the cunning plans which he hath devised to ensnare the hearts of men.",
+     "span": true
+    }
+   ],
+   "mirror": "al28-005"
+  },
+  {
+   "id": "mos29-030",
+   "scope": "BOM",
+   "head": "Alma 61:9",
+   "anchor": {
+    "verse": 32,
+    "w1": 24,
+    "w2": 40,
+    "quote": "this land be a land of liberty, and every man may enjoy his rights and privileges alike,"
+   },
+   "reason": "Pahoran naming the same rights and liberty",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 61,
+     "verse": 9,
+     "w1": 40,
+     "w2": 51,
+     "quote": "that I may preserve the rights and the liberty of my people.",
+     "verse_text": "And now, in your epistle you have censured me, but it mattereth not; I am not angry, but do rejoice in the greatness of your heart. I, Pahoran, do not seek for power, save only to retain my judgment-seat that I may preserve the rights and the liberty of my people. My soul standeth fast in that liberty in the which God hath made us free.",
+     "markdown": "And now, in your epistle you have censured me, but it mattereth not; I am not angry, but do rejoice in the greatness of your heart. I, Pahoran, do not seek for power, save only to retain my judgment-seat **that I may preserve the rights and the liberty of my people**. My soul standeth fast in that liberty in the which God hath made us free.",
+     "span": true
+    }
+   ],
+   "mirror": "al61-009"
+  },
+  {
+   "id": "mos29-031",
+   "scope": "BOM",
+   "head": "Alma 11:1",
+   "anchor": {
+    "verse": 40,
+    "w1": 11,
+    "w2": 19,
+    "quote": "they did esteem him more than any other man;"
+   },
+   "reason": "the wage law the judges worked under",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 11,
+     "verse": 1,
+     "w1": 27,
+     "w2": 36,
+     "quote": "should receive wages according to the time which they labored",
+     "verse_text": "Now it was in the law of Mosiah that every man who was a judge of the law, or those who were appointed to be judges, should receive wages according to the time which they labored to judge those who were brought before them to be judged.",
+     "markdown": "Now it was in the law of Mosiah that every man who was a judge of the law, or those who were appointed to be judges, **should receive wages according to the time which they labored** to judge those who were brought before them to be judged.",
+     "span": true
+    }
+   ],
+   "mirror": "al11-004"
+  },
+  {
+   "id": "mos29-032",
+   "scope": "BOM",
+   "head": "3 Ne. 2:5",
+   "anchor": {
+    "verse": 44,
+    "w1": 2,
+    "w2": 14,
+    "quote": "thus commenced the reign of the judges throughout all the land of Zarahemla,"
+   },
+   "reason": "the Nephites still counting years from here",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 2,
+     "verse": 5,
+     "w1": 3,
+     "w2": 13,
+     "quote": "an hundred years had passed away since the days of Mosiah,",
+     "verse_text": "And also an hundred years had passed away since the days of Mosiah, who was king over the people of the Nephites.",
+     "markdown": "And also **an hundred years had passed away since the days of Mosiah**, who was king over the people of the Nephites.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne02-008"
   },
   {
    "id": "mos29-013",
@@ -752,6 +1183,15 @@
    ]
   },
   {
+   "verse": 3,
+   "w1": 21,
+   "w2": 28,
+   "quote": "neither would Aaron take upon him the kingdom;",
+   "entries": [
+    "mos29-018"
+   ]
+  },
+  {
    "verse": 11,
    "w1": 13,
    "w2": 24,
@@ -779,6 +1219,18 @@
    ]
   },
   {
+   "verse": 21,
+   "w1": 8,
+   "w2": 19,
+   "quote": "ye cannot dethrone an iniquitous king save it be through much contention,",
+   "entries": [
+    "mos29-019",
+    "mos29-020",
+    "mos29-021",
+    "mos29-022"
+   ]
+  },
+  {
    "verse": 22,
    "w1": 3,
    "w2": 15,
@@ -788,12 +1240,32 @@
    ]
   },
   {
+   "verse": 25,
+   "w1": 15,
+   "w2": 27,
+   "quote": "judged according to the laws which have been given you by our fathers,",
+   "entries": [
+    "mos29-023"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 7,
+   "w2": 11,
+   "quote": "the voice of the people",
+   "entries": [
+    "mos29-024",
+    "mos29-025"
+   ]
+  },
+  {
    "verse": 26,
    "w1": 47,
    "w2": 56,
    "quote": "to do your business by the voice of the people",
    "entries": [
     "mos29-005",
+    "mos29-026",
     "mos29-013"
    ]
   },
@@ -803,7 +1275,9 @@
    "w2": 14,
    "quote": "if the time comes that the voice of the people doth choose iniquity",
    "entries": [
-    "mos29-015"
+    "mos29-015",
+    "mos29-027",
+    "mos29-028"
    ]
   },
   {
@@ -812,7 +1286,8 @@
    "w2": 14,
    "quote": "And now I desire that this inequality should be no more in this land",
    "entries": [
-    "mos29-016"
+    "mos29-016",
+    "mos29-029"
    ]
   },
   {
@@ -821,7 +1296,8 @@
    "w2": 40,
    "quote": "this land be a land of liberty, and every man may enjoy his rights and privileges alike",
    "entries": [
-    "mos29-011"
+    "mos29-011",
+    "mos29-030"
    ]
   },
   {
@@ -840,6 +1316,15 @@
    "quote": "to cast in their voices concerning who should be their judges",
    "entries": [
     "mos29-014"
+   ]
+  },
+  {
+   "verse": 40,
+   "w1": 11,
+   "w2": 19,
+   "quote": "they did esteem him more than any other man;",
+   "entries": [
+    "mos29-031"
    ]
   },
   {
@@ -863,6 +1348,15 @@
    ]
   },
   {
+   "verse": 44,
+   "w1": 2,
+   "w2": 14,
+   "quote": "thus commenced the reign of the judges throughout all the land of Zarahemla,",
+   "entries": [
+    "mos29-032"
+   ]
+  },
+  {
    "verse": 47,
    "w1": 2,
    "w2": 13,
@@ -873,7 +1367,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "e8cd534401bb67aa"
+  "at": "2026-09-07",
+  "source_sha256": "d54d7052b4f76f06"
  }
 }

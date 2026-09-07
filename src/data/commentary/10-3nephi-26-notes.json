@@ -1,0 +1,842 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "3 Nephi",
+  "book_slug": "3nephi",
+  "chapter": 26,
+  "volume_order": "10",
+  "speakers": [
+   "Mormon",
+   "Jesus Christ"
+  ],
+  "audience": "The reader; the multitude within the account",
+  "location": "The land Bountiful",
+  "date": "AD 34",
+  "unit": "What was not written (3 Nephi 26)",
+  "principles": [
+   "A record that names its own omissions",
+   "A condition attached to receiving more",
+   "A community described in four short verses"
+  ],
+  "connections": 14,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The expounding is summarized, not reproduced",
+   "text": "Verse 1 says he expounded all things, great and small, and the words are not given."
+  },
+  {
+   "n": 2,
+   "title": "The reason for the Malachi chapters is stated",
+   "text": "Verse 2 says the Father commanded it because they had not those scriptures."
+  },
+  {
+   "n": 3,
+   "title": "The subject runs to the end of the world",
+   "text": "Verses 3 and 4 carry the expounding to the elements melting with fervent heat and the last judgment. Mormon 9:2 uses the same picture of the earth rolled together as a scroll, and 2 Peter 3:10 to 12 is the passage both echo."
+  },
+  {
+   "n": 4,
+   "title": "Mormon gives a fraction",
+   "text": "Verse 6 says the book holds less than a hundredth of what Jesus taught."
+  },
+  {
+   "n": 5,
+   "title": "A larger record exists",
+   "text": "Verse 7 points to the plates of Nephi for the rest."
+  },
+  {
+   "n": 6,
+   "title": "He says he was stopped",
+   "text": "Verse 11 says Mormon was about to write it all, from the plates of Nephi, and the Lord forbade it to try the faith of his people. Ether 4:5 and Ether 13:13 record Moroni stopped the same way twice, so both abridgers of this record work under an explicit limit.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 4:5",
+     "start": 130,
+     "end": 139,
+     "book": "Ether",
+     "chapter": 4,
+     "verse_start": 5,
+     "verse_end": 5
+    },
+    {
+     "kind": "scripture",
+     "text": "Ether 13:13",
+     "start": 144,
+     "end": 155,
+     "book": "Ether",
+     "chapter": 13,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "The three days are counted",
+   "text": "Verse 13 says he taught for the space of three days and showed himself often afterward. 3 Nephi 11 through 18 is the first of those days and 3 Nephi 19 through 26 the second; the third is never narrated, which is part of what verse 6 means by a hundredth part."
+  }
+ ],
+ "words": [
+  {
+   "term": "Fervent",
+   "verse_label": "v. 3",
+   "text": "Burning, intensely hot. The record uses the word twice, here and at Mormon 9:2, and the King James Bible seven times. Verse 3 uses it of the heat that melts the elements."
+  },
+  {
+   "term": "Parallel",
+   "verse_label": "v. 5",
+   "text": "Set side by side at an even distance. It appears once, here, in the record, and the King James Bible not at all. Verse 5 uses it of the two resurrections."
+  },
+  {
+   "term": "Hundredth",
+   "verse_label": "v. 6",
+   "text": "One part in a hundred. The record uses the word six times and the King James Bible three. Verse 6 says the book does not hold even that much."
+  },
+  {
+   "term": "Forbade",
+   "verse_label": "v. 11",
+   "text": "Ordered not to. It turns up twice, here and again at 3 Nephi 28:25, with none in the King James Bible. Verse 11 uses it of the Lord stopping Mormon's pen."
+  },
+  {
+   "term": "Unstopped",
+   "verse_label": "v. 15",
+   "text": "Opened what had been closed. The record uses the word once, here, and the King James Bible once, at Isaiah 35:5. Verse 15 uses it of the ears of the deaf."
+  },
+  {
+   "term": "Babes",
+   "verse_label": "v. 16",
+   "text": "Infants and very young children. Its count is twice in this book, while the King James Bible nine times. Verse 16 has them speaking things nobody was allowed to write."
+  },
+  {
+   "term": "Unspeakable",
+   "verse_label": "v. 18",
+   "text": "Beyond what words can carry. Treated at Helaman 5:44. The record uses the word three times and the King James Bible three."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "He did expound all things unto them, both great and small",
+   "verse_label": "v. 1",
+   "text": "The scope of the teaching given in four words. None of it is reproduced."
+  },
+  {
+   "term": "These scriptures, which ye had not with you",
+   "verse_label": "v. 2",
+   "text": "The reason Malachi was recited. The record explains its own inclusion of another prophet's chapters."
+  },
+  {
+   "term": "Even until the elements should melt with fervent heat",
+   "verse_label": "v. 3",
+   "text": "The far end of the expounding. Verse 3 runs from the beginning to the passing of heaven and earth."
+  },
+  {
+   "term": "Being on a parallel, the one on the one hand and the other on the other hand",
+   "verse_label": "v. 5",
+   "text": "Two resurrections described by their symmetry. Verse 5 grounds both in the mercy, justice, and holiness in Christ."
+  },
+  {
+   "term": "There cannot be written in this book even a hundredth part",
+   "verse_label": "v. 6",
+   "text": "Mormon's measure of what is missing. 3 Nephi 5:8 had used the same fraction of a different span of years."
+  },
+  {
+   "term": "I have written them to the intent that they may be brought again unto this people, from the Gentiles",
+   "verse_label": "v. 8",
+   "text": "The destination of the writing. Mormon names the route the book will take back to the people it is about."
+  },
+  {
+   "term": "Which is expedient that they should have first, to try their faith",
+   "verse_label": "v. 9",
+   "text": "The lesser part is a test. Verse 9 makes what is given a condition for what is not."
+  },
+  {
+   "term": "I was about to write them... but the Lord forbade it",
+   "verse_label": "v. 11",
+   "text": "A compiler's plan overruled. Verse 11 gives the Lord's reason in his own words."
+  },
+  {
+   "term": "He did loose their tongues",
+   "verse_label": "v. 14",
+   "text": "The children given speech. Verse 14 says they spoke greater things than he had revealed to the adults."
+  },
+  {
+   "term": "Which are not lawful to be written",
+   "verse_label": "v. 18",
+   "text": "A second class of withheld material. Verse 16 had already forbidden writing what the babes said."
+  },
+  {
+   "term": "They had all things common among them, every man dealing justly",
+   "verse_label": "v. 19",
+   "text": "The economy of the new church in one line. 4 Nephi 1:3 will say the same thing and add what it produced."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 2",
+   "start": 2,
+   "end": 2,
+   "title": "A reason given for supplying a text",
+   "text": "The record explains a delivery rather than simply reporting one: \"These scriptures, which ye had not with you, the Father commanded that I should give unto you.\" What was given is the Malachi material of 3 Nephi 24 and 25, and the stated purpose reaches past the audience present, \"for it was wisdom in him that they should be given unto future generations.\" A document is handed over in one chapter and the reason for the handover is supplied in the next, with the beneficiaries named as people not yet born."
+  },
+  {
+   "label": "v. 6–7",
+   "start": 6,
+   "end": 7,
+   "title": "A fraction used to measure what is missing",
+   "text": "The record puts a number on its own incompleteness: \"there cannot be written in this book even a hundredth part of the things which Jesus did truly teach.\" The same fraction is used three other times, at Jacob 3:13, Words of Mormon 1:5, and Helaman 3:14, always for material left out and never for material included. Verse 7 then names where the rest is, \"the plates of Nephi do contain the more part,\" so the omission is presented as a transfer to another volume rather than as a loss.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 3:13",
+     "start": 204,
+     "end": 214,
+     "book": "Jacob",
+     "chapter": 3,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
+  },
+  {
+   "label": "v. 8–10",
+   "start": 8,
+   "end": 10,
+   "title": "Withholding described as a test with stated terms",
+   "text": "The record sets out a condition and both of its outcomes. The lesser part is given first \"to try their faith\"; if they believe, \"then shall the greater things be made manifest unto them\"; if not, \"then shall the greater things be withheld from them, unto their condemnation.\" Verse 9 also states the sequence as necessary, \"which is expedient that they should have first.\" An incomplete record explaining its own incompleteness as deliberate policy, with a published criterion for release, is a claim that can be held against the record's later conduct."
+  },
+  {
+   "label": "v. 11",
+   "start": 11,
+   "end": 11,
+   "title": "The editor quotes an instruction he was given",
+   "text": "The account of what was cut is put in the first person and the instruction is quoted directly: \"I was about to write them, all which were engraven upon the plates of Nephi, but the Lord forbade it, saying: I will try the faith of my people.\" The same construction returns at 3 Nephi 28:25, where the names of the three are withheld and the record again reports \"the Lord forbade.\" Twice in three chapters the writer records an editorial order rather than the material it removed."
+  },
+  {
+   "label": "v. 21",
+   "start": 21,
+   "end": 21,
+   "title": "A name recorded for a group",
+   "text": "The last verse of the chapter supplies a label and the criterion for belonging to it: \"they who were baptized in the name of Jesus were called the church of Christ.\" No founding, no organization, and no officers are described; the name follows from an act. The record has used the term before, at Mosiah 18:17, where Alma's converts at the waters of Mormon \"were called the church of God, or the church of Christ, from that time forward.\" That verse offers two names and this one keeps the second, so what happens here is a narrowing of an older usage and not a coinage.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 18:17",
+     "start": 297,
+     "end": 309,
+     "book": "Mosiah",
+     "chapter": 18,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The chapter is mostly about what is absent",
+   "text": "Verses 1, 6, 11, 16, and 18 each mark material that was not written down. The record keeps pointing past itself."
+  },
+  {
+   "n": 2,
+   "title": "A fraction is given rather than a description",
+   "text": "Verse 6 says not a hundredth part. Mormon quantifies the omission instead of apologizing for it."
+  },
+  {
+   "n": 3,
+   "title": "Withholding is presented as a test",
+   "text": "Verses 9 and 10 make belief in the lesser part the condition for the greater. The gap has a stated purpose."
+  },
+  {
+   "n": 4,
+   "title": "The compiler says he was overruled",
+   "text": "Verse 11 has Mormon intending to write it all. The record shows its editor being told no."
+  },
+  {
+   "n": 5,
+   "title": "Children are the ones who speak the greatest things",
+   "text": "Verse 14 says they said more than he had revealed to the adults. Verse 16 adds that babes did it too."
+  },
+  {
+   "n": 6,
+   "title": "Two ascensions are counted",
+   "text": "Verse 15 calls this the second time he showed himself. The chapter keeps track of the visits."
+  },
+  {
+   "n": 7,
+   "title": "The healing list is given as a summary",
+   "text": "Verse 15 names the sick, lame, blind, and deaf and adds a man raised from the dead. What took 3 Nephi 17 many verses is compressed here."
+  },
+  {
+   "n": 8,
+   "title": "The chapter ends with a name",
+   "text": "Verse 21 says those baptized were called the church of Christ. That name will be argued over in 3 Nephi 27."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Some things are supplied for people not yet born",
+    "verse_label": "v. 2",
+    "text": "The scriptures they lacked were given because it was wisdom in the Father that future generations should have them. Work with no present use to you can still be the reason it was assigned."
+   },
+   {
+    "title": "Say what you left out",
+    "verse_label": "v. 6",
+    "text": "Mormon names the fraction. An honest account marks its own limits rather than presenting itself as complete."
+   },
+   {
+    "title": "Take the smaller thing seriously first",
+    "verse_label": "v. 9",
+    "text": "The lesser part is given to try faith. How you treat what you already have decides what comes next."
+   },
+   {
+    "title": "Accept being told no",
+    "verse_label": "v. 11",
+    "text": "Mormon planned to write it all and stopped. Someone else's judgment about scope is worth obeying."
+   },
+   {
+    "title": "The extraordinary days were followed by ordinary visits",
+    "verse_label": "v. 13",
+    "text": "After three days of teaching he showed himself to them often, and broke bread and blessed it often. What holds a community together is usually the repeated small version of whatever started it."
+   },
+   {
+    "title": "Listen to the youngest people in the room",
+    "verse_label": "v. 14",
+    "text": "The children said greater things than the adults had heard. The chapter records it without explanation."
+   },
+   {
+    "title": "Deal justly one with another",
+    "verse_label": "v. 19",
+    "text": "They ministered to each other, had all things common, and every man dealt justly with every other. The economic arrangement and the individual conduct are reported in the same breath, and neither is offered without the other."
+   },
+   {
+    "title": "Notice what the group ended up being called",
+    "verse_label": "v. 21",
+    "text": "Those baptized in the name of Jesus were called the church of Christ, and that is the chapter's closing line. A name earned by what a group actually did is worth more than one it picked for itself."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What have I been given that I did not have and did not ask for?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "What in my own account have I left out?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What am I doing with the lesser part I already hold?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "When was I told to stop, and did I?"
+   },
+   {
+    "verse_label": "v. 14",
+    "start": 14,
+    "end": 14,
+    "text": "What has a child told me that I dismissed?"
+   },
+   {
+    "verse_label": "v. 19",
+    "start": 19,
+    "end": 19,
+    "text": "What would having all things common cost me?"
+   },
+   {
+    "verse_label": "v. 21",
+    "start": 21,
+    "end": 21,
+    "text": "What am I called, and does it match what I do?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "3ne26-001",
+   "scope": "BOOK",
+   "head": "3 Ne. 23:14",
+   "anchor": {
+    "verse": 1,
+    "w1": 21,
+    "w2": 31,
+    "quote": "he did expound all things unto them, both great and small"
+   },
+   "reason": "the expounding carried from the twelve to the whole multitude",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 23,
+     "verse": 14,
+     "w1": 8,
+     "w2": 16,
+     "quote": "when Jesus had expounded all the scriptures in one,",
+     "verse_text": "And now it came to pass that when Jesus had expounded all the scriptures in one, which they had written, he commanded them that they should teach the things which he had expounded unto them.",
+     "markdown": "And now it came to pass that **when Jesus had expounded all the scriptures in one**, which they had written, he commanded them that they should teach the things which he had expounded unto them.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne23-003"
+  },
+  {
+   "id": "3ne26-002",
+   "scope": "BOOK",
+   "head": "3 Ne. 24:1",
+   "anchor": {
+    "verse": 2,
+    "w1": 4,
+    "w2": 20,
+    "quote": "These scriptures, which ye had not with you, the Father commanded that I should give unto you"
+   },
+   "reason": "why those chapters were given to this people",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 24,
+     "verse": 1,
+     "w1": 7,
+     "w2": 22,
+     "quote": "he commanded them that they should write the words which the Father had given unto Malachi,",
+     "verse_text": "And it came to pass that he commanded them that they should write the words which the Father had given unto Malachi, which he should tell unto them. And it came to pass that after they were written he expounded them. And these are the words which he did tell unto them, saying: Thus said the Father unto Malachi—Behold, I will send my messenger, and he shall prepare the way before me, and the Lord whom ye seek shall suddenly come to his temple, even the messenger of the covenant, whom ye delight in; behold, he shall come, saith the Lord of Hosts.",
+     "markdown": "And it came to pass that **he commanded them that they should write the words which the Father had given unto Malachi**, which he should tell unto them. And it came to pass that after they were written he expounded them. And these are the words which he did tell unto them, saying: Thus said the Father unto Malachi—Behold, I will send my messenger, and he shall prepare the way before me, and the Lord whom ye seek shall suddenly come to his temple, even the messenger of the covenant, whom ye delight in; behold, he shall come, saith the Lord of Hosts.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne24-001"
+  },
+  {
+   "id": "3ne26-003",
+   "scope": "BOOK",
+   "head": "3 Ne. 25:1",
+   "anchor": {
+    "verse": 3,
+    "w1": 33,
+    "w2": 41,
+    "quote": "even until the elements should melt with fervent heat"
+   },
+   "reason": "the burning day named in the quotation just given",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 25,
+     "verse": 1,
+     "w1": 1,
+     "w2": 11,
+     "quote": "For behold, the day cometh that shall burn as an oven;",
+     "verse_text": "For behold, the day cometh that shall burn as an oven; and all the proud, yea, and all that do wickedly, shall be stubble; and the day that cometh shall burn them up, saith the Lord of Hosts, that it shall leave them neither root nor branch.",
+     "markdown": "**For behold, the day cometh that shall burn as an oven**; and all the proud, yea, and all that do wickedly, shall be stubble; and the day that cometh shall burn them up, saith the Lord of Hosts, that it shall leave them neither root nor branch.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne25-003"
+  },
+  {
+   "id": "3ne26-004",
+   "scope": "BOOK",
+   "head": "3 Ne. 5:8",
+   "anchor": {
+    "verse": 6,
+    "w1": 3,
+    "w2": 13,
+    "quote": "there cannot be written in this book even a hundredth part"
+   },
+   "reason": "the same fraction used of a different span of years",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 5,
+     "verse": 8,
+     "w1": 28,
+     "w2": 35,
+     "quote": "this book cannot contain even a hundredth part",
+     "verse_text": "And there had many things transpired which, in the eyes of some, would be great and marvelous; nevertheless, they cannot all be written in this book; yea, this book cannot contain even a hundredth part of what was done among so many people in the space of twenty and five years;",
+     "markdown": "And there had many things transpired which, in the eyes of some, would be great and marvelous; nevertheless, they cannot all be written in this book; yea, **this book cannot contain even a hundredth part** of what was done among so many people in the space of twenty and five years;",
+     "span": true
+    }
+   ],
+   "mirror": "3ne05-003"
+  },
+  {
+   "id": "3ne26-005",
+   "scope": "BOOK",
+   "head": "3 Ne. 22:13",
+   "anchor": {
+    "verse": 14,
+    "w1": 7,
+    "w2": 17,
+    "quote": "he did teach and minister unto the children of the multitude"
+   },
+   "reason": "the Isaiah promise about children carried out",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 22,
+     "verse": 13,
+     "w1": 1,
+     "w2": 10,
+     "quote": "And all thy children shall be taught of the Lord;",
+     "verse_text": "And all thy children shall be taught of the Lord; and great shall be the peace of thy children.",
+     "markdown": "**And all thy children shall be taught of the Lord**; and great shall be the peace of thy children.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne22-003"
+  },
+  {
+   "id": "3ne26-006",
+   "scope": "BOOK",
+   "head": "3 Ne. 17:23",
+   "anchor": {
+    "verse": 16,
+    "w1": 24,
+    "w2": 33,
+    "quote": "even babes did open their mouths and utter marvelous things"
+   },
+   "reason": "the little ones he told the crowd to behold",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 17,
+     "verse": 23,
+     "w1": 11,
+     "w2": 14,
+     "quote": "Behold your little ones.",
+     "verse_text": "And he spake unto the multitude, and said unto them: Behold your little ones.",
+     "markdown": "And he spake unto the multitude, and said unto them: **Behold your little ones**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne17-004"
+  },
+  {
+   "id": "3ne26-012",
+   "scope": "BOOK",
+   "head": "3 Ne. 28:25",
+   "anchor": {
+    "verse": 11,
+    "w1": 2,
+    "w2": 21,
+    "quote": "I was about to write them, all which were engraven upon the plates of Nephi, but the Lord forbade it,"
+   },
+   "reason": "the other time the Lord stopped his pen",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 28,
+     "verse": 25,
+     "w1": 2,
+     "w2": 21,
+     "quote": "I was about to write the names of those who were never to taste of death, but the Lord forbade;",
+     "verse_text": "Behold, I was about to write the names of those who were never to taste of death, but the Lord forbade; therefore I write them not, for they are hid from the world.",
+     "markdown": "Behold, **I was about to write the names of those who were never to taste of death, but the Lord forbade**; therefore I write them not, for they are hid from the world.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne28-002"
+  },
+  {
+   "id": "3ne26-013",
+   "scope": "BOOK",
+   "head": "3 Ne. 28:13",
+   "anchor": {
+    "verse": 18,
+    "w1": 1,
+    "w2": 16,
+    "quote": "And many of them saw and heard unspeakable things, which are not lawful to be written."
+   },
+   "reason": "the three who saw and heard the same things",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 28,
+     "verse": 13,
+     "w1": 14,
+     "w2": 19,
+     "quote": "and saw and heard unspeakable things.",
+     "verse_text": "And behold, the heavens were opened, and they were caught up into heaven, and saw and heard unspeakable things.",
+     "markdown": "And behold, the heavens were opened, and they were caught up into heaven, **and saw and heard unspeakable things**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne28-003"
+  },
+  {
+   "id": "3ne26-014",
+   "scope": "BOOK",
+   "head": "3 Ne. 27:8",
+   "anchor": {
+    "verse": 21,
+    "w1": 1,
+    "w2": 16,
+    "quote": "And they who were baptized in the name of Jesus were called the church of Christ."
+   },
+   "reason": "Christ making the name the test of a church",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 27,
+     "verse": 8,
+     "w1": 47,
+     "w2": 59,
+     "quote": "but if it be called in my name then it is my church,",
+     "verse_text": "And how be it my church save it be called in my name? For if a church be called in Moses' name then it be Moses' church; or if it be called in the name of a man then it be the church of a man; but if it be called in my name then it is my church, if it so be that they are built upon my gospel.",
+     "markdown": "And how be it my church save it be called in my name? For if a church be called in Moses' name then it be Moses' church; or if it be called in the name of a man then it be the church of a man; **but if it be called in my name then it is my church**, if it so be that they are built upon my gospel.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne27-002"
+  },
+  {
+   "id": "3ne26-007",
+   "scope": "BOM",
+   "head": "Ether 4:7",
+   "anchor": {
+    "verse": 9,
+    "w1": 21,
+    "w2": 41,
+    "quote": "if it shall so be that they shall believe these things then shall the greater things be made manifest unto them"
+   },
+   "reason": "the same condition set on the sealed record",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 4,
+     "verse": 7,
+     "w1": 2,
+     "w2": 11,
+     "quote": "in that day that they shall exercise faith in me,",
+     "verse_text": "And in that day that they shall exercise faith in me, saith the Lord, even as the brother of Jared did, that they may become sanctified in me, then will I manifest unto them the things which the brother of Jared saw, even to the unfolding unto them all my revelations, saith Jesus Christ, the Son of God, the Father of the heavens and of the earth, and all things that in them are.",
+     "markdown": "And **in that day that they shall exercise faith in me**, saith the Lord, even as the brother of Jared did, that they may become sanctified in me, then will I manifest unto them the things which the brother of Jared saw, even to the unfolding unto them all my revelations, saith Jesus Christ, the Son of God, the Father of the heavens and of the earth, and all things that in them are.",
+     "span": true
+    }
+   ],
+   "mirror": "eth04-004"
+  },
+  {
+   "id": "3ne26-008",
+   "scope": "BOM",
+   "head": "4 Ne. 1:3",
+   "anchor": {
+    "verse": 19,
+    "w1": 10,
+    "w2": 17,
+    "quote": "and they had all things common among them"
+   },
+   "reason": "the same arrangement, with its result added",
+   "targets": [
+    {
+     "ref": "4 Ne.",
+     "chapter": 1,
+     "verse": 3,
+     "w1": 1,
+     "w2": 8,
+     "quote": "And they had all things common among them;",
+     "verse_text": "And they had all things common among them; therefore there were not rich and poor, bond and free, but they were all made free, and partakers of the heavenly gift.",
+     "markdown": "**And they had all things common among them**; therefore there were not rich and poor, bond and free, but they were all made free, and partakers of the heavenly gift.",
+     "span": true
+    }
+   ],
+   "mirror": "4ne01-006"
+  },
+  {
+   "id": "3ne26-009",
+   "scope": "BOM",
+   "head": "Mosiah 18:17",
+   "anchor": {
+    "verse": 21,
+    "w1": 1,
+    "w2": 16,
+    "quote": "And they who were baptized in the name of Jesus were called the church of Christ"
+   },
+   "reason": "the name first used at the waters of Mormon",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 18,
+     "verse": 17,
+     "w1": 1,
+     "w2": 13,
+     "quote": "And they were called the church of God, or the church of Christ,",
+     "verse_text": "And they were called the church of God, or the church of Christ, from that time forward. And it came to pass that whosoever was baptized by the power and authority of God was added to his church.",
+     "markdown": "**And they were called the church of God, or the church of Christ**, from that time forward. And it came to pass that whosoever was baptized by the power and authority of God was added to his church.",
+     "span": true
+    }
+   ],
+   "mirror": "mos18-032"
+  },
+  {
+   "id": "3ne26-011",
+   "scope": "BOM",
+   "head": "Ether 15:33",
+   "anchor": {
+    "verse": 6,
+    "w1": 3,
+    "w2": 13,
+    "quote": "there cannot be written in this book even a hundredth part"
+   },
+   "reason": "Moroni's parenthesis at the end of the Jaredites",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 15,
+     "verse": 33,
+     "w1": 34,
+     "w2": 41,
+     "quote": "(and the hundredth part I have not written)",
+     "verse_text": "And the Lord spake unto Ether, and said unto him: Go forth. And he went forth, and beheld that the words of the Lord had all been fulfilled; and he finished his record; (and the hundredth part I have not written) and he hid them in a manner that the people of Limhi did find them.",
+     "markdown": "And the Lord spake unto Ether, and said unto him: Go forth. And he went forth, and beheld that the words of the Lord had all been fulfilled; and he finished his record; **(and the hundredth part I have not written)** and he hid them in a manner that the people of Limhi did find them.",
+     "span": true
+    }
+   ],
+   "mirror": "eth15-005"
+  },
+  {
+   "id": "3ne26-010",
+   "scope": "SW",
+   "head": "2 Cor. 12:4",
+   "anchor": {
+    "verse": 18,
+    "w1": 1,
+    "w2": 16,
+    "quote": "And many of them saw and heard unspeakable things, which are not lawful to be written"
+   },
+   "reason": "the same restriction reported by Paul",
+   "targets": [
+    {
+     "ref": "2 Cor.",
+     "chapter": 12,
+     "verse": 4,
+     "w1": 10,
+     "w2": 22,
+     "quote": "heard unspeakable words, which it is not lawful for a man to utter.",
+     "verse_text": "How that he was caught up into paradise, and heard unspeakable words, which it is not lawful for a man to utter.",
+     "markdown": "How that he was caught up into paradise, and **heard unspeakable words, which it is not lawful for a man to utter**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 21,
+   "w2": 31,
+   "quote": "he did expound all things unto them, both great and small",
+   "entries": [
+    "3ne26-001"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 4,
+   "w2": 20,
+   "quote": "These scriptures, which ye had not with you, the Father commanded that I should give unto you",
+   "entries": [
+    "3ne26-002"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 33,
+   "w2": 41,
+   "quote": "even until the elements should melt with fervent heat",
+   "entries": [
+    "3ne26-003"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 3,
+   "w2": 13,
+   "quote": "there cannot be written in this book even a hundredth part",
+   "entries": [
+    "3ne26-004",
+    "3ne26-011"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 21,
+   "w2": 41,
+   "quote": "if it shall so be that they shall believe these things then shall the greater things be made manifest unto them",
+   "entries": [
+    "3ne26-007"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 2,
+   "w2": 21,
+   "quote": "I was about to write them, all which were engraven upon the plates of Nephi, but the Lord forbade it,",
+   "entries": [
+    "3ne26-012"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 7,
+   "w2": 17,
+   "quote": "he did teach and minister unto the children of the multitude",
+   "entries": [
+    "3ne26-005"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 24,
+   "w2": 33,
+   "quote": "even babes did open their mouths and utter marvelous things",
+   "entries": [
+    "3ne26-006"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 1,
+   "w2": 16,
+   "quote": "And many of them saw and heard unspeakable things, which are not lawful to be written.",
+   "entries": [
+    "3ne26-013",
+    "3ne26-010"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 10,
+   "w2": 17,
+   "quote": "and they had all things common among them",
+   "entries": [
+    "3ne26-008"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 1,
+   "w2": 16,
+   "quote": "And they who were baptized in the name of Jesus were called the church of Christ.",
+   "entries": [
+    "3ne26-014",
+    "3ne26-009"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "354a13dd75438671"
+ }
+}

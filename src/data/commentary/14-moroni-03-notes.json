@@ -1,0 +1,661 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Moroni",
+  "book_slug": "moroni",
+  "chapter": 3,
+  "volume_order": "14",
+  "speakers": [
+   "Moroni",
+   "The elders of the church"
+  ],
+  "audience": "The reader",
+  "location": "Among the Nephite church",
+  "date": "The practice of the church, written out by Moroni after AD 400",
+  "unit": "The manner of ordaining priests and teachers (Moroni 3)",
+  "principles": [
+   "A wording preserved with the alternative built into it",
+   "An office named by what it is for",
+   "A calling matched to the man"
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The disciples were also called elders",
+   "text": "Verse 1 gives both names for the same men. 3 Nephi 19:4 names the twelve and nothing in that book calls them elders, so this verse is where the office name attaches to them in the record."
+  },
+  {
+   "n": 2,
+   "title": "Priests and teachers are much older offices",
+   "text": "Jarom 1:11 has prophets, priests and teachers laboring together about four hundred years before Christ, and Mosiah 23:17 has Alma consecrating all their priests and teachers. Verse 1 preserves a form for offices the record has been using for eight centuries.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jarom 1:11",
+     "start": 0,
+     "end": 10,
+     "book": "Jarom",
+     "chapter": 1,
+     "verse_start": 11,
+     "verse_end": 11
+    },
+    {
+     "kind": "scripture",
+     "text": "Mosiah 23:17",
+     "start": 108,
+     "end": 120,
+     "book": "Mosiah",
+     "chapter": 23,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Prayer comes first here too",
+   "text": "Verse 2 has them pray to the Father in the name of Christ before the hands go on. Moroni 2:2 puts mighty prayer before the power to give the Holy Ghost, and Moroni 4:2 puts kneeling and prayer before the sacrament."
+  },
+  {
+   "n": 4,
+   "title": "The alternative is written into the form",
+   "text": "Verse 3 carries the teacher wording inside a parenthesis. Nothing else in the volume preserves a set of words with a variant printed inside it, which is what a document looks like when it is being copied rather than remembered."
+  },
+  {
+   "n": 5,
+   "title": "The criterion has its inventory later in the book",
+   "text": "Verse 4 says they ordained according to the gifts and callings of God unto men. Moroni 10:8 to 17 lists those gifts one by one, seven chapters on."
+  },
+  {
+   "n": 6,
+   "title": "The power used is the one granted in chapter 2",
+   "text": "Verse 4 grounds the ordinations in the Holy Ghost the ordainers themselves carried. Moroni 2:2 is where they were given it, so the two chapters are the grant and its exercise, in that order."
+  }
+ ],
+ "words": [
+  {
+   "term": "Elders",
+   "verse_label": "v. 1",
+   "text": "Older men set over a congregation. The record uses the word nine times and the King James Bible a hundred and seventy-nine."
+  },
+  {
+   "term": "Ordained",
+   "verse_label": "v. 1",
+   "text": "Set apart to an office. Treated at 1 Nephi 12:7. It appears nineteen times in the record and thirty-five in the King James Bible."
+  },
+  {
+   "term": "Priests",
+   "verse_label": "v. 1",
+   "text": "Those who officiate. The record uses the word seventy-nine times and the King James Bible four hundred and one."
+  },
+  {
+   "term": "Teachers",
+   "verse_label": "v. 1",
+   "text": "Those charged with instruction. The record uses the word thirty times and the King James Bible fourteen."
+  },
+  {
+   "term": "Remission",
+   "verse_label": "v. 3",
+   "text": "The releasing of a debt or a charge. Treated at 2 Nephi 31:17. Verse 3 puts it beside repentance as what the office is to preach."
+  },
+  {
+   "term": "Endurance",
+   "verse_label": "v. 3",
+   "text": "Holding on to the end. The word appears twice in the record, here and at Moroni 8:3, and never in the King James Bible."
+  },
+  {
+   "term": "Callings",
+   "verse_label": "v. 4",
+   "text": "Summonses to a particular work. The word appears once in the record, here, and never in the King James Bible in this plural."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "The disciples, who were called the elders of the church",
+   "verse_label": "v. 1",
+   "text": "Two names for one group. Moroni gives the second so the reader can place them."
+  },
+  {
+   "term": "Ordained priests and teachers",
+   "verse_label": "v. 1",
+   "text": "The two offices this chapter covers. One form of words serves both."
+  },
+  {
+   "term": "After they had prayed unto the Father in the name of Christ",
+   "verse_label": "v. 2",
+   "text": "The step before the hands. Moroni 2:2 set the same order for the disciples themselves."
+  },
+  {
+   "term": "They laid their hands upon them, and said",
+   "verse_label": "v. 2",
+   "text": "The gesture and the speech together. Verse 3 supplies the speech."
+  },
+  {
+   "term": "In the name of Jesus Christ I ordain you to be a priest",
+   "verse_label": "v. 3",
+   "text": "The sentence as spoken. It opens with the name and states the act."
+  },
+  {
+   "term": "(Or if he be a teacher, I ordain you to be a teacher)",
+   "verse_label": "v. 3",
+   "text": "The variant kept inside the quoted form. The record preserves the choice rather than giving two forms."
+  },
+  {
+   "term": "To preach repentance and remission of sins through Jesus Christ",
+   "verse_label": "v. 3",
+   "text": "The charge that comes with the office. The office is defined by the message."
+  },
+  {
+   "term": "By the endurance of faith on his name to the end",
+   "verse_label": "v. 3",
+   "text": "How that preaching is to be carried. The phrase closes the ordination before the amen."
+  },
+  {
+   "term": "According to the gifts and callings of God unto men",
+   "verse_label": "v. 4",
+   "text": "The measure used in ordaining. What a man is given decides what he is ordained to."
+  },
+  {
+   "term": "They ordained them by the power of the Holy Ghost",
+   "verse_label": "v. 4",
+   "text": "What made the ordination effective. Verse 4 says that power was already in the ordainers."
+  },
+  {
+   "term": "Which was in them",
+   "verse_label": "v. 4",
+   "text": "The last clause of the chapter. It puts the source inside the men doing the work."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1",
+   "start": 1,
+   "end": 1,
+   "title": "The twelve under a working title",
+   "text": "The heading calls them \"the disciples, who were called the elders of the church.\" The phrase elders of the church appears twice in the volume, here and at Alma 4:16, and this is the only place it is attached to the twelve. The chapter is about office, and it opens by naming one.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 4:16",
+     "start": 155,
+     "end": 164,
+     "book": "Alma",
+     "chapter": 4,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
+  },
+  {
+   "label": "v. 2–3",
+   "start": 2,
+   "end": 3,
+   "title": "The rubric is preserved with the prayer",
+   "text": "The formula carries its own alternate wording inside it: \"I ordain you to be a priest (or if he be a teacher, I ordain you to be a teacher).\" What the record hands on is not a remembered occasion but a form with instructions for its reuse."
+  },
+  {
+   "label": "v. 4",
+   "start": 4,
+   "end": 4,
+   "title": "Authority stated twice, two different ways",
+   "text": "The ordinations went \"according to the gifts and callings of God unto men,\" and they were done \"by the power of the Holy Ghost, which was in them.\" One clause locates the authority in what God gives and the other in what the ordainers already carry. The record sets them side by side and does not rank them."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "One chapter covers two offices",
+   "text": "Verse 1 names priests and teachers and verse 3 handles both with a single form."
+  },
+  {
+   "n": 2,
+   "title": "Prayer precedes the hands",
+   "text": "Verse 2 puts the asking first, as Moroni 2:2 did for the disciples themselves."
+  },
+  {
+   "n": 3,
+   "title": "The wording is preserved as spoken",
+   "text": "Verse 3 quotes it in full."
+  },
+  {
+   "n": 4,
+   "title": "The alternative sits inside the quotation",
+   "text": "Verse 3 keeps the teacher wording in a parenthesis, so the reader sees the choice being made."
+  },
+  {
+   "n": 5,
+   "title": "The office is named by its work",
+   "text": "Verse 3 defines it as preaching repentance and remission of sins."
+  },
+  {
+   "n": 6,
+   "title": "Endurance is written into the charge",
+   "text": "Verse 3 asks for faith on his name to the end, in the ordination itself."
+  },
+  {
+   "n": 7,
+   "title": "The man's gifts set the office",
+   "text": "Verse 4 makes the ordaining follow what God has already given him."
+  },
+  {
+   "n": 8,
+   "title": "The power was in the ordainers",
+   "text": "Verse 4 closes by locating the Holy Ghost in the men laying on hands."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Record the manner, not only the fact",
+    "verse_label": "v. 1",
+    "text": "The chapter's stated subject is the manner in which the disciples ordained priests and teachers. Preserving how a thing was done is what lets a later generation repeat it instead of reconstructing it."
+   },
+   {
+    "title": "Pray before you act",
+    "verse_label": "v. 2",
+    "text": "The ordination begins with asking."
+   },
+   {
+    "title": "Say the thing plainly",
+    "verse_label": "v. 3",
+    "text": "The form of words is short, names the authority, and states the office."
+   },
+   {
+    "title": "Define a job by what it is for",
+    "verse_label": "v. 3",
+    "text": "The ordination names the work of preaching repentance."
+   },
+   {
+    "title": "Match the work to the gift",
+    "verse_label": "v. 4",
+    "text": "They ordained according to what God had given the man."
+   },
+   {
+    "title": "The power was already in them",
+    "verse_label": "v. 4",
+    "text": "They ordained by the power of the Holy Ghost which was in them, and they matched the office to what God had given the man. Nothing in that sentence is borrowed from outside the people doing it."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "Whom do I look to as an elder, and why?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What am I doing without praying about it first?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "Could I say plainly what I have been asked to do?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What would enduring to the end look like this year?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What gift have I been given that I have not put to work?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "Am I choosing tasks by what I want or by what I am given?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What am I trying to do on my own power?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "moro03-001",
+   "scope": "BOOK",
+   "head": "Moro. 2:2",
+   "anchor": {
+    "verse": 2,
+    "w1": 1,
+    "w2": 12,
+    "quote": "After they had prayed unto the Father in the name of Christ"
+   },
+   "reason": "the same order given to the disciples",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 2,
+     "verse": 2,
+     "w1": 8,
+     "w2": 19,
+     "quote": "Ye shall call on the Father in my name, in mighty prayer;",
+     "verse_text": "And he called them by name, saying: Ye shall call on the Father in my name, in mighty prayer; and after ye have done this ye shall have power that to him upon whom ye shall lay your hands, ye shall give the Holy Ghost; and in my name shall ye give it, for thus do mine apostles.",
+     "markdown": "And he called them by name, saying: **Ye shall call on the Father in my name, in mighty prayer**; and after ye have done this ye shall have power that to him upon whom ye shall lay your hands, ye shall give the Holy Ghost; and in my name shall ye give it, for thus do mine apostles.",
+     "span": true
+    }
+   ],
+   "mirror": "moro02-001"
+  },
+  {
+   "id": "moro03-002",
+   "scope": "BOOK",
+   "head": "Moro. 6:1",
+   "anchor": {
+    "verse": 1,
+    "w1": 14,
+    "w2": 17,
+    "quote": "ordained priests and teachers"
+   },
+   "reason": "the same three offices, listed for baptism",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 6,
+     "verse": 1,
+     "w1": 8,
+     "w2": 13,
+     "quote": "elders, priests, and teachers were baptized;",
+     "verse_text": "And now I speak concerning baptism. Behold, elders, priests, and teachers were baptized; and they were not baptized save they brought forth fruit meet that they were worthy of it.",
+     "markdown": "And now I speak concerning baptism. Behold, **elders, priests, and teachers were baptized**; and they were not baptized save they brought forth fruit meet that they were worthy of it.",
+     "span": true
+    }
+   ],
+   "mirror": "moro06-001"
+  },
+  {
+   "id": "moro03-010",
+   "scope": "BOOK",
+   "head": "Moro. 8:3",
+   "anchor": {
+    "verse": 3,
+    "w1": 37,
+    "w2": 47,
+    "quote": "by the endurance of faith on his name to the end."
+   },
+   "reason": "the same phrase in Mormon's letter",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 8,
+     "verse": 3,
+     "w1": 35,
+     "w2": 45,
+     "quote": "through the endurance of faith on his name to the end.",
+     "verse_text": "I am mindful of you always in my prayers, continually praying unto God the Father in the name of his Holy Child, Jesus, that he, through his infinite goodness and grace, will keep you through the endurance of faith on his name to the end.",
+     "markdown": "I am mindful of you always in my prayers, continually praying unto God the Father in the name of his Holy Child, Jesus, that he, through his infinite goodness and grace, will keep you **through the endurance of faith on his name to the end**.",
+     "span": true
+    }
+   ],
+   "mirror": "moro08-002"
+  },
+  {
+   "id": "moro03-003",
+   "scope": "BOM",
+   "head": "Mosiah 18:18",
+   "anchor": {
+    "verse": 1,
+    "w1": 14,
+    "w2": 17,
+    "quote": "ordained priests and teachers"
+   },
+   "reason": "Alma ordaining priests at the waters of Mormon",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 18,
+     "verse": 18,
+     "w1": 7,
+     "w2": 13,
+     "quote": "Alma, having authority from God, ordained priests;",
+     "verse_text": "And it came to pass that Alma, having authority from God, ordained priests; even one priest to every fifty of their number did he ordain to preach unto them, and to teach them concerning the things pertaining to the kingdom of God.",
+     "markdown": "And it came to pass that **Alma, having authority from God, ordained priests**; even one priest to every fifty of their number did he ordain to preach unto them, and to teach them concerning the things pertaining to the kingdom of God.",
+     "span": true
+    }
+   ],
+   "mirror": "mos18-034"
+  },
+  {
+   "id": "moro03-004",
+   "scope": "BOM",
+   "head": "Alma 13:1",
+   "anchor": {
+    "verse": 4,
+    "w1": 11,
+    "w2": 20,
+    "quote": "according to the gifts and callings of God unto men"
+   },
+   "reason": "Alma on the manner of the ordaining",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 13,
+     "verse": 1,
+     "w1": 32,
+     "w2": 40,
+     "quote": "the Lord God ordained priests, after his holy order,",
+     "verse_text": "And again, my brethren, I would cite your minds forward to the time when the Lord God gave these commandments unto his children; and I would that ye should remember that the Lord God ordained priests, after his holy order, which was after the order of his Son, to teach these things unto the people.",
+     "markdown": "And again, my brethren, I would cite your minds forward to the time when the Lord God gave these commandments unto his children; and I would that ye should remember that **the Lord God ordained priests, after his holy order**, which was after the order of his Son, to teach these things unto the people.",
+     "span": true
+    }
+   ],
+   "mirror": "al13-012"
+  },
+  {
+   "id": "moro03-005",
+   "scope": "BOM",
+   "head": "2 Ne. 31:17",
+   "anchor": {
+    "verse": 3,
+    "w1": 27,
+    "w2": 36,
+    "quote": "to preach repentance and remission of sins through Jesus Christ"
+   },
+   "reason": "Nephi on where the remission comes from",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 31,
+     "verse": 17,
+     "w1": 57,
+     "w2": 70,
+     "quote": "then cometh a remission of your sins by fire and by the Holy Ghost.",
+     "verse_text": "Wherefore, do the things which I have told you I have seen that your Lord and your Redeemer should do; for, for this cause have they been shown unto me, that ye might know the gate by which ye should enter. For the gate by which ye should enter is repentance and baptism by water; and then cometh a remission of your sins by fire and by the Holy Ghost.",
+     "markdown": "Wherefore, do the things which I have told you I have seen that your Lord and your Redeemer should do; for, for this cause have they been shown unto me, that ye might know the gate by which ye should enter. For the gate by which ye should enter is repentance and baptism by water; and **then cometh a remission of your sins by fire and by the Holy Ghost**.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne31-016"
+  },
+  {
+   "id": "moro03-009",
+   "scope": "BOM",
+   "head": "Alma 6:1",
+   "anchor": {
+    "verse": 3,
+    "w1": 1,
+    "w2": 13,
+    "quote": "In the name of Jesus Christ I ordain you to be a priest"
+   },
+   "reason": "the same act, recorded four centuries earlier",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 6,
+     "verse": 1,
+     "w1": 30,
+     "w2": 39,
+     "quote": "he ordained priests and elders, by laying on his hands",
+     "verse_text": "And now it came to pass that after Alma had made an end of speaking unto the people of the church, which was established in the city of Zarahemla, he ordained priests and elders, by laying on his hands according to the order of God, to preside and watch over the church.",
+     "markdown": "And now it came to pass that after Alma had made an end of speaking unto the people of the church, which was established in the city of Zarahemla, **he ordained priests and elders, by laying on his hands** according to the order of God, to preside and watch over the church.",
+     "span": true
+    }
+   ],
+   "mirror": "al06-009"
+  },
+  {
+   "id": "moro03-006",
+   "scope": "SW",
+   "head": "Acts 14:23",
+   "anchor": {
+    "verse": 1,
+    "w1": 14,
+    "w2": 17,
+    "quote": "ordained priests and teachers"
+   },
+   "reason": "elders ordained with prayer in every church",
+   "targets": [
+    {
+     "ref": "Acts",
+     "chapter": 14,
+     "verse": 23,
+     "w1": 2,
+     "w2": 10,
+     "quote": "when they had ordained them elders in every church,",
+     "verse_text": "And when they had ordained them elders in every church, and had prayed with fasting, they commended them to the Lord, on whom they believed.",
+     "markdown": "And **when they had ordained them elders in every church**, and had prayed with fasting, they commended them to the Lord, on whom they believed.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "moro03-007",
+   "scope": "SW",
+   "head": "1 Tim. 4:14",
+   "anchor": {
+    "verse": 4,
+    "w1": 22,
+    "w2": 35,
+    "quote": "they ordained them by the power of the Holy Ghost, which was in them"
+   },
+   "reason": "a gift given by prophecy and by hands",
+   "targets": [
+    {
+     "ref": "1 Tim.",
+     "chapter": 4,
+     "verse": 14,
+     "w1": 15,
+     "w2": 24,
+     "quote": "with the laying on of the hands of the presbytery.",
+     "verse_text": "Neglect not the gift that is in thee, which was given thee by prophecy, with the laying on of the hands of the presbytery.",
+     "markdown": "Neglect not the gift that is in thee, which was given thee by prophecy, **with the laying on of the hands of the presbytery**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "moro03-008",
+   "scope": "SW",
+   "head": "Matt. 24:13",
+   "anchor": {
+    "verse": 3,
+    "w1": 37,
+    "w2": 47,
+    "quote": "by the endurance of faith on his name to the end"
+   },
+   "reason": "the same condition stated as a promise",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 24,
+     "verse": 13,
+     "w1": 2,
+     "w2": 13,
+     "quote": "he that shall endure unto the end, the same shall be saved.",
+     "verse_text": "But he that shall endure unto the end, the same shall be saved.",
+     "markdown": "But **he that shall endure unto the end, the same shall be saved**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 14,
+   "w2": 17,
+   "quote": "ordained priests and teachers",
+   "entries": [
+    "moro03-002",
+    "moro03-003",
+    "moro03-006"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 1,
+   "w2": 12,
+   "quote": "After they had prayed unto the Father in the name of Christ",
+   "entries": [
+    "moro03-001"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 1,
+   "w2": 13,
+   "quote": "In the name of Jesus Christ I ordain you to be a priest",
+   "entries": [
+    "moro03-009"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 27,
+   "w2": 36,
+   "quote": "to preach repentance and remission of sins through Jesus Christ",
+   "entries": [
+    "moro03-005"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 37,
+   "w2": 47,
+   "quote": "by the endurance of faith on his name to the end.",
+   "entries": [
+    "moro03-010",
+    "moro03-008"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 11,
+   "w2": 20,
+   "quote": "according to the gifts and callings of God unto men",
+   "entries": [
+    "moro03-004"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 22,
+   "w2": 35,
+   "quote": "they ordained them by the power of the Holy Ghost, which was in them",
+   "entries": [
+    "moro03-007"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "ebfc2b622d00236e"
+ }
+}

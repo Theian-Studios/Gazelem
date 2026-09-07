@@ -17,7 +17,7 @@
    "The seam in the record",
    "Benjamin's peace"
   ],
-  "connections": 7,
+  "connections": 10,
   "initial": false
  },
  "world_behind": [
@@ -56,7 +56,7 @@
   {
    "term": "Abridgment",
    "verse_label": "v. 3",
-   "text": "A shortening that preserves the substance. Mormon uses it of his own work. He is the first writer in the record to name his method. Everything from here to the end of the book is filtered through one man's judgment about what to keep, and he says so before the reader reaches it."
+   "text": "A shortening that preserves the substance. Treated at 1 Nephi 1:17. Mormon uses it of his own work. He is the first writer in the record to name his method. Everything from here to the end of the book is filtered through one man's judgment about what to keep, and he says so before the reader reaches it."
   },
   {
    "term": "Remainder",
@@ -66,7 +66,7 @@
   {
    "term": "Choice",
    "verse_label": "v. 6",
-   "text": "Selected, and therefore valuable. The word carries both. Mormon keeps the small plates because they are choice unto him and says he knows they will be choice unto his brethren. The allegory in Jacob 5 used it of the best ground in the vineyard. It is the record's word for what one keeps when there is no room for everything."
+   "text": "Selected, and therefore valuable. Treated at 1 Nephi 7:15. The word carries both. Mormon keeps the small plates because they are choice unto him and says he knows they will be choice unto his brethren. The allegory in Jacob 5 used it of the best ground in the vineyard. It is the record's word for what one keeps when there is no room for everything."
   },
   {
    "term": "Prophesyings",
@@ -140,7 +140,19 @@
   {
    "term": "I do this for a wise purpose; for thus it whispereth me",
    "verse_label": "v. 7",
-   "text": "To whisper is to speak below normal volume, and the verb measures the strength of the impression exactly: enough to act on, not enough to explain. This is the closest the record comes to describing its own composition as guided without explanation. Mormon gives a reason he cannot state, attributes it to the Spirit, and immediately concedes the limits of his knowledge. Nephi had been given the same instruction in the same words."
+   "text": "To whisper is to speak below normal volume, and the verb measures the strength of the impression exactly: enough to act on, not enough to explain. This is the closest the record comes to describing its own composition as guided without explanation. Mormon gives a reason he cannot state, attributes it to the Spirit, and immediately concedes the limits of his knowledge. Nephi had been given the same instruction in the same words (1 Ne. 9:5).",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 9:5",
+     "start": 432,
+     "end": 441,
+     "book": "1 Ne",
+     "chapter": 9,
+     "verse_start": 5,
+     "verse_end": 5
+    }
+   ]
   },
   {
    "term": "I do not know all things; but the Lord knoweth all things which are to come",
@@ -170,7 +182,19 @@
   {
    "term": "They did use much sharpness because of the stiffneckedness of the people",
    "verse_label": "v. 17",
-   "text": "Sharpness is severity of speech: Paul uses it of what he hopes not to need, and Lehi used it defending Nephi to his brothers. Cause and method here, stated without apology. The record has defended harsh preaching before, at the end of Enos. Here it is attributed to many holy men at once and made a feature of Benjamin's reign."
+   "text": "Sharpness is severity of speech: Paul uses it of what he hopes not to need (2 Cor. 13:10), and Lehi used it defending Nephi to his brothers. Cause and method here, stated without apology. The record has defended harsh preaching before, at the end of Enos. Here it is attributed to many holy men at once and made a feature of Benjamin's reign.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Cor. 13:10",
+     "start": 76,
+     "end": 88,
+     "book": "2 Cor",
+     "chapter": 13,
+     "verse_start": 10,
+     "verse_end": 10
+    }
+   ]
   },
   {
    "term": "By laboring with all the might of his body and the faculty of his whole soul",
@@ -183,50 +207,114 @@
    "label": "v. 1–2",
    "start": 1,
    "end": 2,
-   "title": "Mormon, at the end",
-   "text": "He is handing the record to his son, he has watched almost all of his people destroyed, and he expects Moroni to watch the rest. The prayer is that his son survive long enough to write. Two verses, and they are the darkest opening of any book in the record."
+   "title": "A book written at the moment of handing over",
+   "text": "The record opens by giving its occasion, and the occasion is a transfer: \"being about to deliver up the record which I have been making into the hands of my son Moroni.\" Verse 2 dates it loosely, \"many hundred years after the coming of Christ,\" from a writer whose narrative elsewhere counts single years, and adds a prediction about the man receiving it: \"it supposeth me that he will witness the entire destruction of my people.\" The whole book is written in the gap between one keeper putting the record down and the next picking it up."
   },
   {
-   "label": "v. 3–6",
+   "label": "v. 3",
    "start": 3,
-   "end": 6,
-   "title": "What he found and why he kept it",
-   "text": "The abridgment was already made down to Benjamin; searching his own holdings he found these plates; the prophecies of Christ pleased him and he could see them fulfilled; he cannot write the hundredth part; he keeps them because they are choice. The compiler's reasoning, given in full."
+   "end": 3,
+   "title": "The plates were found after the work was done",
+   "text": "The discovery is reported as a sequence with a clear order: \"after I had made an abridgment from the plates of Nephi, down to the reign of this king Benjamin... I searched among the records which had been delivered into my hands, and I found these plates.\" The abridgement already reached Benjamin when the extra plates turned up. What they contained is specified, \"this small account of the prophets, from Jacob down to the reign of this king Benjamin,\" which is the run of short books a reader has just finished. The seam is explained by the writer standing at it."
   },
   {
-   "label": "v. 7–9",
+   "label": "v. 5",
+   "start": 5,
+   "end": 5,
+   "title": "The measure the volume uses for what it left out",
+   "text": "The limit is stated as a fraction: \"I cannot write the hundredth part of the things of my people.\" Six verses in the volume use hundredth part, at Jacob 3:13, Hel. 3:14, 3 Ne. 5:8, 3 Ne. 26:6, Ether 15:33 and here. Four different writers reach for the same figure. It is never varied to a tenth or a thousandth, and no writer ever explains where the number comes from.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 3:13",
+     "start": 147,
+     "end": 157,
+     "book": "Jacob",
+     "chapter": 3,
+     "verse_start": 13,
+     "verse_end": 13
+    },
+    {
+     "kind": "scripture",
+     "text": "Hel. 3:14",
+     "start": 159,
+     "end": 168,
+     "book": "Hel",
+     "chapter": 3,
+     "verse_start": 14,
+     "verse_end": 14
+    },
+    {
+     "kind": "scripture",
+     "text": "3 Ne. 5:8",
+     "start": 170,
+     "end": 179,
+     "book": "3 Ne",
+     "chapter": 5,
+     "verse_start": 8,
+     "verse_end": 8
+    },
+    {
+     "kind": "scripture",
+     "text": "3 Ne. 26:6",
+     "start": 181,
+     "end": 191,
+     "book": "3 Ne",
+     "chapter": 26,
+     "verse_start": 6,
+     "verse_end": 6
+    },
+    {
+     "kind": "scripture",
+     "text": "Ether 15:33",
+     "start": 193,
+     "end": 204,
+     "book": "Ether",
+     "chapter": 15,
+     "verse_start": 33,
+     "verse_end": 33
+    }
+   ]
+  },
+  {
+   "label": "v. 7",
    "start": 7,
-   "end": 9,
-   "title": "A whisper, and an admission",
-   "text": "A wise purpose, a whisper, an admission that he does not know all things, a prayer that the Lamanites be delightsome again, and a statement that he will now proceed from the plates of Nephi. The center of the chapter is a man acting on an instruction he cannot explain."
+   "end": 7,
+   "title": "An editor who says he does not know why",
+   "text": "The reason given for including the small plates is not a reason: \"I do this for a wise purpose; for thus it whispereth me, according to the workings of the Spirit of the Lord which is in me. And now, I do not know all things.\" Wise purpose stands in six verses of the volume, four of them in Alma 37 and one at 1 Nephi 9:5, always for a purpose the speaker cannot state; 1 Nephi 19:3 gives the plural, \"other wise purposes.\" Whispereth occurs twice, here and at 2 Ne. 28:22, where it describes the devil. The most consequential editorial decision in the book is recorded as an impulse its own author could not account for.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 28:22",
+     "start": 462,
+     "end": 473,
+     "book": "2 Ne",
+     "chapter": 28,
+     "verse_start": 22,
+     "verse_end": 22
+    }
+   ]
   },
   {
    "label": "v. 10–11",
    "start": 10,
    "end": 11,
-   "title": "The chain of custody, completed",
-   "text": "Amaleki to Benjamin, Benjamin to the kings, the kings down the generations, and at last into Mormon's hands. Then the prayer that they be preserved and the reason: two nations will be judged out of what is written on them."
+   "title": "The chain of hands, and a prediction about it",
+   "text": "Two verses of the record trace the object itself: Amaleki delivers the plates to king Benjamin, who \"put them with the other plates,\" and then \"they were handed down from king Benjamin, from generation to generation until they have fallen into my hands.\" Verse 11 turns from history to a prayer and then to a claim: \"I pray to God that they may be preserved... And I know that they will be preserved.\" The reason given is what is written on them, \"out of which my people and their brethren shall be judged.\" A man who has watched his nation destroyed is confident about the survival of the object, and says nothing about how."
   },
   {
-   "label": "v. 12–14",
+   "label": "v. 12",
    "start": 12,
-   "end": 14,
-   "title": "Benjamin at war",
-   "text": "Contentions at home, Lamanite armies down from the land of Nephi, the king fighting with his own arm and with the sword of Laban, and the enemy driven out of all the lands of their inheritance. Three verses of national survival, told without any detail about cost."
+   "end": 12,
+   "title": "Eleven verses about a book, ended by a dash",
+   "text": "The return to narrative is abrupt and the record marks it with punctuation rather than a transition: \"And now, concerning this king Benjamin, he had somewhat of contentions among his own people.\" After a chapter given entirely to plates, purposes, custody and omission, the sentence that resumes the story is nineteen words long and contains no explanation of the change of subject."
   },
   {
-   "label": "v. 15–17",
+   "label": "v. 15–16",
    "start": 15,
-   "end": 17,
-   "title": "Benjamin and the false teachers",
-   "text": "False Christs, false prophets, false preachers and teachers, all punished; much contention and many dissensions; and then the description of the king himself, who is holy and reigns in righteousness, with many holy men speaking with power and using much sharpness."
-  },
-  {
-   "label": "v. 18",
-   "start": 18,
-   "end": 18,
-   "title": "Peace, established once more",
-   "text": "One verse for the outcome, and it credits the king's body and soul and the prophets together. The chapter that began with the end of a nation ends with a king restoring order five hundred years earlier, which is the point at which the abridgment proper picks up."
+   "end": 16,
+   "title": "A list of what was put down, in one repeated formula",
+   "text": "Three categories of trouble are named and each is closed the same way: after false Christs, \"their mouths had been shut, and they punished according to their crimes\"; after \"false prophets, and false preachers and teachers among the people, and all these having been punished according to their crimes.\" False Christs occurs once in the volume, in verse 15. The formula does the work that a narrative would, so a period of internal conflict is disposed of in two verses by naming its types and repeating the same phrase for its end."
   }
  ],
  "chapter": [
@@ -258,12 +346,12 @@
   {
    "n": 6,
    "title": "Benjamin is introduced by what he does",
-   "text": "He fights, he punishes, he labors, and he establishes peace, all before the reader hears a word from him. The great sermon comes two chapters later, and this chapter is what earns it a hearing."
+   "text": "Verses 13 through 18 give five actions and no speech: he gathers armies, fights \"with the strength of his own arm, with the sword of Laban,\" drives the Lamanites out, uses \"much sharpness\" against dissenters with the help of holy men, and establishes peace \"by laboring with all the might of his body and the faculty of his whole soul.\" Not one word of his is quoted. The sermon at Mosiah 2 through 5 runs to four chapters, and everything the reader knows about the speaker before it begins comes from this list."
   },
   {
    "n": 7,
    "title": "The chapter is written from the end and set at the beginning",
-   "text": "Mormon knows how the story finishes and is placing a document at its middle. Everything in it about preservation, judgment, and surviving witnesses is written by someone who has already seen the outcome, which may be why the tone is settled rather than hopeful."
+   "text": "The chapter is written from the end and inserted at the middle. Verse 2 has the writer stating that he has \"witnessed almost all the destruction of my people,\" and verse 11 has him praying for the plates and then dropping the prayer for a certainty, \"And I know that they will be preserved.\" Verse 7 supplies the reason for the insertion and concedes he does not have it, \"I do this for a wise purpose... And now, I do not know all things.\" The same pairing of a stated ignorance with a stated confidence stands at 1 Nephi 9:5–6."
   }
  ],
  "world_in_front": {
@@ -496,6 +584,84 @@
    "mirror": "omn01-005"
   },
   {
+   "id": "wom01-008",
+   "scope": "BOM",
+   "head": "1 Ne. 6:3",
+   "anchor": {
+    "verse": 5,
+    "w1": 26,
+    "w2": 37,
+    "quote": "I cannot write the hundredth part of the things of my people."
+   },
+   "reason": "the first writer under the same limit",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 6,
+     "verse": 3,
+     "w1": 24,
+     "w2": 30,
+     "quote": "they cannot be written upon these plates,",
+     "verse_text": "And it mattereth not to me that I am particular to give a full account of all the things of my father, for they cannot be written upon these plates, for I desire the room that I may write of the things of God.",
+     "markdown": "And it mattereth not to me that I am particular to give a full account of all the things of my father, for **they cannot be written upon these plates**, for I desire the room that I may write of the things of God.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne06-004"
+  },
+  {
+   "id": "wom01-009",
+   "scope": "BOM",
+   "head": "Jacob 3:13",
+   "anchor": {
+    "verse": 5,
+    "w1": 26,
+    "w2": 37,
+    "quote": "I cannot write the hundredth part of the things of my people."
+   },
+   "reason": "the hundredth part, three writers earlier",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 3,
+     "verse": 13,
+     "w1": 2,
+     "w2": 10,
+     "quote": "a hundredth part of the proceedings of this people,",
+     "verse_text": "And a hundredth part of the proceedings of this people, which now began to be numerous, cannot be written upon these plates; but many of their proceedings are written upon the larger plates, and their wars, and their contentions, and the reigns of their kings.",
+     "markdown": "And **a hundredth part of the proceedings of this people**, which now began to be numerous, cannot be written upon these plates; but many of their proceedings are written upon the larger plates, and their wars, and their contentions, and the reigns of their kings.",
+     "span": true
+    }
+   ],
+   "mirror": "jac03-006"
+  },
+  {
+   "id": "wom01-010",
+   "scope": "BOM",
+   "head": "1 Ne. 9:5",
+   "anchor": {
+    "verse": 7,
+    "w1": 2,
+    "w2": 13,
+    "quote": "I do this for a wise purpose; for thus it whispereth me,"
+   },
+   "reason": "Nephi writing the plates without knowing why",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 9,
+     "verse": 5,
+     "w1": 11,
+     "w2": 21,
+     "quote": "for a wise purpose in him, which purpose I know not.",
+     "verse_text": "Wherefore, the Lord hath commanded me to make these plates for a wise purpose in him, which purpose I know not.",
+     "markdown": "Wherefore, the Lord hath commanded me to make these plates **for a wise purpose in him, which purpose I know not**.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne09-003"
+  },
+  {
    "id": "wom01-005",
    "scope": "SW",
    "head": "Matt. 24:24",
@@ -529,7 +695,9 @@
    "w2": 37,
    "quote": "I cannot write the hundredth part of the things of my people",
    "entries": [
-    "wom01-003"
+    "wom01-003",
+    "wom01-008",
+    "wom01-009"
    ]
   },
   {
@@ -538,7 +706,8 @@
    "w2": 13,
    "quote": "I do this for a wise purpose; for thus it whispereth me",
    "entries": [
-    "wom01-002"
+    "wom01-002",
+    "wom01-010"
    ]
   },
   {
@@ -588,7 +757,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "4f91c70ace830921"
+  "at": "2026-09-07",
+  "source_sha256": "ccbb357021b04e0d"
  }
 }

@@ -18,7 +18,7 @@
    "Burdens made light",
    "Deliverance"
   ],
-  "connections": 16,
+  "connections": 18,
   "initial": false
  },
  "world_behind": [
@@ -57,7 +57,7 @@
   {
    "term": "Cunning",
    "verse_label": "v. 7",
-   "text": "Skilled and clever, with the older sense of craftsmanship shading into the modern sense of guile. The verse says the Lamanites became a cunning and a wise people as to the wisdom of the world, and then adds that they delighted in plunder. The compliment and the charge sit in one sentence."
+   "text": "Skilled and clever, with the older sense of craftsmanship shading into the modern sense of guile. Treated at 1 Nephi 16:38. The verse says the Lamanites became a cunning and a wise people as to the wisdom of the world, and then adds that they delighted in plunder. The compliment and the charge sit in a single line."
   },
   {
    "term": "Task-masters",
@@ -72,7 +72,19 @@
   {
    "term": "Surety",
    "verse_label": "v. 14",
-   "text": "Certainty, something established past doubt rather than merely believed. It is the word the promise turns on, and it makes the lightened burden a piece of evidence. Knowing is named as the purpose before comfort is."
+   "text": "Certainty, something established past doubt rather than merely believed. Treated at Mosiah 5:2. It is the word the promise turns on, and it makes the lightened burden a piece of evidence. Knowing is named as the purpose before comfort is.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 5:2",
+     "start": 84,
+     "end": 94,
+     "book": "Mosiah",
+     "chapter": 5,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
   },
   {
    "term": "Profound",
@@ -89,7 +101,7 @@
   {
    "term": "The language of Nephi began to be taught among all the people of the Lamanites",
    "verse_label": "v. 4",
-   "text": "A consequence with a very long reach, and the record spends eight words on it. The men who taught it were hiding from execution. The phrase occurs once in scripture, and the literacy it describes is what later missionaries to the Lamanites will find already in place."
+   "text": "A consequence with a very long reach, and the record spends eight words on it. The men who taught it were hiding from execution. The phrase appears once in all of scripture, and the literacy it describes is what later missionaries to the Lamanites will find already in place."
   },
   {
    "term": "Nor did they teach them the words of Abinadi",
@@ -99,7 +111,19 @@
   {
    "term": "Whosoever should be found calling upon God should be put to death",
    "verse_label": "v. 11",
-   "text": "A statute against one act, enforced by guards posted to watch. Daniel's accusers used a thirty-day version and a den of lions. Both bans are about what can be observed, and in both cases the answer is that the observable part is not the whole of it."
+   "text": "A statute against one act, enforced by guards posted to watch. Daniel's accusers used a thirty-day version and a den of lions (Dan. 6:7). Both bans are about what can be observed, and in both cases the answer is that the observable part is not the whole of it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Dan. 6:7",
+     "start": 127,
+     "end": 135,
+     "book": "Dan",
+     "chapter": 6,
+     "verse_start": 7,
+     "verse_end": 7
+    }
+   ]
   },
   {
    "term": "Did pour out their hearts to him; and he did know the thoughts of their hearts",
@@ -129,53 +153,64 @@
  ],
  "verses": [
   {
-   "label": "v. 1–7",
-   "start": 1,
+   "label": "v. 3",
+   "start": 3,
+   "end": 3,
+   "title": "A king's name explained because it repeats",
+   "text": "The record pauses over a name it has used before: \"the name of the king of the Lamanites was Laman, being called after the name of his father; and therefore he was called king Laman.\" The clause exists to keep a reader from confusing two men, and the volume uses the same device at Hel. 5:6 for Nephi and Lehi, at Alma 63:11 for Helaman, and at 3 Ne. 5:12 for Mormon. Four times a name is explained by pointing at the person it was taken from.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Hel. 5:6",
+     "start": 282,
+     "end": 290,
+     "book": "Hel",
+     "chapter": 5,
+     "verse_start": 6,
+     "verse_end": 6
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 63:11",
+     "start": 314,
+     "end": 324,
+     "book": "Alma",
+     "chapter": 63,
+     "verse_start": 11,
+     "verse_end": 11
+    },
+    {
+     "kind": "scripture",
+     "text": "3 Ne. 5:12",
+     "start": 345,
+     "end": 355,
+     "book": "3 Ne",
+     "chapter": 5,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
+  },
+  {
+   "label": "v. 4–7",
+   "start": 4,
    "end": 7,
-   "title": "A nation taught to read by fugitives",
-   "text": "Amulon gains favor, his brethren are made teachers across three lands, and the language of Nephi spreads. They teach writing and record keeping and nothing about God. The result is a people who trade, prosper, and grow cunning as to the wisdom of the world."
+   "title": "A literacy programme, and what it did not include",
+   "text": "Four verses trace a chain: teachers appointed \"in every land which was possessed by his people,\" then \"the language of Nephi began to be taught among all the people of the Lamanites,\" then a use for it, \"they taught them that they should keep their record, and that they might write one to another,\" and then the result, that they \"began to trade one with another and wax great, and began to be a cunning and a wise people.\" Verse 5 supplies the exception in the middle of it: \"neither did the brethren of Amulon teach them anything concerning the Lord their God.\" The record credits writing with the prosperity and marks the omission in the same passage."
   },
   {
-   "label": "v. 8–11",
-   "start": 8,
-   "end": 11,
-   "title": "Authority without office, used personally",
-   "text": "Amulon has no power of his own and exercises plenty. He knew Alma from the old court, is angry at him for believing, puts tasks and task-masters over his people, and when they cry out he criminalizes the crying."
+   "label": "v. 9",
+   "start": 9,
+   "end": 9,
+   "title": "A persecution given a dated personal motive",
+   "text": "The record does not leave the cruelty general. It supplies a history: \"Amulon knew Alma, that he had been one of the king's priests, and that it was he that believed the words of Abinadi and was driven out before the king.\" Both men were priests of Noah, and the episode being referred to is Mosiah 17, where Alma pleads for Abinadi and flees. The oppression in this chapter is between two men who worked in the same room twenty years earlier, and the verse says so."
   },
   {
-   "label": "v. 12–14",
-   "start": 12,
-   "end": 14,
-   "title": "Silent prayer, and a specific answer",
-   "text": "They stop raising their voices and pour out their hearts instead. The voice that comes back cites the covenant they made at the water, promises deliverance, and promises something in the meantime: burdens they cannot feel, so that they will know he visits people in their afflictions."
-  },
-  {
-   "label": "v. 15–16",
-   "start": 15,
-   "end": 16,
-   "title": "Lightened, then delivered",
-   "text": "The burdens are made light, they are strengthened to bear up, and they submit cheerfully and with patience. The verse that follows makes the faith and the patience the reason the second message comes: on the morrow I will deliver you."
-  },
-  {
-   "label": "v. 18–20",
-   "start": 18,
-   "end": 20,
-   "title": "A night of gathering, a morning of sleep",
-   "text": "All night collecting flocks and grain. In the morning a deep sleep falls on the Lamanites and their task-masters. They walk out, travel all day, and name a valley after the man who led them."
-  },
-  {
-   "label": "v. 21–22",
-   "start": 21,
-   "end": 22,
-   "title": "Thanks, in a valley",
-   "text": "They pour out their thanks for mercy, eased burdens, and deliverance, and the verse repeats the frame set a chapter earlier: none could deliver them but the Lord. Then everyone who could speak, men and women and children, lifted their voices, the thing they had been forbidden to do."
-  },
-  {
-   "label": "v. 23–25",
-   "start": 23,
-   "end": 25,
-   "title": "Move, and keep moving",
-   "text": "The pursuit is coming, and the promise is that it will be stopped here while they go. Twelve days later they reach Zarahemla, and Mosiah receives them with joy as he had received the others."
+   "label": "v. 14–15",
+   "start": 14,
+   "end": 15,
+   "title": "The relief described, and it is not removal",
+   "text": "The record makes the promise careful about what will change: \"I will also ease the burdens which are put upon your shoulders, that even you cannot feel them upon your backs, even while you are in bondage.\" The last clause keeps the bondage in place. Verse 15 reports the fulfilment in the same terms, \"the burdens which were laid upon Alma and his brethren were made light... and they did submit cheerfully and with patience to all the will of the Lord.\" Nothing about the load or the captivity is said to have altered. What is reported as changed is the capacity to carry it."
   }
  ],
  "chapter": [
@@ -187,7 +222,19 @@
   {
    "n": 2,
    "title": "The answer is shaped like the covenant",
-   "text": "At the waters of Mormon they had promised to bear one another's burdens and to stand as witnesses of God at all times. Here the Lord says he knows of that covenant, eases their burdens, and gives as his reason that they may stand as witnesses for him hereafter. Both key phrases are quoted back."
+   "text": "At the waters of Mormon they had promised to bear one another's burdens (Mosiah 18:8–9) and to stand as witnesses of God at all times. Here the Lord says he knows of that covenant, eases their burdens, and gives as his reason that they may stand as witnesses for him hereafter. Both key phrases are quoted back.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 18:8–9",
+     "start": 73,
+     "end": 86,
+     "book": "Mosiah",
+     "chapter": 18,
+     "verse_start": 8,
+     "verse_end": 9
+    }
+   ]
   },
   {
    "n": 3,
@@ -608,7 +655,59 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al17-007"
+  },
+  {
+   "id": "mos24-019",
+   "scope": "BOM",
+   "head": "Alma 21:3",
+   "anchor": {
+    "verse": 4,
+    "w1": 4,
+    "w2": 9,
+    "quote": "teachers of the brethren of Amulon"
+   },
+   "reason": "the same men, met again as teachers",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 21,
+     "verse": 3,
+     "w1": 13,
+     "w2": 17,
+     "quote": "the Amulonites were still harder;",
+     "verse_text": "Now the Lamanites of themselves were sufficiently hardened, but the Amalekites and the Amulonites were still harder; therefore they did cause the Lamanites that they should harden their hearts, that they should wax strong in wickedness and their abominations.",
+     "markdown": "Now the Lamanites of themselves were sufficiently hardened, but the Amalekites and **the Amulonites were still harder**; therefore they did cause the Lamanites that they should harden their hearts, that they should wax strong in wickedness and their abominations.",
+     "span": true
+    }
+   ],
+   "mirror": "al21-007"
+  },
+  {
+   "id": "mos24-020",
+   "scope": "BOM",
+   "head": "3 Ne. 4:31",
+   "anchor": {
+    "verse": 22,
+    "w1": 22,
+    "w2": 30,
+    "quote": "lifted their voices in the praises of their God."
+   },
+   "reason": "the same thanksgiving after a later deliverance",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 4,
+     "verse": 31,
+     "w1": 7,
+     "w2": 19,
+     "quote": "they did break forth, all as one, in singing, and praising their God",
+     "verse_text": "And it came to pass that they did break forth, all as one, in singing, and praising their God for the great thing which he had done for them, in preserving them from falling into the hands of their enemies.",
+     "markdown": "And it came to pass that **they did break forth, all as one, in singing, and praising their God** for the great thing which he had done for them, in preserving them from falling into the hands of their enemies.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne04-007"
   },
   {
    "id": "mos24-015",
@@ -718,6 +817,15 @@
  "markers": [
   {
    "verse": 4,
+   "w1": 4,
+   "w2": 9,
+   "quote": "teachers of the brethren of Amulon",
+   "entries": [
+    "mos24-019"
+   ]
+  },
+  {
+   "verse": 4,
    "w1": 21,
    "w2": 35,
    "quote": "the language of Nephi began to be taught among all the people of the Lamanites",
@@ -819,6 +927,15 @@
    ]
   },
   {
+   "verse": 22,
+   "w1": 22,
+   "w2": 30,
+   "quote": "lifted their voices in the praises of their God.",
+   "entries": [
+    "mos24-020"
+   ]
+  },
+  {
    "verse": 25,
    "w1": 19,
    "w2": 26,
@@ -830,7 +947,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "a698b4b8000a2561"
+  "at": "2026-09-07",
+  "source_sha256": "9d98a017b4c128d9"
  }
 }

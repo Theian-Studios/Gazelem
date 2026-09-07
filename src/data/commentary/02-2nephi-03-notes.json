@@ -17,7 +17,7 @@
    "The seer",
    "Weakness made strong"
   ],
-  "connections": 9,
+  "connections": 13,
   "initial": false
  },
  "world_behind": [
@@ -302,6 +302,38 @@
    ]
   },
   {
+   "term": "Commence",
+   "verse_label": "v. 13",
+   "text": "To begin. The word runs seventeen times in this record and never in the King James Bible, first of the people stepping onto the path in Lehi's dream (1 Ne. 8:22). Joseph's prophecy uses it for the seer's work: \"in that day when my work shall commence among all my people\" (v. 13). It sits directly after the weakness and the strength, so the starting date is fixed to the moment the weak thing is made strong.",
+   "cites": [
+    {
+     "quote": "in that day when my work shall commence among all my people",
+     "verse": 13,
+     "start": 210,
+     "end": 279,
+     "spans": [
+      {
+       "w1": 10,
+       "w2": 21,
+       "text": "in that day when my work shall commence among all my people"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 8:22",
+     "start": 150,
+     "end": 160,
+     "book": "1 Ne",
+     "chapter": 8,
+     "verse_start": 22,
+     "verse_end": 22
+    }
+   ]
+  },
+  {
    "term": "Finger",
    "verse_label": "v. 17",
    "text": "God's own lettering. The promise about Moses keeps the Exodus detail exactly: \"I will write unto him my law, by the finger of mine own hand\" (v. 17), which is how the tables came (Ex. 31:18). The image keeps working through the volume. Writing shows up on a temple wall at Ammonihah from the same finger (Alma 10:2), and when the veil parts for the brother of Jared the first thing he sees is a finger (Ether 3:6). In a book made by engravers, the hand of God is the hand that writes.",
@@ -538,323 +570,43 @@
    "label": "v. 1–3",
    "start": 1,
    "end": 3,
-   "title": "The last-born's estate",
-   "text": "Born in the sorrow years, brought out of them, Joseph receives land (\"a most precious land\" (v. 2)) on the family's standing condition, and a floor under all of it: \"thy seed shall not utterly be destroyed\" (v. 3). The blessing begins by fencing the worst case; everything after is upside.",
-   "cites": [
-    {
-     "quote": "a most precious land",
-     "verse": 2,
-     "start": 69,
-     "end": 98,
-     "spans": [
-      {
-       "w1": 13,
-       "w2": 16,
-       "text": "a most precious land"
-      }
-     ]
-    },
-    {
-     "quote": "thy seed shall not utterly be destroyed",
-     "verse": 3,
-     "start": 165,
-     "end": 213,
-     "spans": [
-      {
-       "w1": 24,
-       "w2": 30,
-       "text": "thy seed shall not utterly be destroyed"
-      }
-     ]
-    }
-   ]
+   "title": "A deathbed address that names its occasion twice",
+   "text": "The record opens the blessing by fixing when the son was born: \"Thou wast born in the wilderness of mine afflictions; yea, in the days of my greatest sorrow did thy mother bear thee.\" Verse 3 says it again in shorter form, \"whom I have brought out of the wilderness of mine afflictions.\" The phrase \"my last-born\" appears in both verses. The chapter closes at verse 25 with \"Remember the words of thy dying father,\" so the whole passage is bracketed by statements about the speaker's own condition rather than about the son's."
   },
   {
    "label": "v. 4–5",
    "start": 4,
    "end": 5,
-   "title": "The Egypt link",
-   "text": "\"Thou art the fruit of my loins; and I am a descendant of Joseph\" (v. 4): the discovery of the plates (1 Ne. 5:14) becomes the blessing's foundation. Joseph of Egypt \"truly saw our day\" (v. 5): a \"righteous branch\" (v. 5) broken off yet remembered, brought \"out of hidden darkness and out of captivity unto freedom\" (v. 5). The family's exile was on file a millennium before it happened.",
-   "cites": [
-    {
-     "quote": "Thou art the fruit of my loins; and I am a descendant of Joseph",
-     "verse": 4,
-     "start": 0,
-     "end": 72,
-     "spans": [
-      {
-       "w1": 3,
-       "w2": 16,
-       "text": "Thou art the fruit of my loins; and I am a descendant of Joseph"
-      }
-     ]
-    },
-    {
-     "quote": "truly saw our day",
-     "verse": 5,
-     "start": 166,
-     "end": 192,
-     "spans": [
-      {
-       "w1": 3,
-       "w2": 6,
-       "text": "truly saw our day"
-      }
-     ]
-    },
-    {
-     "quote": "righteous branch",
-     "verse": 5,
-     "start": 196,
-     "end": 221,
-     "spans": [
-      {
-       "w1": 30,
-       "w2": 31,
-       "text": "righteous branch"
-      }
-     ]
-    },
-    {
-     "quote": "out of hidden darkness and out of captivity unto freedom",
-     "verse": 5,
-     "start": 257,
-     "end": 322,
-     "spans": [
-      {
-       "w1": 87,
-       "w2": 96,
-       "text": "out of hidden darkness and out of captivity unto freedom"
-      }
-     ]
-    }
-   ],
-   "refs": [
-    {
-     "kind": "scripture",
-     "text": "1 Ne. 5:14",
-     "start": 103,
-     "end": 113,
-     "book": "1 Ne",
-     "chapter": 5,
-     "verse_start": 14,
-     "verse_end": 14
-    }
-   ]
+   "title": "A clarification inserted to block a misreading",
+   "text": "The record interrupts its own promise to rule something out: the branch raised up out of Joseph's loins is \"not the Messiah, but a branch which was to be broken off.\" Nothing in the surrounding sentence invites the confusion, and no one in the narrative has raised it. The denial is aimed at a reader, not at a hearer. Verse 4 also supplies the genealogical claim the whole chapter rests on, \"I am a descendant of Joseph who was carried captive into Egypt,\" which the record states here and nowhere earlier."
   },
   {
    "label": "v. 6–8",
    "start": 6,
    "end": 8,
-   "title": "Promised, and leashed",
-   "text": "A seer to the branch's descendants, esteemed highly, doing a work \"which shall be of great worth unto them\" (v. 7): bringing them \"to the knowledge of the covenants\" (v. 7). His commission is deliberately narrow ( \"none other work\" (v. 8)), and his greatness is assigned, not achieved: \"I will make him great in mine eyes; for he shall do my work\" (v. 8).",
-   "cites": [
-    {
-     "quote": "which shall be of great worth unto them",
-     "verse": 7,
-     "start": 66,
-     "end": 114,
-     "spans": [
-      {
-       "w1": 58,
-       "w2": 65,
-       "text": "which shall be of great worth unto them"
-      }
-     ]
-    },
-    {
-     "quote": "to the knowledge of the covenants",
-     "verse": 7,
-     "start": 130,
-     "end": 172,
-     "spans": [
-      {
-       "w1": 72,
-       "w2": 77,
-       "text": "to the knowledge of the covenants"
-      }
-     ]
-    },
-    {
-     "quote": "none other work",
-     "verse": 8,
-     "start": 214,
-     "end": 238,
-     "spans": [
-      {
-       "w1": 13,
-       "w2": 15,
-       "text": "none other work"
-      }
-     ]
-    },
-    {
-     "quote": "I will make him great in mine eyes; for he shall do my work",
-     "verse": 8,
-     "start": 286,
-     "end": 354,
-     "spans": [
-      {
-       "w1": 25,
-       "w2": 38,
-       "text": "I will make him great in mine eyes; for he shall do my work"
-      }
-     ]
-    }
-   ]
+   "title": "One phrase carrying an entire prophecy",
+   "text": "The record repeats \"the fruit of my loins\" or \"the fruit of thy loins\" seventeen times in this chapter, with three occurrences in verse 7 alone and three more in each of verses 12 and 18. The word \"seer\" appears five times. Everything the prophecy claims is attached to that one genealogical formula, so the promise concerns a line and not a place, a nation, or a throne. The phrase in that exact form occurs in no other chapter of these books; all seventeen uses are here."
   },
   {
-   "label": "v. 9–13",
-   "start": 9,
-   "end": 13,
-   "title": "Like Moses, with a book",
-   "text": "Great \"like unto Moses\" (v. 9), but where Moses delivered a people from Egypt, this deliverer brings words: writing to convince of writing already gone forth, two literatures growing together, contentions laid down. And the working material is stated plainly: \"out of weakness he shall be made strong\" (v. 13).",
-   "cites": [
-    {
-     "quote": "like unto Moses",
-     "verse": 9,
-     "start": 6,
-     "end": 30,
-     "spans": [
-      {
-       "w1": 6,
-       "w2": 8,
-       "text": "like unto Moses"
-      }
-     ]
-    },
-    {
-     "quote": "out of weakness he shall be made strong",
-     "verse": 13,
-     "start": 260,
-     "end": 309,
-     "spans": [
-      {
-       "w1": 2,
-       "w2": 9,
-       "text": "out of weakness he shall be made strong"
-      }
-     ]
-    }
-   ]
+   "label": "v. 12",
+   "start": 12,
+   "end": 12,
+   "title": "Two records named, with four stated purposes",
+   "text": "The record makes a claim about books: \"the fruit of thy loins shall write; and the fruit of the loins of Judah shall write,\" and the two writings \"shall grow together.\" Four outcomes follow in one sentence: confounding false doctrines, laying down contentions, establishing peace, and bringing knowledge of the fathers and of the covenants. Three of the four are corrective and one is informative. The prediction is about the relation between two texts, which makes it the sort of claim a reader can hold the finished volume to."
   },
   {
-   "label": "v. 14–16",
-   "start": 14,
-   "end": 16,
-   "title": "The name and the surety",
-   "text": "Those who seek to destroy the seer \"shall be confounded\" (v. 14); his name doubles Joseph's own and his father's; and the old patriarch stakes the promise on the one comparison his hearers cannot doubt: \"even as I am sure of the promise of Moses\" (v. 16). Prophecy this specific invites verification, and the record never blinks.",
-   "cites": [
-    {
-     "quote": "shall be confounded",
-     "verse": 14,
-     "start": 35,
-     "end": 64,
-     "spans": [
-      {
-       "w1": 20,
-       "w2": 22,
-       "text": "shall be confounded"
-      }
-     ]
-    },
-    {
-     "quote": "even as I am sure of the promise of Moses",
-     "verse": 16,
-     "start": 203,
-     "end": 254,
-     "spans": [
-      {
-       "w1": 11,
-       "w2": 20,
-       "text": "even as I am sure of the promise of Moses"
-      }
-     ]
-    }
-   ]
+   "label": "v. 15",
+   "start": 15,
+   "end": 15,
+   "title": "A name given as a two-part test",
+   "text": "The record supplies an identification with two conditions rather than one: \"his name shall be called after me; and it shall be after the name of his father.\" The seer must share Joseph's name and his own father's name. A prophecy that could have simply named a man instead gives a rule for recognizing him, and the rule requires two independent facts to match."
   },
   {
-   "label": "v. 17–21",
+   "label": "v. 17",
    "start": 17,
-   "end": 21,
-   "title": "The spokesman economy",
-   "text": "Moses got a rod, writing, and Aaron; the seer gets writing and a spokesman too. What the words lack, faith supplies: \"the weakness of their words will I make strong in their faith\" (v. 21), and the dead authors \"shall cry from the dust\" (v. 20), repentance across the generations, in words kept deliberately simple.",
-   "cites": [
-    {
-     "quote": "the weakness of their words will I make strong in their faith",
-     "verse": 21,
-     "start": 117,
-     "end": 188,
-     "spans": [
-      {
-       "w1": 25,
-       "w2": 36,
-       "text": "the weakness of their words will I make strong in their faith"
-      }
-     ]
-    },
-    {
-     "quote": "shall cry from the dust",
-     "verse": 20,
-     "start": 211,
-     "end": 244,
-     "spans": [
-      {
-       "w1": 3,
-       "w2": 7,
-       "text": "shall cry from the dust"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 22–25",
-   "start": 22,
-   "end": 25,
-   "title": "The seal",
-   "text": "\"After this manner did my father of old prophesy\" (v. 22): Lehi files his source, then draws the dividend: Joseph's seed preserved because \"they shall hearken unto the words of the book\" (v. 23); \"one mighty among them\" (v. 24) working restoration. The farewell ends at true scale: a little boy, a dying father, and instructions that fit both: hearken, and remember.",
-   "cites": [
-    {
-     "quote": "After this manner did my father of old prophesy",
-     "verse": 22,
-     "start": 0,
-     "end": 57,
-     "spans": [
-      {
-       "w1": 7,
-       "w2": 15,
-       "text": "After this manner did my father of old prophesy"
-      }
-     ]
-    },
-    {
-     "quote": "they shall hearken unto the words of the book",
-     "verse": 23,
-     "start": 139,
-     "end": 194,
-     "spans": [
-      {
-       "w1": 17,
-       "w2": 25,
-       "text": "they shall hearken unto the words of the book"
-      }
-     ]
-    },
-    {
-     "quote": "one mighty among them",
-     "verse": 24,
-     "start": 196,
-     "end": 227,
-     "spans": [
-      {
-       "w1": 6,
-       "w2": 9,
-       "text": "one mighty among them"
-      }
-     ]
-    }
-   ]
+   "end": 17,
+   "title": "A portrait of Moses built out of what he could not do",
+   "text": "The record describes the deliverer by limits: a rod, judgment given \"in writing,\" and then two denials, \"I will not loose his tongue, that he shall speak much,\" and \"I will not make him mighty in speaking.\" The remedy is a third party, \"I will make a spokesman for him.\" The material comes from Exodus 4:10–16, where Moses objects that he is \"slow of speech\" and Aaron is appointed. The record takes an episode of reluctance in the source and turns it into a permanent description of the office."
   }
  ],
  "chapter": [
@@ -871,7 +623,7 @@
   {
    "n": 3,
    "title": "Deliverance by literature",
-   "text": "The chapter sets two redeemers side by side: Moses, who brought a people out of Egypt, and a seer, who brings a people out of darkness by words. The second exodus in this blessing is a reading event; captivity's modern form is ignorance of covenants, and its Red Sea is a book."
+   "text": "Verses 9 and 10 name Moses twice and state his errand, \"to deliver thy people out of the land of Egypt.\" Verse 11 then sets the second figure beside him with a different instrument, \"unto him will I give power to bring forth my word unto the seed of thy loins,\" and verse 7 states the object of that errand as knowledge, \"bringing them to the knowledge of the covenants which I have made with thy fathers.\" Two deliverers in three verses, one moving a nation and the other moving a text."
   },
   {
    "n": 4,
@@ -906,7 +658,7 @@
   {
    "n": 7,
    "title": "The farewell cycle's furthest sight",
-   "text": "To Jacob, Lehi gave doctrine; to Joseph, history's far end. The blessings scale to each son's need: the theologian got the atonement, and the little one got the guarantee that his line's story ends in restoration."
+   "text": "The farewell blessings run from 2 Nephi 1 to 2 Nephi 4 and no two are alike in content. Jacob receives the fall, the atonement, and opposition across thirty verses of 2 Nephi 2. Joseph, addressed here as \"my last-born\" and at verse 25 as \"little,\" receives a quoted prophecy about events in the latter days and a promise that \"thy seed shall not be destroyed.\" The chapter closes by pointing him to a living authority rather than to the doctrine, \"hearken unto the words of thy brother, Nephi.\""
   }
  ],
  "world_in_front": {
@@ -1113,6 +865,110 @@
    "mirror": "1ne05-005"
   },
   {
+   "id": "2ne03-010",
+   "scope": "BOM",
+   "head": "Alma 46:24",
+   "anchor": {
+    "verse": 5,
+    "w1": 16,
+    "w2": 22,
+    "quote": "out of the fruit of his loins"
+   },
+   "reason": "Jacob's words on the remnant, quoted by Moroni",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 46,
+     "verse": 24,
+     "w1": 60,
+     "w2": 69,
+     "quote": "a remnant of the seed of my son be preserved",
+     "verse_text": "Yea, let us preserve our liberty as a remnant of Joseph; yea, let us remember the words of Jacob, before his death, for behold, he saw that a part of the remnant of the coat of Joseph was preserved and had not decayed. And he said—Even as this remnant of garment of my son hath been preserved, so shall a remnant of the seed of my son be preserved by the hand of God, and be taken unto himself, while the remainder of the seed of Joseph shall perish, even as the remnant of his garment.",
+     "markdown": "Yea, let us preserve our liberty as a remnant of Joseph; yea, let us remember the words of Jacob, before his death, for behold, he saw that a part of the remnant of the coat of Joseph was preserved and had not decayed. And he said—Even as this remnant of garment of my son hath been preserved, so shall **a remnant of the seed of my son be preserved** by the hand of God, and be taken unto himself, while the remainder of the seed of Joseph shall perish, even as the remnant of his garment.",
+     "span": true
+    }
+   ],
+   "mirror": "al46-005"
+  },
+  {
+   "id": "2ne03-011",
+   "scope": "BOM",
+   "head": "3 Ne. 15:12",
+   "anchor": {
+    "verse": 5,
+    "w1": 41,
+    "w2": 48,
+    "quote": "a branch which was to be broken off,"
+   },
+   "reason": "Christ naming the broken branch as his hearers",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 15,
+     "verse": 12,
+     "w1": 6,
+     "w2": 21,
+     "quote": "ye are a light unto this people, who are a remnant of the house of Joseph.",
+     "verse_text": "Ye are my disciples; and ye are a light unto this people, who are a remnant of the house of Joseph.",
+     "markdown": "Ye are my disciples; and **ye are a light unto this people, who are a remnant of the house of Joseph**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne15-006"
+  },
+  {
+   "id": "2ne03-012",
+   "scope": "BOM",
+   "head": "3 Ne. 21:10",
+   "anchor": {
+    "verse": 7,
+    "w1": 11,
+    "w2": 24,
+    "quote": "A choice seer will I raise up out of the fruit of thy loins;"
+   },
+   "reason": "the servant's life kept in the Father's hand",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 21,
+     "verse": 10,
+     "w1": 3,
+     "w2": 12,
+     "quote": "the life of my servant shall be in my hand;",
+     "verse_text": "But behold, the life of my servant shall be in my hand; therefore they shall not hurt him, although he shall be marred because of them. Yet I will heal him, for I will show unto them that my wisdom is greater than the cunning of the devil.",
+     "markdown": "But behold, **the life of my servant shall be in my hand**; therefore they shall not hurt him, although he shall be marred because of them. Yet I will heal him, for I will show unto them that my wisdom is greater than the cunning of the devil.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne21-006"
+  },
+  {
+   "id": "2ne03-013",
+   "scope": "BOM",
+   "head": "Morm. 7:8",
+   "anchor": {
+    "verse": 12,
+    "w1": 46,
+    "w2": 48,
+    "quote": "shall grow together,"
+   },
+   "reason": "Mormon naming the two records to his readers",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 7,
+     "verse": 8,
+     "w1": 30,
+     "w2": 43,
+     "quote": "but also in the record which shall come unto the Gentiles from the Jews,",
+     "verse_text": "Therefore repent, and be baptized in the name of Jesus, and lay hold upon the gospel of Christ, which shall be set before you, not only in this record but also in the record which shall come unto the Gentiles from the Jews, which record shall come from the Gentiles unto you.",
+     "markdown": "Therefore repent, and be baptized in the name of Jesus, and lay hold upon the gospel of Christ, which shall be set before you, not only in this record **but also in the record which shall come unto the Gentiles from the Jews**, which record shall come from the Gentiles unto you.",
+     "span": true
+    }
+   ],
+   "mirror": "morm07-005"
+  },
+  {
    "id": "2ne03-004",
    "scope": "SW",
    "head": "Ezek. 37:16; Ezek. 37:17",
@@ -1260,6 +1116,15 @@
   },
   {
    "verse": 5,
+   "w1": 16,
+   "w2": 22,
+   "quote": "out of the fruit of his loins",
+   "entries": [
+    "2ne03-010"
+   ]
+  },
+  {
+   "verse": 5,
    "w1": 29,
    "w2": 36,
    "quote": "a righteous branch unto the house of Israel",
@@ -1269,11 +1134,30 @@
    ]
   },
   {
+   "verse": 5,
+   "w1": 41,
+   "w2": 48,
+   "quote": "a branch which was to be broken off,",
+   "entries": [
+    "2ne03-011"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 11,
+   "w2": 24,
+   "quote": "A choice seer will I raise up out of the fruit of thy loins;",
+   "entries": [
+    "2ne03-012"
+   ]
+  },
+  {
    "verse": 12,
    "w1": 46,
    "w2": 48,
-   "quote": "shall grow together",
+   "quote": "shall grow together,",
    "entries": [
+    "2ne03-013",
     "2ne03-004"
    ]
   },
@@ -1315,7 +1199,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "0b671b31f7be3f1a"
+  "at": "2026-09-07",
+  "source_sha256": "cdcdc95370f94b29"
  }
 }

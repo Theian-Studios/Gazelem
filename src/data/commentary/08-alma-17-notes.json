@@ -17,7 +17,7 @@
    "Service as entry",
    "Courage on someone else's behalf"
   ],
-  "connections": 6,
+  "connections": 11,
   "initial": true
  },
  "world_behind": [
@@ -44,7 +44,7 @@
   {
    "n": 5,
    "title": "The Lamanite portrait is unflattering and then qualified",
-   "text": "Verses 14 and 15 call them wild, hardened, ferocious and indolent, and then verse 15 supplies the cause: the traditions of their fathers, with the promises of the Lord still extended to them on conditions of repentance. Alma 9 made the same two moves in the same order."
+   "text": "Verses 14 and 15 call them wild, hardened, ferocious and indolent, and then verse 15 supplies the cause in what their fathers handed down, with the Lord's promises still open on conditions of repentance. Alma 9 made the same two moves in the same order."
   },
   {
    "n": 6,
@@ -61,13 +61,13 @@
   {
    "term": "Instrument",
    "verse_label": "v. 9",
-   "text": "A tool in another hand. What the sons of Mosiah pray for is a portion of the Spirit so they might be \"an instrument in the hands of God\" (v. 9), and the Lord uses the same word back to them two verses later. The image gives up agency about the outcome while keeping all of it about the willingness. That is the posture the next ten chapters require.",
+   "text": "A tool in another hand. The sons of Mosiah ask for the Spirit in some measure, enough to make them \"an instrument in the hands of God\" (v. 9), and the Lord uses the same word back to them two verses later. The image gives up agency about the outcome while keeping all of it about the willingness. That is the posture the next ten chapters require.",
    "cites": [
     {
      "quote": "an instrument in the hands of God",
      "verse": 9,
-     "start": 101,
-     "end": 143,
+     "start": 99,
+     "end": 141,
      "spans": [
       {
        "w1": 45,
@@ -77,6 +77,11 @@
      ]
     }
    ]
+  },
+  {
+   "term": "Baseness",
+   "verse_label": "v. 9",
+   "text": "Lowness of condition and of character. The word appears once in this record and never in the King James Bible. It sits inside the prayer of the sons of Mosiah: a portion of the Spirit, so they might go among the Lamanites and correct their baseness. They use the word while asking for help rather than while describing an enemy."
   },
   {
    "term": "Ferocious",
@@ -173,53 +178,44 @@
  ],
  "verses": [
   {
-   "label": "v. 1–5",
-   "start": 1,
-   "end": 5,
-   "title": "A meeting on the road",
-   "text": "Alma, travelling to Manti, runs into the sons of Mosiah returning to Zarahemla. He rejoices twice: to see them, and to find them still faithful. The record summarizes fourteen years of teaching, and then their afflictions, in two verses."
-  },
-  {
-   "label": "v. 6–9",
-   "start": 6,
-   "end": 9,
-   "title": "Departure, and a prayer",
-   "text": "They refuse the kingdom, take weapons for hunting, select their company, and go. In the wilderness they fast and pray for a portion of the Spirit and for the power to be instruments."
-  },
-  {
-   "label": "v. 10–13",
-   "start": 10,
-   "end": 13,
-   "title": "The answer, and the parting",
-   "text": "God says be comforted, and they are. The instruction is patience, good example, and a promise of souls. At the border they separate, every man alone, expecting to meet again when the harvest is in."
-  },
-  {
-   "label": "v. 14–17",
-   "start": 14,
+   "label": "v. 17",
+   "start": 17,
    "end": 17,
-   "title": "Who they went to",
-   "text": "The narrator's assessment: wild, hardened, ferocious, idolatrous, indolent, under a curse traced to the traditions of their fathers, with the promises still open on conditions of repentance. That last clause is why the mission exists."
+   "title": "The method is dispersal, and the authority is individual",
+   "text": "\"They separated themselves one from another, and went forth among them, every man alone.\" A company that had travelled together for years splits to work singly, and the warrant is issued per person, \"according to the word and power of God which was given unto him.\" The record does not describe a mission. It describes several."
   },
   {
-   "label": "v. 18–23",
+   "label": "v. 18",
    "start": 18,
-   "end": 23,
-   "title": "Ammon, taken",
-   "text": "He blesses the others according to their stations and goes to the land of Ishmael, where he is bound by custom and carried to king Lamoni. Asked whether he wishes to stay, he says yes, perhaps until he dies."
+   "end": 18,
+   "title": "A title is withdrawn and a function put in its place",
+   "text": "\"Ammon being the chief among them, or rather he did administer unto them.\" The sentence corrects itself in front of the reader, and what it trades away is rank. This volume makes that repair twelve times; Mosiah 7:8 uses it to turn a permission into an order, and here it turns a chief into a servant, eight verses before Ammon says the word himself.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 7:8",
+     "start": 205,
+     "end": 215,
+     "book": "Mosiah",
+     "chapter": 7,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
   },
   {
-   "label": "v. 24–27",
-   "start": 24,
+   "label": "v. 26–27",
+   "start": 26,
    "end": 27,
-   "title": "Servant, and the water",
-   "text": "Offered a daughter in marriage, he asks to be a servant instead, and is set to watch flocks. On the third day the flocks are scattered at the waters of Sebus by men who make a practice of it."
+   "title": "Three days of service, then the water",
+   "text": "The record counts the interval before the incident, and describes the place as shared infrastructure: all the Lamanites drive their flocks there. The scattering that follows is not an accident of geography but a use of it, and the verse explains the arrangement before anyone exploits it."
   },
   {
-   "label": "v. 28–39",
+   "label": "v. 28–29",
    "start": 28,
-   "end": 39,
-   "title": "The defense of the flocks",
-   "text": "The servants weep, expecting execution. Ammon is glad, gathers them, retrieves the flocks, and stands alone against the scatterers with sling and sword. Six fall by stones, their leader by the sword, and the rest lose their arms. The servants carry the arms to the king."
+   "end": 29,
+   "title": "Two reactions to one event, and a stated strategy",
+   "text": "The servants weep, and the record gives their reasoning: the king has killed men for this before. Ammon's heart \"was swollen within him with joy,\" and the record gives his reasoning too, in his own words, that restoring the flocks will win their hearts \"that I may lead them to believe in my words.\" The motive is printed as calculation, and nothing in the chapter apologises for it."
   }
  ],
  "chapter": [
@@ -236,17 +232,29 @@
   {
    "n": 3,
    "title": "The refusal of the kingdom holds up the whole book",
-   "text": "These men gave up a throne, and the record has spent sixteen chapters on the political system that refusal created. The mission narrative and the constitutional history have the same origin."
+   "text": "Verse 6 dates the departure and states the refusal in the same clause, \"having taken leave of their father, Mosiah, in the first year of the judges; having refused the kingdom which their father was desirous to confer upon them.\" That refusal is what Mosiah 29 spends forty-seven verses converting into a system of judges, and Alma 1 through 16 is the history of that system. The mission narrative and the constitutional history begin in the same sentence."
   },
   {
    "n": 4,
    "title": "Ammon asks for the lowest position available",
-   "text": "Offered marriage into the royal house, he chooses servant. Everything he later accomplishes runs through an access he obtained by asking for less."
+   "text": "The king offers \"one of his daughters to wife\" at verse 24 and the answer at verse 25 is four words, \"Nay, but I will be thy servant.\" The record then records the posting, \"he was set among other servants to watch the flocks.\" Everything at the waters of Sebus and in the king's house follows from that assignment, so the access is obtained by declining the higher offer."
   },
   {
    "n": 5,
    "title": "The portrait is harsh and the verdict is open",
-   "text": "The narrator calls the Lamanites ferocious and indolent, then says the promises of the Lord extend to them on conditions of repentance. The record holds a low estimate and an open door at the same time."
+   "text": "Verses 14 and 15 pile up the charges, \"a wild and a hardened and a ferocious people,\" \"a very indolent people, many of whom did worship idols,\" and then verse 15 ends with a clause that reverses the direction, \"notwithstanding the promises of the Lord were extended unto them on the conditions of repentance.\" The same pairing stands at Alma 9:16, where the traditions of their fathers are named as the cause. A low estimate and an open door are held in one sentence.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 9:16",
+     "start": 337,
+     "end": 346,
+     "book": "Alma",
+     "chapter": 9,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
   },
   {
    "n": 6,
@@ -264,22 +272,42 @@
    {
     "title": "Count the preparation",
     "verse_label": "v. 2–3",
-    "text": "Fourteen years of prayer, fasting and searching stand behind four verses at a watering hole. Look at whatever you admire in someone's public competence and ask what the fourteen years were."
+    "text": "Fourteen years is the interval, and the record names what filled it, \"much prayer, and fasting,\" with the result stated as a consequence, \"therefore they had the spirit of prophecy.\" Whatever you want to be able to do, the chapter's assumption is that the capacity was built beforehand."
+   },
+   {
+    "title": "Ask for a portion rather than for the outcome",
+    "verse_label": "v. 9",
+    "text": "What they prayed for on the road was \"a portion of his Spirit to go with them,\" not success. The answer at verse 10 is two words, \"Be comforted,\" and the record adds that they were."
+   },
+   {
+    "title": "Take the instruction that comes with the assignment",
+    "verse_label": "v. 11",
+    "text": "The errand is given with a manner attached, \"ye shall be patient in long-suffering and afflictions, that ye may show forth good examples.\" The how is part of the what, and it is stated before anything happens."
+   },
+   {
+    "title": "Separate and trust the meeting",
+    "verse_label": "v. 13",
+    "text": "They split up at the border, \"trusting in the Lord that they should meet again.\" Work that has to be done in several places at once requires being willing to lose sight of the others."
    },
    {
     "title": "Ask for the lower position",
     "verse_label": "v. 25",
-    "text": "Ammon turned down the son-in-law offer and asked to keep sheep. Where you are angling for standing, consider what access the smaller role would actually give you, and whether that is the thing you want."
-   },
-   {
-    "title": "Encourage before you organize",
-    "verse_label": "v. 31",
-    "text": "Ammon's first move with frightened men was to tell them to be of good cheer, and only then to give instructions. Notice whether you tend to lead with the plan and skip the sentence that makes people able to hear it."
+    "text": "Offered a daughter of the king, Ammon answers in four words, \"Nay, but I will be thy servant,\" and is posted to the flocks. Every later thing he accomplishes runs through an access obtained by asking for less."
    },
    {
     "title": "Let someone's fear be your reason",
     "verse_label": "v. 29",
-    "text": "What made Ammon glad was a chance to help men he had started calling brothers. When you find a situation where you are able and others are frightened, treat the gap as the assignment."
+    "text": "What made Ammon glad was other men weeping, \"for, said he, I will show forth my power unto these my fellow-servants.\" The opportunity he saw was somebody else's emergency, and he named it as such."
+   },
+   {
+    "title": "Encourage before you organize",
+    "verse_label": "v. 31",
+    "text": "Ammon's first move with frightened men is a sentence, \"My brethren, be of good cheer,\" and only then the plan to gather the flocks. People will not execute a plan they are too afraid to hear."
+   },
+   {
+    "title": "Do the ordinary next job",
+    "verse_label": "v. 39",
+    "text": "After the fight he waters the flocks, returns them to pasture, and goes in to the king carrying the arms. The remarkable thing is finished by the unremarkable one, and the record reports both in the same verse."
    }
   ],
   "questions": [
@@ -352,7 +380,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al18-007"
   },
   {
    "id": "al17-002",
@@ -378,7 +406,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al26-011"
   },
   {
    "id": "al17-003",
@@ -404,7 +432,111 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al09-014"
+  },
+  {
+   "id": "al17-008",
+   "scope": "BOOK",
+   "head": "Alma 26:27",
+   "anchor": {
+    "verse": 11,
+    "w1": 20,
+    "w2": 27,
+    "quote": "ye shall be patient in long-suffering and afflictions,"
+   },
+   "reason": "the Lord's answer when they nearly turned back",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 26,
+     "verse": 27,
+     "w1": 28,
+     "w2": 32,
+     "quote": "bear with patience thine afflictions,",
+     "verse_text": "Now when our hearts were depressed, and we were about to turn back, behold, the Lord comforted us, and said: Go amongst thy brethren, the Lamanites, and bear with patience thine afflictions, and I will give unto you success.",
+     "markdown": "Now when our hearts were depressed, and we were about to turn back, behold, the Lord comforted us, and said: Go amongst thy brethren, the Lamanites, and **bear with patience thine afflictions**, and I will give unto you success.",
+     "span": true
+    }
+   ],
+   "mirror": "al26-001"
+  },
+  {
+   "id": "al17-009",
+   "scope": "BOOK",
+   "head": "Alma 18:9",
+   "anchor": {
+    "verse": 25,
+    "w1": 8,
+    "w2": 12,
+    "quote": "I will be thy servant."
+   },
+   "reason": "Ammon still at the horses when the king asks",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 18,
+     "verse": 9,
+     "w1": 7,
+     "w2": 11,
+     "quote": "he is feeding thy horses.",
+     "verse_text": "And they said unto him: Behold, he is feeding thy horses. Now the king had commanded his servants, previous to the time of the watering of their flocks, that they should prepare his horses and chariots, and conduct him forth to the land of Nephi; for there had been a great feast appointed at the land of Nephi, by the father of Lamoni, who was king over all the land.",
+     "markdown": "And they said unto him: Behold, **he is feeding thy horses**. Now the king had commanded his servants, previous to the time of the watering of their flocks, that they should prepare his horses and chariots, and conduct him forth to the land of Nephi; for there had been a great feast appointed at the land of Nephi, by the father of Lamoni, who was king over all the land.",
+     "span": true
+    }
+   ],
+   "mirror": "al18-001"
+  },
+  {
+   "id": "al17-010",
+   "scope": "BOOK",
+   "head": "Alma 19:16",
+   "anchor": {
+    "verse": 26,
+    "w1": 17,
+    "w2": 20,
+    "quote": "with the Lamanitish servants"
+   },
+   "reason": "Abish, the record's other Lamanitish person named",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 19,
+     "verse": 16,
+     "w1": 31,
+     "w2": 35,
+     "quote": "one of the Lamanitish women,",
+     "verse_text": "And it came to pass that they did call on the name of the Lord, in their might, even until they had all fallen to the earth, save it were one of the Lamanitish women, whose name was Abish, she having been converted unto the Lord for many years, on account of a remarkable vision of her father—",
+     "markdown": "And it came to pass that they did call on the name of the Lord, in their might, even until they had all fallen to the earth, save it were **one of the Lamanitish women**, whose name was Abish, she having been converted unto the Lord for many years, on account of a remarkable vision of her father—",
+     "span": true
+    }
+   ],
+   "mirror": "al19-002"
+  },
+  {
+   "id": "al17-011",
+   "scope": "BOOK",
+   "head": "Alma 20:20",
+   "anchor": {
+    "verse": 37,
+    "w1": 21,
+    "w2": 25,
+    "quote": "he did withstand their blows"
+   },
+   "reason": "Ammon withstanding the old king's blows at the gate",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 20,
+     "verse": 20,
+     "w1": 10,
+     "w2": 14,
+     "quote": "But Ammon withstood his blows,",
+     "verse_text": "And he stretched forth his hand to slay Ammon. But Ammon withstood his blows, and also smote his arm that he could not use it.",
+     "markdown": "And he stretched forth his hand to slay Ammon. **But Ammon withstood his blows**, and also smote his arm that he could not use it.",
+     "span": true
+    }
+   ],
+   "mirror": "al20-003"
   },
   {
    "id": "al17-004",
@@ -430,7 +562,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos28-014"
   },
   {
    "id": "al17-005",
@@ -456,7 +588,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos29-018"
+  },
+  {
+   "id": "al17-007",
+   "scope": "BOM",
+   "head": "Mosiah 24:4",
+   "anchor": {
+    "verse": 4,
+    "w1": 2,
+    "w2": 18,
+    "quote": "they had been teaching the word of God for the space of fourteen years among the Lamanites,"
+   },
+   "reason": "Amulon's men teaching the Nephite language to Lamanites",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 24,
+     "verse": 4,
+     "w1": 21,
+     "w2": 35,
+     "quote": "the language of Nephi began to be taught among all the people of the Lamanites.",
+     "verse_text": "And he appointed teachers of the brethren of Amulon in every land which was possessed by his people; and thus the language of Nephi began to be taught among all the people of the Lamanites.",
+     "markdown": "And he appointed teachers of the brethren of Amulon in every land which was possessed by his people; and thus **the language of Nephi began to be taught among all the people of the Lamanites**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos24-011"
   },
   {
    "id": "al17-006",
@@ -487,12 +645,30 @@
  ],
  "markers": [
   {
+   "verse": 4,
+   "w1": 2,
+   "w2": 18,
+   "quote": "they had been teaching the word of God for the space of fourteen years among the Lamanites,",
+   "entries": [
+    "al17-007"
+   ]
+  },
+  {
    "verse": 6,
    "w1": 20,
    "w2": 32,
    "quote": "having refused the kingdom which their father was desirous to confer upon them",
    "entries": [
     "al17-005"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 20,
+   "w2": 27,
+   "quote": "ye shall be patient in long-suffering and afflictions,",
+   "entries": [
+    "al17-008"
    ]
   },
   {
@@ -515,12 +691,39 @@
    ]
   },
   {
+   "verse": 25,
+   "w1": 8,
+   "w2": 12,
+   "quote": "I will be thy servant.",
+   "entries": [
+    "al17-009"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 17,
+   "w2": 20,
+   "quote": "with the Lamanitish servants",
+   "entries": [
+    "al17-010"
+   ]
+  },
+  {
    "verse": 35,
    "w1": 27,
    "w2": 41,
    "quote": "the Lord had promised Mosiah that he would deliver his sons out of their hands",
    "entries": [
     "al17-004"
+   ]
+  },
+  {
+   "verse": 37,
+   "w1": 21,
+   "w2": 25,
+   "quote": "he did withstand their blows",
+   "entries": [
+    "al17-011"
    ]
   },
   {
@@ -534,7 +737,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "6984b5dcfdc3139b"
+  "at": "2026-09-07",
+  "source_sha256": "eba3bc022cbe68be"
  }
 }

@@ -1,0 +1,740 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "3 Nephi",
+  "book_slug": "3nephi",
+  "chapter": 23,
+  "volume_order": "10",
+  "speakers": [
+   "Jesus Christ",
+   "Mormon"
+  ],
+  "audience": "The twelve, with the multitude present",
+  "location": "The land Bountiful",
+  "date": "AD 34",
+  "unit": "The record corrected (3 Nephi 23)",
+  "principles": [
+   "A command to search a text just read aloud",
+   "A record examined and found short",
+   "A missing entry supplied at his direction"
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Isaiah 54 has just been quoted whole",
+   "text": "3 Nephi 22 gives all seventeen verses, seven of which carry a real word change against the King James text. Verse 1 is the instruction that follows immediately: search these things diligently."
+  },
+  {
+   "n": 2,
+   "title": "Isaiah they had; Malachi they did not",
+   "text": "1 Nephi 5:13 has the brass plates carrying the prophets down to Jeremiah, and 3 Nephi 26:2 says the Malachi chapters were scriptures they had not with them. The command to search in verse 1 assumes a text already on the shelf, which is why the next two chapters have to supply one that was not."
+  },
+  {
+   "n": 3,
+   "title": "The prophecy audited is Samuel's",
+   "text": "Verse 9 recalls what he commanded Samuel the Lamanite to testify. Helaman 14:25 carries it: many graves shall be opened and many saints shall appear unto many. The check is run against a chapter the reader has already read."
+  },
+  {
+   "n": 4,
+   "title": "The gap was in Mormon's source",
+   "text": "Verse 7 has him call for the record Nephi kept, and 3 Nephi 5:10 says Mormon made his own record according to the plates of Nephi. What is corrected here is a hole in the document the whole abridgment rests on."
+  },
+  {
+   "n": 5,
+   "title": "The correction runs through four steps",
+   "text": "Verse 9 asks whether it was not so, verse 10 has the disciples confirm it, verse 11 asks why it was not written, verse 13 records the writing. An omission is handled as a conversation rather than as an order."
+  },
+  {
+   "n": 6,
+   "title": "The chapter ends by putting everything together",
+   "text": "Verse 14 has him put the whole of scripture together into one exposition and then tell them to teach it. 3 Nephi 26:1 opens the next day with the same phrase."
+  }
+ ],
+ "words": [
+  {
+   "term": "Search",
+   "verse_label": "v. 1",
+   "text": "To look through carefully. Treated at 1 Nephi 5:10. The record uses the word thirty times, twice in this chapter, and the King James Bible forty-eight."
+  },
+  {
+   "term": "Diligently",
+   "verse_label": "v. 1",
+   "text": "With sustained effort. It appears twenty-three times in the record, and the King James Bible thirty-seven. Verse 1 raises searching from something they ought to do into a commandment."
+  },
+  {
+   "term": "Heed",
+   "verse_label": "v. 4",
+   "text": "Attention paid to what is said. The record uses the word twenty-three times and the King James Bible eighty. Verse 4 puts it just before the command to write."
+  },
+  {
+   "term": "Expounded",
+   "verse_label": "v. 6",
+   "text": "Laid open, explained in order. Treated at Alma 18:38. The word turns up nine times, twice inside this chapter, here, and the King James Bible six.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 18:38",
+     "start": 42,
+     "end": 52,
+     "book": "Alma",
+     "chapter": 18,
+     "verse_start": 38,
+     "verse_end": 38
+    }
+   ]
+  },
+  {
+   "term": "Records",
+   "verse_label": "v. 8",
+   "text": "Written accounts kept over time. The record uses the word seventy-six times and the King James Bible three. Verse 8 has them carried in and laid down in front of him."
+  },
+  {
+   "term": "Glorify",
+   "verse_label": "v. 9",
+   "text": "To give honor, and to make honor visible. Its count is seven times in this book, while the King James Bible twenty-five. Verse 9 dates the rising of the saints to the day when the Father glorified his name in the Son."
+  },
+  {
+   "term": "Saints",
+   "verse_label": "v. 9",
+   "text": "People set apart as holy. Treated at 3 Nephi 9:5. Twenty-eight uses run through this record, two of them here, against ninety-six in the King James Bible."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Ye ought to search these things",
+   "verse_label": "v. 1",
+   "text": "The first form of the instruction. The same sentence then raises it to a commandment."
+  },
+  {
+   "term": "Great are the words of Isaiah",
+   "verse_label": "v. 1",
+   "text": "The reason attached to the command. Verse 2 explains what makes them great."
+  },
+  {
+   "term": "It must needs be that he must speak also to the Gentiles",
+   "verse_label": "v. 2",
+   "text": "An argument in one line. Isaiah spoke of all things concerning Israel, so the Gentiles fall inside his subject."
+  },
+  {
+   "term": "All things that he spake have been and shall be",
+   "verse_label": "v. 3",
+   "text": "Fulfilment stated in both directions. Some of Isaiah is already done and the rest is coming."
+  },
+  {
+   "term": "Write the things which I have told you",
+   "verse_label": "v. 4",
+   "text": "The command that produces this chapter and the ones after it. Verse 4 adds the destination and the timing."
+  },
+  {
+   "term": "Search the prophets, for many there be that testify of these things",
+   "verse_label": "v. 5",
+   "text": "The search widened past Isaiah. John 5:39 had made the same claim about the scriptures in Judea.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "John 5:39",
+     "start": 32,
+     "end": 41,
+     "book": "John",
+     "chapter": 5,
+     "verse_start": 39,
+     "verse_end": 39
+    }
+   ]
+  },
+  {
+   "term": "Other scriptures I would that ye should write, that ye have not",
+   "verse_label": "v. 6",
+   "text": "The gap named before it is located. He knows something is absent from a record he has not yet examined."
+  },
+  {
+   "term": "Bring forth the record which ye have kept",
+   "verse_label": "v. 7",
+   "text": "A direct request for the plates. Verse 8 has Nephi carry them in and lay them down."
+  },
+  {
+   "term": "Was it not so?",
+   "verse_label": "v. 9",
+   "text": "A question put to men who were there. He asks them to confirm what he already knows."
+  },
+  {
+   "term": "How be it that ye have not written this thing",
+   "verse_label": "v. 11",
+   "text": "The question the chapter turns on. Helaman 14:25 had given the prophecy that went unrecorded."
+  },
+  {
+   "term": "When Jesus had expounded all the scriptures in one",
+   "verse_label": "v. 14",
+   "text": "The whole body of scripture treated as a single explanation. Verse 14 then makes teaching it their assignment."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–5",
+   "start": 1,
+   "end": 5,
+   "title": "Every command in the passage is about a text",
+   "text": "The record carries five imperatives through these verses and not one of them concerns conduct: \"ye ought to search these things,\" \"search these things diligently,\" \"give heed to my words,\" \"write the things which I have told you,\" \"Search the prophets.\" Reading and writing are the whole of what is required here. Even the promise in verse 5 is attached to hearing: \"whosoever will hearken unto my words and repenteth and is baptized, the same shall be saved.\" A chapter of instruction from the risen Christ turns out to be about handling documents."
+  },
+  {
+   "label": "v. 2",
+   "start": 2,
+   "end": 2,
+   "title": "An inference, and it is marked as one",
+   "text": "The record states the argument for Isaiah's scope as a deduction rather than an assertion: \"surely he spake as touching all things concerning my people which are of the house of Israel; therefore it must needs be that he must speak also to the Gentiles.\" The therefore and the must needs be carry the weight. The premise is about one audience and the conclusion extends to another, and the record leaves the reasoning visible instead of simply stating the second claim."
+  },
+  {
+   "label": "v. 7–8",
+   "start": 7,
+   "end": 8,
+   "title": "The record is fetched, set down, and looked at",
+   "text": "Three physical actions are reported in two verses: \"Bring forth the record which ye have kept,\" then \"when Nephi had brought forth the records, and laid them before him,\" then \"he cast his eyes upon them.\" The volume rarely describes its own materials being handled. Here the object is carried across a space, put down, and read, and the reading is what produces the next six verses."
+  },
+  {
+   "label": "v. 9–11",
+   "start": 9,
+   "end": 11,
+   "title": "The record audited in front of the reader",
+   "text": "The examination proceeds in three steps and each is preserved as speech. A prior command is recalled, \"I commanded my servant Samuel, the Lamanite, that he should testify unto this people.\" The disciples confirm the outcome: \"Yea, Lord, Samuel did prophesy according to thy words, and they were all fulfilled.\" Then the charge: \"How be it that ye have not written this thing, that many saints did arise and appear unto many and did minister unto them?\" The phrase many saints stands in three verses of the volume, the prophecy at Hel. 14:25 and these two, and the account being asked for corresponds to Matt. 27:52–53.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Hel. 14:25",
+     "start": 530,
+     "end": 540,
+     "book": "Hel",
+     "chapter": 14,
+     "verse_start": 25,
+     "verse_end": 25
+    },
+    {
+     "kind": "scripture",
+     "text": "Matt. 27:52–53",
+     "start": 603,
+     "end": 617,
+     "book": "Matt",
+     "chapter": 27,
+     "verse_start": 52,
+     "verse_end": 53
+    }
+   ]
+  },
+  {
+   "label": "v. 12",
+   "start": 12,
+   "end": 12,
+   "title": "An omission conceded in eleven words",
+   "text": "The answer to the charge is not a defence: \"Nephi remembered that this thing had not been written.\" No reason is offered, no dispute is recorded, and the keeper of the record is named. The volume elsewhere explains its gaps by the size of the plates, the limits of the language, or an order to withhold. This one is explained by nothing at all except a man's memory failing him."
+  },
+  {
+   "label": "v. 13",
+   "start": 13,
+   "end": 13,
+   "title": "A correction ordered, and the result is not here",
+   "text": "The repair is reported in a single sentence: \"Jesus commanded that it should be written; therefore it was written according as he commanded.\" What was written is not in the book. The rising of the saints is prophesied at Hel. 14:25 and demanded here, but no chapter of 3 Nephi narrates it, and the words did arise occur only in verse 11. A record that has just documented its own audit and its own correction does not contain the corrected passage, and does not remark on that either.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Hel. 14:25",
+     "start": 221,
+     "end": 231,
+     "book": "Hel",
+     "chapter": 14,
+     "verse_start": 25,
+     "verse_end": 25
+    }
+   ]
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The command to search comes with the text in hand",
+   "text": "Chapter 22 read Isaiah 54 aloud and verse 1 tells them to go search it. The assignment follows the reading immediately."
+  },
+  {
+   "n": 2,
+   "title": "Searching is upgraded mid-sentence",
+   "text": "Verse 1 moves from what they ought to do to a commandment. The change happens inside one verse."
+  },
+  {
+   "n": 3,
+   "title": "Isaiah's reach is argued, not asserted",
+   "text": "Verse 2 reasons from the scope of his subject to his relevance for the Gentiles. The chapter supplies a premise."
+  },
+  {
+   "n": 4,
+   "title": "He inspects the record",
+   "text": "Verse 8 has him look at the plates before speaking. The audit is described as a physical act."
+  },
+  {
+   "n": 5,
+   "title": "He asks rather than tells",
+   "text": "Verses 9 and 11 are both questions. The disciples state the fulfilment themselves before the omission is named."
+  },
+  {
+   "n": 6,
+   "title": "Nephi remembers only when asked",
+   "text": "Verse 12 says he remembered that it had not been written. The gap was not hidden, only unnoticed."
+  },
+  {
+   "n": 7,
+   "title": "The correction is immediate and brief",
+   "text": "Verse 13 records the command and the compliance in one line. No explanation is offered for the omission."
+  },
+  {
+   "n": 8,
+   "title": "The chapter ends with a teaching assignment",
+   "text": "Verse 14 has him expound all the scriptures in one and hand the material to them. The record is corrected so it can be taught."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Search what you were just handed",
+    "verse_label": "v. 1",
+    "text": "He read Isaiah 54 aloud and then commanded them to go study it. Hearing something is the start of the work."
+   },
+   {
+    "title": "Reason about who a text is for",
+    "verse_label": "v. 2",
+    "text": "The argument runs that Isaiah spoke concerning all the house of Israel, and therefore must speak also to the Gentiles. Scope is something you can work out from a text's own claims rather than inherit from custom."
+   },
+   {
+    "title": "Write it now for readers you will not meet",
+    "verse_label": "v. 4",
+    "text": "They were told to write these things, and that in the Father's own time they would go forth to the Gentiles. The audience for a record is frequently not the people in the room where it is made."
+   },
+   {
+    "title": "Search more than one witness",
+    "verse_label": "v. 5",
+    "text": "Having just commended Isaiah, he tells them to search the prophets, for many testify of these things. One congenial source is easier than several, and this instruction is aimed squarely at the easier version."
+   },
+   {
+    "title": "Check the record against what happened",
+    "verse_label": "v. 8",
+    "text": "He looked at the plates and compared them with the event. Reviewing your own account is how gaps get found."
+   },
+   {
+    "title": "Ask before you correct",
+    "verse_label": "v. 9, 11",
+    "text": "Two questions come before the instruction. Letting people state the facts themselves changes how the correction lands."
+   },
+   {
+    "title": "Write down the thing you keep meaning to",
+    "verse_label": "v. 13",
+    "text": "Nephi had not recorded a fulfilled prophecy. What goes unrecorded tends to be what everyone assumed someone else had handled."
+   },
+   {
+    "title": "Put the pieces together into one",
+    "verse_label": "v. 14",
+    "text": "He expounded all the scriptures in one, and then told them to teach what he had expounded. Assembling what you know into a single coherent account is its own step, and it comes before you are ready to hand anything on."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What have I been told to search and have not?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "Which promise am I treating as finished that is still coming?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "Which prophets have I never read?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "What would an audit of my own record turn up?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "What have I witnessed and never written down?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "What have I forgotten only because nobody asked?"
+   },
+   {
+    "verse_label": "v. 14",
+    "start": 14,
+    "end": 14,
+    "text": "What have I been taught that I have not taught anyone else?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "3ne23-001",
+   "scope": "BOOK",
+   "head": "3 Ne. 20:11",
+   "anchor": {
+    "verse": 1,
+    "w1": 16,
+    "w2": 27,
+    "quote": "a commandment I give unto you that ye search these things diligently"
+   },
+   "reason": "the same instruction, raised to a commandment",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 20,
+     "verse": 11,
+     "w1": 18,
+     "w2": 29,
+     "quote": "fulfilled—behold they are written, ye have them before you, therefore search them—",
+     "verse_text": "Ye remember that I spake unto you, and said that when the words of Isaiah should be fulfilled—behold they are written, ye have them before you, therefore search them—",
+     "markdown": "Ye remember that I spake unto you, and said that when the words of Isaiah should be **fulfilled—behold they are written, ye have them before you, therefore search them—**",
+     "span": true
+    }
+   ],
+   "mirror": "3ne20-011"
+  },
+  {
+   "id": "3ne23-002",
+   "scope": "BOOK",
+   "head": "3 Ne. 27:23",
+   "anchor": {
+    "verse": 4,
+    "w1": 7,
+    "w2": 14,
+    "quote": "write the things which I have told you"
+   },
+   "reason": "the same command given again at his ministry's close",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 27,
+     "verse": 23,
+     "w1": 1,
+     "w2": 9,
+     "quote": "Write the things which ye have seen and heard,",
+     "verse_text": "Write the things which ye have seen and heard, save it be those which are forbidden.",
+     "markdown": "**Write the things which ye have seen and heard**, save it be those which are forbidden.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne27-001"
+  },
+  {
+   "id": "3ne23-003",
+   "scope": "BOOK",
+   "head": "3 Ne. 26:1",
+   "anchor": {
+    "verse": 14,
+    "w1": 8,
+    "w2": 16,
+    "quote": "when Jesus had expounded all the scriptures in one"
+   },
+   "reason": "the expounding continued to the whole multitude",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 26,
+     "verse": 1,
+     "w1": 21,
+     "w2": 31,
+     "quote": "he did expound all things unto them, both great and small.",
+     "verse_text": "And now it came to pass that when Jesus had told these things he expounded them unto the multitude; and he did expound all things unto them, both great and small.",
+     "markdown": "And now it came to pass that when Jesus had told these things he expounded them unto the multitude; and **he did expound all things unto them, both great and small**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne26-001"
+  },
+  {
+   "id": "3ne23-004",
+   "scope": "BOM",
+   "head": "Hel. 14:25",
+   "anchor": {
+    "verse": 11,
+    "w1": 6,
+    "w2": 15,
+    "quote": "How be it that ye have not written this thing"
+   },
+   "reason": "the prophecy that had gone unrecorded",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 14,
+     "verse": 25,
+     "w1": 2,
+     "w2": 14,
+     "quote": "many graves shall be opened, and shall yield up many of their dead;",
+     "verse_text": "And many graves shall be opened, and shall yield up many of their dead; and many saints shall appear unto many.",
+     "markdown": "And **many graves shall be opened, and shall yield up many of their dead**; and many saints shall appear unto many.",
+     "span": true
+    }
+   ],
+   "mirror": "hel14-007"
+  },
+  {
+   "id": "3ne23-005",
+   "scope": "BOM",
+   "head": "Morm. 8:23",
+   "anchor": {
+    "verse": 5,
+    "w1": 18,
+    "w2": 20,
+    "quote": "Search the prophets"
+   },
+   "reason": "Mormon giving the same charge to a later reader",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 8,
+     "verse": 23,
+     "w1": 1,
+     "w2": 5,
+     "quote": "Search the prophecies of Isaiah.",
+     "verse_text": "Search the prophecies of Isaiah. Behold, I cannot write them. Yea, behold I say unto you, that those saints who have gone before me, who have possessed this land, shall cry, yea, even from the dust will they cry unto the Lord; and as the Lord liveth he will remember the covenant which he hath made with them.",
+     "markdown": "**Search the prophecies of Isaiah**. Behold, I cannot write them. Yea, behold I say unto you, that those saints who have gone before me, who have possessed this land, shall cry, yea, even from the dust will they cry unto the Lord; and as the Lord liveth he will remember the covenant which he hath made with them.",
+     "span": true
+    }
+   ],
+   "mirror": "morm08-006"
+  },
+  {
+   "id": "3ne23-006",
+   "scope": "BOM",
+   "head": "1 Ne. 19:23",
+   "anchor": {
+    "verse": 2,
+    "w1": 3,
+    "w2": 18,
+    "quote": "he spake as touching all things concerning my people which are of the house of Israel"
+   },
+   "reason": "the reason Nephi gave for reading Isaiah to his brothers",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 19,
+     "verse": 23,
+     "w1": 46,
+     "w2": 61,
+     "quote": "I did liken all scriptures unto us, that it might be for our profit and learning.",
+     "verse_text": "And I did read many things unto them which were written in the books of Moses; but that I might more fully persuade them to believe in the Lord their Redeemer I did read unto them that which was written by the prophet Isaiah; for I did liken all scriptures unto us, that it might be for our profit and learning.",
+     "markdown": "And I did read many things unto them which were written in the books of Moses; but that I might more fully persuade them to believe in the Lord their Redeemer I did read unto them that which was written by the prophet Isaiah; for **I did liken all scriptures unto us, that it might be for our profit and learning**.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne19-022"
+  },
+  {
+   "id": "3ne23-007",
+   "scope": "SW",
+   "head": "John 5:39",
+   "anchor": {
+    "verse": 5,
+    "w1": 22,
+    "w2": 29,
+    "quote": "many there be that testify of these things"
+   },
+   "reason": "the same claim about what the scriptures do",
+   "targets": [
+    {
+     "ref": "John",
+     "chapter": 5,
+     "verse": 39,
+     "w1": 14,
+     "w2": 20,
+     "quote": "they are they which testify of me.",
+     "verse_text": "Search the scriptures; for in them ye think ye have eternal life: and they are they which testify of me.",
+     "markdown": "Search the scriptures; for in them ye think ye have eternal life: and **they are they which testify of me**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne23-008",
+   "scope": "SW",
+   "head": "Luke 24:27",
+   "anchor": {
+    "verse": 6,
+    "w1": 19,
+    "w2": 31,
+    "quote": "after he had expounded all the scriptures unto them which they had received"
+   },
+   "reason": "the same act on the road to Emmaus",
+   "targets": [
+    {
+     "ref": "Luke",
+     "chapter": 24,
+     "verse": 27,
+     "w1": 9,
+     "w2": 20,
+     "quote": "he expounded unto them in all the scriptures the things concerning himself.",
+     "verse_text": "And beginning at Moses and all the prophets, he expounded unto them in all the scriptures the things concerning himself.",
+     "markdown": "And beginning at Moses and all the prophets, **he expounded unto them in all the scriptures the things concerning himself**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne23-009",
+   "scope": "SW",
+   "head": "Matt. 27:52",
+   "anchor": {
+    "verse": 9,
+    "w1": 34,
+    "w2": 48,
+    "quote": "there were many saints who should arise from the dead, and should appear unto many"
+   },
+   "reason": "the event as reported at Jerusalem",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 27,
+     "verse": 52,
+     "w1": 7,
+     "w2": 14,
+     "quote": "many bodies of the saints which slept arose,",
+     "verse_text": "And the graves were opened; and many bodies of the saints which slept arose,",
+     "markdown": "And the graves were opened; and **many bodies of the saints which slept arose**,",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne23-010",
+   "scope": "SW",
+   "head": "Isa. 55:11",
+   "anchor": {
+    "verse": 3,
+    "w1": 1,
+    "w2": 11,
+    "quote": "And all things that he spake have been and shall be"
+   },
+   "reason": "the claim that a spoken word carries out its errand",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 55,
+     "verse": 11,
+     "w1": 13,
+     "w2": 19,
+     "quote": "it shall not return unto me void,",
+     "verse_text": "So shall my word be that goeth forth out of my mouth: it shall not return unto me void, but it shall accomplish that which I please, and it shall prosper in the thing whereto I sent it.",
+     "markdown": "So shall my word be that goeth forth out of my mouth: **it shall not return unto me void**, but it shall accomplish that which I please, and it shall prosper in the thing whereto I sent it.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 16,
+   "w2": 27,
+   "quote": "a commandment I give unto you that ye search these things diligently",
+   "entries": [
+    "3ne23-001"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 3,
+   "w2": 18,
+   "quote": "he spake as touching all things concerning my people which are of the house of Israel",
+   "entries": [
+    "3ne23-006"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 1,
+   "w2": 11,
+   "quote": "And all things that he spake have been and shall be",
+   "entries": [
+    "3ne23-010"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 7,
+   "w2": 14,
+   "quote": "write the things which I have told you",
+   "entries": [
+    "3ne23-002"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 18,
+   "w2": 20,
+   "quote": "Search the prophets",
+   "entries": [
+    "3ne23-005"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 22,
+   "w2": 29,
+   "quote": "many there be that testify of these things",
+   "entries": [
+    "3ne23-007"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 19,
+   "w2": 31,
+   "quote": "after he had expounded all the scriptures unto them which they had received",
+   "entries": [
+    "3ne23-008"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 34,
+   "w2": 48,
+   "quote": "there were many saints who should arise from the dead, and should appear unto many",
+   "entries": [
+    "3ne23-009"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 6,
+   "w2": 15,
+   "quote": "How be it that ye have not written this thing",
+   "entries": [
+    "3ne23-004"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 8,
+   "w2": 16,
+   "quote": "when Jesus had expounded all the scriptures in one",
+   "entries": [
+    "3ne23-003"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "193b2aa67edd4ae7"
+ }
+}

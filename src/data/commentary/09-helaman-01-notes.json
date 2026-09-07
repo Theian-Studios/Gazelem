@@ -15,9 +15,9 @@
   "principles": [
    "A succession contested by three brothers",
    "A murder that founds a band",
-   ""
+   "A capital lost to an unguarded assumption"
   ],
-  "connections": 10,
+  "connections": 11,
   "initial": true
  },
  "world_behind": [
@@ -203,58 +203,172 @@
   {
    "term": "Thus had Coriantumr plunged the Lamanites into the midst of the Nephites",
    "verse_label": "v. 32",
-   "text": "The summary verdict. The word appears nowhere else in scripture, and Mormon uses it of an army placed past the point of retreat by its own commander."
+   "text": "The summary verdict. The word occurs a single time in scripture, and Mormon uses it of an army placed past the point of retreat by its own commander."
   }
  ],
  "verses": [
   {
-   "label": "v. 1–6",
+   "label": "v. 1–2",
    "start": 1,
-   "end": 6,
-   "title": "Three brothers contend",
-   "text": "In the fortieth year Pahoran dies and a serious contention begins over the judgment-seat among his sons. Pahoran, Paanchi, and Pacumeni contend and divide the people three ways. Pahoran is appointed by the voice of the people, and Pacumeni accepts the result."
+   "end": 2,
+   "title": "Two coinages and a borrowed death-notice",
+   "text": "\"A serious difficulty\" (v. 1) and \"a serious contention\" (v. 2) each occur once in scripture, both of them here, three lines apart. Between them Pahoran is buried in a formula the record keeps for its patriarchs: \"gone the way of all the earth,\" said of Joshua (Josh. 23:14), David (1 Kgs. 2:2), Lehi (2 Ne. 1:14), Benjamin (Mosiah 1:9) and Mosiah (Alma 1:1). A chief judge is given a patriarch's exit in half a verse, and the chapter then spends nine on the fight over his chair.",
+   "cites": [
+    {
+     "quote": "A serious difficulty",
+     "verse": 1,
+     "start": 0,
+     "end": 29,
+     "spans": [
+      {
+       "w1": 30,
+       "w2": 32,
+       "text": "A serious difficulty"
+      }
+     ]
+    },
+    {
+     "quote": "a serious contention",
+     "verse": 2,
+     "start": 34,
+     "end": 63,
+     "spans": [
+      {
+       "w1": 19,
+       "w2": 21,
+       "text": "a serious contention"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Josh. 23:14",
+     "start": 262,
+     "end": 273,
+     "book": "Josh",
+     "chapter": 23,
+     "verse_start": 14,
+     "verse_end": 14
+    },
+    {
+     "kind": "scripture",
+     "text": "1 Kgs. 2:2",
+     "start": 283,
+     "end": 293,
+     "book": "1 Kgs",
+     "chapter": 2,
+     "verse_start": 2,
+     "verse_end": 2
+    },
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 1:14",
+     "start": 302,
+     "end": 312,
+     "book": "2 Ne",
+     "chapter": 1,
+     "verse_start": 14,
+     "verse_end": 14
+    },
+    {
+     "kind": "scripture",
+     "text": "Mosiah 1:9",
+     "start": 325,
+     "end": 335,
+     "book": "Mosiah",
+     "chapter": 1,
+     "verse_start": 9,
+     "verse_end": 9
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 1:1",
+     "start": 349,
+     "end": 357,
+     "book": "Alma",
+     "chapter": 1,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
   },
   {
-   "label": "v. 7–8",
-   "start": 7,
+   "label": "v. 5–8",
+   "start": 5,
    "end": 8,
-   "title": "Paanchi condemned",
-   "text": "Paanchi and his supporters are wroth, and he is about to flatter them into rebellion. He is taken, tried by the voice of the people, and condemned to death for rebellion and for seeking to destroy the people's liberty."
+   "title": "The founding formula, doing four different jobs",
+   "text": "\"The voice of the people\" is used twenty-two times in the volume and four of them are in this chapter. At verse 5 it appoints, at verse 6 the losing brother unites with it, at verse 8 it tries a man and condemns him to death, at verse 13 it seats the next one. Only Mosiah 29, the chapter that created the system, carries the phrase as often. The record shows the machinery working in every direction it can work before it shows what the losing side does anyway."
   },
   {
-   "label": "v. 9–13",
-   "start": 9,
+   "label": "v. 11–12",
+   "start": 11,
+   "end": 12,
+   "title": "An oath in God's name, and a plain reason",
+   "text": "The band covenants \"by their everlasting Maker,\" a title found nowhere else in scripture, and the single thing it is used for is concealing a murder. Verse 12 then declines the dramatic explanation: Kishkumen went unrecognized \"for he was in disguise,\" not because the oath held. The record sets the covenant beside the costume and credits the costume."
+  },
+  {
+   "label": "v. 13",
+   "start": 13,
    "end": 13,
-   "title": "The murder and the covenant",
-   "text": "His supporters send Kishkumen, who murders Pahoran on the judgment-seat and escapes too fast to be overtaken. The band swears by their everlasting Maker to tell no one. Kishkumen had been disguised, so he stays unknown, and the band mixes back into the people. Pacumeni is appointed by the voice of the people in his brother's place."
+   "title": "A year closes in the middle of a chapter",
+   "text": "\"And all this was done in the fortieth year of the reign of the judges; and it had an end.\" The chapter runs to verse 34 and covers two years. The record stops to shut the first one at the moment the succession is settled, and the settlement holds for five verses before an army arrives."
   },
   {
-   "label": "v. 14–17",
-   "start": 14,
-   "end": 17,
-   "title": "Tubaloth sends Coriantumr",
-   "text": "In the forty-first year the Lamanites raise an innumerable army with full equipment. Tubaloth, son of Ammoron, appoints Coriantumr, a large and mighty man, a Nephite dissenter descended from Zarahemla, and sends them against the land of Zarahemla."
-  },
-  {
-   "label": "v. 18–22",
-   "start": 18,
+   "label": "v. 21–22",
+   "start": 21,
    "end": 22,
-   "title": "Zarahemla taken",
-   "text": "The contention in the government had left too few guards, since no one expected an inland attack. Coriantumr marches so fast that no Nephite army can gather, cuts down the watch at the entrance, takes the whole city, and kills Pacumeni against the wall. Holding the strongest place in the land, he takes courage to go further."
+   "title": "One death gets a wall, another gets half a verse",
+   "text": "Pacumeni's killing takes a full verse, with a flight, a place, and a closing sentence: \"thus ended the days of Pacumeni.\" Verse 22 then gives what his killer concluded from it at greater length still. Set against verse 2, the record spends more on the second chief judge's death than on the first, and more again on the reading his enemy made of it."
   },
   {
-   "label": "v. 23–27",
-   "start": 23,
+   "label": "v. 24–27",
+   "start": 24,
    "end": 27,
-   "title": "The march through the center",
-   "text": "He presses toward Bountiful, meaning to cut through to the north, and destroys the Nephites in small bodies before they can assemble. Moronihah had stationed his armies on the borders, expecting attacks there, and the Lamanites came inland instead."
+   "title": "Everyone is wrong, in one vocabulary",
+   "text": "Some form of suppose carries the whole campaign: Tubaloth supposes Coriantumr can stand against the Nephites (v. 16), the Nephites suppose the Lamanites dare not come inland (v. 18), Coriantumr supposes the strength lies in the center (v. 24), Moronihah supposes exactly what his countrymen did (v. 26). \"The center of the land\" occurs four times in scripture, all four in verses 24 through 27. Both sides get the same word for their errors, and the record never says whose was worse.",
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 16)",
+     "start": 109,
+     "end": 116,
+     "verse_start": 16,
+     "verse_end": 16
+    },
+    {
+     "kind": "verse",
+     "text": "(v. 18)",
+     "start": 174,
+     "end": 181,
+     "verse_start": 18,
+     "verse_end": 18
+    },
+    {
+     "kind": "verse",
+     "text": "(v. 24)",
+     "start": 235,
+     "end": 242,
+     "verse_start": 24,
+     "verse_end": 24
+    },
+    {
+     "kind": "verse",
+     "text": "(v. 26)",
+     "start": 295,
+     "end": 302,
+     "verse_start": 26,
+     "verse_end": 26
+    }
+   ]
   },
   {
-   "label": "v. 28–34",
-   "start": 28,
+   "label": "v. 30–34",
+   "start": 30,
    "end": 34,
-   "title": "The trap closes",
-   "text": "Moronihah sends Lehi to head them before Bountiful, and they retreat toward Zarahemla. Moronihah meets them in retreat in a bloody battle where Coriantumr is killed. Ringed on every side, the Lamanites yield. Moronihah retakes Zarahemla and sends the prisoners out of the land in peace."
+   "title": "Thirty-four verses, and nobody speaks",
+   "text": "Three brothers contend for a judgment-seat, a man is tried and condemned to death, a band swears an oath, a capital falls and two armies are broken, and the chapter preserves not one word that anyone said. It asks no question either. A book that will fill itself with Nephi's preaching and Samuel's opens without a voice in it."
   }
  ],
  "chapter": [
@@ -302,9 +416,24 @@
  "world_in_front": {
   "applications": [
    {
+    "title": "Say how many are not in the story",
+    "verse_label": "v. 4",
+    "text": "The record notes that Pahoran had many sons and that only three of them contended for the seat. When a quarrel has loud participants, state who is standing outside it, so the noisy few are not mistaken for the whole family."
+   },
+   {
     "title": "Losing well is a real contribution",
     "verse_label": "v. 6",
     "text": "Pacumeni united with the voice of the people when he could not win, and held the office lawfully within the year. How you lose determines what you are trusted with next."
+   },
+   {
+    "title": "Try the case even when the guilt looks obvious",
+    "verse_label": "v. 8",
+    "text": "Paanchi was taken and tried according to the voice of the people before he was condemned. A defendant everyone has already convicted is exactly the one whose trial proves you have a process at all."
+   },
+   {
+    "title": "Watch for the promise of silence",
+    "verse_label": "v. 11",
+    "text": "Kishkumen's backers swore by their everlasting Maker that they would tell no man what he had done. A group whose first shared commitment is secrecy has already told you what it expects to do next."
    },
    {
     "title": "Watch the interior while you argue",
@@ -312,14 +441,19 @@
     "text": "The guards were thin because the government was busy with itself. Internal conflict costs attention somewhere, and the cost lands where nobody is looking."
    },
    {
+    "title": "A gain you cannot hold is exposure",
+    "verse_label": "v. 23",
+    "text": "Coriantumr took the capital and immediately pushed past it. Ask what a win commits you to before you take it."
+   },
+   {
     "title": "Name the assumption behind the deployment",
     "verse_label": "v. 26",
     "text": "Moronihah put his armies where he expected the attack. Write down what your plan assumes, so you notice when the assumption stops holding."
    },
    {
-    "title": "A gain you cannot hold is exposure",
-    "verse_label": "v. 23",
-    "text": "Coriantumr took the capital and immediately pushed past it. Ask what a win commits you to before you take it."
+    "title": "Let the defeated go home",
+    "verse_label": "v. 33",
+    "text": "Moronihah retook Zarahemla and caused the Lamanite prisoners to depart out of the land in peace. When a conflict ends your way, decide what release looks like, because keeping people is a long obligation of its own."
    }
   ],
   "questions": [
@@ -378,7 +512,7 @@
     "w2": 22,
     "quote": "he was in disguise at the time that he murdered Pahoran"
    },
-   "reason": "the same method used against the band, by a servant, a year later",
+   "reason": "the same method used against the band by a servant",
    "targets": [
     {
      "ref": "Hel.",
@@ -447,6 +581,32 @@
    "mirror": "hel02-002"
   },
   {
+   "id": "hel01-011",
+   "scope": "BOOK",
+   "head": "Hel. 2:3",
+   "anchor": {
+    "verse": 9,
+    "w1": 39,
+    "w2": 46,
+    "quote": "murdered Pahoran as he sat upon the judgment-seat."
+   },
+   "reason": "the murderer named again in the next chapter",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 2,
+     "verse": 3,
+     "w1": 3,
+     "w2": 7,
+     "quote": "Kishkumen, who had murdered Pahoran,",
+     "verse_text": "But behold, Kishkumen, who had murdered Pahoran, did lay wait to destroy Helaman also; and he was upheld by his band, who had entered into a covenant that no one should know his wickedness.",
+     "markdown": "But behold, **Kishkumen, who had murdered Pahoran**, did lay wait to destroy Helaman also; and he was upheld by his band, who had entered into a covenant that no one should know his wickedness.",
+     "span": true
+    }
+   ],
+   "mirror": "hel02-001"
+  },
+  {
    "id": "hel01-004",
    "scope": "BOM",
    "head": "Alma 62:44",
@@ -456,7 +616,7 @@
     "w2": 13,
     "quote": "Pahoran had died, and gone the way of all the earth"
    },
-   "reason": "the same man restored to his seat at the end of the war",
+   "reason": "the same man restored to his seat after the war",
    "targets": [
     {
      "ref": "Alma",
@@ -470,7 +630,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al62-016"
   },
   {
    "id": "hel01-005",
@@ -482,7 +642,7 @@
     "w2": 35,
     "quote": "he was about to flatter away those people to rise up in rebellion"
    },
-   "reason": "the king-men, who wanted the same seat by the same means",
+   "reason": "the king-men, wanting the same seat by the same means",
    "targets": [
     {
      "ref": "Alma",
@@ -496,7 +656,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al51-011"
   },
   {
    "id": "hel01-006",
@@ -508,7 +668,7 @@
     "w2": 30,
     "quote": "he was taken, and was tried according to the voice of the people, and condemned unto death"
    },
-   "reason": "the men of Pachus tried and executed under the same law",
+   "reason": "Pachus's men tried and executed under the same law",
    "targets": [
     {
      "ref": "Alma",
@@ -522,7 +682,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al62-011"
   },
   {
    "id": "hel01-007",
@@ -534,7 +694,7 @@
     "w2": 28,
     "quote": "the Lamanites had gathered together an innumerable army of men"
    },
-   "reason": "the driving out that ended the last war, twenty years earlier",
+   "reason": "the rout that ended the last war, twenty years earlier",
    "targets": [
     {
      "ref": "Alma",
@@ -548,7 +708,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al62-013"
   },
   {
    "id": "hel01-008",
@@ -574,7 +734,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "omn01-008"
   },
   {
    "id": "hel01-009",
@@ -600,7 +760,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al52-011"
   },
   {
    "id": "hel01-010",
@@ -612,7 +772,7 @@
     "w2": 24,
     "quote": "so speedy was the flight of Kishkumen that no man could overtake him"
    },
-   "reason": "Ehud getting clear while the dead king’s servants waited outside",
+   "reason": "Ehud getting clear while the dead king's servants waited outside",
    "targets": [
     {
      "ref": "Judg.",
@@ -655,6 +815,15 @@
    "quote": "he was taken, and was tried according to the voice of the people, and condemned unto death",
    "entries": [
     "hel01-006"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 39,
+   "w2": 46,
+   "quote": "murdered Pahoran as he sat upon the judgment-seat.",
+   "entries": [
+    "hel01-011"
    ]
   },
   {
@@ -722,7 +891,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "1513f23179692d80"
+  "at": "2026-09-07",
+  "source_sha256": "ff93707afb9229a4"
  }
 }

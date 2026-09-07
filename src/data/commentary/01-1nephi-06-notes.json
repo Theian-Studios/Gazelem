@@ -29,7 +29,7 @@
   {
    "n": 2,
    "title": "Room was a real constraint",
-   "text": "Engraving metal is slow, skilled work, and plates are finite. When Nephi says the things of his father \"cannot be written upon these plates\" (v. 3), that is physics before it is policy. Engraving is slow, deliberate work, and correcting metal is nearly impossible; the medium itself demanded that every line be chosen before the graver touched it.",
+   "text": "Engraving metal is slow, skilled work, and plates are finite. When Nephi says the things of his father \"cannot be written upon these plates\" (v. 3), that is physics before it is policy. Correcting metal is nearly impossible, so the medium itself demanded that every line be chosen before the graver touched it.",
    "cites": [
     {
      "quote": "cannot be written upon these plates",
@@ -146,6 +146,26 @@
        "w1": 2,
        "w2": 12,
        "text": "it sufficeth me to say that we are descendants of Joseph"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Particular",
+   "verse_label": "v. 3",
+   "text": "Detailed, itemized, going into every part. That is the older sense of the word. Nephi says it \"mattereth not to me that I am particular to give a full account\" (v. 3) of his father's things. The record uses the word six times and the King James Bible twice. Here it is an editor declining completeness on purpose, and the next clause gives the reason: he wants the room.",
+   "cites": [
+    {
+     "quote": "mattereth not to me that I am particular to give a full account",
+     "verse": 3,
+     "start": 94,
+     "end": 166,
+     "spans": [
+      {
+       "w1": 3,
+       "w2": 15,
+       "text": "mattereth not to me that I am particular to give a full account"
       }
      ]
     }
@@ -318,29 +338,14 @@
    "start": 1,
    "end": 1,
    "title": "The declined inheritance",
-   "text": "Nephi opens by refusing to copy his father's genealogy, and says where it lives instead. The verse establishes a working principle for a family with several records: each plate has a job, and repeating another record's job wastes both."
+   "text": "The record states one refusal three times inside a single verse: \"I do not give the genealogy of my fathers in this part of my record,\" then \"neither at any time shall I give it after upon these plates,\" then \"I do not write it in this work.\" Present, future, and summary. Between the second and third it supplies the reason, that the material exists elsewhere, \"it is given in the record which has been kept by my father.\" Verse 3 gives the ground in terms of space, \"I desire the room that I may write of the things of God,\" so an omission is justified by the physical limits of the plates."
   },
   {
    "label": "v. 2",
    "start": 2,
    "end": 2,
    "title": "Identity in six words",
-   "text": "\"We are descendants of Joseph\" (v. 2): everything chapter 5 discovered, compressed to six words. The compression is the message: for this record's purposes, the whole point of pedigree is covenant membership, and covenant membership needs no documentation here beyond the claim.",
-   "cites": [
-    {
-     "quote": "We are descendants of Joseph",
-     "verse": 2,
-     "start": 0,
-     "end": 37,
-     "spans": [
-      {
-       "w1": 8,
-       "w2": 12,
-       "text": "We are descendants of Joseph"
-      }
-     ]
-    }
-   ]
+   "text": "The record reduces the finding of the previous chapter to one clause: \"it sufficeth me to say that we are descendants of Joseph.\" At 1 Nephi 5:14 the same claim arrived with its evidence attached, a genealogy found on the brass plates naming Joseph son of Jacob who was sold into Egypt. Here it is asserted with no source cited and no line of descent given. The record thus states the conclusion in a book it says is for the things of God and leaves the documentation in a book it says is for the history."
   },
   {
    "label": "v. 3",
@@ -488,7 +493,7 @@
   {
    "n": 3,
    "title": "Confessed bias as credibility",
-   "text": "The record announces its agenda in its sixth chapter, which is precisely what makes it trustworthy about itself: a reader always knows which way the selection cuts. The volume's honesty habit, its preserved complaints and preserved failures, starts from a writer honest about his intent."
+   "text": "The record announces its selection rule in its sixth chapter and states it twice, positively at verse 4, \"the fulness of mine intent is that I may persuade men to come unto the God of Abraham,\" and negatively at verse 5, \"the things which are pleasing unto the world I do not write.\" A reader is told which way the selection cuts before the selecting begins. The same volume then preserves the complaints of 1 Nephi 2:11 and 17:20–22 and the failures of 1 Nephi 3:11–14, so the stated bias does not remove the unflattering material."
   },
   {
    "n": 4,
@@ -503,15 +508,32 @@
   {
    "n": 6,
    "title": "A seam where the writer shows",
-   "text": "The chapter briefly collapses its two clocks: the man writing in the promised land interrupts the family still camped by the Red Sea. The volume will do this again, editors stepping into their own record, and this first instance teaches the reader how to read the later ones: the intrusions are where the record's purpose speaks loudest."
+   "text": "The chapter collapses two clocks in six verses. The narrative stands at the valley of Lemuel, and the writing stands decades later, after the plates of 2 Nephi 5:30 were commanded. Verse 6 gives an instruction to descendants who do not yet exist, \"I shall give commandment unto my seed, that they shall not occupy these plates with things which are not of worth.\" The same intrusion recurs at 1 Nephi 9:5, 1 Nephi 19:1–3, and Jacob 1:1–4, so the reader is taught here how to recognize the later ones. the record's purpose speaks loudest.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 1:1–4",
+     "start": 426,
+     "end": 437,
+     "book": "Jacob",
+     "chapter": 1,
+     "verse_start": 1,
+     "verse_end": 4
+    }
+   ]
   }
  ],
  "world_in_front": {
   "applications": [
    {
-    "title": "Write your charter sentence",
-    "verse_label": "v. 4",
-    "text": "Nephi runs a thousand-page record on one sentence of intent. Draft yours, for your journal or your calling or your family's story: one sentence naming who it is for and what it should do to them. Then let it start refusing things."
+    "title": "Delegate the archive, keep the identity",
+    "verse_label": "v. 1–2",
+    "text": "Not everything must live in your record: some things are already kept, by institutions, by relatives, by photographs. Practice Nephi's split: one sentence of owned identity in your own voice, and a pointer to where the fullness lives."
+   },
+   {
+    "title": "Write the short version of who you are",
+    "verse_label": "v. 2",
+    "text": "Nephi compresses a whole genealogy into six words: it sufficeth me to say that we are descendants of Joseph. Draft the one-line version of your own account, the sentence you would keep if you had room for nothing else, and notice how much of what you usually say turns out to be detail included from habit. The short version is not a summary of the long one; it is the claim the long one exists to support."
    },
    {
     "title": "Guard the room",
@@ -519,14 +541,19 @@
     "text": "List what currently occupies your scarcest space: the first hour of the day, the family dinner table, the pages of whatever you keep. Name one occupant that is not of worth by this chapter's test, and evict it this week in favor of a thing of God."
    },
    {
-    "title": "Delegate the archive, keep the identity",
-    "verse_label": "v. 1–2",
-    "text": "Not everything must live in your record: some things are already kept, by institutions, by relatives, by photographs. Practice Nephi's split: one sentence of owned identity in your own voice, and a pointer to where the fullness lives."
+    "title": "Write your charter sentence",
+    "verse_label": "v. 4",
+    "text": "Nephi runs a thousand-page record on one sentence of intent. Draft yours, for your journal or your calling or your family's story: one sentence naming who it is for and what it should do to them. Then let it start refusing things."
    },
    {
     "title": "Choose the unworldly reader",
     "verse_label": "v. 5",
     "text": "Before posting or writing anything this week, ask the verse's question: which audience is this pleasing? Write one thing aimed deliberately at the reader who is not of the world, even if the audience count embarrasses you."
+   },
+   {
+    "title": "Leave the rule, not only the record",
+    "verse_label": "v. 6",
+    "text": "Nephi does not merely decide what belongs on the plates; he gives commandment to his seed that they keep deciding by the same test. Whatever you maintain that will outlive your attention, a family history, a shared archive, a practice, write down the standard alongside the content, in a sentence the next person can apply without asking you. A rule that lives only in the head of whoever is keeping the thing lasts exactly as long as that person does."
    }
   ],
   "questions": [
@@ -665,7 +692,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "wom01-008"
   },
   {
    "id": "1ne06-005",
@@ -815,7 +842,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "15ffb290a392efcc"
+  "at": "2026-09-07",
+  "source_sha256": "5cdb4a54b7d4293a"
  }
 }

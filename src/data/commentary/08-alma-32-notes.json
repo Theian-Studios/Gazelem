@@ -16,9 +16,9 @@
   "principles": [
    "Humility compelled and humility chosen",
    "Faith working before knowledge",
-   ""
+   "The word tried as an experiment"
   ],
-  "connections": 9,
+  "connections": 13,
   "initial": true
  },
  "world_behind": [
@@ -67,27 +67,39 @@
   {
    "term": "Dross",
    "verse_label": "v. 3",
-   "text": "The waste skimmed off molten metal. The record uses it twice and the King James Bible eight, where Isaiah says silver has become dross. Mormon says the poor were esteemed as dross by their brethren. The contempt is a judgment about worth, and nothing is said about their conduct."
+   "text": "The waste skimmed off molten metal. The record uses it twice and the King James Bible eight, where Isaiah says silver has become dross (Isa. 1:22). Mormon says the poor were esteemed as dross by their brethren. The contempt is a judgment about worth, and nothing is said about their conduct.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 1:22",
+     "start": 136,
+     "end": 145,
+     "book": "Isa",
+     "chapter": 1,
+     "verse_start": 22,
+     "verse_end": 22
+    }
+   ]
   },
   {
    "term": "Experiment",
    "verse_label": "v. 27",
-   "text": "A trial made to find something out. The record uses the word four times, three of them in this chapter and one in Alma 34 where Amulek picks it up. Alma asks only for a desire to believe, exercised far enough to give the word a place."
+   "text": "A trial made to find something out. The record uses the word four times, three of them in this chapter and one in Alma 34 where Amulek picks it up. Alma asks only for a desire, held long enough to make room for the word."
   },
   {
    "term": "Delicious",
    "verse_label": "v. 28",
-   "text": "Delightful to the taste. The word occurs once in scripture. It is the third thing the swelling seed does: enlarge the soul, enlighten the understanding, and become delicious. Alma reaches for taste to describe the part he cannot argue for."
+   "text": "Delightful to the taste. The word appears once in all of scripture. It is the third thing the swelling seed does: enlarge the soul, enlighten the understanding, and become delicious. Alma reaches for taste to describe the part he cannot argue for."
   },
   {
    "term": "Dormant",
    "verse_label": "v. 34",
-   "text": "Sleeping, inactive for a season. The word occurs once in scripture. Alma uses it of faith at the point where knowledge arrives in one thing, which keeps faith alive and idle instead of finished."
+   "text": "Sleeping, inactive for a season. The word occurs a single time in scripture. Alma uses it of faith at the point where knowledge arrives in one thing, which keeps faith alive and idle instead of finished."
   },
   {
    "term": "Discernible",
    "verse_label": "v. 35",
-   "text": "Able to be perceived. The word occurs once in scripture. It carries Alma's argument that light is good because it can be seen. That is his answer to his own question about whether the experience is real."
+   "text": "Able to be perceived. The word turns up just once in scripture. It carries Alma's argument that light proves itself by being seen. That is his answer to his own question about whether the experience is real."
   }
  ],
  "phrases": [
@@ -149,53 +161,25 @@
  ],
  "verses": [
   {
-   "label": "v. 1–6",
-   "start": 1,
-   "end": 6,
-   "title": "The poor found",
-   "text": "Preaching in synagogues, houses, and streets produces success among the poor, who were shut out over the coarseness of their clothes and esteemed as dross. On the hill Onidah a crowd of them comes, and their spokesman asks what they should do when they have no place to worship."
+   "label": "v. 5",
+   "start": 5,
+   "end": 5,
+   "title": "A grievance quoted with the detail that sharpens it",
+   "text": "The record keeps the speaker's own words and does not trim the awkward part: \"they have cast us out of our synagogues which we have labored abundantly to build with our own hands.\" The people barred from the building are the people who built it. The complaint also identifies the responsible party precisely, \"more especially by our priests,\" and ends on a practical question rather than a theological one, \"we have no place to worship our God; and behold, what shall we do?\""
   },
   {
-   "label": "v. 7–16",
-   "start": 7,
-   "end": 16,
-   "title": "Two kinds of humility",
-   "text": "Alma turns from the other multitude and blesses the lowly in heart. He asks whether worship requires a building or a weekly slot, says the casting out was well because it taught humility, and then names the greater blessing: humbling yourself without being compelled."
+   "label": "v. 10–11",
+   "start": 10,
+   "end": 11,
+   "title": "A question answered by two questions about assumptions",
+   "text": "The record has the reply refuse the frame twice, once about place and once about frequency: \"do ye suppose that ye cannot worship God save it be in your synagogues only?\" and \"do ye suppose that ye must not worship God only once in a week?\" Neither is answered in the text. The second one raises a subject nobody asked about, weekly observance, which is the only place in these books where the frequency of worship is put in question."
   },
   {
-   "label": "v. 17–22",
-   "start": 17,
-   "end": 22,
-   "title": "Signs and faith",
-   "text": "Many say show us a sign and then we will believe. Alma denies that this is faith, since knowing removes the cause to believe, and defines faith as hoping for unseen things that are true. God asks belief first, on his word."
-  },
-  {
-   "label": "v. 23–27",
-   "start": 23,
-   "end": 27,
-   "title": "Who receives it",
-   "text": "The word comes by angels to men, to women, and to children who confound the wise. Alma asks only for a particle of faith, or a desire to believe, worked on far enough to give a place for a portion of the word."
-  },
-  {
-   "label": "v. 28–34",
-   "start": 28,
-   "end": 34,
-   "title": "The seed",
-   "text": "Planted and not cast out, a good seed swells, enlarges the soul, enlightens the understanding, and becomes delicious. Every seed brings forth after its kind, so growth proves goodness. Knowledge becomes perfect in that one thing and faith goes dormant."
-  },
-  {
-   "label": "v. 35–39",
-   "start": 35,
-   "end": 39,
-   "title": "Light, and neglect",
-   "text": "Light is good because it can be seen. Knowledge is still not complete and faith must not be laid aside. A tree nourished with care takes root and bears; a tree neglected withers when the sun comes, because the ground was barren."
-  },
-  {
-   "label": "v. 40–43",
-   "start": 40,
-   "end": 43,
-   "title": "The fruit",
-   "text": "Refusing to nourish means never plucking from the tree of life. Nourishing with faith, diligence, and patience grows a tree springing up to everlasting life, and the fruit is sweet and white and pure above all, enough to fill and end hunger and thirst."
+   "label": "v. 21",
+   "start": 21,
+   "end": 21,
+   "title": "One clause added to a borrowed definition",
+   "text": "The record gives the negative half first, \"faith is not to have a perfect knowledge of things,\" and then the positive: \"if ye have faith ye hope for things which are not seen, which are true.\" Hebrews 11:1 has \"the substance of things hoped for, the evidence of things not seen\" and stops there. The added clause \"which are true\" makes truth a condition of the definition rather than a result of it, so on this account a confident hope in something false is not weak faith but no faith at all."
   }
  ],
  "chapter": [
@@ -243,6 +227,11 @@
  "world_in_front": {
   "applications": [
    {
+    "title": "Say the awkward part of the grievance",
+    "verse_label": "v. 5",
+    "text": "The spokesman told Alma they had been thrown out of synagogues \"which we have labored abundantly to build with our own hands.\" He did not soften the detail that made the injustice sharper. When you bring a complaint, include the fact that makes it uncomfortable to hear."
+   },
+   {
     "title": "Answer the question behind the question",
     "verse_label": "v. 10",
     "text": "They asked where to worship; Alma asked whether the place was ever required. When someone brings you a problem shaped by an assumption, test the assumption out loud before solving the problem."
@@ -253,9 +242,24 @@
     "text": "Alma says both count and one counts more. Pick the thing you already know you should change, and change it now rather than after it is forced."
    },
    {
+    "title": "Check that what you hope for is true",
+    "verse_label": "v. 21",
+    "text": "The definition here adds a clause the usual one leaves out: faith hopes for things \"which are not seen, which are true.\" Confidence is not the test. Before leaning on a hope, ask whether the thing itself will bear weight."
+   },
+   {
+    "title": "Take instruction from the source you would discount",
+    "verse_label": "v. 23",
+    "text": "Alma says the word comes by angels to men, \"not only men but women also,\" and that \"little children do have words given unto them many times, which confound the wise and the learned.\" Ask who in your life you have been filtering out on the grounds of standing rather than substance."
+   },
+   {
     "title": "Run the experiment",
     "verse_label": "v. 27",
     "text": "Alma asks for a desire to believe, exercised far enough to give the word a place. Take one specific promise, act on it for a set period, and pay attention to what actually happens."
+   },
+   {
+    "title": "Let the test be able to fail",
+    "verse_label": "v. 32",
+    "text": "The rule is stated in both directions: if the seed grows it is good, and \"if it groweth not, behold it is not good, therefore it is cast away.\" A trial you have arranged so that nothing could count against it is not a trial. Decide in advance what would."
    },
    {
     "title": "Nourish what has already sprouted",
@@ -319,7 +323,7 @@
     "w2": 22,
     "quote": "success among the poor class of people"
    },
-   "reason": "the rich of the same nation, watched at prayer one chapter back",
+   "reason": "the rich of the same nation, watched at prayer",
    "targets": [
     {
      "ref": "Alma",
@@ -345,7 +349,7 @@
     "w2": 51,
     "quote": "cast us out of our synagogues"
    },
-   "reason": "the stand at the center of the building they are shut out of",
+   "reason": "the stand at the center of that same building",
    "targets": [
     {
      "ref": "Alma",
@@ -414,6 +418,84 @@
    "mirror": "al34-002"
   },
   {
+   "id": "al32-010",
+   "scope": "BOOK",
+   "head": "Alma 35:6",
+   "anchor": {
+    "verse": 2,
+    "w1": 25,
+    "w2": 31,
+    "quote": "they were cast out of the synagogues"
+   },
+   "reason": "the same people cast out of the country next",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 35,
+     "verse": 6,
+     "w1": 35,
+     "w2": 44,
+     "quote": "were cast out of the land; and they were many;",
+     "verse_text": "And it came to pass that after they had found out the minds of all the people, those who were in favor of the words which had been spoken by Alma and his brethren were cast out of the land; and they were many; and they came over also into the land of Jershon.",
+     "markdown": "And it came to pass that after they had found out the minds of all the people, those who were in favor of the words which had been spoken by Alma and his brethren **were cast out of the land; and they were many**; and they came over also into the land of Jershon.",
+     "span": true
+    }
+   ],
+   "mirror": "al35-001"
+  },
+  {
+   "id": "al32-011",
+   "scope": "BOOK",
+   "head": "Alma 34:29",
+   "anchor": {
+    "verse": 3,
+    "w1": 25,
+    "w2": 30,
+    "quote": "esteemed by their brethren as dross;"
+   },
+   "reason": "Amulek turning the word back on the well-off",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 34,
+     "verse": 29,
+     "w1": 10,
+     "w2": 13,
+     "quote": "ye are as dross,",
+     "verse_text": "Therefore, if ye do not remember to be charitable, ye are as dross, which the refiners do cast out, (it being of no worth) and is trodden under foot of men.",
+     "markdown": "Therefore, if ye do not remember to be charitable, **ye are as dross**, which the refiners do cast out, (it being of no worth) and is trodden under foot of men.",
+     "span": true
+    }
+   ],
+   "mirror": "al34-004"
+  },
+  {
+   "id": "al32-012",
+   "scope": "BOOK",
+   "head": "Alma 21:20",
+   "anchor": {
+    "verse": 5,
+    "w1": 46,
+    "w2": 51,
+    "quote": "cast us out of our synagogues"
+   },
+   "reason": "the synagogues built after Aaron preached there",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 21,
+     "verse": 20,
+     "w1": 5,
+     "w2": 9,
+     "quote": "there should be synagogues built",
+     "verse_text": "But he caused that there should be synagogues built in the land of Ishmael; and he caused that his people, or the people who were under his reign, should assemble themselves together.",
+     "markdown": "But he caused that **there should be synagogues built** in the land of Ishmael; and he caused that his people, or the people who were under his reign, should assemble themselves together.",
+     "span": true
+    }
+   ],
+   "mirror": "al21-005"
+  },
+  {
    "id": "al32-005",
    "scope": "BOM",
    "head": "1 Ne. 8:11",
@@ -423,7 +505,7 @@
     "w2": 46,
     "quote": "which is sweet above all that is sweet"
    },
-   "reason": "the fruit of the tree of life as Lehi tasted it",
+   "reason": "the tree of life's fruit, as Lehi tasted it",
    "targets": [
     {
      "ref": "1 Ne.",
@@ -437,7 +519,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "1ne08-007"
   },
   {
    "id": "al32-006",
@@ -449,7 +531,7 @@
     "w2": 18,
     "quote": "Let us nourish it with great care"
    },
-   "reason": "the master of the vineyard using the same verb on a decaying tree",
+   "reason": "the master using the same verb on a decaying tree",
    "targets": [
     {
      "ref": "Jacob",
@@ -463,7 +545,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "jac05-017"
+  },
+  {
+   "id": "al32-013",
+   "scope": "BOM",
+   "head": "Hel. 11:15",
+   "anchor": {
+    "verse": 14,
+    "w1": 9,
+    "w2": 18,
+    "quote": "because ye were compelled to be humble ye were blessed,"
+   },
+   "reason": "Nephi asking that famine be what turns them",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 11,
+     "verse": 15,
+     "w1": 8,
+     "w2": 19,
+     "quote": "they have repented, because of the famine and the pestilence and destruction",
+     "verse_text": "Yea, O Lord, and thou seest that they have repented, because of the famine and the pestilence and destruction which has come unto them.",
+     "markdown": "Yea, O Lord, and thou seest that **they have repented, because of the famine and the pestilence and destruction** which has come unto them.",
+     "span": true
+    }
+   ],
+   "mirror": "hel11-006"
   },
   {
    "id": "al32-007",
@@ -475,7 +583,7 @@
     "w2": 30,
     "quote": "esteemed by their brethren as dross"
    },
-   "reason": "the metal image at its source, of silver gone to waste",
+   "reason": "the metal image at its source, of wasted silver",
    "targets": [
     {
      "ref": "Isa.",
@@ -555,11 +663,21 @@
    ]
   },
   {
+   "verse": 2,
+   "w1": 25,
+   "w2": 31,
+   "quote": "they were cast out of the synagogues",
+   "entries": [
+    "al32-010"
+   ]
+  },
+  {
    "verse": 3,
    "w1": 25,
    "w2": 30,
-   "quote": "esteemed by their brethren as dross",
+   "quote": "esteemed by their brethren as dross;",
    "entries": [
+    "al32-011",
     "al32-007"
    ]
   },
@@ -569,7 +687,17 @@
    "w2": 51,
    "quote": "cast us out of our synagogues",
    "entries": [
-    "al32-002"
+    "al32-002",
+    "al32-012"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 9,
+   "w2": 18,
+   "quote": "because ye were compelled to be humble ye were blessed,",
+   "entries": [
+    "al32-013"
    ]
   },
   {
@@ -628,7 +756,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "dc2c2babaa23edb8"
+  "at": "2026-09-07",
+  "source_sha256": "205ef8782d37a37b"
  }
 }

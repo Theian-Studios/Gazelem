@@ -34,7 +34,19 @@
   {
    "n": 3,
    "title": "Isaiah's servant in his own setting",
-   "text": "The passage belongs to a set of oracles in Isaiah about a servant who suffers on behalf of others and is afterward vindicated. Read in Judah, the figure could be taken for the prophet, for a faithful remnant, or for the nation itself. Abinadi will read it of one person, and says so in the next chapter."
+   "text": "The passage belongs to a set of oracles in Isaiah about a servant who suffers on behalf of others and is afterward vindicated. Read in Judah, the figure could be taken for the prophet, for a faithful remnant, or for the nation itself. Abinadi will read it of one person, and says so in the next chapter (Mosiah 15:1).",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 15:1",
+     "start": 304,
+     "end": 315,
+     "book": "Mosiah",
+     "chapter": 15,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
   },
   {
    "n": 4,
@@ -138,53 +150,39 @@
  ],
  "verses": [
   {
+   "label": "v. 1–12",
+   "start": 1,
+   "end": 12,
+   "title": "A short chapter, heavily touched",
+   "text": "Twenty-four chapters in this volume quote a King James chapter at length. Ranked by the share of verses carrying a real word change, this one is fourth: nine verses of twelve, seventy-five per cent. Ranked by the number of word-level edits it takes to get there, it is near the bottom, with ten. Both facts come from the same cause. The chapter is only twelve verses long, so a handful of single-word substitutions touches most of it, and no long passage anywhere in it is rewritten."
+  },
+  {
    "label": "v. 1",
    "start": 1,
    "end": 1,
-   "title": "A question inside a question",
-   "text": "The priests asked what a passage of Isaiah meant. The answer opens with Isaiah's own question about who believed and to whom the arm of the Lord was revealed. That arm is the same arm they had quoted, one verse earlier in the scroll. He responds to a question about a text by continuing the text."
+   "title": "A quotation turned into a question",
+   "text": "The King James verse asks two questions and punctuates them as two: \"Who hath believed our report? and to whom is the arm of the Lord revealed?\" Seven words are set in front of it here, \"Yea, even doth not Isaiah say,\" and the question mark inside becomes a comma. The whole poem is now the object of Abinadi's own question to the priests, which is the situation he is in. He is not reciting scripture; he is asking men who claim to teach it whether they have read it."
   },
   {
-   "label": "v. 2–3",
-   "start": 2,
-   "end": 3,
-   "title": "Nothing to look at",
-   "text": "A tender plant, a root out of dry ground, no form, no beauty, no reason to want him. Then the social result: despised, rejected, a man of sorrows, faces hidden. The verses move from appearance to reception with no argument in between, as though the second simply followed from the first."
-  },
-  {
-   "label": "v. 4",
-   "start": 4,
-   "end": 4,
-   "title": "The first misreading",
-   "text": "\"We did esteem him stricken, smitten of God, and afflicted.\" The onlookers drew the standard conclusion that suffering means guilt, and the verse says they had the fact right and the cause backwards. He was stricken. The accounting ran the wrong direction."
-  },
-  {
-   "label": "v. 5–6",
-   "start": 5,
-   "end": 6,
-   "title": "The exchange stated plainly",
-   "text": "Wounded for our transgressions, bruised for our iniquities, healed by his stripes. Verse 6 supplies the reason any of it was needed: all of us astray, each turned to his own way. The straying is described one at a time and the remedy arrives all at once."
-  },
-  {
-   "label": "v. 7–8",
+   "label": "v. 7",
    "start": 7,
-   "end": 8,
-   "title": "Silent, and cut off",
-   "text": "He does not answer. He is taken from prison and from judgment. And nobody is left to name his descendants. Three things are stripped in two verses: voice, due process, and a future. The middle one is being stripped from Abinadi in the room as he reads."
+   "end": 7,
+   "title": "One tense for both silences",
+   "text": "The King James verse says the silence twice and uses two tenses: \"yet he opened not his mouth,\" and then \"so he openeth not his mouth.\" Here the second is brought into line with the first, \"so he opened not his mouth,\" and the verse reports one past event instead of a past event and a standing habit. The lamb and the sheep are both untouched. Only the verb that frames them moves."
   },
   {
    "label": "v. 9",
    "start": 9,
    "end": 9,
-   "title": "Two burials at once",
-   "text": "His grave with the wicked, his death with the rich. The pairing looks like a contradiction and reads in the gospels as a sequence: crucified between thieves, then laid in a wealthy man's new tomb. The reason the verse gives is innocence."
+   "title": "The reason given for the grave",
+   "text": "The King James gives the reason for the grave among the wicked as \"because he had done no violence.\" This version reads \"because he had done no evil,\" and the substitution widens the claim considerably. Violence is one kind of wrong and can be denied by a man who has done others; evil is the category. The second half of the verse, \"neither was any deceit in his mouth,\" is unchanged, so the pairing now runs from the general to the particular instead of between two particulars."
   },
   {
-   "label": "v. 10–12",
-   "start": 10,
-   "end": 12,
-   "title": "What the offering buys",
-   "text": "It pleased the Lord to bruise him, and what comes of it is a family: he shall see his seed. Then a portion with the great, a division with the strong, and intercession made for the very transgressors he had been counted among. The chapter closes with the servant standing on both sides of the account."
+   "label": "v. 11",
+   "start": 11,
+   "end": 11,
+   "title": "The preposition that decides how much",
+   "text": "Isaiah has the servant \"see of the travail of his soul,\" which means he sees some part of it. One word is deleted here and he shall \"see the travail of his soul.\" The travail stops being a supply he draws from and becomes an object he looks at whole. It is the smallest edit in the chapter, and the only one anywhere in it that removes a preposition instead of swapping a noun."
   }
  ],
  "chapter": [
@@ -513,7 +511,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al07-021"
   },
   {
    "id": "mos14-008",
@@ -539,7 +537,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "3ne20-006"
   },
   {
    "id": "mos14-007",
@@ -979,7 +977,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "9dd979cd364c5525"
+  "at": "2026-09-07",
+  "source_sha256": "6550cf61b2c32598"
  }
 }

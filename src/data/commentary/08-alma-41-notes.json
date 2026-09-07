@@ -15,16 +15,28 @@
   "principles": [
    "Restoration as returning like for like",
    "Desires counted with works",
-   ""
+   "Wickedness never was happiness"
   ],
-  "connections": 9,
+  "connections": 10,
   "initial": true
  },
  "world_behind": [
   {
    "n": 1,
    "title": "Some had misread the doctrine on purpose",
-   "text": "Verse 1 says people have wrested the scriptures and gone far astray on this point. Alma is correcting a reading his son may have used."
+   "text": "Verse 1 says people have wrested the scriptures and gone far astray on this point. Alma 13:20 has him warn a hostile crowd at Ammonihah in the same words twenty-eight chapters earlier: the scriptures are before you, and wresting them is to your own destruction.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 13:20",
+     "start": 83,
+     "end": 93,
+     "book": "Alma",
+     "chapter": 13,
+     "verse_start": 20,
+     "verse_end": 20
+    }
+   ]
   },
   {
    "n": 2,
@@ -34,7 +46,19 @@
   {
    "n": 3,
    "title": "Corianton had a use for the misreading",
-   "text": "Verse 9 tells him not to risk one more offense upon the points of doctrine he has hitherto risked to commit sin. Alma names the doctrine as the thing that gave him cover."
+   "text": "Verse 9 tells Corianton not to risk one more offense upon the points of doctrine he has hitherto risked to commit sin. Alma 39:3 names the offense: he forsook the ministry and went after the harlot Isabel. The doctrine is being identified as the cover the conduct used.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 39:3",
+     "start": 119,
+     "end": 128,
+     "book": "Alma",
+     "chapter": 39,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
   },
   {
    "n": 4,
@@ -54,7 +78,19 @@
   {
    "n": 7,
    "title": "The chapter ends on conduct",
-   "text": "Verse 14 turns the doctrine into four instructions: be merciful, deal justly, judge righteously, do good continually."
+   "text": "Verse 14 turns the doctrine into four instructions: deal justly, judge righteously, do good continually, and have mercy. Alma 7:23 and 24 gives a longer version of the same list to the congregation at Gideon, so the charge to a son ends where a public sermon ended.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 7:23",
+     "start": 121,
+     "end": 130,
+     "book": "Alma",
+     "chapter": 7,
+     "verse_start": 23,
+     "verse_end": 23
+    }
+   ]
   }
  ],
  "words": [
@@ -88,7 +124,7 @@
   {
    "term": "Devilish",
    "verse_label": "v. 13",
-   "text": "Belonging to the devil. The record uses it six times and the King James Bible once, where James calls a certain wisdom earthly, sensual, and devilish. Alma places it third in a list with evil and carnal, all returning to themselves."
+   "text": "Belonging to the devil. It appears six times in the record, and the King James Bible once, where James calls a certain wisdom earthly, sensual, and devilish. Alma places it third in a list with evil and carnal, all returning to themselves."
   },
   {
    "term": "Justly",
@@ -98,7 +134,7 @@
   {
    "term": "Justifieth",
    "verse_label": "v. 15",
-   "text": "Declares righteous, clears of blame. The record uses it three times and the King James Bible four. Alma's last word on restoration is that it condemns the sinner more fully and justifies him not at all."
+   "text": "Declares righteous, clears of blame. The record uses it three times and the King James Bible four. Alma's last word on restoration is that it leaves the sinner worse off and offers him no defense."
   }
  ],
  "phrases": [
@@ -145,7 +181,7 @@
   {
    "term": "Bring back again evil for evil, or carnal for carnal, or devilish for devilish",
    "verse_label": "v. 13",
-   "text": "The definition, given in six matched pairs. Alma runs three negative pairs and then three positive ones, and the symmetry is the argument."
+   "text": "The definition, given in six matched pairs. Alma runs three negative pairs and then three positive ones, and the symmetry does the arguing."
   },
   {
    "term": "See that you are merciful unto your brethren; deal justly, judge righteously, and do good continually",
@@ -155,67 +191,89 @@
   {
    "term": "That which ye do send out shall return unto you again, and be restored",
    "verse_label": "v. 15",
-   "text": "The whole chapter compressed. Alma states it as a rule about sending and receiving, and then says the word restoration condemns the sinner more fully for it."
+   "text": "The whole chapter compressed. Alma states it as a rule about sending and receiving, then turns the word back on the one it convicts."
   }
  ],
  "verses": [
   {
-   "label": "v. 1–2",
+   "label": "v. 1",
    "start": 1,
-   "end": 2,
-   "title": "The correction begins",
-   "text": "Some have wrested the scriptures on restoration and gone far astray, and Corianton's mind is worried about it. Alma says the plan is requisite with the justice of God: all things restored to their proper order, soul to body, every part to itself."
+   "end": 1,
+   "title": "A chapter that exists to correct a misreading",
+   "text": "The record names its occasion in the first sentence, and the occasion is other people's exegesis: \"I have somewhat to say concerning the restoration of which has been spoken; for behold, some have wrested the scriptures, and have gone far astray because of this thing.\" No misreading is quoted and no reader is named. What follows for fourteen verses is an argument about the meaning of one word, and the word appears in seventeen places across nine of the chapter's fifteen verses."
   },
   {
-   "label": "v. 3–4",
-   "start": 3,
+   "label": "v. 2–4",
+   "start": 2,
    "end": 4,
-   "title": "Judged by works and desires",
-   "text": "It is requisite that men be judged by their works. Good works and good desires are restored to good; evil works are restored to evil. Everything returns to its natural frame, raised to endless happiness or to endless misery."
+   "title": "One adjective carrying the structure of the argument",
+   "text": "Requisite stands in verses 2 and 3 and governs three claims in a row: \"the plan of restoration is requisite with the justice of God,\" \"it is requisite that all things should be restored to their proper order,\" and \"it is requisite with the justice of God that men should be judged according to their works.\" The word is doing legal work, since something requisite is not merely fitting but required by a standard, and the standard is named each time as justice. Verse 4 then draws the conclusion in the same terms: \"all things shall be restored to their proper order, every thing to its natural frame.\""
   },
   {
-   "label": "v. 5–7",
-   "start": 5,
-   "end": 7,
-   "title": "According to desire",
-   "text": "Each is raised according to his desires, good or evil. A man who desired evil all day has his reward of evil at night; a man who repented and desired righteousness to the end is rewarded so. They are their own judges."
-  },
-  {
-   "label": "v. 8–10",
-   "start": 8,
+   "label": "v. 10",
+   "start": 10,
    "end": 10,
-   "title": "The open way, and the warning",
-   "text": "The decrees of God are unalterable, so the way is prepared for whoever will walk in it. Do not risk another offense on these points of doctrine. Do not suppose you will be restored from sin to happiness: wickedness never was happiness."
+   "title": "A prohibition on an inference, and a flat sentence",
+   "text": "The correction is stated as a rule about what may not be concluded: \"Do not suppose, because it has been spoken concerning restoration, that ye shall be restored from sin to happiness.\" What follows is the shortest sentence in the chapter and it makes no reference to restoration at all: \"wickedness never was happiness.\" Four words state a claim about the past tense of a category, and the record offers no argument for it here or anywhere else."
   },
   {
-   "label": "v. 11–13",
+   "label": "v. 11",
    "start": 11,
-   "end": 13,
-   "title": "What the word means",
-   "text": "Men in a carnal state are in the gall of bitterness, without God, contrary to the nature of happiness. Restoration cannot mean putting a thing into a state opposite its nature. It means bringing back evil for evil, carnal for carnal, good for good, just for just, merciful for merciful."
+   "end": 11,
+   "title": "A phrase revised mid-clause and both versions kept",
+   "text": "The record preserves the correction rather than the corrected text: \"all men that are in a state of nature, or I would say, in a carnal state, are in the gall of bitterness and in the bonds of iniquity.\" The same speaker does this at Alma 40:2, \"there is no resurrection, or, I would say, in other words,\" and Amulek does it at Alma 10:5, \"but behold, I mistake.\" Three times the volume prints a first attempt, the marker, and the replacement.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 40:2",
+     "start": 234,
+     "end": 243,
+     "book": "Alma",
+     "chapter": 40,
+     "verse_start": 2,
+     "verse_end": 2
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 10:5",
+     "start": 328,
+     "end": 337,
+     "book": "Alma",
+     "chapter": 10,
+     "verse_start": 5,
+     "verse_end": 5
+    }
+   ]
   },
   {
-   "label": "v. 14–15",
+   "label": "v. 12–13",
+   "start": 12,
+   "end": 13,
+   "title": "A definition reached by rejecting a wrong one",
+   "text": "The record puts the false reading as a question, \"is the meaning of the word restoration to take a thing of a natural state and place it in an unnatural state, or to place it in a state opposite to its nature?\", and answers it in four words: \"O, my son, this is not the case.\" Only then does the definition arrive, and it comes as seven matched pairs: \"evil for evil, or carnal for carnal, or devilish for devilish, good for that which is good; righteous for that which is righteous; just for that which is just; merciful for that which is merciful.\" The form of the sentence is the argument, since each pair returns the same term to itself."
+  },
+  {
+   "label": "v. 14",
    "start": 14,
-   "end": 15,
-   "title": "What to do about it",
-   "text": "Be merciful, deal justly, judge righteously, do good continually, and all four are restored to you again. What you send out returns. The word restoration condemns the sinner more fully and justifies him not at all."
+   "end": 14,
+   "title": "Four commands, in a chapter that has had none",
+   "text": "After thirteen verses of definition the register changes without warning: \"see that you are merciful unto your brethren; deal justly, judge righteously, and do good continually.\" Merciful, just, righteous and good are the same four terms verse 13 has just used as the right-hand side of its pairs. The imperatives are therefore not a change of subject but the doctrine turned into instructions, and the record makes the connection only in the verse that follows."
   }
  ],
  "chapter": [
   {
    "n": 1,
    "title": "The chapter is a dispute over a definition",
-   "text": "Alma asks what restoration could possibly mean and answers it by symmetry. The doctrinal correction is carried out as a piece of plain reasoning about a word."
+   "text": "The word \"restore\" and its forms run through the chapter and verse 13 supplies the definition by listing pairs, \"evil for evil, or carnal for carnal, or devilish for devilish—good for that which is good; righteous for that which is righteous; just for that which is just.\" Verse 10 rules out the reading being corrected in six words, \"wickedness never was happiness.\" Verse 15 states the consequence for the argument, \"the word restoration more fully condemneth the sinner, and justifieth him not at all.\" A doctrinal dispute is settled by defining one term and running it symmetrically in both directions."
   },
   {
    "n": 2,
    "title": "Restoration is grounded in justice",
-   "text": "Requisite appears three times in two verses, always with the justice of God. Alma does not argue that God chooses to return like for like; he argues that justice requires it."
+   "text": "Requisite turns up three times across two verses, tied each time to what justice requires. Alma does not argue that God chooses to return like for like; he argues that justice requires it."
   },
   {
    "n": 3,
-   "title": "Desire is counted, not only action",
+   "title": "Desire is counted, and not only action",
    "text": "Verse 3 pairs works with the desires of the heart, and verses 5 and 6 make desire the operative term. A man is raised according to what he wanted."
   },
   {
@@ -247,24 +305,39 @@
  "world_in_front": {
   "applications": [
    {
+    "title": "Watch your desires, not only your conduct",
+    "verse_label": "v. 3",
+    "text": "Alma puts what a man wanted beside what he did, twice over, and makes both of them terms of the restoration. Ask what you have wanted this week that you would not have done, and put it on the same page as what you did."
+   },
+   {
     "title": "Check whether a belief is licensing you",
     "verse_label": "v. 9",
-    "text": "Corianton had used a doctrine to make room for something. Take a belief you hold that happens to permit something you want, and examine that one carefully."
+    "text": "Corianton had used a doctrine to make room for something. Take the belief you find most comfortable and ask what it currently permits you that you would otherwise question."
+   },
+   {
+    "title": "Refuse the reading that would suit you",
+    "verse_label": "v. 10",
+    "text": "The correction is six words long: \"wickedness never was happiness.\" Alma does not argue the point, he blocks it. When a chain of reasoning arrives somewhere you know is false, the fastest repair is to say so and go back for the faulty link."
+   },
+   {
+    "title": "Name the state you are reasoning from",
+    "verse_label": "v. 11",
+    "text": "Alma describes the natural condition plainly, \"in the gall of bitterness and in the bonds of iniquity,\" before he explains what restoration does. Any account of where you are going needs an honest account of where it starts."
    },
    {
     "title": "Ask what the word actually means",
     "verse_label": "v. 12",
-    "text": "Alma settled the question by asking what restoration could mean. When a term is doing heavy work in an argument, define it out loud and see whether the argument survives."
+    "text": "Alma settled the question by defining one term and running it in both directions. When an argument turns on a word, write down what you take it to mean before continuing."
    },
    {
-    "title": "Watch your desires, not only your conduct",
-    "verse_label": "v. 3",
-    "text": "Alma counted the desires of the heart with the works. Ask what you want, apart from what you do, and treat the answer as information."
+    "title": "Do the four things in order",
+    "verse_label": "v. 14",
+    "text": "Be merciful, deal justly, judge righteously, do good continually. The list is short, ordinary, and entirely about other people. Take the one you are worst at and give it a week."
    },
    {
     "title": "Send out what you want back",
     "verse_label": "v. 15",
-    "text": "Mercy, justice, righteous judgment, good. Pick the one you most want restored to you and spend this week sending that one out."
+    "text": "Mercy, justice, righteous judgment. The rule is stated as a mechanism rather than a reward, \"that which ye do send out shall return unto you again.\" Decide what you would want restored, and then look at what you are actually sending."
    }
   ],
   "questions": [
@@ -363,7 +436,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al29-003"
   },
   {
    "id": "al41-003",
@@ -401,7 +474,7 @@
     "w2": 31,
     "quote": "or devilish for devilish"
    },
-   "reason": "the same word in the next chapter, of the state men fall into",
+   "reason": "the same word next chapter, of the fallen state",
    "targets": [
     {
      "ref": "Alma",
@@ -427,7 +500,7 @@
     "w2": 28,
     "quote": "wickedness never was happiness"
    },
-   "reason": "Lehi arguing that without law there is no happiness or misery",
+   "reason": "Lehi arguing that without law comes neither happiness nor misery",
    "targets": [
     {
      "ref": "2 Ne.",
@@ -441,7 +514,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "2ne02-015"
   },
   {
    "id": "al41-006",
@@ -453,7 +526,7 @@
     "w2": 28,
     "quote": "it is requisite that all things should be restored"
    },
-   "reason": "the record’s other use of the word, on doing things in order",
+   "reason": "the word's other use, on doing things in order",
    "targets": [
     {
      "ref": "Mosiah",
@@ -467,7 +540,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos04-010"
+  },
+  {
+   "id": "al41-010",
+   "scope": "BOM",
+   "head": "Hel. 13:38",
+   "anchor": {
+    "verse": 10,
+    "w1": 25,
+    "w2": 28,
+    "quote": "wickedness never was happiness."
+   },
+   "reason": "Samuel charging them with exactly that",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 13,
+     "verse": 38,
+     "w1": 48,
+     "w2": 55,
+     "quote": "ye have sought for happiness in doing iniquity,",
+     "verse_text": "But behold, your days of probation are past; ye have procrastinated the day of your salvation until it is everlastingly too late, and your destruction is made sure; yea, for ye have sought all the days of your lives for that which ye could not obtain; and ye have sought for happiness in doing iniquity, which thing is contrary to the nature of that righteousness which is in our great and Eternal Head.",
+     "markdown": "But behold, your days of probation are past; ye have procrastinated the day of your salvation until it is everlastingly too late, and your destruction is made sure; yea, for ye have sought all the days of your lives for that which ye could not obtain; and **ye have sought for happiness in doing iniquity**, which thing is contrary to the nature of that righteousness which is in our great and Eternal Head.",
+     "span": true
+    }
+   ],
+   "mirror": "hel13-007"
   },
   {
    "id": "al41-007",
@@ -479,7 +578,7 @@
     "w2": 31,
     "quote": "or devilish for devilish"
    },
-   "reason": "the King James Bible’s one use of the word",
+   "reason": "the King James Bible's one use of the word",
    "targets": [
     {
      "ref": "James",
@@ -582,7 +681,8 @@
    "w2": 28,
    "quote": "wickedness never was happiness",
    "entries": [
-    "al41-005"
+    "al41-005",
+    "al41-010"
    ]
   },
   {
@@ -624,7 +724,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "95d1b2929ae1f187"
+  "at": "2026-09-07",
+  "source_sha256": "ee33c7a1e871f895"
  }
 }

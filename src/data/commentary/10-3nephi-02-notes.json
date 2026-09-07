@@ -1,0 +1,859 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "3 Nephi",
+  "book_slug": "3nephi",
+  "chapter": 2,
+  "volume_order": "10",
+  "speakers": [
+   "Mormon, as narrator"
+  ],
+  "audience": "The reader of the abridgment",
+  "location": "The whole land, and the robbers' mountains",
+  "date": "AD 4–19",
+  "unit": "The signs and the robber wars (3 Nephi 1–7)",
+  "principles": [
+   "A wonder losing its force by repetition",
+   "A calendar reset around one night",
+   "A boundary between peoples dissolving under pressure"
+  ],
+  "connections": 13,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The forgetting is gradual",
+   "text": "Verse 1 describes it as becoming less and less astonished, over years rather than at once."
+  },
+  {
+   "n": 2,
+   "title": "A counter-explanation is supplied",
+   "text": "Verse 2 has them credit the signs to men and to the devil's power behind them. Alma 30:16 has Korihor explain the same kind of experience as the effect of a frenzied mind, and 3 Nephi 1:22 has lyings sent forth immediately after the sign was given. This is the third recorded attempt in the space of two books to supply a natural cause.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 30:16",
+     "start": 79,
+     "end": 89,
+     "book": "Alma",
+     "chapter": 30,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "The calendar is reset",
+   "text": "Verse 8 says the Nephites began counting time from the sign. Mosiah 29:44 had started the previous epoch with the reign of the judges, and Mosiah 29:46 dates that year against the departure from Jerusalem as well. This is the third calendar the record has run, and the chapter keeps two of them in view at once for a few verses.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 29:44",
+     "start": 61,
+     "end": 73,
+     "book": "Mosiah",
+     "chapter": 29,
+     "verse_start": 44,
+     "verse_end": 44
+    },
+    {
+     "kind": "scripture",
+     "text": "Mosiah 29:46",
+     "start": 139,
+     "end": 151,
+     "book": "Mosiah",
+     "chapter": 29,
+     "verse_start": 46,
+     "verse_end": 46
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Three reckonings are given side by side",
+   "text": "Verses 5 through 7 count a hundred years from the days of Mosiah, six hundred and nine from the departure out of Jerusalem in 1 Nephi 2:4, and nine from the sign Samuel promised at Helaman 14:2. Three separate epochs are lined up against one year."
+  },
+  {
+   "n": 5,
+   "title": "Nephi the elder is never found",
+   "text": "Verse 9 says he did not return and could nowhere be found in all the land."
+  },
+  {
+   "n": 6,
+   "title": "The robbers force a joint war",
+   "text": "Verses 11 and 12 have Nephites and converted Lamanites arming together for the safety of their lives and their families. Alma 24:17 and 18 had these people bury their weapons and covenant never to take them up; Alma 53:11 to 15 records the first time that covenant nearly broke, and this is the point at which it does.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 24:17",
+     "start": 121,
+     "end": 131,
+     "book": "Alma",
+     "chapter": 24,
+     "verse_start": 17,
+     "verse_end": 17
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 53:11",
+     "start": 211,
+     "end": 221,
+     "book": "Alma",
+     "chapter": 53,
+     "verse_start": 11,
+     "verse_end": 11
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "The line between the peoples closes",
+   "text": "Verses 14 through 16 have the converted Lamanites numbered among the Nephites and called by that name. Alma 23:16 and 17 had the earlier converts take the name Anti-Nephi-Lehies precisely to be distinguished from their brethren; here the distinguishing name is dropped and the two peoples merge into one.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 23:16",
+     "start": 103,
+     "end": 113,
+     "book": "Alma",
+     "chapter": 23,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "term": "Imagining",
+   "verse_label": "v. 2",
+   "text": "Inventing in the mind. The word occurs once in all of scripture, here, of a theory produced to account for signs already seen. Helaman 16:22 used the related verb of the same people before the signs came."
+  },
+  {
+   "term": "Reckon",
+   "verse_label": "v. 8",
+   "text": "Treated at Alma 11:4, of the Nephite system of measures and time. The record uses the verb twice. Verse 8 has a whole people changing the year they count from.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 11:4",
+     "start": 11,
+     "end": 20,
+     "book": "Alma",
+     "chapter": 11,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
+  },
+  {
+   "term": "Carnage",
+   "verse_label": "v. 11",
+   "text": "Widespread slaughter. The record uses the word five times and the King James Bible never. Three of the five are in the book of Mormon's own account of the end, at Mormon 2:8, 4:11, and 5:8."
+  },
+  {
+   "term": "Numbered",
+   "verse_label": "v. 14",
+   "text": "Treated at 2 Nephi 10:18, of Gentiles numbered among the house of Israel. The record uses it forty-four times. Verses 14 and 16 both use it of Lamanites joining the Nephites."
+  },
+  {
+   "term": "Fair",
+   "verse_label": "v. 16",
+   "text": "Light in complexion, and by extension beautiful. The record uses the word twenty-seven times, including 2 Nephi 5:21 of the Lamanites before the cursing. Verse 16 applies it to their young men and daughters."
+  },
+  {
+   "term": "Advantage",
+   "verse_label": "v. 17",
+   "text": "A position of superiority in a contest. It appears ten times in the record, and the King James Bible four. Verses 17 and 18 have it changing hands within two years."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Began to be less and less astonished at a sign or a wonder from heaven",
+   "verse_label": "v. 1",
+   "text": "The mechanism of the forgetting. Nothing is disproved; the response simply wears down by degrees."
+  },
+  {
+   "term": "Imagining up some vain thing in their hearts, that it was wrought by men",
+   "verse_label": "v. 2",
+   "text": "The explanation that lets the memory be discarded. It grants the events and reassigns the cause."
+  },
+  {
+   "term": "They did not believe that there should be any more signs or wonders given",
+   "verse_label": "v. 3",
+   "text": "The position they settle into. Having explained the last one away, they rule out the next."
+  },
+  {
+   "term": "The Nephites began to reckon their time from this period when the sign was given",
+   "verse_label": "v. 8",
+   "text": "A civil calendar rebuilt around the night of the sign. The change outlasts the belief that produced it."
+  },
+  {
+   "term": "Could nowhere be found in all the land",
+   "verse_label": "v. 9",
+   "text": "The second notice of Nephi's disappearance. 3 Nephi 1:3 had said no man knew where he went, and a search is implied here."
+  },
+  {
+   "term": "It became expedient that all the people, both the Nephites and the Lamanites, should take up arms",
+   "verse_label": "v. 11",
+   "text": "The robbers become a threat to everyone. Two nations that had fought each other for centuries arm against a third party."
+  },
+  {
+   "term": "To maintain their rights, and the privileges of their church and of their worship",
+   "verse_label": "v. 12",
+   "text": "The stated grounds for the converted Lamanites joining. Rights, worship, freedom, and liberty are listed alongside the safety of their families."
+  },
+  {
+   "term": "Those Lamanites who had united with the Nephites were numbered among the Nephites",
+   "verse_label": "v. 14",
+   "text": "The administrative merger. Verse 16 completes it by giving them the name."
+  },
+  {
+   "term": "Their curse was taken from them",
+   "verse_label": "v. 15",
+   "text": "The record's own language for the reversal of 2 Nephi 5:21. Verse 15 states it as accomplished and gives no process."
+  },
+  {
+   "term": "They were numbered among the Nephites, and were called Nephites",
+   "verse_label": "v. 16",
+   "text": "A national boundary closing inside one verse. 4 Nephi 1:17 will report every such name gone."
+  },
+  {
+   "term": "The sword of destruction did hang over them",
+   "verse_label": "v. 19",
+   "text": "The chapter's closing image, with the cause named as their iniquity. Helaman 13:5 had used the sword of justice the same way."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–3",
+   "start": 1,
+   "end": 3,
+   "title": "Disbelief described as work, not as drift",
+   "text": "The chapter opens on a sequence of stages rather than a state. They \"began to forget those signs and wonders which they had heard,\" then \"began to be less and less astonished at a sign or a wonder from heaven,\" and then verse 2 supplies the active step: \"Imagining up some vain thing in their hearts, that it was wrought by men and by the power of the devil.\" The phrase imagining up makes the alternative explanation something built rather than something arrived at. By verse 3 the position has hardened into a doctrine, \"they did not believe that there should be any more signs or wonders given.\""
+  },
+  {
+   "label": "v. 4",
+   "start": 4,
+   "end": 4,
+   "title": "Four years in four identical clauses",
+   "text": "The record disposes of four years in one verse and gives them no content at all: \"thus did pass away the ninety and sixth year; and also the ninety and seventh year; and also the ninety and eighth year; and also the ninety and ninth year.\" The construction repeats without variation, which is itself the report. Nothing happened worth naming, and the writer says so by making the sentence do nothing four times."
+  },
+  {
+   "label": "v. 10–19",
+   "start": 10,
+   "end": 19,
+   "title": "A chapter built mostly of its own frame",
+   "text": "Thus and passed each stand eight times in these nineteen verses, and the year-closing formula lands at verses 1, 4, 10, 16, 18 and 19. Six years are shut in the same words. What sits inside the frame is thin by comparison: a note that preaching had no effect, a war, a union of peoples, and a threat. The chapter's structure is a row of year-boundaries with the events fitted into the gaps between them."
+  },
+  {
+   "label": "v. 12",
+   "start": 12,
+   "end": 12,
+   "title": "The central division suspended by a common enemy",
+   "text": "The war produces an alliance the volume has spent forty chapters making unlikely: \"all the Lamanites who had become converted unto the Lord did unite with their brethren, the Nephites.\" The reason given is not doctrinal but practical, that they \"were compelled, for the safety of their lives and their women and their children, to take up arms.\" The record states the motive plainly and does not present the union as a conversion."
+  },
+  {
+   "label": "v. 14–16",
+   "start": 14,
+   "end": 16,
+   "title": "Three verses on becoming Nephites",
+   "text": "The change of side is reported as three separate things in three verses. Verse 14 is administrative: they \"were numbered among the Nephites.\" Verse 15 is physical: \"their curse was taken from them, and their skin became white like unto the Nephites.\" Verse 16 is nominal: they \"were called Nephites.\" The phrase their curse was taken occurs in this verse and nowhere else in the volume, and of the sixteen verses that mention skin, most are about armour or nakedness in battle. The chapter's account of the change runs from paperwork through body to name in the space of three sentences."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "A miracle is undone by ordinary time",
+   "text": "Verse 1 has no argument and no new evidence, only years passing and astonishment fading. Mormon presents habituation as the whole mechanism."
+  },
+  {
+   "n": 2,
+   "title": "The theory arrives after the fact",
+   "text": "Verse 2 explains the signs as the work of men and the devil. The account is built to fit events already witnessed."
+  },
+  {
+   "n": 3,
+   "title": "The calendar keeps what the belief lost",
+   "text": "Verse 8 has a people dating their years from a birth they have stopped believing in. The institution outlives the conviction."
+  },
+  {
+   "n": 4,
+   "title": "Three time systems are stacked in three verses",
+   "text": "From Mosiah, from Lehi, from the sign. Mormon is orienting a reader who may hold any of them."
+  },
+  {
+   "n": 5,
+   "title": "A common enemy erases an old one",
+   "text": "Verses 11 and 12 have Nephites and Lamanites arming together. The Gadianton bands accomplish what twenty chapters of war never did."
+  },
+  {
+   "n": 6,
+   "title": "The converted Lamanites give reasons beyond survival",
+   "text": "Verse 12 lists rights, church, worship, freedom, and liberty alongside the safety of their families."
+  },
+  {
+   "n": 7,
+   "title": "The curse is reported as removed in half a verse",
+   "text": "Verse 15 states it and moves on. The record gives no process and spends no further words on it."
+  },
+  {
+   "n": 8,
+   "title": "The chapter ends worse than it began",
+   "text": "Verse 19 has the sword hanging over them, and the cause given is their own iniquity rather than the strength of the robbers."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Watch for the slow version of losing something",
+    "verse_label": "v. 1",
+    "text": "They became less and less astonished. Erosion does not feel like a decision, which is why it works."
+   },
+   {
+    "title": "Notice the explanation that arrives afterward",
+    "verse_label": "v. 2",
+    "text": "The theory came once the signs were undeniable. An account built to dispose of evidence is doing a different job from one built to understand it."
+   },
+   {
+    "title": "Keep more than one clock",
+    "verse_label": "v. 5–7",
+    "text": "The chapter dates one moment three ways at once, counting from Mosiah, from the departure out of Jerusalem, and from the sign. Different reference points measure different things, and keeping several makes it harder to lose your bearings."
+   },
+   {
+    "title": "Keep the practice when the feeling goes",
+    "verse_label": "v. 8",
+    "text": "They kept counting years from the sign long after they stopped believing it. Structures outlast moods, and that is sometimes what saves them."
+   },
+   {
+    "title": "Some people just go missing from the record",
+    "verse_label": "v. 9",
+    "text": "Nephi, who had charge of the records, simply never came back, and the search for him turned up nothing. Not every departure comes with an explanation, and an account is worth more for saying so than for supplying one."
+   },
+   {
+    "title": "Let the shared threat make you allies",
+    "verse_label": "v. 11",
+    "text": "Two peoples with centuries of grievance armed together. A real common danger is worth more than a settled argument."
+   },
+   {
+    "title": "Count what the alliance costs the ally",
+    "verse_label": "v. 12",
+    "text": "The converted Lamanites were compelled to take up arms for the safety of their own lives and their families. When people come over to your side under pressure, notice what they gave up to do it and not only what they add."
+   },
+   {
+    "title": "Contentions hand the advantage back",
+    "verse_label": "v. 17–18",
+    "text": "The Nephites drove the robbers into the mountains one year and lost ground to them the next, and the reason given is their own wickedness and dissensions. When gains reverse, look first at what changed on your side."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What am I less astonished by than I used to be?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What have I explained away because keeping it would have cost me something?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What have I decided in advance not to expect?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "What do I still do out of a conviction I no longer feel?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "What would I take up arms for, stated plainly?"
+   },
+   {
+    "verse_label": "v. 16",
+    "start": 16,
+    "end": 16,
+    "text": "What boundary in my life has quietly closed?"
+   },
+   {
+    "verse_label": "v. 19",
+    "start": 19,
+    "end": 19,
+    "text": "What is hanging over me because of my own choices?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "3ne02-001",
+   "scope": "BOOK",
+   "head": "3 Ne. 1:26",
+   "anchor": {
+    "verse": 1,
+    "w1": 17,
+    "w2": 29,
+    "quote": "the people began to forget those signs and wonders which they had heard"
+   },
+   "reason": "the year that closed in glad tidings from those signs",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 1,
+     "verse": 26,
+     "w1": 11,
+     "w2": 25,
+     "quote": "bringing glad tidings unto the people because of the signs which did come to pass,",
+     "verse_text": "And thus the ninety and second year did pass away, bringing glad tidings unto the people because of the signs which did come to pass, according to the words of the prophecy of all the holy prophets.",
+     "markdown": "And thus the ninety and second year did pass away, **bringing glad tidings unto the people because of the signs which did come to pass**, according to the words of the prophecy of all the holy prophets.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne01-001"
+  },
+  {
+   "id": "3ne02-002",
+   "scope": "BOOK",
+   "head": "3 Ne. 1:22",
+   "anchor": {
+    "verse": 2,
+    "w1": 33,
+    "w2": 44,
+    "quote": "thus did Satan get possession of the hearts of the people again"
+   },
+   "reason": "the first campaign of lyings, which the more part resisted",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 1,
+     "verse": 22,
+     "w1": 45,
+     "w2": 57,
+     "quote": "notwithstanding these lyings and deceivings the more part of the people did believe,",
+     "verse_text": "And it came to pass that from this time forth there began to be lyings sent forth among the people, by Satan, to harden their hearts, to the intent that they might not believe in those signs and wonders which they had seen; but notwithstanding these lyings and deceivings the more part of the people did believe, and were converted unto the Lord.",
+     "markdown": "And it came to pass that from this time forth there began to be lyings sent forth among the people, by Satan, to harden their hearts, to the intent that they might not believe in those signs and wonders which they had seen; but **notwithstanding these lyings and deceivings the more part of the people did believe**, and were converted unto the Lord.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne01-002"
+  },
+  {
+   "id": "3ne02-003",
+   "scope": "BOOK",
+   "head": "3 Ne. 1:3",
+   "anchor": {
+    "verse": 9,
+    "w1": 16,
+    "w2": 32,
+    "quote": "did not return to the land of Zarahemla, and could nowhere be found in all the land"
+   },
+   "reason": "the departure itself, reported without a destination",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 1,
+     "verse": 3,
+     "w1": 9,
+     "w2": 14,
+     "quote": "whither he went, no man knoweth;",
+     "verse_text": "Then he departed out of the land, and whither he went, no man knoweth; and his son Nephi did keep the records in his stead, yea, the record of this people.",
+     "markdown": "Then he departed out of the land, and **whither he went, no man knoweth**; and his son Nephi did keep the records in his stead, yea, the record of this people.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne01-011"
+  },
+  {
+   "id": "3ne02-004",
+   "scope": "BOOK",
+   "head": "3 Ne. 6:14",
+   "anchor": {
+    "verse": 16,
+    "w1": 12,
+    "w2": 17,
+    "quote": "they were numbered among the Nephites"
+   },
+   "reason": "the few Lamanite converts who held when the church broke",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 6,
+     "verse": 14,
+     "w1": 37,
+     "w2": 52,
+     "quote": "save it were among a few of the Lamanites who were converted unto the true faith;",
+     "verse_text": "And thus there became a great inequality in all the land, insomuch that the church began to be broken up; yea, insomuch that in the thirtieth year the church was broken up in all the land save it were among a few of the Lamanites who were converted unto the true faith; and they would not depart from it, for they were firm, and steadfast, and immovable, willing with all diligence to keep the commandments of the Lord.",
+     "markdown": "And thus there became a great inequality in all the land, insomuch that the church began to be broken up; yea, insomuch that in the thirtieth year the church was broken up in all the land **save it were among a few of the Lamanites who were converted unto the true faith**; and they would not depart from it, for they were firm, and steadfast, and immovable, willing with all diligence to keep the commandments of the Lord.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne06-001"
+  },
+  {
+   "id": "3ne02-012",
+   "scope": "BOOK",
+   "head": "3 Ne. 3:14",
+   "anchor": {
+    "verse": 12,
+    "w1": 2,
+    "w2": 16,
+    "quote": "all the Lamanites who had become converted unto the Lord did unite with their brethren,"
+   },
+   "reason": "the two peoples counted as one army",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 3,
+     "verse": 14,
+     "w1": 24,
+     "w2": 42,
+     "quote": "armies, both of the Nephites and of the Lamanites, or of all them who were numbered among the Nephites,",
+     "verse_text": "And he caused that fortifications should be built round about them, and the strength thereof should be exceedingly great. And he caused that armies, both of the Nephites and of the Lamanites, or of all them who were numbered among the Nephites, should be placed as guards round about to watch them, and to guard them from the robbers day and night.",
+     "markdown": "And he caused that fortifications should be built round about them, and the strength thereof should be exceedingly great. And he caused that **armies, both of the Nephites and of the Lamanites, or of all them who were numbered among the Nephites**, should be placed as guards round about to watch them, and to guard them from the robbers day and night.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne03-003"
+  },
+  {
+   "id": "3ne02-013",
+   "scope": "BOOK",
+   "head": "3 Ne. 5:1",
+   "anchor": {
+    "verse": 1,
+    "w1": 62,
+    "w2": 71,
+    "quote": "began to disbelieve all which they had heard and seen"
+   },
+   "reason": "the doubting gone entirely, a few years on",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 5,
+     "verse": 1,
+     "w1": 4,
+     "w2": 22,
+     "quote": "there was not a living soul among all the people of the Nephites who did doubt in the least",
+     "verse_text": "And now behold, there was not a living soul among all the people of the Nephites who did doubt in the least the words of all the holy prophets who had spoken; for they knew that it must needs be that they must be fulfilled.",
+     "markdown": "And now behold, **there was not a living soul among all the people of the Nephites who did doubt in the least** the words of all the holy prophets who had spoken; for they knew that it must needs be that they must be fulfilled.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne05-002"
+  },
+  {
+   "id": "3ne02-005",
+   "scope": "BOM",
+   "head": "Alma 53:13",
+   "anchor": {
+    "verse": 12,
+    "w1": 20,
+    "w2": 37,
+    "quote": "were compelled, for the safety of their lives and their women and their children, to take up arms"
+   },
+   "reason": "the earlier generation moved by the same compassion, and stopped",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 53,
+     "verse": 13,
+     "w1": 24,
+     "w2": 41,
+     "quote": "they were moved with compassion and were desirous to take up arms in the defence of their country.",
+     "verse_text": "But it came to pass that when they saw the danger, and the many afflictions and tribulations which the Nephites bore for them, they were moved with compassion and were desirous to take up arms in the defence of their country.",
+     "markdown": "But it came to pass that when they saw the danger, and the many afflictions and tribulations which the Nephites bore for them, **they were moved with compassion and were desirous to take up arms in the defence of their country**.",
+     "span": true
+    }
+   ],
+   "mirror": "al53-011"
+  },
+  {
+   "id": "3ne02-006",
+   "scope": "BOM",
+   "head": "2 Ne. 5:21",
+   "anchor": {
+    "verse": 15,
+    "w1": 2,
+    "w2": 7,
+    "quote": "their curse was taken from them"
+   },
+   "reason": "the cursing as the record first described it",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 5,
+     "verse": 21,
+     "w1": 2,
+     "w2": 15,
+     "quote": "he had caused the cursing to come upon them, yea, even a sore cursing,",
+     "verse_text": "And he had caused the cursing to come upon them, yea, even a sore cursing, because of their iniquity. For behold, they had hardened their hearts against him, that they had become like unto a flint; wherefore, as they were white, and exceedingly fair and delightsome, that they might not be enticing unto my people the Lord God did cause a skin of blackness to come upon them.",
+     "markdown": "And **he had caused the cursing to come upon them, yea, even a sore cursing**, because of their iniquity. For behold, they had hardened their hearts against him, that they had become like unto a flint; wherefore, as they were white, and exceedingly fair and delightsome, that they might not be enticing unto my people the Lord God did cause a skin of blackness to come upon them.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne05-019"
+  },
+  {
+   "id": "3ne02-007",
+   "scope": "BOM",
+   "head": "4 Ne. 1:17",
+   "anchor": {
+    "verse": 16,
+    "w1": 19,
+    "w2": 21,
+    "quote": "were called Nephites"
+   },
+   "reason": "every such name gone, about two hundred years later",
+   "targets": [
+    {
+     "ref": "4 Ne.",
+     "chapter": 1,
+     "verse": 17,
+     "w1": 7,
+     "w2": 15,
+     "quote": "neither were there Lamanites, nor any manner of -ites;",
+     "verse_text": "There were no robbers, nor murderers, neither were there Lamanites, nor any manner of -ites; but they were in one, the children of Christ, and heirs to the kingdom of God.",
+     "markdown": "There were no robbers, nor murderers, **neither were there Lamanites, nor any manner of -ites**; but they were in one, the children of Christ, and heirs to the kingdom of God.",
+     "span": true
+    }
+   ],
+   "mirror": "4ne01-004"
+  },
+  {
+   "id": "3ne02-008",
+   "scope": "BOM",
+   "head": "Mosiah 29:44",
+   "anchor": {
+    "verse": 5,
+    "w1": 3,
+    "w2": 13,
+    "quote": "an hundred years had passed away since the days of Mosiah"
+   },
+   "reason": "the reign of judges beginning, which this verse counts from",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 29,
+     "verse": 44,
+     "w1": 2,
+     "w2": 14,
+     "quote": "thus commenced the reign of the judges throughout all the land of Zarahemla,",
+     "verse_text": "And thus commenced the reign of the judges throughout all the land of Zarahemla, among all the people who were called the Nephites; and Alma was the first and chief judge.",
+     "markdown": "And **thus commenced the reign of the judges throughout all the land of Zarahemla**, among all the people who were called the Nephites; and Alma was the first and chief judge.",
+     "span": true
+    }
+   ],
+   "mirror": "mos29-032"
+  },
+  {
+   "id": "3ne02-011",
+   "scope": "BOM",
+   "head": "Hel. 16:16",
+   "anchor": {
+    "verse": 2,
+    "w1": 9,
+    "w2": 21,
+    "quote": "that it was wrought by men and by the power of the devil,"
+   },
+   "reason": "the same argument before the signs came",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 16,
+     "verse": 16,
+     "w1": 1,
+     "w2": 10,
+     "quote": "Some things they may have guessed right, among so many;",
+     "verse_text": "Some things they may have guessed right, among so many; but behold, we know that all these great and marvelous works cannot come to pass, of which has been spoken.",
+     "markdown": "**Some things they may have guessed right, among so many**; but behold, we know that all these great and marvelous works cannot come to pass, of which has been spoken.",
+     "span": true
+    }
+   ],
+   "mirror": "hel16-007"
+  },
+  {
+   "id": "3ne02-009",
+   "scope": "SW",
+   "head": "Luke 16:31",
+   "anchor": {
+    "verse": 3,
+    "w1": 18,
+    "w2": 31,
+    "quote": "they did not believe that there should be any more signs or wonders given"
+   },
+   "reason": "the same conclusion, about a man risen from the dead",
+   "targets": [
+    {
+     "ref": "Luke",
+     "chapter": 16,
+     "verse": 31,
+     "w1": 14,
+     "w2": 24,
+     "quote": "neither will they be persuaded, though one rose from the dead.",
+     "verse_text": "And he said unto him, If they hear not Moses and the prophets, neither will they be persuaded, though one rose from the dead.",
+     "markdown": "And he said unto him, If they hear not Moses and the prophets, **neither will they be persuaded, though one rose from the dead**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne02-010",
+   "scope": "SW",
+   "head": "Matt. 16:4",
+   "anchor": {
+    "verse": 1,
+    "w1": 31,
+    "w2": 45,
+    "quote": "began to be less and less astonished at a sign or a wonder from heaven"
+   },
+   "reason": "the generation that sought a sign, and its answer",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 16,
+     "verse": 4,
+     "w1": 1,
+     "w2": 9,
+     "quote": "A wicked and adulterous generation seeketh after a sign;",
+     "verse_text": "A wicked and adulterous generation seeketh after a sign; and there shall no sign be given unto it, but the sign of the prophet Jonas. And he left them, and departed.",
+     "markdown": "**A wicked and adulterous generation seeketh after a sign**; and there shall no sign be given unto it, but the sign of the prophet Jonas. And he left them, and departed.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 17,
+   "w2": 29,
+   "quote": "the people began to forget those signs and wonders which they had heard",
+   "entries": [
+    "3ne02-001"
+   ]
+  },
+  {
+   "verse": 1,
+   "w1": 31,
+   "w2": 45,
+   "quote": "began to be less and less astonished at a sign or a wonder from heaven",
+   "entries": [
+    "3ne02-010"
+   ]
+  },
+  {
+   "verse": 1,
+   "w1": 62,
+   "w2": 71,
+   "quote": "began to disbelieve all which they had heard and seen",
+   "entries": [
+    "3ne02-013"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 9,
+   "w2": 21,
+   "quote": "that it was wrought by men and by the power of the devil,",
+   "entries": [
+    "3ne02-011"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 33,
+   "w2": 44,
+   "quote": "thus did Satan get possession of the hearts of the people again",
+   "entries": [
+    "3ne02-002"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 18,
+   "w2": 31,
+   "quote": "they did not believe that there should be any more signs or wonders given",
+   "entries": [
+    "3ne02-009"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 3,
+   "w2": 13,
+   "quote": "an hundred years had passed away since the days of Mosiah",
+   "entries": [
+    "3ne02-008"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 16,
+   "w2": 32,
+   "quote": "did not return to the land of Zarahemla, and could nowhere be found in all the land",
+   "entries": [
+    "3ne02-003"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 2,
+   "w2": 16,
+   "quote": "all the Lamanites who had become converted unto the Lord did unite with their brethren,",
+   "entries": [
+    "3ne02-012"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 20,
+   "w2": 37,
+   "quote": "were compelled, for the safety of their lives and their women and their children, to take up arms",
+   "entries": [
+    "3ne02-005"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 2,
+   "w2": 7,
+   "quote": "their curse was taken from them",
+   "entries": [
+    "3ne02-006"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 12,
+   "w2": 17,
+   "quote": "they were numbered among the Nephites",
+   "entries": [
+    "3ne02-004"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 19,
+   "w2": 21,
+   "quote": "were called Nephites",
+   "entries": [
+    "3ne02-007"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "5283a94216df3e35"
+ }
+}

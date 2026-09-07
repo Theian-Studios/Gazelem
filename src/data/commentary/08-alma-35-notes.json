@@ -15,9 +15,9 @@
   "principles": [
    "A word that costs someone money",
    "Receiving refugees at a price",
-   ""
+   "A father gathering his sons"
   ],
-  "connections": 9,
+  "connections": 10,
   "initial": true
  },
  "world_behind": [
@@ -61,22 +61,58 @@
   {
    "term": "Craft",
    "verse_label": "v. 3",
-   "text": "A trade, and the income from it. The record uses the word twice and the King James Bible six times; Acts 19 has a silversmith telling his guild that by this craft they have their wealth, just before a riot against Paul. Mormon uses it for the same kind of objection."
+   "text": "A trade, and the income from it. The record uses the word twice and the King James Bible six times; Acts 19:25 has a silversmith telling his guild that by this craft they have their wealth, just before a riot against Paul. Mormon uses it for the same kind of objection.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Acts 19:25",
+     "start": 100,
+     "end": 110,
+     "book": "Acts",
+     "chapter": 19,
+     "verse_start": 25,
+     "verse_end": 25
+    }
+   ]
   },
   {
    "term": "Privily",
    "verse_label": "v. 5",
-   "text": "Secretly, without being noticed. The record uses it four times and the King James Bible fifteen. Here the leaders learn the people's minds without letting the people learn theirs, which turns a consultation into an intelligence operation."
+   "text": "Secretly, without being noticed. Treated at Alma 14:3. It appears four times in the record, and the King James Bible fifteen. Here the leaders learn the people's minds without letting the people learn theirs, which turns a consultation into an intelligence operation.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 14:3",
+     "start": 44,
+     "end": 53,
+     "book": "Alma",
+     "chapter": 14,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
   },
   {
    "term": "Threatenings",
    "verse_label": "v. 9",
-   "text": "Threats, stated to intimidate. The record uses it ten times and the King James Bible twice, one of which is Saul breathing out threatenings against the disciples. Mormon uses the same verb, and the people of Ammon are unmoved by it."
+   "text": "Threats, stated to intimidate. Treated at Mosiah 19:3. The record uses it ten times and the King James Bible twice, one of which is Saul breathing out threatenings against the disciples. Mormon uses the same verb, and the people of Ammon are unmoved by it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 19:3",
+     "start": 42,
+     "end": 53,
+     "book": "Mosiah",
+     "chapter": 19,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
   },
   {
    "term": "Betwixt",
    "verse_label": "v. 13",
-   "text": "Between. The record uses it five times and the King James Bible sixteen. Mormon uses it to date the start of the war in the eighteenth year, and to say that the fighting begins in the land the people of Ammon just vacated."
+   "text": "Between. The word turns up five times here, and the King James Bible sixteen. Mormon uses it to date the start of the war in the eighteenth year, and to say that the fighting begins in the land the people of Ammon just vacated."
   },
   {
    "term": "Strictness",
@@ -86,7 +122,7 @@
   {
    "term": "Charge",
    "verse_label": "v. 16",
-   "text": "An instruction laid on someone as a duty. The record uses it ten times and the King James Bible a hundred and two. Benjamin gave Mosiah charge over the kingdom; Alma gives each son his own, separately, and Alma 36 through 42 are the text of them."
+   "text": "An instruction laid on someone as a duty. Treated at 2 Nephi 20:6. Its count is ten times in this book, while the King James Bible a hundred and two. Benjamin gave Mosiah charge over the kingdom; Alma gives each son his own, separately, and Alma 36 through 42 are the text of them."
   }
  ],
  "phrases": [
@@ -146,50 +182,74 @@
    "label": "v. 1–2",
    "start": 1,
    "end": 2,
-   "title": "Withdrawal",
-   "text": "Amulek finishes and the company withdraws from the multitude into Jershon. The rest of the brethren finish preaching to the Zoramites and follow."
+   "title": "One place name carries a third of its scriptural uses",
+   "text": "\"The land of Jershon\" stands at verses 1, 2, 6, 13 and 14, and scripture has the phrase fifteen times in all. Both opening verses end by arriving there: first Amulek and those with him, then \"the rest of the brethren.\" Before the chapter has a conflict it has a destination, and everyone in it is either going to Jershon or being sent away from somewhere else."
   },
   {
-   "label": "v. 3–7",
-   "start": 3,
-   "end": 7,
-   "title": "The poll and the expulsion",
-   "text": "The popular part of the Zoramites is angry because the word destroys their craft. Their rulers, priests, and teachers gather the people, conceal their own aims, and learn the people's minds secretly. Everyone in favor is cast out, and there are many. Alma and his brethren minister to them in Jershon."
+   "label": "v. 4–6",
+   "start": 4,
+   "end": 6,
+   "title": "An assembly is called and no decision comes out of it",
+   "text": "The Zoramites \"sent and gathered together throughout all the land all the people, and consulted with them\" — the shape of a public meeting, with the leaders' own aim withheld from the room. What the process produces is not a verdict but a roll: \"those who were in favor of the words which had been spoken by Alma and his brethren were cast out of the land; and they were many.\" The record gives the machinery of consultation being used to take a census of dissent."
   },
   {
-   "label": "v. 8–9",
-   "start": 8,
+   "label": "v. 9",
+   "start": 9,
    "end": 9,
-   "title": "The threat, and the reception",
-   "text": "The Zoramite chief ruler demands the people of Ammon expel the refugees and breathes out threatenings. They are unafraid, keep them, and nourish, clothe, grant land, and minister according to their wants."
+   "title": "A threat is answered with an inventory",
+   "text": "Against the Zoramite ruler's demand, the people of Ammon \"did not fear their words,\" and what follows is four verbs rather than an argument: they nourished them, clothed them, gave them lands for their inheritance, and administered to them \"according to their wants.\" The record declines to report anything the people of Ammon said in reply."
   },
   {
-   "label": "v. 10–12",
-   "start": 10,
-   "end": 12,
-   "title": "War",
-   "text": "The Zoramites are angered and go to the Lamanites to stir them up. Both prepare for war against the people of Ammon and the Nephites. The seventeenth year of the judges ends."
-  },
-  {
-   "label": "v. 13–14",
+   "label": "v. 13",
    "start": 13,
+   "end": 13,
+   "title": "The people who will not fight move house for a battlefield",
+   "text": "They depart Jershon and \"gave place in the land of Jershon for the armies of the Nephites.\" That phrase appears three times in scripture, the others at Judges 20:36 and Galatians 2:5. Their pacifism costs them the land they were given in Alma 27, and the record states the transaction without comment before closing the year."
+  },
+  {
+   "label": "v. 14",
+   "start": 14,
    "end": 14,
-   "title": "Jershon vacated",
-   "text": "The people of Ammon move to Melek and give the land over to the Nephite armies. War begins in the eighteenth year. Alma, Ammon, their brethren, and Alma's two sons return to Zarahemla, having brought many Zoramites to repentance; those converts now hold land in Jershon and have taken up arms."
+   "title": "The verbs change tense inside the verse",
+   "text": "The converts \"were brought to repentance\" and \"were driven out of their land,\" and then the sentence moves to the present: \"they have lands for their inheritance in the land of Jershon, and they have taken up arms to defend themselves.\" The record does not say whose present that is, and the ground in question was vacated one verse earlier."
   },
   {
    "label": "v. 15–16",
    "start": 15,
    "end": 16,
-   "title": "Alma's grief, and the charges",
-   "text": "He is grieved for the iniquity, the wars, the bloodsheds, and the contentions, and for a people growing hard and offended at the strictness of the word. He gathers his sons and gives each his charge separately, and the record of those charges follows."
+   "title": "The war chapter ends by naming a document",
+   "text": "Alma's grief is given as the cause of what comes next: \"Therefore, he caused that his sons should be gathered together, that he might give unto them every one his charge, separately.\" Then the source: \"we have an account of his commandments, which he gave unto them according to his own record,\" a phrase used at Alma 5:2 and nowhere else in scripture. Seven chapters of counsel follow, and the record has told the reader where they came from before it prints a word of them.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 5:2",
+     "start": 313,
+     "end": 321,
+     "book": "Alma",
+     "chapter": 5,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
   }
  ],
  "chapter": [
   {
    "n": 1,
    "title": "The mission succeeded and produced a refugee crisis",
-   "text": "Many believed, and all of them lost their homes. Mormon reports the conversion count and the expulsion in the same sentence."
+   "text": "Verse 6 puts both facts together: those \"in favor of the words which had been spoken by Alma and his brethren were cast out of the land; and they were many.\" The count and the eviction share a clause. Verse 9 then reports the receiving side, the people of Ammon, who \"did receive all the poor of the Zoramites that came over unto them,\" and Alma 43:4 records the military consequence, that \"the Zoramites became Lamanites\" and marched on Jershon.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 43:4",
+     "start": 341,
+     "end": 350,
+     "book": "Alma",
+     "chapter": 43,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
   },
   {
    "n": 2,
@@ -199,7 +259,7 @@
   {
    "n": 3,
    "title": "The consultation was a screening",
-   "text": "Leaders who hid their own intentions asked everyone else theirs. Mormon describes a process that looks participatory and functions as a purge."
+   "text": "Verse 4 describes a general assembly, \"they sent and gathered together throughout all the land all the people, and consulted with them.\" Verse 5 supplies what the leaders withheld, \"their rulers and their priests and their teachers did not let the people know concerning their desires; therefore they found out privily the minds of all the people.\" Verse 6 gives the outcome. The record thus reports a consultation whose purpose was identification, and the sequence, gather, conceal, sort, expel, occupies three verses."
   },
   {
    "n": 4,
@@ -230,24 +290,44 @@
  "world_in_front": {
   "applications": [
    {
-    "title": "Look for the money behind the objection",
-    "verse_label": "v. 3",
-    "text": "The Zoramite leaders were angry because the preaching cost them income. When someone resists an idea hard, ask what it would cost them if they accepted it."
+    "title": "Watch what a message costs the people who take it",
+    "verse_label": "v. 3, 6",
+    "text": "The Zoramite leaders were angry \"because it did destroy their craft,\" and those who agreed with the preaching \"were cast out of the land; and they were many.\" Before you press an argument, know what it will cost the person who accepts it."
    },
    {
-    "title": "Say what you want before you ask what they want",
-    "verse_label": "v. 5",
-    "text": "The leaders concealed their aims and collected everyone else's. When you are gathering opinions, put your own position on the table first."
+    "title": "Notice a consultation designed to identify people",
+    "verse_label": "v. 4–6",
+    "text": "The leaders gathered everyone and asked their minds, having first concealed their own, \"therefore they found out privily the minds of all the people.\" A process that looks participatory can be an instrument for sorting. Ask what will be done with the answers."
    },
    {
-    "title": "Receive people who are costing you something",
-    "verse_label": "v. 9",
-    "text": "The people of Ammon took in refugees while being threatened with war. When helping someone would make your own position worse, that is the moment the help counts."
+    "title": "Receive the people the decision displaced",
+    "verse_label": "v. 7, 9",
+    "text": "The people of Ammon \"did receive all the poor of the Zoramites that came over unto them; and they did nourish them, and did clothe them, and did give unto them lands for their inheritance.\" Four verbs and all of them material."
    },
    {
-    "title": "Give the charge separately",
+    "title": "Refuse the demand to hand people over",
+    "verse_label": "v. 8–9",
+    "text": "The Zoramite ruler asked that the refugees be cast out and \"breathed out many threatenings against them.\" The record says simply that \"the people of Ammon did not fear their words; therefore they did not cast them out.\""
+   },
+   {
+    "title": "Expect the generosity to have a bill",
+    "verse_label": "v. 13–14",
+    "text": "Sheltering the refugees moved the people of Ammon out of Jershon and brought the Nephite armies in, and Alma 43 opens with the war that followed. Doing the right thing here has a stated, traceable cost in the next chapter."
+   },
+   {
+    "title": "Say what your work produced without exaggerating it",
+    "verse_label": "v. 14",
+    "text": "The summary is careful, \"as many as were brought to repentance were driven out of their land.\" The result is stated with its consequence attached, and neither half is dropped."
+   },
+   {
+    "title": "Report the grief rather than the argument",
+    "verse_label": "v. 15",
+    "text": "Alma's sorrow is given a cause and it is not the opposition, \"because of the iniquity of the people.\" The chapter has him distressed about what people are doing to themselves rather than about what they did to him."
+   },
+   {
+    "title": "Answer a family problem with a conversation",
     "verse_label": "v. 16",
-    "text": "Alma spoke to each son alone instead of lecturing all three. When you have something important to say to several people, work out what each of them specifically needs to hear."
+    "text": "The chapter ends with Alma gathering his sons \"that he might give unto them every one his charge, separately,\" which is what Alma 36 through 42 consists of. Sorrow about a whole people is answered by three individual conversations."
    }
   ],
   "questions": [
@@ -320,7 +400,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al32-010"
   },
   {
    "id": "al35-002",
@@ -346,7 +426,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al27-013"
   },
   {
    "id": "al35-003",
@@ -401,6 +481,32 @@
    "mirror": "al36-001"
   },
   {
+   "id": "al35-010",
+   "scope": "BOOK",
+   "head": "Alma 54:19",
+   "anchor": {
+    "verse": 9,
+    "w1": 2,
+    "w2": 8,
+    "quote": "he breathed out many threatenings against them."
+   },
+   "reason": "the same charge thrown back at Moroni",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 54,
+     "verse": 19,
+     "w1": 2,
+     "w2": 7,
+     "quote": "ye have breathed out many threatenings",
+     "verse_text": "Behold, ye have breathed out many threatenings against me and my people; but behold, we fear not your threatenings.",
+     "markdown": "Behold, **ye have breathed out many threatenings** against me and my people; but behold, we fear not your threatenings.",
+     "span": true
+    }
+   ],
+   "mirror": "al54-004"
+  },
+  {
    "id": "al35-005",
    "scope": "BOM",
    "head": "Jacob 2:35",
@@ -410,7 +516,7 @@
     "w2": 70,
     "quote": "the strictness of the word"
    },
-   "reason": "the record’s other use, of the same word cutting deeper",
+   "reason": "the record's other use, of the same word cutting deeper",
    "targets": [
     {
      "ref": "Jacob",
@@ -424,7 +530,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "jac02-016"
   },
   {
    "id": "al35-006",
@@ -450,7 +556,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos01-011"
   },
   {
    "id": "al35-007",
@@ -563,8 +669,9 @@
    "verse": 9,
    "w1": 2,
    "w2": 8,
-   "quote": "he breathed out many threatenings against them",
+   "quote": "he breathed out many threatenings against them.",
    "entries": [
+    "al35-010",
     "al35-008"
    ]
   },
@@ -607,7 +714,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "b6bd78f00a0fa42e"
+  "at": "2026-09-07",
+  "source_sha256": "7bb7050b5793a4eb"
  }
 }

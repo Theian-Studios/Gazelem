@@ -1,0 +1,691 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "3 Nephi",
+  "book_slug": "3nephi",
+  "chapter": 29,
+  "volume_order": "10",
+  "speakers": [
+   "Mormon"
+  ],
+  "audience": "The Gentile reader of the record",
+  "location": "Written from Mormon's own day",
+  "date": "Fourth century AD",
+  "unit": "Mormon speaks to the reader (3 Nephi 29–30)",
+  "principles": [
+   "The arrival of a book read as a covenant sign",
+   "Four warnings against denying what God still does",
+   "A caution against mocking the Jews"
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The audience changes",
+   "text": "After 3 Nephi 28 the address turns to the reader, and verse 1 speaks to whoever receives these sayings."
+  },
+  {
+   "n": 2,
+   "title": "The sign is the same one as 3 Nephi 21:2",
+   "text": "Verse 1 makes the arrival of the record among the Gentiles the marker."
+  },
+  {
+   "n": 3,
+   "title": "What the sign indicates is stated",
+   "text": "Verse 1 says the covenant about restoration to the lands of inheritance is beginning to be fulfilled."
+  },
+  {
+   "n": 4,
+   "title": "Two things the reader need not say",
+   "text": "Verses 2 and 3 rule out saying the Lord delays his coming and imagining that the words spoken are vain. 2 Peter 3:4 and 9 answers the same objection in the same terms, and 2 Nephi 28:8 predicts it being made. Mormon is closing his book against a complaint the record has been expecting."
+  },
+  {
+   "n": 5,
+   "title": "The chapter is built on four woes",
+   "text": "Verses 4 through 8 run a woe or a prohibition in every verse. Mormon 8:33 to 41 and Moroni 8:16 to 23 use the same accumulating form at the end of their books, so all three of the volume's closing addresses are built this way."
+  },
+  {
+   "n": 6,
+   "title": "A specific list of gifts is defended",
+   "text": "Verse 6 names revelation, prophecy, gifts, tongues, healings, and the power of the Holy Ghost. Moroni 7:37 and Moroni 10:8 to 17 list the same class of gifts twice more, and 1 Corinthians 12:8 to 10 is the biblical inventory they all track."
+  },
+  {
+   "n": 7,
+   "title": "The last warning is about the Jews",
+   "text": "Verse 8 tells the reader not to hiss or make game of the Jews or of any remnant of the house of Israel. 2 Nephi 29:4 and 5 argues the same case at length, asking what the Gentiles owe the people who gave them the Bible. Two writers five hundred years apart put the same rebuke to the same future audience."
+  }
+ ],
+ "words": [
+  {
+   "term": "Restoration",
+   "verse_label": "v. 1",
+   "text": "Being brought back to a former state or place. Treated at Mosiah 15:24. The record uses the word nineteen times and the King James Bible not at all.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 15:24",
+     "start": 58,
+     "end": 70,
+     "book": "Mosiah",
+     "chapter": 15,
+     "verse_start": 24,
+     "verse_end": 24
+    }
+   ]
+  },
+  {
+   "term": "Vain",
+   "verse_label": "v. 3",
+   "text": "Empty, without effect. It appears fifty-seven times in the record, and the King James Bible one hundred and twelve. Verse 3 warns against imagining the words of the prophets are so."
+  },
+  {
+   "term": "Spurn",
+   "verse_label": "v. 4",
+   "text": "To reject with contempt, to kick at. The record uses the word three times, twice in this chapter, with none in the King James Bible. Verses 4 and 8 use it of the doings of the Lord."
+  },
+  {
+   "term": "Gifts",
+   "verse_label": "v. 6",
+   "text": "Things given, and the endowments of the Spirit. The word turns up fourteen times here, and the King James Bible fifty-three. Verse 6 puts it in a list of six things still worked."
+  },
+  {
+   "term": "Tongues",
+   "verse_label": "v. 6",
+   "text": "Languages, and the gift of speaking them. The record uses the word twenty times and the King James Bible thirty-six. Verse 6 names it as one of the things denied."
+  },
+  {
+   "term": "Healings",
+   "verse_label": "v. 6",
+   "text": "Cures worked by the power of God. Its count is once, here, in this book, while the King James Bible once, at 1 Corinthians 12:28. Verse 6 puts it last before the power of the Holy Ghost."
+  },
+  {
+   "term": "Perdition",
+   "verse_label": "v. 7",
+   "text": "Ruin, being utterly lost. Treated at 3 Nephi 27:32. The record uses the word twice and the King James Bible eight times."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "When the Lord shall see fit, in his wisdom, that these sayings shall come unto the Gentiles",
+   "verse_label": "v. 1",
+   "text": "The timing left with God. The reader is told to watch for the event, not to schedule it."
+  },
+  {
+   "term": "Is already beginning to be fulfilled",
+   "verse_label": "v. 1",
+   "text": "The tense of the sign. By the time it is recognized the fulfilling has started."
+  },
+  {
+   "term": "Ye need not say that the Lord delays his coming",
+   "verse_label": "v. 2",
+   "text": "The first thing ruled out. Verse 3 rules out the second, that the words are empty."
+  },
+  {
+   "term": "Ye need not any longer spurn at the doings of the Lord",
+   "verse_label": "v. 4",
+   "text": "An instruction that assumes the reader has been doing it. The chapter addresses a skeptical audience directly."
+  },
+  {
+   "term": "The sword of his justice is in his right hand",
+   "verse_label": "v. 4",
+   "text": "The consequence attached to continued spurning. Verse 4 says it will soon overtake them."
+  },
+  {
+   "term": "Wo unto him that shall deny the Christ and his works",
+   "verse_label": "v. 5",
+   "text": "The first woe. Verse 6 extends it from Christ himself to what he does."
+  },
+  {
+   "term": "That shall say the Lord no longer worketh by revelation",
+   "verse_label": "v. 6",
+   "text": "Denial framed as a claim about the present. Six gifts are then listed as what is being denied."
+  },
+  {
+   "term": "That shall say at that day, to get gain, that there can be no miracle",
+   "verse_label": "v. 7",
+   "text": "A motive attached to the denial. The verse names profit as the reason."
+  },
+  {
+   "term": "Ye need not any longer hiss, nor spurn, nor make game of the Jews",
+   "verse_label": "v. 8",
+   "text": "Three verbs for the same contempt. Verse 8 grounds the prohibition in the covenant rather than in courtesy."
+  },
+  {
+   "term": "He will do unto them according to that which he hath sworn",
+   "verse_label": "v. 8",
+   "text": "The reason the mocking should stop. What God swore is treated as settled."
+  },
+  {
+   "term": "Ye need not suppose that ye can turn the right hand of the Lord unto the left",
+   "verse_label": "v. 9",
+   "text": "The closing image. Verse 9 says the covenant will be fulfilled whatever the reader thinks of it."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1",
+   "start": 1,
+   "end": 1,
+   "title": "The book's own arrival is offered as the sign",
+   "text": "The chapter opens by making its publication the evidence for everything else: \"when the Lord shall see fit, in his wisdom, that these sayings shall come unto the Gentiles according to his word, then ye may know that the covenant which the Father hath made with the children of Israel... hath already begun to be fulfilled.\" The reader holding the volume is being told that holding it is the fulfilment being described. Nothing else in the chapter is offered as proof of anything."
+  },
+  {
+   "label": "v. 2–9",
+   "start": 2,
+   "end": 9,
+   "title": "One formula, five times, and each use forbids a thought",
+   "text": "Ye need not opens or governs verses 2, 3, 4, 8 and 9, and every instance rules out something a reader might otherwise conclude: \"ye need not say that the Lord delays his coming\"; \"ye need not imagine in your hearts that the words which have been spoken are vain\"; \"ye need not any longer spurn at the doings of the Lord\"; \"ye need not any longer hiss, nor spurn, nor make game of the Jews\"; \"ye need not suppose that ye can turn the right hand of the Lord unto the left.\" A nine-verse chapter is built almost entirely out of prohibitions on inference."
+  },
+  {
+   "label": "v. 5–7",
+   "start": 5,
+   "end": 7,
+   "title": "Three woes, and the last one carries a motive",
+   "text": "The record names three specific denials in three consecutive verses: denying \"the Christ and his works,\" denying \"the revelations of the Lord\" and saying that he \"no longer worketh by revelation, or by prophecy, or by gifts, or by tongues, or by healings,\" and thirdly denying miracles. Only the third gets a stated reason, and the reason is commercial: \"wo unto him that shall say at that day, to get gain, that there can be no miracle wrought by Jesus Christ.\" The record supplies a motive for one item on the list and none for the other two."
+  },
+  {
+   "label": "v. 8",
+   "start": 8,
+   "end": 8,
+   "title": "An instruction about how to treat a people",
+   "text": "The record turns one verse from doctrine to conduct and names the group: \"ye need not any longer hiss, nor spurn, nor make game of the Jews, nor any of the remnant of the house of Israel.\" Three verbs of contempt are prohibited, and the reason given is not sympathy but a covenant, \"for behold, the Lord remembereth his covenant unto them, and he will do unto them according to that which he hath sworn.\" The prohibition is grounded in what will happen to them rather than in what they deserve."
+  },
+  {
+   "label": "v. 9",
+   "start": 9,
+   "end": 9,
+   "title": "A closing image from the body rather than the law",
+   "text": "The record ends on a physical figure for the futility of resistance: \"ye need not suppose that ye can turn the right hand of the Lord unto the left, that he may not execute judgment unto the fulfilling of the covenant which he hath made unto the house of Israel.\" A chapter otherwise made of legal and doctrinal language ends by asking a reader to picture forcing someone's hand from one side to the other, and the impossibility is left to carry the argument."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The book turns and speaks to its reader",
+   "text": "Verse 1 addresses whoever holds it. The narrative stops and the compiler looks out."
+  },
+  {
+   "n": 2,
+   "title": "A book's arrival is the sign",
+   "text": "Verse 1 makes publication the marker of a covenant beginning. The evidence is the thing in the reader's hands."
+  },
+  {
+   "n": 3,
+   "title": "The fulfilling is already under way",
+   "text": "Verse 1 says it is beginning by the time the sign appears. The reader arrives partway through."
+  },
+  {
+   "n": 4,
+   "title": "Delay is ruled out by name",
+   "text": "Verse 2 anticipates the complaint and answers it before it is made."
+  },
+  {
+   "n": 5,
+   "title": "The woes get more specific as they go",
+   "text": "Verse 5 denies Christ, verse 6 denies revelation, verse 7 denies miracles for gain. Each one narrows."
+  },
+  {
+   "n": 6,
+   "title": "A motive is named once",
+   "text": "Verse 7 says \"to get gain\". The chapter attributes a reason to only one of the denials."
+  },
+  {
+   "n": 7,
+   "title": "Contempt for the Jews is treated as a covenant error",
+   "text": "Verse 8 forbids it because of what God swore. The argument is not about manners."
+  },
+  {
+   "n": 8,
+   "title": "The last image is a hand that will not be turned",
+   "text": "Verse 9 says the reader cannot move it. The chapter ends on what is out of the reader's control."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Read the thing in your hands as evidence",
+    "verse_label": "v. 1",
+    "text": "The sign given is the arrival of a record. What you already have may be the marker you were watching for."
+   },
+   {
+    "title": "Stop saying he is late",
+    "verse_label": "v. 2",
+    "text": "The chapter rules the complaint out directly. A timeline you cannot see is not a timeline that has failed."
+   },
+   {
+    "title": "Do not conclude the words were empty",
+    "verse_label": "v. 3",
+    "text": "The instruction is against imagining in your hearts that what was spoken is vain. A promise that has not landed yet is a different thing from a promise that meant nothing, and only time you cannot see settles which one you have."
+   },
+   {
+    "title": "Watch the word spurn",
+    "verse_label": "v. 4",
+    "text": "The chapter's name for the offense is spurning at the doings of the Lord. That is dismissal rather than disbelief, a posture rather than a conclusion, which makes it something you can catch yourself in."
+   },
+   {
+    "title": "Do not decide what God has stopped doing",
+    "verse_label": "v. 6",
+    "text": "Six gifts are named as still worked. Announcing an end to revelation is the specific error warned against."
+   },
+   {
+    "title": "Notice the phrase \"to get gain\" (v. 7).",
+    "verse_label": null,
+    "text": "The denial condemned most sharply here is the one made at that day to get gain. Motive is treated as part of what makes a claim culpable, so it is worth asking what a position earns the person holding it."
+   },
+   {
+    "title": "Quit making game of anyone in the covenant",
+    "verse_label": "v. 8",
+    "text": "The reason given is what God swore, not what the mockers deserve. Contempt is ruled out on those grounds."
+   },
+   {
+    "title": "Some things do not move because you want them to",
+    "verse_label": "v. 9",
+    "text": "The verse says not to suppose you can turn the right hand of the Lord unto the left. Knowing which outcomes are not negotiable saves the whole effort you would have spent arguing with them."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What has already begun that I am still waiting to start?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Where have I quietly decided God is late?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What doings of the Lord have I spurned?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "Which of the six gifts do I act as though has ended?"
+   },
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "What do I deny because believing it would cost me?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "Whom do I make game of?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What am I trying to turn that will not be turned?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "3ne29-001",
+   "scope": "BOOK",
+   "head": "3 Ne. 21:2",
+   "anchor": {
+    "verse": 1,
+    "w1": 18,
+    "w2": 29,
+    "quote": "that these sayings shall come unto the Gentiles according to his word"
+   },
+   "reason": "the sign Christ had given, restated to the reader",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 21,
+     "verse": 2,
+     "w1": 57,
+     "w2": 63,
+     "quote": "shall be made known unto the Gentiles",
+     "verse_text": "And behold, this is the thing which I will give unto you for a sign—for verily I say unto you that when these things which I declare unto you, and which I shall declare unto you hereafter of myself, and by the power of the Holy Ghost which shall be given unto you of the Father, shall be made known unto the Gentiles that they may know concerning this people who are a remnant of the house of Jacob, and concerning this my people who shall be scattered by them;",
+     "markdown": "And behold, this is the thing which I will give unto you for a sign—for verily I say unto you that when these things which I declare unto you, and which I shall declare unto you hereafter of myself, and by the power of the Holy Ghost which shall be given unto you of the Father, **shall be made known unto the Gentiles** that they may know concerning this people who are a remnant of the house of Jacob, and concerning this my people who shall be scattered by them;",
+     "span": true
+    }
+   ],
+   "mirror": "3ne21-011"
+  },
+  {
+   "id": "3ne29-002",
+   "scope": "BOOK",
+   "head": "3 Ne. 20:29",
+   "anchor": {
+    "verse": 3,
+    "w1": 20,
+    "w2": 37,
+    "quote": "the Lord will remember his covenant which he hath made unto his people of the house of Israel"
+   },
+   "reason": "the covenant stated in the Father's own words",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 20,
+     "verse": 29,
+     "w1": 1,
+     "w2": 13,
+     "quote": "And I will remember the covenant which I have made with my people;",
+     "verse_text": "And I will remember the covenant which I have made with my people; and I have covenanted with them that I would gather them together in mine own due time, that I would give unto them again the land of their fathers for their inheritance, which is the land of Jerusalem, which is the promised land unto them forever, saith the Father.",
+     "markdown": "**And I will remember the covenant which I have made with my people**; and I have covenanted with them that I would gather them together in mine own due time, that I would give unto them again the land of their fathers for their inheritance, which is the land of Jerusalem, which is the promised land unto them forever, saith the Father.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne20-015"
+  },
+  {
+   "id": "3ne29-003",
+   "scope": "BOOK",
+   "head": "3 Ne. 16:4",
+   "anchor": {
+    "verse": 1,
+    "w1": 47,
+    "w2": 55,
+    "quote": "concerning their restoration to the lands of their inheritance"
+   },
+   "reason": "the route the record takes back to the remnant",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 16,
+     "verse": 4,
+     "w1": 69,
+     "w2": 84,
+     "quote": "these sayings which ye shall write shall be kept and shall be manifested unto the Gentiles,",
+     "verse_text": "And I command you that ye shall write these sayings after I am gone, that if it so be that my people at Jerusalem, they who have seen me and been with me in my ministry, do not ask the Father in my name, that they may receive a knowledge of you by the Holy Ghost, and also of the other tribes whom they know not of, that these sayings which ye shall write shall be kept and shall be manifested unto the Gentiles, that through the fulness of the Gentiles, the remnant of their seed, who shall be scattered forth upon the face of the earth because of their unbelief, may be brought in, or may be brought to a knowledge of me, their Redeemer.",
+     "markdown": "And I command you that ye shall write these sayings after I am gone, that if it so be that my people at Jerusalem, they who have seen me and been with me in my ministry, do not ask the Father in my name, that they may receive a knowledge of you by the Holy Ghost, and also of the other tribes whom they know not of, that **these sayings which ye shall write shall be kept and shall be manifested unto the Gentiles**, that through the fulness of the Gentiles, the remnant of their seed, who shall be scattered forth upon the face of the earth because of their unbelief, may be brought in, or may be brought to a knowledge of me, their Redeemer.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne16-012"
+  },
+  {
+   "id": "3ne29-004",
+   "scope": "BOM",
+   "head": "Morm. 9:7",
+   "anchor": {
+    "verse": 6,
+    "w1": 24,
+    "w2": 35,
+    "quote": "or by prophecy, or by gifts, or by tongues, or by healings"
+   },
+   "reason": "Moroni answering the same denial with the same list",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 9,
+     "verse": 7,
+     "w1": 20,
+     "w2": 34,
+     "quote": "that there are no revelations, nor prophecies, nor gifts, nor healing, nor speaking with tongues,",
+     "verse_text": "And again I speak unto you who deny the revelations of God, and say that they are done away, that there are no revelations, nor prophecies, nor gifts, nor healing, nor speaking with tongues, and the interpretation of tongues;",
+     "markdown": "And again I speak unto you who deny the revelations of God, and say that they are done away, **that there are no revelations, nor prophecies, nor gifts, nor healing, nor speaking with tongues**, and the interpretation of tongues;",
+     "span": true
+    }
+   ],
+   "mirror": "morm09-003"
+  },
+  {
+   "id": "3ne29-005",
+   "scope": "BOM",
+   "head": "2 Ne. 28:6",
+   "anchor": {
+    "verse": 7,
+    "w1": 15,
+    "w2": 24,
+    "quote": "that there can be no miracle wrought by Jesus Christ"
+   },
+   "reason": "the precept Nephi had quoted centuries earlier",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 28,
+     "verse": 6,
+     "w1": 25,
+     "w2": 39,
+     "quote": "for this day he is not a God of miracles; he hath done his work.",
+     "verse_text": "Behold, hearken ye unto my precept; if they shall say there is a miracle wrought by the hand of the Lord, believe it not; for this day he is not a God of miracles; he hath done his work.",
+     "markdown": "Behold, hearken ye unto my precept; if they shall say there is a miracle wrought by the hand of the Lord, believe it not; **for this day he is not a God of miracles; he hath done his work**.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne28-010"
+  },
+  {
+   "id": "3ne29-006",
+   "scope": "BOM",
+   "head": "Morm. 8:26",
+   "anchor": {
+    "verse": 4,
+    "w1": 1,
+    "w2": 11,
+    "quote": "And when ye shall see these sayings coming forth among you"
+   },
+   "reason": "Moroni describing the day the record appears",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 8,
+     "verse": 26,
+     "w1": 40,
+     "w2": 55,
+     "quote": "it shall come in a day when it shall be said that miracles are done away;",
+     "verse_text": "And no one need say they shall not come, for they surely shall, for the Lord hath spoken it; for out of the earth shall they come, by the hand of the Lord, and none can stay it; and it shall come in a day when it shall be said that miracles are done away; and it shall come even as if one should speak from the dead.",
+     "markdown": "And no one need say they shall not come, for they surely shall, for the Lord hath spoken it; for out of the earth shall they come, by the hand of the Lord, and none can stay it; and **it shall come in a day when it shall be said that miracles are done away**; and it shall come even as if one should speak from the dead.",
+     "span": true
+    }
+   ],
+   "mirror": "morm08-008"
+  },
+  {
+   "id": "3ne29-007",
+   "scope": "BOM",
+   "head": "Moro. 10:8",
+   "anchor": {
+    "verse": 6,
+    "w1": 13,
+    "w2": 23,
+    "quote": "and that shall say the Lord no longer worketh by revelation"
+   },
+   "reason": "Moroni's exhortation not to deny the gifts",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 10,
+     "verse": 8,
+     "w1": 8,
+     "w2": 19,
+     "quote": "that ye deny not the gifts of God, for they are many;",
+     "verse_text": "And again, I exhort you, my brethren, that ye deny not the gifts of God, for they are many; and they come from the same God. And there are different ways that these gifts are administered; but it is the same God who worketh all in all; and they are given by the manifestations of the Spirit of God unto men, to profit them.",
+     "markdown": "And again, I exhort you, my brethren, **that ye deny not the gifts of God, for they are many**; and they come from the same God. And there are different ways that these gifts are administered; but it is the same God who worketh all in all; and they are given by the manifestations of the Spirit of God unto men, to profit them.",
+     "span": true
+    }
+   ],
+   "mirror": "moro10-005"
+  },
+  {
+   "id": "3ne29-008",
+   "scope": "SW",
+   "head": "1 Cor. 12:28",
+   "anchor": {
+    "verse": 6,
+    "w1": 36,
+    "w2": 43,
+    "quote": "or by the power of the Holy Ghost"
+   },
+   "reason": "the one other place the word healings appears",
+   "targets": [
+    {
+     "ref": "1 Cor.",
+     "chapter": 12,
+     "verse": 28,
+     "w1": 15,
+     "w2": 21,
+     "quote": "after that miracles, then gifts of healings,",
+     "verse_text": "And God hath set some in the church, first apostles, secondarily prophets, thirdly teachers, after that miracles, then gifts of healings, helps, governments, diversities of tongues.",
+     "markdown": "And God hath set some in the church, first apostles, secondarily prophets, thirdly teachers, **after that miracles, then gifts of healings**, helps, governments, diversities of tongues.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne29-009",
+   "scope": "SW",
+   "head": "John 17:12",
+   "anchor": {
+    "verse": 7,
+    "w1": 30,
+    "w2": 43,
+    "quote": "shall become like unto the son of perdition, for whom there was no mercy"
+   },
+   "reason": "the title as it is used at Jerusalem",
+   "targets": [
+    {
+     "ref": "John",
+     "chapter": 17,
+     "verse": 12,
+     "w1": 24,
+     "w2": 33,
+     "quote": "none of them is lost, but the son of perdition;",
+     "verse_text": "While I was with them in the world, I kept them in thy name: those that thou gavest me I have kept, and none of them is lost, but the son of perdition; that the scripture might be fulfilled.",
+     "markdown": "While I was with them in the world, I kept them in thy name: those that thou gavest me I have kept, and **none of them is lost, but the son of perdition**; that the scripture might be fulfilled.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne29-010",
+   "scope": "SW",
+   "head": "Rom. 11:18",
+   "anchor": {
+    "verse": 8,
+    "w1": 3,
+    "w2": 16,
+    "quote": "ye need not any longer hiss, nor spurn, nor make game of the Jews"
+   },
+   "reason": "the same warning to Gentiles about Israel",
+   "targets": [
+    {
+     "ref": "Rom.",
+     "chapter": 11,
+     "verse": 18,
+     "w1": 1,
+     "w2": 5,
+     "quote": "Boast not against the branches.",
+     "verse_text": "Boast not against the branches. But if thou boast, thou bearest not the root, but the root thee.",
+     "markdown": "**Boast not against the branches**. But if thou boast, thou bearest not the root, but the root thee.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 18,
+   "w2": 29,
+   "quote": "that these sayings shall come unto the Gentiles according to his word",
+   "entries": [
+    "3ne29-001"
+   ]
+  },
+  {
+   "verse": 1,
+   "w1": 47,
+   "w2": 55,
+   "quote": "concerning their restoration to the lands of their inheritance",
+   "entries": [
+    "3ne29-003"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 20,
+   "w2": 37,
+   "quote": "the Lord will remember his covenant which he hath made unto his people of the house of Israel",
+   "entries": [
+    "3ne29-002"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 1,
+   "w2": 11,
+   "quote": "And when ye shall see these sayings coming forth among you",
+   "entries": [
+    "3ne29-006"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 13,
+   "w2": 23,
+   "quote": "and that shall say the Lord no longer worketh by revelation",
+   "entries": [
+    "3ne29-007"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 24,
+   "w2": 35,
+   "quote": "or by prophecy, or by gifts, or by tongues, or by healings",
+   "entries": [
+    "3ne29-004"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 36,
+   "w2": 43,
+   "quote": "or by the power of the Holy Ghost",
+   "entries": [
+    "3ne29-008"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 15,
+   "w2": 24,
+   "quote": "that there can be no miracle wrought by Jesus Christ",
+   "entries": [
+    "3ne29-005"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 30,
+   "w2": 43,
+   "quote": "shall become like unto the son of perdition, for whom there was no mercy",
+   "entries": [
+    "3ne29-009"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 3,
+   "w2": 16,
+   "quote": "ye need not any longer hiss, nor spurn, nor make game of the Jews",
+   "entries": [
+    "3ne29-010"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "459fb252a3504bba"
+ }
+}

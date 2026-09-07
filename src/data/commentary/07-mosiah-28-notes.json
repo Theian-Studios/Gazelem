@@ -18,7 +18,7 @@
    "Custody of records",
    "Succession"
   ],
-  "connections": 14,
+  "connections": 17,
   "initial": false
  },
  "world_behind": [
@@ -79,12 +79,24 @@
   {
    "term": "Confer",
    "verse_label": "v. 10",
-   "text": "To bestow formally, the verb this record uses for handing over an office. It appears twice in the chapter. The kingdom cannot be conferred at verse 10; the records are conferred at verse 20. One transfer fails and the other succeeds, in the same word."
+   "text": "To bestow formally, the verb this record uses for handing over an office. Treated at Mosiah 1:9. It appears twice in the chapter. The kingdom cannot be conferred at verse 10; the records are conferred at verse 20. One transfer fails and the other succeeds, in the same word.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 1:9",
+     "start": 85,
+     "end": 95,
+     "book": "Mosiah",
+     "chapter": 1,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
   },
   {
    "term": "Anxiety",
    "verse_label": "v. 12",
-   "text": "Restless concern, a pressing want rather than modern nervousness. It is given as the reason a king spent his time translating: the great anxiety of his people to know what had happened to a destroyed civilization. Public curiosity is treated as sufficient cause."
+   "text": "Restless concern, a pressing want rather than modern nervousness. Treated at 2 Nephi 1:16. It is given as the reason a king spent his time translating: the great anxiety of his people to know what had happened to a destroyed civilization. Public curiosity is treated as sufficient cause."
   },
   {
    "term": "Rims",
@@ -94,7 +106,7 @@
   {
    "term": "Confounded",
    "verse_label": "v. 17",
-   "text": "Confused, thrown into disorder. The record says it of a language rather than of people. The chapter reaches back past every event in this record to the moment speech itself divided, which is also the moment the people whose bones were found began."
+   "text": "Confused, thrown into disorder. Treated at 1 Nephi 14:2. The record says it of a language rather than of people. The chapter reaches back past every event in this record to the moment speech itself divided, which is also the moment the people whose bones were found began."
   }
  ],
  "phrases": [
@@ -126,7 +138,19 @@
   {
    "term": "Desirous beyond measure to know concerning those people who had been destroyed",
    "verse_label": "v. 12",
-   "text": "The reason given for translating the plates, and it is curiosity. Limhi had said almost the same thing to Ammon twenty chapters earlier. A whole people wanted to know what had happened, and the king answered by producing a translation."
+   "text": "The reason given for translating the plates, and it is curiosity. Limhi had said almost the same thing to Ammon twenty chapters earlier (Mosiah 8:12). A whole people wanted to know what had happened, and the king answered by producing a translation.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 8:12",
+     "start": 137,
+     "end": 148,
+     "book": "Mosiah",
+     "chapter": 8,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
   },
   {
    "term": "Whosoever has these things is called seer, after the manner of old times",
@@ -141,53 +165,37 @@
  ],
  "verses": [
   {
-   "label": "v. 1–3",
-   "start": 1,
-   "end": 3,
-   "title": "The request, and the reason",
-   "text": "They come back to their father with a small company and ask for permission to go up and preach to the Lamanites. The purposes are listed, and then the motive: they could not bear that any soul should perish, and the thought of it made them quake and tremble."
-  },
-  {
-   "label": "v. 4–8",
-   "start": 4,
+   "label": "v. 6–8",
+   "start": 6,
    "end": 8,
-   "title": "Spared, and permitted",
-   "text": "The Spirit worked on them because they were the worst of sinners, and they had suffered for it. They plead for many days. The king inquires, the Lord answers with a promise about many believing and about their safety, and Mosiah grants the request."
-  },
-  {
-   "label": "v. 9–10",
-   "start": 9,
-   "end": 10,
-   "title": "A departure and a vacancy",
-   "text": "They take their journey into the wilderness, and the record promises their story later. Then one sentence changes the country: there is nobody to give the kingdom to, because none of them will have it."
+   "title": "He asks permission and receives a forecast",
+   "text": "Mosiah \"inquired of the Lord if he should let his sons go up among the Lamanites to preach the word\" — a yes-or-no question. The answer supplies three things nobody asked for: many shall believe, they shall have eternal life, and the sons will be delivered. The record prints the request and the reply close enough together that the reader can see how much the second exceeds the first."
   },
   {
    "label": "v. 11–13",
    "start": 11,
    "end": 13,
-   "title": "The translation",
-   "text": "He gathers the brass plates, the plates of Nephi, and everything preserved, having already translated the twenty-four plates of gold. The reason given is his people's anxiety. The instrument is two stones in the rims of a bow."
-  },
-  {
-   "label": "v. 14–16",
-   "start": 14,
-   "end": 16,
-   "title": "What the instrument was",
-   "text": "Prepared from the beginning, handed down through generations, kept by the hand of the Lord, and meant for interpreting languages. Then the office: whoever holds them is called seer, after the manner of old times."
-  },
-  {
-   "label": "v. 17–19",
-   "start": 17,
-   "end": 19,
-   "title": "A history reaching back to Adam",
-   "text": "The record covers a destroyed people back to the great tower and the confounding of language, and back further to the creation. The people mourn exceedingly and rejoice in the knowledge, and the reader is told the account will be written later."
+   "title": "A translation undertaken because the public wanted it",
+   "text": "The reason given is not revelation or command but demand: the great anxiety of his people, who wished to know about the destroyed nation. The method is then described as hardware, two stones fastened into the rims of a bow. Motive is curiosity, means is an instrument, and the record supplies both before it says a word about what the plates contained."
   },
   {
    "label": "v. 20",
    "start": 20,
    "end": 20,
-   "title": "The archive handed on",
-   "text": "Plates, records, and interpreters conferred on Alma the son of Alma, with instructions to keep, preserve, record, and hand down, as had been done since Lehi left Jerusalem. The chapter ends on a transfer of custody rather than of power."
+   "title": "The handover is an inventory and a command to continue",
+   "text": "The plates of brass, all the things kept, all the records, and the interpreters, conferred on Alma with an instruction to keep, preserve and record, \"even as they had been handed down from the time that Lehi left Jerusalem.\" The charge is stated as continuation of a chain, the same shape Alma will use on his own son at Alma 37:2.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 37:2",
+     "start": 321,
+     "end": 330,
+     "book": "Alma",
+     "chapter": 37,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
   }
  ],
  "chapter": [
@@ -542,7 +550,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al17-004"
   },
   {
    "id": "mos28-010",
@@ -568,7 +576,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "omn01-012"
   },
   {
    "id": "mos28-009",
@@ -594,7 +602,85 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "eth01-006"
+  },
+  {
+   "id": "mos28-015",
+   "scope": "BOM",
+   "head": "Alma 19:23",
+   "anchor": {
+    "verse": 7,
+    "w1": 25,
+    "w2": 36,
+    "quote": "I will deliver thy sons out of the hands of the Lamanites."
+   },
+   "reason": "Mormon citing this promise when Ammon was attacked",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 19,
+     "verse": 23,
+     "w1": 5,
+     "w2": 9,
+     "quote": "Ammon could not be slain,",
+     "verse_text": "Now we see that Ammon could not be slain, for the Lord had said unto Mosiah, his father: I will spare him, and it shall be unto him according to thy faith—therefore, Mosiah trusted him unto the Lord.",
+     "markdown": "Now we see that **Ammon could not be slain**, for the Lord had said unto Mosiah, his father: I will spare him, and it shall be unto him according to thy faith—therefore, Mosiah trusted him unto the Lord.",
+     "span": true
+    }
+   ],
+   "mirror": "al19-004"
+  },
+  {
+   "id": "mos28-016",
+   "scope": "BOM",
+   "head": "Alma 26:30",
+   "anchor": {
+    "verse": 3,
+    "w1": 14,
+    "w2": 23,
+    "quote": "they could not bear that any human soul should perish;"
+   },
+   "reason": "Ammon repeating the desire fourteen years on",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 26,
+     "verse": 30,
+     "w1": 12,
+     "w2": 22,
+     "quote": "that perhaps we might be the means of saving some soul;",
+     "verse_text": "And we have suffered all manner of afflictions, and all this, that perhaps we might be the means of saving some soul; and we supposed that our joy would be full if perhaps we could be the means of saving some.",
+     "markdown": "And we have suffered all manner of afflictions, and all this, **that perhaps we might be the means of saving some soul**; and we supposed that our joy would be full if perhaps we could be the means of saving some.",
+     "span": true
+    }
+   ],
+   "mirror": "al26-006"
+  },
+  {
+   "id": "mos28-017",
+   "scope": "BOM",
+   "head": "Alma 37:1",
+   "anchor": {
+    "verse": 20,
+    "w1": 31,
+    "w2": 34,
+    "quote": "conferred them upon Alma,"
+   },
+   "reason": "the same charge handed to the next keeper",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 37,
+     "verse": 1,
+     "w1": 10,
+     "w2": 19,
+     "quote": "ye take the records which have been entrusted with me;",
+     "verse_text": "And now, my son Helaman, I command you that ye take the records which have been entrusted with me;",
+     "markdown": "And now, my son Helaman, I command you that **ye take the records which have been entrusted with me**;",
+     "span": true
+    }
+   ],
+   "mirror": "al37-004"
   },
   {
    "id": "mos28-013",
@@ -692,6 +778,7 @@
    "quote": "they could not bear that any human soul should perish",
    "entries": [
     "mos28-001",
+    "mos28-016",
     "mos28-013"
    ]
   },
@@ -710,7 +797,8 @@
    "w2": 36,
    "quote": "I will deliver thy sons out of the hands of the Lamanites",
    "entries": [
-    "mos28-014"
+    "mos28-014",
+    "mos28-015"
    ]
   },
   {
@@ -769,10 +857,19 @@
    "entries": [
     "mos28-009"
    ]
+  },
+  {
+   "verse": 20,
+   "w1": 31,
+   "w2": 34,
+   "quote": "conferred them upon Alma,",
+   "entries": [
+    "mos28-017"
+   ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "0adee2fab8a1dda5"
+  "at": "2026-09-07",
+  "source_sha256": "127539867497ffcc"
  }
 }

@@ -18,7 +18,7 @@
    "Chastening",
    "Trust"
   ],
-  "connections": 17,
+  "connections": 20,
   "initial": false
  },
  "world_behind": [
@@ -45,7 +45,19 @@
   {
    "n": 5,
    "title": "Two halves of one Pauline sentence, two chapters apart",
-   "text": "Paul tells the Galatians to stand fast in the liberty by which Christ made them free and not be entangled again with the yoke of bondage. The previous chapter's account of Limhi's people used the yoke; this one uses standing fast in liberty. The same sentence is divided between two peoples in bondage."
+   "text": "Paul tells the Galatians (Gal. 5:1) to stand fast in the liberty by which Christ made them free and not be entangled again with the yoke of bondage. The previous chapter's account of Limhi's people used the yoke; this one uses standing fast in liberty. The same sentence is divided between two peoples in bondage.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Gal. 5:1",
+     "start": 26,
+     "end": 34,
+     "book": "Gal",
+     "chapter": 5,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
   },
   {
    "n": 6,
@@ -57,12 +69,12 @@
   {
    "term": "Industrious",
    "verse_label": "v. 5",
-   "text": "Hard-working in a settled, productive sense rather than merely busy. The record uses it of a refugee community in its first season: tilling, building, laboring exceedingly. It is the only description the chapter gives of what they were like before the crisis arrives."
+   "text": "Hard-working in a settled, productive sense rather than merely busy. Treated at 2 Nephi 5:17. The record uses it of a refugee community in its first season: tilling, building, laboring exceedingly. It is the only description the chapter gives of what they were like before the crisis arrives."
   },
   {
    "term": "Expedient",
    "verse_label": "v. 7",
-   "text": "Advisable given the circumstances. The word makes no moral claim. Alma says twice that it is not expedient to have a king, and verse 8 concedes that with just men it would be well. The word keeps the argument practical, and Mosiah will make the same concession in the same terms six chapters later."
+   "text": "Advisable given the circumstances. Treated at 1 Nephi 10:15. The word makes no moral claim. Alma says twice that it is not expedient to have a king, and verse 8 concedes that with just men it would be well. The word keeps the argument practical, and Mosiah will make the same concession in the same terms six chapters later."
   },
   {
    "term": "Tribulation",
@@ -77,7 +89,7 @@
   {
    "term": "Consecrated",
    "verse_label": "v. 17",
-   "text": "Formally set apart to an office. Alma consecrates every priest and teacher himself, and the verse adds a qualification: none were consecrated except they were just men. The same standard he applied to kings in verse 8 he now applies to clergy."
+   "text": "Formally set apart to an office. Treated at 2 Nephi 1:7. Alma consecrates every priest and teacher himself, and the verse adds a qualification: none were consecrated except they were just men. The same standard he applied to kings in verse 8 he now applies to clergy."
   },
   {
    "term": "Possession",
@@ -109,7 +121,19 @@
   {
    "term": "Stand fast in this liberty wherewith ye have been made free",
    "verse_label": "v. 13",
-   "text": "Almost exactly Paul's sentence to the Galatians, which continues with a warning about the yoke of bondage. The instruction attached here is specific and political: trust no man to be a king over you. Liberty is defined by what they are told not to hand over."
+   "text": "Almost exactly Paul's sentence to the Galatians (Gal. 5:1), which continues with a warning about the yoke of bondage. The instruction attached here is specific and political: trust no man to be a king over you. Liberty is defined by what they are told not to hand over.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Gal. 5:1",
+     "start": 49,
+     "end": 57,
+     "book": "Gal",
+     "chapter": 5,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
   },
   {
    "term": "The Lord seeth fit to chasten his people",
@@ -129,53 +153,114 @@
  ],
  "verses": [
   {
-   "label": "v. 1–5",
-   "start": 1,
-   "end": 5,
-   "title": "A colony in eight days",
-   "text": "Warned, gathered, gone before the army arrives, and strengthened so it cannot overtake them. Then a beautiful land with pure water, tents, tilling, building, and a people the record calls industrious. Nothing in these verses is difficult, which is unusual for this book."
-  },
-  {
    "label": "v. 6–8",
    "start": 6,
    "end": 8,
-   "title": "A crown offered and refused",
-   "text": "They want him for king because they love him. He answers with a quotation about not esteeming one flesh above another, and then concedes the exception: with consistently just kings it would be well. The concession is what makes the refusal an argument."
+   "title": "A refusal that keeps its own exception on the page",
+   "text": "The record has Alma decline the crown in absolute terms at verse 7, \"it is not expedient that we should have a king,\" and then immediately preserve the concession that qualifies it: \"if it were possible that ye could always have just men to be your kings it would be well for you to have a king.\" The objection is to the supply of just men, not to the office. Mosiah 29:13 puts the same concession in Mosiah's mouth two generations later, and Mosiah 29:16 supplies the missing premise, \"because all men are not just.\" The record states the conclusion here and the premise there.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 29:13",
+     "start": 360,
+     "end": 372,
+     "book": "Mosiah",
+     "chapter": 29,
+     "verse_start": 13,
+     "verse_end": 13
+    },
+    {
+     "kind": "scripture",
+     "text": "Mosiah 29:16",
+     "start": 443,
+     "end": 455,
+     "book": "Mosiah",
+     "chapter": 29,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
   },
   {
    "label": "v. 9–11",
    "start": 9,
    "end": 11,
-   "title": "His own record as proof",
-   "text": "Caught in a snare, did abominable things, needed sore repentance, was heard, was made an instrument. Then the retraction of credit: in this I do not glory. A man declining power establishes his authority to decline it by listing what he did with power before."
+   "title": "A speaker entered as evidence against himself",
+   "text": "The argument turns first person and the exhibit is the speaker: \"I myself was caught in a snare, and did many things which were abominable in the sight of the Lord.\" The record gives no summary of what those things were, having already narrated them at Mosiah 17:2–4, and it lets the admission stand as the reason the audience should distrust kings. Verse 11 then blocks the obvious reading of verse 10, \"in this I do not glory, for I am unworthy to glory of myself,\" so the same paragraph makes a case from the speaker's history and refuses him the credit for it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 17:2–4",
+     "start": 253,
+     "end": 266,
+     "book": "Mosiah",
+     "chapter": 17,
+     "verse_start": 2,
+     "verse_end": 4
+    }
+   ]
   },
   {
-   "label": "v. 12–15",
+   "label": "v. 12–14",
    "start": 12,
-   "end": 15,
-   "title": "Three instructions, once delivered",
-   "text": "Delivered from a king and from what the king made of them, they are told what to do with the freedom: trust nobody as king, trust nobody as teacher unless he is a man of God, and love your neighbor as yourself. The political instruction and the ethical one arrive in the same breath."
+   "end": 14,
+   "title": "Two bondages held under one word",
+   "text": "Four bondage terms crowd three verses: \"in bondage to him and his priests,\" \"bound with the bands of iniquity,\" \"delivered by the power of God out of these bonds,\" and \"from the bonds of iniquity.\" The record makes physical captivity and moral captivity the objects of a single deliverance without pausing to distinguish them, and then draws a practical rule from the pair, that the people \"trust no man to be a king\" and no one \"to be your teacher nor your minister, except he be a man of God.\" The metaphor produces two prohibitions, one political and one ecclesiastical."
   },
   {
-   "label": "v. 21–24",
+   "label": "v. 19–20",
+   "start": 19,
+   "end": 20,
+   "title": "A name given to a land and then to a city",
+   "text": "The record supplies the naming in two steps and in that order: the land is called Helam at verse 19, the city built in it is called the city of Helam at verse 20. Helam is also the name of the first man baptized at Mosiah 18:12–14, \"he being one of the first,\" and the text never says the place was named for him. The coincidence is left unremarked, which is how this record usually handles its place names; the exception at Alma 16:11, where Desolation of Nehors is given a stated reason, is rare.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 18:12–14",
+     "start": 215,
+     "end": 230,
+     "book": "Mosiah",
+     "chapter": 18,
+     "verse_start": 12,
+     "verse_end": 14
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 16:11",
+     "start": 425,
+     "end": 435,
+     "book": "Alma",
+     "chapter": 16,
+     "verse_start": 11,
+     "verse_end": 11
+    }
+   ]
+  },
+  {
+   "label": "v. 21–23",
    "start": 21,
-   "end": 24,
-   "title": "The warning before the trouble",
-   "text": "The Lord chastens, tries patience and faith, and lifts up whoever trusts him. Then the record tells you in advance what is coming: they were brought into bondage, and none but God delivered them. The suspense is deliberately removed."
+   "end": 23,
+   "title": "The outcome announced before the events",
+   "text": "The narration breaks off to preach in the present tense, \"Nevertheless the Lord seeth fit to chasten his people; yea, he trieth their patience and their faith,\" and then gives away what has not yet been told: \"I will show unto you that they were brought into bondage.\" The record spoils its own chapter deliberately, so that the arrival of the Lamanite army at verse 25 arrives as an illustration of a stated principle. The first person here belongs to the abridger, not to Alma, and it appears three verses after Alma's own first person has stopped."
   },
   {
-   "label": "v. 25–29",
-   "start": 25,
-   "end": 29,
-   "title": "The request they settled on",
-   "text": "They flee the fields, gather in the city, and are much frightened by the sight. Alma tells them to remember God; they hush their fears and then choose what to pray for: that the hearts of the Lamanites be softened, and that their wives and children be spared. The request is about the enemy's heart."
-  },
-  {
-   "label": "v. 30–39",
+   "label": "v. 30–32",
    "start": 30,
-   "end": 39,
-   "title": "How Amulon got there",
-   "text": "A lost army finds the priests, the abducted women plead for their husbands' lives, the two groups merge, and together they find Helam. Alma shows them the road home under a promise, the promise is broken, and the man who stole those women is made king over the people who took him in."
+   "end": 32,
+   "title": "A place named, then the name explained",
+   "text": "The record uses the place name first, \"in a place which they called Amulon,\" and supplies the reason a verse later: \"Now the name of the leader of those priests was Amulon.\" The delay is the point of interest, since the sentence would read the same with the two verses reversed. The same priests will be traced by name as far as Alma 25:4, where their line is followed to its near-extinction, so this quiet identification is the hinge of a thread that runs across two books.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 25:4",
+     "start": 329,
+     "end": 338,
+     "book": "Alma",
+     "chapter": 25,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
   }
  ],
  "chapter": [
@@ -611,6 +696,32 @@
    "mirror": "mos18-008"
   },
   {
+   "id": "mos23-018",
+   "scope": "BOOK",
+   "head": "Mosiah 27:4",
+   "anchor": {
+    "verse": 7,
+    "w1": 22,
+    "w2": 29,
+    "quote": "Ye shall not esteem one flesh above another,"
+   },
+   "reason": "the rule Alma later put in writing",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 27,
+     "verse": 4,
+     "w1": 13,
+     "w2": 20,
+     "quote": "every man should esteem his neighbor as himself,",
+     "verse_text": "That they should let no pride nor haughtiness disturb their peace; that every man should esteem his neighbor as himself, laboring with their own hands for their support.",
+     "markdown": "That they should let no pride nor haughtiness disturb their peace; that **every man should esteem his neighbor as himself**, laboring with their own hands for their support.",
+     "span": true
+    }
+   ],
+   "mirror": "mos27-003"
+  },
+  {
    "id": "mos23-010",
    "scope": "BOM",
    "head": "Alma 5:3",
@@ -634,7 +745,59 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al05-024"
+  },
+  {
+   "id": "mos23-019",
+   "scope": "BOM",
+   "head": "Alma 24:29",
+   "anchor": {
+    "verse": 35,
+    "w1": 2,
+    "w2": 9,
+    "quote": "Amulon and his brethren did join the Lamanites,"
+   },
+   "reason": "who the Amulonites really were, told later",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 24,
+     "verse": 29,
+     "w1": 28,
+     "w2": 35,
+     "quote": "they were actual descendants of Laman and Lemuel.",
+     "verse_text": "Now, among those who joined the people of the Lord, there were none who were Amalekites or Amulonites, or who were of the order of Nehor, but they were actual descendants of Laman and Lemuel.",
+     "markdown": "Now, among those who joined the people of the Lord, there were none who were Amalekites or Amulonites, or who were of the order of Nehor, but **they were actual descendants of Laman and Lemuel**.",
+     "span": true
+    }
+   ],
+   "mirror": "al24-006"
+  },
+  {
+   "id": "mos23-020",
+   "scope": "BOM",
+   "head": "Ether 6:23",
+   "anchor": {
+    "verse": 7,
+    "w1": 7,
+    "w2": 16,
+    "quote": "it is not expedient that we should have a king;"
+   },
+   "reason": "the brother of Jared refusing a king outright",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 6,
+     "verse": 23,
+     "w1": 17,
+     "w2": 22,
+     "quote": "Surely this thing leadeth into captivity.",
+     "verse_text": "And now behold, this was grievous unto them. And the brother of Jared said unto them: Surely this thing leadeth into captivity.",
+     "markdown": "And now behold, this was grievous unto them. And the brother of Jared said unto them: **Surely this thing leadeth into captivity**.",
+     "span": true
+    }
+   ],
+   "mirror": "eth06-008"
   },
   {
    "id": "mos23-014",
@@ -771,11 +934,21 @@
   },
   {
    "verse": 7,
+   "w1": 7,
+   "w2": 16,
+   "quote": "it is not expedient that we should have a king;",
+   "entries": [
+    "mos23-020"
+   ]
+  },
+  {
+   "verse": 7,
    "w1": 22,
    "w2": 29,
    "quote": "Ye shall not esteem one flesh above another",
    "entries": [
-    "mos23-003"
+    "mos23-003",
+    "mos23-018"
    ]
   },
   {
@@ -871,6 +1044,15 @@
    ]
   },
   {
+   "verse": 35,
+   "w1": 2,
+   "w2": 9,
+   "quote": "Amulon and his brethren did join the Lamanites,",
+   "entries": [
+    "mos23-019"
+   ]
+  },
+  {
    "verse": 39,
    "w1": 31,
    "w2": 48,
@@ -881,7 +1063,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "31f909ae2acf8f09"
+  "at": "2026-09-07",
+  "source_sha256": "b4e3880624cdf172"
  }
 }

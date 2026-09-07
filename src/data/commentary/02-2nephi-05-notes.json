@@ -17,7 +17,7 @@
    "Industry",
    "Worship"
   ],
-  "connections": 16,
+  "connections": 19,
   "initial": false
  },
  "world_behind": [
@@ -207,7 +207,7 @@
   {
    "term": "Flee",
    "verse_label": "v. 5",
-   "text": "The command is to leave the brethren behind: \"flee into the wilderness\" (v. 5). Flight in this record is an obedience word, not a coward's: Lehi fled, Nephi flees, and both departures preserve a covenant line that staying would have buried. Some situations are answered faithfully only by leaving.",
+   "text": "The command is to leave the brethren behind: \"flee into the wilderness\" (v. 5). Flight in this record is an obedience word, not a coward's: Lehi fled, Nephi flees, and this second flight follows an attempt on Nephi's life (v. 2). Some situations are answered faithfully only by leaving.",
    "cites": [
     {
      "quote": "flee into the wilderness",
@@ -221,6 +221,16 @@
        "text": "flee into the wilderness"
       }
      ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 2)",
+     "start": 222,
+     "end": 228,
+     "verse_start": 2,
+     "verse_end": 2
     }
    ]
   },
@@ -283,6 +293,26 @@
      "chapter": 16,
      "verse_start": 18,
      "verse_end": 18
+    }
+   ]
+  },
+  {
+   "term": "Construction",
+   "verse_label": "v. 16",
+   "text": "The way a thing is put together. The word appears once in this record and never in the King James Bible, and Nephi uses it to draw a careful line. The temple could not be built of so many precious things, since the materials were not on the land, and yet \"the manner of the construction was like unto the temple of Solomon\" (v. 16). What carried over was the plan.",
+   "cites": [
+    {
+     "quote": "the manner of the construction was like unto the temple of Solomon",
+     "verse": 16,
+     "start": 255,
+     "end": 331,
+     "spans": [
+      {
+       "w1": 52,
+       "w2": 63,
+       "text": "the manner of the construction was like unto the temple of Solomon"
+      }
+     ]
     }
    ]
   },
@@ -361,13 +391,13 @@
   {
    "term": "Sufficeth",
    "verse_label": "v. 34",
-   "text": "An engraver's word for stopping. Forty years and a war close the book in a single line because the writer judges that enough: \"it sufficeth me to say that forty years had passed away, and we had already had wars and contentions with our brethren\" (v. 34). The formula runs in the family trade. Nephi used it to skip the genealogy (1 Ne. 6:2), Jarom uses it to explain why he writes so little (Jarom 1:2), and Moroni to hold back most of what the brother of Jared saw (Ether 3:17). It marks the spot where the keeper of the plates sets the limit, rather than the material setting it.",
+   "text": "An engraver's word for stopping. Treated at 1 Nephi 6:2. Forty years and a war close the book in a single line because the writer judges that enough: \"it sufficeth me to say that forty years had passed away, and we had already had wars and contentions with our brethren\" (v. 34). The formula runs in the family trade. Nephi used it to skip the genealogy (1 Ne. 6:2), Jarom uses it to explain why he writes so little (Jarom 1:2), and Moroni to hold back most of what the brother of Jared saw (Ether 3:17). It marks the spot where the keeper of the plates sets the limit, rather than the material setting it.",
    "cites": [
     {
      "quote": "it sufficeth me to say that forty years had passed away, and we had already had wars and contentions with our brethren",
      "verse": 34,
-     "start": 126,
-     "end": 254,
+     "start": 150,
+     "end": 278,
      "spans": [
       {
        "w1": 2,
@@ -381,8 +411,8 @@
     {
      "kind": "scripture",
      "text": "1 Ne. 6:2",
-     "start": 331,
-     "end": 340,
+     "start": 355,
+     "end": 364,
      "book": "1 Ne",
      "chapter": 6,
      "verse_start": 2,
@@ -391,8 +421,8 @@
     {
      "kind": "scripture",
      "text": "Jarom 1:2",
-     "start": 393,
-     "end": 402,
+     "start": 417,
+     "end": 426,
      "book": "Jarom",
      "chapter": 1,
      "verse_start": 2,
@@ -401,8 +431,8 @@
     {
      "kind": "scripture",
      "text": "Ether 3:17",
-     "start": 468,
-     "end": 478,
+     "start": 492,
+     "end": 502,
      "book": "Ether",
      "chapter": 3,
      "verse_start": 17,
@@ -567,297 +597,32 @@
  ],
  "verses": [
   {
-   "label": "v. 1–4",
-   "start": 1,
-   "end": 4,
-   "title": "The council of the elders",
-   "text": "The grievance has not moved in thirty years: \"we will not have him to be our ruler; for it belongs unto us, who are the elder brethren\" (v. 3). Now it matures into \"let us slay him\" (v. 3). Nephi's editorial restraint is its own commentary: \"I do not write upon these plates all the words which they murmured against me\" (v. 4): the soul-track declines to archive the abuse.",
-   "cites": [
-    {
-     "quote": "we will not have him to be our ruler; for it belongs unto us, who are the elder brethren",
-     "verse": 3,
-     "start": 45,
-     "end": 142,
-     "spans": [
-      {
-       "w1": 44,
-       "w2": 62,
-       "text": "we will not have him to be our ruler; for it belongs unto us, who are the elder brethren"
-      }
-     ]
-    },
-    {
-     "quote": "let us slay him",
-     "verse": 3,
-     "start": 164,
-     "end": 188,
-     "spans": [
-      {
-       "w1": 27,
-       "w2": 30,
-       "text": "let us slay him"
-      }
-     ]
-    },
-    {
-     "quote": "I do not write upon these plates all the words which they murmured against me",
-     "verse": 4,
-     "start": 241,
-     "end": 327,
-     "spans": [
-      {
-       "w1": 2,
-       "w2": 16,
-       "text": "I do not write upon these plates all the words which they murmured against me"
-      }
-     ]
-    }
-   ]
+   "label": "v. 6",
+   "start": 6,
+   "end": 6,
+   "title": "A roster that finally admits the sisters",
+   "text": "The departure list names Nephi's family, Zoram and his family, Sam and his, Jacob and Joseph, \"and also my sisters, and all those who would go with me.\" This is the first mention of sisters in the record. The comparable roster at 1 Nephi 2:5 named mother and brothers only. They arrive here without names, without a number, and without explanation for the earlier silence, and the record never returns to them."
   },
   {
-   "label": "v. 5–8",
-   "start": 5,
-   "end": 8,
-   "title": "The warned departure",
-   "text": "Family, Zoram, Sam, Jacob, Joseph, \"and also my sisters\" (v. 6) (their first mention), and every believer: the company crosses the wilderness and pitches a city. The name is the people's choice, not Nephi's: \"my people would that we should call the name of the place Nephi\" (v. 8).",
-   "cites": [
-    {
-     "quote": "and also my sisters",
-     "verse": 6,
-     "start": 35,
-     "end": 63,
-     "spans": [
-      {
-       "w1": 34,
-       "w2": 37,
-       "text": "and also my sisters"
-      }
-     ]
-    },
-    {
-     "quote": "my people would that we should call the name of the place Nephi",
-     "verse": 8,
-     "start": 208,
-     "end": 280,
-     "spans": [
-      {
-       "w1": 2,
-       "w2": 14,
-       "text": "my people would that we should call the name of the place Nephi"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 9–13",
-   "start": 9,
-   "end": 13,
-   "title": "The covenant economy assembled",
-   "text": "Law of Moses observed \"in all things\" (v. 10), seed sown, abundance reaped, flocks raised, and the sacred equipment accounted for: the brass plates and \"the ball, or compass\" (v. 12). Records and guidance travel with the believing line; prosperity follows the formula that promised it.",
-   "cites": [
-    {
-     "quote": "in all things",
-     "verse": 10,
-     "start": 22,
-     "end": 45,
-     "spans": [
-      {
-       "w1": 18,
-       "w2": 20,
-       "text": "in all things"
-      }
-     ]
-    },
-    {
-     "quote": "the ball, or compass",
-     "verse": 12,
-     "start": 152,
-     "end": 182,
-     "spans": [
-      {
-       "w1": 19,
-       "w2": 22,
-       "text": "the ball, or compass"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 14–17",
+   "label": "v. 14",
    "start": 14,
-   "end": 17,
-   "title": "Swords, crafts, and a temple",
-   "text": "The sword of Laban becomes a pattern for defense, \"lest by any means the people who were now called Lamanites should come upon us\" (v. 14); buildings rise, metals are worked, and the temple is judged by the family's standing formula: \"the workmanship thereof was exceedingly fine\" (v. 16): said of a sword, then a ship, now a sanctuary.",
-   "cites": [
-    {
-     "quote": "lest by any means the people who were now called Lamanites should come upon us",
-     "verse": 14,
-     "start": 50,
-     "end": 138,
-     "spans": [
-      {
-       "w1": 20,
-       "w2": 34,
-       "text": "lest by any means the people who were now called Lamanites should come upon us"
-      }
-     ]
-    },
-    {
-     "quote": "the workmanship thereof was exceedingly fine",
-     "verse": 16,
-     "start": 234,
-     "end": 288,
-     "spans": [
-      {
-       "w1": 65,
-       "w2": 70,
-       "text": "the workmanship thereof was exceedingly fine"
-      }
-     ]
-    }
-   ]
+   "end": 14,
+   "title": "A single artifact turned into a pattern",
+   "text": "The record reports the sword of Laban being used as a template: \"after the manner of it did make many swords.\" The weapon taken at 1 Nephi 4:9 becomes the specification for an armory. The stated reason follows in the same verse and is precise about its grounds, \"for I knew their hatred towards me and my children,\" so what the record gives as the cause of the rearmament is a personal knowledge rather than a general threat."
   },
   {
    "label": "v. 18–20",
    "start": 18,
    "end": 20,
-   "title": "The crown declined, the words fulfilled",
-   "text": "Offered kingship, Nephi refuses; and the record pauses to audit prophecy: ruler and teacher \"according to the commandments of the Lord\" (v. 19) as promised in the valley, and the brothers \"cut off from his presence\" (v. 20) as warned there. Both edges of 1 Nephi 2 land in two verses, and the record checks each off by name.",
-   "cites": [
-    {
-     "quote": "according to the commandments of the Lord",
-     "verse": 19,
-     "start": 92,
-     "end": 143,
-     "spans": [
-      {
-       "w1": 37,
-       "w2": 43,
-       "text": "according to the commandments of the Lord"
-      }
-     ]
-    },
-    {
-     "quote": "cut off from his presence",
-     "verse": 20,
-     "start": 188,
-     "end": 223,
-     "spans": [
-      {
-       "w1": 40,
-       "w2": 44,
-       "text": "cut off from his presence"
-      }
-     ]
-    }
-   ]
+   "title": "A crown refused and a function kept",
+   "text": "The record separates two things a reader might merge. The people ask for a king and the request is declined: \"I, Nephi, was desirous that they should have no king.\" One verse later the same man reports holding a different office, \"I should be their ruler and their teacher,\" and states that it fulfils a promise made at 1 Nephi 2:22. The record thus has him decline the title he was offered and retain the role he was given, and verse 20 completes the pair by reporting the other half of that same promise fulfilled as well."
   },
   {
-   "label": "v. 21–25",
-   "start": 21,
-   "end": 25,
-   "title": "The hard verses",
-   "text": "The cursing is defined by verse 20 (severed presence), marked in verse 21, bounded by repentance in verse 22, and given its assignment in verse 25: \"a scourge unto thy seed, to stir them up in remembrance of me\" (v. 25). The record reports it as covenant machinery, and its own later voices (2 Ne. 26:33; Jacob 3:9) will guard the reading.",
-   "cites": [
-    {
-     "quote": "a scourge unto thy seed, to stir them up in remembrance of me",
-     "verse": 25,
-     "start": 148,
-     "end": 219,
-     "spans": [
-      {
-       "w1": 11,
-       "w2": 23,
-       "text": "a scourge unto thy seed, to stir them up in remembrance of me"
-      }
-     ]
-    }
-   ],
-   "refs": [
-    {
-     "kind": "scripture",
-     "text": "2 Ne. 26:33",
-     "start": 292,
-     "end": 303,
-     "book": "2 Ne",
-     "chapter": 26,
-     "verse_start": 33,
-     "verse_end": 33
-    },
-    {
-     "kind": "scripture",
-     "text": "Jacob 3:9",
-     "start": 305,
-     "end": 314,
-     "book": "Jacob",
-     "chapter": 3,
-     "verse_start": 9,
-     "verse_end": 9
-    }
-   ]
-  },
-  {
-   "label": "v. 26–34",
-   "start": 26,
+   "label": "v. 28–34",
+   "start": 28,
    "end": 34,
-   "title": "Priests, plates, and the long view",
-   "text": "Priests consecrated, and then the sentence: \"we lived after the manner of happiness\" (v. 27). Thirty years on, the small plates are commanded; Nephi engraves \"that which is pleasing unto God\" (v. 32) and points historians to \"mine other plates\" (v. 33). Forty years on, \"wars and contentions\" (v. 34) have begun: happiness and the long sorrow, both on the record.",
-   "cites": [
-    {
-     "quote": "we lived after the manner of happiness",
-     "verse": 27,
-     "start": 44,
-     "end": 92,
-     "spans": [
-      {
-       "w1": 7,
-       "w2": 13,
-       "text": "we lived after the manner of happiness"
-      }
-     ]
-    },
-    {
-     "quote": "that which is pleasing unto God",
-     "verse": 32,
-     "start": 158,
-     "end": 199,
-     "spans": [
-      {
-       "w1": 4,
-       "w2": 9,
-       "text": "that which is pleasing unto God"
-      }
-     ]
-    },
-    {
-     "quote": "mine other plates",
-     "verse": 33,
-     "start": 225,
-     "end": 252,
-     "spans": [
-      {
-       "w1": 21,
-       "w2": 23,
-       "text": "mine other plates"
-      }
-     ]
-    },
-    {
-     "quote": "wars and contentions",
-     "verse": 34,
-     "start": 270,
-     "end": 300,
-     "spans": [
-      {
-       "w1": 18,
-       "w2": 20,
-       "text": "wars and contentions"
-      }
-     ]
-    }
-   ]
+   "title": "Two dates with a commandment between them",
+   "text": "The record gives a year at verse 28, \"thirty years had passed away from the time we left Jerusalem,\" and another at verse 34, \"forty years had passed away.\" Between the two sits the order to make a second set of plates and the making of them, so the whole small-plates project is placed inside a ten-year window and is dated from an event on another continent. Verse 33 also sends the reader elsewhere for the omitted material, \"they must search mine other plates,\" which is the same division of labor announced at 1 Nephi 9:2–4."
   }
  ],
  "chapter": [
@@ -874,12 +639,56 @@
   {
    "n": 3,
    "title": "A civilization in one chapter",
-   "text": "Law, agriculture, defense, crafts in wood and metal, a temple, declined monarchy, consecrated ministry, double bookkeeping: the Nephite template is assembled in thirty verses. Every later golden age in the record (Mosiah's, the fourth-Nephi peace) is this chapter's list, rerun."
+   "text": "Eight institutions are established between verses 10 and 31: the law of Moses kept, sowing and reaping, swords made after the pattern of Laban's, work \"in all manner of wood, and of iron, and of copper, and of brass, and of steel, and of gold, and of silver,\" a temple, a refused kingship, Jacob and Joseph consecrated priests and teachers, and a second set of plates. Verse 27 sums the result in six words, \"we lived after the manner of happiness.\" The same inventory recurs at Alma 1:26–29 and 4 Nephi 1:2–3 as the description of a working society.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 1:26–29",
+     "start": 479,
+     "end": 491,
+     "book": "Alma",
+     "chapter": 1,
+     "verse_start": 26,
+     "verse_end": 29
+    }
+   ]
   },
   {
    "n": 4,
    "title": "The record keeps its own conscience",
-   "text": "The cursing verses are preserved unsoftened, but so are their bounds (repent and return) and the record's later rebukes of Nephite contempt. A book willing to keep both its hardest sentences and its own corrections invites readers to do the same with their histories."
+   "text": "Verses 21 through 24 are kept without softening, and so is the limit attached to them at verse 22, \"save they shall repent of their iniquities.\" The record then prints its own corrections elsewhere: Jacob 3:5–9 rebukes the Nephites for despising the other people, Alma 9:15–17 says it will be \"more tolerable for them in the day of judgment than for you,\" and Alma 17:15 attributes their state to \"the traditions of their fathers.\" The hardest sentences and the later rebukes of those who quote them stand in the same volume.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 3:5–9",
+     "start": 199,
+     "end": 210,
+     "book": "Jacob",
+     "chapter": 3,
+     "verse_start": 5,
+     "verse_end": 9
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 9:15–17",
+     "start": 264,
+     "end": 276,
+     "book": "Alma",
+     "chapter": 9,
+     "verse_start": 15,
+     "verse_end": 17
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 17:15",
+     "start": 360,
+     "end": 370,
+     "book": "Alma",
+     "chapter": 17,
+     "verse_start": 15,
+     "verse_end": 15
+    }
+   ]
   },
   {
    "n": 5,
@@ -1376,6 +1185,84 @@
    "mirror": "1ne09-004"
   },
   {
+   "id": "2ne05-017",
+   "scope": "BOM",
+   "head": "Alma 23:18",
+   "anchor": {
+    "verse": 21,
+    "w1": 2,
+    "w2": 19,
+    "quote": "he had caused the cursing to come upon them, yea, even a sore cursing, because of their iniquity."
+   },
+   "reason": "the curse ceasing when a people turned",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 23,
+     "verse": 18,
+     "w1": 27,
+     "w2": 35,
+     "quote": "the curse of God did no more follow them.",
+     "verse_text": "And they began to be a very industrious people; yea, and they were friendly with the Nephites; therefore, they did open a correspondence with them, and the curse of God did no more follow them.",
+     "markdown": "And they began to be a very industrious people; yea, and they were friendly with the Nephites; therefore, they did open a correspondence with them, and **the curse of God did no more follow them**.",
+     "span": true
+    }
+   ],
+   "mirror": "al23-006"
+  },
+  {
+   "id": "2ne05-018",
+   "scope": "BOM",
+   "head": "Hel. 7:7",
+   "anchor": {
+    "verse": 27,
+    "w1": 7,
+    "w2": 13,
+    "quote": "we lived after the manner of happiness."
+   },
+   "reason": "a later Nephi looking back on these years",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 7,
+     "verse": 7,
+     "w1": 10,
+     "w2": 23,
+     "quote": "the days when my father Nephi first came out of the land of Jerusalem,",
+     "verse_text": "Oh, that I could have had my days in the days when my father Nephi first came out of the land of Jerusalem, that I could have joyed with him in the promised land; then were his people easy to be entreated, firm to keep the commandments of God, and slow to be led to do iniquity; and they were quick to hearken unto the words of the Lord—",
+     "markdown": "Oh, that I could have had my days in **the days when my father Nephi first came out of the land of Jerusalem**, that I could have joyed with him in the promised land; then were his people easy to be entreated, firm to keep the commandments of God, and slow to be led to do iniquity; and they were quick to hearken unto the words of the Lord—",
+     "span": true
+    }
+   ],
+   "mirror": "hel07-005"
+  },
+  {
+   "id": "2ne05-019",
+   "scope": "BOM",
+   "head": "3 Ne. 2:15",
+   "anchor": {
+    "verse": 21,
+    "w1": 2,
+    "w2": 19,
+    "quote": "he had caused the cursing to come upon them, yea, even a sore cursing, because of their iniquity."
+   },
+   "reason": "the mark taken from Lamanites who joined",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 2,
+     "verse": 15,
+     "w1": 2,
+     "w2": 7,
+     "quote": "their curse was taken from them,",
+     "verse_text": "And their curse was taken from them, and their skin became white like unto the Nephites;",
+     "markdown": "And **their curse was taken from them**, and their skin became white like unto the Nephites;",
+     "span": true
+    }
+   ],
+   "mirror": "3ne02-006"
+  },
+  {
    "id": "2ne05-010",
    "scope": "SW",
    "head": "1 Kgs. 6:2",
@@ -1473,7 +1360,9 @@
    "w2": 19,
    "quote": "he had caused the cursing to come upon them, yea, even a sore cursing, because of their iniquity",
    "entries": [
-    "2ne05-015"
+    "2ne05-015",
+    "2ne05-017",
+    "2ne05-019"
    ]
   },
   {
@@ -1523,6 +1412,15 @@
    ]
   },
   {
+   "verse": 27,
+   "w1": 7,
+   "w2": 13,
+   "quote": "we lived after the manner of happiness.",
+   "entries": [
+    "2ne05-018"
+   ]
+  },
+  {
    "verse": 30,
    "w1": 13,
    "w2": 23,
@@ -1533,7 +1431,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "14befd058a15e758"
+  "at": "2026-09-07",
+  "source_sha256": "7582a971798ead9a"
  }
 }

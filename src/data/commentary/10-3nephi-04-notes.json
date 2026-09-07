@@ -1,0 +1,797 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "3 Nephi",
+  "book_slug": "3nephi",
+  "chapter": 4,
+  "volume_order": "10",
+  "speakers": [
+   "Mormon, as narrator",
+   "The people, in three cries"
+  ],
+  "audience": "The reader of the abridgment",
+  "location": "The gathered land, and the wilderness borders",
+  "date": "AD 18–22",
+  "unit": "The signs and the robber wars (3 Nephi 1–7)",
+  "principles": [
+   "An enemy starved by a strategy rather than beaten by one",
+   "Fear of God mistaken for fear of men",
+   "A victory the winners explain by their own repentance"
+  ],
+  "connections": 11,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The empty land is worthless",
+   "text": "Verses 2 and 3 say the deserted lands held no game and no food. 3 Nephi 3:22 to 24 is why: the Nephites had taken their flocks, herds, grain and substance with them into one place. The evacuation was designed to leave exactly this behind."
+  },
+  {
+   "n": 2,
+   "title": "The gathering was provisioned for seven years",
+   "text": "Verse 4 says the Nephites had reserved enough to subsist that long, and hoped to destroy the robbers in that time."
+  },
+  {
+   "n": 3,
+   "title": "Giddianhi is forced to attack",
+   "text": "Verses 5 and 6 say there was no other way to eat, and that they dared not spread out to farm."
+  },
+  {
+   "n": 4,
+   "title": "The robbers have a uniform",
+   "text": "Verse 7 gives them lamb-skins, blood dye, shaved heads, and head-plates."
+  },
+  {
+   "n": 5,
+   "title": "The Nephites fall to the ground praying",
+   "text": "Verse 8 has the whole army down, and verse 9 has the robbers cheering because they read it as terror."
+  },
+  {
+   "n": 6,
+   "title": "A siege replaces the assault",
+   "text": "Verses 16 and 17 have Zemnarihah lay siege, and verses 18 through 20 explain why it starved his own side first. 3 Nephi 4:4 had put seven years of provisions inside the Nephite lines, so the besiegers were the only party without a supply."
+  },
+  {
+   "n": 7,
+   "title": "The execution is a ceremony",
+   "text": "Verses 28 and 29 have Zemnarihah hanged upon a tree, the tree felled, and a formula cried over the felling. Deuteronomy 21:22 and 23 requires a hanged body to be taken down the same day; nothing else in the volume records an execution followed by a ritual act on the instrument."
+  }
+ ],
+ "words": [
+  {
+   "term": "Subsist",
+   "verse_label": "v. 4",
+   "text": "To keep alive, to have enough to live on. The record uses the word four times, twice in this chapter, and the King James Bible never. Both sides of this war are described by what they can subsist on."
+  },
+  {
+   "term": "Lamb-skin",
+   "verse_label": "v. 7",
+   "text": "A skin worn about the loins. The word occurs once in all of scripture, here, in the description of the robbers' appearance."
+  },
+  {
+   "term": "Supplicate",
+   "verse_label": "v. 10",
+   "text": "To ask humbly. The record uses the family five times and the King James Bible sixty, heavily in Solomon's temple prayer (1 Kgs. 8). Verse 10 sets it against fear of the enemy."
+  },
+  {
+   "term": "Siege",
+   "verse_label": "v. 16",
+   "text": "The surrounding of a place to force surrender. The record uses the word six times, four of them in this chapter. Verse 16 describes the aim as cutting off outward privileges."
+  },
+  {
+   "term": "Scantiness",
+   "verse_label": "v. 19",
+   "text": "Insufficiency, shortness of supply. Scripture carries the word just once, here, of the robbers' provisions during their own siege."
+  },
+  {
+   "term": "Felled",
+   "verse_label": "v. 29",
+   "text": "Cut down. This chapter holds both uses the record has, against one in the King James Bible. Verse 29 turns a felled tree into a figure for the fall of secret combinations."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "There was no game for the robbers save it were in the wilderness",
+   "verse_label": "v. 2",
+   "text": "The strategic fact the whole chapter rests on. Ground taken from a people who removed everything portable feeds nobody."
+  },
+  {
+   "term": "That they might subsist for the space of seven years",
+   "verse_label": "v. 4",
+   "text": "The scale of the preparation. The gathering of 3 Nephi 3 was provisioned for a long war, and the war lasts four years."
+  },
+  {
+   "term": "They had a lamb-skin about their loins, and they were dyed in blood",
+   "verse_label": "v. 7",
+   "text": "The record's one description of how the robbers presented themselves. Verse 7 says the terror of the appearance was part of the effect."
+  },
+  {
+   "term": "They had supposed that the Nephites had fallen with fear because of the terror of their armies",
+   "verse_label": "v. 9",
+   "text": "The misreading that decides the battle. An army on its face looks the same from a distance whichever direction it is facing."
+  },
+  {
+   "term": "They did fear their God and did supplicate him for protection",
+   "verse_label": "v. 10",
+   "text": "Mormon's correction of the robbers' reading. The same posture carries the opposite meaning."
+  },
+  {
+   "term": "There never was known so great a slaughter among all the people of Lehi since he left Jerusalem",
+   "verse_label": "v. 11",
+   "text": "The superlative measured against six centuries. Mormon will use the same kind of measure again about his own generation (Morm. 4:12).",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Morm. 4:12",
+     "start": 121,
+     "end": 131,
+     "book": "Morm",
+     "chapter": 4,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
+  },
+  {
+   "term": "Notwithstanding the threatenings and the oaths which Giddianhi had made",
+   "verse_label": "v. 12",
+   "text": "The letter of 3 Nephi 3 answered by the outcome. Two sworn oaths and a month's notice come to nothing."
+  },
+  {
+   "term": "If they should cut them off from all their outward privileges",
+   "verse_label": "v. 16",
+   "text": "Zemnarihah's theory of the siege. He is trying to reach the will of a people through their comforts."
+  },
+  {
+   "term": "The wild game became scarce in the wilderness",
+   "verse_label": "v. 20",
+   "text": "The siege turning on the besiegers. Verse 21 adds Nephite raids by day and night on a hungry army."
+  },
+  {
+   "term": "They did fell the tree to the earth",
+   "verse_label": "v. 28",
+   "text": "The act performed after the execution. The tree is brought down with the man, and verse 29 supplies the words that go with it."
+  },
+  {
+   "term": "It was because of their repentance and their humility that they had been delivered",
+   "verse_label": "v. 33",
+   "text": "The people's own account of the victory. They credit the condition Lachoneus had set in 3 Nephi 3:15 rather than the strategy."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 2–6",
+   "start": 2,
+   "end": 6,
+   "title": "Five verses of logistics before a shot is fired",
+   "text": "The record explains the battle before it narrates it, and the explanation is entirely about supply. There were \"no wild beasts nor game in those lands which had been deserted by the Nephites\"; the robbers \"could not exist save it were in the wilderness, for the want of food\"; they \"durst not spread themselves upon the face of the land insomuch that they could raise grain.\" Only then comes the conclusion in verse 4, that there was \"no chance for the robbers to plunder and to obtain food, save it were to come up in open battle.\" An attack that looks like aggression is presented as the last option of a starving force."
+  },
+  {
+   "label": "v. 8–10",
+   "start": 8,
+   "end": 10,
+   "title": "The enemy's mistaken reading, reported from inside",
+   "text": "The Nephites fall to the earth and pray. The record then leaves them and gives the robbers' interpretation: they \"began to shout with a loud voice, because of their joy, for they had supposed that the Nephites had fallen with fear.\" Verse 10 corrects it, \"in this thing they were disappointed, for the Nephites did not fear them; but they did fear their God.\" An error is narrated as the enemy experienced it and only afterwards shown to be an error, which is a point of view the surrounding chapters never take."
+  },
+  {
+   "label": "v. 16–24",
+   "start": 16,
+   "end": 24,
+   "title": "A siege in which the besiegers starve",
+   "text": "The robbers change strategy and the causal engine does not change with it. \"It was impossible for the robbers to lay siege sufficiently long to have any effect upon the Nephites, because of their much provision\" (v. 18), while the robbers had \"nothing save it were meat for their subsistence\" (v. 19), and the game \"became scarce in the wilderness insomuch that the robbers were about to perish with hunger\" (v. 20). The withdrawal in verse 23 is ordered \"because of the great destruction which came upon them by night and by day,\" and Gidgiddoni's counter-move in verse 24 is taken \"knowing of their weakness because of the want of food.\"",
+   "cites": [
+    {
+     "quote": "It was impossible for the robbers to lay siege sufficiently long to have any effect upon the Nephites, because of their much provision",
+     "verse": 18,
+     "start": 75,
+     "end": 219,
+     "spans": [
+      {
+       "w1": 11,
+       "w2": 33,
+       "text": "It was impossible for the robbers to lay siege sufficiently long to have any effect upon the Nephites, because of their much provision"
+      }
+     ]
+    },
+    {
+     "quote": "nothing save it were meat for their subsistence",
+     "verse": 19,
+     "start": 243,
+     "end": 300,
+     "spans": [
+      {
+       "w1": 15,
+       "w2": 22,
+       "text": "nothing save it were meat for their subsistence"
+      }
+     ]
+    },
+    {
+     "quote": "became scarce in the wilderness insomuch that the robbers were about to perish with hunger",
+     "verse": 20,
+     "start": 315,
+     "end": 415,
+     "spans": [
+      {
+       "w1": 10,
+       "w2": 24,
+       "text": "became scarce in the wilderness insomuch that the robbers were about to perish with hunger"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 28",
+   "start": 28,
+   "end": 28,
+   "title": "An execution turned into an emblem in two verses",
+   "text": "The killing is reported with an oddly specific stage direction: Zemnarihah \"was taken and hanged upon a tree, yea, even upon the top thereof until he was dead. And when they had hanged him until he was dead they did fell the tree to the earth.\" Then verse 29 makes the felling mean something, in a cry the record quotes: \"May the Lord preserve his people in righteousness and in holiness of heart, that they may cause to be felled to the earth all who shall seek to slay them.\" The tree is cut down first and interpreted second."
+  },
+  {
+   "label": "v. 30–33",
+   "start": 30,
+   "end": 33,
+   "title": "Four verses of liturgy for a one-verse victory",
+   "text": "The military outcome is given in verse 27 and takes a single sentence. What follows runs four verses and is almost entirely quoted speech: \"May the God of Abraham, and the God of Isaac, and the God of Jacob, protect this people,\" then singing, then \"Hosanna to the Most High God.\" The first formula is Exodus 3:6, and the volume uses God of Abraham in eight verses. Hosanna appears in three verses of the volume, and this is the middle one, between 1 Ne. 11:6 and the crowd at 3 Ne. 11:17.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 11:6",
+     "start": 449,
+     "end": 459,
+     "book": "1 Ne",
+     "chapter": 11,
+     "verse_start": 6,
+     "verse_end": 6
+    },
+    {
+     "kind": "scripture",
+     "text": "3 Ne. 11:17",
+     "start": 477,
+     "end": 488,
+     "book": "3 Ne",
+     "chapter": 11,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The land was the weapon",
+   "text": "The Nephites won by taking everything edible with them. Verses 2 through 4 make the emptied country the decisive fact before any battle is fought."
+  },
+  {
+   "n": 2,
+   "title": "The enemy's timetable is set by hunger",
+   "text": "Verse 5 has Giddianhi attacking because there is no other way to eat. The side that prepared gets to choose when the fighting happens."
+  },
+  {
+   "n": 3,
+   "title": "Terror and prayer look alike from across a field",
+   "text": "Verses 8 and 9 have the robbers reading a praying army as a broken one. Mormon spends verse 10 correcting the misreading."
+  },
+  {
+   "n": 4,
+   "title": "The oaths of 3 Nephi 3 are answered by silence",
+   "text": "Verse 12 notes the threatenings and simply reports the result. Nobody writes back."
+  },
+  {
+   "n": 5,
+   "title": "The siege inverts inside five verses",
+   "text": "Verses 18 through 20 have the besiegers starving. Zemnarihah's plan required the Nephites to be less prepared than they were."
+  },
+  {
+   "n": 6,
+   "title": "Gidgiddoni fights at night and behind them",
+   "text": "Verses 24 and 25 have him blocking a retreat rather than pressing a front. The defensive commander is not a passive one."
+  },
+  {
+   "n": 7,
+   "title": "The execution is made into a lesson",
+   "text": "Verse 29 attaches a spoken formula to the felling of the tree, in the shape Alma 46:22 used with the garments.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 46:22",
+     "start": 76,
+     "end": 86,
+     "book": "Alma",
+     "chapter": 46,
+     "verse_start": 22,
+     "verse_end": 22
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "title": "The winners credit repentance",
+   "text": "Verse 33 gives the reason for the deliverance as their humility. The seven years of provisions go unmentioned in their own account."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Take what makes the ground worth holding",
+    "verse_label": "v. 3",
+    "text": "They left the land and carried the living off it. What an opponent gains is only as good as what remains in it."
+   },
+   {
+    "title": "Prepare for longer than you expect to need",
+    "verse_label": "v. 4",
+    "text": "Seven years of stores decided a four-year war. The margin is what makes waiting a strategy instead of a hope."
+   },
+   {
+    "title": "Some of the threat is costume",
+    "verse_label": "v. 7",
+    "text": "Giddianhi's armies came with heads shorn, lamb-skins about their loins, and their bodies dyed in blood, and the record dwells on how terrible the appearance was. Separate what an intimidating presentation can do from what it is designed to look like it can do."
+   },
+   {
+    "title": "Expect your posture to be misread",
+    "verse_label": "v. 9",
+    "text": "Kneeling looked like collapse. People will read your composure through whatever they already believe about you."
+   },
+   {
+    "title": "Point the fear at the right object",
+    "verse_label": "v. 10",
+    "text": "The Nephites went to the ground in supplication, and the record says the fear went to their God and not to the robbers rushing at them. Where fear is directed decides whether it freezes a group or organizes one."
+   },
+   {
+    "title": "Stop the pursuit where you said you would",
+    "verse_label": "v. 13",
+    "text": "Gidgiddoni had his armies chase the robbers only as far as the borders of the wilderness. Fixing the end of a pursuit in advance is what keeps a victory from becoming the next campaign."
+   },
+   {
+    "title": "Sing it together afterward",
+    "verse_label": "v. 31",
+    "text": "They broke forth all as one in singing and praising God for what had been done for them. Marking a deliverance out loud and in company is how a group keeps hold of what it came through."
+   },
+   {
+    "title": "Say out loud why you think it went well",
+    "verse_label": "v. 33",
+    "text": "They named repentance rather than logistics. Whatever you credit is what you will do again."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What am I defending that would be worthless to whoever took it?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "What is forcing my hand right now, and who set that up?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "When have I mistaken someone's strength for weakness?"
+   },
+   {
+    "verse_label": "v. 10",
+    "start": 10,
+    "end": 10,
+    "text": "What do I actually fear, and what does that change?"
+   },
+   {
+    "verse_label": "v. 16",
+    "start": 16,
+    "end": 16,
+    "text": "What outward privilege could be cut off before I would yield?"
+   },
+   {
+    "verse_label": "v. 28",
+    "start": 28,
+    "end": 28,
+    "text": "What do I want said over the end of a thing I have fought?"
+   },
+   {
+    "verse_label": "v. 33",
+    "start": 33,
+    "end": 33,
+    "text": "What do I credit for the last good outcome in my life?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "3ne04-001",
+   "scope": "BOOK",
+   "head": "3 Ne. 3:21",
+   "anchor": {
+    "verse": 11,
+    "w1": 28,
+    "w2": 41,
+    "quote": "there never was known so great a slaughter among all the people of Lehi"
+   },
+   "reason": "the strategy that produced this battle, stated before it",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 3,
+     "verse": 21,
+     "w1": 52,
+     "w2": 60,
+     "quote": "we will wait till they shall come against us;",
+     "verse_text": "But Gidgiddoni saith unto them: The Lord forbid; for if we should go up against them the Lord would deliver us into their hands; therefore we will prepare ourselves in the center of our lands, and we will gather all our armies together, and we will not go against them, but we will wait till they shall come against us; therefore as the Lord liveth, if we do this he will deliver them into our hands.",
+     "markdown": "But Gidgiddoni saith unto them: The Lord forbid; for if we should go up against them the Lord would deliver us into their hands; therefore we will prepare ourselves in the center of our lands, and we will gather all our armies together, and we will not go against them, but **we will wait till they shall come against us**; therefore as the Lord liveth, if we do this he will deliver them into our hands.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne03-001"
+  },
+  {
+   "id": "3ne04-002",
+   "scope": "BOOK",
+   "head": "3 Ne. 3:11",
+   "anchor": {
+    "verse": 14,
+    "w1": 7,
+    "w2": 19,
+    "quote": "Giddianhi, who had stood and fought with boldness, was pursued as he fled"
+   },
+   "reason": "the same word, of the demand he made in writing",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 3,
+     "verse": 11,
+     "w1": 16,
+     "w2": 21,
+     "quote": "because of the boldness of Giddianhi",
+     "verse_text": "And now it came to pass when Lachoneus received this epistle he was exceedingly astonished, because of the boldness of Giddianhi demanding the possession of the land of the Nephites, and also of threatening the people and avenging the wrongs of those that had received no wrong, save it were they had wronged themselves by dissenting away unto those wicked and abominable robbers.",
+     "markdown": "And now it came to pass when Lachoneus received this epistle he was exceedingly astonished, **because of the boldness of Giddianhi** demanding the possession of the land of the Nephites, and also of threatening the people and avenging the wrongs of those that had received no wrong, save it were they had wronged themselves by dissenting away unto those wicked and abominable robbers.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne03-002"
+  },
+  {
+   "id": "3ne04-003",
+   "scope": "BOOK",
+   "head": "3 Ne. 3:8",
+   "anchor": {
+    "verse": 12,
+    "w1": 2,
+    "w2": 11,
+    "quote": "notwithstanding the threatenings and the oaths which Giddianhi had made"
+   },
+   "reason": "the two oaths themselves, sworn a month in advance",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 3,
+     "verse": 8,
+     "w1": 27,
+     "w2": 47,
+     "quote": "I swear unto you with an oath, that on the morrow month I will command that my armies shall come down",
+     "verse_text": "And behold, I swear unto you, if ye will do this, with an oath, ye shall not be destroyed; but if ye will not do this, I swear unto you with an oath, that on the morrow month I will command that my armies shall come down against you, and they shall not stay their hand and shall spare not, but shall slay you, and shall let fall the sword upon you even until ye shall become extinct.",
+     "markdown": "And behold, I swear unto you, if ye will do this, with an oath, ye shall not be destroyed; but if ye will not do this, **I swear unto you with an oath, that on the morrow month I will command that my armies shall come down** against you, and they shall not stay their hand and shall spare not, but shall slay you, and shall let fall the sword upon you even until ye shall become extinct.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne03-011"
+  },
+  {
+   "id": "3ne04-004",
+   "scope": "BOOK",
+   "head": "3 Ne. 3:25",
+   "anchor": {
+    "verse": 3,
+    "w1": 19,
+    "w2": 33,
+    "quote": "the Nephites had left their lands desolate, and had gathered their flocks and their herds"
+   },
+   "reason": "the gathering that emptied the country, and its cost",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 3,
+     "verse": 25,
+     "w1": 10,
+     "w2": 19,
+     "quote": "they did dwell in one land, and in one body,",
+     "verse_text": "And they did fortify themselves against their enemies; and they did dwell in one land, and in one body, and they did fear the words which had been spoken by Lachoneus, insomuch that they did repent of all their sins; and they did put up their prayers unto the Lord their God, that he would deliver them in the time that their enemies should come down against them to battle.",
+     "markdown": "And they did fortify themselves against their enemies; and **they did dwell in one land, and in one body**, and they did fear the words which had been spoken by Lachoneus, insomuch that they did repent of all their sins; and they did put up their prayers unto the Lord their God, that he would deliver them in the time that their enemies should come down against them to battle.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne03-012"
+  },
+  {
+   "id": "3ne04-011",
+   "scope": "BOOK",
+   "head": "3 Ne. 5:4",
+   "anchor": {
+    "verse": 27,
+    "w1": 2,
+    "w2": 14,
+    "quote": "there were many thousands who did yield themselves up prisoners unto the Nephites,"
+   },
+   "reason": "the same capture, summed up afterward",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 5,
+     "verse": 4,
+     "w1": 8,
+     "w2": 15,
+     "quote": "when they had taken all the robbers prisoners,",
+     "verse_text": "And now it came to pass that when they had taken all the robbers prisoners, insomuch that none did escape who were not slain, they did cast their prisoners into prison, and did cause the word of God to be preached unto them; and as many as would repent of their sins and enter into a covenant that they would murder no more were set at liberty.",
+     "markdown": "And now it came to pass that **when they had taken all the robbers prisoners**, insomuch that none did escape who were not slain, they did cast their prisoners into prison, and did cause the word of God to be preached unto them; and as many as would repent of their sins and enter into a covenant that they would murder no more were set at liberty.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne05-001"
+  },
+  {
+   "id": "3ne04-005",
+   "scope": "BOM",
+   "head": "Alma 58:6",
+   "anchor": {
+    "verse": 1,
+    "w1": 24,
+    "w2": 34,
+    "quote": "began to come down and to sally forth from the hills"
+   },
+   "reason": "the same verb, of Lamanites raiding out of strongholds",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 58,
+     "verse": 6,
+     "w1": 2,
+     "w2": 12,
+     "quote": "the Lamanites were sallying forth against us from time to time,",
+     "verse_text": "And the Lamanites were sallying forth against us from time to time, resolving by stratagem to destroy us; nevertheless we could not come to battle with them, because of their retreats and their strongholds.",
+     "markdown": "And **the Lamanites were sallying forth against us from time to time**, resolving by stratagem to destroy us; nevertheless we could not come to battle with them, because of their retreats and their strongholds.",
+     "span": true
+    }
+   ],
+   "mirror": "al58-012"
+  },
+  {
+   "id": "3ne04-006",
+   "scope": "BOM",
+   "head": "Alma 46:22",
+   "anchor": {
+    "verse": 29,
+    "w1": 37,
+    "w2": 46,
+    "quote": "even as this man hath been felled to the earth"
+   },
+   "reason": "the same oath formula, garments cast at Moroni's feet",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 46,
+     "verse": 22,
+     "w1": 55,
+     "w2": 69,
+     "quote": "even as we have cast our garments at thy feet to be trodden under foot,",
+     "verse_text": "Now this was the covenant which they made, and they cast their garments at the feet of Moroni, saying: We covenant with our God, that we shall be destroyed, even as our brethren in the land northward, if we shall fall into transgression; yea, he may cast us at the feet of our enemies, even as we have cast our garments at thy feet to be trodden under foot, if we shall fall into transgression.",
+     "markdown": "Now this was the covenant which they made, and they cast their garments at the feet of Moroni, saying: We covenant with our God, that we shall be destroyed, even as our brethren in the land northward, if we shall fall into transgression; yea, he may cast us at the feet of our enemies, **even as we have cast our garments at thy feet to be trodden under foot**, if we shall fall into transgression.",
+     "span": true
+    }
+   ],
+   "mirror": "al46-019"
+  },
+  {
+   "id": "3ne04-007",
+   "scope": "BOM",
+   "head": "Mosiah 24:22",
+   "anchor": {
+    "verse": 31,
+    "w1": 7,
+    "w2": 19,
+    "quote": "they did break forth, all as one, in singing, and praising their God"
+   },
+   "reason": "Alma's people giving thanks the same way after their deliverance",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 24,
+     "verse": 22,
+     "w1": 22,
+     "w2": 30,
+     "quote": "lifted their voices in the praises of their God.",
+     "verse_text": "And they gave thanks to God, yea, all their men and all their women and all their children that could speak lifted their voices in the praises of their God.",
+     "markdown": "And they gave thanks to God, yea, all their men and all their women and all their children that could speak **lifted their voices in the praises of their God**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos24-020"
+  },
+  {
+   "id": "3ne04-008",
+   "scope": "BOM",
+   "head": "2 Ne. 26:22",
+   "anchor": {
+    "verse": 29,
+    "w1": 24,
+    "w2": 36,
+    "quote": "all who shall seek to slay them because of power and secret combinations"
+   },
+   "reason": "Nephi naming the founder of those combinations",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 26,
+     "verse": 22,
+     "w1": 2,
+     "w2": 12,
+     "quote": "there are also secret combinations, even as in times of old,",
+     "verse_text": "And there are also secret combinations, even as in times of old, according to the combinations of the devil, for he is the founder of all these things; yea, the founder of murder, and works of darkness; yea, and he leadeth them by the neck with a flaxen cord, until he bindeth them with his strong cords forever.",
+     "markdown": "And **there are also secret combinations, even as in times of old**, according to the combinations of the devil, for he is the founder of all these things; yea, the founder of murder, and works of darkness; yea, and he leadeth them by the neck with a flaxen cord, until he bindeth them with his strong cords forever.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne26-015"
+  },
+  {
+   "id": "3ne04-009",
+   "scope": "SW",
+   "head": "Deut. 21:22",
+   "anchor": {
+    "verse": 28,
+    "w1": 5,
+    "w2": 11,
+    "quote": "was taken and hanged upon a tree"
+   },
+   "reason": "the law that governed hanging a man on a tree",
+   "targets": [
+    {
+     "ref": "Deut.",
+     "chapter": 21,
+     "verse": 22,
+     "w1": 2,
+     "w2": 11,
+     "quote": "if a man have committed a sin worthy of death,",
+     "verse_text": "And if a man have committed a sin worthy of death, and he be to be put to death, and thou hang him on a tree:",
+     "markdown": "And **if a man have committed a sin worthy of death**, and he be to be put to death, and thou hang him on a tree:",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne04-010",
+   "scope": "SW",
+   "head": "Ex. 3:6",
+   "anchor": {
+    "verse": 30,
+    "w1": 12,
+    "w2": 26,
+    "quote": "May the God of Abraham, and the God of Isaac, and the God of Jacob"
+   },
+   "reason": "the same three names, spoken out of the bush",
+   "targets": [
+    {
+     "ref": "Ex.",
+     "chapter": 3,
+     "verse": 6,
+     "w1": 11,
+     "w2": 23,
+     "quote": "the God of Abraham, the God of Isaac, and the God of Jacob.",
+     "verse_text": "Moreover he said, I am the God of thy father, the God of Abraham, the God of Isaac, and the God of Jacob. And Moses hid his face; for he was afraid to look upon God.",
+     "markdown": "Moreover he said, I am the God of thy father, **the God of Abraham, the God of Isaac, and the God of Jacob**. And Moses hid his face; for he was afraid to look upon God.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 24,
+   "w2": 34,
+   "quote": "began to come down and to sally forth from the hills",
+   "entries": [
+    "3ne04-005"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 19,
+   "w2": 33,
+   "quote": "the Nephites had left their lands desolate, and had gathered their flocks and their herds",
+   "entries": [
+    "3ne04-004"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 28,
+   "w2": 41,
+   "quote": "there never was known so great a slaughter among all the people of Lehi",
+   "entries": [
+    "3ne04-001"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 2,
+   "w2": 11,
+   "quote": "notwithstanding the threatenings and the oaths which Giddianhi had made",
+   "entries": [
+    "3ne04-003"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 7,
+   "w2": 19,
+   "quote": "Giddianhi, who had stood and fought with boldness, was pursued as he fled",
+   "entries": [
+    "3ne04-002"
+   ]
+  },
+  {
+   "verse": 27,
+   "w1": 2,
+   "w2": 14,
+   "quote": "there were many thousands who did yield themselves up prisoners unto the Nephites,",
+   "entries": [
+    "3ne04-011"
+   ]
+  },
+  {
+   "verse": 28,
+   "w1": 5,
+   "w2": 11,
+   "quote": "was taken and hanged upon a tree",
+   "entries": [
+    "3ne04-009"
+   ]
+  },
+  {
+   "verse": 29,
+   "w1": 24,
+   "w2": 36,
+   "quote": "all who shall seek to slay them because of power and secret combinations",
+   "entries": [
+    "3ne04-008"
+   ]
+  },
+  {
+   "verse": 29,
+   "w1": 37,
+   "w2": 46,
+   "quote": "even as this man hath been felled to the earth",
+   "entries": [
+    "3ne04-006"
+   ]
+  },
+  {
+   "verse": 30,
+   "w1": 12,
+   "w2": 26,
+   "quote": "May the God of Abraham, and the God of Isaac, and the God of Jacob",
+   "entries": [
+    "3ne04-010"
+   ]
+  },
+  {
+   "verse": 31,
+   "w1": 7,
+   "w2": 19,
+   "quote": "they did break forth, all as one, in singing, and praising their God",
+   "entries": [
+    "3ne04-007"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "92164d4d5edf546e"
+ }
+}

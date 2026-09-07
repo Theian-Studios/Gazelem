@@ -1,0 +1,799 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Moroni",
+  "book_slug": "moroni",
+  "chapter": 8,
+  "volume_order": "14",
+  "speakers": [
+   "Moroni",
+   "Mormon",
+   "The Lord"
+  ],
+  "audience": "Moroni, newly called to the ministry",
+  "location": "Not stated; Mormon writing from the field",
+  "date": "Soon after Moroni's calling, before the last campaigns",
+  "unit": "Mormon's first epistle, on little children (Moroni 8)",
+  "principles": [
+   "A dispute settled by asking rather than arguing",
+   "A requirement handed back to the parents",
+   "A doctrine tested against the character of God"
+  ],
+  "connections": 12,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Moroni had just been called",
+   "text": "Verse 1 dates the letter to soon after Moroni's calling to the ministry. Moroni 9:1 is the second letter and reports a battle already lost, so the two preserved letters bracket the last stretch of Mormon's command."
+  },
+  {
+   "n": 2,
+   "title": "Mormon prays for him by name",
+   "text": "Verse 3 says continually, in the name of the Holy Child."
+  },
+  {
+   "n": 3,
+   "title": "The occasion is a dispute in the church",
+   "text": "Verse 5 names disputations about the baptism of little children. Nothing anywhere else in the volume mentions the practice, so a controversy that occupies a whole chapter here leaves no other trace in a thousand years of record."
+  },
+  {
+   "n": 4,
+   "title": "Mormon asked rather than reasoned",
+   "text": "Verse 7 has him put the question to the Lord and receive an answer by the Holy Ghost."
+  },
+  {
+   "n": 5,
+   "title": "Circumcision appears once in the record",
+   "text": "Verse 8 says the law of circumcision is done away in Christ. The word appears in the volume only at 2 Nephi 8:24, 2 Nephi 9:33, 3 Nephi 20:36, Helaman 9:21 and here, and this is the only one of the five that treats it as a legal question instead of a figure of speech."
+  },
+  {
+   "n": 6,
+   "title": "He claims authority for the sharpness",
+   "text": "Verse 16 grounds his plainness in a commission from God and ends with a line from 1 John 4:18, that perfect love casteth out all fear. Mormon quotes the Johannine epistle here and Mark at Mormon 9:22, both without naming a source.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "John 4:18",
+     "start": 84,
+     "end": 93,
+     "book": "John",
+     "chapter": 4,
+     "verse_start": 18,
+     "verse_end": 18
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "The next letter is conditional",
+   "text": "Verse 27 makes a further letter depend on his not going out soon against the Lamanites. Moroni 9:2 opens with a battle he did go out to and lose, so the condition in this verse is answered by the next chapter."
+  }
+ ],
+ "words": [
+  {
+   "term": "Disputations",
+   "verse_label": "v. 4",
+   "text": "Arguments carried on between parties. Treated at 3 Nephi 11:22. The record uses the word eleven times and the King James Bible once."
+  },
+  {
+   "term": "Circumcision",
+   "verse_label": "v. 8",
+   "text": "The covenant sign given to Abraham. The word appears once in the record, here, and thirty-six times in the King James Bible."
+  },
+  {
+   "term": "Mockery",
+   "verse_label": "v. 9",
+   "text": "Something done in the form of a real thing while emptied of it. It appears twice in the record, both in this chapter, and never in the King James Bible."
+  },
+  {
+   "term": "Accountable",
+   "verse_label": "v. 10",
+   "text": "Answerable for what one does. One use in the record, here, and none in the King James Bible. Verse 10 pairs it with being capable of sin."
+  },
+  {
+   "term": "Respecter",
+   "verse_label": "v. 12",
+   "text": "One who shows favor by person rather than by case. It appears once in the record, and once in the King James Bible, at Acts 10:34.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Acts 10:34",
+     "start": 119,
+     "end": 129,
+     "book": "Acts",
+     "chapter": 10,
+     "verse_start": 34,
+     "verse_end": 34
+    }
+   ]
+  },
+  {
+   "term": "Availeth",
+   "verse_label": "v. 22",
+   "text": "Is of use, or accomplishes something. It appears three times in the record and four in the King James Bible. Verse 22 says baptism availeth nothing for those under no condemnation."
+  },
+  {
+   "term": "Comforter",
+   "verse_label": "v. 26",
+   "text": "A title of the Holy Ghost. One use here against eight in the King James Bible, most of them in John."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Soon after my calling to the ministry",
+   "verse_label": "v. 1",
+   "text": "When the letter arrived. Moroni sets the date before he gives the contents."
+  },
+  {
+   "term": "That which grieveth me exceedingly",
+   "verse_label": "v. 4",
+   "text": "How Mormon opens the subject. He names his own feeling before the issue."
+  },
+  {
+   "term": "I inquired of the Lord concerning the matter",
+   "verse_label": "v. 7",
+   "text": "What he did with the question. The answer in verse 8 is quoted rather than summarized."
+  },
+  {
+   "term": "Little children are whole, for they are not capable of committing sin",
+   "verse_label": "v. 8",
+   "text": "The ground of the whole argument. It follows the line about the whole needing no physician."
+  },
+  {
+   "term": "The law of circumcision is done away in me",
+   "verse_label": "v. 8",
+   "text": "A second thing ended in the same sentence. The curse of Adam is the first."
+  },
+  {
+   "term": "Solemn mockery before God",
+   "verse_label": "v. 9",
+   "text": "Mormon's verdict on the practice. Verse 23 uses the word again."
+  },
+  {
+   "term": "How many little children have died without baptism!",
+   "verse_label": "v. 12",
+   "text": "The question he presses. It is the only exclamation in the letter."
+  },
+  {
+   "term": "Perfect love casteth out all fear",
+   "verse_label": "v. 16",
+   "text": "Why he can write this way. 1 John 4:18 has the same sentence.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "John 4:18",
+     "start": 29,
+     "end": 38,
+     "book": "John",
+     "chapter": 4,
+     "verse_start": 18,
+     "verse_end": 18
+    }
+   ]
+  },
+  {
+   "term": "Putting trust in dead works",
+   "verse_label": "v. 23",
+   "text": "What he says the practice amounts to. Three charges are stacked in that verse."
+  },
+  {
+   "term": "The first fruits of repentance is baptism",
+   "verse_label": "v. 25",
+   "text": "The start of the chain in verses 25 and 26. Each item hands off to the next."
+  },
+  {
+   "term": "I fear lest the Spirit hath ceased striving with them",
+   "verse_label": "v. 28",
+   "text": "The postscript's worry about his own nation. Ether 15:19 records the same thing having happened.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 15:19",
+     "start": 45,
+     "end": 56,
+     "book": "Ether",
+     "chapter": 15,
+     "verse_start": 19,
+     "verse_end": 19
+    }
+   ]
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1",
+   "start": 1,
+   "end": 1,
+   "title": "A compiler prints a letter addressed to himself",
+   "text": "The chapter opens with a document header, not a narrative: \"An epistle of my father Mormon, written to me, Moroni; and it was written unto me soon after my calling to the ministry.\" Sender, recipient and date are all given, and the date is fixed relative to an event in the recipient's own life. The man assembling the book is publishing his own correspondence, and he identifies himself as the addressee before a word of the letter begins."
+  },
+  {
+   "label": "v. 7–9",
+   "start": 7,
+   "end": 9,
+   "title": "The procedure reported before the answer is given",
+   "text": "The record supplies the whole sequence, not just the conclusion: \"immediately after I had learned these things of you I inquired of the Lord concerning the matter. And the word of the Lord came to me by the power of the Holy Ghost.\" Then the answer is quoted directly, opening \"Listen to the words of Christ, your Redeemer, your Lord and your God.\" Verse 9 closes the frame, \"after this manner did the Holy Ghost manifest the word of God unto me.\" Report, inquiry, answer, and a statement of how the answer arrived, in that order."
+  },
+  {
+   "label": "v. 22",
+   "start": 22,
+   "end": 22,
+   "title": "The category widened past the subject of the letter",
+   "text": "Having argued about children for ten verses, the record extends the conclusion to a second group defined differently: \"all little children are alive in Christ, and also all they that are without the law.\" Age covers the first and the absence of a standard covers the second. The same verse gives the rule that joins them, \"the power of redemption cometh on all them that have no law; wherefore, he that is not condemned, or he that is under no condemnation, cannot repent.\""
+  },
+  {
+   "label": "v. 25–26",
+   "start": 25,
+   "end": 26,
+   "title": "A chain of six links, each naming the next",
+   "text": "The record sets out a sequence in which every step supplies the subject of the following one: \"the first fruits of repentance is baptism; and baptism cometh by faith unto the fulfilling the commandments; and the fulfilling the commandments bringeth remission of sins; And the remission of sins bringeth meekness, and lowliness of heart; and because of meekness and lowliness of heart cometh the visitation of the Holy Ghost.\" Repentance to baptism to faith to obedience to remission to meekness to the Spirit. The construction is the argument, since each term is defined only by what it produces."
+  },
+  {
+   "label": "v. 27–30",
+   "start": 27,
+   "end": 30,
+   "title": "A letter about baptism closes on a campaign",
+   "text": "The record turns the last four verses away from the subject altogether: \"I will write unto you again if I go not out soon against the Lamanites.\" The conditional is not rhetorical. What follows is an assessment, \"the pride of this nation, or the people of the Nephites, hath proven their destruction,\" and then something the writer states as his own worry rather than as revelation, \"I fear lest the Spirit hath ceased striving with them.\" The letter closes on a farewell that leaves both outcomes open, \"until I shall write unto you, or shall meet you again.\""
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "A dispute is settled by asking",
+   "text": "Verse 7 has Mormon inquire of the Lord, and verse 8 quotes what came back."
+  },
+  {
+   "n": 2,
+   "title": "The argument runs from what children are",
+   "text": "Verse 8 grounds it on their not being capable of committing sin."
+  },
+  {
+   "n": 3,
+   "title": "Two things end in the same sentence",
+   "text": "Verse 8 removes the curse of Adam and the law of circumcision together."
+  },
+  {
+   "n": 4,
+   "title": "The requirement is handed to the parents",
+   "text": "Verse 10 answers a question about children by telling adults to repent and humble themselves as their children."
+  },
+  {
+   "n": 5,
+   "title": "The doctrine is tested against God's character",
+   "text": "Verses 12 and 18 ask what the alternative would make him."
+  },
+  {
+   "n": 6,
+   "title": "Mormon states his own affection",
+   "text": "Verse 17 sets a perfect love for these children beside his verdict on the practice."
+  },
+  {
+   "n": 7,
+   "title": "A chain runs through two verses",
+   "text": "Verses 25 and 26 pass from baptism to remission to meekness to the Comforter to hope and love."
+  },
+  {
+   "n": 8,
+   "title": "The letter ends on his own danger",
+   "text": "Verse 27 makes the next letter conditional on a campaign he may not return from."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Open with what you are glad about",
+    "verse_label": "v. 2–3",
+    "text": "Before naming the dispute, Mormon says he rejoices that his son has been called, and that he prays for him continually. The correction arrives inside a letter that has already established what the relationship is."
+   },
+   {
+    "title": "State why you are writing",
+    "verse_label": "v. 6",
+    "text": "Mormon says plainly that he wrote this epistle for the intent that the error should be removed. A reader who knows what a letter is for can weigh it; a reader guessing at the purpose spends the whole letter guessing."
+   },
+   {
+    "title": "Take the question to the source",
+    "verse_label": "v. 7",
+    "text": "Mormon inquired of the Lord instead of settling the argument on his own reasoning."
+   },
+   {
+    "title": "Hand the requirement back to the people it fits",
+    "verse_label": "v. 10",
+    "text": "He answers a question about children by telling the parents what to do."
+   },
+   {
+    "title": "Test a claim against what God is like",
+    "verse_label": "v. 12",
+    "text": "He asks what the other view would make of God's character."
+   },
+   {
+    "title": "Say hard things while loving the people",
+    "verse_label": "v. 17",
+    "text": "He calls the practice awful wickedness and says he is filled with charity."
+   },
+   {
+    "title": "Follow the chain all the way through",
+    "verse_label": "v. 25–26",
+    "text": "Repentance to baptism, baptism to keeping the commandments, that to remission, remission to meekness, meekness to the visitation of the Comforter, and the Comforter to hope and perfect love. A sequence like that shows a person where they actually are rather than asking whether they have arrived."
+   },
+   {
+    "title": "Pray for the people you have just condemned",
+    "verse_label": "v. 28",
+    "text": "After the sharpest paragraphs in the letter, Mormon tells his son to pray for them that repentance may come. Judgment and intercession are kept together, and neither is allowed to cancel the other."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "Whom do I pray for continually, by name?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What grieves me that I have not said out loud?"
+   },
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "What have I argued about instead of asking about?"
+   },
+   {
+    "verse_label": "v. 10",
+    "start": 10,
+    "end": 10,
+    "text": "Where am I asking of others what I should be doing myself?"
+   },
+   {
+    "verse_label": "v. 16",
+    "start": 16,
+    "end": 16,
+    "text": "What fear is keeping me from speaking?"
+   },
+   {
+    "verse_label": "v. 23",
+    "start": 23,
+    "end": 23,
+    "text": "Which of my works are dead ones?"
+   },
+   {
+    "verse_label": "v. 28",
+    "start": 28,
+    "end": 28,
+    "text": "Whom have I written off that I should be praying for?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "moro08-001",
+   "scope": "BOOK",
+   "head": "Moro. 7:44",
+   "anchor": {
+    "verse": 17,
+    "w1": 1,
+    "w2": 10,
+    "quote": "And I am filled with charity, which is everlasting love"
+   },
+   "reason": "the sermon that defined the word he uses here",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 7,
+     "verse": 44,
+     "w1": 46,
+     "w2": 59,
+     "quote": "he must needs have charity; for if he have not charity he is nothing;",
+     "verse_text": "If so, his faith and hope is vain, for none is acceptable before God, save the meek and lowly in heart; and if a man be meek and lowly in heart, and confesses by the power of the Holy Ghost that Jesus is the Christ, he must needs have charity; for if he have not charity he is nothing; wherefore he must needs have charity.",
+     "markdown": "If so, his faith and hope is vain, for none is acceptable before God, save the meek and lowly in heart; and if a man be meek and lowly in heart, and confesses by the power of the Holy Ghost that Jesus is the Christ, **he must needs have charity; for if he have not charity he is nothing**; wherefore he must needs have charity.",
+     "span": true
+    }
+   ],
+   "mirror": "moro07-011"
+  },
+  {
+   "id": "moro08-002",
+   "scope": "BOOK",
+   "head": "Moro. 3:3",
+   "anchor": {
+    "verse": 3,
+    "w1": 35,
+    "w2": 45,
+    "quote": "through the endurance of faith on his name to the end"
+   },
+   "reason": "the same phrase used in the ordaining",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 3,
+     "verse": 3,
+     "w1": 37,
+     "w2": 47,
+     "quote": "by the endurance of faith on his name to the end.",
+     "verse_text": "In the name of Jesus Christ I ordain you to be a priest (or if he be a teacher, I ordain you to be a teacher) to preach repentance and remission of sins through Jesus Christ, by the endurance of faith on his name to the end. Amen.",
+     "markdown": "In the name of Jesus Christ I ordain you to be a priest (or if he be a teacher, I ordain you to be a teacher) to preach repentance and remission of sins through Jesus Christ, **by the endurance of faith on his name to the end**. Amen.",
+     "span": true
+    }
+   ],
+   "mirror": "moro03-010"
+  },
+  {
+   "id": "moro08-011",
+   "scope": "BOOK",
+   "head": "Moro. 9:1",
+   "anchor": {
+    "verse": 27,
+    "w1": 4,
+    "w2": 18,
+    "quote": "I will write unto you again if I go not out soon against the Lamanites."
+   },
+   "reason": "the second letter, opening the same way",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 9,
+     "verse": 1,
+     "w1": 9,
+     "w2": 17,
+     "quote": "that ye may know that I am yet alive;",
+     "verse_text": "My beloved son, I write unto you again that ye may know that I am yet alive; but I write somewhat of that which is grievous.",
+     "markdown": "My beloved son, I write unto you again **that ye may know that I am yet alive**; but I write somewhat of that which is grievous.",
+     "span": true
+    }
+   ],
+   "mirror": "moro09-002"
+  },
+  {
+   "id": "moro08-012",
+   "scope": "BOOK",
+   "head": "Moro. 9:4",
+   "anchor": {
+    "verse": 28,
+    "w1": 14,
+    "w2": 23,
+    "quote": "I fear lest the Spirit hath ceased striving with them;"
+   },
+   "reason": "the same fear in the later letter",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 9,
+     "verse": 4,
+     "w1": 37,
+     "w2": 49,
+     "quote": "I fear lest the Spirit of the Lord hath ceased striving with them.",
+     "verse_text": "Behold, I am laboring with them continually; and when I speak the word of God with sharpness they tremble and anger against me; and when I use no sharpness they harden their hearts against it; wherefore, I fear lest the Spirit of the Lord hath ceased striving with them.",
+     "markdown": "Behold, I am laboring with them continually; and when I speak the word of God with sharpness they tremble and anger against me; and when I use no sharpness they harden their hearts against it; wherefore, **I fear lest the Spirit of the Lord hath ceased striving with them**.",
+     "span": true
+    }
+   ],
+   "mirror": "moro09-003"
+  },
+  {
+   "id": "moro08-003",
+   "scope": "BOM",
+   "head": "Mosiah 3:16",
+   "anchor": {
+    "verse": 22,
+    "w1": 4,
+    "w2": 10,
+    "quote": "all little children are alive in Christ"
+   },
+   "reason": "Benjamin on children and the blood of Christ",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 3,
+     "verse": 16,
+     "w1": 2,
+     "w2": 16,
+     "quote": "even if it were possible that little children could sin they could not be saved;",
+     "verse_text": "And even if it were possible that little children could sin they could not be saved; but I say unto you they are blessed; for behold, as in Adam, or by nature, they fall, even so the blood of Christ atoneth for their sins.",
+     "markdown": "And **even if it were possible that little children could sin they could not be saved**; but I say unto you they are blessed; for behold, as in Adam, or by nature, they fall, even so the blood of Christ atoneth for their sins.",
+     "span": true
+    }
+   ],
+   "mirror": "mos03-003"
+  },
+  {
+   "id": "moro08-004",
+   "scope": "BOM",
+   "head": "Mosiah 15:25",
+   "anchor": {
+    "verse": 12,
+    "w1": 2,
+    "w2": 7,
+    "quote": "little children are alive in Christ"
+   },
+   "reason": "Abinadi saying it in five words",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 15,
+     "verse": 25,
+     "w1": 2,
+     "w2": 7,
+     "quote": "little children also have eternal life.",
+     "verse_text": "And little children also have eternal life.",
+     "markdown": "And **little children also have eternal life**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos15-012"
+  },
+  {
+   "id": "moro08-005",
+   "scope": "BOM",
+   "head": "3 Ne. 30:2",
+   "anchor": {
+    "verse": 25,
+    "w1": 20,
+    "w2": 27,
+    "quote": "the fulfilling the commandments bringeth remission of sins"
+   },
+   "reason": "the Lord attaching remission to baptism",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 30,
+     "verse": 2,
+     "w1": 62,
+     "w2": 70,
+     "quote": "that ye may receive a remission of your sins,",
+     "verse_text": "Turn, all ye Gentiles, from your wicked ways; and repent of your evil doings, of your lyings and deceivings, and of your whoredoms, and of your secret abominations, and your idolatries, and of your murders, and your priestcrafts, and your envyings, and your strifes, and from all your wickedness and abominations, and come unto me, and be baptized in my name, that ye may receive a remission of your sins, and be filled with the Holy Ghost, that ye may be numbered with my people who are of the house of Israel.",
+     "markdown": "Turn, all ye Gentiles, from your wicked ways; and repent of your evil doings, of your lyings and deceivings, and of your whoredoms, and of your secret abominations, and your idolatries, and of your murders, and your priestcrafts, and your envyings, and your strifes, and from all your wickedness and abominations, and come unto me, and be baptized in my name, **that ye may receive a remission of your sins**, and be filled with the Holy Ghost, that ye may be numbered with my people who are of the house of Israel.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne30-007"
+  },
+  {
+   "id": "moro08-006",
+   "scope": "BOM",
+   "head": "3 Ne. 9:22",
+   "anchor": {
+    "verse": 10,
+    "w1": 35,
+    "w2": 40,
+    "quote": "humble themselves as their little children"
+   },
+   "reason": "the Lord setting the child as the measure",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 9,
+     "verse": 22,
+     "w1": 2,
+     "w2": 15,
+     "quote": "whoso repenteth and cometh unto me as a little child, him will I receive,",
+     "verse_text": "Therefore, whoso repenteth and cometh unto me as a little child, him will I receive, for of such is the kingdom of God. Behold, for such I have laid down my life, and have taken it up again; therefore repent, and come unto me ye ends of the earth, and be saved.",
+     "markdown": "Therefore, **whoso repenteth and cometh unto me as a little child, him will I receive**, for of such is the kingdom of God. Behold, for such I have laid down my life, and have taken it up again; therefore repent, and come unto me ye ends of the earth, and be saved.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne09-015"
+  },
+  {
+   "id": "moro08-007",
+   "scope": "BOM",
+   "head": "2 Ne. 26:33",
+   "anchor": {
+    "verse": 17,
+    "w1": 12,
+    "w2": 17,
+    "quote": "all children are alike unto me"
+   },
+   "reason": "Nephi on how wide that alike reaches",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 26,
+     "verse": 33,
+     "w1": 72,
+     "w2": 80,
+     "quote": "all are alike unto God, both Jew and Gentile.",
+     "verse_text": "For none of these iniquities come of the Lord; for he doeth that which is good among the children of men; and he doeth nothing save it be plain unto the children of men; and he inviteth them all to come unto him and partake of his goodness; and he denieth none that come unto him, black and white, bond and free, male and female; and he remembereth the heathen; and all are alike unto God, both Jew and Gentile.",
+     "markdown": "For none of these iniquities come of the Lord; for he doeth that which is good among the children of men; and he doeth nothing save it be plain unto the children of men; and he inviteth them all to come unto him and partake of his goodness; and he denieth none that come unto him, black and white, bond and free, male and female; and he remembereth the heathen; and **all are alike unto God, both Jew and Gentile**.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne26-017"
+  },
+  {
+   "id": "moro08-008",
+   "scope": "SW",
+   "head": "Matt. 9:12",
+   "anchor": {
+    "verse": 8,
+    "w1": 29,
+    "w2": 38,
+    "quote": "the whole need no physician, but they that are sick"
+   },
+   "reason": "the words Christ quotes back here",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 9,
+     "verse": 12,
+     "w1": 10,
+     "w2": 22,
+     "quote": "They that be whole need not a physician, but they that are sick.",
+     "verse_text": "But when Jesus heard that, he said unto them, They that be whole need not a physician, but they that are sick.",
+     "markdown": "But when Jesus heard that, he said unto them, **They that be whole need not a physician, but they that are sick**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "moro08-009",
+   "scope": "SW",
+   "head": "1 Jn. 4:18",
+   "anchor": {
+    "verse": 16,
+    "w1": 40,
+    "w2": 46,
+    "quote": "for perfect love casteth out all fear"
+   },
+   "reason": "the same clause, with the reason attached",
+   "targets": [
+    {
+     "ref": "1 Jn.",
+     "chapter": 4,
+     "verse": 18,
+     "w1": 8,
+     "w2": 12,
+     "quote": "perfect love casteth out fear:",
+     "verse_text": "There is no fear in love; but perfect love casteth out fear: because fear hath torment. He that feareth is not made perfect in love.",
+     "markdown": "There is no fear in love; but **perfect love casteth out fear**: because fear hath torment. He that feareth is not made perfect in love.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "moro08-010",
+   "scope": "SW",
+   "head": "Acts 10:34",
+   "anchor": {
+    "verse": 12,
+    "w1": 18,
+    "w2": 32,
+    "quote": "God is a partial God, and also a changeable God, and a respecter to persons"
+   },
+   "reason": "Peter arriving at the same conclusion",
+   "targets": [
+    {
+     "ref": "Acts",
+     "chapter": 10,
+     "verse": 34,
+     "w1": 14,
+     "w2": 19,
+     "quote": "God is no respecter of persons:",
+     "verse_text": "Then Peter opened his mouth, and said, Of a truth I perceive that God is no respecter of persons:",
+     "markdown": "Then Peter opened his mouth, and said, Of a truth I perceive that **God is no respecter of persons**:",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 3,
+   "w1": 35,
+   "w2": 45,
+   "quote": "through the endurance of faith on his name to the end",
+   "entries": [
+    "moro08-002"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 29,
+   "w2": 38,
+   "quote": "the whole need no physician, but they that are sick",
+   "entries": [
+    "moro08-008"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 35,
+   "w2": 40,
+   "quote": "humble themselves as their little children",
+   "entries": [
+    "moro08-006"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 2,
+   "w2": 7,
+   "quote": "little children are alive in Christ",
+   "entries": [
+    "moro08-004"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 18,
+   "w2": 32,
+   "quote": "God is a partial God, and also a changeable God, and a respecter to persons",
+   "entries": [
+    "moro08-010"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 40,
+   "w2": 46,
+   "quote": "for perfect love casteth out all fear",
+   "entries": [
+    "moro08-009"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 1,
+   "w2": 10,
+   "quote": "And I am filled with charity, which is everlasting love",
+   "entries": [
+    "moro08-001"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 12,
+   "w2": 17,
+   "quote": "all children are alike unto me",
+   "entries": [
+    "moro08-007"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 4,
+   "w2": 10,
+   "quote": "all little children are alive in Christ",
+   "entries": [
+    "moro08-003"
+   ]
+  },
+  {
+   "verse": 25,
+   "w1": 20,
+   "w2": 27,
+   "quote": "the fulfilling the commandments bringeth remission of sins",
+   "entries": [
+    "moro08-005"
+   ]
+  },
+  {
+   "verse": 27,
+   "w1": 4,
+   "w2": 18,
+   "quote": "I will write unto you again if I go not out soon against the Lamanites.",
+   "entries": [
+    "moro08-011"
+   ]
+  },
+  {
+   "verse": 28,
+   "w1": 14,
+   "w2": 23,
+   "quote": "I fear lest the Spirit hath ceased striving with them;",
+   "entries": [
+    "moro08-012"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "cbc120b562a6bea5"
+ }
+}

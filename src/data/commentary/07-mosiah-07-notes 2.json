@@ -1,0 +1,789 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Mosiah",
+  "book_slug": "mosiah",
+  "chapter": 7,
+  "volume_order": "07",
+  "speakers": [
+   "Mormon",
+   "King Limhi",
+   "Ammon"
+  ],
+  "audience": "Readers of the abridgment; within the chapter, the people of Limhi at the temple",
+  "location": "The land of Zarahemla, then the land of Lehi-Nephi and Shilom",
+  "date": "~121 BC",
+  "unit": "The record of Zeniff (Mosiah 7–24)",
+  "principles": [
+   "Bondage and its causes",
+   "A second temple assembly",
+   "Two prophetic oracles"
+  ],
+  "connections": 13,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "A king moved by nagging",
+   "text": "Verse 1 says the people wearied Mosiah with their teasings until he sent an expedition. The noun appears once in scripture. The whole Zeniff record, eighteen chapters of it, opens because a population would not stop asking."
+  },
+  {
+   "n": 2,
+   "title": "Forty days lost",
+   "text": "Sixteen strong men set out not knowing the route and wander forty days. The number is the wilderness number, and the record uses it without comment for a party that is simply lost. Their ancestors had made the same journey in a generation the reader has already read about."
+  },
+  {
+   "n": 3,
+   "title": "Three generations in one sentence",
+   "text": "Verse 9 has Limhi introducing himself as son of Noah, son of Zeniff. The reader has not yet been told who any of them are. A dynasty and its decline are compressed into a self-introduction, and the next seventeen chapters unpack it."
+  },
+  {
+   "n": 4,
+   "title": "A fifty percent tribute",
+   "text": "Verse 22 itemizes it: half the corn, half the barley, half of all grain, half the increase of flocks and herds, half of everything. Ancient vassal tribute was typically a fraction of that. The number is what makes verse 15's proposal intelligible."
+  },
+  {
+   "n": 5,
+   "title": "The exodus recital",
+   "text": "Verse 19 runs a set piece: the God of Abraham, Isaac, and Jacob; Israel brought out of Egypt; the Red Sea crossed dry; manna in the wilderness. Israel had a standing form for rehearsing its deliverance, and Limhi uses it on a people who need one."
+  },
+  {
+   "n": 6,
+   "title": "Hosea, twice, in two forms",
+   "text": "Verses 30 and 31 give the same oracle in variant wordings: sow filthiness and reap the chaff in the whirlwind; sow filthiness and reap the east wind. Hosea's line is sowing wind and reaping whirlwind. The record preserves both versions consecutively."
+  },
+  {
+   "n": 7,
+   "title": "A prophet identified by his doctrine",
+   "text": "Verses 26 through 28 report a chosen man of God killed for teaching that Christ is God and that man was made in his image. He is not named here. The reader meets Abinadi as a teaching before meeting him as a person."
+  }
+ ],
+ "words": [
+  {
+   "term": "Bands",
+   "verse_label": "v. 8, 13",
+   "text": "Fetters: what binds a prisoner, not a group of men. They are loosed in verse 8 and Ammon refers to having worn them in verse 13. The word runs through this whole section of the record, and Limhi's people are about to spend seventeen chapters in a condition it names."
+  },
+  {
+   "term": "Bold",
+   "verse_label": "v. 10",
+   "text": "Limhi means it as a charge, demanding to know what made these men \"so bold as to come near the walls of the city\" (v. 10). Two verses later Ammon takes it up as a virtue and promises to endeavor to speak with boldness. He does not dispute the king's account of what he did. He keeps the word and applies it to what he is about to say.",
+   "cites": [
+    {
+     "quote": "so bold as to come near the walls of the city",
+     "verse": 10,
+     "start": 66,
+     "end": 121,
+     "spans": [
+      {
+       "w1": 12,
+       "w2": 22,
+       "text": "so bold as to come near the walls of the city"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Suffered",
+   "verse_label": "v. 11",
+   "text": "Here the verb means to allow. Limhi has suffered the strangers to be preserved rather than killed, Ammon says the king would not have suffered him to wear bands had he known who he was, and the Lord, later in the speech, would not have suffered the great evil to come on a people who had not transgressed. The other sense arrives at verse 16, where men who wandered forty days had suffered hunger, thirst, and fatigue. Both senses are the King James Bible's, and the chapter moves between them within five verses without any signal that the word has changed."
+  },
+  {
+   "term": "Craftiness",
+   "verse_label": "v. 21",
+   "text": "Skill turned to deceit. Limhi uses it of king Laman, whose treaty was the instrument, and pairs it with \"cunning.\" The verse assigns the blame twice over, to Laman's craft and to Zeniff's over-zeal, and does not let either excuse the other."
+  },
+  {
+   "term": "Wondereth",
+   "verse_label": "v. 28",
+   "text": "To marvel, used here in a rhetorical question that expects nobody. Who wondereth that they are in bondage? Limhi has just finished the causal chain and the verb invites his audience to find it unsurprising, a hard thing to ask of people in chains."
+  },
+  {
+   "term": "Poison",
+   "verse_label": "v. 30",
+   "text": "The effect named at the end of the first oracle, and the word does not appear in Hosea's version. Chaff in a whirlwind is worthless; poison is actively harmful. The addition turns a saying about futile harvest into one about a harvest that kills."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "They wearied him with their teasings",
+   "verse_label": "v. 1",
+   "text": "An unheroic reason for an expedition. Persistence. The record is candid that the chain of events producing eighteen chapters of scripture began with people pestering a king until he gave in."
+  },
+  {
+   "term": "They knew not the course they should travel",
+   "verse_label": "v. 4",
+   "text": "Stated plainly before the forty days. The expedition is not divinely guided and the record does not pretend otherwise. What follows is competent men lost in country their own grandparents had crossed."
+  },
+  {
+   "term": "I am Limhi, the son of Noah, who was the son of Zeniff",
+   "verse_label": "v. 9",
+   "text": "A king establishing standing by descent, to strangers, while they stand bound in front of him. The reader is given a lineage before a character, and every name in it will matter. It is the most information-dense sentence in the chapter."
+  },
+  {
+   "term": "It is better that we be slaves to the Nephites than to pay tribute to the king of the Lamanites",
+   "verse_label": "v. 15",
+   "text": "A people proposing their own enslavement as an improvement. Limhi is describing arithmetic: half of everything, or servitude to kin. The sentence is the clearest measure in the record of what the bondage actually cost."
+  },
+  {
+   "term": "Yet I trust there remaineth an effectual struggle to be made",
+   "verse_label": "v. 18",
+   "text": "The phrase occurs once in scripture. Placed immediately after an admission that the previous strugglings were in vain, it distinguishes effort that works from effort that merely happens, and offers hope on the basis of the difference rather than by denying the failures."
+  },
+  {
+   "term": "That God who was the God of Abraham, and Isaac, and Jacob",
+   "verse_label": "v. 19",
+   "text": "The title that identifies God by a history. Limhi is arguing from precedent: this is the one who has done this kind of thing before. Everything in the verse after it is evidence. Egypt, the sea, the manna."
+  },
+  {
+   "term": "He being over-zealous to inherit the land of his fathers",
+   "verse_label": "v. 21",
+   "text": "The diagnosis of a grandfather, delivered by a grandson to a nation in chains. The fault named is excess of a good motive. Zeniff will use the same word of himself two chapters later, which makes this the rare case where the record's judgment and the man's own agree."
+  },
+  {
+   "term": "Even one half of all we have or possess the king of the Lamanites doth exact of us, or our lives",
+   "verse_label": "v. 22",
+   "text": "The alternative stated at the end of the clause: half of everything, or your life. Limhi itemizes the grain and the flocks first and puts the choice last, so the sentence reads as an inventory that turns into a threat."
+  },
+  {
+   "term": "A prophet of the Lord have they slain; yea, a chosen man of God",
+   "verse_label": "v. 26",
+   "text": "Reported as a fact of national history, unnamed and undated within the speech. Limhi lists it as the culminating item in a chain of transgression, and it is the hinge of his whole argument about why they are where they are."
+  },
+  {
+   "term": "He said that man was created after the image of God",
+   "verse_label": "v. 27",
+   "text": "The doctrine that got a man killed, restated by the king who inherited the consequences. Genesis says God created man in his own image; Limhi's report runs it the other way. The image man was created after is the one God would take. The killing followed from that inversion."
+  },
+  {
+   "term": "I will not succor my people in the day of their transgression",
+   "verse_label": "v. 29",
+   "text": "Succor is a verb of running to someone's aid, and this is the only place in the record where God says he will not. The withholding is tied to a day rather than to a person, which leaves the sentence temporary by construction."
+  },
+  {
+   "term": "If my people shall sow filthiness they shall reap the chaff thereof in the whirlwind",
+   "verse_label": "v. 30",
+   "text": "Hosea says sow wind, reap whirlwind; this says sow filthiness, reap chaff in a whirlwind, and adds that the effect is poison. Then verse 31 gives the same oracle again with the east wind and immediate destruction. Two forms of one saying, preserved side by side without a word about the difference."
+  },
+  {
+   "term": "If ye will turn to the Lord with full purpose of heart",
+   "verse_label": "v. 33",
+   "text": "The conclusion, and the conditions are three: turn, trust, serve with all diligence of mind. The promise attached is deliverance \"according to his own will and pleasure,\" which withholds the timing in the same breath that it grants the outcome."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–6",
+   "start": 1,
+   "end": 6,
+   "title": "The expedition",
+   "text": "Three years of peace, a curiosity nobody will drop, sixteen strong men sent under Ammon, no knowledge of the route, forty days of wandering, a hill north of Shilom, and four men going down into the land. Six verses to get the party into the story, and the only thing that goes right is that they arrive."
+  },
+  {
+   "label": "v. 7–13",
+   "start": 7,
+   "end": 13,
+   "title": "Arrest and recognition",
+   "text": "Seized by the king's guard, bound, imprisoned two days, brought out, and commanded to answer. Limhi identifies himself by three generations and demands to know why they came. Ammon bows, thanks God he is alive, and says his name, at which point the whole situation reverses."
+  },
+  {
+   "label": "v. 14–17",
+   "start": 14,
+   "end": 17,
+   "title": "Relief, and a summons",
+   "text": "Limhi is exceedingly glad, knows his brethren are alive, will rejoice and make his people rejoice tomorrow; explains the bondage and the tribute; unbinds the prisoners and feeds them; and sends a proclamation for the people to gather at the temple. The second temple assembly in seven chapters."
+  },
+  {
+   "label": "v. 18–20",
+   "start": 18,
+   "end": 20,
+   "title": "Lift up your heads",
+   "text": "Comfort, a time at hand, an admission that past strugglings were vain, and the promise of an effectual one. Then the recital (Abraham, Isaac, Jacob, Egypt, the Red Sea, the manna), and the conclusion: the same God brought our fathers here, and it is our own iniquities that brought the bondage."
+  },
+  {
+   "label": "v. 21–25",
+   "start": 21,
+   "end": 25,
+   "title": "How it happened",
+   "text": "Zeniff over-zealous, Laman cunning, a treaty, land yielded, the whole thing designed to produce subjection; then the tribute itemized, the mourning justified, the blood spilt in vain, and the cause named as transgression. Limhi builds a case before he brings the charge."
+  },
+  {
+   "label": "v. 26–28",
+   "start": 26,
+   "end": 28,
+   "title": "A killing, and its reason",
+   "text": "A chosen man of God slain for saying that Christ is God, that he would take the image of man, and that man was made after God's image. They killed him, they did much else, and Limhi asks who could be surprised at the result."
+  },
+  {
+   "label": "v. 29–33",
+   "start": 29,
+   "end": 33,
+   "title": "The oracles, and the way out",
+   "text": "God will not succor in the day of transgression, will hedge up their ways, will make their own doings a stumbling block; whirlwind and chaff and poison; east wind and immediate destruction; the promise is fulfilled and you are afflicted. And then the condition: turn, trust, serve, and he will deliver, on his own schedule."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The record admits an ignoble beginning",
+   "text": "Eighteen chapters of scripture start because a population nagged a king. No revelation sends the expedition, no vision guides it, and the party gets lost for forty days. The narrative that follows is providential in its outcome and entirely ordinary in its opening."
+  },
+  {
+   "n": 2,
+   "title": "A second temple assembly, and a different sermon",
+   "text": "Benjamin gathered a free people to give them a name; Limhi gathers a people in chains to explain why. The two scenes are seven chapters apart, share a location type and a proclamation, and land in opposite circumstances. The arrangement looks deliberate."
+  },
+  {
+   "n": 3,
+   "title": "The bondage is explained without excusing anyone",
+   "text": "Laman's craftiness, Zeniff's over-zeal, the people's contentions, a murdered prophet. Limhi names an external cause and three internal ones and does not let the first carry the weight. The nation's condition is presented as earned."
+  },
+  {
+   "n": 4,
+   "title": "Abinadi arrives as a doctrine",
+   "text": "The reader is told what the prophet taught and why it killed him before being told his name or his story. When the account arrives eight chapters later, the stakes are already established. A compiler arranged it that way."
+  },
+  {
+   "n": 5,
+   "title": "Two versions of one oracle are kept",
+   "text": "Verses 30 and 31 give variant wordings of the same saying, introduced identically with \"and again he saith.\" The record shows its own transmission working: a prophetic line remembered in more than one form, and preserved that way."
+  },
+  {
+   "n": 6,
+   "title": "Deliverance is promised without a date",
+   "text": "The final verse grants the outcome and withholds the timing: he will deliver, according to his own will and pleasure. Limhi's people will in fact wait years and escape by a stratagem. The chapter is careful not to say when."
+  },
+  {
+   "n": 7,
+   "title": "Slavery to kin is offered as good news",
+   "text": "Verse 15's proposal, better slaves to the Nephites than tributaries to the Lamanites, is made in the same breath as the rejoicing. Nothing in the chapter treats it as shocking. Nothing else in the record conveys what the previous decades had been like so efficiently."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Notice what your persistence starts",
+    "verse_label": "v. 1",
+    "text": "A whole history began because people would not stop asking. Before you press something, consider that you may get it, and that the getting is the beginning rather than the end."
+   },
+   {
+    "title": "Admit the strugglings that were in vain",
+    "verse_label": "v. 18",
+    "text": "Limhi does not pretend the failed attempts succeeded. Name an effort of yours that did not work, say so plainly, and then ask what an effectual one would look like."
+   },
+   {
+    "title": "Recite the history",
+    "verse_label": "v. 19",
+    "text": "When you need hope, rehearse specific things God has already done: for Israel, for your family, for you. Limhi's argument is entirely from precedent and he names the instances."
+   },
+   {
+    "title": "Watch for excess of a good motive",
+    "verse_label": "v. 21",
+    "text": "Zeniff's fault was being over-zealous to inherit what was his fathers'. Identify a good desire you hold strongly enough that it has started costing other people something."
+   },
+   {
+    "title": "Ask who is surprised",
+    "verse_label": "v. 28",
+    "text": "Limhi's question invites his people to find their own situation unsurprising. Applied honestly to a difficulty of your own, it is uncomfortable and clarifying."
+   },
+   {
+    "title": "Turn, trust, serve, then wait",
+    "verse_label": "v. 33",
+    "text": "The three conditions are given plainly and the timing is not. Do the three, and accept that the schedule is not part of the promise."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "Where am I traveling confidently on a route I do not actually know?"
+   },
+   {
+    "verse_label": "v. 15",
+    "start": 15,
+    "end": 15,
+    "text": "What have I accepted as an improvement that would have horrified me a few years ago?"
+   },
+   {
+    "verse_label": "v. 18",
+    "start": 18,
+    "end": 18,
+    "text": "Which of my strugglings have been in vain, and am I willing to say so?"
+   },
+   {
+    "verse_label": "v. 21",
+    "start": 21,
+    "end": 21,
+    "text": "What good thing am I over-zealous about?"
+   },
+   {
+    "verse_label": "v. 26",
+    "start": 26,
+    "end": 26,
+    "text": "Whose warning have I dismissed because of what it would cost me to accept it?"
+   },
+   {
+    "verse_label": "v. 30",
+    "start": 30,
+    "end": 30,
+    "text": "What am I sowing that I would not want to reap?"
+   },
+   {
+    "verse_label": "v. 33",
+    "start": 33,
+    "end": 33,
+    "text": "Can I do the turning without setting a deadline for the deliverance?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "mos07-013",
+   "scope": "BOOK",
+   "head": "Mosiah 19:28",
+   "anchor": {
+    "verse": 22,
+    "w1": 68,
+    "w2": 84,
+    "quote": "one half of all we have or possess the king of the Lamanites doth exact of us"
+   },
+   "reason": "the rate, at the moment it was set",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 19,
+     "verse": 28,
+     "w1": 33,
+     "w2": 48,
+     "quote": "he did support his guards out of the tribute which he did receive from the Nephites.",
+     "verse_text": "And the king of the Lamanites set guards round about the land, that he might keep the people of Limhi in the land, that they might not depart into the wilderness; and he did support his guards out of the tribute which he did receive from the Nephites.",
+     "markdown": "And the king of the Lamanites set guards round about the land, that he might keep the people of Limhi in the land, that they might not depart into the wilderness; and **he did support his guards out of the tribute which he did receive from the Nephites**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos19-005"
+  },
+  {
+   "id": "mos07-012",
+   "scope": "BOOK",
+   "head": "Mosiah 11:3",
+   "anchor": {
+    "verse": 22,
+    "w1": 68,
+    "w2": 84,
+    "quote": "one half of all we have or possess the king of the Lamanites doth exact of us"
+   },
+   "reason": "the fifth part that preceded the half",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 11,
+     "verse": 3,
+     "w1": 1,
+     "w2": 13,
+     "quote": "And he laid a tax of one fifth part of all they possessed,",
+     "verse_text": "And he laid a tax of one fifth part of all they possessed, a fifth part of their gold and of their silver, and a fifth part of their ziff, and of their copper, and of their brass and their iron; and a fifth part of their fatlings; and also a fifth part of all their grain.",
+     "markdown": "**And he laid a tax of one fifth part of all they possessed**, a fifth part of their gold and of their silver, and a fifth part of their ziff, and of their copper, and of their brass and their iron; and a fifth part of their fatlings; and also a fifth part of all their grain.",
+     "span": true
+    }
+   ],
+   "mirror": "mos11-004"
+  },
+  {
+   "id": "mos07-011",
+   "scope": "BOOK",
+   "head": "Mosiah 9:12",
+   "anchor": {
+    "verse": 22,
+    "w1": 21,
+    "w2": 33,
+    "quote": "we at this time do pay tribute to the king of the Lamanites"
+   },
+   "reason": "the design Zeniff records from the other end",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 9,
+     "verse": 12,
+     "w1": 19,
+     "w2": 29,
+     "quote": "that they might glut themselves with the labors of our hands;",
+     "verse_text": "Now they were a lazy and an idolatrous people; therefore they were desirous to bring us into bondage, that they might glut themselves with the labors of our hands; yea, that they might feast themselves upon the flocks of our fields.",
+     "markdown": "Now they were a lazy and an idolatrous people; therefore they were desirous to bring us into bondage, **that they might glut themselves with the labors of our hands**; yea, that they might feast themselves upon the flocks of our fields.",
+     "span": true
+    }
+   ],
+   "mirror": "mos09-002"
+  },
+  {
+   "id": "mos07-006",
+   "scope": "BOOK",
+   "head": "Mosiah 17:8",
+   "anchor": {
+    "verse": 27,
+    "w1": 47,
+    "w2": 57,
+    "quote": "he said that man was created after the image of God"
+   },
+   "reason": "the doctrine named as the capital charge",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 17,
+     "verse": 8,
+     "w1": 2,
+     "w2": 15,
+     "quote": "thou hast said that God himself should come down among the children of men;",
+     "verse_text": "For thou hast said that God himself should come down among the children of men; and now, for this cause thou shalt be put to death unless thou wilt recall all the words which thou hast spoken evil concerning me and my people.",
+     "markdown": "For **thou hast said that God himself should come down among the children of men**; and now, for this cause thou shalt be put to death unless thou wilt recall all the words which thou hast spoken evil concerning me and my people.",
+     "span": true
+    }
+   ],
+   "mirror": "mos17-003"
+  },
+  {
+   "id": "mos07-005",
+   "scope": "BOOK",
+   "head": "Mosiah 17:20",
+   "anchor": {
+    "verse": 26,
+    "w1": 2,
+    "w2": 15,
+    "quote": "a prophet of the Lord have they slain; yea, a chosen man of God"
+   },
+   "reason": "the death this chapter reports without a name",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 17,
+     "verse": 20,
+     "w1": 9,
+     "w2": 15,
+     "quote": "he fell, having suffered death by fire;",
+     "verse_text": "And now, when Abinadi had said these words, he fell, having suffered death by fire; yea, having been put to death because he would not deny the commandments of God, having sealed the truth of his words by his death.",
+     "markdown": "And now, when Abinadi had said these words, **he fell, having suffered death by fire**; yea, having been put to death because he would not deny the commandments of God, having sealed the truth of his words by his death.",
+     "span": true
+    }
+   ],
+   "mirror": "mos17-006"
+  },
+  {
+   "id": "mos07-003",
+   "scope": "BOOK",
+   "head": "Mosiah 2:14",
+   "anchor": {
+    "verse": 15,
+    "w1": 11,
+    "w2": 21,
+    "quote": "are taxed with a tax which is grievous to be borne"
+   },
+   "reason": "the king who took no taxes, against the king who takes half",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 2,
+     "verse": 14,
+     "w1": 12,
+     "w2": 24,
+     "quote": "I might serve you, and that ye should not be laden with taxes,",
+     "verse_text": "And even I, myself, have labored with mine own hands that I might serve you, and that ye should not be laden with taxes, and that there should nothing come upon you which was grievous to be borne—and of all these things which I have spoken, ye yourselves are witnesses this day.",
+     "markdown": "And even I, myself, have labored with mine own hands that **I might serve you, and that ye should not be laden with taxes**, and that there should nothing come upon you which was grievous to be borne—and of all these things which I have spoken, ye yourselves are witnesses this day.",
+     "span": true
+    }
+   ],
+   "mirror": "mos02-013"
+  },
+  {
+   "id": "mos07-002",
+   "scope": "BOOK",
+   "head": "Mosiah 9:3",
+   "anchor": {
+    "verse": 21,
+    "w1": 17,
+    "w2": 26,
+    "quote": "he being over-zealous to inherit the land of his fathers"
+   },
+   "reason": "Zeniff using the same word of himself",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 9,
+     "verse": 3,
+     "w1": 3,
+     "w2": 12,
+     "quote": "I being over-zealous to inherit the land of our fathers,",
+     "verse_text": "And yet, I being over-zealous to inherit the land of our fathers, collected as many as were desirous to go up to possess the land, and started again on our journey into the wilderness to go up to the land; but we were smitten with famine and sore afflictions; for we were slow to remember the Lord our God.",
+     "markdown": "And yet, **I being over-zealous to inherit the land of our fathers**, collected as many as were desirous to go up to possess the land, and started again on our journey into the wilderness to go up to the land; but we were smitten with famine and sore afflictions; for we were slow to remember the Lord our God.",
+     "span": true
+    }
+   ],
+   "mirror": "mos09-001"
+  },
+  {
+   "id": "mos07-001",
+   "scope": "BOOK",
+   "head": "Mosiah 6:7",
+   "anchor": {
+    "verse": 1,
+    "w1": 8,
+    "w2": 20,
+    "quote": "after king Mosiah had had continual peace for the space of three years"
+   },
+   "reason": "the peace of the previous chapter, now ending",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 6,
+     "verse": 7,
+     "w1": 48,
+     "w2": 61,
+     "quote": "there was no contention among all his people for the space of three years.",
+     "verse_text": "And king Mosiah did cause his people that they should till the earth. And he also, himself, did till the earth, that thereby he might not become burdensome to his people, that he might do according to that which his father had done in all things. And there was no contention among all his people for the space of three years.",
+     "markdown": "And king Mosiah did cause his people that they should till the earth. And he also, himself, did till the earth, that thereby he might not become burdensome to his people, that he might do according to that which his father had done in all things. And **there was no contention among all his people for the space of three years**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos06-009"
+  },
+  {
+   "id": "mos07-004",
+   "scope": "BOM",
+   "head": "Mosiah 4:16",
+   "anchor": {
+    "verse": 29,
+    "w1": 7,
+    "w2": 18,
+    "quote": "I will not succor my people in the day of their transgression"
+   },
+   "reason": "the verb turned the other way",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 4,
+     "verse": 16,
+     "w1": 3,
+     "w2": 14,
+     "quote": "ye yourselves will succor those that stand in need of your succor;",
+     "verse_text": "And also, ye yourselves will succor those that stand in need of your succor; ye will administer of your substance unto him that standeth in need; and ye will not suffer that the beggar putteth up his petition to you in vain, and turn him out to perish.",
+     "markdown": "And also, **ye yourselves will succor those that stand in need of your succor**; ye will administer of your substance unto him that standeth in need; and ye will not suffer that the beggar putteth up his petition to you in vain, and turn him out to perish.",
+     "span": true
+    }
+   ],
+   "mirror": "mos04-008"
+  },
+  {
+   "id": "mos07-010",
+   "scope": "SW",
+   "head": "Gen. 1:27",
+   "anchor": {
+    "verse": 27,
+    "w1": 47,
+    "w2": 57,
+    "quote": "he said that man was created after the image of God"
+   },
+   "reason": "the verse the murdered prophet was expounding",
+   "targets": [
+    {
+     "ref": "Gen.",
+     "chapter": 1,
+     "verse": 27,
+     "w1": 9,
+     "w2": 16,
+     "quote": "in the image of God created he him;",
+     "verse_text": "So God created man in his own image, in the image of God created he him; male and female created he them.",
+     "markdown": "So God created man in his own image, **in the image of God created he him**; male and female created he them.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "mos07-009",
+   "scope": "SW",
+   "head": "Ex. 3:15",
+   "anchor": {
+    "verse": 19,
+    "w1": 15,
+    "w2": 26,
+    "quote": "that God who was the God of Abraham, and Isaac, and Jacob"
+   },
+   "reason": "the name God gives himself at the bush",
+   "targets": [
+    {
+     "ref": "Ex.",
+     "chapter": 3,
+     "verse": 15,
+     "w1": 16,
+     "w2": 34,
+     "quote": "The LORD God of your fathers, the God of Abraham, the God of Isaac, and the God of Jacob,",
+     "verse_text": "And God said moreover unto Moses, Thus shalt thou say unto the children of Israel, The LORD God of your fathers, the God of Abraham, the God of Isaac, and the God of Jacob, hath sent me unto you: this is my name for ever, and this is my memorial unto all generations.",
+     "markdown": "And God said moreover unto Moses, Thus shalt thou say unto the children of Israel, **The LORD God of your fathers, the God of Abraham, the God of Isaac, and the God of Jacob**, hath sent me unto you: this is my name for ever, and this is my memorial unto all generations.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "mos07-008",
+   "scope": "SW",
+   "head": "Hosea 2:6",
+   "anchor": {
+    "verse": 29,
+    "w1": 20,
+    "w2": 29,
+    "quote": "I will hedge up their ways that they prosper not"
+   },
+   "reason": "the same hedging, of a way with thorns",
+   "targets": [
+    {
+     "ref": "Hosea",
+     "chapter": 2,
+     "verse": 6,
+     "w1": 3,
+     "w2": 10,
+     "quote": "I will hedge up thy way with thorns,",
+     "verse_text": "Therefore, behold, I will hedge up thy way with thorns, and make a wall, that she shall not find her paths.",
+     "markdown": "Therefore, behold, **I will hedge up thy way with thorns**, and make a wall, that she shall not find her paths.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "mos07-007",
+   "scope": "SW",
+   "head": "Hosea 8:7",
+   "anchor": {
+    "verse": 30,
+    "w1": 5,
+    "w2": 19,
+    "quote": "If my people shall sow filthiness they shall reap the chaff thereof in the whirlwind"
+   },
+   "reason": "the oracle this varies",
+   "targets": [
+    {
+     "ref": "Hosea",
+     "chapter": 8,
+     "verse": 7,
+     "w1": 2,
+     "w2": 12,
+     "quote": "they have sown the wind, and they shall reap the whirlwind:",
+     "verse_text": "For they have sown the wind, and they shall reap the whirlwind: it hath no stalk: the bud shall yield no meal: if so be it yield, the strangers shall swallow it up.",
+     "markdown": "For **they have sown the wind, and they shall reap the whirlwind**: it hath no stalk: the bud shall yield no meal: if so be it yield, the strangers shall swallow it up.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 8,
+   "w2": 20,
+   "quote": "after king Mosiah had had continual peace for the space of three years",
+   "entries": [
+    "mos07-001"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 11,
+   "w2": 21,
+   "quote": "are taxed with a tax which is grievous to be borne",
+   "entries": [
+    "mos07-003"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 15,
+   "w2": 26,
+   "quote": "that God who was the God of Abraham, and Isaac, and Jacob",
+   "entries": [
+    "mos07-009"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 17,
+   "w2": 26,
+   "quote": "he being over-zealous to inherit the land of his fathers",
+   "entries": [
+    "mos07-002"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 21,
+   "w2": 33,
+   "quote": "we at this time do pay tribute to the king of the Lamanites",
+   "entries": [
+    "mos07-011"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 68,
+   "w2": 84,
+   "quote": "one half of all we have or possess the king of the Lamanites doth exact of us",
+   "entries": [
+    "mos07-013",
+    "mos07-012"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 2,
+   "w2": 15,
+   "quote": "a prophet of the Lord have they slain; yea, a chosen man of God",
+   "entries": [
+    "mos07-005"
+   ]
+  },
+  {
+   "verse": 27,
+   "w1": 47,
+   "w2": 57,
+   "quote": "he said that man was created after the image of God",
+   "entries": [
+    "mos07-006",
+    "mos07-010"
+   ]
+  },
+  {
+   "verse": 29,
+   "w1": 7,
+   "w2": 18,
+   "quote": "I will not succor my people in the day of their transgression",
+   "entries": [
+    "mos07-004"
+   ]
+  },
+  {
+   "verse": 29,
+   "w1": 20,
+   "w2": 29,
+   "quote": "I will hedge up their ways that they prosper not",
+   "entries": [
+    "mos07-008"
+   ]
+  },
+  {
+   "verse": 30,
+   "w1": 5,
+   "w2": 19,
+   "quote": "If my people shall sow filthiness they shall reap the chaff thereof in the whirlwind",
+   "entries": [
+    "mos07-007"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "c136c46cba4740c8"
+ }
+}

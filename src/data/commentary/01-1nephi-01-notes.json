@@ -17,7 +17,7 @@
    "Record-keeping",
    "Prophetic calling"
   ],
-  "connections": 17,
+  "connections": 19,
   "initial": false
  },
  "world_behind": [
@@ -64,18 +64,18 @@
   {
    "n": 3,
    "title": "Lehi's household and means",
-   "text": "Lehi had \"dwelt at Jerusalem in all his days)\" (v. 4), and the next chapters show a family of substance: gold, silver, and a land of inheritance worth returning for (1 Ne. 3:16, 22). A house that could school a son in two literacies was not a poor one. Perhaps the Egyptian came by trade down the caravan routes; the record never says, only that the learning was there when it was needed.",
+   "text": "Lehi had \"dwelt at Jerusalem in all his days\" (v. 4), and the next chapters show a family of substance: gold, silver, and a land of inheritance worth returning for (1 Ne. 3:16, 22). A house that could school a son in two literacies was not a poor one. Perhaps the Egyptian came by trade down the caravan routes; the record never says, only that the learning was there when it was needed.",
    "cites": [
     {
-     "quote": "dwelt at Jerusalem in all his days)",
+     "quote": "dwelt at Jerusalem in all his days",
      "verse": 4,
      "start": 9,
-     "end": 53,
+     "end": 52,
      "spans": [
       {
        "w1": 25,
        "w2": 31,
-       "text": "dwelt at Jerusalem in all his days)"
+       "text": "dwelt at Jerusalem in all his days"
       }
      ]
     }
@@ -84,8 +84,8 @@
     {
      "kind": "scripture",
      "text": "1 Ne. 3:16",
-     "start": 166,
-     "end": 176,
+     "start": 165,
+     "end": 175,
      "book": "1 Ne",
      "chapter": 3,
      "verse_start": 16,
@@ -133,13 +133,23 @@
   {
    "n": 6,
    "title": "Killing the messenger was recent practice",
-   "text": "Jeremiah stood trial for preaching exactly this doom, and the same account records a prophet named Urijah hunted into Egypt and executed for it (Jer. 26). The plot against Lehi's life (v. 20) is not narrative color; it is what that city, in those years, did with that sermon.",
+   "text": "Jeremiah stood trial for preaching exactly this doom, and the same account records a prophet named Urijah hunted into Egypt and executed for it (Jer. 26:20–23). The plot against Lehi's life (v. 20) is not narrative color; it is what that city, in those years, did with that sermon.",
    "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jer. 26:20–23",
+     "start": 145,
+     "end": 158,
+     "book": "Jer",
+     "chapter": 26,
+     "verse_start": 20,
+     "verse_end": 23
+    },
     {
      "kind": "verse",
      "text": "(v. 20)",
-     "start": 184,
-     "end": 191,
+     "start": 190,
+     "end": 197,
      "verse_start": 20,
      "verse_end": 20
     }
@@ -261,6 +271,26 @@
        "w1": 16,
        "w2": 20,
        "text": "the stars in the firmament"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Wo",
+   "verse_label": "v. 13",
+   "text": "A formal cry of judgment, and the first word Lehi reads aloud out of the heavenly book. The record spells it wo and uses it eighty-eight times; the King James Bible spells it woe and never uses this form. It arrives doubled: \"Wo, wo, unto Jerusalem, for I have seen thine abominations!\" (v. 13). Prophets stack the cry when the sentence has already been passed, and everything Lehi reads after this line fills in what the sentence means.",
+   "cites": [
+    {
+     "quote": "Wo, wo, unto Jerusalem, for I have seen thine abominations!",
+     "verse": 13,
+     "start": 225,
+     "end": 294,
+     "spans": [
+      {
+       "w1": 5,
+       "w2": 14,
+       "text": "Wo, wo, unto Jerusalem, for I have seen thine abominations!"
       }
      ]
     }
@@ -460,218 +490,61 @@
  ],
  "verses": [
   {
-   "label": "v. 1",
-   "start": 1,
-   "end": 1,
-   "title": "Afflictions and favor in one breath",
-   "text": "The first sentence holds \"having seen many afflictions\" (v. 1) and \"having been highly favored of the Lord in all my days\" (v. 1) together without explaining how both can be true. Four \"having\" clauses stack a whole life into the opening line. The tension they refuse to resolve, hard days and favored days being the same days, is the tension the entire record will keep working.",
-   "cites": [
-    {
-     "quote": "having seen many afflictions",
-     "verse": 1,
-     "start": 25,
-     "end": 62,
-     "spans": [
-      {
-       "w1": 22,
-       "w2": 25,
-       "text": "having seen many afflictions"
-      }
-     ]
-    },
-    {
-     "quote": "having been highly favored of the Lord in all my days",
-     "verse": 1,
-     "start": 67,
-     "end": 129,
-     "spans": [
-      {
-       "w1": 33,
-       "w2": 43,
-       "text": "having been highly favored of the Lord in all my days"
-      }
-     ]
-    }
-   ]
-  },
-  {
    "label": "v. 4",
    "start": 4,
    "end": 4,
-   "title": "Dated to a public crisis",
-   "text": "Nephi pins the family story to a regnal year and a street full of prophets. It is the only verse of background the chapter allows itself, and it does double work: it starts the book's clock, and it places Lehi's private vision inside a public argument already underway."
-  },
-  {
-   "label": "v. 5–6",
-   "start": 5,
-   "end": 6,
-   "title": "Intercession comes first",
-   "text": "Lehi's first recorded act is prayer \"with all his heart, in behalf of his people\" (v. 5). The pillar of fire interrupts a man already pleading for the city that will shortly want him dead. The order is worth keeping: compassion precedes commission, and the vision finds him mid-prayer, not mid-doubt.",
-   "cites": [
-    {
-     "quote": "with all his heart, in behalf of his people",
-     "verse": 5,
-     "start": 36,
-     "end": 88,
-     "spans": [
-      {
-       "w1": 20,
-       "w2": 28,
-       "text": "with all his heart, in behalf of his people"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 8–10",
-   "start": 8,
-   "end": 10,
-   "title": "The opened heavens, ranked by light",
-   "text": "God enthroned amid singing; then One descending whose brightness beats the noon sun; then twelve who outshine stars. Even the grammar is careful: \"he thought he saw\" (v. 8). The son refuses to state more than his source claimed. Readers reach ch. 11 before the Twelve are seen again and the scene begins to be explained (1 Ne. 11:29).",
-   "cites": [
-    {
-     "quote": "he thought he saw",
-     "verse": 8,
-     "start": 146,
-     "end": 172,
-     "spans": [
-      {
-       "w1": 23,
-       "w2": 26,
-       "text": "he thought he saw"
-      }
-     ]
-    }
-   ],
+   "title": "A date fixed to a king outside the record",
+   "text": "The chronology is anchored to \"the commencement of the first year of the reign of Zedekiah, king of Judah,\" a reign datable from 2 Kings 24:18 and Jeremiah 52:1 at eleven years ending in the fall of Jerusalem. Zedekiah is named six times in these books, at 1 Nephi 1:4, 1 Nephi 5:12 and 5:13, Omni 1:15, Helaman 6:10, and Helaman 8:21, and every one of the six is doing chronological or genealogical work. The verse also carries its only parenthesis, \"(my father, Lehi, having dwelt at Jerusalem in all his days),\" which supplies a residence and rules out an immigrant.",
    "refs": [
     {
      "kind": "scripture",
-     "text": "1 Ne. 11:29",
-     "start": 321,
-     "end": 332,
-     "book": "1 Ne",
-     "chapter": 11,
-     "verse_start": 29,
-     "verse_end": 29
+     "text": "Omni 1:15",
+     "start": 293,
+     "end": 302,
+     "book": "Omni",
+     "chapter": 1,
+     "verse_start": 15,
+     "verse_end": 15
     }
    ]
   },
   {
-   "label": "v. 11–12",
-   "start": 11,
-   "end": 12,
-   "title": "The book does the filling",
-   "text": "The first figure hands Lehi not a staff or a sword but \"a book, and bade him that he should read\" (v. 11); and it is \"as he read\" (v. 12) that he \"was filled with the Spirit of the Lord\" (v. 12). In a chapter obsessed with records, heaven's own chosen instrument is a text, and reading is the act that carries the Spirit in.",
-   "cites": [
-    {
-     "quote": "a book, and bade him that he should read",
-     "verse": 11,
-     "start": 55,
-     "end": 105,
-     "spans": [
-      {
-       "w1": 27,
-       "w2": 35,
-       "text": "a book, and bade him that he should read"
-      }
-     ]
-    },
-    {
-     "quote": "as he read",
-     "verse": 12,
-     "start": 117,
-     "end": 137,
-     "spans": [
-      {
-       "w1": 7,
-       "w2": 9,
-       "text": "as he read"
-      }
-     ]
-    },
-    {
-     "quote": "was filled with the Spirit of the Lord",
-     "verse": 12,
-     "start": 146,
-     "end": 194,
-     "spans": [
-      {
-       "w1": 11,
-       "w2": 18,
-       "text": "was filled with the Spirit of the Lord"
-      }
-     ]
-    }
-   ]
+   "label": "v. 5–7",
+   "start": 5,
+   "end": 7,
+   "title": "Two experiences separated by a journey home",
+   "text": "The record does not run the theophany and the vision together. The first happens outdoors and is reported in physical terms: \"there came a pillar of fire and dwelt upon a rock before him,\" followed by quaking and trembling. Then verse 7 moves him: \"he returned to his own house at Jerusalem; and he cast himself upon his bed.\" The second experience begins only after the change of location. The record gives the content of the first in five words, \"he saw and heard much,\" and spends eight verses on the second."
   },
   {
-   "label": "v. 14–15",
-   "start": 14,
-   "end": 15,
-   "title": "The arc ends in praise",
-   "text": "The man who quaked and trembled at v. 6 is exclaiming \"Great and marvelous are thy works\" (v. 14) by v. 14, and his \"soul did rejoice\" (v. 15). A vision of his city's ruin produces, of all things, worship, because behind the ruin he was shown mercy: \"thou wilt not suffer those who come unto thee that they shall perish\" (v. 14).",
-   "cites": [
-    {
-     "quote": "Great and marvelous are thy works",
-     "verse": 14,
-     "start": 54,
-     "end": 97,
-     "spans": [
-      {
-       "w1": 29,
-       "w2": 34,
-       "text": "Great and marvelous are thy works"
-      }
-     ]
-    },
-    {
-     "quote": "soul did rejoice",
-     "verse": 15,
-     "start": 116,
-     "end": 142,
-     "spans": [
-      {
-       "w1": 19,
-       "w2": 21,
-       "text": "soul did rejoice"
-      }
-     ]
-    },
-    {
-     "quote": "thou wilt not suffer those who come unto thee that they shall perish",
-     "verse": 14,
-     "start": 250,
-     "end": 328,
-     "spans": [
-      {
-       "w1": 66,
-       "w2": 78,
-       "text": "thou wilt not suffer those who come unto thee that they shall perish"
-      }
-     ]
-    }
-   ]
+   "label": "v. 8–11",
+   "start": 8,
+   "end": 11,
+   "title": "A seer's uncertainty preserved in the report",
+   "text": "The record hedges the central image rather than asserting it: \"he thought he saw God sitting upon his throne.\" The verb is not used of anything else in the vision; the twelve are simply seen, the book is simply given. Nothing in the chapter resolves whether the qualification belongs to Lehi or to Nephi, who is summarizing a document he elsewhere says he is abridging. A record that will report visions for six hundred pages marks its first one with a word of doubt."
   },
   {
-   "label": "v. 18–20",
-   "start": 18,
+   "label": "v. 16–17",
+   "start": 16,
+   "end": 17,
+   "title": "A source announced and declined in the same breath",
+   "text": "The verse states twice over what will not be included: \"I do not make a full account of the things which my father hath written,\" and then again, \"of which I shall not make a full account.\" Verse 17 sets out the plan in order, abridge the father's record first and then write his own life. The father's record is named, described as containing visions, dreams, and prophecies, and never given. What the reader has instead is the summary in verses 5 through 15, so a chapter that reports an eight-verse vision also reports that the eight verses are a reduction."
+  },
+  {
+   "label": "v. 20",
+   "start": 20,
    "end": 20,
-   "title": "The refusal, and the answer",
-   "text": "Lehi obeys and preaches; Jerusalem answers with mockery and a plot. Then the chapter does something strange: mid-crisis, with his father's life in danger, Nephi turns to the reader and promises a demonstration: \"to make them mighty even unto the power of deliverance\" (v. 20). The moral is placed before the story that will earn it, a title hung over everything that follows.",
-   "cites": [
+   "title": "A thesis stated before the evidence",
+   "text": "The chapter ends by announcing what the book will demonstrate: \"I, Nephi, will show unto you that the tender mercies of the Lord are over all those whom he hath chosen, because of their faith, to make them mighty even unto the power of deliverance.\" The sentence is a program, with a claim, a scope, a condition, and a promised outcome. Everything from 1 Nephi 2 forward can be read against it. The phrase itself is borrowed and narrowed: Psalm 145:9 has \"his tender mercies are over all his works,\" and this verse has them \"over all those whom he hath chosen.\" The wording occurs three times in these books, here, at 1 Nephi 8:8, and at Ether 6:12.",
+   "refs": [
     {
-     "quote": "to make them mighty even unto the power of deliverance",
-     "verse": 20,
-     "start": 211,
-     "end": 275,
-     "spans": [
-      {
-       "w1": 69,
-       "w2": 78,
-       "text": "to make them mighty even unto the power of deliverance"
-      }
-     ]
+     "kind": "scripture",
+     "text": "Ether 6:12",
+     "start": 638,
+     "end": 648,
+     "book": "Ether",
+     "chapter": 6,
+     "verse_start": 12,
+     "verse_end": 12
     }
    ]
   }
@@ -680,13 +553,13 @@
   {
    "n": 1,
    "title": "A record that explains itself first",
-   "text": "Verses 1–3 and 16–17 form a frame around the vision: provenance, language, the maker's own hand, a truth-claim, and an editorial method, stated before and after the story they enclose. The book opens the way an archive opens, with a label, and the label's confidence ( \"I know that the record which I make is true\" (v. 3)) is itself part of what the book asks the reader to test.",
+   "text": "Verses 1–3 and 16–17 form a frame around the vision: where it came from, its language, the maker's own hand, a truth-claim, and an editorial method, stated before and after the story they enclose. The book opens the way an archive opens, with a label, and the label's confidence ( \"I know that the record which I make is true\" (v. 3)) is itself part of what the book asks the reader to test.",
    "cites": [
     {
      "quote": "I know that the record which I make is true",
      "verse": 3,
-     "start": 269,
-     "end": 321,
+     "start": 281,
+     "end": 333,
      "spans": [
       {
        "w1": 2,
@@ -745,13 +618,13 @@
   {
    "n": 5,
    "title": "A preface in a hurry",
-   "text": "Twenty verses carry a theophany, a heavenly book, a commission, and a murder plot, while a single later vision will get whole chapters. Twice Nephi says he is not making \"a full account\" (v. 16). The speed is a signal: this chapter is a doorway, built to reach its thesis fast. The rooms the book lives in come later.",
+   "text": "Twenty verses carry a vision of God, a heavenly book, a commission, and a murder plot, while a single later vision will get whole chapters. Twice Nephi says he is not making \"a full account\" (v. 16). The speed is a signal: this chapter is a doorway, built to reach its thesis fast. The rooms the book lives in come later.",
    "cites": [
     {
      "quote": "a full account",
      "verse": 16,
-     "start": 170,
-     "end": 194,
+     "start": 174,
+     "end": 198,
      "spans": [
       {
        "w1": 8,
@@ -1077,7 +950,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al36-006"
   },
   {
    "id": "1ne01-006",
@@ -1129,7 +1002,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "eno01-013"
   },
   {
    "id": "1ne01-008",
@@ -1155,7 +1028,59 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "eth06-005"
+  },
+  {
+   "id": "1ne01-018",
+   "scope": "BOM",
+   "head": "Morm. 5:9",
+   "anchor": {
+    "verse": 17,
+    "w1": 14,
+    "w2": 23,
+    "quote": "I make an abridgment of the record of my father,"
+   },
+   "reason": "Mormon using the same word of his own work",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 5,
+     "verse": 9,
+     "w1": 40,
+     "w2": 45,
+     "quote": "them—therefore I write a small abridgment,",
+     "verse_text": "And also that a knowledge of these things must come unto the remnant of these people, and also unto the Gentiles, who the Lord hath said should scatter this people, and this people should be counted as naught among them—therefore I write a small abridgment, daring not to give a full account of the things which I have seen, because of the commandment which I have received, and also that ye might not have too great sorrow because of the wickedness of this people.",
+     "markdown": "And also that a knowledge of these things must come unto the remnant of these people, and also unto the Gentiles, who the Lord hath said should scatter this people, and this people should be counted as naught among **them—therefore I write a small abridgment**, daring not to give a full account of the things which I have seen, because of the commandment which I have received, and also that ye might not have too great sorrow because of the wickedness of this people.",
+     "span": true
+    }
+   ],
+   "mirror": "morm05-007"
+  },
+  {
+   "id": "1ne01-019",
+   "scope": "BOM",
+   "head": "Morm. 9:32",
+   "anchor": {
+    "verse": 2,
+    "w1": 21,
+    "w2": 25,
+    "quote": "the language of the Egyptians."
+   },
+   "reason": "the same language, named at the record's end",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 9,
+     "verse": 32,
+     "w1": 13,
+     "w2": 23,
+     "quote": "in the characters which are called among us the reformed Egyptian,",
+     "verse_text": "And now, behold, we have written this record according to our knowledge, in the characters which are called among us the reformed Egyptian, being handed down and altered by us, according to our manner of speech.",
+     "markdown": "And now, behold, we have written this record according to our knowledge, **in the characters which are called among us the reformed Egyptian**, being handed down and altered by us, according to our manner of speech.",
+     "span": true
+    }
+   ],
+   "mirror": "morm09-005"
   },
   {
    "id": "1ne01-009",
@@ -1415,7 +1340,8 @@
    "w2": 25,
    "quote": "the language of the Egyptians",
    "entries": [
-    "1ne01-006"
+    "1ne01-006",
+    "1ne01-019"
    ]
   },
   {
@@ -1497,7 +1423,8 @@
    "w2": 23,
    "quote": "I make an abridgment of the record of my father",
    "entries": [
-    "1ne01-004"
+    "1ne01-004",
+    "1ne01-018"
    ]
   },
   {
@@ -1539,7 +1466,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "65b4870aecd5d9b5"
+  "at": "2026-09-07",
+  "source_sha256": "a57ba40365c4ab00"
  }
 }

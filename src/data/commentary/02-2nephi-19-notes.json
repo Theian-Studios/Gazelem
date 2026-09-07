@@ -59,6 +59,11 @@
    "text": "Distress, trouble pressed on a person from outside. The word looks backward in the verse to a first, lighter affliction and sets up a comparison: the coming dimness will not be like that one. Isaiah opens a chapter about light by measuring two kinds of darkness against each other."
   },
   {
+   "term": "Warrior",
+   "verse_label": "v. 5",
+   "text": "A fighting man. The word appears once in this record and once in the King James Bible, both times this verse of Isaiah. Verse 5 gives the soldier's kit as confused noise and garments rolled in blood, then says this battle will go differently: burning, and fuel for fire. The record names the profession once and immediately retires it."
+  },
+  {
    "term": "Stoutness",
    "verse_label": "v. 9",
    "text": "Not size. The older sense is stubbornness, a hardness of resolve, and it is paired with pride in the same phrase. What follows is the building program of verse 10, so the word names the attitude that produces a construction plan instead of a repentance."
@@ -200,68 +205,39 @@
  ],
  "verses": [
   {
-   "label": "v. 1–2",
+   "label": "v. 1",
    "start": 1,
-   "end": 2,
-   "title": "The light lands in the border country",
-   "text": "The chapter opens by naming the two territories that suffered first and worst, and puts the great light exactly there. The people are described twice, as walking in darkness and as dwelling in the land of the shadow of death, and the verb applied to the light is passive: it shined on them. Nothing is said about them looking for it."
+   "end": 1,
+   "title": "The sea is given a name",
+   "text": "Isaiah 9:1 speaks of \"the way of the sea, beyond Jordan.\" Here a single word is inserted and the route becomes specific. The verse also drops a possessive and changes afterward to afterwards. Three small edits, and the one that matters puts a known body of water where Isaiah left a general one."
   },
   {
-   "label": "v. 3–5",
+   "label": "v. 3",
    "start": 3,
-   "end": 5,
-   "title": "Harvest, plunder, and a bonfire",
-   "text": "Three pictures of relief in rapid succession, and the third is the strangest: every soldier's boot and bloodied coat becomes fuel. The war ends in a fire made of equipment, the same instinct as swords beaten into plowshares two chapters into the block."
+   "end": 3,
+   "title": "A negative disappears",
+   "text": "The King James verse reads \"thou hast multiplied the nation, and not increased the joy,\" which has puzzled readers for centuries because the second clause seems to contradict the first and the rest of the verse. This version simply lacks the not. It is the smallest possible change and it resolves the whole difficulty, and the variants make it without comment."
   },
   {
-   "label": "v. 6",
-   "start": 6,
-   "end": 6,
-   "title": "A child, and five names",
-   "text": "The verse gives the whole succession in one line: born, given, government on the shoulder, and then names that no ordinary king could carry. Wonderful, Counselor, Mighty God, Everlasting Father, Prince of Peace. Isaiah does not explain how a child holds these, and the record lets the tension stand for another four hundred pages."
+   "label": "v. 4",
+   "start": 4,
+   "end": 4,
+   "title": "A historical comparison is cut",
+   "text": "Isaiah likens the breaking of the yoke to \"the day of Midian,\" pointing at Gideon's victory in Judges 7. That clause is absent here. The chapter keeps the yoke, the staff and the rod, and drops the one line that anchored them to a particular battle."
   },
   {
    "label": "v. 7",
    "start": 7,
    "end": 7,
-   "title": "A throne with no exit",
-   "text": "The government increases without end, the throne is David's, and the tools of the reign are judgment and justice. Then the verse names what guarantees it, and it is not the king's competence: \"the zeal of the Lord of Hosts will perform this\" (v. 7). The promise rests on God's eagerness rather than on anyone's performance.",
-   "cites": [
-    {
-     "quote": "the zeal of the Lord of Hosts will perform this",
-     "verse": 7,
-     "start": 192,
-     "end": 248,
-     "spans": [
-      {
-       "w1": 37,
-       "w2": 46,
-       "text": "the zeal of the Lord of Hosts will perform this"
-      }
-     ]
-    }
-   ]
+   "title": "A promise in the future becomes a statement in the present",
+   "text": "Isaiah has \"of the increase of his government and peace there shall be no end.\" The variants read is. Nothing else in the clause moves. What was pledged for later is here asserted as already the case, in the verse that names the throne of David."
   },
   {
-   "label": "v. 9–10",
-   "start": 9,
-   "end": 10,
-   "title": "The renovation answer",
-   "text": "Ephraim and Samaria hear the warning and respond with an upgrade. Better stone, better trees, and not one word about the God who sent the word in verse 8. It is the verse in the chapter that reads most like our own century, and the pride it names is not arrogance about status but confidence in rebuilding."
-  },
-  {
-   "label": "v. 13–17",
-   "start": 13,
-   "end": 17,
-   "title": "Cut off at both ends",
-   "text": "The people do not turn to the one striking them, so the correction escalates: head and tail removed in one day, elders and lying prophets together. Verse 16 states the mechanism plainly, leaders causing error and the led destroyed, and verse 17 withholds mercy even from the categories the law normally protects, on the ground that the pretense is universal."
-  },
-  {
-   "label": "v. 18–21",
-   "start": 18,
-   "end": 21,
-   "title": "The fire feeds itself",
-   "text": "Wickedness is described as a fire that starts in briers and climbs into forests, and then the people themselves become the fuel. The last picture is cannibalism inside the family, tribe against tribe, ending on the refrain again. The chapter that gave the world its most hopeful verse ends with Israel eating its own arm."
+   "label": "v. 15",
+   "start": 15,
+   "end": 15,
+   "title": "The elder loses a word of praise",
+   "text": "Isaiah names \"the ancient and honourable\" as the head; this version keeps the ancient and drops the rest. The verse is defining who the head and the tail are, and the cut removes the one word in it that was praise rather than description."
   }
  ],
  "chapter": [
@@ -445,7 +421,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos03-017"
   },
   {
    "id": "2ne19-004",
@@ -688,7 +664,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "47c8483a0e01f4ef"
+  "at": "2026-09-07",
+  "source_sha256": "31264ebe7797c8b2"
  }
 }

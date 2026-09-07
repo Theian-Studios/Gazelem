@@ -17,7 +17,7 @@
    "Deliverance",
    "The Spirit"
   ],
-  "connections": 13,
+  "connections": 16,
   "initial": false
  },
  "world_behind": [
@@ -557,39 +557,14 @@
    "start": 14,
    "end": 17,
    "title": "Remembering decides",
-   "text": "What finally moves Nephi is none of the reasons but a memory: the covenant of 1 Nephi 2:20, quoted back word for word: \"Inasmuch as thy seed shall keep my commandments, they shall prosper\" (v. 14). No law, no keeping; no plates, no law (v. 15–16). The unborn outweigh the fallen man, and Nephi obeys as a man doing arithmetic about his descendants' souls.",
-   "cites": [
-    {
-     "quote": "Inasmuch as thy seed shall keep my commandments, they shall prosper",
-     "verse": 14,
-     "start": 119,
-     "end": 196,
-     "spans": [
-      {
-       "w1": 27,
-       "w2": 37,
-       "text": "Inasmuch as thy seed shall keep my commandments, they shall prosper"
-      }
-     ]
-    }
-   ],
-   "refs": [
-    {
-     "kind": "verse",
-     "text": "(v. 15–16)",
-     "start": 236,
-     "end": 246,
-     "verse_start": 15,
-     "verse_end": 16
-    }
-   ]
+   "text": "The record has the decision turn on a remembered promise, and the wording it supplies does not match the wording it recorded earlier. Verse 14 gives \"Inasmuch as thy seed shall keep my commandments, they shall prosper in the land of promise.\" At 1 Nephi 2:20 the same promise reads \"inasmuch as ye shall keep my commandments, ye shall prosper, and shall be led to a land of promise.\" Second person becomes third, and a land to be reached becomes a land to prosper in. Verses 15 and 16 then run the argument as a chain of dependencies, no law without the plates and no obedience without the law, so the record reaches its conclusion by inference from a quotation it has altered."
   },
   {
    "label": "v. 20–27",
    "start": 20,
    "end": 27,
    "title": "In the dead man's clothes",
-   "text": "The disguise scenes run on dramatic irony: Zoram chattering about the elders to the man who has just executed his master, the voice imitation, the brothers fleeing from what they take to be Laban. Nephi walks out through the machinery of the city's elite wearing its uniform. The office Laban forfeited leaves the city on other shoulders, carrying the records it existed to keep."
+   "text": "The record states the servant's mistake three separate times in eight verses. Verse 21: \"he supposed me to be his master, Laban, for he beheld the garments and also the sword girded about my loins.\" Verse 23: \"I spake unto him as if it had been Laban.\" Verse 26: \"supposing that I spake of the brethren of the church, and that I was truly that Laban whom I had slain.\" The last of the three names two errors at once, one about identity and one about which brethren were meant. The record also supplies the evidence the servant reasoned from, garments and a sword, so the deception is reported with its mechanism attached."
   },
   {
    "label": "v. 31–38",
@@ -648,13 +623,13 @@
   {
    "n": 4,
    "title": "A title deed, told honestly",
-   "text": "Why tell this at all, decades later? Because the plates' provenance passes through this night, and the record documents its own chain of custody: promise (1 Ne. 3:29), delivery (v. 11–17), possession (v. 38). A cleaner story would have been easy to write. The record chooses instead to hold its founding object with unwashed hands, and its credibility elsewhere is bought here.",
+   "text": "Why tell this at all, decades later? Because the plates changed hands on this night, and the record documents its own chain of custody: promise (1 Ne. 3:29), delivery (v. 11–17), possession (v. 38). A cleaner story would have been easy to write. The record chooses instead to hold its founding object with unwashed hands, and its credibility elsewhere is bought here.",
    "refs": [
     {
      "kind": "scripture",
      "text": "1 Ne. 3:29",
-     "start": 155,
-     "end": 165,
+     "start": 145,
+     "end": 155,
      "book": "1 Ne",
      "chapter": 3,
      "verse_start": 29,
@@ -663,16 +638,16 @@
     {
      "kind": "verse",
      "text": "(v. 11–17)",
-     "start": 177,
-     "end": 187,
+     "start": 167,
+     "end": 177,
      "verse_start": 11,
      "verse_end": 17
     },
     {
      "kind": "verse",
      "text": "(v. 38)",
-     "start": 200,
-     "end": 207,
+     "start": 190,
+     "end": 197,
      "verse_start": 38,
      "verse_end": 38
     }
@@ -1035,7 +1010,85 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al30-014"
+  },
+  {
+   "id": "1ne04-014",
+   "scope": "BOM",
+   "head": "Alma 44:12",
+   "anchor": {
+    "verse": 9,
+    "w1": 16,
+    "w2": 22,
+    "quote": "the hilt thereof was of pure gold,"
+   },
+   "reason": "the same part of a sword, generations later",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 44,
+     "verse": 12,
+     "w1": 46,
+     "w2": 50,
+     "quote": "it broke by the hilt;",
+     "verse_text": "And now when Moroni had said these words, Zerahemnah retained his sword, and he was angry with Moroni, and he rushed forward that he might slay Moroni; but as he raised his sword, behold, one of Moroni's soldiers smote it even to the earth, and it broke by the hilt; and he also smote Zerahemnah that he took off his scalp and it fell to the earth. And Zerahemnah withdrew from before them into the midst of his soldiers.",
+     "markdown": "And now when Moroni had said these words, Zerahemnah retained his sword, and he was angry with Moroni, and he rushed forward that he might slay Moroni; but as he raised his sword, behold, one of Moroni's soldiers smote it even to the earth, and **it broke by the hilt**; and he also smote Zerahemnah that he took off his scalp and it fell to the earth. And Zerahemnah withdrew from before them into the midst of his soldiers.",
+     "span": true
+    }
+   ],
+   "mirror": "al44-005"
+  },
+  {
+   "id": "1ne04-015",
+   "scope": "BOM",
+   "head": "Alma 45:10",
+   "anchor": {
+    "verse": 13,
+    "w1": 21,
+    "w2": 30,
+    "quote": "than that a nation should dwindle and perish in unbelief."
+   },
+   "reason": "Alma prophesying that outcome for his own people",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 45,
+     "verse": 10,
+     "w1": 40,
+     "w2": 43,
+     "quote": "shall dwindle in unbelief.",
+     "verse_text": "And these are the words: Behold, I perceive that this very people, the Nephites, according to the spirit of revelation which is in me, in four hundred years from the time that Jesus Christ shall manifest himself unto them, shall dwindle in unbelief.",
+     "markdown": "And these are the words: Behold, I perceive that this very people, the Nephites, according to the spirit of revelation which is in me, in four hundred years from the time that Jesus Christ shall manifest himself unto them, **shall dwindle in unbelief**.",
+     "span": true
+    }
+   ],
+   "mirror": "al45-004"
+  },
+  {
+   "id": "1ne04-016",
+   "scope": "BOM",
+   "head": "Alma 54:23",
+   "anchor": {
+    "verse": 35,
+    "w1": 7,
+    "w2": 16,
+    "quote": "Zoram did take courage at the words which I spake."
+   },
+   "reason": "Ammoron's version of how Zoram came along",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 54,
+     "verse": 23,
+     "w1": 5,
+     "w2": 12,
+     "quote": "a descendant of Zoram, whom your fathers pressed",
+     "verse_text": "I am Ammoron, and a descendant of Zoram, whom your fathers pressed and brought out of Jerusalem.",
+     "markdown": "I am Ammoron, and **a descendant of Zoram, whom your fathers pressed** and brought out of Jerusalem.",
+     "span": true
+    }
+   ],
+   "mirror": "al54-005"
   },
   {
    "id": "1ne04-008",
@@ -1181,6 +1234,15 @@
   },
   {
    "verse": 9,
+   "w1": 16,
+   "w2": 22,
+   "quote": "the hilt thereof was of pure gold,",
+   "entries": [
+    "1ne04-014"
+   ]
+  },
+  {
+   "verse": 9,
    "w1": 24,
    "w2": 29,
    "quote": "the workmanship thereof was exceedingly fine",
@@ -1222,6 +1284,7 @@
    "quote": "than that a nation should dwindle and perish in unbelief",
    "entries": [
     "1ne04-012",
+    "1ne04-015",
     "1ne04-008"
    ]
   },
@@ -1244,6 +1307,15 @@
    ]
   },
   {
+   "verse": 35,
+   "w1": 7,
+   "w2": 16,
+   "quote": "Zoram did take courage at the words which I spake.",
+   "entries": [
+    "1ne04-016"
+   ]
+  },
+  {
    "verse": 38,
    "w1": 7,
    "w2": 22,
@@ -1254,7 +1326,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "b34afbf68b655070"
+  "at": "2026-09-07",
+  "source_sha256": "66c5ad3ce9771c8c"
  }
 }

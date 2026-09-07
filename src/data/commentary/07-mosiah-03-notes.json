@@ -18,7 +18,7 @@
    "The natural man",
    "Little children"
   ],
-  "connections": 13,
+  "connections": 18,
   "initial": false
  },
  "world_behind": [
@@ -35,12 +35,24 @@
   {
    "n": 3,
    "title": "A name given in advance",
-   "text": "Verse 8 supplies \"Jesus Christ\" and names his mother Mary. This is the record's only pre-Christian naming of Mary, and it comes with a stack of titles attached to the same person in one sentence: Son of God, Father of heaven and earth, Creator."
+   "text": "Verse 8 supplies \"Jesus Christ\" and names his mother Mary. This is the record's only pre-Christian naming of Mary, and it comes with a stack of titles piled on one person in a single sentence."
   },
   {
    "n": 4,
    "title": "Blood from every pore",
-   "text": "Verse 7 describes the suffering as producing blood from the pores. Luke reports sweat \"as it were great drops of blood.\" Where the gospel gives a comparison, the record states it flatly as what happened, and states it before the event."
+   "text": "Verse 7 describes the suffering as producing blood from the pores. Luke reports sweat (Luke 22:44) \"as it were great drops of blood.\" Where the gospel gives a comparison, the record states it flatly as what happened, and states it before the event.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Luke 22:44",
+     "start": 87,
+     "end": 97,
+     "book": "Luke",
+     "chapter": 22,
+     "verse_start": 44,
+     "verse_end": 44
+    }
+   ]
   },
   {
    "n": 5,
@@ -77,7 +89,7 @@
   {
    "term": "Omnipotent",
    "verse_label": "v. 5, 17, 18, 21",
-   "text": "All-powerful. The King James Bible uses it once, in Revelation, of the Lord God reigning. The angel uses it four times in this chapter and Benjamin's people will use it twice more in Mosiah 5. It is this assembly's particular title for God: introduced by a messenger and adopted by a congregation."
+   "text": "All-powerful. The King James Bible uses it once, at Revelation 19:6, of the Lord God reigning. The angel uses it four times in this chapter and Benjamin's people will use it twice more in Mosiah 5. It is this assembly's particular title for God: introduced by a messenger and adopted by a congregation."
   },
   {
    "term": "Fatigue",
@@ -169,7 +181,19 @@
   {
    "term": "The natural man is an enemy to God",
    "verse_label": "v. 19",
-   "text": "The charge is active opposition. Paul says the carnal mind is enmity against God; the angel says the same of the natural man and dates it from the fall. What follows is a list of what replaces it, and every item on the list is a disposition rather than an act."
+   "text": "The charge is active opposition. Paul says the carnal mind is enmity against God (Rom. 8:7); the angel says the same of the natural man and dates it from the fall. What follows is a list of what replaces it, and every item on the list is a disposition rather than an act.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Rom. 8:7",
+     "start": 82,
+     "end": 90,
+     "book": "Rom",
+     "chapter": 8,
+     "verse_start": 7,
+     "verse_end": 7
+    }
+   ]
   },
   {
    "term": "Unless he yields to the enticings of the Holy Spirit",
@@ -194,53 +218,70 @@
  ],
  "verses": [
   {
-   "label": "v. 1–4",
-   "start": 1,
-   "end": 4,
-   "title": "The angel, and the errand",
-   "text": "Benjamin has more to say and it concerns what is to come; an angel woke him and stood before him; the message is glad tidings of great joy; the Lord heard his prayers and judged his righteousness and sent this so that both king and people might rejoice. The doctrine is prefaced by its provenance."
+   "label": "v. 2–3",
+   "start": 2,
+   "end": 3,
+   "title": "One word given twice with the obedience recorded between",
+   "text": "The record reports the summons, the response, and then the summons again: \"he said unto me: Awake; and I awoke, and behold he stood before me. And he said unto me: Awake, and hear the words which I shall tell thee.\" The second use cannot be a repetition of the first, since the hearer is already awake, so the record has the same word do two different jobs in two verses. The whole of Mosiah 3 is delivered inside this frame, as a message quoted by a king who is quoting an angel."
   },
   {
-   "label": "v. 5–10",
+   "label": "v. 5",
    "start": 5,
-   "end": 10,
-   "title": "A whole life, in order",
-   "text": "Come down, dwell in a body of clay, heal and raise and cure, cast out devils, suffer beyond what any man can, bleed from every pore, be named Jesus Christ (Son of God, Father of heaven and earth, Creator), with a mother named Mary, be called a man and a devil, be scourged and crucified, and rise the third day to judge. Six verses covering a life given in advance, in sequence."
+   "end": 5,
+   "title": "A list of miracles supplied a century in advance",
+   "text": "The record names six: healing the sick, raising the dead, causing the lame to walk, the blind to receive their sight, the deaf to hear, and curing all manner of diseases. Five of the six match the answer Jesus gives John's messengers at Matthew 11:5, which lists the blind, the lame, the lepers, the deaf, the dead, and the poor. The record's version substitutes a general clause for the lepers and the poor and keeps the rest in nearly the same order. Verse 6 adds a seventh item the Matthew list omits, casting out devils, and glosses it, \"or the evil spirits which dwell in the hearts of the children of men.\""
   },
   {
-   "label": "v. 11–13",
-   "start": 11,
-   "end": 13,
-   "title": "Who is covered, and who is not",
-   "text": "The blood atones for those who died not knowing; woe to the one who knows he rebels; prophets are sent to every kindred, nation, and tongue so that believing before the fact works exactly as believing after it. The chapter's whole theory of accountability is in these three verses."
+   "label": "v. 7",
+   "start": 7,
+   "end": 7,
+   "title": "A physical detail stated as a measurement of anguish",
+   "text": "The record gives a bodily fact rather than a description of feeling: \"blood cometh from every pore, so great shall be his anguish.\" Luke 22:44 has the sweat \"as it were great drops of blood falling down to the ground,\" a simile; this verse drops the comparison and reports the blood itself. The clause before it sets a boundary, that the suffering exceeds what man can bear \"except it be unto death,\" so the verse supplies both an upper limit and a physical sign.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Luke 22:44",
+     "start": 132,
+     "end": 142,
+     "book": "Luke",
+     "chapter": 22,
+     "verse_start": 44,
+     "verse_end": 44
+    }
+   ]
   },
   {
-   "label": "v. 14–15",
-   "start": 14,
-   "end": 15,
-   "title": "Why there was a law",
-   "text": "Because the people were stiffnecked, a law was appointed; signs, wonders, types, and shadows were shown; prophets spoke; and still they hardened their hearts and missed that the law never worked by itself. The law is explained as a concession and as a pointer at once."
+   "label": "v. 8",
+   "start": 8,
+   "end": 8,
+   "title": "Two names given before either person exists",
+   "text": "The record names the son and the mother together: \"he shall be called Jesus Christ, the Son of God,\" and \"his mother shall be called Mary.\" Mary is named twice in the whole record, here and at Alma 7:10, and both are prophecies rather than narratives. The verse also stacks three further titles onto the first name, ending with Creator of all things from the beginning, so a naming prophecy carries a doctrinal claim about identity in the same sentence.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 7:10",
+     "start": 193,
+     "end": 202,
+     "book": "Alma",
+     "chapter": 7,
+     "verse_start": 10,
+     "verse_end": 10
+    }
+   ]
   },
   {
-   "label": "v. 16–18",
-   "start": 16,
-   "end": 18,
-   "title": "Little children, and the only name",
-   "text": "Even if children could sin they could not save themselves, and the blood atones for them; there is no other name or way or means; the infant who dies does not perish; and adults drink damnation unless they humble themselves and become as children. The condition placed on the adults is the state the children are already in."
-  },
-  {
-   "label": "v. 19–21",
+   "label": "v. 19",
    "start": 19,
-   "end": 21,
-   "title": "The natural man, and what replaces him",
-   "text": "Enemy to God since the fall, and permanently so unless he yields to enticing, puts off the natural man, becomes a saint through the atonement, and becomes as a child: submissive, meek, humble, patient, loving, willing. Then the knowledge spreading to every nation, and none blameless but children."
+   "end": 19,
+   "title": "An enemy named, and a remedy given as six qualities",
+   "text": "The record makes the diagnosis absolute in time, \"the natural man is an enemy to God, and has been from the fall of Adam, and will be, forever and ever,\" and then attaches an escape clause. What follows is a list: submissive, meek, humble, patient, full of love, and \"willing to submit to all things.\" Six terms, the last repeating the first, with the model stated twice as a child submitting to a father. The phrase \"the natural man\" occurs at 1 Corinthians 2:14 with a different sense, of one who cannot receive spiritual things."
   },
   {
-   "label": "v. 22–27",
-   "start": 22,
+   "label": "v. 25–27",
+   "start": 25,
    "end": 27,
-   "title": "The closing terms",
-   "text": "Even after this teaching they are no more blameless except by these words; the words will stand as a bright testimony at judgment; every man judged by his works; the evil consigned to a view of their own guilt, shrinking, unable to return; the cup of wrath that justice could not withhold; mercy with no claim; and unquenchable fire. The angel ends where Benjamin ended the previous chapter."
+   "title": "A drinking metaphor used three times in ten verses",
+   "text": "The record puts the same figure to work at verses 18, 25, and 26: \"men drink damnation to their own souls,\" \"they have drunk damnation to their own souls,\" and \"they have drunk out of the cup of the wrath of God.\" Two of the three are identical in wording and the third supplies the vessel. Verse 26 then attaches a comparison that makes the outcome as fixed as a past event, that justice could no more deny it \"than it could deny that Adam should fall because of his partaking of the forbidden fruit.\""
   }
  ],
  "chapter": [
@@ -252,7 +293,19 @@
   {
    "n": 2,
    "title": "A life of Christ is given in the future tense",
-   "text": "Birth, ministry, miracles, agony, name, mother, rejection, scourging, crucifixion, resurrection, judgment. In order, and before any of it. The record treats the prophecy as information, and the details that are most specific are the ones a later reader can check."
+   "text": "Eleven items run in sequence from verse 5 to verse 10 and none is out of order: the coming down, a tabernacle of clay, six named miracles, casting out devils, temptations and pain, blood from every pore, the name Jesus Christ, the mother Mary, the charge that he \"hath a devil,\" the scourging and crucifixion, and rising \"the third day.\" Two of them are proper names, which is the kind of detail a later text can be measured against; Matthew 11:5 supplies five of the six miracles and Luke 22:44 the blood.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Luke 22:44",
+     "start": 485,
+     "end": 495,
+     "book": "Luke",
+     "chapter": 22,
+     "verse_start": 44,
+     "verse_end": 44
+    }
+   ]
   },
   {
    "n": 3,
@@ -559,7 +612,137 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "moro08-003"
+  },
+  {
+   "id": "mos03-015",
+   "scope": "BOM",
+   "head": "3 Ne. 7:19",
+   "anchor": {
+    "verse": 5,
+    "w1": 53,
+    "w2": 63,
+    "quote": "working mighty miracles, such as healing the sick, raising the dead,"
+   },
+   "reason": "Nephi doing those works in Christ's name before he came",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 7,
+     "verse": 19,
+     "w1": 2,
+     "w2": 14,
+     "quote": "in the name of Jesus did he cast out devils and unclean spirits;",
+     "verse_text": "And in the name of Jesus did he cast out devils and unclean spirits; and even his brother did he raise from the dead, after he had been stoned and suffered death by the people.",
+     "markdown": "And **in the name of Jesus did he cast out devils and unclean spirits**; and even his brother did he raise from the dead, after he had been stoned and suffered death by the people.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne07-006"
+  },
+  {
+   "id": "mos03-016",
+   "scope": "BOM",
+   "head": "Moro. 5:2",
+   "anchor": {
+    "verse": 7,
+    "w1": 28,
+    "w2": 32,
+    "quote": "blood cometh from every pore,"
+   },
+   "reason": "the wine prayer's remembrance of the blood shed",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 5,
+     "verse": 2,
+     "w1": 38,
+     "w2": 50,
+     "quote": "in remembrance of the blood of thy Son, which was shed for them;",
+     "verse_text": "O God, the Eternal Father, we ask thee, in the name of thy Son, Jesus Christ, to bless and sanctify this wine to the souls of all those who drink of it, that they may do it in remembrance of the blood of thy Son, which was shed for them; that they may witness unto thee, O God, the Eternal Father, that they do always remember him, that they may have his Spirit to be with them. Amen.",
+     "markdown": "O God, the Eternal Father, we ask thee, in the name of thy Son, Jesus Christ, to bless and sanctify this wine to the souls of all those who drink of it, that they may do it **in remembrance of the blood of thy Son, which was shed for them**; that they may witness unto thee, O God, the Eternal Father, that they do always remember him, that they may have his Spirit to be with them. Amen.",
+     "span": true
+    }
+   ],
+   "mirror": "moro05-006"
+  },
+  {
+   "id": "mos03-017",
+   "scope": "BOM",
+   "head": "2 Ne. 19:6",
+   "anchor": {
+    "verse": 8,
+    "w1": 12,
+    "w2": 22,
+    "quote": "the Father of heaven and earth, the Creator of all things"
+   },
+   "reason": "Isaiah's child, given the same string of titles",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 19,
+     "verse": 6,
+     "w1": 1,
+     "w2": 13,
+     "quote": "For unto us a child is born, unto us a son is given;",
+     "verse_text": "For unto us a child is born, unto us a son is given; and the government shall be upon his shoulder; and his name shall be called, Wonderful, Counselor, The Mighty God, The Everlasting Father, The Prince of Peace.",
+     "markdown": "**For unto us a child is born, unto us a son is given**; and the government shall be upon his shoulder; and his name shall be called, Wonderful, Counselor, The Mighty God, The Everlasting Father, The Prince of Peace.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne19-003"
+  },
+  {
+   "id": "mos03-018",
+   "scope": "BOM",
+   "head": "Hel. 5:9",
+   "anchor": {
+    "verse": 17,
+    "w1": 8,
+    "w2": 20,
+    "quote": "there shall be no other name given nor any other way nor means"
+   },
+   "reason": "Helaman sending his sons back to this sermon",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 5,
+     "verse": 9,
+     "w1": 6,
+     "w2": 14,
+     "quote": "the words which king Benjamin spake unto his people;",
+     "verse_text": "O remember, remember, my sons, the words which king Benjamin spake unto his people; yea, remember that there is no other way nor means whereby man can be saved, only through the atoning blood of Jesus Christ, who shall come; yea, remember that he cometh to redeem the world.",
+     "markdown": "O remember, remember, my sons, **the words which king Benjamin spake unto his people**; yea, remember that there is no other way nor means whereby man can be saved, only through the atoning blood of Jesus Christ, who shall come; yea, remember that he cometh to redeem the world.",
+     "span": true
+    }
+   ],
+   "mirror": "hel05-004"
+  },
+  {
+   "id": "mos03-019",
+   "scope": "BOM",
+   "head": "3 Ne. 9:22",
+   "anchor": {
+    "verse": 19,
+    "w1": 52,
+    "w2": 62,
+    "quote": "becometh as a child, submissive, meek, humble, patient, full of love,"
+   },
+   "reason": "Christ setting the same condition from the darkness",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 9,
+     "verse": 22,
+     "w1": 2,
+     "w2": 11,
+     "quote": "whoso repenteth and cometh unto me as a little child,",
+     "verse_text": "Therefore, whoso repenteth and cometh unto me as a little child, him will I receive, for of such is the kingdom of God. Behold, for such I have laid down my life, and have taken it up again; therefore repent, and come unto me ye ends of the earth, and be saved.",
+     "markdown": "Therefore, **whoso repenteth and cometh unto me as a little child**, him will I receive, for of such is the kingdom of God. Behold, for such I have laid down my life, and have taken it up again; therefore repent, and come unto me ye ends of the earth, and be saved.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne09-008"
   },
   {
    "id": "mos03-009",
@@ -712,6 +895,15 @@
    ]
   },
   {
+   "verse": 5,
+   "w1": 53,
+   "w2": 63,
+   "quote": "working mighty miracles, such as healing the sick, raising the dead,",
+   "entries": [
+    "mos03-015"
+   ]
+  },
+  {
    "verse": 7,
    "w1": 3,
    "w2": 14,
@@ -724,9 +916,19 @@
    "verse": 7,
    "w1": 28,
    "w2": 32,
-   "quote": "blood cometh from every pore",
+   "quote": "blood cometh from every pore,",
    "entries": [
+    "mos03-016",
     "mos03-006"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 12,
+   "w2": 22,
+   "quote": "the Father of heaven and earth, the Creator of all things",
+   "entries": [
+    "mos03-017"
    ]
   },
   {
@@ -745,7 +947,8 @@
    "w2": 20,
    "quote": "there shall be no other name given nor any other way nor means",
    "entries": [
-    "mos03-002"
+    "mos03-002",
+    "mos03-018"
    ]
   },
   {
@@ -776,6 +979,15 @@
    ]
   },
   {
+   "verse": 19,
+   "w1": 52,
+   "w2": 62,
+   "quote": "becometh as a child, submissive, meek, humble, patient, full of love,",
+   "entries": [
+    "mos03-019"
+   ]
+  },
+  {
    "verse": 26,
    "w1": 2,
    "w2": 13,
@@ -796,7 +1008,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "6940b5e833234c90"
+  "at": "2026-09-07",
+  "source_sha256": "a885cfc46bb5137a"
  }
 }

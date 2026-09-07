@@ -1,0 +1,888 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "3 Nephi",
+  "book_slug": "3nephi",
+  "chapter": 12,
+  "volume_order": "10",
+  "speakers": [
+   "Jesus Christ"
+  ],
+  "audience": "The multitude at the temple, and the twelve",
+  "location": "The temple in the land Bountiful",
+  "date": "AD 34",
+  "unit": "The sermon at the temple (3 Nephi 12–14)",
+  "principles": [
+   "Blessings conferred as commissions",
+   "A law fulfilled in a person",
+   "Old commandments carried inward"
+  ],
+  "connections": 13,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "This is the chapter that diverges most",
+   "text": "Against Matthew 5, forty-five of the forty-eight verses carry a real word change, where 3 Nephi 13 changes eighteen of thirty-four and 3 Nephi 14 twelve of twenty-seven. The three sermon chapters move steadily closer to the King James text as they go."
+  },
+  {
+   "n": 2,
+   "title": "The twelve are numbered here and named in chapter 19",
+   "text": "Verse 1 gives their count inside a parenthesis and no names at all. 3 Nephi 19:4 lists all twelve, including Nephi's brother Timothy, whom 3 Nephi 7:19 has him raising from the dead. The sermon opens by pointing at men the record has not yet introduced."
+  },
+  {
+   "n": 3,
+   "title": "Two beatitudes precede the Matthew sequence",
+   "text": "Matthew 5:3 opens the list with the poor in spirit. Verses 1 and 2 here first bless those who give heed to the twelve and those who believe on their words without having seen. The opening is fitted to a people who will receive the message second-hand."
+  },
+  {
+   "n": 4,
+   "title": "The beatitude additions show against Matthew",
+   "text": "Verse 3 has the poor in spirit \"who come unto me\" where Matthew 5:3 has only the poor in spirit, and verse 6 fills the hungry \"with the Holy Ghost\" where Matthew 5:6 leaves the filling unnamed."
+  },
+  {
+   "n": 5,
+   "title": "Salt and light are conferred rather than described",
+   "text": "Verses 13 and 14 read \"I give unto you to be\" where Matthew 5:13 and 14 read \"Ye are,\" and verse 14 makes them the light of this people where Matthew 5:14 says the world. Both changes narrow a general saying onto the twelve standing in front of him."
+  },
+  {
+   "n": 6,
+   "title": "The law is fulfilled in the past tense",
+   "text": "Verse 18 says in him it hath all been fulfilled, where Matthew 5:18 has till all be fulfilled. The tense is the whole difference between a promise and a report."
+  },
+  {
+   "n": 7,
+   "title": "The coin is Nephite",
+   "text": "Verse 26 has a senine where Matthew 5:26 has a farthing. Alma 11:3 makes a senine a judge's daily wage, which fixes the size of the debt the parable is talking about.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 11:3",
+     "start": 57,
+     "end": 66,
+     "book": "Alma",
+     "chapter": 11,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "term": "Peacemakers",
+   "verse_label": "v. 9",
+   "text": "Those who make peace. The word occurs once in the record and once in the King James Bible, at Matthew 5:9, in the same beatitude."
+  },
+  {
+   "term": "Savor",
+   "verse_label": "v. 13",
+   "text": "Taste, and by extension usefulness. It appears twice, here and at 3 Nephi 16:15, and the King James Bible spells it \"savour\" fifty-four times."
+  },
+  {
+   "term": "Bushel",
+   "verse_label": "v. 15",
+   "text": "A container for measuring grain, large enough to hide a lamp under. One use here against three in the King James Bible, always in this saying."
+  },
+  {
+   "term": "Raca",
+   "verse_label": "v. 22",
+   "text": "A term of contempt, left untranslated. One use here and one at Matthew 5:22, and both leave it in the original."
+  },
+  {
+   "term": "Senine",
+   "verse_label": "v. 26",
+   "text": "Treated at Alma 11:3, where it is a measure of gold equal to a judge's daily wage. Matthew 5:26 has a farthing in this position, and verse 26 adds a question about paying one from inside a prison.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 11:3",
+     "start": 11,
+     "end": 20,
+     "book": "Alma",
+     "chapter": 11,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
+  },
+  {
+   "term": "Despitefully",
+   "verse_label": "v. 44",
+   "text": "With spite and malice. The word turns up once here, and three times in the King James Bible. Verse 44 uses it of the people to be prayed for."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Blessed are ye if ye shall give heed unto the words of these twelve",
+   "verse_label": "v. 1",
+   "text": "A beatitude that has no parallel in Matthew. It is addressed to a congregation about its own leaders."
+  },
+  {
+   "term": "More blessed are they who shall believe in your words",
+   "verse_label": "v. 2",
+   "text": "The second addition, and the one aimed past the room. Those who have not seen are ranked above those who have."
+  },
+  {
+   "term": "Blessed are the poor in spirit who come unto me",
+   "verse_label": "v. 3",
+   "text": "Three words Matthew does not have. The condition is attached to the blessing rather than left implied."
+  },
+  {
+   "term": "They shall be filled with the Holy Ghost",
+   "verse_label": "v. 6",
+   "text": "Matthew 5:6 says only that they shall be filled. This verse names what fills them."
+  },
+  {
+   "term": "I give unto you to be the light of this people",
+   "verse_label": "v. 14",
+   "text": "Two changes from Matthew 5:14 in one clause. It is given as a commission, and the scope narrows to this people."
+  },
+  {
+   "term": "One jot nor one tittle hath not passed away from the law, but in me it hath all been fulfilled",
+   "verse_label": "v. 18",
+   "text": "The tense of the fulfilment. Matthew 5:18 looks forward to it; this verse reports it accomplished in the speaker."
+  },
+  {
+   "term": "Come unto me with a broken heart and a contrite spirit",
+   "verse_label": "v. 19",
+   "text": "The offering named in 3 Nephi 9:20 carried into the sermon. Verse 19 calls it the law and the commandments of the Father."
+  },
+  {
+   "term": "Whosoever is angry with his brother shall be in danger of his judgment",
+   "verse_label": "v. 22",
+   "text": "Matthew 5:22 has \"without a cause\" in this sentence and this verse does not. The exception is absent."
+  },
+  {
+   "term": "While ye are in prison can ye pay even one senine?",
+   "verse_label": "v. 26",
+   "text": "A question added to the saying. The point of the parable is put as something the hearer answers."
+  },
+  {
+   "term": "Old things are done away, and all things have become new",
+   "verse_label": "v. 47",
+   "text": "The sentence 2 Corinthians 5:17 gives of a man in Christ, said here of the law itself."
+  },
+  {
+   "term": "Be perfect even as I, or your Father who is in heaven is perfect",
+   "verse_label": "v. 48",
+   "text": "Matthew 5:48 names only the Father. This verse puts the speaker in the sentence first."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–48",
+   "start": 1,
+   "end": 48,
+   "title": "The most heavily rewritten quotation in the volume",
+   "text": "Twenty-four chapters here quote a King James chapter at length. This one changes forty-five of its forty-eight verses, ninety-four per cent, second only to 1 Nephi 20, and it takes a hundred and twenty-seven word-level edits to do it, more than twice as many as any other block. Three verses survive word for word: verse 17, \"Think not that I am come to destroy the law or the prophets,\" and verses 40 and 41, the coat and cloak and the second mile. The one statement about the law that is left untouched is the statement that the law is not being destroyed, and the only two commands left untouched are the two hardest to obey."
+  },
+  {
+   "label": "v. 3–11",
+   "start": 3,
+   "end": 11,
+   "title": "What was added to the beatitudes",
+   "text": "Nine blessings run here, and almost every one is altered by the same two small insertions. Eight of them gain an opening and, so the list becomes a single accumulating sentence instead of nine separate declarations. Five of them gain the word all, so \"blessed are the meek\" becomes \"blessed are all the meek.\" Two gain a condition the King James does not state: the poor in spirit are blessed \"who come unto me\" (v. 3), and those who hunger and thirst are filled \"with the Holy Ghost\" (v. 6). One is redirected outright. Matthew blesses the persecuted \"for righteousness' sake\"; here they are persecuted \"for my name's sake\" (v. 10).",
+   "cites": [
+    {
+     "quote": "who come unto me",
+     "verse": 3,
+     "start": 393,
+     "end": 418,
+     "spans": [
+      {
+       "w1": 8,
+       "w2": 11,
+       "text": "who come unto me"
+      }
+     ]
+    },
+    {
+     "quote": "with the Holy Ghost",
+     "verse": 6,
+     "start": 463,
+     "end": 491,
+     "spans": [
+      {
+       "w1": 18,
+       "w2": 21,
+       "text": "with the Holy Ghost"
+      }
+     ]
+    },
+    {
+     "quote": "for my name's sake",
+     "verse": 10,
+     "start": 604,
+     "end": 632,
+     "spans": [
+      {
+       "w1": 9,
+       "w2": 12,
+       "text": "for my name's sake"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 13–14",
+   "start": 13,
+   "end": 14,
+   "title": "A description turned into a grant",
+   "text": "The King James verses state two facts about the hearers: \"Ye are the salt of the earth,\" \"Ye are the light of the world.\" Both openings are replaced here with the same eleven words, \"Verily, verily, I say unto you, I give unto you to be.\" Being salt and being light stop being what the crowd already is and become something handed to them in the moment of speaking. The second of the two is also narrowed: the light is not of the world but \"of this people,\" and the same narrowing repeats three verses later, where Matthew's \"men\" becomes \"this people\" (v. 16).",
+   "cites": [
+    {
+     "quote": "this people",
+     "verse": 16,
+     "start": 539,
+     "end": 560,
+     "spans": [
+      {
+       "w1": 8,
+       "w2": 9,
+       "text": "this people"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 18–20",
+   "start": 18,
+   "end": 20,
+   "title": "The law, in the perfect tense",
+   "text": "Matthew keeps the fulfilment ahead of the hearer: not one jot shall pass \"till all be fulfilled.\" Here it is already done, \"one jot nor one tittle hath not passed away from the law, but in me it hath all been fulfilled.\" The clause \"till heaven and earth pass\" is gone, and so is the whole saying about being called least or great in the kingdom for breaking or keeping commandments. What stands in its place is a different instruction: believe, repent, \"come unto me with a broken heart and a contrite spirit,\" and then the flat statement \"the law is fulfilled.\" The passage that in Matthew sets a standard to be exceeded becomes a passage announcing something finished."
+  },
+  {
+   "label": "v. 26",
+   "start": 26,
+   "end": 26,
+   "title": "The coin",
+   "text": "Matthew's prisoner must pay \"the uttermost farthing,\" a Roman coin. Here he must pay \"the uttermost senine,\" and a question is added that Matthew does not ask: \"And while ye are in prison can ye pay even one senine? Verily, verily, I say unto you, Nay.\" The senine is not a biblical unit. It belongs to the weights and measures set out at Alma 11:3–8, and outside that passage it appears in only two other verses in the whole volume, Alma 30:33 and this one. A currency defined four books earlier is carried into a quotation of Matthew, and the substitution turns a proverb about a small debt into a question with an answer.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 11:3–8",
+     "start": 339,
+     "end": 350,
+     "book": "Alma",
+     "chapter": 11,
+     "verse_start": 3,
+     "verse_end": 8
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 30:33",
+     "start": 434,
+     "end": 444,
+     "book": "Alma",
+     "chapter": 30,
+     "verse_start": 33,
+     "verse_end": 33
+    }
+   ]
+  },
+  {
+   "label": "v. 46–48",
+   "start": 46,
+   "end": 48,
+   "title": "Old things done away",
+   "text": "Matthew's argument from the publicans, that loving those who love you earns nothing, is cut entirely. Two sentences replace it: \"those things which were of old time, which were under the law, in me are all fulfilled,\" and \"Old things are done away, and all things have become new.\" The second is Paul's phrasing at 2 Cor. 5:17, arriving in a quotation of Matthew. The chapter then closes on one inserted pronoun. Matthew's \"even as your Father which is in heaven is perfect\" becomes \"even as I, or your Father who is in heaven is perfect,\" which puts the speaker inside the standard he is setting.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Cor. 5:17",
+     "start": 315,
+     "end": 326,
+     "book": "2 Cor",
+     "chapter": 5,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The sermon opens on the twelve",
+   "text": "Two beatitudes precede Matthew's list, both about receiving the words of those just called. The congregation is addressed before the virtues are."
+  },
+  {
+   "n": 2,
+   "title": "The unseeing are ranked above the seeing",
+   "text": "Verse 2 calls them more blessed. The room had just touched his hands and side."
+  },
+  {
+   "n": 3,
+   "title": "Salt and light are conferred",
+   "text": "\"I give unto you to be\" changes an observation into a commission. The difference from Matthew 5:13 is one clause and considerable."
+  },
+  {
+   "n": 4,
+   "title": "The fulfilment is reported as done",
+   "text": "Verse 18 puts in the past what Matthew 5:18 places in the future. The speaker is standing where the change happened."
+  },
+  {
+   "n": 5,
+   "title": "The exception for anger is absent",
+   "text": "Matthew 5:22 allows anger with a cause; this verse does not mention one. The saying is tightened."
+  },
+  {
+   "n": 6,
+   "title": "The parable is priced in local money",
+   "text": "A senine, defined at Alma 11:3 as a day's wage for a judge, replaces the farthing, and a question is added that the hearer must answer.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 11:3",
+     "start": 21,
+     "end": 30,
+     "book": "Alma",
+     "chapter": 11,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "A commandment is added at the heart level",
+   "text": "Verse 29 tells them not to let these things enter the heart at all, which is a step before the acts named around it."
+  },
+  {
+   "n": 8,
+   "title": "The chapter ends with the speaker in the standard",
+   "text": "Verse 48 names him alongside the Father. Moroni 10:32 will describe being made perfect in Christ."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Notice what was added to the blessing",
+    "verse_label": "v. 3",
+    "text": "The beatitude here reads \"blessed are the poor in spirit who come unto me,\" where Matthew 5:3 stops at \"in spirit.\" The clause turns a condition into a movement. When you find yourself qualifying for a promise by circumstance alone, look for the step it expects you to take."
+   },
+   {
+    "title": "Take a blessing as a commission",
+    "verse_label": "v. 13",
+    "text": "Salt and light are given as descriptions and then immediately as duties. When you are told what you are, ask what that makes you responsible for."
+   },
+   {
+    "title": "Watch the word before the deed",
+    "verse_label": "v. 22",
+    "text": "Three penalties are named and all three are for speech: anger, \"Raca,\" and \"Thou fool.\" The escalation is entirely verbal. Before auditing what you have done to someone, audit what you have called them."
+   },
+   {
+    "title": "Go first, then come",
+    "verse_label": "v. 24",
+    "text": "Reconciliation with the brother comes before the offering, and the sequence is not negotiable in the sentence. If something is unresolved with a person, that is the appointment to keep before the devotional one."
+   },
+   {
+    "title": "Settle it early",
+    "verse_label": "v. 25",
+    "text": "Agree with the adversary while still in the way. Disputes get more expensive the further they travel; deal with the one you are currently carrying before it reaches anyone with authority over you."
+   },
+   {
+    "title": "Keep it out rather than fight it off",
+    "verse_label": "v. 29",
+    "text": "The commandment is to stop the thing at the point of entry rather than at the point of action. Look at where you are currently trying to win a battle that could have been declined earlier."
+   },
+   {
+    "title": "Pray for the specific person",
+    "verse_label": "v. 44",
+    "text": "Love, bless, do good, and pray for are four separate verbs and the object of all four is an enemy. Name one, and do the fourth this week; it is the only one of the four that costs nothing but honesty."
+   },
+   {
+    "title": "Read the standard as a direction, not a score",
+    "verse_label": "v. 48",
+    "text": "The instruction is to be perfect \"even as I, or your Father who is in heaven is perfect,\" and it arrives after forty-seven verses of concrete, small, doable things. Take the sentence as naming where the small things point, and go back to the small things."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Do I believe more easily because of what I have seen, or despite not seeing?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "What have I been given to be that I have been treating as a description?"
+   },
+   {
+    "verse_label": "v. 22",
+    "start": 22,
+    "end": 22,
+    "text": "What anger of mine feels justified enough that I have not looked at it?"
+   },
+   {
+    "verse_label": "v. 24",
+    "start": 24,
+    "end": 24,
+    "text": "Who has aught against me right now?"
+   },
+   {
+    "verse_label": "v. 25",
+    "start": 25,
+    "end": 25,
+    "text": "What am I letting run that would be cheap to settle today?"
+   },
+   {
+    "verse_label": "v. 29",
+    "start": 29,
+    "end": 29,
+    "text": "What am I letting in and then trying to manage?"
+   },
+   {
+    "verse_label": "v. 44",
+    "start": 44,
+    "end": 44,
+    "text": "Who would I have to pray for to obey this verse?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "3ne12-001",
+   "scope": "BOOK",
+   "head": "3 Ne. 9:20",
+   "anchor": {
+    "verse": 19,
+    "w1": 30,
+    "w2": 40,
+    "quote": "come unto me with a broken heart and a contrite spirit"
+   },
+   "reason": "the same offering named out of the darkness, replacing sacrifice",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 9,
+     "verse": 20,
+     "w1": 2,
+     "w2": 16,
+     "quote": "ye shall offer for a sacrifice unto me a broken heart and a contrite spirit.",
+     "verse_text": "And ye shall offer for a sacrifice unto me a broken heart and a contrite spirit. And whoso cometh unto me with a broken heart and a contrite spirit, him will I baptize with fire and with the Holy Ghost, even as the Lamanites, because of their faith in me at the time of their conversion, were baptized with fire and with the Holy Ghost, and they knew it not.",
+     "markdown": "And **ye shall offer for a sacrifice unto me a broken heart and a contrite spirit**. And whoso cometh unto me with a broken heart and a contrite spirit, him will I baptize with fire and with the Holy Ghost, even as the Lamanites, because of their faith in me at the time of their conversion, were baptized with fire and with the Holy Ghost, and they knew it not.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne09-004"
+  },
+  {
+   "id": "3ne12-002",
+   "scope": "BOOK",
+   "head": "3 Ne. 11:22",
+   "anchor": {
+    "verse": 1,
+    "w1": 67,
+    "w2": 79,
+    "quote": "these twelve whom I have chosen from among you to minister unto you"
+   },
+   "reason": "the calling itself, with the command against disputations",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 11,
+     "verse": 22,
+     "w1": 13,
+     "w2": 19,
+     "quote": "he gave unto them power to baptize.",
+     "verse_text": "And again the Lord called others, and said unto them likewise; and he gave unto them power to baptize. And he said unto them: On this wise shall ye baptize; and there shall be no disputations among you.",
+     "markdown": "And again the Lord called others, and said unto them likewise; and **he gave unto them power to baptize**. And he said unto them: On this wise shall ye baptize; and there shall be no disputations among you.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne11-014"
+  },
+  {
+   "id": "3ne12-003",
+   "scope": "BOOK",
+   "head": "3 Ne. 15:5",
+   "anchor": {
+    "verse": 46,
+    "w1": 2,
+    "w2": 18,
+    "quote": "those things which were of old time, which were under the law, in me are all fulfilled"
+   },
+   "reason": "the same claim stated again three chapters later",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 15,
+     "verse": 5,
+     "w1": 20,
+     "w2": 33,
+     "quote": "the law in me is fulfilled, for I have come to fulfil the law;",
+     "verse_text": "Behold, I am he that gave the law, and I am he who covenanted with my people Israel; therefore, the law in me is fulfilled, for I have come to fulfil the law; therefore it hath an end.",
+     "markdown": "Behold, I am he that gave the law, and I am he who covenanted with my people Israel; therefore, **the law in me is fulfilled, for I have come to fulfil the law**; therefore it hath an end.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne15-002"
+  },
+  {
+   "id": "3ne12-011",
+   "scope": "BOOK",
+   "head": "3 Ne. 13:25",
+   "anchor": {
+    "verse": 1,
+    "w1": 23,
+    "w2": 39,
+    "quote": "the number of them who had been called, and received power and authority to baptize, was twelve)"
+   },
+   "reason": "the same twelve, addressed apart mid-sermon",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 13,
+     "verse": 25,
+     "w1": 14,
+     "w2": 26,
+     "quote": "he looked upon the twelve whom he had chosen, and said unto them:",
+     "verse_text": "And now it came to pass that when Jesus had spoken these words he looked upon the twelve whom he had chosen, and said unto them: Remember the words which I have spoken. For behold, ye are they whom I have chosen to minister unto this people. Therefore I say unto you, take no thought for your life, what ye shall eat, or what ye shall drink; nor yet for your body, what ye shall put on. Is not the life more than meat, and the body than raiment?",
+     "markdown": "And now it came to pass that when Jesus had spoken these words **he looked upon the twelve whom he had chosen, and said unto them**: Remember the words which I have spoken. For behold, ye are they whom I have chosen to minister unto this people. Therefore I say unto you, take no thought for your life, what ye shall eat, or what ye shall drink; nor yet for your body, what ye shall put on. Is not the life more than meat, and the body than raiment?",
+     "span": true
+    }
+   ],
+   "mirror": "3ne13-001"
+  },
+  {
+   "id": "3ne12-012",
+   "scope": "BOOK",
+   "head": "3 Ne. 15:2",
+   "anchor": {
+    "verse": 47,
+    "w1": 1,
+    "w2": 11,
+    "quote": "Old things are done away, and all things have become new."
+   },
+   "reason": "the hearers not following that sentence",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 15,
+     "verse": 2,
+     "w1": 34,
+     "w2": 51,
+     "quote": "they understood not the saying that old things had passed away, and that all things had become new.",
+     "verse_text": "And it came to pass that when Jesus had said these words he perceived that there were some among them who marveled, and wondered what he would concerning the law of Moses; for they understood not the saying that old things had passed away, and that all things had become new.",
+     "markdown": "And it came to pass that when Jesus had said these words he perceived that there were some among them who marveled, and wondered what he would concerning the law of Moses; for **they understood not the saying that old things had passed away, and that all things had become new**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne15-001"
+  },
+  {
+   "id": "3ne12-004",
+   "scope": "BOM",
+   "head": "Moro. 10:32",
+   "anchor": {
+    "verse": 48,
+    "w1": 2,
+    "w2": 20,
+    "quote": "I would that ye should be perfect even as I, or your Father who is in heaven is perfect"
+   },
+   "reason": "Moroni describing how that perfecting works",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 10,
+     "verse": 32,
+     "w1": 43,
+     "w2": 51,
+     "quote": "by his grace ye may be perfect in Christ;",
+     "verse_text": "Yea, come unto Christ, and be perfected in him, and deny yourselves of all ungodliness; and if ye shall deny yourselves of all ungodliness, and love God with all your might, mind and strength, then is his grace sufficient for you, that by his grace ye may be perfect in Christ; and if by the grace of God ye are perfect in Christ, ye can in nowise deny the power of God.",
+     "markdown": "Yea, come unto Christ, and be perfected in him, and deny yourselves of all ungodliness; and if ye shall deny yourselves of all ungodliness, and love God with all your might, mind and strength, then is his grace sufficient for you, that **by his grace ye may be perfect in Christ**; and if by the grace of God ye are perfect in Christ, ye can in nowise deny the power of God.",
+     "span": true
+    }
+   ],
+   "mirror": "moro10-009"
+  },
+  {
+   "id": "3ne12-005",
+   "scope": "BOM",
+   "head": "Alma 11:3",
+   "anchor": {
+    "verse": 26,
+    "w1": 15,
+    "w2": 21,
+    "quote": "until thou hast paid the uttermost senine"
+   },
+   "reason": "the coin defined, as a judge's wage for a day",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 11,
+     "verse": 3,
+     "w1": 11,
+     "w2": 22,
+     "quote": "time—a senine of gold for a day, or a senum of silver,",
+     "verse_text": "And the judge received for his wages according to his time—a senine of gold for a day, or a senum of silver, which is equal to a senine of gold; and this is according to the law which was given.",
+     "markdown": "And the judge received for his wages according to his **time—a senine of gold for a day, or a senum of silver**, which is equal to a senine of gold; and this is according to the law which was given.",
+     "span": true
+    }
+   ],
+   "mirror": "al11-012"
+  },
+  {
+   "id": "3ne12-006",
+   "scope": "BOM",
+   "head": "Moro. 7:48",
+   "anchor": {
+    "verse": 8,
+    "w1": 2,
+    "w2": 13,
+    "quote": "blessed are all the pure in heart, for they shall see God"
+   },
+   "reason": "Moroni on what those who are like him will see",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 7,
+     "verse": 48,
+     "w1": 47,
+     "w2": 63,
+     "quote": "when he shall appear we shall be like him, for we shall see him as he is;",
+     "verse_text": "Wherefore, my beloved brethren, pray unto the Father with all the energy of heart, that ye may be filled with this love, which he hath bestowed upon all who are true followers of his Son, Jesus Christ; that ye may become the sons of God; that when he shall appear we shall be like him, for we shall see him as he is; that we may have this hope; that we may be purified even as he is pure. Amen.",
+     "markdown": "Wherefore, my beloved brethren, pray unto the Father with all the energy of heart, that ye may be filled with this love, which he hath bestowed upon all who are true followers of his Son, Jesus Christ; that ye may become the sons of God; that **when he shall appear we shall be like him, for we shall see him as he is**; that we may have this hope; that we may be purified even as he is pure. Amen.",
+     "span": true
+    }
+   ],
+   "mirror": "moro07-006"
+  },
+  {
+   "id": "3ne12-007",
+   "scope": "BOM",
+   "head": "Alma 24:21",
+   "anchor": {
+    "verse": 39,
+    "w1": 7,
+    "w2": 11,
+    "quote": "ye shall not resist evil"
+   },
+   "reason": "a people who did exactly that, and were slain praying",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 24,
+     "verse": 21,
+     "w1": 19,
+     "w2": 35,
+     "quote": "prostrated themselves before them to the earth, and began to call on the name of the Lord;",
+     "verse_text": "Now when the people saw that they were coming against them they went out to meet them, and prostrated themselves before them to the earth, and began to call on the name of the Lord; and thus they were in this attitude when the Lamanites began to fall upon them, and began to slay them with the sword.",
+     "markdown": "Now when the people saw that they were coming against them they went out to meet them, and **prostrated themselves before them to the earth, and began to call on the name of the Lord**; and thus they were in this attitude when the Lamanites began to fall upon them, and began to slay them with the sword.",
+     "span": true
+    }
+   ],
+   "mirror": "al24-019"
+  },
+  {
+   "id": "3ne12-008",
+   "scope": "BOM",
+   "head": "Mosiah 13:30",
+   "anchor": {
+    "verse": 47,
+    "w1": 1,
+    "w2": 11,
+    "quote": "Old things are done away, and all things have become new"
+   },
+   "reason": "Abinadi describing the law of performances now ended",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 13,
+     "verse": 30,
+     "w1": 9,
+     "w2": 27,
+     "quote": "a law of performances and of ordinances, a law which they were to observe strictly from day to day,",
+     "verse_text": "Therefore there was a law given them, yea, a law of performances and of ordinances, a law which they were to observe strictly from day to day, to keep them in remembrance of God and their duty towards him.",
+     "markdown": "Therefore there was a law given them, yea, **a law of performances and of ordinances, a law which they were to observe strictly from day to day**, to keep them in remembrance of God and their duty towards him.",
+     "span": true
+    }
+   ],
+   "mirror": "mos13-014"
+  },
+  {
+   "id": "3ne12-013",
+   "scope": "BOM",
+   "head": "Moro. 2:1",
+   "anchor": {
+    "verse": 1,
+    "w1": 67,
+    "w2": 79,
+    "quote": "these twelve whom I have chosen from among you to minister unto you,"
+   },
+   "reason": "Moroni recording what the twelve were given",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 2,
+     "verse": 1,
+     "w1": 11,
+     "w2": 16,
+     "quote": "the twelve whom he had chosen,",
+     "verse_text": "The words of Christ, which he spake unto his disciples, the twelve whom he had chosen, as he laid his hands upon them—",
+     "markdown": "The words of Christ, which he spake unto his disciples, **the twelve whom he had chosen**, as he laid his hands upon them—",
+     "span": true
+    }
+   ],
+   "mirror": "moro02-005"
+  },
+  {
+   "id": "3ne12-009",
+   "scope": "SW",
+   "head": "Matt. 5:22",
+   "anchor": {
+    "verse": 22,
+    "w1": 7,
+    "w2": 19,
+    "quote": "whosoever is angry with his brother shall be in danger of his judgment"
+   },
+   "reason": "the same saying, with an exception this verse omits",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 5,
+     "verse": 22,
+     "w1": 7,
+     "w2": 22,
+     "quote": "whosoever is angry with his brother without a cause shall be in danger of the judgment:",
+     "verse_text": "But I say unto you, That whosoever is angry with his brother without a cause shall be in danger of the judgment: and whosoever shall say to his brother, Raca, shall be in danger of the council: but whosoever shall say, Thou fool, shall be in danger of hell fire.",
+     "markdown": "But I say unto you, That **whosoever is angry with his brother without a cause shall be in danger of the judgment**: and whosoever shall say to his brother, Raca, shall be in danger of the council: but whosoever shall say, Thou fool, shall be in danger of hell fire.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne12-010",
+   "scope": "SW",
+   "head": "2 Cor. 5:17",
+   "anchor": {
+    "verse": 47,
+    "w1": 1,
+    "w2": 11,
+    "quote": "Old things are done away, and all things have become new"
+   },
+   "reason": "Paul saying it of a man in Christ",
+   "targets": [
+    {
+     "ref": "2 Cor.",
+     "chapter": 5,
+     "verse": 17,
+     "w1": 13,
+     "w2": 23,
+     "quote": "old things are passed away; behold, all things are become new.",
+     "verse_text": "Therefore if any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new.",
+     "markdown": "Therefore if any man be in Christ, he is a new creature: **old things are passed away; behold, all things are become new**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 23,
+   "w2": 39,
+   "quote": "the number of them who had been called, and received power and authority to baptize, was twelve)",
+   "entries": [
+    "3ne12-011"
+   ]
+  },
+  {
+   "verse": 1,
+   "w1": 67,
+   "w2": 79,
+   "quote": "these twelve whom I have chosen from among you to minister unto you",
+   "entries": [
+    "3ne12-002",
+    "3ne12-013"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 2,
+   "w2": 13,
+   "quote": "blessed are all the pure in heart, for they shall see God",
+   "entries": [
+    "3ne12-006"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 30,
+   "w2": 40,
+   "quote": "come unto me with a broken heart and a contrite spirit",
+   "entries": [
+    "3ne12-001"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 7,
+   "w2": 19,
+   "quote": "whosoever is angry with his brother shall be in danger of his judgment",
+   "entries": [
+    "3ne12-009"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 15,
+   "w2": 21,
+   "quote": "until thou hast paid the uttermost senine",
+   "entries": [
+    "3ne12-005"
+   ]
+  },
+  {
+   "verse": 39,
+   "w1": 7,
+   "w2": 11,
+   "quote": "ye shall not resist evil",
+   "entries": [
+    "3ne12-007"
+   ]
+  },
+  {
+   "verse": 46,
+   "w1": 2,
+   "w2": 18,
+   "quote": "those things which were of old time, which were under the law, in me are all fulfilled",
+   "entries": [
+    "3ne12-003"
+   ]
+  },
+  {
+   "verse": 47,
+   "w1": 1,
+   "w2": 11,
+   "quote": "Old things are done away, and all things have become new.",
+   "entries": [
+    "3ne12-012",
+    "3ne12-008",
+    "3ne12-010"
+   ]
+  },
+  {
+   "verse": 48,
+   "w1": 2,
+   "w2": 20,
+   "quote": "I would that ye should be perfect even as I, or your Father who is in heaven is perfect",
+   "entries": [
+    "3ne12-004"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "4ce7e1e1f7909288"
+ }
+}

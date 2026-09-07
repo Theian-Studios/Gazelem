@@ -1,0 +1,813 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "3 Nephi",
+  "book_slug": "3nephi",
+  "chapter": 5,
+  "volume_order": "10",
+  "speakers": [
+   "Mormon, in his own voice"
+  ],
+  "audience": "The reader, addressed directly",
+  "location": "Outside the narrative",
+  "date": "Events AD 22–26; written ~AD 385",
+  "unit": "The signs and the robber wars (3 Nephi 1–7)",
+  "principles": [
+   "Prisoners released on a covenant",
+   "A record that names its own limits",
+   "An abridger stepping forward to be identified"
+  ],
+  "connections": 12,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Belief is universal for a moment",
+   "text": "Verse 1 says not a living soul among the Nephites doubted the words of the prophets. 4 Nephi 1:2 is the only other place the record claims something of everyone at once, when the whole people were converted. Both moments last about a generation."
+  },
+  {
+   "n": 2,
+   "title": "The reasoning is given",
+   "text": "Verse 2 has them arguing from signs already fulfilled to the fulfilment of the rest. Alma 30:44 and Helaman 8:24 make the same argument to hostile audiences; here it is the settled reasoning of a whole people rather than a debating point.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 30:44",
+     "start": 85,
+     "end": 95,
+     "book": "Alma",
+     "chapter": 30,
+     "verse_start": 44,
+     "verse_end": 44
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Captured robbers are offered a covenant",
+   "text": "Verse 4 frees whichever prisoners repent and covenant to murder no more, and verse 5 punishes the rest according to the law. Alma 62:16 and 17 had settled an earlier war the same way, and 3 Nephi 6:3 grants these men land. The record shows the same policy applied three times in sixty years.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 62:16",
+     "start": 125,
+     "end": 135,
+     "book": "Alma",
+     "chapter": 62,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Mormon names his source",
+   "text": "Verses 9 and 10 say a shorter true account was given by Nephi, and that his own record follows it."
+  },
+  {
+   "n": 5,
+   "title": "He made the plates himself",
+   "text": "Verse 11 says the plates he writes on he made with his own hands."
+  },
+  {
+   "n": 6,
+   "title": "He explains his name",
+   "text": "Verse 12 ties it to the land of Mormon and to Alma's founding of the church there."
+  },
+  {
+   "n": 7,
+   "title": "The chapter ends on a covenant with Jacob",
+   "text": "Verses 23 through 26 promise a gathering from the four quarters of the earth and a restoring to the knowledge of the covenant. 1 Nephi 22:25, 2 Nephi 10:8 and 3 Nephi 16:5 carry the same promise, so Mormon closes his personal introduction with the sentence the whole record keeps returning to."
+  }
+ ],
+ "words": [
+  {
+   "term": "Forsake",
+   "verse_label": "v. 3",
+   "text": "To abandon entirely. The record uses the word seven times and the King James Bible fifty-eight. Verse 3 has a whole people forsaking sins, abominations, and whoredoms at once."
+  },
+  {
+   "term": "Transpired",
+   "verse_label": "v. 8",
+   "text": "Happened, came to pass. Treated at 1 Nephi 19:2. It appears four times in the record, and the King James Bible never. Verse 8 uses it of the events he is leaving out."
+  },
+  {
+   "term": "Disciple",
+   "verse_label": "v. 13",
+   "text": "A follower and learner. The singular occurs once in the record, here, and twenty-nine times in the King James Bible. Mormon applies it to himself before he applies any other title."
+  },
+  {
+   "term": "Hence",
+   "verse_label": "v. 14",
+   "text": "From here, and so of the dead as gone from here. The record uses the word three times and the King James Bible thirty. Verse 14 uses it of the holy ones whose prayers he is answering."
+  },
+  {
+   "term": "Quarters",
+   "verse_label": "v. 24",
+   "text": "The four directions of the compass. The word turns up seven times here, and the King James Bible nine. Verses 24 and 26 both use it of the gathering of Jacob's seed."
+  },
+  {
+   "term": "Dispersed",
+   "verse_label": "v. 26",
+   "text": "Scattered abroad. The record uses the word nine times and the King James Bible ten, including Isaiah 11:12, which pairs it with the same gathering."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "There was not a living soul among all the people of the Nephites who did doubt in the least",
+   "verse_label": "v. 1",
+   "text": "The high-water mark of belief in the book. 3 Nephi 2:1 had them disbelieving what they had seen, and 3 Nephi 6 will undo it again."
+  },
+  {
+   "term": "As many as would repent... and enter into a covenant that they would murder no more were set at liberty",
+   "verse_label": "v. 4",
+   "text": "Prisoners of war released on an oath. The terms are exactly the ones the record has used since Alma 44."
+  },
+  {
+   "term": "As many as were found breathing out threatenings against their brethren were condemned",
+   "verse_label": "v. 5",
+   "text": "The other half of the policy. Acts 9:1 uses the same phrase of Saul before Damascus.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Acts 9:1",
+     "start": 30,
+     "end": 38,
+     "book": "Acts",
+     "chapter": 9,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
+  },
+  {
+   "term": "This book cannot contain even a hundredth part",
+   "verse_label": "v. 8",
+   "text": "Mormon's second use of the fraction. Helaman 3:14 had said it of an earlier stretch, and 3 Nephi 26:6 will say it of the Lord's own teaching."
+  },
+  {
+   "term": "A shorter but true account was given by Nephi",
+   "verse_label": "v. 9",
+   "text": "The abridger describing his source as already an abridgment. Verse 10 names the plates it was engraven on."
+  },
+  {
+   "term": "I do make the record on plates which I have made with mine own hands",
+   "verse_label": "v. 11",
+   "text": "The physical fact of the book. He is not copying onto inherited plates but onto metal he manufactured."
+  },
+  {
+   "term": "I am called Mormon, being called after the land of Mormon",
+   "verse_label": "v. 12",
+   "text": "The record's own explanation of its compiler's name. It runs back to Alma's spring and the first church established after their transgression."
+  },
+  {
+   "term": "I am a disciple of Jesus Christ, the Son of God",
+   "verse_label": "v. 13",
+   "text": "The title he claims. Historian, general, and abridger all come later in the record; this is what he says first."
+  },
+  {
+   "term": "Then I do make a record of the things which I have seen with mine own eyes",
+   "verse_label": "v. 17",
+   "text": "The seam in his own book. Everything before his lifetime is compiled, and from his day forward he is a witness."
+  },
+  {
+   "term": "There are many things which, according to our language, we are not able to write",
+   "verse_label": "v. 18",
+   "text": "A limit stated plainly. Moroni will make the same complaint at Ether 12:25 and take it harder.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 12:25",
+     "start": 63,
+     "end": 74,
+     "book": "Ether",
+     "chapter": 12,
+     "verse_start": 25,
+     "verse_end": 25
+    }
+   ]
+  },
+  {
+   "term": "I am Mormon, and a pure descendant of Lehi",
+   "verse_label": "v. 20",
+   "text": "His lineage given after his discipleship. The order of verses 13 and 20 puts the calling ahead of the pedigree."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 10–11",
+   "start": 10,
+   "end": 11,
+   "title": "The medium, on both sides of the copying",
+   "text": "The writer states what he worked from and what he worked on: \"I have made my record of these things according to the record of Nephi, which was engraven on the plates which were called the plates of Nephi. And behold, I do make the record on plates which I have made with mine own hands.\" Source plates and destination plates are named separately, and the destination ones are said to be the writer's own manufacture. A compiler supplies this kind of detail about his materials; a storyteller has no use for it."
+  },
+  {
+   "label": "v. 12",
+   "start": 12,
+   "end": 12,
+   "title": "A name explained by a place, and the place by an event",
+   "text": "\"I am called Mormon, being called after the land of Mormon, the land in which Alma did establish the church among the people, yea, the first church which was established among them after their transgression.\" The chain runs backwards through the volume: a man named for a land, a land named for what happened there, and the happening reported at Mosiah 18, roughly a hundred and fifty years before this chapter. The record explains its own compiler's name by pointing at an earlier part of itself."
+  },
+  {
+   "label": "v. 14–17",
+   "start": 14,
+   "end": 17,
+   "title": "The line between what was collected and what was seen",
+   "text": "The method is stated as a division: \"I do make my record from the accounts which have been given by those who were before me, until the commencement of my day; And then I do make a record of the things which I have seen with mine own eyes.\" Two kinds of authority are claimed for two stretches of the book, and the boundary between them is a date the writer does not give here. It matters for everything after: the same voice will be reporting inherited documents in one part and eyewitness testimony in another, and it says so in advance."
+  },
+  {
+   "label": "v. 18",
+   "start": 18,
+   "end": 18,
+   "title": "A complaint about the language, not the memory",
+   "text": "The guarantee comes with a limit attached: \"I know the record which I make to be a just and a true record; nevertheless there are many things which, according to our language, we are not able to write.\" The failure is located in the writing system rather than in the sources or the care taken with them. The volume makes the same complaint twice more, at Ether 12:23–25, where the trouble is \"our weakness in writing,\" and at Morm. 9:33, where it is the size of the plates and the state of the Hebrew.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 12:23–25",
+     "start": 355,
+     "end": 369,
+     "book": "Ether",
+     "chapter": 12,
+     "verse_start": 23,
+     "verse_end": 25
+    },
+    {
+     "kind": "scripture",
+     "text": "Morm. 9:33",
+     "start": 426,
+     "end": 436,
+     "book": "Morm",
+     "chapter": 9,
+     "verse_start": 33,
+     "verse_end": 33
+    }
+   ]
+  },
+  {
+   "label": "v. 19",
+   "start": 19,
+   "end": 19,
+   "title": "The seam announced",
+   "text": "One sentence marks the end of the personal section: \"And now I make an end of my saying, which is of myself, and proceed to give my account of the things which have been before me.\" The volume rarely labels a change of voice this plainly. The writer distinguishes his saying from his account, treats the first as an interruption, and closes it explicitly rather than simply resuming the story."
+  },
+  {
+   "label": "v. 20–26",
+   "start": 20,
+   "end": 26,
+   "title": "The voice that was supposed to stop",
+   "text": "Verse 20 opens \"I am Mormon, and a pure descendant of Lehi,\" which is the only place in the volume that sentence occurs, and it comes immediately after the announcement that the personal section is finished. Seven more verses of first person follow: reasons to bless God, a promise about the seed of Joseph, and a gathering \"from the four quarters of the earth\" stated twice, in verses 24 and 26. The announced end of the writer's own saying is followed by the longest continuous stretch of it in the chapter, and no later verse marks a second ending."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The book's high point of belief lasts four verses",
+   "text": "Verse 1 has nobody doubting. By 3 Nephi 6:14 the church is broken up in all the land."
+  },
+  {
+   "n": 2,
+   "title": "Their faith is built on a completed prediction",
+   "text": "Verse 2 reasons from signs already given. It is an argument from track record rather than from feeling."
+  },
+  {
+   "n": 3,
+   "title": "Enemy combatants are released on a covenant",
+   "text": "Verse 4 sets the terms as repentance and an oath against murder. The record treats a promise as sufficient security, as it did in Alma 24 and Alma 62."
+  },
+  {
+   "n": 4,
+   "title": "Mormon interrupts to be identified",
+   "text": "Verses 8 through 20 step out of the story so the reader knows who is speaking and from what."
+  },
+  {
+   "n": 5,
+   "title": "He calls himself a disciple before a descendant",
+   "text": "Verse 13 gives the calling and verse 20 the lineage. The order is his."
+  },
+  {
+   "n": 6,
+   "title": "He made his own plates",
+   "text": "Verse 11 is a small fact with weight: the book exists because one man produced the metal to write it on."
+  },
+  {
+   "n": 7,
+   "title": "The hundredth part is a running admission",
+   "text": "Helaman 3:14, this verse, and 3 Nephi 26:6 all say it. Everything in the book is a selection, and the compiler keeps saying so."
+  },
+  {
+   "n": 8,
+   "title": "The chapter ends looking past its own century",
+   "text": "Verses 23 through 26 leave the robber wars entirely and speak about a gathering still ahead of the reader."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Reason from what already came true",
+    "verse_label": "v. 2",
+    "text": "They took fulfilled signs as grounds for expecting the rest. A record of things holding up is evidence, and it is usable."
+   },
+   {
+    "title": "Offer terms to the people you have beaten",
+    "verse_label": "v. 4",
+    "text": "Repentance and an oath bought freedom for prisoners of war. Winning does not settle what you do next."
+   },
+   {
+    "title": "Say what your account leaves out",
+    "verse_label": "v. 8",
+    "text": "Mormon names the fraction he can carry. Anyone summarizing anything owes the reader that."
+   },
+   {
+    "title": "Name your source and why that one",
+    "verse_label": "v. 9–10",
+    "text": "Mormon notes that fuller records exist, that Nephi's account was shorter but true, and that Nephi's is the one he worked from. When you compress, say what you compressed and why you picked that source over the longer one."
+   },
+   {
+    "title": "Lead with what you are, not who you came from",
+    "verse_label": "v. 13",
+    "text": "Disciple first, descendant of Lehi seven verses later. The order tells you which one he thought mattered."
+   },
+   {
+    "title": "Mark where firsthand begins",
+    "verse_label": "v. 17",
+    "text": "Mormon says that from the commencement of his own day he writes what he has seen with his own eyes. Readers weigh testimony and compilation differently, so show them where the line between the two falls."
+   },
+   {
+    "title": "Admit what the language cannot carry",
+    "verse_label": "v. 18",
+    "text": "Mormon calls his record just and true and says in the same sentence that many things cannot be written in their language. Stating the constraint is what keeps the claim of accuracy from overreaching."
+   },
+   {
+    "title": "Thank God for what happened before you",
+    "verse_label": "v. 20",
+    "text": "Mormon blesses God for bringing his fathers out of Jerusalem six centuries before he was born. Gratitude that reaches back past your own memory is a way of noticing that your position was arranged by people you never met."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What do I believe now that I doubted a year ago, and why?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What would forsaking look like for me, stated concretely?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "Whom would I release on a promise?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "What am I leaving out of the account I give of my own life?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "If I named myself in one clause, what would it be?"
+   },
+   {
+    "verse_label": "v. 18",
+    "start": 18,
+    "end": 18,
+    "text": "What can I not put into words, and does that stop me trying?"
+   },
+   {
+    "verse_label": "v. 24",
+    "start": 24,
+    "end": 24,
+    "text": "What do I expect to be gathered back that is scattered now?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "3ne05-001",
+   "scope": "BOOK",
+   "head": "3 Ne. 4:27",
+   "anchor": {
+    "verse": 4,
+    "w1": 8,
+    "w2": 15,
+    "quote": "when they had taken all the robbers prisoners"
+   },
+   "reason": "the surrender itself, and what happened to the rest",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 4,
+     "verse": 27,
+     "w1": 2,
+     "w2": 14,
+     "quote": "there were many thousands who did yield themselves up prisoners unto the Nephites,",
+     "verse_text": "And there were many thousands who did yield themselves up prisoners unto the Nephites, and the remainder of them were slain.",
+     "markdown": "And **there were many thousands who did yield themselves up prisoners unto the Nephites**, and the remainder of them were slain.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne04-011"
+  },
+  {
+   "id": "3ne05-002",
+   "scope": "BOOK",
+   "head": "3 Ne. 2:1",
+   "anchor": {
+    "verse": 1,
+    "w1": 4,
+    "w2": 22,
+    "quote": "there was not a living soul among all the people of the Nephites who did doubt in the least"
+   },
+   "reason": "the same people disbelieving what they saw, thirty years earlier",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 2,
+     "verse": 1,
+     "w1": 62,
+     "w2": 71,
+     "quote": "began to disbelieve all which they had heard and seen—",
+     "verse_text": "And it came to pass that thus passed away the ninety and fifth year also, and the people began to forget those signs and wonders which they had heard, and began to be less and less astonished at a sign or a wonder from heaven, insomuch that they began to be hard in their hearts, and blind in their minds, and began to disbelieve all which they had heard and seen—",
+     "markdown": "And it came to pass that thus passed away the ninety and fifth year also, and the people began to forget those signs and wonders which they had heard, and began to be less and less astonished at a sign or a wonder from heaven, insomuch that they began to be hard in their hearts, and blind in their minds, and **began to disbelieve all which they had heard and seen—**",
+     "span": true
+    }
+   ],
+   "mirror": "3ne02-013"
+  },
+  {
+   "id": "3ne05-003",
+   "scope": "BOOK",
+   "head": "3 Ne. 26:6",
+   "anchor": {
+    "verse": 8,
+    "w1": 28,
+    "w2": 35,
+    "quote": "this book cannot contain even a hundredth part"
+   },
+   "reason": "the same fraction said of the Lord's own teaching",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 26,
+     "verse": 6,
+     "w1": 3,
+     "w2": 13,
+     "quote": "there cannot be written in this book even a hundredth part",
+     "verse_text": "And now there cannot be written in this book even a hundredth part of the things which Jesus did truly teach unto the people;",
+     "markdown": "And now **there cannot be written in this book even a hundredth part** of the things which Jesus did truly teach unto the people;",
+     "span": true
+    }
+   ],
+   "mirror": "3ne26-004"
+  },
+  {
+   "id": "3ne05-011",
+   "scope": "BOOK",
+   "head": "3 Ne. 6:3",
+   "anchor": {
+    "verse": 4,
+    "w1": 54,
+    "w2": 67,
+    "quote": "enter into a covenant that they would murder no more were set at liberty."
+   },
+   "reason": "the terms the robbers were released on",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 6,
+     "verse": 3,
+     "w1": 5,
+     "w2": 19,
+     "quote": "those robbers who had entered into a covenant to keep the peace of the land,",
+     "verse_text": "And they granted unto those robbers who had entered into a covenant to keep the peace of the land, who were desirous to remain Lamanites, lands, according to their numbers, that they might have, with their labors, wherewith to subsist upon; and thus they did establish peace in all the land.",
+     "markdown": "And they granted unto **those robbers who had entered into a covenant to keep the peace of the land**, who were desirous to remain Lamanites, lands, according to their numbers, that they might have, with their labors, wherewith to subsist upon; and thus they did establish peace in all the land.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne06-002"
+  },
+  {
+   "id": "3ne05-012",
+   "scope": "BOOK",
+   "head": "3 Ne. 16:5",
+   "anchor": {
+    "verse": 24,
+    "w1": 10,
+    "w2": 26,
+    "quote": "gather in from the four quarters of the earth all the remnant of the seed of Jacob,"
+   },
+   "reason": "Christ promising the same gathering himself",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 16,
+     "verse": 5,
+     "w1": 1,
+     "w2": 14,
+     "quote": "And then will I gather them in from the four quarters of the earth;",
+     "verse_text": "And then will I gather them in from the four quarters of the earth; and then will I fulfil the covenant which the Father hath made unto all the people of the house of Israel.",
+     "markdown": "**And then will I gather them in from the four quarters of the earth**; and then will I fulfil the covenant which the Father hath made unto all the people of the house of Israel.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne16-003"
+  },
+  {
+   "id": "3ne05-004",
+   "scope": "BOM",
+   "head": "Hel. 3:14",
+   "anchor": {
+    "verse": 8,
+    "w1": 19,
+    "w2": 26,
+    "quote": "they cannot all be written in this book"
+   },
+   "reason": "the same admission about an earlier stretch of the record",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 3,
+     "verse": 14,
+     "w1": 3,
+     "w2": 11,
+     "quote": "a hundredth part of the proceedings of this people,",
+     "verse_text": "But behold, a hundredth part of the proceedings of this people, yea, the account of the Lamanites and of the Nephites, and their wars, and contentions, and dissensions, and their preaching, and their prophecies, and their shipping and their building of ships, and their building of temples, and of synagogues and their sanctuaries, and their righteousness, and their wickedness, and their murders, and their robbings, and their plundering, and all manner of abominations and whoredoms, cannot be contained in this work.",
+     "markdown": "But behold, **a hundredth part of the proceedings of this people**, yea, the account of the Lamanites and of the Nephites, and their wars, and contentions, and dissensions, and their preaching, and their prophecies, and their shipping and their building of ships, and their building of temples, and of synagogues and their sanctuaries, and their righteousness, and their wickedness, and their murders, and their robbings, and their plundering, and all manner of abominations and whoredoms, cannot be contained in this work.",
+     "span": true
+    }
+   ],
+   "mirror": "hel03-011"
+  },
+  {
+   "id": "3ne05-005",
+   "scope": "BOM",
+   "head": "Mosiah 18:17",
+   "anchor": {
+    "verse": 12,
+    "w1": 14,
+    "w2": 25,
+    "quote": "the land in which Alma did establish the church among the people"
+   },
+   "reason": "the founding itself, and the naming of that first congregation",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 18,
+     "verse": 17,
+     "w1": 2,
+     "w2": 17,
+     "quote": "they were called the church of God, or the church of Christ, from that time forward.",
+     "verse_text": "And they were called the church of God, or the church of Christ, from that time forward. And it came to pass that whosoever was baptized by the power and authority of God was added to his church.",
+     "markdown": "And **they were called the church of God, or the church of Christ, from that time forward**. And it came to pass that whosoever was baptized by the power and authority of God was added to his church.",
+     "span": true
+    }
+   ],
+   "mirror": "mos18-033"
+  },
+  {
+   "id": "3ne05-006",
+   "scope": "BOM",
+   "head": "Morm. 1:1",
+   "anchor": {
+    "verse": 20,
+    "w1": 1,
+    "w2": 9,
+    "quote": "I am Mormon, and a pure descendant of Lehi"
+   },
+   "reason": "the opening of his own book, naming what it is",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 1,
+     "verse": 1,
+     "w1": 3,
+     "w2": 17,
+     "quote": "I, Mormon, make a record of the things which I have both seen and heard,",
+     "verse_text": "And now I, Mormon, make a record of the things which I have both seen and heard, and call it the Book of Mormon.",
+     "markdown": "And now **I, Mormon, make a record of the things which I have both seen and heard**, and call it the Book of Mormon.",
+     "span": true
+    }
+   ],
+   "mirror": "morm01-001"
+  },
+  {
+   "id": "3ne05-007",
+   "scope": "BOM",
+   "head": "Ether 12:25",
+   "anchor": {
+    "verse": 18,
+    "w1": 23,
+    "w2": 32,
+    "quote": "according to our language, we are not able to write"
+   },
+   "reason": "Moroni taking the same limit much harder",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 12,
+     "verse": 25,
+     "w1": 17,
+     "w2": 32,
+     "quote": "when we write we behold our weakness, and stumble because of the placing of our words;",
+     "verse_text": "Thou hast also made our words powerful and great, even that we cannot write them; wherefore, when we write we behold our weakness, and stumble because of the placing of our words; and I fear lest the Gentiles shall mock at our words.",
+     "markdown": "Thou hast also made our words powerful and great, even that we cannot write them; wherefore, **when we write we behold our weakness, and stumble because of the placing of our words**; and I fear lest the Gentiles shall mock at our words.",
+     "span": true
+    }
+   ],
+   "mirror": "eth12-005"
+  },
+  {
+   "id": "3ne05-008",
+   "scope": "BOM",
+   "head": "1 Ne. 19:16",
+   "anchor": {
+    "verse": 24,
+    "w1": 10,
+    "w2": 26,
+    "quote": "gather in from the four quarters of the earth all the remnant of the seed of Jacob"
+   },
+   "reason": "the first Nephi quoting Zenos on the same gathering",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 19,
+     "verse": 16,
+     "w1": 23,
+     "w2": 44,
+     "quote": "will I gather in, saith the Lord, according to the words of the prophet Zenos, from the four quarters of the earth.",
+     "verse_text": "Yea, then will he remember the isles of the sea; yea, and all the people who are of the house of Israel, will I gather in, saith the Lord, according to the words of the prophet Zenos, from the four quarters of the earth.",
+     "markdown": "Yea, then will he remember the isles of the sea; yea, and all the people who are of the house of Israel, **will I gather in, saith the Lord, according to the words of the prophet Zenos, from the four quarters of the earth**.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne19-021"
+  },
+  {
+   "id": "3ne05-009",
+   "scope": "SW",
+   "head": "Acts 9:1",
+   "anchor": {
+    "verse": 5,
+    "w1": 28,
+    "w2": 38,
+    "quote": "as many as were found breathing out threatenings against their brethren"
+   },
+   "reason": "the same phrase, of Saul on the road to Damascus",
+   "targets": [
+    {
+     "ref": "Acts",
+     "chapter": 9,
+     "verse": 1,
+     "w1": 2,
+     "w2": 14,
+     "quote": "Saul, yet breathing out threatenings and slaughter against the disciples of the Lord,",
+     "verse_text": "And Saul, yet breathing out threatenings and slaughter against the disciples of the Lord, went unto the high priest,",
+     "markdown": "And **Saul, yet breathing out threatenings and slaughter against the disciples of the Lord**, went unto the high priest,",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne05-010",
+   "scope": "SW",
+   "head": "Isa. 11:12",
+   "anchor": {
+    "verse": 26,
+    "w1": 19,
+    "w2": 39,
+    "quote": "they be gathered in from the four quarters of the earth unto their own lands, from whence they have been dispersed"
+   },
+   "reason": "the ensign, the outcasts, and the dispersed gathered in",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 11,
+     "verse": 12,
+     "w1": 19,
+     "w2": 31,
+     "quote": "gather together the dispersed of Judah from the four corners of the earth.",
+     "verse_text": "And he shall set up an ensign for the nations, and shall assemble the outcasts of Israel, and gather together the dispersed of Judah from the four corners of the earth.",
+     "markdown": "And he shall set up an ensign for the nations, and shall assemble the outcasts of Israel, and **gather together the dispersed of Judah from the four corners of the earth**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 4,
+   "w2": 22,
+   "quote": "there was not a living soul among all the people of the Nephites who did doubt in the least",
+   "entries": [
+    "3ne05-002"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 8,
+   "w2": 15,
+   "quote": "when they had taken all the robbers prisoners",
+   "entries": [
+    "3ne05-001"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 54,
+   "w2": 67,
+   "quote": "enter into a covenant that they would murder no more were set at liberty.",
+   "entries": [
+    "3ne05-011"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 28,
+   "w2": 38,
+   "quote": "as many as were found breathing out threatenings against their brethren",
+   "entries": [
+    "3ne05-009"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 19,
+   "w2": 26,
+   "quote": "they cannot all be written in this book",
+   "entries": [
+    "3ne05-004"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 28,
+   "w2": 35,
+   "quote": "this book cannot contain even a hundredth part",
+   "entries": [
+    "3ne05-003"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 14,
+   "w2": 25,
+   "quote": "the land in which Alma did establish the church among the people",
+   "entries": [
+    "3ne05-005"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 23,
+   "w2": 32,
+   "quote": "according to our language, we are not able to write",
+   "entries": [
+    "3ne05-007"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 1,
+   "w2": 9,
+   "quote": "I am Mormon, and a pure descendant of Lehi",
+   "entries": [
+    "3ne05-006"
+   ]
+  },
+  {
+   "verse": 24,
+   "w1": 10,
+   "w2": 26,
+   "quote": "gather in from the four quarters of the earth all the remnant of the seed of Jacob,",
+   "entries": [
+    "3ne05-012",
+    "3ne05-008"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 19,
+   "w2": 39,
+   "quote": "they be gathered in from the four quarters of the earth unto their own lands, from whence they have been dispersed",
+   "entries": [
+    "3ne05-010"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "607ed6511ab958f9"
+ }
+}

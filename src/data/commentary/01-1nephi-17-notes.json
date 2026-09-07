@@ -17,7 +17,7 @@
    "Remembrance",
    "Work"
   ],
-  "connections": 12,
+  "connections": 17,
   "initial": false
  },
  "world_behind": [
@@ -520,194 +520,64 @@
  ],
  "verses": [
   {
-   "label": "v. 1–3",
-   "start": 1,
-   "end": 3,
-   "title": "Eight years, and a formula",
-   "text": "Raw meat, hard travel, and the note that \"our women did give plenty of suck for their children, and were strong\" (v. 2); the record credits the wilderness's mothers before its men. Then the editor steps forward with the moral-drawing phrase that will mark the whole volume: and thus we see. Hardship, in this record, exists to be converted into doctrine.",
-   "cites": [
-    {
-     "quote": "our women did give plenty of suck for their children, and were strong",
-     "verse": 2,
-     "start": 41,
-     "end": 119,
-     "spans": [
-      {
-       "w1": 23,
-       "w2": 35,
-       "text": "our women did give plenty of suck for their children, and were strong"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 4–6",
+   "label": "v. 4–5",
    "start": 4,
-   "end": 6,
-   "title": "Bountiful",
-   "text": "After the compressed years, arrival reads like exhale: much fruit, wild honey, a seashore, and the flat summary that all of it was \"prepared of the Lord\" (v. 5). The record lets the family suffer at length and be provided for briefly, a proportion that belongs to the telling.",
-   "cites": [
-    {
-     "quote": "prepared of the Lord",
-     "verse": 5,
-     "start": 131,
-     "end": 160,
-     "spans": [
-      {
-       "w1": 26,
-       "w2": 29,
-       "text": "prepared of the Lord"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 7–11",
-   "start": 7,
-   "end": 11,
-   "title": "The commandment and the craftsman's questions",
-   "text": "The ship command comes on a mountain; Nephi's whole recorded response is logistics: where is the ore? Then a bellows from skins, fire from flint, tools from molten metal. The go-and-do creed (1 Ne. 3:7) has matured into a working method: revelation for the pattern, industry for everything else.",
+   "end": 5,
+   "title": "A place name explained and a foreign word translated",
+   "text": "The record supplies both kinds of gloss inside a single sentence. Bountiful is named \"because of its much fruit,\" and then a word is carried over untranslated and glossed: \"the sea, which we called Irreantum, which, being interpreted, is many waters.\" Only four such interpretive glosses appear in these books, this one and Rabbanah at Alma 18:13, Rameumptom at Alma 31:21, and Liahona at Alma 37:38. Three of the four are proper names of places or objects, and each time the record stops the narrative to supply a meaning.",
    "refs": [
     {
      "kind": "scripture",
-     "text": "1 Ne. 3:7",
-     "start": 192,
-     "end": 201,
-     "book": "1 Ne",
-     "chapter": 3,
-     "verse_start": 7,
-     "verse_end": 7
+     "text": "Alma 18:13",
+     "start": 336,
+     "end": 346,
+     "book": "Alma",
+     "chapter": 18,
+     "verse_start": 13,
+     "verse_end": 13
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 31:21",
+     "start": 362,
+     "end": 372,
+     "book": "Alma",
+     "chapter": 31,
+     "verse_start": 21,
+     "verse_end": 21
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 37:38",
+     "start": 389,
+     "end": 399,
+     "book": "Alma",
+     "chapter": 37,
+     "verse_start": 38,
+     "verse_end": 38
     }
    ]
+  },
+  {
+   "label": "v. 9–11",
+   "start": 9,
+   "end": 11,
+   "title": "The first question asked is about supply",
+   "text": "Told to build a ship, the record has the builder ask not how but where: \"whither shall I go that I may find ore to molten, that I may make tools to construct the ship?\" Verse 10 records the answer given and withholds the location. Verse 11 then details the process at the level of workshop practice, a bellows made \"of the skins of beasts,\" and fire struck by smiting \"two stones together.\" A chapter that never describes the ship describes the making of the tools that made it."
   },
   {
    "label": "v. 17–22",
    "start": 17,
    "end": 22,
-   "title": "The mockery, and the gilded city",
-   "text": "The brothers laugh at their shipwright brother and re-imagine Jerusalem: \"the people who were in the land of Jerusalem were a righteous people\" (v. 22). Nostalgia has quietly rewritten the city that tried to kill their father, and the record sets the revision down next to the mockery: unbelief editing the past to indict the present.",
-   "cites": [
-    {
-     "quote": "the people who were in the land of Jerusalem were a righteous people",
-     "verse": 22,
-     "start": 73,
-     "end": 151,
-     "spans": [
-      {
-       "w1": 5,
-       "w2": 17,
-       "text": "the people who were in the land of Jerusalem were a righteous people"
-      }
-     ]
-    }
-   ]
+   "title": "An objection given six verses and a legal argument",
+   "text": "The record does not compress the complaint. It runs from verse 17 to verse 22 and builds to a claim with a stated warrant: the people at Jerusalem \"were a righteous people; for they kept the statutes and judgments of the Lord, and all his commandments, according to the law of Moses.\" The argument is orthodox on its own terms and rests on observable conduct. Verse 20 adds the human cost, women \"big with child\" who \"have borne children in the wilderness,\" which uses the same facts verses 1 and 2 reported as blessings. The record lets one set of details serve both cases."
   },
   {
-   "label": "v. 23–43",
-   "start": 23,
-   "end": 43,
-   "title": "The exodus, deployed",
-   "text": "Nephi's answer is a history lecture: bondage, Red Sea, manna, water from the rock, the serpents and the look that healed, Canaan's ripened dispossession. All of it aims at one point: \"notwithstanding they being led, the Lord their God, their Redeemer, going before them\" (v. 30), Israel still hardened. His brothers are not short of evidence; they are reenacting a documented pattern, and he names it.",
-   "cites": [
-    {
-     "quote": "notwithstanding they being led, the Lord their God, their Redeemer, going before them",
-     "verse": 30,
-     "start": 183,
-     "end": 278,
-     "spans": [
-      {
-       "w1": 2,
-       "w2": 14,
-       "text": "notwithstanding they being led, the Lord their God, their Redeemer, going before them"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 45–47",
-   "start": 45,
-   "end": 47,
-   "title": "The diagnosis, and the grief",
-   "text": "Seen an angel, heard his voice, and \"past feeling\" (v. 45), and the brothers' condition finally has its terminal name. Nephi answers with grief: \"my soul is rent with anguish because of you\" (v. 47), and the exhaustion of a man \"full of the Spirit of God\" (v. 47) whose frame has no strength. The prophet's power and the brother's grief share one body.",
-   "cites": [
-    {
-     "quote": "past feeling",
-     "verse": 45,
-     "start": 36,
-     "end": 58,
-     "spans": [
-      {
-       "w1": 49,
-       "w2": 50,
-       "text": "past feeling"
-      }
-     ]
-    },
-    {
-     "quote": "my soul is rent with anguish because of you",
-     "verse": 47,
-     "start": 145,
-     "end": 198,
-     "spans": [
-      {
-       "w1": 2,
-       "w2": 10,
-       "text": "my soul is rent with anguish because of you"
-      }
-     ]
-    },
-    {
-     "quote": "full of the Spirit of God",
-     "verse": 47,
-     "start": 228,
-     "end": 263,
-     "spans": [
-      {
-       "w1": 28,
-       "w2": 33,
-       "text": "full of the Spirit of God"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 48–55",
-   "start": 48,
-   "end": 55,
-   "title": "The shock, and the redirect",
-   "text": "Threatened with the sea, Nephi is made untouchable: \"touch me not, for I am filled with the power of God\" (v. 48), and the Lord shakes the brothers into feeling. Their response overshoots, \"they fell down before me, and were about to worship me\" (v. 55), and Nephi's last act of the chapter is the redirect: worship the Lord, honor thy father. Power, rightly held, hands its credit upward and its dignity sideways.",
-   "cites": [
-    {
-     "quote": "touch me not, for I am filled with the power of God",
-     "verse": 48,
-     "start": 52,
-     "end": 113,
-     "spans": [
-      {
-       "w1": 59,
-       "w2": 70,
-       "text": "touch me not, for I am filled with the power of God"
-      }
-     ]
-    },
-    {
-     "quote": "they fell down before me, and were about to worship me",
-     "verse": 55,
-     "start": 189,
-     "end": 253,
-     "spans": [
-      {
-       "w1": 32,
-       "w2": 42,
-       "text": "they fell down before me, and were about to worship me"
-      }
-     ]
-    }
-   ]
+   "label": "v. 41",
+   "start": 41,
+   "end": 41,
+   "title": "A reason supplied that the source does not contain",
+   "text": "The record retells the fiery serpents of Numbers 21:6–9 and adds an explanation for the deaths that the original omits: \"the labor which they had to perform was to look; and because of the simpleness of the way, or the easiness of it, there were many who perished.\" Numbers reports the bronze serpent and the healing and says nothing about why some did not look. The added clause turns a plague narrative into an argument about how people respond to easy instructions, which is the point the speaker needs against brothers who will not work on a ship."
   }
  ],
  "chapter": [
@@ -739,7 +609,7 @@
   {
    "n": 6,
    "title": "Power that redirects its worship",
-   "text": "The chapter ends with Nephi refusing the prostration his vindication produced. The record's test for spiritual power is passed in one verse: credit routed to the Lord, honor routed to the humbled father, nothing kept. Laban's sword taught what office corrupts; Bountiful's beach shows what power looks like clean."
+   "text": "The refusal at verse 55 is stated in three moves. First kinship, \"I am thy brother, yea, even thy younger brother.\" Then redirection upward, \"worship the Lord thy God.\" Then redirection sideways, \"honor thy father and thy mother, that thy days may be long in the land,\" which is Exodus 20:12. Nothing is retained. The men being told to honor their father are the ones who spent verses 20 through 22 attacking him, and the demonstration that produced the prostration was announced at verse 53 as a shaking rather than a withering, so even the sign was reduced before it was given.s like clean."
   },
   {
    "n": 7,
@@ -1003,6 +873,136 @@
    "mirror": "mos09-004"
   },
   {
+   "id": "1ne17-013",
+   "scope": "BOM",
+   "head": "Alma 53:15",
+   "anchor": {
+    "verse": 1,
+    "w1": 27,
+    "w2": 34,
+    "quote": "we did travel and wade through much affliction"
+   },
+   "reason": "the Ammonites watching their brethren wade through affliction",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 53,
+     "verse": 15,
+     "w1": 24,
+     "w2": 31,
+     "quote": "to behold their brethren wade through their afflictions,",
+     "verse_text": "And Helaman feared lest by so doing they should lose their souls; therefore all those who had entered into this covenant were compelled to behold their brethren wade through their afflictions, in their dangerous circumstances at this time.",
+     "markdown": "And Helaman feared lest by so doing they should lose their souls; therefore all those who had entered into this covenant were compelled **to behold their brethren wade through their afflictions**, in their dangerous circumstances at this time.",
+     "span": true
+    }
+   ],
+   "mirror": "al53-006"
+  },
+  {
+   "id": "1ne17-014",
+   "scope": "BOM",
+   "head": "Hel. 8:11",
+   "anchor": {
+    "verse": 26,
+    "w1": 23,
+    "w2": 30,
+    "quote": "the waters of the Red Sea were divided"
+   },
+   "reason": "Nephi son of Helaman arguing Moses to the judges",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 8,
+     "verse": 11,
+     "w1": 19,
+     "w2": 35,
+     "quote": "God gave power unto one man, even Moses, to smite upon the waters of the Red Sea,",
+     "verse_text": "Therefore he was constrained to speak more unto them saying: Behold, my brethren, have ye not read that God gave power unto one man, even Moses, to smite upon the waters of the Red Sea, and they parted hither and thither, insomuch that the Israelites, who were our fathers, came through upon dry ground, and the waters closed upon the armies of the Egyptians and swallowed them up?",
+     "markdown": "Therefore he was constrained to speak more unto them saying: Behold, my brethren, have ye not read that **God gave power unto one man, even Moses, to smite upon the waters of the Red Sea**, and they parted hither and thither, insomuch that the Israelites, who were our fathers, came through upon dry ground, and the waters closed upon the armies of the Egyptians and swallowed them up?",
+     "span": true
+    }
+   ],
+   "mirror": "hel08-004"
+  },
+  {
+   "id": "1ne17-015",
+   "scope": "BOM",
+   "head": "Ether 9:31",
+   "anchor": {
+    "verse": 41,
+    "w1": 30,
+    "w2": 36,
+    "quote": "He sent fiery flying serpents among them;"
+   },
+   "reason": "poisonous serpents driving the Jaredites and their flocks",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 9,
+     "verse": 31,
+     "w1": 1,
+     "w2": 13,
+     "quote": "And there came forth poisonous serpents also upon the face of the land,",
+     "verse_text": "And there came forth poisonous serpents also upon the face of the land, and did poison many people. And it came to pass that their flocks began to flee before the poisonous serpents, towards the land southward, which was called by the Nephites Zarahemla.",
+     "markdown": "**And there came forth poisonous serpents also upon the face of the land**, and did poison many people. And it came to pass that their flocks began to flee before the poisonous serpents, towards the land southward, which was called by the Nephites Zarahemla.",
+     "span": true
+    }
+   ],
+   "mirror": "eth09-006"
+  },
+  {
+   "id": "1ne17-016",
+   "scope": "BOM",
+   "head": "Hel. 12:10",
+   "anchor": {
+    "verse": 46,
+    "w1": 28,
+    "w2": 40,
+    "quote": "by his word he can cause the rough places to be made smooth,"
+   },
+   "reason": "Mormon on mountains broken smooth by a voice",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 12,
+     "verse": 10,
+     "w1": 2,
+     "w2": 14,
+     "quote": "by the power of his voice they are broken up, and become smooth,",
+     "verse_text": "And by the power of his voice they are broken up, and become smooth, yea, even like unto a valley.",
+     "markdown": "And **by the power of his voice they are broken up, and become smooth**, yea, even like unto a valley.",
+     "span": true
+    }
+   ],
+   "mirror": "hel12-006"
+  },
+  {
+   "id": "1ne17-017",
+   "scope": "BOM",
+   "head": "Hel. 10:9",
+   "anchor": {
+    "verse": 50,
+    "w1": 19,
+    "w2": 37,
+    "quote": "If he should command me that I should say unto this water, be thou earth, it should be earth;"
+   },
+   "reason": "the sealing power given to Nephi son of Helaman",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 10,
+     "verse": 9,
+     "w1": 2,
+     "w2": 19,
+     "quote": "if ye shall say unto this mountain, Be thou cast down and become smooth, it shall be done.",
+     "verse_text": "And if ye shall say unto this mountain, Be thou cast down and become smooth, it shall be done.",
+     "markdown": "And **if ye shall say unto this mountain, Be thou cast down and become smooth, it shall be done**.",
+     "span": true
+    }
+   ],
+   "mirror": "hel10-007"
+  },
+  {
    "id": "1ne17-006",
    "scope": "SW",
    "head": "Ex. 25:9",
@@ -1157,6 +1157,15 @@
  ],
  "markers": [
   {
+   "verse": 1,
+   "w1": 27,
+   "w2": 34,
+   "quote": "we did travel and wade through much affliction",
+   "entries": [
+    "1ne17-013"
+   ]
+  },
+  {
    "verse": 3,
    "w1": 1,
    "w2": 12,
@@ -1198,6 +1207,7 @@
    "w2": 30,
    "quote": "the waters of the Red Sea were divided",
    "entries": [
+    "1ne17-014",
     "1ne17-007"
    ]
   },
@@ -1217,6 +1227,15 @@
    "quote": "the Lord esteemeth all flesh in one",
    "entries": [
     "1ne17-009"
+   ]
+  },
+  {
+   "verse": 41,
+   "w1": 30,
+   "w2": 36,
+   "quote": "He sent fiery flying serpents among them;",
+   "entries": [
+    "1ne17-015"
    ]
   },
   {
@@ -1247,12 +1266,30 @@
    ]
   },
   {
+   "verse": 46,
+   "w1": 28,
+   "w2": 40,
+   "quote": "by his word he can cause the rough places to be made smooth,",
+   "entries": [
+    "1ne17-016"
+   ]
+  },
+  {
    "verse": 50,
    "w1": 6,
    "w2": 18,
    "quote": "If God had commanded me to do all things I could do them",
    "entries": [
     "1ne17-003"
+   ]
+  },
+  {
+   "verse": 50,
+   "w1": 19,
+   "w2": 37,
+   "quote": "If he should command me that I should say unto this water, be thou earth, it should be earth;",
+   "entries": [
+    "1ne17-017"
    ]
   },
   {
@@ -1266,7 +1303,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "e5176fda41a7a413"
+  "at": "2026-09-07",
+  "source_sha256": "083a9abcb2ff23db"
  }
 }

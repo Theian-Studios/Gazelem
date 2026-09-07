@@ -18,7 +18,7 @@
    "Chastity",
    "The cost of plain speech"
   ],
-  "connections": 12,
+  "connections": 16,
   "initial": false
  },
  "world_behind": [
@@ -72,7 +72,7 @@
   {
    "term": "Enlarge",
    "verse_label": "v. 9",
-   "text": "The verb is ordinarily one of blessing: an enlarged tent, an enlarged border, a soul that swells as a good seed grows in it (Alma 32:28). Jacob attaches it to a wound. The commandment he is under sends him to enlarge wounds rather than to console and heal them, and the word runs a healer's work backwards, widening what ought to be closing.",
+   "text": "The verb is ordinarily one of blessing: an enlarged tent, an enlarged border, a soul that swells as a good seed grows in it (Alma 32:28). Jacob attaches it to a wound. The commandment he is under sends him to enlarge wounds instead of consoling and healing them, and the word runs a healer's work backwards, widening what ought to be closing.",
    "refs": [
     {
      "kind": "scripture",
@@ -158,7 +158,7 @@
   {
    "term": "Under the glance of the piercing eye of the Almighty God",
    "verse_label": "v. 10",
-   "text": "The eye appears twice in this chapter and nowhere else, and its second appearance is a threat rather than a witness. Here the eye watches the preacher deliver; five verses later it can smite the hearers to the dust. The same faculty is comfort and danger depending on where you are standing."
+   "text": "The eye appears twice in this chapter and nowhere else in Jacob's writing, and its second appearance is a threat rather than a witness. Here the eye watches the preacher deliver; five verses later it can smite the hearers to the dust. The same faculty is comfort and danger depending on where you are standing."
   },
   {
    "term": "The hand of providence hath smiled upon you most pleasingly",
@@ -203,53 +203,46 @@
  ],
  "verses": [
   {
-   "label": "v. 1–4",
+   "label": "v. 1",
    "start": 1,
-   "end": 4,
-   "title": "Credentials and dread",
-   "text": "The heading dates the sermon to after Nephi's death, and Jacob then spends three verses on his own standing: the responsibility he is under, the office he is magnifying, the diligence they can vouch for, and the anxiety that is new today. Every claim is about himself, and it buys him the right to what comes next."
+   "end": 1,
+   "title": "A transcript with a header",
+   "text": "The chapter does not begin as narrative. It begins with a line that describes the document and ends in a colon: \"The words which Jacob, the brother of Nephi, spake unto the people of Nephi, after the death of Nephi:\" Speaker, relation, audience and date are all given before a word of the speech. The volume uses this shape rarely, and the effect is that everything following is presented as a record of something said rather than as an account of something that happened."
   },
   {
-   "label": "v. 5–11",
-   "start": 5,
+   "label": "v. 2–11",
+   "start": 2,
    "end": 11,
-   "title": "The apology before the accusation",
-   "text": "He can tell them their thoughts; the sin is abominable; it grieves him; it shames him; he must use boldness before their wives and children; those wives came for healing and will get daggers. Then two verses of warrant: a strict command, and a word that arrived with a time and a place attached. Seven verses of reluctance in front of a rebuke that has not started, ending with the audience being told the sermon was assigned."
+   "title": "Ten verses of reluctance before the first charge",
+   "text": "The rebuke does not start until verse 12, and the space before it is spent on the speaker's own difficulty. Must stands six times in six of these verses, always as compulsion rather than duty: \"I must testify,\" \"I must use so much boldness,\" \"I must do according to the strict commands of God,\" \"I must tell you the truth.\" Alongside it run four separate statements of distress, weighed down, grieveth my soul, grieveth me, burdeneth my soul. The record spends nearly a third of the chapter establishing that the speaker did not want to give it."
   },
   {
-   "label": "v. 12–16",
-   "start": 12,
-   "end": 16,
-   "title": "Pride, diagnosed",
-   "text": "Riches obtained, unequal distribution, hearts lifted, necks stiff, heads high, apparel costly, brethren persecuted. The chain is causal and it moves from an economic fact to a social behavior in one verse. The two exclamations that follow are not argument; they are a man wishing his hearers could see what he sees."
+   "label": "v. 7–8",
+   "start": 7,
+   "end": 8,
+   "title": "The wrong people are in the room",
+   "text": "A single verse names a problem the rest of the chapter cannot solve: \"it grieveth me that I must use so much boldness of speech concerning you, before your wives and your children, many of whose feelings are exceedingly tender and chaste and delicate before God.\" Verse 8 says what those hearers came for, \"the pleasing word of God, yea, the word which healeth the wounded soul.\" A public rebuke of one group is delivered in the hearing of another that will be hurt by it, and the speaker says so before proceeding anyway."
   },
   {
-   "label": "v. 17–21",
+   "label": "v. 17–19",
    "start": 17,
-   "end": 21,
-   "title": "The correction, with money left in",
-   "text": "Be familiar, share substance, seek the kingdom first, then seek riches for named purposes, and remember that the person you despise came from the same dust for the same end. This is the only place in the passage where Jacob tells them what to do rather than what they are, and it is notably unascetic."
+   "end": 19,
+   "title": "Riches permitted, and put in an order",
+   "text": "The record does not have the correction forbid wealth. It sequences it instead: \"before ye seek for riches, seek ye for the kingdom of God. And after ye have obtained a hope in Christ ye shall obtain riches, if ye seek them.\" Then it supplies the condition, \"ye will seek them for the intent to do good,\" and names four uses, clothing the naked, feeding the hungry, liberating the captive, administering relief to the sick and afflicted. What is condemned in verse 13 is the order of pursuit and its effect, not the possession."
   },
   {
-   "label": "v. 22–26",
-   "start": 22,
-   "end": 26,
-   "title": "The turn, and the misused text",
-   "text": "Pride is closed off, a grosser crime announced, and the floor given to the Lord. The accusation is a charge of misreading: they seek to excuse themselves out of what was written. The answer runs through Joseph rather than through David, which resets whose precedent governs this people."
+   "label": "v. 24–30",
+   "start": 24,
+   "end": 30,
+   "title": "A prohibition with its exception written in",
+   "text": "The record has the argument cite two of the most authoritative names available and rule against them: \"David and Solomon truly had many wives and concubines, which thing was abominable before me, saith the Lord.\" The rule follows at verse 27, \"there shall not any man among you have save it be one wife; and concubines he shall have none.\" Verse 30 then states the condition under which the rule is suspended: \"if I will, saith the Lord of Hosts, raise up seed unto me, I will command my people; otherwise they shall hearken unto these things.\" The exception is placed inside the same speech, three verses after the command."
   },
   {
-   "label": "v. 27–33",
-   "start": 27,
-   "end": 33,
-   "title": "The law and the reason for it",
-   "text": "One wife, no concubines, because God delights in chastity. The reason given is a sound: he has heard the sorrow and the mourning of the daughters of his people, in Jerusalem and here. The law is issued and then justified by the crying it is meant to stop."
-  },
-  {
-   "label": "v. 34–35",
-   "start": 34,
+   "label": "v. 31–35",
+   "start": 31,
    "end": 35,
-   "title": "Worse than the Lamanites",
-   "text": "The closing comparison is the one likeliest to land hardest on this audience, and the damage listed is domestic: broken hearts, lost confidence of children, bad examples, sobbing. The chapter that began with a man dreading to wound ends by counting wounds he did not cause."
+   "title": "The injured party gets the last word",
+   "text": "The chapter closes by measuring the offence entirely by its effect on people who were not accused of anything: \"I have seen the sorrow, and heard the mourning of the daughters of my people in the land of Jerusalem, yea, and in all the lands of my people.\" Verse 35 makes the comparison that ends the speech, \"ye have done greater iniquities than the Lamanites, our brethren,\" and then names the damage: \"Ye have broken the hearts of your tender wives, and lost the confidence of your children.\" Those are the same wives and children verse 7 said were standing there listening."
   }
  ],
  "chapter": [
@@ -271,7 +264,7 @@
   {
    "n": 4,
    "title": "Scripture is shown failing in the hands of readers who want something",
-   "text": "The people have the record of David and Solomon and have drawn a permission from it. The Lord's reply concedes every fact and denies the inference. It is a durable warning about canonical precedent, and it is delivered inside the canon itself."
+   "text": "Verse 23 names the reasoning being answered, \"they seek to excuse themselves in committing whoredoms, because of the things which were written concerning David, and Solomon his son.\" Verse 24 concedes the facts and rejects the conclusion in one sentence, \"David and Solomon truly had many wives and concubines, which thing was abominable before me.\" Verses 27 and 30 then supply the rule and its one exception, \"there shall not any man among you have save it be one wife,\" and \"if I will... raise up seed unto me, I will command my people.\" A precedent drawn from scripture is answered by conceding the text and denying the inference."
   },
   {
    "n": 5,
@@ -571,6 +564,110 @@
    "mirror": "2ne28-008"
   },
   {
+   "id": "jac02-013",
+   "scope": "BOM",
+   "head": "2 Ne. 13:18",
+   "anchor": {
+    "verse": 13,
+    "w1": 43,
+    "w2": 55,
+    "quote": "wear stiff necks and high heads because of the costliness of your apparel,"
+   },
+   "reason": "Isaiah stripping the finery off the daughters of Zion",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 13,
+     "verse": 18,
+     "w1": 4,
+     "w2": 14,
+     "quote": "the Lord will take away the bravery of their tinkling ornaments,",
+     "verse_text": "In that day the Lord will take away the bravery of their tinkling ornaments, and cauls, and round tires like the moon;",
+     "markdown": "In that day **the Lord will take away the bravery of their tinkling ornaments**, and cauls, and round tires like the moon;",
+     "span": true
+    }
+   ],
+   "mirror": "2ne13-003"
+  },
+  {
+   "id": "jac02-014",
+   "scope": "BOM",
+   "head": "3 Ne. 13:33",
+   "anchor": {
+    "verse": 18,
+    "w1": 1,
+    "w2": 13,
+    "quote": "But before ye seek for riches, seek ye for the kingdom of God."
+   },
+   "reason": "Christ putting the kingdom first, at the temple",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 13,
+     "verse": 33,
+     "w1": 1,
+     "w2": 11,
+     "quote": "But seek ye first the kingdom of God and his righteousness,",
+     "verse_text": "But seek ye first the kingdom of God and his righteousness, and all these things shall be added unto you.",
+     "markdown": "**But seek ye first the kingdom of God and his righteousness**, and all these things shall be added unto you.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne13-007"
+  },
+  {
+   "id": "jac02-015",
+   "scope": "BOM",
+   "head": "Moro. 9:9",
+   "anchor": {
+    "verse": 28,
+    "w1": 2,
+    "w2": 11,
+    "quote": "I, the Lord God, delight in the chastity of women."
+   },
+   "reason": "what the daughters of the Lamanites were robbed of",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 9,
+     "verse": 9,
+     "w1": 47,
+     "w2": 51,
+     "quote": "which is chastity and virtue—",
+     "verse_text": "And notwithstanding this great abomination of the Lamanites, it doth not exceed that of our people in Moriantum. For behold, many of the daughters of the Lamanites have they taken prisoners; and after depriving them of that which was most dear and precious above all things, which is chastity and virtue—",
+     "markdown": "And notwithstanding this great abomination of the Lamanites, it doth not exceed that of our people in Moriantum. For behold, many of the daughters of the Lamanites have they taken prisoners; and after depriving them of that which was most dear and precious above all things, **which is chastity and virtue—**",
+     "span": true
+    }
+   ],
+   "mirror": "moro09-007"
+  },
+  {
+   "id": "jac02-016",
+   "scope": "BOM",
+   "head": "Alma 35:15",
+   "anchor": {
+    "verse": 35,
+    "w1": 48,
+    "w2": 56,
+    "quote": "because of the strictness of the word of God,"
+   },
+   "reason": "the same phrase, of what grieved Alma's heart",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 35,
+     "verse": 15,
+     "w1": 66,
+     "w2": 70,
+     "quote": "the strictness of the word,",
+     "verse_text": "Now Alma, being grieved for the iniquity of his people, yea for the wars, and the bloodsheds, and the contentions which were among them; and having been to declare the word, or sent to declare the word, among all the people in every city; and seeing that the hearts of the people began to wax hard, and that they began to be offended because of the strictness of the word, his heart was exceedingly sorrowful.",
+     "markdown": "Now Alma, being grieved for the iniquity of his people, yea for the wars, and the bloodsheds, and the contentions which were among them; and having been to declare the word, or sent to declare the word, among all the people in every city; and seeing that the hearts of the people began to wax hard, and that they began to be offended because of **the strictness of the word**, his heart was exceedingly sorrowful.",
+     "span": true
+    }
+   ],
+   "mirror": "al35-005"
+  },
+  {
    "id": "jac02-011",
    "scope": "SW",
    "head": "Deut. 28:56",
@@ -728,15 +825,17 @@
    "w2": 55,
    "quote": "wear stiff necks and high heads because of the costliness of your apparel",
    "entries": [
-    "jac02-005"
+    "jac02-005",
+    "jac02-013"
    ]
   },
   {
    "verse": 18,
    "w1": 1,
    "w2": 13,
-   "quote": "But before ye seek for riches, seek ye for the kingdom of God",
+   "quote": "But before ye seek for riches, seek ye for the kingdom of God.",
    "entries": [
+    "jac02-014",
     "jac02-009"
    ]
   },
@@ -759,10 +858,28 @@
     "jac02-007",
     "jac02-010"
    ]
+  },
+  {
+   "verse": 28,
+   "w1": 2,
+   "w2": 11,
+   "quote": "I, the Lord God, delight in the chastity of women.",
+   "entries": [
+    "jac02-015"
+   ]
+  },
+  {
+   "verse": 35,
+   "w1": 48,
+   "w2": 56,
+   "quote": "because of the strictness of the word of God,",
+   "entries": [
+    "jac02-016"
+   ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "35c1a4ede467001a"
+  "at": "2026-09-07",
+  "source_sha256": "ce1dcea795f8fc43"
  }
 }

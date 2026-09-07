@@ -18,7 +18,7 @@
    "Probation",
    "Rest"
   ],
-  "connections": 12,
+  "connections": 22,
   "initial": true
  },
  "world_behind": [
@@ -210,13 +210,13 @@
   {
    "term": "Provocation",
    "verse_label": "v. 36",
-   "text": "An act that rouses anger, and in the psalms a proper noun for one particular rebellion in the wilderness. Alma warns against wrath coming down \"as in the first provocation\" (v. 36) and pairs it with entering into rest, the exact pairing of Psalm 95. He is reading a city its own history in borrowed words.",
+   "text": "An act that rouses anger, and in the psalms a proper noun for one particular rebellion in the wilderness. Treated at Jacob 1:7. Alma warns against wrath coming down \"as in the first provocation\" (v. 36) and pairs it with entering into rest, the exact pairing of Psalm 95. He is reading a city its own history in borrowed words.",
    "cites": [
     {
      "quote": "as in the first provocation",
      "verse": 36,
-     "start": 143,
-     "end": 180,
+     "start": 165,
+     "end": 202,
      "spans": [
       {
        "w1": 40,
@@ -224,6 +224,18 @@
        "text": "as in the first provocation"
       }
      ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 1:7",
+     "start": 117,
+     "end": 126,
+     "book": "Jacob",
+     "chapter": 1,
+     "verse_start": 7,
+     "verse_end": 7
     }
    ]
   }
@@ -287,7 +299,7 @@
   {
    "term": "Making God a liar",
    "verse_label": "v. 23",
-   "text": "The stakes of the Eden argument, stated bluntly. If Adam had reached the tree of life after being told he would surely die, the sentence would have failed. Alma's defense of the flaming sword is that God's word had to hold, and the whole plan of redemption depends on its holding."
+   "text": "The stakes of the Eden argument, stated bluntly. If Adam had reached the tree of life after being told \"thou shalt surely die,\" the sentence would have failed. Alma's defense of the flaming sword is that God's word had to hold, and the whole plan of redemption depends on its holding."
   },
   {
    "term": "This life became a probationary state",
@@ -297,7 +309,7 @@
   {
    "term": "These shall enter into my rest",
    "verse_label": "v. 34",
-   "text": "The promise, quoted as God's own speech. Rest here is a place a person arrives at by not hardening, and the next verse gives its opposite in an oath. Psalm 95 makes the same promise and the same threat in the same order."
+   "text": "The promise, quoted as God's own speech. Rest here is a place a person arrives at by not hardening, and the next verse gives its opposite in an oath. Psalm 95:7–11 makes the same promise and the same threat in the same order."
   },
   {
    "term": "As in the first provocation",
@@ -307,60 +319,53 @@
  ],
  "verses": [
   {
-   "label": "v. 1–7",
+   "label": "v. 1–2",
    "start": 1,
-   "end": 7,
-   "title": "The trembling man, addressed",
-   "text": "Alma takes up where Amulek stopped, names the lie, names whose plan it was, and widens the address to everyone. By verse 7 Zeezrom is trembling more, and the reason given is that he now believes they can read him."
+   "end": 2,
+   "title": "A private answer delivered to a crowd",
+   "text": "Alma opens his mouth to speak to one man, and verse 2 records who actually heard it: \"the words that Alma spake unto Zeezrom were heard by the people round about; for the multitude was great.\" The record fixes the audience before the argument starts, and verse 5 then makes the widening explicit, \"what I say unto thee I say unto all.\""
   },
   {
-   "label": "v. 8–11",
+   "label": "v. 4–5",
+   "start": 4,
+   "end": 5,
+   "title": "The chapter's governing word belongs to the devil first",
+   "text": "Plan is used ten times here, which is more than in any other chapter of scripture. The first three uses are not doctrinal: \"thy plan was a very subtle plan,\" and \"this was a plan of thine adversary.\" Before the word can carry redemption it is made to carry a trap, and the reader meets it as something an enemy assembles."
+  },
+  {
+   "label": "v. 8",
    "start": 8,
+   "end": 8,
+   "title": "The man who came to trap them asks for an exposition",
+   "text": "Zeezrom's question is not his own material: \"What does this mean which Amulek hath spoken concerning the resurrection of the dead?\" He quotes the other missionary back and asks what it meant. The record has the interrogator become a student without narrating the change, and supplies only his trembling as evidence."
+  },
+  {
+   "label": "v. 9–11",
+   "start": 9,
    "end": 11,
-   "title": "The portion of the word",
-   "text": "Zeezrom asks a real question and gets the chapter's engine: mysteries given to many, imparted according to heed and diligence, growing or shrinking with the hardness of the hearer, and ending either in full knowledge or in the chains of hell."
+   "title": "One rule, stated forward and then run backwards",
+   "text": "Verse 10 gives it in the positive direction, harden the heart and receive the lesser portion, refuse to harden and receive the greater until the mysteries are known in full. Verse 11 then walks the other way to its end: lesser portion, until they know nothing, then captivity. The record does not argue the rule. It states it, reverses it, and names the result."
   },
   {
-   "label": "v. 12–18",
-   "start": 12,
-   "end": 18,
-   "title": "The judgment, drawn out",
-   "text": "Words, works and thoughts all condemn; the condemned wish for falling mountains and cannot have them; they stand, they acknowledge the justice, and then the second death is defined and described as fire, brimstone and chains."
+   "label": "v. 25",
+   "start": 25,
+   "end": 25,
+   "title": "The word changes hands",
+   "text": "From this verse onward every remaining use of plan is the plan of redemption, at verses 25, 26, 30, 32 and 33. The term that opened the chapter as the adversary's subtlety finishes it as the thing laid from the foundation of the world. Nothing in the chapter remarks on the transfer."
   },
   {
-   "label": "v. 19–21",
-   "start": 19,
-   "end": 21,
-   "title": "The objection",
-   "text": "A chief ruler stands up with a scriptural problem: if the way to the tree of life was barred, how can anyone live forever? It is the only question in the chapter asked from inside the text."
-  },
-  {
-   "label": "v. 22–27",
-   "start": 22,
-   "end": 27,
-   "title": "The Fall, and the space it made",
-   "text": "Adam fell and the race became lost; the tree of life had to stay barred or the word would have failed; death arrived and with it a granted space, and that space is named a probation and a preparation."
-  },
-  {
-   "label": "v. 28–32",
-   "start": 28,
-   "end": 32,
-   "title": "Why anyone knows any of this",
-   "text": "God appointed death and judgment, then decided men should be told. Angels were sent, conversation began, the plan was made known, and commandments followed the knowledge instead of preceding it."
-  },
-  {
-   "label": "v. 33–37",
-   "start": 33,
+   "label": "v. 36–37",
+   "start": 36,
    "end": 37,
-   "title": "Rest, and the provocation",
-   "text": "The invitation is quoted as divine speech with mercy on one side and an oath on the other. Alma closes by putting his hearers in the story: a second provocation is happening, and the alternative is to enter into the rest of God."
+   "title": "The doctrine turns into an imperative",
+   "text": "The closing verses put the rule of verses 10 and 11 into the second person and then the first: if ye will harden your hearts ye shall not enter into the rest of the Lord, and then \"let us repent, and harden not our hearts.\" Alma ends by including himself in the instruction, and the last thing the chapter does is stop explaining and start asking."
   }
  ],
  "chapter": [
   {
    "n": 1,
    "title": "The doctrine is produced by a hostile room",
-   "text": "Zeezrom asked to destroy a witness and ended up commissioning the record's fullest account of the Fall, probation and rest. The book keeps putting its best teaching in its worst places."
+   "text": "Zeezrom set out to destroy a witness and ended by asking the question at verse 8 that produces the record's fullest account of the Fall, probation, and rest. The sermon runs from verse 9 to verse 37, twenty-nine verses, and every one of them is answering a hostile questioner rather than instructing a congregation."
   },
   {
    "n": 2,
@@ -370,17 +375,17 @@
   {
    "n": 3,
    "title": "The chapter defines its own terms",
-   "text": "Chains of hell, second death, probationary state, preparatory state. Alma is teaching people who have been arguing about words all afternoon, and he answers by fixing meanings."
+   "text": "Four terms are defined inside the sermon: the chains of hell at verse 11, \"a second death, which is a spiritual death\" at verse 16, \"this life became a probationary state\" at verse 24, and a \"preparatory state\" at verse 26. Alma 11 has just spent forty verses arguing over the meaning of words and coins, and the answer here is to fix meanings rather than to win points."
   },
   {
    "n": 4,
    "title": "A good question gets a long answer",
-   "text": "Antionah's objection is treated as worth fourteen verses. The record could have made him ridiculous. Instead it lets a chief ruler of Ammonihah ask the best question in the chapter and receive the best answer."
+   "text": "Antionah is identified as \"a chief ruler among them\" and his objection at verses 20 and 21 is quoted at length, including the scripture he cites, \"God placed cherubim and a flaming sword on the east of the garden of Eden.\" The reply runs from verse 22 to verse 27. The record could have made an Ammonihahite ruler ridiculous; instead it gives him the citation and the reasoning and answers him on his own ground."
   },
   {
    "n": 5,
    "title": "The flaming sword is read as mercy",
-   "text": "The barrier that looks like exclusion turns out to be what created the time in which anyone can repent. The reading turns Eden's harshest image into the reason there is a plan at all."
+   "text": "Verse 23 states the alternative outcome as a reduction to absurdity: had Adam eaten of the tree of life \"there would have been no death, and the word would have been void, making God a liar.\" Verse 26 runs it the other way, that they \"would have been forever miserable, having no preparatory state.\" The flaming sword of Genesis 3:24 is thus read twice as the thing that made repentance possible, and the argument reaches that conclusion without adding anything to the Genesis text."
   },
   {
    "n": 6,
@@ -396,9 +401,24 @@
  "world_in_front": {
   "applications": [
    {
+    "title": "Know who is actually listening",
+    "verse_label": "v. 1–2",
+    "text": "Alma opened his mouth to answer one man and the record immediately says who heard it, \"the words that Alma spake unto Zeezrom were heard by the people round about.\" Verse 5 then makes it explicit, \"what I say unto thee I say unto all.\" Before you say the private version of something in a room, decide whether you would say it to the room."
+   },
+   {
+    "title": "Watch the word you inherited from the other side",
+    "verse_label": "v. 4–5, 25",
+    "text": "Plan enters the chapter as the adversary's, \"thy plan was a very subtle plan,\" and leaves it as the plan of redemption, with no comment on the transfer. A word can be reclaimed. Notice which of your own vocabulary you are still using in somebody else's sense."
+   },
+   {
     "title": "Notice which way your portion is moving",
     "verse_label": "v. 10",
-    "text": "The doctrine says the amount you receive tracks what you did with the last amount. Compare what you understand now against a year ago. The direction is more diagnostic than the level."
+    "text": "The doctrine says the amount you receive tracks what you did with the last amount, and verse 11 runs the same rule down to nothing. Compare what you understand now against a year ago; the direction is more diagnostic than the level."
+   },
+   {
+    "title": "Define the word before you argue about it",
+    "verse_label": "v. 11",
+    "text": "Alma stops to say what the chains of hell actually means, and the chapter defines three more terms as it goes. In your next disagreement that keeps circling, name what one contested word means to you and ask what it means to them before going further."
    },
    {
     "title": "Answer the good question at length",
@@ -406,14 +426,19 @@
     "text": "Antionah objected from scripture and Alma gave him fourteen verses. When someone raises a real difficulty, the respectful response is proportion. Short answers to serious questions communicate that the question was not serious."
    },
    {
-    "title": "Define the word before you argue about it",
-    "verse_label": "v. 11",
-    "text": "Alma stops to say what the chains of hell actually means. In your next disagreement that keeps circling, try naming what one contested word means to you and asking what it means to them before going further."
+    "title": "Test a reading by supposing the other one",
+    "verse_label": "v. 23, 26",
+    "text": "Alma checks the flaming sword twice by running the alternative: no death and the word made void, or life forever with \"no preparatory state.\" If a restriction in your life looks like pure exclusion, work out what would have followed without it."
    },
    {
     "title": "Treat the interval as a term",
     "verse_label": "v. 24",
     "text": "The space between now and death is described as a probation with a purpose. Pick one thing you have been treating as something to get through, and ask what it would look like if it were the test itself."
+   },
+   {
+    "title": "Expect the instruction after the information",
+    "verse_label": "v. 28–32",
+    "text": "The order is appointed, then made known, then commanded. Nobody in this account is held to a rule they were not first told about. When you are responsible for someone, put the explaining before the requiring."
    }
   ],
   "questions": [
@@ -486,7 +511,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al11-002"
   },
   {
    "id": "al12-002",
@@ -512,7 +537,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al14-007"
   },
   {
    "id": "al12-003",
@@ -538,7 +563,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al42-002"
   },
   {
    "id": "al12-004",
@@ -564,7 +589,111 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al13-013"
+  },
+  {
+   "id": "al12-014",
+   "scope": "BOOK",
+   "head": "Alma 47:4",
+   "anchor": {
+    "verse": 4,
+    "w1": 8,
+    "w2": 14,
+    "quote": "thy plan was a very subtle plan,"
+   },
+   "reason": "the word used of Amalickiah himself",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 47,
+     "verse": 4,
+     "w1": 10,
+     "w2": 18,
+     "quote": "he being a very subtle man to do evil",
+     "verse_text": "Now behold, this was the desire of Amalickiah; for he being a very subtle man to do evil therefore he laid the plan in his heart to dethrone the king of the Lamanites.",
+     "markdown": "Now behold, this was the desire of Amalickiah; for **he being a very subtle man to do evil** therefore he laid the plan in his heart to dethrone the king of the Lamanites.",
+     "span": true
+    }
+   ],
+   "mirror": "al47-002"
+  },
+  {
+   "id": "al12-018",
+   "scope": "BOOK",
+   "head": "Alma 5:42",
+   "anchor": {
+    "verse": 16,
+    "w1": 43,
+    "w2": 51,
+    "quote": "he shall die as to things pertaining unto righteousness."
+   },
+   "reason": "Alma naming the same wages seven chapters earlier",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 5,
+     "verse": 42,
+     "w1": 12,
+     "w2": 23,
+     "quote": "for his wages he receiveth death, as to things pertaining unto righteousness,",
+     "verse_text": "And whosoever doeth this must receive his wages of him; therefore, for his wages he receiveth death, as to things pertaining unto righteousness, being dead unto all good works.",
+     "markdown": "And whosoever doeth this must receive his wages of him; therefore, **for his wages he receiveth death, as to things pertaining unto righteousness**, being dead unto all good works.",
+     "span": true
+    }
+   ],
+   "mirror": "al05-002"
+  },
+  {
+   "id": "al12-019",
+   "scope": "BOOK",
+   "head": "Alma 42:2",
+   "anchor": {
+    "verse": 21,
+    "w1": 11,
+    "w2": 15,
+    "quote": "cherubim and a flaming sword"
+   },
+   "reason": "Alma explaining the guard to Corianton",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 42,
+     "verse": 2,
+     "w1": 54,
+     "w2": 58,
+     "quote": "cherubim, and a flaming sword",
+     "verse_text": "Now behold, my son, I will explain this thing unto thee. For behold, after the Lord God sent our first parents forth from the garden of Eden, to till the ground, from whence they were taken—yea, he drew out the man, and he placed at the east end of the garden of Eden, cherubim, and a flaming sword which turned every way, to keep the tree of life—",
+     "markdown": "Now behold, my son, I will explain this thing unto thee. For behold, after the Lord God sent our first parents forth from the garden of Eden, to till the ground, from whence they were taken—yea, he drew out the man, and he placed at the east end of the garden of Eden, **cherubim, and a flaming sword** which turned every way, to keep the tree of life—",
+     "span": true
+    }
+   ],
+   "mirror": "al42-001"
+  },
+  {
+   "id": "al12-022",
+   "scope": "BOOK",
+   "head": "Alma 13:13",
+   "anchor": {
+    "verse": 37,
+    "w1": 49,
+    "w2": 56,
+    "quote": "let us enter into the rest of God,"
+   },
+   "reason": "the rest still the goal a chapter later",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 13,
+     "verse": 13,
+     "w1": 21,
+     "w2": 28,
+     "quote": "that ye may also enter into that rest.",
+     "verse_text": "And now, my brethren, I would that ye should humble yourselves before God, and bring forth fruit meet for repentance, that ye may also enter into that rest.",
+     "markdown": "And now, my brethren, I would that ye should humble yourselves before God, and bring forth fruit meet for repentance, **that ye may also enter into that rest**.",
+     "span": true
+    }
+   ],
+   "mirror": "al13-001"
   },
   {
    "id": "al12-005",
@@ -590,7 +719,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "2ne02-017"
   },
   {
    "id": "al12-006",
@@ -616,7 +745,163 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "2ne09-026"
+  },
+  {
+   "id": "al12-013",
+   "scope": "BOM",
+   "head": "Hel. 9:41",
+   "anchor": {
+    "verse": 3,
+    "w1": 30,
+    "w2": 45,
+    "quote": "he knows all thy thoughts, and thou seest that thy thoughts are made known unto us"
+   },
+   "reason": "the crowd concluding Nephi must be a god",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 9,
+     "verse": 41,
+     "w1": 27,
+     "w2": 35,
+     "quote": "he has told us the thoughts of our hearts,",
+     "verse_text": "And there were others who said: Behold, he is a god, for except he was a god he could not know of all things. For behold, he has told us the thoughts of our hearts, and also has told us things; and even he has brought unto our knowledge the true murderer of our chief judge.",
+     "markdown": "And there were others who said: Behold, he is a god, for except he was a god he could not know of all things. For behold, **he has told us the thoughts of our hearts**, and also has told us things; and even he has brought unto our knowledge the true murderer of our chief judge.",
+     "span": true
+    }
+   ],
+   "mirror": "hel09-008"
+  },
+  {
+   "id": "al12-015",
+   "scope": "BOM",
+   "head": "2 Ne. 16:10",
+   "anchor": {
+    "verse": 10,
+    "w1": 3,
+    "w2": 17,
+    "quote": "he that will harden his heart, the same receiveth the lesser portion of the word;"
+   },
+   "reason": "Isaiah on hearts made fat so they see not",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 16,
+     "verse": 10,
+     "w1": 32,
+     "w2": 37,
+     "quote": "and be converted and be healed.",
+     "verse_text": "Make the heart of this people fat, and make their ears heavy, and shut their eyes—lest they see with their eyes, and hear with their ears, and understand with their heart, and be converted and be healed.",
+     "markdown": "Make the heart of this people fat, and make their ears heavy, and shut their eyes—lest they see with their eyes, and hear with their ears, and understand with their heart, **and be converted and be healed**.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne16-002"
+  },
+  {
+   "id": "al12-016",
+   "scope": "BOM",
+   "head": "Ether 4:13",
+   "anchor": {
+    "verse": 10,
+    "w1": 3,
+    "w2": 17,
+    "quote": "he that will harden his heart, the same receiveth the lesser portion of the word;"
+   },
+   "reason": "the Lord on knowledge hid up by unbelief",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 4,
+     "verse": 13,
+     "w1": 16,
+     "w2": 24,
+     "quote": "the knowledge which is hid up because of unbelief.",
+     "verse_text": "Come unto me, O ye Gentiles, and I will show unto you the greater things, the knowledge which is hid up because of unbelief.",
+     "markdown": "Come unto me, O ye Gentiles, and I will show unto you the greater things, **the knowledge which is hid up because of unbelief**.",
+     "span": true
+    }
+   ],
+   "mirror": "eth04-007"
+  },
+  {
+   "id": "al12-017",
+   "scope": "BOM",
+   "head": "2 Ne. 12:10",
+   "anchor": {
+    "verse": 14,
+    "w1": 51,
+    "w2": 60,
+    "quote": "command the rocks and the mountains to fall upon us"
+   },
+   "reason": "Isaiah sending the wicked into the rock",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 12,
+     "verse": 10,
+     "w1": 1,
+     "w2": 8,
+     "quote": "O ye wicked ones, enter into the rock,",
+     "verse_text": "O ye wicked ones, enter into the rock, and hide thee in the dust, for the fear of the Lord and the glory of his majesty shall smite thee.",
+     "markdown": "**O ye wicked ones, enter into the rock**, and hide thee in the dust, for the fear of the Lord and the glory of his majesty shall smite thee.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne12-003"
+  },
+  {
+   "id": "al12-020",
+   "scope": "BOM",
+   "head": "Mosiah 16:7",
+   "anchor": {
+    "verse": 25,
+    "w1": 21,
+    "w2": 29,
+    "quote": "there could have been no resurrection of the dead;"
+   },
+   "reason": "Abinadi running the same removal",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 16,
+     "verse": 7,
+     "w1": 31,
+     "w2": 36,
+     "quote": "there could have been no resurrection.",
+     "verse_text": "And if Christ had not risen from the dead, or have broken the bands of death that the grave should have no victory, and that death should have no sting, there could have been no resurrection.",
+     "markdown": "And if Christ had not risen from the dead, or have broken the bands of death that the grave should have no victory, and that death should have no sting, **there could have been no resurrection**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos16-011"
+  },
+  {
+   "id": "al12-021",
+   "scope": "BOM",
+   "head": "Jacob 1:7",
+   "anchor": {
+    "verse": 35,
+    "w1": 12,
+    "w2": 24,
+    "quote": "I swear in my wrath that he shall not enter into my rest."
+   },
+   "reason": "Jacob citing the oath to his people",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 1,
+     "verse": 7,
+     "w1": 31,
+     "w2": 45,
+     "quote": "lest by any means he should swear in his wrath they should not enter in,",
+     "verse_text": "Wherefore we labored diligently among our people, that we might persuade them to come unto Christ, and partake of the goodness of God, that they might enter into his rest, lest by any means he should swear in his wrath they should not enter in, as in the provocation in the days of temptation while the children of Israel were in the wilderness.",
+     "markdown": "Wherefore we labored diligently among our people, that we might persuade them to come unto Christ, and partake of the goodness of God, that they might enter into his rest, **lest by any means he should swear in his wrath they should not enter in**, as in the provocation in the days of temptation while the children of Israel were in the wilderness.",
+     "span": true
+    }
+   ],
+   "mirror": "jac01-009"
   },
   {
    "id": "al12-007",
@@ -654,7 +939,7 @@
     "w2": 47,
     "quote": "we would fain be glad"
    },
-   "reason": "a starving man’s word for wanting",
+   "reason": "a starving man's word for wanting",
    "targets": [
     {
      "ref": "Luke",
@@ -758,7 +1043,7 @@
     "w2": 44,
     "quote": "as in the first provocation"
    },
-   "reason": "the psalm this sermon is built on",
+   "reason": "the hardening warning underneath the whole address",
    "targets": [
     {
      "ref": "Ps.",
@@ -786,6 +1071,24 @@
    ]
   },
   {
+   "verse": 3,
+   "w1": 30,
+   "w2": 45,
+   "quote": "he knows all thy thoughts, and thou seest that thy thoughts are made known unto us",
+   "entries": [
+    "al12-013"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 8,
+   "w2": 14,
+   "quote": "thy plan was a very subtle plan,",
+   "entries": [
+    "al12-014"
+   ]
+  },
+  {
    "verse": 4,
    "w1": 15,
    "w2": 21,
@@ -804,6 +1107,16 @@
    ]
   },
   {
+   "verse": 10,
+   "w1": 3,
+   "w2": 17,
+   "quote": "he that will harden his heart, the same receiveth the lesser portion of the word;",
+   "entries": [
+    "al12-015",
+    "al12-016"
+   ]
+  },
+  {
    "verse": 14,
    "w1": 43,
    "w2": 47,
@@ -818,7 +1131,17 @@
    "w2": 60,
    "quote": "command the rocks and the mountains to fall upon us",
    "entries": [
+    "al12-017",
     "al12-009"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 43,
+   "w2": 51,
+   "quote": "he shall die as to things pertaining unto righteousness.",
+   "entries": [
+    "al12-018"
    ]
   },
   {
@@ -836,6 +1159,7 @@
    "w2": 15,
    "quote": "cherubim and a flaming sword",
    "entries": [
+    "al12-019",
     "al12-010"
    ]
   },
@@ -858,6 +1182,15 @@
    ]
   },
   {
+   "verse": 25,
+   "w1": 21,
+   "w2": 29,
+   "quote": "there could have been no resurrection of the dead;",
+   "entries": [
+    "al12-020"
+   ]
+  },
+  {
    "verse": 26,
    "w1": 29,
    "w2": 32,
@@ -870,8 +1203,9 @@
    "verse": 35,
    "w1": 12,
    "w2": 24,
-   "quote": "I swear in my wrath that he shall not enter into my rest",
+   "quote": "I swear in my wrath that he shall not enter into my rest.",
    "entries": [
+    "al12-021",
     "al12-011"
    ]
   },
@@ -883,10 +1217,19 @@
    "entries": [
     "al12-012"
    ]
+  },
+  {
+   "verse": 37,
+   "w1": 49,
+   "w2": 56,
+   "quote": "let us enter into the rest of God,",
+   "entries": [
+    "al12-022"
+   ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "97867fa14579d8ca"
+  "at": "2026-09-07",
+  "source_sha256": "1443f859571bc4b1"
  }
 }

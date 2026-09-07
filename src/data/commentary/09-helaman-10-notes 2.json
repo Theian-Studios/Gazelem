@@ -1,0 +1,707 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Helaman",
+  "book_slug": "helaman",
+  "chapter": 10,
+  "volume_order": "09",
+  "speakers": [
+   "Mormon, as narrator",
+   "The voice of the Lord to Nephi"
+  ],
+  "audience": "Nephi alone, and then the scattered multitudes",
+  "location": "The road to Nephi's house, and the land at large",
+  "date": "~21 BC",
+  "unit": "Nephi son of Helaman (Helaman 7–12)",
+  "principles": [
+   "A blessing given for what was already done",
+   "Power bounded by a will",
+   ""
+  ],
+  "connections": 10,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The crowd leaves him standing there",
+   "text": "Verse 1 has the people dividing and going their ways after the events of Helaman 9, with Nephi alone in the middle."
+  },
+  {
+   "n": 2,
+   "title": "The revelation comes while walking",
+   "text": "Verses 2 and 3 have him heading home, pondering, and much cast down, when a voice comes."
+  },
+  {
+   "n": 3,
+   "title": "The blessing names a quality",
+   "text": "Verses 4 and 5 use \"unwearyingness\" twice, and the word appears nowhere else in scripture."
+  },
+  {
+   "n": 4,
+   "title": "The promise has a stated limit",
+   "text": "Verse 5 says all things will be done according to his word, and gives the reason: he will not ask contrary to God's will."
+  },
+  {
+   "n": 5,
+   "title": "The sealing power is granted in the words of Matthew 16",
+   "text": "Verse 7 uses seal and loose where the gospel uses bind and loose, with the same on-earth and in-heaven structure."
+  },
+  {
+   "n": 6,
+   "title": "He turns around before arriving",
+   "text": "Verse 12 has him stopping short of his own house and going back to the scattered people."
+  },
+  {
+   "n": 7,
+   "title": "He is carried from crowd to crowd",
+   "text": "Verses 16 and 17 have the Spirit removing him from an arrest and moving him among all the people until every one had heard."
+  }
+ ],
+ "words": [
+  {
+   "term": "Pondering",
+   "verse_label": "v. 2",
+   "text": "Treated at 1 Nephi 11:1, where the first Nephi is caught away while sitting and pondering. The record uses the word eleven times, twice in this chapter, and both Nephis receive a revelation in that posture."
+  },
+  {
+   "term": "Unwearyingness",
+   "verse_label": "v. 4",
+   "text": "Working without tiring or slackening. The word occurs twice in all of scripture, at verses 4 and 5 of this chapter, and nowhere else. It is the quality the blessing is given for."
+  },
+  {
+   "term": "Twain",
+   "verse_label": "v. 8",
+   "text": "Treated at Alma 14:27, of the prison walls. The record uses the word ten times and the King James Bible seventeen, including the temple veil at Mark 15:38, which is the object named here.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 14:27",
+     "start": 11,
+     "end": 21,
+     "book": "Alma",
+     "chapter": 14,
+     "verse_start": 27,
+     "verse_end": 27
+    },
+    {
+     "kind": "scripture",
+     "text": "Mark 15:38",
+     "start": 144,
+     "end": 154,
+     "book": "Mark",
+     "chapter": 15,
+     "verse_start": 38,
+     "verse_end": 38
+    }
+   ]
+  },
+  {
+   "term": "Almighty",
+   "verse_label": "v. 11",
+   "text": "All-powerful. The record uses the title thirteen times and the King James Bible fifty-seven. Verse 11 attaches it to the message Nephi is sent back to deliver."
+  },
+  {
+   "term": "Miracle",
+   "verse_label": "v. 13",
+   "text": "A work beyond natural power. The record uses the singular eight times. Verse 13 applies it to the naming of Seantum and reports that it changed nothing."
+  },
+  {
+   "term": "Conveyed",
+   "verse_label": "v. 16",
+   "text": "Carried from one place to another. The word occurs once in the record and once in the King James Bible, at John 5:13. It describes how Nephi left a crowd that was reaching for him.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "John 5:13",
+     "start": 107,
+     "end": 116,
+     "book": "John",
+     "chapter": 5,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "They divided hither and thither and went their ways, leaving Nephi alone",
+   "verse_label": "v. 1",
+   "text": "The aftermath of Helaman 9. A murder solved by prophecy ends with the crowd dispersing and the prophet standing by himself."
+  },
+  {
+   "term": "Pondering upon the things which the Lord had shown unto him",
+   "verse_label": "v. 2",
+   "text": "What he does with a day like that one. The walk home is where the next revelation finds him."
+  },
+  {
+   "term": "Being much cast down because of the wickedness of the people",
+   "verse_label": "v. 3",
+   "text": "Mormon gives the state he was in when the voice came. The blessing arrives on a discouraged man."
+  },
+  {
+   "term": "Thou hast with unwearyingness declared the word",
+   "verse_label": "v. 4",
+   "text": "The reason for the blessing, given first. Verse 4 lists three more: he did not fear them, did not seek his own life, and sought God's will."
+  },
+  {
+   "term": "Thou shalt not ask that which is contrary to my will",
+   "verse_label": "v. 5",
+   "text": "The limit that makes the promise safe to give. The power is unlimited in form and bounded by the character of the man holding it."
+  },
+  {
+   "term": "Behold, thou art Nephi, and I am God",
+   "verse_label": "v. 6",
+   "text": "Two identities stated in one line. Some of the people had just called him a god in Helaman 9:41, and this sentence sorts that out."
+  },
+  {
+   "term": "Whatsoever ye shall seal on earth shall be sealed in heaven",
+   "verse_label": "v. 7",
+   "text": "The grant itself. Matthew 16:19 gives Peter the same structure with bind in place of seal."
+  },
+  {
+   "term": "If ye shall say unto this mountain, Be thou cast down and become smooth, it shall be done",
+   "verse_label": "v. 9",
+   "text": "The illustration of scale. The first Nephi had made the same kind of statement about water and earth in 1 Nephi 17:50."
+  },
+  {
+   "term": "He did stop and did not go unto his own house",
+   "verse_label": "v. 12",
+   "text": "The hinge of the chapter. He was almost home, and the errand sent him back the way he came."
+  },
+  {
+   "term": "He was taken by the Spirit and conveyed away out of the midst of them",
+   "verse_label": "v. 16",
+   "text": "Rescue by removal. The men reaching to imprison him find nobody there."
+  },
+  {
+   "term": "They were divided against themselves and began to slay one another with the sword",
+   "verse_label": "v. 18",
+   "text": "The chapter's last event. The division of verse 1 becomes a civil killing by verse 18."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–3",
+   "start": 1,
+   "end": 3,
+   "title": "Alone on the road",
+   "text": "The people divide and go their ways, leaving Nephi standing in the middle. He heads toward his own house, pondering what the Lord had shown him and much cast down over the wickedness, the secret works of darkness, the murders, and the plunderings. As he ponders, a voice comes."
+  },
+  {
+   "label": "v. 4–5",
+   "start": 4,
+   "end": 5,
+   "title": "The blessing",
+   "text": "He is called blessed for what he has done: declaring the word with unwearyingness, not fearing the people, not seeking his own life, seeking God's will and commandments. Because of that he is promised blessing forever, might in word and deed and faith and works, and that all things will be done according to his word, since he will not ask against God's will."
+  },
+  {
+   "label": "v. 6–10",
+   "start": 6,
+   "end": 10,
+   "title": "The power",
+   "text": "God declares in the presence of angels that Nephi shall have power over this people, to smite the earth with famine, pestilence, and destruction according to their wickedness. Whatever he seals on earth is sealed in heaven and whatever he looses is loosed. If he says the temple shall be rent in twain, it will be. If he says a mountain shall be cast down and made smooth, it will be. If he says God shall smite this people, it will happen."
+  },
+  {
+   "label": "v. 11–12",
+   "start": 11,
+   "end": 12,
+   "title": "Sent back",
+   "text": "He is commanded to go and declare that the Almighty says they shall be smitten to destruction without repentance. When the voice finishes, Nephi stops short of his own house and returns to the multitudes scattered across the land, declaring what he was told."
+  },
+  {
+   "label": "v. 13–15",
+   "start": 13,
+   "end": 15,
+   "title": "Refused again",
+   "text": "Despite the miracle of the chief judge's death, they harden their hearts and do not hearken. He declares the word anyway, they harden further, revile against him, and try to seize him and put him in prison."
+  },
+  {
+   "label": "v. 16–17",
+   "start": 16,
+   "end": 17,
+   "title": "Carried",
+   "text": "The power of God is with him and they cannot take him, for the Spirit takes and conveys him out of their midst. He goes in the Spirit from multitude to multitude until every one of them has been told."
+  },
+  {
+   "label": "v. 18–19",
+   "start": 18,
+   "end": 19,
+   "title": "The killing begins",
+   "text": "They will not hear, contentions start, and they divide against themselves and begin to kill one another with the sword. The seventy-first year ends."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The blessing is for the past, not the future",
+   "text": "Verse 4 gives four reasons, all of them things already done. The power in verse 7 arrives as a consequence of a track record."
+  },
+  {
+   "n": 2,
+   "title": "Unwearyingness is the named quality",
+   "text": "Not eloquence, courage, or results. The word exists nowhere else in scripture and describes continuing to do the thing."
+  },
+  {
+   "n": 3,
+   "title": "The limit is the man's own will",
+   "text": "Verse 5 secures an unlimited promise by observing that he will not ask wrongly. Character does the work a restriction would otherwise do."
+  },
+  {
+   "n": 4,
+   "title": "Verse 6 answers Helaman 9:41",
+   "text": "People had concluded he was a god. The voice tells him plainly which of them is which."
+  },
+  {
+   "n": 5,
+   "title": "He never gets home",
+   "text": "Verse 2 has him walking there and verse 12 has him turning around. Alma 8:16 has an angel sending a prophet back the same way.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 8:16",
+     "start": 67,
+     "end": 76,
+     "book": "Alma",
+     "chapter": 8,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "The miracle changed nothing",
+   "text": "Verse 13 notes the great miracle and the hardened hearts in one sentence. The chapter treats evidence as insufficient by itself."
+  },
+  {
+   "n": 7,
+   "title": "The Spirit moves him rather than protecting him in place",
+   "text": "Verses 16 and 17 have removal and transport used as one thing, so the rescue becomes the next assignment."
+  },
+  {
+   "n": 8,
+   "title": "The chapter opens and closes on division",
+   "text": "Verse 1 has them dividing and walking away, verse 18 has them dividing and killing. Ten verses of revelation sit between the two."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Keep going when nobody stays",
+    "verse_label": "v. 1",
+    "text": "The crowd dispersed and left him standing there, and the next thing that happened was the blessing. Being left alone is not a verdict on the work."
+   },
+   {
+    "title": "Take the long walk",
+    "verse_label": "v. 2",
+    "text": "He went home pondering rather than rehearsing. Unhurried thinking after a hard day is where verse 3 happens."
+   },
+   {
+    "title": "Let unwearyingness be the goal",
+    "verse_label": "v. 4",
+    "text": "He was commended for not slackening. Steady continuation is a quality you can actually choose, unlike outcomes."
+   },
+   {
+    "title": "Turn around before you get home",
+    "verse_label": "v. 12",
+    "text": "He stopped short and went back. When the assignment lands, acting on it while it is fresh costs less than resuming it tomorrow."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What am I still doing after the people who joined me left?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What am I cast down about right now?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "Where in my life would unwearyingness be the honest word?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "If I could have whatever I asked, what would I ask for?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "What errand am I postponing until after I get home?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "What evidence have I received and not acted on?"
+   },
+   {
+    "verse_label": "v. 18",
+    "start": 18,
+    "end": 18,
+    "text": "What division around me is getting sharper while I wait?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "hel10-001",
+   "scope": "BOOK",
+   "head": "Hel. 9:36",
+   "anchor": {
+    "verse": 4,
+    "w1": 34,
+    "w2": 45,
+    "quote": "thou hast not feared them, and hast not sought thine own life"
+   },
+   "reason": "the claim Nephi had staked his life on the day before",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 9,
+     "verse": 36,
+     "w1": 28,
+     "w2": 46,
+     "quote": "then shall ye know that I am an honest man, and that I am sent unto you from God.",
+     "verse_text": "And then shall he say unto you, that I, Nephi, know nothing concerning the matter save it were given unto me by the power of God. And then shall ye know that I am an honest man, and that I am sent unto you from God.",
+     "markdown": "And then shall he say unto you, that I, Nephi, know nothing concerning the matter save it were given unto me by the power of God. And **then shall ye know that I am an honest man, and that I am sent unto you from God**.",
+     "span": true
+    }
+   ],
+   "mirror": "hel09-002"
+  },
+  {
+   "id": "hel10-002",
+   "scope": "BOOK",
+   "head": "Hel. 7:10",
+   "anchor": {
+    "verse": 3,
+    "w1": 44,
+    "w2": 57,
+    "quote": "as he was thus pondering in his heart, behold, a voice came unto him"
+   },
+   "reason": "the tower where the same man had poured out his soul",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 7,
+     "verse": 10,
+     "w1": 40,
+     "w2": 51,
+     "quote": "Nephi had bowed himself upon the tower which was in his garden,",
+     "verse_text": "And behold, now it came to pass that it was upon a tower, which was in the garden of Nephi, which was by the highway which led to the chief market, which was in the city of Zarahemla; therefore, Nephi had bowed himself upon the tower which was in his garden, which tower was also near unto the garden gate by which led the highway.",
+     "markdown": "And behold, now it came to pass that it was upon a tower, which was in the garden of Nephi, which was by the highway which led to the chief market, which was in the city of Zarahemla; therefore, **Nephi had bowed himself upon the tower which was in his garden**, which tower was also near unto the garden gate by which led the highway.",
+     "span": true
+    }
+   ],
+   "mirror": "hel07-004"
+  },
+  {
+   "id": "hel10-003",
+   "scope": "BOOK",
+   "head": "Hel. 11:4",
+   "anchor": {
+    "verse": 6,
+    "w1": 30,
+    "w2": 40,
+    "quote": "shall smite the earth with famine, and with pestilence, and destruction"
+   },
+   "reason": "the famine Nephi asks for, using this power",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 11,
+     "verse": 4,
+     "w1": 18,
+     "w2": 37,
+     "quote": "rather let there be a famine in the land, to stir them up in remembrance of the Lord their God,",
+     "verse_text": "O Lord, do not suffer that this people shall be destroyed by the sword; but O Lord, rather let there be a famine in the land, to stir them up in remembrance of the Lord their God, and perhaps they will repent and turn unto thee.",
+     "markdown": "O Lord, do not suffer that this people shall be destroyed by the sword; but O Lord, **rather let there be a famine in the land, to stir them up in remembrance of the Lord their God**, and perhaps they will repent and turn unto thee.",
+     "span": true
+    }
+   ],
+   "mirror": "hel11-001"
+  },
+  {
+   "id": "hel10-004",
+   "scope": "BOOK",
+   "head": "Hel. 9:41",
+   "anchor": {
+    "verse": 6,
+    "w1": 1,
+    "w2": 8,
+    "quote": "Behold, thou art Nephi, and I am God"
+   },
+   "reason": "the people who had just concluded otherwise",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 9,
+     "verse": 41,
+     "w1": 8,
+     "w2": 24,
+     "quote": "he is a god, for except he was a god he could not know of all things.",
+     "verse_text": "And there were others who said: Behold, he is a god, for except he was a god he could not know of all things. For behold, he has told us the thoughts of our hearts, and also has told us things; and even he has brought unto our knowledge the true murderer of our chief judge.",
+     "markdown": "And there were others who said: Behold, **he is a god, for except he was a god he could not know of all things**. For behold, he has told us the thoughts of our hearts, and also has told us things; and even he has brought unto our knowledge the true murderer of our chief judge.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel10-005",
+   "scope": "BOM",
+   "head": "1 Ne. 11:1",
+   "anchor": {
+    "verse": 2,
+    "w1": 15,
+    "w2": 25,
+    "quote": "pondering upon the things which the Lord had shown unto him"
+   },
+   "reason": "the first Nephi caught away from the same posture",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 11,
+     "verse": 1,
+     "w1": 32,
+     "w2": 48,
+     "quote": "as I sat pondering in mine heart I was caught away in the Spirit of the Lord,",
+     "verse_text": "For it came to pass after I had desired to know the things that my father had seen, and believing that the Lord was able to make them known unto me, as I sat pondering in mine heart I was caught away in the Spirit of the Lord, yea, into an exceedingly high mountain, which I never had before seen, and upon which I never had before set my foot.",
+     "markdown": "For it came to pass after I had desired to know the things that my father had seen, and believing that the Lord was able to make them known unto me, **as I sat pondering in mine heart I was caught away in the Spirit of the Lord**, yea, into an exceedingly high mountain, which I never had before seen, and upon which I never had before set my foot.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel10-006",
+   "scope": "BOM",
+   "head": "Ether 12:30",
+   "anchor": {
+    "verse": 9,
+    "w1": 2,
+    "w2": 19,
+    "quote": "if ye shall say unto this mountain, Be thou cast down and become smooth, it shall be done"
+   },
+   "reason": "the mountain Zerin, which the record says actually moved",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 12,
+     "verse": 30,
+     "w1": 2,
+     "w2": 14,
+     "quote": "the brother of Jared said unto the mountain Zerin, Remove—and it was removed.",
+     "verse_text": "For the brother of Jared said unto the mountain Zerin, Remove—and it was removed. And if he had not had faith it would not have moved; wherefore thou workest after men have faith.",
+     "markdown": "For **the brother of Jared said unto the mountain Zerin, Remove—and it was removed**. And if he had not had faith it would not have moved; wherefore thou workest after men have faith.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel10-007",
+   "scope": "BOM",
+   "head": "1 Ne. 17:50",
+   "anchor": {
+    "verse": 9,
+    "w1": 2,
+    "w2": 19,
+    "quote": "if ye shall say unto this mountain, Be thou cast down and become smooth, it shall be done"
+   },
+   "reason": "the first Nephi making the same claim to his brothers, about water",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 17,
+     "verse": 50,
+     "w1": 19,
+     "w2": 37,
+     "quote": "If he should command me that I should say unto this water, be thou earth, it should be earth;",
+     "verse_text": "And I said unto them: If God had commanded me to do all things I could do them. If he should command me that I should say unto this water, be thou earth, it should be earth; and if I should say it, it would be done.",
+     "markdown": "And I said unto them: If God had commanded me to do all things I could do them. **If he should command me that I should say unto this water, be thou earth, it should be earth**; and if I should say it, it would be done.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel10-008",
+   "scope": "BOM",
+   "head": "Alma 8:16",
+   "anchor": {
+    "verse": 12,
+    "w1": 18,
+    "w2": 34,
+    "quote": "he did stop and did not go unto his own house, but did return unto the multitudes"
+   },
+   "reason": "the angel turning Alma back to the city that had cast him out",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 8,
+     "verse": 16,
+     "w1": 3,
+     "w2": 16,
+     "quote": "I am sent to command thee that thou return to the city of Ammonihah,",
+     "verse_text": "And behold, I am sent to command thee that thou return to the city of Ammonihah, and preach again unto the people of the city; yea, preach unto them. Yea, say unto them, except they repent the Lord God will destroy them.",
+     "markdown": "And behold, **I am sent to command thee that thou return to the city of Ammonihah**, and preach again unto the people of the city; yea, preach unto them. Yea, say unto them, except they repent the Lord God will destroy them.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel10-009",
+   "scope": "SW",
+   "head": "Matt. 16:19",
+   "anchor": {
+    "verse": 7,
+    "w1": 8,
+    "w2": 18,
+    "quote": "whatsoever ye shall seal on earth shall be sealed in heaven"
+   },
+   "reason": "the same structure given to Peter, with bind for seal",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 16,
+     "verse": 19,
+     "w1": 15,
+     "w2": 25,
+     "quote": "whatsoever thou shalt bind on earth shall be bound in heaven:",
+     "verse_text": "And I will give unto thee the keys of the kingdom of heaven: and whatsoever thou shalt bind on earth shall be bound in heaven: and whatsoever thou shalt loose on earth shall be loosed in heaven.",
+     "markdown": "And I will give unto thee the keys of the kingdom of heaven: and **whatsoever thou shalt bind on earth shall be bound in heaven**: and whatsoever thou shalt loose on earth shall be loosed in heaven.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "hel10-010",
+   "scope": "SW",
+   "head": "Acts 8:39",
+   "anchor": {
+    "verse": 16,
+    "w1": 22,
+    "w2": 36,
+    "quote": "he was taken by the Spirit and conveyed away out of the midst of them"
+   },
+   "reason": "Philip caught away by the Spirit at the roadside",
+   "targets": [
+    {
+     "ref": "Acts",
+     "chapter": 8,
+     "verse": 39,
+     "w1": 11,
+     "w2": 25,
+     "quote": "the Spirit of the Lord caught away Philip, that the eunuch saw him no more:",
+     "verse_text": "And when they were come up out of the water, the Spirit of the Lord caught away Philip, that the eunuch saw him no more: and he went on his way rejoicing.",
+     "markdown": "And when they were come up out of the water, **the Spirit of the Lord caught away Philip, that the eunuch saw him no more**: and he went on his way rejoicing.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 15,
+   "w2": 25,
+   "quote": "pondering upon the things which the Lord had shown unto him",
+   "entries": [
+    "hel10-005"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 44,
+   "w2": 57,
+   "quote": "as he was thus pondering in his heart, behold, a voice came unto him",
+   "entries": [
+    "hel10-002"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 34,
+   "w2": 45,
+   "quote": "thou hast not feared them, and hast not sought thine own life",
+   "entries": [
+    "hel10-001"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 1,
+   "w2": 8,
+   "quote": "Behold, thou art Nephi, and I am God",
+   "entries": [
+    "hel10-004"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 30,
+   "w2": 40,
+   "quote": "shall smite the earth with famine, and with pestilence, and destruction",
+   "entries": [
+    "hel10-003"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 8,
+   "w2": 18,
+   "quote": "whatsoever ye shall seal on earth shall be sealed in heaven",
+   "entries": [
+    "hel10-009"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 2,
+   "w2": 19,
+   "quote": "if ye shall say unto this mountain, Be thou cast down and become smooth, it shall be done",
+   "entries": [
+    "hel10-006",
+    "hel10-007"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 18,
+   "w2": 34,
+   "quote": "he did stop and did not go unto his own house, but did return unto the multitudes",
+   "entries": [
+    "hel10-008"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 22,
+   "w2": 36,
+   "quote": "he was taken by the Spirit and conveyed away out of the midst of them",
+   "entries": [
+    "hel10-010"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-26",
+  "source_sha256": "20e4061108f45475"
+ }
+}

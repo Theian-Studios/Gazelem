@@ -15,7 +15,7 @@
   "principles": [
    "Wanting more than you were given",
    "Content with the allotment",
-   ""
+   "Joy borrowed from other people's harvest"
   ],
   "connections": 9,
   "initial": true
@@ -34,17 +34,29 @@
   {
    "n": 3,
    "title": "He rebukes himself in the third verse",
-   "text": "No prophet corrects him and no revelation interrupts. Alma states the wish, calls it sin, and works out why over the next five verses."
+   "text": "No prophet corrects him and no revelation interrupts. Alma states the wish, calls it sin, and works out why over the next five verses. 2 Nephi 4:17 to 19 is the only comparable passage in the volume, where Nephi opens his own soul the same way without any external rebuke."
   },
   {
    "n": 4,
    "title": "The chapter runs on the word desire",
-   "text": "Verses 4 and 5 have God granting men according to their desires, unto life or unto death. Alma applies the rule to his own wish before he applies it to anyone else."
+   "text": "Verses 4 and 5 have God grant each man according to his desire, whether that ends in life or in death. Alma 41:5 states the same rule to Corianton twelve chapters later, as the mechanism of the restoration. Alma applies it to his own wish first.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 41:5",
+     "start": 103,
+     "end": 112,
+     "book": "Alma",
+     "chapter": 41,
+     "verse_start": 5,
+     "verse_end": 5
+    }
+   ]
   },
   {
    "n": 5,
    "title": "He knows about other nations' teachers",
-   "text": "Verse 8 says the Lord grants every nation, in their own tongue, to teach his word. That is the reason he gives for not needing to be an angel."
+   "text": "Verse 8 says the Lord grants every nation, in their own tongue, to teach his word. 2 Nephi 29:12 says the same thing from the other side, that he speaks to the Jews, the Nephites and the other tribes and each writes it. The doctrine that the record is one of several is stated in both halves of the volume."
   },
   {
    "n": 6,
@@ -93,7 +105,7 @@
   {
    "term": "Remorse",
    "verse_label": "v. 5",
-   "text": "Biting regret. The word appears three times in this record and never in the King James Bible, always in Alma, and always paired with conscience. It is the last item in his list of what a man may be granted according to his desires."
+   "text": "Biting regret. It appears three times in the record, and never in the King James Bible, always in Alma, and always paired with conscience. It is the last item in his list of what a man may be granted according to his desires."
   },
   {
    "term": "Captivity",
@@ -115,7 +127,19 @@
   {
    "term": "I ought to be content with the things which the Lord hath allotted unto me",
    "verse_label": "v. 3",
-   "text": "The correction, stated as a duty rather than a feeling. Paul told the Philippians he had learned contentment in whatever state he was in; Alma says he ought to have it and admits he does not."
+   "text": "The correction, stated as a duty rather than a feeling. Paul told the Philippians he had learned contentment in whatever state he was in (Philip. 4:11); Alma says he ought to have it and admits he does not.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Philip. 4:11",
+     "start": 138,
+     "end": 150,
+     "book": "Philip",
+     "chapter": 4,
+     "verse_start": 11,
+     "verse_end": 11
+    }
+   ]
   },
   {
    "term": "He granteth unto men according to their desire, whether it be unto death or unto life",
@@ -160,53 +184,58 @@
  ],
  "verses": [
   {
-   "label": "v. 1–2",
+   "label": "v. 1–3",
    "start": 1,
-   "end": 2,
-   "title": "The wish",
-   "text": "Alma wants to be an angel with the trump of God and a voice to shake the earth, crying repentance to every people, declaring the plan of redemption with the voice of thunder, so there would be less sorrow on the face of the earth."
+   "end": 3,
+   "title": "The famous verse is withdrawn two verses later",
+   "text": "\"O that I were an angel... and cry repentance unto every people\" is the line the chapter is remembered for, and verse 3 takes it back: \"But behold, I am a man, and do sin in my wish; for I ought to be content with the things which the Lord hath allotted unto me.\" The record prints the wish at full stretch, then prints the retraction, and keeps both. What follows is not a sermon on desire but Alma reasoning himself out of one."
   },
   {
-   "label": "v. 3–5",
-   "start": 3,
+   "label": "v. 5",
+   "start": 5,
    "end": 5,
-   "title": "The correction",
-   "text": "He is a man and he sins in the wish. He ought to be content with his allotment and should not harrow up the decree of a just God, who grants men according to their desires, unto life or death. Ignorance is blameless; knowledge is not."
+   "title": "The chapter's whole moral vocabulary sits in one verse",
+   "text": "Good and evil appear four times each in verse 5 and nowhere else in the chapter: \"he that knoweth not good from evil is blameless; but he that knoweth good and evil, to him it is given according to his desires.\" The pairs are stacked, desire against desire, life against death, joy against remorse. Everything the other sixteen verses lean on is set down here and nowhere else."
   },
   {
    "label": "v. 6–8",
    "start": 6,
    "end": 8,
-   "title": "The reason",
-   "text": "Why desire more than the work he was called to. Why wish to be an angel speaking to the ends of the earth, when the Lord already grants every nation teachers in their own tongue, counseling in wisdom according to what is just and true."
+   "title": "Two questions, and the answer is about other people",
+   "text": "The only questions in the chapter are consecutive, and the second quotes the first verse back as an interrogative: \"Why should I desire that I were an angel, that I could speak unto all the ends of the earth?\" Verse 8 answers with something outside Alma entirely: \"the Lord doth grant unto all nations, of their own nation and tongue, to teach his word.\" He does not need a voice to shake the earth because other nations already have teachers."
   },
   {
-   "label": "v. 9–10",
+   "label": "v. 9",
    "start": 9,
-   "end": 10,
-   "title": "His glory",
-   "text": "He knows what he was commanded and glories in that: being an instrument who brings some soul to repentance. When he sees the penitent come, he remembers his own answered prayer and the merciful arm extended to him."
+   "end": 9,
+   "title": "One word, turned over four times",
+   "text": "Glory is used four times in verse 9 and never again in the chapter: \"I glory in it. I do not glory of myself, but I glory in that which the Lord hath commanded me; yea, and this is my glory.\" The word is turned over until it changes hands, and what it finally settles on is not an achievement but a possibility, \"that perhaps I may be an instrument.\""
   },
   {
    "label": "v. 11–13",
    "start": 11,
    "end": 13,
-   "title": "The captivity",
-   "text": "He remembers his fathers in bondage and their deliverance, which established the church. The God of Abraham, Isaac, and Jacob, the same God who brought Israel out of Egypt, called Alma by a holy calling and gave him success."
+   "title": "One phrase carries the argument from Egypt to Alma",
+   "text": "\"That same God\" stands at the head of verses 12 and 13, and scripture has the phrase in only three other places; Limhi puts it to the same work at Mosiah 7:20. It binds three things in one movement: the God who delivered the fathers from the Egyptians, the God who established the church among them, and the God who \"hath called me by a holy calling.\" Alma argues his authority by identity and not by office.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 7:20",
+     "start": 147,
+     "end": 158,
+     "book": "Mosiah",
+     "chapter": 7,
+     "verse_start": 20,
+     "verse_end": 20
+    }
+   ]
   },
   {
    "label": "v. 14–16",
    "start": 14,
    "end": 16,
-   "title": "Their success",
-   "text": "His joy is fuller because of his brethren who went to the land of Nephi. They labored and brought forth much fruit, and their reward will be great. Thinking of it carries him almost out of the body."
-  },
-  {
-   "label": "v. 17",
-   "start": 17,
-   "end": 17,
-   "title": "The blessing",
-   "text": "He asks God to seat them in the kingdom, together with everyone their labors produced, that they go no more out and praise him forever, and that it be done as he has spoken."
+   "title": "The joy is handed to someone else",
+   "text": "\"I do not joy in my own success alone, but my joy is more full because of the success of my brethren.\" Success is confined to verses 13 through 16, and it crosses from Alma's to theirs inside that span. The chapter that opened wanting one voice for the whole earth closes on the labors of the men who went up to the land of Nephi without him."
   }
  ],
  "chapter": [
@@ -218,7 +247,7 @@
   {
    "n": 2,
    "title": "Ambition in a good cause is still called sin",
-   "text": "Alma wanted more reach for repentance and the plan of redemption. He classifies the wanting as sin because it disputes what a just God decreed and allotted."
+   "text": "Verses 1 and 2 state the wish, to be an angel with a trump crying repentance. Verse 3 retracts it and names the fault, \"I am a man, and do sin in my wish; for I ought to be content with the things which the Lord hath allotted unto me.\" Verse 4 gives the reason and it is about God's arrangement rather than about pride, \"I ought not to harrow up in my desires the firm decree of a just God.\" Verses 6 and 7 then restate the retraction as two questions. A desire for wider preaching is classified as sin in the same paragraph that expresses it."
   },
   {
    "n": 3,
@@ -256,22 +285,42 @@
    {
     "title": "Say the wish, then examine it",
     "verse_label": "v. 1–3",
-    "text": "Alma wrote the wish down and then took it apart. When you catch yourself wanting a bigger role, put the wish into words first, because it is easier to weigh once it is out."
+    "text": "Alma wrote the wish down in full, an angel's trump and a voice to shake the earth, and then examined it in the next verse. Getting a desire onto the page is what makes it possible to look at, and he does both in public."
    },
    {
     "title": "Take your assignment as an allotment",
     "verse_label": "v. 3",
-    "text": "Alma treated his calling as a portion given to him. Look at the work actually in front of you and decide whether you are treating it as what you were given or as what you settled for."
+    "text": "He names the fault precisely, \"I ought to be content with the things which the Lord hath allotted unto me.\" Discontent with your portion is treated here as a claim about somebody else's judgment rather than as an appetite."
+   },
+   {
+    "title": "Ask whether the wish disputes a decree",
+    "verse_label": "v. 4",
+    "text": "The test he applies is not whether the desire is noble but whether it \"harrow[s] up in my desires the firm decree of a just God.\" A good thing wanted in the wrong place is still out of place."
+   },
+   {
+    "title": "Ask why you would need more than your calling",
+    "verse_label": "v. 6",
+    "text": "The question he puts to himself is plain, \"why should I desire more than to perform the work to which I have been called?\" Put it to yourself about the enlargement you have been wishing for."
    },
    {
     "title": "Remember that other people have teachers too",
     "verse_label": "v. 8",
-    "text": "Alma stood down because God was already at work in languages he did not speak. Where you are anxious about people beyond your reach, let the size of the operation be a comfort instead of a rebuke."
+    "text": "Alma stands down on the ground that \"the Lord doth grant unto all nations, of their own nation and tongue, to teach his word.\" The reach you were wishing for is already covered by somebody else's assignment."
+   },
+   {
+    "title": "Glory in the commandment rather than in yourself",
+    "verse_label": "v. 9",
+    "text": "He draws the line exactly, \"I do not glory of myself, but I glory in that which the Lord hath commanded me.\" The distinction is available in almost any account you give of your own work."
+   },
+   {
+    "title": "Let the memory do the work",
+    "verse_label": "v. 10",
+    "text": "When he sees people repent, \"then do I remember what the Lord has done for me.\" His own history is what supplies the joy in somebody else's turning, which means the two are connected rather than competing."
    },
    {
     "title": "Rejoice at the harvest you had no part in",
-    "verse_label": "v. 14",
-    "text": "Alma's fullest joy came from a mission he did not go on. Pick someone whose success has been quietly hard for you, and go tell them what you think of what they did."
+    "verse_label": "v. 14–16",
+    "text": "Alma's fullest joy is over other men's results, \"I do not joy in my own success alone, but my joy is more full because of the success of my brethren.\" He then asks that they, and everyone converted by them, be brought in."
    }
   ],
   "questions": [
@@ -382,7 +431,7 @@
     "w2": 52,
     "quote": "decreeth unto them decrees which are unalterable"
    },
-   "reason": "the same word, used of a decree that opens a way instead of closing one",
+   "reason": "the same word, of a decree that opens a way",
    "targets": [
     {
      "ref": "Alma",
@@ -396,7 +445,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al41-002"
   },
   {
    "id": "al29-004",
@@ -434,7 +483,7 @@
     "w2": 26,
     "quote": "speak with the trump of God"
    },
-   "reason": "the trump treated in full, where the Lord names the second one",
+   "reason": "the trump treated in full, naming the second one",
    "targets": [
     {
      "ref": "Mosiah",
@@ -448,7 +497,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos26-019"
   },
   {
    "id": "al29-006",
@@ -460,7 +509,7 @@
     "w2": 44,
     "quote": "he hath heard my prayer"
    },
-   "reason": "the prayer in question, named by the angel who stopped him",
+   "reason": "the prayer in question, named by the angel",
    "targets": [
     {
      "ref": "Mosiah",
@@ -474,7 +523,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos27-024"
   },
   {
    "id": "al29-007",
@@ -639,7 +688,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "f07f014a3fa61571"
+  "at": "2026-09-07",
+  "source_sha256": "bb39e3fd2b54df5b"
  }
 }

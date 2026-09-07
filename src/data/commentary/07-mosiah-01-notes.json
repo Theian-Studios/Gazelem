@@ -18,14 +18,26 @@
    "Succession",
    "A name to be given"
   ],
-  "connections": 9,
+  "connections": 12,
   "initial": false
  },
  "world_behind": [
   {
    "n": 1,
    "title": "A succession scene in the Israelite shape",
-   "text": "Benjamin says he must \"go the way of all the earth,\" which is the formula David uses to Solomon and Joshua uses at his farewell. What follows is what follows there: instruction to the heir, a charge concerning the kingdom, and an assembly. The record is running a known pattern."
+   "text": "Benjamin says he must \"go the way of all the earth,\" which is the formula David uses to Solomon and Joshua uses at his farewell (Josh. 23:14). What follows is what follows there: instruction to the heir, a charge concerning the kingdom, and an assembly. The record is running a known pattern.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Josh. 23:14",
+     "start": 129,
+     "end": 140,
+     "book": "Josh",
+     "chapter": 23,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
   },
   {
    "n": 2,
@@ -72,7 +84,7 @@
   {
    "term": "Adulterous",
    "verse_label": "v. 13",
-   "text": "The prophets use adultery for covenant unfaithfulness, not only for the marriage offense: Israel is the wife who goes after other gods. Benjamin warns that this people could \"become a wicked and an adulterous people\" (v. 13), the pairing Matthew gives to Jesus about the generation that keeps asking for a sign. Five centuries lie between them, and in both the charge is that people already bound to God went looking elsewhere. The word is used once in this record.",
+   "text": "The prophets use adultery for covenant unfaithfulness, not only for the marriage offense: Israel is the wife who goes after other gods. Benjamin warns that this people could \"become a wicked and an adulterous people\" (v. 13), the pairing Matthew gives to Jesus (Matt. 16:4) about the generation that keeps asking for a sign. Five centuries lie between them, and in both the charge is that people already bound to God went looking elsewhere. The word is used once in this record.",
    "cites": [
     {
      "quote": "become a wicked and an adulterous people",
@@ -86,6 +98,18 @@
        "text": "become a wicked and an adulterous people"
       }
      ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Matt. 16:4",
+     "start": 262,
+     "end": 272,
+     "book": "Matt",
+     "chapter": 16,
+     "verse_start": 4,
+     "verse_end": 4
     }
    ]
   },
@@ -169,7 +193,7 @@
   {
    "term": "According to the heed and diligence which they gave unto him",
    "verse_label": "v. 16",
-   "text": "The operating principle of the director, stated as a rule rather than as a story. Attention and effort are the inputs; direction is the output. Benjamin gives his son the instrument and the manual in the same sentence."
+   "text": "The operating principle of the director, stated as a rule instead of as a story. Attention and effort are the inputs; direction is the output. Benjamin gives his son the instrument and the manual in the same sentence."
   },
   {
    "term": "They were smitten with famine and sore afflictions, to stir them up in remembrance of their duty",
@@ -179,53 +203,58 @@
  ],
  "verses": [
   {
-   "label": "v. 1–2",
-   "start": 1,
+   "label": "v. 2",
+   "start": 2,
    "end": 2,
-   "title": "Peace, and an education",
-   "text": "No contention in all the land, continual peace for the rest of Benjamin's days, three sons named, and a curriculum: the language of the fathers, so they might become men of understanding and know the prophecies. Two verses of stability, which the record almost never reports without a warning attached."
+   "title": "Education described as access to a text",
+   "text": "The record states what the sons were taught and why in a single clause: \"he caused that they should be taught in all the language of his fathers, that thereby they might become men of understanding; and that they might know concerning the prophecies which had been spoken by the mouths of their fathers.\" Understanding is presented as a consequence of language, and language as the means to a body of writing. Nothing about virtue, warfare, or government appears in the curriculum."
   },
   {
-   "label": "v. 3–5",
-   "start": 3,
-   "end": 5,
-   "title": "The argument for the plates",
-   "text": "Without them, ignorance; Lehi could read them because of his Egyptian schooling; without them even the fathers would have dwindled and this people would resemble the Lamanites, who do not know these things or do not believe them because of incorrect traditions. Three verses, and the whole case rests on transmission."
-  },
-  {
-   "label": "v. 6–8",
-   "start": 6,
+   "label": "v. 8",
+   "start": 8,
    "end": 8,
-   "title": "True, searchable, and unfinished",
-   "text": "The records are true and can be checked because they are in hand; search them and profit; keep the commandments and prosper according to the promises. Then a one-line notice that Benjamin taught much more that is not written. The abridgment reminds the reader it is an abridgment."
+   "title": "An omission conceded at once",
+   "text": "Immediately after the instruction ends the record marks what it has not printed: \"many more things did king Benjamin teach his sons, which are not written in this book.\" The phrase in this book is doing precise work, since the volume elsewhere distinguishes between what is unwritten and what is written on other plates. Here the material is simply absent, and no reason is given for the selection."
   },
   {
-   "label": "v. 9–12",
-   "start": 9,
+   "label": "v. 11–12",
+   "start": 11,
    "end": 12,
-   "title": "The succession, and a promise of a name",
-   "text": "Benjamin ages, sees his death coming, confers the kingdom on Mosiah, and sends him to proclaim a gathering. Then the announcement about the name: it will distinguish them, it is given because they have been diligent, and it can be lost only by transgression."
+   "title": "A promise with its exception written into it",
+   "text": "The record announces the name with a guarantee and a condition in adjacent clauses: \"I give unto them a name that never shall be blotted out, except it be through transgression.\" Verse 13 then works out what happens if the exception applies, \"if this highly favored people of the Lord should fall into transgression... the Lord will deliver up their strength.\" A record that is about to spend a chapter on the giving of the name states the terms of its loss first."
   },
   {
-   "label": "v. 13–14",
-   "start": 13,
-   "end": 14,
-   "title": "The condition, stated plainly",
-   "text": "If this favored people falls into transgression they will be delivered up and become weak; God will stop preserving them as he has. And then the reverse case: but for his arm, the fathers would have fallen to the Lamanites. Favor is described as active maintenance rather than as status."
-  },
-  {
-   "label": "v. 15–17",
+   "label": "v. 15–16",
    "start": 15,
+   "end": 16,
+   "title": "Four objects handed over, and they are listed",
+   "text": "The record reports the transfer of power in two parts, and makes the second an inventory: \"he gave him charge concerning all the affairs of the kingdom. And moreover, he also gave him charge concerning the records which were engraven on the plates of brass; and also the plates of Nephi; and also the sword of Laban, and the ball or director.\" Two sets of plates, a weapon, and an instrument. The kingdom takes one clause; the objects take four."
+  },
+  {
+   "label": "v. 17",
+   "start": 17,
    "end": 17,
-   "title": "The charge, and the objects",
-   "text": "All the affairs of the kingdom first, then the four items of verse 16, and with them an explanation of how the director worked and why it sometimes did not. The regalia comes with a lesson attached, and the lesson is about attention."
+   "title": "A mechanism explained as conditional",
+   "text": "The record supplies an operating rule for one of the objects rather than a description of it: \"as they were unfaithful they did not prosper nor progress in their journey, but were driven back, and incurred the displeasure of God upon them; and therefore they were smitten with famine and sore afflictions, to stir them up in remembrance of their duty.\" The same behaviour is reported at 1 Ne. 16:28–29, where the pointers work \"according to the faith and diligence and heed\" given them. An instrument is described by the condition under which it stops working.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 16:28–29",
+     "start": 387,
+     "end": 401,
+     "book": "1 Ne",
+     "chapter": 16,
+     "verse_start": 28,
+     "verse_end": 29
+    }
+   ]
   },
   {
    "label": "v. 18",
    "start": 18,
    "end": 18,
-   "title": "The proclamation goes out",
-   "text": "Mosiah does as commanded and the people gather to go up to the temple. One verse, and it is the setup for the longest sermon in the record."
+   "title": "The chapter ends by setting up the next one",
+   "text": "The last verse is administrative: Mosiah \"proclaimed unto all the people who were in the land of Zarahemla that thereby they might gather themselves together, to go up to the temple to hear the words which his father should speak unto them.\" Nothing is said or done. What the verse supplies is the mechanism by which the crowd of Mosiah 2 assembles, which is a proclamation, and the record puts it at the close of one chapter rather than the head of the next."
   }
  ],
  "chapter": [
@@ -242,7 +271,19 @@
   {
    "n": 3,
    "title": "Kingship is transferred as custody",
-   "text": "The affairs of the kingdom and the records arrive in consecutive verses, and the same verb covers conferring a kingdom and handing on plates. In this book the throne and the archive are one office, which is why Mosiah's later dismantling of the monarchy is complicated."
+   "text": "Verses 15 and 16 use one verb for both transfers: \"he gave him charge concerning all the affairs of the kingdom,\" and \"he also gave him charge concerning the records which were engraven on the plates of brass; and also the plates of Nephi; and also, the sword of Laban, and the ball or director.\" Four objects in the second list and one office covering both. Mosiah 28:20 records the archive being handed to Alma rather than to a successor king, which is how the two functions are separated when the monarchy ends at Mosiah 29.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 28:20",
+     "start": 359,
+     "end": 371,
+     "book": "Mosiah",
+     "chapter": 28,
+     "verse_start": 20,
+     "verse_end": 20
+    }
+   ]
   },
   {
    "n": 4,
@@ -466,7 +507,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "1ne16-012"
   },
   {
    "id": "mos01-003",
@@ -547,6 +588,84 @@
    "mirror": "wom01-007"
   },
   {
+   "id": "mos01-010",
+   "scope": "BOM",
+   "head": "1 Ne. 5:10",
+   "anchor": {
+    "verse": 7,
+    "w1": 8,
+    "w2": 14,
+    "quote": "ye should remember to search them diligently,"
+   },
+   "reason": "Lehi searching the same plates when they arrived",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 5,
+     "verse": 10,
+     "w1": 27,
+     "w2": 33,
+     "quote": "he did search them from the beginning.",
+     "verse_text": "And after they had given thanks unto the God of Israel, my father, Lehi, took the records which were engraven upon the plates of brass, and he did search them from the beginning.",
+     "markdown": "And after they had given thanks unto the God of Israel, my father, Lehi, took the records which were engraven upon the plates of brass, and **he did search them from the beginning**.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne05-006"
+  },
+  {
+   "id": "mos01-011",
+   "scope": "BOM",
+   "head": "Alma 35:16",
+   "anchor": {
+    "verse": 15,
+    "w1": 21,
+    "w2": 31,
+    "quote": "he gave him charge concerning all the affairs of the kingdom."
+   },
+   "reason": "Alma charging each son separately, generations later",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 35,
+     "verse": 16,
+     "w1": 14,
+     "w2": 21,
+     "quote": "give unto them every one his charge, separately,",
+     "verse_text": "Therefore, he caused that his sons should be gathered together, that he might give unto them every one his charge, separately, concerning the things pertaining unto righteousness. And we have an account of his commandments, which he gave unto them according to his own record.",
+     "markdown": "Therefore, he caused that his sons should be gathered together, that he might **give unto them every one his charge, separately**, concerning the things pertaining unto righteousness. And we have an account of his commandments, which he gave unto them according to his own record.",
+     "span": true
+    }
+   ],
+   "mirror": "al35-006"
+  },
+  {
+   "id": "mos01-012",
+   "scope": "BOM",
+   "head": "Alma 37:38",
+   "anchor": {
+    "verse": 16,
+    "w1": 32,
+    "w2": 35,
+    "quote": "the ball or director,"
+   },
+   "reason": "Alma naming the ball as he hands it on",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 37,
+     "verse": 38,
+     "w1": 21,
+     "w2": 25,
+     "quote": "our fathers called it Liahona,",
+     "verse_text": "And now, my son, I have somewhat to say concerning the thing which our fathers call a ball, or director—or our fathers called it Liahona, which is, being interpreted, a compass; and the Lord prepared it.",
+     "markdown": "And now, my son, I have somewhat to say concerning the thing which our fathers call a ball, or director—or **our fathers called it Liahona**, which is, being interpreted, a compass; and the Lord prepared it.",
+     "span": true
+    }
+   ],
+   "mirror": "al37-005"
+  },
+  {
    "id": "mos01-005",
    "scope": "SW",
    "head": "1 Kgs. 2:2",
@@ -602,6 +721,15 @@
    ]
   },
   {
+   "verse": 7,
+   "w1": 8,
+   "w2": 14,
+   "quote": "ye should remember to search them diligently,",
+   "entries": [
+    "mos01-010"
+   ]
+  },
+  {
    "verse": 9,
    "w1": 26,
    "w2": 36,
@@ -629,12 +757,30 @@
    ]
   },
   {
+   "verse": 15,
+   "w1": 21,
+   "w2": 31,
+   "quote": "he gave him charge concerning all the affairs of the kingdom.",
+   "entries": [
+    "mos01-011"
+   ]
+  },
+  {
    "verse": 16,
    "w1": 3,
    "w2": 18,
    "quote": "he also gave him charge concerning the records which were engraven on the plates of brass",
    "entries": [
     "mos01-008"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 32,
+   "w2": 35,
+   "quote": "the ball or director,",
+   "entries": [
+    "mos01-012"
    ]
   },
   {
@@ -657,7 +803,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "84908485a35b58b2"
+  "at": "2026-09-07",
+  "source_sha256": "3b0cfc9f853fd255"
  }
 }

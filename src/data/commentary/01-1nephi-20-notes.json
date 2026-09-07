@@ -17,7 +17,7 @@
    "Refining",
    "Deliverance"
   ],
-  "connections": 5,
+  "connections": 6,
   "initial": true
  },
  "world_behind": [
@@ -331,6 +331,48 @@
      ]
     }
    ]
+  },
+  {
+   "term": "Gravel",
+   "verse_label": "v. 19",
+   "text": "Crushed stone, fine enough to be past counting and coarse enough to be worthless underfoot. The withheld promise is that the offspring of Israel would have been \"like the gravel thereof\" (v. 19), set beside sand in the same breath. The word appears once in this record and three times in the King James Bible, twice of grit in the mouth (Prov. 20:17, Lam. 3:16). Isaiah takes the one image that is both uncountable and cheap, and hands it to a nation that would not listen.",
+   "cites": [
+    {
+     "quote": "like the gravel thereof",
+     "verse": 19,
+     "start": 161,
+     "end": 194,
+     "spans": [
+      {
+       "w1": 14,
+       "w2": 17,
+       "text": "like the gravel thereof"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Prov. 20:17",
+     "start": 338,
+     "end": 349,
+     "book": "Prov",
+     "chapter": 20,
+     "verse_start": 17,
+     "verse_end": 17
+    },
+    {
+     "kind": "scripture",
+     "text": "Lam. 3:16",
+     "start": 351,
+     "end": 360,
+     "book": "Lam",
+     "chapter": 3,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
   }
  ],
  "phrases": [
@@ -515,331 +557,53 @@
  ],
  "verses": [
   {
-   "label": "v. 1–2",
+   "label": "v. 1",
    "start": 1,
+   "end": 1,
+   "title": "Isaiah 48 gains a doctrine in its first sentence",
+   "text": "The King James verse addresses those \"which are come forth out of the waters of Judah.\" Here the clause is expanded: \"or out of the waters of baptism.\" An ordinance is inserted into the vocative, and the verse then hardens what follows, replacing a simple but with \"yet they swear.\" Before the chapter has made a claim, it has told the reader who is being accused and by what standard."
+  },
+  {
+   "label": "v. 1–22",
+   "start": 1,
+   "end": 22,
+   "title": "Every verse in the chapter differs from Isaiah 48",
+   "text": "Set against the King James text with spelling normalised, all twenty-two carry a real word change: twenty-seven insertions, twenty-two replacements, sixteen deletions. This is the heaviest revision of any quoted block in the volume, and it is the block Nephi introduces by saying he will liken the words to his own people."
+  },
+  {
+   "label": "v. 2",
+   "start": 2,
    "end": 2,
-   "title": "The audience, precisely described",
-   "text": "Covenant people, called by the name, swearing by the name, \"yet they swear not in truth nor in righteousness\" (v. 1), claiming \"the holy city\" (v. 2) without leaning on its God. Read aloud on the promised land's shore, the description needs no application sentence; the men who bound a prophet mid-ocean are its living illustration.",
-   "cites": [
-    {
-     "quote": "yet they swear not in truth nor in righteousness",
-     "verse": 1,
-     "start": 59,
-     "end": 116,
-     "spans": [
-      {
-       "w1": 50,
-       "w2": 58,
-       "text": "yet they swear not in truth nor in righteousness"
-      }
-     ]
-    },
-    {
-     "quote": "the holy city",
-     "verse": 2,
-     "start": 127,
-     "end": 149,
-     "spans": [
-      {
-       "w1": 6,
-       "w2": 8,
-       "text": "the holy city"
-      }
-     ]
-    }
-   ]
+   "title": "A title is inserted where the King James text has none",
+   "text": "\"Who is the Lord of hosts, yea\" is added to the verse about those who call themselves of the holy city and stay themselves upon the God of Israel. The addition names the one being leaned on. What Isaiah leaves as a description of the people, this version turns partway into a statement about the God they are describing."
   },
   {
    "label": "v. 3–5",
    "start": 3,
    "end": 5,
-   "title": "Prophecy as idol-proofing",
-   "text": "The former things were declared \"from the beginning\" (v. 3) and shown \"suddenly\" (v. 3), and the stated reason is preemption: \"for fear lest thou shouldst say—Mine idol hath done them\" (v. 5). Advance notice exists so that when fulfillment comes, no graven thing can claim the credit. Foreknowledge, in this chapter, is polemic.",
-   "cites": [
-    {
-     "quote": "from the beginning",
-     "verse": 3,
-     "start": 32,
-     "end": 59,
-     "spans": [
-      {
-       "w1": 8,
-       "w2": 10,
-       "text": "from the beginning"
-      }
-     ]
-    },
-    {
-     "quote": "suddenly",
-     "verse": 3,
-     "start": 70,
-     "end": 87,
-     "spans": [
-      {
-       "w1": 27,
-       "w2": 27,
-       "text": "suddenly"
-      }
-     ]
-    },
-    {
-     "quote": "for fear lest thou shouldst say—Mine idol hath done them",
-     "verse": 5,
-     "start": 126,
-     "end": 191,
-     "spans": [
-      {
-       "w1": 24,
-       "w2": 33,
-       "text": "for fear lest thou shouldst say—Mine idol hath done them"
-      }
-     ]
-    }
-   ]
+   "title": "The additions are all about disclosure",
+   "text": "Verse 3 gains behold and show; verse 4 gains \"and I did it\"; verse 5 gains \"and I showed them for fear.\" The King James passage is already about declaring things beforehand so idols cannot claim them. The variants push the same point further, adding a motive to the showing and a claim of authorship to the doing."
   },
   {
-   "label": "v. 6–8",
+   "label": "v. 6",
    "start": 6,
-   "end": 8,
-   "title": "The uncomfortable memory",
-   "text": "\"Thou hast seen and heard all this\" (v. 6), and new things are shown that were withheld precisely because \"thou wouldst deal very treacherously\" (v. 8), Israel \"called a transgressor from the womb\" (v. 8). The text refuses the flattering version of election: the chosen people's file is read out loud, in full, before the mercy clause.",
-   "cites": [
-    {
-     "quote": "Thou hast seen and heard all this",
-     "verse": 6,
-     "start": 0,
-     "end": 42,
-     "spans": [
-      {
-       "w1": 1,
-       "w2": 7,
-       "text": "Thou hast seen and heard all this"
-      }
-     ]
-    },
-    {
-     "quote": "thou wouldst deal very treacherously",
-     "verse": 8,
-     "start": 106,
-     "end": 151,
-     "spans": [
-      {
-       "w1": 23,
-       "w2": 27,
-       "text": "thou wouldst deal very treacherously"
-      }
-     ]
-    },
-    {
-     "quote": "called a transgressor from the womb",
-     "verse": 8,
-     "start": 160,
-     "end": 204,
-     "spans": [
-      {
-       "w1": 30,
-       "w2": 35,
-       "text": "called a transgressor from the womb"
-      }
-     ]
-    }
-   ]
+   "end": 6,
+   "title": "Seeing is added to hearing",
+   "text": "Where Isaiah has \"thou hast heard, see all this,\" this version has \"seen and heard,\" and adds ye to widen the address. A small change, but it converts an instruction into a report of what the audience has already done, which is what the rest of the chapter proceeds to hold them to."
   },
   {
-   "label": "v. 9–11",
-   "start": 9,
-   "end": 11,
-   "title": "Mercy for the name's sake",
-   "text": "The logic of deliverance lands on God's character, not Israel's: \"for my name's sake will I defer mine anger\" (v. 9), refined and chosen \"in the furnace of affliction\" (v. 10), \"For mine own sake, yea, for mine own sake\" (v. 11). Nothing in the covenant's survival depends on the covenant people deserving it; everything depends on who God is.",
-   "cites": [
-    {
-     "quote": "for my name's sake will I defer mine anger",
-     "verse": 9,
-     "start": 65,
-     "end": 116,
-     "spans": [
-      {
-       "w1": 2,
-       "w2": 10,
-       "text": "for my name's sake will I defer mine anger"
-      }
-     ]
-    },
-    {
-     "quote": "in the furnace of affliction",
-     "verse": 10,
-     "start": 137,
-     "end": 175,
-     "spans": [
-      {
-       "w1": 11,
-       "w2": 15,
-       "text": "in the furnace of affliction"
-      }
-     ]
-    },
-    {
-     "quote": "For mine own sake, yea, for mine own sake",
-     "verse": 11,
-     "start": 177,
-     "end": 228,
-     "spans": [
-      {
-       "w1": 1,
-       "w2": 9,
-       "text": "For mine own sake, yea, for mine own sake"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 12–16",
-   "start": 12,
-   "end": 16,
-   "title": "The Creator takes the stand",
-   "text": "Credentials: \"I am the first, and I am also the last\" (v. 12), the hand that \"laid the foundation of the earth\" (v. 13), and a record of open speech: \"I have not spoken in secret\" (v. 16). The summons to assemble and hear (v. 14) frames Babylon's fall as a courtroom exhibit: which of the idols predicted this?",
-   "cites": [
-    {
-     "quote": "I am the first, and I am also the last",
-     "verse": 12,
-     "start": 13,
-     "end": 61,
-     "spans": [
-      {
-       "w1": 14,
-       "w2": 23,
-       "text": "I am the first, and I am also the last"
-      }
-     ]
-    },
-    {
-     "quote": "laid the foundation of the earth",
-     "verse": 13,
-     "start": 77,
-     "end": 119,
-     "spans": [
-      {
-       "w1": 5,
-       "w2": 10,
-       "text": "laid the foundation of the earth"
-      }
-     ]
-    },
-    {
-     "quote": "I have not spoken in secret",
-     "verse": 16,
-     "start": 150,
-     "end": 187,
-     "spans": [
-      {
-       "w1": 6,
-       "w2": 11,
-       "text": "I have not spoken in secret"
-      }
-     ]
-    }
-   ],
-   "refs": [
-    {
-     "kind": "verse",
-     "text": "(v. 14)",
-     "start": 222,
-     "end": 229,
-     "verse_start": 14,
-     "verse_end": 14
-    }
-   ]
-  },
-  {
-   "label": "v. 17–19",
-   "start": 17,
-   "end": 19,
-   "title": "The lament of the conditional",
-   "text": "The Redeemer who \"teacheth thee to profit\" (v. 17) mourns in the past subjunctive: \"O that thou hadst hearkened\" (v. 18), peace like a river, righteousness like waves, seed like sand, none of it revoked, all of it forfeited. The saddest grammar in scripture is the blessing that had been available.",
-   "cites": [
-    {
-     "quote": "teacheth thee to profit",
-     "verse": 17,
-     "start": 17,
-     "end": 50,
-     "spans": [
-      {
-       "w1": 22,
-       "w2": 25,
-       "text": "teacheth thee to profit"
-      }
-     ]
-    },
-    {
-     "quote": "O that thou hadst hearkened",
-     "verse": 18,
-     "start": 83,
-     "end": 120,
-     "spans": [
-      {
-       "w1": 1,
-       "w2": 5,
-       "text": "O that thou hadst hearkened"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 20–22",
-   "start": 20,
+   "label": "v. 22",
+   "start": 22,
    "end": 22,
-   "title": "Flee singing, and the refrain",
-   "text": "The command is exodus with joy: \"Go ye forth of Babylon\" (v. 20), \"with a voice of singing\" (v. 20), and the proof-text is the old desert: waters from the rock, thirst answered. Then the door closes on one class only: \"there is no peace, saith the Lord, unto the wicked\" (v. 22). The reading ends with each hearer sorted by his own state.",
-   "cites": [
-    {
-     "quote": "Go ye forth of Babylon",
-     "verse": 20,
-     "start": 32,
-     "end": 64,
-     "spans": [
-      {
-       "w1": 1,
-       "w2": 5,
-       "text": "Go ye forth of Babylon"
-      }
-     ]
-    },
-    {
-     "quote": "with a voice of singing",
-     "verse": 20,
-     "start": 66,
-     "end": 99,
-     "spans": [
-      {
-       "w1": 11,
-       "w2": 15,
-       "text": "with a voice of singing"
-      }
-     ]
-    },
-    {
-     "quote": "there is no peace, saith the Lord, unto the wicked",
-     "verse": 22,
-     "start": 218,
-     "end": 278,
-     "spans": [
-      {
-       "w1": 11,
-       "w2": 20,
-       "text": "there is no peace, saith the Lord, unto the wicked"
-      }
-     ]
-    }
-   ]
+   "title": "The chapter ends with a clause Isaiah does not have",
+   "text": "After \"there is no peace, saith the Lord, unto the wicked,\" this version adds: \"and notwithstanding he hath done all this, and greater also.\" The final word of the block is not the sentence on the wicked but a statement about what God has done anyway. The revision that began by adding baptism to the first verse ends by adding grace to the last."
   }
  ],
  "chapter": [
   {
    "n": 1,
    "title": "A pastor's choice of text",
-   "text": "Of all the Isaiah on the brass plates, Nephi reads first the chapter about covenant people whose oaths outrun their hearts, who are chastened, and who are delivered anyway for the name's sake. The description fits the ship's mutineers exactly, and the mercy fits them too; the selection is the sermon."
+   "text": "The first Isaiah chapter copied describes people who \"swear by the name of the Lord... yet they swear not in truth nor in righteousness\" at verse 1, whose neck is \"an iron sinew\" at verse 4, and who are called \"a transgressor from the womb\" at verse 8. Then verses 9 through 11 supply the reason they are spared, and it is stated three times as being about God rather than about them, \"for my name's sake,\" \"for my praise,\" and \"For mine own sake, yea, for mine own sake.\" The audience is the men of 1 Nephi 18:9–11, and the chapter both describes them and spares them.."
   },
   {
    "n": 2,
@@ -982,6 +746,32 @@
    "mirror": "1ne17-011"
   },
   {
+   "id": "1ne20-006",
+   "scope": "BOM",
+   "head": "Morm. 4:14",
+   "anchor": {
+    "verse": 5,
+    "w1": 29,
+    "w2": 37,
+    "quote": "Mine idol hath done them, and my graven image,"
+   },
+   "reason": "the idols at the end of the record",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 4,
+     "verse": 14,
+     "w1": 29,
+     "w2": 39,
+     "quote": "and did offer them up as sacrifices unto their idol gods.",
+     "verse_text": "And they did also march forward against the city Teancum, and did drive the inhabitants forth out of her, and did take many prisoners both women and children, and did offer them up as sacrifices unto their idol gods.",
+     "markdown": "And they did also march forward against the city Teancum, and did drive the inhabitants forth out of her, and did take many prisoners both women and children, **and did offer them up as sacrifices unto their idol gods**.",
+     "span": true
+    }
+   ],
+   "mirror": "morm04-006"
+  },
+  {
    "id": "1ne20-002",
    "scope": "SW",
    "head": "Isa. 48:1",
@@ -1108,6 +898,15 @@
    ]
   },
   {
+   "verse": 5,
+   "w1": 29,
+   "w2": 37,
+   "quote": "Mine idol hath done them, and my graven image,",
+   "entries": [
+    "1ne20-006"
+   ]
+  },
+  {
    "verse": 16,
    "w1": 6,
    "w2": 11,
@@ -1145,7 +944,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "360c94d2bf872d00"
+  "at": "2026-09-07",
+  "source_sha256": "65fe98e8f3d0e826"
  }
 }

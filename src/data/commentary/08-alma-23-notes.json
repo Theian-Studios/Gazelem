@@ -16,9 +16,9 @@
   "principles": [
    "Law that clears the way for the word",
    "Conversion that holds",
-   ""
+   "A new name taken on purpose"
   ],
-  "connections": 9,
+  "connections": 11,
   "initial": true
  },
  "world_behind": [
@@ -62,7 +62,19 @@
   {
    "term": "Scourge",
    "verse_label": "v. 2",
-   "text": "To whip, as a legal or mob punishment. The decree forbids it explicitly. The record uses the word eleven times and the King James Bible twelve, and Christ warns his own missionaries in Matthew 10 that they will be scourged in synagogues. A Lamanite king outlaws in advance what the apostles were promised."
+   "text": "To whip, as a legal or mob punishment. Treated at Jacob 3:3. The decree forbids it explicitly. The record uses the word eleven times and the King James Bible twelve, and Christ warns his own missionaries in Matthew 10 that they will be scourged in synagogues. A Lamanite king outlaws in advance what the apostles were promised.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 3:3",
+     "start": 50,
+     "end": 59,
+     "book": "Jacob",
+     "chapter": 3,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
   },
   {
    "term": "Obstruction",
@@ -144,53 +156,44 @@
  ],
  "verses": [
   {
-   "label": "v. 1–3",
+   "label": "v. 1–2",
    "start": 1,
-   "end": 3,
-   "title": "The proclamation",
-   "text": "The king protects the four brothers and anyone who follows them, bans a specific list of abuses, and grants access to houses, temples, and sanctuaries. His stated aim is an unobstructed word, convinced people, and an end to murder, plunder, theft, and adultery."
+   "end": 2,
+   "title": "A decree written entirely as a list of prohibitions",
+   "text": "The record gives the proclamation by naming seven things that may not be done: they should not \"lay their hands on them to bind them, or to cast them into prison; neither should they spit upon them, nor smite them, nor cast them out of their synagogues, nor scourge them; neither should they cast stones at them.\" Only at the end does one positive clause arrive, \"but that they should have free access to their houses, and also their temples, and their sanctuaries.\" The seven forbidden acts are also, item for item, what happened to Alma and Amulek nine chapters earlier at Ammonihah."
   },
   {
-   "label": "v. 4–5",
-   "start": 4,
-   "end": 5,
-   "title": "The mission organized",
-   "text": "Aaron and his brethren work city by city and building by building, establishing churches and setting apart local priests and teachers. Thousands come to the knowledge of the Lord and are taught the records and prophecies."
-  },
-  {
-   "label": "v. 6–7",
+   "label": "v. 6",
    "start": 6,
-   "end": 7,
-   "title": "The claim",
-   "text": "Mormon swears that every Lamanite converted in this preaching stayed converted. They became righteous, laid down the weapons of their rebellion, and stopped fighting God and their brethren both."
+   "end": 6,
+   "title": "A claim made twice over, with an oath on each side",
+   "text": "The record does not simply report that the converts held. It underwrites the statement: \"as sure as the Lord liveth, so sure as many as believed... yea, I say unto you, as the Lord liveth, as many of the Lamanites as believed in their preaching, and were converted unto the Lord, never did fall away.\" The formula appears at both ends of the verse, and the claim between them is absolute rather than statistical. The writer takes the oath here; no character does."
   },
   {
    "label": "v. 8–13",
    "start": 8,
    "end": 13,
-   "title": "The roll",
-   "text": "Ishmael, Middoni, the city of Nephi, Shilom, Shemlon, Lemuel, Shimnilom. Mormon lists the places by name and says these are the ones who laid down all their weapons of war, and that they were all Lamanites."
+   "title": "Seven places, listed one to a verse",
+   "text": "Verse 8 announces a list, \"Now, these are they who were converted unto the Lord,\" and the next five verses supply it in an almost bare form: the land of Ishmael, the land of Middoni, the city of Nephi, and then four in a single verse, \"the land of Shilom, and who were in the land of Shemlon, and in the city of Lemuel, and in the city of Shimnilom.\" No number of converts is given for any of them and no event is attached. The list is a register of places, and the chapter is willing to spend a quarter of its verses on it."
   },
   {
-   "label": "v. 14–15",
+   "label": "v. 14",
    "start": 14,
-   "end": 15,
-   "title": "The holdouts",
-   "text": "One Amalekite converted and no Amulonites. They hardened themselves and the Lamanites in their territory. Mormon closes the roll by saying he has named every city that repented."
-  },
-  {
-   "label": "v. 16–17",
-   "start": 16,
-   "end": 17,
-   "title": "The name",
-   "text": "The king and the converts want a name that distinguishes them. He consults Aaron and their priests. They choose Anti-Nephi-Lehies and stop being called Lamanites."
-  },
-  {
-   "label": "v. 18",
-   "start": 18,
-   "end": 18,
-   "title": "After",
-   "text": "They become industrious, friendly with the Nephites, and they open a correspondence. Mormon adds that the curse of God followed them no more."
+   "end": 14,
+   "title": "An exception counted to one",
+   "text": "Between the two closures sits the qualification: \"the Amalekites were not converted, save only one; neither were any of the Amulonites; but they did harden their hearts.\" The record has just declined to number the thousands who believed, and here it counts a single man on the other side. The same two groups are singled out again at Alma 24:29, where the record notes that none of the converts came from them, so the exception is tracked across two chapters.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 24:29",
+     "start": 334,
+     "end": 344,
+     "book": "Alma",
+     "chapter": 24,
+     "verse_start": 29,
+     "verse_end": 29
+    }
+   ]
   }
  ],
  "chapter": [
@@ -207,7 +210,7 @@
   {
    "n": 3,
    "title": "Aaron leaves people behind",
-   "text": "Consecrating priests and teachers in each place is what turns a preaching tour into a church. The chapter attributes the great success to the structure as much as to the sermons."
+   "text": "Verse 4 reports the method as a circuit with an appointment at every stop, \"from city to city, and from one house of worship to another, establishing churches, and consecrating priests and teachers throughout the land.\" Verse 5 gives the result in two figures, \"thousands were brought to the knowledge of the Lord,\" and specifies what they were taught, \"the records and prophecies which were handed down.\" Verses 9 through 13 then name seven cities and lands and add a count, \"the people of Ammon, and they were called thus ever after.\" The chapter reports a structure being left behind rather than a sermon being remembered."
   },
   {
    "n": 4,
@@ -238,24 +241,44 @@
  "world_in_front": {
   "applications": [
    {
-    "title": "Remove the obstacle instead of forcing the outcome",
-    "verse_label": "v. 3",
-    "text": "The king cleared the road and let his people walk it. Where you want someone to consider something, work on what is in the way rather than on the pressure you can apply."
+    "title": "Publish the protection in specific terms",
+    "verse_label": "v. 1–2",
+    "text": "The decree does not say to be tolerant. It lists the forbidden acts: not to bind them, not to cast them into prison, not to spit upon them, not to smite them, not to cast them out of their synagogues. A protection that names the behaviours is enforceable in a way that a sentiment is not."
    },
    {
-    "title": "Leave someone in place",
+    "title": "Leave a structure behind, not a visit",
     "verse_label": "v. 4",
-    "text": "Aaron consecrated local priests and teachers in every city he passed through. When you finish helping with something, ask who will carry it after you and hand it over by name."
+    "text": "He worked city by city and house of worship by house of worship, ordaining as he went, \"from city to city, and from one house of worship to another, establishing churches, and consecrating priests and teachers.\" What made the difference was the ordination; the sermon did not."
    },
    {
-    "title": "Name the kinship out loud",
-    "verse_label": "v. 3",
-    "text": "The king wanted his people convinced they were all brethren. Where there is an old division you are inside of, say the relationship plainly to the people who have been taught to deny it."
+    "title": "Teach the records, not only the message",
+    "verse_label": "v. 5",
+    "text": "The converts \"were taught the records and prophecies which were handed down even to the present time.\" Handing over the material people can read for themselves outlasts what they heard you say."
    },
    {
-    "title": "Write the letter",
+    "title": "Notice a conversion that holds",
+    "verse_label": "v. 6",
+    "text": "The record makes a claim it makes almost nowhere else, that as many as believed \"never did fall away.\" When something works, it is worth asking what was different about how it was done rather than only celebrating that it worked."
+   },
+   {
+    "title": "Lay down the weapons of the rebellion, whatever they are",
+    "verse_label": "v. 7",
+    "text": "The phrase is not only about arms, \"they did lay down the weapons of their rebellion, that they did not fight against God any more, neither against any of their brethren.\" Name yours; some of them are habits rather than objects."
+   },
+   {
+    "title": "Record the exceptions honestly",
+    "verse_label": "v. 14",
+    "text": "The chapter names who did not convert, \"the Amalekites were not converted, save only one; neither were any of the Amulonites.\" An account of a success that reports its own limits is worth more than one that does not."
+   },
+   {
+    "title": "Take a new name when the old one is a description",
+    "verse_label": "v. 16–17",
+    "text": "They called themselves Anti-Nephi-Lehies and \"were no more called Lamanites.\" A change deep enough to need a different word for it is worth marking with one."
+   },
+   {
+    "title": "Expect the change to be visible in the ordinary week",
     "verse_label": "v. 18",
-    "text": "The correspondence between two nations began after the weapons went down. Identify the person or group you have been out of contact with because of an old grievance, and open the channel."
+    "text": "The evidence given is industriousness, friendliness with the Nephites, and an opened correspondence. None of it is devotional. Ask what has changed in your working life since whatever you count as your turning."
    }
   ],
   "questions": [
@@ -314,7 +337,7 @@
     "w2": 19,
     "quote": "sent a proclamation among all his people"
    },
-   "reason": "the decree as it went out, at the end of the conversion account",
+   "reason": "the decree as it went out, ending the conversion account",
    "targets": [
     {
      "ref": "Alma",
@@ -340,7 +363,7 @@
     "w2": 15,
     "quote": "they did lay down the weapons of their rebellion"
    },
-   "reason": "the same refusal stated as a settled policy, under threat of war",
+   "reason": "the same refusal, settled policy under threat of war",
    "targets": [
     {
      "ref": "Alma",
@@ -380,7 +403,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al24-010"
   },
   {
    "id": "al23-004",
@@ -409,6 +432,58 @@
    "mirror": "al27-002"
   },
   {
+   "id": "al23-010",
+   "scope": "BOOK",
+   "head": "Alma 3:14",
+   "anchor": {
+    "verse": 18,
+    "w1": 27,
+    "w2": 35,
+    "quote": "the curse of God did no more follow them."
+   },
+   "reason": "the condition stated when the mark was set",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 3,
+     "verse": 14,
+     "w1": 51,
+     "w2": 67,
+     "quote": "except they repent of their wickedness and turn to me that I may have mercy upon them.",
+     "verse_text": "Thus the word of God is fulfilled, for these are the words which he said to Nephi: Behold, the Lamanites have I cursed, and I will set a mark on them that they and their seed may be separated from thee and thy seed, from this time henceforth and forever, except they repent of their wickedness and turn to me that I may have mercy upon them.",
+     "markdown": "Thus the word of God is fulfilled, for these are the words which he said to Nephi: Behold, the Lamanites have I cursed, and I will set a mark on them that they and their seed may be separated from thee and thy seed, from this time henceforth and forever, **except they repent of their wickedness and turn to me that I may have mercy upon them**.",
+     "span": true
+    }
+   ],
+   "mirror": "al03-004"
+  },
+  {
+   "id": "al23-011",
+   "scope": "BOOK",
+   "head": "Alma 9:17",
+   "anchor": {
+    "verse": 6,
+    "w1": 71,
+    "w2": 79,
+    "quote": "were converted unto the Lord, never did fall away."
+   },
+   "reason": "the promise made about the Lamanites' seed",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 9,
+     "verse": 17,
+     "w1": 29,
+     "w2": 34,
+     "quote": "many of them will be saved,",
+     "verse_text": "And at some period of time they will be brought to believe in his word, and to know of the incorrectness of the traditions of their fathers; and many of them will be saved, for the Lord will be merciful unto all who call on his name.",
+     "markdown": "And at some period of time they will be brought to believe in his word, and to know of the incorrectness of the traditions of their fathers; and **many of them will be saved**, for the Lord will be merciful unto all who call on his name.",
+     "span": true
+    }
+   ],
+   "mirror": "al09-003"
+  },
+  {
    "id": "al23-005",
    "scope": "BOM",
    "head": "Mosiah 20:1",
@@ -418,7 +493,7 @@
     "w2": 23,
     "quote": "who were in the land of Shemlon"
    },
-   "reason": "what this land was known for the last time the record named it",
+   "reason": "what this land was known for when last named",
    "targets": [
     {
      "ref": "Mosiah",
@@ -432,7 +507,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos20-011"
   },
   {
    "id": "al23-006",
@@ -444,7 +519,7 @@
     "w2": 35,
     "quote": "the curse of God did no more follow them"
    },
-   "reason": "the cursing at its origin, and the reason given for it",
+   "reason": "the cursing at its origin, with its stated reason",
    "targets": [
     {
      "ref": "2 Ne.",
@@ -458,7 +533,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "2ne05-017"
   },
   {
    "id": "al23-007",
@@ -522,7 +597,7 @@
     "w2": 22,
     "quote": "that they might have a name"
    },
-   "reason": "a body of converts acquiring a name of its own at Antioch",
+   "reason": "converts acquiring a name of their own at Antioch",
    "targets": [
     {
      "ref": "Acts",
@@ -556,6 +631,15 @@
    "quote": "nor scourge them",
    "entries": [
     "al23-007"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 71,
+   "w2": 79,
+   "quote": "were converted unto the Lord, never did fall away.",
+   "entries": [
+    "al23-011"
    ]
   },
   {
@@ -616,14 +700,15 @@
    "verse": 18,
    "w1": 27,
    "w2": 35,
-   "quote": "the curse of God did no more follow them",
+   "quote": "the curse of God did no more follow them.",
    "entries": [
+    "al23-010",
     "al23-006"
    ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "3ba80321bf4851d7"
+  "at": "2026-09-07",
+  "source_sha256": "9357cca95d42bf53"
  }
 }

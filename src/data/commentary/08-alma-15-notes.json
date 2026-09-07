@@ -17,7 +17,7 @@
    "Restoration",
    "Care for the wounded"
   ],
-  "connections": 5,
+  "connections": 6,
   "initial": true
  },
  "world_behind": [
@@ -73,13 +73,13 @@
   {
    "term": "Tribulations",
    "verse_label": "v. 3",
-   "text": "Pressures, troubles, in older use the crushing of grain under a threshing sledge. The word usually names trouble arriving from outside, and here it is turned inward: the fever was \"caused by the great tribulations of his mind\" (v. 3). The same word returns in the last verses for what Amulek is suffering, and Alma administers to him in them.",
+   "text": "Pressures, troubles, in older use the crushing of grain under a threshing sledge. Treated at Mosiah 23:10. The word usually names trouble arriving from outside, and here it is turned inward: the fever was \"caused by the great tribulations of his mind\" (v. 3). The same word returns in the last verses for what Amulek is suffering, and Alma administers to him in them.",
    "cites": [
     {
      "quote": "caused by the great tribulations of his mind",
      "verse": 3,
-     "start": 180,
-     "end": 233,
+     "start": 205,
+     "end": 258,
      "spans": [
       {
        "w1": 14,
@@ -88,12 +88,24 @@
       }
      ]
     }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 23:10",
+     "start": 93,
+     "end": 105,
+     "book": "Mosiah",
+     "chapter": 23,
+     "verse_start": 10,
+     "verse_end": 10
+    }
    ]
   },
   {
    "term": "Consecrated",
    "verse_label": "v. 13",
-   "text": "Set apart for a sacred use. Alma consecrated priests and teachers at Sidom. The record uses the same verb for what happens to a building or an offering. Applied to people it makes an ordination a kind of dedication, and the verse pairs it with the plain business of baptizing whoever wanted it."
+   "text": "Set apart for a sacred use. Treated at 2 Nephi 1:7. Alma consecrated priests and teachers at Sidom. The record uses the same verb for what happens to a building or an offering. Applied to people it makes an ordination a kind of dedication, and the verse pairs it with the plain business of baptizing whoever wanted it."
   },
   {
    "term": "Flock",
@@ -205,53 +217,46 @@
  ],
  "verses": [
   {
-   "label": "v. 1–2",
-   "start": 1,
-   "end": 2,
-   "title": "Sidom, and the refugees",
-   "text": "Commanded out of Ammonihah, they arrive where the exiles already are, and tell them what happened to their wives and children and to themselves. The reunion is reported in two sentences and no reaction is recorded."
-  },
-  {
-   "label": "v. 3–5",
+   "label": "v. 3",
    "start": 3,
-   "end": 5,
-   "title": "A man in bed",
-   "text": "Zeezrom is feverish, and the record gives the cause as his own mind under the weight of his sin. He thinks he killed them. Hearing they are alive, he sends for them, and they come immediately."
+   "end": 3,
+   "title": "The record diagnoses before it narrates",
+   "text": "Zeezrom's fever is given a cause, and the cause is not an infection: it runs from his wickedness through his mind to his body. The specific dread is named too. He supposed Alma and Amulek had been killed, and that it was his doing. The record supplies the aetiology of an illness in a single verse and then lets the patient lie there for two more."
   },
   {
-   "label": "v. 6–9",
+   "label": "v. 6–10",
    "start": 6,
-   "end": 9,
-   "title": "The exchange",
-   "text": "Alma takes his hand and asks a question about Christ. Zeezrom answers twice, and between the answers Alma states the condition: if you believe in the redemption of Christ you can be healed."
+   "end": 10,
+   "title": "A healing conducted almost entirely in dialogue",
+   "text": "Five verses, four of them speech, alternating strictly: Alma asks, Zeezrom answers, Alma states a condition, Zeezrom affirms it, Alma prays. No narration intervenes. The record gives the exchange the shape of a transaction and puts the decisive clause in the prayer rather than in the command."
   },
   {
-   "label": "v. 10–12",
-   "start": 10,
+   "label": "v. 11–12",
+   "start": 11,
    "end": 12,
-   "title": "Healed, baptized, preaching",
-   "text": "The prayer ties the healing to faith in Christ. Zeezrom leaps up and walks, the land hears of it, he is baptized, and from that time he preaches. Three verses cover a man's whole reversal."
+   "title": "He leaps up, and by the next verse he is preaching",
+   "text": "The record chooses a verb of height for a man who had been \"very low with a burning fever,\" and then reports the spread: the knowledge of it went through all the land of Sidom. Verse 12 baptises him and makes him a preacher inside the same sentence. The interval between being healed and being sent is one verse long."
   },
   {
-   "label": "v. 13–14",
-   "start": 13,
-   "end": 14,
-   "title": "A church at Sidom",
-   "text": "Priests and teachers consecrated, baptism offered to whoever wanted it, and people arriving from the whole surrounding region. The founding takes two verses and no opposition is reported."
-  },
-  {
-   "label": "v. 15–16",
+   "label": "v. 15",
    "start": 15,
-   "end": 16,
-   "title": "Two ledgers",
-   "text": "Ammonihah stays hard, explaining the miracles as devilry. Amulek has lost his wealth, his friends, his father and his kindred. The verses sit next to each other without comment."
+   "end": 15,
+   "title": "The resistance is explained by party membership",
+   "text": "Ammonihah does not simply disbelieve. The record gives the reason as affiliation, \"for they were of the profession of Nehor, and did not believe in the repentance of their sins.\" A doctrinal position held by a named group accounts for the whole city's response, and Alma 1 has already told the reader who Nehor was."
   },
   {
-   "label": "v. 17–19",
-   "start": 17,
-   "end": 19,
-   "title": "A check, and a house",
-   "text": "The people of Sidom are stopped in their pride and begin to assemble to worship. Alma sees it, takes Amulek to Zarahemla, and cares for him. The tenth year ends."
+   "label": "v. 16",
+   "start": 16,
+   "end": 16,
+   "title": "The inventory of losses ends at the nearest relation",
+   "text": "Amulek has forsaken his gold, his silver and his precious things, and then the list continues past property: rejected by those who were once his friends, and \"also by his father and his kindred.\" The record orders it outward to inward, and stops at the closest name rather than the largest sum."
+  },
+  {
+   "label": "v. 18",
+   "start": 18,
+   "end": 18,
+   "title": "After a public miracle, a private errand",
+   "text": "The chapter ends with Alma taking Amulek \"to his own house, and did administer unto him in his tribulations, and strengthened him in the Lord.\" The man who raised Zeezrom in front of a crowd finishes by looking after one exhausted companion indoors, and the record gives that a verse of its own before closing the year."
   }
  ],
  "chapter": [
@@ -268,7 +273,19 @@
   {
    "n": 3,
    "title": "The healing is conditioned on what the sick man says",
-   "text": "Alma asks before he prays, and the prayer asks for healing according to faith that is in Christ. The same phrase carried Alma and Amulek out of prison. The record keeps the object of faith specified."
+   "text": "Two questions precede the prayer. Verse 6: \"Believest thou in the power of Christ unto salvation?\" Verse 8: \"If thou believest in the redemption of Christ thou canst be healed.\" The prayer at verse 10 then names the object again, \"heal him according to his faith which is in Christ.\" Alma 14:28 used the identical construction for the escape from prison, \"the Lord had granted unto them power, according to their faith which was in Christ.\" The record specifies the object of the faith in all three places rather than leaving faith by itself.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 14:28",
+     "start": 284,
+     "end": 294,
+     "book": "Alma",
+     "chapter": 14,
+     "verse_start": 28,
+     "verse_end": 28
+    }
+   ]
   },
   {
    "n": 4,
@@ -294,24 +311,56 @@
  "world_in_front": {
   "applications": [
    {
+    "title": "Bring the news to the people who left",
+    "verse_label": "v. 1–2",
+    "text": "Alma and Amulek go to Sidom and find the refugees, and the first thing recorded is a report: they \"related unto them all that had happened unto their wives and children, and also concerning themselves.\" People who fled a thing are owed an account of how it ended."
+   },
+   {
+    "title": "Notice what guilt does to a body",
+    "verse_label": "v. 3",
+    "text": "Zeezrom's fever is given a cause and it is not physical, \"caused by the great tribulations of his mind on account of his wickedness.\" When someone is unwell in a way that will not resolve, the chapter's assumption is that the cause may not be where you are looking."
+   },
+   {
     "title": "Ask before you pray for someone",
     "verse_label": "v. 6",
-    "text": "Alma took Zeezrom's hand and asked him a question first. Giving a person something to say gives them something to hold. Try asking what someone believes before telling them what you are about to ask for."
+    "text": "Alma took Zeezrom's hand and asked him a question first, \"Believest thou in the power of Christ unto salvation?\" Giving a person something to say gives them something to hold. Try asking what someone believes before telling them what you are about to ask for."
+   },
+   {
+    "title": "Name the object of the faith you are asking for",
+    "verse_label": "v. 10",
+    "text": "The prayer is precise, \"heal him according to his faith which is in Christ,\" the same construction used of the prison at Alma 14:28. Whatever you are asking for, say what the trust is placed in rather than leaving faith as a bare quantity.",
+    "refs": [
+     {
+      "kind": "scripture",
+      "text": "Alma 14:28",
+      "start": 121,
+      "end": 131,
+      "book": "Alma",
+      "chapter": 14,
+      "verse_start": 28,
+      "verse_end": 28
+     }
+    ]
+   },
+   {
+    "title": "Put the healed person to work",
+    "verse_label": "v. 12",
+    "text": "Zeezrom is baptized and then, in the same verse, \"he began from that time forth to preach unto the people.\" The recovery is not the end of his story in the record; it is the start of his usefulness."
    },
    {
     "title": "Check what you are attributing",
     "verse_label": "v. 15",
-    "text": "Ammonihah accepted the facts and assigned them wrongly. When something good is happening through someone you dislike or distrust, notice the explanation you reach for first, and ask what evidence it actually rests on."
-   },
-   {
-    "title": "Take the wounded one home",
-    "verse_label": "v. 18",
-    "text": "The chapter ends with practical care for a man who paid for his faithfulness. Identify the person around you who has lost something for doing right, and do the ordinary thing: feed them, house them, stay."
+    "text": "Ammonihah accepted the facts and assigned them wrongly, \"ascribing all the power of Alma and Amulek to the devil.\" When something good is happening through someone you dislike or distrust, notice the explanation you reach for first, and ask what evidence it actually rests on."
    },
    {
     "title": "Count the cost out loud",
     "verse_label": "v. 16",
-    "text": "The record itemizes what Amulek lost. If you are weighing something expensive, write the list. The list is more honest in both directions."
+    "text": "The record itemizes what Amulek lost: gold, silver, precious things, and then his father, his kindred and his friends. If you are weighing something expensive, write the list. The list is more honest in both directions."
+   },
+   {
+    "title": "Take the wounded one home",
+    "verse_label": "v. 18",
+    "text": "The chapter ends with Alma taking Amulek \"to his own house\" and administering to him. Identify the person around you who has lost something for doing right, and do the ordinary thing: feed them, house them, stay."
    }
   ],
   "questions": [
@@ -384,7 +433,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al14-006"
   },
   {
    "id": "al15-002",
@@ -410,7 +459,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al11-016"
   },
   {
    "id": "al15-003",
@@ -422,7 +471,7 @@
     "w2": 21,
     "quote": "having forsaken all his gold, and silver, and his precious things"
    },
-   "reason": "the credentials, itemized as losses",
+   "reason": "what Amulek gave up, counted out",
    "targets": [
     {
      "ref": "Alma",
@@ -436,7 +485,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al10-011"
+  },
+  {
+   "id": "al15-006",
+   "scope": "BOOK",
+   "head": "Alma 14:7",
+   "anchor": {
+    "verse": 12,
+    "w1": 2,
+    "w2": 7,
+    "quote": "Alma baptized Zeezrom unto the Lord;"
+   },
+   "reason": "what Zeezrom said before he fell sick",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 14,
+     "verse": 7,
+     "w1": 16,
+     "w2": 25,
+     "quote": "I am guilty, and these men are spotless before God.",
+     "verse_text": "And it came to pass that he began to cry unto the people, saying: Behold, I am guilty, and these men are spotless before God. And he began to plead for them from that time forth; but they reviled him, saying: Art thou also possessed with the devil? And they spit upon him, and cast him out from among them, and also all those who believed in the words which had been spoken by Alma and Amulek; and they cast them out, and sent men to cast stones at them.",
+     "markdown": "And it came to pass that he began to cry unto the people, saying: Behold, **I am guilty, and these men are spotless before God**. And he began to plead for them from that time forth; but they reviled him, saying: Art thou also possessed with the devil? And they spit upon him, and cast him out from among them, and also all those who believed in the words which had been spoken by Alma and Amulek; and they cast them out, and sent men to cast stones at them.",
+     "span": true
+    }
+   ],
+   "mirror": "al14-001"
   },
   {
    "id": "al15-004",
@@ -517,7 +592,8 @@
    "w2": 7,
    "quote": "Alma baptized Zeezrom unto the Lord",
    "entries": [
-    "al15-002"
+    "al15-002",
+    "al15-006"
    ]
   },
   {
@@ -531,7 +607,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "716e6b01c2e59232"
+  "at": "2026-09-07",
+  "source_sha256": "40b9066e6d161ced"
  }
 }

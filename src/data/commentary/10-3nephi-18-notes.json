@@ -1,0 +1,927 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "3 Nephi",
+  "book_slug": "3nephi",
+  "chapter": 18,
+  "volume_order": "10",
+  "speakers": [
+   "Jesus Christ",
+   "Mormon"
+  ],
+  "audience": "The twelve and the multitude, in turn",
+  "location": "The temple in the land Bountiful",
+  "date": "AD 34",
+  "unit": "The sacrament and the departure (3 Nephi 18)",
+  "principles": [
+   "An ordinance instituted by demonstration",
+   "A rule about who may be turned away and who may not",
+   "A departure witnessed by the disciples"
+  ],
+  "connections": 17,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The words of the ordinance are kept in another book",
+   "text": "This chapter gives the acts and not the prayers. Moroni 4:3 and Moroni 5:2 preserve the exact forms, and Moroni 4:1 says they were administered according to the commandments of Christ, which is a claim about this occasion."
+  },
+  {
+   "n": 2,
+   "title": "The second administration has no supply at all",
+   "text": "Verses 1 and 2 send disciples away to fetch bread and wine. 3 Nephi 20:6 and 7 report that no bread and no wine had been brought by anyone, and that he gave both to them regardless. The two meals of the visit are told with opposite logistics."
+  },
+  {
+   "n": 3,
+   "title": "The ordination named here has its form in Moroni 3",
+   "text": "Verse 5 says one shall be ordained with power to administer the bread. Moroni 3:3 preserves the sentence used, which names the authority, the office, and the work in one line."
+  },
+  {
+   "n": 4,
+   "title": "The audience shifts follow the pattern of the whole day",
+   "text": "Verse 5 addresses the disciples, verse 17 the multitude, verse 26 the disciples again. 3 Nephi 13:25, 15:11 and 17:1 make the same turns earlier, so instructions for the leadership are kept separable from instructions for everyone."
+  },
+  {
+   "n": 5,
+   "title": "The disputations are older than this chapter",
+   "text": "Verse 34 gives these commandments because of the disputations among them, and 3 Nephi 11:28 had already forbidden disputations about baptism at the start of the same day. The visit opens and closes by naming the same fault."
+  },
+  {
+   "n": 6,
+   "title": "Mormon steps out of the quotation once",
+   "text": "Verse 37 breaks off to promise the reader that what is written about the giving of the Holy Ghost is true, and 3 Nephi 19:13 delivers it. The abridger is the only voice in the chapter that speaks to somebody outside the scene."
+  },
+  {
+   "n": 7,
+   "title": "The cloud is the detail Acts keeps too",
+   "text": "Verse 38 says a cloud overshadowed the multitude so that they saw him not, and Acts 1:9 has a cloud receive him out of the apostles' sight. Two accounts of an ascension a hemisphere apart record the same obstruction.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Acts 1:9",
+     "start": 79,
+     "end": 87,
+     "book": "Acts",
+     "chapter": 1,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "term": "Bread",
+   "verse_label": "v. 1",
+   "text": "A loaf, and food in general. The record uses the word twenty-two times and the King James Bible three hundred and sixty-one. Verse 1 has it sent for rather than already present."
+  },
+  {
+   "term": "Wine",
+   "verse_label": "v. 1",
+   "text": "The fermented drink of the vine. It appears forty times in the record, and the King James Bible two hundred and thirty-one. Alma 55 uses the same word for the drink that put a guard to sleep."
+  },
+  {
+   "term": "Observe",
+   "verse_label": "v. 6",
+   "text": "Keep, carry out, do as prescribed. The record uses the word twenty-six times and the King James Bible fifty-five. Verse 6 sets the pattern by what he has just done."
+  },
+  {
+   "term": "Remembrance",
+   "verse_label": "v. 7",
+   "text": "Calling to mind, and a memorial. The word turns up twenty-eight times here, and the King James Bible fifty-one. Verses 7 and 11 give the body and the blood as its objects."
+  },
+  {
+   "term": "Rock",
+   "verse_label": "v. 12",
+   "text": "Bedrock, a foundation that will not shift. The record uses the word thirty-four times and the King James Bible one hundred and nineteen. Verses 12 and 13 hold it against a sandy foundation."
+  },
+  {
+   "term": "Unworthily",
+   "verse_label": "v. 28",
+   "text": "In a manner not fitting the thing being done. Its count is four times in this book, while the King James Bible twice, both in 1 Corinthians 11. Verse 28 makes it the disciples' responsibility to prevent."
+  },
+  {
+   "term": "Minister",
+   "verse_label": "v. 30",
+   "text": "To serve, and to administer an ordinance. Thirty-five uses here against one hundred in the King James Bible. Verses 30 and 32 use it of a man who has been refused the emblems."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "He took of the bread and brake and blessed it",
+   "verse_label": "v. 3",
+   "text": "The order of actions, given as narrative before it becomes a rule. Verse 6 turns the sequence into the instruction."
+  },
+  {
+   "term": "This shall ye always observe to do, even as I have done",
+   "verse_label": "v. 6",
+   "text": "The pattern is his own act. Verse 6 defines the ordinance by pointing back a few sentences."
+  },
+  {
+   "term": "It shall be a testimony unto the Father that ye do always remember me",
+   "verse_label": "v. 7",
+   "text": "The ordinance is addressed to the Father. Moroni 4:3 will put that same sentence into the prayer itself."
+  },
+  {
+   "term": "If ye do always remember me ye shall have my Spirit to be with you",
+   "verse_label": "v. 7",
+   "text": "The promise attached to the bread, repeated word for word at verse 11 for the wine."
+  },
+  {
+   "term": "Whoso among you shall do more or less than these",
+   "verse_label": "v. 13",
+   "text": "A boundary in both directions. Adding to the ordinance and subtracting from it get the same verdict."
+  },
+  {
+   "term": "Ye must watch and pray always, lest ye be tempted by the devil",
+   "verse_label": "v. 15",
+   "text": "Given first to the disciples in verse 15 and then to the multitude in verse 18, with the wording adjusted for each."
+  },
+  {
+   "term": "Pray in your families unto the Father, always in my name",
+   "verse_label": "v. 21",
+   "text": "Household prayer commanded directly, with wives and children named as the ones to be blessed."
+  },
+  {
+   "term": "Ye shall not forbid any man from coming unto you when ye shall meet together",
+   "verse_label": "v. 22",
+   "text": "The meeting is open. Verse 23 adds that those who come are to be prayed for."
+  },
+  {
+   "term": "Hold up your light that it may shine unto the world",
+   "verse_label": "v. 24",
+   "text": "The light is identified in the same verse: it is what they have seen him do."
+  },
+  {
+   "term": "Ye shall not cast him out of your synagogues, or your places of worship",
+   "verse_label": "v. 32",
+   "text": "The refusal at verse 29 is limited here. A man kept from the emblems still keeps his seat."
+  },
+  {
+   "term": "He touched with his hand the disciples whom he had chosen, one by one",
+   "verse_label": "v. 36",
+   "text": "The same method used with the children in 3 Nephi 17:21. Verse 37 says the multitude did not hear what he said as he touched them."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–2",
+   "start": 1,
+   "end": 2,
+   "title": "An errand and an interval both recorded",
+   "text": "The record notes what happened while nothing was happening: \"while they were gone for bread and wine, he commanded the multitude that they should sit themselves down upon the earth.\" The bread and wine are not produced miraculously here, as they are one chapter later at 3 Nephi 20:6–7 where the record explicitly denies any were brought. Two accounts of the same ordinance stand two chapters apart, one with a supply run and one with none, and the record marks the difference by reporting the errand."
+  },
+  {
+   "label": "v. 3–9",
+   "start": 3,
+   "end": 9,
+   "title": "A meal that satisfies, stated four times",
+   "text": "The record uses the same word of both elements and of both groups: the disciples \"had eaten and were filled,\" the multitude \"had eaten and were filled,\" the disciples \"did drink of it and were filled,\" and the multitude \"did drink, and they were filled.\" Four uses in seven verses. The Gospel accounts at Matthew 26:26–28 and Luke 22:19–20 report the distribution without any statement about sufficiency. Here the record makes fullness part of what is being described.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Luke 22:19–20",
+     "start": 326,
+     "end": 339,
+     "book": "Luke",
+     "chapter": 22,
+     "verse_start": 19,
+     "verse_end": 20
+    }
+   ]
+  },
+  {
+   "label": "v. 36–37",
+   "start": 36,
+   "end": 37,
+   "title": "Testimony sorted by who could hear",
+   "text": "The record reports that part of the event went unwitnessed: \"the multitude heard not the words which he spake, therefore they did not bear record; but the disciples bare record that he gave them power to give the Holy Ghost.\" Two groups are present, one can testify and one cannot, and the reason is acoustic rather than spiritual. The compiler then adds a promise in his own voice, \"I will show unto you hereafter that this record is true,\" which puts a forward reference into the middle of a narrative and makes the claim checkable against what follows."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The ordinance is taught by being done",
+   "text": "Verse 3 is the act and verse 6 is the rule. The pattern is fixed by pointing at something that just happened in the room."
+  },
+  {
+   "n": 2,
+   "title": "Everyone is filled",
+   "text": "Verses 4 and 9 say the multitude ate and drank until filled. The scene is a meal before it is a symbol."
+  },
+  {
+   "n": 3,
+   "title": "The promise is stated twice in identical words",
+   "text": "Verses 7 and 11 attach the Spirit to always remembering him. The repetition marks the bread and the wine as one instruction."
+  },
+  {
+   "n": 4,
+   "title": "Both directions of change are ruled out",
+   "text": "Verse 13 names doing more and doing less together. The form is treated as fixed."
+  },
+  {
+   "n": 5,
+   "title": "The same charge is fitted to two audiences",
+   "text": "Verse 15 gives the disciples the devil and verse 18 gives the multitude the sifting. The counsel is adjusted to who is hearing it."
+  },
+  {
+   "n": 6,
+   "title": "Two kinds of exclusion are separated",
+   "text": "Verse 29 keeps an unworthy man from the emblems and verse 32 keeps him in the building. The chapter is careful about which door closes."
+  },
+  {
+   "n": 7,
+   "title": "The reason for the rules is stated at the end",
+   "text": "Verse 34 names the disputations. The chapter explains itself after giving the instruction."
+  },
+  {
+   "n": 8,
+   "title": "The departure is quiet",
+   "text": "Verse 38 puts a cloud between him and the multitude, and verse 39 gives the ascension to the disciples alone. The day ends with most of the crowd unable to see."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Show the thing before you explain it",
+    "verse_label": "v. 3, 6",
+    "text": "He broke the bread, blessed it, gave it, and only then said what it meant and told them to keep doing it. Demonstration first and instruction second is the order here, and it is the harder way round to organise."
+   },
+   {
+    "title": "Say the whole promise for each half",
+    "verse_label": "v. 7, 11",
+    "text": "The clause \"if ye do always remember me ye shall have my Spirit to be with you\" is given after the bread and again, word for word, after the wine. Repeating a promise in full rather than referring back to it is what makes it available to somebody who joined late."
+   },
+   {
+    "title": "Keep the form as it was given",
+    "verse_label": "v. 13",
+    "text": "Doing more and doing less are named as the same failure. When you have been handed a practice, the impulse to improve it deserves the same scrutiny as the impulse to skip it."
+   },
+   {
+    "title": "Give the reason that fits the hearer",
+    "verse_label": "v. 15, 18",
+    "text": "The same instruction to watch and pray is put to the disciples and to the multitude with different warnings attached. When you pass on a discipline, attach the reason that fits the person in front of you rather than the one that fits you."
+   },
+   {
+    "title": "Pray where your family can hear",
+    "verse_label": "v. 21",
+    "text": "He commanded household prayer specifically, \"that your wives and your children may be blessed.\" Praying alone is not the whole of it; some of it has to happen where the people you live with are standing."
+   },
+   {
+    "title": "Do not forbid, and keep praying for them",
+    "verse_label": "v. 22–23",
+    "text": "The rule about meetings is stated twice inside one verse, \"ye shall not forbid any man from coming unto you... and forbid them not,\" and the follow-up is an instruction to pray for the person. Exclusion is refused and responsibility is added."
+   },
+   {
+    "title": "Hold up the light you have actually seen",
+    "verse_label": "v. 24",
+    "text": "The instruction names its own content: \"I am the light which ye shall hold up—that which ye have seen me do.\" What you offer other people should be a thing you watched happen rather than a thing you were told about."
+   },
+   {
+    "title": "Keep the door open to the person you had to refuse",
+    "verse_label": "v. 30, 32",
+    "text": "He allows withholding the ordinance and then forbids casting the person out, twice, and adds that you may be the means of bringing them back. A boundary and an ongoing welcome are made compatible in three verses."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "What would always remembering him change about this week?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "Do I take the emblems as a witness, or as a habit?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "Where have I added to or trimmed something I was given whole?"
+   },
+   {
+    "verse_label": "v. 15",
+    "start": 15,
+    "end": 15,
+    "text": "What am I not watching for?"
+   },
+   {
+    "verse_label": "v. 21",
+    "start": 21,
+    "end": 21,
+    "text": "When did my family last hear me pray?"
+   },
+   {
+    "verse_label": "v. 22",
+    "start": 22,
+    "end": 22,
+    "text": "Who have I quietly hoped would stop coming?"
+   },
+   {
+    "verse_label": "v. 34",
+    "start": 34,
+    "end": 34,
+    "text": "Which of my disputations would this chapter have been given for?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "3ne18-001",
+   "scope": "BOOK",
+   "head": "3 Ne. 11:39",
+   "anchor": {
+    "verse": 12,
+    "w1": 22,
+    "w2": 31,
+    "quote": "blessed are ye, for ye are built upon my rock"
+   },
+   "reason": "the rock named when the doctrine was given",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 11,
+     "verse": 39,
+     "w1": 13,
+     "w2": 20,
+     "quote": "whoso buildeth upon this buildeth upon my rock,",
+     "verse_text": "Verily, verily, I say unto you, that this is my doctrine, and whoso buildeth upon this buildeth upon my rock, and the gates of hell shall not prevail against them.",
+     "markdown": "Verily, verily, I say unto you, that this is my doctrine, and **whoso buildeth upon this buildeth upon my rock**, and the gates of hell shall not prevail against them.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne11-019"
+  },
+  {
+   "id": "3ne18-002",
+   "scope": "BOOK",
+   "head": "3 Ne. 14:25",
+   "anchor": {
+    "verse": 13,
+    "w1": 25,
+    "w2": 37,
+    "quote": "and when the rain descends, and the floods come, and the winds blow"
+   },
+   "reason": "the same storm from the sermon two days earlier",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 14,
+     "verse": 25,
+     "w1": 1,
+     "w2": 12,
+     "quote": "And the rain descended, and the floods came, and the winds blew,",
+     "verse_text": "And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell not, for it was founded upon a rock.",
+     "markdown": "**And the rain descended, and the floods came, and the winds blew**, and beat upon that house; and it fell not, for it was founded upon a rock.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne14-013"
+  },
+  {
+   "id": "3ne18-003",
+   "scope": "BOOK",
+   "head": "3 Ne. 13:6",
+   "anchor": {
+    "verse": 19,
+    "w1": 2,
+    "w2": 11,
+    "quote": "ye must always pray unto the Father in my name"
+   },
+   "reason": "the instruction on prayer from the sermon",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 13,
+     "verse": 6,
+     "w1": 17,
+     "w2": 24,
+     "quote": "pray to thy Father who is in secret;",
+     "verse_text": "But thou, when thou prayest, enter into thy closet, and when thou hast shut thy door, pray to thy Father who is in secret; and thy Father, who seeth in secret, shall reward thee openly.",
+     "markdown": "But thou, when thou prayest, enter into thy closet, and when thou hast shut thy door, **pray to thy Father who is in secret**; and thy Father, who seeth in secret, shall reward thee openly.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne13-003"
+  },
+  {
+   "id": "3ne18-004",
+   "scope": "BOOK",
+   "head": "3 Ne. 11:22",
+   "anchor": {
+    "verse": 34,
+    "w1": 2,
+    "w2": 15,
+    "quote": "I give you these commandments because of the disputations which have been among you"
+   },
+   "reason": "the disputations he had forbidden at the start",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 11,
+     "verse": 22,
+     "w1": 32,
+     "w2": 38,
+     "quote": "there shall be no disputations among you.",
+     "verse_text": "And again the Lord called others, and said unto them likewise; and he gave unto them power to baptize. And he said unto them: On this wise shall ye baptize; and there shall be no disputations among you.",
+     "markdown": "And again the Lord called others, and said unto them likewise; and he gave unto them power to baptize. And he said unto them: On this wise shall ye baptize; and **there shall be no disputations among you**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne11-015"
+  },
+  {
+   "id": "3ne18-011",
+   "scope": "BOOK",
+   "head": "3 Ne. 20:8",
+   "anchor": {
+    "verse": 7,
+    "w1": 2,
+    "w2": 16,
+    "quote": "this shall ye do in remembrance of my body, which I have shown unto you."
+   },
+   "reason": "the emblems explained a second time",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 20,
+     "verse": 8,
+     "w1": 6,
+     "w2": 17,
+     "quote": "He that eateth this bread eateth of my body to his soul;",
+     "verse_text": "And he said unto them: He that eateth this bread eateth of my body to his soul; and he that drinketh of this wine drinketh of my blood to his soul; and his soul shall never hunger nor thirst, but shall be filled.",
+     "markdown": "And he said unto them: **He that eateth this bread eateth of my body to his soul**; and he that drinketh of this wine drinketh of my blood to his soul; and his soul shall never hunger nor thirst, but shall be filled.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne20-001"
+  },
+  {
+   "id": "3ne18-015",
+   "scope": "BOOK",
+   "head": "3 Ne. 28:1",
+   "anchor": {
+    "verse": 36,
+    "w1": 16,
+    "w2": 29,
+    "quote": "he touched with his hand the disciples whom he had chosen, one by one,"
+   },
+   "reason": "the same method at the last interview",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 28,
+     "verse": 1,
+     "w1": 12,
+     "w2": 19,
+     "quote": "he spake unto his disciples, one by one,",
+     "verse_text": "And it came to pass when Jesus had said these words, he spake unto his disciples, one by one, saying unto them: What is it that ye desire of me, after that I am gone to the Father?",
+     "markdown": "And it came to pass when Jesus had said these words, **he spake unto his disciples, one by one**, saying unto them: What is it that ye desire of me, after that I am gone to the Father?",
+     "span": true
+    }
+   ],
+   "mirror": "3ne28-001"
+  },
+  {
+   "id": "3ne18-005",
+   "scope": "BOM",
+   "head": "Alma 6:5",
+   "anchor": {
+    "verse": 22,
+    "w1": 9,
+    "w2": 18,
+    "quote": "ye shall not forbid any man from coming unto you"
+   },
+   "reason": "the open meeting kept in the church at Zarahemla",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 6,
+     "verse": 5,
+     "w1": 18,
+     "w2": 27,
+     "quote": "none were deprived of the privilege of assembling themselves together",
+     "verse_text": "Now I would that ye should understand that the word of God was liberal unto all, that none were deprived of the privilege of assembling themselves together to hear the word of God.",
+     "markdown": "Now I would that ye should understand that the word of God was liberal unto all, that **none were deprived of the privilege of assembling themselves together** to hear the word of God.",
+     "span": true
+    }
+   ],
+   "mirror": "al06-008"
+  },
+  {
+   "id": "3ne18-006",
+   "scope": "BOM",
+   "head": "Moro. 4:3",
+   "anchor": {
+    "verse": 7,
+    "w1": 18,
+    "w2": 31,
+    "quote": "it shall be a testimony unto the Father that ye do always remember me"
+   },
+   "reason": "the sentence written into the prayer over the bread",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 4,
+     "verse": 3,
+     "w1": 33,
+     "w2": 44,
+     "quote": "that they may eat in remembrance of the body of thy Son,",
+     "verse_text": "O God, the Eternal Father, we ask thee in the name of thy Son, Jesus Christ, to bless and sanctify this bread to the souls of all those who partake of it; that they may eat in remembrance of the body of thy Son, and witness unto thee, O God, the Eternal Father, that they are willing to take upon them the name of thy Son, and always remember him, and keep his commandments which he hath given them, that they may always have his Spirit to be with them. Amen.",
+     "markdown": "O God, the Eternal Father, we ask thee in the name of thy Son, Jesus Christ, to bless and sanctify this bread to the souls of all those who partake of it; **that they may eat in remembrance of the body of thy Son**, and witness unto thee, O God, the Eternal Father, that they are willing to take upon them the name of thy Son, and always remember him, and keep his commandments which he hath given them, that they may always have his Spirit to be with them. Amen.",
+     "span": true
+    }
+   ],
+   "mirror": "moro04-003"
+  },
+  {
+   "id": "3ne18-007",
+   "scope": "BOM",
+   "head": "Moro. 2:2",
+   "anchor": {
+    "verse": 37,
+    "w1": 18,
+    "w2": 31,
+    "quote": "the disciples bare record that he gave them power to give the Holy Ghost"
+   },
+   "reason": "the words Moroni later supplies",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 2,
+     "verse": 2,
+     "w1": 26,
+     "w2": 45,
+     "quote": "ye shall have power that to him upon whom ye shall lay your hands, ye shall give the Holy Ghost;",
+     "verse_text": "And he called them by name, saying: Ye shall call on the Father in my name, in mighty prayer; and after ye have done this ye shall have power that to him upon whom ye shall lay your hands, ye shall give the Holy Ghost; and in my name shall ye give it, for thus do mine apostles.",
+     "markdown": "And he called them by name, saying: Ye shall call on the Father in my name, in mighty prayer; and after ye have done this **ye shall have power that to him upon whom ye shall lay your hands, ye shall give the Holy Ghost**; and in my name shall ye give it, for thus do mine apostles.",
+     "span": true
+    }
+   ],
+   "mirror": "moro02-009"
+  },
+  {
+   "id": "3ne18-012",
+   "scope": "BOM",
+   "head": "Moro. 5:1",
+   "anchor": {
+    "verse": 8,
+    "w1": 17,
+    "w2": 29,
+    "quote": "they should take of the wine of the cup and drink of it,"
+   },
+   "reason": "the Nephite form for administering the wine",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 5,
+     "verse": 1,
+     "w1": 6,
+     "w2": 12,
+     "quote": "wine—Behold, they took the cup, and said:",
+     "verse_text": "The manner of administering the wine—Behold, they took the cup, and said:",
+     "markdown": "The manner of administering the **wine—Behold, they took the cup, and said**:",
+     "span": true
+    }
+   ],
+   "mirror": "moro05-005"
+  },
+  {
+   "id": "3ne18-013",
+   "scope": "BOM",
+   "head": "Moro. 5:2",
+   "anchor": {
+    "verse": 11,
+    "w1": 18,
+    "w2": 32,
+    "quote": "ye shall do it in remembrance of my blood, which I have shed for you,"
+   },
+   "reason": "the wine prayer carrying the same reason",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 5,
+     "verse": 2,
+     "w1": 38,
+     "w2": 50,
+     "quote": "in remembrance of the blood of thy Son, which was shed for them;",
+     "verse_text": "O God, the Eternal Father, we ask thee, in the name of thy Son, Jesus Christ, to bless and sanctify this wine to the souls of all those who drink of it, that they may do it in remembrance of the blood of thy Son, which was shed for them; that they may witness unto thee, O God, the Eternal Father, that they do always remember him, that they may have his Spirit to be with them. Amen.",
+     "markdown": "O God, the Eternal Father, we ask thee, in the name of thy Son, Jesus Christ, to bless and sanctify this wine to the souls of all those who drink of it, that they may do it **in remembrance of the blood of thy Son, which was shed for them**; that they may witness unto thee, O God, the Eternal Father, that they do always remember him, that they may have his Spirit to be with them. Amen.",
+     "span": true
+    }
+   ],
+   "mirror": "moro05-004"
+  },
+  {
+   "id": "3ne18-014",
+   "scope": "BOM",
+   "head": "Moro. 4:3",
+   "anchor": {
+    "verse": 11,
+    "w1": 53,
+    "w2": 61,
+    "quote": "ye shall have my Spirit to be with you."
+   },
+   "reason": "the bread prayer closing on the same promise",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 4,
+     "verse": 3,
+     "w1": 80,
+     "w2": 90,
+     "quote": "that they may always have his Spirit to be with them.",
+     "verse_text": "O God, the Eternal Father, we ask thee in the name of thy Son, Jesus Christ, to bless and sanctify this bread to the souls of all those who partake of it; that they may eat in remembrance of the body of thy Son, and witness unto thee, O God, the Eternal Father, that they are willing to take upon them the name of thy Son, and always remember him, and keep his commandments which he hath given them, that they may always have his Spirit to be with them. Amen.",
+     "markdown": "O God, the Eternal Father, we ask thee in the name of thy Son, Jesus Christ, to bless and sanctify this bread to the souls of all those who partake of it; that they may eat in remembrance of the body of thy Son, and witness unto thee, O God, the Eternal Father, that they are willing to take upon them the name of thy Son, and always remember him, and keep his commandments which he hath given them, **that they may always have his Spirit to be with them**. Amen.",
+     "span": true
+    }
+   ],
+   "mirror": "moro04-004"
+  },
+  {
+   "id": "3ne18-016",
+   "scope": "BOM",
+   "head": "Moro. 2:1",
+   "anchor": {
+    "verse": 36,
+    "w1": 16,
+    "w2": 29,
+    "quote": "he touched with his hand the disciples whom he had chosen, one by one,"
+   },
+   "reason": "Moroni recording the words spoken at that touch",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 2,
+     "verse": 1,
+     "w1": 17,
+     "w2": 23,
+     "quote": "as he laid his hands upon them—",
+     "verse_text": "The words of Christ, which he spake unto his disciples, the twelve whom he had chosen, as he laid his hands upon them—",
+     "markdown": "The words of Christ, which he spake unto his disciples, the twelve whom he had chosen, **as he laid his hands upon them—**",
+     "span": true
+    }
+   ],
+   "mirror": "moro02-003"
+  },
+  {
+   "id": "3ne18-017",
+   "scope": "BOM",
+   "head": "Moro. 2:3",
+   "anchor": {
+    "verse": 37,
+    "w1": 1,
+    "w2": 10,
+    "quote": "And the multitude heard not the words which he spake,"
+   },
+   "reason": "the words the crowd missed, preserved",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 2,
+     "verse": 3,
+     "w1": 16,
+     "w2": 25,
+     "quote": "the multitude heard it not, but the disciples heard it;",
+     "verse_text": "Now Christ spake these words unto them at the time of his first appearing; and the multitude heard it not, but the disciples heard it; and on as many as they laid their hands, fell the Holy Ghost.",
+     "markdown": "Now Christ spake these words unto them at the time of his first appearing; and **the multitude heard it not, but the disciples heard it**; and on as many as they laid their hands, fell the Holy Ghost.",
+     "span": true
+    }
+   ],
+   "mirror": "moro02-004"
+  },
+  {
+   "id": "3ne18-008",
+   "scope": "SW",
+   "head": "Luke 22:19",
+   "anchor": {
+    "verse": 3,
+    "w1": 11,
+    "w2": 20,
+    "quote": "he took of the bread and brake and blessed it"
+   },
+   "reason": "the same actions at the last supper",
+   "targets": [
+    {
+     "ref": "Luke",
+     "chapter": 22,
+     "verse": 19,
+     "w1": 2,
+     "w2": 14,
+     "quote": "he took bread, and gave thanks, and brake it, and gave unto them,",
+     "verse_text": "And he took bread, and gave thanks, and brake it, and gave unto them, saying, This is my body which is given for you: this do in remembrance of me.",
+     "markdown": "And **he took bread, and gave thanks, and brake it, and gave unto them**, saying, This is my body which is given for you: this do in remembrance of me.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne18-009",
+   "scope": "SW",
+   "head": "Luke 22:31",
+   "anchor": {
+    "verse": 18,
+    "w1": 19,
+    "w2": 31,
+    "quote": "for Satan desireth to have you, that he may sift you as wheat"
+   },
+   "reason": "the sentence spoken to Peter, given here to a crowd",
+   "targets": [
+    {
+     "ref": "Luke",
+     "chapter": 22,
+     "verse": 31,
+     "w1": 8,
+     "w2": 20,
+     "quote": "Satan hath desired to have you, that he may sift you as wheat:",
+     "verse_text": "And the Lord said, Simon, Simon, behold, Satan hath desired to have you, that he may sift you as wheat:",
+     "markdown": "And the Lord said, Simon, Simon, behold, **Satan hath desired to have you, that he may sift you as wheat**:",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne18-010",
+   "scope": "SW",
+   "head": "1 Cor. 11:29",
+   "anchor": {
+    "verse": 29,
+    "w1": 11,
+    "w2": 17,
+    "quote": "eateth and drinketh damnation to his soul"
+   },
+   "reason": "the same warning in almost the same words",
+   "targets": [
+    {
+     "ref": "1 Cor.",
+     "chapter": 11,
+     "verse": 29,
+     "w1": 8,
+     "w2": 13,
+     "quote": "eateth and drinketh damnation to himself,",
+     "verse_text": "For he that eateth and drinketh unworthily, eateth and drinketh damnation to himself, not discerning the Lord's body.",
+     "markdown": "For he that eateth and drinketh unworthily, **eateth and drinketh damnation to himself**, not discerning the Lord's body.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 3,
+   "w1": 11,
+   "w2": 20,
+   "quote": "he took of the bread and brake and blessed it",
+   "entries": [
+    "3ne18-008"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 2,
+   "w2": 16,
+   "quote": "this shall ye do in remembrance of my body, which I have shown unto you.",
+   "entries": [
+    "3ne18-011"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 18,
+   "w2": 31,
+   "quote": "it shall be a testimony unto the Father that ye do always remember me",
+   "entries": [
+    "3ne18-006"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 17,
+   "w2": 29,
+   "quote": "they should take of the wine of the cup and drink of it,",
+   "entries": [
+    "3ne18-012"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 18,
+   "w2": 32,
+   "quote": "ye shall do it in remembrance of my blood, which I have shed for you,",
+   "entries": [
+    "3ne18-013"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 53,
+   "w2": 61,
+   "quote": "ye shall have my Spirit to be with you.",
+   "entries": [
+    "3ne18-014"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 22,
+   "w2": 31,
+   "quote": "blessed are ye, for ye are built upon my rock",
+   "entries": [
+    "3ne18-001"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 25,
+   "w2": 37,
+   "quote": "and when the rain descends, and the floods come, and the winds blow",
+   "entries": [
+    "3ne18-002"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 19,
+   "w2": 31,
+   "quote": "for Satan desireth to have you, that he may sift you as wheat",
+   "entries": [
+    "3ne18-009"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 2,
+   "w2": 11,
+   "quote": "ye must always pray unto the Father in my name",
+   "entries": [
+    "3ne18-003"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 9,
+   "w2": 18,
+   "quote": "ye shall not forbid any man from coming unto you",
+   "entries": [
+    "3ne18-005"
+   ]
+  },
+  {
+   "verse": 29,
+   "w1": 11,
+   "w2": 17,
+   "quote": "eateth and drinketh damnation to his soul",
+   "entries": [
+    "3ne18-010"
+   ]
+  },
+  {
+   "verse": 34,
+   "w1": 2,
+   "w2": 15,
+   "quote": "I give you these commandments because of the disputations which have been among you",
+   "entries": [
+    "3ne18-004"
+   ]
+  },
+  {
+   "verse": 36,
+   "w1": 16,
+   "w2": 29,
+   "quote": "he touched with his hand the disciples whom he had chosen, one by one,",
+   "entries": [
+    "3ne18-015",
+    "3ne18-016"
+   ]
+  },
+  {
+   "verse": 37,
+   "w1": 1,
+   "w2": 10,
+   "quote": "And the multitude heard not the words which he spake,",
+   "entries": [
+    "3ne18-017"
+   ]
+  },
+  {
+   "verse": 37,
+   "w1": 18,
+   "w2": 31,
+   "quote": "the disciples bare record that he gave them power to give the Holy Ghost",
+   "entries": [
+    "3ne18-007"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "3adc67c70c43f0c9"
+ }
+}

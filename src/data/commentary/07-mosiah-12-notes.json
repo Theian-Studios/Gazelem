@@ -19,7 +19,7 @@
    "Cross-examination",
    "Teaching what you do not keep"
   ],
-  "connections": 12,
+  "connections": 15,
   "initial": false
  },
  "world_behind": [
@@ -73,7 +73,7 @@
   {
    "term": "Discover",
    "verse_label": "v. 8",
-   "text": "Not to find out. The older sense is to uncover, and the King James prophets use it for pulling the covering off something shameful: Lamentations has God discovering Edom's sins, Micah discovering the foundations of a ruined city. Abinadi's clause runs the same way. A book is kept in existence so that what this people did can be laid open to nations that never met them, which makes the survival of the record a kind of exposure."
+   "text": "Not to find out. Treated at 2 Nephi 13:17. The older sense is to uncover, and the King James prophets use it for pulling the covering off something shameful: Lamentations has God discovering Edom's sins, Micah discovering the foundations of a ruined city. Abinadi's clause runs the same way. A book is kept in existence so that what this people did can be laid open to nations that never met them, which makes the survival of the record a kind of exposure."
   },
   {
    "term": "Stalk",
@@ -83,7 +83,7 @@
   {
    "term": "Prosper",
    "verse_label": "v. 15",
-   "text": "The promise word, turned around and used as a defense. Lehi's children were told that if they kept the commandments they would prosper in the land, and Benjamin repeated the promise to his own sons at the opening of this book. Noah's courtiers read it backwards: the king has prospered, so the king has not sinned. It is the closest thing to an argument in their whole speech, and the reader has just been shown where the prosperity came from."
+   "text": "The promise word, turned around and used as a defense. Treated at 1 Nephi 13:15. Lehi's children were told that if they kept the commandments they would prosper in the land, and Benjamin repeated the promise to his own sons at the opening of this book. Noah's courtiers read it backwards: the king has prospered, so the king has not sinned. It is the closest thing to an argument in their whole speech, and the reader has just been shown where the prosperity came from."
   },
   {
    "term": "Withstood",
@@ -145,12 +145,22 @@
   {
    "term": "If ye teach the law of Moses why do ye not keep it?",
    "verse_label": "v. 29",
-   "text": "The question that governs everything Abinadi says for the next three chapters. Four more follow it in the same verse: riches, whoredoms, harlots, causing the people to sin. Each one is a specific charge dressed as a question."
-  },
-  {
-   "term": "Doth salvation come by the law of Moses? What say ye?",
-   "verse_label": "v. 31",
-   "text": "Put to men who have just said they teach that law, and they answer yes. Abinadi's reply does not simply contradict them; it starts reciting the law itself, which turns their answer into the beginning of an examination."
+   "text": "The question that governs everything Abinadi says for the next three chapters. Four more follow it in the same verse: riches, whoredoms, harlots, causing the people to sin. Each one is a specific charge dressed as a question. Two verses later comes the one that decides the argument: \"doth salvation come by the law of Moses? What say ye?\" (v. 31). It is put to men who have just said they teach that law, and they answer yes. Abinadi's reply does not simply contradict them; he starts reciting the law itself, and their answer becomes the beginning of an examination.",
+   "cites": [
+    {
+     "quote": "doth salvation come by the law of Moses? What say ye?",
+     "verse": 31,
+     "start": 284,
+     "end": 347,
+     "spans": [
+      {
+       "w1": 35,
+       "w2": 45,
+       "text": "doth salvation come by the law of Moses? What say ye?"
+      }
+     ]
+    }
+   ]
   },
   {
    "term": "Have ye done all this? I say unto you, Nay, ye have not",
@@ -160,60 +170,39 @@
  ],
  "verses": [
   {
-   "label": "v. 1–8",
+   "label": "v. 1",
    "start": 1,
-   "end": 8,
-   "title": "The second prophecy",
-   "text": "He returns disguised after two years and delivers a longer message than the first: fierce anger, bondage, blows, driving, slaughter, bodies left to vultures and dogs; the king's life valued as cloth in a furnace; famine, pestilence, hail, east wind, insects; and a record left behind for other nations to read about them."
+   "end": 1,
+   "title": "Only two men in the volume wear a disguise",
+   "text": "The phrase in disguise occurs twice in scripture. The other is Helaman 1:12, where it covers Kishkumen after he has murdered a chief judge. The record gives a prophet returning to a city that wants him dead the same instrument it gives an assassin, and marks the interval before he comes back: two years."
   },
   {
-   "label": "v. 9–16",
-   "start": 9,
-   "end": 16,
-   "title": "The arrest and the accusation",
-   "text": "Bound and carried to the king, charged with prophesying evil. The accusers repeat the prophecy accurately (furnace, dry stalk, thistle blossom), object that he \"pretendeth\" the Lord spoke, assert their own innocence and the king's, declare they will never come into bondage, and hand him over."
+   "label": "v. 10–12",
+   "start": 10,
+   "end": 12,
+   "title": "The accusers quote more than the record printed",
+   "text": "Of the three images they bring to the king, only one is in verses 1 through 8: the garment in a furnace. The dry stalk of verse 11 and the thistle blossom of verse 12 appear nowhere in what Abinadi is recorded as saying. Verse 8 had warned the reader that the record was giving a selection, \"and many things did Abinadi prophesy against this people.\" What the record left out, the prosecution supplies."
   },
   {
-   "label": "v. 17–19",
-   "start": 17,
-   "end": 19,
-   "title": "The council, and the questioning",
-   "text": "Prison, a council of priests convened, the prisoner produced, and questions put in order to cross him and find an accusation. He answers boldly, and the record notes that his examiners were astonished."
+   "label": "v. 13–15",
+   "start": 13,
+   "end": 15,
+   "title": "The defence closes by making a prophecy of its own",
+   "text": "First the denial, \"we are guiltless, and thou, O king, hast not sinned,\" then the prediction: \"we are strong, we shall not come into bondage, or be taken captive by our enemies; yea, and thou hast prospered in the land, and thou shalt also prosper.\" Answering a prophecy, they produce one. The record has already given the reader Mosiah 7, where Limhi's people pay tribute at half of everything they own, so it knows which of the two held."
   },
   {
    "label": "v. 20–24",
    "start": 20,
    "end": 24,
-   "title": "The test question",
-   "text": "One of them asks what Isaiah 52 means: the feet upon the mountains, the published peace, the watchmen seeing eye to eye, the waste places of Jerusalem singing, the holy arm made bare before all nations. It is four verses of comfort put to a man in chains."
-  },
-  {
-   "label": "v. 25–28",
-   "start": 25,
-   "end": 28,
-   "title": "The refusal, and the counter-charge",
-   "text": "Are you priests and pretend to teach, and yet ask me? Wo unto you for perverting the ways of the Lord. Ye have not applied your hearts to understanding. What teach ye this people? And the answer comes back: the law of Moses."
-  },
-  {
-   "label": "v. 29–32",
-   "start": 29,
-   "end": 32,
-   "title": "Five questions and a claim",
-   "text": "If you teach it, why do you not keep it? Riches, whoredoms, harlots, and a people led into sin. Then: you shall be smitten; what do you actually know about this law; does salvation come by it? They say yes."
-  },
-  {
-   "label": "v. 33–37",
-   "start": 33,
-   "end": 37,
-   "title": "The law, begun",
-   "text": "Abinadi grants that keeping the commandments saves and then starts reciting them: I am the Lord thy God who brought thee out of Egypt, no other God, no graven image. And then the two questions, have you done this and have you taught it, answered both times by the man asking."
+   "title": "The prosecution's question is five verses of Isaiah",
+   "text": "Verses 21 through 24 are Isaiah 52:7-10 word for word. The priests do not summarise the passage or characterise it; they read it out and ask what it means. It is the longest quotation anyone in the chapter makes, and Abinadi does not answer it here. The exposition arrives three chapters later, in Mosiah 15."
   }
  ],
  "chapter": [
   {
    "n": 1,
    "title": "The trial is a hearing with the verdict already reached",
-   "text": "A council is convened, questions are put in order to produce an accusation, and the record says so outright. What the chapter then documents is the procedure failing. He withstands them all and confounds them, and their astonishment is noted."
+   "text": "Verse 19 states the purpose of the questioning without disguising it, \"they began to question him, that they might cross him, that thereby they might have wherewith to accuse him.\" The same verse reports the result, \"he answered them boldly, and withstood all their questions, yea, to their astonishment.\" Verses 25 through 27 then reverse the direction, three questions put to the priests ending in \"what teach ye this people?\" A hearing convened to produce an accusation is documented producing an examination of the examiners."
   },
   {
    "n": 2,
@@ -228,7 +217,19 @@
   {
    "n": 4,
    "title": "Isaiah is used as a weapon and refused as one",
-   "text": "The priests pick four verses about good tidings and a redeemed Jerusalem and ask a prisoner to expound them. Abinadi will answer the question three chapters later, on his own terms, after the law has been recited. The delay is the whole point of the exchange."
+   "text": "The priests pick four verses about good tidings and a redeemed Jerusalem (Isa. 52:7–10) and ask a prisoner to expound them. Abinadi will answer the question three chapters later, on his own terms, after the law has been recited. The delay is the whole point of the exchange.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 52:7–10",
+     "start": 74,
+     "end": 86,
+     "book": "Isa",
+     "chapter": 52,
+     "verse_start": 7,
+     "verse_end": 10
+    }
+   ]
   },
   {
    "n": 5,
@@ -238,7 +239,19 @@
   {
    "n": 6,
    "title": "A survival clause with an unflattering purpose",
-   "text": "Nephi kept these plates for a wise purpose he did not know; Enos prayed his people's writings would reach their enemies; Mormon said two nations would be judged out of them. Verse 8 adds a fourth answer and it is the harshest: what outlasts this people is the evidence against them."
+   "text": "Nephi kept these plates for a wise purpose he did not know (1 Ne. 9:5); Enos prayed his people's writings would reach their enemies; Mormon said two nations would be judged out of them. Verse 8 adds a fourth answer and that one is the harshest: what outlasts this people is the evidence against them.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 9:5",
+     "start": 60,
+     "end": 69,
+     "book": "1 Ne",
+     "chapter": 9,
+     "verse_start": 5,
+     "verse_end": 5
+    }
+   ]
   },
   {
    "n": 7,
@@ -554,6 +567,84 @@
    "mirror": "mos11-013"
   },
   {
+   "id": "mos12-013",
+   "scope": "BOOK",
+   "head": "Mosiah 21:3",
+   "anchor": {
+    "verse": 2,
+    "w1": 42,
+    "w2": 54,
+    "quote": "shall be smitten on the cheek; yea, and shall be driven by men,"
+   },
+   "reason": "the smiting, when it actually came",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 21,
+     "verse": 3,
+     "w1": 19,
+     "w2": 30,
+     "quote": "they would smite them on their cheeks, and exercise authority over them;",
+     "verse_text": "Now they durst not slay them, because of the oath which their king had made unto Limhi; but they would smite them on their cheeks, and exercise authority over them; and began to put heavy burdens upon their backs, and drive them as they would a dumb ass—",
+     "markdown": "Now they durst not slay them, because of the oath which their king had made unto Limhi; but **they would smite them on their cheeks, and exercise authority over them**; and began to put heavy burdens upon their backs, and drive them as they would a dumb ass—",
+     "span": true
+    }
+   ],
+   "mirror": "mos21-002"
+  },
+  {
+   "id": "mos12-014",
+   "scope": "BOM",
+   "head": "Hel. 11:6",
+   "anchor": {
+    "verse": 4,
+    "w1": 8,
+    "w2": 22,
+    "quote": "I will smite this my people with sore afflictions, yea, with famine and with pestilence;"
+   },
+   "reason": "the same famine sent on Nephi's people later",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 11,
+     "verse": 6,
+     "w1": 16,
+     "w2": 29,
+     "quote": "the earth was smitten that it was dry, and did not yield forth grain",
+     "verse_text": "And this work of destruction did also continue in the seventy and fifth year. For the earth was smitten that it was dry, and did not yield forth grain in the season of grain; and the whole earth was smitten, even among the Lamanites as well as among the Nephites, so that they were smitten that they did perish by thousands in the more wicked parts of the land.",
+     "markdown": "And this work of destruction did also continue in the seventy and fifth year. For **the earth was smitten that it was dry, and did not yield forth grain** in the season of grain; and the whole earth was smitten, even among the Lamanites as well as among the Nephites, so that they were smitten that they did perish by thousands in the more wicked parts of the land.",
+     "span": true
+    }
+   ],
+   "mirror": "hel11-005"
+  },
+  {
+   "id": "mos12-015",
+   "scope": "BOM",
+   "head": "Morm. 1:19",
+   "anchor": {
+    "verse": 8,
+    "w1": 8,
+    "w2": 22,
+    "quote": "except they repent I will utterly destroy them from off the face of the earth;"
+   },
+   "reason": "Mormon marking these words fulfilled at the end",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 1,
+     "verse": 19,
+     "w1": 30,
+     "w2": 39,
+     "quote": "even unto the fulfilling of all the words of Abinadi,",
+     "verse_text": "And it came to pass that there were sorceries, and witchcrafts, and magics; and the power of the evil one was wrought upon all the face of the land, even unto the fulfilling of all the words of Abinadi, and also Samuel the Lamanite.",
+     "markdown": "And it came to pass that there were sorceries, and witchcrafts, and magics; and the power of the evil one was wrought upon all the face of the land, **even unto the fulfilling of all the words of Abinadi**, and also Samuel the Lamanite.",
+     "span": true
+    }
+   ],
+   "mirror": "morm01-007"
+  },
+  {
    "id": "mos12-006",
    "scope": "SW",
    "head": "2 Pet. 2:16",
@@ -643,12 +734,30 @@
    ]
   },
   {
+   "verse": 2,
+   "w1": 42,
+   "w2": 54,
+   "quote": "shall be smitten on the cheek; yea, and shall be driven by men,",
+   "entries": [
+    "mos12-013"
+   ]
+  },
+  {
    "verse": 3,
    "w1": 8,
    "w2": 23,
    "quote": "the life of king Noah shall be valued even as a garment in a hot furnace",
    "entries": [
     "mos12-012"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 8,
+   "w2": 22,
+   "quote": "I will smite this my people with sore afflictions, yea, with famine and with pestilence;",
+   "entries": [
+    "mos12-014"
    ]
   },
   {
@@ -659,6 +768,15 @@
    "entries": [
     "mos12-007",
     "mos12-006"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 8,
+   "w2": 22,
+   "quote": "except they repent I will utterly destroy them from off the face of the earth;",
+   "entries": [
+    "mos12-015"
    ]
   },
   {
@@ -719,7 +837,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "43c4355839eb4665"
+  "at": "2026-09-07",
+  "source_sha256": "a52ea246cec3d622"
  }
 }

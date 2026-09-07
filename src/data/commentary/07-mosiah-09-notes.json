@@ -17,7 +17,7 @@
    "A treaty that was a trap",
    "Deliverance asked for"
   ],
-  "connections": 9,
+  "connections": 10,
   "initial": false
  },
  "world_behind": [
@@ -81,7 +81,19 @@
   {
    "term": "Cimeters",
    "verse_label": "v. 16",
-   "text": "This record's spelling of scimitar, a curved blade, and a word the Bible does not have. It shows up only where weapons are being taken up or handed over, never in a description of daily life. What is worth noticing is whose hands hold it here. Zeniff is arming farmers, and the Lamanite host that comes over the hill in the next chapter carries the same inventory: bows, arrows, swords, cimeters, slings. Two peoples at war out of one armory."
+   "text": "This record's spelling of scimitar, a curved blade, and a word the Bible does not have. Treated at Enos 1:20. It shows up only where weapons are being taken up or handed over, never in a description of daily life. What is worth noticing is whose hands hold it here. Zeniff is arming farmers, and the Lamanite host that comes over the hill in the next chapter carries the same inventory: bows, arrows, swords, cimeters, slings. Two peoples at war out of one armory.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Enos 1:20",
+     "start": 99,
+     "end": 108,
+     "book": "Enos",
+     "chapter": 1,
+     "verse_start": 20,
+     "verse_end": 20
+    }
+   ]
   }
  ],
  "phrases": [
@@ -103,7 +115,19 @@
   {
    "term": "I being over-zealous to inherit the land of our fathers",
    "verse_label": "v. 3",
-   "text": "Zeniff's judgment on himself, in the same word his grandson will use of him three generations later. It is the rare case where the record's verdict and the man's own agree exactly, and Zeniff writes it before describing the famine that followed."
+   "text": "Zeniff's judgment on himself, in the same word his grandson will use of him three generations later (Mosiah 7:21). It is the rare case where the record's verdict and the man's own agree exactly, and Zeniff writes it before describing the famine that followed.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 7:21",
+     "start": 101,
+     "end": 112,
+     "book": "Mosiah",
+     "chapter": 7,
+     "verse_start": 21,
+     "verse_end": 21
+    }
+   ]
   },
   {
    "term": "For we were slow to remember the Lord our God",
@@ -138,58 +162,63 @@
   {
    "term": "I, myself, with mine own hands, did help to bury their dead",
    "verse_label": "v. 19",
-   "text": "A king burying the enemy. Two intensifiers on the pronoun, the same construction Mosiah used of tilling his own ground, and the object of the labor is three thousand corpses. Zeniff reports it in one clause and then counts his own losses."
+   "text": "A king burying the enemy. Two intensifiers on the pronoun, the same construction Mosiah used of tilling his own ground, and the object of the labor is three thousand corpses. Zeniff disposes of it without a pause and then counts his own losses."
   }
  ],
  "verses": [
   {
-   "label": "v. 1–2",
+   "label": "v. 1",
    "start": 1,
-   "end": 2,
-   "title": "The spy, and the mutiny",
-   "text": "Taught in the language, knowing the land, sent to find military weakness, and finding good instead. He argues for a treaty; the commander orders him killed; he is rescued at the cost of a battle inside the army; most of the force dies; the survivors go home to tell the families. Two verses, and they contain a whole war."
+   "end": 1,
+   "title": "A new document begins with no introduction",
+   "text": "The chapter opens in a voice the book has not used before and gives it no frame: \"I, Zeniff, having been taught in all the language of the Nephites, and having had a knowledge of the land of Nephi.\" There is no \"and it came to pass,\" no sentence from the abridger explaining the change of speaker, and no return to the previous narrator for the next fourteen chapters. A separate record is set down whole, and the only signal of the join is the pronoun."
   },
   {
-   "label": "v. 3–4",
-   "start": 3,
-   "end": 4,
-   "title": "The second attempt",
-   "text": "Over-zealous by his own account, he gathers volunteers and goes back. Famine and sore afflictions, because they were slow to remember God. Many days of wandering, and then tents pitched at the site where the first expedition's dead were left."
+   "label": "v. 2–3",
+   "start": 2,
+   "end": 3,
+   "title": "A narrator who accuses himself twice",
+   "text": "The first-person account gives two admissions against its own author before it reaches any event. Verse 2: \"I contended with my brethren in the wilderness.\" Verse 3: \"I being over-zealous to inherit the land of our fathers.\" Over-zealous stands in two verses of the volume, this one and Mosiah 7:21, where Limhi uses it of his grandfather while explaining how the colony ended up in bondage. The word the family later applied to him is the word he applied to himself.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 7:21",
+     "start": 287,
+     "end": 298,
+     "book": "Mosiah",
+     "chapter": 7,
+     "verse_start": 21,
+     "verse_end": 21
+    }
+   ]
   },
   {
-   "label": "v. 5–9",
-   "start": 5,
+   "label": "v. 9",
+   "start": 9,
    "end": 9,
-   "title": "The grant, and the building",
-   "text": "Four men into the city to read the king's temper; a covenant granting Lehi-Nephi and Shilom; the Lamanites ordered out; walls repaired, buildings raised, ground tilled with corn, wheat, barley, neas, sheum, and fruit. Five verses of a colony working, and every one of them is about to be undercut."
+   "title": "Two grain names left untranslated",
+   "text": "The record gives the planting list as \"with seeds of corn, and of wheat, and of barley, and with neas, and with sheum, and with seeds of all manner of fruits.\" Corn, wheat and barley are familiar. Neas and sheum are not, and sheum stands in this verse and nowhere else in scripture. A record that translates the names of cities and explains the meanings of places elsewhere leaves two crops in whatever language they came from, and offers no gloss for either."
   },
   {
-   "label": "v. 10–13",
-   "start": 10,
-   "end": 13,
-   "title": "What the grant was for",
-   "text": "Cunning and craftiness; twelve years of watching a colony grow strong; a king made uneasy; a people described as lazy and idolatrous who wanted the labor of other people's hands; and then agitation, wars, and contentions. The trap takes twelve years to close."
-  },
-  {
-   "label": "v. 14–16",
+   "label": "v. 14",
    "start": 14,
+   "end": 14,
+   "title": "A date given by reign and by direction",
+   "text": "The record locates the attack with two coordinates: \"in the thirteenth year of my reign in the land of Nephi, away on the south of the land of Shilom, when my people were watering and feeding their flocks.\" A regnal year, a compass bearing from a named place, and the activity in progress. It is the only fully specified date in the chapter, and it is supplied by the ruler counting his own years rather than by an outside chronology."
+  },
+  {
+   "label": "v. 16",
+   "start": 16,
    "end": 16,
-   "title": "The attack",
-   "text": "The thirteenth year, south of Shilom, people watering flocks and tilling fields, a numerous host falling on them, flocks and corn taken. Survivors flee to the city and call on Zeniff for protection, and he arms them with whatever can be improvised."
+   "title": "A weapons list with a word the Bible does not have",
+   "text": "The arming is itemised: \"bows, and with arrows, with swords, and with cimeters, and with clubs, and with slings, and with all manner of weapons which we could invent.\" Cimeter stands in eleven verses of the volume and in none of the Bible. The list also ends on a phrase that concedes improvisation, \"which we could invent,\" so the inventory is presented as what a farming colony could put together rather than as an armoury."
   },
   {
-   "label": "v. 17–18",
-   "start": 17,
-   "end": 18,
-   "title": "The battle",
-   "text": "They cried mightily, remembered the deliverance of their fathers, went out in the strength of the Lord, and killed three thousand and forty-three in a day and a night, driving the rest out. God heard, and the record says so before it says who won."
-  },
-  {
-   "label": "v. 19",
-   "start": 19,
+   "label": "v. 18–19",
+   "start": 18,
    "end": 19,
-   "title": "The burial",
-   "text": "He helped bury the enemy dead with his own hands, and then gives his own casualty count. One verse for the aftermath, and it is the only sentence in the chapter with sorrow in it."
+   "title": "Both sides counted, and the king digs",
+   "text": "The victory and its cost are reported with exact figures in adjacent sentences: \"in one day and a night we did slay three thousand and forty and three\" and \"two hundred and seventy-nine of our brethren were slain.\" Between them sits a detail no summary requires: \"And I, myself, with mine own hands, did help to bury their dead.\" With mine own hands occurs in five verses of the volume, and this is the only one where the hands are burying. A king reports his own losses to the unit and puts himself in the grave-digging party."
   }
  ],
  "chapter": [
@@ -201,12 +230,24 @@
   {
    "n": 2,
    "title": "The turn happens through observation",
-   "text": "Zeniff was sent to find weakness and saw good. Nothing supernatural intervenes. The record's account of how an enemy stops being an enemy is that somebody looked closely enough to notice something worth preserving."
+   "text": "Verse 1 gives the assignment and the reversal in one sentence: \"having been sent as a spy among the Lamanites that I might spy out their forces, that our army might come upon them and destroy them—but when I saw that which was good among them, I was desirous that they should not be destroyed.\" Nothing intervenes between the errand and the change but observation. Verse 2 records the cost, that he \"contended with my brethren\" and was nearly killed for it, and verse 3 supplies his own later verdict on himself, \"I being over-zealous to inherit the land of our fathers.\""
   },
   {
    "n": 3,
    "title": "He convicts himself in his own document",
-   "text": "Over-zealous, slow to remember, deceived by a treaty he negotiated. Limhi will say the same things about him in the previous chapter of the reader's experience, and the reader arrives at Zeniff's account already knowing the verdict, then finds the defendant agreeing with it."
+   "text": "Over-zealous, slow to remember, deceived by a treaty he negotiated. Limhi will say the same things about him in the previous chapter of the reader's experience (Mosiah 7:21), and the reader arrives at Zeniff's account already knowing the verdict, then finds the defendant agreeing with it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 7:21",
+     "start": 161,
+     "end": 172,
+     "book": "Mosiah",
+     "chapter": 7,
+     "verse_start": 21,
+     "verse_end": 21
+    }
+   ]
   },
   {
    "n": 4,
@@ -216,7 +257,19 @@
   {
    "n": 5,
    "title": "The Lamanite characterization is his, and the record keeps it labeled",
-   "text": "Lazy, idolatrous, wanting to glut themselves on other people's labor: this is a colonist at war describing the people whose land he was granted. The record has already given the reader Jacob 3, where the same people are called more righteous than the Nephites."
+   "text": "Lazy, idolatrous, wanting to glut themselves on other people's labor: this is a colonist at war describing the people whose land he was granted. The record has already given the reader Jacob 3:5, where the same people are called more righteous than the Nephites.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 3:5",
+     "start": 185,
+     "end": 194,
+     "book": "Jacob",
+     "chapter": 3,
+     "verse_start": 5,
+     "verse_end": 5
+    }
+   ]
   },
   {
    "n": 6,
@@ -454,6 +507,32 @@
    "mirror": "jac03-011"
   },
   {
+   "id": "mos09-010",
+   "scope": "BOM",
+   "head": "Alma 30:27",
+   "anchor": {
+    "verse": 12,
+    "w1": 19,
+    "w2": 29,
+    "quote": "that they might glut themselves with the labors of our hands;"
+   },
+   "reason": "Korihor's charge against the priests",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 30,
+     "verse": 27,
+     "w1": 32,
+     "w2": 42,
+     "quote": "that ye may glut yourselves with the labors of their hands,",
+     "verse_text": "And thus ye lead away this people after the foolish traditions of your fathers, and according to your own desires; and ye keep them down, even as it were in bondage, that ye may glut yourselves with the labors of their hands, that they durst not look up with boldness, and that they durst not enjoy their rights and privileges.",
+     "markdown": "And thus ye lead away this people after the foolish traditions of your fathers, and according to your own desires; and ye keep them down, even as it were in bondage, **that ye may glut yourselves with the labors of their hands**, that they durst not look up with boldness, and that they durst not enjoy their rights and privileges.",
+     "span": true
+    }
+   ],
+   "mirror": "al30-005"
+  },
+  {
    "id": "mos09-007",
    "scope": "SW",
    "head": "Micah 7:6",
@@ -602,7 +681,8 @@
    "w2": 29,
    "quote": "that they might glut themselves with the labors of our hands",
    "entries": [
-    "mos09-002"
+    "mos09-002",
+    "mos09-010"
    ]
   },
   {
@@ -616,7 +696,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "6890053a457c0caf"
+  "at": "2026-09-07",
+  "source_sha256": "4aeb668671717cd0"
  }
 }

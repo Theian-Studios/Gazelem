@@ -19,7 +19,7 @@
    "Testimony",
    "Consequence"
   ],
-  "connections": 22,
+  "connections": 26,
   "initial": false
  },
  "world_behind": [
@@ -58,7 +58,19 @@
   {
    "term": "Wroth",
    "verse_label": "v. 3",
-   "text": "Angry, in the older and heavier sense of a settled fury rather than a flash of temper. The record uses the comparative in saying the king was \"more wroth\" and so measures the anger against the plea that caused it. Alma had asked for mercy, and the request made things worse."
+   "text": "Angry, in the older and heavier sense of a settled fury rather than a flash of temper. Treated at Mosiah 10:14. The record uses the comparative in saying the king was \"more wroth\" and so measures the anger against the plea that caused it. Alma had asked for mercy, and the request made things worse.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 10:14",
+     "start": 98,
+     "end": 110,
+     "book": "Mosiah",
+     "chapter": 10,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
   },
   {
    "term": "Concealed",
@@ -95,7 +107,19 @@
   {
    "term": "Thou hast said that God himself should come down among the children of men",
    "verse_label": "v. 8",
-   "text": "The charge, quoted back almost exactly as Abinadi had said it two chapters earlier. Noah does not misrepresent him. The accusation is a direct citation. The court understood the sermon and convicted him on the strength of understanding it."
+   "text": "The charge, quoted back almost exactly as Abinadi had said it two chapters earlier (Mosiah 15:1). Noah does not misrepresent him. The accusation is a direct citation. The court understood the sermon and convicted him on the strength of understanding it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 15:1",
+     "start": 84,
+     "end": 95,
+     "book": "Mosiah",
+     "chapter": 15,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
   },
   {
    "term": "I have suffered myself that I have fallen into your hands",
@@ -105,7 +129,19 @@
   {
    "term": "This shall also stand as a testimony against you at the last day",
    "verse_label": "v. 10",
-   "text": "Two things are said to stand: the words, and the innocent blood. Both are described as evidence. Alma's own son will say almost this sentence, watching believers burn at Ammonihah decades later."
+   "text": "Two things are said to stand: the words, and the innocent blood. Both are described as evidence. Alma's own son will say almost this sentence, watching believers burn at Ammonihah decades later (Alma 14:11).",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 14:11",
+     "start": 195,
+     "end": 205,
+     "book": "Alma",
+     "chapter": 14,
+     "verse_start": 11,
+     "verse_end": 11
+    }
+   ]
   },
   {
    "term": "For he feared his word",
@@ -130,53 +166,25 @@
  ],
  "verses": [
   {
-   "label": "v. 2–4",
-   "start": 2,
-   "end": 4,
-   "title": "One man in the room",
-   "text": "Alma believes, pleads for mercy, is cast out, hunted, and hides. Then the single most consequential sentence in the unit: while concealed he wrote all the words Abinadi had spoken. Everything in the four preceding chapters reaches us through a man who was running for his life."
-  },
-  {
-   "label": "v. 5–8",
-   "start": 5,
+   "label": "v. 7–8",
+   "start": 7,
    "end": 8,
-   "title": "Three days, then a charge",
-   "text": "Bound, imprisoned, and brought back after the priests have conferred. The accusation, when it comes, is a quotation of the sermon plus an offer: withdraw the words and live. The offer treats the words as separable from the man."
+   "title": "One proposition, and it is enough to hang a man",
+   "text": "The record gives the accusation in the king's own words and then gives the ground: \"Abinadi, we have found an accusation against thee, and thou art worthy of death. For thou hast said that God himself should come down among the children of men; and now, for this cause thou shalt be put to death.\" The offence is a single proposition, stated in eleven words, and the record makes no attempt to add other counts to it."
   },
   {
-   "label": "v. 9–10",
-   "start": 9,
-   "end": 10,
-   "title": "The refusal, and two exhibits",
-   "text": "He will not withdraw them because they are true, and he offers his own arrest as evidence that he means it. Then he names what will outlast the fire: the words, and the blood. Both are described as standing at a future hearing."
-  },
-  {
-   "label": "v. 11–12",
-   "start": 11,
-   "end": 12,
-   "title": "The king who nearly let him go",
-   "text": "Noah is afraid of the word and moves to release him. The priests change the charge from doctrine to insult, and the king's fear of judgment is replaced by anger about his own dignity. The reversal takes one verse."
-  },
-  {
-   "label": "v. 13–14",
+   "label": "v. 13",
    "start": 13,
-   "end": 14,
-   "title": "The fire",
-   "text": "Bound, scourged with burning sticks, and the narration slows to a single clause: when the flames began to scorch him, he cried unto them. What follows is a prophecy, addressed to the men who lit it."
-  },
-  {
-   "label": "v. 15–18",
-   "start": 15,
-   "end": 18,
-   "title": "The sentence returned",
-   "text": "Your descendants will do this to others; you will be diseased, smitten, driven, scattered, hunted, and burned yourselves. It is precise about mechanism, and every item on the list is something the record later reports happening."
+   "end": 13,
+   "title": "The method reported, with an instrument named",
+   "text": "The record describes the execution with a specific instrument and no elaboration: \"they took him and bound him, and scourged his skin with faggots, yea, even unto death.\" Faggots are bundles of sticks, so the account is of burning applied by scourging rather than of a pyre. The record spends more words on the last speech than on the killing, and gives the killing no adjective at all."
   },
   {
    "label": "v. 19–20",
    "start": 19,
    "end": 20,
-   "title": "Two sentences, and the abridger's note",
-   "text": "Vengeance belongs to God, and take my soul. Then the abridger's own verdict: he would not deny the commandments, and his death sealed the truth of what he said. The record does not narrate the death. It classifies it."
+   "title": "Six words of prayer, and the record's own summary",
+   "text": "The speech ends on a sentence with no accusation in it: \"Thus God executeth vengeance upon those that destroy his people. O God, receive my soul.\" The record then closes the chapter with its own account of the cause of death, and the cause it names is a refusal, not a doctrine: \"having been put to death because he would not deny the commandments of God, having sealed the truth of his words by his death.\""
   }
  ],
  "chapter": [
@@ -208,12 +216,46 @@
   {
    "n": 6,
    "title": "The prophecy is closed out explicitly, much later",
-   "text": "The record returns to these verses to say the words were brought to pass, identifies the descendants it fell on, notes that Abinadi was the first to suffer death by fire for belief, and restates what he had meant. Prophecies in this record are rarely audited that openly."
+   "text": "The prophecy at verses 15 through 18 is closed out at Alma 25:9–12, seventy years and eight chapters later, and the audit is itemized: \"the words of Abinadi were brought to pass,\" the seed of the priests identified, \"Abinadi was the first that suffered death by fire,\" and the meaning restated, \"this is what he meant.\" The record even supplies the verifying quotation, \"What ye shall do unto me shall be a type of things to come.\" Few prophecies in these books are checked off that explicitly.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 25:9–12",
+     "start": 54,
+     "end": 66,
+     "book": "Alma",
+     "chapter": 25,
+     "verse_start": 9,
+     "verse_end": 12
+    }
+   ]
   },
   {
    "n": 7,
    "title": "The scene repeats in the next generation",
-   "text": "The son of the man who wrote these words down will stand at another burning, forbidden to intervene, and say that the blood of the innocent will stand as a witness at the last day. He is quoting a sermon his father copied out while in hiding."
+   "text": "Verse 10 has Abinadi say \"if ye slay me ye will shed innocent blood, and this shall also stand as a testimony against you at the last day.\" At Alma 14:11 the son of the scribe who preserved this sermon stands at another burning and says the same thing, that the Lord receives them \"in glory\" and that the blood of the innocent \"shall stand as a witness against them\" at the last day. Mosiah 17:4 records the scribe hiding and writing; the sentence he wrote down is spoken by his son roughly a century later.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 14:11",
+     "start": 143,
+     "end": 153,
+     "book": "Alma",
+     "chapter": 14,
+     "verse_start": 11,
+     "verse_end": 11
+    },
+    {
+     "kind": "scripture",
+     "text": "Mosiah 17:4",
+     "start": 384,
+     "end": 395,
+     "book": "Mosiah",
+     "chapter": 17,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
   },
   {
    "n": 8,
@@ -699,7 +741,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al44-012"
   },
   {
    "id": "mos17-012",
@@ -725,7 +767,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al25-011"
   },
   {
    "id": "mos17-011",
@@ -751,7 +793,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al14-010"
   },
   {
    "id": "mos17-010",
@@ -777,7 +819,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al25-012"
   },
   {
    "id": "mos17-009",
@@ -803,7 +845,111 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al25-010"
+  },
+  {
+   "id": "mos17-023",
+   "scope": "BOM",
+   "head": "Alma 20:19",
+   "anchor": {
+    "verse": 10,
+    "w1": 26,
+    "w2": 34,
+    "quote": "if ye slay me ye will shed innocent blood,"
+   },
+   "reason": "Ammon refusing to shed innocent blood at the gate",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 20,
+     "verse": 19,
+     "w1": 23,
+     "w2": 28,
+     "quote": "that I should shed innocent blood;",
+     "verse_text": "Now when Ammon had said these words unto him, he answered him, saying: I know that if I should slay my son, that I should shed innocent blood; for it is thou that hast sought to destroy him.",
+     "markdown": "Now when Ammon had said these words unto him, he answered him, saying: I know that if I should slay my son, **that I should shed innocent blood**; for it is thou that hast sought to destroy him.",
+     "span": true
+    }
+   ],
+   "mirror": "al20-005"
+  },
+  {
+   "id": "mos17-024",
+   "scope": "BOM",
+   "head": "Alma 39:5",
+   "anchor": {
+    "verse": 10,
+    "w1": 26,
+    "w2": 34,
+    "quote": "if ye slay me ye will shed innocent blood,"
+   },
+   "reason": "Alma ranking the shedding of innocent blood second",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 39,
+     "verse": 5,
+     "w1": 27,
+     "w2": 31,
+     "quote": "the shedding of innocent blood",
+     "verse_text": "Know ye not, my son, that these things are an abomination in the sight of the Lord; yea, most abominable above all sins save it be the shedding of innocent blood or denying the Holy Ghost?",
+     "markdown": "Know ye not, my son, that these things are an abomination in the sight of the Lord; yea, most abominable above all sins save it be **the shedding of innocent blood** or denying the Holy Ghost?",
+     "span": true
+    }
+   ],
+   "mirror": "al39-006"
+  },
+  {
+   "id": "mos17-025",
+   "scope": "BOM",
+   "head": "Alma 25:11",
+   "anchor": {
+    "verse": 15,
+    "w1": 16,
+    "w2": 29,
+    "quote": "thy seed shall cause that many shall suffer the pains that I do suffer,"
+   },
+   "reason": "the priests' descendants burning, as Abinadi said",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 25,
+     "verse": 11,
+     "w1": 25,
+     "w2": 30,
+     "quote": "many should suffer death by fire,",
+     "verse_text": "And now Abinadi was the first that suffered death by fire because of his belief in God; now this is what he meant, that many should suffer death by fire, according as he had suffered.",
+     "markdown": "And now Abinadi was the first that suffered death by fire because of his belief in God; now this is what he meant, that **many should suffer death by fire**, according as he had suffered.",
+     "span": true
+    }
+   ],
+   "mirror": "al25-006"
+  },
+  {
+   "id": "mos17-026",
+   "scope": "BOM",
+   "head": "Ether 11:5",
+   "anchor": {
+    "verse": 20,
+    "w1": 17,
+    "w2": 30,
+    "quote": "having been put to death because he would not deny the commandments of God,"
+   },
+   "reason": "the Jaredite law that made prophecy a capital crime",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 11,
+     "verse": 5,
+     "w1": 13,
+     "w2": 28,
+     "quote": "all the prophets who prophesied of the destruction of the people should be put to death;",
+     "verse_text": "And it came to pass that the brother of Shiblom caused that all the prophets who prophesied of the destruction of the people should be put to death;",
+     "markdown": "And it came to pass that the brother of Shiblom caused that **all the prophets who prophesied of the destruction of the people should be put to death**;",
+     "span": true
+    }
+   ],
+   "mirror": "eth11-008"
   },
   {
    "id": "mos17-015",
@@ -942,6 +1088,8 @@
    "quote": "if ye slay me ye will shed innocent blood",
    "entries": [
     "mos17-011",
+    "mos17-023",
+    "mos17-024",
     "mos17-015"
    ]
   },
@@ -961,7 +1109,8 @@
    "w2": 29,
    "quote": "thy seed shall cause that many shall suffer the pains that I do suffer",
    "entries": [
-    "mos17-009"
+    "mos17-009",
+    "mos17-025"
    ]
   },
   {
@@ -994,10 +1143,19 @@
     "mos17-004",
     "mos17-012"
    ]
+  },
+  {
+   "verse": 20,
+   "w1": 17,
+   "w2": 30,
+   "quote": "having been put to death because he would not deny the commandments of God,",
+   "entries": [
+    "mos17-026"
+   ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "21692710e3bb028b"
+  "at": "2026-09-07",
+  "source_sha256": "9b9613681c728c76"
  }
 }

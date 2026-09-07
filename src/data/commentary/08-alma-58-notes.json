@@ -15,9 +15,9 @@
   "principles": [
    "A trick that no longer works",
    "Reinforcements asked for and never sent",
-   ""
+   "A complaint made without accusation"
   ],
-  "connections": 9,
+  "connections": 13,
   "initial": true
  },
  "world_behind": [
@@ -155,58 +155,42 @@
   {
    "term": "They stand fast in that liberty wherewith God has made them free",
    "verse_label": "v. 40",
-   "text": "Paul's sentence to the Galatians, applied to the two thousand and sixty. Helaman pairs it with their many wounds and their strictness in remembering God."
+   "text": "Paul's sentence to the Galatians (Gal. 5:1), applied to the two thousand and sixty. Helaman pairs it with their many wounds and their strictness in remembering God.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Gal. 5:1",
+     "start": 34,
+     "end": 42,
+     "book": "Gal",
+     "chapter": 5,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
   }
  ],
  "verses": [
   {
-   "label": "v. 1–6",
-   "start": 1,
-   "end": 6,
-   "title": "The stalemate",
-   "text": "Manti cannot be decoyed, because the Lamanites remember. They are too numerous to attack in their strongholds. Helaman sends an embassy to the governor and waits for strength and provisions, and the waiting profits little while the enemy grows."
-  },
-  {
-   "label": "v. 7–12",
+   "label": "v. 7–8",
    "start": 7,
-   "end": 12,
-   "title": "Hunger and prayer",
-   "text": "The army is reduced almost to starvation. They pour out their souls in prayer for strength and deliverance. God speaks peace to their souls, grants faith and hope, and they take courage to conquer or die."
+   "end": 8,
+   "title": "Starvation stated, and the relief counted exactly",
+   "text": "The record gives the condition without softening: \"we did wait in these difficult circumstances for the space of many months, even until we were about to perish for the want of food.\" The relief is then reported with a figure and a closing clause that measures it: \"we did receive food, which was guarded to us by an army of two thousand men to our assistance; and this is all the assistance which we did receive.\" The last seven words turn a reinforcement into a complaint without any adjective doing the work."
   },
   {
-   "label": "v. 13–15",
+   "label": "v. 13–28",
    "start": 13,
-   "end": 15,
-   "title": "Provisions and men",
-   "text": "Two thousand men arrive from Zarahemla with provisions. The Lamanites take courage from their own reinforcements and prepare to attack. Helaman resolves to draw them out rather than wait."
-  },
-  {
-   "label": "v. 16–28",
-   "start": 16,
    "end": 28,
-   "title": "Manti taken",
-   "text": "Gid and Teomner are hidden with two forces. Helaman marches near the city as bait; the Lamanites pursue with their whole army; the hidden forces take the city and cut off those left. The Nephites march by night to Zarahemla's road, the Lamanites follow and lose them, and Manti is held without bloodshed."
+   "title": "A city taken and the record says nobody died",
+   "text": "The record reports the manoeuvre in stages: a feigned retreat, two detachments hidden \"on the right\" and \"on the left,\" a pursuit, the guards cut off, a night march \"by another way,\" and an arrival \"before the Lamanites did return.\" Verse 28 names the method and states the result in the same sentence: \"by this stratagem we did take possession of the city of Manti without the shedding of blood.\" A war chapter reports a capture and specifies that its casualty count was zero."
   },
   {
-   "label": "v. 29–33",
-   "start": 29,
-   "end": 33,
-   "title": "The quarter cleared",
-   "text": "The Lamanites flee the whole region, taking many women and children. Every captured city is recovered and families return home. The armies are small for so many cities, and Helaman says they trust God who gave them the victory."
-  },
-  {
-   "label": "v. 34–38",
+   "label": "v. 34–37",
    "start": 34,
-   "end": 38,
-   "title": "The complaint",
-   "text": "They do not know why the government sends no more strength. Either Moroni's front took the men, in which case they will not murmur, or there is a faction withholding them. Helaman says it does not matter and trusts God for deliverance."
-  },
-  {
-   "label": "v. 39–41",
-   "start": 39,
-   "end": 41,
-   "title": "The close",
-   "text": "The sons of the people of Ammon are with him at Manti, kept from falling by the sword, not one slain, though wounded many times. They stand fast in liberty, remember God daily, keep his commandments, and believe the prophecies. He blesses Moroni and signs his name."
+   "end": 37,
+   "title": "Three explanations offered, none chosen",
+   "text": "The record lays out the possibilities in order and marks each as unproven. First a blank, \"we do not know the cause that the government does not grant us more strength.\" Then a charitable reading, \"we do not know but what ye are unsuccessful, and ye have drawn away the forces into that quarter of the land.\" Then the darker one, \"we fear that there is some faction in the government, that they do not send more men to our assistance.\" Verse 37 declines to settle it: \"But, behold, it mattereth not, we trust God will deliver us.\" Alma 61 later reports which of the three was right."
   }
  ],
  "chapter": [
@@ -223,7 +207,7 @@
   {
    "n": 3,
    "title": "The prayer is answered with assurance rather than supply",
-   "text": "They ask for strength and deliverance; God speaks peace and gives hope. Provisions arrive later and from Zarahemla."
+   "text": "Verse 10 lists four things asked for, strength, deliverance, retention of cities and lands, and the cause of liberty. Verse 11 lists three things given, and none of them is on that list: \"he did visit us with assurances that he would deliver us,\" \"he did speak peace to our souls,\" and \"did grant unto us great faith, and did cause us that we should hope for our deliverance in him.\" Verse 12 reports what the writers did with it, \"we did take courage with our small force which we had received.\" The petition is for supply and the answer is for morale."
   },
   {
    "n": 4,
@@ -248,7 +232,7 @@
   {
    "n": 8,
    "title": "The letter closes on their character",
-   "text": "Standing fast, strict in remembering, keeping statutes, faith strong in the prophecies. The military report ends by describing what the soldiers believe."
+   "text": "The last paragraph of the letter turns from operations to character. Verse 40 gives four descriptions in one sentence: they \"stand fast in that liberty wherewith God has made them free,\" \"are strict to remember the Lord their God from day to day,\" \"observe to keep his statutes, and his judgments, and his commandments continually,\" and \"their faith is strong in the prophecies.\" Verse 37 has already recorded the writers suspecting \"some faction in the government\" and declining to press it, \"it mattereth not.\" A dispatch about supply shortages closes on what the troops believe."
   }
  ],
  "world_in_front": {
@@ -264,14 +248,34 @@
     "text": "Helaman sent an embassy to the governor. When you need support, make the request formally, so that what happens next is a matter of record."
    },
    {
-    "title": "Name the possibilities without choosing one",
-    "verse_label": "v. 35–36",
-    "text": "Helaman gave two explanations for the silence and asserted neither. When you do not know why someone has failed you, saying so honestly is stronger than guessing."
+    "title": "Take the peace that arrives before the supplies",
+    "verse_label": "v. 11",
+    "text": "The answer to Helaman's prayer was assurance and peace spoken to their souls while the reinforcements still did not come. What changes first is often your capacity to keep going, and that counts as an answer even with the circumstances unmoved."
+   },
+   {
+    "title": "Somebody has to take the hidden part",
+    "verse_label": "v. 16–17",
+    "text": "Gid and Teomner sat still in the wilderness on the right and the left while the visible army did the retreating. A plan like this needs people willing to do the part nobody watches, so name that part out loud and thank whoever takes it."
+   },
+   {
+    "title": "Change the route, not only the effort",
+    "verse_label": "v. 26",
+    "text": "Helaman kept his men from sleeping and marched by another way, arriving at Manti ahead of the Lamanites. When you are behind, more effort along the same road usually keeps you behind, and the gain comes from a different road."
+   },
+   {
+    "title": "Expect the win to hand you a new problem",
+    "verse_label": "v. 32",
+    "text": "Helaman reports every city recovered and then reports that his armies are too small to hold so many. Success enlarges what you are answerable for, so plan the holding before you celebrate the taking."
    },
    {
     "title": "Refuse to murmur, and say why",
     "verse_label": "v. 35",
     "text": "He declined to complain if the reason was good. Decide in advance which explanations for a disappointment would settle the matter for you."
+   },
+   {
+    "title": "Name the possibilities without choosing one",
+    "verse_label": "v. 35–36",
+    "text": "Helaman gave two explanations for the silence and asserted neither. When you do not know why someone has failed you, saying so honestly is stronger than guessing."
    }
   ],
   "questions": [
@@ -425,6 +429,84 @@
    "mirror": "al57-004"
   },
   {
+   "id": "al58-010",
+   "scope": "BOOK",
+   "head": "Alma 59:1",
+   "anchor": {
+    "verse": 4,
+    "w1": 7,
+    "w2": 18,
+    "quote": "I thus did send an embassy to the governor of our land,"
+   },
+   "reason": "Moroni reading the letter this chapter sent",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 59,
+     "verse": 1,
+     "w1": 21,
+     "w2": 29,
+     "quote": "after Moroni had received and had read Helaman's epistle,",
+     "verse_text": "Now it came to pass in the thirtieth year of the reign of the judges over the people of Nephi, after Moroni had received and had read Helaman's epistle, he was exceedingly rejoiced because of the welfare, yea, the exceeding success which Helaman had had, in obtaining those lands which were lost.",
+     "markdown": "Now it came to pass in the thirtieth year of the reign of the judges over the people of Nephi, **after Moroni had received and had read Helaman's epistle**, he was exceedingly rejoiced because of the welfare, yea, the exceeding success which Helaman had had, in obtaining those lands which were lost.",
+     "span": true
+    }
+   ],
+   "mirror": "al59-001"
+  },
+  {
+   "id": "al58-011",
+   "scope": "BOOK",
+   "head": "Alma 59:7",
+   "anchor": {
+    "verse": 5,
+    "w1": 10,
+    "w2": 20,
+    "quote": "the Lamanites were also receiving great strength from day to day,"
+   },
+   "reason": "the same phrase in the report from the other front",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 59,
+     "verse": 7,
+     "w1": 8,
+     "w2": 13,
+     "quote": "receiving strength from day to day,",
+     "verse_text": "And thus being exceedingly numerous, yea, and receiving strength from day to day, by the command of Ammoron they came forth against the people of Nephihah, and they did begin to slay them with an exceedingly great slaughter.",
+     "markdown": "And thus being exceedingly numerous, yea, and **receiving strength from day to day**, by the command of Ammoron they came forth against the people of Nephihah, and they did begin to slay them with an exceedingly great slaughter.",
+     "span": true
+    }
+   ],
+   "mirror": "al59-005"
+  },
+  {
+   "id": "al58-013",
+   "scope": "BOOK",
+   "head": "Alma 61:4",
+   "anchor": {
+    "verse": 34,
+    "w1": 9,
+    "w2": 16,
+    "quote": "the government does not grant us more strength;"
+   },
+   "reason": "Pahoran naming who withheld the provisions",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 61,
+     "verse": 4,
+     "w1": 50,
+     "w2": 54,
+     "quote": "they have withheld our provisions,",
+     "verse_text": "And it is those who have sought to take away the judgment-seat from me that have been the cause of this great iniquity; for they have used great flattery, and they have led away the hearts of many people, which will be the cause of sore affliction among us; they have withheld our provisions, and have daunted our freemen that they have not come unto you.",
+     "markdown": "And it is those who have sought to take away the judgment-seat from me that have been the cause of this great iniquity; for they have used great flattery, and they have led away the hearts of many people, which will be the cause of sore affliction among us; **they have withheld our provisions**, and have daunted our freemen that they have not come unto you.",
+     "span": true
+    }
+   ],
+   "mirror": "al61-003"
+  },
+  {
    "id": "al58-005",
    "scope": "BOM",
    "head": "1 Ne. 2:11",
@@ -434,7 +516,7 @@
     "w2": 31,
     "quote": "we do not desire to murmur"
    },
-   "reason": "the word treated in full, of Laman and Lemuel against Lehi",
+   "reason": "the word treated in full, of Laman against Lehi",
    "targets": [
     {
      "ref": "1 Ne.",
@@ -448,7 +530,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "1ne02-020"
   },
   {
    "id": "al58-006",
@@ -474,7 +556,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al46-015"
+  },
+  {
+   "id": "al58-012",
+   "scope": "BOM",
+   "head": "3 Ne. 4:1",
+   "anchor": {
+    "verse": 6,
+    "w1": 2,
+    "w2": 12,
+    "quote": "the Lamanites were sallying forth against us from time to time,"
+   },
+   "reason": "the robbers sallying out of the hills, centuries on",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 4,
+     "verse": 1,
+     "w1": 24,
+     "w2": 34,
+     "quote": "began to come down and to sally forth from the hills,",
+     "verse_text": "And it came to pass that in the latter end of the eighteenth year those armies of robbers had prepared for battle, and began to come down and to sally forth from the hills, and out of the mountains, and the wilderness, and their strongholds, and their secret places, and began to take possession of the lands, both which were in the land south and which were in the land north, and began to take possession of all the lands which had been deserted by the Nephites, and the cities which had been left desolate.",
+     "markdown": "And it came to pass that in the latter end of the eighteenth year those armies of robbers had prepared for battle, and **began to come down and to sally forth from the hills**, and out of the mountains, and the wilderness, and their strongholds, and their secret places, and began to take possession of the lands, both which were in the land south and which were in the land north, and began to take possession of all the lands which had been deserted by the Nephites, and the cities which had been left desolate.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne04-005"
   },
   {
    "id": "al58-007",
@@ -486,7 +594,7 @@
     "w2": 27,
     "quote": "to acquaint him concerning the affairs of our people"
    },
-   "reason": "the King James Bible’s one use of the verb",
+   "reason": "the King James Bible's one use of the verb",
    "targets": [
     {
      "ref": "Job",
@@ -512,7 +620,7 @@
     "w2": 20,
     "quote": "they stand fast in that liberty wherewith God has made them free"
    },
-   "reason": "Paul’s sentence, in nearly the same words",
+   "reason": "Paul's sentence, in nearly the same words",
    "targets": [
     {
      "ref": "Gal.",
@@ -576,6 +684,15 @@
   },
   {
    "verse": 4,
+   "w1": 7,
+   "w2": 18,
+   "quote": "I thus did send an embassy to the governor of our land,",
+   "entries": [
+    "al58-010"
+   ]
+  },
+  {
+   "verse": 4,
    "w1": 19,
    "w2": 27,
    "quote": "to acquaint him concerning the affairs of our people",
@@ -584,12 +701,31 @@
    ]
   },
   {
+   "verse": 5,
+   "w1": 10,
+   "w2": 20,
+   "quote": "the Lamanites were also receiving great strength from day to day,",
+   "entries": [
+    "al58-011"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 2,
+   "w2": 12,
+   "quote": "the Lamanites were sallying forth against us from time to time,",
+   "entries": [
+    "al58-012"
+   ]
+  },
+  {
    "verse": 34,
    "w1": 9,
    "w2": 16,
    "quote": "the government does not grant us more strength",
    "entries": [
-    "al58-003"
+    "al58-003",
+    "al58-013"
    ]
   },
   {
@@ -623,7 +759,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "ae446a4b99acca5c"
+  "at": "2026-09-07",
+  "source_sha256": "c1d15eaaee27e391"
  }
 }

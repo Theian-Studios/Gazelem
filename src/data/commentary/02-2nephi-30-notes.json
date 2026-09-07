@@ -17,7 +17,7 @@
    "Restoration",
    "Nothing hidden"
   ],
-  "connections": 6,
+  "connections": 8,
   "initial": true
  },
  "world_behind": [
@@ -29,7 +29,7 @@
   {
    "n": 2,
    "title": "Covenant redefined",
-   "text": "Verse 2 states the rule the rest of the chapter runs on: Gentiles who repent are covenant people, Jews who will not repent are cast off. Lineage sets no floor and no ceiling. In a book that has spent chapters on seed, branches, and remnants, this is the sentence that says what those categories are for."
+   "text": "Verse 2 states the rule the rest of the chapter runs on: Gentiles who repent are covenant people, Jews who will not repent are cast off. Lineage sets no floor and no ceiling. After chapters of seed, branches, and remnants, this is the sentence that says what those categories are for."
   },
   {
    "n": 3,
@@ -123,13 +123,13 @@
   {
    "term": "Fatling",
    "verse_label": "v. 12",
-   "text": "A fatling is a young animal being fattened for slaughter. Its name comes from what will be done to it. The wolf, the leopard, and the lion are named as hunters, the lamb and the kid as what they hunt, and set among them is an animal people were raising for a table. The record counts fatlings elsewhere among a people's property, taxed by King Noah alongside the gold and the grain (Mosiah 11:3). The verse ends the violence between the animals and says nothing about the use the fatling was being kept for.",
+   "text": "A fatling is a young animal being fattened for slaughter. Treated at 2 Nephi 21:6. Its name comes from what will be done to it. The wolf, the leopard, and the lion are named as hunters, the lamb and the kid as what they hunt, and set among them is an animal people were raising for a table. The record counts fatlings elsewhere among a people's property, taxed by King Noah alongside the gold and the grain (Mosiah 11:3). The verse ends the violence between the animals and says nothing about the use the fatling was being kept for.",
    "refs": [
     {
      "kind": "scripture",
      "text": "Mosiah 11:3",
-     "start": 383,
-     "end": 394,
+     "start": 408,
+     "end": 419,
      "book": "Mosiah",
      "chapter": 11,
      "verse_start": 3,
@@ -211,7 +211,19 @@
   {
    "term": "With righteousness shall the Lord God judge the poor",
    "verse_label": "v. 9",
-   "text": "Nephi reaches back nine chapters and re-quotes his own copy of Isaiah 11 without announcing it. The Isaiah chapter gave a ruler judging with equity for the meek; the same words here are attached to the restoration he has been describing. He applies the prophecy; he does not stop to explain it."
+   "text": "Nephi reaches back nine chapters and re-quotes his own copy of Isaiah 11 without announcing it. The Isaiah chapter gave a ruler judging with equity for the meek (Isa. 11:4); the same words here are attached to the restoration he has been describing. He applies the prophecy; he does not stop to explain it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 11:4",
+     "start": 162,
+     "end": 171,
+     "book": "Isa",
+     "chapter": 11,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
   },
   {
    "term": "A great division among the people",
@@ -243,68 +255,73 @@
  ],
  "verses": [
   {
-   "label": "v. 1–2",
-   "start": 1,
-   "end": 2,
-   "title": "The rule, stated before the prophecy",
-   "text": "A warning against self-comparison, then the criterion: repentance, applied identically to Gentile and Jew. Everything after this is narrative, and this is the doctrine. Nephi puts it first so that no part of the sequence can be read as favoritism."
-  },
-  {
    "label": "v. 3–6",
    "start": 3,
    "end": 6,
-   "title": "How the remnant learns",
-   "text": "The book comes forth, goes to the Gentiles, is sealed again, and then reaches the remnant of Nephi's seed. What they learn is their own history first, that they came out from Jerusalem, and then the gospel. Identity precedes doctrine in the order given."
+   "title": "The record predicts its own transmission, step by step",
+   "text": "The sequence is given as a chain with each link stated: \"after the book of which I have spoken shall come forth, and be written unto the Gentiles, and sealed up again unto the Lord,\" then it goes to the remnant, then \"shall the remnant of our seed know concerning us, how that we came out from Jerusalem,\" then \"the gospel of Jesus Christ shall be declared among them,\" and only then the result, \"their scales of darkness shall begin to fall from their eyes.\" The book is the first item in its own prophecy, and the effect described is a recovery of history before it is a conversion."
   },
   {
-   "label": "v. 7–8",
-   "start": 7,
-   "end": 8,
-   "title": "The Jews, and then everyone",
-   "text": "Scattered Jews begin to believe and gather; then the work commences among all nations. The two verses run in sequence, and the chapter refuses to make either group the exclusive subject of the restoration."
-  },
-  {
-   "label": "v. 9–10",
+   "label": "v. 9–15",
    "start": 9,
-   "end": 10,
-   "title": "The judge, and the sorting",
-   "text": "Isaiah's righteous judge appears, and immediately after him the great division. Nephi places the two together: the judge who reproves with equity for the meek is the same one who spares his people and destroys the wicked. Neither verse is allowed to soften the other."
+   "end": 15,
+   "title": "Isaiah 11, printed twice in the same volume",
+   "text": "These seven verses reproduce Isaiah 11:4–9, which the volume has already given whole at 2 Nephi 21. Set the two side by side and four of them, verses 11, 13, 14 and 15 here, match 2 Ne. 21:5, 7, 8 and 9 word for word. Only two differ, and both changes are at the opening of the verse. Verse 9 supplies a subject where the earlier printing had a pronoun, \"with righteousness shall the Lord God judge the poor\" against \"shall he judge the poor,\" and verse 12 replaces \"The wolf also shall dwell with the lamb\" with \"And then shall the wolf dwell with the lamb,\" which fixes the passage to a moment the surrounding chapter has just described.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 21:5",
+     "start": 180,
+     "end": 190,
+     "book": "2 Ne",
+     "chapter": 21,
+     "verse_start": 5,
+     "verse_end": 5
+    }
+   ]
   },
   {
-   "label": "v. 11–15",
-   "start": 11,
-   "end": 15,
-   "title": "The peaceable kingdom, re-quoted",
-   "text": "Wolf and lamb, leopard and kid, the child leading, the weaned child at the den, and the earth full of knowledge. Nine chapters after copying these words from Isaiah, Nephi repeats them as the outcome of the restoration he has described, without a word of introduction."
+   "label": "v. 10",
+   "start": 10,
+   "end": 10,
+   "title": "A division stated before the peace is described",
+   "text": "Between the judging in verse 9 and the wolf in verse 12 the record inserts a verse the Isaiah passage does not carry: \"the time speedily cometh that the Lord God shall cause a great division among the people, and the wicked will he destroy; and he will spare his people.\" The animals lying down together arrive two verses after a separation and a destruction. A reader of Isaiah 11 alone meets the peaceable kingdom without that preface."
   },
   {
    "label": "v. 16–17",
    "start": 16,
    "end": 17,
-   "title": "Everything known",
-   "text": "Three verses of absolutes: all things made known, nothing secret unrevealed, no work of darkness left in the dark, nothing sealed left tied. In a book that has spent chapters on things hidden and withheld, this is the reversal, and it is stated without conditions."
+   "title": "Everything disclosed, stated three ways",
+   "text": "The record makes the claim once and then restates it twice in parallel negative constructions: \"There is nothing which is secret save it shall be revealed; there is no work of darkness save it shall be made manifest in the light; and there is nothing which is sealed upon the earth save it shall be loosed.\" Secret, dark and sealed are three different kinds of hiddenness, and each gets its own verb. The same saying stands at Luke 12:2 and Matt. 10:26 in briefer form; here it is expanded to cover three cases.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Luke 12:2",
+     "start": 427,
+     "end": 436,
+     "book": "Luke",
+     "chapter": 12,
+     "verse_start": 2,
+     "verse_end": 2
+    },
+    {
+     "kind": "scripture",
+     "text": "Matt. 10:26",
+     "start": 441,
+     "end": 452,
+     "book": "Matt",
+     "chapter": 10,
+     "verse_start": 26,
+     "verse_end": 26
+    }
+   ]
   },
   {
    "label": "v. 18",
    "start": 18,
    "end": 18,
-   "title": "A bounded peace",
-   "text": "Satan loses power over hearts, and the sentence adds \"for a long time\" (v. 18). The chapter, the unit, and Nephi's commentary end on a promise with a limit written into it, in keeping with this record's refusal to overstate.",
-   "cites": [
-    {
-     "quote": "for a long time",
-     "verse": 18,
-     "start": 53,
-     "end": 78,
-     "spans": [
-      {
-       "w1": 34,
-       "w2": 37,
-       "text": "for a long time"
-      }
-     ]
-    }
-   ]
+   "title": "The last clause takes back part of what the verse gave",
+   "text": "The chapter ends on a limit: \"Satan shall have power over the hearts of the children of men no more, for a long time.\" The first half is absolute and the qualifier at the end is not. Nothing in the chapter explains what a long time is or what follows it, and the sentence is the closing line of the book's prophetic section. The record states an end to the adversary's power and, in the same breath, declines to make it permanent."
   }
  ],
  "chapter": [
@@ -326,7 +343,7 @@
   {
    "n": 4,
    "title": "Restoration is described as removal",
-   "text": "Scales falling, secrets revealed, sealed things loosed, Satan's power ended. Very little in this chapter is described as being added. The picture is of obstructions taken away, and knowledge arriving because nothing is in front of it any more."
+   "text": "Four removals close the chapter and one addition. Verse 6: \"their scales of darkness shall begin to fall from their eyes.\" Verse 17: \"There is nothing which is secret save it shall be revealed... there is nothing which is sealed upon the earth save it shall be loosed.\" Verse 18: \"Satan shall have power over the hearts of the children of men no more.\" The single positive statement, at verse 15, is quoted from Isaiah 11:9, \"the earth shall be full of the knowledge of the Lord as the waters cover the sea.\" Even that arrives as filling, once the obstructions in verses 17 and 18 are gone."
   },
   {
    "n": 5,
@@ -448,7 +465,7 @@
     "w2": 10,
     "quote": "with righteousness shall the Lord God judge the poor"
    },
-   "reason": "Isaiah re-quoted nine chapters on",
+   "reason": "the same prophet's lines, given nine chapters back",
    "targets": [
     {
      "ref": "2 Ne.",
@@ -474,7 +491,7 @@
     "w2": 9,
     "quote": "then shall the wolf dwell with the lamb"
    },
-   "reason": "the peaceable kingdom applied",
+   "reason": "the animals at peace, applied here",
    "targets": [
     {
      "ref": "2 Ne.",
@@ -526,6 +543,58 @@
     }
    ],
    "mirror": "2ne27-011"
+  },
+  {
+   "id": "2ne30-007",
+   "scope": "BOM",
+   "head": "Hel. 15:13",
+   "anchor": {
+    "verse": 5,
+    "w1": 13,
+    "w2": 22,
+    "quote": "they shall be restored unto the knowledge of their fathers,"
+   },
+   "reason": "Samuel promising the same restoration",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 15,
+     "verse": 13,
+     "w1": 9,
+     "w2": 17,
+     "quote": "they shall again be brought to the true knowledge,",
+     "verse_text": "And this is according to the prophecy, that they shall again be brought to the true knowledge, which is the knowledge of their Redeemer, and their great and true shepherd, and be numbered among his sheep.",
+     "markdown": "And this is according to the prophecy, that **they shall again be brought to the true knowledge**, which is the knowledge of their Redeemer, and their great and true shepherd, and be numbered among his sheep.",
+     "span": true
+    }
+   ],
+   "mirror": "hel15-008"
+  },
+  {
+   "id": "2ne30-008",
+   "scope": "BOM",
+   "head": "3 Ne. 30:2",
+   "anchor": {
+    "verse": 2,
+    "w1": 8,
+    "w2": 22,
+    "quote": "as many of the Gentiles as will repent are the covenant people of the Lord;"
+   },
+   "reason": "Christ's own call to the Gentiles",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 30,
+     "verse": 2,
+     "w1": 1,
+     "w2": 8,
+     "quote": "Turn, all ye Gentiles, from your wicked ways;",
+     "verse_text": "Turn, all ye Gentiles, from your wicked ways; and repent of your evil doings, of your lyings and deceivings, and of your whoredoms, and of your secret abominations, and your idolatries, and of your murders, and your priestcrafts, and your envyings, and your strifes, and from all your wickedness and abominations, and come unto me, and be baptized in my name, that ye may receive a remission of your sins, and be filled with the Holy Ghost, that ye may be numbered with my people who are of the house of Israel.",
+     "markdown": "**Turn, all ye Gentiles, from your wicked ways**; and repent of your evil doings, of your lyings and deceivings, and of your whoredoms, and of your secret abominations, and your idolatries, and of your murders, and your priestcrafts, and your envyings, and your strifes, and from all your wickedness and abominations, and come unto me, and be baptized in my name, that ye may receive a remission of your sins, and be filled with the Holy Ghost, that ye may be numbered with my people who are of the house of Israel.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne30-005"
   },
   {
    "id": "2ne30-005",
@@ -587,7 +656,17 @@
    "w2": 22,
    "quote": "as many of the Gentiles as will repent are the covenant people of the Lord",
    "entries": [
-    "2ne30-001"
+    "2ne30-001",
+    "2ne30-008"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 13,
+   "w2": 22,
+   "quote": "they shall be restored unto the knowledge of their fathers,",
+   "entries": [
+    "2ne30-007"
    ]
   },
   {
@@ -629,7 +708,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "4cd2816f3c4e35d5"
+  "at": "2026-09-07",
+  "source_sha256": "9d17a146866c7b71"
  }
 }

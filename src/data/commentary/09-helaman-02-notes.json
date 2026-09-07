@@ -15,7 +15,7 @@
   "principles": [
    "A band that outlives its founder",
    "An assassin stopped by a servant",
-   ""
+   "A narrator naming the outcome in advance"
   ],
   "connections": 10,
   "initial": false
@@ -29,7 +29,19 @@
   {
    "n": 2,
    "title": "Helaman the third takes the office",
-   "text": "Verse 2 names him as the son of Helaman, so this is Alma's grandson, elected by the voice of the people."
+   "text": "Verse 2 names him the son of Helaman, which makes him Alma's grandson. Alma 63:11 has the records conferred on him before Shiblon's death and Helaman 3:21 gives him two sons, Nephi and Lehi, so the custodianship and the judgment-seat run in one family for four generations.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 63:11",
+     "start": 71,
+     "end": 81,
+     "book": "Alma",
+     "chapter": 63,
+     "verse_start": 11,
+     "verse_end": 11
+    }
+   ]
   },
   {
    "n": 3,
@@ -54,7 +66,7 @@
   {
    "n": 7,
    "title": "The chapter forecasts the end",
-   "text": "Verse 13 says Gadianton would prove almost the entire destruction of the people of Nephi, four hundred years before it happens."
+   "text": "Verse 13 lays the near-total ruin of the Nephites at Gadianton's door, four hundred years before it happens."
   }
  ],
  "words": [
@@ -93,12 +105,24 @@
   {
    "term": "Robbers",
    "verse_label": "v. 10",
-   "text": "Those who take by force. The record uses the word sixty-two times, and this is the first time it is applied to this band. From Helaman 6:18 onward it becomes their standing name."
+   "text": "Those who take by force. Treated at 1 Nephi 3:13. The record uses the word sixty-two times, and this is the first time it is applied to this band. From Helaman 6:18 onward it becomes their standing name."
   },
   {
    "term": "Overthrow",
    "verse_label": "v. 13",
-   "text": "To bring down completely. The record uses the word fifteen times. Verse 13 applies it to the Nephites and pairs it with almost their entire destruction."
+   "text": "To bring down completely. Treated at Jacob 7:2. The record uses the word fifteen times. Verse 13 applies it to the Nephites and pairs it with almost their entire destruction.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 7:2",
+     "start": 37,
+     "end": 46,
+     "book": "Jacob",
+     "chapter": 7,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
   }
  ],
  "phrases": [
@@ -175,43 +199,43 @@
    "label": "v. 1–2",
    "start": 1,
    "end": 2,
-   "title": "The seat filled again",
-   "text": "In the forty-second year, after Moronihah has restored peace, the judgment-seat is empty and contention begins again over who should fill it. Helaman, son of Helaman, is appointed by the voice of the people."
+   "title": "An empty chair, and the fifth vote in two chapters",
+   "text": "\"There was no one to fill the judgment-seat.\" The record states the vacancy and leaves the reader to supply the reason: Helaman 1 killed Pahoran at verse 9 and Pacumeni at verse 21. Then the machinery runs again, and Helaman is appointed \"by the voice of the people,\" the fifth use of that phrase in two chapters. The system keeps working. The men it seats keep dying."
   },
   {
-   "label": "v. 3–5",
-   "start": 3,
+   "label": "v. 4–5",
+   "start": 4,
    "end": 5,
-   "title": "Gadianton takes the band",
-   "text": "Kishkumen lies in wait to kill Helaman too, upheld by the band sworn to hide his wickedness. Gadianton, expert in speech and in his craft of murder and robbery, becomes their leader. He flatters them with an offer: put him in the judgment-seat and they will hold power and authority."
+   "title": "The man who names the band is introduced by his mouth",
+   "text": "Gadianton is \"exceedingly expert in many words, and also in his craft,\" a description found once in scripture, and the first thing credited to him is talk rather than violence. Verse 5 shows the talk working: he flatters the band with an offer of \"power and authority among the people\" if they will seat him. The band that killed a chief judge for its own leader is bought with the same thing it lost."
   },
   {
    "label": "v. 6–7",
    "start": 6,
    "end": 7,
-   "title": "The plan discovered",
-   "text": "A servant of Helaman, out by night, learns the band's plans through disguise. He meets Kishkumen, gives him a sign, and Kishkumen tells him what he intends and asks to be conducted to the judgment-seat."
+   "title": "The disguise changes hands",
+   "text": "Helaman 1:12 explained Kishkumen's escape by his costume: he was not known \"for he was in disguise.\" Here a servant of Helaman, out by night, gets his knowledge \"through disguise,\" a phrase used once in scripture. The band's own instrument is turned on it inside a single chapter, and the record does not comment on the symmetry."
   },
   {
-   "label": "v. 8–9",
+   "label": "v. 8",
    "start": 8,
+   "end": 8,
+   "title": "The editor names the thing in brackets",
+   "text": "Mid-sentence, in parentheses, Mormon supplies a term the narrative has not used: \"(and this was their secret plan, and their combination).\" Secret plan appears once in all of scripture, and it is not in anyone's mouth. It is the abridger stepping out to label what the reader is watching, before the story has a word for it."
+  },
+  {
+   "label": "v. 9",
+   "start": 9,
    "end": 9,
-   "title": "Kishkumen killed",
-   "text": "Knowing the whole design, and that the band's objects are murder, robbery, and power, the servant agrees to lead him there. On the way he stabs Kishkumen to the heart, and Kishkumen dies without a sound. The servant reports everything to Helaman."
+   "title": "The record specifies a sound that was not made",
+   "text": "Kishkumen is stabbed \"even to the heart, that he fell dead without a groan,\" a phrase with no parallel in scripture. The detail is not needed for the plot, which is already complete at dead. What the record buys with those three extra words is silence, which is what the servant needs in order to walk back and report."
   },
   {
-   "label": "v. 10–12",
-   "start": 10,
-   "end": 12,
-   "title": "The band escapes",
-   "text": "Helaman sends to arrest them for execution under the law. Gadianton, warned by Kishkumen's failure to return, takes the band out of the land by a secret way into the wilderness, and the officers find no one."
-  },
-  {
-   "label": "v. 13–14",
-   "start": 13,
+   "label": "v. 12–14",
+   "start": 12,
    "end": 14,
-   "title": "The forecast",
-   "text": "Mormon says this Gadianton would prove almost the entire destruction of the Nephites, and clarifies that he means the end of the book of Nephi, his source, rather than the end of Helaman."
+   "title": "Mormon interrupts himself to prevent a misreading",
+   "text": "Verse 13 promises that \"in the end of this book\" Gadianton will be seen to have caused the near-destruction of the Nephites. Verse 14 then stops the narrative flat: \"Behold I do not mean the end of the book of Helaman, but I mean the end of the book of Nephi, from which I have taken all the account which I have written.\" Correcting the ambiguity costs him his source document, which he names here and only one other time in the volume."
   }
  ],
  "chapter": [
@@ -271,6 +295,16 @@
  "world_in_front": {
   "applications": [
    {
+    "title": "Fill the empty seat before it makes trouble",
+    "verse_label": "v. 1",
+    "text": "Peace had just been established, and contention started again because nobody held the judgment-seat. A vacancy at the top is not a neutral pause but an opening, and the clock on it starts the same day."
+   },
+   {
+    "title": "Ask what the fluent person wants",
+    "verse_label": "v. 4",
+    "text": "Gadianton is introduced as exceedingly expert in many words and in his craft of murder and robbery, in one breath. Verbal skill multiplies whatever a person already intends, so find out the intention before you admire the delivery."
+   },
+   {
     "title": "Watch what a group is offered, not what it says",
     "verse_label": "v. 5",
     "text": "Gadianton bought the band with power and authority. When people change allegiance, look for what was on the table."
@@ -281,6 +315,11 @@
     "text": "A servant out at night did what the government could not. Small, unglamorous attention is often what stops the thing everyone would have called unstoppable."
    },
    {
+    "title": "Learn the whole shape before you act",
+    "verse_label": "v. 8",
+    "text": "The servant let Kishkumen talk until he knew the object of the entire band rather than only the one murder in front of him. When you catch a piece of something, use the time while your source still trusts you to find out how large it is."
+   },
+   {
     "title": "Move on it while it is still findable",
     "verse_label": "v. 11",
     "text": "Helaman sent for the band one step too late. When you have identified something you intend to deal with, the window is shorter than it looks."
@@ -289,6 +328,11 @@
     "title": "Say plainly what a thing will cost",
     "verse_label": "v. 13",
     "text": "Mormon named the outcome four hundred years early. Naming a trajectory out loud is worth more than describing the current state accurately."
+   },
+   {
+    "title": "Correct the sentence that could be misread",
+    "verse_label": "v. 14",
+    "text": "Mormon stopped to say which book he meant by \"the end of the book\". When something you have written can be taken two ways and one of them is wrong, fix it on the spot instead of hoping."
    }
   ],
   "questions": [
@@ -361,7 +405,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel01-011"
   },
   {
    "id": "hel02-002",
@@ -373,7 +417,7 @@
     "w2": 25,
     "quote": "Helaman, who was the son of Helaman, was appointed to fill the judgment-seat, by the voice of the people"
    },
-   "reason": "the previous appointment by the same procedure, to a man now dead",
+   "reason": "the previous appointment by the same procedure, now dead",
    "targets": [
     {
      "ref": "Hel.",
@@ -399,7 +443,7 @@
     "w2": 37,
     "quote": "having obtained, through disguise, a knowledge of those plans"
    },
-   "reason": "the same method, used by the assassin to get close to Pahoran",
+   "reason": "the same method, used to get close to Pahoran",
    "targets": [
     {
      "ref": "Hel.",
@@ -425,7 +469,7 @@
     "w2": 19,
     "quote": "this band of robbers and secret murderers"
    },
-   "reason": "the band under both founders’ names, once it has spread",
+   "reason": "the band under both founders' names, once it has spread",
    "targets": [
     {
      "ref": "Hel.",
@@ -451,7 +495,7 @@
     "w2": 12,
     "quote": "exceedingly expert in many words"
    },
-   "reason": "the other man the record calls expert, among the lawyers at Ammonihah",
+   "reason": "the other man called expert, a lawyer at Ammonihah",
    "targets": [
     {
      "ref": "Alma",
@@ -465,7 +509,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al10-012"
   },
   {
    "id": "hel02-006",
@@ -477,7 +521,7 @@
     "w2": 28,
     "quote": "to carry on the secret work of murder and of robbery"
    },
-   "reason": "the Jaredite combination, formed on a pattern the record calls old",
+   "reason": "the Jaredite combination, formed on a pattern called old",
    "targets": [
     {
      "ref": "Ether",
@@ -491,7 +535,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "eth08-005"
   },
   {
    "id": "hel02-007",
@@ -503,7 +547,7 @@
     "w2": 55,
     "quote": "this was their secret plan, and their combination)"
    },
-   "reason": "Alma cursing the land against workers of darkness, in the charge to Helaman",
+   "reason": "Alma cursing the land against workers of darkness",
    "targets": [
     {
      "ref": "Alma",
@@ -517,7 +561,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al37-016"
   },
   {
    "id": "hel02-008",
@@ -543,7 +587,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al63-009"
   },
   {
    "id": "hel02-009",
@@ -555,7 +599,7 @@
     "w2": 28,
     "quote": "this Gadianton did prove the overthrow, yea, almost the entire destruction of the people of Nephi"
    },
-   "reason": "Moroni looking back on secret combinations from the end of the record",
+   "reason": "Moroni looking back on secret combinations at the end",
    "targets": [
     {
      "ref": "Morm.",
@@ -569,7 +613,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "morm08-005"
   },
   {
    "id": "hel02-010",
@@ -683,7 +727,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "97f1da33e3c03a7c"
+  "at": "2026-09-07",
+  "source_sha256": "28223dc021ebb457"
  }
 }

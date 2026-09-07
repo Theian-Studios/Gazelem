@@ -17,9 +17,9 @@
   "principles": [
    "A prophecy sealed until it comes true",
    "A departure with no burial",
-   ""
+   "Prosperity that produces dissension"
   ],
-  "connections": 9,
+  "connections": 10,
   "initial": true
  },
  "world_behind": [
@@ -46,7 +46,7 @@
   {
    "n": 5,
    "title": "Alma blesses the land conditionally",
-   "text": "Verse 16 quotes the Lord cursing the land unto destruction for any nation that does wickedly when fully ripe. The same clause blesses and curses."
+   "text": "Verse 16 quotes the Lord putting the land under a curse once a nation ripens in wickedness. The same clause blesses and curses."
   },
   {
    "n": 6,
@@ -112,7 +112,7 @@
   {
    "term": "Uprightly",
    "verse_label": "v. 24",
-   "text": "Honestly, in a straight line. The record uses it six times and the King James Bible twelve, mostly in Proverbs and the Psalms. Mormon uses it of what the proud would not do, which is the last word of the chapter."
+   "text": "Honestly, in a straight line. It appears six times in the record, and the King James Bible twelve, mostly in Proverbs and the Psalms. Mormon uses it of what the proud would not do, which is the last word of the chapter."
   }
  ],
  "phrases": [
@@ -139,12 +139,24 @@
   {
    "term": "Because they shall sin against so great light and knowledge",
    "verse_label": "v. 12",
-   "text": "The cause Alma assigns. Alma 24 had said the same of the Amalekites, that knowing and then falling leaves a people worse. Here it is applied to the Nephites themselves."
+   "text": "The cause Alma assigns. Alma 24:30 had said the same of the Amalekites, that knowing and then falling leaves a people worse. Here it is applied to the Nephites themselves.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 24:30",
+     "start": 24,
+     "end": 34,
+     "book": "Alma",
+     "chapter": 24,
+     "verse_start": 30,
+     "verse_end": 30
+    }
+   ]
   },
   {
    "term": "Shall no more be numbered among the people of Nephi",
    "verse_label": "v. 13",
-   "text": "The nation ends as a category rather than only as a population. Verse 14 says the survivors will be numbered among the Lamanites and become like them."
+   "text": "The nation ends as a category rather than only as a population. Verse 14 folds whoever is left into the Lamanites, to become like them."
   },
   {
    "term": "The Lord cannot look upon sin with the least degree of allowance",
@@ -174,53 +186,75 @@
  ],
  "verses": [
   {
-   "label": "v. 1",
-   "start": 1,
-   "end": 1,
-   "title": "After the war",
-   "text": "The people rejoice at deliverance, give thanks, fast much, pray much, and worship with great joy."
-  },
-  {
-   "label": "v. 2–8",
+   "label": "v. 2–7",
    "start": 2,
-   "end": 8,
-   "title": "The examination",
-   "text": "Alma asks Helaman three questions: do you believe what I said about the records, do you believe in Christ who shall come, will you keep my commandments. Helaman answers each, and Alma blesses him and promises he will prosper in the land."
+   "end": 7,
+   "title": "The interview, in the chapter's shortest verses",
+   "text": "Alma puts three questions to Helaman and Helaman answers each one. Counted by words, the five shortest verses in this chapter are exactly verses 3 through 7, running eight, twelve, thirteen, eleven and thirteen words; the longest verse in the chapter runs seventy-four. The record slows to single sentences for the exchange and then never returns to that rhythm. Nothing is described, no setting is given, and the whole examination fits in fewer words than one verse of the prophecy that follows it."
   },
   {
-   "label": "v. 9–14",
+   "label": "v. 9",
    "start": 9,
-   "end": 14,
-   "title": "The sealed prophecy",
-   "text": "Alma tells him to write it and keep it unpublished until fulfilled. In four hundred years from Christ's appearance the Nephites will dwindle in unbelief, see wars, pestilences, famines and bloodshed, and become extinct. The survivors will be numbered among the Lamanites, save a few disciples who will also be hunted."
+   "end": 9,
+   "title": "Sealed, and written down anyway",
+   "text": "The instruction is given twice in a single verse and then cut across by a third clause. \"What I prophesy unto thee ye shall not make known; yea, what I prophesy unto thee shall not be made known, even until the prophecy is fulfilled; therefore write the words which I shall say.\" Not publishing and not recording come apart in this sentence, and the reason for the second is the first: the words are held back because they are meant to be checked later against what happened. A reader holding the next five verses is holding a document whose embargo the record considers expired."
   },
   {
-   "label": "v. 15–17",
-   "start": 15,
-   "end": 17,
-   "title": "The blessings",
-   "text": "Alma blesses Helaman, his other sons, and the earth for the righteous' sake. He quotes the Lord on the land: cursed unto destruction for any nation that does wickedly when fully ripe, because the Lord cannot look on sin with the least allowance. Then he blesses the church."
+   "label": "v. 10–14",
+   "start": 10,
+   "end": 14,
+   "title": "A date attached to a word",
+   "text": "The record fixes a term for the prophecy, \"in four hundred years from the time that Jesus Christ shall manifest himself unto them,\" and it names the outcome with a word the volume uses sparingly: extinct stands in seven verses across the whole book, and two of them are here, at verses 11 and 14. Verse 14 then qualifies the extinction into something narrower, that whoever survives \"shall be numbered among the Lamanites, and shall become like unto them.\" The prediction is not that a people dies but that a name stops being used."
+  },
+  {
+   "label": "v. 16",
+   "start": 16,
+   "end": 16,
+   "title": "A curse with no nation named",
+   "text": "The record sets a curse directly after the blessing on the land, and addresses it to everyone: \"Cursed shall be the land, yea, this land, unto every nation, kindred, tongue, and people, unto destruction, which do wickedly, when they are fully ripe.\" The relative clause at the end does the work. The condition is conduct and the timing is ripeness, and no group is exempted or singled out. Six verses after a prophecy that names the Nephites specifically, the same speaker states the rule in terms that would apply to whoever came next."
   },
   {
    "label": "v. 18–19",
    "start": 18,
    "end": 19,
-   "title": "The departure",
-   "text": "He leaves Zarahemla as if toward Melek and is never heard of again. The church says he was taken up or buried by the Lord as Moses was. Mormon checks the scriptures on Moses and records the conclusion as a supposition."
+   "title": "What the record says it does not know",
+   "text": "Two verses report Alma's disappearance and they carry five separate markings of how much is known. Verse 18: \"as to his death or burial we know not of.\" Verse 19: \"this we know, that he was a righteous man,\" then \"the saying went abroad in the church\" that he was taken up as Moses was, then \"we suppose that he has also received Alma,\" then \"we know nothing concerning his death and burial.\" A rumour is reported as a rumour, an inference is labelled an inference, and the conclusion is a stated blank. The phrase never heard of more is used of three people in the volume: Alma here, and two others at Alma 63:8 and Hel. 16:8.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 63:8",
+     "start": 603,
+     "end": 612,
+     "book": "Alma",
+     "chapter": 63,
+     "verse_start": 8,
+     "verse_end": 8
+    },
+    {
+     "kind": "scripture",
+     "text": "Hel. 16:8",
+     "start": 617,
+     "end": 626,
+     "book": "Hel",
+     "chapter": 16,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
   },
   {
    "label": "v. 20–22",
    "start": 20,
    "end": 22,
-   "title": "Rebuilding",
-   "text": "Helaman goes out to declare the word. After the wars and the many small dissensions, a regulation is needed, so he and his brethren establish the church again in every city and appoint priests and teachers over all the churches."
+   "title": "The name arrives",
+   "text": "Helaman is used seven times in this chapter, which is second among the twenty-six chapters of the volume that use the name at all, behind Helaman 2. Every use before verse 15 has him as a son being questioned. From verse 20 he goes forth \"to declare the word unto them,\" appoints priests and teachers, and re-establishes the church \"in every city throughout all the land.\" The chapter is the hinge where a name stops belonging to somebody's child."
   },
   {
    "label": "v. 23–24",
    "start": 23,
    "end": 24,
-   "title": "The dissension",
-   "text": "Once the officers are in place a dissension arises. They grow proud because of their great riches, grow rich in their own eyes, and refuse to walk uprightly before God."
+   "title": "The last verse answers the first",
+   "text": "The record opens on a people \"exceedingly rejoiced, because the Lord had again delivered them out of the hands of their enemies.\" Verse 24 closes on the same adverb turned inside out: they \"grew proud, being lifted up in their hearts, because of their exceedingly great riches.\" The construction is identical, an intensifier and a because, and the object of the because has moved from deliverance to money. Twenty-four verses cover roughly one year, and its opening and closing sentences put the same people in opposite conditions."
   }
  ],
  "chapter": [
@@ -232,7 +266,7 @@
   {
    "n": 2,
    "title": "A prophecy is written to be withheld",
-   "text": "Alma seals it until fulfilment, so its first readers are people for whom it has already come true. Mormon, publishing it, is one of them."
+   "text": "Verse 9 states the embargo twice over without a break, \"what I prophesy unto thee ye shall not make known; yea, what I prophesy unto thee shall not be made known, even until the prophecy is fulfilled.\" What follows is dated, \"in four hundred years from the time that Jesus Christ shall manifest himself unto them,\" and specific, \"the people of Nephi shall become extinct.\" Mormon 6:5 places the last battle at three hundred and eighty-four years after the sign, so the man publishing the sealed prophecy is writing after its term."
   },
   {
    "n": 3,
@@ -257,7 +291,7 @@
   {
    "n": 7,
    "title": "Reconstruction is institutional",
-   "text": "Helaman's answer to war and dissension is a regulation and appointments in every city. The work is organizational before it is anything else."
+   "text": "Verse 21 names the two instruments, \"the word of God should be declared among them\" and \"a regulation should be made throughout the church.\" Verse 22 gives the scope, \"in every city throughout all the land,\" and the action, \"they did appoint priests and teachers.\" Verse 23 then reports what the reorganization produced immediately, \"there arose a dissension among them, and they would not give heed to the words of Helaman.\" The remedy and the reaction to it stand in consecutive verses."
   },
   {
    "n": 8,
@@ -267,6 +301,11 @@
  ],
  "world_in_front": {
   "applications": [
+   {
+    "title": "Give thanks before you start the next thing",
+    "verse_label": "v. 1",
+    "text": "The people fasted and prayed after the deliverance instead of moving straight into rebuilding. When something you feared did not happen, mark it before the next task absorbs the relief."
+   },
    {
     "title": "Ask the questions before giving the blessing",
     "verse_label": "v. 2–8",
@@ -278,9 +317,24 @@
     "text": "Alma had Helaman record a prophecy he was not to publish. When you see something coming that nobody will credit yet, write it with the date and leave it alone."
    },
    {
+    "title": "Date the prediction",
+    "verse_label": "v. 10",
+    "text": "Alma fixed the failure at four hundred years from a named event instead of leaving the timing open. A forecast with no date attached can never be shown wrong, which is the same reason it can never be much use."
+   },
+   {
+    "title": "Audit yourself on what you already knew",
+    "verse_label": "v. 12",
+    "text": "The reason given for the collapse is sinning \"against so great light and knowledge\". When you look for your own drift, the serious items are not the things you never learned but the ones you already understood."
+   },
+   {
     "title": "Say what you do not know",
     "verse_label": "v. 18–19",
     "text": "Mormon reported a gap and labeled a supposition as one. When you tell a story with a hole in it, name the hole instead of smoothing it."
+   },
+   {
+    "title": "Do the repair after the emergency",
+    "verse_label": "v. 20–21",
+    "text": "Helaman went out to preach because wars and small dissensions had left the church needing regulation. Strain shows itself once the pressure lifts, so schedule the maintenance for after the crisis, not during it."
    },
    {
     "title": "Rebuild the structure, then watch for pride",
@@ -358,7 +412,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al37-011"
   },
   {
    "id": "al45-002",
@@ -384,7 +438,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al24-021"
   },
   {
    "id": "al45-003",
@@ -410,7 +464,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al06-014"
   },
   {
    "id": "al45-004",
@@ -422,7 +476,7 @@
     "w2": 43,
     "quote": "shall dwindle in unbelief"
    },
-   "reason": "the word at its first use in the record, of a nation perishing",
+   "reason": "the word at its first use, of a nation perishing",
    "targets": [
     {
      "ref": "1 Ne.",
@@ -436,7 +490,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "1ne04-015"
   },
   {
    "id": "al45-005",
@@ -462,7 +516,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "morm06-004"
   },
   {
    "id": "al45-006",
@@ -474,7 +528,7 @@
     "w2": 32,
     "quote": "when they are fully ripe"
    },
-   "reason": "the same condition set on the same land, for the Jaredites",
+   "reason": "the same condition on the same land, for Jaredites",
    "targets": [
     {
      "ref": "Ether",
@@ -488,7 +542,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "eth02-005"
+  },
+  {
+   "id": "al45-010",
+   "scope": "BOM",
+   "head": "Hel. 4:21",
+   "anchor": {
+    "verse": 12,
+    "w1": 3,
+    "w2": 16,
+    "quote": "this because they shall dwindle in unbelief and fall into the works of darkness,"
+   },
+   "reason": "the prophecy remembered when it came true",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 4,
+     "verse": 21,
+     "w1": 2,
+     "w2": 9,
+     "quote": "they began to remember the prophecies of Alma,",
+     "verse_text": "Yea, they began to remember the prophecies of Alma, and also the words of Mosiah; and they saw that they had been a stiffnecked people, and that they had set at naught the commandments of God;",
+     "markdown": "Yea, **they began to remember the prophecies of Alma**, and also the words of Mosiah; and they saw that they had been a stiffnecked people, and that they had set at naught the commandments of God;",
+     "span": true
+    }
+   ],
+   "mirror": "hel04-004"
   },
   {
    "id": "al45-007",
@@ -500,7 +580,7 @@
     "w2": 13,
     "quote": "wars and pestilences, yea, famines and bloodshed"
    },
-   "reason": "the same list, in Christ’s account of the last days",
+   "reason": "the same list, in Christ's account of the last days",
    "targets": [
     {
      "ref": "Matt.",
@@ -599,6 +679,15 @@
   },
   {
    "verse": 12,
+   "w1": 3,
+   "w2": 16,
+   "quote": "this because they shall dwindle in unbelief and fall into the works of darkness,",
+   "entries": [
+    "al45-010"
+   ]
+  },
+  {
+   "verse": 12,
    "w1": 31,
    "w2": 39,
    "quote": "they shall sin against so great light and knowledge",
@@ -653,7 +742,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "8a4c9d422b8a99d9"
+  "at": "2026-09-07",
+  "source_sha256": "7d19244426f22139"
  }
 }

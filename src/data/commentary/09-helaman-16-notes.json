@@ -16,7 +16,7 @@
   "principles": [
    "A sermon that divides its hearers",
    "A miracle explained away",
-   ""
+   "An argument built out of resentment"
   ],
   "connections": 10,
   "initial": false
@@ -25,17 +25,29 @@
   {
    "n": 1,
    "title": "The crowd splits three ways",
-   "text": "Verse 1 has believers going to Nephi, verse 2 has others throwing stones and arrows, and verse 3 has more believing when the throwing fails."
+   "text": "Verse 1 has believers going to Nephi, verse 2 has others throwing stones and arrows, and verse 3 has more believing when the throwing fails. Helaman 13:2 records the same city casting Samuel out before he ever climbed the wall, so this crowd has already refused him once."
   },
   {
    "n": 2,
    "title": "Nephi is already working",
-   "text": "Verses 4 and 5 have him baptizing, prophesying, showing signs, and telling people things in advance so they will remember being told."
+   "text": "Verses 4 and 5 have Nephi baptizing, prophesying, showing signs, and telling people things beforehand so they will remember having been told. Helaman 10:17 had the Spirit carrying him from multitude to multitude; six chapters later he is stationary and the people are coming to him."
   },
   {
    "n": 3,
    "title": "The failure to hit him is used as evidence against him",
-   "text": "Verse 6 has them concluding he has a devil, since nothing else explains the misses."
+   "text": "Verse 6 has them concluding he has a devil, since nothing else explains the misses. Alma 30:53 has Korihor report that the devil appeared to him as an angel, and 3 Nephi 2:2 has the next generation credit the signs of Christ's birth to the devil's power. The explanation is a standing one in this part of the record.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 30:53",
+     "start": 84,
+     "end": 94,
+     "book": "Alma",
+     "chapter": 30,
+     "verse_start": 53,
+     "verse_end": 53
+    }
+   ]
   },
   {
    "n": 4,
@@ -45,7 +57,7 @@
   {
    "n": 5,
    "title": "Four years pass with little change",
-   "text": "Verses 9 through 12 summarize the eighty-seventh through eighty-ninth years in three sentences."
+   "text": "Verses 9 through 12 summarize the eighty-seventh through eighty-ninth years in three sentences. Helaman 11:36 to 38 had disposed of four years the same way a few chapters earlier, so the compression is Mormon's habit at the end of a book rather than a gap in his source."
   },
   {
    "n": 6,
@@ -67,20 +79,52 @@
   {
    "n": 7,
    "title": "The unbelievers' reasoning is quoted in full",
-   "text": "Verses 16 through 21 give their argument, including a theory about priests keeping them ignorant."
+   "text": "Verses 16 through 21 give their argument, including a theory about priests keeping them ignorant and dependent. Alma 30:27 has Korihor make the same charge against the Nephite high priest, and 2 Nephi 28:5 and 6 has Nephi predict the sayings almost word for word.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 30:27",
+     "start": 112,
+     "end": 122,
+     "book": "Alma",
+     "chapter": 30,
+     "verse_start": 27,
+     "verse_end": 27
+    }
+   ]
   }
  ],
  "words": [
   {
    "term": "Fellow",
    "verse_label": "v. 6",
-   "text": "A dismissive way of naming a man. The record uses the word eight times, including Mosiah 13:1, where Noah's priests call Abinadi \"this fellow.\" The King James Bible has it twenty-eight times, often in the same register.",
+   "text": "A dismissive way of naming a man. The word stands in seven verses of this record, and in five of them it is a compound meaning a companion, as in \"fellow beings\" at Mosiah 2:17 and \"fellow laborers\" at Alma 31:32. Only two verses use it as a bare noun for a person, this one and Mosiah 13:1, where Noah's priests call Abinadi \"this fellow.\" Both are hostile.",
    "refs": [
     {
      "kind": "scripture",
+     "text": "Mosiah 2:17",
+     "start": 165,
+     "end": 176,
+     "book": "Mosiah",
+     "chapter": 2,
+     "verse_start": 17,
+     "verse_end": 17
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 31:32",
+     "start": 202,
+     "end": 212,
+     "book": "Alma",
+     "chapter": 31,
+     "verse_start": 32,
+     "verse_end": 32
+    },
+    {
+     "kind": "scripture",
      "text": "Mosiah 13:1",
-     "start": 82,
-     "end": 93,
+     "start": 279,
+     "end": 290,
      "book": "Mosiah",
      "chapter": 13,
      "verse_start": 1,
@@ -96,7 +140,7 @@
   {
    "term": "Guessed",
    "verse_label": "v. 16",
-   "text": "Arrived at by chance rather than knowledge. The word occurs once in all of scripture, here, in the unbelievers' explanation of how the prophets could be right."
+   "text": "Arrived at by chance rather than knowledge. It appears a single time in all of scripture, here, in the unbelievers' explanation of how the prophets could be right."
   },
   {
    "term": "Ignorance",
@@ -118,7 +162,7 @@
   {
    "term": "Mysterious",
    "verse_label": "v. 21",
-   "text": "Beyond understanding, and in this verse suspiciously so. The word occurs once in all of scripture, in the phrase \"the cunning and the mysterious arts of the evil one.\""
+   "text": "Beyond understanding, and in this verse suspiciously so. Scripture carries the word just once, in the phrase \"the cunning and the mysterious arts of the evil one.\""
   },
   {
    "term": "Rumors",
@@ -165,7 +209,19 @@
   {
    "term": "Angels did appear unto men, wise men, and did declare unto them glad tidings of great joy",
    "verse_label": "v. 14",
-   "text": "Reported in the ninetieth year, in the same words Luke uses at Bethlehem. Both hemispheres get angels and wise men."
+   "text": "Reported in the ninetieth year, in the same words Luke uses at Bethlehem (Luke 2:10). Both hemispheres get angels and wise men.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Luke 2:10",
+     "start": 74,
+     "end": 83,
+     "book": "Luke",
+     "chapter": 2,
+     "verse_start": 10,
+     "verse_end": 10
+    }
+   ]
   },
   {
    "term": "Some things they may have guessed right, among so many",
@@ -197,53 +253,61 @@
  ],
  "verses": [
   {
-   "label": "v. 1–5",
-   "start": 1,
+   "label": "v. 4–5",
+   "start": 4,
    "end": 5,
-   "title": "Believers and stones",
-   "text": "Many hear Samuel on the wall, and those who believe go to Nephi, confess their sins, and ask for baptism. Those who do not believe are angry and throw stones and shoot arrows, and the Spirit is with him so that nothing hits. Seeing that, many more believe and go to be baptized. Nephi is baptizing, prophesying, preaching repentance, showing signs and working miracles, so they will know Christ is coming shortly and will remember afterward that they had been told beforehand."
+   "title": "A second preacher named, and what he was doing",
+   "text": "The new believers are sent somewhere specific: \"they went away unto Nephi to be baptized.\" The record then describes his work in a chain of participles, \"baptizing, and prophesying, and preaching, crying repentance unto the people, showing signs and wonders, working miracles among the people,\" and gives the purpose of the signs in verse 5, \"that they might know and remember at the time of their coming that they had been made known unto them beforehand.\" Signs are described as memory aids for a later date."
   },
   {
    "label": "v. 6–8",
    "start": 6,
    "end": 8,
-   "title": "The order and the escape",
-   "text": "The more part do not believe, and when the stones and arrows miss they call for their captains to bind him, saying he has a devil and that this is why they cannot hit him. As they move to take him he throws himself down from the wall and flees to his own country, where he preaches among his own people. He is never heard of again among the Nephites."
+   "title": "A prophet jumps off a wall and leaves the record",
+   "text": "The escape is physical and undignified: \"as they went forth to lay their hands on him, behold, he did cast himself down from the wall, and did flee out of their lands, yea, even unto his own country.\" Verse 8 then closes the account with a formula the volume uses of three people: \"he was never heard of more among the Nephites.\" Alma 45:18 says it of Alma and Alma 63:8 of the ships that sailed north. The man whose prophecies drive the next four chapters walks out of the book in one clause.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 45:18",
+     "start": 330,
+     "end": 340,
+     "book": "Alma",
+     "chapter": 45,
+     "verse_start": 18,
+     "verse_end": 18
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 63:8",
+     "start": 361,
+     "end": 370,
+     "book": "Alma",
+     "chapter": 63,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
   },
   {
-   "label": "v. 9–12",
+   "label": "v. 9–13",
    "start": 9,
-   "end": 12,
-   "title": "Four quiet years",
-   "text": "The eighty-sixth year ends, and the eighty-seventh with the more part in pride and wickedness and a lesser part walking more circumspectly. The eighty-eighth is the same. In the eighty-ninth there is little alteration except that the people grow more hardened and do more against the commandments."
+   "end": 13,
+   "title": "Four years reported almost entirely as year-endings",
+   "text": "The record spends four verses closing years and says outright that there is nothing in them: \"thus ended also the eighty and seventh year,\" \"these were the conditions also, in the eighty and eighth year,\" and then verse 12, \"there was but little alteration in the affairs of the people, save it were the people began to be more hardened in iniquity.\" Only at verse 13, in the ninetieth year, does content arrive. A book that will spend nine chapters on the events of the next few years first shows four in which almost nothing happens."
   },
   {
-   "label": "v. 13–14",
-   "start": 13,
-   "end": 14,
-   "title": "The signs begin",
-   "text": "In the ninetieth year great signs and wonders are given and the words of the prophets begin to be fulfilled. Angels appear to men, to wise men, declaring glad tidings of great joy, and the scriptures begin to be fulfilled."
+   "label": "v. 16",
+   "start": 16,
+   "end": 16,
+   "title": "The sceptics' best argument, quoted",
+   "text": "The record puts a genuine objection in its opponents' mouths and does not weaken it: \"Some things they may have guessed right, among so many; but behold, we know that all these great and marvelous works cannot come to pass, of which has been spoken.\" The reasoning is statistical. Given enough predictions, some will match by chance, and the ones that match prove nothing about the rest. The record reproduces the argument in a single sentence and offers no reply to it in this chapter."
   },
   {
-   "label": "v. 15–19",
-   "start": 15,
-   "end": 19,
-   "title": "The hardening and two arguments",
-   "text": "The people harden, except the most believing among Nephites and Lamanites, and begin to depend on their own strength and wisdom. They say some guesses landed among so many, and that the great works spoken of cannot happen. They reason and contend, asking why a Christ is reasonable at all, and why he would show himself at Jerusalem instead of here."
-  },
-  {
-   "label": "v. 20–23",
-   "start": 20,
-   "end": 23,
-   "title": "The theory of control",
-   "text": "They call it a wicked tradition handed down to make them believe in something marvelous happening far away, where they cannot check it, so that the teachers can keep them in ignorance and dependent by mysterious arts. They imagine many foolish things and are disturbed, while Satan spreads rumors and contentions across the land and gets great hold on the people despite the signs and miracles."
-  },
-  {
-   "label": "v. 24–25",
-   "start": 24,
-   "end": 25,
-   "title": "The close",
-   "text": "The ninetieth year ends, and so does the book of Helaman, according to the record of Helaman and his sons."
+   "label": "v. 18–20",
+   "start": 18,
+   "end": 20,
+   "title": "A geographic objection, and a charge of manipulation",
+   "text": "Two more arguments are quoted in the same block. The first is about location: \"why will he not show himself in this land as well as in the land of Jerusalem?\" The second is about motive, and it accuses the tradition of being a tool: \"we know that this is a wicked tradition, which has been handed down unto us by our fathers, to cause us that we should believe in some great and marvelous thing which should come to pass... that thereby they may keep us in ignorance.\" The record preserves the accusation that religion is being used for control, stated by people inside the book."
   }
  ],
  "chapter": [
@@ -308,9 +372,29 @@
     "text": "Samuel preached and pointed them to Nephi for baptism. Knowing which part of the work is yours is part of doing it."
    },
    {
+    "title": "One event does not settle anything",
+    "verse_label": "v. 2–3",
+    "text": "When the stones and the arrows kept missing, many more believed and went to be baptized, while others called for him to be seized. What people already wanted usually decides how they read the thing they just watched."
+   },
+   {
     "title": "Notice when you are explaining away rather than explaining",
     "verse_label": "v. 6",
     "text": "The misses got attributed to a devil. When a fact is inconvenient, watch for the account that keeps everything else unchanged."
+   },
+   {
+    "title": "Do the work and then go home",
+    "verse_label": "v. 7–8",
+    "text": "Samuel cast himself down from the wall, returned to his own country, and was never heard of again among the Nephites. Finishing an assignment sometimes means leaving without seeing what it produced."
+   },
+   {
+    "title": "Watch what happens when nothing happens",
+    "verse_label": "v. 12",
+    "text": "\"Little alteration\" covered a year of quiet hardening. Drift does not announce itself."
+   },
+   {
+    "title": "Watch for the argument from the base rate",
+    "verse_label": "v. 16",
+    "text": "Their answer was that some things may have been guessed right among so many. The principle is a real one, and here it was doing the work of dismissing every specific claim without examining any of them."
    },
    {
     "title": "Take the good objection seriously",
@@ -318,9 +402,9 @@
     "text": "Why here and not there is a real question. Dismissing the best version of an argument leaves it standing."
    },
    {
-    "title": "Watch what happens when nothing happens",
-    "verse_label": "v. 12",
-    "text": "\"Little alteration\" covered a year of quiet hardening. Drift does not announce itself."
+    "title": "Be careful when suspicion becomes the whole account",
+    "verse_label": "v. 20–21",
+    "text": "They reasoned that the tradition existed to keep them ignorant and dependent on their teachers. A theory that explains why nothing can be checked has disposed of its own test, which is a reason to trust it less rather than more."
    }
   ],
   "questions": [
@@ -445,7 +529,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel15-011"
   },
   {
    "id": "hel16-004",
@@ -471,7 +555,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel14-011"
   },
   {
    "id": "hel16-005",
@@ -497,7 +581,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al30-011"
   },
   {
    "id": "hel16-006",
@@ -523,7 +607,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "3ne01-007"
   },
   {
    "id": "hel16-007",
@@ -549,7 +633,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "3ne02-011"
   },
   {
    "id": "hel16-008",
@@ -575,7 +659,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "3ne11-012"
   },
   {
    "id": "hel16-009",
@@ -613,7 +697,7 @@
     "w2": 8,
     "quote": "angels did appear unto men, wise men"
    },
-   "reason": "the wise men who came from the east on the same occasion",
+   "reason": "the wise men who came from the east",
    "targets": [
     {
      "ref": "Matt.",
@@ -723,7 +807,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-26",
-  "source_sha256": "67945f6b607f471b"
+  "at": "2026-09-07",
+  "source_sha256": "503b87e1624fc6a5"
  }
 }

@@ -15,16 +15,16 @@
   "principles": [
    "Justice and mercy held together",
    "A probation opened by being shut out",
-   ""
+   "Letting only the right thing trouble you"
   ],
-  "connections": 9,
+  "connections": 11,
   "initial": true
  },
  "world_behind": [
   {
    "n": 1,
    "title": "The worry is named as an objection",
-   "text": "Verse 1 says Corianton supposes it is injustice for a sinner to be consigned to misery. Alma states his son's position accurately before answering it."
+   "text": "Verse 1 has Corianton calling it unjust that a sinner should be sent to misery. Alma states his son's position accurately before answering it."
   },
   {
    "n": 2,
@@ -93,12 +93,12 @@
   {
    "term": "Creature",
    "verse_label": "v. 21",
-   "text": "A created being, as the object of a legal claim. The record uses it eight times and the King James Bible twenty-nine. Alma uses it twice in two verses, in the sense of the party a law has a claim upon."
+   "text": "A created being, as the object of a legal claim. It appears eight times in the record, and the King James Bible twenty-nine. Alma uses it twice in two verses, in the sense of the party a law has a claim upon."
   },
   {
    "term": "Sway",
    "verse_label": "v. 30",
-   "text": "Ruling influence, the power to govern. The word occurs once in scripture. Alma asks that justice, mercy, and long-suffering have full sway in his son's heart, which puts all three in charge at once."
+   "text": "Ruling influence, the power to govern. The word occurs once in scripture. Alma asks for justice, mercy, and long-suffering to rule his son's heart, which puts all three in charge at once."
   }
  ],
  "phrases": [
@@ -165,70 +165,102 @@
  ],
  "verses": [
   {
-   "label": "v. 1–7",
+   "label": "v. 1",
    "start": 1,
-   "end": 7,
-   "title": "The garden",
-   "text": "Corianton thinks it unjust for a sinner to be consigned to misery. Alma goes back to Eden: the cherubim and the flaming sword kept the tree of life, so man could not eat and live forever. That gave a probationary time. Death was appointed, and the first parents were cut off temporally and spiritually."
+   "end": 1,
+   "title": "The objection is quoted before it is answered",
+   "text": "Alma states his son's position in his son's terms: \"ye do try to suppose that it is injustice that the sinner should be consigned to a state of misery.\" Everything that follows can be checked against that one sentence: it names the complaint, attributes it to Corianton, and concedes that he cannot understand the answer yet. Alma does not correct the wording before he argues with it."
   },
   {
-   "label": "v. 8–14",
-   "start": 8,
-   "end": 14,
-   "title": "Why a redemption was needed",
-   "text": "Reclaiming man from temporal death would destroy the plan of happiness; reclaiming him from spiritual death was expedient. Having become carnal, sensual, and devilish, men were in a preparatory state. Redemption could come only on conditions of repentance, since mercy cannot destroy justice without God ceasing to be God."
+   "label": "v. 2–6",
+   "start": 2,
+   "end": 6,
+   "title": "He answers a question about justice by going to Eden",
+   "text": "Tree is confined to verses 2 through 6 and drops out of the chapter for good. Before any argument about the sinner, Alma establishes a cherubim, a flaming sword, and a man kept from eating and living forever, which buys him the one thing the argument needs: \"a time granted unto man to repent\" (v. 4). The premise Alma builds on is a garden, not a principle.",
+   "cites": [
+    {
+     "quote": "a time granted unto man to repent",
+     "verse": 4,
+     "start": 258,
+     "end": 300,
+     "spans": [
+      {
+       "w1": 8,
+       "w2": 14,
+       "text": "a time granted unto man to repent"
+      }
+     ]
+    }
+   ]
   },
   {
-   "label": "v. 15–18",
-   "start": 15,
-   "end": 18,
-   "title": "The atonement",
-   "text": "Mercy required an atonement, so God himself atones, appeasing the demands of justice so he can be both just and merciful. Repentance requires a punishment affixed opposite the plan of happiness, and a just law brought remorse of conscience to man."
+   "label": "v. 17–21",
+   "start": 17,
+   "end": 21,
+   "title": "The tightest argument is the one he refuses to assert",
+   "text": "All six of the chapter's questions fall between verses 17 and 25, and three of them are in verse 17 alone: how could a man repent, how could he sin, how could there be a law. Alma reaches the hinge of his case and stops making claims, handing the conclusions to his son to draw."
   },
   {
-   "label": "v. 19–22",
-   "start": 19,
-   "end": 22,
-   "title": "The argument from law",
-   "text": "With no law and no punishment, nobody would fear to sin and neither justice nor mercy would have any claim. But a law is given, a punishment affixed, and a repentance granted; mercy claims the repentant, justice claims the rest."
-  },
-  {
-   "label": "v. 23–26",
-   "start": 23,
-   "end": 26,
-   "title": "Both satisfied",
-   "text": "Mercy comes because of the atonement, which brings the resurrection, which brings men back to be judged. Justice exercises every demand and mercy claims everything of hers, so only the truly penitent are saved. Mercy cannot rob justice, not one whit."
+   "label": "v. 22–25",
+   "start": 22,
+   "end": 25,
+   "title": "The verb that decides it",
+   "text": "Claimeth is confined to verses 22 to 24: repentance mercy claimeth, otherwise justice claimeth the creature and executeth the law. Alma settles a dispute about fairness by asking which party holds a claim, a legal question rather than a moral one, and then stakes the whole answer on a single consequence he is willing to state three times: \"God would cease to be God\" (v. 13, again at 22 and 25)."
   },
   {
    "label": "v. 27–28",
    "start": 27,
    "end": 28,
-   "title": "The open invitation",
-   "text": "Whoever will come may partake of the waters of life freely, and whoever will not is not compelled. In the last day it is restored according to deeds, and evil desired without repentance is restored as evil."
+   "title": "The one verse that is neither argument nor command",
+   "text": "After twenty-six verses of reasoning, \"whosoever will come may come and partake of the waters of life freely; and whosoever will not is not compelled to come.\" The chapter's tightest logical machine issues in a verse with no if in it."
   },
   {
    "label": "v. 29–31",
    "start": 29,
    "end": 31,
-   "title": "The redirection",
-   "text": "Let these things trouble you no more, and let your sins trouble you into repentance. Deny the justice of God no more, and make no excuse by it; let justice, mercy, and long-suffering have full sway. Then go, declare the word with truth and soberness, and bring souls to repentance."
+   "title": "He stops arguing and starts telling him what to do",
+   "text": "The register turns imperative and does not turn back: let these things trouble you no more, deny the justice of God no more, go thy way, declare the word. A chapter that opened by quoting a question closes without asking one. Its last phrase is \"the great plan of mercy,\" a name Alma could not have reached for in verse 1, because mercy had not yet entered the argument."
   }
  ],
  "chapter": [
   {
    "n": 1,
    "title": "The objection is stated fairly before it is answered",
-   "text": "Alma puts his son's position in one clause and spends thirty verses on it. He treats a young man's argument as worth a full reply."
+   "text": "Verse 1 states the objection in the son's own terms, \"ye do try to suppose that it is injustice that the sinner should be consigned to a state of misery,\" and names it as a worry rather than an error. The reply runs from verse 2 to verse 30, twenty-nine verses. The same courtesy is extended to Antionah at Alma 12:20–27 and to Corianton twice more in this chapter, at verses 16 and 25, where his supposed positions are restated before being answered.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 12:20–27",
+     "start": 307,
+     "end": 320,
+     "book": "Alma",
+     "chapter": 12,
+     "verse_start": 20,
+     "verse_end": 27
+    }
+   ]
   },
   {
    "n": 2,
    "title": "The doctrine is built from a story",
-   "text": "Cherubim, a flaming sword, a tree. Alma reasons from a narrative Corianton already knows rather than from abstractions, and every step is anchored in it."
+   "text": "Verses 2 and 3 quote Genesis 3:22–24 closely, \"cherubim, and a flaming sword which turned every way,\" and \"lest he should put forth his hand, and take also of the tree of life, and eat and live forever.\" Every step of the argument from verse 4 onward is tied back to that scene rather than to a general principle. Alma 12:21–26 built the identical case from the same three verses of Genesis for a different hearer, so the record uses one passage twice as the ground of one doctrine.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 12:21–26",
+     "start": 314,
+     "end": 327,
+     "book": "Alma",
+     "chapter": 12,
+     "verse_start": 21,
+     "verse_end": 26
+    }
+   ]
   },
   {
    "n": 3,
    "title": "Exclusion is what made repentance possible",
-   "text": "Being kept from the tree created a span of time. Alma reads the hardest part of the story as the merciful part."
+   "text": "Verse 4 names the result of the exclusion as a period, \"there was a time granted unto man to repent, yea, a probationary time,\" and verse 5 states the alternative outcome, that Adam \"would have lived forever... having no space for repentance,\" with two further consequences, that \"the word of God would have been void\" and the plan \"frustrated.\" The barrier of Genesis 3:24 is read three times over as what made repentance possible, and the reading is reached by supposing the opposite case rather than by asserting the point."
   },
   {
    "n": 4,
@@ -243,7 +275,7 @@
   {
    "n": 6,
    "title": "The chain in verse 23 is the answer in miniature",
-   "text": "Mercy, atonement, resurrection, presence, judgment. Five links in one sentence, which is how Alma shows they are not separate mercies."
+   "text": "Mercy, atonement, resurrection, presence, judgment. Five links in a single line, which is how Alma shows they are not separate mercies."
   },
   {
    "n": 7,
@@ -261,22 +293,42 @@
    {
     "title": "State the objection before answering it",
     "verse_label": "v. 1",
-    "text": "Alma repeated his son's argument accurately first. When you disagree with someone, say their position back in a form they would accept, then respond."
+    "text": "Alma repeated his son's position in his son's own terms and called it a worry rather than an error. Before you answer a challenge, say it back in a form the person who raised it would accept."
    },
    {
     "title": "Look for the mercy in the hard part",
     "verse_label": "v. 4",
-    "text": "The flaming sword is what made repentance possible. Take the thing in your life that looks purely like a loss and ask what it made room for."
+    "text": "The flaming sword is read as the thing that created a time to repent. When some restriction in your life looks purely like exclusion, ask what it is holding open."
+   },
+   {
+    "title": "Argue by supposing the opposite",
+    "verse_label": "v. 5",
+    "text": "Alma tests the case by running the alternative: if Adam had eaten of the tree, there would have been no space for repentance and the word would have been void. When you cannot see why a thing had to be so, work out what would follow if it were not."
+   },
+   {
+    "title": "Keep both claims when you cannot reconcile them",
+    "verse_label": "v. 24–25",
+    "text": "\"Justice exerciseth all his demands, and also mercy claimeth all which is her own,\" and then the question, \"do ye suppose that mercy can rob justice? I say unto you, Nay.\" Alma refuses to buy one by weakening the other. Some pairs of true things stay in tension, and the honest move is to hold both."
+   },
+   {
+    "title": "Leave the door unlatched in both directions",
+    "verse_label": "v. 27",
+    "text": "\"Whosoever will come may come... and whosoever will not come the same is not compelled to come.\" The invitation and the freedom to decline are stated together, in the same breath. When you offer something, make the refusal genuinely available or the offer is not one."
    },
    {
     "title": "Keep the right trouble",
     "verse_label": "v. 29",
-    "text": "Alma told his son to stop worrying about the doctrine and start worrying about his sins. Work out which of your current worries would actually change something if you acted on it."
+    "text": "Alma told his son to stop worrying about one thing and start being troubled by another. Distress is not the problem; distress about the wrong subject is."
    },
    {
     "title": "Stop using a belief as an excuse",
     "verse_label": "v. 30",
-    "text": "Denying God's justice had been Corianton's way of making room. Name the idea that has been letting you off, and drop it rather than defending it."
+    "text": "Denying God's justice had a function for Corianton. When a doctrinal difficulty of yours has a convenient consequence, deal with the consequence first."
+   },
+   {
+    "title": "End by giving the person a job",
+    "verse_label": "v. 31",
+    "text": "After thirty verses of doctrine the instruction is one sentence: \"go thy way, declare the word with truth and soberness.\" A correction that stops at being right leaves the person nowhere to put it."
    }
   ],
   "questions": [
@@ -335,7 +387,7 @@
     "w2": 58,
     "quote": "cherubim, and a flaming sword"
    },
-   "reason": "the same guard, raised as an objection by Antionah at Ammonihah",
+   "reason": "the same guard, raised as an objection by Antionah",
    "targets": [
     {
      "ref": "Alma",
@@ -349,7 +401,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al12-019"
   },
   {
    "id": "al42-002",
@@ -361,7 +413,7 @@
     "w2": 25,
     "quote": "a probationary time, a time to repent and serve God"
    },
-   "reason": "the word treated in full, where Alma first gave this life as a probation",
+   "reason": "the word treated in full, of this life as probation",
    "targets": [
     {
      "ref": "Alma",
@@ -375,7 +427,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al12-003"
   },
   {
    "id": "al42-003",
@@ -387,7 +439,7 @@
     "w2": 15,
     "quote": "there is somewhat more which doth worry your mind"
    },
-   "reason": "the worry Corianton first raised, at the end of the correction",
+   "reason": "the worry Corianton raised, at the correction's end",
    "targets": [
     {
      "ref": "Alma",
@@ -413,7 +465,7 @@
     "w2": 9,
     "quote": "carnal, sensual, and devilish"
    },
-   "reason": "the same word in the restoration argument, returning like for like",
+   "reason": "the same word in the restoration argument, like for like",
    "targets": [
     {
      "ref": "Alma",
@@ -428,6 +480,32 @@
     }
    ],
    "mirror": "al41-004"
+  },
+  {
+   "id": "al42-011",
+   "scope": "BOOK",
+   "head": "Alma 63:10",
+   "anchor": {
+    "verse": 31,
+    "w1": 22,
+    "w2": 31,
+    "quote": "go thy way, declare the word with truth and soberness,"
+   },
+   "reason": "where this son went afterward",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 63,
+     "verse": 10,
+     "w1": 22,
+     "w2": 32,
+     "quote": "Corianton had gone forth to the land northward in a ship,",
+     "verse_text": "And it came to pass in the thirty and ninth year of the reign of the judges, Shiblon died also, and Corianton had gone forth to the land northward in a ship, to carry forth provisions unto the people who had gone forth into that land.",
+     "markdown": "And it came to pass in the thirty and ninth year of the reign of the judges, Shiblon died also, and **Corianton had gone forth to the land northward in a ship**, to carry forth provisions unto the people who had gone forth into that land.",
+     "span": true
+    }
+   ],
+   "mirror": "al63-005"
   },
   {
    "id": "al42-005",
@@ -453,7 +531,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "2ne02-013"
   },
   {
    "id": "al42-006",
@@ -479,7 +557,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "2ne09-028"
+  },
+  {
+   "id": "al42-010",
+   "scope": "BOM",
+   "head": "Mosiah 16:3",
+   "anchor": {
+    "verse": 10,
+    "w1": 6,
+    "w2": 9,
+    "quote": "carnal, sensual, and devilish,"
+   },
+   "reason": "Abinadi using the same words of the fall",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 16,
+     "verse": 3,
+     "w1": 4,
+     "w2": 13,
+     "quote": "carnal and devilish, and the devil has power over them;",
+     "verse_text": "For they are carnal and devilish, and the devil has power over them; yea, even that old serpent that did beguile our first parents, which was the cause of their fall; which was the cause of all mankind becoming carnal, sensual, devilish, knowing evil from good, subjecting themselves to the devil.",
+     "markdown": "For they are **carnal and devilish, and the devil has power over them**; yea, even that old serpent that did beguile our first parents, which was the cause of their fall; which was the cause of all mankind becoming carnal, sensual, devilish, knowing evil from good, subjecting themselves to the devil.",
+     "span": true
+    }
+   ],
+   "mirror": "mos16-012"
   },
   {
    "id": "al42-007",
@@ -517,7 +621,7 @@
     "w2": 40,
     "quote": "to appease the demands of justice"
    },
-   "reason": "the King James Bible’s one use of the verb, of Jacob and Esau",
+   "reason": "the King James verb, used once, of Jacob and Esau",
    "targets": [
     {
      "ref": "Gen.",
@@ -543,7 +647,7 @@
     "w2": 17,
     "quote": "partake of the waters of life freely"
    },
-   "reason": "the same open invitation, in the same words",
+   "reason": "the same call to come, in the same words",
    "targets": [
     {
      "ref": "Rev.",
@@ -595,7 +699,8 @@
    "w2": 9,
    "quote": "carnal, sensual, and devilish",
    "entries": [
-    "al42-004"
+    "al42-004",
+    "al42-010"
    ]
   },
   {
@@ -633,10 +738,19 @@
    "entries": [
     "al42-009"
    ]
+  },
+  {
+   "verse": 31,
+   "w1": 22,
+   "w2": 31,
+   "quote": "go thy way, declare the word with truth and soberness,",
+   "entries": [
+    "al42-011"
+   ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "e69202fad12da3c1"
+  "at": "2026-09-07",
+  "source_sha256": "261ed7c1bd8cd906"
  }
 }

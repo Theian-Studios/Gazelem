@@ -16,9 +16,9 @@
   "principles": [
    "Joy that keeps its accounting straight",
    "Boasting in God",
-   ""
+   "Knowledge given to the penitent"
   ],
-  "connections": 9,
+  "connections": 11,
   "initial": true
  },
  "world_behind": [
@@ -55,14 +55,14 @@
   {
    "n": 7,
    "title": "Ammon ranks the converts above his own nation",
-   "text": "Verses 33 and 34 say no such love exists in the land, not even among the Nephites, because the Nephites would fight rather than be killed."
+   "text": "Verses 33 and 34 put them above the Nephites, who would fight rather than be killed."
   }
  ],
  "words": [
   {
    "term": "Sickle",
    "verse_label": "v. 5",
-   "text": "A curved blade for reaping grain. The word appears once in this record and twelve times in the King James Bible, most of them in harvest judgments. Ammon's line about thrusting in the sickle into a ripe field is nearly the wording of the angel in Revelation 14."
+   "text": "A curved blade for reaping grain. The word appears once in this record and twelve times in the King James Bible, most of them in harvest judgments. Ammon's line about thrusting in the sickle into a ripe field is nearly the wording of the angel in Revelation 14:15."
   },
   {
    "term": "Listeth",
@@ -72,7 +72,7 @@
   {
    "term": "Matchless",
    "verse_label": "v. 15",
-   "text": "Without equal. The record uses it eight times and the King James Bible never. Four of the eight are king Benjamin and his son on the matchless power of God; Ammon attaches it instead to bounty, and to love."
+   "text": "Without equal. It appears eight times in the record, and the King James Bible never. Four of the eight are king Benjamin and his son on the matchless power of God; Ammon attaches it instead to bounty, and to love."
   },
   {
    "term": "Penitent",
@@ -104,7 +104,7 @@
   {
    "term": "I know that I am nothing",
    "verse_label": "v. 12",
-   "text": "The center of the answer. Ammon concedes his own weakness in five words and then says he will boast of God, in whose strength he can do all things. Verse 36 comes back and accepts the word boasting on those terms."
+   "text": "The center of the answer. Ammon concedes his own weakness in five words and then says he will boast of God, who gives him strength for everything. Verse 36 comes back and accepts the word boasting on those terms."
   },
   {
    "term": "Brought to sing redeeming love",
@@ -149,60 +149,100 @@
  ],
  "verses": [
   {
-   "label": "v. 1–7",
+   "label": "v. 1",
    "start": 1,
-   "end": 7,
-   "title": "The harvest",
-   "text": "Ammon asks what blessings they have received, answers his own question, and gives the picture: a ripe field, a thrust sickle, sheaves gathered into garners where storm and whirlwind cannot reach them. They are in the hands of the Lord of the harvest."
+   "end": 1,
+   "title": "The abridger hands over the page",
+   "text": "The chapter opens on a formula: \"these are the words of Ammon to his brethren, which say thus.\" Only two verses in the whole volume use that formula. The other is 1 Ne. 8:34, \"These are the words of my father.\" Both mark the same act, a writer stopping his own account to let a document stand on its own, and in both cases what follows is speech he did not compose. Thirty-seven verses run from here to the chapter's end without one sentence of narration. Mormon does not reappear until the next chapter.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 8:34",
+     "start": 163,
+     "end": 173,
+     "book": "1 Ne",
+     "chapter": 8,
+     "verse_start": 34,
+     "verse_end": 34
+    }
+   ]
   },
   {
-   "label": "v. 8–12",
-   "start": 8,
+   "label": "v. 2–3",
+   "start": 2,
+   "end": 3,
+   "title": "A speaker who answers himself",
+   "text": "Verse 2 asks two questions and then asks whether anyone can answer them: \"what great blessings has he bestowed upon us? Can ye tell?\" Verse 3 replies \"Behold, I answer for you.\" The chapter carries fifteen question marks across twelve of its thirty-seven verses, which is the third heaviest concentration in the book of Alma, behind Alma 5 with forty-two and Alma 30 with twenty-two. Both of those are cross-examinations with a hostile party present. This one has no opponent in the room, so every question is asked and answered by the same mouth."
+  },
+  {
+   "label": "v. 10–12",
+   "start": 10,
    "end": 12,
-   "title": "The rebuke, and the answer",
-   "text": "He calls for singing and says the Lamanites would still be racked with hatred if the brothers had stayed home. Aaron warns him about boasting. Ammon says his joy is full, that he is nothing, and that he boasts of God, in whose strength he can do all things."
+   "title": "The record keeps the objection",
+   "text": "In the middle of the speech a listener interrupts, and the interruption is preserved in his own words: \"his brother Aaron rebuked him, saying: Ammon, I fear that thy joy doth carry thee away unto boasting.\" Nothing requires this to be here. The chapter is Ammon's, the charge is against Ammon, and it is his brother making it. What follows is the answer, \"I do not boast in my own strength, nor in my own wisdom,\" and then the concession that makes the answer honest: \"I know that I am nothing; as to my strength I am weak.\""
   },
   {
-   "label": "v. 13–16",
-   "start": 13,
-   "end": 16,
-   "title": "Glory",
-   "text": "Thousands loosed from the pains of hell and the chains of hell, brought from everlasting darkness into everlasting light and encircled with the matchless bounty of God's love. He asks who can glory too much, and admits he cannot say the smallest part he feels."
+   "label": "v. 24",
+   "start": 24,
+   "end": 24,
+   "title": "The mockery quoted, not summarised",
+   "text": "The chapter could have said that people in Zarahemla doubted the mission. Instead it gives their sentences: \"Do ye suppose that ye can bring the Lamanites to the knowledge of the truth? Do ye suppose that ye can convince the Lamanites of the incorrectness of the traditions of their fathers?\" Verse 23 introduces the exchange and verse 24 hands it over, with the marker \"this was their language.\" It is the only place in the volume where the objection to this mission is preserved as speech, and the speaker who preserved it is the man it was aimed at."
   },
   {
-   "label": "v. 17–22",
-   "start": 17,
-   "end": 22,
-   "title": "Snatched, and who can know",
-   "text": "He asks why God did not destroy men who went out in wrath to wreck his church, and says his soul almost flees at the thought. Then the rule: no natural man knows these things, only the penitent, and to such it is given to know mysteries and bring thousands to repentance."
+   "label": "v. 31–34",
+   "start": 31,
+   "end": 34,
+   "title": "A phrase that exists only here",
+   "text": "Ammon accounts for the converts three times in four verses and uses the same explanation each time: \"because of their love towards their brethren\" (v. 31), \"because of their love towards their brethren\" (v. 32), and the argument repeats behind verse 34. The phrase because of their love occurs three times in the whole volume and all three are in this chapter, inside a span of four verses. A chapter about a mission ends up giving its result not as conversions counted but as a single motive named three times.",
+   "cites": [
+    {
+     "quote": "because of their love towards their brethren",
+     "verse": 31,
+     "start": 100,
+     "end": 154,
+     "spans": [
+      {
+       "w1": 34,
+       "w2": 40,
+       "text": "because of their love towards their brethren"
+      }
+     ]
+    },
+    {
+     "quote": "because of their love towards their brethren",
+     "verse": 32,
+     "start": 156,
+     "end": 210,
+     "spans": [
+      {
+       "w1": 30,
+       "w2": 36,
+       "text": "because of their love towards their brethren"
+      }
+     ]
+    }
+   ]
   },
   {
-   "label": "v. 23–27",
-   "start": 23,
-   "end": 27,
-   "title": "Scorn, and comfort",
-   "text": "He recalls the mockery at Zarahemla, the catalogue of Lamanite wickedness, and the proposal to kill them all. They came with the intent of saving a few. When they were about to turn back, the Lord promised success on the far side of patience."
+   "label": "v. 35–36",
+   "start": 35,
+   "end": 36,
+   "title": "The charge accepted on new terms",
+   "text": "The record has kept Aaron's word from verse 10, that joy \"doth carry thee away unto boasting.\" Twenty-five verses later Ammon uses the same construction about himself: \"my joy is carried away, even unto boasting in my God.\" Then verse 36 stops arguing: \"Now if this is boasting, even so will I boast.\" The verb boast stands seven times in this chapter, more than twice as often as in any other chapter of the volume, with Mosiah 2 next at three. The speech denies the charge in verse 11 and grants it in verse 36, and the difference between the two is one prepositional phrase."
   },
   {
-   "label": "v. 28–31",
-   "start": 28,
-   "end": 31,
-   "title": "What it cost",
-   "text": "Every privation, house to house, taught in houses, streets, hills, temples, and synagogues; cast out, mocked, spit on, struck, stoned, bound, jailed, delivered. They had hoped for some souls, and now they look at the fruits and call them many."
-  },
-  {
-   "label": "v. 32–37",
-   "start": 32,
+   "label": "v. 37",
+   "start": 37,
    "end": 37,
-   "title": "The love, and the reach of God",
-   "text": "The converts would die before killing and have buried their weapons deep. No such love exists in the land, not even among the Nephites. Ammon accepts the charge of boasting on his own terms and ends with God mindful of every people, numbering them, his mercy over all the earth."
+   "title": "The last claim is the widest",
+   "text": "After thirty-six verses about one mission to one people, the closing sentence drops the particulars: \"God is mindful of every people, whatsoever land they may be in; yea, he numbereth his people, and his bowels of mercy are over all the earth.\" The phrase every people whatsoever land appears nowhere else in the volume. The chapter also uses rejoice seven times, which is more than any other chapter in the volume or in the Bible, and it spends the last of them not on the converts but on a claim about everyone the speaker has never met."
   }
  ],
  "chapter": [
   {
    "n": 1,
    "title": "The rebuke stays in the record",
-   "text": "Aaron's warning could have been edited out of a psalm of triumph, and Mormon keeps it. The chapter works as an exchange between two brothers who disagree about how to talk."
+   "text": "The rebuke is quoted at verse 10, \"Ammon, I fear that thy joy doth carry thee away unto boasting,\" and the answer runs from verse 11 to verse 12 in two parts, a denial, \"I do not boast in my own strength, nor in my own wisdom,\" and a concession, \"I know that I am nothing; as to my strength I am weak.\" Verse 36 returns to the charge and accepts it on new terms, \"Now if this is boasting, even so will I boast.\" A rejoicing chapter keeps the objection to its own rejoicing and answers it twice."
   },
   {
    "n": 2,
@@ -232,35 +272,55 @@
   {
    "n": 7,
    "title": "He ranks his own nation second",
-   "text": "No love like this in the land, not even among the Nephites, because Nephites fight back. It is a hard thing for a Nephite prince to say to Nephites."
+   "text": "No people match them here, the Nephites included, because Nephites fight back. It is a hard thing for a Nephite prince to say to Nephites."
   },
   {
    "n": 8,
    "title": "The last verse is about everyone else",
-   "text": "After a chapter on one mission, Ammon ends with God mindful of every people in whatever land, numbering them, mercy over all the earth. The particular success opens onto a general claim."
+   "text": "The last verse widens the frame in three clauses: \"God is mindful of every people, whatsoever land they may be in,\" \"he numbereth his people,\" and \"his bowels of mercy are over all the earth.\" Nothing in the preceding thirty-six verses concerns anyone outside one mission to one nation. Verse 23 has recorded what the Zarahemla Nephites thought of that mission, \"they laughed us to scorn,\" so a chapter that begins with a people written off ends with a claim that no people is."
   }
  ],
  "world_in_front": {
   "applications": [
    {
-    "title": "Answer the correction instead of dismissing it",
-    "verse_label": "v. 10–12",
-    "text": "Aaron told Ammon he was boasting, and Ammon took the word seriously enough to work out what he actually meant by it. When someone names a fault in how you are speaking, engage the word they used."
-   },
-   {
     "title": "Count the sheaves out loud",
     "verse_label": "v. 5",
-    "text": "Ammon told his co-workers to look at the number. Where a long effort has produced something, say specifically what it produced to the people who helped, instead of leaving it to be assumed."
+    "text": "Ammon told his co-workers to look at the harvest, \"behold the number of your sheaves!\" People who have worked hard are usually the last to have counted, and somebody has to say the number."
+   },
+   {
+    "title": "Answer the correction instead of dismissing it",
+    "verse_label": "v. 10–12",
+    "text": "Aaron said the joy was carrying him into boasting, and Ammon neither ignored it nor collapsed under it. He denied one thing, \"I do not boast in my own strength,\" and conceded another, \"I know that I am nothing.\" Both halves in two verses."
+   },
+   {
+    "title": "Say what you can do and who it belongs to",
+    "verse_label": "v. 12",
+    "text": "The full sentence is \"as to my strength I am weak... for in his strength I can do all things.\" Neither half stands alone in the chapter. A statement of capacity with its source attached is more useful than either modesty or confidence by itself."
+   },
+   {
+    "title": "Say who you did not come to destroy",
+    "verse_label": "v. 26",
+    "text": "The purpose is stated in the negative first, \"we came into the wilderness not with the intent to destroy our brethren, but with the intent that perhaps we might save some few of their souls.\" Naming what you are not doing is part of describing what you are."
    },
    {
     "title": "Keep going when the promise comes with a condition",
     "verse_label": "v. 27",
-    "text": "The success was promised on the other side of patient affliction. When the encouragement you get is that it will be worth it and hard, treat that as an answer."
+    "text": "At the point of turning back the comfort arrives with work attached, \"bear with patience thine afflictions, and I will give unto you success.\" The encouragement does not remove the affliction; it puts an outcome on the far side of it."
    },
    {
-    "title": "Correct yourself in public",
-    "verse_label": "v. 28",
-    "text": "Ammon said the mercies of the world and then fixed it mid-sentence. When you hear yourself say something slightly off, say the better version right there rather than letting it stand."
+    "title": "List the places you actually went",
+    "verse_label": "v. 28–29",
+    "text": "Houses, streets, hills, temples, synagogues. The record itemizes the venues rather than summarizing the effort. When you take stock of something you have done, name the specific occasions; the list is the honest form of the claim."
+   },
+   {
+    "title": "Set the bar at \"some few\" and then look up",
+    "verse_label": "v. 30–31",
+    "text": "They supposed their joy would be full if they could save one soul, and verse 31 asks the question afterward, \"are they few? I say unto you, Nay, they are many.\" Aim at the number you could bear to get, and count what actually came."
+   },
+   {
+    "title": "Widen the claim at the end",
+    "verse_label": "v. 37",
+    "text": "After thirty-six verses about one mission, the closing sentence drops the particulars, \"God is mindful of every people, whatsoever land they may be in; yea, he numbereth his people.\" A specific success is a poor place to stop, and this one opens onto everybody."
    }
   ],
   "questions": [
@@ -319,7 +379,7 @@
     "w2": 32,
     "quote": "bear with patience thine afflictions"
    },
-   "reason": "the commission as it was first given, with the same condition",
+   "reason": "the commission as first given, with the same condition",
    "targets": [
     {
      "ref": "Alma",
@@ -333,7 +393,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al17-008"
   },
   {
    "id": "al26-002",
@@ -345,7 +405,7 @@
     "w2": 29,
     "quote": "they have buried their weapons of war deep in the earth"
    },
-   "reason": "the covenant Ammon is pointing at as evidence of their love",
+   "reason": "the covenant Ammon points at as evidence of love",
    "targets": [
     {
      "ref": "Alma",
@@ -359,7 +419,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al24-017"
   },
   {
    "id": "al26-003",
@@ -411,7 +471,59 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al05-029"
+  },
+  {
+   "id": "al26-010",
+   "scope": "BOOK",
+   "head": "Alma 5:9",
+   "anchor": {
+    "verse": 13,
+    "w1": 17,
+    "w2": 23,
+    "quote": "they are brought to sing redeeming love,"
+   },
+   "reason": "Alma asking his own people the same",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 5,
+     "verse": 9,
+     "w1": 37,
+     "w2": 41,
+     "quote": "they did sing redeeming love.",
+     "verse_text": "And again I ask, were the bands of death broken, and the chains of hell which encircled them about, were they loosed? I say unto you, Yea, they were loosed, and their souls did expand, and they did sing redeeming love. And I say unto you that they are saved.",
+     "markdown": "And again I ask, were the bands of death broken, and the chains of hell which encircled them about, were they loosed? I say unto you, Yea, they were loosed, and their souls did expand, and **they did sing redeeming love**. And I say unto you that they are saved.",
+     "span": true
+    }
+   ],
+   "mirror": "al05-003"
+  },
+  {
+   "id": "al26-011",
+   "scope": "BOOK",
+   "head": "Alma 17:13",
+   "anchor": {
+    "verse": 31,
+    "w1": 3,
+    "w2": 13,
+    "quote": "we can look forth and see the fruits of our labors;"
+   },
+   "reason": "the parting agreement, fourteen years earlier",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 17,
+     "verse": 13,
+     "w1": 35,
+     "w2": 42,
+     "quote": "meet again at the close of their harvest;",
+     "verse_text": "And it came to pass when they had arrived in the borders of the land of the Lamanites, that they separated themselves and departed one from another, trusting in the Lord that they should meet again at the close of their harvest; for they supposed that great was the work which they had undertaken.",
+     "markdown": "And it came to pass when they had arrived in the borders of the land of the Lamanites, that they separated themselves and departed one from another, trusting in the Lord that they should **meet again at the close of their harvest**; for they supposed that great was the work which they had undertaken.",
+     "span": true
+    }
+   ],
+   "mirror": "al17-002"
   },
   {
    "id": "al26-005",
@@ -437,7 +549,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos27-026"
   },
   {
    "id": "al26-006",
@@ -449,7 +561,7 @@
     "w2": 22,
     "quote": "that perhaps we might be the means of saving some soul"
    },
-   "reason": "the desire that sent them, recorded when they asked to go",
+   "reason": "the desire that sent them, recorded as they asked",
    "targets": [
     {
      "ref": "Mosiah",
@@ -463,7 +575,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos28-016"
   },
   {
    "id": "al26-007",
@@ -475,7 +587,7 @@
     "w2": 16,
     "quote": "ye did thrust in the sickle"
    },
-   "reason": "the angel’s command over a ripe harvest, in the same words",
+   "reason": "the angel's command over a ripe harvest, same words",
    "targets": [
     {
      "ref": "Rev.",
@@ -501,7 +613,7 @@
     "w2": 60,
     "quote": "whithersoever the enemy listeth to carry them"
    },
-   "reason": "the archaic verb at its most familiar, of the wind and the Spirit",
+   "reason": "the archaic verb at its most familiar, of wind",
    "targets": [
     {
      "ref": "John",
@@ -527,7 +639,7 @@
     "w2": 11,
     "quote": "we will glory in the Lord"
    },
-   "reason": "Paul’s rule for boasting, which is the answer Ammon gives Aaron",
+   "reason": "Paul's rule for boasting, the answer Ammon gives Aaron",
    "targets": [
     {
      "ref": "2 Cor.",
@@ -587,7 +699,8 @@
    "w2": 23,
    "quote": "they are brought to sing redeeming love",
    "entries": [
-    "al26-004"
+    "al26-004",
+    "al26-010"
    ]
   },
   {
@@ -618,6 +731,15 @@
    ]
   },
   {
+   "verse": 31,
+   "w1": 3,
+   "w2": 13,
+   "quote": "we can look forth and see the fruits of our labors;",
+   "entries": [
+    "al26-011"
+   ]
+  },
+  {
    "verse": 32,
    "w1": 19,
    "w2": 29,
@@ -628,7 +750,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "58f9e56d3dc9e79d"
+  "at": "2026-09-07",
+  "source_sha256": "2854dba363d70f62"
  }
 }

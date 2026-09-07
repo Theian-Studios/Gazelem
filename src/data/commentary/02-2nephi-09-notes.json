@@ -17,14 +17,14 @@
    "Resurrection",
    "Judgment"
   ],
-  "connections": 21,
+  "connections": 31,
   "initial": false
  },
  "world_behind": [
   {
    "n": 1,
    "title": "A sermon with its reading behind it",
-   "text": "Jacob opens by saying why he read two chapters of Isaiah aloud: \"I have read these things that ye might know concerning the covenants of the Lord\" (v. 1). Everything that follows is exposition. The colony has just heard the servant beaten and the city told to stand up, and now their preacher explains what makes either possible.",
+   "text": "Jacob opens by saying why he read two chapters of Isaiah aloud: \"I have read these things that ye might know concerning the covenants of the Lord\" (v. 1). 2 Nephi 7 and 8 carry Isaiah 50 and 51, which is the reading he means. Everything that follows is exposition. The colony has just heard the servant beaten and the city told to stand up, and now their preacher explains what makes either possible.",
    "cites": [
     {
      "quote": "I have read these things that ye might know concerning the covenants of the Lord",
@@ -49,13 +49,13 @@
   {
    "n": 3,
    "title": "A people who had watched a father die",
-   "text": "Lehi's death is two chapters back. Nothing focuses a colony on resurrection like a fresh grave, and the sermon's opening move is to grant the fact before answering it: \"our flesh must waste away and die; nevertheless, in our bodies we shall see God\" (v. 4).",
+   "text": "2 Nephi 4:12 records Lehi's death, two chapters and a few years back. Nothing focuses a colony on resurrection like a fresh grave, and the sermon's opening move is to grant the fact before answering it: \"our flesh must waste away and die; nevertheless, in our bodies we shall see God\" (v. 4).",
    "cites": [
     {
      "quote": "our flesh must waste away and die; nevertheless, in our bodies we shall see God",
      "verse": 4,
-     "start": 168,
-     "end": 256,
+     "start": 203,
+     "end": 291,
      "spans": [
       {
        "w1": 25,
@@ -74,12 +74,12 @@
   {
    "n": 5,
    "title": "The wo-list as a form",
-   "text": "Verses 27 through 38 stack ten pronouncements in a row, each naming a class and its end. Prophets used the form for nations; Jacob turns it on a congregation of perhaps a few hundred people, including the learned, the rich, and the deaf, which in a settlement that size means specific faces."
+   "text": "Verses 27 through 38 stack ten pronouncements in a row, each naming a class and its end. Isaiah 5:8 to 22 uses the form on a nation; Jacob turns it on a congregation of perhaps a few hundred people, including the learned, the rich, and the deaf, which in a settlement that size means specific faces."
   },
   {
    "n": 6,
    "title": "A sermon delivered over two days",
-   "text": "The chapter ends with a scheduling note: \"on the morrow I will declare unto you the remainder of my words\" (v. 54). What the colony heard in one sitting was the reading plus this exposition, and they went home overnight with the wos and the invitation both still ringing. Jacob says at the start of the next day's preaching that an angel spoke to him during that night, so the pause was not only for the hearers' benefit.",
+   "text": "The chapter ends with a scheduling note: \"on the morrow I will declare unto you the remainder of my words\" (v. 54). 2 Nephi 10:1 opens with the remainder, and 2 Nephi 10:3 reports an angel visiting him between the two sessions. What the colony heard in one sitting was the reading plus this exposition, and they went home overnight with the wos and the invitation both still ringing. Jacob says at the start of the next day's preaching that an angel spoke to him during that night, so the pause was not only for the hearers' benefit.",
    "cites": [
     {
      "quote": "on the morrow I will declare unto you the remainder of my words",
@@ -101,13 +101,13 @@
   {
    "term": "Expedient",
    "verse_label": "v. 5",
-   "text": "Jacob's word for what a situation requires, and he uses it three times at three different levels. It is expedient that the Messiah show himself at Jerusalem (v. 5); expedient that Jacob wake his hearers to \"an awful reality\" (v. 47); expedient that he teach the consequences of sin because they are not holy (v. 48). The term names necessity that comes from circumstances, and by the third use he is applying it to his own harshness.",
+   "text": "Jacob's word for what a situation requires, and he uses it three times at three different levels. Treated at 1 Nephi 10:15. It is expedient that the Messiah show himself at Jerusalem (v. 5); expedient that Jacob wake his hearers to \"an awful reality\" (v. 47); expedient that he teach the consequences of sin because they are not holy (v. 48). The term names necessity that comes from circumstances, and by the third use he is applying it to his own harshness.",
    "cites": [
     {
      "quote": "an awful reality",
      "verse": 47,
-     "start": 206,
-     "end": 232,
+     "start": 232,
+     "end": 258,
      "spans": [
       {
        "w1": 14,
@@ -121,16 +121,16 @@
     {
      "kind": "verse",
      "text": "(v. 5)",
-     "start": 157,
-     "end": 163,
+     "start": 183,
+     "end": 189,
      "verse_start": 5,
      "verse_end": 5
     },
     {
      "kind": "verse",
      "text": "(v. 48)",
-     "start": 308,
-     "end": 315,
+     "start": 334,
+     "end": 341,
      "verse_start": 48,
      "verse_end": 48
     }
@@ -459,113 +459,78 @@
  ],
  "verses": [
   {
-   "label": "v. 6–7",
-   "start": 6,
-   "end": 7,
-   "title": "The chain that requires an infinite answer",
-   "text": "The argument is built backward: resurrection is needed because of the fall, the fall came by transgression, transgression cut man off from God's presence. Each link is stated as a necessity, and the conclusion is forced rather than offered. This is a preacher reasoning in public about why a rescue had to be the size it was, and the sermon never returns to first principles again."
+   "label": "v. 4–5",
+   "start": 4,
+   "end": 5,
+   "title": "An argument that begins by conceding its premises",
+   "text": "The record has the speaker credit the audience twice in two verses: \"I know that ye know that our flesh must waste away and die,\" and then \"I know that ye know that in the body he shall show himself unto those at Jerusalem.\" Nothing is being established; both points are granted before the chapter starts. What follows is inference from those two facts, which is why the doctrinal section can proceed without a single quotation of scripture until verse 50. Verse 1 also states the occasion, that the speaker has just read Isaiah aloud, so the argument is presented as commentary on a reading."
   },
   {
-   "label": "v. 8–9",
+   "label": "v. 8–20",
    "start": 8,
-   "end": 9,
-   "title": "The alternative, stated in full",
-   "text": "Jacob does something few writers risk: he describes what would have happened without the atonement, and he does not soften it. Spirits subject to the fallen angel, \"angels to a devil\" (v. 9), shut out and permanently like him. The picture is the reason the exclamations start here. Praise in this chapter is always a reaction to a near miss.",
-   "cites": [
-    {
-     "quote": "angels to a devil",
-     "verse": 9,
-     "start": 164,
-     "end": 190,
-     "spans": [
-      {
-       "w1": 14,
-       "w2": 17,
-       "text": "angels to a devil"
-      }
-     ]
-    }
-   ]
+   "end": 20,
+   "title": "Six exclamations, each naming a different attribute",
+   "text": "The record punctuates its doctrinal stretch with a recurring form: \"O the wisdom of God, his mercy and grace\" at verse 8, \"O how great the goodness of our God\" at verse 10, \"O how great the plan of our God\" at verse 13, \"O the greatness and the justice of our God\" at verse 17, \"O the greatness of the mercy of our God\" at verse 19, and \"O how great the holiness of our God\" at verse 20. Six in thirteen verses, no attribute repeated except mercy. Verse 28 then turns the same form the other way, \"O that cunning plan of the evil one,\" so the pattern established over thirteen verses is inverted once and used against the opposite party."
   },
   {
-   "label": "v. 16",
-   "start": 16,
-   "end": 16,
-   "title": "The verdict that changes no one",
-   "text": "Judgment arrives in a single verse and does almost nothing, because the sorting has already happened. The righteous stay righteous, the filthy stay filthy, and the fire is one already prepared for the devil and his angels. Reading this beside the wo-list that follows shows why Jacob spends more time on habits than on the courtroom."
-  },
-  {
-   "label": "v. 21",
-   "start": 21,
-   "end": 21,
-   "title": "The pains of every living creature",
-   "text": "The reach of the suffering is stated in the widest terms the chapter uses: all men, \"the pains of every living creature, both men, women, and children\" (v. 21). Naming women and children separately is not decoration in a colony where the general terms would have been heard as covering the men. The verse insists that no one in the room was left out of the accounting.",
-   "cites": [
-    {
-     "quote": "the pains of every living creature, both men, women, and children",
-     "verse": 21,
-     "start": 84,
-     "end": 159,
-     "spans": [
-      {
-       "w1": 30,
-       "w2": 40,
-       "text": "the pains of every living creature, both men, women, and children"
-      }
-     ]
-    }
-   ]
+   "label": "v. 10–12",
+   "start": 10,
+   "end": 12,
+   "title": "A speaker defining his own terms as he goes",
+   "text": "The record has him coin and then gloss: the monster is \"death and hell, which I call the death of the body, and also the death of the spirit.\" Verse 11 supplies the first definition, \"which death is the grave,\" and verse 12 the second, \"which spiritual death is hell.\" Three definitional clauses in three verses, each introduced by a relative pronoun. The phrase \"which I call\" is the tell; it marks the distinction as the speaker's own construction rather than as received vocabulary, and the rest of the chapter depends on it holding."
   },
   {
    "label": "v. 25–27",
    "start": 25,
    "end": 27,
-   "title": "Law, no law, and the wo that follows",
-   "text": "Three verses build a careful symmetry: no law means no punishment, no punishment means no condemnation, and mercy has claim. Then the hinge turns. Those who do have the law, \"like unto us\" (v. 27), stand on the other side of the same logic. Jacob includes himself in the exposed category before he starts naming classes, which is the only reason the ten wos that follow are bearable.",
-   "cites": [
-    {
-     "quote": "like unto us",
-     "verse": 27,
-     "start": 174,
-     "end": 196,
-     "spans": [
-      {
-       "w1": 18,
-       "w2": 20,
-       "text": "like unto us"
-      }
-     ]
-    }
-   ]
+   "title": "A chain of four conditions, then its reverse",
+   "text": "The record builds the argument as a linked sequence: \"where there is no law given there is no punishment; and where there is no punishment there is no condemnation; and where there is no condemnation the mercies of the Holy One of Israel have claim upon them.\" Three links, each taking the previous conclusion as its premise, and a fourth clause supplying the ground, \"because of the atonement.\" Verse 27 then runs the chain backward for the other case, \"wo unto him that has the law given, yea, that has all the commandments of God, like unto us.\" The phrase \"like unto us\" puts the speaker and his hearers on the exposed side of his own argument."
   },
   {
-   "label": "v. 41–43",
-   "start": 41,
-   "end": 43,
-   "title": "A narrow way with an honest gate",
-   "text": "The way is narrow but straight, the gate has one keeper, and the keeper cannot be deceived. Then comes the requirement that stings the chapter's learned and rich hearers: cast the things away, be fools before God, \"come down in the depths of humility\" (v. 42). Knocking opens the gate; credentials do not.",
-   "cites": [
-    {
-     "quote": "come down in the depths of humility",
-     "verse": 42,
-     "start": 214,
-     "end": 259,
-     "spans": [
-      {
-       "w1": 55,
-       "w2": 61,
-       "text": "come down in the depths of humility"
-      }
-     ]
-    }
-   ]
+   "label": "v. 30–38",
+   "start": 30,
+   "end": 38,
+   "title": "Nine woes with a fixed shape and varying penalties",
+   "text": "After the first woe at verse 27, the record delivers nine more in nine consecutive verses: the rich, the deaf, the blind, the uncircumcised of heart, the liar, the murderer, those who commit whoredoms, idolaters, and all who die in their sins. Each names a class and attaches a consequence. The consequences are not uniform: two end in perishing at verses 31 and 32, two in being thrust down to hell at verses 34 and 36, and the last supplies no punishment beyond continuance, \"they shall return to God, and behold his face, and remain in their sins.\" The rich get the longest entry, four clauses, and the murderer the shortest."
   },
   {
-   "label": "v. 47–49",
-   "start": 47,
-   "end": 49,
-   "title": "The preacher explains himself",
-   "text": "Three questions in a row admit what the sermon has been doing, and the third is the most honest: he would speak of holiness if they were holy. Verse 49 then gives his own state without hedging, a soul that abhors sin and a heart that delights in righteousness. Very few preachers in this record stop to justify their tone, and the justification is entirely about his hearers' condition."
+   "label": "v. 44",
+   "start": 44,
+   "end": 44,
+   "title": "A gesture recorded inside a sermon",
+   "text": "The record reports a physical action, not a figure of speech: \"I take off my garments, and I shake them before you.\" The stated purpose is evidentiary and future, \"ye shall know at the last day, when all men shall be judged of their works, that the God of Israel did witness that I shook your iniquities from my soul.\" The same act recurs at Jacob 1:19 and 2:2 and at Mosiah 2:28, and Acts 18:6 has Paul shake his raiment with the identical logic of transferred blood-guilt. A performed act meant to be remembered as testimony is rare in these books.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 1:19",
+     "start": 342,
+     "end": 352,
+     "book": "Jacob",
+     "chapter": 1,
+     "verse_start": 19,
+     "verse_end": 19
+    },
+    {
+     "kind": "scripture",
+     "text": "Mosiah 2:28",
+     "start": 368,
+     "end": 379,
+     "book": "Mosiah",
+     "chapter": 2,
+     "verse_start": 28,
+     "verse_end": 28
+    },
+    {
+     "kind": "scripture",
+     "text": "Acts 18:6",
+     "start": 385,
+     "end": 394,
+     "book": "Acts",
+     "chapter": 18,
+     "verse_start": 6,
+     "verse_end": 6
+    }
+   ]
   }
  ],
  "chapter": [
@@ -947,7 +912,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al34-010"
   },
   {
    "id": "2ne09-007",
@@ -973,7 +938,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "morm09-004"
   },
   {
    "id": "2ne09-008",
@@ -999,7 +964,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "eth08-008"
   },
   {
    "id": "2ne09-009",
@@ -1025,7 +990,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "jac04-013"
   },
   {
    "id": "2ne09-010",
@@ -1051,7 +1016,267 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos02-026"
+  },
+  {
+   "id": "2ne09-022",
+   "scope": "BOM",
+   "head": "Alma 34:10",
+   "anchor": {
+    "verse": 7,
+    "w1": 2,
+    "w2": 8,
+    "quote": "it must needs be an infinite atonement"
+   },
+   "reason": "Amulek arguing the same necessity at Ammonihah",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 34,
+     "verse": 10,
+     "w1": 41,
+     "w2": 45,
+     "quote": "an infinite and eternal sacrifice.",
+     "verse_text": "For it is expedient that there should be a great and last sacrifice; yea, not a sacrifice of man, neither of beast, neither of any manner of fowl; for it shall not be a human sacrifice; but it must be an infinite and eternal sacrifice.",
+     "markdown": "For it is expedient that there should be a great and last sacrifice; yea, not a sacrifice of man, neither of beast, neither of any manner of fowl; for it shall not be a human sacrifice; but it must be **an infinite and eternal sacrifice**.",
+     "span": true
+    }
+   ],
+   "mirror": "al34-005"
+  },
+  {
+   "id": "2ne09-023",
+   "scope": "BOM",
+   "head": "Morm. 6:15",
+   "anchor": {
+    "verse": 7,
+    "w1": 41,
+    "w2": 55,
+    "quote": "this flesh must have laid down to rot and to crumble to its mother earth,"
+   },
+   "reason": "Mormon using the phrase over his own dead",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 6,
+     "verse": 15,
+     "w1": 90,
+     "w2": 99,
+     "quote": "and to crumble and to return to their mother earth.",
+     "verse_text": "And it came to pass that there were ten more who did fall by the sword, with their ten thousand each; yea, even all my people, save it were those twenty and four who were with me, and also a few who had escaped into the south countries, and a few who had deserted over unto the Lamanites, had fallen; and their flesh, and bones, and blood lay upon the face of the earth, being left by the hands of those who slew them to molder upon the land, and to crumble and to return to their mother earth.",
+     "markdown": "And it came to pass that there were ten more who did fall by the sword, with their ten thousand each; yea, even all my people, save it were those twenty and four who were with me, and also a few who had escaped into the south countries, and a few who had deserted over unto the Lamanites, had fallen; and their flesh, and bones, and blood lay upon the face of the earth, being left by the hands of those who slew them to molder upon the land, **and to crumble and to return to their mother earth**.",
+     "span": true
+    }
+   ],
+   "mirror": "morm06-006"
+  },
+  {
+   "id": "2ne09-024",
+   "scope": "BOM",
+   "head": "Alma 40:12",
+   "anchor": {
+    "verse": 13,
+    "w1": 14,
+    "w2": 25,
+    "quote": "the paradise of God must deliver up the spirits of the righteous,"
+   },
+   "reason": "Alma describing what that paradise is",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 40,
+     "verse": 12,
+     "w1": 23,
+     "w2": 26,
+     "quote": "which is called paradise,",
+     "verse_text": "And then shall it come to pass, that the spirits of those who are righteous are received into a state of happiness, which is called paradise, a state of rest, a state of peace, where they shall rest from all their troubles and from all care, and sorrow.",
+     "markdown": "And then shall it come to pass, that the spirits of those who are righteous are received into a state of happiness, **which is called paradise**, a state of rest, a state of peace, where they shall rest from all their troubles and from all care, and sorrow.",
+     "span": true
+    }
+   ],
+   "mirror": "al40-004"
+  },
+  {
+   "id": "2ne09-025",
+   "scope": "BOM",
+   "head": "Alma 11:43",
+   "anchor": {
+    "verse": 13,
+    "w1": 37,
+    "w2": 46,
+    "quote": "the spirit and the body is restored to itself again,"
+   },
+   "reason": "Amulek promising the same reunion",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 11,
+     "verse": 43,
+     "w1": 1,
+     "w2": 13,
+     "quote": "The spirit and the body shall be reunited again in its perfect form;",
+     "verse_text": "The spirit and the body shall be reunited again in its perfect form; both limb and joint shall be restored to its proper frame, even as we now are at this time; and we shall be brought to stand before God, knowing even as we know now, and have a bright recollection of all our guilt.",
+     "markdown": "**The spirit and the body shall be reunited again in its perfect form**; both limb and joint shall be restored to its proper frame, even as we now are at this time; and we shall be brought to stand before God, knowing even as we know now, and have a bright recollection of all our guilt.",
+     "span": true
+    }
+   ],
+   "mirror": "al11-005"
+  },
+  {
+   "id": "2ne09-026",
+   "scope": "BOM",
+   "head": "Alma 12:17",
+   "anchor": {
+    "verse": 16,
+    "w1": 75,
+    "w2": 81,
+    "quote": "whose flame ascendeth up forever and ever"
+   },
+   "reason": "Alma naming the lake it burns in",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 12,
+     "verse": 17,
+     "w1": 11,
+     "w2": 16,
+     "quote": "a lake of fire and brimstone,",
+     "verse_text": "Then is the time when their torments shall be as a lake of fire and brimstone, whose flame ascendeth up forever and ever; and then is the time that they shall be chained down to an everlasting destruction, according to the power and captivity of Satan, he having subjected them according to his will.",
+     "markdown": "Then is the time when their torments shall be as **a lake of fire and brimstone**, whose flame ascendeth up forever and ever; and then is the time that they shall be chained down to an everlasting destruction, according to the power and captivity of Satan, he having subjected them according to his will.",
+     "span": true
+    }
+   ],
+   "mirror": "al12-006"
+  },
+  {
+   "id": "2ne09-027",
+   "scope": "BOM",
+   "head": "Alma 21:6",
+   "anchor": {
+    "verse": 21,
+    "w1": 10,
+    "w2": 19,
+    "quote": "save all men if they will hearken unto his voice;"
+   },
+   "reason": "the same claim made without the condition",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 21,
+     "verse": 6,
+     "w1": 56,
+     "w2": 61,
+     "quote": "that God will save all men.",
+     "verse_text": "Thou also sayest, except we repent we shall perish. How knowest thou the thought and intent of our hearts? How knowest thou that we have cause to repent? How knowest thou that we are not a righteous people? Behold, we have built sanctuaries, and we do assemble ourselves together to worship God. We do believe that God will save all men.",
+     "markdown": "Thou also sayest, except we repent we shall perish. How knowest thou the thought and intent of our hearts? How knowest thou that we have cause to repent? How knowest thou that we are not a righteous people? Behold, we have built sanctuaries, and we do assemble ourselves together to worship God. We do believe **that God will save all men**.",
+     "span": true
+    }
+   ],
+   "mirror": "al21-006"
+  },
+  {
+   "id": "2ne09-028",
+   "scope": "BOM",
+   "head": "Alma 42:17",
+   "anchor": {
+    "verse": 25,
+    "w1": 8,
+    "w2": 13,
+    "quote": "where there is no law given"
+   },
+   "reason": "Alma asking how sin works without law",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 42,
+     "verse": 17,
+     "w1": 11,
+     "w2": 19,
+     "quote": "How could he sin if there was no law?",
+     "verse_text": "Now, how could a man repent except he should sin? How could he sin if there was no law? How could there be a law save there was a punishment?",
+     "markdown": "Now, how could a man repent except he should sin? **How could he sin if there was no law**? How could there be a law save there was a punishment?",
+     "span": true
+    }
+   ],
+   "mirror": "al42-006"
+  },
+  {
+   "id": "2ne09-029",
+   "scope": "BOM",
+   "head": "Alma 19:26",
+   "anchor": {
+    "verse": 26,
+    "w1": 27,
+    "w2": 31,
+    "quote": "awful monster, death and hell,"
+   },
+   "reason": "the only other place monster meets torment",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 19,
+     "verse": 26,
+     "w1": 15,
+     "w2": 21,
+     "quote": "sent from the Nephites to torment them.",
+     "verse_text": "But others rebuked them all, saying that he was a monster, who had been sent from the Nephites to torment them.",
+     "markdown": "But others rebuked them all, saying that he was a monster, who had been **sent from the Nephites to torment them**.",
+     "span": true
+    }
+   ],
+   "mirror": "al19-005"
+  },
+  {
+   "id": "2ne09-030",
+   "scope": "BOM",
+   "head": "3 Ne. 13:21",
+   "anchor": {
+    "verse": 30,
+    "w1": 31,
+    "w2": 42,
+    "quote": "their hearts are upon their treasures; wherefore, their treasure is their god."
+   },
+   "reason": "the Lord on where the heart follows",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 13,
+     "verse": 21,
+     "w1": 1,
+     "w2": 11,
+     "quote": "For where your treasure is, there will your heart be also.",
+     "verse_text": "For where your treasure is, there will your heart be also.",
+     "markdown": "**For where your treasure is, there will your heart be also**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne13-006"
+  },
+  {
+   "id": "2ne09-031",
+   "scope": "BOM",
+   "head": "3 Ne. 14:14",
+   "anchor": {
+    "verse": 41,
+    "w1": 36,
+    "w2": 46,
+    "quote": "the keeper of the gate is the Holy One of Israel;"
+   },
+   "reason": "the Lord on the strait gate itself",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 14,
+     "verse": 14,
+     "w1": 2,
+     "w2": 14,
+     "quote": "strait is the gate, and narrow is the way, which leadeth unto life,",
+     "verse_text": "Because strait is the gate, and narrow is the way, which leadeth unto life, and few there be that find it.",
+     "markdown": "Because **strait is the gate, and narrow is the way, which leadeth unto life**, and few there be that find it.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne14-006"
   },
   {
    "id": "2ne09-011",
@@ -1280,7 +1505,8 @@
    "w2": 8,
    "quote": "it must needs be an infinite atonement",
    "entries": [
-    "2ne09-006"
+    "2ne09-006",
+    "2ne09-022"
    ]
   },
   {
@@ -1290,6 +1516,15 @@
    "quote": "this corruption could not put on incorruption",
    "entries": [
     "2ne09-011"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 41,
+   "w2": 55,
+   "quote": "this flesh must have laid down to rot and to crumble to its mother earth,",
+   "entries": [
+    "2ne09-023"
    ]
   },
   {
@@ -1320,6 +1555,24 @@
    ]
   },
   {
+   "verse": 13,
+   "w1": 14,
+   "w2": 25,
+   "quote": "the paradise of God must deliver up the spirits of the righteous,",
+   "entries": [
+    "2ne09-024"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 37,
+   "w2": 46,
+   "quote": "the spirit and the body is restored to itself again,",
+   "entries": [
+    "2ne09-025"
+   ]
+  },
+  {
    "verse": 14,
    "w1": 32,
    "w2": 42,
@@ -1347,6 +1600,15 @@
    ]
   },
   {
+   "verse": 16,
+   "w1": 75,
+   "w2": 81,
+   "quote": "whose flame ascendeth up forever and ever",
+   "entries": [
+    "2ne09-026"
+   ]
+  },
+  {
    "verse": 18,
    "w1": 23,
    "w2": 37,
@@ -1356,12 +1618,48 @@
    ]
   },
   {
+   "verse": 21,
+   "w1": 10,
+   "w2": 19,
+   "quote": "save all men if they will hearken unto his voice;",
+   "entries": [
+    "2ne09-027"
+   ]
+  },
+  {
+   "verse": 25,
+   "w1": 8,
+   "w2": 13,
+   "quote": "where there is no law given",
+   "entries": [
+    "2ne09-028"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 27,
+   "w2": 31,
+   "quote": "awful monster, death and hell,",
+   "entries": [
+    "2ne09-029"
+   ]
+  },
+  {
    "verse": 27,
    "w1": 26,
    "w2": 32,
    "quote": "that wasteth the days of his probation",
    "entries": [
     "2ne09-005"
+   ]
+  },
+  {
+   "verse": 30,
+   "w1": 31,
+   "w2": 42,
+   "quote": "their hearts are upon their treasures; wherefore, their treasure is their god.",
+   "entries": [
+    "2ne09-030"
    ]
   },
   {
@@ -1389,7 +1687,8 @@
    "w2": 46,
    "quote": "the keeper of the gate is the Holy One of Israel",
    "entries": [
-    "2ne09-003"
+    "2ne09-003",
+    "2ne09-031"
    ]
   },
   {
@@ -1441,7 +1740,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "b91fe0dcaf14bf81"
+  "at": "2026-09-07",
+  "source_sha256": "c2023f9f73ee1362"
  }
 }

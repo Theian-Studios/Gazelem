@@ -18,9 +18,9 @@
   "principles": [
    "Faith without a witness",
    "Long silence and its cost",
-   ""
+   "Conversion that changes a nation"
   ],
-  "connections": 8,
+  "connections": 13,
   "initial": true
  },
  "world_behind": [
@@ -156,53 +156,25 @@
  ],
  "verses": [
   {
-   "label": "v. 1–5",
-   "start": 1,
-   "end": 5,
-   "title": "The queen sends for Ammon",
-   "text": "The sepulchre is ready and the household is divided over whether the king has begun to decay. The queen summons the Nephite her servants have been talking about, tells him what she has heard about him, and asks him to look at her husband."
+   "label": "v. 28–30",
+   "start": 28,
+   "end": 30,
+   "title": "The raising runs through touch, twice",
+   "text": "Abish takes the queen by the hand and she rises; the queen takes the king by the hand and he rises. By the hand appears in these two verses and nowhere else in the chapter. What breaks the paralysis is not a word but a grip, passed along by the one person who never fell."
   },
   {
-   "label": "v. 6–10",
-   "start": 6,
-   "end": 10,
-   "title": "The diagnosis",
-   "text": "Mormon steps in to explain what is happening in Lamoni's mind, then Ammon goes in, sees, and forbids the burial. He tests the queen with one question. Her answer names her lack of evidence, and he tells her no Nephite has believed better."
-  },
-  {
-   "label": "v. 11–14",
-   "start": 11,
-   "end": 14,
-   "title": "The watch and the rising",
-   "text": "She sits by the bed until morning. Lamoni gets up, blesses her, testifies that he has seen his Redeemer, and goes down again. She goes down with him. Ammon prays and goes down third, and all three are on the floor."
-  },
-  {
-   "label": "v. 15–18",
-   "start": 15,
-   "end": 18,
-   "title": "Abish",
-   "text": "The servants pray until they fall too. One woman stays standing, and the record stops to explain why: a vision of her father, years of belief, and total silence about it. She runs house to house, and a crowd assembles."
-  },
-  {
-   "label": "v. 19–24",
-   "start": 19,
-   "end": 24,
-   "title": "The crowd and the sword",
-   "text": "The people argue over whose sin caused this. A man whose brother Ammon killed draws a sword, lifts it, and falls dead. Mormon inserts the promise made to Mosiah, and the crowd stops daring to touch anyone."
-  },
-  {
-   "label": "v. 25–28",
-   "start": 25,
-   "end": 28,
-   "title": "Three explanations",
-   "text": "Ammon is the Great Spirit; Ammon was sent by the Great Spirit; Ammon is a monster sent to torment them. The contention sharpens, and Abish sees what her plan has produced and weeps."
-  },
-  {
-   "label": "v. 29–36",
+   "label": "v. 29–30",
    "start": 29,
-   "end": 36,
-   "title": "Raised, and a church",
-   "text": "Abish takes the queen's hand and the queen rises praising Jesus and asking mercy for the crowd. The queen takes Lamoni's hand and he rises and preaches. Ammon and the servants testify that their hearts are changed, many believe, and a church is established among the Lamanites."
+   "end": 30,
+   "title": "The record notes speech it cannot report",
+   "text": "After the cry about an awful hell, the queen clasps her hands, \"speaking many words which were not understood.\" The account admits a gap in itself rather than filling it, and then moves straight on to the next hand taken."
+  },
+  {
+   "label": "v. 31–33",
+   "start": 31,
+   "end": 33,
+   "title": "The outcome is split, and the testimony is uniform",
+   "text": "Many hear Lamoni and believe; \"but there were many among them who would not hear his words; therefore they went their way.\" The record claims no triumph and prints the refusal in the same breath as the belief. What it does claim is agreement among the witnesses: they all declared \"the selfsame thing,\" that their hearts had been changed and they had no more desire to do evil."
   }
  ],
  "chapter": [
@@ -224,7 +196,7 @@
   {
    "n": 4,
    "title": "Her plan misfires and works anyway",
-   "text": "She expected the sight to make people believe. What it produced was an argument sharp enough to make her cry. The believing happens after the queen speaks, which is nothing Abish arranged."
+   "text": "Verse 17 gives her reasoning, that she \"knew that it was the power of God\" and ran to gather a crowd. Verse 28 reports the result, \"the contention began to be exceedingly sharp among them,\" and that she \"was exceedingly sorrowful, even unto tears.\" What she did next was physical rather than persuasive: verse 29 has her take the queen by the hand. The believing begins after the queen speaks at verse 29 and the king at verse 30, which is nothing she planned."
   },
   {
    "n": 5,
@@ -239,35 +211,67 @@
   {
    "n": 7,
    "title": "A promise made in Zarahemla holds in Ishmael",
-   "text": "Mormon interrupts the sword falling to quote what the Lord told Mosiah about his sons. The narrative reason Ammon lives is a father's prayer answered years earlier and a country away."
+   "text": "Verse 23 breaks the action mid-scene to quote a promise made in another book: \"the Lord had said unto Mosiah, his father: I will spare him, and it shall be unto him according to thy faith.\" The reason given for the survival is not Ammon's strength but a father's faith recorded at Mosiah 28:6–7. The record thus reaches back two books and one country to explain why a raised sword did not fall.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 28:6–7",
+     "start": 281,
+     "end": 294,
+     "book": "Mosiah",
+     "chapter": 28,
+     "verse_start": 6,
+     "verse_end": 7
+    }
+   ]
   },
   {
    "n": 8,
    "title": "The church is founded out of a riot",
-   "text": "The last two verses have baptisms, a church, and the Lord's arm extended to all who will repent. That grows directly from a contention Abish started by running out of a house."
+   "text": "Verse 35 reports baptisms and a church established, and verse 36 states the general conclusion, \"his arm is extended to all people who will repent and believe on his name.\" Both follow from the crowd assembled at verse 17 by one servant woman, named at verse 16 as Abish and described as \"converted unto the Lord for many years\" without anyone knowing. A national church begins in a riot started by a woman whose conversion the record says was secret until that afternoon."
   }
  ],
  "world_in_front": {
   "applications": [
    {
     "title": "Say what you actually saw",
-    "verse_label": "v. 5",
-    "text": "The queen had one piece of first-hand evidence against the household's conclusion, and she gave it plainly. Where you are the only person in the room who has looked closely at something, report what you observed and let it stand."
+    "verse_label": "v. 4–5",
+    "text": "The queen reports her evidence and its source, \"The servants of my husband have made it known unto me,\" and then states the disagreement plainly, \"some say that he is not dead.\" She does not overclaim and she does not wait for certainty before acting."
    },
    {
     "title": "Name how thin your grounds are, then act",
     "verse_label": "v. 9",
-    "text": "The queen listed exactly what she had before she said she believed. When you are deciding on incomplete information, state the gaps out loud instead of pretending to certainty, and then still decide."
+    "text": "Asked whether she believes, she answers exactly, \"I have had no witness save thy word, and the word of our servants; nevertheless I believe.\" The admission and the belief are in one sentence, and verse 10 calls it great faith."
+   },
+   {
+    "title": "Ask the question before you make the promise",
+    "verse_label": "v. 9",
+    "text": "Ammon asks \"Believest thou this?\" before he says anything about what will happen. Getting the person to say where they stand is part of the work and not a preliminary to it."
    },
    {
     "title": "Stop keeping it to yourself",
-    "verse_label": "v. 17",
-    "text": "Abish believed for years and told nobody, and the record puts her name in scripture for the day she stopped. Pick the one person you have quietly assumed already knows where you stand, and tell them this week."
+    "verse_label": "v. 16–17",
+    "text": "Abish had been converted \"for many years\" and had never made it known, and the record says so twice. What ended the secrecy was a situation only she could read. Something you have been quiet about may be the thing a moment needs."
+   },
+   {
+    "title": "Read the reason for the survival back",
+    "verse_label": "v. 23",
+    "text": "The record interrupts the raised sword to quote a promise made to a father in another country, \"I will spare him, and it shall be unto him according to thy faith.\" When you come through something, it is worth asking whose earlier work you were standing in."
    },
    {
     "title": "Expect the first result to be an argument",
     "verse_label": "v. 28",
-    "text": "What Abish started produced contention before it produced converts. When telling the truth about something makes things noisier, that is often the middle of the process and not evidence you were wrong."
+    "text": "What Abish produced was contention \"exceedingly sharp,\" not belief, and she wept over it. The good outcome at verse 35 comes later and through somebody else. A right action does not always produce its result in your hands."
+   },
+   {
+    "title": "Use your hands when words are not working",
+    "verse_label": "v. 29–30",
+    "text": "In the middle of the quarrel she takes the queen by the hand, and the queen then takes the king by the hand. Two physical acts move the scene where the arguing could not."
+   },
+   {
+    "title": "Say the thing you heard from somebody else",
+    "verse_label": "v. 31",
+    "text": "Lamoni rebukes the crowd by teaching them \"the words which he had heard from the mouth of Ammon.\" Passing on what you were told, in the words you were told it in, is a real contribution and does not require originality."
    }
   ],
   "questions": [
@@ -340,7 +344,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al18-009"
   },
   {
    "id": "al19-002",
@@ -352,7 +356,7 @@
     "w2": 35,
     "quote": "one of the Lamanitish women"
    },
-   "reason": "the record’s only other use of the word, for the servants at Sebus",
+   "reason": "the word's only other use, for the servants at Sebus",
    "targets": [
     {
      "ref": "Alma",
@@ -366,7 +370,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al17-010"
   },
   {
    "id": "al19-003",
@@ -378,7 +382,7 @@
     "w2": 44,
     "quote": "lay prostrate upon the earth"
    },
-   "reason": "Lamoni’s father goes down in the same posture two chapters on",
+   "reason": "Lamoni's father down in the same posture, two chapters on",
    "targets": [
     {
      "ref": "Alma",
@@ -392,7 +396,59 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al22-012"
+  },
+  {
+   "id": "al19-011",
+   "scope": "BOOK",
+   "head": "Alma 56:45",
+   "anchor": {
+    "verse": 10,
+    "w1": 19,
+    "w2": 25,
+    "quote": "there has not been such great faith"
+   },
+   "reason": "Helaman ranking the stripling sons above all Nephites",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 56,
+     "verse": 45,
+     "w1": 12,
+     "w2": 24,
+     "quote": "never had I seen so great courage, nay, not amongst all the Nephites.",
+     "verse_text": "And now I say unto you, my beloved brother Moroni, that never had I seen so great courage, nay, not amongst all the Nephites.",
+     "markdown": "And now I say unto you, my beloved brother Moroni, that **never had I seen so great courage, nay, not amongst all the Nephites**.",
+     "span": true
+    }
+   ],
+   "mirror": "al56-004"
+  },
+  {
+   "id": "al19-012",
+   "scope": "BOOK",
+   "head": "Alma 22:22",
+   "anchor": {
+    "verse": 29,
+    "w1": 7,
+    "w2": 24,
+    "quote": "she went and took the queen by the hand, that perhaps she might raise her from the ground;"
+   },
+   "reason": "the old king raised from the earth by hand",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 22,
+     "verse": 22,
+     "w1": 49,
+     "w2": 54,
+     "quote": "raised the king from the earth,",
+     "verse_text": "Now when Aaron saw the determination of the queen, he, also knowing the hardness of the hearts of the people, feared lest that a multitude should assemble themselves together, and there should be a great contention and a disturbance among them; therefore he put forth his hand and raised the king from the earth, and said unto him: Stand. And he stood upon his feet, receiving his strength.",
+     "markdown": "Now when Aaron saw the determination of the queen, he, also knowing the hardness of the hearts of the people, feared lest that a multitude should assemble themselves together, and there should be a great contention and a disturbance among them; therefore he put forth his hand and **raised the king from the earth**, and said unto him: Stand. And he stood upon his feet, receiving his strength.",
+     "span": true
+    }
+   ],
+   "mirror": "al22-003"
   },
   {
    "id": "al19-004",
@@ -404,7 +460,7 @@
     "w2": 9,
     "quote": "Ammon could not be slain"
    },
-   "reason": "the promise Mormon is citing, made to Mosiah before they left",
+   "reason": "the promise Mormon cites, made to Mosiah before they left",
    "targets": [
     {
      "ref": "Mosiah",
@@ -418,7 +474,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos28-015"
   },
   {
    "id": "al19-005",
@@ -444,7 +500,85 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "2ne09-029"
+  },
+  {
+   "id": "al19-009",
+   "scope": "BOM",
+   "head": "Mosiah 27:23",
+   "anchor": {
+    "verse": 1,
+    "w1": 7,
+    "w2": 19,
+    "quote": "after two days and two nights they were about to take his body"
+   },
+   "reason": "the priests fasting two days and nights over Alma",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 27,
+     "verse": 23,
+     "w1": 6,
+     "w2": 20,
+     "quote": "after they had fasted and prayed for the space of two days and two nights,",
+     "verse_text": "And it came to pass after they had fasted and prayed for the space of two days and two nights, the limbs of Alma received their strength, and he stood up and began to speak unto them, bidding them to be of good comfort:",
+     "markdown": "And it came to pass **after they had fasted and prayed for the space of two days and two nights**, the limbs of Alma received their strength, and he stood up and began to speak unto them, bidding them to be of good comfort:",
+     "span": true
+    }
+   ],
+   "mirror": "mos27-017"
+  },
+  {
+   "id": "al19-010",
+   "scope": "BOM",
+   "head": "Ether 3:6",
+   "anchor": {
+    "verse": 6,
+    "w1": 22,
+    "w2": 33,
+    "quote": "the dark veil of unbelief was being cast away from his mind,"
+   },
+   "reason": "the veil taken from the brother of Jared's eyes",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 3,
+     "verse": 6,
+     "w1": 34,
+     "w2": 46,
+     "quote": "the veil was taken from off the eyes of the brother of Jared,",
+     "verse_text": "And it came to pass that when the brother of Jared had said these words, behold, the Lord stretched forth his hand and touched the stones one by one with his finger. And the veil was taken from off the eyes of the brother of Jared, and he saw the finger of the Lord; and it was as the finger of a man, like unto flesh and blood; and the brother of Jared fell down before the Lord, for he was struck with fear.",
+     "markdown": "And it came to pass that when the brother of Jared had said these words, behold, the Lord stretched forth his hand and touched the stones one by one with his finger. And **the veil was taken from off the eyes of the brother of Jared**, and he saw the finger of the Lord; and it was as the finger of a man, like unto flesh and blood; and the brother of Jared fell down before the Lord, for he was struck with fear.",
+     "span": true
+    }
+   ],
+   "mirror": "eth03-006"
+  },
+  {
+   "id": "al19-013",
+   "scope": "BOM",
+   "head": "Morm. 5:11",
+   "anchor": {
+    "verse": 30,
+    "w1": 7,
+    "w2": 14,
+    "quote": "she clasped her hands, being filled with joy,"
+   },
+   "reason": "Mormon's lament over arms that might have clasped them",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 5,
+     "verse": 11,
+     "w1": 35,
+     "w2": 45,
+     "quote": "that they might have been clasped in the arms of Jesus.",
+     "verse_text": "For I know that such will sorrow for the calamity of the house of Israel; yea, they will sorrow for the destruction of this people; they will sorrow that this people had not repented that they might have been clasped in the arms of Jesus.",
+     "markdown": "For I know that such will sorrow for the calamity of the house of Israel; yea, they will sorrow for the destruction of this people; they will sorrow that this people had not repented **that they might have been clasped in the arms of Jesus**.",
+     "span": true
+    }
+   ],
+   "mirror": "morm05-005"
   },
   {
    "id": "al19-006",
@@ -528,6 +662,15 @@
  "markers": [
   {
    "verse": 1,
+   "w1": 7,
+   "w2": 19,
+   "quote": "after two days and two nights they were about to take his body",
+   "entries": [
+    "al19-009"
+   ]
+  },
+  {
+   "verse": 1,
    "w1": 21,
    "w2": 25,
    "quote": "lay it in a sepulchre",
@@ -545,6 +688,15 @@
    ]
   },
   {
+   "verse": 6,
+   "w1": 22,
+   "w2": 33,
+   "quote": "the dark veil of unbelief was being cast away from his mind,",
+   "entries": [
+    "al19-010"
+   ]
+  },
+  {
    "verse": 8,
    "w1": 11,
    "w2": 15,
@@ -559,6 +711,7 @@
    "w2": 25,
    "quote": "there has not been such great faith",
    "entries": [
+    "al19-011",
     "al19-008"
    ]
   },
@@ -597,10 +750,28 @@
    "entries": [
     "al19-005"
    ]
+  },
+  {
+   "verse": 29,
+   "w1": 7,
+   "w2": 24,
+   "quote": "she went and took the queen by the hand, that perhaps she might raise her from the ground;",
+   "entries": [
+    "al19-012"
+   ]
+  },
+  {
+   "verse": 30,
+   "w1": 7,
+   "w2": 14,
+   "quote": "she clasped her hands, being filled with joy,",
+   "entries": [
+    "al19-013"
+   ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "52e08804714d484d"
+  "at": "2026-09-07",
+  "source_sha256": "a8d335431c58df9e"
  }
 }

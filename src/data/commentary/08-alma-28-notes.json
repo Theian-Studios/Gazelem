@@ -15,7 +15,7 @@
   "principles": [
    "The bill for a rescue",
    "Mourning taken seriously",
-   ""
+   "Two griefs told apart by hope"
   ],
   "connections": 9,
   "initial": true
@@ -44,7 +44,7 @@
   {
    "n": 5,
    "title": "The mourning is listed by relationship",
-   "text": "Verse 5 names widows for husbands, fathers for sons, daughter for brother, brother for father. Mormon writes the grief as a roll of who lost whom."
+   "text": "Verse 5 pairs each mourner with the one lost, wife to husband and parent to child. Mormon writes the grief as a roll of who lost whom."
   },
   {
    "n": 6,
@@ -61,12 +61,24 @@
   {
    "term": "Lamentation",
    "verse_label": "v. 4",
-   "text": "Formal, voiced grief. The record uses it eight times and the King James Bible twenty-five, where it names a genre as much as an emotion. Mormon pairs it with mourning to describe a whole country making the same sound at once."
+   "text": "Formal, voiced grief. Treated at Mosiah 21:9. The record uses it eight times and the King James Bible twenty-five, where it names a genre as much as an emotion. Mormon pairs it with mourning to describe a whole country making the same sound at once.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 21:9",
+     "start": 33,
+     "end": 44,
+     "book": "Mosiah",
+     "chapter": 21,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
   },
   {
    "term": "Solemnity",
    "verse_label": "v. 6",
-   "text": "A state of gravity, and in the King James Bible a kept observance. The word occurs once in this record and twice in the Bible. Mormon uses it of a day given over to fasting and prayer after a battle, which turns national grief into something observed."
+   "text": "A state of gravity, and in the King James Bible a kept observance. It appears once in the record, and twice in the Bible. Mormon uses it of a day given over to fasting and prayer after a battle, which turns national grief into something observed."
   },
   {
    "term": "Incomprehensible",
@@ -86,7 +98,19 @@
   {
    "term": "Inequality",
    "verse_label": "v. 13",
-   "text": "Unevenness, disparity. The word appears six times in this record and never in the King James Bible. Alma 4 and Mosiah 29 use it of wealth and rank among the living; here Mormon uses it of the difference between two sets of dead."
+   "text": "Unevenness, disparity. Treated at Alma 16:16. The word appears six times in this record and never in the King James Bible. Alma 4 and Mosiah 29 use it of wealth and rank among the living; here Mormon uses it of the difference between two sets of dead.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 16:16",
+     "start": 34,
+     "end": 44,
+     "book": "Alma",
+     "chapter": 16,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
   }
  ],
  "phrases": [
@@ -138,53 +162,39 @@
  ],
  "verses": [
   {
-   "label": "v. 1–3",
+   "label": "v. 1",
    "start": 1,
-   "end": 3,
-   "title": "The battle",
-   "text": "The church and the armies are established at Jershon. The Lamanites follow the refugees into the wilderness. The fighting is the worst since Lehi left Jerusalem: tens of thousands of Lamanites slain, tremendous slaughter among the Nephites, and the Lamanites finally driven off."
+   "end": 1,
+   "title": "The place name is repeated until it encircles",
+   "text": "Jershon stands three times in the opening sentence: the people of Ammon are established there, a church is established there, and the armies of the Nephites \"were set round about the land of Jershon.\" The sentence does with repetition what the armies do with position, and the verse closes on the Lamanites arriving."
   },
   {
-   "label": "v. 4–6",
-   "start": 4,
-   "end": 6,
-   "title": "The mourning",
-   "text": "Great mourning and lamentation across the whole land. Widows for husbands, fathers for sons, daughter for brother, brother for father. Mormon calls it a sorrowful day and a time of solemnity, fasting, and prayer."
+   "label": "v. 2",
+   "start": 2,
+   "end": 2,
+   "title": "The largest battle in the record takes forty-three words",
+   "text": "It is \"such an one as never had been known among all the people in the land from the time Lehi left Jerusalem,\" and tens of thousands fall. The record makes the superlative claim and then stops. No commander is named, no manoeuvre described, no ground given or taken."
   },
   {
    "label": "v. 7–9",
    "start": 7,
    "end": 9,
-   "title": "The seam",
-   "text": "The fifteenth year of the judges ends. Mormon summarizes the account of Ammon and his brethren, blesses them, and notes that the record of the wars and contentions has been given to this point."
+   "title": "The year is closed twice, with a blessing in between",
+   "text": "\"And thus endeth the fifteenth year\" at verse 7; \"the fifteenth year of the reign of the judges is ended\" at verse 9. Between the two endings Mormon files two summaries naming what he has just abridged, and interrupts the first with something a table of contents does not usually carry: \"And now may the Lord, the Redeemer of all men, bless their souls forever.\" The editor prays inside his own index."
   },
   {
-   "label": "v. 10–11",
+   "label": "v. 10–12",
    "start": 10,
-   "end": 11,
-   "title": "The audit",
-   "text": "From the first year to the fifteenth, many thousand lives. Bodies in the earth, bodies in heaps on top of it, and thousands mourning who have reason to fear their dead are consigned to endless woe."
-  },
-  {
-   "label": "v. 12",
-   "start": 12,
    "end": 12,
-   "title": "The other mourners",
-   "text": "Thousands more mourn the same losses and rejoice at the same time, because they know the promises and where their dead have gone."
+   "title": "One phrase counts four different things",
+   "text": "Many thousands falls in verses 10, 11 and 12, and lands five times across them: the lives destroyed, the bodies in the earth, the bodies moldering in heaps, the mourners who fear, and the mourners who hope. The same measure is applied to the dead and to the living, and the only thing that separates the last two groups is what they expect, not what they have lost."
   },
   {
-   "label": "v. 13",
+   "label": "v. 13–14",
    "start": 13,
-   "end": 13,
-   "title": "The inequality",
-   "text": "Mormon names the difference: sin, transgression, and the devil's planned work on the hearts of men. The gap between the two sets of mourners has a cause he is willing to state."
-  },
-  {
-   "label": "v. 14",
-   "start": 14,
    "end": 14,
-   "title": "The call",
-   "text": "Great need for diligent laborers in the vineyards of the Lord, great reason for sorrow at death and destruction, and great reason for joy because of the light of Christ."
+   "title": "The moral formula fires three times in two verses",
+   "text": "\"And thus we see\" opens verse 13 and is used twice more in verse 14. The record has just declined to explain a battle, and now supplies three conclusions in a row: the inequality of man, the call to labor, and the double reason for sorrow and rejoicing. What it withholds from the war it spends on the lesson."
   }
  ],
  "chapter": [
@@ -216,7 +226,7 @@
   {
    "n": 6,
    "title": "Two funerals, one difference",
-   "text": "The dead are equally dead and the mourners are equally grieved. What separates them is what the living can know, and Mormon calls that the inequality of man."
+   "text": "Verses 11 and 12 set two groups of mourners side by side and use the same number for both, \"many thousands.\" The bodies are equally dead in both verses. What differs is one clause: the first group mourn \"because they have reason to fear, according to the promises of the Lord, that they are consigned to a state of endless wo,\" and the second \"rejoice and exult in the hope, and even know... that they are raised to dwell at the right hand of God.\" Verse 13 names the difference, \"the inequality of man,\" and locates its cause in sin rather than in death."
   },
   {
    "n": 7,
@@ -234,22 +244,54 @@
    {
     "title": "Keep the promise when the bill comes",
     "verse_label": "v. 1–3",
-    "text": "The Nephites had committed to guard Jershon, and the guarding cost them a generation. When something you agreed to turns out to be expensive, the agreement is the reason to pay."
+    "text": "The Nephites had undertaken at Alma 27:23 to defend the people of Ammon, and this chapter is what that cost: \"a tremendous battle; yea, even such an one as never had been known among all the people in the land from the time Lehi left Jerusalem.\" An agreement is tested by the year it turns expensive.",
+    "refs": [
+     {
+      "kind": "scripture",
+      "text": "Alma 27:23",
+      "start": 31,
+      "end": 41,
+      "book": "Alma",
+      "chapter": 27,
+      "verse_start": 23,
+      "verse_end": 23
+     }
+    ]
    },
    {
     "title": "Name who lost whom",
     "verse_label": "v. 5",
-    "text": "Mormon wrote the grief by relationship instead of by number. When someone you know is bereaved, say the specific relationship out loud rather than referring to a loss."
+    "text": "Mormon writes the grief by relationship rather than by number, \"the cry of widows mourning for their husbands, and also of fathers mourning for their sons, and the daughter for the brother, yea, the brother for the father.\" When you record a loss, name the ties that were broken."
    },
    {
     "title": "Keep the sorrowful day",
     "verse_label": "v. 6",
-    "text": "A whole country stopped and fasted and prayed. When something bad has happened, mark it with an actual observance instead of moving straight on."
+    "text": "A whole country stopped, \"a time of solemnity, and a time of much fasting and prayer.\" Marking a bad thing with an occasion, rather than pressing on, is treated here as the appropriate response and not as weakness."
+   },
+   {
+    "title": "Report both accounts in the same paragraph",
+    "verse_label": "v. 8–9",
+    "text": "Verse 8 sums the mission with its \"sufferings... sorrows, and their afflictions, and their incomprehensible joy,\" and verse 9 sums the wars. The same year holds both, and the record refuses to let either one be the whole story."
+   },
+   {
+    "title": "Notice what makes the two funerals different",
+    "verse_label": "v. 11–12",
+    "text": "Two groups of thousands mourn, and the difference is not in the deaths but in what the living can know: some \"have reason to fear,\" and others \"rejoice and exult in the hope, and even know.\" Ask what you would actually know if you were standing on either side."
+   },
+   {
+    "title": "Call the difference by its name",
+    "verse_label": "v. 13",
+    "text": "Mormon calls it \"the inequality of man\" and locates the cause in sin and in the devil's cunning plans. Naming an unevenness and naming its cause are different acts, and this verse does both in a sentence."
+   },
+   {
+    "title": "Draw two conclusions, not one",
+    "verse_label": "v. 14",
+    "text": "The chapter's summary holds them together, \"the great reason of sorrow, and also of rejoicing.\" A response to a year like this that has only one emotional register in it is leaving something out."
    },
    {
     "title": "Do the work you can do",
     "verse_label": "v. 14",
-    "text": "The chapter that counts the dead ends by calling for laborers. When a situation is too large to fix, the honest response is to go work at the part of it in front of you."
+    "text": "The chapter that counts the dead ends on \"the great call of diligence of men to labor in the vineyards of the Lord.\" The answer offered to a season of loss is a task rather than an explanation."
    }
   ],
   "questions": [
@@ -322,7 +364,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al27-011"
   },
   {
    "id": "al28-002",
@@ -334,7 +376,7 @@
     "w2": 11,
     "quote": "how great the inequality of man is"
    },
-   "reason": "the same word used of the living, when Alma saw it in the church",
+   "reason": "the same word used of the living, in the church",
    "targets": [
     {
      "ref": "Alma",
@@ -348,7 +390,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al04-019"
   },
   {
    "id": "al28-003",
@@ -400,7 +442,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "morm06-005"
   },
   {
    "id": "al28-005",
@@ -412,7 +454,7 @@
     "w2": 11,
     "quote": "how great the inequality of man is"
    },
-   "reason": "the reform that set out to end it, sixteen years before",
+   "reason": "the reform meant to end it, sixteen years before",
    "targets": [
     {
      "ref": "Mosiah",
@@ -426,7 +468,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos29-029"
   },
   {
    "id": "al28-006",
@@ -464,7 +506,7 @@
     "w2": 13,
     "quote": "a time of solemnity"
    },
-   "reason": "the word in its King James sense, of an observance kept",
+   "reason": "the word in its King James sense, an observance kept",
    "targets": [
     {
      "ref": "Isa.",
@@ -601,7 +643,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "4b74c48936d057ed"
+  "at": "2026-09-07",
+  "source_sha256": "a8a2bc77d8b5ce12"
  }
 }

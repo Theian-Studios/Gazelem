@@ -19,7 +19,7 @@
    "Answered prayer",
    "Being born of God"
   ],
-  "connections": 22,
+  "connections": 26,
   "initial": false
  },
  "world_behind": [
@@ -58,7 +58,7 @@
   {
    "term": "Haughtiness",
    "verse_label": "v. 4",
-   "text": "Arrogance carried in bearing rather than in speech, the visible form of pride. The command pairs it with pride and makes both a threat to peace. What the verse asks for instead is that every man esteem his neighbor as himself."
+   "text": "Arrogance carried in bearing rather than in speech, the visible form of pride. Treated at 2 Nephi 12:11. The command pairs it with pride and makes both a threat to peace. What the verse asks for instead is that every man esteem his neighbor as himself."
   },
   {
    "term": "Hinderment",
@@ -73,7 +73,7 @@
   {
    "term": "Rehearsed",
    "verse_label": "v. 20",
-   "text": "Recounted in order, went back over. The men who had been helping him attack the church are the ones who tell his father what happened, and the word implies a full and sequential account. The father's response is to gather a crowd."
+   "text": "Recounted in order, went back over. Treated at 2 Nephi 1:1. The men who had been helping him attack the church are the ones who tell his father what happened, and the word implies a full and sequential account. The father's response is to gather a crowd."
   },
   {
    "term": "Wading",
@@ -120,12 +120,36 @@
   {
    "term": "Redeemed from the gall of bitterness and bonds of iniquity",
    "verse_label": "v. 29",
-   "text": "Peter said almost this to a man in Samaria who tried to buy the Spirit. The second half is also his own father's phrase: Alma the elder had told the people at Helam that they had been bound with the bands of iniquity and delivered from them. The son describes his rescue in his father's words."
+   "text": "Peter said almost this to a man in Samaria who tried to buy the Spirit (Acts 8:23). The second half is also his own father's phrase: Alma the elder had told the people at Helam that they had been bound with the bands of iniquity and delivered from them. The son describes his rescue in his father's words.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Acts 8:23",
+     "start": 72,
+     "end": 81,
+     "book": "Acts",
+     "chapter": 8,
+     "verse_start": 23,
+     "verse_end": 23
+    }
+   ]
   },
   {
    "term": "They did publish peace; they did publish good tidings of good",
    "verse_label": "v. 37",
-   "text": "Isaiah's line about the runner with beautiful feet, applied to the sons of Mosiah. Abinadi had expounded that verse in Noah's court and given the feet finally to the Lord himself. Here the record hands the description to four young men who had been trying to destroy the church."
+   "text": "Isaiah's line about the runner with beautiful feet (Isa. 52:7), applied to the sons of Mosiah. Abinadi had expounded that verse in Noah's court and given the feet finally to the Lord himself. Here the record hands the description to four young men who had been trying to destroy the church.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 52:7",
+     "start": 52,
+     "end": 61,
+     "book": "Isa",
+     "chapter": 52,
+     "verse_start": 7,
+     "verse_end": 7
+    }
+   ]
   }
  ],
  "verses": [
@@ -133,50 +157,256 @@
    "label": "v. 1–5",
    "start": 1,
    "end": 5,
-   "title": "A law, and a rule",
-   "text": "The church complains, the king proclaims that unbelievers may not persecute, and the churches issue their own strict command: equality, no pride, esteem your neighbor as yourself, and priests supporting themselves by their own labor. The state protects; the church regulates itself."
+   "title": "The answer arrives in two pieces",
+   "text": "The complaint travels up until Alma \"laid the case before their king Mosiah\" (v. 1). What comes back is a royal proclamation against persecution from outside, and then a second command inside the churches doing different work: \"there should be an equality among all men\" (v. 3), no pride, every man esteeming his neighbor as himself, the priests to \"labor with their own hands for their support\" (v. 5). The section reports one outcome, and it is attached to the inward half: \"doing these things, they did abound in the grace of God\" (v. 5).",
+   "cites": [
+    {
+     "quote": "laid the case before their king Mosiah",
+     "verse": 1,
+     "start": 36,
+     "end": 83,
+     "spans": [
+      {
+       "w1": 44,
+       "w2": 50,
+       "text": "laid the case before their king Mosiah"
+      }
+     ]
+    },
+    {
+     "quote": "there should be an equality among all men",
+     "verse": 3,
+     "start": 227,
+     "end": 277,
+     "spans": [
+      {
+       "w1": 20,
+       "w2": 27,
+       "text": "there should be an equality among all men"
+      }
+     ]
+    },
+    {
+     "quote": "labor with their own hands for their support",
+     "verse": 5,
+     "start": 349,
+     "end": 402,
+     "spans": [
+      {
+       "w1": 9,
+       "w2": 16,
+       "text": "labor with their own hands for their support"
+      }
+     ]
+    },
+    {
+     "quote": "doing these things, they did abound in the grace of God",
+     "verse": 5,
+     "start": 476,
+     "end": 540,
+     "spans": [
+      {
+       "w1": 30,
+       "w2": 40,
+       "text": "doing these things, they did abound in the grace of God"
+      }
+     ]
+    }
+   ]
   },
   {
-   "label": "v. 6–9",
-   "start": 6,
+   "label": "v. 8–9",
+   "start": 8,
    "end": 9,
-   "title": "Prosperity, and one young man",
-   "text": "The people scatter, build cities in all quarters, and grow wealthy. Then the record names the sons of Mosiah among the unbelievers and one of Alma's sons among them, and describes what he does with words: flattery, stolen hearts, dissension."
+   "title": "The damage is done with words",
+   "text": "He is \"a man of many words\" (v. 8), and every item verse 9 charges him with is verbal: \"stealing away the hearts of the people; causing much dissension among the people\" (v. 9). The verse stops short of calling him the enemy. He is \"giving a chance for the enemy of God to exercise his power over them\" (v. 9).",
+   "cites": [
+    {
+     "quote": "a man of many words",
+     "verse": 8,
+     "start": 6,
+     "end": 34,
+     "spans": [
+      {
+       "w1": 43,
+       "w2": 47,
+       "text": "a man of many words"
+      }
+     ]
+    },
+    {
+     "quote": "stealing away the hearts of the people; causing much dissension among the people",
+     "verse": 9,
+     "start": 87,
+     "end": 176,
+     "spans": [
+      {
+       "w1": 15,
+       "w2": 27,
+       "text": "stealing away the hearts of the people; causing much dissension among the people"
+      }
+     ]
+    },
+    {
+     "quote": "giving a chance for the enemy of God to exercise his power over them",
+     "verse": 9,
+     "start": 232,
+     "end": 309,
+     "spans": [
+      {
+       "w1": 28,
+       "w2": 41,
+       "text": "giving a chance for the enemy of God to exercise his power over them"
+      }
+     ]
+    }
+   ]
   },
   {
-   "label": "v. 10–13",
-   "start": 10,
+   "label": "v. 11–13",
+   "start": 11,
    "end": 13,
-   "title": "An interruption",
-   "text": "They are going about secretly to destroy the church when an angel descends in a cloud with a voice like thunder that shakes the ground. They fall and do not understand him. He cries again, and the second time it is a question with a name attached."
+   "title": "The first words are not understood",
+   "text": "The angel comes with \"a voice of thunder, which caused the earth to shake\" (v. 11), and the men \"fell to the earth, and understood not the words which he spake unto them\" (v. 12). The record states it and does not explain it. What it quotes is the second cry, and the second cry opens with his name: \"Alma, arise and stand forth, for why persecutest thou the church of God?\" (v. 13). The text does not say why the first went unheard. Acts 9:4 puts the same question to Saul on the road.",
+   "cites": [
+    {
+     "quote": "a voice of thunder, which caused the earth to shake",
+     "verse": 11,
+     "start": 21,
+     "end": 82,
+     "spans": [
+      {
+       "w1": 40,
+       "w2": 49,
+       "text": "a voice of thunder, which caused the earth to shake"
+      }
+     ]
+    },
+    {
+     "quote": "fell to the earth, and understood not the words which he spake unto them",
+     "verse": 12,
+     "start": 96,
+     "end": 178,
+     "spans": [
+      {
+       "w1": 9,
+       "w2": 22,
+       "text": "fell to the earth, and understood not the words which he spake unto them"
+      }
+     ]
+    },
+    {
+     "quote": "Alma, arise and stand forth, for why persecutest thou the church of God?",
+     "verse": 13,
+     "start": 300,
+     "end": 382,
+     "spans": [
+      {
+       "w1": 6,
+       "w2": 18,
+       "text": "Alma, arise and stand forth, for why persecutest thou the church of God?"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Acts 9:4",
+     "start": 434,
+     "end": 442,
+     "book": "Acts",
+     "chapter": 9,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
   },
   {
-   "label": "v. 14–17",
+   "label": "v. 14–16",
    "start": 14,
-   "end": 17,
-   "title": "Why the angel came",
-   "text": "Not for Alma's sake, according to the angel: the Lord heard the prayers of his people and of Alma's father, who had prayed with much faith. The stated purpose is that those prayers be answered. Then comes the instruction to remember the captivity of thy fathers, and he departs."
+   "end": 16,
+   "title": "The reason given belongs to other people",
+   "text": "The record has the angel state his errand twice and both times the beneficiary is somebody else: \"the Lord hath heard the prayers of his people, and also the prayers of his servant, Alma, who is thy father,\" and then the purpose clause, \"that the prayers of his servants might be answered according to their faith.\" The charge at verse 16 is also about other people, \"remember the captivity of thy fathers in the land of Helam, and in the land of Nephi,\" which points to Mosiah 23 and 24. The verse closes by making the outcome for the hearer irrelevant to the errand, \"this even if thou wilt of thyself be cast off.\" Nothing in the angel's speech is addressed to the young man's own condition."
   },
   {
-   "label": "v. 18–23",
+   "label": "v. 18–19",
    "start": 18,
-   "end": 23,
-   "title": "Carried in, prayed over",
-   "text": "They fall a second time, and Alma cannot speak or move. He is carried to his father, who rejoices and gathers a crowd and the priests. Two days and two nights of fasting later his limbs receive their strength and he stands up and tells them to be of good comfort."
+   "end": 19,
+   "title": "He loses the use of his mouth",
+   "text": "Verse 19 takes it in order: \"he became dumb, that he could not open his mouth; yea, and he became weak, even that he could not move his hands\" (v. 19), and he has to be carried. Verse 8 had introduced him as a man of many words. The record sets the two down and draws no line between them.",
+   "cites": [
+    {
+     "quote": "he became dumb, that he could not open his mouth; yea, and he became weak, even that he could not move his hands",
+     "verse": 19,
+     "start": 28,
+     "end": 150,
+     "spans": [
+      {
+       "w1": 11,
+       "w2": 33,
+       "text": "he became dumb, that he could not open his mouth; yea, and he became weak, even that he could not move his hands"
+      }
+     ]
+    }
+   ]
   },
   {
-   "label": "v. 24–31",
-   "start": 24,
-   "end": 31,
-   "title": "What he says when he can speak",
-   "text": "Born of the Spirit; all mankind must be born again, changed from a carnal and fallen state to a state of righteousness; they become new creatures. Then his own case in violent terms: wading, snatched, the darkest abyss, the marvelous light. The section closes with a scene where every knee bows."
+   "label": "v. 22–23",
+   "start": 22,
+   "end": 23,
+   "title": "The prayer asks for one thing",
+   "text": "The priests fast and pray \"that he would open the mouth of Alma, that he might speak, and also that his limbs might receive their strength\" (v. 22). Two days and two nights later \"he stood up and began to speak unto them, bidding them to be of good comfort\" (v. 23). The first thing the returned mouth is used for is the comfort of the people who prayed it back.",
+   "cites": [
+    {
+     "quote": "that he would open the mouth of Alma, that he might speak, and also that his limbs might receive their strength",
+     "verse": 22,
+     "start": 26,
+     "end": 147,
+     "spans": [
+      {
+       "w1": 24,
+       "w2": 44,
+       "text": "that he would open the mouth of Alma, that he might speak, and also that his limbs might receive their strength"
+      }
+     ]
+    },
+    {
+     "quote": "he stood up and began to speak unto them, bidding them to be of good comfort",
+     "verse": 23,
+     "start": 179,
+     "end": 265,
+     "spans": [
+      {
+       "w1": 29,
+       "w2": 44,
+       "text": "he stood up and began to speak unto them, bidding them to be of good comfort"
+      }
+     ]
+    }
+   ]
   },
   {
    "label": "v. 32–37",
    "start": 32,
    "end": 37,
-   "title": "The rest of their lives, in six verses",
-   "text": "They travel, publish what they have seen, are persecuted and smitten, confirm the church, and work to repair the injuries they had done. Four of them are named as the sons of Mosiah. The last verse gives them Isaiah's beautiful feet."
+   "title": "Restitution is on the list",
+   "text": "Six verses hold the rest of their lives, and among the travelling and the publishing the record puts them \"zealously striving to repair all the injuries which they had done to the church, confessing all their sins\" (v. 35). What was stolen in verse 9 was hearts, and the repair is counted the same way the damage was.",
+   "cites": [
+    {
+     "quote": "zealously striving to repair all the injuries which they had done to the church, confessing all their sins",
+     "verse": 35,
+     "start": 106,
+     "end": 222,
+     "spans": [
+      {
+       "w1": 23,
+       "w2": 40,
+       "text": "zealously striving to repair all the injuries which they had done to the church, confessing all their sins"
+      }
+     ]
+    }
+   ]
   }
  ],
  "chapter": [
@@ -203,7 +433,7 @@
   {
    "n": 5,
    "title": "The record makes his conversion the source of a vocabulary",
-   "text": "Darkest abyss, marvelous light, racked with eternal torment, wading through much tribulation. Alma will reach for these again when he tells the story to Helaman, and Ammon will use two of them in a sermon of his own. What is coined here is reused for the rest of the book."
+   "text": "Darkest abyss, marvelous light, racked with eternal torment, wading through much tribulation. Alma will reach for these again when he tells the story to Helaman (Alma 36), and Ammon will use two of them in a sermon of his own (Alma 26). What is coined here is reused for the rest of the book."
   },
   {
    "n": 6,
@@ -349,7 +579,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos26-018"
   },
   {
    "id": "mos27-007",
@@ -479,7 +709,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos23-018"
   },
   {
    "id": "mos27-002",
@@ -661,7 +891,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al19-009"
   },
   {
    "id": "mos27-016",
@@ -687,7 +917,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al36-010"
   },
   {
    "id": "mos27-009",
@@ -713,7 +943,111 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al36-005"
+  },
+  {
+   "id": "mos27-023",
+   "scope": "BOM",
+   "head": "Alma 38:7",
+   "anchor": {
+    "verse": 11,
+    "w1": 15,
+    "w2": 23,
+    "quote": "behold, the angel of the Lord appeared unto them;"
+   },
+   "reason": "Alma telling Shiblon the same appearance in brief",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 38,
+     "verse": 7,
+     "w1": 9,
+     "w2": 15,
+     "quote": "sent his angel to declare unto me",
+     "verse_text": "But behold, the Lord in his great mercy sent his angel to declare unto me that I must stop the work of destruction among his people; yea, and I have seen an angel face to face, and he spake with me, and his voice was as thunder, and it shook the whole earth.",
+     "markdown": "But behold, the Lord in his great mercy **sent his angel to declare unto me** that I must stop the work of destruction among his people; yea, and I have seen an angel face to face, and he spake with me, and his voice was as thunder, and it shook the whole earth.",
+     "span": true
+    }
+   ],
+   "mirror": "al38-006"
+  },
+  {
+   "id": "mos27-024",
+   "scope": "BOM",
+   "head": "Alma 29:10",
+   "anchor": {
+    "verse": 14,
+    "w1": 18,
+    "w2": 27,
+    "quote": "the prayers of his servant, Alma, who is thy father;"
+   },
+   "reason": "Alma remembering the prayer that was answered",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 29,
+     "verse": 10,
+     "w1": 40,
+     "w2": 44,
+     "quote": "he hath heard my prayer;",
+     "verse_text": "And behold, when I see many of my brethren truly penitent, and coming to the Lord their God, then is my soul filled with joy; then do I remember what the Lord has done for me, yea, even that he hath heard my prayer; yea, then do I remember his merciful arm which he extended towards me.",
+     "markdown": "And behold, when I see many of my brethren truly penitent, and coming to the Lord their God, then is my soul filled with joy; then do I remember what the Lord has done for me, yea, even that **he hath heard my prayer**; yea, then do I remember his merciful arm which he extended towards me.",
+     "span": true
+    }
+   ],
+   "mirror": "al29-006"
+  },
+  {
+   "id": "mos27-025",
+   "scope": "BOM",
+   "head": "Alma 22:15",
+   "anchor": {
+    "verse": 25,
+    "w1": 22,
+    "w2": 29,
+    "quote": "must be born again; yea, born of God,"
+   },
+   "reason": "the old king asking for the same rebirth",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 22,
+     "verse": 15,
+     "w1": 39,
+     "w2": 45,
+     "quote": "that I may be born of God,",
+     "verse_text": "And it came to pass that after Aaron had expounded these things unto him, the king said: What shall I do that I may have this eternal life of which thou hast spoken? Yea, what shall I do that I may be born of God, having this wicked spirit rooted out of my breast, and receive his Spirit, that I may be filled with joy, that I may not be cast off at the last day? Behold, said he, I will give up all that I possess, yea, I will forsake my kingdom, that I may receive this great joy.",
+     "markdown": "And it came to pass that after Aaron had expounded these things unto him, the king said: What shall I do that I may have this eternal life of which thou hast spoken? Yea, what shall I do **that I may be born of God**, having this wicked spirit rooted out of my breast, and receive his Spirit, that I may be filled with joy, that I may not be cast off at the last day? Behold, said he, I will give up all that I possess, yea, I will forsake my kingdom, that I may receive this great joy.",
+     "span": true
+    }
+   ],
+   "mirror": "al22-006"
+  },
+  {
+   "id": "mos27-026",
+   "scope": "BOM",
+   "head": "Alma 26:3",
+   "anchor": {
+    "verse": 29,
+    "w1": 15,
+    "w2": 29,
+    "quote": "I was in the darkest abyss; but now I behold the marvelous light of God."
+   },
+   "reason": "Ammon using the phrase of the Lamanites' darkness",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 26,
+     "verse": 3,
+     "w1": 15,
+     "w2": 19,
+     "quote": "even in the darkest abyss,",
+     "verse_text": "Behold, I answer for you; for our brethren, the Lamanites, were in darkness, yea, even in the darkest abyss, but behold, how many of them are brought to behold the marvelous light of God! And this is the blessing which hath been bestowed upon us, that we have been made instruments in the hands of God to bring about this great work.",
+     "markdown": "Behold, I answer for you; for our brethren, the Lamanites, were in darkness, yea, **even in the darkest abyss**, but behold, how many of them are brought to behold the marvelous light of God! And this is the blessing which hath been bestowed upon us, that we have been made instruments in the hands of God to bring about this great work.",
+     "span": true
+    }
+   ],
+   "mirror": "al26-005"
   },
   {
    "id": "mos27-015",
@@ -907,7 +1241,8 @@
    "w2": 23,
    "quote": "behold, the angel of the Lord appeared unto them",
    "entries": [
-    "mos27-022"
+    "mos27-022",
+    "mos27-023"
    ]
   },
   {
@@ -918,6 +1253,15 @@
    "entries": [
     "mos27-008",
     "mos27-010"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 18,
+   "w2": 27,
+   "quote": "the prayers of his servant, Alma, who is thy father;",
+   "entries": [
+    "mos27-024"
    ]
   },
   {
@@ -945,6 +1289,7 @@
    "quote": "must be born again; yea, born of God",
    "entries": [
     "mos27-020",
+    "mos27-025",
     "mos27-012"
    ]
   },
@@ -988,6 +1333,15 @@
    ]
   },
   {
+   "verse": 29,
+   "w1": 15,
+   "w2": 29,
+   "quote": "I was in the darkest abyss; but now I behold the marvelous light of God.",
+   "entries": [
+    "mos27-026"
+   ]
+  },
+  {
    "verse": 31,
    "w1": 2,
    "w2": 11,
@@ -1025,7 +1379,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "4619b6e217465c21"
+  "at": "2026-09-07",
+  "source_sha256": "d2216486775debb6"
  }
 }

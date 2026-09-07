@@ -18,7 +18,7 @@
    "Liberty of belief",
    "Equality in labor"
   ],
-  "connections": 25,
+  "connections": 31,
   "initial": false
  },
  "world_behind": [
@@ -50,7 +50,19 @@
   {
    "n": 6,
    "title": "The charge is cited and left undefined",
-   "text": "Nephi had set out what priestcraft was two volumes earlier: men preaching and setting themselves up for a light to get gain and the praise of the world, not seeking the welfare of Zion. Alma uses the word in court the way a lawyer names a statute, as something the room is assumed to know."
+   "text": "Nephi had set out what priestcraft was two volumes earlier (2 Ne. 26:29): men preaching and setting themselves up for a light to get gain and the praise of the world, not seeking the welfare of Zion. Alma uses the word in court the way a lawyer names a statute, as something the room is assumed to know.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 26:29",
+     "start": 60,
+     "end": 71,
+     "book": "2 Ne",
+     "chapter": 26,
+     "verse_start": 29,
+     "verse_end": 29
+    }
+   ]
   },
   {
    "n": 7,
@@ -85,7 +97,7 @@
   {
    "term": "Priestcraft",
    "verse_label": "v. 12",
-   "text": "Preaching for pay. The singular form appears twice in scripture and both are in this chapter; everywhere else the word is plural. The singular makes it an act. That is what a charge in a courtroom has to be."
+   "text": "Preaching for pay. Treated at 2 Nephi 10:5. The singular form appears twice in scripture and both are in this chapter; everywhere else the word is plural. The singular makes it an act. That is what a charge in a courtroom has to be."
   },
   {
    "term": "Ignominious",
@@ -95,7 +107,7 @@
   {
    "term": "Durst",
    "verse_label": "v. 17",
-   "text": "Dared. It appears four times in this chapter out of thirty-eight in the record, always negated and always attached to what the law would do. They durst not lie, durst not steal, durst not rob, durst not commit any wickedness if it were known. The chapter's account of public order is a list of things people did not dare."
+   "text": "Dared. Treated at 1 Nephi 22:29. It appears four times in this chapter out of thirty-eight in the record, always negated and always attached to what the law would do. They durst not lie, durst not steal, durst not rob, durst not commit any wickedness if it were known. The chapter's account of public order is a list of things people did not dare."
   },
   {
    "term": "Warmly",
@@ -142,7 +154,19 @@
   {
    "term": "Without money and without price",
    "verse_label": "v. 20",
-   "text": "Isaiah's invitation to come and buy wine and milk, used here as a description of how a persecuted church passed the word around. Nephi and Jacob had both quoted it already. Set against verse 5, where Nehor's hearers \"began to support him and give him money,\" the phrase turns into the chapter's actual dividing line."
+   "text": "Isaiah's invitation to come and buy wine and milk (Isa. 55:1), used here as a description of how a persecuted church passed the word around. Nephi and Jacob had both quoted it already. Set against verse 5, where Nehor's hearers \"began to support him and give him money,\" the phrase turns into the chapter's actual dividing line.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 55:1",
+     "start": 51,
+     "end": 60,
+     "book": "Isa",
+     "chapter": 55,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
   },
   {
    "term": "The preacher was no better than the hearer",
@@ -157,53 +181,46 @@
  ],
  "verses": [
   {
-   "label": "v. 1",
-   "start": 1,
-   "end": 1,
-   "title": "A new calendar, and an obligation that outlived its author",
-   "text": "The year is dated by judges. Mosiah is gone and left nobody on the throne. The verse's \"nevertheless\" carries the weight: he had made laws, the people had acknowledged them, so the laws stood. A country is described as bound by an agreement."
-  },
-  {
-   "label": "v. 2–6",
-   "start": 2,
+   "label": "v. 5–6",
+   "start": 5,
    "end": 6,
-   "title": "The man, and his three propositions",
-   "text": "Large, strong, and noted for it. He preaches that priests should be popular, should not work with their hands, and should be paid. Then the sequence: many believed, many gave him money, he grew proud, he bought clothes, he founded a church. Each step is caused by the one before it."
+   "title": "The sequence from belief to income to institution",
+   "text": "The record traces the movement's growth as a chain of causes: \"he did teach these things so much that many did believe on his words, even so many that they began to support him and give him money.\" Then the effect on the man, \"he began to be lifted up in the pride of his heart, and to wear very costly apparel,\" and only then the organisation, \"even began to establish a church after the manner of his preaching.\" Belief, money, dress, church, in that order, with each step supplied as the cause of the next."
   },
   {
-   "label": "v. 7–9",
-   "start": 7,
-   "end": 9,
-   "title": "Gideon",
-   "text": "Nehor meets a teacher on the road and contends with him sharply, meaning to draw the church's people away. The man answers him out of the words of God. Then the record names him and gives his history (the deliverer of Limhi's people), and kills him in the next sentence, noting only that he was too old to withstand the blows."
+   "label": "v. 12",
+   "start": 12,
+   "end": 12,
+   "title": "A word dated to its first appearance",
+   "text": "The judgment introduces a term and fixes when it entered the language: \"this is the first time that priestcraft has been introduced among this people.\" The record is making a claim about its own history, not just about the defendant, and it is a claim a reader can test against the preceding books. The same verse states what the offence will lead to, \"were it to be enforced among this people it would prove their entire destruction.\""
   },
   {
-   "label": "v. 10–15",
-   "start": 10,
+   "label": "v. 13–14",
+   "start": 13,
+   "end": 14,
+   "title": "A sentence delivered with its statute cited",
+   "text": "The record sets the reasoning out in three parts. The gravity: \"thou hast shed the blood of a righteous man, yea, a man who has done much good among this people.\" The exposure of the court itself: \"were we to spare thee his blood would come upon us for vengeance.\" And the authority, named with its author and its ratification: \"according to the law which has been given us by Mosiah, our last king; and it has been acknowledged by this people.\" The law reform of Mosiah 29 is being applied in its first year."
+  },
+  {
+   "label": "v. 15",
+   "start": 15,
    "end": 15,
-   "title": "Trial, sentence, and a hill",
-   "text": "He is taken by the people of the church and brought to Alma, and he pleads for himself with much boldness. Alma's charge has two counts: priestcraft, and enforcing it by the sword. The sentence rests on the blood of a righteous man and on a statute nobody has repealed. On the hill Manti he acknowledges, or is made to acknowledge, that what he taught was contrary to the word of God."
+   "title": "The man is named after he is sentenced",
+   "text": "Fourteen verses describe a preacher, a movement, a killing and a trial without giving the defendant's name. It arrives in the clause that reports his execution: \"they took him; and his name was Nehor; and they carried him upon the top of the hill Manti, and there he was caused, or rather did acknowledge, between the heavens and the earth, that what he had taught to the people was contrary to the word of God.\" The name then outlives him, since the record calls a whole party \"the order of the Nehors\" for the next twenty-three chapters."
   },
   {
-   "label": "v. 16–18",
-   "start": 16,
+   "label": "v. 17–18",
+   "start": 17,
    "end": 18,
-   "title": "What the law reached, and what it did not",
-   "text": "The execution does not stop priestcraft; it only makes it careful. Men went on preaching for riches and honor but pretended to believe what they preached, because liars were punished. They did not steal, rob, or murder either. The paragraph ends by conceding that no law could touch what a man actually believed."
+   "title": "Crime suppressed by deterrence, and the record says so",
+   "text": "The explanation offered is not moral improvement but fear of penalty, and it is applied to four offences in two verses: \"they durst not lie, if it were known, for fear of the law, for liars were punished\"; \"they durst not steal, for fear of the law, for such were punished; neither durst they rob, nor murder, for he that murdered was punished unto death.\" The record is describing a population that behaves because the law reaches it, and it offers no other reason."
   },
   {
-   "label": "v. 19–25",
-   "start": 19,
-   "end": 25,
-   "title": "Persecution, and a rule the church broke first",
-   "text": "Those outside the church persecuted those inside it for their humility and for giving the word away free. The church had a strict law forbidding its own members to persecute anyone. Many of them did it anyway, down to fists, and the result was names blotted out and members withdrawing."
-  },
-  {
-   "label": "v. 26–33",
-   "start": 26,
-   "end": 33,
-   "title": "The counter-portrait",
-   "text": "Priests who left their labor to teach and returned to it afterward; no man esteemed above his hearers; all equal; substance imparted to the poor by every man according to what he had; no costly apparel; steadiness, then riches, then liberality without respect to persons. Against it, in the last two verses, stand the people outside: sorceries, idleness, babblings, costly apparel, pride, and a law enforced on everyone who broke it."
+   "label": "v. 29–31",
+   "start": 29,
+   "end": 31,
+   "title": "Prosperity reported together with its distribution",
+   "text": "The record states the wealth and then, in the same breath, what was done with it: \"in their prosperous circumstances, they did not send away any who were naked, or that were hungry, or that were athirst, or that were sick, or that had not been nourished.\" Four conditions are named and all four are covered. Verse 31 then makes the comparative claim, \"they did prosper and become far more wealthy than those who did not belong to their church,\" and the chapter offers the giving in verse 30 as the reason rather than as an exception."
   }
  ],
  "chapter": [
@@ -265,7 +282,7 @@
   {
    "n": 2,
    "title": "Priestcraft is described as an economy before it is condemned as a doctrine",
-   "text": "What Nehor teaches about salvation occupies one verse. What he teaches about who pays the preacher occupies the rest of his platform, all of his success, and the whole of the chapter's answer. The heresy the record cares about is a compensation scheme."
+   "text": "The doctrine gets one verse. Verse 4 states it, that \"all mankind should be saved at the last day.\" The pay structure gets the rest: verse 3 has priests and teachers who \"ought not to labor with their hands, but... ought to be supported by the people\"; verse 5 reports the result, \"they began to support him and give him money\"; verse 6 reports what he bought with it, \"very costly apparel.\" The chapter answers in the same terms at verse 20, teaching imparted \"without money and without price,\" and at verse 26, priests who return \"again diligently unto their labors.\""
   },
   {
    "n": 3,
@@ -530,7 +547,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al30-012"
   },
   {
    "id": "al01-006",
@@ -660,7 +677,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al16-003"
   },
   {
    "id": "al01-001",
@@ -686,7 +703,85 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al14-011"
+  },
+  {
+   "id": "al01-026",
+   "scope": "BOOK",
+   "head": "Alma 30:31",
+   "anchor": {
+    "verse": 3,
+    "w1": 32,
+    "w2": 39,
+    "quote": "every priest and teacher ought to become popular;"
+   },
+   "reason": "Korihor's charge against the priests who take no pay",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 30,
+     "verse": 31,
+     "w1": 20,
+     "w2": 26,
+     "quote": "accusing them of leading away the people",
+     "verse_text": "And he did rise up in great swelling words before Alma, and did revile against the priests and teachers, accusing them of leading away the people after the silly traditions of their fathers, for the sake of glutting on the labors of the people.",
+     "markdown": "And he did rise up in great swelling words before Alma, and did revile against the priests and teachers, **accusing them of leading away the people** after the silly traditions of their fathers, for the sake of glutting on the labors of the people.",
+     "span": true
+    }
+   ],
+   "mirror": "al30-001"
+  },
+  {
+   "id": "al01-027",
+   "scope": "BOOK",
+   "head": "Alma 21:6",
+   "anchor": {
+    "verse": 4,
+    "w1": 9,
+    "w2": 17,
+    "quote": "all mankind should be saved at the last day,"
+   },
+   "reason": "the Amalekite creed Aaron answers at Jerusalem",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 21,
+     "verse": 6,
+     "w1": 56,
+     "w2": 61,
+     "quote": "that God will save all men.",
+     "verse_text": "Thou also sayest, except we repent we shall perish. How knowest thou the thought and intent of our hearts? How knowest thou that we have cause to repent? How knowest thou that we are not a righteous people? Behold, we have built sanctuaries, and we do assemble ourselves together to worship God. We do believe that God will save all men.",
+     "markdown": "Thou also sayest, except we repent we shall perish. How knowest thou the thought and intent of our hearts? How knowest thou that we have cause to repent? How knowest thou that we are not a righteous people? Behold, we have built sanctuaries, and we do assemble ourselves together to worship God. We do believe **that God will save all men**.",
+     "span": true
+    }
+   ],
+   "mirror": "al21-002"
+  },
+  {
+   "id": "al01-030",
+   "scope": "BOOK",
+   "head": "Alma 14:16",
+   "anchor": {
+    "verse": 15,
+    "w1": 11,
+    "w2": 14,
+    "quote": "his name was Nehor;"
+   },
+   "reason": "a judge at Ammonihah still holding Nehor's order",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 14,
+     "verse": 16,
+     "w1": 2,
+     "w2": 11,
+     "quote": "this judge was after the order and faith of Nehor,",
+     "verse_text": "Now this judge was after the order and faith of Nehor, who slew Gideon.",
+     "markdown": "Now **this judge was after the order and faith of Nehor**, who slew Gideon.",
+     "span": true
+    }
+   ],
+   "mirror": "al14-002"
   },
   {
    "id": "al01-015",
@@ -842,7 +937,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "moro06-006"
   },
   {
    "id": "al01-009",
@@ -895,6 +990,84 @@
     }
    ],
    "mirror": "mos29-009"
+  },
+  {
+   "id": "al01-028",
+   "scope": "BOM",
+   "head": "Mosiah 19:26",
+   "anchor": {
+    "verse": 8,
+    "w1": 23,
+    "w2": 30,
+    "quote": "delivering the people of Limhi out of bondage."
+   },
+   "reason": "Limhi made king over the people Gideon would free",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 19,
+     "verse": 26,
+     "w1": 10,
+     "w2": 18,
+     "quote": "having the kingdom conferred upon him by the people,",
+     "verse_text": "And also Limhi, being the son of the king, having the kingdom conferred upon him by the people, made oath unto the king of the Lamanites that his people should pay tribute unto him, even one half of all they possessed.",
+     "markdown": "And also Limhi, being the son of the king, **having the kingdom conferred upon him by the people**, made oath unto the king of the Lamanites that his people should pay tribute unto him, even one half of all they possessed.",
+     "span": true
+    }
+   ],
+   "mirror": "mos19-011"
+  },
+  {
+   "id": "al01-029",
+   "scope": "BOM",
+   "head": "Mosiah 19:4",
+   "anchor": {
+    "verse": 9,
+    "w1": 17,
+    "w2": 24,
+    "quote": "drew his sword and began to smite him."
+   },
+   "reason": "Gideon introduced as a strong man against Noah",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 19,
+     "verse": 4,
+     "w1": 14,
+     "w2": 24,
+     "quote": "he being a strong man and an enemy to the king,",
+     "verse_text": "And now there was a man among them whose name was Gideon, and he being a strong man and an enemy to the king, therefore he drew his sword, and swore in his wrath that he would slay the king.",
+     "markdown": "And now there was a man among them whose name was Gideon, and **he being a strong man and an enemy to the king**, therefore he drew his sword, and swore in his wrath that he would slay the king.",
+     "span": true
+    }
+   ],
+   "mirror": "mos19-010"
+  },
+  {
+   "id": "al01-031",
+   "scope": "BOM",
+   "head": "Mosiah 18:27",
+   "anchor": {
+    "verse": 27,
+    "w1": 2,
+    "w2": 21,
+    "quote": "they did impart of their substance, every man according to that which he had, to the poor, and the needy,"
+   },
+   "reason": "Alma's law of imparting at the waters of Mormon",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 18,
+     "verse": 27,
+     "w1": 12,
+     "w2": 23,
+     "quote": "impart of their substance, every one according to that which he had;",
+     "verse_text": "And again Alma commanded that the people of the church should impart of their substance, every one according to that which he had; if he have more abundantly he should impart more abundantly; and of him that had but little, but little should be required; and to him that had not should be given.",
+     "markdown": "And again Alma commanded that the people of the church should **impart of their substance, every one according to that which he had**; if he have more abundantly he should impart more abundantly; and of him that had but little, but little should be required; and to him that had not should be given.",
+     "span": true
+    }
+   ],
+   "mirror": "mos18-011"
   },
   {
    "id": "al01-020",
@@ -1048,6 +1221,15 @@
   },
   {
    "verse": 3,
+   "w1": 32,
+   "w2": 39,
+   "quote": "every priest and teacher ought to become popular;",
+   "entries": [
+    "al01-026"
+   ]
+  },
+  {
+   "verse": 3,
    "w1": 41,
    "w2": 48,
    "quote": "they ought not to labor with their hands",
@@ -1066,6 +1248,15 @@
    ]
   },
   {
+   "verse": 4,
+   "w1": 9,
+   "w2": 17,
+   "quote": "all mankind should be saved at the last day,",
+   "entries": [
+    "al01-027"
+   ]
+  },
+  {
    "verse": 8,
    "w1": 15,
    "w2": 21,
@@ -1080,7 +1271,17 @@
    "w2": 30,
    "quote": "delivering the people of Limhi out of bondage",
    "entries": [
-    "al01-015"
+    "al01-015",
+    "al01-028"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 17,
+   "w2": 24,
+   "quote": "drew his sword and began to smite him.",
+   "entries": [
+    "al01-029"
    ]
   },
   {
@@ -1118,7 +1319,8 @@
    "quote": "his name was Nehor",
    "entries": [
     "al01-021",
-    "al01-002"
+    "al01-002",
+    "al01-030"
    ]
   },
   {
@@ -1157,7 +1359,8 @@
    "w2": 21,
    "quote": "they did impart of their substance, every man according to that which he had, to the poor, and the needy",
    "entries": [
-    "al01-024"
+    "al01-024",
+    "al01-031"
    ]
   },
   {
@@ -1207,7 +1410,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "3b66703815d49d46"
+  "at": "2026-09-07",
+  "source_sha256": "f3f317e8f0eb620c"
  }
 }

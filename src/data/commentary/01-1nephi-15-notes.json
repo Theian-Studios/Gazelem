@@ -17,7 +17,7 @@
    "The word of God",
    "Judgment"
   ],
-  "connections": 9,
+  "connections": 11,
   "initial": false
  },
  "world_behind": [
@@ -268,13 +268,13 @@
   {
    "term": "Probation",
    "verse_label": "v. 32",
-   "text": "A testing word: time served on trial, with a verdict at the end of it. The judgment Nephi describes weighs \"the works which were done by the temporal body in their days of probation\" (v. 32), which makes this life a stretch of time with a case pending. The Bible never uses the word. The record picked it up early (1 Ne. 10:21) and kept it as its standing name for mortality.",
+   "text": "A testing word: time served on trial, with a verdict at the end of it. Treated at 1 Nephi 10:21. The judgment Nephi describes weighs \"the works which were done by the temporal body in their days of probation\" (v. 32), which makes this life a stretch of time with a case pending. The Bible never uses the word. The record picked it up early (1 Ne. 10:21) and kept it as its standing name for mortality.",
    "cites": [
     {
      "quote": "the works which were done by the temporal body in their days of probation",
      "verse": 32,
-     "start": 107,
-     "end": 190,
+     "start": 133,
+     "end": 216,
      "spans": [
       {
        "w1": 37,
@@ -288,8 +288,8 @@
     {
      "kind": "scripture",
      "text": "1 Ne. 10:21",
-     "start": 315,
-     "end": 326,
+     "start": 341,
+     "end": 352,
      "book": "1 Ne",
      "chapter": 10,
      "verse_start": 21,
@@ -570,35 +570,7 @@
    "start": 12,
    "end": 18,
    "title": "The olive tree, expounded to its branches",
-   "text": "Nephi does what the brothers could have obtained by asking: he opens the allegory. The family is itself \"a branch of the house of Israel\" (v. 12), broken off; the grafting comes through the Gentiles; and the whole arc rests on the covenant to Abraham: \"In thy seed shall all the kindreds of the earth be blessed\" (v. 18). Their own exile, rightly read, is the covenant working.",
-   "cites": [
-    {
-     "quote": "a branch of the house of Israel",
-     "verse": 12,
-     "start": 104,
-     "end": 145,
-     "spans": [
-      {
-       "w1": 44,
-       "w2": 50,
-       "text": "a branch of the house of Israel"
-      }
-     ]
-    },
-    {
-     "quote": "In thy seed shall all the kindreds of the earth be blessed",
-     "verse": 18,
-     "start": 252,
-     "end": 320,
-     "spans": [
-      {
-       "w1": 41,
-       "w2": 52,
-       "text": "In thy seed shall all the kindreds of the earth be blessed"
-      }
-     ]
-    }
-   ]
+   "text": "The record marks the exposition three times with the same formula: \"the thing which our father meaneth\" at verse 13, \"this is what our father meaneth\" at verse 17, and \"he meaneth\" twice more inside that verse. Four uses of one verb in five verses, each introducing a clause the father did not say. Verse 18 then widens the reading beyond the family, \"our father hath not spoken of our seed alone, but also of all the house of Israel,\" and grounds it in the promise quoted at Genesis 22:18, \"In thy seed shall all the kindreds of the earth be blessed.\" An allegory given at 1 Nephi 10:12–14 in three verses is here unpacked in seven."
   },
   {
    "label": "v. 19–20",
@@ -701,7 +673,7 @@
   {
    "n": 3,
    "title": "The interpreter answers from two sources",
-   "text": "Nephi's authority in the tent rests on the mountain (what he saw) and the plates (what he rehearses). Vision and scripture answer the same questions in the same conversation: the record's model of how its own two kinds of revelation cooperate."
+   "text": "The chapter answers from two sources and marks each. Verses 13 and 17 expound the father's allegory with the formula \"our father meaneth\"; verse 18 grounds the whole reading in a quoted covenant, \"In thy seed shall all the kindreds of the earth be blessed.\" Verses 26 through 36 answer a separate question about the river by reporting what was shown, and 1 Nephi 11 through 14 is where it was shown. Verse 3 has already stated why the brothers have neither, \"neither did they ask of the Lord.\" Two kinds of evidence answer two questions in one conversation."
   },
   {
    "n": 4,
@@ -933,6 +905,58 @@
    "mirror": "jac05-004"
   },
   {
+   "id": "1ne15-010",
+   "scope": "BOM",
+   "head": "Mosiah 18:8",
+   "anchor": {
+    "verse": 15,
+    "w1": 39,
+    "w2": 48,
+    "quote": "will they not come unto the true fold of God?"
+   },
+   "reason": "the terms of entering that fold",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 18,
+     "verse": 8,
+     "w1": 43,
+     "w2": 54,
+     "quote": "are willing to bear one another's burdens, that they may be light;",
+     "verse_text": "And it came to pass that he said unto them: Behold, here are the waters of Mormon (for thus were they called) and now, as ye are desirous to come into the fold of God, and to be called his people, and are willing to bear one another's burdens, that they may be light;",
+     "markdown": "And it came to pass that he said unto them: Behold, here are the waters of Mormon (for thus were they called) and now, as ye are desirous to come into the fold of God, and to be called his people, and **are willing to bear one another's burdens, that they may be light**;",
+     "span": true
+    }
+   ],
+   "mirror": "mos18-018"
+  },
+  {
+   "id": "1ne15-011",
+   "scope": "BOM",
+   "head": "3 Ne. 16:4",
+   "anchor": {
+    "verse": 13,
+    "w1": 17,
+    "w2": 28,
+    "quote": "through the fulness of the Gentiles, is, that in the latter days,"
+   },
+   "reason": "Christ setting out the same sequence",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 16,
+     "verse": 4,
+     "w1": 85,
+     "w2": 96,
+     "quote": "that through the fulness of the Gentiles, the remnant of their seed,",
+     "verse_text": "And I command you that ye shall write these sayings after I am gone, that if it so be that my people at Jerusalem, they who have seen me and been with me in my ministry, do not ask the Father in my name, that they may receive a knowledge of you by the Holy Ghost, and also of the other tribes whom they know not of, that these sayings which ye shall write shall be kept and shall be manifested unto the Gentiles, that through the fulness of the Gentiles, the remnant of their seed, who shall be scattered forth upon the face of the earth because of their unbelief, may be brought in, or may be brought to a knowledge of me, their Redeemer.",
+     "markdown": "And I command you that ye shall write these sayings after I am gone, that if it so be that my people at Jerusalem, they who have seen me and been with me in my ministry, do not ask the Father in my name, that they may receive a knowledge of you by the Holy Ghost, and also of the other tribes whom they know not of, that these sayings which ye shall write shall be kept and shall be manifested unto the Gentiles, **that through the fulness of the Gentiles, the remnant of their seed**, who shall be scattered forth upon the face of the earth because of their unbelief, may be brought in, or may be brought to a knowledge of me, their Redeemer.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne16-005"
+  },
+  {
    "id": "1ne15-004",
    "scope": "SW",
    "head": "Eph. 6:16",
@@ -1066,12 +1090,30 @@
    ]
   },
   {
+   "verse": 13,
+   "w1": 17,
+   "w2": 28,
+   "quote": "through the fulness of the Gentiles, is, that in the latter days,",
+   "entries": [
+    "1ne15-011"
+   ]
+  },
+  {
    "verse": 15,
    "w1": 35,
    "w2": 37,
    "quote": "the true vine",
    "entries": [
     "1ne15-006"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 39,
+   "w2": 48,
+   "quote": "will they not come unto the true fold of God?",
+   "entries": [
+    "1ne15-010"
    ]
   },
   {
@@ -1121,7 +1163,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "b7b894dca4932a99"
+  "at": "2026-09-07",
+  "source_sha256": "c257c8b5b623de2c"
  }
 }

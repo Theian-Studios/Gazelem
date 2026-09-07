@@ -17,21 +17,21 @@
   "principles": [
    "Prayer that needs no building",
    "Witnesses stacked before belief",
-   ""
+   "Looking at what would heal you"
   ],
-  "connections": 9,
+  "connections": 13,
   "initial": true
  },
  "world_behind": [
   {
    "n": 1,
    "title": "The people ask three questions",
-   "text": "Verse 1 has them wanting to know whether to believe in one God, how to plant the seed, and how to begin exercising faith. Alma 32 ended without telling them."
+   "text": "Verse 1 has them wanting one God settled, the planting explained, and a place to start with faith. Alma 32 ended without telling them."
   },
   {
    "n": 2,
    "title": "Alma sends them to the scriptures they already have",
-   "text": "Verse 2 says they ought to search them, and that if they think the scriptures taught them they cannot worship, they have misread. The answer to a practical question is a reading assignment."
+   "text": "Verse 2 says they ought to search them, and that if they think the scriptures taught them they cannot worship, they have misread. A working question is met with a reading assignment."
   },
   {
    "n": 3,
@@ -73,7 +73,7 @@
   {
    "term": "Congregations",
    "verse_label": "v. 9",
-   "text": "Assemblies of worshippers, in the plural. The word appears once in this record and three times in the King James Bible, all in the Psalms. Zenos puts public assembly on the same list as a field and a closet, which is the point Alma is building toward."
+   "text": "Assemblies of worshippers, in the plural. It appears once in the record, and three times in the King James Bible, all in the Psalms. Zenos puts public assembly on the same list as a field and a closet, which is the point Alma is building toward."
   },
   {
    "term": "Sincerity",
@@ -88,7 +88,7 @@
   {
    "term": "Slothful",
    "verse_label": "v. 21",
-   "text": "Lazy, unwilling to stir. The record uses it four times, three of them in Alma 37 about the Liahona, and the King James Bible fifteen. Alma applies it to people who will not turn their eyes toward a cure that costs nothing."
+   "text": "Lazy, unwilling to stir. The word turns up four times, three of them in Alma 37 about the Liahona, here, and the King James Bible fifteen. Alma applies it to people who will not turn their eyes toward a cure that costs nothing."
   }
  ],
  "phrases": [
@@ -150,60 +150,58 @@
  ],
  "verses": [
   {
-   "label": "v. 1–3",
-   "start": 1,
-   "end": 3,
-   "title": "The question, and the redirect",
-   "text": "They ask whether to believe in one God, how to plant the seed, and how to begin exercising faith. Alma says their idea that they cannot worship is an error, tells them to search the scriptures, and asks whether they remember Zenos on prayer."
+   "label": "v. 2",
+   "start": 2,
+   "end": 2,
+   "title": "The objection in their own words",
+   "text": "The sermon opens by repeating what its hearers have said: \"ye have said that ye could not worship your God because ye are cast out of your synagogues.\" The record could have summarised the difficulty. Instead it puts the claim in the mouths of the people who made it and lets the whole chapter be an answer to that one sentence. Every quotation Alma reaches for afterwards, from Zenos, from Zenock, from Moses, is chosen to meet it, and the last verse returns to the same subject by telling them to plant a word in their hearts instead of in a building."
   },
   {
-   "label": "v. 4–8",
-   "start": 4,
-   "end": 8,
-   "title": "Where prayer is heard",
-   "text": "The wilderness, the field, the house, the closet. Zenos thanks God for hearing in each, and states the principle: God is merciful to children who cry to be heard of him and not of men."
-  },
-  {
-   "label": "v. 9–11",
-   "start": 9,
+   "label": "v. 3–11",
+   "start": 3,
    "end": 11,
-   "title": "Cast out, and heard",
-   "text": "God heard him in the congregations, and heard him when he was cast out and despised. He heard because of affliction and sincerity, and the mercy came because of the Son, who is also the reason the judgments were turned away."
+   "title": "A quotation with none of its frame's vocabulary",
+   "text": "Zenos's prayer runs from verse 4 to verse 11, and four words live inside it and nowhere else in the chapter: didst seven times, merciful six, hear six, and heard four. The fourteen verses of Alma's own speech that surround it use none of the four. Prayer is the near miss, four times inside the quotation and once outside it, at verse 3, where Alma names the subject he is about to quote on. Of the sixty-seven chapters anywhere in scripture that use merciful at all, this one uses it more than any other, and every instance belongs to the man being quoted, not the man quoting."
   },
   {
-   "label": "v. 12–17",
-   "start": 12,
-   "end": 17,
-   "title": "Two prophets",
-   "text": "Alma asks whether they believe the old writings, and says believing Zenos means believing what he said about the Son. He asks how anyone who has read can disbelieve, then produces Zenock saying the same thing, and reports that his people stoned him."
+   "label": "v. 5–11",
+   "start": 5,
+   "end": 11,
+   "title": "One sentence, said six ways",
+   "text": "The record preserves an argument built as a list of places. \"Thou didst hear me\" closes verse 5, verse 6, verse 7 and verse 11, and the shorter \"thou didst hear\" also stands in verse 10. Those exact words appear in no other chapter of the volume. What varies between them is only the location: the wilderness, the field, the house, the closet, the congregation, the afflictions. A prayer that could have made its case once makes it six times and changes only the setting."
   },
   {
-   "label": "v. 18–20",
-   "start": 18,
+   "label": "v. 19–20",
+   "start": 19,
    "end": 20,
-   "title": "Moses and the type",
-   "text": "More than two spoke of the Son. Moses raised a type in the wilderness and many looked and lived. Few understood, and the hardened would not look, because they did not believe it would heal them."
+   "title": "The thing that is never named",
+   "text": "The third witness is Moses, and the object he raised is left unspecified: \"a type was raised up in the wilderness, that whosoever would look upon it might live.\" The verse does not say serpent, brass, or pole. Verse 20 says only that \"few understood the meaning of those things.\" The volume does name it, once, at Hel. 8:14, \"the brazen serpent.\" Here the noun is withheld and the reader is expected to supply it, which is itself the point verse 20 is making about the people who would not look.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Hel. 8:14",
+     "start": 314,
+     "end": 323,
+     "book": "Hel",
+     "chapter": 8,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
   },
   {
-   "label": "v. 21–22",
+   "label": "v. 21–23",
    "start": 21,
-   "end": 22,
-   "title": "Would you not look",
-   "text": "If healing came from merely casting your eyes about, would you look quickly or harden and be slothful and perish. Alma tells them to look and to begin believing in the Son who will come, suffer, die, atone, and rise."
-  },
-  {
-   "label": "v. 23",
-   "start": 23,
    "end": 23,
-   "title": "Plant it",
-   "text": "Plant this word in your hearts, nourish it by faith as it swells, and it becomes a tree springing up to everlasting life. May your burdens be light through the joy of his Son, and all of this you can do if you will."
+   "title": "The question with a wo attached",
+   "text": "The sermon ends on a question the hearers are meant to answer against themselves: \"if ye could be healed by merely casting about your eyes, would ye not behold quickly, or would ye rather harden your hearts in unbelief?\" No other verse in the volume uses the words casting about your eyes, and verse 22 turns the phrase into a command, \"cast about your eyes and begin to believe.\" Between the question and the command sits a threat, \"if so, wo shall come upon you,\" and after them the chapter hands the hearer back the image Alma 32 spent forty verses building: plant the word, nourish it, and it becomes a tree."
   }
  ],
  "chapter": [
   {
    "n": 1,
    "title": "The answer to a practical question is a text",
-   "text": "They asked how to plant a seed and Alma handed them Zenos. The chapter treats reading as the first act of faith rather than a preliminary to it."
+   "text": "The instruction at verse 2 is bibliographic, \"ye ought to search the scriptures,\" and verse 3 is a question about reading, \"Do ye remember to have read what Zenos, the prophet of old, has said concerning prayer or worship?\" What follows is eight verses of Zenos quoted straight through, then Zenock at verse 16, then Moses at verse 19. Verse 14 puts the whole case as a question about reading, \"I would ask if ye have read the scriptures? If ye have, how can ye disbelieve on the Son of God?\""
   },
   {
    "n": 2,
@@ -238,30 +236,62 @@
   {
    "n": 8,
    "title": "The last words are about capacity",
-   "text": "All this can ye do if ye will. After a chapter of citations, Alma ends on the hearers' own ability, addressed to people the whole society has told are worth nothing."
+   "text": "The chapter ends on an instruction the hearers can carry out themselves, \"plant this word in your hearts, and as it beginneth to swell even so nourish it by your faith.\" Verse 22 has already given the content to be planted in a single breath, that the Son \"shall suffer and die to atone for their sins\" and \"shall rise again from the dead.\" The hearers are the people Alma 32:3 describes as \"esteemed by their brethren as dross,\" and the last thing said to them is about what they are able to do.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 32:3",
+     "start": 368,
+     "end": 377,
+     "book": "Alma",
+     "chapter": 32,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
   }
  ],
  "world_in_front": {
   "applications": [
    {
-    "title": "Check whether you have misread the rule",
-    "verse_label": "v. 2",
-    "text": "These people believed the scriptures shut them out. Where you think a text or a policy excludes you, go read it again before accepting the exclusion."
+    "title": "Send people to the text when they ask what to do",
+    "verse_label": "v. 2–3",
+    "text": "The answer to a practical question about worship is bibliographic, \"ye ought to search the scriptures,\" followed by \"Do ye remember to have read what Zenos, the prophet of old, has said concerning prayer or worship?\" A reading assignment is a real answer."
    },
    {
-    "title": "Pray in the place you are actually in",
-    "verse_label": "v. 4–7",
-    "text": "Zenos lists the wilderness, the field, the house, and the closet. Pick the least religious place in your week and pray there this week."
+    "title": "Notice where the prayer says he prayed",
+    "verse_label": "v. 4–9",
+    "text": "Zenos names six places he prayed in, from open country to a shut room to the middle of an assembly, and not one of them is a temple. Six settings and none of them is a temple. Ask where you have decided prayer belongs, and whether the list is shorter than his."
    },
    {
-    "title": "Stack what you already have before looking for more",
-    "verse_label": "v. 15–19",
-    "text": "Alma built his case from books the Zoramites owned. Before asking for new evidence, take an inventory of what you already accept and see what it commits you to."
+    "title": "Give the reason the prayer was heard",
+    "verse_label": "v. 11",
+    "text": "The quoted prayer names it, \"thou didst hear me because of mine afflictions and my sincerity; and it is because of thy Son that thou hast been thus merciful unto me.\" Two things the pray-er brought and one thing he did not."
    },
    {
-    "title": "Look at the thing that would heal you",
-    "verse_label": "v. 20",
-    "text": "They died because they did not believe a glance would work. Name the simple remedy you have been declining because it seems too small to matter, and do it."
+    "title": "Ask the question that follows from what they already grant",
+    "verse_label": "v.\n12–14",
+    "text": "\"Do ye believe those scriptures which have been written by them of old?\" and then \"how can ye disbelieve on the Son of God?\" The argument moves entirely inside what the hearers have already conceded."
+   },
+   {
+    "title": "Bring the second witness",
+    "verse_label": "v. 15–17",
+    "text": "Alma adds Zenock and notes what happened to him, \"because the people would not understand his words they stoned him to death.\" One authority can be dismissed; two of the same kind, one of them killed for it, is a different case."
+   },
+   {
+    "title": "Use the story everybody knows",
+    "verse_label": "v. 19–20",
+    "text": "The brass serpent is offered as the example precisely because it is familiar, and the failure is located in effort rather than in ignorance, \"because of the simpleness of the way... there were many who perished.\""
+   },
+   {
+    "title": "Say what to plant, not only that to plant",
+    "verse_label": "v. 22",
+    "text": "Before the instruction to plant the word, verse 22 states the content in one sentence: that the Son will come to redeem his people, will suffer and die to atone, and will rise. A seed is a specific thing."
+   },
+   {
+    "title": "End on what the hearer can do",
+    "verse_label": "v. 23",
+    "text": "The last instruction is theirs to carry out, \"plant this word in your hearts, and as it beginneth to swell even so nourish it by your faith,\" addressed to people the society had told were worth nothing."
    }
   ],
   "questions": [
@@ -372,7 +402,7 @@
     "w2": 36,
     "quote": "harden your hearts in unbelief, and be slothful"
    },
-   "reason": "the same word used of people who would not steer by the Liahona",
+   "reason": "the same word, of people who would not steer",
    "targets": [
     {
      "ref": "Alma",
@@ -386,7 +416,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al37-017"
+  },
+  {
+   "id": "al33-013",
+   "scope": "BOOK",
+   "head": "Alma 37:46",
+   "anchor": {
+    "verse": 21,
+    "w1": 29,
+    "w2": 36,
+    "quote": "harden your hearts in unbelief, and be slothful,"
+   },
+   "reason": "the same word, of a way made too easy",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 37,
+     "verse": 46,
+     "w1": 4,
+     "w2": 16,
+     "quote": "do not let us be slothful because of the easiness of the way;",
+     "verse_text": "O my son, do not let us be slothful because of the easiness of the way; for so was it with our fathers; for so was it prepared for them, that if they would look they might live; even so it is with us. The way is prepared, and if we will look we may live forever.",
+     "markdown": "O my son, **do not let us be slothful because of the easiness of the way**; for so was it with our fathers; for so was it prepared for them, that if they would look they might live; even so it is with us. The way is prepared, and if we will look we may live forever.",
+     "span": true
+    }
+   ],
+   "mirror": "al37-001"
   },
   {
    "id": "al33-004",
@@ -412,7 +468,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "1ne19-018"
   },
   {
    "id": "al33-005",
@@ -438,7 +494,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "jac05-014"
   },
   {
    "id": "al33-006",
@@ -464,7 +520,85 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel08-011"
+  },
+  {
+   "id": "al33-010",
+   "scope": "BOM",
+   "head": "Hel. 8:20",
+   "anchor": {
+    "verse": 16,
+    "w1": 5,
+    "w2": 19,
+    "quote": "Thou art angry, O Lord, with this people, because they will not understand thy mercies"
+   },
+   "reason": "Nephi listing Zenock among the prophets who testified",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 8,
+     "verse": 20,
+     "w1": 1,
+     "w2": 4,
+     "quote": "And behold, also Zenock,",
+     "verse_text": "And behold, also Zenock, and also Ezias, and also Isaiah, and Jeremiah, (Jeremiah being that same prophet who testified of the destruction of Jerusalem) and now we know that Jerusalem was destroyed according to the words of Jeremiah. O then why not the Son of God come, according to his prophecy?",
+     "markdown": "**And behold, also Zenock**, and also Ezias, and also Isaiah, and Jeremiah, (Jeremiah being that same prophet who testified of the destruction of Jerusalem) and now we know that Jerusalem was destroyed according to the words of Jeremiah. O then why not the Son of God come, according to his prophecy?",
+     "span": true
+    }
+   ],
+   "mirror": "hel08-006"
+  },
+  {
+   "id": "al33-011",
+   "scope": "BOM",
+   "head": "2 Ne. 25:20",
+   "anchor": {
+    "verse": 19,
+    "w1": 11,
+    "w2": 18,
+    "quote": "a type was raised up in the wilderness,"
+   },
+   "reason": "Nephi citing the healing given through Moses",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 25,
+     "verse": 20,
+     "w1": 30,
+     "w2": 48,
+     "quote": "gave unto Moses power that he should heal the nations after they had been bitten by the poisonous serpents,",
+     "verse_text": "And now, my brethren, I have spoken plainly that ye cannot err. And as the Lord God liveth that brought Israel up out of the land of Egypt, and gave unto Moses power that he should heal the nations after they had been bitten by the poisonous serpents, if they would cast their eyes unto the serpent which he did raise up before them, and also gave him power that he should smite the rock and the water should come forth; yea, behold I say unto you, that as these things are true, and as the Lord God liveth, there is none other name given under heaven save it be this Jesus Christ, of which I have spoken, whereby man can be saved.",
+     "markdown": "And now, my brethren, I have spoken plainly that ye cannot err. And as the Lord God liveth that brought Israel up out of the land of Egypt, and **gave unto Moses power that he should heal the nations after they had been bitten by the poisonous serpents**, if they would cast their eyes unto the serpent which he did raise up before them, and also gave him power that he should smite the rock and the water should come forth; yea, behold I say unto you, that as these things are true, and as the Lord God liveth, there is none other name given under heaven save it be this Jesus Christ, of which I have spoken, whereby man can be saved.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne25-005"
+  },
+  {
+   "id": "al33-012",
+   "scope": "BOM",
+   "head": "Hel. 8:15",
+   "anchor": {
+    "verse": 19,
+    "w1": 11,
+    "w2": 18,
+    "quote": "a type was raised up in the wilderness,"
+   },
+   "reason": "Nephi son of Helaman preaching the same serpent",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 8,
+     "verse": 15,
+     "w1": 2,
+     "w2": 11,
+     "quote": "as many as should look upon that serpent should live,",
+     "verse_text": "And as many as should look upon that serpent should live, even so as many as should look upon the Son of God with faith, having a contrite spirit, might live, even unto that life which is eternal.",
+     "markdown": "And **as many as should look upon that serpent should live**, even so as many as should look upon the Son of God with faith, having a contrite spirit, might live, even unto that life which is eternal.",
+     "span": true
+    }
+   ],
+   "mirror": "hel08-005"
   },
   {
    "id": "al33-007",
@@ -502,7 +636,7 @@
     "w2": 18,
     "quote": "a type was raised up in the wilderness"
    },
-   "reason": "the brass serpent as it happened",
+   "reason": "the pole in the wilderness, as it happened",
    "targets": [
     {
      "ref": "Num.",
@@ -575,6 +709,15 @@
    ]
   },
   {
+   "verse": 16,
+   "w1": 5,
+   "w2": 19,
+   "quote": "Thou art angry, O Lord, with this people, because they will not understand thy mercies",
+   "entries": [
+    "al33-010"
+   ]
+  },
+  {
    "verse": 17,
    "w1": 29,
    "w2": 33,
@@ -587,8 +730,10 @@
    "verse": 19,
    "w1": 11,
    "w2": 18,
-   "quote": "a type was raised up in the wilderness",
+   "quote": "a type was raised up in the wilderness,",
    "entries": [
+    "al33-011",
+    "al33-012",
     "al33-008",
     "al33-009"
    ]
@@ -599,7 +744,8 @@
    "w2": 36,
    "quote": "harden your hearts in unbelief, and be slothful",
    "entries": [
-    "al33-003"
+    "al33-003",
+    "al33-013"
    ]
   },
   {
@@ -613,7 +759,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "efbeac4970170b65"
+  "at": "2026-09-07",
+  "source_sha256": "73a3e4c509be433d"
  }
 }

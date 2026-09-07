@@ -1,0 +1,777 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "3 Nephi",
+  "book_slug": "3nephi",
+  "chapter": 8,
+  "volume_order": "10",
+  "speakers": [
+   "Mormon, as narrator",
+   "The people, crying in the dark"
+  ],
+  "audience": "The reader of the abridgment",
+  "location": "The whole land, north and south",
+  "date": "AD 34, first month, fourth day",
+  "unit": "The destruction and the visit (3 Nephi 8–11)",
+  "principles": [
+   "A record vouched for before the hardest chapter",
+   "Three hours and three days",
+   "A lament that names what would have been spared"
+  ],
+  "connections": 11,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Mormon certifies his source first",
+   "text": "Verse 1 says the record was kept by a just man who worked miracles in the name of Jesus, and that only the cleansed could do so."
+  },
+  {
+   "n": 2,
+   "title": "He allows for calendar error",
+   "text": "Verse 2 says the thirty-third year had passed if no mistake was made in the reckoning."
+  },
+  {
+   "n": 3,
+   "title": "The doubt was live",
+   "text": "Verses 3 and 4 have the people watching for the three days of darkness while disputing whether it would come. Helaman 14:20 and 27 is the prophecy they are waiting on, and 3 Nephi 1:5 to 8 records the same argument thirty-three years earlier over the sign of the birth. The doubt is a habit with a history."
+  },
+  {
+   "n": 4,
+   "title": "The date is exact",
+   "text": "Verse 5 dates the storm to the fourth day of the first month of the thirty and fourth year. Only Alma 16:1 and Alma 49:1 are dated as tightly anywhere else in the volume, and both of those are troop movements. 3 Nephi 2:8 explains why a day is even available here: the Nephites had begun reckoning their time from the sign.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 16:1",
+     "start": 97,
+     "end": 106,
+     "book": "Alma",
+     "chapter": 16,
+     "verse_start": 1,
+     "verse_end": 1
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 49:1",
+     "start": 111,
+     "end": 120,
+     "book": "Alma",
+     "chapter": 49,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Three cities are named individually",
+   "text": "Zarahemla burned, Moroni sunk into the sea, Moronihah buried under a mountain."
+  },
+  {
+   "n": 6,
+   "title": "The whole event takes three hours",
+   "text": "Verse 19 gives the duration as about three hours, twice, and notes that some said the time was greater. Helaman 14:21 had predicted thunderings and lightnings for the space of many hours, so the record preserves a prophecy, a measurement, and a dissenting estimate of the same event."
+  },
+  {
+   "n": 7,
+   "title": "The darkness is physical",
+   "text": "Verses 20 through 22 have the darkness felt as a vapor, with no candle, torch, or dry wood able to take fire. Exodus 10:21 to 23 has a darkness over Egypt that could be felt and lasted three days, and 1 Nephi 12:4 and 5 had shown Nephi a vapor of darkness on this land six hundred years earlier."
+  }
+ ],
+ "words": [
+  {
+   "term": "Earnestness",
+   "verse_label": "v. 3",
+   "text": "Intent seriousness. The word occurs once in all of scripture, here, of how the people watched for the sign of the death."
+  },
+  {
+   "term": "Doubtings",
+   "verse_label": "v. 4",
+   "text": "Uncertainties held and voiced. This is its one appearance in all of scripture, here, paired with disputations and set against the many signs already given."
+  },
+  {
+   "term": "Spoiled",
+   "verse_label": "v. 13",
+   "text": "Ruined, wrecked. The record uses the word twice and the King James Bible fifty-five, usually of plunder. Verse 13 uses it of roads."
+  },
+  {
+   "term": "Notable",
+   "verse_label": "v. 14",
+   "text": "Prominent, well known. It appears once in the record, and five times in the King James Bible. Verse 14 attaches it to the cities that were sunk."
+  },
+  {
+   "term": "Deformed",
+   "verse_label": "v. 17",
+   "text": "Put out of shape. It appears a single time in all of scripture, here, of the face of the whole earth."
+  },
+  {
+   "term": "Glimmer",
+   "verse_label": "v. 22",
+   "text": "A faint trace of light. Scripture carries the word just once, here, in a list of every light source that failed."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "We know our record to be true, for behold, it was a just man who did keep the record",
+   "verse_label": "v. 1",
+   "text": "Mormon vouching for his source at the head of the hardest chapter in the book. Verse 1 gives the grounds: the keeper did miracles in the name of Jesus."
+  },
+  {
+   "term": "If there was no mistake made by this man in the reckoning of our time",
+   "verse_label": "v. 2",
+   "text": "An abridger allowing for human error in a date. The qualification sits in the sentence that establishes the year."
+  },
+  {
+   "term": "The people began to look with great earnestness for the sign",
+   "verse_label": "v. 3",
+   "text": "Watchfulness and doubt held by the same population. Verse 4 says the disputations ran alongside the watching."
+  },
+  {
+   "term": "The earth was carried up upon the city of Moronihah",
+   "verse_label": "v. 10",
+   "text": "The most compressed of the three city reports. A city becomes a mountain in one clause."
+  },
+  {
+   "term": "The highways were broken up, and the level roads were spoiled",
+   "verse_label": "v. 13",
+   "text": "The public works of 3 Nephi 6:8 undone. What four years of peace built is named as what the storm took."
+  },
+  {
+   "term": "Whither they went no man knoweth, save they know that they were carried away",
+   "verse_label": "v. 16",
+   "text": "The record holding to what is known. It reports the disappearance and refuses the destination."
+  },
+  {
+   "term": "They were found in broken fragments, and in seams and in cracks",
+   "verse_label": "v. 18",
+   "text": "The two words Helaman 14:22 had used. The prophecy and the report share vocabulary no other passage uses."
+  },
+  {
+   "term": "All these great and terrible things were done in about the space of three hours",
+   "verse_label": "v. 19",
+   "text": "The duration stated, disputed, and restated inside one verse. Mormon notes that some said it was longer and keeps his own figure."
+  },
+  {
+   "term": "The inhabitants thereof who had not fallen could feel the vapor of darkness",
+   "verse_label": "v. 20",
+   "text": "Darkness with a texture. Exodus 10:21 calls the ninth plague darkness which may be felt."
+  },
+  {
+   "term": "There could be no light... neither candles, neither torches",
+   "verse_label": "v. 21",
+   "text": "The failure catalogued item by item. Verse 21 adds that their fine dry wood would not kindle."
+  },
+  {
+   "term": "O that we had repented before this great and terrible day",
+   "verse_label": "v. 24",
+   "text": "The first of two cries, from different places, opening with the same words. Verse 25 adds the killing of the prophets to the list."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–2",
+   "start": 1,
+   "end": 2,
+   "title": "A warranty, and then a doubt about the same document",
+   "text": "The chapter opens by vouching for its source: \"according to our record, and we know our record to be true, for behold, it was a just man who did keep the record.\" Verse 2 then admits a different kind of failure the first claim does not cover: \"if there was no mistake made by this man in the reckoning of our time, the thirty and third year had passed away.\" Honesty and arithmetic are separated. The record asserts the first about its keeper and declines to assert the second, in consecutive verses, immediately before the most consequential date in the book."
+  },
+  {
+   "label": "v. 5",
+   "start": 5,
+   "end": 5,
+   "title": "The date given to the day",
+   "text": "The disaster is fixed precisely: \"in the thirty and fourth year, in the first month, on the fourth day of the month, there arose a great storm, such an one as never had been known in all the land.\" Only ten verses in the whole volume name a numbered day of a month. The record spends one of them here, and the same verse makes the event unprecedented rather than merely severe, which is what a dated claim needs in order to be worth dating."
+  },
+  {
+   "label": "v. 8–10",
+   "start": 8,
+   "end": 10,
+   "title": "Three cities, three fates, three short verses",
+   "text": "The record gives each city one line and a different method: \"the city of Zarahemla did take fire\"; \"the city of Moroni did sink into the depths of the sea, and the inhabitants thereof were drowned\"; \"the earth was carried up upon the city of Moronihah, that in the place of the city there became a great mountain.\" One chapter later the voice out of the darkness names the same three cities in the same order with the same three fates, at 3 Ne. 9:3–5. A reader can set the narrator's account beside the speech and check that they agree.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "3 Ne. 9:3–5",
+     "start": 439,
+     "end": 450,
+     "book": "3 Ne",
+     "chapter": 9,
+     "verse_start": 3,
+     "verse_end": 5
+    }
+   ]
+  },
+  {
+   "label": "v. 13",
+   "start": 13,
+   "end": 13,
+   "title": "The roads of two chapters earlier, reported destroyed",
+   "text": "The record itemises the damage with the same two categories it used when they were built: \"the highways were broken up, and the level roads were spoiled, and many smooth places became rough.\" At 3 Ne. 6:8 the record distinguished highways that were \"cast up\" from roads that were \"made,\" and here both are named again on the way down. The public works of the peace and the wreckage of the storm are described with one vocabulary.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "3 Ne. 6:8",
+     "start": 195,
+     "end": 204,
+     "book": "3 Ne",
+     "chapter": 6,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
+  },
+  {
+   "label": "v. 16",
+   "start": 16,
+   "end": 16,
+   "title": "A blank stated as a blank",
+   "text": "One verse reports something and then declines to complete it: \"there were some who were carried away in the whirlwind; and whither they went no man knoweth, save they know that they were carried away.\" The second half withdraws everything except the fact of the disappearance. The volume uses the same construction for people who leave and are never accounted for at Alma 45:18 and 3 Ne. 2:9, and here it applies to an unnumbered group in a storm.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 45:18",
+     "start": 367,
+     "end": 377,
+     "book": "Alma",
+     "chapter": 45,
+     "verse_start": 18,
+     "verse_end": 18
+    },
+    {
+     "kind": "scripture",
+     "text": "3 Ne. 2:9",
+     "start": 382,
+     "end": 391,
+     "book": "3 Ne",
+     "chapter": 2,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
+  },
+  {
+   "label": "v. 23–25",
+   "start": 23,
+   "end": 25,
+   "title": "The same words, heard in two places",
+   "text": "The record reports the mourning as speech and marks its locations separately: \"in one place they were heard to cry, saying: O that we had repented before this great and terrible day,\" and then \"in another place they were heard to cry and mourn, saying: O that we had repented before this great and terrible day.\" The openings are identical and the endings differ, the first wishing their brethren had not been burned, the second wishing they had not killed the prophets. Two crowds who could not have heard each other are reported saying the same sentence."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The certification comes first",
+   "text": "Verse 1 establishes who kept the record and why he could be trusted, before anything difficult is reported."
+  },
+  {
+   "n": 2,
+   "title": "Mormon leaves room for a calendar error",
+   "text": "Verse 2 is a conditional. The record does not claim more precision than it has."
+  },
+  {
+   "n": 3,
+   "title": "Doubt and expectation ran together",
+   "text": "Verses 3 and 4 have the same people watching earnestly and disputing. Neither state cancels the other."
+  },
+  {
+   "n": 4,
+   "title": "The named cities each die differently",
+   "text": "Three cities are disposed of in three consecutive verses and each gets a different element and a single sentence: \"the city of Zarahemla did take fire,\" \"the city of Moroni did sink into the depths of the sea,\" and \"the earth was carried up upon the city of Moronihah, that in the place of the city there became a great mountain.\" Verses 8 through 18 name sixteen places in all. 3 Nephi 9:3–12 then gives the list again with reasons attached, so the same destruction is reported twice, once as event and once as verdict."
+  },
+  {
+   "n": 5,
+   "title": "The prophecy's own words come back",
+   "text": "Seams and cracks appear in Helaman 14:22 and here and nowhere else in scripture. The report is written in the language of the prediction."
+  },
+  {
+   "n": 6,
+   "title": "Three hours is insisted on",
+   "text": "Verse 19 gives the figure, records the dissent, and repeats the figure. The disproportion between duration and damage is the point being made."
+  },
+  {
+   "n": 7,
+   "title": "The darkness is described by what failed",
+   "text": "Verses 21 and 22 name eight sources of light that failed: candles, torches, fire kindled from \"their fine and exceedingly dry wood,\" fire, glimmer, the sun, the moon, and the stars. The darkness itself gets one physical detail, that the survivors \"could feel the vapor of darkness\" at verse 20, and one duration, \"the space of three days\" at verse 23. Eight negatives against two positives, and the record describes the condition almost entirely by what stopped working."
+  },
+  {
+   "n": 8,
+   "title": "Both laments begin identically",
+   "text": "Verses 24 and 25 open with the same wish from different places. What they name as lost is families and cities, and what they name as the cause is their own delay."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Say who your source is before the hard part",
+    "verse_label": "v. 1",
+    "text": "Mormon establishes the record-keeper's character first. Credibility is cheapest to establish before it is needed."
+   },
+   {
+    "title": "Keep the conditional in",
+    "verse_label": "v. 2",
+    "text": "He wrote \"if there was no mistake.\" Precision about your own uncertainty costs nothing and buys a great deal."
+   },
+   {
+    "title": "Watch and doubt at the same time, honestly",
+    "verse_label": "v. 3",
+    "text": "The people did both. Naming your doubt while you keep watching is a stable place to stand."
+   },
+   {
+    "title": "Record what you do not know about the missing",
+    "verse_label": "v. 16",
+    "text": "Some were carried away in the whirlwind, and the record says only that no man knows where they went. When people are lost, the honest entry is that they are lost, and it serves the ones left better than a story would."
+   },
+   {
+    "title": "Report the disagreement about the number",
+    "verse_label": "v. 19",
+    "text": "Mormon says the destruction lasted about three hours, records that others put it longer, and then restates his own figure anyway. Keeping the competing estimate on the page is what lets a reader judge how firm yours is."
+   },
+   {
+    "title": "Some darkness will not take a light",
+    "verse_label": "v. 21",
+    "text": "No candle, no torch, and no fire from their fine dry wood would kindle during the three days. Certain stretches do not answer to the usual remedies, and knowing that in advance keeps you from reading the failure as yours."
+   },
+   {
+    "title": "Notice what the cries actually regret",
+    "verse_label": "v. 24",
+    "text": "Not the storm, but the delay. When people speak from the bottom of something, listen to what they wish they had done sooner."
+   },
+   {
+    "title": "A shared catastrophe is felt one loss at a time",
+    "verse_label": "v. 24–25",
+    "text": "One cry names the burning of Zarahemla; another names mothers and daughters buried in Moronihah. The event was common to everybody and the grief in it belongs to particular people, which is worth remembering before offering comfort in general terms."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "Whose account of things do I trust, and on what grounds?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Where am I claiming more certainty than I have?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What am I disputing that I half expect to be true?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "What that I built could be undone in an afternoon?"
+   },
+   {
+    "verse_label": "v. 19",
+    "start": 19,
+    "end": 19,
+    "text": "How much can change in three hours?"
+   },
+   {
+    "verse_label": "v. 21",
+    "start": 21,
+    "end": 21,
+    "text": "What have I tried to light that would not catch?"
+   },
+   {
+    "verse_label": "v. 24",
+    "start": 24,
+    "end": 24,
+    "text": "What would I say if I were crying out from the far side of a delay?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "3ne08-001",
+   "scope": "BOOK",
+   "head": "3 Ne. 9:3",
+   "anchor": {
+    "verse": 8,
+    "w1": 1,
+    "w2": 8,
+    "quote": "And the city of Zarahemla did take fire"
+   },
+   "reason": "the voice out of the darkness naming that city first",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 9,
+     "verse": 3,
+     "w1": 2,
+     "w2": 10,
+     "quote": "that great city Zarahemla have I burned with fire,",
+     "verse_text": "Behold, that great city Zarahemla have I burned with fire, and the inhabitants thereof.",
+     "markdown": "Behold, **that great city Zarahemla have I burned with fire**, and the inhabitants thereof.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne09-001"
+  },
+  {
+   "id": "3ne08-002",
+   "scope": "BOOK",
+   "head": "3 Ne. 10:9",
+   "anchor": {
+    "verse": 23,
+    "w1": 23,
+    "w2": 35,
+    "quote": "there was great mourning and howling and weeping among all the people continually"
+   },
+   "reason": "the morning the groanings stopped",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 10,
+     "verse": 9,
+     "w1": 46,
+     "w2": 58,
+     "quote": "the dreadful groanings did cease, and all the tumultuous noises did pass away.",
+     "verse_text": "And it came to pass that thus did the three days pass away. And it was in the morning, and the darkness dispersed from off the face of the land, and the earth did cease to tremble, and the rocks did cease to rend, and the dreadful groanings did cease, and all the tumultuous noises did pass away.",
+     "markdown": "And it came to pass that thus did the three days pass away. And it was in the morning, and the darkness dispersed from off the face of the land, and the earth did cease to tremble, and the rocks did cease to rend, and **the dreadful groanings did cease, and all the tumultuous noises did pass away**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne10-001"
+  },
+  {
+   "id": "3ne08-003",
+   "scope": "BOOK",
+   "head": "3 Ne. 1:19",
+   "anchor": {
+    "verse": 22,
+    "w1": 12,
+    "w2": 20,
+    "quote": "neither the sun, nor the moon, nor the stars"
+   },
+   "reason": "the night thirty-four years earlier when darkness failed",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 1,
+     "verse": 19,
+     "w1": 7,
+     "w2": 24,
+     "quote": "there was no darkness in all that night, but it was as light as though it was mid-day.",
+     "verse_text": "And it came to pass that there was no darkness in all that night, but it was as light as though it was mid-day. And it came to pass that the sun did rise in the morning again, according to its proper order; and they knew that it was the day that the Lord should be born, because of the sign which had been given.",
+     "markdown": "And it came to pass that **there was no darkness in all that night, but it was as light as though it was mid-day**. And it came to pass that the sun did rise in the morning again, according to its proper order; and they knew that it was the day that the Lord should be born, because of the sign which had been given.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne01-012"
+  },
+  {
+   "id": "3ne08-004",
+   "scope": "BOM",
+   "head": "Hel. 14:22",
+   "anchor": {
+    "verse": 18,
+    "w1": 22,
+    "w2": 33,
+    "quote": "they were found in broken fragments, and in seams and in cracks"
+   },
+   "reason": "the same two words, prophesied five years before the birth",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 14,
+     "verse": 22,
+     "w1": 9,
+     "w2": 18,
+     "quote": "shall ever after be found in seams and in cracks,",
+     "verse_text": "Yea, they shall be rent in twain, and shall ever after be found in seams and in cracks, and in broken fragments upon the face of the whole earth, yea, both above the earth and beneath.",
+     "markdown": "Yea, they shall be rent in twain, and **shall ever after be found in seams and in cracks**, and in broken fragments upon the face of the whole earth, yea, both above the earth and beneath.",
+     "span": true
+    }
+   ],
+   "mirror": "hel14-006"
+  },
+  {
+   "id": "3ne08-005",
+   "scope": "BOM",
+   "head": "Hel. 14:20",
+   "anchor": {
+    "verse": 23,
+    "w1": 7,
+    "w2": 21,
+    "quote": "it did last for the space of three days that there was no light seen"
+   },
+   "reason": "the three days named in advance, with the reason given",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 14,
+     "verse": 20,
+     "w1": 46,
+     "w2": 56,
+     "quote": "there shall be no light upon the face of this land,",
+     "verse_text": "But behold, as I said unto you concerning another sign, a sign of his death, behold, in that day that he shall suffer death the sun shall be darkened and refuse to give his light unto you; and also the moon and the stars; and there shall be no light upon the face of this land, even from the time that he shall suffer death, for the space of three days, to the time that he shall rise again from the dead.",
+     "markdown": "But behold, as I said unto you concerning another sign, a sign of his death, behold, in that day that he shall suffer death the sun shall be darkened and refuse to give his light unto you; and also the moon and the stars; and **there shall be no light upon the face of this land**, even from the time that he shall suffer death, for the space of three days, to the time that he shall rise again from the dead.",
+     "span": true
+    }
+   ],
+   "mirror": "hel14-012"
+  },
+  {
+   "id": "3ne08-006",
+   "scope": "BOM",
+   "head": "Hel. 14:23",
+   "anchor": {
+    "verse": 10,
+    "w1": 13,
+    "w2": 23,
+    "quote": "in the place of the city there became a great mountain"
+   },
+   "reason": "the mountains and valleys promised to trade places",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 14,
+     "verse": 23,
+     "w1": 21,
+     "w2": 34,
+     "quote": "there shall be many places which are now called valleys which shall become mountains,",
+     "verse_text": "And behold, there shall be great tempests, and there shall be many mountains laid low, like unto a valley, and there shall be many places which are now called valleys which shall become mountains, whose height is great.",
+     "markdown": "And behold, there shall be great tempests, and there shall be many mountains laid low, like unto a valley, and **there shall be many places which are now called valleys which shall become mountains**, whose height is great.",
+     "span": true
+    }
+   ],
+   "mirror": "hel14-013"
+  },
+  {
+   "id": "3ne08-007",
+   "scope": "BOM",
+   "head": "Hel. 13:13",
+   "anchor": {
+    "verse": 24,
+    "w1": 31,
+    "w2": 41,
+    "quote": "they would not have been burned in that great city Zarahemla"
+   },
+   "reason": "the fire from heaven the righteous had been holding off",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 13,
+     "verse": 13,
+     "w1": 29,
+     "w2": 42,
+     "quote": "I would cause that fire should come down out of heaven and destroy it.",
+     "verse_text": "But blessed are they who will repent, for them will I spare. But behold, if it were not for the righteous who are in this great city, behold, I would cause that fire should come down out of heaven and destroy it.",
+     "markdown": "But blessed are they who will repent, for them will I spare. But behold, if it were not for the righteous who are in this great city, behold, **I would cause that fire should come down out of heaven and destroy it**.",
+     "span": true
+    }
+   ],
+   "mirror": "hel13-014"
+  },
+  {
+   "id": "3ne08-008",
+   "scope": "BOM",
+   "head": "1 Ne. 12:4",
+   "anchor": {
+    "verse": 6,
+    "w1": 2,
+    "w2": 9,
+    "quote": "there was also a great and terrible tempest"
+   },
+   "reason": "the first Nephi shown this day, item by item",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 12,
+     "verse": 4,
+     "w1": 7,
+     "w2": 20,
+     "quote": "I saw a mist of darkness on the face of the land of promise;",
+     "verse_text": "And it came to pass that I saw a mist of darkness on the face of the land of promise; and I saw lightnings, and I heard thunderings, and earthquakes, and all manner of tumultuous noises; and I saw the earth and the rocks, that they rent; and I saw mountains tumbling into pieces; and I saw the plains of the earth, that they were broken up; and I saw many cities that they were sunk; and I saw many that they were burned with fire; and I saw many that did tumble to the earth, because of the quaking thereof.",
+     "markdown": "And it came to pass that **I saw a mist of darkness on the face of the land of promise**; and I saw lightnings, and I heard thunderings, and earthquakes, and all manner of tumultuous noises; and I saw the earth and the rocks, that they rent; and I saw mountains tumbling into pieces; and I saw the plains of the earth, that they were broken up; and I saw many cities that they were sunk; and I saw many that they were burned with fire; and I saw many that did tumble to the earth, because of the quaking thereof.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne12-010"
+  },
+  {
+   "id": "3ne08-011",
+   "scope": "BOM",
+   "head": "1 Ne. 12:4",
+   "anchor": {
+    "verse": 14,
+    "w1": 2,
+    "w2": 12,
+    "quote": "many great and notable cities were sunk, and many were burned,"
+   },
+   "reason": "the same cities, seen six hundred years earlier",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 12,
+     "verse": 4,
+     "w1": 69,
+     "w2": 76,
+     "quote": "I saw many cities that they were sunk;",
+     "verse_text": "And it came to pass that I saw a mist of darkness on the face of the land of promise; and I saw lightnings, and I heard thunderings, and earthquakes, and all manner of tumultuous noises; and I saw the earth and the rocks, that they rent; and I saw mountains tumbling into pieces; and I saw the plains of the earth, that they were broken up; and I saw many cities that they were sunk; and I saw many that they were burned with fire; and I saw many that did tumble to the earth, because of the quaking thereof.",
+     "markdown": "And it came to pass that I saw a mist of darkness on the face of the land of promise; and I saw lightnings, and I heard thunderings, and earthquakes, and all manner of tumultuous noises; and I saw the earth and the rocks, that they rent; and I saw mountains tumbling into pieces; and I saw the plains of the earth, that they were broken up; and **I saw many cities that they were sunk**; and I saw many that they were burned with fire; and I saw many that did tumble to the earth, because of the quaking thereof.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne12-005"
+  },
+  {
+   "id": "3ne08-009",
+   "scope": "SW",
+   "head": "Ex. 10:21",
+   "anchor": {
+    "verse": 20,
+    "w1": 27,
+    "w2": 32,
+    "quote": "could feel the vapor of darkness"
+   },
+   "reason": "the ninth plague, called a darkness which may be felt",
+   "targets": [
+    {
+     "ref": "Ex.",
+     "chapter": 10,
+     "verse": 21,
+     "w1": 17,
+     "w2": 28,
+     "quote": "darkness over the land of Egypt, even darkness which may be felt.",
+     "verse_text": "And the LORD said unto Moses, Stretch out thine hand toward heaven, that there may be darkness over the land of Egypt, even darkness which may be felt.",
+     "markdown": "And the LORD said unto Moses, Stretch out thine hand toward heaven, that there may be **darkness over the land of Egypt, even darkness which may be felt**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne08-010",
+   "scope": "SW",
+   "head": "Luke 23:44",
+   "anchor": {
+    "verse": 22,
+    "w1": 12,
+    "w2": 20,
+    "quote": "neither the sun, nor the moon, nor the stars"
+   },
+   "reason": "the darkness over the other hemisphere in the same hours",
+   "targets": [
+    {
+     "ref": "Luke",
+     "chapter": 23,
+     "verse": 44,
+     "w1": 9,
+     "w2": 20,
+     "quote": "there was a darkness over all the earth until the ninth hour.",
+     "verse_text": "And it was about the sixth hour, and there was a darkness over all the earth until the ninth hour.",
+     "markdown": "And it was about the sixth hour, and **there was a darkness over all the earth until the ninth hour**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 6,
+   "w1": 2,
+   "w2": 9,
+   "quote": "there was also a great and terrible tempest",
+   "entries": [
+    "3ne08-008"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 1,
+   "w2": 8,
+   "quote": "And the city of Zarahemla did take fire",
+   "entries": [
+    "3ne08-001"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 13,
+   "w2": 23,
+   "quote": "in the place of the city there became a great mountain",
+   "entries": [
+    "3ne08-006"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 2,
+   "w2": 12,
+   "quote": "many great and notable cities were sunk, and many were burned,",
+   "entries": [
+    "3ne08-011"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 22,
+   "w2": 33,
+   "quote": "they were found in broken fragments, and in seams and in cracks",
+   "entries": [
+    "3ne08-004"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 27,
+   "w2": 32,
+   "quote": "could feel the vapor of darkness",
+   "entries": [
+    "3ne08-009"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 12,
+   "w2": 20,
+   "quote": "neither the sun, nor the moon, nor the stars",
+   "entries": [
+    "3ne08-003",
+    "3ne08-010"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 7,
+   "w2": 21,
+   "quote": "it did last for the space of three days that there was no light seen",
+   "entries": [
+    "3ne08-005"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 23,
+   "w2": 35,
+   "quote": "there was great mourning and howling and weeping among all the people continually",
+   "entries": [
+    "3ne08-002"
+   ]
+  },
+  {
+   "verse": 24,
+   "w1": 31,
+   "w2": 41,
+   "quote": "they would not have been burned in that great city Zarahemla",
+   "entries": [
+    "3ne08-007"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "7cb122f1a8fb167c"
+ }
+}

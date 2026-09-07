@@ -19,7 +19,7 @@
    "The law recited",
    "What the law was for"
   ],
-  "connections": 11,
+  "connections": 14,
   "initial": false
  },
  "world_behind": [
@@ -41,7 +41,29 @@
   {
    "n": 4,
    "title": "The standard charge against a prophet",
-   "text": "\"Away with this fellow\" and \"he is mad.\" A crowd said the first of Jesus and a Roman governor said the second of Paul. Noah reaches for both in one sentence before any argument has been offered."
+   "text": "\"Away with this fellow\" and \"he is mad.\" A crowd said the first of Jesus (Luke 23:18) and a Roman governor said the second of Paul (Acts 26:24). Noah reaches for both in a single line before any argument has been offered.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Luke 23:18",
+     "start": 74,
+     "end": 84,
+     "book": "Luke",
+     "chapter": 23,
+     "verse_start": 18,
+     "verse_end": 18
+    },
+    {
+     "kind": "scripture",
+     "text": "Acts 26:24",
+     "start": 132,
+     "end": 142,
+     "book": "Acts",
+     "chapter": 26,
+     "verse_start": 24,
+     "verse_end": 24
+    }
+   ]
   },
   {
    "n": 5,
@@ -51,7 +73,19 @@
   {
    "n": 6,
    "title": "Jeremiah, inverted",
-   "text": "Verse 11 says the commandments are not written in the priests' hearts. Jeremiah's new covenant is a law written in the heart. Abinadi reads from stone precisely because the writing did not take."
+   "text": "Verse 11 says the commandments are not written in the priests' hearts (Jer. 31:33). Jeremiah's new covenant is a law written in the heart. Abinadi reads from stone precisely because the writing did not take.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jer. 31:33",
+     "start": 71,
+     "end": 81,
+     "book": "Jer",
+     "chapter": 31,
+     "verse_start": 33,
+     "verse_end": 33
+    }
+   ]
   },
   {
    "n": 7,
@@ -68,23 +102,35 @@
   {
    "term": "Graven",
    "verse_label": "v. 12",
-   "text": "Carved, and the same verb this record uses of engraving on plates. The commandment forbids a carved likeness, and the man reciting it is part of a people whose scripture exists only because someone carved it. The record never remarks on the overlap."
+   "text": "Carved, and the same verb this record uses of engraving on plates. Treated at 1 Nephi 20:5. The commandment forbids a carved likeness, and the man reciting it is part of a people whose scripture exists only because someone carved it. The record never remarks on the overlap."
   },
   {
    "term": "Guiltless",
    "verse_label": "v. 15",
-   "text": "A legal word: not merely innocent in feeling but not held liable. The commandment Abinadi recites says the Lord will not hold guiltless the man who takes his name in vain. The court had used that word of itself in the previous chapter, assuring Noah that they were guiltless and that he had not sinned. Abinadi is reading a list these men claim to teach, and this line of it names who decides the question and on what ground."
+   "text": "A legal word: not merely innocent in feeling but not held liable. Treated at Mosiah 4:25. The commandment Abinadi recites says the Lord will not hold guiltless the man who takes his name in vain. The court had used that word of itself in the previous chapter, assuring Noah that they were guiltless and that he had not sinned. Abinadi is reading a list these men claim to teach, and this line of it names who decides the question and on what ground.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 4:25",
+     "start": 77,
+     "end": 88,
+     "book": "Mosiah",
+     "chapter": 4,
+     "verse_start": 25,
+     "verse_end": 25
+    }
+   ]
   },
   {
    "term": "Stranger",
    "verse_label": "v. 18",
-   "text": "Not an unfamiliar person. In the law a stranger is a foreigner living among you, and the phrase \"thy stranger that is within thy gates\" (v. 18) assumes he is a fixture of the household's world. The sabbath commandment keeps widening its list until it has covered the son, the daughter, both servants, the cattle, and him. Abinadi recites it to a court supported by a fifth part of everything their people owned. The commandment gives a day off to a man's ox.",
+   "text": "Not an unfamiliar person. Treated at Mosiah 5:13. In the law a stranger is a foreigner living among you, and the phrase \"thy stranger that is within thy gates\" (v. 18) assumes he is a fixture of the household's world. The sabbath commandment keeps widening its list until it has covered the son, the daughter, both servants, the cattle, and him. Abinadi recites it to a court supported by a fifth part of everything their people owned. The commandment gives a day off to a man's ox.",
    "cites": [
     {
      "quote": "thy stranger that is within thy gates",
      "verse": 18,
-     "start": 96,
-     "end": 143,
+     "start": 120,
+     "end": 167,
      "spans": [
       {
        "w1": 34,
@@ -92,6 +138,18 @@
        "text": "thy stranger that is within thy gates"
       }
      ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 5:13",
+     "start": 37,
+     "end": 48,
+     "book": "Mosiah",
+     "chapter": 5,
+     "verse_start": 13,
+     "verse_end": 13
     }
    ]
   },
@@ -110,7 +168,29 @@
   {
    "term": "Away with this fellow, and slay him; for... he is mad",
    "verse_label": "v. 1",
-   "text": "Two dismissals in one breath, and neither engages the message. A crowd used the first of Jesus before Pilate; a governor used the second of Paul mid-defense. Noah does not argue that Abinadi is wrong, only that he is contemptible and unwell."
+   "text": "Two dismissals in one breath, and neither engages the message. A crowd used the first of Jesus before Pilate (Luke 23:18); a governor used the second of Paul mid-defense (Acts 26:24). Noah does not argue that Abinadi is wrong, only that he is contemptible and unwell.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Luke 23:18",
+     "start": 110,
+     "end": 120,
+     "book": "Luke",
+     "chapter": 23,
+     "verse_start": 18,
+     "verse_end": 18
+    },
+    {
+     "kind": "scripture",
+     "text": "Acts 26:24",
+     "start": 171,
+     "end": 181,
+     "book": "Acts",
+     "chapter": 26,
+     "verse_start": 24,
+     "verse_end": 24
+    }
+   ]
   },
   {
    "term": "Touch me not, for God shall smite you if ye lay your hands upon me",
@@ -120,7 +200,7 @@
   {
    "term": "His face shone with exceeding luster, even as Moses' did while in the mount of Sinai",
    "verse_label": "v. 5",
-   "text": "The record supplying its own cross-reference. The people durst not touch him, and the reason given is the Spirit upon him and the light on his face. It is the only physical protection anyone in this record receives, and the record describes it in a single clause."
+   "text": "The record supplying its own cross-reference. The people durst not touch him, and the reason given is the Spirit upon him and the light on his face. It is the only physical protection anyone in this record receives, and the record describes it in a lone clause."
   },
   {
    "term": "Then it matters not whither I go, if it so be that I am saved",
@@ -135,12 +215,36 @@
   {
    "term": "I perceive that they are not written in your hearts",
    "verse_label": "v. 11",
-   "text": "The reason given for reading the commandments aloud. Jeremiah's promise was a law written in the heart instead of on stone; Abinadi reads from stone because the interior version is missing. The next clause is harder. They have studied and taught iniquity most of their lives."
+   "text": "The reason given for reading the commandments aloud. Jeremiah's promise (Jer. 31:33) was a law written in the heart instead of on stone; Abinadi reads from stone because the interior version is missing. The next clause is harder. They have studied and taught iniquity most of their lives.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jer. 31:33",
+     "start": 73,
+     "end": 83,
+     "book": "Jer",
+     "chapter": 31,
+     "verse_start": 33,
+     "verse_end": 33
+    }
+   ]
   },
   {
    "term": "Wherefore the Lord blessed the sabbath day, and hallowed it",
    "verse_label": "v. 19",
-   "text": "The sabbath rationale, and something is missing from it. Exodus gives six days of making and then rest on the seventh, and grounds the blessing in the rest. This recitation keeps the making and the blessing and drops the resting, the one substantive variant in the whole block."
+   "text": "The sabbath rationale, and something is missing from it. Exodus gives six days of making and then rest on the seventh (Ex. 20:11), and grounds the blessing in the rest. This recitation keeps the making and the blessing and drops the resting, the one substantive variant in the whole block.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ex. 20:11",
+     "start": 119,
+     "end": 128,
+     "book": "Ex",
+     "chapter": 20,
+     "verse_start": 11,
+     "verse_end": 11
+    }
+   ]
   },
   {
    "term": "The time shall come when it shall no more be expedient to keep the law of Moses",
@@ -165,7 +269,19 @@
   {
    "term": "He, himself, should be oppressed and afflicted",
    "verse_label": "v. 35",
-   "text": "Isaiah's words about the suffering servant, arriving as the last clause of the chapter. Abinadi has moved from the law to the prophets to a person, and the chapter breaks off mid-argument. The sentence continues into Mosiah 14, which is Isaiah 53 entire."
+   "text": "Isaiah's words about the suffering servant (Isa. 53:7), arriving as the last clause of the chapter. Abinadi has moved from the law to the prophets to a person, and the chapter breaks off mid-argument. The sentence continues into Mosiah 14, which is Isaiah 53 entire.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 53:7",
+     "start": 44,
+     "end": 53,
+     "book": "Isa",
+     "chapter": 53,
+     "verse_start": 7,
+     "verse_end": 7
+    }
+   ]
   }
  ],
  "verses": [
@@ -195,14 +311,14 @@
    "start": 12,
    "end": 19,
    "title": "The law, first table",
-   "text": "No graven image, no bowing to them, a jealous God visiting iniquities and showing mercy to thousands, the name not taken in vain, the sabbath remembered, six days of labor, the seventh kept by household and servant and stranger and beast, and the day blessed and hallowed."
+   "text": "The record reproduces Exodus 20:4–11 with the differences confined to single words. Exodus 20:4 has \"any likeness of any thing that is in heaven above\"; verse 12 has \"any likeness of things which are in heaven above.\" The rest, including the full household list of Exodus 20:10, \"thou, nor thy son, nor thy daughter, thy man-servant, nor thy maid-servant, nor thy cattle, nor thy stranger that is within thy gates,\" stands word for word. What is missing is the opening of the passage: verse 11 says \"I read unto you the remainder of the commandments,\" so the record reports the first commandment being given without setting it down."
   },
   {
    "label": "v. 20–24",
    "start": 20,
    "end": 24,
    "title": "The law, second table",
-   "text": "Honor father and mother; no killing; no adultery and no stealing in one verse; no false witness; and the coveting prohibition with the neighbor's house, wife, servants, ox, ass, and everything else itemized."
+   "text": "The record matches Exodus 20:12–17 down to the itemized coveting list, \"thy neighbor's house... his man-servant, nor his maid-servant, nor his ox, nor his ass, nor anything that is thy neighbor's.\" The verse divisions differ. Exodus gives adultery and stealing separate verses; verse 22 here puts both in one. Verse 20 also keeps the promise attached to honoring parents, \"that thy days may be long upon the land,\" which is the clause quoted back at 1 Nephi 17:55 by a man refusing worship. A recitation delivered from custody reproduces its source closely enough that its departures can be counted."
   },
   {
    "label": "v. 31–35",
@@ -226,7 +342,19 @@
   {
    "n": 3,
    "title": "The law is recited to the men paid to teach it",
-   "text": "They claimed in the previous chapter to teach the law of Moses; Abinadi's answer is to read it to them. Thirteen verses of quotation function as a cross-examination exhibit, and the question after it is whether they have taught it."
+   "text": "They claimed in the previous chapter to teach the law of Moses (Mosiah 12:28); Abinadi's answer is to read it to them. Thirteen verses of quotation function as a cross-examination exhibit, and the question after it is whether they have taught it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 12:28",
+     "start": 64,
+     "end": 76,
+     "book": "Mosiah",
+     "chapter": 12,
+     "verse_start": 28,
+     "verse_end": 28
+    }
+   ]
   },
   {
    "n": 4,
@@ -436,7 +564,7 @@
     "w2": 27,
     "quote": "he, himself, should be oppressed and afflicted"
    },
-   "reason": "the sentence the next chapter completes",
+   "reason": "where Abinadi picks the thought back up",
    "targets": [
     {
      "ref": "Mosiah",
@@ -477,6 +605,84 @@
     }
    ],
    "mirror": "mos12-003"
+  },
+  {
+   "id": "mos13-012",
+   "scope": "BOM",
+   "head": "2 Ne. 11:4",
+   "anchor": {
+    "verse": 31,
+    "w1": 8,
+    "w2": 16,
+    "quote": "all these things were types of things to come."
+   },
+   "reason": "Nephi's rule that such things point to Christ",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 11,
+     "verse": 4,
+     "w1": 45,
+     "w2": 49,
+     "quote": "are the typifying of him.",
+     "verse_text": "Behold, my soul delighteth in proving unto my people the truth of the coming of Christ; for, for this end hath the law of Moses been given; and all things which have been given of God from the beginning of the world, unto man, are the typifying of him.",
+     "markdown": "Behold, my soul delighteth in proving unto my people the truth of the coming of Christ; for, for this end hath the law of Moses been given; and all things which have been given of God from the beginning of the world, unto man, **are the typifying of him**.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne11-005"
+  },
+  {
+   "id": "mos13-013",
+   "scope": "BOM",
+   "head": "Alma 25:10",
+   "anchor": {
+    "verse": 10,
+    "w1": 14,
+    "w2": 27,
+    "quote": "shall be as a type and a shadow of things which are to come."
+   },
+   "reason": "the converted Lamanites reading the law that way",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 25,
+     "verse": 10,
+     "w1": 12,
+     "w2": 19,
+     "quote": "shall be a type of things to come.",
+     "verse_text": "For he said unto them: What ye shall do unto me shall be a type of things to come.",
+     "markdown": "For he said unto them: What ye shall do unto me **shall be a type of things to come**.",
+     "span": true
+    }
+   ],
+   "mirror": "al25-005"
+  },
+  {
+   "id": "mos13-014",
+   "scope": "BOM",
+   "head": "3 Ne. 12:47",
+   "anchor": {
+    "verse": 30,
+    "w1": 9,
+    "w2": 27,
+    "quote": "a law of performances and of ordinances, a law which they were to observe strictly from day to day,"
+   },
+   "reason": "Christ closing the law Abinadi was defending",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 12,
+     "verse": 47,
+     "w1": 1,
+     "w2": 11,
+     "quote": "Old things are done away, and all things have become new.",
+     "verse_text": "Old things are done away, and all things have become new.",
+     "markdown": "**Old things are done away, and all things have become new**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne12-008"
   },
   {
    "id": "mos13-009",
@@ -592,7 +798,7 @@
     "w2": 50,
     "quote": "his face shone with exceeding luster, even as Moses' did while in the mount of Sinai"
    },
-   "reason": "the face the record names as the comparison",
+   "reason": "the shining face after forty days on the mount",
    "targets": [
     {
      "ref": "Ex.",
@@ -643,7 +849,8 @@
    "w2": 27,
    "quote": "shall be as a type and a shadow of things which are to come",
    "entries": [
-    "mos13-010"
+    "mos13-010",
+    "mos13-013"
    ]
   },
   {
@@ -684,6 +891,24 @@
    ]
   },
   {
+   "verse": 30,
+   "w1": 9,
+   "w2": 27,
+   "quote": "a law of performances and of ordinances, a law which they were to observe strictly from day to day,",
+   "entries": [
+    "mos13-014"
+   ]
+  },
+  {
+   "verse": 31,
+   "w1": 8,
+   "w2": 16,
+   "quote": "all these things were types of things to come.",
+   "entries": [
+    "mos13-012"
+   ]
+  },
+  {
    "verse": 35,
    "w1": 21,
    "w2": 27,
@@ -695,7 +920,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "eb33186a438ae475"
+  "at": "2026-09-07",
+  "source_sha256": "8ea7c33b840f453f"
  }
 }

@@ -1,0 +1,630 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Alma",
+  "book_slug": "alma",
+  "chapter": 54,
+  "volume_order": "08",
+  "speakers": [
+   "Moroni, by letter",
+   "Ammoron, by letter"
+  ],
+  "audience": "Each commander writing to the other",
+  "location": "The Nephite and Lamanite camps",
+  "date": "~63 BC",
+  "unit": "The war chapters (Alma 43–63)",
+  "principles": [
+   "A negotiation opened by the losing side",
+   "Two accounts of the same"
+  ],
+  "connections": 9,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Ammoron opens the negotiation",
+   "text": "Verse 1 has him send to Moroni asking for an exchange. The side holding Nephite civilians is the one that wants to trade."
+  },
+  {
+   "n": 2,
+   "title": "Moroni has a supply reason and a manpower reason",
+   "text": "Verse 2 says he wanted the provisions spent on Lamanite prisoners and wanted his own people back in his army."
+  },
+  {
+   "n": 3,
+   "title": "The prisoner populations are not alike",
+   "text": "Verse 3 says the Lamanites hold women and children and Moroni holds none. That asymmetry produces the terms in verse 11."
+  },
+  {
+   "n": 4,
+   "title": "Moroni calls it a stratagem",
+   "text": "Verse 3 uses the word of his own letter. He is bargaining from a position he has thought about, not writing in temper alone."
+  },
+  {
+   "n": 5,
+   "title": "Ammoron gives a rival version of Nephite history",
+   "text": "Verses 17 and 18 say the fathers wronged their brethren and robbed them of the government, and offer peace if the Nephites submit to the rightful rulers."
+  },
+  {
+   "n": 6,
+   "title": "He names his own descent",
+   "text": "Verse 23 says he is a descendant of Zoram, which makes the man leading the Lamanites a Nephite by ancestry twice over."
+  },
+  {
+   "n": 7,
+   "title": "Both letters are given whole",
+   "text": "Mormon quotes ten verses of Moroni and nine of Ammoron without summarizing either. The chapter is almost entirely other people's words."
+  }
+ ],
+ "words": [
+  {
+   "term": "Epistle",
+   "verse_label": "v. 4",
+   "text": "A formal letter. The word occurs forty-one times in this record and fourteen in the King James Bible, and most of the record's uses are in Alma 54 through 62. Mormon uses the exchange of letters as the main vehicle of this part of the war."
+  },
+  {
+   "term": "Hell",
+   "verse_label": "v. 11",
+   "text": "The place of the damned. The phrase child of hell occurs twice in this record and once in the King James Bible, where Christ uses it of a proselyte made worse by his teachers. Moroni applies it to Ammoron before naming his terms."
+  },
+  {
+   "term": "Avenge",
+   "verse_label": "v. 16",
+   "text": "To exact retribution. The record uses it eight times and the King James Bible seventeen. Ammoron uses it twice, of his brother's blood and of his people's wrongs, and it is the stated ground of his whole war."
+  },
+  {
+   "term": "Threatenings",
+   "verse_label": "v. 19",
+   "text": "Treated at Alma 35:9, of the Zoramite ruler. Ammoron turns the word back on Moroni in the same sentence that says he does not fear them, which is the letter's one moment of direct reply.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 35:9",
+     "start": 11,
+     "end": 20,
+     "book": "Alma",
+     "chapter": 35,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
+  },
+  {
+   "term": "Extinction",
+   "verse_label": "v. 20",
+   "text": "Being wiped out entirely. The word occurs once in scripture. Ammoron names it as one of two acceptable ends to a war he calls eternal, the other being Nephite submission."
+  },
+  {
+   "term": "Pressed",
+   "verse_label": "v. 23",
+   "text": "Compelled, forced along. The record uses it twice and the King James Bible fifteen times. Ammoron says the Nephite fathers pressed Zoram out of Jerusalem, which is his reading of 1 Nephi 4."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Moroni felt to rejoice exceedingly at this request",
+   "verse_label": "v. 2",
+   "text": "Mormon reports the reaction before the letter. The request is good news because of provisions and manpower, which sets the negotiation in a frame the letter itself never mentions."
+  },
+  {
+   "term": "There was not a woman nor a child among all the prisoners of Moroni",
+   "verse_label": "v. 3",
+   "text": "The asymmetry stated plainly. It is the reason for the terms, and Mormon gives it before quoting a letter that never explains itself."
+  },
+  {
+   "term": "Moroni resolved upon a stratagem",
+   "verse_label": "v. 3",
+   "text": "The record's own word for what follows. Alma 43 introduced the term for battlefield maneuver, and here it covers a letter."
+  },
+  {
+   "term": "This war which ye have waged against my people, or rather which thy brother hath waged",
+   "verse_label": "v. 5",
+   "text": "Moroni corrects himself mid-sentence to fix the responsibility. He is careful about who started it even while accusing the man who continued it."
+  },
+  {
+   "term": "It supposeth me that thou art a child of hell",
+   "verse_label": "v. 11",
+   "text": "The insult sits immediately before the terms. Moroni tells Ammoron the argument is wasted on him and then makes a concrete offer in the same verse."
+  },
+  {
+   "term": "Ye will deliver up a man and his wife and his children, for one prisoner",
+   "verse_label": "v. 11",
+   "text": "The terms. Four for one, and Mormon has already explained why: Moroni holds only soldiers, so any exchange returns families for fighting men."
+  },
+  {
+   "term": "I will arm my women and my children",
+   "verse_label": "v. 12",
+   "text": "The threat Moroni makes if the terms are refused. It is the most extreme thing he says, and verse 13 immediately returns to the claim that the Nephites have only sought to defend themselves."
+  },
+  {
+   "term": "I am Moroni; I am a leader of the people of the Nephites",
+   "verse_label": "v. 14",
+   "text": "The signature. He names himself and his office in seven words, and Ammoron opens his reply with a matching formula in verse 16."
+  },
+  {
+   "term": "Your fathers did wrong their brethren... and rob them of their right to the government",
+   "verse_label": "v. 17",
+   "text": "Ammoron's account of the quarrel. It is the Lamanite reading of the succession after Lehi, and Mormon lets it stand in the record without answering it."
+  },
+  {
+   "term": "If it so be that there is such a being, we know not but that he hath made us as well as you",
+   "verse_label": "v. 21",
+   "text": "Ammoron's answer to the theology. He grants nothing and concedes the possibility in the same sentence, then says these things matter not."
+  },
+  {
+   "term": "I am Ammoron, and a descendant of Zoram",
+   "verse_label": "v. 23",
+   "text": "The claim under his whole case. The man leading the Lamanites is of Nephite descent, and he names an ancestor whose treatment he calls compulsion."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–4",
+   "start": 1,
+   "end": 4,
+   "title": "The proposal",
+   "text": "Ammoron asks for an exchange. Moroni rejoices, wanting the provisions and his own men back. Because the Lamanites hold women and children and he holds none, he resolves on a stratagem and writes back by Ammoron's own messenger."
+  },
+  {
+   "label": "v. 5–10",
+   "start": 5,
+   "end": 10,
+   "title": "Moroni's argument",
+   "text": "He fixes the war on Amalickiah and on Ammoron for continuing it, speaks of God's justice and of hell awaiting murderers, says the Nephites are prepared, and warns that refusing to withdraw will pull down destruction. They will keep their cities, lands, religion, and cause."
+  },
+  {
+   "label": "v. 11–14",
+   "start": 11,
+   "end": 14,
+   "title": "The terms",
+   "text": "He says the argument is wasted and calls Ammoron a child of hell, then offers the exchange on one condition: a man, his wife, and his children for each prisoner. If refused, he will arm women and children and pursue them to the land of their first inheritance, blood for blood. He signs his name and office."
+  },
+  {
+   "label": "v. 15–19",
+   "start": 15,
+   "end": 19,
+   "title": "Ammoron's reply",
+   "text": "Angry, he identifies himself as king and as Amalickiah's brother, promises to avenge his blood, and says he does not fear the threatenings. He gives the Lamanite case: the fathers were robbed of the government, and peace is available on submission."
+  },
+  {
+   "label": "v. 20–22",
+   "start": 20,
+   "end": 22,
+   "title": "The acceptance",
+   "text": "He grants the exchange gladly, to save food for his men of war, and declares an eternal war ending in Nephite submission or extinction. On God he says they know of no such being, that Moroni does not either, and that if there is one he may have made both."
+  },
+  {
+   "label": "v. 23–24",
+   "start": 23,
+   "end": 24,
+   "title": "The signature",
+   "text": "He names himself a descendant of Zoram, whom the Nephite fathers pressed out of Jerusalem, calls himself a bold Lamanite, states that the war is to avenge wrongs and obtain the government, and closes."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The chapter is two letters and a frame",
+   "text": "Nineteen of twenty-four verses are quoted correspondence. Mormon supplies the motive in verses 2 and 3 and then gets out of the way."
+  },
+  {
+   "n": 2,
+   "title": "Mormon explains the terms before the letter states them",
+   "text": "The reader knows about the prisoner asymmetry in verse 3, so verse 11 reads as a calculation rather than as cruelty."
+  },
+  {
+   "n": 3,
+   "title": "Both men give a history of the war",
+   "text": "Moroni traces it to Amalickiah; Ammoron traces it to a stolen government six centuries back. The record prints both accounts without arbitrating."
+  },
+  {
+   "n": 4,
+   "title": "The insult and the offer share a verse",
+   "text": "Moroni calls him a child of hell and proposes terms in the same breath. The letter is not trying to persuade and is trying to trade."
+  },
+  {
+   "n": 5,
+   "title": "Ammoron's theology is agnostic rather than atheist",
+   "text": "He says they know of no such being, that Moroni does not either, and that if one exists he made both peoples. Then he says it does not matter."
+  },
+  {
+   "n": 6,
+   "title": "The Lamanite king is Nephite by descent",
+   "text": "Amalickiah was a Nephite dissenter, and Ammoron claims descent from Zoram. Mormon has said since Alma 43 that dissenters run this war."
+  },
+  {
+   "n": 7,
+   "title": "Both accept a deal neither wanted from the other",
+   "text": "Ammoron proposed it, Moroni set hard terms, and Ammoron takes them for his own supply reasons. Alma 55 opens with Moroni refusing to honor it."
+  },
+  {
+   "n": 8,
+   "title": "Each signs with an identity claim",
+   "text": "I am Moroni, a leader of the Nephites. I am Ammoron, king of the Lamanites, a descendant of Zoram. The letters end where the argument between them begins."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Know why you want the deal",
+    "verse_label": "v. 2",
+    "text": "Moroni had two concrete reasons before he wrote a word. Before entering a negotiation, write down what you are actually trying to get."
+   },
+   {
+    "title": "Look at what each side is holding",
+    "verse_label": "v. 3",
+    "text": "The exchange terms followed from the prisoner asymmetry. When something is being traded, work out what each party has and what it costs them to part with it."
+   },
+   {
+    "title": "Do not expect the letter to persuade",
+    "verse_label": "v. 11",
+    "text": "Moroni said outright he thought the argument wasted. When you are dealing with someone who will not be moved by reasons, make the offer clear and stop trying."
+   },
+   {
+    "title": "Read the other side's account of the history",
+    "verse_label": "v. 17",
+    "text": "Ammoron had a story in which he was the wronged party. Understanding what your opponent believes happened is not the same as agreeing with it."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "When something difficult arrives, do I know what I want out of it?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "Whom do I hold responsible for a situation, and is that accurate?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "Have I insulted someone in the same breath as asking them for something?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "What is the most extreme thing I have threatened, and did I mean it?"
+   },
+   {
+    "verse_label": "v. 17",
+    "start": 17,
+    "end": 17,
+    "text": "What grievance from long ago still shapes how I act?"
+   },
+   {
+    "verse_label": "v. 21",
+    "start": 21,
+    "end": 21,
+    "text": "What do I say does not matter that I keep returning to?"
+   },
+   {
+    "verse_label": "v. 23",
+    "start": 23,
+    "end": 23,
+    "text": "What do I claim about my own descent or origin, and why does it matter to me?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "al54-001",
+   "scope": "BOOK",
+   "head": "Alma 52:8",
+   "anchor": {
+    "verse": 1,
+    "w1": 24,
+    "w2": 29,
+    "quote": "desiring that he would exchange prisoners"
+   },
+   "reason": "the order that made an exchange possible, given a year before",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 52,
+     "verse": 8,
+     "w1": 11,
+     "w2": 19,
+     "quote": "retain all the prisoners who fell into his hands;",
+     "verse_text": "And Moroni also sent orders unto him that he should retain all the prisoners who fell into his hands; for as the Lamanites had taken many prisoners, that he should retain all the prisoners of the Lamanites as a ransom for those whom the Lamanites had taken.",
+     "markdown": "And Moroni also sent orders unto him that he should **retain all the prisoners who fell into his hands**; for as the Lamanites had taken many prisoners, that he should retain all the prisoners of the Lamanites as a ransom for those whom the Lamanites had taken.",
+     "span": true
+    }
+   ],
+   "mirror": "al52-003"
+  },
+  {
+   "id": "al54-002",
+   "scope": "BOOK",
+   "head": "Alma 55:2",
+   "anchor": {
+    "verse": 11,
+    "w1": 37,
+    "w2": 46,
+    "quote": "I will not exchange prisoners, save it be on conditions"
+   },
+   "reason": "Moroni refusing the exchange outright once the reply arrives",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 55,
+     "verse": 2,
+     "w1": 5,
+     "w2": 11,
+     "quote": "I will not exchange prisoners with Ammoron",
+     "verse_text": "And he said: Behold, I will not exchange prisoners with Ammoron save he will withdraw his purpose, as I have stated in my epistle; for I will not grant unto him that he shall have any more power than what he hath got.",
+     "markdown": "And he said: Behold, **I will not exchange prisoners with Ammoron** save he will withdraw his purpose, as I have stated in my epistle; for I will not grant unto him that he shall have any more power than what he hath got.",
+     "span": true
+    }
+   ],
+   "mirror": "al55-001"
+  },
+  {
+   "id": "al54-003",
+   "scope": "BOOK",
+   "head": "Alma 11:23",
+   "anchor": {
+    "verse": 11,
+    "w1": 21,
+    "w2": 26,
+    "quote": "thou art a child of hell"
+   },
+   "reason": "Amulek using the same phrase of Zeezrom at Ammonihah",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 11,
+     "verse": 23,
+     "w1": 4,
+     "w2": 12,
+     "quote": "O thou child of hell, why tempt ye me?",
+     "verse_text": "Now Amulek said: O thou child of hell, why tempt ye me? Knowest thou that the righteous yieldeth to no such temptations?",
+     "markdown": "Now Amulek said: **O thou child of hell, why tempt ye me**? Knowest thou that the righteous yieldeth to no such temptations?",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al54-004",
+   "scope": "BOOK",
+   "head": "Alma 35:9",
+   "anchor": {
+    "verse": 19,
+    "w1": 2,
+    "w2": 7,
+    "quote": "ye have breathed out many threatenings"
+   },
+   "reason": "the phrase treated in full, of the Zoramite chief ruler",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 35,
+     "verse": 9,
+     "w1": 2,
+     "w2": 8,
+     "quote": "he breathed out many threatenings against them.",
+     "verse_text": "And he breathed out many threatenings against them. And now the people of Ammon did not fear their words; therefore they did not cast them out, but they did receive all the poor of the Zoramites that came over unto them; and they did nourish them, and did clothe them, and did give unto them lands for their inheritance; and they did administer unto them according to their wants.",
+     "markdown": "And **he breathed out many threatenings against them**. And now the people of Ammon did not fear their words; therefore they did not cast them out, but they did receive all the poor of the Zoramites that came over unto them; and they did nourish them, and did clothe them, and did give unto them lands for their inheritance; and they did administer unto them according to their wants.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al54-005",
+   "scope": "BOM",
+   "head": "1 Ne. 4:35",
+   "anchor": {
+    "verse": 23,
+    "w1": 5,
+    "w2": 12,
+    "quote": "a descendant of Zoram, whom your fathers pressed"
+   },
+   "reason": "Zoram’s own account of the night, and the oath he swore freely",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 4,
+     "verse": 35,
+     "w1": 7,
+     "w2": 16,
+     "quote": "Zoram did take courage at the words which I spake.",
+     "verse_text": "And it came to pass that Zoram did take courage at the words which I spake. Now Zoram was the name of the servant; and he promised that he would go down into the wilderness unto our father. Yea, and he also made an oath unto us that he would tarry with us from that time forth.",
+     "markdown": "And it came to pass that **Zoram did take courage at the words which I spake**. Now Zoram was the name of the servant; and he promised that he would go down into the wilderness unto our father. Yea, and he also made an oath unto us that he would tarry with us from that time forth.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al54-006",
+   "scope": "BOM",
+   "head": "Mosiah 10:12",
+   "anchor": {
+    "verse": 17,
+    "w1": 3,
+    "w2": 8,
+    "quote": "your fathers did wrong their brethren"
+   },
+   "reason": "the Lamanite tradition Ammoron is repeating, given at length",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 10,
+     "verse": 12,
+     "w1": 11,
+     "w2": 17,
+     "quote": "believing in the tradition of their fathers,",
+     "verse_text": "They were a wild, and ferocious, and a blood-thirsty people, believing in the tradition of their fathers, which is this—Believing that they were driven out of the land of Jerusalem because of the iniquities of their fathers, and that they were wronged in the wilderness by their brethren, and they were also wronged while crossing the sea;",
+     "markdown": "They were a wild, and ferocious, and a blood-thirsty people, **believing in the tradition of their fathers**, which is this—Believing that they were driven out of the land of Jerusalem because of the iniquities of their fathers, and that they were wronged in the wilderness by their brethren, and they were also wronged while crossing the sea;",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "al54-007",
+   "scope": "SW",
+   "head": "Matt. 23:15",
+   "anchor": {
+    "verse": 11,
+    "w1": 21,
+    "w2": 26,
+    "quote": "thou art a child of hell"
+   },
+   "reason": "Christ using the phrase of a proselyte made worse",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 23,
+     "verse": 15,
+     "w1": 26,
+     "w2": 33,
+     "quote": "twofold more the child of hell than yourselves.",
+     "verse_text": "Woe unto you, scribes and Pharisees, hypocrites! for ye compass sea and land to make one proselyte, and when he is made, ye make him twofold more the child of hell than yourselves.",
+     "markdown": "Woe unto you, scribes and Pharisees, hypocrites! for ye compass sea and land to make one proselyte, and when he is made, ye make him **twofold more the child of hell than yourselves**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al54-008",
+   "scope": "SW",
+   "head": "Lev. 19:18",
+   "anchor": {
+    "verse": 16,
+    "w1": 20,
+    "w2": 26,
+    "quote": "I will avenge his blood upon you"
+   },
+   "reason": "the law against avenging, and what it commands instead",
+   "targets": [
+    {
+     "ref": "Lev.",
+     "chapter": 19,
+     "verse": 18,
+     "w1": 1,
+     "w2": 8,
+     "quote": "Thou shalt not avenge, nor bear any grudge",
+     "verse_text": "Thou shalt not avenge, nor bear any grudge against the children of thy people, but thou shalt love thy neighbour as thyself: I am the LORD.",
+     "markdown": "**Thou shalt not avenge, nor bear any grudge** against the children of thy people, but thou shalt love thy neighbour as thyself: I am the LORD.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "al54-009",
+   "scope": "SW",
+   "head": "Ex. 21:23",
+   "anchor": {
+    "verse": 12,
+    "w1": 52,
+    "w2": 61,
+    "quote": "it shall be blood for blood, yea, life for life"
+   },
+   "reason": "the same formula in the law of retribution",
+   "targets": [
+    {
+     "ref": "Ex.",
+     "chapter": 21,
+     "verse": 23,
+     "w1": 6,
+     "w2": 12,
+     "quote": "then thou shalt give life for life,",
+     "verse_text": "And if any mischief follow, then thou shalt give life for life,",
+     "markdown": "And if any mischief follow, **then thou shalt give life for life**,",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 24,
+   "w2": 29,
+   "quote": "desiring that he would exchange prisoners",
+   "entries": [
+    "al54-001"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 21,
+   "w2": 26,
+   "quote": "thou art a child of hell",
+   "entries": [
+    "al54-003",
+    "al54-007"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 37,
+   "w2": 46,
+   "quote": "I will not exchange prisoners, save it be on conditions",
+   "entries": [
+    "al54-002"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 52,
+   "w2": 61,
+   "quote": "it shall be blood for blood, yea, life for life",
+   "entries": [
+    "al54-009"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 20,
+   "w2": 26,
+   "quote": "I will avenge his blood upon you",
+   "entries": [
+    "al54-008"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 3,
+   "w2": 8,
+   "quote": "your fathers did wrong their brethren",
+   "entries": [
+    "al54-006"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 2,
+   "w2": 7,
+   "quote": "ye have breathed out many threatenings",
+   "entries": [
+    "al54-004"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 5,
+   "w2": 12,
+   "quote": "a descendant of Zoram, whom your fathers pressed",
+   "entries": [
+    "al54-005"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-25",
+  "source_sha256": "ebd93c64b6ede4f3"
+ }
+}

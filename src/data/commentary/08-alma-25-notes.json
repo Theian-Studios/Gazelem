@@ -15,9 +15,10 @@
   "unit": "The sons of Mosiah among the Lamanites (Alma 17–26)",
   "principles": [
    "A prophecy verified over two generations",
-   "Conversion under"
+   "Conversion under persecution",
+   "The law kept while waiting for Christ"
   ],
-  "connections": 9,
+  "connections": 13,
   "initial": true
  },
  "world_behind": [
@@ -71,12 +72,36 @@
   {
    "term": "Type",
    "verse_label": "v. 10",
-   "text": "A thing that stands for another thing still to come. It appears seven times in this record and never in this sense in the King James Bible. Abinadi used it of his own death; Mormon uses it four verses later of the law of Moses. The same word carries a man's execution and a whole legal system."
+   "text": "A thing that stands for another thing still to come. Treated at Mosiah 3:15. It appears seven times in this record and never in this sense in the King James Bible. Abinadi used it of his own death; Mormon uses it four verses later of the law of Moses. The same word carries a man's execution and a whole legal system.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 3:15",
+     "start": 64,
+     "end": 75,
+     "book": "Mosiah",
+     "chapter": 3,
+     "verse_start": 15,
+     "verse_end": 15
+    }
+   ]
   },
   {
    "term": "Verified",
    "verse_label": "v. 12",
-   "text": "Proved true by event. The record uses it seven times, twice in this chapter. Verse 12 verifies Abinadi's prophecy against the priests, and verse 17 verifies God's word to the sons of Mosiah. Mormon closes both threads with the same verb."
+   "text": "Proved true by event. Treated at Jarom 1:9. The record uses it seven times, twice in this chapter. Verse 12 verifies Abinadi's prophecy against the priests, and verse 17 verifies God's word to the sons of Mosiah. Mormon closes both threads with the same verb.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jarom 1:9",
+     "start": 33,
+     "end": 42,
+     "book": "Jarom",
+     "chapter": 1,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
   },
   {
    "term": "Statutes",
@@ -86,13 +111,13 @@
   {
    "term": "Performances",
    "verse_label": "v. 15",
-   "text": "Acts required and carried out. The phrase \"outward performances\" (v. 15) appears once in scripture. It names the part of the law that was visible and temporary, kept until the thing it pointed at should be revealed.",
+   "text": "Acts required and carried out. Treated at 2 Nephi 25:30. The phrase \"outward performances\" (v. 15) appears once in scripture. It names the part of the law that was visible and temporary, kept until the thing it pointed at should be revealed.",
    "cites": [
     {
      "quote": "outward performances",
      "verse": 15,
-     "start": 42,
-     "end": 72,
+     "start": 68,
+     "end": 98,
      "spans": [
       {
        "w1": 64,
@@ -153,7 +178,19 @@
   {
    "term": "The law of Moses did serve to strengthen their faith in Christ",
    "verse_label": "v. 16",
-   "text": "The purpose of the observance, stated plainly. Paul called the law a schoolmaster leading to Christ; Mormon says it strengthened a faith that was already pointed forward. The performances were training for something named."
+   "text": "The purpose of the observance, stated plainly. Paul called the law a schoolmaster leading to Christ (Gal. 3:24); Mormon says it strengthened a faith that was already pointed forward. The performances were training for something named.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Gal. 3:24",
+     "start": 101,
+     "end": 110,
+     "book": "Gal",
+     "chapter": 3,
+     "verse_start": 24,
+     "verse_end": 24
+    }
+   ]
   },
   {
    "term": "He had also verified his word unto them in every particular",
@@ -163,53 +200,92 @@
  ],
  "verses": [
   {
-   "label": "v. 1–3",
-   "start": 1,
-   "end": 3,
-   "title": "Vengeance redirected",
-   "text": "The Lamanites grow angrier over their own slaughter of the converts, swear vengeance on the Nephites, and leave the people of Anti-Nephi-Lehi alone. They destroy Ammonihah, then lose battle after battle."
-  },
-  {
    "label": "v. 4–5",
    "start": 4,
    "end": 5,
-   "title": "The priests' line ends",
-   "text": "Almost all the seed of Amulon die at Nephite hands. The survivors flee into the east wilderness, seize authority over the Lamanites there, and burn believers alive."
+   "title": "One family traced through a war",
+   "text": "The record does not report the Lamanite dead as a mass. It narrows them to a lineage: \"among the Lamanites who were slain were almost all the seed of Amulon and his brethren, who were the priests of Noah.\" Amulon has been off the page since Alma 24. Naming him in a battle summary that could have been left as a number keeps one thread visible across four chapters and two generations, and the word \"almost\" declines to claim the line was finished."
   },
   {
-   "label": "v. 6–8",
-   "start": 6,
-   "end": 8,
-   "title": "Converts in the wilderness",
-   "text": "Affliction brings Aaron's preaching back to mind, and many believe without a missionary present. The rulers put the believers to death. The martyrdom enrages other Lamanites, who begin hunting the sons of Amulon."
-  },
-  {
-   "label": "v. 9–12",
+   "label": "v. 9",
    "start": 9,
-   "end": 12,
-   "title": "Abinadi verified",
-   "text": "Mormon says the hunt continues in his own day, then quotes Abinadi twice: the type of things to come, and the prophecy that the priests' seed would burn others and be scattered like sheep with no shepherd. Both came true."
+   "end": 9,
+   "title": "The abridger's present tense",
+   "text": "The verse breaks frame: \"behold they are hunted at this day by the Lamanites.\" \"At this day\" is the compiler's day, not Alma's, and it is a rare intrusion of his own clock into a sequence otherwise held in the past tense. Two words locate the writer several centuries downstream of the events he is summarizing and mark the paragraph as condensation rather than transcription."
   },
   {
-   "label": "v. 13–14",
-   "start": 13,
+   "label": "v. 10–12",
+   "start": 10,
+   "end": 12,
+   "title": "A prophecy quoted, then read out in parts",
+   "text": "The record supplies Abinadi's words in direct quotation, \"What ye shall do unto me shall be a type of things to come,\" and then works through them in order: death by fire at verse 11, and the seed \"scattered abroad and slain, even as a sheep having no shepherd is driven and slain by wild beasts\" at verse 12. Quotation and fulfilment sit in one paragraph, which is unusual; the more common arrangement in these books puts prophecy in one place and its outcome in another. The prophecy was first given at Mosiah 17:15–18.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 17:15–18",
+     "start": 505,
+     "end": 520,
+     "book": "Mosiah",
+     "chapter": 17,
+     "verse_start": 15,
+     "verse_end": 18
+    }
+   ]
+  },
+  {
+   "label": "v. 14",
+   "start": 14,
    "end": 14,
-   "title": "The Lamanites join",
-   "text": "Unable to overpower the Nephites, they go home, and many settle in Ishmael and Nephi with the people of Anti-Nephi-Lehi. They bury their weapons on the same pattern and keep the commandments and statutes."
+   "title": "Burial named as a copy, not a first",
+   "text": "The converts here bury their weapons of war, and the record itself flags the act as derivative: \"according as their brethren had.\" The clause points back to Alma 24:17 without retelling it. The record treats the gesture as something adopted by a later group instead of as a unique event, and the two burials are of different people at different times.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 24:17",
+     "start": 157,
+     "end": 167,
+     "book": "Alma",
+     "chapter": 24,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
   },
   {
    "label": "v. 15–16",
    "start": 15,
    "end": 16,
-   "title": "The law and the hope",
-   "text": "They kept the law of Moses because it was unfulfilled, treating it as a type of the coming and its performances as temporary. Mormon adds that they never supposed salvation came from the law itself."
+   "title": "The law kept with both its reason and its limit stated",
+   "text": "The record does not leave the observance unexplained. Verse 15 gives the purpose, that the law \"was a type of his coming,\" and verse 16 gives the boundary: \"they did not suppose that salvation came by the law of Moses.\" Few passages in these books state both halves at once. The pairing supplies a test that can be run elsewhere: wherever the law of Moses is kept in this record, does the surrounding text also say what it is for?"
   },
   {
    "label": "v. 17",
    "start": 17,
    "end": 17,
-   "title": "The sons of Mosiah rejoice",
-   "text": "Ammon, Aaron, Omner, and Himni see their prayers answered and God's word verified in every particular. The verse sets up the psalm of Alma 26."
+   "title": "Four names at the close",
+   "text": "The chapter ends on a list, Ammon and Aaron and Omner and Himni, with the note that their prayers were answered. All four are the sons of Mosiah from Mosiah 27:34, and the fourth, Himni, has appeared far less often than the others across the intervening chapters. Closing on the complete set rather than on Ammon alone rounds off the mission that began at Mosiah 28:1–9 with those same four names.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 27:34",
+     "start": 150,
+     "end": 162,
+     "book": "Mosiah",
+     "chapter": 27,
+     "verse_start": 34,
+     "verse_end": 34
+    },
+    {
+     "kind": "scripture",
+     "text": "Mosiah 28:1–9",
+     "start": 356,
+     "end": 369,
+     "book": "Mosiah",
+     "chapter": 28,
+     "verse_start": 1,
+     "verse_end": 9
+    }
+   ]
   }
  ],
  "chapter": [
@@ -226,7 +302,29 @@
   {
    "n": 3,
    "title": "Abinadi is the chapter's real subject",
-   "text": "Two prophecies, both quoted, both verified, seventy years after the fire. Mormon interrupts a war narrative to close a thread from Mosiah."
+   "text": "Verse 10 quotes Abinadi directly, \"What ye shall do unto me shall be a type of things to come,\" and verses 11 and 12 report both halves fulfilled, death by fire and the seed \"scattered abroad and slain.\" The prophecy was given at Mosiah 17:15–18 and the fire at Mosiah 17:20. A war summary stops for three verses to close a thread opened eight chapters and roughly seventy years earlier in the record.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 17:15–18",
+     "start": 230,
+     "end": 245,
+     "book": "Mosiah",
+     "chapter": 17,
+     "verse_start": 15,
+     "verse_end": 18
+    },
+    {
+     "kind": "scripture",
+     "text": "Mosiah 17:20",
+     "start": 262,
+     "end": 274,
+     "book": "Mosiah",
+     "chapter": 17,
+     "verse_start": 20,
+     "verse_end": 20
+    }
+   ]
   },
   {
    "n": 4,
@@ -236,12 +334,36 @@
   {
    "n": 5,
    "title": "Preaching pays out late",
-   "text": "Aaron's words did nothing when he said them and converted a wilderness after loss softened the hearers. The record credits the sermon that seemed to fail."
+   "text": "Verse 6 names the preachers whose earlier work is now taking effect, \"Aaron and his brethren,\" and dates the effect after the losses of verses 4 and 5. Alma 21:10–13 reported that same preaching being rejected and its preachers imprisoned. The record thus credits a mission it had already recorded as a failure, and supplies the interval and the intervening war as what changed the hearers.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 21:10–13",
+     "start": 152,
+     "end": 165,
+     "book": "Alma",
+     "chapter": 21,
+     "verse_start": 10,
+     "verse_end": 13
+    }
+   ]
   },
   {
    "n": 6,
    "title": "The covenant spreads by adoption",
-   "text": "New arrivals bury their weapons because the people they joined had done it. What began as one nation's decision becomes the entry rite of a growing community."
+   "text": "Verse 14 marks the act as derivative in three words, \"according as their brethren had,\" pointing back to Alma 24:17 without retelling it. Verse 13 has already named the new arrivals as Lamanites who \"did join themselves to the people of God, who were the people of Anti-Nephi-Lehi.\" What one group decided under a king becomes the entry rite of a second group joining later, and the record signals the change by the phrase rather than by comment.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 24:17",
+     "start": 105,
+     "end": 115,
+     "book": "Alma",
+     "chapter": 24,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
   },
   {
    "n": 7,
@@ -267,14 +389,34 @@
     "text": "Aaron got nothing from these Lamanites at the time, and they converted years later remembering him. Say the true thing to the person who seems unmoved, and let the delay be someone else's business."
    },
    {
+    "title": "Read the quotation back before you claim the fulfilment",
+    "verse_label": "v.\n10–12",
+    "text": "The record does not say the prophecy came true and move on. It reproduces Abinadi's sentence and then walks each half of it against the events. Before saying a promise was kept, put the words and the outcome side by side and check them clause by clause."
+   },
+   {
+    "title": "Let the gesture be borrowed",
+    "verse_label": "v. 14",
+    "text": "These converts buried their weapons \"according as their brethren had,\" and the record says so rather than presenting the act as their own invention. When you adopt somebody else's practice because it worked for them, say where it came from; the borrowing is not a weakness in it."
+   },
+   {
     "title": "Name why you keep the practice",
     "verse_label": "v. 15",
     "text": "These converts knew the law was a type and the performances were temporary. For a habit you keep on principle, be able to say what it is for; if you cannot, that is worth finding out."
    },
    {
+    "title": "Say the limit out loud too",
+    "verse_label": "v. 16",
+    "text": "They kept the law and also said plainly that salvation did not come by it. Anything you practise faithfully will start to look like the thing itself; state the boundary while you still can, in the same breath as the commitment."
+   },
+   {
     "title": "Check the promise against the outcome",
     "verse_label": "v. 17",
     "text": "Mormon says God's word was verified in every particular. Take a promise you were given, write down what it actually said, and go through it line by line against what happened."
+   },
+   {
+    "title": "Finish the roll call",
+    "verse_label": "v. 17",
+    "text": "The chapter ends by naming all four brothers, including the one who has barely appeared since the mission began. When you thank a group, name the members who did the unglamorous share, not only the one whose part is easy to tell."
    }
   ],
   "questions": [
@@ -347,7 +489,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al16-010"
   },
   {
    "id": "al25-002",
@@ -359,7 +501,7 @@
     "w2": 3,
     "quote": "Now this martyrdom"
    },
-   "reason": "the record’s only other use of the word, at the Ammonihah fire",
+   "reason": "the word's only other use, at the Ammonihah fire",
    "targets": [
     {
      "ref": "Alma",
@@ -373,7 +515,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al14-009"
   },
   {
    "id": "al25-003",
@@ -399,7 +541,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al24-012"
   },
   {
    "id": "al25-004",
@@ -411,7 +553,7 @@
     "w2": 42,
     "quote": "even as a sheep having no shepherd"
    },
-   "reason": "Alma using the same figure of his own people in Zarahemla",
+   "reason": "Alma using the same figure of his own people",
    "targets": [
     {
      "ref": "Alma",
@@ -425,7 +567,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al05-033"
   },
   {
    "id": "al25-005",
@@ -451,7 +593,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos13-013"
   },
   {
    "id": "al25-006",
@@ -463,7 +605,7 @@
     "w2": 30,
     "quote": "many should suffer death by fire"
    },
-   "reason": "the sentence Abinadi pronounced on the priests’ descendants",
+   "reason": "the sentence Abinadi pronounced on the priests' descendants",
    "targets": [
     {
      "ref": "Mosiah",
@@ -477,7 +619,111 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos17-025"
+  },
+  {
+   "id": "al25-010",
+   "scope": "BOM",
+   "head": "Mosiah 17:15",
+   "anchor": {
+    "verse": 9,
+    "w1": 12,
+    "w2": 20,
+    "quote": "Thus the words of Abinadi were brought to pass,"
+   },
+   "reason": "Abinadi's sentence on the seed of his killers",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 17,
+     "verse": 15,
+     "w1": 16,
+     "w2": 29,
+     "quote": "thy seed shall cause that many shall suffer the pains that I do suffer,",
+     "verse_text": "Behold, even as ye have done unto me, so shall it come to pass that thy seed shall cause that many shall suffer the pains that I do suffer, even the pains of death by fire; and this because they believe in the salvation of the Lord their God.",
+     "markdown": "Behold, even as ye have done unto me, so shall it come to pass that **thy seed shall cause that many shall suffer the pains that I do suffer**, even the pains of death by fire; and this because they believe in the salvation of the Lord their God.",
+     "span": true
+    }
+   ],
+   "mirror": "mos17-009"
+  },
+  {
+   "id": "al25-011",
+   "scope": "BOM",
+   "head": "Mosiah 17:20",
+   "anchor": {
+    "verse": 11,
+    "w1": 3,
+    "w2": 17,
+    "quote": "Abinadi was the first that suffered death by fire because of his belief in God;"
+   },
+   "reason": "the death itself, reported as it happened",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 17,
+     "verse": 20,
+     "w1": 9,
+     "w2": 15,
+     "quote": "he fell, having suffered death by fire;",
+     "verse_text": "And now, when Abinadi had said these words, he fell, having suffered death by fire; yea, having been put to death because he would not deny the commandments of God, having sealed the truth of his words by his death.",
+     "markdown": "And now, when Abinadi had said these words, **he fell, having suffered death by fire**; yea, having been put to death because he would not deny the commandments of God, having sealed the truth of his words by his death.",
+     "span": true
+    }
+   ],
+   "mirror": "mos17-012"
+  },
+  {
+   "id": "al25-012",
+   "scope": "BOM",
+   "head": "Mosiah 17:17",
+   "anchor": {
+    "verse": 12,
+    "w1": 36,
+    "w2": 42,
+    "quote": "even as a sheep having no shepherd"
+   },
+   "reason": "the image as Abinadi first spoke it",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 17,
+     "verse": 17,
+     "w1": 19,
+     "w2": 30,
+     "quote": "even as a wild flock is driven by wild and ferocious beasts.",
+     "verse_text": "Yea, and ye shall be smitten on every hand, and shall be driven and scattered to and fro, even as a wild flock is driven by wild and ferocious beasts.",
+     "markdown": "Yea, and ye shall be smitten on every hand, and shall be driven and scattered to and fro, **even as a wild flock is driven by wild and ferocious beasts**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos17-010"
+  },
+  {
+   "id": "al25-013",
+   "scope": "BOM",
+   "head": "3 Ne. 25:4",
+   "anchor": {
+    "verse": 15,
+    "w1": 3,
+    "w2": 9,
+    "quote": "they did keep the law of Moses;"
+   },
+   "reason": "Malachi's charge to remember statutes and judgments",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 25,
+     "verse": 4,
+     "w1": 19,
+     "w2": 23,
+     "quote": "with the statutes and judgments.",
+     "verse_text": "Remember ye the law of Moses, my servant, which I commanded unto him in Horeb for all Israel, with the statutes and judgments.",
+     "markdown": "Remember ye the law of Moses, my servant, which I commanded unto him in Horeb for all Israel, **with the statutes and judgments**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne25-006"
   },
   {
    "id": "al25-007",
@@ -489,7 +735,7 @@
     "w2": 42,
     "quote": "even as a sheep having no shepherd"
    },
-   "reason": "Christ’s use of the figure, with compassion instead of judgment",
+   "reason": "Christ's use of the figure, with compassion instead of judgment",
    "targets": [
     {
      "ref": "Matt.",
@@ -515,7 +761,7 @@
     "w2": 56,
     "quote": "the law of Moses was a type of his coming"
    },
-   "reason": "the same relation between the law and what it pointed at",
+   "reason": "the same relation between law and what it pointed at",
    "targets": [
     {
      "ref": "Heb.",
@@ -541,7 +787,7 @@
     "w2": 26,
     "quote": "the law of Moses did serve to strengthen their faith in Christ"
    },
-   "reason": "Paul’s account of what the law was for",
+   "reason": "Paul's account of what the law was for",
    "targets": [
     {
      "ref": "Gal.",
@@ -578,12 +824,30 @@
    ]
   },
   {
+   "verse": 9,
+   "w1": 12,
+   "w2": 20,
+   "quote": "Thus the words of Abinadi were brought to pass,",
+   "entries": [
+    "al25-010"
+   ]
+  },
+  {
    "verse": 10,
    "w1": 12,
    "w2": 19,
    "quote": "shall be a type of things to come",
    "entries": [
     "al25-005"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 3,
+   "w2": 17,
+   "quote": "Abinadi was the first that suffered death by fire because of his belief in God;",
+   "entries": [
+    "al25-011"
    ]
   },
   {
@@ -602,6 +866,7 @@
    "quote": "even as a sheep having no shepherd",
    "entries": [
     "al25-004",
+    "al25-012",
     "al25-007"
    ]
   },
@@ -612,6 +877,15 @@
    "quote": "they did also bury their weapons of war",
    "entries": [
     "al25-003"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 3,
+   "w2": 9,
+   "quote": "they did keep the law of Moses;",
+   "entries": [
+    "al25-013"
    ]
   },
   {
@@ -634,7 +908,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "c0f7ca0a3ae91858"
+  "at": "2026-09-07",
+  "source_sha256": "945c4bf1d2c0540d"
  }
 }

@@ -17,7 +17,7 @@
    "Murmuring",
    "Land of promise"
   ],
-  "connections": 18,
+  "connections": 22,
   "initial": false
  },
  "world_behind": [
@@ -201,6 +201,26 @@
   }
  ],
  "words": [
+  {
+   "term": "Altar",
+   "verse_label": "v. 7",
+   "text": "Stones piled where a family stopped walking. Lehi \"built an altar of stones, and made an offering unto the Lord\" (v. 7) before anything else happens in the valley. The record names an altar four times in a thousand years, against three hundred and seventy-eight in the King James Bible, and the scarcity measures the distance from a temple. Worship in this chapter is portable, built by hand, and left behind when the tents move.",
+   "cites": [
+    {
+     "quote": "built an altar of stones, and made an offering unto the Lord",
+     "verse": 7,
+     "start": 50,
+     "end": 119,
+     "spans": [
+      {
+       "w1": 8,
+       "w2": 19,
+       "text": "built an altar of stones, and made an offering unto the Lord"
+      }
+     ]
+    }
+   ]
+  },
   {
    "term": "Murmur",
    "verse_label": "v. 11",
@@ -480,156 +500,18 @@
  ],
  "verses": [
   {
-   "label": "v. 1",
-   "start": 1,
-   "end": 1,
-   "title": "A blessing shaped like a warning",
-   "text": "The Lord's first words are \"Blessed art thou Lehi\" (v. 1), and the evidence of the blessing is a murder plot: \"they seek to take away thy life\" (v. 1). Faithfulness has made him a target, and heaven calls that state blessed. The verse resets what blessing means before the family loses everything in verse 4.",
-   "cites": [
-    {
-     "quote": "Blessed art thou Lehi",
-     "verse": 1,
-     "start": 27,
-     "end": 57,
-     "spans": [
-      {
-       "w1": 23,
-       "w2": 26,
-       "text": "Blessed art thou Lehi"
-      }
-     ]
-    },
-    {
-     "quote": "they seek to take away thy life",
-     "verse": 1,
-     "start": 110,
-     "end": 150,
-     "spans": [
-      {
-       "w1": 53,
-       "w2": 59,
-       "text": "they seek to take away thy life"
-      }
-     ]
-    }
-   ]
+   "label": "v. 5",
+   "start": 5,
+   "end": 5,
+   "title": "A household roster with the writer left out of it",
+   "text": "The record names the party: \"my mother, Sariah, and my elder brothers, who were Laman, Lemuel, and Sam.\" Nephi is not in his own list, and no daughters are named, although 2 Nephi 5:6 will later mention \"my sisters\" as part of the group that leaves with him. The roster is thus incomplete on both counts, and the record never corrects it. Sariah is named four times in the whole record, here and at 1 Nephi 5:1, 5:6, and 8:14, and never after 1 Nephi 8."
   },
   {
-   "label": "v. 4",
-   "start": 4,
-   "end": 4,
-   "title": "Two inventories",
-   "text": "One sentence lists what stays: house, land, gold, silver, precious things. Then what goes: family, provisions, tents. Nothing is said about the trade; the bare lists carry the sermon. Everything on the first list is replaceable. Nothing on the second is."
-  },
-  {
-   "label": "v. 7",
-   "start": 7,
-   "end": 7,
-   "title": "The altar before the complaint",
-   "text": "First act at the first safe camp: stones stacked, an offering made, \"thanks unto the Lord our God\" (v. 7). Gratitude is the family's opening move in exile, a note struck before the record introduces, four verses later, the sons for whom the same journey is all loss.",
-   "cites": [
-    {
-     "quote": "thanks unto the Lord our God",
-     "verse": 7,
-     "start": 68,
-     "end": 105,
-     "spans": [
-      {
-       "w1": 22,
-       "w2": 27,
-       "text": "thanks unto the Lord our God"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 9–10",
-   "start": 9,
+   "label": "v. 8–10",
+   "start": 8,
    "end": 10,
-   "title": "Sermons in a landscape",
-   "text": "Lehi reads his campsite like a text: the river preaches to Laman, the valley to Lemuel. Constancy in motion for the restless son, \"firm and steadfast, and immovable\" (v. 10) for the pliable one. Each wish is aimed at its man's particular weakness. The father who saw heaven in chapter 1 now sees doctrine in a desert drainage.",
-   "cites": [
-    {
-     "quote": "firm and steadfast, and immovable",
-     "verse": 10,
-     "start": 130,
-     "end": 173,
-     "spans": [
-      {
-       "w1": 16,
-       "w2": 20,
-       "text": "firm and steadfast, and immovable"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 15",
-   "start": 15,
-   "end": 15,
-   "title": "A tent, after everything",
-   "text": "The chapter's shortest verse, and the record lets it sit alone: \"And my father dwelt in a tent\" (v. 15). Every item of verse 4's first list is gone; this is what remains, and it is enough. The line also closes Lehi's half of the chapter. From the next verse the story belongs to Nephi.",
-   "cites": [
-    {
-     "quote": "And my father dwelt in a tent",
-     "verse": 15,
-     "start": 64,
-     "end": 103,
-     "spans": [
-      {
-       "w1": 1,
-       "w2": 7,
-       "text": "And my father dwelt in a tent"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 16",
-   "start": 16,
-   "end": 16,
-   "title": "The second witness begins",
-   "text": "Nephi introduces himself young, large, and wanting: \"having great desires to know of the mysteries of God\" (v. 16). What he receives is not his father's fire and vision but a softened heart: belief in another man's revelation, sought and granted. The book's second witness starts from trust, and sight comes later.",
-   "cites": [
-    {
-     "quote": "having great desires to know of the mysteries of God",
-     "verse": 16,
-     "start": 52,
-     "end": 114,
-     "spans": [
-      {
-       "w1": 19,
-       "w2": 28,
-       "text": "having great desires to know of the mysteries of God"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 19–24",
-   "start": 19,
-   "end": 24,
-   "title": "A covenant spoken to a boy",
-   "text": "The Lord's first recorded words to Nephi lay out the terms of a national history that does not yet exist: prosperity by obedience, cutting-off by rebellion, rule that will cost him his brothers, and even the scourge given a purpose, \"to stir them up in the ways of remembrance\" (v. 24). Nothing in the promise is unconditional; every clause bends on choice.",
-   "cites": [
-    {
-     "quote": "to stir them up in the ways of remembrance",
-     "verse": 24,
-     "start": 233,
-     "end": 285,
-     "spans": [
-      {
-       "w1": 19,
-       "w2": 27,
-       "text": "to stir them up in the ways of remembrance"
-      }
-     ]
-    }
-   ]
+   "title": "A river and a valley named, then preached at",
+   "text": "The record has the naming and the sermon happen in the same breath. The river is called Laman at verse 8, and at verse 9 the son of that name is told, \"O that thou mightest be like unto this river, continually running into the fountain of all righteousness.\" The valley carries Lemuel's name, and the address at verse 10 asks for the valley's qualities, \"firm and steadfast, and immovable.\" A feature is named after a man and then held up as what the man is not."
   }
  ],
  "chapter": [
@@ -715,7 +597,7 @@
   {
    "n": 3,
    "title": "The wilderness as first classroom",
-   "text": "Between the doomed city and the promised land, the family's schooling happens in transit: an altar teaches thanks, a river and valley teach constancy, a tent teaches sufficiency. The chapter establishes the pattern the whole journey will follow: terrain first, doctrine drawn from it after."
+   "text": "The chapter puts the physical feature first and the lesson second, three times. Verse 6 pitches a tent in a valley by a river; verse 7 builds \"an altar of stones\" and gives thanks; verses 9 and 10 turn the river and the valley into two addresses, \"O that thou mightest be like unto this river\" and \"like unto this valley, firm and steadfast.\" Verse 11 then names the reason the sermons were needed. The pattern of terrain first and doctrine drawn from it holds through the broken bow at 1 Nephi 16:18–31 and the ship at 1 Nephi 17:8–11."
   },
   {
    "n": 4,
@@ -1197,7 +1079,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos05-018"
   },
   {
    "id": "1ne02-008",
@@ -1223,7 +1105,111 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "eth08-009"
+  },
+  {
+   "id": "1ne02-019",
+   "scope": "BOM",
+   "head": "Hel. 8:22",
+   "anchor": {
+    "verse": 1,
+    "w1": 36,
+    "w2": 45,
+    "quote": "because thou hast been faithful and declared unto this people"
+   },
+   "reason": "Nephi son of Helaman recalling why Lehi left",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 8,
+     "verse": 22,
+     "w1": 1,
+     "w2": 14,
+     "quote": "Our father Lehi was driven out of Jerusalem because he testified of these things.",
+     "verse_text": "Our father Lehi was driven out of Jerusalem because he testified of these things. Nephi also testified of these things, and also almost all of our fathers, even down to this time; yea, they have testified of the coming of Christ, and have looked forward, and have rejoiced in his day which is to come.",
+     "markdown": "**Our father Lehi was driven out of Jerusalem because he testified of these things**. Nephi also testified of these things, and also almost all of our fathers, even down to this time; yea, they have testified of the coming of Christ, and have looked forward, and have rejoiced in his day which is to come.",
+     "span": true
+    }
+   ],
+   "mirror": "hel08-008"
+  },
+  {
+   "id": "1ne02-020",
+   "scope": "BOM",
+   "head": "Alma 58:35",
+   "anchor": {
+    "verse": 11,
+    "w1": 15,
+    "w2": 17,
+    "quote": "they did murmur"
+   },
+   "reason": "Helaman's captains declining to murmur about supply",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 58,
+     "verse": 35,
+     "w1": 26,
+     "w2": 31,
+     "quote": "we do not desire to murmur.",
+     "verse_text": "Behold, we do not know but what ye are unsuccessful, and ye have drawn away the forces into that quarter of the land; if so, we do not desire to murmur.",
+     "markdown": "Behold, we do not know but what ye are unsuccessful, and ye have drawn away the forces into that quarter of the land; if so, **we do not desire to murmur**.",
+     "span": true
+    }
+   ],
+   "mirror": "al58-005"
+  },
+  {
+   "id": "1ne02-021",
+   "scope": "BOM",
+   "head": "Alma 9:13",
+   "anchor": {
+    "verse": 20,
+    "w1": 2,
+    "w2": 11,
+    "quote": "inasmuch as ye shall keep my commandments, ye shall prosper,"
+   },
+   "reason": "Alma quoting the promise back at Ammonihah",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 9,
+     "verse": 13,
+     "w1": 15,
+     "w2": 27,
+     "quote": "Inasmuch as ye shall keep my commandments, ye shall prosper in the land?",
+     "verse_text": "Behold, do ye not remember the words which he spake unto Lehi, saying that: Inasmuch as ye shall keep my commandments, ye shall prosper in the land? And again it is said that: Inasmuch as ye will not keep my commandments ye shall be cut off from the presence of the Lord.",
+     "markdown": "Behold, do ye not remember the words which he spake unto Lehi, saying that: **Inasmuch as ye shall keep my commandments, ye shall prosper in the land**? And again it is said that: Inasmuch as ye will not keep my commandments ye shall be cut off from the presence of the Lord.",
+     "span": true
+    }
+   ],
+   "mirror": "al09-005"
+  },
+  {
+   "id": "1ne02-022",
+   "scope": "BOM",
+   "head": "Ether 1:43",
+   "anchor": {
+    "verse": 20,
+    "w1": 32,
+    "w2": 40,
+    "quote": "a land which is choice above all other lands."
+   },
+   "reason": "the same promise made to the brother of Jared",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 1,
+     "verse": 43,
+     "w1": 35,
+     "w2": 53,
+     "quote": "And there shall be none greater than the nation which I will raise up unto me of thy seed,",
+     "verse_text": "And there will I bless thee and thy seed, and raise up unto me of thy seed, and of the seed of thy brother, and they who shall go with thee, a great nation. And there shall be none greater than the nation which I will raise up unto me of thy seed, upon all the face of the earth. And thus I will do unto thee because this long time ye have cried unto me.",
+     "markdown": "And there will I bless thee and thy seed, and raise up unto me of thy seed, and of the seed of thy brother, and they who shall go with thee, a great nation. **And there shall be none greater than the nation which I will raise up unto me of thy seed**, upon all the face of the earth. And thus I will do unto thee because this long time ye have cried unto me.",
+     "span": true
+    }
+   ],
+   "mirror": "eth01-008"
   },
   {
    "id": "1ne02-009",
@@ -1348,7 +1334,8 @@
    "w2": 45,
    "quote": "because thou hast been faithful and declared unto this people",
    "entries": [
-    "1ne02-017"
+    "1ne02-017",
+    "1ne02-019"
    ]
   },
   {
@@ -1394,6 +1381,15 @@
    "quote": "firm and steadfast, and immovable",
    "entries": [
     "1ne02-007"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 15,
+   "w2": 17,
+   "quote": "they did murmur",
+   "entries": [
+    "1ne02-020"
    ]
   },
   {
@@ -1447,7 +1443,8 @@
    "w2": 11,
    "quote": "inasmuch as ye shall keep my commandments, ye shall prosper",
    "entries": [
-    "1ne02-004"
+    "1ne02-004",
+    "1ne02-021"
    ]
   },
   {
@@ -1466,7 +1463,8 @@
    "quote": "a land which is choice above all other lands",
    "entries": [
     "1ne02-014",
-    "1ne02-018"
+    "1ne02-018",
+    "1ne02-022"
    ]
   },
   {
@@ -1498,7 +1496,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "5dce85ee3f85462e"
+  "at": "2026-09-07",
+  "source_sha256": "f287d6f65a44c363"
  }
 }

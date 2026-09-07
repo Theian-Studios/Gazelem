@@ -20,7 +20,7 @@
    "Divine labor",
    "Grafting"
   ],
-  "connections": 12,
+  "connections": 17,
   "initial": false
  },
  "world_behind": [
@@ -59,7 +59,19 @@
   {
    "term": "Cumber",
    "verse_label": "v. 9, 30, 44, 49, 66",
-   "text": "To obstruct by taking up room. Luke uses it of the fig tree that occupies ground without producing, and here it is the standing reason for burning: the bad is removed because it is in the way. Five uses across the chapter, all of them about space rather than about anger."
+   "text": "To obstruct by taking up room. Luke uses it of the fig tree that occupies ground without producing (Luke 13:8), and here it is the standing reason for burning: the bad is removed because it is in the way. Five uses across the chapter, all of them about space rather than about anger.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Luke 13:8",
+     "start": 100,
+     "end": 109,
+     "book": "Luke",
+     "chapter": 13,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
   },
   {
    "term": "Nethermost",
@@ -175,7 +187,19 @@
   {
    "term": "Dunged",
    "verse_label": "v. 47, 64, 76",
-   "text": "Manured. It is the least dignified verb in the chapter and it is applied to God's own labor, three times, alongside pruning and digging. The allegory refuses to let divine effort be clean work, and the caretaker in Luke's parable uses the same word for the same last-chance treatment."
+   "text": "Manured. It is the least dignified verb in the chapter and it is applied to God's own labor, three times, alongside pruning and digging. The allegory refuses to let divine effort be clean work, and the caretaker in Luke's parable (Luke 13:8) uses the same word for the same last-chance treatment.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Luke 13:8",
+     "start": 231,
+     "end": 240,
+     "book": "Luke",
+     "chapter": 13,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
   }
  ],
  "phrases": [
@@ -242,53 +266,11 @@
  ],
  "verses": [
   {
-   "label": "v. 1–14",
-   "start": 1,
-   "end": 14,
-   "title": "Decay, and the first surgery",
-   "text": "Zenos is named, Israel is likened to a tame olive tree, and the tree begins to die from the top down. The master prunes, digs, nourishes, grafts wild branches into the trunk, and hides the natural branches in the nethermost parts. Everything the rest of the chapter deals with is set up in these fourteen verses, including the refrain about grief."
-  },
-  {
-   "label": "v. 15–28",
-   "start": 15,
-   "end": 28,
-   "title": "Success, everywhere",
-   "text": "The wild branches have produced tame fruit because the root was strong; the hidden branches in poor ground have produced much fruit; the servant questions the choice of ground and is told not to counsel; and the one tree with mixed fruit is given more time at the servant's request. The section is the allegory's only period of general success, and it is the shortest."
-  },
-  {
-   "label": "v. 29–40",
-   "start": 29,
-   "end": 40,
-   "title": "All of it gone bad",
-   "text": "All sorts of fruit cumber the grafted tree and none of it is good. The natural branches in the nethermost parts have gone corrupt too: first, second, and last. The diagnosis given in verse 37 is that the wild branches overran the roots. The symmetry with the previous section is exact and it is the reason the failure lands so hard."
-  },
-  {
-   "label": "v. 41–51",
-   "start": 41,
+   "label": "v. 49–51",
+   "start": 49,
    "end": 51,
-   "title": "The lament",
-   "text": "He weeps, asks what more could have been done, lists his labor, asks who corrupted the vineyard, receives the servant's answer, orders everything hewn down, and is talked into sparing it. Eleven verses in which the master of the vineyard does almost nothing but grieve and be argued with, placed at the exact center of the chapter's second half."
-  },
-  {
-   "label": "v. 52–66",
-   "start": 52,
-   "end": 66,
-   "title": "The last labor, in detail",
-   "text": "Regraft the nethermost branches into the mother tree and the mother's branches into them; pluck only the most bitter; begin at the last; dig, prune, dung once more; and clear the bad away gradually so the root does not overpower the graft. This is the most technically specific passage in the record, and every instruction has an agricultural reason attached."
-  },
-  {
-   "label": "v. 67–74",
-   "start": 67,
-   "end": 74,
-   "title": "The work, and the result",
-   "text": "The branches come back together, the servants are called and are few, the Lord labors alongside them, root and top are kept equal, the bad is cast away, and the trees become one body with equal fruit. The labor is collaborative in a way nothing earlier in the chapter was. The master works in the vineyard himself, beside a crew."
-  },
-  {
-   "label": "v. 75–77",
-   "start": 75,
-   "end": 77,
-   "title": "The servants blessed",
-   "text": "The master calls his servants, blesses them, promises them joy in the fruit, says he will lay it up for a long time, and then names the terms of the finish: when evil fruit comes again, good and bad are separated and the vineyard is burned. The allegory ends with fire, and the fire comes after a long season of preserved fruit."
+   "title": "The servant overrules the owner's decision",
+   "text": "The order is given plainly: \"Let us go to and hew down the trees of the vineyard and cast them into the fire, that they shall not cumber the ground of my vineyard.\" What follows is four words of resistance from the subordinate, \"Spare it a little longer,\" and then a reason. The owner agrees. Spare it a little longer stands in verses 27, 50 and 51, and each time the servant says it the destruction is postponed. The allegory's turning points are produced by the servant contradicting the master."
   }
  ],
  "chapter": [
@@ -320,7 +302,7 @@
   {
    "n": 6,
    "title": "The last labor is done together and it is done gradually",
-   "text": "The Lord labors with the servants; the servants are few; the bad is cleared away in proportion as the good grows. After a chapter of decisive interventions that failed, the one that works is slow, shared, and paced."
+   "text": "Three features mark the final labor and each is stated. The workforce is small, \"he brought other servants; and they were few\" at verse 70. The owner joins it, \"the Lord of the vineyard labored also with them\" at verse 72, which happens nowhere earlier in the allegory. And the clearing is paced against the growth, \"they did keep the root and the top thereof equal, according to the strength thereof\" at verse 73, with the bad cast away \"according to the strength of the good\" in the same verse. Verse 63 gives the order of work, \"begin at the last that they may be first.\""
   },
   {
    "n": 7,
@@ -564,6 +546,136 @@
    "mirror": "1ne10-017"
   },
   {
+   "id": "jac05-013",
+   "scope": "BOM",
+   "head": "Hel. 15:11",
+   "anchor": {
+    "verse": 1,
+    "w1": 4,
+    "w2": 16,
+    "quote": "do ye not remember to have read the words of the prophet Zenos,"
+   },
+   "reason": "Samuel citing Zenos on the Lamanites' restoration",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 15,
+     "verse": 11,
+     "w1": 23,
+     "w2": 33,
+     "quote": "spoken of by our fathers, and also by the prophet Zenos,",
+     "verse_text": "Yea, even if they should dwindle in unbelief the Lord shall prolong their days, until the time shall come which hath been spoken of by our fathers, and also by the prophet Zenos, and many other prophets, concerning the restoration of our brethren, the Lamanites, again to the knowledge of the truth—",
+     "markdown": "Yea, even if they should dwindle in unbelief the Lord shall prolong their days, until the time shall come which hath been **spoken of by our fathers, and also by the prophet Zenos**, and many other prophets, concerning the restoration of our brethren, the Lamanites, again to the knowledge of the truth—",
+     "span": true
+    }
+   ],
+   "mirror": "hel15-007"
+  },
+  {
+   "id": "jac05-014",
+   "scope": "BOM",
+   "head": "Alma 33:3",
+   "anchor": {
+    "verse": 1,
+    "w1": 4,
+    "w2": 16,
+    "quote": "do ye not remember to have read the words of the prophet Zenos,"
+   },
+   "reason": "Alma citing Zenos on prayer to the Zoramites",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 33,
+     "verse": 3,
+     "w1": 7,
+     "w2": 14,
+     "quote": "what Zenos, the prophet of old, has said",
+     "verse_text": "Do ye remember to have read what Zenos, the prophet of old, has said concerning prayer or worship?",
+     "markdown": "Do ye remember to have read **what Zenos, the prophet of old, has said** concerning prayer or worship?",
+     "span": true
+    }
+   ],
+   "mirror": "al33-005"
+  },
+  {
+   "id": "jac05-015",
+   "scope": "BOM",
+   "head": "1 Ne. 10:12",
+   "anchor": {
+    "verse": 3,
+    "w1": 7,
+    "w2": 20,
+    "quote": "I will liken thee, O house of Israel, like unto a tame olive tree,"
+   },
+   "reason": "Lehi's one-line version of the olive-tree figure",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 10,
+     "verse": 12,
+     "w1": 21,
+     "w2": 26,
+     "quote": "compared like unto an olive tree,",
+     "verse_text": "Yea, even my father spake much concerning the Gentiles, and also concerning the house of Israel, that they should be compared like unto an olive tree, whose branches should be broken off and should be scattered upon all the face of the earth.",
+     "markdown": "Yea, even my father spake much concerning the Gentiles, and also concerning the house of Israel, that they should be **compared like unto an olive tree**, whose branches should be broken off and should be scattered upon all the face of the earth.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne10-003"
+  },
+  {
+   "id": "jac05-016",
+   "scope": "BOM",
+   "head": "2 Ne. 15:7",
+   "anchor": {
+    "verse": 3,
+    "w1": 7,
+    "w2": 20,
+    "quote": "I will liken thee, O house of Israel, like unto a tame olive tree,"
+   },
+   "reason": "Isaiah naming the vineyard outright as Israel",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 15,
+     "verse": 7,
+     "w1": 2,
+     "w2": 13,
+     "quote": "the vineyard of the Lord of Hosts is the house of Israel,",
+     "verse_text": "For the vineyard of the Lord of Hosts is the house of Israel, and the men of Judah his pleasant plant; and he looked for judgment, and behold, oppression; for righteousness, but behold, a cry.",
+     "markdown": "For **the vineyard of the Lord of Hosts is the house of Israel**, and the men of Judah his pleasant plant; and he looked for judgment, and behold, oppression; for righteousness, but behold, a cry.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne15-004"
+  },
+  {
+   "id": "jac05-017",
+   "scope": "BOM",
+   "head": "Alma 32:37",
+   "anchor": {
+    "verse": 4,
+    "w1": 27,
+    "w2": 37,
+    "quote": "I will prune it, and dig about it, and nourish it,"
+   },
+   "reason": "Alma nourishing the seed with the same verb",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 32,
+     "verse": 37,
+     "w1": 12,
+     "w2": 18,
+     "quote": "Let us nourish it with great care,",
+     "verse_text": "And behold, as the tree beginneth to grow, ye will say: Let us nourish it with great care, that it may get root, that it may grow up, and bring forth fruit unto us. And now behold, if ye nourish it with much care it will get root, and grow up, and bring forth fruit.",
+     "markdown": "And behold, as the tree beginneth to grow, ye will say: **Let us nourish it with great care**, that it may get root, that it may grow up, and bring forth fruit unto us. And now behold, if ye nourish it with much care it will get root, and grow up, and bring forth fruit.",
+     "span": true
+    }
+   ],
+   "mirror": "al32-006"
+  },
+  {
    "id": "jac05-011",
    "scope": "SW",
    "head": "Matt. 20:16",
@@ -727,7 +839,9 @@
    "w2": 16,
    "quote": "do ye not remember to have read the words of the prophet Zenos",
    "entries": [
-    "jac05-001"
+    "jac05-001",
+    "jac05-013",
+    "jac05-014"
    ]
   },
   {
@@ -736,7 +850,18 @@
    "w2": 20,
    "quote": "I will liken thee, O house of Israel, like unto a tame olive tree",
    "entries": [
-    "jac05-002"
+    "jac05-002",
+    "jac05-015",
+    "jac05-016"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 27,
+   "w2": 37,
+   "quote": "I will prune it, and dig about it, and nourish it,",
+   "entries": [
+    "jac05-017"
    ]
   },
   {
@@ -831,7 +956,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "7467f50af2006330"
+  "at": "2026-09-07",
+  "source_sha256": "f9842e4eee394f8f"
  }
 }

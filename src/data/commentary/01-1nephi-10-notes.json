@@ -17,7 +17,7 @@
    "Scattering and gathering",
    "Seeking"
   ],
-  "connections": 18,
+  "connections": 21,
   "initial": false
  },
  "world_behind": [
@@ -180,6 +180,26 @@
        "w1": 18,
        "w2": 30,
        "text": "this Messiah, of whom he had spoken, or this Redeemer of the world"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Baptize",
+   "verse_label": "v. 9",
+   "text": "To immerse. The word enters this record six hundred years before the event it names, inside a father's report of what he was shown, and it arrives with an address attached: the prophet \"should baptize in Bethabara, beyond Jordan\" (v. 9). The record uses it twenty-eight times and the King James Bible nine. Lehi has the place, the water, and the person to be baptized before he has the prophet's name.",
+   "cites": [
+    {
+     "quote": "should baptize in Bethabara, beyond Jordan",
+     "verse": 9,
+     "start": 185,
+     "end": 236,
+     "spans": [
+      {
+       "w1": 6,
+       "w2": 11,
+       "text": "should baptize in Bethabara, beyond Jordan"
       }
      ]
     }
@@ -349,112 +369,42 @@
    "label": "v. 1",
    "start": 1,
    "end": 1,
-   "title": "The son's account opens",
-   "text": "Nephi re-enters with his charter terms, \"my proceedings, and my reign and ministry\" (v. 1), and must first \"speak somewhat of the things of my father\" (v. 1). The sentence is the record's structure in miniature: the son's book begins by finishing the father's.",
-   "cites": [
-    {
-     "quote": "my proceedings, and my reign and ministry",
-     "verse": 1,
-     "start": 40,
-     "end": 90,
-     "spans": [
-      {
-       "w1": 14,
-       "w2": 20,
-       "text": "my proceedings, and my reign and ministry"
-      }
-     ]
-    },
-    {
-     "quote": "speak somewhat of the things of my father",
-     "verse": 1,
-     "start": 107,
-     "end": 157,
-     "spans": [
-      {
-       "w1": 29,
-       "w2": 36,
-       "text": "speak somewhat of the things of my father"
-      }
-     ]
-    }
-   ]
+   "title": "A stated scope, and an immediate departure from it",
+   "text": "The record announces what this volume is for, \"my proceedings, and my reign and ministry,\" and in the same sentence concedes that it cannot start there: \"to proceed with mine account, I must speak somewhat of the things of my father, and also of my brethren.\" The concession governs the next several chapters. A writer who has already assigned his father's record to another set of plates at 1 Nephi 9:2–4 explains here why the father keeps appearing anyway."
   },
   {
-   "label": "v. 2–6",
-   "start": 2,
-   "end": 6,
-   "title": "History taught forward",
-   "text": "Lehi narrates the future the way scribes narrate the past: destruction, captivity, return, and then a dated Messiah. Verse 6 grounds it all in the diagnosis that makes a Redeemer necessary, all mankind \"in a lost and in a fallen state\" (v. 6): the record's first statement of its deepest doctrine.",
-   "cites": [
-    {
-     "quote": "in a lost and in a fallen state",
-     "verse": 6,
-     "start": 202,
-     "end": 242,
-     "spans": [
-      {
-       "w1": 5,
-       "w2": 12,
-       "text": "in a lost and in a fallen state"
-      }
-     ]
-    }
-   ]
+   "label": "v. 4",
+   "start": 4,
+   "end": 4,
+   "title": "A prophecy given as a number, and tracked to its year",
+   "text": "The record fixes the interval: \"six hundred years from the time that my father left Jerusalem.\" The figure recurs three more times, at 1 Nephi 19:8, 2 Nephi 25:19, and 3 Nephi 1:1, and the last of those reports the arrival, \"it was six hundred years from the time that Lehi left Jerusalem.\" Four statements of one number across four books, the first three predictive and the fourth an accounting. The same verse also carries the phrase \"or, in other words,\" here glossing Messiah as \"a Savior of the world.\""
   },
   {
-   "label": "v. 7–10",
-   "start": 7,
-   "end": 10,
-   "title": "The forerunner, in documentary detail",
-   "text": "A prophet before the Messiah, his message, his humility formula, his river, his place-name, and his greatest act: baptizing \"the Lamb of God, who should take away the sins of the world\" (v. 10). Prophecy at this resolution asks to be checked, and the fourth Gospel reads like its checklist (John 1:27–29).",
-   "cites": [
-    {
-     "quote": "the Lamb of God, who should take away the sins of the world",
-     "verse": 10,
-     "start": 124,
-     "end": 193,
-     "spans": [
-      {
-       "w1": 20,
-       "w2": 32,
-       "text": "the Lamb of God, who should take away the sins of the world"
-      }
-     ]
-    }
-   ],
+   "label": "v. 8–9",
+   "start": 8,
+   "end": 9,
+   "title": "A future preacher's words quoted, and his location named",
+   "text": "The record supplies the Baptist's speech six hundred years early and it is a composite of two sources: \"Prepare ye the way of the Lord, and make his paths straight\" is Isaiah 40:3, and \"there standeth one among you whom ye know not; and he is mightier than I, whose shoe's latchet I am not worthy to unloose\" runs together John 1:26–27. Verse 9 then names the site, \"he should baptize in Bethabara, beyond Jordan,\" which is the King James reading of John 1:28. A prophecy that includes a place name serves no purpose in the narrative and is the sort of detail that can be checked against a source.",
    "refs": [
     {
      "kind": "scripture",
-     "text": "John 1:27–29",
-     "start": 291,
-     "end": 303,
+     "text": "John 1:26–27",
+     "start": 323,
+     "end": 335,
      "book": "John",
      "chapter": 1,
-     "verse_start": 27,
-     "verse_end": 29
-    }
-   ]
-  },
-  {
-   "label": "v. 11–14",
-   "start": 11,
-   "end": 14,
-   "title": "The olive tree and the family inside it",
-   "text": "Slain and risen, the Messiah turns to the Gentiles; Israel is scattered like broken branches, and verse 13 folds the tent-dwellers themselves into the pruning: \"it must needs be that we should be led\" (v. 13). The family's exile is not outside the allegory; it is one of its cuttings.",
-   "cites": [
+     "verse_start": 26,
+     "verse_end": 27
+    },
     {
-     "quote": "it must needs be that we should be led",
-     "verse": 13,
-     "start": 160,
-     "end": 208,
-     "spans": [
-      {
-       "w1": 4,
-       "w2": 12,
-       "text": "it must needs be that we should be led"
-      }
-     ]
+     "kind": "scripture",
+     "text": "John 1:28",
+     "start": 450,
+     "end": 459,
+     "book": "John",
+     "chapter": 1,
+     "verse_start": 28,
+     "verse_end": 28
     }
    ]
   },
@@ -462,116 +412,15 @@
    "label": "v. 15–16",
    "start": 15,
    "end": 16,
-   "title": "The summarizer's honesty",
-   "text": "\"After this manner of language did my father prophesy\" (v. 15): the reporting formula from chapter 5 returns, with the fuller text filed in the other book. The record shows its edits and names the valley (v. 16), keeping even its visions pinned to a place.",
-   "cites": [
-    {
-     "quote": "After this manner of language did my father prophesy",
-     "verse": 15,
-     "start": 0,
-     "end": 62,
-     "spans": [
-      {
-       "w1": 2,
-       "w2": 10,
-       "text": "After this manner of language did my father prophesy"
-      }
-     ]
-    }
-   ],
-   "refs": [
-    {
-     "kind": "verse",
-     "text": "(v. 16)",
-     "start": 204,
-     "end": 211,
-     "verse_start": 16,
-     "verse_end": 16
-    }
-   ]
-  },
-  {
-   "label": "v. 17–19",
-   "start": 17,
-   "end": 19,
-   "title": "The desire, and the door it found open",
-   "text": "Nephi hears his father and wants sight of his own: \"desirous also that I might see, and hear, and know of these things\" (v. 17), and immediately universalizes the possibility: the Holy Ghost is \"the gift of God unto all those who diligently seek him\" (v. 17), the same in every age, on a course that is \"one eternal round\" (v. 19). The next chapter is this doctrine, tested.",
-   "cites": [
-    {
-     "quote": "desirous also that I might see, and hear, and know of these things",
-     "verse": 17,
-     "start": 51,
-     "end": 127,
-     "spans": [
-      {
-       "w1": 63,
-       "w2": 75,
-       "text": "desirous also that I might see, and hear, and know of these things"
-      }
-     ]
-    },
-    {
-     "quote": "the gift of God unto all those who diligently seek him",
-     "verse": 17,
-     "start": 194,
-     "end": 258,
-     "spans": [
-      {
-       "w1": 85,
-       "w2": 95,
-       "text": "the gift of God unto all those who diligently seek him"
-      }
-     ]
-    },
-    {
-     "quote": "one eternal round",
-     "verse": 19,
-     "start": 303,
-     "end": 330,
-     "spans": [
-      {
-       "w1": 54,
-       "w2": 56,
-       "text": "one eternal round"
-      }
-     ]
-    }
-   ]
+   "title": "A second volume named, and a formula closing the block",
+   "text": "The record marks its limits twice in two verses. Verse 15 says the rest was written elsewhere, \"I have written as many of them as were expedient for me in mine other book,\" which points to the plates described at 1 Nephi 9:2–4 and 19:1–2. Verse 16 closes with the tent line, \"as my father dwelt in a tent, in the valley of Lemuel,\" the third of its four uses in this book. The pairing of an omission notice with the tent formula also occurs at 1 Nephi 9:1."
   },
   {
    "label": "v. 20–22",
    "start": 20,
    "end": 22,
-   "title": "The warning welded on",
-   "text": "The chapter's soaring offer ends in its sternest voice: remember, judgment, \"no unclean thing can dwell with God\" (v. 21). The record refuses to separate the open door from the standard at the door, and Nephi signs the whole aside with his credential: \"the Holy Ghost giveth authority that I should speak these things\" (v. 22).",
-   "cites": [
-    {
-     "quote": "no unclean thing can dwell with God",
-     "verse": 21,
-     "start": 76,
-     "end": 121,
-     "spans": [
-      {
-       "w1": 26,
-       "w2": 32,
-       "text": "no unclean thing can dwell with God"
-      }
-     ]
-    },
-    {
-     "quote": "the Holy Ghost giveth authority that I should speak these things",
-     "verse": 22,
-     "start": 252,
-     "end": 326,
-     "spans": [
-      {
-       "w1": 2,
-       "w2": 12,
-       "text": "the Holy Ghost giveth authority that I should speak these things"
-      }
-     ]
-    }
-   ]
+   "title": "An address to a reader who is not in the story",
+   "text": "The record turns outward in its last three verses: \"Therefore remember, O man, for all thy doings thou shalt be brought into judgment.\" Nobody in the narrative is being addressed, and the second person plural of verse 21 has no referent inside the chapter. Verse 22 then supplies the warrant for the intrusion, \"the Holy Ghost giveth authority that I should speak these things, and deny them not.\" The chapter that opened by explaining a digression closes by claiming authorization for one."
   }
  ],
  "chapter": [
@@ -583,7 +432,29 @@
   {
    "n": 2,
    "title": "Two resolutions of prophecy",
-   "text": "The chapter runs national arcs (captivity, return, scattering, gathering) and documentary close-ups (a place-name, a sandal-strap sentence) in the same breath. The record claims both kinds of prophecy, history's shape and history's details, and stakes its credibility on each."
+   "text": "Two scales run through fourteen verses. The large: destruction, captivity in Babylon, return, and possession of the land at verse 3; scattering and grafting at verses 12 through 14. The small: \"he should baptize in Bethabara, beyond Jordan\" at verse 9, and a quoted sentence about a shoe latchet at verse 8. The place name matches John 1:28 and the sentence John 1:26–27. A prophecy that names a village and a sandal strap is checkable in a way that a prophecy of scattering is not, and the chapter makes both kinds of claim.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "John 1:28",
+     "start": 331,
+     "end": 340,
+     "book": "John",
+     "chapter": 1,
+     "verse_start": 28,
+     "verse_end": 28
+    },
+    {
+     "kind": "scripture",
+     "text": "John 1:26–27",
+     "start": 358,
+     "end": 370,
+     "book": "John",
+     "chapter": 1,
+     "verse_start": 26,
+     "verse_end": 27
+    }
+   ]
   },
   {
    "n": 3,
@@ -1011,7 +882,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "jac05-015"
   },
   {
    "id": "1ne10-004",
@@ -1037,7 +908,85 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al11-018"
+  },
+  {
+   "id": "1ne10-019",
+   "scope": "BOM",
+   "head": "Alma 37:11",
+   "anchor": {
+    "verse": 19,
+    "w1": 9,
+    "w2": 17,
+    "quote": "the mysteries of God shall be unfolded unto them,"
+   },
+   "reason": "Alma saying the same of what he held",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 37,
+     "verse": 11,
+     "w1": 2,
+     "w2": 11,
+     "quote": "these mysteries are not yet fully made known unto me;",
+     "verse_text": "Now these mysteries are not yet fully made known unto me; therefore I shall forbear.",
+     "markdown": "Now **these mysteries are not yet fully made known unto me**; therefore I shall forbear.",
+     "span": true
+    }
+   ],
+   "mirror": "al37-007"
+  },
+  {
+   "id": "1ne10-020",
+   "scope": "BOM",
+   "head": "3 Ne. 1:1",
+   "anchor": {
+    "verse": 4,
+    "w1": 3,
+    "w2": 13,
+    "quote": "six hundred years from the time that my father left Jerusalem,"
+   },
+   "reason": "the count reaching its end at the sign",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 1,
+     "verse": 1,
+     "w1": 16,
+     "w2": 27,
+     "quote": "it was six hundred years from the time that Lehi left Jerusalem;",
+     "verse_text": "Now it came to pass that the ninety and first year had passed away and it was six hundred years from the time that Lehi left Jerusalem; and it was in the year that Lachoneus was the chief judge and the governor over the land.",
+     "markdown": "Now it came to pass that the ninety and first year had passed away and **it was six hundred years from the time that Lehi left Jerusalem**; and it was in the year that Lachoneus was the chief judge and the governor over the land.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne01-008"
+  },
+  {
+   "id": "1ne10-021",
+   "scope": "BOM",
+   "head": "3 Ne. 24:1",
+   "anchor": {
+    "verse": 8,
+    "w1": 12,
+    "w2": 23,
+    "quote": "Prepare ye the way of the Lord, and make his paths straight;"
+   },
+   "reason": "Malachi's messenger, quoted by Christ himself",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 24,
+     "verse": 1,
+     "w1": 60,
+     "w2": 72,
+     "quote": "I will send my messenger, and he shall prepare the way before me,",
+     "verse_text": "And it came to pass that he commanded them that they should write the words which the Father had given unto Malachi, which he should tell unto them. And it came to pass that after they were written he expounded them. And these are the words which he did tell unto them, saying: Thus said the Father unto Malachi—Behold, I will send my messenger, and he shall prepare the way before me, and the Lord whom ye seek shall suddenly come to his temple, even the messenger of the covenant, whom ye delight in; behold, he shall come, saith the Lord of Hosts.",
+     "markdown": "And it came to pass that he commanded them that they should write the words which the Father had given unto Malachi, which he should tell unto them. And it came to pass that after they were written he expounded them. And these are the words which he did tell unto them, saying: Thus said the Father unto Malachi—Behold, **I will send my messenger, and he shall prepare the way before me**, and the Lord whom ye seek shall suddenly come to his temple, even the messenger of the covenant, whom ye delight in; behold, he shall come, saith the Lord of Hosts.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne24-005"
   },
   {
    "id": "1ne10-005",
@@ -1245,7 +1194,8 @@
    "w2": 13,
    "quote": "six hundred years from the time that my father left Jerusalem",
    "entries": [
-    "1ne10-014"
+    "1ne10-014",
+    "1ne10-020"
    ]
   },
   {
@@ -1270,8 +1220,9 @@
    "verse": 8,
    "w1": 12,
    "w2": 23,
-   "quote": "Prepare ye the way of the Lord, and make his paths straight",
+   "quote": "Prepare ye the way of the Lord, and make his paths straight;",
    "entries": [
+    "1ne10-021",
     "1ne10-006"
    ]
   },
@@ -1335,6 +1286,15 @@
   },
   {
    "verse": 19,
+   "w1": 9,
+   "w2": 17,
+   "quote": "the mysteries of God shall be unfolded unto them,",
+   "entries": [
+    "1ne10-019"
+   ]
+  },
+  {
+   "verse": 19,
    "w1": 48,
    "w2": 56,
    "quote": "the course of the Lord is one eternal round",
@@ -1362,7 +1322,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "ffe0f53f53b618b6"
+  "at": "2026-09-07",
+  "source_sha256": "6fddac9564f6a692"
  }
 }

@@ -19,7 +19,7 @@
    "A covenant volunteered",
    "The name"
   ],
-  "connections": 13,
+  "connections": 18,
   "initial": false
  },
  "world_behind": [
@@ -48,7 +48,19 @@
   {
    "n": 3,
    "title": "Adoption language, and its Israelite frame",
-   "text": "Sons and daughters, spiritually begotten, born of him. John says that to those who received him he gave power to become sons of God, to them that believe on his name. Benjamin reaches the same conclusion from a covenant ceremony."
+   "text": "Sons and daughters, spiritually begotten, born of him. John says that to those who received him he gave power to become sons of God (John 1:12), to them that believe on his name. Benjamin reaches the same conclusion from a covenant ceremony.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "John 1:12",
+     "start": 133,
+     "end": 142,
+     "book": "John",
+     "chapter": 1,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
   },
   {
    "n": 4,
@@ -70,7 +82,7 @@
   {
    "term": "Expedient",
    "verse_label": "v. 3",
-   "text": "Advantageous or fitting in the circumstances. The word carries more weight than convenient does. The people say they could prophesy of all things were it expedient. That is a restraint they place on themselves rather than a limit placed on them. It is the only qualification in an otherwise extraordinary claim."
+   "text": "Advantageous or fitting in the circumstances. Treated at 1 Nephi 10:15. The word carries more weight than convenient does. The people say they could prophesy of all things were it expedient. That is a restraint they place on themselves rather than a limit placed on them. It is the only qualification in an otherwise extraordinary claim."
   },
   {
    "term": "Views",
@@ -115,7 +127,19 @@
   {
    "term": "Blotted",
    "verse_label": "v. 11",
-   "text": "Erased from a written record. The image belongs to ledgers and lists of names, and Benjamin has already used it once when the name was promised. The name is not taken away here; it is struck out, which assumes it was written down somewhere first."
+   "text": "Erased from a written record. The image belongs to ledgers and lists of names, and Benjamin has already used it once when the name was promised (Mosiah 1:12). The name is not taken away here; it is struck out, which assumes it was written down somewhere first.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 1:12",
+     "start": 145,
+     "end": 156,
+     "book": "Mosiah",
+     "chapter": 1,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
   },
   {
    "term": "Stranger",
@@ -142,7 +166,19 @@
   {
    "term": "We are willing to enter into a covenant with our God",
    "verse_label": "v. 5",
-   "text": "The proposal comes from the people. Benjamin had asked only whether they believed; they answer that and then volunteer the obligation, name its terms (obedience in all things, all the remainder of their days), and state their reason. It is the angel's warning about the cup."
+   "text": "The proposal comes from the people. Benjamin had asked only whether they believed (Mosiah 4:9–10); they answer that and then volunteer the obligation, name its terms (obedience in all things, all the remainder of their days), and state their reason. It is the angel's warning about the cup.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 4:9–10",
+     "start": 83,
+     "end": 96,
+     "book": "Mosiah",
+     "chapter": 4,
+     "verse_start": 9,
+     "verse_end": 10
+    }
+   ]
   },
   {
    "term": "This day he hath spiritually begotten you",
@@ -152,12 +188,22 @@
   {
    "term": "Under this head ye are made free, and there is no other head",
    "verse_label": "v. 8",
-   "text": "\"Head\" in the sense of the one you stand under. The clause pairs freedom with subjection in the same breath and says there is no alternative arrangement. The point is not that other heads are worse, but that freedom is available under one only."
-  },
-  {
-   "term": "I would that ye should take upon you the name of Christ",
-   "verse_label": "v. 8",
-   "text": "The instruction the whole address has been building toward, and it is phrased as something the hearer does. Benjamin has just said they are already begotten and already called; the taking is theirs to do anyway."
+   "text": "\"Head\" in the sense of the one you stand under. The clause pairs freedom with subjection in the same breath and says there is no alternative arrangement. The point is that freedom is available under one head only. The verse then gives the instruction the whole address has been building toward, phrased as something the hearer does: \"I would that ye should take upon you the name of Christ\" (v. 8). Benjamin has just said they are already begotten and already called; the taking is theirs to do anyway.",
+   "cites": [
+    {
+     "quote": "I would that ye should take upon you the name of Christ",
+     "verse": 8,
+     "start": 333,
+     "end": 397,
+     "spans": [
+      {
+       "w1": 31,
+       "w2": 42,
+       "text": "I would that ye should take upon you the name of Christ"
+      }
+     ]
+    }
+   ]
   },
   {
    "term": "He shall know the name by which he is called",
@@ -192,53 +238,32 @@
  ],
  "verses": [
   {
-   "label": "v. 1–4",
-   "start": 1,
-   "end": 4,
-   "title": "The answer",
-   "text": "Benjamin sends to ask whether they believed; they cry with one voice that they do and that they know its surety because of the Spirit; a mighty change has been wrought in their hearts and they have no more disposition to evil; they have great views of what is coming and could prophesy if it were expedient; and faith in what their king said brought them here. Four verses of the congregation describing itself."
-  },
-  {
-   "label": "v. 5–6",
-   "start": 5,
-   "end": 6,
-   "title": "The covenant, offered and accepted",
-   "text": "They are willing to enter into it, to obey in all things for the rest of their lives, so as not to bring never-ending torment on themselves or drink the cup the angel spoke of. Benjamin replies that these are the words he wanted and the covenant is righteous. Nobody asked them."
-  },
-  {
-   "label": "v. 7–8",
+   "label": "v. 7–9",
    "start": 7,
-   "end": 8,
-   "title": "The name",
-   "text": "Because of the covenant they are called the children of Christ, sons and daughters, spiritually begotten this day, born of him, because they said their hearts were changed. Under this head they are free and there is no other; no other name saves; therefore take the name upon you and be obedient to the end."
+   "end": 9,
+   "title": "A name given as a legal consequence",
+   "text": "The new name is not offered as a metaphor. It is stated as following from an act: \"because of the covenant which ye have made ye shall be called the children of Christ, his sons, and his daughters.\" Verse 8 makes it exclusive twice in one sentence, \"there is no other head whereby ye can be made free. There is no other name given whereby salvation cometh.\" Verse 9 then attaches a recognition test to it: whoever does this \"shall know the name by which he is called; for he shall be called by the name of Christ.\""
   },
   {
-   "label": "v. 9–10",
-   "start": 9,
-   "end": 10,
-   "title": "Two hands",
-   "text": "Whoever does this is found at the right hand and knows the name he is called by; whoever does not must be called by some other name and finds himself at the left. The sorting criterion is stated twice and both times it is knowledge of a name rather than a tally of deeds."
-  },
-  {
-   "label": "v. 11–12",
-   "start": 11,
-   "end": 12,
-   "title": "Keep it written",
-   "text": "This is the name promised earlier, which only transgression can erase; so take heed, and retain it written always in your hearts, so that you are not found at the left hand but hear and know the voice that will call you, and the name he will use."
-  },
-  {
-   "label": "v. 13–14",
+   "label": "v. 13",
    "start": 13,
+   "end": 13,
+   "title": "A question about knowing an employer",
+   "text": "The argument turns on a comparison from working life: \"how knoweth a man the master whom he has not served, and who is a stranger unto him, and is far from the thoughts and intents of his heart?\" The test proposed is not belief or profession but service, and the verse states the reverse case as an argument from ordinary experience rather than from doctrine. Nothing in the sermon before this point has used a labour relation as the model."
+  },
+  {
+   "label": "v. 14",
+   "start": 14,
    "end": 14,
-   "title": "Two questions about not knowing",
-   "text": "How does a man know a master he has not served, who is a stranger to his thoughts? And does a man keep a neighbor's stray animal? No; he drives it off. Two figures, both about recognition, and the second is harsher than the first."
+   "title": "A borrowed donkey",
+   "text": "The second comparison is smaller and stranger: \"doth a man take an ass which belongeth to his neighbor, and keep him? I say unto you, Nay; he will not even suffer that he shall feed among his flocks, but will drive him away and cast him out.\" The speaker answers his own question in the same verse, as he does at verse 13. An argument about belonging to God is made from a rule about livestock, and the point is that everyone already knows where the animal belongs."
   },
   {
    "label": "v. 15",
    "start": 15,
    "end": 15,
-   "title": "The charge",
-   "text": "Steadfast, immovable, abounding in good works, so that Christ may seal you his and bring you to heaven, with everlasting salvation and eternal life, through his wisdom, power, justice, and mercy. One verse, and it is the last thing Benjamin says in the address."
+   "title": "The chapter ends on a verb from a workshop",
+   "text": "The record closes on the instruction \"be steadfast and immovable, always abounding in good works,\" and the promise attached to it uses a term from sealing documents and property: \"that Christ, the Lord God Omnipotent, may seal you his.\" The whole chapter has been about a name and who is entitled to bear it, and it finishes with the image of a mark pressed onto a thing to show whose it is."
   }
  ],
  "chapter": [
@@ -509,7 +534,7 @@
     "w2": 18,
     "quote": "ye shall be called the children of Christ"
    },
-   "reason": "the name promised four chapters earlier",
+   "reason": "the naming foretold at the start of the sermon",
    "targets": [
     {
      "ref": "Mosiah",
@@ -524,6 +549,32 @@
     }
    ],
    "mirror": "mos01-006"
+  },
+  {
+   "id": "mos05-015",
+   "scope": "BOOK",
+   "head": "Mosiah 26:16",
+   "anchor": {
+    "verse": 8,
+    "w1": 21,
+    "w2": 29,
+    "quote": "There is no other name given whereby salvation cometh;"
+   },
+   "reason": "the rising generation believing on Alma's word alone",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 26,
+     "verse": 16,
+     "w1": 7,
+     "w2": 19,
+     "quote": "their exceeding faith in the words alone which thou hast spoken unto them.",
+     "verse_text": "And blessed are they because of their exceeding faith in the words alone which thou hast spoken unto them.",
+     "markdown": "And blessed are they because of **their exceeding faith in the words alone which thou hast spoken unto them**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos26-008"
   },
   {
    "id": "mos05-013",
@@ -601,7 +652,111 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al05-027"
+  },
+  {
+   "id": "mos05-014",
+   "scope": "BOM",
+   "head": "Hel. 15:7",
+   "anchor": {
+    "verse": 2,
+    "w1": 38,
+    "w2": 49,
+    "quote": "which has wrought a mighty change in us, or in our hearts,"
+   },
+   "reason": "Samuel naming faith and repentance as what changes hearts",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 15,
+     "verse": 7,
+     "w1": 68,
+     "w2": 78,
+     "quote": "which faith and repentance bringeth a change of heart unto them—",
+     "verse_text": "And behold, ye do know of yourselves, for ye have witnessed it, that as many of them as are brought to the knowledge of the truth, and to know of the wicked and abominable traditions of their fathers, and are led to believe the holy scriptures, yea, the prophecies of the holy prophets, which are written, which leadeth them to faith on the Lord, and unto repentance, which faith and repentance bringeth a change of heart unto them—",
+     "markdown": "And behold, ye do know of yourselves, for ye have witnessed it, that as many of them as are brought to the knowledge of the truth, and to know of the wicked and abominable traditions of their fathers, and are led to believe the holy scriptures, yea, the prophecies of the holy prophets, which are written, which leadeth them to faith on the Lord, and unto repentance, **which faith and repentance bringeth a change of heart unto them—**",
+     "span": true
+    }
+   ],
+   "mirror": "hel15-006"
+  },
+  {
+   "id": "mos05-016",
+   "scope": "BOM",
+   "head": "3 Ne. 27:5",
+   "anchor": {
+    "verse": 8,
+    "w1": 31,
+    "w2": 42,
+    "quote": "I would that ye should take upon you the name of Christ,"
+   },
+   "reason": "Christ requiring his own name of the church",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 27,
+     "verse": 5,
+     "w1": 9,
+     "w2": 21,
+     "quote": "ye must take upon you the name of Christ, which is my name?",
+     "verse_text": "Have they not read the scriptures, which say ye must take upon you the name of Christ, which is my name? For by this name shall ye be called at the last day;",
+     "markdown": "Have they not read the scriptures, which say **ye must take upon you the name of Christ, which is my name**? For by this name shall ye be called at the last day;",
+     "span": true
+    }
+   ],
+   "mirror": "3ne27-005"
+  },
+  {
+   "id": "mos05-017",
+   "scope": "BOM",
+   "head": "Moro. 4:3",
+   "anchor": {
+    "verse": 8,
+    "w1": 31,
+    "w2": 42,
+    "quote": "I would that ye should take upon you the name of Christ,"
+   },
+   "reason": "the sacrament prayer joining remembering to keeping",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 4,
+     "verse": 3,
+     "w1": 67,
+     "w2": 79,
+     "quote": "and always remember him, and keep his commandments which he hath given them,",
+     "verse_text": "O God, the Eternal Father, we ask thee in the name of thy Son, Jesus Christ, to bless and sanctify this bread to the souls of all those who partake of it; that they may eat in remembrance of the body of thy Son, and witness unto thee, O God, the Eternal Father, that they are willing to take upon them the name of thy Son, and always remember him, and keep his commandments which he hath given them, that they may always have his Spirit to be with them. Amen.",
+     "markdown": "O God, the Eternal Father, we ask thee in the name of thy Son, Jesus Christ, to bless and sanctify this bread to the souls of all those who partake of it; that they may eat in remembrance of the body of thy Son, and witness unto thee, O God, the Eternal Father, that they are willing to take upon them the name of thy Son, **and always remember him, and keep his commandments which he hath given them**, that they may always have his Spirit to be with them. Amen.",
+     "span": true
+    }
+   ],
+   "mirror": "moro04-006"
+  },
+  {
+   "id": "mos05-018",
+   "scope": "BOM",
+   "head": "1 Ne. 2:10",
+   "anchor": {
+    "verse": 15,
+    "w1": 8,
+    "w2": 15,
+    "quote": "steadfast and immovable, always abounding in good works,"
+   },
+   "reason": "Lehi's wish for Lemuel, spoken in the valley",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 2,
+     "verse": 10,
+     "w1": 16,
+     "w2": 20,
+     "quote": "firm and steadfast, and immovable",
+     "verse_text": "And he also spake unto Lemuel: O that thou mightest be like unto this valley, firm and steadfast, and immovable in keeping the commandments of the Lord!",
+     "markdown": "And he also spake unto Lemuel: O that thou mightest be like unto this valley, **firm and steadfast, and immovable** in keeping the commandments of the Lord!",
+     "span": true
+    }
+   ],
+   "mirror": "1ne02-007"
   },
   {
    "id": "mos05-010",
@@ -665,7 +820,7 @@
     "w2": 59,
     "quote": "ye are born of him and have become his sons and his daughters"
    },
-   "reason": "power to become sons, to them that believe on his name",
+   "reason": "power to become sons, given to them that believe",
    "targets": [
     {
      "ref": "John",
@@ -717,7 +872,8 @@
    "entries": [
     "mos05-003",
     "mos05-012",
-    "mos05-006"
+    "mos05-006",
+    "mos05-014"
    ]
   },
   {
@@ -780,7 +936,18 @@
    "w2": 29,
    "quote": "There is no other name given whereby salvation cometh",
    "entries": [
-    "mos05-004"
+    "mos05-004",
+    "mos05-015"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 31,
+   "w2": 42,
+   "quote": "I would that ye should take upon you the name of Christ,",
+   "entries": [
+    "mos05-016",
+    "mos05-017"
    ]
   },
   {
@@ -805,14 +972,15 @@
    "verse": 15,
    "w1": 8,
    "w2": 15,
-   "quote": "steadfast and immovable, always abounding in good works",
+   "quote": "steadfast and immovable, always abounding in good works,",
    "entries": [
+    "mos05-018",
     "mos05-007"
    ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "19f61379fec4f9d6"
+  "at": "2026-09-07",
+  "source_sha256": "6740580198026d30"
  }
 }

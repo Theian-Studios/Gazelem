@@ -18,7 +18,7 @@
    "Reading the record",
    "Membership by desire"
   ],
-  "connections": 12,
+  "connections": 13,
   "initial": false
  },
  "world_behind": [
@@ -67,7 +67,7 @@
   {
    "term": "Numbered",
    "verse_label": "v. 13",
-   "text": "Counted into a group, enrolled. The record uses it of the people of Zarahemla joining the Nephites and, a verse earlier, of Amulon's children asking to be counted among them. Both are administrative acts with a census verb, and both change what a person is called."
+   "text": "Counted into a group, enrolled. Treated at 1 Nephi 14:2. The record uses it of the people of Zarahemla joining the Nephites and, a verse earlier, of Amulon's children asking to be counted among them. Both are administrative acts with a census verb, and both change what a person is called."
   },
   {
    "term": "Exhort",
@@ -129,53 +129,32 @@
  ],
  "verses": [
   {
-   "label": "v. 1–4",
-   "start": 1,
-   "end": 4,
-   "title": "Everyone counted",
-   "text": "Everyone gathered, and the record pauses to count: Zarahemla's people outnumber Nephi's, and the Lamanites outnumber both by more than two to one. Then the assembly forms in two bodies, which is how they still think of themselves at the start of the chapter."
+   "label": "v. 2–3",
+   "start": 2,
+   "end": 3,
+   "title": "A census with no numbers in it",
+   "text": "Three populations are sized against each other and none is counted: the descendants of Nephi are fewer than the people of Zarahemla, and the two together are \"not half so numerous\" as the Lamanites. The record establishes the whole demographic situation of the book by ratio alone, and the only figure it commits to is a fraction."
   },
   {
-   "label": "v. 5–6",
-   "start": 5,
-   "end": 6,
-   "title": "Both records, read out",
-   "text": "Zeniff's account from departure to return, and Alma's account of the afflictions, from departure to return. The parallel construction is exact, and the two documents are given equal standing without comment."
-  },
-  {
-   "label": "v. 7–11",
-   "start": 7,
+   "label": "v. 9–11",
+   "start": 9,
    "end": 11,
-   "title": "What they thought about, and felt",
-   "text": "Wonder and amazement, then joy at the delivered, then tears for the slain, then thanks for the speed of the rescue, then pain and anguish for the Lamanites' souls. Each begins \"when they thought,\" and each has a different object. The sequence ends outside itself."
+   "title": "One clause repeated, four reactions",
+   "text": "\"And again, when they thought\" opens verses 9, 10 and 11, and scripture has the phrase three times in all, every one of them here. Joy for the delivered, sorrow for the slain, thanks for the deliverance, pain for the Lamanites. The record organises a crowd's response as a sequence of thoughts rather than a scene, and gives each one the same doorway."
   },
   {
    "label": "v. 12–13",
    "start": 12,
    "end": 13,
-   "title": "Two changes of name",
-   "text": "Amulon's children take the name of Nephi because they are ashamed of their fathers. A whole second population takes it because of who may hold the throne. One renaming is a moral choice and the other is a legal consequence, and they are reported in consecutive verses without any transition between them."
+   "title": "Two absorptions, two mechanisms, one explained",
+   "text": "The children of Amulon take the name of Nephi themselves, by choice, out of displeasure with their fathers. The people of Zarahemla are absorbed by administration instead, and the reason given is a rule about succession: the kingdom had been conferred on none but descendants of Nephi. The record sets a chosen identity beside an imposed one in consecutive verses and supplies a reason only for the second."
   },
   {
-   "label": "v. 14–18",
-   "start": 14,
-   "end": 18,
-   "title": "A king yields the floor",
-   "text": "Mosiah finishes and asks Alma to speak. Alma goes from body to body preaching repentance and faith, exhorts the delivered to remember who delivered them, and then baptizes Limhi and his people after the manner of the waters of Mormon."
-  },
-  {
-   "label": "v. 19–22",
-   "start": 19,
-   "end": 22,
-   "title": "Divided, and not divided",
-   "text": "The king grants the power, Alma ordains, seven congregations form for reasons of capacity, and the record insists they are one because the preaching is the same. The unity claim is made about content, not about structure."
-  },
-  {
-   "label": "v. 23–24",
-   "start": 23,
-   "end": 24,
-   "title": "A category not based on descent",
-   "text": "Whoever wanted the name took it and joined, and they were called the people of God. Then the Spirit poured out, and they were blessed and prospered. That is the sentence this record generally puts just before something goes wrong."
+   "label": "v. 15",
+   "start": 15,
+   "end": 15,
+   "title": "The preacher walks between the halves",
+   "text": "Verse 4 had the people assembled \"in two bodies,\" and Alma \"went from one body to another, preaching unto the people repentance and faith on the Lord.\" The record keeps the logistics: he does not address a crowd, he crosses to it twice."
   }
  ],
  "chapter": [
@@ -187,7 +166,19 @@
   {
    "n": 2,
    "title": "Five reactions, catalogued, and the last one travels",
-   "text": "Wonder, joy, grief, thanks, and then pain and anguish for the welfare of Lamanite souls. Four are about themselves and the fifth is not. Three chapters later the sons of Mosiah give that fifth reaction as their reason for going."
+   "text": "Wonder, joy, grief, thanks, and then pain and anguish for the welfare of Lamanite souls. Four are about themselves and the fifth is not. Three chapters later the sons of Mosiah give that fifth reaction as their reason for going (Mosiah 28:3).",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 28:3",
+     "start": 229,
+     "end": 240,
+     "book": "Mosiah",
+     "chapter": 28,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
   },
   {
    "n": 3,
@@ -212,7 +203,7 @@
   {
    "n": 7,
    "title": "A society sorted by descent opens a category sorted by desire",
-   "text": "Two verses on lineage are followed immediately by admission to the people of God on the basis of wanting the name. The record puts these next to each other and lets the contrast stand."
+   "text": "Verses 2 and 3 count the population by descent, \"not so many of the children of Nephi... as there were of the people of Zarahemla,\" and neither group \"half so numerous\" as the Lamanites. Verse 13 explains the merged name by descent as well, \"the kingdom had been conferred upon none but those who were descendants of Nephi.\" Verse 23 then opens a category on a different basis entirely, \"whosoever were desirous to take upon them the name of Christ, or of God, they did join the churches of God.\" Counting by lineage and joining by desire stand in the same chapter, twenty verses apart."
   },
   {
    "n": 8,
@@ -556,7 +547,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al46-018"
+  },
+  {
+   "id": "mos25-013",
+   "scope": "BOM",
+   "head": "Hel. 6:10",
+   "anchor": {
+    "verse": 2,
+    "w1": 26,
+    "w2": 35,
+    "quote": "the people of Zarahemla, who was a descendant of Mulek,"
+   },
+   "reason": "the land named for the same man",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 6,
+     "verse": 10,
+     "w1": 9,
+     "w2": 21,
+     "quote": "the land north was called Mulek, which was after the son of Zedekiah;",
+     "verse_text": "Now the land south was called Lehi, and the land north was called Mulek, which was after the son of Zedekiah; for the Lord did bring Mulek into the land north, and Lehi into the land south.",
+     "markdown": "Now the land south was called Lehi, and **the land north was called Mulek, which was after the son of Zedekiah**; for the Lord did bring Mulek into the land north, and Lehi into the land south.",
+     "span": true
+    }
+   ],
+   "mirror": "hel06-007"
   },
   {
    "id": "mos25-010",
@@ -612,6 +629,15 @@
   }
  ],
  "markers": [
+  {
+   "verse": 2,
+   "w1": 26,
+   "w2": 35,
+   "quote": "the people of Zarahemla, who was a descendant of Mulek,",
+   "entries": [
+    "mos25-013"
+   ]
+  },
   {
    "verse": 4,
    "w1": 19,
@@ -706,7 +732,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "6542e45c0b4d5b71"
+  "at": "2026-09-07",
+  "source_sha256": "71c11a0dd76d06a2"
  }
 }

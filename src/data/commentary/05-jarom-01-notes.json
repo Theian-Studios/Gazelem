@@ -56,7 +56,7 @@
   {
    "term": "Genealogy",
    "verse_label": "v. 1",
-   "text": "A written descent line, and in the Hebrew Bible it is what establishes a claim to land, to priesthood, or to a throne. Jarom gives it as his whole reason for writing and then supplies none. What he passes on instead is the object itself, so what gets tracked is custody."
+   "text": "A written descent line, and in the Hebrew Bible it is what establishes a claim to land, to priesthood, or to a throne. Treated at 1 Nephi 6:1. Jarom gives it as his whole reason for writing and then supplies none. What he passes on instead is the object itself, so what gets tracked is custody."
   },
   {
    "term": "Dart",
@@ -111,13 +111,13 @@
   {
    "term": "Engraven",
    "verse_label": "v. 14",
-   "text": "Cut into metal rather than written on it. Jarom has just said again that his own plates are small, and then sends his readers to the other plates, where \"the records of our wars are engraven\" (v. 14). The word keeps the physical fact in view: every line has to be cut, and length costs labor. The King James Bible has it once, of the law cut into stones. Here it is the ordinary term for how this people keeps history.",
+   "text": "Cut into metal instead of onto it. Treated at 1 Nephi 9:3. Jarom has just said again that his own plates are small, and then sends his readers to the other plates, where \"the records of our wars are engraven\" (v. 14). The word keeps the physical fact in view: every line has to be cut, and length costs labor. The King James Bible has it once, of the law cut into stones. Here it is the ordinary term for how this people keeps history.",
    "cites": [
     {
      "quote": "the records of our wars are engraven",
      "verse": 14,
-     "start": 153,
-     "end": 199,
+     "start": 170,
+     "end": 216,
      "spans": [
       {
        "w1": 30,
@@ -138,7 +138,19 @@
   {
    "term": "The hardness of their hearts, and the deafness of their ears, and the blindness of their minds, and the stiffness of their necks",
    "verse_label": "v. 3",
-   "text": "Four faculties, four failures, in a single clause. Heart, ears, mind, neck. The list is Isaiah's diagnostic vocabulary compressed into one sentence, and Jarom uses it as a standing description of the people he is about to call prosperous."
+   "text": "Four faculties, four failures, in a single clause. Heart, ears, mind, neck. The list is Isaiah's diagnostic vocabulary (Isa. 6:10) compressed into one sentence, and Jarom uses it as a standing description of the people he is about to call prosperous.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 6:10",
+     "start": 120,
+     "end": 129,
+     "book": "Isa",
+     "chapter": 6,
+     "verse_start": 10,
+     "verse_end": 10
+    }
+   ]
   },
   {
    "term": "Has not as yet swept them off from the face of the land",
@@ -183,53 +195,39 @@
  ],
  "verses": [
   {
-   "label": "v. 1–2",
-   "start": 1,
+   "label": "v. 2",
+   "start": 2,
    "end": 2,
-   "title": "The terms, and a refusal",
-   "text": "Write for the genealogy; the plates are small; the audience is the Lamanites; and then the decision not to record his own prophesying or revelations because the fathers have covered it. Two verses, and one of them is an argument for brevity."
+   "title": "An audience across the border, and a subject withheld",
+   "text": "One verse carries two disclosures the volume rarely makes together. The record states who it is for, and it is not the writer's own people: \"these things are written for the intent of the benefit of our brethren the Lamanites.\" No other verse in the volume carries the phrase benefit of our brethren. The same verse then states what will not be included: \"I shall not write the things of my prophesying, nor of my revelations.\" A prophet names his audience as the enemy nation and, in the same breath, declines to give them his prophecy."
   },
   {
-   "label": "v. 3–4",
+   "label": "v. 3",
    "start": 3,
-   "end": 4,
-   "title": "The people, twice",
-   "text": "Hard, deaf, blind, and stiff-necked. Then, immediately, many among them have revelations and are not all stiffnecked. Jarom gives the harsh assessment first and the qualification second, and the qualification is what carries the condition for communion with the Spirit."
+   "end": 3,
+   "title": "Four organs of refusal, listed together",
+   "text": "The people's condition is diagnosed anatomically, part by part: \"the hardness of their hearts, and the deafness of their ears, and the blindness of their minds, and the stiffness of their necks.\" Four body parts, four different failures, and then a single word turns the sentence: \"nevertheless, God is exceedingly merciful unto them.\" Verse 4 immediately qualifies the diagnosis further, \"they are not all stiffnecked,\" which takes back one of the four terms by name."
   },
   {
-   "label": "v. 5–6",
-   "start": 5,
-   "end": 6,
-   "title": "Two hundred years, both sides",
-   "text": "Nephites strong, law and sabbath kept, no profanity or blasphemy, strict laws. Lamanites scattered, more numerous, given to murder and to drinking the blood of beasts. The contrast is drawn without transition and the second half is written by an enemy."
+   "label": "v. 8",
+   "start": 8,
+   "end": 8,
+   "title": "An inventory with one item that stands alone",
+   "text": "The prosperity list runs long: gold, silver, precious things, \"fine workmanship of wood, in buildings, and in machinery, and also in iron and copper, and brass and steel,\" then tools to till the ground, then weapons named individually, arrow and quiver and dart and javelin. Machinery occurs once in the volume, in this verse, and nowhere in the Bible at all. It sits between buildings and metals in a list otherwise made of materials, and nothing anywhere explains what it refers to."
   },
   {
-   "label": "v. 7–9",
-   "start": 7,
-   "end": 9,
-   "title": "War, wealth, and a verdict",
-   "text": "Repeated attacks repelled by kings and leaders who were mighty in faith and taught the people; fortified cities; then the metals, the buildings, the machinery, and the weapons; and then the reason given for all of it, which is that the promise was verified. Prosperity is presented as evidence."
-  },
-  {
-   "label": "v. 10–12",
-   "start": 10,
-   "end": 12,
-   "title": "How it was held together",
-   "text": "Prophets threatened destruction; priests and teachers labored with long-suffering, teaching the law and its intent and persuading the people to believe in a Messiah as though present; and by so doing they were kept from being destroyed. The nation's survival is credited to sustained teaching."
-  },
-  {
-   "label": "v. 13–15",
-   "start": 13,
+   "label": "v. 14–15",
+   "start": 14,
    "end": 15,
-   "title": "The close",
-   "text": "Two hundred thirty-eight years, most of them spent in wars, contentions, and dissensions; the plates are small; the wars are on the other record; and the plates go to Omni. Three verses, and the middle one is a redirection to a book the reader does not have."
+   "title": "Pointing elsewhere, then handing over",
+   "text": "The record closes itself with two transfers. First the reader is sent to another document: \"ye can go to the other plates of Nephi; for behold, upon them the records of our wars are engraven.\" The wars this book would not narrate are said to exist in full somewhere else. Then the object itself changes hands: \"I deliver these plates into the hands of my son Omni, that they may be kept according to the commandments of my fathers.\" The last act recorded is not an event but the passing on of the thing the events were written on."
   }
  ],
  "chapter": [
   {
    "n": 1,
    "title": "The shortest justification for brevity in the record",
-   "text": "Jarom asks what he could write beyond what his fathers wrote, answers nothing, and means it. Every other keeper complains about space; he cites sufficiency. The book that results is fifteen verses and covers roughly sixty years."
+   "text": "Verse 2 gives the reason and it is twofold, space and sufficiency: \"as these plates are small... it must needs be that I write a little; but I shall not write the things of my prophesying, nor of my revelations.\" Verse 14 repeats the first half and points elsewhere for the rest, \"ye can go to the other plates of Nephi.\" The book runs to fifteen verses. Verse 5 stands at two hundred years from Lehi's departure and verse 13 at two hundred and thirty-eight, so thirty-eight years are covered in nine verses."
   },
   {
    "n": 2,
@@ -244,7 +242,19 @@
   {
    "n": 4,
    "title": "The law is taught with its purpose attached",
-   "text": "What Sherem called perversion is here the standing curriculum: the law of Moses and the intent for which it was given, with the Messiah believed in as though already present. One book after the controversy, it is settled practice and nobody argues."
+   "text": "Verse 11 states the curriculum without a pause, \"teaching the law of Moses, and the intent for which it was given,\" and adds the aim, \"persuading them to look forward unto the Messiah.\" That is precisely the practice Sherem charged as perversion one book earlier at Jacob 7:7, \"convert the law of Moses into the worship of a being which ye say shall come many hundred years hence.\" Nobody argues about it here, and verse 5 reports the law and the sabbath being kept without dispute.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 7:7",
+     "start": 266,
+     "end": 275,
+     "book": "Jacob",
+     "chapter": 7,
+     "verse_start": 7,
+     "verse_end": 7
+    }
+   ]
   },
   {
    "n": 5,
@@ -366,7 +376,7 @@
     "w2": 43,
     "quote": "Inasmuch as ye will keep my commandments ye shall prosper in the land"
    },
-   "reason": "the promise, audited after two centuries",
+   "reason": "the prosperity condition as Lehi first stated it",
    "targets": [
     {
      "ref": "2 Ne.",
@@ -544,7 +554,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "06832a1f4c44f46f"
+  "at": "2026-09-07",
+  "source_sha256": "3f459e34135bae8e"
  }
 }

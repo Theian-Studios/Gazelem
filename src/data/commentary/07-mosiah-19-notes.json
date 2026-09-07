@@ -63,7 +63,19 @@
   {
    "term": "Threatenings",
    "verse_label": "v. 3",
-   "text": "Declared intent to do harm, spoken and not yet acted on. The lesser part breathes them out against the king. Luke uses the same construction of Saul before Damascus, and in both places the threatening comes first and something interrupts before it lands."
+   "text": "Declared intent to do harm, spoken and not yet acted on. The lesser part breathes them out against the king. Luke uses the same construction of Saul before Damascus (Acts 9:1), and in both places the threatening comes first and something interrupts before it lands.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Acts 9:1",
+     "start": 166,
+     "end": 174,
+     "book": "Acts",
+     "chapter": 9,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
   },
   {
    "term": "Spare",
@@ -78,7 +90,19 @@
   {
    "term": "Conferred",
    "verse_label": "v. 26",
-   "text": "Bestowed by someone who had it to give. The kingdom is conferred upon Limhi by the people, not inherited from his father, and the record picks a word that names the transfer as an act by the givers. His first use of the office is to swear tribute to a foreign king."
+   "text": "Bestowed by someone who had it to give. Treated at Omni 1:3. The kingdom is conferred upon Limhi by the people, not inherited from his father, and the record picks a word that names the transfer as an act by the givers. His first use of the office is to swear tribute to a foreign king.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Omni 1:3",
+     "start": 51,
+     "end": 59,
+     "book": "Omni",
+     "chapter": 1,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
   },
   {
    "term": "Molest",
@@ -110,7 +134,29 @@
   {
    "term": "Even unto death by fire",
    "verse_label": "v. 20",
-   "text": "The phrase used of Abinadi two chapters earlier, now used of the king who ordered it. Abinadi had said the life of king Noah would be valued as a garment in a hot furnace. The men who carry it out are the ones Noah told to abandon their families."
+   "text": "The phrase used of Abinadi two chapters earlier (Mosiah 17:13), now used of the king who ordered it. Abinadi had said the life of king Noah would be valued as a garment in a hot furnace (Mosiah 12:3). The men who carry it out are the ones Noah told to abandon their families.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 17:13",
+     "start": 49,
+     "end": 61,
+     "book": "Mosiah",
+     "chapter": 17,
+     "verse_start": 13,
+     "verse_end": 13
+    },
+    {
+     "kind": "scripture",
+     "text": "Mosiah 12:3",
+     "start": 187,
+     "end": 198,
+     "book": "Mosiah",
+     "chapter": 12,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
   },
   {
    "term": "After they had ended the ceremony",
@@ -125,53 +171,32 @@
  ],
  "verses": [
   {
-   "label": "v. 1–4",
-   "start": 1,
-   "end": 4,
-   "title": "A sword at home",
-   "text": "The manhunt fails, the forces shrink, the people split, and a man named Gideon draws on the king. Four verses take the kingdom from a search party to an assassination attempt, and nothing supernatural is involved in any of it."
-  },
-  {
-   "label": "v. 5–8",
-   "start": 5,
+   "label": "v. 7–8",
+   "start": 7,
    "end": 8,
-   "title": "Up the tower, and a trade",
-   "text": "Noah runs, climbs, sees the Lamanites, and bargains for his life with the news. The record grants that the argument worked and then says what he actually cared about. Gideon's sword goes down for a reason that turns out to be true even though the man saying it was lying about why."
-  },
-  {
-   "label": "v. 9–12",
-   "start": 9,
-   "end": 12,
-   "title": "The order to run",
-   "text": "The king leads the flight, the Lamanites overtake them, and the order comes to leave the wives and children. The verse that follows splits the men in two with no adjectives attached to either group."
+   "title": "A motive asserted over a plea the reader can check",
+   "text": "Verse 7 preserves the king's words exactly: \"Gideon, spare me, for the Lamanites are upon us, and they will destroy us; yea, they will destroy my people.\" Verse 8 then tells the reader how to take them: \"the king was not so much concerned about his people as he was about his own life.\" The plea as quoted argues from the danger to the people. The judgment on it is the writer's, and because the words are given first, a reader is in a position to weigh the two against each other."
   },
   {
    "label": "v. 13–15",
    "start": 13,
    "end": 15,
-   "title": "Daughters, and terms",
-   "text": "The families who stayed send their daughters out to plead. The Lamanites spare them, take them captive, and set the price: Noah handed over, half of everything, and tribute year by year. The colony's whole future is settled in one verse by people who were not consulted."
+   "title": "A mercy with its cause stated bluntly",
+   "text": "The strategy gets a clause and its result gets the next one: those who stayed \"caused that their fair daughters should stand forth and plead with the Lamanites that they would not slay them,\" and \"the Lamanites had compassion on them, for they were charmed with the beauty of their women.\" The record does not attribute the sparing to persuasion or to pity for the argument. It gives a physical cause, and then reports the terms of the survival, that they were taken captive and made to pay one half of all they possessed."
   },
   {
-   "label": "v. 16–17",
-   "start": 16,
-   "end": 17,
-   "title": "A son who is not his father",
-   "text": "Limhi is introduced as one of the captives, wanting his father alive and under no illusions about him. The record calls him a just man in the same sentence that says he knew the iniquities, which makes the judgment and the loyalty coexist."
+   "label": "v. 19–20",
+   "start": 19,
+   "end": 20,
+   "title": "A death by fire, with the reason attached",
+   "text": "The oath comes first: the men \"had sworn in their hearts that they would return to the land of Nephi, and if their wives and their children were slain... that they would seek revenge, and also perish with them.\" Verse 20 then reports what happened when the king forbade the return: \"they were angry with the king, and caused that he should suffer, even unto death by fire.\" The record gives the sworn intention before the killing, so the execution reads as a broken agreement rather than as sudden rage."
   },
   {
-   "label": "v. 18–24",
-   "start": 18,
+   "label": "v. 24",
+   "start": 24,
    "end": 24,
-   "title": "What the men did to the king",
-   "text": "Gideon's scouts find the survivors; the survivors have sworn to go back and avenge or die; the king forbids it; they burn him. Then the priests run, and the men return rejoicing because the families they abandoned were not killed."
-  },
-  {
-   "label": "v. 25–29",
-   "start": 25,
-   "end": 29,
-   "title": "A kingdom on a lease",
-   "text": "An oath from the Lamanite king, an oath from Limhi, half of everything, guards funded by the tribute, and two years of quiet. Limhi is said to establish the kingdom and establish peace, in a chapter where he controls neither."
+   "title": "A word the record never explains",
+   "text": "One noun sits in this chapter with nothing to attach it to: \"after they had ended the ceremony, that they returned to the land of Nephi, rejoicing.\" Ceremony occurs once in the whole volume, here. No rite has been described in the preceding verses, the burning is reported in verse 20 without that name, and nothing after refers back to it. A reader is told a proceeding was concluded and never told what it was."
   }
  ],
  "chapter": [
@@ -183,7 +208,19 @@
   {
    "n": 2,
    "title": "Abinadi's sentence on the king is executed by the king's own people",
-   "text": "The prophecy valued Noah's life as a garment in a hot furnace. He dies by fire in the wilderness, and the men who do it are the ones he ordered to leave their wives behind."
+   "text": "Mosiah 12:3 valued the king's life \"as a garment in a hot furnace,\" and verse 20 reports the manner of death, \"they were angry with the king, and caused that he should suffer, even unto death by fire.\" The men who do it are identified at verses 19 and 20 as the party he had commanded to abandon their families at verse 11. The record supplies the prophecy in one chapter, the order in this one, and the execution seven verses later, and does not remark on the sequence.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 12:3",
+     "start": 0,
+     "end": 11,
+     "book": "Mosiah",
+     "chapter": 12,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
   },
   {
    "n": 3,
@@ -198,7 +235,7 @@
   {
    "n": 5,
    "title": "The colony survives on an act of disobedience",
-   "text": "The order was to abandon dependents. The families that exist afterward are the ones whose men ignored it, and the plea that saves everybody comes from their daughters."
+   "text": "Verse 11 gives the order, \"all the men should leave their wives and their children, and flee,\" and verse 12 records the split, \"there were many that would not leave them, but had rather stay and perish with them. And the rest left their wives and their children and fled.\" Verse 13 has the disobedient group send their daughters to plead, and verse 15 records the terms that follow, possession of the land in exchange for the king. Verse 24 closes on the reason the survivors rejoice, \"because their wives and their children were not slain.\""
   },
   {
    "n": 6,
@@ -396,7 +433,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos11-024"
   },
   {
    "id": "mos19-007",
@@ -500,7 +537,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos11-028"
   },
   {
    "id": "mos19-003",
@@ -604,7 +641,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al02-018"
   },
   {
    "id": "mos19-011",
@@ -630,7 +667,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al01-028"
   },
   {
    "id": "mos19-010",
@@ -656,7 +693,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al01-029"
   },
   {
    "id": "mos19-015",
@@ -853,7 +890,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "3d5032a06e5bd661"
+  "at": "2026-09-07",
+  "source_sha256": "27d8ae3e7593bbbc"
  }
 }

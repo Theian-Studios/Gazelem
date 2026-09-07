@@ -17,9 +17,9 @@
   "principles": [
    "Terms offered from a position of advantage",
    "An oath refused honestly",
-   ""
+   "The record of Alma closed"
   ],
-  "connections": 9,
+  "connections": 13,
   "initial": true
  },
  "world_behind": [
@@ -63,7 +63,19 @@
   {
    "term": "Yoke",
    "verse_label": "v. 2",
-   "text": "The wooden bar across the necks of draft animals, and so a figure for servitude. The phrase yoke of bondage occurs five times in this record and once in the King James Bible, where Paul tells the Galatians not to be entangled with it again."
+   "text": "The wooden bar across the necks of draft animals, and so a figure for servitude. The phrase yoke of bondage occurs five times in this record and once in the King James Bible, where Paul tells the Galatians not to be entangled with it again (Gal. 5:1).",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Gal. 5:1",
+     "start": 241,
+     "end": 249,
+     "book": "Gal",
+     "chapter": 5,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
   },
   {
    "term": "Scalp",
@@ -100,7 +112,7 @@
   {
    "term": "Numbered",
    "verse_label": "v. 21",
-   "text": "Counted. Mormon says the dead were not numbered because of the greatness of the number, on both sides. Alma 28 and Alma 30 both use the same admission after large battles."
+   "text": "Counted. Treated at 1 Nephi 14:2. Mormon says the dead were not numbered because of the greatness of the number, on both sides. Alma 28 and Alma 30 both use the same admission after large battles."
   }
  ],
  "phrases": [
@@ -162,53 +174,65 @@
  ],
  "verses": [
   {
-   "label": "v. 1–7",
+   "label": "v. 1–2",
    "start": 1,
-   "end": 7,
-   "title": "The terms",
-   "text": "Both sides withdraw a pace. Moroni says the Nephites are not men of blood and do not want bondage, that the anger against them is religious, and that God has delivered the Lamanites into their hands. He commands them by everything he holds sacred to give up their weapons and covenant not to return, and states what follows if they refuse."
+   "end": 2,
+   "title": "Terms opened by denying two motives",
+   "text": "The record has the demand begin with what is not being sought: \"we have not come out to battle against you that we might shed your blood for power; neither do we desire to bring any one to the yoke of bondage.\" Only after both denials does the positive claim arrive at verse 3, \"ye behold that the Lord is with us.\" A negotiation that ends with a demand for total disarmament opens by ruling out conquest and slavery as its purposes."
+  },
+  {
+   "label": "v. 5–6",
+   "start": 5,
+   "end": 6,
+   "title": "The same demand made under two different appeals",
+   "text": "The record puts the two versions in consecutive verses and the grounds are opposite in kind. Verse 5: \"I command you, in the name of that all-powerful God, who has strengthened our arms that we have gained power over you.\" Verse 6: \"I command you by all the desires which ye have for life, that ye deliver up your weapons of war unto us.\" One appeal is to a God the hearers do not accept and the other is to something no hearer can deny, and the record keeps both rather than choosing."
   },
   {
    "label": "v. 8–9",
    "start": 8,
    "end": 9,
-   "title": "The refusal",
-   "text": "Zerahemnah hands over sword, cimeter, and bow, and declines the oath because he knows he would break it. He denies that God did any of this and credits Nephite cunning, armor, and shields."
+   "title": "The enemy's alternative explanation, preserved",
+   "text": "The surrender comes with a refusal to concede the reasoning behind it: \"we are not of your faith; we do not believe that it is God that has delivered us into your hands; but we believe that it is your cunning that has preserved you from our swords.\" The record then names the specific evidence he means, \"your breastplates and your shields have preserved you.\" A rival account of the victory is stated in the enemy's own words, and it is the same account any observer of the previous chapter's armour could give."
   },
   {
-   "label": "v. 10–12",
-   "start": 10,
-   "end": 12,
-   "title": "The weapons returned",
-   "text": "Moroni hands the weapons back and says the conflict is over, then holds to his own words: no departure without the oath. Zerahemnah keeps his sword, rushes at Moroni, has the blade broken at the hilt and his scalp taken, and withdraws into his men."
+   "label": "v. 11",
+   "start": 11,
+   "end": 11,
+   "title": "A commander bound by his own sentence",
+   "text": "The record reports a refusal grounded in words already spoken: \"Now I cannot recall the words which I have spoken, therefore as the Lord liveth, ye shall not depart except ye depart with an oath.\" The oath had been demanded at verse 6 as a condition of release. Having offered it once, the man who set the terms cannot now soften them, and the record supplies that as the reason rather than any judgment about the enemy."
   },
   {
-   "label": "v. 13–15",
-   "start": 13,
-   "end": 15,
-   "title": "The soldier's sermon",
-   "text": "The soldier lifts the scalp on his sword point and tells the army they will fall the same way unless they give up their weapons and covenant peace. Many are struck with fear, throw down their weapons at Moroni's feet, and are let go into the wilderness."
+   "label": "v. 12–14",
+   "start": 12,
+   "end": 14,
+   "title": "A speech made from a scalp on a sword",
+   "text": "The record reports the object and its use in two sentences: \"the soldier who stood by, who smote off the scalp of Zerahemnah, took up the scalp from off the ground by the hair, and laid it upon the point of his sword.\" Then the address, which turns the object into an argument: \"Even as this scalp has fallen to the earth, which is the scalp of your chief, so shall ye fall to the earth except ye will deliver up your weapons of war and depart with a covenant of peace.\" Verse 15 reports that it worked on some and not on others."
   },
   {
-   "label": "v. 16–18",
-   "start": 16,
+   "label": "v. 18",
+   "start": 18,
    "end": 18,
-   "title": "The rest fight",
-   "text": "Zerahemnah stirs the remainder to fight harder. Moroni, angry at the stubbornness, orders the attack. Naked skins and bare heads against sharp swords, and they fall exceedingly fast, as the soldier had said."
+   "title": "The armour gap named as the cause",
+   "text": "The record explains the casualties by equipment rather than by courage: \"their naked skins and their bare heads were exposed to the sharp swords of the Nephites; yea, behold they were pierced and smitten, yea, and did fall exceedingly fast before the swords of the Nephites.\" The disparity was set out at Alma 43:19–21, where one side has breastplates, arm-shields and head-plates and the other is naked except for a skin about the loins. Two chapters later the record uses that description to account for a battlefield.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 43:19–21",
+     "start": 305,
+     "end": 318,
+     "book": "Alma",
+     "chapter": 43,
+     "verse_start": 19,
+     "verse_end": 21
+    }
+   ]
   },
   {
-   "label": "v. 19–21",
-   "start": 19,
-   "end": 21,
-   "title": "The second surrender",
-   "text": "Zerahemnah sees them about to be destroyed and cries out, promising the covenant for himself and his people. Moroni stops the work of death again, takes the weapons, and lets them depart. The dead on both sides are past counting."
-  },
-  {
-   "label": "v. 22–24",
-   "start": 22,
-   "end": 24,
-   "title": "The close",
-   "text": "The dead are cast into Sidon and buried in the depths of the sea. The armies go home. The eighteenth year ends, and with it the record of Alma on the plates of Nephi."
+   "label": "v. 21–22",
+   "start": 21,
+   "end": 22,
+   "title": "Dead uncounted, and disposed of in a river",
+   "text": "The record concedes that it cannot supply a figure and says why: \"the number of their dead was not numbered because of the greatness of the number; yea, the number of their dead was exceedingly great, both on the Nephites and on the Lamanites.\" Verse 22 gives the disposal and follows it out of sight: \"they did cast their dead into the waters of Sidon, and they have gone forth and are buried in the depths of the sea.\" The tense shifts to the perfect, so the bodies are described as still where the river left them."
   }
  ],
  "chapter": [
@@ -268,6 +292,11 @@
  "world_in_front": {
   "applications": [
    {
+    "title": "Name the actual dispute before you argue it",
+    "verse_label": "v. 2",
+    "text": "Moroni told the Lamanites the cause of the war was their anger at Nephite religion, not the account they had given of it. When a conflict is running on a stated grievance you think is a cover, say what you believe the real subject is before you start negotiating the stated one."
+   },
+   {
     "title": "State the terms and the alternative plainly",
     "verse_label": "v. 6–7",
     "text": "Moroni said exactly what he wanted and exactly what would follow otherwise. When you have leverage, say both halves out loud instead of implying the second."
@@ -278,14 +307,29 @@
     "text": "Zerahemnah refused an oath on the grounds of self-knowledge. When you are asked to commit to something you do not think you will hold, say so instead of agreeing."
    },
    {
+    "title": "Let the other side keep their explanation",
+    "verse_label": "v. 9",
+    "text": "Zerahemnah credited Nephite armor and cunning, and Moroni did not stop to argue the point. When someone concedes the outcome but not your account of why, you can take the outcome; winning the explanation is a separate job for a later day."
+   },
+   {
     "title": "Hold yourself to what you already said",
     "verse_label": "v. 11",
     "text": "Moroni had given his terms and would not withdraw them when they became inconvenient. Before you make an offer, decide whether you will keep it if the situation changes."
    },
    {
+    "title": "Argue from what everyone just watched",
+    "verse_label": "v. 13–14",
+    "text": "The soldier took an accident of the fight, lifted the scalp on his sword, and made it the terms: \"so shall ye fall\". When you need to persuade a crowd quickly, your strongest evidence is usually the thing they have all just seen with their own eyes."
+   },
+   {
     "title": "Stop when they yield",
     "verse_label": "v. 20",
     "text": "Moroni ended the work of death twice in one chapter. When someone concedes, the useful move is to accept it instead of finishing the point."
+   },
+   {
+    "title": "Record that you could not count it",
+    "verse_label": "v. 21",
+    "text": "The chapter closes the battle with a refusal to give a total, blaming the greatness of the number. When your data ran out, write down that it ran out instead of offering an estimate your reader will treat as a count."
    }
   ],
   "questions": [
@@ -370,7 +414,7 @@
     "w2": 44,
     "quote": "this is the very cause for which ye have come against us"
    },
-   "reason": "Zerahemnah’s designs, stated before the campaign began",
+   "reason": "Zerahemnah's designs, stated before the campaign began",
    "targets": [
     {
      "ref": "Alma",
@@ -384,7 +428,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al43-013"
   },
   {
    "id": "al44-003",
@@ -422,7 +466,7 @@
     "w2": 31,
     "quote": "the yoke of bondage"
    },
-   "reason": "the phrase as Mormon uses it of the next Lamanite campaign",
+   "reason": "the phrase as Mormon uses it next campaign",
    "targets": [
     {
      "ref": "Alma",
@@ -436,7 +480,85 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al49-010"
+  },
+  {
+   "id": "al44-010",
+   "scope": "BOOK",
+   "head": "Alma 46:18",
+   "anchor": {
+    "verse": 4,
+    "w1": 50,
+    "w2": 55,
+    "quote": "except we should fall into transgression"
+   },
+   "reason": "Moroni on the rent coat, naming the same limit",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 46,
+     "verse": 18,
+     "w1": 29,
+     "w2": 38,
+     "quote": "until we bring it upon us by our own transgressions.",
+     "verse_text": "And he said: Surely God shall not suffer that we, who are despised because we take upon us the name of Christ, shall be trodden down and destroyed, until we bring it upon us by our own transgressions.",
+     "markdown": "And he said: Surely God shall not suffer that we, who are despised because we take upon us the name of Christ, shall be trodden down and destroyed, **until we bring it upon us by our own transgressions**.",
+     "span": true
+    }
+   ],
+   "mirror": "al46-002"
+  },
+  {
+   "id": "al44-011",
+   "scope": "BOOK",
+   "head": "Alma 49:7",
+   "anchor": {
+    "verse": 8,
+    "w1": 18,
+    "w2": 24,
+    "quote": "delivered up his sword and his cimeter,"
+   },
+   "reason": "the Lamanite purpose, stated at the next assault",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 49,
+     "verse": 7,
+     "w1": 13,
+     "w2": 20,
+     "quote": "subject their brethren to the yoke of bondage,",
+     "verse_text": "And being thus prepared they supposed that they should easily overpower and subject their brethren to the yoke of bondage, or slay and massacre them according to their pleasure.",
+     "markdown": "And being thus prepared they supposed that they should easily overpower and **subject their brethren to the yoke of bondage**, or slay and massacre them according to their pleasure.",
+     "span": true
+    }
+   ],
+   "mirror": "al49-005"
+  },
+  {
+   "id": "al44-013",
+   "scope": "BOOK",
+   "head": "Alma 3:1",
+   "anchor": {
+    "verse": 21,
+    "w1": 2,
+    "w2": 16,
+    "quote": "the number of their dead was not numbered because of the greatness of the number;"
+   },
+   "reason": "the same sentence, after the Amlicite war",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 3,
+     "verse": 1,
+     "w1": 26,
+     "w2": 40,
+     "quote": "the number of the slain were not numbered, because of the greatness of their number—after",
+     "verse_text": "And it came to pass that the Nephites who were not slain by the weapons of war, after having buried those who had been slain—now the number of the slain were not numbered, because of the greatness of their number—after they had finished burying their dead they all returned to their lands, and to their houses, and their wives, and their children.",
+     "markdown": "And it came to pass that the Nephites who were not slain by the weapons of war, after having buried those who had been slain—now **the number of the slain were not numbered, because of the greatness of their number—after** they had finished burying their dead they all returned to their lands, and to their houses, and their wives, and their children.",
+     "span": true
+    }
+   ],
+   "mirror": "al03-003"
   },
   {
    "id": "al44-005",
@@ -448,7 +570,7 @@
     "w2": 50,
     "quote": "it broke by the hilt"
    },
-   "reason": "Nephi taking Laban’s sword by the same part",
+   "reason": "Nephi taking Laban's sword by the same part",
    "targets": [
     {
      "ref": "1 Ne.",
@@ -462,7 +584,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "1ne04-014"
   },
   {
    "id": "al44-006",
@@ -474,7 +596,7 @@
     "w2": 31,
     "quote": "the yoke of bondage"
    },
-   "reason": "Limhi’s people under the yoke Moroni refuses to impose",
+   "reason": "Limhi's people under the yoke Moroni refuses to impose",
    "targets": [
     {
      "ref": "Mosiah",
@@ -488,7 +610,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos21-022"
+  },
+  {
+   "id": "al44-012",
+   "scope": "BOM",
+   "head": "Mosiah 17:9",
+   "anchor": {
+    "verse": 11,
+    "w1": 2,
+    "w2": 10,
+    "quote": "I cannot recall the words which I have spoken,"
+   },
+   "reason": "Abinadi refusing to recall his words before the fire",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 17,
+     "verse": 9,
+     "w1": 37,
+     "w2": 47,
+     "quote": "I have suffered myself that I have fallen into your hands.",
+     "verse_text": "Now Abinadi said unto him: I say unto you, I will not recall the words which I have spoken unto you concerning this people, for they are true; and that ye may know of their surety I have suffered myself that I have fallen into your hands.",
+     "markdown": "Now Abinadi said unto him: I say unto you, I will not recall the words which I have spoken unto you concerning this people, for they are true; and that ye may know of their surety **I have suffered myself that I have fallen into your hands**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos17-016"
   },
   {
    "id": "al44-007",
@@ -500,7 +648,7 @@
     "w2": 31,
     "quote": "the yoke of bondage"
    },
-   "reason": "Paul’s warning against being entangled again",
+   "reason": "Paul's warning against being entangled again",
    "targets": [
     {
      "ref": "Gal.",
@@ -526,7 +674,7 @@
     "w2": 61,
     "quote": "he took off his scalp"
    },
-   "reason": "the King James Bible’s one use of the word",
+   "reason": "the King James Bible's one use of the word",
    "targets": [
     {
      "ref": "Ps.",
@@ -552,7 +700,7 @@
     "w2": 39,
     "quote": "depart with a covenant of peace"
    },
-   "reason": "the same phrase, of a covenant God makes with his flock",
+   "reason": "the same phrase, of a covenant with his flock",
    "targets": [
     {
      "ref": "Ezek.",
@@ -591,6 +739,15 @@
    ]
   },
   {
+   "verse": 4,
+   "w1": 50,
+   "w2": 55,
+   "quote": "except we should fall into transgression",
+   "entries": [
+    "al44-010"
+   ]
+  },
+  {
    "verse": 5,
    "w1": 44,
    "w2": 55,
@@ -600,12 +757,30 @@
    ]
   },
   {
+   "verse": 8,
+   "w1": 18,
+   "w2": 24,
+   "quote": "delivered up his sword and his cimeter,",
+   "entries": [
+    "al44-011"
+   ]
+  },
+  {
    "verse": 9,
    "w1": 39,
    "w2": 49,
    "quote": "it is your breastplates and your shields that have preserved you",
    "entries": [
     "al44-001"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 2,
+   "w2": 10,
+   "quote": "I cannot recall the words which I have spoken,",
+   "entries": [
+    "al44-012"
    ]
   },
   {
@@ -634,10 +809,19 @@
    "entries": [
     "al44-009"
    ]
+  },
+  {
+   "verse": 21,
+   "w1": 2,
+   "w2": 16,
+   "quote": "the number of their dead was not numbered because of the greatness of the number;",
+   "entries": [
+    "al44-013"
+   ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "231d778c1c4320aa"
+  "at": "2026-09-07",
+  "source_sha256": "686a75aecd1650ce"
  }
 }

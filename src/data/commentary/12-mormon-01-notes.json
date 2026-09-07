@@ -1,0 +1,721 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Mormon",
+  "book_slug": "mormon",
+  "chapter": 1,
+  "volume_order": "12",
+  "speakers": [
+   "Mormon",
+   "Ammaron"
+  ],
+  "audience": "The reader",
+  "location": "The land northward, then Zarahemla",
+  "date": "About AD 321 to AD 326",
+  "unit": "Mormon's boyhood and charge (Mormon 1)",
+  "principles": [
+   "A charge given to a ten-year-old",
+   "Gifts withdrawn from a whole people",
+   "A boy visited and then forbidden to speak"
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The book names itself in its first sentence",
+   "text": "Verse 1 says he calls it the Book of Mormon."
+  },
+  {
+   "n": 2,
+   "title": "His qualification is observation",
+   "text": "Verse 2 has Ammaron call him a sober child, quick to observe. 4 Nephi 1:48 dates Ammaron hiding the records at three hundred and twenty years, which is the same year, so the custodian chose his successor on the day he buried the collection."
+  },
+  {
+   "n": 3,
+   "title": "The assignment is dated fourteen years out",
+   "text": "Verse 3 tells him to act when he is about twenty-four. Mormon 2:17 reports him going according to the word of Ammaron and taking the plates of Nephi, in the three hundred and forty-fifth year, which is fourteen years after the instruction and exactly on schedule."
+  },
+  {
+   "n": 4,
+   "title": "He is named for his father",
+   "text": "Verse 5 gives the father's name as Mormon too."
+  },
+  {
+   "n": 5,
+   "title": "The seven lineage names are back in use",
+   "text": "Verses 8 and 9 list the seven lineage names and then collapse them into two parties. Jacob 1:13 had established the same seven about five hundred years before Christ, and 4 Nephi 1:36 to 38 shows them coming back into use after two centuries in which nobody used any of them.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 1:13",
+     "start": 85,
+     "end": 95,
+     "book": "Jacob",
+     "chapter": 1,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "The withdrawal is described in stages",
+   "text": "Verse 13 removes the disciples and the miracles, and verse 14 removes the gifts and the Holy Ghost. 4 Nephi 1:14 had the twelve chosen by Jesus already gone save the three who tarry; this is the point at which the three go too, and the record dates it inside four years of peace."
+  },
+  {
+   "n": 7,
+   "title": "He is silenced",
+   "text": "Verses 16 and 17 say twice that he was forbidden to preach. Mormon 3:2 has the Lord tell him to cry repentance to the same people about thirty years later, so the prohibition was for a season and the record marks both ends of it."
+  }
+ ],
+ "words": [
+  {
+   "term": "Sober",
+   "verse_label": "v. 2",
+   "text": "Serious, steady, not given to excess. Treated at Alma 37:47. The record uses the word four times, twice in this chapter, and the King James Bible twelve.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 37:47",
+     "start": 49,
+     "end": 59,
+     "book": "Alma",
+     "chapter": 37,
+     "verse_start": 47,
+     "verse_end": 47
+    }
+   ]
+  },
+  {
+   "term": "Engravings",
+   "verse_label": "v. 3",
+   "text": "Marks cut into metal, and the records made that way. Treated at Alma 63:12. It appears twelve times in the record, and the King James Bible five, all in Exodus.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 63:12",
+     "start": 64,
+     "end": 74,
+     "book": "Alma",
+     "chapter": 63,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
+  },
+  {
+   "term": "Endeavor",
+   "verse_label": "v. 16",
+   "text": "To make an attempt, to try. The record uses the word six times and the King James Bible not at all. Verse 16 uses it of preaching he was not allowed to do."
+  },
+  {
+   "term": "Infest",
+   "verse_label": "v. 18",
+   "text": "To overrun, to be present in troubling numbers. The record uses the word twice, here and at 3 Nephi 1:27, while the King James Bible has none. Verse 18 uses it of the Gadianton robbers."
+  },
+  {
+   "term": "Slippery",
+   "verse_label": "v. 18",
+   "text": "Unable to be held. Treated at Helaman 13:31. Its count is four times, three of them in that Helaman chapter, in this book, while the King James Bible three."
+  },
+  {
+   "term": "Sorceries",
+   "verse_label": "v. 19",
+   "text": "Attempts to gain power by hidden arts. It turns up twice, here and at Alma 1:32, against five in the King James Bible.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 1:32",
+     "start": 70,
+     "end": 79,
+     "book": "Alma",
+     "chapter": 1,
+     "verse_start": 32,
+     "verse_end": 32
+    }
+   ]
+  },
+  {
+   "term": "Magics",
+   "verse_label": "v. 19",
+   "text": "Practices of magic. This record has it once, here, and none in the King James Bible. Verse 19 places it third in a list of three."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "I, Mormon, make a record of the things which I have both seen and heard",
+   "verse_label": "v. 1",
+   "text": "The whole book described in one clause. Seeing and hearing are the two sources he claims."
+  },
+  {
+   "term": "And call it the Book of Mormon",
+   "verse_label": "v. 1",
+   "text": "The title given by the man who made it. The naming happens in the first sentence."
+  },
+  {
+   "term": "I perceive that thou art a sober child, and art quick to observe",
+   "verse_label": "v. 2",
+   "text": "The reason a ten-year-old is chosen. Ammaron names two qualities and neither is learning."
+  },
+  {
+   "term": "When ye are about twenty and four years old",
+   "verse_label": "v. 3",
+   "text": "An instruction with a fourteen-year delay. The boy is told to remember until then."
+  },
+  {
+   "term": "Ye shall engrave on the plates of Nephi all the things that ye have observed",
+   "verse_label": "v. 4",
+   "text": "The assignment is to record his own observation. Verse 2 had already called that his gift."
+  },
+  {
+   "term": "The people were as numerous almost, as it were the sand of the sea",
+   "verse_label": "v. 7",
+   "text": "The land at its fullest. What follows in this book is the emptying of it."
+  },
+  {
+   "term": "The Lord did take away his beloved disciples",
+   "verse_label": "v. 13",
+   "text": "The three of 3 Nephi 28 removed. Verse 13 gives iniquity as the reason."
+  },
+  {
+   "term": "There were no gifts from the Lord, and the Holy Ghost did not come upon any",
+   "verse_label": "v. 14",
+   "text": "The withdrawal stated at its widest. Not one person is excepted."
+  },
+  {
+   "term": "I was visited of the Lord, and tasted and knew of the goodness of Jesus",
+   "verse_label": "v. 15",
+   "text": "A personal exception in the same chapter as the general withdrawal. He is fifteen."
+  },
+  {
+   "term": "My mouth was shut, and I was forbidden that I should preach",
+   "verse_label": "v. 16",
+   "text": "The silencing stated in two ways. Verse 17 gives the reason as the hardness of their hearts."
+  },
+  {
+   "term": "But I did remain among them",
+   "verse_label": "v. 17",
+   "text": "One clause on what he did with the silence. He stayed where he could not speak."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1",
+   "start": 1,
+   "end": 1,
+   "title": "The record names itself, once",
+   "text": "The opening sentence supplies a title in the first person: \"I, Mormon, make a record of the things which I have both seen and heard, and call it the Book of Mormon.\" The phrase \"Book of Mormon\" appears in this verse and in no other verse of the whole record. A volume that has been running for five hundred pages under other headings gets its name here, from the man whose name it takes, in a sentence that also states his qualification as a witness of what he reports."
+  },
+  {
+   "label": "v. 2–5",
+   "start": 2,
+   "end": 5,
+   "title": "Two parentheses carrying the writer's whole biography",
+   "text": "The record hands over the facts about its author inside brackets: \"(I being about ten years of age, and I began to be learned somewhat after the manner of the learning of my people)\" at verse 2, and \"(and my father's name was Mormon)\" at verse 5. Age, schooling, and parentage, all of it parenthetical. Everything else in the passage belongs to Ammaron's instructions, so the only autobiography in the chapter's opening is the material the sentences could have done without."
+  },
+  {
+   "label": "v. 3–4",
+   "start": 3,
+   "end": 4,
+   "title": "A commission with a date, a place, and a limit",
+   "text": "The instruction is specific on all three: wait until \"twenty and four years old,\" go \"to the land Antum, unto a hill which shall be called Shim,\" and take the plates of Nephi \"and the remainder shall ye leave in the place where they are.\" A boy of ten is given a task fourteen years out, with an inventory restriction attached. The record reports the appointment being kept at Mormon 2:17, in the year 345 and near the city of Jashon, \"according to the word of Ammaron.\" What it does not report is Mormon reaching the hill Shim at twenty-four, so the errand is confirmed and its stated date is not."
+  },
+  {
+   "label": "v. 15–17",
+   "start": 15,
+   "end": 17,
+   "title": "A prohibition on preaching, stated twice",
+   "text": "The record gives the ban in verse 16, \"my mouth was shut, and I was forbidden that I should preach unto them,\" and then again in verse 17, \"I was forbidden to preach unto them, because of the hardness of their hearts.\" Two statements of the same prohibition in consecutive verses, with different reasons attached: wilful rebellion in one and hardness of heart in the other. Verse 15 has just recorded a personal visitation at fifteen, so the record places the calling and the silencing side by side and never resolves the tension."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The record is named before it is made",
+   "text": "Verse 1 gives the title and verse 4 gives the assignment. The reader is told what this is from the first line."
+  },
+  {
+   "n": 2,
+   "title": "A child is chosen for watching, not for learning",
+   "text": "Verse 2 names sober and quick to observe. Verse 2 mentions his learning in parentheses and Ammaron does not cite it."
+  },
+  {
+   "n": 3,
+   "title": "The charge sits unused for fourteen years",
+   "text": "Verse 3 sets the date at twenty-four. Most of the assignment is waiting."
+  },
+  {
+   "n": 4,
+   "title": "The lineage names return in force",
+   "text": "Verses 8 and 9 use all seven, then reduce them to two. 4 Nephi 1:17 had erased every one of them."
+  },
+  {
+   "n": 5,
+   "title": "The gifts go before the wars do",
+   "text": "Verses 13 and 14 come before the long decline. The book treats the spiritual loss as the first casualty."
+  },
+  {
+   "n": 6,
+   "title": "One boy is excepted",
+   "text": "Verse 15 has him visited in the same paragraph that says the Holy Ghost came upon no one. The record does not smooth this over."
+  },
+  {
+   "n": 7,
+   "title": "He is stopped from doing the obvious thing",
+   "text": "Verse 16 has him forbidden to preach. The one useful response available to him is closed off."
+  },
+  {
+   "n": 8,
+   "title": "The chapter ends on fulfilled prophecy",
+   "text": "Verse 19 names Abinadi and Samuel the Lamanite. Words spoken centuries apart land in the same sentence."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Name the thing you are making",
+    "verse_label": "v. 1",
+    "text": "Mormon's opening sentence says he records what he has seen and heard, and calls it the Book of Mormon. Deciding what a piece of work is and giving it a name is what turns a pile of notes into a project."
+   },
+   {
+    "title": "Notice who is watching",
+    "verse_label": "v. 2",
+    "text": "Ammaron picked a ten-year-old for being observant. The quality that qualified him is available at any age."
+   },
+   {
+    "title": "Carry an assignment you cannot act on yet",
+    "verse_label": "v. 3",
+    "text": "Fourteen years passed between the charge and the doing. Remembering is sometimes the whole of the work for a long time."
+   },
+   {
+    "title": "Peak size is not peak health",
+    "verse_label": "v. 7",
+    "text": "The whole face of the land was covered with buildings and the people were almost as the sand of the sea, and the war starts in the next verse. The two measurements are different, and the chapter puts them side by side on purpose."
+   },
+   {
+    "title": "Expect the gifts to go quietly",
+    "verse_label": "v. 14",
+    "text": "No announcement, just absence. What is lost first is often noticed last."
+   },
+   {
+    "title": "Fifteen is old enough",
+    "verse_label": "v. 15",
+    "text": "Mormon reports that he was fifteen years of age, of a sober mind, and was visited of the Lord. The record gives an age rather than a stage of life, and the age is younger than most people would guess."
+   },
+   {
+    "title": "Stay when you cannot speak",
+    "verse_label": "v. 17",
+    "text": "He was forbidden to preach and remained among them. Presence is a form of service when speech is closed."
+   },
+   {
+    "title": "Old warnings can be filling in around you",
+    "verse_label": "v. 19",
+    "text": "The sorceries and witchcrafts of that year are described as fulfilling the words of Abinadi and of Samuel the Lamanite. Recognizing that you are living inside something already written about changes what you do next."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What have I seen and heard that only I can record?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Am I quick to observe, or only quick to speak?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What was I told years ago that I am still meant to do?"
+   },
+   {
+    "verse_label": "v. 14",
+    "start": 14,
+    "end": 14,
+    "text": "What gift have I stopped expecting?"
+   },
+   {
+    "verse_label": "v. 15",
+    "start": 15,
+    "end": 15,
+    "text": "When did I last taste and know the goodness of Jesus?"
+   },
+   {
+    "verse_label": "v. 16",
+    "start": 16,
+    "end": 16,
+    "text": "What have I been unable to say, and to whom?"
+   },
+   {
+    "verse_label": "v. 18",
+    "start": 18,
+    "end": 18,
+    "text": "What am I holding that keeps turning slippery?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "morm01-005",
+   "scope": "BOOK",
+   "head": "Morm. 2:1",
+   "anchor": {
+    "verse": 15,
+    "w1": 1,
+    "w2": 7,
+    "quote": "And I, being fifteen years of age"
+   },
+   "reason": "the same year, given again as his year of leadership",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 2,
+     "verse": 1,
+     "w1": 24,
+     "w2": 31,
+     "quote": "notwithstanding I being young, was large in stature;",
+     "verse_text": "And it came to pass in that same year there began to be a war again between the Nephites and the Lamanites. And notwithstanding I being young, was large in stature; therefore the people of Nephi appointed me that I should be their leader, or the leader of their armies.",
+     "markdown": "And it came to pass in that same year there began to be a war again between the Nephites and the Lamanites. And **notwithstanding I being young, was large in stature**; therefore the people of Nephi appointed me that I should be their leader, or the leader of their armies.",
+     "span": true
+    }
+   ],
+   "mirror": "morm02-001"
+  },
+  {
+   "id": "morm01-006",
+   "scope": "BOOK",
+   "head": "Morm. 6:6",
+   "anchor": {
+    "verse": 4,
+    "w1": 3,
+    "w2": 11,
+    "quote": "ye shall take the plates of Nephi unto yourself"
+   },
+   "reason": "the plates he keeps, and the records he later hides",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 6,
+     "verse": 6,
+     "w1": 80,
+     "w2": 89,
+     "quote": "I made this record out of the plates of Nephi,",
+     "verse_text": "And it came to pass that when we had gathered in all our people in one to the land of Cumorah, behold I, Mormon, began to be old; and knowing it to be the last struggle of my people, and having been commanded of the Lord that I should not suffer the records which had been handed down by our fathers, which were sacred, to fall into the hands of the Lamanites, (for the Lamanites would destroy them) therefore I made this record out of the plates of Nephi, and hid up in the hill Cumorah all the records which had been entrusted to me by the hand of the Lord, save it were these few plates which I gave unto my son Moroni.",
+     "markdown": "And it came to pass that when we had gathered in all our people in one to the land of Cumorah, behold I, Mormon, began to be old; and knowing it to be the last struggle of my people, and having been commanded of the Lord that I should not suffer the records which had been handed down by our fathers, which were sacred, to fall into the hands of the Lamanites, (for the Lamanites would destroy them) therefore **I made this record out of the plates of Nephi**, and hid up in the hill Cumorah all the records which had been entrusted to me by the hand of the Lord, save it were these few plates which I gave unto my son Moroni.",
+     "span": true
+    }
+   ],
+   "mirror": "morm06-001"
+  },
+  {
+   "id": "morm01-001",
+   "scope": "BOM",
+   "head": "3 Ne. 5:20",
+   "anchor": {
+    "verse": 1,
+    "w1": 3,
+    "w2": 17,
+    "quote": "I, Mormon, make a record of the things which I have both seen and heard"
+   },
+   "reason": "his own introduction, in the middle of the abridgment",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 5,
+     "verse": 20,
+     "w1": 1,
+     "w2": 9,
+     "quote": "I am Mormon, and a pure descendant of Lehi.",
+     "verse_text": "I am Mormon, and a pure descendant of Lehi. I have reason to bless my God and my Savior Jesus Christ, that he brought our fathers out of the land of Jerusalem, (and no one knew it save it were himself and those whom he brought out of that land) and that he hath given me and my people so much knowledge unto the salvation of our souls.",
+     "markdown": "**I am Mormon, and a pure descendant of Lehi**. I have reason to bless my God and my Savior Jesus Christ, that he brought our fathers out of the land of Jerusalem, (and no one knew it save it were himself and those whom he brought out of that land) and that he hath given me and my people so much knowledge unto the salvation of our souls.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne05-006"
+  },
+  {
+   "id": "morm01-002",
+   "scope": "BOM",
+   "head": "4 Ne. 1:48",
+   "anchor": {
+    "verse": 3,
+    "w1": 47,
+    "w2": 60,
+    "quote": "there have I deposited unto the Lord all the sacred engravings concerning this people"
+   },
+   "reason": "the hiding Ammaron had just carried out",
+   "targets": [
+    {
+     "ref": "4 Ne.",
+     "chapter": 1,
+     "verse": 48,
+     "w1": 23,
+     "w2": 30,
+     "quote": "did hide up the records which were sacred—yea,",
+     "verse_text": "And it came to pass that when three hundred and twenty years had passed away, Ammaron, being constrained by the Holy Ghost, did hide up the records which were sacred—yea, even all the sacred records which had been handed down from generation to generation, which were sacred—even until the three hundred and twentieth year from the coming of Christ.",
+     "markdown": "And it came to pass that when three hundred and twenty years had passed away, Ammaron, being constrained by the Holy Ghost, **did hide up the records which were sacred—yea**, even all the sacred records which had been handed down from generation to generation, which were sacred—even until the three hundred and twentieth year from the coming of Christ.",
+     "span": true
+    }
+   ],
+   "mirror": "4ne01-008"
+  },
+  {
+   "id": "morm01-003",
+   "scope": "BOM",
+   "head": "3 Ne. 7:22",
+   "anchor": {
+    "verse": 13,
+    "w1": 23,
+    "w2": 38,
+    "quote": "the work of miracles and of healing did cease because of the iniquity of the people"
+   },
+   "reason": "the same gifts at work three centuries earlier",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 7,
+     "verse": 22,
+     "w1": 43,
+     "w2": 55,
+     "quote": "did show forth signs also and did do some miracles among the people.",
+     "verse_text": "And as many as had devils cast out from them, and were healed of their sicknesses and their infirmities, did truly manifest unto the people that they had been wrought upon by the Spirit of God, and had been healed; and they did show forth signs also and did do some miracles among the people.",
+     "markdown": "And as many as had devils cast out from them, and were healed of their sicknesses and their infirmities, did truly manifest unto the people that they had been wrought upon by the Spirit of God, and had been healed; and they **did show forth signs also and did do some miracles among the people**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne07-008"
+  },
+  {
+   "id": "morm01-004",
+   "scope": "BOM",
+   "head": "Hel. 13:31",
+   "anchor": {
+    "verse": 18,
+    "w1": 29,
+    "w2": 38,
+    "quote": "they became slippery, because the Lord had cursed the land"
+   },
+   "reason": "Samuel's curse reported as ordinary life",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 13,
+     "verse": 31,
+     "w1": 7,
+     "w2": 19,
+     "quote": "he curseth your riches, that they become slippery, that ye cannot hold them;",
+     "verse_text": "And behold, the time cometh that he curseth your riches, that they become slippery, that ye cannot hold them; and in the days of your poverty ye cannot retain them.",
+     "markdown": "And behold, the time cometh that **he curseth your riches, that they become slippery, that ye cannot hold them**; and in the days of your poverty ye cannot retain them.",
+     "span": true
+    }
+   ],
+   "mirror": "hel13-005"
+  },
+  {
+   "id": "morm01-007",
+   "scope": "BOM",
+   "head": "Mosiah 12:8",
+   "anchor": {
+    "verse": 19,
+    "w1": 30,
+    "w2": 39,
+    "quote": "even unto the fulfilling of all the words of Abinadi"
+   },
+   "reason": "the prophecy Abinadi gave before Noah",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 12,
+     "verse": 8,
+     "w1": 8,
+     "w2": 22,
+     "quote": "except they repent I will utterly destroy them from off the face of the earth;",
+     "verse_text": "And it shall come to pass that except they repent I will utterly destroy them from off the face of the earth; yet they shall leave a record behind them, and I will preserve them for other nations which shall possess the land; yea, even this will I do that I may discover the abominations of this people to other nations. And many things did Abinadi prophesy against this people.",
+     "markdown": "And it shall come to pass that **except they repent I will utterly destroy them from off the face of the earth**; yet they shall leave a record behind them, and I will preserve them for other nations which shall possess the land; yea, even this will I do that I may discover the abominations of this people to other nations. And many things did Abinadi prophesy against this people.",
+     "span": true
+    }
+   ],
+   "mirror": "mos12-015"
+  },
+  {
+   "id": "morm01-008",
+   "scope": "BOM",
+   "head": "4 Ne. 1:46",
+   "anchor": {
+    "verse": 18,
+    "w1": 1,
+    "w2": 13,
+    "quote": "And these Gadianton robbers, who were among the Lamanites, did infest the land"
+   },
+   "reason": "the robbers already spread over the land a generation before",
+   "targets": [
+    {
+     "ref": "4 Ne.",
+     "chapter": 1,
+     "verse": 46,
+     "w1": 7,
+     "w2": 19,
+     "quote": "the robbers of Gadianton did spread over all the face of the land;",
+     "verse_text": "And it came to pass that the robbers of Gadianton did spread over all the face of the land; and there were none that were righteous save it were the disciples of Jesus. And gold and silver did they lay up in store in abundance, and did traffic in all manner of traffic.",
+     "markdown": "And it came to pass that **the robbers of Gadianton did spread over all the face of the land**; and there were none that were righteous save it were the disciples of Jesus. And gold and silver did they lay up in store in abundance, and did traffic in all manner of traffic.",
+     "span": true
+    }
+   ],
+   "mirror": "4ne01-011"
+  },
+  {
+   "id": "morm01-009",
+   "scope": "SW",
+   "head": "Isa. 11:3",
+   "anchor": {
+    "verse": 2,
+    "w1": 46,
+    "w2": 58,
+    "quote": "I perceive that thou art a sober child, and art quick to observe"
+   },
+   "reason": "quickness named as a gift in Isaiah as well",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 11,
+     "verse": 3,
+     "w1": 1,
+     "w2": 13,
+     "quote": "And shall make him of quick understanding in the fear of the LORD:",
+     "verse_text": "And shall make him of quick understanding in the fear of the LORD: and he shall not judge after the sight of his eyes, neither reprove after the hearing of his ears:",
+     "markdown": "**And shall make him of quick understanding in the fear of the LORD**: and he shall not judge after the sight of his eyes, neither reprove after the hearing of his ears:",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "morm01-010",
+   "scope": "SW",
+   "head": "Rev. 9:21",
+   "anchor": {
+    "verse": 19,
+    "w1": 7,
+    "w2": 13,
+    "quote": "there were sorceries, and witchcrafts, and magics"
+   },
+   "reason": "a people who would not repent of the same practices",
+   "targets": [
+    {
+     "ref": "Rev.",
+     "chapter": 9,
+     "verse": 21,
+     "w1": 7,
+     "w2": 10,
+     "quote": "nor of their sorceries,",
+     "verse_text": "Neither repented they of their murders, nor of their sorceries, nor of their fornication, nor of their thefts.",
+     "markdown": "Neither repented they of their murders, **nor of their sorceries**, nor of their fornication, nor of their thefts.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 3,
+   "w2": 17,
+   "quote": "I, Mormon, make a record of the things which I have both seen and heard",
+   "entries": [
+    "morm01-001"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 46,
+   "w2": 58,
+   "quote": "I perceive that thou art a sober child, and art quick to observe",
+   "entries": [
+    "morm01-009"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 47,
+   "w2": 60,
+   "quote": "there have I deposited unto the Lord all the sacred engravings concerning this people",
+   "entries": [
+    "morm01-002"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 3,
+   "w2": 11,
+   "quote": "ye shall take the plates of Nephi unto yourself",
+   "entries": [
+    "morm01-006"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 23,
+   "w2": 38,
+   "quote": "the work of miracles and of healing did cease because of the iniquity of the people",
+   "entries": [
+    "morm01-003"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 1,
+   "w2": 7,
+   "quote": "And I, being fifteen years of age",
+   "entries": [
+    "morm01-005"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 1,
+   "w2": 13,
+   "quote": "And these Gadianton robbers, who were among the Lamanites, did infest the land",
+   "entries": [
+    "morm01-008"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 29,
+   "w2": 38,
+   "quote": "they became slippery, because the Lord had cursed the land",
+   "entries": [
+    "morm01-004"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 7,
+   "w2": 13,
+   "quote": "there were sorceries, and witchcrafts, and magics",
+   "entries": [
+    "morm01-010"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 30,
+   "w2": 39,
+   "quote": "even unto the fulfilling of all the words of Abinadi",
+   "entries": [
+    "morm01-007"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "496866b9c167fa4a"
+ }
+}

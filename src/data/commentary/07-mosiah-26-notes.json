@@ -20,7 +20,7 @@
    "Church discipline",
    "Forgiveness"
   ],
-  "connections": 17,
+  "connections": 20,
   "initial": false
  },
  "world_behind": [
@@ -84,7 +84,19 @@
   {
    "term": "Circumspectly",
    "verse_label": "v. 37",
-   "text": "Looking around carefully, watchfully. It describes how the church walked once the affairs were regulated, and Paul uses the same figure in writing to Ephesus. The image is of a people who can see what is around them. That is what the chapter's whole procedure is for."
+   "text": "Looking around carefully, watchfully. It describes how the church walked once the affairs were regulated, and Paul uses the same figure in writing to Ephesus (Eph. 4:1). The image is of a people who can see what is around them. That is what the chapter's whole procedure is for.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Eph. 4:1",
+     "start": 159,
+     "end": 167,
+     "book": "Eph",
+     "chapter": 4,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
   }
  ],
  "phrases": [
@@ -131,53 +143,53 @@
  ],
  "verses": [
   {
-   "label": "v. 1–5",
+   "label": "v. 1–4",
    "start": 1,
+   "end": 4,
+   "title": "A religious change explained by an age at one event",
+   "text": "The record gives a demographic cause, not a moral one: \"there were many of the rising generation that could not understand the words of king Benjamin, being little children at the time he spake unto his people.\" What follows from that is stated as a chain, that they \"did not believe the tradition of their fathers,\" then \"they did not believe what had been said concerning the resurrection,\" then \"because of their unbelief they could not understand the word of God.\" The chapter's whole problem is traced to how old some people were during Mosiah 2."
+  },
+  {
+   "label": "v. 5",
+   "start": 5,
    "end": 5,
-   "title": "The ones who were too young",
-   "text": "They could not understand Benjamin, did not believe the tradition, did not believe the resurrection or the coming of Christ, would not be baptized, and became a separate people permanently. Then the number: fewer than half the church at first, and growing because of dissensions inside it."
+   "title": "A proportion, and the reason it shifts",
+   "text": "The record gives numbers as a ratio and then names what changed it: \"in the reign of Mosiah they were not half so numerous as the people of God; but because of the dissensions among the brethren they became more numerous.\" The unbelievers do not out-breed or out-argue the church. They grow because people leave it, and the record states that as the mechanism, not as an accusation."
   },
   {
-   "label": "v. 6–10",
-   "start": 6,
+   "label": "v. 9–10",
+   "start": 9,
    "end": 10,
-   "title": "A case with no precedent",
-   "text": "Flattering words draw church members into sin; teachers deliver them to priests; priests bring them to Alma. He does not know what to do, there are many witnesses, and nothing like it has ever happened. The chapter is careful to say the problem is procedural."
+   "title": "The record concedes an administrative first",
+   "text": "Two verses report a gap in the institution's experience: \"Alma did not know concerning them; but there were many witnesses against them,\" and then \"there had not any such thing happened before in the church; therefore Alma was troubled in his spirit.\" The difficulty is not that the offence is grave but that no precedent exists. A record about a church reports the moment its disciplinary procedure did not yet exist."
   },
   {
-   "label": "v. 11–14",
+   "label": "v. 11–12",
    "start": 11,
-   "end": 14,
-   "title": "Two men who will not judge alone",
-   "text": "Alma brings them to the king so the king can judge them by their crimes. The king says he judges them not and hands them back. Alma, troubled a second time, pours out his whole soul, and a voice answers."
+   "end": 12,
+   "title": "A king declines jurisdiction",
+   "text": "The exchange is short and the refusal is explicit: \"Behold, here are many whom we have brought before thee, who are accused of their brethren; yea, and they have been taken in divers iniquities. And they do not repent of their iniquities; therefore we have brought them before thee, that thou mayest judge them.\" The answer is five words of refusal and a transfer: \"Behold, I judge them not; therefore I deliver them into thy hands to be judged.\" The civil authority hands a church matter back to the church, and the record supplies no argument for the division."
   },
   {
    "label": "v. 15–20",
    "start": 15,
    "end": 20,
-   "title": "Blessings, and a chain of belief",
-   "text": "Blessed for faith in Abinadi's words alone; blessed for faith in Alma's words alone; blessed for establishing a church; blessed for asking. Each link in the chain believed a man speaking, with no sign attached, and the Lord names that as the thing being blessed."
+   "title": "Five blessings before any instruction",
+   "text": "The record has the answer confer before it directs, and the same word starts each turn: \"Blessed art thou, Alma\"; \"blessed are they because of their exceeding faith in the words alone which thou hast spoken\"; \"blessed art thou because thou hast established a church among this people\"; \"blessed is this people who are willing to bear my name\"; and finally, in verse 19, \"because thou hast inquired of me concerning the transgressor, thou art blessed.\" The last of the five blesses the asking of the question the chapter is about. The procedure itself does not begin until verse 29."
   },
   {
-   "label": "v. 21–28",
-   "start": 21,
-   "end": 28,
-   "title": "Who is received, and who is not",
-   "text": "Hearing the voice makes a person a sheep, and the church is told to receive whom the Lord receives. Then the other side: those who never knew him will come forth at the second trump, will know him then, and will hear that he never knew them."
-  },
-  {
-   "label": "v. 29–33",
+   "label": "v. 29–32",
    "start": 29,
-   "end": 33,
-   "title": "The rule, and the writing of it",
-   "text": "Judge according to the sins committed; forgive the one who confesses and repents; forgive as often as repentance comes; forgive one another or stand condemned. Then Alma writes it down so he can use it, and the record says the practice was observed from that time forward."
+   "end": 32,
+   "title": "A rule stated, with confession as the hinge",
+   "text": "The instruction is given as a conditional with two branches: \"whosoever transgresseth against me, him shall ye judge according to the sins which he has committed; and if he confess his sins before thee and me, and repenteth in the sincerity of his heart, him shall ye forgive.\" The other branch is stated at verse 32, \"whosoever will not repent of his sins the same shall not be numbered among my people.\" Between them sits an obligation running the other way, \"he that forgiveth not his neighbor's trespasses when he says that he repents, the same hath brought himself under condemnation.\""
   },
   {
-   "label": "v. 34–39",
-   "start": 34,
-   "end": 39,
-   "title": "Applied, and what followed",
-   "text": "Those who confessed were numbered, those who would not had their names blotted out, and the affairs of the church were regulated. Then peace, prosperity, many baptized, and the leaders suffering afflictions and persecution from those outside, admonishing and being admonished in turn."
+   "label": "v. 33",
+   "start": 33,
+   "end": 33,
+   "title": "The chapter reports its own writing down",
+   "text": "The record marks the moment the instruction became a document: \"when Alma had heard these words he wrote them down that he might have them, and that he might judge the people of that church according to the commandments of God.\" Two purposes are given, possession and use, and the second is administrative. What verses 15 through 32 contain is therefore presented as a text that existed on the day it was received, and the next verse has him applying it."
   }
  ],
  "chapter": [
@@ -199,12 +211,24 @@
   {
    "n": 4,
    "title": "\"Words alone,\" twice, and it is the thing being blessed",
-   "text": "Alma believed Abinadi on nothing but his words; Alma's people believed Alma on nothing but his. The Lord repeats the phrase in consecutive verses and it appears nowhere else in scripture. A church has been built out of two links of testimony with no sign in either."
+   "text": "Alma believed Abinadi on nothing but his words; Alma's people believed Alma on nothing but his. The Lord repeats the phrase in consecutive verses and it occurs a single time in scripture. A church has been built out of two links of testimony with no sign in either."
   },
   {
    "n": 5,
    "title": "Revelation becomes a written law inside one verse",
-   "text": "The same man who copied out Abinadi's sermon while being hunted writes this down so he can judge by it. This record consistently treats hearing something and preserving it as one act."
+   "text": "Verse 33 states the hearing and the writing as one sentence with a purpose clause: \"when Alma had heard these words he wrote them down that he might have them, and that he might judge the people of that church according to the commandments of God.\" Verse 34 reports him doing it, and verses 35 and 36 give the two outcomes, numbered among the people or names \"blotted out.\" Mosiah 17:4 records the same man writing down Abinadi's words while hidden. Twice in the same book, hearing and preserving are reported as a single act, and here the preserved text becomes a working procedure.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 17:4",
+     "start": 374,
+     "end": 385,
+     "book": "Mosiah",
+     "chapter": 17,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
   },
   {
    "n": 6,
@@ -350,7 +374,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos05-015"
   },
   {
    "id": "mos26-007",
@@ -506,7 +530,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos02-021"
   },
   {
    "id": "mos26-001",
@@ -533,6 +557,32 @@
     }
    ],
    "mirror": "mos18-003"
+  },
+  {
+   "id": "mos26-018",
+   "scope": "BOOK",
+   "head": "Mosiah 27:13",
+   "anchor": {
+    "verse": 32,
+    "w1": 8,
+    "w2": 23,
+    "quote": "whosoever will not repent of his sins the same shall not be numbered among my people;"
+   },
+   "reason": "the hardest case the rule had to meet",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 27,
+     "verse": 13,
+     "w1": 6,
+     "w2": 18,
+     "quote": "Alma, arise and stand forth, for why persecutest thou the church of God?",
+     "verse_text": "Nevertheless he cried again, saying: Alma, arise and stand forth, for why persecutest thou the church of God? For the Lord hath said: This is my church, and I will establish it; and nothing shall overthrow it, save it is the transgression of my people.",
+     "markdown": "Nevertheless he cried again, saying: **Alma, arise and stand forth, for why persecutest thou the church of God**? For the Lord hath said: This is my church, and I will establish it; and nothing shall overthrow it, save it is the transgression of my people.",
+     "span": true
+    }
+   ],
+   "mirror": "mos27-008"
   },
   {
    "id": "mos26-017",
@@ -636,7 +686,59 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "moro06-005"
+  },
+  {
+   "id": "mos26-019",
+   "scope": "BOM",
+   "head": "Alma 29:1",
+   "anchor": {
+    "verse": 25,
+    "w1": 8,
+    "w2": 13,
+    "quote": "when the second trump shall sound"
+   },
+   "reason": "Alma's son wishing for that same trump",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 29,
+     "verse": 1,
+     "w1": 21,
+     "w2": 26,
+     "quote": "speak with the trump of God,",
+     "verse_text": "O that I were an angel, and could have the wish of mine heart, that I might go forth and speak with the trump of God, with a voice to shake the earth, and cry repentance unto every people!",
+     "markdown": "O that I were an angel, and could have the wish of mine heart, that I might go forth and **speak with the trump of God**, with a voice to shake the earth, and cry repentance unto every people!",
+     "span": true
+    }
+   ],
+   "mirror": "al29-005"
+  },
+  {
+   "id": "mos26-020",
+   "scope": "BOM",
+   "head": "3 Ne. 14:23",
+   "anchor": {
+    "verse": 27,
+    "w1": 3,
+    "w2": 12,
+    "quote": "I will confess unto them that I never knew them;"
+   },
+   "reason": "Christ speaking the sentence at the last day",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 14,
+     "verse": 23,
+     "w1": 8,
+     "w2": 18,
+     "quote": "I never knew you; depart from me, ye that work iniquity.",
+     "verse_text": "And then will I profess unto them: I never knew you; depart from me, ye that work iniquity.",
+     "markdown": "And then will I profess unto them: **I never knew you; depart from me, ye that work iniquity**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne14-007"
   },
   {
    "id": "mos26-013",
@@ -819,11 +921,21 @@
    ]
   },
   {
+   "verse": 25,
+   "w1": 8,
+   "w2": 13,
+   "quote": "when the second trump shall sound",
+   "entries": [
+    "mos26-019"
+   ]
+  },
+  {
    "verse": 27,
    "w1": 3,
    "w2": 12,
-   "quote": "I will confess unto them that I never knew them",
+   "quote": "I will confess unto them that I never knew them;",
    "entries": [
+    "mos26-020",
     "mos26-011"
    ]
   },
@@ -834,6 +946,15 @@
    "quote": "he that forgiveth not his neighbor's trespasses when he says that he repents",
    "entries": [
     "mos26-013"
+   ]
+  },
+  {
+   "verse": 32,
+   "w1": 8,
+   "w2": 23,
+   "quote": "whosoever will not repent of his sins the same shall not be numbered among my people;",
+   "entries": [
+    "mos26-018"
    ]
   },
   {
@@ -859,7 +980,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "4eec324bfc0b54a7"
+  "at": "2026-09-07",
+  "source_sha256": "be4ddeff8cca66f7"
  }
 }

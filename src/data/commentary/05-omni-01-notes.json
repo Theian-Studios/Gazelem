@@ -21,7 +21,7 @@
    "Two peoples joined",
    "The last exhortation"
   ],
-  "connections": 7,
+  "connections": 13,
   "initial": false
  },
  "world_behind": [
@@ -60,13 +60,13 @@
   {
    "term": "Somewhat",
    "verse_label": "v. 1",
-   "text": "Not a hedge but a quantity: some amount, a portion left unspecified. Omni is commanded to \"write somewhat upon these plates\" (v. 1), and Amaleki later uses the same word twice for what he will say about Mosiah and about the party that went back. Modern English has turned it into a softener meaning slightly or rather, so the command now reads as permission to do very little. What it names is an amount left open, in a book whose standing problem is how much room is left.",
+   "text": "Not a hedge but a quantity: some amount, a portion left unspecified. Treated at Jacob 1:15. Omni is commanded to \"write somewhat upon these plates\" (v. 1), and Amaleki later uses the same word twice for what he will say about Mosiah and about the party that went back. Modern English has turned it into a softener meaning slightly or rather, so the command now reads as permission to do very little. What it names is an amount left open, in a book whose standing problem is how much room is left.",
    "cites": [
     {
      "quote": "write somewhat upon these plates",
      "verse": 1,
-     "start": 90,
-     "end": 131,
+     "start": 113,
+     "end": 154,
      "spans": [
       {
        "w1": 18,
@@ -74,6 +74,18 @@
        "text": "write somewhat upon these plates"
       }
      ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 1:15",
+     "start": 80,
+     "end": 90,
+     "book": "Jacob",
+     "chapter": 1,
+     "verse_start": 15,
+     "verse_end": 15
     }
    ]
   },
@@ -157,7 +169,19 @@
   {
    "term": "I know of no revelation save that which has been written, neither prophecy; wherefore, that which is sufficient is written",
    "verse_label": "v. 11",
-   "text": "The barest verse in the small plates and one of the most honest. Abinadom does not claim a vision and does not apologize for lacking one. He reports the absence, judges the existing record adequate, and stops. Jarom had used the same word to justify writing little when he had material: enough, no more required. Here it covers a man who appears to have none."
+   "text": "The barest verse in the small plates and one of the most honest. Abinadom does not claim a vision and does not apologize for lacking one. He reports the absence, judges the existing record adequate, and stops. Jarom had used the same word to justify writing little when he had material (Jarom 1:2): enough, no more required. Here it covers a man who appears to have none.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jarom 1:2",
+     "start": 287,
+     "end": 296,
+     "book": "Jarom",
+     "chapter": 1,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
   },
   {
    "term": "Their language had become corrupted; and they had brought no records with them; and they denied the being of their Creator",
@@ -192,7 +216,7 @@
   {
    "term": "Offer your whole souls as an offering unto him",
    "verse_label": "v. 26",
-   "text": "An offering with no animal in it, and the wording appears nowhere else in scripture. It is spoken by a man living under the law of Moses, alongside fasting, praying, and enduring to the end. The whole exhortation runs about sixty words and it is the last preaching in the small plates."
+   "text": "An offering with no animal in it, and the wording occurs a single time in scripture. It is spoken by a man living under the law of Moses, alongside fasting, praying, and enduring to the end. The whole exhortation runs about sixty words and it is the last preaching in the small plates."
   },
   {
    "term": "I am about to lie down in my grave; and these plates are full",
@@ -205,50 +229,48 @@
    "label": "v. 1–3",
    "start": 1,
    "end": 3,
-   "title": "Omni",
-   "text": "Commanded to write for the genealogy; fought with the sword; admits he is wicked; two hundred eighty-two years; the plates conferred on Amaron. Three verses for a lifetime, and the most memorable thing in them is the confession."
+   "title": "The first writer's account of himself is a confession",
+   "text": "Omni states his commission and then his own conduct: \"being commanded by my father, Jarom, that I should write somewhat upon these plates, to preserve our genealogy,\" and then, without transition, \"I of myself am a wicked man, and I have not kept the statutes and the commandments of the Lord as I ought to have done.\" Nothing forces the admission. The man charged with keeping the record uses his three verses to say he was a soldier and a poor keeper of commandments."
   },
   {
-   "label": "v. 4–8",
-   "start": 4,
-   "end": 8,
-   "title": "Amaron",
-   "text": "Three hundred twenty years; the more wicked part destroyed; the reason given is that God would not let his word go unverified; the righteous spared and delivered. Five verses, and the theology in them is denser than anything in the rest of the book."
-  },
-  {
-   "label": "v. 9–11",
+   "label": "v. 9",
    "start": 9,
+   "end": 9,
+   "title": "A witness statement about the making of the document",
+   "text": "Chemish's entire contribution is sixty-nine words, and most of it is about how the previous entry was produced: \"I saw the last which he wrote, that he wrote it with his own hand; and he wrote it in the day that he delivered them unto me.\" He then states the practice as a rule, \"after this manner we keep the records, for it is according to the commandments of our fathers.\" One verse of the volume is given over to certifying the handwriting of the verse before it."
+  },
+  {
+   "label": "v. 11",
+   "start": 11,
    "end": 11,
-   "title": "Chemish and Abinadom",
-   "text": "Chemish records that he watched his brother write the last line with his own hand on the day of the handoff, which is a procedural note about how the record is kept. Abinadom reports war, his own sword, no revelation, and that what is written is sufficient. Both make an end."
+   "title": "A writer reporting that he has nothing to add",
+   "text": "Abinadom's contribution ends with a disclaimer rather than a message: \"I know of no revelation save that which has been written, neither prophecy; wherefore, that which is sufficient is written.\" He also points at another archive in the same verse, \"the record of this people is engraven upon plates which is had by the kings, according to the generations.\" A custodian states that he has no new material and that the fuller account is elsewhere, and then closes with the book's recurring formula, \"And I make an end.\""
   },
   {
    "label": "v. 12–19",
    "start": 12,
    "end": 19,
-   "title": "Mosiah leaves, and finds a people",
-   "text": "Warned to flee, followed by as many as would hearken, led by preaching and by the power of God's arm into Zarahemla; a people discovered who came out of Jerusalem under Zedekiah, who had no records, whose language had decayed and who denied their Creator; taught the language; a genealogy given from memory; the two peoples united and Mosiah made king. Eight verses, and they change the record's geography for good."
+   "title": "One writer holds two thirds of the book",
+   "text": "The record gives Amaleki verses 12 through 30, nineteen verses and about nine hundred and nineteen words out of the book's fourteen hundred. What he uses it for is the discovery of an entire people the volume has not mentioned: the people of Zarahemla, whose \"language had become corrupted; and they had brought no records with them; and they denied the being of their Creator.\" The remedy is stated as instruction, \"Mosiah caused that they should be taught in his language,\" and only after that could their history be recited."
   },
   {
    "label": "v. 20–22",
    "start": 20,
    "end": 22,
-   "title": "The stone",
-   "text": "Brought to Mosiah, interpreted by the gift and power of God, reporting Coriantumr and the slain of his people, his nine months among the people of Zarahemla, and his fathers coming from the tower when the language was confounded. Bones scattered in the land northward."
-  },
-  {
-   "label": "v. 23–26",
-   "start": 23,
-   "end": 26,
-   "title": "Amaleki's own days, and his exhortation",
-   "text": "Born under Mosiah, saw his death, saw Benjamin reign and drive the Lamanites out; no seed; the plates to Benjamin because he is just; and then the appeal: come unto Christ, offer your whole souls, fast, pray, endure to the end. The only sustained preaching in the book, and it is four verses long."
-  },
-  {
-   "label": "v. 27–30",
-   "start": 27,
-   "end": 30,
-   "title": "A departure that fails, and an ending",
-   "text": "A large company goes back toward the land of Nephi, quarrels under a stiffnecked leader, and returns fifty strong; a second company leaves and is never heard from; Amaleki's brother is among them. Then the grave and the full plates. The book ends on a group whose fate the writer does not know."
+   "title": "A stone that ties two books together",
+   "text": "The record reports an object and its reading: \"there was a large stone brought unto him with engravings on it; and he did interpret the engravings by the gift and power of God.\" What the engravings contain connects this book to another one: \"they gave an account of one Coriantumr, and the slain of his people,\" and \"his first parents came out from the tower, at the time the Lord confounded the language of the people.\" Coriantumr is the last king in the book of Ether, and Ether 1:33 gives the same account of the tower. Two separate records meet in a single inscription.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 1:33",
+     "start": 475,
+     "end": 485,
+     "book": "Ether",
+     "chapter": 1,
+     "verse_start": 33,
+     "verse_end": 33
+    }
+   ]
   }
  ],
  "chapter": [
@@ -260,7 +282,19 @@
   {
    "n": 2,
    "title": "Both halves of the prosperity promise get audited one book apart",
-   "text": "Jarom reported the positive verified after two centuries; Amaron reports the negative verified after the destruction of the wicked. The record treats the clause as a testable statement and files findings on both sides."
+   "text": "Verse 6 quotes the promise in its conditional form and reports the second half fulfilled: \"Inasmuch as ye will not keep my commandments ye shall not prosper in the land.\" Verse 7 records the outcome, \"the Lord did visit them in great judgment; nevertheless, he did spare the righteous.\" Jarom 1:9 had filed the opposite finding two verses into the previous book, \"the word of the Lord was verified, which he spake unto our fathers, saying that: Inasmuch as ye will keep my commandments ye shall prosper in the land.\" Both halves of one clause are checked off in consecutive books.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jarom 1:9",
+     "start": 287,
+     "end": 296,
+     "book": "Jarom",
+     "chapter": 1,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
   },
   {
    "n": 3,
@@ -437,7 +471,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "eth13-006"
   },
   {
    "id": "omn01-003",
@@ -518,6 +552,162 @@
    "mirror": "jar01-004"
   },
   {
+   "id": "omn01-008",
+   "scope": "BOM",
+   "head": "Hel. 1:15",
+   "anchor": {
+    "verse": 15,
+    "w1": 10,
+    "w2": 17,
+    "quote": "the people of Zarahemla came out from Jerusalem"
+   },
+   "reason": "Coriantumr named a descendant of Zarahemla",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 1,
+     "verse": 15,
+     "w1": 26,
+     "w2": 31,
+     "quote": "he was a descendant of Zarahemla;",
+     "verse_text": "And they came down again that they might pitch battle against the Nephites. And they were led by a man whose name was Coriantumr; and he was a descendant of Zarahemla; and he was a dissenter from among the Nephites; and he was a large and a mighty man.",
+     "markdown": "And they came down again that they might pitch battle against the Nephites. And they were led by a man whose name was Coriantumr; and **he was a descendant of Zarahemla**; and he was a dissenter from among the Nephites; and he was a large and a mighty man.",
+     "span": true
+    }
+   ],
+   "mirror": "hel01-008"
+  },
+  {
+   "id": "omn01-009",
+   "scope": "BOM",
+   "head": "Hel. 8:21",
+   "anchor": {
+    "verse": 15,
+    "w1": 10,
+    "w2": 17,
+    "quote": "the people of Zarahemla came out from Jerusalem"
+   },
+   "reason": "Nephi citing the seed of Zedekiah",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 8,
+     "verse": 21,
+     "w1": 33,
+     "w2": 39,
+     "quote": "the seed of Zedekiah are with us,",
+     "verse_text": "And now will you dispute that Jerusalem was destroyed? Will ye say that the sons of Zedekiah were not slain, all except it were Mulek? Yea, and do ye not behold that the seed of Zedekiah are with us, and they were driven out of the land of Jerusalem? But behold, this is not all—",
+     "markdown": "And now will you dispute that Jerusalem was destroyed? Will ye say that the sons of Zedekiah were not slain, all except it were Mulek? Yea, and do ye not behold that **the seed of Zedekiah are with us**, and they were driven out of the land of Jerusalem? But behold, this is not all—",
+     "span": true
+    }
+   ],
+   "mirror": "hel08-007"
+  },
+  {
+   "id": "omn01-010",
+   "scope": "BOM",
+   "head": "1 Ne. 3:19",
+   "anchor": {
+    "verse": 17,
+    "w1": 34,
+    "w2": 38,
+    "quote": "their language had become corrupted;"
+   },
+   "reason": "why Nephi was sent back for the plates",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 3,
+     "verse": 19,
+     "w1": 17,
+     "w2": 25,
+     "quote": "preserve unto our children the language of our fathers;",
+     "verse_text": "And behold, it is wisdom in God that we should obtain these records, that we may preserve unto our children the language of our fathers;",
+     "markdown": "And behold, it is wisdom in God that we should obtain these records, that we may **preserve unto our children the language of our fathers**;",
+     "span": true
+    }
+   ],
+   "mirror": "1ne03-006"
+  },
+  {
+   "id": "omn01-011",
+   "scope": "BOM",
+   "head": "Ether 11:21",
+   "anchor": {
+    "verse": 21,
+    "w1": 16,
+    "w2": 23,
+    "quote": "Coriantumr was discovered by the people of Zarahemla;"
+   },
+   "reason": "the prophecy of another people possessing the land",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 11,
+     "verse": 21,
+     "w1": 20,
+     "w2": 28,
+     "quote": "after the manner by which he brought their fathers.",
+     "verse_text": "And that the Lord God would send or bring forth another people to possess the land, by his power, after the manner by which he brought their fathers.",
+     "markdown": "And that the Lord God would send or bring forth another people to possess the land, by his power, **after the manner by which he brought their fathers**.",
+     "span": true
+    }
+   ],
+   "mirror": "eth11-005"
+  },
+  {
+   "id": "omn01-012",
+   "scope": "BOM",
+   "head": "Mosiah 28:17",
+   "anchor": {
+    "verse": 22,
+    "w1": 10,
+    "w2": 26,
+    "quote": "And his first parents came out from the tower, at the time the Lord confounded the language"
+   },
+   "reason": "the twenty-four plates giving the same account",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 28,
+     "verse": 17,
+     "w1": 27,
+     "w2": 42,
+     "quote": "back to the building of the great tower, at the time the Lord confounded the language",
+     "verse_text": "Now after Mosiah had finished translating these records, behold, it gave an account of the people who were destroyed, from the time that they were destroyed back to the building of the great tower, at the time the Lord confounded the language of the people and they were scattered abroad upon the face of all the earth, yea, and even from that time back until the creation of Adam.",
+     "markdown": "Now after Mosiah had finished translating these records, behold, it gave an account of the people who were destroyed, from the time that they were destroyed **back to the building of the great tower, at the time the Lord confounded the language** of the people and they were scattered abroad upon the face of all the earth, yea, and even from that time back until the creation of Adam.",
+     "span": true
+    }
+   ],
+   "mirror": "mos28-010"
+  },
+  {
+   "id": "omn01-013",
+   "scope": "BOM",
+   "head": "Ether 1:33",
+   "anchor": {
+    "verse": 22,
+    "w1": 10,
+    "w2": 26,
+    "quote": "And his first parents came out from the tower, at the time the Lord confounded the language"
+   },
+   "reason": "Moroni opening the Jaredite record at that tower",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 1,
+     "verse": 33,
+     "w1": 21,
+     "w2": 31,
+     "quote": "at the time the Lord confounded the language of the people,",
+     "verse_text": "Which Jared came forth with his brother and their families, with some others and their families, from the great tower, at the time the Lord confounded the language of the people, and swore in his wrath that they should be scattered upon all the face of the earth; and according to the word of the Lord the people were scattered.",
+     "markdown": "Which Jared came forth with his brother and their families, with some others and their families, from the great tower, **at the time the Lord confounded the language of the people**, and swore in his wrath that they should be scattered upon all the face of the earth; and according to the word of the Lord the people were scattered.",
+     "span": true
+    }
+   ],
+   "mirror": "eth01-007"
+  },
+  {
    "id": "omn01-006",
    "scope": "SW",
    "head": "Gen. 11:9",
@@ -565,11 +755,30 @@
   },
   {
    "verse": 15,
+   "w1": 10,
+   "w2": 17,
+   "quote": "the people of Zarahemla came out from Jerusalem",
+   "entries": [
+    "omn01-008",
+    "omn01-009"
+   ]
+  },
+  {
+   "verse": 15,
    "w1": 22,
    "w2": 31,
    "quote": "Zedekiah, king of Judah, was carried away captive into Babylon",
    "entries": [
     "omn01-003"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 34,
+   "w2": 38,
+   "quote": "their language had become corrupted;",
+   "entries": [
+    "omn01-010"
    ]
   },
   {
@@ -591,11 +800,22 @@
    ]
   },
   {
+   "verse": 21,
+   "w1": 16,
+   "w2": 23,
+   "quote": "Coriantumr was discovered by the people of Zarahemla;",
+   "entries": [
+    "omn01-011"
+   ]
+  },
+  {
    "verse": 22,
    "w1": 10,
    "w2": 26,
    "quote": "And his first parents came out from the tower, at the time the Lord confounded the language",
    "entries": [
+    "omn01-012",
+    "omn01-013",
     "omn01-006"
    ]
   },
@@ -610,7 +830,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "d7bfe244e6bea51c"
+  "at": "2026-09-07",
+  "source_sha256": "5ed2b4d2800938b1"
  }
 }

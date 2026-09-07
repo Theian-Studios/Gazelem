@@ -1,0 +1,816 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "3 Nephi",
+  "book_slug": "3nephi",
+  "chapter": 1,
+  "volume_order": "10",
+  "speakers": [
+   "Mormon, as narrator",
+   "The voice of the Lord to Nephi"
+  ],
+  "audience": "The reader of the abridgment",
+  "location": "The land of Zarahemla, and the whole land",
+  "date": "~1 BC – AD 3",
+  "unit": "The signs and the robber wars (3 Nephi 1–7)",
+  "principles": [
+   "A sign that arrives on the eve of an execution",
+   "A deadline set by unbelievers",
+   "A fulfillment that changes little for long"
+  ],
+  "connections": 12,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The record changes hands again",
+   "text": "Verses 2 and 3 have Nephi giving the plates and the sacred things to his eldest son, also Nephi, and then leaving."
+  },
+  {
+   "n": 2,
+   "title": "The father's departure is unexplained",
+   "text": "Verse 3 has Nephi the elder depart and says no man knoweth whither he went. 3 Nephi 2:9 repeats that he never returned and could nowhere be found, and Alma 45:18 and 19 reports Alma disappearing in the same words a hundred and thirty years earlier.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 45:18",
+     "start": 151,
+     "end": 161,
+     "book": "Alma",
+     "chapter": 45,
+     "verse_start": 18,
+     "verse_end": 18
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "The six hundred years are counted",
+   "text": "Verse 1 dates the year from Lehi's leaving Jerusalem, the interval 1 Nephi 10:4 had named."
+  },
+  {
+   "n": 4,
+   "title": "The unbelievers set a date",
+   "text": "Verse 9 has them appoint a day on which believers would be put to death unless Samuel's sign came. Helaman 14:2 had given the window as five years, so the deadline in this verse is somebody's reading of a prophecy that never named a date."
+  },
+  {
+   "n": 5,
+   "title": "The answer comes the day before",
+   "text": "Verses 12 and 13 have Nephi cry all that day and the voice answer that the sign comes that night. Helaman 10:3 to 5 had put the same man on the same kind of walk, pondering and cast down, when a voice came; the record gives him two revelations in the same posture."
+  },
+  {
+   "n": 6,
+   "title": "Both signs land",
+   "text": "Verse 15 reports the night without darkness and verse 21 the new star, in the words Helaman 14 had used."
+  },
+  {
+   "n": 7,
+   "title": "The peace is short",
+   "text": "Verse 27 has the Gadianton robbers holding the mountains within two years, and verse 30 has Lamanite children joining them."
+  }
+ ],
+ "words": [
+  {
+   "term": "Uproar",
+   "verse_label": "v. 7",
+   "text": "A public commotion. The word occurs once in the record and eight times in the King James Bible, mostly in Acts. Verse 7 uses it of the mockery that followed the passing deadline."
+  },
+  {
+   "term": "Steadfastly",
+   "verse_label": "v. 8",
+   "text": "Fixedly, without wavering. The record uses the word six times, four of them in this book. Verse 8 has the believers watching steadfastly for a day and a night and a day."
+  },
+  {
+   "term": "Frustrated",
+   "verse_label": "v. 16",
+   "text": "Brought to nothing. It appears three times in the record, and the King James Bible never. Alma 42:5 uses it of the plan of redemption; verse 16 uses it of a plan of destruction.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 42:5",
+     "start": 90,
+     "end": 99,
+     "book": "Alma",
+     "chapter": 42,
+     "verse_start": 5,
+     "verse_end": 5
+    }
+   ]
+  },
+  {
+   "term": "Whit",
+   "verse_label": "v. 20",
+   "text": "Treated at 1 Nephi 4:19, in the phrase \"not a whit.\" The record uses it eight times. Verse 20 says all things came to pass every whit according to the words of the prophets."
+  },
+  {
+   "term": "Deceivings",
+   "verse_label": "v. 22",
+   "text": "Acts of leading astray. The record uses the family of words twenty times. Verse 22 pairs it with lyings as the method used after the sign had already been seen."
+  },
+  {
+   "term": "Jot",
+   "verse_label": "v. 25",
+   "text": "The smallest Hebrew letter, used for the least possible amount. The record uses the word three times and the King James Bible once, at Matthew 5:18, which verse 25 follows closely."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "It was six hundred years from the time that Lehi left Jerusalem",
+   "verse_label": "v. 1",
+   "text": "The interval Lehi had given in 1 Nephi 10:4, now marked as reached. Mormon opens the book by closing a count six centuries long."
+  },
+  {
+   "term": "Whither he went, no man knoweth",
+   "verse_label": "v. 3",
+   "text": "The record letting a major figure go without an account. Nephi hands over the plates and walks out of the narrative."
+  },
+  {
+   "term": "The time is past, and the words of Samuel are not fulfilled",
+   "verse_label": "v. 6",
+   "text": "The mockers' case, and a reasonable one on the day they made it. The prophecy had said five years, and the fifth had run out."
+  },
+  {
+   "term": "There was a day set apart by the unbelievers",
+   "verse_label": "v. 9",
+   "text": "An execution scheduled against a prophecy. The believers' lives are tied to whether the sky changes on time."
+  },
+  {
+   "term": "He cried mightily unto the Lord all that day",
+   "verse_label": "v. 12",
+   "text": "Nephi's response to the sentence on his people. The praying occupies a whole day and the answer comes at the end of it."
+  },
+  {
+   "term": "On the morrow come I into the world",
+   "verse_label": "v. 13",
+   "text": "The voice of the one about to be born, speaking before the birth. The sign is placed on the night, and the coming on the morning after."
+  },
+  {
+   "term": "The great plan of destruction which they had laid... had been frustrated",
+   "verse_label": "v. 16",
+   "text": "The moment the deadline collapses. Verse 16 has unbelievers falling to the earth as if dead when they see the sky."
+  },
+  {
+   "term": "All things, every whit, according to the words of the prophets",
+   "verse_label": "v. 20",
+   "text": "Mormon's own verdict on the night. He measures the event against the prophecy rather than describing it further."
+  },
+  {
+   "term": "There began to be lyings sent forth among the people, by Satan",
+   "verse_label": "v. 22",
+   "text": "The counter-campaign begins immediately. Helaman 16:22 had reported the same activity before the sign, and it resumes after."
+  },
+  {
+   "term": "In this thing they did err, having not understood the scriptures",
+   "verse_label": "v. 24",
+   "text": "Mormon naming an error gently and giving its cause. Verse 25 has the same people corrected and confessing within the year."
+  },
+  {
+   "term": "They became for themselves, and were led away by some who were Zoramites",
+   "verse_label": "v. 29",
+   "text": "The Lamanite loss described as generational. Children grown enough to choose are recruited by flattering words."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1",
+   "start": 1,
+   "end": 1,
+   "title": "Two calendars aligned in one clause",
+   "text": "The chapter opens by giving the same moment twice: \"the ninety and first year had passed away and it was six hundred years from the time that Lehi left Jerusalem.\" The second figure is a term the volume has been carrying since 1 Ne. 10:4, and it recurs at 1 Ne. 19:8 and 2 Ne. 25:19, always as a prediction. Here it is used as a date. A reader who has kept the earlier verses can see the interval close, and the record makes the alignment explicit rather than leaving it to be noticed.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 10:4",
+     "start": 227,
+     "end": 237,
+     "book": "1 Ne",
+     "chapter": 10,
+     "verse_start": 4,
+     "verse_end": 4
+    },
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 19:8",
+     "start": 256,
+     "end": 266,
+     "book": "1 Ne",
+     "chapter": 19,
+     "verse_start": 8,
+     "verse_end": 8
+    },
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 25:19",
+     "start": 271,
+     "end": 282,
+     "book": "2 Ne",
+     "chapter": 25,
+     "verse_start": 19,
+     "verse_end": 19
+    }
+   ]
+  },
+  {
+   "label": "v. 2–3",
+   "start": 2,
+   "end": 3,
+   "title": "A third record keeper walks out of the account",
+   "text": "The handover is reported in a formula the volume has used before: Nephi \"departed out of the land of Zarahemla, giving charge unto his son Nephi... concerning the plates of brass, and all the records,\" and then \"whither he went, no man knoweth.\" Alma 45:18 says the same of Alma and 3 Ne. 2:9 says it of this man's father. Three custodians of the record leave and are never accounted for, and each time the verse that loses them is also the verse that names their successor.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 45:18",
+     "start": 246,
+     "end": 256,
+     "book": "Alma",
+     "chapter": 45,
+     "verse_start": 18,
+     "verse_end": 18
+    },
+    {
+     "kind": "scripture",
+     "text": "3 Ne. 2:9",
+     "start": 283,
+     "end": 292,
+     "book": "3 Ne",
+     "chapter": 2,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
+  },
+  {
+   "label": "v. 5–7",
+   "start": 5,
+   "end": 7,
+   "title": "The unbelievers' argument, stated before it is answered",
+   "text": "The record gives the objection as a reading of the evidence, not a sneer: \"there were some who began to say that the time was past for the words to be fulfilled, which were spoken by Samuel, the Lamanite.\" Verse 6 gives it in their own voice, \"Behold the time is past, and the words of Samuel are not fulfilled; therefore, your joy and your faith concerning this thing hath been vain.\" The record supplies the strongest form of the case against its own position, and only then reports the uproar and the sorrow it caused."
+  },
+  {
+   "label": "v. 9",
+   "start": 9,
+   "end": 9,
+   "title": "A prophecy made falsifiable with a death penalty attached",
+   "text": "The unbelievers do not merely argue. They set a date: \"there was a day set apart by the unbelievers, that all those who believed in those traditions should be put to death except the sign should come to pass, which had been given by Samuel the prophet.\" The record states the terms plainly. A prediction is to be tested by a deadline, and the cost of its failing is the lives of the people who held it."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "A book opens on a countdown ending",
+   "text": "Verse 1 marks six hundred years from Lehi's departure. The interval was given in 1 Nephi 10:4 and Mormon closes it in his first sentence."
+  },
+  {
+   "n": 2,
+   "title": "The mockers had the better argument that morning",
+   "text": "Verse 6 points out that the stated time had run out. The record lets the objection stand for four verses before answering it."
+  },
+  {
+   "n": 3,
+   "title": "The stakes are made lethal before the sign",
+   "text": "Verse 9 has a date set for executing believers. The prophecy is not tested in the abstract."
+  },
+  {
+   "n": 4,
+   "title": "The answer comes to a man on his face all day",
+   "text": "Verses 11 and 12 have Nephi praying for others rather than for himself, and the voice comes at the end of the day."
+  },
+  {
+   "n": 5,
+   "title": "The one born speaks before the birth",
+   "text": "Verse 13 has him saying \"on the morrow come I into the world.\" The chapter's central voice belongs to someone not yet born."
+  },
+  {
+   "n": 6,
+   "title": "Unbelievers fall down first",
+   "text": "Verse 16 has those who had planned the executions collapsing when the sky changes. The record notes what they knew in that moment."
+  },
+  {
+   "n": 7,
+   "title": "The counter-campaign starts at once",
+   "text": "Verse 22 has lyings sent out immediately, aimed at the people who had just seen the sign. 3 Nephi 2:1 will show the strategy working."
+  },
+  {
+   "n": 8,
+   "title": "The peace lasts one verse longer than the year",
+   "text": "Verse 26 closes in glad tidings and verse 27 opens with robbers in the mountains. Nothing about the sign made the country safe."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Hand over what you were keeping",
+    "verse_label": "v. 2",
+    "text": "Nephi gave his son charge of the plates and everything that had been kept sacred since Lehi left Jerusalem, and then departed. When you leave a role, transferring what you were holding is the part that has to be done on purpose."
+   },
+   {
+    "title": "Hold on past the stated deadline",
+    "verse_label": "v. 8",
+    "text": "They watched steadfastly while being mocked for it. A promise running late is not the same as a promise broken, though it feels identical from inside."
+   },
+   {
+    "title": "Pray for the people at risk rather than about the argument",
+    "verse_label": "v.\n11",
+    "text": "Nephi's concern was those about to be killed. When a dispute has victims, they are the thing to take up."
+   },
+   {
+    "title": "Good cheer can come before the evidence",
+    "verse_label": "v. 13",
+    "text": "The voice told Nephi to lift up his head and be of good cheer hours before the sign appeared at sundown. Reassurance often arrives first and is meant to be acted on then, not held in reserve until the circumstances agree."
+   },
+   {
+    "title": "Expect the pushback to start immediately",
+    "verse_label": "v. 22",
+    "text": "The lyings began the moment the sign was undeniable. Evidence settles less than you would think."
+   },
+   {
+    "title": "Correct an error by supplying what was missing",
+    "verse_label": "v. 24",
+    "text": "Mormon says they had not understood the scriptures, and they were shown. Naming the gap works better than naming the fault."
+   },
+   {
+    "title": "Confess the mistake early",
+    "verse_label": "v. 25",
+    "text": "The people who had misread the law were shown the error and confessed their faults inside the same year. A wrong position corrected quickly costs almost nothing, and the whole expense is in defending it."
+   },
+   {
+    "title": "Teach the generation that did not see it",
+    "verse_label": "v. 29–30",
+    "text": "Lamanite children who grew up after the signs were led away by flattering words into the robber bands. What one generation witnessed is only a story to the next, so the teaching starts over every time."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What have I handed on, and to whom?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "What promise am I close to giving up on?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "What am I watching steadfastly for?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "Who is at risk in a disagreement I am part of?"
+   },
+   {
+    "verse_label": "v. 16",
+    "start": 16,
+    "end": 16,
+    "text": "What have I planned that I would be relieved to see frustrated?"
+   },
+   {
+    "verse_label": "v. 24",
+    "start": 24,
+    "end": 24,
+    "text": "What have I got wrong for lack of reading carefully?"
+   },
+   {
+    "verse_label": "v. 29",
+    "start": 29,
+    "end": 29,
+    "text": "What are the young people around me being told, and by whom?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "3ne01-001",
+   "scope": "BOOK",
+   "head": "3 Ne. 2:1",
+   "anchor": {
+    "verse": 26,
+    "w1": 11,
+    "w2": 25,
+    "quote": "bringing glad tidings unto the people because of the signs which did come to pass"
+   },
+   "reason": "the same people forgetting the signs three years later",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 2,
+     "verse": 1,
+     "w1": 17,
+     "w2": 29,
+     "quote": "the people began to forget those signs and wonders which they had heard,",
+     "verse_text": "And it came to pass that thus passed away the ninety and fifth year also, and the people began to forget those signs and wonders which they had heard, and began to be less and less astonished at a sign or a wonder from heaven, insomuch that they began to be hard in their hearts, and blind in their minds, and began to disbelieve all which they had heard and seen—",
+     "markdown": "And it came to pass that thus passed away the ninety and fifth year also, and **the people began to forget those signs and wonders which they had heard**, and began to be less and less astonished at a sign or a wonder from heaven, insomuch that they began to be hard in their hearts, and blind in their minds, and began to disbelieve all which they had heard and seen—",
+     "span": true
+    }
+   ],
+   "mirror": "3ne02-001"
+  },
+  {
+   "id": "3ne01-002",
+   "scope": "BOOK",
+   "head": "3 Ne. 2:2",
+   "anchor": {
+    "verse": 22,
+    "w1": 45,
+    "w2": 57,
+    "quote": "notwithstanding these lyings and deceivings the more part of the people did believe"
+   },
+   "reason": "the second attempt, which succeeded where this one failed",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 2,
+     "verse": 2,
+     "w1": 33,
+     "w2": 44,
+     "quote": "thus did Satan get possession of the hearts of the people again,",
+     "verse_text": "Imagining up some vain thing in their hearts, that it was wrought by men and by the power of the devil, to lead away and deceive the hearts of the people; and thus did Satan get possession of the hearts of the people again, insomuch that he did blind their eyes and lead them away to believe that the doctrine of Christ was a foolish and a vain thing.",
+     "markdown": "Imagining up some vain thing in their hearts, that it was wrought by men and by the power of the devil, to lead away and deceive the hearts of the people; and **thus did Satan get possession of the hearts of the people again**, insomuch that he did blind their eyes and lead them away to believe that the doctrine of Christ was a foolish and a vain thing.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne02-002"
+  },
+  {
+   "id": "3ne01-003",
+   "scope": "BOOK",
+   "head": "3 Ne. 15:5",
+   "anchor": {
+    "verse": 25,
+    "w1": 29,
+    "w2": 43,
+    "quote": "the law was not yet fulfilled, and that it must be fulfilled in every whit"
+   },
+   "reason": "the lawgiver himself settling the question in person",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 15,
+     "verse": 5,
+     "w1": 20,
+     "w2": 33,
+     "quote": "the law in me is fulfilled, for I have come to fulfil the law;",
+     "verse_text": "Behold, I am he that gave the law, and I am he who covenanted with my people Israel; therefore, the law in me is fulfilled, for I have come to fulfil the law; therefore it hath an end.",
+     "markdown": "Behold, I am he that gave the law, and I am he who covenanted with my people Israel; therefore, **the law in me is fulfilled, for I have come to fulfil the law**; therefore it hath an end.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne15-003"
+  },
+  {
+   "id": "3ne01-011",
+   "scope": "BOOK",
+   "head": "3 Ne. 2:9",
+   "anchor": {
+    "verse": 3,
+    "w1": 9,
+    "w2": 14,
+    "quote": "whither he went, no man knoweth;"
+   },
+   "reason": "the departure, reported without a destination",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 2,
+     "verse": 9,
+     "w1": 16,
+     "w2": 32,
+     "quote": "did not return to the land of Zarahemla, and could nowhere be found in all the land.",
+     "verse_text": "And Nephi, who was the father of Nephi, who had the charge of the records, did not return to the land of Zarahemla, and could nowhere be found in all the land.",
+     "markdown": "And Nephi, who was the father of Nephi, who had the charge of the records, **did not return to the land of Zarahemla, and could nowhere be found in all the land**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne02-003"
+  },
+  {
+   "id": "3ne01-012",
+   "scope": "BOOK",
+   "head": "3 Ne. 8:22",
+   "anchor": {
+    "verse": 19,
+    "w1": 7,
+    "w2": 24,
+    "quote": "there was no darkness in all that night, but it was as light as though it was mid-day."
+   },
+   "reason": "the darkness at the other end of the life",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 8,
+     "verse": 22,
+     "w1": 12,
+     "w2": 20,
+     "quote": "neither the sun, nor the moon, nor the stars,",
+     "verse_text": "And there was not any light seen, neither fire, nor glimmer, neither the sun, nor the moon, nor the stars, for so great were the mists of darkness which were upon the face of the land.",
+     "markdown": "And there was not any light seen, neither fire, nor glimmer, **neither the sun, nor the moon, nor the stars**, for so great were the mists of darkness which were upon the face of the land.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne08-003"
+  },
+  {
+   "id": "3ne01-004",
+   "scope": "BOM",
+   "head": "Hel. 14:4",
+   "anchor": {
+    "verse": 15,
+    "w1": 23,
+    "w2": 33,
+    "quote": "at the going down of the sun there was no darkness"
+   },
+   "reason": "the sign as Samuel described it from the wall",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 14,
+     "verse": 4,
+     "w1": 65,
+     "w2": 80,
+     "quote": "the night shall not be darkened; and it shall be the night before he is born.",
+     "verse_text": "Therefore, there shall be one day and a night and a day, as if it were one day and there were no night; and this shall be unto you for a sign; for ye shall know of the rising of the sun and also of its setting; therefore they shall know of a surety that there shall be two days and a night; nevertheless the night shall not be darkened; and it shall be the night before he is born.",
+     "markdown": "Therefore, there shall be one day and a night and a day, as if it were one day and there were no night; and this shall be unto you for a sign; for ye shall know of the rising of the sun and also of its setting; therefore they shall know of a surety that there shall be two days and a night; nevertheless **the night shall not be darkened; and it shall be the night before he is born**.",
+     "span": true
+    }
+   ],
+   "mirror": "hel14-004"
+  },
+  {
+   "id": "3ne01-005",
+   "scope": "BOM",
+   "head": "Hel. 14:5",
+   "anchor": {
+    "verse": 21,
+    "w1": 8,
+    "w2": 16,
+    "quote": "a new star did appear, according to the word"
+   },
+   "reason": "the star promised five years earlier",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 14,
+     "verse": 5,
+     "w1": 3,
+     "w2": 16,
+     "quote": "there shall a new star arise, such an one as ye never have beheld;",
+     "verse_text": "And behold, there shall a new star arise, such an one as ye never have beheld; and this also shall be a sign unto you.",
+     "markdown": "And behold, **there shall a new star arise, such an one as ye never have beheld**; and this also shall be a sign unto you.",
+     "span": true
+    }
+   ],
+   "mirror": "hel14-005"
+  },
+  {
+   "id": "3ne01-006",
+   "scope": "BOM",
+   "head": "Hel. 11:31",
+   "anchor": {
+    "verse": 27,
+    "w1": 22,
+    "w2": 34,
+    "quote": "the Gadianton robbers, who dwelt upon the mountains, who did infest the land"
+   },
+   "reason": "the same band in the same mountains, beating two armies",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 11,
+     "verse": 31,
+     "w1": 30,
+     "w2": 38,
+     "quote": "those robbers who infested the mountains and the wilderness.",
+     "verse_text": "And they were again obliged to return out of the wilderness and out of the mountains unto their own lands, because of the exceeding greatness of the numbers of those robbers who infested the mountains and the wilderness.",
+     "markdown": "And they were again obliged to return out of the wilderness and out of the mountains unto their own lands, because of the exceeding greatness of the numbers of **those robbers who infested the mountains and the wilderness**.",
+     "span": true
+    }
+   ],
+   "mirror": "hel11-008"
+  },
+  {
+   "id": "3ne01-007",
+   "scope": "BOM",
+   "head": "Hel. 16:22",
+   "anchor": {
+    "verse": 22,
+    "w1": 11,
+    "w2": 22,
+    "quote": "there began to be lyings sent forth among the people, by Satan"
+   },
+   "reason": "the same campaign, running before the sign came",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 16,
+     "verse": 22,
+     "w1": 34,
+     "w2": 48,
+     "quote": "he did go about spreading rumors and contentions upon all the face of the land,",
+     "verse_text": "And many more things did the people imagine up in their hearts, which were foolish and vain; and they were much disturbed, for Satan did stir them up to do iniquity continually; yea, he did go about spreading rumors and contentions upon all the face of the land, that he might harden the hearts of the people against that which was good and against that which should come.",
+     "markdown": "And many more things did the people imagine up in their hearts, which were foolish and vain; and they were much disturbed, for Satan did stir them up to do iniquity continually; yea, **he did go about spreading rumors and contentions upon all the face of the land**, that he might harden the hearts of the people against that which was good and against that which should come.",
+     "span": true
+    }
+   ],
+   "mirror": "hel16-006"
+  },
+  {
+   "id": "3ne01-008",
+   "scope": "BOM",
+   "head": "1 Ne. 10:4",
+   "anchor": {
+    "verse": 1,
+    "w1": 16,
+    "w2": 27,
+    "quote": "it was six hundred years from the time that Lehi left Jerusalem"
+   },
+   "reason": "the interval as Lehi gave it, at the start",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 10,
+     "verse": 4,
+     "w1": 3,
+     "w2": 13,
+     "quote": "six hundred years from the time that my father left Jerusalem,",
+     "verse_text": "Yea, even six hundred years from the time that my father left Jerusalem, a prophet would the Lord God raise up among the Jews—even a Messiah, or, in other words, a Savior of the world.",
+     "markdown": "Yea, even **six hundred years from the time that my father left Jerusalem**, a prophet would the Lord God raise up among the Jews—even a Messiah, or, in other words, a Savior of the world.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne10-020"
+  },
+  {
+   "id": "3ne01-009",
+   "scope": "SW",
+   "head": "Matt. 5:18",
+   "anchor": {
+    "verse": 25,
+    "w1": 57,
+    "w2": 70,
+    "quote": "one jot or tittle should not pass away till it should all be fulfilled"
+   },
+   "reason": "the same two words, and the same clause on law",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 5,
+     "verse": 18,
+     "w1": 12,
+     "w2": 28,
+     "quote": "one jot or one tittle shall in no wise pass from the law, till all be fulfilled.",
+     "verse_text": "For verily I say unto you, Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fulfilled.",
+     "markdown": "For verily I say unto you, Till heaven and earth pass, **one jot or one tittle shall in no wise pass from the law, till all be fulfilled**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne01-010",
+   "scope": "SW",
+   "head": "John 1:11",
+   "anchor": {
+    "verse": 14,
+    "w1": 1,
+    "w2": 6,
+    "quote": "Behold, I come unto my own"
+   },
+   "reason": "the same phrase, and what the gospel says happened next",
+   "targets": [
+    {
+     "ref": "John",
+     "chapter": 1,
+     "verse": 11,
+     "w1": 1,
+     "w2": 11,
+     "quote": "He came unto his own, and his own received him not.",
+     "verse_text": "He came unto his own, and his own received him not.",
+     "markdown": "**He came unto his own, and his own received him not**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 16,
+   "w2": 27,
+   "quote": "it was six hundred years from the time that Lehi left Jerusalem",
+   "entries": [
+    "3ne01-008"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 9,
+   "w2": 14,
+   "quote": "whither he went, no man knoweth;",
+   "entries": [
+    "3ne01-011"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 1,
+   "w2": 6,
+   "quote": "Behold, I come unto my own",
+   "entries": [
+    "3ne01-010"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 23,
+   "w2": 33,
+   "quote": "at the going down of the sun there was no darkness",
+   "entries": [
+    "3ne01-004"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 7,
+   "w2": 24,
+   "quote": "there was no darkness in all that night, but it was as light as though it was mid-day.",
+   "entries": [
+    "3ne01-012"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 8,
+   "w2": 16,
+   "quote": "a new star did appear, according to the word",
+   "entries": [
+    "3ne01-005"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 11,
+   "w2": 22,
+   "quote": "there began to be lyings sent forth among the people, by Satan",
+   "entries": [
+    "3ne01-007"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 45,
+   "w2": 57,
+   "quote": "notwithstanding these lyings and deceivings the more part of the people did believe",
+   "entries": [
+    "3ne01-002"
+   ]
+  },
+  {
+   "verse": 25,
+   "w1": 29,
+   "w2": 43,
+   "quote": "the law was not yet fulfilled, and that it must be fulfilled in every whit",
+   "entries": [
+    "3ne01-003"
+   ]
+  },
+  {
+   "verse": 25,
+   "w1": 57,
+   "w2": 70,
+   "quote": "one jot or tittle should not pass away till it should all be fulfilled",
+   "entries": [
+    "3ne01-009"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 11,
+   "w2": 25,
+   "quote": "bringing glad tidings unto the people because of the signs which did come to pass",
+   "entries": [
+    "3ne01-001"
+   ]
+  },
+  {
+   "verse": 27,
+   "w1": 22,
+   "w2": 34,
+   "quote": "the Gadianton robbers, who dwelt upon the mountains, who did infest the land",
+   "entries": [
+    "3ne01-006"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "cc6075edd165a6e0"
+ }
+}

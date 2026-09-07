@@ -1,0 +1,911 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Ether",
+  "book_slug": "ether",
+  "chapter": 6,
+  "volume_order": "13",
+  "speakers": [
+   "Moroni",
+   "The brother of Jared",
+   "Jared"
+  ],
+  "audience": "The reader",
+  "location": "The sea, and the promised land",
+  "date": "The crossing and the first generation ashore",
+  "unit": "The crossing and the first king (Ether 6)",
+  "principles": [
+   "Light given before the storm arrives",
+   "A wind that blows one direction for a year",
+   "A warning recorded and then overruled"
+  ],
+  "connections": 14,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Moroni names his source",
+   "text": "Verse 1 hands the account over to the record of Jared and his brother, which Ether had written and Moroni is abridging out of the twenty-four plates of Mosiah 8:9.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 8:9",
+     "start": 152,
+     "end": 162,
+     "book": "Mosiah",
+     "chapter": 8,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "The arithmetic of the stones works out",
+   "text": "Verse 2 puts one stone in each end of each vessel. Ether 3:1 counts sixteen stones molten out of the rock and eight vessels prepared, so every barge had two and none was left over.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 3:1",
+     "start": 51,
+     "end": 60,
+     "book": "Ether",
+     "chapter": 3,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "The design was specified two chapters earlier",
+   "text": "Ether 2:16 and 17 give the barges: tight like a dish top and bottom, peaked at the ends, the length of a tree. Verses 6 and 7 report what that construction did in the water, so the chapter is the test of a specification the reader already has.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 2:16",
+     "start": 0,
+     "end": 10,
+     "book": "Ether",
+     "chapter": 2,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Only one sea voyage in the volume is timed",
+   "text": "Verse 11 counts three hundred and forty and four days upon the water. 1 Nephi 18:8 to 23 tells Lehi's ocean crossing with no duration at all, so this is the only sea voyage in the volume a reader can put a number on."
+  },
+  {
+   "n": 5,
+   "title": "The party was small enough to count twice",
+   "text": "Verse 16 puts the friends of Jared and his brother at about twenty and two souls, and verse 20 numbers the two households at twenty-two children and twelve. A nation the book will follow for fifteen chapters starts at roughly sixty people."
+  },
+  {
+   "n": 6,
+   "title": "The wind was promised before it blew",
+   "text": "Ether 2:24 had told the brother of Jared that the winds and the floods had gone forth out of the Lord's mouth. Verse 8 reports the wind never ceasing to blow toward the promised land, which is that promise being kept in the plainest possible way.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 2:24",
+     "start": 0,
+     "end": 10,
+     "book": "Ether",
+     "chapter": 2,
+     "verse_start": 24,
+     "verse_end": 24
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "term": "Subsist",
+   "verse_label": "v. 4",
+   "text": "To keep alive on what is at hand. Treated at 3 Nephi 4:4. The record uses the word four times and never the King James Bible."
+  },
+  {
+   "term": "Commending",
+   "verse_label": "v. 4",
+   "text": "Handing a thing over into another's keeping. The record uses the word once, here, and the King James Bible once, at 2 Corinthians 4:2."
+  },
+  {
+   "term": "Mar",
+   "verse_label": "v. 10",
+   "text": "To damage or spoil. The record uses it once, here, and the King James Bible six times, usually of a field or a face."
+  },
+  {
+   "term": "Monster",
+   "verse_label": "v. 10",
+   "text": "A creature of unusual size or kind. Treated at Alma 19:26. The record uses the word six times, none of them in the King James Bible.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 19:26",
+     "start": 47,
+     "end": 57,
+     "book": "Alma",
+     "chapter": 19,
+     "verse_start": 26,
+     "verse_end": 26
+    }
+   ]
+  },
+  {
+   "term": "Grievous",
+   "verse_label": "v. 23",
+   "text": "Heavy, hard to bear. The record uses the word eight times and the King James Bible thirty-eight. Verse 23 applies it to the brothers' reaction to a request."
+  },
+  {
+   "term": "Constrain",
+   "verse_label": "v. 25",
+   "text": "To force a person into something. The record uses the word twice, both in this verse, and the King James Bible once."
+  },
+  {
+   "term": "Anointed",
+   "verse_label": "v. 27",
+   "text": "Marked with oil for an office. Treated at Jacob 1:9. The record uses the word eight times, six of them in Ether, and the King James Bible ninety-eight.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 1:9",
+     "start": 42,
+     "end": 51,
+     "book": "Jacob",
+     "chapter": 1,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "One in each end thereof",
+   "verse_label": "v. 2",
+   "text": "The placement of the stones, given as a detail. Sixteen stones over eight vessels comes out even."
+  },
+  {
+   "term": "That they might not cross the great waters in darkness",
+   "verse_label": "v. 3",
+   "text": "The purpose stated in the negative the brother of Jared had used at Ether 2:22. The problem and the fix are matched.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 2:22",
+     "start": 68,
+     "end": 78,
+     "book": "Ether",
+     "chapter": 2,
+     "verse_start": 22,
+     "verse_end": 22
+    }
+   ]
+  },
+  {
+   "term": "Commending themselves unto the Lord their God",
+   "verse_label": "v. 4",
+   "text": "What they did at the moment of boarding. The word covers handing themselves over."
+  },
+  {
+   "term": "A furious wind blow upon the face of the waters",
+   "verse_label": "v. 5",
+   "text": "The Lord's own doing, according to the verse. The storm is not an accident in this account."
+  },
+  {
+   "term": "Buried in the depths of the sea",
+   "verse_label": "v. 6",
+   "text": "The condition they were in many times. Verse 7 says no water could hurt them there."
+  },
+  {
+   "term": "Tight like unto the ark of Noah",
+   "verse_label": "v. 7",
+   "text": "The comparison Moroni reaches for. Genesis 6:14 has the ark pitched within and without."
+  },
+  {
+   "term": "The wind did never cease to blow towards the promised land",
+   "verse_label": "v. 8",
+   "text": "The same wind that buried them carried them. Verse 8 gives it one direction for the whole voyage."
+  },
+  {
+   "term": "He did thank and praise the Lord all the day long",
+   "verse_label": "v. 9",
+   "text": "What the brother of Jared did on the water. Verse 9 adds that the nights were the same."
+  },
+  {
+   "term": "Three hundred and forty and four days upon the water",
+   "verse_label": "v. 11",
+   "text": "The length of the crossing, given without comment. One sentence covers most of a year."
+  },
+  {
+   "term": "The multitude of his tender mercies over them",
+   "verse_label": "v. 12",
+   "text": "The reason given for the tears ashore. Nephi used the same phrase at 1 Nephi 1:20."
+  },
+  {
+   "term": "Surely this thing leadeth into captivity",
+   "verse_label": "v. 23",
+   "text": "The brother of Jared's judgment on the request for a king. The rest of the book of Ether reads as a test of it."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 4–5",
+   "start": 4,
+   "end": 5,
+   "title": "A voyage with no steering in it",
+   "text": "The record describes what was loaded and then what moved the boats, and neither involves navigation: \"when they had prepared all manner of food, that thereby they might subsist upon the water, and also food for their flocks and herds,\" and then \"the Lord God caused that there should be a furious wind blow upon the face of the waters, towards the promised land.\" No sail, rudder or course is mentioned anywhere in the chapter. The question the builder raised at Ether 2:19, \"whither shall we steer?\", is answered by removing the need to steer at all.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 2:19",
+     "start": 463,
+     "end": 473,
+     "book": "Ether",
+     "chapter": 2,
+     "verse_start": 19,
+     "verse_end": 19
+    }
+   ]
+  },
+  {
+   "label": "v. 6–8",
+   "start": 6,
+   "end": 8,
+   "title": "The wind never stops, and the record says so twice",
+   "text": "The crossing is reported as continuous pressure: \"they were many times buried in the depths of the sea, because of the mountain waves which broke upon them, and also the great and terrible tempests which were caused by the fierceness of the wind.\" Verse 8 gives the same fact as a positive: \"the wind did never cease to blow towards the promised land while they were upon the waters.\" The storm that buries them and the wind that carries them are the same weather, and the record makes that identity explicit rather than treating the tempest as an obstacle."
+  },
+  {
+   "label": "v. 9",
+   "start": 9,
+   "end": 9,
+   "title": "Singing reported as continuous, and the day divided",
+   "text": "The record specifies not only that they sang but when: \"they did sing praises unto the Lord; yea, the brother of Jared did sing praises unto the Lord, and he did thank and praise the Lord all the day long; and when the night came, they did not cease to praise the Lord.\" Day and night are named separately, and the same activity is asserted for both. It is the only thing the chapter reports the passengers doing during the crossing."
+  },
+  {
+   "label": "v. 11",
+   "start": 11,
+   "end": 11,
+   "title": "A voyage measured to the day",
+   "text": "The record gives the length as a figure with no rounding: \"thus they were driven forth, three hundred and forty and four days upon the water.\" Nothing in the chapter uses the number, and no calendar is anchored to it. It sits between the account of the storms and the landing, and it is the only quantity given for the crossing."
+  },
+  {
+   "label": "v. 22–24",
+   "start": 22,
+   "end": 24,
+   "title": "A warning made at the moment of the decision",
+   "text": "The people ask for a king and the record reports the reaction before the reply: \"this was grievous unto them.\" Then the prediction, stated as a certainty: \"Surely this thing leadeth into captivity.\" What follows is not a refusal but a concession from the other brother, \"Suffer them that they may have a king.\" The book then spends nine of its remaining chapters on kings holding one another in captivity, so the warning is testable against the record that contains it."
+  },
+  {
+   "label": "v. 25–27",
+   "start": 25,
+   "end": 27,
+   "title": "Every candidate refuses except the last",
+   "text": "The record tracks the succession by exclusion, one line at a time: \"they chose even the firstborn of the brother of Jared; and his name was Pagag,\" and he declines; \"they chose all the brothers of Pagag, and they would not\"; \"neither would the sons of Jared, even all save it were one; and Orihah was anointed to be king over the people.\" A throne is filled by working down a list until someone fails to say no."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The light comes before the storm",
+   "text": "Verses 2 and 3 settle the darkness, and verse 5 raises the wind. The problem solved first was not the one that nearly killed them."
+  },
+  {
+   "n": 2,
+   "title": "One wind does both jobs",
+   "text": "Verse 5 sets it blowing toward the promised land and verse 8 says it never stopped. The thing burying them was also carrying them."
+  },
+  {
+   "n": 3,
+   "title": "Being under water is treated as ordinary",
+   "text": "Verses 6 and 7 report repeated submersion and then say the vessels were built for it."
+  },
+  {
+   "n": 4,
+   "title": "Praise fills the crossing account",
+   "text": "Verse 9 gives singing through the days and the nights, in the middle of the storm chapter."
+  },
+  {
+   "n": 5,
+   "title": "The length is stated flatly",
+   "text": "Verse 11 gives three hundred and forty and four days in a single line and moves on."
+  },
+  {
+   "n": 6,
+   "title": "The landing is met with tears",
+   "text": "Verse 12 has them bow, humble themselves, and weep for mercies rather than for the ordeal ending."
+  },
+  {
+   "n": 7,
+   "title": "The first request after the numbering is a king",
+   "text": "Verse 22 comes directly after the count in verses 20 and 21."
+  },
+  {
+   "n": 8,
+   "title": "A warning is recorded and set aside",
+   "text": "Verse 23 has the brother of Jared name captivity, and verse 24 has Jared allow the king anyway. Both stand in the record."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Pack for what depends on you",
+    "verse_label": "v. 4",
+    "text": "Their food list covered flocks, herds, and fowl. The preparation reached past their own needs."
+   },
+   {
+    "title": "The wind that buried them was the wind carrying them",
+    "verse_label": "v. 8",
+    "text": "The record says the wind never ceased to blow toward the promised land for the whole crossing. The same force that put them under the water is what moved them along, which is worth remembering about a few of your own troubles."
+   },
+   {
+    "title": "Praise while the water is over you",
+    "verse_label": "v. 9",
+    "text": "The singing in this chapter fills the storm itself."
+   },
+   {
+    "title": "Kneel when you arrive",
+    "verse_label": "v. 12",
+    "text": "They set their feet on the shore, bowed themselves down, humbled themselves and shed tears of joy. Marking an arrival before you start the next thing is what makes the crossing count as an event."
+   },
+   {
+    "title": "Ask people what they want before you go",
+    "verse_label": "v. 19",
+    "text": "Seeing that he must soon go down to the grave, the brother of Jared proposed gathering and numbering the people to learn what they would desire. Asking the question is not the same as agreeing to the answer, and this chapter does both."
+   },
+   {
+    "title": "Say the warning even when you lose",
+    "verse_label": "v. 23",
+    "text": "He named the danger and the decision went the other way. The record keeps his sentence."
+   },
+   {
+    "title": "Force no one into a calling",
+    "verse_label": "v. 25",
+    "text": "Pagag refused, and his father would not compel him or let anyone else be compelled."
+   },
+   {
+    "title": "Remember out loud, and teach it",
+    "verse_label": "v. 30",
+    "text": "Orihah walked humbly, remembered how great things the Lord had done for his father, and taught his people what had been done for their fathers. Memory kept private dies with whoever is holding it."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What light have I been given for a journey I have not started?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What am I responsible for feeding besides myself?"
+   },
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "What has held while I was under water?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "Can I praise on a day that is going badly?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "When did I last stop and weep over something good?"
+   },
+   {
+    "verse_label": "v. 23",
+    "start": 23,
+    "end": 23,
+    "text": "Have I said the hard thing and been overruled?"
+   },
+   {
+    "verse_label": "v. 25",
+    "start": 25,
+    "end": 25,
+    "text": "Whom am I tempted to constrain?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "eth06-001",
+   "scope": "BOOK",
+   "head": "Ether 2:6",
+   "anchor": {
+    "verse": 4,
+    "w1": 56,
+    "w2": 69,
+    "quote": "they got aboard of their vessels or barges, and set forth into the sea"
+   },
+   "reason": "the barges of the first crossing, boarded at last",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 2,
+     "verse": 6,
+     "w1": 13,
+     "w2": 23,
+     "quote": "and did build barges, in which they did cross many waters,",
+     "verse_text": "And it came to pass that they did travel in the wilderness, and did build barges, in which they did cross many waters, being directed continually by the hand of the Lord.",
+     "markdown": "And it came to pass that they did travel in the wilderness, **and did build barges, in which they did cross many waters**, being directed continually by the hand of the Lord.",
+     "span": true
+    }
+   ],
+   "mirror": "eth02-004"
+  },
+  {
+   "id": "eth06-002",
+   "scope": "BOOK",
+   "head": "Ether 2:24",
+   "anchor": {
+    "verse": 10,
+    "w1": 16,
+    "w2": 21,
+    "quote": "neither whale that could mar them"
+   },
+   "reason": "the promise about the whale, reported kept",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 2,
+     "verse": 24,
+     "w1": 1,
+     "w2": 14,
+     "quote": "For behold, ye shall be as a whale in the midst of the sea;",
+     "verse_text": "For behold, ye shall be as a whale in the midst of the sea; for the mountain waves shall dash upon you. Nevertheless, I will bring you up again out of the depths of the sea; for the winds have gone forth out of my mouth, and also the rains and the floods have I sent forth.",
+     "markdown": "**For behold, ye shall be as a whale in the midst of the sea**; for the mountain waves shall dash upon you. Nevertheless, I will bring you up again out of the depths of the sea; for the winds have gone forth out of my mouth, and also the rains and the floods have I sent forth.",
+     "span": true
+    }
+   ],
+   "mirror": "eth02-003"
+  },
+  {
+   "id": "eth06-003",
+   "scope": "BOOK",
+   "head": "Ether 1:42",
+   "anchor": {
+    "verse": 12,
+    "w1": 26,
+    "w2": 42,
+    "quote": "they bowed themselves down upon the face of the land, and did humble themselves before the Lord"
+   },
+   "reason": "the land promised at the tower, reached",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 1,
+     "verse": 42,
+     "w1": 29,
+     "w2": 46,
+     "quote": "I will go before thee into a land which is choice above all the lands of the earth.",
+     "verse_text": "And when thou hast done this thou shalt go at the head of them down into the valley which is northward. And there will I meet thee, and I will go before thee into a land which is choice above all the lands of the earth.",
+     "markdown": "And when thou hast done this thou shalt go at the head of them down into the valley which is northward. And there will I meet thee, and **I will go before thee into a land which is choice above all the lands of the earth**.",
+     "span": true
+    }
+   ],
+   "mirror": "eth01-003"
+  },
+  {
+   "id": "eth06-004",
+   "scope": "BOOK",
+   "head": "Ether 3:6",
+   "anchor": {
+    "verse": 2,
+    "w1": 54,
+    "w2": 60,
+    "quote": "they did give light unto the vessels"
+   },
+   "reason": "the touch on the mount, working at sea",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 3,
+     "verse": 6,
+     "w1": 17,
+     "w2": 32,
+     "quote": "the Lord stretched forth his hand and touched the stones one by one with his finger.",
+     "verse_text": "And it came to pass that when the brother of Jared had said these words, behold, the Lord stretched forth his hand and touched the stones one by one with his finger. And the veil was taken from off the eyes of the brother of Jared, and he saw the finger of the Lord; and it was as the finger of a man, like unto flesh and blood; and the brother of Jared fell down before the Lord, for he was struck with fear.",
+     "markdown": "And it came to pass that when the brother of Jared had said these words, behold, **the Lord stretched forth his hand and touched the stones one by one with his finger**. And the veil was taken from off the eyes of the brother of Jared, and he saw the finger of the Lord; and it was as the finger of a man, like unto flesh and blood; and the brother of Jared fell down before the Lord, for he was struck with fear.",
+     "span": true
+    }
+   ],
+   "mirror": "eth03-013"
+  },
+  {
+   "id": "eth06-011",
+   "scope": "BOOK",
+   "head": "Ether 7:5",
+   "anchor": {
+    "verse": 23,
+    "w1": 17,
+    "w2": 22,
+    "quote": "Surely this thing leadeth into captivity."
+   },
+   "reason": "the captivity warning coming true in Corihor's day",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 7,
+     "verse": 5,
+     "w1": 25,
+     "w2": 42,
+     "quote": "which brought to pass the saying of the brother of Jared that they would be brought into captivity.",
+     "verse_text": "And when he had gathered together an army he came up unto the land of Moron where the king dwelt, and took him captive, which brought to pass the saying of the brother of Jared that they would be brought into captivity.",
+     "markdown": "And when he had gathered together an army he came up unto the land of Moron where the king dwelt, and took him captive, **which brought to pass the saying of the brother of Jared that they would be brought into captivity**.",
+     "span": true
+    }
+   ],
+   "mirror": "eth07-001"
+  },
+  {
+   "id": "eth06-012",
+   "scope": "BOOK",
+   "head": "Ether 7:27",
+   "anchor": {
+    "verse": 30,
+    "w1": 15,
+    "w2": 26,
+    "quote": "did remember how great things the Lord had done for his father,"
+   },
+   "reason": "Shule remembering what the Lord did for his fathers",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 7,
+     "verse": 27,
+     "w1": 13,
+     "w2": 25,
+     "quote": "he remembered the great things that the Lord had done for his fathers",
+     "verse_text": "And there were no more wars in the days of Shule; and he remembered the great things that the Lord had done for his fathers in bringing them across the great deep into the promised land; wherefore he did execute judgment in righteousness all his days.",
+     "markdown": "And there were no more wars in the days of Shule; and **he remembered the great things that the Lord had done for his fathers** in bringing them across the great deep into the promised land; wherefore he did execute judgment in righteousness all his days.",
+     "span": true
+    }
+   ],
+   "mirror": "eth07-002"
+  },
+  {
+   "id": "eth06-013",
+   "scope": "BOOK",
+   "head": "Ether 7:1",
+   "anchor": {
+    "verse": 27,
+    "w1": 20,
+    "w2": 28,
+    "quote": "Orihah was anointed to be king over the people."
+   },
+   "reason": "how the reign of the reluctant king went",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 7,
+     "verse": 1,
+     "w1": 7,
+     "w2": 18,
+     "quote": "Orihah did execute judgment upon the land in righteousness all his days,",
+     "verse_text": "And it came to pass that Orihah did execute judgment upon the land in righteousness all his days, whose days were exceedingly many.",
+     "markdown": "And it came to pass that **Orihah did execute judgment upon the land in righteousness all his days**, whose days were exceedingly many.",
+     "span": true
+    }
+   ],
+   "mirror": "eth07-004"
+  },
+  {
+   "id": "eth06-014",
+   "scope": "BOOK",
+   "head": "Ether 10:2",
+   "anchor": {
+    "verse": 8,
+    "w1": 7,
+    "w2": 17,
+    "quote": "the wind did never cease to blow towards the promised land"
+   },
+   "reason": "Shez remembering the crossing generations afterward",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 10,
+     "verse": 2,
+     "w1": 24,
+     "w2": 39,
+     "quote": "he remembered what the Lord had done in bringing Jared and his brother across the deep;",
+     "verse_text": "And it came to pass that Shez did remember the destruction of his fathers, and he did build up a righteous kingdom; for he remembered what the Lord had done in bringing Jared and his brother across the deep; and he did walk in the ways of the Lord; and he begat sons and daughters.",
+     "markdown": "And it came to pass that Shez did remember the destruction of his fathers, and he did build up a righteous kingdom; for **he remembered what the Lord had done in bringing Jared and his brother across the deep**; and he did walk in the ways of the Lord; and he begat sons and daughters.",
+     "span": true
+    }
+   ],
+   "mirror": "eth10-002"
+  },
+  {
+   "id": "eth06-005",
+   "scope": "BOM",
+   "head": "1 Ne. 1:20",
+   "anchor": {
+    "verse": 12,
+    "w1": 52,
+    "w2": 61,
+    "quote": "because of the multitude of his tender mercies over them"
+   },
+   "reason": "Nephi's phrase for the same thing",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 1,
+     "verse": 20,
+     "w1": 51,
+     "w2": 64,
+     "quote": "the tender mercies of the Lord are over all those whom he hath chosen,",
+     "verse_text": "And when the Jews heard these things they were angry with him; yea, even as with the prophets of old, whom they had cast out, and stoned, and slain; and they also sought his life, that they might take it away. But behold, I, Nephi, will show unto you that the tender mercies of the Lord are over all those whom he hath chosen, because of their faith, to make them mighty even unto the power of deliverance.",
+     "markdown": "And when the Jews heard these things they were angry with him; yea, even as with the prophets of old, whom they had cast out, and stoned, and slain; and they also sought his life, that they might take it away. But behold, I, Nephi, will show unto you that **the tender mercies of the Lord are over all those whom he hath chosen**, because of their faith, to make them mighty even unto the power of deliverance.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne01-008"
+  },
+  {
+   "id": "eth06-006",
+   "scope": "BOM",
+   "head": "1 Ne. 18:16",
+   "anchor": {
+    "verse": 9,
+    "w1": 21,
+    "w2": 31,
+    "quote": "he did thank and praise the Lord all the day long"
+   },
+   "reason": "Nephi bound in the ship, doing the same",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 18,
+     "verse": 16,
+     "w1": 9,
+     "w2": 16,
+     "quote": "I did praise him all the day long;",
+     "verse_text": "Nevertheless, I did look unto my God, and I did praise him all the day long; and I did not murmur against the Lord because of mine afflictions.",
+     "markdown": "Nevertheless, I did look unto my God, and **I did praise him all the day long**; and I did not murmur against the Lord because of mine afflictions.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne18-012"
+  },
+  {
+   "id": "eth06-007",
+   "scope": "BOM",
+   "head": "1 Ne. 18:23",
+   "anchor": {
+    "verse": 12,
+    "w1": 1,
+    "w2": 11,
+    "quote": "And they did land upon the shore of the promised land"
+   },
+   "reason": "the other crossing, ending the same way",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 18,
+     "verse": 23,
+     "w1": 17,
+     "w2": 23,
+     "quote": "we did arrive at the promised land;",
+     "verse_text": "And it came to pass that after we had sailed for the space of many days we did arrive at the promised land; and we went forth upon the land, and did pitch our tents; and we did call it the promised land.",
+     "markdown": "And it came to pass that after we had sailed for the space of many days **we did arrive at the promised land**; and we went forth upon the land, and did pitch our tents; and we did call it the promised land.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne18-013"
+  },
+  {
+   "id": "eth06-008",
+   "scope": "BOM",
+   "head": "Mosiah 23:7",
+   "anchor": {
+    "verse": 23,
+    "w1": 17,
+    "w2": 22,
+    "quote": "Surely this thing leadeth into captivity"
+   },
+   "reason": "Alma refusing the same request from his people",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 23,
+     "verse": 7,
+     "w1": 7,
+     "w2": 16,
+     "quote": "it is not expedient that we should have a king;",
+     "verse_text": "But he said unto them: Behold, it is not expedient that we should have a king; for thus saith the Lord: Ye shall not esteem one flesh above another, or one man shall not think himself above another; therefore I say unto you it is not expedient that ye should have a king.",
+     "markdown": "But he said unto them: Behold, **it is not expedient that we should have a king**; for thus saith the Lord: Ye shall not esteem one flesh above another, or one man shall not think himself above another; therefore I say unto you it is not expedient that ye should have a king.",
+     "span": true
+    }
+   ],
+   "mirror": "mos23-020"
+  },
+  {
+   "id": "eth06-009",
+   "scope": "SW",
+   "head": "Gen. 7:18",
+   "anchor": {
+    "verse": 7,
+    "w1": 34,
+    "w2": 40,
+    "quote": "tight like unto the ark of Noah"
+   },
+   "reason": "the ark riding the same kind of water",
+   "targets": [
+    {
+     "ref": "Gen.",
+     "chapter": 7,
+     "verse": 18,
+     "w1": 13,
+     "w2": 21,
+     "quote": "the ark went upon the face of the waters.",
+     "verse_text": "And the waters prevailed, and were increased greatly upon the earth; and the ark went upon the face of the waters.",
+     "markdown": "And the waters prevailed, and were increased greatly upon the earth; and **the ark went upon the face of the waters**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "eth06-010",
+   "scope": "SW",
+   "head": "1 Sam. 8:5",
+   "anchor": {
+    "verse": 22,
+    "w1": 12,
+    "w2": 25,
+    "quote": "that they should anoint one of their sons to be a king over them"
+   },
+   "reason": "Israel asking Samuel for the same thing",
+   "targets": [
+    {
+     "ref": "1 Sam.",
+     "chapter": 8,
+     "verse": 5,
+     "w1": 17,
+     "w2": 28,
+     "quote": "now make us a king to judge us like all the nations.",
+     "verse_text": "And said unto him, Behold, thou art old, and thy sons walk not in thy ways: now make us a king to judge us like all the nations.",
+     "markdown": "And said unto him, Behold, thou art old, and thy sons walk not in thy ways: **now make us a king to judge us like all the nations**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 54,
+   "w2": 60,
+   "quote": "they did give light unto the vessels",
+   "entries": [
+    "eth06-004"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 56,
+   "w2": 69,
+   "quote": "they got aboard of their vessels or barges, and set forth into the sea",
+   "entries": [
+    "eth06-001"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 34,
+   "w2": 40,
+   "quote": "tight like unto the ark of Noah",
+   "entries": [
+    "eth06-009"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 7,
+   "w2": 17,
+   "quote": "the wind did never cease to blow towards the promised land",
+   "entries": [
+    "eth06-014"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 21,
+   "w2": 31,
+   "quote": "he did thank and praise the Lord all the day long",
+   "entries": [
+    "eth06-006"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 16,
+   "w2": 21,
+   "quote": "neither whale that could mar them",
+   "entries": [
+    "eth06-002"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 1,
+   "w2": 11,
+   "quote": "And they did land upon the shore of the promised land",
+   "entries": [
+    "eth06-007"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 26,
+   "w2": 42,
+   "quote": "they bowed themselves down upon the face of the land, and did humble themselves before the Lord",
+   "entries": [
+    "eth06-003"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 52,
+   "w2": 61,
+   "quote": "because of the multitude of his tender mercies over them",
+   "entries": [
+    "eth06-005"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 12,
+   "w2": 25,
+   "quote": "that they should anoint one of their sons to be a king over them",
+   "entries": [
+    "eth06-010"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 17,
+   "w2": 22,
+   "quote": "Surely this thing leadeth into captivity.",
+   "entries": [
+    "eth06-011",
+    "eth06-008"
+   ]
+  },
+  {
+   "verse": 27,
+   "w1": 20,
+   "w2": 28,
+   "quote": "Orihah was anointed to be king over the people.",
+   "entries": [
+    "eth06-013"
+   ]
+  },
+  {
+   "verse": 30,
+   "w1": 15,
+   "w2": 26,
+   "quote": "did remember how great things the Lord had done for his father,",
+   "entries": [
+    "eth06-012"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "1364d761c2f10e1b"
+ }
+}

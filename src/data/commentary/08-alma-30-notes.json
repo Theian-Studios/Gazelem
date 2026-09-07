@@ -18,9 +18,9 @@
   "principles": [
    "Belief outside the reach of law",
    "Evidence and the demand for a sign",
-   ""
+   "A teacher believing his own case"
   ],
-  "connections": 9,
+  "connections": 16,
   "initial": true
  },
  "world_behind": [
@@ -64,7 +64,19 @@
   {
    "term": "Anti-Christ",
    "verse_label": "v. 6",
-   "text": "One who stands against Christ. The record uses the hyphenated form twice, both in this chapter, and the King James Bible spells it without the hyphen in the letters of John, where many antichrists are already at work. Mormon applies it to a man whose whole case is that there is nothing to be against."
+   "text": "One who stands against Christ. The record uses the hyphenated form twice, both in this chapter, and the King James Bible spells it without the hyphen in the letters of John, where many antichrists are already at work (1 Jn. 2:18). Mormon applies it to a man whose whole case is that there is nothing to be against.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Jn. 2:18",
+     "start": 218,
+     "end": 228,
+     "book": "1 Jn",
+     "chapter": 2,
+     "verse_start": 18,
+     "verse_end": 18
+    }
+   ]
   },
   {
    "term": "Derangement",
@@ -89,7 +101,19 @@
   {
    "term": "Dumb",
    "verse_label": "v. 47",
-   "text": "Unable to speak. The record uses it thirteen times and the King James Bible twenty-nine. Zacharias is struck dumb in Luke 1 for disbelieving a promise; Korihor is struck dumb for demanding a sign, and the sign he gets is the silence."
+   "text": "Unable to speak. Treated at Mosiah 14:7. It appears thirteen times in the record, and the King James Bible twenty-nine. Zacharias is struck dumb in Luke 1 for disbelieving a promise; Korihor is struck dumb for demanding a sign, and the sign he gets is the silence.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 14:7",
+     "start": 28,
+     "end": 39,
+     "book": "Mosiah",
+     "chapter": 14,
+     "verse_start": 7,
+     "verse_end": 7
+    }
+   ]
   }
  ],
  "phrases": [
@@ -136,7 +160,7 @@
   {
    "term": "All things denote there is a God",
    "verse_label": "v. 44",
-   "text": "Alma's counter to the demand for a sign. He offers the testimony of the brethren, the prophets, the scriptures, the earth, its motion, and the planets moving in regular form. The argument is that evidence is already everywhere."
+   "text": "Alma's counter to the demand for a sign. He offers his brethren's witness, the prophets, the scriptures, the earth, its motion, and the planets moving in regular form. The argument is that evidence is already everywhere."
   },
   {
    "term": "I do not deny the existence of a God, but I do not believe that there is a God",
@@ -151,53 +175,32 @@
  ],
  "verses": [
   {
-   "label": "v. 1–5",
-   "start": 1,
-   "end": 5,
-   "title": "Peace",
-   "text": "The dead are buried and uncounted, the fasting and mourning end, and the sixteenth year passes without disturbance. The people keep the law of Moses strictly, understanding it as a thing to be kept until it is fulfilled."
+   "label": "v. 7–11",
+   "start": 7,
+   "end": 11,
+   "title": "Five verses of jurisprudence before the antagonist speaks",
+   "text": "The record sets out the legal frame first, and grounds it in a principle and not a policy: a law touching belief would put men on unequal grounds, which is contrary to the commands of God. Then it lists what the law does reach, four crimes stacked into verse 10: murder, robbery, theft, adultery. Only after the rule and its exceptions are established does Korihor appear."
   },
   {
-   "label": "v. 6–12",
-   "start": 6,
+   "label": "v. 12",
+   "start": 12,
    "end": 12,
-   "title": "The law, and the man",
-   "text": "An Anti-Christ comes into Zarahemla in the seventeenth year. Mormon breaks off to explain that belief was outside the law's reach, that crimes were punished and belief was not, and that all men stood on equal ground. Then he names Korihor and says the law had no hold on him."
+   "title": "The decisive legal point is put in brackets",
+   "text": "\"(And the law could have no hold upon him)\" is not spoken by anyone. It is the record stepping in mid-sentence to state the consequence of the five verses just laid down, in a parenthesis, before the preaching starts. Helaman 2:8 uses the same device to name a conspiracy the story has no word for yet."
   },
   {
-   "label": "v. 13–18",
-   "start": 13,
-   "end": 18,
-   "title": "The preaching",
-   "text": "No man can know what is to come; prophecies are foolish traditions; you cannot know what you cannot see; a remission of sins is derangement. Every man fares by his own management, prospers by his genius, conquers by his strength, and nothing is a crime. Death is the end."
+   "label": "v. 52–53",
+   "start": 52,
+   "end": 53,
+   "title": "The confession includes becoming his own convert",
+   "text": "What Korihor writes is not only that the devil taught him what to say, but what happened afterwards: he taught it because it pleased the carnal mind, had much success, \"insomuch that I verily believed that they were true.\" The record has him report that he ended up persuaded by his own preaching, and it puts that after the admission of where the material came from."
   },
   {
-   "label": "v. 19–29",
-   "start": 19,
-   "end": 29,
-   "title": "Thrown out twice",
-   "text": "Jershon binds him and Ammon has him carried out. Gideon binds him and takes him to Giddonah and the chief judge. He answers their questions with a speech about priests keeping people in bondage to glut on their labor, and they refuse to reply."
-  },
-  {
-   "label": "v. 30–45",
-   "start": 30,
-   "end": 45,
-   "title": "Before Alma",
-   "text": "He blasphemes again and accuses the priests of living off the people. Alma answers with his own labor and his own wages, then asks what anyone gains by preaching for nothing. Do you believe there is a God: no. What evidence have you: none but your own word. Alma offers the brethren, the prophets, the scriptures, the earth and the planets, and Korihor says he will deny unless he is shown a sign."
-  },
-  {
-   "label": "v. 46–52",
-   "start": 46,
-   "end": 52,
-   "title": "The sign",
-   "text": "Alma says it is better that one soul be lost than that many be brought down, and warns him. Korihor asks again and is struck dumb. The chief judge writes the question, and Korihor writes the confession: the devil as an angel, taught words, taught until believed."
-  },
-  {
-   "label": "v. 53–60",
-   "start": 53,
-   "end": 60,
-   "title": "The end",
-   "text": "He asks for the curse to be lifted and Alma leaves it with the Lord. Cast out, he begs house to house. The proclamation goes out, the people repent, and Korihor is trodden down and killed among the Zoramites."
+   "label": "v. 55",
+   "start": 55,
+   "end": 55,
+   "title": "The mercy is refused, and the reason is given aloud",
+   "text": "Alma does not pray for the curse to be lifted, and says why: \"thou wouldst again lead away the hearts of this people.\" He then hands the outcome off rather than closing it, \"it shall be unto thee even as the Lord will.\" The record prints a prophet declining a request and reasoning from consequences."
   }
  ],
  "chapter": [
@@ -219,7 +222,7 @@
   {
    "n": 4,
    "title": "Converted Lamanites handle him best",
-   "text": "Jershon binds him immediately; Zarahemla listens for a season. Mormon says plainly which group was wiser, and it is the one most recently converted."
+   "text": "Three receptions are reported in three verses. Jershon binds him at verse 20 and the record supplies a comparative verdict in the same clause, \"they were more wise than many of the Nephites.\" Gideon binds him at verse 21, where \"he did not have much success.\" Zarahemla, at verses 12 through 18, lets him preach at length and the record quotes six verses of it. The group that handles him fastest is the one converted most recently, and the record says so rather than leaving it to be inferred."
   },
   {
    "n": 5,
@@ -229,7 +232,7 @@
   {
    "n": 6,
    "title": "The confession explains self-deception",
-   "text": "Korihor taught what pleased the carnal mind, had success, and came to believe it. The record gives a mechanism for how a man ends up sincere in a case he started dishonestly."
+   "text": "Verse 52 has him write two things at once, \"I know that nothing save it were the power of God could bring this upon me\" and \"I always knew that there was a God.\" Verse 53 supplies the sequence, that he was taught \"even until I had much success, insomuch that I verily believed that they were true.\" The record thus reports a man persuaded by his own case, and puts the confession in writing because verse 50 has taken his speech away."
   },
   {
    "n": 7,
@@ -247,22 +250,42 @@
    {
     "title": "Protect the belief you disagree with",
     "verse_label": "v. 7–11",
-    "text": "Nephite law made belief unprosecutable on the ground that anything else creates unequal footing. Where you have the power to make someone's opinion costly, consider what that does to the ground everyone stands on."
+    "text": "Nephite law made no offence of belief, and the record gives the reason, that a law bringing men \"on to unequal grounds\" was \"strictly contrary to the commands of God.\" Punishment attached only to acts: murder, robbery, theft, adultery. Sort what you are objecting to into what somebody thinks and what somebody did."
+   },
+   {
+    "title": "Notice when a claim is about knowledge",
+    "verse_label": "v. 13–15",
+    "text": "Korihor's argument turns on what anyone could know rather than on what God is like: \"no man can know of anything which is to come,\" and \"ye cannot know that there shall be a Christ.\" An argument about the limits of knowing needs a different answer from an argument about the facts."
+   },
+   {
+    "title": "Look at what the doctrine licensed",
+    "verse_label": "v. 17–18",
+    "text": "The record reports the effect alongside the claim: people lifting up their heads in wickedness, and being led \"to commit whoredoms.\" A belief has practical consequences, and watching them is fair evidence about it."
    },
    {
     "title": "Answer the checkable charge",
     "verse_label": "v. 32–33",
-    "text": "Alma responded to an accusation about money with a record of his labor and his wages. When you are accused of something, find the part of it that can be verified and answer that part with specifics."
+    "text": "Accused of living off the people, Alma answers with his own record, \"I have labored even from the commencement of the reign of the judges until now, with mine own hands for my support.\" When the accusation is factual, answer it with facts before answering anything else."
    },
    {
-    "title": "Notice when a claim is about knowledge",
-    "verse_label": "v. 15",
-    "text": "Korihor's argument was that nothing unseen can be known. Before arguing conclusions with someone, work out whether the real disagreement is about what counts as evidence."
+    "title": "Refuse the sign, then say what already counts as one",
+    "verse_label": "v. 43–44",
+    "text": "Alma declines to produce a sign and lists what is already available, \"all things denote there is a God; yea, even the earth, and all things that are upon the face of it.\" Ask what evidence you have been walking past while asking for a different kind."
    },
    {
     "title": "Watch what repetition does to you",
     "verse_label": "v. 53",
-    "text": "He taught what people liked until he believed it himself. Consider what you say often because it lands well, and ask whether you have started believing it for that reason."
+    "text": "He taught what people wanted to hear \"even until I had much success, insomuch that I verily believed that they were true.\" Saying a thing often enough is a way of coming to believe it, and the chapter names that mechanism outright."
+   },
+   {
+    "title": "Decline to undo the consequence",
+    "verse_label": "v. 55",
+    "text": "Alma refuses to lift the curse and gives the reason, \"thou wouldst again lead away the hearts of this people.\" Mercy that would restore somebody's capacity to do the same damage is questionable mercy, and the chapter lets the refusal stand."
+   },
+   {
+    "title": "Notice where the argument went next",
+    "verse_label": "v. 59",
+    "text": "Korihor ends among the Zoramites, and Alma 31 opens with Alma going after them. The record does not treat the debate as won when the debater falls; it follows the idea to where it landed."
    }
   ],
   "questions": [
@@ -321,7 +344,7 @@
     "w2": 26,
     "quote": "accusing them of leading away the people"
    },
-   "reason": "Nehor making the same case for paid preaching, a generation back",
+   "reason": "Nehor making the same case for paid preaching",
    "targets": [
     {
      "ref": "Alma",
@@ -335,7 +358,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al01-026"
   },
   {
    "id": "al30-002",
@@ -347,7 +370,7 @@
     "w2": 25,
     "quote": "so much as even one senine for my labor"
    },
-   "reason": "what a senine was worth, priced against a judge’s daily wage",
+   "reason": "what a senine was worth, against a judge's wage",
    "targets": [
     {
      "ref": "Alma",
@@ -361,7 +384,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al11-011"
   },
   {
    "id": "al30-003",
@@ -373,7 +396,7 @@
     "w2": 28,
     "quote": "called themselves Zoramites"
    },
-   "reason": "the mission Korihor’s death opens onto",
+   "reason": "the mission Korihor's death opens onto",
    "targets": [
     {
      "ref": "Alma",
@@ -413,7 +436,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al27-017"
+  },
+  {
+   "id": "al30-012",
+   "scope": "BOOK",
+   "head": "Alma 1:3",
+   "anchor": {
+    "verse": 32,
+    "w1": 22,
+    "w2": 43,
+    "quote": "I have labored even from the commencement of the reign of the judges until now, with mine own hands for my support,"
+   },
+   "reason": "Nehor teaching that priests should not labor",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 1,
+     "verse": 3,
+     "w1": 41,
+     "w2": 48,
+     "quote": "they ought not to labor with their hands,",
+     "verse_text": "And he had gone about among the people, preaching to them that which he termed to be the word of God, bearing down against the church; declaring unto the people that every priest and teacher ought to become popular; and they ought not to labor with their hands, but that they ought to be supported by the people.",
+     "markdown": "And he had gone about among the people, preaching to them that which he termed to be the word of God, bearing down against the church; declaring unto the people that every priest and teacher ought to become popular; and **they ought not to labor with their hands**, but that they ought to be supported by the people.",
+     "span": true
+    }
+   ],
+   "mirror": "al01-007"
   },
   {
    "id": "al30-005",
@@ -425,7 +474,7 @@
     "w2": 42,
     "quote": "that ye may glut yourselves with the labors of their hands"
    },
-   "reason": "the record’s other use of the word, of Lamanites over Zeniff’s people",
+   "reason": "the word's other use, of Lamanites over Zeniff's people",
    "targets": [
     {
      "ref": "Mosiah",
@@ -439,7 +488,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos09-010"
   },
   {
    "id": "al30-006",
@@ -465,7 +514,163 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "2ne02-014"
+  },
+  {
+   "id": "al30-010",
+   "scope": "BOM",
+   "head": "Hel. 7:4",
+   "anchor": {
+    "verse": 23,
+    "w1": 49,
+    "w2": 68,
+    "quote": "to usurp power and authority over them, to keep them in ignorance, that they may not lift up their heads,"
+   },
+   "reason": "Nephi using the word of the robbers",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 7,
+     "verse": 4,
+     "w1": 19,
+     "w2": 26,
+     "quote": "usurped the power and authority of the land;",
+     "verse_text": "And seeing the people in a state of such awful wickedness, and those Gadianton robbers filling the judgment-seats—having usurped the power and authority of the land; laying aside the commandments of God, and not in the least aright before him; doing no justice unto the children of men;",
+     "markdown": "And seeing the people in a state of such awful wickedness, and those Gadianton robbers filling the judgment-seats—having **usurped the power and authority of the land**; laying aside the commandments of God, and not in the least aright before him; doing no justice unto the children of men;",
+     "span": true
+    }
+   ],
+   "mirror": "hel07-007"
+  },
+  {
+   "id": "al30-011",
+   "scope": "BOM",
+   "head": "Hel. 16:21",
+   "anchor": {
+    "verse": 23,
+    "w1": 49,
+    "w2": 68,
+    "quote": "to usurp power and authority over them, to keep them in ignorance, that they may not lift up their heads,"
+   },
+   "reason": "the unbelievers repeating Korihor's charge",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 16,
+     "verse": 21,
+     "w1": 50,
+     "w2": 63,
+     "quote": "thus will they keep us in ignorance if we will yield ourselves unto them,",
+     "verse_text": "And they will, by the cunning and the mysterious arts of the evil one, work some great mystery which we cannot understand, which will keep us down to be servants to their words, and also servants unto them, for we depend upon them to teach us the word; and thus will they keep us in ignorance if we will yield ourselves unto them, all the days of our lives.",
+     "markdown": "And they will, by the cunning and the mysterious arts of the evil one, work some great mystery which we cannot understand, which will keep us down to be servants to their words, and also servants unto them, for we depend upon them to teach us the word; and **thus will they keep us in ignorance if we will yield ourselves unto them**, all the days of our lives.",
+     "span": true
+    }
+   ],
+   "mirror": "hel16-005"
+  },
+  {
+   "id": "al30-013",
+   "scope": "BOM",
+   "head": "Jacob 7:13",
+   "anchor": {
+    "verse": 43,
+    "w1": 7,
+    "w2": 18,
+    "quote": "If thou wilt show me a sign, that I may be convinced"
+   },
+   "reason": "Sherem demanding a sign in the same words",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 7,
+     "verse": 13,
+     "w1": 11,
+     "w2": 21,
+     "quote": "Show me a sign by this power of the Holy Ghost,",
+     "verse_text": "And it came to pass that he said unto me: Show me a sign by this power of the Holy Ghost, in the which ye know so much.",
+     "markdown": "And it came to pass that he said unto me: **Show me a sign by this power of the Holy Ghost**, in the which ye know so much.",
+     "span": true
+    }
+   ],
+   "mirror": "jac07-003"
+  },
+  {
+   "id": "al30-014",
+   "scope": "BOM",
+   "head": "1 Ne. 4:13",
+   "anchor": {
+    "verse": 47,
+    "w1": 3,
+    "w2": 25,
+    "quote": "it is better that thy soul should be lost than that thou shouldst be the means of bringing many souls down to destruction,"
+   },
+   "reason": "the same weighing spoken over Laban",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 4,
+     "verse": 13,
+     "w1": 13,
+     "w2": 20,
+     "quote": "It is better that one man should perish",
+     "verse_text": "Behold the Lord slayeth the wicked to bring forth his righteous purposes. It is better that one man should perish than that a nation should dwindle and perish in unbelief.",
+     "markdown": "Behold the Lord slayeth the wicked to bring forth his righteous purposes. **It is better that one man should perish** than that a nation should dwindle and perish in unbelief.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne04-007"
+  },
+  {
+   "id": "al30-015",
+   "scope": "BOM",
+   "head": "Hel. 9:25",
+   "anchor": {
+    "verse": 48,
+    "w1": 40,
+    "w2": 49,
+    "quote": "except ye show me a sign, I will not believe."
+   },
+   "reason": "a prophet offering a sign unasked",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 9,
+     "verse": 25,
+     "w1": 4,
+     "w2": 10,
+     "quote": "I will show unto you another sign,",
+     "verse_text": "And now behold, I will show unto you another sign, and see if ye will in this thing seek to destroy me.",
+     "markdown": "And now behold, **I will show unto you another sign**, and see if ye will in this thing seek to destroy me.",
+     "span": true
+    }
+   ],
+   "mirror": "hel09-005"
+  },
+  {
+   "id": "al30-016",
+   "scope": "BOM",
+   "head": "Hel. 9:37",
+   "anchor": {
+    "verse": 52,
+    "w1": 21,
+    "w2": 36,
+    "quote": "I know that nothing save it were the power of God could bring this upon me;"
+   },
+   "reason": "the other confession the record stages",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 9,
+     "verse": 37,
+     "w1": 39,
+     "w2": 45,
+     "quote": "according to the words he did confess.",
+     "verse_text": "And it came to pass that they went and did, even according as Nephi had said unto them. And behold, the words which he had said were true; for according to the words he did deny; and also according to the words he did confess.",
+     "markdown": "And it came to pass that they went and did, even according as Nephi had said unto them. And behold, the words which he had said were true; for according to the words he did deny; and also **according to the words he did confess**.",
+     "span": true
+    }
+   ],
+   "mirror": "hel09-006"
   },
   {
    "id": "al30-007",
@@ -584,6 +789,16 @@
    ]
   },
   {
+   "verse": 23,
+   "w1": 49,
+   "w2": 68,
+   "quote": "to usurp power and authority over them, to keep them in ignorance, that they may not lift up their heads,",
+   "entries": [
+    "al30-010",
+    "al30-011"
+   ]
+  },
+  {
    "verse": 27,
    "w1": 32,
    "w2": 42,
@@ -602,6 +817,15 @@
    ]
   },
   {
+   "verse": 32,
+   "w1": 22,
+   "w2": 43,
+   "quote": "I have labored even from the commencement of the reign of the judges until now, with mine own hands for my support,",
+   "entries": [
+    "al30-012"
+   ]
+  },
+  {
    "verse": 33,
    "w1": 17,
    "w2": 25,
@@ -611,12 +835,48 @@
    ]
   },
   {
+   "verse": 43,
+   "w1": 7,
+   "w2": 18,
+   "quote": "If thou wilt show me a sign, that I may be convinced",
+   "entries": [
+    "al30-013"
+   ]
+  },
+  {
+   "verse": 47,
+   "w1": 3,
+   "w2": 25,
+   "quote": "it is better that thy soul should be lost than that thou shouldst be the means of bringing many souls down to destruction,",
+   "entries": [
+    "al30-014"
+   ]
+  },
+  {
+   "verse": 48,
+   "w1": 40,
+   "w2": 49,
+   "quote": "except ye show me a sign, I will not believe.",
+   "entries": [
+    "al30-015"
+   ]
+  },
+  {
    "verse": 50,
    "w1": 8,
    "w2": 11,
    "quote": "Korihor was struck dumb",
    "entries": [
     "al30-009"
+   ]
+  },
+  {
+   "verse": 52,
+   "w1": 21,
+   "w2": 36,
+   "quote": "I know that nothing save it were the power of God could bring this upon me;",
+   "entries": [
+    "al30-016"
    ]
   },
   {
@@ -630,7 +890,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "ebb4ed56df68396b"
+  "at": "2026-09-07",
+  "source_sha256": "b88b2a4e111c2e94"
  }
 }

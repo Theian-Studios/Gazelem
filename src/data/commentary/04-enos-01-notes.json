@@ -18,24 +18,36 @@
    "Widening prayer",
    "A record preserved"
   ],
-  "connections": 12,
+  "connections": 14,
   "initial": false
  },
  "world_behind": [
   {
    "n": 1,
    "title": "Jacob's son calls it a wrestle",
-   "text": "Verse 2 names the experience with the verb from Genesis 32, where a man wrestles with Jacob until daybreak and Jacob will not let go without a blessing. This Enos is the son of a Jacob, and his account runs all day and into the night before the voice comes. Nothing in the text points at the older story, and every element of it is present."
+   "text": "Verse 2 names the experience with the verb from Genesis 32:24, where a man wrestles with Jacob until daybreak and Jacob will not let go without a blessing. This Enos is the son of a Jacob, and his account runs all day and into the night before the voice comes. Nothing in the text points at the older story, and every element of it is present."
   },
   {
    "n": 2,
    "title": "A phrase from Ephesians",
-   "text": "Verse 1 says his father taught him in \"the nurture and admonition of the Lord,\" which is Paul's instruction to fathers, word for word. The record uses it as a description, and it is the first thing Enos says about his upbringing."
+   "text": "Verse 1 says his father taught him in \"the nurture and admonition of the Lord,\" which is Paul's instruction to fathers (Eph. 6:4), word for word. The record uses it as a description, and it is the first thing Enos says about his upbringing.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Eph. 6:4",
+     "start": 120,
+     "end": 128,
+     "book": "Eph",
+     "chapter": 6,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
   },
   {
    "n": 3,
    "title": "The revelation happens at work",
-   "text": "He went to hunt beasts in the forest. The prayer is not at the temple, not at an altar, and not at a set hour; it starts because words he had often heard sank in while he was doing something else. Ancient theophanies are usually located at holy places, and this one is located at a hunt."
+   "text": "He went to hunt beasts in the forest. The prayer is not at the temple, not at an altar, and not at a set hour; it starts because words he had often heard sank in while he was doing something else. Ancient accounts of meeting God are usually set at holy places, and this one is set at a hunt."
   },
   {
    "n": 4,
@@ -92,13 +104,13 @@
   {
    "term": "Visit",
    "verse_label": "v. 10",
-   "text": "To visit, in this record and in the King James Bible, is to come with consequences, and the consequences run both ways. God says \"I will visit thy brethren according to their diligence in keeping my commandments\" (v. 10), and the same verse ends with transgressions brought down with sorrow on the offenders' own heads. One verb carries the blessing and the reckoning, and which one arrives depends on the clause attached to it. The modern sense, a friendly call, is not what is promised here.",
+   "text": "To visit, in this record and in the King James Bible, is to come with consequences, and the consequences run both ways. Treated at Jacob 2:33. God says \"I will visit thy brethren according to their diligence in keeping my commandments\" (v. 10), and the same verse ends with transgressions brought down with sorrow on the offenders' own heads. One verb carries the blessing and the reckoning, and which one arrives depends on the clause attached to it. The modern sense, a friendly call, is not what is promised here.",
    "cites": [
     {
      "quote": "I will visit thy brethren according to their diligence in keeping my commandments",
      "verse": 10,
-     "start": 129,
-     "end": 220,
+     "start": 152,
+     "end": 243,
      "spans": [
       {
        "w1": 22,
@@ -106,6 +118,18 @@
        "text": "I will visit thy brethren according to their diligence in keeping my commandments"
       }
      ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 2:33",
+     "start": 131,
+     "end": 141,
+     "book": "Jacob",
+     "chapter": 2,
+     "verse_start": 33,
+     "verse_end": 33
     }
    ]
   },
@@ -117,13 +141,13 @@
   {
    "term": "Stiffnecked",
    "verse_label": "v. 22",
-   "text": "An animal that will not turn its neck to the rein. Exodus gives the word to Israel just after the golden calf, and it stays that people's word through Deuteronomy and is still in use in Acts. Enos applies it to the Nephites without argument, as though it needed none. What he adds is harder to place: they were \"a stiffnecked people, hard to understand\" (v. 22). The clause can mean they were hard for their prophets to make understand, or hard for anyone to make sense of, and the verse does not settle it.",
+   "text": "An animal that will not turn its neck to the rein. Treated at 2 Nephi 25:28. Exodus gives the word to Israel just after the golden calf, and it stays that people's word through Deuteronomy and is still in use in Acts. Enos applies it to the Nephites without argument, as though it needed none. What he adds is harder to place: they were \"a stiffnecked people, hard to understand\" (v. 22). The clause can mean they were hard for their prophets to make understand, or hard for anyone to make sense of, and the verse does not settle it.",
    "cites": [
     {
      "quote": "a stiffnecked people, hard to understand",
      "verse": 22,
-     "start": 311,
-     "end": 361,
+     "start": 337,
+     "end": 387,
      "spans": [
       {
        "w1": 13,
@@ -144,12 +168,36 @@
   {
    "term": "He taught me in his language, and also in the nurture and admonition of the Lord",
    "verse_label": "v. 1",
-   "text": "Two educations, named together. A language and a way of being raised, the second in Paul's exact phrase. Everything that happens in the chapter depends on the first clause of verse 3, the words he had often heard his father speak, and this verse is where those words come from."
+   "text": "Two educations, named together. A language and a way of being raised, the second in Paul's exact phrase (Eph. 6:4). Everything that happens in the chapter depends on the first clause of verse 3, the words he had often heard his father speak, and this verse is where those words come from.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Eph. 6:4",
+     "start": 105,
+     "end": 113,
+     "book": "Eph",
+     "chapter": 6,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
   },
   {
    "term": "The wrestle which I had before God, before I received a remission of my sins",
    "verse_label": "v. 2",
-   "text": "A wrestle is a contest of holds, not a conversation; the King James Bible uses the word of Jacob at Peniel and of Paul's contest against principalities, and in both the opponent is stronger and the whole question is endurance. Choosing it for prayer makes the all-day duration of verse 4 part of the definition. The sentence is also honest about sequence. The wrestle came first and the remission after, and it gives the outcome before the struggle."
+   "text": "A wrestle is a contest of holds, not a conversation; the King James Bible uses the word of Jacob at Peniel and of Paul's contest against principalities (Eph. 6:12), and in both the opponent is stronger and the whole question is endurance. Choosing it for prayer makes the all-day duration of verse 4 part of the definition. The sentence is also honest about sequence. The wrestle came first and the remission after, and it gives the outcome before the struggle.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Eph. 6:12",
+     "start": 153,
+     "end": 162,
+     "book": "Eph",
+     "chapter": 6,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
   },
   {
    "term": "The words... sunk deep into my heart",
@@ -184,27 +232,47 @@
   {
    "term": "That the Lord God would preserve a record of my people... that it might be brought forth at some future day unto the Lamanites",
    "verse_label": "v. 13",
-   "text": "A request that assumes his own nation's destruction. Enos asks for the record's survival on the condition that the Nephites fall. He is praying for a future in which his people are gone and their enemies are reading their book."
+   "text": "A request that assumes his own nation's destruction. Enos asks for the record's survival on the condition that the Nephites fall. He is praying for a future in which his people are gone and their enemies are reading their book. The answer comes three verses later as a covenant to deliver: the Lord \"covenanted with me that he would bring them forth unto the Lamanites in his own due time\" (v. 16), destination specified and timing withheld. Enos's rest in verse 17 is grounded in that word, and the record's whole existence is presented here as the keeping of it.",
+   "cites": [
+    {
+     "quote": "covenanted with me that he would bring them forth unto the Lamanites in his own due time",
+     "verse": 16,
+     "start": 299,
+     "end": 397,
+     "spans": [
+      {
+       "w1": 19,
+       "w2": 35,
+       "text": "covenanted with me that he would bring them forth unto the Lamanites in his own due time"
+      }
+     ]
+    }
+   ]
   },
   {
    "term": "They swore in their wrath that... they would destroy our records and us, and also all the traditions of our fathers",
    "verse_label": "v. 14",
-   "text": "The threat that makes the request necessary, and it names three targets in ascending order: the writing, the people, the memory. The record understood itself as something specifically hunted, and verse 16's covenant is the answer to this verse."
-  },
-  {
-   "term": "He covenanted with me that he would bring them forth unto the Lamanites in his own due time",
-   "verse_label": "v. 16",
-   "text": "Not a promise to protect but a covenant to deliver, with the destination specified and the timing withheld. Enos's rest in the next verse is grounded in that word, and the record's whole existence is presented here as the keeping of it."
+   "text": "The threat that makes the request necessary, and it names three targets in ascending order: the writing, the people, the memory. The record understood itself as something specifically hunted, and the covenant of verse 16 is the answer to this verse. Six verses on, the condition is reported as permanent: \"their hatred was fixed\" (v. 20), two words set against the chapter's whole argument that things can change. Enos had just been granted his desire concerning them, and the grant applies to a distant day. Verse 20 is his report of the present, and it does not soften.",
+   "cites": [
+    {
+     "quote": "their hatred was fixed",
+     "verse": 20,
+     "start": 305,
+     "end": 337,
+     "spans": [
+      {
+       "w1": 28,
+       "w2": 31,
+       "text": "their hatred was fixed"
+      }
+     ]
+    }
+   ]
   },
   {
    "term": "Thy fathers have also required of me this thing... for their faith was like unto thine",
    "verse_label": "v. 18",
    "text": "He is told he is not the first. Lehi, Nephi, and his own father asked the same, and what is compared is the faith behind it. It relocates his experience from private breakthrough to family practice, and he is told this only after he has done the work."
-  },
-  {
-   "term": "Their hatred was fixed",
-   "verse_label": "v. 20",
-   "text": "Two words for a permanent condition, set against the chapter's whole argument that things can change. Enos had just been granted his desire concerning them, and the grant applies to a distant day. The verse is his report of the present, and it does not soften."
   },
   {
    "term": "I soon go to the place of my rest, which is with my Redeemer",
@@ -214,60 +282,53 @@
  ],
  "verses": [
   {
-   "label": "v. 1–4",
+   "label": "v. 1–3",
    "start": 1,
+   "end": 3,
+   "title": "A book that opens on a sentence it never finishes",
+   "text": "The record begins with a subordinate clause and abandons it: \"knowing my father that he was a just man—for he taught me in his language, and also in the nurture and admonition of the Lord—and blessed be the name of my God for it.\" No main verb ever arrives, and verse 2 starts over with a fresh construction, \"And I will tell you of the wrestle which I had before God.\" The record preserves the broken opening instead of repairing it. Verse 3 then supplies the trigger, words \"which I had often heard my father speak,\" so the account of a conversion begins with a debt to instruction received."
+  },
+  {
+   "label": "v. 4",
+   "start": 4,
    "end": 4,
-   "title": "The setup and the vigil",
-   "text": "A just father, two educations, a hunting trip, words that sink in, a hungering soul, and then prayer all day and into the night. Four verses, and the only action in them is remembering something and then not stopping."
+   "title": "A prayer timed by the clock",
+   "text": "The record puts a span of hours on the praying: \"all the day long did I cry unto him; yea, and when the night came I did still raise my voice high that it reached the heavens.\" A day and into a night. Verse 2 has already supplied the word the writer chose for it, \"the wrestle which I had before God,\" which is the vocabulary of Genesis 32:24–28, where Jacob wrestles until the breaking of the day. The writer's grandfather was named Jacob and his father wrote the book before this one."
   },
   {
-   "label": "v. 5–8",
-   "start": 5,
-   "end": 8,
-   "title": "The answer, and the mechanism",
-   "text": "A voice, forgiveness, the reasoning about God's inability to lie, guilt swept away, and then the question (how is it done) answered with faith in a Christ not yet seen or come. The exchange is short and it is the only dialogue in the chapter."
-  },
-  {
-   "label": "v. 9–12",
-   "start": 9,
-   "end": 12,
-   "title": "The prayer widens twice",
-   "text": "Forgiveness produces concern for the Nephites; that is answered with a conditional about diligence and a statement that the land is holy and cursed only for iniquity. Then the Lamanites, with many long strugglings, and a grant given because of faith."
-  },
-  {
-   "label": "v. 13–18",
+   "label": "v. 13–16",
    "start": 13,
+   "end": 16,
+   "title": "A prayer whose object is a document",
+   "text": "The record narrows three rounds of petition to a single request, and it is textual: \"that the Lord God would preserve a record of my people, the Nephites,\" to be \"brought forth at some future day unto the Lamanites.\" Verse 14 states the threat it answers, that the enemy \"would destroy our records and us, and also all the traditions of our fathers,\" with the records named first. Verse 16 records the answer as a covenant, not a promise, and its terms are about delivery, \"he would bring them forth unto the Lamanites in his own due time.\""
+  },
+  {
+   "label": "v. 18",
+   "start": 18,
    "end": 18,
-   "title": "What he actually asked for",
-   "text": "The record preserved against his own people's destruction and delivered to their enemies; the enemies' oath to destroy records, people, and traditions; the promise about asking in faith; the covenant; his rest; and the information that his fathers had asked the same. Six verses, and they are the reason this book exists."
+   "title": "A discovery that the request was not new",
+   "text": "The record adds a fact after the fact: \"Thy fathers have also required of me this thing; and it shall be done unto them according to their faith; for their faith was like unto thine.\" The petitioner learns that his prayer joins an existing series. Nothing earlier in the record reports those requests being made; the reader learns of them only from this reply. The covenant about the record is thus dated back beyond the man who asked for it, which is the same move made at 2 Nephi 3:16 about the promise to Joseph."
   },
   {
-   "label": "v. 19–23",
-   "start": 19,
+   "label": "v. 20–21",
+   "start": 20,
+   "end": 21,
+   "title": "Two lists set against each other",
+   "text": "The record describes one people by their weapons and diet and the other by their crops and herds. The first list runs to nine details: wild, ferocious, blood-thirsty, idolatrous, feeding upon beasts of prey, dwelling in tents, wandering, a short skin girdle, shaven heads, and skill \"in the bow, and in the cimeter, and the ax,\" with raw meat added at the end. The second, one verse later, names grain, fruit, flocks, cattle, goats, wild goats, and horses. Nothing else in these books puts two such inventories side by side, and the second holds none of the terms the first uses."
+  },
+  {
+   "label": "v. 23",
+   "start": 23,
    "end": 23,
-   "title": "The ministry, reported flatly",
-   "text": "He prophesied and testified; the Nephites tried to restore the Lamanites and failed; the Lamanites are described in an enemy's terms; the Nephites farmed and prospered; there were many prophets and a stiffnecked people; and only harshness and plainness kept them from destruction. Success and failure are given the same tone."
-  },
-  {
-   "label": "v. 24–26",
-   "start": 24,
-   "end": 26,
-   "title": "The count, and the summary",
-   "text": "Wars in his days, a hundred and seventy-nine years since Lehi left Jerusalem, and a life described as declaring the word and rejoicing in it above the world. The dating is the only place the chapter tells the reader where it sits in the record's chronology."
-  },
-  {
-   "label": "v. 27",
-   "start": 27,
-   "end": 27,
-   "title": "The last verse",
-   "text": "Rest with the Redeemer, mortality putting on immortality, standing before him, seeing his face with pleasure, and a sentence of welcome given in God's own voice. It is the only place in the small plates where a writer quotes what he expects to be told at the judgment."
+   "title": "A writer stating why his book sounds the way it does",
+   "text": "The record explains its own tone in the first person: \"there was nothing save it was exceeding harshness, preaching and prophesying of wars, and contentions, and destructions, and continually reminding them of death.\" Then it names the second requirement, \"exceedingly great plainness of speech,\" and closes with the clause that turns the sentence from a report into an editorial note: \"And after this manner do I write concerning them.\" The manner of the preaching and the manner of the writing are declared to be the same thing."
   }
  ],
  "chapter": [
   {
    "n": 1,
    "title": "The chapter is a widening",
-   "text": "Himself, the Nephites, the Lamanites, and then the record itself and everyone who will ever read it. Each circle opens as soon as the previous one closes, and the last one takes the most labor. The structure is the argument about what forgiveness does."
+   "text": "Four petitions widen in order and each is marked by the record. Verse 4 is for himself, \"I cried unto him in mighty prayer and supplication for mine own soul.\" Verse 9 opens the second the moment the first is answered, \"I began to feel a desire for the welfare of my brethren, the Nephites.\" Verse 11 opens the third, \"I prayed unto him with many long strugglings for my brethren, the Lamanites.\" Verse 13 states the fourth and it is about a document, \"that the Lord God would preserve a record of my people.\" The last takes the most words, verses 13 through 18, and the first takes the fewest."
   },
   {
    "n": 2,
@@ -562,6 +623,58 @@
    "mirror": "jac07-006"
   },
   {
+   "id": "eno01-013",
+   "scope": "BOM",
+   "head": "1 Ne. 1:1",
+   "anchor": {
+    "verse": 1,
+    "w1": 7,
+    "w2": 17,
+    "quote": "I, Enos, knowing my father that he was a just man"
+   },
+   "reason": "the opening line Enos is echoing",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 1,
+     "verse": 1,
+     "w1": 5,
+     "w2": 8,
+     "quote": "born of goodly parents,",
+     "verse_text": "I, Nephi, having been born of goodly parents, therefore I was taught somewhat in all the learning of my father; and having seen many afflictions in the course of my days, nevertheless, having been highly favored of the Lord in all my days; yea, having had a great knowledge of the goodness and the mysteries of God, therefore I make a record of my proceedings in my days.",
+     "markdown": "I, Nephi, having been **born of goodly parents**, therefore I was taught somewhat in all the learning of my father; and having seen many afflictions in the course of my days, nevertheless, having been highly favored of the Lord in all my days; yea, having had a great knowledge of the goodness and the mysteries of God, therefore I make a record of my proceedings in my days.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne01-007"
+  },
+  {
+   "id": "eno01-014",
+   "scope": "BOM",
+   "head": "Alma 31:10",
+   "anchor": {
+    "verse": 4,
+    "w1": 17,
+    "w2": 25,
+    "quote": "in mighty prayer and supplication for mine own soul;"
+   },
+   "reason": "the Zoramites who had stopped doing it",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 31,
+     "verse": 10,
+     "w1": 10,
+     "w2": 18,
+     "quote": "to continue in prayer and supplication to God daily,",
+     "verse_text": "Neither would they observe the performances of the church, to continue in prayer and supplication to God daily, that they might not enter into temptation.",
+     "markdown": "Neither would they observe the performances of the church, **to continue in prayer and supplication to God daily**, that they might not enter into temptation.",
+     "span": true
+    }
+   ],
+   "mirror": "al31-006"
+  },
+  {
    "id": "eno01-009",
    "scope": "SW",
    "head": "1 Cor. 15:53",
@@ -699,7 +812,8 @@
    "w2": 17,
    "quote": "I, Enos, knowing my father that he was a just man",
    "entries": [
-    "eno01-001"
+    "eno01-001",
+    "eno01-013"
    ]
   },
   {
@@ -719,6 +833,15 @@
    "entries": [
     "eno01-012",
     "eno01-005"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 17,
+   "w2": 25,
+   "quote": "in mighty prayer and supplication for mine own soul;",
+   "entries": [
+    "eno01-014"
    ]
   },
   {
@@ -795,7 +918,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "bfcea44d1b1ce3ee"
+  "at": "2026-09-07",
+  "source_sha256": "01c8a6fb6d0eecea"
  }
 }

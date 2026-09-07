@@ -215,7 +215,7 @@
   {
    "term": "Wretched",
    "verse_label": "v. 17",
-   "text": "\"O wretched man that I am\" (v. 17): Paul's exact cry, from the record's least wretched man. The word is the psalm's honest opening position, sorrow \"because of my flesh\" (v. 17), grief for \"mine iniquities\" (v. 17), and its placement matters: the confession comes from the obedient son. In this record, closeness to God sharpens self-sight.",
+   "text": "\"O wretched man that I am\" (v. 17): Paul's exact cry (Rom. 7:24), from the record's least wretched man. The word is the psalm's honest opening position, sorrow \"because of my flesh\" (v. 17), grief for \"mine iniquities\" (v. 17), and its placement matters: the confession comes from the obedient son. In this record, closeness to God sharpens self-sight.",
    "cites": [
     {
      "quote": "O wretched man that I am",
@@ -233,8 +233,8 @@
     {
      "quote": "because of my flesh",
      "verse": 17,
-     "start": 148,
-     "end": 177,
+     "start": 160,
+     "end": 189,
      "spans": [
       {
        "w1": 30,
@@ -246,13 +246,45 @@
     {
      "quote": "mine iniquities",
      "verse": 17,
-     "start": 189,
-     "end": 214,
+     "start": 201,
+     "end": 226,
      "spans": [
       {
        "w1": 39,
        "w2": 40,
        "text": "mine iniquities"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Rom. 7:24",
+     "start": 54,
+     "end": 63,
+     "book": "Rom",
+     "chapter": 7,
+     "verse_start": 24,
+     "verse_end": 24
+    }
+   ]
+  },
+  {
+   "term": "Exclaimeth",
+   "verse_label": "v. 17",
+   "text": "To cry out. The verb appears once in this record and never in the King James Bible. Nephi assigns the psalm's sharpest line to a part of himself instead of speaking it flat: \"my heart exclaimeth\" (v. 17). The device holds through the rest of the verse, where the heart sorroweth and the soul grieveth, each grief given its own organ.",
+   "cites": [
+    {
+     "quote": "my heart exclaimeth",
+     "verse": 17,
+     "start": 174,
+     "end": 203,
+     "spans": [
+      {
+       "w1": 17,
+       "w2": 19,
+       "text": "my heart exclaimeth"
       }
      ]
     }
@@ -503,269 +535,106 @@
  ],
  "verses": [
   {
-   "label": "v. 3–7",
+   "label": "v. 3–11",
    "start": 3,
-   "end": 7,
-   "title": "The grandchildren fenced",
-   "text": "Laman's sons and daughters hear the covenant formula, then the transfer: blessing left so that cursing, if it comes, lands upstream on the parents. Lehi cannot save his firstborn from himself, so he spends his last authority insulating the next generation: \"he will be merciful unto you and unto your seed forever\" (v. 7).",
-   "cites": [
-    {
-     "quote": "he will be merciful unto you and unto your seed forever",
-     "verse": 7,
-     "start": 257,
-     "end": 321,
-     "spans": [
-      {
-       "w1": 17,
-       "w2": 27,
-       "text": "he will be merciful unto you and unto your seed forever"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 8–11",
-   "start": 8,
    "end": 11,
-   "title": "The household, each in turn",
-   "text": "Lemuel's children get \"the same blessing\" (v. 9); Ishmael's household is addressed; Sam is folded into Nephi's inheritance, his seed \"numbered with his seed\" (v. 11). The blessings sort the family into its future: two lines fenced against ruin, one line merged with the promise.",
+   "title": "The blessings go to grandchildren first",
+   "text": "The order of the deathbed audience is set out one group at a time and it is not the order a reader expects. Lehi calls \"the children of Laman, his sons, and his daughters\" (v. 3), then \"the sons and daughters of Lemuel\" (v. 8), then the sons of Ishmael and all his household (v. 10), then Sam (v. 11). Laman and Lemuel themselves are named in this chapter only as the fathers of the children being addressed and, at verse 13, as men who were angry afterwards. The two eldest sons are present in the chapter and never spoken to in it.",
    "cites": [
     {
-     "quote": "the same blessing",
-     "verse": 9,
-     "start": 22,
-     "end": 48,
+     "quote": "the children of Laman, his sons, and his daughters",
+     "verse": 3,
+     "start": 119,
+     "end": 178,
      "spans": [
       {
-       "w1": 29,
-       "w2": 31,
-       "text": "the same blessing"
+       "w1": 18,
+       "w2": 26,
+       "text": "the children of Laman, his sons, and his daughters"
       }
      ]
     },
     {
-     "quote": "numbered with his seed",
-     "verse": 11,
-     "start": 133,
-     "end": 165,
-     "spans": [
-      {
-       "w1": 39,
-       "w2": 42,
-       "text": "numbered with his seed"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 12–14",
-   "start": 12,
-   "end": 14,
-   "title": "A burial, then the old weather",
-   "text": "Lehi dies between clauses, and \"not many days after his death\" (v. 13) the anger returns, aimed at Nephi \"because of the admonitions of the Lord\" (v. 13). The father's absence is measured in how fast the family's storm re-forms without him.",
-   "cites": [
-    {
-     "quote": "not many days after his death",
-     "verse": 13,
-     "start": 31,
-     "end": 70,
-     "spans": [
-      {
-       "w1": 7,
-       "w2": 12,
-       "text": "not many days after his death"
-      }
-     ]
-    },
-    {
-     "quote": "because of the admonitions of the Lord",
-     "verse": 13,
-     "start": 105,
-     "end": 153,
+     "quote": "the sons and daughters of Lemuel",
+     "verse": 8,
+     "start": 185,
+     "end": 226,
      "spans": [
       {
        "w1": 25,
-       "w2": 31,
-       "text": "because of the admonitions of the Lord"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 15–19",
-   "start": 15,
-   "end": 19,
-   "title": "Delight and the groan",
-   "text": "The psalm opens with the soul's appetites, scriptures pondered \"for the learning and the profit of my children\" (v. 15), then turns without warning: \"my heart sorroweth because of my flesh\" (v. 17), sins that \"so easily beset me\" (v. 18), desire to rejoice answered by groaning. Verse 19's nevertheless holds the whole structure while the remembrance loads.",
-   "cites": [
-    {
-     "quote": "for the learning and the profit of my children",
-     "verse": 15,
-     "start": 63,
-     "end": 119,
-     "spans": [
-      {
-       "w1": 39,
-       "w2": 47,
-       "text": "for the learning and the profit of my children"
-      }
-     ]
-    },
-    {
-     "quote": "my heart sorroweth because of my flesh",
-     "verse": 17,
-     "start": 149,
-     "end": 197,
-     "spans": [
-      {
-       "w1": 27,
-       "w2": 33,
-       "text": "my heart sorroweth because of my flesh"
-      }
-     ]
-    },
-    {
-     "quote": "so easily beset me",
-     "verse": 18,
-     "start": 209,
-     "end": 237,
-     "spans": [
-      {
-       "w1": 14,
-       "w2": 17,
-       "text": "so easily beset me"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 20–25",
-   "start": 20,
-   "end": 25,
-   "title": "The evidence read into the record",
-   "text": "Support, deliverance on the deep, consuming love, confounded enemies, \"he hath heard my cry by day\" (v. 23), knowledge by night visions, angels, mountains, things \"too great for man\" (v. 25). Despair is answered the family way, by inventory; the psalm's faith is documentary before it is emotional.",
-   "cites": [
-    {
-     "quote": "he hath heard my cry by day",
-     "verse": 23,
-     "start": 70,
-     "end": 107,
-     "spans": [
-      {
-       "w1": 2,
-       "w2": 8,
-       "text": "he hath heard my cry by day"
-      }
-     ]
-    },
-    {
-     "quote": "too great for man",
-     "verse": 25,
-     "start": 163,
-     "end": 190,
-     "spans": [
-      {
-       "w1": 27,
        "w2": 30,
-       "text": "too great for man"
+       "text": "the sons and daughters of Lemuel"
       }
      ]
     }
+   ],
+   "refs": [
+    {
+     "kind": "verse",
+     "text": "(v. 10)",
+     "start": 275,
+     "end": 282,
+     "verse_start": 10,
+     "verse_end": 10
+    },
+    {
+     "kind": "verse",
+     "text": "(v. 11)",
+     "start": 293,
+     "end": 300,
+     "verse_start": 11,
+     "verse_end": 11
+    }
    ]
+  },
+  {
+   "label": "v. 6–7",
+   "start": 6,
+   "end": 7,
+   "title": "A curse redirected to the parents",
+   "text": "The record preserves a transfer stated in plain terms inside the blessing on Laman's children: \"if ye are cursed, behold, I leave my blessing upon you, that the cursing may be taken from you and be answered upon the heads of your parents.\" Verse 7 draws the conclusion, \"because of my blessing the Lord God will not suffer that ye shall perish.\" A grandfather blesses grandchildren by moving a consequence onto his own sons, and does it while those sons are in the room."
+  },
+  {
+   "label": "v. 12",
+   "start": 12,
+   "end": 12,
+   "title": "A death in eight words",
+   "text": "The record ends a man who has occupied most of two books without any ceremony: \"he waxed old. And it came to pass that he died, and was buried.\" No age, no place of burial, no mourners named, no last words beyond the blessings already given. The same verse spends more space on how he had spoken, \"according to the feelings of his heart and the Spirit of the Lord which was in him,\" than on his dying."
+  },
+  {
+   "label": "v. 14–15",
+   "start": 14,
+   "end": 15,
+   "title": "The writer says which plates this is and why",
+   "text": "Two verses draw the line between the two records before the psalm begins. Verse 14 points elsewhere for the rest: \"a more history part are written upon mine other plates.\" Verse 15 states what belongs here: \"upon these I write the things of my soul, and many of the scriptures which are engraven upon the plates of brass.\" The twenty verses that follow are the most personal passage in the book, and the record explains, immediately beforehand, that they are on this set of plates by design."
+  },
+  {
+   "label": "v. 17–19",
+   "start": 17,
+   "end": 19,
+   "title": "The turn, and the word that makes it",
+   "text": "The passage pivots on a concessive: \"Nevertheless, notwithstanding the great goodness of the Lord, in showing me his great and marvelous works, my heart exclaimeth: O wretched man that I am!\" Two verses of complaint follow, encompassed by temptations and a heart that \"groaneth because of my sins,\" and then a second nevertheless turns it back: \"nevertheless, I know in whom I have trusted.\" The structure is a reversal inside a reversal, and both hinges are the same word."
   },
   {
    "label": "v. 26–30",
    "start": 26,
    "end": 30,
-   "title": "The interrogation, and reveille",
-   "text": "Three questions turn the evidence on the mood: why droop, why yield, and the most specific: \"Why am I angry because of mine enemy\" (v. 27) Then the commands: awake, rejoice, do not anger again, do not slacken; and the vow: \"I will praise thee forever\" (v. 30). Nephi preaches himself out of the pit his honesty dug.",
-   "cites": [
-    {
-     "quote": "Why am I angry because of mine enemy",
-     "verse": 27,
-     "start": 92,
-     "end": 138,
-     "spans": [
-      {
-       "w1": 37,
-       "w2": 44,
-       "text": "Why am I angry because of mine enemy"
-      }
-     ]
-    },
-    {
-     "quote": "I will praise thee forever",
-     "verse": 30,
-     "start": 223,
-     "end": 259,
-     "spans": [
-      {
-       "w1": 14,
-       "w2": 18,
-       "text": "I will praise thee forever"
-      }
-     ]
-    }
-   ]
+   "title": "Questions to himself, then orders to himself",
+   "text": "The record puts four questions in verses 26 and 27 with no addressee but the speaker: why should my heart weep, why should I yield to sin, why should I give way to temptations, why am I angry. Verse 28 stops asking and starts commanding: \"Awake, my soul! No longer droop in sin. Rejoice, O my heart, and give place no more for the enemy of my soul.\" Verse 29 adds two prohibitions and verse 30 repeats \"Rejoice, O my heart.\" A man issues imperatives to his own soul and heart as though they were separate parties."
   },
   {
-   "label": "v. 31–35",
+   "label": "v. 31–33",
    "start": 31,
-   "end": 35,
-   "title": "The petitions, all as questions",
-   "text": "Redeem, deliver, make me shake at sin's appearance, shut hell's gates, robe me, straighten the path: every request is a \"wilt thou\" (v. 31), boldness in the grammar of dependence. The close plants the last stake: no arm of flesh, ask not amiss, and a voice ascending \"forever\" (v. 35) to \"my rock and mine everlasting God\" (v. 35).",
-   "cites": [
-    {
-     "quote": "wilt thou",
-     "verse": 31,
-     "start": 120,
-     "end": 139,
-     "spans": [
-      {
-       "w1": 3,
-       "w2": 4,
-       "text": "wilt thou"
-      }
-     ]
-    },
-    {
-     "quote": "forever",
-     "verse": 35,
-     "start": 267,
-     "end": 284,
-     "spans": [
-      {
-       "w1": 50,
-       "w2": 50,
-       "text": "forever"
-      }
-     ]
-    },
-    {
-     "quote": "my rock and mine everlasting God",
-     "verse": 35,
-     "start": 288,
-     "end": 330,
-     "spans": [
-      {
-       "w1": 55,
-       "w2": 60,
-       "text": "my rock and mine everlasting God"
-      }
-     ]
-    }
-   ]
+   "end": 33,
+   "title": "Eight petitions in three verses",
+   "text": "Wilt stands eight times here, three in verse 31, one in 32 and four in 33, which places this chapter second among the one hundred and ninety-nine chapters of scripture that use the word, behind Alma 31. The requests are put as questions rather than demands: \"wilt thou redeem my soul? Wilt thou deliver me out of the hands of mine enemies? Wilt thou make me that I may shake at the appearance of sin?\" The self-commands of the previous verses have become appeals, and the same voice that ordered its own heart to rejoice now asks for everything."
   }
  ],
  "chapter": [
   {
    "n": 1,
    "title": "The record's most human page",
-   "text": "Between a funeral and a family rupture, its most obedient man grieves his own sins, names his anger, and talks himself back to praise. The placement is the doctrine: temptation and sorrow cluster at exactly the seams, bereavement, conflict, where readers meet them."
+   "text": "The passage sits between the death notice at verse 12 and the flight of 2 Nephi 5. Inside it the writer records his own condition in the first person: \"O wretched man that I am,\" \"the temptations and the sins which do so easily beset me,\" and, at verse 27, a question about a specific emotion, \"Why am I angry because of mine enemy?\" The phrase \"so easily beset\" stands at Hebrews 12:1. Nothing else in these books has a writer name his own besetting sins and his own anger inside the narrative of his own book."
   },
   {
    "n": 2,
@@ -792,7 +661,7 @@
   {
    "n": 4,
    "title": "Memory defeats mood",
-   "text": "The psalm's turn runs on inventory: supported, preserved, filled, shown. It is the same instrument Lehi opened the farewell with (rehearsing mercies) and the same one the record itself is: written remembrance as the standing cure for despair."
+   "text": "The turn at verses 20 and 21 is a list of four things already done: \"My God hath been my support,\" \"he hath led me through mine afflictions in the wilderness,\" \"he hath preserved me upon the waters of the great deep,\" and \"He hath filled me with his love.\" Verse 26 then converts the inventory into an argument by question, \"if I have seen so great things... why should my heart weep.\" Verse 28 gives the two imperatives that follow, \"Awake, my soul\" and \"Rejoice, O my heart.\" Recollection is used here as the instrument, and nothing new is revealed between the complaint and the resolution."
   },
   {
    "n": 5,
@@ -1279,7 +1148,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "1efd2db066900a43"
+  "at": "2026-09-07",
+  "source_sha256": "332ff110a0205c98"
  }
 }

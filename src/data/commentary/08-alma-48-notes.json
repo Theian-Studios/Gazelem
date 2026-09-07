@@ -15,21 +15,55 @@
   "principles": [
    "Two men preparing at the same time",
    "A character described at length",
-   ""
+   "Fighting with reluctance"
   ],
-  "connections": 9,
+  "connections": 13,
   "initial": true
  },
  "world_behind": [
   {
    "n": 1,
    "title": "Amalickiah uses towers for propaganda",
-   "text": "Verse 1 says he appointed men to speak to the Lamanites from their towers against the Nephites. The campaign begins with a speaking programme."
+   "text": "Verse 1 says he appointed men to speak to the Lamanites from their towers against the Nephites. Alma 31:13 and 14 had the Zoramite Rameumptom used the same way, a raised stand for one voice at a time; Amalickiah is putting a religious form to political use.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 31:13",
+     "start": 96,
+     "end": 106,
+     "book": "Alma",
+     "chapter": 31,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
   },
   {
    "n": 2,
    "title": "His captains are Zoramite dissenters",
-   "text": "Verse 5 says they knew the Nephite strength, the places of resort, and the weakest parts of the cities. He staffs the command with men who have the intelligence."
+   "text": "Verse 5 makes Zoramite dissenters his chief captains because of what they knew about Nephite defenses. Alma 31:8 to 11 records that people leaving the church twenty years earlier, and Alma 43:4 and 44 has them already fighting on the Lamanite side. Their military value is the accumulated cost of that dissension.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 31:8",
+     "start": 103,
+     "end": 112,
+     "book": "Alma",
+     "chapter": 31,
+     "verse_start": 8,
+     "verse_end": 8
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 43:4",
+     "start": 184,
+     "end": 193,
+     "book": "Alma",
+     "chapter": 43,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
   },
   {
    "n": 3,
@@ -39,22 +73,44 @@
   {
    "n": 4,
    "title": "The fortifications are described concretely",
-   "text": "Verse 8 gives small forts, banks of earth thrown up, and walls of stone around cities and borders. Verse 9 says the weakest points got the most men."
+   "text": "Verse 8 gives small forts, banks of earth, and walls of stone around the cities and the borders. Alma 49:4 and 18 describe what a Lamanite army met when it arrived, and Alma 50:2 to 6 adds timbers, pickets and towers on top. Three chapters build one description of Nephite fortification.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 49:4",
+     "start": 97,
+     "end": 106,
+     "book": "Alma",
+     "chapter": 49,
+     "verse_start": 4,
+     "verse_end": 4
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 50:2",
+     "start": 169,
+     "end": 178,
+     "book": "Alma",
+     "chapter": 50,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
   },
   {
    "n": 5,
    "title": "The Nephite rule of engagement is stated",
-   "text": "Verse 14 has them taught to defend themselves, never to give offense, and never to raise the sword except against an enemy or to preserve their lives."
+   "text": "Verse 14 permits defense and forbids offense, with the blade reserved for an enemy or for staying alive."
   },
   {
    "n": 6,
    "title": "Mormon makes his strongest personal claim here",
-   "text": "Verse 17 says that if all men were like Moroni the powers of hell would be shaken forever. He says nothing comparable about anyone else."
+   "text": "Verse 17 stakes the shaking of hell itself on men resembling this one. He says nothing comparable about anyone else."
   },
   {
    "n": 7,
    "title": "He immediately shares the credit",
-   "text": "Verses 18 and 19 put Moroni beside Ammon, the sons of Mosiah, Alma and his sons, and say Helaman and his brethren were no less serviceable."
+   "text": "Verses 18 and 19 set Moroni beside Ammon and the sons of Mosiah, beside Alma and his sons, and rate Helaman and his brethren no less serviceable. Mosiah 27 and 28 carry the sons of Mosiah, Alma 5 through 16 carry Alma, and Alma 31 through 35 carry Helaman, so the verse works as an index to thirty chapters the reader has already been through."
   }
  ],
  "words": [
@@ -78,12 +134,24 @@
   {
    "term": "Fortify",
    "verse_label": "v. 9",
-   "text": "Treated at 2 Nephi 10:12. The related noun fortifications occurs ten times in this record and never in the King James Bible, mostly across these war chapters. Verse 9 gives Moroni's principle: the most men at the weakest points."
+   "text": "Treated at 2 Nephi 10:12. The related noun fortifications runs to ten uses here and none in the King James Bible, mostly across these war chapters. Verse 9 gives Moroni's principle: the most men at the weakest points."
   },
   {
    "term": "Understanding",
    "verse_label": "v. 11",
-   "text": "Comprehension, judgment. Mormon calls Moroni a man of a perfect understanding, a phrase used once in this record and once in the King James Bible, where Luke claims it of his own research before writing his gospel."
+   "text": "Comprehension, judgment. Mormon calls Moroni a man of a perfect understanding, a phrase used once in this record and once in the King James Bible, where Luke claims it of his own research before writing his gospel (Luke 1:3).",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Luke 1:3",
+     "start": 215,
+     "end": 223,
+     "book": "Luke",
+     "chapter": 1,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
   },
   {
    "term": "Serviceable",
@@ -93,12 +161,12 @@
   {
    "term": "Reluctance",
    "verse_label": "v. 22",
-   "text": "Unwillingness. The word occurs once in scripture. Mormon uses it of a people whose wars did not cease for many years, and he uses the adverb in verse 21 as well."
+   "text": "Unwillingness. The word appears once in all of scripture. Mormon uses it of a people whose wars did not cease for many years, and he uses the adverb in verse 21 as well."
   },
   {
    "term": "Barbarous",
    "verse_label": "v. 24",
-   "text": "Savage, uncivilized. The word occurs once in this record and once in the King James Bible, of the islanders who showed Paul kindness after the shipwreck. Mormon uses it of what dissenters would do to Nephite families."
+   "text": "Savage, uncivilized. Its count is one here and one in the King James Bible, of the islanders who showed Paul kindness after the shipwreck. Mormon uses it of what dissenters would do to Nephite families."
   }
  ],
  "phrases": [
@@ -160,53 +228,46 @@
  ],
  "verses": [
   {
-   "label": "v. 1–6",
-   "start": 1,
-   "end": 6,
-   "title": "Amalickiah prepares",
-   "text": "As soon as he has the kingdom he sets men speaking from towers against the Nephites, hardening hearts and blinding minds until he has a numerous host. He wants to rule both peoples. He appoints Zoramite captains who know the Nephite strength and weak points, and marches for Zarahemla."
-  },
-  {
-   "label": "v. 7–10",
-   "start": 7,
-   "end": 10,
-   "title": "Moroni prepares",
-   "text": "While Amalickiah gained power by fraud, Moroni was preparing minds to be faithful. He strengthens the armies, builds small forts, throws up banks of earth, walls cities and borders with stone, and puts the most men at the weakest points, to support liberty, lands, wives, children, peace, and the cause of Christians."
+   "label": "v. 8–9",
+   "start": 8,
+   "end": 9,
+   "title": "A defensive rule that runs against instinct",
+   "text": "The fortification programme is described by its materials, \"erecting small forts, or places of resort; throwing up banks of earth round about to enclose his armies, and also building walls of stone,\" and then by a policy: \"in their weakest fortifications he did place the greater number of men.\" The rule is counterintuitive and stated without argument. Numbers go where the works are poorest, which is a distribution decision rather than a construction one."
   },
   {
    "label": "v. 11–13",
    "start": 11,
    "end": 13,
-   "title": "The portrait",
-   "text": "Strong and mighty, of a perfect understanding, not delighting in bloodshed, joying in liberty and in his brethren's freedom, thankful for God's blessings, laboring for his people's welfare, firm in the faith of Christ, and sworn to defend his people even to the loss of his blood."
+   "title": "One noun phrase, six times in three verses",
+   "text": "The portrait is built by repetition of a single construction: \"a strong and a mighty man; he was a man of a perfect understanding; yea, a man that did not delight in bloodshed; a man whose soul did joy in the liberty and the freedom of his country\"; then \"a man whose heart did swell with thanksgiving to his God\"; \"a man who did labor exceedingly for the welfare and safety of his people.\" Six occurrences of a man in three verses, each introducing a different quality. The record gives no incident to illustrate any of them."
   },
   {
-   "label": "v. 14–16",
+   "label": "v. 14",
    "start": 14,
-   "end": 16,
-   "title": "The doctrine of their defense",
-   "text": "Taught to defend themselves to the shedding of blood if necessary, never to give offense, never to raise the sword except against an enemy or to preserve life. Their faith was that God would prosper them, warn them, and show them where to go, and Moroni gloried in that rather than in blood."
+   "end": 14,
+   "title": "The rule of engagement stated with its exceptions",
+   "text": "The doctrine is given as one sentence with three clauses, and the last two are limits on the first: the Nephites were taught \"to defend themselves against their enemies, even to the shedding of blood if it were necessary; yea, and they were also taught never to give an offense, yea, and never to raise the sword except it were against an enemy, except it were to preserve their lives.\" Two exception clauses stack at the end, and the second narrows the first, so the permission is bounded twice inside a single verse."
   },
   {
-   "label": "v. 17–19",
+   "label": "v. 17",
    "start": 17,
+   "end": 17,
+   "title": "A superlative in three tenses at once",
+   "text": "The claim about the man is made conditional and then stretched across all time: \"if all men had been, and were, and ever would be, like unto Moroni, behold, the very powers of hell would have been shaken forever.\" Past, present and future are stated in a row before the consequence arrives. It is the strongest thing the record says about any person, and it is put in a form that cannot be tested, since the condition it depends on has never held."
+  },
+  {
+   "label": "v. 18–19",
+   "start": 18,
    "end": 19,
-   "title": "Mormon's judgment",
-   "text": "If all men were like Moroni the powers of hell would be shaken forever and the devil would have no power over men's hearts. He was like Ammon and the sons of Mosiah, like Alma and his sons. Helaman and his brethren were no less serviceable, preaching and baptizing."
+   "title": "The comparison extended, and then flatly equalised",
+   "text": "Having made the claim about one man, the record immediately widens it: \"he was a man like unto Ammon, the son of Mosiah, yea, and even the other sons of Mosiah, yea, and also Alma and his sons, for they were all men of God.\" Verse 19 then refuses to rank the general above the preachers: \"Helaman and his brethren were no less serviceable unto the people than was Moroni.\" A chapter that has spent nine verses praising a military commander declines, in its tenth, to say he mattered more than the men who preached."
   },
   {
-   "label": "v. 20–22",
-   "start": 20,
-   "end": 22,
-   "title": "Four years of peace",
-   "text": "The people humbled themselves and were highly favored, free from wars and contentions among themselves for four years. Then, in the latter end of the nineteenth year, they were compelled reluctantly to contend, and the wars did not cease for many years."
-  },
-  {
-   "label": "v. 23–25",
-   "start": 23,
+   "label": "v. 21–25",
+   "start": 21,
    "end": 25,
-   "title": "Why they fought",
-   "text": "They were sorry to take up arms, not delighting in blood, and sorry to send men unprepared into an eternal world. But they could not let their wives and children be massacred by the barbarous cruelty of former brethren, nor let those men rejoice over Nephite blood while any kept the commandments."
+   "title": "Reluctance stated four times in five verses",
+   "text": "The record will not let the war be read as willing. Verse 21: they \"were compelled reluctantly to contend with their brethren.\" Verse 22: \"their wars never did cease for the space of many years with the Lamanites, notwithstanding their much reluctance.\" Verse 23: \"they were sorry to take up arms against the Lamanites, because they did not delight in the shedding of blood.\" Verse 24 gives the reason they fought anyway, \"they could not suffer to lay down their lives, that their wives and their children should be massacred.\""
   }
  ],
  "chapter": [
@@ -218,7 +279,7 @@
   {
    "n": 2,
    "title": "The war opens with speeches on both sides",
-   "text": "Amalickiah appoints men to speak from towers; Moroni prepares minds to be faithful. Before any army moves, both leaders are working on what people believe."
+   "text": "Verse 1 gives one method, \"he did appoint men to speak unto the Lamanites from their towers, against the Nephites.\" Verse 7 gives the other in the same construction, \"while Amalickiah had thus been obtaining power by fraud and deceit, Moroni, on the other hand, had been preparing the minds of the people to be faithful unto the Lord their God.\" Both verbs are about persuasion. Only at verse 8 does anything physical happen, and even that is defensive, \"erecting small forts, or places of resort; throwing up banks of earth.\" The first three verses of the war are speeches."
   },
   {
    "n": 3,
@@ -254,9 +315,9 @@
  "world_in_front": {
   "applications": [
    {
-    "title": "Put your strength where you are weakest",
-    "verse_label": "v. 9",
-    "text": "Moroni reinforced the poorest fortifications. Identify the part of your life or work that would fail first, and put resources there rather than into what is already strong."
+    "title": "Assume the defectors know your weak points",
+    "verse_label": "v. 5",
+    "text": "Amalickiah made Zoramites his chief captains on the strength of what they knew about Nephite defenses from the inside. When someone leaves your side for the other one, the first question is what they carry with them, and the second is what you should change because they carry it."
    },
    {
     "title": "Prepare minds before you prepare defenses",
@@ -264,14 +325,34 @@
     "text": "Mormon lists Moroni's teaching before his walls. When something difficult is coming, the first work is on what people understand and expect."
    },
    {
+    "title": "Put your strength where you are weakest",
+    "verse_label": "v. 9",
+    "text": "Moroni reinforced the poorest fortifications. Identify the part of your life or work that would fail first, and put resources there rather than into what is already strong."
+   },
+   {
+    "title": "Settle the limit before the pressure arrives",
+    "verse_label": "v. 13",
+    "text": "Moroni had already sworn his oath of defense, so the commitment was fixed before any war came to test it. Draw your line while you are calm, because a line drawn during the crisis bends to the crisis."
+   },
+   {
     "title": "Say what you will not do",
     "verse_label": "v. 14",
     "text": "Never give offense, never raise the sword except against an enemy. Write down the things you will not do in a conflict, before you are in one."
    },
    {
+    "title": "Count the quiet work as equal",
+    "verse_label": "v. 19",
+    "text": "Mormon rates Helaman and his brethren no less serviceable than Moroni, giving the preachers the same standing as the general. When you tally who carried a hard season, include the people whose contribution left no visible marks."
+   },
+   {
     "title": "Let the reluctance stay",
     "verse_label": "v. 23",
     "text": "The Nephites fought and remained sorry about it. When you have to do something hard and justified, you do not have to stop regretting that it was necessary."
+   },
+   {
+    "title": "Say what the refusal would cost",
+    "verse_label": "v. 24",
+    "text": "The reason given for fighting is what would have happened to wives and children if they had not. When you weigh whether to act, spell out the consequence of standing still with the same care you gave the consequence of moving."
    }
   ],
   "questions": [
@@ -356,7 +437,7 @@
     "w2": 45,
     "quote": "the cause of Christians"
    },
-   "reason": "where the name is explained, given from outside and taken gladly",
+   "reason": "where the name is explained, given from outside",
    "targets": [
     {
      "ref": "Alma",
@@ -370,7 +451,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al46-017"
   },
   {
    "id": "al48-003",
@@ -408,7 +489,7 @@
     "w2": 45,
     "quote": "never to raise the sword except it were against an enemy"
    },
-   "reason": "the Lord quoted on the same rule, at the first battle",
+   "reason": "the Lord quoted on the same rule, first battle",
    "targets": [
     {
      "ref": "Alma",
@@ -422,7 +503,111 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al43-018"
+  },
+  {
+   "id": "al48-010",
+   "scope": "BOOK",
+   "head": "Alma 50:1",
+   "anchor": {
+    "verse": 8,
+    "w1": 19,
+    "w2": 25,
+    "quote": "throwing up banks of earth round about"
+   },
+   "reason": "the same programme extended to every city",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 50,
+     "verse": 1,
+     "w1": 50,
+     "w2": 59,
+     "quote": "digging up heaps of earth round about all the cities,",
+     "verse_text": "And now it came to pass that Moroni did not stop making preparations for war, or to defend his people against the Lamanites; for he caused that his armies should commence in the commencement of the twentieth year of the reign of the judges, that they should commence in digging up heaps of earth round about all the cities, throughout all the land which was possessed by the Nephites.",
+     "markdown": "And now it came to pass that Moroni did not stop making preparations for war, or to defend his people against the Lamanites; for he caused that his armies should commence in the commencement of the twentieth year of the reign of the judges, that they should commence in **digging up heaps of earth round about all the cities**, throughout all the land which was possessed by the Nephites.",
+     "span": true
+    }
+   ],
+   "mirror": "al50-001"
+  },
+  {
+   "id": "al48-011",
+   "scope": "BOOK",
+   "head": "Alma 55:19",
+   "anchor": {
+    "verse": 11,
+    "w1": 19,
+    "w2": 26,
+    "quote": "a man that did not delight in bloodshed;"
+   },
+   "reason": "the same judgment, made while sparing drunk men",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 55,
+     "verse": 19,
+     "w1": 10,
+     "w2": 17,
+     "quote": "he did not delight in murder or bloodshed,",
+     "verse_text": "But behold, this was not the desire of Moroni; he did not delight in murder or bloodshed, but he delighted in the saving of his people from destruction; and for this cause he might not bring upon him injustice, he would not fall upon the Lamanites and destroy them in their drunkenness.",
+     "markdown": "But behold, this was not the desire of Moroni; **he did not delight in murder or bloodshed**, but he delighted in the saving of his people from destruction; and for this cause he might not bring upon him injustice, he would not fall upon the Lamanites and destroy them in their drunkenness.",
+     "span": true
+    }
+   ],
+   "mirror": "al55-003"
+  },
+  {
+   "id": "al48-012",
+   "scope": "BOOK",
+   "head": "Alma 59:13",
+   "anchor": {
+    "verse": 12,
+    "w1": 25,
+    "w2": 38,
+    "quote": "a man who did labor exceedingly for the welfare and safety of his people."
+   },
+   "reason": "the indifference that provoked Moroni's letter",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 59,
+     "verse": 13,
+     "w1": 13,
+     "w2": 22,
+     "quote": "because of their indifference concerning the freedom of their country.",
+     "verse_text": "And it came to pass that Moroni was angry with the government, because of their indifference concerning the freedom of their country.",
+     "markdown": "And it came to pass that Moroni was angry with the government, **because of their indifference concerning the freedom of their country**.",
+     "span": true
+    }
+   ],
+   "mirror": "al59-007"
+  },
+  {
+   "id": "al48-013",
+   "scope": "BOOK",
+   "head": "Alma 63:3",
+   "anchor": {
+    "verse": 17,
+    "w1": 8,
+    "w2": 21,
+    "quote": "if all men had been, and were, and ever would be, like unto Moroni,"
+   },
+   "reason": "Moroni's death, a few chapters after this praise",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 63,
+     "verse": 3,
+     "w1": 1,
+     "w2": 9,
+     "quote": "And it came to pass that Moroni died also.",
+     "verse_text": "And it came to pass that Moroni died also. And thus ended the thirty and sixth year of the reign of the judges.",
+     "markdown": "**And it came to pass that Moroni died also**. And thus ended the thirty and sixth year of the reign of the judges.",
+     "span": true
+    }
+   ],
+   "mirror": "al63-002"
   },
   {
    "id": "al48-005",
@@ -448,7 +633,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos11-027"
   },
   {
    "id": "al48-006",
@@ -460,7 +645,7 @@
     "w2": 22,
     "quote": "thus he did fortify and strengthen the land"
    },
-   "reason": "the Lord promising to fortify the same land against all nations",
+   "reason": "the Lord promising to fortify the same land",
    "targets": [
     {
      "ref": "2 Ne.",
@@ -474,7 +659,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "2ne10-021"
   },
   {
    "id": "al48-007",
@@ -486,7 +671,7 @@
     "w2": 17,
     "quote": "a man of a perfect understanding"
    },
-   "reason": "the King James Bible’s one use of the phrase",
+   "reason": "the King James Bible's one use of the phrase",
    "targets": [
     {
      "ref": "Luke",
@@ -566,6 +751,15 @@
    ]
   },
   {
+   "verse": 8,
+   "w1": 19,
+   "w2": 25,
+   "quote": "throwing up banks of earth round about",
+   "entries": [
+    "al48-010"
+   ]
+  },
+  {
    "verse": 9,
    "w1": 2,
    "w2": 13,
@@ -612,12 +806,39 @@
    ]
   },
   {
+   "verse": 11,
+   "w1": 19,
+   "w2": 26,
+   "quote": "a man that did not delight in bloodshed;",
+   "entries": [
+    "al48-011"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 25,
+   "w2": 38,
+   "quote": "a man who did labor exceedingly for the welfare and safety of his people.",
+   "entries": [
+    "al48-012"
+   ]
+  },
+  {
    "verse": 14,
    "w1": 35,
    "w2": 45,
    "quote": "never to raise the sword except it were against an enemy",
    "entries": [
     "al48-004"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 8,
+   "w2": 21,
+   "quote": "if all men had been, and were, and ever would be, like unto Moroni,",
+   "entries": [
+    "al48-013"
    ]
   },
   {
@@ -631,7 +852,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "b7d9c8b415a335c0"
+  "at": "2026-09-07",
+  "source_sha256": "878bd926785cc3b4"
  }
 }

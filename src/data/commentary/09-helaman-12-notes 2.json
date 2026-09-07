@@ -1,0 +1,683 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Helaman",
+  "book_slug": "helaman",
+  "chapter": 12,
+  "volume_order": "09",
+  "speakers": [
+   "Mormon, speaking in his own voice"
+  ],
+  "audience": "The reader of the abridgment",
+  "location": "Outside the narrative",
+  "date": "Written ~AD 385, about events of ~6 BC",
+  "unit": "Nephi son of Helaman (Helaman 7–12)",
+  "principles": [
+   "Prosperity as the dangerous condition",
+   "The obedience of the earth"
+  ],
+  "connections": 10,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The chapter has no events",
+   "text": "Mormon leaves the narrative after Helaman 11:38 and does not return to it until Helaman 13. Every verse is comment."
+  },
+  {
+   "n": 2,
+   "title": "It is written about the cycle just shown",
+   "text": "Helaman 11 ran war, famine, repentance, prosperity, forgetting, and ripening in one chapter, and verses 1 through 3 name that pattern."
+  },
+  {
+   "n": 3,
+   "title": "The list of blessings comes first",
+   "text": "Verse 2 gives fields, flocks, herds, gold, silver, deliverance, and softened enemies before saying what the people did with them."
+  },
+  {
+   "n": 4,
+   "title": "Verse 15 states a physical claim",
+   "text": "Mormon says it is the earth that moves and not the sun, in a book that elsewhere speaks of the sun standing still."
+  },
+  {
+   "n": 5,
+   "title": "The chapter turns on obedience",
+   "text": "Verses 8 through 21 list things that obey God's voice, and men are the exception the whole list is built around."
+  },
+  {
+   "n": 6,
+   "title": "The cursing of hidden treasure is introduced here",
+   "text": "Verses 18 and 19 state it as a principle, and Helaman 13:18 will have Samuel prophesy it over the land."
+  },
+  {
+   "n": 7,
+   "title": "The close is a quotation",
+   "text": "Verse 26 ends by fulfilling words about everlasting life and everlasting damnation, in the language of John 5:29.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "John 5:29",
+     "start": 103,
+     "end": 112,
+     "book": "John",
+     "chapter": 5,
+     "verse_start": 29,
+     "verse_end": 29
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "term": "Unsteadiness",
+   "verse_label": "v. 1",
+   "text": "Instability, failure to hold a course. The word occurs once in all of scripture, here, as the first thing Mormon says about the human heart."
+  },
+  {
+   "term": "Ease",
+   "verse_label": "v. 2",
+   "text": "Treated at 2 Nephi 28:24, in the wo pronounced on those at ease in Zion. Verse 2 names it with great prosperity as the pair of conditions under which the hardening happened."
+  },
+  {
+   "term": "Chasten",
+   "verse_label": "v. 3",
+   "text": "Treated at 1 Nephi 16:25, of the Lord chastening Lehi. The record uses the word eight times. Verse 3 makes chastening the condition under which the people remember at all."
+  },
+  {
+   "term": "Nothingness",
+   "verse_label": "v. 7",
+   "text": "The state of being nothing. The record uses the word three times, twice in Benjamin's sermon at Mosiah 4 and once here. Verse 7 measures it against the dust of the earth."
+  },
+  {
+   "term": "Accursed",
+   "verse_label": "v. 18",
+   "text": "Placed under a curse. The record uses the word six times, three of them in this chapter at verses 18, 19, and 20. Two are about buried treasure and one is about a man."
+  },
+  {
+   "term": "Damnation",
+   "verse_label": "v. 26",
+   "text": "Condemnation, the state of the finally lost. The record uses the word ten times and the King James Bible eleven, including John 5:29, which verse 26 quotes almost exactly.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "John 5:29",
+     "start": 123,
+     "end": 132,
+     "book": "John",
+     "chapter": 5,
+     "verse_start": 29,
+     "verse_end": 29
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "How false, and also the unsteadiness of the hearts of the children of men",
+   "verse_label": "v. 1",
+   "text": "The thesis, given before any argument. The second half of the same verse says God blesses and prospers those who trust him."
+  },
+  {
+   "term": "Then is the time that they do harden their hearts",
+   "verse_label": "v. 2",
+   "text": "The hinge of the long sentence. Everything before it is a list of blessings, and this clause says when the trouble started."
+  },
+  {
+   "term": "This because of their ease, and their exceedingly great prosperity",
+   "verse_label": "v. 2",
+   "text": "The cause named at the end of the verse. Not defeat, not oppression, and not persecution."
+  },
+  {
+   "term": "Except the Lord doth chasten his people with many afflictions... they will not remember him",
+   "verse_label": "v. 3",
+   "text": "The rule Helaman 11 had just demonstrated twice. Mormon states it without softening the claim."
+  },
+  {
+   "term": "How quick to do iniquity, and how slow to do good",
+   "verse_label": "v. 4",
+   "text": "The pairing that runs through verses 4 and 5. Quick to hearken to the evil one, quick to be lifted up, quick to boast, and slow to remember."
+  },
+  {
+   "term": "They will not that he should be their guide",
+   "verse_label": "v. 6",
+   "text": "The refusal put at its simplest. Verse 6 says they do set his counsels at naught despite his goodness and mercy."
+  },
+  {
+   "term": "O how great is the nothingness of the children of men; yea, even they are less than the dust of the earth",
+   "verse_label": "v. 7",
+   "text": "The comparison the next fourteen verses justify. Dust obeys, and the argument is built on that."
+  },
+  {
+   "term": "Surely it is the earth that moveth and not the sun",
+   "verse_label": "v. 15",
+   "text": "An aside about astronomy inside a sermon about obedience. Mormon states it as a correction to the way the day would look."
+  },
+  {
+   "term": "If a man hide up a treasure in the earth",
+   "verse_label": "v. 18",
+   "text": "The principle stated before it becomes a prophecy. Helaman 13:18 will apply it to the whole land."
+  },
+  {
+   "term": "For this cause, that men might be saved, hath repentance been declared",
+   "verse_label": "v. 22",
+   "text": "The purpose clause that turns the chapter. Everything before it is the problem, and this sentence gives the provision."
+  },
+  {
+   "term": "Restored unto grace for grace, according to their works",
+   "verse_label": "v. 24",
+   "text": "Mormon's phrase for the outcome he hopes for. Grace and works appear in the same clause without tension."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–3",
+   "start": 1,
+   "end": 3,
+   "title": "The pattern",
+   "text": "Mormon says the hearts of men are false and unsteady, and that God blesses those who trust him. At the very time of prosperity, in fields, flocks, herds, gold, silver, deliverance, and softened enemies, they harden their hearts, forget God, and trample the Holy One, because of their ease and great prosperity. Without chastening by affliction, death, terror, famine, and pestilence, they do not remember him."
+  },
+  {
+   "label": "v. 4–6",
+   "start": 4,
+   "end": 6,
+   "title": "Quick and slow",
+   "text": "He calls men foolish, vain, evil, devilish, quick to do iniquity and slow to do good, quick to hear the evil one and to set their hearts on vain things, quick to pride and boasting, slow to remember God and to walk in wisdom's paths. They do not want their Creator to rule over them, set his counsels at naught, and refuse him as guide."
+  },
+  {
+   "label": "v. 7–13",
+   "start": 7,
+   "end": 13,
+   "title": "The dust obeys",
+   "text": "He names the nothingness of men, less than the dust, since dust moves at God's command. At his voice hills and mountains tremble and quake, are broken up and made smooth like a valley, the whole earth shakes, and the foundations rock to the center. If he says to the earth, move, it moves."
+  },
+  {
+   "label": "v. 14–17",
+   "start": 14,
+   "end": 17,
+   "title": "Larger commands",
+   "text": "If he says the earth shall go back so the day is lengthened, it is done, and it looks to man as if the sun stood still, though it is the earth that moves. If he says to the waters of the great deep to dry up, it is done. If he says a mountain shall come over and bury a city, it is done."
+  },
+  {
+   "label": "v. 18–21",
+   "start": 18,
+   "end": 21,
+   "title": "Curses",
+   "text": "If a man hides a treasure and the Lord curses it for his iniquity, it is cursed. If the Lord says no man shall find it, no man does, ever. If he says a man shall be accursed forever, it is so. If he says a man shall be cut off from his presence, he causes it."
+  },
+  {
+   "label": "v. 22–24",
+   "start": 22,
+   "end": 24,
+   "title": "The provision",
+   "text": "Wo to the man who hears that sentence, for he cannot be saved. For that reason repentance has been declared, and blessed are they who repent and hearken, for they will be saved. Mormon prays that men be brought to repentance and good works and be restored to grace for grace."
+  },
+  {
+   "label": "v. 25–26",
+   "start": 25,
+   "end": 26,
+   "title": "The two ends",
+   "text": "He says he would have all men saved, and then that some will be cast out from the presence of the Lord to endless misery, fulfilling the words that those who did good have everlasting life and those who did evil have everlasting damnation."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The dangerous condition is prosperity",
+   "text": "Verse 2 lists eight blessings and then says that was when they hardened. The chapter treats comfort as the risk that persecution is usually assumed to be."
+  },
+  {
+   "n": 2,
+   "title": "Affliction is presented as the only reliable teacher",
+   "text": "Verse 3 says without chastening they will not remember. Mormon does not qualify it, and Helaman 11 is his evidence."
+  },
+  {
+   "n": 3,
+   "title": "Quick and slow are the terms of the indictment",
+   "text": "Verses 4 and 5 describe a speed problem rather than an ignorance problem. They know what is right and are slow at it."
+  },
+  {
+   "n": 4,
+   "title": "The argument runs through obedience",
+   "text": "Dust, hills, mountains, the earth, the day, the deep, and buried treasure all obey a voice. Human beings are the item on the list that does not."
+  },
+  {
+   "n": 5,
+   "title": "Mormon corrects the appearance of the sky",
+   "text": "Verse 15 says the earth moves and the sun does not, in a passage about a lengthened day."
+  },
+  {
+   "n": 6,
+   "title": "The chapter's mood changes at verse 22",
+   "text": "Twenty-one verses of indictment turn on the word \"therefore,\" and the reason given is that men might be saved."
+  },
+  {
+   "n": 7,
+   "title": "Grace and works stand together",
+   "text": "Verse 24 asks for repentance, good works, and restoration to grace for grace, in one sentence with no seam."
+  },
+  {
+   "n": 8,
+   "title": "He states his own wish and then the doctrine",
+   "text": "Verse 25 has \"I would that all men might be saved\" followed immediately by what the record says will happen. The wish is preserved and not allowed to settle the question."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Set a guard on the good years",
+    "verse_label": "v. 2",
+    "text": "The hardening happened during the increase, not during the loss. Whatever practice keeps you honest should get stricter when things go well."
+   },
+   {
+    "title": "Ask whether you are slow rather than ignorant",
+    "verse_label": "v. 4",
+    "text": "The charge is quickness in one direction and slowness in the other. Speed of response is a thing you can measure in yourself."
+   },
+   {
+    "title": "Watch what you are refusing to be guided by",
+    "verse_label": "v. 6",
+    "text": "They set his counsels at naught while acknowledging his goodness. Rejecting guidance rarely looks like denying its source."
+   },
+   {
+    "title": "Let the size of things put you in scale",
+    "verse_label": "v. 7",
+    "text": "Mormon uses dust, mountains, and the deep to locate a person. Perspective of that kind tends to make people steadier rather than smaller."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What has gone well for me lately, and what has it done to me?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What has actually made me remember God?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What am I quick to do that I wish I were slow at?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "Whose counsel do I set at naught while praising them?"
+   },
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "When did I last feel my own scale honestly?"
+   },
+   {
+    "verse_label": "v. 18",
+    "start": 18,
+    "end": 18,
+    "text": "What have I hidden up that I would not want cursed?"
+   },
+   {
+    "verse_label": "v. 22",
+    "start": 22,
+    "end": 22,
+    "text": "What is repentance for, in my own words?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "hel12-001",
+   "scope": "BOOK",
+   "head": "Hel. 11:34",
+   "anchor": {
+    "verse": 3,
+    "w1": 6,
+    "w2": 15,
+    "quote": "except the Lord doth chasten his people with many afflictions"
+   },
+   "reason": "the rule working in the narrative, one chapter earlier",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 11,
+     "verse": 34,
+     "w1": 14,
+     "w2": 25,
+     "quote": "did stir them up again in remembrance of the Lord their God.",
+     "verse_text": "Now this great evil, which came unto the people because of their iniquity, did stir them up again in remembrance of the Lord their God.",
+     "markdown": "Now this great evil, which came unto the people because of their iniquity, **did stir them up again in remembrance of the Lord their God**.",
+     "span": true
+    }
+   ],
+   "mirror": "hel11-003"
+  },
+  {
+   "id": "hel12-002",
+   "scope": "BOOK",
+   "head": "Hel. 11:36",
+   "anchor": {
+    "verse": 2,
+    "w1": 89,
+    "w2": 98,
+    "quote": "then is the time that they do harden their hearts"
+   },
+   "reason": "the forgetting years, counted off one by one",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 11,
+     "verse": 36,
+     "w1": 8,
+     "w2": 16,
+     "quote": "they began again to forget the Lord their God.",
+     "verse_text": "And in the eighty and second year they began again to forget the Lord their God. And in the eighty and third year they began to wax strong in iniquity. And in the eighty and fourth year they did not mend their ways.",
+     "markdown": "And in the eighty and second year **they began again to forget the Lord their God**. And in the eighty and third year they began to wax strong in iniquity. And in the eighty and fourth year they did not mend their ways.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel12-003",
+   "scope": "BOOK",
+   "head": "Hel. 10:9",
+   "anchor": {
+    "verse": 10,
+    "w1": 2,
+    "w2": 14,
+    "quote": "by the power of his voice they are broken up, and become smooth"
+   },
+   "reason": "the same power put into a man’s hands, and the same words",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 10,
+     "verse": 9,
+     "w1": 2,
+     "w2": 15,
+     "quote": "if ye shall say unto this mountain, Be thou cast down and become smooth,",
+     "verse_text": "And if ye shall say unto this mountain, Be thou cast down and become smooth, it shall be done.",
+     "markdown": "And **if ye shall say unto this mountain, Be thou cast down and become smooth**, it shall be done.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel12-004",
+   "scope": "BOOK",
+   "head": "Hel. 13:18",
+   "anchor": {
+    "verse": 18,
+    "w1": 3,
+    "w2": 12,
+    "quote": "if a man hide up a treasure in the earth"
+   },
+   "reason": "the principle spoken over the whole land as prophecy",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 13,
+     "verse": 18,
+     "w1": 19,
+     "w2": 32,
+     "quote": "whoso shall hide up treasures in the earth shall find them again no more,",
+     "verse_text": "And it shall come to pass, saith the Lord of Hosts, yea, our great and true God, that whoso shall hide up treasures in the earth shall find them again no more, because of the great curse of the land, save he be a righteous man and shall hide it up unto the Lord.",
+     "markdown": "And it shall come to pass, saith the Lord of Hosts, yea, our great and true God, that **whoso shall hide up treasures in the earth shall find them again no more**, because of the great curse of the land, save he be a righteous man and shall hide it up unto the Lord.",
+     "span": true
+    }
+   ],
+   "mirror": "hel13-001"
+  },
+  {
+   "id": "hel12-005",
+   "scope": "BOM",
+   "head": "Mosiah 4:11",
+   "anchor": {
+    "verse": 7,
+    "w1": 1,
+    "w2": 11,
+    "quote": "O how great is the nothingness of the children of men"
+   },
+   "reason": "Benjamin telling his people to retain their own nothingness in remembrance",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 4,
+     "verse": 11,
+     "w1": 69,
+     "w2": 76,
+     "quote": "the greatness of God, and your own nothingness,",
+     "verse_text": "And again I say unto you as I have said before, that as ye have come to the knowledge of the glory of God, or if ye have known of his goodness and have tasted of his love, and have received a remission of your sins, which causeth such exceedingly great joy in your souls, even so I would that ye should remember, and always retain in remembrance, the greatness of God, and your own nothingness, and his goodness and long-suffering towards you, unworthy creatures, and humble yourselves even in the depths of humility, calling on the name of the Lord daily, and standing steadfastly in the faith of that which is to come, which was spoken by the mouth of the angel.",
+     "markdown": "And again I say unto you as I have said before, that as ye have come to the knowledge of the glory of God, or if ye have known of his goodness and have tasted of his love, and have received a remission of your sins, which causeth such exceedingly great joy in your souls, even so I would that ye should remember, and always retain in remembrance, **the greatness of God, and your own nothingness**, and his goodness and long-suffering towards you, unworthy creatures, and humble yourselves even in the depths of humility, calling on the name of the Lord daily, and standing steadfastly in the faith of that which is to come, which was spoken by the mouth of the angel.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel12-006",
+   "scope": "BOM",
+   "head": "1 Ne. 17:46",
+   "anchor": {
+    "verse": 10,
+    "w1": 2,
+    "w2": 14,
+    "quote": "by the power of his voice they are broken up, and become smooth"
+   },
+   "reason": "the first Nephi making the same argument to hard hearts",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 17,
+     "verse": 46,
+     "w1": 28,
+     "w2": 40,
+     "quote": "by his word he can cause the rough places to be made smooth,",
+     "verse_text": "And ye also know that by the power of his almighty word he can cause the earth that it shall pass away; yea, and ye know that by his word he can cause the rough places to be made smooth, and smooth places shall be broken up. O, then, why is it, that ye can be so hard in your hearts?",
+     "markdown": "And ye also know that by the power of his almighty word he can cause the earth that it shall pass away; yea, and ye know that **by his word he can cause the rough places to be made smooth**, and smooth places shall be broken up. O, then, why is it, that ye can be so hard in your hearts?",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel12-007",
+   "scope": "BOM",
+   "head": "Alma 34:32",
+   "anchor": {
+    "verse": 22,
+    "w1": 30,
+    "w2": 38,
+    "quote": "that men might be saved, hath repentance been declared"
+   },
+   "reason": "Amulek on the day of this life as the time to prepare",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 34,
+     "verse": 32,
+     "w1": 3,
+     "w2": 14,
+     "quote": "this life is the time for men to prepare to meet God;",
+     "verse_text": "For behold, this life is the time for men to prepare to meet God; yea, behold the day of this life is the day for men to perform their labors.",
+     "markdown": "For behold, **this life is the time for men to prepare to meet God**; yea, behold the day of this life is the day for men to perform their labors.",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel12-008",
+   "scope": "BOM",
+   "head": "Mosiah 16:11",
+   "anchor": {
+    "verse": 26,
+    "w1": 17,
+    "w2": 25,
+    "quote": "They that have done good shall have everlasting life"
+   },
+   "reason": "Abinadi putting the same two ends in the same order",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 16,
+     "verse": 11,
+     "w1": 1,
+     "w2": 12,
+     "quote": "If they be good, to the resurrection of endless life and happiness;",
+     "verse_text": "If they be good, to the resurrection of endless life and happiness; and if they be evil, to the resurrection of endless damnation, being delivered up to the devil, who hath subjected them, which is damnation—",
+     "markdown": "**If they be good, to the resurrection of endless life and happiness**; and if they be evil, to the resurrection of endless damnation, being delivered up to the devil, who hath subjected them, which is damnation—",
+     "span": true
+    }
+   ],
+   "mirror": "pending"
+  },
+  {
+   "id": "hel12-009",
+   "scope": "SW",
+   "head": "Josh. 10:13",
+   "anchor": {
+    "verse": 14,
+    "w1": 7,
+    "w2": 19,
+    "quote": "Thou shalt go back, that it lengthen out the day for many hours"
+   },
+   "reason": "the day the record says was lengthened, described from the ground",
+   "targets": [
+    {
+     "ref": "Josh.",
+     "chapter": 10,
+     "verse": 13,
+     "w1": 2,
+     "w2": 9,
+     "quote": "the sun stood still, and the moon stayed,",
+     "verse_text": "And the sun stood still, and the moon stayed, until the people had avenged themselves upon their enemies. Is not this written in the book of Jasher? So the sun stood still in the midst of heaven, and hasted not to go down about a whole day.",
+     "markdown": "And **the sun stood still, and the moon stayed**, until the people had avenged themselves upon their enemies. Is not this written in the book of Jasher? So the sun stood still in the midst of heaven, and hasted not to go down about a whole day.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "hel12-010",
+   "scope": "SW",
+   "head": "John 5:29",
+   "anchor": {
+    "verse": 26,
+    "w1": 27,
+    "w2": 35,
+    "quote": "they that have done evil shall have everlasting damnation"
+   },
+   "reason": "the sentence Mormon is quoting, in the gospel",
+   "targets": [
+    {
+     "ref": "John",
+     "chapter": 5,
+     "verse": 29,
+     "w1": 16,
+     "w2": 25,
+     "quote": "they that have done evil, unto the resurrection of damnation.",
+     "verse_text": "And shall come forth; they that have done good, unto the resurrection of life; and they that have done evil, unto the resurrection of damnation.",
+     "markdown": "And shall come forth; they that have done good, unto the resurrection of life; and **they that have done evil, unto the resurrection of damnation**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 89,
+   "w2": 98,
+   "quote": "then is the time that they do harden their hearts",
+   "entries": [
+    "hel12-002"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 6,
+   "w2": 15,
+   "quote": "except the Lord doth chasten his people with many afflictions",
+   "entries": [
+    "hel12-001"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 1,
+   "w2": 11,
+   "quote": "O how great is the nothingness of the children of men",
+   "entries": [
+    "hel12-005"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 2,
+   "w2": 14,
+   "quote": "by the power of his voice they are broken up, and become smooth",
+   "entries": [
+    "hel12-003",
+    "hel12-006"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 7,
+   "w2": 19,
+   "quote": "Thou shalt go back, that it lengthen out the day for many hours",
+   "entries": [
+    "hel12-009"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 3,
+   "w2": 12,
+   "quote": "if a man hide up a treasure in the earth",
+   "entries": [
+    "hel12-004"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 30,
+   "w2": 38,
+   "quote": "that men might be saved, hath repentance been declared",
+   "entries": [
+    "hel12-007"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 17,
+   "w2": 25,
+   "quote": "They that have done good shall have everlasting life",
+   "entries": [
+    "hel12-008"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 27,
+   "w2": 35,
+   "quote": "they that have done evil shall have everlasting damnation",
+   "entries": [
+    "hel12-010"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-08-26",
+  "source_sha256": "c81a30a25ca526be"
+ }
+}

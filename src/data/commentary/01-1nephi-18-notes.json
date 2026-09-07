@@ -17,7 +17,7 @@
    "Reverence",
    "Guidance"
   ],
-  "connections": 11,
+  "connections": 13,
   "initial": false
  },
  "world_behind": [
@@ -195,6 +195,38 @@
   }
  ],
  "words": [
+  {
+   "term": "Timbers",
+   "verse_label": "v. 1",
+   "text": "Cut and shaped wood, the plural naming the finished pieces. The party \"did work timbers of curious workmanship\" (v. 1), and the Lord showed Nephi from time to time what manner of work to do on them. The record uses the word ten times and the King James Bible not at all; every other use is a fortification, the pickets and breastworks Moroni threw up around his cities (Alma 50:2-3, 53:4). Both jobs are the same one: building something that will hold under a force nobody can argue with.",
+   "cites": [
+    {
+     "quote": "did work timbers of curious workmanship",
+     "verse": 1,
+     "start": 70,
+     "end": 118,
+     "spans": [
+      {
+       "w1": 20,
+       "w2": 25,
+       "text": "did work timbers of curious workmanship"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 50:2-3",
+     "start": 370,
+     "end": 381,
+     "book": "Alma",
+     "chapter": 50,
+     "verse_start": 2,
+     "verse_end": 3
+    }
+   ]
+  },
   {
    "term": "Oft",
    "verse_label": "v. 3",
@@ -453,13 +485,13 @@
   {
    "term": "There was a great calm",
    "verse_label": "v. 21",
-   "text": "The clause Mark will use of Galilee, word for word, and the psalmist's \"the winds did cease\" (v. 21) sequence before it: prayer, then stillness. In both canons the calm outranks the storm as the display of power, and in both the question that follows is who this is that the sea obeys.",
+   "text": "The clause Mark will use of Galilee (Mark 4:39), word for word, and the psalmist's \"the winds did cease\" (v. 21) sequence before it: prayer, then stillness. In both canons the calm outranks the storm as the display of power, and in both the question that follows is who this is that the sea obeys.",
    "cites": [
     {
      "quote": "the winds did cease",
      "verse": 21,
-     "start": 71,
-     "end": 100,
+     "start": 83,
+     "end": 112,
      "spans": [
       {
        "w1": 40,
@@ -468,291 +500,80 @@
       }
      ]
     }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mark 4:39",
+     "start": 37,
+     "end": 46,
+     "book": "Mark",
+     "chapter": 4,
+     "verse_start": 39,
+     "verse_end": 39
+    }
    ]
   }
  ],
  "verses": [
   {
-   "label": "v. 1–4",
+   "label": "v. 1–3",
    "start": 1,
-   "end": 4,
-   "title": "The shipyard converts its mockers",
-   "text": "The brothers who laughed in chapter 17 now \"did worship the Lord, and did go forth with me\" (v. 1), and when the hull is done they judge it as Laban's sword was judged: \"the workmanship thereof was exceedingly fine\" (v. 4), and \"they did humble themselves again before the Lord\" (v. 4). The record notes the \"again\": humility, in this family, is a state that requires renewal.",
-   "cites": [
-    {
-     "quote": "did worship the Lord, and did go forth with me",
-     "verse": 1,
-     "start": 43,
-     "end": 98,
-     "spans": [
-      {
-       "w1": 8,
-       "w2": 17,
-       "text": "did worship the Lord, and did go forth with me"
-      }
-     ]
-    },
-    {
-     "quote": "the workmanship thereof was exceedingly fine",
-     "verse": 4,
-     "start": 169,
-     "end": 222,
-     "spans": [
-      {
-       "w1": 29,
-       "w2": 34,
-       "text": "the workmanship thereof was exceedingly fine"
-      }
-     ]
-    },
-    {
-     "quote": "they did humble themselves again before the Lord",
-     "verse": 4,
-     "start": 228,
-     "end": 285,
-     "spans": [
-      {
-       "w1": 36,
-       "w2": 43,
-       "text": "they did humble themselves again before the Lord"
-      }
-     ]
-    }
-   ]
+   "end": 3,
+   "title": "A ship described only by what it was not",
+   "text": "The record gives three denials in one verse and no positive description: \"I did not work the timbers after the manner which was learned by men, neither did I build the ship after the manner of men,\" and then, a third time, \"it was not after the manner of men.\" Size, shape, rig, and hull are all absent. The one positive statement is about method, that the Lord \"did show me from time to time after what manner I should work the timbers,\" and verse 3 supplies the mechanism, going into the mount and praying. A vessel that carries the whole family across an ocean is never once described."
   },
   {
-   "label": "v. 5–8",
-   "start": 5,
-   "end": 8,
-   "title": "Embarkation by the book",
-   "text": "The order to board comes to Lehi (\"the voice of the Lord came unto my father\" (v. 5)): the patriarch still receives the family's marching orders, whatever his sick-bed later. Provisions, seeds, loading \"every one according to his age\" (v. 6), two wilderness sons named, and the wind takes them \"towards the promised land\" (v. 8).",
-   "cites": [
-    {
-     "quote": "the voice of the Lord came unto my father",
-     "verse": 5,
-     "start": 34,
-     "end": 84,
-     "spans": [
-      {
-       "w1": 7,
-       "w2": 15,
-       "text": "the voice of the Lord came unto my father"
-      }
-     ]
-    },
-    {
-     "quote": "every one according to his age",
-     "verse": 6,
-     "start": 202,
-     "end": 241,
-     "spans": [
-      {
-       "w1": 60,
-       "w2": 65,
-       "text": "every one according to his age"
-      }
-     ]
-    },
-    {
-     "quote": "towards the promised land",
-     "verse": 8,
-     "start": 294,
-     "end": 328,
-     "spans": [
-      {
-       "w1": 43,
-       "w2": 46,
-       "text": "towards the promised land"
-      }
-     ]
-    }
-   ]
+   "label": "v. 6–7",
+   "start": 6,
+   "end": 7,
+   "title": "A boarding list interrupted by two births",
+   "text": "The record loads the ship by category: fruits, meat, honey, provisions, loading, seeds, \"and whatsoever thing we had brought with us, every one according to his age.\" Then verse 7 stops the manifest to introduce two people who have not appeared before: \"my father had begat two sons in the wilderness; the elder was called Jacob and the younger Joseph.\" Eight years of travel produced two children and the record mentions them for the first time at the moment the family leaves. Jacob will write a book; Joseph is named at 2 Nephi 3:1 and little else."
   },
   {
-   "label": "v. 9–10",
+   "label": "v. 9",
    "start": 9,
-   "end": 10,
-   "title": "The party and the fear",
-   "text": "Merriment curdles into rudeness, and Nephi's response is fear of the sea, not of the dancers: \"lest the Lord should be angry with us\" (v. 10). His soberness lands as the old grievance: \"We will not that our younger brother shall be a ruler over us\" (v. 10), the ruler-complaint of the wilderness (16:37) now afloat with nowhere to walk away to.",
-   "cites": [
-    {
-     "quote": "lest the Lord should be angry with us",
-     "verse": 10,
-     "start": 94,
-     "end": 141,
-     "spans": [
-      {
-       "w1": 8,
-       "w2": 15,
-       "text": "lest the Lord should be angry with us"
-      }
-     ]
-    },
-    {
-     "quote": "We will not that our younger brother shall be a ruler over us",
-     "verse": 10,
-     "start": 185,
-     "end": 256,
-     "spans": [
-      {
-       "w1": 54,
-       "w2": 66,
-       "text": "We will not that our younger brother shall be a ruler over us"
-      }
-     ]
-    }
-   ]
+   "end": 9,
+   "title": "The offence specified rather than summarized",
+   "text": "The record names three actions where a summary would do: they \"began to dance, and to sing, and to speak with much rudeness.\" Only the third is stated as a fault, and the interpretation follows in the same sentence, \"they did forget by what power they had been brought thither.\" The verse then repeats its own key word, closing on \"they were lifted up unto exceeding rudeness,\" so the term that carries the judgment is used twice and the two neutral activities are left standing beside it."
   },
   {
-   "label": "v. 11–13",
-   "start": 11,
-   "end": 13,
-   "title": "Bound, and the needle dies",
-   "text": "Cords, harshness, and the record's careful theology: \"the Lord did suffer it\" (v. 11). Then the quiet catastrophe: with the prophet immobilized, \"the compass, which had been prepared of the Lord, did cease to work\" (v. 12), and a great tempest finds a ship that no longer knows its heading. Guidance in this record is conditioned on how the covenant company treats its covenant men.",
-   "cites": [
-    {
-     "quote": "the Lord did suffer it",
-     "verse": 11,
-     "start": 53,
-     "end": 85,
-     "spans": [
-      {
-       "w1": 27,
-       "w2": 31,
-       "text": "the Lord did suffer it"
-      }
-     ]
-    },
-    {
-     "quote": "the compass, which had been prepared of the Lord, did cease to work",
-     "verse": 12,
-     "start": 145,
-     "end": 222,
-     "spans": [
-      {
-       "w1": 18,
-       "w2": 30,
-       "text": "the compass, which had been prepared of the Lord, did cease to work"
-      }
-     ]
-    }
-   ]
+   "label": "v. 12–15",
+   "start": 12,
+   "end": 15,
+   "title": "One clock read three times in four verses",
+   "text": "The record counts the days of the storm at each stage: driven back \"for the space of three days\" at verse 13, then \"on the fourth day, which we had been driven back\" at verse 14, then \"after we had been driven back upon the waters for the space of four days\" at verse 15. Three statements of elapsed time in a passage of four verses. Verse 13 also records a decision made under that pressure and not reversed, \"nevertheless they did not loose me,\" which fixes the point at which fear alone was insufficient."
   },
   {
-   "label": "v. 15–16",
+   "label": "v. 15",
    "start": 15,
-   "end": 16,
-   "title": "Loosed wrists, unbroken praise",
-   "text": "Four days of storm teach what soberness could not; the bands come off swollen wrists, and the loosed man's report is liturgy: \"I did look unto my God, and I did praise him all the day long\" (v. 16). Praise before analysis, and no murmuring: the bow-breaker's son has outgrown even his father's one lapse.",
-   "cites": [
-    {
-     "quote": "I did look unto my God, and I did praise him all the day long",
-     "verse": 16,
-     "start": 126,
-     "end": 197,
-     "spans": [
-      {
-       "w1": 2,
-       "w2": 16,
-       "text": "I did look unto my God, and I did praise him all the day long"
-      }
-     ]
-    }
-   ]
+   "end": 15,
+   "title": "Swelling recorded where nothing requires it",
+   "text": "The record supplies clinical detail: the bands come off the wrists \"and behold they had swollen exceedingly; and also mine ankles were much swollen, and great was the soreness thereof.\" No argument in the chapter needs it, and verse 16 immediately moves to praise. Four days bound in a pitching hold is the kind of thing a summary drops, and this account keeps the injury and gives it its own clause."
   },
   {
-   "label": "v. 17–19",
+   "label": "v. 17–20",
    "start": 17,
-   "end": 19,
-   "title": "The blast radius",
-   "text": "The chapter counts who else the binding wounded: parents \"stricken in years\" (v. 17) and brought to sick-beds, near \"a watery grave\" (v. 18); young Jacob and Joseph \"grieved because of the afflictions of their mother\" (v. 19); a wife whose \"tears and prayers\" (v. 19) moved nothing. Iniquity in this record is never a private transaction: its costs are billed to the innocent.",
-   "cites": [
-    {
-     "quote": "stricken in years",
-     "verse": 17,
-     "start": 57,
-     "end": 84,
-     "spans": [
-      {
-       "w1": 37,
-       "w2": 39,
-       "text": "stricken in years"
-      }
-     ]
-    },
-    {
-     "quote": "a watery grave",
-     "verse": 18,
-     "start": 116,
-     "end": 140,
-     "spans": [
-      {
-       "w1": 57,
-       "w2": 59,
-       "text": "a watery grave"
-      }
-     ]
-    },
-    {
-     "quote": "grieved because of the afflictions of their mother",
-     "verse": 19,
-     "start": 165,
-     "end": 225,
-     "spans": [
-      {
-       "w1": 14,
-       "w2": 21,
-       "text": "grieved because of the afflictions of their mother"
-      }
-     ]
-    },
-    {
-     "quote": "tears and prayers",
-     "verse": 19,
-     "start": 240,
-     "end": 267,
-     "spans": [
-      {
-       "w1": 28,
-       "w2": 30,
-       "text": "tears and prayers"
-      }
-     ]
-    }
-   ]
+   "end": 20,
+   "title": "Five appeals listed, all of them recorded as failures",
+   "text": "The record itemizes what did not work before naming what did: the father's many words, the sons of Ishmael addressed, the parents brought down to their sick-beds, the two small children \"having need of much nourishment,\" and Nephi's wife \"with her tears and prayers, and also my children.\" Verse 20 then supplies the single sufficient cause: \"there was nothing save it were the power of God, which threatened them with destruction, could soften their hearts.\" The list exists in order to be negated, and the family's grief is recorded in detail precisely because it changed nothing."
   },
   {
-   "label": "v. 21–25",
-   "start": 21,
+   "label": "v. 25",
+   "start": 25,
    "end": 25,
-   "title": "Calm, helm, harvest",
-   "text": "The compass wakes for the freed hand ( \"it did work whither I desired it\" (v. 21)), prayer stills the sea, and Nephi resumes the helm without a recorded word of blame. Arrival is all agriculture: tents, tilled earth, Jerusalem seeds grown \"exceedingly\" (v. 24), forests and ore surveyed. The promised land opens with a planting season.",
-   "cites": [
+   "title": "A whole continent inventoried at one stroke",
+   "text": "The record lists what was found: cow, ox, ass, horse, goat, wild goat, \"and all manner of wild animals,\" then gold, silver, and copper. Six named animals in three pairs and three metals, with the domestic pairs given before the wild. The verse also states when the finding happened, \"as we journeyed in the wilderness,\" so the survey is placed after landing rather than at it. This is the fullest such list in these books; later inventories, at Ether 9:18–19 for instance, add names the record never explains.",
+   "refs": [
     {
-     "quote": "it did work whither I desired it",
-     "verse": 21,
-     "start": 39,
-     "end": 81,
-     "spans": [
-      {
-       "w1": 17,
-       "w2": 23,
-       "text": "it did work whither I desired it"
-      }
-     ]
-    },
-    {
-     "quote": "exceedingly",
-     "verse": 24,
-     "start": 239,
-     "end": 260,
-     "spans": [
-      {
-       "w1": 48,
-       "w2": 48,
-       "text": "exceedingly"
-      }
-     ]
+     "kind": "scripture",
+     "text": "Ether 9:18–19",
+     "start": 445,
+     "end": 458,
+     "book": "Ether",
+     "chapter": 9,
+     "verse_start": 18,
+     "verse_end": 19
     }
    ]
   }
@@ -776,7 +597,7 @@
   {
    "n": 4,
    "title": "The innocent pay first",
-   "text": "The binding's casualty list is parents, children, and a wife, before it is ever the bound man: Nephi's own entry is praise. The chapter's map of sin runs outward through a household, and the record draws it deliberately, name by name."
+   "text": "The record lists the casualties of the binding by household position before it lists any injury to the man bound. Verses 17 and 18 give the parents \"upon their sick-beds\" and \"near to be cast with sorrow into a watery grave.\" Verse 19 gives Jacob and Joseph, \"being young, having need of much nourishment,\" and then \"my wife with her tears and prayers, and also my children.\" Only at verse 15 does the record mention swollen wrists and ankles, and verse 16 records the bound man praising \"all the day long.\" Five parties suffer before the one who is tied."
   },
   {
    "n": 5,
@@ -1076,6 +897,58 @@
    "mirror": "mos20-010"
   },
   {
+   "id": "1ne18-012",
+   "scope": "BOM",
+   "head": "Ether 6:9",
+   "anchor": {
+    "verse": 16,
+    "w1": 9,
+    "w2": 16,
+    "quote": "I did praise him all the day long;"
+   },
+   "reason": "the Jaredites praising God through the whole crossing",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 6,
+     "verse": 9,
+     "w1": 21,
+     "w2": 31,
+     "quote": "he did thank and praise the Lord all the day long;",
+     "verse_text": "And they did sing praises unto the Lord; yea, the brother of Jared did sing praises unto the Lord, and he did thank and praise the Lord all the day long; and when the night came, they did not cease to praise the Lord.",
+     "markdown": "And they did sing praises unto the Lord; yea, the brother of Jared did sing praises unto the Lord, and **he did thank and praise the Lord all the day long**; and when the night came, they did not cease to praise the Lord.",
+     "span": true
+    }
+   ],
+   "mirror": "eth06-006"
+  },
+  {
+   "id": "1ne18-013",
+   "scope": "BOM",
+   "head": "Ether 6:12",
+   "anchor": {
+    "verse": 23,
+    "w1": 17,
+    "w2": 23,
+    "quote": "we did arrive at the promised land;"
+   },
+   "reason": "the other crossing, ending on the same shore",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 6,
+     "verse": 12,
+     "w1": 1,
+     "w2": 11,
+     "quote": "And they did land upon the shore of the promised land.",
+     "verse_text": "And they did land upon the shore of the promised land. And when they had set their feet upon the shores of the promised land they bowed themselves down upon the face of the land, and did humble themselves before the Lord, and did shed tears of joy before the Lord, because of the multitude of his tender mercies over them.",
+     "markdown": "**And they did land upon the shore of the promised land**. And when they had set their feet upon the shores of the promised land they bowed themselves down upon the face of the land, and did humble themselves before the Lord, and did shed tears of joy before the Lord, because of the multitude of his tender mercies over them.",
+     "span": true
+    }
+   ],
+   "mirror": "eth06-007"
+  },
+  {
    "id": "1ne18-005",
    "scope": "SW",
    "head": "Ps. 34:1",
@@ -1225,8 +1098,9 @@
    "verse": 16,
    "w1": 9,
    "w2": 16,
-   "quote": "I did praise him all the day long",
+   "quote": "I did praise him all the day long;",
    "entries": [
+    "1ne18-012",
     "1ne18-005"
    ]
   },
@@ -1256,10 +1130,19 @@
    "entries": [
     "1ne18-007"
    ]
+  },
+  {
+   "verse": 23,
+   "w1": 17,
+   "w2": 23,
+   "quote": "we did arrive at the promised land;",
+   "entries": [
+    "1ne18-013"
+   ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "dcf25740cbf0d865"
+  "at": "2026-09-07",
+  "source_sha256": "05b7e2a9c66f3a21"
  }
 }

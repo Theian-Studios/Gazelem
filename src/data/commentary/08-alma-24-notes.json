@@ -15,9 +15,10 @@
   "unit": "The sons of Mosiah among the Lamanites (Alma 17–26)",
   "principles": [
    "A covenant kept at the cost of life",
-   "Repentance that will not risk"
+   "Repentance that will not risk relapse",
+   "Death as testimony"
   ],
-  "connections": 9,
+  "connections": 22,
   "initial": true
  },
  "world_behind": [
@@ -39,7 +40,7 @@
   {
    "n": 4,
    "title": "The refusal precedes the sermon",
-   "text": "Verse 6 states the fact first: not one soul would take up arms, and the king had commanded it. Verses 7 through 16 then give his reasoning to a people who had already decided."
+   "text": "Verse 6 states the fact first: not one soul reached for a weapon, and the king had ordered it so. Verses 7 through 16 then give his reasoning to a people who had already decided."
   },
   {
    "n": 5,
@@ -86,7 +87,7 @@
   {
    "term": "Enlightened",
    "verse_label": "v. 30",
-   "text": "Given light, brought to understand. The record uses it three times and the King James Bible six, and Hebrews 6 builds the same warning out of it: those once enlightened who fall away are in the worse case. Mormon closes the chapter with that doctrine and the Amalekites as the example."
+   "text": "Given light, brought to understand. It appears three times in the record, and the King James Bible six, and Hebrews 6 builds the same warning out of it: those once enlightened who fall away are in the worse case. Mormon closes the chapter with that doctrine and the Amalekites as the example."
   }
  ],
  "phrases": [
@@ -123,7 +124,19 @@
   {
    "term": "Rather than spend their days in idleness they would labor abundantly with their hands",
    "verse_label": "v. 18",
-   "text": "The covenant has three clauses and only the first is about killing. They also bind themselves to give instead of taking and to work instead of resting. Alma 23 had already called them industrious."
+   "text": "The covenant has three clauses and only the first is about killing. They also bind themselves to giving rather than taking, and to labor rather than rest. Alma 23:18 had already called them industrious.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 23:18",
+     "start": 155,
+     "end": 165,
+     "book": "Alma",
+     "chapter": 23,
+     "verse_start": 18,
+     "verse_end": 18
+    }
+   ]
   },
   {
    "term": "They buried their weapons of peace, or they buried the weapons of war, for peace",
@@ -148,60 +161,155 @@
  ],
  "verses": [
   {
-   "label": "v. 1–4",
-   "start": 1,
-   "end": 4,
-   "title": "The rebellion",
-   "text": "The unconverted, stirred by Amalekites and Amulonites, turn on their own king and take up arms against the converts. The king gives the kingdom to his son, names him Anti-Nephi-Lehi, and dies the same year the war preparations begin."
+   "label": "v. 3",
+   "start": 3,
+   "end": 3,
+   "title": "A nation named in five words, with no explanation",
+   "text": "The record reports the naming and moves on: \"the king conferred the kingdom upon his son, and he called his name Anti-Nephi-Lehi.\" The name is a compound of the two founding names of the record itself with a prefix attached, and nothing in the chapter or anywhere after it says what the prefix means or why it was chosen. The people are called by it for the rest of the book. A record that stops elsewhere to translate Rabbanah and Rameumptom leaves this one alone."
   },
   {
-   "label": "v. 5–6",
-   "start": 5,
-   "end": 6,
-   "title": "The council, and the refusal",
-   "text": "Ammon gathers his brethren at Midian and comes to Ishmael to plan a defense with Lamoni and the new king. Mormon states the outcome first: no convert would take up arms, and the king had forbidden it."
-  },
-  {
-   "label": "v. 7–11",
+   "label": "v. 7–10",
    "start": 7,
-   "end": 11,
-   "title": "The thanksgiving",
-   "text": "Four times the king thanks God: for the Nephite missionaries, for a softened heart and an open correspondence, for conviction of their murders, and for forgiveness through the merits of the Son. Then he calls his people the most lost of all mankind."
+   "end": 10,
+   "title": "Four thanksgivings, each for a different thing",
+   "text": "The record builds the king's speech out of one repeated formula. \"I thank my God, my beloved people, that our great God has in goodness sent these our brethren\" (v. 7); \"I thank my great God that he has given us a portion of his Spirit to soften our hearts\" (v. 8); \"I also thank my God, that by opening this correspondence we have been convinced of our sins\" (v. 9); \"I also thank my God, yea, my great God, that he hath granted unto us that we might repent\" (v. 10). Missionaries, softening, conviction, repentance, in that order. The argument for what follows is delivered entirely as gratitude for things already received.",
+   "cites": [
+    {
+     "quote": "I thank my God, my beloved people, that our great God has in goodness sent these our brethren",
+     "verse": 7,
+     "start": 65,
+     "end": 167,
+     "spans": [
+      {
+       "w1": 15,
+       "w2": 32,
+       "text": "I thank my God, my beloved people, that our great God has in goodness sent these our brethren"
+      }
+     ]
+    },
+    {
+     "quote": "I thank my great God that he has given us a portion of his Spirit to soften our hearts",
+     "verse": 8,
+     "start": 169,
+     "end": 264,
+     "spans": [
+      {
+       "w1": 3,
+       "w2": 21,
+       "text": "I thank my great God that he has given us a portion of his Spirit to soften our hearts"
+      }
+     ]
+    },
+    {
+     "quote": "I also thank my God, that by opening this correspondence we have been convinced of our sins",
+     "verse": 9,
+     "start": 266,
+     "end": 366,
+     "spans": [
+      {
+       "w1": 3,
+       "w2": 19,
+       "text": "I also thank my God, that by opening this correspondence we have been convinced of our sins"
+      }
+     ]
+    },
+    {
+     "quote": "I also thank my God, yea, my great God, that he hath granted unto us that we might repent",
+     "verse": 10,
+     "start": 368,
+     "end": 467,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 20,
+       "text": "I also thank my God, yea, my great God, that he hath granted unto us that we might repent"
+      }
+     ]
+    }
+   ]
   },
   {
-   "label": "v. 12–16",
-   "start": 12,
-   "end": 16,
-   "title": "The case for burying them",
-   "text": "God took away the stains and the swords are bright. Staining them again might put washing out of reach. So hide them, keep them bright as a testimony at the judgment, and if the brethren destroy us we go to God saved."
+   "label": "v. 11–15",
+   "start": 11,
+   "end": 15,
+   "title": "One image worked through five verses",
+   "text": "The record keeps a single figure running: swords that were stained, then cleaned, then to be kept clean. \"God hath taken away our stains, and our swords have become bright, then let us stain our swords no more with the blood of our brethren\" (v. 12); \"let us retain our swords that they be not stained with the blood of our brethren\" (v. 13); \"since it has been as much as we could do to get our stains taken away from us, and our swords are made bright, let us hide them away that they may be kept bright\" (v. 15). The whole argument rests on the physical fact that a polished blade shows what has been on it.",
+   "cites": [
+    {
+     "quote": "God hath taken away our stains, and our swords have become bright, then let us stain our swords no more with the blood of our brethren",
+     "verse": 12,
+     "start": 105,
+     "end": 249,
+     "spans": [
+      {
+       "w1": 7,
+       "w2": 32,
+       "text": "God hath taken away our stains, and our swords have become bright, then let us stain our swords no more with the blood of our brethren"
+      }
+     ]
+    },
+    {
+     "quote": "let us retain our swords that they be not stained with the blood of our brethren",
+     "verse": 13,
+     "start": 251,
+     "end": 341,
+     "spans": [
+      {
+       "w1": 7,
+       "w2": 22,
+       "text": "let us retain our swords that they be not stained with the blood of our brethren"
+      }
+     ]
+    },
+    {
+     "quote": "since it has been as much as we could do to get our stains taken away from us, and our swords are made bright, let us hide them away that they may be kept bright",
+     "verse": 15,
+     "start": 343,
+     "end": 514,
+     "spans": [
+      {
+       "w1": 10,
+       "w2": 44,
+       "text": "since it has been as much as we could do to get our stains taken away from us, and our swords are made bright, let us hide them away that they may be kept bright"
+      }
+     ]
+    }
+   ]
   },
   {
-   "label": "v. 17–19",
-   "start": 17,
-   "end": 19,
-   "title": "The burial and the covenant",
-   "text": "The whole people assemble, bring every weapon used for shedding blood, and bury them deep. They vouch and covenant to give up their lives before shedding blood, to give instead of taking, and to work instead of idling."
+   "label": "v. 16–18",
+   "start": 16,
+   "end": 18,
+   "title": "The act, then the participants' own reading of it",
+   "text": "The instruction ends the metaphor by putting the objects underground: \"we will hide away our swords, yea, even we will bury them deep in the earth, that they may be kept bright, as a testimony... that we have never used them.\" Verse 17 reports the burial, and verse 18 does something unusual, giving the meaning as the people themselves understood it: \"this they did, it being in their view a testimony to God, and also to men, that they never would use weapons again for the shedding of man's blood.\" The phrase in their view attributes the interpretation to them rather than asserting it."
   },
   {
-   "label": "v. 20–25",
-   "start": 20,
-   "end": 25,
-   "title": "The slaughter, and the turning",
-   "text": "The army comes to kill the king and destroy the people. The converts go out to meet them, prostrate themselves, and pray. A thousand and five are killed without resistance. The attackers see them praising God as they die, stop, and throw down their own weapons."
+   "label": "v. 21–22",
+   "start": 21,
+   "end": 22,
+   "title": "A precise number for people who did not fight",
+   "text": "The record reports the massacre with a figure and a manner: \"they went out to meet them, and prostrated themselves before them to the earth, and began to call on the name of the Lord,\" and then \"without meeting any resistance, they did slay a thousand and five of them.\" The count is exact to the unit, which no estimate of a battlefield would be. The verse ends by stating the writer's own conclusion about them, \"we know that they are blessed,\" and marks it as knowledge rather than hope."
   },
   {
-   "label": "v. 26–30",
+   "label": "v. 26–27",
    "start": 26,
+   "end": 27,
+   "title": "The record does the arithmetic",
+   "text": "Two verses set the losses against the gains and draw the balance explicitly: \"the people of God were joined that day by more than the number who had been slain,\" then \"there was not a wicked man slain among them; but there were more than a thousand brought to the knowledge of the truth.\" The comparison is made twice, once as a general statement and once with the figures. A chapter that has just counted a thousand and five dead uses the same number as the floor for the conversions."
+  },
+  {
+   "label": "v. 28–30",
+   "start": 28,
    "end": 30,
-   "title": "The count and the lesson",
-   "text": "More joined that day than were killed. Not one wicked man died. The killers were mostly Amalekites and Amulonites of the order of Nehor, and not one of the new converts came from those groups. Mormon draws his conclusion about falling away."
+   "title": "A demographic observation, and the rule built on it",
+   "text": "The record separates the attackers by origin: \"the greatest number of those of the Lamanites who slew so many of their brethren were Amalekites and Amulonites, the greatest number of whom were after the order of the Nehors.\" Verse 29 states the complementary fact, that among the converts \"there were none who were Amalekites or Amulonites, or who were of the order of Nehor.\" Only then comes the generalisation in verse 30, \"after a people have been once enlightened by the Spirit of God... if they fall away into sin, they become more hardened.\" The evidence is laid out in two verses and the inference is labelled as one."
   }
  ],
  "chapter": [
   {
    "n": 1,
    "title": "The decision is made in a war council",
-   "text": "Ammon and the kings meet to discuss defense, and the answer that comes out is a burial. The record frames the refusal as a strategic conclusion reached by people with the option of fighting."
+   "text": "Verse 5 records the occasion as a military consultation, \"when Ammon and his brethren... saw the preparations of the Lamanites to destroy their brethren, they came forth to the land of Midian.\" Verse 6 states that the refusal was total and reached before the meeting, \"they would not even make any preparations for war.\" Verse 16 gives the decision as a conditional plan, \"if our brethren seek to destroy us, behold, we will hide away our swords... that they may be kept bright, as a testimony.\" Verse 18 records what it cost in advance, \"rather than shed the blood of their brethren they would give up their own lives.\""
   },
   {
    "n": 2,
@@ -242,24 +350,44 @@
  "world_in_front": {
   "applications": [
    {
-    "title": "Put the means out of reach",
-    "verse_label": "v. 16",
-    "text": "They buried the swords deep instead of storing them somewhere safe. Where you have repented of something, ask what would have to be physically gone for a relapse to be difficult, and go make it gone."
+    "title": "Give thanks for the people who corrected you",
+    "verse_label": "v. 7",
+    "text": "The king's speech opens by thanking God that \"our great God has in goodness sent these our brethren, the Nephites, unto us to preach unto us, and to convince us of the traditions of our wicked fathers.\" Being grateful for the correction, out loud and by name, is harder than accepting it."
    },
    {
-    "title": "Say what you are grateful for before you say what you have decided",
-    "verse_label": "v. 7–10",
-    "text": "The king listed four mercies before he asked anything of his people. When you have a hard call to explain, start with what has already been given."
+    "title": "Say what the change cost before you recommend it",
+    "verse_label": "v. 9–12",
+    "text": "He recites what they had been, \"the most lost of all mankind,\" murderers, and states that the stains were washed away \"through the merits of his Son.\" Nobody in the speech is asked to pretend the past was smaller than it was."
    },
    {
-    "title": "Bind yourself to the positive clause too",
+    "title": "Make the difficult decision while it is still hypothetical",
+    "verse_label": "v.\n16",
+    "text": "The burial is described as a plan for a case that has not arrived, \"if our brethren seek to destroy us, behold, we will hide away our swords.\" Decide what you will do in the emergency before the emergency, because the deciding is easier now."
+   },
+   {
+    "title": "Make the commitment hard to reverse",
+    "verse_label": "v. 17",
+    "text": "They did not resolve to abstain; they buried the weapons \"deep in the earth.\" Where you know your own resolve is unreliable, put a physical obstacle between yourself and the thing."
+   },
+   {
+    "title": "Say what the act is a testimony of",
     "verse_label": "v. 18",
-    "text": "The covenant included giving and working alongside the refusal. When you commit to stopping something, name the thing you will do with the time and the means it frees."
+    "text": "The burial has a stated meaning attached, \"a testimony to God, and also to men, that they never would use weapons again for the shedding of man's blood.\" A gesture that is not explained gets reinterpreted by whoever sees it."
    },
    {
-    "title": "Let people see what you do under pressure",
-    "verse_label": "v. 23",
-    "text": "The attackers were changed by what they saw, and nobody preached at them. Where you are being treated badly, the observable part of your response is doing more work than any explanation you could offer."
+    "title": "Count the ones who did not come back",
+    "verse_label": "v. 22, 26",
+    "text": "The record gives the number killed, \"a thousand and five,\" and the number joining, \"more than the number who had been slain.\" Both figures are stated and neither is used to cancel the other."
+   },
+   {
+    "title": "Notice which conversions the pain produced",
+    "verse_label": "v. 24–25",
+    "text": "The Lamanites stop killing because \"they were stung for the murders which they had committed,\" and then throw down their own weapons. The thing that reached them was watching what they were doing, not being told about it."
+   },
+   {
+    "title": "Take the warning about knowledge seriously",
+    "verse_label": "v. 30",
+    "text": "The chapter's closing verdict is about people who were once enlightened and fell away, \"they become more hardened, and thus their state becomes worse than though they had never known these things.\" Whatever you have been given to understand raises rather than lowers what is at stake."
    }
   ],
   "questions": [
@@ -344,7 +472,7 @@
     "w2": 26,
     "quote": "let us stain our swords no more"
    },
-   "reason": "the garments that must be washed white before anyone is saved",
+   "reason": "the garments washed white before anyone is saved",
    "targets": [
     {
      "ref": "Alma",
@@ -358,7 +486,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al05-028"
   },
   {
    "id": "al24-003",
@@ -370,7 +498,7 @@
     "w2": 42,
     "quote": "they were in this attitude"
    },
-   "reason": "the word used of angels around the throne, seen by Lehi and Alma",
+   "reason": "the word used of angels around the throne",
    "targets": [
     {
      "ref": "Alma",
@@ -384,7 +512,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al36-011"
   },
   {
    "id": "al24-004",
@@ -396,7 +524,7 @@
     "w2": 39,
     "quote": "vouching and covenanting with God"
    },
-   "reason": "the oath twenty years later, when their sons offer to keep it for them",
+   "reason": "the oath twenty years on, kept by their sons",
    "targets": [
     {
      "ref": "Alma",
@@ -413,6 +541,240 @@
    "mirror": "al53-001"
   },
   {
+   "id": "al24-010",
+   "scope": "BOOK",
+   "head": "Alma 23:14",
+   "anchor": {
+    "verse": 1,
+    "w1": 7,
+    "w2": 11,
+    "quote": "the Amalekites and the Amulonites"
+   },
+   "reason": "the two groups the conversion never reached",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 23,
+     "verse": 14,
+     "w1": 2,
+     "w2": 6,
+     "quote": "the Amalekites were not converted,",
+     "verse_text": "And the Amalekites were not converted, save only one; neither were any of the Amulonites; but they did harden their hearts, and also the hearts of the Lamanites in that part of the land wheresoever they dwelt, yea, and all their villages and all their cities.",
+     "markdown": "And **the Amalekites were not converted**, save only one; neither were any of the Amulonites; but they did harden their hearts, and also the hearts of the Lamanites in that part of the land wheresoever they dwelt, yea, and all their villages and all their cities.",
+     "span": true
+    }
+   ],
+   "mirror": "al23-003"
+  },
+  {
+   "id": "al24-011",
+   "scope": "BOOK",
+   "head": "Alma 27:3",
+   "anchor": {
+    "verse": 6,
+    "w1": 19,
+    "w2": 25,
+    "quote": "would take up arms against their brethren;"
+   },
+   "reason": "the same refusal made a second time",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 27,
+     "verse": 3,
+     "w1": 2,
+     "w2": 9,
+     "quote": "this people again refused to take their arms,",
+     "verse_text": "Now this people again refused to take their arms, and they suffered themselves to be slain according to the desires of their enemies.",
+     "markdown": "Now **this people again refused to take their arms**, and they suffered themselves to be slain according to the desires of their enemies.",
+     "span": true
+    }
+   ],
+   "mirror": "al27-001"
+  },
+  {
+   "id": "al24-012",
+   "scope": "BOOK",
+   "head": "Alma 25:14",
+   "anchor": {
+    "verse": 17,
+    "w1": 43,
+    "w2": 51,
+    "quote": "they did bury them up deep in the earth."
+   },
+   "reason": "later converts burying weapons the same way",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 25,
+     "verse": 14,
+     "w1": 2,
+     "w2": 9,
+     "quote": "they did also bury their weapons of war,",
+     "verse_text": "And they did also bury their weapons of war, according as their brethren had, and they began to be a righteous people; and they did walk in the ways of the Lord, and did observe to keep his commandments and his statutes.",
+     "markdown": "And **they did also bury their weapons of war**, according as their brethren had, and they began to be a righteous people; and they did walk in the ways of the Lord, and did observe to keep his commandments and his statutes.",
+     "span": true
+    }
+   ],
+   "mirror": "al25-003"
+  },
+  {
+   "id": "al24-017",
+   "scope": "BOOK",
+   "head": "Alma 26:32",
+   "anchor": {
+    "verse": 18,
+    "w1": 49,
+    "w2": 55,
+    "quote": "they would give up their own lives;"
+   },
+   "reason": "Ammon citing the same willingness to die",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 26,
+     "verse": 32,
+     "w1": 19,
+     "w2": 29,
+     "quote": "they have buried their weapons of war deep in the earth,",
+     "verse_text": "For behold, they had rather sacrifice their lives than even to take the life of their enemy; and they have buried their weapons of war deep in the earth, because of their love towards their brethren.",
+     "markdown": "For behold, they had rather sacrifice their lives than even to take the life of their enemy; and **they have buried their weapons of war deep in the earth**, because of their love towards their brethren.",
+     "span": true
+    }
+   ],
+   "mirror": "al26-002"
+  },
+  {
+   "id": "al24-018",
+   "scope": "BOOK",
+   "head": "Alma 62:16",
+   "anchor": {
+    "verse": 19,
+    "w1": 36,
+    "w2": 50,
+    "quote": "they buried their weapons of peace, or they buried the weapons of war, for peace."
+   },
+   "reason": "Lamanite prisoners entering a like covenant later",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 62,
+     "verse": 16,
+     "w1": 17,
+     "w2": 32,
+     "quote": "a covenant that they would no more take up their weapons of war against the Nephites.",
+     "verse_text": "And it came to pass after they had taken them, they caused them to enter into a covenant that they would no more take up their weapons of war against the Nephites.",
+     "markdown": "And it came to pass after they had taken them, they caused them to enter into **a covenant that they would no more take up their weapons of war against the Nephites**.",
+     "span": true
+    }
+   ],
+   "mirror": "al62-004"
+  },
+  {
+   "id": "al24-020",
+   "scope": "BOOK",
+   "head": "Alma 21:2",
+   "anchor": {
+    "verse": 28,
+    "w1": 17,
+    "w2": 20,
+    "quote": "were Amalekites and Amulonites,"
+   },
+   "reason": "where the Amalekites had settled and taught",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 21,
+     "verse": 2,
+     "w1": 2,
+     "w2": 6,
+     "quote": "the Lamanites and the Amalekites",
+     "verse_text": "Now the Lamanites and the Amalekites and the people of Amulon had built a great city, which was called Jerusalem.",
+     "markdown": "Now **the Lamanites and the Amalekites** and the people of Amulon had built a great city, which was called Jerusalem.",
+     "span": true
+    }
+   ],
+   "mirror": "al21-004"
+  },
+  {
+   "id": "al24-021",
+   "scope": "BOOK",
+   "head": "Alma 45:12",
+   "anchor": {
+    "verse": 30,
+    "w1": 8,
+    "w2": 14,
+    "quote": "after a people have been once enlightened"
+   },
+   "reason": "Alma applying it to an apostasy still coming",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 45,
+     "verse": 12,
+     "w1": 31,
+     "w2": 39,
+     "quote": "they shall sin against so great light and knowledge,",
+     "verse_text": "Yea, and this because they shall dwindle in unbelief and fall into the works of darkness, and lasciviousness, and all manner of iniquities; yea, I say unto you, that because they shall sin against so great light and knowledge, yea, I say unto you, that from that day, even the fourth generation shall not all pass away before this great iniquity shall come.",
+     "markdown": "Yea, and this because they shall dwindle in unbelief and fall into the works of darkness, and lasciviousness, and all manner of iniquities; yea, I say unto you, that because **they shall sin against so great light and knowledge**, yea, I say unto you, that from that day, even the fourth generation shall not all pass away before this great iniquity shall come.",
+     "span": true
+    }
+   ],
+   "mirror": "al45-002"
+  },
+  {
+   "id": "al24-022",
+   "scope": "BOOK",
+   "head": "Alma 47:36",
+   "anchor": {
+    "verse": 30,
+    "w1": 39,
+    "w2": 42,
+    "quote": "they become more hardened,"
+   },
+   "reason": "the dissenters described in the same words",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 47,
+     "verse": 36,
+     "w1": 37,
+     "w2": 42,
+     "quote": "they became more hardened and impenitent,",
+     "verse_text": "Now these dissenters, having the same instruction and the same information of the Nephites, yea, having been instructed in the same knowledge of the Lord, nevertheless, it is strange to relate, not long after their dissensions they became more hardened and impenitent, and more wild, wicked and ferocious than the Lamanites—drinking in with the traditions of the Lamanites; giving way to indolence, and all manner of lasciviousness; yea, entirely forgetting the Lord their God.",
+     "markdown": "Now these dissenters, having the same instruction and the same information of the Nephites, yea, having been instructed in the same knowledge of the Lord, nevertheless, it is strange to relate, not long after their dissensions **they became more hardened and impenitent**, and more wild, wicked and ferocious than the Lamanites—drinking in with the traditions of the Lamanites; giving way to indolence, and all manner of lasciviousness; yea, entirely forgetting the Lord their God.",
+     "span": true
+    }
+   ],
+   "mirror": "al47-004"
+  },
+  {
+   "id": "al24-016",
+   "scope": "BOOK",
+   "head": "Alma 56:6",
+   "anchor": {
+    "verse": 18,
+    "w1": 19,
+    "w2": 30,
+    "quote": "they never would use weapons again for the shedding of man's blood;"
+   },
+   "reason": "the covenant their sons were kept from breaking",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 56,
+     "verse": 6,
+     "w1": 7,
+     "w2": 12,
+     "quote": "the covenant which their fathers made,",
+     "verse_text": "And now ye also know concerning the covenant which their fathers made, that they would not take up their weapons of war against their brethren to shed blood.",
+     "markdown": "And now ye also know concerning **the covenant which their fathers made**, that they would not take up their weapons of war against their brethren to shed blood.",
+     "span": true
+    }
+   ],
+   "mirror": "al56-005"
+  },
+  {
    "id": "al24-005",
    "scope": "BOM",
    "head": "Hel. 15:9",
@@ -422,7 +784,7 @@
     "w2": 51,
     "quote": "they did bury them up deep in the earth"
    },
-   "reason": "Samuel the Lamanite citing the burial to Nephites who had forgotten it",
+   "reason": "Samuel citing the burial to Nephites who forgot it",
    "targets": [
     {
      "ref": "Hel.",
@@ -436,7 +798,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel15-004"
   },
   {
    "id": "al24-006",
@@ -462,7 +824,111 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos23-019"
+  },
+  {
+   "id": "al24-013",
+   "scope": "BOM",
+   "head": "Hel. 5:51",
+   "anchor": {
+    "verse": 17,
+    "w1": 43,
+    "w2": 51,
+    "quote": "they did bury them up deep in the earth."
+   },
+   "reason": "Lamanites laying down arms after the prison",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 5,
+     "verse": 51,
+     "w1": 7,
+     "w2": 13,
+     "quote": "did lay down their weapons of war,",
+     "verse_text": "And as many as were convinced did lay down their weapons of war, and also their hatred and the tradition of their fathers.",
+     "markdown": "And as many as were convinced **did lay down their weapons of war**, and also their hatred and the tradition of their fathers.",
+     "span": true
+    }
+   ],
+   "mirror": "hel05-007"
+  },
+  {
+   "id": "al24-014",
+   "scope": "BOM",
+   "head": "Morm. 7:4",
+   "anchor": {
+    "verse": 17,
+    "w1": 43,
+    "w2": 51,
+    "quote": "they did bury them up deep in the earth."
+   },
+   "reason": "Mormon telling the remnant to lay them down",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 7,
+     "verse": 4,
+     "w1": 4,
+     "w2": 11,
+     "quote": "ye must lay down your weapons of war,",
+     "verse_text": "Know ye that ye must lay down your weapons of war, and delight no more in the shedding of blood, and take them not again, save it be that God shall command you.",
+     "markdown": "Know ye that **ye must lay down your weapons of war**, and delight no more in the shedding of blood, and take them not again, save it be that God shall command you.",
+     "span": true
+    }
+   ],
+   "mirror": "morm07-004"
+  },
+  {
+   "id": "al24-015",
+   "scope": "BOM",
+   "head": "Mosiah 20:26",
+   "anchor": {
+    "verse": 18,
+    "w1": 19,
+    "w2": 30,
+    "quote": "they never would use weapons again for the shedding of man's blood;"
+   },
+   "reason": "an unarmed people spared for being unarmed",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 20,
+     "verse": 26,
+     "w1": 11,
+     "w2": 19,
+     "quote": "they were without arms, they had compassion on them",
+     "verse_text": "And when the Lamanites saw the people of Limhi, that they were without arms, they had compassion on them and were pacified towards them, and returned with their king in peace to their own land.",
+     "markdown": "And when the Lamanites saw the people of Limhi, that **they were without arms, they had compassion on them** and were pacified towards them, and returned with their king in peace to their own land.",
+     "span": true
+    }
+   ],
+   "mirror": "mos20-008"
+  },
+  {
+   "id": "al24-019",
+   "scope": "BOM",
+   "head": "3 Ne. 12:39",
+   "anchor": {
+    "verse": 21,
+    "w1": 19,
+    "w2": 25,
+    "quote": "prostrated themselves before them to the earth,"
+   },
+   "reason": "the Lord teaching the rule these people kept",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 12,
+     "verse": 39,
+     "w1": 7,
+     "w2": 11,
+     "quote": "ye shall not resist evil,",
+     "verse_text": "But I say unto you, that ye shall not resist evil, but whosoever shall smite thee on thy right cheek, turn to him the other also;",
+     "markdown": "But I say unto you, that **ye shall not resist evil**, but whosoever shall smite thee on thy right cheek, turn to him the other also;",
+     "span": true
+    }
+   ],
+   "mirror": "3ne12-007"
   },
   {
    "id": "al24-007",
@@ -474,7 +940,7 @@
     "w2": 14,
     "quote": "after a people have been once enlightened"
    },
-   "reason": "the same warning in the same words, addressed to Hebrew converts",
+   "reason": "the same warning, in the same words, to Hebrews",
    "targets": [
     {
      "ref": "Heb.",
@@ -526,7 +992,7 @@
     "w2": 25,
     "quote": "prostrated themselves before them to the earth"
    },
-   "reason": "the instruction they are carrying out to the end of it",
+   "reason": "the instruction they carry out to the end",
    "targets": [
     {
      "ref": "Matt.",
@@ -545,12 +1011,22 @@
  ],
  "markers": [
   {
+   "verse": 1,
+   "w1": 7,
+   "w2": 11,
+   "quote": "the Amalekites and the Amulonites",
+   "entries": [
+    "al24-010"
+   ]
+  },
+  {
    "verse": 6,
    "w1": 19,
    "w2": 25,
    "quote": "would take up arms against their brethren",
    "entries": [
-    "al24-001"
+    "al24-001",
+    "al24-011"
    ]
   },
   {
@@ -566,9 +1042,22 @@
    "verse": 17,
    "w1": 43,
    "w2": 51,
-   "quote": "they did bury them up deep in the earth",
+   "quote": "they did bury them up deep in the earth.",
    "entries": [
-    "al24-005"
+    "al24-012",
+    "al24-005",
+    "al24-013",
+    "al24-014"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 19,
+   "w2": 30,
+   "quote": "they never would use weapons again for the shedding of man's blood;",
+   "entries": [
+    "al24-016",
+    "al24-015"
    ]
   },
   {
@@ -581,11 +1070,30 @@
    ]
   },
   {
+   "verse": 18,
+   "w1": 49,
+   "w2": 55,
+   "quote": "they would give up their own lives;",
+   "entries": [
+    "al24-017"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 36,
+   "w2": 50,
+   "quote": "they buried their weapons of peace, or they buried the weapons of war, for peace.",
+   "entries": [
+    "al24-018"
+   ]
+  },
+  {
    "verse": 21,
    "w1": 19,
    "w2": 25,
-   "quote": "prostrated themselves before them to the earth",
+   "quote": "prostrated themselves before them to the earth,",
    "entries": [
+    "al24-019",
     "al24-009"
    ]
   },
@@ -608,6 +1116,15 @@
    ]
   },
   {
+   "verse": 28,
+   "w1": 17,
+   "w2": 20,
+   "quote": "were Amalekites and Amulonites,",
+   "entries": [
+    "al24-020"
+   ]
+  },
+  {
    "verse": 29,
    "w1": 28,
    "w2": 35,
@@ -622,12 +1139,22 @@
    "w2": 14,
    "quote": "after a people have been once enlightened",
    "entries": [
+    "al24-021",
     "al24-007"
+   ]
+  },
+  {
+   "verse": 30,
+   "w1": 39,
+   "w2": 42,
+   "quote": "they become more hardened,",
+   "entries": [
+    "al24-022"
    ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "3a49064d1a924d1c"
+  "at": "2026-09-07",
+  "source_sha256": "aedaad8d61c3e987"
  }
 }

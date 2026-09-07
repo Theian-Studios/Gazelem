@@ -1,0 +1,728 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "3 Nephi",
+  "book_slug": "3nephi",
+  "chapter": 28,
+  "volume_order": "10",
+  "speakers": [
+   "Jesus Christ",
+   "Mormon"
+  ],
+  "audience": "The twelve; then the reader",
+  "location": "Among the Nephites",
+  "date": "AD 34-35, with Mormon writing centuries later",
+  "unit": "The three who tarry (3 Nephi 28)",
+  "principles": [
+   "A question asked of each man separately",
+   "A desire granted without being spoken",
+   "A compiler correcting his own earlier uncertainty"
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "He asks them one at a time",
+   "text": "Verse 1 says he spoke to his disciples one by one, using the same method as 3 Nephi 18:36."
+  },
+  {
+   "n": 2,
+   "title": "Nine answer and three do not",
+   "text": "Verse 2 says all spoke except three, and verse 5 says the three did not dare."
+  },
+  {
+   "n": 3,
+   "title": "A specific age is given",
+   "text": "Verse 3 says the nine will come to him at seventy-two years old."
+  },
+  {
+   "n": 4,
+   "title": "The unspoken desire is named for them",
+   "text": "Verse 6 says they wanted what John had wanted."
+  },
+  {
+   "n": 5,
+   "title": "Mormon marks the limit of his knowledge",
+   "text": "Verse 17 leaves their state an open question."
+  },
+  {
+   "n": 6,
+   "title": "He inquired and came back to the page",
+   "text": "Verse 37 says that since writing he inquired of the Lord and was told. Ether 4:5 and Ether 13:13 show the same writer stopped by a prohibition; this is the one place he goes back to fill a gap he had left open on the page.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 4:5",
+     "start": 71,
+     "end": 80,
+     "book": "Ether",
+     "chapter": 4,
+     "verse_start": 5,
+     "verse_end": 5
+    },
+    {
+     "kind": "scripture",
+     "text": "Ether 13:13",
+     "start": 85,
+     "end": 96,
+     "book": "Ether",
+     "chapter": 13,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "A second withholding of names",
+   "text": "Verse 25 has Mormon forbidden to write the names, the same pattern as 3 Nephi 26:11."
+  }
+ ],
+ "words": [
+  {
+   "term": "Durst",
+   "verse_label": "v. 5",
+   "text": "Dared. Treated at 1 Nephi 22:29. The record uses the word thirty-eight times and the King James Bible nine. Verse 5 uses it of the three who could not bring themselves to ask."
+  },
+  {
+   "term": "Twinkling",
+   "verse_label": "v. 8",
+   "text": "The time it takes an eye to blink. It appears once, here, in the record, and the King James Bible once, at 1 Corinthians 15:52. Verse 8 uses it of the change at his coming."
+  },
+  {
+   "term": "Immortality",
+   "verse_label": "v. 8",
+   "text": "The state of not dying. The record uses the word nine times and the King James Bible five. Verses 8 and 36 both set it against mortality."
+  },
+  {
+   "term": "Transfiguration",
+   "verse_label": "v. 15",
+   "text": "A change of form or appearance. The word turns up twice, both inside this chapter, here, and the King James Bible not at all. Verse 15 says the experience seemed like one to them."
+  },
+  {
+   "term": "Furnace",
+   "verse_label": "v. 21",
+   "text": "A structure built to hold great heat. The record uses the word five times and the King James Bible thirty. Verse 21 says they were cast into one three times."
+  },
+  {
+   "term": "Suckling",
+   "verse_label": "v. 22",
+   "text": "A young animal still nursing. Its count is once, here, in this book, while the King James Bible three times. Verse 22 compares wild beasts to a lamb at play."
+  },
+  {
+   "term": "Convincing",
+   "verse_label": "v. 29",
+   "text": "Persuading, bringing to belief. Nine uses run through this record, with none at all in the King James Bible. Verse 29 attaches it to the power of God in them."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "He spake unto his disciples, one by one",
+   "verse_label": "v. 1",
+   "text": "The same method used at 3 Nephi 18:36 and with the children at 17:21. Each man is asked separately."
+  },
+  {
+   "term": "After we have lived unto the age of man",
+   "verse_label": "v. 2",
+   "text": "The nine ask for an ordinary length of life. Verse 3 sets that at seventy-two years."
+  },
+  {
+   "term": "They durst not speak unto him the thing which they desired",
+   "verse_label": "v. 5",
+   "text": "Sorrow described before the request is known. The chapter says they could not say it out loud."
+  },
+  {
+   "term": "Ye have desired the thing which John, my beloved, ... desired of me",
+   "verse_label": "v. 6",
+   "text": "The unspoken request identified by precedent. John's name is the explanation offered."
+  },
+  {
+   "term": "Ye shall be changed in the twinkling of an eye from mortality to immortality",
+   "verse_label": "v. 8",
+   "text": "The promise stated in Paul's words (1 Cor. 15:52). Verse 8 says they will never endure the pains of death.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Cor. 15:52",
+     "start": 36,
+     "end": 48,
+     "book": "1 Cor",
+     "chapter": 15,
+     "verse_start": 52,
+     "verse_end": 52
+    }
+   ]
+  },
+  {
+   "term": "Neither sorrow save it be for the sins of the world",
+   "verse_label": "v. 9",
+   "text": "The one grief left to them. Verse 38 repeats the clause when explaining the change."
+  },
+  {
+   "term": "Whether they were in the body or out of the body, they could not tell",
+   "verse_label": "v. 15",
+   "text": "The witnesses unable to classify their own experience. 2 Corinthians 12:2 uses the same words."
+  },
+  {
+   "term": "Whether they were mortal or immortal, from the day of their transfiguration, I know not",
+   "verse_label": "v. 17",
+   "text": "Mormon stating what he does not know. Verse 37 comes back and answers it."
+  },
+  {
+   "term": "They did play with the beasts as a child with a suckling lamb",
+   "verse_label": "v. 22",
+   "text": "The most domestic image in a list of deliverances. Two dens of wild beasts and no harm."
+  },
+  {
+   "term": "I have seen them, and they have ministered unto me",
+   "verse_label": "v. 26",
+   "text": "Mormon's own testimony. Mormon 8:11 will say his father and Moroni saw them too."
+  },
+  {
+   "term": "Since I wrote, I have inquired of the Lord",
+   "verse_label": "v. 37",
+   "text": "The compiler revisiting an open question. The chapter records the asking as well as the answer."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–3",
+   "start": 1,
+   "end": 3,
+   "title": "The nine",
+   "text": "The record supplies a number that nothing else in these books supplies: \"after that ye are seventy and two years old ye shall come unto me in my kingdom.\" A specific age is attached to nine named men as the term of their ministry. Verse 1 also records the method, \"he spake unto his disciples, one by one,\" so the question was put twelve times and answered individually, and verse 2 reports the split without giving the three their own speech, \"they all spake, save it were three.\" The three are never quoted at all: verse 5 records that \"they durst not speak unto him the thing which they desired,\" and verse 6 has their request supplied for them from outside, matched to what \"John, my beloved\" had asked. Nine men get their own sentence and three get someone else's."
+  },
+  {
+   "label": "v. 4–11",
+   "start": 4,
+   "end": 11,
+   "title": "The three",
+   "text": "He turns to the three and asks what they want him to do for them. They sorrow in their hearts and do not dare to speak it. He tells them he knows their thoughts and that they have desired what John desired. He calls them more blessed: they will never taste death but will live to see all the doings of the Father until all things are fulfilled and he comes in glory. They will not endure the pains of death, but will be changed in the twinkling of an eye from mortality to immortality. They will have no pain in the flesh and no sorrow except for the sins of the world, since they wanted to bring souls to him while the world stands. They will have fulness of joy and sit down in the kingdom of the Father, and be as he is, as he is as the Father, and the Father and he are one, with the Holy Ghost bearing record of both."
+  },
+  {
+   "label": "v. 12–17",
+   "start": 12,
+   "end": 17,
+   "title": "Caught up",
+   "text": "He touches every one of them with his finger except the three who were to tarry, then departs. The heavens open and the three are caught up and see and hear unspeakable things. They are forbidden to utter it and are not given power to utter it. Whether they were in the body or out of it they could not tell, since it seemed like a transfiguration in which they were changed from flesh into an immortal state so they could behold the things of God. They minister again on the earth, but not concerning what they had heard and seen, because of the commandment given them in heaven. Mormon says he does not know whether they were mortal or immortal from that day."
+  },
+  {
+   "label": "v. 18–23",
+   "start": 18,
+   "end": 23,
+   "title": "Their ministry",
+   "text": "From the record he does know that they went out over the land, ministered to all the people, and brought as many into the church as would believe, baptizing them, and all who were baptized received the Holy Ghost. They were cast into prison by those outside the church, and the prisons were rent in twain. They were cast into the earth and smote it with the word of God and were delivered, so no pit could hold them. Three times they were cast into a furnace and took no harm. Twice they were cast into a den of wild beasts and played with them as a child plays with a suckling lamb. So they went among all the people of Nephi and preached the gospel, and the people were converted and united to the church, and that generation was blessed as Jesus had said."
+  },
+  {
+   "label": "v. 24–30",
+   "start": 24,
+   "end": 30,
+   "title": "Mormon's aside",
+   "text": "Mormon ends his speaking on these things for a time. He was about to write the names of those who would never taste death, and the Lord forbade it, so the names are hidden from the world. He has seen them, and they have ministered to him. They will be among the Gentiles and among the Jews, unknown to both. When the Lord sees fit they will minister to all the scattered tribes and all nations and bring many souls to Jesus, so their desire is fulfilled, by the convincing power of God in them. They are as the angels of God, and if they pray to the Father in the name of Jesus they can show themselves to whomever they choose."
+  },
+  {
+   "label": "v. 31–35",
+   "start": 31,
+   "end": 35,
+   "title": "Their work and the warning",
+   "text": "Great and marvelous works will be done by them before the day when all must stand before the judgment-seat of Christ, including a great work among the Gentiles. If readers had all the scriptures accounting for the marvelous works of Christ they would know these things must come. Woe to whoever will not hearken to the words of Jesus and to those he has sent, since rejecting their words is rejecting him, and he will not receive such at the last day. It would be better for them if they had never been born, and Mormon asks whether they suppose they can get rid of the justice of an offended God."
+  },
+  {
+   "label": "v. 36–40",
+   "start": 36,
+   "end": 40,
+   "title": "The change explained",
+   "text": "Mormon returns to what he had said about the three caught up into heaven, that he did not know whether they were cleansed from mortality to immortality. Since writing, he has asked the Lord and been told that a change had to be made in their bodies, or they would have tasted death. So a change was made, and they were spared pain, grieving only over the world's sin. The change was not equal to the one at the last day, but Satan could have no power over them or tempt them, and they were sanctified in the flesh and holy, and the powers of the earth could not hold them. They remain so until the judgment day, when they receive a greater change and enter the kingdom of the Father to go no more out."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "He asks each man privately",
+   "text": "Verse 1 makes the question individual. Twelve people get twelve chances to answer for themselves."
+  },
+  {
+   "n": 2,
+   "title": "Silence is treated as an answer",
+   "text": "Verses 5 and 6 have him name a desire nobody said aloud. The three are not made to ask."
+  },
+  {
+   "n": 3,
+   "title": "Both answers are blessed",
+   "text": "Verse 3 blesses the nine and verse 7 calls the three more blessed. Neither request is refused."
+  },
+  {
+   "n": 4,
+   "title": "The promise includes a grief",
+   "text": "Verse 9 leaves them sorrow for the sins of the world. Freedom from pain is stated with one exception."
+  },
+  {
+   "n": 5,
+   "title": "The witnesses cannot describe their own state",
+   "text": "Verse 15 says they could not tell whether they were in the body. The record keeps their uncertainty."
+  },
+  {
+   "n": 6,
+   "title": "Mormon admits he does not know",
+   "text": "Verse 17 is a compiler saying so in the middle of his own book. That admission is what makes verse 37 possible."
+  },
+  {
+   "n": 7,
+   "title": "He goes back and asks",
+   "text": "Verse 37 says he inquired since writing. The chapter shows a question being resolved between drafts."
+  },
+  {
+   "n": 8,
+   "title": "The names are withheld a second time",
+   "text": "Verse 25 repeats the pattern of 3 Nephi 26:11. Twice in three chapters Mormon is stopped from writing something he intended."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Ask people one at a time",
+    "verse_label": "v. 1",
+    "text": "He went down the row. Group questions get group answers, and often nothing else."
+   },
+   {
+    "title": "Wanting rest is a blessed request too",
+    "verse_label": "v. 2",
+    "text": "Nine of the twelve asked that their ministry might end at the age of man so they could come speedily to him, and the reply opens \"Blessed are ye\". Two different desires are granted in this chapter and both are commended, which is worth recalling before you rank anybody else's ambition."
+   },
+   {
+    "title": "Say the thing you are afraid to ask for",
+    "verse_label": "v. 5",
+    "text": "The three could not speak it and he answered anyway. Most people do not get that, so it is worth saying out loud."
+   },
+   {
+    "title": "Keep a sorrow that is about other people",
+    "verse_label": "v. 9",
+    "text": "The one grief left to them is for the sins of the world. Not every sorrow is a burden to be removed."
+   },
+   {
+    "title": "Serve without telling the best part",
+    "verse_label": "v. 16",
+    "text": "They ministered again upon the face of the earth and said nothing about what they had been shown, because of a commandment given them in heaven. Some of what you know is not for the people you are serving, and carrying it quietly is part of the service."
+   },
+   {
+    "title": "Write down what you do not know",
+    "verse_label": "v. 17",
+    "text": "Mormon said so plainly and came back with an answer later. Marking a gap is what makes it fillable."
+   },
+   {
+    "title": "They could not dig pits sufficient",
+    "verse_label": "v. 20",
+    "text": "Cast down into the earth, the three came out again by the power of God, and the verse ends by saying no pit was ever dug deep enough to hold them. The sentence puts the limit on the opposition rather than on the endurance."
+   },
+   {
+    "title": "Go back and ask the question you left open",
+    "verse_label": "v. 37",
+    "text": "Mormon writes that since he wrote he has inquired of the Lord, and then reports what he was told. A gap you noted is an assignment, and this is what closing one looks like on the page."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "If I were asked what I want after this life, what would I say?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "What do I want that I have never dared to ask for?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What sorrow of mine is actually for someone else?"
+   },
+   {
+    "verse_label": "v. 15",
+    "start": 15,
+    "end": 15,
+    "text": "What have I experienced that I could not classify?"
+   },
+   {
+    "verse_label": "v. 17",
+    "start": 17,
+    "end": 17,
+    "text": "What am I claiming to know that I only suppose?"
+   },
+   {
+    "verse_label": "v. 25",
+    "start": 25,
+    "end": 25,
+    "text": "What has been withheld from me, and have I made peace with it?"
+   },
+   {
+    "verse_label": "v. 37",
+    "start": 37,
+    "end": 37,
+    "text": "What question have I stopped asking too early?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "3ne28-001",
+   "scope": "BOOK",
+   "head": "3 Ne. 18:36",
+   "anchor": {
+    "verse": 1,
+    "w1": 12,
+    "w2": 19,
+    "quote": "he spake unto his disciples, one by one"
+   },
+   "reason": "the same method used when he gave the Holy Ghost",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 18,
+     "verse": 36,
+     "w1": 16,
+     "w2": 29,
+     "quote": "he touched with his hand the disciples whom he had chosen, one by one,",
+     "verse_text": "And it came to pass that when Jesus had made an end of these sayings, he touched with his hand the disciples whom he had chosen, one by one, even until he had touched them all, and spake unto them as he touched them.",
+     "markdown": "And it came to pass that when Jesus had made an end of these sayings, **he touched with his hand the disciples whom he had chosen, one by one**, even until he had touched them all, and spake unto them as he touched them.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne18-015"
+  },
+  {
+   "id": "3ne28-002",
+   "scope": "BOOK",
+   "head": "3 Ne. 26:11",
+   "anchor": {
+    "verse": 25,
+    "w1": 2,
+    "w2": 21,
+    "quote": "I was about to write the names of those who were never to taste of death, but the Lord forbade"
+   },
+   "reason": "the second time Mormon is stopped from writing",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 26,
+     "verse": 11,
+     "w1": 2,
+     "w2": 21,
+     "quote": "I was about to write them, all which were engraven upon the plates of Nephi, but the Lord forbade it,",
+     "verse_text": "Behold, I was about to write them, all which were engraven upon the plates of Nephi, but the Lord forbade it, saying: I will try the faith of my people.",
+     "markdown": "Behold, **I was about to write them, all which were engraven upon the plates of Nephi, but the Lord forbade it**, saying: I will try the faith of my people.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne26-012"
+  },
+  {
+   "id": "3ne28-003",
+   "scope": "BOOK",
+   "head": "3 Ne. 26:18",
+   "anchor": {
+    "verse": 13,
+    "w1": 14,
+    "w2": 19,
+    "quote": "and saw and heard unspeakable things"
+   },
+   "reason": "the same restriction reported of the wider church",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 26,
+     "verse": 18,
+     "w1": 2,
+     "w2": 16,
+     "quote": "many of them saw and heard unspeakable things, which are not lawful to be written.",
+     "verse_text": "And many of them saw and heard unspeakable things, which are not lawful to be written.",
+     "markdown": "And **many of them saw and heard unspeakable things, which are not lawful to be written**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne26-013"
+  },
+  {
+   "id": "3ne28-004",
+   "scope": "BOOK",
+   "head": "3 Ne. 20:35",
+   "anchor": {
+    "verse": 10,
+    "w1": 46,
+    "w2": 59,
+    "quote": "and I am even as the Father; and the Father and I are one"
+   },
+   "reason": "the clause he had added to Isaiah two chapters earlier",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 20,
+     "verse": 35,
+     "w1": 30,
+     "w2": 36,
+     "quote": "and the Father and I are one.",
+     "verse_text": "The Father hath made bare his holy arm in the eyes of all the nations; and all the ends of the earth shall see the salvation of the Father; and the Father and I are one.",
+     "markdown": "The Father hath made bare his holy arm in the eyes of all the nations; and all the ends of the earth shall see the salvation of the Father; **and the Father and I are one**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne20-016"
+  },
+  {
+   "id": "3ne28-005",
+   "scope": "BOM",
+   "head": "Morm. 8:11",
+   "anchor": {
+    "verse": 26,
+    "w1": 1,
+    "w2": 12,
+    "quote": "But behold, I have seen them, and they have ministered unto me"
+   },
+   "reason": "Moroni saying the same of himself and his father",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 8,
+     "verse": 11,
+     "w1": 3,
+     "w2": 15,
+     "quote": "my father and I have seen them, and they have ministered unto us.",
+     "verse_text": "But behold, my father and I have seen them, and they have ministered unto us.",
+     "markdown": "But behold, **my father and I have seen them, and they have ministered unto us**.",
+     "span": true
+    }
+   ],
+   "mirror": "morm08-007"
+  },
+  {
+   "id": "3ne28-006",
+   "scope": "BOM",
+   "head": "Alma 14:27",
+   "anchor": {
+    "verse": 19,
+    "w1": 16,
+    "w2": 28,
+    "quote": "And the prisons could not hold them, for they were rent in twain"
+   },
+   "reason": "the prison at Ammonihah torn the same way",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 14,
+     "verse": 27,
+     "w1": 34,
+     "w2": 42,
+     "quote": "the walls of the prison were rent in twain,",
+     "verse_text": "And it came to pass that so great was their fear that they fell to the earth, and did not obtain the outer door of the prison; and the earth shook mightily, and the walls of the prison were rent in twain, so that they fell to the earth; and the chief judge, and the lawyers, and priests, and teachers, who smote upon Alma and Amulek, were slain by the fall thereof.",
+     "markdown": "And it came to pass that so great was their fear that they fell to the earth, and did not obtain the outer door of the prison; and the earth shook mightily, and **the walls of the prison were rent in twain**, so that they fell to the earth; and the chief judge, and the lawyers, and priests, and teachers, who smote upon Alma and Amulek, were slain by the fall thereof.",
+     "span": true
+    }
+   ],
+   "mirror": "al14-014"
+  },
+  {
+   "id": "3ne28-007",
+   "scope": "BOM",
+   "head": "4 Ne. 1:14",
+   "anchor": {
+    "verse": 12,
+    "w1": 13,
+    "w2": 30,
+    "quote": "he touched every one of them with his finger save it were the three who were to tarry"
+   },
+   "reason": "the three still on the land a century later",
+   "targets": [
+    {
+     "ref": "4 Ne.",
+     "chapter": 1,
+     "verse": 14,
+     "w1": 59,
+     "w2": 66,
+     "quote": "save it were the three who should tarry;",
+     "verse_text": "And it came to pass that the seventy and first year passed away, and also the seventy and second year, yea, and in fine, till the seventy and ninth year had passed away; yea, even an hundred years had passed away, and the disciples of Jesus, whom he had chosen, had all gone to the paradise of God, save it were the three who should tarry; and there were other disciples ordained in their stead; and also many of that generation had passed away.",
+     "markdown": "And it came to pass that the seventy and first year passed away, and also the seventy and second year, yea, and in fine, till the seventy and ninth year had passed away; yea, even an hundred years had passed away, and the disciples of Jesus, whom he had chosen, had all gone to the paradise of God, **save it were the three who should tarry**; and there were other disciples ordained in their stead; and also many of that generation had passed away.",
+     "span": true
+    }
+   ],
+   "mirror": "4ne01-007"
+  },
+  {
+   "id": "3ne28-008",
+   "scope": "SW",
+   "head": "John 21:22",
+   "anchor": {
+    "verse": 6,
+    "w1": 12,
+    "w2": 20,
+    "quote": "ye have desired the thing which John, my beloved"
+   },
+   "reason": "the exchange at the end of the fourth gospel",
+   "targets": [
+    {
+     "ref": "John",
+     "chapter": 21,
+     "verse": 22,
+     "w1": 5,
+     "w2": 18,
+     "quote": "If I will that he tarry till I come, what is that to thee?",
+     "verse_text": "Jesus saith unto him, If I will that he tarry till I come, what is that to thee? follow thou me.",
+     "markdown": "Jesus saith unto him, **If I will that he tarry till I come, what is that to thee**? follow thou me.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne28-009",
+   "scope": "SW",
+   "head": "1 Cor. 15:52",
+   "anchor": {
+    "verse": 8,
+    "w1": 18,
+    "w2": 31,
+    "quote": "ye shall be changed in the twinkling of an eye from mortality to immortality"
+   },
+   "reason": "the same phrase used of the resurrection",
+   "targets": [
+    {
+     "ref": "1 Cor.",
+     "chapter": 15,
+     "verse": 52,
+     "w1": 1,
+     "w2": 13,
+     "quote": "In a moment, in the twinkling of an eye, at the last trump:",
+     "verse_text": "In a moment, in the twinkling of an eye, at the last trump: for the trumpet shall sound, and the dead shall be raised incorruptible, and we shall be changed.",
+     "markdown": "**In a moment, in the twinkling of an eye, at the last trump**: for the trumpet shall sound, and the dead shall be raised incorruptible, and we shall be changed.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne28-010",
+   "scope": "SW",
+   "head": "2 Cor. 12:2",
+   "anchor": {
+    "verse": 15,
+    "w1": 1,
+    "w2": 16,
+    "quote": "And whether they were in the body or out of the body, they could not tell"
+   },
+   "reason": "Paul's account of a man caught up, same words",
+   "targets": [
+    {
+     "ref": "2 Cor.",
+     "chapter": 12,
+     "verse": 2,
+     "w1": 11,
+     "w2": 26,
+     "quote": "(whether in the body, I cannot tell; or whether out of the body, I cannot tell:",
+     "verse_text": "I knew a man in Christ above fourteen years ago, (whether in the body, I cannot tell; or whether out of the body, I cannot tell: God knoweth;) such an one caught up to the third heaven.",
+     "markdown": "I knew a man in Christ above fourteen years ago, **(whether in the body, I cannot tell; or whether out of the body, I cannot tell**: God knoweth;) such an one caught up to the third heaven.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 12,
+   "w2": 19,
+   "quote": "he spake unto his disciples, one by one",
+   "entries": [
+    "3ne28-001"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 12,
+   "w2": 20,
+   "quote": "ye have desired the thing which John, my beloved",
+   "entries": [
+    "3ne28-008"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 18,
+   "w2": 31,
+   "quote": "ye shall be changed in the twinkling of an eye from mortality to immortality",
+   "entries": [
+    "3ne28-009"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 46,
+   "w2": 59,
+   "quote": "and I am even as the Father; and the Father and I are one",
+   "entries": [
+    "3ne28-004"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 13,
+   "w2": 30,
+   "quote": "he touched every one of them with his finger save it were the three who were to tarry",
+   "entries": [
+    "3ne28-007"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 14,
+   "w2": 19,
+   "quote": "and saw and heard unspeakable things",
+   "entries": [
+    "3ne28-003"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 1,
+   "w2": 16,
+   "quote": "And whether they were in the body or out of the body, they could not tell",
+   "entries": [
+    "3ne28-010"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 16,
+   "w2": 28,
+   "quote": "And the prisons could not hold them, for they were rent in twain",
+   "entries": [
+    "3ne28-006"
+   ]
+  },
+  {
+   "verse": 25,
+   "w1": 2,
+   "w2": 21,
+   "quote": "I was about to write the names of those who were never to taste of death, but the Lord forbade",
+   "entries": [
+    "3ne28-002"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 1,
+   "w2": 12,
+   "quote": "But behold, I have seen them, and they have ministered unto me",
+   "entries": [
+    "3ne28-005"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "c1e4538904157f09"
+ }
+}

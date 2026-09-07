@@ -18,7 +18,7 @@
    "Angelic errand",
    "Hospitality"
   ],
-  "connections": 14,
+  "connections": 15,
   "initial": false
  },
  "world_behind": [
@@ -62,12 +62,12 @@
   {
    "term": "Custom",
    "verse_label": "v. 7",
-   "text": "An established practice, the way a thing is usually done. The record uses the noun six times and this is the only place it names a rule about language: settlements take the name of whoever first held them. A writer who normally reports events has stopped to explain how a map gets made."
+   "text": "An established practice, the way a thing is usually done. The record uses the noun seven times and this is the only place it names a rule about language: settlements take the name of whoever first held them. A writer who normally reports events has stopped to explain how a map gets made."
   },
   {
    "term": "Hearken",
    "verse_label": "v. 9",
-   "text": "To listen with intent to obey. The verse says Satan had gotten great hold upon their hearts, therefore they would not hearken. The verb is not about hearing; the chapter has them hearing Alma perfectly well and answering him in detail two verses later."
+   "text": "To listen with intent to obey. Treated at 1 Nephi 20:1. The verse says Satan had gotten great hold upon their hearts, therefore they would not hearken. The verb is not about hearing; the chapter has them hearing Alma perfectly well and answering him in detail two verses later."
   },
   {
    "term": "Reviled",
@@ -82,7 +82,19 @@
   {
    "term": "Impart",
    "verse_label": "v. 20",
-   "text": "To give a share of. Amulek uses it of food before he has heard a word of doctrine: I will impart unto thee of my food. The same verb runs through this record for what a church does with its substance, and here it arrives at a private door with bread behind it."
+   "text": "To give a share of. Treated at Mosiah 18:27. Amulek uses it of food before he has heard a word of doctrine: I will impart unto thee of my food. The same verb runs through this record for what a church does with its substance, and here it arrives at a private door with bread behind it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 18:27",
+     "start": 31,
+     "end": 43,
+     "book": "Mosiah",
+     "chapter": 18,
+     "verse_start": 27,
+     "verse_end": 27
+    }
+   ]
   },
   {
    "term": "Gross",
@@ -139,53 +151,53 @@
  ],
  "verses": [
   {
-   "label": "v. 1–2",
-   "start": 1,
-   "end": 2,
-   "title": "Home, and the end of a year",
-   "text": "He comes back from Gideon having taught many things that cannot be written and established the order of the church there as he had at Zarahemla, and goes to his own house to rest from his labors. Then a one-line dateline closing the ninth year."
+   "label": "v. 11–12",
+   "start": 11,
+   "end": 12,
+   "title": "The rejection is jurisdictional, not doctrinal",
+   "text": "The people of Ammonihah do not argue with what Alma preaches. They argue about standing: they are not of his church, so he has no power over them, and he has handed the judgment-seat to Nephihah, so he is not their chief judge either. Two offices named and both disclaimed. They know precisely who he is, and use the knowledge to establish that he is nobody to them."
   },
   {
-   "label": "v. 3–6",
-   "start": 3,
-   "end": 6,
-   "title": "Melek",
-   "text": "In the tenth year he crosses to the west of Sidon, by the borders of the wilderness, and teaches throughout the land. The people come to him from all the borders and are baptized. When the work is finished he leaves and travels three days north, and arrives at a city called Ammonihah."
-  },
-  {
-   "label": "v. 7–13",
-   "start": 7,
-   "end": 13,
-   "title": "Ammonihah refuses him",
-   "text": "The naming custom is explained. He begins to preach; Satan has great hold on their hearts and they will not hearken. He labors in the spirit, wrestling in prayer to be allowed to baptize them. They answer with a legal brief: we know who you are, we are not of your church, you gave up the judgment-seat, you have no power over us. Then they revile him, spit on him, and put him out."
-  },
-  {
-   "label": "v. 14–17",
+   "label": "v. 14–15",
    "start": 14,
+   "end": 15,
+   "title": "The angel identifies himself by a previous delivery",
+   "text": "Before the errand comes the credential: \"I am he that delivered it unto you,\" which points back to Mosiah 27 and the road to the church Alma was then trying to destroy. And the first thing said is not the assignment but a commendation, that he has been faithful since he received his first message. The record has the messenger establish continuity before it hands over anything new."
+  },
+  {
+   "label": "v. 17",
+   "start": 17,
    "end": 17,
-   "title": "The angel",
-   "text": "Walking toward the city of Aaron, weighed down with sorrow, an angel appears. First: blessed art thou, lift up thy head, rejoice, thou hast been faithful since thy first message, and I am the one who brought it. Then the errand: return, preach again, tell them the Lord will destroy them except they repent. And the reason given is political: they are studying how to destroy the liberty of his people."
+   "title": "A parenthesis marks where the quotation starts",
+   "text": "In the middle of the angel's instruction the record inserts \"(for thus saith the Lord)\" to show which clause is the Lord's own. It is a small piece of attribution kept inside reported speech, and it tells the reader that the angel and the Lord are not being run together even when the angel is quoting."
   },
   {
-   "label": "v. 18–23",
+   "label": "v. 18–19",
    "start": 18,
-   "end": 23,
-   "title": "Back in from the south",
-   "text": "He returns speedily and comes in from the south. He is hungry and asks a man for food. The man answers that he already knows: an angel said in a vision that he would receive Alma, so come home with me. The man is Amulek. Bread and meat are set out; Alma eats, is filled, blesses the house, and gives thanks."
+   "end": 19,
+   "title": "He comes back by another road and asks for a meal",
+   "text": "The record specifies the compass point: he entered \"by the way which is on the south of the city,\" a different approach from the one he was thrown out of. Then the first recorded act of the second mission is not preaching but begging. \"Will ye give to an humble servant of God something to eat?\" Verse 26 supplies the reason afterwards, that he had fasted many days."
   },
   {
-   "label": "v. 24–27",
-   "start": 24,
-   "end": 27,
-   "title": "What he tells Amulek",
-   "text": "Only after eating does he introduce himself as high priest over the church throughout the land, called to preach by the spirit of revelation and prophecy. He says he was cast out and was about to leave for good, and has been commanded to turn back and testify against them. Then the reason he was hungry: he had fasted many days. He stays with Amulek many days before preaching."
+   "label": "v. 20",
+   "start": 20,
+   "end": 20,
+   "title": "The stranger knows him before he introduces himself",
+   "text": "Amulek's answer arrives with its own provenance: an angel told him in a vision, \"Thou shalt receive.\" The record gives the reader two separate angelic visits converging on one doorway, and Alma does not say his own name until verse 23, three verses after the man has already identified him as a holy prophet."
   },
   {
-   "label": "v. 28–32",
-   "start": 28,
-   "end": 32,
-   "title": "Sent out together",
-   "text": "The people grow more gross in their iniquities. The word comes to Alma, and it now includes Amulek by name. Go forth and prophesy, saying repent, or I will visit this people in mine anger. They go out filled with the Holy Ghost, with power that cannot be confined or killed, and they hold it back until they are in prison."
+   "label": "v. 27–28",
+   "start": 27,
+   "end": 28,
+   "title": "Many days pass, and the city gets worse",
+   "text": "\"Alma tarried many days with Amulek before he began to preach unto the people,\" and the very next verse reports that the people waxed more gross in their iniquities. The record puts the delay and the deterioration side by side without connecting them, and does not say what the many days were for."
+  },
+  {
+   "label": "v. 31",
+   "start": 31,
+   "end": 31,
+   "title": "The power is described by what it was not used for",
+   "text": "The verse grants them an immunity, then withdraws its use in the same breath: \"nevertheless they did not exercise their power until they were bound in bands and cast into prison.\" The record states the capacity, states the restraint, and puts the purpose last. What is on display is a withheld ability, kept back until an audience existed for its restraint."
   }
  ],
  "chapter": [
@@ -212,7 +224,7 @@
   {
    "n": 5,
    "title": "The chapter turns on a meal",
-   "text": "A hungry man asks a stranger for food; the stranger has been told to expect him. Alma eats before he introduces himself, before he preaches, before anything. The most consequential partnership in the book begins with bread and meat."
+   "text": "The request at verse 19 is nine words, \"Will ye give to an humble servant of God something to eat?\" Verse 20 has the stranger already briefed, \"thou art the man whom an angel said in a vision: Thou shalt receive.\" Verse 21 supplies the menu, \"bread and meat,\" and verse 22 the outcome, \"Alma ate bread and was filled.\" Verse 26 gives the reason he was hungry, \"I had fasted many days,\" and verse 27 records that nothing else happened for a while, \"Alma tarried many days with Amulek before he began to preach.\""
   },
   {
    "n": 6,
@@ -332,7 +344,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al16-002"
   },
   {
    "id": "al08-004",
@@ -358,7 +370,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al14-013"
   },
   {
    "id": "al08-003",
@@ -384,7 +396,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al10-002"
   },
   {
    "id": "al08-002",
@@ -541,6 +553,32 @@
     }
    ],
    "mirror": "mos27-021"
+  },
+  {
+   "id": "al08-015",
+   "scope": "BOM",
+   "head": "Hel. 10:12",
+   "anchor": {
+    "verse": 16,
+    "w1": 3,
+    "w2": 16,
+    "quote": "I am sent to command thee that thou return to the city of Ammonihah,"
+   },
+   "reason": "a later prophet turned back the same way",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 10,
+     "verse": 12,
+     "w1": 18,
+     "w2": 34,
+     "quote": "he did stop and did not go unto his own house, but did return unto the multitudes",
+     "verse_text": "And behold, now it came to pass that when the Lord had spoken these words unto Nephi, he did stop and did not go unto his own house, but did return unto the multitudes who were scattered about upon the face of the land, and began to declare unto them the word of the Lord which had been spoken unto him, concerning their destruction if they did not repent.",
+     "markdown": "And behold, now it came to pass that when the Lord had spoken these words unto Nephi, **he did stop and did not go unto his own house, but did return unto the multitudes** who were scattered about upon the face of the land, and began to declare unto them the word of the Lord which had been spoken unto him, concerning their destruction if they did not repent.",
+     "span": true
+    }
+   ],
+   "mirror": "hel10-008"
   },
   {
    "id": "al08-014",
@@ -731,6 +769,15 @@
   },
   {
    "verse": 16,
+   "w1": 3,
+   "w2": 16,
+   "quote": "I am sent to command thee that thou return to the city of Ammonihah,",
+   "entries": [
+    "al08-015"
+   ]
+  },
+  {
+   "verse": 16,
    "w1": 34,
    "w2": 42,
    "quote": "except they repent the Lord God will destroy them",
@@ -794,7 +841,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "5e85148605a06d21"
+  "at": "2026-09-07",
+  "source_sha256": "e2e155053f575e98"
  }
 }

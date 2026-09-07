@@ -14,9 +14,10 @@
   "unit": "Nephi son of Helaman (Helaman 7–12)",
   "principles": [
    "Prosperity as the dangerous condition",
-   "The obedience of the earth"
+   "The obedience of the earth against the resistance of men",
+   "Repentance declared so men might be saved"
   ],
-  "connections": 10,
+  "connections": 12,
   "initial": false
  },
  "world_behind": [
@@ -33,7 +34,7 @@
   {
    "n": 3,
    "title": "The list of blessings comes first",
-   "text": "Verse 2 gives fields, flocks, herds, gold, silver, deliverance, and softened enemies before saying what the people did with them."
+   "text": "Verse 2 counts out crops, cattle, precious metal, rescue, and enemies turned mild before saying what the people did with them."
   },
   {
    "n": 4,
@@ -174,50 +175,130 @@
    "label": "v. 1–3",
    "start": 1,
    "end": 3,
-   "title": "The pattern",
-   "text": "Mormon says the hearts of men are false and unsteady, and that God blesses those who trust him. At the very time of prosperity, in fields, flocks, herds, gold, silver, deliverance, and softened enemies, they harden their hearts, forget God, and trample the Holy One, because of their ease and great prosperity. Without chastening by affliction, death, terror, famine, and pestilence, they do not remember him."
+   "title": "A chapter that is all aside and no story",
+   "text": "The abridger's formula opens three consecutive verses and nothing narrative follows any of them: \"thus we can behold how false, and also the unsteadiness of the hearts of the children of men\" (v. 1), \"we may see at the very time when he doth prosper his people\" (v. 2), \"thus we see that except the Lord doth chasten his people with many afflictions... they will not remember him\" (v. 3). Elsewhere in the volume the phrase closes an episode. Here there is no episode. Twenty-six verses of comment stand between the end of Helaman 11 and the resumption of the account in Helaman 13.",
+   "cites": [
+    {
+     "quote": "thus we can behold how false, and also the unsteadiness of the hearts of the children of men",
+     "verse": 1,
+     "start": 97,
+     "end": 198,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 19,
+       "text": "thus we can behold how false, and also the unsteadiness of the hearts of the children of men"
+      }
+     ]
+    },
+    {
+     "quote": "we may see at the very time when he doth prosper his people",
+     "verse": 2,
+     "start": 200,
+     "end": 268,
+     "spans": [
+      {
+       "w1": 3,
+       "w2": 15,
+       "text": "we may see at the very time when he doth prosper his people"
+      }
+     ]
+    },
+    {
+     "quote": "thus we see that except the Lord doth chasten his people with many afflictions... they will not remember him",
+     "verse": 3,
+     "start": 270,
+     "end": 387,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 15,
+       "text": "thus we see that except the Lord doth chasten his people with many afflictions"
+      },
+      {
+       "w1": 36,
+       "w2": 40,
+       "text": "they will not remember him"
+      }
+     ]
+    }
+   ]
   },
   {
-   "label": "v. 4–6",
+   "label": "v. 4–5",
    "start": 4,
-   "end": 6,
-   "title": "Quick and slow",
-   "text": "He calls men foolish, vain, evil, devilish, quick to do iniquity and slow to do good, quick to hear the evil one and to set their hearts on vain things, quick to pride and boasting, slow to remember God and to walk in wisdom's paths. They do not want their Creator to rule over them, set his counsels at naught, and refuse him as guide."
+   "end": 5,
+   "title": "One pair of adverbs carrying the whole indictment",
+   "text": "The complaint is built from a contrast repeated four times in two verses: \"how quick to do iniquity, and how slow to do good\"; \"how quick to be lifted up in pride; yea, how quick to boast\"; \"how slow are they to remember the Lord their God.\" Quick stands four times in these two verses and nowhere else in the chapter. Nothing specific is charged. The accusation is entirely about the speed at which two kinds of action are taken."
   },
   {
-   "label": "v. 7–13",
+   "label": "v. 7–8",
    "start": 7,
-   "end": 13,
-   "title": "The dust obeys",
-   "text": "He names the nothingness of men, less than the dust, since dust moves at God's command. At his voice hills and mountains tremble and quake, are broken up and made smooth like a valley, the whole earth shakes, and the foundations rock to the center. If he says to the earth, move, it moves."
+   "end": 8,
+   "title": "A comparison whose grounds are obedience, not size",
+   "text": "Verse 7 makes the claim, \"O how great is the nothingness of the children of men; yea, even they are less than the dust of the earth.\" Verse 8 supplies the reason, and it is not about how small people are: \"the dust of the earth moveth hither and thither, to the dividing asunder, at the command of our great and everlasting God.\" Dust is greater because it does as it is told. The argument depends on the previous verses having established that men do not, and the record makes the connection by placing the two verses side by side without a connective."
   },
   {
-   "label": "v. 14–17",
-   "start": 14,
+   "label": "v. 9–17",
+   "start": 9,
    "end": 17,
-   "title": "Larger commands",
-   "text": "If he says the earth shall go back so the day is lengthened, it is done, and it looks to man as if the sun stood still, though it is the earth that moves. If he says to the waters of the great deep to dry up, it is done. If he says a mountain shall come over and bury a city, it is done."
+   "title": "Nine verses of one grammatical form",
+   "text": "The chapter turns into a catalogue of conditionals, each stating a command and its immediate execution. \"If he say unto the earth, Move, it is moved\" (v. 13). \"If he say unto the waters of the great deep, Be thou dried up, it is done\" (v. 16). \"If he say unto this mountain, Be thou raised up, and come over and fall upon that city, that it be buried up, behold it is done\" (v. 17). The sentence pattern does not vary across nine verses, and the record never supplies an instance of any of them happening.",
+   "cites": [
+    {
+     "quote": "If he say unto the earth, Move, it is moved",
+     "verse": 13,
+     "start": 104,
+     "end": 157,
+     "spans": [
+      {
+       "w1": 3,
+       "w2": 10,
+       "text": "If he say unto the earth, Move, it is moved"
+      }
+     ]
+    },
+    {
+     "quote": "If he say unto the waters of the great deep, Be thou dried up, it is done",
+     "verse": 16,
+     "start": 159,
+     "end": 242,
+     "spans": [
+      {
+       "w1": 4,
+       "w2": 18,
+       "text": "If he say unto the waters of the great deep, Be thou dried up, it is done"
+      }
+     ]
+    },
+    {
+     "quote": "If he say unto this mountain, Be thou raised up, and come over and fall upon that city, that it be buried up, behold it is done",
+     "verse": 17,
+     "start": 244,
+     "end": 381,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 26,
+       "text": "If he say unto this mountain, Be thou raised up, and come over and fall upon that city, that it be buried up, behold it is done"
+      }
+     ]
+    }
+   ]
   },
   {
-   "label": "v. 18–21",
-   "start": 18,
-   "end": 21,
-   "title": "Curses",
-   "text": "If a man hides a treasure and the Lord curses it for his iniquity, it is cursed. If the Lord says no man shall find it, no man does, ever. If he says a man shall be accursed forever, it is so. If he says a man shall be cut off from his presence, he causes it."
+   "label": "v. 14–15",
+   "start": 14,
+   "end": 15,
+   "title": "An appearance distinguished from a mechanism",
+   "text": "One item in the catalogue gets a gloss the others do not: \"if he say unto the earth, Thou shalt go back, that it lengthen out the day for many hours, it is done.\" Verse 15 then explains what an observer would see and corrects it: \"the earth goeth back, and it appeareth unto man that the sun standeth still; yea, and behold, this is so; for surely it is the earth that moveth and not the sun.\" The event described is the one at Joshua 10:13, where the sun is said to have stood still. The record keeps the event and states that the description of it is a description of how it looked."
   },
   {
-   "label": "v. 22–24",
-   "start": 22,
-   "end": 24,
-   "title": "The provision",
-   "text": "Wo to the man who hears that sentence, for he cannot be saved. For that reason repentance has been declared, and blessed are they who repent and hearken, for they will be saved. Mormon prays that men be brought to repentance and good works and be restored to grace for grace."
-  },
-  {
-   "label": "v. 25–26",
+   "label": "v. 25",
    "start": 25,
-   "end": 26,
-   "title": "The two ends",
-   "text": "He says he would have all men saved, and then that some will be cast out from the presence of the Lord to endless misery, fulfilling the words that those who did good have everlasting life and those who did evil have everlasting damnation."
+   "end": 25,
+   "title": "A wish stated, and then overruled by a text",
+   "text": "The writer puts his own desire on the page and immediately sets a limit against it: \"I would that all men might be saved. But we read that in the great and last day there are some who shall be cast out, yea, who shall be cast off from the presence of the Lord.\" The word but does the work, and the authority invoked is not a revelation to him but something read. A chapter that has spent seventeen verses on what God can do ends by reporting what the writer cannot have."
   }
  ],
  "chapter": [
@@ -265,6 +346,11 @@
  "world_in_front": {
   "applications": [
    {
+    "title": "Measure yourself against something that does not move",
+    "verse_label": "v. 1",
+    "text": "The verse sets the unsteadiness of human hearts beside a goodness that keeps blessing regardless. When you are judging how you are doing, pick a fixed reference rather than comparing this week to last week."
+   },
+   {
     "title": "Set a guard on the good years",
     "verse_label": "v. 2",
     "text": "The hardening happened during the increase, not during the loss. Whatever practice keeps you honest should get stricter when things go well."
@@ -283,6 +369,21 @@
     "title": "Let the size of things put you in scale",
     "verse_label": "v. 7",
     "text": "Mormon uses dust, mountains, and the deep to locate a person. Perspective of that kind tends to make people steadier rather than smaller."
+   },
+   {
+    "title": "Correct your own illustration",
+    "verse_label": "v. 15",
+    "text": "Mormon stops to note that the sun only appears to stand still, since it is the earth that moves. When you know a detail your own example glosses over, put it in, because a reader who spots it later trusts everything else less."
+   },
+   {
+    "title": "Ask what the power is for",
+    "verse_label": "v. 22",
+    "text": "After a long stretch on what God's voice can do, the reason given for declaring repentance is that men might be saved. When a description of capability has run long, look for the sentence that says what it serves."
+   },
+   {
+    "title": "Keep the wish and the report apart",
+    "verse_label": "v. 25",
+    "text": "Mormon writes that he would have all men saved, and then states what he reads instead. Wanting something and reporting something are different acts, and separating them on the page is what makes both of them credible."
    }
   ],
   "questions": [
@@ -381,7 +482,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel11-011"
   },
   {
    "id": "hel12-003",
@@ -393,7 +494,7 @@
     "w2": 14,
     "quote": "by the power of his voice they are broken up, and become smooth"
    },
-   "reason": "the same power put into a man’s hands, and the same words",
+   "reason": "the same power put into a man's hands, same words",
    "targets": [
     {
      "ref": "Hel.",
@@ -407,7 +508,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel10-011"
   },
   {
    "id": "hel12-004",
@@ -436,6 +537,32 @@
    "mirror": "hel13-001"
   },
   {
+   "id": "hel12-012",
+   "scope": "BOOK",
+   "head": "Hel. 13:22",
+   "anchor": {
+    "verse": 2,
+    "w1": 89,
+    "w2": 98,
+    "quote": "then is the time that they do harden their hearts,"
+   },
+   "reason": "Samuel charging them with exactly this",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 13,
+     "verse": 22,
+     "w1": 1,
+     "w2": 17,
+     "quote": "Ye do not remember the Lord your God in the things with which he hath blessed you,",
+     "verse_text": "Ye do not remember the Lord your God in the things with which he hath blessed you, but ye do always remember your riches, not to thank the Lord your God for them; yea, your hearts are not drawn out unto the Lord, but they do swell with great pride, unto boasting, and unto great swelling, envyings, strifes, malice, persecutions, and murders, and all manner of iniquities.",
+     "markdown": "**Ye do not remember the Lord your God in the things with which he hath blessed you**, but ye do always remember your riches, not to thank the Lord your God for them; yea, your hearts are not drawn out unto the Lord, but they do swell with great pride, unto boasting, and unto great swelling, envyings, strifes, malice, persecutions, and murders, and all manner of iniquities.",
+     "span": true
+    }
+   ],
+   "mirror": "hel13-004"
+  },
+  {
    "id": "hel12-005",
    "scope": "BOM",
    "head": "Mosiah 4:11",
@@ -445,7 +572,7 @@
     "w2": 11,
     "quote": "O how great is the nothingness of the children of men"
    },
-   "reason": "Benjamin telling his people to retain their own nothingness in remembrance",
+   "reason": "Benjamin telling his people to remember their own nothingness",
    "targets": [
     {
      "ref": "Mosiah",
@@ -459,7 +586,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos04-011"
   },
   {
    "id": "hel12-006",
@@ -485,7 +612,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "1ne17-016"
   },
   {
    "id": "hel12-007",
@@ -497,7 +624,7 @@
     "w2": 38,
     "quote": "that men might be saved, hath repentance been declared"
    },
-   "reason": "Amulek on the day of this life as the time to prepare",
+   "reason": "Amulek on this life as the day to prepare",
    "targets": [
     {
      "ref": "Alma",
@@ -511,7 +638,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al34-016"
   },
   {
    "id": "hel12-008",
@@ -537,7 +664,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos16-020"
+  },
+  {
+   "id": "hel12-011",
+   "scope": "BOM",
+   "head": "2 Ne. 20:15",
+   "anchor": {
+    "verse": 7,
+    "w1": 1,
+    "w2": 11,
+    "quote": "O how great is the nothingness of the children of men;"
+   },
+   "reason": "Isaiah's axe, making the same point",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 20,
+     "verse": 15,
+     "w1": 1,
+     "w2": 10,
+     "quote": "Shall the ax boast itself against him that heweth therewith?",
+     "verse_text": "Shall the ax boast itself against him that heweth therewith? Shall the saw magnify itself against him that shaketh it? As if the rod should shake itself against them that lift it up, or as if the staff should lift up itself as if it were no wood!",
+     "markdown": "**Shall the ax boast itself against him that heweth therewith**? Shall the saw magnify itself against him that shaketh it? As if the rod should shake itself against them that lift it up, or as if the staff should lift up itself as if it were no wood!",
+     "span": true
+    }
+   ],
+   "mirror": "2ne20-003"
   },
   {
    "id": "hel12-009",
@@ -549,7 +702,7 @@
     "w2": 19,
     "quote": "Thou shalt go back, that it lengthen out the day for many hours"
    },
-   "reason": "the day the record says was lengthened, described from the ground",
+   "reason": "the lengthened day, described from the ground",
    "targets": [
     {
      "ref": "Josh.",
@@ -599,7 +752,8 @@
    "w2": 98,
    "quote": "then is the time that they do harden their hearts",
    "entries": [
-    "hel12-002"
+    "hel12-002",
+    "hel12-012"
    ]
   },
   {
@@ -617,7 +771,8 @@
    "w2": 11,
    "quote": "O how great is the nothingness of the children of men",
    "entries": [
-    "hel12-005"
+    "hel12-005",
+    "hel12-011"
    ]
   },
   {
@@ -677,7 +832,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-26",
-  "source_sha256": "c81a30a25ca526be"
+  "at": "2026-09-07",
+  "source_sha256": "48e42e45b30dd816"
  }
 }

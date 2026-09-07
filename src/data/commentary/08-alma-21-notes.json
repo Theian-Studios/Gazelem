@@ -17,9 +17,9 @@
   "principles": [
    "Preaching where the ground is hardest",
    "Doctrine tested by question",
-   ""
+   "Freedom to worship as a king's gift"
   ],
-  "connections": 9,
+  "connections": 10,
   "initial": true
  },
  "world_behind": [
@@ -88,13 +88,13 @@
   {
    "term": "Synagogues",
    "verse_label": "v. 4",
-   "text": "Assembly houses for worship and teaching. The Amalekites built theirs \"after the order of the Nehors\" (v. 4), which gives a dissenting Nephite sect its own architecture in Lamanite territory. The word carries the same weight in Alma 32, where being shut out of one is what drives the poor Zoramites to Alma.",
+   "text": "Assembly houses for worship and teaching. Treated at Alma 16:13. The Amalekites built theirs \"after the order of the Nehors\" (v. 4), which gives a dissenting Nephite sect its own architecture in Lamanite territory. The word carries the same weight in Alma 32, where being shut out of one is what drives the poor Zoramites to Alma.",
    "cites": [
     {
      "quote": "after the order of the Nehors",
      "verse": 4,
-     "start": 70,
-     "end": 108,
+     "start": 93,
+     "end": 131,
      "spans": [
       {
        "w1": 37,
@@ -102,6 +102,18 @@
        "text": "after the order of the Nehors"
       }
      ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 16:13",
+     "start": 53,
+     "end": 63,
+     "book": "Alma",
+     "chapter": 16,
+     "verse_start": 13,
+     "verse_end": 13
     }
    ]
   },
@@ -172,7 +184,7 @@
   {
    "term": "Aaron began to open the scriptures unto them",
    "verse_label": "v. 9",
-   "text": "The verb implies a text in hand and a reader walking others through it. He covers the coming of Christ, the resurrection, and the atonement of his blood in a single verse of summary. The mocking begins the moment he expounds."
+   "text": "The verb implies a text in hand and a reader walking others through it. One verse of summary covers Christ's coming, the rising of the dead, and the atoning blood. The mocking begins the moment he expounds."
   },
   {
    "term": "Thus they were delivered for the first time out of prison",
@@ -187,53 +199,46 @@
  ],
  "verses": [
   {
-   "label": "v. 1–4",
+   "label": "v. 1–2",
    "start": 1,
-   "end": 4,
-   "title": "Aaron goes to Jerusalem",
-   "text": "The brothers separate. Aaron takes the Lamanite city named for Lehi's home, built by Lamanites, Amalekites, and Amulonites. Mormon explains who is hardening whom, and notes that the synagogues follow the order of the Nehors."
+   "end": 2,
+   "title": "A Lamanite Jerusalem, next door to Mormon",
+   "text": "The land is \"called by the Lamanites, Jerusalem, calling it after the land of their fathers' nativity; and it was away joining the borders of Mormon.\" Two of the volume's heaviest place names are set beside each other in one verse, and the city that carries the first was built by \"the Lamanites and the Amalekites and the people of Amulon.\" The record gives the naming its reason and lets the neighbours stand without comment."
   },
   {
-   "label": "v. 5–8",
+   "label": "v. 5–6",
    "start": 5,
+   "end": 6,
+   "title": "The objection is seven questions and then three claims",
+   "text": "The Amalekite asks four times in verse 5 and three more in verse 6, including how knowest thou three times over. Only at the end does he assert anything: \"we have built sanctuaries, and we do assemble ourselves together to worship God. We do believe that God will save all men.\" The record gives the challenge as interrogation and the creed as an afterthought at the bottom of it."
+  },
+  {
+   "label": "v. 7",
+   "start": 7,
+   "end": 7,
+   "title": "Seven questions are answered with one",
+   "text": "Aaron does not take any of them up. \"Believest thou that the Son of God shall come to redeem mankind from their sins?\" is the only question he asks in the chapter, and it moves the ground from what Aaron can know to what the Amalekite believes."
+  },
+  {
+   "label": "v. 8",
+   "start": 8,
    "end": 8,
-   "title": "The challenge in the synagogue",
-   "text": "An Amalekite interrupts. Have you seen an angel, why not us, are we not as good as your people, how do you know our hearts, we have sanctuaries, God will save all men. Aaron asks one question back about the Son of God, and the man rejects the traditions of both their fathers."
+   "title": "Three refusals in one breath",
+   "text": "\"We do not believe that thou knowest any such thing. We do not believe in these foolish traditions. We do not believe that thou knowest of things to come, neither do we believe that thy fathers and also that our fathers did know.\" The record builds the reply on a repeated clause rather than an argument, and the last denial takes in both sets of fathers at once."
   },
   {
-   "label": "v. 9–10",
-   "start": 9,
-   "end": 10,
-   "title": "The scriptures opened, and mocked",
-   "text": "Aaron teaches the coming of Christ, the resurrection, and the atonement. They grow angry and refuse to listen, and he leaves without further argument."
-  },
-  {
-   "label": "v. 11–15",
-   "start": 11,
+   "label": "v. 14–15",
+   "start": 14,
    "end": 15,
-   "title": "Ani-Anti to prison",
-   "text": "He finds Muloki and Ammah in a village and they contend with many. The people harden; the group moves to Middoni; a few believe. Aaron and some others are jailed until Lamoni and Ammon get them out, fed and clothed, and they go back to work."
+   "title": "A thirty-verse rescue reduced to a clause",
+   "text": "Alma 20 spent its whole length on the deliverance from Middoni. Here it is \"they were delivered by the hand of Lamoni and Ammon, and they were fed and clothed,\" and then \"thus they were delivered for the first time out of prison; and thus they had suffered.\" That phrase, for the first time, occurs once in scripture, and it tells the reader there will be another."
   },
   {
-   "label": "v. 16–17",
+   "label": "v. 16",
    "start": 16,
-   "end": 17,
-   "title": "The second circuit",
-   "text": "Now they go where the Spirit leads, into any synagogue or assembly that will admit them. The Lord blesses them, many come to the truth, and many are convinced that their fathers' traditions were wrong."
-  },
-  {
-   "label": "v. 18–22",
-   "start": 18,
-   "end": 22,
-   "title": "Ishmael made free",
-   "text": "Ammon and Lamoni come home. Lamoni refuses to let Ammon serve him, builds synagogues, gathers the people, and tells them they are free of his father and may worship where they choose in his kingdom."
-  },
-  {
-   "label": "v. 23",
-   "start": 23,
-   "end": 23,
-   "title": "Ammon's daily work",
-   "text": "He teaches everything pertaining to righteousness and exhorts them every day with all diligence. The chapter ends with a people who give heed and are zealous to keep the commandments."
+   "end": 16,
+   "title": "The limit on the mission is access, not willingness",
+   "text": "They went \"preaching the word of God in every synagogue of the Amalekites, or in every assembly of the Lamanites where they could be admitted.\" The qualifying clause appears once in scripture. The record records the reach of the preaching by naming the doors that opened rather than the hearts that did."
   }
  ],
  "chapter": [
@@ -265,7 +270,19 @@
   {
    "n": 6,
    "title": "Two brothers, two results, one report",
-   "text": "Ammon has a kingdom converting; Aaron has cords and a cell. Mormon writes them into adjacent chapters and assigns the difference to the people rather than to the men."
+   "text": "The chapter reports one brother in prison at verse 13 and the other, at verse 23, preaching daily to a whole people who \"were firm, and steadfast in the faith.\" The record assigns the difference to the audience rather than to the missionaries: verses 4 through 11 describe the Amalekites and Amulonites as \"a hard-hearted and a stiffnecked people\" who had built synagogues \"after the order of the Nehors.\" Alma 17:14 has already said what the whole population was like, so the contrast is placed in the hearers.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 17:14",
+     "start": 406,
+     "end": 416,
+     "book": "Alma",
+     "chapter": 17,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
   },
   {
    "n": 7,
@@ -275,30 +292,74 @@
   {
    "n": 8,
    "title": "Religious liberty enters as a king's decree",
-   "text": "Lamoni tells his people they may worship where they wish. It is a grant from above, won by a bargain, and the record notes it as a fact of the new kingdom."
+   "text": "Verse 22 states the grant in the king's own terms, \"that they might have the liberty of worshiping the Lord their God according to their desires, in whatsoever place they were in, if it were in the land which was under the reign of king Lamoni.\" Verse 21 supplies its basis, that the people are \"free from the oppressions of the king, his father,\" which is the concession extracted at Alma 20:26–27. The liberty is granted from above and bounded by territory, and the record enters it as a fact of the kingdom rather than as a principle.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 20:26–27",
+     "start": 385,
+     "end": 398,
+     "book": "Alma",
+     "chapter": 20,
+     "verse_start": 26,
+     "verse_end": 27
+    }
+   ]
   }
  ],
  "world_in_front": {
   "applications": [
    {
-    "title": "Preach where you are, then move",
-    "verse_label": "v. 10–11",
-    "text": "Aaron argued in the synagogue, saw they would not hear, and left for the next village without escalating. When a conversation has closed, going somewhere else is a faithful response."
+    "title": "Attribute the difference to the ground",
+    "verse_label": "v. 4, 13",
+    "text": "The record says the Amalekites had built synagogues \"after the order of the Nehors,\" and Alma 21:13 has the same preachers imprisoned. Two men with the same message got opposite results because of where they stood.",
+    "refs": [
+     {
+      "kind": "scripture",
+      "text": "Alma 21:13",
+      "start": 89,
+      "end": 99,
+      "book": "Alma",
+      "chapter": 21,
+      "verse_start": 13,
+      "verse_end": 13
+     }
+    ]
    },
    {
-    "title": "Check what you are offering as evidence",
-    "verse_label": "v. 6",
-    "text": "The Amalekite listed his buildings and his attendance. Write down what you would name if someone asked why you think you are right with God, and see whether the list is made of activities."
+    "title": "Expect the questions to be about your standing",
+    "verse_label": "v. 5–6",
+    "text": "The Amalekite's objections are all epistemic, \"How knowest thou the thought and intent of our hearts? How knowest thou that we have cause to repent?\" Nobody disputes the doctrine. Prepare for the challenge to be about how you could possibly know."
    },
    {
-    "title": "Answer the question actually asked",
+    "title": "Ask what they believe before you answer what they asked",
     "verse_label": "v. 7",
-    "text": "Aaron responded to a volley of challenges with one question about the Son of God. When you are being argued at from six directions, pick the one thing that matters and ask about that."
+    "text": "Aaron's reply to a hostile speech is a question, \"Believest thou that the Son of God shall come to redeem mankind from their sins?\" Finding the actual disagreement is worth more than settling the stated one."
    },
    {
-    "title": "Publish the freedom you were given",
-    "verse_label": "v. 21–22",
-    "text": "Lamoni told his people what had been won for them and what it meant they could now do. Where someone secured something for you, make sure the people it covers know they have it."
+    "title": "Open the scriptures rather than the argument",
+    "verse_label": "v. 9",
+    "text": "What he does next is not rhetoric, \"Aaron began to open the scriptures unto them concerning the coming of Christ.\" When you have been challenged on authority, working from a text both sides hold moves the ground off you."
+   },
+   {
+    "title": "Leave when they will not hear",
+    "verse_label": "v. 10–11",
+    "text": "He is mocked, and the record reports the exit without apology, \"when he saw that they would not hear his words, he departed out of their synagogue.\" Going to the next village is a legitimate response and not a defeat."
+   },
+   {
+    "title": "Count few as a result",
+    "verse_label": "v. 12",
+    "text": "At Middoni \"they did preach the word unto many, and few believed on the words which they taught.\" The record enters the small number without softening it, and the mission continues."
+   },
+   {
+    "title": "Correct the tradition, not the person",
+    "verse_label": "v. 17",
+    "text": "The reported success is precise about what changed, that they were convinced \"of their sins, and of the traditions of their fathers, which were not correct.\" The thing being disputed is an inheritance, not a character."
+   },
+   {
+    "title": "Grant the liberty in specific terms",
+    "verse_label": "v. 22",
+    "text": "Lamoni's decree names the freedom exactly, \"that they might have the liberty of worshiping the Lord their God according to their desires, in whatsoever place they were in.\" A permission stated generally tends to be argued about; this one names the place and the choosing."
    }
   ],
   "questions": [
@@ -397,7 +458,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al01-027"
   },
   {
    "id": "al21-003",
@@ -409,7 +470,7 @@
     "w2": 21,
     "quote": "delivered by the hand of Lamoni and Ammon"
    },
-   "reason": "the rescue as Ammon saw it when the men came out",
+   "reason": "the rescue as Ammon saw the men come out",
    "targets": [
     {
      "ref": "Alma",
@@ -423,7 +484,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al20-009"
   },
   {
    "id": "al21-004",
@@ -435,7 +496,7 @@
     "w2": 6,
     "quote": "the Lamanites and the Amalekites"
    },
-   "reason": "where this group ends up when the converts refuse to fight",
+   "reason": "where this group ends up once the converts disarm",
    "targets": [
     {
      "ref": "Alma",
@@ -449,7 +510,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al24-020"
   },
   {
    "id": "al21-005",
@@ -475,7 +536,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al32-012"
+  },
+  {
+   "id": "al21-010",
+   "scope": "BOOK",
+   "head": "Alma 20:2",
+   "anchor": {
+    "verse": 13,
+    "w1": 11,
+    "w2": 15,
+    "quote": "taken and cast into prison,"
+   },
+   "reason": "the word the Lord used to Ammon",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 20,
+     "verse": 2,
+     "w1": 48,
+     "w2": 50,
+     "quote": "are in prison.",
+     "verse_text": "And the voice of the Lord came to Ammon, saying: Thou shalt not go up to the land of Nephi, for behold, the king will seek thy life; but thou shalt go to the land of Middoni; for behold, thy brother Aaron, and also Muloki and Ammah are in prison.",
+     "markdown": "And the voice of the Lord came to Ammon, saying: Thou shalt not go up to the land of Nephi, for behold, the king will seek thy life; but thou shalt go to the land of Middoni; for behold, thy brother Aaron, and also Muloki and Ammah **are in prison**.",
+     "span": true
+    }
+   ],
+   "mirror": "al20-001"
   },
   {
    "id": "al21-006",
@@ -501,7 +588,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "2ne09-027"
   },
   {
    "id": "al21-007",
@@ -513,7 +600,7 @@
     "w2": 17,
     "quote": "the Amulonites were still harder"
    },
-   "reason": "who these men were before they were teachers among the Lamanites",
+   "reason": "who these men were before they taught the Lamanites",
    "targets": [
     {
      "ref": "Mosiah",
@@ -527,7 +614,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos24-019"
   },
   {
    "id": "al21-008",
@@ -539,7 +626,7 @@
     "w2": 9,
     "quote": "open the scriptures unto them"
    },
-   "reason": "the same phrase for the same act, on the Emmaus road",
+   "reason": "the same phrase for the same act, at Emmaus",
    "targets": [
     {
      "ref": "Luke",
@@ -630,6 +717,15 @@
    ]
   },
   {
+   "verse": 13,
+   "w1": 11,
+   "w2": 15,
+   "quote": "taken and cast into prison,",
+   "entries": [
+    "al21-010"
+   ]
+  },
+  {
    "verse": 14,
    "w1": 14,
    "w2": 21,
@@ -658,7 +754,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "3eaff8e79e00bd8b"
+  "at": "2026-09-07",
+  "source_sha256": "4adba732ff428989"
  }
 }

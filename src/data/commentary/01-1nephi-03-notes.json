@@ -208,6 +208,26 @@
    ]
   },
   {
+   "term": "Property",
+   "verse_label": "v. 25",
+   "text": "Goods a person holds title to. The word appears nine times in this record and never in the King James Bible, and its first two uses sit in one paragraph: Laban lusts after their property, then the brothers are \"obliged to leave behind our property\" (v. 26). The family's whole inheritance is spent inside a single failed transaction, and the record spends the word twice on it before the plates change hands.",
+   "cites": [
+    {
+     "quote": "obliged to leave behind our property",
+     "verse": 26,
+     "start": 210,
+     "end": 256,
+     "spans": [
+      {
+       "w1": 18,
+       "w2": 23,
+       "text": "obliged to leave behind our property"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "term": "Cavity",
    "verse_label": "v. 27",
    "text": "The family's shelter has been shrinking all book: a house in Jerusalem, a tent in the valley, now \"the cavity of a rock\" (v. 27). The concrete little word marks the bottom of the descent, and it is in the hole in the rock, not the house or the tent, that an angel first appears to this family's sons.",
@@ -456,35 +476,7 @@
    "start": 28,
    "end": 29,
    "title": "The rod and the question",
-   "text": "Failure turns inward as a beating, and heaven interrupts it mid-stroke with a question: \"Why do ye smite your younger brother with a rod\" (v. 29) The angel reaffirms the offensive promise, that the younger will rule \"because of your iniquities\" (v. 29), and re-issues the errand with a guarantee attached.",
-   "cites": [
-    {
-     "quote": "Why do ye smite your younger brother with a rod",
-     "verse": 29,
-     "start": 88,
-     "end": 145,
-     "spans": [
-      {
-       "w1": 30,
-       "w2": 39,
-       "text": "Why do ye smite your younger brother with a rod"
-      }
-     ]
-    },
-    {
-     "quote": "because of your iniquities",
-     "verse": 29,
-     "start": 216,
-     "end": 252,
-     "spans": [
-      {
-       "w1": 57,
-       "w2": 60,
-       "text": "because of your iniquities"
-      }
-     ]
-    }
-   ]
+   "text": "The record gives the angel four sentences and makes the first of them a question rather than a verdict: \"Why do ye smite your younger brother with a rod?\" The second supplies a reason the hearers will not want, \"the Lord hath chosen him to be a ruler over you, and this because of your iniquities,\" which is the promise of 1 Nephi 2:22 repeated to the men it disadvantages. Two verses later the record reports the effect, and it is none: verse 31 has them murmuring again, with a specific objection, \"he can command fifty, yea, even he can slay fifty.\""
   },
   {
    "label": "v. 31",
@@ -887,7 +879,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "omn01-010"
   },
   {
    "id": "1ne03-007",
@@ -1162,7 +1154,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "2020e1d3e2d7e1ad"
+  "at": "2026-09-07",
+  "source_sha256": "2fc3e83c15c60a41"
  }
 }

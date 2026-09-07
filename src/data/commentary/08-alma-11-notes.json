@@ -18,7 +18,7 @@
    "Cross-examination",
    "Resurrection"
   ],
-  "connections": 10,
+  "connections": 21,
   "initial": true
  },
  "world_behind": [
@@ -163,18 +163,30 @@
   {
    "term": "Lucre",
    "verse_label": "v. 24",
-   "text": "Money, with the taint already in the word. The King James Bible keeps it for corrupt office holders: bishops who must not be greedy of filthy lucre, and Samuel's sons, who were judges and \"turned aside after lucre\" and perverted judgment. Amulek uses it on a man whose income depends on the volume of lawsuits, and the choice of word puts him in that lineage."
+   "text": "Money, with the taint already in the word. Treated at Mosiah 29:40. The King James Bible keeps it for corrupt office holders: bishops who must not be greedy of filthy lucre, and Samuel's sons, who were judges and \"turned aside after lucre\" and perverted judgment. Amulek uses it on a man whose income depends on the volume of lawsuits, and the choice of word puts him in that lineage.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 29:40",
+     "start": 54,
+     "end": 66,
+     "book": "Mosiah",
+     "chapter": 29,
+     "verse_start": 40,
+     "verse_end": 40
+    }
+   ]
   },
   {
    "term": "Bands",
    "verse_label": "v. 41",
-   "text": "Bonds, what ties a prisoner. Death is not described as a place or a sleep in this passage; it is a restraint, and what Christ does to it is \"the loosing of the bands of death\" (v. 41). The image makes resurrection an act of release performed on everyone, which is exactly the claim of verse 44: it comes to the wicked as surely as the righteous.",
+   "text": "Bonds, what ties a prisoner. Treated at 1 Nephi 7:17. Death is not described as a place or a sleep in this passage; it is a restraint, and what Christ does to it is \"the loosing of the bands of death\" (v. 41). The image makes resurrection an act of release performed on everyone, which is exactly the claim of verse 44: it comes to the wicked and the righteous alike.",
    "cites": [
     {
      "quote": "the loosing of the bands of death",
      "verse": 41,
-     "start": 140,
-     "end": 183,
+     "start": 165,
+     "end": 208,
      "spans": [
       {
        "w1": 16,
@@ -275,53 +287,32 @@
  ],
  "verses": [
   {
-   "label": "v. 1–3",
-   "start": 1,
-   "end": 3,
-   "title": "The law on wages",
-   "text": "Judges are paid by the day for time spent judging, with the rate fixed by the law of Mosiah. Two verses of civil procedure, including how a debtor is brought in and compelled to pay, and then the number."
-  },
-  {
-   "label": "v. 4–19",
+   "label": "v. 4",
    "start": 4,
-   "end": 19,
-   "title": "The reckoning",
-   "text": "Gold in four denominations, silver in four, then the lesser numbers, all pinned to measures of barley. The record explains that the Nephites built their own system. Nothing in these verses is doctrine and none of it is wasted."
+   "end": 4,
+   "title": "A disclaimer before the unfamiliar words",
+   "text": "The record explains, in advance, why the next fifteen verses will use terms no reader of the Bible would know: \"the names are given by the Nephites, for they did not reckon after the manner of the Jews who were at Jerusalem; neither did they measure after the manner of the Jews; but they altered their reckoning and their measure, according to the minds and the circumstances of the people, in every generation.\" A divergence from a known standard is stated, given a cause, and dated to the reign of the judges. Nothing in the story requires the apology."
   },
   {
-   "label": "v. 20–21",
-   "start": 20,
-   "end": 21,
-   "title": "The motive, and the man",
-   "text": "One verse names what the lawyers were doing and why, and the next introduces Zeezrom asking politely whether Amulek will answer a few questions. The politeness is reported alongside the description of him as expert in the devices of the devil."
-  },
-  {
-   "label": "v. 22–25",
-   "start": 22,
-   "end": 25,
-   "title": "The offer, and the refusal",
-   "text": "Six onties for a denial. Amulek declines, then goes further and tells Zeezrom what was actually in his heart: the money was bait and would have stayed in his hand. The exchange takes four verses and ends the bribery attempt for good."
-  },
-  {
-   "label": "v. 26–37",
+   "label": "v. 26–38",
    "start": 26,
-   "end": 37,
-   "title": "The examination",
-   "text": "Short questions, short answers, moving from one God to the coming Son to whether he saves people in their sins. Zeezrom turns to the crowd in verse 35 with his summary, and Amulek spends two verses taking it apart."
+   "end": 38,
+   "title": "A cross-examination preserved as short exchanges",
+   "text": "Ten verses in this chapter carry questions, and the middle stretch is dialogue with almost nothing between the turns. \"Is there more than one God? And he answered, No.\" Two verses later: \"How knowest thou these things? And he said: An angel hath made them known unto me.\" The record keeps the one-word answer and does not expand it, so the pace of an interrogation survives, including the places where the witness gives nothing."
   },
   {
-   "label": "v. 38–41",
-   "start": 38,
-   "end": 41,
-   "title": "The answer that opens out",
-   "text": "Asked whether the Son is the Eternal Father, Amulek says yes and keeps going: heaven and earth, beginning and end, first and last, redemption for those who believe, and the loosing of death's bands for everyone."
+   "label": "v. 35",
+   "start": 35,
+   "end": 35,
+   "title": "The questioner turns to the crowd",
+   "text": "In the middle of the examination the record captures a move addressed past the witness: \"Now Zeezrom said unto the people: See that ye remember these things; for he said there is but one God; yet he saith that the Son of God shall come, but he shall not save his people.\" He restates the testimony in the form he wants remembered. The reply in verse 36 does not answer the substance first but the procedure, \"thou hast lied, for thou sayest that I spake as though I had authority to command God.\""
   },
   {
-   "label": "v. 42–46",
+   "label": "v. 42–45",
    "start": 42,
-   "end": 46,
-   "title": "The resurrection, and a man trembling",
-   "text": "Temporal death undone, spirit and body reunited in perfect form, limb and joint restored, memory bright, all classes of people included, everyone arraigned. Then the crowd is astonished again and Zeezrom begins to shake."
+   "end": 45,
+   "title": "An answer given with anatomical precision",
+   "text": "The record makes the reply about resurrection unusually specific about bodies: \"The spirit and the body shall be reunited again in its perfect form; both limb and joint shall be restored to its proper frame, even as we now are at this time.\" Verse 44 extends it to everyone in four paired categories, \"both old and young, both bond and free, both male and female, both the wicked and the righteous,\" and then adds a measure of completeness, \"there shall not so much as a hair of their heads be lost.\" A chapter that began by counting money ends by counting hairs."
   }
  ],
  "chapter": [
@@ -343,17 +334,41 @@
   {
    "n": 4,
    "title": "Doctrine arrives because someone hostile asked for it",
-   "text": "The fullest statement on resurrection so far in the record is produced under cross-examination by a man trying to destroy the witness. The book gets its clearest teaching out of its worst room."
+   "text": "The fullest statement on resurrection so far in the record, verses 41 through 45, is produced under cross-examination by a man the chapter says at verse 21 came \"to catch them in their words.\" The exchange from verse 21 to verse 40 is question and answer in short alternating turns, a form these books use at length only here and at Jacob 7:9–11. The teaching arrives because a hostile questioner kept asking.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 7:9–11",
+     "start": 333,
+     "end": 345,
+     "book": "Jacob",
+     "chapter": 7,
+     "verse_start": 9,
+     "verse_end": 11
+    }
+   ]
   },
   {
    "n": 5,
    "title": "Salvation is bounded by consistency",
-   "text": "Amulek's ground for saying the Son cannot save people in their sins is that he cannot deny his word. That places the limit inside God's own character, and the record will return to it whenever mercy and justice are argued."
+   "text": "Asked at verse 34 whether the Son will \"save his people in their sins,\" the reply gives one reason, \"it is impossible for him to deny his word,\" and verse 37 repeats it in the first person, \"I cannot deny his word.\" The supporting text is quoted in the same verse, \"no unclean thing can inherit the kingdom of heaven.\" The limit is placed inside God's own consistency, which is the ground Alma 42:13 and 42:25 will take up again when mercy and justice are argued.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 42:13",
+     "start": 389,
+     "end": 399,
+     "book": "Alma",
+     "chapter": 42,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
   },
   {
    "n": 6,
    "title": "The resurrection is described physically and universally",
-   "text": "Limb, joint, frame, hair. Old and young, bond and free, male and female, wicked and righteous. Nothing in the passage is offered as comfort and nothing is withheld from anyone."
+   "text": "Verse 43 gives the restoration in anatomical terms, \"both limb and joint shall be restored to its proper frame,\" and verse 44 in four paired categories, \"both old and young, both bond and free, both male and female, both the wicked and the righteous,\" closing on \"there shall not so much as a hair of their heads be lost.\" Eight groups named in one verse and none excluded. Verse 43 also attaches something no hearer would want, \"a bright recollection of all our guilt.\""
   },
   {
    "n": 7,
@@ -370,23 +385,55 @@
   "applications": [
    {
     "title": "Know the exchange rate before the offer comes",
-    "verse_label": "v. 13, 22",
-    "text": "The chapter arms its reader with the table first. Work out in advance what your integrity is priced at in the currencies you actually deal in: time, standing, a job, a relationship. The offer is easier to see when you already know the scale."
+    "verse_label": "v. 3, 22",
+    "text": "The chapter arms its reader with the table of weights and measures first, and only then has six onties offered across a table. Work out in advance what your integrity is priced at in the currencies you actually deal in: time, standing, a job, a relationship. The offer is easier to see when you already know the scale."
    },
    {
     "title": "Look for the incentive first",
     "verse_label": "v. 20",
-    "text": "The lawyers stirred up trouble because trouble paid. Before assuming bad character in a situation that keeps going wrong, ask what the arrangement rewards, and whether anyone would have to be wicked for it to produce this."
+    "text": "The lawyers stirred up trouble because trouble paid, \"they received their wages according to their employ.\" Before assuming bad character in a situation that keeps going wrong, ask what the arrangement rewards, and whether anyone would have to be wicked for it to produce this."
+   },
+   {
+    "title": "Set the condition on your answer before you agree",
+    "verse_label": "v. 22",
+    "text": "Amulek accepts the questioning with a limit attached, \"Yea, if it be according to the Spirit of the Lord, which is in me; for I shall say nothing which is contrary to the Spirit of the Lord.\" Say what you will not do while you are still agreeing to the conversation."
    },
    {
     "title": "Answer the question and then name the move",
-    "verse_label": "v. 25",
-    "text": "Amulek did not refuse to engage, and he did not pretend the exchange was innocent. He did both: gave the answer, then said what was being attempted. Most people manage only one."
+    "verse_label": "v. 23–25",
+    "text": "Amulek did not refuse to engage and he did not pretend the exchange was innocent. He gave the answer and then said what was being attempted, \"thou hadst it in thy heart to retain them from me.\" Most people manage only one of the two."
+   },
+   {
+    "title": "Give the reason, not just the ruling",
+    "verse_label": "v. 37",
+    "text": "Asked whether the Son will save people in their sins, Amulek answers no and supplies the ground twice, \"I cannot deny his word,\" and the text it rests on, \"no unclean thing can inherit the kingdom of heaven.\" A refusal with its reasoning attached can be argued with, and that is what makes it useful."
    },
    {
     "title": "Assume the record of your own life is complete",
     "verse_label": "v. 43",
-    "text": "The passage puts nothing in the hands of witnesses. Take one thing you have been hoping is filed somewhere out of reach, and deal with it as though you will one day remember it clearly."
+    "text": "The passage puts nothing in the hands of witnesses; it promises \"a bright recollection of all our guilt.\" Take one thing you have been hoping is filed somewhere out of reach, and deal with it as though you will one day remember all of it."
+   },
+   {
+    "title": "Let the doctrine include everyone",
+    "verse_label": "v. 44",
+    "text": "The restoration is stated in four paired categories, \"both old and young, both bond and free, both male and female, both the wicked and the righteous.\" When you describe something you believe, check whether your description has quietly excluded the people you find hardest."
+   },
+   {
+    "title": "Notice when the questioner has changed",
+    "verse_label": "v. 46",
+    "text": "The chapter ends with Zeezrom trembling and the crowd astonished, and Alma 12:8 has him asking real questions two verses later. Somebody arguing with you in bad faith can stop doing so mid-conversation; watch for it rather than deciding in advance.",
+    "refs": [
+     {
+      "kind": "scripture",
+      "text": "Alma 12:8",
+      "start": 70,
+      "end": 79,
+      "book": "Alma",
+      "chapter": 12,
+      "verse_start": 8,
+      "verse_end": 8
+     }
+    ]
    }
   ],
   "questions": [
@@ -459,7 +506,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al10-003"
   },
   {
    "id": "al11-002",
@@ -485,7 +532,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al12-001"
   },
   {
    "id": "al11-003",
@@ -511,7 +558,111 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al40-003"
+  },
+  {
+   "id": "al11-011",
+   "scope": "BOOK",
+   "head": "Alma 30:33",
+   "anchor": {
+    "verse": 3,
+    "w1": 11,
+    "w2": 22,
+    "quote": "a senine of gold for a day, or a senum of silver,"
+   },
+   "reason": "Alma saying he never took one",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 30,
+     "verse": 33,
+     "w1": 17,
+     "w2": 25,
+     "quote": "so much as even one senine for my labor;",
+     "verse_text": "And notwithstanding the many labors which I have performed in the church, I have never received so much as even one senine for my labor; neither has any of my brethren, save it were in the judgment-seat; and then we have received only according to law for our time.",
+     "markdown": "And notwithstanding the many labors which I have performed in the church, I have never received **so much as even one senine for my labor**; neither has any of my brethren, save it were in the judgment-seat; and then we have received only according to law for our time.",
+     "span": true
+    }
+   ],
+   "mirror": "al30-002"
+  },
+  {
+   "id": "al11-014",
+   "scope": "BOOK",
+   "head": "Alma 10:31",
+   "anchor": {
+    "verse": 21,
+    "w1": 2,
+    "w2": 7,
+    "quote": "this Zeezrom began to question Amulek,"
+   },
+   "reason": "Zeezrom named the most expert among them",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 10,
+     "verse": 31,
+     "w1": 23,
+     "w2": 29,
+     "quote": "one of the most expert among them,",
+     "verse_text": "And there was one among them whose name was Zeezrom. Now he was the foremost to accuse Amulek and Alma, he being one of the most expert among them, having much business to do among the people.",
+     "markdown": "And there was one among them whose name was Zeezrom. Now he was the foremost to accuse Amulek and Alma, he being **one of the most expert among them**, having much business to do among the people.",
+     "span": true
+    }
+   ],
+   "mirror": "al10-004"
+  },
+  {
+   "id": "al11-016",
+   "scope": "BOOK",
+   "head": "Alma 15:12",
+   "anchor": {
+    "verse": 22,
+    "w1": 40,
+    "w2": 53,
+    "quote": "Behold, here are six onties of silver, and all these will I give thee"
+   },
+   "reason": "the same man, baptized by Alma",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 15,
+     "verse": 12,
+     "w1": 2,
+     "w2": 7,
+     "quote": "Alma baptized Zeezrom unto the Lord;",
+     "verse_text": "And Alma baptized Zeezrom unto the Lord; and he began from that time forth to preach unto the people.",
+     "markdown": "And **Alma baptized Zeezrom unto the Lord**; and he began from that time forth to preach unto the people.",
+     "span": true
+    }
+   ],
+   "mirror": "al15-002"
+  },
+  {
+   "id": "al11-017",
+   "scope": "BOOK",
+   "head": "Alma 54:11",
+   "anchor": {
+    "verse": 23,
+    "w1": 4,
+    "w2": 12,
+    "quote": "O thou child of hell, why tempt ye me?"
+   },
+   "reason": "Moroni using the phrase of Ammoron",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 54,
+     "verse": 11,
+     "w1": 21,
+     "w2": 26,
+     "quote": "thou art a child of hell;",
+     "verse_text": "But behold, it supposeth me that I talk to you concerning these things in vain; or it supposeth me that thou art a child of hell; therefore I will close my epistle by telling you that I will not exchange prisoners, save it be on conditions that ye will deliver up a man and his wife and his children, for one prisoner; if this be the case that ye will do it, I will exchange.",
+     "markdown": "But behold, it supposeth me that I talk to you concerning these things in vain; or it supposeth me that **thou art a child of hell**; therefore I will close my epistle by telling you that I will not exchange prisoners, save it be on conditions that ye will deliver up a man and his wife and his children, for one prisoner; if this be the case that ye will do it, I will exchange.",
+     "span": true
+    }
+   ],
+   "mirror": "al54-003"
   },
   {
    "id": "al11-004",
@@ -537,7 +688,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos29-031"
   },
   {
    "id": "al11-005",
@@ -563,7 +714,189 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "2ne09-025"
+  },
+  {
+   "id": "al11-012",
+   "scope": "BOM",
+   "head": "3 Ne. 12:26",
+   "anchor": {
+    "verse": 3,
+    "w1": 11,
+    "w2": 22,
+    "quote": "a senine of gold for a day, or a senum of silver,"
+   },
+   "reason": "the Lord using the coin in a parable",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 12,
+     "verse": 26,
+     "w1": 15,
+     "w2": 21,
+     "quote": "until thou hast paid the uttermost senine.",
+     "verse_text": "Verily, verily, I say unto thee, thou shalt by no means come out thence until thou hast paid the uttermost senine. And while ye are in prison can ye pay even one senine? Verily, verily, I say unto you, Nay.",
+     "markdown": "Verily, verily, I say unto thee, thou shalt by no means come out thence **until thou hast paid the uttermost senine**. And while ye are in prison can ye pay even one senine? Verily, verily, I say unto you, Nay.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne12-005"
+  },
+  {
+   "id": "al11-013",
+   "scope": "BOM",
+   "head": "Hel. 7:5",
+   "anchor": {
+    "verse": 20,
+    "w1": 2,
+    "w2": 19,
+    "quote": "it was for the sole purpose to get gain, because they received their wages according to their employ,"
+   },
+   "reason": "Nephi on judges who sell their verdicts",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 7,
+     "verse": 5,
+     "w1": 8,
+     "w2": 19,
+     "quote": "letting the guilty and the wicked go unpunished because of their money;",
+     "verse_text": "Condemning the righteous because of their righteousness; letting the guilty and the wicked go unpunished because of their money; and moreover to be held in office at the head of government, to rule and do according to their wills, that they might get gain and glory of the world, and, moreover, that they might the more easily commit adultery, and steal, and kill, and do according to their own wills—",
+     "markdown": "Condemning the righteous because of their righteousness; **letting the guilty and the wicked go unpunished because of their money**; and moreover to be held in office at the head of government, to rule and do according to their wills, that they might get gain and glory of the world, and, moreover, that they might the more easily commit adultery, and steal, and kill, and do according to their own wills—",
+     "span": true
+    }
+   ],
+   "mirror": "hel07-008"
+  },
+  {
+   "id": "al11-015",
+   "scope": "BOM",
+   "head": "Hel. 9:20",
+   "anchor": {
+    "verse": 22,
+    "w1": 40,
+    "w2": 53,
+    "quote": "Behold, here are six onties of silver, and all these will I give thee"
+   },
+   "reason": "judges offering money for a confession",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 9,
+     "verse": 20,
+     "w1": 24,
+     "w2": 27,
+     "quote": "Behold here is money;",
+     "verse_text": "Saying unto him: Thou art confederate; who is this man that hath done this murder? Now tell us, and acknowledge thy fault; saying, Behold here is money; and also we will grant unto thee thy life if thou wilt tell us, and acknowledge the agreement which thou hast made with him.",
+     "markdown": "Saying unto him: Thou art confederate; who is this man that hath done this murder? Now tell us, and acknowledge thy fault; saying, **Behold here is money**; and also we will grant unto thee thy life if thou wilt tell us, and acknowledge the agreement which thou hast made with him.",
+     "span": true
+    }
+   ],
+   "mirror": "hel09-004"
+  },
+  {
+   "id": "al11-018",
+   "scope": "BOM",
+   "head": "1 Ne. 10:21",
+   "anchor": {
+    "verse": 37,
+    "w1": 26,
+    "w2": 34,
+    "quote": "no unclean thing can inherit the kingdom of heaven;"
+   },
+   "reason": "Nephi stating the same bar",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 10,
+     "verse": 21,
+     "w1": 26,
+     "w2": 32,
+     "quote": "no unclean thing can dwell with God;",
+     "verse_text": "Wherefore, if ye have sought to do wickedly in the days of your probation, then ye are found unclean before the judgment-seat of God; and no unclean thing can dwell with God; wherefore, ye must be cast off forever.",
+     "markdown": "Wherefore, if ye have sought to do wickedly in the days of your probation, then ye are found unclean before the judgment-seat of God; and **no unclean thing can dwell with God**; wherefore, ye must be cast off forever.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne10-004"
+  },
+  {
+   "id": "al11-019",
+   "scope": "BOM",
+   "head": "Hel. 5:10",
+   "anchor": {
+    "verse": 37,
+    "w1": 49,
+    "w2": 55,
+    "quote": "ye cannot be saved in your sins."
+   },
+   "reason": "Helaman quoting these words to his sons",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 5,
+     "verse": 10,
+     "w1": 4,
+     "w2": 15,
+     "quote": "the words which Amulek spake unto Zeezrom, in the city of Ammonihah;",
+     "verse_text": "And remember also the words which Amulek spake unto Zeezrom, in the city of Ammonihah; for he said unto him that the Lord surely should come to redeem his people, but that he should not come to redeem them in their sins, but to redeem them from their sins.",
+     "markdown": "And remember also **the words which Amulek spake unto Zeezrom, in the city of Ammonihah**; for he said unto him that the Lord surely should come to redeem his people, but that he should not come to redeem them in their sins, but to redeem them from their sins.",
+     "span": true
+    }
+   ],
+   "mirror": "hel05-005"
+  },
+  {
+   "id": "al11-020",
+   "scope": "BOM",
+   "head": "Mosiah 15:4",
+   "anchor": {
+    "verse": 39,
+    "w1": 7,
+    "w2": 17,
+    "quote": "he is the very Eternal Father of heaven and of earth,"
+   },
+   "reason": "Abinadi using the title first",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 15,
+     "verse": 4,
+     "w1": 2,
+     "w2": 15,
+     "quote": "they are one God, yea, the very Eternal Father of heaven and of earth.",
+     "verse_text": "And they are one God, yea, the very Eternal Father of heaven and of earth.",
+     "markdown": "And **they are one God, yea, the very Eternal Father of heaven and of earth**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos15-009"
+  },
+  {
+   "id": "al11-021",
+   "scope": "BOM",
+   "head": "Morm. 3:20",
+   "anchor": {
+    "verse": 44,
+    "w1": 60,
+    "w2": 72,
+    "quote": "shall be brought and be arraigned before the bar of Christ the Son,"
+   },
+   "reason": "Mormon summoning all men to that seat",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 3,
+     "verse": 20,
+     "w1": 29,
+     "w2": 37,
+     "quote": "ye must all stand before the judgment-seat of Christ,",
+     "verse_text": "And these things doth the Spirit manifest unto me; therefore I write unto you all. And for this cause I write unto you, that ye may know that ye must all stand before the judgment-seat of Christ, yea, every soul who belongs to the whole human family of Adam; and ye must stand to be judged of your works, whether they be good or evil;",
+     "markdown": "And these things doth the Spirit manifest unto me; therefore I write unto you all. And for this cause I write unto you, that ye may know that **ye must all stand before the judgment-seat of Christ**, yea, every soul who belongs to the whole human family of Adam; and ye must stand to be judged of your works, whether they be good or evil;",
+     "span": true
+    }
+   ],
+   "mirror": "morm03-006"
   },
   {
    "id": "al11-006",
@@ -707,12 +1040,59 @@
    ]
   },
   {
+   "verse": 3,
+   "w1": 11,
+   "w2": 22,
+   "quote": "a senine of gold for a day, or a senum of silver,",
+   "entries": [
+    "al11-011",
+    "al11-012"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 2,
+   "w2": 19,
+   "quote": "it was for the sole purpose to get gain, because they received their wages according to their employ,",
+   "entries": [
+    "al11-013"
+   ]
+  },
+  {
    "verse": 20,
    "w1": 36,
    "w2": 41,
    "quote": "that they might have more employ",
    "entries": [
     "al11-001"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 2,
+   "w2": 7,
+   "quote": "this Zeezrom began to question Amulek,",
+   "entries": [
+    "al11-014"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 40,
+   "w2": 53,
+   "quote": "Behold, here are six onties of silver, and all these will I give thee",
+   "entries": [
+    "al11-016",
+    "al11-015"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 4,
+   "w2": 12,
+   "quote": "O thou child of hell, why tempt ye me?",
+   "entries": [
+    "al11-017"
    ]
   },
   {
@@ -723,6 +1103,33 @@
    "entries": [
     "al11-006",
     "al11-007"
+   ]
+  },
+  {
+   "verse": 37,
+   "w1": 26,
+   "w2": 34,
+   "quote": "no unclean thing can inherit the kingdom of heaven;",
+   "entries": [
+    "al11-018"
+   ]
+  },
+  {
+   "verse": 37,
+   "w1": 49,
+   "w2": 55,
+   "quote": "ye cannot be saved in your sins.",
+   "entries": [
+    "al11-019"
+   ]
+  },
+  {
+   "verse": 39,
+   "w1": 7,
+   "w2": 17,
+   "quote": "he is the very Eternal Father of heaven and of earth,",
+   "entries": [
+    "al11-020"
    ]
   },
   {
@@ -754,6 +1161,15 @@
    ]
   },
   {
+   "verse": 44,
+   "w1": 60,
+   "w2": 72,
+   "quote": "shall be brought and be arraigned before the bar of Christ the Son,",
+   "entries": [
+    "al11-021"
+   ]
+  },
+  {
    "verse": 45,
    "w1": 29,
    "w2": 37,
@@ -773,7 +1189,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "d062041a079b2ab4"
+  "at": "2026-09-07",
+  "source_sha256": "1ba16bf2313fb6df"
  }
 }

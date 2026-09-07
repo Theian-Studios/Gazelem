@@ -1,0 +1,653 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Moroni",
+  "book_slug": "moroni",
+  "chapter": 1,
+  "volume_order": "14",
+  "speakers": [
+   "Moroni"
+  ],
+  "audience": "The Lamanites in a future day",
+  "location": "Wherever he can go",
+  "date": "After the abridgment of the record of Jared",
+  "unit": "Moroni writes a few more things (Moroni 1)",
+  "principles": [
+   "A book resumed after its author expected to be dead",
+   "A refusal that costs a settled life",
+   "Writing for readers who are not born yet"
+  ],
+  "connections": 9,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "He had already signed off twice",
+   "text": "Mormon 8:1 has him finishing his father's record and Ether 12:38 has him bidding farewell in the middle of the Jaredite abridgment. Verse 1 says he supposed not to have written more, and this is at least his third ending.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 12:38",
+     "start": 53,
+     "end": 64,
+     "book": "Ether",
+     "chapter": 12,
+     "verse_start": 38,
+     "verse_end": 38
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "The gap is at least twenty years",
+   "text": "Mormon 8:6 records four hundred years passed since the coming of Christ; Moroni 10:1 says more than four hundred and twenty since the sign. Everything between those two lines was written by one man in a country hunting him."
+  },
+  {
+   "n": 3,
+   "title": "He has no supplies and no people",
+   "text": "Mormon 8:5 lists what he lacks: room on the plates, ore, kinsfolk, friends, and anywhere to go. That verse is the material situation this short book is written from."
+  },
+  {
+   "n": 4,
+   "title": "The Lamanite wars are internal",
+   "text": "Verse 2 calls their wars exceedingly fierce among themselves, and Mormon 8:8 says the whole face of the land is one continual round of murder and bloodshed with no one knowing the end of it. The people hunting him are also destroying each other."
+  },
+  {
+   "n": 5,
+   "title": "The Jaredite abridgment came first",
+   "text": "Verse 1 dates this book after he made an end of abridging the account of the people of Jared, which is the book of Ether. The order of composition is not the order the volume prints."
+  },
+  {
+   "n": 6,
+   "title": "He is writing to readers who do not exist yet",
+   "text": "Verse 4 hopes these things may prove of worth to his brethren the Lamanites long after he is gone. Mormon 8:35 has him telling those readers he speaks as if they were present, and that Jesus has shown them to him."
+  }
+ ],
+ "words": [
+  {
+   "term": "Abridging",
+   "verse_label": "v. 1",
+   "text": "Cutting a longer record down to a shorter one. The word appears once in the record, here, and never in the King James Bible."
+  },
+  {
+   "term": "Perished",
+   "verse_label": "v. 1",
+   "text": "Died, or came to an end. The record uses the word fifteen times and the King James Bible twenty-six. Verse 1 uses it of himself, in the negative."
+  },
+  {
+   "term": "Fierce",
+   "verse_label": "v. 2",
+   "text": "Violent and unrestrained. It appears thirteen times in the record, and the King James Bible forty-one. Verse 2 applies it to wars among one people."
+  },
+  {
+   "term": "Hatred",
+   "verse_label": "v. 2",
+   "text": "Settled ill will. It appears nineteen times in the record and eighteen in the King James Bible. Verse 2 gives it as the cause of the killing."
+  },
+  {
+   "term": "Wander",
+   "verse_label": "v. 3",
+   "text": "To move without a fixed destination. The record uses the word five times and the King James Bible fourteen. Moroni 9:16 used it of widows looking for food."
+  },
+  {
+   "term": "Whithersoever",
+   "verse_label": "v. 3",
+   "text": "To whatever place. Treated at Ether 7:25. There it named a freedom granted by law; here it names a man with nowhere settled to go.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 7:25",
+     "start": 30,
+     "end": 40,
+     "book": "Ether",
+     "chapter": 7,
+     "verse_start": 25,
+     "verse_end": 25
+    }
+   ]
+  },
+  {
+   "term": "Supposed",
+   "verse_label": "v. 4",
+   "text": "Expected or assumed. The word turns up thirty-three times here, and the King James Bible eight. Verse 4 uses it twice about the same expectation."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "After having made an end of abridging the account of the people of Jared",
+   "verse_label": "v. 1",
+   "text": "Where the book of Ether left him. The sentence treats that work as finished."
+  },
+  {
+   "term": "I had supposed not to have written more",
+   "verse_label": "v. 1",
+   "text": "His own expectation, stated and then overturned. Verse 4 repeats it twice more."
+  },
+  {
+   "term": "But I have not as yet perished",
+   "verse_label": "v. 1",
+   "text": "The only reason given for the additional chapters. Survival is the occasion."
+  },
+  {
+   "term": "I make not myself known to the Lamanites lest they should destroy me",
+   "verse_label": "v. 1",
+   "text": "A working policy, stated plainly. He is writing to people he is hiding from."
+  },
+  {
+   "term": "Their wars are exceedingly fierce among themselves",
+   "verse_label": "v. 2",
+   "text": "The state of the country after the Nephites are gone. The victors are now fighting each other."
+  },
+  {
+   "term": "Every Nephite that will not deny the Christ",
+   "verse_label": "v. 2",
+   "text": "The terms of the test being applied. Denial is the way out."
+  },
+  {
+   "term": "And I, Moroni, will not deny the Christ",
+   "verse_label": "v. 3",
+   "text": "His answer, given before anyone asks him. It is one sentence long."
+  },
+  {
+   "term": "I wander whithersoever I can for the safety of mine own life",
+   "verse_label": "v. 3",
+   "text": "The consequence of that answer. The verse joins them with a wherefore."
+  },
+  {
+   "term": "Contrary to that which I had supposed",
+   "verse_label": "v. 4",
+   "text": "Moroni marking the change of plan in the text itself. He does not tidy it away."
+  },
+  {
+   "term": "That perhaps they may be of worth unto my brethren, the Lamanites",
+   "verse_label": "v. 4",
+   "text": "Who he is writing for. They are the same people hunting him."
+  },
+  {
+   "term": "In some future day, according to the will of the Lord",
+   "verse_label": "v. 4",
+   "text": "The delivery date, left open. He writes without knowing when it lands."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1",
+   "start": 1,
+   "end": 1,
+   "title": "A book that begins by explaining itself",
+   "text": "\"I had supposed not to have written more\" (v. 1), and the same admission returns twice more in verse 4. Three times in four verses the writer says the record was finished. What follows is an appendix whose first business is to account for its own existence.",
+   "cites": [
+    {
+     "quote": "I had supposed not to have written more",
+     "verse": 1,
+     "start": 0,
+     "end": 48,
+     "spans": [
+      {
+       "w1": 18,
+       "w2": 25,
+       "text": "I had supposed not to have written more"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 1–3",
+   "start": 1,
+   "end": 3,
+   "title": "A writer in hiding",
+   "text": "\"I make not myself known to the Lamanites lest they should destroy me\" (v. 1). Verse 3 gives the reason for the wandering as a refusal rather than a fear, and the grammar carries it: wherefore, I wander whithersoever I can for the safety of mine own life. The record states the danger and the choice and never says what the wandering cost him.",
+   "cites": [
+    {
+     "quote": "I make not myself known to the Lamanites lest they should destroy me",
+     "verse": 1,
+     "start": 0,
+     "end": 77,
+     "spans": [
+      {
+       "w1": 34,
+       "w2": 46,
+       "text": "I make not myself known to the Lamanites lest they should destroy me"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 4",
+   "start": 4,
+   "end": 4,
+   "title": "The audience is the hunters",
+   "text": "The few more things are written \"that perhaps they may be of worth unto my brethren, the Lamanites, in some future day.\" Verse 2 has just identified them as the men putting his people to death; they are the audience the appendix chooses. Perhaps is the record's own hedge, and it never says what the worth would be."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "A finished book gets more chapters",
+   "text": "Verse 1 has him say he expected to stop, and the rest of Moroni follows anyway."
+  },
+  {
+   "n": 2,
+   "title": "Survival is the reason he gives",
+   "text": "Verse 1 names it and stops there, with no vision or command attached."
+  },
+  {
+   "n": 3,
+   "title": "He is hiding from his readers",
+   "text": "Verse 1 keeps him unknown to the Lamanites and verse 4 addresses the book to them."
+  },
+  {
+   "n": 4,
+   "title": "The victors turn on each other",
+   "text": "Verse 2 has their wars go fierce among themselves once the Nephites are gone."
+  },
+  {
+   "n": 5,
+   "title": "The test has an easy answer",
+   "text": "Verse 2 says denial ends the danger, and verse 3 declines it in seven words."
+  },
+  {
+   "n": 6,
+   "title": "The cost is stated right after the refusal",
+   "text": "Verse 3 joins his answer and his wandering in one sentence."
+  },
+  {
+   "n": 7,
+   "title": "He repeats his changed mind three times",
+   "text": "Verses 1 and 4 both say he had supposed not to write more, and verse 4 says it twice."
+  },
+  {
+   "n": 8,
+   "title": "The delivery date is left to God",
+   "text": "Verse 4 says some future day, according to the will of the Lord."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Keep going while you are still here",
+    "verse_label": "v. 1",
+    "text": "Moroni gives his survival as the only reason for the rest of the book."
+   },
+   {
+    "title": "Know the price before you refuse",
+    "verse_label": "v. 2",
+    "text": "He states the situation first, and it is death for anyone who holds to Christ. The cost sits in the sentence before the refusal, which is how a real decision reads on the page."
+   },
+   {
+    "title": "Say the refusal before you are asked",
+    "verse_label": "v. 3",
+    "text": "He states it flatly without waiting to be cornered."
+   },
+   {
+    "title": "Stay alive to finish it",
+    "verse_label": "v. 3",
+    "text": "He writes that he wanders wherever he can for the safety of his own life. Keeping yourself in a position to finish the work is part of the work, and the record does not treat the wandering as a retreat."
+   },
+   {
+    "title": "Write for people who are not ready yet",
+    "verse_label": "v. 4",
+    "text": "His audience was hostile and generations away."
+   },
+   {
+    "title": "Leave the timing alone",
+    "verse_label": "v. 4",
+    "text": "He hands the arrival of the work to the will of the Lord."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What have I treated as finished that may not be?"
+   },
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What am I keeping quiet about, and why?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Whom am I at war with who should be on my side?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What would I have to deny to be safe?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What have I decided in advance, so I will not have to decide under pressure?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "Who might need this long after I have stopped thinking about it?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What am I doing that I cannot see the result of?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "moro01-001",
+   "scope": "BOOK",
+   "head": "Moro. 10:1",
+   "anchor": {
+    "verse": 4,
+    "w1": 32,
+    "w2": 43,
+    "quote": "that perhaps they may be of worth unto my brethren, the Lamanites"
+   },
+   "reason": "the same readers named at the close of the book",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 10,
+     "verse": 1,
+     "w1": 11,
+     "w2": 17,
+     "quote": "I write unto my brethren, the Lamanites;",
+     "verse_text": "Now I, Moroni, write somewhat as seemeth me good; and I write unto my brethren, the Lamanites; and I would that they should know that more than four hundred and twenty years have passed away since the sign was given of the coming of Christ.",
+     "markdown": "Now I, Moroni, write somewhat as seemeth me good; and **I write unto my brethren, the Lamanites**; and I would that they should know that more than four hundred and twenty years have passed away since the sign was given of the coming of Christ.",
+     "span": true
+    }
+   ],
+   "mirror": "moro10-001"
+  },
+  {
+   "id": "moro01-002",
+   "scope": "BOOK",
+   "head": "Moro. 9:16",
+   "anchor": {
+    "verse": 3,
+    "w1": 10,
+    "w2": 21,
+    "quote": "I wander whithersoever I can for the safety of mine own life"
+   },
+   "reason": "the same wording used of widows looking for food",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 9,
+     "verse": 16,
+     "w1": 38,
+     "w2": 46,
+     "quote": "left them to wander whithersoever they can for food;",
+     "verse_text": "And again, my son, there are many widows and their daughters who remain in Sherrizah; and that part of the provisions which the Lamanites did not carry away, behold, the army of Zenephi has carried away, and left them to wander whithersoever they can for food; and many old women do faint by the way and die.",
+     "markdown": "And again, my son, there are many widows and their daughters who remain in Sherrizah; and that part of the provisions which the Lamanites did not carry away, behold, the army of Zenephi has carried away, and **left them to wander whithersoever they can for food**; and many old women do faint by the way and die.",
+     "span": true
+    }
+   ],
+   "mirror": "moro09-001"
+  },
+  {
+   "id": "moro01-003",
+   "scope": "BOM",
+   "head": "Morm. 8:3",
+   "anchor": {
+    "verse": 1,
+    "w1": 26,
+    "w2": 32,
+    "quote": "but I have not as yet perished"
+   },
+   "reason": "the first time he said he did not know",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 8,
+     "verse": 3,
+     "w1": 38,
+     "w2": 46,
+     "quote": "And whether they will slay me, I know not.",
+     "verse_text": "And my father also was killed by them, and I even remain alone to write the sad tale of the destruction of my people. But behold, they are gone, and I fulfil the commandment of my father. And whether they will slay me, I know not.",
+     "markdown": "And my father also was killed by them, and I even remain alone to write the sad tale of the destruction of my people. But behold, they are gone, and I fulfil the commandment of my father. **And whether they will slay me, I know not**.",
+     "span": true
+    }
+   ],
+   "mirror": "morm08-012"
+  },
+  {
+   "id": "moro01-004",
+   "scope": "BOM",
+   "head": "Morm. 8:5",
+   "anchor": {
+    "verse": 3,
+    "w1": 10,
+    "w2": 21,
+    "quote": "I wander whithersoever I can for the safety of mine own life"
+   },
+   "reason": "the same man saying he had nowhere to go",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 8,
+     "verse": 5,
+     "w1": 54,
+     "w2": 61,
+     "quote": "I have not friends nor whither to go;",
+     "verse_text": "Behold, my father hath made this record, and he hath written the intent thereof. And behold, I would write it also if I had room upon the plates, but I have not; and ore I have none, for I am alone. My father hath been slain in battle, and all my kinsfolk, and I have not friends nor whither to go; and how long the Lord will suffer that I may live I know not.",
+     "markdown": "Behold, my father hath made this record, and he hath written the intent thereof. And behold, I would write it also if I had room upon the plates, but I have not; and ore I have none, for I am alone. My father hath been slain in battle, and all my kinsfolk, and **I have not friends nor whither to go**; and how long the Lord will suffer that I may live I know not.",
+     "span": true
+    }
+   ],
+   "mirror": "morm08-014"
+  },
+  {
+   "id": "moro01-005",
+   "scope": "BOM",
+   "head": "Ether 15:33",
+   "anchor": {
+    "verse": 1,
+    "w1": 4,
+    "w2": 17,
+    "quote": "after having made an end of abridging the account of the people of Jared"
+   },
+   "reason": "the end of the record he had just abridged",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 15,
+     "verse": 33,
+     "w1": 30,
+     "w2": 33,
+     "quote": "he finished his record;",
+     "verse_text": "And the Lord spake unto Ether, and said unto him: Go forth. And he went forth, and beheld that the words of the Lord had all been fulfilled; and he finished his record; (and the hundredth part I have not written) and he hid them in a manner that the people of Limhi did find them.",
+     "markdown": "And the Lord spake unto Ether, and said unto him: Go forth. And he went forth, and beheld that the words of the Lord had all been fulfilled; and **he finished his record**; (and the hundredth part I have not written) and he hid them in a manner that the people of Limhi did find them.",
+     "span": true
+    }
+   ],
+   "mirror": "eth15-011"
+  },
+  {
+   "id": "moro01-006",
+   "scope": "BOM",
+   "head": "Morm. 8:4",
+   "anchor": {
+    "verse": 1,
+    "w1": 18,
+    "w2": 25,
+    "quote": "I had supposed not to have written more"
+   },
+   "reason": "the plan he had already announced once",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 8,
+     "verse": 4,
+     "w1": 1,
+     "w2": 12,
+     "quote": "Therefore I will write and hide up the records in the earth;",
+     "verse_text": "Therefore I will write and hide up the records in the earth; and whither I go it mattereth not.",
+     "markdown": "**Therefore I will write and hide up the records in the earth**; and whither I go it mattereth not.",
+     "span": true
+    }
+   ],
+   "mirror": "morm08-013"
+  },
+  {
+   "id": "moro01-007",
+   "scope": "SW",
+   "head": "Matt. 10:33",
+   "anchor": {
+    "verse": 2,
+    "w1": 19,
+    "w2": 26,
+    "quote": "every Nephite that will not deny the Christ"
+   },
+   "reason": "the saying that puts denial the other way round",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 10,
+     "verse": 33,
+     "w1": 2,
+     "w2": 15,
+     "quote": "whosoever shall deny me before men, him will I also deny before my Father",
+     "verse_text": "But whosoever shall deny me before men, him will I also deny before my Father which is in heaven.",
+     "markdown": "But **whosoever shall deny me before men, him will I also deny before my Father** which is in heaven.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "moro01-008",
+   "scope": "SW",
+   "head": "Heb. 11:38",
+   "anchor": {
+    "verse": 3,
+    "w1": 10,
+    "w2": 21,
+    "quote": "I wander whithersoever I can for the safety of mine own life"
+   },
+   "reason": "the roll of those the world was not worthy of",
+   "targets": [
+    {
+     "ref": "Heb.",
+     "chapter": 11,
+     "verse": 38,
+     "w1": 8,
+     "w2": 19,
+     "quote": "they wandered in deserts, and in mountains, and in dens and caves",
+     "verse_text": "(Of whom the world was not worthy:) they wandered in deserts, and in mountains, and in dens and caves of the earth.",
+     "markdown": "(Of whom the world was not worthy:) **they wandered in deserts, and in mountains, and in dens and caves** of the earth.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "moro01-009",
+   "scope": "SW",
+   "head": "2 Tim. 4:7",
+   "anchor": {
+    "verse": 3,
+    "w1": 1,
+    "w2": 8,
+    "quote": "And I, Moroni, will not deny the Christ"
+   },
+   "reason": "a last word from another man near his end",
+   "targets": [
+    {
+     "ref": "2 Tim.",
+     "chapter": 4,
+     "verse": 7,
+     "w1": 12,
+     "w2": 16,
+     "quote": "I have kept the faith:",
+     "verse_text": "I have fought a good fight, I have finished my course, I have kept the faith:",
+     "markdown": "I have fought a good fight, I have finished my course, **I have kept the faith**:",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 4,
+   "w2": 17,
+   "quote": "after having made an end of abridging the account of the people of Jared",
+   "entries": [
+    "moro01-005"
+   ]
+  },
+  {
+   "verse": 1,
+   "w1": 18,
+   "w2": 25,
+   "quote": "I had supposed not to have written more",
+   "entries": [
+    "moro01-006"
+   ]
+  },
+  {
+   "verse": 1,
+   "w1": 26,
+   "w2": 32,
+   "quote": "but I have not as yet perished",
+   "entries": [
+    "moro01-003"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 19,
+   "w2": 26,
+   "quote": "every Nephite that will not deny the Christ",
+   "entries": [
+    "moro01-007"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 1,
+   "w2": 8,
+   "quote": "And I, Moroni, will not deny the Christ",
+   "entries": [
+    "moro01-009"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 10,
+   "w2": 21,
+   "quote": "I wander whithersoever I can for the safety of mine own life",
+   "entries": [
+    "moro01-002",
+    "moro01-004",
+    "moro01-008"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 32,
+   "w2": 43,
+   "quote": "that perhaps they may be of worth unto my brethren, the Lamanites",
+   "entries": [
+    "moro01-001"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "e92957178f29f8f1"
+ }
+}

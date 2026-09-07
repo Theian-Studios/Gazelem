@@ -1,0 +1,685 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "3 Nephi",
+  "book_slug": "3nephi",
+  "chapter": 30,
+  "volume_order": "10",
+  "speakers": [
+   "Mormon",
+   "Jesus Christ"
+  ],
+  "audience": "The Gentiles",
+  "location": "Written from Mormon's own day",
+  "date": "Fourth century AD",
+  "unit": "Mormon speaks to the reader (3 Nephi 29–30)",
+  "principles": [
+   "A commission stated before the message",
+   "Nine sins named in one sentence",
+   "An invitation with four consecutive results"
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The chapter is two verses long",
+   "text": "It is the shortest chapter in 3 Nephi and closes the book. Jarom and Omni are the only other places in the volume where a whole unit runs this short, and both are custodial notes rather than an address."
+  },
+  {
+   "n": 2,
+   "title": "Verse 1 is the frame",
+   "text": "Mormon says he was commanded both to speak and to write these words."
+  },
+  {
+   "n": 3,
+   "title": "The speaker changes at the colon",
+   "text": "Verse 1 ends with \"saying\" and verse 2 is Christ speaking. Mormon does the same at 3 Nephi 29:1, opening in his own voice and handing over, so the book's last two chapters are a matched pair of relayed messages."
+  },
+  {
+   "n": 4,
+   "title": "The address is to the Gentiles",
+   "text": "Both verses name them, matching the audience of 3 Nephi 29."
+  },
+  {
+   "n": 5,
+   "title": "Nine sins are listed",
+   "text": "Verse 2 names lyings, deceivings, whoredoms, secret abominations, idolatries, murders, priestcrafts, envyings, and strifes. 3 Nephi 21:19 gives six of the same nine as the things that shall be done away, so the closing list is the reverse image of a promise made nine chapters earlier."
+  },
+  {
+   "n": 6,
+   "title": "The list overlaps two earlier ones",
+   "text": "3 Nephi 16:10 and 21:19 both carry most of the same terms."
+  },
+  {
+   "n": 7,
+   "title": "The invitation ends in belonging",
+   "text": "Verse 2 closes with being numbered with his people who are of the house of Israel. 3 Nephi 16:13 and 3 Nephi 21:22 make the same offer in the same words, so the last sentence of the book repeats a term stated twice during the visit itself."
+  }
+ ],
+ "words": [
+  {
+   "term": "Hearken",
+   "verse_label": "v. 1",
+   "text": "To listen with attention and act on what is heard. Treated at 1 Nephi 20:1. The record uses the word often, and verse 1 pairs it with \"hear\"."
+  },
+  {
+   "term": "Deceivings",
+   "verse_label": "v. 2",
+   "text": "Acts of misleading. Treated at 3 Nephi 1:22. Five uses here against one in the King James Bible."
+  },
+  {
+   "term": "Abominations",
+   "verse_label": "v. 2",
+   "text": "Things detestable to God. It appears seventy-five times in the record, and the King James Bible seventy-six. Verse 2 calls them secret, and names them again at the end of the list."
+  },
+  {
+   "term": "Idolatries",
+   "verse_label": "v. 2",
+   "text": "The worship of images or false gods. The record uses the word twice, here and at Ether 7:26, and the King James Bible once. Verse 2 places it in the middle of the list.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 7:26",
+     "start": 81,
+     "end": 91,
+     "book": "Ether",
+     "chapter": 7,
+     "verse_start": 26,
+     "verse_end": 26
+    }
+   ]
+  },
+  {
+   "term": "Priestcrafts",
+   "verse_label": "v. 2",
+   "text": "Setting oneself up as a light for gain. Treated at 2 Nephi 10:5. It runs through this record, with nothing matching it in the King James Bible."
+  },
+  {
+   "term": "Envyings",
+   "verse_label": "v. 2",
+   "text": "Resentment at what others have. Treated at 2 Nephi 26:21. Its count is eight times in this book, while the King James Bible twice."
+  },
+  {
+   "term": "Remission",
+   "verse_label": "v. 2",
+   "text": "The cancelling of a debt or a charge. Treated at 2 Nephi 31:17. Verse 2 attaches it to baptism in his name."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Hearken, O ye Gentiles, and hear the words of Jesus Christ",
+   "verse_label": "v. 1",
+   "text": "Two verbs for the same act. The words are attributed before any of them are given."
+  },
+  {
+   "term": "The Son of the living God",
+   "verse_label": "v. 1",
+   "text": "The title Peter used at Caesarea Philippi (Matt. 16:16). It stands in the sentence introducing the speaker.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Matt. 16:16",
+     "start": 43,
+     "end": 54,
+     "book": "Matt",
+     "chapter": 16,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
+  },
+  {
+   "term": "He commandeth me that I should write",
+   "verse_label": "v. 1",
+   "text": "Mormon on assignment. The chapter records the instruction alongside the message."
+  },
+  {
+   "term": "Turn, all ye Gentiles, from your wicked ways",
+   "verse_label": "v. 2",
+   "text": "The opening imperative. Turning comes before repenting in the order of the verse."
+  },
+  {
+   "term": "Of your lyings and deceivings",
+   "verse_label": "v. 2",
+   "text": "The first pair in the list. Both are sins of speech."
+  },
+  {
+   "term": "Of your whoredoms, and of your secret abominations, and your idolatries",
+   "verse_label": "v. 2",
+   "text": "Three that concern worship and the body. \"Secret\" is the only adjective in the list."
+  },
+  {
+   "term": "And of your murders, and your priestcrafts",
+   "verse_label": "v. 2",
+   "text": "Taking life and taking gain from religion, named together."
+  },
+  {
+   "term": "And your envyings, and your strifes",
+   "verse_label": "v. 2",
+   "text": "The two that are about other people. 3 Nephi 21:19 had said all of these would be done away."
+  },
+  {
+   "term": "And come unto me, and be baptized in my name",
+   "verse_label": "v. 2",
+   "text": "The turn from what to leave to where to go. The invitation is the second half of the verse."
+  },
+  {
+   "term": "That ye may receive a remission of your sins, and be filled with the Holy Ghost",
+   "verse_label": "v. 2",
+   "text": "Two results of the baptism. Acts 2:38 gives the same pair in the same order.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Acts 2:38",
+     "start": 28,
+     "end": 37,
+     "book": "Acts",
+     "chapter": 2,
+     "verse_start": 38,
+     "verse_end": 38
+    }
+   ]
+  },
+  {
+   "term": "That ye may be numbered with my people who are of the house of Israel",
+   "verse_label": "v. 2",
+   "text": "The last clause of the book. What is offered is membership rather than favor."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1",
+   "start": 1,
+   "end": 1,
+   "title": "Two verses, and the first is a warrant",
+   "text": "Mormon does not speak here in his own person; he relays, and says so twice in one verse. Christ \"hath commanded me that I should speak concerning you,\" and \"he commandeth me that I should write.\" The chapter is two verses long and spends the first establishing that the second is not his."
+  },
+  {
+   "label": "v. 2",
+   "start": 2,
+   "end": 2,
+   "title": "One sentence, ninety-two words",
+   "text": "The whole verse runs without a full stop: the sins on a single chain of and, then a catch-all, then the invitation in the same breath — come, be baptized, receive a remission, be filled, be numbered. The record does not let the reader out of the indictment before it offers the way out of it, because there is no punctuation between them."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The book ends with an invitation",
+   "text": "Verse 2 closes 3 Nephi on terms rather than on narrative. The last words are about joining."
+  },
+  {
+   "n": 2,
+   "title": "The commission is shown, not assumed",
+   "text": "Verse 1 says Christ commanded both the speaking and the writing. Mormon puts his warrant on the page."
+  },
+  {
+   "n": 3,
+   "title": "The Gentiles are addressed directly twice",
+   "text": "Both verses name them. The chapter has one audience and says so."
+  },
+  {
+   "n": 4,
+   "title": "Nine sins fit in a single line",
+   "text": "Verse 2 runs them together without pause. The list is meant to be heard as a whole."
+  },
+  {
+   "n": 5,
+   "title": "Only one item is called secret",
+   "text": "Verse 2 attaches the word to abominations alone. Everything else in the list is public by nature."
+  },
+  {
+   "n": 6,
+   "title": "Abominations appear twice",
+   "text": "They are named as secret and then folded into the summary at the end. The repetition closes the list."
+  },
+  {
+   "n": 7,
+   "title": "Four results follow one act",
+   "text": "Verse 2 gives coming, baptism, remission, the Holy Ghost, and being numbered. Each depends on the one before."
+  },
+  {
+   "n": 8,
+   "title": "The offer is membership",
+   "text": "Verse 2 ends with being numbered among the house of Israel. 3 Nephi 21:22 had made the same offer in the same terms."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Say who told you to speak",
+    "verse_label": "v. 1",
+    "text": "Mormon names his commission before delivering the message. Where the words came from is part of the message."
+   },
+   {
+    "title": "Notice what the account ends on",
+    "verse_label": "v. 1",
+    "text": "Mormon closes the record of Christ's ministry with a direct address to the Gentiles rather than a summary of what happened. What a writer chooses to finish with tells you who he thinks the book is for."
+   },
+   {
+    "title": "Turn before you sort",
+    "verse_label": "v. 2",
+    "text": "The imperative comes first and the list follows. Direction changes before the inventory is finished."
+   },
+   {
+    "title": "Read the whole list",
+    "verse_label": "v. 2",
+    "text": "Nine items in a single line, none optional. It is easy to stop at the ones that are not yours."
+   },
+   {
+    "title": "Count all three results",
+    "verse_label": "v. 2",
+    "text": "The purpose clauses run: a remission of sins, being filled with the Holy Ghost, and being numbered with his people. Three things are promised here and it is easy to hear only the first."
+   },
+   {
+    "title": "Take the offer as belonging, not status",
+    "verse_label": "v. 2",
+    "text": "The last clause is being numbered with a people. The invitation ends in a group."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "Whose words am I passing on, and do I say so?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What wicked way am I being told to turn from?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Which of my sins are sins of speech?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What in my life is secret and would not survive daylight?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Where does my envy actually point?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What would a remission of sins change about tomorrow?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What people am I asking to be numbered with?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "3ne30-001",
+   "scope": "BOOK",
+   "head": "3 Ne. 21:6",
+   "anchor": {
+    "verse": 2,
+    "w1": 52,
+    "w2": 61,
+    "quote": "and come unto me, and be baptized in my name"
+   },
+   "reason": "the same terms offered to the Gentiles nine chapters earlier",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 21,
+     "verse": 6,
+     "w1": 38,
+     "w2": 51,
+     "quote": "that they may repent and come unto me and be baptized in my name",
+     "verse_text": "For thus it behooveth the Father that it should come forth from the Gentiles, that he may show forth his power unto the Gentiles, for this cause that the Gentiles, if they will not harden their hearts, that they may repent and come unto me and be baptized in my name and know of the true points of my doctrine, that they may be numbered among my people, O house of Israel;",
+     "markdown": "For thus it behooveth the Father that it should come forth from the Gentiles, that he may show forth his power unto the Gentiles, for this cause that the Gentiles, if they will not harden their hearts, **that they may repent and come unto me and be baptized in my name** and know of the true points of my doctrine, that they may be numbered among my people, O house of Israel;",
+     "span": true
+    }
+   ],
+   "mirror": "3ne21-012"
+  },
+  {
+   "id": "3ne30-002",
+   "scope": "BOOK",
+   "head": "3 Ne. 21:19",
+   "anchor": {
+    "verse": 2,
+    "w1": 39,
+    "w2": 44,
+    "quote": "and your envyings, and your strifes"
+   },
+   "reason": "the same six named as things to be done away",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 21,
+     "verse": 19,
+     "w1": 8,
+     "w2": 23,
+     "quote": "all lyings, and deceivings, and envyings, and strifes, and priestcrafts, and whoredoms, shall be done away.",
+     "verse_text": "And it shall come to pass that all lyings, and deceivings, and envyings, and strifes, and priestcrafts, and whoredoms, shall be done away.",
+     "markdown": "And it shall come to pass that **all lyings, and deceivings, and envyings, and strifes, and priestcrafts, and whoredoms, shall be done away**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne21-013"
+  },
+  {
+   "id": "3ne30-003",
+   "scope": "BOOK",
+   "head": "3 Ne. 16:10",
+   "anchor": {
+    "verse": 2,
+    "w1": 20,
+    "w2": 28,
+    "quote": "and of your whoredoms, and of your secret abominations"
+   },
+   "reason": "the Father's list of what would end the fulness",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 16,
+     "verse": 10,
+     "w1": 74,
+     "w2": 83,
+     "quote": "and murders, and priestcrafts, and whoredoms, and of secret abominations;",
+     "verse_text": "And thus commandeth the Father that I should say unto you: At that day when the Gentiles shall sin against my gospel, and shall reject the fulness of my gospel, and shall be lifted up in the pride of their hearts above all nations, and above all the people of the whole earth, and shall be filled with all manner of lyings, and of deceits, and of mischiefs, and all manner of hypocrisy, and murders, and priestcrafts, and whoredoms, and of secret abominations; and if they shall do all those things, and shall reject the fulness of my gospel, behold, saith the Father, I will bring the fulness of my gospel from among them.",
+     "markdown": "And thus commandeth the Father that I should say unto you: At that day when the Gentiles shall sin against my gospel, and shall reject the fulness of my gospel, and shall be lifted up in the pride of their hearts above all nations, and above all the people of the whole earth, and shall be filled with all manner of lyings, and of deceits, and of mischiefs, and all manner of hypocrisy, **and murders, and priestcrafts, and whoredoms, and of secret abominations**; and if they shall do all those things, and shall reject the fulness of my gospel, behold, saith the Father, I will bring the fulness of my gospel from among them.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne16-014"
+  },
+  {
+   "id": "3ne30-004",
+   "scope": "BOOK",
+   "head": "3 Ne. 21:22",
+   "anchor": {
+    "verse": 2,
+    "w1": 78,
+    "w2": 92,
+    "quote": "that ye may be numbered with my people who are of the house of Israel"
+   },
+   "reason": "the same promise of being numbered with the remnant",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 21,
+     "verse": 22,
+     "w1": 24,
+     "w2": 39,
+     "quote": "they shall come in unto the covenant and be numbered among this the remnant of Jacob,",
+     "verse_text": "But if they will repent and hearken unto my words, and harden not their hearts, I will establish my church among them, and they shall come in unto the covenant and be numbered among this the remnant of Jacob, unto whom I have given this land for their inheritance;",
+     "markdown": "But if they will repent and hearken unto my words, and harden not their hearts, I will establish my church among them, and **they shall come in unto the covenant and be numbered among this the remnant of Jacob**, unto whom I have given this land for their inheritance;",
+     "span": true
+    }
+   ],
+   "mirror": "3ne21-015"
+  },
+  {
+   "id": "3ne30-005",
+   "scope": "BOM",
+   "head": "2 Ne. 30:2",
+   "anchor": {
+    "verse": 2,
+    "w1": 1,
+    "w2": 8,
+    "quote": "Turn, all ye Gentiles, from your wicked ways"
+   },
+   "reason": "Nephi stating the same condition for Gentile and Jew alike",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 30,
+     "verse": 2,
+     "w1": 8,
+     "w2": 22,
+     "quote": "as many of the Gentiles as will repent are the covenant people of the Lord;",
+     "verse_text": "For behold, I say unto you that as many of the Gentiles as will repent are the covenant people of the Lord; and as many of the Jews as will not repent shall be cast off; for the Lord covenanteth with none save it be with them that repent and believe in his Son, who is the Holy One of Israel.",
+     "markdown": "For behold, I say unto you that **as many of the Gentiles as will repent are the covenant people of the Lord**; and as many of the Jews as will not repent shall be cast off; for the Lord covenanteth with none save it be with them that repent and believe in his Son, who is the Holy One of Israel.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne30-008"
+  },
+  {
+   "id": "3ne30-006",
+   "scope": "BOM",
+   "head": "Ether 7:26",
+   "anchor": {
+    "verse": 2,
+    "w1": 29,
+    "w2": 31,
+    "quote": "and your idolatries"
+   },
+   "reason": "the only other use of the word in the record",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 7,
+     "verse": 26,
+     "w1": 2,
+     "w2": 11,
+     "quote": "because the people did repent of their iniquities and idolatries",
+     "verse_text": "And because the people did repent of their iniquities and idolatries the Lord did spare them, and they began to prosper again in the land. And it came to pass that Shule begat sons and daughters in his old age.",
+     "markdown": "And **because the people did repent of their iniquities and idolatries** the Lord did spare them, and they began to prosper again in the land. And it came to pass that Shule begat sons and daughters in his old age.",
+     "span": true
+    }
+   ],
+   "mirror": "eth07-005"
+  },
+  {
+   "id": "3ne30-007",
+   "scope": "BOM",
+   "head": "Moro. 8:25",
+   "anchor": {
+    "verse": 2,
+    "w1": 62,
+    "w2": 70,
+    "quote": "that ye may receive a remission of your sins"
+   },
+   "reason": "the sequence Mormon later set out to Moroni",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 8,
+     "verse": 25,
+     "w1": 20,
+     "w2": 27,
+     "quote": "the fulfilling the commandments bringeth remission of sins;",
+     "verse_text": "And the first fruits of repentance is baptism; and baptism cometh by faith unto the fulfilling the commandments; and the fulfilling the commandments bringeth remission of sins;",
+     "markdown": "And the first fruits of repentance is baptism; and baptism cometh by faith unto the fulfilling the commandments; and **the fulfilling the commandments bringeth remission of sins**;",
+     "span": true
+    }
+   ],
+   "mirror": "moro08-005"
+  },
+  {
+   "id": "3ne30-008",
+   "scope": "SW",
+   "head": "Acts 2:38",
+   "anchor": {
+    "verse": 2,
+    "w1": 71,
+    "w2": 77,
+    "quote": "and be filled with the Holy Ghost"
+   },
+   "reason": "the same two results named at Pentecost",
+   "targets": [
+    {
+     "ref": "Acts",
+     "chapter": 2,
+     "verse": 38,
+     "w1": 20,
+     "w2": 34,
+     "quote": "for the remission of sins, and ye shall receive the gift of the Holy Ghost.",
+     "verse_text": "Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost.",
+     "markdown": "Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ **for the remission of sins, and ye shall receive the gift of the Holy Ghost**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne30-009",
+   "scope": "SW",
+   "head": "Rev. 21:8",
+   "anchor": {
+    "verse": 2,
+    "w1": 15,
+    "w2": 19,
+    "quote": "of your lyings and deceivings"
+   },
+   "reason": "a list ending on the same offense",
+   "targets": [
+    {
+     "ref": "Rev.",
+     "chapter": 21,
+     "verse": 8,
+     "w1": 13,
+     "w2": 19,
+     "quote": "and sorcerers, and idolaters, and all liars,",
+     "verse_text": "But the fearful, and unbelieving, and the abominable, and murderers, and whoremongers, and sorcerers, and idolaters, and all liars, shall have their part in the lake which burneth with fire and brimstone: which is the second death.",
+     "markdown": "But the fearful, and unbelieving, and the abominable, and murderers, and whoremongers, **and sorcerers, and idolaters, and all liars**, shall have their part in the lake which burneth with fire and brimstone: which is the second death.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne30-010",
+   "scope": "SW",
+   "head": "Matt. 16:16",
+   "anchor": {
+    "verse": 1,
+    "w1": 12,
+    "w2": 17,
+    "quote": "the Son of the living God"
+   },
+   "reason": "Peter's confession, in the same words",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 16,
+     "verse": 16,
+     "w1": 7,
+     "w2": 16,
+     "quote": "Thou art the Christ, the Son of the living God.",
+     "verse_text": "And Simon Peter answered and said, Thou art the Christ, the Son of the living God.",
+     "markdown": "And Simon Peter answered and said, **Thou art the Christ, the Son of the living God**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 12,
+   "w2": 17,
+   "quote": "the Son of the living God",
+   "entries": [
+    "3ne30-010"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 1,
+   "w2": 8,
+   "quote": "Turn, all ye Gentiles, from your wicked ways",
+   "entries": [
+    "3ne30-005"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 15,
+   "w2": 19,
+   "quote": "of your lyings and deceivings",
+   "entries": [
+    "3ne30-009"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 20,
+   "w2": 28,
+   "quote": "and of your whoredoms, and of your secret abominations",
+   "entries": [
+    "3ne30-003"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 29,
+   "w2": 31,
+   "quote": "and your idolatries",
+   "entries": [
+    "3ne30-006"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 39,
+   "w2": 44,
+   "quote": "and your envyings, and your strifes",
+   "entries": [
+    "3ne30-002"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 52,
+   "w2": 61,
+   "quote": "and come unto me, and be baptized in my name",
+   "entries": [
+    "3ne30-001"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 62,
+   "w2": 70,
+   "quote": "that ye may receive a remission of your sins",
+   "entries": [
+    "3ne30-007"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 71,
+   "w2": 77,
+   "quote": "and be filled with the Holy Ghost",
+   "entries": [
+    "3ne30-008"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 78,
+   "w2": 92,
+   "quote": "that ye may be numbered with my people who are of the house of Israel",
+   "entries": [
+    "3ne30-004"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "e0dea8bc995b5d18"
+ }
+}

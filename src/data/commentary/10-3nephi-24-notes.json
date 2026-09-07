@@ -1,0 +1,695 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "3 Nephi",
+  "book_slug": "3nephi",
+  "chapter": 24,
+  "volume_order": "10",
+  "speakers": [
+   "Jesus Christ",
+   "Malachi",
+   "Mormon"
+  ],
+  "audience": "The twelve and the multitude",
+  "location": "The land Bountiful",
+  "date": "AD 34",
+  "unit": "Malachi given to the record (3 Nephi 24–25)",
+  "principles": [
+   "A prophet's words delivered to people who never had them",
+   "A God who asks to be tested",
+   "Complaint quoted back to the ones who made it"
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "They did not have this text",
+   "text": "3 Nephi 26:2 says these scriptures were ones they had not with them, and that the Father commanded they be given. 1 Nephi 5:13 has the brass plates carrying the prophets down to Jeremiah, which is where the shelf stops. Malachi wrote after Lehi had left Jerusalem, so the record explains its own gap."
+  },
+  {
+   "n": 2,
+   "title": "The frame sits inside verse 1",
+   "text": "The first sentences are narrative and the quotation begins at \"Behold, I will send my messenger.\" 3 Nephi 25 continues the same Malachi passage without a break, so one quotation runs across two chapter numbers."
+  },
+  {
+   "n": 3,
+   "title": "The text is Malachi 3 nearly whole",
+   "text": "All eighteen verses correspond to the eighteen of Malachi 3, and eight of them differ from the King James wording in a way that is more than spelling. 3 Nephi 25 is closer still, with one of its six verses altered."
+  },
+  {
+   "n": 4,
+   "title": "Three of the differences change sense",
+   "text": "Malachi 3:5 has those that turn aside the stranger \"from his right\" and verse 5 here drops the phrase; Malachi 3:13 asks what have we spoken \"so much\" against thee and verse 13 drops it; Malachi 3:14 has kept his \"ordinance\" where verse 14 has ordinances. Everything else that moves is a pronoun or a connective."
+  },
+  {
+   "n": 5,
+   "title": "Malachi appears only in these two chapters",
+   "text": "No other chapter of the volume quotes him, and Isaiah is quoted in more than twenty. A prophet the Nephites had never read arrives once, in full, and is never used again."
+  },
+  {
+   "n": 6,
+   "title": "The disputational shape is Malachi's own",
+   "text": "Verses 7, 8, 13, and 14 each set up a complaint with \"ye say\" before answering it, and Malachi 3 does the same at the same points. The form was in the source before the Nephite editor touched it."
+  }
+ ],
+ "words": [
+  {
+   "term": "Messenger",
+   "verse_label": "v. 1",
+   "text": "One sent with a message. The record uses the word twice, both in this verse, and the King James Bible thirty-four times. Verse 1 uses it of the one who prepares and of the Lord of the covenant."
+  },
+  {
+   "term": "Refiner",
+   "verse_label": "v. 2",
+   "text": "One who purifies metal by heat. Treated at Alma 34:29. It appears twice, both in this chapter, in the record, and the King James Bible twice, both in Malachi 3. Verse 2 pairs it with fuller's soap.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 34:29",
+     "start": 43,
+     "end": 53,
+     "book": "Alma",
+     "chapter": 34,
+     "verse_start": 29,
+     "verse_end": 29
+    }
+   ]
+  },
+  {
+   "term": "Sorcerers",
+   "verse_label": "v. 5",
+   "text": "Practitioners of magic. The record uses the word once, here, and the King James Bible six times. Verse 5 heads a list of five kinds of wrongdoing."
+  },
+  {
+   "term": "Offerings",
+   "verse_label": "v. 8",
+   "text": "What is presented at the altar. The word turns up six times here, and the King James Bible two hundred and sixty-five. Verse 8 pairs it with tithes as the two things withheld."
+  },
+  {
+   "term": "Storehouse",
+   "verse_label": "v. 10",
+   "text": "A building where provisions are kept. One use here against two in the King James Bible. Verse 10 makes it the place the tithes go."
+  },
+  {
+   "term": "Devourer",
+   "verse_label": "v. 11",
+   "text": "Something that consumes. Its count is once, here, in this book, while the King James Bible once, at Malachi 3:11. Verse 11 has it rebuked for the sake of the fields."
+  },
+  {
+   "term": "Jewels",
+   "verse_label": "v. 17",
+   "text": "Precious stones, and by extension what is treasured. The record uses the word twice and the King James Bible twenty-five. Verse 17 says he will make up his jewels in that day."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "The words which the Father had given unto Malachi",
+   "verse_label": "v. 1",
+   "text": "The attribution set out before the quotation begins. The source is named twice in the same verse."
+  },
+  {
+   "term": "After they were written he expounded them",
+   "verse_label": "v. 1",
+   "text": "The order of operations. The writing comes first and the explanation follows."
+  },
+  {
+   "term": "He is like a refiner's fire, and like fuller's soap",
+   "verse_label": "v. 2",
+   "text": "Two images of cleaning, one by heat and one by washing. Verse 3 stays with the metal and drops the soap."
+  },
+  {
+   "term": "He shall sit as a refiner and purifier of silver",
+   "verse_label": "v. 3",
+   "text": "The refiner is seated. The image is of someone who stays at the work until it is done."
+  },
+  {
+   "term": "I will be a swift witness against the sorcerers",
+   "verse_label": "v. 5",
+   "text": "God as witness rather than only judge. The list names five offenses and ends with those who do not fear him."
+  },
+  {
+   "term": "Return unto me, and I will return unto you",
+   "verse_label": "v. 7",
+   "text": "The offer stated as a matched pair. Their reply in the same verse is a question about how to return."
+  },
+  {
+   "term": "Will a man rob God? Yet ye have robbed me",
+   "verse_label": "v. 8",
+   "text": "A question answered before it can be considered. Verse 8 names tithes and offerings as the theft."
+  },
+  {
+   "term": "Prove me now herewith, saith the Lord of Hosts",
+   "verse_label": "v. 10",
+   "text": "An invitation to test him. Verse 10 attaches a specific promise to the test."
+  },
+  {
+   "term": "Your words have been stout against me",
+   "verse_label": "v. 13",
+   "text": "The complaint characterized before it is quoted. Verse 14 gives the words themselves."
+  },
+  {
+   "term": "It is vain to serve God",
+   "verse_label": "v. 14",
+   "text": "The objection stated flatly. Verse 15 extends it: the proud are happy and those who tempt God are delivered."
+  },
+  {
+   "term": "A book of remembrance was written before him",
+   "verse_label": "v. 16",
+   "text": "A record kept of a conversation. The people who feared the Lord spoke to each other, and that is what is written down."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–18",
+   "start": 1,
+   "end": 18,
+   "title": "A light revision with one heavy exception",
+   "text": "Eight of this chapter's eighteen verses carry a real word change against the King James text, forty-four per cent, which places it twentieth among the twenty-four chapter-length quotations in the volume. Ten word-level edits produce that figure, and nine of them are single words. The tenth is the sixty-two word frame at the head of verse 1. Take that frame away and this is the most lightly handled prophetic chapter in the volume after 3 Nephi 25 and 2 Nephi 22."
+  },
+  {
+   "label": "v. 1",
+   "start": 1,
+   "end": 1,
+   "title": "Written first, expounded after",
+   "text": "Malachi 3:1 begins on \"Behold, I will send my messenger.\" Before that, this chapter supplies a scene: \"he commanded them that they should write the words which the Father had given unto Malachi... And it came to pass that after they were written he expounded them.\" Two things follow from it that the King James text cannot say. The words are dictated for the record before they are explained, so the writing is the point of the episode. And the attribution moves: what Malachi received came from the Father, and the formula is \"Thus said the Father unto Malachi.\" No other quoted block in the volume is introduced by an order to write it down."
+  },
+  {
+   "label": "v. 5",
+   "start": 5,
+   "end": 5,
+   "title": "A stranger with no rights named",
+   "text": "The King James list of five offences ends with those \"that turn aside the stranger from his right.\" Three words are deleted here and the offence is simply to \"turn aside the stranger.\" It is the only deletion in a list otherwise reproduced exactly, and it changes what the swift witness is testifying to. In Malachi the wrong is denying a stranger a legal claim he holds. Here it is turning him away."
+  },
+  {
+   "label": "v. 11",
+   "start": 11,
+   "end": 11,
+   "title": "The fields, plural",
+   "text": "One letter changes in the promise about the vine: the King James keeps the fruit from being cast \"before the time in the field\" and this reads \"in the fields.\" Nothing else in verses 10 through 12, the tithing passage that is the best known part of the chapter, is altered at all. The windows of heaven, the devourer, the delightsome land and the proving are all reproduced word for word."
+  },
+  {
+   "label": "v. 14",
+   "start": 14,
+   "end": 14,
+   "title": "Two changes in one complaint",
+   "text": "The people's grievance is rewritten twice over in a single verse. \"What profit is it that we have kept his ordinance\" becomes \"what doth it profit,\" turning a noun phrase into a working verb, and the singular ordinance becomes ordinances, matching the plural the King James itself uses seven verses earlier at verse 7. The verse is brought into agreement with its own chapter."
+  },
+  {
+   "label": "v. 16",
+   "start": 16,
+   "end": 16,
+   "title": "What the Lord heard",
+   "text": "The King James gives the hearing an object: \"and the Lord hearkened, and heard it.\" The pronoun is deleted here, leaving \"the Lord hearkened and heard.\" Nothing tells the reader what was heard, and the sentence runs straight on to the book of remembrance being written. It is the smallest edit in the chapter and it removes the one word that limited the hearing to the conversation just described."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The chapter explains why it exists",
+   "text": "Verse 1 says these are words the Father gave Malachi, delivered here because this people did not have them. The introduction is part of the verse."
+  },
+  {
+   "n": 2,
+   "title": "Writing precedes understanding",
+   "text": "Verse 1 puts the explaining after the writing. The record is secured before it is interpreted."
+  },
+  {
+   "n": 3,
+   "title": "The cleaning images are domestic and industrial",
+   "text": "Verse 2 puts fuller's soap beside a refiner's fire. Both are ordinary trades in the ancient world."
+  },
+  {
+   "n": 4,
+   "title": "The refiner sits down",
+   "text": "Verse 3 gives the posture. Purifying silver is described as patient work rather than a single act."
+  },
+  {
+   "n": 5,
+   "title": "Injustice and irreligion are listed together",
+   "text": "Verse 5 puts withheld wages and mistreated widows beside sorcery and false swearing. The offenses are not sorted into sacred and social."
+  },
+  {
+   "n": 6,
+   "title": "God asks to be tested",
+   "text": "Verse 10 invites the proof. The chapter makes an experiment part of the covenant."
+  },
+  {
+   "n": 7,
+   "title": "The complaints are quoted, not paraphrased",
+   "text": "Verses 7, 8, 13, and 14 give the objections in the objectors' own words. The argument runs by letting them speak."
+  },
+  {
+   "n": 8,
+   "title": "The last image is a conversation written down",
+   "text": "Verse 16 has people talking to each other and a book kept of it. What God preserves in this chapter is what the faithful said among themselves."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Write it before you explain it",
+    "verse_label": "v. 1",
+    "text": "The words were recorded and then expounded. Getting the text down protects it from your own commentary."
+   },
+   {
+    "title": "Expect the cleaning to take time",
+    "verse_label": "v. 3",
+    "text": "The refiner sits. Being purified is described here as a process someone stays with."
+   },
+   {
+    "title": "Pay what you owe people and what you owe God",
+    "verse_label": "v. 5, 8",
+    "text": "The chapter lists withheld wages beside withheld tithes. Both are named as theft."
+   },
+   {
+    "title": "Constancy is given as the reason anything survives",
+    "verse_label": "v. 6",
+    "text": "The verse ties \"I am the Lord, I change not\" directly to the sons of Jacob not being consumed. What has held things together is described as steadiness rather than leniency."
+   },
+   {
+    "title": "Expect the honest question back",
+    "verse_label": "v. 7",
+    "text": "After \"return unto me and I will return unto you\" the text keeps the reply: wherein shall we return? An answer is worth more when a real question is standing in front of it."
+   },
+   {
+    "title": "Take the test as offered",
+    "verse_label": "v. 10",
+    "text": "He asks to be proved in this one thing. An invitation to test a promise is worth accepting on its own terms."
+   },
+   {
+    "title": "Notice when the wicked look happy",
+    "verse_label": "v. 15",
+    "text": "Their complaint was that the proud are called happy and those who work wickedness are set up. The chapter does not deny the observation; it sets it in a longer frame."
+   },
+   {
+    "title": "Talk to each other about it",
+    "verse_label": "v. 16",
+    "text": "Those who feared the Lord spake often one to another, and a book of remembrance was written before him for them. The answer modeled here to a discouraging stretch is company and a written record."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What in me would not survive a refiner's fire?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "Whose wages or whose need have I turned aside?"
+   },
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "What would returning actually look like this week?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "What am I withholding and calling something else?"
+   },
+   {
+    "verse_label": "v. 10",
+    "start": 10,
+    "end": 10,
+    "text": "Have I ever tested a promise instead of debating it?"
+   },
+   {
+    "verse_label": "v. 14",
+    "start": 14,
+    "end": 14,
+    "text": "When have I said serving God was not worth it?"
+   },
+   {
+    "verse_label": "v. 16",
+    "start": 16,
+    "end": 16,
+    "text": "Who do I speak with often about him?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "3ne24-001",
+   "scope": "BOOK",
+   "head": "3 Ne. 26:2",
+   "anchor": {
+    "verse": 1,
+    "w1": 7,
+    "w2": 22,
+    "quote": "he commanded them that they should write the words which the Father had given unto Malachi"
+   },
+   "reason": "the reason given for handing over a text they lacked",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 26,
+     "verse": 2,
+     "w1": 4,
+     "w2": 20,
+     "quote": "These scriptures, which ye had not with you, the Father commanded that I should give unto you;",
+     "verse_text": "And he saith: These scriptures, which ye had not with you, the Father commanded that I should give unto you; for it was wisdom in him that they should be given unto future generations.",
+     "markdown": "And he saith: **These scriptures, which ye had not with you, the Father commanded that I should give unto you**; for it was wisdom in him that they should be given unto future generations.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne26-002"
+  },
+  {
+   "id": "3ne24-002",
+   "scope": "BOOK",
+   "head": "3 Ne. 9:20",
+   "anchor": {
+    "verse": 4,
+    "w1": 1,
+    "w2": 13,
+    "quote": "Then shall the offering of Judah and Jerusalem be pleasant unto the Lord"
+   },
+   "reason": "the offering he had already redefined for this people",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 9,
+     "verse": 20,
+     "w1": 2,
+     "w2": 16,
+     "quote": "ye shall offer for a sacrifice unto me a broken heart and a contrite spirit.",
+     "verse_text": "And ye shall offer for a sacrifice unto me a broken heart and a contrite spirit. And whoso cometh unto me with a broken heart and a contrite spirit, him will I baptize with fire and with the Holy Ghost, even as the Lamanites, because of their faith in me at the time of their conversion, were baptized with fire and with the Holy Ghost, and they knew it not.",
+     "markdown": "And **ye shall offer for a sacrifice unto me a broken heart and a contrite spirit**. And whoso cometh unto me with a broken heart and a contrite spirit, him will I baptize with fire and with the Holy Ghost, even as the Lamanites, because of their faith in me at the time of their conversion, were baptized with fire and with the Holy Ghost, and they knew it not.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne09-013"
+  },
+  {
+   "id": "3ne24-003",
+   "scope": "BOOK",
+   "head": "3 Ne. 15:24",
+   "anchor": {
+    "verse": 17,
+    "w1": 1,
+    "w2": 19,
+    "quote": "And they shall be mine, saith the Lord of Hosts, in that day when I make up my jewels"
+   },
+   "reason": "the same people described as already numbered to him",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 15,
+     "verse": 24,
+     "w1": 13,
+     "w2": 28,
+     "quote": "ye are my sheep, and ye are numbered among those whom the Father hath given me.",
+     "verse_text": "But behold, ye have both heard my voice, and seen me; and ye are my sheep, and ye are numbered among those whom the Father hath given me.",
+     "markdown": "But behold, ye have both heard my voice, and seen me; and **ye are my sheep, and ye are numbered among those whom the Father hath given me**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne15-015"
+  },
+  {
+   "id": "3ne24-004",
+   "scope": "BOM",
+   "head": "Alma 13:15",
+   "anchor": {
+    "verse": 8,
+    "w1": 19,
+    "w2": 22,
+    "quote": "In tithes and offerings"
+   },
+   "reason": "the record's one account of tithes actually paid",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 13,
+     "verse": 15,
+     "w1": 14,
+     "w2": 25,
+     "quote": "our father Abraham paid tithes of one-tenth part of all he possessed.",
+     "verse_text": "And it was this same Melchizedek to whom Abraham paid tithes; yea, even our father Abraham paid tithes of one-tenth part of all he possessed.",
+     "markdown": "And it was this same Melchizedek to whom Abraham paid tithes; yea, even **our father Abraham paid tithes of one-tenth part of all he possessed**.",
+     "span": true
+    }
+   ],
+   "mirror": "al13-014"
+  },
+  {
+   "id": "3ne24-005",
+   "scope": "BOM",
+   "head": "1 Ne. 10:8",
+   "anchor": {
+    "verse": 1,
+    "w1": 60,
+    "w2": 72,
+    "quote": "I will send my messenger, and he shall prepare the way before me"
+   },
+   "reason": "the forerunner Lehi had described",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 10,
+     "verse": 8,
+     "w1": 12,
+     "w2": 23,
+     "quote": "Prepare ye the way of the Lord, and make his paths straight;",
+     "verse_text": "Yea, even he should go forth and cry in the wilderness: Prepare ye the way of the Lord, and make his paths straight; for there standeth one among you whom ye know not; and he is mightier than I, whose shoe's latchet I am not worthy to unloose. And much spake my father concerning this thing.",
+     "markdown": "Yea, even he should go forth and cry in the wilderness: **Prepare ye the way of the Lord, and make his paths straight**; for there standeth one among you whom ye know not; and he is mightier than I, whose shoe's latchet I am not worthy to unloose. And much spake my father concerning this thing.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne10-021"
+  },
+  {
+   "id": "3ne24-006",
+   "scope": "BOM",
+   "head": "Alma 34:28",
+   "anchor": {
+    "verse": 5,
+    "w1": 30,
+    "w2": 42,
+    "quote": "those that oppress the hireling in his wages, the widow and the fatherless"
+   },
+   "reason": "the same neglect named as the thing that empties prayer",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 34,
+     "verse": 28,
+     "w1": 26,
+     "w2": 41,
+     "quote": "if ye turn away the needy, and the naked, and visit not the sick and afflicted,",
+     "verse_text": "And now behold, my beloved brethren, I say unto you, do not suppose that this is all; for after ye have done all these things, if ye turn away the needy, and the naked, and visit not the sick and afflicted, and impart of your substance, if ye have, to those who stand in need—I say unto you, if ye do not any of these things, behold, your prayer is vain, and availeth you nothing, and ye are as hypocrites who do deny the faith.",
+     "markdown": "And now behold, my beloved brethren, I say unto you, do not suppose that this is all; for after ye have done all these things, **if ye turn away the needy, and the naked, and visit not the sick and afflicted**, and impart of your substance, if ye have, to those who stand in need—I say unto you, if ye do not any of these things, behold, your prayer is vain, and availeth you nothing, and ye are as hypocrites who do deny the faith.",
+     "span": true
+    }
+   ],
+   "mirror": "al34-015"
+  },
+  {
+   "id": "3ne24-007",
+   "scope": "SW",
+   "head": "Mal. 3:5",
+   "anchor": {
+    "verse": 5,
+    "w1": 43,
+    "w2": 52,
+    "quote": "and that turn aside the stranger, and fear not me"
+   },
+   "reason": "two words dropped from the Malachi line",
+   "targets": [
+    {
+     "ref": "Mal.",
+     "chapter": 3,
+     "verse": 5,
+     "w1": 44,
+     "w2": 55,
+     "quote": "that turn aside the stranger from his right, and fear not me,",
+     "verse_text": "And I will come near to you to judgment; and I will be a swift witness against the sorcerers, and against the adulterers, and against false swearers, and against those that oppress the hireling in his wages, the widow, and the fatherless, and that turn aside the stranger from his right, and fear not me, saith the LORD of hosts.",
+     "markdown": "And I will come near to you to judgment; and I will be a swift witness against the sorcerers, and against the adulterers, and against false swearers, and against those that oppress the hireling in his wages, the widow, and the fatherless, and **that turn aside the stranger from his right, and fear not me**, saith the LORD of hosts.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne24-008",
+   "scope": "SW",
+   "head": "Mal. 3:13",
+   "anchor": {
+    "verse": 13,
+    "w1": 11,
+    "w2": 19,
+    "quote": "Yet ye say: What have we spoken against thee"
+   },
+   "reason": "the objection with \"so much\" removed",
+   "targets": [
+    {
+     "ref": "Mal.",
+     "chapter": 3,
+     "verse": 13,
+     "w1": 11,
+     "w2": 21,
+     "quote": "Yet ye say, What have we spoken so much against thee?",
+     "verse_text": "Your words have been stout against me, saith the LORD. Yet ye say, What have we spoken so much against thee?",
+     "markdown": "Your words have been stout against me, saith the LORD. **Yet ye say, What have we spoken so much against thee**?",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne24-009",
+   "scope": "SW",
+   "head": "Mal. 3:14",
+   "anchor": {
+    "verse": 14,
+    "w1": 11,
+    "w2": 20,
+    "quote": "what doth it profit that we have kept his ordinances"
+   },
+   "reason": "a single ordinance in Malachi, plural here",
+   "targets": [
+    {
+     "ref": "Mal.",
+     "chapter": 3,
+     "verse": 14,
+     "w1": 11,
+     "w2": 20,
+     "quote": "what profit is it that we have kept his ordinance,",
+     "verse_text": "Ye have said, It is vain to serve God: and what profit is it that we have kept his ordinance, and that we have walked mournfully before the LORD of hosts?",
+     "markdown": "Ye have said, It is vain to serve God: and **what profit is it that we have kept his ordinance**, and that we have walked mournfully before the LORD of hosts?",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne24-010",
+   "scope": "SW",
+   "head": "Mal. 3:16",
+   "anchor": {
+    "verse": 16,
+    "w1": 12,
+    "w2": 17,
+    "quote": "and the Lord hearkened and heard"
+   },
+   "reason": "the object dropped from the hearing",
+   "targets": [
+    {
+     "ref": "Mal.",
+     "chapter": 3,
+     "verse": 16,
+     "w1": 12,
+     "w2": 18,
+     "quote": "and the LORD hearkened, and heard it,",
+     "verse_text": "Then they that feared the LORD spake often one to another: and the LORD hearkened, and heard it, and a book of remembrance was written before him for them that feared the LORD, and that thought upon his name.",
+     "markdown": "Then they that feared the LORD spake often one to another: **and the LORD hearkened, and heard it**, and a book of remembrance was written before him for them that feared the LORD, and that thought upon his name.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 7,
+   "w2": 22,
+   "quote": "he commanded them that they should write the words which the Father had given unto Malachi",
+   "entries": [
+    "3ne24-001"
+   ]
+  },
+  {
+   "verse": 1,
+   "w1": 60,
+   "w2": 72,
+   "quote": "I will send my messenger, and he shall prepare the way before me",
+   "entries": [
+    "3ne24-005"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 1,
+   "w2": 13,
+   "quote": "Then shall the offering of Judah and Jerusalem be pleasant unto the Lord",
+   "entries": [
+    "3ne24-002"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 30,
+   "w2": 42,
+   "quote": "those that oppress the hireling in his wages, the widow and the fatherless",
+   "entries": [
+    "3ne24-006"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 43,
+   "w2": 52,
+   "quote": "and that turn aside the stranger, and fear not me",
+   "entries": [
+    "3ne24-007"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 19,
+   "w2": 22,
+   "quote": "In tithes and offerings",
+   "entries": [
+    "3ne24-004"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 11,
+   "w2": 19,
+   "quote": "Yet ye say: What have we spoken against thee",
+   "entries": [
+    "3ne24-008"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 11,
+   "w2": 20,
+   "quote": "what doth it profit that we have kept his ordinances",
+   "entries": [
+    "3ne24-009"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 12,
+   "w2": 17,
+   "quote": "and the Lord hearkened and heard",
+   "entries": [
+    "3ne24-010"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 1,
+   "w2": 19,
+   "quote": "And they shall be mine, saith the Lord of Hosts, in that day when I make up my jewels",
+   "entries": [
+    "3ne24-003"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "d55518b5731e8177"
+ }
+}

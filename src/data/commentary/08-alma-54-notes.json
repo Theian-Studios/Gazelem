@@ -15,9 +15,10 @@
   "unit": "The war chapters (Alma 43–63)",
   "principles": [
    "A negotiation opened by the losing side",
-   "Two accounts of the same"
+   "Two accounts of the same history",
+   "Terms that cost the other side more than they gain"
   ],
-  "connections": 9,
+  "connections": 10,
   "initial": true
  },
  "world_behind": [
@@ -34,17 +35,53 @@
   {
    "n": 3,
    "title": "The prisoner populations are not alike",
-   "text": "Verse 3 says the Lamanites hold women and children and Moroni holds none. That asymmetry produces the terms in verse 11."
+   "text": "Verse 3 says the Lamanites hold women and children and Moroni holds none. That asymmetry produces the terms in verse 11, and Alma 55:16 and 17 shows what it cost: Nephite women and children behind a wall, armed in silence to get themselves out.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 55:16",
+     "start": 125,
+     "end": 135,
+     "book": "Alma",
+     "chapter": 55,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
   },
   {
    "n": 4,
    "title": "Moroni calls it a stratagem",
-   "text": "Verse 3 uses the word of his own letter. He is bargaining from a position he has thought about, not writing in temper alone."
+   "text": "Verse 3 calls his own letter a stratagem. The word appears seven times in the volume and every one of them falls inside this war: Alma 43:30, 52:10, 54:3, 56:30, 58:6, 58:28 and 62:35. It is the vocabulary of a single campaign and of no other.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 43:30",
+     "start": 130,
+     "end": 140,
+     "book": "Alma",
+     "chapter": 43,
+     "verse_start": 30,
+     "verse_end": 30
+    }
+   ]
   },
   {
    "n": 5,
    "title": "Ammoron gives a rival version of Nephite history",
-   "text": "Verses 17 and 18 say the fathers wronged their brethren and robbed them of the government, and offer peace if the Nephites submit to the rightful rulers."
+   "text": "Verses 17 and 18 say the fathers wronged their brethren and robbed them of the government. Mosiah 10:12 to 17 gives the same grievance in full, as the tradition Lamanite children are taught, four hundred years of standing complaint compressed into one sentence of a war letter.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 10:12",
+     "start": 91,
+     "end": 103,
+     "book": "Mosiah",
+     "chapter": 10,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
   },
   {
    "n": 6,
@@ -71,7 +108,7 @@
   {
    "term": "Avenge",
    "verse_label": "v. 16",
-   "text": "To exact retribution. The record uses it eight times and the King James Bible seventeen. Ammoron uses it twice, of his brother's blood and of his people's wrongs, and it is the stated ground of his whole war."
+   "text": "To exact retribution. It appears eight times in the record, and the King James Bible seventeen. Ammoron uses it twice, of his brother's blood and of his people's wrongs, and it is the stated ground of his whole war."
   },
   {
    "term": "Threatenings",
@@ -160,46 +197,18 @@
  ],
  "verses": [
   {
-   "label": "v. 1–4",
-   "start": 1,
-   "end": 4,
-   "title": "The proposal",
-   "text": "Ammoron asks for an exchange. Moroni rejoices, wanting the provisions and his own men back. Because the Lamanites hold women and children and he holds none, he resolves on a stratagem and writes back by Ammoron's own messenger."
-  },
-  {
-   "label": "v. 5–10",
+   "label": "v. 5–7",
    "start": 5,
-   "end": 10,
-   "title": "Moroni's argument",
-   "text": "He fixes the war on Amalickiah and on Ammoron for continuing it, speaks of God's justice and of hell awaiting murderers, says the Nephites are prepared, and warns that refusing to withdraw will pull down destruction. They will keep their cities, lands, religion, and cause."
+   "end": 7,
+   "title": "A refusal to speak, used three times to speak",
+   "text": "The letter says what it will not say: \"I would tell you somewhat concerning the justice of God,\" then \"I would tell you these things if ye were capable of hearkening unto them,\" then \"I would tell you concerning that awful hell.\" Three conditional openings in two verses, each delivering the content it claims to withhold. The record preserves the device intact by giving the letter whole instead of summarizing its argument, so the reader gets the doctrine and the insult in the same clause."
   },
   {
-   "label": "v. 11–14",
-   "start": 11,
-   "end": 14,
-   "title": "The terms",
-   "text": "He says the argument is wasted and calls Ammoron a child of hell, then offers the exchange on one condition: a man, his wife, and his children for each prisoner. If refused, he will arm women and children and pursue them to the land of their first inheritance, blood for blood. He signs his name and office."
-  },
-  {
-   "label": "v. 15–19",
-   "start": 15,
-   "end": 19,
-   "title": "Ammoron's reply",
-   "text": "Angry, he identifies himself as king and as Amalickiah's brother, promises to avenge his blood, and says he does not fear the threatenings. He gives the Lamanite case: the fathers were robbed of the government, and peace is available on submission."
-  },
-  {
-   "label": "v. 20–22",
-   "start": 20,
-   "end": 22,
-   "title": "The acceptance",
-   "text": "He grants the exchange gladly, to save food for his men of war, and declares an eternal war ending in Nephite submission or extinction. On God he says they know of no such being, that Moroni does not either, and that if there is one he may have made both."
-  },
-  {
-   "label": "v. 23–24",
-   "start": 23,
-   "end": 24,
-   "title": "The signature",
-   "text": "He names himself a descendant of Zoram, whom the Nephite fathers pressed out of Jerusalem, calls himself a bold Lamanite, states that the war is to avenge wrongs and obtain the government, and closes."
+   "label": "v. 14–16",
+   "start": 14,
+   "end": 16,
+   "title": "Two letters, three signatures, one convention",
+   "text": "The record preserves the sign-off of each writer, and they match in form: \"I am Moroni; I am a leader of the people of the Nephites,\" and \"I am Ammoron, the king of the Lamanites; I am the brother of Amalickiah.\" Ammoron then signs a second time at verse 23, \"I am Ammoron, and a descendant of Zoram.\" Name, then office or lineage, in every case. Moroni claims a function and Ammoron claims a title and a bloodline, and the record lets the difference stand without comment."
   }
  ],
  "chapter": [
@@ -226,7 +235,7 @@
   {
    "n": 5,
    "title": "Ammoron's theology is agnostic rather than atheist",
-   "text": "He says they know of no such being, that Moroni does not either, and that if one exists he made both peoples. Then he says it does not matter."
+   "text": "God is unknown to his people, unknown to Moroni as well, and if real then the maker of both peoples. Then he says it does not matter."
   },
   {
    "n": 6,
@@ -241,7 +250,7 @@
   {
    "n": 8,
    "title": "Each signs with an identity claim",
-   "text": "I am Moroni, a leader of the Nephites. I am Ammoron, king of the Lamanites, a descendant of Zoram. The letters end where the argument between them begins."
+   "text": "Three signatures stand in the chapter and all three follow one form, name then standing. Verse 14: \"I am Moroni; I am a leader of the people of the Nephites.\" Verse 16: \"I am Ammoron, the king of the Lamanites; I am the brother of Amalickiah.\" Verse 23: \"I am Ammoron, and a descendant of Zoram, whom your fathers pressed and brought out of Jerusalem.\" One man claims a function, the other a title and two lineages, and the second lineage is the grievance verses 17 and 18 are arguing."
   }
  ],
  "world_in_front": {
@@ -262,9 +271,29 @@
     "text": "Moroni said outright he thought the argument wasted. When you are dealing with someone who will not be moved by reasons, make the offer clear and stop trying."
    },
    {
+    "title": "Say that you are angry instead of hiding it",
+    "verse_label": "v. 13",
+    "text": "Moroni put \"Behold, I am in my anger\" into the letter in his own words. Naming your state in a hard exchange is more honest than letting it leak through the wording while you present yourself as calm."
+   },
+   {
     "title": "Read the other side's account of the history",
     "verse_label": "v. 17",
     "text": "Ammoron had a story in which he was the wronged party. Understanding what your opponent believes happened is not the same as agreeing with it."
+   },
+   {
+    "title": "Read the reason attached to the yes",
+    "verse_label": "v. 20",
+    "text": "Ammoron granted the exchange so that he could preserve his food for his men of war, and he wrote the reason down. When someone agrees to something, the motive they give tells you how long the agreement will hold."
+   },
+   {
+    "title": "Watch for the shrug that closes the subject",
+    "verse_label": "v. 22",
+    "text": "Ammoron raised the devil and hell himself and then wrote \"these things matter not\". Someone who will not let a question count against him has stopped arguing with you and started handling you."
+   },
+   {
+    "title": "Notice which ancestry gets claimed",
+    "verse_label": "v. 23–24",
+    "text": "Ammoron traced himself to Zoram and then called himself a bold Lamanite. People select the lineage that licenses what they already mean to do, so listen for which one gets named and at what point in the argument."
    }
   ],
   "questions": [
@@ -323,7 +352,7 @@
     "w2": 29,
     "quote": "desiring that he would exchange prisoners"
    },
-   "reason": "the order that made an exchange possible, given a year before",
+   "reason": "the order that made an exchange possible, a year earlier",
    "targets": [
     {
      "ref": "Alma",
@@ -389,7 +418,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al11-017"
   },
   {
    "id": "al54-004",
@@ -415,7 +444,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al35-010"
   },
   {
    "id": "al54-005",
@@ -427,7 +456,7 @@
     "w2": 12,
     "quote": "a descendant of Zoram, whom your fathers pressed"
    },
-   "reason": "Zoram’s own account of the night, and the oath he swore freely",
+   "reason": "Zoram's own account, and the oath he swore freely",
    "targets": [
     {
      "ref": "1 Ne.",
@@ -441,7 +470,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "1ne04-016"
   },
   {
    "id": "al54-006",
@@ -467,7 +496,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos10-009"
+  },
+  {
+   "id": "al54-010",
+   "scope": "BOM",
+   "head": "Morm. 3:9",
+   "anchor": {
+    "verse": 16,
+    "w1": 20,
+    "w2": 26,
+    "quote": "I will avenge his blood upon you,"
+   },
+   "reason": "the same vow, sworn by a later people",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 3,
+     "verse": 9,
+     "w1": 31,
+     "w2": 44,
+     "quote": "they would avenge themselves of the blood of their brethren who had been slain",
+     "verse_text": "And now, because of this great thing which my people, the Nephites, had done, they began to boast in their own strength, and began to swear before the heavens that they would avenge themselves of the blood of their brethren who had been slain by their enemies.",
+     "markdown": "And now, because of this great thing which my people, the Nephites, had done, they began to boast in their own strength, and began to swear before the heavens that **they would avenge themselves of the blood of their brethren who had been slain** by their enemies.",
+     "span": true
+    }
+   ],
+   "mirror": "morm03-005"
   },
   {
    "id": "al54-007",
@@ -590,8 +645,9 @@
    "verse": 16,
    "w1": 20,
    "w2": 26,
-   "quote": "I will avenge his blood upon you",
+   "quote": "I will avenge his blood upon you,",
    "entries": [
+    "al54-010",
     "al54-008"
    ]
   },
@@ -624,7 +680,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "ebd93c64b6ede4f3"
+  "at": "2026-09-07",
+  "source_sha256": "2963f1e93bc2d312"
  }
 }

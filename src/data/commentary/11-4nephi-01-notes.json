@@ -1,0 +1,796 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "4 Nephi",
+  "book_slug": "4nephi",
+  "chapter": 1,
+  "volume_order": "11",
+  "speakers": [
+   "Mormon"
+  ],
+  "audience": "The reader",
+  "location": "The whole land, Nephite and Lamanite",
+  "date": "AD 34 to AD 320",
+  "unit": "The book of 4 Nephi",
+  "principles": [
+   "A society described by what it did not have",
+   "Four record keepers across three centuries",
+   "A decline traced to one year and one cause"
+  ],
+  "connections": 12,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The whole book is one chapter",
+   "text": "Forty-nine verses carry the years from thirty-four to three hundred and twenty, about six years to the verse. Alma spends 1,975 verses on roughly forty years; only Omni, which crosses more than two centuries in thirty verses, moves faster than this."
+  },
+  {
+   "n": 2,
+   "title": "Conversion is total by the thirty-sixth year",
+   "text": "Verse 2 says the people were all converted, both Nephites and Lamanites."
+  },
+  {
+   "n": 3,
+   "title": "The years are counted in blocks",
+   "text": "Verse 6 runs from the thirty-eighth year to the fifty-ninth in a single sentence."
+  },
+  {
+   "n": 4,
+   "title": "The law of Moses is left behind",
+   "text": "Verse 12 says they no longer walked after its performances and ordinances."
+  },
+  {
+   "n": 5,
+   "title": "The record passes through four hands",
+   "text": "Nephi, Amos, a second Amos, and Ammaron, named in verses 19, 21, and 47."
+  },
+  {
+   "n": 6,
+   "title": "The turn has a date",
+   "text": "Verse 24 places the start of pride in the two hundred and first year."
+  },
+  {
+   "n": 7,
+   "title": "The book ends with a burial",
+   "text": "Verses 48 and 49 have Ammaron hide the records so they can come to the remnant later."
+  }
+ ],
+ "words": [
+  {
+   "term": "Performances",
+   "verse_label": "v. 12",
+   "text": "Required observances. Treated at 2 Nephi 25:30. The record uses the word six times and the King James Bible not at all."
+  },
+  {
+   "term": "Paradise",
+   "verse_label": "v. 14",
+   "text": "The place of the righteous dead before the resurrection. Treated at Alma 40:12. It appears five times in the record, and the King James Bible three.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 40:12",
+     "start": 68,
+     "end": 78,
+     "book": "Alma",
+     "chapter": 40,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
+  },
+  {
+   "term": "Tumults",
+   "verse_label": "v. 16",
+   "text": "Uproars, public disturbances. The record uses the word once, here, and the King James Bible three times. Verse 16 lists it among seven things absent."
+  },
+  {
+   "term": "Heirs",
+   "verse_label": "v. 17",
+   "text": "Those who inherit. The word turns up twice, here and again at Mosiah 15:11, here, and the King James Bible twelve times. Verse 17 makes them heirs to the kingdom of God.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 15:11",
+     "start": 62,
+     "end": 74,
+     "book": "Mosiah",
+     "chapter": 15,
+     "verse_start": 11,
+     "verse_end": 11
+    }
+   ]
+  },
+  {
+   "term": "Revolted",
+   "verse_label": "v. 20",
+   "text": "Broke away, rebelled. One use here against seven in the King James Bible. Verse 20 uses it of the first people to take the name of Lamanites again."
+  },
+  {
+   "term": "Adorn",
+   "verse_label": "v. 41",
+   "text": "To decorate. Its count is twice, here and at Mormon 8:39, in this book, while the King James Bible twice. Verse 41 has them adorning their churches with precious things."
+  },
+  {
+   "term": "Traffic",
+   "verse_label": "v. 46",
+   "text": "Trade, the moving of goods for gain. The record uses the word three times, while the King James Bible has none. Verse 46 pairs it with gold and silver laid up in store."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "The people were all converted unto the Lord",
+   "verse_label": "v. 2",
+   "text": "The high point stated in a lone clause. Verse 2 names both Nephites and Lamanites."
+  },
+  {
+   "term": "There were not rich and poor, bond and free",
+   "verse_label": "v. 3",
+   "text": "Three divisions named as absent. Alma 4:12 had made inequality the diagnosis of a failing church.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 4:12",
+     "start": 33,
+     "end": 42,
+     "book": "Alma",
+     "chapter": 4,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
+  },
+  {
+   "term": "In nothing did they work miracles save it were in the name of Jesus",
+   "verse_label": "v. 5",
+   "text": "A limit on the miracles rather than a count of them. The name is the only instrument named."
+  },
+  {
+   "term": "They did build cities again where there had been cities burned",
+   "verse_label": "v. 7",
+   "text": "Recovery described in construction. Verse 9 says the sunken cities could not be renewed."
+  },
+  {
+   "term": "They did not walk any more after the performances and ordinances of the law of Moses",
+   "verse_label": "v. 12",
+   "text": "The change 3 Nephi 15:4 had announced, now in practice. Verse 12 lists what they did instead."
+  },
+  {
+   "term": "Because of the love of God which did dwell in the hearts of the people",
+   "verse_label": "v. 15",
+   "text": "The reason given for the absence of contention. The cause is internal and is named only once."
+  },
+  {
+   "term": "Neither were there Lamanites, nor any manner of -ites",
+   "verse_label": "v. 17",
+   "text": "The end of every lineage name. The record coins a word to say it."
+  },
+  {
+   "term": "In this two hundred and first year there began to be among them those who were lifted up in pride",
+   "verse_label": "v. 24",
+   "text": "The turn, with a date on it. Verse 25 gives the first consequence."
+  },
+  {
+   "term": "They began to build up churches unto themselves to get gain",
+   "verse_label": "v. 26",
+   "text": "The motive stated plainly. Verse 27 says some of these professed to know Christ."
+  },
+  {
+   "term": "The people of Jesus did not smite again",
+   "verse_label": "v. 34",
+   "text": "One clause on how the believers behaved under attack. It is stated and not explained."
+  },
+  {
+   "term": "He did hide them up unto the Lord, that they might come again unto the remnant",
+   "verse_label": "v. 49",
+   "text": "The purpose of the burial. The last sentence of the book is about a future reader."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–6",
+   "start": 1,
+   "end": 6,
+   "title": "Decades disposed of in a single formula",
+   "text": "The record covers its first fifty years by listing them: \"the thirty and fourth year passed away, and also the thirty and fifth\"; and then, at verse 6, \"thus did the thirty and eighth year pass away, and also the thirty and ninth, and forty and first, and the forty and second, yea, even until forty and nine years had passed away.\" Forty-nine verses cover three hundred and twenty years, and the compression is done by naming years in series rather than by summarising events. The chapter's whole method is visible in its first six verses."
+  },
+  {
+   "label": "v. 3",
+   "start": 3,
+   "end": 3,
+   "title": "An economic arrangement, stated as a consequence",
+   "text": "The record describes the society by what follows from one practice: \"they had all things common among them; therefore there were not rich and poor, bond and free, but they were all made free, and partakers of the heavenly gift.\" The therefore is the argument. Acts 2:44 uses the same phrase for the Jerusalem church, \"all that believed were together, and had all things common,\" and Acts 4:32 adds the same result. The record does not cite either.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Acts 2:44",
+     "start": 260,
+     "end": 269,
+     "book": "Acts",
+     "chapter": 2,
+     "verse_start": 44,
+     "verse_end": 44
+    },
+    {
+     "kind": "scripture",
+     "text": "Acts 4:32",
+     "start": 383,
+     "end": 392,
+     "book": "Acts",
+     "chapter": 4,
+     "verse_start": 32,
+     "verse_end": 32
+    }
+   ]
+  },
+  {
+   "label": "v. 16–17",
+   "start": 16,
+   "end": 17,
+   "title": "A society described entirely by what is absent",
+   "text": "Two verses list eleven things that do not exist: \"there were no envyings, nor strifes, nor tumults, nor whoredoms, nor lyings, nor murders, nor any manner of lasciviousness\"; \"There were no robbers, nor murderers, neither were there Lamanites, nor any manner of -ites.\" The last item is a word the record invents to cover a category, and -ites with its hyphen occurs in this verse and nowhere else in scripture. The positive statement comes only at the end, \"they were in one, the children of Christ.\""
+  },
+  {
+   "label": "v. 24–26",
+   "start": 24,
+   "end": 26,
+   "title": "The decline traced through three specific steps",
+   "text": "The record does not report a general falling away. It gives a sequence with a cause at each stage: \"there began to be among them those who were lifted up in pride, such as the wearing of costly apparel, and all manner of fine pearls\"; then the economic change, \"they did have their goods and their substance no more common among them\"; then the social one, \"they began to be divided into classes; and they began to build up churches unto themselves to get gain.\" Clothing, property, class, institution, in that order."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The happiest society is described by subtraction",
+   "text": "Verses 16 and 17 list seven vices and every lineage name as absent. The account says what was gone rather than what was built."
+  },
+  {
+   "n": 2,
+   "title": "One cause is named for the peace",
+   "text": "Verse 15 gives the love of God in their hearts. The chapter offers no political explanation."
+  },
+  {
+   "n": 3,
+   "title": "Sharing goods comes first and breaks first",
+   "text": "Verse 3 has all things common and verse 25 has that end. The economic fact brackets the good years."
+  },
+  {
+   "n": 4,
+   "title": "Pride arrives as clothing",
+   "text": "Verse 24 names costly apparel and fine pearls. The first symptom is what people wore."
+  },
+  {
+   "n": 5,
+   "title": "The decline is dated precisely",
+   "text": "Verse 24 gives the two hundred and first year. Two centuries of peace end in a specific twelve months."
+  },
+  {
+   "n": 6,
+   "title": "Churches multiply as the gospel thins",
+   "text": "Verses 26 and 27 have many churches, some professing Christ while denying most of his gospel. Growth and faithfulness move opposite ways."
+  },
+  {
+   "n": 7,
+   "title": "The old names come back",
+   "text": "Verses 36 through 38 restore the seven lineage names Jacob 1:13 had used. What verse 17 had erased is written again.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 1:13",
+     "start": 53,
+     "end": 63,
+     "book": "Jacob",
+     "chapter": 1,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "title": "The book ends by hiding the book",
+   "text": "Verses 48 and 49 have Ammaron bury the records for a later people. The last act is preservation rather than narration."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Some things do not get rebuilt",
+    "verse_label": "v. 9",
+    "text": "Zarahemla was raised again, and the cities that had sunk with waters over them could not be renewed. An honest account of a recovery names what was permanently lost beside what came back."
+   },
+   {
+    "title": "Name the cause of the peace",
+    "verse_label": "v. 15",
+    "text": "The verse gives a reason for the absence of contention: the love of God dwelling in the hearts of the people. Peace with a stated cause can be maintained, and peace with no explanation can only be enjoyed until it leaves."
+   },
+   {
+    "title": "Notice what a good stretch does not contain",
+    "verse_label": "v. 16",
+    "text": "The list is of absences. When things are going well it is worth naming what is missing rather than only what is present."
+   },
+   {
+    "title": "Check what your clothes are doing",
+    "verse_label": "v. 24",
+    "text": "Pride entered as costly apparel. The chapter treats a wardrobe as a leading indicator."
+   },
+   {
+    "title": "Watch the goods before the doctrine",
+    "verse_label": "v. 25",
+    "text": "Holding things in common ended before the churches divided. The economic change came first in the account."
+   },
+   {
+    "title": "Ask what an organization is funded by",
+    "verse_label": "v. 26",
+    "text": "They began to build up churches unto themselves to get gain, and the same verse reports the dividing into classes. What a thing lives on shapes what it can afford to say."
+   },
+   {
+    "title": "They did not smite again",
+    "verse_label": "v. 34",
+    "text": "The people of Jesus were struck, and the record stops to say they did not strike back. In a chapter tracking a long slide, it still finds room for what they refused to do."
+   },
+   {
+    "title": "Bury something for a reader you will never meet",
+    "verse_label": "v. 49",
+    "text": "Ammaron hid the records for a remnant centuries out. Some work is only collected by strangers."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What would it take for everyone I know to be at peace?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What do I hold that is not really mine alone?"
+   },
+   {
+    "verse_label": "v. 15",
+    "start": 15,
+    "end": 15,
+    "text": "Is the love of God what is keeping me from contention?"
+   },
+   {
+    "verse_label": "v. 17",
+    "start": 17,
+    "end": 17,
+    "text": "What label do I still carry that divides me from someone?"
+   },
+   {
+    "verse_label": "v. 24",
+    "start": 24,
+    "end": 24,
+    "text": "What did I buy recently, and why?"
+   },
+   {
+    "verse_label": "v. 26",
+    "start": 26,
+    "end": 26,
+    "text": "What have I built up that is quietly for gain?"
+   },
+   {
+    "verse_label": "v. 34",
+    "start": 34,
+    "end": 34,
+    "text": "When was I struck and did not strike back?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "4ne01-001",
+   "scope": "BOM",
+   "head": "Jacob 1:13",
+   "anchor": {
+    "verse": 37,
+    "w1": 24,
+    "w2": 32,
+    "quote": "were called Nephites, and Jacobites, and Josephites, and Zoramites"
+   },
+   "reason": "the lineage names returning after two centuries without them",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 1,
+     "verse": 13,
+     "w1": 14,
+     "w2": 21,
+     "quote": "Nephites, Jacobites, Josephites, Zoramites, Lamanites, Lemuelites, and Ishmaelites.",
+     "verse_text": "Now the people which were not Lamanites were Nephites; nevertheless, they were called Nephites, Jacobites, Josephites, Zoramites, Lamanites, Lemuelites, and Ishmaelites.",
+     "markdown": "Now the people which were not Lamanites were Nephites; nevertheless, they were called **Nephites, Jacobites, Josephites, Zoramites, Lamanites, Lemuelites, and Ishmaelites**.",
+     "span": true
+    }
+   ],
+   "mirror": "jac01-010"
+  },
+  {
+   "id": "4ne01-002",
+   "scope": "BOM",
+   "head": "Alma 4:12",
+   "anchor": {
+    "verse": 3,
+    "w1": 10,
+    "w2": 24,
+    "quote": "there were not rich and poor, bond and free, but they were all made free"
+   },
+   "reason": "the inequality that had marked a failing church, absent here",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 4,
+     "verse": 12,
+     "w1": 2,
+     "w2": 8,
+     "quote": "he saw great inequality among the people,",
+     "verse_text": "Yea, he saw great inequality among the people, some lifting themselves up with their pride, despising others, turning their backs upon the needy and the naked and those who were hungry, and those who were athirst, and those who were sick and afflicted.",
+     "markdown": "Yea, **he saw great inequality among the people**, some lifting themselves up with their pride, despising others, turning their backs upon the needy and the naked and those who were hungry, and those who were athirst, and those who were sick and afflicted.",
+     "span": true
+    }
+   ],
+   "mirror": "al04-012"
+  },
+  {
+   "id": "4ne01-003",
+   "scope": "BOM",
+   "head": "3 Ne. 6:12",
+   "anchor": {
+    "verse": 3,
+    "w1": 10,
+    "w2": 24,
+    "quote": "there were not rich and poor, bond and free, but they were all made free"
+   },
+   "reason": "the ranks and distinctions of the generation before",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 6,
+     "verse": 12,
+     "w1": 2,
+     "w2": 18,
+     "quote": "the people began to be distinguished by ranks, according to their riches and their chances for learning;",
+     "verse_text": "And the people began to be distinguished by ranks, according to their riches and their chances for learning; yea, some were ignorant because of their poverty, and others did receive great learning because of their riches.",
+     "markdown": "And **the people began to be distinguished by ranks, according to their riches and their chances for learning**; yea, some were ignorant because of their poverty, and others did receive great learning because of their riches.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne06-007"
+  },
+  {
+   "id": "4ne01-004",
+   "scope": "BOM",
+   "head": "3 Ne. 2:16",
+   "anchor": {
+    "verse": 17,
+    "w1": 7,
+    "w2": 15,
+    "quote": "neither were there Lamanites, nor any manner of -ites"
+   },
+   "reason": "the naming that had gone on until this generation",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 2,
+     "verse": 16,
+     "w1": 19,
+     "w2": 21,
+     "quote": "were called Nephites.",
+     "verse_text": "And their young men and their daughters became exceedingly fair, and they were numbered among the Nephites, and were called Nephites. And thus ended the thirteenth year.",
+     "markdown": "And their young men and their daughters became exceedingly fair, and they were numbered among the Nephites, and **were called Nephites**. And thus ended the thirteenth year.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne02-007"
+  },
+  {
+   "id": "4ne01-005",
+   "scope": "BOM",
+   "head": "3 Ne. 11:29",
+   "anchor": {
+    "verse": 2,
+    "w1": 32,
+    "w2": 39,
+    "quote": "there were no contentions and disputations among them"
+   },
+   "reason": "the generation that had none, and what it was like",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 11,
+     "verse": 29,
+     "w1": 8,
+     "w2": 18,
+     "quote": "he that hath the spirit of contention is not of me,",
+     "verse_text": "For verily, verily I say unto you, he that hath the spirit of contention is not of me, but is of the devil, who is the father of contention, and he stirreth up the hearts of men to contend with anger, one with another.",
+     "markdown": "For verily, verily I say unto you, **he that hath the spirit of contention is not of me**, but is of the devil, who is the father of contention, and he stirreth up the hearts of men to contend with anger, one with another.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne11-008"
+  },
+  {
+   "id": "4ne01-006",
+   "scope": "BOM",
+   "head": "3 Ne. 26:19",
+   "anchor": {
+    "verse": 3,
+    "w1": 1,
+    "w2": 8,
+    "quote": "And they had all things common among them"
+   },
+   "reason": "the arrangement the first church had kept",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 26,
+     "verse": 19,
+     "w1": 10,
+     "w2": 17,
+     "quote": "and they had all things common among them,",
+     "verse_text": "And they taught, and did minister one to another; and they had all things common among them, every man dealing justly, one with another.",
+     "markdown": "And they taught, and did minister one to another; **and they had all things common among them**, every man dealing justly, one with another.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne26-008"
+  },
+  {
+   "id": "4ne01-007",
+   "scope": "BOM",
+   "head": "3 Ne. 28:12",
+   "anchor": {
+    "verse": 14,
+    "w1": 59,
+    "w2": 66,
+    "quote": "save it were the three who should tarry"
+   },
+   "reason": "the three still on the land a century later",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 28,
+     "verse": 12,
+     "w1": 13,
+     "w2": 30,
+     "quote": "he touched every one of them with his finger save it were the three who were to tarry,",
+     "verse_text": "And it came to pass that when Jesus had spoken these words, he touched every one of them with his finger save it were the three who were to tarry, and then he departed.",
+     "markdown": "And it came to pass that when Jesus had spoken these words, **he touched every one of them with his finger save it were the three who were to tarry**, and then he departed.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne28-007"
+  },
+  {
+   "id": "4ne01-008",
+   "scope": "BOM",
+   "head": "Morm. 1:3",
+   "anchor": {
+    "verse": 48,
+    "w1": 23,
+    "w2": 30,
+    "quote": "did hide up the records which were sacred"
+   },
+   "reason": "the hiding place Ammaron later named to Mormon",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 1,
+     "verse": 3,
+     "w1": 47,
+     "w2": 60,
+     "quote": "there have I deposited unto the Lord all the sacred engravings concerning this people.",
+     "verse_text": "Therefore, when ye are about twenty and four years old I would that ye should remember the things that ye have observed concerning this people; and when ye are of that age go to the land Antum, unto a hill which shall be called Shim; and there have I deposited unto the Lord all the sacred engravings concerning this people.",
+     "markdown": "Therefore, when ye are about twenty and four years old I would that ye should remember the things that ye have observed concerning this people; and when ye are of that age go to the land Antum, unto a hill which shall be called Shim; and **there have I deposited unto the Lord all the sacred engravings concerning this people**.",
+     "span": true
+    }
+   ],
+   "mirror": "morm01-002"
+  },
+  {
+   "id": "4ne01-011",
+   "scope": "BOM",
+   "head": "Morm. 1:18",
+   "anchor": {
+    "verse": 46,
+    "w1": 7,
+    "w2": 19,
+    "quote": "the robbers of Gadianton did spread over all the face of the land;"
+   },
+   "reason": "the robbers infesting the land a generation later",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 1,
+     "verse": 18,
+     "w1": 1,
+     "w2": 13,
+     "quote": "And these Gadianton robbers, who were among the Lamanites, did infest the land,",
+     "verse_text": "And these Gadianton robbers, who were among the Lamanites, did infest the land, insomuch that the inhabitants thereof began to hide up their treasures in the earth; and they became slippery, because the Lord had cursed the land, that they could not hold them, nor retain them again.",
+     "markdown": "**And these Gadianton robbers, who were among the Lamanites, did infest the land**, insomuch that the inhabitants thereof began to hide up their treasures in the earth; and they became slippery, because the Lord had cursed the land, that they could not hold them, nor retain them again.",
+     "span": true
+    }
+   ],
+   "mirror": "morm01-008"
+  },
+  {
+   "id": "4ne01-012",
+   "scope": "BOM",
+   "head": "Ether 10:33",
+   "anchor": {
+    "verse": 42,
+    "w1": 13,
+    "w2": 24,
+    "quote": "began again to build up the secret oaths and combinations of Gadianton."
+   },
+   "reason": "robbers rising the same way among the Jaredites",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 10,
+     "verse": 33,
+     "w1": 7,
+     "w2": 14,
+     "quote": "there began to be robbers in the land;",
+     "verse_text": "And in the days of Com there began to be robbers in the land; and they adopted the old plans, and administered oaths after the manner of the ancients, and sought again to destroy the kingdom.",
+     "markdown": "And in the days of Com **there began to be robbers in the land**; and they adopted the old plans, and administered oaths after the manner of the ancients, and sought again to destroy the kingdom.",
+     "span": true
+    }
+   ],
+   "mirror": "eth10-008"
+  },
+  {
+   "id": "4ne01-009",
+   "scope": "SW",
+   "head": "Dan. 3:27",
+   "anchor": {
+    "verse": 32,
+    "w1": 1,
+    "w2": 16,
+    "quote": "And they did cast them into furnaces of fire, and they came forth receiving no harm"
+   },
+   "reason": "the same outcome reported at Babylon",
+   "targets": [
+    {
+     "ref": "Dan.",
+     "chapter": 3,
+     "verse": 27,
+     "w1": 17,
+     "w2": 24,
+     "quote": "upon whose bodies the fire had no power,",
+     "verse_text": "And the princes, governors, and captains, and the king's counsellors, being gathered together, saw these men, upon whose bodies the fire had no power, nor was an hair of their head singed, neither were their coats changed, nor the smell of fire had passed on them.",
+     "markdown": "And the princes, governors, and captains, and the king's counsellors, being gathered together, saw these men, **upon whose bodies the fire had no power**, nor was an hair of their head singed, neither were their coats changed, nor the smell of fire had passed on them.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "4ne01-010",
+   "scope": "SW",
+   "head": "Acts 4:32",
+   "anchor": {
+    "verse": 3,
+    "w1": 1,
+    "w2": 8,
+    "quote": "And they had all things common among them"
+   },
+   "reason": "the same arrangement in the church at Jerusalem",
+   "targets": [
+    {
+     "ref": "Acts",
+     "chapter": 4,
+     "verse": 32,
+     "w1": 32,
+     "w2": 37,
+     "quote": "but they had all things common.",
+     "verse_text": "And the multitude of them that believed were of one heart and of one soul: neither said any of them that ought of the things which he possessed was his own; but they had all things common.",
+     "markdown": "And the multitude of them that believed were of one heart and of one soul: neither said any of them that ought of the things which he possessed was his own; **but they had all things common**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 32,
+   "w2": 39,
+   "quote": "there were no contentions and disputations among them",
+   "entries": [
+    "4ne01-005"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 1,
+   "w2": 8,
+   "quote": "And they had all things common among them",
+   "entries": [
+    "4ne01-006",
+    "4ne01-010"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 10,
+   "w2": 24,
+   "quote": "there were not rich and poor, bond and free, but they were all made free",
+   "entries": [
+    "4ne01-002",
+    "4ne01-003"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 59,
+   "w2": 66,
+   "quote": "save it were the three who should tarry",
+   "entries": [
+    "4ne01-007"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 7,
+   "w2": 15,
+   "quote": "neither were there Lamanites, nor any manner of -ites",
+   "entries": [
+    "4ne01-004"
+   ]
+  },
+  {
+   "verse": 32,
+   "w1": 1,
+   "w2": 16,
+   "quote": "And they did cast them into furnaces of fire, and they came forth receiving no harm",
+   "entries": [
+    "4ne01-009"
+   ]
+  },
+  {
+   "verse": 37,
+   "w1": 24,
+   "w2": 32,
+   "quote": "were called Nephites, and Jacobites, and Josephites, and Zoramites",
+   "entries": [
+    "4ne01-001"
+   ]
+  },
+  {
+   "verse": 42,
+   "w1": 13,
+   "w2": 24,
+   "quote": "began again to build up the secret oaths and combinations of Gadianton.",
+   "entries": [
+    "4ne01-012"
+   ]
+  },
+  {
+   "verse": 46,
+   "w1": 7,
+   "w2": 19,
+   "quote": "the robbers of Gadianton did spread over all the face of the land;",
+   "entries": [
+    "4ne01-011"
+   ]
+  },
+  {
+   "verse": 48,
+   "w1": 23,
+   "w2": 30,
+   "quote": "did hide up the records which were sacred",
+   "entries": [
+    "4ne01-008"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "bb5c2986ae97c885"
+ }
+}

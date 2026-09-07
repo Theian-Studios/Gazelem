@@ -17,7 +17,7 @@
    "Recital as argument",
    "Witnesses"
   ],
-  "connections": 12,
+  "connections": 14,
   "initial": true
  },
  "world_behind": [
@@ -133,13 +133,13 @@
   {
    "term": "Tradition",
    "verse_label": "v. 8",
-   "text": "What one generation hands the next. The chapter uses the word for two opposite things and never flags the switch. Here the sin is forgetting tradition: \"how have ye forgotten the tradition of your fathers\" (v. 8). Eight verses later the Lamanites are excused by theirs, and later still they will be brought to see \"the incorrectness of the traditions of their fathers\" (v. 17). Every use of the word in the King James Bible is hostile, the tradition of the elders that Jesus sets against the commandment. Alma will use it either way, depending on what got handed down.",
+   "text": "What one generation hands the next. Treated at Mosiah 26:1. The chapter uses the word for two opposite things and never flags the switch. Here the sin is forgetting tradition: \"how have ye forgotten the tradition of your fathers\" (v. 8). Eight verses later the Lamanites are excused by theirs, and later still they will be brought to see \"the incorrectness of the traditions of their fathers\" (v. 17). Every use of the word in the King James Bible is hostile, the tradition of the elders that Jesus sets against the commandment. Alma will use it either way, depending on what got handed down.",
    "cites": [
     {
      "quote": "how have ye forgotten the tradition of your fathers",
      "verse": 8,
-     "start": 152,
-     "end": 212,
+     "start": 176,
+     "end": 236,
      "spans": [
       {
        "w1": 8,
@@ -151,8 +151,8 @@
     {
      "quote": "the incorrectness of the traditions of their fathers",
      "verse": 17,
-     "start": 314,
-     "end": 376,
+     "start": 338,
+     "end": 400,
      "spans": [
       {
        "w1": 20,
@@ -161,18 +161,30 @@
       }
      ]
     }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 26:1",
+     "start": 47,
+     "end": 58,
+     "book": "Mosiah",
+     "chapter": 26,
+     "verse_start": 1,
+     "verse_end": 1
+    }
    ]
   },
   {
    "term": "Consigned",
    "verse_label": "v. 11",
-   "text": "To hand over formally, the way goods or a person are delivered into someone's keeping. Alma says that without mercy the fathers would have been \"consigned to a state of endless misery and woe\" (v. 11). The verb makes damnation a transfer rather than a mood, something done to a person by an authority. Neither this word nor \"unavoidably,\" standing four words earlier in the same sentence, appears anywhere in the King James Bible. The verse reaches twice for language the translators of the Bible never used.",
+   "text": "To hand over formally, the way goods or a person are delivered into someone's keeping. Treated at Mosiah 3:25. Alma says that without mercy the fathers would have been \"consigned to a state of endless misery and woe\" (v. 11). The verb makes damnation a transfer rather than a mood, something done to a person by an authority. Neither this word nor \"unavoidably,\" standing four words earlier in the same sentence, appears anywhere in the King James Bible. The verse reaches twice for language the translators of the Bible never used.",
    "cites": [
     {
      "quote": "consigned to a state of endless misery and woe",
      "verse": 11,
-     "start": 144,
-     "end": 200,
+     "start": 168,
+     "end": 224,
      "spans": [
       {
        "w1": 42,
@@ -180,6 +192,18 @@
        "text": "consigned to a state of endless misery and woe"
       }
      ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 3:25",
+     "start": 98,
+     "end": 109,
+     "book": "Mosiah",
+     "chapter": 3,
+     "verse_start": 25,
+     "verse_end": 25
     }
    ]
   },
@@ -201,12 +225,24 @@
   {
    "term": "Prolong",
    "verse_label": "v. 16",
-   "text": "To extend in time. Deuteronomy uses it again and again for Israel's tenancy: keep the commandments and thy days shall be prolonged in the land. Alma takes that formula and assigns it to the Lamanites, the people his hearers count as cut off. The covenant vocabulary of staying on the land is spoken over the wrong nation on purpose, and it is the sharpest thing in the sermon."
+   "text": "To extend in time. Deuteronomy uses it again and again for Israel's tenancy (Deut. 5:33): keep the commandments and thy days shall be prolonged in the land. Alma takes that formula and assigns it to the Lamanites, the people his hearers count as cut off. The covenant vocabulary of staying on the land is spoken over the wrong nation on purpose, and it is the sharpest thing in the sermon.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Deut. 5:33",
+     "start": 77,
+     "end": 87,
+     "book": "Deut",
+     "chapter": 5,
+     "verse_start": 33,
+     "verse_end": 33
+    }
+   ]
   },
   {
    "term": "Equity",
    "verse_label": "v. 26",
-   "text": "Fairness, and in older legal use the correction of a rule that would work injustice if applied flatly. It sits in a list of what the coming Son will be full of: \"full of grace, equity, and truth\" (v. 26). Grace and truth are the pair John would later use; equity is the addition, and it puts a courtroom virtue between them. Amulek reaches for the same word in the next chapter, and Alma again three chapters later.",
+   "text": "Fairness, and in older legal use the correction of a rule that would work injustice if applied flatly. It sits in a list of what the coming Son will be full of: \"full of grace, equity, and truth\" (v. 26). Grace and truth are the pair John would later use (John 1:14); equity is the addition, and it puts a courtroom virtue between them. Amulek reaches for the same word in the next chapter, and Alma again three chapters later.",
    "cites": [
     {
      "quote": "full of grace, equity, and truth",
@@ -220,6 +256,18 @@
        "text": "full of grace, equity, and truth"
       }
      ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "John 1:14",
+     "start": 256,
+     "end": 265,
+     "book": "John",
+     "chapter": 1,
+     "verse_start": 14,
+     "verse_end": 14
     }
    ]
   },
@@ -286,7 +334,29 @@
   {
    "term": "Repent ye, for the kingdom of heaven is nigh at hand",
    "verse_label": "v. 25",
-   "text": "Word for word the preaching of John the Baptist, and the words Matthew gives to Jesus at the start of his ministry. Here an angel says it, and Alma quotes the angel. The sentence is being passed forward through three sets of lips before the events it announces."
+   "text": "Word for word the preaching of John the Baptist (Matt. 3:2), and the words Matthew gives to Jesus at the start of his ministry (Matt. 4:17). Here an angel says it, and Alma quotes the angel. The sentence is being passed forward through three sets of lips before the events it announces.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Matt. 3:2",
+     "start": 49,
+     "end": 58,
+     "book": "Matt",
+     "chapter": 3,
+     "verse_start": 2,
+     "verse_end": 2
+    },
+    {
+     "kind": "scripture",
+     "text": "Matt. 4:17",
+     "start": 128,
+     "end": 138,
+     "book": "Matt",
+     "chapter": 4,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
   },
   {
    "term": "Works which are meet for repentance",
@@ -341,7 +411,7 @@
    "start": 15,
    "end": 17,
    "title": "The comparison, and the mercy in it",
-   "text": "Having used the Lamanites as the case for the prosecution, Alma immediately turns and defends them. Their traditions left them ignorant, their existence in the land will be prolonged, many of them will be saved. Two chapters of missionary history later in this book will cash the promise."
+   "text": "The record runs the comparison twice inside verse 14, in two different time frames: \"more tolerable for them in the day of judgment than for you,\" and \"even more tolerable for them in this life than for you.\" Verse 16 then supplies a mitigating cause that removes the fault from the people it condemns, \"it is because of the traditions of their fathers that caused them to remain in their state of ignorance.\" Verse 17 makes a prediction with no date, \"at some period of time they will be brought to believe in his word,\" which Alma 17 through 26 reports being fulfilled inside the same book. A prosecution witness is defended by the prosecution in the same speech."
   },
   {
    "label": "v. 18–24",
@@ -414,30 +484,62 @@
   {
    "n": 7,
    "title": "A sermon that fails, preserved in full",
-   "text": "Nothing in this chapter works. The crowd contends at the start, is angry in the middle, and reaches for him at the end. Alma kept it in his own record anyway, and Mormon kept Alma's. The book is willing to spend a chapter on an argument that changed nobody."
+   "text": "The chapter records three stages of failure. Verse 1 has them contending; verse 7 has them \"angry with me\" and trying \"to lay their hands upon me\"; verse 32 ends with the same reaction, \"they were angry with me, and sought to lay their hands upon me that they might cast me into prison.\" No conversions are reported. Alma 10:12 records the audience beginning to be astonished only after Amulek speaks, so the sermon that fills this chapter is preserved with its result attached, and the result is nothing.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 10:12",
+     "start": 317,
+     "end": 327,
+     "book": "Alma",
+     "chapter": 10,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
   }
  ],
  "world_in_front": {
   "applications": [
+   {
+    "title": "Answer a challenge to your credentials with content",
+    "verse_label": "v. 1–8",
+    "text": "Four challenges arrive in six verses, opening with \"Who art thou?\" and none of them is answered with a credential. What comes back is a recital of things the hearers already know. When someone questions your standing, the usable reply is usually material rather than authority."
+   },
+   {
+    "title": "Ask what you have forgotten",
+    "verse_label": "v. 9–10",
+    "text": "The sermon treats forgetting as the failure and never raises the question of belief. Pick one deliverance in your own history that you could once have told in detail and can no longer, and go recover the details."
+   },
+   {
+    "title": "Quote the promise in both directions",
+    "verse_label": "v. 12–14",
+    "text": "Alma gives the covenant with the prosper clause and the cut-off clause together, and then checks it against a case both sides already grant. When you cite an assurance, cite the condition attached to it in the same breath."
+   },
+   {
+    "title": "Defend the people your argument just used",
+    "verse_label": "v. 15–17",
+    "text": "Alma made his case with the Lamanites and then immediately spoke for them, naming \"the traditions of their fathers\" as the cause. If you have made a point at someone's expense, the point is not finished until you have said the true thing on their side of it."
+   },
    {
     "title": "Say what you were given before you say what you owe",
     "verse_label": "v. 20–22",
     "text": "Alma's list of Nephite blessings is accurate and generous, and it is also the ground of the charge. Write out what you have actually received in your life, then read the list a second time asking what it obligates. Both readings are honest and most people only ever do the first."
    },
    {
+    "title": "Notice when a privilege becomes a liability",
+    "verse_label": "v. 23",
+    "text": "The catalogue of light is turned round in a single verse: because of all that, \"it shall be far more tolerable for the Lamanites than for you.\" Advantage raises the standard rather than lowering it, and the reversal takes one sentence."
+   },
+   {
+    "title": "Mark where you stop speaking for yourself",
+    "verse_label": "v. 25–29",
+    "text": "Alma quotes the angel's errand and then steps outside the quotation to say that is what he was sent with. When part of what you are saying is borrowed, say where the borrowing starts and stops."
+   },
+   {
     "title": "Expect the diagnosis to be the offense",
     "verse_label": "v. 31–32",
     "text": "People rarely fight the doctrine. They fight being described. When something you said lands badly, check whether the objection is to the claim or to the portrait, because the two need different answers and only one of them is an argument."
-   },
-   {
-    "title": "Defend the people your argument just used",
-    "verse_label": "v. 15–17",
-    "text": "Alma made his case with the Lamanites and then immediately spoke for them. If you have made a point at someone's expense, the point is not finished until you have said the true thing on their side of it."
-   },
-   {
-    "title": "Ask what you have forgotten",
-    "verse_label": "v. 9–10",
-    "text": "The sermon treats forgetting as the failure and never raises the question of belief. Pick one deliverance in your own history that you could once have told in detail and can no longer, and go recover the details."
    }
   ],
   "questions": [
@@ -496,7 +598,7 @@
     "w2": 14,
     "quote": "the testimony of one man"
    },
-   "reason": "the second witness they asked for",
+   "reason": "the sign demanded, and who supplied it",
    "targets": [
     {
      "ref": "Alma",
@@ -510,7 +612,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al10-001"
   },
   {
    "id": "al09-002",
@@ -536,7 +638,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al16-008"
   },
   {
    "id": "al09-003",
@@ -562,7 +664,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al23-011"
   },
   {
    "id": "al09-004",
@@ -588,7 +690,59 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al14-012"
+  },
+  {
+   "id": "al09-013",
+   "scope": "BOOK",
+   "head": "Alma 16:10",
+   "anchor": {
+    "verse": 4,
+    "w1": 16,
+    "w2": 24,
+    "quote": "this great city should be destroyed in one day."
+   },
+   "reason": "the destruction they had refused to believe",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 16,
+     "verse": 10,
+     "w1": 3,
+     "w2": 9,
+     "quote": "in one day it was left desolate;",
+     "verse_text": "But behold, in one day it was left desolate; and the carcasses were mangled by dogs and wild beasts of the wilderness.",
+     "markdown": "But behold, **in one day it was left desolate**; and the carcasses were mangled by dogs and wild beasts of the wilderness.",
+     "span": true
+    }
+   ],
+   "mirror": "al16-001"
+  },
+  {
+   "id": "al09-014",
+   "scope": "BOOK",
+   "head": "Alma 17:15",
+   "anchor": {
+    "verse": 16,
+    "w1": 28,
+    "w2": 31,
+    "quote": "their state of ignorance;"
+   },
+   "reason": "the same cause named of the Lamanites",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 17,
+     "verse": 15,
+     "w1": 23,
+     "w2": 29,
+     "quote": "because of the traditions of their fathers;",
+     "verse_text": "Thus they were a very indolent people, many of whom did worship idols, and the curse of God had fallen upon them because of the traditions of their fathers; notwithstanding the promises of the Lord were extended unto them on the conditions of repentance.",
+     "markdown": "Thus they were a very indolent people, many of whom did worship idols, and the curse of God had fallen upon them **because of the traditions of their fathers**; notwithstanding the promises of the Lord were extended unto them on the conditions of repentance.",
+     "span": true
+    }
+   ],
+   "mirror": "al17-003"
   },
   {
    "id": "al09-005",
@@ -600,7 +754,7 @@
     "w2": 27,
     "quote": "Inasmuch as ye shall keep my commandments, ye shall prosper in the land"
    },
-   "reason": "the covenant formula, quoted as evidence",
+   "reason": "the promise on the land, cited as evidence",
    "targets": [
     {
      "ref": "1 Ne.",
@@ -614,7 +768,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "1ne02-021"
   },
   {
    "id": "al09-006",
@@ -704,7 +858,7 @@
     "w2": 49,
     "quote": "Repent ye, for the kingdom of heaven is nigh at hand"
    },
-   "reason": "the Baptist’s sentence, word for word",
+   "reason": "the Baptist's sentence, word for word",
    "targets": [
     {
      "ref": "Matt.",
@@ -756,7 +910,7 @@
     "w2": 8,
     "quote": "prepare ye the way of the Lord"
    },
-   "reason": "Isaiah’s herald, quoted by an angel",
+   "reason": "Isaiah's herald, quoted by an angel",
    "targets": [
     {
      "ref": "Matt.",
@@ -811,6 +965,15 @@
    ]
   },
   {
+   "verse": 4,
+   "w1": 16,
+   "w2": 24,
+   "quote": "this great city should be destroyed in one day.",
+   "entries": [
+    "al09-013"
+   ]
+  },
+  {
    "verse": 13,
    "w1": 15,
    "w2": 27,
@@ -826,6 +989,15 @@
    "quote": "more tolerable for them in the day of judgment",
    "entries": [
     "al09-007"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 28,
+   "w2": 31,
+   "quote": "their state of ignorance;",
+   "entries": [
+    "al09-014"
    ]
   },
   {
@@ -902,7 +1074,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "53d09d422b50d095"
+  "at": "2026-09-07",
+  "source_sha256": "1ade2ab16629aed0"
  }
 }

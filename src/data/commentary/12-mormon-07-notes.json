@@ -1,0 +1,751 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Mormon",
+  "book_slug": "mormon",
+  "chapter": 7,
+  "volume_order": "12",
+  "speakers": [
+   "Mormon"
+  ],
+  "audience": "The remnant of the house of Israel who are spared",
+  "location": "Written after Cumorah",
+  "date": "After AD 385",
+  "unit": "Mormon's last word (Mormon 7)",
+  "principles": [
+   "A dying man speaking to descendants of his enemies",
+   "A short list of things to know",
+   "Two records that establish each other"
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The chapter is ten verses",
+   "text": "It is Mormon's closing address in the book that carries his name."
+  },
+  {
+   "n": 2,
+   "title": "The audience is the survivors' descendants",
+   "text": "Verse 1 speaks to the remnant of this people who are spared. Mormon 6:15 has just reported that his own nation is gone except for twenty-four men, so the only audience left in the hemisphere is the one that destroyed it."
+  },
+  {
+   "n": 3,
+   "title": "He hedges his own delivery",
+   "text": "Verse 1 says \"if it so be that God may give unto them my words\". Moroni 1:4 puts the same conditional on the same audience sixty years later, and 3 Nephi 21:2 makes the arrival of these words the sign that the gathering has begun."
+  },
+  {
+   "n": 4,
+   "title": "Four verses begin the same way",
+   "text": "Verses 2, 3, 4, and 5 all open with \"Know ye\". Nothing else in the volume runs the formula four times in four consecutive verses, and the effect is a creed rather than a sermon: identity, repentance, weapons, and Christ, one to a verse."
+  },
+  {
+   "n": 5,
+   "title": "Weapons come third",
+   "text": "Verse 4 tells them to lay their weapons down and take them up no more save God command it. Alma 24:18 has an earlier Lamanite generation do exactly that and covenant to it, so the instruction has a precedent among the people it is addressed to.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 24:18",
+     "start": 91,
+     "end": 101,
+     "book": "Alma",
+     "chapter": 24,
+     "verse_start": 18,
+     "verse_end": 18
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Two records are named",
+   "text": "Verse 8 gives this record and the one that shall come to the Gentiles from the Jews. 1 Nephi 13:38 to 41 describes the same two books coming together, and 2 Nephi 29:8 argues for why two are needed. Mormon is stating in a farewell what the first writer in the volume had seen in vision."
+  },
+  {
+   "n": 7,
+   "title": "The book ends with Amen",
+   "text": "Verse 10 closes Mormon's own writing; Mormon 8 and 9 are Moroni's."
+  }
+ ],
+ "words": [
+  {
+   "term": "Weapons",
+   "verse_label": "v. 4",
+   "text": "Instruments of war. The record uses the word fifty-five times and the King James Bible twenty-one. Verse 4 tells this people to lay them down."
+  },
+  {
+   "term": "Sting",
+   "verse_label": "v. 5",
+   "text": "A wound that carries venom. Treated at Alma 22:14. It appears four times in the record, and the King James Bible twice, both in 1 Corinthians 15.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 22:14",
+     "start": 39,
+     "end": 49,
+     "book": "Alma",
+     "chapter": 22,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
+  },
+  {
+   "term": "Victory",
+   "verse_label": "v. 5",
+   "text": "Success in a contest. The record uses the word twelve times and the King James Bible twelve. Verse 5 gives it to Christ over the grave."
+  },
+  {
+   "term": "Grave",
+   "verse_label": "v. 5",
+   "text": "A burial place, and death itself. Treated at Helaman 14:25. The word turns up nineteen times here, and the King James Bible sixty-eight. Verse 5 pairs it with the sting of death."
+  },
+  {
+   "term": "Guiltless",
+   "verse_label": "v. 7",
+   "text": "Free of blame. Treated at Mosiah 4:25. The record uses the word eight times and the King James Bible ten.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 4:25",
+     "start": 26,
+     "end": 37,
+     "book": "Mosiah",
+     "chapter": 4,
+     "verse_start": 25,
+     "verse_end": 25
+    }
+   ]
+  },
+  {
+   "term": "Ceaseless",
+   "verse_label": "v. 7",
+   "text": "Without stopping. Its count is once, here, in this book, while the King James Bible not at all. Verse 7 attaches it to praises."
+  },
+  {
+   "term": "Choirs",
+   "verse_label": "v. 7",
+   "text": "Companies of singers. The record uses the word twice, here and at Mosiah 2:28, and the King James Bible not at all. Both uses put them above.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 2:28",
+     "start": 66,
+     "end": 77,
+     "book": "Mosiah",
+     "chapter": 2,
+     "verse_start": 28,
+     "verse_end": 28
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "term": "If it so be that God may give unto them my words",
+   "verse_label": "v. 1",
+   "text": "The condition he writes under. He cannot deliver the letter himself."
+  },
+  {
+   "term": "Know ye that ye are of the house of Israel",
+   "verse_label": "v. 2",
+   "text": "The first thing on the list, and the shortest verse in the chapter. Identity comes before instruction."
+  },
+  {
+   "term": "Ye must lay down your weapons of war, and delight no more in the shedding of blood",
+   "verse_label": "v. 4",
+   "text": "The instruction from a man killed by their ancestors. Alma 24:17 had recorded a people who did exactly this.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 24:17",
+     "start": 54,
+     "end": 64,
+     "book": "Alma",
+     "chapter": 24,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
+  },
+  {
+   "term": "Take them not again, save it be that God shall command you",
+   "verse_label": "v. 4",
+   "text": "The one exception, stated in the same breath as the command. He does not make it absolute."
+  },
+  {
+   "term": "In him is the sting of death swallowed up",
+   "verse_label": "v. 5",
+   "text": "1 Corinthians 15:55 in different words. Verse 5 has already given the victory over the grave."
+  },
+  {
+   "term": "To sing ceaseless praises with the choirs above",
+   "verse_label": "v. 7",
+   "text": "The description of the kingdom. Mosiah 2:28 had used the same phrase of joining them.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 2:28",
+     "start": 32,
+     "end": 43,
+     "book": "Mosiah",
+     "chapter": 2,
+     "verse_start": 28,
+     "verse_end": 28
+    }
+   ]
+  },
+  {
+   "term": "Which are one God, in a state of happiness which hath no end",
+   "verse_label": "v. 7",
+   "text": "The end of the sentence about redemption. Happiness is the last noun."
+  },
+  {
+   "term": "Not only in this record but also in the record which shall come unto the Gentiles from the Jews",
+   "verse_label": "v. 8",
+   "text": "Two books named in one clause. Verse 8 traces the second one's route."
+  },
+  {
+   "term": "If ye believe that ye will believe this also",
+   "verse_label": "v. 9",
+   "text": "The logic of the two records. 1 Nephi 13:40 had said the later would establish the truth of the first."
+  },
+  {
+   "term": "Ye are numbered among the people of the first covenant",
+   "verse_label": "v. 10",
+   "text": "Their standing stated as fact. It does not depend on what they do next."
+  },
+  {
+   "term": "First with water, then with fire and with the Holy Ghost",
+   "verse_label": "v. 10",
+   "text": "The order given in his last sentence. He calls it following the example of the Savior."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 2–3",
+   "start": 2,
+   "end": 3,
+   "title": "A formula, and the shortest sentence in the chapter",
+   "text": "\"Know ye that ye\" opens verses 2 through 5, and scripture has the phrase five times in all, four of them here. The first of the four is eight words long: \"Know ye that ye are of the house of Israel.\" Before repentance, before Christ, before baptism, the thing Mormon puts first is who they are, and he spends the fewest words on it."
+  },
+  {
+   "label": "v. 4",
+   "start": 4,
+   "end": 4,
+   "title": "The odd clause, and the exception written into it",
+   "text": "Between repentance and belief stands a demand that is not doctrinal at all: \"ye must lay down your weapons of war, and delight no more in the shedding of blood.\" The phrase occurs once in scripture. Then the qualifier, \"take them not again, save it be that God shall command you.\" The man who commanded the last Nephite army does not close the door he walked through; he leaves it latched to a condition."
+  },
+  {
+   "label": "v. 5",
+   "start": 5,
+   "end": 5,
+   "title": "Knowing hands over to believing",
+   "text": "Know runs the length of the chapter, seven uses in ten verses. Believe does not appear until verse 5 and then holds the rest of it, six uses in the closing six verses. The address begins by telling the remnant what to know about themselves and ends by telling them what to believe about someone else."
+  },
+  {
+   "label": "v. 8–9",
+   "start": 8,
+   "end": 9,
+   "title": "The book puts a different book ahead of itself",
+   "text": "The gospel will be set before them \"not only in this record but also in the record which shall come unto the Gentiles from the Jews, which record shall come from the Gentiles unto you.\" Verse 9 then puts the two in order: \"this is written for the intent that ye may believe that; and if ye believe that ye will believe this also.\" The book states its own purpose as pointing at a different book, and takes second place in its own sentence."
+  },
+  {
+   "label": "v. 10",
+   "start": 10,
+   "end": 10,
+   "title": "The last words are a condition, not a warning",
+   "text": "The sequence is exact, \"first with water, then with fire and with the Holy Ghost, following the example of our Savior,\" and the close is \"if it so be that ye believe in Christ, and are baptized... it shall be well with you in the day of judgment.\" Mormon has spent six books recording what happens to a people who would not. He ends by describing what happens to the ones who do."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "He writes to the descendants of the people who destroyed his",
+   "text": "Verse 1 names the remnant who are spared. There is nothing bitter in the ten verses."
+  },
+  {
+   "n": 2,
+   "title": "He admits he may not be heard",
+   "text": "Verse 1 makes delivery conditional on God. The letter is sent without a courier."
+  },
+  {
+   "n": 3,
+   "title": "Identity is the first instruction",
+   "text": "Verse 2 tells them who they are before telling them what to do. Everything after rests on it."
+  },
+  {
+   "n": 4,
+   "title": "The command about weapons carries an exception",
+   "text": "Verse 4 allows taking them up at God's command. He does not overstate his own case."
+  },
+  {
+   "n": 5,
+   "title": "The list is short and ordered",
+   "text": "Repentance, weapons, knowledge of the fathers, belief in Christ. Four verses, four things."
+  },
+  {
+   "n": 6,
+   "title": "Two records vouch for each other",
+   "text": "Verse 9 makes belief in one the road to the other. The argument runs in both directions."
+  },
+  {
+   "n": 7,
+   "title": "The reward is described as singing",
+   "text": "Verse 7 gives ceaseless praises and choirs above. The kingdom is pictured as sound."
+  },
+  {
+   "n": 8,
+   "title": "Mormon's own writing ends here",
+   "text": "Verse 10 closes with Amen. What follows in Mormon 8 and 9 is his son's."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Write to people who may never read it",
+    "verse_label": "v. 1",
+    "text": "He addressed descendants centuries out, unsure the words would arrive. Some work is sent without a delivery guarantee."
+   },
+   {
+    "title": "Start with who someone is",
+    "verse_label": "v. 2",
+    "text": "He told them their identity before their duty. Instruction lands differently once that is settled."
+   },
+   {
+    "title": "Put the weapons down",
+    "verse_label": "v. 4",
+    "text": "The command comes from a man whose people died by them. Refusing to delight in harm is a decision made before the provocation."
+   },
+   {
+    "title": "Learn what your fathers knew",
+    "verse_label": "v. 5",
+    "text": "Among the things they must come to is the knowledge of their fathers. Recovering what an earlier generation understood is listed here as a step in the work, not as an interest."
+   },
+   {
+    "title": "Describe the good outcome",
+    "verse_label": "v. 7",
+    "text": "The verse spends its length on the destination: dwelling in the presence of God, singing praises, a happiness that has no end. A warning with no picture of the alternative leaves people nothing to move toward."
+   },
+   {
+    "title": "Two records, and he sends them to both",
+    "verse_label": "v. 8",
+    "text": "He sends them to the gospel set before them in this record and also in the one that comes to the Gentiles from the Jews. Nothing in the sentence asks them to choose between the two."
+   },
+   {
+    "title": "Let two witnesses check each other",
+    "verse_label": "v. 9",
+    "text": "He points to a second record that confirms this one. Believing one thing well opens the next."
+   },
+   {
+    "title": "It ends on being numbered",
+    "verse_label": "v. 10",
+    "text": "The last verse tells them they will know they are a remnant of Jacob, numbered among the people of the first covenant. The book closes this address on membership rather than on achievement."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What am I writing that someone else must deliver?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Do I actually know whose I am?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What weapon am I still holding?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "Which of these do I say I believe and act as though I do not?"
+   },
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "What would ceaseless praise be like for me?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What have I believed that opened something else?"
+   },
+   {
+    "verse_label": "v. 10",
+    "start": 10,
+    "end": 10,
+    "text": "Where in the order of water and fire am I standing?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "morm07-001",
+   "scope": "BOOK",
+   "head": "Morm. 6:17",
+   "anchor": {
+    "verse": 5,
+    "w1": 13,
+    "w2": 20,
+    "quote": "and repent of all your sins and iniquities"
+   },
+   "reason": "the repentance he had wished for his own dead",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 6,
+     "verse": 17,
+     "w1": 20,
+     "w2": 34,
+     "quote": "how could ye have rejected that Jesus, who stood with open arms to receive you!",
+     "verse_text": "O ye fair ones, how could ye have departed from the ways of the Lord! O ye fair ones, how could ye have rejected that Jesus, who stood with open arms to receive you!",
+     "markdown": "O ye fair ones, how could ye have departed from the ways of the Lord! O ye fair ones, **how could ye have rejected that Jesus, who stood with open arms to receive you**!",
+     "span": true
+    }
+   ],
+   "mirror": "morm06-014"
+  },
+  {
+   "id": "morm07-002",
+   "scope": "BOOK",
+   "head": "Morm. 3:20",
+   "anchor": {
+    "verse": 6,
+    "w1": 11,
+    "w2": 20,
+    "quote": "whereby man must be raised to stand before his judgment-seat"
+   },
+   "reason": "the same bar he wrote about to the whole earth",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 3,
+     "verse": 20,
+     "w1": 29,
+     "w2": 37,
+     "quote": "ye must all stand before the judgment-seat of Christ,",
+     "verse_text": "And these things doth the Spirit manifest unto me; therefore I write unto you all. And for this cause I write unto you, that ye may know that ye must all stand before the judgment-seat of Christ, yea, every soul who belongs to the whole human family of Adam; and ye must stand to be judged of your works, whether they be good or evil;",
+     "markdown": "And these things doth the Spirit manifest unto me; therefore I write unto you all. And for this cause I write unto you, that ye may know that **ye must all stand before the judgment-seat of Christ**, yea, every soul who belongs to the whole human family of Adam; and ye must stand to be judged of your works, whether they be good or evil;",
+     "span": true
+    }
+   ],
+   "mirror": "morm03-012"
+  },
+  {
+   "id": "morm07-003",
+   "scope": "BOM",
+   "head": "1 Ne. 13:40",
+   "anchor": {
+    "verse": 9,
+    "w1": 14,
+    "w2": 23,
+    "quote": "and if ye believe that ye will believe this also"
+   },
+   "reason": "the angel telling Nephi the later record establishes the first",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 13,
+     "verse": 40,
+     "w1": 18,
+     "w2": 24,
+     "quote": "shall establish the truth of the first,",
+     "verse_text": "And the angel spake unto me, saying: These last records, which thou hast seen among the Gentiles, shall establish the truth of the first, which are of the twelve apostles of the Lamb, and shall make known the plain and precious things which have been taken away from them; and shall make known to all kindreds, tongues, and people, that the Lamb of God is the Son of the Eternal Father, and the Savior of the world; and that all men must come unto him, or they cannot be saved.",
+     "markdown": "And the angel spake unto me, saying: These last records, which thou hast seen among the Gentiles, **shall establish the truth of the first**, which are of the twelve apostles of the Lamb, and shall make known the plain and precious things which have been taken away from them; and shall make known to all kindreds, tongues, and people, that the Lamb of God is the Son of the Eternal Father, and the Savior of the world; and that all men must come unto him, or they cannot be saved.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne13-004"
+  },
+  {
+   "id": "morm07-004",
+   "scope": "BOM",
+   "head": "Alma 24:17",
+   "anchor": {
+    "verse": 4,
+    "w1": 4,
+    "w2": 11,
+    "quote": "ye must lay down your weapons of war"
+   },
+   "reason": "a people who buried theirs rather than take them up",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 24,
+     "verse": 17,
+     "w1": 43,
+     "w2": 51,
+     "quote": "they did bury them up deep in the earth.",
+     "verse_text": "And now it came to pass that when the king had made an end of these sayings, and all the people were assembled together, they took their swords, and all the weapons which were used for the shedding of man's blood, and they did bury them up deep in the earth.",
+     "markdown": "And now it came to pass that when the king had made an end of these sayings, and all the people were assembled together, they took their swords, and all the weapons which were used for the shedding of man's blood, and **they did bury them up deep in the earth**.",
+     "span": true
+    }
+   ],
+   "mirror": "al24-014"
+  },
+  {
+   "id": "morm07-005",
+   "scope": "BOM",
+   "head": "2 Ne. 3:12",
+   "anchor": {
+    "verse": 8,
+    "w1": 30,
+    "w2": 43,
+    "quote": "but also in the record which shall come unto the Gentiles from the Jews"
+   },
+   "reason": "the two writings Joseph was told would grow together",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 3,
+     "verse": 12,
+     "w1": 46,
+     "w2": 54,
+     "quote": "shall grow together, unto the confounding of false doctrines",
+     "verse_text": "Wherefore, the fruit of thy loins shall write; and the fruit of the loins of Judah shall write; and that which shall be written by the fruit of thy loins, and also that which shall be written by the fruit of the loins of Judah, shall grow together, unto the confounding of false doctrines and laying down of contentions, and establishing peace among the fruit of thy loins, and bringing them to the knowledge of their fathers in the latter days, and also to the knowledge of my covenants, saith the Lord.",
+     "markdown": "Wherefore, the fruit of thy loins shall write; and the fruit of the loins of Judah shall write; and that which shall be written by the fruit of thy loins, and also that which shall be written by the fruit of the loins of Judah, **shall grow together, unto the confounding of false doctrines** and laying down of contentions, and establishing peace among the fruit of thy loins, and bringing them to the knowledge of their fathers in the latter days, and also to the knowledge of my covenants, saith the Lord.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne03-013"
+  },
+  {
+   "id": "morm07-006",
+   "scope": "BOM",
+   "head": "Mosiah 2:28",
+   "anchor": {
+    "verse": 7,
+    "w1": 39,
+    "w2": 46,
+    "quote": "to sing ceaseless praises with the choirs above"
+   },
+   "reason": "the only other use of the phrase in the record",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 2,
+     "verse": 28,
+     "w1": 47,
+     "w2": 54,
+     "quote": "my immortal spirit may join the choirs above",
+     "verse_text": "I say unto you that I have caused that ye should assemble yourselves together that I might rid my garments of your blood, at this period of time when I am about to go down to my grave, that I might go down in peace, and my immortal spirit may join the choirs above in singing the praises of a just God.",
+     "markdown": "I say unto you that I have caused that ye should assemble yourselves together that I might rid my garments of your blood, at this period of time when I am about to go down to my grave, that I might go down in peace, and **my immortal spirit may join the choirs above** in singing the praises of a just God.",
+     "span": true
+    }
+   ],
+   "mirror": "mos02-027"
+  },
+  {
+   "id": "morm07-007",
+   "scope": "BOM",
+   "head": "3 Ne. 11:35",
+   "anchor": {
+    "verse": 10,
+    "w1": 40,
+    "w2": 50,
+    "quote": "first with water, then with fire and with the Holy Ghost"
+   },
+   "reason": "the same order given by Christ to this people",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 11,
+     "verse": 35,
+     "w1": 42,
+     "w2": 52,
+     "quote": "he will visit him with fire and with the Holy Ghost.",
+     "verse_text": "Verily, verily, I say unto you, that this is my doctrine, and I bear record of it from the Father; and whoso believeth in me believeth in the Father also; and unto him will the Father bear record of me, for he will visit him with fire and with the Holy Ghost.",
+     "markdown": "Verily, verily, I say unto you, that this is my doctrine, and I bear record of it from the Father; and whoso believeth in me believeth in the Father also; and unto him will the Father bear record of me, for **he will visit him with fire and with the Holy Ghost**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne11-017"
+  },
+  {
+   "id": "morm07-008",
+   "scope": "SW",
+   "head": "1 Cor. 15:55",
+   "anchor": {
+    "verse": 5,
+    "w1": 61,
+    "w2": 71,
+    "quote": "and also in him is the sting of death swallowed up"
+   },
+   "reason": "the same two figures, death and the grave",
+   "targets": [
+    {
+     "ref": "1 Cor.",
+     "chapter": 15,
+     "verse": 55,
+     "w1": 1,
+     "w2": 12,
+     "quote": "O death, where is thy sting? O grave, where is thy victory?",
+     "verse_text": "O death, where is thy sting? O grave, where is thy victory?",
+     "markdown": "**O death, where is thy sting? O grave, where is thy victory**?",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "morm07-009",
+   "scope": "SW",
+   "head": "Isa. 2:4",
+   "anchor": {
+    "verse": 4,
+    "w1": 12,
+    "w2": 20,
+    "quote": "and delight no more in the shedding of blood"
+   },
+   "reason": "the same turning away from the instruments of war",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 2,
+     "verse": 4,
+     "w1": 34,
+     "w2": 40,
+     "quote": "neither shall they learn war any more.",
+     "verse_text": "And he shall judge among the nations, and shall rebuke many people: and they shall beat their swords into plowshares, and their spears into pruninghooks: nation shall not lift up sword against nation, neither shall they learn war any more.",
+     "markdown": "And he shall judge among the nations, and shall rebuke many people: and they shall beat their swords into plowshares, and their spears into pruninghooks: nation shall not lift up sword against nation, **neither shall they learn war any more**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "morm07-010",
+   "scope": "SW",
+   "head": "Rev. 5:9",
+   "anchor": {
+    "verse": 7,
+    "w1": 63,
+    "w2": 71,
+    "quote": "in a state of happiness which hath no end"
+   },
+   "reason": "the singing before the throne",
+   "targets": [
+    {
+     "ref": "Rev.",
+     "chapter": 5,
+     "verse": 9,
+     "w1": 1,
+     "w2": 6,
+     "quote": "And they sung a new song,",
+     "verse_text": "And they sung a new song, saying, Thou art worthy to take the book, and to open the seals thereof: for thou wast slain, and hast redeemed us to God by thy blood out of every kindred, and tongue, and people, and nation;",
+     "markdown": "**And they sung a new song**, saying, Thou art worthy to take the book, and to open the seals thereof: for thou wast slain, and hast redeemed us to God by thy blood out of every kindred, and tongue, and people, and nation;",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 4,
+   "w1": 4,
+   "w2": 11,
+   "quote": "ye must lay down your weapons of war",
+   "entries": [
+    "morm07-004"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 12,
+   "w2": 20,
+   "quote": "and delight no more in the shedding of blood",
+   "entries": [
+    "morm07-009"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 13,
+   "w2": 20,
+   "quote": "and repent of all your sins and iniquities",
+   "entries": [
+    "morm07-001"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 61,
+   "w2": 71,
+   "quote": "and also in him is the sting of death swallowed up",
+   "entries": [
+    "morm07-008"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 11,
+   "w2": 20,
+   "quote": "whereby man must be raised to stand before his judgment-seat",
+   "entries": [
+    "morm07-002"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 39,
+   "w2": 46,
+   "quote": "to sing ceaseless praises with the choirs above",
+   "entries": [
+    "morm07-006"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 63,
+   "w2": 71,
+   "quote": "in a state of happiness which hath no end",
+   "entries": [
+    "morm07-010"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 30,
+   "w2": 43,
+   "quote": "but also in the record which shall come unto the Gentiles from the Jews",
+   "entries": [
+    "morm07-005"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 14,
+   "w2": 23,
+   "quote": "and if ye believe that ye will believe this also",
+   "entries": [
+    "morm07-003"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 40,
+   "w2": 50,
+   "quote": "first with water, then with fire and with the Holy Ghost",
+   "entries": [
+    "morm07-007"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "439552eb2e1928ef"
+ }
+}

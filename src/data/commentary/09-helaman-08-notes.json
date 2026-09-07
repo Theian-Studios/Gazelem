@@ -16,9 +16,9 @@
   "principles": [
    "An accusation raised by the accused",
    "A chain of witnesses named",
-   ""
+   "A prophecy checkable within the hour"
   ],
-  "connections": 10,
+  "connections": 12,
   "initial": false
  },
  "world_behind": [
@@ -30,17 +30,17 @@
   {
    "n": 2,
    "title": "They cannot arrest him themselves",
-   "text": "Verse 4 says they feared the people, so they work by stirring the crowd instead."
+   "text": "Verse 4 says the judges durst not lay hands on him because they feared the people. Helaman 7:4 has already reported that Gadianton men filled the judgment-seats, so the men with the legal power to arrest him are the ones who cannot risk using it."
   },
   {
    "n": 3,
    "title": "Their argument is national strength",
-   "text": "Verse 6 answers the prophecy with power and great cities, and concludes that no enemy can prevail."
+   "text": "Verse 6 answers the prophecy with power and great cities and concludes that no enemy can prevail. Helaman 3:8 to 11 records the building programme they are pointing at, and Helaman 4:5 to 8 had already shown the Lamanites taking Zarahemla itself twenty years earlier."
   },
   {
    "n": 4,
    "title": "Part of the crowd defends him",
-   "text": "Verses 7 through 9 have people arguing that he is a good man, that he has been right about their sins, and that only a prophet could know the rest."
+   "text": "Verses 7 through 9 have part of the crowd argue that he is a good man and has testified aright about their iniquities. Helaman 9:39 to 41 has the same crowd split four ways two chapters later, some calling him a prophet and some a god. This verse is where that division starts."
   },
   {
    "n": 5,
@@ -89,7 +89,7 @@
   {
    "term": "Contrite",
    "verse_label": "v. 15",
-   "text": "Broken and humbled in spirit. The record uses the word nine times and the King James Bible five, including the contrite heart of Psalm 51. Verse 15 makes it a condition of the looking that gives life."
+   "text": "Broken and humbled in spirit. The record uses the word nine times and the King James Bible five, including the contrite heart of Psalm 51:17. Verse 15 makes it a condition of the looking that gives life."
   },
   {
    "term": "Ezias",
@@ -121,7 +121,7 @@
   {
    "term": "We are powerful, and our cities great, therefore our enemies can have no power over us",
    "verse_label": "v. 6",
-   "text": "The counterargument in one sentence. It answers a moral warning with a military inventory."
+   "text": "The whole counterargument, compressed. It answers a moral warning with a military inventory."
   },
   {
    "term": "Let this man alone, for he is a good man",
@@ -161,53 +161,78 @@
  ],
  "verses": [
   {
-   "label": "v. 1–6",
-   "start": 1,
+   "label": "v. 3",
+   "start": 3,
+   "end": 3,
+   "title": "An omission, and a guarantee about it",
+   "text": "The record concedes and then vouches in a single sentence: \"many things did Nephi speak which cannot be written; and nothing did he speak which was contrary to the commandments of God.\" The first clause admits the reader is holding a selection. The second makes a claim about the material that was left out, which no reader can check and which the abridger cannot have made without having had it in front of him. Cannot be written is used in ten verses of the volume, and this is the only one that attaches a warranty to what is missing."
+  },
+  {
+   "label": "v. 5–6",
+   "start": 5,
    "end": 6,
-   "title": "The judges move",
-   "text": "Judges belonging to the band cry out for Nephi to be seized and condemned, asking why the people let him revile against them and the law. He had spoken of the corruptness of their law, and much he said was not written, and nothing was contrary to God's commandments. They are angry at his plainness about their secret works, but dare not touch him for fear of the people, so they tell the crowd he condemns them and their cities, and answer that their power and great cities make it impossible."
+   "title": "The other side's argument, in its strongest form",
+   "text": "The judges' speech is quoted rather than summarised, and it is a working syllogism: \"we are powerful, and our cities great, therefore our enemies can have no power over us.\" The record does not weaken it, add a sneer, or interrupt it. Verse 4 has already told the reader these men are corrupt and afraid; the argument they make is nonetheless the one a confident city would make, and it is left standing in their own words for eight verses before anything answers it."
   },
   {
-   "label": "v. 7–10",
+   "label": "v. 7–9",
    "start": 7,
-   "end": 10,
-   "title": "The crowd divides",
-   "text": "Some cry out to leave him alone, calling him a good man whose words will come true without repentance, noting that he has testified rightly about their iniquities and must therefore know what is coming, and that only a prophet could. Fear keeps his opponents off him, and seeing that he has favor with some, Nephi speaks again."
+   "end": 9,
+   "title": "Both sides of a street argument",
+   "text": "The crowd is divided and the record gives each half its lines. Some cry \"Let this man alone, for he is a good man\"; others answer with the chapter's tightest piece of reasoning, \"if he had not been a prophet he could not have testified concerning those things.\" The argument turns on the accuracy of the accusation rather than on its content: \"we know that he has testified aright unto us concerning our iniquities.\" A public quarrel is reported as speech on both sides, and the sharper argument is put in the mouths of people the chapter has not named."
   },
   {
-   "label": "v. 11–15",
+   "label": "v. 11–20",
    "start": 11,
-   "end": 15,
-   "title": "Moses",
-   "text": "He asks whether they have not read that God gave one man power to part the Red Sea for their fathers and close it on the Egyptians. If God gave that man power, the dispute about his own is answered. He adds that denying him denies the fathers and Moses, who testified of the Messiah, lifting the brazen serpent as a figure of one lifted up, so that whoever looks with faith and a contrite spirit lives."
-  },
-  {
-   "label": "v. 16–20",
-   "start": 16,
    "end": 20,
-   "title": "The chain of prophets",
-   "text": "All the holy prophets from Moses back to Abraham testified of these things. Abraham saw his coming and rejoiced, and men before Abraham were called after the order of the Son, so that redemption was shown thousands of years ahead. Since Abraham many have testified: Zenos, who was slain for it, and Zenock, Ezias, Isaiah, and Jeremiah, whose word about Jerusalem is known to have come true."
+   "title": "Eight witnesses, and two the Bible does not carry",
+   "text": "The defence is a list, assembled backwards and then forwards. Moses first, then \"all the holy prophets, from his days even to the days of Abraham,\" then Abraham, then \"many before the days of Abraham,\" then forward again to Zenos, Zenock, Ezias, Isaiah and Jeremiah. The word Abraham stands five times, all in verses 16 through 19, and then leaves the chapter. Of the five prophets named at the end, three have books in the Bible and two do not. Ezias is named once in the whole volume, in this verse, and nowhere in the Bible at all."
   },
   {
-   "label": "v. 21–23",
+   "label": "v. 20",
+   "start": 20,
+   "end": 20,
+   "title": "The chapter's only parenthesis",
+   "text": "In the middle of the list one name gets an explanatory aside: \"and Jeremiah, (Jeremiah being that same prophet who testified of the destruction of Jerusalem).\" No other name in the list is glossed, and no other sentence in the chapter uses the construction. The gloss is not there for the audience in the story, who lived through the destruction and left the city because of it. It is there for the next two verses, which are about to make the fall of Jerusalem the hinge of the whole argument."
+  },
+  {
+   "label": "v. 21",
    "start": 21,
-   "end": 23,
-   "title": "Evidence in the room",
-   "text": "He asks whether they will dispute that Jerusalem fell, or that Zedekiah's sons were killed except Mulek, whose seed is among them, driven out of Jerusalem. Lehi was driven out for testifying, and Nephi and nearly all the fathers testified of Christ and rejoiced in his day, and he manifested himself to them."
-  },
-  {
-   "label": "v. 24–26",
-   "start": 24,
-   "end": 26,
-   "title": "The charge",
-   "text": "Knowing these things and unable to deny them without lying, they have sinned by rejecting them despite every evidence in heaven and earth. Instead of laying up treasures in heaven where nothing corrupts, they are heaping up wrath for the day of judgment, and are ripening for destruction."
-  },
-  {
-   "label": "v. 27–28",
-   "start": 27,
-   "end": 28,
-   "title": "The sign",
-   "text": "It is at their doors. He tells them to go to the judgment-seat and look: the judge is murdered and lies in his blood, killed by his brother who wants the seat, and both belong to the band whose author is Gadianton and the evil one."
+   "end": 21,
+   "title": "A hard question the record asks against itself",
+   "text": "Having established Jerusalem's destruction as agreed ground, the speech puts three questions to the crowd, and the second is one the volume has to answer to anyone who knows the Bible: \"Will ye say that the sons of Zedekiah were not slain, all except it were Mulek?\" Three biblical verses say the sons of Zedekiah were killed, at 2 Kings 25:7, Jer. 39:6 and Jer. 52:10. The volume made the Mulek claim two chapters earlier as a passing aside about a place name, at Hel. 6:10. Here it raises the objection in its own text, as a rhetorical question, and does not defend it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jer. 39:6",
+     "start": 344,
+     "end": 353,
+     "book": "Jer",
+     "chapter": 39,
+     "verse_start": 6,
+     "verse_end": 6
+    },
+    {
+     "kind": "scripture",
+     "text": "Jer. 52:10",
+     "start": 358,
+     "end": 368,
+     "book": "Jer",
+     "chapter": 52,
+     "verse_start": 10,
+     "verse_end": 10
+    },
+    {
+     "kind": "scripture",
+     "text": "Hel. 6:10",
+     "start": 465,
+     "end": 474,
+     "book": "Hel",
+     "chapter": 6,
+     "verse_start": 10,
+     "verse_end": 10
+    }
+   ]
   }
  ],
  "chapter": [
@@ -239,7 +264,19 @@
   {
    "n": 6,
    "title": "Fulfilled prophecy is used as the argument",
-   "text": "Verse 20 reasons from Jeremiah's word about Jerusalem, which they know came true, to the coming of the Son of God."
+   "text": "Verse 20 reasons from Jeremiah's word about Jerusalem (Jer. 25:11), which they know came true, to the coming of the Son of God.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jer. 25:11",
+     "start": 55,
+     "end": 65,
+     "book": "Jer",
+     "chapter": 25,
+     "verse_start": 11,
+     "verse_end": 11
+    }
+   ]
   },
   {
    "n": 7,
@@ -260,9 +297,19 @@
     "text": "The judges had every power except the willingness to be seen using it. Someone urging you to do what they could do themselves is telling you something."
    },
    {
+    "title": "Know what is actually restraining the powerful",
+    "verse_label": "v. 4",
+    "text": "The judges durst not lay their own hands on Nephi because they feared the people would cry out against them. Power tends to stop where it would become visible, so keeping the watching public informed can do more than appealing to the people in charge."
+   },
+   {
     "title": "Beware of answering a moral case with an inventory",
     "verse_label": "v. 6",
     "text": "Great cities and power were the whole reply. Strength is not an argument against a warning about conduct."
+   },
+   {
+    "title": "Speak up while the crowd is still deciding",
+    "verse_label": "v. 7",
+    "text": "Some in the crowd cried out to let Nephi alone, because he was a good man. A dispute gets settled partly by who is willing to talk in the first few minutes, and those people are rarely the loudest ones there."
    },
    {
     "title": "Reason from what someone got right",
@@ -270,9 +317,19 @@
     "text": "The crowd trusted Nephi about the future because he had been accurate about the present. Track records are usable evidence."
    },
    {
+    "title": "Start from the case they already grant",
+    "verse_label": "v. 11–12",
+    "text": "Nephi began with Moses at the Red Sea, which nobody present disputed, and moved from there to the question of his own authority. A hard claim travels furthest when it rides on ground the hearer has already conceded."
+   },
+   {
     "title": "Put your claim in a line of witnesses",
     "verse_label": "v. 16–20",
     "text": "Nephi named ten others rather than standing alone. Showing that you are saying what others have said is stronger than insisting on yourself."
+   },
+   {
+    "title": "Give them something to go and check",
+    "verse_label": "v. 27",
+    "text": "Nephi told them to go in unto the judgment-seat and search, and said what they would find there. An assertion a hearer can verify within the hour is worth more than one they simply have to accept."
    }
   ],
   "questions": [
@@ -383,7 +440,7 @@
     "w2": 25,
     "quote": "whose author is Gadianton and the evil one who seeketh to destroy the souls of men"
    },
-   "reason": "the trace of the oaths to their source, given by the narrator",
+   "reason": "the oaths traced to their source by the narrator",
    "targets": [
     {
      "ref": "Hel.",
@@ -397,7 +454,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel06-015"
+  },
+  {
+   "id": "hel08-012",
+   "scope": "BOOK",
+   "head": "Hel. 9:16",
+   "anchor": {
+    "verse": 1,
+    "w1": 44,
+    "w2": 55,
+    "quote": "Why do ye not seize upon this man and bring him forth,"
+   },
+   "reason": "the charge the judges tried an hour later",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 9,
+     "verse": 16,
+     "w1": 25,
+     "w2": 39,
+     "quote": "we know that this Nephi must have agreed with some one to slay the judge,",
+     "verse_text": "And now it came to pass that the judges did expound the matter unto the people, and did cry out against Nephi, saying: Behold, we know that this Nephi must have agreed with some one to slay the judge, and then he might declare it unto us, that he might convert us unto his faith, that he might raise himself to be a great man, chosen of God, and a prophet.",
+     "markdown": "And now it came to pass that the judges did expound the matter unto the people, and did cry out against Nephi, saying: Behold, **we know that this Nephi must have agreed with some one to slay the judge**, and then he might declare it unto us, that he might convert us unto his faith, that he might raise himself to be a great man, chosen of God, and a prophet.",
+     "span": true
+    }
+   ],
+   "mirror": "hel09-003"
   },
   {
    "id": "hel08-004",
@@ -409,7 +492,7 @@
     "w2": 35,
     "quote": "God gave power unto one man, even Moses, to smite upon the waters of the Red Sea"
    },
-   "reason": "the first Nephi making the same argument to his own brothers",
+   "reason": "the first Nephi making the same argument to his brothers",
    "targets": [
     {
      "ref": "1 Ne.",
@@ -423,7 +506,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "1ne17-014"
   },
   {
    "id": "hel08-005",
@@ -449,7 +532,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al33-012"
   },
   {
    "id": "hel08-006",
@@ -475,7 +558,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al33-010"
   },
   {
    "id": "hel08-007",
@@ -501,7 +584,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "omn01-009"
   },
   {
    "id": "hel08-008",
@@ -527,7 +610,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "1ne02-019"
+  },
+  {
+   "id": "hel08-011",
+   "scope": "BOM",
+   "head": "Alma 33:17",
+   "anchor": {
+    "verse": 20,
+    "w1": 1,
+    "w2": 4,
+    "quote": "And behold, also Zenock,"
+   },
+   "reason": "how Zenock died, as Alma reported it",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 33,
+     "verse": 17,
+     "w1": 29,
+     "w2": 33,
+     "quote": "they stoned him to death.",
+     "verse_text": "And now, my brethren, ye see that a second prophet of old has testified of the Son of God, and because the people would not understand his words they stoned him to death.",
+     "markdown": "And now, my brethren, ye see that a second prophet of old has testified of the Son of God, and because the people would not understand his words **they stoned him to death**.",
+     "span": true
+    }
+   ],
+   "mirror": "al33-006"
   },
   {
    "id": "hel08-009",
@@ -565,7 +674,7 @@
     "w2": 31,
     "quote": "laying up for yourselves treasures in heaven, where nothing doth corrupt"
    },
-   "reason": "the same treasure and the same verb, in the Sermon on the Mount",
+   "reason": "the same treasure and verb, in the Sermon",
    "targets": [
     {
      "ref": "Matt.",
@@ -590,6 +699,15 @@
    "quote": "there were men who were judges, who also belonged to the secret band of Gadianton",
    "entries": [
     "hel08-001"
+   ]
+  },
+  {
+   "verse": 1,
+   "w1": 44,
+   "w2": 55,
+   "quote": "Why do ye not seize upon this man and bring him forth,",
+   "entries": [
+    "hel08-012"
    ]
   },
   {
@@ -625,7 +743,8 @@
    "w2": 4,
    "quote": "And behold, also Zenock",
    "entries": [
-    "hel08-006"
+    "hel08-006",
+    "hel08-011"
    ]
   },
   {
@@ -675,7 +794,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "5542e2429e4b244a"
+  "at": "2026-09-07",
+  "source_sha256": "3f8c9eca01712996"
  }
 }

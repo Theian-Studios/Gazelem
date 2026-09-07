@@ -19,7 +19,7 @@
    "A second temple assembly",
    "Two prophetic oracles"
   ],
-  "connections": 13,
+  "connections": 14,
   "initial": false
  },
  "world_behind": [
@@ -51,7 +51,19 @@
   {
    "n": 6,
    "title": "Hosea, twice, in two forms",
-   "text": "Verses 30 and 31 give the same oracle in variant wordings: sow filthiness and reap the chaff in the whirlwind; sow filthiness and reap the east wind. Hosea's line is sowing wind and reaping whirlwind. The record preserves both versions consecutively."
+   "text": "Verses 30 and 31 give the same oracle in variant wordings: sow filthiness and reap the chaff in the whirlwind; sow filthiness and reap the east wind. Hosea's line is sowing wind and reaping whirlwind (Hosea 8:7). The record preserves both versions consecutively.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Hosea 8:7",
+     "start": 201,
+     "end": 210,
+     "book": "Hosea",
+     "chapter": 8,
+     "verse_start": 7,
+     "verse_end": 7
+    }
+   ]
   },
   {
    "n": 7,
@@ -63,7 +75,7 @@
   {
    "term": "Bands",
    "verse_label": "v. 8, 13",
-   "text": "Fetters: what binds a prisoner, not a group of men. They are loosed in verse 8 and Ammon refers to having worn them in verse 13. The word runs through this whole section of the record, and Limhi's people are about to spend seventeen chapters in a condition it names."
+   "text": "Fetters: what binds a prisoner, not a group of men. Treated at 1 Nephi 7:17. They are loosed in verse 8 and Ammon refers to having worn them in verse 13. The word runs through this whole section of the record, and Limhi's people are about to spend seventeen chapters in a condition it names."
   },
   {
    "term": "Bold",
@@ -88,7 +100,7 @@
   {
    "term": "Suffered",
    "verse_label": "v. 11",
-   "text": "Here the verb means to allow. Limhi has suffered the strangers to be preserved rather than killed, Ammon says the king would not have suffered him to wear bands had he known who he was, and the Lord, later in the speech, would not have suffered the great evil to come on a people who had not transgressed. The other sense arrives at verse 16, where men who wandered forty days had suffered hunger, thirst, and fatigue. Both senses are the King James Bible's, and the chapter moves between them within five verses without any signal that the word has changed."
+   "text": "Here the verb means to allow. Treated at 2 Nephi 6:11. Limhi has suffered the strangers to be preserved rather than killed, Ammon says the king would not have suffered him to wear bands had he known who he was, and the Lord, later in the speech, would not have suffered the great evil to come on a people who had not transgressed. The other sense arrives at verse 16, where men who wandered forty days had suffered hunger, thirst, and fatigue. Both senses are the King James Bible's, and the chapter moves between them within five verses without any signal that the word has changed."
   },
   {
    "term": "Craftiness",
@@ -140,7 +152,19 @@
   {
    "term": "He being over-zealous to inherit the land of his fathers",
    "verse_label": "v. 21",
-   "text": "The diagnosis of a grandfather, delivered by a grandson to a nation in chains. The fault named is excess of a good motive. Zeniff will use the same word of himself two chapters later, which makes this the rare case where the record's judgment and the man's own agree."
+   "text": "The diagnosis of a grandfather, delivered by a grandson to a nation in chains. The fault named is excess of a good motive. Zeniff will use the same word of himself two chapters later (Mosiah 9:3), which makes this the rare case where the record's judgment and the man's own agree.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 9:3",
+     "start": 184,
+     "end": 194,
+     "book": "Mosiah",
+     "chapter": 9,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
   },
   {
    "term": "Even one half of all we have or possess the king of the Lamanites doth exact of us, or our lives",
@@ -155,17 +179,51 @@
   {
    "term": "He said that man was created after the image of God",
    "verse_label": "v. 27",
-   "text": "The doctrine that got a man killed, restated by the king who inherited the consequences. Genesis says God created man in his own image; Limhi's report runs it the other way. The image man was created after is the one God would take. The killing followed from that inversion."
+   "text": "The doctrine that got a man killed, restated by the king who inherited the consequences. Genesis says God created man in his own image (Gen. 1:27); Limhi's report runs it the other way. The image man was created after is the one God would take. The killing followed from that inversion.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Gen. 1:27",
+     "start": 136,
+     "end": 145,
+     "book": "Gen",
+     "chapter": 1,
+     "verse_start": 27,
+     "verse_end": 27
+    }
+   ]
   },
   {
    "term": "I will not succor my people in the day of their transgression",
    "verse_label": "v. 29",
-   "text": "Succor is a verb of running to someone's aid, and this is the only place in the record where God says he will not. The withholding is tied to a day rather than to a person, which leaves the sentence temporary by construction."
-  },
-  {
-   "term": "If my people shall sow filthiness they shall reap the chaff thereof in the whirlwind",
-   "verse_label": "v. 30",
-   "text": "Hosea says sow wind, reap whirlwind; this says sow filthiness, reap chaff in a whirlwind, and adds that the effect is poison. Then verse 31 gives the same oracle again with the east wind and immediate destruction. Two forms of one saying, preserved side by side without a word about the difference."
+   "text": "Succor is a verb of running to someone's aid, and this is the only place in the record where God says he will not. The withholding is tied to a day rather than to a person, which leaves the sentence temporary by construction. The next verse supplies the harvest image: \"if my people shall sow filthiness they shall reap the chaff thereof in the whirlwind\" (v. 30). Hosea says sow wind, reap whirlwind (Hosea 8:7); this says sow filthiness, reap chaff in a whirlwind, and adds that the effect is poison. Then verse 31 gives the same oracle again with the east wind and immediate destruction, two forms of one saying preserved side by side without a word about the difference.",
+   "cites": [
+    {
+     "quote": "if my people shall sow filthiness they shall reap the chaff thereof in the whirlwind",
+     "verse": 30,
+     "start": 269,
+     "end": 363,
+     "spans": [
+      {
+       "w1": 5,
+       "w2": 19,
+       "text": "if my people shall sow filthiness they shall reap the chaff thereof in the whirlwind"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Hosea 8:7",
+     "start": 402,
+     "end": 411,
+     "book": "Hosea",
+     "chapter": 8,
+     "verse_start": 7,
+     "verse_end": 7
+    }
+   ]
   },
   {
    "term": "If ye will turn to the Lord with full purpose of heart",
@@ -175,53 +233,53 @@
  ],
  "verses": [
   {
-   "label": "v. 1–6",
-   "start": 1,
-   "end": 6,
-   "title": "The expedition",
-   "text": "Three years of peace, a curiosity nobody will drop, sixteen strong men sent under Ammon, no knowledge of the route, forty days of wandering, a hill north of Shilom, and four men going down into the land. Six verses to get the party into the story, and the only thing that goes right is that they arrive."
+   "label": "v. 4–5",
+   "start": 4,
+   "end": 5,
+   "title": "A search party gets the exodus number",
+   "text": "Sixteen strong men set out for a city whose location nobody has written down: \"they knew not the course they should travel.\" What follows is \"forty days did they wander,\" a clause found once in scripture. The record could have said they were lost. It reaches instead for the number the volume reserves for wilderness, and spends it on a party that is only three days' journey off course."
   },
   {
-   "label": "v. 7–13",
-   "start": 7,
-   "end": 13,
-   "title": "Arrest and recognition",
-   "text": "Seized by the king's guard, bound, imprisoned two days, brought out, and commanded to answer. Limhi identifies himself by three generations and demands to know why they came. Ammon bows, thanks God he is alive, and says his name, at which point the whole situation reverses."
+   "label": "v. 8",
+   "start": 8,
+   "end": 8,
+   "title": "The sentence corrects itself in front of the reader",
+   "text": "Ammon and his men \"were permitted, or rather commanded, that they should answer the questions.\" The volume makes this repair twelve times, but only here does it convert a courtesy into an order. The first thing the reader learns about Limhi's court is that its permissions are compulsory."
   },
   {
-   "label": "v. 14–17",
-   "start": 14,
-   "end": 17,
-   "title": "Relief, and a summons",
-   "text": "Limhi is exceedingly glad, knows his brethren are alive, will rejoice and make his people rejoice tomorrow; explains the bondage and the tribute; unbinds the prisoners and feeds them; and sends a proclamation for the people to gather at the temple. The second temple assembly in seven chapters."
+   "label": "v. 9",
+   "start": 9,
+   "end": 9,
+   "title": "The king in bondage introduces himself by an election",
+   "text": "Limhi gives three generations before he gives his question: son of Noah, son of Zeniff, \"who came up out of the land of Zarahemla to inherit this land... who was made a king by the voice of the people.\" The record has a king whose people pay tribute to the Lamanites open his mouth by citing the consent that seated his grandfather."
   },
   {
-   "label": "v. 18–20",
-   "start": 18,
+   "label": "v. 15",
+   "start": 15,
+   "end": 15,
+   "title": "What he hopes for is a better owner",
+   "text": "\"It is better that we be slaves to the Nephites than to pay tribute to the king of the Lamanites.\" The terms he weighs are not freedom against bondage but one owner against another. Limhi has just learned his kinsmen are alive, and the first thing the record has him calculate is whose slaves his people would rather be."
+  },
+  {
+   "label": "v. 19–20",
+   "start": 19,
    "end": 20,
-   "title": "Lift up your heads",
-   "text": "Comfort, a time at hand, an admission that past strugglings were vain, and the promise of an effectual one. Then the recital (Abraham, Isaac, Jacob, Egypt, the Red Sea, the manna), and the conclusion: the same God brought our fathers here, and it is our own iniquities that brought the bondage."
+   "title": "The deliverance recital turns on the people reciting it",
+   "text": "Abraham, Isaac and Jacob; Egypt, the Red Sea on dry ground, manna in the wilderness. Limhi assembles the standard list, and verse 20 turns the same God around on his own congregation: \"it is because of our iniquities and abominations that he has brought us into bondage.\" The record lets the same recital comfort at verse 19 and accuse at verse 20, with no break between them."
   },
   {
-   "label": "v. 21–25",
-   "start": 21,
-   "end": 25,
-   "title": "How it happened",
-   "text": "Zeniff over-zealous, Laman cunning, a treaty, land yielded, the whole thing designed to produce subjection; then the tribute itemized, the mourning justified, the blood spilt in vain, and the cause named as transgression. Limhi builds a case before he brings the charge."
+   "label": "v. 22",
+   "start": 22,
+   "end": 22,
+   "title": "The tribute is given as a rate",
+   "text": "One half of the corn, the barley and all the grain of every kind; one half of the increase of the flocks and the herds; \"even one half of all we have or possess.\" Where the chapter might have said the tax was heavy, it prints a fraction three times and lets the reader do the work."
   },
   {
-   "label": "v. 26–28",
-   "start": 26,
-   "end": 28,
-   "title": "A killing, and its reason",
-   "text": "A chosen man of God slain for saying that Christ is God, that he would take the image of man, and that man was made after God's image. They killed him, they did much else, and Limhi asks who could be surprised at the result."
-  },
-  {
-   "label": "v. 29–33",
+   "label": "v. 29–31",
    "start": 29,
-   "end": 33,
-   "title": "The oracles, and the way out",
-   "text": "God will not succor in the day of transgression, will hedge up their ways, will make their own doings a stumbling block; whirlwind and chaff and poison; east wind and immediate destruction; the promise is fulfilled and you are afflicted. And then the condition: turn, trust, serve, and he will deliver, on his own schedule."
+   "end": 31,
+   "title": "Three sayings, no source named",
+   "text": "\"The Lord hath said,\" then \"again, he saith,\" then \"again he saith\" — quoted authority in three consecutive verses, and the record supplies no prophet, no book and no occasion for any of them. Verses 30 and 31 share an opening that occurs nowhere else, \"if my people shall sow filthiness,\" and then split: the chaff in the whirlwind, or the east wind that brings immediate destruction. The same threat is issued twice with two different endings."
   }
  ],
  "chapter": [
@@ -480,7 +538,7 @@
     "w2": 21,
     "quote": "are taxed with a tax which is grievous to be borne"
    },
-   "reason": "the king who took no taxes, against the king who takes half",
+   "reason": "the king who took no taxes, against one taking half",
    "targets": [
     {
      "ref": "Mosiah",
@@ -573,6 +631,32 @@
     }
    ],
    "mirror": "mos04-008"
+  },
+  {
+   "id": "mos07-014",
+   "scope": "BOM",
+   "head": "Hel. 5:21",
+   "anchor": {
+    "verse": 7,
+    "w1": 32,
+    "w2": 41,
+    "quote": "were taken, and were bound, and were committed to prison."
+   },
+   "reason": "the prison named again, generations later",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 5,
+     "verse": 21,
+     "w1": 23,
+     "w2": 38,
+     "quote": "that same prison in which Ammon and his brethren were cast by the servants of Limhi.",
+     "verse_text": "And it came to pass that they were taken by an army of the Lamanites and cast into prison; yea, even in that same prison in which Ammon and his brethren were cast by the servants of Limhi.",
+     "markdown": "And it came to pass that they were taken by an army of the Lamanites and cast into prison; yea, even in **that same prison in which Ammon and his brethren were cast by the servants of Limhi**.",
+     "span": true
+    }
+   ],
+   "mirror": "hel05-006"
   },
   {
    "id": "mos07-010",
@@ -690,6 +774,15 @@
    ]
   },
   {
+   "verse": 7,
+   "w1": 32,
+   "w2": 41,
+   "quote": "were taken, and were bound, and were committed to prison.",
+   "entries": [
+    "mos07-014"
+   ]
+  },
+  {
    "verse": 15,
    "w1": 11,
    "w2": 21,
@@ -783,7 +876,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "c136c46cba4740c8"
+  "at": "2026-09-07",
+  "source_sha256": "16ba768a1910b9f3"
  }
 }

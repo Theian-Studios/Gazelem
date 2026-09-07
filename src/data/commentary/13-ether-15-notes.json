@@ -1,0 +1,832 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Ether",
+  "book_slug": "ether",
+  "chapter": 15,
+  "volume_order": "13",
+  "speakers": [
+   "Moroni",
+   "Coriantumr",
+   "Shiz",
+   "The Lord",
+   "Ether"
+  ],
+  "audience": "The reader",
+  "location": "The waters of Ripliancum, Ogath, and the hill Ramah",
+  "date": "The last years of the Jaredites",
+  "unit": "The last battle and Ether's final words (Ether 15)",
+  "principles": [
+   "Repentance arriving after the cost is paid",
+   "A crown offered twice to stop a war",
+   "A record finished by the last man watching"
+  ],
+  "connections": 13,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The dead are counted",
+   "text": "Verse 2 gives nearly two millions of mighty men slain, and their wives and children besides. Mormon 6:11 to 15 counts the Nephite end in units of ten thousand and reaches about two hundred and thirty thousand. The Jaredite figure runs about ten times that, and nothing else in the record counts so high."
+  },
+  {
+   "n": 2,
+   "title": "Two letters were exchanged",
+   "text": "Verses 4 and 5 carry the offer and the counter-offer. Alma 54 and Moroni 8 and 9 are the volume's other preserved exchanges of letters; this pair is the shortest, and the only one where both writers propose their own death or abdication."
+  },
+  {
+   "n": 3,
+   "title": "A place name is translated in the text",
+   "text": "Verse 8 glosses Ripliancum as large, or to exceed all. Ether 2:3 does the same for deseret and 1 Nephi 17:5 for Irreantum, so the record translates a foreign word for its reader three times in a thousand pages.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 2:3",
+     "start": 55,
+     "end": 64,
+     "book": "Ether",
+     "chapter": 2,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "The hill is identified by a later event",
+   "text": "Verse 11 calls Ramah the hill where Mormon hid the records, and Mormon 6:6 names that hill Cumorah."
+  },
+  {
+   "n": 5,
+   "title": "The gathering took four years",
+   "text": "Verse 14 gives four years for the gathering of every soul on the face of the land into two armies. Ether 15:2 has already reported nearly two millions dead before that gathering starts, which is what makes a four-year muster possible at all.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 15:2",
+     "start": 99,
+     "end": 109,
+     "book": "Ether",
+     "chapter": 15,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Women and children were armed",
+   "text": "Verse 15 lists shields, breastplates, and head-plates."
+  },
+  {
+   "n": 7,
+   "title": "Moroni says most of it is missing",
+   "text": "Verse 33 notes that the hundredth part of Ether's record is unwritten. Helaman 3:14, 3 Nephi 5:8 and 3 Nephi 26:6 use the same fraction, so four separate writers across five hundred years describe their abridgments with one figure."
+  }
+ ],
+ "words": [
+  {
+   "term": "Whit",
+   "verse_label": "v. 3",
+   "text": "The smallest part of a thing. Treated at 1 Nephi 4:19. The record uses the word eight times and the King James Bible five."
+  },
+  {
+   "term": "Epistle",
+   "verse_label": "v. 4",
+   "text": "A written letter carried between parties. Treated at Alma 54:5. It appears forty-one times in the record and fourteen in the King James Bible.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 54:5",
+     "start": 53,
+     "end": 62,
+     "book": "Alma",
+     "chapter": 54,
+     "verse_start": 5,
+     "verse_end": 5
+    }
+   ]
+  },
+  {
+   "term": "Ripliancum",
+   "verse_label": "v. 8",
+   "text": "A Jaredite name kept in the original. It appears once in the record, and never in the King James Bible. Verse 8 supplies its meaning on the spot."
+  },
+  {
+   "term": "Breastplates",
+   "verse_label": "v. 15",
+   "text": "Armor for the chest. Treated at Mosiah 8:10. The record uses the word ten times and the King James Bible three.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 8:10",
+     "start": 32,
+     "end": 43,
+     "book": "Mosiah",
+     "chapter": 8,
+     "verse_start": 10,
+     "verse_end": 10
+    }
+   ]
+  },
+  {
+   "term": "Howling",
+   "verse_label": "v. 16",
+   "text": "A long loud cry of grief. The word turns up three times here, and the King James Bible six. Verse 16 pairs it with lamentation."
+  },
+  {
+   "term": "Striving",
+   "verse_label": "v. 19",
+   "text": "Contending with, or working against. The record uses the word six times and the King James Bible three. Genesis 6:3 uses it of the same Spirit."
+  },
+  {
+   "term": "Translated",
+   "verse_label": "v. 34",
+   "text": "Carried across without dying. Its count is four times in this sense in this book, while the King James Bible three. Verse 34 leaves the choice to the Lord."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "He began to remember the words which Ether had spoken unto him",
+   "verse_label": "v. 1",
+   "text": "What recovery brought back. Ether 13:20 records the words he is remembering.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 13:20",
+     "start": 28,
+     "end": 39,
+     "book": "Ether",
+     "chapter": 13,
+     "verse_start": 20,
+     "verse_end": 20
+    }
+   ]
+  },
+  {
+   "term": "Nearly two millions of his people",
+   "verse_label": "v. 2",
+   "text": "The count that starts the sorrow. The verse adds their wives and children to it."
+  },
+  {
+   "term": "His soul mourned and refused to be comforted",
+   "verse_label": "v. 3",
+   "text": "The state Coriantumr reaches once he adds it up. Jeremiah 31:15 uses the same refusal of a mother."
+  },
+  {
+   "term": "He would give up the kingdom for the sake of the lives of the people",
+   "verse_label": "v. 4",
+   "text": "The offer in his first letter. He repeats it at verse 18."
+  },
+  {
+   "term": "That he might slay him with his own sword",
+   "verse_label": "v. 5",
+   "text": "Shiz's terms. One life is set against all the others."
+  },
+  {
+   "term": "Which, by interpretation, is large, or to exceed all",
+   "verse_label": "v. 8",
+   "text": "Moroni translating a name as he passes it. The gloss is his aside."
+  },
+  {
+   "term": "That same hill where my father Mormon did hide up the records",
+   "verse_label": "v. 11",
+   "text": "The link between this battlefield and the Nephite one. Both armies camped at it."
+  },
+  {
+   "term": "They did rend the air exceedingly",
+   "verse_label": "v. 16",
+   "text": "The sound of the camps at night. Verse 17 says the second night was the same."
+  },
+  {
+   "term": "The Spirit of the Lord had ceased striving with them",
+   "verse_label": "v. 19",
+   "text": "The turn the chapter never comes back from. Verse 19 follows it with hardness and blindness."
+  },
+  {
+   "term": "Drunken with anger, even as a man who is drunken with wine",
+   "verse_label": "v. 22",
+   "text": "Moroni's figure for the state of the armies. The comparison is his."
+  },
+  {
+   "term": "The hundredth part I have not written",
+   "verse_label": "v. 33",
+   "text": "Moroni's note on what he left out of Ether's record. It sits inside a parenthesis."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 2",
+   "start": 2,
+   "end": 2,
+   "title": "A death toll given before the last battles begin",
+   "text": "The record supplies a figure at the point where the surviving king starts counting: \"He saw that there had been slain by the sword already nearly two millions of his people.\" The word already matters, since eight more battles follow. It is the largest number in the volume, and the record attaches it to one man's realisation rather than to a narrator's summary. Verse 3 gives what he does with it, \"he began to repent of the evil which he had done.\""
+  },
+  {
+   "label": "v. 4–5",
+   "start": 4,
+   "end": 5,
+   "title": "Two letters, and both offers turn on one man's death",
+   "text": "The record reports an exchange of terms. The first offer gives up everything: he \"wrote an epistle unto Shiz, desiring him that he would spare the people, and he would give up the kingdom for the sake of the lives of the people.\" The reply refuses the kingdom and names a different price: \"if he would give himself up, that he might slay him with his own sword, that he would spare the lives of the people.\" Both men are willing to end the war and neither offer is accepted, and the record gives the reason in verse 6, \"the people repented not of their iniquity.\""
+  },
+  {
+   "label": "v. 11",
+   "start": 11,
+   "end": 11,
+   "title": "The battlefield is the same hill the record was buried in",
+   "text": "One clause connects the end of one nation to the survival of the book about it: the army \"did pitch their tents by the hill Ramah; and it was that same hill where my father Mormon did hide up the records unto the Lord, which were sacred.\" The compiler is writing about a place he has stood in for his own reasons. The Jaredite last stand and the Nephite archive occupy the same ground, and the record notes it in a subordinate clause."
+  },
+  {
+   "label": "v. 14",
+   "start": 14,
+   "end": 14,
+   "title": "Four years spent gathering people to kill each other",
+   "text": "The record gives the muster a duration: \"they were for the space of four years gathering together the people, that they might get all who were upon the face of the land, and that they might receive all the strength which it was possible that they should receive.\" Verse 15 states who came, \"every one to the army which he would, with their wives and their children, both men women and children being armed.\" A total mobilisation is described in two verses and neither uses a word of judgment."
+  },
+  {
+   "label": "v. 20–25",
+   "start": 20,
+   "end": 25,
+   "title": "A countdown reported night by night",
+   "text": "After each day's fighting the record gives numbers rather than descriptions. Verse 23: \"they had all fallen by the sword save it were fifty and two of the people of Coriantumr, and sixty and nine of the people of Shiz.\" Verse 25: \"when the night came there were thirty and two of the people of Shiz, and twenty and seven of the people of Coriantumr.\" Two nights, four figures, and the totals fall by more than half between them. The battle is narrated as an arithmetic sequence."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "Repentance arrives after the bill is paid",
+   "text": "Verse 1 has Coriantumr remember once he has recovered, and verse 2 has him add up the dead."
+  },
+  {
+   "n": 2,
+   "title": "He offers the crown twice",
+   "text": "Verses 4 and 18 both trade the kingdom for the survival of the people."
+  },
+  {
+   "n": 3,
+   "title": "The counter-offer prices one life against all of them",
+   "text": "Verse 5 asks only for Coriantumr, by his own sword."
+  },
+  {
+   "n": 4,
+   "title": "Place names are explained as they pass",
+   "text": "Verse 8 glosses Ripliancum and verse 11 identifies Ramah by what Mormon did there."
+  },
+  {
+   "n": 5,
+   "title": "Everyone is armed",
+   "text": "Verse 15 puts women and children in shields, breastplates, and head-plates."
+  },
+  {
+   "n": 6,
+   "title": "The nights are as loud as the days",
+   "text": "Verses 16 and 17 fill both evenings with howling and lamentation."
+  },
+  {
+   "n": 7,
+   "title": "The chapter counts down",
+   "text": "Verses 23, 25, and 27 move from a hundred and twenty one men to fifty nine, and then to two."
+  },
+  {
+   "n": 8,
+   "title": "The last words let go of the outcome",
+   "text": "Verse 34 has Ether leave the manner of his end open, provided he is saved."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Remember before the whole cost is paid",
+    "verse_label": "v. 1",
+    "text": "Coriantumr recovered the words of Ether after two millions had died."
+   },
+   {
+    "title": "Check the record as part of repenting",
+    "verse_label": "v. 3",
+    "text": "He remembered what all the prophets had said and saw that they were fulfilled thus far, every whit, and then his soul mourned. Verifying first is what put something solid under the mourning."
+   },
+   {
+    "title": "Offer to give up the thing you are fighting for",
+    "verse_label": "v. 4",
+    "text": "He put the kingdom itself on the table for the lives of the people."
+   },
+   {
+    "title": "Four years of preparation for an end nobody wanted",
+    "verse_label": "v. 14",
+    "text": "They spent four years gathering everyone on the face of the land so that each side could receive all the strength it possibly could. That is what a commitment nobody will reopen looks like from outside."
+   },
+   {
+    "title": "Grief at night, battle in the morning",
+    "verse_label": "v. 16–17",
+    "text": "They howled and lamented for their slain until they rent the air, and went out the next day and did it again. Feeling the cost of something is not the same as changing course, and this chapter is the plainest demonstration of the gap."
+   },
+   {
+    "title": "Notice when the striving stops",
+    "verse_label": "v. 19",
+    "text": "The verse marks the point at which the Spirit ceased and names what filled the space."
+   },
+   {
+    "title": "Anger is described as a drunkenness",
+    "verse_label": "v. 22",
+    "text": "They were drunken with anger, even as a man who is drunken with wine, and they slept again upon their swords. The image says exactly what anger does to judgment, about people who still believed they were deciding."
+   },
+   {
+    "title": "Hold the outcome loosely",
+    "verse_label": "v. 34",
+    "text": "Ether left the manner of his own end to the Lord and named the one thing he cared about."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What have I needed to be knocked flat before I remembered?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What would I refuse to be comforted about?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What would I give up to end a fight I am in?"
+   },
+   {
+    "verse_label": "v. 16",
+    "start": 16,
+    "end": 16,
+    "text": "What have I mourned at night and gone back to in the morning?"
+   },
+   {
+    "verse_label": "v. 19",
+    "start": 19,
+    "end": 19,
+    "text": "Where have I stopped listening?"
+   },
+   {
+    "verse_label": "v. 22",
+    "start": 22,
+    "end": 22,
+    "text": "When was I last drunken with anger?"
+   },
+   {
+    "verse_label": "v. 34",
+    "start": 34,
+    "end": 34,
+    "text": "What outcome am I gripping that I could leave with God?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "eth15-001",
+   "scope": "BOOK",
+   "head": "Ether 13:20",
+   "anchor": {
+    "verse": 1,
+    "w1": 13,
+    "w2": 24,
+    "quote": "he began to remember the words which Ether had spoken unto him"
+   },
+   "reason": "the words that came back to him",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 13,
+     "verse": 20,
+     "w1": 14,
+     "w2": 21,
+     "quote": "that he should go and prophesy unto Coriantumr",
+     "verse_text": "And in the second year the word of the Lord came to Ether, that he should go and prophesy unto Coriantumr that, if he would repent, and all his household, the Lord would give unto him his kingdom and spare the people—",
+     "markdown": "And in the second year the word of the Lord came to Ether, **that he should go and prophesy unto Coriantumr** that, if he would repent, and all his household, the Lord would give unto him his kingdom and spare the people—",
+     "span": true
+    }
+   ],
+   "mirror": "eth13-013"
+  },
+  {
+   "id": "eth15-002",
+   "scope": "BOOK",
+   "head": "Ether 13:21",
+   "anchor": {
+    "verse": 32,
+    "w1": 7,
+    "w2": 19,
+    "quote": "Coriantumr fell to the earth, and became as if he had no life"
+   },
+   "reason": "the one man the sentence left standing",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 13,
+     "verse": 21,
+     "w1": 48,
+     "w2": 56,
+     "quote": "every soul should be destroyed save it were Coriantumr.",
+     "verse_text": "Otherwise they should be destroyed, and all his household save it were himself. And he should only live to see the fulfilling of the prophecies which had been spoken concerning another people receiving the land for their inheritance; and Coriantumr should receive a burial by them; and every soul should be destroyed save it were Coriantumr.",
+     "markdown": "Otherwise they should be destroyed, and all his household save it were himself. And he should only live to see the fulfilling of the prophecies which had been spoken concerning another people receiving the land for their inheritance; and Coriantumr should receive a burial by them; and **every soul should be destroyed save it were Coriantumr**.",
+     "span": true
+    }
+   ],
+   "mirror": "eth13-014"
+  },
+  {
+   "id": "eth15-003",
+   "scope": "BOOK",
+   "head": "Ether 1:2",
+   "anchor": {
+    "verse": 33,
+    "w1": 43,
+    "w2": 56,
+    "quote": "he hid them in a manner that the people of Limhi did find them"
+   },
+   "reason": "where Moroni says he got the plates he is abridging",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 1,
+     "verse": 2,
+     "w1": 7,
+     "w2": 19,
+     "quote": "the twenty and four plates which were found by the people of Limhi,",
+     "verse_text": "And I take mine account from the twenty and four plates which were found by the people of Limhi, which is called the Book of Ether.",
+     "markdown": "And I take mine account from **the twenty and four plates which were found by the people of Limhi**, which is called the Book of Ether.",
+     "span": true
+    }
+   ],
+   "mirror": "eth01-012"
+  },
+  {
+   "id": "eth15-004",
+   "scope": "BOM",
+   "head": "Mosiah 8:9",
+   "anchor": {
+    "verse": 33,
+    "w1": 43,
+    "w2": 56,
+    "quote": "he hid them in a manner that the people of Limhi did find them"
+   },
+   "reason": "the plates carried back by the search party",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 8,
+     "verse": 9,
+     "w1": 14,
+     "w2": 23,
+     "quote": "they have brought twenty-four plates which are filled with engravings,",
+     "verse_text": "And for a testimony that the things that they had said are true they have brought twenty-four plates which are filled with engravings, and they are of pure gold.",
+     "markdown": "And for a testimony that the things that they had said are true **they have brought twenty-four plates which are filled with engravings**, and they are of pure gold.",
+     "span": true
+    }
+   ],
+   "mirror": "mos08-014"
+  },
+  {
+   "id": "eth15-005",
+   "scope": "BOM",
+   "head": "3 Ne. 26:6",
+   "anchor": {
+    "verse": 33,
+    "w1": 34,
+    "w2": 41,
+    "quote": "(and the hundredth part I have not written)"
+   },
+   "reason": "the same measure used of what Jesus taught",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 26,
+     "verse": 6,
+     "w1": 3,
+     "w2": 13,
+     "quote": "there cannot be written in this book even a hundredth part",
+     "verse_text": "And now there cannot be written in this book even a hundredth part of the things which Jesus did truly teach unto the people;",
+     "markdown": "And now **there cannot be written in this book even a hundredth part** of the things which Jesus did truly teach unto the people;",
+     "span": true
+    }
+   ],
+   "mirror": "3ne26-011"
+  },
+  {
+   "id": "eth15-006",
+   "scope": "BOM",
+   "head": "Morm. 6:6",
+   "anchor": {
+    "verse": 11,
+    "w1": 20,
+    "w2": 36,
+    "quote": "it was that same hill where my father Mormon did hide up the records unto the Lord"
+   },
+   "reason": "Mormon naming the hill and what he put in it",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 6,
+     "verse": 6,
+     "w1": 91,
+     "w2": 105,
+     "quote": "hid up in the hill Cumorah all the records which had been entrusted to me",
+     "verse_text": "And it came to pass that when we had gathered in all our people in one to the land of Cumorah, behold I, Mormon, began to be old; and knowing it to be the last struggle of my people, and having been commanded of the Lord that I should not suffer the records which had been handed down by our fathers, which were sacred, to fall into the hands of the Lamanites, (for the Lamanites would destroy them) therefore I made this record out of the plates of Nephi, and hid up in the hill Cumorah all the records which had been entrusted to me by the hand of the Lord, save it were these few plates which I gave unto my son Moroni.",
+     "markdown": "And it came to pass that when we had gathered in all our people in one to the land of Cumorah, behold I, Mormon, began to be old; and knowing it to be the last struggle of my people, and having been commanded of the Lord that I should not suffer the records which had been handed down by our fathers, which were sacred, to fall into the hands of the Lamanites, (for the Lamanites would destroy them) therefore I made this record out of the plates of Nephi, and **hid up in the hill Cumorah all the records which had been entrusted to me** by the hand of the Lord, save it were these few plates which I gave unto my son Moroni.",
+     "span": true
+    }
+   ],
+   "mirror": "morm06-011"
+  },
+  {
+   "id": "eth15-007",
+   "scope": "BOM",
+   "head": "Morm. 2:13",
+   "anchor": {
+    "verse": 16,
+    "w1": 27,
+    "w2": 43,
+    "quote": "they took up a howling and a lamentation for the loss of the slain of their people"
+   },
+   "reason": "Mormon on mourning that never turned into repentance",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 2,
+     "verse": 13,
+     "w1": 9,
+     "w2": 14,
+     "quote": "their sorrowing was not unto repentance,",
+     "verse_text": "But behold this my joy was vain, for their sorrowing was not unto repentance, because of the goodness of God; but it was rather the sorrowing of the damned, because the Lord would not always suffer them to take happiness in sin.",
+     "markdown": "But behold this my joy was vain, for **their sorrowing was not unto repentance**, because of the goodness of God; but it was rather the sorrowing of the damned, because the Lord would not always suffer them to take happiness in sin.",
+     "span": true
+    }
+   ],
+   "mirror": "morm02-011"
+  },
+  {
+   "id": "eth15-011",
+   "scope": "BOM",
+   "head": "Moro. 1:1",
+   "anchor": {
+    "verse": 33,
+    "w1": 30,
+    "w2": 33,
+    "quote": "he finished his record;"
+   },
+   "reason": "Moroni looking back at this ending",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 1,
+     "verse": 1,
+     "w1": 4,
+     "w2": 17,
+     "quote": "after having made an end of abridging the account of the people of Jared,",
+     "verse_text": "Now I, Moroni, after having made an end of abridging the account of the people of Jared, I had supposed not to have written more, but I have not as yet perished; and I make not myself known to the Lamanites lest they should destroy me.",
+     "markdown": "Now I, Moroni, **after having made an end of abridging the account of the people of Jared**, I had supposed not to have written more, but I have not as yet perished; and I make not myself known to the Lamanites lest they should destroy me.",
+     "span": true
+    }
+   ],
+   "mirror": "moro01-005"
+  },
+  {
+   "id": "eth15-012",
+   "scope": "BOM",
+   "head": "Moro. 9:4",
+   "anchor": {
+    "verse": 19,
+    "w1": 3,
+    "w2": 12,
+    "quote": "the Spirit of the Lord had ceased striving with them,"
+   },
+   "reason": "Mormon fearing the same of his own people",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 9,
+     "verse": 4,
+     "w1": 37,
+     "w2": 49,
+     "quote": "I fear lest the Spirit of the Lord hath ceased striving with them.",
+     "verse_text": "Behold, I am laboring with them continually; and when I speak the word of God with sharpness they tremble and anger against me; and when I use no sharpness they harden their hearts against it; wherefore, I fear lest the Spirit of the Lord hath ceased striving with them.",
+     "markdown": "Behold, I am laboring with them continually; and when I speak the word of God with sharpness they tremble and anger against me; and when I use no sharpness they harden their hearts against it; wherefore, **I fear lest the Spirit of the Lord hath ceased striving with them**.",
+     "span": true
+    }
+   ],
+   "mirror": "moro09-004"
+  },
+  {
+   "id": "eth15-013",
+   "scope": "BOM",
+   "head": "Moro. 9:23",
+   "anchor": {
+    "verse": 2,
+    "w1": 4,
+    "w2": 17,
+    "quote": "there had been slain by the sword already nearly two millions of his people,"
+   },
+   "reason": "Mormon naming this as the pattern ahead",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 9,
+     "verse": 23,
+     "w1": 5,
+     "w2": 18,
+     "quote": "it will be like unto the Jaredites, because of the wilfulness of their hearts,",
+     "verse_text": "And if they perish it will be like unto the Jaredites, because of the wilfulness of their hearts, seeking for blood and revenge.",
+     "markdown": "And if they perish **it will be like unto the Jaredites, because of the wilfulness of their hearts**, seeking for blood and revenge.",
+     "span": true
+    }
+   ],
+   "mirror": "moro09-005"
+  },
+  {
+   "id": "eth15-008",
+   "scope": "SW",
+   "head": "Gen. 6:3",
+   "anchor": {
+    "verse": 19,
+    "w1": 3,
+    "w2": 12,
+    "quote": "the Spirit of the Lord had ceased striving with them"
+   },
+   "reason": "the same verb, said before the flood",
+   "targets": [
+    {
+     "ref": "Gen.",
+     "chapter": 6,
+     "verse": 3,
+     "w1": 5,
+     "w2": 12,
+     "quote": "My spirit shall not always strive with man,",
+     "verse_text": "And the LORD said, My spirit shall not always strive with man, for that he also is flesh: yet his days shall be an hundred and twenty years.",
+     "markdown": "And the LORD said, **My spirit shall not always strive with man**, for that he also is flesh: yet his days shall be an hundred and twenty years.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "eth15-009",
+   "scope": "SW",
+   "head": "Jer. 31:15",
+   "anchor": {
+    "verse": 3,
+    "w1": 42,
+    "w2": 49,
+    "quote": "his soul mourned and refused to be comforted"
+   },
+   "reason": "the same refusal, given to a mother",
+   "targets": [
+    {
+     "ref": "Jer.",
+     "chapter": 31,
+     "verse": 15,
+     "w1": 15,
+     "w2": 23,
+     "quote": "Rahel weeping for her children refused to be comforted",
+     "verse_text": "Thus saith the LORD; A voice was heard in Ramah, lamentation, and bitter weeping; Rahel weeping for her children refused to be comforted for her children, because they were not.",
+     "markdown": "Thus saith the LORD; A voice was heard in Ramah, lamentation, and bitter weeping; **Rahel weeping for her children refused to be comforted** for her children, because they were not.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "eth15-010",
+   "scope": "SW",
+   "head": "Heb. 11:5",
+   "anchor": {
+    "verse": 34,
+    "w1": 12,
+    "w2": 19,
+    "quote": "Whether the Lord will that I be translated"
+   },
+   "reason": "the one case the King James Bible names",
+   "targets": [
+    {
+     "ref": "Heb.",
+     "chapter": 11,
+     "verse": 5,
+     "w1": 1,
+     "w2": 11,
+     "quote": "By faith Enoch was translated that he should not see death;",
+     "verse_text": "By faith Enoch was translated that he should not see death; and was not found, because God had translated him: for before his translation he had this testimony, that he pleased God.",
+     "markdown": "**By faith Enoch was translated that he should not see death**; and was not found, because God had translated him: for before his translation he had this testimony, that he pleased God.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 13,
+   "w2": 24,
+   "quote": "he began to remember the words which Ether had spoken unto him",
+   "entries": [
+    "eth15-001"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 4,
+   "w2": 17,
+   "quote": "there had been slain by the sword already nearly two millions of his people,",
+   "entries": [
+    "eth15-013"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 42,
+   "w2": 49,
+   "quote": "his soul mourned and refused to be comforted",
+   "entries": [
+    "eth15-009"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 20,
+   "w2": 36,
+   "quote": "it was that same hill where my father Mormon did hide up the records unto the Lord",
+   "entries": [
+    "eth15-006"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 27,
+   "w2": 43,
+   "quote": "they took up a howling and a lamentation for the loss of the slain of their people",
+   "entries": [
+    "eth15-007"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 3,
+   "w2": 12,
+   "quote": "the Spirit of the Lord had ceased striving with them,",
+   "entries": [
+    "eth15-012",
+    "eth15-008"
+   ]
+  },
+  {
+   "verse": 32,
+   "w1": 7,
+   "w2": 19,
+   "quote": "Coriantumr fell to the earth, and became as if he had no life",
+   "entries": [
+    "eth15-002"
+   ]
+  },
+  {
+   "verse": 33,
+   "w1": 30,
+   "w2": 33,
+   "quote": "he finished his record;",
+   "entries": [
+    "eth15-011"
+   ]
+  },
+  {
+   "verse": 33,
+   "w1": 34,
+   "w2": 41,
+   "quote": "(and the hundredth part I have not written)",
+   "entries": [
+    "eth15-005"
+   ]
+  },
+  {
+   "verse": 33,
+   "w1": 43,
+   "w2": 56,
+   "quote": "he hid them in a manner that the people of Limhi did find them",
+   "entries": [
+    "eth15-003",
+    "eth15-004"
+   ]
+  },
+  {
+   "verse": 34,
+   "w1": 12,
+   "w2": 19,
+   "quote": "Whether the Lord will that I be translated",
+   "entries": [
+    "eth15-010"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "2f7a4f82f24667bb"
+ }
+}

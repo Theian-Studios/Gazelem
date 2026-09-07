@@ -16,9 +16,9 @@
   "principles": [
    "Teaching from where the hearer stands",
    "Service that testifies",
-   ""
+   "Conversion by degrees"
   ],
-  "connections": 5,
+  "connections": 9,
   "initial": true
  },
  "world_behind": [
@@ -85,7 +85,7 @@
   {
    "n": 7,
    "title": "The teaching is a full course, compressed",
-   "text": "Verses 36 through 39 run from the creation and the fall through the records, the fathers' journeys, the rebellions of Laman and Lemuel, the plan of redemption and the coming of Christ. The record lists the syllabus and quotes none of it."
+   "text": "Verses 36 through 39 run from the creation and the fall through the records, the fathers' journeys, what Laman and Lemuel did against them, the plan of redemption, and the coming of Christ. The record lists the syllabus and quotes none of it."
   }
  ],
  "words": [
@@ -152,7 +152,7 @@
   {
    "term": "Guile",
    "verse_label": "v. 23",
-   "text": "Craft, cunning in getting what one wants. The verse says Lamoni \"was caught with guile\" (v. 23), and Paul uses the same construction of himself with the Corinthians. What Ammon actually did was ask a question and receive a promise, which the king gave freely. The record uses a word that sounds like trickery for a bargain struck in the open.",
+   "text": "Craft, cunning in getting what one wants. The verse says Lamoni \"was caught with guile\" (v. 23), and Paul uses the same construction of himself with the Corinthians (2 Cor. 12:16). What Ammon actually did was ask a question and receive a promise, which the king gave freely. The record uses a word that sounds like trickery for a bargain struck in the open.",
    "cites": [
     {
      "quote": "was caught with guile",
@@ -167,12 +167,24 @@
       }
      ]
     }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Cor. 12:16",
+     "start": 166,
+     "end": 178,
+     "book": "2 Cor",
+     "chapter": 12,
+     "verse_start": 16,
+     "verse_end": 16
+    }
    ]
   },
   {
    "term": "Travail",
    "verse_label": "v. 37",
-   "text": "Hard labor, and in the King James Bible usually the labor of childbirth or of the soul. Here it belongs to the fathers in the wilderness, listed with hunger and thirst. Ammon is telling a Lamanite king the story of Lehi's journey, and he counts the suffering of the people this king's ancestors abandoned."
+   "text": "Hard labor, and in the King James Bible usually the labor of childbirth or of the soul. Treated at 2 Nephi 29:4. Here it belongs to the fathers in the wilderness, listed with hunger and thirst. Ammon is telling a Lamanite king the story of Lehi's journey, and he counts the suffering of the people this king's ancestors abandoned."
   },
   {
    "term": "Expounded",
@@ -244,53 +256,100 @@
  ],
  "verses": [
   {
-   "label": "v. 1–7",
-   "start": 1,
-   "end": 7,
-   "title": "The servants' report",
-   "text": "They testify to what they saw, and the king concludes the Great Spirit has come to stop him killing them. The record then explains the tradition behind his belief, the men he had already executed, and the plunder operation at the water."
+   "label": "v. 3",
+   "start": 3,
+   "end": 3,
+   "title": "Servants who mark the limit of what they know",
+   "text": "The record gives the servants' testimony to the king a care nothing else in the chapter shows: \"Whether he be the Great Spirit or a man, we know not; but this much we do know, that he cannot be slain by the enemies of the king.\" One claim is refused and another is asserted, and the line between them is drawn explicitly. The king's own conclusion in the next verse is less cautious than his servants': \"Now I know that it is the Great Spirit.\""
   },
   {
-   "label": "v. 8–12",
-   "start": 8,
-   "end": 12,
-   "title": "Where is he",
-   "text": "The king asks after Ammon and is told he is feeding the horses, in obedience to an order given before any of this happened. The faithfulness astonishes Lamoni more than the fighting did. Ammon comes in, sees the king's face has changed, and turns to go."
-  },
-  {
-   "label": "v. 13–17",
+   "label": "v. 13",
    "start": 13,
-   "end": 17,
-   "title": "Rabbanah",
-   "text": "A servant stops him with a royal title. Ammon asks what the king wants and gets an hour of silence, then asks again. Then he answers the unasked question by naming what the king is wondering about."
+   "end": 13,
+   "title": "A title translated twice over",
+   "text": "The chapter stops to gloss a word: \"Rabbanah, which is, being interpreted, powerful or great king.\" Being interpreted is used in four verses of the whole volume, at 1 Ne. 17:5, Alma 31:21, Alma 37:38 and here. This one is unusual among the four because it offers two renderings rather than one, joined by or, which is what a translator does when no single English word will carry the term. Rabbanah stands in this verse alone.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Ne. 17:5",
+     "start": 165,
+     "end": 175,
+     "book": "1 Ne",
+     "chapter": 17,
+     "verse_start": 5,
+     "verse_end": 5
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 31:21",
+     "start": 177,
+     "end": 187,
+     "book": "Alma",
+     "chapter": 31,
+     "verse_start": 21,
+     "verse_end": 21
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 37:38",
+     "start": 189,
+     "end": 199,
+     "book": "Alma",
+     "chapter": 37,
+     "verse_start": 38,
+     "verse_end": 38
+    }
+   ]
   },
   {
-   "label": "v. 18–23",
-   "start": 18,
+   "label": "v. 14–16",
+   "start": 14,
+   "end": 16,
+   "title": "Two questions and no answer, kept in the record",
+   "text": "The record has Ammon ask \"What wilt thou that I should do for thee, O king?\" and get nothing. He asks again, \"What desirest thou of me?\", and verse 15 reports the result plainly: \"the king answered him not.\" A record could have moved straight to the conversation. Instead it preserves an hour of silence, and then explains it from the inside, since verse 16 has Ammon perceiving the king's thoughts and verse 18 has the king marvelling that he could."
+  },
+  {
+   "label": "v. 22–23",
+   "start": 22,
    "end": 23,
-   "title": "The bargain",
-   "text": "Lamoni asks who he is and gets a flat no. He offers wealth and an army. Ammon asks only that the king listen, and Lamoni promises to believe. The record calls this being caught with guile."
+   "title": "The record names its own hero's method",
+   "text": "Two descriptions sit three lines apart. The first borrows a phrase from Matt. 10:16, where the instruction is to be \"wise as serpents, and harmless as doves\": here it is \"Ammon being wise, yet harmless.\" The second is blunter. After the king promises to believe whatever he is told, the record says: \"And thus he was caught with guile.\" Guile stands in this verse alone in the whole volume. Its compound, beguile, appears at 2 Nephi 9:9, Mosiah 16:3 and elsewhere, and there it always belongs to the devil deceiving the first parents. This is the one place the shorter word is used, and it describes a missionary.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Matt. 10:16",
+     "start": 72,
+     "end": 83,
+     "book": "Matt",
+     "chapter": 10,
+     "verse_start": 16,
+     "verse_end": 16
+    },
+    {
+     "kind": "scripture",
+     "text": "Mosiah 16:3",
+     "start": 438,
+     "end": 449,
+     "book": "Mosiah",
+     "chapter": 16,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
   },
   {
-   "label": "v. 24–32",
+   "label": "v. 24–28",
    "start": 24,
-   "end": 32,
-   "title": "The catechism",
-   "text": "Believest thou there is a God: he does not know the word. Believest thou there is a Great Spirit: yes. This is God. Then creation, then the heavens, then a God who looks down and knows the thoughts of the heart."
+   "end": 28,
+   "title": "The first question fails, and the failure is kept",
+   "text": "The record has the catechism open badly: \"Believest thou that there is a God? And he answered, and said unto him: I do not know what that meaneth.\" The word does not translate. What follows is the repair, done in three short verses: \"Believest thou that there is a Great Spirit? And he said, Yea. And Ammon said: This is God.\" A record that wanted a clean conversion would have started at the second question. This one keeps the term that failed and the substitution that worked."
   },
   {
-   "label": "v. 33–39",
-   "start": 33,
+   "label": "v. 36–39",
+   "start": 36,
    "end": 39,
-   "title": "The course",
-   "text": "Ammon says he is a man, made in God's image and called by the Spirit. Then the whole syllabus: creation, the fall, the records, the fathers' journeys and sufferings, the rebellions of Laman and Lemuel, the plan of redemption, the coming of Christ."
-  },
-  {
-   "label": "v. 40–43",
-   "start": 40,
-   "end": 43,
-   "title": "Belief, and collapse",
-   "text": "The king believes it all, prays for mercy for himself and his people on the pattern of mercy shown to the Nephites, and falls as if dead. His household carries him to a bed and mourns for two days."
+   "title": "A syllabus listed and never quoted",
+   "text": "The record reports the teaching as a table of contents: he \"began at the creation of the world, and also the creation of Adam,\" told him \"all the records and the scriptures,\" rehearsed the journey of \"their father, Lehi, from Jerusalem,\" then \"the rebellions of Laman and Lemuel, and the sons of Ishmael,\" and finally \"expounded unto them the plan of redemption, which was prepared from the foundation of the world.\" Five subjects, none of them given in the speaker's words. Everything Ammon actually said in this chapter is the dialogue; everything that persuaded the king is summarised."
   }
  ],
  "chapter": [
@@ -327,7 +386,19 @@
   {
    "n": 7,
    "title": "The king's prayer is for his people before it is finished",
-   "text": "Lamoni asks mercy on himself and on his people in the same sentence, citing the mercy shown to Nephites as the precedent. His first act as a believer is intercession for a nation."
+   "text": "The whole prayer is one sentence at verse 41: \"O Lord, have mercy; according to thy abundant mercy which thou hast had upon the people of Nephi, have upon me, and my people.\" Three features stand in it. It cites a precedent, and the precedent is the mercy shown to the nation his people have been at war with. It asks for himself and for his people together. And it makes no confession and no promise. Alma 22:18 has his father pray the same way a chapter later, offering \"all my sins to know thee\" but asking nothing for himself beyond knowledge.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 22:18",
+     "start": 402,
+     "end": 412,
+     "book": "Alma",
+     "chapter": 22,
+     "verse_start": 18,
+     "verse_end": 18
+    }
+   ]
   }
  ],
  "world_in_front": {
@@ -335,22 +406,42 @@
    {
     "title": "Do the thing you were told before the crisis",
     "verse_label": "v. 9–10",
-    "text": "Ammon was feeding the horses because of an order given earlier, and that is what the king could not get past. Identify the standing instruction in your life that nobody is currently checking, and go do it today."
-   },
-   {
-    "title": "Change your vocabulary, not your audience",
-    "verse_label": "v. 25–28",
-    "text": "When Lamoni did not know the word, Ammon reached for one he had. Before deciding someone is not interested, check whether they are simply missing a term you could replace."
-   },
-   {
-    "title": "Ask for the hearing first",
-    "verse_label": "v. 22–23",
-    "text": "Ammon's one request was that the king listen to the end. Where you have something hard to say, ask for the whole hearing up front rather than trying to hold attention sentence by sentence."
+    "text": "Ammon is found \"feeding thy horses\" and preparing the chariots, an order given before any of the trouble started. The king's astonishment at verse 10 is about the faithfulness rather than the miracle. Being reliable in the standing assignment is what makes the unusual moment legible."
    },
    {
     "title": "Let the silence run",
-    "verse_label": "v. 14",
-    "text": "An hour passed and Ammon asked again rather than filling it. When someone has gone quiet because they are working something out, the useful move is usually to wait and then repeat the question."
+    "verse_label": "v. 14–15",
+    "text": "Ammon asks what the king wants and gets nothing for an hour, asks again and gets nothing again. He does not fill the gap with talking. When someone cannot answer yet, waiting is a form of respect that is easy to lose patience with."
+   },
+   {
+    "title": "Say the plain thing about yourself",
+    "verse_label": "v. 17",
+    "text": "Offered awe, Ammon declines it in nine words, \"Behold, I am a man, and am thy servant.\" When somebody overestimates you, correcting it early costs less than being found out later."
+   },
+   {
+    "title": "Ask for the hearing first",
+    "verse_label": "v. 22",
+    "text": "Ammon's one request was that the king listen, \"Wilt thou hearken unto my words, if I tell thee by what power I do these things?\" Secure the attention before spending the material, and ask for it as a favour rather than assuming it."
+   },
+   {
+    "title": "Change your vocabulary, not your audience",
+    "verse_label": "v. 24–28",
+    "text": "\"Believest thou that there is a God?\" draws \"I do not know what that meaneth,\" so Ammon asks about the Great Spirit and gets a yes, then says, \"This is God.\" Find the word the person already has and build from there."
+   },
+   {
+    "title": "Attribute the power and keep the limit",
+    "verse_label": "v. 35",
+    "text": "Ammon says a portion of the Spirit dwells in him, giving knowledge \"and also power according to my faith and desires which are in God.\" The claim is large and bounded in one sentence, and both halves are said out loud."
+   },
+   {
+    "title": "Start at the beginning when the beginning is missing",
+    "verse_label": "v. 36",
+    "text": "Having found agreement on one point, Ammon \"began at the creation of the world\" and worked forward. Somebody who lacks the frame does not need a better argument; they need the earlier chapters."
+   },
+   {
+    "title": "Pray for your people in your first prayer",
+    "verse_label": "v. 41",
+    "text": "The king's whole prayer is one sentence and it asks for two parties, \"have mercy... upon me, and my people,\" citing what was done for the Nephites as the precedent. The first thing he does as a believer is intercede for a nation."
    }
   ],
   "questions": [
@@ -358,7 +449,7 @@
     "verse_label": "v. 3",
     "start": 3,
     "end": 3,
-    "text": "When I testify about something I saw, do I mark clearly where my knowledge stops?"
+    "text": "When I testify about something I saw, do I mark where my knowledge stops?"
    },
    {
     "verse_label": "v. 5",
@@ -409,7 +500,7 @@
     "w2": 11,
     "quote": "he is feeding thy horses"
    },
-   "reason": "the servant’s post, kept",
+   "reason": "the servant's post, kept",
    "targets": [
     {
      "ref": "Alma",
@@ -423,7 +514,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al17-009"
   },
   {
    "id": "al18-002",
@@ -449,7 +540,111 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al22-011"
+  },
+  {
+   "id": "al18-007",
+   "scope": "BOOK",
+   "head": "Alma 17:39",
+   "anchor": {
+    "verse": 3,
+    "w1": 27,
+    "w2": 36,
+    "quote": "he cannot be slain by the enemies of the king;"
+   },
+   "reason": "the severed arms carried in as evidence",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 17,
+     "verse": 39,
+     "w1": 32,
+     "w2": 39,
+     "quote": "bearing the arms which had been smitten off",
+     "verse_text": "And when he had driven them afar off, he returned and they watered their flocks and returned them to the pasture of the king, and then went in unto the king, bearing the arms which had been smitten off by the sword of Ammon, of those who sought to slay him; and they were carried in unto the king for a testimony of the things which they had done.",
+     "markdown": "And when he had driven them afar off, he returned and they watered their flocks and returned them to the pasture of the king, and then went in unto the king, **bearing the arms which had been smitten off** by the sword of Ammon, of those who sought to slay him; and they were carried in unto the king for a testimony of the things which they had done.",
+     "span": true
+    }
+   ],
+   "mirror": "al17-001"
+  },
+  {
+   "id": "al18-008",
+   "scope": "BOOK",
+   "head": "Alma 22:10",
+   "anchor": {
+    "verse": 28,
+    "w1": 4,
+    "w2": 6,
+    "quote": "This is God."
+   },
+   "reason": "the father asking after the same Great Spirit",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 22,
+     "verse": 10,
+     "w1": 7,
+     "w2": 11,
+     "quote": "he is that Great Spirit,",
+     "verse_text": "And Aaron said unto him: Yea, he is that Great Spirit, and he created all things both in heaven and in earth. Believest thou this?",
+     "markdown": "And Aaron said unto him: Yea, **he is that Great Spirit**, and he created all things both in heaven and in earth. Believest thou this?",
+     "span": true
+    }
+   ],
+   "mirror": "al22-001"
+  },
+  {
+   "id": "al18-009",
+   "scope": "BOOK",
+   "head": "Alma 19:1",
+   "anchor": {
+    "verse": 43,
+    "w1": 36,
+    "w2": 40,
+    "quote": "two days and two nights;"
+   },
+   "reason": "the household about to bury him on the third day",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 19,
+     "verse": 1,
+     "w1": 21,
+     "w2": 25,
+     "quote": "lay it in a sepulchre,",
+     "verse_text": "And it came to pass that after two days and two nights they were about to take his body and lay it in a sepulchre, which they had made for the purpose of burying their dead.",
+     "markdown": "And it came to pass that after two days and two nights they were about to take his body and **lay it in a sepulchre**, which they had made for the purpose of burying their dead.",
+     "span": true
+    }
+   ],
+   "mirror": "al19-001"
+  },
+  {
+   "id": "al18-006",
+   "scope": "BOM",
+   "head": "Hel. 9:41",
+   "anchor": {
+    "verse": 2,
+    "w1": 48,
+    "w2": 54,
+    "quote": "Surely, this is more than a man."
+   },
+   "reason": "the crowd reaching the same conclusion about Nephi",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 9,
+     "verse": 41,
+     "w1": 8,
+     "w2": 24,
+     "quote": "he is a god, for except he was a god he could not know of all things.",
+     "verse_text": "And there were others who said: Behold, he is a god, for except he was a god he could not know of all things. For behold, he has told us the thoughts of our hearts, and also has told us things; and even he has brought unto our knowledge the true murderer of our chief judge.",
+     "markdown": "And there were others who said: Behold, **he is a god, for except he was a god he could not know of all things**. For behold, he has told us the thoughts of our hearts, and also has told us things; and even he has brought unto our knowledge the true murderer of our chief judge.",
+     "span": true
+    }
+   ],
+   "mirror": "hel09-007"
   },
   {
    "id": "al18-003",
@@ -487,7 +682,7 @@
     "w2": 21,
     "quote": "thus he was caught with guile"
    },
-   "reason": "Paul’s own phrase for the same move",
+   "reason": "Paul's own phrase for the same move",
    "targets": [
     {
      "ref": "2 Cor.",
@@ -532,6 +727,24 @@
  ],
  "markers": [
   {
+   "verse": 2,
+   "w1": 48,
+   "w2": 54,
+   "quote": "Surely, this is more than a man.",
+   "entries": [
+    "al18-006"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 27,
+   "w2": 36,
+   "quote": "he cannot be slain by the enemies of the king;",
+   "entries": [
+    "al18-007"
+   ]
+  },
+  {
    "verse": 9,
    "w1": 7,
    "w2": 11,
@@ -567,10 +780,28 @@
    "entries": [
     "al18-002"
    ]
+  },
+  {
+   "verse": 28,
+   "w1": 4,
+   "w2": 6,
+   "quote": "This is God.",
+   "entries": [
+    "al18-008"
+   ]
+  },
+  {
+   "verse": 43,
+   "w1": 36,
+   "w2": 40,
+   "quote": "two days and two nights;",
+   "entries": [
+    "al18-009"
+   ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "d856f808a1432273"
+  "at": "2026-09-07",
+  "source_sha256": "7b9a9e28ae63cc77"
  }
 }

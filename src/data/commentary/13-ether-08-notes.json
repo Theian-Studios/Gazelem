@@ -1,0 +1,944 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Ether",
+  "book_slug": "ether",
+  "chapter": 8,
+  "volume_order": "13",
+  "speakers": [
+   "Moroni",
+   "The daughter of Jared",
+   "Jared",
+   "Akish"
+  ],
+  "audience": "The reader, and the Gentiles addressed from verse 23",
+  "location": "The land of Heth, and the house of Jared",
+  "date": "The reign of Omer; Moroni's warning written after AD 400",
+  "unit": "The oath of Akish and Moroni's warning (Ether 8)",
+  "principles": [
+   "A plan proposed by reading an old record",
+   "An oath that binds by threatening the head",
+   "A warning addressed past the story to the reader"
+  ],
+  "connections": 16,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Omer spent half his reign in captivity",
+   "text": "Verse 4 says Omer spent half his days in captivity. Ether 10:30 and 31 list five successive kings who spent all of theirs that way, so a Jaredite king in prison is the ordinary case in this book rather than the exception.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 10:30",
+     "start": 52,
+     "end": 63,
+     "book": "Ether",
+     "chapter": 10,
+     "verse_start": 30,
+     "verse_end": 30
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "The plan comes out of a book",
+   "text": "Verse 9 has the daughter of Jared point her father to the record their fathers brought across the great deep. Helaman 6:26 insists the opposite about the Nephite band, that their oaths did not come from the records at all; Ether 8:15 says these were the oaths given by them of old, handed down from Cain. The two books disagree about whether the plans were ever written down.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 8:15",
+     "start": 223,
+     "end": 233,
+     "book": "Ether",
+     "chapter": 8,
+     "verse_start": 15,
+     "verse_end": 15
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Akish was the king's friend",
+   "text": "Verse 11 says Omer was a friend to Akish before the marriage was proposed."
+  },
+  {
+   "n": 4,
+   "title": "The oath is sworn on four things",
+   "text": "Verse 14 has them swear by the God of heaven, by the heavens, by the earth, and by their heads. Mormon 3:10 has the Nephites swear by the heavens and the throne of God to the same kind of purpose, so the record reports the identical form of oath at both ends of its history."
+  },
+  {
+   "n": 5,
+   "title": "Moroni traces the oaths to Cain",
+   "text": "Verse 15 says they had been handed down from him."
+  },
+  {
+   "n": 6,
+   "title": "Moroni withholds the wording",
+   "text": "Verse 20 keeps the text of the oaths off the plates."
+  },
+  {
+   "n": 7,
+   "title": "He says the same thing killed both nations",
+   "text": "Verse 21 says the combinations destroyed both this people and the people of Nephi. Moroni is writing after Mormon 6, so he can state as history what Helaman 2:13 could only predict about the second nation."
+  }
+ ],
+ "words": [
+  {
+   "term": "Flatter",
+   "verse_label": "v. 2",
+   "text": "To praise a person in order to move him. Treated at Alma 20:4. The record uses the word five times and the King James Bible twice.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 20:4",
+     "start": 52,
+     "end": 61,
+     "book": "Alma",
+     "chapter": 20,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
+  },
+  {
+   "term": "Expert",
+   "verse_label": "v. 8",
+   "text": "Skilled, practiced at something. Treated at Alma 10:31. It appears five times in the record and six in the King James Bible, usually of soldiers. Verse 8 applies it to the daughter of Jared.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 10:31",
+     "start": 44,
+     "end": 54,
+     "book": "Alma",
+     "chapter": 10,
+     "verse_start": 31,
+     "verse_end": 31
+    }
+   ]
+  },
+  {
+   "term": "Kinsfolk",
+   "verse_label": "v. 13",
+   "text": "Relatives by blood. Treated at Mormon 8:5. It appears three times in the record and twice in the King James Bible."
+  },
+  {
+   "term": "Divulge",
+   "verse_label": "v. 14",
+   "text": "To let out what was meant to stay hidden. The record uses the word once, here, and never the King James Bible. It appears in the oath itself."
+  },
+  {
+   "term": "Plunder",
+   "verse_label": "v. 16",
+   "text": "To strip by force. The record uses the word twelve times, none of them in the King James Bible, and lists it here among the purposes of the oaths."
+  },
+  {
+   "term": "Uphold",
+   "verse_label": "v. 22",
+   "text": "To hold a thing up, or to keep it standing. The record uses the word twice and the King James Bible eight times. Verse 22 makes a nation's survival turn on it."
+  },
+  {
+   "term": "Beguiled",
+   "verse_label": "v. 25",
+   "text": "Led astray by deception. The record uses the word twice, here and at 2 Nephi 9:9, and the King James Bible five times, including Genesis 3:13."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Because of his cunning words, until he had gained the half of the kingdom",
+   "verse_label": "v. 2",
+   "text": "The method and the result in one clause. Verse 3 turns the half into the whole by force."
+  },
+  {
+   "term": "He had set his heart upon the kingdom and upon the glory of the world",
+   "verse_label": "v. 7",
+   "text": "Moroni's account of the sorrow in verse 7. The grief has a stated object."
+  },
+  {
+   "term": "Hath he not read the record which our fathers brought across the great deep?",
+   "verse_label": "v. 9",
+   "text": "The question that starts the plan. She points him at a book they already own."
+  },
+  {
+   "term": "I am fair, and I will dance before him",
+   "verse_label": "v. 10",
+   "text": "Her own part in the plan, offered first. The rest of the verse is the price she sets."
+  },
+  {
+   "term": "Will ye swear unto me that ye will be faithful unto me in the thing which I shall desire of you?",
+   "verse_label": "v. 13",
+   "text": "The oath asked before the deed is named. The order matters."
+  },
+  {
+   "term": "Whoso should divulge whatsoever thing Akish made known unto them, the same should lose his life",
+   "verse_label": "v. 14",
+   "text": "The penalty clause. Secrecy is enforced by the same threat as disloyalty."
+  },
+  {
+   "term": "The oaths which were given by them of old who also sought power",
+   "verse_label": "v. 15",
+   "text": "Moroni placing the oaths in a line. Verse 15 runs the line back to Cain."
+  },
+  {
+   "term": "For the Lord worketh not in secret combinations",
+   "verse_label": "v. 19",
+   "text": "The flat statement dividing the two. Verse 19 adds that bloodshed was forbidden from the beginning."
+  },
+  {
+   "term": "It hath been made known unto me that they are had among all people",
+   "verse_label": "v. 20",
+   "text": "Moroni's reason for withholding the wording. He says the thing is already everywhere."
+  },
+  {
+   "term": "Whatsoever nation shall uphold such secret combinations",
+   "verse_label": "v. 22",
+   "text": "The condition on the warning, sized to a whole nation."
+  },
+  {
+   "term": "Ye shall awake to a sense of your awful situation",
+   "verse_label": "v. 24",
+   "text": "What the Lord commands the reader to do. The command is to notice."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 8–10",
+   "start": 8,
+   "end": 10,
+   "title": "A plan credited to a woman who is never named",
+   "text": "The record gives her a description, \"the daughter of Jared being exceedingly expert,\" and then hands her the initiative twice over: she \"thought to devise a plan,\" and verse 17 states again that \"it was the daughter of Jared who put it into his heart to search up these things of old.\" Her speech runs to two full verses and contains the whole scheme, including the exact words her father is to use. Nothing in the chapter supplies her name. The record names Akish, Kimnor, Jared, Omer, Esrom, and Coriantumr in the same passage."
+  },
+  {
+   "label": "v. 9",
+   "start": 9,
+   "end": 9,
+   "title": "A character citing a book the reader does not have",
+   "text": "The record has her argue from a document: \"Hath he not read the record which our fathers brought across the great deep? Behold, is there not an account concerning them of old, that they by their secret plans did obtain kingdoms and great glory?\" The record brought across the water is mentioned at Ether 1:3 and elsewhere as the source of the Jaredite history, and here it is used as a manual. The argument works only if the record is available to be consulted, which makes this the clearest statement in these books that the brought-over archive was still in use generations later.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 1:3",
+     "start": 298,
+     "end": 307,
+     "book": "Ether",
+     "chapter": 1,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
+  },
+  {
+   "label": "v. 15–19",
+   "start": 15,
+   "end": 19,
+   "title": "A practice given a genealogy back to Genesis",
+   "text": "The record does not treat the oaths as an invention. It traces them: \"the oaths which were given by them of old who also sought power, which had been handed down even from Cain, who was a murderer from the beginning.\" The phrase matches John 8:44, \"he was a murderer from the beginning,\" said of the devil rather than of Cain. Verse 19 then states the contrary principle in the record's own voice, \"the Lord worketh not in secret combinations,\" and grounds it in a prohibition dated \"from the beginning of man.\"",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "John 8:44",
+     "start": 237,
+     "end": 246,
+     "book": "John",
+     "chapter": 8,
+     "verse_start": 44,
+     "verse_end": 44
+    }
+   ]
+  },
+  {
+   "label": "v. 20",
+   "start": 20,
+   "end": 20,
+   "title": "A refusal to write, with the reason supplied",
+   "text": "The record marks the omission in the first person: \"I, Moroni, do not write the manner of their oaths and combinations.\" The reason given is not danger but redundancy, \"for it hath been made known unto me that they are had among all people, and they are had among the Lamanites.\" The same writer withholds material at Ether 13:13 and reports being forbidden at 3 Nephi 26:11, but here the decision is his own and the ground is that the reader already has access to the thing described.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 13:13",
+     "start": 318,
+     "end": 329,
+     "book": "Ether",
+     "chapter": 13,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
+  },
+  {
+   "label": "v. 23–26",
+   "start": 23,
+   "end": 26,
+   "title": "The chapter turns from the Jaredites to the reader",
+   "text": "The record breaks the frame with a vocative: \"Wherefore, O ye Gentiles, it is wisdom in God that these things should be shown unto you.\" What follows is conditional and specific, that if such combinations \"spread over the nation, behold, they shall be destroyed,\" with the warning repeated at verse 24 as a command to \"awake to a sense of your awful situation.\" Verse 26 then states the purpose of the writing itself, \"I, Moroni, am commanded to write these things that evil may be done away.\" A history of a vanished people is given an explicit present-tense use."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The plan begins with reading",
+   "text": "Verse 9 has the daughter of Jared send her father to a record they already had. What she found there was a method."
+  },
+  {
+   "n": 2,
+   "title": "The oath is sworn before the crime is named",
+   "text": "Verse 13 asks for faithfulness in a thing not yet stated, and verse 14 supplies the penalties."
+  },
+  {
+   "n": 3,
+   "title": "The penalty is the same for leaving and for telling",
+   "text": "Verse 14 attaches loss of head and loss of life to both."
+  },
+  {
+   "n": 4,
+   "title": "Moroni gives the oaths a lineage",
+   "text": "Verse 15 runs them back to Cain, and verse 18 says the combination was formed even as they of old."
+  },
+  {
+   "n": 5,
+   "title": "He refuses to record the wording",
+   "text": "Verse 20 says the manner of the oaths stays out, since the thing is already among all people."
+  },
+  {
+   "n": 6,
+   "title": "He names two dead nations in one line",
+   "text": "Verse 21 puts the Jaredites and the Nephites down to the same cause."
+  },
+  {
+   "n": 7,
+   "title": "The warning is aimed at a nation",
+   "text": "Verse 22 sets the condition on whatsoever nation upholds such combinations."
+  },
+  {
+   "n": 8,
+   "title": "The command is to wake up",
+   "text": "Verse 24 asks the reader to see the situation for what it is once these things appear."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Notice where a sorrow is anchored",
+    "verse_label": "v. 7",
+    "text": "Jared's grief is explained by saying he had set his heart upon the kingdom and upon the glory of the world. Whatever you could not lose without collapsing is a fair description of where your heart is set."
+   },
+   {
+    "title": "Watch what you read for",
+    "verse_label": "v. 9",
+    "text": "She went to the record looking for a method and found one. The book was not the problem."
+   },
+   {
+    "title": "Refuse an oath taken before the thing is named",
+    "verse_label": "v. 13",
+    "text": "Akish asked for faithfulness in a thing he had not yet described."
+   },
+   {
+    "title": "Notice who profits from your silence",
+    "verse_label": "v. 14",
+    "text": "The penalty for telling matched the penalty for quitting."
+   },
+   {
+    "title": "Trace who handed the idea to whom",
+    "verse_label": "v. 17",
+    "text": "The verse follows the chain: the daughter put it into her father's heart, Jared put it into the heart of Akish, and Akish administered it to his kindred and friends. Ideas move through named people, and being able to say who handed you yours is worth something."
+   },
+   {
+    "title": "Decline to publish the method",
+    "verse_label": "v. 20",
+    "text": "Moroni says he does not write the manner of their oaths and combinations. Reporting that a thing exists and supplying working instructions for it are separate acts, and he draws the line on purpose."
+   },
+   {
+    "title": "Wake up when you see it",
+    "verse_label": "v. 24",
+    "text": "Recognizing where you stand is what the verse asks first."
+   },
+   {
+    "title": "State what your work is for",
+    "verse_label": "v. 26",
+    "text": "Moroni says he was commanded to write these things so that evil might be done away and people might be persuaded to do good continually. Writing the purpose down is how a hard project stays aimed at something."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "What have I set my heart on that would leave me sorrowful to lose?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What am I reading in order to justify something I already want?"
+   },
+   {
+    "verse_label": "v. 10",
+    "start": 10,
+    "end": 10,
+    "text": "What have I been willing to trade that was not mine?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "Have I agreed to something before I knew what it was?"
+   },
+   {
+    "verse_label": "v. 14",
+    "start": 14,
+    "end": 14,
+    "text": "What am I keeping quiet that should be said?"
+   },
+   {
+    "verse_label": "v. 20",
+    "start": 20,
+    "end": 20,
+    "text": "What is common enough that I have stopped noticing it?"
+   },
+   {
+    "verse_label": "v. 24",
+    "start": 24,
+    "end": 24,
+    "text": "What situation am I in that I have not let myself see?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "eth08-001",
+   "scope": "BOOK",
+   "head": "Ether 7:4",
+   "anchor": {
+    "verse": 2,
+    "w1": 1,
+    "w2": 6,
+    "quote": "And Jared rebelled against his father"
+   },
+   "reason": "the same move one generation earlier",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 7,
+     "verse": 4,
+     "w1": 10,
+     "w2": 24,
+     "quote": "he rebelled against his father, and went over and dwelt in the land of Nehor;",
+     "verse_text": "And when Corihor was thirty and two years old he rebelled against his father, and went over and dwelt in the land of Nehor; and he begat sons and daughters, and they became exceedingly fair; wherefore Corihor drew away many people after him.",
+     "markdown": "And when Corihor was thirty and two years old **he rebelled against his father, and went over and dwelt in the land of Nehor**; and he begat sons and daughters, and they became exceedingly fair; wherefore Corihor drew away many people after him.",
+     "span": true
+    }
+   ],
+   "mirror": "eth07-011"
+  },
+  {
+   "id": "eth08-002",
+   "scope": "BOOK",
+   "head": "Ether 2:11",
+   "anchor": {
+    "verse": 23,
+    "w1": 2,
+    "w2": 17,
+    "quote": "O ye Gentiles, it is wisdom in God that these things should be shown unto you"
+   },
+   "reason": "the first time Moroni turns and speaks to them",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 2,
+     "verse": 11,
+     "w1": 1,
+     "w2": 16,
+     "quote": "And this cometh unto you, O ye Gentiles, that ye may know the decrees of God—that",
+     "verse_text": "And this cometh unto you, O ye Gentiles, that ye may know the decrees of God—that ye may repent, and not continue in your iniquities until the fulness come, that ye may not bring down the fulness of the wrath of God upon you as the inhabitants of the land have hitherto done.",
+     "markdown": "**And this cometh unto you, O ye Gentiles, that ye may know the decrees of God—that** ye may repent, and not continue in your iniquities until the fulness come, that ye may not bring down the fulness of the wrath of God upon you as the inhabitants of the land have hitherto done.",
+     "span": true
+    }
+   ],
+   "mirror": "eth02-015"
+  },
+  {
+   "id": "eth08-012",
+   "scope": "BOOK",
+   "head": "Ether 9:6",
+   "anchor": {
+    "verse": 7,
+    "w1": 15,
+    "w2": 29,
+    "quote": "he had set his heart upon the kingdom and upon the glory of the world."
+   },
+   "reason": "where the heart set on a kingdom ended",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 9,
+     "verse": 6,
+     "w1": 25,
+     "w2": 30,
+     "quote": "Jared was murdered upon his throne,",
+     "verse_text": "For so great had been the spreading of this wicked and secret society that it had corrupted the hearts of all the people; therefore Jared was murdered upon his throne, and Akish reigned in his stead.",
+     "markdown": "For so great had been the spreading of this wicked and secret society that it had corrupted the hearts of all the people; therefore **Jared was murdered upon his throne**, and Akish reigned in his stead.",
+     "span": true
+    }
+   ],
+   "mirror": "eth09-004"
+  },
+  {
+   "id": "eth08-013",
+   "scope": "BOOK",
+   "head": "Ether 9:5",
+   "anchor": {
+    "verse": 15,
+    "w1": 19,
+    "w2": 31,
+    "quote": "the oaths which were given by them of old who also sought power,"
+   },
+   "reason": "Akish calling in the oath a chapter later",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 9,
+     "verse": 5,
+     "w1": 15,
+     "w2": 28,
+     "quote": "he applied unto those whom he had sworn by the oath of the ancients,",
+     "verse_text": "And it came to pass that Akish sought the life of his father-in-law; and he applied unto those whom he had sworn by the oath of the ancients, and they obtained the head of his father-in-law, as he sat upon his throne, giving audience to his people.",
+     "markdown": "And it came to pass that Akish sought the life of his father-in-law; and **he applied unto those whom he had sworn by the oath of the ancients**, and they obtained the head of his father-in-law, as he sat upon his throne, giving audience to his people.",
+     "span": true
+    }
+   ],
+   "mirror": "eth09-001"
+  },
+  {
+   "id": "eth08-014",
+   "scope": "BOOK",
+   "head": "Ether 10:33",
+   "anchor": {
+    "verse": 15,
+    "w1": 19,
+    "w2": 31,
+    "quote": "the oaths which were given by them of old who also sought power,"
+   },
+   "reason": "the old plans adopted again, generations on",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 10,
+     "verse": 33,
+     "w1": 16,
+     "w2": 29,
+     "quote": "they adopted the old plans, and administered oaths after the manner of the ancients,",
+     "verse_text": "And in the days of Com there began to be robbers in the land; and they adopted the old plans, and administered oaths after the manner of the ancients, and sought again to destroy the kingdom.",
+     "markdown": "And in the days of Com there began to be robbers in the land; and **they adopted the old plans, and administered oaths after the manner of the ancients**, and sought again to destroy the kingdom.",
+     "span": true
+    }
+   ],
+   "mirror": "eth10-004"
+  },
+  {
+   "id": "eth08-015",
+   "scope": "BOOK",
+   "head": "Ether 11:7",
+   "anchor": {
+    "verse": 22,
+    "w1": 2,
+    "w2": 13,
+    "quote": "whatsoever nation shall uphold such secret combinations, to get power and gain,"
+   },
+   "reason": "the wars that came of those combinations",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 11,
+     "verse": 7,
+     "w1": 11,
+     "w2": 15,
+     "quote": "because of their wicked combinations;",
+     "verse_text": "And they hearkened not unto the voice of the Lord, because of their wicked combinations; wherefore, there began to be wars and contentions in all the land, and also many famines and pestilences, insomuch that there was a great destruction, such an one as never had been known upon the face of the earth; and all this came to pass in the days of Shiblom.",
+     "markdown": "And they hearkened not unto the voice of the Lord, **because of their wicked combinations**; wherefore, there began to be wars and contentions in all the land, and also many famines and pestilences, insomuch that there was a great destruction, such an one as never had been known upon the face of the earth; and all this came to pass in the days of Shiblom.",
+     "span": true
+    }
+   ],
+   "mirror": "eth11-002"
+  },
+  {
+   "id": "eth08-016",
+   "scope": "BOOK",
+   "head": "Ether 14:24",
+   "anchor": {
+    "verse": 22,
+    "w1": 44,
+    "w2": 61,
+    "quote": "shall always cry unto him from the ground for vengeance upon them and yet he avenge them not."
+   },
+   "reason": "Shiz swearing to avenge his brother's blood",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 14,
+     "verse": 24,
+     "w1": 10,
+     "w2": 23,
+     "quote": "he had sworn to avenge himself upon Coriantumr of the blood of his brother,",
+     "verse_text": "Nevertheless, Shiz did not cease to pursue Coriantumr; for he had sworn to avenge himself upon Coriantumr of the blood of his brother, who had been slain, and the word of the Lord which came to Ether that Coriantumr should not fall by the sword.",
+     "markdown": "Nevertheless, Shiz did not cease to pursue Coriantumr; for **he had sworn to avenge himself upon Coriantumr of the blood of his brother**, who had been slain, and the word of the Lord which came to Ether that Coriantumr should not fall by the sword.",
+     "span": true
+    }
+   ],
+   "mirror": "eth14-004"
+  },
+  {
+   "id": "eth08-003",
+   "scope": "BOM",
+   "head": "Alma 20:4",
+   "anchor": {
+    "verse": 2,
+    "w1": 24,
+    "w2": 31,
+    "quote": "flatter many people, because of his cunning words"
+   },
+   "reason": "Ammon on what flattery can buy",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 20,
+     "verse": 4,
+     "w1": 59,
+     "w2": 64,
+     "quote": "flatter the king of the land,",
+     "verse_text": "Now Lamoni said unto Ammon: I know, in the strength of the Lord thou canst do all things. But behold, I will go with thee to the land of Middoni; for the king of the land of Middoni, whose name is Antiomno, is a friend unto me; therefore I go to the land of Middoni, that I may flatter the king of the land, and he will cast thy brethren out of prison. Now Lamoni said unto him: Who told thee that thy brethren were in prison?",
+     "markdown": "Now Lamoni said unto Ammon: I know, in the strength of the Lord thou canst do all things. But behold, I will go with thee to the land of Middoni; for the king of the land of Middoni, whose name is Antiomno, is a friend unto me; therefore I go to the land of Middoni, that I may **flatter the king of the land**, and he will cast thy brethren out of prison. Now Lamoni said unto him: Who told thee that thy brethren were in prison?",
+     "span": true
+    }
+   ],
+   "mirror": "al20-004"
+  },
+  {
+   "id": "eth08-004",
+   "scope": "BOM",
+   "head": "Hel. 6:22",
+   "anchor": {
+    "verse": 15,
+    "w1": 19,
+    "w2": 31,
+    "quote": "the oaths which were given by them of old who also sought power"
+   },
+   "reason": "the Gadianton signs and words, traced to the same source",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 6,
+     "verse": 22,
+     "w1": 13,
+     "w2": 19,
+     "quote": "their secret signs, and their secret words;",
+     "verse_text": "And it came to pass that they did have their signs, yea, their secret signs, and their secret words; and this that they might distinguish a brother who had entered into the covenant, that whatsoever wickedness his brother should do he should not be injured by his brother, nor by those who did belong to his band, who had taken this covenant.",
+     "markdown": "And it came to pass that they did have their signs, yea, **their secret signs, and their secret words**; and this that they might distinguish a brother who had entered into the covenant, that whatsoever wickedness his brother should do he should not be injured by his brother, nor by those who did belong to his band, who had taken this covenant.",
+     "span": true
+    }
+   ],
+   "mirror": "hel06-006"
+  },
+  {
+   "id": "eth08-005",
+   "scope": "BOM",
+   "head": "Hel. 2:4",
+   "anchor": {
+    "verse": 18,
+    "w1": 7,
+    "w2": 16,
+    "quote": "they formed a secret combination, even as they of old"
+   },
+   "reason": "Kishkumen and Gadianton forming one",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 2,
+     "verse": 4,
+     "w1": 18,
+     "w2": 28,
+     "quote": "to carry on the secret work of murder and of robbery;",
+     "verse_text": "For there was one Gadianton, who was exceedingly expert in many words, and also in his craft, to carry on the secret work of murder and of robbery; therefore he became the leader of the band of Kishkumen.",
+     "markdown": "For there was one Gadianton, who was exceedingly expert in many words, and also in his craft, **to carry on the secret work of murder and of robbery**; therefore he became the leader of the band of Kishkumen.",
+     "span": true
+    }
+   ],
+   "mirror": "hel02-006"
+  },
+  {
+   "id": "eth08-006",
+   "scope": "BOM",
+   "head": "3 Ne. 6:28",
+   "anchor": {
+    "verse": 18,
+    "w1": 7,
+    "w2": 16,
+    "quote": "they formed a secret combination, even as they of old"
+   },
+   "reason": "the Nephite judges entering the same covenant",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 6,
+     "verse": 28,
+     "w1": 14,
+     "w2": 31,
+     "quote": "that covenant which was given by them of old, which covenant was given and administered by the devil,",
+     "verse_text": "And they did enter into a covenant one with another, yea, even into that covenant which was given by them of old, which covenant was given and administered by the devil, to combine against all righteousness.",
+     "markdown": "And they did enter into a covenant one with another, yea, even into **that covenant which was given by them of old, which covenant was given and administered by the devil**, to combine against all righteousness.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne06-008"
+  },
+  {
+   "id": "eth08-007",
+   "scope": "BOM",
+   "head": "3 Ne. 3:9",
+   "anchor": {
+    "verse": 22,
+    "w1": 2,
+    "w2": 13,
+    "quote": "whatsoever nation shall uphold such secret combinations, to get power and gain"
+   },
+   "reason": "a robber chief writing under that title",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 3,
+     "verse": 9,
+     "w1": 7,
+     "w2": 17,
+     "quote": "I am the governor of this the secret society of Gadianton;",
+     "verse_text": "And behold, I am Giddianhi; and I am the governor of this the secret society of Gadianton; which society and the works thereof I know to be good; and they are of ancient date and they have been handed down unto us.",
+     "markdown": "And behold, I am Giddianhi; and **I am the governor of this the secret society of Gadianton**; which society and the works thereof I know to be good; and they are of ancient date and they have been handed down unto us.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne03-005"
+  },
+  {
+   "id": "eth08-008",
+   "scope": "BOM",
+   "head": "2 Ne. 9:9",
+   "anchor": {
+    "verse": 25,
+    "w1": 48,
+    "w2": 55,
+    "quote": "that same liar who beguiled our first parents"
+   },
+   "reason": "Jacob crediting the same figure with the same act",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 9,
+     "verse": 9,
+     "w1": 45,
+     "w2": 49,
+     "quote": "who beguiled our first parents,",
+     "verse_text": "And our spirits must have become like unto him, and we become devils, angels to a devil, to be shut out from the presence of our God, and to remain with the father of lies, in misery, like unto himself; yea, to that being who beguiled our first parents, who transformeth himself nigh unto an angel of light, and stirreth up the children of men unto secret combinations of murder and all manner of secret works of darkness.",
+     "markdown": "And our spirits must have become like unto him, and we become devils, angels to a devil, to be shut out from the presence of our God, and to remain with the father of lies, in misery, like unto himself; yea, to that being **who beguiled our first parents**, who transformeth himself nigh unto an angel of light, and stirreth up the children of men unto secret combinations of murder and all manner of secret works of darkness.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne09-008"
+  },
+  {
+   "id": "eth08-009",
+   "scope": "BOM",
+   "head": "1 Ne. 2:9",
+   "anchor": {
+    "verse": 26,
+    "w1": 49,
+    "w2": 58,
+    "quote": "come unto the fountain of all righteousness and be saved"
+   },
+   "reason": "Lehi's image for Laman, used to close this chapter",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 2,
+     "verse": 9,
+     "w1": 37,
+     "w2": 41,
+     "quote": "the fountain of all righteousness!",
+     "verse_text": "And when my father saw that the waters of the river emptied into the fountain of the Red Sea, he spake unto Laman, saying: O that thou mightest be like unto this river, continually running into the fountain of all righteousness!",
+     "markdown": "And when my father saw that the waters of the river emptied into the fountain of the Red Sea, he spake unto Laman, saying: O that thou mightest be like unto this river, continually running into **the fountain of all righteousness**!",
+     "span": true
+    }
+   ],
+   "mirror": "1ne02-008"
+  },
+  {
+   "id": "eth08-010",
+   "scope": "SW",
+   "head": "Gen. 4:8",
+   "anchor": {
+    "verse": 15,
+    "w1": 32,
+    "w2": 46,
+    "quote": "which had been handed down even from Cain, who was a murderer from the beginning"
+   },
+   "reason": "the killing at the head of that line",
+   "targets": [
+    {
+     "ref": "Gen.",
+     "chapter": 4,
+     "verse": 8,
+     "w1": 20,
+     "w2": 29,
+     "quote": "Cain rose up against Abel his brother, and slew him.",
+     "verse_text": "And Cain talked with Abel his brother: and it came to pass, when they were in the field, that Cain rose up against Abel his brother, and slew him.",
+     "markdown": "And Cain talked with Abel his brother: and it came to pass, when they were in the field, that **Cain rose up against Abel his brother, and slew him**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "eth08-011",
+   "scope": "SW",
+   "head": "John 8:44",
+   "anchor": {
+    "verse": 25,
+    "w1": 33,
+    "w2": 46,
+    "quote": "it is built up by the devil, who is the father of all lies"
+   },
+   "reason": "the same two titles in one verse",
+   "targets": [
+    {
+     "ref": "John",
+     "chapter": 8,
+     "verse": 44,
+     "w1": 17,
+     "w2": 23,
+     "quote": "He was a murderer from the beginning,",
+     "verse_text": "Ye are of your father the devil, and the lusts of your father ye will do. He was a murderer from the beginning, and abode not in the truth, because there is no truth in him. When he speaketh a lie, he speaketh of his own: for he is a liar, and the father of it.",
+     "markdown": "Ye are of your father the devil, and the lusts of your father ye will do. **He was a murderer from the beginning**, and abode not in the truth, because there is no truth in him. When he speaketh a lie, he speaketh of his own: for he is a liar, and the father of it.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 1,
+   "w2": 6,
+   "quote": "And Jared rebelled against his father",
+   "entries": [
+    "eth08-001"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 24,
+   "w2": 31,
+   "quote": "flatter many people, because of his cunning words",
+   "entries": [
+    "eth08-003"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 15,
+   "w2": 29,
+   "quote": "he had set his heart upon the kingdom and upon the glory of the world.",
+   "entries": [
+    "eth08-012"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 19,
+   "w2": 31,
+   "quote": "the oaths which were given by them of old who also sought power,",
+   "entries": [
+    "eth08-013",
+    "eth08-014",
+    "eth08-004"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 32,
+   "w2": 46,
+   "quote": "which had been handed down even from Cain, who was a murderer from the beginning",
+   "entries": [
+    "eth08-010"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 7,
+   "w2": 16,
+   "quote": "they formed a secret combination, even as they of old",
+   "entries": [
+    "eth08-005",
+    "eth08-006"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 2,
+   "w2": 13,
+   "quote": "whatsoever nation shall uphold such secret combinations, to get power and gain,",
+   "entries": [
+    "eth08-015",
+    "eth08-007"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 44,
+   "w2": 61,
+   "quote": "shall always cry unto him from the ground for vengeance upon them and yet he avenge them not.",
+   "entries": [
+    "eth08-016"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 2,
+   "w2": 17,
+   "quote": "O ye Gentiles, it is wisdom in God that these things should be shown unto you",
+   "entries": [
+    "eth08-002"
+   ]
+  },
+  {
+   "verse": 25,
+   "w1": 33,
+   "w2": 46,
+   "quote": "it is built up by the devil, who is the father of all lies",
+   "entries": [
+    "eth08-011"
+   ]
+  },
+  {
+   "verse": 25,
+   "w1": 48,
+   "w2": 55,
+   "quote": "that same liar who beguiled our first parents",
+   "entries": [
+    "eth08-008"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 49,
+   "w2": 58,
+   "quote": "come unto the fountain of all righteousness and be saved",
+   "entries": [
+    "eth08-009"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "284481e277ea82b1"
+ }
+}

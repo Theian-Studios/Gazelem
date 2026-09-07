@@ -17,7 +17,7 @@
    "The Redeemer",
    "Likening"
   ],
-  "connections": 17,
+  "connections": 22,
   "initial": false
  },
  "world_behind": [
@@ -188,7 +188,7 @@
   {
    "term": "Engraven",
    "verse_label": "v. 1",
-   "text": "\"I might engraven upon them the record of my people\" (v. 1): writing as metalwork. An engraved word costs strokes of a graver in smelted ore, and the price per sentence explains this record's editorial economy: nothing goes onto the plates that the engraver has not already judged worth the metal.",
+   "text": "\"I might engraven upon them the record of my people\" (v. 1): writing as metalwork. Treated at 1 Nephi 9:3. An engraved word costs strokes of a graver in smelted ore, and the price per sentence explains this record's editorial economy: nothing goes onto the plates that the engraver has not already judged worth the metal.",
    "cites": [
     {
      "quote": "I might engraven upon them the record of my people",
@@ -208,13 +208,13 @@
   {
    "term": "Genealogy",
    "verse_label": "v. 2",
-   "text": "Family lines get named in this record mostly so a reader can be told where they are not. Here the line of Lehi's fathers is listed among the contents of the first plates, \"the genealogy of his fathers, and the more part of all our proceedings\" (v. 2), and Nephi had already refused to copy it onto the plates he is writing on (1 Ne. 6:1). Centuries later Zarahemla will recite his own line from memory and it goes into a different book (Omni 1:18). The chapters of begats that fill Chronicles have a place in this library. It is simply not the ministry track.",
+   "text": "Family lines get named in this record mostly so a reader can be told where they are not. Treated at 1 Nephi 6:1. Here the line of Lehi's fathers is listed among the contents of the first plates, \"the genealogy of his fathers, and the more part of all our proceedings\" (v. 2), and Nephi had already refused to copy it onto the plates he is writing on (1 Ne. 6:1). Centuries later Zarahemla will recite his own line from memory and it goes into a different book (Omni 1:18). The chapters of begats that fill Chronicles have a place in this library. It is simply not the ministry track.",
    "cites": [
     {
      "quote": "the genealogy of his fathers, and the more part of all our proceedings",
      "verse": 2,
-     "start": 171,
-     "end": 250,
+     "start": 195,
+     "end": 274,
      "spans": [
       {
        "w1": 31,
@@ -228,8 +228,8 @@
     {
      "kind": "scripture",
      "text": "1 Ne. 6:1",
-     "start": 327,
-     "end": 336,
+     "start": 351,
+     "end": 360,
      "book": "1 Ne",
      "chapter": 6,
      "verse_start": 1,
@@ -238,12 +238,32 @@
     {
      "kind": "scripture",
      "text": "Omni 1:18",
-     "start": 437,
-     "end": 446,
+     "start": 461,
+     "end": 470,
      "book": "Omni",
      "chapter": 1,
      "verse_start": 18,
      "verse_end": 18
+    }
+   ]
+  },
+  {
+   "term": "Transpired",
+   "verse_label": "v. 2",
+   "text": "Happened, came about. The record uses the word four times and the King James Bible never. Nephi says \"the things which transpired before I made these plates\" (v. 2) are on the first set, and the word draws a line across his own work: everything on the far side of it has been written once already, and this second telling will be a selection.",
+   "cites": [
+    {
+     "quote": "the things which transpired before I made these plates",
+     "verse": 2,
+     "start": 101,
+     "end": 164,
+     "spans": [
+      {
+       "w1": 59,
+       "w2": 67,
+       "text": "the things which transpired before I made these plates"
+      }
+     ]
     }
    ]
   },
@@ -403,7 +423,7 @@
   {
    "term": "A hiss and a byword",
    "verse_label": "v. 14",
-   "text": "Moses' covenant curse (Deut. 28:37) surfacing in Zenos's prophecy: Israel scattered into a proverb, a thing nations whistle at. The record quotes the curse in full knowledge of its other half; the same Deuteronomy that promised the byword promised the regathering.",
+   "text": "Moses' covenant curse (Deut. 28:37) surfacing in Zenos's prophecy: Israel scattered into a proverb, a thing nations whistle at. The record quotes the curse in full knowledge of its other half; the same Deuteronomy that promised the byword promised the regathering (Deut. 30:3).",
    "refs": [
     {
      "kind": "scripture",
@@ -414,6 +434,16 @@
      "chapter": 28,
      "verse_start": 37,
      "verse_end": 37
+    },
+    {
+     "kind": "scripture",
+     "text": "Deut. 30:3",
+     "start": 265,
+     "end": 275,
+     "book": "Deut",
+     "chapter": 30,
+     "verse_start": 3,
+     "verse_end": 3
     }
    ]
   },
@@ -460,275 +490,63 @@
  ],
  "verses": [
   {
-   "label": "v. 1–2",
+   "label": "v. 1–4",
    "start": 1,
+   "end": 4,
+   "title": "Two records, and the rule for dividing them",
+   "text": "Four verses set out an editorial policy. One set of plates carries \"the ministry and the prophecies, the more plain and precious parts of them,\" and the other \"a greater account of the wars and contentions and destructions of my people.\" The phrase more plain and precious occurs once in the volume, in verse 3. Plates of ore occurs twice, here and at Mosiah 21:27, where a search party finds a record engraved on them. A reader holding one of the two sets is told what is on the other and why the material was split.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 21:27",
+     "start": 352,
+     "end": 364,
+     "book": "Mosiah",
+     "chapter": 21,
+     "verse_start": 27,
+     "verse_end": 27
+    }
+   ]
+  },
+  {
+   "label": "v. 2",
+   "start": 2,
    "end": 2,
-   "title": "The forge remembers",
-   "text": "Commanded, Nephi makes plates of ore and loads them with father's record, journeyings, prophecies: the large plates, made \"at the time\" (v. 2) when no second record was in view. The verse quietly dates the two-records doctrine: obedience came first, architecture later.",
-   "cites": [
-    {
-     "quote": "at the time",
-     "verse": 2,
-     "start": 122,
-     "end": 142,
-     "spans": [
-      {
-       "w1": 5,
-       "w2": 7,
-       "text": "at the time"
-      }
-     ]
-    }
-   ]
+   "title": "The second set was not planned",
+   "text": "The writer states, in the middle of describing his own work, that he did not know he would be doing it: \"I knew not at the time when I made them that I should be commanded of the Lord to make these plates.\" The consequence is given in the same verse, that his father's record and genealogy are on the first set and not repeated on this one. An account of a document's origin includes the fact that its maker was working without a plan at the point the material was laid down."
   },
   {
-   "label": "v. 3–5",
-   "start": 3,
+   "label": "v. 5",
+   "start": 5,
    "end": 5,
-   "title": "The ministry track, and its sealed reasons",
-   "text": "These plates are for \"the instruction of my people\" (v. 3) and for \"other wise purposes\" (v. 3) the Lord keeps to himself. The large plates get the \"wars and contentions and destructions\" (v. 4); succession is set \"from one generation to another, or from one prophet to another\" (v. 4). A library is being designed around a purpose its librarian cannot see.",
-   "cites": [
+   "title": "A promise about a passage not yet written",
+   "text": "One clause defers an explanation: \"an account of my making these plates shall be given hereafter.\" The record commits itself to something a reader can later check, and the passage arrives at 2 Ne. 5:28–33, six chapters and a book later. The same verse gives the reason for the whole arrangement, \"this I do that the more sacred things may be kept for the knowledge of my people,\" which makes the division a matter of preservation rather than of length.",
+   "refs": [
     {
-     "quote": "the instruction of my people",
-     "verse": 3,
-     "start": 21,
-     "end": 58,
-     "spans": [
-      {
-       "w1": 48,
-       "w2": 52,
-       "text": "the instruction of my people"
-      }
-     ]
-    },
-    {
-     "quote": "other wise purposes",
-     "verse": 3,
-     "start": 67,
-     "end": 95,
-     "spans": [
-      {
-       "w1": 61,
-       "w2": 63,
-       "text": "other wise purposes"
-      }
-     ]
-    },
-    {
-     "quote": "wars and contentions and destructions",
-     "verse": 4,
-     "start": 148,
-     "end": 194,
-     "spans": [
-      {
-       "w1": 24,
-       "w2": 28,
-       "text": "wars and contentions and destructions"
-      }
-     ]
-    },
-    {
-     "quote": "from one generation to another, or from one prophet to another",
-     "verse": 4,
-     "start": 214,
-     "end": 285,
-     "spans": [
-      {
-       "w1": 57,
-       "w2": 67,
-       "text": "from one generation to another, or from one prophet to another"
-      }
-     ]
+     "kind": "scripture",
+     "text": "2 Ne. 5:28–33",
+     "start": 191,
+     "end": 204,
+     "book": "2 Ne",
+     "chapter": 5,
+     "verse_start": 28,
+     "verse_end": 33
     }
    ]
   },
   {
-   "label": "v. 6–7",
-   "start": 6,
-   "end": 7,
-   "title": "The humility clause and the trampling",
-   "text": "Nephi writes only what he thinks sacred, allows that \"if I do err, even did they err of old\" (v. 6), then names the opposite error: things of great worth trampled underfoot, until \"the very God of Israel do men trample under their feet\" (v. 7). The engraver's fear is not writing badly; it is the reader who sets the sacred at naught.",
-   "cites": [
-    {
-     "quote": "if I do err, even did they err of old",
-     "verse": 6,
-     "start": 53,
-     "end": 99,
-     "spans": [
-      {
-       "w1": 20,
-       "w2": 29,
-       "text": "if I do err, even did they err of old"
-      }
-     ]
-    },
-    {
-     "quote": "the very God of Israel do men trample under their feet",
-     "verse": 7,
-     "start": 180,
-     "end": 243,
-     "spans": [
-      {
-       "w1": 30,
-       "w2": 40,
-       "text": "the very God of Israel do men trample under their feet"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 8–10",
-   "start": 8,
-   "end": 10,
-   "title": "The footnoted Messiah",
-   "text": "Six hundred years out, the prophecy runs blow by blow: scourged, smitten, spit upon, each met with \"and he suffereth it\" (v. 9). Then the identification: the \"God of Abraham, and of Isaac, and the God of Jacob\" (v. 10), the Egypt-leading God, yields himself to wicked hands, with Zenock, Neum, and Zenos cited for the lifting up, the cross, and the burial. The boldest paragraph on the plates is also the best sourced.",
-   "cites": [
-    {
-     "quote": "and he suffereth it",
-     "verse": 9,
-     "start": 99,
-     "end": 127,
-     "spans": [
-      {
-       "w1": 21,
-       "w2": 24,
-       "text": "and he suffereth it"
-      }
-     ]
-    },
-    {
-     "quote": "God of Abraham, and of Isaac, and the God of Jacob",
-     "verse": 10,
-     "start": 158,
-     "end": 218,
-     "spans": [
-      {
-       "w1": 27,
-       "w2": 37,
-       "text": "God of Abraham, and of Isaac, and the God of Jacob"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 11–14",
+   "label": "v. 11–17",
    "start": 11,
-   "end": 14,
-   "title": "Two visitations, one day",
-   "text": "Zenos's crucifixion day splits its audience: \"some with his voice, because of their righteousness\" (v. 11), others with tempest, fire, and opening earth; rocks rend and island kings confess. For Jerusalem the sequence inverts into judgment: scourged by all people, wandering, a hiss and a byword. The same death sorts the whole world by the state of its hearts.",
-   "cites": [
-    {
-     "quote": "some with his voice, because of their righteousness",
-     "verse": 11,
-     "start": 45,
-     "end": 106,
-     "spans": [
-      {
-       "w1": 20,
-       "w2": 27,
-       "text": "some with his voice, because of their righteousness"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 15–17",
-   "start": 15,
    "end": 17,
-   "title": "The turn",
-   "text": "Three verses of \"then\": hearts stop turning aside, covenants are remembered, isles are remembered, and the gathering runs \"from the four quarters of the earth\" (v. 16) until \"all the earth shall see the salvation of the Lord\" (v. 17). Zenos's prophecy ends as universally as it began darkly; the byword becomes the blessing of every nation.",
-   "cites": [
-    {
-     "quote": "from the four quarters of the earth",
-     "verse": 16,
-     "start": 122,
-     "end": 167,
-     "spans": [
-      {
-       "w1": 38,
-       "w2": 44,
-       "text": "from the four quarters of the earth"
-      }
-     ]
-    },
-    {
-     "quote": "all the earth shall see the salvation of the Lord",
-     "verse": 17,
-     "start": 174,
-     "end": 233,
-     "spans": [
-      {
-       "w1": 3,
-       "w2": 12,
-       "text": "all the earth shall see the salvation of the Lord"
-      }
-     ]
-    }
-   ]
+   "title": "The attribution repeated instead of stated once",
+   "text": "Saith the prophet stands in verses 12, 13, 14, 15 and 17, and verse 11 opens the passage with \"thus spake the prophet.\" Six markers across seven verses, when one would carry the quotation. The effect is that no sentence in the block can be mistaken for the writer's own, and the reader is reminded at each turn that this is copied material with a named source, Zenos, whose text is not otherwise available."
   },
   {
-   "label": "v. 18–24",
-   "start": 18,
-   "end": 24,
-   "title": "Why he wrote, and what he read",
-   "text": "The purpose sentence of the small plates: \"that perhaps I might persuade them that they would remember the Lord their Redeemer\" (v. 18), with \"perhaps\" carrying the weight of a man whose \"workings in the spirit\" (v. 20) weary his joints for Jerusalem. Then the method: reading Moses, then Isaiah, likening all of it, and the summons that opens the next two chapters: \"Hear ye the words of the prophet\" (v. 24), spoken to \"a branch who have been broken off\" (v. 24) so that they may have hope.",
-   "cites": [
-    {
-     "quote": "that perhaps I might persuade them that they would remember the Lord their Redeemer",
-     "verse": 18,
-     "start": 42,
-     "end": 135,
-     "spans": [
-      {
-       "w1": 11,
-       "w2": 24,
-       "text": "that perhaps I might persuade them that they would remember the Lord their Redeemer"
-      }
-     ]
-    },
-    {
-     "quote": "workings in the spirit",
-     "verse": 20,
-     "start": 187,
-     "end": 219,
-     "spans": [
-      {
-       "w1": 5,
-       "w2": 8,
-       "text": "workings in the spirit"
-      }
-     ]
-    },
-    {
-     "quote": "Hear ye the words of the prophet",
-     "verse": 24,
-     "start": 367,
-     "end": 409,
-     "spans": [
-      {
-       "w1": 7,
-       "w2": 13,
-       "text": "Hear ye the words of the prophet"
-      }
-     ]
-    },
-    {
-     "quote": "a branch who have been broken off",
-     "verse": 24,
-     "start": 421,
-     "end": 464,
-     "spans": [
-      {
-       "w1": 24,
-       "w2": 30,
-       "text": "a branch who have been broken off"
-      }
-     ]
-    }
-   ]
+   "label": "v. 22–23",
+   "start": 22,
+   "end": 23,
+   "title": "A reading list chosen for its effect",
+   "text": "The chapter ends with a teacher describing his own selection and the reason for it. He read \"many things which were engraven upon the plates of brass,\" then \"many things which were written in the books of Moses,\" and then a choice with a stated purpose: \"but that I might more fully persuade them to believe in the Lord their Redeemer I did read unto them that which was written by the prophet Isaiah.\" The method is given in the same breath: \"I did liken all scriptures unto us, that it might be for our profit and learning.\""
   }
  ],
  "chapter": [
@@ -750,7 +568,19 @@
   {
    "n": 4,
    "title": "A bigger canon stands behind this one",
-   "text": "Zenock, Neum, and Zenos carry the chapter's christology, and the record cites them the way later scripture cites Isaiah. The brass plates are a window onto prophetic writing the surviving Bible lost, and this chapter is most of what remains of it."
+   "text": "Three prophets are named at verses 10 and 12 who appear in no surviving Bible: Zenock, Neum, and Zenos. Each is quoted for a distinct item, crucifixion, burial in a sepulchre, and three days of darkness. Verse 21 states where the material came from, \"they are written upon the plates of brass.\" Zenos is quoted again at Jacob 5 for seventy-seven verses and named at Alma 33:3, Helaman 8:19, and 3 Nephi 10:16. Zenock is named in five verses of these books; Neum in this one only.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 33:3",
+     "start": 366,
+     "end": 375,
+     "book": "Alma",
+     "chapter": 33,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
   },
   {
    "n": 5,
@@ -760,7 +590,19 @@
   {
    "n": 6,
    "title": "Likening is the record's way of reading",
-   "text": "Read the books of Moses, read Isaiah, and refuse to file any of it as other people's history: profit and learning come when the broken-off branch finds itself in the text. The next two chapters are this method demonstrated at full length."
+   "text": "Verse 23 states the method and its purpose together, \"I did liken all scriptures unto us, that it might be for our profit and learning,\" and verse 24 turns it into an instruction to hearers, \"liken them unto yourselves.\" The word is used in that sense in four verses of these books, twice here and twice at 2 Nephi 11; its other appearances, at Jacob 5:3 and 3 Nephi 14:24, mean comparison rather than application. The two chapters that follow, 1 Nephi 20 and 21, reproduce Isaiah 48 and 49 in full, so the method is stated and then demonstrated over fifty-two verses.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 5:3",
+     "start": 345,
+     "end": 354,
+     "book": "Jacob",
+     "chapter": 5,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
   },
   {
    "n": 7,
@@ -1151,7 +993,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel14-014"
   },
   {
    "id": "1ne19-005",
@@ -1178,6 +1020,136 @@
     }
    ],
    "mirror": "2ne11-003"
+  },
+  {
+   "id": "1ne19-018",
+   "scope": "BOM",
+   "head": "Alma 33:15",
+   "anchor": {
+    "verse": 10,
+    "w1": 26,
+    "w2": 37,
+    "quote": "the God of Abraham, and of Isaac, and the God of Jacob,"
+   },
+   "reason": "Alma adding Zenock to the prophets he quotes",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 33,
+     "verse": 15,
+     "w1": 14,
+     "w2": 19,
+     "quote": "Zenock also spake of these things—",
+     "verse_text": "For it is not written that Zenos alone spake of these things, but Zenock also spake of these things—",
+     "markdown": "For it is not written that Zenos alone spake of these things, but **Zenock also spake of these things—**",
+     "span": true
+    }
+   ],
+   "mirror": "al33-004"
+  },
+  {
+   "id": "1ne19-019",
+   "scope": "BOM",
+   "head": "3 Ne. 10:13",
+   "anchor": {
+    "verse": 11,
+    "w1": 45,
+    "w2": 51,
+    "quote": "by tempest, by fire, and by smoke,"
+   },
+   "reason": "the spared survivors, listed against the same visitations",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 10,
+     "verse": 13,
+     "w1": 51,
+     "w2": 62,
+     "quote": "neither were they overpowered by the vapor of smoke and of darkness.",
+     "verse_text": "And they were spared and were not sunk and buried up in the earth; and they were not drowned in the depths of the sea; and they were not burned by fire, neither were they fallen upon and crushed to death; and they were not carried away in the whirlwind; neither were they overpowered by the vapor of smoke and of darkness.",
+     "markdown": "And they were spared and were not sunk and buried up in the earth; and they were not drowned in the depths of the sea; and they were not burned by fire, neither were they fallen upon and crushed to death; and they were not carried away in the whirlwind; **neither were they overpowered by the vapor of smoke and of darkness**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne10-006"
+  },
+  {
+   "id": "1ne19-020",
+   "scope": "BOM",
+   "head": "3 Ne. 16:9",
+   "anchor": {
+    "verse": 14,
+    "w1": 28,
+    "w2": 33,
+    "quote": "become a hiss and a byword,"
+   },
+   "reason": "Christ turning the phrase on the Gentiles instead",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 16,
+     "verse": 9,
+     "w1": 78,
+     "w2": 86,
+     "quote": "to become a hiss and a byword among them—",
+     "verse_text": "And because of the mercies of the Father unto the Gentiles, and also the judgments of the Father upon my people who are of the house of Israel, verily, verily, I say unto you, that after all this, and I have caused my people who are of the house of Israel to be smitten, and to be afflicted, and to be slain, and to be cast out from among them, and to become hated by them, and to become a hiss and a byword among them—",
+     "markdown": "And because of the mercies of the Father unto the Gentiles, and also the judgments of the Father upon my people who are of the house of Israel, verily, verily, I say unto you, that after all this, and I have caused my people who are of the house of Israel to be smitten, and to be afflicted, and to be slain, and to be cast out from among them, and to become hated by them, and **to become a hiss and a byword among them—**",
+     "span": true
+    }
+   ],
+   "mirror": "3ne16-006"
+  },
+  {
+   "id": "1ne19-021",
+   "scope": "BOM",
+   "head": "3 Ne. 5:24",
+   "anchor": {
+    "verse": 16,
+    "w1": 23,
+    "w2": 44,
+    "quote": "will I gather in, saith the Lord, according to the words of the prophet Zenos, from the four quarters of the earth."
+   },
+   "reason": "Mormon quoting the same gathering promise as certain",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 5,
+     "verse": 24,
+     "w1": 10,
+     "w2": 26,
+     "quote": "gather in from the four quarters of the earth all the remnant of the seed of Jacob,",
+     "verse_text": "And as surely as the Lord liveth, will he gather in from the four quarters of the earth all the remnant of the seed of Jacob, who are scattered abroad upon all the face of the earth.",
+     "markdown": "And as surely as the Lord liveth, will he **gather in from the four quarters of the earth all the remnant of the seed of Jacob**, who are scattered abroad upon all the face of the earth.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne05-008"
+  },
+  {
+   "id": "1ne19-022",
+   "scope": "BOM",
+   "head": "3 Ne. 23:2",
+   "anchor": {
+    "verse": 23,
+    "w1": 46,
+    "w2": 52,
+    "quote": "I did liken all scriptures unto us,"
+   },
+   "reason": "Christ's own reason for commanding them to search Isaiah",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 23,
+     "verse": 2,
+     "w1": 3,
+     "w2": 18,
+     "quote": "he spake as touching all things concerning my people which are of the house of Israel;",
+     "verse_text": "For surely he spake as touching all things concerning my people which are of the house of Israel; therefore it must needs be that he must speak also to the Gentiles.",
+     "markdown": "For surely **he spake as touching all things concerning my people which are of the house of Israel**; therefore it must needs be that he must speak also to the Gentiles.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne23-006"
   },
   {
    "id": "1ne19-006",
@@ -1362,6 +1334,15 @@
   },
   {
    "verse": 10,
+   "w1": 26,
+   "w2": 37,
+   "quote": "the God of Abraham, and of Isaac, and the God of Jacob,",
+   "entries": [
+    "1ne19-018"
+   ]
+  },
+  {
+   "verse": 10,
    "w1": 93,
    "w2": 97,
    "quote": "the three days of darkness",
@@ -1385,15 +1366,17 @@
    "w2": 51,
    "quote": "by tempest, by fire, and by smoke",
    "entries": [
-    "1ne19-012"
+    "1ne19-012",
+    "1ne19-019"
    ]
   },
   {
    "verse": 14,
    "w1": 28,
    "w2": 33,
-   "quote": "become a hiss and a byword",
+   "quote": "become a hiss and a byword,",
    "entries": [
+    "1ne19-020",
     "1ne19-008"
    ]
   },
@@ -1404,6 +1387,15 @@
    "quote": "then will he remember the isles of the sea",
    "entries": [
     "1ne19-013"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 23,
+   "w2": 44,
+   "quote": "will I gather in, saith the Lord, according to the words of the prophet Zenos, from the four quarters of the earth.",
+   "entries": [
+    "1ne19-021"
    ]
   },
   {
@@ -1421,7 +1413,8 @@
    "w2": 52,
    "quote": "I did liken all scriptures unto us",
    "entries": [
-    "1ne19-005"
+    "1ne19-005",
+    "1ne19-022"
    ]
   },
   {
@@ -1435,7 +1428,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "b34ba8309a0400cd"
+  "at": "2026-09-07",
+  "source_sha256": "f7bfe63c6709ffc8"
  }
 }

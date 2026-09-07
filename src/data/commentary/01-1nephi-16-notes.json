@@ -17,7 +17,7 @@
    "Affliction",
    "Faith"
   ],
-  "connections": 11,
+  "connections": 13,
   "initial": false
  },
  "world_behind": [
@@ -542,7 +542,19 @@
    "start": 9,
    "end": 12,
    "title": "Command by night, compass by morning",
-   "text": "The Lord orders departure; dawn delivers the ball at the tent door. The sequence is the chapter's doctrine in miniature: obedience undertaken first, equipment supplied after. The family crosses the river Laman back into hard country on the strength of it."
+   "text": "The record fixes the order of the two events by time of day: the command comes \"by night\" at verse 9, and the object is found in the morning \"upon the ground\" at the tent door. It is described in physical terms, \"a round ball of curious workmanship; and it was of fine brass,\" with \"two spindles\" inside. The record gives the material, the shape, and the mechanism before it gives any interpretation, and the only function stated here is directional, that one spindle \"pointed the way whither we should go.\" Alma 37:38 supplies the name Liahona and a translation, \"which is, being interpreted, a compass,\" four hundred years later in the record's own chronology.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 37:38",
+     "start": 508,
+     "end": 518,
+     "book": "Alma",
+     "chapter": 37,
+     "verse_start": 38,
+     "verse_end": 38
+    }
+   ]
   },
   {
    "label": "v. 18–22",
@@ -571,35 +583,7 @@
    "start": 23,
    "end": 27,
    "title": "A bow, a question, a chastening",
-   "text": "Nephi makes a new bow and then asks his humbled father where to hunt. Lehi inquires, and the answer arrives with a rebuke: he is \"brought down into the depths of sorrow\" (v. 25), the family \"did fear and tremble exceedingly\" (v. 27) at the ball's writing. Restoration in this record runs through the chastened prophet.",
-   "cites": [
-    {
-     "quote": "brought down into the depths of sorrow",
-     "verse": 25,
-     "start": 129,
-     "end": 177,
-     "spans": [
-      {
-       "w1": 32,
-       "w2": 38,
-       "text": "brought down into the depths of sorrow"
-      }
-     ]
-    },
-    {
-     "quote": "did fear and tremble exceedingly",
-     "verse": 27,
-     "start": 190,
-     "end": 232,
-     "spans": [
-      {
-       "w1": 20,
-       "w2": 24,
-       "text": "did fear and tremble exceedingly"
-      }
-     ]
-    }
-   ]
+   "text": "The record supplies the inventory before the question: \"out of wood a bow, and out of a straight stick, an arrow,\" plus \"a sling and with stones.\" Four items, three of them replacements for the steel bow broken at verse 18. Verse 25 then records that the answer came with a rebuke attached to the man who asked, and verse 27 records the reaction of everyone present, \"he did fear and tremble exceedingly, and also my brethren and the sons of Ishmael and our wives.\" Verses 28 and 29 state the operating rule twice, that the pointers worked \"according to the faith and diligence and heed which we did give unto them\" and that the writing \"was written and changed from time to time, according to the faith and diligence which we gave unto it.\""
   },
   {
    "label": "v. 28–32",
@@ -700,7 +684,7 @@
   {
    "n": 6,
    "title": "The waypoints are checkable geography",
-   "text": "Shazer, the south-southeast bearing, Nahom: the record commits to a mappable itinerary through real country. Its confidence about terrain is of a piece with its confidence about doctrine: both are offered for checking."
+   "text": "Verse 13 supplies a duration, a bearing, and a place name in one sentence, \"we traveled for the space of four days, nearly a south-southeast direction... and we did call the name of the place Shazer.\" Verse 33 keeps the same course, and verse 34 gives a second name, \"buried in the place which was called Nahom.\" The record distinguishes the two: Shazer is a name the party gave, Nahom a name the place already had. A journey narrative that commits to bearings and distances can be checked against country in a way that a doctrinal claim cannot."
   },
   {
    "n": 7,
@@ -972,7 +956,59 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al37-019"
+  },
+  {
+   "id": "1ne16-012",
+   "scope": "BOM",
+   "head": "Mosiah 1:16",
+   "anchor": {
+    "verse": 28,
+    "w1": 21,
+    "w2": 28,
+    "quote": "according to the faith and diligence and heed"
+   },
+   "reason": "Benjamin stating the rule as he hands it on",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 1,
+     "verse": 16,
+     "w1": 60,
+     "w2": 70,
+     "quote": "according to the heed and diligence which they gave unto him.",
+     "verse_text": "And moreover, he also gave him charge concerning the records which were engraven on the plates of brass; and also the plates of Nephi; and also, the sword of Laban, and the ball or director, which led our fathers through the wilderness, which was prepared by the hand of the Lord that thereby they might be led, every one according to the heed and diligence which they gave unto him.",
+     "markdown": "And moreover, he also gave him charge concerning the records which were engraven on the plates of brass; and also the plates of Nephi; and also, the sword of Laban, and the ball or director, which led our fathers through the wilderness, which was prepared by the hand of the Lord that thereby they might be led, every one **according to the heed and diligence which they gave unto him**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos01-004"
+  },
+  {
+   "id": "1ne16-013",
+   "scope": "BOM",
+   "head": "Alma 37:39",
+   "anchor": {
+    "verse": 10,
+    "w1": 30,
+    "w2": 35,
+    "quote": "a round ball of curious workmanship;"
+   },
+   "reason": "Alma's word for the same object",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 37,
+     "verse": 39,
+     "w1": 12,
+     "w2": 15,
+     "quote": "so curious a workmanship.",
+     "verse_text": "And behold, there cannot any man work after the manner of so curious a workmanship. And behold, it was prepared to show unto our fathers the course which they should travel in the wilderness.",
+     "markdown": "And behold, there cannot any man work after the manner of **so curious a workmanship**. And behold, it was prepared to show unto our fathers the course which they should travel in the wilderness.",
+     "span": true
+    }
+   ],
+   "mirror": "al37-006"
   },
   {
    "id": "1ne16-004",
@@ -1102,8 +1138,9 @@
    "verse": 10,
    "w1": 30,
    "w2": 35,
-   "quote": "a round ball of curious workmanship",
+   "quote": "a round ball of curious workmanship;",
    "entries": [
+    "1ne16-013",
     "1ne16-005"
    ]
   },
@@ -1132,7 +1169,8 @@
    "quote": "according to the faith and diligence and heed",
    "entries": [
     "1ne16-009",
-    "1ne16-003"
+    "1ne16-003",
+    "1ne16-012"
    ]
   },
   {
@@ -1165,7 +1203,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "bcb0b2bc6a9da41d"
+  "at": "2026-09-07",
+  "source_sha256": "9c6e638d033ea27f"
  }
 }

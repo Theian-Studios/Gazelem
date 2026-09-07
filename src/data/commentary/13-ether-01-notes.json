@@ -1,0 +1,822 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Ether",
+  "book_slug": "ether",
+  "chapter": 1,
+  "volume_order": "13",
+  "speakers": [
+   "Moroni",
+   "Jared",
+   "The Lord"
+  ],
+  "audience": "The reader",
+  "location": "The great tower, and the valley northward",
+  "date": "Moroni writing after AD 400; the events at the tower",
+  "unit": "Moroni opens the book of Ether (Ether 1)",
+  "principles": [
+   "An abridgment that names what it leaves out",
+   "A genealogy read backwards",
+   "Four requests each one answered"
+  ],
+  "connections": 12,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Moroni names his source",
+   "text": "Verse 2 traces the account to the plates Limhi's search party brought back."
+  },
+  {
+   "n": 2,
+   "title": "He explains an omission by what the reader already has",
+   "text": "Verses 3 and 4 say the material from Adam to the tower is had among the Jews, so he will not write it. 1 Nephi 5:11 to 13 lists the brass plates carrying the five books of Moses and a genealogy of the fathers, which is the record he means."
+  },
+  {
+   "n": 3,
+   "title": "The full account still exists",
+   "text": "Verse 4 says whoever finds the plates may have all of it."
+  },
+  {
+   "n": 4,
+   "title": "The genealogy runs backwards",
+   "text": "Verses 6 through 32 run the genealogy backwards, from Ether to Jared, thirty generations son by son. Genesis 5 and 11 run the equivalent lists forwards; this is the only long pedigree in the volume, and the only one written in reverse."
+  },
+  {
+   "n": 5,
+   "title": "Two men act, and only one prays",
+   "text": "Jared speaks in verses 34, 36 and 38 and his brother cries to the Lord each time. Ether 2:14 has the Lord chasten the brother of Jared for not calling on his name, and Ether 3 has the same man see the finger of the Lord. The record never explains why the praying is always assigned to the one who does not propose it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 2:14",
+     "start": 82,
+     "end": 92,
+     "book": "Ether",
+     "chapter": 2,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "The brother of Jared is never named here",
+   "text": "Verse 34 gives only his size and his standing with the Lord."
+  },
+  {
+   "n": 7,
+   "title": "The promise is national",
+   "text": "Verse 43 puts the nation above every other on earth."
+  }
+ ],
+ "words": [
+  {
+   "term": "Tower",
+   "verse_label": "v. 3",
+   "text": "A tall structure, and here the one at Babel. The record uses the word twenty-four times, three of them in this chapter, and the King James Bible forty-eight. Verses 3 and 5 both date the account from it."
+  },
+  {
+   "term": "Descendant",
+   "verse_label": "v. 6",
+   "text": "One who comes from a given line. It appears twenty-four times in the record, and the King James Bible not at all. Verse 6 begins a chain of them running back thirty verses."
+  },
+  {
+   "term": "Confounded",
+   "verse_label": "v. 33",
+   "text": "Thrown into confusion, and of language, mixed. Treated at 1 Nephi 14:2. Its count is eighteen, three of them here, against fifty in the King James Bible."
+  },
+  {
+   "term": "Favored",
+   "verse_label": "v. 34",
+   "text": "Regarded with special kindness. Fifteen uses in this record, none in the King James Bible. Verse 34 is the only description the brother of Jared gets here."
+  },
+  {
+   "term": "Choice",
+   "verse_label": "v. 38",
+   "text": "Selected as best. Treated at 1 Nephi 7:15. The word runs to twenty-two here, twice inside this chapter, against twenty-one in the King James Bible."
+  },
+  {
+   "term": "Flocks",
+   "verse_label": "v. 41",
+   "text": "Herds of animals kept together. Treated at Alma 15:14. The record uses the word often and the King James Bible often. Verse 41 has them gathered male and female of every kind.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 15:14",
+     "start": 43,
+     "end": 53,
+     "book": "Alma",
+     "chapter": 15,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
+  },
+  {
+   "term": "Valley",
+   "verse_label": "v. 42",
+   "text": "Low ground between hills. Verse 42 names it only by direction, the valley which is northward."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "I take mine account from the twenty and four plates which were found by the people of Limhi",
+   "verse_label": "v. 2",
+   "text": "The source named in the second sentence. Mosiah 21:27 had recorded the finding.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 21:27",
+     "start": 41,
+     "end": 53,
+     "book": "Mosiah",
+     "chapter": 21,
+     "verse_start": 27,
+     "verse_end": 27
+    }
+   ]
+  },
+  {
+   "term": "As I suppose that the first part of this record... is had among the Jews",
+   "verse_label": "v. 3",
+   "text": "An editorial judgment stated as a supposition. Moroni marks it as his own reasoning."
+  },
+  {
+   "term": "Whoso findeth them, the same will have power that he may get the full account",
+   "verse_label": "v. 4",
+   "text": "The omission made recoverable. He tells the reader where the rest went."
+  },
+  {
+   "term": "He that wrote this record was Ether, and he was a descendant of Coriantor",
+   "verse_label": "v. 6",
+   "text": "The author named, then traced. Twenty-six generations follow in reverse."
+  },
+  {
+   "term": "Which Jared came forth with his brother and their families",
+   "verse_label": "v. 33",
+   "text": "The bottom of the genealogy and the start of the story. The direction of the chapter reverses here."
+  },
+  {
+   "term": "The brother of Jared being a large and mighty man, and a man highly favored of the Lord",
+   "verse_label": "v. 34",
+   "text": "The whole introduction of the book's central figure. He is not named in the record."
+  },
+  {
+   "term": "Cry unto the Lord, that he will not confound us",
+   "verse_label": "v. 34",
+   "text": "The first request. Jared asks and his brother prays, a pattern repeated three times."
+  },
+  {
+   "term": "Cry again unto the Lord... that he confound not their language",
+   "verse_label": "v. 36",
+   "text": "The second request, widened to their friends. Verse 37 says the Lord had compassion on them too."
+  },
+  {
+   "term": "Who knoweth but the Lord will carry us forth into a land which is choice above all the earth?",
+   "verse_label": "v. 38",
+   "text": "A question that becomes the errand. Jared frames the whole migration as a possibility worth asking about."
+  },
+  {
+   "term": "There will I meet thee, and I will go before thee",
+   "verse_label": "v. 42",
+   "text": "The Lord's own part in the journey. He names a meeting place before naming the destination."
+  },
+  {
+   "term": "Because this long time ye have cried unto me",
+   "verse_label": "v. 43",
+   "text": "The reason given for the whole blessing. Persistence is what the Lord cites."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–2",
+   "start": 1,
+   "end": 2,
+   "title": "The source named, and where it was found",
+   "text": "The book opens with provenance rather than narrative: \"I take mine account from the twenty and four plates which were found by the people of Limhi, which is called the Book of Ether.\" Both halves are checkable inside the volume. Mosiah 8:9 reports that a search party \"brought twenty-four plates which are filled with engravings, and they are of pure gold,\" and Mosiah 21:27 has the same expedition returning with \"a record of the people whose bones they had found.\" A book that could have begun with the tower begins by identifying the physical object it is copying and the people who dug it up.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 8:9",
+     "start": 229,
+     "end": 239,
+     "book": "Mosiah",
+     "chapter": 8,
+     "verse_start": 9,
+     "verse_end": 9
+    },
+    {
+     "kind": "scripture",
+     "text": "Mosiah 21:27",
+     "start": 362,
+     "end": 374,
+     "book": "Mosiah",
+     "chapter": 21,
+     "verse_start": 27,
+     "verse_end": 27
+    }
+   ]
+  },
+  {
+   "label": "v. 3–5",
+   "start": 3,
+   "end": 5,
+   "title": "An omission, and the reason given for it",
+   "text": "The abridger explains what he is leaving out and why, and the reason is that it already exists elsewhere: the first part of the record, \"which speaks concerning the creation of the world, and also of Adam, and an account from that time even to the great tower... is had among the Jews.\" He marks the inference as his own, \"as I suppose,\" and adds that the material survives on the plates for anyone who finds them. Verse 5 states the boundary of what remains: \"I give not the full account, but a part of the account I give, from the tower down until they were destroyed.\""
+  },
+  {
+   "label": "v. 6–32",
+   "start": 6,
+   "end": 32,
+   "title": "A line run backwards, with two admitted gaps",
+   "text": "Verses 7 through 32 run the descent in reverse, one generation to a verse and almost nothing else, from Ether's father Coriantor down to Jared. Twice the formula changes, and both times it concedes a gap: verse 16 has Aaron \"a descendant of Heth\" and verse 23 has Morianton \"a descendant of Riplakish,\" where every other link in the chain says \"was the son of.\" Three names also recur for different men, since Com, Coriantum and Heth each stand twice. The reader meets the whole dynasty as a list before meeting any of them as people, and most of them will never be more than names."
+  },
+  {
+   "label": "v. 33",
+   "start": 33,
+   "end": 33,
+   "title": "The tower arrives in a subordinate clause",
+   "text": "The connection to the whole biblical account of Babel is not given a verse of its own. It hangs off the last entry in the genealogy: \"Which Jared came forth with his brother and their families, with some others and their families, from the great tower, at the time the Lord confounded the language of the people, and swore in his wrath that they should be scattered upon all the face of the earth.\" A relative pronoun does the work. The single most consequential claim in the book's setting is delivered as an aside explaining who the last man in the list was."
+  },
+  {
+   "label": "v. 34–39",
+   "start": 34,
+   "end": 39,
+   "title": "The man who does the praying is never named",
+   "text": "Brother is used twelve times across ten verses here, always in the same construction, \"the brother of Jared.\" He is described, \"a large and a mighty man, and a man highly favored of the Lord,\" and he speaks to God four times, and he is the only significant figure in the chapter without a name. The chapter has just spent twenty-six verses naming a line of men whose lives it does not report. It then withholds the name of the one whose actions it does."
+  },
+  {
+   "label": "v. 41–43",
+   "start": 41,
+   "end": 43,
+   "title": "An inventory shaped like Noah's",
+   "text": "The instruction is a packing list: \"gather together thy flocks, both male and female, of every kind; and also of the seed of the earth of every kind; and thy families; and also Jared thy brother and his family; and also thy friends and their families.\" The pairing of male and female with of every kind follows Gen. 7:2, and the seed of the earth answers Gen. 6:21, where Noah is told to take food of every sort. The destination is left unnamed, \"the valley which is northward,\" and the promise attached to it is not land but descendants: \"raise up unto me of thy seed... a great nation.\"",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Gen. 7:2",
+     "start": 311,
+     "end": 319,
+     "book": "Gen",
+     "chapter": 7,
+     "verse_start": 2,
+     "verse_end": 2
+    },
+    {
+     "kind": "scripture",
+     "text": "Gen. 6:21",
+     "start": 355,
+     "end": 364,
+     "book": "Gen",
+     "chapter": 6,
+     "verse_start": 21,
+     "verse_end": 21
+    }
+   ]
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The book opens by explaining its own gaps",
+   "text": "Verses 3 and 4 say what is missing and why. The reader is told where the rest is."
+  },
+  {
+   "n": 2,
+   "title": "Moroni marks his reasoning as reasoning",
+   "text": "Verse 3 begins \"as I suppose\". The editorial judgment is not disguised as revelation."
+  },
+  {
+   "n": 3,
+   "title": "The genealogy runs the wrong way on purpose",
+   "text": "Verses 6 through 32 move from the writer back to the founder, landing on Jared at the moment the story starts."
+  },
+  {
+   "n": 4,
+   "title": "Two brothers work as a pair",
+   "text": "Jared speaks and his brother prays, three times over. Neither does both."
+  },
+  {
+   "n": 5,
+   "title": "The central figure is unnamed",
+   "text": "Verse 34 gives him size and favor and no name. The record never supplies one."
+  },
+  {
+   "n": 6,
+   "title": "Each request is wider than the last",
+   "text": "Three requests run in five verses and each is wider than the last. Verse 34 asks for the two brothers, \"that he will not confound us that we may not understand our words.\" Verse 36 extends it, \"that he confound not their language,\" meaning \"them who are our friends.\" Verse 38 changes the subject entirely and asks about a destination, \"whether he will drive us out of the land, and if he will drive us out of the land, cry unto him whither we shall go.\" Each is answered before the next is made, and the record reports each grant separately at verses 35, 37, and 42."
+  },
+  {
+   "n": 7,
+   "title": "A question becomes an errand",
+   "text": "Verse 38 is Jared wondering aloud about a choice land. Verse 42 has the Lord confirm it."
+  },
+  {
+   "n": 8,
+   "title": "Persistence is the stated reason",
+   "text": "Verse 43 says because this long time ye have cried unto me. The blessing is credited to how long they kept asking."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Say where the rest of the story is",
+    "verse_label": "v. 4",
+    "text": "He named the omission and pointed to the plates. An honest summary tells you what it is a summary of."
+   },
+   {
+    "title": "Work in pairs",
+    "verse_label": "v. 34",
+    "text": "One brother framed the request, the other carried it. Neither role is the lesser one."
+   },
+   {
+    "title": "Notice the reason given for the answer",
+    "verse_label": "v. 35",
+    "text": "The brother of Jared cried, and the record says the Lord had compassion upon Jared. Compassion is the stated ground, and it is not attached to anything either of them had earned."
+   },
+   {
+    "title": "Ask for other people too",
+    "verse_label": "v. 36",
+    "text": "The second request was for their friends. The first prayer that gets answered is rarely meant to be the last."
+   },
+   {
+    "title": "Build the second question into the first",
+    "verse_label": "v. 38",
+    "text": "Jared's instruction is to ask whether they will be driven out, and if so, to ask where they should go. Thinking one step past the answer you are afraid of saves a whole trip."
+   },
+   {
+    "title": "Take what reproduces",
+    "verse_label": "v. 41",
+    "text": "The gathering order specifies flocks male and female of every kind, and seed of the earth of every kind. Carrying what will make more is a different calculation from carrying what will feed you."
+   },
+   {
+    "title": "Somebody has to move first",
+    "verse_label": "v. 42",
+    "text": "He is told to go down at the head of them into the valley, where the Lord will meet them and go before them. Two parties go ahead in that sentence, and the human one starts walking before the other is in sight."
+   },
+   {
+    "title": "Keep asking for a long time",
+    "verse_label": "v. 43",
+    "text": "The Lord gives duration as his reason. Persistence is treated here as the qualifying act."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What am I assuming my reader already knows?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What have I left out that someone should be able to recover?"
+   },
+   {
+    "verse_label": "v. 34",
+    "start": 34,
+    "end": 34,
+    "text": "Who is the person I would ask to pray?"
+   },
+   {
+    "verse_label": "v. 36",
+    "start": 36,
+    "end": 36,
+    "text": "Whose language have I not asked to be spared?"
+   },
+   {
+    "verse_label": "v. 38",
+    "start": 38,
+    "end": 38,
+    "text": "What have I wondered aloud that could become an errand?"
+   },
+   {
+    "verse_label": "v. 41",
+    "start": 41,
+    "end": 41,
+    "text": "What would I have to gather to actually go?"
+   },
+   {
+    "verse_label": "v. 43",
+    "start": 43,
+    "end": 43,
+    "text": "What have I cried for over a long time?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "eth01-001",
+   "scope": "BOOK",
+   "head": "Ether 2:7",
+   "anchor": {
+    "verse": 38,
+    "w1": 57,
+    "w2": 65,
+    "quote": "a land which is choice above all the earth"
+   },
+   "reason": "the land promised, described again on the way there",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 2,
+     "verse": 7,
+     "w1": 31,
+     "w2": 47,
+     "quote": "which was choice above all other lands, which the Lord God had preserved for a righteous people.",
+     "verse_text": "And the Lord would not suffer that they should stop beyond the sea in the wilderness, but he would that they should come forth even unto the land of promise, which was choice above all other lands, which the Lord God had preserved for a righteous people.",
+     "markdown": "And the Lord would not suffer that they should stop beyond the sea in the wilderness, but he would that they should come forth even unto the land of promise, **which was choice above all other lands, which the Lord God had preserved for a righteous people**.",
+     "span": true
+    }
+   ],
+   "mirror": "eth02-001"
+  },
+  {
+   "id": "eth01-002",
+   "scope": "BOOK",
+   "head": "Ether 3:6",
+   "anchor": {
+    "verse": 34,
+    "w1": 1,
+    "w2": 19,
+    "quote": "And the brother of Jared being a large and mighty man, and a man highly favored of the Lord"
+   },
+   "reason": "the same man as the veil leaves his eyes",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 3,
+     "verse": 6,
+     "w1": 34,
+     "w2": 46,
+     "quote": "the veil was taken from off the eyes of the brother of Jared,",
+     "verse_text": "And it came to pass that when the brother of Jared had said these words, behold, the Lord stretched forth his hand and touched the stones one by one with his finger. And the veil was taken from off the eyes of the brother of Jared, and he saw the finger of the Lord; and it was as the finger of a man, like unto flesh and blood; and the brother of Jared fell down before the Lord, for he was struck with fear.",
+     "markdown": "And it came to pass that when the brother of Jared had said these words, behold, the Lord stretched forth his hand and touched the stones one by one with his finger. And **the veil was taken from off the eyes of the brother of Jared**, and he saw the finger of the Lord; and it was as the finger of a man, like unto flesh and blood; and the brother of Jared fell down before the Lord, for he was struck with fear.",
+     "span": true
+    }
+   ],
+   "mirror": "eth03-002"
+  },
+  {
+   "id": "eth01-003",
+   "scope": "BOOK",
+   "head": "Ether 6:12",
+   "anchor": {
+    "verse": 42,
+    "w1": 29,
+    "w2": 46,
+    "quote": "I will go before thee into a land which is choice above all the lands of the earth"
+   },
+   "reason": "the landing, and what they did when they got there",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 6,
+     "verse": 12,
+     "w1": 26,
+     "w2": 42,
+     "quote": "they bowed themselves down upon the face of the land, and did humble themselves before the Lord,",
+     "verse_text": "And they did land upon the shore of the promised land. And when they had set their feet upon the shores of the promised land they bowed themselves down upon the face of the land, and did humble themselves before the Lord, and did shed tears of joy before the Lord, because of the multitude of his tender mercies over them.",
+     "markdown": "And they did land upon the shore of the promised land. And when they had set their feet upon the shores of the promised land **they bowed themselves down upon the face of the land, and did humble themselves before the Lord**, and did shed tears of joy before the Lord, because of the multitude of his tender mercies over them.",
+     "span": true
+    }
+   ],
+   "mirror": "eth06-003"
+  },
+  {
+   "id": "eth01-011",
+   "scope": "BOOK",
+   "head": "Ether 11:23",
+   "anchor": {
+    "verse": 6,
+    "w1": 10,
+    "w2": 23,
+    "quote": "He that wrote this record was Ether, and he was a descendant of Coriantor."
+   },
+   "reason": "the writer's own entry in the line",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 11,
+     "verse": 23,
+     "w1": 7,
+     "w2": 9,
+     "quote": "Coriantor begat Ether,",
+     "verse_text": "And it came to pass that Coriantor begat Ether, and he died, having dwelt in captivity all his days.",
+     "markdown": "And it came to pass that **Coriantor begat Ether**, and he died, having dwelt in captivity all his days.",
+     "span": true
+    }
+   ],
+   "mirror": "eth11-003"
+  },
+  {
+   "id": "eth01-012",
+   "scope": "BOOK",
+   "head": "Ether 15:33",
+   "anchor": {
+    "verse": 2,
+    "w1": 7,
+    "w2": 19,
+    "quote": "the twenty and four plates which were found by the people of Limhi,"
+   },
+   "reason": "how the plates came to be found",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 15,
+     "verse": 33,
+     "w1": 43,
+     "w2": 56,
+     "quote": "he hid them in a manner that the people of Limhi did find them.",
+     "verse_text": "And the Lord spake unto Ether, and said unto him: Go forth. And he went forth, and beheld that the words of the Lord had all been fulfilled; and he finished his record; (and the hundredth part I have not written) and he hid them in a manner that the people of Limhi did find them.",
+     "markdown": "And the Lord spake unto Ether, and said unto him: Go forth. And he went forth, and beheld that the words of the Lord had all been fulfilled; and he finished his record; (and the hundredth part I have not written) and **he hid them in a manner that the people of Limhi did find them**.",
+     "span": true
+    }
+   ],
+   "mirror": "eth15-003"
+  },
+  {
+   "id": "eth01-004",
+   "scope": "BOM",
+   "head": "Mosiah 8:8",
+   "anchor": {
+    "verse": 1,
+    "w1": 3,
+    "w2": 22,
+    "quote": "I, Moroni, proceed to give an account of those ancient inhabitants who were destroyed by the hand of the Lord"
+   },
+   "reason": "the ruins the search party found",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 8,
+     "verse": 8,
+     "w1": 38,
+     "w2": 51,
+     "quote": "having discovered a land which was covered with bones of men, and of beasts,",
+     "verse_text": "And they were lost in the wilderness for the space of many days, yet they were diligent, and found not the land of Zarahemla but returned to this land, having traveled in a land among many waters, having discovered a land which was covered with bones of men, and of beasts, and was also covered with ruins of buildings of every kind, having discovered a land which had been peopled with a people who were as numerous as the hosts of Israel.",
+     "markdown": "And they were lost in the wilderness for the space of many days, yet they were diligent, and found not the land of Zarahemla but returned to this land, having traveled in a land among many waters, **having discovered a land which was covered with bones of men, and of beasts**, and was also covered with ruins of buildings of every kind, having discovered a land which had been peopled with a people who were as numerous as the hosts of Israel.",
+     "span": true
+    }
+   ],
+   "mirror": "mos08-003"
+  },
+  {
+   "id": "eth01-005",
+   "scope": "BOM",
+   "head": "Mosiah 21:27",
+   "anchor": {
+    "verse": 2,
+    "w1": 7,
+    "w2": 19,
+    "quote": "the twenty and four plates which were found by the people of Limhi"
+   },
+   "reason": "the finding of the plates this book comes from",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 21,
+     "verse": 27,
+     "w1": 20,
+     "w2": 26,
+     "quote": "it was engraven on plates of ore.",
+     "verse_text": "And they brought a record with them, even a record of the people whose bones they had found; and it was engraven on plates of ore.",
+     "markdown": "And they brought a record with them, even a record of the people whose bones they had found; and **it was engraven on plates of ore**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos21-010"
+  },
+  {
+   "id": "eth01-006",
+   "scope": "BOM",
+   "head": "Mosiah 28:17",
+   "anchor": {
+    "verse": 2,
+    "w1": 7,
+    "w2": 19,
+    "quote": "the twenty and four plates which were found by the people of Limhi"
+   },
+   "reason": "the translation, and what it was found to contain",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 28,
+     "verse": 17,
+     "w1": 60,
+     "w2": 69,
+     "quote": "even from that time back until the creation of Adam.",
+     "verse_text": "Now after Mosiah had finished translating these records, behold, it gave an account of the people who were destroyed, from the time that they were destroyed back to the building of the great tower, at the time the Lord confounded the language of the people and they were scattered abroad upon the face of all the earth, yea, and even from that time back until the creation of Adam.",
+     "markdown": "Now after Mosiah had finished translating these records, behold, it gave an account of the people who were destroyed, from the time that they were destroyed back to the building of the great tower, at the time the Lord confounded the language of the people and they were scattered abroad upon the face of all the earth, yea, and **even from that time back until the creation of Adam**.",
+     "span": true
+    }
+   ],
+   "mirror": "mos28-009"
+  },
+  {
+   "id": "eth01-007",
+   "scope": "BOM",
+   "head": "Omni 1:22",
+   "anchor": {
+    "verse": 33,
+    "w1": 21,
+    "w2": 31,
+    "quote": "at the time the Lord confounded the language of the people"
+   },
+   "reason": "the same tower named in the record of Coriantumr",
+   "targets": [
+    {
+     "ref": "Omni",
+     "chapter": 1,
+     "verse": 22,
+     "w1": 11,
+     "w2": 29,
+     "quote": "his first parents came out from the tower, at the time the Lord confounded the language of the people;",
+     "verse_text": "It also spake a few words concerning his fathers. And his first parents came out from the tower, at the time the Lord confounded the language of the people; and the severity of the Lord fell upon them according to his judgments, which are just; and their bones lay scattered in the land northward.",
+     "markdown": "It also spake a few words concerning his fathers. And **his first parents came out from the tower, at the time the Lord confounded the language of the people**; and the severity of the Lord fell upon them according to his judgments, which are just; and their bones lay scattered in the land northward.",
+     "span": true
+    }
+   ],
+   "mirror": "omn01-013"
+  },
+  {
+   "id": "eth01-008",
+   "scope": "BOM",
+   "head": "1 Ne. 2:20",
+   "anchor": {
+    "verse": 43,
+    "w1": 35,
+    "w2": 53,
+    "quote": "And there shall be none greater than the nation which I will raise up unto me of thy seed"
+   },
+   "reason": "the same promise of a choice land, another family",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 2,
+     "verse": 20,
+     "w1": 32,
+     "w2": 40,
+     "quote": "a land which is choice above all other lands.",
+     "verse_text": "And inasmuch as ye shall keep my commandments, ye shall prosper, and shall be led to a land of promise; yea, even a land which I have prepared for you; yea, a land which is choice above all other lands.",
+     "markdown": "And inasmuch as ye shall keep my commandments, ye shall prosper, and shall be led to a land of promise; yea, even a land which I have prepared for you; yea, **a land which is choice above all other lands**.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne02-022"
+  },
+  {
+   "id": "eth01-009",
+   "scope": "SW",
+   "head": "Gen. 11:7",
+   "anchor": {
+    "verse": 34,
+    "w1": 26,
+    "w2": 42,
+    "quote": "Cry unto the Lord, that he will not confound us that we may not understand our words"
+   },
+   "reason": "the confounding as Genesis reports it",
+   "targets": [
+    {
+     "ref": "Gen.",
+     "chapter": 11,
+     "verse": 7,
+     "w1": 8,
+     "w2": 19,
+     "quote": "there confound their language, that they may not understand one another's speech.",
+     "verse_text": "Go to, let us go down, and there confound their language, that they may not understand one another's speech.",
+     "markdown": "Go to, let us go down, and **there confound their language, that they may not understand one another's speech**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "eth01-010",
+   "scope": "SW",
+   "head": "Gen. 11:9",
+   "anchor": {
+    "verse": 33,
+    "w1": 32,
+    "w2": 48,
+    "quote": "and swore in his wrath that they should be scattered upon all the face of the earth"
+   },
+   "reason": "the scattering named in the same verse as the confounding",
+   "targets": [
+    {
+     "ref": "Gen.",
+     "chapter": 11,
+     "verse": 9,
+     "w1": 24,
+     "w2": 36,
+     "quote": "did the LORD scatter them abroad upon the face of all the earth.",
+     "verse_text": "Therefore is the name of it called Babel; because the LORD did there confound the language of all the earth: and from thence did the LORD scatter them abroad upon the face of all the earth.",
+     "markdown": "Therefore is the name of it called Babel; because the LORD did there confound the language of all the earth: and from thence **did the LORD scatter them abroad upon the face of all the earth**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 3,
+   "w2": 22,
+   "quote": "I, Moroni, proceed to give an account of those ancient inhabitants who were destroyed by the hand of the Lord",
+   "entries": [
+    "eth01-004"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 7,
+   "w2": 19,
+   "quote": "the twenty and four plates which were found by the people of Limhi,",
+   "entries": [
+    "eth01-012",
+    "eth01-005",
+    "eth01-006"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 10,
+   "w2": 23,
+   "quote": "He that wrote this record was Ether, and he was a descendant of Coriantor.",
+   "entries": [
+    "eth01-011"
+   ]
+  },
+  {
+   "verse": 33,
+   "w1": 21,
+   "w2": 31,
+   "quote": "at the time the Lord confounded the language of the people",
+   "entries": [
+    "eth01-007"
+   ]
+  },
+  {
+   "verse": 33,
+   "w1": 32,
+   "w2": 48,
+   "quote": "and swore in his wrath that they should be scattered upon all the face of the earth",
+   "entries": [
+    "eth01-010"
+   ]
+  },
+  {
+   "verse": 34,
+   "w1": 1,
+   "w2": 19,
+   "quote": "And the brother of Jared being a large and mighty man, and a man highly favored of the Lord",
+   "entries": [
+    "eth01-002"
+   ]
+  },
+  {
+   "verse": 34,
+   "w1": 26,
+   "w2": 42,
+   "quote": "Cry unto the Lord, that he will not confound us that we may not understand our words",
+   "entries": [
+    "eth01-009"
+   ]
+  },
+  {
+   "verse": 38,
+   "w1": 57,
+   "w2": 65,
+   "quote": "a land which is choice above all the earth",
+   "entries": [
+    "eth01-001"
+   ]
+  },
+  {
+   "verse": 42,
+   "w1": 29,
+   "w2": 46,
+   "quote": "I will go before thee into a land which is choice above all the lands of the earth",
+   "entries": [
+    "eth01-003"
+   ]
+  },
+  {
+   "verse": 43,
+   "w1": 35,
+   "w2": 53,
+   "quote": "And there shall be none greater than the nation which I will raise up unto me of thy seed",
+   "entries": [
+    "eth01-008"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "87c78b4b01b1acb3"
+ }
+}

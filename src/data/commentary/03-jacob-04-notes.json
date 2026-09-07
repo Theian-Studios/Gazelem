@@ -17,7 +17,7 @@
    "Plainness",
    "The rejected stone"
   ],
-  "connections": 12,
+  "connections": 15,
   "initial": false
  },
  "world_behind": [
@@ -93,12 +93,39 @@
   {
    "term": "Condescensions",
    "verse_label": "v. 7",
-   "text": "Plural here, and singular everywhere else it appears. The angel asked Nephi whether he knew the condescension of God, and the answer given there was the incarnation. Jacob uses the plural for the ordinary, repeated coming-down that lets weak people do anything at all, which extends a term that had named one event."
+   "text": "Plural here, and singular everywhere else it appears. Treated at 2 Nephi 9:53. The angel asked Nephi whether he knew the condescension of God, and the answer given there was the incarnation. Jacob uses the plural for the ordinary, repeated coming-down that lets weak people do anything at all, which extends a term that had named one event."
   },
   {
    "term": "Unsearchable",
    "verse_label": "v. 8",
-   "text": "Not merely unknown but not findable by searching. Paul uses it of God's judgments and the wisdom books use it of kings' hearts. Placed next to \"it is impossible that man should find out all his ways,\" it concedes the limit before the chapter tells anyone to stop despising revelation, and that order matters."
+   "text": "Not merely unknown but not findable by searching. Paul uses it of God's judgments (Rom. 11:33) and the wisdom books use it of kings' hearts (Prov. 25:3). Placed next to \"it is impossible that man should find out all his ways,\" it concedes the limit before the chapter tells anyone to stop despising revelation, and that order matters.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Rom. 11:33",
+     "start": 83,
+     "end": 93,
+     "book": "Rom",
+     "chapter": 11,
+     "verse_start": 33,
+     "verse_end": 33
+    },
+    {
+     "kind": "scripture",
+     "text": "Prov. 25:3",
+     "start": 141,
+     "end": 151,
+     "book": "Prov",
+     "chapter": 25,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
+  },
+  {
+   "term": "Counseleth",
+   "verse_label": "v. 10",
+   "text": "To give counsel. The word appears once in this record and never in the King James Bible. Jacob uses it to close a two-way sentence: do not counsel the Lord, take counsel from his hand, since he counsels in wisdom, in justice, and in great mercy. The same verb runs both directions, and only one direction is open."
   },
   {
    "term": "First-fruits",
@@ -182,12 +209,12 @@
   {
    "term": "The Lord God showeth us our weakness that we may know that it is by his grace",
    "verse_label": "v. 7",
-   "text": "Weakness is presented as something shown rather than something suffered. The showing is deliberate and instructional, and its purpose is attribution. This is the record's tightest statement of why capable people are kept aware of what they cannot do."
+   "text": "Weakness is presented as something shown instead of something suffered. The showing is deliberate and instructional, and its purpose is attribution. This is the record's tightest statement of why capable people are kept aware of what they cannot do."
   },
   {
    "term": "Seek not to counsel the Lord, but to take counsel from his hand",
    "verse_label": "v. 10",
-   "text": "The pun is in the verb. To counsel is to advise; to take counsel is to receive advice, the same word running both directions in one sentence. The correction being offered is a specific reversal of who is advising whom."
+   "text": "The pun is in the verb. To counsel is to advise; to take counsel is to receive advice, the same word running both directions in a single line. The correction being offered is a specific reversal of who is advising whom."
   },
   {
    "term": "Why not speak of the atonement of Christ",
@@ -197,7 +224,7 @@
   {
    "term": "Of things as they really are, and of things as they really will be",
    "verse_label": "v. 13",
-   "text": "The record's definition of what the Spirit does, and it is about knowing rather than about feeling. Two tenses, one adverb, no qualifier. It has become the standard scriptural formula for truth in this tradition, and it exists in one verse of a chapter about why plain speech matters."
+   "text": "The record's definition of what the Spirit does, and it is about knowing rather than about feeling. Two tenses, one adverb, no qualifier. It has become the standard scriptural formula for truth in this tradition, and it stands in a chapter about why plain speech matters."
   },
   {
    "term": "Their blindness, which blindness came by looking beyond the mark",
@@ -228,7 +255,7 @@
    "start": 4,
    "end": 6,
    "title": "The purpose, and the credentials",
-   "text": "They wrote so that later readers would know they knew of Christ centuries early; the prophets before them held the same hope; the law is kept because it points; and searching the prophets has produced revelation, the spirit of prophecy, witnesses, hope, unshaken faith, and power over trees and mountains and sea. The chain is cumulative and it climbs fast."
+   "text": "The record states the purpose of its own writing in a purpose clause, and it is about a future reader's knowledge of a past writer: \"for this intent have we written these things, that they may know that we knew of Christ.\" Verse 5 then supplies a reading of Genesis 22 that the source does not contain, calling Abraham's offering of Isaac \"a similitude of God and his Only Begotten Son.\" Verse 6 lists what searching the prophets produced, in an order that escalates from revelations and the spirit of prophecy to hope, unshaken faith, and command over \"the very trees\" and \"the mountains, or the waves of the sea.\" Six items, ending in a claim that can be tested by whether the record ever reports such a thing being done."
   },
   {
    "label": "v. 7–9",
@@ -263,7 +290,19 @@
    "start": 18,
    "end": 18,
    "title": "A promise, hedged",
-   "text": "He will unfold the mystery unless his anxiety for his hearers shakes him. One verse, and it is the door into the allegory that follows."
+   "text": "The record makes a promise and attaches a condition that could void it, in one sentence: \"I will unfold this mystery unto you; if I do not, by any means, get shaken from my firmness in the Spirit, and stumble because of my over anxiety for you.\" The risk named is not opposition or ignorance but the speaker's own concern for the audience. Jacob 7:26 supplies the same writer's summary of that condition years later, \"we did mourn out our days,\" and 2 Nephi 32:7 records another writer stopped mid-sentence, \"the Spirit stoppeth mine utterance.\" Here the interruption is anticipated rather than reported, and the allegory of Jacob 5 follows because it did not occur.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 7:26",
+     "start": 340,
+     "end": 350,
+     "book": "Jacob",
+     "chapter": 7,
+     "verse_start": 26,
+     "verse_end": 26
+    }
+   ]
   }
  ],
  "chapter": [
@@ -515,7 +554,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel05-013"
   },
   {
    "id": "jac04-005",
@@ -596,6 +635,84 @@
    "mirror": "2ne25-013"
   },
   {
+   "id": "jac04-013",
+   "scope": "BOM",
+   "head": "2 Ne. 9:53",
+   "anchor": {
+    "verse": 7,
+    "w1": 20,
+    "w2": 27,
+    "quote": "his great condescensions unto the children of men,"
+   },
+   "reason": "Jacob's earlier sermon, already using the plural",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 9,
+     "verse": 53,
+     "w1": 11,
+     "w2": 19,
+     "quote": "how great his condescensions unto the children of men;",
+     "verse_text": "And behold how great the covenants of the Lord, and how great his condescensions unto the children of men; and because of his greatness, and his grace and mercy, he has promised unto us that our seed shall not utterly be destroyed, according to the flesh, but that he would preserve them; and in future generations they shall become a righteous branch unto the house of Israel.",
+     "markdown": "And behold how great the covenants of the Lord, and **how great his condescensions unto the children of men**; and because of his greatness, and his grace and mercy, he has promised unto us that our seed shall not utterly be destroyed, according to the flesh, but that he would preserve them; and in future generations they shall become a righteous branch unto the house of Israel.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne09-009"
+  },
+  {
+   "id": "jac04-014",
+   "scope": "BOM",
+   "head": "2 Ne. 10:24",
+   "anchor": {
+    "verse": 11,
+    "w1": 4,
+    "w2": 12,
+    "quote": "be reconciled unto him through the atonement of Christ,"
+   },
+   "reason": "the same charge from his earlier sermon",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 10,
+     "verse": 24,
+     "w1": 5,
+     "w2": 11,
+     "quote": "reconcile yourselves to the will of God,",
+     "verse_text": "Wherefore, my beloved brethren, reconcile yourselves to the will of God, and not to the will of the devil and the flesh; and remember, after ye are reconciled unto God, that it is only in and through the grace of God that ye are saved.",
+     "markdown": "Wherefore, my beloved brethren, **reconcile yourselves to the will of God**, and not to the will of the devil and the flesh; and remember, after ye are reconciled unto God, that it is only in and through the grace of God that ye are saved.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne10-010"
+  },
+  {
+   "id": "jac04-015",
+   "scope": "BOM",
+   "head": "2 Ne. 18:14",
+   "anchor": {
+    "verse": 15,
+    "w1": 33,
+    "w2": 42,
+    "quote": "they will reject the stone upon which they might build"
+   },
+   "reason": "Isaiah's stone, as Nephi copied it out",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 18,
+     "verse": 14,
+     "w1": 10,
+     "w2": 19,
+     "quote": "a stone of stumbling, and for a rock of offense",
+     "verse_text": "And he shall be for a sanctuary; but for a stone of stumbling, and for a rock of offense to both the houses of Israel, for a gin and a snare to the inhabitants of Jerusalem.",
+     "markdown": "And he shall be for a sanctuary; but for **a stone of stumbling, and for a rock of offense** to both the houses of Israel, for a gin and a snare to the inhabitants of Jerusalem.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne18-003"
+  },
+  {
    "id": "jac04-010",
    "scope": "SW",
    "head": "Rom. 11:33",
@@ -631,7 +748,7 @@
     "w2": 83,
     "quote": "offering up his son Isaac, which is a similitude of God and his Only Begotten Son"
    },
-   "reason": "the binding read as figure",
+   "reason": "Abraham and Isaac on the mount",
    "targets": [
     {
      "ref": "Gen.",
@@ -657,7 +774,7 @@
     "w2": 30,
     "quote": "that it may become the head of their corner"
    },
-   "reason": "the rejected stone made the corner",
+   "reason": "the builders' refused stone become the head corner",
    "targets": [
     {
      "ref": "Ps.",
@@ -743,7 +860,8 @@
    "w2": 27,
    "quote": "his great condescensions unto the children of men",
    "entries": [
-    "jac04-005"
+    "jac04-005",
+    "jac04-013"
    ]
   },
   {
@@ -761,7 +879,17 @@
    "w2": 12,
    "quote": "be reconciled unto him through the atonement of Christ",
    "entries": [
-    "jac04-004"
+    "jac04-004",
+    "jac04-014"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 33,
+   "w2": 42,
+   "quote": "they will reject the stone upon which they might build",
+   "entries": [
+    "jac04-015"
    ]
   },
   {
@@ -803,7 +931,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "3ce59f9d4f3a87f6"
+  "at": "2026-09-07",
+  "source_sha256": "db9adf73a09a1fd2"
  }
 }

@@ -24,7 +24,19 @@
   {
    "n": 1,
    "title": "Written near the end",
-   "text": "Nephi is old by this point, the small plates are nearly full of what he decided to keep, and two chapters remain. Everything here is chosen against that pressure. The counsel is compressed to match: two practices, stated once each, with no elaboration."
+   "text": "The small plates are nearly full of what Nephi decided to keep, two chapters remain, and the next one opens with what he could not fit (2 Ne. 33:1). Everything here is chosen against that pressure. The counsel is compressed to match: two practices, stated once each, with no elaboration.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 33:1",
+     "start": 136,
+     "end": 146,
+     "book": "2 Ne",
+     "chapter": 33,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
   },
   {
    "n": 2,
@@ -59,7 +71,7 @@
   {
    "n": 5,
    "title": "Consecrating performance",
-   "text": "Verse 9 tells them to pray before doing anything for the Lord, so that the performance may be consecrated for the welfare of the soul. It is a practical rule about sequence, and it treats prayer as preparation."
+   "text": "Verse 9 puts prayer ahead of any work done for the Lord, so that the performance may be consecrated for the welfare of the soul. It is a practical rule about sequence, and it treats prayer as preparation."
   },
   {
    "n": 6,
@@ -103,13 +115,13 @@
   {
    "term": "Manifest",
    "verse_label": "v. 6",
-   "text": "To manifest is to make plain to the eye. Verse 6 uses the verb twice and both times attaches \"in the flesh\" (v. 6), so what is promised at the end of the wait is not a better explanation but a person who can be seen. Read with the complaint in the next verse, that this was already given \"even as plain as word can be\" (v. 7), the pair marks a limit: words have gone as far as words go.",
+   "text": "To manifest is to make plain to the eye. Treated at 1 Nephi 10:17. Verse 6 uses the verb twice and both times attaches \"in the flesh\" (v. 6), so what is promised at the end of the wait is not a better explanation but a person who can be seen. Read with the complaint in the next verse, that this was already given \"even as plain as word can be\" (v. 7), the pair marks a limit: words have gone as far as words go.",
    "cites": [
     {
      "quote": "in the flesh",
      "verse": 6,
-     "start": 93,
-     "end": 114,
+     "start": 119,
+     "end": 140,
      "spans": [
       {
        "w1": 24,
@@ -121,8 +133,8 @@
     {
      "quote": "even as plain as word can be",
      "verse": 7,
-     "start": 288,
-     "end": 325,
+     "start": 314,
+     "end": 351,
      "spans": [
       {
        "w1": 52,
@@ -136,18 +148,18 @@
   {
    "term": "Stiffneckedness",
    "verse_label": "v. 7",
-   "text": "An ox that will not turn its head, applied to people. It appears last in Nephi's list of four grievances, after unbelief, wickedness, and ignorance, and it is the only one that describes a refusal rather than a lack. The word had been used of his own people since the family left Jerusalem."
+   "text": "An ox that will not turn its head, applied to people. Treated at 1 Nephi 2:11. It appears last in Nephi's list of four grievances, after unbelief, wickedness, and ignorance, and it is the only one that describes a refusal rather than a lack. The word had been used of his own people since the family left Jerusalem."
   },
   {
    "term": "Search",
    "verse_label": "v. 7",
-   "text": "Search takes its object directly here. Not searching for knowledge but searching knowledge, the way a man searches a house or a country, turning it over until something is found. Jacob will shortly use the same verb of prospecting, of people who \"began to search much gold and silver\" (Jacob 1:16), and then of himself and his brethren: \"we search the prophets\" (Jacob 4:6). What Nephi mourns is that his people would not dig for what was set in front of them.",
+   "text": "Search takes its object directly here. Treated at 1 Nephi 5:10. Not searching for knowledge but searching knowledge, the way a man searches a house or a country, turning it over until something is found. Jacob will shortly use the same verb of prospecting, of people who \"began to search much gold and silver\" (Jacob 1:16), and then of himself and his brethren: \"we search the prophets\" (Jacob 4:6). What Nephi mourns is that his people would not dig for what was set in front of them.",
    "refs": [
     {
      "kind": "scripture",
      "text": "Jacob 1:16",
-     "start": 286,
-     "end": 296,
+     "start": 311,
+     "end": 321,
      "book": "Jacob",
      "chapter": 1,
      "verse_start": 16,
@@ -156,8 +168,8 @@
     {
      "kind": "scripture",
      "text": "Jacob 4:6",
-     "start": 363,
-     "end": 372,
+     "start": 388,
+     "end": 397,
      "book": "Jacob",
      "chapter": 4,
      "verse_start": 6,
@@ -166,9 +178,14 @@
    ]
   },
   {
+   "term": "Grieveth",
+   "verse_label": "v. 8",
+   "text": "To cause sorrow. The record uses the word fifteen times and the King James Bible twice, and eight of the fifteen sit in Jacob's olive-tree allegory, where the master grieves over his vineyard. Here Nephi turns it on his own readers: it grieves him that he has to say this at all."
+  },
+  {
    "term": "Consecrate",
    "verse_label": "v. 9",
-   "text": "To set apart for a holy purpose. The usual objects are land, oil, or a person; here it is a performance, and the stated benefit is the welfare of the soul of the one performing it. Prayer before action is described as the mechanism by which ordinary work becomes something else."
+   "text": "To set apart for a holy purpose. Treated at 2 Nephi 5:26. The usual objects are land, oil, or a person; here it is a performance, and the stated benefit is the welfare of the soul of the one performing it. Prayer before action is described as the mechanism by which ordinary work becomes something else."
   }
  ],
  "phrases": [
@@ -252,50 +269,36 @@
    "label": "v. 1",
    "start": 1,
    "end": 1,
-   "title": "Reading the room",
-   "text": "He supposes they are pondering what to do after entering the way, and then asks why they are pondering at all. The chapter's tone is set here: patient, mildly exasperated, and aimed at people who have received an answer and are still waiting for one."
+   "title": "A question read off the audience, then refused",
+   "text": "The record opens by naming what the hearers are thinking, \"I suppose that ye ponder somewhat in your hearts concerning that which ye should do after ye have entered in by the way,\" and immediately turns it back on them: \"But, behold, why do ye ponder these things in your hearts?\" The answer to the question is that the question should not have been necessary. Verse 8 repeats the move a second time, \"I perceive that ye ponder still in your hearts,\" so a chapter of nine verses opens and turns twice on the same unspoken question."
   },
   {
    "label": "v. 2–3",
    "start": 2,
    "end": 3,
-   "title": "One step back",
-   "text": "The tongue of angels is defined by tracing it back one step: angels speak by the Holy Ghost, and the Holy Ghost speaks the words of Christ. Then the practical instruction, feast, and the reason, the words will tell you what to do. Three verses convert a striking phrase into a study habit."
+   "title": "A three-link chain ending in an instruction",
+   "text": "The record argues by transitivity in two verses: speaking with the tongue of angels comes by the Holy Ghost, angels \"speak by the power of the Holy Ghost,\" and therefore \"they speak the words of Christ.\" What gets drawn from it is a practice, \"feast upon the words of Christ; for behold, the words of Christ will tell you all things what ye should do.\" Each step is short and the whole occupies two verses, so the record makes an argument whose only purpose is to license a single imperative."
   },
   {
    "label": "v. 4",
    "start": 4,
    "end": 4,
-   "title": "Why it does not work",
-   "text": "If they cannot understand, the fault is in the asking. The verse is blunt about the consequence, perishing in the dark, and it makes light a thing one is brought into rather than a thing one figures out."
+   "title": "Blame for misunderstanding assigned in advance",
+   "text": "The record forecloses one response before it can be made: \"if ye cannot understand them it will be because ye ask not, neither do ye knock.\" The conditional is stated as certain, with no allowance for obscurity in the words themselves. It sits three verses before an admission that the speaker has been stopped mid-thought, so the chapter holds the hearer responsible for comprehension and then reports the speaker running out of permission to explain."
   },
   {
-   "label": "v. 5–6",
-   "start": 5,
+   "label": "v. 6",
+   "start": 6,
    "end": 6,
-   "title": "The Holy Ghost, and the end of new doctrine",
-   "text": "What the Spirit will do is show all things to do; what will not happen is more doctrine before Christ comes. The two verses together describe a settled situation: guidance continues, revelation of new doctrine pauses. Very few writers close a subject this explicitly."
+   "title": "A limit put on further revelation, with an expiry date",
+   "text": "The record makes a bounded prediction: \"there will be no more doctrine given until after he shall manifest himself unto you in the flesh.\" The claim is that revelation pauses, with a specific event named as the point it resumes. The record narrates that event at 3 Nephi 11, six hundred years and eight books later, and the instruction attached here matches what is said there, \"the things which he shall say unto you shall ye observe to do.\""
   },
   {
    "label": "v. 7",
    "start": 7,
    "end": 7,
-   "title": "The interruption",
-   "text": "Mid-instruction, the Spirit stops him, and he mourns. The list is specific, unbelief, wickedness, ignorance, stiffneckedness, and the grievance is that people will not search knowledge nor understand it when given plainly. It is the strongest statement of frustration in Nephi's writing."
-  },
-  {
-   "label": "v. 8",
-   "start": 8,
-   "end": 8,
-   "title": "He tries again",
-   "text": "He perceives they are still pondering, and says it grieves him to have to speak of this. Then the substance: the Spirit teaches a man to pray, and the evil spirit teaches him not to. The verse locates prayerlessness as something taught."
-  },
-  {
-   "label": "v. 9",
-   "start": 9,
-   "end": 9,
-   "title": "The rule",
-   "text": "Pray always, do not faint, and pray before doing anything for the Lord so the doing is consecrated. After a chapter about not knowing what to do, the last verse gives the smallest possible instruction, and it is one anybody can follow immediately."
+   "title": "The record stops and says why",
+   "text": "The break is reported rather than concealed: \"I, Nephi, cannot say more; the Spirit stoppeth mine utterance.\" Four causes for the grief follow in a list, unbelief, wickedness, ignorance, and stiffneckedness, and the complaint returns to the theme of 2 Nephi 25, closing on \"even as plain as word can be.\" A writer whose stated distinction is plainness ends his teaching by reporting that plainness was not enough."
   }
  ],
  "chapter": [
@@ -307,7 +310,7 @@
   {
    "n": 2,
    "title": "The mystical is made ordinary",
-   "text": "Speaking with the tongue of angels sounds like ecstatic experience and is defined as saying what Christ would say. That is characteristic of this record, which repeatedly takes a striking phrase and resolves it into something a person could do on a Tuesday."
+   "text": "The definition is supplied in two steps at verses 2 and 3: speaking with the tongue of angels comes \"by the Holy Ghost,\" and \"Angels speak by the power of the Holy Ghost; wherefore, they speak the words of Christ.\" What the hearer is then told to do is read, \"feast upon the words of Christ.\" Verses 8 and 9 do the same to prayer, resolving a test of spirits into one observable behavior, whether a man is taught to pray. Two striking phrases are each resolved into an action inside nine verses."
   },
   {
    "n": 3,
@@ -322,7 +325,7 @@
   {
    "n": 5,
    "title": "Prayer is described as taught, not natural",
-   "text": "Verse 8 says the Spirit teaches a man to pray and that the evil spirit teaches him not to. Both are instruction. That framing makes prayerlessness a curriculum, a harder and more useful account of it."
+   "text": "Verse 8 makes prayer something the Spirit instils and the evil spirit talks a man out of. Both are instruction. That framing makes prayerlessness a curriculum, a harder and more useful account of it."
   },
   {
    "n": 6,
@@ -617,7 +620,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "9a3e0300d8d2bb2a"
+  "at": "2026-09-07",
+  "source_sha256": "1f52e535aa899ad8"
  }
 }

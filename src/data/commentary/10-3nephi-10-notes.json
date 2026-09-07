@@ -1,0 +1,831 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "3 Nephi",
+  "book_slug": "3nephi",
+  "chapter": 10,
+  "volume_order": "10",
+  "speakers": [
+   "The voice of Christ",
+   "Mormon, as narrator"
+  ],
+  "audience": "The survivors, and then the reader",
+  "location": "The whole land, in the dark and then the morning",
+  "date": "AD 34, the end of the three days",
+  "unit": "The destruction and the visit (3 Nephi 8–11)",
+  "principles": [
+   "Silence as a response",
+   "A gathering offered three times in three tenses",
+   "Survival explained by what the survivors did not do"
+  ],
+  "connections": 12,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The silence lasts hours",
+   "text": "Verses 1 and 2 say astonishment stopped the lamenting for many hours. 3 Nephi 8:23 has that mourning running continually through three days of darkness, so this is the first quiet the land has had since the storm."
+  },
+  {
+   "n": 2,
+   "title": "The second voice uses one image three times",
+   "text": "Verses 4, 5, and 6 give the hen and chickens in past, past-conditional, and future. Matthew 23:37 and Luke 13:34 both carry the figure once, addressed to Jerusalem and in one tense; this passage uses it three times and moves the tense each time.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Luke 13:34",
+     "start": 102,
+     "end": 112,
+     "book": "Luke",
+     "chapter": 13,
+     "verse_start": 34,
+     "verse_end": 34
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Jerusalem is addressed alongside them",
+   "text": "Verse 5 speaks to the house of Israel at Jerusalem in the same sentence as the fallen here."
+  },
+  {
+   "n": 4,
+   "title": "The weeping resumes",
+   "text": "Verse 8 has them howling again after the voice finishes. 3 Nephi 8:23 to 25 records the same weeping before the voice came, so the chapter has grief on both sides of the message rather than resolved by it."
+  },
+  {
+   "n": 5,
+   "title": "The earth closes",
+   "text": "Verses 9 and 10 have the darkness dispersing, the rending stopping, and the ground cleaving together again. 3 Nephi 8:17 and 18 had the face of the whole earth deformed and the rocks broken into seams and cracks, and the reversal is reported clause for clause against that description."
+  },
+  {
+   "n": 6,
+   "title": "The survivors are defined negatively",
+   "text": "Verse 12 has them receiving the prophets, refusing to stone them, and keeping clear of the saints' blood. Helaman 13:24 had charged the previous generation with casting out the prophets and stoning them, so the survival criterion is the exact reverse of the standing indictment."
+  },
+  {
+   "n": 7,
+   "title": "Mormon addresses the reader directly",
+   "text": "Verse 14 tells whoever reads to search the scriptures and check these events against the prophecies."
+  }
+ ],
+ "words": [
+  {
+   "term": "Silence",
+   "verse_label": "v. 1",
+   "text": "Treated at Alma 55:17, of a night attack. Verse 1 uses it of a whole land that stopped making noise, and verse 2 gives astonishment as the cause.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 55:17",
+     "start": 11,
+     "end": 21,
+     "book": "Alma",
+     "chapter": 55,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
+  },
+  {
+   "term": "Lamenting",
+   "verse_label": "v. 2",
+   "text": "Mourning aloud. The record uses the word twice, here and at Alma 18:43, and the King James Bible never. Verse 2 records it stopping rather than starting.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 18:43",
+     "start": 60,
+     "end": 70,
+     "book": "Alma",
+     "chapter": 18,
+     "verse_start": 43,
+     "verse_end": 43
+    }
+   ]
+  },
+  {
+   "term": "Hen",
+   "verse_label": "v. 4",
+   "text": "A mother bird. All four of the record's uses are in this chapter, and the King James Bible has three, including Matthew 23:37, which the image here follows closely."
+  },
+  {
+   "term": "Wailing",
+   "verse_label": "v. 10",
+   "text": "Loud grieving. It appears twice, here and at Alma 40:13, in the record, and the King James Bible sixteen times. Verse 10 has it ceasing and turning to praise.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 40:13",
+     "start": 45,
+     "end": 55,
+     "book": "Alma",
+     "chapter": 40,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
+  },
+  {
+   "term": "Crushed",
+   "verse_label": "v. 13",
+   "text": "Pressed to death. The word occurs once in the record and seven times in the King James Bible. Verse 13 lists it among six deaths the spared did not die."
+  },
+  {
+   "term": "Ascension",
+   "verse_label": "v. 18",
+   "text": "Going up. The word turns up four times here, and the King James Bible never. Verse 18 dates the visit to soon after it."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "There was silence in the land for the space of many hours",
+   "verse_label": "v. 1",
+   "text": "The response to the voice, stated twice in two verses. Revelation 8:1 measures a silence in heaven the same way."
+  },
+  {
+   "term": "They did cease lamenting and howling for the loss of their kindred",
+   "verse_label": "v. 2",
+   "text": "What the silence interrupted. Grief already in progress stopped, which is how the record measures the astonishment."
+  },
+  {
+   "term": "How oft have I gathered you as a hen gathereth her chickens under her wings",
+   "verse_label": "v. 4",
+   "text": "The first of three. This one is past tense, and adds that he nourished them."
+  },
+  {
+   "term": "How oft would I have gathered you as a hen gathereth her chickens, and ye would not",
+   "verse_label": "v. 5",
+   "text": "The second, in the words Matthew 23:37 gives over Jerusalem. Verse 5 addresses both cities in one sentence."
+  },
+  {
+   "term": "If ye will repent and return unto me with full purpose of heart",
+   "verse_label": "v. 6",
+   "text": "The third, in the future, and the only one with a condition. 2 Nephi 31:13 uses the same phrase of coming to baptism."
+  },
+  {
+   "term": "They began to weep and howl again because of the loss of their kindred and friends",
+   "verse_label": "v. 8",
+   "text": "The silence ends and the grief comes back. The record does not report a conversion at this point."
+  },
+  {
+   "term": "The earth did cleave together again, that it stood",
+   "verse_label": "v. 10",
+   "text": "The ground closing after three days. The same verse has the mourning turn into praise and thanksgiving."
+  },
+  {
+   "term": "Thus far were the scriptures fulfilled",
+   "verse_label": "v. 11",
+   "text": "Mormon marking a checkpoint. What follows in verses 14 through 17 is an argument that the reader can verify."
+  },
+  {
+   "term": "It was they who received the prophets and stoned them not",
+   "verse_label": "v. 12",
+   "text": "The survivors described by two things they refrained from doing. 3 Nephi 9:11 had made casting out the prophets the reason a city burned."
+  },
+  {
+   "term": "Whoso readeth, let him understand; he that hath the scriptures, let him search them",
+   "verse_label": "v. 14",
+   "text": "Mormon handing the argument to the reader. Matthew 24:15 uses the first clause word for word."
+  },
+  {
+   "term": "Are not we a remnant of the seed of Joseph?",
+   "verse_label": "v. 17",
+   "text": "A question rather than a claim. Verse 17 grounds it in the plates of brass that Lehi carried out of Jerusalem."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–2",
+   "start": 1,
+   "end": 2,
+   "title": "Hours of quiet, and what stopped the noise",
+   "text": "The record gives the interval a duration: \"there was silence in the land for the space of many hours.\" Verse 2 explains what stopped the noise, and the explanation is not comfort: \"so great was the astonishment of the people that they did cease lamenting and howling for the loss of their kindred which had been slain.\" The mourning of 3 Nephi 8:23–25 ends because something more startling has happened, not because the grief has passed, and verse 8 reports it resuming."
+  },
+  {
+   "label": "v. 4–6",
+   "start": 4,
+   "end": 6,
+   "title": "One image, three times, in three tenses",
+   "text": "The record works a single simile through past, conditional and future in consecutive verses: \"how oft have I gathered you as a hen gathereth her chickens under her wings, and have nourished you\"; \"how oft would I have gathered you as a hen gathereth her chickens under her wings\"; \"how oft will I gather you as a hen gathereth her chickens under her wings, if ye will repent.\" The figure stands once in the Bible, at Matt. 23:37, in the conditional form only. Here the record conjugates it, and the third instance carries the condition the other two lack.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Matt. 23:37",
+     "start": 417,
+     "end": 428,
+     "book": "Matt",
+     "chapter": 23,
+     "verse_start": 37,
+     "verse_end": 37
+    }
+   ]
+  },
+  {
+   "label": "v. 9–10",
+   "start": 9,
+   "end": 10,
+   "title": "The undoing reported item by item",
+   "text": "The record reverses the destruction of 3 Nephi 8 by listing each element as it stops: \"the darkness dispersed from off the face of the land, and the earth did cease to tremble, and the rocks did cease to rend, and the dreadful groanings did cease, and all the tumultuous noises did pass away.\" Verse 10 completes it with the physical repair, \"the earth did cleave together again, that it stood.\" Five things end and one thing is restored, and the order runs from the sky down to the ground."
+  },
+  {
+   "label": "v. 11–13",
+   "start": 11,
+   "end": 13,
+   "title": "The survivors identified by one test, stated twice",
+   "text": "The record does not describe the spared population by number or by place. It gives a criterion: \"it was the more righteous part of the people who were saved, and it was they who received the prophets and stoned them not.\" Verse 13 then lists what they escaped in the same terms the previous chapter used for the destruction, \"they were not sunk and buried up in the earth... not drowned in the depths of the sea... not burned by fire.\" Treatment of prophets is the only variable named on either side."
+  },
+  {
+   "label": "v. 14",
+   "start": 14,
+   "end": 14,
+   "title": "An instruction to go and check",
+   "text": "One verse addresses the reader directly and tells him to verify the account against another book: \"whoso readeth, let him understand; he that hath the scriptures, let him search them, and see and behold if all these deaths and destructions by fire, and by smoke, and by tempests, and by whirlwinds... be not unto the fulfilling of the prophecies of many of the holy prophets.\" The record makes its own claim testable and names the test."
+  },
+  {
+   "label": "v. 15–17",
+   "start": 15,
+   "end": 17,
+   "title": "Three witnesses named, and two of them have no book",
+   "text": "The record supplies the prophets it means: \"the prophet Zenos did testify of these things, and also Zenock spake concerning these things,\" and then \"our father Jacob also testified concerning a remnant of the seed of Joseph.\" Zenos and Zenock appear in the Bible nowhere at all, and the third is the volume's own patriarch. Verse 15 also states what happened to the witnesses, \"many have testified of these things at the coming of Christ, and were slain because they testified of these things.\""
+  },
+  {
+   "label": "v. 18–19",
+   "start": 18,
+   "end": 19,
+   "title": "A chapter closed by an announcement of the next one",
+   "text": "The last two verses report a visit and then defer it: the people \"did see and hear him, inasmuch as they were spared,\" and then \"an account of his ministry shall be given hereafter.\" The record names what it is postponing and why it is stopping: \"Therefore for this time I make an end of my sayings.\" A compiler is dividing his material and telling the reader where the seam is."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The response to the voice is silence",
+   "text": "Not repentance, not argument. Verses 1 and 2 say it twice and give astonishment as the cause."
+  },
+  {
+   "n": 2,
+   "title": "The same image is used in three tenses",
+   "text": "Have gathered, would have gathered, will gather. Only the third carries a condition, and it is the one addressed to the living."
+  },
+  {
+   "n": 3,
+   "title": "Two hemispheres are addressed in a single line",
+   "text": "Verse 5 speaks to those at Jerusalem and those fallen here together, in the words Matthew records over Jerusalem (Matt. 23:37).",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Matt. 23:37",
+     "start": 114,
+     "end": 125,
+     "book": "Matt",
+     "chapter": 23,
+     "verse_start": 37,
+     "verse_end": 37
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Grief resumes after the voice",
+   "text": "Verse 8 has them weeping again. The record does not tidy the sequence into a conversion."
+  },
+  {
+   "n": 5,
+   "title": "The turn happens with the daylight",
+   "text": "Verse 10 has mourning becoming praise in the same sentence as the earth closing."
+  },
+  {
+   "n": 6,
+   "title": "The spared are identified by omissions",
+   "text": "Verse 12 names what they did not do to the prophets, and verse 13 names six deaths they did not die."
+  },
+  {
+   "n": 7,
+   "title": "Mormon hands the reader the test",
+   "text": "Verse 14 says search the scriptures and check. The argument is offered as verifiable rather than asserted."
+  },
+  {
+   "n": 8,
+   "title": "Two prophets outside the Bible are the evidence",
+   "text": "Verse 16 names two prophets who appear in no surviving Bible and states what makes them relevant, \"they testified particularly concerning us, who are the remnant of their seed.\" Verse 17 adds a third, \"our father Jacob also testified concerning a remnant of the seed of Joseph,\" and names the source, \"written upon the plates of brass.\" 1 Nephi 19:10 had cited the same two, Zenos and Zenock, for the same kind of claim eight hundred years earlier in the record. The evidence offered for a people's identity is a text nobody outside these books has."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Let silence be a real response",
+    "verse_label": "v. 1",
+    "text": "A whole land stopped making noise for hours. Some things are answered first by not speaking."
+   },
+   {
+    "title": "Notice which offer has the condition",
+    "verse_label": "v. 6",
+    "text": "The past gatherings are stated; the future one depends on returning with full purpose of heart. Mercy already given and mercy still open are different sentences."
+   },
+   {
+    "title": "Expect grief to come back after the meaning arrives",
+    "verse_label": "v. 8",
+    "text": "They heard the voice and then wept again. Understanding a loss does not finish it."
+   },
+   {
+    "title": "Let the mourning end when it ends",
+    "verse_label": "v. 10",
+    "text": "The earth cleaved together again, and the weeping of the people who were spared ceased and turned into praise. Grief does not have to be sustained to prove it was real, and the record marks the turn without apologizing for it."
+   },
+   {
+    "title": "The survivors are described by a behavior",
+    "verse_label": "v. 12",
+    "text": "The spared are named as those who received the prophets and stoned them not. That is a criterion anybody can audit in themselves this week, which is presumably why it is the one given."
+   },
+   {
+    "title": "Check the claim yourself",
+    "verse_label": "v. 14",
+    "text": "Mormon tells the reader to search the scriptures and see. An argument offered for testing is worth more than one offered for acceptance."
+   },
+   {
+    "title": "Some testimony costs the witness",
+    "verse_label": "v. 15",
+    "text": "Many testified of these things at the coming of Christ, and the same verse says they were slain for testifying. The record keeps the price attached to the testimony instead of reporting only its content."
+   },
+   {
+    "title": "Ask carefully whether the old text is about you",
+    "verse_label": "v. 17",
+    "text": "Mormon points to Jacob's word about a remnant of the seed of Joseph and asks whether they are not that remnant. Reading yourself into an ancient promise is a move worth making with the text open in front of you, which is how he makes it."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "When did something stop me talking?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "What has been offered to me repeatedly that I would not take?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "What would returning with full purpose of heart mean this week?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "What grief have I expected to be finished and is not?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "What am I spared from, and what did I not do to deserve it?"
+   },
+   {
+    "verse_label": "v. 14",
+    "start": 14,
+    "end": 14,
+    "text": "What have I accepted without searching it out?"
+   },
+   {
+    "verse_label": "v. 17",
+    "start": 17,
+    "end": 17,
+    "text": "What am I a remnant of?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "3ne10-001",
+   "scope": "BOOK",
+   "head": "3 Ne. 8:23",
+   "anchor": {
+    "verse": 9,
+    "w1": 46,
+    "w2": 58,
+    "quote": "the dreadful groanings did cease, and all the tumultuous noises did pass away"
+   },
+   "reason": "the three days of mourning that this morning ended",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 8,
+     "verse": 23,
+     "w1": 23,
+     "w2": 35,
+     "quote": "there was great mourning and howling and weeping among all the people continually;",
+     "verse_text": "And it came to pass that it did last for the space of three days that there was no light seen; and there was great mourning and howling and weeping among all the people continually; yea, great were the groanings of the people, because of the darkness and the great destruction which had come upon them.",
+     "markdown": "And it came to pass that it did last for the space of three days that there was no light seen; and **there was great mourning and howling and weeping among all the people continually**; yea, great were the groanings of the people, because of the darkness and the great destruction which had come upon them.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne08-002"
+  },
+  {
+   "id": "3ne10-002",
+   "scope": "BOOK",
+   "head": "3 Ne. 9:11",
+   "anchor": {
+    "verse": 12,
+    "w1": 15,
+    "w2": 25,
+    "quote": "it was they who received the prophets and stoned them not"
+   },
+   "reason": "the cities whose prophets were all cast out, and after",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 9,
+     "verse": 11,
+     "w1": 2,
+     "w2": 15,
+     "quote": "because they did cast them all out, that there were none righteous among them,",
+     "verse_text": "And because they did cast them all out, that there were none righteous among them, I did send down fire and destroy them, that their wickedness and abominations might be hid from before my face, that the blood of the prophets and the saints whom I sent among them might not cry unto me from the ground against them.",
+     "markdown": "And **because they did cast them all out, that there were none righteous among them**, I did send down fire and destroy them, that their wickedness and abominations might be hid from before my face, that the blood of the prophets and the saints whom I sent among them might not cry unto me from the ground against them.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne09-011"
+  },
+  {
+   "id": "3ne10-003",
+   "scope": "BOOK",
+   "head": "3 Ne. 11:8",
+   "anchor": {
+    "verse": 19,
+    "w1": 1,
+    "w2": 9,
+    "quote": "Showing his body unto them, and ministering unto them"
+   },
+   "reason": "the moment itself, when they looked up and saw him",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 11,
+     "verse": 8,
+     "w1": 19,
+     "w2": 26,
+     "quote": "they saw a Man descending out of heaven;",
+     "verse_text": "And it came to pass, as they understood they cast their eyes up again towards heaven; and behold, they saw a Man descending out of heaven; and he was clothed in a white robe; and he came down and stood in the midst of them; and the eyes of the whole multitude were turned upon him, and they durst not open their mouths, even one to another, and wist not what it meant, for they thought it was an angel that had appeared unto them.",
+     "markdown": "And it came to pass, as they understood they cast their eyes up again towards heaven; and behold, **they saw a Man descending out of heaven**; and he was clothed in a white robe; and he came down and stood in the midst of them; and the eyes of the whole multitude were turned upon him, and they durst not open their mouths, even one to another, and wist not what it meant, for they thought it was an angel that had appeared unto them.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne11-001"
+  },
+  {
+   "id": "3ne10-011",
+   "scope": "BOOK",
+   "head": "3 Ne. 25:2",
+   "anchor": {
+    "verse": 4,
+    "w1": 24,
+    "w2": 38,
+    "quote": "how oft have I gathered you as a hen gathereth her chickens under her wings,"
+   },
+   "reason": "the wings again, in the Malachi quotation",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 25,
+     "verse": 2,
+     "w1": 14,
+     "w2": 18,
+     "quote": "with healing in his wings;",
+     "verse_text": "But unto you that fear my name, shall the Son of Righteousness arise with healing in his wings; and ye shall go forth and grow up as calves in the stall.",
+     "markdown": "But unto you that fear my name, shall the Son of Righteousness arise **with healing in his wings**; and ye shall go forth and grow up as calves in the stall.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne25-001"
+  },
+  {
+   "id": "3ne10-004",
+   "scope": "BOM",
+   "head": "Hel. 15:11",
+   "anchor": {
+    "verse": 16,
+    "w1": 2,
+    "w2": 12,
+    "quote": "the prophet Zenos did testify of these things, and also Zenock"
+   },
+   "reason": "Samuel citing Zenos on the restoration of this same people",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 15,
+     "verse": 11,
+     "w1": 23,
+     "w2": 33,
+     "quote": "spoken of by our fathers, and also by the prophet Zenos,",
+     "verse_text": "Yea, even if they should dwindle in unbelief the Lord shall prolong their days, until the time shall come which hath been spoken of by our fathers, and also by the prophet Zenos, and many other prophets, concerning the restoration of our brethren, the Lamanites, again to the knowledge of the truth—",
+     "markdown": "Yea, even if they should dwindle in unbelief the Lord shall prolong their days, until the time shall come which hath been **spoken of by our fathers, and also by the prophet Zenos**, and many other prophets, concerning the restoration of our brethren, the Lamanites, again to the knowledge of the truth—",
+     "span": true
+    }
+   ],
+   "mirror": "hel15-012"
+  },
+  {
+   "id": "3ne10-005",
+   "scope": "BOM",
+   "head": "Alma 46:24",
+   "anchor": {
+    "verse": 17,
+    "w1": 2,
+    "w2": 14,
+    "quote": "our father Jacob also testified concerning a remnant of the seed of Joseph"
+   },
+   "reason": "Moroni quoting the same words of Jacob over the coat",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 46,
+     "verse": 24,
+     "w1": 13,
+     "w2": 22,
+     "quote": "let us remember the words of Jacob, before his death,",
+     "verse_text": "Yea, let us preserve our liberty as a remnant of Joseph; yea, let us remember the words of Jacob, before his death, for behold, he saw that a part of the remnant of the coat of Joseph was preserved and had not decayed. And he said—Even as this remnant of garment of my son hath been preserved, so shall a remnant of the seed of my son be preserved by the hand of God, and be taken unto himself, while the remainder of the seed of Joseph shall perish, even as the remnant of his garment.",
+     "markdown": "Yea, let us preserve our liberty as a remnant of Joseph; yea, **let us remember the words of Jacob, before his death**, for behold, he saw that a part of the remnant of the coat of Joseph was preserved and had not decayed. And he said—Even as this remnant of garment of my son hath been preserved, so shall a remnant of the seed of my son be preserved by the hand of God, and be taken unto himself, while the remainder of the seed of Joseph shall perish, even as the remnant of his garment.",
+     "span": true
+    }
+   ],
+   "mirror": "al46-020"
+  },
+  {
+   "id": "3ne10-006",
+   "scope": "BOM",
+   "head": "1 Ne. 19:11",
+   "anchor": {
+    "verse": 13,
+    "w1": 51,
+    "w2": 62,
+    "quote": "neither were they overpowered by the vapor of smoke and of darkness"
+   },
+   "reason": "the same list of visitations, quoted from a prophet",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 19,
+     "verse": 11,
+     "w1": 45,
+     "w2": 55,
+     "quote": "by tempest, by fire, and by smoke, and vapor of darkness,",
+     "verse_text": "For thus spake the prophet: The Lord God surely shall visit all the house of Israel at that day, some with his voice, because of their righteousness, unto their great joy and salvation, and others with the thunderings and the lightnings of his power, by tempest, by fire, and by smoke, and vapor of darkness, and by the opening of the earth, and by mountains which shall be carried up.",
+     "markdown": "For thus spake the prophet: The Lord God surely shall visit all the house of Israel at that day, some with his voice, because of their righteousness, unto their great joy and salvation, and others with the thunderings and the lightnings of his power, **by tempest, by fire, and by smoke, and vapor of darkness**, and by the opening of the earth, and by mountains which shall be carried up.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne19-019"
+  },
+  {
+   "id": "3ne10-007",
+   "scope": "BOM",
+   "head": "2 Ne. 31:13",
+   "anchor": {
+    "verse": 6,
+    "w1": 25,
+    "w2": 37,
+    "quote": "if ye will repent and return unto me with full purpose of heart"
+   },
+   "reason": "Nephi using the same phrase of going into the water",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 31,
+     "verse": 13,
+     "w1": 8,
+     "w2": 18,
+     "quote": "if ye shall follow the Son, with full purpose of heart,",
+     "verse_text": "Wherefore, my beloved brethren, I know that if ye shall follow the Son, with full purpose of heart, acting no hypocrisy and no deception before God, but with real intent, repenting of your sins, witnessing unto the Father that ye are willing to take upon you the name of Christ, by baptism—yea, by following your Lord and your Savior down into the water, according to his word, behold, then shall ye receive the Holy Ghost; yea, then cometh the baptism of fire and of the Holy Ghost; and then can ye speak with the tongue of angels, and shout praises unto the Holy One of Israel.",
+     "markdown": "Wherefore, my beloved brethren, I know that **if ye shall follow the Son, with full purpose of heart**, acting no hypocrisy and no deception before God, but with real intent, repenting of your sins, witnessing unto the Father that ye are willing to take upon you the name of Christ, by baptism—yea, by following your Lord and your Savior down into the water, according to his word, behold, then shall ye receive the Holy Ghost; yea, then cometh the baptism of fire and of the Holy Ghost; and then can ye speak with the tongue of angels, and shout praises unto the Holy One of Israel.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne31-014"
+  },
+  {
+   "id": "3ne10-012",
+   "scope": "BOM",
+   "head": "Morm. 6:17",
+   "anchor": {
+    "verse": 5,
+    "w1": 3,
+    "w2": 15,
+    "quote": "how oft would I have gathered you as a hen gathereth her chickens"
+   },
+   "reason": "Mormon's lament over the same offer refused",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 6,
+     "verse": 17,
+     "w1": 20,
+     "w2": 34,
+     "quote": "how could ye have rejected that Jesus, who stood with open arms to receive you!",
+     "verse_text": "O ye fair ones, how could ye have departed from the ways of the Lord! O ye fair ones, how could ye have rejected that Jesus, who stood with open arms to receive you!",
+     "markdown": "O ye fair ones, how could ye have departed from the ways of the Lord! O ye fair ones, **how could ye have rejected that Jesus, who stood with open arms to receive you**!",
+     "span": true
+    }
+   ],
+   "mirror": "morm06-007"
+  },
+  {
+   "id": "3ne10-008",
+   "scope": "SW",
+   "head": "Matt. 23:37",
+   "anchor": {
+    "verse": 5,
+    "w1": 51,
+    "w2": 67,
+    "quote": "how oft would I have gathered you as a hen gathereth her chickens, and ye would not"
+   },
+   "reason": "the same sentence spoken over Jerusalem",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 23,
+     "verse": 37,
+     "w1": 17,
+     "w2": 39,
+     "quote": "how often would I have gathered thy children together, even as a hen gathereth her chickens under her wings, and ye would not!",
+     "verse_text": "O Jerusalem, Jerusalem, thou that killest the prophets, and stonest them which are sent unto thee, how often would I have gathered thy children together, even as a hen gathereth her chickens under her wings, and ye would not!",
+     "markdown": "O Jerusalem, Jerusalem, thou that killest the prophets, and stonest them which are sent unto thee, **how often would I have gathered thy children together, even as a hen gathereth her chickens under her wings, and ye would not**!",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne10-009",
+   "scope": "SW",
+   "head": "Rev. 8:1",
+   "anchor": {
+    "verse": 1,
+    "w1": 28,
+    "w2": 39,
+    "quote": "there was silence in the land for the space of many hours"
+   },
+   "reason": "a silence in heaven measured the same way",
+   "targets": [
+    {
+     "ref": "Rev.",
+     "chapter": 8,
+     "verse": 1,
+     "w1": 9,
+     "w2": 20,
+     "quote": "there was silence in heaven about the space of half an hour.",
+     "verse_text": "And when he had opened the seventh seal, there was silence in heaven about the space of half an hour.",
+     "markdown": "And when he had opened the seventh seal, **there was silence in heaven about the space of half an hour**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne10-010",
+   "scope": "SW",
+   "head": "Matt. 24:15",
+   "anchor": {
+    "verse": 14,
+    "w1": 3,
+    "w2": 7,
+    "quote": "whoso readeth, let him understand"
+   },
+   "reason": "the same four words, in the same kind of aside",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 24,
+     "verse": 15,
+     "w1": 21,
+     "w2": 25,
+     "quote": "(whoso readeth, let him understand:)",
+     "verse_text": "When ye therefore shall see the abomination of desolation, spoken of by Daniel the prophet, stand in the holy place, (whoso readeth, let him understand:)",
+     "markdown": "When ye therefore shall see the abomination of desolation, spoken of by Daniel the prophet, stand in the holy place, **(whoso readeth, let him understand:)**",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 28,
+   "w2": 39,
+   "quote": "there was silence in the land for the space of many hours",
+   "entries": [
+    "3ne10-009"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 24,
+   "w2": 38,
+   "quote": "how oft have I gathered you as a hen gathereth her chickens under her wings,",
+   "entries": [
+    "3ne10-011"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 3,
+   "w2": 15,
+   "quote": "how oft would I have gathered you as a hen gathereth her chickens",
+   "entries": [
+    "3ne10-012"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 51,
+   "w2": 67,
+   "quote": "how oft would I have gathered you as a hen gathereth her chickens, and ye would not",
+   "entries": [
+    "3ne10-008"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 25,
+   "w2": 37,
+   "quote": "if ye will repent and return unto me with full purpose of heart",
+   "entries": [
+    "3ne10-007"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 46,
+   "w2": 58,
+   "quote": "the dreadful groanings did cease, and all the tumultuous noises did pass away",
+   "entries": [
+    "3ne10-001"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 15,
+   "w2": 25,
+   "quote": "it was they who received the prophets and stoned them not",
+   "entries": [
+    "3ne10-002"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 51,
+   "w2": 62,
+   "quote": "neither were they overpowered by the vapor of smoke and of darkness",
+   "entries": [
+    "3ne10-006"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 3,
+   "w2": 7,
+   "quote": "whoso readeth, let him understand",
+   "entries": [
+    "3ne10-010"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 2,
+   "w2": 12,
+   "quote": "the prophet Zenos did testify of these things, and also Zenock",
+   "entries": [
+    "3ne10-004"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 2,
+   "w2": 14,
+   "quote": "our father Jacob also testified concerning a remnant of the seed of Joseph",
+   "entries": [
+    "3ne10-005"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 1,
+   "w2": 9,
+   "quote": "Showing his body unto them, and ministering unto them",
+   "entries": [
+    "3ne10-003"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "8b5d34034a0642f1"
+ }
+}

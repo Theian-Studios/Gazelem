@@ -17,7 +17,7 @@
    "Liberty",
    "Awakening"
   ],
-  "connections": 19,
+  "connections": 21,
   "initial": false
  },
  "world_behind": [
@@ -212,13 +212,13 @@
   {
    "term": "Dwindle",
    "verse_label": "v. 10",
-   "text": "Nobody decides to dwindle. The verb is for gradual loss, thinning away without a moment of decision, and it is this record's standing word for how belief ends: \"they shall dwindle in unbelief\" (v. 10). What makes the line heavy is the inventory Lehi wraps around it, knowledge of the creation, power to do all things by faith, \"all the commandments from the beginning\" (v. 10). An estate that size can still be mislaid slowly. No one in the King James Bible ever dwindles; in this volume the word turns up wherever a people is losing its faith by degrees.",
+   "text": "Nobody decides to dwindle. Treated at 1 Nephi 4:13. The verb is for gradual loss, thinning away without a moment of decision, and it is this record's standing word for how belief ends: \"they shall dwindle in unbelief\" (v. 10). What makes the line heavy is the inventory Lehi wraps around it, knowledge of the creation, power to do all things by faith, \"all the commandments from the beginning\" (v. 10). An estate that size can still be mislaid slowly. No one in the King James Bible ever dwindles; in this volume the word turns up wherever a people is losing its faith by degrees.",
    "cites": [
     {
      "quote": "they shall dwindle in unbelief",
      "verse": 10,
-     "start": 160,
-     "end": 200,
+     "start": 185,
+     "end": 225,
      "spans": [
       {
        "w1": 8,
@@ -230,13 +230,33 @@
     {
      "quote": "all the commandments from the beginning",
      "verse": 10,
-     "start": 327,
-     "end": 376,
+     "start": 352,
+     "end": 401,
      "spans": [
       {
        "w1": 63,
        "w2": 68,
        "text": "all the commandments from the beginning"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Traveler",
+   "verse_label": "v. 14",
+   "text": "One who journeys, and here the word for whoever might come back from the grave. It appears once in this record and never in the King James Bible. Lehi points at the ground his own limbs are going into, \"from whence no traveler can return\" (v. 14). This family had spent eight years as travelers, through a wilderness and across an ocean; the one trip he names as having no return leg is the one he is about to take.",
+   "cites": [
+    {
+     "quote": "from whence no traveler can return",
+     "verse": 14,
+     "start": 202,
+     "end": 246,
+     "spans": [
+      {
+       "w1": 28,
+       "w2": 33,
+       "text": "from whence no traveler can return"
       }
      ]
     }
@@ -265,7 +285,7 @@
   {
    "term": "Sharpness",
    "verse_label": "v. 26",
-   "text": "The accusation quoted and reforged: \"his sharpness was the sharpness of the power of the word of God\" (v. 26). The same edge that felt like a brother's temper was, on the father's testimony, the instrument's edge. The record keeps the word for later hard sermons; whether sharpness wounds or heals depends on whose power it carries.",
+   "text": "The accusation quoted and reforged: \"his sharpness was the sharpness of the power of the word of God\" (v. 26). What they heard as a brother's temper was, on the father's testimony, the instrument's edge. The record keeps the word for later hard sermons; whether sharpness wounds or heals depends on whose power it carries.",
    "cites": [
     {
      "quote": "his sharpness was the sharpness of the power of the word of God",
@@ -477,275 +497,39 @@
  ],
  "verses": [
   {
-   "label": "v. 1–4",
-   "start": 1,
-   "end": 4,
-   "title": "The mercies, re-read into the record",
-   "text": "Rebellions on the waters, lives spared, Jerusalem fallen exactly as the vision said: \"had we remained in Jerusalem we should also have perished\" (v. 4). The farewell opens as an audit of deliverances, because every demand the sermon will make rests on the history it re-reads first.",
-   "cites": [
-    {
-     "quote": "had we remained in Jerusalem we should also have perished",
-     "verse": 4,
-     "start": 85,
-     "end": 151,
-     "spans": [
-      {
-       "w1": 19,
-       "w2": 28,
-       "text": "had we remained in Jerusalem we should also have perished"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 5–9",
-   "start": 5,
+   "label": "v. 7–9",
+   "start": 7,
    "end": 9,
-   "title": "The covenant of the land",
-   "text": "Obtained \"notwithstanding our afflictions\" (v. 5), the land is covenanted to Lehi's seed \"and also all those who should be led out of other countries\" (v. 5); none come but \"by the hand of the Lord\" (v. 6); kept secret for its heirs' sake; and safe on one condition, repeated like a drumbeat: keep the commandments, \"and they shall dwell safely forever\" (v. 9).",
-   "cites": [
-    {
-     "quote": "notwithstanding our afflictions",
-     "verse": 5,
-     "start": 9,
-     "end": 49,
-     "spans": [
-      {
-       "w1": 4,
-       "w2": 6,
-       "text": "notwithstanding our afflictions"
-      }
-     ]
-    },
-    {
-     "quote": "and also all those who should be led out of other countries",
-     "verse": 5,
-     "start": 89,
-     "end": 157,
-     "spans": [
-      {
-       "w1": 57,
-       "w2": 68,
-       "text": "and also all those who should be led out of other countries"
-      }
-     ]
-    },
-    {
-     "quote": "by the hand of the Lord",
-     "verse": 6,
-     "start": 173,
-     "end": 205,
-     "spans": [
-      {
-       "w1": 29,
-       "w2": 34,
-       "text": "by the hand of the Lord"
-      }
-     ]
-    },
-    {
-     "quote": "and they shall dwell safely forever",
-     "verse": 9,
-     "start": 316,
-     "end": 360,
-     "spans": [
-      {
-       "w1": 92,
-       "w2": 97,
-       "text": "and they shall dwell safely forever"
-      }
-     ]
-    }
-   ]
+   "title": "A deathbed sermon whose commonest word is real estate",
+   "text": "Land is used twenty-six times here, which places this chapter fourth in all of scripture for the word, behind Genesis 47 and two Alma chapters that are surveys. Verse 7 then fits the whole covenant and its reversal into one sentence: served, it is liberty and no captivity; if captivity comes it will be for iniquity; iniquity curses the land and righteousness blesses it. Verse 8 gives the reason for keeping the place secret, and the reason is crowding rather than mystery: other nations \"would overrun the land, that there would be no place for an inheritance.\""
   },
   {
-   "label": "v. 10–12",
-   "start": 10,
-   "end": 12,
-   "title": "The forfeit clause",
-   "text": "Lehi prophesies with terrible specificity what dwindling after such light will cost: \"he will bring other nations unto them\" (v. 11), possessions taken, \"scattered and smitten\" (v. 11), generational \"bloodsheds\" (v. 12). The father's clear sight of his seed's whole future is the pressure behind every awake that follows.",
-   "cites": [
-    {
-     "quote": "he will bring other nations unto them",
-     "verse": 11,
-     "start": 85,
-     "end": 132,
-     "spans": [
-      {
-       "w1": 2,
-       "w2": 8,
-       "text": "he will bring other nations unto them"
-      }
-     ]
-    },
-    {
-     "quote": "scattered and smitten",
-     "verse": 11,
-     "start": 153,
-     "end": 184,
-     "spans": [
-      {
-       "w1": 35,
-       "w2": 37,
-       "text": "scattered and smitten"
-      }
-     ]
-    },
-    {
-     "quote": "bloodsheds",
-     "verse": 12,
-     "start": 199,
-     "end": 219,
-     "spans": [
-      {
-       "w1": 11,
-       "w2": 11,
-       "text": "bloodsheds"
-      }
-     ]
-    }
-   ]
+   "label": "v. 17–18",
+   "start": 17,
+   "end": 18,
+   "title": "The fear is itemized before the plea is made",
+   "text": "What Lehi says he has feared is set out in order: wrath, being cut off and destroyed forever, a cursing across many generations, visitation by sword and by famine, hatred, and captivity to the devil's will. Six outcomes across two verses. He does not ask for anything until verse 19, and by then the reader knows exactly what he is asking them to avoid."
   },
   {
-   "label": "v. 13–15",
-   "start": 13,
-   "end": 15,
-   "title": "Reveille, and the testimony",
-   "text": "Chains, dust, the \"trembling parent\" (v. 14), the grave with no returning traveler; then the sermon's sun breaks through: \"the Lord hath redeemed my soul from hell; I have beheld his glory\" (v. 15). Lehi wakes his sons toward what he himself already has: the embrace of verse 15 is the sermon's destination, shown mid-journey.",
-   "cites": [
-    {
-     "quote": "trembling parent",
-     "verse": 14,
-     "start": 18,
-     "end": 44,
-     "spans": [
-      {
-       "w1": 13,
-       "w2": 14,
-       "text": "trembling parent"
-      }
-     ]
-    },
-    {
-     "quote": "the Lord hath redeemed my soul from hell; I have beheld his glory",
-     "verse": 15,
-     "start": 122,
-     "end": 197,
-     "spans": [
-      {
-       "w1": 3,
-       "w2": 15,
-       "text": "the Lord hath redeemed my soul from hell; I have beheld his glory"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 16–20",
-   "start": 16,
+   "label": "v. 20",
+   "start": 20,
    "end": 20,
-   "title": "A father's fears, and the formula",
-   "text": "The father's constant concern, Moses' statutes-and-judgments idiom, the fear of \"the fulness of his wrath\" (v. 17), and then the covenant sentence quoted from the valley of Lemuel with both edges showing: prosper, or be \"cut off from my presence\" (v. 20). The sermon's law and its love are the same sentence.",
-   "cites": [
-    {
-     "quote": "the fulness of his wrath",
-     "verse": 17,
-     "start": 80,
-     "end": 114,
-     "spans": [
-      {
-       "w1": 32,
-       "w2": 36,
-       "text": "the fulness of his wrath"
-      }
-     ]
-    },
-    {
-     "quote": "cut off from my presence",
-     "verse": 20,
-     "start": 220,
-     "end": 254,
-     "spans": [
-      {
-       "w1": 31,
-       "w2": 35,
-       "text": "cut off from my presence"
-      }
-     ]
-    }
-   ]
+   "title": "The promise is quoted with both halves attached",
+   "text": "Prosper in the land for keeping the commandments, cut off from the presence for not. Lehi does not paraphrase it or soften the second clause, and he attributes it rather than asserting it: \"he hath said that.\" Alma will hand his own son the same sentence at Alma 36, and give the positive half first and the negative half twenty-nine verses later."
   },
   {
-   "label": "v. 21–27",
+   "label": "v. 21–23",
    "start": 21,
-   "end": 27,
-   "title": "Be men, and the defense",
-   "text": "Unity, the \"armor of righteousness\" (v. 23), obscurity and dust shaken off; then Lehi turns advocate: Nephi \"hath not sought for power nor authority over you\" (v. 25), his sharpness was the word's, his anger was truth, his commands were the Spirit's. The record lets a father's last public act be expert testimony for the accused.",
-   "cites": [
-    {
-     "quote": "armor of righteousness",
-     "verse": 23,
-     "start": 11,
-     "end": 43,
-     "spans": [
-      {
-       "w1": 7,
-       "w2": 9,
-       "text": "armor of righteousness"
-      }
-     ]
-    },
-    {
-     "quote": "hath not sought for power nor authority over you",
-     "verse": 25,
-     "start": 108,
-     "end": 166,
-     "spans": [
-      {
-       "w1": 34,
-       "w2": 42,
-       "text": "hath not sought for power nor authority over you"
-      }
-     ]
-    }
-   ]
+   "end": 23,
+   "title": "One phrase, three times, and scripture has one other",
+   "text": "\"Arise from the dust\" falls at verses 14, 21 and 23; scripture uses it four times in all. Each carries a different load: at 14 it answers a grave being dug, at 21 it is joined to becoming men and being of one mind, at 23 it follows armor, chains and obscurity. The record keeps the wording identical and lets it gather three arguments."
   },
   {
-   "label": "v. 28–32",
-   "start": 28,
-   "end": 32,
-   "title": "The blessings, conditioned",
-   "text": "The first blessing is made portable: it rests on Laman, Lemuel, Sam, and Ishmael's sons \"if ye will hearken unto the voice of Nephi\" (v. 28), and transfers to Nephi if they will not. Zoram is sealed in, his seed with Nephi's seed, \"for the security of thy seed\" (v. 32). Inheritance in this family has become a function of hearkening.",
-   "cites": [
-    {
-     "quote": "if ye will hearken unto the voice of Nephi",
-     "verse": 28,
-     "start": 88,
-     "end": 140,
-     "spans": [
-      {
-       "w1": 22,
-       "w2": 30,
-       "text": "if ye will hearken unto the voice of Nephi"
-      }
-     ]
-    },
-    {
-     "quote": "for the security of thy seed",
-     "verse": 32,
-     "start": 231,
-     "end": 269,
-     "spans": [
-      {
-       "w1": 17,
-       "w2": 22,
-       "text": "for the security of thy seed"
-      }
-     ]
-    }
-   ]
+   "label": "v. 24",
+   "start": 24,
+   "end": 24,
+   "title": "The defence of Nephi concedes what was done to him",
+   "text": "Lehi argues his son's case on record: his views have been glorious, he has kept the commandments, he has been an instrument, and without him \"we must have perished with hunger in the wilderness.\" Then the admission, in the same verse, of what the brothers did: \"ye sought to take away his life; yea, and he hath suffered much sorrow because of you.\" The record lets one verse carry the commendation and the accusation together, and gives the last clause to the injury."
   }
  ],
  "chapter": [
@@ -772,7 +556,7 @@
   {
    "n": 5,
    "title": "How prophets get dismissed",
-   "text": "The defense of Nephi catalogs the standing methods: call the calling ambition, call the word sharpness, call the truth anger. Lehi answers each by relocating the source: the offense his sons took came from the Spirit's pressure on Nephi's mouth."
+   "text": "Three charges are quoted and answered in two verses. Verse 25: \"ye have accused him that he sought power and authority over you.\" Verse 26: \"Ye say that he hath used sharpness; ye say that he hath been angry with you.\" Each answer relocates the cause rather than denying the conduct: \"his sharpness was the sharpness of the power of the word of God,\" and, at verse 27, \"it was not he, but it was the Spirit of the Lord which was in him, which opened his mouth to utterance that he could not shut it.\" The same three accusations are made in the brothers' own words at 1 Nephi 16:37 and 1 Nephi 18:10."
   },
   {
    "n": 6,
@@ -1249,6 +1033,58 @@
    "mirror": "1ne02-017"
   },
   {
+   "id": "2ne01-020",
+   "scope": "BOM",
+   "head": "Alma 36:1",
+   "anchor": {
+    "verse": 20,
+    "w1": 6,
+    "w2": 18,
+    "quote": "Inasmuch as ye shall keep my commandments ye shall prosper in the land;"
+   },
+   "reason": "Alma handing the promise to his son",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 36,
+     "verse": 1,
+     "w1": 23,
+     "w2": 28,
+     "quote": "ye shall prosper in the land.",
+     "verse_text": "My son, give ear to my words; for I swear unto you, that inasmuch as ye shall keep the commandments of God ye shall prosper in the land.",
+     "markdown": "My son, give ear to my words; for I swear unto you, that inasmuch as ye shall keep the commandments of God **ye shall prosper in the land**.",
+     "span": true
+    }
+   ],
+   "mirror": "al36-007"
+  },
+  {
+   "id": "2ne01-021",
+   "scope": "BOM",
+   "head": "Ether 2:12",
+   "anchor": {
+    "verse": 7,
+    "w1": 30,
+    "w2": 38,
+    "quote": "it shall be a land of liberty unto them;"
+   },
+   "reason": "the same decree about the Jaredites' land",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 2,
+     "verse": 12,
+     "w1": 8,
+     "w2": 17,
+     "quote": "whatsoever nation shall possess it shall be free from bondage,",
+     "verse_text": "Behold, this is a choice land, and whatsoever nation shall possess it shall be free from bondage, and from captivity, and from all other nations under heaven, if they will but serve the God of the land, who is Jesus Christ, who hath been manifested by the things which we have written.",
+     "markdown": "Behold, this is a choice land, and **whatsoever nation shall possess it shall be free from bondage**, and from captivity, and from all other nations under heaven, if they will but serve the God of the land, who is Jesus Christ, who hath been manifested by the things which we have written.",
+     "span": true
+    }
+   ],
+   "mirror": "eth02-006"
+  },
+  {
    "id": "2ne01-005",
    "scope": "SW",
    "head": "Josh. 23:14; 1 Kgs. 2:2",
@@ -1380,7 +1216,8 @@
    "w2": 38,
    "quote": "it shall be a land of liberty unto them",
    "entries": [
-    "2ne01-015"
+    "2ne01-015",
+    "2ne01-021"
    ]
   },
   {
@@ -1437,7 +1274,8 @@
    "entries": [
     "2ne01-012",
     "2ne01-017",
-    "2ne01-003"
+    "2ne01-003",
+    "2ne01-020"
    ]
   },
   {
@@ -1506,7 +1344,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "f6492e62bc2590dd"
+  "at": "2026-09-07",
+  "source_sha256": "ff0782bdad050016"
  }
 }

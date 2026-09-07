@@ -15,7 +15,7 @@
   "principles": [
    "A censure received without offense",
    "A capital lost to rebellion",
-   ""
+   "The conditions under which blood may be shed"
   ],
   "connections": 10,
   "initial": true
@@ -208,46 +208,99 @@
  ],
  "verses": [
   {
-   "label": "v. 1–4",
-   "start": 1,
-   "end": 4,
-   "title": "The reply and the rebellion",
-   "text": "Moroni receives an epistle soon after sending his. Pahoran identifies himself, says the afflictions grieve him, and names those who rejoice in them: men who sought his seat, used flattery, led away the hearts of the people, withheld the provisions, and daunted the freemen."
+   "label": "v. 2",
+   "start": 2,
+   "end": 2,
+   "title": "A reply that names both offices before anything else",
+   "text": "The record opens the second letter with a formula the first did not use: \"I, Pahoran, who am the chief governor of this land, do send these words unto Moroni, the chief captain over the army.\" Both men are identified by title, and the titles mark the constitutional relation the previous chapter's ultimatum had put in question. Alma 60:1 introduced its letter with no such formula, so the reply supplies a frame the accusation lacked.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 60:1",
+     "start": 329,
+     "end": 338,
+     "book": "Alma",
+     "chapter": 60,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
   },
   {
-   "label": "v. 5–8",
-   "start": 5,
-   "end": 8,
-   "title": "Exile and alliance",
-   "text": "He has been driven out and has fled to Gideon with what men he could gather. A proclamation has brought volunteers daily, and the rebels now hold back from battle. They have Zarahemla, have appointed a king, and have allied with the king of the Lamanites, who is promised the land and will leave their king in place."
+   "label": "v. 3–5",
+   "start": 3,
+   "end": 5,
+   "title": "The missing facts, delivered without reproach",
+   "text": "The information Moroni did not have is given in three verses and in plain order: \"there are those who do joy in your afflictions, yea, insomuch that they have risen up in rebellion against me\"; \"it is those who have sought to take away the judgment-seat from me that have been the cause of this great iniquity\"; \"they have driven me out before them, and I have fled to the land of Gideon.\" No sentence in the passage points out that the accusation was mistaken. The correction is made entirely by supplying what was not known."
   },
   {
    "label": "v. 9",
    "start": 9,
    "end": 9,
-   "title": "The censure answered",
-   "text": "Pahoran says the censure does not matter, that he is not angry, and that he rejoices in the greatness of Moroni's heart. He seeks the judgment-seat only to preserve the rights and liberty of the people, and says his soul stands fast in that liberty."
+   "title": "A censure dismissed in eleven words",
+   "text": "The response to a letter that threatened insurrection is one clause of forgiveness and one of praise: \"in your epistle you have censured me, but it mattereth not; I am not angry, but do rejoice in the greatness of your heart.\" It mattereth not stands in eleven verses of the volume, and Moroni's own letters use it too, at Alma 58:37. The reply neither denies the charge nor accepts it. It sets the question aside and moves to the campaign.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 58:37",
+     "start": 323,
+     "end": 333,
+     "book": "Alma",
+     "chapter": 58,
+     "verse_start": 37,
+     "verse_end": 37
+    }
+   ]
   },
   {
-   "label": "v. 10–14",
+   "label": "v. 10–13",
    "start": 10,
-   "end": 14,
-   "title": "When blood may be shed",
-   "text": "They will resist wickedness even to bloodshed. They would not shed Lamanite blood if the Lamanites stayed home, nor their brethren's if the rebels laid down the sword. They would accept bondage if God required it, and God has commanded trust instead. Evil that words cannot resist is to be resisted with swords."
+   "end": 13,
+   "title": "Pacifism stated three times, and then bounded",
+   "text": "The record gives three conditional refusals in a row: \"We would not shed the blood of the Lamanites if they would stay in their own land\"; \"We would not shed the blood of our brethren if they would not rise up in rebellion and take the sword against us\"; \"We would subject ourselves to the yoke of bondage if it were requisite with the justice of God.\" Each one names the condition under which peace would hold. Verse 13 supplies the limit that overrides all three: \"behold he doth not command us that we shall subject ourselves to our enemies, but that we should put our trust in him.\""
   },
   {
    "label": "v. 15–18",
    "start": 15,
    "end": 18,
-   "title": "The plan",
-   "text": "Moroni is to come quickly with a few men, leaving Lehi and Teancum in command on the east with authority to conduct the war. Pahoran has sent them some provisions. Moroni is to gather force on the march, and together they will retake Zarahemla and send food forward."
+   "title": "The civil authority issues military orders",
+   "text": "The letter turns operational and the instructions are specific: \"come unto me speedily with a few of your men, and leave the remainder in the charge of Lehi and Teancum; give unto them power to conduct the war in that part of the land.\" Verse 17 adds a mobilisation order, \"Gather together whatsoever force ye can upon your march hither,\" and verse 18 states the objective and its purpose, \"we will take possession of the city of Zarahemla, that we may obtain more food to send forth unto Lehi and Teancum.\" The governor is directing the general's dispositions, and the chapter reports it as ordinary."
   },
   {
-   "label": "v. 19–21",
+   "label": "v. 19–20",
    "start": 19,
+   "end": 20,
+   "title": "The accusing letter is credited with settling a doubt",
+   "text": "The record supplies a reason for the joy that the reader would not guess: \"I do joy in receiving your epistle, for I was somewhat worried concerning what we should do, whether it should be just in us to go against our brethren.\" Verse 20 identifies which sentence resolved it: \"ye have said, except they repent the Lord hath commanded you that ye should go against them.\" A letter written to shame a man is reported as having answered a question he was already asking."
+  },
+  {
+   "label": "v. 21",
+   "start": 21,
    "end": 21,
-   "title": "Relief and close",
-   "text": "Pahoran says the epistle brought him joy, since he had been worried whether going against his brethren could be just, and Moroni has reported a commandment. He asks that Lehi and Teancum be strengthened and told to fear not, and closes to his beloved brother."
+   "title": "A closing instruction that is not military",
+   "text": "The last verse turns from the campaign to two named officers and their morale: \"See that ye strengthen Lehi and Teancum in the Lord; tell them to fear not, for God will deliver them, yea, and also all those who stand fast in that liberty wherewith God hath made them free.\" The phrase at the end is the one Helaman used of the young men at Alma 58:40, and it matches Gal. 5:1. The letter ends by asking a general to carry a message of reassurance rather than an order.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 58:40",
+     "start": 340,
+     "end": 350,
+     "book": "Alma",
+     "chapter": 58,
+     "verse_start": 40,
+     "verse_end": 40
+    },
+    {
+     "kind": "scripture",
+     "text": "Gal. 5:1",
+     "start": 367,
+     "end": 375,
+     "book": "Gal",
+     "chapter": 5,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
   }
  ],
  "chapter": [
@@ -319,9 +372,19 @@
  "world_in_front": {
   "applications": [
    {
+    "title": "Start with the other person's trouble",
+    "verse_label": "v. 2",
+    "text": "Pahoran's first sentence after his own name says that Moroni's afflictions grieve his soul. Before you set out your side of it, say that you have registered theirs."
+   },
+   {
     "title": "Answer the facts and skip the tone",
     "verse_label": "v. 4–5",
     "text": "Pahoran corrected what Moroni had wrong and never mentioned how it was said. When an accusation is loud and mistaken, the correction is the useful part."
+   },
+   {
+    "title": "Read who your opponents have reached out to",
+    "verse_label": "v. 8",
+    "text": "The rebels held Zarahemla, set up a king, and wrote to the king of the Lamanites to make an alliance. When an internal faction goes outside for support, the dispute has changed shape and your answer to it has to change as well."
    },
    {
     "title": "Read anger for what it is about",
@@ -334,9 +397,19 @@
     "text": "Pahoran stated the conditions under which he would stop fighting or accept bondage. Knowing your own limits keeps a cause from becoming an appetite."
    },
    {
+    "title": "Leave the rest in named hands",
+    "verse_label": "v. 15",
+    "text": "Pahoran asked Moroni to come with a few men and give Lehi and Teancum power to conduct the war in that quarter. When you pull someone away for an emergency, say who now holds what they were carrying and what authority comes with it."
+   },
+   {
     "title": "Say when you were stuck",
     "verse_label": "v. 19",
     "text": "Pahoran admitted he had been worried and unable to act. Telling someone their message unstuck you is worth more than agreement."
+   },
+   {
+    "title": "Pass the encouragement down the line",
+    "verse_label": "v. 21",
+    "text": "Pahoran's closing instruction was to strengthen Lehi and Teancum and tell them to fear not. Encouragement handed to a leader is meant to travel, so finish by naming who else needs to hear it."
    }
   ],
   "questions": [
@@ -421,7 +494,7 @@
     "w2": 14,
     "quote": "those who have sought to take away the judgment-seat from me"
    },
-   "reason": "Helaman fearing a faction in the government and naming it as a fear",
+   "reason": "Helaman naming a faction in the government as his fear",
    "targets": [
     {
      "ref": "Alma",
@@ -447,7 +520,7 @@
     "w2": 54,
     "quote": "they have withheld our provisions"
    },
-   "reason": "the question Helaman asked and could not answer from the field",
+   "reason": "the question Helaman could not answer from the field",
    "targets": [
     {
      "ref": "Alma",
@@ -461,7 +534,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al58-013"
   },
   {
    "id": "al61-004",
@@ -487,7 +560,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al51-013"
   },
   {
    "id": "al61-005",
@@ -525,7 +598,7 @@
     "w2": 13,
     "quote": "in your epistle you have censured me, but it mattereth not"
    },
-   "reason": "the sentence that censured him, made as an admission of ignorance",
+   "reason": "the sentence that censured him, admitting his ignorance",
    "targets": [
     {
      "ref": "Alma",
@@ -539,7 +612,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al60-012"
   },
   {
    "id": "al61-007",
@@ -551,7 +624,7 @@
     "w2": 10,
     "quote": "we will resist wickedness even unto bloodshed"
    },
-   "reason": "the rule the fathers were given about defending to the point of blood",
+   "reason": "the rule the fathers were given about defending themselves",
    "targets": [
     {
      "ref": "Alma",
@@ -565,7 +638,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al43-020"
   },
   {
    "id": "al61-008",
@@ -577,7 +650,7 @@
     "w2": 19,
     "quote": "they have appointed a king over them"
    },
-   "reason": "Mosiah naming the cost of removing a king once one is in place",
+   "reason": "Mosiah naming the cost of removing a seated king",
    "targets": [
     {
      "ref": "Mosiah",
@@ -591,7 +664,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos29-020"
   },
   {
    "id": "al61-009",
@@ -617,7 +690,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos29-030"
   },
   {
    "id": "al61-010",
@@ -629,7 +702,7 @@
     "w2": 18,
     "quote": "I have fled to the land of Gideon"
    },
-   "reason": "David leaving his capital ahead of a rebellion led from within his house",
+   "reason": "David leaving his capital ahead of his own son's rebellion",
    "targets": [
     {
      "ref": "2 Sam.",
@@ -731,7 +804,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "1a7cc2947747a57b"
+  "at": "2026-09-07",
+  "source_sha256": "1e2293065acb5c2c"
  }
 }

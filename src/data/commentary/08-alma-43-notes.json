@@ -16,9 +16,9 @@
   "principles": [
    "Two designs compared",
    "Armor as an advantage that shortens a war",
-   ""
+   "The stated grounds for defensive war"
   ],
-  "connections": 9,
+  "connections": 21,
   "initial": true
  },
  "world_behind": [
@@ -40,7 +40,7 @@
   {
    "n": 4,
    "title": "Mormon gives both sides' aims side by side",
-   "text": "Verses 7 and 8 give Zerahemnah's designs: usurp power, bring the Nephites into bondage. Verses 9 and 10 give the Nephite design: lands, families, rights, and worship."
+   "text": "Verses 7 and 8 give Zerahemnah's designs: usurp power, bring the Nephites into bondage. Verses 9 and 10 answer with land, family, freedom, and religion."
   },
   {
    "n": 5,
@@ -94,12 +94,12 @@
   {
    "term": "Head-plates",
    "verse_label": "v. 38",
-   "text": "Plate armor for the head. The compound occurs six times in this record and never in the King James Bible. Verses 38 and 44 use it twice, once of what protected the Nephites and once of what the Lamanites smote in two."
+   "text": "Plate armor for the head. Six uses of the compound here, and none in the King James Bible. Verses 38 and 44 use it twice, once of what protected the Nephites and once of what the Lamanites smote in two."
   },
   {
    "term": "Dragons",
    "verse_label": "v. 44",
-   "text": "Fierce creatures, in the King James Bible usually inhabitants of ruins. The record uses the word three times and the King James Bible sixteen. Mormon uses it once as a simile for how the Lamanites fought under Zerahemnah's captains."
+   "text": "Fierce creatures, in the King James Bible usually inhabitants of ruins. Treated at 2 Nephi 23:22. It appears three times in the record, and the King James Bible sixteen. Mormon uses it once as a simile for how the Lamanites fought under Zerahemnah's captains."
   }
  ],
  "phrases": [
@@ -161,53 +161,68 @@
  ],
  "verses": [
   {
-   "label": "v. 1–3",
-   "start": 1,
+   "label": "v. 2–3",
+   "start": 2,
    "end": 3,
-   "title": "The handoff",
-   "text": "Alma and his sons go out preaching and Alma cannot rest. Mormon says he will say no more about it and returns to the wars, in the eighteenth year of the judges."
+   "title": "A subject dropped and another picked up, both announced",
+   "text": "The record marks its own transition in two consecutive sentences: \"Now we shall say no more concerning their preaching,\" and then \"And now I return to an account of the wars between the Nephites and the Lamanites.\" The first sentence still manages to summarize what it is declining to report, that they preached \"according to the spirit of prophecy and revelation.\" From here to Alma 62 the record is almost entirely military, so this is the hinge of the book and it is stated as an editorial decision rather than concealed inside a narrative turn."
   },
   {
-   "label": "v. 4–14",
-   "start": 4,
-   "end": 14,
-   "title": "Two designs",
-   "text": "The Zoramites become Lamanites and come under Zerahemnah, who staffs his command with dissenters to keep the hatred up. His aim is power and bondage. The Nephite aim is lands, families, rights, and worship. The people of Ammon keep their covenant and pay for the armies instead."
+   "label": "v. 6–8",
+   "start": 6,
+   "end": 8,
+   "title": "An appointment policy explained by the motive behind it",
+   "text": "The record does not merely report who commanded. It gives the reasoning: the chief captains over the Lamanites \"were all Amalekites and Zoramites,\" and the purpose was \"that he might preserve their hatred towards the Nephites.\" Verse 8 then states the commander's own aims in two parts, to \"usurp great power\" over his own side and to gain power over the enemy. The record thus attributes the war to an internal political interest of the man who started it, and it does so before describing a single engagement."
   },
   {
-   "label": "v. 15–22",
-   "start": 15,
-   "end": 22,
-   "title": "Moroni and the armor",
-   "text": "Moroni takes command at twenty-five and meets the Lamanites at Jershon. His men have breastplates, arm-shields, head shields, and thick clothing; the Lamanites have weapons and a skin about the loins. They refuse the engagement and march for Manti."
+   "label": "v. 17",
+   "start": 17,
+   "end": 17,
+   "title": "An age recorded for a commander",
+   "text": "The record supplies a number that nothing in the narrative requires: \"he was only twenty and five years old when he was appointed chief captain over the armies of the Nephites.\" Ages are given rarely in these books, and mostly for kings at accession, as at Mosiah 6:4 and Mosiah 29:46. This one belongs to a military appointment, and the word \"only\" carries a judgment about it that the record does not otherwise explain.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 6:4",
+     "start": 257,
+     "end": 267,
+     "book": "Mosiah",
+     "chapter": 6,
+     "verse_start": 4,
+     "verse_end": 4
+    },
+    {
+     "kind": "scripture",
+     "text": "Mosiah 29:46",
+     "start": 272,
+     "end": 284,
+     "book": "Mosiah",
+     "chapter": 29,
+     "verse_start": 46,
+     "verse_end": 46
+    }
+   ]
   },
   {
-   "label": "v. 23–30",
+   "label": "v. 23–24",
    "start": 23,
+   "end": 24,
+   "title": "A prophet consulted as an intelligence source",
+   "text": "The record has the general do two things at once: send spies, and send messengers to Alma, \"desiring him that he should inquire of the Lord whither the armies of the Nephites should go.\" The answer that comes back is tactical, naming a route and an objective, that the Lamanites \"might come over into the land of Manti, that they might commence an attack upon the weaker part of the people.\" Revelation and reconnaissance are used side by side in the same sentence, with no comment on the pairing."
+  },
+  {
+   "label": "v. 30",
+   "start": 30,
    "end": 30,
-   "title": "The intelligence",
-   "text": "Moroni sends spies and asks Alma to inquire of the Lord. Alma reports the line of march toward Manti and the intent to attack the weaker part. Moroni leaves guards, gathers the people of Manti, and hides his force by Sidon."
+   "title": "A commander's ethical reasoning entered into the record",
+   "text": "The record reports not just the stratagem but the judgment behind it: \"he thought it no sin that he should defend them by stratagem.\" The verb is deliberate, and the clause is attached to the reasons given in verses 29 and 30, the enemy's intent to establish a kingdom against the Nephites' desire to keep lands, liberty, and church. Nothing in the narrative asks the question the sentence answers. It is the record supplying a defense of deception in war before anyone objects."
   },
   {
-   "label": "v. 31–43",
-   "start": 31,
-   "end": 43,
-   "title": "The battle",
-   "text": "Lehi's division falls on the Lamanites at the crossing and drives them back over the river. Zerahemnah's men find Moroni waiting. The fighting is severe on both sides, and Mormon records what the armor stopped and what it did not."
-  },
-  {
-   "label": "v. 44–47",
-   "start": 44,
+   "label": "v. 45–47",
+   "start": 45,
    "end": 47,
-   "title": "Why each side fought",
-   "text": "The Lamanites fight like dragons, inspired by their captains. The Nephites fight for homes and liberties rather than for monarchy, and Mormon quotes the Lord twice: not guilty of the first or second offense, and defend your families even unto bloodshed."
-  },
-  {
-   "label": "v. 48–54",
-   "start": 48,
-   "end": 54,
-   "title": "The turn",
-   "text": "Moroni's men are about to break. He sends word that inspires them with thoughts of their lands and freedom; they turn, cry to the Lord in one voice, and the Lamanites flee to Sidon. Encircled on both banks and struck with terror, they are spared when Moroni orders the killing stopped."
+   "title": "A rule of engagement quoted as scripture",
+   "text": "The record gives the Nephite cause in the negative first, \"they were not fighting for monarchy nor power,\" and then supplies two quoted rules. The first sets a threshold: \"Inasmuch as ye are not guilty of the first offense, neither the second, ye shall not suffer yourselves to be slain by the hands of your enemies.\" The second states a duty: \"Ye shall defend your families even unto bloodshed.\" Neither appears earlier in the record as spoken to anyone; both are introduced here as things \"the Lord had said unto them, and also unto their fathers.\" A war narrative pauses to cite a law that the surviving text does not otherwise contain."
   }
  ],
  "chapter": [
@@ -234,7 +249,7 @@
   {
    "n": 5,
    "title": "Mormon quotes the Lord to justify the war",
-   "text": "Two conditions: innocence of the first and second offense, and the duty to defend families. The justification is supplied as scripture rather than as Mormon's own argument."
+   "text": "Verses 46 and 47 supply two quoted rules and attribute both to speech rather than to reasoning. One of them fixes a condition, \"Inasmuch as ye are not guilty of the first offense, neither the second, ye shall not suffer yourselves to be slain by the hands of your enemies.\" The second states a duty, \"Ye shall defend your families even unto bloodshed.\" Neither sentence is attributed to any earlier speaker in the surviving text, and Mormon 4:4 later uses the first of them to explain a defeat."
   },
   {
    "n": 6,
@@ -244,7 +259,7 @@
   {
    "n": 7,
    "title": "The victory ends in an order to stop",
-   "text": "Moroni sees the enemy's terror and halts the killing. The chapter that opens the war block closes on a commander declining to finish."
+   "text": "The last verse gives the order and its trigger together: \"Moroni, when he saw their terror, commanded his men that they should stop shedding their blood.\" Verse 51 has just recorded the enemy as \"more numerous, yea, by more than double the number of the Nephites\" and surrounded on both sides of the river. The chapter that opens twenty chapters of war ends with the winning commander stopping while the enemy is encircled, and Alma 44 spends its first eleven verses on the terms he offers instead."
   },
   {
    "n": 8,
@@ -257,22 +272,42 @@
    {
     "title": "Say what you are for before you say what you oppose",
     "verse_label": "v. 9",
-    "text": "Mormon listed the Nephite aims as lands, families, rights, and worship. When you are in a conflict, write down what you are actually protecting before you describe the other side."
+    "text": "Mormon states the Nephite aim first, \"to support their lands, and their houses, and their wives, and their children,\" and only then the enemy's design. A cause described in terms of what it protects is a different thing from one described in terms of what it hates."
    },
    {
     "title": "Pay for what you will not do yourself",
     "verse_label": "v. 13",
-    "text": "The people of Ammon funded the armies their covenant kept them out of. When your convictions exempt you from a burden others carry, find the contribution you can make."
+    "text": "The people of Ammon would not fight and \"did give unto the Nephites a large portion of their substance to support their armies.\" A conviction that costs you nothing is worth examining; theirs was expensive and they paid it in a form they could give."
+   },
+   {
+    "title": "Prepare people as well as ground",
+    "verse_label": "v. 19–21, 48",
+    "text": "The armour is described in detail and so is the morale work, \"Moroni, perceiving their intent, sent forth and inspired their hearts with these thoughts—yea, the thoughts of their lands, their liberty.\" Equipment and reasons are both listed as preparation."
    },
    {
     "title": "Ask and scout",
     "verse_label": "v. 23",
-    "text": "Moroni sent spies and a messenger to a prophet in the same breath. When facing a decision, use both the information you can gather and the guidance you can ask for."
+    "text": "Moroni sent spies into the wilderness and sent to Alma to inquire of the Lord, in the same verse. Two kinds of information gathered at once, and the record treats neither as a substitute for the other."
+   },
+   {
+    "title": "Cover the place you are leaving",
+    "verse_label": "v. 25",
+    "text": "He leaves part of the army in Jershon \"lest by any means a part of the Lamanites should come into that land.\" Moving to meet the threat you have identified should not open the position you already hold."
+   },
+   {
+    "title": "Decide in advance what would justify it",
+    "verse_label": "v. 46–47",
+    "text": "Two quoted rules set the threshold before the fighting: not guilty of the first offense nor the second, and \"Ye shall defend your families even unto bloodshed.\" Write down the conditions while you are calm."
    },
    {
     "title": "Remind people what they are defending",
-    "verse_label": "v. 48",
-    "text": "Moroni's men were about to run until they were reminded. When someone is losing heart, name the specific thing at stake for them rather than urging them generally."
+    "verse_label": "v. 48–49",
+    "text": "At the point of breaking, what turns the line is a reminder rather than an order, and verse 49 has them cry \"unto the Lord their God, for their liberty and their freedom from bondage.\" Naming the stake is a practical intervention."
+   },
+   {
+    "title": "Stop when the point is made",
+    "verse_label": "v. 54",
+    "text": "\"Moroni, when he saw their terror, commanded his men that they should stop shedding their blood.\" The enemy is surrounded and outnumbered and the order is to stop. Decide in advance what winning is, so you can recognise it when it arrives."
    }
   ],
   "questions": [
@@ -331,7 +366,7 @@
     "w2": 11,
     "quote": "the Zoramites became Lamanites"
    },
-   "reason": "the merger as it began, at the close of the Zoramite mission",
+   "reason": "the merger as it began, closing the Zoramite mission",
    "targets": [
     {
      "ref": "Alma",
@@ -357,7 +392,7 @@
     "w2": 20,
     "quote": "a large portion of their substance to support their armies"
    },
-   "reason": "the arrangement made when the people of Ammon were granted Jershon",
+   "reason": "the arrangement made when Ammon's people were granted Jershon",
    "targets": [
     {
      "ref": "Alma",
@@ -371,7 +406,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al27-014"
   },
   {
    "id": "al43-003",
@@ -426,6 +461,266 @@
    "mirror": "al44-001"
   },
   {
+   "id": "al43-010",
+   "scope": "BOOK",
+   "head": "Alma 3:11",
+   "anchor": {
+    "verse": 4,
+    "w1": 8,
+    "w2": 11,
+    "quote": "the Zoramites became Lamanites;"
+   },
+   "reason": "the same line crossed the other way",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 3,
+     "verse": 11,
+     "w1": 51,
+     "w2": 63,
+     "quote": "were called the Nephites, or the people of Nephi, from that time forth—",
+     "verse_text": "And it came to pass that whosoever would not believe in the tradition of the Lamanites, but believed those records which were brought out of the land of Jerusalem, and also in the tradition of their fathers, which were correct, who believed in the commandments of God and kept them, were called the Nephites, or the people of Nephi, from that time forth—",
+     "markdown": "And it came to pass that whosoever would not believe in the tradition of the Lamanites, but believed those records which were brought out of the land of Jerusalem, and also in the tradition of their fathers, which were correct, who believed in the commandments of God and kept them, **were called the Nephites, or the people of Nephi, from that time forth—**",
+     "span": true
+    }
+   ],
+   "mirror": "al03-006"
+  },
+  {
+   "id": "al43-011",
+   "scope": "BOOK",
+   "head": "Alma 27:22",
+   "anchor": {
+    "verse": 4,
+    "w1": 27,
+    "w2": 32,
+    "quote": "the Lamanites were coming upon them;"
+   },
+   "reason": "the grant of Jershon this war contests",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 27,
+     "verse": 22,
+     "w1": 15,
+     "w2": 22,
+     "quote": "we will give up the land of Jershon,",
+     "verse_text": "And it came to pass that the voice of the people came, saying: Behold, we will give up the land of Jershon, which is on the east by the sea, which joins the land Bountiful, which is on the south of the land Bountiful; and this land Jershon is the land which we will give unto our brethren for an inheritance.",
+     "markdown": "And it came to pass that the voice of the people came, saying: Behold, **we will give up the land of Jershon**, which is on the east by the sea, which joins the land Bountiful, which is on the south of the land Bountiful; and this land Jershon is the land which we will give unto our brethren for an inheritance.",
+     "span": true
+    }
+   ],
+   "mirror": "al27-003"
+  },
+  {
+   "id": "al43-012",
+   "scope": "BOOK",
+   "head": "Alma 31:3",
+   "anchor": {
+    "verse": 5,
+    "w1": 14,
+    "w2": 20,
+    "quote": "they came into the land of Antionum,"
+   },
+   "reason": "the Zoramite land, named three years earlier",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 31,
+     "verse": 3,
+     "w1": 9,
+     "w2": 14,
+     "quote": "a land which they called Antionum,",
+     "verse_text": "Now the Zoramites had gathered themselves together in a land which they called Antionum, which was east of the land of Zarahemla, which lay nearly bordering upon the seashore, which was south of the land of Jershon, which also bordered upon the wilderness south, which wilderness was full of the Lamanites.",
+     "markdown": "Now the Zoramites had gathered themselves together in **a land which they called Antionum**, which was east of the land of Zarahemla, which lay nearly bordering upon the seashore, which was south of the land of Jershon, which also bordered upon the wilderness south, which wilderness was full of the Lamanites.",
+     "span": true
+    }
+   ],
+   "mirror": "al31-004"
+  },
+  {
+   "id": "al43-013",
+   "scope": "BOOK",
+   "head": "Alma 44:2",
+   "anchor": {
+    "verse": 8,
+    "w1": 19,
+    "w2": 26,
+    "quote": "that he might usurp great power over them,"
+   },
+   "reason": "Moroni stating the motive to Zerahemnah's face",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 44,
+     "verse": 2,
+     "w1": 33,
+     "w2": 44,
+     "quote": "this is the very cause for which ye have come against us;",
+     "verse_text": "Behold, we have not come out to battle against you that we might shed your blood for power; neither do we desire to bring any one to the yoke of bondage. But this is the very cause for which ye have come against us; yea, and ye are angry with us because of our religion.",
+     "markdown": "Behold, we have not come out to battle against you that we might shed your blood for power; neither do we desire to bring any one to the yoke of bondage. But **this is the very cause for which ye have come against us**; yea, and ye are angry with us because of our religion.",
+     "span": true
+    }
+   ],
+   "mirror": "al44-002"
+  },
+  {
+   "id": "al43-015",
+   "scope": "BOOK",
+   "head": "Alma 57:24",
+   "anchor": {
+    "verse": 19,
+    "w1": 36,
+    "w2": 41,
+    "quote": "they were dressed with thick clothing"
+   },
+   "reason": "the word in its other sense, of wounds",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 57,
+     "verse": 24,
+     "w1": 31,
+     "w2": 37,
+     "quote": "caused that their wounds should be dressed.",
+     "verse_text": "And it came to pass that after the Lamanites had fled, I immediately gave orders that my men who had been wounded should be taken from among the dead, and caused that their wounds should be dressed.",
+     "markdown": "And it came to pass that after the Lamanites had fled, I immediately gave orders that my men who had been wounded should be taken from among the dead, and **caused that their wounds should be dressed**.",
+     "span": true
+    }
+   ],
+   "mirror": "al57-005"
+  },
+  {
+   "id": "al43-016",
+   "scope": "BOOK",
+   "head": "Alma 49:6",
+   "anchor": {
+    "verse": 20,
+    "w1": 13,
+    "w2": 20,
+    "quote": "they had only their swords and their cimeters,"
+   },
+   "reason": "the Lamanites armed for the next campaign",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 49,
+     "verse": 6,
+     "w1": 35,
+     "w2": 44,
+     "quote": "they had also prepared themselves with shields, and with breastplates;",
+     "verse_text": "Now the leaders of the Lamanites had supposed, because of the greatness of their numbers, yea, they supposed that they should be privileged to come upon them as they had hitherto done; yea, and they had also prepared themselves with shields, and with breastplates; and they had also prepared themselves with garments of skins, yea, very thick garments to cover their nakedness.",
+     "markdown": "Now the leaders of the Lamanites had supposed, because of the greatness of their numbers, yea, they supposed that they should be privileged to come upon them as they had hitherto done; yea, and **they had also prepared themselves with shields, and with breastplates**; and they had also prepared themselves with garments of skins, yea, very thick garments to cover their nakedness.",
+     "span": true
+    }
+   ],
+   "mirror": "al49-003"
+  },
+  {
+   "id": "al43-017",
+   "scope": "BOOK",
+   "head": "Alma 3:5",
+   "anchor": {
+    "verse": 20,
+    "w1": 32,
+    "w2": 45,
+    "quote": "they were naked, save it were a skin which was girded about their loins;"
+   },
+   "reason": "the same description twenty years earlier",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 3,
+     "verse": 5,
+     "w1": 13,
+     "w2": 22,
+     "quote": "save it were skin which was girded about their loins,",
+     "verse_text": "Now the heads of the Lamanites were shorn; and they were naked, save it were skin which was girded about their loins, and also their armor, which was girded about them, and their bows, and their arrows, and their stones, and their slings, and so forth.",
+     "markdown": "Now the heads of the Lamanites were shorn; and they were naked, **save it were skin which was girded about their loins**, and also their armor, which was girded about them, and their bows, and their arrows, and their stones, and their slings, and so forth.",
+     "span": true
+    }
+   ],
+   "mirror": "al03-005"
+  },
+  {
+   "id": "al43-018",
+   "scope": "BOOK",
+   "head": "Alma 48:14",
+   "anchor": {
+    "verse": 46,
+    "w1": 31,
+    "w2": 43,
+    "quote": "Inasmuch as ye are not guilty of the first offense, neither the second,"
+   },
+   "reason": "Mormon giving the rule the Nephites were taught",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 48,
+     "verse": 14,
+     "w1": 35,
+     "w2": 45,
+     "quote": "never to raise the sword except it were against an enemy,",
+     "verse_text": "Now the Nephites were taught to defend themselves against their enemies, even to the shedding of blood if it were necessary; yea, and they were also taught never to give an offense, yea, and never to raise the sword except it were against an enemy, except it were to preserve their lives.",
+     "markdown": "Now the Nephites were taught to defend themselves against their enemies, even to the shedding of blood if it were necessary; yea, and they were also taught never to give an offense, yea, and **never to raise the sword except it were against an enemy**, except it were to preserve their lives.",
+     "span": true
+    }
+   ],
+   "mirror": "al48-004"
+  },
+  {
+   "id": "al43-020",
+   "scope": "BOOK",
+   "head": "Alma 61:10",
+   "anchor": {
+    "verse": 47,
+    "w1": 8,
+    "w2": 15,
+    "quote": "Ye shall defend your families even unto bloodshed."
+   },
+   "reason": "Pahoran applying it to wickedness at home",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 61,
+     "verse": 10,
+     "w1": 4,
+     "w2": 10,
+     "quote": "we will resist wickedness even unto bloodshed.",
+     "verse_text": "And now, behold, we will resist wickedness even unto bloodshed. We would not shed the blood of the Lamanites if they would stay in their own land.",
+     "markdown": "And now, behold, **we will resist wickedness even unto bloodshed**. We would not shed the blood of the Lamanites if they would stay in their own land.",
+     "span": true
+    }
+   ],
+   "mirror": "al61-007"
+  },
+  {
+   "id": "al43-021",
+   "scope": "BOOK",
+   "head": "Alma 52:38",
+   "anchor": {
+    "verse": 54,
+    "w1": 12,
+    "w2": 17,
+    "quote": "they should stop shedding their blood."
+   },
+   "reason": "Moroni sparing an enemy that threw down arms",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 52,
+     "verse": 38,
+     "w1": 26,
+     "w2": 36,
+     "quote": "threw down their weapons of war at the feet of Moroni,",
+     "verse_text": "And it came to pass that when the Lamanites had heard these words, their chief captains, all those who were not slain, came forth and threw down their weapons of war at the feet of Moroni, and also commanded their men that they should do the same.",
+     "markdown": "And it came to pass that when the Lamanites had heard these words, their chief captains, all those who were not slain, came forth and **threw down their weapons of war at the feet of Moroni**, and also commanded their men that they should do the same.",
+     "span": true
+    }
+   ],
+   "mirror": "al52-005"
+  },
+  {
    "id": "al43-005",
    "scope": "BOM",
    "head": "Mosiah 8:10",
@@ -435,7 +730,7 @@
     "w2": 25,
     "quote": "prepared his people with breastplates and with arm-shields"
    },
-   "reason": "the breastplates Limhi’s expedition brought back",
+   "reason": "the breastplates Limhi's expedition brought back",
    "targets": [
     {
      "ref": "Mosiah",
@@ -449,7 +744,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos08-015"
   },
   {
    "id": "al43-006",
@@ -461,7 +756,7 @@
     "w2": 33,
     "quote": "their homes and their liberties, their wives and their children"
    },
-   "reason": "Limhi’s outnumbered people fighting for the same reason",
+   "reason": "Limhi's outnumbered people fighting for the same reason",
    "targets": [
     {
      "ref": "Mosiah",
@@ -475,7 +770,59 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos20-012"
+  },
+  {
+   "id": "al43-014",
+   "scope": "BOM",
+   "head": "3 Ne. 3:26",
+   "anchor": {
+    "verse": 19,
+    "w1": 18,
+    "w2": 25,
+    "quote": "prepared his people with breastplates and with arm-shields,"
+   },
+   "reason": "Gidgiddoni arming a later people the same way",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 3,
+     "verse": 26,
+     "w1": 25,
+     "w2": 36,
+     "quote": "they should be strong with armor, and with shields, and with bucklers,",
+     "verse_text": "And they were exceedingly sorrowful because of their enemies. And Gidgiddoni did cause that they should make weapons of war of every kind, and they should be strong with armor, and with shields, and with bucklers, after the manner of his instruction.",
+     "markdown": "And they were exceedingly sorrowful because of their enemies. And Gidgiddoni did cause that they should make weapons of war of every kind, and **they should be strong with armor, and with shields, and with bucklers**, after the manner of his instruction.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne03-007"
+  },
+  {
+   "id": "al43-019",
+   "scope": "BOM",
+   "head": "3 Ne. 3:21",
+   "anchor": {
+    "verse": 46,
+    "w1": 31,
+    "w2": 43,
+    "quote": "Inasmuch as ye are not guilty of the first offense, neither the second,"
+   },
+   "reason": "Gidgiddoni refusing to strike the first blow",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 3,
+     "verse": 21,
+     "w1": 52,
+     "w2": 60,
+     "quote": "we will wait till they shall come against us;",
+     "verse_text": "But Gidgiddoni saith unto them: The Lord forbid; for if we should go up against them the Lord would deliver us into their hands; therefore we will prepare ourselves in the center of our lands, and we will gather all our armies together, and we will not go against them, but we will wait till they shall come against us; therefore as the Lord liveth, if we do this he will deliver them into our hands.",
+     "markdown": "But Gidgiddoni saith unto them: The Lord forbid; for if we should go up against them the Lord would deliver us into their hands; therefore we will prepare ourselves in the center of our lands, and we will gather all our armies together, and we will not go against them, but **we will wait till they shall come against us**; therefore as the Lord liveth, if we do this he will deliver them into our hands.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne03-006"
   },
   {
    "id": "al43-007",
@@ -487,7 +834,7 @@
     "w2": 25,
     "quote": "prepared his people with breastplates and with arm-shields"
    },
-   "reason": "the King James Bible’s only use of the word, of locusts",
+   "reason": "the King James Bible's only use, of locusts",
    "targets": [
     {
      "ref": "Rev.",
@@ -563,7 +910,35 @@
    "w2": 11,
    "quote": "the Zoramites became Lamanites",
    "entries": [
-    "al43-001"
+    "al43-001",
+    "al43-010"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 27,
+   "w2": 32,
+   "quote": "the Lamanites were coming upon them;",
+   "entries": [
+    "al43-011"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 14,
+   "w2": 20,
+   "quote": "they came into the land of Antionum,",
+   "entries": [
+    "al43-012"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 19,
+   "w2": 26,
+   "quote": "that he might usurp great power over them,",
+   "entries": [
+    "al43-013"
    ]
   },
   {
@@ -583,7 +958,35 @@
    "entries": [
     "al43-004",
     "al43-005",
+    "al43-014",
     "al43-007"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 36,
+   "w2": 41,
+   "quote": "they were dressed with thick clothing",
+   "entries": [
+    "al43-015"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 13,
+   "w2": 20,
+   "quote": "they had only their swords and their cimeters,",
+   "entries": [
+    "al43-016"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 32,
+   "w2": 45,
+   "quote": "they were naked, save it were a skin which was girded about their loins;",
+   "entries": [
+    "al43-017"
    ]
   },
   {
@@ -606,17 +1009,37 @@
    ]
   },
   {
+   "verse": 46,
+   "w1": 31,
+   "w2": 43,
+   "quote": "Inasmuch as ye are not guilty of the first offense, neither the second,",
+   "entries": [
+    "al43-018",
+    "al43-019"
+   ]
+  },
+  {
    "verse": 47,
    "w1": 8,
    "w2": 15,
-   "quote": "Ye shall defend your families even unto bloodshed",
+   "quote": "Ye shall defend your families even unto bloodshed.",
    "entries": [
+    "al43-020",
     "al43-009"
+   ]
+  },
+  {
+   "verse": 54,
+   "w1": 12,
+   "w2": 17,
+   "quote": "they should stop shedding their blood.",
+   "entries": [
+    "al43-021"
    ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "6d439d6aa2d964e8"
+  "at": "2026-09-07",
+  "source_sha256": "103c45c91b592d12"
  }
 }

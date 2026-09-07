@@ -15,9 +15,9 @@
   "principles": [
    "A prediction made and acted on",
    "Engineering as the whole battle",
-   ""
+   "A casualty count with a point to it"
   ],
-  "connections": 9,
+  "connections": 10,
   "initial": true
  },
  "world_behind": [
@@ -81,7 +81,7 @@
   {
    "term": "Immense",
    "verse_label": "v. 21",
-   "text": "Vast. The phrase immense slaughter occurs once in scripture. Mormon uses it of what happened at the entrance, and verse 23 supplies the number behind the word."
+   "text": "Vast. The phrase immense slaughter appears once in all of scripture. Mormon uses it of what happened at the entrance, and verse 23 supplies the number behind the word."
   },
   {
    "term": "Pass",
@@ -148,53 +148,65 @@
  ],
  "verses": [
   {
-   "label": "v. 1–5",
+   "label": "v. 1",
    "start": 1,
-   "end": 5,
-   "title": "At Ammonihah",
-   "text": "The Lamanite armies appear in the eleventh month. The city is partly rebuilt and an army is stationed at its borders behind cast-up dirt. A ridge of earth puts the defenders out of range and leaves one entrance. The Lamanite captains are astonished at the preparation."
+   "end": 1,
+   "title": "A battle dated to the day",
+   "text": "The chapter opens with a full calendar reference: \"in the eleventh month of the nineteenth year, on the tenth day of the month, the armies of the Lamanites were seen approaching towards the land of Ammonihah.\" Only ten verses in the whole volume name a numbered day of a month, and three of them are in the war chapters of Alma. Nothing in the episode turns on the date. It is supplied the way a dispatch supplies one, and then never referred to again."
   },
   {
-   "label": "v. 6–9",
-   "start": 6,
+   "label": "v. 3",
+   "start": 3,
+   "end": 3,
+   "title": "The record corrects a statement it made one verse earlier",
+   "text": "Verse 2 says the city \"had been rebuilt.\" Verse 3 goes back over it: \"Behold, I said that the city of Ammonihah had been rebuilt. I say unto you, yea, that it was in part rebuilt.\" The correction is quoted from the writer's own previous sentence and then amended, with the reason following, \"because the Lamanites had destroyed it once because of the iniquity of the people, they supposed that it would again become an easy prey to them.\" A small factual overstatement is caught and repaired on the page."
+  },
+  {
+   "label": "v. 4–9",
+   "start": 4,
    "end": 9,
-   "title": "What they expected",
-   "text": "They came with numbers, shields, breastplates, and thick skin garments, expecting to overpower the Nephites and take them into bondage or kill them at pleasure. Instead they met a preparation never known among the children of Lehi, made after Moroni's instructions."
+   "title": "The defences described through the enemy's eyes",
+   "text": "Astonished and astonishment stand four times in six verses, and each time the perspective is Lamanite. The chief captains \"were astonished exceedingly, because of the wisdom of the Nephites in preparing their places of security.\" Verse 6 gives what they had expected, \"because of the greatness of their numbers... that they should be privileged to come upon them as they had hitherto done.\" Verse 8 states the gap between the two: \"to their uttermost astonishment, they were prepared for them, in a manner which never had been known among the children of Lehi.\" The fortifications are never described from the inside."
   },
   {
-   "label": "v. 10–13",
+   "label": "v. 10–11",
    "start": 10,
-   "end": 13,
-   "title": "The absent king",
-   "text": "Had Amalickiah come, he might have pressed the attack, since he did not care for his people's blood. He stayed, and his captains would not attack. They marched for the land of Noah, not knowing Moroni had fortified every city, and their captains swore to destroy it."
-  },
-  {
-   "label": "v. 14–17",
-   "start": 14,
-   "end": 17,
-   "title": "Noah made strong",
-   "text": "Noah had been the weakest place and was now stronger than Ammonihah. Moroni had expected them to be frightened off the first city and to come to the second, and it fell out as he desired. Lehi commanded there, and the Lamanites feared him, but the oath held them to the attack."
+   "end": 11,
+   "title": "A guess about what did not happen, marked as a guess",
+   "text": "The record speculates about a battle that did not happen and flags the speculation: \"if king Amalickiah had come down out of the land of Nephi, at the head of his army, perhaps he would have caused the Lamanites to have attacked the Nephites at the city of Ammonihah.\" The word perhaps keeps it hypothetical. Verse 11 then states the fact that made it moot, \"Amalickiah did not come down himself to battle. And behold, his chief captains durst not attack the Nephites at the city of Ammonihah.\" A commander's absence is offered as an explanation of an attack that was never launched."
   },
   {
    "label": "v. 18–20",
    "start": 18,
    "end": 20,
-   "title": "The works",
-   "text": "The bank was too high and the ditch too deep to enter anywhere but the pass. Nephites stood ready to throw stones and arrows at anyone climbing, and their strongest men waited at the entrance with swords and slings."
+   "title": "Fortification explained by what it makes impossible",
+   "text": "The record describes the works functionally rather than architecturally: \"the Lamanites could not get into their forts of security by any other way save by the entrance, because of the highness of the bank which had been thrown up, and the depth of the ditch which had been dug round about.\" Verse 20 supplies the human element at the one remaining gap, \"a body of their strongest men, with their swords and their slings, to smite down all who should attempt to come into their place of security.\" The design is reported as a funnel and a garrison, not as a wall."
   },
   {
-   "label": "v. 21–22",
-   "start": 21,
-   "end": 22,
-   "title": "The assault",
-   "text": "The Lamanite captains brought their armies to the entrance and were driven back repeatedly with immense slaughter. They tried to dig down the banks to make their own pass and were swept off, and the ditch filled with their own dead and wounded."
-  },
-  {
-   "label": "v. 23–25",
+   "label": "v. 23–24",
    "start": 23,
-   "end": 25,
-   "title": "The count",
-   "text": "The Lamanites kept attacking until every one of their chief captains was killed, more than a thousand dead, and not one Nephite slain. About fifty were wounded through the pass, their armor holding except on the legs. The survivors fled to report the loss to Amalickiah."
+   "end": 24,
+   "title": "Both sides counted, and the wounded counted separately",
+   "text": "The result is given with unusual precision on both halves: \"more than a thousand of the Lamanites were slain; while, on the other hand, there was not a single soul of the Nephites which was slain.\" Then the qualification that keeps the claim honest: \"There were about fifty who were wounded, who had been exposed to the arrows of the Lamanites through the pass, but they were shielded by their shields, and their breastplates, and their head-plates.\" A total absence of deaths is claimed and immediately followed by a count of injuries."
+  },
+  {
+   "label": "v. 26–27",
+   "start": 26,
+   "end": 27,
+   "title": "An oath preserved, which the book will use again",
+   "text": "The defeated king's reaction is quoted rather than summarised: \"he did curse God, and also Moroni, swearing with an oath that he would drink his blood.\" The oath recurs at Alma 51:9, where the record repeats it as his motive for the next campaign, and it is still being answered at Alma 54. What the record keeps here is not the anger but the exact form of words, which is what makes the later references legible as references.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 51:9",
+     "start": 172,
+     "end": 181,
+     "book": "Alma",
+     "chapter": 51,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
   }
  ],
  "chapter": [
@@ -206,7 +218,7 @@
   {
    "n": 2,
    "title": "Mormon writes it from the losing side",
-   "text": "Disappointment, astonishment, and expectation drive the account. The reader is shown what the Lamanites thought would happen and then what met them."
+   "text": "The account is organized around the attackers' expectations and their failure. Verse 4 opens on \"how great was their disappointment\"; verse 5 has the chief captains \"astonished exceedingly\"; verse 6 supplies what they had assumed, \"they supposed that they should be privileged to come upon them as they had hitherto done\"; verse 8 repeats the reaction, \"to their uttermost astonishment\"; and verse 9 a third time, \"exceedingly astonished at their manner of preparation for war.\" Four statements of surprise in six verses, all of them from the side that loses."
   },
   {
    "n": 3,
@@ -221,7 +233,7 @@
   {
    "n": 5,
    "title": "The absent commander is the reason it failed",
-   "text": "Mormon says plainly that Amalickiah's willingness to spend lives might have carried the works. The chapter credits the Nephite victory partly to his staying home."
+   "text": "Verse 10 states the alternative outcome as a supposition and gives the reason: \"if king Amalickiah had come down out of the land of Nephi, at the head of his army, perhaps he would have caused the Lamanites to have attacked the Nephites at the city of Ammonihah; for behold, he did care not for the blood of his people.\" The casualty figures at verses 23 and 24 measure what his absence was worth, \"more than a thousand of the Lamanites were slain\" against \"about fifty who were wounded\" and none dead. The record credits part of the victory to a commander who stayed home."
   },
   {
    "n": 6,
@@ -242,14 +254,29 @@
  "world_in_front": {
   "applications": [
    {
-    "title": "Strengthen where they will actually come",
-    "verse_label": "v. 15",
-    "text": "Moroni worked out where the attack would move to and fortified that. When you are preparing for trouble, think one step past the obvious point of failure."
-   },
-   {
     "title": "Let a bad reputation work for you",
     "verse_label": "v. 3",
     "text": "Ammonihah looked like an easy target and was not. What people assume about your weak spot is information you can use."
+   },
+   {
+    "title": "Correct yourself in the sentence",
+    "verse_label": "v. 3",
+    "text": "Mormon said rebuilt, then said in part rebuilt. When you notice you have overstated something, fix it immediately rather than letting it stand."
+   },
+   {
+    "title": "Be willing to be the first one doing it",
+    "verse_label": "v. 8",
+    "text": "The record says the Nephites were prepared in a manner never before known among the children of Lehi. A sensible measure that nobody around you has taken yet will look odd right up until the morning it works."
+   },
+   {
+    "title": "Notice who is not there",
+    "verse_label": "v. 10–11",
+    "text": "Amalickiah stayed in the land of Nephi and sent captains who then did not dare attack. When the person who wants the risk taken is absent from the place where it gets taken, that absence is a fact about the plan."
+   },
+   {
+    "title": "Strengthen where they will actually come",
+    "verse_label": "v. 15",
+    "text": "Moroni worked out where the attack would move to and fortified that. When you are preparing for trouble, think one step past the obvious point of failure."
    },
    {
     "title": "Do not swear before you have looked",
@@ -257,9 +284,14 @@
     "text": "The captains bound themselves to an attack and then found Lehi commanding. Delay the commitment until after the reconnaissance."
    },
    {
-    "title": "Correct yourself in the sentence",
-    "verse_label": "v. 3",
-    "text": "Mormon said rebuilt, then said in part rebuilt. When you notice you have overstated something, fix it immediately rather than letting it stand."
+    "title": "Expect them to try the second way in",
+    "verse_label": "v. 22",
+    "text": "When the entrance failed, the Lamanites began digging down the banks of earth to make their own pass. A defense that covers only the obvious approach gets tested at the next one, so ask what you would attempt if you stood on the other side."
+   },
+   {
+    "title": "Watch where the anger lands after a failure",
+    "verse_label": "v. 27",
+    "text": "Amalickiah cursed God and Moroni, and the record ties the rage directly to Moroni having kept the commandments in preparing for his people's safety. When a plan breaks against someone else's preparation, blaming the preparer is the cheapest response available and the least useful."
    }
   ],
   "questions": [
@@ -318,7 +350,7 @@
     "w2": 19,
     "quote": "they were prepared for them, in a manner which never had been known"
    },
-   "reason": "Moroni’s principle, stated the chapter before it is tested",
+   "reason": "Moroni's principle, stated the chapter before it is tested",
    "targets": [
     {
      "ref": "Alma",
@@ -344,7 +376,7 @@
     "w2": 30,
     "quote": "the Lamanites had destroyed it once"
    },
-   "reason": "the destruction of Ammonihah that made it look like easy prey",
+   "reason": "the ruin that made Ammonihah look like easy prey",
    "targets": [
     {
      "ref": "Alma",
@@ -358,7 +390,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al16-011"
   },
   {
    "id": "al49-003",
@@ -384,7 +416,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al43-016"
   },
   {
    "id": "al49-004",
@@ -413,6 +445,32 @@
    "mirror": "al53-002"
   },
   {
+   "id": "al49-010",
+   "scope": "BOOK",
+   "head": "Alma 44:2",
+   "anchor": {
+    "verse": 7,
+    "w1": 13,
+    "w2": 20,
+    "quote": "subject their brethren to the yoke of bondage,"
+   },
+   "reason": "the phrase Moroni used to Zerahemnah",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 44,
+     "verse": 2,
+     "w1": 28,
+     "w2": 31,
+     "quote": "the yoke of bondage.",
+     "verse_text": "Behold, we have not come out to battle against you that we might shed your blood for power; neither do we desire to bring any one to the yoke of bondage. But this is the very cause for which ye have come against us; yea, and ye are angry with us because of our religion.",
+     "markdown": "Behold, we have not come out to battle against you that we might shed your blood for power; neither do we desire to bring any one to **the yoke of bondage**. But this is the very cause for which ye have come against us; yea, and ye are angry with us because of our religion.",
+     "span": true
+    }
+   ],
+   "mirror": "al44-004"
+  },
+  {
    "id": "al49-005",
    "scope": "BOM",
    "head": "Alma 44:8",
@@ -436,7 +494,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al44-011"
   },
   {
    "id": "al49-006",
@@ -462,7 +520,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al16-007"
   },
   {
    "id": "al49-007",
@@ -575,8 +633,9 @@
    "verse": 7,
    "w1": 13,
    "w2": 20,
-   "quote": "subject their brethren to the yoke of bondage",
+   "quote": "subject their brethren to the yoke of bondage,",
    "entries": [
+    "al49-010",
     "al49-005"
    ]
   },
@@ -619,7 +678,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "95a7e5da8a6422ed"
+  "at": "2026-09-07",
+  "source_sha256": "5ba4601bf4377d06"
  }
 }

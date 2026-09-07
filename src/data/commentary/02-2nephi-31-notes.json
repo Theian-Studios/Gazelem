@@ -17,7 +17,7 @@
    "Following the example",
    "Enduring"
   ],
-  "connections": 12,
+  "connections": 20,
   "initial": false
  },
  "world_behind": [
@@ -61,7 +61,7 @@
   {
    "term": "Dove",
    "verse_label": "v. 8",
-   "text": "The one physical image in a chapter of procedure. The Holy Ghost descends in the form of a dove, and the record gives no interpretation of the bird. Nephi reports it because he was shown it, and the detail sits between the baptism and the gate as the only thing in the sequence a person could have watched."
+   "text": "The one physical image in a chapter of procedure. The Holy Ghost descends in the form of a dove, and the record gives no interpretation of the bird. The detail sits between the baptism and the gate as the only thing in the sequence a person could have watched."
   },
   {
    "term": "Beloved",
@@ -293,7 +293,7 @@
    "start": 1,
    "end": 3,
    "title": "Clearing his throat",
-   "text": "He announces the end of his prophesying, then says a few words remain about the doctrine of Christ, then explains why he will be plain. The three verses are a writer clearing his throat, and the reason given for plainness is God's method of speaking to men."
+   "text": "The record ends one thing and starts another inside three verses, and states a limit twice while doing it: \"I cannot write but a few things,\" then \"neither can I write but a few of the words of my brother Jacob.\" Verse 3 supplies a reason for the style that is a claim about God rather than about the writer: \"for after this manner doth the Lord God work among the children of men... he speaketh unto men according to their language, unto their understanding.\" Plainness is defended at 2 Nephi 25:4 as the writer's own delight; here it is grounded in a divine method."
   },
   {
    "label": "v. 4–9",
@@ -335,7 +335,19 @@
    "start": 19,
    "end": 21,
    "title": "The question that reopens it",
-   "text": "The question, the flat no, and then the instruction: press forward, feast, endure. The last verse names the whole thing the doctrine of Christ and closes the exclusivity claim. For a chapter about entering, it spends its final third on continuing."
+   "text": "The record raises its own objection and answers it in one word: \"I would ask if all is done? Behold, I say unto you, Nay.\" What follows is four requirements, press forward, have a perfect brightness of hope, love God and all men, and feast upon the word of Christ, ending in \"endure to the end.\" Verse 21 then closes with an exclusivity claim in the same wording used at Mosiah 3:17, \"there is none other way nor name given under heaven whereby man can be saved,\" and names the whole \"the doctrine of Christ,\" a phrase used at verse 2, here, and at 3 Nephi 11:32–39.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 3:17",
+     "start": 371,
+     "end": 382,
+     "book": "Mosiah",
+     "chapter": 3,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
   }
  ],
  "chapter": [
@@ -367,7 +379,7 @@
   {
    "n": 6,
    "title": "The unit begins here",
-   "text": "Chapters 31 through 33 are Nephi's closing: the doctrine, its application, and his farewell. The commentary unit ended with Isaiah quoted; this one opens with Christ quoted, and the difference in register is the point of the division."
+   "text": "Chapters 31 through 33 are Nephi's closing: the doctrine, its application, and his farewell. The commentary unit ended with Isaiah quoted; this one opens with Christ quoted, and the difference in pitch is the point of the division."
   }
  ],
  "world_in_front": {
@@ -652,6 +664,214 @@
    "mirror": "jac06-005"
   },
   {
+   "id": "2ne31-013",
+   "scope": "BOM",
+   "head": "3 Ne. 7:24",
+   "anchor": {
+    "verse": 5,
+    "w1": 25,
+    "w2": 35,
+    "quote": "how much more need have we, being unholy, to be baptized,"
+   },
+   "reason": "Nephi baptizing everyone who repented",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 7,
+     "verse": 24,
+     "w1": 10,
+     "w2": 23,
+     "quote": "there were none who were brought unto repentance who were not baptized with water.",
+     "verse_text": "Now I would have you to remember also, that there were none who were brought unto repentance who were not baptized with water.",
+     "markdown": "Now I would have you to remember also, that **there were none who were brought unto repentance who were not baptized with water**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne07-007"
+  },
+  {
+   "id": "2ne31-014",
+   "scope": "BOM",
+   "head": "3 Ne. 10:6",
+   "anchor": {
+    "verse": 13,
+    "w1": 8,
+    "w2": 18,
+    "quote": "if ye shall follow the Son, with full purpose of heart,"
+   },
+   "reason": "the Lord using the phrase after the destruction",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 10,
+     "verse": 6,
+     "w1": 25,
+     "w2": 37,
+     "quote": "if ye will repent and return unto me with full purpose of heart.",
+     "verse_text": "O ye house of Israel whom I have spared, how oft will I gather you as a hen gathereth her chickens under her wings, if ye will repent and return unto me with full purpose of heart.",
+     "markdown": "O ye house of Israel whom I have spared, how oft will I gather you as a hen gathereth her chickens under her wings, **if ye will repent and return unto me with full purpose of heart**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne10-007"
+  },
+  {
+   "id": "2ne31-015",
+   "scope": "BOM",
+   "head": "3 Ne. 19:13",
+   "anchor": {
+    "verse": 13,
+    "w1": 77,
+    "w2": 87,
+    "quote": "then cometh the baptism of fire and of the Holy Ghost;"
+   },
+   "reason": "the disciples filled with fire at Bountiful",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 19,
+     "verse": 13,
+     "w1": 27,
+     "w2": 36,
+     "quote": "they were filled with the Holy Ghost and with fire.",
+     "verse_text": "And it came to pass when they were all baptized and had come up out of the water, the Holy Ghost did fall upon them, and they were filled with the Holy Ghost and with fire.",
+     "markdown": "And it came to pass when they were all baptized and had come up out of the water, the Holy Ghost did fall upon them, and **they were filled with the Holy Ghost and with fire**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne19-005"
+  },
+  {
+   "id": "2ne31-016",
+   "scope": "BOM",
+   "head": "Moro. 3:3",
+   "anchor": {
+    "verse": 17,
+    "w1": 57,
+    "w2": 70,
+    "quote": "then cometh a remission of your sins by fire and by the Holy Ghost."
+   },
+   "reason": "the ordaining charge naming the same remission",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 3,
+     "verse": 3,
+     "w1": 27,
+     "w2": 36,
+     "quote": "to preach repentance and remission of sins through Jesus Christ,",
+     "verse_text": "In the name of Jesus Christ I ordain you to be a priest (or if he be a teacher, I ordain you to be a teacher) to preach repentance and remission of sins through Jesus Christ, by the endurance of faith on his name to the end. Amen.",
+     "markdown": "In the name of Jesus Christ I ordain you to be a priest (or if he be a teacher, I ordain you to be a teacher) **to preach repentance and remission of sins through Jesus Christ**, by the endurance of faith on his name to the end. Amen.",
+     "span": true
+    }
+   ],
+   "mirror": "moro03-005"
+  },
+  {
+   "id": "2ne31-017",
+   "scope": "BOM",
+   "head": "Moro. 6:4",
+   "anchor": {
+    "verse": 19,
+    "w1": 49,
+    "w2": 60,
+    "quote": "relying wholly upon the merits of him who is mighty to save."
+   },
+   "reason": "the church relying alone on those merits",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 6,
+     "verse": 4,
+     "w1": 65,
+     "w2": 71,
+     "quote": "relying alone upon the merits of Christ,",
+     "verse_text": "And after they had been received unto baptism, and were wrought upon and cleansed by the power of the Holy Ghost, they were numbered among the people of the church of Christ; and their names were taken, that they might be remembered and nourished by the good word of God, to keep them in the right way, to keep them continually watchful unto prayer, relying alone upon the merits of Christ, who was the author and the finisher of their faith.",
+     "markdown": "And after they had been received unto baptism, and were wrought upon and cleansed by the power of the Holy Ghost, they were numbered among the people of the church of Christ; and their names were taken, that they might be remembered and nourished by the good word of God, to keep them in the right way, to keep them continually watchful unto prayer, **relying alone upon the merits of Christ**, who was the author and the finisher of their faith.",
+     "span": true
+    }
+   ],
+   "mirror": "moro06-008"
+  },
+  {
+   "id": "2ne31-018",
+   "scope": "BOM",
+   "head": "3 Ne. 15:9",
+   "anchor": {
+    "verse": 20,
+    "w1": 32,
+    "w2": 37,
+    "quote": "feasting upon the word of Christ,"
+   },
+   "reason": "the Lord giving the same command at Bountiful",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 15,
+     "verse": 9,
+     "w1": 9,
+     "w2": 20,
+     "quote": "Look unto me, and endure to the end, and ye shall live;",
+     "verse_text": "Behold, I am the law, and the light. Look unto me, and endure to the end, and ye shall live; for unto him that endureth to the end will I give eternal life.",
+     "markdown": "Behold, I am the law, and the light. **Look unto me, and endure to the end, and ye shall live**; for unto him that endureth to the end will I give eternal life.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne15-007"
+  },
+  {
+   "id": "2ne31-019",
+   "scope": "BOM",
+   "head": "Alma 38:9",
+   "anchor": {
+    "verse": 21,
+    "w1": 12,
+    "w2": 26,
+    "quote": "there is none other way nor name given under heaven whereby man can be saved"
+   },
+   "reason": "Alma telling Shiblon there is no other way",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 38,
+     "verse": 9,
+     "w1": 24,
+     "w2": 33,
+     "quote": "no other way or means whereby man can be saved,",
+     "verse_text": "And now, my son, I have told you this that ye may learn wisdom, that ye may learn of me that there is no other way or means whereby man can be saved, only in and through Christ. Behold, he is the life and the light of the world. Behold, he is the word of truth and righteousness.",
+     "markdown": "And now, my son, I have told you this that ye may learn wisdom, that ye may learn of me that there is **no other way or means whereby man can be saved**, only in and through Christ. Behold, he is the life and the light of the world. Behold, he is the word of truth and righteousness.",
+     "span": true
+    }
+   ],
+   "mirror": "al38-005"
+  },
+  {
+   "id": "2ne31-020",
+   "scope": "BOM",
+   "head": "3 Ne. 11:32",
+   "anchor": {
+    "verse": 21,
+    "w1": 35,
+    "w2": 40,
+    "quote": "this is the doctrine of Christ,"
+   },
+   "reason": "the Lord naming his doctrine himself",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 11,
+     "verse": 32,
+     "w1": 1,
+     "w2": 17,
+     "quote": "And this is my doctrine, and it is the doctrine which the Father hath given unto me;",
+     "verse_text": "And this is my doctrine, and it is the doctrine which the Father hath given unto me; and I bear record of the Father, and the Father beareth record of me, and the Holy Ghost beareth record of the Father and me; and I bear record that the Father commandeth all men, everywhere, to repent and believe in me.",
+     "markdown": "**And this is my doctrine, and it is the doctrine which the Father hath given unto me**; and I bear record of the Father, and the Father beareth record of me, and the Holy Ghost beareth record of the Father and me; and I bear record that the Father commandeth all men, everywhere, to repent and believe in me.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne11-007"
+  },
+  {
    "id": "2ne31-004",
    "scope": "SW",
    "head": "Matt. 3:15",
@@ -779,8 +999,9 @@
    "verse": 5,
    "w1": 25,
    "w2": 35,
-   "quote": "how much more need have we, being unholy, to be baptized",
+   "quote": "how much more need have we, being unholy, to be baptized,",
    "entries": [
+    "2ne31-013",
     "2ne31-004"
    ]
   },
@@ -791,6 +1012,24 @@
    "quote": "the straitness of the path, and the narrowness of the gate",
    "entries": [
     "2ne31-005"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 8,
+   "w2": 18,
+   "quote": "if ye shall follow the Son, with full purpose of heart,",
+   "entries": [
+    "2ne31-014"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 77,
+   "w2": 87,
+   "quote": "then cometh the baptism of fire and of the Holy Ghost;",
+   "entries": [
+    "2ne31-015"
    ]
   },
   {
@@ -821,6 +1060,15 @@
    ]
   },
   {
+   "verse": 17,
+   "w1": 57,
+   "w2": 70,
+   "quote": "then cometh a remission of your sins by fire and by the Holy Ghost.",
+   "entries": [
+    "2ne31-016"
+   ]
+  },
+  {
    "verse": 18,
    "w1": 1,
    "w2": 15,
@@ -831,12 +1079,22 @@
    ]
   },
   {
+   "verse": 19,
+   "w1": 49,
+   "w2": 60,
+   "quote": "relying wholly upon the merits of him who is mighty to save.",
+   "entries": [
+    "2ne31-017"
+   ]
+  },
+  {
    "verse": 20,
    "w1": 32,
    "w2": 37,
    "quote": "feasting upon the word of Christ",
    "entries": [
-    "2ne31-009"
+    "2ne31-009",
+    "2ne31-018"
    ]
   },
   {
@@ -845,6 +1103,7 @@
    "w2": 26,
    "quote": "there is none other way nor name given under heaven whereby man can be saved",
    "entries": [
+    "2ne31-019",
     "2ne31-007"
    ]
   },
@@ -854,12 +1113,13 @@
    "w2": 40,
    "quote": "this is the doctrine of Christ",
    "entries": [
-    "2ne31-010"
+    "2ne31-010",
+    "2ne31-020"
    ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "4ffc9e64adf6bc8c"
+  "at": "2026-09-07",
+  "source_sha256": "3917b578d581ea11"
  }
 }

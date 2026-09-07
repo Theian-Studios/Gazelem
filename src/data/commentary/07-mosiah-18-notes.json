@@ -18,7 +18,7 @@
    "Mutual burden-bearing",
    "Founding a community"
   ],
-  "connections": 28,
+  "connections": 34,
   "initial": false
  },
  "world_behind": [
@@ -29,8 +29,8 @@
   },
   {
    "n": 2,
-   "title": "The worst ground available",
-   "text": "Mormon was named by the king and named for what lived there: a place infested at seasons by wild beasts. That is exactly why it is unwatched. The believers gather at a watering hole nobody wants, and the record's own compiler centuries later carries the name of the place."
+   "title": "Ground nobody was watching",
+   "text": "Verse 4 says the place received its name from the king and sat in a border region infested at seasons by wild beasts. Verse 5 adds a fountain of pure water and a thicket to hide in. The record's own compiler centuries later carries the name of the place."
   },
   {
    "n": 3,
@@ -77,7 +77,7 @@
   {
    "term": "Ordained",
    "verse_label": "v. 18",
-   "text": "Appointed and set apart to an office. The ratio is given immediately, one priest to every fifty. The ordination is an administrative act with a number attached. Four priests would have covered the whole congregation at its founding size."
+   "text": "Appointed and set apart to an office. Treated at 1 Nephi 12:7. The ratio is given immediately, one priest to every fifty. The ordination is an administrative act with a number attached. Four priests would have covered the whole congregation at its founding size."
   },
   {
    "term": "Impart",
@@ -94,12 +94,36 @@
   {
    "term": "Bear one another's burdens, that they may be light",
    "verse_label": "v. 8",
-   "text": "Paul writes almost the first half of this to the Galatians. What is added here is the purpose clause: sharing makes the burdens light. The covenant's first term is therefore about weight."
+   "text": "Paul writes almost the first half of this to the Galatians (Gal. 6:2). What is added here is the purpose clause: sharing makes the burdens light. The covenant's first term is therefore about weight.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Gal. 6:2",
+     "start": 60,
+     "end": 68,
+     "book": "Gal",
+     "chapter": 6,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
   },
   {
    "term": "Mourn with those that mourn",
    "verse_label": "v. 9",
-   "text": "Paul's version of the same instruction pairs weeping with weeping and rejoicing with rejoicing. This one keeps only the grief and adds a second clause about comfort for those who need it. The covenant asks for presence in the harder direction and does not mention the easier one."
+   "text": "Paul's version of the same instruction (Rom. 12:15) pairs weeping with weeping and rejoicing with rejoicing. This one keeps only the grief and adds a second clause about comfort for those who need it. The covenant asks for presence in the harder direction and does not mention the easier one.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Rom. 12:15",
+     "start": 40,
+     "end": 50,
+     "book": "Rom",
+     "chapter": 12,
+     "verse_start": 15,
+     "verse_end": 15
+    }
+   ]
   },
   {
    "term": "Stand as witnesses of God at all times and in all things, and in all places",
@@ -124,70 +148,61 @@
   {
    "term": "Look forward with one eye, having one faith and one baptism",
    "verse_label": "v. 21",
-   "text": "Paul's triad to Ephesus has one Lord, one faith, one baptism. Here the first item is replaced by a shared direction of gaze, and the phrase occurs once in scripture. Unity is described as facing the same way rather than as agreeing."
+   "text": "Paul's triad to Ephesus has one Lord, one faith, one baptism. Here the first item is replaced by a shared direction of gaze, and the phrase occurs a single time in scripture. Unity is described as facing the same way rather than as agreeing."
   },
   {
    "term": "How beautiful are they to the eyes of them who there came to the knowledge of their Redeemer",
    "verse_label": "v. 30",
-   "text": "Isaiah's line about beautiful feet on the mountains, relocated to a pool and a wood. Alma had stood in a courtroom while Abinadi expounded that verse; here the beauty has moved from the messenger to the place where the message landed. The verse says the name Mormon six times, attaching it to the place, the waters, and the forest."
+   "text": "Isaiah's line about beautiful feet on the mountains (Isa. 52:7), relocated to a pool and a wood. Alma had stood in a courtroom while Abinadi expounded that verse; here the beauty has moved from the messenger to the place where the message landed. The verse says the name Mormon six times, attaching it to the place, the waters, and the forest.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 52:7",
+     "start": 53,
+     "end": 62,
+     "book": "Isa",
+     "chapter": 52,
+     "verse_start": 7,
+     "verse_end": 7
+    }
+   ]
   }
  ],
  "verses": [
   {
-   "label": "v. 1–3",
-   "start": 1,
-   "end": 3,
-   "title": "A fugitive with a manuscript",
-   "text": "Alma has repented, is wanted by the king's servants, and goes about privately teaching what he wrote down while hiding. The content is listed in verse 2 and it is Abinadi's outline: what was to come, the resurrection, redemption, through the sufferings and death of Christ."
+   "label": "v. 4–5",
+   "start": 4,
+   "end": 5,
+   "title": "A place described before anything happens in it",
+   "text": "Two verses set the ground before a word is spoken there. The name is explained by its owner, \"a place which was called Mormon, having received its name from the king,\" and the terrain by its usefulness: \"there was in Mormon a fountain of pure water... there being near the water a thicket of small trees, where he did hide himself in the daytime.\" Mormon is used twelve times in this chapter across six verses. Water and cover are the two features named, and both are needed for what follows."
   },
   {
-   "label": "v. 4–7",
-   "start": 4,
-   "end": 7,
-   "title": "A thicket and a spring",
-   "text": "He hides in small trees by day and the believers come to him. The gathering is described as taking many days to assemble and as growing to a goodly number, which means people kept walking out to the borders of the land over many days without being caught."
+   "label": "v. 8",
+   "start": 8,
+   "end": 8,
+   "title": "A gloss inside a quoted speech",
+   "text": "The record interrupts Alma mid-sentence to explain a name: \"Behold, here are the waters of Mormon (for thus were they called) and now, as ye are desirous to come into the fold of God.\" The parenthesis is the writer's, not the speaker's, since the people standing at the water do not need to be told what the water is called. It is an aside addressed past the audience in the scene to the reader of the book."
   },
   {
    "label": "v. 8–10",
    "start": 8,
    "end": 10,
-   "title": "The terms, and then the question",
-   "text": "Come into the fold, be called his people, bear burdens, mourn with mourners, comfort the comfortless, witness everywhere until death. Then the reward, and then an invitation to object. The covenant is almost entirely about how these people will treat each other."
+   "title": "A covenant stated as conditions, and put as a question",
+   "text": "The record lists the terms first, without a verb of command: willing to bear one another's burdens, \"willing to mourn with those that mourn,\" to comfort those in need of comfort, \"to stand as witnesses of God at all times and in all things, and in all places.\" Only after the list does baptism arrive, and it arrives as a question rather than an instruction: \"if this be the desire of your hearts, what have you against being baptized in the name of the Lord?\" The response in verse 11 is physical before it is verbal, \"they clapped their hands for joy.\""
   },
   {
-   "label": "v. 12–15",
-   "start": 12,
-   "end": 15,
-   "title": "Helam, and then everyone else",
-   "text": "Alma prays for himself before he touches anyone, then baptizes Helam with both of them going under. The formula he uses claims authority and states the covenant's term as \"until you are dead as to the mortal body.\" Then the record notes what he did differently the second time."
-  },
-  {
-   "label": "v. 17–22",
-   "start": 17,
-   "end": 22,
-   "title": "Named, staffed, and instructed",
-   "text": "They become the church; priests are ordained at one to fifty; the priests may teach only what Alma taught and what the prophets spoke; no contention; one eye, one faith, one baptism, hearts knit. The instructions are shorter than the covenant that preceded them."
-  },
-  {
-   "label": "v. 24–29",
-   "start": 24,
+   "label": "v. 18–29",
+   "start": 18,
    "end": 29,
-   "title": "A church nobody gets paid by",
-   "text": "Priests work with their hands and take nothing from the congregation. Giving is redirected past the clergy to whoever is in need, described as free will and good desires, and the chapter closes the passage by saying they did walk uprightly, imparting both temporally and spiritually."
-  },
-  {
-   "label": "v. 32–35",
-   "start": 32,
-   "end": 35,
-   "title": "Found out, and gone",
-   "text": "The king notices a movement, sends watchers, and calls the assembly a rebellion. There is no trial this time. They take their tents and families and leave, and the count has gone from two hundred and four to four hundred and fifty."
+   "title": "A constitution delivered as a run of commands",
+   "text": "The record puts commanded eight times across these verses, and each use introduces a rule: one priest to every fifty, preach nothing save repentance and faith, no contention among them, observe the sabbath, priests to \"labor with their own hands for their support,\" members to \"impart of their substance, every one according to that which he had.\" Verse 26 states the reason for the labour rule, that the priests \"were not to depend upon the people for their support.\" The whole order of a new community is set out in eleven verses, entirely in the same grammatical form."
   }
  ],
  "chapter": [
   {
    "n": 1,
-   "title": "This is the first church in the record",
-   "text": "Before verse 17 the word belongs to Nephi's vision of two churches far in the future and to one line where Zoram assumes Nephi means a congregation in Jerusalem. The first assembly of believers on this land to be called a church is an illegal one meeting at a watering hole named for wild animals."
+   "title": "This is the first church on this land",
+   "text": "Before verse 17 the word belongs to the future: the two churches of Nephi's vision, the many churches built up in the last days, and in Jacob's sermon the true church and fold of God. The one exception is Zoram, who hears \"the brethren of the church\" and assumes a congregation at Jerusalem. The first assembly here to carry the name is a hunted one, meeting at a fountain of pure water in a place the king had named."
   },
   {
    "n": 2,
@@ -197,7 +212,7 @@
   {
    "n": 3,
    "title": "The covenant is stated almost entirely as obligations to other people",
-   "text": "Burdens, mourning, comfort, witness. One doctrinal clause arrives at the end (redeemed of God, numbered with the first resurrection), and even that is phrased as a consequence. Nothing in the terms asks the group to affirm a proposition."
+   "text": "Four obligations are named in verses 8 and 9 and all four concern other people: \"bear one another's burdens,\" \"mourn with those that mourn,\" \"comfort those that stand in need of comfort,\" and \"stand as witnesses of God at all times and in all things, and in all places.\" The one doctrinal clause is stated as an outcome, \"that ye may be redeemed of God, and be numbered with those of the first resurrection.\" Verse 10 asks for baptism as a witness of what has been promised, not as assent to a proposition. Nothing in the terms requires believing anything in particular."
   },
   {
    "n": 4,
@@ -720,6 +735,32 @@
    "mirror": "mos17-007"
   },
   {
+   "id": "mos18-031",
+   "scope": "BOOK",
+   "head": "Mosiah 21:33",
+   "anchor": {
+    "verse": 13,
+    "w1": 19,
+    "w2": 28,
+    "quote": "Helam, I baptize thee, having authority from the Almighty God,"
+   },
+   "reason": "Limhi's people with nobody authorized to baptize them",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 21,
+     "verse": 33,
+     "w1": 20,
+     "w2": 30,
+     "quote": "there was none in the land that had authority from God.",
+     "verse_text": "And it came to pass that king Limhi and many of his people were desirous to be baptized; but there was none in the land that had authority from God. And Ammon declined doing this thing, considering himself an unworthy servant.",
+     "markdown": "And it came to pass that king Limhi and many of his people were desirous to be baptized; but **there was none in the land that had authority from God**. And Ammon declined doing this thing, considering himself an unworthy servant.",
+     "span": true
+    }
+   ],
+   "mirror": "mos21-008"
+  },
+  {
    "id": "mos18-028",
    "scope": "BOM",
    "head": "Alma 6:6",
@@ -821,7 +862,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "1ne15-010"
   },
   {
    "id": "mos18-011",
@@ -847,7 +888,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al01-031"
   },
   {
    "id": "mos18-010",
@@ -873,7 +914,137 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al05-025"
+  },
+  {
+   "id": "mos18-029",
+   "scope": "BOM",
+   "head": "Moro. 4:3",
+   "anchor": {
+    "verse": 10,
+    "w1": 26,
+    "w2": 39,
+    "quote": "as a witness before him that ye have entered into a covenant with him,"
+   },
+   "reason": "the sacrament prayer's own words for taking the name",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 4,
+     "verse": 3,
+     "w1": 54,
+     "w2": 66,
+     "quote": "that they are willing to take upon them the name of thy Son,",
+     "verse_text": "O God, the Eternal Father, we ask thee in the name of thy Son, Jesus Christ, to bless and sanctify this bread to the souls of all those who partake of it; that they may eat in remembrance of the body of thy Son, and witness unto thee, O God, the Eternal Father, that they are willing to take upon them the name of thy Son, and always remember him, and keep his commandments which he hath given them, that they may always have his Spirit to be with them. Amen.",
+     "markdown": "O God, the Eternal Father, we ask thee in the name of thy Son, Jesus Christ, to bless and sanctify this bread to the souls of all those who partake of it; that they may eat in remembrance of the body of thy Son, and witness unto thee, O God, the Eternal Father, **that they are willing to take upon them the name of thy Son**, and always remember him, and keep his commandments which he hath given them, that they may always have his Spirit to be with them. Amen.",
+     "span": true
+    }
+   ],
+   "mirror": "moro04-005"
+  },
+  {
+   "id": "mos18-030",
+   "scope": "BOM",
+   "head": "Alma 31:36",
+   "anchor": {
+    "verse": 11,
+    "w1": 10,
+    "w2": 15,
+    "quote": "they clapped their hands for joy,"
+   },
+   "reason": "Alma's hands on the missionaries before the Zoramites",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 31,
+     "verse": 36,
+     "w1": 28,
+     "w2": 33,
+     "quote": "he clapped his hands upon them,",
+     "verse_text": "Now it came to pass that when Alma had said these words, that he clapped his hands upon all them who were with him. And behold, as he clapped his hands upon them, they were filled with the Holy Spirit.",
+     "markdown": "Now it came to pass that when Alma had said these words, that he clapped his hands upon all them who were with him. And behold, as **he clapped his hands upon them**, they were filled with the Holy Spirit.",
+     "span": true
+    }
+   ],
+   "mirror": "al31-005"
+  },
+  {
+   "id": "mos18-032",
+   "scope": "BOM",
+   "head": "3 Ne. 26:21",
+   "anchor": {
+    "verse": 17,
+    "w1": 2,
+    "w2": 13,
+    "quote": "they were called the church of God, or the church of Christ,"
+   },
+   "reason": "the same name given again after Christ came",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 26,
+     "verse": 21,
+     "w1": 1,
+     "w2": 16,
+     "quote": "And they who were baptized in the name of Jesus were called the church of Christ.",
+     "verse_text": "And they who were baptized in the name of Jesus were called the church of Christ.",
+     "markdown": "**And they who were baptized in the name of Jesus were called the church of Christ**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne26-009"
+  },
+  {
+   "id": "mos18-033",
+   "scope": "BOM",
+   "head": "3 Ne. 5:12",
+   "anchor": {
+    "verse": 17,
+    "w1": 2,
+    "w2": 13,
+    "quote": "they were called the church of God, or the church of Christ,"
+   },
+   "reason": "Mormon naming himself after the land of this founding",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 5,
+     "verse": 12,
+     "w1": 14,
+     "w2": 25,
+     "quote": "the land in which Alma did establish the church among the people,",
+     "verse_text": "And behold, I am called Mormon, being called after the land of Mormon, the land in which Alma did establish the church among the people, yea, the first church which was established among them after their transgression.",
+     "markdown": "And behold, I am called Mormon, being called after the land of Mormon, **the land in which Alma did establish the church among the people**, yea, the first church which was established among them after their transgression.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne05-005"
+  },
+  {
+   "id": "mos18-034",
+   "scope": "BOM",
+   "head": "Moro. 3:1",
+   "anchor": {
+    "verse": 18,
+    "w1": 7,
+    "w2": 13,
+    "quote": "Alma, having authority from God, ordained priests;"
+   },
+   "reason": "the ordination form Moroni preserves at the end",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 3,
+     "verse": 1,
+     "w1": 14,
+     "w2": 17,
+     "quote": "ordained priests and teachers—",
+     "verse_text": "The manner which the disciples, who were called the elders of the church, ordained priests and teachers—",
+     "markdown": "The manner which the disciples, who were called the elders of the church, **ordained priests and teachers—**",
+     "span": true
+    }
+   ],
+   "mirror": "moro03-003"
   },
   {
    "id": "mos18-017",
@@ -1093,6 +1264,33 @@
    ]
   },
   {
+   "verse": 10,
+   "w1": 26,
+   "w2": 39,
+   "quote": "as a witness before him that ye have entered into a covenant with him,",
+   "entries": [
+    "mos18-029"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 10,
+   "w2": 15,
+   "quote": "they clapped their hands for joy,",
+   "entries": [
+    "mos18-030"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 19,
+   "w2": 28,
+   "quote": "Helam, I baptize thee, having authority from the Almighty God,",
+   "entries": [
+    "mos18-031"
+   ]
+  },
+  {
    "verse": 14,
    "w1": 8,
    "w2": 16,
@@ -1107,7 +1305,9 @@
    "w2": 13,
    "quote": "they were called the church of God, or the church of Christ",
    "entries": [
-    "mos18-010"
+    "mos18-010",
+    "mos18-032",
+    "mos18-033"
    ]
   },
   {
@@ -1116,7 +1316,8 @@
    "w2": 13,
    "quote": "Alma, having authority from God, ordained priests",
    "entries": [
-    "mos18-024"
+    "mos18-024",
+    "mos18-034"
    ]
   },
   {
@@ -1207,7 +1408,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "d558b731558c068b"
+  "at": "2026-09-07",
+  "source_sha256": "f435dc32484061c9"
  }
 }

@@ -1,0 +1,818 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Moroni",
+  "book_slug": "moroni",
+  "chapter": 10,
+  "volume_order": "14",
+  "speakers": [
+   "Moroni",
+   "Christ",
+   "The Lord God"
+  ],
+  "audience": "His brethren the Lamanites, and all the ends of the earth",
+  "location": "Not stated; Moroni alone",
+  "date": "More than four hundred and twenty years after the sign",
+  "unit": "Moroni's closing exhortation and farewell (Moroni 10)",
+  "principles": [
+   "An exhortation delivered before the seal",
+   "A promise attached to how a question is asked",
+   "Gifts distributed by someone else's choice"
+  ],
+  "connections": 13,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Moroni dates the record",
+   "text": "Verse 1 counts more than four hundred and twenty years from the sign onward."
+  },
+  {
+   "n": 2,
+   "title": "The address is to the Lamanites",
+   "text": "Verse 1 names them, and Moroni 1:4 had said the same."
+  },
+  {
+   "n": 3,
+   "title": "The exhortation comes before the sealing",
+   "text": "Verse 2 puts the words first and the seal after."
+  },
+  {
+   "n": 4,
+   "title": "Nine gifts are listed",
+   "text": "Verses 9 through 16 name the gifts one by one. Moroni 7:37 and 3 Nephi 29:6 give shorter versions of the same list, and 1 Corinthians 12:8 to 10 is the biblical inventory all three track."
+  },
+  {
+   "n": 5,
+   "title": "He expects to be seen again",
+   "text": "Verse 27 puts him face to face with his reader at the bar of God. Ether 5:6, Ether 12:38 and Mormon 8:35 make the same appointment, so the writer proposes to meet his reader four times across three books, and this is the last of them.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 5:6",
+     "start": 66,
+     "end": 75,
+     "book": "Ether",
+     "chapter": 5,
+     "verse_start": 6,
+     "verse_end": 6
+    },
+    {
+     "kind": "scripture",
+     "text": "Ether 12:38",
+     "start": 77,
+     "end": 88,
+     "book": "Ether",
+     "chapter": 12,
+     "verse_start": 38,
+     "verse_end": 38
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Isaiah supplies the language near the end",
+   "text": "Verse 31 uses the wording of Isaiah 52:1 and 2."
+  },
+  {
+   "n": 7,
+   "title": "He describes what happens to him next",
+   "text": "Verse 34 names paradise, the reunion of spirit and body, and the bar of the great Jehovah. Alma 40:11 to 14 is the passage that explains paradise in this record, and 2 Nephi 33:11 closes Nephi's book on the same image of a meeting at the bar.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 40:11",
+     "start": 91,
+     "end": 101,
+     "book": "Alma",
+     "chapter": 40,
+     "verse_start": 11,
+     "verse_end": 11
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "term": "Exhortation",
+   "verse_label": "v. 2",
+   "text": "Urging toward a course of action. The word appears once in the record, here, and ten times in the King James Bible."
+  },
+  {
+   "term": "Ponder",
+   "verse_label": "v. 3",
+   "text": "To weigh a thing over in the mind. Treated at 3 Nephi 17:3. The record uses the word five times and the King James Bible twice."
+  },
+  {
+   "term": "Sincere",
+   "verse_label": "v. 4",
+   "text": "Without pretence. It appears twice in the record and twice in the King James Bible. Verse 4 makes it the first of three conditions on the asking."
+  },
+  {
+   "term": "Severally",
+   "verse_label": "v. 17",
+   "text": "To each one separately. One use in the record, here, and one in the King James Bible, at 1 Corinthians 12:11, in the same connection."
+  },
+  {
+   "term": "Despair",
+   "verse_label": "v. 22",
+   "text": "Loss of hope. It appears three times in the record, and the King James Bible three. Verse 22 gives iniquity as its cause."
+  },
+  {
+   "term": "Ungodliness",
+   "verse_label": "v. 32",
+   "text": "Conduct without regard for God. Two uses in the record, both in this verse, and four in the King James Bible."
+  },
+  {
+   "term": "Triumphant",
+   "verse_label": "v. 34",
+   "text": "Coming through victorious. One use in the record, here, and none in the King James Bible. Verse 34 applies it to Moroni himself."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "I seal up these records",
+   "verse_label": "v. 2",
+   "text": "What the chapter is a preface to. Verse 2 says the exhortation comes first."
+  },
+  {
+   "term": "Remember how merciful the Lord hath been unto the children of men",
+   "verse_label": "v. 3",
+   "text": "The instruction before the question. Verse 3 sets the range from the creation of Adam to the reader's own day."
+  },
+  {
+   "term": "Ask with a sincere heart, with real intent, having faith in Christ",
+   "verse_label": "v. 4",
+   "text": "The three conditions on the promise. All three are about the asker."
+  },
+  {
+   "term": "By the power of the Holy Ghost ye may know the truth of all things",
+   "verse_label": "v. 5",
+   "text": "The scope of the promise, widened past this book. Verse 5 is one line long."
+  },
+  {
+   "term": "Nothing that is good denieth the Christ",
+   "verse_label": "v. 6",
+   "text": "The test carried over from Moroni 7. Good and true are treated as the same category."
+  },
+  {
+   "term": "They come unto every man severally, according as he will",
+   "verse_label": "v. 17",
+   "text": "Who decides which gift goes where. 1 Corinthians 12:11 uses the same adverb."
+  },
+  {
+   "term": "If ye have no hope ye must needs be in despair",
+   "verse_label": "v. 22",
+   "text": "The chain running backward. Verse 22 names what sits under the despair."
+  },
+  {
+   "term": "Like as one crying from the dead, yea, even as one speaking out of the dust",
+   "verse_label": "v. 27",
+   "text": "How the Lord describes this book at the judgment. Moroni is quoting words he expects to hear."
+  },
+  {
+   "term": "Lay hold upon every good gift, and touch not the evil gift",
+   "verse_label": "v. 30",
+   "text": "Both halves of the instruction. Verse 30 adds the unclean thing to the second half."
+  },
+  {
+   "term": "Be perfected in him, and deny yourselves of all ungodliness",
+   "verse_label": "v. 32",
+   "text": "The condition on the grace being sufficient. Verse 32 repeats the denying clause in the next breath."
+  },
+  {
+   "term": "The pleasing bar of the great Jehovah",
+   "verse_label": "v. 34",
+   "text": "Where Moroni says he will meet the reader. Jacob 6:13 closed his own record with the same phrase.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 6:13",
+     "start": 43,
+     "end": 53,
+     "book": "Jacob",
+     "chapter": 6,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–2",
+   "start": 1,
+   "end": 2,
+   "title": "The last date in the record, and the addressee named",
+   "text": "The record fixes its own closing point by counting from an event rather than from a reign: \"more than four hundred and twenty years have passed away since the sign was given of the coming of Christ.\" The sign is the one reported at 3 Nephi 1:15–21. The addressee is stated in the same breath and it is the surviving enemy, \"I write unto my brethren, the Lamanites.\" Verse 2 then names the act the book is about to perform, \"I seal up these records,\" so the volume ends with a date, a reader, and a closing operation, in that order."
+  },
+  {
+   "label": "v. 8–17",
+   "start": 8,
+   "end": 17,
+   "title": "Nine gifts listed, with one item swapped out",
+   "text": "The record gives its list of spiritual gifts in nine entries, matching the nine of 1 Corinthians 12:8–10 in number and largely in order: word of wisdom, word of knowledge, faith, healing, miracles, prophecy, tongues, and interpretation. One item differs. Where Paul has \"discerning of spirits,\" the record has \"the beholding of angels and ministering spirits.\" Verse 8 also carries Paul's framing clause, \"it is the same God who worketh all in all,\" from 1 Corinthians 12:6. A single substitution inside a borrowed list is exactly the kind of change a reader can check line against line."
+  },
+  {
+   "label": "v. 31",
+   "start": 31,
+   "end": 31,
+   "title": "Two Isaiah chapters spliced, and the addressees swapped",
+   "text": "The record joins material from Isaiah 52:1–2 and Isaiah 54:2 in one verse: \"awake, and arise from the dust, O Jerusalem; yea, and put on thy beautiful garments, O daughter of Zion; and strengthen thy stakes and enlarge thy borders forever.\" Isaiah 52:1 puts strength on Zion and beautiful garments on Jerusalem; here the garments go to the daughter of Zion. The stakes and the borders come from Isaiah 54:2, a different chapter with a different figure. At 3 Nephi 20:36–37 the same Isaiah 52 material is given without the splice and with the original assignment intact, so the record contains both versions."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The exhortation comes before the seal",
+   "text": "Verse 2 gives the order plainly, and the rest of the chapter is the exhortation."
+  },
+  {
+   "n": 2,
+   "title": "Remembering is asked for before asking",
+   "text": "Verse 3 puts the mercy of God in view first, and verse 4 then gives the question."
+  },
+  {
+   "n": 3,
+   "title": "The promise is attached to the asker",
+   "text": "Verse 4 names a sincere heart, real intent, and faith in Christ, all of them conditions on the one asking."
+  },
+  {
+   "n": 4,
+   "title": "The scope widens twice",
+   "text": "Verse 5 goes from this book to all things, and verse 24 goes from the Lamanites to all the ends of the earth."
+  },
+  {
+   "n": 5,
+   "title": "Nine gifts are named and none is ranked",
+   "text": "Verses 9 through 16 give them in a plain list."
+  },
+  {
+   "n": 6,
+   "title": "The distribution is not the recipient's to make",
+   "text": "Verse 17 says severally, according as he will."
+  },
+  {
+   "n": 7,
+   "title": "Their absence would be a report on the people",
+   "text": "Verses 19 and 24 both put unbelief as the only cause."
+  },
+  {
+   "n": 8,
+   "title": "The book ends on a meeting",
+   "text": "Verse 34 has Moroni expect to stand with his reader before the bar of God."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Do the four steps in order",
+    "verse_label": "v. 3–4",
+    "text": "Read, remember, ponder, then ask. Three of the four come before the question, and the remembering has a stated scope, God's mercy \"from the creation of Adam even down until the time that ye shall receive these things.\" Skipping to the asking is the common failure and the chapter forecloses it."
+   },
+   {
+    "title": "Ask with real intent",
+    "verse_label": "v. 4",
+    "text": "Three conditions are attached to the asking, and the same phrase \"real intent\" governs gifts and prayers at Moroni 7:6–9. Before you put a question, check whether you would accept either answer."
+   },
+   {
+    "title": "Notice the gift you were not looking for",
+    "verse_label": "v. 9–17",
+    "text": "The list runs to nine and the last two are about languages. Whatever you were hoping to be given, read the whole list and ask which of the nine you have actually seen operating in someone near you."
+   },
+   {
+    "title": "Leave the distribution alone",
+    "verse_label": "v. 17",
+    "text": "The gifts come \"unto every man severally, according as he will.\" The allocation is not the recipient's to make, and comparing your share with somebody else's is a category error the verse rules out in advance."
+   },
+   {
+    "title": "Treat an absence as information",
+    "verse_label": "v. 19, 24",
+    "text": "Twice the chapter names one cause for gifts ceasing, and both times it is unbelief rather than the passage of time. If something has gone quiet, the chapter's advice is to check the belief before concluding the season has changed."
+   },
+   {
+    "title": "Take the good gift and leave the other",
+    "verse_label": "v. 30",
+    "text": "Both halves of the instruction sit in one verse, \"lay hold upon every good gift, and touch not the evil gift, nor the unclean thing.\" Naming what you will not touch is part of accepting what you will."
+   },
+   {
+    "title": "Deny yourself of ungodliness",
+    "verse_label": "v. 32",
+    "text": "The clause is repeated inside the verse and it is the stated condition on the grace being sufficient. Pick the one specific thing the word covers for you this week, and treat the denial as the practical form of the request."
+   },
+   {
+    "title": "Expect to meet the writer",
+    "verse_label": "v. 34",
+    "text": "The book closes with an appointment, \"I am brought forth triumphant through the air, to meet you before the pleasing bar of the great Jehovah.\" Read the volume as something someone will be present for, not as an anonymous text."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What mercies would I list if I sat down to remember them?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "Have I asked with real intent, or only asked?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "Which gift of God have I denied by ignoring it?"
+   },
+   {
+    "verse_label": "v. 17",
+    "start": 17,
+    "end": 17,
+    "text": "What have I been given that I did not choose?"
+   },
+   {
+    "verse_label": "v. 22",
+    "start": 22,
+    "end": 22,
+    "text": "Where has despair set in, and what sits under it?"
+   },
+   {
+    "verse_label": "v. 30",
+    "start": 30,
+    "end": 30,
+    "text": "What good gift am I not laying hold of?"
+   },
+   {
+    "verse_label": "v. 32",
+    "start": 32,
+    "end": 32,
+    "text": "What ungodliness would I have to deny to be perfected in him?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "moro10-001",
+   "scope": "BOOK",
+   "head": "Moro. 1:4",
+   "anchor": {
+    "verse": 1,
+    "w1": 11,
+    "w2": 17,
+    "quote": "I write unto my brethren, the Lamanites"
+   },
+   "reason": "the same readers named when he resumed writing",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 1,
+     "verse": 4,
+     "w1": 32,
+     "w2": 43,
+     "quote": "that perhaps they may be of worth unto my brethren, the Lamanites,",
+     "verse_text": "Wherefore, I write a few more things, contrary to that which I had supposed; for I had supposed not to have written any more; but I write a few more things, that perhaps they may be of worth unto my brethren, the Lamanites, in some future day, according to the will of the Lord.",
+     "markdown": "Wherefore, I write a few more things, contrary to that which I had supposed; for I had supposed not to have written any more; but I write a few more things, **that perhaps they may be of worth unto my brethren, the Lamanites**, in some future day, according to the will of the Lord.",
+     "span": true
+    }
+   ],
+   "mirror": "moro01-001"
+  },
+  {
+   "id": "moro10-002",
+   "scope": "BOOK",
+   "head": "Moro. 7:1",
+   "anchor": {
+    "verse": 21,
+    "w1": 1,
+    "w2": 16,
+    "quote": "And except ye have charity ye can in nowise be saved in the kingdom of God"
+   },
+   "reason": "his father's sermon on the same three",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 7,
+     "verse": 1,
+     "w1": 18,
+     "w2": 22,
+     "quote": "concerning faith, hope, and charity;",
+     "verse_text": "And now I, Moroni, write a few of the words of my father Mormon, which he spake concerning faith, hope, and charity; for after this manner did he speak unto the people, as he taught them in the synagogue which they had built for the place of worship.",
+     "markdown": "And now I, Moroni, write a few of the words of my father Mormon, which he spake **concerning faith, hope, and charity**; for after this manner did he speak unto the people, as he taught them in the synagogue which they had built for the place of worship.",
+     "span": true
+    }
+   ],
+   "mirror": "moro07-001"
+  },
+  {
+   "id": "moro10-003",
+   "scope": "BOOK",
+   "head": "Moro. 7:47",
+   "anchor": {
+    "verse": 20,
+    "w1": 18,
+    "w2": 27,
+    "quote": "if there must be hope there must also be charity"
+   },
+   "reason": "the definition Mormon gave the word",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 7,
+     "verse": 47,
+     "w1": 2,
+     "w2": 8,
+     "quote": "charity is the pure love of Christ,",
+     "verse_text": "But charity is the pure love of Christ, and it endureth forever; and whoso is found possessed of it at the last day, it shall be well with him.",
+     "markdown": "But **charity is the pure love of Christ**, and it endureth forever; and whoso is found possessed of it at the last day, it shall be well with him.",
+     "span": true
+    }
+   ],
+   "mirror": "moro07-012"
+  },
+  {
+   "id": "moro10-004",
+   "scope": "BOM",
+   "head": "3 Ne. 17:3",
+   "anchor": {
+    "verse": 3,
+    "w1": 55,
+    "w2": 60,
+    "quote": "and ponder it in your hearts"
+   },
+   "reason": "the Lord asking the same of the multitude",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 17,
+     "verse": 3,
+     "w1": 8,
+     "w2": 15,
+     "quote": "ponder upon the things which I have said,",
+     "verse_text": "Therefore, go ye unto your homes, and ponder upon the things which I have said, and ask of the Father, in my name, that ye may understand, and prepare your minds for the morrow, and I come unto you again.",
+     "markdown": "Therefore, go ye unto your homes, and **ponder upon the things which I have said**, and ask of the Father, in my name, that ye may understand, and prepare your minds for the morrow, and I come unto you again.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne17-005"
+  },
+  {
+   "id": "moro10-005",
+   "scope": "BOM",
+   "head": "3 Ne. 29:6",
+   "anchor": {
+    "verse": 8,
+    "w1": 9,
+    "w2": 19,
+    "quote": "ye deny not the gifts of God, for they are many"
+   },
+   "reason": "the wo pronounced on denying them",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 29,
+     "verse": 6,
+     "w1": 13,
+     "w2": 23,
+     "quote": "and that shall say the Lord no longer worketh by revelation,",
+     "verse_text": "Yea, wo unto him that shall deny the revelations of the Lord, and that shall say the Lord no longer worketh by revelation, or by prophecy, or by gifts, or by tongues, or by healings, or by the power of the Holy Ghost!",
+     "markdown": "Yea, wo unto him that shall deny the revelations of the Lord, **and that shall say the Lord no longer worketh by revelation**, or by prophecy, or by gifts, or by tongues, or by healings, or by the power of the Holy Ghost!",
+     "span": true
+    }
+   ],
+   "mirror": "3ne29-007"
+  },
+  {
+   "id": "moro10-006",
+   "scope": "BOM",
+   "head": "2 Ne. 8:25",
+   "anchor": {
+    "verse": 31,
+    "w1": 4,
+    "w2": 9,
+    "quote": "arise from the dust, O Jerusalem"
+   },
+   "reason": "the same call, in the Isaiah chapters Jacob read",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 8,
+     "verse": 25,
+     "w1": 1,
+     "w2": 5,
+     "quote": "Shake thyself from the dust;",
+     "verse_text": "Shake thyself from the dust; arise, sit down, O Jerusalem; loose thyself from the bands of thy neck, O captive daughter of Zion.",
+     "markdown": "**Shake thyself from the dust**; arise, sit down, O Jerusalem; loose thyself from the bands of thy neck, O captive daughter of Zion.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne08-004"
+  },
+  {
+   "id": "moro10-007",
+   "scope": "BOM",
+   "head": "3 Ne. 22:2",
+   "anchor": {
+    "verse": 31,
+    "w1": 22,
+    "w2": 29,
+    "quote": "strengthen thy stakes and enlarge thy borders forever"
+   },
+   "reason": "the Lord quoting Isaiah to the Nephites",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 22,
+     "verse": 2,
+     "w1": 19,
+     "w2": 25,
+     "quote": "lengthen thy cords and strengthen thy stakes;",
+     "verse_text": "Enlarge the place of thy tent, and let them stretch forth the curtains of thy habitations; spare not, lengthen thy cords and strengthen thy stakes;",
+     "markdown": "Enlarge the place of thy tent, and let them stretch forth the curtains of thy habitations; spare not, **lengthen thy cords and strengthen thy stakes**;",
+     "span": true
+    }
+   ],
+   "mirror": "3ne22-004"
+  },
+  {
+   "id": "moro10-008",
+   "scope": "BOM",
+   "head": "2 Ne. 25:23",
+   "anchor": {
+    "verse": 32,
+    "w1": 35,
+    "w2": 41,
+    "quote": "then is his grace sufficient for you"
+   },
+   "reason": "Nephi on grace and all we can do",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 25,
+     "verse": 23,
+     "w1": 29,
+     "w2": 41,
+     "quote": "it is by grace that we are saved, after all we can do.",
+     "verse_text": "For we labor diligently to write, to persuade our children, and also our brethren, to believe in Christ, and to be reconciled to God; for we know that it is by grace that we are saved, after all we can do.",
+     "markdown": "For we labor diligently to write, to persuade our children, and also our brethren, to believe in Christ, and to be reconciled to God; for we know that **it is by grace that we are saved, after all we can do**.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne25-006"
+  },
+  {
+   "id": "moro10-009",
+   "scope": "BOM",
+   "head": "3 Ne. 12:48",
+   "anchor": {
+    "verse": 32,
+    "w1": 42,
+    "w2": 51,
+    "quote": "that by his grace ye may be perfect in Christ"
+   },
+   "reason": "the standard set in the sermon at Bountiful",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 12,
+     "verse": 48,
+     "w1": 2,
+     "w2": 20,
+     "quote": "I would that ye should be perfect even as I, or your Father who is in heaven is perfect.",
+     "verse_text": "Therefore I would that ye should be perfect even as I, or your Father who is in heaven is perfect.",
+     "markdown": "Therefore **I would that ye should be perfect even as I, or your Father who is in heaven is perfect**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne12-004"
+  },
+  {
+   "id": "moro10-010",
+   "scope": "BOM",
+   "head": "Alma 40:12",
+   "anchor": {
+    "verse": 34,
+    "w1": 8,
+    "w2": 17,
+    "quote": "I soon go to rest in the paradise of God"
+   },
+   "reason": "Alma on what that state is like",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 40,
+     "verse": 12,
+     "w1": 27,
+     "w2": 34,
+     "quote": "a state of rest, a state of peace,",
+     "verse_text": "And then shall it come to pass, that the spirits of those who are righteous are received into a state of happiness, which is called paradise, a state of rest, a state of peace, where they shall rest from all their troubles and from all care, and sorrow.",
+     "markdown": "And then shall it come to pass, that the spirits of those who are righteous are received into a state of happiness, which is called paradise, **a state of rest, a state of peace**, where they shall rest from all their troubles and from all care, and sorrow.",
+     "span": true
+    }
+   ],
+   "mirror": "al40-005"
+  },
+  {
+   "id": "moro10-011",
+   "scope": "BOM",
+   "head": "Jacob 6:13",
+   "anchor": {
+    "verse": 34,
+    "w1": 38,
+    "w2": 45,
+    "quote": "before the pleasing bar of the great Jehovah"
+   },
+   "reason": "Jacob closing his own record with the phrase",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 6,
+     "verse": 13,
+     "w1": 12,
+     "w2": 16,
+     "quote": "the pleasing bar of God,",
+     "verse_text": "Finally, I bid you farewell, until I shall meet you before the pleasing bar of God, which bar striketh the wicked with awful dread and fear. Amen.",
+     "markdown": "Finally, I bid you farewell, until I shall meet you before **the pleasing bar of God**, which bar striketh the wicked with awful dread and fear. Amen.",
+     "span": true
+    }
+   ],
+   "mirror": "jac06-006"
+  },
+  {
+   "id": "moro10-012",
+   "scope": "SW",
+   "head": "1 Cor. 12:11",
+   "anchor": {
+    "verse": 17,
+    "w1": 12,
+    "w2": 21,
+    "quote": "they come unto every man severally, according as he will"
+   },
+   "reason": "the same adverb, of the same distribution",
+   "targets": [
+    {
+     "ref": "1 Cor.",
+     "chapter": 12,
+     "verse": 11,
+     "w1": 11,
+     "w2": 18,
+     "quote": "dividing to every man severally as he will.",
+     "verse_text": "But all these worketh that one and the selfsame Spirit, dividing to every man severally as he will.",
+     "markdown": "But all these worketh that one and the selfsame Spirit, **dividing to every man severally as he will**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "moro10-013",
+   "scope": "SW",
+   "head": "James 1:17",
+   "anchor": {
+    "verse": 18,
+    "w1": 12,
+    "w2": 18,
+    "quote": "that every good gift cometh of Christ"
+   },
+   "reason": "the same sentence, traced to the Father of lights",
+   "targets": [
+    {
+     "ref": "James",
+     "chapter": 1,
+     "verse": 17,
+     "w1": 1,
+     "w2": 10,
+     "quote": "Every good gift and every perfect gift is from above,",
+     "verse_text": "Every good gift and every perfect gift is from above, and cometh down from the Father of lights, with whom is no variableness, neither shadow of turning.",
+     "markdown": "**Every good gift and every perfect gift is from above**, and cometh down from the Father of lights, with whom is no variableness, neither shadow of turning.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 11,
+   "w2": 17,
+   "quote": "I write unto my brethren, the Lamanites",
+   "entries": [
+    "moro10-001"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 55,
+   "w2": 60,
+   "quote": "and ponder it in your hearts",
+   "entries": [
+    "moro10-004"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 9,
+   "w2": 19,
+   "quote": "ye deny not the gifts of God, for they are many",
+   "entries": [
+    "moro10-005"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 12,
+   "w2": 21,
+   "quote": "they come unto every man severally, according as he will",
+   "entries": [
+    "moro10-012"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 12,
+   "w2": 18,
+   "quote": "that every good gift cometh of Christ",
+   "entries": [
+    "moro10-013"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 18,
+   "w2": 27,
+   "quote": "if there must be hope there must also be charity",
+   "entries": [
+    "moro10-003"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 1,
+   "w2": 16,
+   "quote": "And except ye have charity ye can in nowise be saved in the kingdom of God",
+   "entries": [
+    "moro10-002"
+   ]
+  },
+  {
+   "verse": 31,
+   "w1": 4,
+   "w2": 9,
+   "quote": "arise from the dust, O Jerusalem",
+   "entries": [
+    "moro10-006"
+   ]
+  },
+  {
+   "verse": 31,
+   "w1": 22,
+   "w2": 29,
+   "quote": "strengthen thy stakes and enlarge thy borders forever",
+   "entries": [
+    "moro10-007"
+   ]
+  },
+  {
+   "verse": 32,
+   "w1": 35,
+   "w2": 41,
+   "quote": "then is his grace sufficient for you",
+   "entries": [
+    "moro10-008"
+   ]
+  },
+  {
+   "verse": 32,
+   "w1": 42,
+   "w2": 51,
+   "quote": "that by his grace ye may be perfect in Christ",
+   "entries": [
+    "moro10-009"
+   ]
+  },
+  {
+   "verse": 34,
+   "w1": 8,
+   "w2": 17,
+   "quote": "I soon go to rest in the paradise of God",
+   "entries": [
+    "moro10-010"
+   ]
+  },
+  {
+   "verse": 34,
+   "w1": 38,
+   "w2": 45,
+   "quote": "before the pleasing bar of the great Jehovah",
+   "entries": [
+    "moro10-011"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "b1019c3de865e710"
+ }
+}

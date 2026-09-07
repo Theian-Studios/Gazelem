@@ -1,0 +1,837 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Mormon",
+  "book_slug": "mormon",
+  "chapter": 6,
+  "volume_order": "12",
+  "speakers": [
+   "Mormon"
+  ],
+  "audience": "The reader; the fallen addressed directly from verse 17",
+  "location": "The land and hill Cumorah",
+  "date": "AD 384 to 385",
+  "unit": "Cumorah (Mormon 6)",
+  "principles": [
+   "A battlefield chosen by request",
+   "A record hidden before the fight",
+   "A roll call of the dead by ten thousands"
+  ],
+  "connections": 14,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The battle is arranged by letter",
+   "text": "Verses 2 and 3 have Mormon write to the Lamanite king and receive the ground he asked for."
+  },
+  {
+   "n": 2,
+   "title": "The place is described",
+   "text": "Verse 4 says the land of Cumorah had many waters, rivers, and fountains. Mosiah 8:8 has an earlier search party cross a land of many waters covered with bones and ruins, and Ether 9:3 has Omer pass the place where the Nephites were destroyed. Three passages circle the same ground from three centuries.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 8:8",
+     "start": 73,
+     "end": 83,
+     "book": "Mosiah",
+     "chapter": 8,
+     "verse_start": 8,
+     "verse_end": 8
+    },
+    {
+     "kind": "scripture",
+     "text": "Ether 9:3",
+     "start": 174,
+     "end": 183,
+     "book": "Ether",
+     "chapter": 9,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "The records are hidden first",
+   "text": "Verse 6 has him bury everything in the hill before the armies meet. 4 Nephi 1:48 had Ammaron hide the collection at three hundred and twenty years and Mormon 2:17 had Mormon retrieve it; this is the second burial of the same records in eighty years."
+  },
+  {
+   "n": 4,
+   "title": "He keeps back a few plates",
+   "text": "Verse 6 says he gave those to his son Moroni."
+  },
+  {
+   "n": 5,
+   "title": "He is wounded and passed over",
+   "text": "Verse 10 says they went by without ending his life. Mormon 8:3 has Moroni report that his father was killed afterward, so the survival here bought only the time it took to finish the record."
+  },
+  {
+   "n": 6,
+   "title": "The dead are counted in units",
+   "text": "Verses 11 through 15 name twenty-three commanders with ten thousand each. Mormon 2:9 had Mormon meeting an army of forty-four thousand with forty-two thousand; the round ten thousands here are a unit of account rather than a headcount, and they are the largest numbers in the book."
+  },
+  {
+   "n": 7,
+   "title": "Three groups survive",
+   "text": "Verse 15 names the twenty-four survivors, a few who escaped into the south countries, and a few who deserted to the Lamanites. Mormon 8:2 reports the southern group hunted until they were all destroyed, and Moroni 9:24 had already predicted the deserters. Two of the three groups are accounted for elsewhere."
+  }
+ ],
+ "words": [
+  {
+   "term": "Cumorah",
+   "verse_label": "v. 2",
+   "text": "The hill and the land around it. The record uses the name nine times, eight of them in this chapter and one at Mormon 8:2. It appears nowhere in the King James Bible."
+  },
+  {
+   "term": "Fountains",
+   "verse_label": "v. 4",
+   "text": "Springs, sources of water. Treated at 1 Nephi 11:25. The record uses the word once, here, and the King James Bible fifteen times. Verse 4 uses it in the description of the land."
+  },
+  {
+   "term": "Terror",
+   "verse_label": "v. 8",
+   "text": "Overwhelming fear. It appears eight times in the record, and the King James Bible twenty-nine. Verse 8 says every soul was filled with it."
+  },
+  {
+   "term": "Ax",
+   "verse_label": "v. 9",
+   "text": "A cutting tool, here a weapon. The record uses the word four times and the King James Bible not at all in this spelling. Verse 9 lists it among sword, bow, and arrow."
+  },
+  {
+   "term": "Molder",
+   "verse_label": "v. 15",
+   "text": "To decay, to crumble away. This form turns up once, here, with none in the King James Bible. Verse 21 uses the related form of bodies in corruption."
+  },
+  {
+   "term": "Anguish",
+   "verse_label": "v. 16",
+   "text": "Severe mental pain. Treated at Alma 38:8. The record uses the word eleven times and the King James Bible seventeen.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 38:8",
+     "start": 31,
+     "end": 40,
+     "book": "Alma",
+     "chapter": 38,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
+  },
+  {
+   "term": "Incorruptible",
+   "verse_label": "v. 21",
+   "text": "Not subject to decay. Its count is twice, here and at 2 Nephi 9:13, in this book, while the King James Bible four times. Verse 21 sets it against bodies moldering in corruption."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "I, Mormon, wrote an epistle unto the king of the Lamanites",
+   "verse_label": "v. 2",
+   "text": "The last battle begins with correspondence. Verse 3 says the request was granted."
+  },
+  {
+   "term": "In a land of many waters, rivers, and fountains",
+   "verse_label": "v. 4",
+   "text": "The only description of the place. Verse 4 adds that they hoped for an advantage there."
+  },
+  {
+   "term": "Knowing it to be the last struggle of my people",
+   "verse_label": "v. 6",
+   "text": "He states what he expected before it happened. Everything in verse 6 follows from that knowledge."
+  },
+  {
+   "term": "Save it were these few plates which I gave unto my son Moroni",
+   "verse_label": "v. 6",
+   "text": "The exception that produces the rest of the book. One handoff between father and son."
+  },
+  {
+   "term": "With that awful fear of death which fills the breasts of all the wicked",
+   "verse_label": "v. 7",
+   "text": "The waiting described from the inside. Verse 8 adds terror at the numbers."
+  },
+  {
+   "term": "I fell wounded in the midst; and they passed by me",
+   "verse_label": "v. 10",
+   "text": "Survival by being overlooked. The verse gives no reason beyond the fact."
+  },
+  {
+   "term": "The ten thousand of my people who were hewn down, being led in the front by me",
+   "verse_label": "v. 11",
+   "text": "He counts his own command first. The list that follows is twenty-three more."
+  },
+  {
+   "term": "Their flesh, and bones, and blood lay upon the face of the earth",
+   "verse_label": "v. 15",
+   "text": "The field described without figure. Verse 15 ends with the return to mother earth."
+  },
+  {
+   "term": "O ye fair ones, how could ye have departed from the ways of the Lord",
+   "verse_label": "v. 17",
+   "text": "The lament begins. The address is to people who cannot hear it."
+  },
+  {
+   "term": "Ye are gone, and my sorrows cannot bring your return",
+   "verse_label": "v. 20",
+   "text": "The limit of grief, stated plainly. Nothing in the lament changes the outcome."
+  },
+  {
+   "term": "The Eternal Father of heaven, knoweth your state",
+   "verse_label": "v. 22",
+   "text": "The last sentence of the chapter. Judgment is handed over rather than pronounced."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 2–3",
+   "start": 2,
+   "end": 3,
+   "title": "A battlefield chosen by correspondence with the enemy",
+   "text": "The record reports the final campaign beginning with a letter: \"I, Mormon, wrote an epistle unto the king of the Lamanites, and desired of him that he would grant unto us that we might gather together our people unto the land of Cumorah.\" Verse 3 records the request granted in one line. The site of the last battle is negotiated, not seized, and the record supplies no terms, no messenger, and no reply text, only the request and the assent."
+  },
+  {
+   "label": "v. 5–6",
+   "start": 5,
+   "end": 6,
+   "title": "The provenance of the book stated inside the narrative",
+   "text": "The record breaks the account of the muster to explain where the volume in the reader's hands came from: \"therefore I made this record out of the plates of Nephi, and hid up in the hill Cumorah all the records which had been entrusted to me by the hand of the Lord, save it were these few plates which I gave unto my son Moroni.\" Three collections are distinguished in one sentence, the source, the buried archive, and the excerpt handed on. The date is fixed at verse 5, \"three hundred and eighty and four years,\" so the record dates its own compilation to the year of the battle it is describing."
+  },
+  {
+   "label": "v. 10–14",
+   "start": 10,
+   "end": 14,
+   "title": "A casualty roll counted in units of ten thousand",
+   "text": "The record lists commanders one at a time, each with the same figure attached: Mormon's own ten thousand at verse 10, Moroni's at verse 12, Gidgiddonah's at verse 13, and then Lamah, Gilgal, Limhah, Jeneum, Cumenihah, Moronihah, Antionum, Shiblom, Shem, and Josh at verse 14. Thirteen named commands, and verse 15 adds \"ten more who did fall by the sword, with their ten thousand each.\" Twenty-three units of ten thousand comes to two hundred and thirty thousand. The record never states that total; it supplies the addends and leaves the sum to the reader."
+  },
+  {
+   "label": "v. 15",
+   "start": 15,
+   "end": 15,
+   "title": "Three exceptions itemized against the total",
+   "text": "Having counted the dead, the record counts who is not among them: \"those twenty and four who were with me, and also a few who had escaped into the south countries, and a few who had deserted over unto the Lamanites.\" Two of the three groups are left unnumbered. The desertion is recorded without comment or condemnation, in the same sentence as the survivors, which is the only mention of it in the chapter."
+  },
+  {
+   "label": "v. 17–19",
+   "start": 17,
+   "end": 19,
+   "title": "One adjective carrying a lament",
+   "text": "The record has the mourning turn on a single word, used four times in three verses: \"O ye fair ones\" twice in verse 17, then \"O ye fair sons and daughters\" and \"ye fair ones\" in verse 19. Between them, verse 18 states the condition that was not met, \"if ye had not done this, ye would not have fallen.\" The lament is built out of address rather than description, with seven vocatives in verse 19 alone, and it names no cause beyond the one clause at verse 18."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The end is negotiated in writing",
+   "text": "Verse 2 has him request the battlefield. The last stand is scheduled by mutual agreement."
+  },
+  {
+   "n": 2,
+   "title": "The book is saved before the people are lost",
+   "text": "Verse 6 comes before verse 7. The record is secured while there is still an army standing."
+  },
+  {
+   "n": 3,
+   "title": "One exception carries everything forward",
+   "text": "Verse 6 gives a few plates to Moroni. The rest of the Book of Mormon exists because of that clause."
+  },
+  {
+   "n": 4,
+   "title": "He describes fear without excusing it",
+   "text": "Verse 7 gives the dread to the wicked, and he is standing among them."
+  },
+  {
+   "n": 5,
+   "title": "The dead are counted, not estimated",
+   "text": "Verses 11 through 15 name commanders and repeat the same number. The scale is delivered by repetition."
+  },
+  {
+   "n": 6,
+   "title": "He addresses people who cannot answer",
+   "text": "Verses 17 through 20 are spoken to the dead. The chapter records a lament rather than a report."
+  },
+  {
+   "n": 7,
+   "title": "The lament admits its own uselessness",
+   "text": "Verse 20 says his sorrows cannot bring their return. He says it and keeps grieving."
+  },
+  {
+   "n": 8,
+   "title": "He does not pronounce their sentence",
+   "text": "Verse 22 hands them to the Father's justice and mercy. The man who watched them die refuses to say where they end."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Ask the other side for the terms you need",
+    "verse_label": "v. 2–3",
+    "text": "Mormon wrote to the king of the Lamanites asking for time to gather his people at Cumorah, and the request was granted. Even at the end, a plain ask made to an opponent can be answered."
+   },
+   {
+    "title": "Secure what must survive before the crisis",
+    "verse_label": "v. 6",
+    "text": "He buried the records while the army was still forming up. Deciding early is the whole of it."
+   },
+   {
+    "title": "Keep back the small thing you can hand on",
+    "verse_label": "v. 6",
+    "text": "A few plates went to his son. Small deliberate handoffs outlast large collapses."
+   },
+   {
+    "title": "Count the loss by name",
+    "verse_label": "v. 14",
+    "text": "He listed commanders one after another. Naming is how grief stays honest about its size."
+   },
+   {
+    "title": "Say what was refused, not only what was lost",
+    "verse_label": "v. 17",
+    "text": "The lament is that they rejected a Jesus who stood with open arms to receive them. Grief gets clearer when it can name what was on offer."
+   },
+   {
+    "title": "Grieve without claiming to fix it",
+    "verse_label": "v. 20",
+    "text": "He says his sorrows cannot bring their return and grieves anyway. Sorrow does not have to be useful."
+   },
+   {
+    "title": "Add a horizon to the mourning",
+    "verse_label": "v. 21",
+    "text": "After five verses of lament Mormon writes that the day soon cometh when mortality puts on immortality. He does not stop mourning; he sets it against something longer, which is a different act from cheering himself up."
+   },
+   {
+    "title": "Leave the verdict where it belongs",
+    "verse_label": "v. 22",
+    "text": "The closing sentence hands their state to the Father, who knows it and deals with them according to his justice and mercy. Mormon has more standing than anyone alive to pronounce on these people, and he declines to."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "What would I bury in a hill if I knew the end was coming?"
+   },
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "What fear have I been waiting in?"
+   },
+   {
+    "verse_label": "v. 10",
+    "start": 10,
+    "end": 10,
+    "text": "When was I passed over, and what did I do with it?"
+   },
+   {
+    "verse_label": "v. 15",
+    "start": 15,
+    "end": 15,
+    "text": "What in my life is quietly returning to the earth?"
+   },
+   {
+    "verse_label": "v. 17",
+    "start": 17,
+    "end": 17,
+    "text": "Whom would I address if they could not hear me?"
+   },
+   {
+    "verse_label": "v. 20",
+    "start": 20,
+    "end": 20,
+    "text": "What loss am I trying to sorrow my way out of?"
+   },
+   {
+    "verse_label": "v. 22",
+    "start": 22,
+    "end": 22,
+    "text": "Whose state am I judging that belongs to the Father?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "morm06-001",
+   "scope": "BOOK",
+   "head": "Morm. 1:4",
+   "anchor": {
+    "verse": 6,
+    "w1": 80,
+    "w2": 89,
+    "quote": "I made this record out of the plates of Nephi"
+   },
+   "reason": "the plates Ammaron told him to take",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 1,
+     "verse": 4,
+     "w1": 3,
+     "w2": 11,
+     "quote": "ye shall take the plates of Nephi unto yourself,",
+     "verse_text": "And behold, ye shall take the plates of Nephi unto yourself, and the remainder shall ye leave in the place where they are; and ye shall engrave on the plates of Nephi all the things that ye have observed concerning this people.",
+     "markdown": "And behold, **ye shall take the plates of Nephi unto yourself**, and the remainder shall ye leave in the place where they are; and ye shall engrave on the plates of Nephi all the things that ye have observed concerning this people.",
+     "span": true
+    }
+   ],
+   "mirror": "morm01-006"
+  },
+  {
+   "id": "morm06-002",
+   "scope": "BOOK",
+   "head": "Morm. 4:23",
+   "anchor": {
+    "verse": 6,
+    "w1": 91,
+    "w2": 105,
+    "quote": "hid up in the hill Cumorah all the records which had been entrusted to me"
+   },
+   "reason": "the records he had lifted from the hill Shim",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 4,
+     "verse": 23,
+     "w1": 16,
+     "w2": 29,
+     "quote": "I did go to the hill Shim, and did take up all the records",
+     "verse_text": "And now I, Mormon, seeing that the Lamanites were about to overthrow the land, therefore I did go to the hill Shim, and did take up all the records which Ammaron had hid up unto the Lord.",
+     "markdown": "And now I, Mormon, seeing that the Lamanites were about to overthrow the land, therefore **I did go to the hill Shim, and did take up all the records** which Ammaron had hid up unto the Lord.",
+     "span": true
+    }
+   ],
+   "mirror": "morm04-002"
+  },
+  {
+   "id": "morm06-003",
+   "scope": "BOOK",
+   "head": "Morm. 8:2",
+   "anchor": {
+    "verse": 11,
+    "w1": 49,
+    "w2": 55,
+    "quote": "from the top of the hill Cumorah"
+   },
+   "reason": "Moroni's account of what happened after",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 8,
+     "verse": 2,
+     "w1": 8,
+     "w2": 15,
+     "quote": "after the great and tremendous battle at Cumorah,",
+     "verse_text": "And now it came to pass that after the great and tremendous battle at Cumorah, behold, the Nephites who had escaped into the country southward were hunted by the Lamanites, until they were all destroyed.",
+     "markdown": "And now it came to pass that **after the great and tremendous battle at Cumorah**, behold, the Nephites who had escaped into the country southward were hunted by the Lamanites, until they were all destroyed.",
+     "span": true
+    }
+   ],
+   "mirror": "morm08-001"
+  },
+  {
+   "id": "morm06-014",
+   "scope": "BOOK",
+   "head": "Morm. 7:5",
+   "anchor": {
+    "verse": 17,
+    "w1": 20,
+    "w2": 34,
+    "quote": "how could ye have rejected that Jesus, who stood with open arms to receive you!"
+   },
+   "reason": "the call he makes to the living instead",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 7,
+     "verse": 5,
+     "w1": 13,
+     "w2": 20,
+     "quote": "and repent of all your sins and iniquities,",
+     "verse_text": "Know ye that ye must come to the knowledge of your fathers, and repent of all your sins and iniquities, and believe in Jesus Christ, that he is the Son of God, and that he was slain by the Jews, and by the power of the Father he hath risen again, whereby he hath gained the victory over the grave; and also in him is the sting of death swallowed up.",
+     "markdown": "Know ye that ye must come to the knowledge of your fathers, **and repent of all your sins and iniquities**, and believe in Jesus Christ, that he is the Son of God, and that he was slain by the Jews, and by the power of the Father he hath risen again, whereby he hath gained the victory over the grave; and also in him is the sting of death swallowed up.",
+     "span": true
+    }
+   ],
+   "mirror": "morm07-001"
+  },
+  {
+   "id": "morm06-004",
+   "scope": "BOM",
+   "head": "Alma 45:13",
+   "anchor": {
+    "verse": 17,
+    "w1": 5,
+    "w2": 15,
+    "quote": "how could ye have departed from the ways of the Lord"
+   },
+   "reason": "the prophecy of their end, made four centuries before",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 45,
+     "verse": 13,
+     "w1": 32,
+     "w2": 41,
+     "quote": "shall no more be numbered among the people of Nephi.",
+     "verse_text": "And when that great day cometh, behold, the time very soon cometh that those who are now, or the seed of those who are now numbered among the people of Nephi, shall no more be numbered among the people of Nephi.",
+     "markdown": "And when that great day cometh, behold, the time very soon cometh that those who are now, or the seed of those who are now numbered among the people of Nephi, **shall no more be numbered among the people of Nephi**.",
+     "span": true
+    }
+   ],
+   "mirror": "al45-005"
+  },
+  {
+   "id": "morm06-005",
+   "scope": "BOM",
+   "head": "Alma 28:11",
+   "anchor": {
+    "verse": 21,
+    "w1": 14,
+    "w2": 21,
+    "quote": "these bodies which are now moldering in corruption"
+   },
+   "reason": "the same word used of an earlier battlefield",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 28,
+     "verse": 11,
+     "w1": 20,
+     "w2": 28,
+     "quote": "moldering in heaps upon the face of the earth;",
+     "verse_text": "And the bodies of many thousands are laid low in the earth, while the bodies of many thousands are moldering in heaps upon the face of the earth; yea, and many thousands are mourning for the loss of their kindred, because they have reason to fear, according to the promises of the Lord, that they are consigned to a state of endless wo.",
+     "markdown": "And the bodies of many thousands are laid low in the earth, while the bodies of many thousands are **moldering in heaps upon the face of the earth**; yea, and many thousands are mourning for the loss of their kindred, because they have reason to fear, according to the promises of the Lord, that they are consigned to a state of endless wo.",
+     "span": true
+    }
+   ],
+   "mirror": "al28-004"
+  },
+  {
+   "id": "morm06-006",
+   "scope": "BOM",
+   "head": "2 Ne. 9:7",
+   "anchor": {
+    "verse": 15,
+    "w1": 90,
+    "w2": 99,
+    "quote": "and to crumble and to return to their mother earth"
+   },
+   "reason": "the same phrase for what the atonement reverses",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 9,
+     "verse": 7,
+     "w1": 41,
+     "w2": 55,
+     "quote": "this flesh must have laid down to rot and to crumble to its mother earth,",
+     "verse_text": "Wherefore, it must needs be an infinite atonement—save it should be an infinite atonement this corruption could not put on incorruption. Wherefore, the first judgment which came upon man must needs have remained to an endless duration. And if so, this flesh must have laid down to rot and to crumble to its mother earth, to rise no more.",
+     "markdown": "Wherefore, it must needs be an infinite atonement—save it should be an infinite atonement this corruption could not put on incorruption. Wherefore, the first judgment which came upon man must needs have remained to an endless duration. And if so, **this flesh must have laid down to rot and to crumble to its mother earth**, to rise no more.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne09-023"
+  },
+  {
+   "id": "morm06-007",
+   "scope": "BOM",
+   "head": "3 Ne. 10:5",
+   "anchor": {
+    "verse": 17,
+    "w1": 20,
+    "w2": 34,
+    "quote": "how could ye have rejected that Jesus, who stood with open arms to receive you"
+   },
+   "reason": "the gathering he had offered these same people",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 10,
+     "verse": 5,
+     "w1": 3,
+     "w2": 15,
+     "quote": "how oft would I have gathered you as a hen gathereth her chickens",
+     "verse_text": "And again, how oft would I have gathered you as a hen gathereth her chickens under her wings, yea, O ye people of the house of Israel, who have fallen; yea, O ye people of the house of Israel, ye that dwell at Jerusalem, as ye that have fallen; yea, how oft would I have gathered you as a hen gathereth her chickens, and ye would not.",
+     "markdown": "And again, **how oft would I have gathered you as a hen gathereth her chickens** under her wings, yea, O ye people of the house of Israel, who have fallen; yea, O ye people of the house of Israel, ye that dwell at Jerusalem, as ye that have fallen; yea, how oft would I have gathered you as a hen gathereth her chickens, and ye would not.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne10-012"
+  },
+  {
+   "id": "morm06-011",
+   "scope": "BOM",
+   "head": "Ether 15:11",
+   "anchor": {
+    "verse": 6,
+    "w1": 91,
+    "w2": 105,
+    "quote": "hid up in the hill Cumorah all the records which had been entrusted to me"
+   },
+   "reason": "Moroni identifying the hill as his father's",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 15,
+     "verse": 11,
+     "w1": 20,
+     "w2": 36,
+     "quote": "it was that same hill where my father Mormon did hide up the records unto the Lord,",
+     "verse_text": "And it came to pass that the army of Coriantumr did pitch their tents by the hill Ramah; and it was that same hill where my father Mormon did hide up the records unto the Lord, which were sacred.",
+     "markdown": "And it came to pass that the army of Coriantumr did pitch their tents by the hill Ramah; and **it was that same hill where my father Mormon did hide up the records unto the Lord**, which were sacred.",
+     "span": true
+    }
+   ],
+   "mirror": "eth15-006"
+  },
+  {
+   "id": "morm06-012",
+   "scope": "BOM",
+   "head": "Moro. 9:24",
+   "anchor": {
+    "verse": 15,
+    "w1": 50,
+    "w2": 58,
+    "quote": "a few who had deserted over unto the Lamanites,"
+   },
+   "reason": "the desertions reported in a letter to his son",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 9,
+     "verse": 24,
+     "w1": 12,
+     "w2": 21,
+     "quote": "many of our brethren have deserted over unto the Lamanites,",
+     "verse_text": "And if it so be that they perish, we know that many of our brethren have deserted over unto the Lamanites, and many more will also desert over unto them; wherefore, write somewhat a few things, if thou art spared and I shall perish and not see thee; but I trust that I may see thee soon; for I have sacred records that I would deliver up unto thee.",
+     "markdown": "And if it so be that they perish, we know that **many of our brethren have deserted over unto the Lamanites**, and many more will also desert over unto them; wherefore, write somewhat a few things, if thou art spared and I shall perish and not see thee; but I trust that I may see thee soon; for I have sacred records that I would deliver up unto thee.",
+     "span": true
+    }
+   ],
+   "mirror": "moro09-006"
+  },
+  {
+   "id": "morm06-013",
+   "scope": "BOM",
+   "head": "Ether 11:6",
+   "anchor": {
+    "verse": 15,
+    "w1": 62,
+    "w2": 74,
+    "quote": "their flesh, and bones, and blood lay upon the face of the earth,"
+   },
+   "reason": "the prophets' words on Jaredite bones heaped up",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 11,
+     "verse": 6,
+     "w1": 52,
+     "w2": 65,
+     "quote": "their bones should become as heaps of earth upon the face of the land",
+     "verse_text": "And there was great calamity in all the land, for they had testified that a great curse should come upon the land, and also upon the people, and that there should be a great destruction among them, such an one as never had been upon the face of the earth, and their bones should become as heaps of earth upon the face of the land except they should repent of their wickedness.",
+     "markdown": "And there was great calamity in all the land, for they had testified that a great curse should come upon the land, and also upon the people, and that there should be a great destruction among them, such an one as never had been upon the face of the earth, and **their bones should become as heaps of earth upon the face of the land** except they should repent of their wickedness.",
+     "span": true
+    }
+   ],
+   "mirror": "eth11-007"
+  },
+  {
+   "id": "morm06-008",
+   "scope": "SW",
+   "head": "1 Cor. 15:53",
+   "anchor": {
+    "verse": 21,
+    "w1": 7,
+    "w2": 12,
+    "quote": "your mortal must put on immortality"
+   },
+   "reason": "the same clause in the same words",
+   "targets": [
+    {
+     "ref": "1 Cor.",
+     "chapter": 15,
+     "verse": 53,
+     "w1": 8,
+     "w2": 14,
+     "quote": "and this mortal must put on immortality.",
+     "verse_text": "For this corruptible must put on incorruption, and this mortal must put on immortality.",
+     "markdown": "For this corruptible must put on incorruption, **and this mortal must put on immortality**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "morm06-009",
+   "scope": "SW",
+   "head": "Matt. 23:37",
+   "anchor": {
+    "verse": 19,
+    "w1": 15,
+    "w2": 25,
+    "quote": "ye fair ones, how is it that ye could have fallen"
+   },
+   "reason": "the same lament over a city that would not come",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 23,
+     "verse": 37,
+     "w1": 17,
+     "w2": 25,
+     "quote": "how often would I have gathered thy children together,",
+     "verse_text": "O Jerusalem, Jerusalem, thou that killest the prophets, and stonest them which are sent unto thee, how often would I have gathered thy children together, even as a hen gathereth her chickens under her wings, and ye would not!",
+     "markdown": "O Jerusalem, Jerusalem, thou that killest the prophets, and stonest them which are sent unto thee, **how often would I have gathered thy children together**, even as a hen gathereth her chickens under her wings, and ye would not!",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "morm06-010",
+   "scope": "SW",
+   "head": "Ezek. 32:23",
+   "anchor": {
+    "verse": 8,
+    "w1": 13,
+    "w2": 26,
+    "quote": "and every soul was filled with terror because of the greatness of their numbers"
+   },
+   "reason": "the same word for the dread of a fallen host",
+   "targets": [
+    {
+     "ref": "Ezek.",
+     "chapter": 32,
+     "verse": 23,
+     "w1": 27,
+     "w2": 35,
+     "quote": "which caused terror in the land of the living.",
+     "verse_text": "Whose graves are set in the sides of the pit, and her company is round about her grave: all of them slain, fallen by the sword, which caused terror in the land of the living.",
+     "markdown": "Whose graves are set in the sides of the pit, and her company is round about her grave: all of them slain, fallen by the sword, **which caused terror in the land of the living**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 6,
+   "w1": 80,
+   "w2": 89,
+   "quote": "I made this record out of the plates of Nephi",
+   "entries": [
+    "morm06-001"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 91,
+   "w2": 105,
+   "quote": "hid up in the hill Cumorah all the records which had been entrusted to me",
+   "entries": [
+    "morm06-002",
+    "morm06-011"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 13,
+   "w2": 26,
+   "quote": "and every soul was filled with terror because of the greatness of their numbers",
+   "entries": [
+    "morm06-010"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 49,
+   "w2": 55,
+   "quote": "from the top of the hill Cumorah",
+   "entries": [
+    "morm06-003"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 50,
+   "w2": 58,
+   "quote": "a few who had deserted over unto the Lamanites,",
+   "entries": [
+    "morm06-012"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 62,
+   "w2": 74,
+   "quote": "their flesh, and bones, and blood lay upon the face of the earth,",
+   "entries": [
+    "morm06-013"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 90,
+   "w2": 99,
+   "quote": "and to crumble and to return to their mother earth",
+   "entries": [
+    "morm06-006"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 5,
+   "w2": 15,
+   "quote": "how could ye have departed from the ways of the Lord",
+   "entries": [
+    "morm06-004"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 20,
+   "w2": 34,
+   "quote": "how could ye have rejected that Jesus, who stood with open arms to receive you!",
+   "entries": [
+    "morm06-014",
+    "morm06-007"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 15,
+   "w2": 25,
+   "quote": "ye fair ones, how is it that ye could have fallen",
+   "entries": [
+    "morm06-009"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 7,
+   "w2": 12,
+   "quote": "your mortal must put on immortality",
+   "entries": [
+    "morm06-008"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 14,
+   "w2": 21,
+   "quote": "these bodies which are now moldering in corruption",
+   "entries": [
+    "morm06-005"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "ad145ef5caf11a19"
+ }
+}

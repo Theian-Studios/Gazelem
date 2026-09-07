@@ -1,0 +1,776 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Ether",
+  "book_slug": "ether",
+  "chapter": 12,
+  "volume_order": "13",
+  "speakers": [
+   "Moroni",
+   "Ether",
+   "The Lord"
+  ],
+  "audience": "The Gentiles, and the reader",
+  "location": "Not stated",
+  "date": "Ether's ministry under Coriantumr; Moroni writing after AD 400",
+  "unit": "Ether's preaching and Moroni on faith (Ether 12)",
+  "principles": [
+   "A witness that comes after the trial",
+   "A list of names offered as proof",
+   "Weakness described as something handed out on purpose"
+  ],
+  "connections": 11,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Ether preached under the last king",
+   "text": "Verse 1 puts his days in the reign of Coriantumr. Ether 11:23 makes him the son of Coriantor, who dwelt in captivity all his days, and Ether 13:13 has him cast out and living in the cavity of a rock while he watched the destruction he had predicted.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 11:23",
+     "start": 50,
+     "end": 61,
+     "book": "Ether",
+     "chapter": 11,
+     "verse_start": 23,
+     "verse_end": 23
+    },
+    {
+     "kind": "scripture",
+     "text": "Ether 13:13",
+     "start": 135,
+     "end": 146,
+     "book": "Ether",
+     "chapter": 13,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "He preached from dawn to sunset",
+   "text": "Verse 3 gives the hours, which is the only working detail the record supplies about how any Jaredite prophet went about it."
+  },
+  {
+   "n": 3,
+   "title": "Moroni takes the chapter over at verse 6",
+   "text": "Everything from there to verse 41 is his own comment rather than the Jaredite record. Ether 4 and Ether 5 are his earlier interruptions, so three of the fifteen chapters of Ether are Moroni speaking in his own person."
+  },
+  {
+   "n": 4,
+   "title": "The four proofs are all Nephite and all elsewhere in the record",
+   "text": "Verses 13 through 15 and 17 point to Alma and Amulek at Ammonihah (Alma 14:27), Nephi and Lehi in the prison (Helaman 5:44), Ammon and his brethren among the Lamanites, and the three disciples (3 Nephi 28:21 and 22). Moroni argues about faith from the book he has just finished abridging.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 14:27",
+     "start": 67,
+     "end": 77,
+     "book": "Alma",
+     "chapter": 14,
+     "verse_start": 27,
+     "verse_end": 27
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "The triad is worked again in the next book",
+   "text": "Verses 28 through 34 set faith, hope and charity together, and Moroni 7:40 to 48 works the same three at length in his father's words. What Moroni states here in his own person he later hands to Mormon to say."
+  },
+  {
+   "n": 6,
+   "title": "The weakness he names is a writing problem",
+   "text": "Verses 23 to 25 say the Gentiles will mock because of the awkwardness of their hands in writing. 2 Nephi 33:1 has Nephi saying he is not mighty in writing as in speaking, and Mormon 9:33 says they would have written in Hebrew had the plates allowed it. Three writers across a thousand years apologize for the same limitation."
+  },
+  {
+   "n": 7,
+   "title": "The mountain has a name used nowhere else",
+   "text": "Verse 30 calls it Zerin. The word occurs once in scripture, and the record gives no location for it and never mentions it again."
+  }
+ ],
+ "words": [
+  {
+   "term": "Restrained",
+   "verse_label": "v. 2",
+   "text": "Held back or kept in. It appears once in the record, here, and eight times in the King James Bible. Verse 2 says the Spirit in him made it impossible."
+  },
+  {
+   "term": "Anchor",
+   "verse_label": "v. 4",
+   "text": "What holds a vessel against drift. It appears twice in the record, here and at Mormon 5:18, and once in the King James Bible, at Hebrews 6:19."
+  },
+  {
+   "term": "Partakers",
+   "verse_label": "v. 8",
+   "text": "Those who share in something given. It appears six times in the record, twice in this chapter, and twenty-two times in the King James Bible."
+  },
+  {
+   "term": "Awkwardness",
+   "verse_label": "v. 24",
+   "text": "Clumsiness in handling a thing. The word appears once in the record, here, and not at all in the King James Bible. Verse 24 applies it to hands."
+  },
+  {
+   "term": "Stumble",
+   "verse_label": "v. 25",
+   "text": "To trip in the course of going forward. Treated at 1 Nephi 13:29. It appears seven times in the record and nineteen in the King James Bible."
+  },
+  {
+   "term": "Mansions",
+   "verse_label": "v. 32",
+   "text": "Dwelling places in a larger house. The record uses the word four times, three of them in this chapter, and the King James Bible once, at John 14:2.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "John 14:2",
+     "start": 137,
+     "end": 146,
+     "book": "John",
+     "chapter": 14,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
+  },
+  {
+   "term": "Talent",
+   "verse_label": "v. 35",
+   "text": "A weight of money, and so a thing entrusted. The record uses the word once, here, and the King James Bible fourteen times."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "He could not be restrained because of the Spirit of the Lord which was in him",
+   "verse_label": "v. 2",
+   "text": "The reason Ether preached against a hostile people. The verse puts the pressure inside him."
+  },
+  {
+   "term": "Maketh an anchor to the souls of men",
+   "verse_label": "v. 4",
+   "text": "What hope does, in one image. Hebrews 6:19 uses the same figure."
+  },
+  {
+   "term": "Ye receive no witness until after the trial of your faith",
+   "verse_label": "v. 6",
+   "text": "The order set for the whole chapter. Verses 7, 12, 17, and 18 repeat it."
+  },
+  {
+   "term": "If there be no faith among the children of men God can do no miracle among them",
+   "verse_label": "v. 12",
+   "text": "The rule stated at its strongest. Verse 12 puts the condition on the people."
+  },
+  {
+   "term": "Truly saw with their eyes the things which they had beheld with an eye of faith",
+   "verse_label": "v. 19",
+   "text": "The description of those who could not be kept from within the veil. Sight follows sight of another kind."
+  },
+  {
+   "term": "Because of the awkwardness of our hands",
+   "verse_label": "v. 24",
+   "text": "Moroni's account of the trouble with writing. The complaint is physical."
+  },
+  {
+   "term": "We behold our weakness, and stumble because of the placing of our words",
+   "verse_label": "v. 25",
+   "text": "What happens when he tries to write what he can say. Verse 25 says the words themselves are powerful and great."
+  },
+  {
+   "term": "Fools mock, but they shall mourn",
+   "verse_label": "v. 26",
+   "text": "The Lord's first sentence in reply. Five words settle the fear of being laughed at."
+  },
+  {
+   "term": "I give unto men weakness that they may be humble",
+   "verse_label": "v. 27",
+   "text": "Weakness reassigned as something handed out. Verse 27 makes humility the purpose."
+  },
+  {
+   "term": "If they have not charity it mattereth not unto thee, thou hast been faithful",
+   "verse_label": "v. 37",
+   "text": "The release given to Moroni at the end. The Gentiles' response is taken off him."
+  },
+  {
+   "term": "My garments are not spotted with your blood",
+   "verse_label": "v. 38",
+   "text": "The claim he expects to be verified at the judgment. He states it as what they will know then."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–5",
+   "start": 1,
+   "end": 5,
+   "title": "Ether preaches",
+   "text": "Ether's days fell in the days of Coriantumr, who was king over all the land. Ether was a prophet of the Lord and came forth in that reign to prophesy, since he could not be restrained because of the Spirit of the Lord in him. He cried from the morning until the going down of the sun, exhorting the people to believe in God unto repentance so they would not be destroyed, and saying that by faith all things are fulfilled. Whoever believes in God may with surety hope for a better world, a place at the right hand of God, and that hope comes of faith and makes an anchor to the souls of men, holding them sure and steadfast, abounding in good works and led to glorify God. Ether prophesied great and marvelous things to the people, which they did not believe, since they saw them not."
+  },
+  {
+   "label": "v. 6–12",
+   "start": 6,
+   "end": 12,
+   "title": "Faith comes first",
+   "text": "Moroni breaks in to speak of these things. He would show the world that faith is things hoped for and not seen, so no one should dispute for want of seeing, since no witness comes until after the trial of faith. It was by faith that Christ showed himself to their fathers after he rose from the dead, and he did not show himself until after they had faith in him, so the verse concludes that some had faith, since he showed himself not to the world. Because of the faith of men he has shown himself to the world, glorified the name of the Father, and prepared a way for others to be partakers of the heavenly gift and to hope for what they have not seen. The reader may have that hope and that gift on the same condition. It was by faith that those of old were called after the holy order of God, and by faith the law of Moses was given, and in the gift of his Son God prepared a more excellent way, fulfilled by faith. Where there is no faith God can do no miracle, and so he showed not himself until after their faith."
+  },
+  {
+   "label": "v. 13–19",
+   "start": 13,
+   "end": 19,
+   "title": "The names",
+   "text": "It was the faith of Alma and Amulek that caused the prison to tumble to the earth. It was the faith of Nephi and Lehi that wrought the change on the Lamanites, so they were baptized with fire and with the Holy Ghost. It was the faith of Ammon and his brethren that wrought so great a miracle among the Lamanites. All who wrought miracles wrought them by faith, both before Christ and after. By faith the three disciples obtained the promise that they should not taste of death, and they did not obtain it until after their faith. No one has ever wrought miracles until after their faith, so they first believed in the Son of God. Many whose faith was exceedingly strong, even before Christ came, were not kept back from the veil, and they truly saw with their eyes what they had beheld with an eye of faith, and they were glad."
+  },
+  {
+   "label": "v. 20–22",
+   "start": 20,
+   "end": 22,
+   "title": "The case in this record",
+   "text": "One of these was the brother of Jared. His faith in God was so great that when God put forth his finger he could not hide it from his sight, because of the word he had spoken to him, which word he had obtained by faith. After he beheld the finger, because of that promise obtained by faith, the Lord could not withhold anything from his sight, so he showed him all things, since he could no longer be kept without the veil. By faith Moroni's fathers obtained the promise that these things would come to their brethren through the Gentiles, and the Lord, even Jesus Christ, commanded him accordingly."
+  },
+  {
+   "label": "v. 23–28",
+   "start": 23,
+   "end": 28,
+   "title": "The exchange about weakness",
+   "text": "Moroni told the Lord the Gentiles would mock these things because of their weakness in writing, since the Lord had made them mighty in word by faith and not in writing, and had made all this people able to speak much because of the Holy Ghost given them. They could write only a little, because of the awkwardness of their hands, and had not been made mighty in writing like the brother of Jared, whose writing was mighty even as the Lord is, to the overpowering of a reader. Their words were made powerful and great beyond what they could write, so when they write they behold their weakness and stumble at the placing of their words, and he feared the Gentiles would mock. The Lord answered that fools mock but they shall mourn, and that his grace is sufficient for the meek, so they will take no advantage of that weakness. If men come to him he will show them their weakness. He gives men weakness so they may be humble, and his grace is sufficient for all who humble themselves before him, for if they humble themselves and have faith he will make weak things become strong to them. He will show the Gentiles their weakness and show them that faith, hope, and charity bring to him, the fountain of all righteousness."
+  },
+  {
+   "label": "v. 29–37",
+   "start": 29,
+   "end": 37,
+   "title": "Moroni's reply",
+   "text": "Hearing this, Moroni was comforted and said the Lord's righteous will be done, since he knows the Lord works with men according to their faith. The brother of Jared said to the mountain Zerin, Remove, and it was removed, and without faith it would not have moved, so the Lord works after men have faith. In the same way he manifested himself to his disciples, showing himself in great power after they had faith and spoke in his name. Moroni remembers that the Lord has prepared a house for man among the mansions of his Father, in which man might have a more excellent hope, so man must hope or he cannot receive an inheritance there. He also remembers that the Lord loved the world even to laying down his life for it, that he might take it again to prepare a place for men. That love, he says, is charity, so without charity men cannot inherit that place. He knows from what the Lord has said that if the Gentiles have not charity, because of this weakness, the Lord will prove them and take away their talent and give it to those who have more abundantly. So he prayed that the Lord would give the Gentiles grace to have charity. The Lord answered that if they have not charity it matters not to him, since he has been faithful, and his garments would be made clean, and because he has seen his weakness he would be made strong, even to sitting down in the place prepared in the mansions of the Father."
+  },
+  {
+   "label": "v. 38–41",
+   "start": 38,
+   "end": 41,
+   "title": "Farewell",
+   "text": "Moroni bids farewell to the Gentiles and to the brethren he loves, until they meet before the judgment-seat of Christ, where all men will know his garments are not spotted with their blood. Then they will know that he has seen Jesus, that he talked with him face to face, and that he told him in plain humility, as one man tells another in his own language, concerning these things. He says he has written only a few of them, because of his weakness in writing, and commends the reader to seek this Jesus of whom the prophets and apostles have written, so the grace of God the Father, the Lord Jesus Christ, and the Holy Ghost that bears record of them may abide in them forever."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The chapter changes writers at verse 6",
+   "text": "Ether's preaching in verses 2 through 5 supplies the text Moroni then works on."
+  },
+  {
+   "n": 2,
+   "title": "One order is repeated five times",
+   "text": "Faith first and the witness after appears in verses 6, 7, 12, 17, and 18."
+  },
+  {
+   "n": 3,
+   "title": "The argument is made with names",
+   "text": "Verses 13 through 15 give Alma and Amulek, Nephi and Lehi, and Ammon and his brethren."
+  },
+  {
+   "n": 4,
+   "title": "The brother of Jared is the case inside this book",
+   "text": "Verse 20 says we have seen it in this record, and verses 20 and 21 walk through it."
+  },
+  {
+   "n": 5,
+   "title": "The complaint is about handwriting",
+   "text": "Verse 24 blames the awkwardness of their hands, in a chapter about the power of their speech."
+  },
+  {
+   "n": 6,
+   "title": "Weakness is reassigned",
+   "text": "Verse 27 has the Lord say he gives it, and gives it for a reason."
+  },
+  {
+   "n": 7,
+   "title": "Faith, hope, and charity arrive together and then separately",
+   "text": "Verse 28 names all three, and verses 30 through 34 take them one at a time."
+  },
+  {
+   "n": 8,
+   "title": "He says goodbye early",
+   "text": "Verse 38 is a farewell with Ether 13 through 15 still ahead."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Act before the confirmation comes",
+    "verse_label": "v. 6",
+    "text": "The order is stated once and then repeated at verses 7, 12, 17, and 18: faith first and the witness after. Five statements of one sequence. Whatever you are waiting to be sure about, the chapter's advice is to move first and expect the certainty behind you rather than in front."
+   },
+   {
+    "title": "Argue from cases, not from principle",
+    "verse_label": "v. 13–15",
+    "text": "Moroni proves the point by naming people: Alma and Amulek and the prison walls, Nephi and Lehi and the Lamanites, Ammon and his brethren. When you want to persuade somebody that a thing works, list the instances you can name rather than restating the rule."
+   },
+   {
+    "title": "Use the case inside your own record",
+    "verse_label": "v. 20–21",
+    "text": "Verse 20 says \"we have seen in this record\" and then walks through the brother of Jared. The strongest evidence available to him was in the book he was already carrying. Look for your example in what you already have before going looking for a better one."
+   },
+   {
+    "title": "Say the fear out loud before you ask for help with it",
+    "verse_label": "v. 23–25",
+    "text": "Moroni names the exact anxiety, that the Gentiles \"will mock at these things, because of our weakness in writing,\" and only then receives the answer. A worry you have not stated cannot be answered specifically."
+   },
+   {
+    "title": "Expect the weakness to be part of the arrangement",
+    "verse_label": "v. 27",
+    "text": "The verse states three things in order: I give men weakness, that they may be humble, and my grace is sufficient. Weakness is presented as issued rather than as a failure of issue, and the humility is the mechanism, not the punishment."
+   },
+   {
+    "title": "Let the strength arrive at the weak place",
+    "verse_label": "v. 27",
+    "text": "The promise is precise about location, \"then will I make weak things become strong unto them.\" Not removed and not compensated for elsewhere. Name the thing you are worst at and watch that spot rather than the ones you are good at."
+   },
+   {
+    "title": "Pray for the people who might mock you",
+    "verse_label": "v. 36",
+    "text": "Moroni asked that the Gentiles be given grace to have charity, which is to say he prayed for the very disposition whose absence he feared. It is the practical form of not writing your critics off."
+   },
+   {
+    "title": "Finish your part whatever is done with it",
+    "verse_label": "v. 37",
+    "text": "The Lord tells him the Gentiles' charity is not his to carry, and then, \"thou hast been faithful; wherefore, thy garments shall be made clean.\" Do the work assigned and let the reception belong to somebody else."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "What have I been holding in that will not stay held?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What is my hope anchored to?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "What am I disputing because I have not seen it?"
+   },
+   {
+    "verse_label": "v. 19",
+    "start": 19,
+    "end": 19,
+    "text": "What have I beheld with an eye of faith?"
+   },
+   {
+    "verse_label": "v. 25",
+    "start": 25,
+    "end": 25,
+    "text": "Which weakness shows up most when I try to do good work?"
+   },
+   {
+    "verse_label": "v. 27",
+    "start": 27,
+    "end": 27,
+    "text": "Which of my weaknesses has actually made me humble?"
+   },
+   {
+    "verse_label": "v. 37",
+    "start": 37,
+    "end": 37,
+    "text": "Whose response am I carrying that was never mine?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "eth12-001",
+   "scope": "BOOK",
+   "head": "Ether 3:25",
+   "anchor": {
+    "verse": 21,
+    "w1": 27,
+    "w2": 35,
+    "quote": "the Lord could not withhold anything from his sight"
+   },
+   "reason": "the showing itself, reported in the account",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 3,
+     "verse": 25,
+     "w1": 9,
+     "w2": 24,
+     "quote": "he showed unto the brother of Jared all the inhabitants of the earth which had been,",
+     "verse_text": "And when the Lord had said these words, he showed unto the brother of Jared all the inhabitants of the earth which had been, and also all that would be; and he withheld them not from his sight, even unto the ends of the earth.",
+     "markdown": "And when the Lord had said these words, **he showed unto the brother of Jared all the inhabitants of the earth which had been**, and also all that would be; and he withheld them not from his sight, even unto the ends of the earth.",
+     "span": true
+    }
+   ],
+   "mirror": "eth03-003"
+  },
+  {
+   "id": "eth12-002",
+   "scope": "BOOK",
+   "head": "Ether 3:6",
+   "anchor": {
+    "verse": 20,
+    "w1": 27,
+    "w2": 45,
+    "quote": "when God put forth his finger he could not hide it from the sight of the brother of Jared"
+   },
+   "reason": "the moment the finger came through",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 3,
+     "verse": 6,
+     "w1": 17,
+     "w2": 32,
+     "quote": "the Lord stretched forth his hand and touched the stones one by one with his finger.",
+     "verse_text": "And it came to pass that when the brother of Jared had said these words, behold, the Lord stretched forth his hand and touched the stones one by one with his finger. And the veil was taken from off the eyes of the brother of Jared, and he saw the finger of the Lord; and it was as the finger of a man, like unto flesh and blood; and the brother of Jared fell down before the Lord, for he was struck with fear.",
+     "markdown": "And it came to pass that when the brother of Jared had said these words, behold, **the Lord stretched forth his hand and touched the stones one by one with his finger**. And the veil was taken from off the eyes of the brother of Jared, and he saw the finger of the Lord; and it was as the finger of a man, like unto flesh and blood; and the brother of Jared fell down before the Lord, for he was struck with fear.",
+     "span": true
+    }
+   ],
+   "mirror": "eth03-014"
+  },
+  {
+   "id": "eth12-003",
+   "scope": "BOOK",
+   "head": "Ether 11:20",
+   "anchor": {
+    "verse": 5,
+    "w1": 7,
+    "w2": 21,
+    "quote": "Ether did prophesy great and marvelous things unto the people, which they did not believe"
+   },
+   "reason": "the same phrase used of the prophets before him",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 11,
+     "verse": 20,
+     "w1": 13,
+     "w2": 18,
+     "quote": "prophesied of great and marvelous things,",
+     "verse_text": "And in the days of Coriantor there also came many prophets, and prophesied of great and marvelous things, and cried repentance unto the people, and except they should repent the Lord God would execute judgment against them to their utter destruction;",
+     "markdown": "And in the days of Coriantor there also came many prophets, and **prophesied of great and marvelous things**, and cried repentance unto the people, and except they should repent the Lord God would execute judgment against them to their utter destruction;",
+     "span": true
+    }
+   ],
+   "mirror": "eth11-011"
+  },
+  {
+   "id": "eth12-011",
+   "scope": "BOOK",
+   "head": "Ether 13:2",
+   "anchor": {
+    "verse": 5,
+    "w1": 22,
+    "w2": 26,
+    "quote": "because they saw them not."
+   },
+   "reason": "the rejection stated plainly in the next chapter",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 13,
+     "verse": 2,
+     "w1": 3,
+     "w2": 9,
+     "quote": "they rejected all the words of Ether;",
+     "verse_text": "For behold, they rejected all the words of Ether; for he truly told them of all things, from the beginning of man; and that after the waters had receded from off the face of this land it became a choice land above all other lands, a chosen land of the Lord; wherefore the Lord would have that all men should serve him who dwell upon the face thereof;",
+     "markdown": "For behold, **they rejected all the words of Ether**; for he truly told them of all things, from the beginning of man; and that after the waters had receded from off the face of this land it became a choice land above all other lands, a chosen land of the Lord; wherefore the Lord would have that all men should serve him who dwell upon the face thereof;",
+     "span": true
+    }
+   ],
+   "mirror": "eth13-001"
+  },
+  {
+   "id": "eth12-004",
+   "scope": "BOM",
+   "head": "Morm. 9:21",
+   "anchor": {
+    "verse": 6,
+    "w1": 36,
+    "w2": 46,
+    "quote": "ye receive no witness until after the trial of your faith"
+   },
+   "reason": "Moroni on what belief without doubt obtains",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 9,
+     "verse": 21,
+     "w1": 7,
+     "w2": 12,
+     "quote": "whoso believeth in Christ, doubting nothing,",
+     "verse_text": "Behold, I say unto you that whoso believeth in Christ, doubting nothing, whatsoever he shall ask the Father in the name of Christ it shall be granted him; and this promise is unto all, even unto the ends of the earth.",
+     "markdown": "Behold, I say unto you that **whoso believeth in Christ, doubting nothing**, whatsoever he shall ask the Father in the name of Christ it shall be granted him; and this promise is unto all, even unto the ends of the earth.",
+     "span": true
+    }
+   ],
+   "mirror": "morm09-007"
+  },
+  {
+   "id": "eth12-005",
+   "scope": "BOM",
+   "head": "3 Ne. 5:18",
+   "anchor": {
+    "verse": 25,
+    "w1": 17,
+    "w2": 32,
+    "quote": "when we write we behold our weakness, and stumble because of the placing of our words"
+   },
+   "reason": "Mormon making the same complaint about language",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 5,
+     "verse": 18,
+     "w1": 23,
+     "w2": 32,
+     "quote": "according to our language, we are not able to write.",
+     "verse_text": "And I know the record which I make to be a just and a true record; nevertheless there are many things which, according to our language, we are not able to write.",
+     "markdown": "And I know the record which I make to be a just and a true record; nevertheless there are many things which, **according to our language, we are not able to write**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne05-007"
+  },
+  {
+   "id": "eth12-006",
+   "scope": "BOM",
+   "head": "2 Ne. 33:4",
+   "anchor": {
+    "verse": 26,
+    "w1": 20,
+    "w2": 26,
+    "quote": "my grace is sufficient for the meek"
+   },
+   "reason": "Nephi trusting the same weakness to be made strong",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 33,
+     "verse": 4,
+     "w1": 19,
+     "w2": 32,
+     "quote": "the words which I have written in weakness will be made strong unto them;",
+     "verse_text": "And I know that the Lord God will consecrate my prayers for the gain of my people. And the words which I have written in weakness will be made strong unto them; for it persuadeth them to do good; it maketh known unto them of their fathers; and it speaketh of Jesus, and persuadeth them to believe in him, and to endure to the end, which is life eternal.",
+     "markdown": "And I know that the Lord God will consecrate my prayers for the gain of my people. And **the words which I have written in weakness will be made strong unto them**; for it persuadeth them to do good; it maketh known unto them of their fathers; and it speaketh of Jesus, and persuadeth them to believe in him, and to endure to the end, which is life eternal.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne33-004"
+  },
+  {
+   "id": "eth12-007",
+   "scope": "BOM",
+   "head": "Hel. 10:9",
+   "anchor": {
+    "verse": 30,
+    "w1": 2,
+    "w2": 11,
+    "quote": "the brother of Jared said unto the mountain Zerin, Remove"
+   },
+   "reason": "the same power granted to Nephi in words",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 10,
+     "verse": 9,
+     "w1": 2,
+     "w2": 19,
+     "quote": "if ye shall say unto this mountain, Be thou cast down and become smooth, it shall be done.",
+     "verse_text": "And if ye shall say unto this mountain, Be thou cast down and become smooth, it shall be done.",
+     "markdown": "And **if ye shall say unto this mountain, Be thou cast down and become smooth, it shall be done**.",
+     "span": true
+    }
+   ],
+   "mirror": "hel10-006"
+  },
+  {
+   "id": "eth12-008",
+   "scope": "SW",
+   "head": "Heb. 11:1",
+   "anchor": {
+    "verse": 6,
+    "w1": 18,
+    "w2": 27,
+    "quote": "faith is things which are hoped for and not seen"
+   },
+   "reason": "the same definition in almost the same words",
+   "targets": [
+    {
+     "ref": "Heb.",
+     "chapter": 11,
+     "verse": 1,
+     "w1": 2,
+     "w2": 15,
+     "quote": "faith is the substance of things hoped for, the evidence of things not seen.",
+     "verse_text": "Now faith is the substance of things hoped for, the evidence of things not seen.",
+     "markdown": "Now **faith is the substance of things hoped for, the evidence of things not seen**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "eth12-009",
+   "scope": "SW",
+   "head": "Heb. 6:19",
+   "anchor": {
+    "verse": 4,
+    "w1": 29,
+    "w2": 36,
+    "quote": "maketh an anchor to the souls of men"
+   },
+   "reason": "the same figure, and where it reaches",
+   "targets": [
+    {
+     "ref": "Heb.",
+     "chapter": 6,
+     "verse": 19,
+     "w1": 1,
+     "w2": 14,
+     "quote": "Which hope we have as an anchor of the soul, both sure and steadfast,",
+     "verse_text": "Which hope we have as an anchor of the soul, both sure and steadfast, and which entereth into that within the veil;",
+     "markdown": "**Which hope we have as an anchor of the soul, both sure and steadfast**, and which entereth into that within the veil;",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "eth12-010",
+   "scope": "SW",
+   "head": "John 14:2",
+   "anchor": {
+    "verse": 32,
+    "w1": 10,
+    "w2": 24,
+    "quote": "thou hast prepared a house for man, yea, even among the mansions of thy Father"
+   },
+   "reason": "the promise Moroni is quoting back",
+   "targets": [
+    {
+     "ref": "John",
+     "chapter": 14,
+     "verse": 2,
+     "w1": 1,
+     "w2": 7,
+     "quote": "In my Father's house are many mansions:",
+     "verse_text": "In my Father's house are many mansions: if it were not so, I would have told you. I go to prepare a place for you.",
+     "markdown": "**In my Father's house are many mansions**: if it were not so, I would have told you. I go to prepare a place for you.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 4,
+   "w1": 29,
+   "w2": 36,
+   "quote": "maketh an anchor to the souls of men",
+   "entries": [
+    "eth12-009"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 7,
+   "w2": 21,
+   "quote": "Ether did prophesy great and marvelous things unto the people, which they did not believe",
+   "entries": [
+    "eth12-003"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 22,
+   "w2": 26,
+   "quote": "because they saw them not.",
+   "entries": [
+    "eth12-011"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 18,
+   "w2": 27,
+   "quote": "faith is things which are hoped for and not seen",
+   "entries": [
+    "eth12-008"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 36,
+   "w2": 46,
+   "quote": "ye receive no witness until after the trial of your faith",
+   "entries": [
+    "eth12-004"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 27,
+   "w2": 45,
+   "quote": "when God put forth his finger he could not hide it from the sight of the brother of Jared",
+   "entries": [
+    "eth12-002"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 27,
+   "w2": 35,
+   "quote": "the Lord could not withhold anything from his sight",
+   "entries": [
+    "eth12-001"
+   ]
+  },
+  {
+   "verse": 25,
+   "w1": 17,
+   "w2": 32,
+   "quote": "when we write we behold our weakness, and stumble because of the placing of our words",
+   "entries": [
+    "eth12-005"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 20,
+   "w2": 26,
+   "quote": "my grace is sufficient for the meek",
+   "entries": [
+    "eth12-006"
+   ]
+  },
+  {
+   "verse": 30,
+   "w1": 2,
+   "w2": 11,
+   "quote": "the brother of Jared said unto the mountain Zerin, Remove",
+   "entries": [
+    "eth12-007"
+   ]
+  },
+  {
+   "verse": 32,
+   "w1": 10,
+   "w2": 24,
+   "quote": "thou hast prepared a house for man, yea, even among the mansions of thy Father",
+   "entries": [
+    "eth12-010"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "50d93420af8407f9"
+ }
+}

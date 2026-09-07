@@ -1,0 +1,631 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Moroni",
+  "book_slug": "moroni",
+  "chapter": 4,
+  "volume_order": "14",
+  "speakers": [
+   "Moroni",
+   "The elders and priests"
+  ],
+  "audience": "The reader",
+  "location": "Among the Nephite church",
+  "date": "The practice of the church, written out by Moroni after AD 400",
+  "unit": "The manner of administering the bread (Moroni 4)",
+  "principles": [
+   "A prayer kept word for word",
+   "A promise attached to three commitments",
+   "A congregation kneeling with the one who prays"
+  ],
+  "connections": 9,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "This chapter supplies words 3 Nephi omits",
+   "text": "3 Nephi 18:1 to 11 records the institution of the sacrament and gives no prayer at all. Verse 1 says the manner was administered according to the commandments of Christ, which is a claim about that occasion and the reason Moroni thinks the form is worth preserving."
+  },
+  {
+   "n": 2,
+   "title": "Two offices could administer it",
+   "text": "Verse 1 names elders and priests. Moroni 3:1 calls the disciples the elders of the church and Moroni 3:3 preserves the sentence used to ordain a priest, so both offices named here have their commissioning recorded a chapter earlier."
+  },
+  {
+   "n": 3,
+   "title": "Kneeling was the posture of the visit too",
+   "text": "Verse 2 has the one administering kneel down with the church. 3 Nephi 17:13 and 3 Nephi 19:6 both have the whole multitude commanded to kneel upon the ground before prayer, so the practice is carried forward rather than introduced."
+  },
+  {
+   "n": 4,
+   "title": "The wine prayer is kept as a separate document",
+   "text": "Moroni 5:2 gives its own form, shorter by two commitments and carrying a clause about the blood shed for them. Moroni recorded the two prayers as two chapters rather than one."
+  },
+  {
+   "n": 5,
+   "title": "Fixed forms of words are rare in this record",
+   "text": "Five passages in the whole volume give a form of words to be repeated: Alma baptizing Helam at Mosiah 18:13, the baptismal sentence at 3 Nephi 11:25, the ordination sentence at Moroni 3:3, and these two prayers. Everything else it preserves is something somebody said once.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 18:13",
+     "start": 95,
+     "end": 107,
+     "book": "Mosiah",
+     "chapter": 18,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Moroni's procedure chapters are all short",
+   "text": "Moroni 2 through 6 run three, four, three, two and nine verses. He is preserving practice at the smallest size that keeps it usable, at a point where Mormon 8:5 says he has no ore and no room."
+  }
+ ],
+ "words": [
+  {
+   "term": "Administering",
+   "verse_label": "v. 1",
+   "text": "Handing something out in an official capacity. The word appears three times in the record, twice here and in Moroni 5, and never in the King James Bible."
+  },
+  {
+   "term": "Elders",
+   "verse_label": "v. 1",
+   "text": "Older men set over a congregation. Treated at Moroni 3:1. Verse 1 pairs them with priests as the ones who may administer."
+  },
+  {
+   "term": "Kneel",
+   "verse_label": "v. 2",
+   "text": "To go down on the knees. The record uses the word five times and the King James Bible twice. Verse 2 has the one praying kneel with the church."
+  },
+  {
+   "term": "Sanctify",
+   "verse_label": "v. 3",
+   "text": "To set apart for a holy use. It appears five times, twice in these two chapters, in the record, and the King James Bible seventy."
+  },
+  {
+   "term": "Partake",
+   "verse_label": "v. 3",
+   "text": "To take a share of something. Treated at 1 Nephi 8:11. It appears twenty-seven times in the record and not at all in the King James Bible."
+  },
+  {
+   "term": "Remembrance",
+   "verse_label": "v. 3",
+   "text": "The act of calling back to mind. Treated at 3 Nephi 18:7. The record uses the word twenty-eight times and the King James Bible fifty-one."
+  },
+  {
+   "term": "Witness",
+   "verse_label": "v. 3",
+   "text": "To testify to a thing before another party. Treated at 2 Nephi 11:3. The word turns up thirty-nine times here, and the King James Bible a hundred and thirty-five. Verse 3 makes the eating itself the witness."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "The manner of their elders and priests administering the flesh and blood of Christ",
+   "verse_label": "v. 1",
+   "text": "Moroni's heading for the chapter. He is recording a practice, not arguing for one."
+  },
+  {
+   "term": "Wherefore we know the manner to be true",
+   "verse_label": "v. 1",
+   "text": "His warrant for writing it down. The command is what makes the form reliable."
+  },
+  {
+   "term": "They did kneel down with the church",
+   "verse_label": "v. 2",
+   "text": "The posture, and who shared it. The one praying is not standing over them."
+  },
+  {
+   "term": "O God, the Eternal Father, we ask thee in the name of thy Son",
+   "verse_label": "v. 3",
+   "text": "The opening of the prayer. Both the address and the authority are named before the request."
+  },
+  {
+   "term": "To bless and sanctify this bread to the souls of all those who partake of it",
+   "verse_label": "v. 3",
+   "text": "The request itself. The bread is set apart toward the people eating it."
+  },
+  {
+   "term": "That they may eat in remembrance of the body of thy Son",
+   "verse_label": "v. 3",
+   "text": "What the eating is for. Verse 3 gives a purpose before it gives a promise."
+  },
+  {
+   "term": "That they are willing to take upon them the name of thy Son",
+   "verse_label": "v. 3",
+   "text": "The first of three things witnessed. Willingness is what is asked for here."
+  },
+  {
+   "term": "And always remember him, and keep his commandments",
+   "verse_label": "v. 3",
+   "text": "The second and third. The three together are what the eating testifies."
+  },
+  {
+   "term": "Which he hath given them",
+   "verse_label": "v. 3",
+   "text": "A short clause narrowing the commandments in view. It points back to what has been received."
+  },
+  {
+   "term": "That they may always have his Spirit to be with them",
+   "verse_label": "v. 3",
+   "text": "The promise the prayer closes on. Always answers always in the preceding line."
+  },
+  {
+   "term": "Amen",
+   "verse_label": "v. 3",
+   "text": "The end of the quoted form. Moroni gives the prayer complete, down to its last word."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1",
+   "start": 1,
+   "end": 1,
+   "title": "The form certifies itself before it speaks",
+   "text": "The heading gives its warrant first: they administered it \"according to the commandments of Christ; wherefore we know the manner to be true.\" The verb is know, and the ground offered is a commandment rather than a memory. Forty-three words of certification precede a prayer of ninety-one — against twelve words of heading in Moroni 5."
+  },
+  {
+   "label": "v. 2",
+   "start": 2,
+   "end": 2,
+   "title": "The one posture in the ordinances",
+   "text": "\"They did kneel down with the church\" (v. 2). Neither the ordination form (Moro. 3) nor the wine (Moro. 5) gives a body at all, and kneeling is recorded in only five verses in the whole volume. The bread is the one form the record positions.",
+   "cites": [
+    {
+     "quote": "They did kneel down with the church",
+     "verse": 2,
+     "start": 0,
+     "end": 44,
+     "spans": [
+      {
+       "w1": 2,
+       "w2": 8,
+       "text": "They did kneel down with the church"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "v. 3",
+   "start": 3,
+   "end": 3,
+   "title": "Willing, and always",
+   "text": "The witness has three clauses, and the first asks for less than performance: that they \"are willing to take upon them the name of thy Son,\" then that they always remember him, then that they keep his commandments. The wine prayer has one clause (Moro. 5:2). Always is used twice here and once there. The record's longer prayer is the one that begins by asking only for willingness.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Moro. 5:2",
+     "start": 246,
+     "end": 255,
+     "book": "Moro",
+     "chapter": 5,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The chapter is a form, kept whole",
+   "text": "Verse 3 runs from the address to the amen without a summary anywhere."
+  },
+  {
+   "n": 2,
+   "title": "Two verses of frame carry one verse of prayer",
+   "text": "Verses 1 and 2 say who, how, and on what authority, and then get out of the way."
+  },
+  {
+   "n": 3,
+   "title": "The warrant is a command",
+   "text": "Verse 1 rests the reliability of the form on Christ having commanded it."
+  },
+  {
+   "n": 4,
+   "title": "The one praying kneels with the rest",
+   "text": "Verse 2 puts him in the same posture as the church."
+  },
+  {
+   "n": 5,
+   "title": "The bread is sanctified toward people",
+   "text": "Verse 3 directs the blessing to the souls of those who partake."
+  },
+  {
+   "n": 6,
+   "title": "Three things are witnessed",
+   "text": "Verse 3 asks willingness to take the name, then remembering, then keeping."
+  },
+  {
+   "n": 7,
+   "title": "The promise matches the commitment in wording",
+   "text": "Verse 3 has them always remember and him always with them."
+  },
+  {
+   "n": 8,
+   "title": "Moroni 5 will repeat almost all of it",
+   "text": "The wine prayer changes a few words and drops the willingness."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Keep the words that were given",
+    "verse_label": "v. 1",
+    "text": "Moroni recorded the form rather than the gist of it."
+   },
+   {
+    "title": "Kneel with the people you pray for",
+    "verse_label": "v. 2",
+    "text": "The one administering took the same posture as the church."
+   },
+   {
+    "title": "The blessing is asked for the souls",
+    "verse_label": "v. 3",
+    "text": "The request is that the bread be blessed and sanctified to the souls of all those who partake of it. The prayer is about what happens in the person, and the wording puts it there deliberately."
+   },
+   {
+    "title": "Be willing before you are able",
+    "verse_label": "v. 3",
+    "text": "The prayer asks for willingness to take the name."
+   },
+   {
+    "title": "Three commitments and one promise",
+    "verse_label": "v. 3",
+    "text": "Willing to take the name, always remember him, keep his commandments; and then, that they may always have his Spirit. Being able to state the structure of something you say every week changes how you say it."
+   },
+   {
+    "title": "Notice what the promise is attached to",
+    "verse_label": "v. 3",
+    "text": "The Spirit is promised alongside remembering and keeping."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What practice do I follow without knowing where it came from?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Do I put myself above or beside the people I serve?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What am I willing to take on that I have not yet done well?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "How do I actually remember him during a week?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "Which of his commandments have I received and set aside?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What would always having his Spirit change about today?"
+   },
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "Do I eat this in remembrance, or out of habit?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "moro04-001",
+   "scope": "BOOK",
+   "head": "Moro. 5:2",
+   "anchor": {
+    "verse": 3,
+    "w1": 17,
+    "w2": 32,
+    "quote": "to bless and sanctify this bread to the souls of all those who partake of it"
+   },
+   "reason": "the wine prayer, built on the same sentence",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 5,
+     "verse": 2,
+     "w1": 17,
+     "w2": 32,
+     "quote": "to bless and sanctify this wine to the souls of all those who drink of it,",
+     "verse_text": "O God, the Eternal Father, we ask thee, in the name of thy Son, Jesus Christ, to bless and sanctify this wine to the souls of all those who drink of it, that they may do it in remembrance of the blood of thy Son, which was shed for them; that they may witness unto thee, O God, the Eternal Father, that they do always remember him, that they may have his Spirit to be with them. Amen.",
+     "markdown": "O God, the Eternal Father, we ask thee, in the name of thy Son, Jesus Christ, **to bless and sanctify this wine to the souls of all those who drink of it**, that they may do it in remembrance of the blood of thy Son, which was shed for them; that they may witness unto thee, O God, the Eternal Father, that they do always remember him, that they may have his Spirit to be with them. Amen.",
+     "span": true
+    }
+   ],
+   "mirror": "moro05-001"
+  },
+  {
+   "id": "moro04-002",
+   "scope": "BOOK",
+   "head": "Moro. 6:6",
+   "anchor": {
+    "verse": 2,
+    "w1": 1,
+    "w2": 8,
+    "quote": "And they did kneel down with the church"
+   },
+   "reason": "how often the church met to do this",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 6,
+     "verse": 6,
+     "w1": 2,
+     "w2": 12,
+     "quote": "they did meet together oft to partake of bread and wine,",
+     "verse_text": "And they did meet together oft to partake of bread and wine, in remembrance of the Lord Jesus.",
+     "markdown": "And **they did meet together oft to partake of bread and wine**, in remembrance of the Lord Jesus.",
+     "span": true
+    }
+   ],
+   "mirror": "moro06-003"
+  },
+  {
+   "id": "moro04-009",
+   "scope": "BOOK",
+   "head": "Moro. 5:1",
+   "anchor": {
+    "verse": 2,
+    "w1": 1,
+    "w2": 8,
+    "quote": "And they did kneel down with the church,"
+   },
+   "reason": "the same opening for the wine",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 5,
+     "verse": 1,
+     "w1": 6,
+     "w2": 12,
+     "quote": "wine—Behold, they took the cup, and said:",
+     "verse_text": "The manner of administering the wine—Behold, they took the cup, and said:",
+     "markdown": "The manner of administering the **wine—Behold, they took the cup, and said**:",
+     "span": true
+    }
+   ],
+   "mirror": "moro05-002"
+  },
+  {
+   "id": "moro04-003",
+   "scope": "BOM",
+   "head": "3 Ne. 18:7",
+   "anchor": {
+    "verse": 3,
+    "w1": 33,
+    "w2": 44,
+    "quote": "that they may eat in remembrance of the body of thy Son"
+   },
+   "reason": "the Lord giving the reason himself",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 18,
+     "verse": 7,
+     "w1": 18,
+     "w2": 31,
+     "quote": "it shall be a testimony unto the Father that ye do always remember me.",
+     "verse_text": "And this shall ye do in remembrance of my body, which I have shown unto you. And it shall be a testimony unto the Father that ye do always remember me. And if ye do always remember me ye shall have my Spirit to be with you.",
+     "markdown": "And this shall ye do in remembrance of my body, which I have shown unto you. And **it shall be a testimony unto the Father that ye do always remember me**. And if ye do always remember me ye shall have my Spirit to be with you.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne18-006"
+  },
+  {
+   "id": "moro04-004",
+   "scope": "BOM",
+   "head": "3 Ne. 18:11",
+   "anchor": {
+    "verse": 3,
+    "w1": 80,
+    "w2": 90,
+    "quote": "that they may always have his Spirit to be with them"
+   },
+   "reason": "the same promise made at the first supper",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 18,
+     "verse": 11,
+     "w1": 53,
+     "w2": 61,
+     "quote": "ye shall have my Spirit to be with you.",
+     "verse_text": "And this shall ye always do to those who repent and are baptized in my name; and ye shall do it in remembrance of my blood, which I have shed for you, that ye may witness unto the Father that ye do always remember me. And if ye do always remember me ye shall have my Spirit to be with you.",
+     "markdown": "And this shall ye always do to those who repent and are baptized in my name; and ye shall do it in remembrance of my blood, which I have shed for you, that ye may witness unto the Father that ye do always remember me. And if ye do always remember me **ye shall have my Spirit to be with you**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne18-014"
+  },
+  {
+   "id": "moro04-005",
+   "scope": "BOM",
+   "head": "Mosiah 18:10",
+   "anchor": {
+    "verse": 3,
+    "w1": 54,
+    "w2": 66,
+    "quote": "that they are willing to take upon them the name of thy Son"
+   },
+   "reason": "the covenant Alma put to the people at the water",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 18,
+     "verse": 10,
+     "w1": 26,
+     "w2": 39,
+     "quote": "as a witness before him that ye have entered into a covenant with him,",
+     "verse_text": "Now I say unto you, if this be the desire of your hearts, what have you against being baptized in the name of the Lord, as a witness before him that ye have entered into a covenant with him, that ye will serve him and keep his commandments, that he may pour out his Spirit more abundantly upon you?",
+     "markdown": "Now I say unto you, if this be the desire of your hearts, what have you against being baptized in the name of the Lord, **as a witness before him that ye have entered into a covenant with him**, that ye will serve him and keep his commandments, that he may pour out his Spirit more abundantly upon you?",
+     "span": true
+    }
+   ],
+   "mirror": "mos18-029"
+  },
+  {
+   "id": "moro04-006",
+   "scope": "BOM",
+   "head": "Mosiah 5:8",
+   "anchor": {
+    "verse": 3,
+    "w1": 67,
+    "w2": 79,
+    "quote": "and always remember him, and keep his commandments which he hath given them"
+   },
+   "reason": "Benjamin on taking the name and keeping it",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 5,
+     "verse": 8,
+     "w1": 34,
+     "w2": 42,
+     "quote": "ye should take upon you the name of Christ,",
+     "verse_text": "And under this head ye are made free, and there is no other head whereby ye can be made free. There is no other name given whereby salvation cometh; therefore, I would that ye should take upon you the name of Christ, all you that have entered into the covenant with God that ye should be obedient unto the end of your lives.",
+     "markdown": "And under this head ye are made free, and there is no other head whereby ye can be made free. There is no other name given whereby salvation cometh; therefore, I would that **ye should take upon you the name of Christ**, all you that have entered into the covenant with God that ye should be obedient unto the end of your lives.",
+     "span": true
+    }
+   ],
+   "mirror": "mos05-017"
+  },
+  {
+   "id": "moro04-007",
+   "scope": "SW",
+   "head": "Luke 22:19",
+   "anchor": {
+    "verse": 3,
+    "w1": 33,
+    "w2": 44,
+    "quote": "that they may eat in remembrance of the body of thy Son"
+   },
+   "reason": "the words spoken over the bread at the supper",
+   "targets": [
+    {
+     "ref": "Luke",
+     "chapter": 22,
+     "verse": 19,
+     "w1": 25,
+     "w2": 30,
+     "quote": "this do in remembrance of me.",
+     "verse_text": "And he took bread, and gave thanks, and brake it, and gave unto them, saying, This is my body which is given for you: this do in remembrance of me.",
+     "markdown": "And he took bread, and gave thanks, and brake it, and gave unto them, saying, This is my body which is given for you: **this do in remembrance of me**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "moro04-008",
+   "scope": "SW",
+   "head": "1 Cor. 11:24",
+   "anchor": {
+    "verse": 3,
+    "w1": 17,
+    "w2": 32,
+    "quote": "to bless and sanctify this bread to the souls of all those who partake of it"
+   },
+   "reason": "Paul passing on the same form to a church",
+   "targets": [
+    {
+     "ref": "1 Cor.",
+     "chapter": 11,
+     "verse": 24,
+     "w1": 2,
+     "w2": 9,
+     "quote": "when he had given thanks, he brake it,",
+     "verse_text": "And when he had given thanks, he brake it, and said, Take, eat: this is my body, which is broken for you: this do in remembrance of me.",
+     "markdown": "And **when he had given thanks, he brake it**, and said, Take, eat: this is my body, which is broken for you: this do in remembrance of me.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 1,
+   "w2": 8,
+   "quote": "And they did kneel down with the church",
+   "entries": [
+    "moro04-002",
+    "moro04-009"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 17,
+   "w2": 32,
+   "quote": "to bless and sanctify this bread to the souls of all those who partake of it",
+   "entries": [
+    "moro04-001",
+    "moro04-008"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 33,
+   "w2": 44,
+   "quote": "that they may eat in remembrance of the body of thy Son",
+   "entries": [
+    "moro04-003",
+    "moro04-007"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 54,
+   "w2": 66,
+   "quote": "that they are willing to take upon them the name of thy Son",
+   "entries": [
+    "moro04-005"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 67,
+   "w2": 79,
+   "quote": "and always remember him, and keep his commandments which he hath given them",
+   "entries": [
+    "moro04-006"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 80,
+   "w2": 90,
+   "quote": "that they may always have his Spirit to be with them",
+   "entries": [
+    "moro04-004"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "95dc4aedea5f6a19"
+ }
+}

@@ -1,0 +1,816 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Mormon",
+  "book_slug": "mormon",
+  "chapter": 9,
+  "volume_order": "12",
+  "speakers": [
+   "Moroni"
+  ],
+  "audience": "Those who do not believe in Christ, then those who deny revelation",
+  "location": "Unstated",
+  "date": "After AD 400",
+  "unit": "Moroni to the unbelieving (Mormon 9)",
+  "principles": [
+   "An argument that God does not change",
+   "A God of miracles defended by question",
+   "A writer explaining the language he had to use"
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The commission matches Mark",
+   "text": "Verses 22 through 25 give the words about going into all the world, preaching to every creature, and the signs that follow. Mark 16:15 to 18 carries the same commission almost clause for clause. Moroni attributes it to Christ speaking to the disciples who should tarry, in the hearing of the multitude in this land.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mark 16:15",
+     "start": 124,
+     "end": 134,
+     "book": "Mark",
+     "chapter": 16,
+     "verse_start": 15,
+     "verse_end": 15
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Two of the chapter's premises are quotations",
+   "text": "Verse 9 gives Hebrews 13:8 on Jesus Christ the same yesterday, today and forever, and James 1:17 on no variableness neither shadow of turning, which Moroni renders as changing. Verse 14 gives Revelation 22:11 on him that is filthy being filthy still.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "James 1:17",
+     "start": 86,
+     "end": 96,
+     "book": "James",
+     "chapter": 1,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "He names the script once for the whole record",
+   "text": "Verse 32 gives the name reformed Egyptian and says the characters had been altered over time to suit their manner of speech. 1 Nephi 1:2 had said the language consisted of the learning of the Jews and the language of the Egyptians; nine hundred years separate the two statements and nothing between them names the script."
+  },
+  {
+   "n": 4,
+   "title": "The reason they did not use Hebrew is a space calculation",
+   "text": "Verse 33 says the plates were not sufficiently large, and adds that the Hebrew had been altered too. This is the only place the record explains its own writing system as a decision forced by the medium."
+  },
+  {
+   "n": 5,
+   "title": "Interpretation was provided for in advance",
+   "text": "Verse 34 says none other people knows their language, so means have been prepared for it. Mosiah 8:13 has a man who can translate records of ancient date, Mosiah 28:13 names the two stones in the rims of a bow, and Ether 3:23 has those stones sealed up with the Jaredite writing.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 8:13",
+     "start": 90,
+     "end": 101,
+     "book": "Mosiah",
+     "chapter": 8,
+     "verse_start": 13,
+     "verse_end": 13
+    },
+    {
+     "kind": "scripture",
+     "text": "Mosiah 28:13",
+     "start": 155,
+     "end": 167,
+     "book": "Mosiah",
+     "chapter": 28,
+     "verse_start": 13,
+     "verse_end": 13
+    },
+    {
+     "kind": "scripture",
+     "text": "Ether 3:23",
+     "start": 215,
+     "end": 225,
+     "book": "Ether",
+     "chapter": 3,
+     "verse_start": 23,
+     "verse_end": 23
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "The book ends here and Moroni keeps writing",
+   "text": "Verse 37 closes with a blessing on the reader and an Amen. Moroni 1:1 says he had supposed not to write more, and the books of Ether and Moroni follow anyway. This is the second of his endings that did not hold."
+  }
+ ],
+ "words": [
+  {
+   "term": "Racked",
+   "verse_label": "v. 3",
+   "text": "Stretched or tormented. Treated at Alma 36:12. The record uses the word seven times and the King James Bible not at all.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 36:12",
+     "start": 35,
+     "end": 45,
+     "book": "Alma",
+     "chapter": 36,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
+  },
+  {
+   "term": "Unquenchable",
+   "verse_label": "v. 5",
+   "text": "Impossible to put out. Treated at Jacob 6:10. It appears five times in the record, and the King James Bible twice.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 6:10",
+     "start": 34,
+     "end": 44,
+     "book": "Jacob",
+     "chapter": 6,
+     "verse_start": 10,
+     "verse_end": 10
+    }
+   ]
+  },
+  {
+   "term": "Variableness",
+   "verse_label": "v. 9",
+   "text": "Liability to change. The record uses the word once, here, and the King James Bible once, at James 1:17. Verse 9 pairs it with shadow of changing.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "James 1:17",
+     "start": 92,
+     "end": 102,
+     "book": "James",
+     "chapter": 1,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
+  },
+  {
+   "term": "Despisers",
+   "verse_label": "v. 26",
+   "text": "Those who hold something in contempt. The word turns up once, here, here, and the King James Bible twice. Verse 26 puts it at the end of a run of six questions."
+  },
+  {
+   "term": "Probation",
+   "verse_label": "v. 28",
+   "text": "A period of testing. Treated at 1 Nephi 10:21. The record uses the word nine times, with none in the King James Bible."
+  },
+  {
+   "term": "Reformed",
+   "verse_label": "v. 32",
+   "text": "Altered in form. Its count is once, here, of the Egyptian characters, in this book, while the King James Bible once, at Leviticus 26:23 in another sense."
+  },
+  {
+   "term": "Interpretation",
+   "verse_label": "v. 34",
+   "text": "The rendering of one language into another. The record uses the word seven times, twice in this chapter, and the King James Bible forty-six."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Do ye suppose that ye could be happy to dwell with that holy Being",
+   "verse_label": "v. 3",
+   "text": "The question the first argument turns on. Verse 4 answers it with a comparison to hell."
+  },
+  {
+   "term": "It will kindle a flame of unquenchable fire upon you",
+   "verse_label": "v. 5",
+   "text": "The effect of seeing God's glory alongside your own state. The fire is described as a response rather than a sentence."
+  },
+  {
+   "term": "He that denieth these things knoweth not the gospel of Christ",
+   "verse_label": "v. 8",
+   "text": "The charge against those who deny revelation. Verse 8 adds that the scriptures went unread by him, or were misread."
+  },
+  {
+   "term": "God is the same yesterday, today, and forever",
+   "verse_label": "v. 9",
+   "text": "The premise of the whole argument. James 1:17 supplies the second half about variableness.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "James 1:17",
+     "start": 35,
+     "end": 45,
+     "book": "James",
+     "chapter": 1,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
+  },
+  {
+   "term": "Then have ye imagined up unto yourselves a god who is not a God of miracles",
+   "verse_label": "v. 10",
+   "text": "The conclusion drawn from a changing god. Verse 11 answers with the God of Abraham, Isaac, and Jacob."
+  },
+  {
+   "term": "He that is filthy shall be filthy still",
+   "verse_label": "v. 14",
+   "text": "The judgment stated in four parallel clauses. 2 Nephi 9:16 had given the same verdict in the same words."
+  },
+  {
+   "term": "Has the end come yet? Behold I say unto you, Nay",
+   "verse_label": "v. 15",
+   "text": "The argument tested against the calendar. If the end has not come, the miracles have not ended either."
+  },
+  {
+   "term": "He changeth not; if so he would cease to be God",
+   "verse_label": "v. 19",
+   "text": "The claim at its sharpest. Unchangeableness is treated as part of what the word God means."
+  },
+  {
+   "term": "The reason why he ceaseth to do miracles among the children of men is because that they dwindle in unbelief",
+   "verse_label": "v. 20",
+   "text": "The cause located in people. Nothing has changed on God's side."
+  },
+  {
+   "term": "Behold, I speak unto you as though I spake from the dead",
+   "verse_label": "v. 30",
+   "text": "His position stated to the reader. He is certain the words will arrive."
+  },
+  {
+   "term": "If our plates had been sufficiently large we should have written in Hebrew",
+   "verse_label": "v. 33",
+   "text": "A practical explanation for the record's imperfections. Space on metal decided the language."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–6",
+   "start": 1,
+   "end": 6,
+   "title": "To the unbelieving",
+   "text": "Moroni speaks to those who do not believe in Christ. He asks whether they will believe in the day of their visitation, when the earth is rolled together as a scroll and the elements melt with fervent heat and they stand before the Lamb of God, and whether they will then say there is no God. He asks whether they suppose they could be happy dwelling with a holy Being while racked with a consciousness of guilt, and says they would be more miserable there than among the damned. When they are brought to see their nakedness before God, and his glory and the holiness of Christ, it will kindle a flame of unquenchable fire on them. He tells them to turn to the Lord and cry to the Father in the name of Jesus, that they may be found spotless, cleansed by the blood of the Lamb."
+  },
+  {
+   "label": "v. 7–11",
+   "start": 7,
+   "end": 11,
+   "title": "To those who deny revelation",
+   "text": "He speaks to those who say revelations are done away, that there are no revelations, prophecies, gifts, healing, or tongues. Whoever denies these does not know the gospel of Christ and has not read the scriptures, or does not understand them. God is the same yesterday, today, and forever, with no variableness or shadow of changing. A god who varies is not a God of miracles. He offers instead the God of Abraham, Isaac, and Jacob, who created the heavens and the earth and everything in them."
+  },
+  {
+   "label": "v. 12–14",
+   "start": 12,
+   "end": 14,
+   "title": "The chain",
+   "text": "The record builds the argument as a chain in which each link is named and then reused as the next premise: Adam, the fall, Jesus Christ, the redemption of man. Four terms, connected by \"because of\" three times inside verse 12. Verse 14 then closes with four parallel clauses of continuance, filthy, righteous, happy, unhappy. Revelation 22:11 supplies two of those pairs, \"he that is unjust, let him be unjust still... and he that is righteous, let him be righteous still\"; the record has used the same two at 2 Nephi 9:16, and here it adds happy and unhappy, which stand in neither place. A borrowed formula is extended by one pair, and the added pair is about state rather than about conduct."
+  },
+  {
+   "label": "v. 15–21",
+   "start": 15,
+   "end": 21,
+   "title": "The God of miracles",
+   "text": "He asks those who imagine a god who can do no miracles whether all these things have passed and whether the end has come, and answers no, and says God has not ceased to be a God of miracles. He asks who can comprehend the marvelous works of God, who would say it was no miracle that heaven and earth came by his word, and who would say Christ and the apostles did no mighty miracles. If miracles were wrought then, God has not stopped and remains unchangeable, since if he changed he would cease to be God. He ceases to do miracles among men because they dwindle in unbelief, depart from the right way, and do not know the God they should trust. Whoever believes in Christ, doubting nothing, will be granted whatever he asks the Father in Christ's name, and the promise reaches the ends of the earth."
+  },
+  {
+   "label": "v. 22–25",
+   "start": 22,
+   "end": 25,
+   "title": "The commission",
+   "text": "Jesus said to the disciples who should tarry, and to all his disciples in the hearing of the multitude, to go into all the world and preach the gospel to every creature. Whoever believes and is baptized will be saved, and whoever does not believe will be damned. Signs follow believers: casting out devils in his name, speaking with new tongues, taking up serpents, drinking deadly things without harm, and laying hands on the sick so they recover. Whoever believes in his name, doubting nothing, will have all his words confirmed to him."
+  },
+  {
+   "label": "v. 26–29",
+   "start": 26,
+   "end": 29,
+   "title": "The charge",
+   "text": "The record puts five questions in a row at verse 26, each opening with \"who,\" and then answers all of them with a single verdict, \"ye shall wonder and perish.\" What follows in verses 27 and 28 borrows two New Testament phrases without attribution: \"work out your own salvation with fear and trembling\" stands at Philippians 2:12, and \"ask not, that ye may consume it on your lusts\" reverses James 4:3, \"ye ask amiss, that ye may consume it upon your lusts.\" Verse 29 then names two ordinances and applies one word to both, \"see that ye are not baptized unworthily; see that ye partake not of the sacrament of Christ unworthily,\" which is the rule 3 Nephi 18:28–29 gave to the disciples about administering it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "James 4:3",
+     "start": 391,
+     "end": 400,
+     "book": "James",
+     "chapter": 4,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
+  },
+  {
+   "label": "v. 30–37",
+   "start": 30,
+   "end": 37,
+   "title": "The record and the blessing",
+   "text": "He speaks as though from the dead, knowing they will have his words. He asks that neither he nor his father nor those who wrote before him be condemned for imperfection, and that readers give thanks the imperfections were made manifest so they may be wiser. They wrote in reformed Egyptian, handed down and altered by them; had the plates been large enough they would have written Hebrew, though that too had been altered, and then the record would have had no imperfection. The Lord knows what they wrote and that no other people knows their language, so he has prepared means for its interpretation. These things are written to rid their garments of the blood of their brethren who have dwindled in unbelief. What they have desired for their brethren, their restoration to the knowledge of Christ, is according to the prayers of all the saints who dwelt in the land. He asks that those prayers be answered according to their faith, that God remember the covenant with the house of Israel, and that he bless them forever through faith in the name of Jesus Christ."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The argument is built out of questions",
+   "text": "Verses 2 through 5 and 15 through 19 ask rather than assert. The reader is made to answer."
+  },
+  {
+   "n": 2,
+   "title": "Hell is described as a comparison",
+   "text": "Verse 4 says dwelling with a holy God under guilt would be worse. The misery is located in the contrast."
+  },
+  {
+   "n": 3,
+   "title": "The case for miracles rests on one attribute",
+   "text": "Verse 9 gives sameness, and everything from verse 10 to 19 follows from it."
+  },
+  {
+   "n": 4,
+   "title": "He tests the claim against time",
+   "text": "Verse 15 asks whether the end has come. An unfinished calendar is offered as evidence."
+  },
+  {
+   "n": 5,
+   "title": "The failure is put on people",
+   "text": "Verse 20 says miracles cease because men dwindle in unbelief. God's side of the arrangement is unchanged."
+  },
+  {
+   "n": 6,
+   "title": "He quotes the same commission Mark gives",
+   "text": "Verses 22 through 24 match Mark 16:15-18 closely. The signs are listed in the same order.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mark 16:15-18",
+     "start": 27,
+     "end": 40,
+     "book": "Mark",
+     "chapter": 16,
+     "verse_start": 15,
+     "verse_end": 18
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "The record's flaws are explained by its materials",
+   "text": "Verse 33 ties the imperfections to plate size and to a language they had altered."
+  },
+  {
+   "n": 8,
+   "title": "The book ends in prayer",
+   "text": "Verse 37 asks that the covenant be remembered and closes with Amen. The last words of Mormon's book are a blessing on the people who destroyed his."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Ask whether you would be comfortable there",
+    "verse_label": "v. 3",
+    "text": "He puts the question of heaven as a question of company. Where you would be at ease is worth examining."
+   },
+   {
+    "title": "The instruction after the hard picture is turn",
+    "verse_label": "v. 6",
+    "text": "Four verses describe what standing before God would feel like, and then comes the sentence: O then ye unbelieving, turn ye unto the Lord. The chapter refuses to leave the reader inside the description, and it takes one verse to get out."
+   },
+   {
+    "title": "Read before denying",
+    "verse_label": "v. 8",
+    "text": "The charge is not knowing the gospel or not understanding the scriptures. Familiarity comes before verdict."
+   },
+   {
+    "title": "Check whether the God you argue against is the real one",
+    "verse_label": "v. 10",
+    "text": "He says a changing god is one they imagined. Some objections are to a figure nobody claimed."
+   },
+   {
+    "title": "Read the reason given for the absence",
+    "verse_label": "v. 20",
+    "text": "The stated reason miracles ceased runs to three causes, ending with not knowing the God in whom they should trust. All three causes sit on the human side, which makes it a situation somebody can act on."
+   },
+   {
+    "title": "Audit what you are asking for",
+    "verse_label": "v. 28",
+    "text": "The instruction is to ask not that you may consume it on your lusts, but with a firmness unshaken that you will serve the true and living God. Examining the motive behind a request is treated here as ordinary practice."
+   },
+   {
+    "title": "Give thanks for visible imperfections",
+    "verse_label": "v. 31",
+    "text": "He asks that readers learn to be wiser from the flaws. Someone else's shortfall, admitted, is usable."
+   },
+   {
+    "title": "Explain the constraint that shaped the work",
+    "verse_label": "v. 33",
+    "text": "Moroni writes that with plates large enough they would have used Hebrew, and the record would then have had no imperfection. Telling readers what limited the work lets them measure it against what was possible instead of what was ideal."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "Would I be happy in the company I say I want?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "What have I denied without reading?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "Do I treat God as consistent, or as moody?"
+   },
+   {
+    "verse_label": "v. 20",
+    "start": 20,
+    "end": 20,
+    "text": "Where has my own unbelief closed something?"
+   },
+   {
+    "verse_label": "v. 27",
+    "start": 27,
+    "end": 27,
+    "text": "What have I stopped asking for?"
+   },
+   {
+    "verse_label": "v. 28",
+    "start": 28,
+    "end": 28,
+    "text": "What uncleanness would stripping actually mean for me?"
+   },
+   {
+    "verse_label": "v. 31",
+    "start": 31,
+    "end": 31,
+    "text": "Whose admitted failure have I learned from?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "morm09-001",
+   "scope": "BOOK",
+   "head": "Morm. 8:12",
+   "anchor": {
+    "verse": 31,
+    "w1": 1,
+    "w2": 7,
+    "quote": "Condemn me not because of mine imperfection"
+   },
+   "reason": "the same request made when he took over the record",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 8,
+     "verse": 12,
+     "w1": 6,
+     "w2": 18,
+     "quote": "and shall not condemn it because of the imperfections which are in it,",
+     "verse_text": "And whoso receiveth this record, and shall not condemn it because of the imperfections which are in it, the same shall know of greater things than these. Behold, I am Moroni; and were it possible, I would make all things known unto you.",
+     "markdown": "And whoso receiveth this record, **and shall not condemn it because of the imperfections which are in it**, the same shall know of greater things than these. Behold, I am Moroni; and were it possible, I would make all things known unto you.",
+     "span": true
+    }
+   ],
+   "mirror": "morm08-002"
+  },
+  {
+   "id": "morm09-002",
+   "scope": "BOOK",
+   "head": "Morm. 8:26",
+   "anchor": {
+    "verse": 30,
+    "w1": 1,
+    "w2": 12,
+    "quote": "Behold, I speak unto you as though I spake from the dead"
+   },
+   "reason": "the coming forth he had already described that way",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 8,
+     "verse": 26,
+     "w1": 57,
+     "w2": 68,
+     "quote": "it shall come even as if one should speak from the dead.",
+     "verse_text": "And no one need say they shall not come, for they surely shall, for the Lord hath spoken it; for out of the earth shall they come, by the hand of the Lord, and none can stay it; and it shall come in a day when it shall be said that miracles are done away; and it shall come even as if one should speak from the dead.",
+     "markdown": "And no one need say they shall not come, for they surely shall, for the Lord hath spoken it; for out of the earth shall they come, by the hand of the Lord, and none can stay it; and it shall come in a day when it shall be said that miracles are done away; and **it shall come even as if one should speak from the dead**.",
+     "span": true
+    }
+   ],
+   "mirror": "morm08-011"
+  },
+  {
+   "id": "morm09-003",
+   "scope": "BOM",
+   "head": "3 Ne. 29:6",
+   "anchor": {
+    "verse": 7,
+    "w1": 20,
+    "w2": 34,
+    "quote": "that there are no revelations, nor prophecies, nor gifts, nor healing, nor speaking with tongues"
+   },
+   "reason": "Mormon answering the same denial with the same list",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 29,
+     "verse": 6,
+     "w1": 24,
+     "w2": 35,
+     "quote": "or by prophecy, or by gifts, or by tongues, or by healings,",
+     "verse_text": "Yea, wo unto him that shall deny the revelations of the Lord, and that shall say the Lord no longer worketh by revelation, or by prophecy, or by gifts, or by tongues, or by healings, or by the power of the Holy Ghost!",
+     "markdown": "Yea, wo unto him that shall deny the revelations of the Lord, and that shall say the Lord no longer worketh by revelation, **or by prophecy, or by gifts, or by tongues, or by healings**, or by the power of the Holy Ghost!",
+     "span": true
+    }
+   ],
+   "mirror": "3ne29-004"
+  },
+  {
+   "id": "morm09-004",
+   "scope": "BOM",
+   "head": "2 Ne. 9:16",
+   "anchor": {
+    "verse": 14,
+    "w1": 27,
+    "w2": 34,
+    "quote": "he that is righteous shall be righteous still"
+   },
+   "reason": "the same verdict given by Jacob at the record's start",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 9,
+     "verse": 16,
+     "w1": 25,
+     "w2": 32,
+     "quote": "they who are righteous shall be righteous still,",
+     "verse_text": "And assuredly, as the Lord liveth, for the Lord God hath spoken it, and it is his eternal word, which cannot pass away, that they who are righteous shall be righteous still, and they who are filthy shall be filthy still; wherefore, they who are filthy are the devil and his angels; and they shall go away into everlasting fire, prepared for them; and their torment is as a lake of fire and brimstone, whose flame ascendeth up forever and ever and has no end.",
+     "markdown": "And assuredly, as the Lord liveth, for the Lord God hath spoken it, and it is his eternal word, which cannot pass away, that **they who are righteous shall be righteous still**, and they who are filthy shall be filthy still; wherefore, they who are filthy are the devil and his angels; and they shall go away into everlasting fire, prepared for them; and their torment is as a lake of fire and brimstone, whose flame ascendeth up forever and ever and has no end.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne09-007"
+  },
+  {
+   "id": "morm09-005",
+   "scope": "BOM",
+   "head": "1 Ne. 1:2",
+   "anchor": {
+    "verse": 32,
+    "w1": 13,
+    "w2": 23,
+    "quote": "in the characters which are called among us the reformed Egyptian"
+   },
+   "reason": "the language Nephi named at the opening of the record",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 1,
+     "verse": 2,
+     "w1": 15,
+     "w2": 25,
+     "quote": "the learning of the Jews and the language of the Egyptians.",
+     "verse_text": "Yea, I make a record in the language of my father, which consists of the learning of the Jews and the language of the Egyptians.",
+     "markdown": "Yea, I make a record in the language of my father, which consists of **the learning of the Jews and the language of the Egyptians**.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne01-019"
+  },
+  {
+   "id": "morm09-006",
+   "scope": "BOM",
+   "head": "Mosiah 8:13",
+   "anchor": {
+    "verse": 34,
+    "w1": 29,
+    "w2": 37,
+    "quote": "therefore he hath prepared means for the interpretation thereof"
+   },
+   "reason": "the interpreters described to King Limhi",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 8,
+     "verse": 13,
+     "w1": 45,
+     "w2": 50,
+     "quote": "And the things are called interpreters,",
+     "verse_text": "Now Ammon said unto him: I can assuredly tell thee, O king, of a man that can translate the records; for he has wherewith that he can look, and translate all records that are of ancient date; and it is a gift from God. And the things are called interpreters, and no man can look in them except he be commanded, lest he should look for that he ought not and he should perish. And whosoever is commanded to look in them, the same is called seer.",
+     "markdown": "Now Ammon said unto him: I can assuredly tell thee, O king, of a man that can translate the records; for he has wherewith that he can look, and translate all records that are of ancient date; and it is a gift from God. **And the things are called interpreters**, and no man can look in them except he be commanded, lest he should look for that he ought not and he should perish. And whosoever is commanded to look in them, the same is called seer.",
+     "span": true
+    }
+   ],
+   "mirror": "mos08-018"
+  },
+  {
+   "id": "morm09-007",
+   "scope": "BOM",
+   "head": "Ether 12:6",
+   "anchor": {
+    "verse": 21,
+    "w1": 7,
+    "w2": 12,
+    "quote": "whoso believeth in Christ, doubting nothing"
+   },
+   "reason": "his own definition of faith, a book later",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 12,
+     "verse": 6,
+     "w1": 29,
+     "w2": 46,
+     "quote": "dispute not because ye see not, for ye receive no witness until after the trial of your faith.",
+     "verse_text": "And now, I, Moroni, would speak somewhat concerning these things; I would show unto the world that faith is things which are hoped for and not seen; wherefore, dispute not because ye see not, for ye receive no witness until after the trial of your faith.",
+     "markdown": "And now, I, Moroni, would speak somewhat concerning these things; I would show unto the world that faith is things which are hoped for and not seen; wherefore, **dispute not because ye see not, for ye receive no witness until after the trial of your faith**.",
+     "span": true
+    }
+   ],
+   "mirror": "eth12-004"
+  },
+  {
+   "id": "morm09-008",
+   "scope": "SW",
+   "head": "James 1:17",
+   "anchor": {
+    "verse": 9,
+    "w1": 15,
+    "w2": 25,
+    "quote": "and in him there is no variableness neither shadow of changing"
+   },
+   "reason": "the same two words in the same order",
+   "targets": [
+    {
+     "ref": "James",
+     "chapter": 1,
+     "verse": 17,
+     "w1": 19,
+     "w2": 27,
+     "quote": "with whom is no variableness, neither shadow of turning.",
+     "verse_text": "Every good gift and every perfect gift is from above, and cometh down from the Father of lights, with whom is no variableness, neither shadow of turning.",
+     "markdown": "Every good gift and every perfect gift is from above, and cometh down from the Father of lights, **with whom is no variableness, neither shadow of turning**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "morm09-009",
+   "scope": "SW",
+   "head": "Mark 16:15",
+   "anchor": {
+    "verse": 22,
+    "w1": 30,
+    "w2": 42,
+    "quote": "Go ye into all the world, and preach the gospel to every creature"
+   },
+   "reason": "the charge to preach, in the gospel's wording",
+   "targets": [
+    {
+     "ref": "Mark",
+     "chapter": 16,
+     "verse": 15,
+     "w1": 6,
+     "w2": 18,
+     "quote": "Go ye into all the world, and preach the gospel to every creature.",
+     "verse_text": "And he said unto them, Go ye into all the world, and preach the gospel to every creature.",
+     "markdown": "And he said unto them, **Go ye into all the world, and preach the gospel to every creature**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "morm09-010",
+   "scope": "SW",
+   "head": "Philip. 2:12",
+   "anchor": {
+    "verse": 27,
+    "w1": 55,
+    "w2": 66,
+    "quote": "and work out your own salvation with fear and trembling before him"
+   },
+   "reason": "the same charge Paul gave the Philippians",
+   "targets": [
+    {
+     "ref": "Philip.",
+     "chapter": 2,
+     "verse": 12,
+     "w1": 22,
+     "w2": 30,
+     "quote": "work out your own salvation with fear and trembling.",
+     "verse_text": "Wherefore, my beloved, as ye have always obeyed, not as in my presence only, but now much more in my absence, work out your own salvation with fear and trembling.",
+     "markdown": "Wherefore, my beloved, as ye have always obeyed, not as in my presence only, but now much more in my absence, **work out your own salvation with fear and trembling**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 7,
+   "w1": 20,
+   "w2": 34,
+   "quote": "that there are no revelations, nor prophecies, nor gifts, nor healing, nor speaking with tongues",
+   "entries": [
+    "morm09-003"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 15,
+   "w2": 25,
+   "quote": "and in him there is no variableness neither shadow of changing",
+   "entries": [
+    "morm09-008"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 27,
+   "w2": 34,
+   "quote": "he that is righteous shall be righteous still",
+   "entries": [
+    "morm09-004"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 7,
+   "w2": 12,
+   "quote": "whoso believeth in Christ, doubting nothing",
+   "entries": [
+    "morm09-007"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 30,
+   "w2": 42,
+   "quote": "Go ye into all the world, and preach the gospel to every creature",
+   "entries": [
+    "morm09-009"
+   ]
+  },
+  {
+   "verse": 27,
+   "w1": 55,
+   "w2": 66,
+   "quote": "and work out your own salvation with fear and trembling before him",
+   "entries": [
+    "morm09-010"
+   ]
+  },
+  {
+   "verse": 30,
+   "w1": 1,
+   "w2": 12,
+   "quote": "Behold, I speak unto you as though I spake from the dead",
+   "entries": [
+    "morm09-002"
+   ]
+  },
+  {
+   "verse": 31,
+   "w1": 1,
+   "w2": 7,
+   "quote": "Condemn me not because of mine imperfection",
+   "entries": [
+    "morm09-001"
+   ]
+  },
+  {
+   "verse": 32,
+   "w1": 13,
+   "w2": 23,
+   "quote": "in the characters which are called among us the reformed Egyptian",
+   "entries": [
+    "morm09-005"
+   ]
+  },
+  {
+   "verse": 34,
+   "w1": 29,
+   "w2": 37,
+   "quote": "therefore he hath prepared means for the interpretation thereof",
+   "entries": [
+    "morm09-006"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "db2a327bc5521ce4"
+ }
+}

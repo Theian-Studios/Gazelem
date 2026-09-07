@@ -14,7 +14,8 @@
   "unit": "The war chapters (Alma 43–63)",
   "principles": [
    "An offer refused on the ground of strength",
-   "Obedience performed with"
+   "Obedience performed with exactness",
+   "Preservation counted and ascribed"
   ],
   "connections": 9,
   "initial": true
@@ -28,7 +29,19 @@
   {
    "n": 2,
    "title": "The city falls without a fight",
-   "text": "Verse 4 says the people of Antiparah left and fled to other cities. The refusal in verse 2 turns out to have been correct."
+   "text": "Verse 4 says the people of Antiparah left and fled to their other cities. Alma 56:14 lists Antiparah among the four cities lost before Helaman arrived, so a city given up without terms in verse 2 comes back without a fight in verse 4.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 56:14",
+     "start": 74,
+     "end": 84,
+     "book": "Alma",
+     "chapter": 56,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
   },
   {
    "n": 3,
@@ -48,12 +61,36 @@
   {
    "n": 6,
    "title": "Helaman remembers what they told him",
-   "text": "Verse 21 has him recall the words about their mothers, in the middle of a battle report."
+   "text": "Verse 21 has Helaman recall the words about their mothers in the middle of a battle report. Alma 56:47 and 48 is where those words were spoken, one chapter back, and they are the only line of Nephite maternal teaching quoted anywhere in the volume.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 56:47",
+     "start": 92,
+     "end": 102,
+     "book": "Alma",
+     "chapter": 56,
+     "verse_start": 47,
+     "verse_end": 47
+    }
+   ]
   },
   {
    "n": 7,
    "title": "The count is exact and qualified",
-   "text": "Verse 25 gives two hundred fainted from loss of blood, none dead, and not one without many wounds."
+   "text": "Verse 25 gives two hundred fainted from loss of blood, none dead, and not one of the two thousand and sixty without many wounds. Alma 56:56 had reported the first engagement with not one soul fallen and no wounds mentioned, so the second battle is costed in a way the first was not.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 56:56",
+     "start": 129,
+     "end": 139,
+     "book": "Alma",
+     "chapter": 56,
+     "verse_start": 56,
+     "verse_end": 56
+    }
+   ]
   }
  ],
  "words": [
@@ -70,7 +107,7 @@
   {
    "term": "Exactness",
    "verse_label": "v. 21",
-   "text": "Precision in carrying something out. The word occurs once in scripture. Helaman uses it of how the young men obeyed every word of command, and he pairs it in the same verse with their faith."
+   "text": "Precision in carrying something out. The word appears once in all of scripture. Helaman uses it of how the young men obeyed every word of command, and he pairs it in the same verse with their faith."
   },
   {
    "term": "Dressed",
@@ -159,46 +196,46 @@
  ],
  "verses": [
   {
-   "label": "v. 1–5",
+   "label": "v. 1–2",
    "start": 1,
-   "end": 5,
-   "title": "Antiparah",
-   "text": "Ammoron offers the city for the prisoners. Helaman refuses, judging his force sufficient, and offers only a straight exchange. Ammoron refuses that. The Nephites prepare to attack, and the people of Antiparah abandon the city, which falls without a battle."
+   "end": 2,
+   "title": "Two letters, neither of them quoted",
+   "text": "The chapter opens on a diplomatic exchange and gives the substance of both letters without reproducing either: Ammoron offers to trade a city for prisoners, and the reply refuses on the ground that \"we should suppose ourselves unwise, and that we would only deliver up our prisoners on exchange.\" Three chapters earlier the volume printed a comparable exchange in full, at Alma 54, where both epistles run to nine and nine verses. Here the same kind of correspondence is compressed to two verses of reported content, and the difference is that this chapter is itself a letter, written by a commander who has other things to report."
   },
   {
-   "label": "v. 6–12",
-   "start": 6,
-   "end": 12,
-   "title": "Cumeni",
-   "text": "Six thousand men and provisions arrive, with sixty more sons of the Ammonites. They surround Cumeni by night and intercept its supply convoys until the Lamanites surrender the city. The prisoners are so numerous that they strain the guard and the food."
+   "label": "v. 16–17",
+   "start": 16,
+   "end": 17,
+   "title": "The narrator marks a hole in his own account",
+   "text": "Prisoners are sent away under guard and the escort returns the next morning, and the record says exactly why nothing was learned: \"we did not inquire of them concerning the prisoners; for behold, the Lamanites were upon us.\" Rather than narrating what happened on that road, the letter reports its own ignorance at the time it occurred, and leaves the gap open for thirteen verses. It is filled at verse 30, and by someone else."
   },
   {
-   "label": "v. 13–19",
-   "start": 13,
-   "end": 19,
-   "title": "The revolt",
-   "text": "The prisoners are sent to Zarahemla under escort. They rise against the escort on the way, and many are killed. The remaining Lamanite army attacks Cumeni, and the fighting is desperate. Helaman's little band fights most desperately of all."
+   "label": "v. 19–21",
+   "start": 19,
+   "end": 21,
+   "title": "The number, and the phrase that goes with it",
+   "text": "The band is counted twice in two verses, \"my little band of two thousand and sixty\" and \"those two thousand and sixty were firm and undaunted.\" Verse 21 then gives the description the chapter is remembered for: \"they did obey and observe to perform every word of command with exactness.\" The same verse attaches two more things to that obedience, faith, \"even according to their faith it was done unto them,\" and instruction, \"I did remember the words which they said unto me that their mothers had taught them.\""
   },
   {
-   "label": "v. 20–23",
-   "start": 20,
-   "end": 23,
-   "title": "The stand",
-   "text": "The rest of the army is about to give way, and the two thousand and sixty are firm and undaunted, obeying every word of command with exactness. Helaman remembers what they told him about their mothers. He credits them and the escort with the victory, and the city is held at great cost."
+   "label": "v. 25–26",
+   "start": 25,
+   "end": 26,
+   "title": "Two numbers set against each other",
+   "text": "The casualty report is given as an arithmetic contrast in consecutive verses. Among the young men, \"there were two hundred, out of my two thousand and sixty, who had fainted because of the loss of blood,\" and \"there was not one soul of them who did perish; yea, and neither was there one soul among them who had not received many wounds.\" Then the comparison, \"that they should be spared while there was a thousand of our brethren who were slain.\" Zero deaths in one force against a thousand in the other, with the wounded counted in both directions."
   },
   {
-   "label": "v. 24–27",
-   "start": 24,
+   "label": "v. 27",
+   "start": 27,
    "end": 27,
-   "title": "The count",
-   "text": "He orders the wounded taken from among the dead and their wounds dressed. Two hundred had fainted from loss of blood, and not one of them died, though none escaped many wounds. Their preservation astonishes the army, and Helaman ascribes it to God because of their faith in what they were taught."
+   "title": "The explanation, and it includes their age",
+   "text": "The commander offers a reason and puts three things in it: \"they are young, and their minds are firm, and they do put their trust in God continually.\" Youth is stated first, as part of the account rather than as a difficulty to be got around. Verse 26 has already located the source of the faith outside the men themselves, \"in that which they had been taught to believe,\" which sends the explanation back to the mothers named in verse 21."
   },
   {
-   "label": "v. 28–36",
-   "start": 28,
-   "end": 36,
-   "title": "The aftermath",
-   "text": "Gid reports what happened with the prisoners: the revolt, the killing, and the flight of the rest to join the Lamanite army. The Nephites hold Cumeni and Manti remains in Lamanite hands. Helaman's forces are too few to take it."
+   "label": "v. 30–35",
+   "start": 30,
+   "end": 35,
+   "title": "A report inside a letter inside an abridgement",
+   "text": "Verse 30 opens a third layer of quotation: \"these are the words which Gid said unto me.\" What follows is six verses in Gid's first person, telling what happened on the road the letter said it had not asked about. Gid's account is preserved in Helaman's letter, and Helaman's letter is preserved in Mormon's abridgement, so a reader is three removes from the events. The innermost voice ends on praise, \"blessed is the name of our God,\" and verse 36 returns to Helaman receiving it."
   }
  ],
  "chapter": [
@@ -251,9 +288,14 @@
     "text": "Helaman refused a trade for a city he thought he could take. Before accepting a costly deal, ask honestly whether you already have what it takes."
    },
    {
-    "title": "Dress the wounds first",
-    "verse_label": "v. 24",
-    "text": "Helaman's first order after the enemy fled was to find the wounded among the dead. When a crisis passes, attend to the people who are still hurt before anything else."
+    "title": "Build the readiness into the routine",
+    "verse_label": "v. 9",
+    "text": "Helaman's men camped around Cumeni for many nights, slept upon their swords, and kept guards. When a season of your life requires being ready, put the readiness into the arrangements so that it does not rest on anyone staying alert."
+   },
+   {
+    "title": "Write down that the decision was hard",
+    "verse_label": "v. 16",
+    "text": "Helaman calls it a very serious matter to determine concerning the prisoners, and only then reports what was resolved. Recording the difficulty of a call is what lets a later reader weigh the call instead of only the outcome."
    },
    {
     "title": "Do it with exactness",
@@ -264,6 +306,21 @@
     "title": "Count and then say where the credit goes",
     "verse_label": "v. 22",
     "text": "Helaman named two groups and left himself out. After something goes well, be specific about who did it."
+   },
+   {
+    "title": "Dress the wounds first",
+    "verse_label": "v. 24",
+    "text": "Helaman's first order after the enemy fled was to find the wounded among the dead. When a crisis passes, attend to the people who are still hurt before anything else."
+   },
+   {
+    "title": "Survived is not the same as unharmed",
+    "verse_label": "v. 25",
+    "text": "Two hundred of the two thousand and sixty had fainted from loss of blood, none of them died, and not one had escaped many wounds. When you count a group as having come through, ask separately what coming through cost each of them."
+   },
+   {
+    "title": "Let the person who was there tell it",
+    "verse_label": "v. 30",
+    "text": "Helaman hands the paragraph over and gives Gid's report in Gid's own words. When you write up something you did not witness, quote the witness rather than converting them into your summary."
    }
   ],
   "questions": [
@@ -348,7 +405,7 @@
     "w2": 53,
     "quote": "because of their exceeding faith in that which they had been taught to believe"
    },
-   "reason": "the teaching itself, as the young men gave it to Helaman",
+   "reason": "the teaching itself, as the young men gave it",
    "targets": [
     {
      "ref": "Alma",
@@ -362,7 +419,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al56-010"
   },
   {
    "id": "al57-003",
@@ -388,7 +445,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al55-010"
   },
   {
    "id": "al57-004",
@@ -400,7 +457,7 @@
     "w2": 45,
     "quote": "they were driven back to the city of Manti"
    },
-   "reason": "the city Helaman cannot take, and the decoy that finally does",
+   "reason": "the city Helaman cannot take, and the decoy that does",
    "targets": [
     {
      "ref": "Alma",
@@ -426,7 +483,7 @@
     "w2": 37,
     "quote": "caused that their wounds should be dressed"
    },
-   "reason": "the word in its other sense, of men dressed in thick clothing",
+   "reason": "the word in its other sense, of thick clothing",
    "targets": [
     {
      "ref": "Alma",
@@ -440,7 +497,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al43-015"
   },
   {
    "id": "al57-006",
@@ -452,7 +509,7 @@
     "w2": 15,
     "quote": "perform every word of command with exactness"
    },
-   "reason": "king Benjamin on what God requires and what follows from it",
+   "reason": "king Benjamin on what God requires and what follows",
    "targets": [
     {
      "ref": "Mosiah",
@@ -466,7 +523,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos02-025"
   },
   {
    "id": "al57-007",
@@ -478,7 +535,7 @@
     "w2": 39,
     "quote": "we do justly ascribe it to the miraculous power of God"
    },
-   "reason": "the word at its usual King James use, of greatness ascribed to God",
+   "reason": "the word at its usual King James use, of God",
    "targets": [
     {
      "ref": "Deut.",
@@ -631,7 +688,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "5400655e3290f459"
+  "at": "2026-09-07",
+  "source_sha256": "d8536da539bb468a"
  }
 }

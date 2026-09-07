@@ -15,9 +15,9 @@
   "principles": [
    "Naming a fault plainly and once",
    "Damage done to other people's belief",
-   ""
+   "Why the news comes before the event"
   ],
-  "connections": 9,
+  "connections": 10,
   "initial": true
  },
  "world_behind": [
@@ -83,7 +83,7 @@
   {
    "term": "Unpardonable",
    "verse_label": "v. 6",
-   "text": "Beyond forgiveness. The word occurs twice in this record and never in the King James Bible; the other use is Sherem in Jacob 7, fearing he has committed it. Alma defines it as denying the Holy Ghost after it has had place in you and while knowing that you deny it."
+   "text": "Beyond forgiveness. The word occurs twice in this record and never in the King James Bible; the other use is Sherem in Jacob 7, fearing he has committed it. Alma defines it as a denial of the Holy Ghost once it has taken hold in you, made in full knowledge."
   },
   {
    "term": "Harrow",
@@ -113,14 +113,38 @@
   {
    "term": "Glad tidings",
    "verse_label": "v. 15",
-   "text": "Good news announced. The record uses the phrase eleven times and the King James Bible four, including Paul on the feet of those who bring it. Alma uses it three times in five verses, and it is the ministry Corianton walked away from."
+   "text": "Good news announced. The record uses the phrase eleven times and the King James Bible four, including Paul on the feet of those who bring it (Rom. 10:15). Alma uses it three times in five verses, and it is the ministry Corianton walked away from.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Rom. 10:15",
+     "start": 142,
+     "end": 152,
+     "book": "Rom",
+     "chapter": 10,
+     "verse_start": 15,
+     "verse_end": 15
+    }
+   ]
   }
  ],
  "phrases": [
   {
    "term": "Have ye not observed the steadiness of thy brother",
    "verse_label": "v. 1",
-   "text": "Alma opens by pointing at Shiblon. He had praised the same quality to Shiblon's face one chapter earlier, and he now uses it as the measure for the son who is being corrected."
+   "text": "Alma opens by pointing at Shiblon. He had praised the same quality to Shiblon's face one chapter earlier (Alma 38:2), and he now uses it as the measure for the son who is being corrected.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 38:2",
+     "start": 106,
+     "end": 115,
+     "book": "Alma",
+     "chapter": 38,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
   },
   {
    "term": "Thou didst go on unto boasting in thy strength and thy wisdom",
@@ -150,7 +174,7 @@
   {
    "term": "Cross yourself in all these things",
    "verse_label": "v. 9",
-   "text": "The instruction, given twice in one verse. Alma asks for action against his son's own inclination, and pairs it with going no more after the lusts of the eyes."
+   "text": "The instruction, given twice in one verse. Alma asks for action against his son's own inclination, and pairs it with an end to chasing what the eye wants."
   },
   {
    "term": "Counsel with your elder brothers in your undertakings",
@@ -165,7 +189,7 @@
   {
    "term": "Return unto them, and acknowledge your faults and that wrong which ye have done",
    "verse_label": "v. 13",
-   "text": "Repentance is given a public step. Alma tells him to go back to the people he damaged and say what he did, which is more than turning to the Lord with all his mind and strength."
+   "text": "Repentance is given a public step. Alma tells him to go back to the people he damaged and say what he did, which is more than an inward turn to the Lord."
   },
   {
    "term": "Is not a soul at this time as precious unto God as a soul will be at the time of his coming?",
@@ -178,43 +202,43 @@
    "label": "v. 1–2",
    "start": 1,
    "end": 2,
-   "title": "The comparison",
-   "text": "Alma has more to say to this son than to the other, and asks whether he has observed Shiblon's steadiness, faithfulness, and diligence. Corianton did not heed his father's words among the Zoramites, and went on to boast in his own strength and wisdom."
+   "title": "A rebuke that begins by naming the standard",
+   "text": "The chapter opens by measuring one son against another and does it twice. Verse 1 asks \"have ye not observed the steadiness of thy brother, his faithfulness, and his diligence in keeping the commandments of God?\" Verse 2 draws the comparison directly: \"thou didst not give so much heed unto my words as did thy brother, among the people of the Zoramites.\" The previous chapter is the standard being applied, and the two chapters were spoken to two sons about the same mission. The rebuke's first move is to point at a document the reader has just finished."
   },
   {
-   "label": "v. 3–5",
+   "label": "v. 3–4",
    "start": 3,
-   "end": 5,
-   "title": "The desertion",
-   "text": "He forsook the ministry and went to Siron after the harlot Isabel. She drew many, and Alma says that is no excuse: he should have tended the ministry entrusted to him. These things are most abominable above all sins except two."
+   "end": 4,
+   "title": "The excuse stated before it is refused",
+   "text": "The charge is specific, and it comes with the mitigation attached: Corianton \"did go over into the land of Siron among the borders of the Lamanites, after the harlot Isabel,\" and then \"she did steal away the hearts of many; but this was no excuse for thee, my son.\" The concession is real and the record makes it in the father's own voice before dismissing it. Isabel is named once in the volume, in verse 3, and nothing else about her is reported anywhere."
   },
   {
-   "label": "v. 6–8",
-   "start": 6,
+   "label": "v. 5–6",
+   "start": 5,
+   "end": 6,
+   "title": "Offences ranked in the middle of a reprimand",
+   "text": "The rebuke stops to rank offences. The sin is \"most abominable above all sins save it be the shedding of innocent blood or denying the Holy Ghost,\" which names two exceptions and puts the son's conduct third. Verse 6 then defines the second exception carefully, \"if ye deny the Holy Ghost when it once has had place in you, and ye know that ye deny it,\" adding a condition of knowledge, and appends a fourth case about murder against the light. A father angry with a son gives four categories and their boundaries."
+  },
+  {
+   "label": "v. 7–8",
+   "start": 7,
    "end": 8,
-   "title": "The two exceptions",
-   "text": "Denying the Holy Ghost after it has had place in you, knowingly, is unpardonable, and murder against light and knowledge is not easily forgiven. Alma wishes his son were not guilty, says he raises it only for his good, and warns that the crimes cannot be hidden from God."
+   "title": "The speaker explains his own method",
+   "text": "Two verses interrupt the reproach to say why it is being made: \"I would not dwell upon your crimes, to harrow up your soul, if it were not for your good.\" Then the reason it cannot be dropped: \"ye cannot hide your crimes from God; and except ye repent they will stand as a testimony against you at the last day.\" The record preserves not just a rebuke but a justification for the rebuke's severity, addressed to the person receiving it."
   },
   {
-   "label": "v. 9–11",
-   "start": 9,
-   "end": 11,
-   "title": "What to do",
-   "text": "Repent, forsake the sins, go no more after the lusts of the eyes, cross yourself. Counsel with your elder brothers, since you are young and need to be nourished by them. Let nothing lead you back, and consider what your conduct cost the Zoramites."
-  },
-  {
-   "label": "v. 12–14",
+   "label": "v. 12",
    "start": 12,
-   "end": 14,
-   "title": "The command",
-   "text": "The Spirit tells Alma to command his children to do good, so he commands Corianton to refrain from iniquity, to turn to the Lord with all his mind and might and strength, to lead nobody else astray, to go back and acknowledge his faults, and to stop seeking riches he cannot carry with him."
+   "end": 12,
+   "title": "A command quoted as dictation",
+   "text": "The instruction is not given in the father's own authority. It is reported: \"the Spirit of the Lord doth say unto me: Command thy children to do good, lest they lead away the hearts of many people to destruction; therefore I command you, my son.\" Two commands stand together here, one received and one issued, and the second is presented as obedience to the first. The verse supplies the chain rather than the conclusion."
   },
   {
-   "label": "v. 15–19",
-   "start": 15,
+   "label": "v. 17–19",
+   "start": 17,
    "end": 19,
-   "title": "Why now",
-   "text": "Christ shall surely come to take away the sins of the world and declare glad tidings. That declaring was the ministry Corianton was called to. As for why it is known so far ahead: a soul now is as precious, the plan is as necessary, and it is as easy for God to send an angel now as later."
+   "title": "Three questions, and no answer to any of them",
+   "text": "The chapter's last three verses are all interrogative and all built on the same frame: \"is not a soul at this time as precious unto God as a soul will be at the time of his coming?\", \"Is it not as necessary that the plan of redemption should be made known unto this people as well as unto their children?\", \"Is it not as easy at this time for the Lord to send his angel to declare these glad tidings unto us as unto our children?\" Six question marks stand in this chapter and half of them are here. None is answered, and the chapter ends on the third."
   }
  ],
  "chapter": [
@@ -262,24 +286,44 @@
  "world_in_front": {
   "applications": [
    {
-    "title": "Name the fault once and stop",
-    "verse_label": "v. 7–11",
-    "text": "Alma said what he had to say, gave his reason for saying it, and did not return to it. When you have to correct someone, say it plainly, say why, and then leave it."
+    "title": "Do not open with the comparison",
+    "verse_label": "v. 1–2",
+    "text": "Alma begins by pointing at the brother, \"have ye not observed the steadiness of thy brother,\" and it is the least effective sentence in the chapter. The record keeps it, and it is worth noticing how quickly a correction that starts with a sibling stops being about the fault."
    },
    {
     "title": "Refuse the excuse without disputing the fact",
-    "verse_label": "v. 4",
-    "text": "Isabel really did draw many. Alma granted the circumstance and denied that it changed anything. When someone explains a failure with a true circumstance, you can accept the fact and hold the responsibility."
+    "verse_label": "v. 3–4",
+    "text": "Isabel really did steal away the hearts of many, and Alma grants it in the same breath as he rejects it, \"but this was no excuse for thee, my son. Thou shouldst have tended to the ministry wherewith thou wast entrusted.\" Conceding the circumstance costs nothing and removes the argument."
    },
    {
-    "title": "Go back to the people you damaged",
-    "verse_label": "v. 13",
-    "text": "Turning to God was not the whole of what Alma asked. Identify who was affected by something you did, and acknowledge it to them directly."
+    "title": "Name the fault once and stop",
+    "verse_label": "v. 7",
+    "text": "Alma says what he has to say and then says why he is stopping, \"I would not dwell upon your crimes, to harrow up your soul, if it were not for your good.\" Correction has a purpose and the purpose sets its length."
+   },
+   {
+    "title": "Give the instruction as a set of verbs",
+    "verse_label": "v. 9",
+    "text": "Repent, forsake, go no more, cross yourself in all these things. Four actions, all of them things the son can begin that day. What ends the diagnosis in this chapter is a to-do list."
    },
    {
     "title": "Ask your siblings",
     "verse_label": "v. 10",
-    "text": "Alma commanded his youngest to counsel with his elder brothers. Name the person a step ahead of you and take an actual question to them this week."
+    "text": "Alma commands his youngest to \"counsel with your elder brothers in your undertakings,\" giving the reason plainly, \"thou art in thy youth, and ye stand in need to be nourished by your brothers.\" Naming who a person should consult is part of a useful correction."
+   },
+   {
+    "title": "Count the damage to other people",
+    "verse_label": "v. 11",
+    "text": "The heaviest sentence in the chapter concerns the effect more than the act, \"when they saw your conduct they would not believe in my words.\" Ask what your conduct has cost somebody else's willingness to listen."
+   },
+   {
+    "title": "Go back to the people you damaged",
+    "verse_label": "v. 13",
+    "text": "Turning to God is not the whole instruction, \"but rather return unto them, and acknowledge your faults and that wrong which ye have done.\" The repair runs through the people who were affected."
+   },
+   {
+    "title": "Answer the intellectual question too",
+    "verse_label": "v. 17–19",
+    "text": "Corianton also had a genuine puzzle about why Christ's coming was known so far in advance, and Alma answers it, \"is not a soul at this time as precious unto God as a soul will be at the time of his coming?\" A moral correction that ignores the person's real question leaves half the work undone."
    }
   ],
   "questions": [
@@ -378,7 +422,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al31-011"
   },
   {
    "id": "al39-003",
@@ -404,7 +448,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al42-003"
   },
   {
    "id": "al39-004",
@@ -430,7 +474,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al13-016"
+  },
+  {
+   "id": "al39-010",
+   "scope": "BOOK",
+   "head": "Alma 40:1",
+   "anchor": {
+    "verse": 19,
+    "w1": 28,
+    "w2": 34,
+    "quote": "as after the time of his coming?"
+   },
+   "reason": "the worry Alma answers in the next chapter",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 40,
+     "verse": 1,
+     "w1": 17,
+     "w2": 26,
+     "quote": "thy mind is worried concerning the resurrection of the dead.",
+     "verse_text": "Now my son, here is somewhat more I would say unto thee; for I perceive that thy mind is worried concerning the resurrection of the dead.",
+     "markdown": "Now my son, here is somewhat more I would say unto thee; for I perceive that **thy mind is worried concerning the resurrection of the dead**.",
+     "span": true
+    }
+   ],
+   "mirror": "al40-001"
   },
   {
    "id": "al39-005",
@@ -442,7 +512,7 @@
     "w2": 31,
     "quote": "this is a sin which is unpardonable"
    },
-   "reason": "Sherem fearing he has committed it, in the record’s only other use",
+   "reason": "Sherem fearing he has committed it, the only other use",
    "targets": [
     {
      "ref": "Jacob",
@@ -456,7 +526,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "jac07-004"
   },
   {
    "id": "al39-006",
@@ -482,7 +552,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos17-024"
   },
   {
    "id": "al39-007",
@@ -546,7 +616,7 @@
     "w2": 41,
     "quote": "after the harlot Isabel"
    },
-   "reason": "Paul on what the word costs a body that belongs to Christ",
+   "reason": "Paul on what it costs a body owned by Christ",
    "targets": [
     {
      "ref": "1 Cor.",
@@ -636,10 +706,19 @@
    "entries": [
     "al39-003"
    ]
+  },
+  {
+   "verse": 19,
+   "w1": 28,
+   "w2": 34,
+   "quote": "as after the time of his coming?",
+   "entries": [
+    "al39-010"
+   ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "4e523d506e129871"
+  "at": "2026-09-07",
+  "source_sha256": "a1a0bfdbcaf79392"
  }
 }

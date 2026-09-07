@@ -17,7 +17,7 @@
    "A book from the dust",
    "Free for all men"
   ],
-  "connections": 14,
+  "connections": 17,
   "initial": false
  },
  "world_behind": [
@@ -34,7 +34,19 @@
   {
    "n": 3,
    "title": "Buried writers, speaking",
-   "text": "Verses 16 through 18 use Isaiah's figure of a destroyed people speaking low out of the ground with a voice like a familiar spirit. Nephi applies it to a written record recovered after his people are gone, and he will quote the Isaiah chapter itself in full in the next chapter."
+   "text": "Verses 16 through 18 use Isaiah's figure (Isa. 29:4) of a destroyed people speaking low out of the ground with a voice like a familiar spirit. Nephi applies it to a written record recovered after his people are gone, and he will quote the Isaiah chapter itself in full in the next chapter (2 Ne. 27).",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 29:4",
+     "start": 42,
+     "end": 51,
+     "book": "Isa",
+     "chapter": 29,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
   },
   {
    "n": 4,
@@ -61,7 +73,7 @@
   {
    "term": "Naught",
    "verse_label": "v. 10",
-   "text": "Nothing, no price at all. Nephi says his people sell themselves for naught, which is worse than selling cheaply. The word makes the transaction absurd rather than tragic, and it lands in the middle of the passage where he says the pains of his soul do not change what he has seen."
+   "text": "Nothing, no price at all. Treated at 1 Nephi 19:7. Nephi says his people sell themselves for naught, which is worse than selling cheaply. The word makes the transaction absurd rather than tragic, and it lands in the middle of the passage where he says the pains of his soul do not change what he has seen."
   },
   {
    "term": "Familiar",
@@ -201,7 +213,7 @@
   {
    "term": "Buy milk and honey, without money and without price",
    "verse_label": "v. 25",
-   "text": "Jacob had closed his sermon with the same invitation in Isaiah's words, \"come buy wine and milk without money and without price\" (2 Ne. 9:50). Nephi substitutes milk and honey, the phrase for the promised land, so the free purchase and the inheritance are folded into one line. The economy of both verses is the same: nothing is charged.",
+   "text": "Jacob had closed his sermon with the same invitation in Isaiah's words, \"come buy wine and milk without money and without price\" (2 Ne. 9:50). Nephi substitutes milk and honey, the phrase for the promised land, so the free purchase and the inheritance are folded into one line. The arrangement in both verses is the same: nothing is charged.",
    "refs": [
     {
      "kind": "scripture",
@@ -257,53 +269,65 @@
  ],
  "verses": [
   {
-   "label": "v. 1",
-   "start": 1,
-   "end": 1,
-   "title": "The law replaced by a voice",
-   "text": "One verse settles what the previous chapter held in tension. After the resurrection Christ will show himself, and what he says will be the law they do. Nothing is said about the old law ending; it is simply superseded by a person who can be listened to."
-  },
-  {
-   "label": "v. 3–8",
-   "start": 3,
-   "end": 8,
-   "title": "Signs, and who they sort",
-   "text": "Signs of birth, death, and resurrection; then destruction described in six ways, and the righteous identified by one behavior: they hearken to the prophets and do not destroy them. The criterion is how they treat messengers, and that is specific enough to test."
+   "label": "v. 4–6",
+   "start": 4,
+   "end": 6,
+   "title": "A messenger formula stamped on three verses running",
+   "text": "The record closes verses 4, 5, and 6 with \"saith the Lord of Hosts,\" and twice inside that span it repeats one image: \"they shall be as stubble\" at verse 4 and again at verse 6. The stubble and the burning day are Malachi 4:1, quoted under Malachi's name only much later, at 3 Nephi 25:1. Here the phrase arrives with a different attribution formula attached and no source named, and it is put to work on one people and one destruction, with a general last day nowhere in view."
   },
   {
    "label": "v. 7",
    "start": 7,
    "end": 7,
-   "title": "A prophet interrupts himself",
-   "text": "In the middle of an oracle about destruction, Nephi stops and cries out about the pain of his soul for the loss of his people, and then says he must still tell God that his ways are just. It is one of the few places in the record where a writer's grief and his theology are shown resisting each other in the same sentence."
+   "title": "The prophecy interrupted by the man delivering it",
+   "text": "The record breaks the oracle to record its cost to the speaker: \"O the pain, and the anguish of my soul for the loss of the slain of my people!\" Two more breaks follow, at verse 10, \"notwithstanding the pains of my soul,\" and at verse 11, \"and this grieveth my soul.\" Three interjections in five verses. Verse 7 also records the speaker overruling himself in the same sentence, \"but I must cry unto my God: Thy ways are just,\" so the record preserves both the objection and its withdrawal."
   },
   {
-   "label": "v. 9–11",
+   "label": "v. 9",
    "start": 9,
-   "end": 11,
-   "title": "Four generations, and then the Spirit stops",
-   "text": "A span of peace is promised and dated by generations, and then it ends. The mechanism given is withdrawal: the Spirit ceases to strive, and speedy destruction follows. Nephi has watched this in vision and says twice that it grieves him."
+   "end": 9,
+   "title": "A forecast given as a count of generations",
+   "text": "The prediction is not vague about duration: peace \"until three generations shall have passed away, and many of the fourth generation shall have passed away in righteousness.\" That is a number the record can be tested against, and it is tested, since 4 Nephi 1:14–22 walks the generations off one at a time and 4 Nephi 1:24 places the first failure in the correct one. A prophecy stated as arithmetic four hundred years before its subject is unusual in these books; the more common form gives conditions without a term."
   },
   {
-   "label": "v. 14–18",
-   "start": 14,
-   "end": 18,
-   "title": "The record describes its own recovery",
-   "text": "The chapter turns to the last days and describes a people destroyed, a record written and sealed, and a book brought out when its writers are gone. Nephi is describing the object his reader is holding, and he does it in Isaiah's vocabulary before quoting Isaiah in the next chapter."
+   "label": "v. 15–16",
+   "start": 15,
+   "end": 16,
+   "title": "An Isaiah oracle turned to a new addressee",
+   "text": "The record takes the siege language of Isaiah 29:3 and the voice from the dust of Isaiah 29:4 and changes the person throughout. Isaiah has the Lord camp \"against thee round about\" and lay siege \"against thee\"; the record has him camp \"against them round about\" and lay siege \"against them with a mount.\" Isaiah's \"thy speech shall be low out of the dust\" becomes \"their speech shall be low out of the dust.\" The second person of the original addresses Ariel; the third person here addresses a people not yet in existence when Isaiah wrote, and the alteration is systematic, not occasional."
   },
   {
-   "label": "v. 20–22",
-   "start": 20,
-   "end": 22,
-   "title": "What gets built instead",
-   "text": "Many churches, envyings, strifes, malice, and secret combinations founded by the devil. The list moves from religious institutions to criminal conspiracies in three verses without a break, and the order is a claim about how they are related."
+   "label": "v. 25–28",
+   "start": 25,
+   "end": 28,
+   "title": "Four questions, four identical answers",
+   "text": "The record puts the argument in catechism form: each of verses 25 through 28 asks whether the Lord has excluded anyone, and each is answered \"Behold, I say unto you, Nay.\" What follows the fourth Nay is the general rule, \"all men are privileged the one like unto the other, and none are forbidden.\" Verse 25 also quotes Isaiah 55:1 with one substitution, \"buy milk and honey, without money and without price\" where the King James text reads wine and milk. The change swaps in the standard formula for the promised land."
   },
   {
-   "label": "v. 23–33",
-   "start": 23,
+   "label": "v. 29",
+   "start": 29,
+   "end": 29,
+   "title": "A word given a definition on its only occasion",
+   "text": "The record names priestcraft seven times, at 2 Nephi 10:5, here, 3 Nephi 16:10, 3 Nephi 21:19, 3 Nephi 30:2, and twice in Alma 1. Only this verse says what it is: \"priestcrafts are that men preach and set themselves up for a light unto the world, that they may get gain and praise of the world; but they seek not the welfare of Zion.\" The definition is behavioral, and what it turns on is motive; office and doctrine are absent from it. That is why Alma 1:12 can apply it to a man who holds no office at all.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 1:12",
+     "start": 449,
+     "end": 458,
+     "book": "Alma",
+     "chapter": 1,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
+  },
+  {
+   "label": "v. 33",
+   "start": 33,
    "end": 33,
-   "title": "The chapter's whole argument, stated as denials",
-   "text": "God does not work in darkness; he does not tell anyone to depart; he has not commanded anyone to stay out of the synagogues or away from his salvation or his goodness. Then the positive commands: no priestcrafts, charity for all, labor for Zion. It ends with every human category named and dismissed as a criterion."
+   "title": "A closing list built out of paired opposites",
+   "text": "The final verse sorts humanity by three pairs and then dissolves the sorting: \"black and white, bond and free, male and female,\" followed by \"all are alike unto God, both Jew and Gentile.\" Four oppositions in one sentence, each named in order to be denied. The construction matches Galatians 3:28, which pairs Jew and Greek, bond and free, male and female; this verse keeps two of those three pairs, adds one of color, and moves Jew and Gentile to the end as the summary instead of the opening term."
   }
  ],
  "chapter": [
@@ -315,7 +339,7 @@
   {
    "n": 2,
    "title": "The record describes itself",
-   "text": "Nephi's account of a sealed book speaking out of the dust is the volume's own origin story, told by a writer who knows he will be one of the buried. He gives it plainly here and quotes Isaiah's version of it next, which is the same order he used for the whole Isaiah block: his own words first, the poetry second."
+   "text": "Verses 15 through 18 describe a record written, sealed, and speaking \"low out of the dust,\" and verse 17 states its custody, \"they shall be written and sealed up in a book, and those who have dwindled in unbelief shall not have them.\" 2 Nephi 27 then quotes Isaiah 29 at length on the same subject, so the plain statement comes first and the prophetic source second. That is the order used for the whole block: 2 Nephi 25 explains before 2 Nephi 27 quotes, as 1 Nephi 22 explained after 1 Nephi 20 and 21 quoted.oetry second."
   },
   {
    "n": 3,
@@ -654,7 +678,85 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "moro07-005"
+  },
+  {
+   "id": "2ne26-015",
+   "scope": "BOM",
+   "head": "3 Ne. 4:29",
+   "anchor": {
+    "verse": 22,
+    "w1": 2,
+    "w2": 12,
+    "quote": "there are also secret combinations, even as in times of old,"
+   },
+   "reason": "the combinations at work in the robbers' war",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 4,
+     "verse": 29,
+     "w1": 24,
+     "w2": 36,
+     "quote": "all who shall seek to slay them because of power and secret combinations,",
+     "verse_text": "May the Lord preserve his people in righteousness and in holiness of heart, that they may cause to be felled to the earth all who shall seek to slay them because of power and secret combinations, even as this man hath been felled to the earth.",
+     "markdown": "May the Lord preserve his people in righteousness and in holiness of heart, that they may cause to be felled to the earth **all who shall seek to slay them because of power and secret combinations**, even as this man hath been felled to the earth.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne04-008"
+  },
+  {
+   "id": "2ne26-016",
+   "scope": "BOM",
+   "head": "3 Ne. 16:10",
+   "anchor": {
+    "verse": 29,
+    "w1": 11,
+    "w2": 25,
+    "quote": "priestcrafts are that men preach and set themselves up for a light unto the world,"
+   },
+   "reason": "Christ listing the same sins for the Gentiles",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 16,
+     "verse": 10,
+     "w1": 74,
+     "w2": 83,
+     "quote": "and murders, and priestcrafts, and whoredoms, and of secret abominations;",
+     "verse_text": "And thus commandeth the Father that I should say unto you: At that day when the Gentiles shall sin against my gospel, and shall reject the fulness of my gospel, and shall be lifted up in the pride of their hearts above all nations, and above all the people of the whole earth, and shall be filled with all manner of lyings, and of deceits, and of mischiefs, and all manner of hypocrisy, and murders, and priestcrafts, and whoredoms, and of secret abominations; and if they shall do all those things, and shall reject the fulness of my gospel, behold, saith the Father, I will bring the fulness of my gospel from among them.",
+     "markdown": "And thus commandeth the Father that I should say unto you: At that day when the Gentiles shall sin against my gospel, and shall reject the fulness of my gospel, and shall be lifted up in the pride of their hearts above all nations, and above all the people of the whole earth, and shall be filled with all manner of lyings, and of deceits, and of mischiefs, and all manner of hypocrisy, **and murders, and priestcrafts, and whoredoms, and of secret abominations**; and if they shall do all those things, and shall reject the fulness of my gospel, behold, saith the Father, I will bring the fulness of my gospel from among them.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne16-007"
+  },
+  {
+   "id": "2ne26-017",
+   "scope": "BOM",
+   "head": "Moro. 8:17",
+   "anchor": {
+    "verse": 33,
+    "w1": 72,
+    "w2": 76,
+    "quote": "all are alike unto God,"
+   },
+   "reason": "Mormon applying it to little children",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 8,
+     "verse": 17,
+     "w1": 12,
+     "w2": 17,
+     "quote": "all children are alike unto me;",
+     "verse_text": "And I am filled with charity, which is everlasting love; wherefore, all children are alike unto me; wherefore, I love little children with a perfect love; and they are all alike and partakers of salvation.",
+     "markdown": "And I am filled with charity, which is everlasting love; wherefore, **all children are alike unto me**; wherefore, I love little children with a perfect love; and they are all alike and partakers of salvation.",
+     "span": true
+    }
+   ],
+   "mirror": "moro08-007"
   },
   {
    "id": "2ne26-004",
@@ -835,6 +937,15 @@
    ]
   },
   {
+   "verse": 22,
+   "w1": 2,
+   "w2": 12,
+   "quote": "there are also secret combinations, even as in times of old,",
+   "entries": [
+    "2ne26-015"
+   ]
+  },
+  {
    "verse": 25,
    "w1": 29,
    "w2": 37,
@@ -851,7 +962,8 @@
    "quote": "priestcrafts are that men preach and set themselves up for a light unto the world",
    "entries": [
     "2ne26-002",
-    "2ne26-014"
+    "2ne26-014",
+    "2ne26-016"
    ]
   },
   {
@@ -871,12 +983,13 @@
    "quote": "all are alike unto God",
    "entries": [
     "2ne26-011",
+    "2ne26-017",
     "2ne26-008"
    ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "f44201c34a00d958"
+  "at": "2026-09-07",
+  "source_sha256": "3aceba812afe2f1b"
  }
 }

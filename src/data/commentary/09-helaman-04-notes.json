@@ -14,7 +14,8 @@
   "unit": "The rise of the Gadianton band (Helaman 1–6)",
   "principles": [
    "Dissenters who leave and come back armed",
-   "A cause named before the"
+   "A cause named before the recovery",
+   "Strength that was never their own"
   ],
   "connections": 10,
   "initial": false
@@ -28,7 +29,7 @@
   {
    "n": 2,
    "title": "The rebellion starts inside the church",
-   "text": "Verse 1 names dissensions in the church and contention among the people, with much bloodshed."
+   "text": "Verse 1 names dissensions in the church and contention among the people, with much bloodshed. Helaman 3:33 to 36 had traced the pride into the hearts of church members over the previous five years, so the chapter opens on the consequence of a drift the last chapter reported."
   },
   {
    "n": 3,
@@ -48,7 +49,7 @@
   {
    "n": 6,
    "title": "Recovery follows preaching",
-   "text": "Verses 14 through 16 have Moronihah, Nephi, and Lehi preaching, the people repenting, and half the land coming back."
+   "text": "Verses 14 through 16 have Moronihah, Nephi and Lehi preaching, the people repenting, and half the land recovered. Helaman 5:1 to 4 has Nephi give up the judgment-seat immediately afterward to preach full time, so the result of this chapter is a career change in the next."
   },
   {
    "n": 7,
@@ -77,12 +78,24 @@
   {
    "term": "Oppression",
    "verse_label": "v. 12",
-   "text": "The grinding down of people with less power. The record uses the word three times, twice in quoted Isaiah and once here. Verse 12 makes it the second item in the list of causes."
+   "text": "The grinding down of people with less power. The record uses the word three times, twice in quoted Isaiah (Isa. 3:15) and once here. Verse 12 makes it the second item in the list of causes.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 3:15",
+     "start": 107,
+     "end": 116,
+     "book": "Isa",
+     "chapter": 3,
+     "verse_start": 15,
+     "verse_end": 15
+    }
+   ]
   },
   {
    "term": "Boastings",
    "verse_label": "v. 13",
-   "text": "Loud claims made for oneself. The record uses the word eight times, including Ammon's careful denial at Alma 26:35. Verse 13 turns it on its head: boasting in their own strength, they were left in it.",
+   "text": "Loud claims made for oneself. The record uses the word eight times, including Ammon's careful denial at Alma 26:35. Verse 13 turns it on its head: they claimed their own strength and were left with it.",
    "refs": [
     {
      "kind": "scripture",
@@ -104,7 +117,7 @@
   {
    "term": "Abandon",
    "verse_label": "v. 19",
-   "text": "To give up entirely. The word occurs once in the record and never in the King James Bible. Verse 19 applies it to the plan to recover the rest of the land."
+   "text": "To give up entirely. It appears once in the record, and never in the King James Bible. Verse 19 applies it to the plan to recover the rest of the land."
   },
   {
    "term": "Unavoidably",
@@ -195,53 +208,32 @@
  ],
  "verses": [
   {
-   "label": "v. 1–4",
+   "label": "v. 1–5",
    "start": 1,
-   "end": 4,
-   "title": "Dissension and recruitment",
-   "text": "The fifty-fourth year brings dissensions in the church, contention, and bloodshed. The rebellious part are slain or driven out and go to the Lamanite king. Their first attempt to raise a war fails because the Lamanites are afraid. Two years later a second group succeeds, and a year is spent preparing."
+   "end": 5,
+   "title": "The enemy in this chapter is made of former Nephites",
+   "text": "The record traces the war to an internal split, not to an invasion. Verse 1 reports \"many dissensions in the church, and there was also a contention among the people,\" verse 2 has the losing side driven out and going \"unto the king of the Lamanites,\" and verse 3 states what they did there: \"they did endeavor to stir up the Lamanites to war against the Nephites.\" Verse 8 names them again as the operative force, \"those dissenters of the Nephites, with the help of a numerous army of the Lamanites, had obtained all the possession of the land.\""
   },
   {
-   "label": "v. 5–8",
-   "start": 5,
-   "end": 8,
-   "title": "The land southward lost",
-   "text": "The Lamanites come down in the fifty-seventh year, and by the fifty-eighth they hold Zarahemla and every land up to Bountiful. Moronihah's armies are pushed back and fortify a line from the west sea to the east, a day's journey across. Nephite dissenters with Lamanite armies hold everything southward."
+   "label": "v. 7",
+   "start": 7,
+   "end": 7,
+   "title": "A frontier measured in walking time",
+   "text": "The fortified line is given a length, and the unit is a man, not a distance: \"they did fortify against the Lamanites, from the west sea, even unto the east; it being a day's journey for a Nephite, on the line which they had fortified.\" The record specifies whose day's journey, which is the kind of qualification a surveyor's figure does not need and a traveller's does. It is the only measurement of the land's width anywhere in the book of Helaman."
   },
   {
-   "label": "v. 9–10",
-   "start": 9,
-   "end": 10,
-   "title": "Half recovered",
-   "text": "In the sixtieth year Moronihah regains many parts and many cities, and by the sixty-first they have half their possessions back."
-  },
-  {
-   "label": "v. 11–13",
-   "start": 11,
-   "end": 13,
-   "title": "The cause named",
-   "text": "Mormon says the loss would not have happened except for wickedness, including among church members. He lists pride, riches, oppression of the poor, withheld food and clothing, violence against the humble, mockery of the sacred, denial of prophecy, murder, theft, adultery, contention, and desertion. Boasting in their own strength, they were left in it."
-  },
-  {
-   "label": "v. 14–17",
-   "start": 14,
-   "end": 17,
-   "title": "Preaching and repentance",
-   "text": "Moronihah preaches, and so do Nephi and Lehi, sons of Helaman, prophesying what will come without repentance. The people repent and begin to prosper. Seeing it, Moronihah ventures to lead them from city to city until half the property and half the lands are regained."
-  },
-  {
-   "label": "v. 18–20",
-   "start": 18,
-   "end": 20,
-   "title": "The advance stops",
-   "text": "In the sixty-second year Moronihah can gain no more. The Lamanites are too numerous, so the plan for the rest is abandoned and the armies hold what they have. The Nephites live in fear of being overpowered and destroyed."
-  },
-  {
-   "label": "v. 21–26",
+   "label": "v. 21–22",
    "start": 21,
+   "end": 22,
+   "title": "Two named documents used as the standard they failed",
+   "text": "The record measures the people against particular texts it has already given the reader: \"they began to remember the prophecies of Alma, and also the words of Mosiah.\" Verse 22 makes the charge specific to one of them, \"they had altered and trampled under their feet the laws of Mosiah, or that which the Lord commanded him to give unto the people.\" The reforms of Mosiah 29 are being cited as a legal standard fifty years later, and the record expects a reader to recognise them."
+  },
+  {
+   "label": "v. 24–26",
+   "start": 24,
    "end": 26,
-   "title": "What they saw",
-   "text": "They remember the prophecies of Alma and the words of Mosiah, and see that they had been stiffnecked, had set the commandments at naught, had altered the laws of Mosiah, and had corrupted their law. The church dwindles, prophecy is disbelieved, and the judgments of God stare them in the face. The Spirit no longer preserves them, since it does not dwell in unholy temples, and they see that the Lamanites now match them man for man."
+   "title": "The conclusion stated as an equality",
+   "text": "The chapter's last claim is arithmetical, not moral: \"they saw that they had become weak, like unto their brethren, the Lamanites,\" and then, in the final verse, \"the strength of the Lamanites was as great as their strength, even man for man.\" The phrase man for man makes the loss of divine help measurable, since the difference the record has been claiming all along was never in numbers. What is reported as gone is the margin, and the record gives its size as zero."
   }
  ],
  "chapter": [
@@ -263,7 +255,7 @@
   {
    "n": 4,
    "title": "The list of sins is mostly economic and social",
-   "text": "Oppression of the poor, withheld food and clothing, and violence against the humble come before murder and theft in verse 12."
+   "text": "Grinding the poor, keeping back food and clothes, and violence against the humble come before murder and theft in verse 12."
   },
   {
    "n": 5,
@@ -294,6 +286,11 @@
     "text": "The exiles became the argument that brought an army. Removing someone from a group does not remove them from the situation."
    },
    {
+    "title": "A first refusal is not the end of the attempt",
+    "verse_label": "v. 3",
+    "text": "The Lamanites would not hearken to the dissenters, and three years later a second group of dissenters succeeded with them. When someone tries to recruit you into something and you decline, expect the approach to return with better help."
+   },
+   {
     "title": "Check whether the failure list is about strength",
     "verse_label": "v. 12",
     "text": "Mormon explains a lost war with food withheld from the hungry. When something collapses, the causes may sit far from where the collapse showed up."
@@ -307,6 +304,21 @@
     "title": "Wait for the change before the push",
     "verse_label": "v. 16",
     "text": "Moronihah moved only after he saw repentance. Timing an effort to a real shift beats timing it to your own impatience."
+   },
+   {
+    "title": "Know when to stop taking and start holding",
+    "verse_label": "v. 19",
+    "text": "Moronihah abandoned the design of recovering the rest and employed all his armies in maintaining what he had already taken. Consolidating is a decision in its own right, and made on time it is what keeps the earlier gains."
+   },
+   {
+    "title": "Remembering is the first move back",
+    "verse_label": "v. 21",
+    "text": "Under real fear the Nephites began to remember the prophecies of Alma and the words of Mosiah. When you are trying to recover ground, start with what you already know and had stopped consulting."
+   },
+   {
+    "title": "Measure the change in yourself",
+    "verse_label": "v. 26",
+    "text": "The chapter closes by noting that the Lamanites were now as strong man for man, which locates the whole difference on the Nephite side. When a rival suddenly looks formidable, check what you lost before you conclude what they gained."
    }
   ],
   "questions": [
@@ -379,7 +391,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel03-013"
   },
   {
    "id": "hel04-002",
@@ -391,7 +403,7 @@
     "w2": 14,
     "quote": "they had altered and trampled under their feet the laws of Mosiah"
    },
-   "reason": "the mechanism named: laws established by a voice that chose evil",
+   "reason": "laws established by a voice that chose evil",
    "targets": [
     {
      "ref": "Hel.",
@@ -457,7 +469,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al45-010"
   },
   {
    "id": "hel04-005",
@@ -469,7 +481,7 @@
     "w2": 26,
     "quote": "that which the Lord commanded him to give unto the people"
    },
-   "reason": "the laws as given, called correct and from the hand of the Lord",
+   "reason": "the laws as given, called correct and from God",
    "targets": [
     {
      "ref": "Mosiah",
@@ -483,7 +495,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos29-023"
   },
   {
    "id": "hel04-006",
@@ -509,7 +521,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al34-014"
   },
   {
    "id": "hel04-007",
@@ -535,7 +547,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos02-028"
   },
   {
    "id": "hel04-008",
@@ -547,7 +559,7 @@
     "w2": 44,
     "quote": "the Spirit of the Lord doth not dwell in unholy temples"
    },
-   "reason": "Paul putting the temple and the indwelling Spirit in the same sentence",
+   "reason": "Paul pairing the temple and the indwelling Spirit",
    "targets": [
     {
      "ref": "1 Cor.",
@@ -573,7 +585,7 @@
     "w2": 25,
     "quote": "because of their oppression to the poor"
    },
-   "reason": "the charge put as a question, of grinding the faces of the poor",
+   "reason": "the charge as a question, grinding the poor's faces",
    "targets": [
     {
      "ref": "Isa.",
@@ -599,7 +611,7 @@
     "w2": 19,
     "quote": "he did venture to lead them forth from place to place"
    },
-   "reason": "the King James Bible’s use of the word, of an arrow drawn at a venture",
+   "reason": "the King James use, an arrow drawn at a venture",
    "targets": [
     {
      "ref": "1 Kgs.",
@@ -701,7 +713,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "1e98d75bc42ee855"
+  "at": "2026-09-07",
+  "source_sha256": "a4440162992f0477"
  }
 }

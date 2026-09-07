@@ -17,7 +17,7 @@
    "Willful ignorance",
    "The righteous as protection"
   ],
-  "connections": 10,
+  "connections": 13,
   "initial": true
  },
  "world_behind": [
@@ -162,13 +162,13 @@
   {
    "term": "Cunning",
    "verse_label": "v. 13",
-   "text": "Skill. In the King James Bible it is almost always praise: cunning workmen for the tabernacle, cunning players on an instrument, a cunning craftsman. The lawyers here are \"learned in all the arts and cunning of the people\" (v. 15), and the same skill produces \"cunning devices\" (v. 13) for catching a man in his words. The record does not change the word's meaning. It shows craftsmanship pointed at a person.",
+   "text": "Skill. Treated at 1 Nephi 16:38. In the King James Bible it is almost always praise: cunning workmen for the tabernacle, cunning players on an instrument, a cunning craftsman. The lawyers here are \"learned in all the arts and cunning of the people\" (v. 15), and the same skill produces \"cunning devices\" (v. 13) for catching a man in his words. The record does not change the word's meaning. It shows craftsmanship pointed at a person.",
    "cites": [
     {
      "quote": "learned in all the arts and cunning of the people",
      "verse": 15,
-     "start": 171,
-     "end": 230,
+     "start": 197,
+     "end": 256,
      "spans": [
       {
        "w1": 5,
@@ -180,8 +180,8 @@
     {
      "quote": "cunning devices",
      "verse": 13,
-     "start": 260,
-     "end": 285,
+     "start": 286,
+     "end": 311,
      "spans": [
       {
        "w1": 15,
@@ -317,68 +317,51 @@
  ],
  "verses": [
   {
-   "label": "v. 1–3",
-   "start": 1,
-   "end": 3,
-   "title": "The pedigree",
-   "text": "Four generations, then a jump back through Nephi and Lehi to Manasseh and to Joseph in Egypt. Buried in it is Aminadi and the writing on the temple wall, mentioned once in the whole book. Amulek is establishing that he belongs to these people and to their story before he says anything they will dislike."
-  },
-  {
    "label": "v. 4–6",
    "start": 4,
    "end": 6,
-   "title": "The confession",
-   "text": "Reputation, kindreds, friends, riches by his own hand. Then the turn: he never knew much of the ways of the Lord, corrects himself mid-sentence because he had in fact seen much, and lands on the admission that he knew and would not know. He dates the end of it to a specific day."
+   "title": "A self-description that corrects itself out loud",
+   "text": "The record keeps the false start. Verse 4 is a boast: \"a man of no small reputation among all those who know me... I have acquired much riches by the hand of my industry.\" Verse 5 begins the reversal, \"I never have known much of the ways of the Lord,\" and then interrupts itself: \"I said I never had known much of these things; but behold, I mistake, for I have seen much of his mysteries.\" I mistake occurs once in the volume, in this verse. Verse 6 finishes the retraction with a confession the boast concealed: \"I did harden my heart, for I was called many times and I would not hear.\""
   },
   {
-   "label": "v. 7–11",
+   "label": "v. 7–9",
    "start": 7,
-   "end": 11,
-   "title": "The angel, and the meal",
-   "text": "The errand is domestic. Return home, feed a hungry prophet, and receive a blessing on the house. Amulek's warrant for calling Alma a holy man is that an angel said so, and his evidence that the blessing came is his own household."
+   "end": 9,
+   "title": "The chain of knowing, stated link by link",
+   "text": "The instruction is quoted directly, \"Amulek, return to thine own house, for thou shalt feed a prophet of the Lord,\" and the meeting is reported as its fulfilment. Then verse 9 sets out the reasoning rather than the conclusion: \"the angel said unto me he is a holy man; wherefore I know he is a holy man because it was said by an angel of God.\" The claim rests openly on testimony, and the record puts the ground and the claim in the same sentence with a because between them."
   },
   {
-   "label": "v. 12–16",
+   "label": "v. 12–15",
    "start": 12,
-   "end": 16,
-   "title": "Two witnesses, and the men who count them",
-   "text": "The people are astonished at the arithmetic. Then some of them start planning, and the record pauses to explain who those men were and what their training was, before returning to the questioning."
+   "end": 15,
+   "title": "A profession described by its economics",
+   "text": "The record does not simply call the opponents wicked. It says what they were: men \"who were lawyers, who were hired or appointed by the people to administer the law at their times of trials, or at the trials of the crimes of the people before the judges.\" Verse 15 adds the training, \"learned in all the arts and cunning of the people; and this was to enable them that they might be skilful in their profession.\" The last verse of the chapter closes the same account with a single sentence: \"the object of these lawyers was to get gain; and they got gain according to their employ.\""
   },
   {
-   "label": "v. 17–21",
-   "start": 17,
-   "end": 21,
-   "title": "The counter-attack",
-   "text": "Amulek perceives the design and answers it before it is sprung, naming them lawyers and hypocrites and describing the traps. Then he quotes Mosiah, and then he quotes the angels, twice, ending on the Lord coming down \"with equity and justice in my hands\" (v. 21).",
-   "cites": [
+   "label": "v. 19",
+   "start": 19,
+   "end": 19,
+   "title": "A dead king quoted inside a speech",
+   "text": "The argument reaches for an authority the audience cannot dismiss and dates the quotation precisely: \"well did Mosiah say, who was our last king, when he was about to deliver up the kingdom, having no one to confer it upon, causing that this people should be governed by their own voices.\" What follows is the substance of Mosiah 29:27, that when the voice of the people chooses iniquity the judgments of God will come. The speaker is arguing against lawyers by citing the constitutional settlement that created their offices.",
+   "refs": [
     {
-     "quote": "with equity and justice in my hands",
-     "verse": 21,
-     "start": 217,
-     "end": 262,
-     "spans": [
-      {
-       "w1": 20,
-       "w2": 26,
-       "text": "with equity and justice in my hands"
-      }
-     ]
+     "kind": "scripture",
+     "text": "Mosiah 29:27",
+     "start": 323,
+     "end": 335,
+     "book": "Mosiah",
+     "chapter": 29,
+     "verse_start": 27,
+     "verse_end": 27
     }
    ]
   },
   {
-   "label": "v. 22–23",
-   "start": 22,
-   "end": 23,
-   "title": "What is holding the roof up",
-   "text": "Two verses on the prayers of the righteous, with a specification of the alternative: famine, pestilence and the sword instead of flood. The promise to Noah is being honored even in the threat."
-  },
-  {
-   "label": "v. 24–32",
-   "start": 24,
-   "end": 32,
-   "title": "The law argument, and a name",
-   "text": "They accuse him of reviling the law; he says he spoke in its favor to their condemnation; they conclude he is lying because he said both. The lawyers decide to remember it against him. The last two verses name Zeezrom and state what the profession was for."
+   "label": "v. 26",
+   "start": 26,
+   "end": 26,
+   "title": "A speaker who answers the charge rather than the anger",
+   "text": "The crowd accuses him of reviling against the law. The reply is not a defence of his tone but a correction of the charge: \"have I testified against your law? Ye do not understand; ye say that I have spoken against your law; but I have not, but I have spoken in favor of your law, to your condemnation.\" The record keeps the distinction being drawn, between attacking a law and invoking it against the people who administer it, and lets the crowd's response in verses 28 and 29 show that they did not take it."
   }
  ],
  "chapter": [
@@ -405,7 +388,19 @@
   {
    "n": 5,
    "title": "Mosiah's warning arrives in its first test case",
-   "text": "The last king said a people who choose iniquity would be ripe for destruction. Amulek quotes it at the city where the voice of the people has done exactly that, which turns a constitutional worry into a place with a name."
+   "text": "Verse 19 cites the source by office and circumstance, \"well did Mosiah say, who was our last king, when he was about to deliver up the kingdom, having no one to confer it upon, causing that this people should be governed by their own voices.\" The warning being cited stands at Mosiah 29:26–27, that if \"the voice of the people doth choose iniquity\" the judgments of God will come. Ammonihah is the first place in the record where it is applied by name, and verse 27 supplies the local mechanism, \"the unrighteousness of your lawyers and your judges.\"",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 29:26–27",
+     "start": 277,
+     "end": 292,
+     "book": "Mosiah",
+     "chapter": 29,
+     "verse_start": 26,
+     "verse_end": 27
+    }
+   ]
   },
   {
    "n": 6,
@@ -415,20 +410,27 @@
   {
    "n": 7,
    "title": "The chapter ends on money",
-   "text": "After angels, genealogy and judgment, the closing sentence is about fees. The record puts the plainest possible motive last, and the reader arrives at Zeezrom already knowing what he is being paid for."
+   "text": "The chapter opens with a genealogy running back to Joseph in Egypt and closes on a pay structure: \"the object of these lawyers was to get gain; and they got gain according to their employ.\" Zeezrom is introduced two verses earlier by his professional standing, \"one of the most expert among them, having much business to do among the people.\" The last thing the reader learns before Alma 11 begins is what the man cross-examining Amulek is paid for, and Alma 11:20 states it a second time.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 11:20",
+     "start": 454,
+     "end": 464,
+     "book": "Alma",
+     "chapter": 11,
+     "verse_start": 20,
+     "verse_end": 20
+    }
+   ]
   }
  ],
  "world_in_front": {
   "applications": [
    {
-    "title": "Say the date",
-    "verse_label": "v. 6",
-    "text": "Amulek fixes his turning to a specific day in a specific month of a specific year. Find the equivalent in your own life and write it down with a date on it. A change you cannot locate in time tends to get retold as a temperament."
-   },
-   {
-    "title": "Name the thing you know and avoid",
-    "verse_label": "v. 6",
-    "text": "The confession is that he knew and would not know. Pick the one item you have been declining to look at directly, and say out loud what you already know about it. The sentence is short and it is the whole work."
+    "title": "Give the credential before the confession",
+    "verse_label": "v. 2–4",
+    "text": "Amulek opens with a genealogy back to Joseph in Egypt and adds \"I am also a man of no small reputation among all those who know me... and I have also acquired much riches by the hand of my industry.\" The standing is established first so that the admission that follows has weight. When you have to say something unwelcome, establish why you are worth hearing before you say it."
    },
    {
     "title": "Spend your credibility instead of protecting it",
@@ -436,9 +438,34 @@
     "text": "Amulek lists what makes him worth hearing and immediately uses it to say something against himself. Standing kept in reserve does nothing. Ask what yours is currently being saved for."
    },
    {
+    "title": "Correct yourself out loud",
+    "verse_label": "v. 5",
+    "text": "He starts \"I never have known much of the ways of the Lord,\" and then stops himself inside the same verse: \"I said I never had known much of these things; but behold, I mistake.\" Leaving the repair visible is more persuasive than a smooth sentence would have been."
+   },
+   {
+    "title": "Name the thing you know and avoid",
+    "verse_label": "v. 6",
+    "text": "The confession is that he knew and would not know, \"I was called many times and I would not hear.\" Pick the one item you have been declining to look at directly, and say out loud what you already know about it. The sentence is short and it is the whole work."
+   },
+   {
+    "title": "Say the date",
+    "verse_label": "v. 6",
+    "text": "Amulek fixes his turning to a specific day in a specific month of a specific year. Find the equivalent in your own life and write it down with a date on it. A change you cannot locate in time tends to get retold as a temperament."
+   },
+   {
+    "title": "Do the small obedience before you know what it is for",
+    "verse_label": "v. 7–8",
+    "text": "The instruction was to go home and feed a man, and Amulek reports that he obeyed and only afterward found out who it was. Most of what you are asked to do arrives without its explanation attached."
+   },
+   {
     "title": "Find out who is praying for your city",
     "verse_label": "v. 22",
-    "text": "Amulek's claim is that a place is held up by people in it whose work is invisible. Name two of them where you live, and consider what you have done lately to make their staying easier."
+    "text": "Amulek's claim is that a place is held up by people in it whose work is invisible, \"if it were not for the prayers of the righteous, who are now in the land.\" Name two of them where you live, and consider what you have done lately to make their staying easier."
+   },
+   {
+    "title": "Look at the profession, not the individuals",
+    "verse_label": "v. 27, 32",
+    "text": "Amulek locates the cause of the coming destruction in a class rather than a character: \"the unrighteousness of your lawyers and your judges,\" and then, \"the object of these lawyers was to get gain.\" When something keeps going wrong around you, ask what the arrangement pays for before asking who is at fault."
    }
   ],
   "questions": [
@@ -511,7 +538,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al09-001"
   },
   {
    "id": "al10-002",
@@ -523,7 +550,7 @@
     "w2": 36,
     "quote": "thou shalt feed a prophet of the Lord"
    },
-   "reason": "the same errand, from Alma’s side",
+   "reason": "the same errand, from Alma's side",
    "targets": [
     {
      "ref": "Alma",
@@ -537,7 +564,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al08-003"
   },
   {
    "id": "al10-003",
@@ -563,7 +590,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al11-001"
   },
   {
    "id": "al10-004",
@@ -589,7 +616,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al11-014"
   },
   {
    "id": "al10-005",
@@ -615,7 +642,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al14-008"
+  },
+  {
+   "id": "al10-011",
+   "scope": "BOOK",
+   "head": "Alma 15:16",
+   "anchor": {
+    "verse": 4,
+    "w1": 21,
+    "w2": 26,
+    "quote": "I have many kindreds and friends,"
+   },
+   "reason": "what the wealth cost him in the end",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 15,
+     "verse": 16,
+     "w1": 11,
+     "w2": 21,
+     "quote": "having forsaken all his gold, and silver, and his precious things,",
+     "verse_text": "And it came to pass that Alma and Amulek, Amulek having forsaken all his gold, and silver, and his precious things, which were in the land of Ammonihah, for the word of God, he being rejected by those who were once his friends and also by his father and his kindred;",
+     "markdown": "And it came to pass that Alma and Amulek, Amulek **having forsaken all his gold, and silver, and his precious things**, which were in the land of Ammonihah, for the word of God, he being rejected by those who were once his friends and also by his father and his kindred;",
+     "span": true
+    }
+   ],
+   "mirror": "al15-003"
   },
   {
    "id": "al10-006",
@@ -627,7 +680,7 @@
     "w2": 76,
     "quote": "they would be ripe for destruction"
    },
-   "reason": "the last king’s warning, cashed",
+   "reason": "the last king's warning, cashed",
    "targets": [
     {
      "ref": "Mosiah",
@@ -641,7 +694,59 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos29-028"
+  },
+  {
+   "id": "al10-012",
+   "scope": "BOM",
+   "head": "Hel. 2:4",
+   "anchor": {
+    "verse": 31,
+    "w1": 23,
+    "w2": 29,
+    "quote": "one of the most expert among them,"
+   },
+   "reason": "Gadianton described in the same phrase",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 2,
+     "verse": 4,
+     "w1": 8,
+     "w2": 12,
+     "quote": "exceedingly expert in many words,",
+     "verse_text": "For there was one Gadianton, who was exceedingly expert in many words, and also in his craft, to carry on the secret work of murder and of robbery; therefore he became the leader of the band of Kishkumen.",
+     "markdown": "For there was one Gadianton, who was **exceedingly expert in many words**, and also in his craft, to carry on the secret work of murder and of robbery; therefore he became the leader of the band of Kishkumen.",
+     "span": true
+    }
+   ],
+   "mirror": "hel02-005"
+  },
+  {
+   "id": "al10-013",
+   "scope": "BOM",
+   "head": "3 Ne. 6:11",
+   "anchor": {
+    "verse": 27,
+    "w1": 9,
+    "w2": 27,
+    "quote": "the foundation of the destruction of this people is beginning to be laid by the unrighteousness of your lawyers"
+   },
+   "reason": "the same classes counted up before the collapse",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 6,
+     "verse": 11,
+     "w1": 2,
+     "w2": 15,
+     "quote": "there were many merchants in the land, and also many lawyers, and many officers.",
+     "verse_text": "For there were many merchants in the land, and also many lawyers, and many officers.",
+     "markdown": "For **there were many merchants in the land, and also many lawyers, and many officers**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne06-006"
   },
   {
    "id": "al10-007",
@@ -759,6 +864,15 @@
    ]
   },
   {
+   "verse": 4,
+   "w1": 21,
+   "w2": 26,
+   "quote": "I have many kindreds and friends,",
+   "entries": [
+    "al10-011"
+   ]
+  },
+  {
    "verse": 7,
    "w1": 29,
    "w2": 36,
@@ -822,12 +936,22 @@
    ]
   },
   {
+   "verse": 27,
+   "w1": 9,
+   "w2": 27,
+   "quote": "the foundation of the destruction of this people is beginning to be laid by the unrighteousness of your lawyers",
+   "entries": [
+    "al10-013"
+   ]
+  },
+  {
    "verse": 31,
    "w1": 23,
    "w2": 29,
    "quote": "one of the most expert among them",
    "entries": [
-    "al10-004"
+    "al10-004",
+    "al10-012"
    ]
   },
   {
@@ -841,7 +965,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "d7f30247e049da20"
+  "at": "2026-09-07",
+  "source_sha256": "4b040a6494dff675"
  }
 }

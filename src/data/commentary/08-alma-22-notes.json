@@ -17,9 +17,9 @@
   "principles": [
    "Teaching a man who asks to be taught",
    "Giving away all to know God",
-   ""
+   "The land described at the moment it opens"
   ],
-  "connections": 9,
+  "connections": 15,
   "initial": true
  },
  "world_behind": [
@@ -63,13 +63,13 @@
   {
    "term": "Carnal",
    "verse_label": "v. 13",
-   "text": "Of the flesh, and in scripture the condition of a nature ruled by appetite. Aaron lays \"their carnal state\" (v. 13) before the king as part of the account of the fall. The record uses the word fifteen times and the King James Bible eleven, most of them in Paul, and Mosiah 27 pairs it with fallen in exactly this sense.",
+   "text": "Of the flesh, and in scripture the condition of a nature ruled by appetite. Treated at Mosiah 16:3. Aaron lays \"their carnal state\" (v. 13) before the king as part of the account of the fall. The record uses the word fifteen times and the King James Bible eleven, most of them in Paul, and Mosiah 27 pairs it with fallen in exactly this sense.",
    "cites": [
     {
      "quote": "their carnal state",
      "verse": 13,
-     "start": 87,
-     "end": 115,
+     "start": 111,
+     "end": 139,
      "spans": [
       {
        "w1": 22,
@@ -78,18 +78,30 @@
       }
      ]
     }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 16:3",
+     "start": 87,
+     "end": 98,
+     "book": "Mosiah",
+     "chapter": 16,
+     "verse_start": 3,
+     "verse_end": 3
+    }
    ]
   },
   {
    "term": "Merit",
    "verse_label": "v. 14",
-   "text": "To earn, to deserve as wages. The word occurs twice in this record and never in the King James Bible: here, where fallen man \"could not merit anything of himself\" (v. 14), and in Mosiah 2, where king Benjamin asks whether he merits any thanks. Both uses deny that a debt is owed.",
+   "text": "To earn, to deserve as wages. Treated at 2 Nephi 31:19. The word occurs twice in this record and never in the King James Bible: here, where fallen man \"could not merit anything of himself\" (v. 14), and in Mosiah 2, where king Benjamin asks whether he merits any thanks. Both uses deny that a debt is owed.",
    "cites": [
     {
      "quote": "could not merit anything of himself",
      "verse": 14,
-     "start": 125,
-     "end": 170,
+     "start": 151,
+     "end": 196,
      "spans": [
       {
        "w1": 7,
@@ -103,7 +115,7 @@
   {
    "term": "Sting",
    "verse_label": "v. 14",
-   "text": "The wound a scorpion or a bee leaves. Aaron says the sting of death is swallowed up in the hopes of glory, borrowing Paul's cry over the open grave in 1 Corinthians 15. The word appears four times in this record, twice in Abinadi's mouth, and Aaron is quoting a resurrection text to a king who has just heard about the fall."
+   "text": "The wound a scorpion or a bee leaves. Aaron says the sting of death is swallowed up in the hopes of glory, borrowing Paul's cry over the open grave in 1 Corinthians 15:55. The word appears four times in this record, twice in Abinadi's mouth, and Aaron is quoting a resurrection text to a king who has just heard about the fall."
   },
   {
    "term": "Pacified",
@@ -195,60 +207,46 @@
  ],
  "verses": [
   {
-   "label": "v. 1–6",
-   "start": 1,
+   "label": "v. 2–3",
+   "start": 2,
+   "end": 3,
+   "title": "The bargain is refused and rewritten",
+   "text": "Aaron offers servitude for his life: \"if thou wilt spare our lives, we will be thy servants.\" The king declines the terms and substitutes his own, \"I will not suffer that ye shall be my servants; but I will insist that ye shall administer unto me.\" The verb moves from serving to ministering before a word of doctrine is spoken, and the reason the king gives is a question about a man who is not in the room."
+  },
+  {
+   "label": "v. 6",
+   "start": 6,
    "end": 6,
-   "title": "Aaron at the palace",
-   "text": "He asks for his life and offers service. The king grants the life, refuses the servitude, and asks for ministry instead, because Ammon's generosity has left him troubled. His two questions are about the Spirit of the Lord and about being cast off at the last day."
+   "title": "The king quotes a sentence the record never printed",
+   "text": "He asks what Ammon meant by \"If ye will repent ye shall be saved, and if ye will not repent, ye shall be cast off at the last day.\" Nothing in Alma 18 or 19 puts those words in Ammon's mouth. The record hands the reader the missionary's core sentence secondhand, out of a hostile king's memory, in the form of a complaint."
   },
   {
-   "label": "v. 7–11",
-   "start": 7,
-   "end": 11,
-   "title": "The ground laid",
-   "text": "Believest thou there is a God. The king answers with what the Amalekites say and what he has permitted, then says Aaron's word will be enough. He asks whether God is the Great Spirit of the exodus, hears that he is and that he made everything, and asks to be told the rest."
-  },
-  {
-   "label": "v. 12–14",
-   "start": 12,
-   "end": 14,
-   "title": "The scriptures read",
-   "text": "Aaron begins at the creation of Adam and reads: the image of God, the commandments, the transgression, the fall, the carnal state, the plan of redemption prepared from the foundation of the world. Then merit, atonement, the bands of death, and the sting swallowed up."
-  },
-  {
-   "label": "v. 15–18",
-   "start": 15,
-   "end": 18,
-   "title": "The king's question and prayer",
-   "text": "What shall I do to be born of God, with the wicked spirit rooted out. He offers his kingdom. Aaron names repentance and calling on God in faith. The king prostrates himself, offers all his sins in exchange for knowledge of God, and falls as if dead."
-  },
-  {
-   "label": "v. 19–23",
+   "label": "v. 19–21",
    "start": 19,
-   "end": 23,
-   "title": "The queen, and Stand",
-   "text": "She orders the killing; the servants refuse out of fear; she calls a crowd instead. Aaron raises the king by the hand with one word. The household sees it, marvels, and is converted while the king ministers to them."
+   "end": 21,
+   "title": "The refusal is arithmetic, not conscience",
+   "text": "Ordered to kill Aaron and his brethren, the servants decline on a calculation: \"one of them is mightier than us all? Therefore we shall fall before them.\" Nothing is said about whether the order is just. The queen's own fear then follows theirs rather than preceding it: \"when the queen saw the fear of the servants she also began to fear exceedingly.\""
   },
   {
-   "label": "v. 24–27",
-   "start": 24,
-   "end": 27,
-   "title": "The multitude, and the decree",
-   "text": "The summoned crowd murmurs. The king stands among them and calms them, then has Aaron and his brethren preach in the middle of it. Afterward he proclaims through all his lands, and Mormon takes the occasion to describe them."
+   "label": "v. 27–32",
+   "start": 27,
+   "end": 32,
+   "title": "Eight verses of map, dropped into a conversion",
+   "text": "The king sends a proclamation, and the record leaves him for the border between the two nations: the strip of wilderness, the head of the river Sidon, Bountiful and Desolation, and a measurement, \"the distance of a day and a half's journey for a Nephite.\" The geography arrives at the point where the story is about to become mass preaching, and it is the fullest description of the land in the whole volume."
   },
   {
-   "label": "v. 28–35",
-   "start": 28,
+   "label": "v. 35",
+   "start": 35,
    "end": 35,
-   "title": "The map",
-   "text": "The idle Lamanites in tents on the west, the driven Lamanites on the east, the Nephites holding the north at the head of Sidon, Bountiful against Desolation, a day and a half's journey across the neck, and the wisdom of leaving a road out. Then Mormon returns to the brothers."
+   "title": "The editor comes back and counts heads",
+   "text": "\"And now I, after having said this, return again to the account of Ammon and Aaron, Omner and Himni, and their brethren.\" He names four of the sons of Mosiah where the chapter has followed one. The list occurs five times in scripture, and it is how this record keeps track of a mission whose members are scattered across three lands."
   }
  ],
  "chapter": [
   {
    "n": 1,
    "title": "This king asks to be taught",
-   "text": "Lamoni had to be led to the question; his father arrives with it. He has been troubled since the road, and he opens by asking for ministry from men he could have executed."
+   "text": "The prisoners open by offering to be servants at verse 3, and the king refuses the offer and reverses it, \"I will not suffer that ye shall be my servants; but I will insist that ye shall administer unto me.\" Verses 5 and 6 give the two things troubling him and both are quotations of what Ammon said, \"What is this that ye have said concerning the Spirit of the Lord\" and \"If ye will repent ye shall be saved.\" A man with the power to execute them opens by asking to be taught, and names the two sentences that put him there."
   },
   {
    "n": 2,
@@ -263,7 +261,7 @@
   {
    "n": 4,
    "title": "The prayer is offered with the doubt intact",
-   "text": "He prays if there is a God, and if thou art God, and in the same breath gives away all his sins. The record treats an honest conditional as sufficient grounds for an answer."
+   "text": "The prayer at verse 18 is built on two conditionals stacked together, \"if there is a God, and if thou art God, wilt thou make thyself known unto me,\" and the offer attached to them is unconditional, \"I will give away all my sins to know thee.\" Verse 7 has already recorded the same hedged position, \"I know that the Amalekites say that there is a God.\" The record lets a prayer that never asserts its own premise receive an answer in the next sentence."
   },
   {
    "n": 5,
@@ -273,7 +271,19 @@
   {
    "n": 6,
    "title": "A word ends the crisis",
-   "text": "Aaron sees a mob forming and raises the king with one syllable. The public miracle in this chapter is performed to prevent violence, and its first result is a household converted."
+   "text": "Verse 22 supplies the reason before the act: he \"feared lest that a multitude should assemble themselves together, and there should be a great contention.\" The miracle is thus performed to stop a riot, not to prove a doctrine. Verse 23 reports the effect without elaboration, \"his whole household were converted unto the Lord,\" which is the same sequence Alma 19:35 records at Lamoni's court, a public falling followed by a household.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 19:35",
+     "start": 355,
+     "end": 365,
+     "book": "Alma",
+     "chapter": 19,
+     "verse_start": 35,
+     "verse_end": 35
+    }
+   ]
   },
   {
    "n": 7,
@@ -289,24 +299,44 @@
  "world_in_front": {
   "applications": [
    {
-    "title": "Say what has been troubling you",
+    "title": "Reverse the offer when someone offers to serve you",
     "verse_label": "v. 3",
-    "text": "The king named the thing he could not shake and asked for help with it. When something you heard weeks ago is still working on you, tell someone what it was and ask them to explain it."
+    "text": "The prisoners offer to be servants and the king refuses the terms, \"I will not suffer that ye shall be my servants; but I will insist that ye shall administer unto me.\" Sometimes the useful response to an offer of subservience is to ask for something harder instead."
    },
    {
-    "title": "Start where their story already goes",
-    "verse_label": "v. 9",
-    "text": "The king had an exodus and a name for God, and Aaron built on both. Before you supply a framework, find out what the person already carries that points the right way."
+    "title": "Name the two sentences that are troubling you",
+    "verse_label": "v. 5–6",
+    "text": "The king does not say he is generally unsettled. He quotes what Ammon said about the Spirit of the Lord and about repentance, and asks about both. Being able to name the specific claim that is bothering you is most of the way to an answer."
    },
    {
-    "title": "Pray with the doubt in the sentence",
+    "title": "Answer the hedged position rather than the ideal one",
+    "verse_label": "v. 7",
+    "text": "Asked whether he believes in God, the king gives what he actually has, \"I know that the Amalekites say that there is a God.\" Aaron works from that. Start where the person is standing rather than where you would like them to be."
+   },
+   {
+    "title": "Ask what to do, not what to think",
+    "verse_label": "v. 15",
+    "text": "The turning question in the chapter is practical, \"What shall I do that I may have this eternal life... that I may be born of God, having this wicked spirit rooted out of my breast?\" When you want something changed, ask for the action."
+   },
+   {
+    "title": "Give the answer as steps",
+    "verse_label": "v. 16",
+    "text": "Aaron's reply is a sequence: bow down, repent of all your sins, call on his name in faith, believing that ye shall receive. Four verbs and no theory. What people can do with is a list."
+   },
+   {
+    "title": "Pray the conditional if that is what you have",
     "verse_label": "v. 18",
-    "text": "The king said if there is a God and gave away his sins anyway. You do not have to resolve the question first; say the conditional out loud and make the offer inside it."
+    "text": "The prayer builds on two \"ifs\" and offers something unconditional in return, \"if there is a God, and if thou art God, wilt thou make thyself known unto me, and I will give away all my sins to know thee.\" Bring the honest version."
    },
    {
-    "title": "Act to stop the crowd forming",
+    "title": "Act to prevent the harm rather than to prove the point",
     "verse_label": "v. 22",
-    "text": "Aaron saw where the gathering was heading and moved before it arrived. Where you can see a conflict assembling, do the defusing thing early instead of preparing to survive it."
+    "text": "Aaron raises the king because he foresaw \"a great contention and a disturbance among them.\" The public miracle in the chapter is performed as crowd control, and its first result is a household converted."
+   },
+   {
+    "title": "Use the authority you have to open a door for others",
+    "verse_label": "v. 26–27",
+    "text": "The king's first acts after his own conversion are to have Aaron preach to the multitude and to send a proclamation across the whole land. What he does with the position is spend it on access for somebody else."
    }
   ],
   "questions": [
@@ -365,7 +395,7 @@
     "w2": 11,
     "quote": "he is that Great Spirit"
    },
-   "reason": "the identification Ammon made for this king’s son, in the same words",
+   "reason": "the same words, said to this king's son",
    "targets": [
     {
      "ref": "Alma",
@@ -379,7 +409,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al18-008"
   },
   {
    "id": "al22-002",
@@ -405,7 +435,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al20-010"
   },
   {
    "id": "al22-003",
@@ -417,7 +447,7 @@
     "w2": 54,
     "quote": "raised the king from the earth"
    },
-   "reason": "Abish raising the queen of Ishmael by the hand, three chapters back",
+   "reason": "Abish raising the queen by the hand, three chapters back",
    "targets": [
     {
      "ref": "Alma",
@@ -431,7 +461,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al19-012"
   },
   {
    "id": "al22-004",
@@ -460,6 +490,110 @@
    "mirror": "al23-001"
   },
   {
+   "id": "al22-010",
+   "scope": "BOOK",
+   "head": "Alma 20:27",
+   "anchor": {
+    "verse": 1,
+    "w1": 34,
+    "w2": 42,
+    "quote": "led by the Spirit to the land of Nephi,"
+   },
+   "reason": "the old king promising to receive Ammon's brethren",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 20,
+     "verse": 27,
+     "w1": 20,
+     "w2": 25,
+     "quote": "thy brethren may come unto me,",
+     "verse_text": "And I will also grant unto thee that thy brethren may be cast out of prison, and thou and thy brethren may come unto me, in my kingdom; for I shall greatly desire to see thee. For the king was greatly astonished at the words which he had spoken, and also at the words which had been spoken by his son Lamoni, therefore he was desirous to learn them.",
+     "markdown": "And I will also grant unto thee that thy brethren may be cast out of prison, and thou and **thy brethren may come unto me**, in my kingdom; for I shall greatly desire to see thee. For the king was greatly astonished at the words which he had spoken, and also at the words which had been spoken by his son Lamoni, therefore he was desirous to learn them.",
+     "span": true
+    }
+   ],
+   "mirror": "al20-002"
+  },
+  {
+   "id": "al22-011",
+   "scope": "BOOK",
+   "head": "Alma 18:24",
+   "anchor": {
+    "verse": 7,
+    "w1": 9,
+    "w2": 15,
+    "quote": "Believest thou that there is a God?"
+   },
+   "reason": "Ammon putting the same question to the son",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 18,
+     "verse": 24,
+     "w1": 14,
+     "w2": 20,
+     "quote": "Believest thou that there is a God?",
+     "verse_text": "And Ammon began to speak unto him with boldness, and said unto him: Believest thou that there is a God?",
+     "markdown": "And Ammon began to speak unto him with boldness, and said unto him: **Believest thou that there is a God**?",
+     "span": true
+    }
+   ],
+   "mirror": "al18-002"
+  },
+  {
+   "id": "al22-012",
+   "scope": "BOOK",
+   "head": "Alma 19:17",
+   "anchor": {
+    "verse": 17,
+    "w1": 28,
+    "w2": 32,
+    "quote": "prostrate himself upon the earth,"
+   },
+   "reason": "the household lying on the ground in Lamoni's house",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 19,
+     "verse": 17,
+     "w1": 40,
+     "w2": 44,
+     "quote": "lay prostrate upon the earth,",
+     "verse_text": "Thus, having been converted to the Lord, and never having made it known, therefore, when she saw that all the servants of Lamoni had fallen to the earth, and also her mistress, the queen, and the king, and Ammon lay prostrate upon the earth, she knew that it was the power of God; and supposing that this opportunity, by making known unto the people what had happened among them, that by beholding this scene it would cause them to believe in the power of God, therefore she ran forth from house to house, making it known unto the people.",
+     "markdown": "Thus, having been converted to the Lord, and never having made it known, therefore, when she saw that all the servants of Lamoni had fallen to the earth, and also her mistress, the queen, and the king, and Ammon **lay prostrate upon the earth**, she knew that it was the power of God; and supposing that this opportunity, by making known unto the people what had happened among them, that by beholding this scene it would cause them to believe in the power of God, therefore she ran forth from house to house, making it known unto the people.",
+     "span": true
+    }
+   ],
+   "mirror": "al19-003"
+  },
+  {
+   "id": "al22-014",
+   "scope": "BOOK",
+   "head": "Alma 63:5",
+   "anchor": {
+    "verse": 31,
+    "w1": 12,
+    "w2": 28,
+    "quote": "the land on the northward was called Desolation, and the land on the southward was called Bountiful,"
+   },
+   "reason": "Hagoth launching from where the two lands meet",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 63,
+     "verse": 5,
+     "w1": 25,
+     "w2": 35,
+     "quote": "on the borders of the land Bountiful, by the land Desolation,",
+     "verse_text": "And it came to pass that Hagoth, he being an exceedingly curious man, therefore he went forth and built him an exceedingly large ship, on the borders of the land Bountiful, by the land Desolation, and launched it forth into the west sea, by the narrow neck which led into the land northward.",
+     "markdown": "And it came to pass that Hagoth, he being an exceedingly curious man, therefore he went forth and built him an exceedingly large ship, **on the borders of the land Bountiful, by the land Desolation**, and launched it forth into the west sea, by the narrow neck which led into the land northward.",
+     "span": true
+    }
+   ],
+   "mirror": "al63-003"
+  },
+  {
    "id": "al22-005",
    "scope": "BOM",
    "head": "Mosiah 2:19",
@@ -483,7 +617,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos02-024"
   },
   {
    "id": "al22-006",
@@ -495,7 +629,7 @@
     "w2": 45,
     "quote": "that I may be born of God"
    },
-   "reason": "the Lord’s own statement of the requirement, given to Alma",
+   "reason": "the Lord's own statement of the requirement, given to Alma",
    "targets": [
     {
      "ref": "Mosiah",
@@ -509,7 +643,59 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos27-025"
+  },
+  {
+   "id": "al22-013",
+   "scope": "BOM",
+   "head": "Hel. 3:6",
+   "anchor": {
+    "verse": 30,
+    "w1": 2,
+    "w2": 10,
+    "quote": "it bordered upon the land which they called Desolation,"
+   },
+   "reason": "the land northward described as desolate and treeless",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 3,
+     "verse": 6,
+     "w1": 32,
+     "w2": 35,
+     "quote": "it was called desolate.",
+     "verse_text": "And now no part of the land was desolate, save it were for timber; but because of the greatness of the destruction of the people who had before inhabited the land it was called desolate.",
+     "markdown": "And now no part of the land was desolate, save it were for timber; but because of the greatness of the destruction of the people who had before inhabited the land **it was called desolate**.",
+     "span": true
+    }
+   ],
+   "mirror": "hel03-004"
+  },
+  {
+   "id": "al22-015",
+   "scope": "BOM",
+   "head": "Ether 10:20",
+   "anchor": {
+    "verse": 32,
+    "w1": 49,
+    "w2": 63,
+    "quote": "there being a small neck of land between the land northward and the land southward."
+   },
+   "reason": "the Jaredite city built on the same narrow neck",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 10,
+     "verse": 20,
+     "w1": 4,
+     "w2": 12,
+     "quote": "a great city by the narrow neck of land,",
+     "verse_text": "And they built a great city by the narrow neck of land, by the place where the sea divides the land.",
+     "markdown": "And they built **a great city by the narrow neck of land**, by the place where the sea divides the land.",
+     "span": true
+    }
+   ],
+   "mirror": "eth10-007"
   },
   {
    "id": "al22-007",
@@ -521,7 +707,7 @@
     "w2": 55,
     "quote": "the sting of death should be swallowed up"
    },
-   "reason": "the cry over the grave Aaron is quoting to a king",
+   "reason": "the cry over the grave Aaron quotes to a king",
    "targets": [
     {
      "ref": "1 Cor.",
@@ -547,7 +733,7 @@
     "w2": 28,
     "quote": "What shall I do that I may have this eternal life"
    },
-   "reason": "the Philippian jailer asking it at the same hour of the night",
+   "reason": "the Philippian jailer asking it at the same hour",
    "targets": [
     {
      "ref": "Acts",
@@ -573,7 +759,7 @@
     "w2": 93,
     "quote": "I will forsake my kingdom"
    },
-   "reason": "the same offer required of a rich man who would not make it",
+   "reason": "the same offer, refused by a rich man",
    "targets": [
     {
      "ref": "Matt.",
@@ -592,12 +778,30 @@
  ],
  "markers": [
   {
+   "verse": 1,
+   "w1": 34,
+   "w2": 42,
+   "quote": "led by the Spirit to the land of Nephi,",
+   "entries": [
+    "al22-010"
+   ]
+  },
+  {
    "verse": 2,
    "w1": 38,
    "w2": 44,
    "quote": "whom thou hast delivered out of prison",
    "entries": [
     "al22-002"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 9,
+   "w2": 15,
+   "quote": "Believest thou that there is a God?",
+   "entries": [
+    "al22-011"
    ]
   },
   {
@@ -655,6 +859,15 @@
    ]
   },
   {
+   "verse": 17,
+   "w1": 28,
+   "w2": 32,
+   "quote": "prostrate himself upon the earth,",
+   "entries": [
+    "al22-012"
+   ]
+  },
+  {
    "verse": 22,
    "w1": 49,
    "w2": 54,
@@ -671,10 +884,37 @@
    "entries": [
     "al22-004"
    ]
+  },
+  {
+   "verse": 30,
+   "w1": 2,
+   "w2": 10,
+   "quote": "it bordered upon the land which they called Desolation,",
+   "entries": [
+    "al22-013"
+   ]
+  },
+  {
+   "verse": 31,
+   "w1": 12,
+   "w2": 28,
+   "quote": "the land on the northward was called Desolation, and the land on the southward was called Bountiful,",
+   "entries": [
+    "al22-014"
+   ]
+  },
+  {
+   "verse": 32,
+   "w1": 49,
+   "w2": 63,
+   "quote": "there being a small neck of land between the land northward and the land southward.",
+   "entries": [
+    "al22-015"
+   ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "479b87b5a3b420be"
+  "at": "2026-09-07",
+  "source_sha256": "d4e7d1f1171a1600"
  }
 }

@@ -15,16 +15,38 @@
   "principles": [
    "Prisoners set to build their own prison",
    "An oath kept by watching",
-   ""
+   "Sons who never took it"
   ],
-  "connections": 9,
+  "connections": 11,
   "initial": true
  },
  "world_behind": [
   {
    "n": 1,
    "title": "The prisoners bury the dead first",
-   "text": "Verse 1 has them compelled to bury both armies' dead under guard. The chapter opens on the work of clearing a battlefield."
+   "text": "Verse 1 has prisoners compelled to bury both armies' dead under guard. Alma 44:22 had disposed of an earlier battle by casting the dead into the waters of Sidon, and Alma 16:11 left a field unburied for years. The record gives three different answers to the same problem.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 44:22",
+     "start": 71,
+     "end": 81,
+     "book": "Alma",
+     "chapter": 44,
+     "verse_start": 22,
+     "verse_end": 22
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 16:11",
+     "start": 166,
+     "end": 176,
+     "book": "Alma",
+     "chapter": 16,
+     "verse_start": 11,
+     "verse_end": 11
+    }
+   ]
   },
   {
    "n": 2,
@@ -44,17 +66,61 @@
   {
    "n": 5,
    "title": "Losses in the west are blamed on Nephite dissension",
-   "text": "Verses 8 and 9 say intrigue among themselves cost a number of cities while Moroni was away."
+   "text": "Verses 8 and 9 say intrigue and dissension among themselves cost a number of cities on the west sea while Moroni was away. Alma 51:5 to 21 is the intrigue they mean, the king-men refusing to take up arms, and Alma 51:26 lists what the east coast lost at the same time.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 51:5",
+     "start": 123,
+     "end": 132,
+     "book": "Alma",
+     "chapter": 51,
+     "verse_start": 5,
+     "verse_end": 5
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 51:26",
+     "start": 209,
+     "end": 219,
+     "book": "Alma",
+     "chapter": 51,
+     "verse_start": 26,
+     "verse_end": 26
+    }
+   ]
   },
   {
    "n": 6,
    "title": "The people of Ammon nearly break their oath",
-   "text": "Verses 13 and 14 have them moved with compassion and about to take up arms, and Helaman's persuasion stops them."
+   "text": "Verses 13 and 14 have the people of Ammon moved with compassion and about to take up arms, until Helaman's persuasion stops them. Alma 24:17 and 18 records the oath they would have broken, and Alma 56:7 and 8 has Helaman retell this same moment in a letter three chapters later.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 24:17",
+     "start": 130,
+     "end": 140,
+     "book": "Alma",
+     "chapter": 24,
+     "verse_start": 17,
+     "verse_end": 17
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 56:7",
+     "start": 193,
+     "end": 202,
+     "book": "Alma",
+     "chapter": 56,
+     "verse_start": 7,
+     "verse_end": 7
+    }
+   ]
   },
   {
    "n": 7,
    "title": "The sons never entered the covenant",
-   "text": "Verse 16 says they had not taken it, so they assemble, call themselves Nephites, and covenant to fight. Two thousand of them."
+   "text": "Verse 16 leaves them free to gather, take the Nephite name, and swear to fight. Two thousand of them."
   }
  ],
  "words": [
@@ -66,7 +132,7 @@
   {
    "term": "Intrigue",
    "verse_label": "v. 8",
-   "text": "Underhand scheming. The word occurs twice in this record and never in the King James Bible, both in this chapter. Mormon names it as the reason Moroni was absent and cities were lost."
+   "text": "Underhand scheming. Two uses here, both inside this chapter, and none in the King James Bible. Mormon names it as the reason Moroni was absent and cities were lost."
   },
   {
    "term": "Compassion",
@@ -81,12 +147,24 @@
   {
    "term": "Activity",
    "verse_label": "v. 20",
-   "text": "Physical vigor and readiness. The word occurs once in this record and once in the King James Bible, where Pharaoh asks Joseph whether any of his brethren are men of activity. Mormon lists it with courage and strength."
+   "text": "Physical vigor and readiness. The word turns up once here, and once in the King James Bible, where Pharaoh asks Joseph whether any of his brethren are men of activity. Mormon lists it with courage and strength."
   },
   {
    "term": "Stripling",
    "verse_label": "v. 22",
-   "text": "A youth, not yet a grown man. The word occurs twice in this record and once in the King James Bible, where Saul asks whose son the stripling David is. Mormon uses it of the two thousand at the moment they march."
+   "text": "A youth, not yet a grown man. Two uses in this record against one in the King James Bible, where Saul asks whose son the stripling David is (1 Sam. 17:56). Mormon uses it of the two thousand at the moment they march.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Sam. 17:56",
+     "start": 141,
+     "end": 153,
+     "book": "1 Sam",
+     "chapter": 17,
+     "verse_start": 56,
+     "verse_end": 56
+    }
+   ]
   }
  ],
  "phrases": [
@@ -143,58 +221,78 @@
   {
    "term": "Helaman did march at the head of his two thousand stripling soldiers",
    "verse_label": "v. 22",
-   "text": "The march that opens Alma 56 through 58. Mormon gives it in one verse here and returns to it three chapters later in Helaman's own words."
+   "text": "The march that opens Alma 56 through 58. Mormon gives it in one verse here and returns to it three chapters later in Helaman's own words (Alma 56:9).",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 56:9",
+     "start": 138,
+     "end": 147,
+     "book": "Alma",
+     "chapter": 56,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
   }
  ],
  "verses": [
   {
-   "label": "v. 1–2",
-   "start": 1,
+   "label": "v. 2",
+   "start": 2,
    "end": 2,
-   "title": "After the battle",
-   "text": "Guards are set over the prisoners, who are made to bury the dead of both armies. Moroni gives Mulek to Lehi, a man who had been with him through most of his battles, like him, and beloved by him and by the people."
-  },
-  {
-   "label": "v. 3–5",
-   "start": 3,
-   "end": 5,
-   "title": "The wall at Bountiful",
-   "text": "The prisoners are marched to Bountiful and set to dig a ditch, build a breastwork of timbers on its inner bank, and cast the earth against it. The city becomes a stronghold, and they are held inside the wall they built, because laboring prisoners are easier to guard."
-  },
-  {
-   "label": "v. 6–7",
-   "start": 6,
-   "end": 7,
-   "title": "The account so far",
-   "text": "Moroni has beaten one of the greatest Lamanite armies, taken Mulek, and built a prison. He attempts no more battles that year, employing his men in fortifying, feeding the armies, and delivering women and children from famine."
+   "title": "A character reference supplied for a name already in use",
+   "text": "The record stops to vouch for a man it has mentioned before: \"this Lehi was a man who had been with Moroni in the more part of all his battles; and he was a man like unto Moroni.\" Neither clause advances the action. The first establishes service and the second makes a comparison to the chapter's central figure, and the effect is that a reader who meets Lehi later at Alma 43:35 or Alma 52:27 knows what weight to give him.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 43:35",
+     "start": 369,
+     "end": 379,
+     "book": "Alma",
+     "chapter": 43,
+     "verse_start": 35,
+     "verse_end": 35
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 52:27",
+     "start": 383,
+     "end": 393,
+     "book": "Alma",
+     "chapter": 52,
+     "verse_start": 27,
+     "verse_end": 27
+    }
+   ]
   },
   {
    "label": "v. 8–9",
    "start": 8,
    "end": 9,
-   "title": "The western losses",
-   "text": "In Moroni's absence, and because of intrigue and dissension among the Nephites, the Lamanites gain ground on the west sea and take a number of cities. Mormon says the internal quarrels put them in the most dangerous circumstances."
+   "title": "A defeat blamed on politics, twice in two verses",
+   "text": "The record does not credit the enemy with the loss. Verse 8 attributes it to internal trouble, the Lamanites gained ground \"in the absence of Moroni on account of some intrigue amongst the Nephites, which caused dissensions amongst them.\" Verse 9 says it again in different words: \"because of iniquity amongst themselves, yea, because of dissensions and intrigue among themselves they were placed in the most dangerous circumstances.\" Two verses, two statements of the same cause, and no description of the fighting at all."
   },
   {
    "label": "v. 10–15",
    "start": 10,
    "end": 15,
-   "title": "The oath tested",
-   "text": "The people of Ammon, converted Lamanites protected by the Nephites, are kept from arms by their oath and would have perished by it. Seeing what the Nephites bear for them, they are moved to fight. Helaman persuades them not to break the covenant, fearing for their souls, so they watch instead."
+   "title": "An oath that forbids the obvious response",
+   "text": "The record sets out the constraint before the crisis: they \"had taken an oath that they never would shed blood more.\" Then it reports the pressure, that seeing \"the many afflictions and tribulations which the Nephites bore for them, they were moved with compassion and were desirous to take up arms in the defence of their country.\" Verse 15 gives the intervention and its stated reason: \"Helaman feared lest by so doing they should lose their souls; therefore all those who had entered into this covenant were compelled to behold their brethren wade through their afflictions.\""
   },
   {
-   "label": "v. 16–19",
+   "label": "v. 16",
    "start": 16,
-   "end": 19,
-   "title": "The sons",
-   "text": "Their sons had never entered the covenant. As many as could bear arms assemble, call themselves Nephites, and covenant to fight for Nephite liberty and never to give it up. Two thousand of them, and they want Helaman to lead them."
+   "end": 16,
+   "title": "The loophole stated with legal precision",
+   "text": "The way out is not a reinterpretation of the oath but a fact about who took it: \"they had many sons, who had not entered into a covenant that they would not take their weapons of war to defend themselves against their enemies.\" The record specifies the parties rather than the principle. Nobody is released from anything, and no argument is made that the oath should be read differently. What changes is that a group exists which never made it."
   },
   {
-   "label": "v. 20–23",
+   "label": "v. 20–21",
    "start": 20,
-   "end": 23,
-   "title": "What they were",
-   "text": "Young, valiant for courage, strength, and activity, and true at all times in whatever they were trusted with. Men of truth and soberness, taught to keep the commandments and walk uprightly. Helaman marches at their head to the southern border by the west sea."
+   "end": 21,
+   "title": "A description that refuses to stop at the physical",
+   "text": "The record lists the obvious qualities and then breaks off: \"they were all young men, and they were exceedingly valiant for courage, and also for strength and activity; but behold, this was not all.\" What follows is different in kind, \"they were men who were true at all times in whatsoever thing they were entrusted,\" and verse 21 adds \"men of truth and soberness, for they had been taught to keep the commandments of God.\" The dash marks the point where the record declines to let an army be described by its fitness."
   }
  ],
  "chapter": [
@@ -206,7 +304,7 @@
   {
    "n": 2,
    "title": "Labor is used because guards are scarce",
-   "text": "The policy is presented as a manpower calculation rather than as cruelty or cleverness. Moroni wanted his whole force free."
+   "text": "Verse 5 gives the reason in the record's own words, \"Moroni was compelled to cause the Lamanites to labor, because it was easy to guard them while at their labor.\" The same verse notes what the prisoners built, \"even within a wall which they had caused them to build with their own hands,\" and verse 4 describes the works, \"a breastwork of timbers upon the inner bank of the ditch.\" Verse 5 also states the result, \"this city became an exceeding stronghold ever after.\" The labor is entered as a guard-to-prisoner ratio problem, and the fortification is a by-product."
   },
   {
    "n": 3,
@@ -242,14 +340,19 @@
  "world_in_front": {
   "applications": [
    {
+    "title": "Keep someone who is glad you are alive",
+    "verse_label": "v. 2",
+    "text": "Mormon stops the campaign to say that Moroni and Lehi rejoiced in each other's safety. Under long pressure, having a person whose relief at your survival has nothing to do with your usefulness is a provision, not a luxury."
+   },
+   {
     "title": "Give the work to the people you are watching",
     "verse_label": "v. 5",
     "text": "Moroni set prisoners to labor because it took fewer guards. Where you are spending effort supervising, consider whether the task itself could do the supervising."
    },
    {
-    "title": "Watch for the pressure that comes from love",
-    "verse_label": "v. 13",
-    "text": "The people of Ammon nearly broke their oath out of compassion. The hardest challenges to a commitment usually arrive as a good reason rather than a temptation."
+    "title": "Look for the ground lost while you were away",
+    "verse_label": "v. 8–9",
+    "text": "Cities by the west sea fell during Moroni's absence, and the record traces it to intrigue and dissension among the Nephites themselves. Trouble at the center shows up as territory lost at the edges, usually before anybody connects the two."
    },
    {
     "title": "Keep the promise when keeping it is costly",
@@ -257,9 +360,24 @@
     "text": "Mormon says plainly they would have perished by it. Before you make a commitment, consider what it would look like to keep it on the worst day."
    },
    {
+    "title": "Watch for the pressure that comes from love",
+    "verse_label": "v. 13",
+    "text": "The people of Ammon nearly broke their oath out of compassion. The hardest challenges to a commitment usually arrive as a good reason rather than a temptation."
+   },
+   {
+    "title": "Let the next generation make its own covenant",
+    "verse_label": "v. 17",
+    "text": "The sons had never entered their parents' oath, and they swore one of their own instead of inheriting the old one. A commitment somebody else made on your behalf constrains you; one you make yourself carries you."
+   },
+   {
     "title": "Be the one who is true at all times",
     "verse_label": "v. 20",
     "text": "Mormon ranked reliability above courage in two thousand soldiers. Decide to be someone whose word holds in the small things nobody is checking."
+   },
+   {
+    "title": "Credit the teaching behind the character",
+    "verse_label": "v. 21",
+    "text": "Mormon explains the young men's steadiness by noting they had been taught to keep the commandments and to walk uprightly. When someone holds up under pressure, somebody spent years on that long before the pressure arrived."
    }
   ],
   "questions": [
@@ -344,7 +462,7 @@
     "w2": 18,
     "quote": "a breastwork of timbers upon the inner bank of the ditch"
    },
-   "reason": "the same design at Ammonihah, described from the attacker’s side",
+   "reason": "the same design at Ammonihah, described from the attacker's side",
    "targets": [
     {
      "ref": "Alma",
@@ -410,7 +528,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al27-012"
+  },
+  {
+   "id": "al53-010",
+   "scope": "BOOK",
+   "head": "Alma 56:9",
+   "anchor": {
+    "verse": 22,
+    "w1": 15,
+    "w2": 19,
+    "quote": "his two thousand stripling soldiers,"
+   },
+   "reason": "Helaman's own letter about the same march",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 56,
+     "verse": 9,
+     "w1": 22,
+     "w2": 34,
+     "quote": "I, Helaman, did march at the head of these two thousand young men",
+     "verse_text": "But behold, here is one thing in which we may have great joy. For behold, in the twenty and sixth year, I, Helaman, did march at the head of these two thousand young men to the city of Judea, to assist Antipus, whom ye had appointed a leader over the people of that part of the land.",
+     "markdown": "But behold, here is one thing in which we may have great joy. For behold, in the twenty and sixth year, **I, Helaman, did march at the head of these two thousand young men** to the city of Judea, to assist Antipus, whom ye had appointed a leader over the people of that part of the land.",
+     "span": true
+    }
+   ],
+   "mirror": "al56-002"
   },
   {
    "id": "al53-005",
@@ -422,7 +566,7 @@
     "w2": 18,
     "quote": "a breastwork of timbers upon the inner bank of the ditch"
    },
-   "reason": "the record’s other breastwork, built for Noah’s seats",
+   "reason": "the record's other breastwork, built for Noah's seats",
    "targets": [
     {
      "ref": "Mosiah",
@@ -436,7 +580,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos11-026"
   },
   {
    "id": "al53-006",
@@ -448,7 +592,7 @@
     "w2": 31,
     "quote": "to behold their brethren wade through their afflictions"
    },
-   "reason": "the same figure used of Lehi’s family in the wilderness",
+   "reason": "the same figure used of Lehi's family in the wilderness",
    "targets": [
     {
      "ref": "1 Ne.",
@@ -462,7 +606,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "1ne17-013"
+  },
+  {
+   "id": "al53-011",
+   "scope": "BOM",
+   "head": "3 Ne. 2:12",
+   "anchor": {
+    "verse": 13,
+    "w1": 24,
+    "w2": 41,
+    "quote": "they were moved with compassion and were desirous to take up arms in the defence of their country."
+   },
+   "reason": "the later generation taking up arms at last",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 2,
+     "verse": 12,
+     "w1": 20,
+     "w2": 37,
+     "quote": "were compelled, for the safety of their lives and their women and their children, to take up arms",
+     "verse_text": "Therefore, all the Lamanites who had become converted unto the Lord did unite with their brethren, the Nephites, and were compelled, for the safety of their lives and their women and their children, to take up arms against those Gadianton robbers, yea, and also to maintain their rights, and the privileges of their church and of their worship, and their freedom and their liberty.",
+     "markdown": "Therefore, all the Lamanites who had become converted unto the Lord did unite with their brethren, the Nephites, and **were compelled, for the safety of their lives and their women and their children, to take up arms** against those Gadianton robbers, yea, and also to maintain their rights, and the privileges of their church and of their worship, and their freedom and their liberty.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne02-005"
   },
   {
    "id": "al53-007",
@@ -474,7 +644,7 @@
     "w2": 19,
     "quote": "his two thousand stripling soldiers"
    },
-   "reason": "the King James Bible’s one use of the word, of David before Goliath",
+   "reason": "the Bible's one use, of David before Goliath",
    "targets": [
     {
      "ref": "1 Sam.",
@@ -526,7 +696,7 @@
     "w2": 37,
     "quote": "a wall which they had caused them to build with their own hands"
    },
-   "reason": "builders working with one hand and holding a weapon in the other",
+   "reason": "builders working one-handed, a weapon in the other",
    "targets": [
     {
      "ref": "Neh.",
@@ -582,6 +752,15 @@
    ]
   },
   {
+   "verse": 13,
+   "w1": 24,
+   "w2": 41,
+   "quote": "they were moved with compassion and were desirous to take up arms in the defence of their country.",
+   "entries": [
+    "al53-011"
+   ]
+  },
+  {
    "verse": 15,
    "w1": 24,
    "w2": 31,
@@ -612,14 +791,15 @@
    "verse": 22,
    "w1": 15,
    "w2": 19,
-   "quote": "his two thousand stripling soldiers",
+   "quote": "his two thousand stripling soldiers,",
    "entries": [
+    "al53-010",
     "al53-007"
    ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "109284f38eef515a"
+  "at": "2026-09-07",
+  "source_sha256": "47dedee3a25eb0c6"
  }
 }

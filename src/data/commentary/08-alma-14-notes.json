@@ -17,7 +17,7 @@
    "Witness",
    "Deliverance withheld"
   ],
-  "connections": 5,
+  "connections": 14,
   "initial": true
  },
  "world_behind": [
@@ -29,12 +29,24 @@
   {
    "n": 2,
    "title": "The charge is reviling the law",
-   "text": "Verse 5 has the people witnessing that Alma and Amulek reviled the law and the lawyers and judges. Amulek had said in so many words that he spoke in favor of their law. The trial proceeds on the accusation the accused already answered."
+   "text": "Verse 5 has the people witnessing that Alma and Amulek reviled the law and the lawyers and judges. Amulek had said in so many words that he spoke in favor of their law (Alma 10:26). The trial proceeds on the accusation the accused already answered.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 10:26",
+     "start": 169,
+     "end": 179,
+     "book": "Alma",
+     "chapter": 10,
+     "verse_start": 26,
+     "verse_end": 26
+    }
+   ]
   },
   {
    "n": 3,
    "title": "Zeezrom breaks first, and publicly",
-   "text": "He does not slip away. He cries out that he is guilty and that these men are spotless, pleads for them, and is spat on and cast out for it. His conversion costs him the city inside a single verse."
+   "text": "He does not slip away. He takes the guilt on himself and clears the prisoners aloud, pleads for them, and is spat on and cast out for it. His conversion costs him the city inside a single verse."
   },
   {
    "n": 4,
@@ -79,15 +91,35 @@
    ]
   },
   {
+   "term": "Consciousness",
+   "verse_label": "v. 6",
+   "text": "Awareness of one's own state. The word appears five times in this record and never in the King James Bible. Zeezrom's soul is harrowed up \"under a consciousness of his own guilt\" (v. 6), and what he is conscious of is named precisely. The record saves the word for people who have just understood what they did.",
+   "cites": [
+    {
+     "quote": "under a consciousness of his own guilt",
+     "verse": 6,
+     "start": 138,
+     "end": 185,
+     "spans": [
+      {
+       "w1": 46,
+       "w2": 52,
+       "text": "under a consciousness of his own guilt"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "term": "Spotless",
    "verse_label": "v. 7",
-   "text": "Without blemish, the old requirement for anything offered. Zeezrom says \"I am guilty, and these men are spotless before God\" (v. 7), which is a sacrificial word applied to two men about to be bound. The sentence divides the room into one man who knows what he is and two who are about to be treated as offerings.",
+   "text": "Without blemish, the old requirement for anything offered. Treated at 2 Nephi 33:7. Zeezrom says \"I am guilty, and these men are spotless before God\" (v. 7), which is a sacrificial word applied to two men about to be bound. The sentence divides the room into one man who knows what he is and two who are about to be treated as offerings.",
    "cites": [
     {
      "quote": "I am guilty, and these men are spotless before God",
      "verse": 7,
-     "start": 72,
-     "end": 131,
+     "start": 97,
+     "end": 156,
      "spans": [
       {
        "w1": 16,
@@ -141,13 +173,13 @@
   {
    "term": "Twain",
    "verse_label": "v. 27",
-   "text": "Two. The walls of the prison \"were rent in twain\" (v. 27), and rent in twain is the exact phrase Matthew uses of the temple veil at the crucifixion. Both are barriers torn from top to bottom at a moment of death, and in both the tearing is what people see first.",
+   "text": "Two. Treated at 2 Nephi 16:2. The walls of the prison \"were rent in twain\" (v. 27), and rent in twain is the exact phrase Matthew uses of the temple veil at the crucifixion. Both are barriers torn from top to bottom at a moment of death, and in both the tearing is what people see first.",
    "cites": [
     {
      "quote": "were rent in twain",
      "verse": 27,
-     "start": 29,
-     "end": 57,
+     "start": 54,
+     "end": 82,
      "spans": [
       {
        "w1": 39,
@@ -203,60 +235,54 @@
  ],
  "verses": [
   {
-   "label": "v. 1–5",
-   "start": 1,
-   "end": 5,
-   "title": "Believers, and a charge",
-   "text": "Many believe and begin to search the scriptures. The rest want the preachers dead, first quietly and then by law. They are bound and taken to the chief judge, and the people testify that they reviled the law."
+   "label": "v. 10–11",
+   "start": 10,
+   "end": 11,
+   "title": "A request refused, with the reason given at once",
+   "text": "The record preserves Amulek's proposal in his own words: \"How can we witness this awful scene? Therefore let us stretch forth our hands, and exercise the power of God which is in us, and save them from the flames.\" The refusal names its constraint and then its purpose: \"The Spirit constraineth me that I must not stretch forth mine hand; for behold the Lord receiveth them up unto himself, in glory... that the judgments which he shall exercise upon them in his wrath may be just.\" The reason offered is about the persecutors' sentencing, not about the victims."
   },
   {
-   "label": "v. 6–7",
-   "start": 6,
-   "end": 7,
-   "title": "Zeezrom turns",
-   "text": "He is astonished, then aware of the blindness he caused, then harrowed by his own guilt. He cries out that he is guilty and the prisoners are spotless. They ask whether he is possessed, spit on him, and throw him out."
-  },
-  {
-   "label": "v. 8–10",
-   "start": 8,
-   "end": 10,
-   "title": "The fire",
-   "text": "Believing wives and children are cast in, and the scriptures with them. Alma and Amulek are brought to watch. Amulek asks how they can witness it and proposes using the power they have."
-  },
-  {
-   "label": "v. 11–13",
-   "start": 11,
+   "label": "v. 12–13",
+   "start": 12,
    "end": 13,
-   "title": "The restraint",
-   "text": "Alma answers that the Spirit forbids it, that the Lord receives them in glory, and that the deed is permitted so that the judgments against the city will stand. Amulek asks whether they will burn too. Alma says the work is not finished."
+   "title": "A fear stated and a prediction with a stated basis",
+   "text": "Amulek says the obvious thing: \"Behold, perhaps they will burn us also.\" The answer accepts the possibility and then denies it on grounds that can be checked against the rest of the book: \"Be it according to the will of the Lord. But, behold, our work is not finished; therefore they burn us not.\" A character makes a falsifiable claim about his own survival inside the scene, and the reason he gives is a piece of work still outstanding."
   },
   {
-   "label": "v. 14–17",
-   "start": 14,
-   "end": 17,
-   "title": "The judge",
-   "text": "He strikes them, says their God did not save the burned, and asks what they say for themselves. The record identifies his allegiance. They answer nothing, and he sends them to prison."
-  },
-  {
-   "label": "v. 18–22",
-   "start": 18,
+   "label": "v. 17–22",
+   "start": 17,
    "end": 22,
-   "title": "Days of it",
-   "text": "Lawyers, judges, priests and teachers of Nehor's profession come to question them and get silence. The judge demands speech and gets silence. Then striking, gnashing, spitting, mockery, hunger, thirst and stripping, for many days."
+   "title": "What was said, and what was not",
+   "text": "The record keeps both sides of the silence. \"Alma and Amulek answered him nothing\" (v. 17), and again in verse 18 they \"answered him nothing.\" Against that it preserves the taunts as speech: \"Know ye not that I have power to deliver you up unto the flames?\" and \"How shall we look when we are damned?\" Verse 22 sums the treatment in physical terms, gnashing, spitting, mocking \"for many days,\" and food and water withheld. The two prisoners contribute no dialogue at all for six verses.",
+   "cites": [
+    {
+     "quote": "Alma and Amulek answered him nothing",
+     "verse": 17,
+     "start": 44,
+     "end": 90,
+     "spans": [
+      {
+       "w1": 7,
+       "w2": 12,
+       "text": "Alma and Amulek answered him nothing"
+      }
+     ]
+    }
+   ]
   },
   {
-   "label": "v. 23–29",
+   "label": "v. 23",
    "start": 23,
-   "end": 29,
-   "title": "The prison falls",
-   "text": "On a dated day the leaders come and each in turn tells them to deliver themselves. When the last has spoken, they stand. Alma prays, the cords break, the earth shakes, the walls tear, and everyone who mocked them is killed by the fall. The two walk out unhurt."
+   "end": 23,
+   "title": "The most precise date in the book, in brackets",
+   "text": "One parenthesis fixes the moment to the day: \"(and it was on the twelfth day, in the tenth month, in the tenth year of the reign of the judges over the people of Nephi).\" Only ten verses in the whole volume name a numbered day of a month, and this is the only one in the Ammonihah episode. The precision arrives at the point where the imprisonment ends, and the sentence around it is otherwise a plain report of the chief judge coming in to smite them again."
   }
  ],
  "chapter": [
   {
    "n": 1,
    "title": "The miracle is withheld first and given later",
-   "text": "The same power that breaks the prison could have stopped the fire. The chapter puts the restraint before the rescue so that the reader cannot read the deliverance as evidence that God intervenes whenever he can."
+   "text": "Verse 10 has the request made explicitly, \"let us stretch forth our hands, and exercise the power of God which is in us,\" and verse 11 has it refused with a reason, \"The Spirit constraineth me that I must not stretch forth mine hand.\" Sixteen verses later the same power arrives, and verse 28 states the ground in the same terms as the refusal, \"the Lord had granted unto them power, according to their faith which was in Christ.\" The withholding and the granting are attributed to one source in one chapter, and the withholding comes first."
   },
   {
    "n": 2,
@@ -286,30 +312,84 @@
   {
    "n": 7,
    "title": "Everything burned is replaceable except the people",
-   "text": "The scriptures went into the same fire. The city that destroyed the text is destroyed in the next chapter but one, and nothing in the record suggests the two facts are unrelated."
+   "text": "Verse 8 lists what was burned without a break, \"wives and children\" and \"their records which contained the holy scriptures.\" The record puts the books in the same clause as the people and does not comment. Alma 16:9–11 reports the city destroyed \"in one day\" and renamed Desolation of Nehors, and Alma 16:2 dates it to the eleventh year, two chapters and roughly three years later. The burning of a text and the erasure of the city that burned it are recorded without a word connecting them.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 16:9–11",
+     "start": 206,
+     "end": 218,
+     "book": "Alma",
+     "chapter": 16,
+     "verse_start": 9,
+     "verse_end": 11
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 16:2",
+     "start": 297,
+     "end": 306,
+     "book": "Alma",
+     "chapter": 16,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
   }
  ],
  "world_in_front": {
   "applications": [
    {
-    "title": "Accept that you may be held back",
-    "verse_label": "v. 11",
-    "text": "Alma had the power and was stopped. When you are able to fix something and something in you says not to, that is a recognized position in this book and not a failure of faith."
-   },
-   {
     "title": "Confess to the people you misled",
     "verse_label": "v. 7",
-    "text": "Zeezrom did it out loud, to the crowd he had deceived, and it cost him. A private acknowledgment would have been easier and would not have been the same act."
+    "text": "Zeezrom did it out loud, to the crowd he had deceived, \"Behold, I am guilty, and these men are spotless before God,\" and it cost him: they reviled him and cast him out. A private acknowledgment would have been easier and would not have been the same act."
+   },
+   {
+    "title": "Accept that you may be held back",
+    "verse_label": "v. 10–11",
+    "text": "Amulek asked to use the power and Alma refused with a reason, \"The Spirit constraineth me that I must not stretch forth mine hand.\" When you are able to fix something and something in you says not to, that is a recognized position in this book and not a failure of faith."
+   },
+   {
+    "title": "Say what you can see rather than what you can explain",
+    "verse_label": "v. 11",
+    "text": "Alma does not account for why the fire is permitted. He states what he knows, that the Lord \"receiveth them up unto himself, in glory,\" and that the blood will stand as a witness. When you cannot answer the question, say the part you can and stop there."
    },
    {
     "title": "Say nothing when you have said everything",
     "verse_label": "v. 17–19",
-    "text": "Silence under questioning is a real answer here, chosen by men who had already spoken. Notice the difference between not having a reply and having finished giving one."
+    "text": "Silence under questioning is a real answer here, chosen by men who had already spoken, and the record repeats it twice, \"Alma and Amulek answered him nothing.\" Notice the difference between not having a reply and having finished giving one."
+   },
+   {
+    "title": "Notice how long the ordinary part lasts",
+    "verse_label": "v. 22–23",
+    "text": "Between the burning and the deliverance the record puts many days of mockery, spitting, hunger and thirst, and then a precise date, \"the twelfth day, in the tenth month, in the tenth year.\" Most of what is endured in this chapter is not dramatic, and the record counts it anyway."
    },
    {
     "title": "Let the complaint into the prayer",
     "verse_label": "v. 26",
-    "text": "The record keeps \"how long\" in front of the petition. Try praying the honest first sentence before the acceptable second one, and see whether the second changes."
+    "text": "The record keeps \"How long shall we suffer these great afflictions, O Lord?\" in front of the petition. Try praying the honest first sentence before the acceptable second one, and see whether the second changes."
+   },
+   {
+    "title": "Ask according to a specified object",
+    "verse_label": "v. 26, 28",
+    "text": "The request is \"give us strength according to our faith which is in Christ,\" and verse 28 reports the outcome in the same words. The faith in this chapter is never left as a general disposition; it always has something named after it."
+   },
+   {
+    "title": "Walk out and keep walking",
+    "verse_label": "v. 28–29",
+    "text": "They came forth unhurt and the record says they \"straightway came forth out of the prison,\" and Alma 15:1 has them leaving the city entirely. A deliverance is not the same as a vindication, and this one does not stop to collect an apology.",
+    "refs": [
+     {
+      "kind": "scripture",
+      "text": "Alma 15:1",
+      "start": 96,
+      "end": 105,
+      "book": "Alma",
+      "chapter": 15,
+      "verse_start": 1,
+      "verse_end": 1
+     }
+    ]
    }
   ],
   "questions": [
@@ -382,7 +462,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al15-006"
   },
   {
    "id": "al14-002",
@@ -408,7 +488,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al01-030"
   },
   {
    "id": "al14-003",
@@ -434,7 +514,241 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al16-009"
+  },
+  {
+   "id": "al14-006",
+   "scope": "BOOK",
+   "head": "Alma 15:1",
+   "anchor": {
+    "verse": 1,
+    "w1": 26,
+    "w2": 33,
+    "quote": "began to repent, and to search the scriptures."
+   },
+   "reason": "where the believers went after being driven out",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 15,
+     "verse": 1,
+     "w1": 35,
+     "w2": 46,
+     "quote": "all the people who had departed out of the land of Ammonihah,",
+     "verse_text": "And it came to pass that Alma and Amulek were commanded to depart out of that city; and they departed, and came out even into the land of Sidom; and behold, there they found all the people who had departed out of the land of Ammonihah, who had been cast out and stoned, because they believed in the words of Alma.",
+     "markdown": "And it came to pass that Alma and Amulek were commanded to depart out of that city; and they departed, and came out even into the land of Sidom; and behold, there they found **all the people who had departed out of the land of Ammonihah**, who had been cast out and stoned, because they believed in the words of Alma.",
+     "span": true
+    }
+   ],
+   "mirror": "al15-001"
+  },
+  {
+   "id": "al14-007",
+   "scope": "BOOK",
+   "head": "Alma 12:8",
+   "anchor": {
+    "verse": 6,
+    "w1": 7,
+    "w2": 9,
+    "quote": "Zeezrom was astonished"
+   },
+   "reason": "the inquiry Zeezrom had begun",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 12,
+     "verse": 8,
+     "w1": 3,
+     "w2": 8,
+     "quote": "began to inquire of them diligently,",
+     "verse_text": "And Zeezrom began to inquire of them diligently, that he might know more concerning the kingdom of God. And he said unto Alma: What does this mean which Amulek hath spoken concerning the resurrection of the dead, that all shall rise from the dead, both the just and the unjust, and are brought to stand before God to be judged according to their works?",
+     "markdown": "And Zeezrom **began to inquire of them diligently**, that he might know more concerning the kingdom of God. And he said unto Alma: What does this mean which Amulek hath spoken concerning the resurrection of the dead, that all shall rise from the dead, both the just and the unjust, and are brought to stand before God to be judged according to their works?",
+     "span": true
+    }
+   ],
+   "mirror": "al12-002"
+  },
+  {
+   "id": "al14-008",
+   "scope": "BOOK",
+   "head": "Alma 10:23",
+   "anchor": {
+    "verse": 8,
+    "w1": 2,
+    "w2": 8,
+    "quote": "they brought their wives and children together,"
+   },
+   "reason": "Amulek's warning about casting out the righteous",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 10,
+     "verse": 23,
+     "w1": 16,
+     "w2": 25,
+     "quote": "if ye will cast out the righteous from among you",
+     "verse_text": "But it is by the prayers of the righteous that ye are spared; now therefore, if ye will cast out the righteous from among you then will not the Lord stay his hand; but in his fierce anger he will come out against you; then ye shall be smitten by famine, and by pestilence, and by the sword; and the time is soon at hand except ye repent.",
+     "markdown": "But it is by the prayers of the righteous that ye are spared; now therefore, **if ye will cast out the righteous from among you** then will not the Lord stay his hand; but in his fierce anger he will come out against you; then ye shall be smitten by famine, and by pestilence, and by the sword; and the time is soon at hand except ye repent.",
+     "span": true
+    }
+   ],
+   "mirror": "al10-005"
+  },
+  {
+   "id": "al14-009",
+   "scope": "BOOK",
+   "head": "Alma 25:8",
+   "anchor": {
+    "verse": 9,
+    "w1": 13,
+    "w2": 20,
+    "quote": "carried them forth to the place of martyrdom,"
+   },
+   "reason": "the only other use of the word",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 25,
+     "verse": 8,
+     "w1": 1,
+     "w2": 3,
+     "quote": "Now this martyrdom",
+     "verse_text": "Now this martyrdom caused that many of their brethren should be stirred up to anger; and there began to be contention in the wilderness; and the Lamanites began to hunt the seed of Amulon and his brethren and began to slay them; and they fled into the east wilderness.",
+     "markdown": "**Now this martyrdom** caused that many of their brethren should be stirred up to anger; and there began to be contention in the wilderness; and the Lamanites began to hunt the seed of Amulon and his brethren and began to slay them; and they fled into the east wilderness.",
+     "span": true
+    }
+   ],
+   "mirror": "al25-002"
+  },
+  {
+   "id": "al14-011",
+   "scope": "BOOK",
+   "head": "Alma 1:9",
+   "anchor": {
+    "verse": 16,
+    "w1": 2,
+    "w2": 11,
+    "quote": "this judge was after the order and faith of Nehor,"
+   },
+   "reason": "the killing that identifies this order",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 1,
+     "verse": 9,
+     "w1": 42,
+     "w2": 47,
+     "quote": "he was slain by the sword.",
+     "verse_text": "Now, because Gideon withstood him with the words of God he was wroth with Gideon, and drew his sword and began to smite him. Now Gideon being stricken with many years, therefore he was not able to withstand his blows, therefore he was slain by the sword.",
+     "markdown": "Now, because Gideon withstood him with the words of God he was wroth with Gideon, and drew his sword and began to smite him. Now Gideon being stricken with many years, therefore he was not able to withstand his blows, therefore **he was slain by the sword**.",
+     "span": true
+    }
+   ],
+   "mirror": "al01-001"
+  },
+  {
+   "id": "al14-012",
+   "scope": "BOOK",
+   "head": "Alma 9:32",
+   "anchor": {
+    "verse": 17,
+    "w1": 24,
+    "w2": 28,
+    "quote": "to be cast into prison."
+   },
+   "reason": "the threat made when Alma first preached",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 9,
+     "verse": 32,
+     "w1": 33,
+     "w2": 36,
+     "quote": "cast me into prison.",
+     "verse_text": "And also because I said unto them that they were a lost and a fallen people they were angry with me, and sought to lay their hands upon me, that they might cast me into prison.",
+     "markdown": "And also because I said unto them that they were a lost and a fallen people they were angry with me, and sought to lay their hands upon me, that they might **cast me into prison**.",
+     "span": true
+    }
+   ],
+   "mirror": "al09-004"
+  },
+  {
+   "id": "al14-013",
+   "scope": "BOOK",
+   "head": "Alma 8:31",
+   "anchor": {
+    "verse": 26,
+    "w1": 31,
+    "w2": 40,
+    "quote": "And they broke the cords with which they were bound;"
+   },
+   "reason": "the power they were told to wait for",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 8,
+     "verse": 31,
+     "w1": 28,
+     "w2": 43,
+     "quote": "they did not exercise their power until they were bound in bands and cast into prison.",
+     "verse_text": "And they had power given unto them, insomuch that they could not be confined in dungeons; neither was it possible that any man could slay them; nevertheless they did not exercise their power until they were bound in bands and cast into prison. Now, this was done that the Lord might show forth his power in them.",
+     "markdown": "And they had power given unto them, insomuch that they could not be confined in dungeons; neither was it possible that any man could slay them; nevertheless **they did not exercise their power until they were bound in bands and cast into prison**. Now, this was done that the Lord might show forth his power in them.",
+     "span": true
+    }
+   ],
+   "mirror": "al08-004"
+  },
+  {
+   "id": "al14-010",
+   "scope": "BOM",
+   "head": "Mosiah 17:10",
+   "anchor": {
+    "verse": 11,
+    "w1": 72,
+    "w2": 83,
+    "quote": "the blood of the innocent shall stand as a witness against them,"
+   },
+   "reason": "Abinadi saying it at his own burning",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 17,
+     "verse": 10,
+     "w1": 26,
+     "w2": 34,
+     "quote": "if ye slay me ye will shed innocent blood,",
+     "verse_text": "Yea, and I will suffer even until death, and I will not recall my words, and they shall stand as a testimony against you. And if ye slay me ye will shed innocent blood, and this shall also stand as a testimony against you at the last day.",
+     "markdown": "Yea, and I will suffer even until death, and I will not recall my words, and they shall stand as a testimony against you. And **if ye slay me ye will shed innocent blood**, and this shall also stand as a testimony against you at the last day.",
+     "span": true
+    }
+   ],
+   "mirror": "mos17-011"
+  },
+  {
+   "id": "al14-014",
+   "scope": "BOM",
+   "head": "3 Ne. 28:19",
+   "anchor": {
+    "verse": 27,
+    "w1": 34,
+    "w2": 42,
+    "quote": "the walls of the prison were rent in twain,"
+   },
+   "reason": "the three disciples' prisons torn the same way",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 28,
+     "verse": 19,
+     "w1": 16,
+     "w2": 28,
+     "quote": "And the prisons could not hold them, for they were rent in twain.",
+     "verse_text": "And they were cast into prison by them who did not belong to the church. And the prisons could not hold them, for they were rent in twain.",
+     "markdown": "And they were cast into prison by them who did not belong to the church. **And the prisons could not hold them, for they were rent in twain**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne28-006"
   },
   {
    "id": "al14-004",
@@ -491,12 +805,30 @@
  ],
  "markers": [
   {
+   "verse": 1,
+   "w1": 26,
+   "w2": 33,
+   "quote": "began to repent, and to search the scriptures.",
+   "entries": [
+    "al14-006"
+   ]
+  },
+  {
    "verse": 3,
    "w1": 20,
    "w2": 26,
    "quote": "they sought to put them away privily",
    "entries": [
     "al14-004"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 7,
+   "w2": 9,
+   "quote": "Zeezrom was astonished",
+   "entries": [
+    "al14-007"
    ]
   },
   {
@@ -509,6 +841,24 @@
    ]
   },
   {
+   "verse": 8,
+   "w1": 2,
+   "w2": 8,
+   "quote": "they brought their wives and children together,",
+   "entries": [
+    "al14-008"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 13,
+   "w2": 20,
+   "quote": "carried them forth to the place of martyrdom,",
+   "entries": [
+    "al14-009"
+   ]
+  },
+  {
    "verse": 11,
    "w1": 56,
    "w2": 70,
@@ -518,26 +868,55 @@
    ]
   },
   {
+   "verse": 11,
+   "w1": 72,
+   "w2": 83,
+   "quote": "the blood of the innocent shall stand as a witness against them,",
+   "entries": [
+    "al14-010"
+   ]
+  },
+  {
    "verse": 16,
    "w1": 2,
    "w2": 11,
    "quote": "this judge was after the order and faith of Nehor",
    "entries": [
-    "al14-002"
+    "al14-002",
+    "al14-011"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 24,
+   "w2": 28,
+   "quote": "to be cast into prison.",
+   "entries": [
+    "al14-012"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 31,
+   "w2": 40,
+   "quote": "And they broke the cords with which they were bound;",
+   "entries": [
+    "al14-013"
    ]
   },
   {
    "verse": 27,
    "w1": 34,
    "w2": 42,
-   "quote": "the walls of the prison were rent in twain",
+   "quote": "the walls of the prison were rent in twain,",
    "entries": [
+    "al14-014",
     "al14-005"
    ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "e80107b1540c54fe"
+  "at": "2026-09-07",
+  "source_sha256": "b7b65469e5f545e0"
  }
 }

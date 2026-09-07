@@ -17,14 +17,26 @@
    "Partial deliverance",
    "Prayer"
   ],
-  "connections": 20,
+  "connections": 22,
   "initial": false
  },
  "world_behind": [
   {
    "n": 1,
    "title": "A prophecy fulfilled line by line",
-   "text": "Abinadi had said this generation would be brought into bondage, smitten on the cheek, driven by men, with burdens lashed on their backs, driven like a dumb ass. Verse 3 lists the same items in nearly the same words, and verse 4 states outright that all this was done so the word of the Lord might be fulfilled. The abridger does more than draw a parallel. He declares the prophecy settled."
+   "text": "Abinadi had said this generation would be brought into bondage, smitten on the cheek (Mosiah 12:2), driven by men, with burdens lashed on their backs, driven like a dumb ass. Verse 3 lists the same items in nearly the same words, and verse 4 states outright that all this was done so the word of the Lord might be fulfilled. The abridger does more than draw a parallel. He declares the prophecy settled.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 12:2",
+     "start": 86,
+     "end": 97,
+     "book": "Mosiah",
+     "chapter": 12,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
   },
   {
    "n": 2,
@@ -56,12 +68,12 @@
   {
    "term": "Durst",
    "verse_label": "v. 3",
-   "text": "Dared. The Lamanites durst not slay them, and the restraint is attributed to an oath rather than to mercy. The same verb described Noah's priests two chapters ago, where what stopped them was shame. Both times the word marks a limit somebody sets on himself."
+   "text": "Dared. Treated at 1 Nephi 22:29. The Lamanites durst not slay them, and the restraint is attributed to an oath rather than to mercy. The same verb described Noah's priests two chapters ago, where what stopped them was shame. Both times the word marks a limit somebody sets on himself."
   },
   {
    "term": "Murmur",
    "verse_label": "v. 6",
-   "text": "To complain in a low, continuous way, and in this record it is nearly always a prelude to a bad decision. The people murmur, the king is afflicted with their complaints, and he grants them the war they want. The verse says he granted it according to their desires."
+   "text": "To complain in a low, continuous way, and in this record it is nearly always a prelude to a bad decision. Treated at 1 Nephi 2:11. The people murmur, the king is afflicted with their complaints, and he grants them the war they want. The verse says he granted it according to their desires."
   },
   {
    "term": "Lamentation",
@@ -76,7 +88,19 @@
   {
    "term": "Impart",
    "verse_label": "v. 17",
-   "text": "To give a share of what you have. Limhi commands every man to impart to the support of the widows and their children. It is the verb Alma used for the same practice three chapters earlier, here issued as a command by a king. Alma's people took it up as a covenant."
+   "text": "To give a share of what you have. Treated at Mosiah 18:27. Limhi commands every man to impart to the support of the widows and their children. It is the verb Alma used for the same practice three chapters earlier, here issued as a command by a king. Alma's people took it up as a covenant.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 18:27",
+     "start": 45,
+     "end": 57,
+     "book": "Mosiah",
+     "chapter": 18,
+     "verse_start": 27,
+     "verse_end": 27
+    }
+   ]
   },
   {
    "term": "Study",
@@ -98,7 +122,7 @@
   {
    "term": "The widow mourning for her husband",
    "verse_label": "v. 9",
-   "text": "The casualty list given as relationships. Four categories, each naming who is left and who is gone. The phrase occurs once in scripture, and the verse that follows says there were a great many widows."
+   "text": "The casualty list given as relationships. Four categories, each naming who is left and who is gone. The phrase appears once in all of scripture, and the verse that follows says there were a great many widows."
   },
   {
    "term": "Their continual cries did stir up the remainder of the people",
@@ -108,12 +132,24 @@
   {
    "term": "The Lord was slow to hear their cry because of their iniquities",
    "verse_label": "v. 15",
-   "text": "Abinadi had said this in advance, in almost these words. The verse then does something unusual: it says the Lord did hear, did soften the Lamanites, did ease the burdens, and did not deliver them. Three partial answers and one refusal, in a single verse."
+   "text": "Abinadi had said this in advance, in almost these words (Mosiah 11:24). The verse then does something unusual: it says the Lord did hear, did soften the Lamanites, did ease the burdens, and did not deliver them. Three partial answers and one refusal, in a single verse.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 11:24",
+     "start": 57,
+     "end": 69,
+     "book": "Mosiah",
+     "chapter": 11,
+     "verse_start": 24,
+     "verse_end": 24
+    }
+   ]
   },
   {
    "term": "Yet the Lord did not see fit to deliver them out of bondage",
    "verse_label": "v. 15",
-   "text": "A refusal stated without explanation, and the clause occurs once in scripture. Three chapters later another group in bondage will have their burdens made light so they cannot feel them and will be delivered the next morning. The record puts the two accounts near each other and never compares them."
+   "text": "A refusal stated without explanation, and the clause occurs a single time in scripture. Three chapters later another group in bondage will have their burdens made light so they cannot feel them and will be delivered the next morning. The record puts the two accounts near each other and never compares them."
   },
   {
    "term": "A land which was covered with dry bones",
@@ -128,53 +164,56 @@
  ],
  "verses": [
   {
-   "label": "v. 1–5",
-   "start": 1,
-   "end": 5,
-   "title": "The prophecy, itemized",
-   "text": "Peace, then pressure, then a list of specific humiliations that match a sermon delivered nine chapters earlier almost word for word. Verse 4 states the connection outright. Verse 5 gives the military reality: surrounded on every side, with no way out."
-  },
-  {
    "label": "v. 6–12",
    "start": 6,
    "end": 12,
-   "title": "Three wars, all lost",
-   "text": "The people murmur the king into battle, are beaten, mourn, are stirred by the mourning into a second battle, lose, and go a third time. The record numbers the attempts and reports the same outcome three times. The repetition says the lesson took a while."
+   "title": "Three attempts, counted and identical",
+   "text": "The record numbers the sorties and refuses to vary the outcome. The first: \"they went forth against the Lamanites to drive them out of their land,\" and \"the Lamanites did beat them, and drove them back, and slew many of them.\" The second, at verse 11, after the widows' cries stirred the people to anger, ends the same way. The third is marked as such, \"yea, they went again even the third time, and suffered in the like manner.\" Three military failures are reported in six verses with no tactical detail at all, only the count and the result."
   },
   {
-   "label": "v. 13–15",
-   "start": 13,
+   "label": "v. 15",
+   "start": 15,
    "end": 15,
-   "title": "Humility, and a partial answer",
-   "text": "They humble themselves to the dust, submit to the yoke, and cry all day long. What comes back is softened Lamanite hearts and lighter burdens, and an explicit statement that deliverance was withheld. The verse gives the reason for the delay and none for the refusal."
+   "title": "A delayed answer, with the delay explained",
+   "text": "The record does not smooth over the interval between the prayer and the response: \"the Lord was slow to hear their cry because of their iniquities; nevertheless the Lord did hear their cries, and began to soften the hearts of the Lamanites.\" Both halves are stated flatly, the slowness and its cause, then the hearing. Verse 14 has already established what the people were doing in the meantime, crying \"even all the day long.\""
   },
   {
-   "label": "v. 16–19",
+   "label": "v. 16",
    "start": 16,
-   "end": 19,
-   "title": "Life inside the arrangement",
-   "text": "Grain, flocks, herds, no hunger, and a rule that every man support the widows. Then the detail that fixes the tone: the king will not go outside his own walls without guards. Prosperity by degrees, inside a cage."
+   "end": 16,
+   "title": "A phrase the volume otherwise uses for poison",
+   "text": "The recovery is described as gradual in a specific way: \"they began to prosper by degrees in the land, and began to raise grain more abundantly, and flocks, and herds.\" By degrees stands in two verses of the whole volume. The other is Alma 47:18, where Amalickiah \"caused that one of his servants should administer poison by degrees to Lehonti, that he died.\" The same adverbial phrase covers a nation recovering and a man being killed slowly, and the volume uses it nowhere else.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 47:18",
+     "start": 235,
+     "end": 245,
+     "book": "Alma",
+     "chapter": 47,
+     "verse_start": 18,
+     "verse_end": 18
+    }
+   ]
   },
   {
-   "label": "v. 20–22",
-   "start": 20,
-   "end": 22,
-   "title": "Hunting the priests",
-   "text": "Limhi's people watch the land for the men whose crime brought this on them, and the priests are still raiding, coming in by night for grain and precious things. The grievance has a practical edge as well as a moral one."
-  },
-  {
-   "label": "v. 25–28",
+   "label": "v. 25–27",
    "start": 25,
-   "end": 28,
-   "title": "Bones, plates, and a reader",
-   "text": "Sent for Zarahemla, lost, came back with a record engraved on plates of ore from a country covered with bones. Limhi's joy at verse 28 is about learning that somebody can read the plates."
-  },
-  {
-   "label": "v. 33–36",
-   "start": 33,
-   "end": 36,
-   "title": "Willing, and waiting",
-   "text": "A king and many of his people want baptism and there is nobody to perform it. Ammon refuses on grounds of unworthiness. They covenant anyway, defer the ordinance, and turn their whole attention to getting out."
+   "end": 27,
+   "title": "An expedition that failed and brought back a book",
+   "text": "The record reports the search party unsuccessful in its object and successful in something else: \"they could not find it,\" but \"they did find a land which had been peopled; yea, a land which was covered with dry bones.\" What they carried home is described with its medium named: \"they brought a record with them, even a record of the people whose bones they had found; and it was engraven on plates of ore.\" That object reappears at Mosiah 8:9 as twenty-four plates of pure gold, and it becomes the book of Ether.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 8:9",
+     "start": 433,
+     "end": 443,
+     "book": "Mosiah",
+     "chapter": 8,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
   }
  ],
  "chapter": [
@@ -191,7 +230,7 @@
   {
    "n": 3,
    "title": "Grief produces the next round of grief",
-   "text": "The widows' cries stir the survivors into a second defeat, which produces more widows. The record states the sequence plainly and draws nothing from it."
+   "text": "Verse 9 lists the mourners by relation, \"the widow mourning for her husband, the son and the daughter mourning for their father, and the brothers for their brethren.\" Verse 10 counts them, \"there were a great many widows in the land.\" Verse 11 makes the mourning a cause, \"their continual cries did stir up the remainder of the people of Limhi to anger... and they went again to battle, but they were driven back again.\" Verse 12 reports a third attempt with the same result. Three defeats and three rounds of grief, and the record supplies no comment on the loop."
   },
   {
    "n": 4,
@@ -503,7 +542,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos18-031"
   },
   {
    "id": "mos21-007",
@@ -529,7 +568,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos08-017"
   },
   {
    "id": "mos21-006",
@@ -659,7 +698,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos12-013"
   },
   {
    "id": "mos21-001",
@@ -686,6 +725,32 @@
     }
    ],
    "mirror": "mos12-007"
+  },
+  {
+   "id": "mos21-021",
+   "scope": "BOOK",
+   "head": "Mosiah 11:24",
+   "anchor": {
+    "verse": 15,
+    "w1": 3,
+    "w2": 14,
+    "quote": "the Lord was slow to hear their cry because of their iniquities;"
+   },
+   "reason": "the warning Abinadi gave their fathers",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 11,
+     "verse": 24,
+     "w1": 9,
+     "w2": 22,
+     "quote": "when they shall cry unto me I will be slow to hear their cries;",
+     "verse_text": "Yea, and it shall come to pass that when they shall cry unto me I will be slow to hear their cries; yea, and I will suffer them that they be smitten by their enemies.",
+     "markdown": "Yea, and it shall come to pass that **when they shall cry unto me I will be slow to hear their cries**; yea, and I will suffer them that they be smitten by their enemies.",
+     "span": true
+    }
+   ],
+   "mirror": "mos11-005"
   },
   {
    "id": "mos21-011",
@@ -737,7 +802,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "eth01-005"
+  },
+  {
+   "id": "mos21-022",
+   "scope": "BOM",
+   "head": "Alma 44:2",
+   "anchor": {
+    "verse": 13,
+    "w1": 13,
+    "w2": 16,
+    "quote": "the yoke of bondage,"
+   },
+   "reason": "the yoke Moroni refused to lay on anyone",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 44,
+     "verse": 2,
+     "w1": 28,
+     "w2": 31,
+     "quote": "the yoke of bondage.",
+     "verse_text": "Behold, we have not come out to battle against you that we might shed your blood for power; neither do we desire to bring any one to the yoke of bondage. But this is the very cause for which ye have come against us; yea, and ye are angry with us because of our religion.",
+     "markdown": "Behold, we have not come out to battle against you that we might shed your blood for power; neither do we desire to bring any one to **the yoke of bondage**. But this is the very cause for which ye have come against us; yea, and ye are angry with us because of our religion.",
+     "span": true
+    }
+   ],
+   "mirror": "al44-006"
   },
   {
    "id": "mos21-014",
@@ -848,12 +939,22 @@
    ]
   },
   {
+   "verse": 13,
+   "w1": 13,
+   "w2": 16,
+   "quote": "the yoke of bondage,",
+   "entries": [
+    "mos21-022"
+   ]
+  },
+  {
    "verse": 15,
    "w1": 3,
    "w2": 14,
    "quote": "the Lord was slow to hear their cry because of their iniquities",
    "entries": [
-    "mos21-003"
+    "mos21-003",
+    "mos21-021"
    ]
   },
   {
@@ -945,7 +1046,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "fed32e1a470ae4ca"
+  "at": "2026-09-07",
+  "source_sha256": "b2e2428ab525fefc"
  }
 }

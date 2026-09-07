@@ -71,7 +71,7 @@
   {
    "term": "Sufficeth",
    "verse_label": "v. 1",
-   "text": "An editor's word: enough for the purpose. Nephi does not say Jacob's other sermons were unimportant, only that what he has written satisfies what he set out to do. The verb appears at the seam between his brother's preaching and his own copying, and it is the closest this record comes to a statement about how much gets left out of it."
+   "text": "An editor's word: enough for the purpose. Treated at 1 Nephi 6:2. Nephi does not say Jacob's other sermons were unimportant, only that what he has written satisfies what he set out to do. The verb appears at the seam between his brother's preaching and his own copying, and it is the closest this record comes to a statement about how much gets left out of it."
   },
   {
    "term": "Witnesses",
@@ -90,6 +90,38 @@
        "text": "God sendeth more witnesses"
       }
      ]
+    }
+   ]
+  },
+  {
+   "term": "Proveth",
+   "verse_label": "v. 3",
+   "text": "To test, and so to establish. The form appears once in this record and once in the King James Bible, where the Lord proveth Israel by a false prophet's sign (Deut. 13:3). Nephi ends the verse with \"he proveth all his words\" (v. 3), which comes directly after the rule about three witnesses. The verb makes the method plain: a claim offered for testing is a different thing from a claim offered for belief.",
+   "cites": [
+    {
+     "quote": "he proveth all his words",
+     "verse": 3,
+     "start": 197,
+     "end": 230,
+     "spans": [
+      {
+       "w1": 53,
+       "w2": 57,
+       "text": "he proveth all his words"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Deut. 13:3",
+     "start": 158,
+     "end": 168,
+     "book": "Deut",
+     "chapter": 13,
+     "verse_start": 3,
+     "verse_end": 3
     }
    ]
   },
@@ -136,13 +168,13 @@
   {
    "term": "Fulness",
    "verse_label": "v. 7",
-   "text": "The word means completeness, a measure filled to the brim, so the coming is dated by ripeness rather than by calendar. Lehi had used the plain form in his blessings, saying the Messiah \"cometh in the fulness of time\" (2 Ne. 2:26). Nephi adds two words here, his own time, and the schedule becomes the property of the person keeping it.",
+   "text": "The word means completeness, a measure filled to the brim, so the coming is dated by ripeness rather than by calendar. Treated at 1 Nephi 6:4. Lehi had used the plain form in his blessings, saying the Messiah \"cometh in the fulness of time\" (2 Ne. 2:26). Nephi adds two words here, his own time, and the schedule becomes the property of the person keeping it.",
    "refs": [
     {
      "kind": "scripture",
      "text": "2 Ne. 2:26",
-     "start": 218,
-     "end": 228,
+     "start": 242,
+     "end": 252,
      "book": "2 Ne",
      "chapter": 2,
      "verse_start": 26,
@@ -155,7 +187,7 @@
   {
    "term": "My soul delighteth in his words",
    "verse_label": "v. 2",
-   "text": "The reason given for thirteen chapters of copying, and it is a personal one. Nephi first said it of \"the things of the Lord\" (2 Ne. 4:16) in his psalm; here the object narrows to one prophet's writing, and later he will say it of plainness and of Isaiah again. The formula sounds five times in these eight verses and takes six objects: Isaiah's words, proving the truth of Christ's coming, the covenants, grace, justice and mercy, and proving that without Christ all men must perish. Two of the six are delight in the act of persuading somebody, a telling thing to enjoy.",
+   "text": "The reason given for thirteen chapters of copying, and it is a personal one. Nephi first said it of \"the things of the Lord\" (2 Ne. 4:16) in his psalm; here the object narrows to one prophet's writing, and later he will say it of plainness and of Isaiah again. The formula sounds five times in these eight verses and takes six objects: Isaiah's words, proving the truth of Christ's coming, the covenants, grace, justice and mercy, and the proof that no man is saved apart from him. Two of the six are delight in the act of persuading somebody, a telling thing to enjoy.",
    "refs": [
     {
      "kind": "scripture",
@@ -287,14 +319,14 @@
    "start": 7,
    "end": 7,
    "title": "No general belief on offer",
-   "text": "The verse removes the option of holding a general belief in God while declining the specific one. It is the record's most compressed statement of that position, and it is stated as logic rather than as exhortation, which leaves the reader either agreeing or looking for the broken link."
+   "text": "The record puts the argument as a chain of three conditionals and then reverses it: \"if there be no Christ there be no God; and if there be no God we are not, for there could have been no creation. But there is a God, and he is Christ.\" The premise the reader is expected to grant is his own existence, and the conclusion reached from it is an identification. The verse runs to thirty-eight words and contains no exhortation, no scripture citation, and no address to the hearers, which is unusual in a chapter otherwise built on the word \"delight.\""
   },
   {
    "label": "v. 8",
    "start": 8,
    "end": 8,
    "title": "The handoff",
-   "text": "Nephi tells his readers what the coming chapters are for before they arrive: lift up your hearts, rejoice for all men, and liken these words to yourselves. The instruction is short and the block that follows is enormous. Everything the record does with Isaiah afterward is a working out of this one sentence."
+   "text": "The record supplies reading instructions immediately before its longest quotation: \"that whoso of my people shall see these words may lift up their hearts and rejoice for all men,\" and then \"ye may liken them unto you and unto all men.\" Two verbs govern thirteen chapters, 2 Nephi 12 through 24, which reproduce Isaiah 2 through 14. The same instruction is repeated at 1 Nephi 19:23, \"I did liken all scriptures unto us,\" and the phrase occurs nowhere else in these books. A block of quoted material is introduced by a rule for using it rather than by an argument for its truth."
   }
  ],
  "chapter": [
@@ -306,7 +338,19 @@
   {
    "n": 2,
    "title": "The chapter argues from sight",
-   "text": "Isaiah's authority in this chapter rests on his having seen the Redeemer, and the same credential is claimed for Jacob and for Nephi himself. Scripture is treated as testimony from people who were there, which is the standard the record applies to itself from its first chapter to its last."
+   "text": "Verses 2 and 3 name three men and give each the same qualification: \"Isaiah saw my Redeemer, even as I have seen him,\" \"my brother, Jacob, also has seen him as I have seen him,\" and \"by the words of three, God hath said, I will establish my word.\" The rule invoked at the end is Deuteronomy 19:15, three witnesses. Scripture is thus treated as testimony from people present, which is the standard the record applies to itself at 2 Nephi 27:12, Ether 5:4, and in the testimony pages of the volume.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 5:4",
+     "start": 444,
+     "end": 453,
+     "book": "Ether",
+     "chapter": 5,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
   },
   {
    "n": 3,
@@ -331,7 +375,7 @@
   {
    "n": 7,
    "title": "A hinge in a book made of hinges",
-   "text": "The small plates keep changing hands and modes: father to son, narrative to sermon, sermon to quotation. This chapter performs the change explicitly and briefly, and it is the last time Nephi speaks in his own voice for thirteen chapters."
+   "text": "The chapter runs to eight verses and does nothing but hand over. Chapters 6 through 10 have been Jacob speaking; chapters 12 through 24 will be Isaiah quoted; verse 8 states the transition, \"And now I write some of the words of Isaiah.\" What follows is thirteen chapters reproducing Isaiah 2 through 14, and the writer's own voice does not return until 2 Nephi 25:1. This is the shortest chapter in the book and the only one whose whole business is a change of speaker."
   }
  ],
  "world_in_front": {
@@ -613,7 +657,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "eth05-005"
   },
   {
    "id": "2ne11-005",
@@ -639,7 +683,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos13-012"
   },
   {
    "id": "2ne11-006",
@@ -665,7 +709,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al34-012"
   },
   {
    "id": "2ne11-007",
@@ -853,7 +897,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "3e97f46a3103d575"
+  "at": "2026-09-07",
+  "source_sha256": "78c741eedad22c8f"
  }
 }

@@ -1,0 +1,962 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "3 Nephi",
+  "book_slug": "3nephi",
+  "chapter": 9,
+  "volume_order": "10",
+  "speakers": [
+   "The voice of Christ, out of the darkness"
+  ],
+  "audience": "All the inhabitants of the land, unseen",
+  "location": "Everywhere on the land, in the dark",
+  "date": "AD 34, during the three days",
+  "unit": "The destruction and the visit (3 Nephi 8–11)",
+  "principles": [
+   "Sixteen cities named one at a time",
+   "A reason given for each",
+   "The end of sacrifice and what takes its place"
+  ],
+  "connections": 15,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The voice comes inside the three days of darkness",
+   "text": "3 Nephi 8:23 has the darkness lasting three days with mourning and howling; 3 Nephi 10:9 has it disperse on the morning of the fourth. Everything in this chapter is heard by people who cannot see anything at all."
+  },
+  {
+   "n": 2,
+   "title": "Seven of the names appear in the record only here",
+   "text": "Verses 3 through 10 list sixteen cities. Onihah, Mocum, Gadiandi, Gadiomnah, Gimgimno, Jacobugath and the city of Gad occur nowhere else in the volume, so seven places enter the record and leave it in the same sentence."
+  },
+  {
+   "n": 3,
+   "title": "A single reason repeats",
+   "text": "Verses 5, 7, 8, 9, and 11 each end with the blood of the prophets and the saints no longer crying against them. The stated purpose of the burying and the drowning is to stop a cry the record has been reporting since Helaman 13:24."
+  },
+  {
+   "n": 4,
+   "title": "Jacobugath is singled out, and the record has shown why",
+   "text": "Verse 9 names the people of king Jacob, whom 3 Nephi 7:12 has fleeing into the northernmost part of the land to build a kingdom of their own. The reader has already watched that secession happen."
+  },
+  {
+   "n": 5,
+   "title": "The end of sacrifice closes a practice a thousand years old",
+   "text": "Verses 19 and 20 stop the shedding of blood and the burnt offerings. 2 Nephi 5:10 has the Nephites keeping the law of Moses from their first settlement, and Alma 34:13 and 14 had said the whole meaning of the law pointed at a last sacrifice that would end them.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 34:13",
+     "start": 157,
+     "end": 167,
+     "book": "Alma",
+     "chapter": 34,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "The Lamanite baptism of fire is a back-reference",
+   "text": "Verse 20 says the Lamanites were baptized with fire and the Holy Ghost at their conversion and knew it not. Helaman 5:45 records the moment, and nothing in that chapter says the people understood what had happened to them."
+  }
+ ],
+ "words": [
+  {
+   "term": "Laugheth",
+   "verse_label": "v. 2",
+   "text": "Laughs. The word occurs once in the record and once in the King James Bible, at Job 41:29. Verse 2 gives it to the devil over the slain.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Job 41:29",
+     "start": 80,
+     "end": 89,
+     "book": "Job",
+     "chapter": 41,
+     "verse_start": 29,
+     "verse_end": 29
+    }
+   ]
+  },
+  {
+   "term": "Saints",
+   "verse_label": "v. 5",
+   "text": "Those set apart as holy. The record uses the word twenty-eight times, five of them in this chapter. Each use is in the phrase about blood crying up from the ground."
+  },
+  {
+   "term": "Stead",
+   "verse_label": "v. 7",
+   "text": "In place of. It appears forty-six times in the record, and the King James Bible ninety-four. Verse 7 has waters coming up in the stead of three cities."
+  },
+  {
+   "term": "Alpha",
+   "verse_label": "v. 18",
+   "text": "The first letter of the Greek alphabet. One use here, and four in the King James Bible, all in Revelation (Rev. 1:8), and always paired with Omega.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Rev. 1:8",
+     "start": 107,
+     "end": 115,
+     "book": "Rev",
+     "chapter": 1,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
+  },
+  {
+   "term": "Burnt",
+   "verse_label": "v. 19",
+   "text": "Consumed by fire, and in the phrase burnt offerings a form of sacrifice. The word turns up five times here, and the King James Bible three hundred and sixty-six. Verse 19 is where the practice ends."
+  },
+  {
+   "term": "Contrite",
+   "verse_label": "v. 20",
+   "text": "Treated at Helaman 8:15, of looking on the Son of God with faith. The record uses the word nine times. Verse 20 makes it half of the sacrifice that replaces the burnt offering."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "The devil laugheth, and his angels rejoice",
+   "verse_label": "v. 2",
+   "text": "The response of the enemy to the destruction. The verse pairs it with the slain being the fair sons and daughters of \"my people.\""
+  },
+  {
+   "term": "That great city Zarahemla have I burned with fire",
+   "verse_label": "v. 3",
+   "text": "The first city named, and the first sentence in the first person. What 3 Nephi 8:8 reported in six words is claimed here."
+  },
+  {
+   "term": "To hide their iniquities and their abominations from before my face",
+   "verse_label": "v. 5",
+   "text": "The stated purpose of the burying. The destruction is described as concealment rather than only as punishment."
+  },
+  {
+   "term": "That the blood of the prophets and the saints shall not come any more unto me against them",
+   "verse_label": "v. 5",
+   "text": "The clause that repeats through five verses. Blood crying from the ground is the charge the cities were answering."
+  },
+  {
+   "term": "It was they that did destroy the peace of my people and the government of the land",
+   "verse_label": "v. 9",
+   "text": "The specific charge against Jacobugath. 3 Nephi 7 had reported that destruction from the outside; this names it as the reason."
+  },
+  {
+   "term": "Because they did cast them all out, that there were none righteous among them",
+   "verse_label": "v. 11",
+   "text": "The condition Helaman 13:14 had set, reached. Casting out the righteous is what removed the protection."
+  },
+  {
+   "term": "O all ye that are spared because ye were more righteous than they",
+   "verse_label": "v. 13",
+   "text": "The survivors told plainly why they are alive. The sentence is a question about what they will do next."
+  },
+  {
+   "term": "Mine arm of mercy is extended towards you",
+   "verse_label": "v. 14",
+   "text": "The turn of the chapter. Alma 5:33 had used the same image of arms extended with an invitation attached.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 5:33",
+     "start": 25,
+     "end": 34,
+     "book": "Alma",
+     "chapter": 5,
+     "verse_start": 33,
+     "verse_end": 33
+    }
+   ]
+  },
+  {
+   "term": "I came unto my own, and my own received me not",
+   "verse_label": "v. 16",
+   "text": "The line John 1:11 gives about the same person in the same year, in the other hemisphere and the third person.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "John 1:11",
+     "start": 9,
+     "end": 18,
+     "book": "John",
+     "chapter": 1,
+     "verse_start": 11,
+     "verse_end": 11
+    }
+   ]
+  },
+  {
+   "term": "Ye shall offer for a sacrifice unto me a broken heart and a contrite spirit",
+   "verse_label": "v. 20",
+   "text": "What replaces the burnt offerings. The substitution is stated in the same breath as the abolition."
+  },
+  {
+   "term": "Whoso repenteth and cometh unto me as a little child, him will I receive",
+   "verse_label": "v. 22",
+   "text": "The last condition given in the chapter. Mosiah 3:19 had described becoming as a child in the same terms of submission.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 3:19",
+     "start": 41,
+     "end": 52,
+     "book": "Mosiah",
+     "chapter": 3,
+     "verse_start": 19,
+     "verse_end": 19
+    }
+   ]
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 3–10",
+   "start": 3,
+   "end": 10,
+   "title": "Sixteen cities, named one at a time",
+   "text": "The destruction is delivered as a catalogue. Sixteen cities are named in eight verses: Zarahemla, Moroni, Moronihah, Gilgal, Onihah, Mocum, Jerusalem, Gadiandi, Gadiomnah, Jacob, Gimgimno, Jacobugath, Laman, Josh, Gad, and Kishkumen. The word city is used sixteen times here and inhabitants eleven, and neither appears anywhere after verse 10. A record that could have said the land was destroyed instead spends eight verses on a roll of place names, four of which appear nowhere else in the volume."
+  },
+  {
+   "label": "v. 3–10",
+   "start": 3,
+   "end": 10,
+   "title": "Three methods, distributed across the list",
+   "text": "The verbs do not repeat mechanically. Zarahemla is burned with fire; Moroni is \"sunk in the depths of the sea\"; Moronihah is \"covered with earth\"; Gilgal is sunk and its people \"buried up in the depths of the earth\"; Onihah, Mocum and Jerusalem are sunk and \"waters have I caused to come up in the stead thereof\"; four more are sunk; and the last five are burned. Fire, water and earth are assigned city by city, and each clause is in the first person: \"have I burned,\" \"have I caused to be sunk,\" \"have I covered.\""
+  },
+  {
+   "label": "v. 5",
+   "start": 5,
+   "end": 5,
+   "title": "A destruction described as concealment",
+   "text": "One city is given a reason the others are not. Moronihah is covered with earth \"to hide their iniquities and their abominations from before my face, that the blood of the prophets and the saints shall not come up any more unto me against them.\" The burial is not stated as a punishment but as a way of putting something out of sight, and the thing being hidden is evidence that was crying out. It is the only verse in the list that explains the choice of method."
+  },
+  {
+   "label": "v. 9",
+   "start": 9,
+   "end": 9,
+   "title": "A name explained inside a judgment",
+   "text": "The list pauses once for an etymology: \"that great city Jacobugath, which was inhabited by the people of king Jacob.\" The reader is expected to connect this to 3 Ne. 7:9, where a secret combination sets up a man \"whom they did call Jacob\" as their king. A city name is glossed by pointing two chapters back, in the middle of a sentence about burning it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "3 Ne. 7:9",
+     "start": 160,
+     "end": 169,
+     "book": "3 Ne",
+     "chapter": 7,
+     "verse_start": 9,
+     "verse_end": 9
+    }
+   ]
+  },
+  {
+   "label": "v. 13",
+   "start": 13,
+   "end": 13,
+   "title": "The survivors are graded, not acquitted",
+   "text": "The record has the address to the living open on a comparative: \"O all ye that are spared because ye were more righteous than they, will ye not now return unto me, and repent of your sins, and be converted.\" The reason for their survival and the demand made of them sit in the same sentence and pull against each other. They were spared for being better, and are immediately told to repent. Nothing softens the first clause into an absolute."
+  },
+  {
+   "label": "v. 15–18",
+   "start": 15,
+   "end": 18,
+   "title": "Five self-identifications in four verses",
+   "text": "The record preserves a run of declarations in which the speaker names himself: \"I am Jesus Christ the Son of God,\" \"I created the heavens and the earth,\" \"I was with the Father from the beginning,\" \"I am the light and the life of the world,\" \"I am Alpha and Omega, the beginning and the end.\" Two of these are recognisable elsewhere. The last matches Rev. 1:8, and verse 16, \"I came unto my own, and my own received me not,\" matches John 1:11, where the same sentence is written in the third person about him. Here it is spoken in the first, by the person the Gospel is describing.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Rev. 1:8",
+     "start": 351,
+     "end": 359,
+     "book": "Rev",
+     "chapter": 1,
+     "verse_start": 8,
+     "verse_end": 8
+    },
+    {
+     "kind": "scripture",
+     "text": "John 1:11",
+     "start": 433,
+     "end": 442,
+     "book": "John",
+     "chapter": 1,
+     "verse_start": 11,
+     "verse_end": 11
+    }
+   ]
+  },
+  {
+   "label": "v. 19–20",
+   "start": 19,
+   "end": 20,
+   "title": "The old offering ended and a new one named",
+   "text": "The chapter's one legal instruction is a replacement: \"ye shall offer up unto me no more the shedding of blood; yea, your sacrifices and your burnt offerings shall be done away.\" What takes its place is given in the next verse: \"ye shall offer for a sacrifice unto me a broken heart and a contrite spirit.\" Ps. 51:17 makes the same substitution, \"the sacrifices of God are a broken spirit.\" The phrase returns three chapters later at 3 Ne. 12:19, where the same speaker uses it as the condition for coming to him.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ps. 51:17",
+     "start": 307,
+     "end": 316,
+     "book": "Ps",
+     "chapter": 51,
+     "verse_start": 17,
+     "verse_end": 17
+    },
+    {
+     "kind": "scripture",
+     "text": "3 Ne. 12:19",
+     "start": 434,
+     "end": 445,
+     "book": "3 Ne",
+     "chapter": 12,
+     "verse_start": 19,
+     "verse_end": 19
+    }
+   ]
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The cities are named one at a time",
+   "text": "Sixteen names across eight verses, each with a manner and a reason. The record refuses to give the destruction as a total."
+  },
+  {
+   "n": 2,
+   "title": "The repeated clause is about blood from the ground",
+   "text": "Five verses end the same way. The charge answered is the killing of prophets, named again and again."
+  },
+  {
+   "n": 3,
+   "title": "Destruction is described as hiding",
+   "text": "Verses 5, 7, and 8 say the burying was to hide their abominations from his face. The vocabulary is unexpected and consistent."
+  },
+  {
+   "n": 4,
+   "title": "The speaker waits twelve verses to say who he is",
+   "text": "Judgment comes first and the name at verse 15. The order puts identification after the invitation of verse 13."
+  },
+  {
+   "n": 5,
+   "title": "The survivors are given no credit beyond comparison",
+   "text": "Verse 13 rates them only against the dead, and asks whether they will now return."
+  },
+  {
+   "n": 6,
+   "title": "Sacrifice ends and is replaced in two verses",
+   "text": "Verse 19 abolishes and verse 20 substitutes. Nothing is left undefined between them."
+  },
+  {
+   "n": 7,
+   "title": "A past baptism is reinterpreted",
+   "text": "Verse 20 tells the survivors that the Lamanites of Helaman 5 had received the baptism of fire without knowing it at the time."
+  },
+  {
+   "n": 8,
+   "title": "The chapter ends on a child",
+   "text": "Verses 3 through 12 name sixteen cities and give a reason for each destruction. Verse 22 then states the terms of admission in one clause, \"whoso repenteth and cometh unto me as a little child, him will I receive, for of such is the kingdom of God.\" Verses 19 and 20 have already replaced the older requirement, \"ye shall offer up unto me no more the shedding of blood,\" with \"a broken heart and a contrite spirit.\" A chapter that lists sixteen ruined cities by name ends by naming the smallest possible qualification."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Name things one at a time",
+    "verse_label": "v. 3–10",
+    "text": "The voice lists sixteen cities rather than summarizing. Particulars carry weight that totals cannot."
+   },
+   {
+    "title": "Give the particular reason, not the general one",
+    "verse_label": "v. 9",
+    "text": "Jacobugath is singled out and the reason is stated: secret murders and combinations that destroyed the peace of the people and the government of the land. When you have to account for a hard judgment, the specific charge is the one that can be answered."
+   },
+   {
+    "title": "Ask what your survival is evidence of",
+    "verse_label": "v. 13",
+    "text": "They were told they were spared for being more righteous, and immediately asked to repent. Being on the better side of a comparison is not the same as being well."
+   },
+   {
+    "title": "Notice how wide the offer is",
+    "verse_label": "v. 14",
+    "text": "The sentence says whosoever will come, him will I receive, and adds no filter after it. When you make an offer of your own, check whether the conditions you attached were necessary or merely habitual."
+   },
+   {
+    "title": "Rejection did not change the coming",
+    "verse_label": "v. 16",
+    "text": "He states that he came to his own and his own received him not, and in the same breath that the scriptures concerning his coming are fulfilled. Doing what you said you would do does not depend on how it is received."
+   },
+   {
+    "title": "Give the substitute when you take something away",
+    "verse_label": "v. 19–20",
+    "text": "The burnt offering ends and the broken heart is named in the next sentence. Removing a practice without naming its replacement leaves a hole."
+   },
+   {
+    "title": "Consider that something already happened to you",
+    "verse_label": "v. 20",
+    "text": "They had been baptized with fire and did not know it. Not every real thing announces itself at the time."
+   },
+   {
+    "title": "Come as a child",
+    "verse_label": "v. 22",
+    "text": "After nineteen verses of catastrophe, the stated condition for being received is repenting and coming as a little child. What is asked for is not competence; it is a willingness to be small."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Whose fall would I be tempted to enjoy?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "What am I hiding rather than repairing?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "Who has been cast out of my circle, and what did that cost it?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "Why am I still standing where others are not?"
+   },
+   {
+    "verse_label": "v. 14",
+    "start": 14,
+    "end": 14,
+    "text": "What would it take for me to accept an arm extended toward me?"
+   },
+   {
+    "verse_label": "v. 20",
+    "start": 20,
+    "end": 20,
+    "text": "What would a broken heart and a contrite spirit look like in my week?"
+   },
+   {
+    "verse_label": "v. 22",
+    "start": 22,
+    "end": 22,
+    "text": "What in me is unwilling to come as a child?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "3ne09-001",
+   "scope": "BOOK",
+   "head": "3 Ne. 8:8",
+   "anchor": {
+    "verse": 3,
+    "w1": 2,
+    "w2": 10,
+    "quote": "that great city Zarahemla have I burned with fire"
+   },
+   "reason": "the same event reported from the outside, in six words",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 8,
+     "verse": 8,
+     "w1": 1,
+     "w2": 8,
+     "quote": "And the city of Zarahemla did take fire.",
+     "verse_text": "And the city of Zarahemla did take fire.",
+     "markdown": "**And the city of Zarahemla did take fire**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne08-001"
+  },
+  {
+   "id": "3ne09-002",
+   "scope": "BOOK",
+   "head": "3 Ne. 7:10",
+   "anchor": {
+    "verse": 9,
+    "w1": 7,
+    "w2": 15,
+    "quote": "which was inhabited by the people of king Jacob"
+   },
+   "reason": "the man they made king, and his reputation",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 7,
+     "verse": 10,
+     "w1": 18,
+     "w2": 31,
+     "quote": "he was one of the chiefest who had given his voice against the prophets",
+     "verse_text": "And they did call him their king; therefore he became a king over this wicked band; and he was one of the chiefest who had given his voice against the prophets who testified of Jesus.",
+     "markdown": "And they did call him their king; therefore he became a king over this wicked band; and **he was one of the chiefest who had given his voice against the prophets** who testified of Jesus.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne07-011"
+  },
+  {
+   "id": "3ne09-003",
+   "scope": "BOOK",
+   "head": "3 Ne. 11:10",
+   "anchor": {
+    "verse": 15,
+    "w1": 1,
+    "w2": 9,
+    "quote": "Behold, I am Jesus Christ the Son of God"
+   },
+   "reason": "the same words said in daylight, to people who saw",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 11,
+     "verse": 10,
+     "w1": 1,
+     "w2": 14,
+     "quote": "Behold, I am Jesus Christ, whom the prophets testified shall come into the world.",
+     "verse_text": "Behold, I am Jesus Christ, whom the prophets testified shall come into the world.",
+     "markdown": "**Behold, I am Jesus Christ, whom the prophets testified shall come into the world**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne11-002"
+  },
+  {
+   "id": "3ne09-004",
+   "scope": "BOOK",
+   "head": "3 Ne. 12:19",
+   "anchor": {
+    "verse": 20,
+    "w1": 10,
+    "w2": 16,
+    "quote": "a broken heart and a contrite spirit"
+   },
+   "reason": "the same offering named again in the temple sermon",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 12,
+     "verse": 19,
+     "w1": 30,
+     "w2": 40,
+     "quote": "come unto me with a broken heart and a contrite spirit.",
+     "verse_text": "And behold, I have given you the law and the commandments of my Father, that ye shall believe in me, and that ye shall repent of your sins, and come unto me with a broken heart and a contrite spirit. Behold, ye have the commandments before you, and the law is fulfilled.",
+     "markdown": "And behold, I have given you the law and the commandments of my Father, that ye shall believe in me, and that ye shall repent of your sins, and **come unto me with a broken heart and a contrite spirit**. Behold, ye have the commandments before you, and the law is fulfilled.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne12-001"
+  },
+  {
+   "id": "3ne09-011",
+   "scope": "BOOK",
+   "head": "3 Ne. 10:12",
+   "anchor": {
+    "verse": 11,
+    "w1": 2,
+    "w2": 15,
+    "quote": "because they did cast them all out, that there were none righteous among them,"
+   },
+   "reason": "the survivors named as the ones who received prophets",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 10,
+     "verse": 12,
+     "w1": 15,
+     "w2": 25,
+     "quote": "it was they who received the prophets and stoned them not;",
+     "verse_text": "And it was the more righteous part of the people who were saved, and it was they who received the prophets and stoned them not; and it was they who had not shed the blood of the saints, who were spared—",
+     "markdown": "And it was the more righteous part of the people who were saved, and **it was they who received the prophets and stoned them not**; and it was they who had not shed the blood of the saints, who were spared—",
+     "span": true
+    }
+   ],
+   "mirror": "3ne10-002"
+  },
+  {
+   "id": "3ne09-013",
+   "scope": "BOOK",
+   "head": "3 Ne. 24:4",
+   "anchor": {
+    "verse": 20,
+    "w1": 10,
+    "w2": 16,
+    "quote": "a broken heart and a contrite spirit."
+   },
+   "reason": "Malachi's offering of Judah, made pleasant again",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 24,
+     "verse": 4,
+     "w1": 1,
+     "w2": 13,
+     "quote": "Then shall the offering of Judah and Jerusalem be pleasant unto the Lord,",
+     "verse_text": "Then shall the offering of Judah and Jerusalem be pleasant unto the Lord, as in the days of old, and as in former years.",
+     "markdown": "**Then shall the offering of Judah and Jerusalem be pleasant unto the Lord**, as in the days of old, and as in former years.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne24-002"
+  },
+  {
+   "id": "3ne09-005",
+   "scope": "BOM",
+   "head": "Hel. 5:45",
+   "anchor": {
+    "verse": 20,
+    "w1": 57,
+    "w2": 70,
+    "quote": "were baptized with fire and with the Holy Ghost, and they knew it not"
+   },
+   "reason": "the moment in the prison being reinterpreted for them",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 5,
+     "verse": 45,
+     "w1": 20,
+     "w2": 33,
+     "quote": "they were filled as if with fire, and they could speak forth marvelous words.",
+     "verse_text": "And behold, the Holy Spirit of God did come down from heaven, and did enter into their hearts, and they were filled as if with fire, and they could speak forth marvelous words.",
+     "markdown": "And behold, the Holy Spirit of God did come down from heaven, and did enter into their hearts, and **they were filled as if with fire, and they could speak forth marvelous words**.",
+     "span": true
+    }
+   ],
+   "mirror": "hel05-016"
+  },
+  {
+   "id": "3ne09-006",
+   "scope": "BOM",
+   "head": "Alma 5:33",
+   "anchor": {
+    "verse": 14,
+    "w1": 18,
+    "w2": 26,
+    "quote": "Behold, mine arm of mercy is extended towards you"
+   },
+   "reason": "Alma using the same image, with the invitation attached",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 5,
+     "verse": 33,
+     "w1": 10,
+     "w2": 17,
+     "quote": "the arms of mercy are extended towards them,",
+     "verse_text": "Behold, he sendeth an invitation unto all men, for the arms of mercy are extended towards them, and he saith: Repent, and I will receive you.",
+     "markdown": "Behold, he sendeth an invitation unto all men, for **the arms of mercy are extended towards them**, and he saith: Repent, and I will receive you.",
+     "span": true
+    }
+   ],
+   "mirror": "al05-031"
+  },
+  {
+   "id": "3ne09-007",
+   "scope": "BOM",
+   "head": "Alma 34:13",
+   "anchor": {
+    "verse": 19,
+    "w1": 15,
+    "w2": 24,
+    "quote": "your sacrifices and your burnt offerings shall be done away"
+   },
+   "reason": "Amulek naming in advance the day bloodshed would stop",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 34,
+     "verse": 13,
+     "w1": 15,
+     "w2": 32,
+     "quote": "then shall there be, or it is expedient there should be, a stop to the shedding of blood;",
+     "verse_text": "Therefore, it is expedient that there should be a great and last sacrifice, and then shall there be, or it is expedient there should be, a stop to the shedding of blood; then shall the law of Moses be fulfilled; yea, it shall be all fulfilled, every jot and tittle, and none shall have passed away.",
+     "markdown": "Therefore, it is expedient that there should be a great and last sacrifice, and **then shall there be, or it is expedient there should be, a stop to the shedding of blood**; then shall the law of Moses be fulfilled; yea, it shall be all fulfilled, every jot and tittle, and none shall have passed away.",
+     "span": true
+    }
+   ],
+   "mirror": "al34-011"
+  },
+  {
+   "id": "3ne09-008",
+   "scope": "BOM",
+   "head": "Mosiah 3:19",
+   "anchor": {
+    "verse": 22,
+    "w1": 2,
+    "w2": 11,
+    "quote": "whoso repenteth and cometh unto me as a little child"
+   },
+   "reason": "Benjamin's angel describing what becoming as a child means",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 3,
+     "verse": 19,
+     "w1": 52,
+     "w2": 62,
+     "quote": "becometh as a child, submissive, meek, humble, patient, full of love,",
+     "verse_text": "For the natural man is an enemy to God, and has been from the fall of Adam, and will be, forever and ever, unless he yields to the enticings of the Holy Spirit, and putteth off the natural man and becometh a saint through the atonement of Christ the Lord, and becometh as a child, submissive, meek, humble, patient, full of love, willing to submit to all things which the Lord seeth fit to inflict upon him, even as a child doth submit to his father.",
+     "markdown": "For the natural man is an enemy to God, and has been from the fall of Adam, and will be, forever and ever, unless he yields to the enticings of the Holy Spirit, and putteth off the natural man and becometh a saint through the atonement of Christ the Lord, and **becometh as a child, submissive, meek, humble, patient, full of love**, willing to submit to all things which the Lord seeth fit to inflict upon him, even as a child doth submit to his father.",
+     "span": true
+    }
+   ],
+   "mirror": "mos03-019"
+  },
+  {
+   "id": "3ne09-012",
+   "scope": "BOM",
+   "head": "Mosiah 16:9",
+   "anchor": {
+    "verse": 18,
+    "w1": 1,
+    "w2": 10,
+    "quote": "I am the light and the life of the world."
+   },
+   "reason": "Abinadi giving the title in the third person",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 16,
+     "verse": 9,
+     "w1": 1,
+     "w2": 10,
+     "quote": "He is the light and the life of the world;",
+     "verse_text": "He is the light and the life of the world; yea, a light that is endless, that can never be darkened; yea, and also a life which is endless, that there can be no more death.",
+     "markdown": "**He is the light and the life of the world**; yea, a light that is endless, that can never be darkened; yea, and also a life which is endless, that there can be no more death.",
+     "span": true
+    }
+   ],
+   "mirror": "mos16-009"
+  },
+  {
+   "id": "3ne09-014",
+   "scope": "BOM",
+   "head": "Morm. 2:14",
+   "anchor": {
+    "verse": 20,
+    "w1": 10,
+    "w2": 16,
+    "quote": "a broken heart and a contrite spirit."
+   },
+   "reason": "Mormon's people withholding exactly this sacrifice",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 2,
+     "verse": 14,
+     "w1": 1,
+     "w2": 13,
+     "quote": "And they did not come unto Jesus with broken hearts and contrite spirits,",
+     "verse_text": "And they did not come unto Jesus with broken hearts and contrite spirits, but they did curse God, and wish to die. Nevertheless they would struggle with the sword for their lives.",
+     "markdown": "**And they did not come unto Jesus with broken hearts and contrite spirits**, but they did curse God, and wish to die. Nevertheless they would struggle with the sword for their lives.",
+     "span": true
+    }
+   ],
+   "mirror": "morm02-005"
+  },
+  {
+   "id": "3ne09-015",
+   "scope": "BOM",
+   "head": "Moro. 8:10",
+   "anchor": {
+    "verse": 22,
+    "w1": 2,
+    "w2": 11,
+    "quote": "whoso repenteth and cometh unto me as a little child,"
+   },
+   "reason": "Mormon on adults humbling themselves as their children",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 8,
+     "verse": 10,
+     "w1": 35,
+     "w2": 40,
+     "quote": "humble themselves as their little children,",
+     "verse_text": "Behold I say unto you that this thing shall ye teach—repentance and baptism unto those who are accountable and capable of committing sin; yea, teach parents that they must repent and be baptized, and humble themselves as their little children, and they shall all be saved with their little children.",
+     "markdown": "Behold I say unto you that this thing shall ye teach—repentance and baptism unto those who are accountable and capable of committing sin; yea, teach parents that they must repent and be baptized, and **humble themselves as their little children**, and they shall all be saved with their little children.",
+     "span": true
+    }
+   ],
+   "mirror": "moro08-006"
+  },
+  {
+   "id": "3ne09-009",
+   "scope": "SW",
+   "head": "John 1:11",
+   "anchor": {
+    "verse": 16,
+    "w1": 1,
+    "w2": 11,
+    "quote": "I came unto my own, and my own received me not"
+   },
+   "reason": "the same sentence in the third person, same year",
+   "targets": [
+    {
+     "ref": "John",
+     "chapter": 1,
+     "verse": 11,
+     "w1": 1,
+     "w2": 11,
+     "quote": "He came unto his own, and his own received him not.",
+     "verse_text": "He came unto his own, and his own received him not.",
+     "markdown": "**He came unto his own, and his own received him not**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne09-010",
+   "scope": "SW",
+   "head": "Rev. 1:8",
+   "anchor": {
+    "verse": 18,
+    "w1": 11,
+    "w2": 20,
+    "quote": "I am Alpha and Omega, the beginning and the end"
+   },
+   "reason": "the same title, in the only book using those words",
+   "targets": [
+    {
+     "ref": "Rev.",
+     "chapter": 1,
+     "verse": 8,
+     "w1": 1,
+     "w2": 10,
+     "quote": "I am Alpha and Omega, the beginning and the ending,",
+     "verse_text": "I am Alpha and Omega, the beginning and the ending, saith the Lord, which is, and which was, and which is to come, the Almighty.",
+     "markdown": "**I am Alpha and Omega, the beginning and the ending**, saith the Lord, which is, and which was, and which is to come, the Almighty.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 3,
+   "w1": 2,
+   "w2": 10,
+   "quote": "that great city Zarahemla have I burned with fire",
+   "entries": [
+    "3ne09-001"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 7,
+   "w2": 15,
+   "quote": "which was inhabited by the people of king Jacob",
+   "entries": [
+    "3ne09-002"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 2,
+   "w2": 15,
+   "quote": "because they did cast them all out, that there were none righteous among them,",
+   "entries": [
+    "3ne09-011"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 18,
+   "w2": 26,
+   "quote": "Behold, mine arm of mercy is extended towards you",
+   "entries": [
+    "3ne09-006"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 1,
+   "w2": 9,
+   "quote": "Behold, I am Jesus Christ the Son of God",
+   "entries": [
+    "3ne09-003"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 1,
+   "w2": 11,
+   "quote": "I came unto my own, and my own received me not",
+   "entries": [
+    "3ne09-009"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 1,
+   "w2": 10,
+   "quote": "I am the light and the life of the world.",
+   "entries": [
+    "3ne09-012"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 11,
+   "w2": 20,
+   "quote": "I am Alpha and Omega, the beginning and the end",
+   "entries": [
+    "3ne09-010"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 15,
+   "w2": 24,
+   "quote": "your sacrifices and your burnt offerings shall be done away",
+   "entries": [
+    "3ne09-007"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 10,
+   "w2": 16,
+   "quote": "a broken heart and a contrite spirit",
+   "entries": [
+    "3ne09-004",
+    "3ne09-013",
+    "3ne09-014"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 57,
+   "w2": 70,
+   "quote": "were baptized with fire and with the Holy Ghost, and they knew it not",
+   "entries": [
+    "3ne09-005"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 2,
+   "w2": 11,
+   "quote": "whoso repenteth and cometh unto me as a little child",
+   "entries": [
+    "3ne09-008",
+    "3ne09-015"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "fa140ec326c602a3"
+ }
+}

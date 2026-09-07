@@ -1,0 +1,869 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Mormon",
+  "book_slug": "mormon",
+  "chapter": 8,
+  "volume_order": "12",
+  "speakers": [
+   "Moroni"
+  ],
+  "audience": "The reader of the last days, addressed directly from verse 34",
+  "location": "Wandering, after Cumorah",
+  "date": "After AD 400",
+  "unit": "Moroni alone (Mormon 8)",
+  "principles": [
+   "A survivor finishing another man's book",
+   "A record described by who will find it",
+   "A writer who says he has seen his readers"
+  ],
+  "connections": 14,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The voice changes",
+   "text": "Verse 1 has Moroni take over the record his father made. Mormon 6:6 records the handoff: a few plates given to the son, everything else buried in the hill. The change of voice at this verse is the moment that transfer takes effect."
+  },
+  {
+   "n": 2,
+   "title": "He is the last one",
+   "text": "Verse 3 leaves him without his father and without anyone else. Mormon 6:11 had counted twenty-four survivors on the hill; verse 2 here reports the rest hunted down, so the record narrows from twenty-four to one inside two chapters."
+  },
+  {
+   "n": 3,
+   "title": "He does not know his own end",
+   "text": "Verse 3 leaves his own death an open question."
+  },
+  {
+   "n": 4,
+   "title": "He is short of materials",
+   "text": "Verse 5 says he has no ore, since he is alone. Mormon 9:33 explains what the shortage cost: with plates large enough they would have written in Hebrew and the record would have carried no imperfection."
+  },
+  {
+   "n": 5,
+   "title": "A date is given",
+   "text": "Verse 6 counts four centuries from the coming of Christ."
+  },
+  {
+   "n": 6,
+   "title": "The three are gone from view",
+   "text": "Verse 10 says no man knows whether the three are upon the face of the land, and verse 11 says he and his father have both seen them and been ministered to. 3 Nephi 28:7 and 8 gives the promise they hold, and 4 Nephi 1:30 to 33 records what was done to them before they went out of sight."
+  },
+  {
+   "n": 7,
+   "title": "The address turns direct at verse 34",
+   "text": "From verse 34 he speaks to readers he says have been shown to him. 2 Nephi 27 and Ether 4:6 describe the same future arrival from the other two ends of the record; this is the only one of the three that claims to have seen the people.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ether 4:6",
+     "start": 82,
+     "end": 91,
+     "book": "Ether",
+     "chapter": 4,
+     "verse_start": 6,
+     "verse_end": 6
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "term": "Ore",
+   "verse_label": "v. 5",
+   "text": "Metal-bearing rock, and the material for making plates. The record uses the word eleven times and the King James Bible not at all. Verse 5 says he has none."
+  },
+  {
+   "term": "Kinsfolk",
+   "verse_label": "v. 5",
+   "text": "Relatives. It appears three times in the record, and the King James Bible twice. Verse 5 says all of his have been slain."
+  },
+  {
+   "term": "Imperfections",
+   "verse_label": "v. 12",
+   "text": "Flaws, things falling short. Two uses here, this verse and Mormon 9:31, and none in the King James Bible. Verse 12 asks the reader not to condemn the record for them."
+  },
+  {
+   "term": "Rashly",
+   "verse_label": "v. 19",
+   "text": "Hastily, without due care. The word turns up twice, both here, here, and the King James Bible once. Verse 19 applies it to judging."
+  },
+  {
+   "term": "Divers",
+   "verse_label": "v. 30",
+   "text": "Various, of several kinds. Treated at Mosiah 4:29. The record uses the word six times and the King James Bible thirty-seven.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 4:29",
+     "start": 38,
+     "end": 49,
+     "book": "Mosiah",
+     "chapter": 4,
+     "verse_start": 29,
+     "verse_end": 29
+    }
+   ]
+  },
+  {
+   "term": "Transfigured",
+   "verse_label": "v. 33",
+   "text": "Changed in form. Its count is once, here, in this book, while the King James Bible twice, of Christ on the mount. Verse 33 uses it of altering the word of God."
+  },
+  {
+   "term": "Canker",
+   "verse_label": "v. 38",
+   "text": "A spreading sore, and by extension corrosion. The record uses the word once, here, and the King James Bible once, at 2 Timothy 2:17. Verse 38 uses it of what teachers sell themselves for."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "I even remain alone to write the sad tale of the destruction of my people",
+   "verse_label": "v. 3",
+   "text": "His whole situation in one clause. He calls the record a sad tale."
+  },
+  {
+   "term": "And whether they will slay me, I know not",
+   "verse_label": "v. 3",
+   "text": "Stated without alarm, in the middle of a sentence about duty. He carries on writing after it."
+  },
+  {
+   "term": "Whither I go it mattereth not",
+   "verse_label": "v. 4",
+   "text": "His own movements dismissed as unimportant. What matters is where the record goes."
+  },
+  {
+   "term": "Ore I have none, for I am alone",
+   "verse_label": "v. 5",
+   "text": "A practical shortage with a personal cause. The two facts are joined in five words."
+  },
+  {
+   "term": "Whoso receiveth this record, and shall not condemn it because of the imperfections which are in it",
+   "verse_label": "v. 12",
+   "text": "The condition attached to knowing greater things. Mormon 9:31 will ask the same thing again."
+  },
+  {
+   "term": "The plates thereof are of no worth... but the record thereof is of great worth",
+   "verse_label": "v. 14",
+   "text": "The metal and the writing separated. Verse 14 says no one shall have them to get gain."
+  },
+  {
+   "term": "It shall be brought out of darkness unto light",
+   "verse_label": "v. 16",
+   "text": "The coming forth described as an emergence. Verse 16 says it will be done by the power of God."
+  },
+  {
+   "term": "If there be faults they be the faults of a man",
+   "verse_label": "v. 17",
+   "text": "Responsibility taken at the human level. The same verse warns whoever condemns."
+  },
+  {
+   "term": "Judgment is mine, saith the Lord, and vengeance is mine also",
+   "verse_label": "v. 20",
+   "text": "The scripture he cites against smiting and judging. Mormon 3:15 had the Lord say it to his father."
+  },
+  {
+   "term": "I speak unto you as if ye were present, and yet ye are not",
+   "verse_label": "v. 35",
+   "text": "The strangest sentence in the chapter. Verse 35 says Jesus has shown them to him."
+  },
+  {
+   "term": "Ye do love money, and your substance, and your fine apparel, and the adorning of your churches",
+   "verse_label": "v. 37",
+   "text": "The charge stated as a comparison. The verse ends with the poor, the needy, the sick, and the afflicted."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–5",
+   "start": 1,
+   "end": 5,
+   "title": "Alone",
+   "text": "Moroni finishes his father's record, having been commanded to write a few things. After the battle at Cumorah the Nephites who escaped southward were hunted until all were destroyed. His father was killed, and he remains alone to write the sad tale of his people's destruction, not knowing whether he will be slain. He will write and hide the records in the earth, and where he goes does not matter. His father made this record and wrote its intent; Moroni would write it too if he had room on the plates, but he has none, and no ore, since he is alone. His father and all his kinsfolk are dead, he has no friends and nowhere to go, and he does not know how long the Lord will let him live."
+  },
+  {
+   "label": "v. 6–11",
+   "start": 6,
+   "end": 11,
+   "title": "Four hundred years",
+   "text": "Four hundred years have passed since the coming of the Lord. The Lamanites hunted the Nephites from city to city until they were no more, and great was their fall. It is the hand of the Lord that has done it. The Lamanites are now at war with one another, the whole land is a continual round of murder and bloodshed, and no one knows the end of the war. None exist on the land but Lamanites and robbers. None know the true God except the disciples of Jesus who tarried, and whether they are on the land no man knows, though Moroni and his father have seen them and been ministered to by them."
+  },
+  {
+   "label": "v. 12–16",
+   "start": 12,
+   "end": 16,
+   "title": "The record",
+   "text": "Whoever receives this record and does not condemn it for its imperfections will know greater things. He is Moroni, and would make everything known if he could. He is the son of Mormon, and his father a descendant of Nephi, and he is the one who hides this record up to the Lord. The plates are worth nothing by commandment, since no one is to have them for gain, but the record is of great worth, and whoever brings it to light will be blessed. No one can bring it forth unless it is given him of God, who wills it be done with an eye single to his glory and the welfare of his long dispersed covenant people. Blessed is the one who brings it to light, out of darkness and out of the earth, by the power of God."
+  },
+  {
+   "label": "v. 17–22",
+   "start": 17,
+   "end": 22,
+   "title": "On judging",
+   "text": "The record concedes error and limits the concession without pausing between: \"if there be faults they be the faults of a man. But behold, we know no fault.\" The faults are admitted as possible and denied as known, and the arbiter named is neither writer nor reader, \"God knoweth all things.\" Verse 20 then quotes a text without naming it, \"Behold what the scripture says—man shall not smite, neither shall he judge; for judgment is mine, saith the Lord, and vengeance is mine also, and I will repay.\" The last clause matches Romans 12:19 and Deuteronomy 32:35; the prohibition on smiting that precedes it does not stand in either. A defense of a book against its future critics is built out of one quotation with an unmatched half."
+  },
+  {
+   "label": "v. 23–27",
+   "start": 23,
+   "end": 27,
+   "title": "From the dust",
+   "text": "They are to search the prophecies of Isaiah, which Moroni cannot write. The saints who have gone before and possessed this land will cry from the dust to the Lord, who will remember his covenant with them. He knows their prayers were for their brethren, and their faith, by which they removed mountains, shook the earth, tumbled prisons, and were unharmed by fire, wild beasts, and serpents. Their prayers were also for the one the Lord would allow to bring these things forth. No one need say the record will not come; it will come out of the earth by the hand of the Lord and none can stay it, in a day when it is said miracles are done away, and as if one spoke from the dead, in a day when the blood of saints cries out because of secret combinations and works of darkness."
+  },
+  {
+   "label": "v. 28–33",
+   "start": 28,
+   "end": 33,
+   "title": "That day",
+   "text": "It comes in a day when the power of God is denied and churches are defiled and lifted up in pride, when leaders and teachers rise in pride even to envying their own members; when there are fires and tempests and vapors of smoke in foreign lands; wars, rumors of wars, and earthquakes in various places; great pollutions on the earth, with murders, robbing, lying, deceivings, whoredoms, and every abomination, and many saying that it does not matter what one does since the Lord will uphold them, who are in the gall of bitterness and the bonds of iniquity; and churches saying that for money sins are forgiven. Moroni asks why they have built churches to get gain and transfigured the holy word of God, and tells them to look to the revelations of God."
+  },
+  {
+   "label": "v. 34–41",
+   "start": 34,
+   "end": 41,
+   "title": "Face to face",
+   "text": "The record addresses readers it says are not there and states the paradox itself: \"I speak unto you as if ye were present, and yet ye are not.\" The warrant given is visionary and personal, \"Jesus Christ hath shown you unto me, and I know your doing.\" What follows is five questions in four verses, each beginning \"why,\" and each naming a specific practice: polluting the church, being ashamed of the name, preferring the praise of the world, adorning \"with that which hath no life,\" and building \"secret abominations to get gain.\" Verse 37 supplies the charge in the form of a comparison, that they love money and apparel and church ornament \"more than ye love the poor and the needy, the sick and the afflicted,\" which is the same four-part list of neglected persons used at Alma 4:12.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 4:12",
+     "start": 776,
+     "end": 785,
+     "book": "Alma",
+     "chapter": 4,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The book changes hands mid-volume",
+   "text": "Verse 1 has Moroni finishing his father's record. He expected to write a few things and wrote two chapters and a whole book after."
+  },
+  {
+   "n": 2,
+   "title": "He states his danger and keeps working",
+   "text": "Verse 3 says he does not know whether they will kill him, in the same sentence as fulfilling the commandment."
+  },
+  {
+   "n": 3,
+   "title": "The shortage is physical",
+   "text": "Verse 5 says he has no ore. The limits on this record are partly a question of raw material."
+  },
+  {
+   "n": 4,
+   "title": "He separates the plates from the writing",
+   "text": "Verse 14 says the metal is worthless by commandment and the record is of great worth. The distinction is made to forestall a motive."
+  },
+  {
+   "n": 5,
+   "title": "He asks not to be condemned for flaws",
+   "text": "Verses 12 and 17 both raise it. He takes the faults as human and hands the judgment upward."
+  },
+  {
+   "n": 6,
+   "title": "The day is described in detail",
+   "text": "Verses 28 through 32 list conditions rather than dates. The sign is a social climate."
+  },
+  {
+   "n": 7,
+   "title": "He claims to have seen his readers",
+   "text": "Verse 35 has Jesus put them in front of him, with their conduct known. Everything after that verse is addressed on that basis."
+  },
+  {
+   "n": 8,
+   "title": "The last charge is about the poor",
+   "text": "Verses 37 through 40 return to the needy and the widow four times. The chapter ends on what was not done for them."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Keep working without knowing the end",
+    "verse_label": "v. 3",
+    "text": "He wrote without knowing whether he would be killed. The uncertainty did not change the assignment."
+   },
+   {
+    "title": "Say what you are short of",
+    "verse_label": "v. 5",
+    "text": "Moroni lists the constraints: no room on the plates, no ore, no kinsfolk, no friends, nowhere to go, and no knowledge of how long he has. Naming the shortages is not complaint; it is what tells a later reader why the work looks the way it does."
+   },
+   {
+    "title": "Do not condemn a thing for its flaws",
+    "verse_label": "v. 12",
+    "text": "He asks readers to receive the record despite imperfections. What you refuse over small faults you do not get to learn from."
+   },
+   {
+    "title": "Separate the container from the contents",
+    "verse_label": "v. 14",
+    "text": "The plates were worthless and the record priceless. Knowing which is which protects both."
+   },
+   {
+    "title": "Judgment is not yours to hand out",
+    "verse_label": "v. 20",
+    "text": "Moroni cites the rule that man shall not smite, neither shall he judge, since both judgment and vengeance belong to the Lord. Two things are assigned away in one sentence, and holding either one back is what the verse forbids."
+   },
+   {
+    "title": "Point to the source you cannot copy",
+    "verse_label": "v. 23",
+    "text": "Moroni tells them to search the prophecies of Isaiah and says in the next clause that he cannot write them. When space or time stops you including something, naming where it can be found does most of the work."
+   },
+   {
+    "title": "Write as though the reader were there",
+    "verse_label": "v. 35",
+    "text": "Moroni says he speaks to them as if they were present, and that Jesus has shown them to him. Addressing a person rather than a category is what keeps a late-stage message from becoming a lecture into empty air."
+   },
+   {
+    "title": "Look at who is passing by you",
+    "verse_label": "v. 39",
+    "text": "He names the hungry, the naked, the sick, and asks why they go unnoticed. The charge is inattention rather than cruelty."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What would I keep doing if I did not know how long I had?"
+   },
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "What am I trying to do without the materials for it?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "What have I dismissed because of its imperfections?"
+   },
+   {
+    "verse_label": "v. 19",
+    "start": 19,
+    "end": 19,
+    "text": "Where have I judged rashly?"
+   },
+   {
+    "verse_label": "v. 35",
+    "start": 35,
+    "end": 35,
+    "text": "If someone had been shown my doing, what would they see?"
+   },
+   {
+    "verse_label": "v. 37",
+    "start": 37,
+    "end": 37,
+    "text": "What do I love more than the people in front of me?"
+   },
+   {
+    "verse_label": "v. 39",
+    "start": 39,
+    "end": 39,
+    "text": "Who passed by me this week that I did not notice?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "morm08-001",
+   "scope": "BOOK",
+   "head": "Morm. 6:11",
+   "anchor": {
+    "verse": 2,
+    "w1": 8,
+    "w2": 15,
+    "quote": "after the great and tremendous battle at Cumorah"
+   },
+   "reason": "the field his father watched from the hilltop",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 6,
+     "verse": 11,
+     "w1": 49,
+     "w2": 55,
+     "quote": "from the top of the hill Cumorah,",
+     "verse_text": "And when they had gone through and hewn down all my people save it were twenty and four of us, (among whom was my son Moroni) and we having survived the dead of our people, did behold on the morrow, when the Lamanites had returned unto their camps, from the top of the hill Cumorah, the ten thousand of my people who were hewn down, being led in the front by me.",
+     "markdown": "And when they had gone through and hewn down all my people save it were twenty and four of us, (among whom was my son Moroni) and we having survived the dead of our people, did behold on the morrow, when the Lamanites had returned unto their camps, **from the top of the hill Cumorah**, the ten thousand of my people who were hewn down, being led in the front by me.",
+     "span": true
+    }
+   ],
+   "mirror": "morm06-003"
+  },
+  {
+   "id": "morm08-002",
+   "scope": "BOOK",
+   "head": "Morm. 9:31",
+   "anchor": {
+    "verse": 12,
+    "w1": 6,
+    "w2": 18,
+    "quote": "and shall not condemn it because of the imperfections which are in it"
+   },
+   "reason": "the same request made again at his father book's close",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 9,
+     "verse": 31,
+     "w1": 1,
+     "w2": 7,
+     "quote": "Condemn me not because of mine imperfection,",
+     "verse_text": "Condemn me not because of mine imperfection, neither my father, because of his imperfection, neither them who have written before him; but rather give thanks unto God that he hath made manifest unto you our imperfections, that ye may learn to be more wise than we have been.",
+     "markdown": "**Condemn me not because of mine imperfection**, neither my father, because of his imperfection, neither them who have written before him; but rather give thanks unto God that he hath made manifest unto you our imperfections, that ye may learn to be more wise than we have been.",
+     "span": true
+    }
+   ],
+   "mirror": "morm09-001"
+  },
+  {
+   "id": "morm08-003",
+   "scope": "BOOK",
+   "head": "Morm. 3:15",
+   "anchor": {
+    "verse": 20,
+    "w1": 13,
+    "w2": 24,
+    "quote": "for judgment is mine, saith the Lord, and vengeance is mine also"
+   },
+   "reason": "the sentence the Lord spoke to his father",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 3,
+     "verse": 15,
+     "w1": 1,
+     "w2": 7,
+     "quote": "Vengeance is mine, and I will repay;",
+     "verse_text": "Vengeance is mine, and I will repay; and because this people repented not after I had delivered them, behold, they shall be cut off from the face of the earth.",
+     "markdown": "**Vengeance is mine, and I will repay**; and because this people repented not after I had delivered them, behold, they shall be cut off from the face of the earth.",
+     "span": true
+    }
+   ],
+   "mirror": "morm03-013"
+  },
+  {
+   "id": "morm08-011",
+   "scope": "BOOK",
+   "head": "Morm. 9:30",
+   "anchor": {
+    "verse": 26,
+    "w1": 57,
+    "w2": 68,
+    "quote": "it shall come even as if one should speak from the dead."
+   },
+   "reason": "the same voice speaking from the dead at the close",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 9,
+     "verse": 30,
+     "w1": 1,
+     "w2": 12,
+     "quote": "Behold, I speak unto you as though I spake from the dead;",
+     "verse_text": "Behold, I speak unto you as though I spake from the dead; for I know that ye shall have my words.",
+     "markdown": "**Behold, I speak unto you as though I spake from the dead**; for I know that ye shall have my words.",
+     "span": true
+    }
+   ],
+   "mirror": "morm09-002"
+  },
+  {
+   "id": "morm08-004",
+   "scope": "BOM",
+   "head": "2 Ne. 13:15",
+   "anchor": {
+    "verse": 37,
+    "w1": 3,
+    "w2": 13,
+    "quote": "ye do love money, and your substance, and your fine apparel"
+   },
+   "reason": "Isaiah's charge, in the last writer's words",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 13,
+     "verse": 15,
+     "w1": 11,
+     "w2": 16,
+     "quote": "grind the faces of the poor,",
+     "verse_text": "What mean ye? Ye beat my people to pieces, and grind the faces of the poor, saith the Lord God of Hosts.",
+     "markdown": "What mean ye? Ye beat my people to pieces, and **grind the faces of the poor**, saith the Lord God of Hosts.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne13-004"
+  },
+  {
+   "id": "morm08-005",
+   "scope": "BOM",
+   "head": "Hel. 2:13",
+   "anchor": {
+    "verse": 27,
+    "w1": 18,
+    "w2": 26,
+    "quote": "because of secret combinations and the works of darkness"
+   },
+   "reason": "the combination that brought down the people of Nephi",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 2,
+     "verse": 13,
+     "w1": 13,
+     "w2": 28,
+     "quote": "this Gadianton did prove the overthrow, yea, almost the entire destruction of the people of Nephi.",
+     "verse_text": "And behold, in the end of this book ye shall see that this Gadianton did prove the overthrow, yea, almost the entire destruction of the people of Nephi.",
+     "markdown": "And behold, in the end of this book ye shall see that **this Gadianton did prove the overthrow, yea, almost the entire destruction of the people of Nephi**.",
+     "span": true
+    }
+   ],
+   "mirror": "hel02-009"
+  },
+  {
+   "id": "morm08-006",
+   "scope": "BOM",
+   "head": "3 Ne. 23:5",
+   "anchor": {
+    "verse": 23,
+    "w1": 1,
+    "w2": 5,
+    "quote": "Search the prophecies of Isaiah"
+   },
+   "reason": "the same charge given by Christ to the twelve",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 23,
+     "verse": 5,
+     "w1": 18,
+     "w2": 20,
+     "quote": "Search the prophets,",
+     "verse_text": "And whosoever will hearken unto my words and repenteth and is baptized, the same shall be saved. Search the prophets, for many there be that testify of these things.",
+     "markdown": "And whosoever will hearken unto my words and repenteth and is baptized, the same shall be saved. **Search the prophets**, for many there be that testify of these things.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne23-005"
+  },
+  {
+   "id": "morm08-007",
+   "scope": "BOM",
+   "head": "3 Ne. 28:26",
+   "anchor": {
+    "verse": 11,
+    "w1": 3,
+    "w2": 15,
+    "quote": "my father and I have seen them, and they have ministered unto us"
+   },
+   "reason": "Mormon saying the same of himself",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 28,
+     "verse": 26,
+     "w1": 1,
+     "w2": 12,
+     "quote": "But behold, I have seen them, and they have ministered unto me.",
+     "verse_text": "But behold, I have seen them, and they have ministered unto me.",
+     "markdown": "**But behold, I have seen them, and they have ministered unto me**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne28-005"
+  },
+  {
+   "id": "morm08-008",
+   "scope": "BOM",
+   "head": "3 Ne. 29:4",
+   "anchor": {
+    "verse": 26,
+    "w1": 40,
+    "w2": 55,
+    "quote": "it shall come in a day when it shall be said that miracles are done away"
+   },
+   "reason": "the sign of the covenant beginning, to the same reader",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 29,
+     "verse": 4,
+     "w1": 1,
+     "w2": 11,
+     "quote": "And when ye shall see these sayings coming forth among you,",
+     "verse_text": "And when ye shall see these sayings coming forth among you, then ye need not any longer spurn at the doings of the Lord, for the sword of his justice is in his right hand; and behold, at that day, if ye shall spurn at his doings he will cause that it shall soon overtake you.",
+     "markdown": "**And when ye shall see these sayings coming forth among you**, then ye need not any longer spurn at the doings of the Lord, for the sword of his justice is in his right hand; and behold, at that day, if ye shall spurn at his doings he will cause that it shall soon overtake you.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne29-006"
+  },
+  {
+   "id": "morm08-012",
+   "scope": "BOM",
+   "head": "Moro. 1:1",
+   "anchor": {
+    "verse": 3,
+    "w1": 38,
+    "w2": 46,
+    "quote": "And whether they will slay me, I know not."
+   },
+   "reason": "the death he expected, still not come",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 1,
+     "verse": 1,
+     "w1": 26,
+     "w2": 32,
+     "quote": "but I have not as yet perished;",
+     "verse_text": "Now I, Moroni, after having made an end of abridging the account of the people of Jared, I had supposed not to have written more, but I have not as yet perished; and I make not myself known to the Lamanites lest they should destroy me.",
+     "markdown": "Now I, Moroni, after having made an end of abridging the account of the people of Jared, I had supposed not to have written more, **but I have not as yet perished**; and I make not myself known to the Lamanites lest they should destroy me.",
+     "span": true
+    }
+   ],
+   "mirror": "moro01-003"
+  },
+  {
+   "id": "morm08-013",
+   "scope": "BOM",
+   "head": "Moro. 1:1",
+   "anchor": {
+    "verse": 4,
+    "w1": 1,
+    "w2": 12,
+    "quote": "Therefore I will write and hide up the records in the earth;"
+   },
+   "reason": "the writing he had thought was finished",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 1,
+     "verse": 1,
+     "w1": 18,
+     "w2": 25,
+     "quote": "I had supposed not to have written more,",
+     "verse_text": "Now I, Moroni, after having made an end of abridging the account of the people of Jared, I had supposed not to have written more, but I have not as yet perished; and I make not myself known to the Lamanites lest they should destroy me.",
+     "markdown": "Now I, Moroni, after having made an end of abridging the account of the people of Jared, **I had supposed not to have written more**, but I have not as yet perished; and I make not myself known to the Lamanites lest they should destroy me.",
+     "span": true
+    }
+   ],
+   "mirror": "moro01-006"
+  },
+  {
+   "id": "morm08-014",
+   "scope": "BOM",
+   "head": "Moro. 1:3",
+   "anchor": {
+    "verse": 5,
+    "w1": 54,
+    "w2": 61,
+    "quote": "I have not friends nor whither to go;"
+   },
+   "reason": "the wandering that followed, with nowhere fixed to go",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 1,
+     "verse": 3,
+     "w1": 10,
+     "w2": 21,
+     "quote": "I wander whithersoever I can for the safety of mine own life.",
+     "verse_text": "And I, Moroni, will not deny the Christ; wherefore, I wander whithersoever I can for the safety of mine own life.",
+     "markdown": "And I, Moroni, will not deny the Christ; wherefore, **I wander whithersoever I can for the safety of mine own life**.",
+     "span": true
+    }
+   ],
+   "mirror": "moro01-004"
+  },
+  {
+   "id": "morm08-009",
+   "scope": "SW",
+   "head": "Isa. 29:4",
+   "anchor": {
+    "verse": 23,
+    "w1": 33,
+    "w2": 42,
+    "quote": "even from the dust will they cry unto the Lord"
+   },
+   "reason": "the speech out of the ground",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 29,
+     "verse": 4,
+     "w1": 41,
+     "w2": 49,
+     "quote": "and thy speech shall whisper out of the dust.",
+     "verse_text": "And thou shalt be brought down, and shalt speak out of the ground, and thy speech shall be low out of the dust, and thy voice shall be, as of one that hath a familiar spirit, out of the ground, and thy speech shall whisper out of the dust.",
+     "markdown": "And thou shalt be brought down, and shalt speak out of the ground, and thy speech shall be low out of the dust, and thy voice shall be, as of one that hath a familiar spirit, out of the ground, **and thy speech shall whisper out of the dust**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "morm08-010",
+   "scope": "SW",
+   "head": "Acts 8:20",
+   "anchor": {
+    "verse": 32,
+    "w1": 18,
+    "w2": 31,
+    "quote": "Come unto me, and for your money you shall be forgiven of your sins"
+   },
+   "reason": "Peter's answer to a man who offered money",
+   "targets": [
+    {
+     "ref": "Acts",
+     "chapter": 8,
+     "verse": 20,
+     "w1": 11,
+     "w2": 24,
+     "quote": "because thou hast thought that the gift of God may be purchased with money.",
+     "verse_text": "But Peter said unto him, Thy money perish with thee, because thou hast thought that the gift of God may be purchased with money.",
+     "markdown": "But Peter said unto him, Thy money perish with thee, **because thou hast thought that the gift of God may be purchased with money**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 2,
+   "w1": 8,
+   "w2": 15,
+   "quote": "after the great and tremendous battle at Cumorah",
+   "entries": [
+    "morm08-001"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 38,
+   "w2": 46,
+   "quote": "And whether they will slay me, I know not.",
+   "entries": [
+    "morm08-012"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 1,
+   "w2": 12,
+   "quote": "Therefore I will write and hide up the records in the earth;",
+   "entries": [
+    "morm08-013"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 54,
+   "w2": 61,
+   "quote": "I have not friends nor whither to go;",
+   "entries": [
+    "morm08-014"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 3,
+   "w2": 15,
+   "quote": "my father and I have seen them, and they have ministered unto us",
+   "entries": [
+    "morm08-007"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 6,
+   "w2": 18,
+   "quote": "and shall not condemn it because of the imperfections which are in it",
+   "entries": [
+    "morm08-002"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 13,
+   "w2": 24,
+   "quote": "for judgment is mine, saith the Lord, and vengeance is mine also",
+   "entries": [
+    "morm08-003"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 1,
+   "w2": 5,
+   "quote": "Search the prophecies of Isaiah",
+   "entries": [
+    "morm08-006"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 33,
+   "w2": 42,
+   "quote": "even from the dust will they cry unto the Lord",
+   "entries": [
+    "morm08-009"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 40,
+   "w2": 55,
+   "quote": "it shall come in a day when it shall be said that miracles are done away",
+   "entries": [
+    "morm08-008"
+   ]
+  },
+  {
+   "verse": 26,
+   "w1": 57,
+   "w2": 68,
+   "quote": "it shall come even as if one should speak from the dead.",
+   "entries": [
+    "morm08-011"
+   ]
+  },
+  {
+   "verse": 27,
+   "w1": 18,
+   "w2": 26,
+   "quote": "because of secret combinations and the works of darkness",
+   "entries": [
+    "morm08-005"
+   ]
+  },
+  {
+   "verse": 32,
+   "w1": 18,
+   "w2": 31,
+   "quote": "Come unto me, and for your money you shall be forgiven of your sins",
+   "entries": [
+    "morm08-010"
+   ]
+  },
+  {
+   "verse": 37,
+   "w1": 3,
+   "w2": 13,
+   "quote": "ye do love money, and your substance, and your fine apparel",
+   "entries": [
+    "morm08-004"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "c65bfe594e07ffc8"
+ }
+}

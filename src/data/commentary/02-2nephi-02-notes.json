@@ -17,7 +17,7 @@
    "Opposition",
    "Agency"
   ],
-  "connections": 12,
+  "connections": 18,
   "initial": false
  },
  "world_behind": [
@@ -108,7 +108,7 @@
   {
    "n": 4,
    "title": "The preacher cites his sources",
-   "text": "\"According to the things which I have read\" (v. 17), \"according to that which is written\" (v. 17): Lehi's account of the fallen angel is presented as brass-plates exegesis, and Isaiah's taunt over the fallen day-star (Isa. 14:12) is the surviving text that best matches his reading.",
+   "text": "\"According to the things which I have read\" (v. 17), \"according to that which is written\" (v. 17): Lehi's account of the fallen angel is presented as a reading of the brass plates, and Isaiah's taunt over the fallen day-star (Isa. 14:12) is the surviving text that best matches his reading.",
    "cites": [
     {
      "quote": "According to the things which I have read",
@@ -141,8 +141,8 @@
     {
      "kind": "scripture",
      "text": "Isa. 14:12",
-     "start": 218,
-     "end": 228,
+     "start": 226,
+     "end": 236,
      "book": "Isa",
      "chapter": 14,
      "verse_start": 12,
@@ -268,6 +268,11 @@
      ]
     }
    ]
+  },
+  {
+   "term": "Insensibility",
+   "verse_label": "v. 11",
+   "text": "The state of feeling nothing at all. The word appears once in this record and never in the King James Bible. Lehi needs a name for what is left when every opposite has been folded together, and verse 11 supplies it at the end of the list: righteousness, wickedness, holiness, misery, good, bad, and then nothing that can register any of them. The argument required a word for total absence, and the record spends one here."
   },
   {
    "term": "Enticed",
@@ -541,409 +546,62 @@
    "label": "v. 1–4",
    "start": 1,
    "end": 4,
-   "title": "The blessing before the doctrine",
-   "text": "Affliction named, consecration promised, safety with Nephi assured, and a credential given: Jacob \"hast beheld in thy youth his glory\" (v. 4), blessed like those the Messiah \"shall minister in the flesh\" (v. 4) to, \"for the Spirit is the same, yesterday, today, and forever\" (v. 4). Then the sermon's first thesis, five words wide: \"salvation is free\" (v. 4).",
-   "cites": [
-    {
-     "quote": "hast beheld in thy youth his glory",
-     "verse": 4,
-     "start": 98,
-     "end": 141,
-     "spans": [
-      {
-       "w1": 3,
-       "w2": 9,
-       "text": "hast beheld in thy youth his glory"
-      }
-     ]
-    },
-    {
-     "quote": "shall minister in the flesh",
-     "verse": 4,
-     "start": 174,
-     "end": 210,
-     "spans": [
-      {
-       "w1": 20,
-       "w2": 24,
-       "text": "shall minister in the flesh"
-      }
-     ]
-    },
-    {
-     "quote": "for the Spirit is the same, yesterday, today, and forever",
-     "verse": 4,
-     "start": 215,
-     "end": 281,
-     "spans": [
-      {
-       "w1": 25,
-       "w2": 34,
-       "text": "for the Spirit is the same, yesterday, today, and forever"
-      }
-     ]
-    },
-    {
-     "quote": "salvation is free",
-     "verse": 4,
-     "start": 332,
-     "end": 358,
-     "spans": [
-      {
-       "w1": 46,
-       "w2": 48,
-       "text": "salvation is free"
-      }
-     ]
-    }
-   ]
+   "title": "A blessing whose ground is the recipient's suffering",
+   "text": "The record opens the address by naming a hardship, not a virtue: \"Thou art my firstborn in the days of my tribulation in the wilderness. And behold, in thy childhood thou hast suffered afflictions and much sorrow, because of the rudeness of thy brethren.\" What follows turns that into the promise: \"he shall consecrate thine afflictions for thy gain.\" Verse 4 adds the other qualification, that he had already seen the glory of God in youth. Both credentials are things that happened to him rather than things he did."
   },
   {
-   "label": "v. 5–8",
-   "start": 5,
-   "end": 8,
-   "title": "The law's dead end, and the answer",
-   "text": "Instructed men know good from evil, \"And by the law no flesh is justified\" (v. 5): the law cuts off, temporally and spiritually. Redemption comes \"in and through the Holy Messiah\" (v. 6), a sacrifice answering the law's ends for the broken-hearted only; wherefore, \"how great the importance to make these things known\" (v. 8): doctrine this good creates a duty to publish it.",
-   "cites": [
-    {
-     "quote": "And by the law no flesh is justified",
-     "verse": 5,
-     "start": 36,
-     "end": 81,
-     "spans": [
-      {
-       "w1": 19,
-       "w2": 26,
-       "text": "And by the law no flesh is justified"
-      }
-     ]
-    },
-    {
-     "quote": "in and through the Holy Messiah",
-     "verse": 6,
-     "start": 146,
-     "end": 186,
-     "spans": [
-      {
-       "w1": 4,
-       "w2": 9,
-       "text": "in and through the Holy Messiah"
-      }
-     ]
-    },
-    {
-     "quote": "how great the importance to make these things known",
-     "verse": 8,
-     "start": 265,
-     "end": 325,
-     "spans": [
-      {
-       "w1": 2,
-       "w2": 10,
-       "text": "how great the importance to make these things known"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 9–10",
-   "start": 9,
-   "end": 10,
-   "title": "Intercession, then judgment",
-   "text": "The Messiah is \"the firstfruits unto God\" (v. 9), making \"intercession for all the children of men\" (v. 9), and \"because of the intercession for all, all men come unto God\" (v. 10): back into the presence they were cut off from, to be judged \"according to the truth and holiness which is in him\" (v. 10). Universal resurrection and unavoidable judgment arrive in the same clause; the atonement guarantees the courtroom.",
-   "cites": [
-    {
-     "quote": "the firstfruits unto God",
-     "verse": 9,
-     "start": 15,
-     "end": 48,
-     "spans": [
-      {
-       "w1": 4,
-       "w2": 7,
-       "text": "the firstfruits unto God"
-      }
-     ]
-    },
-    {
-     "quote": "intercession for all the children of men",
-     "verse": 9,
-     "start": 57,
-     "end": 106,
-     "spans": [
-      {
-       "w1": 13,
-       "w2": 19,
-       "text": "intercession for all the children of men"
-      }
-     ]
-    },
-    {
-     "quote": "because of the intercession for all, all men come unto God",
-     "verse": 10,
-     "start": 112,
-     "end": 180,
-     "spans": [
-      {
-       "w1": 2,
-       "w2": 12,
-       "text": "because of the intercession for all, all men come unto God"
-      }
-     ]
-    },
-    {
-     "quote": "according to the truth and holiness which is in him",
-     "verse": 10,
-     "start": 242,
-     "end": 303,
-     "spans": [
-      {
-       "w1": 26,
-       "w2": 35,
-       "text": "according to the truth and holiness which is in him"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 11–13",
-   "start": 11,
-   "end": 13,
-   "title": "The argument from opposition",
-   "text": "If no opposition: no righteousness, no happiness, no purpose, a dead \"compound in one\" (v. 11); creation would be \"a thing of naught\" (v. 12). Verse 13 then runs the chain backward, no law, no sin, no righteousness, no God, no us, until \"all things must have vanished away\" (v. 13). The record's most sustained piece of reasoning exists to protect the goodness of a world that can hurt.",
-   "cites": [
-    {
-     "quote": "compound in one",
-     "verse": 11,
-     "start": 69,
-     "end": 94,
-     "spans": [
-      {
-       "w1": 46,
-       "w2": 48,
-       "text": "compound in one"
-      }
-     ]
-    },
-    {
-     "quote": "a thing of naught",
-     "verse": 12,
-     "start": 114,
-     "end": 141,
-     "spans": [
-      {
-       "w1": 9,
-       "w2": 12,
-       "text": "a thing of naught"
-      }
-     ]
-    },
-    {
-     "quote": "all things must have vanished away",
-     "verse": 13,
-     "start": 237,
-     "end": 281,
-     "spans": [
-      {
-       "w1": 98,
-       "w2": 103,
-       "text": "all things must have vanished away"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "label": "v. 14–18",
+   "label": "v. 14",
    "start": 14,
-   "end": 18,
-   "title": "The stage, the actors, the tempter",
-   "text": "God created \"things to act and things to be acted upon\" (v. 14); man is made the first kind, which requires enticement from both directions. Enter the angel who fell and \"sought also the misery of all mankind\" (v. 18), with scripture's first recorded lie: \"ye shall not die, but ye shall be as God\" (v. 18). Half threat denied, half promise perverted; the record files it under \"the father of all lies\" (v. 18).",
-   "cites": [
+   "end": 14,
+   "title": "One distinction the rest of the chapter rests on",
+   "text": "In the middle of an argument the record introduces a category split in eight words: God \"created all things, both the heavens and the earth, and all things that in them are, both things to act and things to be acted upon.\" Acting and being acted upon is the difference verse 13 has just used to reduce the denial to nothing, and it is the difference verse 16 will use for the freedom of the will. The clause is stated once, without illustration, and everything after it is built on it."
+  },
+  {
+   "label": "v. 17",
+   "start": 17,
+   "end": 17,
+   "title": "An inference marked twice in one clause",
+   "text": "The record has the speaker flag his own reasoning and its source in the same breath: \"I, Lehi, according to the things which I have read, must needs suppose that an angel of God, according to that which is written, had fallen from heaven.\" Two hedges surround the claim, one naming a document and one naming the act of inference. Must needs suppose stands in two verses of the volume, this one and Alma 46:41, and both times a writer is flagging a conclusion rather than reporting a revelation.",
+   "refs": [
     {
-     "quote": "things to act and things to be acted upon",
-     "verse": 14,
-     "start": 12,
-     "end": 63,
-     "spans": [
-      {
-       "w1": 41,
-       "w2": 49,
-       "text": "things to act and things to be acted upon"
-      }
-     ]
-    },
-    {
-     "quote": "sought also the misery of all mankind",
-     "verse": 18,
-     "start": 170,
-     "end": 217,
-     "spans": [
-      {
-       "w1": 14,
-       "w2": 20,
-       "text": "sought also the misery of all mankind"
-      }
-     ]
-    },
-    {
-     "quote": "ye shall not die, but ye shall be as God",
-     "verse": 18,
-     "start": 256,
-     "end": 306,
-     "spans": [
-      {
-       "w1": 51,
-       "w2": 60,
-       "text": "ye shall not die, but ye shall be as God"
-      }
-     ]
-    },
-    {
-     "quote": "the father of all lies",
-     "verse": 18,
-     "start": 378,
-     "end": 410,
-     "spans": [
-      {
-       "w1": 37,
-       "w2": 41,
-       "text": "the father of all lies"
-      }
-     ]
+     "kind": "scripture",
+     "text": "Alma 46:41",
+     "start": 398,
+     "end": 408,
+     "book": "Alma",
+     "chapter": 46,
+     "verse_start": 41,
+     "verse_end": 41
     }
    ]
   },
   {
-   "label": "v. 19–25",
-   "start": 19,
+   "label": "v. 22–23",
+   "start": 22,
+   "end": 23,
+   "title": "A past that did not happen, worked out in full",
+   "text": "The record runs the alternative history instead of asserting the actual one: \"if Adam had not transgressed he would not have fallen, but he would have remained in the garden of Eden. And all things which were created must have remained in the same state in which they were after they were created.\" Verse 23 draws out the consequences one at a time, no children, \"a state of innocence, having no joy, for they knew no misery; doing no good, for they knew no sin.\" Four absences are listed, and each is paired with the knowledge that would have made it otherwise."
+  },
+  {
+   "label": "v. 25",
+   "start": 25,
    "end": 25,
-   "title": "Eden, read as ascent",
-   "text": "Driven out to till, bearing \"the family of all the earth\" (v. 20), granted lengthened days as \"a state of probation\" (v. 21): and then the might-have-been: no fall, no children, \"having no joy, for they knew no misery\" (v. 23). Verse 24 files it all under wisdom, and verse 25 speaks the record's brightest sentence over the oldest grief.",
-   "cites": [
-    {
-     "quote": "the family of all the earth",
-     "verse": 20,
-     "start": 28,
-     "end": 65,
-     "spans": [
-      {
-       "w1": 9,
-       "w2": 14,
-       "text": "the family of all the earth"
-      }
-     ]
-    },
-    {
-     "quote": "a state of probation",
-     "verse": 21,
-     "start": 94,
-     "end": 124,
-     "spans": [
-      {
-       "w1": 29,
-       "w2": 32,
-       "text": "a state of probation"
-      }
-     ]
-    },
-    {
-     "quote": "having no joy, for they knew no misery",
-     "verse": 23,
-     "start": 178,
-     "end": 226,
-     "spans": [
-      {
-       "w1": 18,
-       "w2": 25,
-       "text": "having no joy, for they knew no misery"
-      }
-     ]
-    }
-   ]
+   "title": "Fourteen words, in two matched halves",
+   "text": "The chapter's argument closes on its shortest sentence: \"Adam fell that men might be; and men are, that they might have joy.\" It ties with verse 20 for the briefest verse in the chapter. The two clauses share a structure, each with a subject, a verb, and a purpose, and the second takes its subject from the end of the first. Nothing is proved here. The verse states as a result what the previous fourteen verses argued for."
   },
   {
-   "label": "v. 26–30",
-   "start": 26,
-   "end": 30,
-   "title": "Free forever, and the two wills",
-   "text": "Redemption makes men \"free forever, knowing good from evil; to act for themselves\" (v. 26); freedom's menu has two complete items, and Lehi's last counsel is placement: \"look to the great Mediator\" (v. 28), choose according to \"the will of his Holy Spirit\" (v. 28) and not \"the will of the flesh\" (v. 29). The father signs the sermon with his own choice made and one motive left: \"the everlasting welfare of your souls\" (v. 30).",
-   "cites": [
-    {
-     "quote": "free forever, knowing good from evil; to act for themselves",
-     "verse": 26,
-     "start": 21,
-     "end": 90,
-     "spans": [
-      {
-       "w1": 33,
-       "w2": 42,
-       "text": "free forever, knowing good from evil; to act for themselves"
-      }
-     ]
-    },
-    {
-     "quote": "look to the great Mediator",
-     "verse": 28,
-     "start": 169,
-     "end": 205,
-     "spans": [
-      {
-       "w1": 10,
-       "w2": 14,
-       "text": "look to the great Mediator"
-      }
-     ]
-    },
-    {
-     "quote": "the will of his Holy Spirit",
-     "verse": 28,
-     "start": 227,
-     "end": 264,
-     "spans": [
-      {
-       "w1": 33,
-       "w2": 38,
-       "text": "the will of his Holy Spirit"
-      }
-     ]
-    },
-    {
-     "quote": "the will of the flesh",
-     "verse": 29,
-     "start": 273,
-     "end": 304,
-     "spans": [
-      {
-       "w1": 8,
-       "w2": 12,
-       "text": "the will of the flesh"
-      }
-     ]
-    },
-    {
-     "quote": "the everlasting welfare of your souls",
-     "verse": 30,
-     "start": 380,
-     "end": 427,
-     "spans": [
-      {
-       "w1": 42,
-       "w2": 47,
-       "text": "the everlasting welfare of your souls"
-      }
-     ]
-    }
-   ]
+   "label": "v. 27–29",
+   "start": 27,
+   "end": 29,
+   "title": "Two options, each named with an agent attached",
+   "text": "The record puts the choice as two routes with two guides: \"they are free to choose liberty and eternal life, through the great Mediator of all men, or to choose captivity and death, according to the captivity and power of the devil.\" Verse 28 states one side as an instruction, \"look to the great Mediator, and hearken unto his great commandments,\" and verse 29 states the other as a prohibition, \"not choose eternal death, according to the will of the flesh and the evil which is therein.\" Both are offered as choices, and both are said to place the chooser under someone."
   }
  ],
  "chapter": [
   {
    "n": 1,
    "title": "A summit placed in a lap",
-   "text": "The record's deepest doctrinal chapter is a blessing, addressed to the son whose childhood absorbed the family's worst. Theology in this record answers wounds; the fall, the atonement, and opposition are explained to Jacob because Jacob needed them explained."
+   "text": "The chapter is a blessing before it is a treatise, and it opens by naming the hearer's history: \"in thy childhood thou hast suffered afflictions and much sorrow, because of the rudeness of thy brethren.\" Verse 2 states the intended use, \"he shall consecrate thine afflictions for thy gain.\" The phrase \"my firstborn in the wilderness\" recurs at verse 11, in the middle of the argument about opposition, so the address to one son is kept inside the doctrine rather than dropped once the exposition begins."
   },
   {
    "n": 2,
@@ -968,7 +626,7 @@
   {
    "n": 6,
    "title": "Freedom is purchased, then exercised",
-   "text": "Men are free because they are redeemed from the fall; the Mediator funds the liberty he then asks them to spend on him. The sequence kills every notion of neutral ground: the ability to choose was itself the first gift of the being one chooses about."
+   "text": "Verse 26 puts the order beyond doubt with a causal clause: \"because that they are redeemed from the fall they have become free forever... to act for themselves and not to be acted upon.\" Verse 16 has already ruled out a neutral condition, \"man could not act for himself save it should be that he was enticed by the one or the other.\" Verse 27 then names the two options and attaches each to a person, liberty and eternal life \"through the great Mediator of all men,\" captivity and death \"according to the captivity and power of the devil.\" The capacity to choose is presented as itself a gift from one of the two parties being chosen between."
   },
   {
    "n": 7,
@@ -1111,7 +769,7 @@
     "w2": 41,
     "quote": "even that old serpent, who is the devil, who is the father of all lies"
    },
-   "reason": "Abinadi names the same serpent as the cause of the fall",
+   "reason": "Abinadi naming the same serpent behind the fall",
    "targets": [
     {
      "ref": "Mosiah",
@@ -1203,7 +861,163 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel14-015"
+  },
+  {
+   "id": "2ne02-013",
+   "scope": "BOM",
+   "head": "Alma 42:16",
+   "anchor": {
+    "verse": 10,
+    "w1": 52,
+    "w2": 56,
+    "quote": "the punishment which is affixed,"
+   },
+   "reason": "Alma fitting an eternal punishment to an eternal law",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 42,
+     "verse": 16,
+     "w1": 11,
+     "w2": 16,
+     "quote": "a punishment, which also was eternal",
+     "verse_text": "Now, repentance could not come unto men except there were a punishment, which also was eternal as the life of the soul should be, affixed opposite to the plan of happiness, which was as eternal also as the life of the soul.",
+     "markdown": "Now, repentance could not come unto men except there were **a punishment, which also was eternal** as the life of the soul should be, affixed opposite to the plan of happiness, which was as eternal also as the life of the soul.",
+     "span": true
+    }
+   ],
+   "mirror": "al42-005"
+  },
+  {
+   "id": "2ne02-014",
+   "scope": "BOM",
+   "head": "Alma 30:11",
+   "anchor": {
+    "verse": 11,
+    "w1": 7,
+    "w2": 13,
+    "quote": "there is an opposition in all things."
+   },
+   "reason": "the law leaving belief itself outside its reach",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 30,
+     "verse": 11,
+     "w1": 38,
+     "w2": 43,
+     "quote": "all men were on equal grounds.",
+     "verse_text": "For there was a law that men should be judged according to their crimes. Nevertheless, there was no law against a man's belief; therefore, a man was punished only for the crimes which he had done; therefore all men were on equal grounds.",
+     "markdown": "For there was a law that men should be judged according to their crimes. Nevertheless, there was no law against a man's belief; therefore, a man was punished only for the crimes which he had done; therefore **all men were on equal grounds**.",
+     "span": true
+    }
+   ],
+   "mirror": "al30-006"
+  },
+  {
+   "id": "2ne02-015",
+   "scope": "BOM",
+   "head": "Alma 41:10",
+   "anchor": {
+    "verse": 13,
+    "w1": 36,
+    "w2": 43,
+    "quote": "there be no righteousness there be no happiness."
+   },
+   "reason": "Alma's flattest statement of the same rule",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 41,
+     "verse": 10,
+     "w1": 25,
+     "w2": 28,
+     "quote": "wickedness never was happiness.",
+     "verse_text": "Do not suppose, because it has been spoken concerning restoration, that ye shall be restored from sin to happiness. Behold, I say unto you, wickedness never was happiness.",
+     "markdown": "Do not suppose, because it has been spoken concerning restoration, that ye shall be restored from sin to happiness. Behold, I say unto you, **wickedness never was happiness**.",
+     "span": true
+    }
+   ],
+   "mirror": "al41-005"
+  },
+  {
+   "id": "2ne02-016",
+   "scope": "BOM",
+   "head": "Hel. 6:26",
+   "anchor": {
+    "verse": 18,
+    "w1": 45,
+    "w2": 49,
+    "quote": "Partake of the forbidden fruit,"
+   },
+   "reason": "Mormon tracing the secret oaths back to Eden",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 6,
+     "verse": 26,
+     "w1": 33,
+     "w2": 47,
+     "quote": "that same being who did entice our first parents to partake of the forbidden fruit—",
+     "verse_text": "Now behold, those secret oaths and covenants did not come forth unto Gadianton from the records which were delivered unto Helaman; but behold, they were put into the heart of Gadianton by that same being who did entice our first parents to partake of the forbidden fruit—",
+     "markdown": "Now behold, those secret oaths and covenants did not come forth unto Gadianton from the records which were delivered unto Helaman; but behold, they were put into the heart of Gadianton by **that same being who did entice our first parents to partake of the forbidden fruit—**",
+     "span": true
+    }
+   ],
+   "mirror": "hel06-008"
+  },
+  {
+   "id": "2ne02-017",
+   "scope": "BOM",
+   "head": "Alma 12:22",
+   "anchor": {
+    "verse": 25,
+    "w1": 1,
+    "w2": 6,
+    "quote": "Adam fell that men might be;"
+   },
+   "reason": "Alma stating the fall's cost before its purpose",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 12,
+     "verse": 22,
+     "w1": 44,
+     "w2": 51,
+     "quote": "all mankind became a lost and fallen people.",
+     "verse_text": "Now Alma said unto him: This is the thing which I was about to explain. Now we see that Adam did fall by the partaking of the forbidden fruit, according to the word of God; and thus we see, that by his fall, all mankind became a lost and fallen people.",
+     "markdown": "Now Alma said unto him: This is the thing which I was about to explain. Now we see that Adam did fall by the partaking of the forbidden fruit, according to the word of God; and thus we see, that by his fall, **all mankind became a lost and fallen people**.",
+     "span": true
+    }
+   ],
+   "mirror": "al12-005"
+  },
+  {
+   "id": "2ne02-018",
+   "scope": "BOM",
+   "head": "Hel. 14:30",
+   "anchor": {
+    "verse": 27,
+    "w1": 21,
+    "w2": 29,
+    "quote": "they are free to choose liberty and eternal life,"
+   },
+   "reason": "Samuel telling the Nephites they are free to act",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 14,
+     "verse": 30,
+     "w1": 23,
+     "w2": 32,
+     "quote": "ye are free; ye are permitted to act for yourselves;",
+     "verse_text": "And now remember, remember, my brethren, that whosoever perisheth, perisheth unto himself; and whosoever doeth iniquity, doeth it unto himself; for behold, ye are free; ye are permitted to act for yourselves; for behold, God hath given unto you a knowledge and he hath made you free.",
+     "markdown": "And now remember, remember, my brethren, that whosoever perisheth, perisheth unto himself; and whosoever doeth iniquity, doeth it unto himself; for behold, **ye are free; ye are permitted to act for yourselves**; for behold, God hath given unto you a knowledge and he hath made you free.",
+     "span": true
+    }
+   ],
+   "mirror": "hel14-008"
   },
   {
    "id": "2ne02-004",
@@ -1432,6 +1246,33 @@
    ]
   },
   {
+   "verse": 10,
+   "w1": 52,
+   "w2": 56,
+   "quote": "the punishment which is affixed,",
+   "entries": [
+    "2ne02-013"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 7,
+   "w2": 13,
+   "quote": "there is an opposition in all things.",
+   "entries": [
+    "2ne02-014"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 36,
+   "w2": 43,
+   "quote": "there be no righteousness there be no happiness.",
+   "entries": [
+    "2ne02-015"
+   ]
+  },
+  {
    "verse": 17,
    "w1": 16,
    "w2": 29,
@@ -1451,11 +1292,29 @@
   },
   {
    "verse": 18,
+   "w1": 45,
+   "w2": 49,
+   "quote": "Partake of the forbidden fruit,",
+   "entries": [
+    "2ne02-016"
+   ]
+  },
+  {
+   "verse": 18,
    "w1": 51,
    "w2": 64,
    "quote": "ye shall not die, but ye shall be as God, knowing good and evil",
    "entries": [
     "2ne02-008"
+   ]
+  },
+  {
+   "verse": 25,
+   "w1": 1,
+   "w2": 6,
+   "quote": "Adam fell that men might be;",
+   "entries": [
+    "2ne02-017"
    ]
   },
   {
@@ -1473,7 +1332,8 @@
    "w2": 29,
    "quote": "they are free to choose liberty and eternal life",
    "entries": [
-    "2ne02-011"
+    "2ne02-011",
+    "2ne02-018"
    ]
   },
   {
@@ -1487,7 +1347,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "ab28e9501b23742f"
+  "at": "2026-09-07",
+  "source_sha256": "00e14b8d4dcb3dac"
  }
 }

@@ -17,7 +17,7 @@
    "Rescue",
    "Preaching without partiality"
   ],
-  "connections": 6,
+  "connections": 11,
   "initial": true
  },
  "world_behind": [
@@ -49,7 +49,7 @@
   {
    "n": 3,
    "title": "A general asks a prophet for intelligence",
-   "text": "Zoram and his sons go to Alma because he is high priest and has the spirit of prophecy. Alma inquires and returns with a river crossing, a direction and a place. The record treats revelation as usable operational information and does not remark on it."
+   "text": "Zoram and his sons go to Alma, who holds the high priesthood and the spirit of prophecy. Alma inquires and returns with a river crossing, a direction and a place. The record treats revelation as usable operational information and does not remark on it."
   },
   {
    "n": 4,
@@ -114,15 +114,20 @@
    ]
   },
   {
+   "term": "Scent",
+   "verse_label": "v. 11",
+   "text": "Smell carried on the air. The word appears three times in this record and three times in the King James Bible, where it is always something pleasant: wine, vines, a tree budding at the scent of water. Verse 11 puts it to the opposite use, of a ruin nobody would enter for many years. Moroni reaches for it once more, of the Jaredite dead."
+  },
+  {
    "term": "Synagogues",
    "verse_label": "v. 13",
-   "text": "Assembly houses. Alma and Amulek preach in temples, sanctuaries and synagogues, and only the last gets an explanation: they \"were built after the manner of the Jews\" (v. 13). The record supplies the note because it knows how far these people are from Jerusalem, and it lists three kinds of building where one would have done.",
+   "text": "Assembly houses. Three kinds of building carry the preaching, and only the last gets an explanation: they \"were built after the manner of the Jews\" (v. 13). The record supplies the note because it knows how far these people are from Jerusalem, and it lists three kinds of building where one would have done.",
    "cites": [
     {
      "quote": "were built after the manner of the Jews",
      "verse": 13,
-     "start": 124,
-     "end": 173,
+     "start": 106,
+     "end": 155,
      "spans": [
       {
        "w1": 25,
@@ -136,13 +141,13 @@
   {
    "term": "Impart",
    "verse_label": "v. 14",
-   "text": "To give a share of something. What was imparted was the word, to as many as would hear, \"without any respect of persons\" (v. 14). The verb treats teaching as distribution, and the phrase attached to it rules out the sorting that a distributor might otherwise do.",
+   "text": "To give a share of something. Treated at Mosiah 18:27. What was imparted was the word, to as many as would hear, \"without any respect of persons\" (v. 14). The verb treats teaching as distribution, and the phrase attached to it rules out the sorting that a distributor might otherwise do.",
    "cites": [
     {
      "quote": "without any respect of persons",
      "verse": 14,
-     "start": 88,
-     "end": 128,
+     "start": 113,
+     "end": 153,
      "spans": [
       {
        "w1": 18,
@@ -150,6 +155,18 @@
        "text": "without any respect of persons"
       }
      ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 18:27",
+     "start": 41,
+     "end": 53,
+     "book": "Mosiah",
+     "chapter": 18,
+     "verse_start": 27,
+     "verse_end": 27
     }
    ]
   },
@@ -203,7 +220,19 @@
   {
    "term": "Without any respect of persons",
    "verse_label": "v. 14",
-   "text": "The old phrase for refusing to judge by rank or face. Peter uses it at the moment the gospel opens to the Gentiles. Here it describes how the word was handed out in a society that had just watched wealth and office run a city into the ground."
+   "text": "The old phrase for refusing to judge by rank or face. Peter uses it at the moment the gospel opens to the Gentiles (Acts 10:34). Here it describes how the word was handed out in a society that had just watched wealth and office run a city into the ground.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Acts 10:34",
+     "start": 116,
+     "end": 126,
+     "book": "Acts",
+     "chapter": 10,
+     "verse_start": 34,
+     "verse_end": 34
+    }
+   ]
   },
   {
    "term": "As a branch be grafted into the true vine",
@@ -218,53 +247,83 @@
  ],
  "verses": [
   {
-   "label": "v. 1–3",
+   "label": "v. 1",
    "start": 1,
+   "end": 1,
+   "title": "A date given twice over",
+   "text": "The record fixes the end of the peace to a day, not a season or a year: \"on the fifth day of the second month,\" and then repeats the same day and month before the verse closes. Day-level dating is rare in these books; years and reigns carry almost all of the chronology. Naming the day twice inside the same verse marks the boundary between a stretch of quiet and \"a cry of war heard throughout the land\" as the thing the verse exists to record."
+  },
+  {
+   "label": "v. 3",
+   "start": 3,
    "end": 3,
-   "title": "Peace, and then not",
-   "text": "Years without war, a date to the day, and then armies already inside the borders. Ammonihah is destroyed before an army can be raised, with people around Noah killed and others taken captive."
+   "title": "The defence recorded as too late",
+   "text": "The record does not narrate a battle for Ammonihah. It states the timing failure directly, \"before the Nephites could raise a sufficient army to drive them out of the land,\" and then lists what had already happened by then: the people destroyed, the borders of Noah struck, others taken captive. A summary that wanted to protect the Nephite side could have omitted the clause; the record keeps the sequence in the order that makes the loss unavoidable."
   },
   {
-   "label": "v. 4–6",
-   "start": 4,
-   "end": 6,
-   "title": "A general goes to a prophet",
-   "text": "The Nephites want the captives back. Zoram and his sons come to Alma because he is high priest and has the spirit of prophecy. He inquires and returns with a route."
+   "label": "v. 5",
+   "start": 5,
+   "end": 5,
+   "title": "Three names delivered inside a parenthesis",
+   "text": "The record interrupts its own sentence to supply the chief captain's name and his sons: \"and his name was Zoram, and he had two sons, Lehi and Aha.\" None of the three has appeared before. Of the three, Lehi recurs as a Nephite commander in the war chapters, at Alma 43:35 and Alma 49:16; Zoram and Aha do not return. A parenthesis is an odd place to seed a name that carries thirty chapters.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 43:35",
+     "start": 261,
+     "end": 271,
+     "book": "Alma",
+     "chapter": 43,
+     "verse_start": 35,
+     "verse_end": 35
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 49:16",
+     "start": 276,
+     "end": 286,
+     "book": "Alma",
+     "chapter": 49,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
   },
   {
-   "label": "v. 7–8",
-   "start": 7,
+   "label": "v. 8",
+   "start": 8,
    "end": 8,
-   "title": "The rescue",
-   "text": "They cross the Sidon, march beyond Manti, scatter the Lamanites, and recover every captive. The verse counts them and reports none missing."
+   "title": "A result stated as an absence",
+   "text": "The rescue is not reported as a number recovered. It is reported as a subtraction that came out at zero: \"there was not one soul of them had been lost that were taken captive.\" The record repeatedly counts its dead by naming who is missing, and here it counts a success the same way. Compare Alma 24:22 and Alma 57:25, where the same negative form does the arithmetic.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 24:22",
+     "start": 292,
+     "end": 302,
+     "book": "Alma",
+     "chapter": 24,
+     "verse_start": 22,
+     "verse_end": 22
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 57:25",
+     "start": 307,
+     "end": 317,
+     "book": "Alma",
+     "chapter": 57,
+     "verse_start": 25,
+     "verse_end": 25
+    }
+   ]
   },
   {
-   "label": "v. 9–11",
-   "start": 9,
-   "end": 11,
-   "title": "Ammonihah",
-   "text": "Every living soul destroyed, the city with it, in one day, and the boast quoted alongside. The bodies are mangled, then heaped and shallowly covered, and the land stays empty for years under the name Desolation of Nehors."
-  },
-  {
-   "label": "v. 12–13",
-   "start": 12,
-   "end": 13,
-   "title": "Three years, and three kinds of building",
-   "text": "No Lamanite war until the fourteenth year. Alma and Amulek preach in temples, sanctuaries and synagogues, and the record notes which pattern the synagogues followed."
-  },
-  {
-   "label": "v. 14–17",
-   "start": 14,
-   "end": 17,
-   "title": "The word, distributed",
-   "text": "To all who would hear, without respect of persons, continually. The church becomes general, there is no inequality, and the Spirit is poured out to prepare people to receive the word at the time of his coming."
-  },
-  {
-   "label": "v. 18–21",
+   "label": "v. 18",
    "start": 18,
-   "end": 21,
-   "title": "What they preached, and the close",
-   "text": "Against lying, envying, stealing, murder and the rest; for the coming of the Son, his suffering, death and resurrection. People ask where he will appear and are told, and hear it with joy. The fourteenth year ends in peace."
+   "end": 18,
+   "title": "Eleven vices in one list",
+   "text": "The preaching is summarized by list, not by doctrine: lyings, deceivings, envyings, strifes, malice, revilings, stealing, robbing, plundering, murdering, adultery, and then a closing catch-all for \"all manner of lasciviousness.\" The list runs from speech offences through property offences to violence, and the ordering is consistent, not random. Verse 19 supplies the positive content in three items only, which leaves the negative catalogue roughly four times the length of the positive one."
   }
  ],
  "chapter": [
@@ -281,7 +340,19 @@
   {
    "n": 3,
    "title": "Revelation is used as logistics",
-   "text": "A chief captain asks a high priest where the enemy will be, and gets a river and a direction. The book treats this as an ordinary use of the gift, which says something about how it understands prophecy."
+   "text": "Verse 5 gives the reason for the consultation in administrative terms, that Zoram and his sons knew \"that Alma was high priest over the church, and having heard that he had the spirit of prophecy.\" The answer at verse 6 is three coordinates, the crossing of Sidon, \"beyond the borders of the land of Manti,\" and \"on the east of the river Sidon,\" and verse 7 tracks the army by all three. Nothing in the chapter treats this as unusual, and Alma 43:23–24 records the same procedure being followed again by a different commander.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 43:23–24",
+     "start": 439,
+     "end": 452,
+     "book": "Alma",
+     "chapter": 43,
+     "verse_start": 23,
+     "verse_end": 24
+    }
+   ]
   },
   {
    "n": 4,
@@ -301,30 +372,50 @@
   {
    "n": 7,
    "title": "The peace is dated and therefore temporary",
-   "text": "The chapter ends the fourteenth year and has already told the reader the Lamanites returned in it. The record hands its calmest verse to a reader who has been given the expiry."
+   "text": "Verse 12 gives both facts together: the Lamanites \"did not come again to war against the Nephites until the fourteenth year,\" and \"for three years did the people of Nephi have continual peace in all the land.\" The expiry is stated before the peace is described. Verse 21 then closes the fourteenth year on three parenthetical clauses about victory, pure preaching, and outpoured blessings, and the reader already knows from verse 12 what year it is."
   }
  ],
  "world_in_front": {
   "applications": [
    {
-    "title": "Quote yourself accurately later",
-    "verse_label": "v. 9",
-    "text": "The record kept Ammonihah's boast and set it beside the outcome. Write down the confident thing you are saying this year about how something will turn out, and read it back when you know."
+    "title": "Ask the person who might actually know",
+    "verse_label": "v. 5",
+    "text": "A general with spies also sent to a high priest, and the record gives the reason plainly: knowing that Alma \"had the spirit of prophecy.\" When you have one channel of information, ask whether there is a second kind available, and use both."
+   },
+   {
+    "title": "Give the answer as coordinates",
+    "verse_label": "v. 6–7",
+    "text": "What comes back is a river, a direction, and a place, and the next verse tracks the army by those same three landmarks. Guidance you can act on names something specific enough to be wrong about."
    },
    {
     "title": "Count what was saved",
     "verse_label": "v. 8",
-    "text": "The rescue is reported as a number: not one soul lost. When something goes right, get specific about how much and who. Vagueness about good outcomes is a habit worth breaking."
+    "text": "The rescue is reported as a number and the number is zero lost, \"there was not one soul of them had been lost that were taken captive.\" When something goes right, count it as carefully as you would count a loss."
    },
    {
-    "title": "Ask the person who might actually know",
-    "verse_label": "v. 5",
-    "text": "A general with an army went to a preacher for a location, because that was where the information was. Notice when your pride about categories is keeping you from the one person likely to have the answer."
+    "title": "Quote yourself accurately later",
+    "verse_label": "v. 9",
+    "text": "The record keeps the boast the Ammonihahites made about their own city, \"which they said God could not destroy, because of its greatness,\" inside the verse that reports it destroyed. Keep a record of what you claimed when you were confident, and read it back afterward."
+   },
+   {
+    "title": "Preach in the buildings that already exist",
+    "verse_label": "v. 13",
+    "text": "The record names three, \"in their temples, and in their sanctuaries, and also in their synagogues.\" The work is done in the places people already gather rather than in ones built for the purpose."
    },
    {
     "title": "Give it out without sorting",
     "verse_label": "v. 14",
-    "text": "They imparted to as many as would hear, without respect of persons. Look at who you actually explain things to, and check whether the pattern is about who will listen or about who seems worth the time."
+    "text": "They imparted the word \"without any respect of persons, continually.\" Notice who you have quietly stopped offering things to, and whether the sorting was ever a decision or just a habit."
+   },
+   {
+    "title": "Notice how much of the teaching is a list of things not to do",
+    "verse_label": "v.\n18–19",
+    "text": "Eleven vices are named in verse 18 and three positive items in verse 19. If your own account of what you believe runs the same way, it may be worth rebalancing on purpose."
+   },
+   {
+    "title": "Say what the coming means before people ask where",
+    "verse_label": "v. 20",
+    "text": "The question people raised was geographic, \"the place where the Son of God should come,\" and the answer given was about timing and their own future. Answer the question people actually need answered, even when it is not the one they asked."
    }
   ],
   "questions": [
@@ -397,7 +488,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al09-013"
   },
   {
    "id": "al16-002",
@@ -423,7 +514,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al08-005"
   },
   {
    "id": "al16-003",
@@ -449,7 +540,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al01-002"
   },
   {
    "id": "al16-004",
@@ -475,7 +566,137 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al04-004"
+  },
+  {
+   "id": "al16-007",
+   "scope": "BOOK",
+   "head": "Alma 49:1",
+   "anchor": {
+    "verse": 2,
+    "w1": 3,
+    "w2": 7,
+    "quote": "the armies of the Lamanites"
+   },
+   "reason": "the Lamanite army returning to a rebuilt Ammonihah",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 49,
+     "verse": 1,
+     "w1": 22,
+     "w2": 29,
+     "quote": "the armies of the Lamanites were seen approaching",
+     "verse_text": "And now it came to pass in the eleventh month of the nineteenth year, on the tenth day of the month, the armies of the Lamanites were seen approaching towards the land of Ammonihah.",
+     "markdown": "And now it came to pass in the eleventh month of the nineteenth year, on the tenth day of the month, **the armies of the Lamanites were seen approaching** towards the land of Ammonihah.",
+     "span": true
+    }
+   ],
+   "mirror": "al49-006"
+  },
+  {
+   "id": "al16-008",
+   "scope": "BOOK",
+   "head": "Alma 9:18",
+   "anchor": {
+    "verse": 9,
+    "w1": 20,
+    "w2": 25,
+    "quote": "the people of Ammonihah were destroyed;"
+   },
+   "reason": "Alma's warning of utter destruction to that city",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 9,
+     "verse": 18,
+     "w1": 48,
+     "w2": 54,
+     "quote": "ye shall be visited with utter destruction;",
+     "verse_text": "But behold, I say unto you that if ye persist in your wickedness that your days shall not be prolonged in the land, for the Lamanites shall be sent upon you; and if ye repent not they shall come in a time when you know not, and ye shall be visited with utter destruction; and it shall be according to the fierce anger of the Lord.",
+     "markdown": "But behold, I say unto you that if ye persist in your wickedness that your days shall not be prolonged in the land, for the Lamanites shall be sent upon you; and if ye repent not they shall come in a time when you know not, and **ye shall be visited with utter destruction**; and it shall be according to the fierce anger of the Lord.",
+     "span": true
+    }
+   ],
+   "mirror": "al09-002"
+  },
+  {
+   "id": "al16-009",
+   "scope": "BOOK",
+   "head": "Alma 14:11",
+   "anchor": {
+    "verse": 9,
+    "w1": 20,
+    "w2": 25,
+    "quote": "the people of Ammonihah were destroyed;"
+   },
+   "reason": "the reason Alma gave for letting the burning happen",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 14,
+     "verse": 11,
+     "w1": 56,
+     "w2": 70,
+     "quote": "that the judgments which he shall exercise upon them in his wrath may be just;",
+     "verse_text": "But Alma said unto him: The Spirit constraineth me that I must not stretch forth mine hand; for behold the Lord receiveth them up unto himself, in glory; and he doth suffer that they may do this thing, or that the people may do this thing unto them, according to the hardness of their hearts, that the judgments which he shall exercise upon them in his wrath may be just; and the blood of the innocent shall stand as a witness against them, yea, and cry mightily against them at the last day.",
+     "markdown": "But Alma said unto him: The Spirit constraineth me that I must not stretch forth mine hand; for behold the Lord receiveth them up unto himself, in glory; and he doth suffer that they may do this thing, or that the people may do this thing unto them, according to the hardness of their hearts, **that the judgments which he shall exercise upon them in his wrath may be just**; and the blood of the innocent shall stand as a witness against them, yea, and cry mightily against them at the last day.",
+     "span": true
+    }
+   ],
+   "mirror": "al14-003"
+  },
+  {
+   "id": "al16-010",
+   "scope": "BOOK",
+   "head": "Alma 25:2",
+   "anchor": {
+    "verse": 9,
+    "w1": 20,
+    "w2": 25,
+    "quote": "the people of Ammonihah were destroyed;"
+   },
+   "reason": "the Lamanites who did the killing, tracked afterward",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 25,
+     "verse": 2,
+     "w1": 20,
+     "w2": 28,
+     "quote": "the people who were in the land of Ammonihah",
+     "verse_text": "But they took their armies and went over into the borders of the land of Zarahemla, and fell upon the people who were in the land of Ammonihah and destroyed them.",
+     "markdown": "But they took their armies and went over into the borders of the land of Zarahemla, and fell upon **the people who were in the land of Ammonihah** and destroyed them.",
+     "span": true
+    }
+   ],
+   "mirror": "al25-001"
+  },
+  {
+   "id": "al16-011",
+   "scope": "BOOK",
+   "head": "Alma 49:3",
+   "anchor": {
+    "verse": 9,
+    "w1": 20,
+    "w2": 25,
+    "quote": "the people of Ammonihah were destroyed;"
+   },
+   "reason": "the ruin that made Ammonihah look like easy prey",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 49,
+     "verse": 3,
+     "w1": 25,
+     "w2": 30,
+     "quote": "the Lamanites had destroyed it once",
+     "verse_text": "Behold, I said that the city of Ammonihah had been rebuilt. I say unto you, yea, that it was in part rebuilt; and because the Lamanites had destroyed it once because of the iniquity of the people, they supposed that it would again become an easy prey for them.",
+     "markdown": "Behold, I said that the city of Ammonihah had been rebuilt. I say unto you, yea, that it was in part rebuilt; and because **the Lamanites had destroyed it once** because of the iniquity of the people, they supposed that it would again become an easy prey for them.",
+     "span": true
+    }
+   ],
+   "mirror": "al49-002"
   },
   {
    "id": "al16-005",
@@ -487,7 +708,7 @@
     "w2": 22,
     "quote": "without any respect of persons"
    },
-   "reason": "the phrase at the gospel’s widening",
+   "reason": "the phrase at the gospel's widening",
    "targets": [
     {
      "ref": "Acts",
@@ -531,6 +752,27 @@
   }
  ],
  "markers": [
+  {
+   "verse": 2,
+   "w1": 3,
+   "w2": 7,
+   "quote": "the armies of the Lamanites",
+   "entries": [
+    "al16-007"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 20,
+   "w2": 25,
+   "quote": "the people of Ammonihah were destroyed;",
+   "entries": [
+    "al16-008",
+    "al16-009",
+    "al16-010",
+    "al16-011"
+   ]
+  },
   {
    "verse": 9,
    "w1": 40,
@@ -587,7 +829,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "d41c06ea51e7023a"
+  "at": "2026-09-07",
+  "source_sha256": "c52d5768351ef0c3"
  }
 }

@@ -1,0 +1,751 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "3 Nephi",
+  "book_slug": "3nephi",
+  "chapter": 13,
+  "volume_order": "10",
+  "speakers": [
+   "Jesus Christ"
+  ],
+  "audience": "The multitude, and then the twelve directly",
+  "location": "The temple in the land Bountiful",
+  "date": "AD 34",
+  "unit": "The sermon at the temple (3 Nephi 12–14)",
+  "principles": [
+   "Reward paid by the one who sees in secret",
+   "A prayer given without two of its petitions",
+   "An instruction narrowed to twelve men"
+  ],
+  "connections": 11,
+  "initial": false
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Alms are commanded before they are qualified",
+   "text": "Verse 1 opens with a positive instruction to do alms unto the poor. Matthew 6:1 begins with the warning and never gives the command, so the Nephite version establishes the duty before regulating it."
+  },
+  {
+   "n": 2,
+   "title": "The triad follows Matthew 6 in order",
+   "text": "Alms, prayer, and fasting each receive a hypocrite's version, a secret version, and the same promise of open reward, in the same sequence as Matthew 6:1 through 18. The structure carries over whole, and every difference sits inside it."
+  },
+  {
+   "n": 3,
+   "title": "The prayer is shorter here",
+   "text": "Verses 9 through 13 omit \"Thy kingdom come\" and \"Give us this day our daily bread,\" both present in Matthew 6:10 and 11. Of everything this chapter alters in Matthew, these two omissions are the largest."
+  },
+  {
+   "n": 4,
+   "title": "The closing praise is present",
+   "text": "Verse 13 keeps \"For thine is the kingdom, and the power, and the glory, forever,\" which Matthew 6:13 also carries and which many later manuscripts of Matthew do not."
+  },
+  {
+   "n": 5,
+   "title": "The fasting instruction is carried over",
+   "text": "Verses 16 through 18 keep the anointed head and the washed face of Matthew 6:17, in the same chapter where the prayer has lost two petitions. What was kept is as much an editorial fact as what was dropped."
+  },
+  {
+   "n": 6,
+   "title": "Mormon marks the audience change in his own text",
+   "text": "Verse 25 breaks the discourse to report that Jesus looked upon the twelve whom he had chosen and spoke to them, before continuing with the words of Matthew 6:25. Matthew has no such break, and the insertion narrows a public sermon onto its leadership at that exact line."
+  },
+  {
+   "n": 7,
+   "title": "The Gentile clause is dropped",
+   "text": "Verse 32 omits \"for after all these things do the Gentiles seek,\" which stands in Matthew 6:32. The audience is a remnant of Israel on the far side of the world, and the comparison had nobody to point at."
+  }
+ ],
+ "words": [
+  {
+   "term": "Alms",
+   "verse_label": "v. 1",
+   "text": "Gifts to the poor. All five of the record's uses are in this chapter, at verses 1 through 4, and the King James Bible has it thirteen times, mostly in Acts."
+  },
+  {
+   "term": "Hallowed",
+   "verse_label": "v. 9",
+   "text": "Made holy, treated as holy. The record uses the word twice, here and at Mosiah 13:19 of the sabbath, and the King James Bible twenty-two times.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 13:19",
+     "start": 72,
+     "end": 84,
+     "book": "Mosiah",
+     "chapter": 13,
+     "verse_start": 19,
+     "verse_end": 19
+    }
+   ]
+  },
+  {
+   "term": "Disfigure",
+   "verse_label": "v. 16",
+   "text": "To spoil the appearance of. It appears once in the record, and once in the King James Bible, at Matthew 6:16, in this same saying about fasting."
+  },
+  {
+   "term": "Mammon",
+   "verse_label": "v. 24",
+   "text": "Wealth, personified as a rival master. The word occurs once in the record and four times in the King James Bible, and is left untranslated in both."
+  },
+  {
+   "term": "Cubit",
+   "verse_label": "v. 27",
+   "text": "A unit of length, about the forearm. The word turns up once here, and forty-five times in the King James Bible, where it is nearly always a building measure. Here it measures a man's height."
+  },
+  {
+   "term": "Lilies",
+   "verse_label": "v. 28",
+   "text": "Wild flowers. One use here against ten in the King James Bible. Verse 28 sets them against Solomon's wardrobe."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "I would that ye should do alms unto the poor",
+   "verse_label": "v. 1",
+   "text": "The positive command that Matthew 6:1 lacks. The warning about being seen follows it rather than standing alone."
+  },
+  {
+   "term": "Let not thy left hand know what thy right hand doeth",
+   "verse_label": "v. 3",
+   "text": "Secrecy pressed past other people to yourself. The giving is to be hidden from the giver's own accounting."
+  },
+  {
+   "term": "Enter into thy closet, and when thou hast shut thy door",
+   "verse_label": "v. 6",
+   "text": "Two actions, and not one. Alma 33:7 has a prayer offered in a closet as well.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 33:7",
+     "start": 26,
+     "end": 35,
+     "book": "Alma",
+     "chapter": 33,
+     "verse_start": 7,
+     "verse_end": 7
+    }
+   ]
+  },
+  {
+   "term": "Use not vain repetitions, as the heathen",
+   "verse_label": "v. 7",
+   "text": "The reason follows: they think they will be heard for much speaking. 3 Nephi 19:24 will describe disciples who did not multiply many words."
+  },
+  {
+   "term": "Our Father who art in heaven, hallowed be thy name",
+   "verse_label": "v. 9",
+   "text": "The prayer's opening, identical to Matthew 6:9. What comes next is where the two diverge."
+  },
+  {
+   "term": "They disfigure their faces that they may appear unto men to fast",
+   "verse_label": "v. 16",
+   "text": "The performance described physically. Verses 17 and 18 give the opposite instruction in equally physical terms."
+  },
+  {
+   "term": "Where your treasure is, there will your heart be also",
+   "verse_label": "v. 21",
+   "text": "The direction of the claim. The heart follows the treasure, so the treasure is the thing to place."
+  },
+  {
+   "term": "If thine eye be single, thy whole body shall be full of light",
+   "verse_label": "v. 22",
+   "text": "The eye as the body's lamp. Verse 23 pushes it further: light that has become darkness is a greater darkness."
+  },
+  {
+   "term": "Ye cannot serve God and Mammon",
+   "verse_label": "v. 24",
+   "text": "The end of the section on treasure. The impossibility is stated flatly rather than argued."
+  },
+  {
+   "term": "He looked upon the twelve whom he had chosen, and said unto them",
+   "verse_label": "v. 25",
+   "text": "Mormon marking a change of audience. What follows in Matthew 6:25 is general, and here it is given to twelve men with a ministry."
+  },
+  {
+   "term": "Seek ye first the kingdom of God and his righteousness",
+   "verse_label": "v. 33",
+   "text": "The instruction the whole section arrives at. Jacob 2:18 had put the same order in the same words.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 2:18",
+     "start": 46,
+     "end": 56,
+     "book": "Jacob",
+     "chapter": 2,
+     "verse_start": 18,
+     "verse_end": 18
+    }
+   ]
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–34",
+   "start": 1,
+   "end": 34,
+   "title": "Where the changes fall",
+   "text": "Eighteen of this chapter's thirty-four verses carry a real word change against the King James text, fifty-three per cent, which puts it thirteenth among the twenty-four chapter-length quotations in the volume. The count overstates the disturbance. Seven of the twenty-four substitutions are the single swap which to who in a relative clause referring to a person, and several more are spelling regularised. Set those aside and the chapter's real work is done in five places: verse 1, the prayer, verse 25, verse 30 and verse 32."
+  },
+  {
+   "label": "v. 1",
+   "start": 1,
+   "end": 1,
+   "title": "A command in front of the warning",
+   "text": "The King James chapter opens on a prohibition: \"Take heed that ye do not your alms before men.\" Sixteen words are set in front of it here, \"Verily, verily, I say that I would that ye should do alms unto the poor; but take heed.\" The prohibition is untouched and now arrives as the second half of a sentence whose first half commands the thing being regulated. Matthew's opening tells a hearer how not to give; this one tells him to give, and then how not to."
+  },
+  {
+   "label": "v. 9–12",
+   "start": 9,
+   "end": 12,
+   "title": "Two petitions missing",
+   "text": "The Lord's Prayer here is two lines shorter than the King James version. \"Thy kingdom come\" is gone from verse 10, and \"Give us this day our daily bread\" is gone from what would be verse 11. Because the text is set out in the same verse count, everything after shifts up one: the King James verse 12, forgiveness of debts, stands at verse 11 here, and the King James verse 13 stands at verse 12. Of the six petitions Matthew records, four remain, and the two removed are the only two that ask for something to arrive, a kingdom and a meal."
+  },
+  {
+   "label": "v. 13",
+   "start": 13,
+   "end": 13,
+   "title": "The ending that manuscripts argue about",
+   "text": "The prayer closes here on a line of praise, \"For thine is the kingdom, and the power, and the glory, forever. Amen.\" Those words are printed in the King James Bible and are missing from the oldest surviving Greek manuscripts of Matthew, where the prayer ends at deliverance from evil. This is worth setting beside 3 Nephi 12:22, which goes the other way: there the chapter omits \"without a cause,\" a phrase the King James prints and the oldest Greek manuscripts also lack. Within one sermon, one passage follows the older reading and another follows the later one."
+  },
+  {
+   "label": "v. 25",
+   "start": 25,
+   "end": 25,
+   "title": "Who is being told not to worry",
+   "text": "In Matthew the instruction to take no thought for food and clothing runs on from the saying about two masters, addressed to everyone listening. Here forty-four words are inserted first: \"when Jesus had spoken these words he looked upon the twelve whom he had chosen, and said unto them: Remember the words which I have spoken. For behold, ye are they whom I have chosen to minister unto this people.\" Only then does \"Therefore I say unto you, take no thought for your life\" begin. The audience for the rest of the chapter is twelve men with a job, not a crowd."
+  },
+  {
+   "label": "v. 30",
+   "start": 30,
+   "end": 30,
+   "title": "A question turned into a condition",
+   "text": "Matthew ends the argument from the lilies with a rebuke shaped as a question: \"shall he not much more clothe you, O ye of little faith?\" Here the question mark is gone and the sentence makes a bargain instead, \"even so will he clothe you, if ye are not of little faith.\" Nothing about the grass or the oven changes. What changes is that the hearers are no longer being told off for a faith they already lack; they are being told what follows if they have it."
+  },
+  {
+   "label": "v. 32",
+   "start": 32,
+   "end": 32,
+   "title": "The Gentiles left out",
+   "text": "The King James verse begins with a parenthesis, \"(For after all these things do the Gentiles seek:)\", and this version deletes it, leaving \"For your heavenly Father knoweth that ye have need of all these things.\" The comparison that motivated the warning is gone, and with it the only place the word Gentiles stands in Matthew 5 through 7. The three chapters of the sermon as given here do not use it at all. What remains is the reassurance without the contrast that set it up."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The chapter opens with a command to give",
+   "text": "Verse 1 puts the alms before the warning. The instruction is not only about how to avoid a fault."
+  },
+  {
+   "n": 2,
+   "title": "The same structure runs three times",
+   "text": "Hypocrite, secret, open reward. Alms, prayer, and fasting are treated as one lesson in three forms."
+  },
+  {
+   "n": 3,
+   "title": "Two petitions are absent from the prayer",
+   "text": "No kingdom come, no daily bread. The record gives the prayer as spoken here and does not comment on the difference."
+  },
+  {
+   "n": 4,
+   "title": "The closing praise is kept",
+   "text": "Verse 13 ends with the kingdom, the power, and the glory. The record gives the prayer as it was spoken here."
+  },
+  {
+   "n": 5,
+   "title": "Forgiveness is made reciprocal in two verses",
+   "text": "Verses 14 and 15 state it positively and then negatively. Nothing else in the prayer gets that treatment."
+  },
+  {
+   "n": 6,
+   "title": "The audience narrows and it is marked",
+   "text": "Verse 25 has Mormon reporting the look at the twelve. The instruction about taking no thought is addressed to men who are being sent out."
+  },
+  {
+   "n": 7,
+   "title": "The clothing promise carries a condition",
+   "text": "Verse 30 makes it depend on not being of little faith, where Matthew 6:30 puts the phrase as a question to the hearers."
+  },
+  {
+   "n": 8,
+   "title": "The section ends on order rather than on unconcern",
+   "text": "Verse 33 says seek first. The instruction is about sequence and not about indifference to needs."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Hide it from yourself too",
+    "verse_label": "v. 3",
+    "text": "The left hand is not to know. Not only concealment from an audience but from your own bookkeeping; a good deed you are still counting is not yet finished."
+   },
+   {
+    "title": "Shut the door",
+    "verse_label": "v. 6",
+    "text": "Two actions are named: go in, and close it. A place and a barrier, both physical. If your prayer keeps getting interrupted, the instruction here is about furniture before it is about attitude."
+   },
+   {
+    "title": "Say the pattern, not the words",
+    "verse_label": "v. 9",
+    "text": "The prayer is introduced as a manner, \"after this manner therefore pray ye,\" and what follows is short enough to memorise and general enough to fill in. Learn the shape, and use it as a checklist for what your own praying leaves out."
+   },
+   {
+    "title": "Attach the condition you would rather not",
+    "verse_label": "v. 14–15",
+    "text": "The forgiveness clause is the only line of the prayer given a follow-up, and it is stated twice, once positively and once negatively. Whatever else you ask for this week, notice that this one comes with your own conduct written into it."
+   },
+   {
+    "title": "Place the treasure and let the heart follow",
+    "verse_label": "v. 21",
+    "text": "The verse runs from treasure to heart, not the other way. If you want to care about something, put something of yours into it and wait."
+   },
+   {
+    "title": "Pick which master before the day starts",
+    "verse_label": "v. 24",
+    "text": "The verse rules out neutrality: hate one and love the other, or hold to one and despise the other. There is no third arrangement offered. Decide the order in advance, because the moment of collision is a poor time to work it out."
+   },
+   {
+    "title": "Notice when instruction is addressed to a role",
+    "verse_label": "v. 25",
+    "text": "Taking no thought for food and raiment is said to the twelve, who have just been given a full-time errand. Before applying a sentence to yourself, check who was standing in front of the speaker."
+   },
+   {
+    "title": "Sort the two questions",
+    "verse_label": "v. 33–34",
+    "text": "Seek the kingdom first, and take no thought for tomorrow. One is about priority and one is about horizon, and the verse joins them. When you are anxious, ask which of the two is actually wrong: the ranking, or the distance you are looking."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "Whom have I given to lately, and who knows about it?"
+   },
+   {
+    "verse_label": "v. 6",
+    "start": 6,
+    "end": 6,
+    "text": "Where do I actually pray, and is there a door?"
+   },
+   {
+    "verse_label": "v. 7",
+    "start": 7,
+    "end": 7,
+    "text": "What in my praying is repetition I am counting on?"
+   },
+   {
+    "verse_label": "v. 15",
+    "start": 15,
+    "end": 15,
+    "text": "Whose trespasses am I holding?"
+   },
+   {
+    "verse_label": "v. 21",
+    "start": 21,
+    "end": 21,
+    "text": "If someone tracked my spending, what would they say I love?"
+   },
+   {
+    "verse_label": "v. 24",
+    "start": 24,
+    "end": 24,
+    "text": "Which two masters am I currently trying to serve?"
+   },
+   {
+    "verse_label": "v. 33",
+    "start": 33,
+    "end": 33,
+    "text": "What am I seeking first, honestly?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "3ne13-001",
+   "scope": "BOOK",
+   "head": "3 Ne. 12:1",
+   "anchor": {
+    "verse": 25,
+    "w1": 14,
+    "w2": 26,
+    "quote": "he looked upon the twelve whom he had chosen, and said unto them"
+   },
+   "reason": "the calling of those twelve, counted in a parenthesis",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 12,
+     "verse": 1,
+     "w1": 23,
+     "w2": 39,
+     "quote": "the number of them who had been called, and received power and authority to baptize, was twelve)",
+     "verse_text": "And it came to pass that when Jesus had spoken these words unto Nephi, and to those who had been called, (now the number of them who had been called, and received power and authority to baptize, was twelve) and behold, he stretched forth his hand unto the multitude, and cried unto them, saying: Blessed are ye if ye shall give heed unto the words of these twelve whom I have chosen from among you to minister unto you, and to be your servants; and unto them I have given power that they may baptize you with water; and after that ye are baptized with water, behold, I will baptize you with fire and with the Holy Ghost; therefore blessed are ye if ye shall believe in me and be baptized, after that ye have seen me and know that I am.",
+     "markdown": "And it came to pass that when Jesus had spoken these words unto Nephi, and to those who had been called, (now **the number of them who had been called, and received power and authority to baptize, was twelve)** and behold, he stretched forth his hand unto the multitude, and cried unto them, saying: Blessed are ye if ye shall give heed unto the words of these twelve whom I have chosen from among you to minister unto you, and to be your servants; and unto them I have given power that they may baptize you with water; and after that ye are baptized with water, behold, I will baptize you with fire and with the Holy Ghost; therefore blessed are ye if ye shall believe in me and be baptized, after that ye have seen me and know that I am.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne12-011"
+  },
+  {
+   "id": "3ne13-002",
+   "scope": "BOOK",
+   "head": "3 Ne. 19:24",
+   "anchor": {
+    "verse": 7,
+    "w1": 5,
+    "w2": 23,
+    "quote": "use not vain repetitions, as the heathen, for they think that they shall be heard for their much speaking"
+   },
+   "reason": "disciples who did not multiply many words, and why",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 19,
+     "verse": 24,
+     "w1": 33,
+     "w2": 48,
+     "quote": "they did not multiply many words, for it was given unto them what they should pray,",
+     "verse_text": "And it came to pass that when Jesus had thus prayed unto the Father, he came unto his disciples, and behold, they did still continue, without ceasing, to pray unto him; and they did not multiply many words, for it was given unto them what they should pray, and they were filled with desire.",
+     "markdown": "And it came to pass that when Jesus had thus prayed unto the Father, he came unto his disciples, and behold, they did still continue, without ceasing, to pray unto him; and **they did not multiply many words, for it was given unto them what they should pray**, and they were filled with desire.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne19-004"
+  },
+  {
+   "id": "3ne13-003",
+   "scope": "BOOK",
+   "head": "3 Ne. 18:19",
+   "anchor": {
+    "verse": 6,
+    "w1": 17,
+    "w2": 24,
+    "quote": "pray to thy Father who is in secret"
+   },
+   "reason": "the same instruction given again at the sacrament",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 18,
+     "verse": 19,
+     "w1": 2,
+     "w2": 11,
+     "quote": "ye must always pray unto the Father in my name;",
+     "verse_text": "Therefore ye must always pray unto the Father in my name;",
+     "markdown": "Therefore **ye must always pray unto the Father in my name**;",
+     "span": true
+    }
+   ],
+   "mirror": "3ne18-003"
+  },
+  {
+   "id": "3ne13-011",
+   "scope": "BOOK",
+   "head": "3 Ne. 14:1",
+   "anchor": {
+    "verse": 25,
+    "w1": 14,
+    "w2": 26,
+    "quote": "he looked upon the twelve whom he had chosen, and said unto them:"
+   },
+   "reason": "the turn back to the crowd",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 14,
+     "verse": 1,
+     "w1": 14,
+     "w2": 19,
+     "quote": "he turned again to the multitude,",
+     "verse_text": "And now it came to pass that when Jesus had spoken these words he turned again to the multitude, and did open his mouth unto them again, saying: Verily, verily, I say unto you, Judge not, that ye be not judged.",
+     "markdown": "And now it came to pass that when Jesus had spoken these words **he turned again to the multitude**, and did open his mouth unto them again, saying: Verily, verily, I say unto you, Judge not, that ye be not judged.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne14-001"
+  },
+  {
+   "id": "3ne13-004",
+   "scope": "BOM",
+   "head": "Mosiah 4:26",
+   "anchor": {
+    "verse": 1,
+    "w1": 6,
+    "w2": 15,
+    "quote": "I would that ye should do alms unto the poor"
+   },
+   "reason": "Benjamin giving the same command in the same construction",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 4,
+     "verse": 26,
+     "w1": 36,
+     "w2": 47,
+     "quote": "God—I would that ye should impart of your substance to the poor,",
+     "verse_text": "And now, for the sake of these things which I have spoken unto you—that is, for the sake of retaining a remission of your sins from day to day, that ye may walk guiltless before God—I would that ye should impart of your substance to the poor, every man according to that which he hath, such as feeding the hungry, clothing the naked, visiting the sick and administering to their relief, both spiritually and temporally, according to their wants.",
+     "markdown": "And now, for the sake of these things which I have spoken unto you—that is, for the sake of retaining a remission of your sins from day to day, that ye may walk guiltless before **God—I would that ye should impart of your substance to the poor**, every man according to that which he hath, such as feeding the hungry, clothing the naked, visiting the sick and administering to their relief, both spiritually and temporally, according to their wants.",
+     "span": true
+    }
+   ],
+   "mirror": "mos04-012"
+  },
+  {
+   "id": "3ne13-005",
+   "scope": "BOM",
+   "head": "Alma 31:14",
+   "anchor": {
+    "verse": 5,
+    "w1": 13,
+    "w2": 27,
+    "quote": "they love to pray, standing in the synagogues and in the corners of the streets"
+   },
+   "reason": "the Rameumptom, where prayer was made from a platform",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 31,
+     "verse": 14,
+     "w1": 2,
+     "w2": 14,
+     "quote": "whosoever desired to worship must go forth and stand upon the top thereof,",
+     "verse_text": "Therefore, whosoever desired to worship must go forth and stand upon the top thereof, and stretch forth his hands towards heaven, and cry with a loud voice, saying:",
+     "markdown": "Therefore, **whosoever desired to worship must go forth and stand upon the top thereof**, and stretch forth his hands towards heaven, and cry with a loud voice, saying:",
+     "span": true
+    }
+   ],
+   "mirror": "al31-012"
+  },
+  {
+   "id": "3ne13-006",
+   "scope": "BOM",
+   "head": "2 Ne. 9:30",
+   "anchor": {
+    "verse": 21,
+    "w1": 1,
+    "w2": 11,
+    "quote": "For where your treasure is, there will your heart be also"
+   },
+   "reason": "Nephi on men whose treasure had become their god",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 9,
+     "verse": 30,
+     "w1": 31,
+     "w2": 42,
+     "quote": "their hearts are upon their treasures; wherefore, their treasure is their god.",
+     "verse_text": "But wo unto the rich, who are rich as to the things of the world. For because they are rich they despise the poor, and they persecute the meek, and their hearts are upon their treasures; wherefore, their treasure is their god. And behold, their treasure shall perish with them also.",
+     "markdown": "But wo unto the rich, who are rich as to the things of the world. For because they are rich they despise the poor, and they persecute the meek, and **their hearts are upon their treasures; wherefore, their treasure is their god**. And behold, their treasure shall perish with them also.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne09-030"
+  },
+  {
+   "id": "3ne13-007",
+   "scope": "BOM",
+   "head": "Jacob 2:18",
+   "anchor": {
+    "verse": 33,
+    "w1": 1,
+    "w2": 11,
+    "quote": "But seek ye first the kingdom of God and his righteousness"
+   },
+   "reason": "Jacob putting the same two things in the same order",
+   "targets": [
+    {
+     "ref": "Jacob",
+     "chapter": 2,
+     "verse": 18,
+     "w1": 2,
+     "w2": 13,
+     "quote": "before ye seek for riches, seek ye for the kingdom of God.",
+     "verse_text": "But before ye seek for riches, seek ye for the kingdom of God.",
+     "markdown": "But **before ye seek for riches, seek ye for the kingdom of God**.",
+     "span": true
+    }
+   ],
+   "mirror": "jac02-014"
+  },
+  {
+   "id": "3ne13-008",
+   "scope": "SW",
+   "head": "Matt. 6:10",
+   "anchor": {
+    "verse": 10,
+    "w1": 1,
+    "w2": 11,
+    "quote": "Thy will be done on earth as it is in heaven"
+   },
+   "reason": "the same petition, preceded there by one absent here",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 6,
+     "verse": 10,
+     "w1": 1,
+     "w2": 14,
+     "quote": "Thy kingdom come. Thy will be done in earth, as it is in heaven.",
+     "verse_text": "Thy kingdom come. Thy will be done in earth, as it is in heaven.",
+     "markdown": "**Thy kingdom come. Thy will be done in earth, as it is in heaven**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne13-009",
+   "scope": "SW",
+   "head": "Matt. 6:11",
+   "anchor": {
+    "verse": 11,
+    "w1": 1,
+    "w2": 10,
+    "quote": "And forgive us our debts, as we forgive our debtors"
+   },
+   "reason": "the petition that stands in this position in Matthew",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 6,
+     "verse": 11,
+     "w1": 1,
+     "w2": 7,
+     "quote": "Give us this day our daily bread.",
+     "verse_text": "Give us this day our daily bread.",
+     "markdown": "**Give us this day our daily bread**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne13-010",
+   "scope": "SW",
+   "head": "Matt. 6:25",
+   "anchor": {
+    "verse": 25,
+    "w1": 53,
+    "w2": 67,
+    "quote": "take no thought for your life, what ye shall eat, or what ye shall drink"
+   },
+   "reason": "the same instruction, given there without the narrowing to twelve",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 6,
+     "verse": 25,
+     "w1": 6,
+     "w2": 20,
+     "quote": "Take no thought for your life, what ye shall eat, or what ye shall drink;",
+     "verse_text": "Therefore I say unto you, Take no thought for your life, what ye shall eat, or what ye shall drink; nor yet for your body, what ye shall put on. Is not the life more than meat, and the body than raiment?",
+     "markdown": "Therefore I say unto you, **Take no thought for your life, what ye shall eat, or what ye shall drink**; nor yet for your body, what ye shall put on. Is not the life more than meat, and the body than raiment?",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 6,
+   "w2": 15,
+   "quote": "I would that ye should do alms unto the poor",
+   "entries": [
+    "3ne13-004"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 13,
+   "w2": 27,
+   "quote": "they love to pray, standing in the synagogues and in the corners of the streets",
+   "entries": [
+    "3ne13-005"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 17,
+   "w2": 24,
+   "quote": "pray to thy Father who is in secret",
+   "entries": [
+    "3ne13-003"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 5,
+   "w2": 23,
+   "quote": "use not vain repetitions, as the heathen, for they think that they shall be heard for their much speaking",
+   "entries": [
+    "3ne13-002"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 1,
+   "w2": 11,
+   "quote": "Thy will be done on earth as it is in heaven",
+   "entries": [
+    "3ne13-008"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 1,
+   "w2": 10,
+   "quote": "And forgive us our debts, as we forgive our debtors",
+   "entries": [
+    "3ne13-009"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 1,
+   "w2": 11,
+   "quote": "For where your treasure is, there will your heart be also",
+   "entries": [
+    "3ne13-006"
+   ]
+  },
+  {
+   "verse": 25,
+   "w1": 14,
+   "w2": 26,
+   "quote": "he looked upon the twelve whom he had chosen, and said unto them",
+   "entries": [
+    "3ne13-001",
+    "3ne13-011"
+   ]
+  },
+  {
+   "verse": 25,
+   "w1": 53,
+   "w2": 67,
+   "quote": "take no thought for your life, what ye shall eat, or what ye shall drink",
+   "entries": [
+    "3ne13-010"
+   ]
+  },
+  {
+   "verse": 33,
+   "w1": 1,
+   "w2": 11,
+   "quote": "But seek ye first the kingdom of God and his righteousness",
+   "entries": [
+    "3ne13-007"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "6ed286a80f57ac7a"
+ }
+}

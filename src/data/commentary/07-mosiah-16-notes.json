@@ -17,7 +17,7 @@
    "Refusal",
    "Teaching"
   ],
-  "connections": 19,
+  "connections": 20,
   "initial": false
  },
  "world_behind": [
@@ -34,7 +34,19 @@
   {
    "n": 3,
    "title": "Watchmen who agree",
-   "text": "Isaiah's line about seeing eye to eye describes lookouts on a wall reporting the same thing at the same moment. It has already passed twice through this trial before it reaches verse 1. What the agreement is finally about, here, is that the judgments are just."
+   "text": "Isaiah's line about seeing eye to eye (Isa. 52:8) describes lookouts on a wall reporting the same thing at the same moment. It has already passed twice through this trial before it reaches verse 1. What the agreement is finally about, here, is that the judgments are just.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 52:8",
+     "start": 39,
+     "end": 48,
+     "book": "Isa",
+     "chapter": 52,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
   },
   {
    "n": 4,
@@ -54,7 +66,29 @@
   {
    "n": 7,
    "title": "A judgment register borrowed from the prophets",
-   "text": "Howling, weeping, wailing, and gnashing of teeth is a stacked formula. Isaiah uses howling for cities under sentence; the gospels pair wailing with gnashing. Verse 2 runs all four together. Neither source does that, and it is the only place in the whole sermon where the volume goes up."
+   "text": "Howling, weeping, wailing, and gnashing of teeth is a stacked formula. Isaiah uses howling for cities under sentence (Isa. 13:6); the gospels pair wailing with gnashing (Matt. 13:42). Verse 2 runs all four together. Neither source does that, and it is the only place in the whole sermon where the volume goes up.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 13:6",
+     "start": 118,
+     "end": 127,
+     "book": "Isa",
+     "chapter": 13,
+     "verse_start": 6,
+     "verse_end": 6
+    },
+    {
+     "kind": "scripture",
+     "text": "Matt. 13:42",
+     "start": 170,
+     "end": 181,
+     "book": "Matt",
+     "chapter": 13,
+     "verse_start": 42,
+     "verse_end": 42
+    }
+   ]
   }
  ],
  "words": [
@@ -76,12 +110,12 @@
   {
    "term": "Incorruption",
    "verse_label": "v. 10",
-   "text": "Freedom from decay, the condition of a body that will not rot. It is paired with immortality and set against corruption, and both pairs are described as clothing put on. The image is of something added to a body rather than a body exchanged."
+   "text": "Freedom from decay, the condition of a body that will not rot. It is paired with immortality and set against corruption, and both pairs are described as clothing put on. The image is of something added to a body instead of a body exchanged."
   },
   {
    "term": "Bar",
    "verse_label": "v. 10",
-   "text": "The rail a defendant stands at in court. This record uses the phrase \"the bar of God\" six times across four books, and it is always a place someone is brought to. Here the bringing is done by the resurrection itself."
+   "text": "The rail a defendant stands at in court. Treated at 2 Nephi 33:11. This record uses the phrase \"the bar of God\" six times across four books, and it is always a place someone is brought to. Here the bringing is done by the resurrection itself."
   },
   {
    "term": "Shadow",
@@ -98,7 +132,29 @@
   {
    "term": "That old serpent that did beguile our first parents",
    "verse_label": "v. 3",
-   "text": "The title appears in Revelation and once earlier in this record, in Lehi's teaching to Jacob. Abinadi uses it to explain a mechanism rather than to tell a story: the serpent is named as the cause of the fall, and the fall as the cause of a condition everybody inherits."
+   "text": "The title appears in Revelation (Rev. 12:9) and once earlier in this record, in Lehi's teaching to Jacob (2 Ne. 2:18). Abinadi uses it to explain a mechanism rather than to tell a story: the serpent is named as the cause of the fall, and the fall as the cause of a condition everybody inherits.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Rev. 12:9",
+     "start": 33,
+     "end": 42,
+     "book": "Rev",
+     "chapter": 12,
+     "verse_start": 9,
+     "verse_end": 9
+    },
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 2:18",
+     "start": 106,
+     "end": 116,
+     "book": "2 Ne",
+     "chapter": 2,
+     "verse_start": 18,
+     "verse_end": 18
+    }
+   ]
   },
   {
    "term": "Speaking of things to come as though they had already come",
@@ -108,7 +164,19 @@
   {
    "term": "The sting of death is swallowed up in Christ",
    "verse_label": "v. 8",
-   "text": "Paul writes almost these words to Corinth, with victory where this has Christ. The substitution changes the sentence from a statement about an outcome to a statement about a person. The verse before it argued by supposing the resurrection away; this one simply asserts it."
+   "text": "Paul writes almost these words to Corinth (1 Cor. 15:55), with victory where this has Christ. The substitution changes the sentence from a statement about an outcome to a statement about a person. The verse before it argued by supposing the resurrection away; this one simply asserts it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Cor. 15:55",
+     "start": 43,
+     "end": 55,
+     "book": "1 Cor",
+     "chapter": 15,
+     "verse_start": 55,
+     "verse_end": 55
+    }
+   ]
   },
   {
    "term": "He is the light and the life of the world",
@@ -128,7 +196,7 @@
   {
    "term": "Teach them that redemption cometh through Christ the Lord",
    "verse_label": "v. 15",
-   "text": "The last thing Abinadi says, and it is an instruction rather than a verdict. He is speaking to professional teachers, and the sentence assumes they will go on teaching. It ends with \"Amen,\" and the next thing in the record is the order for his death."
+   "text": "The last thing Abinadi says, and it is an instruction instead of a verdict. He is speaking to professional teachers, and the sentence assumes they will go on teaching. It ends with \"Amen,\" and the next thing in the record is the order for his death."
   }
  ],
  "verses": [
@@ -137,7 +205,7 @@
    "start": 1,
    "end": 2,
    "title": "The day everyone agrees",
-   "text": "All nations seeing the same thing and conceding the same point, and then the wicked cast out howling. The agreement and the separation are described as one event. What makes the second bearable in the logic of the verse is that nobody disputes the first."
+   "text": "The record has the speaker stretch forth his hand and then makes universal agreement the first item: \"every nation, kindred, tongue, and people shall see eye to eye and shall confess before God that his judgments are just.\" The phrase \"see eye to eye\" is Isaiah 52:8, which the record quotes in full at 3 Nephi 20:32 in a passage about watchmen rather than about judgment. Verse 2 supplies the separation with four verbs, \"howl, and weep, and wail, and gnash their teeth,\" and then states the ground, \"because they would not hearken unto the voice of the Lord.\""
   },
   {
    "label": "v. 3–5",
@@ -179,7 +247,29 @@
    "start": 13,
    "end": 15,
    "title": "The assignment",
-   "text": "Ought ye not to tremble; only through Christ can ye be saved; if ye teach the law, teach also that it is an outline of what is coming; teach that redemption comes through Christ the Lord. Four imperatives, ending in Amen."
+   "text": "The record closes the sermon by giving the priests a teaching rule rather than a verdict: \"if ye teach the law of Moses, also teach that it is a shadow of those things which are to come.\" The word \"shadow\" is doing technical work and returns in the same sense at Mosiah 3:15, \"many signs, and wonders, and types, and shadows showed he unto them.\" Verse 15 then attaches a title that will be argued over, \"Christ the Lord, who is the very Eternal Father,\" which is the identification the priests dispute at Mosiah 7:27. The last thing said to the court is an instruction about how to keep teaching, delivered by a man they are about to burn.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 3:15",
+     "start": 263,
+     "end": 274,
+     "book": "Mosiah",
+     "chapter": 3,
+     "verse_start": 15,
+     "verse_end": 15
+    },
+    {
+     "kind": "scripture",
+     "text": "Mosiah 7:27",
+     "start": 506,
+     "end": 517,
+     "book": "Mosiah",
+     "chapter": 7,
+     "verse_start": 27,
+     "verse_end": 27
+    }
+   ]
   }
  ],
  "chapter": [
@@ -494,7 +584,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al42-010"
   },
   {
    "id": "mos16-011",
@@ -520,7 +610,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al12-020"
   },
   {
    "id": "mos16-010",
@@ -546,7 +636,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al05-030"
   },
   {
    "id": "mos16-009",
@@ -572,7 +662,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "3ne09-012"
   },
   {
    "id": "mos16-008",
@@ -625,6 +715,32 @@
     }
    ],
    "mirror": "1ne10-002"
+  },
+  {
+   "id": "mos16-020",
+   "scope": "BOM",
+   "head": "Hel. 12:26",
+   "anchor": {
+    "verse": 11,
+    "w1": 1,
+    "w2": 12,
+    "quote": "If they be good, to the resurrection of endless life and happiness;"
+   },
+   "reason": "Mormon stating the same division",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 12,
+     "verse": 26,
+     "w1": 17,
+     "w2": 25,
+     "quote": "They that have done good shall have everlasting life;",
+     "verse_text": "Yea, who shall be consigned to a state of endless misery, fulfilling the words which say: They that have done good shall have everlasting life; and they that have done evil shall have everlasting damnation. And thus it is. Amen.",
+     "markdown": "Yea, who shall be consigned to a state of endless misery, fulfilling the words which say: **They that have done good shall have everlasting life**; and they that have done evil shall have everlasting damnation. And thus it is. Amen.",
+     "span": true
+    }
+   ],
+   "mirror": "hel12-008"
   },
   {
    "id": "mos16-019",
@@ -905,6 +1021,15 @@
    ]
   },
   {
+   "verse": 11,
+   "w1": 1,
+   "w2": 12,
+   "quote": "If they be good, to the resurrection of endless life and happiness;",
+   "entries": [
+    "mos16-020"
+   ]
+  },
+  {
    "verse": 12,
    "w1": 27,
    "w2": 38,
@@ -935,7 +1060,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "c08b94599a529207"
+  "at": "2026-09-07",
+  "source_sha256": "8ae252da5132ce95"
  }
 }

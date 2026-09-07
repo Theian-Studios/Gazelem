@@ -14,7 +14,8 @@
   "unit": "Alma's charges to his sons (Alma 36–42)",
   "principles": [
    "A short charge to a son already doing well",
-   "Boldness without"
+   "Boldness without overbearance",
+   "Praying the opposite of the Rameumptom"
   ],
   "connections": 9,
   "initial": true
@@ -77,12 +78,24 @@
   {
    "term": "Anguish",
    "verse_label": "v. 8",
-   "text": "Acute distress of body or mind. The record uses it eleven times and the King James Bible seventeen. Alma pairs it with bitter pain to cover three days in one phrase, where Alma 36 needed six verses."
+   "text": "Acute distress of body or mind. It appears eleven times in the record, and the King James Bible seventeen. Alma pairs it with bitter pain to cover three days in one phrase, where Alma 36 needed six verses."
   },
   {
    "term": "Temperate",
    "verse_label": "v. 10",
-   "text": "Moderate, self-restrained. The record uses it twice and the King James Bible three times, always in lists of qualities expected of a teacher. Alma 7 has the same word in a longer list Alma gave publicly at Gideon."
+   "text": "Moderate, self-restrained. The record uses it twice and the King James Bible three times, always in lists of qualities expected of a teacher. Alma 7:23 has the same word in a longer list Alma gave publicly at Gideon.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 7:23",
+     "start": 142,
+     "end": 151,
+     "book": "Alma",
+     "chapter": 7,
+     "verse_start": 23,
+     "verse_end": 23
+    }
+   ]
   },
   {
    "term": "Overbearance",
@@ -92,12 +105,12 @@
   {
    "term": "Bridle",
    "verse_label": "v. 12",
-   "text": "To fit with a bridle, to control as a horse is controlled. The record uses it once and the King James Bible nine times, including James on bridling the whole body. Alma applies it to the passions and attaches a purpose: that ye may be filled with love."
+   "text": "To fit with a bridle, to control as a horse is controlled. The word turns up once here, and the King James Bible nine times, including James on bridling the whole body. Alma applies it to the passions and attaches a purpose: that ye may be filled with love."
   },
   {
    "term": "Unworthiness",
    "verse_label": "v. 14",
-   "text": "The state of not deserving. The word appears three times in this record and never in the King James Bible. Alma makes acknowledging it the substance of the prayer he wants, in place of the thanksgiving the Zoramites offered."
+   "text": "The state of not deserving. Three uses here, with none in the King James Bible. Alma makes acknowledging it the substance of the prayer he wants, in place of the thanksgiving the Zoramites offered."
   }
  ],
  "phrases": [
@@ -141,7 +154,19 @@
   {
    "term": "There is no other way or means whereby man can be saved, only in and through Christ",
    "verse_label": "v. 9",
-   "text": "The reason Alma gives for retelling his own story. Nephi says the same in 2 Nephi 31 and Peter says it before the Sanhedrin, and Alma offers it as the lesson the story exists to carry."
+   "text": "The reason Alma gives for retelling his own story. Nephi says the same in 2 Nephi 31:21 and Peter says it before the Sanhedrin (Acts 4:12), and Alma offers it as the lesson the story exists to carry.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Acts 4:12",
+     "start": 128,
+     "end": 137,
+     "book": "Acts",
+     "chapter": 4,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
   },
   {
    "term": "Use boldness, but not overbearance",
@@ -166,46 +191,133 @@
  ],
  "verses": [
   {
-   "label": "v. 1–2",
+   "label": "v. 1",
    "start": 1,
-   "end": 2,
-   "title": "The same promise",
-   "text": "Keep the commandments and prosper; break them and be cut off, exactly as said to Helaman. Alma trusts he will have joy in Shiblon because of his steadiness, and hopes he will continue, since the blessing is on enduring to the end."
+   "end": 1,
+   "title": "A formula the speaker marks as a repeat",
+   "text": "The chapter opens by quoting the speaker's own earlier words and saying so: \"even as I said unto Helaman, that inasmuch as ye shall keep the commandments of God ye shall prosper in the land.\" Nine verses of the volume carry that clause, and three of them are Alma saying it to a son, at Alma 36:1, Alma 37:13 and here. The reader is told the sentence is second-hand before it is used, so the address to Shiblon begins by being explicitly the same address given to his brother.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 36:1",
+     "start": 287,
+     "end": 296,
+     "book": "Alma",
+     "chapter": 36,
+     "verse_start": 1,
+     "verse_end": 1
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 37:13",
+     "start": 298,
+     "end": 308,
+     "book": "Alma",
+     "chapter": 37,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
   },
   {
-   "label": "v. 3–5",
+   "label": "v. 3–4",
    "start": 3,
-   "end": 5,
-   "title": "What he endured",
-   "text": "Alma has already had joy in him for his faithfulness, diligence, patience, and long-suffering among the Zoramites. He was in bonds and was stoned for the word's sake, and bore it because the Lord was with him. Trust in God and be delivered in proportion."
+   "end": 4,
+   "title": "A biography that exists only in this aside",
+   "text": "The father's praise is specific and evidential: \"I know that thou wast in bonds; yea, and I also know that thou wast stoned for the word's sake; and thou didst bear all these things with patience.\" Shiblon is named in thirteen verses of the volume, and this is the only one that reports either the imprisonment or the stoning. Alma 31:7 has him going out to the Zoramites; nothing narrates what happened there. An episode that would be a chapter for anyone else survives as a subordinate clause inside a compliment.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 31:7",
+     "start": 327,
+     "end": 336,
+     "book": "Alma",
+     "chapter": 31,
+     "verse_start": 7,
+     "verse_end": 7
+    }
+   ]
   },
   {
-   "label": "v. 6–8",
+   "label": "v. 6–9",
    "start": 6,
-   "end": 8,
-   "title": "The conversion, short",
-   "text": "Alma disclaims knowing these things of himself. An angel was sent to stop his work of destruction, with a voice like thunder that shook the earth. Three days and nights of bitter pain and anguish, and no remission until he cried to Christ, and then peace."
+   "end": 9,
+   "title": "The conversion, told a third time and shortened",
+   "text": "The record carries Alma's account of his own conversion three times. This is the briefest, three verses, and the only one prefaced by a warning about how the speaker knows anything: \"I would not that ye should think that I know these things of myself, but it is the Spirit of God which is in me.\" The three days are reported as \"three days and three nights in the most bitter pain and anguish of soul,\" and the turning point is compressed to a single clause, \"never, until I did cry out unto the Lord Jesus Christ for mercy.\""
   },
   {
-   "label": "v. 9–12",
-   "start": 9,
+   "label": "v. 10–12",
+   "start": 10,
    "end": 12,
-   "title": "What to do",
-   "text": "Learn that there is no other way to be saved except through Christ, who is the life and the light of the world. Continue teaching, be diligent and temperate, avoid pride and boasting, use boldness without overbearance, bridle the passions, refuse idleness."
+   "title": "The register changes to command and stays there",
+   "text": "After nine verses of testimony, three verses of imperatives arrive with no transition: continue to teach, be diligent and temperate, see that ye are not lifted up, do not boast, use boldness but not overbearance, bridle all your passions, refrain from idleness. Several are stated as balanced pairs rather than single prohibitions. Bridle occurs once in the volume, in verse 12, and the metaphor is not explained anywhere."
   },
   {
-   "label": "v. 13–14",
+   "label": "v. 13",
    "start": 13,
+   "end": 13,
+   "title": "A negative example the reader has already seen",
+   "text": "The instruction names a group and expects recognition: \"Do not pray as the Zoramites do, for ye have seen that they pray to be heard of men, and to be praised for their wisdom.\" Ye have seen is doing real work, because Shiblon was there. Alma 31:7 lists him among the party, and Alma 31:15–18 preserves the prayer in full. The counsel does not describe the fault; it points seven chapters back and lets the quoted text supply it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 31:7",
+     "start": 238,
+     "end": 247,
+     "book": "Alma",
+     "chapter": 31,
+     "verse_start": 7,
+     "verse_end": 7
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 31:15–18",
+     "start": 279,
+     "end": 292,
+     "book": "Alma",
+     "chapter": 31,
+     "verse_start": 15,
+     "verse_end": 18
+    }
+   ]
+  },
+  {
+   "label": "v. 14",
+   "start": 14,
    "end": 14,
-   "title": "How not to pray",
-   "text": "Do not pray as the Zoramites, who pray to be heard of men and praised for their wisdom. Do not thank God that you are better than your brethren. Ask forgiveness for your unworthiness and mercy for them, and acknowledge it at all times."
+   "title": "Two prayers, in the shape of a parable told elsewhere",
+   "text": "The verse gives a wrong prayer and a right one: \"Do not say: O God, I thank thee that we are better than our brethren; but rather say: O Lord, forgive my unworthiness, and remember my brethren in mercy.\" Luke 18:11 and 18:13 set the same two prayers side by side, where the Pharisee says \"God, I thank thee, that I am not as other men are\" and the publican says \"God be merciful to me a sinner.\" The Gospel makes it a story with two characters. Here it is an instruction to one man, with both prayers put in his own mouth.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Luke 18:11",
+     "start": 204,
+     "end": 214,
+     "book": "Luke",
+     "chapter": 18,
+     "verse_start": 11,
+     "verse_end": 11
+    }
+   ]
   },
   {
    "label": "v. 15",
    "start": 15,
    "end": 15,
-   "title": "The blessing",
-   "text": "May the Lord bless your soul and receive you into his kingdom to sit down in peace. Go teach the word to this people. Be sober. Farewell."
+   "title": "The same two words that closed the last address",
+   "text": "The blessing ends the chapter and the last command in it is the shortest: \"Now go, my son, and teach the word unto this people. Be sober.\" Be sober stands in two verses of the volume. The other is Alma 37:47, the closing line of the counsel to Helaman one chapter earlier. Two consecutive addresses to two sons end on the identical two words, which is checkable in a way that no reading of the tone can be.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 37:47",
+     "start": 197,
+     "end": 207,
+     "book": "Alma",
+     "chapter": 37,
+     "verse_start": 47,
+     "verse_end": 47
+    }
+   ]
   }
  ],
  "chapter": [
@@ -222,22 +334,34 @@
   {
    "n": 3,
    "title": "The conversion is retold as an argument",
-   "text": "Verse 9 says why: so Shiblon may learn there is no other way to be saved. The story is offered as evidence rather than as memoir."
+   "text": "Verse 9 says why: so Shiblon may learn that salvation comes through Christ alone. The story is offered as evidence rather than as memoir."
   },
   {
    "n": 4,
    "title": "The virtues are named with their excesses",
-   "text": "Boldness against overbearance, passion against bridling, diligence against idleness. Alma teaches by marking the edge of each quality, so his son can tell when he has passed it."
+   "text": "Verse 12 gives three instructions and two of them are stated as limits on a good thing: \"Use boldness, but not overbearance,\" \"bridle all your passions,\" and \"refrain from idleness.\" Verse 11 has already done the same with wisdom and strength, \"see that ye do not boast in your own wisdom, nor of your much strength.\" Four qualities in two verses, each named with the edge marked, so the son is given a test rather than a virtue."
   },
   {
    "n": 5,
    "title": "Bridling is for filling",
-   "text": "The purpose clause matters: passions are controlled so that love can fill the person. The restraint is presented as making room."
+   "text": "The clause at verse 12 is \"bridle all your passions, that ye may be filled with love.\" The restraint is given a purpose and the purpose is capacity, not merit. Nothing else in these books uses the verb \"bridle\" of a person, and the sentence supplies the only stated reason for the restraint anywhere in the chapter."
   },
   {
    "n": 6,
    "title": "The counter-prayer is exact",
-   "text": "The Rameumptom thanked God for election and for others being cast down. Alma's version asks forgiveness for the self and mercy for the brethren, reversing both clauses."
+   "text": "Verse 13 names the model to avoid, \"Do not pray as the Zoramites do,\" and verse 14 gives the two forms side by side: \"Do not say: O God, I thank thee that we are better than our brethren; but rather say: O Lord, forgive my unworthiness, and remember my brethren in mercy.\" The prayer being reversed is quoted at Alma 31:17, which thanks God for election and for others \"elected to be cast by thy wrath down to hell.\" Both of its clauses are inverted here, the self-comparison and the verdict on the brethren.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 31:17",
+     "start": 312,
+     "end": 322,
+     "book": "Alma",
+     "chapter": 31,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
   },
   {
    "n": 7,
@@ -254,23 +378,43 @@
   "applications": [
    {
     "title": "Tell someone what you have noticed about them",
-    "verse_label": "v. 3",
-    "text": "Alma listed four things his son had done well before instructing him at all. Pick someone steady in your life and name specifically what you have seen."
+    "verse_label": "v. 2–4",
+    "text": "Alma lists four things by name, \"thy faithfulness and thy diligence, and thy patience and thy long-suffering among the people of the Zoramites,\" and adds what he knows of the cost, that Shiblon was in bonds and stoned. Specific praise is worth more than the general kind, and it requires having paid attention."
+   },
+   {
+    "title": "Say where your knowledge of them came from",
+    "verse_label": "v. 6",
+    "text": "Alma adds a caveat to the praise, \"I would not that ye should think that I know these things of myself.\" He is not claiming to have watched. When you tell somebody what you have seen in them, be honest about how you saw it."
+   },
+   {
+    "title": "Give the useful part of your own history",
+    "verse_label": "v. 7–8",
+    "text": "Alma tells the story in two verses and draws one lesson, \"that ye may learn of me that there is no other way or means whereby man can be saved, only in and through Christ.\" The account is short and it is entirely instrumental."
    },
    {
     "title": "Keep the quality and name the excess",
     "verse_label": "v. 12",
-    "text": "Alma asked for boldness without overbearance. Take a strength of yours and work out what its excess looks like, so you can tell when you have crossed into it."
+    "text": "\"Use boldness, but not overbearance,\" and the same shape governs diligence against idleness. Teaching by marking the edge of a good quality lets a person tell when they have crossed it."
    },
    {
     "title": "Bridle rather than remove",
     "verse_label": "v. 12",
-    "text": "The purpose of the control is to be filled with love. When you are trying to master something in yourself, decide what the restraint is making room for."
+    "text": "The purpose of the control is stated, \"bridle all your passions, that ye may be filled with love.\" The restraint is presented as making room rather than as reducing you."
    },
    {
     "title": "Write the opposite prayer",
+    "verse_label": "v. 13–14",
+    "text": "Alma gives his son the exact form to avoid and the exact form to use, \"Do not say: O God, I thank thee that we are better than our brethren; but rather say: O Lord, forgive my unworthiness, and remember my brethren in mercy.\" Try writing out the version of your own prayer that inverts its comparisons."
+   },
+   {
+    "title": "Attach a habit to the correction",
     "verse_label": "v. 14",
-    "text": "Alma gave his son the exact reversal of the prayer he had heard. Take a way of thinking you know is wrong and compose the sentence that inverts it."
+    "text": "The instruction closes with \"acknowledge your unworthiness before God at all times,\" which turns a one-off adjustment into a standing practice. A correction with no recurring form attached tends not to survive the week."
+   },
+   {
+    "title": "Send them back to work",
+    "verse_label": "v. 15",
+    "text": "The blessing ends with a job and two words of manner, \"Now go, my son, and teach the word unto this people. Be sober.\" Praise that does not end in an assignment leaves the person nowhere to put it."
    }
   ],
   "questions": [
@@ -296,7 +440,7 @@
     "verse_label": "v. 9",
     "start": 9,
     "end": 9,
-    "text": "Could I say in one sentence why I believe what I believe?"
+    "text": "Could I say in a single line why I believe what I believe?"
    },
    {
     "verse_label": "v. 12",
@@ -395,7 +539,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al31-013"
   },
   {
    "id": "al38-004",
@@ -421,7 +565,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al07-026"
   },
   {
    "id": "al38-005",
@@ -447,7 +591,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "2ne31-019"
   },
   {
    "id": "al38-006",
@@ -473,7 +617,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos27-023"
   },
   {
    "id": "al38-007",
@@ -622,7 +766,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "4c9d4b26a92802a6"
+  "at": "2026-09-07",
+  "source_sha256": "6e681ff100d1265d"
  }
 }

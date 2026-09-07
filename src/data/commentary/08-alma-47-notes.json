@@ -17,9 +17,9 @@
   "principles": [
    "A design executed in stages",
    "Testimony arranged to be believed",
-   ""
+   "Dissenters who become worse than the people they join"
   ],
-  "connections": 9,
+  "connections": 10,
   "initial": true
  },
  "world_behind": [
@@ -97,12 +97,24 @@
   {
    "term": "Embassy",
    "verse_label": "v. 10",
-   "text": "A message sent by an envoy. The word occurs three times in this record and never in the King James Bible, twice in this chapter. The first carries a secret offer to Lehonti; the second carries a lie to the queen."
+   "text": "A message sent by an envoy. It appears three times in the record, and never in the King James Bible, twice in this chapter. The first carries a secret offer to Lehonti; the second carries a lie to the queen."
   },
   {
    "term": "Degrees",
    "verse_label": "v. 18",
-   "text": "Stages, small increments. The phrase by degrees occurs twice in this record and never in the King James Bible. Mormon uses it of the poison given to Lehonti, which describes a killing designed to look like an illness."
+   "text": "Stages, small increments. Treated at Mosiah 21:16. Two uses of the phrase \"by degrees\" here, and none in the King James Bible. Mormon uses it of the poison given to Lehonti, which describes a killing designed to look like an illness.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 21:16",
+     "start": 37,
+     "end": 49,
+     "book": "Mosiah",
+     "chapter": 21,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
   },
   {
    "term": "Gore",
@@ -174,53 +186,53 @@
  ],
  "verses": [
   {
-   "label": "v. 1–4",
-   "start": 1,
-   "end": 4,
-   "title": "The opening",
-   "text": "Amalickiah stirs the Lamanites and the king proclaims a war. The people are afraid on both sides of the question and mostly refuse. The angry king gives Amalickiah command of the loyal troops to compel the rest, which is exactly what he wanted."
-  },
-  {
-   "label": "v. 5–9",
-   "start": 5,
-   "end": 9,
-   "title": "The approach",
-   "text": "The dissenting Lamanites have fled to Onidah and made a man named Lehonti their king, fixed in the determination not to fight the Nephites. They gather on mount Antipas. Amalickiah camps in the valley below, meaning to gain their favor rather than fight them."
-  },
-  {
-   "label": "v. 10–14",
+   "label": "v. 10–12",
    "start": 10,
-   "end": 14,
-   "title": "Lehonti brought down",
-   "text": "Four messages: three refusals, then a climb nearly to the camp and an invitation to bring guards. Amalickiah offers to deliver his own army if Lehonti will make him second leader. Lehonti surrounds the camp before dawn."
+   "end": 12,
+   "title": "The record counts the embassies",
+   "text": "A negotiation that could have been summarised in a clause is instead numbered. The message goes out at night, Lehonti \"durst not go down\"; Amalickiah \"sent again the second time,\" and again \"the third time,\" and then, having climbed most of the way up the mountain himself, \"he sent again the fourth time.\" Four refusals and four sendings are tracked in three verses. The detail that makes the fourth work is spatial, not rhetorical: the man asking has moved so close that coming down means walking a few yards."
   },
   {
-   "label": "v. 15–19",
-   "start": 15,
+   "label": "v. 10–19",
+   "start": 10,
    "end": 19,
-   "title": "The bargain paid",
-   "text": "Amalickiah's men beg to join their brethren, which is the outcome he wanted, and he hands them over. The Lamanite custom makes the second leader chief if the chief dies. He has Lehonti poisoned by degrees, and becomes chief commander."
+   "title": "A man who exists for ten verses",
+   "text": "Lehonti is named ten times, and every one of them falls between verses 10 and 19. He appears in no other chapter of scripture. Inside those ten verses he is invited four times, comes down, takes the enemy camp, is made chief, is poisoned \"by degrees,\" and dies. The word mount behaves the same way, standing eight times and only in verses 7 through 12. A chapter that runs thirty-six verses gives this whole episode a vocabulary that begins and ends inside it."
   },
   {
-   "label": "v. 20–27",
-   "start": 20,
-   "end": 27,
-   "title": "The king killed",
-   "text": "He marches to the city of Nephi. The king comes out expecting an army for the Nephite war. Amalickiah's servants bow, the king raises the first as a token of peace, and is stabbed. The servants of the king flee; Amalickiah's men raise the cry and he feigns anger."
+   "label": "v. 17",
+   "start": 17,
+   "end": 17,
+   "title": "The rule supplied one verse before it is needed",
+   "text": "Verse 17 stops the story to state a custom: \"if their chief leader was killed, to appoint the second leader to be their chief leader.\" Verse 18 kills the chief leader. Verse 19 appoints the second. The aside is not placed where the custom is first relevant, which would be verse 13, nor at the chapter's head as background. It sits in the one position where a reader who did not have it would not understand the next two verses, and it is the only explanatory aside in the first thirty verses."
   },
   {
-   "label": "v. 28–31",
-   "start": 28,
-   "end": 31,
-   "title": "The pursuit",
-   "text": "Those who loved the king chase his servants, who escape to Zarahemla and join the people of Ammon. The pursuit returns empty. Mormon says the fraud gained the hearts of the people, and Amalickiah takes the city."
+   "label": "v. 22–24",
+   "start": 22,
+   "end": 24,
+   "title": "The gesture, and where it came from",
+   "text": "The murder turns on a courtesy, and the record traces the courtesy's origin. The servants bow, \"and it came to pass that the king put forth his hand to raise them, as was the custom with the Lamanites, as a token of peace, which custom they had taken from the Nephites.\" A Lamanite king is killed while performing a peace gesture his people had borrowed from the Nephites, at the hands of a Nephite dissenter. The record does not draw the irony out; it states the borrowing in a subordinate clause and moves to the stabbing in the next verse."
   },
   {
-   "label": "v. 32–36",
+   "label": "v. 25–26",
+   "start": 25,
+   "end": 26,
+   "title": "A lie the reader can check clause by clause",
+   "text": "The false report is given in full: \"the servants of the king have stabbed him to the heart, and he has fallen and they have fled; behold, come and see.\" Set against verses 24 and 25, every clause is true except the first four words. He was stabbed to the heart, he did fall, and the servants of the king did flee, which verse 25 has already reported. The lie works by attaching a true account to the wrong subject, and the reader is in a position to test it only because the record narrated the killing first."
+  },
+  {
+   "label": "v. 32–35",
    "start": 32,
+   "end": 35,
+   "title": "Witnesses produced by the man they clear",
+   "text": "Queen is used six times in this chapter and only in verses 32 through 35. She does the one sensible thing in the chapter: she asks for testimony. \"Amalickiah took the same servant that slew the king, and all them who were with him, and went in unto the queen... and they all testified unto her that the king was slain by his own servants.\" The witnesses to the murder are the murderers, produced by the man who ordered it. Verse 35 gives the outcome in the record's own terms, \"thus by his fraud, and by the assistance of his cunning servants, he obtained the kingdom.\""
+  },
+  {
+   "label": "v. 36",
+   "start": 36,
    "end": 36,
-   "title": "The queen, and the dissenters",
-   "text": "She asks for the city to be spared and for witnesses about the king's death. Amalickiah brings the killers, who testify, and she is satisfied. He marries her and is acknowledged king. Mormon closes on the dissenters becoming worse than the Lamanites."
+   "title": "The abridger says he does not understand it",
+   "text": "The chapter closes with an aside the record makes nowhere else: \"it is strange to relate.\" The phrase occurs once in the volume, here. What puzzles the writer is not the murders but the dissenters, who had \"the same instruction and the same information of the Nephites\" and yet became \"more wild, wicked and ferocious than the Lamanites.\" Thirty-five verses of poisoning, assassination and forged testimony pass without editorial comment; the thing that draws one is a change of character in men who knew better."
   }
  ],
  "chapter": [
@@ -247,12 +259,12 @@
   {
    "n": 5,
    "title": "A peace custom becomes the murder weapon",
-   "text": "Raising a bowing man, borrowed from the Nephites, is what brings the king within reach. Mormon notes the borrowing in the same verse."
+   "text": "Verse 23 explains the gesture and its origin before it is used against him: the king put forth his hand to raise them \"as was the custom with the Lamanites, as a token of peace, which custom they had taken from the Nephites.\" Verse 24 then reports the stabbing in the same motion, \"when he had raised the first from the ground, behold he stabbed the king to the heart.\" The record supplies the etiquette, its borrowed source, and its exploitation across two consecutive verses."
   },
   {
    "n": 6,
    "title": "The false account is built to survive questioning",
-   "text": "The killers testify, and their evidence is the flight of the innocent. The queen asks for witnesses and gets them."
+   "text": "The false account is quoted at verse 26, \"the servants of the king have stabbed him to the heart, and he has fallen and they have fled,\" and the evidence offered is the flight itself. Verse 27 has the killer manufacture the corroboration, \"Whosoever loved the king, let him go forth, and pursue his servants,\" which produces the pursuit at verse 28 and the flight to Zarahemla at verse 29. When the queen demands witnesses at verse 34, the men who did the pursuing supply them."
   },
   {
    "n": 7,
@@ -262,7 +274,7 @@
   {
    "n": 8,
    "title": "The closing verse is the chapter's real subject",
-   "text": "Same instruction, same knowledge, and a worse result. Mormon says it is strange to relate, which is as close as he comes to admitting he cannot account for it."
+   "text": "Verse 36 states the puzzle in three parallel clauses, \"having the same instruction and the same information of the Nephites, yea, having been instructed in the same knowledge of the Lord,\" and then the outcome, \"more hardened and impenitent, and more wild, wicked and ferocious than the Lamanites.\" Between the premise and the conclusion the compiler inserts four words in his own voice, \"it is strange to relate.\" He does not supply a cause, and the phrase appears nowhere else in these books."
   }
  ],
  "world_in_front": {
@@ -273,19 +285,39 @@
     "text": "The king gave Amalickiah troops out of anger at somebody else. When something lands in your hands because a third party is annoyed, ask what it is actually for."
    },
    {
+    "title": "Read the persistence as the message",
+    "verse_label": "v. 11",
+    "text": "Amalickiah sent for Lehonti a second and a third time after the first refusal, and then climbed most of the mountain to send a fourth. When someone will not accept a no and keeps raising what they will spend to get a meeting, the size of the effort tells you the size of what they expect to gain by it."
+   },
+   {
     "title": "Be careful when the safeguard is your own idea",
     "verse_label": "v. 12",
     "text": "Lehonti brought guards and still lost. When you agree to something risky because you have arranged a protection, check whether the protection addresses the actual danger."
    },
    {
     "title": "Distrust an offer that costs the other person nothing real",
-    "verse_label": "v. 13",
+    "verse_label": "v.\n13",
     "text": "Amalickiah asked only for second place. When someone requests something small and specific, work out what that position is worth to them."
+   },
+   {
+    "title": "Read the succession rule before you take the second seat",
+    "verse_label": "v. 17",
+    "text": "The chapter stops the action to explain that Lamanite custom moved the second leader into the first place when the chief was killed, which is what made the poisoning worth doing. Before you accept a deputy role, or hand one out, find out what the rules do when the person above goes away."
    },
    {
     "title": "Notice slow harm",
     "verse_label": "v. 18",
     "text": "Poison by degrees leaves no moment to point at. Look at what has been getting slightly worse for months and name it, since nothing will announce itself."
+   },
+   {
+    "title": "Be careful with grief that is performed loudly",
+    "verse_label": "v. 27",
+    "text": "Amalickiah pretended to be wroth and had the mourning turned into a manhunt inside a minute. When the person most visibly upset is also the one directing what happens next, that combination is worth a pause."
+   },
+   {
+    "title": "Do not take flight as a confession",
+    "verse_label": "v. 34",
+    "text": "The servants' escape was offered to the queen as evidence in itself: \"does not this testify against them?\" People run because they are frightened about as often as because they are guilty, so ask what they were running from before you read the running as an answer."
    }
   ],
   "questions": [
@@ -344,7 +376,7 @@
     "w2": 19,
     "quote": "those who had fled with him into the wilderness"
    },
-   "reason": "the flight this chapter picks up, at the end of the title of liberty",
+   "reason": "the flight this chapter picks up, after the title",
    "targets": [
     {
      "ref": "Alma",
@@ -358,7 +390,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al46-021"
   },
   {
    "id": "al47-002",
@@ -370,7 +402,7 @@
     "w2": 18,
     "quote": "he being a very subtle man to do evil"
    },
-   "reason": "the word treated in full, of Zeezrom’s plan at Ammonihah",
+   "reason": "the word treated in full, of Zeezrom's plan at Ammonihah",
    "targets": [
     {
      "ref": "Alma",
@@ -384,7 +416,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al12-014"
   },
   {
    "id": "al47-003",
@@ -422,7 +454,7 @@
     "w2": 42,
     "quote": "they became more hardened and impenitent"
    },
-   "reason": "the doctrine Mormon is applying, first stated of these same groups",
+   "reason": "the doctrine Mormon applies, first stated of these groups",
    "targets": [
     {
      "ref": "Alma",
@@ -436,7 +468,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al24-022"
+  },
+  {
+   "id": "al47-010",
+   "scope": "BOOK",
+   "head": "Alma 55:5",
+   "anchor": {
+    "verse": 29,
+    "w1": 3,
+    "w2": 13,
+    "quote": "the servants of the king saw an army pursuing after them,"
+   },
+   "reason": "one of those servants, turning up later",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 55,
+     "verse": 5,
+     "w1": 17,
+     "w2": 28,
+     "quote": "one of the servants of the king who was murdered by Amalickiah.",
+     "verse_text": "And it came to pass that they found one, whose name was Laman; and he was one of the servants of the king who was murdered by Amalickiah.",
+     "markdown": "And it came to pass that they found one, whose name was Laman; and he was **one of the servants of the king who was murdered by Amalickiah**.",
+     "span": true
+    }
+   ],
+   "mirror": "al55-002"
   },
   {
    "id": "al47-005",
@@ -462,7 +520,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos29-019"
   },
   {
    "id": "al47-006",
@@ -488,7 +546,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel06-014"
   },
   {
    "id": "al47-007",
@@ -500,7 +558,7 @@
     "w2": 27,
     "quote": "as a token of peace"
    },
-   "reason": "Joab taking Amasa by the beard, and the greeting that killed him",
+   "reason": "Joab taking Amasa by the beard, and the greeting",
    "targets": [
     {
      "ref": "2 Sam.",
@@ -552,7 +610,7 @@
     "w2": 42,
     "quote": "they became more hardened and impenitent"
    },
-   "reason": "the King James Bible’s one use of the word",
+   "reason": "the King James Bible's one use of the word",
    "targets": [
     {
      "ref": "Rom.",
@@ -617,6 +675,15 @@
    ]
   },
   {
+   "verse": 29,
+   "w1": 3,
+   "w2": 13,
+   "quote": "the servants of the king saw an army pursuing after them,",
+   "entries": [
+    "al47-010"
+   ]
+  },
+  {
    "verse": 36,
    "w1": 37,
    "w2": 42,
@@ -629,7 +696,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "78a9d48bc27e576c"
+  "at": "2026-09-07",
+  "source_sha256": "e2aff701a37801d1"
  }
 }

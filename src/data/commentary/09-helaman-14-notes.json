@@ -14,9 +14,10 @@
   "unit": "Samuel the Lamanite (Helaman 13–16)",
   "principles": [
    "Signs given with a date attached",
-   "A death that produces a"
+   "A death that produces a resurrection",
+   "Freedom stated as the ground of judgment"
   ],
-  "connections": 10,
+  "connections": 15,
   "initial": false
  },
  "world_behind": [
@@ -28,12 +29,12 @@
   {
    "n": 2,
    "title": "Two sets of signs are given",
-   "text": "Verses 3 through 6 cover the birth, and verses 20 through 25 cover the death."
+   "text": "Verses 3 through 6 cover the birth and verses 20 through 25 the death. 3 Nephi 1 reports the first set arriving and 3 Nephi 8 the second, so one chapter of prophecy is checked against two chapters of narrative thirty-three years apart."
   },
   {
    "n": 3,
    "title": "The birth sign is a night without darkness",
-   "text": "Verse 4 describes a day, a night, and a day running together, with the sun still seen to rise and set."
+   "text": "Verse 4 describes a day, a night, and a day running together while the sun keeps its ordinary rising and setting. 3 Nephi 1:15 and 19 report exactly that five years later, including the sun rising in the morning according to its proper order, so the prediction and the fulfilment can be laid side by side."
   },
   {
    "n": 4,
@@ -43,17 +44,29 @@
   {
    "n": 5,
    "title": "Samuel names his own position",
-   "text": "Verse 10 says he is a Lamanite, that the message was hard, and that they have cast him out."
+   "text": "Verse 10 says he is a Lamanite, that the message was hard against them, and that they had cast him out. Helaman 13:2 records that expulsion, and Helaman 16:7 has him climb down the wall and go home to his own country, never heard of again among the Nephites."
   },
   {
    "n": 6,
    "title": "The death signs are geological",
-   "text": "Verses 21 through 24 describe solid rock broken into seams and cracks, mountains and valleys trading places, and highways broken up."
+   "text": "Verses 21 through 24 describe solid rock broken into seams and cracks, mountains and valleys trading places, and highways broken up. 3 Nephi 8:13 and 18 report the same three things in the same order thirty-three years later, using the phrase \"seams and cracks\" that occurs in scripture only in these two places."
   },
   {
    "n": 7,
    "title": "The chapter closes on agency",
-   "text": "Verses 30 and 31 say they are free, permitted to act for themselves, and given knowledge to choose with."
+   "text": "Verses 30 and 31 say they are free, permitted to act for themselves, and given knowledge to choose with. 2 Nephi 2:27 and Alma 12:31 put the same claim at the two other places the record stops to argue for agency, so this closing is the third statement of a settled Nephite doctrine rather than a new one.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 12:31",
+     "start": 122,
+     "end": 132,
+     "book": "Alma",
+     "chapter": 12,
+     "verse_start": 31,
+     "verse_end": 31
+    }
+   ]
   }
  ],
  "words": [
@@ -70,7 +83,7 @@
   {
    "term": "Behooveth",
    "verse_label": "v. 15",
-   "text": "Is necessary or fitting for. The record uses the word four times and the King James Bible never. Verse 15 pairs it with \"becometh expedient\" about the death of Christ."
+   "text": "Is necessary or fitting for. It appears four times in the record, and the King James Bible never. Verse 15 pairs it with \"becometh expedient\" about the death of Christ."
   },
   {
    "term": "Seams",
@@ -112,7 +125,7 @@
   {
    "term": "For this intent have I come up upon the walls of this city",
    "verse_label": "v. 11",
-   "text": "The purpose of the wall. He lists three things they might know: judgments, conditions of repentance, and the coming of Christ."
+   "text": "The purpose of the wall. He lists three things they might know: the judgments, the terms of repentance, and Christ's coming."
   },
   {
    "term": "That thereby ye may have a remission of them through his merits",
@@ -147,53 +160,25 @@
  ],
  "verses": [
   {
-   "label": "v. 1–7",
-   "start": 1,
-   "end": 7,
-   "title": "The sign of the birth",
-   "text": "Samuel prophesies much that is not written. He gives a sign: five years, and then the Son of God comes. There will be great lights in heaven, so that the night before his coming has no darkness and seems like day, making one day, a night, and a day run together, though the sun will still be seen to rise and set. A new star will arise, and many signs and wonders, and they will be amazed and fall to the earth."
+   "label": "v. 3–5",
+   "start": 3,
+   "end": 5,
+   "title": "A sign made testable by being described as unprecedented",
+   "text": "The record specifies the first sign in a way that rules out ordinary weather: \"there shall be great lights in heaven, insomuch that in the night before he cometh there shall be no darkness,\" and \"there shall be one day and a night and a day, as if it were one day and there were no night.\" Then verse 5 adds a second item and stakes it on novelty: \"there shall a new star arise, such an one as ye never have beheld.\" A witness who had seen the star before would falsify it."
   },
   {
-   "label": "v. 8–13",
-   "start": 8,
-   "end": 13,
-   "title": "Why he is there",
-   "text": "Whoever believes on the Son of God has everlasting life. The Lord commanded him by an angel to come and tell them and to cry repentance. Because he is a Lamanite and his words were hard, they are angry and have cast him out. He came up on the walls so they might know the judgments awaiting them, the conditions of repentance, and the coming of Christ, and believing, repent and receive remission through his merits."
-  },
-  {
-   "label": "v. 14–19",
-   "start": 14,
-   "end": 19,
-   "title": "The death and what it does",
-   "text": "He gives a sign of the death. Christ must die so salvation may come and the resurrection be brought to pass. The death redeems all mankind from the first death, the spiritual death that came by the fall, and the resurrection brings all mankind back into the presence of the Lord. It also brings the condition of repentance: whoever repents is not hewn down, and whoever does not comes under a second death. So repent, lest knowing and not doing bring condemnation."
-  },
-  {
-   "label": "v. 20–22",
-   "start": 20,
-   "end": 22,
-   "title": "Three days of darkness",
-   "text": "At his death the sun will be darkened, and the moon and stars, with no light on the land for three days until he rises. When he yields up the ghost there will be thunderings and lightnings for many hours, the earth will shake, and the solid rock will break up, rent in twain and left ever after in seams, cracks, and fragments."
-  },
-  {
-   "label": "v. 23–25",
-   "start": 23,
-   "end": 25,
-   "title": "The land remade",
-   "text": "Great tempests, mountains laid low into valleys, valleys raised into mountains of great height, highways broken up, cities left desolate, graves opened and yielding their dead, and many saints appearing to many."
-  },
-  {
-   "label": "v. 26–29",
-   "start": 26,
-   "end": 29,
-   "title": "The angel's word and the purpose",
-   "text": "The angel told him of the thunderings and lightnings for many hours, and that darkness would cover the whole earth three days. Many will see greater things than these, so that there is no cause for unbelief, so that whoever believes may be saved and whoever will not believe brings his own condemnation."
+   "label": "v. 9–11",
+   "start": 9,
+   "end": 11,
+   "title": "The speaker names his own disadvantage",
+   "text": "The record has Samuel say why he expects to be disbelieved before he asks to be heard: \"because I am a Lamanite, and have spoken unto you the words which the Lord hath commanded me, and because it was hard against you, ye are angry with me.\" Verse 11 states the practical reason for the position he is speaking from: \"for this intent have I come up upon the walls of this city, that ye might hear and know of the judgments of God.\" The wall and the nationality are both stated as obstacles rather than as credentials."
   },
   {
    "label": "v. 30–31",
    "start": 30,
    "end": 31,
-   "title": "Free to act",
-   "text": "Whoever perishes perishes unto himself, and whoever does iniquity does it unto himself, because they are free and permitted to act for themselves. God gave them knowledge to tell good from evil and to choose life or death, and what they do is restored to them in kind."
+   "title": "A chapter of fixed signs closes on choice",
+   "text": "The last two verses turn from what will happen to what is up to the hearer, and say it twice: \"whosoever perisheth, perisheth unto himself; and whosoever doeth iniquity, doeth it unto himself.\" Verse 31 states the equipment given: \"he hath given unto you that ye might know good from evil, and he hath given unto you that ye might choose life or death.\" Everything before this point is a schedule of events nobody in the chapter can alter. The last thing said is that the outcome is nevertheless theirs."
   }
  ],
  "chapter": [
@@ -235,7 +220,7 @@
   {
    "n": 8,
    "title": "Agency is the closing argument",
-   "text": "After thirty verses of signs and consequences, the last two say the outcome rests with them because they are free and informed."
+   "text": "Verse 30 states the principle twice in one sentence, \"whosoever perisheth, perisheth unto himself; and whosoever doeth iniquity, doeth it unto himself,\" and gives the ground, \"ye are free; ye are permitted to act for yourselves.\" Verse 31 supplies the two gifts that make the freedom operative, knowledge of good and evil and the power to choose \"life or death.\" Verse 29 has already stated the purpose of all the preceding signs in the same terms, \"if they are condemned they bring upon themselves their own condemnation.\" Thirty verses of dated predictions close on a claim about who is responsible for the outcome."
   }
  ],
  "world_in_front": {
@@ -246,6 +231,11 @@
     "text": "Five years made the claim testable. A prediction with a deadline is a different kind of statement from one without."
    },
    {
+    "title": "Make the sign specific enough to fail",
+    "verse_label": "v. 4",
+    "text": "Samuel does not simply promise a bright night; he says the rising and the setting will still be known, so that it counts as two days and a night with no darkness between. A prediction detailed enough to be recognized is detailed enough to be wrong, which is what makes it worth anything."
+   },
+   {
     "title": "Say why you are hard to hear",
     "verse_label": "v. 10",
     "text": "He named his nationality and his message as the two reasons they were angry. Acknowledging the obstacle is not the same as apologizing for the message."
@@ -254,6 +244,21 @@
     "title": "State the purpose of the odd method",
     "verse_label": "v. 11",
     "text": "He explained the wall. When you do something unusual to be heard, saying why keeps it from looking like a stunt."
+   },
+   {
+    "title": "Explain the mechanism, not only the event",
+    "verse_label": "v. 15–17",
+    "text": "Samuel does not just predict a death; he says what it accomplishes, that the resurrection redeems mankind and brings them back into the presence of the Lord. When you deliver a hard fact, the reason it is necessary is part of the delivery."
+   },
+   {
+    "title": "Knowing is itself an obligation",
+    "verse_label": "v. 19",
+    "text": "The warning is against coming under condemnation by knowing these things and not doing them. Learning something raises the standard you are held to, so treat the learning as having taken on a debt."
+   },
+   {
+    "title": "Repeat the attribution as the claim grows",
+    "verse_label": "v. 26–27",
+    "text": "As the predictions get larger, Samuel twice restates that this is what the angel said to him. The bigger the claim, the more useful it is to keep naming where it came from."
    },
    {
     "title": "Treat freedom as the reason it matters",
@@ -317,7 +322,7 @@
     "w2": 20,
     "quote": "because I am a Lamanite, and have spoken unto you the words which the Lord hath commanded me"
    },
-   "reason": "the arrival and the casting out that put him on the wall",
+   "reason": "the arrival and the casting out that preceded the wall",
    "targets": [
     {
      "ref": "Hel.",
@@ -331,7 +336,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel13-011"
   },
   {
    "id": "hel14-002",
@@ -343,7 +348,7 @@
     "w2": 26,
     "quote": "for five years more cometh, and behold, then cometh the Son of God"
    },
-   "reason": "the other interval he gave, four hundred years to the sword",
+   "reason": "the other interval, four hundred years to the sword",
    "targets": [
     {
      "ref": "Hel.",
@@ -357,7 +362,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel13-012"
   },
   {
    "id": "hel14-003",
@@ -386,6 +391,32 @@
    "mirror": "hel16-002"
   },
   {
+   "id": "hel14-011",
+   "scope": "BOOK",
+   "head": "Hel. 16:13",
+   "anchor": {
+    "verse": 3,
+    "w1": 29,
+    "w2": 39,
+    "quote": "in the night before he cometh there shall be no darkness,"
+   },
+   "reason": "the signs arriving in the ninety and second year",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 16,
+     "verse": 13,
+     "w1": 16,
+     "w2": 25,
+     "quote": "there were great signs given unto the people, and wonders;",
+     "verse_text": "But it came to pass in the ninetieth year of the reign of the judges, there were great signs given unto the people, and wonders; and the words of the prophets began to be fulfilled.",
+     "markdown": "But it came to pass in the ninetieth year of the reign of the judges, **there were great signs given unto the people, and wonders**; and the words of the prophets began to be fulfilled.",
+     "span": true
+    }
+   ],
+   "mirror": "hel16-004"
+  },
+  {
    "id": "hel14-004",
    "scope": "BOM",
    "head": "3 Ne. 1:15",
@@ -409,7 +440,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "3ne01-004"
   },
   {
    "id": "hel14-005",
@@ -435,7 +466,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "3ne01-005"
   },
   {
    "id": "hel14-006",
@@ -447,7 +478,7 @@
     "w2": 18,
     "quote": "shall ever after be found in seams and in cracks"
    },
-   "reason": "the same two words in the report of the day it happened",
+   "reason": "the same two words, in the report of the day",
    "targets": [
     {
      "ref": "3 Ne.",
@@ -461,7 +492,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "3ne08-004"
   },
   {
    "id": "hel14-007",
@@ -487,7 +518,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "3ne23-004"
   },
   {
    "id": "hel14-008",
@@ -499,7 +530,7 @@
     "w2": 32,
     "quote": "ye are free; ye are permitted to act for yourselves"
    },
-   "reason": "Lehi putting the same freedom as a choice between two ends",
+   "reason": "Lehi putting the same freedom as a choice of ends",
    "targets": [
     {
      "ref": "2 Ne.",
@@ -513,7 +544,111 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "2ne02-018"
+  },
+  {
+   "id": "hel14-012",
+   "scope": "BOM",
+   "head": "3 Ne. 8:23",
+   "anchor": {
+    "verse": 20,
+    "w1": 46,
+    "w2": 56,
+    "quote": "there shall be no light upon the face of this land,"
+   },
+   "reason": "the darkness counted out as it was endured",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 8,
+     "verse": 23,
+     "w1": 7,
+     "w2": 21,
+     "quote": "it did last for the space of three days that there was no light seen;",
+     "verse_text": "And it came to pass that it did last for the space of three days that there was no light seen; and there was great mourning and howling and weeping among all the people continually; yea, great were the groanings of the people, because of the darkness and the great destruction which had come upon them.",
+     "markdown": "And it came to pass that **it did last for the space of three days that there was no light seen**; and there was great mourning and howling and weeping among all the people continually; yea, great were the groanings of the people, because of the darkness and the great destruction which had come upon them.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne08-005"
+  },
+  {
+   "id": "hel14-013",
+   "scope": "BOM",
+   "head": "3 Ne. 8:10",
+   "anchor": {
+    "verse": 23,
+    "w1": 21,
+    "w2": 34,
+    "quote": "there shall be many places which are now called valleys which shall become mountains,"
+   },
+   "reason": "Moronihah buried under a mountain in a moment",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 8,
+     "verse": 10,
+     "w1": 13,
+     "w2": 23,
+     "quote": "in the place of the city there became a great mountain.",
+     "verse_text": "And the earth was carried up upon the city of Moronihah, that in the place of the city there became a great mountain.",
+     "markdown": "And the earth was carried up upon the city of Moronihah, that **in the place of the city there became a great mountain**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne08-006"
+  },
+  {
+   "id": "hel14-014",
+   "scope": "BOM",
+   "head": "1 Ne. 19:10",
+   "anchor": {
+    "verse": 27,
+    "w1": 24,
+    "w2": 38,
+    "quote": "darkness should cover the face of the whole earth for the space of three days."
+   },
+   "reason": "Zenos on what the isles would suffer",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 19,
+     "verse": 10,
+     "w1": 93,
+     "w2": 97,
+     "quote": "the three days of darkness,",
+     "verse_text": "And the God of our fathers, who were led out of Egypt, out of bondage, and also were preserved in the wilderness by him, yea, the God of Abraham, and of Isaac, and the God of Jacob, yieldeth himself, according to the words of the angel, as a man, into the hands of wicked men, to be lifted up, according to the words of Zenock, and to be crucified, according to the words of Neum, and to be buried in a sepulchre, according to the words of Zenos, which he spake concerning the three days of darkness, which should be a sign given of his death unto those who should inhabit the isles of the sea, more especially given unto those who are of the house of Israel.",
+     "markdown": "And the God of our fathers, who were led out of Egypt, out of bondage, and also were preserved in the wilderness by him, yea, the God of Abraham, and of Isaac, and the God of Jacob, yieldeth himself, according to the words of the angel, as a man, into the hands of wicked men, to be lifted up, according to the words of Zenock, and to be crucified, according to the words of Neum, and to be buried in a sepulchre, according to the words of Zenos, which he spake concerning **the three days of darkness**, which should be a sign given of his death unto those who should inhabit the isles of the sea, more especially given unto those who are of the house of Israel.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne19-004"
+  },
+  {
+   "id": "hel14-015",
+   "scope": "BOM",
+   "head": "2 Ne. 2:26",
+   "anchor": {
+    "verse": 30,
+    "w1": 23,
+    "w2": 32,
+    "quote": "ye are free; ye are permitted to act for yourselves;"
+   },
+   "reason": "Lehi's own statement of what agency is for",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 2,
+     "verse": 26,
+     "w1": 39,
+     "w2": 48,
+     "quote": "to act for themselves and not to be acted upon,",
+     "verse_text": "And the Messiah cometh in the fulness of time, that he may redeem the children of men from the fall. And because that they are redeemed from the fall they have become free forever, knowing good from evil; to act for themselves and not to be acted upon, save it be by the punishment of the law at the great and last day, according to the commandments which God hath given.",
+     "markdown": "And the Messiah cometh in the fulness of time, that he may redeem the children of men from the fall. And because that they are redeemed from the fall they have become free forever, knowing good from evil; **to act for themselves and not to be acted upon**, save it be by the punishment of the law at the great and last day, according to the commandments which God hath given.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne02-003"
   },
   {
    "id": "hel14-009",
@@ -579,6 +714,15 @@
    ]
   },
   {
+   "verse": 3,
+   "w1": 29,
+   "w2": 39,
+   "quote": "in the night before he cometh there shall be no darkness,",
+   "entries": [
+    "hel14-011"
+   ]
+  },
+  {
    "verse": 4,
    "w1": 65,
    "w2": 80,
@@ -607,12 +751,30 @@
    ]
   },
   {
+   "verse": 20,
+   "w1": 46,
+   "w2": 56,
+   "quote": "there shall be no light upon the face of this land,",
+   "entries": [
+    "hel14-012"
+   ]
+  },
+  {
    "verse": 22,
    "w1": 9,
    "w2": 18,
    "quote": "shall ever after be found in seams and in cracks",
    "entries": [
     "hel14-006"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 21,
+   "w2": 34,
+   "quote": "there shall be many places which are now called valleys which shall become mountains,",
+   "entries": [
+    "hel14-013"
    ]
   },
   {
@@ -623,6 +785,15 @@
    "entries": [
     "hel14-007",
     "hel14-010"
+   ]
+  },
+  {
+   "verse": 27,
+   "w1": 24,
+   "w2": 38,
+   "quote": "darkness should cover the face of the whole earth for the space of three days.",
+   "entries": [
+    "hel14-014"
    ]
   },
   {
@@ -640,12 +811,13 @@
    "w2": 32,
    "quote": "ye are free; ye are permitted to act for yourselves",
    "entries": [
-    "hel14-008"
+    "hel14-008",
+    "hel14-015"
    ]
   }
  ],
  "generated": {
-  "at": "2026-08-26",
-  "source_sha256": "a87a4df4b67eb3fd"
+  "at": "2026-09-07",
+  "source_sha256": "b5280db1029f4b58"
  }
 }

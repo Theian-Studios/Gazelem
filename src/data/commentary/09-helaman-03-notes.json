@@ -14,9 +14,10 @@
   "unit": "The rise of the Gadianton band (Helaman 1–6)",
   "principles": [
    "A people building with what the land lacks",
-   "A record naming its own"
+   "A record naming its own limits",
+   "Peace with something growing inside it"
   ],
-  "connections": 10,
+  "connections": 14,
   "initial": false
  },
  "world_behind": [
@@ -33,17 +34,73 @@
   {
    "n": 3,
    "title": "The land northward was stripped of timber",
-   "text": "Verses 5 and 6 say the desolation was a timber shortage left by earlier inhabitants, with the destruction of that people giving the land its name."
+   "text": "Verses 5 and 6 say the desolation was a timber shortage left by earlier inhabitants, and that the destruction of that people gave the land its name. Alma 22:30 and 31 had said the same, and Ether 7:6 puts the Jaredite land of Moron next to it. The reader knows whose bones are meant.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 22:30",
+     "start": 149,
+     "end": 159,
+     "book": "Alma",
+     "chapter": 22,
+     "verse_start": 30,
+     "verse_end": 30
+    },
+    {
+     "kind": "scripture",
+     "text": "Ether 7:6",
+     "start": 190,
+     "end": 199,
+     "book": "Ether",
+     "chapter": 7,
+     "verse_start": 6,
+     "verse_end": 6
+    }
+   ]
   },
   {
    "n": 4,
    "title": "They build in cement and conserve trees",
-   "text": "Verse 7 has them expert in cement, verse 9 has them letting saplings stand for future timber, and verse 10 has timber shipped in."
+   "text": "Verse 7 has them expert in cement, verse 9 has saplings left to stand for future timber, and verse 10 has timber shipped north. Alma 50:2 to 6 describes Nephite building forty years earlier as banks of earth, timbers, and pickets; this is the record's only account of a change in construction technique.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 50:2",
+     "start": 128,
+     "end": 137,
+     "book": "Alma",
+     "chapter": 50,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
   },
   {
    "n": 5,
    "title": "The people of Ammon go north too",
-   "text": "Verse 12 says many of them, Lamanites by birth, joined the migration."
+   "text": "Verse 12 says many of the people of Ammon, Lamanites by birth, joined the migration north. Alma 27:26 had settled them in Jershon and Alma 35:13 had moved them to Melek for the war; this is their third relocation, and the record still calls them by birth rather than by residence.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 27:26",
+     "start": 91,
+     "end": 101,
+     "book": "Alma",
+     "chapter": 27,
+     "verse_start": 26,
+     "verse_end": 26
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 35:13",
+     "start": 134,
+     "end": 144,
+     "book": "Alma",
+     "chapter": 35,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
   },
   {
    "n": 6,
@@ -60,7 +117,7 @@
   {
    "term": "Timber",
    "verse_label": "v. 5",
-   "text": "Wood cut for building. All five of the record's uses fall in this chapter, at verses 5, 6, 7, 9, and 10. The King James Bible uses it twenty-six times, mostly of Solomon's building projects."
+   "text": "Wood cut for building. All five of the record's uses fall in this chapter, at verses 5, 6, 7, 9, and 10. The King James Bible uses it twenty-six times, mostly of Solomon's building projects (1 Kgs. 6–7)."
   },
   {
    "term": "Cement",
@@ -198,50 +255,50 @@
    "label": "v. 1–3",
    "start": 1,
    "end": 3,
-   "title": "Quiet years, then departure",
-   "text": "The forty-third year has only a little pride in the church and small dissensions, settled by year's end. The forty-fourth and forty-fifth are quiet. The forty-sixth brings much contention, and an exceedingly great many leave Zarahemla for the land northward."
+   "title": "The unit of the chapter is the calendar",
+   "text": "\"The forty and\" opens verses 1, 2, 3, 18, 19, 22, 23 and 32, and \"the reign of the judges\" anchors seven verses more. Ten years pass in thirty-seven verses, and the record keeps score by contention: a little pride in the forty-third, none in the forty-fourth, not much in the forty-fifth, much in the forty-sixth. Peace here is a quantity that gets measured annually rather than a condition."
   },
   {
-   "label": "v. 4–12",
-   "start": 4,
-   "end": 12,
-   "title": "Building the north",
-   "text": "They travel a great distance to large bodies of water and many rivers, and spread through every part not left without timber. The desolation was timber, caused by an earlier destruction. Lacking wood, they become expert in cement and build houses of it, spreading from sea to sea. They let young trees stand for future building and ship timber north. Many of the people of Ammon go with them."
+   "label": "v. 5–7",
+   "start": 5,
+   "end": 7,
+   "title": "A building material explained by what is missing",
+   "text": "The land northward is not desolate, \"save it were for timber,\" and the name is explained by something the record does not narrate: \"the greatness of the destruction of the people who had before inhabited the land.\" Out of that absence comes the solution: \"they did build houses of cement.\" The word appears three times in scripture, all of them in this chapter, and the record treats it as a technique the migrants had to become expert in."
   },
   {
-   "label": "v. 13–17",
+   "label": "v. 13–16",
    "start": 13,
-   "end": 17,
-   "title": "The record and its limits",
-   "text": "Many large records are kept by many people. A hundredth part of the proceedings, the wars, the preaching, the shipping, the righteousness and the wickedness, cannot fit in this work. The books have been kept chiefly by the Nephites and handed down until the Nephites themselves are gone. Mormon returns to his account."
+   "end": 16,
+   "title": "The refusal to write it all is itemized",
+   "text": "\"A hundredth part of the proceedings of this people... cannot be contained in this work,\" and Mormon then lists fourteen kinds of thing he is leaving out, from shipbuilding to whoredoms. Verse 16 disposes of the fate of those other records without pausing for a full stop, ending \"becoming Lamanites,\" and verse 17 returns him to his place: \"And now I return again to mine account.\" The apology for brevity is the longest digression in the chapter."
   },
   {
-   "label": "v. 18–22",
-   "start": 18,
-   "end": 22,
-   "title": "Helaman's judgeship",
-   "text": "The forty-sixth year ends and contention continues through the forty-eighth. Helaman fills the judgment-seat with justice and equity, keeps the commandments, walks in his father's ways, and prospers. He has two sons, Nephi and Lehi, who begin to grow up unto the Lord. The wars begin to slacken."
-  },
-  {
-   "label": "v. 23–26",
+   "label": "v. 23",
    "start": 23,
-   "end": 26,
-   "title": "Peace, and what is under it",
-   "text": "The forty-ninth year brings continual peace, apart from Gadianton's secret combinations in the more settled parts, unknown to the heads of government and so not destroyed. The church prospers exceedingly, thousands are baptized, the leaders are astonished, and tens of thousands join."
+   "end": 23,
+   "title": "The peace has an exception the government cannot see",
+   "text": "\"Continual peace established in the land, all save it were the secret combinations which Gadianton the robber had established in the more settled parts of the land, which at that time were not known unto those who were at the head of government.\" The record hands the reader a fact the rulers do not have, and states the consequence flatly: \"therefore they were not destroyed out of the land.\""
   },
   {
-   "label": "v. 27–32",
+   "label": "v. 27–29",
    "start": 27,
-   "end": 32,
-   "title": "Thus we see",
-   "text": "Mormon draws the lesson: the Lord is merciful to all who call on him in sincerity, the gate of heaven is open to all who believe on Christ, and whoever lays hold on the word of God is led past the snares and the gulf to the right hand of God. Two years pass in peace and great joy."
+   "end": 29,
+   "title": "Three conclusions in a row, and the first one hedges",
+   "text": "Verse 27 opens \"Thus we may see,\" a form used once in all of scripture. Verse 28 drops the modal to \"thus we see,\" and verse 29 to \"we see.\" The record grows more certain across three verses about mercy, an open gate, and a word that divides asunder, and it starts from the least confident of the three."
   },
   {
-   "label": "v. 33–37",
+   "label": "v. 33",
    "start": 33,
+   "end": 33,
+   "title": "The sentence stops to move the noun",
+   "text": "Pride \"began to enter into the church\" — and then the correction arrives inside the same verse, on a dash: \"not into the church of God, but into the hearts of the people who professed to belong to the church of God.\" The record will not let the institution carry the fault, and repairs the attribution in front of the reader rather than rewriting the clause."
+  },
+  {
+   "label": "v. 37",
+   "start": 37,
    "end": 37,
-   "title": "Pride returns",
-   "text": "The fifty-first year is peaceful except for pride entering the hearts of people who professed the church. They persecute the humbler part, who fast, pray, and grow stronger and sanctified. The fifty-second ends in peace with pride growing daily out of riches. In the fifty-third Helaman dies and Nephi reigns in his place with the same justice and equity."
+   "title": "Father and son get the same sentence",
+   "text": "Helaman filled the judgment-seat \"with justice and equity\" at verse 20; Nephi does it in identical words at verse 37, and the phrase occurs nowhere else in scripture. Both are said to walk in the ways of their father. The record hands the succession its verdict before the new judge has done anything, by copying out the old one."
   }
  ],
  "chapter": [
@@ -263,7 +320,7 @@
   {
    "n": 4,
    "title": "The abridgment names its own scale",
-   "text": "A hundredth part cannot fit. Everything the reader has is a selection made by one man from a library."
+   "text": "Verse 13 states what exists, \"many records kept of the proceedings of this people, by many of this people, which are particular and very large.\" Verse 14 states what fits, \"a hundredth part of the proceedings of this people... cannot be contained in this work,\" and lists nine categories it is leaving out, from wars and contentions to \"their shipping and their building of ships.\" Verse 15 adds \"many books and many records of every kind.\" The reader is told the size of the library, the size of the excerpt, and the categories dropped, all inside three verses."
   },
   {
    "n": 5,
@@ -289,6 +346,11 @@
  "world_in_front": {
   "applications": [
    {
+    "title": "Check whether the name still fits",
+    "verse_label": "v. 6",
+    "text": "The land kept the name desolate because of a destruction long past, though no part of it was actually desolate except for timber. Labels outlive the conditions that produced them, so ask now and then what a name is still describing."
+   },
+   {
     "title": "Build with what the place gives you",
     "verse_label": "v. 7",
     "text": "No timber, so they learned cement. Constraints are usually an instruction about method rather than a verdict on the project."
@@ -307,6 +369,21 @@
     "title": "Look for what grows during the peaceful years",
     "verse_label": "v. 23",
     "text": "The combinations spread while the land was quiet and nobody was looking. Calm is when unattended things get established."
+   },
+   {
+    "title": "Let the result outrun your expectation",
+    "verse_label": "v. 25",
+    "text": "The high priests and the teachers were themselves astonished beyond measure at how the church was growing. When something goes better than you planned for, say so plainly instead of writing yourself back in as the cause."
+   },
+   {
+    "title": "Locate the pride precisely",
+    "verse_label": "v. 33",
+    "text": "Mormon corrects himself mid-sentence: the pride entered the hearts of people who professed to belong, and he will not let the phrase land on the church itself. When something goes wrong in an institution, name the people it went wrong in, since an abstraction cannot repent."
+   },
+   {
+    "title": "Affliction can go either way",
+    "verse_label": "v. 35",
+    "text": "The humbler part of the people fasted and prayed often under persecution and grew firmer in the faith of Christ. Pressure sanctifies nobody by itself, and what this verse credits is what they did while they were under it."
    }
   ],
   "questions": [
@@ -391,7 +468,7 @@
     "w2": 27,
     "quote": "He gave unto the eldest the name of Nephi, and unto the youngest, the name of Lehi"
    },
-   "reason": "the father explaining to these sons why he chose those names",
+   "reason": "the father explaining to these sons why those names",
    "targets": [
     {
      "ref": "Hel.",
@@ -406,6 +483,58 @@
     }
    ],
    "mirror": "hel05-001"
+  },
+  {
+   "id": "hel03-012",
+   "scope": "BOOK",
+   "head": "Hel. 11:19",
+   "anchor": {
+    "verse": 21,
+    "w1": 11,
+    "w2": 27,
+    "quote": "He gave unto the eldest the name of Nephi, and unto the youngest, the name of Lehi."
+   },
+   "reason": "the younger brother measured against the elder",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 11,
+     "verse": 19,
+     "w1": 3,
+     "w2": 17,
+     "quote": "Lehi, his brother, was not a whit behind him as to things pertaining to righteousness.",
+     "verse_text": "And behold, Lehi, his brother, was not a whit behind him as to things pertaining to righteousness.",
+     "markdown": "And behold, **Lehi, his brother, was not a whit behind him as to things pertaining to righteousness**.",
+     "span": true
+    }
+   ],
+   "mirror": "hel11-004"
+  },
+  {
+   "id": "hel03-013",
+   "scope": "BOOK",
+   "head": "Hel. 4:12",
+   "anchor": {
+    "verse": 36,
+    "w1": 19,
+    "w2": 31,
+    "quote": "the exceedingly great pride which had gotten into the hearts of the people;"
+   },
+   "reason": "the pride itemised after the land was lost",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 4,
+     "verse": 12,
+     "w1": 4,
+     "w2": 15,
+     "quote": "because of the pride of their hearts, because of their exceeding riches,",
+     "verse_text": "And it was because of the pride of their hearts, because of their exceeding riches, yea, it was because of their oppression to the poor, withholding their food from the hungry, withholding their clothing from the naked, and smiting their humble brethren upon the cheek, making a mock of that which was sacred, denying the spirit of prophecy and of revelation, murdering, plundering, lying, stealing, committing adultery, rising up in great contentions, and deserting away into the land of Nephi, among the Lamanites—",
+     "markdown": "And it was **because of the pride of their hearts, because of their exceeding riches**, yea, it was because of their oppression to the poor, withholding their food from the hungry, withholding their clothing from the naked, and smiting their humble brethren upon the cheek, making a mock of that which was sacred, denying the spirit of prophecy and of revelation, murdering, plundering, lying, stealing, committing adultery, rising up in great contentions, and deserting away into the land of Nephi, among the Lamanites—",
+     "span": true
+    }
+   ],
+   "mirror": "hel04-001"
   },
   {
    "id": "hel03-003",
@@ -457,7 +586,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al22-013"
   },
   {
    "id": "hel03-005",
@@ -483,7 +612,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al27-016"
   },
   {
    "id": "hel03-006",
@@ -495,7 +624,7 @@
     "w2": 11,
     "quote": "a hundredth part of the proceedings of this people"
    },
-   "reason": "the same fraction used of an earlier generation, on the small plates",
+   "reason": "the same fraction, of an earlier generation, on small plates",
    "targets": [
     {
      "ref": "Jacob",
@@ -509,7 +638,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "jac03-014"
   },
   {
    "id": "hel03-007",
@@ -536,6 +665,58 @@
     }
    ],
    "mirror": "al62-009"
+  },
+  {
+   "id": "hel03-011",
+   "scope": "BOM",
+   "head": "3 Ne. 5:8",
+   "anchor": {
+    "verse": 14,
+    "w1": 3,
+    "w2": 11,
+    "quote": "a hundredth part of the proceedings of this people,"
+   },
+   "reason": "Mormon making the same admission of what he cut",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 5,
+     "verse": 8,
+     "w1": 19,
+     "w2": 26,
+     "quote": "they cannot all be written in this book;",
+     "verse_text": "And there had many things transpired which, in the eyes of some, would be great and marvelous; nevertheless, they cannot all be written in this book; yea, this book cannot contain even a hundredth part of what was done among so many people in the space of twenty and five years;",
+     "markdown": "And there had many things transpired which, in the eyes of some, would be great and marvelous; nevertheless, **they cannot all be written in this book**; yea, this book cannot contain even a hundredth part of what was done among so many people in the space of twenty and five years;",
+     "span": true
+    }
+   ],
+   "mirror": "3ne05-004"
+  },
+  {
+   "id": "hel03-014",
+   "scope": "BOM",
+   "head": "3 Ne. 6:10",
+   "anchor": {
+    "verse": 36,
+    "w1": 33,
+    "w2": 46,
+    "quote": "it was because of their exceedingly great riches and their prosperity in the land;"
+   },
+   "reason": "the same sequence a century later, item for item",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 6,
+     "verse": 10,
+     "w1": 22,
+     "w2": 35,
+     "quote": "some were lifted up unto pride and boastings because of their exceedingly great riches,",
+     "verse_text": "But it came to pass in the twenty and ninth year there began to be some disputings among the people; and some were lifted up unto pride and boastings because of their exceedingly great riches, yea, even unto great persecutions;",
+     "markdown": "But it came to pass in the twenty and ninth year there began to be some disputings among the people; and **some were lifted up unto pride and boastings because of their exceedingly great riches**, yea, even unto great persecutions;",
+     "span": true
+    }
+   ],
+   "mirror": "3ne06-005"
   },
   {
    "id": "hel03-008",
@@ -599,7 +780,7 @@
     "w2": 29,
     "quote": "to sit down with Abraham, and Isaac, and with Jacob"
    },
-   "reason": "the same three named, in the same kingdom, in the gospel",
+   "reason": "the same three, the same kingdom, in the gospel",
    "targets": [
     {
      "ref": "Matt.",
@@ -650,7 +831,8 @@
    "w2": 11,
    "quote": "a hundredth part of the proceedings of this people",
    "entries": [
-    "hel03-006"
+    "hel03-006",
+    "hel03-011"
    ]
   },
   {
@@ -659,7 +841,8 @@
    "w2": 27,
    "quote": "He gave unto the eldest the name of Nephi, and unto the youngest, the name of Lehi",
    "entries": [
-    "hel03-002"
+    "hel03-002",
+    "hel03-012"
    ]
   },
   {
@@ -706,10 +889,28 @@
    "entries": [
     "hel03-007"
    ]
+  },
+  {
+   "verse": 36,
+   "w1": 19,
+   "w2": 31,
+   "quote": "the exceedingly great pride which had gotten into the hearts of the people;",
+   "entries": [
+    "hel03-013"
+   ]
+  },
+  {
+   "verse": 36,
+   "w1": 33,
+   "w2": 46,
+   "quote": "it was because of their exceedingly great riches and their prosperity in the land;",
+   "entries": [
+    "hel03-014"
+   ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "84eaf88128819961"
+  "at": "2026-09-07",
+  "source_sha256": "5d7ed1e7c68d5667"
  }
 }

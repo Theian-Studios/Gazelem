@@ -17,9 +17,9 @@
   "principles": [
    "Obedience that changes the itinerary",
    "Mercy exercised from advantage",
-   ""
+   "Asking for others when you could ask for yourself"
   ],
-  "connections": 8,
+  "connections": 10,
   "initial": true
  },
  "world_behind": [
@@ -80,7 +80,7 @@
   {
    "term": "Rehearsed",
    "verse_label": "v. 11",
-   "text": "To recount in order, from beginning to end. Three of the record's nine uses are in Alma 18, where Ammon rehearsed the scriptures to Lamoni. Here Lamoni rehearses his itinerary to his father because he is afraid. The same verb covers a full teaching and a nervous explanation."
+   "text": "To recount in order, from beginning to end. Treated at 2 Nephi 1:1. Three of the record's nine uses are in Alma 18, where Ammon rehearsed the scriptures to Lamoni. Here Lamoni rehearses his itinerary to his father because he is afraid. The same verb covers a full teaching and a nervous explanation."
   },
   {
    "term": "Lyings",
@@ -95,12 +95,24 @@
   {
    "term": "Withstood",
    "verse_label": "v. 20",
-   "text": "Stood against, held ground under attack. The record uses it ten times, mostly of men holding a position against a crowd or an army. Here one man withstands a king's blows and then disables the arm. He made the same move at Sebus, against clubs."
+   "text": "Stood against, held ground under attack. Treated at Mosiah 12:19. The record uses it ten times, mostly of men holding a position against a crowd or an army. Here one man withstands a king's blows and then disables the arm. He made the same move at Sebus, against clubs.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 12:19",
+     "start": 52,
+     "end": 64,
+     "book": "Mosiah",
+     "chapter": 12,
+     "verse_start": 19,
+     "verse_end": 19
+    }
+   ]
   },
   {
    "term": "Stiffnecked",
    "verse_label": "v. 30",
-   "text": "Refusing to turn the head, and so refusing to be led. It is Exodus vocabulary for Israel at Sinai, used twenty times in this record and nine in the King James Bible. Mormon applies it to the people of Middoni to explain why Aaron's mission went one way and Ammon's went another."
+   "text": "Refusing to turn the head, and so refusing to be led. Treated at 2 Nephi 25:28. It is Exodus vocabulary for Israel at Sinai, used twenty times in this record and nine in the King James Bible. Mormon applies it to the people of Middoni to explain why Aaron's mission went one way and Ammon's went another."
   }
  ],
  "phrases": [
@@ -142,7 +154,29 @@
   {
    "term": "Even to half of the kingdom",
    "verse_label": "v. 23",
-   "text": "The oath a frightened monarch swears. Ahasuerus says it to Esther three times, and Jared's daughter uses the same currency in Ether 8. In every case a king under pressure names the largest thing he owns, and what the petitioner asks for next is the test."
+   "text": "The oath a frightened monarch swears. Ahasuerus says it to Esther three times (Esth. 5:3), and Jared's daughter uses the same currency in Ether 8:10. In every case a king under pressure names the largest thing he owns, and what the petitioner asks for next is the test.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Esth. 5:3",
+     "start": 79,
+     "end": 88,
+     "book": "Esth",
+     "chapter": 5,
+     "verse_start": 3,
+     "verse_end": 3
+    },
+    {
+     "kind": "scripture",
+     "text": "Ether 8:10",
+     "start": 138,
+     "end": 148,
+     "book": "Ether",
+     "chapter": 8,
+     "verse_start": 10,
+     "verse_end": 10
+    }
+   ]
   },
   {
    "term": "I will govern him no more",
@@ -152,53 +186,63 @@
  ],
  "verses": [
   {
-   "label": "v. 1–3",
-   "start": 1,
-   "end": 3,
-   "title": "The trip is redirected",
-   "text": "Lamoni wants to take Ammon to his father. The voice of the Lord forbids it, names the danger, and sends him to Middoni instead, where his brother is in prison. Ammon tells Lamoni he is going to deliver them."
+   "label": "v. 2–5",
+   "start": 2,
+   "end": 5,
+   "title": "A question is staged so the source can be named",
+   "text": "The voice of the Lord redirects Ammon and supplies three names in prison before anyone has asked for help. Lamoni then puts the question the reader would put: \"Who told thee that thy brethren were in prison?\" The answer is an attribution and nothing else: \"No one hath told me, save it be God.\" The record sets up the exchange rather than simply reporting the revelation, and gets the provenance said out loud."
   },
   {
-   "label": "v. 4–7",
-   "start": 4,
-   "end": 7,
-   "title": "Lamoni comes along",
-   "text": "He knows Antiomno and offers to work the friendship. He asks how Ammon learned about the prison and gets revelation as the answer. Then he orders the horses and chariots readied, as in Alma 18."
+   "label": "v. 11–12",
+   "start": 11,
+   "end": 12,
+   "title": "The fear is reported before the speech is",
+   "text": "Lamoni \"rehearsed unto him whither he was going, for he feared to offend him,\" and explained why he had missed the feast. The record gives his calculation first and its outcome second: \"behold, to his astonishment, his father was angry with him.\" What is recorded is not the conversation but the gap between what Lamoni expected of it and what it produced."
   },
   {
-   "label": "v. 8–13",
-   "start": 8,
+   "label": "v. 13",
+   "start": 13,
    "end": 13,
-   "title": "The father on the road",
-   "text": "They meet the king over all the land. He opens with the missed feast and an insult about the Nephite. Lamoni gives a full account because he is afraid, and his father's anger comes out as the old story about Nephi robbing the fathers."
+   "title": "The grievance is property, and it is inherited",
+   "text": "The old king's charge runs backward and forward without a break: \"he robbed our fathers; and now his children are also come amongst us that they may, by their cunning and their lyings, deceive us, that they again may rob us of our property.\" Robbed our fathers occurs once in scripture. It is the tradition Mosiah 10:12 sets out as the Lamanite inheritance, and here it is spoken by a king who is about to draw a sword over it.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 10:12",
+     "start": 307,
+     "end": 319,
+     "book": "Mosiah",
+     "chapter": 10,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
   },
   {
-   "label": "v. 14–19",
-   "start": 14,
-   "end": 19,
-   "title": "The order, refused",
-   "text": "The father commands Lamoni to kill Ammon and go home. Lamoni refuses both, calling Aaron and his brethren holy prophets. The father draws on his own son, and Ammon steps in with two arguments, both about what the killing would cost the king."
-  },
-  {
-   "label": "v. 20–24",
-   "start": 20,
+   "label": "v. 24",
+   "start": 24,
    "end": 24,
-   "title": "The sword changes hands",
-   "text": "The father swings at Ammon, who blocks him and disables his arm. The king pleads for his life and offers half the kingdom. Ammon names his price: release the prisoners, leave Lamoni his kingdom, and stop being displeased with him."
+   "title": "Offered everything, he itemizes three things",
+   "text": "Ammon's terms are a release, a throne, and a temper: the brethren out of prison, that \"Lamoni may retain his kingdom,\" and that the father \"be not displeased with him, but grant that he may do according to his own desires in whatsoever thing he thinketh.\" The third item on the record's list asks for nothing material at all. It asks that a son be left alone."
   },
   {
-   "label": "v. 25–27",
-   "start": 25,
-   "end": 27,
-   "title": "More than was asked",
-   "text": "The king rejoices at surviving, sees that Ammon wanted nothing for himself, and is astonished by his love for Lamoni. He frees the prisoners, releases Lamoni from his rule permanently, and asks to see Ammon and his brethren himself."
-  },
-  {
-   "label": "v. 28–30",
-   "start": 28,
+   "label": "v. 29–30",
+   "start": 29,
    "end": 30,
-   "title": "Middoni",
-   "text": "Lamoni finds favor with that king and the prisoners come out. Ammon weeps over what he sees: naked men, skin worn through by cords, hunger and thirst borne patiently. Mormon explains that Aaron's people were harder than Lamoni's."
+   "title": "The men the chapter is about never speak in it",
+   "text": "Aaron, Muloki and Ammah are named at verse 2 and appear again only as a condition: naked, skins worn, \"bound with strong cords,\" hungry, thirsty, \"patient in all their sufferings.\" The record supplies their sufferings and their patience, and no word of theirs. Strong cords ties the scene to Alma 14:4, where the same binding held Alma and Amulek.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 14:4",
+     "start": 292,
+     "end": 301,
+     "book": "Alma",
+     "chapter": 14,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
   }
  ],
  "chapter": [
@@ -215,7 +259,19 @@
   {
    "n": 3,
    "title": "Lamoni's conversion is tested on his father first",
-   "text": "Everything costly about the new belief lands within a week: a public refusal, an armed parent, and a threat to his kingdom. The record puts the test before it gives him any settled life as a believer."
+   "text": "The conversion at Alma 19:13 is followed within one chapter by three costs, all quoted. Verse 15 is the refusal, \"I will not slay Ammon, neither will I return to the land of Ishmael.\" Verse 16 is the armed parent, \"he drew his sword that he might smite him to the earth.\" Verse 24 has the throne threatened, and verse 27 has the father revoke the threat only after Ammon declines half the kingdom. The record gives the new believer no settled interval at all between the conversion and the test.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 19:13",
+     "start": 18,
+     "end": 28,
+     "book": "Alma",
+     "chapter": 19,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
   },
   {
    "n": 4,
@@ -240,30 +296,50 @@
   {
    "n": 8,
    "title": "The chapter runs on family quarrels",
-   "text": "A father insults his son's friend, a son refuses a father's order, a father draws on his son, and a stranger stops it by talking about the father's soul. The national feud plays out as one argument on a road."
+   "text": "Four family moves run in eleven verses. Verse 13 is the insult, \"these Nephites, who are sons of a liar.\" Verse 14 is the order, that Lamoni \"should slay Ammon with the sword.\" Verse 16 is the drawn sword. Verse 17 is the intervention, and its argument is about the father rather than the son, \"it were better that he should fall than thee... if thou shouldst fall at this time, in thine anger, thy soul could not be saved.\" Verse 19 records the father conceding the point, \"I know that if I should slay my son, that I should shed innocent blood.\" A six-hundred-year national feud is argued out between two men on a road."
   }
  ],
  "world_in_front": {
   "applications": [
    {
     "title": "Let the plan be overruled",
-    "verse_label": "v. 2",
-    "text": "Lamoni's trip was generous and Ammon's answer was no. When a clear direction cuts across a good idea already in motion, the good idea is what gives way."
+    "verse_label": "v. 1–3",
+    "text": "Lamoni's trip to show Ammon to his father was generous and it was cancelled, \"Thou shalt not go up to the land of Nephi,\" and replaced with a rescue at Middoni. A good intention is not the same as the right errand, and the record has the redirection arrive before the trip begins."
    },
    {
     "title": "Go get the people nobody is counting",
-    "verse_label": "v. 3",
-    "text": "Three men in a cell pulled Ammon away from a national awakening. Look for the person in your circle whose situation is quiet, contained, and unglamorous, and go there this week."
+    "verse_label": "v. 2–3",
+    "text": "The reason given for the change is three men in a cell, \"thy brother Aaron, and also Muloki and Ammah are in prison,\" and Ammon's answer is immediate, \"I go that I may deliver them.\" The alternative was a royal introduction."
+   },
+   {
+    "title": "Use the relationship you have",
+    "verse_label": "v. 4",
+    "text": "Lamoni's contribution is not power but acquaintance, \"the king of the land of Middoni, whose name is Antiomno, is a friend unto me.\" Knowing somebody is a resource worth offering, and offering it is often the whole of what you can do."
    },
    {
     "title": "Argue for the other person's interest",
     "verse_label": "v. 17–18",
-    "text": "Ammon's case to the king was entirely about what the killing would do to the king. When you need someone to stand down, work out what it costs them and lead with that."
+    "text": "Ammon's case to the armed father is about the father: falling \"in thine anger\" would cost his soul, and killing an innocent son would bring blood crying from the ground. Neither sentence is about Ammon's safety."
+   },
+   {
+    "title": "Concede the point out loud when it lands",
+    "verse_label": "v. 19",
+    "text": "The father answers his own accusation, \"I know that if I should slay my son, that I should shed innocent blood; for it is thou that hast sought to destroy him.\" Saying the concession is what ends the scene; thinking it would not have."
    },
    {
     "title": "Ask for less than you could",
-    "verse_label": "v. 24",
-    "text": "Ammon held a sword over a man who had offered half a kingdom, and asked for three releases and a truce. Where you have leverage right now, decide in advance what the smallest sufficient ask is."
+    "verse_label": "v. 22–24",
+    "text": "Ammon holds a sword over a man who offers half a kingdom and asks only that three prisoners be released. Verse 26 records the effect of the restraint, \"when he saw that Ammon had no desire to destroy him... he was astonished exceedingly.\""
+   },
+   {
+    "title": "Look at what the release actually cost them",
+    "verse_label": "v. 29",
+    "text": "The record does not report the rescue as a success and stop. It describes the men: naked, skins worn from the cords, having \"suffered hunger, thirst, and all kinds of afflictions.\" Finish an account of a deliverance by saying what the people came out with."
+   },
+   {
+    "title": "Assume the difference was the ground, not the worker",
+    "verse_label": "v. 30",
+    "text": "The record explains the failure at Middoni by where they landed, \"it was their lot to have fallen into the hands of a more hardened and a more stiffnecked people.\" Before concluding you did it wrong, ask what field you were in."
    }
   ],
   "questions": [
@@ -322,7 +398,7 @@
     "w2": 50,
     "quote": "are in prison"
    },
-   "reason": "Aaron’s imprisonment told from his own side of the mission",
+   "reason": "Aaron's imprisonment told from his own side of the mission",
    "targets": [
     {
      "ref": "Alma",
@@ -336,7 +412,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al21-010"
   },
   {
    "id": "al20-002",
@@ -362,7 +438,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al22-010"
   },
   {
    "id": "al20-003",
@@ -388,7 +464,59 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al17-011"
+  },
+  {
+   "id": "al20-009",
+   "scope": "BOOK",
+   "head": "Alma 21:14",
+   "anchor": {
+    "verse": 29,
+    "w1": 17,
+    "w2": 21,
+    "quote": "their skins were worn exceedingly"
+   },
+   "reason": "the rescue told from inside the prison",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 21,
+     "verse": 14,
+     "w1": 14,
+     "w2": 21,
+     "quote": "delivered by the hand of Lamoni and Ammon,",
+     "verse_text": "And those who were cast into prison suffered many things, and they were delivered by the hand of Lamoni and Ammon, and they were fed and clothed.",
+     "markdown": "And those who were cast into prison suffered many things, and they were **delivered by the hand of Lamoni and Ammon**, and they were fed and clothed.",
+     "span": true
+    }
+   ],
+   "mirror": "al21-003"
+  },
+  {
+   "id": "al20-010",
+   "scope": "BOOK",
+   "head": "Alma 22:2",
+   "anchor": {
+    "verse": 27,
+    "w1": 9,
+    "w2": 16,
+    "quote": "thy brethren may be cast out of prison,"
+   },
+   "reason": "the father recalling it when Aaron came",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 22,
+     "verse": 2,
+     "w1": 38,
+     "w2": 44,
+     "quote": "whom thou hast delivered out of prison.",
+     "verse_text": "And it came to pass that he went in unto him into the king's palace, with his brethren, and bowed himself before the king, and said unto him: Behold, O king, we are the brethren of Ammon, whom thou hast delivered out of prison.",
+     "markdown": "And it came to pass that he went in unto him into the king's palace, with his brethren, and bowed himself before the king, and said unto him: Behold, O king, we are the brethren of Ammon, **whom thou hast delivered out of prison**.",
+     "span": true
+    }
+   ],
+   "mirror": "al22-002"
   },
   {
    "id": "al20-004",
@@ -400,7 +528,7 @@
     "w2": 64,
     "quote": "flatter the king of the land"
    },
-   "reason": "the record’s clearest case of flattery bought with a kingdom",
+   "reason": "the record's clearest case of flattery bought with a kingdom",
    "targets": [
     {
      "ref": "Ether",
@@ -414,7 +542,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "eth08-003"
   },
   {
    "id": "al20-005",
@@ -426,7 +554,7 @@
     "w2": 28,
     "quote": "that I should shed innocent blood"
    },
-   "reason": "Abinadi says the same of his own killing, before the fire",
+   "reason": "Abinadi saying the same of his own killing",
    "targets": [
     {
      "ref": "Mosiah",
@@ -440,7 +568,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos17-023"
   },
   {
    "id": "al20-006",
@@ -478,7 +606,7 @@
     "w2": 30,
     "quote": "even to half of the kingdom"
    },
-   "reason": "the same royal oath, sworn to a woman with a request",
+   "reason": "the same royal oath, sworn to a woman",
    "targets": [
     {
      "ref": "Esth.",
@@ -578,11 +706,29 @@
   },
   {
    "verse": 27,
+   "w1": 9,
+   "w2": 16,
+   "quote": "thy brethren may be cast out of prison,",
+   "entries": [
+    "al20-010"
+   ]
+  },
+  {
+   "verse": 27,
    "w1": 20,
    "w2": 25,
    "quote": "thy brethren may come unto me",
    "entries": [
     "al20-002"
+   ]
+  },
+  {
+   "verse": 29,
+   "w1": 17,
+   "w2": 21,
+   "quote": "their skins were worn exceedingly",
+   "entries": [
+    "al20-009"
    ]
   },
   {
@@ -596,7 +742,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "b1fe48ad6f3382db"
+  "at": "2026-09-07",
+  "source_sha256": "2e90acb38ea100f7"
  }
 }

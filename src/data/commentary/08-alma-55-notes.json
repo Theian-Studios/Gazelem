@@ -16,9 +16,10 @@
   "unit": "The war chapters (Alma 43–63)",
   "principles": [
    "A refusal made on principle and on arithmetic",
-   "A city taken without a"
+   "A city taken without a death",
+   "Restraint exercised at the moment of advantage"
   ],
-  "connections": 9,
+  "connections": 10,
   "initial": true
  },
  "world_behind": [
@@ -30,12 +31,36 @@
   {
    "n": 2,
    "title": "The anger has a specific cause",
-   "text": "Verse 1 says Ammoron knew his own cause was unjust. Moroni is angrier at the knowing than at the war."
+   "text": "Verse 1 has Moroni angrier because the other man knew perfectly well that his cause was fraudulent. Alma 54:16 to 24 preserves his letter, in which he claims his fathers were wronged of the government; this verse is Moroni's judgment on a document the reader has just read.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 54:16",
+     "start": 100,
+     "end": 110,
+     "book": "Alma",
+     "chapter": 54,
+     "verse_start": 16,
+     "verse_end": 16
+    }
+   ]
   },
   {
    "n": 3,
    "title": "He searches his own ranks for a Lamanite",
-   "text": "Verse 4 has him look for a descendant of Laman among his men, and verse 5 finds one named Laman."
+   "text": "Verse 4 has him search his own ranks for a descendant of Laman, and verse 5 finds a man named Laman who had been a servant of the king Amalickiah murdered. Alma 47:22 to 29 records that murder and the servants who fled; one of them has been in the Nephite army ever since.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 47:22",
+     "start": 156,
+     "end": 166,
+     "book": "Alma",
+     "chapter": 47,
+     "verse_start": 22,
+     "verse_end": 22
+    }
+   ]
   },
   {
    "n": 4,
@@ -45,12 +70,36 @@
   {
    "n": 5,
    "title": "The wine was prepared strong on purpose",
-   "text": "Verse 13 says it was strong, having been prepared in its strength. The detail is supplied at the moment it matters."
+   "text": "Verse 13 says the wine was strong, having been prepared in its strength. Alma 55:31 and 32 has the Nephites afterwards testing every liquor on a prisoner before drinking, which is the countermeasure this episode taught them.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 55:31",
+     "start": 73,
+     "end": 83,
+     "book": "Alma",
+     "chapter": 55,
+     "verse_start": 31,
+     "verse_end": 31
+    }
+   ]
   },
   {
    "n": 6,
    "title": "The prisoners are armed inside the walls",
-   "text": "Verses 16 and 17 have weapons cast in to the prisoners, including women and children able to use them, in profound silence."
+   "text": "Verses 16 and 17 arm the prisoners inside the wall, women and children included, in profound silence. Alma 54:3 had reported that the Lamanites held Nephite women and children while Moroni held none; that asymmetry is what put them behind that wall.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 54:3",
+     "start": 102,
+     "end": 111,
+     "book": "Alma",
+     "chapter": 54,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
   },
   {
    "n": 7,
@@ -67,12 +116,12 @@
   {
    "term": "Hailed",
    "verse_label": "v. 8",
-   "text": "Called out to, challenged. The word occurs once in scripture. The guards hail Laman as he approaches, and his answer is the whole deception in three sentences."
+   "text": "Called out to, challenged. The word appears once in all of scripture. The guards hail Laman as he approaches, and his answer is the whole deception in three sentences."
   },
   {
    "term": "Rations",
    "verse_label": "v. 11",
-   "text": "An allotted issue of food or drink. The word occurs once in scripture. The guards reason that they will get more wine issued later, which is the argument that persuades them to drink what they have."
+   "text": "An allotted issue of food or drink. The word occurs a single time in scripture. The guards reason that they will get more wine issued later, which is the argument that persuades them to drink what they have."
   },
   {
    "term": "Drunken",
@@ -82,7 +131,7 @@
   {
    "term": "Silence",
    "verse_label": "v. 17",
-   "text": "Absence of sound. The phrase profound silence occurs once in scripture. Mormon uses it of arming an entire prisoner population, women and children included, without waking the guards."
+   "text": "Absence of sound. The phrase profound silence turns up just once in scripture. Mormon uses it of arming an entire prisoner population, women and children included, without waking the guards."
   },
   {
    "term": "Injustice",
@@ -144,58 +193,63 @@
   {
    "term": "Their prisoners were armed within",
    "verse_label": "v. 22",
-   "text": "The morning picture. Surrounded outside and outnumbered inside, the Lamanites find fighting inexpedient and cast down their weapons."
+   "text": "The morning picture. Surrounded outside and outnumbered inside, the Lamanites judge a fight pointless and give up their weapons."
   }
  ],
  "verses": [
   {
-   "label": "v. 1–3",
-   "start": 1,
-   "end": 3,
-   "title": "The refusal",
-   "text": "Moroni grows angrier because Ammoron knew his cause was unjust. He will not exchange unless Ammoron withdraws, since an exchange would only add to his power. He knows where the Nephite prisoners are held and will seek death among them until they sue for peace."
-  },
-  {
-   "label": "v. 4–7",
-   "start": 4,
-   "end": 7,
-   "title": "The man found",
-   "text": "He has a search made for a descendant of Laman among his own men and finds one named Laman, formerly a servant of the murdered Lamanite king. Laman and a small party are sent to the guards at the city of Gid."
-  },
-  {
-   "label": "v. 8–12",
+   "label": "v. 8–13",
    "start": 8,
-   "end": 12,
-   "title": "The approach",
-   "text": "The guards hail him. He says he is a Lamanite, that they have escaped the sleeping Nephites, and that they have taken wine. The guards ask for it, saying they are weary. Laman proposes saving it for the battle, which makes them want it more, and he yields."
+   "end": 13,
+   "title": "A refusal that works better than an offer",
+   "text": "The deception is preserved as dialogue and the turn in it is a denial. The guards ask for the wine; the answer is \"Let us keep of our wine till we go against the Nephites to battle.\" The record then explains the effect at once: \"this saying only made them more desirous to drink of the wine.\" Their own reasoning is quoted back as well, \"We are weary, therefore let us take of the wine, and by and by we shall receive wine for our rations.\" The trick is not persuasion but withholding, and the record says so rather than leaving it to be inferred."
   },
   {
-   "label": "v. 13–15",
-   "start": 13,
-   "end": 15,
-   "title": "The wine",
-   "text": "They drink freely because it is pleasant, and more freely, and it was strong, prepared in its strength. They are merry and then all drunken and in a deep sleep. Laman's men return and report."
+   "label": "v. 17",
+   "start": 17,
+   "end": 17,
+   "title": "The arming described by category, not by number",
+   "text": "The record specifies exactly who received weapons and draws the line by capacity: \"Yea, even to their women, and all those of their children, as many as were able to use a weapon of war, when Moroni had armed all those prisoners of the Nephites.\" No count is given. The clause as many as were able does the work a number would, and it makes the prisoners in the city into a force without stating how large it was."
   },
   {
-   "label": "v. 16–19",
-   "start": 16,
+   "label": "v. 18–19",
+   "start": 18,
    "end": 19,
-   "title": "Arming the prisoners",
-   "text": "This was Moroni's design. He goes to Gid with armed men and casts weapons in to the prisoners, including women and children able to use them, all in profound silence. He could have killed the drunk guards and would not, since it would have brought injustice on him."
+   "title": "The massacre that did not happen, reported anyway",
+   "text": "The record states an option that was available and declined: \"had they awakened the Lamanites, behold they were drunken and the Nephites could have slain them.\" Verse 19 gives the reason for not doing it, and it is a claim about a man's character rather than about tactics: \"this was not the desire of Moroni; he did not delight in murder or bloodshed, but he delighted in the saving of his people from destruction.\" A war record pauses to describe a killing that was never carried out."
   },
   {
-   "label": "v. 20–24",
-   "start": 20,
+   "label": "v. 22–24",
+   "start": 22,
    "end": 24,
-   "title": "The city taken",
-   "text": "With the prisoners armed inside, he withdraws a pace and surrounds the Lamanite army by night. They wake surrounded outside and faced by armed prisoners within, find fighting inexpedient, and cast down their weapons pleading for mercy. Moroni takes the city and frees the Nephites, who join his army."
+   "title": "A city changes hands with no fighting reported",
+   "text": "The result is given as a morning discovery: \"this was done in the night-time, so that when the Lamanites awoke in the morning they beheld that they were surrounded by the Nephites, and their prisoners were armed.\" The surrender is then reported as a calculation rather than a defeat: \"they saw that the Nephites had power over them; and in these circumstances they found that it was not expedient that they should fight with the Nephites.\" No casualties are named on either side."
   },
   {
-   "label": "v. 25–35",
+   "label": "v. 25",
    "start": 25,
-   "end": 35,
-   "title": "After Gid",
-   "text": "He sets the freed prisoners to fortify the city, sends the Lamanite prisoners to Bountiful under guard, and holds the ground. The Lamanites attempt to poison him and are unable, and Mormon closes the year with the Nephites strengthened."
+   "end": 25,
+   "title": "The same use for prisoners as two chapters earlier",
+   "text": "The record puts the new captives to the identical task the last set were given: \"he did cause the Lamanites, whom he had taken prisoners, that they should commence a labor in strengthening the fortifications round about the city Gid.\" Alma 53:4–5 reports the same arrangement, prisoners building the works that hold them, in the same city. The repetition is not remarked on, and the second instance is described in almost the same words as the first.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 53:4–5",
+     "start": 235,
+     "end": 246,
+     "book": "Alma",
+     "chapter": 53,
+     "verse_start": 4,
+     "verse_end": 5
+    }
+   ]
+  },
+  {
+   "label": "v. 30–32",
+   "start": 30,
+   "end": 32,
+   "title": "A counter-tactic, and the reasoning that defeats it",
+   "text": "The record reports the enemy adopting the trick: \"many times did they attempt to administer of their wine to the Nephites, that they might destroy them with poison or with drunkenness.\" The defence given is not vigilance but an argument, stated as a piece of ordinary reasoning: \"they were thus cautious that no poison should be administered among them; for if their wine would poison a Lamanite it would also poison a Nephite.\" A test anyone could apply is written into the account, and it is the symmetry of the substance that supplies it."
   }
  ],
  "chapter": [
@@ -212,12 +266,12 @@
   {
    "n": 3,
    "title": "The deception is made of true statements",
-   "text": "I am a Lamanite; we have wine. Mormon records what Laman said and leaves the reader to see how it worked."
+   "text": "Verse 5 establishes that the claim is true: the man found is \"one whose name was Laman; and he was one of the servants of the king who was murdered by Amalickiah.\" What he says at verse 8 is therefore accurate, \"Fear not; behold, I am a Lamanite,\" as is the second half, \"we have escaped from the Nephites.\" The wine is real and the escape is real. The record supplies the man's credentials before the speech, so the reader can check every sentence of the deception against the facts already given."
   },
   {
    "n": 4,
    "title": "Reluctance is the persuasion",
-   "text": "Laman argues for saving the wine and that is what makes them drink it. The plan turns on the guards overruling him."
+   "text": "Verse 10 has him argue against drinking, \"Let us keep of our wine till we go against the Nephites to battle,\" and the record states the effect in the same verse, \"this saying only made them more desirous to drink of the wine.\" Verse 11 gives the guards their own reasoning, \"we are weary... by and by we shall receive wine for our rations.\" Verse 12 is his consent in seven words, \"You may do according to your desires.\" The plan works because the guards overrule him, and the record supplies their argument as well as his."
   },
   {
    "n": 5,
@@ -243,6 +297,11 @@
  "world_in_front": {
   "applications": [
    {
+    "title": "Assume some opponents already know",
+    "verse_label": "v. 1",
+    "text": "Moroni's anger rose because he knew that Ammoron had a perfect knowledge of his own fraud. Not everyone opposing you is working from bad information, and treating a knowing opponent as a confused one spends effort you need elsewhere."
+   },
+   {
     "title": "Check what a deal gives the other side",
     "verse_label": "v. 2",
     "text": "Moroni refused an exchange that would have returned soldiers to his enemy. Before accepting an arrangement, work out what it restores to the party you are contending with."
@@ -258,9 +317,24 @@
     "text": "Laman's argument against drinking made them want it more. Be alert to reluctance that functions as encouragement, in yourself and in others."
    },
    {
+    "title": "Match the volume of the work to what it can survive",
+    "verse_label": "v. 17",
+    "text": "The arming of the prisoners, women and children included, was carried out in a profound silence. Some tasks fail the moment they are noticed, and announcing one of those is a forfeit dressed up as courage."
+   },
+   {
     "title": "Do not take the advantage that would cost you your case",
     "verse_label": "v. 19",
     "text": "Moroni could have killed sleeping men and would not. When you have an opening that would compromise the ground you are standing on, leave it."
+   },
+   {
+    "title": "Give the rescued a place to work",
+    "verse_label": "v. 24",
+    "text": "The freed Nephite prisoners joined Moroni's army and became a great strength to it. People you helped out of a bad position are often the most committed help available, so make room for them instead of filing them away as beneficiaries."
+   },
+   {
+    "title": "Do not accept what you cannot check",
+    "verse_label": "v. 31",
+    "text": "The Nephites would not partake of Lamanite wine until it had been tried first. When an offer comes from someone who has already attempted to harm you, the useful question is whether you have any way to confirm it, and looking fine is not confirmation."
    }
   ],
   "questions": [
@@ -359,7 +433,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al47-010"
   },
   {
    "id": "al55-003",
@@ -371,7 +445,7 @@
     "w2": 17,
     "quote": "he did not delight in murder or bloodshed"
    },
-   "reason": "Mormon’s portrait of the same man, in nearly the same words",
+   "reason": "Mormon's portrait of the same man, nearly the same words",
    "targets": [
     {
      "ref": "Alma",
@@ -385,7 +459,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al48-011"
   },
   {
    "id": "al55-004",
@@ -397,7 +471,7 @@
     "w2": 10,
     "quote": "this was according to the design of Moroni"
    },
-   "reason": "the decoy at Mulek, the record’s other stratagem of this kind",
+   "reason": "the decoy at Mulek, the other stratagem of its kind",
    "targets": [
     {
      "ref": "Alma",
@@ -411,7 +485,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al52-010"
+  },
+  {
+   "id": "al55-010",
+   "scope": "BOOK",
+   "head": "Alma 57:2",
+   "anchor": {
+    "verse": 2,
+    "w1": 5,
+    "w2": 11,
+    "quote": "I will not exchange prisoners with Ammoron"
+   },
+   "reason": "the exchange Helaman was later offered",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 57,
+     "verse": 2,
+     "w1": 42,
+     "w2": 50,
+     "quote": "we would only deliver up our prisoners on exchange.",
+     "verse_text": "But I sent an epistle unto the king, that we were sure our forces were sufficient to take the city of Antiparah by our force; and by delivering up the prisoners for that city we should suppose ourselves unwise, and that we would only deliver up our prisoners on exchange.",
+     "markdown": "But I sent an epistle unto the king, that we were sure our forces were sufficient to take the city of Antiparah by our force; and by delivering up the prisoners for that city we should suppose ourselves unwise, and that **we would only deliver up our prisoners on exchange**.",
+     "span": true
+    }
+   ],
+   "mirror": "al57-003"
   },
   {
    "id": "al55-005",
@@ -423,7 +523,7 @@
     "w2": 13,
     "quote": "they did take of the wine freely"
    },
-   "reason": "Gideon’s plan to make the Lamanite guards drunk on tribute wine",
+   "reason": "Gideon's plan to make the guards drunk on tribute wine",
    "targets": [
     {
      "ref": "Mosiah",
@@ -437,7 +537,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "mos22-018"
   },
   {
    "id": "al55-006",
@@ -449,7 +549,7 @@
     "w2": 19,
     "quote": "they were all drunken"
    },
-   "reason": "the word treated in full, of a people drunken but not with wine",
+   "reason": "the word treated in full, of a people drunken",
    "targets": [
     {
      "ref": "2 Ne.",
@@ -463,7 +563,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "2ne27-012"
   },
   {
    "id": "al55-007",
@@ -475,7 +575,7 @@
     "w2": 11,
     "quote": "they did drink and were merry"
    },
-   "reason": "Nabal merry and very drunken on the night before his death",
+   "reason": "Nabal merry and very drunken the night before dying",
    "targets": [
     {
      "ref": "1 Sam.",
@@ -527,7 +627,7 @@
     "w2": 37,
     "quote": "it was strong, having been prepared in its strength"
    },
-   "reason": "the proverb on what strong drink does to the man it deceives",
+   "reason": "the proverb on what strong drink does to a man",
    "targets": [
     {
      "ref": "Prov.",
@@ -551,7 +651,8 @@
    "w2": 11,
    "quote": "I will not exchange prisoners with Ammoron",
    "entries": [
-    "al55-001"
+    "al55-001",
+    "al55-010"
    ]
   },
   {
@@ -628,7 +729,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "55f23cfcee531ae8"
+  "at": "2026-09-07",
+  "source_sha256": "08b3de5c2752ca58"
  }
 }

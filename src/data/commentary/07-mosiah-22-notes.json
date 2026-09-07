@@ -18,7 +18,7 @@
    "Counsel",
    "Service"
   ],
-  "connections": 17,
+  "connections": 18,
   "initial": false
  },
  "world_behind": [
@@ -62,12 +62,46 @@
   {
    "term": "Unprofitable",
    "verse_label": "v. 4",
-   "text": "Yielding no return, and so not worth keeping. Gideon uses it of himself as a conditional (if thou hast not found me to be an unprofitable servant). Benjamin had used the same word of the entire nation at its very best, and the Savior would later put it in the mouth of servants who had done everything asked of them."
+   "text": "Yielding no return, and so not worth keeping. Gideon uses it of himself as a conditional (if thou hast not found me to be an unprofitable servant). Benjamin had used the same word of the entire nation at its very best (Mosiah 2:21), and the Savior would later put it in the mouth of servants (Luke 17:10) who had done everything asked of them.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 2:21",
+     "start": 219,
+     "end": 230,
+     "book": "Mosiah",
+     "chapter": 2,
+     "verse_start": 21,
+     "verse_end": 21
+    },
+    {
+     "kind": "scripture",
+     "text": "Luke 17:10",
+     "start": 293,
+     "end": 303,
+     "book": "Luke",
+     "chapter": 17,
+     "verse_start": 10,
+     "verse_end": 10
+    }
+   ]
   },
   {
    "term": "Proclamation",
    "verse_label": "v. 6",
-   "text": "A public order announced aloud, the standard instrument of a king in this record. Gideon's plan needs one to move the flocks. The escape could not be kept secret from the people it was for. Only the guards were meant not to know."
+   "text": "A public order announced aloud, the standard instrument of a king in this record. Treated at Mosiah 1:10. Gideon's plan needs one to move the flocks. The escape could not be kept secret from the people it was for. Only the guards were meant not to know.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 1:10",
+     "start": 93,
+     "end": 104,
+     "book": "Mosiah",
+     "chapter": 1,
+     "verse_start": 10,
+     "verse_end": 10
+    }
+   ]
   },
   {
    "term": "Freely",
@@ -124,46 +158,90 @@
  ],
  "verses": [
   {
-   "label": "v. 1–2",
-   "start": 1,
+   "label": "v. 2",
+   "start": 2,
    "end": 2,
-   "title": "An assembly, and one option left",
-   "text": "Everyone is gathered so the matter can be decided by the voice of the people, and the conclusion is that there is no way out except to leave. The verse states the reason without drama: the Lamanites are too numerous, and the sword has been tried."
+   "title": "The only option is stated as the only option",
+   "text": "The record reports the consultation and its result in the same breath: \"they could find no way to deliver themselves out of bondage, except it were to take their women and children, their flocks, and their herds, and their tents, and depart into the wilderness.\" The reason no other course exists is then given as arithmetic, \"for the Lamanites being so numerous, it was impossible for the people of Limhi to contend with them.\" Escape is presented as a conclusion reached by elimination rather than as a plan someone favoured."
   },
   {
-   "label": "v. 3–5",
-   "start": 3,
-   "end": 5,
-   "title": "A servant asking for a hearing",
-   "text": "Gideon reminds the king of a track record, offers a conditional about his own usefulness, and asks to be listened to once more. Then he promises deliverance. The king grants him leave to speak, and the record notes the granting."
-  },
-  {
-   "label": "v. 6–8",
+   "label": "v. 6",
    "start": 6,
-   "end": 8,
-   "title": "The plan, in three moves",
-   "text": "Identify the exit, get the flocks out by night, and put the guards to sleep with the tribute they are already owed. Then travel around Shilom rather than through it. Every element uses something the situation already contained."
+   "end": 6,
+   "title": "One word, three times, in the same clause",
+   "text": "The plan opens on a piece of geography stated with unusual repetition: \"Behold the back pass, through the back wall, on the back side of the city.\" The same adjective is used three times in fourteen words, which is not how the record describes anything else. What follows is the operational detail that makes the pass usable, \"The Lamanites, or the guards of the Lamanites, by night are drunken.\""
   },
   {
-   "label": "v. 9–11",
-   "start": 9,
-   "end": 11,
-   "title": "Wine, and a night march",
-   "text": "The king hearkens, sends the tribute and more besides, and the guards drink freely. The people leave in the dark with their animals, go the long way around, and bend toward Zarahemla with Ammon's party leading."
+   "label": "v. 7",
+   "start": 7,
+   "end": 7,
+   "title": "The tribute becomes the weapon",
+   "text": "The escape turns on the tax the conquerors imposed: \"I will go according to thy command and pay the last tribute of wine to the Lamanites, and they will be drunken.\" The tribute was set at Mosiah 19:28 as the price of survival, and here the final payment is used to disable the guards collecting it. The volume runs the same trick again at Alma 55:8–14, where a Nephite officer supplies wine to Lamanite guards and takes a city without a fight.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 19:28",
+     "start": 189,
+     "end": 201,
+     "book": "Mosiah",
+     "chapter": 19,
+     "verse_start": 28,
+     "verse_end": 28
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 55:8–14",
+     "start": 340,
+     "end": 352,
+     "book": "Alma",
+     "chapter": 55,
+     "verse_start": 8,
+     "verse_end": 14
+    }
+   ]
   },
   {
-   "label": "v. 12–14",
-   "start": 12,
+   "label": "v. 11–12",
+   "start": 11,
+   "end": 12,
+   "title": "What a fleeing nation carries",
+   "text": "The record lists the load twice, once for the livestock and once for everything else: they departed \"with their flocks and their herds, and they went round about the land of Shilom in the wilderness,\" and \"they had taken all their gold, and silver, and their precious things, which they could carry, and also their provisions with them.\" The clause which they could carry is the limit, and it is the only measure of the flight's scale that the chapter gives."
+  },
+  {
+   "label": "v. 14",
+   "start": 14,
    "end": 14,
-   "title": "What arrived at Zarahemla",
-   "text": "Gold, silver, precious things, provisions, and many days of travel. Then a single verse for the arrival: they joined Mosiah's people and became his subjects, and Mosiah received them, their records, and the plates."
+   "title": "Two sets of records handed over together",
+   "text": "The record reports the reception in Zarahemla briefly and counts the objects: \"Mosiah received them with joy; and he also received their records, and also the records which had been found by the people of Limhi.\" The second set is the twenty-four plates the search party brought back at Mosiah 8:9 and Mosiah 21:27, and it becomes the book of Ether. A migration of a whole people is summarised in a verse whose second half is about documents.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 8:9",
+     "start": 287,
+     "end": 297,
+     "book": "Mosiah",
+     "chapter": 8,
+     "verse_start": 9,
+     "verse_end": 9
+    },
+    {
+     "kind": "scripture",
+     "text": "Mosiah 21:27",
+     "start": 302,
+     "end": 314,
+     "book": "Mosiah",
+     "chapter": 21,
+     "verse_start": 27,
+     "verse_end": 27
+    }
+   ]
   },
   {
    "label": "v. 15–16",
    "start": 15,
    "end": 16,
-   "title": "Two days, and no trail",
-   "text": "The Lamanites discover the departure, send an army, follow for two days, and lose the tracks. The chapter ends with them lost in the wilderness, which the next chapter treats as a beginning."
+   "title": "The pursuers are the ones who get lost",
+   "text": "The chapter closes on a reversal it does not comment on: \"after they had pursued them two days, they could no longer follow their tracks; therefore they were lost in the wilderness.\" The Lamanite army sent after the refugees ends the chapter without a location, and the record gives it two days and then drops it. The people who fled arrive; the ones chasing them do not."
   }
  ],
  "chapter": [
@@ -185,7 +263,29 @@
   {
    "n": 4,
    "title": "The escape works and it costs somebody else",
-   "text": "The pursuing army loses the trail and wanders. In the next chapter that same army finds Noah's priests, and together they find Alma's people and put them under a taskmaster. The record makes the connection itself, naming the army as the one that had followed Limhi."
+   "text": "Verse 16 states the failure and its duration, \"after they had pursued them two days, they could no longer follow their tracks; therefore they were lost in the wilderness.\" Mosiah 23:30 then identifies that same army by this event, \"the armies of the Lamanites, which had followed after the people of king Limhi, had been lost in the wilderness for many days,\" and reports that they found the priests of Noah. Mosiah 23:37–39 completes the chain, with Alma's people placed under guards and Amulon set over them. The record makes the link itself rather than leaving it to be inferred.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 23:30",
+     "start": 172,
+     "end": 184,
+     "book": "Mosiah",
+     "chapter": 23,
+     "verse_start": 30,
+     "verse_end": 30
+    },
+    {
+     "kind": "scripture",
+     "text": "Mosiah 23:37–39",
+     "start": 409,
+     "end": 424,
+     "book": "Mosiah",
+     "chapter": 23,
+     "verse_start": 37,
+     "verse_end": 39
+    }
+   ]
   },
   {
    "n": 5,
@@ -622,7 +722,33 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al27-010"
+  },
+  {
+   "id": "mos22-018",
+   "scope": "BOM",
+   "head": "Alma 55:13",
+   "anchor": {
+    "verse": 7,
+    "w1": 10,
+    "w2": 18,
+    "quote": "pay the last tribute of wine to the Lamanites,"
+   },
+   "reason": "the same trick worked on Lamanite guards",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 55,
+     "verse": 13,
+     "w1": 7,
+     "w2": 13,
+     "quote": "they did take of the wine freely;",
+     "verse_text": "And it came to pass that they did take of the wine freely; and it was pleasant to their taste, therefore they took of it more freely; and it was strong, having been prepared in its strength.",
+     "markdown": "And it came to pass that **they did take of the wine freely**; and it was pleasant to their taste, therefore they took of it more freely; and it was strong, having been prepared in its strength.",
+     "span": true
+    }
+   ],
+   "mirror": "al55-005"
   },
   {
    "id": "mos22-015",
@@ -783,6 +909,15 @@
    ]
   },
   {
+   "verse": 7,
+   "w1": 10,
+   "w2": 18,
+   "quote": "pay the last tribute of wine to the Lamanites,",
+   "entries": [
+    "mos22-018"
+   ]
+  },
+  {
    "verse": 13,
    "w1": 17,
    "w2": 23,
@@ -821,7 +956,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "f88981f2493a65db"
+  "at": "2026-09-07",
+  "source_sha256": "c362a56c55e22cea"
  }
 }

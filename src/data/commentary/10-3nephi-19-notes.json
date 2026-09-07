@@ -1,0 +1,687 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "3 Nephi",
+  "book_slug": "3nephi",
+  "chapter": 19,
+  "volume_order": "10",
+  "speakers": [
+   "Mormon",
+   "Jesus Christ"
+  ],
+  "audience": "The reader; the multitude and the twelve within the account",
+  "location": "The land Bountiful, at the temple and the water's edge",
+  "date": "AD 34",
+  "unit": "The second day (3 Nephi 19)",
+  "principles": [
+   "A crowd assembled by word of mouth overnight",
+   "Disciples baptized after they had already baptized others",
+   "A record of prayer that stops short of the words"
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The news travels the same evening",
+   "text": "Verse 2 says it was noised abroad before dark that he would come again on the morrow. 3 Nephi 18:39 has the multitude disperse as he ascends, so the whole of that gathering became messengers within a few hours."
+  },
+  {
+   "n": 2,
+   "title": "People worked through the night to get there",
+   "text": "Verse 3 says a great number labored all night to be in the place by morning. 3 Nephi 17:25 numbers the previous day's crowd at about two thousand and five hundred; verse 3 says this one is exceedingly great, so the second day drew more people than the first."
+  },
+  {
+   "n": 3,
+   "title": "The twelve are named here and nowhere else",
+   "text": "Verse 4 lists them, including Timothy, whom Nephi had raised from the dead."
+  },
+  {
+   "n": 4,
+   "title": "The crowd is divided for teaching",
+   "text": "Verse 5 says the multitude was separated into twelve bodies, one to each disciple named in verse 4. Nothing in 3 Nephi 11 through 18 had needed that arrangement, so the growth between the two days changed the format."
+  },
+  {
+   "n": 5,
+   "title": "The disciples repeat his words exactly",
+   "text": "Verse 8 says nothing varied from the words Jesus had spoken. Moroni 4:1 makes the same claim about the sacrament prayers, that they were administered according to the commandments of Christ, and preserving the wording is why Moroni 4 and 5 exist."
+  },
+  {
+   "n": 6,
+   "title": "Nephi baptizes himself first in order",
+   "text": "Verses 11 and 12 have him go into the water, come up, and then baptize the others. 3 Nephi 11:21 had given him the power to baptize on the previous day, and 3 Nephi 7:24 has him already baptizing years before the visit, which makes this a re-baptism under the new authority."
+  },
+  {
+   "n": 7,
+   "title": "The record stops twice at the same place",
+   "text": "Verse 32 says the words cannot be spoken or written, and verse 34 repeats it, matching 3 Nephi 17:15."
+  }
+ ],
+ "words": [
+  {
+   "term": "Noised",
+   "verse_label": "v. 2",
+   "text": "Spread by talk. The record uses the word twice, both in this chapter, and the King James Bible four times. Verses 2 and 3 use it of news moving through a night."
+  },
+  {
+   "term": "Varying",
+   "verse_label": "v. 8",
+   "text": "Differing, departing from. It appears once, here, in the record, and the King James Bible not at all. Verse 8 uses it to say the disciples added nothing."
+  },
+  {
+   "term": "Encircled",
+   "verse_label": "v. 14",
+   "text": "Surrounded on every side. Treated at 3 Nephi 17:24. The record uses the word twenty times and the King James Bible none."
+  },
+  {
+   "term": "Ceasing",
+   "verse_label": "v. 24",
+   "text": "Stopping. The word turns up five times, twice inside this chapter, here, and the King James Bible seven. Verses 24 and 30 both say the disciples did not stop."
+  },
+  {
+   "term": "Countenance",
+   "verse_label": "v. 25",
+   "text": "The face, and the expression on it. The record uses the word six times and the King James Bible fifty-three. Verse 25 says his smiled on them and its light shone on them."
+  },
+  {
+   "term": "Whiteness",
+   "verse_label": "v. 25",
+   "text": "The quality of being white. Its count is six times in this book, while the King James Bible none. Verse 25 says nothing on earth could match it, and 1 Nephi 11:8 had reached for the same comparison."
+  },
+  {
+   "term": "Purified",
+   "verse_label": "v. 28",
+   "text": "Made clean, freed from what does not belong. The record uses the word seven times and the King James Bible twelve. Verses 28 and 29 make faith the ground of it."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "It was noised abroad among the people immediately, before it was yet dark",
+   "verse_label": "v. 2",
+   "text": "The speed of the report. The chapter opens with ordinary people carrying news on foot."
+  },
+  {
+   "term": "Did labor exceedingly all that night",
+   "verse_label": "v. 3",
+   "text": "Work done in the dark to be in a place by morning. Verse 3 gives no detail about the labor beyond its purpose."
+  },
+  {
+   "term": "Now these were the names of the disciples whom Jesus had chosen",
+   "verse_label": "v. 4",
+   "text": "The full roster, given once. Two of the twelve are named Jonas, and one is named Isaiah."
+  },
+  {
+   "term": "Nothing varying from the words which Jesus had spoken",
+   "verse_label": "v. 8",
+   "text": "Fidelity stated as an absence. The disciples' teaching is described by what it did not contain."
+  },
+  {
+   "term": "They did pray for that which they most desired",
+   "verse_label": "v. 9",
+   "text": "The prayer summarized before it is quoted. Verse 9 names the desire as the Holy Ghost."
+  },
+  {
+   "term": "Nephi went down into the water and was baptized",
+   "verse_label": "v. 11",
+   "text": "The man with authority receiving the ordinance himself. Verse 12 has him come up and baptize the rest."
+  },
+  {
+   "term": "They were filled with the Holy Ghost and with fire",
+   "verse_label": "v. 13",
+   "text": "The promise of 3 Nephi 12:1 carried out. Verse 14 adds the fire coming down and the angels."
+  },
+  {
+   "term": "They did pray unto Jesus, calling him their Lord and their God",
+   "verse_label": "v. 18",
+   "text": "What the disciples did when commanded to pray. Verse 22 has him report it to the Father and give the reason: he was with them."
+  },
+  {
+   "term": "That we may be one",
+   "verse_label": "v. 23",
+   "text": "The petition from John 17 spoken again on this land. Verse 29 repeats it with glory added."
+  },
+  {
+   "term": "There could be nothing upon earth so white as the whiteness thereof",
+   "verse_label": "v. 25",
+   "text": "Mormon running out of comparison. The sentence turns on itself to say the same thing twice."
+  },
+  {
+   "term": "So great faith have I never seen among all the Jews",
+   "verse_label": "v. 35",
+   "text": "A direct comparison between two ministries. Verse 36 states it again in terms of what they had seen and heard."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 4–5",
+   "start": 4,
+   "end": 5,
+   "title": "A crowd handled by arithmetic",
+   "text": "The record reports the arrangement in administrative terms: \"the multitude was so great that they did cause that they should be separated into twelve bodies.\" Twelve disciples had been named the day before, and the crowd is divided to match. No number is given for the multitude itself. What the record supplies instead is a ratio, one teacher to each body, and it then follows all twelve doing the same three things in the same order, teaching, kneeling, and praying."
+  },
+  {
+   "label": "v. 8",
+   "start": 8,
+   "end": 8,
+   "title": "A guarantee about textual fidelity, set off by dashes",
+   "text": "The record interrupts its own sentence to make a claim about accuracy: \"when they had ministered those same words which Jesus had spoken, nothing varying from the words which Jesus had spoken, behold, they knelt again and prayed.\" The interruption repeats the phrase the words which Jesus had spoken rather than using a pronoun, which is what a warranty does and what ordinary narration does not. The claim is about transmission, and it is made in the one place where a reader might wonder whether the disciples improvised."
+  },
+  {
+   "label": "v. 9",
+   "start": 9,
+   "end": 9,
+   "title": "What they wanted, stated before what they asked",
+   "text": "The record separates desire from petition and gives both: \"they did pray for that which they most desired; and they desired that the Holy Ghost should be given unto them.\" The first clause reports the method, praying for what is most wanted, and the second supplies the content. Nothing else in the chapter names the subject of a prayer this directly, and the answer arrives at verse 13 in the same terms, \"the Holy Ghost did fall upon them.\""
+  },
+  {
+   "label": "v. 24",
+   "start": 24,
+   "end": 24,
+   "title": "Prayer described as supplied, not composed",
+   "text": "The record reports the disciples praying continuously and then says something specific about the words: \"they did not multiply many words, for it was given unto them what they should pray, and they were filled with desire.\" Two claims are made, one negative and one causal. The brevity is not restraint but the result of not having to choose the words. Verse 26 adds an exchange that sits oddly with itself: \"Jesus said unto them: Pray on; nevertheless they did not cease to pray.\""
+  },
+  {
+   "label": "v. 32–34",
+   "start": 32,
+   "end": 34,
+   "title": "A prayer heard, understood, and unrecordable",
+   "text": "The record makes three separate statements about the same words. They cannot be transmitted: \"tongue cannot speak the words which he prayed, neither can be written by man the words which he prayed.\" They were nevertheless received: \"the multitude did hear and do bear record; and their hearts were open and they did understand in their hearts the words which he prayed.\" And then the first claim again, \"so great and marvelous were the words which he prayed that they cannot be written, neither can they be uttered by man.\" Content is reported as delivered to an audience and lost to the page."
+  },
+  {
+   "label": "v. 35–36",
+   "start": 35,
+   "end": 36,
+   "title": "A comparison across two hemispheres",
+   "text": "The chapter ends on a ranking that only this speaker could make: \"So great faith have I never seen among all the Jews; wherefore I could not show unto them so great miracles, because of their unbelief.\" Verse 36 states it twice more, in seeing and in hearing, \"there are none of them that have seen so great things as ye have seen; neither have they heard so great things as ye have heard.\" The comparison is between two populations on opposite sides of the world, and the reason offered for the difference in miracles is a difference in belief."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The gathering is done by ordinary people",
+   "text": "Verses 2 and 3 have the crowd assembled by talk and by walking through a night. Nothing miraculous brings them."
+  },
+  {
+   "n": 2,
+   "title": "The twelve get their names on the page",
+   "text": "Verse 4 is the only roster in the record. The list is the chapter's way of making them individuals."
+  },
+  {
+   "n": 3,
+   "title": "Repetition is treated as faithfulness",
+   "text": "Verse 8 praises the disciples for adding nothing. The standard is exactness rather than originality."
+  },
+  {
+   "n": 4,
+   "title": "Those who baptize are baptized",
+   "text": "Verses 11 and 12 put Nephi in the water before anyone else. The authority given in 3 Nephi 11 does not exempt him from the ordinance."
+  },
+  {
+   "n": 5,
+   "title": "The prayer is described three times and quoted twice",
+   "text": "Verses 20 through 23 and 28 through 29 give words; verses 32 through 34 refuse to. The chapter shows its own limit at the end."
+  },
+  {
+   "n": 6,
+   "title": "The disciples are told to keep going",
+   "text": "Verse 26 has him say \"pray on\" to people already praying without ceasing. The blessing does not end the praying."
+  },
+  {
+   "n": 7,
+   "title": "Whiteness is reported by a man watching",
+   "text": "Verses 25 and 30 describe what the multitude could see. Mormon gives the change as an observation."
+  },
+  {
+   "n": 8,
+   "title": "The chapter closes on a comparison",
+   "text": "Verse 35 measures this faith against what he met among the Jews. The statement is put in his own mouth."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Carry the news yourself",
+    "verse_label": "v. 2",
+    "text": "The crowd of the second day exists because people told other people that evening. Word of mouth did what no announcement could."
+   },
+   {
+    "title": "Do the work to be in the room",
+    "verse_label": "v. 3",
+    "text": "An exceedingly great number labored all that night so that they would be in the place by morning. Access to something worth having usually costs somebody a night, and the people beside you have generally paid it too."
+   },
+   {
+    "title": "Change the format when the group outgrows it",
+    "verse_label": "v. 5",
+    "text": "The multitude was so great that they were separated into twelve bodies, one for each disciple. Reorganizing so that everyone can actually be reached is part of the ministry, and it happens before any teaching does."
+   },
+   {
+    "title": "Say it the way it was given to you",
+    "verse_label": "v. 8",
+    "text": "The disciples taught the words with nothing varying. When you are handing on someone else's message, accuracy is the service."
+   },
+   {
+    "title": "Pray for the thing you most want",
+    "verse_label": "v. 9",
+    "text": "The record says they prayed for that which they most desired, and then names it. Being specific about the one thing you actually want is harder than being thorough, and this verse treats it as the whole point."
+   },
+   {
+    "title": "Receive what you administer",
+    "verse_label": "v. 11",
+    "text": "Nephi went into the water before he put anyone else there. Standing under the same requirement you apply is part of holding authority."
+   },
+   {
+    "title": "Do not multiply many words",
+    "verse_label": "v. 24",
+    "text": "They prayed without ceasing and did not multiply many words, because it was given them what to pray and they were filled with desire. Length and earnestness are unrelated, and it is worth knowing which of the two you have been supplying."
+   },
+   {
+    "title": "Keep praying after the blessing comes",
+    "verse_label": "v. 26",
+    "text": "He told people already praying to pray on. Answered prayer is a poor reason to stop."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What have I stayed up for that was worth it?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "Where have I added my own material to something entrusted to me?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What do I most desire, and have I asked for it plainly?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "What do I expect of others that I have not done myself?"
+   },
+   {
+    "verse_label": "v. 24",
+    "start": 24,
+    "end": 24,
+    "text": "What would praying without multiplying words look like for me?"
+   },
+   {
+    "verse_label": "v. 26",
+    "start": 26,
+    "end": 26,
+    "text": "What did I stop asking for once I got part of it?"
+   },
+   {
+    "verse_label": "v. 33",
+    "start": 33,
+    "end": 33,
+    "text": "What have I understood in my heart that I could not say?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "3ne19-001",
+   "scope": "BOOK",
+   "head": "3 Ne. 7:19",
+   "anchor": {
+    "verse": 4,
+    "w1": 17,
+    "w2": 31,
+    "quote": "Nephi and his brother whom he had raised from the dead, whose name was Timothy"
+   },
+   "reason": "the raising reported earlier, the man now named and numbered",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 7,
+     "verse": 19,
+     "w1": 15,
+     "w2": 35,
+     "quote": "and even his brother did he raise from the dead, after he had been stoned and suffered death by the people.",
+     "verse_text": "And in the name of Jesus did he cast out devils and unclean spirits; and even his brother did he raise from the dead, after he had been stoned and suffered death by the people.",
+     "markdown": "And in the name of Jesus did he cast out devils and unclean spirits; **and even his brother did he raise from the dead, after he had been stoned and suffered death by the people**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne07-004"
+  },
+  {
+   "id": "3ne19-002",
+   "scope": "BOOK",
+   "head": "3 Ne. 11:21",
+   "anchor": {
+    "verse": 11,
+    "w1": 7,
+    "w2": 15,
+    "quote": "Nephi went down into the water and was baptized"
+   },
+   "reason": "the power to baptize used first on himself",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 11,
+     "verse": 21,
+     "w1": 7,
+     "w2": 24,
+     "quote": "I give unto you power that ye shall baptize this people when I am again ascended into heaven.",
+     "verse_text": "And the Lord said unto him: I give unto you power that ye shall baptize this people when I am again ascended into heaven.",
+     "markdown": "And the Lord said unto him: **I give unto you power that ye shall baptize this people when I am again ascended into heaven**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne11-004"
+  },
+  {
+   "id": "3ne19-003",
+   "scope": "BOOK",
+   "head": "3 Ne. 17:24",
+   "anchor": {
+    "verse": 14,
+    "w1": 3,
+    "w2": 12,
+    "quote": "they were encircled about as if it were by fire"
+   },
+   "reason": "the fire and the angels of the day before",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 17,
+     "verse": 24,
+     "w1": 35,
+     "w2": 44,
+     "quote": "and they came down and encircled those little ones about,",
+     "verse_text": "And as they looked to behold they cast their eyes towards heaven, and they saw the heavens open, and they saw angels descending out of heaven as it were in the midst of fire; and they came down and encircled those little ones about, and they were encircled about with fire; and the angels did minister unto them.",
+     "markdown": "And as they looked to behold they cast their eyes towards heaven, and they saw the heavens open, and they saw angels descending out of heaven as it were in the midst of fire; **and they came down and encircled those little ones about**, and they were encircled about with fire; and the angels did minister unto them.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne17-003"
+  },
+  {
+   "id": "3ne19-004",
+   "scope": "BOOK",
+   "head": "3 Ne. 13:7",
+   "anchor": {
+    "verse": 24,
+    "w1": 33,
+    "w2": 48,
+    "quote": "they did not multiply many words, for it was given unto them what they should pray"
+   },
+   "reason": "the instruction from the sermon shown in practice",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 13,
+     "verse": 7,
+     "w1": 5,
+     "w2": 23,
+     "quote": "use not vain repetitions, as the heathen, for they think that they shall be heard for their much speaking.",
+     "verse_text": "But when ye pray, use not vain repetitions, as the heathen, for they think that they shall be heard for their much speaking.",
+     "markdown": "But when ye pray, **use not vain repetitions, as the heathen, for they think that they shall be heard for their much speaking**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne13-002"
+  },
+  {
+   "id": "3ne19-005",
+   "scope": "BOM",
+   "head": "2 Ne. 31:13",
+   "anchor": {
+    "verse": 13,
+    "w1": 27,
+    "w2": 36,
+    "quote": "they were filled with the Holy Ghost and with fire"
+   },
+   "reason": "the baptism of fire Nephi had described",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 31,
+     "verse": 13,
+     "w1": 77,
+     "w2": 87,
+     "quote": "then cometh the baptism of fire and of the Holy Ghost;",
+     "verse_text": "Wherefore, my beloved brethren, I know that if ye shall follow the Son, with full purpose of heart, acting no hypocrisy and no deception before God, but with real intent, repenting of your sins, witnessing unto the Father that ye are willing to take upon you the name of Christ, by baptism—yea, by following your Lord and your Savior down into the water, according to his word, behold, then shall ye receive the Holy Ghost; yea, then cometh the baptism of fire and of the Holy Ghost; and then can ye speak with the tongue of angels, and shout praises unto the Holy One of Israel.",
+     "markdown": "Wherefore, my beloved brethren, I know that if ye shall follow the Son, with full purpose of heart, acting no hypocrisy and no deception before God, but with real intent, repenting of your sins, witnessing unto the Father that ye are willing to take upon you the name of Christ, by baptism—yea, by following your Lord and your Savior down into the water, according to his word, behold, then shall ye receive the Holy Ghost; yea, **then cometh the baptism of fire and of the Holy Ghost**; and then can ye speak with the tongue of angels, and shout praises unto the Holy One of Israel.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne31-015"
+  },
+  {
+   "id": "3ne19-006",
+   "scope": "BOM",
+   "head": "1 Ne. 11:8",
+   "anchor": {
+    "verse": 25,
+    "w1": 60,
+    "w2": 71,
+    "quote": "there could be nothing upon earth so white as the whiteness thereof"
+   },
+   "reason": "the same reach for a comparison that fails",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 11,
+     "verse": 8,
+     "w1": 45,
+     "w2": 55,
+     "quote": "the whiteness thereof did exceed the whiteness of the driven snow.",
+     "verse_text": "And it came to pass that the Spirit said unto me: Look! And I looked and beheld a tree; and it was like unto the tree which my father had seen; and the beauty thereof was far beyond, yea, exceeding of all beauty; and the whiteness thereof did exceed the whiteness of the driven snow.",
+     "markdown": "And it came to pass that the Spirit said unto me: Look! And I looked and beheld a tree; and it was like unto the tree which my father had seen; and the beauty thereof was far beyond, yea, exceeding of all beauty; and **the whiteness thereof did exceed the whiteness of the driven snow**.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne11-018"
+  },
+  {
+   "id": "3ne19-007",
+   "scope": "BOM",
+   "head": "Moro. 7:48",
+   "anchor": {
+    "verse": 28,
+    "w1": 33,
+    "w2": 44,
+    "quote": "that they may be purified in me, through faith on their words"
+   },
+   "reason": "Moroni's version of the same request",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 7,
+     "verse": 48,
+     "w1": 70,
+     "w2": 79,
+     "quote": "that we may be purified even as he is pure.",
+     "verse_text": "Wherefore, my beloved brethren, pray unto the Father with all the energy of heart, that ye may be filled with this love, which he hath bestowed upon all who are true followers of his Son, Jesus Christ; that ye may become the sons of God; that when he shall appear we shall be like him, for we shall see him as he is; that we may have this hope; that we may be purified even as he is pure. Amen.",
+     "markdown": "Wherefore, my beloved brethren, pray unto the Father with all the energy of heart, that ye may be filled with this love, which he hath bestowed upon all who are true followers of his Son, Jesus Christ; that ye may become the sons of God; that when he shall appear we shall be like him, for we shall see him as he is; that we may have this hope; **that we may be purified even as he is pure**. Amen.",
+     "span": true
+    }
+   ],
+   "mirror": "moro07-007"
+  },
+  {
+   "id": "3ne19-008",
+   "scope": "SW",
+   "head": "John 20:28",
+   "anchor": {
+    "verse": 18,
+    "w1": 8,
+    "w2": 19,
+    "quote": "they did pray unto Jesus, calling him their Lord and their God"
+   },
+   "reason": "the words Thomas used, here in the disciples' prayer",
+   "targets": [
+    {
+     "ref": "John",
+     "chapter": 20,
+     "verse": 28,
+     "w1": 8,
+     "w2": 12,
+     "quote": "My Lord and my God.",
+     "verse_text": "And Thomas answered and said unto him, My Lord and my God.",
+     "markdown": "And Thomas answered and said unto him, **My Lord and my God**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne19-009",
+   "scope": "SW",
+   "head": "John 17:21",
+   "anchor": {
+    "verse": 23,
+    "w1": 27,
+    "w2": 43,
+    "quote": "that I may be in them as thou, Father, art in me, that we may be one"
+   },
+   "reason": "the same petition in the prayer at Jerusalem",
+   "targets": [
+    {
+     "ref": "John",
+     "chapter": 17,
+     "verse": 21,
+     "w1": 7,
+     "w2": 24,
+     "quote": "as thou, Father, art in me, and I in thee, that they also may be one in us:",
+     "verse_text": "That they all may be one; as thou, Father, art in me, and I in thee, that they also may be one in us: that the world may believe that thou hast sent me.",
+     "markdown": "That they all may be one; **as thou, Father, art in me, and I in thee, that they also may be one in us**: that the world may believe that thou hast sent me.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne19-010",
+   "scope": "SW",
+   "head": "John 17:9",
+   "anchor": {
+    "verse": 29,
+    "w1": 1,
+    "w2": 19,
+    "quote": "Father, I pray not for the world, but for those whom thou hast given me out of the world"
+   },
+   "reason": "the same restriction stated in nearly the same words",
+   "targets": [
+    {
+     "ref": "John",
+     "chapter": 17,
+     "verse": 9,
+     "w1": 5,
+     "w2": 18,
+     "quote": "I pray not for the world, but for them which thou hast given me;",
+     "verse_text": "I pray for them: I pray not for the world, but for them which thou hast given me; for they are thine.",
+     "markdown": "I pray for them: **I pray not for the world, but for them which thou hast given me**; for they are thine.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 4,
+   "w1": 17,
+   "w2": 31,
+   "quote": "Nephi and his brother whom he had raised from the dead, whose name was Timothy",
+   "entries": [
+    "3ne19-001"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 7,
+   "w2": 15,
+   "quote": "Nephi went down into the water and was baptized",
+   "entries": [
+    "3ne19-002"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 27,
+   "w2": 36,
+   "quote": "they were filled with the Holy Ghost and with fire",
+   "entries": [
+    "3ne19-005"
+   ]
+  },
+  {
+   "verse": 14,
+   "w1": 3,
+   "w2": 12,
+   "quote": "they were encircled about as if it were by fire",
+   "entries": [
+    "3ne19-003"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 8,
+   "w2": 19,
+   "quote": "they did pray unto Jesus, calling him their Lord and their God",
+   "entries": [
+    "3ne19-008"
+   ]
+  },
+  {
+   "verse": 23,
+   "w1": 27,
+   "w2": 43,
+   "quote": "that I may be in them as thou, Father, art in me, that we may be one",
+   "entries": [
+    "3ne19-009"
+   ]
+  },
+  {
+   "verse": 24,
+   "w1": 33,
+   "w2": 48,
+   "quote": "they did not multiply many words, for it was given unto them what they should pray",
+   "entries": [
+    "3ne19-004"
+   ]
+  },
+  {
+   "verse": 25,
+   "w1": 60,
+   "w2": 71,
+   "quote": "there could be nothing upon earth so white as the whiteness thereof",
+   "entries": [
+    "3ne19-006"
+   ]
+  },
+  {
+   "verse": 28,
+   "w1": 33,
+   "w2": 44,
+   "quote": "that they may be purified in me, through faith on their words",
+   "entries": [
+    "3ne19-007"
+   ]
+  },
+  {
+   "verse": 29,
+   "w1": 1,
+   "w2": 19,
+   "quote": "Father, I pray not for the world, but for those whom thou hast given me out of the world",
+   "entries": [
+    "3ne19-010"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "a209dfd0ab2e1c96"
+ }
+}

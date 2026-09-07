@@ -1,0 +1,761 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Moroni",
+  "book_slug": "moroni",
+  "chapter": 7,
+  "volume_order": "14",
+  "speakers": [
+   "Moroni",
+   "Mormon",
+   "Christ"
+  ],
+  "audience": "The peaceable followers of Christ in the church",
+  "location": "A synagogue they had built for the place of worship",
+  "date": "Mormon's sermon, copied out by Moroni after AD 400",
+  "unit": "Mormon on faith, hope, and charity (Moroni 7)",
+  "principles": [
+   "A test anyone can apply",
+   "Intent counted as the act",
+   "Three named things taken in order"
+  ],
+  "connections": 12,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "Moroni is copying his father",
+   "text": "Verse 1 says he writes a few of the words of Mormon."
+  },
+  {
+   "n": 2,
+   "title": "The setting is a building",
+   "text": "Verse 1 names a synagogue they had built for worship."
+  },
+  {
+   "n": 3,
+   "title": "The audience is inside the church",
+   "text": "Verse 3 addresses those who have already obtained a sufficient hope by which they can enter into the rest of the Lord. Verse 1 says the sermon was given in a synagogue which they had built for a place of worship, so this is Mormon preaching inside a functioning congregation rather than to a nation in collapse."
+  },
+  {
+   "n": 4,
+   "title": "He judges them by how they walk",
+   "text": "Verse 4 gives their peaceable walk with the children of men as his reason for judging them. Moroni 9:18 and 20 has him describe the same people's countrymen as without order, without mercy, and past feeling, so both descriptions belong to the same lifetime."
+  },
+  {
+   "n": 5,
+   "title": "The parts are announced in advance",
+   "text": "Verse 1 lists the three subjects, and the sermon works through them in that order."
+  },
+  {
+   "n": 6,
+   "title": "The miracle question is put three times",
+   "text": "Verses 27, 29, and 35 each ask again whether miracles have ceased. Mormon 9:15 to 20 puts the same question five more times in his own voice, and 2 Nephi 28:6 predicts the doctrine that they have. Father and son argue the point across two books."
+  },
+  {
+   "n": 7,
+   "title": "The ending is a request",
+   "text": "Verse 48 asks them to pray with all the energy of heart to be filled with the love just described. 1 Corinthians 13:4 to 8 is the passage verses 45 and 46 track almost clause for clause, and Moroni 7:48 goes past it by turning the description into an instruction."
+  }
+ ],
+ "words": [
+  {
+   "term": "Synagogue",
+   "verse_label": "v. 1",
+   "text": "A building for assembly and worship. Treated at Alma 16:13. It appears four times in the record and forty-five in the King James Bible. Verse 1 says the people had built this one themselves.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 16:13",
+     "start": 48,
+     "end": 58,
+     "book": "Alma",
+     "chapter": 16,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
+  },
+  {
+   "term": "Grudgingly",
+   "verse_label": "v. 8",
+   "text": "Unwillingly, while resenting the cost. It appears once in the record, here, and once in the King James Bible, at 2 Corinthians 9:7."
+  },
+  {
+   "term": "Enticeth",
+   "verse_label": "v. 12",
+   "text": "Draws a person on by appeal. The record uses the word three times, twice in this chapter, and the King James Bible once. Verses 12 and 13 use it of both sides."
+  },
+  {
+   "term": "Beseech",
+   "verse_label": "v. 19",
+   "text": "To ask urgently. Treated at Jacob 6:5. The record uses the word four times and the King James Bible sixty-seven.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Jacob 6:5",
+     "start": 28,
+     "end": 37,
+     "book": "Jacob",
+     "chapter": 6,
+     "verse_start": 5,
+     "verse_end": 5
+    }
+   ]
+  },
+  {
+   "term": "Advocateth",
+   "verse_label": "v. 28",
+   "text": "Pleads a case on another's behalf. It shows up once in the record, here, and nowhere in the King James Bible."
+  },
+  {
+   "term": "Godliness",
+   "verse_label": "v. 30",
+   "text": "Likeness to God in conduct. The word appears once in the record, here, and fifteen times in the King James Bible. Verse 30 says angels show themselves to those who have it."
+  },
+  {
+   "term": "Faileth",
+   "verse_label": "v. 46",
+   "text": "Comes to an end, or gives out. One use in the record, here, against nineteen in the King James Bible, including 1 Corinthians 13:8."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "In the synagogue which they had built for the place of worship",
+   "verse_label": "v. 1",
+   "text": "Where the sermon was given. Moroni supplies the room before the words."
+  },
+  {
+   "term": "By their works ye shall know them",
+   "verse_label": "v. 5",
+   "text": "The rule Mormon starts from. 3 Nephi 14:16 has the Lord give it as fruits."
+  },
+  {
+   "term": "Except he shall do it with real intent it profiteth him nothing",
+   "verse_label": "v. 6",
+   "text": "The condition on a gift or a prayer. Verse 8 works out what that means."
+  },
+  {
+   "term": "A bitter fountain cannot bring forth good water",
+   "verse_label": "v. 11",
+   "text": "The figure for the rule. The verse runs it both directions before applying it."
+  },
+  {
+   "term": "Inviteth and enticeth to do good continually",
+   "verse_label": "v. 13",
+   "text": "The mark of what comes from God. Verse 12 gives the opposite in the same words."
+  },
+  {
+   "term": "As plain, that ye may know with a perfect knowledge, as the daylight is from the dark night",
+   "verse_label": "v. 15",
+   "text": "Mormon's claim about how hard the judging is. He puts the difficulty at nearly zero."
+  },
+  {
+   "term": "If ye will lay hold upon every good thing, and condemn it not",
+   "verse_label": "v. 19",
+   "text": "The instruction that follows the tool. Verse 20 then asks how it can be done."
+  },
+  {
+   "term": "It is by faith that miracles are wrought",
+   "verse_label": "v. 37",
+   "text": "The answer to the question asked three times. Verse 37 turns their absence into a diagnosis."
+  },
+  {
+   "term": "Without faith there cannot be any hope",
+   "verse_label": "v. 42",
+   "text": "The order set between the first two. Verse 43 adds meekness underneath both."
+  },
+  {
+   "term": "Charity is the pure love of Christ",
+   "verse_label": "v. 47",
+   "text": "The definition given after the description. Verse 45 had listed what it does."
+  },
+  {
+   "term": "Pray unto the Father with all the energy of heart",
+   "verse_label": "v. 48",
+   "text": "What Mormon asks of them at the end. The love is something to be given rather than worked up."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–2",
+   "start": 1,
+   "end": 2,
+   "title": "Two first persons in two verses, and a building named",
+   "text": "The record hands the page over with an explicit note: \"I, Moroni, write a few of the words of my father Mormon,\" and the very next verse opens \"I, Mormon, speak unto you.\" The switch is marked, not silent. Verse 1 also supplies a setting that nothing in the sermon requires, \"as he taught them in the synagogue which they had built for the place of worship.\" A sermon reaching the reader through a son's transcription is given a room and an audience before it is given a topic."
+  },
+  {
+   "label": "v. 5–10",
+   "start": 5,
+   "end": 10,
+   "title": "One test stated, then run twice with the same result",
+   "text": "The record quotes the rule, \"by their works ye shall know them,\" which stands at Matthew 7:16 and 7:20, and then applies it to two specific acts. A gift given grudgingly \"is counted unto him the same as if he had retained the gift.\" A prayer offered \"not with real intent of heart\" likewise \"profiteth him nothing.\" The phrase \"real intent\" appears twice and \"it profiteth him nothing\" twice. The record thus takes a maxim about recognizing others and turns it into a test of the giver's interior state, which is the opposite direction from the source."
+  },
+  {
+   "label": "v. 27–38",
+   "start": 27,
+   "end": 38,
+   "title": "One question asked four times",
+   "text": "The record returns to the same challenge at verses 27, 29, 35, and 36, rephrasing it each time: \"have miracles ceased,\" \"have miracles ceased,\" \"has the day of miracles ceased,\" and then a run of three, \"have angels ceased to appear,\" \"has he withheld the power of the Holy Ghost,\" \"or will he, so long as time shall last.\" The answer \"Nay\" is given twice. The position being attacked is quoted directly at 2 Nephi 28:6, \"this day he is not a God of miracles,\" and argued against again at Mormon 9:15–20. The record raises the same objection three times across three books and never lets it stand."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The sermon is arranged in three announced parts",
+   "text": "Verse 1 names faith, hope, and charity, and verses 21, 40, and 44 take them in that order."
+  },
+  {
+   "n": 2,
+   "title": "The test is what a thing moves you toward",
+   "text": "Verses 13 and 16 both judge by whether something invites and entices to do good."
+  },
+  {
+   "n": 3,
+   "title": "Intent decides what the act is worth",
+   "text": "Verses 6 through 9 count a grudging gift the same as a gift kept back."
+  },
+  {
+   "n": 4,
+   "title": "The judging is described as easy",
+   "text": "Verse 15 sets the difficulty at telling daylight from dark night."
+  },
+  {
+   "n": 5,
+   "title": "The tool comes with a warning",
+   "text": "Verse 18 says the same judgment used will be used on the judge."
+  },
+  {
+   "n": 6,
+   "title": "One question is asked three times",
+   "text": "Verses 27, 29, and 35 put the miracle question again each time."
+  },
+  {
+   "n": 7,
+   "title": "Their absence would be a diagnosis",
+   "text": "Verses 37 and 38 make ceased miracles a report on unbelief."
+  },
+  {
+   "n": 8,
+   "title": "The three are stacked on each other",
+   "text": "Verse 42 hangs hope on faith, verse 43 hangs both on meekness, and verse 44 puts charity on top."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Give with real intent",
+    "verse_label": "v. 6–9",
+    "text": "The test is applied to two ordinary acts, a gift and a prayer, and both fail the same way. A gift given grudgingly \"is counted unto him the same as if he had retained the gift.\" Before the next thing you do reluctantly for someone, decide whether you would rather not do it at all."
+   },
+   {
+    "title": "Check what a thing moves you toward",
+    "verse_label": "v. 13",
+    "text": "The test offered is whether it \"inviteth and enticeth to do good, and to love God, and to serve him,\" and verse 17 gives the mirror image for the other direction. Apply it to something you are unsure about by asking what it has actually moved you to do this month."
+   },
+   {
+    "title": "Judge in the direction the test works",
+    "verse_label": "v. 17",
+    "text": "The claim is absolute in one direction only: the devil \"persuadeth no man to do good, no, not one.\" That makes a good outcome usable as evidence and a bad one much less so. Be slower to condemn a source than to credit one."
+   },
+   {
+    "title": "Use the measure you want used on you",
+    "verse_label": "v. 18",
+    "text": "The verse attaches your judgment to your own case, \"with that same judgment which ye judge ye shall also be judged.\" Decide the standard while you are still thinking about somebody else, and then apply it to yourself first."
+   },
+   {
+    "title": "Lay hold on every good thing and condemn it not",
+    "verse_label": "v. 19",
+    "text": "The instruction has two halves and the second is the harder one. Take something good you have been withholding approval from because of where it came from, and stop."
+   },
+   {
+    "title": "Ask whether the objection has already been answered",
+    "verse_label": "v. 35–38",
+    "text": "The chapter puts the same question four times, \"have miracles ceased,\" and answers it with a reason rather than an assertion: \"it is by faith that miracles are wrought.\" When you have been asked something repeatedly, that is a sign your answer has not yet included its ground."
+   },
+   {
+    "title": "Do not assume you have the whole list",
+    "verse_label": "v. 45",
+    "text": "The description of charity here runs to thirteen items where 1 Corinthians 13 gives fifteen, and the two missing ones are about self-display. Read a list you know well against its source occasionally; what has dropped out is worth noticing."
+   },
+   {
+    "title": "Ask to be filled",
+    "verse_label": "v. 48",
+    "text": "Mormon ends by telling them to \"pray unto the Father with all the energy of heart, that ye may be filled with this love.\" After forty-seven verses of analysis the instruction is to ask for the thing rather than to produce it."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 5",
+    "start": 5,
+    "end": 5,
+    "text": "What do my works say about me this month?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "What have I given grudgingly?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "Which fountain am I drawing from?"
+   },
+   {
+    "verse_label": "v. 15",
+    "start": 15,
+    "end": 15,
+    "text": "Where do I claim a thing is hard to judge when it is not?"
+   },
+   {
+    "verse_label": "v. 18",
+    "start": 18,
+    "end": 18,
+    "text": "What judgment have I made that I would hate to have applied to me?"
+   },
+   {
+    "verse_label": "v. 44",
+    "start": 44,
+    "end": 44,
+    "text": "Am I meek enough for charity to be possible?"
+   },
+   {
+    "verse_label": "v. 48",
+    "start": 48,
+    "end": 48,
+    "text": "What would praying with all the energy of heart look like?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "moro07-001",
+   "scope": "BOOK",
+   "head": "Moro. 10:21",
+   "anchor": {
+    "verse": 1,
+    "w1": 18,
+    "w2": 22,
+    "quote": "concerning faith, hope, and charity"
+   },
+   "reason": "the same three named at the very end",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 10,
+     "verse": 21,
+     "w1": 2,
+     "w2": 16,
+     "quote": "except ye have charity ye can in nowise be saved in the kingdom of God;",
+     "verse_text": "And except ye have charity ye can in nowise be saved in the kingdom of God; neither can ye be saved in the kingdom of God if ye have not faith; neither can ye if ye have no hope.",
+     "markdown": "And **except ye have charity ye can in nowise be saved in the kingdom of God**; neither can ye be saved in the kingdom of God if ye have not faith; neither can ye if ye have no hope.",
+     "span": true
+    }
+   ],
+   "mirror": "moro10-002"
+  },
+  {
+   "id": "moro07-002",
+   "scope": "BOOK",
+   "head": "Moro. 6:8",
+   "anchor": {
+    "verse": 6,
+    "w1": 26,
+    "w2": 37,
+    "quote": "except he shall do it with real intent it profiteth him nothing"
+   },
+   "reason": "the same phrase governing forgiveness",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 6,
+     "verse": 8,
+     "w1": 2,
+     "w2": 12,
+     "quote": "as oft as they repented and sought forgiveness, with real intent,",
+     "verse_text": "But as oft as they repented and sought forgiveness, with real intent, they were forgiven.",
+     "markdown": "But **as oft as they repented and sought forgiveness, with real intent**, they were forgiven.",
+     "span": true
+    }
+   ],
+   "mirror": "moro06-011"
+  },
+  {
+   "id": "moro07-011",
+   "scope": "BOOK",
+   "head": "Moro. 8:17",
+   "anchor": {
+    "verse": 44,
+    "w1": 46,
+    "w2": 59,
+    "quote": "he must needs have charity; for if he have not charity he is nothing;"
+   },
+   "reason": "Mormon saying it of himself in the letter",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 8,
+     "verse": 17,
+     "w1": 1,
+     "w2": 10,
+     "quote": "And I am filled with charity, which is everlasting love;",
+     "verse_text": "And I am filled with charity, which is everlasting love; wherefore, all children are alike unto me; wherefore, I love little children with a perfect love; and they are all alike and partakers of salvation.",
+     "markdown": "**And I am filled with charity, which is everlasting love**; wherefore, all children are alike unto me; wherefore, I love little children with a perfect love; and they are all alike and partakers of salvation.",
+     "span": true
+    }
+   ],
+   "mirror": "moro08-001"
+  },
+  {
+   "id": "moro07-012",
+   "scope": "BOOK",
+   "head": "Moro. 10:20",
+   "anchor": {
+    "verse": 47,
+    "w1": 2,
+    "w2": 8,
+    "quote": "charity is the pure love of Christ,"
+   },
+   "reason": "Moroni running the same chain at the close",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 10,
+     "verse": 20,
+     "w1": 18,
+     "w2": 27,
+     "quote": "if there must be hope there must also be charity.",
+     "verse_text": "Wherefore, there must be faith; and if there must be faith there must also be hope; and if there must be hope there must also be charity.",
+     "markdown": "Wherefore, there must be faith; and if there must be faith there must also be hope; and **if there must be hope there must also be charity**.",
+     "span": true
+    }
+   ],
+   "mirror": "moro10-003"
+  },
+  {
+   "id": "moro07-003",
+   "scope": "BOM",
+   "head": "3 Ne. 14:16",
+   "anchor": {
+    "verse": 5,
+    "w1": 10,
+    "w2": 16,
+    "quote": "by their works ye shall know them"
+   },
+   "reason": "the Lord giving the rule as fruits",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 14,
+     "verse": 16,
+     "w1": 1,
+     "w2": 7,
+     "quote": "Ye shall know them by their fruits.",
+     "verse_text": "Ye shall know them by their fruits. Do men gather grapes of thorns, or figs of thistles?",
+     "markdown": "**Ye shall know them by their fruits**. Do men gather grapes of thorns, or figs of thistles?",
+     "span": true
+    }
+   ],
+   "mirror": "3ne14-004"
+  },
+  {
+   "id": "moro07-004",
+   "scope": "BOM",
+   "head": "Ether 4:12",
+   "anchor": {
+    "verse": 16,
+    "w1": 29,
+    "w2": 52,
+    "quote": "every thing which inviteth to do good, and to persuade to believe in Christ, is sent forth by the power and gift of Christ"
+   },
+   "reason": "the Lord stating the same test to the Gentiles",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 4,
+     "verse": 12,
+     "w1": 2,
+     "w2": 11,
+     "quote": "whatsoever thing persuadeth men to do good is of me;",
+     "verse_text": "And whatsoever thing persuadeth men to do good is of me; for good cometh of none save it be of me. I am the same that leadeth men to all good; he that will not believe my words will not believe me—that I am; and he that will not believe me will not believe the Father who sent me. For behold, I am the Father, I am the light, and the life, and the truth of the world.",
+     "markdown": "And **whatsoever thing persuadeth men to do good is of me**; for good cometh of none save it be of me. I am the same that leadeth men to all good; he that will not believe my words will not believe me—that I am; and he that will not believe me will not believe the Father who sent me. For behold, I am the Father, I am the light, and the life, and the truth of the world.",
+     "span": true
+    }
+   ],
+   "mirror": "eth04-005"
+  },
+  {
+   "id": "moro07-005",
+   "scope": "BOM",
+   "head": "2 Ne. 26:30",
+   "anchor": {
+    "verse": 46,
+    "w1": 5,
+    "w2": 12,
+    "quote": "if ye have not charity, ye are nothing"
+   },
+   "reason": "the commandment Nephi gives it as",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 26,
+     "verse": 30,
+     "w1": 17,
+     "w2": 25,
+     "quote": "all men should have charity, which charity is love.",
+     "verse_text": "Behold, the Lord hath forbidden this thing; wherefore, the Lord God hath given a commandment that all men should have charity, which charity is love. And except they should have charity they were nothing. Wherefore, if they should have charity they would not suffer the laborer in Zion to perish.",
+     "markdown": "Behold, the Lord hath forbidden this thing; wherefore, the Lord God hath given a commandment that **all men should have charity, which charity is love**. And except they should have charity they were nothing. Wherefore, if they should have charity they would not suffer the laborer in Zion to perish.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne26-003"
+  },
+  {
+   "id": "moro07-006",
+   "scope": "BOM",
+   "head": "3 Ne. 12:8",
+   "anchor": {
+    "verse": 48,
+    "w1": 46,
+    "w2": 63,
+    "quote": "that when he shall appear we shall be like him, for we shall see him as he is"
+   },
+   "reason": "the beatitude promising the same sight",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 12,
+     "verse": 8,
+     "w1": 2,
+     "w2": 13,
+     "quote": "blessed are all the pure in heart, for they shall see God.",
+     "verse_text": "And blessed are all the pure in heart, for they shall see God.",
+     "markdown": "And **blessed are all the pure in heart, for they shall see God**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne12-006"
+  },
+  {
+   "id": "moro07-007",
+   "scope": "BOM",
+   "head": "3 Ne. 19:28",
+   "anchor": {
+    "verse": 48,
+    "w1": 70,
+    "w2": 79,
+    "quote": "that we may be purified even as he is pure"
+   },
+   "reason": "the Lord praying for the same purifying",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 19,
+     "verse": 28,
+     "w1": 33,
+     "w2": 44,
+     "quote": "that they may be purified in me, through faith on their words,",
+     "verse_text": "Father, I thank thee that thou hast purified those whom I have chosen, because of their faith, and I pray for them, and also for them who shall believe on their words, that they may be purified in me, through faith on their words, even as they are purified in me.",
+     "markdown": "Father, I thank thee that thou hast purified those whom I have chosen, because of their faith, and I pray for them, and also for them who shall believe on their words, **that they may be purified in me, through faith on their words**, even as they are purified in me.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne19-007"
+  },
+  {
+   "id": "moro07-008",
+   "scope": "SW",
+   "head": "1 Cor. 13:4",
+   "anchor": {
+    "verse": 45,
+    "w1": 1,
+    "w2": 15,
+    "quote": "And charity suffereth long, and is kind, and envieth not, and is not puffed up"
+   },
+   "reason": "the same list, in nearly the same words",
+   "targets": [
+    {
+     "ref": "1 Cor.",
+     "chapter": 13,
+     "verse": 4,
+     "w1": 1,
+     "w2": 9,
+     "quote": "Charity suffereth long, and is kind; charity envieth not;",
+     "verse_text": "Charity suffereth long, and is kind; charity envieth not; charity vaunteth not itself, is not puffed up,",
+     "markdown": "**Charity suffereth long, and is kind; charity envieth not**; charity vaunteth not itself, is not puffed up,",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "moro07-009",
+   "scope": "SW",
+   "head": "1 Cor. 13:8",
+   "anchor": {
+    "verse": 46,
+    "w1": 13,
+    "w2": 16,
+    "quote": "for charity never faileth"
+   },
+   "reason": "the same sentence, and what fails beside it",
+   "targets": [
+    {
+     "ref": "1 Cor.",
+     "chapter": 13,
+     "verse": 8,
+     "w1": 1,
+     "w2": 3,
+     "quote": "Charity never faileth:",
+     "verse_text": "Charity never faileth: but whether there be prophecies, they shall fail; whether there be tongues, they shall cease; whether there be knowledge, it shall vanish away.",
+     "markdown": "**Charity never faileth**: but whether there be prophecies, they shall fail; whether there be tongues, they shall cease; whether there be knowledge, it shall vanish away.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "moro07-010",
+   "scope": "SW",
+   "head": "2 Cor. 9:7",
+   "anchor": {
+    "verse": 8,
+    "w1": 3,
+    "w2": 14,
+    "quote": "if a man being evil giveth a gift, he doeth it grudgingly"
+   },
+   "reason": "the one other use of the word, same subject",
+   "targets": [
+    {
+     "ref": "2 Cor.",
+     "chapter": 9,
+     "verse": 7,
+     "w1": 14,
+     "w2": 24,
+     "quote": "not grudgingly, or of necessity: for God loveth a cheerful giver.",
+     "verse_text": "Every man according as he purposeth in his heart, so let him give; not grudgingly, or of necessity: for God loveth a cheerful giver.",
+     "markdown": "Every man according as he purposeth in his heart, so let him give; **not grudgingly, or of necessity: for God loveth a cheerful giver**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 18,
+   "w2": 22,
+   "quote": "concerning faith, hope, and charity",
+   "entries": [
+    "moro07-001"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 10,
+   "w2": 16,
+   "quote": "by their works ye shall know them",
+   "entries": [
+    "moro07-003"
+   ]
+  },
+  {
+   "verse": 6,
+   "w1": 26,
+   "w2": 37,
+   "quote": "except he shall do it with real intent it profiteth him nothing",
+   "entries": [
+    "moro07-002"
+   ]
+  },
+  {
+   "verse": 8,
+   "w1": 3,
+   "w2": 14,
+   "quote": "if a man being evil giveth a gift, he doeth it grudgingly",
+   "entries": [
+    "moro07-010"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 29,
+   "w2": 52,
+   "quote": "every thing which inviteth to do good, and to persuade to believe in Christ, is sent forth by the power and gift of Christ",
+   "entries": [
+    "moro07-004"
+   ]
+  },
+  {
+   "verse": 44,
+   "w1": 46,
+   "w2": 59,
+   "quote": "he must needs have charity; for if he have not charity he is nothing;",
+   "entries": [
+    "moro07-011"
+   ]
+  },
+  {
+   "verse": 45,
+   "w1": 1,
+   "w2": 15,
+   "quote": "And charity suffereth long, and is kind, and envieth not, and is not puffed up",
+   "entries": [
+    "moro07-008"
+   ]
+  },
+  {
+   "verse": 46,
+   "w1": 5,
+   "w2": 12,
+   "quote": "if ye have not charity, ye are nothing",
+   "entries": [
+    "moro07-005"
+   ]
+  },
+  {
+   "verse": 46,
+   "w1": 13,
+   "w2": 16,
+   "quote": "for charity never faileth",
+   "entries": [
+    "moro07-009"
+   ]
+  },
+  {
+   "verse": 47,
+   "w1": 2,
+   "w2": 8,
+   "quote": "charity is the pure love of Christ,",
+   "entries": [
+    "moro07-012"
+   ]
+  },
+  {
+   "verse": 48,
+   "w1": 46,
+   "w2": 63,
+   "quote": "that when he shall appear we shall be like him, for we shall see him as he is",
+   "entries": [
+    "moro07-006"
+   ]
+  },
+  {
+   "verse": 48,
+   "w1": 70,
+   "w2": 79,
+   "quote": "that we may be purified even as he is pure",
+   "entries": [
+    "moro07-007"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "4e7e1925b70fae87"
+ }
+}

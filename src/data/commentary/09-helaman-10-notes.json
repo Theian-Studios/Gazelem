@@ -16,9 +16,9 @@
   "principles": [
    "A blessing given for what was already done",
    "Power bounded by a will",
-   ""
+   "An errand taken up before reaching home"
   ],
-  "connections": 10,
+  "connections": 12,
   "initial": false
  },
  "world_behind": [
@@ -30,32 +30,44 @@
   {
    "n": 2,
    "title": "The revelation comes while walking",
-   "text": "Verses 2 and 3 have him heading home, pondering, and much cast down, when a voice comes."
+   "text": "Verses 2 and 3 have him heading home, pondering, and much cast down, when a voice comes. 1 Nephi 11:1 has Nephi caught away while sitting and pondering, and Alma 8:14 and 15 have an angel meet Alma on the road as he journeys weighed down with sorrow. The record puts three of its revelations in the same posture: alone, moving, and discouraged.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 8:14",
+     "start": 157,
+     "end": 166,
+     "book": "Alma",
+     "chapter": 8,
+     "verse_start": 14,
+     "verse_end": 14
+    }
+   ]
   },
   {
    "n": 3,
    "title": "The blessing names a quality",
-   "text": "Verses 4 and 5 use \"unwearyingness\" twice, and the word appears nowhere else in scripture."
+   "text": "Verses 4 and 5 use \"unwearyingness\" twice, and the word occurs nowhere else in scripture. Helaman 15:6 has Samuel praise the converted Lamanites for \"unwearied diligence,\" which is the nearest the record comes to it anywhere else."
   },
   {
    "n": 4,
    "title": "The promise has a stated limit",
-   "text": "Verse 5 says all things will be done according to his word, and gives the reason: he will not ask contrary to God's will."
+   "text": "Verse 5 puts every thing at his word, and gives the reason: he will not ask contrary to God's will. Verse 7 then grants the sealing power in the words of Matthew 16:19, which is the only place in the volume that formula appears."
   },
   {
    "n": 5,
-   "title": "The sealing power is granted in the words of Matthew 16",
+   "title": "The sealing power is granted in the words of Matthew 16:19",
    "text": "Verse 7 uses seal and loose where the gospel uses bind and loose, with the same on-earth and in-heaven structure."
   },
   {
    "n": 6,
    "title": "He turns around before arriving",
-   "text": "Verse 12 has him stopping short of his own house and going back to the scattered people."
+   "text": "Verse 12 has him stopping short of his own house and going back to the scattered people. Verse 2 had him walking home from the crowd that dispersed in verse 1, so the chapter runs a complete round trip in eleven verses and puts the commission at the far end of it."
   },
   {
    "n": 7,
    "title": "He is carried from crowd to crowd",
-   "text": "Verses 16 and 17 have the Spirit removing him from an arrest and moving him among all the people until every one had heard."
+   "text": "Verses 16 and 17 have the Spirit removing him from an arrest and moving him among all the people until every one had heard. Helaman 5:43 to 49 had delivered him and his brother from a Lamanite prison by fire and a cloud of darkness; 3 Nephi 28:19 to 22 reports the same kind of deliverance for the three disciples three centuries later."
   }
  ],
  "words": [
@@ -72,23 +84,13 @@
   {
    "term": "Twain",
    "verse_label": "v. 8",
-   "text": "Treated at Alma 14:27, of the prison walls. The record uses the word ten times and the King James Bible seventeen, including the temple veil at Mark 15:38, which is the object named here.",
+   "text": "Treated at 2 Nephi 16:2, of the seraphim wings. The record uses the word ten times and the King James Bible seventeen, including the temple veil at Mark 15:38, which is the object named here.",
    "refs": [
     {
      "kind": "scripture",
-     "text": "Alma 14:27",
-     "start": 11,
-     "end": 21,
-     "book": "Alma",
-     "chapter": 14,
-     "verse_start": 27,
-     "verse_end": 27
-    },
-    {
-     "kind": "scripture",
      "text": "Mark 15:38",
-     "start": 144,
-     "end": 154,
+     "start": 148,
+     "end": 158,
      "book": "Mark",
      "chapter": 15,
      "verse_start": 38,
@@ -109,13 +111,13 @@
   {
    "term": "Conveyed",
    "verse_label": "v. 16",
-   "text": "Carried from one place to another. The word occurs once in the record and once in the King James Bible, at John 5:13. It describes how Nephi left a crowd that was reaching for him.",
+   "text": "Carried from one place to another. It appears once in the record, and once in the King James Bible, at John 5:13. It describes how Nephi left a crowd that was reaching for him.",
    "refs": [
     {
      "kind": "scripture",
      "text": "John 5:13",
-     "start": 107,
-     "end": 116,
+     "start": 103,
+     "end": 112,
      "book": "John",
      "chapter": 5,
      "verse_start": 13,
@@ -183,53 +185,70 @@
  ],
  "verses": [
   {
-   "label": "v. 1–3",
-   "start": 1,
+   "label": "v. 2–3",
+   "start": 2,
    "end": 3,
-   "title": "Alone on the road",
-   "text": "The people divide and go their ways, leaving Nephi standing in the middle. He heads toward his own house, pondering what the Lord had shown him and much cast down over the wickedness, the secret works of darkness, the murders, and the plunderings. As he ponders, a voice comes."
+   "title": "A revelation that arrives on a walk home",
+   "text": "The record fixes the setting before it reports the voice, and the setting is ordinary: \"Nephi went his way towards his own house, pondering upon the things which the Lord had shown unto him.\" Verse 3 adds his state of mind and it is not elevated: \"being much cast down because of the wickedness of the people of the Nephites, their secret works of darkness, and their murderings, and their plunderings.\" Only then does the voice come. Nothing about the moment is arranged, and the record supplies the mood as part of the circumstances."
   },
   {
    "label": "v. 4–5",
    "start": 4,
    "end": 5,
-   "title": "The blessing",
-   "text": "He is called blessed for what he has done: declaring the word with unwearyingness, not fearing the people, not seeking his own life, seeking God's will and commandments. Because of that he is promised blessing forever, might in word and deed and faith and works, and that all things will be done according to his word, since he will not ask against God's will."
+   "title": "One invented word, used twice and nowhere else",
+   "text": "The blessing turns on a noun that appears in these two verses and in no other verse of scripture: \"I have beheld how thou hast with unwearyingness declared the word,\" and \"because thou hast done this with such unwearyingness, behold, I will bless thee forever.\" The related adjective unwearied stands once more, at Hel. 15:6, of the Lamanite missionaries. The record reaches for a word it has to build in order to name the quality it is rewarding.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Hel. 15:6",
+     "start": 315,
+     "end": 324,
+     "book": "Hel",
+     "chapter": 15,
+     "verse_start": 6,
+     "verse_end": 6
+    }
+   ]
   },
   {
-   "label": "v. 6–10",
+   "label": "v. 6–7",
    "start": 6,
-   "end": 10,
-   "title": "The power",
-   "text": "God declares in the presence of angels that Nephi shall have power over this people, to smite the earth with famine, pestilence, and destruction according to their wickedness. Whatever he seals on earth is sealed in heaven and whatever he looses is loosed. If he says the temple shall be rent in twain, it will be. If he says a mountain shall be cast down and made smooth, it will be. If he says God shall smite this people, it will happen."
+   "end": 7,
+   "title": "A grant given in the words of another Gospel",
+   "text": "The authority is conferred in a formula that stands at Matt. 16:19: \"whatsoever ye shall seal on earth shall be sealed in heaven; and whatsoever ye shall loose on earth shall be loosed in heaven.\" The King James verse reads bind where this reads seal, and the second half matches word for word. The record offers no source. Verse 6 also states the reason for the grant, and it is a prediction about the man rather than a reward: \"thou shalt not ask that which is contrary to my will.\"",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Matt. 16:19",
+     "start": 55,
+     "end": 66,
+     "book": "Matt",
+     "chapter": 16,
+     "verse_start": 19,
+     "verse_end": 19
+    }
+   ]
   },
   {
    "label": "v. 11–12",
    "start": 11,
    "end": 12,
-   "title": "Sent back",
-   "text": "He is commanded to go and declare that the Almighty says they shall be smitten to destruction without repentance. When the voice finishes, Nephi stops short of his own house and returns to the multitudes scattered across the land, declaring what he was told."
+   "title": "Obedience reported by an interrupted journey",
+   "text": "The record measures the response by what did not happen: \"when the Lord had spoken these words unto Nephi, he did stop and did not go unto his own house, but did return unto the multitudes.\" Verse 2 had him walking home. The verse that reports his obedience does it by cancelling that errand, and the detail of the unreached house is the only evidence the chapter gives for the speed of his compliance."
   },
   {
-   "label": "v. 13–15",
+   "label": "v. 13",
    "start": 13,
-   "end": 15,
-   "title": "Refused again",
-   "text": "Despite the miracle of the chief judge's death, they harden their hearts and do not hearken. He declares the word anyway, they harden further, revile against him, and try to seize him and put him in prison."
+   "end": 13,
+   "title": "A miracle that changed nothing, and the record says so",
+   "text": "One verse concedes the failure of the previous chapter's proof: \"notwithstanding that great miracle which Nephi had done in telling them concerning the death of the chief judge, they did harden their hearts and did not hearken unto the words of the Lord.\" Helaman 9 ended with four different groups drawing four conclusions from a verified prediction. This verse reports the net effect on the population, and it is nil."
   },
   {
    "label": "v. 16–17",
    "start": 16,
    "end": 17,
-   "title": "Carried",
-   "text": "The power of God is with him and they cannot take him, for the Spirit takes and conveys him out of their midst. He goes in the Spirit from multitude to multitude until every one of them has been told."
-  },
-  {
-   "label": "v. 18–19",
-   "start": 18,
-   "end": 19,
-   "title": "The killing begins",
-   "text": "They will not hear, contentions start, and they divide against themselves and begin to kill one another with the sword. The seventy-first year ends."
+   "title": "An escape described as transport",
+   "text": "The record gives the mechanism twice: \"the power of God was with him, and they could not take him to cast him into prison, for he was taken by the Spirit and conveyed away out of the midst of them.\" Verse 17 makes it a method rather than a single rescue: \"thus he did go forth in the Spirit, from multitude to multitude, declaring the word of God, even until he had declared it unto them all.\" What began as a deliverance from arrest becomes the way the preaching tour is conducted."
   }
  ],
  "chapter": [
@@ -304,9 +323,29 @@
     "text": "He was commended for not slackening. Steady continuation is a quality you can actually choose, unlike outcomes."
    },
    {
+    "title": "Read the condition inside the promise",
+    "verse_label": "v. 5",
+    "text": "The grant that all things shall be done according to his word arrives with a clause attached: he will not ask what is contrary to God's will. Wide authority in this record comes fastened to a character that will not misuse it."
+   },
+   {
     "title": "Turn around before you get home",
     "verse_label": "v. 12",
     "text": "He stopped short and went back. When the assignment lands, acting on it while it is fresh costs less than resuming it tomorrow."
+   },
+   {
+    "title": "Do not expect the proof to do the work",
+    "verse_label": "v. 13",
+    "text": "They had just watched Nephi name the death of the chief judge, and they hardened their hearts anyway. Evidence moves a mind that is open, and it cannot supply the opening."
+   },
+   {
+    "title": "Count who has heard, not how often you spoke",
+    "verse_label": "v. 17",
+    "text": "Nephi went in the Spirit from multitude to multitude until he had declared the word to all of them. When a message matters, measure the coverage rather than your own effort."
+   },
+   {
+    "title": "A refused correction moves inward",
+    "verse_label": "v. 18",
+    "text": "They would not hearken, and the contentions that followed had them slaying one another. An argument a group will not settle with the outside does not go away; it relocates."
    }
   ],
   "questions": [
@@ -365,7 +404,7 @@
     "w2": 45,
     "quote": "thou hast not feared them, and hast not sought thine own life"
    },
-   "reason": "the claim Nephi had staked his life on the day before",
+   "reason": "the claim Nephi staked his life on the day before",
    "targets": [
     {
      "ref": "Hel.",
@@ -391,7 +430,7 @@
     "w2": 57,
     "quote": "as he was thus pondering in his heart, behold, a voice came unto him"
    },
-   "reason": "the tower where the same man had poured out his soul",
+   "reason": "the tower where the same man poured out his soul",
    "targets": [
     {
      "ref": "Hel.",
@@ -457,7 +496,59 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel09-011"
+  },
+  {
+   "id": "hel10-011",
+   "scope": "BOOK",
+   "head": "Hel. 12:10",
+   "anchor": {
+    "verse": 9,
+    "w1": 2,
+    "w2": 19,
+    "quote": "if ye shall say unto this mountain, Be thou cast down and become smooth, it shall be done."
+   },
+   "reason": "Mormon on whose voice that power belongs to",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 12,
+     "verse": 10,
+     "w1": 2,
+     "w2": 14,
+     "quote": "by the power of his voice they are broken up, and become smooth,",
+     "verse_text": "And by the power of his voice they are broken up, and become smooth, yea, even like unto a valley.",
+     "markdown": "And **by the power of his voice they are broken up, and become smooth**, yea, even like unto a valley.",
+     "span": true
+    }
+   ],
+   "mirror": "hel12-003"
+  },
+  {
+   "id": "hel10-012",
+   "scope": "BOOK",
+   "head": "Hel. 15:6",
+   "anchor": {
+    "verse": 4,
+    "w1": 17,
+    "w2": 23,
+    "quote": "thou hast with unwearyingness declared the word,"
+   },
+   "reason": "the only other form the word takes",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 15,
+     "verse": 6,
+     "w1": 18,
+     "w2": 21,
+     "quote": "striving with unwearied diligence",
+     "verse_text": "Yea, I say unto you, that the more part of them are doing this, and they are striving with unwearied diligence that they may bring the remainder of their brethren to the knowledge of the truth; therefore there are many who do add to their numbers daily.",
+     "markdown": "Yea, I say unto you, that the more part of them are doing this, and they are **striving with unwearied diligence** that they may bring the remainder of their brethren to the knowledge of the truth; therefore there are many who do add to their numbers daily.",
+     "span": true
+    }
+   ],
+   "mirror": "hel15-003"
   },
   {
    "id": "hel10-005",
@@ -483,7 +574,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "1ne11-017"
   },
   {
    "id": "hel10-006",
@@ -509,7 +600,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "eth12-007"
   },
   {
    "id": "hel10-007",
@@ -521,7 +612,7 @@
     "w2": 19,
     "quote": "if ye shall say unto this mountain, Be thou cast down and become smooth, it shall be done"
    },
-   "reason": "the first Nephi making the same claim to his brothers, about water",
+   "reason": "the first Nephi making the same claim, about water",
    "targets": [
     {
      "ref": "1 Ne.",
@@ -535,7 +626,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "1ne17-017"
   },
   {
    "id": "hel10-008",
@@ -547,7 +638,7 @@
     "w2": 34,
     "quote": "he did stop and did not go unto his own house, but did return unto the multitudes"
    },
-   "reason": "the angel turning Alma back to the city that had cast him out",
+   "reason": "the angel turning Alma back to the city that expelled",
    "targets": [
     {
      "ref": "Alma",
@@ -561,7 +652,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al08-015"
   },
   {
    "id": "hel10-009",
@@ -637,6 +728,15 @@
   },
   {
    "verse": 4,
+   "w1": 17,
+   "w2": 23,
+   "quote": "thou hast with unwearyingness declared the word,",
+   "entries": [
+    "hel10-012"
+   ]
+  },
+  {
+   "verse": 4,
    "w1": 34,
    "w2": 45,
    "quote": "thou hast not feared them, and hast not sought thine own life",
@@ -675,8 +775,9 @@
    "verse": 9,
    "w1": 2,
    "w2": 19,
-   "quote": "if ye shall say unto this mountain, Be thou cast down and become smooth, it shall be done",
+   "quote": "if ye shall say unto this mountain, Be thou cast down and become smooth, it shall be done.",
    "entries": [
+    "hel10-011",
     "hel10-006",
     "hel10-007"
    ]
@@ -701,7 +802,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-26",
-  "source_sha256": "20e4061108f45475"
+  "at": "2026-09-07",
+  "source_sha256": "27b51d12de660168"
  }
 }

@@ -17,9 +17,9 @@
   "principles": [
    "One man's effect on a nation",
    "A covenant made with torn clothing",
-   ""
+   "A name taken gladly that was given in contempt"
   ],
-  "connections": 9,
+  "connections": 22,
   "initial": true
  },
  "world_behind": [
@@ -31,17 +31,41 @@
   {
    "n": 2,
    "title": "His base is the lower judges",
-   "text": "Verse 4 says they were the greater part of them lower judges seeking power, and verse 5 gives his offer: support him and be made rulers."
+   "text": "Verse 4 says they were the greater part of them lower judges seeking power, and verse 5 gives his offer: support him and be made rulers. Mosiah 29:28 and 29 had built the lower judges as a check on the higher ones; forty years on, that same tier is the constituency a would-be king recruits from first.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 29:28",
+     "start": 137,
+     "end": 149,
+     "book": "Mosiah",
+     "chapter": 29,
+     "verse_start": 28,
+     "verse_end": 28
+    }
+   ]
   },
   {
    "n": 3,
    "title": "Mormon stops to state a rule",
-   "text": "Verses 8 through 10 say how quick men forget God, and how much wickedness one very wicked man can cause. He interrupts the narrative to say it."
+   "text": "Verses 8 through 10 say how quick men forget God, and how far the damage from a single wicked man reaches. He interrupts the narrative to say it."
   },
   {
    "n": 4,
    "title": "Moroni writes on a piece of his own coat",
-   "text": "Verse 12 gives the text: God, religion, freedom, peace, wives, children. Verse 13 says he called it the title of liberty."
+   "text": "Verse 12 gives the six words written on the rent coat and verse 13 names it the title of liberty. Alma 62:4 to 5 has him raise the same standard in a later crisis, and 3 Nephi 3:2 has an enemy commander praise the Nephites for keeping what they call their liberty. The phrase outlives the cloth.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 62:4",
+     "start": 98,
+     "end": 107,
+     "book": "Alma",
+     "chapter": 62,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
   },
   {
    "n": 5,
@@ -51,12 +75,34 @@
   {
    "n": 6,
    "title": "The covenant is made with clothing",
-   "text": "Verses 21 and 22 have the people rend their garments and cast them at Moroni's feet, asking to be treated the same way if they transgress."
+   "text": "Verses 21 and 22 have the people rend their garments and cast them at Moroni's feet as a token of their covenant. Mosiah 18:10 and Alma 24:17 record the two earlier mass covenants in the book, one made at a water and one over buried weapons; this is the third, and the only one made with clothing.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 18:10",
+     "start": 114,
+     "end": 126,
+     "book": "Mosiah",
+     "chapter": 18,
+     "verse_start": 10,
+     "verse_end": 10
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 24:17",
+     "start": 131,
+     "end": 141,
+     "book": "Alma",
+     "chapter": 24,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
   },
   {
    "n": 7,
    "title": "The rent coat is read back to Joseph",
-   "text": "Verses 23 through 27 have Moroni tie his torn coat to Joseph's coat and to a prophecy of Jacob about a remnant of it preserved."
+   "text": "Verses 23 through 27 tie the torn coat to Joseph's coat and to a prophecy of Jacob about a remnant of it preserved. Genesis 37:31 to 33 carries the coat itself; the prophecy Moroni quotes about the preserved remnant is on the brass plates and appears nowhere in the Bible, which is why 1 Nephi 5:14 matters for reading this passage."
   }
  ],
  "words": [
@@ -88,7 +134,7 @@
   {
    "term": "Remnant",
    "verse_label": "v. 23",
-   "text": "What is left of something after most is gone. The record uses the word sixty times and the King James Bible ninety-two. Moroni uses it four times in two verses, of Joseph's seed and of Joseph's coat, and makes the two the same argument."
+   "text": "What is left of something after most is gone. It appears sixty times in the record, and the King James Bible ninety-two. Moroni uses it four times in two verses, of Joseph's seed and of Joseph's coat, and makes the two the same argument."
   }
  ],
  "phrases": [
@@ -162,53 +208,77 @@
  ],
  "verses": [
   {
-   "label": "v. 1–7",
-   "start": 1,
-   "end": 7,
-   "title": "The faction",
-   "text": "Those who would not hear Helaman gather, determined to kill him and his brethren. Amalickiah leads them, wanting to be king, backed mostly by lower judges who want rank. Many in the church believe his flattering words and dissent, and Nephite affairs turn precarious."
+   "label": "v. 3",
+   "start": 3,
+   "end": 3,
+   "title": "Built first, named second",
+   "text": "The record introduces the man by his position and his body before it gives his name: \"the leader of those who were wroth against their brethren was a large and a strong man; and his name was Amalickiah.\" Size is the only physical fact the chapter supplies about anyone. The name then takes over: it stands fifteen times in these forty-one verses, which is second among the nine chapters of the volume that use it at all, behind Alma 47 with twenty-six."
   },
   {
-   "label": "v. 8–11",
-   "start": 8,
-   "end": 11,
-   "title": "Mormon's comment",
-   "text": "How quick men forget God and are led away. How much wickedness one very wicked man can cause. Amalickiah, a man of cunning device and many flattering words, led hearts away to destroy the church and the foundation of liberty. Moroni hears of it and is angry."
-  },
-  {
-   "label": "v. 12–18",
+   "label": "v. 12–13",
    "start": 12,
-   "end": 18,
-   "title": "The title of liberty",
-   "text": "He rends his coat, writes on a piece of it, and fastens it to a pole. Armored, he bows and prays for liberty to rest on his brethren so long as Christians hold the land. He names the whole land a chosen land and a land of liberty, and says God will not let them be destroyed except by their own transgressions."
+   "end": 13,
+   "title": "The writing on the cloth, given exactly",
+   "text": "The record does not paraphrase what was written on the torn coat. It reproduces it: \"In memory of our God, our religion, and freedom, and our peace, our wives, and our children.\" Six nouns, and the last two are the domestic ones. Verse 13 then names the object, \"he called it the title of liberty,\" and verse 19 insists on the point of the writing, that he waved it \"that all might see the writing which he had written.\" Three verses of the volume carry the phrase title of liberty: two here, and Alma 51:20.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 51:20",
+     "start": 497,
+     "end": 507,
+     "book": "Alma",
+     "chapter": 51,
+     "verse_start": 20,
+     "verse_end": 20
+    }
+   ]
   },
   {
-   "label": "v. 19–22",
-   "start": 19,
+   "label": "v. 20–22",
+   "start": 20,
    "end": 22,
-   "title": "The covenant",
-   "text": "He goes among the people waving the writing and calling for whoever will maintain the title to come and covenant. They come running in armor, rend their garments as a token, and cast them at his feet, asking to be cast down the same way if they transgress."
+   "title": "A covenant done with the hands",
+   "text": "The proclamation asks people to \"enter into a covenant,\" and what follows is not an oath but an action: they come running \"with their armor girded about their loins, rending their garments in token\" and cast the pieces at Moroni's feet. Then their words are given too, beginning \"We covenant with our God, that we shall be destroyed, even as our brethren in the land northward.\" The formula enter into a covenant holds the chapter together, standing at verse 20 where it is proposed, verse 31 where the army is described by it, and verse 35 where refusing it is fatal."
   },
   {
-   "label": "v. 23–27",
+   "label": "v. 23–26",
    "start": 23,
+   "end": 26,
+   "title": "A saying of Jacob that Genesis does not carry",
+   "text": "Moroni's argument rests on a quotation, and the record marks it as one at both ends. Verse 24 opens \"let us remember the words of Jacob, before his death,\" gives the saying about a preserved part of Joseph's coat, and verse 26 closes it: \"Now behold, this was the language of Jacob.\" The Bible mentions Joseph's coat in five verses, all in Genesis 37, and none of them concerns a surviving fragment; Jacob's dying words in Genesis 49 say nothing about it. The volume itself uses coat of Joseph and remnant of the coat in this one verse and nowhere else. Whatever its source, the chapter treats it as a text its hearers already know."
+  },
+  {
+   "label": "v. 27",
+   "start": 27,
    "end": 27,
-   "title": "Joseph's coat",
-   "text": "Moroni calls them a remnant of the seed of Joseph, whose coat was rent by his brethren, and quotes Jacob on a preserved remnant of that coat standing for a preserved remnant of the seed. He applies it directly: keep the commandments or be rent."
+   "title": "The argument turned on the arguer",
+   "text": "Having applied the preserved fragment to his own side, Moroni asks who the perishing remainder might be, and gives two answers in one sentence: \"who knoweth but what the remnant of the seed of Joseph, which shall perish as his garment, are those who have dissented from us? Yea, and even it shall be ourselves if we do not stand fast in the faith of Christ.\" The rhetorical question is set up to indict the dissenters and then finished so that it can land on the speaker. A banner argument that stopped one clause earlier would have been a straightforward war speech."
   },
   {
-   "label": "v. 28–35",
-   "start": 28,
+   "label": "v. 34–35",
+   "start": 34,
    "end": 35,
-   "title": "The response",
-   "text": "Moroni gathers everyone willing to keep their liberty, and they are many. Amalickiah's men are frightened and some flee. Moroni takes his army, heads off the flight, kills Amalickiah's captured followers who will not covenant, and puts the rest under the covenant of liberty."
+   "title": "Authority stated, then used",
+   "text": "Verse 34 is careful about where the power comes from: Moroni was \"appointed by the chief judges and the voice of the people, therefore he had power according to his will with the armies.\" Verse 35 reports what he did with it: whoever \"would not enter into a covenant to support the cause of freedom, that they might maintain a free government, he caused to be put to death.\" The record offers no comment on the sentence, no number of the executed, and no objection from anyone. The constitutional basis stands in verse 34, the killing in verse 35, and nothing follows either."
   },
   {
-   "label": "v. 36–41",
-   "start": 36,
+   "label": "v. 40–41",
+   "start": 40,
    "end": 41,
-   "title": "The aftermath",
-   "text": "The title of liberty is raised on every tower in Nephite lands, and there is peace until the end of the nineteenth year. Helaman and the high priests keep order in the church. Many die of fever, though fewer than might have because of the plants and roots God prepared."
+   "title": "A war chapter that ends on medicine",
+   "text": "After the banner, the covenant and the executions, the last two verses turn to how people died of natural causes. Some died of fevers, \"but not so much so with fevers, because of the excellent qualities of the many plants and roots which God had prepared to remove the cause of diseases.\" Then the closing sentence marks itself as a guess: those who died in faith \"are happy in him, as we must needs suppose.\" That phrase is used twice in the volume, here and at 2 Ne. 2:17, and both times a writer is flagging his own inference rather than reporting.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "2 Ne. 2:17",
+     "start": 463,
+     "end": 473,
+     "book": "2 Ne",
+     "chapter": 2,
+     "verse_start": 17,
+     "verse_end": 17
+    }
+   ]
   }
  ],
  "chapter": [
@@ -250,11 +320,16 @@
   {
    "n": 8,
    "title": "The chapter ends with plants",
-   "text": "After a rebellion, a covenant, and a march, Mormon's last note is that fewer died of fever because God had prepared roots to remove the cause of disease."
+   "text": "The last two verses turn from war to medicine and mortality. Verse 40 names the illness, the season, and the remedy, \"some who died with fevers, which at some seasons of the year were very frequent in the land—but not so much so with fevers, because of the excellent qualities of the many plants and roots which God had prepared to remove the cause of diseases.\" Verse 41 then records the ordinary deaths, \"many who died with old age,\" and closes on a hedge, \"as we must needs suppose.\" A chapter of banners and oaths ends on epidemiology and an admission of uncertainty."
   }
  ],
  "world_in_front": {
   "applications": [
+   {
+    "title": "Price the promotion that comes with the praise",
+    "verse_label": "v. 5",
+    "text": "Amalickiah's supporters were lower judges who had been told they would be made rulers over the people. When someone's flattery arrives attached to an advancement they are offering you, work out what the advancement is worth to them before you weigh the flattery."
+   },
    {
     "title": "Watch what follows a victory",
     "verse_label": "v. 7–8",
@@ -271,9 +346,24 @@
     "text": "Believers were called Christians by people outside and took it gladly. When a label aimed at you is accurate, owning it takes the sting out."
    },
    {
+    "title": "Make the ask visible and exact",
+    "verse_label": "v. 19–20",
+    "text": "Moroni waved the writing so everyone could see it and then named the precise commitment he wanted made. A general appeal for support collects nodding; a stated covenant with the words in view collects people running."
+   },
+   {
     "title": "Make the commitment physical",
     "verse_label": "v. 21",
     "text": "The people rent their garments and cast them down. When you decide something important, do something concrete that you will remember doing."
+   },
+   {
+    "title": "Ask whether the warning fits you",
+    "verse_label": "v. 27",
+    "text": "Moroni read Jacob's prophecy onto the dissenters and then said \"even it shall be ourselves\" if his own people did not stand fast. When you hold up a cautionary example about somebody else, finish the thought by testing whether the same reading fits your side of it."
+   },
+   {
+    "title": "Put the standard where it stays in view",
+    "verse_label": "v. 36",
+    "text": "The title of liberty went up on every tower in the land instead of being shown once at the gathering. A commitment announced at a meeting fades; one you walk past every morning is harder to forget."
    }
   ],
   "questions": [
@@ -332,7 +422,7 @@
     "w2": 36,
     "quote": "our wives, and our children"
    },
-   "reason": "the same list, given as what the Nephites were fighting for",
+   "reason": "the same list, given as what Nephites fought for",
    "targets": [
     {
      "ref": "Alma",
@@ -372,7 +462,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al44-010"
   },
   {
    "id": "al46-003",
@@ -384,7 +474,7 @@
     "w2": 28,
     "quote": "In memory of our God, our religion, and freedom"
    },
-   "reason": "the same six things named as what Moroni was preparing to support",
+   "reason": "the same six things Moroni was preparing to support",
    "targets": [
     {
      "ref": "Alma",
@@ -427,6 +517,214 @@
    "mirror": "al51-001"
   },
   {
+   "id": "al46-010",
+   "scope": "BOOK",
+   "head": "Alma 2:2",
+   "anchor": {
+    "verse": 4,
+    "w1": 1,
+    "w2": 8,
+    "quote": "And Amalickiah was desirous to be a king;"
+   },
+   "reason": "Amlici wanting the same thing thirty years earlier",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 2,
+     "verse": 2,
+     "w1": 29,
+     "w2": 38,
+     "quote": "to establish Amlici to be a king over the people.",
+     "verse_text": "Now this Amlici had, by his cunning, drawn away much people after him; even so much that they began to be very powerful; and they began to endeavor to establish Amlici to be a king over the people.",
+     "markdown": "Now this Amlici had, by his cunning, drawn away much people after him; even so much that they began to be very powerful; and they began to endeavor **to establish Amlici to be a king over the people**.",
+     "span": true
+    }
+   ],
+   "mirror": "al02-006"
+  },
+  {
+   "id": "al46-011",
+   "scope": "BOOK",
+   "head": "Alma 52:19",
+   "anchor": {
+    "verse": 5,
+    "w1": 5,
+    "w2": 10,
+    "quote": "led by the flatteries of Amalickiah,"
+   },
+   "reason": "the same verb used of a battle tactic",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 52,
+     "verse": 19,
+     "w1": 46,
+     "w2": 51,
+     "quote": "flatter them out of their strongholds,",
+     "verse_text": "And in the commencement of the twenty and eighth year, Moroni and Teancum and many of the chief captains held a council of war—what they should do to cause the Lamanites to come out against them to battle; or that they might by some means flatter them out of their strongholds, that they might gain advantage over them and take again the city of Mulek.",
+     "markdown": "And in the commencement of the twenty and eighth year, Moroni and Teancum and many of the chief captains held a council of war—what they should do to cause the Lamanites to come out against them to battle; or that they might by some means **flatter them out of their strongholds**, that they might gain advantage over them and take again the city of Mulek.",
+     "span": true
+    }
+   ],
+   "mirror": "al52-006"
+  },
+  {
+   "id": "al46-012",
+   "scope": "BOOK",
+   "head": "Alma 62:35",
+   "anchor": {
+    "verse": 9,
+    "w1": 6,
+    "w2": 17,
+    "quote": "the great wickedness one very wicked man can cause to take place"
+   },
+   "reason": "Mormon naming the two brothers who caused it",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 62,
+     "verse": 35,
+     "w1": 53,
+     "w2": 67,
+     "quote": "Ammoron, and Amalickiah his brother, had been the cause of this great and lasting war",
+     "verse_text": "And thus they did encamp for the night. For behold, the Nephites and the Lamanites also were weary because of the greatness of the march; therefore they did not resolve upon any stratagem in the night-time, save it were Teancum; for he was exceedingly angry with Ammoron, insomuch that he considered that Ammoron, and Amalickiah his brother, had been the cause of this great and lasting war between them and the Lamanites, which had been the cause of so much war and bloodshed, yea, and so much famine.",
+     "markdown": "And thus they did encamp for the night. For behold, the Nephites and the Lamanites also were weary because of the greatness of the march; therefore they did not resolve upon any stratagem in the night-time, save it were Teancum; for he was exceedingly angry with Ammoron, insomuch that he considered that **Ammoron, and Amalickiah his brother, had been the cause of this great and lasting war** between them and the Lamanites, which had been the cause of so much war and bloodshed, yea, and so much famine.",
+     "span": true
+    }
+   ],
+   "mirror": "al62-007"
+  },
+  {
+   "id": "al46-014",
+   "scope": "BOOK",
+   "head": "Alma 60:36",
+   "anchor": {
+    "verse": 12,
+    "w1": 20,
+    "w2": 28,
+    "quote": "In memory of our God, our religion, and freedom,"
+   },
+   "reason": "Moroni naming the same cause to Pahoran",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 60,
+     "verse": 36,
+     "w1": 34,
+     "w2": 40,
+     "quote": "the freedom and welfare of my country.",
+     "verse_text": "Behold, I am Moroni, your chief captain. I seek not for power, but to pull it down. I seek not for honor of the world, but for the glory of my God, and the freedom and welfare of my country. And thus I close mine epistle.",
+     "markdown": "Behold, I am Moroni, your chief captain. I seek not for power, but to pull it down. I seek not for honor of the world, but for the glory of my God, and **the freedom and welfare of my country**. And thus I close mine epistle.",
+     "span": true
+    }
+   ],
+   "mirror": "al60-007"
+  },
+  {
+   "id": "al46-015",
+   "scope": "BOOK",
+   "head": "Alma 58:40",
+   "anchor": {
+    "verse": 12,
+    "w1": 20,
+    "w2": 28,
+    "quote": "In memory of our God, our religion, and freedom,"
+   },
+   "reason": "the sons of Helaman standing in that liberty",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 58,
+     "verse": 40,
+     "w1": 9,
+     "w2": 20,
+     "quote": "they stand fast in that liberty wherewith God has made them free;",
+     "verse_text": "But behold, they have received many wounds; nevertheless they stand fast in that liberty wherewith God has made them free; and they are strict to remember the Lord their God from day to day; yea, they do observe to keep his statutes, and his judgments, and his commandments continually; and their faith is strong in the prophecies concerning that which is to come.",
+     "markdown": "But behold, they have received many wounds; nevertheless **they stand fast in that liberty wherewith God has made them free**; and they are strict to remember the Lord their God from day to day; yea, they do observe to keep his statutes, and his judgments, and his commandments continually; and their faith is strong in the prophecies concerning that which is to come.",
+     "span": true
+    }
+   ],
+   "mirror": "al58-006"
+  },
+  {
+   "id": "al46-017",
+   "scope": "BOOK",
+   "head": "Alma 48:10",
+   "anchor": {
+    "verse": 15,
+    "w1": 20,
+    "w2": 27,
+    "quote": "took upon them, gladly, the name of Christ,"
+   },
+   "reason": "where Mormon defines the cause of Christians",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 48,
+     "verse": 10,
+     "w1": 42,
+     "w2": 45,
+     "quote": "the cause of Christians.",
+     "verse_text": "And thus he was preparing to support their liberty, their lands, their wives, and their children, and their peace, and that they might live unto the Lord their God, and that they might maintain that which was called by their enemies the cause of Christians.",
+     "markdown": "And thus he was preparing to support their liberty, their lands, their wives, and their children, and their peace, and that they might live unto the Lord their God, and that they might maintain that which was called by their enemies **the cause of Christians**.",
+     "span": true
+    }
+   ],
+   "mirror": "al48-002"
+  },
+  {
+   "id": "al46-021",
+   "scope": "BOOK",
+   "head": "Alma 47:1",
+   "anchor": {
+    "verse": 33,
+    "w1": 7,
+    "w2": 15,
+    "quote": "Amalickiah fled with a small number of his men,"
+   },
+   "reason": "the flight taken up in the next chapter",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 47,
+     "verse": 1,
+     "w1": 11,
+     "w2": 19,
+     "quote": "those who had fled with him into the wilderness;",
+     "verse_text": "Now we will return in our record to Amalickiah and those who had fled with him into the wilderness; for, behold, he had taken those who went with him, and went up in the land of Nephi among the Lamanites, and did stir up the Lamanites to anger against the people of Nephi, insomuch that the king of the Lamanites sent a proclamation throughout all his land, among all his people, that they should gather themselves together again to go to battle against the Nephites.",
+     "markdown": "Now we will return in our record to Amalickiah and **those who had fled with him into the wilderness**; for, behold, he had taken those who went with him, and went up in the land of Nephi among the Lamanites, and did stir up the Lamanites to anger against the people of Nephi, insomuch that the king of the Lamanites sent a proclamation throughout all his land, among all his people, that they should gather themselves together again to go to battle against the Nephites.",
+     "span": true
+    }
+   ],
+   "mirror": "al47-001"
+  },
+  {
+   "id": "al46-022",
+   "scope": "BOOK",
+   "head": "Alma 62:4",
+   "anchor": {
+    "verse": 36,
+    "w1": 33,
+    "w2": 42,
+    "quote": "thus Moroni planted the standard of liberty among the Nephites."
+   },
+   "reason": "the standard raised again in every place",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 62,
+     "verse": 4,
+     "w1": 2,
+     "w2": 14,
+     "quote": "he did raise the standard of liberty in whatsoever place he did enter,",
+     "verse_text": "And he did raise the standard of liberty in whatsoever place he did enter, and gained whatsoever force he could in all his march towards the land of Gideon.",
+     "markdown": "And **he did raise the standard of liberty in whatsoever place he did enter**, and gained whatsoever force he could in all his march towards the land of Gideon.",
+     "span": true
+    }
+   ],
+   "mirror": "al62-002"
+  },
+  {
    "id": "al46-005",
    "scope": "BOM",
    "head": "2 Ne. 3:5",
@@ -436,7 +734,7 @@
     "w2": 69,
     "quote": "a remnant of the seed of my son be preserved"
    },
-   "reason": "Lehi giving the same promise about the fruit of Joseph’s loins",
+   "reason": "Lehi giving the same promise of Joseph's loins",
    "targets": [
     {
      "ref": "2 Ne.",
@@ -450,7 +748,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "2ne03-010"
   },
   {
    "id": "al46-006",
@@ -462,7 +760,7 @@
     "w2": 36,
     "quote": "our wives, and our children"
    },
-   "reason": "the same list, sworn by in the terms offered to Zerahemnah",
+   "reason": "the same list, sworn in the terms offered Zerahemnah",
    "targets": [
     {
      "ref": "Alma",
@@ -477,6 +775,136 @@
     }
    ],
    "mirror": "al44-003"
+  },
+  {
+   "id": "al46-013",
+   "scope": "BOM",
+   "head": "Mosiah 29:22",
+   "anchor": {
+    "verse": 10,
+    "w1": 22,
+    "w2": 32,
+    "quote": "he led away the hearts of many people to do wickedly;"
+   },
+   "reason": "Mosiah describing how a wicked king holds power",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 29,
+     "verse": 22,
+     "w1": 3,
+     "w2": 15,
+     "quote": "he has his friends in iniquity, and he keepeth his guards about him;",
+     "verse_text": "For behold, he has his friends in iniquity, and he keepeth his guards about him; and he teareth up the laws of those who have reigned in righteousness before him; and he trampleth under his feet the commandments of God;",
+     "markdown": "For behold, **he has his friends in iniquity, and he keepeth his guards about him**; and he teareth up the laws of those who have reigned in righteousness before him; and he trampleth under his feet the commandments of God;",
+     "span": true
+    }
+   ],
+   "mirror": "mos29-010"
+  },
+  {
+   "id": "al46-016",
+   "scope": "BOM",
+   "head": "Morm. 2:23",
+   "anchor": {
+    "verse": 12,
+    "w1": 32,
+    "w2": 36,
+    "quote": "our wives, and our children"
+   },
+   "reason": "Mormon rallying his army on the same four",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 2,
+     "verse": 23,
+     "w1": 20,
+     "w2": 35,
+     "quote": "that they would stand boldly before the Lamanites and fight for their wives, and their children,",
+     "verse_text": "And it came to pass that I did speak unto my people, and did urge them with great energy, that they would stand boldly before the Lamanites and fight for their wives, and their children, and their houses, and their homes.",
+     "markdown": "And it came to pass that I did speak unto my people, and did urge them with great energy, **that they would stand boldly before the Lamanites and fight for their wives, and their children**, and their houses, and their homes.",
+     "span": true
+    }
+   ],
+   "mirror": "morm02-007"
+  },
+  {
+   "id": "al46-018",
+   "scope": "BOM",
+   "head": "Mosiah 25:23",
+   "anchor": {
+    "verse": 21,
+    "w1": 61,
+    "w2": 70,
+    "quote": "be ashamed to take upon them the name of Christ,"
+   },
+   "reason": "the churches formed of all who took it",
+   "targets": [
+    {
+     "ref": "Mosiah",
+     "chapter": 25,
+     "verse": 23,
+     "w1": 18,
+     "w2": 28,
+     "quote": "whosoever were desirous to take upon them the name of Christ,",
+     "verse_text": "And now there were seven churches in the land of Zarahemla. And it came to pass that whosoever were desirous to take upon them the name of Christ, or of God, they did join the churches of God;",
+     "markdown": "And now there were seven churches in the land of Zarahemla. And it came to pass that **whosoever were desirous to take upon them the name of Christ**, or of God, they did join the churches of God;",
+     "span": true
+    }
+   ],
+   "mirror": "mos25-011"
+  },
+  {
+   "id": "al46-019",
+   "scope": "BOM",
+   "head": "3 Ne. 4:29",
+   "anchor": {
+    "verse": 22,
+    "w1": 55,
+    "w2": 69,
+    "quote": "even as we have cast our garments at thy feet to be trodden under foot,"
+   },
+   "reason": "the same oath formula sworn over Zemnarihah",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 4,
+     "verse": 29,
+     "w1": 37,
+     "w2": 46,
+     "quote": "even as this man hath been felled to the earth.",
+     "verse_text": "May the Lord preserve his people in righteousness and in holiness of heart, that they may cause to be felled to the earth all who shall seek to slay them because of power and secret combinations, even as this man hath been felled to the earth.",
+     "markdown": "May the Lord preserve his people in righteousness and in holiness of heart, that they may cause to be felled to the earth all who shall seek to slay them because of power and secret combinations, **even as this man hath been felled to the earth**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne04-006"
+  },
+  {
+   "id": "al46-020",
+   "scope": "BOM",
+   "head": "3 Ne. 10:17",
+   "anchor": {
+    "verse": 24,
+    "w1": 13,
+    "w2": 22,
+    "quote": "let us remember the words of Jacob, before his death,"
+   },
+   "reason": "Mormon citing the same words of Jacob",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 10,
+     "verse": 17,
+     "w1": 2,
+     "w2": 14,
+     "quote": "our father Jacob also testified concerning a remnant of the seed of Joseph.",
+     "verse_text": "Behold, our father Jacob also testified concerning a remnant of the seed of Joseph. And behold, are not we a remnant of the seed of Joseph? And these things which testify of us, are they not written upon the plates of brass which our father Lehi brought out of Jerusalem?",
+     "markdown": "Behold, **our father Jacob also testified concerning a remnant of the seed of Joseph**. And behold, are not we a remnant of the seed of Joseph? And these things which testify of us, are they not written upon the plates of brass which our father Lehi brought out of Jerusalem?",
+     "span": true
+    }
+   ],
+   "mirror": "3ne10-005"
   },
   {
    "id": "al46-007",
@@ -559,12 +987,40 @@
  ],
  "markers": [
   {
+   "verse": 4,
+   "w1": 1,
+   "w2": 8,
+   "quote": "And Amalickiah was desirous to be a king;",
+   "entries": [
+    "al46-010"
+   ]
+  },
+  {
    "verse": 5,
    "w1": 5,
    "w2": 10,
-   "quote": "led by the flatteries of Amalickiah",
+   "quote": "led by the flatteries of Amalickiah,",
    "entries": [
+    "al46-011",
     "al46-009"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 6,
+   "w2": 17,
+   "quote": "the great wickedness one very wicked man can cause to take place",
+   "entries": [
+    "al46-012"
+   ]
+  },
+  {
+   "verse": 10,
+   "w1": 22,
+   "w2": 32,
+   "quote": "he led away the hearts of many people to do wickedly;",
+   "entries": [
+    "al46-013"
    ]
   },
   {
@@ -573,7 +1029,9 @@
    "w2": 28,
    "quote": "In memory of our God, our religion, and freedom",
    "entries": [
-    "al46-003"
+    "al46-003",
+    "al46-014",
+    "al46-015"
    ]
   },
   {
@@ -583,7 +1041,8 @@
    "quote": "our wives, and our children",
    "entries": [
     "al46-001",
-    "al46-006"
+    "al46-006",
+    "al46-016"
    ]
   },
   {
@@ -593,6 +1052,15 @@
    "quote": "he called it the title of liberty)",
    "entries": [
     "al46-004"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 20,
+   "w2": 27,
+   "quote": "took upon them, gladly, the name of Christ,",
+   "entries": [
+    "al46-017"
    ]
   },
   {
@@ -614,6 +1082,24 @@
    ]
   },
   {
+   "verse": 21,
+   "w1": 61,
+   "w2": 70,
+   "quote": "be ashamed to take upon them the name of Christ,",
+   "entries": [
+    "al46-018"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 55,
+   "w2": 69,
+   "quote": "even as we have cast our garments at thy feet to be trodden under foot,",
+   "entries": [
+    "al46-019"
+   ]
+  },
+  {
    "verse": 23,
    "w1": 25,
    "w2": 34,
@@ -624,16 +1110,43 @@
   },
   {
    "verse": 24,
+   "w1": 13,
+   "w2": 22,
+   "quote": "let us remember the words of Jacob, before his death,",
+   "entries": [
+    "al46-020"
+   ]
+  },
+  {
+   "verse": 24,
    "w1": 60,
    "w2": 69,
    "quote": "a remnant of the seed of my son be preserved",
    "entries": [
     "al46-005"
    ]
+  },
+  {
+   "verse": 33,
+   "w1": 7,
+   "w2": 15,
+   "quote": "Amalickiah fled with a small number of his men,",
+   "entries": [
+    "al46-021"
+   ]
+  },
+  {
+   "verse": 36,
+   "w1": 33,
+   "w2": 42,
+   "quote": "thus Moroni planted the standard of liberty among the Nephites.",
+   "entries": [
+    "al46-022"
+   ]
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "3b89fdf0daddf09c"
+  "at": "2026-09-07",
+  "source_sha256": "eff71a699bcf9b71"
  }
 }

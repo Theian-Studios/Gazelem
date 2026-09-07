@@ -17,25 +17,25 @@
    "Melchizedek",
    "The urgency of now"
   ],
-  "connections": 10,
+  "connections": 16,
   "initial": true
  },
  "world_behind": [
   {
    "n": 1,
    "title": "The sermon has not changed subject",
-   "text": "Verse 1 says \"I would cite your minds forward\" and picks up the commandments of the last chapter. Rest, hardened hearts and the plan of redemption all carry over. What is new is that Alma now explains who was appointed to teach the thing he has been teaching, and on what basis."
+   "text": "Verse 1 says \"I would cite your minds forward\" and picks up the commandments of Alma 12. Rest, hardened hearts and the plan of redemption all carry over. What is new is that Alma now explains who was appointed to teach the thing he has been teaching, and on what basis."
   },
   {
    "n": 2,
    "title": "Melchizedek was thin in the record they had",
-   "text": "Genesis gives him three verses and no biography. Alma supplies a reign, a wicked people, a preaching of repentance, a general repentance and the establishing of peace, and says of him that \"none were greater\" (v. 19). The brass plates evidently carried more of him than the Genesis that survived.",
+   "text": "Genesis gives him three verses and no biography (Gen. 14:18–20). Alma supplies a reign, a wicked people, a preaching of repentance, a general repentance and the establishing of peace, and says of him that \"none were greater\" (v. 19). The brass plates evidently carried more of him than the Genesis that survived.",
    "cites": [
     {
      "quote": "none were greater",
      "verse": 19,
-     "start": 189,
-     "end": 216,
+     "start": 205,
+     "end": 232,
      "spans": [
       {
        "w1": 14,
@@ -43,6 +43,18 @@
        "text": "none were greater"
       }
      ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Gen. 14:18–20",
+     "start": 49,
+     "end": 62,
+     "book": "Gen",
+     "chapter": 14,
+     "verse_start": 18,
+     "verse_end": 20
     }
    ]
   },
@@ -59,7 +71,7 @@
   {
    "n": 5,
    "title": "The chapter answers a question about fairness",
-   "text": "Verses 3 through 5 insist that those called were \"on the same standing with their brethren\" (v. 5) and were left in the first place to choose good or evil. Ordination is being explained to people who have just accused Alma of claiming authority he had no right to.",
+   "text": "Verses 3 through 5 insist that those called were \"on the same standing with their brethren\" (v. 5) and were left in the first place to choose good or evil. Alma 9:6 has the men of Ammonihah demand who he is and by what authority he speaks, so ordination is being explained to people who have already challenged his standing to explain it to.",
    "cites": [
     {
      "quote": "on the same standing with their brethren",
@@ -74,12 +86,46 @@
       }
      ]
     }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 9:6",
+     "start": 156,
+     "end": 164,
+     "book": "Alma",
+     "chapter": 9,
+     "verse_start": 6,
+     "verse_end": 6
+    }
    ]
   },
   {
    "n": 6,
    "title": "Angels are said to be at work right now",
-   "text": "Verse 24 claims angels are declaring the coming of Christ in their own land at that moment. Amulek had one. Alma had one. The claim is offered as ordinary current events."
+   "text": "Verse 24 claims angels are declaring the coming of Christ in their own land at that moment. Alma 8:14 has one meeting Alma on the road to this city and Alma 10:7 has one stopping Amulek on the way to a kinsman's house, both within the previous five chapters. The claim is offered as ordinary current events, and the reader has just watched two of them.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 8:14",
+     "start": 92,
+     "end": 101,
+     "book": "Alma",
+     "chapter": 8,
+     "verse_start": 14,
+     "verse_end": 14
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 10:7",
+     "start": 152,
+     "end": 161,
+     "book": "Alma",
+     "chapter": 10,
+     "verse_start": 7,
+     "verse_end": 7
+    }
+   ]
   },
   {
    "n": 7,
@@ -91,7 +137,29 @@
   {
    "term": "Foreknowledge",
    "verse_label": "v. 3",
-   "text": "Knowing beforehand. The word appears twice in this record and both times in this chapter, tying the calling of priests to what God knew before the world was. The King James Bible has it twice as well, once of Christ delivered by the determinate counsel and foreknowledge of God, and once of the elect. Alma is using a term the New Testament would later use for the same difficulty, and using it while insisting in the same breath that the men involved chose."
+   "text": "Knowing beforehand. The word appears twice in this record and both times in this chapter, tying the calling of priests to what God knew before the world was. The King James Bible has it twice as well, once of Christ delivered by the determinate counsel and foreknowledge of God (Acts 2:23), and once of the elect (1 Pet. 1:2). Alma is using a term the New Testament would later use for the same difficulty, and using it while insisting in the same breath that the men involved chose.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Acts 2:23",
+     "start": 279,
+     "end": 288,
+     "book": "Acts",
+     "chapter": 2,
+     "verse_start": 23,
+     "verse_end": 23
+    },
+    {
+     "kind": "scripture",
+     "text": "1 Pet. 1:2",
+     "start": 314,
+     "end": 324,
+     "book": "1 Pet",
+     "chapter": 1,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
   },
   {
    "term": "Abhorrence",
@@ -116,18 +184,30 @@
   {
    "term": "Tithes",
    "verse_label": "v. 15",
-   "text": "A tenth part, paid. Alma gives the amount and the payer without explaining the practice, because Genesis already told his hearers that Abraham paid them to this same man. The verse works as a citation: the one fact about Melchizedek the reader can check."
+   "text": "A tenth part, paid. Alma gives the amount and the payer without explaining the practice, because Genesis already told his hearers that Abraham paid them to this same man (Gen. 14:20). The verse works as a citation: the one fact about Melchizedek the reader can check.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Gen. 14:20",
+     "start": 171,
+     "end": 181,
+     "book": "Gen",
+     "chapter": 14,
+     "verse_start": 20,
+     "verse_end": 20
+    }
+   ]
   },
   {
    "term": "Type",
    "verse_label": "v. 16",
-   "text": "A pattern that points to something later. The ordinances were given so that people might look forward, \"it being a type of his order\" (v. 16), and Alma immediately corrects himself to say it is his order. The word lets him hold both at once: a resemblance and an identity.",
+   "text": "A pattern that points to something later. Treated at Mosiah 3:15. The ordinances were given so that people might look forward, \"it being a type of his order\" (v. 16), and Alma immediately corrects himself to say it is his order. The word lets him hold both at once: a resemblance and an identity.",
    "cites": [
     {
      "quote": "it being a type of his order",
      "verse": 16,
-     "start": 103,
-     "end": 141,
+     "start": 127,
+     "end": 165,
      "spans": [
       {
        "w1": 21,
@@ -136,18 +216,30 @@
       }
      ]
     }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 3:15",
+     "start": 53,
+     "end": 64,
+     "book": "Mosiah",
+     "chapter": 3,
+     "verse_start": 15,
+     "verse_end": 15
+    }
    ]
   },
   {
    "term": "Wrest",
    "verse_label": "v. 20",
-   "text": "To twist, and in the King James Bible most often to twist a verdict. Exodus and Deuteronomy both forbid wresting judgment, and Peter uses it of the unlearned twisting scriptures to their own destruction. Alma says \"if ye will wrest them it shall be to your own destruction\" (v. 20), and he says it to a city run by men whose profession is bending judgments. The warning arrives in their own trade word.",
+   "text": "To twist, and in the King James Bible most often to twist a verdict. Exodus and Deuteronomy both forbid wresting judgment (Ex. 23:2; Deut. 16:19), and Peter uses it of the unlearned twisting scriptures to their own destruction (2 Pet. 3:16). Alma says \"if ye will wrest them it shall be to your own destruction\" (v. 20), and he says it to a city run by men whose profession is bending judgments. The warning arrives in their own trade word.",
    "cites": [
     {
      "quote": "if ye will wrest them it shall be to your own destruction",
      "verse": 20,
-     "start": 214,
-     "end": 281,
+     "start": 252,
+     "end": 319,
      "spans": [
       {
        "w1": 20,
@@ -155,6 +247,38 @@
        "text": "if ye will wrest them it shall be to your own destruction"
       }
      ]
+    }
+   ],
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Ex. 23:2",
+     "start": 123,
+     "end": 131,
+     "book": "Ex",
+     "chapter": 23,
+     "verse_start": 2,
+     "verse_end": 2
+    },
+    {
+     "kind": "scripture",
+     "text": "Deut. 16:19",
+     "start": 133,
+     "end": 144,
+     "book": "Deut",
+     "chapter": 16,
+     "verse_start": 19,
+     "verse_end": 19
+    },
+    {
+     "kind": "scripture",
+     "text": "2 Pet. 3:16",
+     "start": 228,
+     "end": 239,
+     "book": "2 Pet",
+     "chapter": 3,
+     "verse_start": 16,
+     "verse_end": 16
     }
    ]
   },
@@ -198,7 +322,19 @@
   {
    "term": "Without beginning of days or end of years",
    "verse_label": "v. 7",
-   "text": "The phrase Hebrews uses of Melchizedek, applied here to the order and not to the man. Alma will name Melchizedek eight verses later, so the borrowing is deliberate. What has no beginning in this account is an office."
+   "text": "The phrase Hebrews uses of Melchizedek (Heb. 7:3), applied here to the order and not to the man. Alma will name Melchizedek eight verses later, so the borrowing is deliberate. What has no beginning in this account is an office.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Heb. 7:3",
+     "start": 40,
+     "end": 48,
+     "book": "Heb",
+     "chapter": 7,
+     "verse_start": 3,
+     "verse_end": 3
+    }
+   ]
   },
   {
    "term": "Their garments were washed white through the blood of the Lamb",
@@ -213,7 +349,29 @@
   {
    "term": "Bring forth fruit meet for repentance",
    "verse_label": "v. 13",
-   "text": "John the Baptist's demand, which Alma already used in its other form four chapters ago. Here it arrives as an invitation, and it is attached to entering the rest that has been the sermon's goal since Alma 12."
+   "text": "John the Baptist's demand (Matt. 3:8), which Alma already used in its other form four chapters ago (Alma 9:30). Here it arrives as an invitation, and it is attached to entering the rest that has been the sermon's goal since Alma 12.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Matt. 3:8",
+     "start": 27,
+     "end": 36,
+     "book": "Matt",
+     "chapter": 3,
+     "verse_start": 8,
+     "verse_end": 8
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 9:30",
+     "start": 100,
+     "end": 109,
+     "book": "Alma",
+     "chapter": 9,
+     "verse_start": 30,
+     "verse_end": 30
+    }
+   ]
   },
   {
    "term": "Abraham paid tithes of one-tenth part of all he possessed",
@@ -223,7 +381,19 @@
   {
    "term": "He was called the prince of peace",
    "verse_label": "v. 18",
-   "text": "A title Isaiah gives to the Messiah, given here to a king who ended a war in his own city. Alma has spent the chapter saying the order points forward to the Son. The title does the same work in one phrase."
+   "text": "A title Isaiah gives to the Messiah (Isa. 9:6), given here to a king who ended a war in his own city. Alma has spent the chapter saying the order points forward to the Son. The title does the same work in one phrase.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Isa. 9:6",
+     "start": 37,
+     "end": 45,
+     "book": "Isa",
+     "chapter": 9,
+     "verse_start": 6,
+     "verse_end": 6
+    }
+   ]
   },
   {
    "term": "If ye will wrest them it shall be to your own destruction",
@@ -238,65 +408,100 @@
   {
    "term": "Tempted above that which ye can bear",
    "verse_label": "v. 28",
-   "text": "Paul's promise to the Corinthians in almost the same words, arriving here as an instruction about watching and praying. The Nephite version makes the limit conditional on the watching, which the letter does too and less obviously."
+   "text": "Paul's promise to the Corinthians (1 Cor. 10:13) in almost the same words, arriving here as an instruction about watching and praying. The Nephite version makes the limit conditional on the watching. The letter does the same, less directly.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Cor. 10:13",
+     "start": 35,
+     "end": 47,
+     "book": "1 Cor",
+     "chapter": 10,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
   }
  ],
  "verses": [
   {
-   "label": "v. 1–5",
+   "label": "v. 1–11",
    "start": 1,
+   "end": 11,
+   "title": "One noun holds the chapter together",
+   "text": "Order stands fourteen times across eleven of these verses, always in the same phrase or a variant of it: \"the order of his Son,\" \"the holy order of God,\" \"this holy order,\" \"the order of the Son, the Only Begotten of the Father.\" Manner accompanies it six times, \"in what manner to look forward,\" \"this is the manner after which they were ordained,\" \"they were ordained after this manner.\" The chapter is about a category rather than about people, and it never names a single individual until verse 14."
+  },
+  {
+   "label": "v. 3–5",
+   "start": 3,
    "end": 5,
-   "title": "Ordination explained",
-   "text": "Priests ordained after the order of the Son, so that people would know how to look forward to him. Then the hard part: called and prepared from the foundation of the world, on account of faith and good works, having been left to choose, and having started level with everyone else."
+   "title": "Selection stated, and then its obvious reading blocked",
+   "text": "The record gives the doctrine with a ground attached: \"being called and prepared from the foundation of the world according to the foreknowledge of God, on account of their exceeding faith and good works.\" The last clause is doing the work, since it makes the calling follow from conduct. Verse 5 then forecloses a reading of privilege before anyone can take it: \"in the first place they were on the same standing with their brethren.\" A record making a claim about foreordination puts the equality clause two verses after it."
   },
   {
-   "label": "v. 6–9",
-   "start": 6,
-   "end": 9,
-   "title": "The order itself",
-   "text": "Alma turns from the men to the office: high priesthood after the order of the Son, from the foundation of the world, without beginning or end, prepared from eternity to all eternity. The passage ends with a burst of praise and an Amen, in the middle of a sermon."
-  },
-  {
-   "label": "v. 10–13",
-   "start": 10,
-   "end": 13,
-   "title": "What it did to them",
-   "text": "Many were ordained, on account of faith and repentance and righteousness. They were sanctified, washed white, made pure, unable to look at sin without recoiling, and they entered into rest. Verse 13 turns the description into an invitation."
-  },
-  {
-   "label": "v. 14–19",
-   "start": 14,
-   "end": 19,
-   "title": "Melchizedek",
-   "text": "A high priest of the same order, to whom Abraham paid a tenth, king over a land whose people had all gone astray. He preached, they repented, he made peace, and they called him the prince of peace. None were greater, which is why he is the one remembered."
-  },
-  {
-   "label": "v. 20–22",
+   "label": "v. 20",
    "start": 20,
-   "end": 22,
-   "title": "The handoff",
-   "text": "Alma stops rehearsing, points at the scriptures, warns against twisting them, then raises his voice and begins the appeal: now is the time, the day of salvation is near, and angels are declaring it to all nations."
+   "end": 20,
+   "title": "A speaker stops and points at a text instead",
+   "text": "The record has the argument break off in mid-course: \"Now I need not rehearse the matter; what I have said may suffice.\" What replaces further exposition is a reference and a warning: \"Behold, the scriptures are before you; if ye will wrest them it shall be to your own destruction.\" The audience is told the material is available to them and that misreading it is the danger, which shifts the responsibility from the speaker's completeness to the hearer's handling."
   },
   {
-   "label": "v. 23–26",
-   "start": 23,
-   "end": 26,
-   "title": "Why we can be sure",
-   "text": "The message is given in plain terms so that hearers cannot err, and Alma explains the plainness by their condition as wanderers in a strange land. He wishes aloud that the coming might fall in his own lifetime and says he will rejoice either way."
-  },
-  {
-   "label": "v. 27–31",
-   "start": 27,
+   "label": "v. 31",
+   "start": 31,
    "end": 31,
-   "title": "The appeal, and what was left out",
-   "text": "Anxiety unto pain, cast off your sins, do not put it off, watch and pray, be humble and meek and patient, have faith and hope and love, be lifted up at the last day. Then Mormon notes that much more was said and is not here."
+   "title": "A closing admission of omission",
+   "text": "The chapter ends on the abridger rather than the speaker: \"Alma spake many more words unto the people, which are not written in this book.\" The same formula closes Mosiah 1:8 and appears in a related form at Hel. 8:3 and 3 Ne. 5:8. A chapter that has just told its hearers the scriptures are before them ends by noting that part of what was said is not.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Mosiah 1:8",
+     "start": 164,
+     "end": 174,
+     "book": "Mosiah",
+     "chapter": 1,
+     "verse_start": 8,
+     "verse_end": 8
+    },
+    {
+     "kind": "scripture",
+     "text": "Hel. 8:3",
+     "start": 208,
+     "end": 216,
+     "book": "Hel",
+     "chapter": 8,
+     "verse_start": 3,
+     "verse_end": 3
+    },
+    {
+     "kind": "scripture",
+     "text": "3 Ne. 5:8",
+     "start": 221,
+     "end": 230,
+     "book": "3 Ne",
+     "chapter": 5,
+     "verse_start": 8,
+     "verse_end": 8
+    }
+   ]
   }
  ],
  "chapter": [
   {
    "n": 1,
    "title": "The doctrine of calling is offered to people who denied Alma's",
-   "text": "Ammonihah's first objection was authority. Rather than assert his own, Alma explains where any of it comes from, and the explanation insists that everyone started on the same footing."
+   "text": "Alma 9:2 had put the objection as a question about credentials, \"Who art thou? Suppose ye that we shall believe the testimony of one man?\" The answer here never asserts a credential. Verse 3 traces ordination to \"exceeding faith and good works\" and to being \"left to choose good or evil,\" and verse 5 states the starting position outright, \"in the first place they were on the same standing with their brethren.\" Verse 4 supplies the contrast in the same terms, others rejecting \"on account of the hardness of their hearts,\" so both outcomes are traced to the same origin.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 9:2",
+     "start": 0,
+     "end": 8,
+     "book": "Alma",
+     "chapter": 9,
+     "verse_start": 2,
+     "verse_end": 2
+    }
+   ]
   },
   {
    "n": 2,
@@ -316,7 +521,19 @@
   {
    "n": 5,
    "title": "Melchizedek is expanded from three verses to six",
-   "text": "The record fills in a figure Genesis barely sketches, and what it fills in is a wicked city that repented under one man's preaching. Alma is standing in a wicked city preaching."
+   "text": "The record fills in a figure Genesis barely sketches (Gen. 14:18–20), and what it fills in is a wicked city that repented under one man's preaching. Alma is standing in a wicked city preaching.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Gen. 14:18–20",
+     "start": 54,
+     "end": 67,
+     "book": "Gen",
+     "chapter": 14,
+     "verse_start": 18,
+     "verse_end": 20
+    }
+   ]
   },
   {
    "n": 6,
@@ -339,7 +556,24 @@
    {
     "title": "Explain the office instead of defending yourself",
     "verse_label": "v. 3–5",
-    "text": "Accused of overreach, Alma taught where authority comes from and insisted nobody was favored. When your standing is questioned, try describing the thing itself rather than your claim on it."
+    "text": "Accused of overreach at Alma 9:2, Alma taught where authority comes from and then blocked the reading that would have flattered him, \"in the first place they were on the same standing with their brethren.\" When your standing is questioned, describe the thing itself rather than your claim on it.",
+    "refs": [
+     {
+      "kind": "scripture",
+      "text": "Alma 9:2",
+      "start": 24,
+      "end": 32,
+      "book": "Alma",
+      "chapter": 9,
+      "verse_start": 2,
+      "verse_end": 2
+     }
+    ]
+   },
+   {
+    "title": "Look at the clause that does the work",
+    "verse_label": "v. 3",
+    "text": "The calling is \"from the foundation of the world according to the foreknowledge of God,\" and then, \"on account of their exceeding faith and good works.\" The last clause is what makes the doctrine liveable. When a claim about you sounds like destiny, find the part of the sentence that describes conduct."
    },
    {
     "title": "Measure holiness by what repels you",
@@ -347,14 +581,29 @@
     "text": "The chapter's test is appetite. Notice what you have stopped being able to enjoy over the last few years, and what you have started tolerating. Both directions tell you something."
    },
    {
-    "title": "Name the cost of saying the hard thing",
-    "verse_label": "v. 27",
-    "text": "Alma tells them the appeal comes with anxiety unto pain from the inmost part of his heart. When you have to say something difficult to someone, saying what it costs you is not weakness and it is usually heard."
-   },
-   {
     "title": "Do the checkable part carefully",
     "verse_label": "v. 15",
-    "text": "Alma explains that tithes means a tenth, to hearers who probably knew. Where you are making a large claim, make the small verifiable piece unmistakably clear. It is what buys the rest."
+    "text": "Alma gives the figure exactly, \"tithes of one-tenth part of all he possessed,\" to hearers who probably knew. Where you are making a large claim, make the small verifiable piece unmistakably clear. It is what buys the rest."
+   },
+   {
+    "title": "Stop and point at the text",
+    "verse_label": "v. 20",
+    "text": "He breaks off mid-argument, \"Now I need not rehearse the matter; what I have said may suffice,\" and hands over the responsibility, \"the scriptures are before you; if ye will wrest them it shall be to your own destruction.\" Sometimes the useful move is to stop explaining and tell people where to look."
+   },
+   {
+    "title": "Notice the claim about the present",
+    "verse_label": "v. 24",
+    "text": "Three of the four angel verses speak generally; verse 24 says \"angels are declaring it unto many at this time in our land.\" A doctrine stated in the abstract and a report about this week are different kinds of statement, and it is worth knowing which you have been given."
+   },
+   {
+    "title": "Say what a thing costs you",
+    "verse_label": "v. 27",
+    "text": "Alma names the anxiety that reaches \"pain in my innermost heart\" as the reason he keeps pressing. When you have to say something difficult to someone, saying what it costs you is not weakness and it is usually heard."
+   },
+   {
+    "title": "Give the three instructions in order",
+    "verse_label": "v. 27–29",
+    "text": "Repent, be humble enough to be led, and then a list: faith, hope, charity, always abounding in good works. The chapter that spends twenty verses on priesthood ends on a set of dispositions any hearer could work on that afternoon."
    }
   ],
   "questions": [
@@ -427,7 +676,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al12-022"
   },
   {
    "id": "al13-002",
@@ -453,7 +702,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al34-003"
   },
   {
    "id": "al13-003",
@@ -479,7 +728,163 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al27-004"
+  },
+  {
+   "id": "al13-013",
+   "scope": "BOOK",
+   "head": "Alma 12:26",
+   "anchor": {
+    "verse": 3,
+    "w1": 74,
+    "w2": 76,
+    "quote": "a preparatory redemption"
+   },
+   "reason": "the preparatory state denied to the fallen",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 12,
+     "verse": 26,
+     "w1": 29,
+     "w2": 32,
+     "quote": "having no preparatory state;",
+     "verse_text": "And now behold, if it were possible that our first parents could have gone forth and partaken of the tree of life they would have been forever miserable, having no preparatory state; and thus the plan of redemption would have been frustrated, and the word of God would have been void, taking none effect.",
+     "markdown": "And now behold, if it were possible that our first parents could have gone forth and partaken of the tree of life they would have been forever miserable, **having no preparatory state**; and thus the plan of redemption would have been frustrated, and the word of God would have been void, taking none effect.",
+     "span": true
+    }
+   ],
+   "mirror": "al12-004"
+  },
+  {
+   "id": "al13-016",
+   "scope": "BOOK",
+   "head": "Alma 39:15",
+   "anchor": {
+    "verse": 22,
+    "w1": 27,
+    "w2": 31,
+    "quote": "glad tidings of great joy;"
+   },
+   "reason": "the same phrase used privately to Corianton",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 39,
+     "verse": 15,
+     "w1": 40,
+     "w2": 48,
+     "quote": "to declare glad tidings of salvation unto his people.",
+     "verse_text": "And now, my son, I would say somewhat unto you concerning the coming of Christ. Behold, I say unto you, that it is he that surely shall come to take away the sins of the world; yea, he cometh to declare glad tidings of salvation unto his people.",
+     "markdown": "And now, my son, I would say somewhat unto you concerning the coming of Christ. Behold, I say unto you, that it is he that surely shall come to take away the sins of the world; yea, he cometh **to declare glad tidings of salvation unto his people**.",
+     "span": true
+    }
+   ],
+   "mirror": "al39-004"
+  },
+  {
+   "id": "al13-011",
+   "scope": "BOM",
+   "head": "2 Ne. 6:2",
+   "anchor": {
+    "verse": 1,
+    "w1": 32,
+    "w2": 40,
+    "quote": "the Lord God ordained priests, after his holy order,"
+   },
+   "reason": "Jacob citing his own ordination to it",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 6,
+     "verse": 2,
+     "w1": 13,
+     "w2": 20,
+     "quote": "ordained after the manner of his holy order,",
+     "verse_text": "Behold, my beloved brethren, I, Jacob, having been called of God, and ordained after the manner of his holy order, and having been consecrated by my brother Nephi, unto whom ye look as a king or a protector, and on whom ye depend for safety, behold ye know that I have spoken unto you exceedingly many things.",
+     "markdown": "Behold, my beloved brethren, I, Jacob, having been called of God, and **ordained after the manner of his holy order**, and having been consecrated by my brother Nephi, unto whom ye look as a king or a protector, and on whom ye depend for safety, behold ye know that I have spoken unto you exceedingly many things.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne06-006"
+  },
+  {
+   "id": "al13-012",
+   "scope": "BOM",
+   "head": "Moro. 3:4",
+   "anchor": {
+    "verse": 1,
+    "w1": 32,
+    "w2": 40,
+    "quote": "the Lord God ordained priests, after his holy order,"
+   },
+   "reason": "the manner the Nephite church used",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 3,
+     "verse": 4,
+     "w1": 11,
+     "w2": 20,
+     "quote": "according to the gifts and callings of God unto men;",
+     "verse_text": "And after this manner did they ordain priests and teachers, according to the gifts and callings of God unto men; and they ordained them by the power of the Holy Ghost, which was in them.",
+     "markdown": "And after this manner did they ordain priests and teachers, **according to the gifts and callings of God unto men**; and they ordained them by the power of the Holy Ghost, which was in them.",
+     "span": true
+    }
+   ],
+   "mirror": "moro03-004"
+  },
+  {
+   "id": "al13-014",
+   "scope": "BOM",
+   "head": "3 Ne. 24:8",
+   "anchor": {
+    "verse": 15,
+    "w1": 16,
+    "w2": 25,
+    "quote": "Abraham paid tithes of one-tenth part of all he possessed."
+   },
+   "reason": "Malachi on tithes and offerings withheld",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 24,
+     "verse": 8,
+     "w1": 19,
+     "w2": 22,
+     "quote": "In tithes and offerings.",
+     "verse_text": "Will a man rob God? Yet ye have robbed me. But ye say: Wherein have we robbed thee? In tithes and offerings.",
+     "markdown": "Will a man rob God? Yet ye have robbed me. But ye say: Wherein have we robbed thee? **In tithes and offerings**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne24-004"
+  },
+  {
+   "id": "al13-015",
+   "scope": "BOM",
+   "head": "Ether 13:6",
+   "anchor": {
+    "verse": 16,
+    "w1": 21,
+    "w2": 27,
+    "quote": "it being a type of his order,"
+   },
+   "reason": "Moroni using the word of Joseph",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 13,
+     "verse": 6,
+     "w1": 21,
+     "w2": 28,
+     "quote": "for which things there has been a type.",
+     "verse_text": "And that a New Jerusalem should be built up upon this land, unto the remnant of the seed of Joseph, for which things there has been a type.",
+     "markdown": "And that a New Jerusalem should be built up upon this land, unto the remnant of the seed of Joseph, **for which things there has been a type**.",
+     "span": true
+    }
+   ],
+   "mirror": "eth13-007"
   },
   {
    "id": "al13-004",
@@ -595,7 +1000,7 @@
     "w2": 51,
     "quote": "he was called the prince of peace"
    },
-   "reason": "the Messiah’s title, given to a king",
+   "reason": "the Messiah's title, given to a king",
    "targets": [
     {
      "ref": "Isa.",
@@ -666,12 +1071,31 @@
  ],
  "markers": [
   {
+   "verse": 1,
+   "w1": 32,
+   "w2": 40,
+   "quote": "the Lord God ordained priests, after his holy order,",
+   "entries": [
+    "al13-011",
+    "al13-012"
+   ]
+  },
+  {
    "verse": 3,
    "w1": 20,
    "w2": 25,
    "quote": "according to the foreknowledge of God",
    "entries": [
     "al13-004"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 74,
+   "w2": 76,
+   "quote": "a preparatory redemption",
+   "entries": [
+    "al13-013"
    ]
   },
   {
@@ -714,9 +1138,19 @@
    "verse": 15,
    "w1": 16,
    "w2": 25,
-   "quote": "Abraham paid tithes of one-tenth part of all he possessed",
+   "quote": "Abraham paid tithes of one-tenth part of all he possessed.",
    "entries": [
+    "al13-014",
     "al13-007"
+   ]
+  },
+  {
+   "verse": 16,
+   "w1": 21,
+   "w2": 27,
+   "quote": "it being a type of his order,",
+   "entries": [
+    "al13-015"
    ]
   },
   {
@@ -735,6 +1169,15 @@
    "quote": "if ye will wrest them it shall be to your own destruction",
    "entries": [
     "al13-009"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 27,
+   "w2": 31,
+   "quote": "glad tidings of great joy;",
+   "entries": [
+    "al13-016"
    ]
   },
   {
@@ -757,7 +1200,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "c8fe6bc215dd4c26"
+  "at": "2026-09-07",
+  "source_sha256": "7276e2f8e803e168"
  }
 }

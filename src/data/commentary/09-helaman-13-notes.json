@@ -15,9 +15,10 @@
   "unit": "Samuel the Lamanite (Helaman 13–16)",
   "principles": [
    "A prophet sent back after being refused",
-   "A city standing on account"
+   "A city standing on account of its righteous",
+   "Riches that will not stay held"
   ],
-  "connections": 10,
+  "connections": 19,
   "initial": true
  },
  "world_behind": [
@@ -29,12 +30,24 @@
   {
    "n": 2,
    "title": "He was already finished and leaving",
-   "text": "Verses 2 and 3 have him cast out, headed home, and turned around by the voice of the Lord."
+   "text": "Verses 2 and 3 have him cast out, headed home, and turned around by the voice of the Lord. Helaman 10:12 has Nephi make the same turn a few chapters earlier, stopping short of his own house and going back. Two prophets in this book are sent back to a city that has just refused them."
   },
   {
    "n": 3,
    "title": "The wall is a workaround",
-   "text": "Verse 4 says they would not let him into the city, so he climbed the wall and preached from there."
+   "text": "Verse 4 says they would not suffer him to enter the city, so he got upon the wall. Helaman 7:10 puts Nephi on a tower in his own garden and Alma 31:13 puts the Zoramites on a raised stand; the record keeps noting where a speaker had to stand to be heard.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 31:13",
+     "start": 140,
+     "end": 150,
+     "book": "Alma",
+     "chapter": 31,
+     "verse_start": 13,
+     "verse_end": 13
+    }
+   ]
   },
   {
    "n": 4,
@@ -54,7 +67,7 @@
   {
    "n": 7,
    "title": "The lament is written out in advance",
-   "text": "Verses 33 through 37 give the words the people will say, and verse 37 ends them mid-prayer."
+   "text": "Verses 33 through 37 give the words the people will say afterwards, and verse 37 ends them mid-prayer. Mormon 2:10 to 14 reports that lament actually being spoken four hundred years later, and calls it the sorrowing of the damned rather than repentance."
   }
  ],
  "words": [
@@ -182,53 +195,140 @@
  ],
  "verses": [
   {
-   "label": "v. 1–7",
-   "start": 1,
+   "label": "v. 4",
+   "start": 4,
+   "end": 4,
+   "title": "One clause of staging that shapes the rest",
+   "text": "The record explains the pulpit before it reports a word: \"they would not suffer that he should enter into the city; therefore he went and got upon the wall thereof.\" Everything after follows from that sentence. The preacher is outside, above, and unable to be reached, which is why the chapter ends with him still speaking and why the next chapter can have people shooting at him. A sermon delivered from a city wall by a man of the enemy nation is a different act from the same words spoken indoors, and the record supplies the difference in a single subordinate clause."
+  },
+  {
+   "label": "v. 5–7",
+   "start": 5,
    "end": 7,
-   "title": "Sent back",
-   "text": "In the eighty-sixth year the Nephites remain in great wickedness while the Lamanites keep the commandments strictly. Samuel, a Lamanite, comes to Zarahemla, preaches repentance many days, is cast out, and starts home. The voice of the Lord sends him back to prophesy whatever comes into his heart. Refused entry, he climbs the wall and cries out that the sword of justice hangs over the people and will fall within four hundred years, and that only repentance and faith in Christ can save them. An angel had brought him glad tidings to deliver, and they would not receive him."
+   "title": "Three links, stated before any content",
+   "text": "The record sets out the chain that carries the message before it gives any of the message. The Lord \"doth put into my heart\" (v. 5), then \"an angel of the Lord hath declared it unto me, and he did bring glad tidings to my soul\" (v. 7), then \"I was sent unto you to declare it unto you\" (v. 7). Source, courier, errand. The speaker also names himself twice in three verses, \"I, Samuel, a Lamanite,\" which is the only self-identification in the sermon and the fact his audience would find hardest to accept.",
+   "cites": [
+    {
+     "quote": "doth put into my heart",
+     "verse": 5,
+     "start": 100,
+     "end": 131,
+     "spans": [
+      {
+       "w1": 20,
+       "w2": 24,
+       "text": "doth put into my heart"
+      }
+     ]
+    },
+    {
+     "quote": "an angel of the Lord hath declared it unto me, and he did bring glad tidings to my soul",
+     "verse": 7,
+     "start": 138,
+     "end": 234,
+     "spans": [
+      {
+       "w1": 3,
+       "w2": 21,
+       "text": "an angel of the Lord hath declared it unto me, and he did bring glad tidings to my soul"
+      }
+     ]
+    },
+    {
+     "quote": "I was sent unto you to declare it unto you",
+     "verse": 7,
+     "start": 241,
+     "end": 292,
+     "spans": [
+      {
+       "w1": 24,
+       "w2": 33,
+       "text": "I was sent unto you to declare it unto you"
+      }
+     ]
+    }
+   ]
   },
   {
-   "label": "v. 8–11",
+   "label": "v. 8–29",
    "start": 8,
-   "end": 11,
-   "title": "The terms",
-   "text": "Unless they repent, the Lord will take away his word, withdraw his Spirit, suffer them no longer, and turn their brethren's hearts against them. Within four hundred years he will smite them with sword, famine, and pestilence, and men of the fourth generation among their enemies will live to see the destruction. If they repent, the anger turns away."
+   "end": 29,
+   "title": "A sermon built out of two words",
+   "text": "Will stands twenty-eight times in this chapter and every use falls between verses 8 and 29. Only two chapters of scripture use it more. Because stands nineteen times across fifteen verses, second among the eight hundred and four chapters that use it at all, and it too stops at verse 35. One word puts the whole sermon in the future and the other supplies a reason for every item in it. Strip both and almost nothing of the argument survives, because the argument is entirely a chain of causes running forward."
   },
   {
-   "label": "v. 12–17",
-   "start": 12,
-   "end": 17,
-   "title": "Wo on the cities",
-   "text": "Wo to Zarahemla, saved only because of the righteous in it, though the more part will harden their hearts. The repentant will be spared, and without the righteous, fire would come down from heaven. When they cast the righteous out, they will be ripe. Wo also to Gideon and to all the cities round about, and a curse comes on the land itself."
+   "label": "v. 9",
+   "start": 9,
+   "end": 9,
+   "title": "A number repeated across sixty-eight years",
+   "text": "\"Four hundred years shall not pass away before I will cause that they shall be smitten.\" The phrase four hundred years stands in four verses of the volume: Alma 45:10, this verse and verse 5 here, and Morm. 8:6. Alma gave the figure about sixty-eight years before Samuel does, anchoring it to the coming of Christ; Samuel anchors it to his own day. Mormon 8:6 is the fourth, written by a man reporting that the term has run out. A reader can line up all four and check that the arithmetic holds.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 45:10",
+     "start": 156,
+     "end": 166,
+     "book": "Alma",
+     "chapter": 45,
+     "verse_start": 10,
+     "verse_end": 10
+    },
+    {
+     "kind": "scripture",
+     "text": "Morm. 8:6",
+     "start": 201,
+     "end": 210,
+     "book": "Morm",
+     "chapter": 8,
+     "verse_start": 6,
+     "verse_end": 6
+    }
+   ]
   },
   {
-   "label": "v. 18–23",
+   "label": "v. 18–20",
    "start": 18,
-   "end": 23,
-   "title": "The curse on treasure",
-   "text": "Whoever hides treasure in the earth will not find it again, except a righteous man who hides it up unto the Lord. Those who do not are cursed, and so is the treasure, and none shall redeem it. The day comes when they will hide their treasures because their hearts are set on riches and they are fleeing enemies. They are cursed because of their riches, and their riches with them, since they remember the riches and not the giver."
+   "end": 20,
+   "title": "A curse described as a property of objects",
+   "text": "Hide is used seven times in three verses and nowhere else in the chapter. What the curse does is not stated as punishment but as behaviour belonging to things: \"whoso shall hide up treasures in the earth shall find them again no more, because of the great curse of the land.\" Verse 19 supplies the exception, treasures hidden \"unto me,\" and verse 20 the diagnosis, \"because they have set their hearts upon riches.\" Later verses extend it to tools and swords, and slippery becomes the word for it, standing in three verses here and returning once more in the volume at Morm. 1:18.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Morm. 1:18",
+     "start": 568,
+     "end": 578,
+     "book": "Morm",
+     "chapter": 1,
+     "verse_start": 18,
+     "verse_end": 18
+    }
+   ]
   },
   {
-   "label": "v. 24–28",
-   "start": 24,
+   "label": "v. 25–28",
+   "start": 25,
    "end": 28,
-   "title": "How they treat prophets",
-   "text": "Wo for casting out, mocking, stoning, and slaying the prophets as men did of old. They say that in their fathers' day they would not have done it. Samuel says they are worse: a prophet who names their sins is called false and of the devil, while a man who says do what you like and all is well is lifted up, given gold and silver and costly apparel, and called a prophet."
+   "title": "The audience's own excuse, quoted and then answered",
+   "text": "The sermon puts a sentence in its hearers' mouths: \"If our days had been in the days of our fathers of old, we would not have slain the prophets; we would not have stoned them.\" The same move appears at Matt. 23:30, where the wording is \"If we had been in the days of our fathers, we would not have been partakers with them in the blood of the prophets.\" What follows here is not the reply Matthew gives. Instead of calling them the children of the killers, verses 26 to 28 describe what they in fact do with two kinds of preacher, and let the contrast between the true prophet cast out and the flatterer clothed in costly apparel stand as the refutation.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Matt. 23:30",
+     "start": 203,
+     "end": 214,
+     "book": "Matt",
+     "chapter": 23,
+     "verse_start": 30,
+     "verse_end": 30
+    }
+   ]
   },
   {
-   "label": "v. 29–37",
-   "start": 29,
+   "label": "v. 32–37",
+   "start": 32,
    "end": 37,
-   "title": "Slippery",
-   "text": "He calls them wicked, perverse, hardened, and stiffnecked, and asks how long they will be led by blind guides and choose darkness. The anger is already kindled and the land already cursed. Their riches will become slippery and unholdable, and in their poverty they will cry in vain, weep, and howl. He writes their lament for them: a wish they had repented, tools gone by morning, swords missing on the day of battle, treasures slipped away, and a sense of being surrounded by demons."
-  },
-  {
-   "label": "v. 38–39",
-   "start": 38,
-   "end": 39,
-   "title": "Too late, and a prayer",
-   "text": "Their days of probation are past, the day of salvation procrastinated until it is everlastingly too late, and they have sought happiness in doing iniquity, which is contrary to righteousness. Samuel wishes they would hear him and prays that the anger be turned away and that they repent and be saved."
+   "title": "Six verses of speech that nobody has said yet",
+   "text": "The record gives a long passage of first-person lament and attributes it to the future: \"in that day ye shall say: O that we had remembered the Lord our God.\" Five more verses continue in the same voice, complaining about a tool laid down and gone by morning, swords missing on the day of battle, treasures that have slipped away. This is direct discourse with no speaker, quoted in advance from people who will be sorry. Then verse 38 drops the device and addresses the living: \"your days of probation are past.\""
   }
  ],
  "chapter": [
@@ -286,6 +386,21 @@
     "text": "Barred from the city, he used its boundary. When the ordinary access is denied, look for the position that still lets the work happen."
    },
    {
+    "title": "Remember the warning was meant as good news",
+    "verse_label": "v. 7",
+    "text": "Samuel says an angel brought glad tidings to his soul and that he came so they could have them too. A message that lands as a rebuke was often sent as an offer, and the hearing decides which one it becomes."
+   },
+   {
+    "title": "A few people can be why a place stands",
+    "verse_label": "v. 13",
+    "text": "The city is spared for the sake of the righteous who are in it. Whatever you think of your own influence, being present somewhere is a contribution this record is willing to count."
+   },
+   {
+    "title": "Distrust the story in which you would have done better",
+    "verse_label": "v. 25",
+    "text": "They said that had their days been in their fathers' days, they would not have slain the prophets. A confident account of how you would have acted in a past you did not live through is flattering and untested."
+   },
+   {
     "title": "Watch who you reward for telling you things",
     "verse_label": "v. 28",
     "text": "They paid the man who said all is well. Notice which messengers you fund and which you resent."
@@ -294,6 +409,11 @@
     "title": "Hold your holdings loosely",
     "verse_label": "v. 31",
     "text": "The curse was on keeping rather than on having. Anything you are counting on to stay put is worth examining while it is still in hand."
+   },
+   {
+    "title": "Name the delay as the decision",
+    "verse_label": "v. 38",
+    "text": "The charge here is procrastination of the day of salvation rather than any outright refusal. Postponing something long enough is a way of choosing it, and it never feels like the moment you chose."
    }
   ],
   "questions": [
@@ -392,7 +512,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel06-012"
   },
   {
    "id": "hel13-003",
@@ -444,7 +564,85 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "hel12-012"
+  },
+  {
+   "id": "hel13-011",
+   "scope": "BOOK",
+   "head": "Hel. 14:10",
+   "anchor": {
+    "verse": 2,
+    "w1": 35,
+    "w2": 49,
+    "quote": "he did preach, many days, repentance unto the people, and they did cast him out,"
+   },
+   "reason": "Samuel giving his own reason for the rejection",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 14,
+     "verse": 10,
+     "w1": 3,
+     "w2": 20,
+     "quote": "because I am a Lamanite, and have spoken unto you the words which the Lord hath commanded me,",
+     "verse_text": "And now, because I am a Lamanite, and have spoken unto you the words which the Lord hath commanded me, and because it was hard against you, ye are angry with me and do seek to destroy me, and have cast me out from among you.",
+     "markdown": "And now, **because I am a Lamanite, and have spoken unto you the words which the Lord hath commanded me**, and because it was hard against you, ye are angry with me and do seek to destroy me, and have cast me out from among you.",
+     "span": true
+    }
+   ],
+   "mirror": "hel14-001"
+  },
+  {
+   "id": "hel13-012",
+   "scope": "BOOK",
+   "head": "Hel. 14:2",
+   "anchor": {
+    "verse": 5,
+    "w1": 49,
+    "w2": 63,
+    "quote": "four hundred years pass not away save the sword of justice falleth upon this people."
+   },
+   "reason": "the five-year interval he gave alongside it",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 14,
+     "verse": 2,
+     "w1": 14,
+     "w2": 26,
+     "quote": "for five years more cometh, and behold, then cometh the Son of God",
+     "verse_text": "And behold, he said unto them: Behold, I give unto you a sign; for five years more cometh, and behold, then cometh the Son of God to redeem all those who shall believe on his name.",
+     "markdown": "And behold, he said unto them: Behold, I give unto you a sign; **for five years more cometh, and behold, then cometh the Son of God** to redeem all those who shall believe on his name.",
+     "span": true
+    }
+   ],
+   "mirror": "hel14-002"
+  },
+  {
+   "id": "hel13-013",
+   "scope": "BOOK",
+   "head": "Hel. 15:1",
+   "anchor": {
+    "verse": 12,
+    "w1": 11,
+    "w2": 22,
+    "quote": "it is because of those who are righteous that it is saved;"
+   },
+   "reason": "the houses left desolate without repentance",
+   "targets": [
+    {
+     "ref": "Hel.",
+     "chapter": 15,
+     "verse": 1,
+     "w1": 12,
+     "w2": 23,
+     "quote": "except ye shall repent your houses shall be left unto you desolate.",
+     "verse_text": "And now, my beloved brethren, behold, I declare unto you that except ye shall repent your houses shall be left unto you desolate.",
+     "markdown": "And now, my beloved brethren, behold, I declare unto you that **except ye shall repent your houses shall be left unto you desolate**.",
+     "span": true
+    }
+   ],
+   "mirror": "hel15-001"
   },
   {
    "id": "hel13-005",
@@ -470,7 +668,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "morm01-004"
   },
   {
    "id": "hel13-006",
@@ -496,7 +694,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al34-017"
   },
   {
    "id": "hel13-007",
@@ -508,7 +706,7 @@
     "w2": 55,
     "quote": "ye have sought for happiness in doing iniquity"
    },
-   "reason": "Alma putting the same claim to his son in four words",
+   "reason": "Alma putting the same claim in four words",
    "targets": [
     {
      "ref": "Alma",
@@ -522,7 +720,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al41-010"
   },
   {
    "id": "hel13-008",
@@ -548,7 +746,163 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "2ne28-009"
+  },
+  {
+   "id": "hel13-014",
+   "scope": "BOM",
+   "head": "3 Ne. 8:24",
+   "anchor": {
+    "verse": 13,
+    "w1": 29,
+    "w2": 42,
+    "quote": "I would cause that fire should come down out of heaven and destroy it."
+   },
+   "reason": "the survivors naming the city that burned",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 8,
+     "verse": 24,
+     "w1": 31,
+     "w2": 41,
+     "quote": "they would not have been burned in that great city Zarahemla.",
+     "verse_text": "And in one place they were heard to cry, saying: O that we had repented before this great and terrible day, and then would our brethren have been spared, and they would not have been burned in that great city Zarahemla.",
+     "markdown": "And in one place they were heard to cry, saying: O that we had repented before this great and terrible day, and then would our brethren have been spared, and **they would not have been burned in that great city Zarahemla**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne08-007"
+  },
+  {
+   "id": "hel13-015",
+   "scope": "BOM",
+   "head": "3 Ne. 3:24",
+   "anchor": {
+    "verse": 18,
+    "w1": 19,
+    "w2": 32,
+    "quote": "whoso shall hide up treasures in the earth shall find them again no more,"
+   },
+   "reason": "the curse still on the land northward",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 3,
+     "verse": 24,
+     "w1": 35,
+     "w2": 45,
+     "quote": "because of the great curse which was upon the land northward.",
+     "verse_text": "And there were a great many thousand people who were called Nephites, who did gather themselves together in this land. Now Lachoneus did cause that they should gather themselves together in the land southward, because of the great curse which was upon the land northward.",
+     "markdown": "And there were a great many thousand people who were called Nephites, who did gather themselves together in this land. Now Lachoneus did cause that they should gather themselves together in the land southward, **because of the great curse which was upon the land northward**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne03-008"
+  },
+  {
+   "id": "hel13-016",
+   "scope": "BOM",
+   "head": "Ether 11:13",
+   "anchor": {
+    "verse": 24,
+    "w1": 14,
+    "w2": 28,
+    "quote": "ye do cast out the prophets, and do mock them, and cast stones at them,"
+   },
+   "reason": "Jaredite prophets mourning and withdrawing",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 11,
+     "verse": 13,
+     "w1": 20,
+     "w2": 28,
+     "quote": "the prophets mourned and withdrew from among the people.",
+     "verse_text": "And it came to pass that the people hardened their hearts, and would not hearken unto their words; and the prophets mourned and withdrew from among the people.",
+     "markdown": "And it came to pass that the people hardened their hearts, and would not hearken unto their words; and **the prophets mourned and withdrew from among the people**.",
+     "span": true
+    }
+   ],
+   "mirror": "eth11-006"
+  },
+  {
+   "id": "hel13-017",
+   "scope": "BOM",
+   "head": "Morm. 4:12",
+   "anchor": {
+    "verse": 32,
+    "w1": 21,
+    "w2": 33,
+    "quote": "your desolation is already come upon you, and your destruction is made sure;"
+   },
+   "reason": "Mormon on wickedness past anything before",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 4,
+     "verse": 12,
+     "w1": 1,
+     "w2": 14,
+     "quote": "And there never had been so great wickedness among all the children of Lehi,",
+     "verse_text": "And there never had been so great wickedness among all the children of Lehi, nor even among all the house of Israel, according to the words of the Lord, as was among this people.",
+     "markdown": "**And there never had been so great wickedness among all the children of Lehi**, nor even among all the house of Israel, according to the words of the Lord, as was among this people.",
+     "span": true
+    }
+   ],
+   "mirror": "morm04-005"
+  },
+  {
+   "id": "hel13-018",
+   "scope": "BOM",
+   "head": "Ether 14:1",
+   "anchor": {
+    "verse": 35,
+    "w1": 2,
+    "w2": 14,
+    "quote": "we have hid up our treasures and they have slipped away from us,"
+   },
+   "reason": "the same curse among the Jaredites",
+   "targets": [
+    {
+     "ref": "Ether",
+     "chapter": 14,
+     "verse": 1,
+     "w1": 49,
+     "w2": 61,
+     "quote": "he could not find it, so great was the curse upon the land.",
+     "verse_text": "And now there began to be a great curse upon all the land because of the iniquity of the people, in which, if a man should lay his tool or his sword upon his shelf, or upon the place whither he would keep it, behold, upon the morrow, he could not find it, so great was the curse upon the land.",
+     "markdown": "And now there began to be a great curse upon all the land because of the iniquity of the people, in which, if a man should lay his tool or his sword upon his shelf, or upon the place whither he would keep it, behold, upon the morrow, **he could not find it, so great was the curse upon the land**.",
+     "span": true
+    }
+   ],
+   "mirror": "eth14-005"
+  },
+  {
+   "id": "hel13-019",
+   "scope": "BOM",
+   "head": "Morm. 2:10",
+   "anchor": {
+    "verse": 36,
+    "w1": 20,
+    "w2": 34,
+    "quote": "the land is cursed, and all things are become slippery, and we cannot hold them."
+   },
+   "reason": "Mormon reporting nobody could keep anything",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 2,
+     "verse": 10,
+     "w1": 28,
+     "w2": 38,
+     "quote": "for behold no man could keep that which was his own,",
+     "verse_text": "And it came to pass that the Nephites began to repent of their iniquity, and began to cry even as had been prophesied by Samuel the prophet; for behold no man could keep that which was his own, for the thieves, and the robbers, and the murderers, and the magic art, and the witchcraft which was in the land.",
+     "markdown": "And it came to pass that the Nephites began to repent of their iniquity, and began to cry even as had been prophesied by Samuel the prophet; **for behold no man could keep that which was his own**, for the thieves, and the robbers, and the murderers, and the magic art, and the witchcraft which was in the land.",
+     "span": true
+    }
+   ],
+   "mirror": "morm02-004"
   },
   {
    "id": "hel13-009",
@@ -560,7 +914,7 @@
     "w2": 27,
     "quote": "If our days had been in the days of our fathers of old, we would not have slain the prophets"
    },
-   "reason": "the same claim, quoted back at the same kind of audience",
+   "reason": "the same claim, quoted back at the same audience",
    "targets": [
     {
      "ref": "Matt.",
@@ -614,12 +968,39 @@
    ]
   },
   {
+   "verse": 2,
+   "w1": 35,
+   "w2": 49,
+   "quote": "he did preach, many days, repentance unto the people, and they did cast him out,",
+   "entries": [
+    "hel13-011"
+   ]
+  },
+  {
    "verse": 4,
    "w1": 19,
    "w2": 26,
    "quote": "he went and got upon the wall thereof",
    "entries": [
     "hel13-003"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 49,
+   "w2": 63,
+   "quote": "four hundred years pass not away save the sword of justice falleth upon this people.",
+   "entries": [
+    "hel13-012"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 11,
+   "w2": 22,
+   "quote": "it is because of those who are righteous that it is saved;",
+   "entries": [
+    "hel13-013"
    ]
   },
   {
@@ -632,12 +1013,22 @@
    ]
   },
   {
+   "verse": 13,
+   "w1": 29,
+   "w2": 42,
+   "quote": "I would cause that fire should come down out of heaven and destroy it.",
+   "entries": [
+    "hel13-014"
+   ]
+  },
+  {
    "verse": 18,
    "w1": 19,
    "w2": 32,
    "quote": "whoso shall hide up treasures in the earth shall find them again no more",
    "entries": [
-    "hel13-001"
+    "hel13-001",
+    "hel13-015"
    ]
   },
   {
@@ -647,6 +1038,15 @@
    "quote": "Ye do not remember the Lord your God in the things with which he hath blessed you",
    "entries": [
     "hel13-004"
+   ]
+  },
+  {
+   "verse": 24,
+   "w1": 14,
+   "w2": 28,
+   "quote": "ye do cast out the prophets, and do mock them, and cast stones at them,",
+   "entries": [
+    "hel13-016"
    ]
   },
   {
@@ -677,6 +1077,33 @@
    ]
   },
   {
+   "verse": 32,
+   "w1": 21,
+   "w2": 33,
+   "quote": "your desolation is already come upon you, and your destruction is made sure;",
+   "entries": [
+    "hel13-017"
+   ]
+  },
+  {
+   "verse": 35,
+   "w1": 2,
+   "w2": 14,
+   "quote": "we have hid up our treasures and they have slipped away from us,",
+   "entries": [
+    "hel13-018"
+   ]
+  },
+  {
+   "verse": 36,
+   "w1": 20,
+   "w2": 34,
+   "quote": "the land is cursed, and all things are become slippery, and we cannot hold them.",
+   "entries": [
+    "hel13-019"
+   ]
+  },
+  {
    "verse": 38,
    "w1": 9,
    "w2": 16,
@@ -696,7 +1123,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-26",
-  "source_sha256": "e87b63fbb0f0cf08"
+  "at": "2026-09-07",
+  "source_sha256": "a3ecbe6707ac7684"
  }
 }

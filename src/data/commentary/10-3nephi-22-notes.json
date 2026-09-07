@@ -1,0 +1,706 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "3 Nephi",
+  "book_slug": "3nephi",
+  "chapter": 22,
+  "volume_order": "10",
+  "speakers": [
+   "Jesus Christ",
+   "Isaiah"
+  ],
+  "audience": "The multitude and the twelve",
+  "location": "The land Bountiful",
+  "date": "AD 34",
+  "unit": "The covenant to the remnant (3 Nephi 20–22)",
+  "principles": [
+   "A whole prophetic chapter read to the people it names",
+   "A marriage image used for a covenant",
+   "Small wording changes that shift the sense"
+  ],
+  "connections": 10,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The chapter is Isaiah 54 in full",
+   "text": "All seventeen verses correspond to the seventeen of Isaiah 54."
+  },
+  {
+   "n": 2,
+   "title": "One clause is added at the front",
+   "text": "Verse 1 opens with \"And then shall that which is written come to pass\", which Isaiah 54:1 does not have."
+  },
+  {
+   "n": 3,
+   "title": "Verse 4 carries a repeated line",
+   "text": "The clause \"of thy youth, and shalt not remember the reproach\" appears twice in a row, where Isaiah 54:4 has it once."
+  },
+  {
+   "n": 4,
+   "title": "Verse 5 rearranges a title",
+   "text": "Isaiah 54:5 reads \"thy Maker is thine husband\"; verse 5 here reads \"thy maker, thy husband\"."
+  },
+  {
+   "n": 5,
+   "title": "Verse 9 drops two words and a clause",
+   "text": "Isaiah 54:9 has \"this is as the waters of Noah\" and ends \"nor rebuke thee\"; verse 9 has neither."
+  },
+  {
+   "n": 6,
+   "title": "Verse 15 adds a direction",
+   "text": "Isaiah 54:15 has \"they shall surely gather together, but not by me\"; verse 15 has \"gather together against thee, not by me\"."
+  },
+  {
+   "n": 7,
+   "title": "Verse 17 changes one verb",
+   "text": "Isaiah 54:17 has every tongue that shall \"rise\" against thee; verse 17 has \"revile\"."
+  }
+ ],
+ "words": [
+  {
+   "term": "Barren",
+   "verse_label": "v. 1",
+   "text": "Unable to bear children. The record uses the word twice, here and at Alma 32:39 of ground, and the King James Bible twenty-three times. Verse 1 opens by telling the barren woman to sing.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 32:39",
+     "start": 69,
+     "end": 79,
+     "book": "Alma",
+     "chapter": 32,
+     "verse_start": 39,
+     "verse_end": 39
+    }
+   ]
+  },
+  {
+   "term": "Stakes",
+   "verse_label": "v. 2",
+   "text": "Pegs driven into the ground to hold a tent. It appears twice, here and at Moroni 10:31, in the record, and the King James Bible twice, both in Isaiah. Verse 2 pairs them with lengthened cords."
+  },
+  {
+   "term": "Widowhood",
+   "verse_label": "v. 4",
+   "text": "The state of having lost a husband. The record uses the word once, here, and the King James Bible four times. Verse 4 says its reproach will not be remembered."
+  },
+  {
+   "term": "Tempest",
+   "verse_label": "v. 11",
+   "text": "A violent storm. Treated at Helaman 14:23. The word turns up ten times here, and the King James Bible eighteen. Verse 11 uses it of a person rather than weather."
+  },
+  {
+   "term": "Agates",
+   "verse_label": "v. 12",
+   "text": "Banded stones used in ornament. One use here, and one in the King James Bible, at Isaiah 54:12. Verse 12 makes them the windows of the rebuilt city."
+  },
+  {
+   "term": "Waster",
+   "verse_label": "v. 16",
+   "text": "One who destroys or lays waste. Its count is once, here, in this book, while the King James Bible twice. Verse 16 has God claim the making of both the smith and the waster."
+  },
+  {
+   "term": "Heritage",
+   "verse_label": "v. 17",
+   "text": "What passes to someone by inheritance. It appears once here against thirty in the King James Bible. Verse 17 gives it to the servants of the Lord."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "And then shall that which is written come to pass",
+   "verse_label": "v. 1",
+   "text": "The clause that ties the quotation to the preceding chapter. Isaiah 54:1 begins at \"Sing, O barren\"."
+  },
+  {
+   "term": "More are the children of the desolate than the children of the married wife",
+   "verse_label": "v. 1",
+   "text": "The reversal the whole chapter runs on. The one with nothing ends up with more."
+  },
+  {
+   "term": "Enlarge the place of thy tent... lengthen thy cords and strengthen thy stakes",
+   "verse_label": "v. 2",
+   "text": "Instructions to a household that has to make room. Moroni 10:31 will borrow the same two commands."
+  },
+  {
+   "term": "Thy seed shall inherit the Gentiles",
+   "verse_label": "v. 3",
+   "text": "The direction of the promise. 3 Nephi 21:22 had the Gentiles numbered among the remnant instead."
+  },
+  {
+   "term": "Thou shalt forget the shame of thy youth",
+   "verse_label": "v. 4",
+   "text": "The line whose second half is repeated here. Both copies end with a reproach that is no longer remembered."
+  },
+  {
+   "term": "For thy maker, thy husband, the Lord of Hosts is his name",
+   "verse_label": "v. 5",
+   "text": "Three titles in a row where Isaiah 54:5 has a sentence. The change turns a claim into an address."
+  },
+  {
+   "term": "For a small moment have I forsaken thee, but with great mercies will I gather thee",
+   "verse_label": "v. 7",
+   "text": "The chapter's measure of time. Verse 8 sets a moment of wrath against everlasting kindness."
+  },
+  {
+   "term": "For this, the waters of Noah unto me",
+   "verse_label": "v. 9",
+   "text": "The compressed form of Isaiah 54:9. The comparison words are gone and the flood stands alongside the oath."
+  },
+  {
+   "term": "All thy children shall be taught of the Lord",
+   "verse_label": "v. 13",
+   "text": "The promise about the next generation. 3 Nephi 26:14 will show him teaching the children directly."
+  },
+  {
+   "term": "I have created the smith... and I have created the waster to destroy",
+   "verse_label": "v. 16",
+   "text": "Both the maker of weapons and the destroyer claimed by the same speaker. Verse 17 draws the conclusion about weapons."
+  },
+  {
+   "term": "Every tongue that shall revile against thee in judgment thou shalt condemn",
+   "verse_label": "v. 17",
+   "text": "Isaiah 54:17 with \"revile\" for \"rise\". The change narrows the threat from standing up to speaking."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 1–17",
+   "start": 1,
+   "end": 17,
+   "title": "How lightly this one was handled",
+   "text": "Twenty-four chapters in this volume quote a King James chapter at length. Ranked by how many of their verses carry a real word change, this one comes seventeenth: seven verses of seventeen, and most of the changes are single words. Ten verses are identical word for word, including the whole run from verse 10 to verse 14. The comparison worth holding is 3 Nephi 12, spoken by the same voice a few chapters earlier, which changes forty-five verses of forty-eight."
+  },
+  {
+   "label": "v. 1",
+   "start": 1,
+   "end": 1,
+   "title": "Ten words in front of the quotation",
+   "text": "Isaiah 54:1 opens on the imperative, \"Sing, O barren.\" Here ten words are set in front of it: \"And then shall that which is written come to pass.\" No other line in the chapter does this. The insertion makes the quoted poem the content of a prediction rather than the prediction itself, so what follows is not being fulfilled as it is read but named as a thing still to arrive."
+  },
+  {
+   "label": "v. 4",
+   "start": 4,
+   "end": 4,
+   "title": "A clause that runs twice",
+   "text": "The King James verse promises one forgetting: \"thou shalt forget the shame of thy youth, and shalt not remember the reproach of thy widowhood.\" Here the second half repeats, \"the reproach of thy youth, and shalt not remember the reproach of thy widowhood,\" so youth is named twice and the sentence covers the same ground on both passes. It is the only repeated clause in the chapter and the longest single addition in it."
+  },
+  {
+   "label": "v. 5",
+   "start": 5,
+   "end": 5,
+   "title": "Three titles, no copula",
+   "text": "The King James verse makes a sentence of it: \"For thy Maker is thine husband; the Lord of hosts is his name.\" This version removes the verb and the possessive, giving \"For thy maker, thy husband, the Lord of Hosts is his name,\" which turns two claims into one list. Maker, husband and Lord of Hosts stand in apposition, and nothing in the line asserts that any of them equals another. The reader supplies the equation."
+  },
+  {
+   "label": "v. 9",
+   "start": 9,
+   "end": 9,
+   "title": "Half an oath",
+   "text": "Two things are cut from this verse and nothing is added. The simile marker goes first: \"For this is as the waters of Noah unto me\" becomes \"For this, the waters of Noah unto me.\" Then the oath loses its second half. The King James swears \"that I would not be wroth with thee, nor rebuke thee,\" and here the promise stops at wroth. God still swears off anger; the promise not to correct is gone."
+  },
+  {
+   "label": "v. 15",
+   "start": 15,
+   "end": 15,
+   "title": "Named before it is disclaimed",
+   "text": "The King James verse says they shall gather together \"but not by me,\" and only the next clause reveals that the gathering is hostile. Here the hostility comes first, \"they shall surely gather together against thee, not by me,\" and the disclaimer follows it. The words are almost the same words. The order decides whether a reader learns what the gathering is for before or after learning who is not behind it."
+  },
+  {
+   "label": "v. 17",
+   "start": 17,
+   "end": 17,
+   "title": "One word in the verse people quote",
+   "text": "The best known line in Isaiah 54 is verse 17, and this version changes exactly one word in it: every tongue that shall rise against thee becomes every tongue that shall revile against thee. Rising is what a witness does in court, which is the setting the rest of the verse keeps: \"in judgment thou shalt condemn.\" Reviling is what an enemy does anywhere. The single substitution moves the tongue out of the courtroom."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "A whole chapter is read without comment",
+   "text": "The seventeen verses run start to finish. The only editorial mark is the clause at the front of verse 1."
+  },
+  {
+   "n": 2,
+   "title": "The frame does the interpreting",
+   "text": "Verse 1 says this is what will come to pass, and 3 Nephi 21 has just described the gathering. The placement supplies the reading."
+  },
+  {
+   "n": 3,
+   "title": "The subject is a woman",
+   "text": "The addressee is female throughout seventeen verses and named three ways. Verse 1 opens \"Sing, O barren, thou that didst not bear.\" Verse 5 supplies the relation, \"thy maker, thy husband, the Lord of Hosts is his name.\" Verse 6 gives two more terms, \"a woman forsaken and grieved in spirit, and a wife of youth, when thou wast refused.\" Verse 4 promises the removal of \"the shame of thy youth\" and \"the reproach of thy widowhood.\" The chapter is Isaiah 54 quoted whole, and every promise in it is delivered inside one marriage figure."
+  },
+  {
+   "n": 4,
+   "title": "Time is measured in contrasts",
+   "text": "Verse 7 sets a small moment against great mercies and verse 8 weighs brief wrath against kindness that lasts. The short term is named each time it appears."
+  },
+  {
+   "n": 5,
+   "title": "The oath borrows the oldest one available",
+   "text": "Verse 9 reaches back to Noah for its guarantee. The promise is anchored to something the hearers already believed had held."
+  },
+  {
+   "n": 6,
+   "title": "The city is described in stones",
+   "text": "Verses 11 and 12 list colors, sapphires, agates, and carbuncles. The rebuilding is given as material detail."
+  },
+  {
+   "n": 7,
+   "title": "God claims the destroyer too",
+   "text": "Verse 16 says he created the waster. The safety promised in verse 17 rests on that claim."
+  },
+  {
+   "n": 8,
+   "title": "The differences from Isaiah are small and real",
+   "text": "Verses 5, 9, 15, and 17 each shift a word or a clause. The chapter is worth reading beside Isaiah 54 with both open."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Make room before the family arrives",
+    "verse_label": "v. 2",
+    "text": "The tent is enlarged while the woman is still barren. Preparation comes before the evidence."
+   },
+   {
+    "title": "Being done with the shame is part of the promise",
+    "verse_label": "v. 4",
+    "text": "The verse says she shall forget the shame of her youth and not remember the reproach of her widowhood any more. Not having to carry the memory as a live thing is listed here as its own item, separate from the restoration itself."
+   },
+   {
+    "title": "Read the two versions side by side",
+    "verse_label": "v. 5, 15, 17",
+    "text": "The differences from Isaiah 54 are small and carry meaning. Comparing texts is ordinary study, not suspicion."
+   },
+   {
+    "title": "Measure the hard stretch honestly",
+    "verse_label": "v. 7",
+    "text": "A small moment set against great mercies. Naming how long something lasted is part of recovering from it."
+   },
+   {
+    "title": "Let the old promise carry the new one",
+    "verse_label": "v. 9",
+    "text": "The oath about Noah is the security offered here. Something God has already kept is reasonable ground for trusting the next thing."
+   },
+   {
+    "title": "The sapphires are promised to the one still in the storm",
+    "verse_label": "v. 11",
+    "text": "The address is \"O thou afflicted, tossed with tempest, and not comforted\", and the foundations are laid in the next clause. The building language is spoken into the weather rather than after it clears."
+   },
+   {
+    "title": "Teaching the children is named as the peace",
+    "verse_label": "v. 13",
+    "text": "All thy children shall be taught of the Lord, and great shall be the peace of thy children, arrive in one sentence. Instruction and peace are joined here, which is a reason to treat teaching as a form of care."
+   },
+   {
+    "title": "Even the waster was created",
+    "verse_label": "v. 16",
+    "text": "The verse claims the smith who makes the instrument and also the waster who destroys. Nothing in the chapter's threat is outside the speaker's account of things, which is what gives verse 17 its force."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 1",
+    "start": 1,
+    "end": 1,
+    "text": "What am I supposed to sing about before it arrives?"
+   },
+   {
+    "verse_label": "v. 2",
+    "start": 2,
+    "end": 2,
+    "text": "Where have I refused to enlarge because nothing has come yet?"
+   },
+   {
+    "verse_label": "v. 4",
+    "start": 4,
+    "end": 4,
+    "text": "What shame am I still carrying that was promised forgetting?"
+   },
+   {
+    "verse_label": "v. 8",
+    "start": 8,
+    "end": 8,
+    "text": "When did a moment of hiddenness feel like the whole story?"
+   },
+   {
+    "verse_label": "v. 10",
+    "start": 10,
+    "end": 10,
+    "text": "What has departed that I thought was permanent?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "Who is teaching my children?"
+   },
+   {
+    "verse_label": "v. 17",
+    "start": 17,
+    "end": 17,
+    "text": "What tongue against me am I still answering?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "3ne22-001",
+   "scope": "BOOK",
+   "head": "3 Ne. 21:28",
+   "anchor": {
+    "verse": 1,
+    "w1": 1,
+    "w2": 10,
+    "quote": "And then shall that which is written come to pass"
+   },
+   "reason": "the clause that attaches the quotation to the gathering",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 21,
+     "verse": 28,
+     "w1": 19,
+     "w2": 30,
+     "quote": "his people may be gathered home to the land of their inheritance.",
+     "verse_text": "Yea, and then shall the work commence, with the Father among all nations in preparing the way whereby his people may be gathered home to the land of their inheritance.",
+     "markdown": "Yea, and then shall the work commence, with the Father among all nations in preparing the way whereby **his people may be gathered home to the land of their inheritance**.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne21-016"
+  },
+  {
+   "id": "3ne22-002",
+   "scope": "BOOK",
+   "head": "3 Ne. 21:22",
+   "anchor": {
+    "verse": 3,
+    "w1": 14,
+    "w2": 20,
+    "quote": "and thy seed shall inherit the Gentiles"
+   },
+   "reason": "the same two peoples, with the direction reversed",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 21,
+     "verse": 22,
+     "w1": 24,
+     "w2": 39,
+     "quote": "they shall come in unto the covenant and be numbered among this the remnant of Jacob,",
+     "verse_text": "But if they will repent and hearken unto my words, and harden not their hearts, I will establish my church among them, and they shall come in unto the covenant and be numbered among this the remnant of Jacob, unto whom I have given this land for their inheritance;",
+     "markdown": "But if they will repent and hearken unto my words, and harden not their hearts, I will establish my church among them, and **they shall come in unto the covenant and be numbered among this the remnant of Jacob**, unto whom I have given this land for their inheritance;",
+     "span": true
+    }
+   ],
+   "mirror": "3ne21-014"
+  },
+  {
+   "id": "3ne22-003",
+   "scope": "BOOK",
+   "head": "3 Ne. 26:14",
+   "anchor": {
+    "verse": 13,
+    "w1": 1,
+    "w2": 10,
+    "quote": "And all thy children shall be taught of the Lord"
+   },
+   "reason": "the promise carried out on the children of the multitude",
+   "targets": [
+    {
+     "ref": "3 Ne.",
+     "chapter": 26,
+     "verse": 14,
+     "w1": 7,
+     "w2": 17,
+     "quote": "he did teach and minister unto the children of the multitude",
+     "verse_text": "And it came to pass that he did teach and minister unto the children of the multitude of whom hath been spoken, and he did loose their tongues, and they did speak unto their fathers great and marvelous things, even greater than he had revealed unto the people; and he loosed their tongues that they could utter.",
+     "markdown": "And it came to pass that **he did teach and minister unto the children of the multitude** of whom hath been spoken, and he did loose their tongues, and they did speak unto their fathers great and marvelous things, even greater than he had revealed unto the people; and he loosed their tongues that they could utter.",
+     "span": true
+    }
+   ],
+   "mirror": "3ne26-005"
+  },
+  {
+   "id": "3ne22-004",
+   "scope": "BOM",
+   "head": "Moro. 10:31",
+   "anchor": {
+    "verse": 2,
+    "w1": 19,
+    "w2": 25,
+    "quote": "lengthen thy cords and strengthen thy stakes"
+   },
+   "reason": "the two commands Moroni repeats at the record's close",
+   "targets": [
+    {
+     "ref": "Moro.",
+     "chapter": 10,
+     "verse": 31,
+     "w1": 22,
+     "w2": 29,
+     "quote": "strengthen thy stakes and enlarge thy borders forever,",
+     "verse_text": "And awake, and arise from the dust, O Jerusalem; yea, and put on thy beautiful garments, O daughter of Zion; and strengthen thy stakes and enlarge thy borders forever, that thou mayest no more be confounded, that the covenants of the Eternal Father which he hath made unto thee, O house of Israel, may be fulfilled.",
+     "markdown": "And awake, and arise from the dust, O Jerusalem; yea, and put on thy beautiful garments, O daughter of Zion; and **strengthen thy stakes and enlarge thy borders forever**, that thou mayest no more be confounded, that the covenants of the Eternal Father which he hath made unto thee, O house of Israel, may be fulfilled.",
+     "span": true
+    }
+   ],
+   "mirror": "moro10-007"
+  },
+  {
+   "id": "3ne22-005",
+   "scope": "BOM",
+   "head": "1 Ne. 21:15",
+   "anchor": {
+    "verse": 7,
+    "w1": 1,
+    "w2": 16,
+    "quote": "For a small moment have I forsaken thee, but with great mercies will I gather thee"
+   },
+   "reason": "the Isaiah 49 verse Nephi quoted on the same point",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 21,
+     "verse": 15,
+     "w1": 22,
+     "w2": 34,
+     "quote": "they may forget, yet will I not forget thee, O house of Israel.",
+     "verse_text": "For can a woman forget her sucking child, that she should not have compassion on the son of her womb? Yea, they may forget, yet will I not forget thee, O house of Israel.",
+     "markdown": "For can a woman forget her sucking child, that she should not have compassion on the son of her womb? Yea, **they may forget, yet will I not forget thee, O house of Israel**.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne21-007"
+  },
+  {
+   "id": "3ne22-006",
+   "scope": "SW",
+   "head": "Isa. 54:4",
+   "anchor": {
+    "verse": 4,
+    "w1": 21,
+    "w2": 38,
+    "quote": "for thou shalt forget the shame of thy youth, and shalt not remember the reproach of thy youth"
+   },
+   "reason": "the clause standing twice here and once in Isaiah",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 54,
+     "verse": 4,
+     "w1": 21,
+     "w2": 29,
+     "quote": "for thou shalt forget the shame of thy youth,",
+     "verse_text": "Fear not; for thou shalt not be ashamed: neither be thou confounded; for thou shalt not be put to shame: for thou shalt forget the shame of thy youth, and shalt not remember the reproach of thy widowhood any more.",
+     "markdown": "Fear not; for thou shalt not be ashamed: neither be thou confounded; for thou shalt not be put to shame: **for thou shalt forget the shame of thy youth**, and shalt not remember the reproach of thy widowhood any more.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne22-007",
+   "scope": "SW",
+   "head": "Isa. 54:5",
+   "anchor": {
+    "verse": 5,
+    "w1": 1,
+    "w2": 12,
+    "quote": "For thy maker, thy husband, the Lord of Hosts is his name"
+   },
+   "reason": "a sentence in Isaiah turned into three titles",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 54,
+     "verse": 5,
+     "w1": 1,
+     "w2": 13,
+     "quote": "For thy Maker is thine husband; the LORD of hosts is his name;",
+     "verse_text": "For thy Maker is thine husband; the LORD of hosts is his name; and thy Redeemer the Holy One of Israel; The God of the whole earth shall he be called.",
+     "markdown": "**For thy Maker is thine husband; the LORD of hosts is his name**; and thy Redeemer the Holy One of Israel; The God of the whole earth shall he be called.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne22-008",
+   "scope": "SW",
+   "head": "Isa. 54:9",
+   "anchor": {
+    "verse": 9,
+    "w1": 1,
+    "w2": 8,
+    "quote": "For this, the waters of Noah unto me"
+   },
+   "reason": "the comparison words dropped from the Isaiah line",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 54,
+     "verse": 9,
+     "w1": 1,
+     "w2": 10,
+     "quote": "For this is as the waters of Noah unto me:",
+     "verse_text": "For this is as the waters of Noah unto me: for as I have sworn that the waters of Noah should no more go over the earth; so have I sworn that I would not be wroth with thee, nor rebuke thee.",
+     "markdown": "**For this is as the waters of Noah unto me**: for as I have sworn that the waters of Noah should no more go over the earth; so have I sworn that I would not be wroth with thee, nor rebuke thee.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne22-009",
+   "scope": "SW",
+   "head": "Isa. 54:15",
+   "anchor": {
+    "verse": 15,
+    "w1": 1,
+    "w2": 11,
+    "quote": "Behold, they shall surely gather together against thee, not by me"
+   },
+   "reason": "a direction added where Isaiah leaves the gathering unaimed",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 54,
+     "verse": 15,
+     "w1": 1,
+     "w2": 10,
+     "quote": "Behold, they shall surely gather together, but not by me:",
+     "verse_text": "Behold, they shall surely gather together, but not by me: whosoever shall gather together against thee shall fall for thy sake.",
+     "markdown": "**Behold, they shall surely gather together, but not by me**: whosoever shall gather together against thee shall fall for thy sake.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "3ne22-010",
+   "scope": "SW",
+   "head": "Isa. 54:17",
+   "anchor": {
+    "verse": 17,
+    "w1": 10,
+    "w2": 22,
+    "quote": "and every tongue that shall revile against thee in judgment thou shalt condemn"
+   },
+   "reason": "one verb changed, from rising to speaking",
+   "targets": [
+    {
+     "ref": "Isa.",
+     "chapter": 54,
+     "verse": 17,
+     "w1": 10,
+     "w2": 22,
+     "quote": "and every tongue that shall rise against thee in judgment thou shalt condemn.",
+     "verse_text": "No weapon that is formed against thee shall prosper; and every tongue that shall rise against thee in judgment thou shalt condemn. This is the heritage of the servants of the LORD, and their righteousness is of me, saith the LORD.",
+     "markdown": "No weapon that is formed against thee shall prosper; **and every tongue that shall rise against thee in judgment thou shalt condemn**. This is the heritage of the servants of the LORD, and their righteousness is of me, saith the LORD.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 1,
+   "w1": 1,
+   "w2": 10,
+   "quote": "And then shall that which is written come to pass",
+   "entries": [
+    "3ne22-001"
+   ]
+  },
+  {
+   "verse": 2,
+   "w1": 19,
+   "w2": 25,
+   "quote": "lengthen thy cords and strengthen thy stakes",
+   "entries": [
+    "3ne22-004"
+   ]
+  },
+  {
+   "verse": 3,
+   "w1": 14,
+   "w2": 20,
+   "quote": "and thy seed shall inherit the Gentiles",
+   "entries": [
+    "3ne22-002"
+   ]
+  },
+  {
+   "verse": 4,
+   "w1": 21,
+   "w2": 38,
+   "quote": "for thou shalt forget the shame of thy youth, and shalt not remember the reproach of thy youth",
+   "entries": [
+    "3ne22-006"
+   ]
+  },
+  {
+   "verse": 5,
+   "w1": 1,
+   "w2": 12,
+   "quote": "For thy maker, thy husband, the Lord of Hosts is his name",
+   "entries": [
+    "3ne22-007"
+   ]
+  },
+  {
+   "verse": 7,
+   "w1": 1,
+   "w2": 16,
+   "quote": "For a small moment have I forsaken thee, but with great mercies will I gather thee",
+   "entries": [
+    "3ne22-005"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 1,
+   "w2": 8,
+   "quote": "For this, the waters of Noah unto me",
+   "entries": [
+    "3ne22-008"
+   ]
+  },
+  {
+   "verse": 13,
+   "w1": 1,
+   "w2": 10,
+   "quote": "And all thy children shall be taught of the Lord",
+   "entries": [
+    "3ne22-003"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 1,
+   "w2": 11,
+   "quote": "Behold, they shall surely gather together against thee, not by me",
+   "entries": [
+    "3ne22-009"
+   ]
+  },
+  {
+   "verse": 17,
+   "w1": 10,
+   "w2": 22,
+   "quote": "and every tongue that shall revile against thee in judgment thou shalt condemn",
+   "entries": [
+    "3ne22-010"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "61f98781e72e2e24"
+ }
+}

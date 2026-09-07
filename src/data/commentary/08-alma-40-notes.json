@@ -15,7 +15,7 @@
   "principles": [
    "Marking the edge of what is known",
    "The space between death and rising",
-   ""
+   "Restoration to a proper frame"
   ],
   "connections": 9,
   "initial": true
@@ -83,12 +83,24 @@
   {
    "term": "Outer darkness",
    "verse_label": "v. 13",
-   "text": "The dark outside a lit hall. The phrase occurs once in this record and three times in the King James Bible, all in Matthew, and all with weeping and gnashing of teeth attached. Alma keeps the whole formula intact."
+   "text": "The dark outside a lit hall. The phrase occurs once in this record and three times in the King James Bible, all in Matthew (Matt. 8:12), and all with weeping and gnashing of teeth attached. Alma keeps the whole formula intact.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Matt. 8:12",
+     "start": 124,
+     "end": 134,
+     "book": "Matt",
+     "chapter": 8,
+     "verse_start": 12,
+     "verse_end": 12
+    }
+   ]
   },
   {
    "term": "Indignation",
    "verse_label": "v. 14",
-   "text": "Anger at wrong. The record uses it four times, three of them inside Isaiah quotations, and the King James Bible forty-one. Alma pairs it with fiery and wrath to name what the wicked spend the interval expecting."
+   "text": "Anger at wrong. It appears four times, three of them inside Isaiah quotations, in the record, and the King James Bible forty-one. Alma pairs it with fiery and wrath to name what the wicked spend the interval expecting."
   },
   {
    "term": "Consignation",
@@ -98,7 +110,7 @@
   {
    "term": "Frame",
    "verse_label": "v. 23",
-   "text": "The built structure of a body. The record uses it ten times and the King James Bible five. Alma says all things are restored to their proper and perfect frame, which makes the resurrection a matter of assembly rather than of replacement."
+   "text": "The built structure of a body. The record uses it ten times and the King James Bible five. Alma says all things are restored to their proper and perfect frame, which makes the resurrection a matter of assembly instead of replacement."
   }
  ],
  "phrases": [
@@ -140,7 +152,7 @@
   {
    "term": "A state of rest, a state of peace",
    "verse_label": "v. 12",
-   "text": "Alma defines paradise in his own words rather than leaving the term to carry itself. Rest from troubles, care, and sorrow is the whole content he gives it."
+   "text": "Alma defines paradise in his own words instead of leaving the term to carry itself. Rest from troubles, care, and sorrow is the whole content he gives it."
   },
   {
    "term": "Behold, I give it as my opinion",
@@ -155,65 +167,114 @@
   {
    "term": "They drink the dregs of a bitter cup",
    "verse_label": "v. 26",
-   "text": "The image at the end of the chapter, treated at 2 Nephi 8 where Isaiah gives the cup of trembling. Alma applies it to those consigned to the fruits of their own works."
+   "text": "The image at the end of the chapter, treated at 2 Nephi 8:17 where Isaiah gives the cup of trembling. Alma applies it to whoever is left with what his own works earned."
   }
  ],
  "verses": [
   {
-   "label": "v. 1–5",
+   "label": "v. 1",
    "start": 1,
-   "end": 5,
-   "title": "The question, and the limits",
-   "text": "Corianton is worried about the resurrection. Nothing puts on immortality until after Christ comes. Alma unfolds one mystery and says many are kept. A time is appointed and no one knows it; whether there are one or three times does not matter."
+   "end": 1,
+   "title": "The chapter is addressed to a state of mind",
+   "text": "The record gives its occasion as a diagnosis rather than a question: \"I perceive that thy mind is worried concerning the resurrection of the dead.\" No question from the son is recorded anywhere. What follows is a reply to something the speaker says he noticed, and the whole chapter's shape, its concessions and its refusals to guess, follows from that opening claim about a worry rather than about a dispute."
   },
   {
-   "label": "v. 6–10",
-   "start": 6,
-   "end": 10,
-   "title": "The space",
-   "text": "There must be an interval between death and resurrection, and the question is what happens to souls inside it. All do not die at once and time is measured only to men. Alma says twice that he inquired diligently, and that this is the thing he knows."
+   "label": "v. 2",
+   "start": 2,
+   "end": 2,
+   "title": "A sentence retracted inside itself",
+   "text": "The first assertion is withdrawn before it finishes: \"there is no resurrection, or, I would say, in other words, that this mortal does not put on immortality, this corruption does not put on incorruption, until after the coming of Christ.\" The record keeps the first formulation, the correction marker, and the replacement. The replacement is 1 Cor. 15:53 almost word for word, where the King James reads \"this corruptible must put on incorruption, and this mortal must put on immortality,\" with the two halves in the other order.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "1 Cor. 15:53",
+     "start": 343,
+     "end": 355,
+     "book": "1 Cor",
+     "chapter": 15,
+     "verse_start": 53,
+     "verse_end": 53
+    }
+   ]
   },
   {
-   "label": "v. 11–14",
+   "label": "v. 4–8",
+   "start": 4,
+   "end": 8,
+   "title": "The chapter's most frequent move is declining to answer",
+   "text": "It mattereth not stands twice in these verses, at 5 and 8, both times refusing a question the speaker has just raised himself: whether there is one resurrection or several, and whether all rise at once. Verse 4 has already set the pattern, \"when this time cometh no one knows; but God knoweth the time which is appointed.\" Verse 7 poses the chapter's real question, \"what becometh of the souls of men from this time of death to the time appointed for the resurrection?\", and it takes four more verses to get an answer."
+  },
+  {
+   "label": "v. 11",
    "start": 11,
-   "end": 14,
-   "title": "Where the spirits go",
-   "text": "An angel told him: every spirit, good or evil, is taken home to God. The righteous are received into paradise, a state of rest and peace. The wicked are cast into outer darkness with weeping and gnashing of teeth, in fearful expectation of God's wrath. Both remain until the resurrection."
+   "end": 11,
+   "title": "The one thing claimed as revealed",
+   "text": "In a chapter built from qualifications, a single sentence claims a source: \"concerning the state of the soul between death and the resurrection, behold, it has been made known unto me by an angel, that the spirits of all men, as soon as they are departed from this mortal body... are taken home to that God who gave them life.\" Everything before it is reasoning and everything after it is inference. The record marks the one point where the speaker is not working things out."
   },
   {
-   "label": "v. 15–19",
+   "label": "v. 15–18",
    "start": 15,
-   "end": 19,
-   "title": "What first resurrection means",
-   "text": "Some read the interval itself as a first resurrection, and Alma allows that the word could be used that way. But the phrase as spoken means the reuniting of soul and body for everyone from Adam down to Christ's own rising, and theirs comes before those who die after."
+   "end": 18,
+   "title": "A rival reading named and argued against",
+   "text": "The record does not pretend its position is the only one in circulation: \"there are some that have understood that this state of happiness and this state of misery of the soul, before the resurrection, was a first resurrection.\" The counter-argument follows in two steps, first a denial with its reason, \"we do not suppose that this first resurrection... can be the resurrection of the souls and their consignation to happiness or misery,\" and then a definition, \"it meaneth the reuniting of the soul with the body, of those from the days of Adam down to the resurrection of Christ.\" An interpretation held by others is stated fairly enough to be recognised."
   },
   {
-   "label": "v. 20–21",
-   "start": 20,
-   "end": 21,
-   "title": "Marked as opinion",
-   "text": "Alma will not say whether the reuniting happens at Christ's resurrection. He gives his own view that the righteous are reunited then, labels it opinion, and returns to what he will assert: a space, a state, an appointed time, and a judgment."
-  },
-  {
-   "label": "v. 22–24",
-   "start": 22,
-   "end": 24,
-   "title": "Restoration",
-   "text": "This brings about the restoration spoken of by the prophets. Soul to body and body to soul, every limb and joint, and not a hair lost, all restored to their proper and perfect frame."
-  },
-  {
-   "label": "v. 25–26",
-   "start": 25,
-   "end": 26,
-   "title": "The two ends",
-   "text": "The righteous shine forth in the kingdom of God. An awful death comes on the wicked, who are unclean and cannot inherit it, and who are consigned to the fruits of their own works and drink the dregs of a bitter cup."
+   "label": "v. 23",
+   "start": 23,
+   "end": 23,
+   "title": "The restoration counted in body parts",
+   "text": "After twenty-two verses of hedging, the record turns specific and physical: \"The soul shall be restored to the body, and the body to the soul; yea, and every limb and joint shall be restored to its body; yea, even a hair of the head shall not be lost; but all things shall be restored to their proper and perfect frame.\" The same three items, limb, joint and hair, appear at Alma 11:43–44 in Amulek's answer to Zeezrom. The one part of the subject the chapter will not qualify is the part about bodies.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 11:43–44",
+     "start": 375,
+     "end": 388,
+     "book": "Alma",
+     "chapter": 11,
+     "verse_start": 43,
+     "verse_end": 44
+    }
+   ]
   }
  ],
  "chapter": [
   {
    "n": 1,
    "title": "Alma answers a question he was asked",
-   "text": "The chapter exists because his son was worried. Nothing here is volunteered doctrine, and the shape follows the worry rather than a syllabus."
+   "text": "Verse 1 states the occasion in one clause, \"I perceive that thy mind is worried concerning the resurrection of the dead,\" and verse 11 names the specific gap the chapter fills, \"concerning the state of the soul between death and the resurrection.\" The answer to that question is prefaced with its source, \"it has been made known unto me by an angel.\" Alma 39:1 and Alma 41:1 and Alma 42:1 open the same way, each naming something the son had said or supposed, so four consecutive chapters are shaped by a young man's questions rather than by a syllabus.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 39:1",
+     "start": 351,
+     "end": 360,
+     "book": "Alma",
+     "chapter": 39,
+     "verse_start": 1,
+     "verse_end": 1
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 41:1",
+     "start": 365,
+     "end": 374,
+     "book": "Alma",
+     "chapter": 41,
+     "verse_start": 1,
+     "verse_end": 1
+    },
+    {
+     "kind": "scripture",
+     "text": "Alma 42:1",
+     "start": 379,
+     "end": 388,
+     "book": "Alma",
+     "chapter": 42,
+     "verse_start": 1,
+     "verse_end": 1
+    }
+   ]
   },
   {
    "n": 2,
@@ -233,7 +294,7 @@
   {
    "n": 5,
    "title": "Paradise is defined by what it lacks",
-   "text": "Rest from troubles, care, and sorrow. Alma describes the righteous state as the absence of the things his hearers actually carry."
+   "text": "Verse 12 defines paradise by three subtractions, \"a state of rest, a state of peace, where they shall rest from all their troubles and from all care, and sorrow.\" Nothing is added; the whole description is what is gone. Verse 13 does the same for the opposite state and lists what is present instead, \"weeping, and wailing, and gnashing of teeth.\" A definition by absence and a definition by presence stand in consecutive verses."
   },
   {
    "n": 6,
@@ -259,9 +320,9 @@
     "text": "Alma named his son's actual worry and addressed it. When someone brings you a question, work on that one instead of the one you would rather answer."
    },
    {
-    "title": "Say which part is your opinion",
-    "verse_label": "v. 20",
-    "text": "Alma labeled one sentence and left it unbuilt-upon. When you are explaining something, mark the place where evidence stops and your own view begins."
+    "title": "Inquire diligently and then say so",
+    "verse_label": "v. 3",
+    "text": "Alma told his son both the answer and how he got it. When you have worked something out through repeated asking, pass on the process along with the conclusion."
    },
    {
     "title": "Set aside what does not matter",
@@ -269,9 +330,24 @@
     "text": "Alma twice declined a question and replaced it with what he knew. When a detail cannot be settled and nothing turns on it, say so and move to what does."
    },
    {
-    "title": "Inquire diligently and then say so",
-    "verse_label": "v. 3",
-    "text": "Alma told his son both the answer and how he got it. When you have worked something out through repeated asking, pass on the process along with the conclusion."
+    "title": "Drop the timetable question",
+    "verse_label": "v. 8",
+    "text": "Whether there is more than one appointed time \"mattereth not,\" and the reason given is that \"time only is measured unto men.\" Some of what you want scheduled is only urgent because of the scale you are measuring on. Ask whether the answer would change anything you do."
+   },
+   {
+    "title": "Name the absence you actually want",
+    "verse_label": "v. 12",
+    "text": "Paradise is defined here by subtraction: rest from troubles, from care, and from sorrow. Say plainly which of your own three you are asking to be relieved of; the naming is more useful than a general wish for peace."
+   },
+   {
+    "title": "Say which part is your opinion",
+    "verse_label": "v. 20",
+    "text": "Alma labeled one sentence and left it unbuilt-upon. When you are explaining something, mark the place where evidence stops and your own view begins."
+   },
+   {
+    "title": "Count what gets restored, not what gets replaced",
+    "verse_label": "v. 23",
+    "text": "\"Every limb and joint shall be restored to its body; yea, even a hair of the head shall not be lost.\" The promise is about continuity with the thing you already are. When you think about being made new, ask first what you expect to be kept."
    }
   ],
   "questions": [
@@ -344,7 +420,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al39-010"
   },
   {
    "id": "al40-002",
@@ -382,7 +458,7 @@
     "w2": 49,
     "quote": "restored to their proper and perfect frame"
    },
-   "reason": "Amulek giving the same list of what returns to the body",
+   "reason": "Amulek giving the same list of what returns",
    "targets": [
     {
      "ref": "Alma",
@@ -396,7 +472,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "al11-003"
   },
   {
    "id": "al40-004",
@@ -408,7 +484,7 @@
     "w2": 26,
     "quote": "which is called paradise"
    },
-   "reason": "Jacob on the paradise of God delivering up the righteous spirits",
+   "reason": "Jacob on paradise delivering up the righteous spirits",
    "targets": [
     {
      "ref": "2 Ne.",
@@ -422,7 +498,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "2ne09-024"
   },
   {
    "id": "al40-005",
@@ -434,7 +510,7 @@
     "w2": 34,
     "quote": "a state of rest, a state of peace"
    },
-   "reason": "Moroni’s last sentence, going to rest in the same place",
+   "reason": "Moroni's last sentence, going to rest in the same place",
    "targets": [
     {
      "ref": "Moro.",
@@ -448,7 +524,7 @@
      "span": true
     }
    ],
-   "mirror": "pending"
+   "mirror": "moro10-010"
   },
   {
    "id": "al40-006",
@@ -486,7 +562,7 @@
     "w2": 26,
     "quote": "which is called paradise"
    },
-   "reason": "the promise made from the cross to the man beside it",
+   "reason": "the promise made from the cross to the thief",
    "targets": [
     {
      "ref": "Luke",
@@ -538,7 +614,7 @@
     "w2": 65,
     "quote": "they drink the dregs of a bitter cup"
    },
-   "reason": "the cup in the hand of the Lord, dregs and all",
+   "reason": "the cup in the Lord's hand, dregs and all",
    "targets": [
     {
      "ref": "Ps.",
@@ -631,7 +707,7 @@
   }
  ],
  "generated": {
-  "at": "2026-08-25",
-  "source_sha256": "6f4356330eb039cd"
+  "at": "2026-09-07",
+  "source_sha256": "05b9c72064fc7945"
  }
 }

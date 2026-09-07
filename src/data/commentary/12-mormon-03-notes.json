@@ -1,0 +1,825 @@
+{
+ "schema": 2,
+ "meta": {
+  "book": "Mormon",
+  "book_slug": "mormon",
+  "chapter": 3,
+  "volume_order": "12",
+  "speakers": [
+   "Mormon",
+   "The Lord"
+  ],
+  "audience": "The reader; the Gentiles and the house of Israel from verse 17",
+  "location": "The land Desolation, by the narrow pass",
+  "date": "About AD 360 to AD 362",
+  "unit": "Mormon refuses command (Mormon 3)",
+  "principles": [
+   "A last offer refused",
+   "An oath sworn on what was forbidden",
+   "A leader who steps down and writes instead"
+  ],
+  "connections": 13,
+  "initial": true
+ },
+ "world_behind": [
+  {
+   "n": 1,
+   "title": "The ten years are the term of a treaty",
+   "text": "Mormon 2:28 and 29 have the two peoples divide the land in the three hundred and fiftieth year, the Nephites taking everything northward to the narrow passage. Verse 1 covers the decade that agreement bought, and verse 4 dates its end at three hundred and sixty years from Christ."
+  },
+  {
+   "n": 2,
+   "title": "This is the one commission he is given to preach",
+   "text": "Verses 2 and 3 have the Lord tell him to cry repentance, and the crying is in vain. Mormon 1:16 and 17 record that as a young man his mouth was shut and he was forbidden to preach to the same people, so the permission and the failure both belong to this chapter."
+  },
+  {
+   "n": 3,
+   "title": "Two victories precede the collapse",
+   "text": "Verses 7 and 8 have the Nephites beat the Lamanites twice at the city of Desolation. Mormon 4:1 and 2 has them go up on the attack in the next year and lose the city, which verse 4:4 blames on the aggression itself."
+  },
+  {
+   "n": 4,
+   "title": "The oath is sworn on the wrong authority",
+   "text": "Verses 9 and 10 have them swear by the heavens and by the throne of God to avenge themselves. Verse 15 answers with the sentence that stands at Deuteronomy 32:35 and Romans 12:19: vengeance is mine, and I will repay."
+  },
+  {
+   "n": 5,
+   "title": "The refusal lasts about fifteen years",
+   "text": "Verse 11 has him utterly refuse from that time to be their commander. Mormon 5:1 has him repent of that oath and take command again, after the events of Mormon 4 run from the three hundred and sixty-third year to the three hundred and seventy-fifth."
+  },
+  {
+   "n": 6,
+   "title": "Verse 17 is where he turns and speaks to the reader",
+   "text": "From there he addresses the Gentiles, then the twelve tribes, then the remnant of his own people. Mormon 1 and 2 are narrative throughout, and Mormon 7 is made entirely of this kind of address."
+  }
+ ],
+ "words": [
+  {
+   "term": "Epistle",
+   "verse_label": "v. 4",
+   "text": "A written letter. Treated at Alma 54:4. The record uses the word forty-one times and the King James Bible fourteen.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 54:4",
+     "start": 29,
+     "end": 38,
+     "book": "Alma",
+     "chapter": 54,
+     "verse_start": 4,
+     "verse_end": 4
+    }
+   ]
+  },
+  {
+   "term": "Desolation",
+   "verse_label": "v. 5",
+   "text": "Emptiness, ruin, and here a place name. Treated at Alma 22:30. Its count is twenty-two, six of them inside this book.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 22:30",
+     "start": 51,
+     "end": 61,
+     "book": "Alma",
+     "chapter": 22,
+     "verse_start": 30,
+     "verse_end": 30
+    }
+   ]
+  },
+  {
+   "term": "Boast",
+   "verse_label": "v. 9",
+   "text": "To speak in praise of oneself. It appears fifteen times in the record, and the King James Bible twenty. Verse 9 attaches it to their own strength."
+  },
+  {
+   "term": "Thrice",
+   "verse_label": "v. 13",
+   "text": "Three times. The record uses the word twice, here and at 3 Nephi 28:21, and the King James Bible fifteen times. Verse 13 counts his deliverances of them."
+  },
+  {
+   "term": "Vengeance",
+   "verse_label": "v. 15",
+   "text": "Punishment exacted for wrong. Treated at 3 Nephi 21:21. The word turns up thirteen times here, and the King James Bible forty-five."
+  },
+  {
+   "term": "Idle",
+   "verse_label": "v. 16",
+   "text": "Not working, standing by. Treated at Alma 22:28. Three uses here against eleven in the King James Bible. Verse 16 pairs it with witness.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Alma 22:28",
+     "start": 37,
+     "end": 47,
+     "book": "Alma",
+     "chapter": 22,
+     "verse_start": 28,
+     "verse_end": 28
+    }
+   ]
+  },
+  {
+   "term": "Persuade",
+   "verse_label": "v. 22",
+   "text": "To bring someone to a view by reasoning. Its count is ten times in this book, while the King James Bible nine. Verse 22 is his last sentence in this chapter."
+  }
+ ],
+ "phrases": [
+  {
+   "term": "Repent ye, and come unto me, and be ye baptized, and build up again my church",
+   "verse_label": "v. 2",
+   "text": "Four things asked, and sparing promised for them. The offer is made after three hundred and sixty years of decline."
+  },
+  {
+   "term": "I did cry unto this people, but it was in vain",
+   "verse_label": "v. 3",
+   "text": "The result reported in the same breath as the attempt. Verse 3 says they did not realize the Lord had spared them."
+  },
+  {
+   "term": "They began to boast in their own strength",
+   "verse_label": "v. 9",
+   "text": "The response to two victories. Verse 9 makes success the occasion for the oath."
+  },
+  {
+   "term": "They did swear by the heavens, and also by the throne of God",
+   "verse_label": "v. 10",
+   "text": "The oath named precisely. Verse 14 says it was sworn by what the Lord had forbidden."
+  },
+  {
+   "term": "I, Mormon, did utterly refuse from this time forth to be a commander",
+   "verse_label": "v. 11",
+   "text": "The resignation, dated and absolute. Mormon 5:1 will record him going back on it."
+  },
+  {
+   "term": "Had loved them, according to the love of God which was in me, with all my heart",
+   "verse_label": "v. 12",
+   "text": "The claim he makes about his own service. Verse 12 ends by saying the prayer was without faith."
+  },
+  {
+   "term": "Thrice have I delivered them out of the hands of their enemies",
+   "verse_label": "v. 13",
+   "text": "A count kept. The number is offered against their failure to repent."
+  },
+  {
+   "term": "Vengeance is mine, and I will repay",
+   "verse_label": "v. 15",
+   "text": "The Lord's words, matching Romans 12:19. Verse 15 gives the sentence that follows from it."
+  },
+  {
+   "term": "I did stand as an idle witness",
+   "verse_label": "v. 16",
+   "text": "His new role, named by himself. Standing still is described as the obedient act."
+  },
+  {
+   "term": "Ye must all stand before the judgment-seat of Christ",
+   "verse_label": "v. 20",
+   "text": "The reason he writes. Verse 20 extends it to every soul of the family of Adam."
+  },
+  {
+   "term": "That the Jews... shall have other witness besides him whom they saw and heard",
+   "verse_label": "v. 21",
+   "text": "The purpose of a second record. 2 Nephi 29:8 had put it as the testimony of two nations."
+  }
+ ],
+ "verses": [
+  {
+   "label": "v. 11–13",
+   "start": 11,
+   "end": 13,
+   "title": "A resignation, with the reason given as a count",
+   "text": "The refusal is stated twice for emphasis, \"I, Mormon, did utterly refuse from this time forth to be a commander and a leader of this people,\" and verse 16 repeats it. What supports it is arithmetic rather than argument: \"thrice have I delivered them out of the hands of their enemies, and they have repented not of their sins.\" Verse 12 also concedes what makes the decision costly, \"I had led them many times to battle, and had loved them, according to the love of God which was in me, with all my heart.\""
+  },
+  {
+   "label": "v. 15",
+   "start": 15,
+   "end": 15,
+   "title": "Six words borrowed from three books",
+   "text": "The Lord's reply opens with a sentence that stands at Deut. 32:35, Rom. 12:19 and Heb. 10:30: \"Vengeance is mine, and I will repay.\" The record supplies no attribution. What it adds is the reason the sentence applies here, \"because this people repented not after I had delivered them, behold, they shall be cut off from the face of the earth,\" which converts a general principle into a specific verdict on a named nation.",
+   "refs": [
+    {
+     "kind": "scripture",
+     "text": "Deut. 32:35",
+     "start": 54,
+     "end": 65,
+     "book": "Deut",
+     "chapter": 32,
+     "verse_start": 35,
+     "verse_end": 35
+    },
+    {
+     "kind": "scripture",
+     "text": "Rom. 12:19",
+     "start": 67,
+     "end": 77,
+     "book": "Rom",
+     "chapter": 12,
+     "verse_start": 19,
+     "verse_end": 19
+    },
+    {
+     "kind": "scripture",
+     "text": "Heb. 10:30",
+     "start": 82,
+     "end": 92,
+     "book": "Heb",
+     "chapter": 10,
+     "verse_start": 30,
+     "verse_end": 30
+    }
+   ]
+  },
+  {
+   "label": "v. 16",
+   "start": 16,
+   "end": 16,
+   "title": "A witness who calls himself idle",
+   "text": "The record describes the writer's own position in a phrase that is unusual for a man who has just resigned a command: \"I did stand as an idle witness to manifest unto the world the things which I saw and heard, according to the manifestations of the Spirit.\" Idle is the writer's own word for himself. The verse makes his inaction the qualification for the record rather than a failure of it, since standing aside is what leaves him free to watch."
+  },
+  {
+   "label": "v. 17–19",
+   "start": 17,
+   "end": 19,
+   "title": "Three audiences named in three verses",
+   "text": "The record turns from the narrative and addresses its readers directly, and it identifies them one at a time: \"I write unto you, Gentiles, and also unto you, house of Israel\"; \"I write unto all the ends of the earth; yea, unto you, twelve tribes of Israel, who shall be judged according to your works\"; \"I write also unto the remnant of this people, who shall also be judged by the twelve whom Jesus chose in this land.\" Each group is given not only a name but the standard it will be judged by."
+  }
+ ],
+ "chapter": [
+  {
+   "n": 1,
+   "title": "The offer comes very late and is complete",
+   "text": "Verse 2 asks for repentance, coming, baptism, and rebuilding the church, with sparing promised. Nothing is withheld from them."
+  },
+  {
+   "n": 2,
+   "title": "Victory triggers the ruin",
+   "text": "Verses 7 through 9 put the boasting directly after two wins. Success is what turns them."
+  },
+  {
+   "n": 3,
+   "title": "The oath is sworn on the highest thing available",
+   "text": "Verse 10 names the throne of God. What they swear by is what makes it forbidden."
+  },
+  {
+   "n": 4,
+   "title": "He resigns rather than lead it",
+   "text": "Verse 11 is a commander refusing his own army. The refusal is stated as absolute and dated."
+  },
+  {
+   "n": 5,
+   "title": "He states his love and its limit in one verse",
+   "text": "Verse 12 has him loving them with all his heart and praying without faith. Both are admitted together."
+  },
+  {
+   "n": 6,
+   "title": "Obedience looks like inaction",
+   "text": "Verse 16 calls him an idle witness. The commanded act is to stop."
+  },
+  {
+   "n": 7,
+   "title": "The resignation turns him into a writer",
+   "text": "Verse 17 begins the address to the future. Stepping back from the army is what produces the book."
+  },
+  {
+   "n": 8,
+   "title": "The judgment is described twice over",
+   "text": "Verses 18 and 19 give two sets of twelve, and verse 20 puts everyone before Christ. The chapter is careful about who answers to whom."
+  }
+ ],
+ "world_in_front": {
+  "applications": [
+   {
+    "title": "Use the quiet decade",
+    "verse_label": "v. 1",
+    "text": "In the ten years before the Lamanites came again, Mormon employed his people in preparing their lands and their arms. A pause is not a peace, and what gets done inside one decides what the next stretch looks like."
+   },
+   {
+    "title": "They did not recognize the reprieve",
+    "verse_label": "v. 3",
+    "text": "The record says they did not realize that it was the Lord who had spared them and granted them a chance for repentance. Failing to see what a break in the trouble is for is how a second chance goes unspent."
+   },
+   {
+    "title": "Watch what a win does to you",
+    "verse_label": "v. 9",
+    "text": "Two victories produced the boasting that ended them. Success is the more dangerous test here."
+   },
+   {
+    "title": "Do not swear by what is not yours",
+    "verse_label": "v. 10",
+    "text": "They swore by the throne of God to do what he forbade. The oath was worse than the plan."
+   },
+   {
+    "title": "Step down when you cannot lead it",
+    "verse_label": "v. 11",
+    "text": "He refused command over an army bent on vengeance. Resigning was the faithful act."
+   },
+   {
+    "title": "Love them and pray anyway",
+    "verse_label": "v. 12",
+    "text": "Mormon says he had led them and loved them with all his heart, and poured out his soul in prayer for them all the day long, and that it was without faith. Doing the right thing while expecting nothing from it is still doing it."
+   },
+   {
+    "title": "Stand still if that is the instruction",
+    "verse_label": "v. 16",
+    "text": "He calls himself an idle witness. Sometimes the assignment is to watch and write it down."
+   },
+   {
+    "title": "Wish for more than you can reach",
+    "verse_label": "v. 22",
+    "text": "Mormon closes by saying he would that he could persuade all the ends of the earth to repent. Naming the full size of what you want stays honest even when you know exactly how far your arm goes."
+   }
+  ],
+  "questions": [
+   {
+    "verse_label": "v. 3",
+    "start": 3,
+    "end": 3,
+    "text": "What sparing have I failed to recognize?"
+   },
+   {
+    "verse_label": "v. 9",
+    "start": 9,
+    "end": 9,
+    "text": "What have I boasted of that was not my own strength?"
+   },
+   {
+    "verse_label": "v. 11",
+    "start": 11,
+    "end": 11,
+    "text": "What am I still leading that I should hand back?"
+   },
+   {
+    "verse_label": "v. 12",
+    "start": 12,
+    "end": 12,
+    "text": "Have I prayed for someone without faith that it would help?"
+   },
+   {
+    "verse_label": "v. 13",
+    "start": 13,
+    "end": 13,
+    "text": "How many times have I been delivered and not changed?"
+   },
+   {
+    "verse_label": "v. 16",
+    "start": 16,
+    "end": 16,
+    "text": "What am I supposed to witness rather than fix?"
+   },
+   {
+    "verse_label": "v. 22",
+    "start": 22,
+    "end": 22,
+    "text": "Whom would I persuade if I could?"
+   }
+  ]
+ },
+ "entries": [
+  {
+   "id": "morm03-001",
+   "scope": "BOOK",
+   "head": "Morm. 2:19",
+   "anchor": {
+    "verse": 12,
+    "w1": 18,
+    "w2": 34,
+    "quote": "had loved them, according to the love of God which was in me, with all my heart"
+   },
+   "reason": "the sorrow he had carried for them all his days",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 2,
+     "verse": 19,
+     "w1": 10,
+     "w2": 23,
+     "quote": "my heart has been filled with sorrow because of their wickedness, all my days;",
+     "verse_text": "And wo is me because of their wickedness; for my heart has been filled with sorrow because of their wickedness, all my days; nevertheless, I know that I shall be lifted up at the last day.",
+     "markdown": "And wo is me because of their wickedness; for **my heart has been filled with sorrow because of their wickedness, all my days**; nevertheless, I know that I shall be lifted up at the last day.",
+     "span": true
+    }
+   ],
+   "mirror": "morm02-002"
+  },
+  {
+   "id": "morm03-002",
+   "scope": "BOOK",
+   "head": "Morm. 5:1",
+   "anchor": {
+    "verse": 11,
+    "w1": 7,
+    "w2": 19,
+    "quote": "I, Mormon, did utterly refuse from this time forth to be a commander"
+   },
+   "reason": "the oath he later went back on",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 5,
+     "verse": 1,
+     "w1": 15,
+     "w2": 30,
+     "quote": "did repent of the oath which I had made that I would no more assist them;",
+     "verse_text": "And it came to pass that I did go forth among the Nephites, and did repent of the oath which I had made that I would no more assist them; and they gave me command again of their armies, for they looked upon me as though I could deliver them from their afflictions.",
+     "markdown": "And it came to pass that I did go forth among the Nephites, and **did repent of the oath which I had made that I would no more assist them**; and they gave me command again of their armies, for they looked upon me as though I could deliver them from their afflictions.",
+     "span": true
+    }
+   ],
+   "mirror": "morm05-001"
+  },
+  {
+   "id": "morm03-011",
+   "scope": "BOOK",
+   "head": "Morm. 4:8",
+   "anchor": {
+    "verse": 9,
+    "w1": 15,
+    "w2": 22,
+    "quote": "they began to boast in their own strength,"
+   },
+   "reason": "the boast repeated after the next victory",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 4,
+     "verse": 8,
+     "w1": 27,
+     "w2": 34,
+     "quote": "they did again boast of their own strength;",
+     "verse_text": "And it came to pass that they were repulsed and driven back by the Nephites. And when the Nephites saw that they had driven the Lamanites they did again boast of their own strength; and they went forth in their own might, and took possession again of the city Desolation.",
+     "markdown": "And it came to pass that they were repulsed and driven back by the Nephites. And when the Nephites saw that they had driven the Lamanites **they did again boast of their own strength**; and they went forth in their own might, and took possession again of the city Desolation.",
+     "span": true
+    }
+   ],
+   "mirror": "morm04-001"
+  },
+  {
+   "id": "morm03-012",
+   "scope": "BOOK",
+   "head": "Morm. 7:6",
+   "anchor": {
+    "verse": 20,
+    "w1": 29,
+    "w2": 37,
+    "quote": "ye must all stand before the judgment-seat of Christ,"
+   },
+   "reason": "the same bar, in his address to all",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 7,
+     "verse": 6,
+     "w1": 11,
+     "w2": 20,
+     "quote": "whereby man must be raised to stand before his judgment-seat.",
+     "verse_text": "And he bringeth to pass the resurrection of the dead, whereby man must be raised to stand before his judgment-seat.",
+     "markdown": "And he bringeth to pass the resurrection of the dead, **whereby man must be raised to stand before his judgment-seat**.",
+     "span": true
+    }
+   ],
+   "mirror": "morm07-002"
+  },
+  {
+   "id": "morm03-013",
+   "scope": "BOOK",
+   "head": "Morm. 8:20",
+   "anchor": {
+    "verse": 15,
+    "w1": 1,
+    "w2": 7,
+    "quote": "Vengeance is mine, and I will repay;"
+   },
+   "reason": "Moroni repeating the sentence in his own chapter",
+   "targets": [
+    {
+     "ref": "Morm.",
+     "chapter": 8,
+     "verse": 20,
+     "w1": 13,
+     "w2": 24,
+     "quote": "for judgment is mine, saith the Lord, and vengeance is mine also,",
+     "verse_text": "Behold what the scripture says—man shall not smite, neither shall he judge; for judgment is mine, saith the Lord, and vengeance is mine also, and I will repay.",
+     "markdown": "Behold what the scripture says—man shall not smite, neither shall he judge; **for judgment is mine, saith the Lord, and vengeance is mine also**, and I will repay.",
+     "span": true
+    }
+   ],
+   "mirror": "morm08-003"
+  },
+  {
+   "id": "morm03-003",
+   "scope": "BOM",
+   "head": "1 Ne. 12:9",
+   "anchor": {
+    "verse": 19,
+    "w1": 26,
+    "w2": 41,
+    "quote": "they shall be judged by the other twelve whom Jesus chose in the land of Jerusalem"
+   },
+   "reason": "the judging ranks shown to Nephi in vision",
+   "targets": [
+    {
+     "ref": "1 Ne.",
+     "chapter": 12,
+     "verse": 9,
+     "w1": 15,
+     "w2": 25,
+     "quote": "they are they who shall judge the twelve tribes of Israel;",
+     "verse_text": "And he said unto me: Thou rememberest the twelve apostles of the Lamb? Behold they are they who shall judge the twelve tribes of Israel; wherefore, the twelve ministers of thy seed shall be judged of them; for ye are of the house of Israel.",
+     "markdown": "And he said unto me: Thou rememberest the twelve apostles of the Lamb? Behold **they are they who shall judge the twelve tribes of Israel**; wherefore, the twelve ministers of thy seed shall be judged of them; for ye are of the house of Israel.",
+     "span": true
+    }
+   ],
+   "mirror": "1ne12-012"
+  },
+  {
+   "id": "morm03-004",
+   "scope": "BOM",
+   "head": "Alma 50:34",
+   "anchor": {
+    "verse": 5,
+    "w1": 15,
+    "w2": 21,
+    "quote": "gather themselves together at the land Desolation"
+   },
+   "reason": "the same narrow pass held four centuries earlier",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 50,
+     "verse": 34,
+     "w1": 29,
+     "w2": 41,
+     "quote": "by the narrow pass which led by the sea into the land northward,",
+     "verse_text": "And it came to pass that they did not head them until they had come to the borders of the land Desolation; and there they did head them, by the narrow pass which led by the sea into the land northward, yea, by the sea, on the west and on the east.",
+     "markdown": "And it came to pass that they did not head them until they had come to the borders of the land Desolation; and there they did head them, **by the narrow pass which led by the sea into the land northward**, yea, by the sea, on the west and on the east.",
+     "span": true
+    }
+   ],
+   "mirror": "al50-005"
+  },
+  {
+   "id": "morm03-005",
+   "scope": "BOM",
+   "head": "Alma 54:16",
+   "anchor": {
+    "verse": 9,
+    "w1": 31,
+    "w2": 44,
+    "quote": "they would avenge themselves of the blood of their brethren who had been slain"
+   },
+   "reason": "the same vow, sworn by an enemy ruler",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 54,
+     "verse": 16,
+     "w1": 20,
+     "w2": 26,
+     "quote": "I will avenge his blood upon you,",
+     "verse_text": "I am Ammoron, the king of the Lamanites; I am the brother of Amalickiah whom ye have murdered. Behold, I will avenge his blood upon you, yea, and I will come upon you with my armies for I fear not your threatenings.",
+     "markdown": "I am Ammoron, the king of the Lamanites; I am the brother of Amalickiah whom ye have murdered. Behold, **I will avenge his blood upon you**, yea, and I will come upon you with my armies for I fear not your threatenings.",
+     "span": true
+    }
+   ],
+   "mirror": "al54-010"
+  },
+  {
+   "id": "morm03-006",
+   "scope": "BOM",
+   "head": "Alma 11:44",
+   "anchor": {
+    "verse": 20,
+    "w1": 29,
+    "w2": 37,
+    "quote": "ye must all stand before the judgment-seat of Christ"
+   },
+   "reason": "Amulek describing the same bar and the same standard",
+   "targets": [
+    {
+     "ref": "Alma",
+     "chapter": 11,
+     "verse": 44,
+     "w1": 60,
+     "w2": 72,
+     "quote": "shall be brought and be arraigned before the bar of Christ the Son,",
+     "verse_text": "Now, this restoration shall come to all, both old and young, both bond and free, both male and female, both the wicked and the righteous; and even there shall not so much as a hair of their heads be lost; but every thing shall be restored to its perfect frame, as it is now, or in the body, and shall be brought and be arraigned before the bar of Christ the Son, and God the Father, and the Holy Spirit, which is one Eternal God, to be judged according to their works, whether they be good or whether they be evil.",
+     "markdown": "Now, this restoration shall come to all, both old and young, both bond and free, both male and female, both the wicked and the righteous; and even there shall not so much as a hair of their heads be lost; but every thing shall be restored to its perfect frame, as it is now, or in the body, and **shall be brought and be arraigned before the bar of Christ the Son**, and God the Father, and the Holy Spirit, which is one Eternal God, to be judged according to their works, whether they be good or whether they be evil.",
+     "span": true
+    }
+   ],
+   "mirror": "al11-021"
+  },
+  {
+   "id": "morm03-007",
+   "scope": "BOM",
+   "head": "2 Ne. 29:8",
+   "anchor": {
+    "verse": 21,
+    "w1": 23,
+    "w2": 39,
+    "quote": "the covenant people of the Lord, shall have other witness besides him whom they saw and heard"
+   },
+   "reason": "the testimony of two nations, promised to Nephi",
+   "targets": [
+    {
+     "ref": "2 Ne.",
+     "chapter": 29,
+     "verse": 8,
+     "w1": 17,
+     "w2": 30,
+     "quote": "the testimony of two nations is a witness unto you that I am God,",
+     "verse_text": "Wherefore murmur ye, because that ye shall receive more of my word? Know ye not that the testimony of two nations is a witness unto you that I am God, that I remember one nation like unto another? Wherefore, I speak the same words unto one nation like unto another. And when the two nations shall run together the testimony of the two nations shall run together also.",
+     "markdown": "Wherefore murmur ye, because that ye shall receive more of my word? Know ye not that **the testimony of two nations is a witness unto you that I am God**, that I remember one nation like unto another? Wherefore, I speak the same words unto one nation like unto another. And when the two nations shall run together the testimony of the two nations shall run together also.",
+     "span": true
+    }
+   ],
+   "mirror": "2ne29-007"
+  },
+  {
+   "id": "morm03-008",
+   "scope": "SW",
+   "head": "Rom. 12:19",
+   "anchor": {
+    "verse": 15,
+    "w1": 1,
+    "w2": 7,
+    "quote": "Vengeance is mine, and I will repay"
+   },
+   "reason": "the same sentence quoted by Paul",
+   "targets": [
+    {
+     "ref": "Rom.",
+     "chapter": 12,
+     "verse": 19,
+     "w1": 16,
+     "w2": 24,
+     "quote": "Vengeance is mine; I will repay, saith the Lord.",
+     "verse_text": "Dearly beloved, avenge not yourselves, but rather give place unto wrath: for it is written, Vengeance is mine; I will repay, saith the Lord.",
+     "markdown": "Dearly beloved, avenge not yourselves, but rather give place unto wrath: for it is written, **Vengeance is mine; I will repay, saith the Lord**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "morm03-009",
+   "scope": "SW",
+   "head": "Matt. 19:28",
+   "anchor": {
+    "verse": 18,
+    "w1": 19,
+    "w2": 32,
+    "quote": "who shall be judged according to your works by the twelve whom Jesus chose"
+   },
+   "reason": "the twelve thrones promised in Judea",
+   "targets": [
+    {
+     "ref": "Matt.",
+     "chapter": 19,
+     "verse": 28,
+     "w1": 33,
+     "w2": 45,
+     "quote": "ye also shall sit upon twelve thrones, judging the twelve tribes of Israel.",
+     "verse_text": "And Jesus said unto them, Verily I say unto you, That ye which have followed me, in the regeneration when the Son of man shall sit in the throne of his glory, ye also shall sit upon twelve thrones, judging the twelve tribes of Israel.",
+     "markdown": "And Jesus said unto them, Verily I say unto you, That ye which have followed me, in the regeneration when the Son of man shall sit in the throne of his glory, **ye also shall sit upon twelve thrones, judging the twelve tribes of Israel**.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  },
+  {
+   "id": "morm03-010",
+   "scope": "SW",
+   "head": "2 Cor. 5:10",
+   "anchor": {
+    "verse": 22,
+    "w1": 15,
+    "w2": 24,
+    "quote": "repent and prepare to stand before the judgment-seat of Christ"
+   },
+   "reason": "the same seat named in the same words",
+   "targets": [
+    {
+     "ref": "2 Cor.",
+     "chapter": 5,
+     "verse": 10,
+     "w1": 1,
+     "w2": 11,
+     "quote": "For we must all appear before the judgment seat of Christ;",
+     "verse_text": "For we must all appear before the judgment seat of Christ; that every one may receive the things done in his body, according to that he hath done, whether it be good or bad.",
+     "markdown": "**For we must all appear before the judgment seat of Christ**; that every one may receive the things done in his body, according to that he hath done, whether it be good or bad.",
+     "span": true
+    }
+   ],
+   "mirror": null
+  }
+ ],
+ "markers": [
+  {
+   "verse": 5,
+   "w1": 15,
+   "w2": 21,
+   "quote": "gather themselves together at the land Desolation",
+   "entries": [
+    "morm03-004"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 15,
+   "w2": 22,
+   "quote": "they began to boast in their own strength,",
+   "entries": [
+    "morm03-011"
+   ]
+  },
+  {
+   "verse": 9,
+   "w1": 31,
+   "w2": 44,
+   "quote": "they would avenge themselves of the blood of their brethren who had been slain",
+   "entries": [
+    "morm03-005"
+   ]
+  },
+  {
+   "verse": 11,
+   "w1": 7,
+   "w2": 19,
+   "quote": "I, Mormon, did utterly refuse from this time forth to be a commander",
+   "entries": [
+    "morm03-002"
+   ]
+  },
+  {
+   "verse": 12,
+   "w1": 18,
+   "w2": 34,
+   "quote": "had loved them, according to the love of God which was in me, with all my heart",
+   "entries": [
+    "morm03-001"
+   ]
+  },
+  {
+   "verse": 15,
+   "w1": 1,
+   "w2": 7,
+   "quote": "Vengeance is mine, and I will repay;",
+   "entries": [
+    "morm03-013",
+    "morm03-008"
+   ]
+  },
+  {
+   "verse": 18,
+   "w1": 19,
+   "w2": 32,
+   "quote": "who shall be judged according to your works by the twelve whom Jesus chose",
+   "entries": [
+    "morm03-009"
+   ]
+  },
+  {
+   "verse": 19,
+   "w1": 26,
+   "w2": 41,
+   "quote": "they shall be judged by the other twelve whom Jesus chose in the land of Jerusalem",
+   "entries": [
+    "morm03-003"
+   ]
+  },
+  {
+   "verse": 20,
+   "w1": 29,
+   "w2": 37,
+   "quote": "ye must all stand before the judgment-seat of Christ,",
+   "entries": [
+    "morm03-012",
+    "morm03-006"
+   ]
+  },
+  {
+   "verse": 21,
+   "w1": 23,
+   "w2": 39,
+   "quote": "the covenant people of the Lord, shall have other witness besides him whom they saw and heard",
+   "entries": [
+    "morm03-007"
+   ]
+  },
+  {
+   "verse": 22,
+   "w1": 15,
+   "w2": 24,
+   "quote": "repent and prepare to stand before the judgment-seat of Christ",
+   "entries": [
+    "morm03-010"
+   ]
+  }
+ ],
+ "generated": {
+  "at": "2026-09-07",
+  "source_sha256": "54f35fd7c9487bdc"
+ }
+}

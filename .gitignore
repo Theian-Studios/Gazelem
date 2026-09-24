@@ -12,3 +12,14 @@ src/data/manifest.json
 
 # Machine-local Claude Code permissions.
 .claude/settings.local.json
+
+# macOS conflict copies. A synced folder resolves a clash by hanging a number
+# off the end of the name ("08-alma-05-notes 2.json"), and 82 of those were
+# committed and served in place of the real notes. They are never wanted.
+*[ ][0-9].json
+*[ ][0-9].js
+*[ ][0-9].css
+
+# Other scans of the scripture printings, downloaded by collate-scriptures.mjs.
+# About 40 MB, and fetched again from the Internet Archive when missing.
+scripts/.witnesses/

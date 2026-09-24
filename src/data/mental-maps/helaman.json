@@ -1,0 +1,517 @@
+{
+  "book": "Helaman",
+  "slug": "helaman",
+  "clock": {
+    "unit": "year",
+    "start": -52,
+    "end": -1
+  },
+  "threads": [
+    {
+      "id": "seat",
+      "name": "The judgment seat",
+      "sub": "seven holders"
+    },
+    {
+      "id": "robbers",
+      "name": "The Gadianton band",
+      "sub": "Kishkumen, Gadianton",
+      "start": -50
+    },
+    {
+      "id": "prophets",
+      "name": "The prophets",
+      "sub": "Nephi, Lehi, Samuel"
+    },
+    {
+      "id": "lamanites",
+      "name": "The Lamanites",
+      "sub": "invaders → believers",
+      "turns": -30
+    },
+    {
+      "id": "samuel",
+      "name": "Samuel",
+      "sub": "a Lamanite prophet"
+    },
+    {
+      "id": "editorial",
+      "name": "Mormon",
+      "sub": "the abridger's own voice"
+    }
+  ],
+  "chapters": [
+    {
+      "n": 1,
+      "verses": 34,
+      "caption": "murder at the seat",
+      "thread": "seat"
+    },
+    {
+      "n": 2,
+      "verses": 14,
+      "caption": "Gadianton's band born",
+      "thread": "seat"
+    },
+    {
+      "n": 3,
+      "verses": 37,
+      "caption": "north · cement · Helaman dies",
+      "thread": "seat"
+    },
+    {
+      "n": 4,
+      "verses": 26,
+      "caption": "pride · lands lost",
+      "thread": "seat"
+    },
+    {
+      "n": 5,
+      "verses": 52,
+      "caption": "counsel · prison fire",
+      "thread": "lamanites"
+    },
+    {
+      "n": 6,
+      "verses": 41,
+      "caption": "roles reverse",
+      "thread": "lamanites"
+    },
+    {
+      "n": 7,
+      "verses": 29,
+      "caption": "the garden tower",
+      "thread": "prophets"
+    },
+    {
+      "n": 8,
+      "verses": 28,
+      "caption": "every prophet testified",
+      "thread": "prophets"
+    },
+    {
+      "n": 9,
+      "verses": 41,
+      "caption": "murder solved",
+      "thread": "prophets"
+    },
+    {
+      "n": 10,
+      "verses": 19,
+      "caption": "sealing power",
+      "thread": "prophets"
+    },
+    {
+      "n": 11,
+      "verses": 38,
+      "caption": "famine, then rain",
+      "thread": "prophets"
+    },
+    {
+      "n": 12,
+      "verses": 26,
+      "caption": "how soon men forget",
+      "thread": "editorial"
+    },
+    {
+      "n": 13,
+      "verses": 39,
+      "caption": "Samuel on the wall",
+      "thread": "samuel"
+    },
+    {
+      "n": 14,
+      "verses": 31,
+      "caption": "signs of birth and death",
+      "thread": "samuel"
+    },
+    {
+      "n": 15,
+      "verses": 17,
+      "caption": "the firmer people",
+      "thread": "samuel"
+    },
+    {
+      "n": 16,
+      "verses": 26,
+      "caption": "Samuel vanishes",
+      "thread": "samuel"
+    }
+  ],
+  "sections": [
+    {
+      "label": "Zarahemla comes apart",
+      "from": 1,
+      "to": 4,
+      "thread": "seat"
+    },
+    {
+      "label": "Nephi & Lehi",
+      "from": 5,
+      "to": 6,
+      "thread": "lamanites"
+    },
+    {
+      "label": "Nephi alone",
+      "from": 7,
+      "to": 11,
+      "thread": "prophets"
+    },
+    {
+      "label": "Mormon",
+      "from": 12,
+      "to": 12,
+      "thread": "editorial"
+    },
+    {
+      "label": "Samuel on the wall",
+      "from": 13,
+      "to": 16,
+      "thread": "samuel"
+    }
+  ],
+  "events": [
+    {
+      "thread": "seat",
+      "label": "Pahoran II slain",
+      "ref": "Helaman 1:9",
+      "at": -52
+    },
+    {
+      "thread": "lamanites",
+      "label": "Coriantumr takes Zarahemla",
+      "ref": "Helaman 1:20",
+      "at": -51
+    },
+    {
+      "thread": "seat",
+      "label": "Helaman II takes the seat",
+      "ref": "Helaman 2:2",
+      "at": -50
+    },
+    {
+      "thread": "robbers",
+      "label": "the band forms",
+      "ref": "Helaman 2:3",
+      "at": -50
+    },
+    {
+      "thread": "seat",
+      "label": "Nephi succeeds him",
+      "ref": "Helaman 3:37",
+      "at": -39
+    },
+    {
+      "thread": "lamanites",
+      "label": "the land southward is theirs",
+      "ref": "Helaman 4:8",
+      "at": -33
+    },
+    {
+      "thread": "seat",
+      "label": "Nephi resigns it",
+      "ref": "Helaman 5:1",
+      "at": -30
+    },
+    {
+      "thread": "prophets",
+      "label": "prison fire",
+      "ref": "Helaman 5:23",
+      "at": -30
+    },
+    {
+      "thread": "lamanites",
+      "label": "8,000 baptized",
+      "ref": "Helaman 5:19",
+      "at": -30
+    },
+    {
+      "thread": "seat",
+      "label": "Cezoram and his son slain",
+      "ref": "Helaman 6:15",
+      "at": -26
+    },
+    {
+      "thread": "seat",
+      "label": "Seezoram slain",
+      "ref": "Helaman 9:3",
+      "at": -23
+    },
+    {
+      "thread": "robbers",
+      "label": "robbers hold the seats",
+      "ref": "Helaman 7:4",
+      "at": -23
+    },
+    {
+      "thread": "prophets",
+      "label": "the garden tower",
+      "ref": "Helaman 7:10",
+      "at": -23
+    },
+    {
+      "thread": "prophets",
+      "label": "sealing power",
+      "ref": "Helaman 10:7",
+      "at": -21,
+      "approx": true
+    },
+    {
+      "thread": "robbers",
+      "label": "famine breaks them",
+      "ref": "Helaman 11:10",
+      "at": -17
+    },
+    {
+      "thread": "prophets",
+      "label": "famine, then rain",
+      "ref": "Helaman 11:4",
+      "at": -19
+    },
+    {
+      "thread": "robbers",
+      "label": "back, and stronger",
+      "ref": "Helaman 11:31",
+      "at": -11
+    },
+    {
+      "thread": "prophets",
+      "label": "Samuel on the wall",
+      "ref": "Helaman 13:2",
+      "at": -6,
+      "voice": "samuel"
+    },
+    {
+      "thread": "lamanites",
+      "label": "they send a prophet north",
+      "ref": "Helaman 13:2",
+      "at": -6
+    }
+  ],
+  "turning_points": [
+    {
+      "thread": "lamanites",
+      "label": "6:1 · the roles reverse",
+      "ref": "Helaman 6:1",
+      "at": -30
+    },
+    {
+      "thread": "samuel",
+      "label": "the five-year clock starts",
+      "ref": "Helaman 14:2",
+      "at": -6
+    }
+  ],
+  "doctrine": [
+    {
+      "ref": "Helaman 3:27-29",
+      "text": "The gate of heaven stands open to all"
+    },
+    {
+      "ref": "Helaman 4:11-13",
+      "text": "Why they fell: pride, riches, the poor"
+    },
+    {
+      "ref": "Helaman 5:12",
+      "text": "The rock of our Redeemer · remember"
+    },
+    {
+      "ref": "Helaman 6:1",
+      "text": "The Lamanites surpass the Nephites"
+    },
+    {
+      "ref": "Helaman 8:14-15",
+      "text": "The brazen serpent as a type of Christ"
+    },
+    {
+      "ref": "Helaman 10:4-7",
+      "text": "The sealing power given to Nephi"
+    },
+    {
+      "ref": "Helaman 12:1-6",
+      "text": "The unsteadiness of the hearts of men"
+    },
+    {
+      "ref": "Helaman 13:38",
+      "text": "Seeking happiness in doing iniquity"
+    },
+    {
+      "ref": "Helaman 14:2-27",
+      "text": "Signs of his birth · signs of his death"
+    },
+    {
+      "ref": "Helaman 15:7-8",
+      "text": "Faith and repentance change the heart"
+    }
+  ],
+  "anchors": [
+    {
+      "text": "Pahoran II murdered in the seat",
+      "ref": "Helaman 1:9",
+      "year": -52
+    },
+    {
+      "text": "Gadianton's band is born",
+      "ref": "Helaman 2:4",
+      "year": -50
+    },
+    {
+      "text": "Lamanites hold the land southward",
+      "ref": "Helaman 4:8",
+      "year": -33
+    },
+    {
+      "text": "Nephi resigns · prison fire · the reversal",
+      "ref": "Helaman 5:1",
+      "year": -30
+    },
+    {
+      "text": "Nephi on the garden tower",
+      "ref": "Helaman 7:10",
+      "year": -23
+    },
+    {
+      "text": "Nephi given the sealing power",
+      "ref": "Helaman 10:7",
+      "year": -21,
+      "approx": true
+    },
+    {
+      "text": "Famine, then repentance, then rain",
+      "ref": "Helaman 11:4",
+      "year": -19
+    },
+    {
+      "text": "Samuel starts a five-year clock",
+      "ref": "Helaman 14:2",
+      "year": -6
+    }
+  ],
+  "anchors_note": "51 years, told straight through. Page order is time order.",
+  "table": {
+    "title": "The judgment seat",
+    "columns": [
+      "holder",
+      "took the seat",
+      "how it ended",
+      "ref"
+    ],
+    "rows": [
+      [
+        "Pahoran II",
+        "52 BC",
+        "murdered by Kishkumen",
+        "Helaman 1:9"
+      ],
+      [
+        "Pacumeni",
+        "52 BC",
+        "slain by Coriantumr",
+        "Helaman 1:21"
+      ],
+      [
+        "Helaman II",
+        "50 BC",
+        "died in office",
+        "Helaman 3:37"
+      ],
+      [
+        "Nephi",
+        "39 BC",
+        "resigned to preach",
+        "Helaman 5:1"
+      ],
+      [
+        "Cezoram",
+        "30 BC",
+        "murdered in the seat",
+        "Helaman 6:15"
+      ],
+      [
+        "Cezoram's son",
+        "26 BC",
+        "murdered in the seat",
+        "Helaman 6:15"
+      ],
+      [
+        "Seezoram",
+        "—",
+        "murdered by his brother",
+        "Helaman 8:27"
+      ]
+    ],
+    "note": "Five of the seven die violently. After Seezoram the record stops naming them."
+  },
+  "hooks": [
+    "6:1 is the hinge. From there on the Lamanites are the righteous ones, and they stay that way.",
+    "The Gadianton band forms in ch. 2 and never dies. It outlives the book and the nation.",
+    "Two Nephite prophets can't get a hearing at home; a Lamanite on a wall can.",
+    "Samuel starts a five-year clock in ch. 14. The book ends with a year still on it (16:24).",
+    "Mormon stops narrating once (ch. 12), to say why the cycle keeps coming back around."
+  ],
+  "studies": [
+    {
+      "id": "record-line",
+      "title": "Who keeps the record",
+      "columns": [
+        "holder",
+        "note",
+        "ref"
+      ],
+      "rows": [
+        [
+          "Alma the Younger",
+          "hands the records to his son",
+          "Alma 37:1"
+        ],
+        [
+          "Helaman",
+          "dies; the records pass to his brother",
+          "Alma 62:52"
+        ],
+        [
+          "Shiblon",
+          "a brother, holding it in trust",
+          "Alma 63:1"
+        ],
+        [
+          "Helaman II",
+          "chief judge and record-keeper",
+          "Alma 63:11"
+        ],
+        [
+          "Nephi",
+          "both offices, then only one",
+          "Helaman 3:37"
+        ],
+        [
+          "Nephi II",
+          "receives them as the sign comes",
+          "3 Nephi 1:2"
+        ]
+      ],
+      "note": "One family carries the plates for four generations. When Nephi gives up the judgment seat in 5:1, the line stops governing and only prophesies."
+    },
+    {
+      "id": "remember",
+      "title": "One word holds up chapter 5",
+      "word": "remember",
+      "chapter": 5,
+      "count": 14,
+      "verses": [
+        5,
+        6,
+        9,
+        10,
+        12,
+        14
+      ],
+      "doubled_in": [
+        9,
+        12
+      ],
+      "elsewhere": "never more than twice in any other chapter of Helaman",
+      "note": "Helaman's counsel to his sons is built on a single verb, and what they are told to remember is other men's sermons — Benjamin's (5:9), Amulek's (5:10). The chapter teaches by pointing backward."
+    }
+  ]
+}

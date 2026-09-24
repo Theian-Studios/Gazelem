@@ -1,0 +1,368 @@
+{
+  "book": "Ether",
+  "slug": "ether",
+  "clock": {
+    "unit": "chapter"
+  },
+  "threads": [
+    {
+      "id": "jared",
+      "name": "Brother of Jared",
+      "sub": "Babel to the new land"
+    },
+    {
+      "id": "kings",
+      "name": "The kings",
+      "sub": "and their combinations"
+    },
+    {
+      "id": "moroni",
+      "name": "Moroni",
+      "sub": "the abridger breaks in"
+    },
+    {
+      "id": "ether",
+      "name": "Ether",
+      "sub": "the last prophet"
+    }
+  ],
+  "chapters": [
+    {
+      "n": 1,
+      "verses": 43,
+      "caption": "the genealogy · Babel",
+      "thread": "jared"
+    },
+    {
+      "n": 2,
+      "verses": 25,
+      "caption": "barges · chastened",
+      "thread": "jared"
+    },
+    {
+      "n": 3,
+      "verses": 28,
+      "caption": "the finger of the Lord",
+      "thread": "jared"
+    },
+    {
+      "n": 4,
+      "verses": 19,
+      "caption": "Moroni seals the vision",
+      "thread": "moroni"
+    },
+    {
+      "n": 5,
+      "verses": 6,
+      "caption": "three witnesses",
+      "thread": "moroni"
+    },
+    {
+      "n": 6,
+      "verses": 30,
+      "caption": "the crossing",
+      "thread": "kings"
+    },
+    {
+      "n": 7,
+      "verses": 27,
+      "caption": "Kib & Corihor",
+      "thread": "kings"
+    },
+    {
+      "n": 8,
+      "verses": 26,
+      "caption": "the daughter's dance",
+      "thread": "kings"
+    },
+    {
+      "n": 9,
+      "verses": 35,
+      "caption": "Akish · serpents",
+      "thread": "kings"
+    },
+    {
+      "n": 10,
+      "verses": 34,
+      "caption": "Riplakish · Morianton",
+      "thread": "kings"
+    },
+    {
+      "n": 11,
+      "verses": 23,
+      "caption": "prophets rejected",
+      "thread": "kings"
+    },
+    {
+      "n": 12,
+      "verses": 41,
+      "caption": "faith · weakness",
+      "thread": "moroni"
+    },
+    {
+      "n": 13,
+      "verses": 31,
+      "caption": "Ether in the cave",
+      "thread": "ether"
+    },
+    {
+      "n": 14,
+      "verses": 31,
+      "caption": "the land cursed",
+      "thread": "ether"
+    },
+    {
+      "n": 15,
+      "verses": 34,
+      "caption": "the last battle",
+      "thread": "ether"
+    }
+  ],
+  "sections": [
+    {
+      "label": "Brother of Jared",
+      "from": 1,
+      "to": 3,
+      "thread": "jared"
+    },
+    {
+      "label": "Moroni breaks in",
+      "from": 4,
+      "to": 5,
+      "thread": "moroni"
+    },
+    {
+      "label": "The kings",
+      "from": 6,
+      "to": 11,
+      "thread": "kings"
+    },
+    {
+      "label": "Faith",
+      "from": 12,
+      "to": 12,
+      "thread": "moroni"
+    },
+    {
+      "label": "Ether & the end",
+      "from": 13,
+      "to": 15,
+      "thread": "ether"
+    }
+  ],
+  "events": [
+    {
+      "thread": "jared",
+      "label": "Babel",
+      "ref": "Ether 1:33"
+    },
+    {
+      "thread": "jared",
+      "label": "chastened three hours",
+      "ref": "Ether 2:14"
+    },
+    {
+      "thread": "jared",
+      "label": "the finger of the Lord",
+      "ref": "Ether 3:6"
+    },
+    {
+      "thread": "jared",
+      "label": "sees the Lord",
+      "ref": "Ether 3:15"
+    },
+    {
+      "thread": "jared",
+      "label": "344 days at sea",
+      "ref": "Ether 6:11"
+    },
+    {
+      "thread": "kings",
+      "label": "the people ask for a king",
+      "ref": "Ether 6:22"
+    },
+    {
+      "thread": "kings",
+      "label": "Jared's daughter dances",
+      "ref": "Ether 8:10"
+    },
+    {
+      "thread": "kings",
+      "label": "Akish's oath",
+      "ref": "Ether 8:14"
+    },
+    {
+      "thread": "kings",
+      "label": "poisonous serpents",
+      "ref": "Ether 9:31"
+    },
+    {
+      "thread": "kings",
+      "label": "Riplakish",
+      "ref": "Ether 10:5"
+    },
+    {
+      "thread": "kings",
+      "label": "Coriantumr and Shiz",
+      "ref": "Ether 14:17"
+    },
+    {
+      "thread": "kings",
+      "label": "the last battle",
+      "ref": "Ether 15:29"
+    },
+    {
+      "thread": "moroni",
+      "label": "seals the vision",
+      "ref": "Ether 4:5"
+    },
+    {
+      "thread": "moroni",
+      "label": "three witnesses",
+      "ref": "Ether 5:3"
+    },
+    {
+      "thread": "moroni",
+      "label": "awake to your awful situation",
+      "ref": "Ether 8:24"
+    },
+    {
+      "thread": "moroni",
+      "label": "weakness made strong",
+      "ref": "Ether 12:27"
+    },
+    {
+      "thread": "ether",
+      "label": "Ether prophesies",
+      "ref": "Ether 12:2"
+    },
+    {
+      "thread": "ether",
+      "label": "a New Jerusalem",
+      "ref": "Ether 13:6"
+    },
+    {
+      "thread": "ether",
+      "label": "hides in a cave",
+      "ref": "Ether 13:13"
+    },
+    {
+      "thread": "ether",
+      "label": "last words",
+      "ref": "Ether 15:34"
+    }
+  ],
+  "turning_points": [
+    {
+      "thread": "kings",
+      "label": "kingship begins",
+      "ref": "Ether 6:22"
+    }
+  ],
+  "doctrine": [
+    {
+      "ref": "Ether 2:12",
+      "text": "Serve the God of the land"
+    },
+    {
+      "ref": "Ether 3:15",
+      "text": "Never has man believed as thou"
+    },
+    {
+      "ref": "Ether 4:12",
+      "text": "Whatever persuades to do good is of God"
+    },
+    {
+      "ref": "Ether 8:24",
+      "text": "Awake to your awful situation"
+    },
+    {
+      "ref": "Ether 12:4",
+      "text": "Hope, an anchor to the soul"
+    },
+    {
+      "ref": "Ether 12:6",
+      "text": "No witness until after the trial"
+    },
+    {
+      "ref": "Ether 12:27",
+      "text": "Weak things become strong"
+    },
+    {
+      "ref": "Ether 12:41",
+      "text": "Seek this Jesus"
+    }
+  ],
+  "anchors": [
+    {
+      "text": "Babel: the language kept",
+      "ref": "Ether 1:33"
+    },
+    {
+      "text": "The finger of the Lord",
+      "ref": "Ether 3:6"
+    },
+    {
+      "text": "344 days at sea",
+      "ref": "Ether 6:11"
+    },
+    {
+      "text": "Kingship foretold to bring captivity",
+      "ref": "Ether 6:23"
+    },
+    {
+      "text": "Jared's daughter's plan",
+      "ref": "Ether 8:9"
+    },
+    {
+      "text": "No witness until after the trial of faith",
+      "ref": "Ether 12:6"
+    },
+    {
+      "text": "Ether in the cave",
+      "ref": "Ether 13:13"
+    },
+    {
+      "text": "Coriantumr alone",
+      "ref": "Ether 15:32"
+    }
+  ],
+  "anchors_note": "Ether gives no dates at all; the book measures time in generations.",
+  "table": {
+    "title": "Moroni breaks into the story",
+    "columns": [
+      "what Moroni adds",
+      "ref"
+    ],
+    "rows": [
+      [
+        "the land is choice: serve God or be swept off",
+        "Ether 2:9"
+      ],
+      [
+        "the vision sealed up with the plates",
+        "Ether 4:5"
+      ],
+      [
+        "three witnesses foretold",
+        "Ether 5:3"
+      ],
+      [
+        "a warning about secret combinations",
+        "Ether 8:24"
+      ],
+      [
+        "faith, weakness, and his farewell",
+        "Ether 12:6"
+      ]
+    ],
+    "note": "At least five times in fifteen chapters, the narrator steps out of the story."
+  },
+  "hooks": [
+    "The genealogy runs backward — from Ether to Jared — before the story runs forward (1:6–32).",
+    "The brother of Jared is never named in the text.",
+    "The people ask for a king and are warned it leads to captivity (6:23). The rest of the book proves it.",
+    "Ether watches the end from a cave (13:13–14).",
+    "Coriantumr outlives everyone and is found by the people of Zarahemla (Omni 1:21)."
+  ]
+}

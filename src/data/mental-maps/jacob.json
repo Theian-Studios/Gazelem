@@ -1,0 +1,288 @@
+{
+  "book": "Jacob",
+  "slug": "jacob",
+  "clock": {
+    "unit": "chapter"
+  },
+  "threads": [
+    {
+      "id": "jacob",
+      "name": "Jacob",
+      "sub": "priest and record-keeper"
+    },
+    {
+      "id": "nephites",
+      "name": "The Nephites",
+      "sub": "riches, pride, wives"
+    },
+    {
+      "id": "zenos",
+      "name": "Zenos's allegory",
+      "sub": "the olive trees"
+    },
+    {
+      "id": "sherem",
+      "name": "Sherem",
+      "sub": "the first anti-Christ"
+    }
+  ],
+  "chapters": [
+    {
+      "n": 1,
+      "verses": 19,
+      "caption": "Jacob takes the plates",
+      "thread": "jacob"
+    },
+    {
+      "n": 2,
+      "verses": 35,
+      "caption": "riches & chastity",
+      "thread": "nephites"
+    },
+    {
+      "n": 3,
+      "verses": 14,
+      "caption": "the pure in heart",
+      "thread": "nephites"
+    },
+    {
+      "n": 4,
+      "verses": 18,
+      "caption": "why we write · Christ",
+      "thread": "zenos"
+    },
+    {
+      "n": 5,
+      "verses": 77,
+      "caption": "the olive tree",
+      "thread": "zenos"
+    },
+    {
+      "n": 6,
+      "verses": 13,
+      "caption": "cleave unto God",
+      "thread": "zenos"
+    },
+    {
+      "n": 7,
+      "verses": 27,
+      "caption": "Sherem",
+      "thread": "sherem"
+    }
+  ],
+  "sections": [
+    {
+      "label": "The plates",
+      "from": 1,
+      "to": 1,
+      "thread": "jacob"
+    },
+    {
+      "label": "Temple sermon",
+      "from": 2,
+      "to": 3,
+      "thread": "nephites"
+    },
+    {
+      "label": "The allegory",
+      "from": 4,
+      "to": 6,
+      "thread": "zenos"
+    },
+    {
+      "label": "Sherem",
+      "from": 7,
+      "to": 7,
+      "thread": "sherem"
+    }
+  ],
+  "events": [
+    {
+      "thread": "jacob",
+      "label": "given the small plates",
+      "ref": "Jacob 1:2"
+    },
+    {
+      "thread": "jacob",
+      "label": "preaches at the temple",
+      "ref": "Jacob 2:2"
+    },
+    {
+      "thread": "jacob",
+      "label": "we knew of Christ",
+      "ref": "Jacob 4:4"
+    },
+    {
+      "thread": "jacob",
+      "label": "adieu",
+      "ref": "Jacob 7:27"
+    },
+    {
+      "thread": "nephites",
+      "label": "Nephi dies",
+      "ref": "Jacob 1:12"
+    },
+    {
+      "thread": "nephites",
+      "label": "lifted up in pride",
+      "ref": "Jacob 2:13"
+    },
+    {
+      "thread": "nephites",
+      "label": "David and Solomon",
+      "ref": "Jacob 2:24"
+    },
+    {
+      "thread": "nephites",
+      "label": "Lamanite husbands more faithful",
+      "ref": "Jacob 3:7"
+    },
+    {
+      "thread": "zenos",
+      "label": "the tame tree decays",
+      "ref": "Jacob 5:3"
+    },
+    {
+      "thread": "zenos",
+      "label": "wild branches grafted",
+      "ref": "Jacob 5:10"
+    },
+    {
+      "thread": "zenos",
+      "label": "all the fruit is bad",
+      "ref": "Jacob 5:32"
+    },
+    {
+      "thread": "zenos",
+      "label": "what could I have done more?",
+      "ref": "Jacob 5:47"
+    },
+    {
+      "thread": "zenos",
+      "label": "one body again",
+      "ref": "Jacob 5:74"
+    },
+    {
+      "thread": "sherem",
+      "label": "Sherem comes",
+      "ref": "Jacob 7:1"
+    },
+    {
+      "thread": "sherem",
+      "label": "asks for a sign",
+      "ref": "Jacob 7:13"
+    },
+    {
+      "thread": "sherem",
+      "label": "confesses and dies",
+      "ref": "Jacob 7:20"
+    }
+  ],
+  "turning_points": [
+    {
+      "thread": "zenos",
+      "label": "the allegory begins",
+      "ref": "Jacob 5:1"
+    }
+  ],
+  "doctrine": [
+    {
+      "ref": "Jacob 2:18-19",
+      "text": "Seek the kingdom before riches"
+    },
+    {
+      "ref": "Jacob 2:35",
+      "text": "Broken hearts in the home"
+    },
+    {
+      "ref": "Jacob 3:1-2",
+      "text": "The pure in heart"
+    },
+    {
+      "ref": "Jacob 4:7",
+      "text": "His grace, to do these things"
+    },
+    {
+      "ref": "Jacob 4:14",
+      "text": "Looking beyond the mark"
+    },
+    {
+      "ref": "Jacob 5:47",
+      "text": "What could I have done more?"
+    },
+    {
+      "ref": "Jacob 6:12",
+      "text": "O be wise"
+    },
+    {
+      "ref": "Jacob 7:11",
+      "text": "All the prophets testify of Christ"
+    }
+  ],
+  "anchors": [
+    {
+      "text": "Fifty-five years out: Jacob takes the plates",
+      "ref": "Jacob 1:1",
+      "year": -545
+    },
+    {
+      "text": "Nephi dies",
+      "ref": "Jacob 1:12"
+    },
+    {
+      "text": "The temple sermon",
+      "ref": "Jacob 2:2"
+    },
+    {
+      "text": "Zenos's allegory",
+      "ref": "Jacob 5:1"
+    },
+    {
+      "text": "Sherem confronts Jacob",
+      "ref": "Jacob 7:1"
+    },
+    {
+      "text": "The plates pass to Enos",
+      "ref": "Jacob 7:27"
+    }
+  ],
+  "anchors_note": "One date: fifty-five years after Lehi left (1:1).",
+  "table": {
+    "title": "The vineyard's four seasons",
+    "columns": [
+      "visit",
+      "what the lord finds",
+      "ref"
+    ],
+    "rows": [
+      [
+        "first",
+        "the tame tree decaying; he prunes and grafts",
+        "Jacob 5:4"
+      ],
+      [
+        "second",
+        "the grafts bearing good fruit",
+        "Jacob 5:17"
+      ],
+      [
+        "third",
+        "every sort of bad fruit",
+        "Jacob 5:32"
+      ],
+      [
+        "last",
+        "one final labor; the trees become one body",
+        "Jacob 5:74"
+      ]
+    ],
+    "note": "Jacob 5 is the longest chapter in the Book of Mormon — 77 verses."
+  },
+  "hooks": [
+    "Jacob preaches reluctantly: it grieves him to be so bold before the wives and children (2:7).",
+    "He holds up the Lamanites as the better husbands (3:5–7) — the reversal Helaman later makes national.",
+    "The book's longest chapter isn't Jacob's: it is Zenos, a prophet the Bible never mentions.",
+    "Sherem demands a sign and gets one (7:13–15). Korihor repeats the pattern in Alma 30.",
+    "Jacob signs off with a French word, adieu (7:27) — its only appearance in the Book of Mormon."
+  ]
+}

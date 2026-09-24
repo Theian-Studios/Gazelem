@@ -1,0 +1,521 @@
+{
+  "book": "Mosiah",
+  "slug": "mosiah",
+  "clock": {
+    "unit": "year",
+    "start": -200,
+    "end": -91
+  },
+  "threads": [
+    {
+      "id": "zarahemla",
+      "name": "Zarahemla",
+      "sub": "Benjamin, Mosiah II"
+    },
+    {
+      "id": "zeniff",
+      "name": "Zeniff's colony",
+      "sub": "Zeniff, Noah, Limhi",
+      "start": -200,
+      "end": -121
+    },
+    {
+      "id": "alma",
+      "name": "Alma's people",
+      "sub": "Mormon, Helam",
+      "start": -148,
+      "end": -120
+    },
+    {
+      "id": "abinadi",
+      "name": "Abinadi",
+      "sub": "one prophet, one convert"
+    }
+  ],
+  "chapters": [
+    {
+      "n": 1,
+      "verses": 18,
+      "caption": "Benjamin's sons",
+      "thread": "zarahemla"
+    },
+    {
+      "n": 2,
+      "verses": 41,
+      "caption": "Benjamin's address",
+      "thread": "zarahemla"
+    },
+    {
+      "n": 3,
+      "verses": 27,
+      "caption": "an angel's words",
+      "thread": "zarahemla"
+    },
+    {
+      "n": 4,
+      "verses": 30,
+      "caption": "retain a remission",
+      "thread": "zarahemla"
+    },
+    {
+      "n": 5,
+      "verses": 15,
+      "caption": "the mighty change",
+      "thread": "zarahemla"
+    },
+    {
+      "n": 6,
+      "verses": 7,
+      "caption": "Mosiah II reigns",
+      "thread": "zarahemla"
+    },
+    {
+      "n": 7,
+      "verses": 33,
+      "caption": "Ammon finds Limhi",
+      "thread": "zarahemla"
+    },
+    {
+      "n": 8,
+      "verses": 21,
+      "caption": "a seer explained",
+      "thread": "zarahemla"
+    },
+    {
+      "n": 9,
+      "verses": 19,
+      "caption": "Zeniff returns",
+      "thread": "zeniff"
+    },
+    {
+      "n": 10,
+      "verses": 22,
+      "caption": "Zeniff's wars",
+      "thread": "zeniff"
+    },
+    {
+      "n": 11,
+      "verses": 29,
+      "caption": "Noah's court",
+      "thread": "zeniff"
+    },
+    {
+      "n": 12,
+      "verses": 37,
+      "caption": "Abinadi seized",
+      "thread": "abinadi"
+    },
+    {
+      "n": 13,
+      "verses": 35,
+      "caption": "Abinadi · the law",
+      "thread": "abinadi"
+    },
+    {
+      "n": 14,
+      "verses": 12,
+      "caption": "Isaiah 53",
+      "thread": "abinadi"
+    },
+    {
+      "n": 15,
+      "verses": 31,
+      "caption": "Christ as Father & Son",
+      "thread": "abinadi"
+    },
+    {
+      "n": 16,
+      "verses": 15,
+      "caption": "Abinadi's last words",
+      "thread": "abinadi"
+    },
+    {
+      "n": 17,
+      "verses": 20,
+      "caption": "Abinadi burned",
+      "thread": "abinadi"
+    },
+    {
+      "n": 18,
+      "verses": 35,
+      "caption": "waters of Mormon",
+      "thread": "alma"
+    },
+    {
+      "n": 19,
+      "verses": 29,
+      "caption": "Noah burned",
+      "thread": "zeniff"
+    },
+    {
+      "n": 20,
+      "verses": 26,
+      "caption": "the stolen daughters",
+      "thread": "zeniff"
+    },
+    {
+      "n": 21,
+      "verses": 36,
+      "caption": "Limhi's bondage",
+      "thread": "zeniff"
+    },
+    {
+      "n": 22,
+      "verses": 16,
+      "caption": "escape by night",
+      "thread": "zeniff"
+    },
+    {
+      "n": 23,
+      "verses": 39,
+      "caption": "Alma in Helam",
+      "thread": "alma"
+    },
+    {
+      "n": 24,
+      "verses": 25,
+      "caption": "burdens made light",
+      "thread": "alma"
+    },
+    {
+      "n": 25,
+      "verses": 24,
+      "caption": "three peoples united",
+      "thread": "zarahemla"
+    },
+    {
+      "n": 26,
+      "verses": 39,
+      "caption": "the unbelievers",
+      "thread": "zarahemla"
+    },
+    {
+      "n": 27,
+      "verses": 37,
+      "caption": "the angel stops Alma",
+      "thread": "zarahemla"
+    },
+    {
+      "n": 28,
+      "verses": 20,
+      "caption": "sons go · plates",
+      "thread": "zarahemla"
+    },
+    {
+      "n": 29,
+      "verses": 47,
+      "caption": "kings end · judges",
+      "thread": "zarahemla"
+    }
+  ],
+  "sections": [
+    {
+      "label": "Benjamin's address",
+      "from": 1,
+      "to": 6,
+      "thread": "zarahemla"
+    },
+    {
+      "label": "Ammon finds Limhi",
+      "from": 7,
+      "to": 8,
+      "thread": "zarahemla"
+    },
+    {
+      "label": "Zeniff & Noah",
+      "from": 9,
+      "to": 11,
+      "thread": "zeniff"
+    },
+    {
+      "label": "Abinadi",
+      "from": 12,
+      "to": 17,
+      "thread": "abinadi"
+    },
+    {
+      "label": "Mormon",
+      "from": 18,
+      "to": 18,
+      "thread": "alma"
+    },
+    {
+      "label": "Limhi",
+      "from": 19,
+      "to": 22,
+      "thread": "zeniff"
+    },
+    {
+      "label": "Alma's people",
+      "from": 23,
+      "to": 24,
+      "thread": "alma"
+    },
+    {
+      "label": "Union · judges",
+      "from": 25,
+      "to": 29,
+      "thread": "zarahemla"
+    }
+  ],
+  "flashbacks": [
+    {
+      "from": 9,
+      "to": 22,
+      "label": "the record of Zeniff"
+    },
+    {
+      "from": 23,
+      "to": 24,
+      "label": "Alma's account"
+    }
+  ],
+  "events": [
+    {
+      "thread": "zarahemla",
+      "label": "Benjamin's address",
+      "ref": "Mosiah 2:7",
+      "at": -124
+    },
+    {
+      "thread": "zarahemla",
+      "label": "Benjamin dies",
+      "ref": "Mosiah 6:5",
+      "at": -121
+    },
+    {
+      "thread": "zarahemla",
+      "label": "Ammon sent",
+      "ref": "Mosiah 7:3",
+      "at": -121
+    },
+    {
+      "thread": "zarahemla",
+      "label": "three peoples united",
+      "ref": "Mosiah 25:4",
+      "at": -120,
+      "approx": true
+    },
+    {
+      "thread": "zarahemla",
+      "label": "the angel stops Alma Jr.",
+      "ref": "Mosiah 27:11",
+      "at": -100,
+      "approx": true
+    },
+    {
+      "thread": "zarahemla",
+      "label": "judges replace kings",
+      "ref": "Mosiah 29:44",
+      "at": -91
+    },
+    {
+      "thread": "zeniff",
+      "label": "Zeniff leaves Zarahemla",
+      "ref": "Mosiah 9:3",
+      "at": -200,
+      "approx": true
+    },
+    {
+      "thread": "zeniff",
+      "label": "Noah reigns",
+      "ref": "Mosiah 11:1",
+      "at": -160,
+      "approx": true
+    },
+    {
+      "thread": "zeniff",
+      "label": "Limhi pays tribute",
+      "ref": "Mosiah 19:15",
+      "at": -145,
+      "approx": true
+    },
+    {
+      "thread": "zeniff",
+      "label": "escape by night",
+      "ref": "Mosiah 22:11",
+      "at": -121
+    },
+    {
+      "thread": "alma",
+      "label": "believes Abinadi",
+      "ref": "Mosiah 17:2",
+      "at": -148,
+      "approx": true
+    },
+    {
+      "thread": "alma",
+      "label": "waters of Mormon",
+      "ref": "Mosiah 18:8",
+      "at": -147,
+      "approx": true
+    },
+    {
+      "thread": "alma",
+      "label": "burdens made light",
+      "ref": "Mosiah 24:15",
+      "at": -121,
+      "approx": true
+    },
+    {
+      "thread": "alma",
+      "label": "reaches Zarahemla",
+      "ref": "Mosiah 24:25",
+      "at": -120,
+      "approx": true
+    },
+    {
+      "thread": "zeniff",
+      "label": "Abinadi's warning",
+      "ref": "Mosiah 11:20",
+      "at": -150,
+      "approx": true,
+      "voice": "abinadi"
+    },
+    {
+      "thread": "zeniff",
+      "label": "Abinadi burned",
+      "ref": "Mosiah 17:20",
+      "at": -148,
+      "approx": true,
+      "voice": "abinadi"
+    }
+  ],
+  "turning_points": [
+    {
+      "thread": "zarahemla",
+      "label": "476 years out: Mosiah II reigns",
+      "ref": "Mosiah 6:4",
+      "at": -124
+    },
+    {
+      "thread": "zarahemla",
+      "label": "509 years out: Mosiah dies",
+      "ref": "Mosiah 29:46",
+      "at": -91
+    }
+  ],
+  "doctrine": [
+    {
+      "ref": "Mosiah 2:17",
+      "text": "Service to others is service to God"
+    },
+    {
+      "ref": "Mosiah 3:19",
+      "text": "The natural man and the saint"
+    },
+    {
+      "ref": "Mosiah 4:11-12",
+      "text": "Retaining a remission of sins"
+    },
+    {
+      "ref": "Mosiah 5:2-7",
+      "text": "The mighty change · taking Christ's name"
+    },
+    {
+      "ref": "Mosiah 14:1-12",
+      "text": "Isaiah 53, quoted whole"
+    },
+    {
+      "ref": "Mosiah 15:1-9",
+      "text": "Christ as the Father and the Son"
+    },
+    {
+      "ref": "Mosiah 18:8-10",
+      "text": "The baptismal covenant"
+    },
+    {
+      "ref": "Mosiah 27:24-28",
+      "text": "Born again"
+    },
+    {
+      "ref": "Mosiah 29:26-27",
+      "text": "The voice of the people"
+    }
+  ],
+  "anchors": [
+    {
+      "text": "Zeniff leaves Zarahemla",
+      "ref": "Mosiah 9:3",
+      "year": -200,
+      "approx": true
+    },
+    {
+      "text": "Abinadi burned; Alma believes",
+      "ref": "Mosiah 17:20",
+      "year": -148,
+      "approx": true
+    },
+    {
+      "text": "Benjamin's address at the temple",
+      "ref": "Mosiah 6:4",
+      "year": -124
+    },
+    {
+      "text": "Ammon finds Limhi",
+      "ref": "Mosiah 7:1",
+      "year": -121
+    },
+    {
+      "text": "Three peoples united",
+      "ref": "Mosiah 25:4",
+      "year": -120,
+      "approx": true
+    },
+    {
+      "text": "The angel stops Alma the Younger",
+      "ref": "Mosiah 27:11",
+      "year": -100,
+      "approx": true
+    },
+    {
+      "text": "Mosiah dies; reign of judges begins",
+      "ref": "Mosiah 29:46",
+      "year": -91
+    }
+  ],
+  "anchors_note": "124 and 91 BC are counted in the text from Lehi's departure; 121 is three years after 124 (7:1). The rest are approximate.",
+  "table": {
+    "title": "Two bondages, paired",
+    "columns": [
+      "",
+      "Limhi's people",
+      "Alma's people"
+    ],
+    "rows": [
+      [
+        "held by",
+        "the Lamanites (19:15)",
+        "Amulon and the Lamanites (24:8–9)"
+      ],
+      [
+        "first response",
+        "battle, three times (21:6–12)",
+        "prayer in their hearts (24:12)"
+      ],
+      [
+        "what changes",
+        "they are humbled (21:14)",
+        "their burdens are made light (24:15)"
+      ],
+      [
+        "release",
+        "guards made drunk (22:7–10)",
+        "a deep sleep on the taskmasters (24:19)"
+      ],
+      [
+        "arrival",
+        "Zarahemla (22:13)",
+        "Zarahemla (24:25)"
+      ]
+    ],
+    "note": "Force against faith. Both reach Zarahemla, by opposite roads."
+  },
+  "hooks": [
+    "Three peoples, two flashbacks, one gathering.",
+    "Chapter 7 spoils the ending: when Ammon finds Limhi, all of 9–22 has already happened.",
+    "Two bondages are paired on purpose — Limhi's (21) and Alma's (24): force against faith.",
+    "Abinadi converts one man, and that man's line keeps the record for almost five centuries.",
+    "Mosiah opens with a king teaching his sons and closes by abolishing kings."
+  ]
+}

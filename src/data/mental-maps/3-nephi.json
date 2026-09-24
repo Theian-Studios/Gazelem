@@ -1,0 +1,485 @@
+{
+  "book": "3 Nephi",
+  "slug": "3-nephi",
+  "clock": {
+    "unit": "chapter"
+  },
+  "threads": [
+    {
+      "id": "people",
+      "name": "The people",
+      "sub": "sign, war, ruin"
+    },
+    {
+      "id": "robbers",
+      "name": "Gadianton robbers",
+      "sub": "Giddianhi, Zemnarihah"
+    },
+    {
+      "id": "christ",
+      "name": "Jesus Christ",
+      "sub": "voice, then presence"
+    },
+    {
+      "id": "disciples",
+      "name": "The Twelve",
+      "sub": "chosen, baptized, sent"
+    },
+    {
+      "id": "editorial",
+      "name": "Mormon",
+      "sub": "the abridger's own voice"
+    }
+  ],
+  "chapters": [
+    {
+      "n": 1,
+      "verses": 30,
+      "caption": "the sign is given",
+      "thread": "people"
+    },
+    {
+      "n": 2,
+      "verses": 19,
+      "caption": "reckoning from Christ",
+      "thread": "people"
+    },
+    {
+      "n": 3,
+      "verses": 26,
+      "caption": "Giddianhi's letter",
+      "thread": "people"
+    },
+    {
+      "n": 4,
+      "verses": 33,
+      "caption": "robbers defeated",
+      "thread": "people"
+    },
+    {
+      "n": 5,
+      "verses": 26,
+      "caption": "Mormon names himself",
+      "thread": "people"
+    },
+    {
+      "n": 6,
+      "verses": 30,
+      "caption": "pride · inequality",
+      "thread": "people"
+    },
+    {
+      "n": 7,
+      "verses": 26,
+      "caption": "tribes · Nephi preaches",
+      "thread": "people"
+    },
+    {
+      "n": 8,
+      "verses": 25,
+      "caption": "storm · earthquake",
+      "thread": "people"
+    },
+    {
+      "n": 9,
+      "verses": 22,
+      "caption": "a voice in the dark",
+      "thread": "people"
+    },
+    {
+      "n": 10,
+      "verses": 19,
+      "caption": "silence · then promise",
+      "thread": "people"
+    },
+    {
+      "n": 11,
+      "verses": 41,
+      "caption": "Christ descends",
+      "thread": "christ"
+    },
+    {
+      "n": 12,
+      "verses": 48,
+      "caption": "Sermon at the Temple",
+      "thread": "christ"
+    },
+    {
+      "n": 13,
+      "verses": 34,
+      "caption": "the Lord's Prayer",
+      "thread": "christ"
+    },
+    {
+      "n": 14,
+      "verses": 27,
+      "caption": "judge not",
+      "thread": "christ"
+    },
+    {
+      "n": 15,
+      "verses": 24,
+      "caption": "other sheep",
+      "thread": "christ"
+    },
+    {
+      "n": 16,
+      "verses": 20,
+      "caption": "more sheep · Gentiles",
+      "thread": "christ"
+    },
+    {
+      "n": 17,
+      "verses": 25,
+      "caption": "healing · children",
+      "thread": "christ"
+    },
+    {
+      "n": 18,
+      "verses": 39,
+      "caption": "the sacrament",
+      "thread": "christ"
+    },
+    {
+      "n": 19,
+      "verses": 36,
+      "caption": "second day · the Twelve",
+      "thread": "christ"
+    },
+    {
+      "n": 20,
+      "verses": 46,
+      "caption": "the covenant people",
+      "thread": "christ"
+    },
+    {
+      "n": 21,
+      "verses": 29,
+      "caption": "the sign of the gathering",
+      "thread": "christ"
+    },
+    {
+      "n": 22,
+      "verses": 17,
+      "caption": "Isaiah 54",
+      "thread": "christ"
+    },
+    {
+      "n": 23,
+      "verses": 14,
+      "caption": "Samuel's words added",
+      "thread": "christ"
+    },
+    {
+      "n": 24,
+      "verses": 18,
+      "caption": "Malachi 3",
+      "thread": "christ"
+    },
+    {
+      "n": 25,
+      "verses": 6,
+      "caption": "Malachi 4",
+      "thread": "christ"
+    },
+    {
+      "n": 26,
+      "verses": 21,
+      "caption": "greater things",
+      "thread": "christ"
+    },
+    {
+      "n": 27,
+      "verses": 33,
+      "caption": "the name of the church",
+      "thread": "christ"
+    },
+    {
+      "n": 28,
+      "verses": 40,
+      "caption": "three disciples stay",
+      "thread": "christ"
+    },
+    {
+      "n": 29,
+      "verses": 9,
+      "caption": "Mormon to the Gentiles",
+      "thread": "editorial"
+    },
+    {
+      "n": 30,
+      "verses": 3,
+      "caption": "turn, ye Gentiles",
+      "thread": "editorial"
+    }
+  ],
+  "sections": [
+    {
+      "label": "The sign & the robbers",
+      "from": 1,
+      "to": 7,
+      "thread": "people"
+    },
+    {
+      "label": "Destruction",
+      "from": 8,
+      "to": 10,
+      "thread": "people"
+    },
+    {
+      "label": "First day",
+      "from": 11,
+      "to": 18,
+      "thread": "christ"
+    },
+    {
+      "label": "Second day on",
+      "from": 19,
+      "to": 28,
+      "thread": "christ"
+    },
+    {
+      "label": "Mormon",
+      "from": 29,
+      "to": 30,
+      "thread": "editorial"
+    }
+  ],
+  "events": [
+    {
+      "thread": "people",
+      "label": "the night without darkness",
+      "ref": "3 Nephi 1:15"
+    },
+    {
+      "thread": "people",
+      "label": "time counted from the sign",
+      "ref": "3 Nephi 2:8"
+    },
+    {
+      "thread": "people",
+      "label": "the church broken up",
+      "ref": "3 Nephi 6:14"
+    },
+    {
+      "thread": "people",
+      "label": "divided into tribes",
+      "ref": "3 Nephi 7:2"
+    },
+    {
+      "thread": "people",
+      "label": "the storm",
+      "ref": "3 Nephi 8:6"
+    },
+    {
+      "thread": "people",
+      "label": "three days of darkness",
+      "ref": "3 Nephi 8:23"
+    },
+    {
+      "thread": "robbers",
+      "label": "Giddianhi's letter",
+      "ref": "3 Nephi 3:9"
+    },
+    {
+      "thread": "robbers",
+      "label": "Zemnarihah hanged",
+      "ref": "3 Nephi 4:28"
+    },
+    {
+      "thread": "robbers",
+      "label": "combinations return",
+      "ref": "3 Nephi 6:28"
+    },
+    {
+      "thread": "christ",
+      "label": "a voice in the darkness",
+      "ref": "3 Nephi 9:1"
+    },
+    {
+      "thread": "christ",
+      "label": "he descends",
+      "ref": "3 Nephi 11:8"
+    },
+    {
+      "thread": "christ",
+      "label": "blesses the children",
+      "ref": "3 Nephi 17:21"
+    },
+    {
+      "thread": "christ",
+      "label": "the sacrament",
+      "ref": "3 Nephi 18:3"
+    },
+    {
+      "thread": "christ",
+      "label": "Samuel's words added",
+      "ref": "3 Nephi 23:9"
+    },
+    {
+      "thread": "christ",
+      "label": "the church's name",
+      "ref": "3 Nephi 27:7"
+    },
+    {
+      "thread": "disciples",
+      "label": "twelve chosen",
+      "ref": "3 Nephi 12:1"
+    },
+    {
+      "thread": "disciples",
+      "label": "baptized",
+      "ref": "3 Nephi 19:12"
+    },
+    {
+      "thread": "disciples",
+      "label": "encircled by fire",
+      "ref": "3 Nephi 19:14"
+    },
+    {
+      "thread": "disciples",
+      "label": "three stay",
+      "ref": "3 Nephi 28:7"
+    }
+  ],
+  "turning_points": [
+    {
+      "thread": "people",
+      "label": "AD 34 · the storm",
+      "ref": "3 Nephi 8:5"
+    },
+    {
+      "thread": "christ",
+      "label": "he descends",
+      "ref": "3 Nephi 11:8"
+    }
+  ],
+  "doctrine": [
+    {
+      "ref": "3 Nephi 9:20",
+      "text": "A broken heart and a contrite spirit"
+    },
+    {
+      "ref": "3 Nephi 11:10-11",
+      "text": "I am Jesus Christ"
+    },
+    {
+      "ref": "3 Nephi 12:48",
+      "text": "Be perfect, even as I"
+    },
+    {
+      "ref": "3 Nephi 13:9-13",
+      "text": "The Lord's Prayer"
+    },
+    {
+      "ref": "3 Nephi 14:12",
+      "text": "Do unto others"
+    },
+    {
+      "ref": "3 Nephi 17:21",
+      "text": "He took their little children"
+    },
+    {
+      "ref": "3 Nephi 18:11",
+      "text": "The sacrament as a witness"
+    },
+    {
+      "ref": "3 Nephi 18:21",
+      "text": "Pray in your families"
+    },
+    {
+      "ref": "3 Nephi 27:13-21",
+      "text": "This is my gospel"
+    },
+    {
+      "ref": "3 Nephi 27:27",
+      "text": "What manner of men ought ye to be?"
+    }
+  ],
+  "anchors": [
+    {
+      "text": "The sign: a night without darkness",
+      "ref": "3 Nephi 1:15",
+      "year": 1
+    },
+    {
+      "text": "Time now reckoned from the sign",
+      "ref": "3 Nephi 2:7-8",
+      "year": 9
+    },
+    {
+      "text": "Giddianhi's letter",
+      "ref": "3 Nephi 3:1",
+      "year": 16
+    },
+    {
+      "text": "Giddianhi slain",
+      "ref": "3 Nephi 4:5",
+      "year": 19
+    },
+    {
+      "text": "The government breaks into tribes",
+      "ref": "3 Nephi 7:14",
+      "year": 31
+    },
+    {
+      "text": "The storm and three days' darkness",
+      "ref": "3 Nephi 8:5",
+      "year": 34
+    },
+    {
+      "text": "Christ appears",
+      "ref": "3 Nephi 10:18",
+      "year": 34
+    }
+  ],
+  "anchors_note": "Chapters 11–26 cover about three days (26:13); the dates stop where he arrives.",
+  "table": {
+    "title": "What Christ quotes",
+    "columns": [
+      "source",
+      "the line",
+      "ref"
+    ],
+    "rows": [
+      [
+        "Deuteronomy 18",
+        "a prophet like Moses",
+        "3 Nephi 20:23"
+      ],
+      [
+        "Genesis 22",
+        "all kindreds blessed in Abraham's seed",
+        "3 Nephi 20:25"
+      ],
+      [
+        "Isaiah 52",
+        "how beautiful upon the mountains",
+        "3 Nephi 20:40"
+      ],
+      [
+        "Micah 5",
+        "as a lion among the beasts",
+        "3 Nephi 21:12"
+      ],
+      [
+        "Isaiah 54",
+        "enlarge the place of thy tent",
+        "3 Nephi 22:2"
+      ],
+      [
+        "Malachi 3–4",
+        "the messenger · Elijah",
+        "3 Nephi 24:1"
+      ]
+    ],
+    "note": "He gives them Malachi because they did not have it (26:2)."
+  },
+  "hooks": [
+    "Mormon steps into the story and introduces himself, named for the land of Mormon (5:12).",
+    "Chapters 1–10 move in years; 11–26 cover about three days (26:13).",
+    "They hear him in the dark (9–10) before anyone sees him.",
+    "He adds to their scriptures: Samuel's fulfilled prophecy (23:9–13) and Malachi (24–25).",
+    "Of the twelve, three ask to stay until he comes again (28:7)."
+  ]
+}

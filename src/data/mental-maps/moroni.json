@@ -1,0 +1,314 @@
+{
+  "book": "Moroni",
+  "slug": "moroni",
+  "clock": {
+    "unit": "chapter"
+  },
+  "threads": [
+    {
+      "id": "moroni",
+      "name": "Moroni",
+      "sub": "still alive"
+    },
+    {
+      "id": "church",
+      "name": "The ordinances",
+      "sub": "what the church needs"
+    },
+    {
+      "id": "mormon",
+      "name": "Mormon",
+      "sub": "a sermon and two letters"
+    }
+  ],
+  "chapters": [
+    {
+      "n": 1,
+      "verses": 4,
+      "caption": "Moroni still alive",
+      "thread": "moroni"
+    },
+    {
+      "n": 2,
+      "verses": 3,
+      "caption": "the gift of the Holy Ghost",
+      "thread": "church"
+    },
+    {
+      "n": 3,
+      "verses": 4,
+      "caption": "ordaining priests",
+      "thread": "church"
+    },
+    {
+      "n": 4,
+      "verses": 3,
+      "caption": "blessing the bread",
+      "thread": "church"
+    },
+    {
+      "n": 5,
+      "verses": 2,
+      "caption": "blessing the wine",
+      "thread": "church"
+    },
+    {
+      "n": 6,
+      "verses": 9,
+      "caption": "baptism · meetings",
+      "thread": "church"
+    },
+    {
+      "n": 7,
+      "verses": 48,
+      "caption": "faith, hope, charity",
+      "thread": "mormon"
+    },
+    {
+      "n": 8,
+      "verses": 30,
+      "caption": "little children",
+      "thread": "mormon"
+    },
+    {
+      "n": 9,
+      "verses": 26,
+      "caption": "the last letter",
+      "thread": "mormon"
+    },
+    {
+      "n": 10,
+      "verses": 34,
+      "caption": "ask God · farewell",
+      "thread": "moroni"
+    }
+  ],
+  "sections": [
+    {
+      "label": "Still here",
+      "from": 1,
+      "to": 1,
+      "thread": "moroni"
+    },
+    {
+      "label": "The ordinances",
+      "from": 2,
+      "to": 6,
+      "thread": "church"
+    },
+    {
+      "label": "Mormon's words",
+      "from": 7,
+      "to": 9,
+      "thread": "mormon"
+    },
+    {
+      "label": "Farewell",
+      "from": 10,
+      "to": 10,
+      "thread": "moroni"
+    }
+  ],
+  "events": [
+    {
+      "thread": "moroni",
+      "label": "not yet perished",
+      "ref": "Moroni 1:1"
+    },
+    {
+      "thread": "moroni",
+      "label": "will not deny the Christ",
+      "ref": "Moroni 1:3"
+    },
+    {
+      "thread": "moroni",
+      "label": "420 years",
+      "ref": "Moroni 10:1"
+    },
+    {
+      "thread": "moroni",
+      "label": "ask God",
+      "ref": "Moroni 10:4"
+    },
+    {
+      "thread": "moroni",
+      "label": "farewell",
+      "ref": "Moroni 10:34"
+    },
+    {
+      "thread": "church",
+      "label": "the Holy Ghost",
+      "ref": "Moroni 2:2"
+    },
+    {
+      "thread": "church",
+      "label": "priests and teachers",
+      "ref": "Moroni 3:1"
+    },
+    {
+      "thread": "church",
+      "label": "the bread",
+      "ref": "Moroni 4:3"
+    },
+    {
+      "thread": "church",
+      "label": "the wine",
+      "ref": "Moroni 5:2"
+    },
+    {
+      "thread": "church",
+      "label": "meet together oft",
+      "ref": "Moroni 6:5"
+    },
+    {
+      "thread": "mormon",
+      "label": "faith, hope, charity",
+      "ref": "Moroni 7:1"
+    },
+    {
+      "thread": "mormon",
+      "label": "the pure love of Christ",
+      "ref": "Moroni 7:47"
+    },
+    {
+      "thread": "mormon",
+      "label": "little children are whole",
+      "ref": "Moroni 8:8"
+    },
+    {
+      "thread": "mormon",
+      "label": "the last letter",
+      "ref": "Moroni 9:1"
+    },
+    {
+      "thread": "mormon",
+      "label": "be faithful in Christ",
+      "ref": "Moroni 9:25"
+    }
+  ],
+  "turning_points": [
+    {
+      "thread": "mormon",
+      "label": "his father's voice",
+      "ref": "Moroni 7:1"
+    }
+  ],
+  "doctrine": [
+    {
+      "ref": "Moroni 4:3",
+      "text": "Take upon them the name of thy Son"
+    },
+    {
+      "ref": "Moroni 6:4",
+      "text": "Nourished by the good word of God"
+    },
+    {
+      "ref": "Moroni 7:16",
+      "text": "The Spirit of Christ to judge"
+    },
+    {
+      "ref": "Moroni 7:41",
+      "text": "Hope through the Atonement"
+    },
+    {
+      "ref": "Moroni 7:45-48",
+      "text": "Charity, the pure love of Christ"
+    },
+    {
+      "ref": "Moroni 8:8",
+      "text": "Little children are whole"
+    },
+    {
+      "ref": "Moroni 10:4-5",
+      "text": "Ask God, with real intent"
+    },
+    {
+      "ref": "Moroni 10:8-18",
+      "text": "Gifts of the Spirit"
+    },
+    {
+      "ref": "Moroni 10:32",
+      "text": "Come unto Christ, and be perfected in him"
+    }
+  ],
+  "anchors": [
+    {
+      "text": "Moroni expected to be finished",
+      "ref": "Moroni 1:1"
+    },
+    {
+      "text": "The gift of the Holy Ghost",
+      "ref": "Moroni 2:2"
+    },
+    {
+      "text": "How the church met",
+      "ref": "Moroni 6:5"
+    },
+    {
+      "text": "Mormon's sermon",
+      "ref": "Moroni 7:1"
+    },
+    {
+      "text": "Mormon on little children",
+      "ref": "Moroni 8:8"
+    },
+    {
+      "text": "Mormon's last letter",
+      "ref": "Moroni 9:1"
+    },
+    {
+      "text": "More than 420 years since the sign",
+      "ref": "Moroni 10:1",
+      "year": 420,
+      "approx": true
+    },
+    {
+      "text": "Farewell at the pleasing bar",
+      "ref": "Moroni 10:34"
+    }
+  ],
+  "anchors_note": "One date, and it is a lower bound: more than 420 years (10:1).",
+  "table": {
+    "title": "The ordinances Moroni keeps",
+    "columns": [
+      "ordinance",
+      "key words",
+      "ref"
+    ],
+    "rows": [
+      [
+        "the gift of the Holy Ghost",
+        "call on the Father in my name",
+        "Moroni 2:2"
+      ],
+      [
+        "ordaining priests and teachers",
+        "by the power of the Holy Ghost",
+        "Moroni 3:4"
+      ],
+      [
+        "the bread",
+        "always remember him",
+        "Moroni 4:3"
+      ],
+      [
+        "the wine",
+        "they do always remember him",
+        "Moroni 5:2"
+      ],
+      [
+        "baptism",
+        "a broken heart and a contrite spirit",
+        "Moroni 6:2"
+      ]
+    ],
+    "note": "The only stretch of the Book of Mormon written as instructions rather than story."
+  },
+  "hooks": [
+    "Moroni thought he was finished after Ether (1:1). This whole book is extra.",
+    "Three of its ten chapters are his father's words (7–9).",
+    "The darkest chapter (9) sits beside the most hopeful (10).",
+    "It closes at 'the pleasing bar' (10:34) — Jacob's phrase (Jacob 6:13), and nowhere else.",
+    "The last word of the Book of Mormon is Amen, after 'the Eternal Judge of both quick and dead' (10:34)."
+  ]
+}

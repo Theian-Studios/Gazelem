@@ -1,0 +1,503 @@
+{
+  "book": "2 Nephi",
+  "slug": "2-nephi",
+  "clock": {
+    "unit": "chapter"
+  },
+  "threads": [
+    {
+      "id": "lehi",
+      "name": "Lehi",
+      "sub": "last blessings"
+    },
+    {
+      "id": "nephi",
+      "name": "Nephi",
+      "sub": "psalm, people, prophecy"
+    },
+    {
+      "id": "jacob",
+      "name": "Jacob",
+      "sub": "the two-day sermon"
+    },
+    {
+      "id": "isaiah",
+      "name": "Isaiah",
+      "sub": "quoted outright"
+    }
+  ],
+  "chapters": [
+    {
+      "n": 1,
+      "verses": 32,
+      "caption": "Lehi to his sons",
+      "thread": "lehi"
+    },
+    {
+      "n": 2,
+      "verses": 30,
+      "caption": "Lehi to Jacob · opposition",
+      "thread": "lehi"
+    },
+    {
+      "n": 3,
+      "verses": 25,
+      "caption": "Lehi to Joseph · a seer",
+      "thread": "lehi"
+    },
+    {
+      "n": 4,
+      "verses": 35,
+      "caption": "Lehi dies · Nephi's psalm",
+      "thread": "lehi"
+    },
+    {
+      "n": 5,
+      "verses": 34,
+      "caption": "the family splits",
+      "thread": "nephi"
+    },
+    {
+      "n": 6,
+      "verses": 18,
+      "caption": "Jacob reads Isaiah",
+      "thread": "jacob"
+    },
+    {
+      "n": 7,
+      "verses": 11,
+      "caption": "Isaiah 50",
+      "thread": "jacob"
+    },
+    {
+      "n": 8,
+      "verses": 25,
+      "caption": "Isaiah 51–52",
+      "thread": "jacob"
+    },
+    {
+      "n": 9,
+      "verses": 54,
+      "caption": "Jacob on the Atonement",
+      "thread": "jacob"
+    },
+    {
+      "n": 10,
+      "verses": 25,
+      "caption": "Jacob on the covenant",
+      "thread": "jacob"
+    },
+    {
+      "n": 11,
+      "verses": 8,
+      "caption": "three witnesses of Christ",
+      "thread": "isaiah"
+    },
+    {
+      "n": 12,
+      "verses": 22,
+      "caption": "Isaiah 2",
+      "thread": "isaiah"
+    },
+    {
+      "n": 13,
+      "verses": 26,
+      "caption": "Isaiah 3",
+      "thread": "isaiah"
+    },
+    {
+      "n": 14,
+      "verses": 6,
+      "caption": "Isaiah 4",
+      "thread": "isaiah"
+    },
+    {
+      "n": 15,
+      "verses": 30,
+      "caption": "Isaiah 5",
+      "thread": "isaiah"
+    },
+    {
+      "n": 16,
+      "verses": 13,
+      "caption": "Isaiah 6",
+      "thread": "isaiah"
+    },
+    {
+      "n": 17,
+      "verses": 25,
+      "caption": "Isaiah 7",
+      "thread": "isaiah"
+    },
+    {
+      "n": 18,
+      "verses": 22,
+      "caption": "Isaiah 8",
+      "thread": "isaiah"
+    },
+    {
+      "n": 19,
+      "verses": 21,
+      "caption": "Isaiah 9",
+      "thread": "isaiah"
+    },
+    {
+      "n": 20,
+      "verses": 34,
+      "caption": "Isaiah 10",
+      "thread": "isaiah"
+    },
+    {
+      "n": 21,
+      "verses": 16,
+      "caption": "Isaiah 11",
+      "thread": "isaiah"
+    },
+    {
+      "n": 22,
+      "verses": 6,
+      "caption": "Isaiah 12",
+      "thread": "isaiah"
+    },
+    {
+      "n": 23,
+      "verses": 22,
+      "caption": "Isaiah 13",
+      "thread": "isaiah"
+    },
+    {
+      "n": 24,
+      "verses": 32,
+      "caption": "Isaiah 14",
+      "thread": "isaiah"
+    },
+    {
+      "n": 25,
+      "verses": 30,
+      "caption": "plainness · Christ",
+      "thread": "nephi"
+    },
+    {
+      "n": 26,
+      "verses": 33,
+      "caption": "the last days",
+      "thread": "nephi"
+    },
+    {
+      "n": 27,
+      "verses": 35,
+      "caption": "the sealed book",
+      "thread": "nephi"
+    },
+    {
+      "n": 28,
+      "verses": 32,
+      "caption": "false churches",
+      "thread": "nephi"
+    },
+    {
+      "n": 29,
+      "verses": 14,
+      "caption": "a Bible, a Bible",
+      "thread": "nephi"
+    },
+    {
+      "n": 30,
+      "verses": 18,
+      "caption": "the restoration",
+      "thread": "nephi"
+    },
+    {
+      "n": 31,
+      "verses": 21,
+      "caption": "the doctrine of Christ",
+      "thread": "nephi"
+    },
+    {
+      "n": 32,
+      "verses": 9,
+      "caption": "feast on the words",
+      "thread": "nephi"
+    },
+    {
+      "n": 33,
+      "verses": 15,
+      "caption": "Nephi's farewell",
+      "thread": "nephi"
+    }
+  ],
+  "sections": [
+    {
+      "label": "Lehi's last words",
+      "from": 1,
+      "to": 4,
+      "thread": "lehi"
+    },
+    {
+      "label": "Apart",
+      "from": 5,
+      "to": 5,
+      "thread": "nephi"
+    },
+    {
+      "label": "Jacob's sermon",
+      "from": 6,
+      "to": 10,
+      "thread": "jacob"
+    },
+    {
+      "label": "Isaiah",
+      "from": 11,
+      "to": 24,
+      "thread": "isaiah"
+    },
+    {
+      "label": "Nephi's own prophecy",
+      "from": 25,
+      "to": 33,
+      "thread": "nephi"
+    }
+  ],
+  "events": [
+    {
+      "thread": "lehi",
+      "label": "a covenant land",
+      "ref": "2 Nephi 1:5"
+    },
+    {
+      "thread": "lehi",
+      "label": "opposition in all things",
+      "ref": "2 Nephi 2:11"
+    },
+    {
+      "thread": "lehi",
+      "label": "a choice seer foretold",
+      "ref": "2 Nephi 3:7"
+    },
+    {
+      "thread": "lehi",
+      "label": "Lehi dies",
+      "ref": "2 Nephi 4:12"
+    },
+    {
+      "thread": "nephi",
+      "label": "O wretched man",
+      "ref": "2 Nephi 4:17"
+    },
+    {
+      "thread": "nephi",
+      "label": "flees his brothers",
+      "ref": "2 Nephi 5:5"
+    },
+    {
+      "thread": "nephi",
+      "label": "builds a temple",
+      "ref": "2 Nephi 5:16"
+    },
+    {
+      "thread": "nephi",
+      "label": "plainness",
+      "ref": "2 Nephi 25:4"
+    },
+    {
+      "thread": "nephi",
+      "label": "the doctrine of Christ",
+      "ref": "2 Nephi 31:2"
+    },
+    {
+      "thread": "nephi",
+      "label": "farewell",
+      "ref": "2 Nephi 33:14"
+    },
+    {
+      "thread": "jacob",
+      "label": "reads Isaiah",
+      "ref": "2 Nephi 6:4"
+    },
+    {
+      "thread": "jacob",
+      "label": "an infinite atonement",
+      "ref": "2 Nephi 9:7"
+    },
+    {
+      "thread": "jacob",
+      "label": "the vainness of the learned",
+      "ref": "2 Nephi 9:28"
+    },
+    {
+      "thread": "jacob",
+      "label": "the name Christ",
+      "ref": "2 Nephi 10:3"
+    },
+    {
+      "thread": "isaiah",
+      "label": "Isaiah 50",
+      "ref": "2 Nephi 7:1"
+    },
+    {
+      "thread": "isaiah",
+      "label": "the Lord's house",
+      "ref": "2 Nephi 12:2"
+    },
+    {
+      "thread": "isaiah",
+      "label": "here am I",
+      "ref": "2 Nephi 16:8"
+    },
+    {
+      "thread": "isaiah",
+      "label": "Immanuel",
+      "ref": "2 Nephi 17:14"
+    },
+    {
+      "thread": "isaiah",
+      "label": "the root of Jesse",
+      "ref": "2 Nephi 21:10"
+    },
+    {
+      "thread": "isaiah",
+      "label": "Lucifer fallen",
+      "ref": "2 Nephi 24:12"
+    }
+  ],
+  "turning_points": [
+    {
+      "thread": "nephi",
+      "label": "the family splits",
+      "ref": "2 Nephi 5:5"
+    },
+    {
+      "thread": "nephi",
+      "label": "Nephi prophesies in plainness",
+      "ref": "2 Nephi 25:4"
+    }
+  ],
+  "doctrine": [
+    {
+      "ref": "2 Nephi 2:11",
+      "text": "Opposition in all things"
+    },
+    {
+      "ref": "2 Nephi 2:25",
+      "text": "Adam fell that men might be"
+    },
+    {
+      "ref": "2 Nephi 2:27",
+      "text": "Free to choose liberty or captivity"
+    },
+    {
+      "ref": "2 Nephi 9:7",
+      "text": "An infinite atonement"
+    },
+    {
+      "ref": "2 Nephi 9:28-29",
+      "text": "Learning is good, if they hearken"
+    },
+    {
+      "ref": "2 Nephi 25:23",
+      "text": "Grace, after all we can do"
+    },
+    {
+      "ref": "2 Nephi 25:26",
+      "text": "We talk of Christ"
+    },
+    {
+      "ref": "2 Nephi 28:30",
+      "text": "Line upon line"
+    },
+    {
+      "ref": "2 Nephi 31:20",
+      "text": "Press forward with steadfastness"
+    },
+    {
+      "ref": "2 Nephi 32:3",
+      "text": "Feast upon the words of Christ"
+    }
+  ],
+  "anchors": [
+    {
+      "text": "Lehi's last blessings",
+      "ref": "2 Nephi 1:1"
+    },
+    {
+      "text": "Lehi dies",
+      "ref": "2 Nephi 4:12"
+    },
+    {
+      "text": "Nephi's people separate",
+      "ref": "2 Nephi 5:5"
+    },
+    {
+      "text": "Thirty years out: the small plates begin",
+      "ref": "2 Nephi 5:28-30",
+      "year": -570
+    },
+    {
+      "text": "Forty years out: wars have begun",
+      "ref": "2 Nephi 5:34",
+      "year": -560
+    },
+    {
+      "text": "Jacob's sermon begins",
+      "ref": "2 Nephi 6:1"
+    },
+    {
+      "text": "Isaiah 2–14 quoted whole",
+      "ref": "2 Nephi 12:1"
+    },
+    {
+      "text": "The doctrine of Christ",
+      "ref": "2 Nephi 31:2"
+    }
+  ],
+  "anchors_note": "Two dates only, both counted from the departure (5:28, 5:34).",
+  "table": {
+    "title": "Isaiah in 2 Nephi",
+    "columns": [
+      "Isaiah",
+      "read by",
+      "form",
+      "ref"
+    ],
+    "rows": [
+      [
+        "Isaiah 49:22–23",
+        "Jacob",
+        "quoted",
+        "2 Nephi 6:6"
+      ],
+      [
+        "Isaiah 50",
+        "Jacob",
+        "quoted whole",
+        "2 Nephi 7:1"
+      ],
+      [
+        "Isaiah 51–52:2",
+        "Jacob",
+        "quoted whole",
+        "2 Nephi 8:1"
+      ],
+      [
+        "Isaiah 2–14",
+        "Nephi",
+        "quoted whole",
+        "2 Nephi 12:1"
+      ],
+      [
+        "Isaiah 29",
+        "Nephi",
+        "adapted",
+        "2 Nephi 27:6"
+      ]
+    ],
+    "note": "Fifteen of the 33 chapters are Isaiah quoted outright."
+  },
+  "hooks": [
+    "Lehi's three blessings are three arguments: a covenant land (1), opposition and choice (2), a latter-day seer (3).",
+    "Nephi's psalm (4:16–35) is the one place he admits weakness at length — right after his father dies.",
+    "Chapter 5 splits one family into the two nations the rest of the Book of Mormon is about.",
+    "Nephi quotes Isaiah because his soul delights in his words (11:2), then explains him in plainness (25:4).",
+    "It ends with doctrine, not history: faith, repentance, baptism, the Holy Ghost, endure (31)."
+  ]
+}

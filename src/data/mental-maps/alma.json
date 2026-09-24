@@ -1,0 +1,723 @@
+{
+  "book": "Alma",
+  "slug": "alma",
+  "clock": {
+    "unit": "year",
+    "start": -91,
+    "end": -53
+  },
+  "threads": [
+    {
+      "id": "alma",
+      "name": "Alma",
+      "sub": "judge, then preacher",
+      "end": -73
+    },
+    {
+      "id": "sons",
+      "name": "Sons of Mosiah",
+      "sub": "& the people of Ammon",
+      "start": -91
+    },
+    {
+      "id": "war",
+      "name": "The war",
+      "sub": "Moroni, Helaman, Pahoran",
+      "start": -74
+    },
+    {
+      "id": "dissent",
+      "name": "Dissenters",
+      "sub": "Nehor to Amalickiah"
+    }
+  ],
+  "chapters": [
+    {
+      "n": 1,
+      "verses": 33,
+      "caption": "Nehor · priestcraft",
+      "thread": "alma"
+    },
+    {
+      "n": 2,
+      "verses": 38,
+      "caption": "Amlici's revolt",
+      "thread": "alma"
+    },
+    {
+      "n": 3,
+      "verses": 27,
+      "caption": "the Amlicites' mark",
+      "thread": "alma"
+    },
+    {
+      "n": 4,
+      "verses": 20,
+      "caption": "Alma leaves the seat",
+      "thread": "alma"
+    },
+    {
+      "n": 5,
+      "verses": 62,
+      "caption": "have ye been born?",
+      "thread": "alma"
+    },
+    {
+      "n": 6,
+      "verses": 8,
+      "caption": "the church set in order",
+      "thread": "alma"
+    },
+    {
+      "n": 7,
+      "verses": 27,
+      "caption": "Gideon · Christ's suffering",
+      "thread": "alma"
+    },
+    {
+      "n": 8,
+      "verses": 32,
+      "caption": "Alma rejected",
+      "thread": "alma"
+    },
+    {
+      "n": 9,
+      "verses": 34,
+      "caption": "Alma's warning",
+      "thread": "alma"
+    },
+    {
+      "n": 10,
+      "verses": 32,
+      "caption": "Amulek testifies",
+      "thread": "alma"
+    },
+    {
+      "n": 11,
+      "verses": 46,
+      "caption": "Zeezrom's bribe",
+      "thread": "alma"
+    },
+    {
+      "n": 12,
+      "verses": 37,
+      "caption": "Alma to Zeezrom",
+      "thread": "alma"
+    },
+    {
+      "n": 13,
+      "verses": 31,
+      "caption": "the holy order",
+      "thread": "alma"
+    },
+    {
+      "n": 14,
+      "verses": 29,
+      "caption": "believers burned",
+      "thread": "alma"
+    },
+    {
+      "n": 15,
+      "verses": 19,
+      "caption": "Zeezrom healed",
+      "thread": "alma"
+    },
+    {
+      "n": 16,
+      "verses": 21,
+      "caption": "a city destroyed",
+      "thread": "alma"
+    },
+    {
+      "n": 17,
+      "verses": 39,
+      "caption": "reunion · the flocks",
+      "thread": "sons"
+    },
+    {
+      "n": 18,
+      "verses": 43,
+      "caption": "Ammon teaches Lamoni",
+      "thread": "sons"
+    },
+    {
+      "n": 19,
+      "verses": 36,
+      "caption": "Lamoni's household",
+      "thread": "sons"
+    },
+    {
+      "n": 20,
+      "verses": 30,
+      "caption": "Lamoni's father",
+      "thread": "sons"
+    },
+    {
+      "n": 21,
+      "verses": 23,
+      "caption": "Aaron's mission",
+      "thread": "sons"
+    },
+    {
+      "n": 22,
+      "verses": 35,
+      "caption": "the king converted",
+      "thread": "sons"
+    },
+    {
+      "n": 23,
+      "verses": 18,
+      "caption": "converts named",
+      "thread": "sons"
+    },
+    {
+      "n": 24,
+      "verses": 30,
+      "caption": "swords buried",
+      "thread": "sons"
+    },
+    {
+      "n": 25,
+      "verses": 17,
+      "caption": "prophecy fulfilled",
+      "thread": "sons"
+    },
+    {
+      "n": 26,
+      "verses": 37,
+      "caption": "Ammon's rejoicing",
+      "thread": "sons"
+    },
+    {
+      "n": 27,
+      "verses": 30,
+      "caption": "to Jershon",
+      "thread": "sons"
+    },
+    {
+      "n": 28,
+      "verses": 14,
+      "caption": "a great battle",
+      "thread": "alma"
+    },
+    {
+      "n": 29,
+      "verses": 17,
+      "caption": "O that I were an angel",
+      "thread": "alma"
+    },
+    {
+      "n": 30,
+      "verses": 60,
+      "caption": "Korihor",
+      "thread": "alma"
+    },
+    {
+      "n": 31,
+      "verses": 38,
+      "caption": "the Zoramites' prayer",
+      "thread": "alma"
+    },
+    {
+      "n": 32,
+      "verses": 43,
+      "caption": "faith like a seed",
+      "thread": "alma"
+    },
+    {
+      "n": 33,
+      "verses": 23,
+      "caption": "Zenos on prayer",
+      "thread": "alma"
+    },
+    {
+      "n": 34,
+      "verses": 41,
+      "caption": "Amulek · the great sacrifice",
+      "thread": "alma"
+    },
+    {
+      "n": 35,
+      "verses": 16,
+      "caption": "Zoramites cast out",
+      "thread": "alma"
+    },
+    {
+      "n": 36,
+      "verses": 30,
+      "caption": "Alma to Helaman",
+      "thread": "alma"
+    },
+    {
+      "n": 37,
+      "verses": 47,
+      "caption": "small means · Liahona",
+      "thread": "alma"
+    },
+    {
+      "n": 38,
+      "verses": 15,
+      "caption": "Alma to Shiblon",
+      "thread": "alma"
+    },
+    {
+      "n": 39,
+      "verses": 19,
+      "caption": "Alma to Corianton",
+      "thread": "alma"
+    },
+    {
+      "n": 40,
+      "verses": 26,
+      "caption": "the dead will rise",
+      "thread": "alma"
+    },
+    {
+      "n": 41,
+      "verses": 15,
+      "caption": "restoration",
+      "thread": "alma"
+    },
+    {
+      "n": 42,
+      "verses": 31,
+      "caption": "justice & mercy",
+      "thread": "alma"
+    },
+    {
+      "n": 43,
+      "verses": 54,
+      "caption": "Moroni's first war",
+      "thread": "war"
+    },
+    {
+      "n": 44,
+      "verses": 24,
+      "caption": "the scalp · surrender",
+      "thread": "war"
+    },
+    {
+      "n": 45,
+      "verses": 24,
+      "caption": "Alma departs",
+      "thread": "war"
+    },
+    {
+      "n": 46,
+      "verses": 41,
+      "caption": "title of liberty",
+      "thread": "war"
+    },
+    {
+      "n": 47,
+      "verses": 36,
+      "caption": "a king by treachery",
+      "thread": "war"
+    },
+    {
+      "n": 48,
+      "verses": 25,
+      "caption": "Moroni's character",
+      "thread": "war"
+    },
+    {
+      "n": 49,
+      "verses": 30,
+      "caption": "the forts hold",
+      "thread": "war"
+    },
+    {
+      "n": 50,
+      "verses": 40,
+      "caption": "the happiest time",
+      "thread": "war"
+    },
+    {
+      "n": 51,
+      "verses": 37,
+      "caption": "king-men · Teancum",
+      "thread": "war"
+    },
+    {
+      "n": 52,
+      "verses": 40,
+      "caption": "Mulek retaken",
+      "thread": "war"
+    },
+    {
+      "n": 53,
+      "verses": 23,
+      "caption": "the 2,000 enlist",
+      "thread": "war"
+    },
+    {
+      "n": 54,
+      "verses": 24,
+      "caption": "letters traded",
+      "thread": "war"
+    },
+    {
+      "n": 55,
+      "verses": 35,
+      "caption": "wine for the guards",
+      "thread": "war"
+    },
+    {
+      "n": 56,
+      "verses": 57,
+      "caption": "Helaman's letter",
+      "thread": "war"
+    },
+    {
+      "n": 57,
+      "verses": 36,
+      "caption": "none were slain",
+      "thread": "war"
+    },
+    {
+      "n": 58,
+      "verses": 41,
+      "caption": "Manti by stratagem",
+      "thread": "war"
+    },
+    {
+      "n": 59,
+      "verses": 13,
+      "caption": "Nephihah lost",
+      "thread": "war"
+    },
+    {
+      "n": 60,
+      "verses": 36,
+      "caption": "Moroni rebukes Pahoran",
+      "thread": "war"
+    },
+    {
+      "n": 61,
+      "verses": 21,
+      "caption": "Pahoran's reply",
+      "thread": "war"
+    },
+    {
+      "n": 62,
+      "verses": 52,
+      "caption": "the war ends",
+      "thread": "war"
+    },
+    {
+      "n": 63,
+      "verses": 17,
+      "caption": "Hagoth · plates passed",
+      "thread": "war"
+    }
+  ],
+  "sections": [
+    {
+      "label": "Alma's ministry",
+      "from": 1,
+      "to": 16,
+      "thread": "alma"
+    },
+    {
+      "label": "Sons of Mosiah",
+      "from": 17,
+      "to": 27,
+      "thread": "sons"
+    },
+    {
+      "label": "Korihor & the Zoramites",
+      "from": 28,
+      "to": 35,
+      "thread": "alma"
+    },
+    {
+      "label": "To his sons",
+      "from": 36,
+      "to": 42,
+      "thread": "alma"
+    },
+    {
+      "label": "The war",
+      "from": 43,
+      "to": 63,
+      "thread": "war"
+    }
+  ],
+  "flashbacks": [
+    {
+      "from": 17,
+      "to": 26,
+      "label": "the sons' fourteen years"
+    }
+  ],
+  "events": [
+    {
+      "thread": "alma",
+      "label": "chief judge",
+      "ref": "Alma 1:2",
+      "at": -91
+    },
+    {
+      "thread": "alma",
+      "label": "gives up the seat",
+      "ref": "Alma 4:20",
+      "at": -83
+    },
+    {
+      "thread": "alma",
+      "label": "Ammonihah destroyed",
+      "ref": "Alma 16:9",
+      "at": -81
+    },
+    {
+      "thread": "alma",
+      "label": "to the Zoramites",
+      "ref": "Alma 31:6",
+      "at": -75
+    },
+    {
+      "thread": "alma",
+      "label": "counsel to his sons",
+      "ref": "Alma 35:16",
+      "at": -74
+    },
+    {
+      "thread": "alma",
+      "label": "Alma departs",
+      "ref": "Alma 45:18",
+      "at": -73
+    },
+    {
+      "thread": "sons",
+      "label": "the mission begins",
+      "ref": "Alma 17:6",
+      "at": -91
+    },
+    {
+      "thread": "sons",
+      "label": "fourteen years later",
+      "ref": "Alma 17:4",
+      "at": -77
+    },
+    {
+      "thread": "sons",
+      "label": "the people of Ammon to Jershon",
+      "ref": "Alma 27:26",
+      "at": -77
+    },
+    {
+      "thread": "sons",
+      "label": "their sons enlist",
+      "ref": "Alma 56:9",
+      "at": -66
+    },
+    {
+      "thread": "sons",
+      "label": "none of the 2,000 perish",
+      "ref": "Alma 57:25",
+      "at": -63
+    },
+    {
+      "thread": "war",
+      "label": "Zerahemnah defeated",
+      "ref": "Alma 44:19",
+      "at": -74
+    },
+    {
+      "thread": "war",
+      "label": "title of liberty",
+      "ref": "Alma 46:13",
+      "at": -73
+    },
+    {
+      "thread": "war",
+      "label": "Amalickiah slain",
+      "ref": "Alma 51:34",
+      "at": -67
+    },
+    {
+      "thread": "war",
+      "label": "Moroni rebukes Pahoran",
+      "ref": "Alma 60:1",
+      "at": -62
+    },
+    {
+      "thread": "war",
+      "label": "the war ends",
+      "ref": "Alma 62:39",
+      "at": -61
+    },
+    {
+      "thread": "war",
+      "label": "Moroni dies",
+      "ref": "Alma 63:3",
+      "at": -56
+    },
+    {
+      "thread": "dissent",
+      "label": "Nehor",
+      "ref": "Alma 1:15",
+      "at": -91
+    },
+    {
+      "thread": "dissent",
+      "label": "Amlici",
+      "ref": "Alma 2:1",
+      "at": -87
+    },
+    {
+      "thread": "dissent",
+      "label": "Korihor",
+      "ref": "Alma 30:12",
+      "at": -75
+    },
+    {
+      "thread": "dissent",
+      "label": "Amalickiah",
+      "ref": "Alma 46:3",
+      "at": -73
+    },
+    {
+      "thread": "dissent",
+      "label": "king-men",
+      "ref": "Alma 51:5",
+      "at": -67
+    }
+  ],
+  "turning_points": [
+    {
+      "thread": "sons",
+      "label": "the sons return (17:1)",
+      "ref": "Alma 17:1",
+      "at": -77
+    },
+    {
+      "thread": "war",
+      "label": "the war begins (43)",
+      "ref": "Alma 43:3",
+      "at": -74
+    }
+  ],
+  "doctrine": [
+    {
+      "ref": "Alma 5:14",
+      "text": "Have ye experienced this mighty change?"
+    },
+    {
+      "ref": "Alma 7:11-13",
+      "text": "Christ takes on our pains and sicknesses"
+    },
+    {
+      "ref": "Alma 12:24",
+      "text": "This life, a probationary state"
+    },
+    {
+      "ref": "Alma 26:12",
+      "text": "In his strength I can do all things"
+    },
+    {
+      "ref": "Alma 32:21",
+      "text": "Faith is not a perfect knowledge"
+    },
+    {
+      "ref": "Alma 32:28",
+      "text": "The word as a seed"
+    },
+    {
+      "ref": "Alma 34:32",
+      "text": "This life is the time to prepare"
+    },
+    {
+      "ref": "Alma 37:6",
+      "text": "By small and simple things"
+    },
+    {
+      "ref": "Alma 41:10",
+      "text": "Wickedness never was happiness"
+    },
+    {
+      "ref": "Alma 42:15",
+      "text": "God atones, to satisfy justice and bring mercy"
+    }
+  ],
+  "anchors": [
+    {
+      "text": "Judges begin; Nehor judged",
+      "ref": "Alma 1:1",
+      "year": -91
+    },
+    {
+      "text": "Amlici's revolt",
+      "ref": "Alma 2:1",
+      "year": -87
+    },
+    {
+      "text": "Alma gives up the judgment seat",
+      "ref": "Alma 4:20",
+      "year": -83
+    },
+    {
+      "text": "Ammonihah destroyed",
+      "ref": "Alma 16:1",
+      "year": -81
+    },
+    {
+      "text": "Korihor and the Zoramites",
+      "ref": "Alma 30:5",
+      "year": -75
+    },
+    {
+      "text": "The title of liberty",
+      "ref": "Alma 45:20",
+      "year": -73
+    },
+    {
+      "text": "Amalickiah slain",
+      "ref": "Alma 51:37",
+      "year": -67
+    },
+    {
+      "text": "The war ends",
+      "ref": "Alma 62:39",
+      "year": -61
+    }
+  ],
+  "anchors_note": "Every date is counted in reign-of-the-judges years; year 1 is 91 BC.",
+  "table": {
+    "title": "Alma to his sons",
+    "columns": [
+      "son",
+      "chapters",
+      "what Alma gives him",
+      "ref"
+    ],
+    "rows": [
+      [
+        "Helaman",
+        "36–37",
+        "Alma's own conversion · the records · the Liahona",
+        "Alma 36:1"
+      ],
+      [
+        "Shiblon",
+        "38",
+        "bridle all your passions",
+        "Alma 38:12"
+      ],
+      [
+        "Corianton",
+        "39–42",
+        "sin · the resurrection · justice and mercy",
+        "Alma 39:1"
+      ]
+    ],
+    "note": "Corianton is never named in 39–42. He is the son left over: 31:7 names all three, 38:5 names Shiblon."
+  },
+  "hooks": [
+    "Alma trades the judgment seat for the pulpit (4:19–20). Nephi makes the same move in Helaman 5:1.",
+    "Chapters 17–26 rewind fourteen years: the sons of Mosiah's mission runs alongside Alma 1–16.",
+    "The people of Ammon bury their swords; their sons take them up — and none of the 2,000 die (57:25).",
+    "Alma 32–34 is one argument in three voices: faith as a seed, Zenos on prayer, Amulek on the Atonement.",
+    "Alma doesn't die on the page. He departs, and is thought buried by the Lord, like Moses (45:19)."
+  ]
+}

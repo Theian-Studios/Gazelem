@@ -1,0 +1,327 @@
+{
+  "book": "Mormon",
+  "slug": "mormon",
+  "clock": {
+    "unit": "year",
+    "start": 321,
+    "end": 401
+  },
+  "threads": [
+    {
+      "id": "mormon",
+      "name": "Mormon",
+      "sub": "record-keeper, general",
+      "end": 385
+    },
+    {
+      "id": "war",
+      "name": "The war",
+      "sub": "Nephites and Lamanites",
+      "start": 322,
+      "end": 385
+    },
+    {
+      "id": "moroni",
+      "name": "Moroni",
+      "sub": "alone",
+      "start": 385
+    }
+  ],
+  "chapters": [
+    {
+      "n": 1,
+      "verses": 19,
+      "caption": "Ammaron's charge",
+      "thread": "war"
+    },
+    {
+      "n": 2,
+      "verses": 29,
+      "caption": "sorrowing of the damned",
+      "thread": "war"
+    },
+    {
+      "n": 3,
+      "verses": 22,
+      "caption": "Mormon refuses",
+      "thread": "war"
+    },
+    {
+      "n": 4,
+      "verses": 23,
+      "caption": "the Nephites fall",
+      "thread": "war"
+    },
+    {
+      "n": 5,
+      "verses": 24,
+      "caption": "command again",
+      "thread": "war"
+    },
+    {
+      "n": 6,
+      "verses": 22,
+      "caption": "Cumorah",
+      "thread": "war"
+    },
+    {
+      "n": 7,
+      "verses": 10,
+      "caption": "to the Lamanite remnant",
+      "thread": "mormon"
+    },
+    {
+      "n": 8,
+      "verses": 41,
+      "caption": "Moroni alone",
+      "thread": "moroni"
+    },
+    {
+      "n": 9,
+      "verses": 37,
+      "caption": "a God of miracles",
+      "thread": "moroni"
+    }
+  ],
+  "sections": [
+    {
+      "label": "Mormon's war",
+      "from": 1,
+      "to": 6,
+      "thread": "war"
+    },
+    {
+      "label": "Last words",
+      "from": 7,
+      "to": 7,
+      "thread": "mormon"
+    },
+    {
+      "label": "Moroni",
+      "from": 8,
+      "to": 9,
+      "thread": "moroni"
+    }
+  ],
+  "events": [
+    {
+      "thread": "mormon",
+      "label": "Ammaron's charge",
+      "ref": "Mormon 1:2",
+      "at": 321,
+      "approx": true
+    },
+    {
+      "thread": "mormon",
+      "label": "visited of the Lord",
+      "ref": "Mormon 1:15",
+      "at": 326,
+      "approx": true
+    },
+    {
+      "thread": "mormon",
+      "label": "leads the army at sixteen",
+      "ref": "Mormon 2:2",
+      "at": 327
+    },
+    {
+      "thread": "mormon",
+      "label": "refuses command",
+      "ref": "Mormon 3:11",
+      "at": 362
+    },
+    {
+      "thread": "mormon",
+      "label": "takes command again",
+      "ref": "Mormon 5:1",
+      "at": 375,
+      "approx": true
+    },
+    {
+      "thread": "mormon",
+      "label": "hides the records",
+      "ref": "Mormon 6:6",
+      "at": 384
+    },
+    {
+      "thread": "war",
+      "label": "war begins",
+      "ref": "Mormon 1:8",
+      "at": 322,
+      "approx": true
+    },
+    {
+      "thread": "war",
+      "label": "Nephites flee",
+      "ref": "Mormon 2:16",
+      "at": 345
+    },
+    {
+      "thread": "war",
+      "label": "a treaty",
+      "ref": "Mormon 2:28",
+      "at": 350
+    },
+    {
+      "thread": "war",
+      "label": "Lamanites in full force",
+      "ref": "Mormon 4:17",
+      "at": 375
+    },
+    {
+      "thread": "war",
+      "label": "twenty-four survive",
+      "ref": "Mormon 6:11",
+      "at": 385,
+      "approx": true
+    },
+    {
+      "thread": "moroni",
+      "label": "alone",
+      "ref": "Mormon 8:3",
+      "at": 400
+    },
+    {
+      "thread": "moroni",
+      "label": "as if ye were present",
+      "ref": "Mormon 8:35",
+      "at": 400,
+      "approx": true
+    }
+  ],
+  "turning_points": [
+    {
+      "thread": "mormon",
+      "label": "Mormon refuses",
+      "ref": "Mormon 3:11",
+      "at": 362
+    },
+    {
+      "thread": "moroni",
+      "label": "400 years since Christ",
+      "ref": "Mormon 8:6",
+      "at": 400
+    }
+  ],
+  "doctrine": [
+    {
+      "ref": "Mormon 2:13",
+      "text": "The sorrowing of the damned"
+    },
+    {
+      "ref": "Mormon 3:20",
+      "text": "All will stand before his judgment seat"
+    },
+    {
+      "ref": "Mormon 7:5-7",
+      "text": "Believe in Christ; he rose from the dead"
+    },
+    {
+      "ref": "Mormon 8:12",
+      "text": "Don't condemn the record for its imperfections"
+    },
+    {
+      "ref": "Mormon 8:35",
+      "text": "Written as if ye were present"
+    },
+    {
+      "ref": "Mormon 9:9",
+      "text": "The same yesterday, today, and forever"
+    },
+    {
+      "ref": "Mormon 9:19",
+      "text": "A God of miracles"
+    },
+    {
+      "ref": "Mormon 9:27",
+      "text": "Doubt not, but be believing"
+    }
+  ],
+  "anchors": [
+    {
+      "text": "Ammaron's charge to a ten-year-old",
+      "ref": "Mormon 1:2",
+      "year": 321,
+      "approx": true
+    },
+    {
+      "text": "Mormon leads the armies",
+      "ref": "Mormon 2:3",
+      "year": 327
+    },
+    {
+      "text": "A treaty divides the land",
+      "ref": "Mormon 2:28",
+      "year": 350
+    },
+    {
+      "text": "Mormon refuses to lead",
+      "ref": "Mormon 3:8",
+      "year": 362
+    },
+    {
+      "text": "The Lamanites come in full force",
+      "ref": "Mormon 4:17",
+      "year": 375
+    },
+    {
+      "text": "Gathering at Cumorah",
+      "ref": "Mormon 6:5",
+      "year": 384
+    },
+    {
+      "text": "Moroni alone",
+      "ref": "Mormon 8:6",
+      "year": 400
+    }
+  ],
+  "anchors_note": "Counted from the coming of Christ; Mormon's age gives the early years.",
+  "table": {
+    "title": "Mormon's life by age",
+    "columns": [
+      "age",
+      "what happens",
+      "ref"
+    ],
+    "rows": [
+      [
+        "about 10",
+        "Ammaron gives him the charge",
+        "Mormon 1:2"
+      ],
+      [
+        "11",
+        "carried south to Zarahemla",
+        "Mormon 1:6"
+      ],
+      [
+        "15",
+        "visited of the Lord",
+        "Mormon 1:15"
+      ],
+      [
+        "16",
+        "leads the Nephite armies",
+        "Mormon 2:2"
+      ],
+      [
+        "about 24",
+        "told to take up the plates",
+        "Mormon 1:3"
+      ],
+      [
+        "old",
+        "gathers his people at Cumorah",
+        "Mormon 6:6"
+      ]
+    ],
+    "note": "A general at sixteen; still one at the end."
+  },
+  "hooks": [
+    "Mormon refuses to lead (3:11), then repents of the oath (5:1) — and leads them to the end anyway.",
+    "At Cumorah he hides every record except the abridgment he hands to Moroni (6:6).",
+    "His last words (ch. 7) go to the descendants of the army that killed his people.",
+    "Moroni writes to us as if we were present (8:35).",
+    "The book is Mormon's; the last two chapters are his son's, written alone."
+  ]
+}

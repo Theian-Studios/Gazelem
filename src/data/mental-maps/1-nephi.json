@@ -1,0 +1,418 @@
+{
+  "book": "1 Nephi",
+  "slug": "1-nephi",
+  "clock": {
+    "unit": "chapter"
+  },
+  "threads": [
+    {
+      "id": "journey",
+      "name": "Lehi's family",
+      "sub": "Jerusalem → promised land"
+    },
+    {
+      "id": "brothers",
+      "name": "Laman & Lemuel",
+      "sub": "the resistance"
+    },
+    {
+      "id": "visions",
+      "name": "Revelation",
+      "sub": "Lehi, then Nephi"
+    },
+    {
+      "id": "record",
+      "name": "The plates",
+      "sub": "records & Isaiah"
+    }
+  ],
+  "chapters": [
+    {
+      "n": 1,
+      "verses": 20,
+      "caption": "Lehi's call and book",
+      "thread": "journey"
+    },
+    {
+      "n": 2,
+      "verses": 24,
+      "caption": "into the wilderness",
+      "thread": "journey"
+    },
+    {
+      "n": 3,
+      "verses": 31,
+      "caption": "first try for the plates",
+      "thread": "journey"
+    },
+    {
+      "n": 4,
+      "verses": 38,
+      "caption": "Laban slain · plates won",
+      "thread": "journey"
+    },
+    {
+      "n": 5,
+      "verses": 22,
+      "caption": "Sariah's fear · plates read",
+      "thread": "journey"
+    },
+    {
+      "n": 6,
+      "verses": 6,
+      "caption": "why Nephi writes",
+      "thread": "journey"
+    },
+    {
+      "n": 7,
+      "verses": 22,
+      "caption": "Ishmael's family joins",
+      "thread": "journey"
+    },
+    {
+      "n": 8,
+      "verses": 38,
+      "caption": "the tree of life",
+      "thread": "visions"
+    },
+    {
+      "n": 9,
+      "verses": 6,
+      "caption": "two sets of plates",
+      "thread": "visions"
+    },
+    {
+      "n": 10,
+      "verses": 22,
+      "caption": "Lehi foretells the Messiah",
+      "thread": "visions"
+    },
+    {
+      "n": 11,
+      "verses": 36,
+      "caption": "the tree explained",
+      "thread": "visions"
+    },
+    {
+      "n": 12,
+      "verses": 23,
+      "caption": "the Nephite future seen",
+      "thread": "visions"
+    },
+    {
+      "n": 13,
+      "verses": 42,
+      "caption": "Gentiles · a great church",
+      "thread": "visions"
+    },
+    {
+      "n": 14,
+      "verses": 30,
+      "caption": "two churches only",
+      "thread": "visions"
+    },
+    {
+      "n": 15,
+      "verses": 36,
+      "caption": "Nephi explains the dream",
+      "thread": "visions"
+    },
+    {
+      "n": 16,
+      "verses": 39,
+      "caption": "the Liahona · broken bow",
+      "thread": "journey"
+    },
+    {
+      "n": 17,
+      "verses": 55,
+      "caption": "build a ship",
+      "thread": "journey"
+    },
+    {
+      "n": 18,
+      "verses": 25,
+      "caption": "crossing the sea",
+      "thread": "journey"
+    },
+    {
+      "n": 19,
+      "verses": 24,
+      "caption": "plates · prophets of Christ",
+      "thread": "record"
+    },
+    {
+      "n": 20,
+      "verses": 22,
+      "caption": "Isaiah 48",
+      "thread": "record"
+    },
+    {
+      "n": 21,
+      "verses": 26,
+      "caption": "Isaiah 49",
+      "thread": "record"
+    },
+    {
+      "n": 22,
+      "verses": 32,
+      "caption": "Nephi explains Isaiah",
+      "thread": "record"
+    }
+  ],
+  "sections": [
+    {
+      "label": "Leaving Jerusalem",
+      "from": 1,
+      "to": 7,
+      "thread": "journey"
+    },
+    {
+      "label": "The visions",
+      "from": 8,
+      "to": 15,
+      "thread": "visions"
+    },
+    {
+      "label": "Wilderness & sea",
+      "from": 16,
+      "to": 18,
+      "thread": "journey"
+    },
+    {
+      "label": "Isaiah read aloud",
+      "from": 19,
+      "to": 22,
+      "thread": "record"
+    }
+  ],
+  "events": [
+    {
+      "thread": "journey",
+      "label": "leaves Jerusalem",
+      "ref": "1 Nephi 2:4"
+    },
+    {
+      "thread": "journey",
+      "label": "Ishmael's family joins",
+      "ref": "1 Nephi 7:5"
+    },
+    {
+      "thread": "journey",
+      "label": "the Liahona",
+      "ref": "1 Nephi 16:10"
+    },
+    {
+      "thread": "journey",
+      "label": "Ishmael dies at Nahom",
+      "ref": "1 Nephi 16:34"
+    },
+    {
+      "thread": "journey",
+      "label": "Bountiful",
+      "ref": "1 Nephi 17:5"
+    },
+    {
+      "thread": "journey",
+      "label": "the promised land",
+      "ref": "1 Nephi 18:23"
+    },
+    {
+      "thread": "brothers",
+      "label": "they murmur",
+      "ref": "1 Nephi 2:12"
+    },
+    {
+      "thread": "brothers",
+      "label": "Nephi beaten with a rod",
+      "ref": "1 Nephi 3:28"
+    },
+    {
+      "thread": "brothers",
+      "label": "Nephi bound",
+      "ref": "1 Nephi 7:16"
+    },
+    {
+      "thread": "brothers",
+      "label": "plot to kill Lehi",
+      "ref": "1 Nephi 16:37"
+    },
+    {
+      "thread": "brothers",
+      "label": "Nephi bound on the ship",
+      "ref": "1 Nephi 18:11"
+    },
+    {
+      "thread": "visions",
+      "label": "pillar of fire",
+      "ref": "1 Nephi 1:6"
+    },
+    {
+      "thread": "visions",
+      "label": "the tree of life",
+      "ref": "1 Nephi 8:10"
+    },
+    {
+      "thread": "visions",
+      "label": "Nephi caught away",
+      "ref": "1 Nephi 11:1"
+    },
+    {
+      "thread": "visions",
+      "label": "two churches only",
+      "ref": "1 Nephi 14:10"
+    },
+    {
+      "thread": "record",
+      "label": "Lehi searches the plates",
+      "ref": "1 Nephi 5:10"
+    },
+    {
+      "thread": "record",
+      "label": "two sets of plates",
+      "ref": "1 Nephi 9:2"
+    },
+    {
+      "thread": "record",
+      "label": "liken the scriptures",
+      "ref": "1 Nephi 19:23"
+    },
+    {
+      "thread": "record",
+      "label": "Isaiah 48 quoted",
+      "ref": "1 Nephi 20:1"
+    }
+  ],
+  "turning_points": [
+    {
+      "thread": "visions",
+      "label": "the dream, then its meaning",
+      "ref": "1 Nephi 11:1"
+    },
+    {
+      "thread": "journey",
+      "label": "the ship sails",
+      "ref": "1 Nephi 18:8"
+    }
+  ],
+  "doctrine": [
+    {
+      "ref": "1 Nephi 1:20",
+      "text": "The tender mercies of the Lord"
+    },
+    {
+      "ref": "1 Nephi 3:7",
+      "text": "I will go and do"
+    },
+    {
+      "ref": "1 Nephi 8:10-12",
+      "text": "Fruit that makes one happy"
+    },
+    {
+      "ref": "1 Nephi 10:19",
+      "text": "Mysteries unfolded by the Holy Ghost"
+    },
+    {
+      "ref": "1 Nephi 11:16-22",
+      "text": "The condescension of God"
+    },
+    {
+      "ref": "1 Nephi 13:26-29",
+      "text": "Plain and precious things taken away"
+    },
+    {
+      "ref": "1 Nephi 15:24",
+      "text": "Hold fast to the word of God"
+    },
+    {
+      "ref": "1 Nephi 17:3",
+      "text": "God provides the means"
+    },
+    {
+      "ref": "1 Nephi 19:23",
+      "text": "Liken all scriptures unto us"
+    },
+    {
+      "ref": "1 Nephi 22:26",
+      "text": "Satan bound by righteousness"
+    }
+  ],
+  "anchors": [
+    {
+      "text": "Lehi leaves Jerusalem",
+      "ref": "1 Nephi 2:4",
+      "year": -600
+    },
+    {
+      "text": "Lehi's dream",
+      "ref": "1 Nephi 8:2"
+    },
+    {
+      "text": "The Messiah foretold in 600 years",
+      "ref": "1 Nephi 10:4"
+    },
+    {
+      "text": "Nephi's vision",
+      "ref": "1 Nephi 11:1"
+    },
+    {
+      "text": "Bountiful, after eight years",
+      "ref": "1 Nephi 17:4",
+      "year": -592,
+      "approx": true
+    },
+    {
+      "text": "Landing in the promised land",
+      "ref": "1 Nephi 18:23"
+    }
+  ],
+  "anchors_note": "Only the departure is fixed: the first year of Zedekiah (1:4), 600 years before Christ (10:4).",
+  "table": {
+    "title": "The dream, decoded",
+    "columns": [
+      "in the dream",
+      "what it means",
+      "ref"
+    ],
+    "rows": [
+      [
+        "the tree",
+        "the love of God",
+        "1 Nephi 11:22"
+      ],
+      [
+        "the rod of iron",
+        "the word of God",
+        "1 Nephi 11:25"
+      ],
+      [
+        "the mist of darkness",
+        "the temptations of the devil",
+        "1 Nephi 12:17"
+      ],
+      [
+        "the spacious building",
+        "the pride of the world",
+        "1 Nephi 11:36"
+      ],
+      [
+        "the river",
+        "filthiness · a gulf toward hell",
+        "1 Nephi 15:27"
+      ],
+      [
+        "the fruit",
+        "the greatest of all the gifts of God",
+        "1 Nephi 15:36"
+      ]
+    ],
+    "note": "Lehi sees the symbols in ch. 8; Nephi asks what they mean in chs. 11–15."
+  },
+  "hooks": [
+    "Nephi writes this thirty years after leaving Jerusalem (2 Nephi 5:28–31). It is a memoir, not a diary.",
+    "Lehi's dream (ch. 8) and Nephi's vision (chs. 11–14) are one dream told twice: first as symbol, then explained.",
+    "The brothers go back to Jerusalem twice — once for the plates, once for wives. A new people needs both.",
+    "Nephi opens with the Lord's tender mercies (1:20) and spends the book proving it.",
+    "The book ends with the family barely landed. All of 1 Nephi is the getting there."
+  ]
+}

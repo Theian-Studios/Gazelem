@@ -1,11 +1,11 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
 import { glass, cardTint } from "../theme.js";
 import { EVIDENCES, evidenceBySlug, splitTitle } from "../lib/evidences.js";
 import { EssayShelf } from "./Essays.jsx";
 import { inline } from "../lib/markup.js";
-import { parseCitations } from "../lib/refs.js";
-import { treats, useFocusScroll } from "../lib/focus.js";
+import { CiteLink } from "./Cited.jsx";
+import { treats, useFocusScroll, useModalFocus } from "../lib/focus.js";
 
 // Prose with its book titles in italic and, inside a passage, the words that
 // exhibit the form in bold. Marking them is the whole argument: the chart is
@@ -24,17 +24,10 @@ function Prose({ text }) {
 //
 // Bracketed, as the prophets' are: the brackets and the reference travel as one
 // word, so a line never breaks between them.
-function Ref({ label, onOpenRef }) {
-  const cite = parseCitations(label)[0];
-  const inner = !cite || !onOpenRef
-    ? <span className="ev-ref">{label}</span>
-    : (
-      <button className="ev-ref ev-ref-link" onClick={() => onOpenRef(cite)} title={`Open ${label}`}>
-        {label}
-      </button>
-    );
-  return <span className="ev-ref-group"> ({inner})</span>;
-}
+const Ref = ({ label, onOpenRef }) => (
+  <CiteLink label={label} onOpenRef={onOpenRef}
+    className="ev-ref" linkClassName="ev-ref ev-ref-link" group="ev-ref-group" />
+);
 
 // The shelf of evidences, as the prophets and the books are shelved. The
 // translation essays are shelved under it, in a section of their own — they
@@ -250,6 +243,11 @@ function description({ gloss, note }) {
 // filters, and anything nested in one can only sample that ancestor's own
 // contents — the blur behind this would silently do nothing.
 function FormWindow({ form, onClose, onOpenRef }) {
+  // The window says it is modal, so the keyboard is held inside it and handed
+  // back to whatever opened it on the way out. See useModalFocus.
+  const box = useRef(null);
+  useModalFocus(box, true);
+
   // Escape closes, and the page behind is held still: a window over a page
   // that scrolls under it reads as two things at once.
   useEffect(() => {
@@ -266,7 +264,7 @@ function FormWindow({ form, onClose, onOpenRef }) {
   return createPortal(
     <div className="ev-veil" onClick={onClose}>
       {/* The window keeps its own presses; only the ground around it closes. */}
-      <div className="ev-window" role="dialog" aria-modal="true" aria-label={form.name}
+      <div className="ev-window" ref={box} role="dialog" aria-modal="true" aria-label={form.name}
         onClick={(e) => e.stopPropagation()}>
         <header className="ev-window-head">
           <div>

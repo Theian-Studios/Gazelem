@@ -1,19 +1,14 @@
 import { glass } from "../theme.js";
 import { resourcesFor, coverFor } from "../lib/resources.js";
 import { emphasis } from "../lib/markup.js";
-import { citedRun } from "./Cited.jsx";
+import { markedRun } from "./Cited.jsx";
 
 // Whether a volume has one of these is answered by lib/sections.js instead of
 // here: asked here, the question drags this whole page — and the data behind
 // it — into the first download, which is what the tile exists to defer.
 
 // Prose with its book titles set in italic, as they would be in print.
-function Prose({ text, onOpenRef }) {
-  return emphasis(text).map((part, i) => {
-    const run = citedRun(part.text, onOpenRef, i);
-    return part.italic ? <em key={i}>{run}</em> : <span key={i}>{run}</span>;
-  });
-}
+const Prose = ({ text, onOpenRef }) => markedRun(emphasis(text), onOpenRef);
 
 // One thing on the shelf. A book is shelved with its jacket and everything else
 // beside it, so a line of the sentence starts where every other line of it

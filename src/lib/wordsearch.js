@@ -162,7 +162,17 @@ export async function search(query, { volumes, exactPhrase = false } = {}) {
   const phrase = words(query).join(" ");
   const kept = [];
   for (const row of rows.filter((r) => r.sharedVerses.length)) {
-    const verses = await versesFor(row);
+    // A volume that will not load costs its own rows and nothing else. Left to
+    // throw, one failed request rejected the whole search and the reader was
+    // shown an error in place of the results already in hand — where the
+    // ordinary word search, asking for the same text through loadTextFor, has
+    // always let a failed volume pass and stood by the rest.
+    let verses = null;
+    try {
+      verses = await versesFor(row);
+    } catch {
+      continue;
+    }
     if (!verses) continue;
     const matching = row.sharedVerses.filter((n) => hasPhrase(verses[n] || "", phrase));
     if (matching.length) {

@@ -18,7 +18,8 @@ import { LensBody } from "./components/LensPanel.jsx";
 import VolumeTimeline, { hasTimeline } from "./components/VolumeTimeline.jsx";
 import ContentsCard from "./components/ContentsCard.jsx";
 import StudyDock, { PANELS, useFilledPanels, useSheetDismissal, useHideOnScrollDown } from "./components/StudyDock.jsx";
-import SectionTile, { TimelineIcon, ProphetsIcon, MapIcon, ComingForthIcon, OverviewIcon, EvidencesIcon, ResourcesIcon, ChartsIcon } from "./components/SectionTile.jsx";
+import SectionTile, { TimelineIcon, ProphetsIcon, MapIcon, ComingForthIcon, OverviewIcon, EvidencesIcon, ResourcesIcon, ChartsIcon, WebIcon, MentalMapIcon } from "./components/SectionTile.jsx";
+import { hasMentalMaps, mentalMapExists } from "./lib/mentalMaps.js";
 import { mentionsOf, marginMentions } from "./lib/mentions.js";
 import { ChapterOverview, CommentaryNotes, CrossConnections } from "./components/Commentary.jsx";
 import { useCommentary, connectionsByVerse } from "./lib/commentary.js";
@@ -48,10 +49,13 @@ const MapView = lazy(() => import("./components/MapView.jsx"));
 const ComingForth = lazy(() => import("./components/ComingForth.jsx"));
 const Resources = lazy(() => import("./components/Resources.jsx"));
 const VolumeOverview = lazy(() => import("./components/VolumeOverview.jsx"));
+const ChapterWeb = lazy(() => import("./components/ChapterWeb.jsx"));
 const ChartGrid = lazy(() => import("./components/Charts.jsx").then((m) => ({ default: m.ChartGrid })));
 const ChartPage = lazy(() => import("./components/Charts.jsx").then((m) => ({ default: m.ChartPage })));
 const EvidenceGrid = lazy(() => import("./components/Evidences.jsx").then((m) => ({ default: m.EvidenceGrid })));
 const EvidencePage = lazy(() => import("./components/Evidences.jsx").then((m) => ({ default: m.EvidencePage })));
+const MentalMapGrid = lazy(() => import("./components/MentalMaps.jsx").then((m) => ({ default: m.MentalMapGrid })));
+const MentalMapPage = lazy(() => import("./components/MentalMaps.jsx").then((m) => ({ default: m.MentalMapPage })));
 const EssayPage = lazy(() => import("./components/Essays.jsx").then((m) => ({ default: m.EssayPage })));
 
 export default function App() {
@@ -330,8 +334,16 @@ export default function App() {
   // from the same state everything above sets; nothing navigates "through" the
   // URL except the browser's own back and forward, which are replayed into
   // that state below.
-  const HASH_SECTIONS = ["timeline", "overview", "map", "coming-forth", "resources", "evidences", "charts"];
+  const HASH_SECTIONS = ["timeline", "overview", "web", "map", "coming-forth", "resources", "evidences", "charts", "mental-maps"];
   const hashSlug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
+  // One step of the hash, as text. A hash is whatever was typed, pasted or
+  // truncated by something else along the way, and a stray percent sign is
+  // enough to make decodeURIComponent throw — which it did, out of both the
+  // popstate and the hashchange listener, where nothing was catching it. The
+  // step is left as it stands when it will not decode: an address that means
+  // nothing should land the reader on the library, not break the router.
+  const decodeStep = (s) => { try { return decodeURIComponent(s); } catch { return s; } };
 
   // The one hash this state spells. Books are named, chapters numbered; the
   // D&C skips the book, its sections being its front door.
@@ -378,8 +390,9 @@ export default function App() {
   // chapter, then where it sits, then the site.
   const SHELF_NAMES = {
     timeline: "Timeline", overview: "Chapter Overview", map: "Map",
+    web: "The Web",
     "coming-forth": "Coming Forth", resources: "Study Resources",
-    evidences: "Evidences", charts: "Charts",
+    evidences: "Evidences", charts: "Charts", "mental-maps": "Mental Maps",
   };
 
   const titleOf = () => {
@@ -432,7 +445,7 @@ export default function App() {
   const replayHash = useCallback(async (raw) => {
     setFocus(null);
     const token = ++navToken.current;
-    const parts = raw.replace(/^#\/?/, "").split("/").filter(Boolean).map(decodeURIComponent);
+    const parts = raw.replace(/^#\/?/, "").split("/").filter(Boolean).map(decodeStep);
     // A search stands over whatever the reader was reading, and stepping back
     // into one leaves that untouched: the chapter is still there underneath,
     // and is what the next step back returns to.
@@ -456,12 +469,13 @@ export default function App() {
         setProphet(parts[2] ? prophetNames(vol).find((n) => hashSlug(n) === parts[2]) ?? "" : "");
       } else {
         setProphet(null);
-        // The two shelves — the evidences and the charts — hold pages of their
+        // The shelves — the evidences, the charts, the mental maps — hold pages of their
         // own, so a third part of the hash names one. An unknown slug falls
         // back to the shelf it was asked for.
         const onShelf = parts[2] && (
           (head === "evidences" && (evidenceExists(parts[2]) || essayExists(parts[2]))) ||
-          (head === "charts" && chartExists(parts[2]))
+          (head === "charts" && chartExists(parts[2])) ||
+          (head === "mental-maps" && mentalMapExists(parts[2]))
         );
         setSection(onShelf ? `${head}/${parts[2]}` : head);
       }
@@ -1089,6 +1103,21 @@ export default function App() {
       id: "overview", name: "Chapter Overview", icon: OverviewIcon,
       on: section === "overview", onClick: () => open("overview"),
     },
+    // Where the volume's parallels run, which is the chart beside a chapter
+    // asked of the whole book at once. The Book of Mormon's alone: the other
+    // volumes' parallels nearly all lead outside themselves, and a ring with
+    // one line struck across it says nothing a list would not say better.
+    volId === "bofm" && {
+      id: "web", name: "The Web", icon: WebIcon,
+      on: section === "web", onClick: () => open("web"),
+    },
+    // Each longer book drawn on one page — its chapters, its threads against
+    // the clock, and what to carry away. A shelf, one map to a book.
+    hasMentalMaps(volume) && {
+      id: "mental-maps", name: "Mental Maps", icon: MentalMapIcon,
+      on: section?.startsWith("mental-maps") || undefined,
+      onClick: () => open("mental-maps"),
+    },
     // The map is drawn from the Book of Mormon's own geography.
     volId === "bofm" && {
       id: "map", name: "Map", icon: MapIcon,
@@ -1293,6 +1322,12 @@ export default function App() {
           <VolumeOverview volume={volume} books={books}
             onOpen={(bi, ci) => { rememberScroll(); setSection(null); setBookIdx(bi); setChapIdx(ci); setTargetVerse(null); setFlipDir(0); }} />
         )}
+        {/* A chapter on the ring is a chapter, so it leaves by the door the
+            timeline's stops leave by. */}
+        {!query && section === "web" && books && (
+          <ChapterWeb volume={volume} volId={volId} books={books}
+            onOpen={(bi, ci) => { rememberScroll(); setSection(null); setBookIdx(bi); setChapIdx(ci); setTargetVerse(null); setFlipDir(0); }} />
+        )}
         {!query && section === "map" && <MapView onOpenRef={openReference} place={place} />}
         {/* The shelf, and one evidence off it. Held in the section name rather
             than in a state of its own, so climbing back out is the same move
@@ -1323,6 +1358,12 @@ export default function App() {
             slug={section.slice("charts/".length)} onOpenRef={openReference} focus={focus} />
         )}
 
+        {!query && section === "mental-maps" && (
+          <MentalMapGrid onOpen={(slug) => open(`mental-maps/${slug}`)} />
+        )}
+        {!query && section?.startsWith("mental-maps/") && (
+          <MentalMapPage key={section} slug={section.slice("mental-maps/".length)} onOpenRef={openReference} />
+        )}
         </Suspense>
         {/* key remounts the article so its entrance animation replays per chapter */}
         {reading && chapter && (

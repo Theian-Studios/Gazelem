@@ -43,3 +43,62 @@ export function useFocusScroll(active, selector = "[data-focused]") {
     return () => clearTimeout(t);
   }, [active, selector]);
 }
+
+// ---- A window that holds the keyboard ------------------------------------
+
+// What inside a container can be tabbed to, in tab order. Read afresh each time
+// rather than kept: a window whose body is still arriving would otherwise trap
+// the reader against the list it had when it opened.
+const REACHABLE =
+  'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]),' +
+  'textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
+
+const reachable = (root) =>
+  [...(root?.querySelectorAll(REACHABLE) || [])].filter(
+    (el) => el.offsetParent !== null || el === document.activeElement,
+  );
+
+// Keeps the keyboard inside a window while it is open, and gives it back where
+// it came from when it closes.
+//
+// A window that says `aria-modal="true"` has told every screen reader that the
+// page behind it is closed for the duration. If the Tab key then walks straight
+// out into that page, the reader is somewhere their software says does not
+// exist, with no way back but Escape and no way to know that is the way. So the
+// promise the markup makes is kept here: focus moves in when the window opens,
+// Tab and Shift+Tab wrap at the ends, and the control that opened the window
+// gets the focus back when it closes — otherwise focus falls to the top of the
+// document and the reader loses their place on the page entirely.
+export function useModalFocus(ref, active) {
+  useEffect(() => {
+    if (!active) return;
+    const box = ref.current;
+    if (!box) return;
+    const cameFrom = document.activeElement;
+
+    // The window itself, when it holds nothing to focus yet.
+    const first = reachable(box)[0] || box;
+    if (!box.hasAttribute("tabindex")) box.setAttribute("tabindex", "-1");
+    first.focus?.({ preventScroll: true });
+
+    const onKey = (e) => {
+      if (e.key !== "Tab") return;
+      const items = reachable(box);
+      if (!items.length) { e.preventDefault(); return; }
+      const edge = e.shiftKey ? items[0] : items[items.length - 1];
+      // Also when focus has escaped the window some other way — a click on the
+      // page behind, a control that removed itself — which would otherwise let
+      // the next Tab carry on out through the document.
+      if (document.activeElement === edge || !box.contains(document.activeElement)) {
+        e.preventDefault();
+        (e.shiftKey ? items[items.length - 1] : items[0]).focus();
+      }
+    };
+
+    document.addEventListener("keydown", onKey, true);
+    return () => {
+      document.removeEventListener("keydown", onKey, true);
+      cameFrom?.focus?.({ preventScroll: true });
+    };
+  }, [ref, active]);
+}

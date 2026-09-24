@@ -33,6 +33,11 @@ export default function TopBar({
 }) {
   const [open, setOpen] = useState(false);
 
+  // The library itself is on screen: its own title names the site, and the
+  // shelf below it is what the picker would open. Both would only say twice
+  // what the page already says, so the bar keeps the field and nothing else.
+  const home = !volume;
+
   // What the middle button says: the deepest thing the reader is actually in.
   // A chapter names itself; a book without a chapter names the book; a volume
   // with neither names the volume; and with nothing open at all it is the
@@ -49,18 +54,26 @@ export default function TopBar({
 
   return (
     <header className="topbar">
-      <button className="bar-mark serif" onClick={onLibrary} title="All scriptures">
-        Gazelem
-      </button>
-
-      <div className="bar-where">
+      {/* The name and the steps above the reference share the left of the bar.
+          They stand beside the reference rather than around it because the
+          reference is what the reader looks for, and a trail of one name on a
+          shelf and three in a chapter would otherwise shunt it off the middle
+          of the window by a different amount on every page. */}
+      <div className="bar-left">
+        {!home && (
+          <button className="bar-mark serif" onClick={onLibrary} title="All scriptures">
+            Gazelem
+          </button>
+        )}
         {above.map((c, i) => (
           <span key={i} className="bar-crumb">
-            <button onClick={c.onClick}>{c.label}</button>
             <span className="bar-sep" aria-hidden>›</span>
+            <button onClick={c.onClick}>{c.label}</button>
           </span>
         ))}
+      </div>
 
+      <div className="bar-where">
         {/* Only where there are chapters to page through. On a shelf or a
             study page they could never do anything, and a control that can
             never act is furniture. */}
@@ -71,6 +84,7 @@ export default function TopBar({
           </button>
         )}
 
+        {!home && (
         <button className="bar-ref serif" onClick={() => setOpen((v) => !v)}
           aria-expanded={open} aria-haspopup="dialog"
           title="Open the library">
@@ -80,6 +94,7 @@ export default function TopBar({
             <path d="M6 9l6 6 6-6" />
           </svg>
         </button>
+        )}
 
         {chapter && (
           <button className="tap bar-step" onClick={onNext} disabled={atEnd}

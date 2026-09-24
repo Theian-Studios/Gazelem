@@ -1,18 +1,12 @@
 import { glass, ink, inkSoft, gold, cardTint } from "../theme.js";
-import { parseCitations } from "../lib/refs.js";
 import { chapterRefs, prophetsFor, prophetByName } from "../lib/prophets.js";
-import { citedRun } from "./Cited.jsx";
+import { citedRun, CiteLink } from "./Cited.jsx";
 
-// A reference set as a link into the text it names.
-function Cite({ label, onOpenRef, className = "prophet-cite" }) {
-  const cite = parseCitations(label)[0];
-  if (!cite) return <span className={className}>{label}</span>;
-  return (
-    <button className={className} onClick={() => onOpenRef(cite)} title={`Open ${label}`}>
-      {label}
-    </button>
-  );
-}
+// A reference set as a link into the text it names. Unbracketed, unlike the
+// map's and the evidences', and otherwise the same — see CiteLink.
+const Cite = ({ label, onOpenRef, className = "prophet-cite" }) => (
+  <CiteLink label={label} onOpenRef={onOpenRef} className={className} />
+);
 
 // Prose with its references turned into links where they stand — a timeline
 // entry often carries two or three through one sentence.

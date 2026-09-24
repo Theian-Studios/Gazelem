@@ -55,6 +55,21 @@ export const OverviewIcon = (
   </svg>
 );
 
+// A ring with two chords drawn across it: chapters set round a circle and the
+// parallels struck between them, which is the web itself in miniature.
+export const WebIcon = (
+  <svg viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor"
+    strokeWidth="1.4" strokeLinecap="round">
+    <circle cx="8" cy="8" r="6.1" />
+    <path d="M3.6 3.9c2.4 2.6 5.3 4 8.8 4.3" />
+    <path d="M4.2 12.4c1.5-2.9 3.7-4.8 6.6-5.8" />
+    <circle cx="3.6" cy="3.9" r=".95" fill="currentColor" stroke="none" />
+    <circle cx="12.4" cy="8.2" r=".95" fill="currentColor" stroke="none" />
+    <circle cx="4.2" cy="12.4" r=".95" fill="currentColor" stroke="none" />
+    <circle cx="10.8" cy="6.6" r=".95" fill="currentColor" stroke="none" />
+  </svg>
+);
+
 // A balance: what is claimed set against what the text actually carries.
 export const EvidencesIcon = (
   <svg viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor"
@@ -98,5 +113,19 @@ export const ComingForthIcon = (
     <path d="M8 8.6c-1.5-1.1-3.1-1.3-5.2-1.2V14c2.1-.1 3.7.1 5.2 1.2 1.5-1.1 3.1-1.3 5.2-1.2V7.4c-2.1-.1-3.7.1-5.2 1.2z" />
     <path d="M8 8.6v6.6" />
     <path d="M8 5.2V1.4M5.2 4.3 4 2.9M10.8 4.3 12 2.9" />
+  </svg>
+);
+
+// Three lanes run left to right, each with its stops on it: a book's threads
+// laid side by side, which is what a mental map draws.
+export const MentalMapIcon = (
+  <svg viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor"
+    strokeWidth="1.4" strokeLinecap="round">
+    <path d="M1.6 3.6h12.8M1.6 8h12.8M1.6 12.4h12.8" />
+    <circle cx="4.4" cy="3.6" r="1.35" fill="#fdfdfe" />
+    <circle cx="10.2" cy="3.6" r="1.35" fill="#fdfdfe" />
+    <circle cx="7.4" cy="8" r="1.35" fill="#fdfdfe" />
+    <circle cx="5.6" cy="12.4" r="1.35" fill="#fdfdfe" />
+    <circle cx="12" cy="12.4" r="1.35" fill="#fdfdfe" />
   </svg>
 );

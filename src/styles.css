@@ -1,7 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&display=swap');
 
 * { box-sizing: border-box; }
-body { margin: 0; }
+
+/* This site is lit. The glass is white, the shadows are cast downward onto a
+   pale ground, and the whole palette is built on light passing through frosted
+   panes — there is no dark arrangement of it, and half of one would be worse
+   than none.
+
+   So it says which of the two it is, rather than leaving the browser to guess.
+   Unsaid, a phone set to dark paints its own dark canvas behind the page and
+   renders scrollbars, form fields, spinners and the rubber-band overscroll in
+   dark furniture, against a site drawn entirely in light — the seams showing
+   wherever the page does not paint over them itself.
+
+   `color-scheme` is the whole of the fix: it tells the browser this page is
+   light, and everything the browser draws for us follows. */
+:root { color-scheme: light; }
+
+/* ---- The glass, and what it is worth without a backdrop filter -----------
+   Every surface on this site is a translucent white pane over a blurred view of
+   what is behind it. The blur is what makes that legible: it turns the text
+   underneath into a wash of colour, so a pane at 58% white reads as frosted
+   glass rather than as two pages printed on top of each other.
+
+   Where the filter is not available — older Firefox, a stripped-down WebView,
+   a browser with the effect turned off — nothing warns anyone. The pane simply
+   stops blurring and keeps its 58%, and the chapter behind the notes column
+   shows straight through the words in front of it.
+
+   So the three tiers are named here, and named again where the filter is
+   missing, at an opacity that stands on its own. theme.js reaches for these
+   rather than writing the colour itself, which is what lets a stylesheet answer
+   for a surface built in JavaScript. */
+:root {
+  --glass-1: rgba(255,255,255,.58);   /* cards, the reader, the header */
+  --glass-2: rgba(255,255,255,.46);   /* a field set into one of those */
+  --glass-3: rgba(255,255,255,.74);   /* menus, toolbars, the nav pill */
+  --veil: rgba(22,26,34,.34);         /* the ground behind a modal window */
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  :root {
+    --glass-1: rgba(255,255,255,.93);
+    --glass-2: rgba(255,255,255,.88);
+    --glass-3: rgba(255,255,255,.97);
+    --veil: rgba(22,26,34,.58);
+  }
+  /* The panes that write their own colour rather than taking a tier. */
+  .picker, .searchcard, .map-search, .map-btn, .ev-window { background: var(--glass-3); }
+}
+
+/* Painted rather than left transparent, for the same reason: the ground behind
+   the app's own gradient belongs to the browser, and on a dark phone it is
+   black. The app paints its own gradient over this, so it shows only where the
+   page does not reach — during load, and past the ends of an overscroll. */
+body { margin: 0; background: #eef1f5; color: #1d1d1f; }
 
 /* The format-detection meta in index.html turns iOS's data detectors off, but a
    page opened through an in-app browser can still arrive with them applied. Any
@@ -150,7 +203,7 @@ a[x-apple-data-detectors] {
     width: 54px; height: 54px; border-radius: 999px;
     pointer-events: auto;
     border: 1px solid rgba(255,255,255,.8);
-    background: rgba(255,255,255,.74);
+    background: var(--glass-3);
     backdrop-filter: blur(64px) saturate(200%);
     -webkit-backdrop-filter: blur(64px) saturate(200%);
     box-shadow: 0 14px 40px rgba(31,45,71,0.10), 0 2px 6px rgba(31,45,71,0.04),
@@ -393,7 +446,7 @@ a[x-apple-data-detectors] {
     width: 44px; height: 44px; border-radius: 999px;
     border: 1px solid rgba(255,255,255,.72);
     background: rgba(255,255,255,.72);
-    color: #6e6e73; cursor: pointer;
+    color: #68686d; cursor: pointer;
     box-shadow: 0 4px 14px rgba(31,45,71,.07), inset 0 1px 0 rgba(255,255,255,.9);
   }
 
@@ -503,7 +556,13 @@ a[x-apple-data-detectors] {
   :root { --bar-h: 54px; }
 
   .topbar {
-    display: flex; align-items: center; gap: 14px;
+    /* Three columns rather than a row: with the name on one side and the
+       field on the other, "centred" between two ends of different widths is
+       not the middle of the window, which is where the reader looks for the
+       reference. Equal side columns put it there, and the home screen — where
+       neither the name nor the reference is drawn — leaves the middle empty
+       without the field moving. */
+    display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 14px;
     position: fixed; top: 0; left: 0; right: 0; height: var(--bar-h);
     padding: 0 16px;
     z-index: 40;
@@ -511,6 +570,13 @@ a[x-apple-data-detectors] {
     backdrop-filter: saturate(160%) blur(18px);
     -webkit-backdrop-filter: saturate(160%) blur(18px);
     border-bottom: 1px solid rgba(31,45,71,.08);
+  }
+
+  /* The name and the trail, on the left where they can grow to whatever
+     length the page needs without moving the reference. */
+  .bar-left {
+    grid-column: 1; justify-self: start;
+    display: flex; align-items: center; gap: 2px; min-width: 0;
   }
 
   /* The name is the way home, which is what a masthead is for. */
@@ -521,22 +587,23 @@ a[x-apple-data-detectors] {
     color: #1d1d1f; cursor: pointer; border-radius: 8px;
     transition: color .15s;
   }
-  .bar-mark:hover { color: #a4853d; }
+  .bar-mark:hover { color: #806527; }
 
-  /* The trail and the reference, centred in the bar rather than left with the
-     name: it is the one thing on this line the reader is looking for. */
+  /* The reference, and the chapter arrows that stand either side of it: one
+     group on the middle of the window, symmetrical about the reference, so
+     that it is where the pointer expects it on every page. */
   .bar-where {
-    flex: 1; display: flex; align-items: center; justify-content: center; gap: 6px;
+    grid-column: 2; display: flex; align-items: center; justify-content: center; gap: 6px;
     min-width: 0;
   }
   .bar-crumb { display: inline-flex; align-items: center; gap: 6px; min-width: 0; }
   .bar-crumb > button {
     border: 0; background: none; padding: 2px 4px; margin: 0;
-    font-size: 13px; color: #6e6e73; cursor: pointer; border-radius: 6px;
+    font-size: 13px; color: #68686d; cursor: pointer; border-radius: 6px;
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 22ch;
     transition: color .15s;
   }
-  .bar-crumb > button:hover { color: #a4853d; }
+  .bar-crumb > button:hover { color: #806527; }
   .bar-sep { color: rgba(110,110,115,.45); font-size: 12px; }
 
   /* The reference: a plain word until the pointer is on it, and then a door. */
@@ -557,13 +624,13 @@ a[x-apple-data-detectors] {
   .bar-step {
     display: inline-flex; align-items: center; justify-content: center;
     width: 30px; height: 30px; border: 0; background: none; border-radius: 999px;
-    color: #6e6e73; cursor: pointer;
+    color: #68686d; cursor: pointer;
     transition: background .15s, color .15s;
   }
   .bar-step:hover:not(:disabled) { background: rgba(255,255,255,.8); color: #1d1d1f; }
   .bar-step:disabled { opacity: .25; cursor: default; }
 
-  .bar-search { flex-shrink: 0; width: clamp(220px, 22vw, 320px); }
+  .bar-search { grid-column: 3; justify-self: end; width: clamp(220px, 22vw, 320px); }
   .bar-search .searchbar { padding: 6px 12px; }
 
   /* ---- The library, opened whole ---------------------------------------- */
@@ -602,7 +669,7 @@ a[x-apple-data-detectors] {
   }
   .picker-row:hover, .picker-row[data-on] { background: rgba(164,133,61,.10); color: #1d1d1f; }
   .picker-row[data-on] { font-weight: 600; }
-  .picker-waiting { margin: 0 14px; font-size: 12.5px; color: #6e6e73; }
+  .picker-waiting { margin: 0 14px; font-size: 12.5px; color: #68686d; }
 
   /* A grid, because a chapter is a number and numbers read as a grid — a list
      of twenty-two of them is a scroll where this is a glance. */
@@ -622,9 +689,9 @@ a[x-apple-data-detectors] {
      along it, and the eye should not have to follow the pointer. */
   .picker-caption {
     margin: 9px 0 0; min-height: 1.4em;
-    font-size: 12.5px; color: #6e6e73;
+    font-size: 12.5px; color: #68686d;
   }
-  .picker-caption-n { color: #a4853d; font-weight: 700; margin-right: 7px; }
+  .picker-caption-n { color: #806527; font-weight: 700; margin-right: 7px; }
 
   .picker-sections {
     display: flex; flex-wrap: wrap; gap: 6px;
@@ -650,7 +717,7 @@ a[x-apple-data-detectors] {
     color: rgba(110,110,115,.5); cursor: pointer; z-index: 12;
     opacity: 0; transition: opacity .18s, color .18s;
   }
-  .turn:hover { opacity: 1; color: #a4853d; }
+  .turn:hover { opacity: 1; color: #806527; }
   .turn:focus-visible { opacity: 1; outline: 2px solid #3a5a8c; outline-offset: -6px; }
   .turn:disabled { display: none; }
   .turn-prev { left: calc(var(--side) + var(--gutter)); }
@@ -738,7 +805,7 @@ a[x-apple-data-detectors] {
   border: 0; background: none; border-radius: 999px;
   padding: 7px 4px;
   font-size: 12.5px; font-weight: 600; line-height: 1.2;
-  color: rgba(90,90,98,.85); cursor: pointer; white-space: nowrap;
+  color: rgba(90,90,98,.95); cursor: pointer; white-space: nowrap;
   transition: background .18s, color .18s, box-shadow .18s;
 }
 .lens-seg-item:hover { color: #1d1d1f; }
@@ -768,7 +835,7 @@ a[x-apple-data-detectors] {
   min-height: 2.6em;
   display: grid; align-content: center;
   font-size: var(--fs-note); line-height: 1.3;
-  color: #6e6e73; text-align: center;
+  color: #68686d; text-align: center;
 }
 
 /* ---- How close to stand -------------------------------------------------
@@ -806,9 +873,11 @@ a[x-apple-data-detectors] {
    Filled rather than tinted: the row is five words of one size, and a wash
    behind one of them is not enough to find without looking for it. */
 .lens-zoom-item[aria-pressed="true"] {
-  background: #a4853d; color: #fff; font-weight: 700;
+  /* The same gold the text is set in. At 11.5px the white on it has to carry
+     4.5:1, and the lighter gold this used to be fell short of it at 3.5. */
+  background: #806527; color: #fff; font-weight: 700;
 }
-.lens-zoom-item[aria-pressed="true"]:hover { background: #96793a; color: #fff; }
+.lens-zoom-item[aria-pressed="true"]:hover { background: #6f5822; color: #fff; }
 .lens-seg-item:focus-visible, .lens-zoom-item:focus-visible {
   outline: 2px solid #3a5a8c; outline-offset: 2px;
 }
@@ -830,7 +899,7 @@ a[x-apple-data-detectors] {
    the height of a folded card, and it should not move with the font. */
 .commentary-head {
   font-size: 10.5px; line-height: 1.3; letter-spacing: 0.12em; text-transform: uppercase;
-  color: #a4853d; font-weight: 700;
+  color: #806527; font-weight: 700;
 }
 
 .commentary-head {
@@ -896,7 +965,7 @@ a[x-apple-data-detectors] {
 }
 .meta-ring svg { width: 54%; height: 54%; }
 .meta-facet:hover .meta-ring {
-  color: #a4853d;
+  color: #806527;
   border-color: rgba(164,133,61,.5);
   transform: translateY(-1.5px);
 }
@@ -912,7 +981,7 @@ a[x-apple-data-detectors] {
 }
 .meta-facet-value {
   margin-top: 1px;
-  font-size: 10.5px; line-height: 1.35; color: #6e6e73;
+  font-size: 10.5px; line-height: 1.35; color: #68686d;
   /* Long values wrap rather than widening their column and skewing the row. */
   overflow-wrap: anywhere;
 }
@@ -1001,7 +1070,7 @@ a[x-apple-data-detectors] {
    background — because a run's whitespace sits outside it when overlapping
    anchors change mid-phrase, and any drawn decoration would show the seams. */
 .conn-anchor {
-  color: #9c7c34;
+  color: #806527;
   cursor: pointer;
   border-radius: 3px;
   transition: color .18s, background .18s;
@@ -1012,7 +1081,7 @@ a[x-apple-data-detectors] {
 .conn-anchor::before {
   content: attr(data-marks);
   font-size: .6em; vertical-align: super; line-height: 0;
-  margin-right: 1px; font-weight: 700; color: #b08d3e;
+  margin-right: 1px; font-weight: 700; color: #806527;
 }
 
 /* ---- Chapter band ------------------------------------------------------
@@ -1031,7 +1100,9 @@ a[x-apple-data-detectors] {
 /* An edge fades only when the band really does carry on past it. Fading the
    top while the band is already at its first chapter said the opposite, and
    washed out the book's name where it was most wanted. */
-.ct-scroll[data-fade="top"], .ct-scroll[data-fade="both"] {
+/* "both" is not listed here: it has a mask of its own below, of equal weight
+   and further down, so everything this rule said about it was overwritten. */
+.ct-scroll[data-fade="top"] {
   -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 22px);
   mask-image: linear-gradient(180deg, transparent 0, #000 22px);
 }
@@ -1195,7 +1266,7 @@ a[x-apple-data-detectors] {
   display: inline-flex; align-items: center; gap: 4px;
   border: 0; background: none; padding: 0; margin: 0 0 4px;
   font-size: 10px; letter-spacing: .08em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d; cursor: pointer;
+  font-weight: 700; color: #806527; cursor: pointer;
   transition: color .15s, transform .15s;
 }
 .conn-goto:hover { color: #6b551f; transform: translateX(1px); }
@@ -1210,7 +1281,7 @@ a[x-apple-data-detectors] {
   color: #1d1d1f; cursor: pointer;
   transition: color .15s;
 }
-.conn-head:hover { color: #a4853d; }
+.conn-head:hover { color: #806527; }
 .conn-head:focus-visible { outline: 2px solid #3a5a8c; outline-offset: 2px; border-radius: 3px; }
 
 /* Chevron between the bottom pill's steps. */
@@ -1241,7 +1312,7 @@ a[x-apple-data-detectors] {
 /* Gold for the step back, which is a move through the site's own history;
    the reader's own chapter is set in the blue the ‹ › arrows are, that being
    the colour of the text everywhere else. */
-.pill-back { background: rgba(164,133,61,.16); color: #8a6f2e; }
+.pill-back { background: rgba(164,133,61,.16); color: #77601f; }
 .pill-resume { background: rgba(58,90,140,.13); color: #33507d; }
 
 /* Chapters that read alongside this one. Set as pills rather than a list: they
@@ -1284,7 +1355,7 @@ a[x-apple-data-detectors] {
 .conn-jump:hover { background: rgba(164,133,61,.12); }
 .conn-jump-id {
   flex-shrink: 0; min-width: 24px;
-  font-size: 10px; font-weight: 700; color: #a4853d;
+  font-size: 10px; font-weight: 700; color: #806527;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -1424,6 +1495,12 @@ input::placeholder { color: rgba(110,110,115,.65); }
   .tap:focus-visible, .lift:focus-visible, button:focus-visible, input:focus-visible,
   .conn-anchor:focus-visible { animation: none !important; }
   .commentary-col, .side-extras { scroll-behavior: auto; }
+  /* The one animation that never stops on its own. Everything else here runs
+     once and settles, so leaving the sweep going was the whole of what a reader
+     who asks for stillness still had moving on the page — and it runs while a
+     volume loads, which is exactly when they are waiting and looking at it. The
+     bar keeps its wash, so it still reads as something on its way. */
+  .shimmer::after { animation: none !important; transform: none; opacity: .5; }
 }
 
 /* ---- Finding on the page ------------------------------------------------
@@ -1477,7 +1554,7 @@ mark.find-hit[data-current] {
 }
 .find-count {
   margin-right: 2px;
-  font-size: 11.5px; font-weight: 600; color: #6e6e73;
+  font-size: 11.5px; font-weight: 600; color: #68686d;
   font-variant-numeric: tabular-nums;
 }
 
@@ -1492,7 +1569,7 @@ mark.find-hit[data-current] {
   border-radius: 15px; padding: 15px 18px; text-align: left;
   display: flex; align-items: center; gap: 10px; cursor: pointer;
 }
-.section-tile-icon { display: flex; color: #a4853d; flex-shrink: 0; }
+.section-tile-icon { display: flex; color: #806527; flex-shrink: 0; }
 .section-tile-name { flex: 1; font-size: 16.5px; font-weight: 500; color: #6b551f; }
 .section-tile-count { font-size: 12px; font-weight: 700; }
 /* The D&C has no book shelf, so its sections carry these in a row of their own
@@ -1541,7 +1618,7 @@ mark.find-hit[data-current] {
 .bt-sub {
   margin: 7px 0 0;
   font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 /* On the page the band has room to breathe, and nothing above it to clear. */
 .bt-card .chapter-timeline { padding-top: 0; }
@@ -1570,7 +1647,7 @@ mark.find-hit[data-current] {
   margin: 0 0 9px; padding-bottom: 5px;
   border-bottom: 1px solid rgba(164, 133, 61, .34);
   font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 .ct-band-runs { columns: 215px 3; column-gap: 28px; }
 
@@ -1685,7 +1762,7 @@ mark.find-hit[data-current] {
   border: 0; border-bottom: 1px solid rgba(31,45,71,.08);
   background: none; cursor: pointer;
   font-size: 11px; letter-spacing: .07em; text-transform: uppercase;
-  font-weight: 700; color: #8e8e93;
+  font-weight: 700; color: #65656a;
   transition: color .16s;
 }
 .toc-up:hover { color: #1d1d1f; }
@@ -1726,7 +1803,7 @@ mark.find-hit[data-current] {
 .toc-row[data-on] { background: rgba(164,133,61,.13); }
 .toc-row-name { flex: 1; min-width: 0; font-size: 14px; color: #1d1d1f; }
 .toc-section .toc-row-name { font-weight: 500; color: #6b551f; }
-.toc-row-icon { display: flex; color: #a4853d; flex-shrink: 0; }
+.toc-row-icon { display: flex; color: #806527; flex-shrink: 0; }
 .toc-book .toc-row-name { font-size: 14.5px; font-weight: 500; }
 
 /* The shelf, which only stands here while the page is showing something other
@@ -1738,7 +1815,7 @@ mark.find-hit[data-current] {
 .toc-heading {
   margin: 0 0 5px; padding: 0 8px;
   font-size: var(--fs-label); letter-spacing: .07em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 
 .toc-up:focus-visible, .toc-volume:focus-visible, .toc-row:focus-visible {
@@ -1758,7 +1835,7 @@ mark.find-hit[data-current] {
 }
 .ev-shelf-intro {
   margin: 0 4px 16px; max-width: 56ch;
-  font-size: var(--fs-meta); line-height: 1.7; color: #6e6e73;
+  font-size: var(--fs-meta); line-height: 1.7; color: #68686d;
 }
 .ev-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
 .ev-tile {
@@ -1766,7 +1843,7 @@ mark.find-hit[data-current] {
   display: flex; flex-direction: column; gap: 4px; cursor: pointer;
 }
 .ev-tile-name { font-size: 16.5px; font-weight: 500; }
-.ev-tile-sub { font-size: var(--fs-note); line-height: 1.4; color: #6e6e73; }
+.ev-tile-sub { font-size: var(--fs-note); line-height: 1.4; color: #68686d; }
 
 /* Two to a row on a phone. One column of tiles wide enough for "Words of
    Mormon" and empty for "Enos" turned fifteen books into ten screens of
@@ -1800,14 +1877,14 @@ mark.find-hit[data-current] {
 .ev-sub {
   margin: 7px 0 0;
   font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 /* Set left and flush to the card's own edge, unlike the title and subtitle
    above it: the introduction runs to a paragraph, and it starts where the first
    column of forms under it starts rather than floating between them. */
 .ev-intro {
   margin: 16px 0 0; text-align: left;
-  font-size: var(--fs-meta); line-height: 1.72; color: #6e6e73;
+  font-size: var(--fs-meta); line-height: 1.72; color: #68686d;
 }
 
 /* What the passage is being shown for. The chart marks it rather than
@@ -1836,10 +1913,14 @@ mark.find-hit[data-current] {
    or a run of a hundred phrases wants the whole width and its own scroll, and
    the card it came from stays where it was underneath. */
 .ev-veil {
-  position: fixed; inset: 0; z-index: 60;
+  /* Above everything, because it is the one thing on the site that closes the
+     page behind it. At 60 it sat under the study sheet (90), so a form opened
+     from inside a sheet on a phone drew its veil *underneath* the sheet — the
+     window invisible, the page unscrollable, and nothing on screen to press. */
+  position: fixed; inset: 0; z-index: 100;
   display: grid; place-items: center;
   padding: clamp(14px, 4vw, 44px);
-  background: rgba(22,26,34,.34);
+  background: var(--veil);
   backdrop-filter: blur(4px) saturate(120%);
   -webkit-backdrop-filter: blur(4px) saturate(120%);
   animation: ev-veil-in .16s ease-out;
@@ -1869,7 +1950,7 @@ mark.find-hit[data-current] {
   flex-shrink: 0;
   border: 0; background: rgba(110,110,115,.13); border-radius: 999px;
   width: 28px; height: 28px; font-size: 12px; line-height: 1;
-  color: #6e6e73; cursor: pointer; display: grid; place-items: center;
+  color: #68686d; cursor: pointer; display: grid; place-items: center;
 }
 .ev-window-close:hover { background: rgba(110,110,115,.24); color: #1d1d1f; }
 /* Only the window scrolls; the page behind it is held still while it is up. */
@@ -1883,7 +1964,7 @@ mark.find-hit[data-current] {
 }
 
 .ev-form-name { margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -.01em; color: #1d1d1f; }
-.ev-form-gloss { margin: 5px 0 0; font-size: var(--fs-meta); line-height: 1.5; color: #6e6e73; }
+.ev-form-gloss { margin: 5px 0 0; font-size: var(--fs-meta); line-height: 1.5; color: #68686d; }
 
 /* The taste of the form the card carries — as much of an example as it takes
    to show the thing, up to four lines. */
@@ -1900,13 +1981,13 @@ mark.find-hit[data-current] {
 .ev-sample-tag {
   display: block; margin-bottom: 3px;
   font-size: 10px; letter-spacing: .09em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 /* Which half of a pair this is — source or reversal, earliest or current. */
 .ev-sample-side {
   margin-right: 6px;
   font-size: 10.5px; letter-spacing: .07em; text-transform: uppercase;
-  font-weight: 700; color: #6e6e73;
+  font-weight: 700; color: #68686d;
 }
 .ev-sample .ev-mark { font-weight: 700; }
 
@@ -1920,7 +2001,7 @@ mark.find-hit[data-current] {
 .ev-more {
   align-self: flex-start; margin-top: auto; padding: 9px 0 0;
   border: 0; background: none; cursor: pointer;
-  font-family: inherit; font-size: 12.5px; font-weight: 600; color: #a4853d;
+  font-family: inherit; font-size: 12.5px; font-weight: 600; color: #806527;
 }
 .ev-more:hover { color: #6b551f; text-decoration: underline; text-underline-offset: 3px; }
 
@@ -1931,7 +2012,7 @@ mark.find-hit[data-current] {
 .ev-ref {
   padding: 0 1.5px;
   font-size: 12px; letter-spacing: .02em;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 .ev-ref-link { border: 0; background: none; cursor: pointer; font-family: inherit; }
 .ev-ref-link:hover { color: #6b551f; text-decoration: underline; text-underline-offset: 3px; }
@@ -1944,7 +2025,7 @@ mark.find-hit[data-current] {
   font-size: var(--fs-body); line-height: 1.55;
 }
 .ev-phrase { color: #3d3d42; }
-.ev-gloss { margin-left: 7px; font-size: var(--fs-note); font-style: italic; color: #6e6e73; }
+.ev-gloss { margin-left: 7px; font-size: var(--fs-note); font-style: italic; color: #68686d; }
 @media (max-width: 599.98px) { .ev-phrases { columns: 1; } }
 
 /* The two readings of a comparison: the label that tells them apart, and the
@@ -1952,7 +2033,7 @@ mark.find-hit[data-current] {
 .ev-side-label {
   display: block; margin-bottom: 3px;
   font-size: var(--fs-label); letter-spacing: .09em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 .ev-side-text { margin: 0; font-size: var(--fs-body); line-height: 1.6; color: #3d3d42; }
 
@@ -1965,7 +2046,7 @@ mark.find-hit[data-current] {
   padding: 0 16px 8px 0;
   border-bottom: 1px solid rgba(164, 133, 61, .42);
   font-size: var(--fs-label); letter-spacing: .09em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 .ev-tchart-cell { padding: 13px 16px 13px 0; border-bottom: 1px solid rgba(31, 45, 71, .08); }
 /* Every column after the first carries the rule, so the vertical runs from
@@ -1979,7 +2060,7 @@ mark.find-hit[data-current] {
    no edition made one. */
 .ev-tchart-note {
   grid-column: 1 / -1; margin: 16px 0 -3px;
-  font-size: var(--fs-note); letter-spacing: .04em; font-style: italic; color: #6e6e73;
+  font-size: var(--fs-note); letter-spacing: .04em; font-style: italic; color: #68686d;
 }
 /* A reading with nothing set against it: neither head is true of it, so it
    takes the width of the chart and keeps its own label. */
@@ -2006,7 +2087,7 @@ mark.find-hit[data-current] {
    way the argument climbs. */
 .ev-ladders { display: flex; flex-direction: column; gap: 22px; }
 .ev-ladder-head { margin: 0 0 7px; }
-.ev-ladder-title { font-size: var(--fs-label); letter-spacing: .09em; text-transform: uppercase; font-weight: 700; color: #6e6e73; }
+.ev-ladder-title { font-size: var(--fs-label); letter-spacing: .09em; text-transform: uppercase; font-weight: 700; color: #68686d; }
 .ev-rungs {
   margin: 0;
   font-size: var(--fs-body); line-height: 1.62; color: #3d3d42;
@@ -2021,13 +2102,13 @@ mark.find-hit[data-current] {
 .ev-quote-head {
   margin: 0 0 5px;
   font-size: var(--fs-label); letter-spacing: .09em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 .ev-quote { margin: 0; font-size: var(--fs-body); line-height: 1.62; color: #3d3d42; }
 
 .ev-words { display: flex; flex-direction: column; gap: 20px; }
 .ev-word-name { margin: 0; font-size: 16px; font-weight: 600; color: #1d1d1f; }
-.ev-word-root { margin: 3px 0 0; font-size: var(--fs-meta); line-height: 1.5; font-style: italic; color: #6e6e73; }
+.ev-word-root { margin: 3px 0 0; font-size: var(--fs-meta); line-height: 1.5; font-style: italic; color: #68686d; }
 
 /* ---- Chapter overview ---------------------------------------------------
    The volume as a shape: a square to a chapter, coloured along one ramp from
@@ -2040,11 +2121,11 @@ mark.find-hit[data-current] {
 .co-sub {
   margin: 7px 0 0;
   font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 .co-intro {
   margin: 12px auto 0; max-width: 58ch;
-  font-size: var(--fs-meta); line-height: 1.7; color: #6e6e73;
+  font-size: var(--fs-meta); line-height: 1.7; color: #68686d;
 }
 
 /* Two questions of the same shape, set as two rows so it is plain they are
@@ -2054,13 +2135,13 @@ mark.find-hit[data-current] {
 .co-filter-head {
   margin: 0 0 7px;
   font-size: var(--fs-label); letter-spacing: .11em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 .co-clear {
   display: block; margin: 12px 0 0;
   border: 1px dashed rgba(31,45,71,.28); background: none;
   border-radius: 999px; padding: 4px 14px; cursor: pointer;
-  font-size: 11px; color: #6e6e73;
+  font-size: 11px; color: #68686d;
 }
 .co-clear:hover { border-color: rgba(31,45,71,.5); color: #1d1d1f; }
 
@@ -2081,7 +2162,7 @@ mark.find-hit[data-current] {
 }
 .co-key-item:hover { border-color: rgba(31,45,71,.3); background: rgba(255,255,255,.85); }
 .co-key-item[data-on] {
-  border-color: #a4853d; background: rgba(164,133,61,.13); color: #1d1d1f; font-weight: 600;
+  border-color: #806527; background: rgba(164,133,61,.13); color: #1d1d1f; font-weight: 600;
 }
 .co-swatch { width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; }
 
@@ -2139,14 +2220,14 @@ mark.find-hit[data-current] {
 .cf-sub {
   margin: 7px 0 0;
   font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 /* Sits under the title as the map's one-line subtitle does, but runs to a
    sentence, so it is set as prose and centred on a measure of its own rather
    than stretched across the card. */
 .cf-intro {
   margin: 12px auto 0; max-width: 52ch;
-  font-size: var(--fs-meta); line-height: 1.7; color: #6e6e73;
+  font-size: var(--fs-meta); line-height: 1.7; color: #68686d;
 }
 
 .cf-thread { list-style: none; margin: 0; padding: 0; position: relative; }
@@ -2173,7 +2254,7 @@ mark.find-hit[data-current] {
   margin: 0; width: 56px;
   text-align: center;
   font-size: var(--fs-label); font-weight: 700; letter-spacing: .04em;
-  color: #a4853d;
+  color: #806527;
   /* The rule runs behind the number, so the number needs its own ground. The
      card's own tint is the nearest thing to a flat colour here; at this size
      a soft disc reads as a bead on the thread rather than as a patch. */
@@ -2211,12 +2292,12 @@ mark.find-hit[data-current] {
 .cf-years {
   margin-left: 9px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: var(--fs-note); font-weight: 400; color: #6e6e73; letter-spacing: 0;
+  font-size: var(--fs-note); font-weight: 400; color: #68686d; letter-spacing: 0;
 }
 .cf-role {
   margin: 3px 0 0;
   font-size: var(--fs-label); letter-spacing: .09em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 .cf-text {
   margin: 9px 0 0;
@@ -2253,9 +2334,9 @@ mark.find-hit[data-current] {
 .rs-sub {
   margin: 7px 0 0;
   font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
-.rs-intro { margin: 14px auto 0; max-width: 58ch; font-size: var(--fs-meta); line-height: 1.7; color: #6e6e73; }
+.rs-intro { margin: 14px auto 0; max-width: 58ch; font-size: var(--fs-meta); line-height: 1.7; color: #68686d; }
 
 /* One shelf to a kind of thing — the books, then the articles by subject, then
    the archives. The heading is the volume's own small print, ruled off so a
@@ -2278,7 +2359,7 @@ mark.find-hit[data-current] {
   margin: 0 0 14px; padding-bottom: 7px;
   border-bottom: 1px solid rgba(164, 133, 61, .34);
   font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 
 /* Columns rather than a grid, for the reason the forms are: an entry is as
@@ -2324,11 +2405,11 @@ mark.find-hit[data-current] {
 .rs-work { --rs-gap: 8px; }
 .rs-byline {
   margin: var(--rs-gap) 0 0;
-  font-size: var(--fs-note); letter-spacing: .02em; font-weight: 600; color: #a4853d;
+  font-size: var(--fs-note); letter-spacing: .02em; font-weight: 600; color: #806527;
 }
 /* The imprint, or how many volumes it runs to: beside the author, in the grey
    the rest of the small print is set in. */
-.rs-detail { margin-left: 7px; font-weight: 400; font-style: italic; color: #6e6e73; }
+.rs-detail { margin-left: 7px; font-weight: 400; font-style: italic; color: #68686d; }
 .rs-text {
   margin: var(--rs-gap) 0 0;
   font-size: var(--fs-meta); line-height: 1.6; color: #3d3d42;
@@ -2340,7 +2421,7 @@ mark.find-hit[data-current] {
    before it is pointed at. */
 .rs-links { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: var(--rs-gap) 0 0; }
 .rs-link {
-  font-size: 12.5px; font-weight: 600; color: #a4853d;
+  font-size: 12.5px; font-weight: 600; color: #806527;
   text-decoration: underline; text-underline-offset: 3px;
   text-decoration-thickness: 1px; text-decoration-color: rgba(164, 133, 61, .5);
 }
@@ -2368,25 +2449,25 @@ mark.find-hit[data-current] {
   width: 38px; height: 38px; margin: 0 auto 10px;
   border: 1px solid rgba(164, 133, 61, .34); border-radius: 999px;
   background: rgba(164, 133, 61, .08);
-  color: #a4853d;
+  color: #806527;
 }
 .cx-mark svg { width: 19px; height: 19px; }
 .cx-title { margin: 0; font-size: clamp(22px, 3.2vw, 29px); font-weight: 600; letter-spacing: .01em; }
 .cx-sub {
   margin: 7px 0 0;
   font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 /* Flush to the card's own edges, as the Hebraisms introduction is: it starts
    where the tables under it start and ends where they end. */
 .cx-intro { margin: 14px 0 0; text-align: left; }
-.cx-intro p { margin: 0; font-size: var(--fs-meta); line-height: 1.7; color: #6e6e73; }
+.cx-intro p { margin: 0; font-size: var(--fs-meta); line-height: 1.7; color: #68686d; }
 .cx-intro p + p { margin-top: 9px; }
 
 .cx-part { margin-top: 28px; }
 .cx-part:first-of-type { margin-top: 0; }
 .cx-part-name { margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -.01em; color: #1d1d1f; }
-.cx-part-gloss { margin: 4px 0 10px; font-size: var(--fs-meta); line-height: 1.5; color: #6e6e73; }
+.cx-part-gloss { margin: 4px 0 10px; font-size: var(--fs-meta); line-height: 1.5; color: #68686d; }
 
 /* The columns are proportioned by the chart itself — a chart led by a
    quotation wants its width up front, one led by a name wants it further
@@ -2404,12 +2485,12 @@ mark.find-hit[data-current] {
   padding: 0 14px 7px 0;
   border-bottom: 1px solid rgba(164, 133, 61, .42);
   font-size: var(--fs-label); letter-spacing: .09em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 .cx-cell {
   padding: 9px 14px 9px 0;
   border-bottom: 1px solid rgba(31, 45, 71, .08);
-  font-size: var(--fs-meta); line-height: 1.55; color: #6e6e73;
+  font-size: var(--fs-meta); line-height: 1.55; color: #68686d;
 }
 /* Every column after the first carries the rule, so the vertical runs from
    under the heads to the foot of the chart without a break. */
@@ -2433,12 +2514,12 @@ mark.find-hit[data-current] {
 .cx-note {
   display: block; margin-top: 4px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: var(--fs-note); line-height: 1.5; font-style: italic; color: #6e6e73;
+  font-size: var(--fs-note); line-height: 1.5; font-style: italic; color: #68686d;
 }
 
 /* The chart's mark on its card, standing where the tally used to: what the
    chart is a chart of, said in one glyph. */
-.cx-tile-icon { display: flex; margin-bottom: 7px; color: #a4853d; }
+.cx-tile-icon { display: flex; margin-bottom: 7px; color: #806527; }
 
 /* What the chart is pointing at inside a passage, marked in the source and
    kept marked here: the phrase catalogued, the word under discussion. */
@@ -2455,7 +2536,7 @@ mark.find-hit[data-current] {
      instead — which on a long one puts the number four lines down. */
   align-self: start;
   display: block; width: 100%; position: relative;
-  color: #a4853d; font-size: 13px; line-height: 2.35; text-align: right;
+  color: #806527; font-size: 13px; line-height: 2.35; text-align: right;
   padding: 0 4px 0 0; font-variant-numeric: oldstyle-nums; font-weight: 500;
   user-select: none;
 }
@@ -2474,7 +2555,7 @@ mark.find-hit[data-current] {
   content: "Copied"; position: absolute; left: 0; translate: -100% 0;
   margin-left: -6px;
   font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d; white-space: nowrap;
+  font-weight: 700; color: #806527; white-space: nowrap;
 }
 
 /* A citation, set as the evidences set theirs: gold, and a door to the verse.
@@ -2485,7 +2566,7 @@ mark.find-hit[data-current] {
   display: inline;
   border: 0; background: none; margin: 0; padding: 0;
   font: inherit; font-weight: 700; letter-spacing: .02em;
-  color: #a4853d; cursor: pointer;
+  color: #806527; cursor: pointer;
   text-align: inherit;
 }
 .cx-cite:hover { color: #6b551f; text-decoration: underline; text-underline-offset: 3px; }
@@ -2512,7 +2593,7 @@ mark.find-hit[data-current] {
 .cx-when {
   flex: 0 0 84px; margin: 0; padding-top: 1px; text-align: right;
   font-size: var(--fs-note); font-weight: 700; letter-spacing: .02em;
-  color: #a4853d;
+  color: #806527;
 }
 /* The bead the thread runs through, set on the year's own line. */
 .cx-stop-body { position: relative; min-width: 0; padding-left: 24px; }
@@ -2524,7 +2605,7 @@ mark.find-hit[data-current] {
 .cx-stop-name { margin: 0; font-size: 14.5px; font-weight: 600; color: #1d1d1f; }
 .cx-stop-name .cx-mark-b { font-weight: 600; }
 .cx-stop-text { margin: 3px 0 0; font-size: var(--fs-meta); line-height: 1.6; color: #3d3d42; }
-.cx-stop-ref { margin: 3px 0 0; font-size: var(--fs-note); line-height: 1.5; color: #6e6e73; }
+.cx-stop-ref { margin: 3px 0 0; font-size: var(--fs-note); line-height: 1.5; color: #68686d; }
 
 /* A phone has no room for a column of years beside the account, so the year
    stands over its own stop and the thread goes with the column it ran down. */
@@ -2538,7 +2619,7 @@ mark.find-hit[data-current] {
 
 /* The closing commentary a chart carries under its table. */
 .cx-essay { max-width: 68ch; }
-.cx-essay p { margin: 10px 0 0; font-size: var(--fs-meta); line-height: 1.72; color: #6e6e73; }
+.cx-essay p { margin: 10px 0 0; font-size: var(--fs-meta); line-height: 1.72; color: #68686d; }
 
 /* The rest of the part, on request — set as the evidences' own "See more",
    with an arrow saying which way the part will move. */
@@ -2546,7 +2627,7 @@ mark.find-hit[data-current] {
   display: inline-flex; align-items: center; gap: 5px;
   margin-top: 8px; padding: 0;
   border: 0; background: none; cursor: pointer;
-  font-family: inherit; font-size: 12.5px; font-weight: 600; color: #a4853d;
+  font-family: inherit; font-size: 12.5px; font-weight: 600; color: #806527;
 }
 .cx-more:hover { color: #6b551f; text-decoration: underline; text-underline-offset: 3px; }
 .cx-more-arrow { transition: transform .18s ease; }
@@ -2583,7 +2664,7 @@ mark.find-hit[data-current] {
 .map-sub {
   margin: 7px 0 0;
   font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 
 /* Somewhere to say where you want to be, since sixty places is more than a
@@ -2603,7 +2684,7 @@ mark.find-hit[data-current] {
   position: absolute; right: 10px; top: 50%; transform: translateY(-50%);
   border: 0; background: rgba(110,110,115,.14); border-radius: 999px;
   width: 20px; height: 20px; font-size: 11px; line-height: 1;
-  color: #6e6e73; cursor: pointer; display: grid; place-items: center;
+  color: #68686d; cursor: pointer; display: grid; place-items: center;
 }
 .map-search-clear:hover { background: rgba(110,110,115,.24); color: #1d1d1f; }
 .map-matches {
@@ -2626,7 +2707,7 @@ mark.find-hit[data-current] {
 .map-match-type {
   flex-shrink: 0;
   font-size: 10px; letter-spacing: .06em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 
 /* touch-action: none so a drag pans the map rather than scrolling the page
@@ -2694,7 +2775,7 @@ mark.find-hit[data-current] {
   .map-reset { font-size: 11px; }
 }
 
-.map-hint { margin: 10px 2px 0; font-size: 11.5px; color: #6e6e73; }
+.map-hint { margin: 10px 2px 0; font-size: 11.5px; color: #68686d; }
 
 /* ---- The lettering ------------------------------------------------------
    The artwork carries no names of its own, so all of this is drawn here. It
@@ -2867,18 +2948,18 @@ mark.find-hit[data-current] {
 .map-place-name { flex: 1; margin: 0; font-size: 20px; font-weight: 600; }
 .map-place-alt {
   margin-left: 9px; font-size: 13px; font-weight: 400; font-style: italic;
-  color: #6e6e73;
+  color: #68686d;
 }
 .map-place-close {
   flex-shrink: 0; border: 0; background: rgba(110,110,115,.12);
   border-radius: 999px; width: 26px; height: 26px;
-  font-size: 11px; color: #6e6e73; cursor: pointer;
+  font-size: 11px; color: #68686d; cursor: pointer;
 }
 .map-place-close:hover { background: rgba(110,110,115,.2); color: #1d1d1f; }
 .map-place-meta {
   margin: 5px 0 0;
   font-size: var(--fs-label); letter-spacing: .08em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 .map-place-text { margin: 10px 0 0; font-size: 14px; line-height: 1.65; color: #3d3d42; }
 
@@ -2886,7 +2967,7 @@ mark.find-hit[data-current] {
 .map-events { list-style: none; margin: 12px 0 0; padding: 0; }
 .map-events li {
   position: relative; margin: 0 0 8px; padding-left: 15px;
-  font-size: 13.5px; line-height: 1.6; color: #6e6e73;
+  font-size: 13.5px; line-height: 1.6; color: #68686d;
 }
 .map-events li::before {
   content: ""; position: absolute; left: 0; top: 8px;
@@ -2898,7 +2979,7 @@ mark.find-hit[data-current] {
 .map-cite {
   border: 0; background: none; margin: 0; padding: 0 1.5px;
   font: inherit; font-size: 12px; font-weight: 700; letter-spacing: .02em;
-  color: #a4853d; cursor: pointer;
+  color: #806527; cursor: pointer;
 }
 .map-cite:hover { color: #6b551f; text-decoration: underline; text-underline-offset: 2px; }
 
@@ -2906,7 +2987,7 @@ mark.find-hit[data-current] {
   list-style: none; margin: 14px 0 0; padding: 0;
   display: grid; grid-template-columns: repeat(auto-fit, minmax(168px, 1fr)); gap: 6px 14px;
 }
-.map-key li { display: flex; align-items: center; gap: 9px; font-size: 12px; color: #6e6e73; }
+.map-key li { display: flex; align-items: center; gap: 9px; font-size: 12px; color: #68686d; }
 /* The same marks the drawing uses, so the key reads against it. */
 .map-swatch { flex-shrink: 0; width: 13px; height: 13px; border-radius: 999px; }
 .map-swatch-major_city { background: #b5341c; }
@@ -2936,7 +3017,7 @@ mark.find-hit[data-current] {
 
 .prophet-intro {
   margin: -6px 4px 18px;
-  font-size: 13.5px; line-height: 1.6; color: #6e6e73;
+  font-size: 13.5px; line-height: 1.6; color: #68686d;
   max-width: 52ch;
 }
 /* Names only, so the tiles are sized to a name: narrower, one line tall, and
@@ -2978,7 +3059,7 @@ mark.find-hit[data-current] {
   display: flex; align-items: center; gap: 12px;
   margin: 0 0 18px;
   font-size: var(--fs-label); letter-spacing: .12em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d; white-space: nowrap;
+  font-weight: 700; color: #806527; white-space: nowrap;
 }
 .prophet-panel-head::before,
 .prophet-panel-head::after {
@@ -3057,7 +3138,7 @@ mark.find-hit[data-current] {
 .prophet-cite {
   border: 0; background: none; margin: 0; padding: 0 2.25px;
   font: inherit; font-size: 13.5px; font-weight: 700; letter-spacing: .02em;
-  color: #a4853d; cursor: pointer;
+  color: #806527; cursor: pointer;
   transition: color .15s;
 }
 .prophet-cite:hover { color: #6b551f; text-decoration: underline; text-underline-offset: 2px; }
@@ -3088,7 +3169,7 @@ mark.find-hit[data-current] {
   font-weight: 700; color: #1d1d1f;
 }
 .prophet-detail {
-  margin: 2px 0 0; font-size: 14px; line-height: 1.65; color: #6e6e73;
+  margin: 2px 0 0; font-size: 14px; line-height: 1.65; color: #68686d;
 }
 
 /* ---- Word search -------------------------------------------------------
@@ -3110,7 +3191,7 @@ mark.find-hit[data-current] {
 .srch-close {
   flex-shrink: 0; border: 0; background: rgba(110,110,115,.12);
   border-radius: 999px; width: 30px; height: 30px;
-  font-size: 12px; color: #6e6e73; cursor: pointer;
+  font-size: 12px; color: #68686d; cursor: pointer;
   display: grid; place-items: center;
 }
 .srch-close:hover { background: rgba(110,110,115,.2); color: #1d1d1f; }
@@ -3153,7 +3234,7 @@ mark.find-hit[data-current] {
 .srch-sort { border-color: transparent; background: none; color: #3a5a8c; }
 
 .srch-note, .srch-count {
-  margin: 14px 4px; font-size: 13px; color: #6e6e73;
+  margin: 14px 4px; font-size: 13px; color: #68686d;
 }
 .srch-meant { margin-top: -4px; }
 /* Set as a word in the sentence rather than as a button in a row: it reads as
@@ -3169,7 +3250,7 @@ mark.find-hit[data-current] {
 .srch-count {
   margin: 14px 4px 6px;
   font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase; font-weight: 700;
-  color: #a4853d;
+  color: #806527;
 }
 
 .srch-list { list-style: none; margin: 0; padding: 0; }
@@ -3187,7 +3268,7 @@ mark.find-hit[data-current] {
 /* How many verses the chapter answers with — the reason one result outranks
    another, so it sits where the eye ends up. */
 .srch-hits {
-  flex-shrink: 0; font-size: 11px; font-weight: 700; color: #a4853d;
+  flex-shrink: 0; font-size: 11px; font-weight: 700; color: #806527;
   background: rgba(164,133,61,.13); border-radius: 999px; padding: 2px 8px;
 }
 .srch-vol {
@@ -3195,7 +3276,7 @@ mark.find-hit[data-current] {
   font-size: 11px; color: rgba(110,110,115,.9);
 }
 .srch-snippet {
-  margin: 6px 0 0; font-size: 13.5px; line-height: 1.6; color: #6e6e73;
+  margin: 6px 0 0; font-size: 13.5px; line-height: 1.6; color: #68686d;
 }
 .srch-snippet strong { font-weight: 700; color: #1d1d1f; }
 /* Standing in for a line that has not arrived: the reference alone, greyed. */
@@ -3242,7 +3323,7 @@ mark.find-hit[data-current] {
   font-size: 12px; font-weight: 400; color: rgba(110,110,115,.8);
 }
 .srch-opt-tag {
-  flex-shrink: 0; color: #6e6e73; font-size: 11.5px; font-weight: 600;
+  flex-shrink: 0; color: #68686d; font-size: 11.5px; font-weight: 600;
   letter-spacing: .04em; background: rgba(110,110,115,.10);
   border-radius: 999px; padding: 3px 9px;
 }
@@ -3276,7 +3357,7 @@ mark.find-hit[data-current] {
    proves. The number is the one thing on the card that says so. */
 .es-tile-order {
   font-size: var(--fs-label); letter-spacing: .09em;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 
 .es-card { --pad: clamp(24px, 5vw, 52px); padding: var(--pad); }
@@ -3284,12 +3365,12 @@ mark.find-hit[data-current] {
 .es-kicker {
   margin: 0 0 9px;
   font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 .es-title { margin: 0; font-size: clamp(22px, 3.2vw, 29px); font-weight: 600; letter-spacing: .01em; }
 .es-sub {
   margin: 10px auto 0; max-width: 46ch;
-  font-size: var(--fs-meta); line-height: 1.6; color: #6e6e73;
+  font-size: var(--fs-meta); line-height: 1.6; color: #68686d;
 }
 
 /* The plate an essay opens on, set into the text rather than stacked above it:
@@ -3361,25 +3442,25 @@ mark.find-hit[data-current] {
 .es-source {
   display: block; margin-top: 6px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: var(--fs-note); font-style: normal; line-height: 1.5; color: #86868b;
+  font-size: var(--fs-note); font-style: normal; line-height: 1.5; color: #65656a;
 }
 /* A line of the essay's own, standing between two statements inside one quote:
    set in the page's face, so it does not read as the witness still speaking. */
 .es-quote-note {
   margin: 12px 0 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: var(--fs-meta); line-height: 1.7; color: #6e6e73;
+  font-size: var(--fs-meta); line-height: 1.7; color: #68686d;
 }
 .es-who {
   margin-top: 9px;
   font-size: var(--fs-label); letter-spacing: .07em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
 .es-expand {
   display: inline-flex; align-items: center; gap: 5px;
   margin-top: 9px; padding: 0;
   border: 0; background: none; cursor: pointer;
-  font-family: inherit; font-size: 12.5px; font-weight: 600; color: #a4853d;
+  font-family: inherit; font-size: 12.5px; font-weight: 600; color: #806527;
 }
 .es-expand:hover { color: #6b551f; text-decoration: underline; text-underline-offset: 3px; }
 .es-expand-arrow { transition: transform .18s ease; }
@@ -3398,8 +3479,8 @@ mark.find-hit[data-current] {
 
 /* What the essay was built from: reference matter, set small and set apart. */
 .es-sources { margin-top: 34px; padding-top: 22px; border-top: 1px solid rgba(31,45,71,.12); }
-.es-sources .es-part-name { font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase; font-weight: 700; color: #a4853d; }
-.es-sources .es-p { font-size: var(--fs-note); line-height: 1.75; color: #6e6e73; }
+.es-sources .es-part-name { font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase; font-weight: 700; color: #806527; }
+.es-sources .es-p { font-size: var(--fs-note); line-height: 1.75; color: #68686d; }
 
 @media (prefers-reduced-motion: reduce) {
   .es-quote-full { animation: none; }
@@ -3437,7 +3518,7 @@ mark.find-hit[data-current] {
 }
 /* The glyph scales with the mark, so growing one grows both. */
 .sm-mark svg { width: 55%; height: 55%; }
-.sm-mark:hover, .sm-mark[aria-expanded="true"] { color: #a4853d; background: rgba(164,133,61,.13); }
+.sm-mark:hover, .sm-mark[aria-expanded="true"] { color: #806527; background: rgba(164,133,61,.13); }
 .sm-mark:focus-visible { outline: 2px solid #3a5a8c; outline-offset: 1px; }
 /* No page margin to stand in on a narrow window, so the mark tucks into the
    card's own padding instead — a smaller mark, held closer to the verse.
@@ -3482,9 +3563,9 @@ mark.find-hit[data-current] {
 .sm-pop-meta { display: flex; align-items: baseline; gap: 7px; }
 .sm-pop-kind {
   font-size: var(--fs-label); letter-spacing: .09em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
-.sm-pop-verses { font-size: var(--fs-note); color: #86868b; }
+.sm-pop-verses { font-size: var(--fs-note); color: #65656a; }
 
 /* ---- The part a study page was opened for --------------------------------
    A page reached from a margin mark owes the reader the row they were promised,
@@ -3516,7 +3597,7 @@ mark.find-hit[data-current] {
 .world-group-head {
   margin: 0 0 9px;
   font-size: var(--fs-label); letter-spacing: .09em; text-transform: uppercase;
-  font-weight: 700; color: #6e6e73;
+  font-weight: 700; color: #68686d;
 }
 
 .rel-pages { list-style: none; margin: 0; padding: 0; }
@@ -3538,9 +3619,9 @@ mark.find-hit[data-current] {
 .rel-page-meta { display: flex; align-items: baseline; gap: 7px; }
 .rel-page-kind {
   font-size: var(--fs-label); letter-spacing: .09em; text-transform: uppercase;
-  font-weight: 700; color: #a4853d;
+  font-weight: 700; color: #806527;
 }
-.rel-page-verses { font-size: var(--fs-note); color: #86868b; }
+.rel-page-verses { font-size: var(--fs-note); color: #65656a; }
 
 @media (prefers-reduced-motion: reduce) { .rel-page { transition: none; } }
 
@@ -3555,4 +3636,280 @@ mark.find-hit[data-current] {
   .side-extras { top: calc(var(--bar-h) + 14px); }
   .commentary-col { top: var(--bar-h); }
   .toc-card { top: calc(var(--bar-h) + 14px); }
+}
+
+/* ---- Reaching the small controls with a finger --------------------------
+   A pointer lands where it is aimed; a fingertip covers about 9mm of glass and
+   lands near it. So the controls drawn small are given more to hit without
+   being drawn any larger.
+
+   Two techniques, because the boxes differ. Where a control has no width of its
+   own, padding grows it and an equal negative margin takes the growth back out
+   of the layout. Where it has a fixed width and height — everything with
+   `width: 28px` and the like — padding cannot grow it at all, since the site
+   sizes every box by its border, so an overlay does the reaching instead.
+
+   Where controls stand in a row, the overlay grows only downward and upward:
+   grown sideways it would lie over its neighbour, and the reader would press
+   one arrow and get the other.
+
+   Only under `pointer: coarse`. On a desktop these are already easy to hit, and
+   a hit area spilling past the drawing would start catching presses meant for
+   the text beside it. */
+@media (pointer: coarse) {
+  /* No width of its own, so padding does it: 34×23 drawn, 34×45 to the finger.
+     Verse numbers stand about 45px apart down the column, so the boxes meet
+     without overlapping. It is not grown sideways — the gutter it sits in is
+     34px wide, and past that it would be over the verse text, taking the
+     presses meant to select a word. */
+  .verse-n-link { padding: 11px 0; margin: -11px 0; }
+
+  /* Fixed boxes, reached by an overlay. */
+  /* The clear cross is left out: it is already positioned absolutely against
+     the right of the search field, and making it relative would move it. */
+  .map-btn, .srch-close, .bar-step { position: relative; }
+  .map-btn::after, .srch-close::after, .bar-step::after, .map-search-clear::after {
+    content: ""; position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; height: 44px;
+  }
+  /* These two stand alone, so they may reach sideways as well. */
+  .srch-close::after, .map-search-clear::after { width: 44px; }
+  /* Drawn a little larger too, where the map has room for it. */
+  .map-btn { width: 36px; height: 36px; }
+}
+
+/* ---- A web of related chapters -------------------------------------------
+   The volume as a ring with its parallels struck across it. The drawing is
+   one SVG at a fixed viewBox, so everything inside it is sized in that box's
+   own units and only the box is responsive; what is set here is the room it
+   stands in, the weights of the lines, and what lighting a chapter does to
+   the rest of them. */
+.web-card { padding: 30px 30px 34px; }
+.web-head { text-align: center; max-width: 60ch; margin: 0 auto 6px; }
+.web-title { font-size: clamp(22px, 3.2vw, 30px); font-weight: 500; letter-spacing: -.01em; margin: 0; }
+.web-sub { margin: 6px 0 0; font-size: 14px; color: #68686d; }
+.web-intro { margin: 14px 0 0; font-size: 14.5px; line-height: 1.62; color: #4b4b52; }
+
+.web-figure { margin: 6px 0 0; }
+.web-ring { display: block; width: 100%; height: auto; max-width: 760px; margin: 0 auto; overflow: visible; }
+
+/* What the lit chapter answers to, in a line that keeps its height whether or
+   not it is saying anything — the drawing must not jump as the pointer
+   crosses a mark. */
+.web-said {
+  min-height: 30px; margin: 10px 0 0; text-align: center;
+  display: flex; align-items: baseline; justify-content: center; gap: 10px;
+  flex-wrap: wrap;
+}
+.web-said-name { font-size: 17px; color: #1d1d1f; }
+.web-said-note { font-size: 13.5px; color: #68686d; }
+
+.web-chord { stroke-width: 1.7; opacity: .62; transition: opacity .18s, stroke-width .18s; }
+/* One chapter lit: its own lines come forward and the rest fall back far
+   enough to read as ground, which is what makes a single chapter's reach
+   legible in a ring carrying thirty-four of them. */
+.web-chords[data-lit] .web-chord { opacity: .12; }
+.web-chords[data-lit] .web-chord[data-on] { opacity: .95; stroke-width: 2.6; }
+
+.web-mark { cursor: pointer; }
+.web-mark:focus { outline: none; }
+.web-mark:focus-visible .web-dot { stroke: #806527; stroke-width: 2.5; }
+/* No transition on the radius: it is written afresh on every frame the
+   pointer moves, and a transition would have the marks lagging behind it.
+   The radius itself is set in the drawing — a rule here would overrule it. */
+.web-dot { transition: opacity .18s; }
+.web-num { transition: opacity .12s; }
+/* Only the mark is dimmed while another chapter is lit. A number is only ever
+   on screen because the lens is holding its chapter, and fading the numbers
+   either side of the one being rested on takes back the readability the lens
+   was there to give. */
+.web-mark[data-dim] .web-dot { opacity: .3; }
+
+/* Each name carries the size its own stretch of ring will take, worked out
+   where the ring is laid out; what is set here is only the ceiling. */
+.web-book { font-size: calc(var(--book, 21) * 1px); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+/* The one-chapter books' names stand off the ring on a rule, and the ring's
+   names have moved outward to leave the numbers room to rise — so these are
+   set smaller, or "Words of Mormon" runs off the edge of the drawing. */
+.web-book-tiny { font-size: 11.5px; }
+.web-num { font-size: 13px; font-weight: 600; }
+
+.web-list {
+  list-style: none; margin: 26px auto 0; padding: 22px 0 0; max-width: 680px;
+  border-top: 1px solid rgba(31,45,71,.08);
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(268px, 1fr)); gap: 8px 18px;
+}
+.web-pair { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.web-jump {
+  flex: 1; border: 1px solid; border-radius: 999px; background: rgba(255,255,255,.55);
+  padding: 5px 12px; font-size: 13.5px; color: #1d1d1f; cursor: pointer;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  transition: background .15s, color .15s;
+}
+.web-jump:hover { background: #fff; color: #806527; }
+.web-tie { color: rgba(110,110,115,.6); font-size: 13px; }
+
+/* Narrow, the ring is still worth drawing — it is a shape, and a shape
+   survives being small — but the numbers on it do not, and the list below
+   becomes the way the links are actually read. */
+@media (max-width: 640px) {
+  .web-card { padding: 22px 16px 26px; }
+  /* The names keep the size the ring worked out for them: enlarging them
+     here is what clipped "Mormon" to "Mormo" and pushed "Words of Mormon"
+     off the card. Small on a phone, and the list below carries the reading. */
+  /* A number on a ring three hundred pixels wide cannot be read, and a touch
+     has no pointer hovering ahead of it for the lens to follow, so the ring
+     is a shape here and the list below is how the links are read. */
+  .web-num { display: none; }
+  .web-list { grid-template-columns: 1fr; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .web-chord, .web-dot, .web-num { transition: none; }
+}
+
+/* ---- Mental maps ----------------------------------------------------------
+   One longer book to a page: its chapters as a band of squares in the colour
+   of the thread each follows, the threads as lanes against the book's clock,
+   and the short lists worth carrying away. The thread colours are the print
+   map's own, so the page and its PDF read as the same map. */
+.mm-tile-band { display: flex; gap: 1px; height: 6px; margin: 4px 0 3px; border-radius: 3px; overflow: hidden; }
+.mm-tile-band > span { flex: 1 1 0; min-width: 1px; }
+
+.mm-meta {
+  margin: 10px 0 0;
+  font-size: var(--fs-note); line-height: 1.5; color: #6e6e73;
+}
+.mm-pdf { color: #806527; font-weight: 600; text-decoration: none; white-space: nowrap; }
+.mm-pdf:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+.mm-legend {
+  list-style: none; margin: 0 0 6px; padding: 0;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 20px;
+}
+.mm-legend li { display: flex; align-items: baseline; gap: 7px; }
+.mm-swatch { width: 10px; height: 10px; border-radius: 3px; flex: none; align-self: center; }
+.mm-legend-name { font-size: var(--fs-meta); font-weight: 600; color: #1d1d1f; }
+.mm-legend-sub { font-size: var(--fs-note); font-style: italic; color: #6e6e73; }
+
+.mm-part { margin-top: 30px; }
+.mm-part-name {
+  margin: 0 0 12px; padding-bottom: 7px;
+  border-bottom: 1px solid rgba(164, 133, 61, .42);
+  font-size: 17px; font-weight: 600; letter-spacing: -.01em; color: #1d1d1f;
+}
+.mm-gloss { margin: -4px 0 12px; font-size: var(--fs-note); line-height: 1.5; font-style: italic; color: #6e6e73; }
+
+/* The band. Each stretch of the book is a group — its name over a bracket in
+   its thread's colour, its chapters under that — and the groups flow on as
+   the width allows, so a stretch is never split from its name. */
+.mm-band { display: flex; flex-wrap: wrap; gap: 18px 16px; align-items: flex-start; }
+.mm-sec { display: flex; flex-direction: column; min-width: 0; max-width: 100%; }
+.mm-sec-label {
+  font-size: var(--fs-label); letter-spacing: .08em; text-transform: uppercase;
+  font-weight: 700; color: var(--c); text-align: center; line-height: 1.3;
+  padding: 0 2px 4px;
+}
+.mm-sec-rule { height: 5px; border: 1.5px solid var(--c); border-bottom: 0; border-radius: 2px 2px 0 0; margin-bottom: 6px; opacity: .8; }
+.mm-sec-chs { display: flex; flex-wrap: wrap; gap: 6px 3px; }
+.mm-ch {
+  width: 66px; padding: 0; border: 0; background: none; cursor: pointer;
+  display: flex; flex-direction: column; align-items: stretch; gap: 5px;
+  text-align: center; font: inherit; color: inherit; position: relative;
+}
+.mm-ch-n {
+  display: grid; place-items: center; height: 34px; border-radius: 7px;
+  font-size: 15px; font-weight: 700; color: #fbf8f0;
+  transition: filter .15s ease, transform .15s ease;
+}
+.mm-ch:hover .mm-ch-n { filter: brightness(1.14); transform: translateY(-1px); }
+.mm-ch:focus-visible { outline: none; }
+.mm-ch:focus-visible .mm-ch-n { box-shadow: 0 0 0 2px #fff, 0 0 0 4px #a4853d; }
+.mm-ch-cap { font-size: 11px; line-height: 1.3; color: #3d3d42; padding: 0 1px 5px; }
+/* A chapter told out of order carries a dashed rule under its caption, and
+   the band's foot says what the run of them is. */
+.mm-ch[data-fb]::after {
+  content: ""; position: absolute; left: 2px; right: 2px; bottom: 0;
+  border-bottom: 1.5px dashed #8e877b;
+}
+.mm-flashback {
+  display: flex; align-items: center; gap: 8px;
+  margin: 14px 0 0; font-size: var(--fs-note); font-style: italic; color: #6e6e73;
+}
+.mm-flashback-rule { width: 26px; border-bottom: 1.5px dashed #8e877b; flex: none; }
+
+/* The timeline, drawn at the width it is read at and scrolled sideways below
+   the width its labels need. */
+.mm-tl-scroll { overflow-x: auto; overscroll-behavior-x: contain; }
+.mm-tl { display: block; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif; }
+.mm-tl-name { font-size: 11.5px; font-weight: 700; letter-spacing: .06em; }
+.mm-tl-sub { font-size: 11px; font-style: italic; font-weight: 400; letter-spacing: 0; fill: #6e6e73; }
+.mm-tl-label {
+  font-weight: 600;
+  paint-order: stroke; stroke: rgba(251, 251, 253, .92); stroke-width: 4px; stroke-linejoin: round;
+}
+.mm-tl-turn { font-weight: 700; }
+.mm-tl-dot { fill: #fbfbfd; stroke-width: 1.8; }
+.mm-tl-axis { stroke: #a8a39a; stroke-width: 1; }
+.mm-tl-tick { font-size: 11px; font-weight: 600; fill: #6e6e73; }
+.mm-ev { cursor: pointer; outline: none; }
+.mm-ev:hover .mm-tl-label, .mm-ev:focus-visible .mm-tl-label { text-decoration: underline; }
+.mm-ev:hover .mm-tl-dot, .mm-ev:focus-visible .mm-tl-dot { stroke-width: 2.6; }
+
+/* The lists: two columns where there is room, one where there is not. */
+.mm-grid {
+  margin-top: 34px;
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 34px 44px;
+  align-items: start;
+}
+@media (max-width: 759.98px) { .mm-grid { grid-template-columns: minmax(0, 1fr); gap: 30px; } }
+
+.mm-rows { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: auto 1fr; gap: 8px 16px; }
+.mm-rows li { display: contents; }
+.mm-row-key { font-size: var(--fs-meta); font-weight: 700; white-space: nowrap; line-height: 1.6; text-align: left; }
+.mm-year { color: #806527; letter-spacing: .02em; }
+.mm-row-text { font-size: var(--fs-body); line-height: 1.55; color: #3d3d42; }
+.mm-paren { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: var(--fs-note); color: #6e6e73; white-space: nowrap; }
+.mm-note { margin: 12px 0 0; font-size: var(--fs-note); line-height: 1.55; font-style: italic; color: #6e6e73; }
+.mm-note-body { font-style: normal; font-size: var(--fs-meta); color: #3d3d42; }
+
+.mm-table-scroll { overflow-x: auto; overscroll-behavior-x: contain; }
+.mm-table { width: 100%; border-collapse: collapse; }
+.mm-table th {
+  padding: 0 12px 6px 0; text-align: left;
+  font-size: var(--fs-label); letter-spacing: .08em; text-transform: uppercase;
+  font-weight: 700; color: #806527;
+}
+.mm-table td { padding: 8px 12px 8px 0; vertical-align: top; border-top: 1px solid rgba(31, 45, 71, .08); }
+.mm-td-lead { font-size: var(--fs-body); line-height: 1.5; color: #1d1d1f; font-weight: 500; }
+.mm-td { font-size: var(--fs-meta); line-height: 1.5; color: #3d3d42; }
+.mm-td-ref { padding-right: 0 !important; text-align: right; font-size: var(--fs-note); white-space: nowrap; }
+
+.mm-hooks { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.mm-hooks li {
+  position: relative; padding-left: 16px;
+  font-size: var(--fs-body); line-height: 1.6; color: #3d3d42;
+}
+.mm-hooks li::before {
+  content: ""; position: absolute; left: 0; top: .72em;
+  width: 6px; height: 6px; border-radius: 50%; background: #a4853d;
+}
+
+.mm-word { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin: 0 0 10px; }
+.mm-word-itself { font-size: 24px; font-style: italic; color: #1d1d1f; }
+.mm-word-count { font-size: var(--fs-label); letter-spacing: .08em; text-transform: uppercase; font-weight: 700; color: #806527; }
+.mm-verses { display: flex; flex-wrap: wrap; gap: 6px; }
+.mm-verse {
+  border: 1px solid rgba(164, 133, 61, .38); background: rgba(164, 133, 61, .07);
+  border-radius: 999px; padding: 4px 11px; cursor: pointer;
+  font: inherit; font-size: var(--fs-note); font-weight: 700; color: #806527;
+}
+.mm-verse:hover { background: rgba(164, 133, 61, .16); }
+.mm-verse-twice { margin-left: 5px; font-weight: 600; color: #6e6e73; }
+
+@media (max-width: 599.98px) {
+  .mm-ch { width: 60px; }
+  .mm-ch-n { height: 30px; font-size: 14px; }
+  .mm-legend { justify-content: flex-start; flex-direction: column; gap: 4px; }
 }

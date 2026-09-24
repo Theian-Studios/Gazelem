@@ -19,6 +19,7 @@
 // edit it by hand.
 import MANIFEST from "../data/manifest.json";
 import { VOLUMES } from "../data/volumes.js";
+import { MENTAL_MAPS, MENTAL_MAP_VOLUME, mentalMapTitle } from "./mentalMaps.js";
 
 // The evidences and the translation essays are written about the Book of
 // Mormon, which is where the shelf they stand on is offered. Named here as well
@@ -140,6 +141,15 @@ export const ARTICLES = [
     volId: ESSAY_VOLUME,
     section: `evidences/${e.slug}`,
   })),
+  // A map is found by the book it maps, and by the threads it follows —
+  // "gadianton" is as likely a way in to Helaman's as its name.
+  ...MENTAL_MAPS.map((m) => ({
+    slug: m.slug,
+    title: mentalMapTitle(m.slug),
+    subtitle: `Mental map — ${m.threads.join(", ")}`,
+    volId: MENTAL_MAP_VOLUME,
+    section: `mental-maps/${m.slug}`,
+  })),
 ].filter((a) => a.volId);
 
 // ---- Which pages treat which chapter ---------------------------------------
@@ -171,5 +181,6 @@ export function pageTitle(section) {
   const named = (list) => list.find((p) => p.slug === slug)?.title || null;
   if (shelf === "charts") return named(MANIFEST.charts);
   if (shelf === "evidences") return named(MANIFEST.evidences) || named(MANIFEST.essays);
+  if (shelf === "mental-maps") return mentalMapTitle(slug);
   return null;
 }

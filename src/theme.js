@@ -1,5 +1,11 @@
 // Liquid-glass surfaces.
 //
+// The three background colours come from styles.css as --glass-1/2/3 rather
+// than being written here, so that one stylesheet rule can answer for them
+// where the backdrop filter is unavailable and a translucent pane would show
+// the page straight through itself. The literal after each is what a browser
+// uses if the stylesheet has not loaded yet.
+//
 // Depth is expressed by blur radius: the higher a surface floats, the harder it
 // blurs what's behind it. Stacking two translucent layers at the same radius
 // reads as haze, so anything sitting *on* another glass layer moves up a tier.
@@ -27,7 +33,7 @@ const rim = (glow, thickness) =>
 
 // Tier 1 — surfaces resting on the page background (cards, the reader, header).
 export const glass = {
-  background: "rgba(255,255,255,0.58)",
+  background: "var(--glass-1, rgba(255,255,255,0.58))",
   ...frost(34, 185),
   border: "1px solid rgba(255,255,255,0.65)",
   boxShadow: `0 8px 28px rgba(31,45,71,0.055), 0 1px 2px rgba(31,45,71,0.03), ${rim(14, 0.4)}`,
@@ -36,7 +42,7 @@ export const glass = {
 // Tier 2 — a field or control set *into* a tier-1 surface. Its parent is a
 // backdrop root, so its own blur has nothing to sample; the rim does the work.
 export const glassInset = {
-  background: "rgba(255,255,255,0.46)",
+  background: "var(--glass-2, rgba(255,255,255,0.46))",
   ...frost(22, 170),
   border: "1px solid rgba(255,255,255,0.6)",
   boxShadow: `inset 0 1px 2px rgba(31,45,71,.05), ${rim(10, 0.34)}`,
@@ -47,7 +53,7 @@ export const glassInset = {
 // content in front. Must not be nested inside another backdrop-filtered
 // element, or the blur silently no-ops — see SearchBox / SelectionMenu.
 export const glassOverlay = {
-  background: "rgba(255,255,255,0.74)",
+  background: "var(--glass-3, rgba(255,255,255,0.74))",
   ...frost(64, 200),
   border: "1px solid rgba(255,255,255,0.8)",
   boxShadow: `0 14px 40px rgba(31,45,71,0.10), 0 2px 6px rgba(31,45,71,0.04), ${rim(18, 0.5)}`,
@@ -59,6 +65,6 @@ export const glassPill = { ...glassOverlay, borderRadius: 999 };
 export const cardTint = "rgba(90,124,178,0.10)";
 
 export const ink = "#1d1d1f";
-export const inkSoft = "#6e6e73";
-export const gold = "#a4853d";
+export const inkSoft = "#68686d";
+export const gold = "#806527";
 export const blue = "#3a5a8c";

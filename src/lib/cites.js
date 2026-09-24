@@ -108,11 +108,25 @@ export function scanCites(text) {
       const chapter = Number(more[2]);
       const verses = more[3] ? expandVerses(more[3]) : [];
       const label = more[0].slice(more[1].length);
+      // "D&C 121–123" names three chapters, not two. The scan reads it as a
+      // chapter followed by another chapter, which is right for the link — the
+      // reader presses either end and lands there — but wrong for the index
+      // built out of these, where 122 fell through the gap between the two and
+      // the chapter showed no mark for pages that plainly treat it. A dash
+      // between two bare chapters is a range, so the ones inside it are
+      // remembered here and unfolded by citationsIn.
+      const spans = /[–—-]/.test(more[1]) && !verses.length;
+      const opened = links[links.length - 1].cite.chapter;
       links.push({
         sep: more[1],
         label,
         title: `${cite.book.n} ${label}`,
-        cite: { book: cite.book, chapter, verses },
+        cite: {
+          book: cite.book,
+          chapter,
+          verses,
+          ...(spans && chapter > opened ? { through: opened } : {}),
+        },
       });
       CITE.lastIndex += more[0].length;
       if (verses.length) versed = true;
@@ -127,6 +141,21 @@ export function scanCites(text) {
   return out;
 }
 
-// Every reference in a run, flattened — which is all the index wants of it.
+// A chapter range written out, one citation per chapter it covers. The range's
+// opening chapter is already a citation of its own — it is what the reference
+// began with — so only the ones after it are added.
+const throughChapters = (cite) => {
+  if (cite.through == null || cite.chapter <= cite.through) return [cite];
+  const out = [];
+  for (let c = cite.through + 1; c <= cite.chapter; c++) {
+    const { through, ...rest } = cite;
+    out.push({ ...rest, chapter: c });
+  }
+  return out;
+};
+
+// Every reference in a run, flattened — which is all the index wants of it,
+// with the chapters inside a range counted among them.
 export const citationsIn = (text) =>
-  scanCites(text).flatMap((part) => (part.kind === "cites" ? part.links.map((l) => l.cite) : []));
+  scanCites(text).flatMap((part) =>
+    part.kind === "cites" ? part.links.flatMap((l) => throughChapters(l.cite)) : []);

@@ -35,12 +35,30 @@ export function getCached(volId) {
   return cache.get(volId) || null;
 }
 
-export async function loadVolume(volume) {
-  if (cache.has(volume.id)) return cache.get(volume.id);
-  const res = await fetch(sourceUrl(volume));
-  if (!res.ok) throw new Error(`Request failed (${res.status})`);
-  const data = await res.json();
-  const normalized = normalizeVolume(volume.id, data);
-  cache.set(volume.id, normalized);
-  return normalized;
+// The fetches still in the air, so a volume asked for twice is downloaded once.
+// The cache is only written when the request lands, and in the space before
+// that a volume can be asked for from several directions at once — the reader
+// opening it, the library picker showing its shelf, a cross reference reaching
+// into it, the word search reading its text. Each of those used to start its
+// own download of the same file, and the Old Testament is 4.3 MB.
+const pending = new Map();
+
+export function loadVolume(volume) {
+  if (cache.has(volume.id)) return Promise.resolve(cache.get(volume.id));
+  if (pending.has(volume.id)) return pending.get(volume.id);
+
+  const p = (async () => {
+    const res = await fetch(sourceUrl(volume));
+    if (!res.ok) throw new Error(`Request failed (${res.status})`);
+    const data = await res.json();
+    const normalized = normalizeVolume(volume.id, data);
+    cache.set(volume.id, normalized);
+    return normalized;
+  })();
+
+  pending.set(volume.id, p);
+  // Cleared however it ends: a failed volume must be askable again, or a
+  // dropped connection would leave the volume permanently unfetchable.
+  p.catch(() => {}).finally(() => pending.delete(volume.id));
+  return p;
 }

@@ -17,6 +17,13 @@ import { glassInset, glassOverlay, ink, inkSoft } from "../theme.js";
 // the field empty it shows what has been searched before instead.
 // `focusKey` changes when the field has just been revealed and should take the
 // caret; `onDismiss` lets the caller put it away again once it is done with.
+// Whether something stands over the page and owns the keyboard: a window from
+// the evidences, the library picker, a study sheet. Each says so in the markup
+// already — the first two as a dialog, the sheet by the class it puts on the
+// root — so nothing new has to be threaded down here to ask the question.
+const overlayOpen = () =>
+  !!document.querySelector('[role="dialog"], .sheet-open');
+
 export default function SearchBox({ onNavigate, onSearch, onFind, onOpenArticle, onRequestOpen, onDismiss, focusKey, page }) {
   const [query, setQuery] = useState("");
   const [suggestions, setSuggestions] = useState([]);
@@ -133,6 +140,13 @@ export default function SearchBox({ onNavigate, onSearch, onFind, onOpenArticle,
       // character on the keyboard that every search field on the web has
       // already claimed. App answers it; here it is simply not a letter.
       if (e.key === "/") return;
+      // Nothing is typed *through* a window standing over the page. The panels
+      // that open over the reader — a form from the evidences, the library, a
+      // study sheet on a phone — hold the page still behind them, and a letter
+      // pressed there used to open this field underneath and start filling it
+      // in, out of sight and out of reach, with the page unable to scroll to
+      // it. Whatever is in front has the keyboard until it closes.
+      if (overlayOpen()) return;
       const el = e.target;
       if (el && (el.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName))) return;
       if (!window.getSelection()?.isCollapsed) return;   // mid-selection, leave it alone
@@ -258,7 +272,7 @@ export default function SearchBox({ onNavigate, onSearch, onFind, onOpenArticle,
                 {item.kind === "recent" && <ClockGlyph />}
                 {item.kind === "page" && <PageGlyph />}
                 {item.kind === "article" && <ChartGlyph />}
-                <span className={`${item.kind === "ref" || item.kind === "article" ? "serif " : ""}srch-opt-label${item.kind === "article" ? " srch-opt-stack" : ""}`}>
+                <span className={`${item.kind === "ref" || item.kind === "article" ? "serif " : ""}srch-opt-label${item.kind === "article" || (item.kind === "ref" && item.suggestion.note) ? " srch-opt-stack" : ""}`}>
                   {item.kind === "search" && <>Search for <strong>{item.label}</strong></>}
                   {item.kind === "page" && <>Find <strong>{item.label}</strong> in {item.where}</>}
                   {/* A page's own name, and the line under it: two charts often
@@ -275,7 +289,15 @@ export default function SearchBox({ onNavigate, onSearch, onFind, onOpenArticle,
                   {item.kind === "complete" && (
                     <>{item.label.slice(0, item.typed)}<strong>{item.label.slice(item.typed)}</strong></>
                   )}
-                  {(item.kind === "ref" || item.kind === "recent") && item.label}
+                  {item.kind === "recent" && item.label}
+                  {/* A reference row is its label alone, unless the number was
+                      written as a chapter the book does not have — then it says
+                      so under the reading it is offering instead. */}
+                  {item.kind === "ref" && (
+                    item.suggestion.note
+                      ? <><span>{item.label}</span><span className="srch-opt-sub">{item.suggestion.note}</span></>
+                      : item.label
+                  )}
                 </span>
                 {item.kind === "ref" && <span className="srch-opt-tag">{VOL_SHORT[item.suggestion.v]}</span>}
                 {item.kind === "article" && <span className="srch-opt-tag">{VOL_SHORT[item.article.volId]}</span>}

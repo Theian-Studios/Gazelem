@@ -1,8 +1,7 @@
 import { useState, useRef, useCallback, useEffect, useMemo } from "react";
 import { glass } from "../theme.js";
 import { VIEW, ARTWORK, PLACES, KINDS, DIVIDE, depthAt, kindOf, namesOf } from "../lib/mapPlaces.js";
-import { parseCitations } from "../lib/refs.js";
-import { citedRun } from "./Cited.jsx";
+import { citedRun, CiteLink } from "./Cited.jsx";
 
 const MAX_ZOOM = 7;
 // Close enough in to see the place named among its neighbours. The name asked
@@ -10,14 +9,12 @@ const MAX_ZOOM = 7;
 const FLY_ZOOM = 3.4;
 
 // A reference set as a link into the text it names. Bracketed, as the
-// prophets' are, and travelling with its brackets as one word.
-function Cite({ label, onOpenRef }) {
-  const cite = parseCitations(label)[0];
-  const inner = !cite || !onOpenRef
-    ? <span className="map-cite">{label}</span>
-    : <button className="map-cite" onClick={() => onOpenRef(cite)} title={`Open ${label}`}>{label}</button>;
-  return <span className="map-ref-group"> ({inner})</span>;
-}
+// prophets' are, and travelling with its brackets as one word. The drawing of
+// it is shared — see CiteLink — so the map, the prophets and the evidences
+// cannot come to disagree about what a lone reference looks like.
+const Cite = ({ label, onOpenRef }) => (
+  <CiteLink label={label} onOpenRef={onOpenRef} className="map-cite" group="map-ref-group" />
+);
 
 export default function MapView({ onOpenRef, place }) {
   // The window onto the artwork: how far it is opened out, and which point of

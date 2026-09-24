@@ -2,7 +2,7 @@ import { useState } from "react";
 import { glass, cardTint } from "../theme.js";
 import { chartsFor, chartBySlug, chartTemplate } from "../lib/charts.js";
 import { chartIcon } from "./ChartIcons.jsx";
-import { citedRun } from "./Cited.jsx";
+import { markedRun } from "./Cited.jsx";
 import { treats, useFocusScroll } from "../lib/focus.js";
 import { inline } from "../lib/markup.js";
 
@@ -15,14 +15,7 @@ const TASTE = 3;
 // references, which are doors. The marks are read first and the citations
 // found inside each run of them, so a bolded phrase keeps its weight and a
 // reference inside one still opens.
-function Cited({ text, onOpenRef }) {
-  return inline(text).map((part, i) => {
-    const run = citedRun(part.text, onOpenRef, i);
-    if (part.bold) return <b key={i} className="cx-mark-b">{run}</b>;
-    if (part.italic) return <em key={i}>{run}</em>;
-    return <span key={i}>{run}</span>;
-  });
-}
+const Cited = ({ text, onOpenRef }) => markedRun(inline(text), onOpenRef, "cx-mark-b");
 
 // Prose with its titles in italic and the words a chart is pointing at in bold.
 // A chart's own paragraphs cite scripture as freely as its cells do — the
@@ -30,14 +23,7 @@ function Cited({ text, onOpenRef }) {
 // closing essay — so they are read for references too. Left plain, the
 // "(2 Kings 2:9)" that opens the Old Testament miracles was the one reference
 // on the page that did not open.
-function Prose({ text, onOpenRef }) {
-  return inline(text).map((part, i) => {
-    const run = citedRun(part.text, onOpenRef, i);
-    if (part.bold) return <b key={i}>{run}</b>;
-    if (part.italic) return <em key={i}>{run}</em>;
-    return <span key={i}>{run}</span>;
-  });
-}
+const Prose = ({ text, onOpenRef }) => markedRun(inline(text), onOpenRef);
 
 // The shelf of charts, as the evidences are shelved.
 export function ChartGrid({ volume, onOpen }) {

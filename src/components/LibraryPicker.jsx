@@ -17,6 +17,11 @@ import { volumeStops } from "../lib/timeline.js";
 // order, so the panel reads as the trail written out rather than as another
 // place to learn.
 
+// How long the pointer must stay on a volume before its books are worth
+// downloading. Long enough that crossing the list costs nothing, short enough
+// that a reader who means a volume never notices the wait.
+const REST = 220;
+
 // A book's chapters, with what each is about — the captions the timeline band
 // already carries, so the two cannot say different things about one chapter.
 function captionsFor(volId, books, book) {
@@ -38,21 +43,41 @@ export default function LibraryPicker({
   const [overVol, setOverVol] = useState(volId);
   const [overBook, setOverBook] = useState(bookIdx ?? 0);
   const [shelf, setShelf] = useState(() => (volId ? getCached(volId) : null) || books);
+  const [shelfError, setShelfError] = useState(false);
   const [caption, setCaption] = useState(null);
   const box = useRef(null);
 
-  // A volume the reader has never opened has no books in hand, so hovering it
+  // A volume the reader has never opened has no books in hand, so resting on it
   // fetches them. Cached after the first time, and the pane says it is coming
   // rather than standing empty.
+  //
+  // Resting, not merely passing: a pointer crossing the list touches every row
+  // on its way to the one it wants, and fetching on the touch alone downloaded
+  // each volume it crossed — the five of them are 8.4 MB, and the Old Testament
+  // by itself is 4.3. So a volume is only asked for once the pointer has stayed
+  // on it, which is the difference between choosing a volume and passing over
+  // one. A volume already in hand is shown at once; there is nothing to wait
+  // for and nothing to spend.
   useEffect(() => {
-    let alive = true;
     const cached = getCached(overVol);
-    if (cached) { setShelf(cached); return; }
-    setShelf(null);
+    if (cached) { setShelf(cached); setShelfError(false); return; }
     const vol = VOLUMES.find((v) => v.id === overVol);
-    if (!vol) return;
-    loadVolume(vol).then((data) => alive && setShelf(data)).catch(() => {});
-    return () => { alive = false; };
+    // No volume under the pointer — the panel opened from the library itself,
+    // where nothing is open yet. There is no shelf to show and nothing coming,
+    // so the pane must not sit forever saying "Fetching…".
+    if (!vol) { setShelf(null); setShelfError(false); return; }
+
+    setShelf(null);
+    setShelfError(false);
+    let alive = true;
+    const timer = setTimeout(() => {
+      loadVolume(vol)
+        .then((data) => { if (alive) setShelf(data); })
+        // A shelf that cannot be fetched says so. Left silent, the pane read as
+        // a volume that was still coming and never would.
+        .catch(() => { if (alive) setShelfError(true); });
+    }, REST);
+    return () => { alive = false; clearTimeout(timer); };
   }, [overVol]);
 
   // Moving to another volume's shelf starts at its first book, unless it is the
@@ -100,7 +125,14 @@ export default function LibraryPicker({
 
         <div className="picker-pane picker-books">
           <p className="picker-head">{isDC ? "Sections" : "Books"}</p>
-          {!shelf && <p className="picker-waiting">Fetching…</p>}
+          {!shelf && shelfError && <p className="picker-waiting">Couldn’t load this volume.</p>}
+          {/* Only while something is actually coming: with no volume under the
+              pointer there is nothing to wait for, and the pane said "Fetching…"
+              for as long as the panel stayed open. */}
+          {!shelf && !shelfError && overVol && <p className="picker-waiting">Fetching…</p>}
+          {!shelf && !shelfError && !overVol && (
+            <p className="picker-waiting">Choose a volume.</p>
+          )}
           {shelf && !isDC && shelf.map((b, i) => (
             <button key={b.name} className="picker-row"
               data-on={i === overBook || undefined}

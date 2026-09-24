@@ -3,6 +3,7 @@ import { createPortal } from "react-dom";
 import { glassOverlay, ink, inkSoft, gold, blue } from "../theme.js";
 import { parseCitations, loadPassage } from "../lib/refs.js";
 import { placeCard } from "../lib/place.js";
+import { locate } from "../lib/anchor.js";
 
 // How much of the passage to show on either side of the words that answer this
 // one: enough to read the run as a sentence, not so much that the card becomes
@@ -18,10 +19,15 @@ const CONTEXT = 7;
 // and read as the wrong footnote. The notes give the run's word positions, so it
 // is found rather than searched for: positions count whitespace-separated tokens
 // after the verse number, which is how they were computed.
-function excerpt(text, words) {
+function excerpt(text, words, quote) {
   const tokens = String(text).split(/\s+/).filter(Boolean);
-  if (!words) return null;
-  const [w1, w2] = words;
+  // Where the run stands in the text this site serves. The counts were taken
+  // against the modern edition and the verses are the 1920 printing, so the
+  // quotation is what is looked for and the counts are only the hint that
+  // settles it. See lib/anchor.js.
+  const at = locate(text, quote, words || null);
+  if (!at) return null;
+  const [w1, w2] = at;
   const from = Math.max(0, w1 - 1 - CONTEXT);
   const to = Math.min(tokens.length, w2 + CONTEXT);
   return {
@@ -33,8 +39,8 @@ function excerpt(text, words) {
 
 // The verse as the card shows it: the answering run in bold, its surroundings
 // plain. A target without word positions is shown whole.
-function Excerpt({ text, words }) {
-  const w = excerpt(text, words);
+function Excerpt({ text, words, quote }) {
+  const w = excerpt(text, words, quote);
   if (!w) return text;
   return (
     <>
@@ -62,8 +68,8 @@ function useTargets(connections) {
         // A connection written without targets falls back to the passage its
         // heading names, shown whole for want of anything finer.
         const wanted = c.targets?.length
-          ? c.targets.map((t) => ({ label: t.label, words: t.words, cite: parseCitations(t.label)[0] }))
-          : parseCitations(c.source).map((cite) => ({ label: cite.label, words: null, cite }));
+          ? c.targets.map((t) => ({ label: t.label, words: t.words, quote: t.quote, cite: parseCitations(t.label)[0] }))
+          : parseCitations(c.source).map((cite) => ({ label: cite.label, words: null, quote: "", cite }));
         for (const t of wanted) {
           if (!t.cite) continue;
           const verses = await loadPassage(t.cite);
@@ -164,7 +170,7 @@ function Popup({ anchorEl, connections, hold, release, onOpenRef, popRef }) {
                     passage of one verse has already been numbered by the
                     reference at the top of the card. */}
                 {p.verses.length > 1 && <span style={{ color: gold, fontSize: 11, marginRight: 5 }}>{v.verse}</span>}
-                <Excerpt text={v.text} words={p.words} />
+                <Excerpt text={v.text} words={p.words} quote={p.quote} />
               </p>
             ))}
           </div>

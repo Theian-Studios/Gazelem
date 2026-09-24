@@ -125,9 +125,7 @@ Moroni 4–5 The sacramental prayers over bread and wine, with the covenant to a
 
 • Concentration follows the doctrinal sermons. Passages of narrative, warfare, migration, and political history in the Book of Mormon show few parallels; the density rises sharply in discourses on faith, resurrection, atonement, and the nature of God — exactly the subjects on which the New Testament epistles supply fixed English formulations.
 
-• Several parallels appear in the mouths of speakers separated by centuries. “Death swallowed up” language occurs in Abinadi (c. 148 BC), Aaron (Alma 22, c. 90 BC), and Mormon (Mormon 7). “Garments washed white in the blood of
-
-the Lamb” appears from 1 Nephi through Ether. This internal consistency is read as authorial habit on one account and as coherent prophetic vocabulary on the other.
+• Several parallels appear in the mouths of speakers separated by centuries. “Death swallowed up” language occurs in Abinadi (c. 148 BC), Aaron (Alma 22, c. 90 BC), and Mormon (Mormon 7). “Garments washed white in the blood of the Lamb” appears from 1 Nephi through Ether. This internal consistency is read as authorial habit on one account and as coherent prophetic vocabulary on the other.
 
 • The strongest single case for verbal dependence is not any one phrase but the charity passage of Moroni 7:45–47, which reproduces eleven of Paul’s thirteen attributes in Paul’s order and wording — and then adds a definition, “the pure love of Christ,” that Paul does not supply.
 

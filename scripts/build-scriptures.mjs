@@ -23,6 +23,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { VERSE_COUNTS } from "../src/data/verseCounts.js";
 import { BOOK_INDEX } from "../src/data/bookIndex.js";
+import { proofreadScriptures } from "./proofread-scriptures.mjs";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = resolve(here, "..", "public/scriptures");
@@ -34,6 +35,17 @@ const MISSING = "[not legible in the page scan]";
 const NOT_IN_EDITION = "[not in this edition]";
 
 // ---------------------------------------------------------------- helpers
+
+// The modern edition, fetched as the map of where verses belong. Checked, like
+// the Bible's own fetches are: unchecked, a 404 or an outage arrived as JSON
+// that was not JSON, and the run died several frames later on a `.books` of
+// undefined — an error that says nothing about what actually went wrong.
+async function guideEdition(file) {
+  const url = `https://cdn.jsdelivr.net/gh/bcbooks/scriptures-json@master/${file}`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`guide edition ${file}: HTTP ${res.status} from ${url}`);
+  return res.json();
+}
 const words = (s) => s.toLowerCase().replace(/[^a-z ]/g, " ").split(/\s+/).filter(Boolean);
 function similarity(a, b) {
   const A = words(a), B = words(b);
@@ -372,7 +384,7 @@ async function buildFromScan({ label, path, startRe, endRe, books, guideFile, ou
 
   // The modern edition supplies the map of where verses belong; none of its
   // wording is written out.
-  const modern = await (await fetch(`https://cdn.jsdelivr.net/gh/bcbooks/scriptures-json@master/${guideFile}`)).json();
+  const modern = await guideEdition(guideFile);
   const guide = {};
   for (const b of modern.books) {
     guide[b.book] = {};
@@ -427,7 +439,7 @@ async function buildSections({ label, path, startRe, endRe, outFile }) {
   const expected = counts.reduce((a, b) => a + b, 0);
   console.log(`  ${blocks.length} verse blocks recovered from the scan (canonical ${expected})`);
 
-  const modern = await (await fetch("https://cdn.jsdelivr.net/gh/bcbooks/scriptures-json@master/doctrine-and-covenants.json")).json();
+  const modern = await guideEdition("doctrine-and-covenants.json");
   const guide = {};
   for (const s of modern.sections) guide[s.section] = s.verses.map((v) => v.text);
   learnVocabulary(Object.values(guide).flat());
@@ -476,81 +488,141 @@ async function buildSections({ label, path, startRe, endRe, outFile }) {
 }
 
 // ---------------------------------------------------------------- main
-const args = process.argv.slice(2);
-const flag = (name) => { const i = args.indexOf(name); return i === -1 ? null : args[i + 1]; };
-const bomPath = flag("--bom") ?? (args[0] && !args[0].startsWith("--") ? args[0] : null);
-const pgpPath = flag("--pgp");
-const dcPath = flag("--dc");
-if (!bomPath) {
-  console.error("usage: npm run build:scriptures -- --bom <bom_djvu.txt> [--pgp <pgp_djvu.txt>] [--dc <dc_djvu.txt>]");
-  process.exit(1);
-}
+// Run as a command. Imported — as collate-scriptures.mjs does, to read other
+// scans exactly the way this one reads the ones it builds from — nothing below
+// happens, and the reading functions are all it offers.
+async function main() {
+  const args = process.argv.slice(2);
+  const flag = (name) => { const i = args.indexOf(name); return i === -1 ? null : args[i + 1]; };
+  const bomPath = flag("--bom") ?? (args[0] && !args[0].startsWith("--") ? args[0] : null);
+  const pgpPath = flag("--pgp");
+  const dcPath = flag("--dc");
+  if (!bomPath) {
+    console.error("usage: npm run build:scriptures -- --bom <bom_djvu.txt> [--pgp <pgp_djvu.txt>] [--dc <dc_djvu.txt>]");
+    process.exit(1);
+  }
 
-console.log("King James Version (Old and New Testament)");
-const ALIAS = { "Solomon's Song": "SongofSolomon" };
-const KJV = "https://raw.githubusercontent.com/aruljohn/Bible-kjv/master";
-const bibleNames = BOOK_INDEX.filter((b) => b.v === "ot" || b.v === "nt");
-
-const fetched = [];
-for (let i = 0; i < bibleNames.length; i += 8) {
-  fetched.push(...await Promise.all(bibleNames.slice(i, i + 8).map(async (b) => {
-    const file = (ALIAS[b.n] || b.n.replace(/\s+/g, "")) + ".json";
-    const res = await fetch(`${KJV}/${file}`);
-    if (!res.ok) throw new Error(`${b.n}: HTTP ${res.status} for ${file}`);
-    return { ...b, data: await res.json() };
-  })));
-}
-
-let bibleBad = 0;
-const byVolume = { ot: [], nt: [] };
-for (const b of fetched) {
-  const want = VERSE_COUNTS[b.n];
-  const chapters = b.data.chapters.map((ch, i) => {
-    const verses = ch.verses.map((v) => v.text.replace(/\s+/g, " ").trim());
-    if (want && want[i] !== verses.length) {
-      bibleBad++;
-      console.log(`  ! ${b.n} ${i + 1}: ${verses.length} verses, expected ${want[i]}`);
+  // Every scan named on the command line has to be there before anything is
+  // written. The Bible is fetched and written first, and a scan path that turns
+  // out to be wrong used to fail only after that — leaving public/scriptures with
+  // two volumes from this run and the rest from the last one, which is a state no
+  // single run ever produced and nothing downstream can be told about.
+  for (const [what, path] of [["--bom", bomPath], ["--pgp", pgpPath], ["--dc", dcPath]]) {
+    if (!path) continue;
+    try {
+      readFileSync(path);
+    } catch {
+      console.error(`${what}: cannot read ${path}`);
+      process.exit(1);
     }
-    return chapterOf(b.n, i + 1, verses);
-  });
-  byVolume[b.v].push({ book: b.n, chapters });
-}
-console.log(`  verse-count mismatches: ${bibleBad}`);
-writeVolume("old-testament.json", byVolume.ot);
-writeVolume("new-testament.json", byVolume.nt);
+  }
 
-const gaps = [];
-gaps.push(...await buildFromScan({
-  label: "Book of Mormon (1920 edition, page scan)",
-  path: bomPath,
-  startRe: /^\s*CHAPTER\s+1\.\s*$/,
-  endRe: /^\s*PRONOUNCING\s+VOCABULARY/,
-  books: BOM_BOOKS,
-  guideFile: "book-of-mormon.json",
-  outFile: "book-of-mormon.json",
-}));
+  console.log("King James Version (Old and New Testament)");
+  const ALIAS = { "Solomon's Song": "SongofSolomon" };
+  const KJV = "https://raw.githubusercontent.com/aruljohn/Bible-kjv/master";
+  const bibleNames = BOOK_INDEX.filter((b) => b.v === "ot" || b.v === "nt");
 
-if (pgpPath) {
+  const fetched = [];
+  for (let i = 0; i < bibleNames.length; i += 8) {
+    fetched.push(...await Promise.all(bibleNames.slice(i, i + 8).map(async (b) => {
+      const file = (ALIAS[b.n] || b.n.replace(/\s+/g, "")) + ".json";
+      const res = await fetch(`${KJV}/${file}`);
+      if (!res.ok) throw new Error(`${b.n}: HTTP ${res.status} for ${file}`);
+      return { ...b, data: await res.json() };
+    })));
+  }
+
+  let bibleBad = 0;
+  const byVolume = { ot: [], nt: [] };
+  for (const b of fetched) {
+    const want = VERSE_COUNTS[b.n];
+    const chapters = b.data.chapters.map((ch, i) => {
+      const verses = ch.verses.map((v) => v.text.replace(/\s+/g, " ").trim());
+      if (want && want[i] !== verses.length) {
+        bibleBad++;
+        console.log(`  ! ${b.n} ${i + 1}: ${verses.length} verses, expected ${want[i]}`);
+      }
+      return chapterOf(b.n, i + 1, verses);
+    });
+    byVolume[b.v].push({ book: b.n, chapters });
+  }
+  console.log(`  verse-count mismatches: ${bibleBad}`);
+  writeVolume("old-testament.json", byVolume.ot);
+  writeVolume("new-testament.json", byVolume.nt);
+
+  const gaps = [];
   gaps.push(...await buildFromScan({
-    label: "Pearl of Great Price (1902 versification, page scan)",
-    path: pgpPath,
-    startRe: /^\s*THE\s+BOOK\s+OF\s+MOSES\.\s*$/,
-    endRe: /^\s*(GAYLORD|PRINTED\s+IN\s+U\.?S\.?A)/i,
-    books: PGP_BOOKS,
-    guideFile: "pearl-of-great-price.json",
-    outFile: "pearl-of-great-price.json",
+    label: "Book of Mormon (1920 edition, page scan)",
+    path: bomPath,
+    startRe: /^\s*CHAPTER\s+1\.\s*$/,
+    endRe: /^\s*PRONOUNCING\s+VOCABULARY/,
+    books: BOM_BOOKS,
+    guideFile: "book-of-mormon.json",
+    outFile: "book-of-mormon.json",
   }));
+
+  if (pgpPath) {
+    gaps.push(...await buildFromScan({
+      label: "Pearl of Great Price (1902 versification, page scan)",
+      path: pgpPath,
+      startRe: /^\s*THE\s+BOOK\s+OF\s+MOSES\.\s*$/,
+      endRe: /^\s*(GAYLORD|PRINTED\s+IN\s+U\.?S\.?A)/i,
+      books: PGP_BOOKS,
+      guideFile: "pearl-of-great-price.json",
+      outFile: "pearl-of-great-price.json",
+    }));
+  }
+
+  if (dcPath) {
+    gaps.push(...await buildSections({
+      label: "Doctrine and Covenants (Orson Pratt versification, page scan)",
+      path: dcPath,
+      startRe: /^\s*SECTION\s+(I|1)\.\s*$/i,
+      endRe: /^\s*(INDEX|CONCORDANCE)\b/i,
+      outFile: "doctrine-and-covenants.json",
+    }));
+  }
+
+  // gaps.json speaks for every volume the site serves, but a run need only build
+  // some of them: `--bom` alone rebuilds the Book of Mormon and leaves the Pearl
+  // of Great Price and the Doctrine and Covenants exactly as the last run wrote
+  // them. Written from this run's gaps alone, the file then said those two
+  // volumes had no gaps at all, and 139 verses that read "[not legible in the
+  // page scan]" claimed to be the scan's own words. So the volumes this run did
+  // not touch keep the entries the last run gave them.
+  const volumeOfGap = (ref) => {
+    if (/^D&C\b/.test(ref)) return "dc";
+    const book = ref.replace(/\s+\d+:\d+\s*$/, "");
+    return PGP_BOOKS.includes(book) ? "pgp" : "bom";
+  };
+
+  const rebuilt = new Set(["bom", ...(pgpPath ? ["pgp"] : []), ...(dcPath ? ["dc"] : [])]);
+  let carried = [];
+  try {
+    const had = JSON.parse(readFileSync(resolve(OUT_DIR, "gaps.json"), "utf8"));
+    carried = (had.verses || []).filter((v) => !rebuilt.has(volumeOfGap(v)));
+  } catch {
+    // No previous file, or one that cannot be read: this run's gaps are all there
+    // are to say, which is right for a first build.
+  }
+
+  const allGaps = [...carried, ...gaps];
+  writeFileSync(resolve(OUT_DIR, "gaps.json"), JSON.stringify({ note: "Verses the page scans did not yield; each shows " + MISSING + " in the reader.", verses: allGaps }, null, 1));
+  console.log(
+    `\nwrote gaps.json listing ${allGaps.length} verses still to be keyed in by hand` +
+    (carried.length ? ` (${gaps.length} from this run, ${carried.length} carried from volumes it did not rebuild)` : "")
+  );
+
+  // What comes out of the scans still has verses placed a slot early, verses run
+  // together behind their numbers, and words flecked with footnote keys and
+  // misread letters. The proofreading pass puts those right and writes gaps.json
+  // again from whatever is still illegible. It runs on every build, so the
+  // corrections are made afresh from the scan rather than living only in files
+  // this script has just overwritten.
+  console.log("\nProofreading the scanned volumes");
+  await proofreadScriptures({ log: (line) => console.log("  " + line) });
 }
 
-if (dcPath) {
-  gaps.push(...await buildSections({
-    label: "Doctrine and Covenants (Orson Pratt versification, page scan)",
-    path: dcPath,
-    startRe: /^\s*SECTION\s+(I|1)\.\s*$/i,
-    endRe: /^\s*(INDEX|CONCORDANCE)\b/i,
-    outFile: "doctrine-and-covenants.json",
-  }));
-}
+if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) await main();
 
-writeFileSync(resolve(OUT_DIR, "gaps.json"), JSON.stringify({ note: "Verses the page scans did not yield; each shows " + MISSING + " in the reader.", verses: gaps }, null, 1));
-console.log(`\nwrote gaps.json listing ${gaps.length} verses still to be keyed in by hand`);
+export { classify, tidy, isHeading, unfuse, learnVocabulary };

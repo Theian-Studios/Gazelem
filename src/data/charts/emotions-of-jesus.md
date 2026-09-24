@@ -27,7 +27,7 @@ Two weepings, two different Greek verbs — a distinction most English readers n
 The vocabulary of Gethsemane — the heaviest words the Gospels possess.
 
 - Troubled in spirit | “Now is my soul troubled / troubled in spirit” // Foretelling His death; and foretelling the betrayal | ταράσσω · *tarassō* — “to stir up, agitate (as wind on water)” // *in the text:* τετάρακται / ἐταράχθη *(tetaraktai / etarachthē)* perfect passive (12:27) / aorist passive (13:21) — “is troubled / was troubled” | John 12:27 (13:21)
-- Sorrowful & distressed | “My soul is exceeding sorrowful, even unto death” // In Gethsemane — “he began to be sorrowful and very heavy” | περίλυπος + ἀδημονέω · *perilűpos + adēmoneō* — “encircled by grief + to be in anguish” // *in the text:* Περίλυπος ... ἀδημονεῖν *(Perilűpos ... adēmonein)* adjective + present infinitive — “exceeding sorrowful... to be distressed” | Matt 26:37–38 (Mk 14:33–34)
+- Sorrowful & distressed | “My soul is exceeding sorrowful, even unto death” // In Gethsemane — “he began to be sorrowful and very heavy” | περίλυπος + ἀδημονέω · *perilypos + adēmoneō* — “encircled by grief + to be in anguish” // *in the text:* Περίλυπος ... ἀδημονεῖν *(Perilypos ... adēmonein)* adjective + present infinitive — “exceeding sorrowful... to be distressed” | Matt 26:37–38 (Mk 14:33–34)
 - Agony | “Being in an agony he prayed more earnestly” // In Gethsemane — “his sweat was as it were great drops of blood” | ἀγωνία · *agōnia* — “agony — the tension of a contest (from ἀγών, an arena)” // *in the text:* ἀγωνίᾳ *(agōnia)* dative noun — “in agony, in the struggle” | Luke 22:44
 
 ## Joy, Wonder, and Desire

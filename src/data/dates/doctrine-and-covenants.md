@@ -36,7 +36,9 @@ Salt Lake City.
 | 61 | 1831 · Bank of the Missouri River, McIlwaine's Bend |
 | 62 | 1831 · Bank of the Missouri River at Chariton, Missouri |
 | 63–64 | 1831 · Kirtland, Ohio |
-| 65–69 | 1831 · Hiram, Ohio |
+| 65 | 1831 · Hiram, Ohio |
+| 66 | 1831 · Orange, Ohio |
+| 67–69 | 1831 · Hiram, Ohio |
 | 70 | 1831 · Kirtland, Ohio |
 | 71 | 1831 · Hiram, Ohio |
 | 72 | 1831 · Kirtland, Ohio |

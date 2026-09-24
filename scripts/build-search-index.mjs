@@ -18,8 +18,10 @@
 // just how many verses are listed. Deltas because the unit numbers climb, and
 // the gaps are far smaller than the numbers.
 //
-// Run it whenever the scripture files change; the output is committed.
-import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync } from "node:fs";
+// Run it whenever the scripture files change. The output is generated rather
+// than committed, and this rebuilds it only when something it is built from has
+// moved since — pass --force to rebuild regardless.
+import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync, statSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { stem, words } from "../src/lib/stem.js";
@@ -28,6 +30,48 @@ import { shardKey } from "../src/lib/searchShard.js";
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const SRC = join(root, "public", "scriptures");
 const OUT = join(root, "public", "search");
+
+// Whether the index already standing is newer than everything it is built from:
+// the scripture text, the stemmer that reads it, the sharding that files it, and
+// this script. Building takes the better part of a minute over 350,000 postings,
+// and it ran on every `npm run build` whether or not a word of scripture had
+// changed — which is also why it could not simply be added to `npm run dev`,
+// where the wait would fall on every start of the day.
+const newest = (paths) => Math.max(...paths.map((p) => {
+  try { return statSync(p).mtimeMs; } catch { return Infinity; }  // missing input: always rebuild
+}));
+
+const oldest = (paths) => Math.min(...paths.map((p) => {
+  try { return statSync(p).mtimeMs; } catch { return 0; }         // missing output: always rebuild
+}));
+
+function alreadyFresh() {
+  if (process.argv.includes("--force")) return false;
+  let outputs;
+  try {
+    outputs = [
+      join(OUT, "meta.json"),
+      ...readdirSync(join(OUT, "t")).map((f) => join(OUT, "t", f)),
+      ...readdirSync(join(OUT, "w")).map((f) => join(OUT, "w", f)),
+    ];
+  } catch {
+    return false;
+  }
+  // An index of one file is an index that did not finish being written.
+  if (outputs.length < 3) return false;
+  const inputs = [
+    ...readdirSync(SRC).map((f) => join(SRC, f)),
+    join(root, "src", "lib", "stem.js"),
+    join(root, "src", "lib", "searchShard.js"),
+    fileURLToPath(import.meta.url),
+  ];
+  return oldest(outputs) > newest(inputs);
+}
+
+if (alreadyFresh()) {
+  console.log("search     index is newer than the text it indexes — nothing to do (--force to rebuild)");
+  process.exit(0);
+}
 
 const VOLUMES = [
   { id: "ot", file: "old-testament" },

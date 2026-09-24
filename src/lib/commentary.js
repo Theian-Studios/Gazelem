@@ -20,6 +20,7 @@
 // price of opening any page of it.
 import { useEffect, useState } from "react";
 import { targetVerses } from "./refs.js";
+import { locateAnchor } from "./anchor.js";
 
 const FILES = import.meta.glob("../data/commentary/*.json", { import: "default" });
 
@@ -265,9 +266,19 @@ const keyOf = (bookName, chapterN) => `${bookKey(bookName)}-${chapterN}`;
 // leading zeros only, so it can't either. The separators inside the book name
 // are optional for the same reason: "01-1nephi-20-notes.json" and
 // "01-1-nephi-20-notes.json" name one chapter.
+//
+// The suffix is held to letters — `-notes`, and nothing else. macOS makes a
+// conflict copy of a synced file by hanging a number off the end of its name
+// ("08-alma-05-notes 2.json"), and a suffix of "anything at all" took those in
+// as ordinary chapters. Worse, they *won* — the keys below are sorted, a space
+// sorts before a dot, and the copy was therefore the one every reader of those
+// 82 chapters was served, months out of date, with no sign that anything was
+// wrong. Letters only, so a copy cannot name a chapter and cannot shadow one.
+const CHAPTER_FILE_SUFFIX = "(?:[-_][a-z]+)*";
+
 function pathFor(bookName, chapterN) {
   const loose = slug(bookName).replace(/-/g, "-?");
-  const re = new RegExp(`/(?:\\d+[-_])?${loose}-0*${chapterN}(?:[-_][^/]*)?\\.json$`);
+  const re = new RegExp(`/(?:\\d+[-_])?${loose}-0*${chapterN}${CHAPTER_FILE_SUFFIX}\\.json$`);
   return Object.keys(FILES).find((p) => re.test(p)) || null;
 }
 
@@ -399,8 +410,13 @@ export function underlinesByVerse(data, level, chapterN) {
 export function verseSegments(text, connections, underlines) {
   const byWord = new Map();
   for (const c of connections || []) {
-    if (!c.words) continue;
-    for (let i = c.words[0]; i <= c.words[1]; i++) {
+    // Where the run actually stands in the text this site serves, which is not
+    // always where the note counted it: the notes were written against the
+    // modern edition and the verses come from the 1920 printing. The quotation
+    // is what is looked for; the counts are the fallback. See lib/anchor.js.
+    const at = locateAnchor(text, c);
+    if (!at) continue;
+    for (let i = at[0]; i <= at[1]; i++) {
       if (!byWord.has(i)) byWord.set(i, []);
       byWord.get(i).push(c);
     }

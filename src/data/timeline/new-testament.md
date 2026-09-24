@@ -303,7 +303,7 @@ Chapter-by-chapter captions (2–5 words each) for the timeline band, grouped in
 |----|---------|---------|
 | 1 | Vengeance at Christ's coming | The Second Coming |
 | 2 | The falling away foretold | The Second Coming |
-| 3 | Be not weary in welldoing | The Second Coming |
+| 3 | Be not weary in well doing | The Second Coming |
 
 ## 1 Timothy
 

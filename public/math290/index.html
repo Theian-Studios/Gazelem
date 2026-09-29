@@ -4,30 +4,42 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Math 290 Practice Quizzes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
 <style>
   :root {
-    --blue: #1d4ed8;
-    --blue-dark: #1e3a8a;
-    --blue-light: #eff6ff;
-    --border: #dbeafe;
-    --text: #1e293b;
-    --muted: #64748b;
+    --blue: #0062b8;       /* BYU royal */
+    --blue-dark: #002e5d;  /* BYU navy */
+    --blue-light: #e8eef5;
+    --border: #d3dce6;
+    --text: #141414;
+    --muted: #5f6b77;
   }
   * { box-sizing: border-box; }
   body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     color: var(--text);
-    background: #fff;
+    background: #f5f7fa;
   }
   header {
-    background: linear-gradient(135deg, var(--blue-dark), var(--blue));
+    background: var(--blue-dark);
     color: #fff;
-    padding: 48px 16px 40px;
-    text-align: center;
+    border-bottom: 6px solid var(--blue);
+    padding-inline: 16px;
   }
-  header h1 { margin: 0 0 8px; font-size: 2.2rem; }
-  header p { margin: 0; opacity: 0.9; }
+  .header-inner { max-width: 1000px; margin: 0 auto; padding-block: 40px 36px; }
+  .eyebrow {
+    margin: 0 0 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #b8cde2;
+  }
+  header h1 { margin: 0 0 8px; font-size: 2.4rem; font-weight: 700; text-wrap: balance; }
+  header p { margin: 0; color: #dbe5ef; }
   main { max-width: 1000px; margin: 0 auto; padding: 32px 16px 48px; }
   .grid {
     display: grid;
@@ -36,10 +48,11 @@
   }
   .card {
     border: 1px solid var(--border);
-    border-radius: 12px;
+    border-top: 4px solid var(--blue-dark);
+    border-radius: 4px;
     padding: 20px;
     background: #fff;
-    box-shadow: 0 1px 3px rgba(29, 78, 216, 0.08);
+    box-shadow: 0 1px 3px rgba(0, 46, 93, 0.08);
   }
   .card h2 {
     margin: 0 0 16px;
@@ -48,14 +61,15 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    min-height: 36px;
   }
   .badge {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 36px; height: 36px;
-    border-radius: 50%;
-    background: var(--blue);
+    border-radius: 4px;
+    background: var(--blue-dark);
     color: #fff;
     font-weight: 700;
   }
@@ -66,7 +80,7 @@
     color: var(--blue);
     background: var(--blue-light);
     padding: 3px 8px;
-    border-radius: 999px;
+    border-radius: 4px;
   }
   .row {
     display: flex;
@@ -74,7 +88,7 @@
     justify-content: space-between;
     gap: 8px;
     padding: 10px 12px;
-    border-radius: 8px;
+    border-radius: 4px;
     background: var(--blue-light);
     margin-bottom: 8px;
   }
@@ -84,7 +98,7 @@
     font: inherit;
     font-size: 0.85rem;
     padding: 6px 12px;
-    border-radius: 6px;
+    border-radius: 4px;
     border: 1px solid var(--blue);
     cursor: pointer;
     text-decoration: none;
@@ -129,7 +143,7 @@
     gap: 6px;
     height: 36px;
     padding: 0 12px;
-    border-radius: 8px;
+    border-radius: 4px;
     border: 0;
     background: transparent;
     color: var(--blue);
@@ -154,9 +168,9 @@
     max-width: 900px;
     margin: 0 auto;
     border: 0;
-    border-radius: 10px 10px 0 0;
+    border-radius: 4px 4px 0 0;
     background: #fff;
-    box-shadow: 0 4px 24px rgba(30, 58, 138, 0.12);
+    box-shadow: 0 4px 24px rgba(0, 46, 93, 0.14);
   }
   .btn:focus-visible, .icon-btn:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
   body.viewing { overflow: hidden; }
@@ -171,15 +185,18 @@
 </head>
 <body>
 <header>
-  <h1>Math 290 Practice Quizzes</h1>
-  <p>Practice Quiz 2 &middot; Extra practice, Sections 6&ndash;11</p>
+  <div class="header-inner">
+    <p class="eyebrow">BYU &middot; Math 290</p>
+    <h1>Math 290 Practice Quizzes</h1>
+    <p>Practice Quiz 2 &middot; Extra practice, Sections 6&ndash;11</p>
+  </div>
 </header>
 
 <main>
   <div class="grid" id="grid"></div>
 </main>
 
-<footer>View a PDF in the browser or download it to keep.</footer>
+<footer>View a PDF in the browser or download it to keep.<br>Student-made study materials. Not an official BYU page.</footer>
 
 <div class="viewer" id="viewer" role="dialog" aria-modal="true" aria-labelledby="viewer-name">
   <div class="viewer-bar">

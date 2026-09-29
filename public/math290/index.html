@@ -4,32 +4,79 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Math 290 Quiz 2 Prep</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%23002e5d'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Arial' font-weight='700' font-size='14' fill='%23fff'%3E290%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<script>
+  // Apply a saved theme before first paint (shared with the review page).
+  try { const t = localStorage.getItem("m290-theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+</script>
 <style>
   :root {
-    --blue: #0062b8;       /* BYU royal */
-    --blue-dark: #002e5d;  /* BYU navy */
-    --blue-light: #e8eef5;
+    --navy: #002e5d;        /* BYU navy: header */
+    --royal: #0062b8;       /* BYU royal: buttons, stripe */
+    --bg: #f5f7fa;
+    --surface: #ffffff;
+    --tint: #e8eef5;
     --border: #d3dce6;
     --text: #141414;
+    --heading: #002e5d;
+    --link: #0062b8;
     --muted: #5f6b77;
+    --card-top: #002e5d;
+    --shadow: rgba(0, 46, 93, 0.08);
   }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --navy: #001b37;
+      --bg: #0a1929;
+      --surface: #10243a;
+      --tint: #15304e;
+      --border: #213d5c;
+      --text: #e6edf5;
+      --heading: #e6edf5;
+      --link: #7fb3ea;
+      --muted: #9fb2c6;
+      --card-top: #0062b8;
+      --shadow: rgba(0, 0, 0, 0.3);
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --navy: #001b37;
+    --bg: #0a1929;
+    --surface: #10243a;
+    --tint: #15304e;
+    --border: #213d5c;
+    --text: #e6edf5;
+    --heading: #e6edf5;
+    --link: #7fb3ea;
+    --muted: #9fb2c6;
+    --card-top: #0062b8;
+    --shadow: rgba(0, 0, 0, 0.3);
+    color-scheme: dark;
+  }
+
   * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
   body {
     margin: 0;
     font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     color: var(--text);
-    background: #f5f7fa;
+    background: var(--bg);
   }
+  :focus-visible { outline: 2px solid var(--royal); outline-offset: 2px; }
+
+  /* Header and site nav (same bar as the review page) */
   header {
-    background: var(--blue-dark);
+    background: var(--navy);
     color: #fff;
-    border-bottom: 6px solid var(--blue);
+    border-bottom: 6px solid var(--royal);
     padding-inline: 16px;
   }
-  .header-inner { max-width: 1000px; margin: 0 auto; padding-block: 16px 36px; }
+  .header-inner { max-width: 1000px; margin: 0 auto; padding-block: 12px 36px; }
   .site-nav {
     display: flex;
     align-items: center;
@@ -42,53 +89,67 @@
     text-transform: uppercase;
   }
   .site-nav .brand { color: #b8cde2; margin-right: auto; }
-  .site-nav a { color: #fff; text-decoration: none; padding-block: 4px; border-bottom: 2px solid transparent; }
+  .site-nav a { color: #fff; text-decoration: none; padding-block: 6px; border-bottom: 2px solid transparent; }
   .site-nav a:hover { border-bottom-color: #fff; }
-  header h1 { margin: 0 0 8px; font-size: 2.4rem; font-weight: 700; text-wrap: balance; }
-  header p { margin: 0; color: #dbe5ef; }
-  main { max-width: 1000px; margin: 0 auto; padding: 32px 16px 48px; }
-  .section + .section { margin-top: 48px; }
-  .section-title {
-    margin: 0 0 4px;
-    font-size: 1.5rem;
-    color: var(--blue-dark);
+  .theme-btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 32px; height: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 4px;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
   }
+  .theme-btn:hover { background: rgba(255, 255, 255, 0.12); }
+  .theme-btn svg { width: 16px; height: 16px; }
+  header h1 { margin: 0 0 8px; font-size: 2.4rem; font-weight: 700; line-height: 1.15; text-wrap: balance; }
+  header p { margin: 0; color: #dbe5ef; }
+
+  main { max-width: 1000px; margin: 0 auto; padding: 32px 16px 48px; }
+  .section { scroll-margin-top: 16px; }
+  .section + .section { margin-top: 48px; }
+  .section-title { margin: 0 0 4px; font-size: 1.5rem; color: var(--heading); }
   .section-lede { margin: 0 0 20px; color: var(--muted); }
+
+  /* Review feature card */
   .review-card {
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: center;
     gap: 16px 32px;
     padding: 24px;
-    background: #fff;
+    background: var(--surface);
     border: 1px solid var(--border);
-    border-left: 6px solid var(--blue);
+    border-left: 6px solid var(--royal);
     border-radius: 4px;
-    box-shadow: 0 1px 3px rgba(0, 46, 93, 0.08);
-    color: inherit;
-    text-decoration: none;
+    box-shadow: 0 1px 3px var(--shadow);
   }
-  .review-card:hover { border-color: var(--blue); }
-  .review-card:hover .review-go { background: var(--blue-dark); }
-  .review-card h3 { margin: 0 0 4px; font-size: 1.25rem; color: var(--blue-dark); }
+  .review-card h3 { margin: 0 0 4px; font-size: 1.25rem; color: var(--heading); }
   .review-card p { margin: 0 0 14px; color: var(--muted); font-size: 0.95rem; }
   .topics { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
-  .topics li {
+  .topics a {
+    display: block;
     font-size: 0.8rem;
     font-weight: 500;
     padding: 3px 8px;
     border-radius: 4px;
-    background: var(--blue-light);
-    color: var(--blue-dark);
+    background: var(--tint);
+    color: var(--heading);
+    text-decoration: none;
   }
+  .topics a:hover { background: var(--royal); color: #fff; }
   .review-go {
     padding: 10px 18px;
     border-radius: 4px;
-    background: var(--blue);
+    background: var(--royal);
     color: #fff;
     font-weight: 600;
     white-space: nowrap;
+    text-decoration: none;
   }
+  .review-go:hover { background: var(--navy); }
+
+  /* Quiz cards */
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -96,20 +157,29 @@
   }
   .card {
     border: 1px solid var(--border);
-    border-top: 4px solid var(--blue-dark);
+    border-top: 4px solid var(--card-top);
     border-radius: 4px;
     padding: 20px;
-    background: #fff;
-    box-shadow: 0 1px 3px rgba(0, 46, 93, 0.08);
+    background: var(--surface);
+    box-shadow: 0 1px 3px var(--shadow);
   }
   .card h3 {
     margin: 0 0 16px;
+    min-height: 36px;
     font-size: 1.25rem;
-    color: var(--blue-dark);
+    color: var(--heading);
     display: flex;
     align-items: center;
     gap: 10px;
-    min-height: 36px;
+  }
+  .card h3 small {
+    margin-left: auto;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--link);
+    background: var(--tint);
+    padding: 3px 8px;
+    border-radius: 4px;
   }
   .badge {
     display: inline-flex;
@@ -117,18 +187,9 @@
     justify-content: center;
     width: 36px; height: 36px;
     border-radius: 4px;
-    background: var(--blue-dark);
+    background: var(--card-top);
     color: #fff;
     font-weight: 700;
-  }
-  .card h3 small {
-    margin-left: auto;
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: var(--blue);
-    background: var(--blue-light);
-    padding: 3px 8px;
-    border-radius: 4px;
   }
   .row {
     display: flex;
@@ -137,9 +198,9 @@
     gap: 8px;
     padding: 10px 12px;
     border-radius: 4px;
-    background: var(--blue-light);
-    margin-bottom: 8px;
+    background: var(--tint);
   }
+  .row + .row { margin-top: 8px; }
   .row span { font-weight: 600; }
   .btns { display: flex; gap: 6px; }
   .btn {
@@ -147,14 +208,14 @@
     font-size: 0.85rem;
     padding: 6px 12px;
     border-radius: 4px;
-    border: 1px solid var(--blue);
+    border: 1px solid var(--royal);
     cursor: pointer;
     text-decoration: none;
   }
-  .btn.view { background: var(--blue); color: #fff; }
-  .btn.view:hover { background: var(--blue-dark); }
-  .btn.dl { background: #fff; color: var(--blue); }
-  .btn.dl:hover { background: var(--blue-light); }
+  .btn.view { background: var(--royal); color: #fff; }
+  .btn.view:hover { background: var(--navy); border-color: var(--navy); }
+  .btn.dl { background: var(--surface); color: var(--link); }
+  .btn.dl:hover { background: var(--tint); }
 
   /* PDF viewer */
   .viewer {
@@ -162,7 +223,7 @@
     z-index: 10;
     display: flex;
     flex-direction: column;
-    background: #f1f5f9;
+    background: var(--bg);
     opacity: 0;
     visibility: hidden;
     transition: opacity .18s ease, visibility .18s;
@@ -174,17 +235,35 @@
     gap: 12px;
     padding: 12px 16px;
     padding-top: calc(12px + env(safe-area-inset-top, 0px));
-    background: #fff;
+    background: var(--surface);
     border-bottom: 1px solid var(--border);
   }
   .viewer-title { flex: 1; min-width: 0; }
   .viewer-title strong {
     display: block;
-    color: var(--blue-dark);
+    color: var(--heading);
     font-size: 1rem;
     overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
   }
   .viewer-title span { font-size: 0.8rem; color: var(--muted); }
+  .switch {
+    display: inline-flex;
+    padding: 3px;
+    border-radius: 4px;
+    background: var(--tint);
+  }
+  .switch button {
+    font: inherit;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 5px 12px;
+    border: 0;
+    border-radius: 3px;
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .switch button[aria-pressed="true"] { background: var(--surface); color: var(--heading); box-shadow: 0 1px 2px var(--shadow); }
   .icon-btn {
     display: inline-flex;
     align-items: center;
@@ -194,22 +273,17 @@
     border-radius: 4px;
     border: 0;
     background: transparent;
-    color: var(--blue);
+    color: var(--link);
     font: inherit;
     font-size: 0.9rem;
     font-weight: 600;
     text-decoration: none;
     cursor: pointer;
   }
-  .icon-btn:hover { background: var(--blue-light); }
+  .icon-btn:hover { background: var(--tint); }
   .icon-btn svg { width: 18px; height: 18px; }
   .icon-btn.close { color: var(--muted); padding: 0 8px; }
-  .viewer-page {
-    flex: 1;
-    display: flex;
-    padding: 20px 16px 0;
-    min-height: 0;
-  }
+  .viewer-page { flex: 1; display: flex; padding: 20px 16px 0; min-height: 0; }
   .viewer iframe {
     flex: 1;
     width: 100%;
@@ -218,28 +292,30 @@
     border: 0;
     border-radius: 4px 4px 0 0;
     background: #fff;
-    box-shadow: 0 4px 24px rgba(0, 46, 93, 0.14);
+    box-shadow: 0 4px 24px var(--shadow);
   }
-  .btn:focus-visible, .icon-btn:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
   body.viewing { overflow: hidden; }
 
-  footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding: 0 16px 32px; }
+  footer { text-align: center; color: var(--muted); font-size: 0.85rem; line-height: 1.6; padding: 0 16px 32px; }
+
   @media (max-width: 600px) {
-    .review-card { grid-template-columns: 1fr; }
+    .site-nav { margin-bottom: 24px; }
+    .site-nav .brand { flex-basis: 100%; }
+    .site-nav .theme-btn { margin-left: auto; }
+    header h1 { font-size: 2rem; }
+    .review-card { grid-template-columns: 1fr; padding: 20px; }
     .review-go { justify-self: start; }
-    .icon-btn .label { display: none; }
-    .viewer-page { padding: 0; }
-    .viewer iframe { border-radius: 0; box-shadow: none; }
   }
 </style>
 </head>
 <body>
 <header>
   <div class="header-inner">
-    <nav class="site-nav">
+    <nav class="site-nav" aria-label="Site">
       <span class="brand">BYU &middot; Math 290</span>
       <a href="#review">Review</a>
       <a href="#quizzes">Practice quizzes</a>
+      <button class="theme-btn" id="theme" type="button" aria-label="Switch theme"></button>
     </nav>
     <h1>Math 290 Quiz 2 Prep</h1>
     <p>Review and practice for Sections 6&ndash;11</p>
@@ -249,22 +325,24 @@
 <main>
   <section class="section" id="review">
     <h2 class="section-title">Review</h2>
-    <p class="section-lede">Every proof technique from Sections 6&ndash;11 on one page, with templates, common mistakes and flashcards.</p>
-    <a class="review-card" href="Math290_Ch6-11_Review.html">
+    <p class="section-lede">Every proof technique from Sections 6&ndash;11 on one page, with templates, common mistakes and flashcards. Jump straight to a topic:</p>
+    <div class="review-card">
       <div>
         <h3>Proof Techniques Review</h3>
         <p>Doud &amp; Nielsen, <i>A Transition to Advanced Mathematics</i></p>
         <ul class="topics">
-          <li>&sect;6 Direct</li>
-          <li>&sect;7 Contrapositive</li>
-          <li>&sect;8 Cases</li>
-          <li>&sect;9 Contradiction</li>
-          <li>&sect;10 Sets</li>
-          <li>&sect;11 Existence</li>
+          <li><a href="Math290_Ch6-11_Review.html#s6">&sect;6 Direct</a></li>
+          <li><a href="Math290_Ch6-11_Review.html#s7">&sect;7 Contrapositive</a></li>
+          <li><a href="Math290_Ch6-11_Review.html#s8">&sect;8 Cases</a></li>
+          <li><a href="Math290_Ch6-11_Review.html#s9">&sect;9 Contradiction</a></li>
+          <li><a href="Math290_Ch6-11_Review.html#s10">&sect;10 Sets</a></li>
+          <li><a href="Math290_Ch6-11_Review.html#s11">&sect;11 Existence</a></li>
+          <li><a href="Math290_Ch6-11_Review.html#mistakes">Common mistakes</a></li>
+          <li><a href="Math290_Ch6-11_Review.html#cards">Flashcards</a></li>
         </ul>
       </div>
-      <span class="review-go">Open review &rarr;</span>
-    </a>
+      <a class="review-go" href="Math290_Ch6-11_Review.html">Open review &rarr;</a>
+    </div>
   </section>
 
   <section class="section" id="quizzes">
@@ -276,17 +354,21 @@
 
 <footer>View a PDF in the browser or download it to keep.<br>Student-made study materials. Not an official BYU page.</footer>
 
-<div class="viewer" id="viewer" role="dialog" aria-modal="true" aria-labelledby="viewer-name">
+<div class="viewer" id="viewer" role="dialog" aria-modal="true" aria-labelledby="viewer-name" aria-hidden="true">
   <div class="viewer-bar">
     <div class="viewer-title">
       <strong id="viewer-name"></strong>
       <span>Math 290 &middot; Practice Quiz 2</span>
     </div>
+    <div class="switch" role="group" aria-label="Show">
+      <button type="button" data-kind="quiz">Quiz</button>
+      <button type="button" data-kind="solutions">Solutions</button>
+    </div>
     <a class="icon-btn" id="viewer-dl" download>
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg>
       <span class="label">Download</span>
     </a>
-    <button class="icon-btn close" id="viewer-close" aria-label="Close">
+    <button class="icon-btn close" id="viewer-close" type="button" aria-label="Close">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
     </button>
   </div>
@@ -300,51 +382,95 @@
     { name: "Original", base: "Math290_PracticeQuiz2_ORIGINAL_from_Canvas", note: "From Canvas" },
     ...["A", "B", "C", "D", "E", "F", "G"].map(v => ({ badge: v, name: `Version ${v}`, base: `Math290_PracticeQuiz2_Version${v}` }))
   ];
-  const grid = document.getElementById("grid");
+  const fileFor = (v, kind) => v.base + (kind === "solutions" ? "_Solutions.pdf" : ".pdf");
 
-  function row(label, file, title) {
+  function row(i, kind, label) {
+    const v = versions[i];
     return `
       <div class="row">
         <span>${label}</span>
         <div class="btns">
-          <button class="btn view" data-file="${file}" data-title="${title}">View</button>
-          <a class="btn dl" href="${file}" download>Download</a>
+          <button class="btn view" type="button" data-i="${i}" data-kind="${kind}" aria-label="View ${v.name} ${label.toLowerCase()}">View</button>
+          <a class="btn dl" href="${fileFor(v, kind)}" download aria-label="Download ${v.name} ${label.toLowerCase()}">Download</a>
         </div>
       </div>`;
   }
 
-  grid.innerHTML = versions.map(v => `
+  const grid = document.getElementById("grid");
+  grid.innerHTML = versions.map((v, i) => `
       <div class="card">
-        <h3>${v.badge ? `<span class="badge">${v.badge}</span> ` : ""}${v.name}${v.note ? `<small>${v.note}</small>` : ""}</h3>
-        ${row("Quiz", v.base + ".pdf", `${v.name} — Quiz`)}
-        ${row("Solutions", v.base + "_Solutions.pdf", `${v.name} — Solutions`)}
+        <h3>${v.badge ? `<span class="badge">${v.badge}</span>` : ""}${v.name}${v.note ? `<small>${v.note}</small>` : ""}</h3>
+        ${row(i, "quiz", "Quiz")}
+        ${row(i, "solutions", "Solutions")}
       </div>`).join("");
 
+  // Theme toggle, shared with the review page through localStorage.
+  const root = document.documentElement;
+  const themeBtn = document.getElementById("theme");
+  const sun = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>';
+  const moon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>';
+  const isDark = () => {
+    const t = root.getAttribute("data-theme");
+    return t ? t === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  };
+  function paintThemeBtn() {
+    themeBtn.innerHTML = isDark() ? sun : moon;
+    themeBtn.setAttribute("aria-label", isDark() ? "Switch to light theme" : "Switch to dark theme");
+  }
+  themeBtn.addEventListener("click", () => {
+    const next = isDark() ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("m290-theme", next); } catch (e) {}
+    paintThemeBtn();
+  });
+  paintThemeBtn();
+
+  // PDF viewer
   const viewer = document.getElementById("viewer");
   const frame = document.getElementById("viewer-frame");
+  const switchBtns = viewer.querySelectorAll(".switch button");
+  let current = null;   // { i, kind }
+  let opener = null;
+
+  function show(i, kind) {
+    current = { i, kind };
+    const v = versions[i];
+    const file = fileFor(v, kind);
+    // Hide the browser's own PDF toolbar; the bar above already has Download.
+    frame.src = file + "#toolbar=0&navpanes=0&view=FitH";
+    document.getElementById("viewer-name").textContent = v.name;
+    document.getElementById("viewer-dl").href = file;
+    switchBtns.forEach(b => b.setAttribute("aria-pressed", String(b.dataset.kind === kind)));
+  }
 
   grid.addEventListener("click", e => {
     const btn = e.target.closest(".btn.view");
     if (!btn) return;
+    const i = Number(btn.dataset.i), kind = btn.dataset.kind;
     // Phones can't show a PDF inside the page well, so open it directly.
-    if (window.matchMedia("(max-width: 600px)").matches) {
-      window.location.href = btn.dataset.file;
+    if (matchMedia("(max-width: 600px)").matches) {
+      location.href = fileFor(versions[i], kind);
       return;
     }
-    // Hide the browser's own PDF toolbar; the bar above already has Download.
-    frame.src = btn.dataset.file + "#toolbar=0&navpanes=0&view=FitH";
-    document.getElementById("viewer-name").textContent = btn.dataset.title;
-    document.getElementById("viewer-dl").href = btn.dataset.file;
+    opener = btn;
+    show(i, kind);
     viewer.classList.add("open");
+    viewer.setAttribute("aria-hidden", "false");
     document.body.classList.add("viewing");
     document.getElementById("viewer-close").focus();
   });
 
+  switchBtns.forEach(b => b.addEventListener("click", () => {
+    if (current && b.dataset.kind !== current.kind) show(current.i, b.dataset.kind);
+  }));
+
   function closeViewer() {
     if (!viewer.classList.contains("open")) return;
     viewer.classList.remove("open");
+    viewer.setAttribute("aria-hidden", "true");
     document.body.classList.remove("viewing");
     frame.src = "about:blank";
+    if (opener) opener.focus();
   }
   document.getElementById("viewer-close").addEventListener("click", closeViewer);
   document.addEventListener("keydown", e => { if (e.key === "Escape") closeViewer(); });

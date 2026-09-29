@@ -559,7 +559,7 @@ document.addEventListener("DOMContentLoaded",function(){
     renderMathInElement(document.body,{delimiters:[{left:"\\[",right:"\\]",display:true},{left:"\\(",right:"\\)",display:false}],throwOnError:false});
   }
   // Rendering math changes the page height, so redo any #section jump.
-  if(location.hash){var target=document.getElementById(location.hash.slice(1)); if(target) target.scrollIntoView();}
+  if(location.hash){var target=document.getElementById(location.hash.slice(1)); if(target) target.scrollIntoView({behavior:"instant"});}
 
   // Theme toggle, shared with the home page through localStorage.
   var root=document.documentElement, themeBtn=document.getElementById("theme");
@@ -629,7 +629,7 @@ document.addEventListener("DOMContentLoaded",function(){
       var on=a.getAttribute("href")==="#"+e.target.id;
       a.classList.toggle("active",on);
       if(on && a.parentNode===chipBar && getComputedStyle(chipBar).display!=="none"){
-        chipBar.scrollTo({left:a.offsetLeft-16,behavior:"smooth"});
+        chipBar.scrollLeft=a.offsetLeft-16; // instant: a smooth scroll here would cancel the page's own smooth scroll
       }
     });
   });},{rootMargin:"-30% 0px -60% 0px"});

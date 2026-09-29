@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Math 290 Proof Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"></script>
+<style>
+:root{
+  --bg:#f5f7fa; --panel:#ffffff; --ink:#141414; --muted:#5f6b77; --line:#d3dce6;
+  --accent:#0062b8; --accent-soft:#e8eef5;
+  --navy:#002e5d;
+  --warn:#a3361f; --warn-soft:#fbece8;
+  --ok:#1f7a4d; --ok-soft:#e7f5ee;
+  --tip:#7a5a00; --tip-soft:#fbf3dc;
+  --code:#eef2f7;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0a1929; --panel:#10243a; --ink:#e6edf5; --muted:#9fb2c6; --line:#213d5c;
+    --accent:#7fb3ea; --accent-soft:#15304e;
+    --navy:#001b37; color-scheme:dark;
+    --warn:#f08a73; --warn-soft:#3a221d;
+    --ok:#6fd3a0; --ok-soft:#1b3127;
+    --tip:#e8c35c; --tip-soft:#352d17;
+    --code:#152a42;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0a1929; --panel:#10243a; --ink:#e6edf5; --muted:#9fb2c6; --line:#213d5c;
+  --accent:#7fb3ea; --accent-soft:#15304e;
+  --navy:#001b37; color-scheme:dark;
+  --warn:#f08a73; --warn-soft:#3a221d;
+  --ok:#6fd3a0; --ok-soft:#1b3127;
+  --tip:#e8c35c; --tip-soft:#352d17;
+  --code:#152a42;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+a{color:var(--accent)}
+.wrap{display:grid;grid-template-columns:260px minmax(0,1fr);max-width:1180px;margin:0 auto}
+nav.side{position:sticky;top:0;height:100vh;overflow:auto;padding:28px 18px;border-right:1px solid var(--line);font-size:14px}
+nav.side h1{font-size:17px;margin:0 0 4px}
+nav.side .sub{color:var(--muted);font-size:12.5px;margin-bottom:16px}
+nav.side a{display:block;text-decoration:none;color:var(--ink);padding:5px 8px;border-radius:4px}
+nav.side a:hover,nav.side a.active{background:var(--accent-soft);color:var(--accent)}
+nav.side .grp{margin-top:14px;color:var(--muted);font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;padding-left:8px}
+.tools{display:flex;gap:6px;margin:14px 0 6px}
+.tools button{white-space:nowrap;padding:5px 7px;font-size:12.5px;flex:1}
+.tools button,.btn{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:4px;padding:5px 9px;cursor:pointer}
+.tools button:hover,.btn:hover{border-color:var(--accent)}
+#q{width:100%;font:inherit;font-size:14px;padding:7px 9px;border:1px solid var(--line);border-radius:4px;background:var(--panel);color:var(--ink)}
+main{padding:32px 44px 80px;min-width:0}
+header.top h1{font-size:34px;line-height:1.15;margin:0 0 6px}
+header.top p{color:var(--muted);margin:0 0 8px}
+section{margin-top:44px}
+section>h2{font-size:26px;margin:0 0 4px;border-bottom:2px solid var(--accent);padding-bottom:6px;color:var(--ink)}
+section>h2 .ch{font-size:13px;color:var(--accent);background:var(--accent-soft);padding:2px 8px;border-radius:4px;vertical-align:middle;margin-right:8px}
+h3{font-size:19px;margin:26px 0 8px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:14px 18px;margin:12px 0}
+.def{border-left:4px solid var(--accent)}
+.def b.t{color:var(--accent)}
+.warn{background:var(--warn-soft);border:1px solid transparent;border-left:4px solid var(--warn)}
+.warn>.lbl{color:var(--warn)}
+.tip{background:var(--tip-soft);border-left:4px solid var(--tip)}
+.tip>.lbl{color:var(--tip)}
+.ok{background:var(--ok-soft);border-left:4px solid var(--ok)}
+.ok>.lbl{color:var(--ok)}
+.lbl{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:4px}
+.template{background:var(--code);border-radius:4px;padding:12px 16px;margin:10px 0;font-size:15px}
+.template .step{display:block;padding-left:1.2em;text-indent:-1.2em}
+.template .fill{color:var(--muted);font-style:italic}
+.mistakes{list-style:none;padding:0;margin:0}
+.mistakes li{padding:10px 0;border-bottom:1px dashed var(--line)}
+.mistakes li:last-child{border-bottom:0}
+.mistakes .bad{color:var(--warn);font-weight:600}
+.mistakes .fix{color:var(--ok);font-weight:600}
+table{border-collapse:collapse;width:100%;font-size:15px;margin:10px 0}
+th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+th{background:var(--code);font-size:13px}
+.tablewrap{overflow-x:auto}
+details{background:var(--panel);border:1px solid var(--line);border-radius:4px;margin:8px 0;padding:0 14px}
+details summary{cursor:pointer;padding:10px 0;font-weight:600;list-style-position:inside}
+details[open] summary{border-bottom:1px solid var(--line);margin-bottom:8px}
+details .a{padding-bottom:12px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:12px 0}
+.grid2 .card{margin:0}
+.pill{display:inline-block;font-size:12px;border:1px solid var(--line);border-radius:4px;padding:1px 8px;color:var(--muted)}
+.hidden{display:none!important}
+.mobile-nav{display:none}
+@media (max-width:860px){
+  .wrap{display:block}
+  nav.side{display:none}
+  .mobile-nav{display:flex;gap:6px;overflow-x:auto;padding:10px 16px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:5;font-size:13px}
+  .mobile-nav a{white-space:nowrap;text-decoration:none;border:1px solid var(--line);border-radius:4px;padding:3px 10px;color:var(--ink)}
+  main{padding:20px 16px 60px}
+  header.top h1{font-size:26px}
+  .grid2{grid-template-columns:1fr}
+}
+@media print{
+  nav.side,.mobile-nav,.tools,#q{display:none!important}
+  .wrap{display:block}
+  details{border:0;padding:0} details>*{display:block}
+  details summary{list-style:none}
+  section{break-inside:avoid-page}
+}
+.site-bar{background:var(--navy);color:#fff;border-bottom:6px solid #0062b8;padding:0 16px}
+.site-bar nav{max-width:1180px;margin:0 auto;display:flex;align-items:center;flex-wrap:wrap;gap:4px 20px;padding:14px 0;font-size:.8rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase}
+.site-bar .brand{color:#b8cde2;margin-right:auto;text-decoration:none}
+.site-bar a{color:#fff;text-decoration:none;padding:4px 0;border-bottom:2px solid transparent}
+.site-bar a:hover,.site-bar a[aria-current]{border-bottom-color:#fff}
+nav.side a.back{margin-top:18px;padding-top:14px;border-radius:0;border-top:1px solid var(--line);font-size:13px}
+p.big{font-size:17.5px;margin:6px 0 10px;padding:10px 14px;background:var(--accent-soft);border-radius:4px}
+ul.terms{margin:8px 0 12px;padding-left:1.2em}
+ul.terms li{margin:4px 0}
+section h3{margin-top:22px}
+</style>
+</head>
+<body>
+<header class="site-bar">
+  <nav>
+    <a class="brand" href="index.html">BYU &middot; Math 290</a>
+    <a href="index.html#review" aria-current="page">Review</a>
+    <a href="index.html#quizzes">Practice quizzes</a>
+  </nav>
+</header>
+<div class="mobile-nav">
+  <a href="#overview">Overview</a><a href="#choose">Choose</a><a href="#logic">Logic</a><a href="#just">Justifications</a><a href="#facts">Facts</a><a href="#quizmap">Quiz</a><a href="#mistakes">Mistakes</a><a href="#s6">6</a><a href="#s7">7</a><a href="#s8">8</a><a href="#s9">9</a><a href="#s10">10</a><a href="#s11">11</a><a href="#cards">Self-check</a>
+</div>
+<div class="wrap">
+<nav class="side">
+  <h1>Math 290 Review</h1>
+  <div class="sub">Doud &amp; Nielsen, Sections 6–11</div>
+  <input id="q" type="search" placeholder="Filter (e.g. congruence)">
+  <div class="tools">
+    <button id="openAll">Open all</button><button id="closeAll">Close all</button><button id="theme">Theme</button>
+  </div>
+  <div class="grp">Big picture</div>
+  <a href="#overview">Overview</a>
+  <a href="#choose">Which technique?</a>
+  <a href="#logic">Logic toolkit</a>
+  <a href="#just">Justification vocabulary</a>
+  <a href="#facts">Facts &amp; counterexamples</a>
+  <a href="#quizmap">Quiz format</a>
+  <a href="#mistakes">Common mistakes</a>
+  <div class="grp">Section summaries</div>
+  <a href="#s6">6 · Direct proofs</a>
+  <a href="#s7">7 · Contrapositive</a>
+  <a href="#s8">8 · Proof by cases</a>
+  <a href="#s9">9 · Contradiction</a>
+  <a href="#s10">10 · Set proofs</a>
+  <a href="#s11">11 · Existence &amp; counterexamples</a>
+  <div class="grp">Practice</div>
+  <a href="#cards">Self-check flashcards</a>
+  <a class="back" href="index.html#quizzes">&larr; Practice quizzes &amp; solutions</a>
+</nav>
+
+<main>
+<header class="top">
+  <h1>Proof Techniques Review: Sections 6–11</h1>
+  <p>Based on <i>A Transition to Advanced Mathematics</i> (Doud &amp; Nielsen) for BYU Math 290.</p>
+  <span class="pill">Convention: \(\mathbb{N}=\{1,2,3,\dots\}\)</span>
+</header>
+
+<!-- ============ OVERVIEW ============ -->
+<section id="overview" data-s>
+  <h2>Overview</h2>
+  <p>Sections 6–11 are about <b>how to write a proof</b>. Almost every statement you'll prove is a “for all” implication (\(\forall x,\ P(x)\Rightarrow Q(x)\)), a set relationship, or a “there exists” claim. Each section adds one tool:</p>
+  <div class="tablewrap"><table>
+    <tr><th>§</th><th>Tool</th><th>Idea in one line</th><th>Signal</th></tr>
+    <tr><td>6</td><td><a href="#s6">Direct proof</a></td><td>Assume \(P\), show \(Q\).</td><td>The premise is easy to unpack.</td></tr>
+    <tr><td>7</td><td><a href="#s7">Contrapositive</a></td><td>Assume “not \(Q\),” show “not \(P\).”</td><td>The conclusion's negation is easier to use.</td></tr>
+    <tr><td>8</td><td><a href="#s8">Cases</a></td><td>Split into possibilities that cover everything.</td><td>Even/odd, remainders mod \(n\), absolute values, “or.”</td></tr>
+    <tr><td>9</td><td><a href="#s9">Contradiction</a></td><td>Assume the claim is false; reach something impossible.</td><td>“Irrational,” “no…,” “\(\ne\),” “does not divide.”</td></tr>
+    <tr><td>10</td><td><a href="#s10">Set proofs</a></td><td>Take an arbitrary element and chase it.</td><td>\(\in\), \(\subseteq\), \(=\) between sets.</td></tr>
+    <tr><td>11</td><td><a href="#s11">Existence / counterexample</a></td><td>One example proves “there exists” or kills a “for all.”</td><td>“There exists,” “prove or disprove,” “unique.”</td></tr>
+  </table></div>
+  <p><b>How to use this page:</b> skim the tables in this top half first, read <a href="#mistakes">Common mistakes</a> before a quiz, and use the section summaries and <a href="#cards">flashcards</a> to check yourself. The filter box on the left narrows everything to a keyword.</p>
+  <h3>A workflow for any proof</h3>
+  <div class="template">
+    <span class="step"><b>1.</b> Rewrite the claim in logic: what are the quantifiers, the premise, the conclusion?</span>
+    <span class="step"><b>2.</b> Decide if it's true (try small examples). If false, find a counterexample.</span>
+    <span class="step"><b>3.</b> Pick a technique (<a href="#choose">table below</a>) and say it: “We work directly / contrapositively / by contradiction.”</span>
+    <span class="step"><b>4.</b> Unpack every definition (even, odd, divides, congruent, \(\in\)) into an equation with a <i>new letter</i>.</span>
+    <span class="step"><b>5.</b> Don't solve for a variable by dividing (the result may not be an integer). Rearrange and factor toward the form the definition needs: \(2(\cdot)\), \(2(\cdot)+1\), \(n(\cdot)\).</span>
+    <span class="step"><b>6.</b> Conclude by naming why: “Since \(2k^2+1\in\mathbb{Z}\), \(n^2-2n+3=2(2k^2+1)\) is even.” \(\square\)</span>
+  </div>
+</section>
+
+<!-- ============ CHOOSE ============ -->
+<section id="choose" data-s>
+  <h2>Which technique should I use?</h2>
+  <div class="tablewrap"><table>
+    <tr><th>If the statement looks like…</th><th>Try first</th><th>Why</th></tr>
+    <tr><td>\(\forall x,\ P(x)\Rightarrow Q(x)\) with a premise you can unpack (e.g. “\(x\) is odd”)</td><td><a href="#s6">Direct</a></td><td>Assume \(P\), work toward \(Q\).</td></tr>
+    <tr><td>The premise is awkward but the conclusion's negation is easy (e.g. “if \(3x-7\) is even, then \(x\) is odd”)</td><td><a href="#s7">Contrapositive</a></td><td>Start from the side with the “best information” (Advice 7.5).</td></tr>
+    <tr><td>“\(P\) if and only if \(Q\)”</td><td><a href="#s7">Two directions</a></td><td>Prove \((\Rightarrow)\) and \((\Leftarrow)\) separately.</td></tr>
+    <tr><td>Parity, remainders, absolute values, “or” in the hypothesis</td><td><a href="#s8">Cases</a></td><td>Exhaustive cases: even/odd; \(3k,3k+1,3k+2\); \(x\ge0/x&lt;0\).</td></tr>
+    <tr><td>“Irrational,” “there is no…,” “\(\ne\),” “does not divide”</td><td><a href="#s9">Contradiction</a></td><td>Negating turns the negative condition into a usable positive one.</td></tr>
+    <tr><td>\(x\in A\), \(A\subseteq B\), \(A=B\)</td><td><a href="#s10">Element chasing</a></td><td>Arbitrary \(x\) in the left set; for \(=\), both inclusions.</td></tr>
+    <tr><td>“There exists…”</td><td><a href="#s11">Example</a></td><td>“Fix \(x=\dots\)”: one example is a full proof.</td></tr>
+    <tr><td>“Prove or disprove” a false “for all” claim</td><td><a href="#s11">Counterexample</a></td><td>One failing example disproves it.</td></tr>
+  </table></div>
+</section>
+
+<!-- ============ LOGIC ============ -->
+<section id="logic" data-s>
+  <h2>Logic toolkit</h2>
+  <h3>Relatives of an implication \(P\Rightarrow Q\)</h3>
+  <div class="tablewrap"><table>
+    <tr><th>Name</th><th>Form</th><th>Same meaning as \(P\Rightarrow Q\)?</th></tr>
+    <tr><td><b>Contrapositive</b></td><td>\(\neg Q\Rightarrow\neg P\)</td><td><b>Yes</b> (Thm 7.1)</td></tr>
+    <tr><td>Converse</td><td>\(Q\Rightarrow P\)</td><td>No</td></tr>
+    <tr><td>Inverse</td><td>\(\neg P\Rightarrow\neg Q\)</td><td>No (it matches the <i>converse</i>)</td></tr>
+    <tr><td>Negation</td><td>\(P\wedge\neg Q\)</td><td>No (it's the opposite)</td></tr>
+  </table></div>
+  <p>Reading English: “\(P\) <b>only if</b> \(Q\)” means \(P\Rightarrow Q\). “\(P\) <b>if</b> \(Q\)” means \(Q\Rightarrow P\). “\(P\) <b>if and only if</b> \(Q\)” means both.</p>
+  <h3>Negation chart</h3>
+  <div class="tablewrap"><table>
+    <tr><th>Statement</th><th>Negation</th></tr>
+    <tr><td>\(P\wedge Q\)</td><td>\(\neg P\vee\neg Q\)</td></tr>
+    <tr><td>\(P\vee Q\)</td><td>\(\neg P\wedge\neg Q\)</td></tr>
+    <tr><td>\(P\Rightarrow Q\)</td><td>\(P\wedge\neg Q\)</td></tr>
+    <tr><td>\(\forall x\in S,\ R(x)\)</td><td>\(\exists x\in S,\ \neg R(x)\)</td></tr>
+    <tr><td>\(\exists x\in S,\ R(x)\)</td><td>\(\forall x\in S,\ \neg R(x)\)</td></tr>
+    <tr><td>\(\forall x,\ P(x)\Rightarrow Q(x)\)</td><td>\(\exists x,\ P(x)\wedge\neg Q(x)\)</td></tr>
+    <tr><td>\(x\) even / \(a\mid b\) / \(x\in A\) / \(x&lt;y\)</td><td>\(x\) odd (for \(x\in\mathbb{Z}\)) / \(a\nmid b\) / \(x\notin A\) / \(x\ge y\)</td></tr>
+  </table></div>
+  <h3>What each technique assumes</h3>
+  <div class="tablewrap"><table>
+    <tr><th>To prove \(P\Rightarrow Q\) by…</th><th>Assume</th><th>Goal</th></tr>
+    <tr><td>Direct</td><td>\(P\)</td><td>\(Q\)</td></tr>
+    <tr><td>Contrapositive</td><td>\(\neg Q\)</td><td>\(\neg P\)</td></tr>
+    <tr><td>Contradiction</td><td>\(P\) and \(\neg Q\)</td><td>Something false</td></tr>
+  </table></div>
+</section>
+
+<!-- ============ JUSTIFICATIONS ============ -->
+<section id="just" data-s>
+  <h2>Justification vocabulary</h2>
+  <p>For problems that say “giving a <i>single</i> justification for every step,” each line cites exactly one of these:</p>
+  <div class="tablewrap"><table>
+    <tr><th>Justification</th><th>Use it to go from… to…</th></tr>
+    <tr><td>Definition of \(\cap\), \(\cup\), \(-\), complement, \(\subseteq\), set equality</td><td>Set notation \(\leftrightarrow\) logic (\(x\in A\cap B\leftrightarrow x\in A\wedge x\in B\))</td></tr>
+    <tr><td>De Morgan's law</td><td>\(\neg(P\wedge Q)\leftrightarrow\neg P\vee\neg Q\) (and the “or” version)</td></tr>
+    <tr><td>Double negation</td><td>\(\neg\neg P\leftrightarrow P\), e.g. \(\neg(x\notin Y)\leftrightarrow x\in Y\)</td></tr>
+    <tr><td>Distributive law (logic)</td><td>\(P\wedge(Q\vee R)\leftrightarrow(P\wedge Q)\vee(P\wedge R)\)</td></tr>
+    <tr><td>Addition (\(P\Rightarrow P\vee Q\)); the book often just says “by tautology”</td><td>From \(x\in A\) to “\(x\in A\) or \(x\in B\)”</td></tr>
+    <tr><td>Simplification (\(P\wedge Q\Rightarrow P\))</td><td>From “\(x\in A\) and \(x\in B\)” to \(x\in A\)</td></tr>
+    <tr><td>Disjunctive syllogism</td><td>From \(P\vee Q\) and \(\neg P\) to \(Q\)</td></tr>
+    <tr><td>Assumption / substitution</td><td>Using a hypothesis, or replacing equal sets</td></tr>
+    <tr><td>Proof by cases</td><td>Concluding after every case reaches the goal</td></tr>
+  </table></div>
+</section>
+
+<!-- ============ FACTS ============ -->
+<section id="facts" data-s>
+  <h2>Facts you can use &amp; classic counterexamples</h2>
+  <div class="grid2">
+    <div class="card ok"><span class="lbl">Facts you can cite (results, examples &amp; exercises)</span>
+      <b>Parity &amp; divisibility</b><br>
+      Every integer is even or odd, never both (axiom, §6.A).<br>
+      \(n^2\) odd \(\iff n\) odd (Prop 7.16).<br>
+      \(3\mid n\iff 3\mid n^2\) (Exercise 8.5) — the key lemma for \(\sqrt3\).<br>
+      \(a\mid b,\ b\mid c\Rightarrow a\mid c\) (Prop 7.13).<br>
+      \(a\mid b,\ a\mid c\Rightarrow a\mid(bx+cy)\) (Thm 7.15).<br>
+      <b>Congruence mod \(n\)</b><br>
+      Every integer is exactly one of \(3k,3k+1,3k+2\) (Example 8.14).<br>
+      \(a\equiv b\Rightarrow ac\equiv bc\) (Prop 8.13).<br>
+      \(a\equiv b,\ b\equiv c\Rightarrow a\equiv c\) (Exercise 8.4).<br>
+      \(a\equiv b,\ c\equiv d\Rightarrow ac\equiv bd\) (Exercise 8.7).<br>
+      Squares are \(\equiv0\) or \(1\pmod4\) (Exercise 8.3).<br>
+      <b>Real numbers</b><br>
+      \(ab=0\iff a=0\) or \(b=0\) (Thm 8.9).<br>
+      \(|x+y|\le|x|+|y|\) (Thm 8.21) and \(|xy|=|x||y|\) (Thm 8.22).<br>
+      Rational \(+\) irrational is irrational; <b>nonzero</b> rational \(\times\) irrational is irrational (Exercises 9.6–9.7).
+    </div>
+    <div class="card warn"><span class="lbl">Classic counterexamples</span>
+      \(a\mid b\) and \(b\mid a\) but \(a\ne b\): \(a=2,b=-2\).<br>
+      \(a\mid2b\) but \(a\nmid b\): \(a=2,b=1\).<br>
+      \(a^2\mid b^3\) but \(a\nmid b\): \(a=8,b=4\).<br>
+      \(a\nmid b\), \(a\nmid c\), but \(a\mid bc\): \(a=4,b=c=2\).<br>
+      Rational \(\times\) irrational rational: \(0\cdot\sqrt2\).<br>
+      \(A\cup C\subseteq B\cup C\) but \(A\not\subseteq B\): \(A=C=\{1\},B=\varnothing\).<br>
+      \(x&gt;\tfrac12x^2\) fails at \(x=0\).
+    </div>
+  </div>
+</section>
+
+<!-- ============ QUIZ MAP ============ -->
+<section id="quizmap" data-s>
+  <h2>Quiz format (Practice Quiz 2)</h2>
+  <div class="tablewrap"><table>
+    <tr><th>#</th><th>Type</th><th>What to check</th></tr>
+    <tr><td>1(a)</td><td>Evaluate a theorem + proof (A–E)</td><td>Is the theorem true? (Try a counterexample.) Then: cases exhaustive? Divides integers? Proves the converse? Uses one example?</td></tr>
+    <tr><td>1(b)(c)</td><td>True/false</td><td>Converse vs. contrapositive vs. inverse; trivial vs. vacuous; congruence arithmetic.</td></tr>
+    <tr><td>2</td><td>Integer proof</td><td>Parity / divisibility / congruence by direct, contrapositive, or cases.</td></tr>
+    <tr><td>3</td><td>Contradiction / irrationality / existence</td><td>Rational \(=a/b\), \(b\ne0\); lowest terms; counterexamples.</td></tr>
+    <tr><td>4</td><td>Set proof</td><td>Both inclusions; one justification per step.</td></tr>
+  </table></div>
+</section>
+
+<!-- ============ MISTAKES ============ -->
+<section id="mistakes" data-s>
+  <h2>Common mistakes</h2>
+  <p>The errors graders see most, grouped by type. Each has the fix.</p>
+  <div class="card tip"><span class="lbl">If you only remember five</span>
+    <b>1.</b> Examples prove “there exists,” never “for all.”<br>
+    <b>2.</b> New letter for every new number: \(x=2k,\ y=2\ell\).<br>
+    <b>3.</b> Don't divide to solve for an integer — rearrange and factor.<br>
+    <b>4.</b> Contrapositive assumes the <i>negated conclusion</i>; “not (A and B)” is “not A <b>or</b> not B.”<br>
+    <b>5.</b> Cases must cover everything; sets need both inclusions.
+  </div>
+
+  <h3>Setting up the proof</h3>
+  <ul class="mistakes">
+    <li><span class="bad">✗</span> Proving a “for all” statement by checking one or a few examples. <span class="fix">✓</span> Start with “Let \(x\in S\)” (arbitrary). Examples only prove “there exists.” (§11)</li>
+    <li><span class="bad">✗</span> Reusing one letter: “\(x,y\) even, so \(x=2k,\ y=2k\).” <span class="fix">✓</span> \(x=2k,\ y=2\ell\). One letter forces \(x=y\). (see the Question after Prop 7.13)</li>
+    <li><span class="bad">✗</span> Not saying which method you're using. <span class="fix">✓</span> “We work directly / contrapositively / by contradiction.” For prove-or-disprove, open with “Proof.” or “Disproof.” (Advice 11.13)</li>
+    <li><span class="bad">✗</span> Ending on an expression without saying why it qualifies. <span class="fix">✓</span> “Since \(2k^2+1\in\mathbb{Z}\), \(n^2-2n+3\) is even.”</li>
+    <li><span class="bad">✗</span> Using “trivial” to mean “easy, so I'll skip it.” <span class="fix">✓</span> Trivial means the conclusion is always true — still show why. (Warning 6.8)</li>
+  </ul>
+
+  <h3>Logic</h3>
+  <ul class="mistakes">
+    <li><span class="bad">✗</span> Proving the <b>converse</b> by accident: to show “if \(2\mid x\), then \(x\) even,” assuming \(x\) even and showing \(2\mid x\). <span class="fix">✓</span> Contrapositive assumes the <i>negated conclusion</i>. (Exercise 7.4)</li>
+    <li><span class="bad">✗</span> Negating “and” as “and”: not(\(x\) odd and \(y\) even) ≠ “\(x\) even and \(y\) odd.” <span class="fix">✓</span> It's “\(x\) even <b>or</b> \(y\) odd” — usually two cases.</li>
+    <li><span class="bad">✗</span> Proving only one direction of an “if and only if.” <span class="fix">✓</span> Two labeled parts, \((\Rightarrow)\) and \((\Leftarrow)\).</li>
+    <li><span class="bad">✗</span> Reading “\(P\) only if \(Q\)” as \(Q\Rightarrow P\). <span class="fix">✓</span> It's \(P\Rightarrow Q\): “\(5x-1\) is even only if \(x\) is odd” means “if \(5x-1\) is even, then \(x\) is odd.” (Exercise 7.8)</li>
+  </ul>
+
+  <h3>Algebra with integers</h3>
+  <ul class="mistakes">
+    <li><span class="bad">✗</span> Dividing: \(3n=2k\Rightarrow n=\tfrac{2k}{3}\), or \(2b=ac\Rightarrow b=a\cdot\tfrac c2\). The fraction may not be an integer (and “\(a\mid2b\Rightarrow a\mid b\)” is false). <span class="fix">✓</span> Rearrange and factor instead: \(n+7=3n-2n+7=2k-2n+7=2(k-n+3)+1\). (Prop 6.19; Prop 7.12, labeled “False!”)</li>
+    <li><span class="bad">✗</span> Treating \(a\mid b\) as the number \(a\div b\). <span class="fix">✓</span> It's the sentence “\(b=ac\) for some \(c\in\mathbb{Z}\).” (Warning 7.9)</li>
+    <li><span class="bad">✗</span> Deciding \(2\equiv-2\pmod3\) because the numbers differ only by sign. <span class="fix">✓</span> Check \(n\mid(a-b)\): \(2-(-2)=4\) and \(3\nmid4\), so \(2\not\equiv-2\pmod3\). (Example 8.12)</li>
+  </ul>
+
+  <h3>Cases</h3>
+  <ul class="mistakes">
+    <li><span class="bad">✗</span> Cases that miss a possibility (e.g. only \(x-a\ge0\) in an absolute-value proof). <span class="fix">✓</span> Ask: “Is every possibility in some case?” (Prop 8.20)</li>
+    <li><span class="bad">✗</span> Proving “\(x\) even or \(y\) even” with cases “\(x\) even” and “\(y\) even.” That assumes the conclusion. <span class="fix">✓</span> Cases \(P\) and \(\neg P\), or go contrapositive. (Warning 8.7)</li>
+    <li><span class="bad">✗</span> Thinking \(-x\) is always negative, so \(|-x|=x\). <span class="fix">✓</span> If \(x&lt;0\), then \(-x&gt;0\), so \(|x|=-x\) and \(|-x|=-x\ne x\). In general \(|-x|=|x|\). (Warning 8.19)</li>
+    <li><span class="bad">✗</span> “The other case is similar” when it isn't. <span class="fix">✓</span> Only say WLOG when the cases really swap roles.</li>
+  </ul>
+
+  <h3>Contradiction &amp; irrationality</h3>
+  <ul class="mistakes">
+    <li><span class="bad">✗</span> For \(P\Rightarrow Q\), assuming only \(\neg Q\). <span class="fix">✓</span> Assume \(P\) <b>and</b> \(\neg Q\). (Advice 9.3)</li>
+    <li><span class="bad">✗</span> Forgetting “in lowest terms,” so nothing is contradicted at the end. <span class="fix">✓</span> Write “\(\sqrt2=a/b\) with \(a,b\in\mathbb{N}\) in lowest terms”; the final contradiction is with that phrase.</li>
+    <li><span class="bad">✗</span> Jumping from \(3\mid a^2\) to \(3\mid a\) with no reason. <span class="fix">✓</span> Cite or prove Exercise 8.5. Contrapositively: if \(a=3k+1\) or \(3k+2\), then \(a^2=3(3k^2+2k)+1\) or \(3(3k^2+4k+1)+1\), so \(3\nmid a^2\).</li>
+    <li><span class="bad">✗</span> Never stating the contradiction. <span class="fix">✓</span> “…so \(1\) is even, which is false.”</li>
+    <li><span class="bad">✗</span> Ignoring a hypothesis like \(x\ne0\). <span class="fix">✓</span> Note where each hypothesis is used (\(0\cdot\sqrt2\) is rational).</li>
+  </ul>
+
+  <h3>Sets</h3>
+  <ul class="mistakes">
+    <li><span class="bad">✗</span> Proving only one inclusion for \(A=B\). <span class="fix">✓</span> Two labeled parts: \(A\subseteq B\), then \(B\subseteq A\). (Prop 10.7)</li>
+    <li><span class="bad">✗</span> Starting from \(x\in B\) when proving \(A\subseteq B\). <span class="fix">✓</span> Start with an arbitrary \(x\in A\) and end with \(x\in B\). (§10.B)</li>
+    <li><span class="bad">✗</span> Reading \(x\notin X\cup Y\) as “\(x\notin X\) or \(x\notin Y\).” <span class="fix">✓</span> It's <b>and</b>. (Warning 10.6)</li>
+    <li><span class="bad">✗</span> Two reasons in one step when the problem asks for a <i>single</i> justification. <span class="fix">✓</span> Split “De Morgan and double negation” into two lines.</li>
+    <li><span class="bad">✗</span> A Venn diagram as the proof. <span class="fix">✓</span> Use it to plan; chase elements to prove.</li>
+  </ul>
+
+  <h3>Existence &amp; counterexamples</h3>
+  <ul class="mistakes">
+    <li><span class="bad">✗</span> Disproving a “there exists” statement with one example. <span class="fix">✓</span> Its negation is “for all,” so give a general argument.</li>
+    <li><span class="bad">✗</span> Uniqueness without existence (or the reverse). <span class="fix">✓</span> Two labeled parts.</li>
+    <li><span class="bad">✗</span> Handling \(\forall a\ \exists b\) out of order. <span class="fix">✓</span> “Let \(a\)…” first, then “Fix \(b=\)…” (which may depend on \(a\)).</li>
+  </ul>
+</section>
+
+<!-- ============ 6 ============ -->
+<section id="s6" data-s>
+  <h2><span class="ch">§6</span>Direct proofs</h2>
+  <p class="big">Assume the premise, use definitions and algebra, reach the conclusion.</p>
+  <ul class="terms">
+    <li><b>Even:</b> \(n=2k\) for some \(k\in\mathbb{Z}\). <b>Odd:</b> \(n=2k+1\) for some \(k\in\mathbb{Z}\).</li>
+    <li><b>Trivially true:</b> the conclusion is always true. <b>Vacuously true:</b> the premise is never true. (“Trivial, the \(Q\) is true. Vacuous, the premise is bogus.”)</li>
+    <li><b>Theorem / proposition / lemma / corollary:</b> major result / basic result / helper result / quick consequence.</li>
+  </ul>
+  <div class="template">
+    <span class="step">Let \(x\in S\). We work directly. Assume \(P(x)\). <span class="fill">…definitions + algebra…</span> Thus \(Q(x)\). \(\square\)</span>
+  </div>
+  <details><summary>Example: if \(n\) is odd, then \(n^2-2n+3\) is even (Prop 6.18)</summary><div class="a">
+    Let \(n\in\mathbb{Z}\). We work directly. Assume \(n\) is odd, so \(n=2k+1\) for some \(k\in\mathbb{Z}\). Then
+    \[n^2-2n+3=(2k+1)^2-2(2k+1)+3=4k^2+2=2(2k^2+1).\]
+    Since \(2k^2+1\in\mathbb{Z}\), \(n^2-2n+3\) is even. \(\square\)
+  </div></details>
+</section>
+
+<!-- ============ 7 ============ -->
+<section id="s7" data-s>
+  <h2><span class="ch">§7</span>Contrapositive proof</h2>
+  <p class="big">\(P\Rightarrow Q\) is equivalent to \(\neg Q\Rightarrow\neg P\), so prove whichever is easier.</p>
+  <ul class="terms">
+    <li><b>Divides:</b> \(a\mid b\) means \(b=ac\) for some \(c\in\mathbb{Z}\).</li>
+    <li><b>Biconditional:</b> prove \(P\Rightarrow Q\) and \(Q\Rightarrow P\).</li>
+    <li>See the <a href="#logic">logic toolkit</a> for converse / inverse / contrapositive.</li>
+  </ul>
+  <div class="template">
+    <span class="step">Let \(x\in S\). We work contrapositively. Assume \(\neg Q(x)\). <span class="fill">…</span> Thus \(\neg P(x)\). \(\square\)</span>
+  </div>
+  <details><summary>Example: if \(x^2-6x+7\) is odd, then \(x\) is even (Prop 7.6)</summary><div class="a">
+    Let \(x\in\mathbb{Z}\). We work contrapositively. Assume \(x\) is odd, so \(x=2k+1\) for some \(k\in\mathbb{Z}\). Then
+    \[x^2-6x+7=4k^2+4k+1-12k-6+7=4k^2-8k+2=2(2k^2-4k+1),\]
+    which is even since \(2k^2-4k+1\in\mathbb{Z}\). \(\square\)
+  </div></details>
+</section>
+
+<!-- ============ 8 ============ -->
+<section id="s8" data-s>
+  <h2><span class="ch">§8</span>Proof by cases</h2>
+  <p class="big">Split into cases that cover every possibility, and prove the goal in each.</p>
+  <ul class="terms">
+    <li><b>Same parity:</b> both even or both odd.</li>
+    <li><b>Congruence:</b> \(a\equiv b\pmod n\) means \(n\mid(a-b)\).</li>
+    <li><b>Absolute value:</b> \(|a|=a\) if \(a\ge0\), and \(|a|=-a\) if \(a&lt;0\).</li>
+    <li><b>Standard case splits:</b> even/odd; \(3k,\,3k+1,\,3k+2\); \(x\ge0\) / \(x&lt;0\).</li>
+    <li><b>Assuming \(P\vee Q\)</b> gives cases \(P\) and \(Q\) (Advice 8.6). <b>Proving \(P\vee Q\)</b> needs cases \(P\) and \(\neg P\) (Warning 8.7).</li>
+  </ul>
+  <div class="template">
+    <span class="step"><b>Case 1:</b> \(x=2k\). <span class="fill">…</span> <b>Case 2:</b> \(x=2k+1\). <span class="fill">…</span> In every case, <span class="fill">[goal]</span>. \(\square\)</span>
+  </div>
+  <details><summary>Example: \(x^3\equiv x\pmod3\) (Prop 8.15)</summary><div class="a">
+    Let \(x\in\mathbb{Z}\). By Example 8.14, \(x=3k\), \(3k+1\), or \(3k+2\) for some \(k\in\mathbb{Z}\).<br>
+    Case \(x=3k\): \(x^3-x=3(9k^3-k)\).<br>
+    Case \(x=3k+1\): \(x^3-x=3(9k^3+9k^2+2k)\).<br>
+    Case \(x=3k+2\): \(x^3-x=3(9k^3+18k^2+11k+2)\).<br>
+    So \(3\mid(x^3-x)\) in every case, i.e. \(x^3\equiv x\pmod3\) by the definition of congruence. \(\square\)
+  </div></details>
+</section>
+
+<!-- ============ 9 ============ -->
+<section id="s9" data-s>
+  <h2><span class="ch">§9</span>Proof by contradiction</h2>
+  <p class="big">Assume the statement is false and derive something impossible.</p>
+  <ul class="terms">
+    <li><b>For \(P\Rightarrow Q\):</b> assume \(P\) and \(\neg Q\).</li>
+    <li><b>Irrational:</b> a real number that isn't \(a/b\) with \(a,b\in\mathbb{Z}\), \(b\ne0\).</li>
+    <li><b>Best for</b> negative-sounding claims; if a direct proof works, prefer it.</li>
+  </ul>
+  <div class="template">
+    <span class="step">Assume, by way of contradiction, that <span class="fill">[negation]</span>. <span class="fill">…</span> This contradicts <span class="fill">[fact]</span>. \(\square\)</span>
+  </div>
+  <details><summary>Example: \(\sqrt2\) is irrational (Thm 9.8)</summary><div class="a">
+    Assume, by way of contradiction, that \(\sqrt2\in\mathbb{Q}\). Write \(\sqrt2=a/b\) with \(a,b\in\mathbb{N}\) in lowest terms. Squaring and clearing denominators gives \(a^2=2b^2\), so \(a^2\) is even, hence \(a\) is even (Prop 7.16). Write \(a=2x\) with \(x\in\mathbb{Z}\). Then \(4x^2=2b^2\), so \(b^2=2x^2\) is even, hence \(b\) is even (Prop 7.16). Now \(a\) and \(b\) are both even, contradicting lowest terms. \(\square\)
+  </div></details>
+</section>
+
+<!-- ============ 10 ============ -->
+<section id="s10" data-s>
+  <h2><span class="ch">§10</span>Proofs in set theory</h2>
+  <p class="big">Prove set statements one arbitrary element at a time.</p>
+  <ul class="terms">
+    <li><b>\(x\in A\):</b> check every condition in \(A\)'s description.</li>
+    <li><b>\(A\subseteq B\):</b> let \(x\in A\); show \(x\in B\).</li>
+    <li><b>\(A=B\):</b> show \(A\subseteq B\) and \(B\subseteq A\).</li>
+    <li><b>Definitions:</b> \(\cup\) = or, \(\cap\) = and, \(A-B\) = in \(A\) and not in \(B\), \(\bigcup_i S_i\) = in <i>some</i> \(S_i\), \(\bigcap_i S_i\) = in <i>every</i> \(S_i\), \(\overline A\) = in \(U\) and not in \(A\).</li>
+  </ul>
+  <div class="tablewrap"><table>
+    <tr><th>Law</th><th>Statement</th></tr>
+    <tr><td>Commutative / associative</td><td>\(A\cap B=B\cap A\); \((A\cup B)\cup C=A\cup(B\cup C)\)</td></tr>
+    <tr><td>Distributive</td><td>\(A\cap(B\cup C)=(A\cap B)\cup(A\cap C)\); \(A\cup(B\cap C)=(A\cup B)\cap(A\cup C)\)</td></tr>
+    <tr><td>Identity / complement</td><td>\(A\cup\varnothing=A\), \(A\cap U=A\); \(A\cup\overline A=U\), \(A\cap\overline A=\varnothing\)</td></tr>
+    <tr><td>De Morgan / double negation</td><td>\(\overline{A\cup B}=\overline A\cap\overline B\), \(\overline{A\cap B}=\overline A\cup\overline B\); \(\overline{\overline A}=A\)</td></tr>
+  </table></div>
+  <details><summary>Example: \(\{x\in\mathbb{Z}:4\mid x\}\subseteq\{x\in\mathbb{Z}:2\mid x\}\) (Prop 10.3)</summary><div class="a">
+    Let \(a\) be in the first set: \(a=4m\). Then \(a=2(2m)\), so \(2\mid a\) and \(a\) is in the second set. \(\square\)
+  </div></details>
+</section>
+
+<!-- ============ 11 ============ -->
+<section id="s11" data-s>
+  <h2><span class="ch">§11</span>Existence proofs &amp; counterexamples</h2>
+  <p class="big">To prove “there exists,” give one; to disprove “for all,” give one that fails.</p>
+  <ul class="terms">
+    <li><b>Constructive:</b> “Fix \(x=\dots\).” <b>Nonconstructive:</b> show existence without naming it (cases, IVT).</li>
+    <li><b>Uniqueness \(\exists!\):</b> existence, then assume two solutions and show they're equal.</li>
+  </ul>
+  <div class="tablewrap"><table>
+    <tr><th>To…</th><th>Show…</th></tr>
+    <tr><td>Prove \(\forall x,\ R(x)\)</td><td>General argument for arbitrary \(x\)</td></tr>
+    <tr><td>Prove \(\exists x,\ R(x)\)</td><td>One example</td></tr>
+    <tr><td>Disprove \(\forall x,\ R(x)\)</td><td>One counterexample</td></tr>
+    <tr><td>Disprove \(\exists x,\ R(x)\)</td><td>General argument that \(R(x)\) always fails</td></tr>
+  </table></div>
+  <details><summary>Example: every odd \(n\) equals \((x+1)^2-x^2\) for exactly one \(x\in\mathbb{Z}\) (Prop 11.11)</summary><div class="a">
+    Let \(n\) be odd, so \(n=2k+1\) for some \(k\in\mathbb{Z}\).<br>
+    <b>Existence:</b> Fix \(x=k\). Then \((k+1)^2-k^2=2k+1=n\).<br>
+    <b>Uniqueness:</b> Assume \(n=(x+1)^2-x^2\) and \(n=(y+1)^2-y^2\). Expanding gives \(2x+1=2y+1\), so \(x=y\). \(\square\)
+  </div></details>
+</section>
+
+<!-- ============ FLASHCARDS ============ -->
+<section id="cards" data-s>
+  <h2>Self-check flashcards</h2>
+  <p>Answer in your head, then click to check.</p>
+  <details><summary>Is “If \(x\in\mathbb{R}\) and \(x^2&lt;0\), then \(x=5\)” trivial, vacuous, both, or neither?</summary><div class="a">Vacuous only — the premise is never true, but \(x=5\) can be false.</div></details>
+  <details><summary>For \(x\in\mathbb{N}\): “if \(x\in\varnothing\), then \(x&gt;0\).” Trivial, vacuous, both, or neither?</summary><div class="a">Both: the premise never holds and the conclusion always holds. (Example 6.15)</div></details>
+  <details><summary>A proof assumes \(x\) even and \(y\) odd and shows \((x+1)y\) is odd. Which statements does it prove?</summary><div class="a">Two: “if \(x\) even and \(y\) odd, then \((x+1)y\) odd” (directly), and “if \((x+1)y\) is even, then \(x\) is odd or \(y\) is even” (contrapositively). (§7.D)</div></details>
+  <details><summary>What is the contrapositive of “If \(a\mid c\) and \(b\mid d\), then \(ab\mid cd\)”?</summary><div class="a">“If \(ab\nmid cd\), then \(a\nmid c\) <b>or</b> \(b\nmid d\).”</div></details>
+  <details><summary>Which of converse, inverse, contrapositive means the same as \(P\Rightarrow Q\)?</summary><div class="a">The contrapositive. (The converse and inverse match each other.)</div></details>
+  <details><summary>“\(5x-1\) is even only if \(x\) is odd.” What do you prove?</summary><div class="a">If \(5x-1\) is even, then \(x\) is odd.</div></details>
+  <details><summary>Is \(2\equiv-2\pmod3\)?</summary><div class="a">No: \(2-(-2)=4\), and \(3\nmid4\).</div></details>
+  <details><summary>If \(a\equiv3\pmod5\), what is \(a^2\) mod 5?</summary><div class="a">\(a=5k+3\) for some \(k\in\mathbb{Z}\), so \(a^2=25k^2+30k+9=5(5k^2+6k+1)+4\). Thus \(5\mid(a^2-4)\), i.e. \(a^2\equiv4\pmod5\).</div></details>
+  <details><summary>What can a perfect square be mod 4?</summary><div class="a">Only 0 or 1.</div></details>
+  <details><summary>To prove “\(x\) even or \(y\) even,” what cases work?</summary><div class="a">“\(x\) even” (done) and “\(x\) odd” (then show \(y\) even) — or contrapositive: assume both odd.</div></details>
+  <details><summary>For a contradiction proof of \(P\Rightarrow Q\), what do you assume?</summary><div class="a">\(P\) and \(\neg Q\).</div></details>
+  <details><summary>Why does the \(\sqrt2\) proof need “lowest terms”?</summary><div class="a">The contradiction is that \(a\) and \(b\) are both even — impossible only if the fraction was reduced.</div></details>
+  <details><summary>Is a rational times an irrational always irrational?</summary><div class="a">No: \(0\cdot\sqrt2=0\). True for a <b>nonzero</b> rational.</div></details>
+  <details><summary>Is \(0\in\{x\in\mathbb{N}: x\text{ is a perfect square}\}\)?</summary><div class="a">No: \(0\notin\mathbb{N}\), so it fails the first condition. (§10.A)</div></details>
+  <details><summary>What does \(x\notin S-T\) mean?</summary><div class="a">\(x\notin S\) or \(x\in T\).</div></details>
+  <details><summary>Prove or disprove: if \(A\cup C\subseteq B\cup C\), then \(A\subseteq B\).</summary><div class="a">False: \(A=C=\{1\}\), \(B=\varnothing\).</div></details>
+  <details><summary>What are \(\bigcup_{n\in\mathbb{N}}\{m\in\mathbb{Z}:m\le n\}\) and \(\bigcap_{n\in\mathbb{N}}\{m\in\mathbb{Z}:m\le n\}\)?</summary><div class="a">\(\mathbb{Z}\) and \(\{m\in\mathbb{Z}:m\le1\}\).</div></details>
+  <details><summary>How do you disprove “\(\exists x\in\mathbb{R},\ x^2&lt;-1\)”?</summary><div class="a">Show every \(x\) fails: \(x^2\ge0&gt;-1\).</div></details>
+  <details><summary>Counterexample to “if \(a\mid b\) and \(b\mid a\), then \(a=b\)”?</summary><div class="a">\(a=2,\ b=-2\).</div></details>
+  <details><summary>How do you prove uniqueness?</summary><div class="a">Assume \(x\) and \(y\) both work; show \(x=y\). Prove existence separately.</div></details>
+  <details><summary>“\(3n=2k\), so \(n=2(k/3)\) is even.” What's wrong?</summary><div class="a">\(k/3\in\mathbb{Z}\) is never justified. Use \(n=3n-2n=2(k-n)\).</div></details>
+  <details><summary>Is \(x^2+x\) ever odd for \(x\in\mathbb{Z}\)?</summary><div class="a">Never: \(x^2+x=x(x+1)\), and one of two consecutive integers is even.</div></details>
+</section>
+</main>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded",function(){
+  if(window.renderMathInElement){
+    renderMathInElement(document.body,{delimiters:[{left:"\\[",right:"\\]",display:true},{left:"\\(",right:"\\)",display:false}],throwOnError:false});
+  }
+  var root=document.documentElement;
+  try{var t=localStorage.getItem("m290-theme"); if(t) root.setAttribute("data-theme",t);}catch(e){}
+  document.getElementById("theme").onclick=function(){
+    var cur=root.getAttribute("data-theme");
+    var dark=cur? cur==="dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+    var next=dark?"light":"dark"; root.setAttribute("data-theme",next);
+    try{localStorage.setItem("m290-theme",next);}catch(e){}
+  };
+  var all=function(o){document.querySelectorAll("details").forEach(function(d){d.open=o;});};
+  document.getElementById("openAll").onclick=function(){all(true)};
+  document.getElementById("closeAll").onclick=function(){all(false)};
+  var q=document.getElementById("q");
+  q.addEventListener("input",function(){
+    var v=q.value.trim().toLowerCase();
+    document.querySelectorAll("section[data-s] .card, section[data-s] details, section[data-s] .mistakes li, section[data-s] tr").forEach(function(el){
+      if(el.querySelector && el.querySelector("th")) return;
+      el.classList.toggle("hidden", v!=="" && el.textContent.toLowerCase().indexOf(v)===-1);
+    });
+  });
+  var links=[].slice.call(document.querySelectorAll("nav.side a"));
+  var obs=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.toggle("active",a.getAttribute("href")==="#"+e.target.id);});}});},{rootMargin:"-30% 0px -60% 0px"});
+  document.querySelectorAll("section[data-s]").forEach(function(s){obs.observe(s);});
+});
+</script>
+</body>
+</html>

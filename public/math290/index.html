@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Math 290 Practice Quizzes</title>
+<title>Math 290 Quiz 2 Prep</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
@@ -29,18 +29,66 @@
     border-bottom: 6px solid var(--blue);
     padding-inline: 16px;
   }
-  .header-inner { max-width: 1000px; margin: 0 auto; padding-block: 40px 36px; }
-  .eyebrow {
-    margin: 0 0 10px;
+  .header-inner { max-width: 1000px; margin: 0 auto; padding-block: 16px 36px; }
+  .site-nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px 20px;
+    margin-bottom: 32px;
     font-size: 0.8rem;
     font-weight: 600;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: #b8cde2;
   }
+  .site-nav .brand { color: #b8cde2; margin-right: auto; }
+  .site-nav a { color: #fff; text-decoration: none; padding-block: 4px; border-bottom: 2px solid transparent; }
+  .site-nav a:hover { border-bottom-color: #fff; }
   header h1 { margin: 0 0 8px; font-size: 2.4rem; font-weight: 700; text-wrap: balance; }
   header p { margin: 0; color: #dbe5ef; }
   main { max-width: 1000px; margin: 0 auto; padding: 32px 16px 48px; }
+  .section + .section { margin-top: 48px; }
+  .section-title {
+    margin: 0 0 4px;
+    font-size: 1.5rem;
+    color: var(--blue-dark);
+  }
+  .section-lede { margin: 0 0 20px; color: var(--muted); }
+  .review-card {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 16px 32px;
+    padding: 24px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-left: 6px solid var(--blue);
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 46, 93, 0.08);
+    color: inherit;
+    text-decoration: none;
+  }
+  .review-card:hover { border-color: var(--blue); }
+  .review-card:hover .review-go { background: var(--blue-dark); }
+  .review-card h3 { margin: 0 0 4px; font-size: 1.25rem; color: var(--blue-dark); }
+  .review-card p { margin: 0 0 14px; color: var(--muted); font-size: 0.95rem; }
+  .topics { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
+  .topics li {
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: var(--blue-light);
+    color: var(--blue-dark);
+  }
+  .review-go {
+    padding: 10px 18px;
+    border-radius: 4px;
+    background: var(--blue);
+    color: #fff;
+    font-weight: 600;
+    white-space: nowrap;
+  }
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -54,7 +102,7 @@
     background: #fff;
     box-shadow: 0 1px 3px rgba(0, 46, 93, 0.08);
   }
-  .card h2 {
+  .card h3 {
     margin: 0 0 16px;
     font-size: 1.25rem;
     color: var(--blue-dark);
@@ -73,7 +121,7 @@
     color: #fff;
     font-weight: 700;
   }
-  .card h2 small {
+  .card h3 small {
     margin-left: auto;
     font-size: 0.75rem;
     font-weight: 600;
@@ -177,6 +225,8 @@
 
   footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding: 0 16px 32px; }
   @media (max-width: 600px) {
+    .review-card { grid-template-columns: 1fr; }
+    .review-go { justify-self: start; }
     .icon-btn .label { display: none; }
     .viewer-page { padding: 0; }
     .viewer iframe { border-radius: 0; box-shadow: none; }
@@ -186,14 +236,42 @@
 <body>
 <header>
   <div class="header-inner">
-    <p class="eyebrow">BYU &middot; Math 290</p>
-    <h1>Math 290 Practice Quizzes</h1>
-    <p>Practice Quiz 2 &middot; Extra practice, Sections 6&ndash;11</p>
+    <nav class="site-nav">
+      <span class="brand">BYU &middot; Math 290</span>
+      <a href="#review">Review</a>
+      <a href="#quizzes">Practice quizzes</a>
+    </nav>
+    <h1>Math 290 Quiz 2 Prep</h1>
+    <p>Review and practice for Sections 6&ndash;11</p>
   </div>
 </header>
 
 <main>
-  <div class="grid" id="grid"></div>
+  <section class="section" id="review">
+    <h2 class="section-title">Review</h2>
+    <p class="section-lede">Every proof technique from Sections 6&ndash;11 on one page, with templates, common mistakes and flashcards.</p>
+    <a class="review-card" href="Math290_Ch6-11_Review.html">
+      <div>
+        <h3>Proof Techniques Review</h3>
+        <p>Doud &amp; Nielsen, <i>A Transition to Advanced Mathematics</i></p>
+        <ul class="topics">
+          <li>&sect;6 Direct</li>
+          <li>&sect;7 Contrapositive</li>
+          <li>&sect;8 Cases</li>
+          <li>&sect;9 Contradiction</li>
+          <li>&sect;10 Sets</li>
+          <li>&sect;11 Existence</li>
+        </ul>
+      </div>
+      <span class="review-go">Open review &rarr;</span>
+    </a>
+  </section>
+
+  <section class="section" id="quizzes">
+    <h2 class="section-title">Practice quizzes</h2>
+    <p class="section-lede">The original Practice Quiz 2 plus seven more versions, each with full solutions.</p>
+    <div class="grid" id="grid"></div>
+  </section>
 </main>
 
 <footer>View a PDF in the browser or download it to keep.<br>Student-made study materials. Not an official BYU page.</footer>
@@ -237,7 +315,7 @@
 
   grid.innerHTML = versions.map(v => `
       <div class="card">
-        <h2>${v.badge ? `<span class="badge">${v.badge}</span> ` : ""}${v.name}${v.note ? `<small>${v.note}</small>` : ""}</h2>
+        <h3>${v.badge ? `<span class="badge">${v.badge}</span> ` : ""}${v.name}${v.note ? `<small>${v.note}</small>` : ""}</h3>
         ${row("Quiz", v.base + ".pdf", `${v.name} — Quiz`)}
         ${row("Solutions", v.base + "_Solutions.pdf", `${v.name} — Solutions`)}
       </div>`).join("");

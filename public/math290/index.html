@@ -96,42 +96,76 @@
 
   /* PDF viewer */
   .viewer {
-    display: none;
     position: fixed; inset: 0;
-    background: rgba(15, 23, 42, 0.6);
-    padding: 24px;
     z-index: 10;
-  }
-  .viewer.open { display: flex; }
-  .viewer-box {
-    background: #fff;
-    border-radius: 12px;
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    background: #f1f5f9;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .18s ease, visibility .18s;
   }
+  .viewer.open { opacity: 1; visibility: visible; }
   .viewer-bar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 8px;
-    padding: 10px 16px;
-    background: var(--blue);
-    color: #fff;
+    gap: 12px;
+    padding: 12px 16px;
+    padding-top: calc(12px + env(safe-area-inset-top, 0px));
+    background: #fff;
+    border-bottom: 1px solid var(--border);
   }
-  .viewer-bar strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .viewer-bar .btn { border-color: #fff; }
-  .viewer-bar .btn.dl { background: #fff; }
-  .viewer-bar .btn.close { background: transparent; color: #fff; }
-  .viewer iframe { flex: 1; border: 0; width: 100%; }
+  .viewer-title { flex: 1; min-width: 0; }
+  .viewer-title strong {
+    display: block;
+    color: var(--blue-dark);
+    font-size: 1rem;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .viewer-title span { font-size: 0.8rem; color: var(--muted); }
+  .icon-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    height: 36px;
+    padding: 0 12px;
+    border-radius: 8px;
+    border: 0;
+    background: transparent;
+    color: var(--blue);
+    font: inherit;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .icon-btn:hover { background: var(--blue-light); }
+  .icon-btn svg { width: 18px; height: 18px; }
+  .icon-btn.close { color: var(--muted); padding: 0 8px; }
+  .viewer-page {
+    flex: 1;
+    display: flex;
+    padding: 20px 16px 0;
+    min-height: 0;
+  }
+  .viewer iframe {
+    flex: 1;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 10px 10px 0 0;
+    background: #fff;
+    box-shadow: 0 4px 24px rgba(30, 58, 138, 0.12);
+  }
+  .btn:focus-visible, .icon-btn:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+  body.viewing { overflow: hidden; }
 
   footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding: 0 16px 32px; }
   @media (max-width: 600px) {
-    .viewer { padding: 0; }
-    .viewer-box { border-radius: 0; }
+    .icon-btn .label { display: none; }
+    .viewer-page { padding: 0; }
+    .viewer iframe { border-radius: 0; box-shadow: none; }
   }
 </style>
 </head>
@@ -147,16 +181,22 @@
 
 <footer>View a PDF in the browser or download it to keep.</footer>
 
-<div class="viewer" id="viewer">
-  <div class="viewer-box">
-    <div class="viewer-bar">
-      <strong id="viewer-title"></strong>
-      <div class="btns">
-        <a class="btn dl" id="viewer-dl" download>Download</a>
-        <button class="btn close" id="viewer-close">Close ✕</button>
-      </div>
+<div class="viewer" id="viewer" role="dialog" aria-modal="true" aria-labelledby="viewer-name">
+  <div class="viewer-bar">
+    <div class="viewer-title">
+      <strong id="viewer-name"></strong>
+      <span>Math 290 &middot; Practice Quiz 2</span>
     </div>
-    <iframe id="viewer-frame" title="PDF viewer"></iframe>
+    <a class="icon-btn" id="viewer-dl" download>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg>
+      <span class="label">Download</span>
+    </a>
+    <button class="icon-btn close" id="viewer-close" aria-label="Close">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </div>
+  <div class="viewer-page">
+    <iframe id="viewer-frame" title="PDF"></iframe>
   </div>
 </div>
 
@@ -191,18 +231,27 @@
   grid.addEventListener("click", e => {
     const btn = e.target.closest(".btn.view");
     if (!btn) return;
-    frame.src = btn.dataset.file;
-    document.getElementById("viewer-title").textContent = btn.dataset.title;
+    // Phones can't show a PDF inside the page well, so open it directly.
+    if (window.matchMedia("(max-width: 600px)").matches) {
+      window.location.href = btn.dataset.file;
+      return;
+    }
+    // Hide the browser's own PDF toolbar; the bar above already has Download.
+    frame.src = btn.dataset.file + "#toolbar=0&navpanes=0&view=FitH";
+    document.getElementById("viewer-name").textContent = btn.dataset.title;
     document.getElementById("viewer-dl").href = btn.dataset.file;
     viewer.classList.add("open");
+    document.body.classList.add("viewing");
+    document.getElementById("viewer-close").focus();
   });
 
   function closeViewer() {
+    if (!viewer.classList.contains("open")) return;
     viewer.classList.remove("open");
+    document.body.classList.remove("viewing");
     frame.src = "about:blank";
   }
   document.getElementById("viewer-close").addEventListener("click", closeViewer);
-  viewer.addEventListener("click", e => { if (e.target === viewer) closeViewer(); });
   document.addEventListener("keydown", e => { if (e.key === "Escape") closeViewer(); });
 </script>
 </body>
